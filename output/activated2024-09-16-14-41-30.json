@@ -1,0 +1,80 @@
+[
+    {
+        "en":"What , you did n't ask her to dance ?",
+        "baseline":"怎么,你没叫她跳舞?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You know , kissing , et cetera , et cetera .",
+        "baseline":"你知道,亲吻,等等,等等。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Well she 's begun to listen .",
+        "baseline":"她开始倾听了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Yes she has .",
+        "baseline":"是的,她有。",
+        "zh":[
+            "是的。",
+            "是的。",
+            "是的。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"You know .",
+        "baseline":"你知道吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"She has .",
+        "baseline":"她有。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Uh , she used to go over and read a book or something .",
+        "baseline":"她过去常去读一本书或者什么东西。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"But uh , once you understand it , you know , you , you 're interested in getting right in , and going after it .",
+        "baseline":"可是,一旦你明白了,你明白了,你, 就感兴趣了, 并且去追求它了.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Because it was Burns that 's been objecting to our having it .",
+        "baseline":"因为伯恩斯一直反对我们这样做。",
+        "zh":[
+            "因为,伯恩斯一直反对我们这样做。",
+            "因为,伯恩斯一直反对我们这样做。",
+            "因为,伯恩斯一直反对我们这样做。",
+            "因为,伯恩斯一直反对我们这样做。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Not necessarily that she would approve of it , but at least she was n't disapproving .",
+        "baseline":"不一定她会赞成,但至少她并不反对。",
+        "zh":[],
+        "fvec":[]
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "en":"Set the cuttings upright in the potting mix about an inch  deep .",
+        "baseline":"把刀片放在刀片混合物中直立,深度约1英寸。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If you plant the cuttings too deep , they might rot .",
+        "baseline":"如果你把树枝植得太深,它们可能会腐烂。",
+        "zh":[
+            "如果你把树枝植得太深,它们可能会腐烂.",
+            "如果你把树枝植得太深,它们可能会腐烂.",
+            "如果你把树枝植得太深,它们可能会腐烂.",
+            "如果你把树枝植得太深,它们可能会腐烂.",
+            "如果你把树枝植得太深,它们可能会腐烂."
+        ],
+        "fvec":[
+            "000000100000000000000000010000000",
+            "000000100000000000000000010000000",
+            "000000100000000000000000010000000",
+            "000000100000000000000000010000000",
+            "000000100000000000000000010000000"
+        ]
+    },
+    {
+        "en":"Put some rocks around the pad to anchor it in place .",
+        "baseline":"把一些岩石放在垫子周围,以固定它。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If you live in an area with strong summer sun , position the cuttings so that the broad sides of the cuttings face east and west while the slim sides face north and south .",
+        "baseline":"如果你生活在强烈的夏日地区,把剪切放在宽阔的侧面向东和西面,而瘦小的侧面向北和南面。",
+        "zh":[
+            "若生活在强烈的夏季阳光下,应将切片定位在切片的宽面面对东和西,而瘦面面对北和南.",
+            "若生活在强烈的夏日地区,把切片定位ისე,切片的宽边面对东和西,而瘦边面对北和南。"
+        ],
+        "fvec":[
+            "000000110000000000000000000000000",
+            "000000010000000000000001000000000"
+        ]
+    },
+    {
+        "en":"This will prevent the cuttings from burning during the hottest part of the day .",
+        "baseline":"这将防止切片在白天最热的时候燃烧。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Wait for a month .",
+        "baseline":"等一个月。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Do not water the cutting for the first month .",
+        "baseline":"不要在头个月浇水。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Too much water might cause rot .",
+        "baseline":"太多的水可能会导致腐烂。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"After 1 month , roots will have sprouted and you can water the cutting for the first time .",
+        "baseline":"在1个月后,根子发芽了,你可以第一次浇水。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Always let the soil dry before you water the cuttings .",
+        "baseline":"在浇水切片之前,一定要让土壤干燥。",
+        "zh":[],
+        "fvec":[]
+    }
+]

@@ -1,0 +1,94 @@
+[
+    {
+        "en":"This translates in many ways , even sometimes lowering initial offering prices at markets .",
+        "baseline":"这在许多方面都有意义,甚至有时会降低市场初盘价格。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Wear shoes that slip on and off easily .",
+        "baseline":"穿易滑的鞋。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"only in the most top - end establishments are shoes required .",
+        "baseline":"只有在最高级的机构里才需要鞋子。",
+        "zh":[
+            "只有在最上层的机构里需要鞋子.",
+            "只有在最上层的机构里需要鞋子.",
+            "只有在最上层的机构里需要鞋子.",
+            "只有在最上层的机构里需要鞋子.",
+            "只有在最上层的机构里需要鞋子.",
+            "只有在最上层的机构里需要鞋子.",
+            "只有在最上层的机构里需要鞋子.",
+            "只有在最上层的机构里需要鞋子.",
+            "只有在最上层的机构里需要鞋子.",
+            "只有在最上层的机构里需要鞋子."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Topless sunbathing is common by Western women at many tourist beaches .",
+        "baseline":"西式妇女在许多旅游海滩上经常不戴顶头晒太阳。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Therefore , should you wish to donate to a monk , you should only offer food , and put your monetary donation in the appropriate donation box at the temple .",
+        "baseline":"因此,如果你想捐赠给一个修道士,你应该只提供食物,并把钱捐入神庙的适当捐赠箱里。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Tulsa is in the Green Country region of Oklahoma .",
+        "baseline":"图尔萨位于俄克拉荷马州绿地地区。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It is also called “ T - town ” by the locals and has been called the \" Oil Capital of the World \" .",
+        "baseline":"当地人也称它为“ T - 镇 ”,并被称为“ 世界石油首都 ” 。",
+        "zh":[
+            "当地也称它为“T-城镇”,并被称为“世界石油首都”.",
+            "当地也称它为“T-城镇”,并被称为“世界石油首都”.",
+            "当地人也称它为“特镇”,并被称为“世界石油首都”.",
+            "当地也称它为“T-城镇”,并被称为“世界石油首都”."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"The Tulsa Bartlesville Combined area had 988,000 in the 2010 census .",
+        "baseline":"在2010年人口普查中,图尔萨巴特尔斯维尔联合区共有988,000人。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The winters are considered to be very mild .",
+        "baseline":"冬季被认为是非常温和的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There is not much snow , just a few inches each year , typically , although in 2007 and again in 2008 there were rather large \" ice storms \" .",
+        "baseline":"雪很少,每年只有几英寸,虽然在2007年和2008年也有相当大的“冰暴”。",
+        "zh":[],
+        "fvec":[]
+    }
+]

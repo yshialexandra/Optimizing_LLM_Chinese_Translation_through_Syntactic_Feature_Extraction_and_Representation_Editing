@@ -1,0 +1,66 @@
+[
+    {
+        "en":"Chao taught mathematics at Tsinghua University and , one year later , returned to the United States to teach at Harvard .",
+        "baseline":"蔡教授清华大学数学,一年后回到美国,在哈佛教授。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"He again returned to China in 1925 , teaching at Tsinghua , and beginning a survey of the Wu dialects in 1926 .",
+        "baseline":"1925年,他又回到中国,在清华大学教书,1926年开始对吴方言进行调查。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"He became an American citizen in 1954 .",
+        "baseline":"1954年,他成为美国公民。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In the 1950s he was among the first members of the Society for General Systems Research .",
+        "baseline":"1950年代,他成为一般系统研究学会的第一位成员。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Both Chao and Yang were known for their good senses of humor , he particularly for his love of subtle jokes and language puns : they published a family history entitled , Life with Chaos : the autobiography of a Chinese family .",
+        "baseline":"赵和杨都以幽默感而闻名,他尤其以他对微妙的笑话和语言短语的爱好著称:他们出版了一份家族史,题为《与赵生活:中国家庭自传》。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Late in his life , he was invited by Deng Xiaoping to return to China in 1981 .",
+        "baseline":"晚些时候,他被邓小平邀请到1981年回到中国。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"He visited China again between May and June in 1981 after his wife died in March the same year .",
+        "baseline":"1981年5月至6月期间,他再次访问中国,同年3月妻子去世后。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The prize was awarded to Dvořák in 1874  and again in 1876 and in 1877 , when Brahms and the prominent critic Eduard Hanslick , also a member of the jury , made themselves known to him .",
+        "baseline":"该奖于1874年授予德沃拉克,并于1876年和1877年再次授予他,当时布拉姆斯和著名评论家爱德华·汉斯利克(Eduard Hanslick),也是陪审团成员,向他宣称自己。",
+        "zh":[
+            "該獎項於1874年頒給Dvořák,又於1876年和1877年頒給Brahms。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Dvořák 's first piece of a religious nature , his setting of Stabat Mater , was premiered in Prague in 1880 .",
+        "baseline":"德沃拉克的第一部宗教作品,他的《Stabat Mater》场景,于1880年在布拉格首演。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Born in England , Norton spent most of his early life in South Africa .",
+        "baseline":"诺顿出生在英格兰,他大部分早期生活都在南非。",
+        "zh":[],
+        "fvec":[]
+    }
+]

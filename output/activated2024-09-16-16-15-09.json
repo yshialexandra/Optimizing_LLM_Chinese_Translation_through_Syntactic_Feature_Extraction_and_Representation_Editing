@@ -1,0 +1,68 @@
+[
+    {
+        "en":"Americans will judge .",
+        "baseline":"美国人会判断。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Who refused to shrink from the heavy responsibilities of their oath ?",
+        "baseline":"谁拒绝缩小他们宣誓的沉重责任?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They made their case with intellect .",
+        "baseline":"他们用智慧来辩护。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And they will remember who on this day abided by the truth , the whole truth , and nothing but the truth .",
+        "baseline":"他们将记住今天谁坚持真理, 全真理, 只有真理.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The orderly transfer of authority as called for in the Constitution routinely takes place , as it has for almost two centuries , and few of us stop to think how unique we really are .",
+        "baseline":"正如宪法所要求的那样,权力的有序转移是经常发生的,这已经持续了近两个世纪了,我们当中很少有人会停下来思考我们到底有多独特。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We suffer from the longest and one of the worst sustained inflations in our national history .",
+        "baseline":"我们遭受了我国历史上最长的持续通货膨胀和最严重的持续通货膨胀。",
+        "zh":[
+            "我国历史上的通货膨胀是最长期和最持续的通货膨胀之一。",
+            "我国历史上的通货膨胀是最长期和最持续的通货膨胀之一。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"We must act today in order to preserve tomorrow .",
+        "baseline":"我们必须今天行动,才能保卫明天。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And let there be no misunderstanding : We are going to begin to act , beginning today .",
+        "baseline":"让我们不要误解:我们今天开始行动。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The economic ills we suffer have come upon us over several decades .",
+        "baseline":"几十年来,我们所遭受的经济弊端已经临到我们头上。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They will not go away in days , weeks , or months , but they will go away .",
+        "baseline":"它们不会在几天、星期、或几个月里消失,但它们会消失。",
+        "zh":[],
+        "fvec":[]
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "en":"Say you want to fly from Chicago to Rome .",
+        "baseline":"比如你想从芝加哥飞往罗马。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"For example , imagine you have to describe to worried school officials the fire that broke out in your room when your roommate tried cooking shish kebabs in the fireplace .",
+        "baseline":"例如,想象你必须向担心的学校官员描述你房间里发生火灾时,你的同室同学在炉子里尝试煮shishkebab。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"But Einstein showed that there is an intimate connection between space and time , and that only by considering the two together — in what we call spacetime — can we build up a correct picture of the physical world .",
+        "baseline":"但爱因斯坦表明,空间与时间之间存在着密切的联系,只有考虑到两者 — — 我们称之为空间时间 — — 我们才能建立一个正确的物理世界。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"General relativity does , however , have some practical applications .",
+        "baseline":"一般相对论确实有一些实际应用。",
+        "zh":[
+            "然而,一般相对论有一些实际应用.",
+            "然而,一般相对论有一些实际应用.",
+            "然而,一般相对论有一些实际应用.",
+            "然而,一般相对论有一些实际应用.",
+            "然而,一般相对论有一些实际应用.",
+            "然而,一般相对论有一些实际应用.",
+            "然而,一般相对论有一些实际应用.",
+            "然而,一般相对论有一些实际应用.",
+            "然而,一般相对论有一些实际应用.",
+            "然而,一般相对论有一些实际应用."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"A white dwarf , with its stronger surface gravity , produces more distortion just above its surface than does a red giant with the same mass .",
+        "baseline":"白矮星具有较强的表面重力,在其表面上产生比具有相同的质量的红巨星更多的扭曲。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So , you see , we are eventually going to talk about collapsing stars again , but not before discussing Einstein ’s ideas  in more detail .",
+        "baseline":"因此,你看到,我们最终将再次谈论崩溃的恒星,但不是在讨论爱因斯坦的更多细节之前。",
+        "zh":[
+            "因此,你看,我们最终将再次谈论掉落的星星,但不是在详细讨论爱因斯坦的想法之前。",
+            "因此,你看,我们最终将再次谈论掉落的星星,但不是在详细讨论爱因斯坦的想法之前。",
+            "因此,你看,我们最终将再次谈论掉落的星星,但不是在详细讨论爱因斯坦的想法之前。",
+            "因此,你看,我们最终将再次谈论掉落的星星,但不是在详细讨论爱因斯坦的想法之前。",
+            "因此,你看,我们最终将再次谈论掉落的星星,但不是在详细讨论爱因斯坦的想法之前。",
+            "因此,你看,我们最终将再次谈论崩塌的星星,但不是在详细讨论爱因斯坦的想法之前。"
+        ],
+        "fvec":[
+            "000000000000000100000000000000000",
+            "000000000000000100000000000000000",
+            "000000000000000100000000000000000",
+            "000000000000000100000000000000000",
+            "000000000000000100000000000000000",
+            "000000000000000100000000000000000"
+        ]
+    },
+    {
+        "en":"Let ’s do something similar with diagrams of spacetime .",
+        "baseline":"让我们用时空图做类似的事情。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Let ’s imagine stretching our rubber sheet taut on four posts .",
+        "baseline":"让我们想象 stretching our rubber sheet taut on four posts。",
+        "zh":[
+            "让我们想象stretchingourrubbersheettautonfourposts.",
+            "让我们想象stretchingourrubbersheettautonfourposts.",
+            "让我们想象stretchingourrubbersheettautonfourposts.",
+            "让我们想象stretchingourrubbersheettautonfourposts.",
+            "让我们想象stretchingourrubbersheettautonfourposts.",
+            "让我们想象stretchingourrubbersheettautonfourposts.",
+            "让我们想象stretchingourrubbersheettautonfourposts.",
+            "让我们想象stretchingourrubbersheettautonfourposts."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"To complete the analogy , we need something that normally travels in a straight line  .",
+        "baseline":"为了完成模拟,我们需要一个通常在直线 travel 的物体。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We begin with just the rubber sheet and the ant , simulating empty space with no mass in it .",
+        "baseline":"我们从橡胶板和蚂蚁开始,模拟没有质量的空空间。",
+        "zh":[
+            "我们从橡胶板和蚂蚁开始,模拟没有质量的空空间."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    }
+]

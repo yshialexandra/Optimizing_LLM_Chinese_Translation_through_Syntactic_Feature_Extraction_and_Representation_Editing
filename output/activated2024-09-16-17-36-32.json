@@ -1,0 +1,80 @@
+[
+    {
+        "en":"Balance boxes with lighter items like towels or soft toys .",
+        "baseline":"平衡箱有较轻的物品,如毛巾或软玩具。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Pack the lighter items on top .",
+        "baseline":"把较轻的物品放在上面。",
+        "zh":[
+            "包装上较轻的物品。",
+            "包装上较轻的物品。",
+            "包装上较轻的物品。",
+            "包装上较轻的物品。",
+            "包装上较轻的物品。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Use bubble wrap or newspapers when packing fragile items .",
+        "baseline":"包装易碎物品时使用泡沫包装或报纸。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Clean paper can be purchased cheaply from moving supply stores .",
+        "baseline":"清洁纸可以从流动的供应店购买便宜。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Boxes should be marked \" Fragile \" and \" This side up \" to prevent mishandling .",
+        "baseline":"箱子应标记“ 脆弱 ” 和“ 上边 ” 以防止误处理.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Pack a separate box of essentials you may need for the first night at your new house .",
+        "baseline":"在你新房子的第一天晚上,你可能需要一个单独的必需品盒。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Include items like toiletries , toilet paper , bottled water , snacks and a change of clothes in case you can not unpack everything in time .",
+        "baseline":"包括卫生用品 、 卫生纸 、 瓶装水 、 零食和换衣服,以防你不能及时包装。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Do n't label boxes with contents if the contents are valuable .",
+        "baseline":"如果内容有价值,请不要将内容标记在框上。",
+        "zh":[
+            "如果内容有价值,则不要用内容标签框.",
+            "如果内容有价值,则不要用内容标签框."
+        ],
+        "fvec":[
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Use lots of it .",
+        "baseline":"多用。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Fill it halfway with books , and fill it up with lighter stuff .",
+        "baseline":"半路上填上书,再填上更轻的东西。",
+        "zh":[],
+        "fvec":[]
+    }
+]

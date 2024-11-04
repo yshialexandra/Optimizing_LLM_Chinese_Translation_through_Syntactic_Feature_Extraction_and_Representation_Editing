@@ -1,0 +1,100 @@
+[
+    {
+        "en":"What if it is the state itself that exhibits predatory behavior ?",
+        "baseline":"要是它本身表现出掠食行为 呢?",
+        "zh":[
+            "要是状态本身表现出掠食行为呢?",
+            "如果它本身是显示掠食行为的国家呢?",
+            "如果它本身是显示掠食行为的国家呢?",
+            "要是状态本身表现出掠食行为呢?"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"In a scenario with insecure property rights , asymmetric information , and a judicial system that acts as a lax enforcement mechanism , as discussed in the following sections , the FDI is difficult to attract .",
+        "baseline":"在不稳定的财产权、信息不对称和司法系统作为宽松的执法机制的情况下,外国直接投资难以吸引。",
+        "zh":[
+            "在不稳定的财产权、信息不对称以及司法系统作为松弛执法机制的情景下,外国直接投资难以吸引.",
+            "在不稳定的财产权、信息不对称以及司法系统作为松弛执法机制的情景下,外国直接投资难以吸引.",
+            "在不稳定的财产权、信息不对称以及司法系统作为松弛执法机制的情景下,外国直接投资难以吸引.",
+            "在不稳定的财产权、信息不对称以及司法系统作为松弛执法机制的情景下,外国直接投资难以吸引.",
+            "在不稳定的财产权、信息不对称、司法系统作为松弛执法机制的情景下,外国直接投资难以吸引.",
+            "在不可靠的财产权、信息不对称和司法制度作为宽松的执法机制的情景下,外国直接投资难以吸引.",
+            "在不稳定的财产权、信息不对称、司法系统作为松弛执法机制的情景下,外国直接投资难以吸引."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"In order to understand policymaking and its effects , one must have adequate knowledge of the focal country ’s institutional framework .",
+        "baseline":"要了解决策及其影响,必须有充分的了解焦点国家的体制框架。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The country ’s unequal economic growth originated in the colonial era and reflects how the Spanish metropolis influenced the establishment of extractive institutions  .",
+        "baseline":"该国不平等的经济增长起源于殖民时代,反映了西班牙首都如何影响了建立采矿机构。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"This section briefly presents the Gújjolaay Eegimaa  , its speakers and its varieties .",
+        "baseline":"本文简要介绍了格鲁伊霍拉伊埃吉马,其发言者及其品种。",
+        "zh":[
+            "该节简要介绍了GújjolaayEegimaa,其发言者,及其品种。",
+            "该节简要介绍了GújjolaayEegimaa,其发言者,及其品种。",
+            "该节简要介绍了GújjolaayEegimaa,其发言者,及其品种。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Eegimaa is mainly spoken in Mof-Ávvi , a former kingdom of 10 villages located to the west of Ziguinchor , the capital city of the former administrative region of Casamance in the south of Senegal .",
+        "baseline":"Eegimaa主要在Mof-Ávvi,一个位于西南部塞内加尔前行政区卡萨曼斯的首都Ziguinchor的10个村庄的前王国。",
+        "zh":[
+            "阿瓦维(Mof-Ávvi)是一个位于塞内加尔南部前行政区卡萨曼斯的首都西吉宁科尔(Ziguinchor)的10个村庄的旧王国。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Jóola language varieties which are closely related to Eegimaa include Kujireray / Kuluunaay  and Gufiñamay  ) .",
+        "baseline":"与Eegimaa密切相关的Yoola语言品种包括Kujireray / Kuluunaay和Gufiñamay)。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They are located north of the Casamance River in the Jóola Búluf area .",
+        "baseline":"它们位于卡萨曼斯河以北约拉布鲁夫地区。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Eegimaa is an endangered language whose transmission to new generations has been declining significantly in the last decades .",
+        "baseline":"埃吉马亚语是一种濒临灭绝的语言,其传染给新代的数量在过去几十年中已大幅下降。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Enjambment takes place when a syntactic unit is broken up across two lines of poetry  , giving rise to different stylistic effects  , or creating double interpretations for the enjambed lines  .",
+        "baseline":"插曲发生在一个语法单元在诗歌两行之间被分割时,产生不同的风格效果,或为插曲线创造双重解释。",
+        "zh":[],
+        "fvec":[]
+    }
+]

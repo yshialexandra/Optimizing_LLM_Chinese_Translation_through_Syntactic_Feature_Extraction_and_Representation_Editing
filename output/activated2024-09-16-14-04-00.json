@@ -1,0 +1,132 @@
+[
+    {
+        "en":"First , the literature shows a debate about which specific syntactic units can be considered to trigger enjambment , if split across two lines , and whether lexical and syntactic criteria are sufficient to identify enjambment .",
+        "baseline":"首先,文献显示了关于哪些特定语法单元可以被视为触发内嵌的争论,如果分开两条线,以及词汇和语法标准是否足以识别内嵌。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Systematically collecting large amounts of enjambment examples provides helpful evidence to assess scholars ’ current claims , and may stimulate novel analyses .",
+        "baseline":"系统地收集大量埋葬实例,为评估学者目前的主张提供有益的证据,并可能刺激新的分析。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"First we provide the definition of enjambment adopted .",
+        "baseline":"首先我们给出了通过的封锁定义。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Syntactic and metrical units often match in poetry .",
+        "baseline":"语法和度量单位在诗歌中经常相符。",
+        "zh":[
+            "在诗歌中,语法和度量单位经常相符。",
+            "在诗歌中,语法和度量单位经常相符。",
+            "在诗歌中,语法和度量单位经常相符。",
+            "语法和度量词汇在诗歌中经常相一致。",
+            "在诗中,语法和度量单位经常相符。",
+            "在诗歌中,语法和度量单位经常相符。",
+            "在诗歌中,语法和度量单位经常相符。",
+            "在诗歌中,语法和度量单位经常相符。",
+            "语法和度量词汇在诗歌中经常相一致。",
+            "在诗歌中,语法和度量单位经常相符。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Agents can rationally choose between experts only if the criteria that distinguish genuine experts from charlatans are common sense or widely known :",
+        "baseline":"代理人可以理性地选择专家,只有在确定真正专家与骗子区别的标准是明智的或众所周知的:",
+        "zh":[
+            "代理人只能合理地选择专家之间,只要把真正的专家与骗子区别开来的标准是理所当然的或众所周知的:"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"For example , a small number of doctors set up the American College of Pediatricians  to advocate socially conservative viewpoints related to child health care .",
+        "baseline":"例如,少数医生成立了美国小儿科学院,以提倡与儿童保健有关的社会保守观点。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"For example , the Frontiers contingent of journals appears legitimate — at least to me — despite the fact that authors are expected to pay a publication fee . 8",
+        "baseline":"例如,《边境》杂志队似乎合法 — — 至少在我看来 — — 尽管作者应该支付出版费。",
+        "zh":[
+            "例如,《边境》杂志队似乎合法——至少在我看来——尽管作者应该支付出版费",
+            "例如,《边境》杂志队似乎合法——至少在我看来——尽管作者预计要支付出版费",
+            "例如,《边境》杂志队似乎合法——至少在我看来——尽管作者预计要支付出版费。",
+            "例如,《边境》杂志队似乎合法——至少在我看来——尽管作者预计要支付出版费。",
+            "例如,《边境》杂志队似乎合法——至少在我看来——尽管作者预计要支付出版费。",
+            "例如,《边境》杂志队似乎合法——至少在我看来——尽管作者预计要支付出版费",
+            "例如,《边境》杂志队似乎合法——至少在我看来——尽管作者预计要支付出版费。",
+            "例如,《边境》杂志队似乎合法——至少在我看来——尽管作者预计要支付出版费",
+            "例如,《边境》杂志队似乎合法——至少在我看来——尽管作者预计要支付出版费",
+            "例如,《边境》杂志队似乎合法——至少在我看来——尽管作者预计要支付出版费。"
+        ],
+        "fvec":[
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Whether due to this behavior or not , Jeffrey Beall decided to add the publisher to his influential  list of questionable journals  .",
+        "baseline":"杰弗里·贝尔(Jeffrey Beall)决定将出版商添加到其影响深远的问题期刊名单中。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Since conflicts of interest are a reason to discount expertise , it is incumbent on me to note that I have published in Frontiers journals on several occasions .",
+        "baseline":"由于利益冲突是低估专业知识的理由,我不得不指出,我曾多次在《边界》杂志上发表文章。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"For example , pollution may result from attempts to game the systems put in place to track expertise .",
+        "baseline":"例如,污染可能来自试图操纵建立的专家跟踪系统。",
+        "zh":[
+            "例如,污染可能是试图操纵建立起来的专家跟踪系统的结果.",
+            "例如,污染可能是试图操纵建立起来的专家跟踪系统的结果.",
+            "例如,污染可能是试图利用建立的专家跟踪系统进行游戏的结果。",
+            "例如,污染可能是试图利用建立的专家跟踪系统进行游戏的结果。",
+            "例如,污染可能是试图利用建立的专家跟踪系统进行游戏的结果.",
+            "例如,污染可能是试图利用建立的专家跟踪系统进行游戏的结果。",
+            "例如,污染可能是试图利用建立的专家跟踪系统进行游戏的结果.",
+            "例如,污染可能是试图利用建立的专家跟踪系统进行游戏的结果.",
+            "例如,污染可能是试图利用建立的专家跟踪系统进行游戏的结果.",
+            "例如,污染可能是试图操纵建立起来的专家跟踪系统的结果."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    }
+]

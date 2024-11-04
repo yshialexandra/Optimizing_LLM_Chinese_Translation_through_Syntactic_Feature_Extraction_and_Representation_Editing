@@ -1,0 +1,72 @@
+[
+    {
+        "en":"Future studies need to include more participants and more items to increase power .",
+        "baseline":"未来研究需要更多的参与者和更多的项目来增加功率。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"This is unlikely as they said that even the first training item was said well .",
+        "baseline":"这是不太可能的,因为他们说,即使第一个训练项目也说得很好。",
+        "zh":[
+            "这是不太可能的,因为他们说,甚至第一个训练项目也说得不错。",
+            "这是不太可能的,因为他们说,甚至第一个训练项目都说得很好。",
+            "这是不太可能的,因为他们说,甚至第一个训练项目都说得很好。",
+            "这是不太可能的,因为他们说,甚至第一个训练项目都说得很好。"
+        ],
+        "fvec":[
+            "000000000000000000010000000001000",
+            "000000000000000000010000000001000",
+            "000000000000000000010000000001000",
+            "000000000000000000010000000001000"
+        ]
+    },
+    {
+        "en":"Additional training with the methodology could improve outcomes .",
+        "baseline":"与方法学相结合的进一步培训可以提高成果。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Upon arrival at the school , however , it became clear that the children were not accustomed to playing with puppets and that the data collection would be a novel experience for them .",
+        "baseline":"然而,到了学校后,人们发现孩子们并不习惯玩偶,而且收集数据对于他们来说是一个新颖的经历。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In 2015 , an initiative was started to set up a Dutch speaking DH+Lib community in the Netherlands and Belgium , based on the example of the American communal space of librarians , archivists , LIS graduate students , and information specialists to discuss topics ‘ Where the Digital Humanities and Libraries meet ’ .",
+        "baseline":"2015年, 在 荷兰 和 比利时 建立 一 个 荷兰语 DH+Lib 社区 的 倡议, 以 美国 图书馆员 、 档案学家 、 LIS 研究生 、 信息 专家 的 共同空间 为 基础, 讨论 “ 数字 人文 和 图书馆 在哪里 会面 ” 的 主题 。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Therefore both institutes joined forces to develop a set of clinics on DH for librarians .",
+        "baseline":"因此,两个研究所联合起来,为图书馆员开发一套有关卫生保健的诊所。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The two institutes were later joined by the Leiden University Libraries .",
+        "baseline":"两所学院后来被莱登大学图书馆合并。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Each day starts with one or more lectures by researchers , that address the conceptual knowledge needed .",
+        "baseline":"每天开始由研究人员的一次或多个讲座,以解决需要的概念知识。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Today ’s generation will not survive a day without the help of lighting .",
+        "baseline":"当今的一代没有灯光就能生存一天。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Lighting takes a large part on the consumption of household electrical energy particularly in the Philippines .",
+        "baseline":"灯光在家庭电能消费中占很大比例,特别是在菲律宾。",
+        "zh":[],
+        "fvec":[]
+    }
+]

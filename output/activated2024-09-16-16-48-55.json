@@ -1,0 +1,84 @@
+[
+    {
+        "en":"We did not get up as early as we should have .",
+        "baseline":"我们不应该这么早起床。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Wow , what are you doing ?",
+        "baseline":"哇,你在干什么?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Everything is really detailed and when you look up even on the way going into the shop there are owls that move up high .",
+        "baseline":"一切都非常详细,甚至在进入商店的路上,当你抬头看的时候,有一只猫头鹰在高处移动。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Okay , we ’re trying .",
+        "baseline":"好吧,我们正在尝试。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Okay , how do you do it ?",
+        "baseline":"好吧, 你怎么做?",
+        "zh":[
+            "好吧,你怎么做呢?",
+            "好吧,你怎么做呢?",
+            "好吧,你怎么做呢?",
+            "好吧,你怎么做呢?",
+            "好吧,你怎么做呢?",
+            "好吧,你怎么做呢?",
+            "好吧,你怎么做呢?",
+            "好吧,你怎么做呢?",
+            "好吧,你怎么做呢?",
+            "好吧,你怎么做呢?"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Now we know .",
+        "baseline":"现在我们知道。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So we just went on at the Harry Potter and the Forbidden Journey ride .",
+        "baseline":"所以我们只是继续参加哈利·波特和禁止的旅程。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You can see that Hogwarts right there .",
+        "baseline":"你可以看到霍格沃茨。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And it was so fun , like , I ’m not a rides person , but , um , it felt like you were flying .",
+        "baseline":"而且很有趣,我不是骑车的人,但是,嗯,感觉像是你在飞行。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"How did you like it ?",
+        "baseline":"你觉得怎么样?",
+        "zh":[],
+        "fvec":[]
+    }
+]

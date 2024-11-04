@@ -1,0 +1,96 @@
+[
+    {
+        "en":"It required us to , employ , oh five or six crews , uh Mitchell Roberts was one of them that we used , on the job .",
+        "baseline":"它要求我们,雇佣,哦,五六名船员,哦,米切尔·罗伯茨是其中一个我们使用,在工作上。",
+        "zh":[
+            "我们需要,雇佣,哦,五、六个船员,哦,米切尔·罗伯茨是其中的一个,我们在工作上使用。",
+            "我们需要,雇佣,哦,五、六个船员,哦,米切尔·罗伯茨是其中的一个,我们在工作上使用。",
+            "我们需要,雇佣,哦,五、六个船员,哦,米切尔·罗伯茨是其中的一个,我们在工作上使用。",
+            "我们需要,雇佣,哦,五、六个船员,哦,米切尔·罗伯茨是其中的一个,我们在工作上使用。",
+            "我们需要,雇佣,哦,五、六个船员,哦,米切尔·罗伯茨是其中的一个,我们在工作上使用。",
+            "我们需要,雇佣,哦,五、六个船员,哦,米切尔·罗伯茨是其中的一个,我们在工作上使用。",
+            "我们需要,雇佣,哦,五、六个船员,哦,米切尔·罗伯茨是其中的一个,我们在工作上使用。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Uh Mitchell expressed a desire to do the work out there , he expressed , he did not know how to handle the payroll .",
+        "baseline":"米切尔表示想做工作,他表示,他不知道如何处理工资。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Most of the , uh , contractors here in town , that are independents like Mitchell , do n't know how to do prevailing wage statements .",
+        "baseline":"这里的大部分承包商,都是像米切尔这样的独立人,不知道如何做普遍的工资报表。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So the court has to be mindful of the fact that we are doing by process of interpretation what you are calling upon us to do .",
+        "baseline":"因此,法院必须记住,我们正在通过解释程序完成你要求我们做的事情。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And in the wisdom , as the Chief Justice said , sometimes incremental changes in issues of social and societal ramifications are possibly a better course .",
+        "baseline":"正如首席法官所说,在社会和社会影响问题上,有时有渐进的改变可能是更好的方向。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And that is not necessary for the court to do at all .",
+        "baseline":"而且,法院根本不需要这样做。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"But leave broader and broader issues for an evolving future .",
+        "baseline":"但让更广泛的问题成为一个不断演变的未来。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Yes , but marriage is not only a question of dignity , as if that were not enough .",
+        "baseline":"是的,但婚姻不仅仅是一个尊严的问题,好像这还不够。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"On one hand , starting with Rule 37 , that was amended back in 2018 in order to make mandatory disclosures under Rule 2016 more -- Rule 26.1 , more robust .",
+        "baseline":"一方面,从第37条开始,该规则在2018年被修改,以便根据第2016条规定更加强制性披露——第26.1条更加牢固。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Remember at trial , the precise origin of the fire was not determined .",
+        "baseline":"记住,在审判中,火的准确起源尚未确定。",
+        "zh":[
+            "记住审判时,火灾的准确起源还未确定.",
+            "记住审判时,火灾的准确起源还未确定.",
+            "记住审判时,火灾的准确起源还未确定.",
+            "记住审判时,火灾的准确起源还未确定.",
+            "记住审判时,火灾的准确起源还未确定.",
+            "记住审判时,火灾的准确起源还未确定.",
+            "记住审判时,火灾的准确起源还未确定.",
+            "记住审判时,火灾的准确起源还未确定."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "en":"Since being a good friend to someone usually means helping them , they often ca n't stand the thought of a good friendship .",
+        "baseline":"因为对某人做好朋友通常意味着帮助他们,所以他们往往不能忍受一个好朋友的想法。",
+        "zh":[
+            "与他人做好朋友通常意味着帮助他们,所以他们往往不能忍受一个好朋友的想法。"
+        ],
+        "fvec":[
+            "000000000010000000010001000000000"
+        ]
+    },
+    {
+        "en":"Ironically , arrogant people often ca n't understand why they do n't have any reliable and supportive friends .",
+        "baseline":"讽刺的是, 傲慢的人往往不能理解为什么他们没有可靠和支持的朋友.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Do they have a general sense of ' coolness ? '",
+        "baseline":"他们有“凉爽”的普遍感 吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Are they very keen on their self - image ?",
+        "baseline":"他们对 自我 形象 很感兴趣 吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Many arrogant people have a false charm that no one seems to see through .",
+        "baseline":"许多傲慢的人有一种虚伪的魅力,似乎没有人能透视。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Mention people you know that they do n't like .",
+        "baseline":"提到你认识的人,他们不喜欢。",
+        "zh":[
+            "提到自己不喜欢的人。",
+            "提到自己不喜欢的人。",
+            "提到自己不喜欢的人。",
+            "提到自己不喜欢的人。",
+            "提到自己不喜欢的人。",
+            "提到自己不喜欢的人。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Ask around to see what they 've been saying about you .",
+        "baseline":"问一下周围的人,看看他们对你说了些什么。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If they have been saying bad things about you , they may simply not like you .",
+        "baseline":"如果他们一直在说你坏话,他们可能根本不喜欢你。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Arrogant people often subconsciously know that they do n't have any good friends .",
+        "baseline":"傲慢的人常常无意识地知道他们没有好朋友。",
+        "zh":[
+            "傲慢的人往往会无意识地知道自己没有好朋友。",
+            "傲慢的人往往会无意识地知道自己没有好朋友。",
+            "傲慢的人往往会无意识地知道自己没有好朋友。",
+            "傲慢的人往往会无意识地知道自己没有好朋友。",
+            "傲慢的人往往会无意识地知道自己没有好朋友。",
+            "傲慢的人往往会无意识地知道自己没有好朋友。",
+            "傲慢的人往往会无意识地知道自己没有好朋友。",
+            "高傲的人往往会无意识地知道自己没有好朋友。",
+            "傲慢的人往往会无意识地知道自己没有好朋友。",
+            "傲慢的人往往会无意识地知道自己没有好朋友。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"While dancing ballet takes dedication and requires serious training , you can learn the basics to prepare yourself for further study .",
+        "baseline":"舞蹈芭蕾需要献身,需要认真的训练,你可以学习基本,为进一步学习做好准备。",
+        "zh":[],
+        "fvec":[]
+    }
+]

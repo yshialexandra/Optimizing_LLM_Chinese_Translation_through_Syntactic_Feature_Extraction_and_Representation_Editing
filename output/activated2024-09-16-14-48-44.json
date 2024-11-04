@@ -1,0 +1,76 @@
+[
+    {
+        "en":"And , the only , then it would be , the only extra would be , in about six to eight weeks , we 'd have her come in again , we would tranquilize her , and take the X - rays , and see if it 's healed , enough to take off .",
+        "baseline":"而且, 唯一的, 然后是唯一的额外的, 大约在六到八周内, 我们会让她回来, 我们会让她平静下来, 并接受X射线, 看看是否愈合, 足够起飞。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And if she — you know , if we did it , she could probably go home tomorrow .",
+        "baseline":"如果她-你知道,如果我们这样做,她可能明天可以回家。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"She snoozing on the floor ?",
+        "baseline":"她偷偷摸摸地在地板上?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Not anymore , you woke her up .",
+        "baseline":"别了,你叫她醒了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"She 's doing the Karate Kid , Nathan .",
+        "baseline":"她正在做卡拉特小伙子, 纳森.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"X squared equals one over the square root of that , the square root of that , x equals the square root of one .",
+        "baseline":"X乘以1等于其平方根之上,其平方根的,x等于其平方根的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"She 's not even looking at me .",
+        "baseline":"她甚至不看着我。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"She 's just looking , like —",
+        "baseline":"她只是看着,像...",
+        "zh":[
+            "她只是,像是...",
+            "她只是在看...",
+            "她只是在看..."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"But do y' all have to do that , um , you have to like , have it where you do that , there 's no , um .",
+        "baseline":"但你们都得这么做吗?,你得喜欢,有你做的地方,没有,嗯。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"All you do is like go , t- two over one .",
+        "baseline":"你要做的就象是走, t-2比1。",
+        "zh":[
+            "你只要一动,就一动,二上一动。",
+            "你只要一动,就一动,二上一动。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "en":"Working with a timer is generally regarded by most experts as being one of the best ways to develop self - discipline and stop procrastination .",
+        "baseline":"大多数专家普遍认为使用计时器是发展自我 纪律和停止拖延的最佳方法之一。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Give yourself a break .",
+        "baseline":"休息一下。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If you ca n’t seem to focus and are working half - heartedly at your tasks , give yourself a brief break .",
+        "baseline":"如果你似乎没有集中精力,并且在做任务时心不在焉,请自己休息一下。",
+        "zh":[
+            "如果你似乎没有集中精力,并且在做任务时半心全意地干活,休息一下吧.",
+            "如果你似乎没有集中精力,并且在做任务时半心全意地干活,休息一下吧.",
+            "如果你似乎没有集中精力,并且在做任务时半心全意地干活,休息一下吧.",
+            "如果你似乎没有集中精力,并且在做任务时心意不尽,请给自己一个短暂的休息.",
+            "如果你似乎没有集中精力,并且在做任务时半心全意地干活,休息一下吧.",
+            "如果你似乎没有集中精力,并且在做任务时半心全意地干活,休息一下吧.",
+            "如果你似乎没有集中精力,并且在做任务时半心全意地干活,休息一下吧."
+        ],
+        "fvec":[
+            "000000100000000000000000010000000",
+            "000000100000000000000000010000000",
+            "000000100000000000000000010000000",
+            "000000100000000000000000010000000",
+            "000000100000000000000000010000000",
+            "000000100000000000000000010000000",
+            "000000100000000000000000010000000"
+        ]
+    },
+    {
+        "en":"Set a timer for ten minutes , and take a nap , read a book , or call your friend .",
+        "baseline":"设定一个时间表十分钟,然后睡一觉,读一本书,或者打电话给朋友。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Do whatever it is you ’ve been daydreaming about so that the temptation is removed once you get back to work .",
+        "baseline":"做你想做的事吧,这样一旦你回到工作岗位上,诱惑就消除了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"However you do n't have to have magical powers to play .",
+        "baseline":"但是你不必有魔力来玩。",
+        "zh":[
+            "然而,你不必有魔力来玩。",
+            "然而,你不必有魔力来玩。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"There are many different ways of playing Quidditch , but the most commonly used set of rules are those given by the International Quidditch Association  .",
+        "baseline":"克维迪奇有许多不同的游戏方式,但最常用的规则是国际克维迪奇协会提供的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Quidditch has also spread outside of America and is now played on 5 continents .",
+        "baseline":" Quidditch也在美国以外传播,现在在5个大陆上进行比赛。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Brooms can be a hindrance however , so feel free to not use brooms .",
+        "baseline":"扫帚是障碍,所以不要使用扫帚。",
+        "zh":[
+            "扫帚可能是障碍,因此不要使用扫帚.",
+            "扫帚可能是障碍,因此不要使用扫帚.",
+            "扫帚可能是障碍,因此不要使用扫帚.",
+            "扫帚可能是障碍,因此不要使用扫帚.",
+            "扫帚是障碍,因此不用扫帚吧.",
+            "扫帚可能是障碍,因此不要使用扫帚.",
+            "毛刀可是障碍,所以请勿使用毛刀.",
+            "扫帚是障碍,因此不用扫帚吧."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Place the quaffle and three bludgers in the middle of the field .",
+        "baseline":"把夸夫和三块牌放在田中。",
+        "zh":[],
+        "fvec":[]
+    }
+]

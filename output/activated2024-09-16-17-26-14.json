@@ -1,0 +1,86 @@
+[
+    {
+        "en":"Stir to combine thoroughly .",
+        "baseline":"混合 thoroughly 。",
+        "zh":[
+            "混合彻底.",
+            "混合彻底.",
+            "混合彻底.",
+            "混合彻底.",
+            "混合彻底."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Pour into the cupcake cases or cupcake holes .",
+        "baseline":"倒入蛋糕箱或蛋糕洞里。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Place into the oven .",
+        "baseline":"放在烤箱里。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If they smell strongly earlier , test with a wooden skewer ; if it returns clean after sticking into a cupcake , they 're ready .",
+        "baseline":"如果它们早些时候有强烈的气味,用木质扫帚测试;如果它在粘入蛋糕后恢复干净,它们已经准备好了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Remove from the oven .",
+        "baseline":"从烤箱里取出。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Transfer the cupcakes to a wire cooling rack as quickly as possible when cool enough to handle .",
+        "baseline":"把蛋糕送到一个电缆冷却架上,尽可能快地冷却。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Let cool completely on the rack .",
+        "baseline":"放在架子上完全冷却。",
+        "zh":[
+            "在架子上完全冷。",
+            "在架子上完全冷。",
+            "在架子上完全冷。",
+            "在架子上完全冷。",
+            "在架子上完全冷。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Add standard frosting or make vegan butter cream .",
+        "baseline":"添加标准霜冻或做素食奶油。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You can add pureed fruit for delicious flavor changes .",
+        "baseline":"你可以添加纯果品来调味美味。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Instead of using vegetable oil , try substituting it for walnut or macadamia nut oils if they are available to you .",
+        "baseline":"不要使用蔬菜油,如果可用的话,试着用 walnut或 macadamia油代替它。",
+        "zh":[],
+        "fvec":[]
+    }
+]

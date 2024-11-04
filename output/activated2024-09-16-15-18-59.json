@@ -1,0 +1,72 @@
+[
+    {
+        "en":"However , of course this is proof in just one species .",
+        "baseline":"当然,这只是一种物种的证明。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"For how long have you been involved in performing / studying magic ?",
+        "baseline":"你在表演/学习魔术方面有多久了?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Do you think magic is alive as a viable form of entertainment today ?",
+        "baseline":"你认为魔术是当今一种可行的娱乐形式吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Moreover , seeing someone perform on the internet takes away the use of our senses , originality and imagination that reading and thinking about magic can produce .",
+        "baseline":"此外,看到某人在互联网上表演,会使我们失去阅读和思考魔术所产生的感官、独创性和想象力。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Yes , I am traveling quite a bit .",
+        "baseline":"是的,我旅行得相当多。",
+        "zh":[
+            "是的,我旅行得相当多了.",
+            "是的,我旅行不错。",
+            "是的,我旅行得相当多了.",
+            "是的,我旅行不错。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"In fact you can ask questions about why it should ever have existed , but now why should it exist .",
+        "baseline":"事实上,你可以问为什么它应该存在,但现在为什么它应该存在。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"When the Soviet Union collapsed there had been an agreement , a recent agreement , between Gorbachev and the U.S government and the first Bush administration .",
+        "baseline":"苏联解体时,戈尔巴乔夫和美国政府和布什政府之间达成了一项协议,最近达成了一项协议。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The agreement was that Gorbachev agreed to a quite remarkable concession : he agreed to let a united Germany join the NATO military alliance .",
+        "baseline":"协议是戈尔巴乔夫同意一个相当显著的让步:他同意让一个统一的德国加入北约军事联盟。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Nevertheless he agreed , but there was a quid pro quo , namely that NATO should not expand to the east , so Russia would at least have a kind of security zone .",
+        "baseline":"尽管如此,他还是同意了,但还有一种 quid pro quo,即北约不应该向东扩散,因此俄罗斯至少应该有某种安全区。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And George Bush and James Baker , secretary of state , agreed that NATO would not expand one inch to the east .",
+        "baseline":"美国国务卿乔治·布什和詹姆斯·贝克同意北约不会向东延伸一英寸。",
+        "zh":[],
+        "fvec":[]
+    }
+]

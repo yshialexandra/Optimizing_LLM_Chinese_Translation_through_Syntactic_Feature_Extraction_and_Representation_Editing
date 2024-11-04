@@ -1,0 +1,106 @@
+[
+    {
+        "en":"IE6 shipped with Windows XP , nearly a decade ago .",
+        "baseline":"IE6与Windows XP一起运送,近十年前。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"But it has outlived its usefulness , and Microsoft no longer wants to support it .",
+        "baseline":"但它已经不再有用了,微软不再想支持它。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Valeska Paris , an Australian woman and former Scientologist , has claimed that the Church of Scientology imprisoned her for twelve years aboard the Scientology - owned cruise ship , Freewinds .",
+        "baseline":"澳大利亚女性和前科学家瓦列斯卡·帕里斯(Valeska Paris)声称,科学教会在Scientology拥有的巡航船“Freewinds”上监禁了她12年。",
+        "zh":[
+            "澳大利亚妇女、前神学家瓦列斯卡·帕里斯声称神学教会在神学拥有的巡航船——自由风船上监禁了她十二年。",
+            "澳大利亚妇女、前神学家瓦列斯卡·帕里斯(ValeskaParis)声称神学教会在神学拥有的巡航船——自由风(Freewinds)上监禁了她十二年。",
+            "澳大利亚妇女、前神学家ValeskaParis声称,神学教会在神学拥有的游轮Freewinds上监禁了她12年。",
+            "澳大利亚妇女、前神学家ValeskaParis声称,神学教会在神学拥有的游轮Freewinds上监禁了她12年。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"She joined the Sea Org aged 14 .",
+        "baseline":"她14岁加入海乐队。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In 1995 , at age seventeen , she was told to disconnect from her mother .",
+        "baseline":"1995年,她17岁时被告知与母亲断绝联系。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Paris claims she was first sent to the ship aged eighteen for two weeks as a teenager but ended up spending twelve years there .",
+        "baseline":"巴黎声称她最初在18岁时作为一名青少年被送到船上两个星期,但最终在那里度过了12年。",
+        "zh":[
+            "巴黎声称,她最初在18岁就被送到这艘船上两个星期,当时她是个青少年,但最终在那里度过了十二年。",
+            "巴黎声称,她最初在18岁来到船上两个星期,当时是一名青少年,但最终在船上度过了12年。",
+            "巴黎声称,她最初在18岁来到船上两个星期,当时是一名青少年,但最终在船上度过了12年。",
+            "巴黎声称,她最初在18岁来到船上两个星期,当时是一名青少年,但最终在船上度过了12年。",
+            "巴黎声称,她最初在18岁来到船上两个星期,当时是一名青少年,但最终在船上度过了12年。"
+        ],
+        "fvec":[
+            "001000000000000000000000000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"On board the Freewinds , Paris claims that she was working from 6:00 am to midnight and due to lack of sleep ended up being a walking zombie .",
+        "baseline":"在自由风船上,巴黎声称她从早上6点到午夜工作,由于睡眠不足,最终成为一个步行的僵尸。",
+        "zh":[
+            "在自由风船上,巴黎声称她从早上6点到半夜工作,由于睡眠不足,最终成为一个行走的僵尸.",
+            "在自由风船上,巴黎声称她从早上6点到半夜工作,由于睡眠不足,最终成为一个行走的僵尸.",
+            "在自由风船上,巴黎声称她从早上6点到半夜工作,由于睡眠不足,最终成为一个行走的僵尸.",
+            "在自由风船上,巴黎声称她从早上6点到半夜工作,由于睡眠不足,最终成为一个走路的僵尸.",
+            "在自由风船上,巴黎声称她从早上6点到半夜工作,由于睡眠不足,最终成为一个行走的僵尸.",
+            "在自由风船上,巴黎声称她从早上6点到半夜工作,由于睡眠不足,最终成为一个走路的僵尸.",
+            "在自由风船上,巴黎声称她从早上6点到半夜工作,由于睡眠不足,最终成为一个走路的僵尸.",
+            "在自由风船上,巴黎声称她从早上6点到半夜工作,由于睡眠不足,最终成为一个走路的僵尸."
+        ],
+        "fvec":[
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000"
+        ]
+    },
+    {
+        "en":"She also claims that in 1997 and 1998 , she was tasked with removal of asbestos from the ship .",
+        "baseline":"她还声称在1997年和1998年,她负责从船上除去bestos。",
+        "zh":[
+            "她还说,1997年和1998年她负责从船上拿去bestos."
+        ],
+        "fvec":[
+            "000000000000000000001000000000000"
+        ]
+    },
+    {
+        "en":"She certainly was n't ' forced ' to be there .",
+        "baseline":"她肯定不是被强迫到那里去.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"She was also never forced to perform labour in the engine room .",
+        "baseline":"她也从未被迫在发动机室做劳动。",
+        "zh":[],
+        "fvec":[]
+    }
+]

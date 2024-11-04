@@ -1,0 +1,122 @@
+[
+    {
+        "en":"Tropical vegetation includes the pandanus or screw pine , the casuarina , and the mulberry tree , the bark of which is used to make tapa cloth .",
+        "baseline":"热带植物包括松树或螺杆松,松树和松树,它们的树皮用于制成塔巴布。",
+        "zh":[
+            "热带植物包括松叶或螺杆、松叶和松树,它们的树皮用于制成塔巴布.",
+            "热带植物包括松叶或螺杆、松叶和松树,它们的树皮被用来制作塔巴布.",
+            "热带植物包括松叶或螺杆、松叶和松树,它们的树皮用于制成饼干布.",
+            "热带植物包括松叶或螺杆、松叶和松树,它们的树皮被用来制作塔巴布."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"There are some good beaches and plenty of secluded cove beaches and protected bays with good snorkelling .",
+        "baseline":"这里有一些好的海滩,还有许多孤立的海湾和带有好的 snorkelling的保护湾。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The island lies in deep water and has sheltered waters and bays which provide a resting place for humpbacks with calves .",
+        "baseline":"该岛位于深海,有保护的水域和湾区,为野兔和小牛提供休息的地方。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"York is an ancient cathedral city with a history that dates back to before Roman times .",
+        "baseline":"约克是一个古老的教堂城市,历史可以追溯到罗马时代以前。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It is situated in Yorkshire , North Yorkshire , England with some of the best preserved historical buildings and structures in Europe .",
+        "baseline":"它位于英格兰约克郡北约克郡,拥有欧洲保存最好的历史建筑和建筑。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"York is frequently ranked  the second most visited city in England after London .",
+        "baseline":"伦敦之后,约克经常被评为英国第二位最受访的城市。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Captured by the Vikings 866 , the city quickly took on a new identity as Jorvik  and experienced a major urban revival as a centre of Viking trade and settlement in northern England .",
+        "baseline":"该市被维京人占领了866年,并迅速成为约尔维克,成为北英格兰维京贸易和定居中心。",
+        "zh":[
+            "被维京人占领的866年,该市很快接纳了作为约尔维克的新身份,并经历了作为北英格兰维京贸易中心和定居的一次重大城市复兴。",
+            "被维京人占领的866年,该市很快接纳了作为约尔维克的新身份,并经历了作为北英格兰维京贸易中心和定居的一次重大城市复兴。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"It 's a romantic city for a weekend break .",
+        "baseline":"这是一个浪漫的城市周末休息。",
+        "zh":[
+            "这是一个周末的浪漫城市。",
+            "这是周末的浪漫城市。",
+            "这是一个周末的浪漫城市。",
+            "这是一个周末的浪漫城市。",
+            "这是周末的浪漫城市。",
+            "这是周末的浪漫城市。",
+            "这是一个周末的浪漫城市。",
+            "这是周末的浪漫城市。",
+            "这是周末的浪漫城市。",
+            "这是周末的浪漫城市。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"From the south , the quickest route is probably to take the M1 northbound to junction 32 , then the M18 eastbound to junction 2 , the A1M northbound to junction 44 and finally the A64 eastbound to the York Outer Ring Road  .",
+        "baseline":"从南面,最快速的路线可能是乘M1北行至32号路口,然后乘M18东行至2号路口,乘A1M北行至44号路口,最后乘A64东行至约克外环路。",
+        "zh":[
+            "从南方,最快速的路线是将M1往北行至32号路口,然后由M18往东行至2号路口,A1M往北行至44号路口,最后由A64往东行至约克外环路。",
+            "从南方,最快速的路线是将M1向北行至32号路口,然后向东行至2号路口,A1M向北行至44号路口,最后向东行至纽约外环路的A64。",
+            "从南方,最快速的路线是将M1往北行至32号路口,然后由M18往东行至2号路口,A1M往北行至44号路口,最后由A64往东行至约克外环路。",
+            "从南,最快的路线是probablytotaketheM1northboundtojunction32,thentheM18eastboundtojunction2,theA1Mnorthboundtojunction44andfinallytheA64eastboundtotheYorkOuterRingRoad。",
+            "从南方,最快速的路线是将M1往北行至32号路口,然后由M18往东行至2号路口,A1M往北行至44号路口,最后由A64往东行至约克外环路。",
+            "从南,最快速的路线是将M1往北行至32号路口,然后由M18往东行至2号路口,A1M往北行至44号路口,最后由A64往东行至约克外环路。",
+            "从南,最快速的路线是将M1北行至32号路口,然后由M18东行至2号路口,A1M北行至44号路口,最后由A64东行至约克外环道。",
+            "从南,最快速的路线是将M1向北行至32号路口,然后向东行至2号路口,A1M向北行至44号路口,最后向东行至约克外环路的A64。",
+            "从南方,最快速的路线是将M1往北行至32号路口,然后由M18往东行至2号路口,A1M往北行至44号路口,最后由A64往东行至约克外环道。",
+            "从南,最快速的路线是将M1北行至32号路口,然后由M18东行至2号路口,A1M北行至44号路口,最后由A64东行至约克外环路。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000010000000000000000000000000",
+            "000000000000000000000001000000000",
+            "000000010000000000000000000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000010000000000000000000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"If you are just visiting York for the day , using a Park and Ride  costs a lot less than trying to park in or near the city centre , and there are five sites dotted around the Outer Ring Road .",
+        "baseline":"如果您只是在约克停留一天,使用公园和骑车的费用比试图在市中心或附近停车要低得多,并且有五个地点点在外环路周围。",
+        "zh":[],
+        "fvec":[]
+    }
+]

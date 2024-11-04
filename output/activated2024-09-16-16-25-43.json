@@ -1,0 +1,76 @@
+[
+    {
+        "en":"Many wealthy Tejanos supported the push for independence , hoping for liberal governmental reforms and economic benefits .",
+        "baseline":"许多富裕的泰雅诺支持独立运动,希望实现自由政府改革和经济利益。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Mexico had no intention of losing its northern province .",
+        "baseline":"墨西哥没有打算失去其北部的省份。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Hopelessly outnumbered , its two hundred defenders , under Travis , fought fiercely from their refuge in an old mission known as the Alamo .",
+        "baseline":"特拉维斯率领的两百名卫兵在阿拉莫号的旧特派团中从避难所中猛烈战斗。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"A few male survivors , possibly including the frontier legend and former Tennessee congressman Davy Crockett , were led outside the walls and executed .",
+        "baseline":"一些男性幸存者,可能包括边界传奇和前田纳西州国会议员达维·克罗克特,被带到墙外并处决。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The few women and children inside the mission were allowed to leave with the only adult male survivor , a slave owned by Travis who was then freed by the Mexican Army .",
+        "baseline":"特拉维斯所拥有的奴隶,后来被墨西哥军队释放,只有一个成人男性幸存者能够离开特拉维斯。",
+        "zh":[
+            "特拉维斯的一名奴隶,由墨西哥军队解放出来,是唯一一名成人男子幸存者。",
+            "特拉维斯的一名奴隶,由墨西哥军队解放出来,是唯一幸存的男性奴隶。",
+            "特拉维斯的一名奴隶,由墨西哥军队解放出来,是唯一幸存的男性奴隶。",
+            "特拉维斯的一名奴隶,由墨西哥军队解放出来,是唯一幸存的男性奴隶。",
+            "特拉维斯的一名奴隶,由墨西哥军队解放出来,是唯一幸存的男性奴隶。",
+            "特拉维斯的一名奴隶,由墨西哥军队解放出来,是唯一幸存的男性奴隶。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Terrified , they fled .",
+        "baseline":"他们吓坏了, 逃走了.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Imagine then that the instructor simply stands there after that announcement , blinking calmly as the class erupts in protest .",
+        "baseline":"然后想象一下,老师在宣布之后站在那里,平静地眨眼,当教室爆发抗议。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In American culture , winking , related to the normal biological function of blinking , takes on special meaning in social interactions .",
+        "baseline":"在美国文化中,闪烁与闪烁的正常生物功能有关,在社交互动中具有特殊意义。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Humans are born knowing how to blink ; nobody has to teach us .",
+        "baseline":"人类是天生的,知道如何闪烁;没有人需要教我们。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Blinking does not affect the perceived meaning of speech or actions .",
+        "baseline":"闪烁并不影响语言或行动所感知的含义。",
+        "zh":[],
+        "fvec":[]
+    }
+]

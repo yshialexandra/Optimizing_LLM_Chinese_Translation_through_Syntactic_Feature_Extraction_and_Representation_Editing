@@ -1,0 +1,92 @@
+[
+    {
+        "en":"And Paine went further .",
+        "baseline":"佩恩还进一步了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Revenue would come from what Paine called “ ground rent ” paid by landowners .",
+        "baseline":"收入来自房主支付的“ 地租 ” 。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Further , he saw that this could be done at a national level .",
+        "baseline":"此外,他认为这可以在国家一级进行。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"This was a remarkable feat of analysis and imagination , and it ’s time to apply it broadly .",
+        "baseline":"这是分析和想象的杰出成就,现在应该把它广泛应用。",
+        "zh":[
+            "这是一个难以置信的分析和想象的成就,现在是广泛应用的时候。",
+            "这是一个难以置信的分析和想象的成就,现在是广泛应用的时候。",
+            "这是分析和想象的非凡成就,现在是广泛应用它的时候。",
+            "这是分析和想象的非凡成就,现在是广泛应用它的时候了。",
+            "这是分析和想象的非凡成就,现在是广泛应用它的时候。",
+            "这是一种难以置信的分析和想象力,现在是应用起来的时候了。",
+            "这是分析和想象的一项杰出成就,现在是广泛应用的时候。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"But first , we have to see the opportunity and demand it .",
+        "baseline":"但首先,我们必须看到机会并要求它。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"When humans had to hunt for food , they had to move more .",
+        "baseline":"当人类必须为食物而狩猎时,他们必须行动更多。",
+        "zh":[
+            "人类当要捕食的时候,就得走得更远。",
+            "人们当要猎食的时候,就得走得更远。",
+            "人们当要吃东西的时候,就得走得更远。",
+            "当人们为了吃东西而去狩猎时,他们不得不多动。",
+            "当人们为了吃东西而去狩猎时,他们不得不多动。",
+            "当人们为了食物而去猎时,他们不得不多动。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Sedentary lifestyles have made humans far less active than they need to be .",
+        "baseline":"沉淀式生活方式使人类比他们需要的更不活跃。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It takes around a million years for evolutionary change to happen in a species , and people have been around for about 200,000 years .",
+        "baseline":"在一个物种中发生进化变化需要大约100万年,而人类已经存在了大约200,000年。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We evolved in a context of scarcity , and had to walk or run for miles and scavenge to find food ; we had to work for it .",
+        "baseline":"我们在短缺的环境中进化,我们不得不步行或跑好几英里,到处搜寻食物;我们不得不为此而努力。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"When we had it , we were better off eating the high - calorie food that increased our chance of survival when hungry  .",
+        "baseline":"当我们有它的时候, 我们宁愿吃高卡路里食品,因为高卡路里食品增加了我们饥饿时生存的机会.",
+        "zh":[],
+        "fvec":[]
+    }
+]

@@ -1,0 +1,478 @@
+[
+    {
+        "en": "For example , the Frontiers contingent of journals appears legitimate — at least to me — despite the fact that authors are expected to pay a publication fee . 8",
+        "zh_better": "例如,《边境》杂志队似乎合法——至少对我来说——尽管作者应该支付出版费",
+        "zh_origin": "例如,《边境》杂志队似乎合法 — — 至少在我看来 — — 尽管作者应该支付出版费。",
+        "fvec_better": "000000100000000000000000000000000",
+        "fvec_origin": "000000100000000000000001000000000"
+    },
+    {
+        "en": "Jens Otto Harry Jespersen or Otto Jespersen  was a Danish linguist who specialized in the grammar of the English language .",
+        "zh_better": "詹斯·奥托·哈里·杰普森(英语:JensOttoHarryJespersen)是一位丹麦语言学家,专门研究英语语法。",
+        "zh_origin": "詹斯·奥托·哈里·杰普森(英语:Jens Otto Harry Jespersen)是一位丹麦语言学家,专门研究英语语法。",
+        "fvec_better": "000000000000000000000001000000000",
+        "fvec_origin": "000000000001000000000001000000000"
+    },
+    {
+        "en": "She won the Cannes Film Festival Award for Best Actress for Seven Days ... Seven Nights  , the BAFTA Award for Best Foreign Actress for Viva Maria !  , and the César Award for Best Actress for The Old Lady Who Walked in the Sea  .",
+        "zh_better": "她赢得了坎城电影节最佳女演员奖七天七夜,最佳外国女演员BAFTA奖VivaMaria!,最佳女演员César奖TheOldLadyWhoWalkedintheSea。",
+        "zh_origin": "她赢得了坎城电影节最佳女演员奖七天...七夜,最佳外国女演员 BAFTA奖Viva Maria!,最佳女演员 César奖The Old Lady Who Walked in the Sea。",
+        "fvec_better": "000000000000000000001001000000000",
+        "fvec_origin": "010000000000000000001001000000000"
+    },
+    {
+        "en": "From the late 1950s , after appearing in several successful films , she began to work with the emerging generation of French film - makers .",
+        "zh_better": "从1950年代末起,在几部成功的电影中出现后,她开始与新兴的法国电影制作人一起工作.",
+        "zh_origin": "从1950年代末起, 在几部成功的电影中出现后, 她开始与新兴的法国电影制作人一起工作.",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000001000000000000"
+    },
+    {
+        "en": "During San Diego Comic - Con 2015 , more than 6,000 fans surprised Padalecki at the Supernatural panel by holding up candles for him , after having revealed his battle with depression earlier in the year .",
+        "zh_better": "在2015年圣地亚哥漫画节期间,超过6000名粉丝在超级自然小组中为帕达列克奇展示了他的抗抑郁斗争,并为他举行蜡烛。",
+        "zh_origin": "在2015年圣地亚哥漫画节期间,超过6000名粉丝在超级自然小组中为帕达列克奇展示了自己与抑郁的斗争,并为他展示了蜡烛。",
+        "fvec_better": "000000000000000000000001000000000",
+        "fvec_origin": "000000000000010000000001000000000"
+    },
+    {
+        "en": "Boy you people did n't watch enough Sesame Street as a child .",
+        "zh_better": "伙计们,你们小时候看不够的西萨米街。",
+        "zh_origin": "伙计们,小时候你没看太多的西萨米街。",
+        "fvec_better": "000000000000000000000001000000000",
+        "fvec_origin": "010000000000000000000001010000000"
+    },
+    {
+        "en": "Because , you know , I mean , you can make a horse go lame , by doing it .",
+        "zh_better": "因为,你知道,我是说,你可以让马发疯,就是这么做。",
+        "zh_origin": "因为, 你知道, 我是说, 你可以让马发疯, 就是这么做。",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000001010000000"
+    },
+    {
+        "en": "And you 'd stick it into the , into the , you know like , actual blacksmithing .",
+        "zh_better": "然后把它粘到,粘到,你知道的,像是,真正的铁匠.",
+        "zh_origin": "然后把它粘到, 粘到, 你知道的, 像是, 真正的铁匠.",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000000010000000"
+    },
+    {
+        "en": "This is in the Luther book some of you are reading , and um , if you , this evening when you go home , if you wan na meditate it on more , on – on it more , it 's on page three eleven .",
+        "zh_better": "这是在路德书里,你们的一些人正在读,如果你今晚回家时,如果你想更深入地思考它,就--更深入地思考它,那是在第3页11页。",
+        "zh_origin": "这是在路德书里,你们的一些人正在读,um,如果你今晚回家时,如果你想更深入地思考它,就--更深入地思考它,这是在第3页11页。",
+        "fvec_better": "000000100000000000000000010000000",
+        "fvec_origin": "000000100000000000000000010000001"
+    },
+    {
+        "en": "But , you ca n't — but you ca n't look at the stars with a microscope .",
+        "zh_better": "但是,你不能用显微镜看星星。",
+        "zh_origin": "但是,你不能-但是你不能用显微镜看星星。",
+        "fvec_better": "000000000000000000000001000000000",
+        "fvec_origin": "000000000000000000000001010000000"
+    },
+    {
+        "en": "Because then you run into things that we already know .",
+        "zh_better": "因为那时你会遇到我们已经知道的事情。",
+        "zh_origin": "因为你就会遇到我们已经知道的事情。",
+        "fvec_better": "000000000000000000000000010000000",
+        "fvec_origin": "000000000000000000000001010001000"
+    },
+    {
+        "en": "Yes there was .",
+        "zh_better": "是的,是的。",
+        "zh_origin": "是的,有。",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000001000000000"
+    },
+    {
+        "en": "Yeah , what do you think he 'd like to have ?",
+        "zh_better": "是的,你认为他想要什么?",
+        "zh_origin": "是的, 你认为他想要什么?",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000000010000000"
+    },
+    {
+        "en": "She 's just looking , like —",
+        "zh_better": "她只是看着,像是...",
+        "zh_origin": "她只是看着,像...",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000001000000000000"
+    },
+    {
+        "en": "That was the decision document that the Secretary signed where he said , I hereby issue waivers and modifications of multiple provisions under Title IV of the student loan program .",
+        "zh_better": "这是秘书长签署的决定文件,他说:“我herebyissuewaiversandmodificationsofmultipleprovisionsunderTitleIVofthestudentloanprogram”。",
+        "zh_origin": "这是秘书长签署的决定文件,他说:“我 hereby issue waivers and modifications of multiple provisions under Title IV of the student loan program”。",
+        "fvec_better": "000000000000000000000001000000000",
+        "fvec_origin": "010000000000000000000001000000000"
+    },
+    {
+        "en": "He was five or so , and they were playing some board game at the kitchen table .",
+        "zh_better": "他大约五岁,他们正在厨房桌边玩板游戏。",
+        "zh_origin": "他大概五岁,他们正在厨房桌边玩板游戏。",
+        "fvec_better": "000000000000000000000001000000000",
+        "fvec_origin": "000000000000000000010001000000000"
+    },
+    {
+        "en": "You ’re leaning on the railing , waiting to ask Derya about a job , watching the glittering stream of mites that arc over half the sky — flying up to rewind their nanosprings in the stratospheric sunlight , flying down to make Frankfurt run .",
+        "zh_better": "你正靠在栏杆上,等待去问德里亚一个工作,看着闪烁的光线在天空的一半上旋转——它们在stratospheric阳光下飞来回旋转它们的纳米喷泉,飞下来让法兰克福跑。",
+        "zh_origin": "你正靠在栏杆上,等待去问德里亚关于工作,看着闪烁的光线在天空的一半上旋转 — — 它们在 stratospheric阳光下飞来回旋转它们的纳米弹簧,飞下来让法兰克福跑。",
+        "fvec_better": "000000000000000000000000010000000",
+        "fvec_origin": "000000000000000000000001010000000"
+    },
+    {
+        "en": "“ No ! ” she wails .",
+        "zh_better": "她喊道:“不!”",
+        "zh_origin": "“ 不! ” 她叫道。",
+        "fvec_better": "000000000000000000001000000000000",
+        "fvec_origin": "000000000000000000001001000000000"
+    },
+    {
+        "en": "And then it started insulting me . ”",
+        "zh_better": "然后开始侮辱我了.”",
+        "zh_origin": "然后它开始侮辱我。 ”",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000001000000001"
+    },
+    {
+        "en": "And along the margin where the water sometimes broke was a thick incrustation of salt — pink under the lurid sky .",
+        "zh_better": "水有时破裂的边缘有一层厚厚的盐——在阴暗的天空下呈粉红色。",
+        "zh_origin": "水有时破裂的边缘有一层厚厚的盐 — — 在阴暗的天空下是粉红色的。",
+        "fvec_better": "000000000000000000000001000000000",
+        "fvec_origin": "000000000001000000000001000000000"
+    },
+    {
+        "en": "Yes , I am traveling quite a bit .",
+        "zh_better": "是的,我旅行相当多。",
+        "zh_origin": "是的,我旅行得相当多。",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000001000000000"
+    },
+    {
+        "en": "There 's supplies , and there 's wear and tear and maintenance , and bookkeeping and things like that that you have to do .",
+        "zh_better": "有用品,还有磨损和维护,还有会计和类似的事情你必须做。",
+        "zh_origin": "有用品,有磨损和维护,还有会计和类似的事情你必须做。",
+        "fvec_better": "000000000000000000000001010000000",
+        "fvec_origin": "000000000000010000000001010000000"
+    },
+    {
+        "en": "Whoever wins election on November 5 , 2013 , would replace outgoing governor Bob McDonnell .",
+        "zh_better": "谁在2013年11月5日赢得选举,将取代即将卸任的州长鲍勃·麦克唐纳尔.",
+        "zh_origin": "谁在2013年11月5日赢得选举, 将取代即将卸任的州长鲍勃·麦克唐纳尔.",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000100000000000000000"
+    },
+    {
+        "en": "What would you have done differently than him ?",
+        "zh_better": "你比他有什么不同之处?",
+        "zh_origin": "你跟他有什么不同?",
+        "fvec_better": "000000000000000000000000010000000",
+        "fvec_origin": "010000000000000000000000010000000"
+    },
+    {
+        "en": "Which previous Virginia Governor do you most admire and why ?",
+        "zh_better": "你最钦佩的前弗吉尼亚州长,为什么?",
+        "zh_origin": "你最欣赏的前弗吉尼亚州长是什么,为什么?",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000000010000000"
+    },
+    {
+        "en": "Do you personally record audiobooks , and did you already do so before LibriVox ?",
+        "zh_better": "你是否亲自录制音频书,并且你是否在利比里沃克斯之前已经这样做了?",
+        "zh_origin": "你是否亲自录制音频书,并且你已经在利比里沃克斯之前这样做 吗?",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000000010000000"
+    },
+    {
+        "en": "Ed. : See the LibriVox catalog for a full index .",
+        "zh_better": "请参阅LibriVox目录,查看完整的索引。",
+        "zh_origin": "参见LibriVox目录的完整索引。",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000001000000000"
+    },
+    {
+        "en": "If someone is continually telling unfunny jokes , do you eventually fire them ?",
+        "zh_better": "如果有人不停地讲不有趣的笑话,你最终会解雇他们吗?",
+        "zh_origin": "如果有人不停地讲不有趣的笑话, 你最终会解雇他们 吗?",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000000010000000"
+    },
+    {
+        "en": "You can reach me at : 508 Cannon Office Building , Washington , D.C. 20515 .",
+        "zh_better": "你可以致电我:508CannonOfficeBuilding,Washington,D.C.20515。",
+        "zh_origin": "你可以致电我: 508 Cannon Office Building, Washington, D.C. 20515 。",
+        "fvec_better": "000000000000000000000001010000000",
+        "fvec_origin": "000000000001000000000001010000000"
+    },
+    {
+        "en": "They go hunting , and so far , have scared up a cat , two rabbits and an armadilla .",
+        "zh_better": "他们去狩猎,到目前为止,吓了一只猫,两只兔子和一只野马.",
+        "zh_origin": "他们去狩猎, 到目前为止, 吓了一只猫, 两只兔子和一只野马.",
+        "fvec_better": "000000000000010000000000000000000",
+        "fvec_origin": "000000000000010000010000000000000"
+    },
+    {
+        "en": "The crane accident comes just ten days before the beginning of the Hajj , the annual pilgrimage to Mecca , Islam 's holiest site .",
+        "zh_better": "车祸发生在伊斯兰圣地摩卡的每年的巡礼ஹஜ்开始前十天。",
+        "zh_origin": "车祸发生在伊斯兰圣地摩卡的每年的巡礼 ஹஜ்开始前十天。",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000001000000000"
+    },
+    {
+        "en": "English defender Kyle Walker was booked for his bad foul , and Ferjani Sassi scored from the penalty spot , equalising for the African side .",
+        "zh_better": "英格兰守门员凯尔·沃克因犯规而被记入名单,费尔贾尼·萨西从罚点中得分,为非洲球队打平了.",
+        "zh_origin": "英格兰守门员凯尔·沃克因犯规而被记入,费尔贾尼·萨西从罚点中得分,为非洲球队打平了。",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000001000000000"
+    },
+    {
+        "en": "Wilkins observed that the 2007 starting date of the donation program , which is part of the Andy Warhol Foundation for the Visual Arts , coincided with the 20th anniversary of Andy Warhol 's death in 1987 .",
+        "zh_better": "威尔金斯指出,2007年开始的捐赠计划,是安迪·沃霍尔视觉艺术基金会的一部分,与安迪·沃霍尔在1987年去世的20周年相符。",
+        "zh_origin": "威尔金斯指出,2007年开始的捐赠计划,是安迪·沃霍尔视觉艺术基金会的一部分, coincided with the 20th anniversary of Andy Warhol's death in 1987 。",
+        "fvec_better": "000000000000000000000001000000000",
+        "fvec_origin": "010000000000000000000001000000000"
+    },
+    {
+        "en": "Well , you can go for a long , long , say , alcoholism .",
+        "zh_better": "嗯,你可以长时间,比如,酗酒.",
+        "zh_origin": "嗯, 你可以长时间, 比如, 酗酒.",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000000010000000"
+    },
+    {
+        "en": "Stop wanting the fucking 90s back , because the 90s are dead , get the fuck over it .",
+        "zh_better": "别想让90年代回来了,因为90年代已经死了,别再想了。",
+        "zh_origin": "别再想回 90-年代了,因为 90-年代已经死了,别再想了。",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000000000001000"
+    },
+    {
+        "en": "All of us here , again , salute and profoundly grateful for our law enforcement heroes .",
+        "zh_better": "我们大家在这里,再次向执法英雄致敬并深表感谢。",
+        "zh_origin": "我们大家在这里,再次向执法英雄们表示敬意和深切感谢。",
+        "fvec_better": "000000000000000000000001000000000",
+        "fvec_origin": "000000000000010000000001000000000"
+    },
+    {
+        "en": "The hope she spoke about — the strong and happy hope — the hope we feel today , is a hope , of course , that is tempered by reality .",
+        "zh_better": "她所说的希望——强烈而快乐的希望——我们今天所感受到的希望,是希望,当然,它是由现实所调和的。",
+        "zh_origin": "她所讲的希望 — — 强烈而快乐的希望 — — 我们今天所感受到的希望, 当然是希望, 它由现实所调和的。",
+        "fvec_better": "000000000000000000001000000000000",
+        "fvec_origin": "000000000000000000001000000000001"
+    },
+    {
+        "en": "The Senate works best when we work together .",
+        "zh_better": "我们一起工作时,参议院最有效。",
+        "zh_origin": "我们一起工作时,参议院最能发挥作用。",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000001000000000"
+    },
+    {
+        "en": "Now , imagine that you were taken away from your parents as a baby and adopted by a family far away , with a very different way of life situated in a very different environment .",
+        "zh_better": "现在,想象一下你从父母那里被带走,被远处的一家人收养,生活方式非常不同,环境非常不同。",
+        "zh_origin": "现在,想象一下你被从父母身边带走,被远处的一家人收养,生活方式非常不同,环境非常不同。",
+        "fvec_better": "000000000000000000000001000000000",
+        "fvec_origin": "000000000000000000000001010000000"
+    },
+    {
+        "en": "First published in 1807 , many of Dalton ’s hypotheses about the microscopic features of matter are still valid in modern atomic theory .",
+        "zh_better": "1807年首次发表,达尔顿关于物质微观特征的许多假设仍然在现代原子理论中有效。",
+        "zh_origin": "1807年首次发表,达尔顿关于物质微观特征的许多假设在现代原子理论中仍然有效。",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000001000000000"
+    },
+    {
+        "en": "In the United States , it ’s most likely filled with coffee , not Earl Grey tea , a favorite in England , or Yak Butter tea , a staple in Tibet .",
+        "zh_better": "在美国,它最有可能是充满咖啡的,而不是英国最受欢迎的厄尔·格雷茶,或西藏主要的雅克奶油茶。",
+        "zh_origin": "在美国,它最有可能是一杯咖啡,而不是英国最受欢迎的厄尔·格雷茶,或者西藏最常用的雅克奶油茶。",
+        "fvec_better": "000000000000000000000001000000000",
+        "fvec_origin": "000000000000010000000001000000000"
+    },
+    {
+        "en": "So , you see , we are eventually going to talk about collapsing stars again , but not before discussing Einstein ’s ideas  in more detail .",
+        "zh_better": "因此,你看,我们最终将再次谈论崩溃的恒星,但不是在讨论爱因斯坦的更多细节之前。",
+        "zh_origin": "因此,你看到,我们最终将再次谈论崩溃的恒星,但不是在讨论爱因斯坦的更多细节之前。",
+        "fvec_better": "000000000000000100000000000000000",
+        "fvec_origin": "000000000000000100000001000000000"
+    },
+    {
+        "en": "And on today 's vlog segment of cooking with Ash , Harry !",
+        "zh_better": "还有今天与阿什一起烹饪的vlog部分,哈利!",
+        "zh_origin": "还有今天与阿什一起烹饪的 vlog 部分, 哈利!",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000010000000000000000000"
+    },
+    {
+        "en": "Yeah that 's gon na have to go in the expired pile .",
+        "zh_better": "是啊,那我得进过期堆里去。",
+        "zh_origin": "是的,我们得进过期的堆里去。",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000001000000000"
+    },
+    {
+        "en": "But yeah , we ’re packing up and we ’re headed to Orlando .",
+        "zh_better": "但是是的,我们正在收拾行李,我们要去奥兰多。",
+        "zh_origin": "但是的,我们正在收拾行李,我们要去奥兰多。",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000001000000000"
+    },
+    {
+        "en": "Okay , how do you do it ?",
+        "zh_better": "好吧,你怎么做?",
+        "zh_origin": "好吧, 你怎么做?",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000000010000000"
+    },
+    {
+        "en": "It was n’t amazing but it was a really cool spot .",
+        "zh_better": "那并不令人惊奇,但还是个很酷的地方。",
+        "zh_origin": "那并不令人惊奇,但确实是一个很酷的地方。",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000001000000000"
+    },
+    {
+        "en": "You got ta have fun at work .",
+        "zh_better": "你的工作很有趣。",
+        "zh_origin": "你在工作中玩得很开心。",
+        "fvec_better": "000000010000000000000000000000000",
+        "fvec_origin": "000000000000000000000001010000000"
+    },
+    {
+        "en": "It 's really quick and some of the trails even pop you back out into like the city , so it 's – it 's really super accessible .",
+        "zh_better": "它非常快速,一些小径甚至会让你回到城市里,所以它——它确实非常易于访问。",
+        "zh_origin": "它非常快速,有些小径甚至会让你回到城市里,所以它 — — 它确实非常易于访问。",
+        "fvec_better": "000000000000000000000001010000001",
+        "fvec_origin": "010000000000000000000001010000001"
+    },
+    {
+        "en": "So the rose garden is free and open to the public and it is just huge .",
+        "zh_better": "因此玫瑰园是免费的,开放给公众,而且是巨大的。",
+        "zh_origin": "因此,玫瑰园是免费的,开放给公众,而且是巨大的。",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000001000000000"
+    },
+    {
+        "en": "Germany : You can obtain the tourist card through the Cuban embassy in post .",
+        "zh_better": "德国:你可以通过古巴大使馆邮寄领取旅游卡.",
+        "zh_origin": "德国: 你可以通过古巴大使馆邮寄领取旅游卡.",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000000010000000"
+    },
+    {
+        "en": "Jack Alter Fort Lee Community Center , 1355 Inwood Terrace , tel : 1 201-592-4699 , contact for membership information , and upcoming events .",
+        "zh_better": "JackAlterFortLeeCommunityCenter,1355InwoodTerrace,电话:1201-592-4699,联络会员资料,以及即将举行的活动.",
+        "zh_origin": "Jack Alter Fort Lee Community Center, 1355 Inwood Terrace, 电话:1 201-592-4699, 联络会员资料, 及即将举行的活动.",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000010000000000000000000"
+    },
+    {
+        "en": "There are tons of specialty boutiques and gourmet caterers , as well as clothing and sporting good retailers .",
+        "zh_better": "这里有许多专卖店和美食家,以及服装和体育用品零售商。",
+        "zh_origin": "这里有许多专门的百货店和美食家,以及服装和体育用品零售商。",
+        "fvec_better": "000000000000000000000001000000000",
+        "fvec_origin": "000000000010000000000001000000000"
+    },
+    {
+        "en": "Even though they might not be the best way to get around the island , a ride on the bus is still an experience you should not miss .",
+        "zh_better": "尽管他们可能不是最好的方法来环绕岛屿,但乘公共汽车仍然是一个你不应该错过的经历。",
+        "zh_origin": "尽管他们可能不是 best way to get around the island, 坐公共汽车仍然是一个你不应该错过的经历。",
+        "fvec_better": "000000100000000000000000010000000",
+        "fvec_origin": "000000100000000000010000010000000"
+    },
+    {
+        "en": "Today the quarter still has many Armenian Churches , an Armenian school , shops and Armenian residents .",
+        "zh_better": "今天该区仍有许多亚美尼亚教堂、一个亚美尼亚学校、商店和亚美尼亚居民。",
+        "zh_origin": "今天,该区仍有许多亚美尼亚教堂,一个亚美尼亚学校,商店和亚美尼亚居民。",
+        "fvec_better": "000000000000000000000001000000000",
+        "fvec_origin": "000000000000010000000001000000000"
+    },
+    {
+        "en": "Until the 1960s , a dominantly Italian - American neighborhood , it is now a much more diversified neighborhood , home to many restaurants , including some of the city 's best Korean and Ethiopian establishments .",
+        "zh_better": "直到20世纪60年代,意大利裔美国人占主导地位的地区,现在是一个更多样化的地区,有许多餐厅,包括城市最好的韩国和埃塞俄比亚企业.",
+        "zh_origin": "直到20世纪60年代, 意大利裔美国人占主导地位的地区, 现在是一个更多样化的地区, 许多餐馆的所在地, 包括城市最好的韩国和埃塞俄比亚餐馆.",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000001000000000000000000000"
+    },
+    {
+        "en": "Several freeways and bypasses can be used to easily get around the Tulsa Metro area : I - 244 , I - 44 , US 169  , US 75 , Hwy 51  , Creek Turnpike .",
+        "zh_better": "多条高速公路和绕道可用来绕过塔尔萨地铁区:I-244、I-44、US169、US75、Hwy51、CreekTurnpike.",
+        "zh_origin": "多条高速公路和绕道可用来绕过塔尔萨地铁区: I-244, I-44, US 169, US 75, Hwy 51, Creek Turnpike。",
+        "fvec_better": "000000000000010000000000000000000",
+        "fvec_origin": "000000000000010000000001000000000"
+    },
+    {
+        "en": "They do not run that often , especially to the outer towns like Broken Arrow .",
+        "zh_better": "他们并不经常跑,特别是到外围的城镇,如BrokenArrow。",
+        "zh_origin": "他们并不经常跑,特别是到外围的城镇,如 Broken Arrow。",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000010000010001000000000"
+    },
+    {
+        "en": "Vava’u is a group of more than 50 islands in Tonga , about 150 miles north of Tongatapu .",
+        "zh_better": "瓦瓦乌(Vava’u)是Tonga的一個群島,位於Tongatapu以北約150英里。",
+        "zh_origin": "瓦瓦乌(Vava’u)是 Tonga 的50多个岛屿,位于 Tongatapu 以北约150英里。",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000001000000000"
+    },
+    {
+        "en": "Basil does not tolerate frost so do n't plant too early .",
+        "zh_better": "Basil不耐霜,所以不要太早种。",
+        "zh_origin": " Basil不耐霜,所以不要太早种。",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000000000000000001000000000"
+    },
+    {
+        "en": "Using chalk , a stick , or your finger , draw a line on the ground 12 \"  long .",
+        "zh_better": "用chalk、astick、oryourfinger,drawalineontheground12\"long。",
+        "zh_origin": "用 chalk 、 a stick 、 or your finger, draw a line on the ground 12 \" long. 用 chalk 、 a stick 、 or your finger 、 draw a line on the ground 12 \" long 。",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "010000000000000000000001000000000"
+    },
+    {
+        "en": "Congratulations — by seeking help , you 've already demonstrated more self - awareness than the vast majority of online flirts .",
+        "zh_better": "祝贺—通过寻求帮助,你已经显示出比大多数在线性交者更具自我意识.",
+        "zh_origin": "祝贺 — 通过寻求帮助, 你已经显示出比大多数在线性交者更具自我意识.",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000000001000000000000010000000"
+    },
+    {
+        "en": "Combine 50 milliliters of hydrogen peroxide and a liter of distilled water in a mixing bowl .",
+        "zh_better": "将50毫升过氧化氢和一升蒸馏水混合在一个碗里。",
+        "zh_origin": "把50毫升的过氧化氢和一升的蒸馏水混合在一个碗里。",
+        "fvec_better": "000000000000000000000001000000000",
+        "fvec_origin": "000000000000010000000001000000000"
+    },
+    {
+        "en": "If , after total chute failure , you land on something soft , it is possible that instead of being killed outright , you may be permanently paralyzed due to spinal injury .",
+        "zh_better": "如果在完全跳伞失败后,你落在软体上,有可能因为脊椎损伤而永久瘫痪,而不是直接死亡。",
+        "zh_origin": "如果,在完全跳伞失败后,你落在软体上,有可能因为脊椎损伤而永久瘫痪,而不是直接死亡。",
+        "fvec_better": "000000000000000000000001000001000",
+        "fvec_origin": "000000100000000000000001000001000"
+    },
+    {
+        "en": "Regardless of method , the winning seeker wins 30 points for his or her team , unlike the books , in which the snitch is worth 150 points .",
+        "zh_better": "无论如何,获胜者为球队赢得30分,与书本不同,在书本中划分值150分。",
+        "zh_origin": "无论方法如何,胜者为球队赢得30分,与书本不同,在书中划分值150分。",
+        "fvec_better": "000000000000000000000001000000000",
+        "fvec_origin": "000000100000000000000001000000000"
+    },
+    {
+        "en": "Play while the seekers look for the snitch .",
+        "zh_better": "玩whiletheseekerslookforthesnitch。",
+        "zh_origin": "玩 while the seekers look for the snitch 。",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "010000000000000000000001000000000"
+    },
+    {
+        "en": "Once the vodka is cold , it should be syrupy .",
+        "zh_better": "一旦vodka冷了,它应该是糖浆的.",
+        "zh_origin": "一旦 vodka 冷了, 它应该是糖浆.",
+        "fvec_better": "000000000000000000000000000000000",
+        "fvec_origin": "000000100000000000000000000000000"
+    },
+    {
+        "en": "Take a sieve , line it with a piece of cheesecloth  or a coffee filter , place above a large jug and pour the vodka through slowly .",
+        "zh_better": "取一个筛子,用一块奶酪布或咖啡滤波器线条,放在一个大罐头上,然后慢慢地倒vodka。",
+        "zh_origin": "取一个筛子,用一块奶布或咖啡滤波器线条,放在一个大罐头上,然后慢慢地倒 vodka。",
+        "fvec_better": "000000000000010000000000000000000",
+        "fvec_origin": "000000000000010000000001000000000"
+    }
+]

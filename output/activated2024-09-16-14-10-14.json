@@ -1,0 +1,148 @@
+[
+    {
+        "en":"In addition , we have tested the operators defined in two GIS applications .",
+        "baseline":"此外,我们测试了两个GIS应用中定义的操作者。",
+        "zh":[
+            "此外,测试了两个GIS应用中定义的操作员.",
+            "并测试了两个GIS应用中定义的操作员.",
+            "此外,测试了两个GIS应用中定义的操作者.",
+            "并测试了两个GIS应用中定义的操作员.",
+            "此外,测试了两个GIS应用中定义的操作者.",
+            "此外,还测试了两个GIS应用中定义的操作员.",
+            "此外,测试了两个GIS应用中定义的操作员.",
+            "此外,测试了两个GIS应用中定义的操作者.",
+            "并测试了两个GIS应用中定义的操作员."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"One indication of the importance of replication is found in the 50 or more calls for replication research in the field of second language  research alone  : from Santos  through Polio and Gass 1997 to very recent proposals for specific replication studies , such as Vandergrift and Cross 2017 and even a book - length treatment  .",
+        "baseline":"从桑托斯到波利奥和加斯1997年到最近对具体的复制研究的提议,例如范德格里夫特和克罗斯2017年,甚至还有一本书长处理。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Indeed , some commentators have called replication the “ gold standard ” of research evidence  and a “ linchpin of the scientific process ”  .",
+        "baseline":"事实上, 一些评论家称复制是研究证据的“ 金标准 ” 和“ 科学过程的支柱 ” 。",
+        "zh":[
+            "事实上,一些评论家称复制是研究证据的“金标准”,也是“科学进程的支柱”。",
+            "事实上,一些评论家称复制是研究证据的“金标准”,也是“科学进程的支柱”。",
+            "事实上,一些评论家称复制是研究证据的“金标准”,也是“科学过程的支柱”。",
+            "事实上,一些评论家称复制是研究证据的“金标准”,也是“科学进程的支柱”。",
+            "事实上,一些评论家称复制是研究证据的“金标准”,也是“科学过程的支柱”。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"However , a systematic metascience on replication research has not yet been established in the field of L2 research , leaving a poor understanding of the actual number and nature of replication studies that have been published .",
+        "baseline":"然而,在L2研究领域还没有建立一种系统地复制研究的元科学,因此人们对已经发表的复制研究的实际数量和性质的理解还很差。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Salinity is one of the most important marine parameters , which controls many processes such as physical circulations , biogeochemistry dynamics from regional to global ocean  .",
+        "baseline":"盐度是海洋中最重要的参数之一,它控制许多过程,如物理循环、区域到全球海洋生物化学动力学。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Although drifters and buoys , together with cruises , have accumulated large amount in - situ water salinity data in different regions , it is still difficult to monitor global ocean salinity with high temporal - spatial resolution by the in situ measurements .",
+        "baseline":"虽然漂流船和浮游船和巡航船在不同地区积累了大量 实地 水盐度数据,但仍难以通过实地测量以高时空分辨率监测全球海洋盐度。",
+        "zh":[
+            "漂船和浮游船和巡航船在不同地区积累了大量实地水盐度数据,但实地测定对全球海洋水盐度进行高时空分辨率的监测仍然困难.",
+            "漂船和浮游船和巡航船在不同地区积累了大量实地水盐度数据,但实地测定对全球海洋水盐度进行高时空分辨率的监测仍然困难.",
+            "漂船和浮游船和巡航船在不同地区积累了大量实地水盐度数据,但实地测定对全球海洋水盐度进行高时空分辨率的监测仍然困难.",
+            "漂船和浮游船和巡航船在不同地区积累了大量实地水盐度数据,但实地测定对全球海洋水盐度进行高时空分辨率的监测仍然困难.",
+            "漂船和浮游船和巡航船在不同地区积累了大量实地水盐度数据,但实地测定对全球海洋水盐度进行高时空分辨率的监测仍然困难.",
+            "虽然漂船和浮船和巡洋舰在不同地区积累了大量实地水盐度数据,但通过实地测量,以高时空分辨率监测全球海洋盐度仍然很难.",
+            "虽然漂船和浮船和巡洋舰在不同地区积累了大量实地水盐度数据,但实地测定对全球海洋水盐度进行高时空分辨率的监测仍然是困难的.",
+            "漂船和浮游船和巡航船在不同地区积累了大量现场水盐度数据,但通过现场测量监测全球海洋盐度,具有高时空分辨率,仍然是困难的.",
+            "漂船和浮游船和巡航船在不同地区积累了大量实地水盐度数据,但实地测定对全球海洋水盐度进行高时空分辨率的监测仍然困难."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Thus , remote sensing of SSS requires a highly accurate retrieval model .",
+        "baseline":"因此, SSS遥感需要一种高精度的检索模型。",
+        "zh":[
+            "因此,SSS遥感需要一种高精确的检索模型。",
+            "因此,SSS遥感需要一种高精确的检索模型。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Many rough surface emission models have also been developed based on the theoretical and empirical methods .",
+        "baseline":"基于理论和实证方法,开发了许多粗糙表面排放模型。",
+        "zh":[
+            "基于理论和实证方法,建立了许多粗糙表面排放模型.",
+            "基于理论和经验的方法,还开发了许多粗糙表面排放模型.",
+            "基于理论和实证方法,建立了许多粗糙表面排放模型.",
+            "基于理论和实证方法,建立了许多粗糙表面排放模型.",
+            "基于理论和实证方法,建立了许多粗糙表面排放模型.",
+            "基于理论和经验的方法,还开发了许多粗糙表面排放模型.",
+            "基于理论和实证方法,建立了许多粗糙表面排放模型."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Although many theoretical and empirical models have been developed , some problems are still unsolved .",
+        "baseline":"虽然有许多理论和实证模型已经开发,但一些问题仍未解决。",
+        "zh":[
+            "虽然有许多理论和实证模型已经开发,但一些问题仍未解决.",
+            "虽然有许多理论和实证模型已经开发,一些问题仍未解决.",
+            "虽然有许多理论和实证模型已经开发,但一些问题仍未得到解决.",
+            "虽然有许多理论和实证模型已经开发,一些问题仍未解决.",
+            "虽然有许多理论和实证模型已经开发,一些问题仍未解决."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"For example , the TSM originally proposed to estimate brightness temperature at higher frequencies , uses the sea surface wave spectrum by multiplying a factor of 2 .",
+        "baseline":"例如,TSM最初提议在较高频率估计亮度温度,利用海面波谱乘法2。",
+        "zh":[],
+        "fvec":[]
+    }
+]

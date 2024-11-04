@@ -1,0 +1,104 @@
+[
+    {
+        "en":"Some of those pains continue even now .",
+        "baseline":"有些痛苦甚至现在仍在继续。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The service of India means , the service of the millions who suffer .",
+        "baseline":"为印度服务意味着为受苦的数百万人服务。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It means the ending of poverty and ignorance and poverty and disease and inequality of opportunity .",
+        "baseline":"它意味着结束贫穷、无知、贫穷、疾病和机会不平等。",
+        "zh":[
+            "它意味着结束贫穷、无知、贫困、疾病和机会不平等.",
+            "它意味着结束贫穷、无知、贫困、疾病和机会不平等.",
+            "它意味着结束贫穷、无知、贫困、疾病和机会不平等.",
+            "它意味着结束贫穷、无知、贫困、疾病和机会不平等.",
+            "它意味着结束贫穷、无知、贫困、疾病和机会不平等.",
+            "它意味着结束贫穷、无知、贫困、疾病和机会不平等.",
+            "它意味着结束贫穷、无知、贫穷、疾病和机会不平等.",
+            "它意味着结束贫穷、无知、贫困、疾病和机会不平等."
+        ],
+        "fvec":[
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001"
+        ]
+    },
+    {
+        "en":"The appointed day has come - the day appointed by destiny - and India stands forth again , after long slumber and struggle , awake , vital , free and independent .",
+        "baseline":"定日已经到来--由命运所定的日--印度在漫长的睡梦和斗争之后再次站出来,醒来,生机勃勃,自由独立。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The past clings on to us still in some measure and we have to do much before we redeem the pledges we have so often taken .",
+        "baseline":"过去在某种程度上仍与我们相连,我们必须做很多事情才能兑现我们经常作出的承诺。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"A new star rises , the star of freedom in the East , a new hope comes into being , a vision long cherished materializes .",
+        "baseline":"新星升起,东方的自由之星,新希望诞生,长期珍视的远景实现。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We rejoice in that freedom , even though clouds surround us , and many of our people are sorrowstricken and difficult problems encompass us .",
+        "baseline":"尽管我们周围是云彩,但我们人民中的许多人都悲伤,困难的问题包围着我们。",
+        "zh":[
+            "尽管我们周围是云朵,但我们许多人都很悲伤,困难的问题包围着我们。",
+            "尽管我们周围是云朵,但我们许多人都很悲伤,困难的问题包围着我们。",
+            "尽管我们周围是云朵,但我们许多人都悲伤,困难的问题包围着我们。",
+            "尽管我们周围是云朵,但我们许多人都悲伤,困难的问题包围着我们。",
+            "尽管我们周围是云朵,但我们许多人都悲伤,困难的问题包围着我们。"
+        ],
+        "fvec":[
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000"
+        ]
+    },
+    {
+        "en":"They are of us and will remain of us whatever may happen , and we shall be sharers in their good  ill fortune alike .",
+        "baseline":"他们属于我们,无论发生什么事,他们都属于我们。",
+        "zh":[
+            "他们是我们中的,无论发生什么事,他们都是我们中的,我们都会分享他们的幸福和不幸。",
+            "他们是我们中的,无论发生什么事,他们都是我们中的,我们都会分享他们的幸福和不幸。",
+            "他们是我们中的,无论发生什么事,他们都是我们中的,我们都会分享他们的幸福和不幸。",
+            "他们是我们中的,无论发生什么事,他们都是我们中的,我们都会分享他们的幸福和不幸。",
+            "他们是我们中的,无论发生什么事,他们都是我们中的,我们都会分享他们的幸福和不幸。"
+        ],
+        "fvec":[
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000"
+        ]
+    },
+    {
+        "en":"The future beckons to us .",
+        "baseline":"未来向我们发出召唤。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We have hard work ahead .",
+        "baseline":"我们有很辛苦的工作要做。",
+        "zh":[],
+        "fvec":[]
+    }
+]

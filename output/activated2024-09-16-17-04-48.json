@@ -1,0 +1,88 @@
+[
+    {
+        "en":"The Jewish community was practically wiped out , and many others lost their lives .",
+        "baseline":"犹太人社区几乎被摧毁,还有许多人丧生。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Although the city was not destroyed in the aftermath , the material losses were serious as the machinery , raw materials and finished goods were taken away by the fleeing Nazis .",
+        "baseline":"尽管城市在之后没有被摧毁,但物质损失是严重的,因为机器、原材料和成品被逃离的纳粹人夺走了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The day before the liberation , about 80,000 Germans left Łódź in panic .",
+        "baseline":"解放前一天,约8万德国人惊恐地离开了 Łodzi。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"This led to further dilapidation of the investment - starved city , and many of its streets and buildings show profound signs of neglect .",
+        "baseline":"这导致了投资贫穷的城市进一步分裂,许多街道和建筑物表现出严重的忽视迹象。",
+        "zh":[
+            "这导致投资贫穷的城市进一步分裂,许多街道和建筑都显示了严重的忽视的迹象.",
+            "这导致投资贫穷的城镇进一步分裂,许多街道和建筑物都表现出严重忽视的迹象.",
+            "这导致投资贫穷的城市进一步分裂,许多街道和建筑都显示了严重的忽视的迹象.",
+            "这导致投资贫穷的城镇进一步分裂,许多街道和建筑物都表现出严重忽视的迹象."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"You will find elegant hotels , restaurants and malls in the northern part of the city .",
+        "baseline":"在城市北部,你会找到优雅的旅馆、餐馆和购物中心。",
+        "zh":[
+            "在城市北部,你会找到雅致的酒店、餐馆和购物中心.",
+            "在城市北部,你会找到雅致的旅馆、餐厅和购物中心.",
+            "在城市北部,你会找到雅致的酒店、餐馆和购物中心.",
+            "在城市北部,你会找到雅致的酒店、餐馆和购物中心.",
+            "在城市北部,你会找到雅致的酒店、餐馆和购物中心."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"A large central market and numerous small shops are found all around the main plaza .",
+        "baseline":"广场周围有许多大型中央市场和小商店。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Progressive Mérida had electric trams and street lights before Mexico City .",
+        "baseline":"在墨西哥城之前,进步的梅里达有电车和街灯。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They have lunch and siesta , then go back to work for a few hours in the late afternoon .",
+        "baseline":"他们吃午饭和午饭,然后在下午晚些时候再回去工作。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You can see them visiting and talking as they stroll along the streets , sit in the plazas or dine in the many sidewalk restaurants .",
+        "baseline":"你可以看见他们在街上散步,在广场上坐,或者在许多路边餐馆里吃饭。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"From Mérida , it is easy to take day trips to a vast array of destinations : archaeological sites , ecological parks , typical villages , caves , beaches , colonial missions and more .",
+        "baseline":"从梅里达出发,很容易到许多目的地进行日游:考古遗址、生态公园、典型的村庄、洞穴、海滩、殖民任务等等。",
+        "zh":[
+            "来自梅里达,可以轻松到多处目的地:考古遗址,生态公园,典型的村庄,洞穴,海滩,殖民任务等等."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    }
+]

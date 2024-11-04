@@ -1,0 +1,96 @@
+[
+    {
+        "en":"Holt received his first championship ring when the Red Sox won the World Series over the St. Louis Cardinals in six games , despite not playing in the postseason .",
+        "baseline":"霍尔特第一次获得冠军戒指是在红袜队在六场比赛中击败圣路易斯卡尔迪纳尔队赢得世界系列赛,尽管在赛季后没有参加比赛。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"On June 8 , 2014 , in order to allow Xander Bogaerts to play 3rd base , Holt moved to left field .",
+        "baseline":"2014年6月8日,为了让桑德尔·博加尔茨在第三垒打,霍尔特搬到左场。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Eusebius Sophronius Hieronymus was born at Stridon around 347 AD .",
+        "baseline":"尤西比乌斯·索普罗尼乌斯·希罗尼乌斯(Eusebius Sophronius Hieronymus)于347年左右出生于斯特里顿。",
+        "zh":[
+            "约347年,尤西比乌斯·索普罗尼乌斯·希罗尼米乌斯生于斯特里顿.",
+            "约347年,尤西比乌斯·索普罗尼乌斯·希罗尼乌斯(EusebiusSophroniusHieronymus)出生在斯特里顿.",
+            "约347年,尤西比乌斯·索普罗尼乌斯·希罗尼乌斯生于斯特里顿.",
+            "约347年,尤西比乌斯·索普罗尼乌斯·希罗尼乌斯生于斯特里顿."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Around this time he had copied for him a Hebrew Gospel , of which fragments are preserved in his notes , and is known today as the Gospel of the Hebrews , and which the Nazarenes considered to be the true Gospel of Matthew .",
+        "baseline":"大约这时,他为他写了一本希伯来福音,其中 fragments are preserved in his notes, and is known today as the Gospel of the Hebrews, and which the Nazarenes considered to be the true Gospel of Matthew 。",
+        "zh":[
+            "大约此时,他为他写了一本希伯来福音,其中fragmentsarepreservedinhisnotes,andisknowntodayastheGospeloftheHebrews,andwhichtheNazarenesconsideredtobethetrueGospelofMatthew。",
+            "大约此时,他已经复制了一本希伯来福音书,其中fragmentsinhisnotes,andisknowntodayastheGospeloftheHebrews,andwhichtheNazarenesconsideredtobethetrueGospelofMatthew。",
+            "大约此时,他为他写了一本希伯来福音,其中fragmentsinhisnotes,andisknowntodayastheGospeloftheHebrews,andwhichtheNazarenesconsideredtobethetrueGospelofMatthew。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Jens Otto Harry Jespersen or Otto Jespersen  was a Danish linguist who specialized in the grammar of the English language .",
+        "baseline":"詹斯·奥托·哈里·杰普森(英语:Jens Otto Harry Jespersen)是一位丹麦语言学家,专门研究英语语法。",
+        "zh":[
+            "詹斯·奥托·哈里·耶普森(JensOttoHarryJespersen)是一位丹麦语言学家,专门研究英语的语法。",
+            "詹斯·奥托·哈里·耶普森(JensOttoHarryJespersen)是一位丹麦语言学家,专门研究英语的语法。",
+            "詹斯·奥托·哈里·耶普森(JensOttoHarryJespersen)是一位丹麦语言学家,专门研究英语的语法。",
+            "詹斯·奥托·哈里·耶普森(JensOttoHarryJespersen)是一位丹麦语言学家,专门研究英语的语法。",
+            "詹斯·奥托·哈里·耶普森(JensOttoHarryJespersen)是一位丹麦语言学家,专门研究英语的语法。",
+            "詹斯·奥托·哈里·耶普森(JensOttoHarryJespersen)是一位丹麦语言学家,专门研究英语的语法。",
+            "詹斯·奥托·哈里·耶普森(JensOttoHarryJespersen)是一位丹麦语言学家,专门研究英语语法。"
+        ],
+        "fvec":[
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"In 1881 he shifted his focus completely to languages , and in 1887 earned his master 's degree in French , with English and Latin as his secondary languages .",
+        "baseline":"1881年,他把注意力完全转移到语言上,1887年获得法语硕士学位,以英语和拉丁语为其二级语言。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Jespersen was a professor of English at the University of Copenhagen from 1893 to 1925 , and served as Rector of the university in 1920 – 21 .",
+        "baseline":"1893年至1925年,杰普森在哥本哈根大学担任英语教授,1920年至21年担任大学校长。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"His autobiography  was published in English translation as recently as 1995 .",
+        "baseline":"他自传于1995年以英语翻译出版。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"After his retirement in 1925 , Jespersen remained active in the international linguistic community .",
+        "baseline":"1925年退休后,杰普森仍活跃于国际语言社会。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In addition to continuing to write , he convened and chaired the first International Meeting on Linguistic Research in Geneva in 1930 , and acted as president of the Fourth International Congress of Linguists in Copenhagen in 1936 .",
+        "baseline":"除了继续写作,他于1930年在日内瓦召开了第一次国际语言研究会议,并担任了1936年在哥本哈根举行的第四届国际语言学家大会主席。",
+        "zh":[],
+        "fvec":[]
+    }
+]

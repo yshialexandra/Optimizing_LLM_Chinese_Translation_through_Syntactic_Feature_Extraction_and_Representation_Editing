@@ -1,0 +1,74 @@
+[
+    {
+        "en":"See if I have any cards .",
+        "baseline":"看看是否有牌子。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You remember ?",
+        "baseline":"你还记得吗?",
+        "zh":[
+            "还记得吗?",
+            "还记得吗?",
+            "还记得吗?",
+            "还记得吗?",
+            "还记得吗?"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Look at you being smart .",
+        "baseline":"看着你很聪明。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Do n't call me stupid .",
+        "baseline":"别叫我愚蠢。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Trying to — trying to win .",
+        "baseline":"设法 — 设法赢。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Trying to conquer the world .",
+        "baseline":"试图征服世界。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Go into Europe .",
+        "baseline":"去欧洲。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Get Europe .",
+        "baseline":"去欧洲。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You wo n't attack me yet .",
+        "baseline":"你还没来攻击我。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"How many cards you have ?",
+        "baseline":"你有多少张卡?",
+        "zh":[],
+        "fvec":[]
+    }
+]

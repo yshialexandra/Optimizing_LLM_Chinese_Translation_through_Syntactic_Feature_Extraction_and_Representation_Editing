@@ -1,0 +1,132 @@
+[
+    {
+        "en":"So negligence was established .",
+        "baseline":"因此疏忽被证明了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Over the past three years , millions of Americans have struggled to pay rent , utilities , food , and many have been unable to pay their debts .",
+        "baseline":"在过去的三年中,数百万美国人 struggled to pay rent, utilities, food, 许多也无法偿还债务。",
+        "zh":[
+            "在过去三年中,数百万美国人struggletopayrent,utilities,food,andmanyhavebeenunabletopaytheirdebt。",
+            "在过去三年中,数百万美国人struggledtopayrent,utilities,food,manyhavebeenunabletopaytheirdebt.许多美国人struggledtopayrent,utilities,food,andmanyhavebeenunabletopaytheirdebt.",
+            "在过去三年中,数百万美国人struggledtopayrent,utilities,food,manyhavebeenunabletopaytheirdebt。",
+            "在过去三年中,数百万美国人struggletopayrent,utilities,food,andmanyhavebeenunabletopaytheirdebt。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"On the merits , the states say the Act does n't authorize the Secretary to ever forgive loan principal .",
+        "baseline":"关于其优点,州说该法不授权秘书永远宽恕贷款人。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"That was the decision document that the Secretary signed where he said , I hereby issue waivers and modifications of multiple provisions under Title IV of the student loan program .",
+        "baseline":"这是秘书长签署的决定文件,他说:“我 hereby issue waivers and modifications of multiple provisions under Title IV of the student loan program”。",
+        "zh":[
+            "这是秘书长签署的决定文件,他说:“我herebyissuewaiversandmodificationsofmultipleprovisionsunderTitleIVofthestudentloanprogram。",
+            "这是秘书长签署的决定文件,他说:“我herebyissuewaiversandmodificationsofmultipleprovisionsunderTitleIVofthestudentloanprogram。",
+            "这是秘书长签署的决定文件,他说:“我herebyissuewaiversandmodificationsofmultipleprovisionsunderTitleIVofthestudentloanprogram。",
+            "这是秘书长签署的决定文件,他说:“我herebyissuewaiversandmodificationsofmultipleprovisionsunderTitleIVofthestudentloanprogram。",
+            "这是秘书长签署的决定文件,他说:“我herebyissuewaiversandmodificationsofmultipleprovisionsunderTitleIVofthestudentloanprogram。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"So would you take a minute to explain how a waiver or modification amounts to a waiver -- to a cancellation ?",
+        "baseline":"那么你愿意花一分钟解释一下,豁免或修改如何等于豁免--取消?",
+        "zh":[
+            "那么,你愿意花一分钟来解释一下,豁免或修改如何等于豁免--取消?",
+            "那么,你愿意花一分钟来解释一下,豁免或修改如何等于豁免--取消?",
+            "那么,你愿意花一分钟来解释一下豁免或修改如何等于豁免--取消?",
+            "那么,你愿意花一分钟来解释一下,豁免或修改如何等于豁免--取消?",
+            "那么,你愿意花一分钟来解释一下,豁免或修改如何等于豁免--取消?",
+            "那么,你愿意花一分钟来解释一下,豁免或修改如何等于豁免--取消?",
+            "那么,你愿意花一分钟来解释一下,豁免或修改如何等于豁免--取消?",
+            "那么,你愿意花一分钟来解释一下,豁免或修改如何等于豁免--取消?",
+            "那么,你愿意花一分钟来解释一下,豁免或修改如何等于豁免--取消?",
+            "那么,你愿意花一分钟来解释一下豁免或修改如何等于豁免--取消?"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"We 're talking about half a trillion dollars and 43 million Americans .",
+        "baseline":"我们正在谈论半万亿美元和43百万美国人。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It 's undisputed and the states are n't contesting that the ordinary meaning of \" waive \" means to eliminate an obligation in its entirety .",
+        "baseline":"无可争辩,各国并不争论“放弃”的一般含义是完全消除一项义务。",
+        "zh":[
+            "这是无可争辩的,各国并不争论“放弃”的常用含义是完全消除一项义务。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"That 's right .",
+        "baseline":"没错。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It does n't say waive -- modify or waive loan balances .",
+        "baseline":"它不说放弃--修改或放弃贷款余额。",
+        "zh":[
+            "它不是说放弃--修改或放弃贷款余额。",
+            "它不说放弃——修改或放弃贷款余额.",
+            "它不说放弃——修改或放弃贷款余额.",
+            "它不是说放弃--修改或放弃贷款余额。",
+            "它不说放弃——修改或放弃贷款余额.",
+            "它不是说放弃--修改或放弃贷款余额。",
+            "它不是说放弃--修改或放弃贷款余额。",
+            "它不是说放弃--修改或放弃贷款余额。",
+            "它不是说放弃--修改或放弃贷款余额。",
+            "它不说放弃——修改或放弃贷款余额."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000001"
+        ]
+    },
+    {
+        "en":"Chief Justice Kennedy and may it please the Court .",
+        "baseline":"肯尼迪首席法官,请法院同意。",
+        "zh":[],
+        "fvec":[]
+    }
+]

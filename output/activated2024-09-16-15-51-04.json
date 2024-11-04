@@ -1,0 +1,86 @@
+[
+    {
+        "en":"\" If Iodine deficiency is serious you lose 15 IQ points , on average .",
+        "baseline":"如果缺碘严重,你就会平均损失15分智商。",
+        "zh":[
+            "如果缺碘严重,你平均损失15个IQ分.",
+            "如果缺碘严重,你平均损失15分IQ."
+        ],
+        "fvec":[
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000"
+        ]
+    },
+    {
+        "en":"According to Yonhap news agency , quoting North Korea 's main news agency Korean Central News Agency  , the country 's military has been placed on high alert and has been told to prepare a \" quasi - state of war \" .",
+        "baseline":"朝鲜中央电视台报道, 朝鲜军队已经处于高度警戒状态,并被告知准备“ 准战争状态 ” 。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They perpetrated such reckless action as firing 36 shells at KPA civil police posts under the absurd pretext that the KPA fired one shell at the south side .",
+        "baseline":"他们 采取 了 这样 的 不负责任 行动, 即 在 人民 解放军 在 南部 开 了 一 枚 炮弹 的 荒谬 借口 下 向 人民 解放军 民警 哨所 开 了 36 枚 炮弹 。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Yesterday , North Korea fired artillery rounds aimed at a loudspeaker in South Korea that broadcasts anti-Pyongyang propaganda into the North .",
+        "baseline":"昨天,朝鲜向朝鲜向朝鲜广播反平壤宣传的扬声器发射炮弹。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The South retaliated by firing dozens of rounds of artillery into the north .",
+        "baseline":"南方以数十枚炮弹向北方射击报复。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The broadcasts began on August 10 and South Korea says the broadcasts will continue .",
+        "baseline":"广播于8月10日开始,韩国说广播将继续。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Last Year over 4 million visitors attended the event and this year the city expects about 6 million visitors according to the event website .",
+        "baseline":"去年,超过4百万游客参加了活动,而今年,根据活动网站,该市预计约有6百万游客。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Colorful lantern scenes not only fill the central square but also the surrounding 2 km circumference of the memorial .",
+        "baseline":"多彩的灯台场景不仅填满了中央广场,还填满了纪念碑周围的2公里。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There is even a section of lanterns sponsored by foreign countries .",
+        "baseline":"甚至还有一些由外国赞助的灯笼。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"People flock to see the lantern scenes and enjoy the festival atmosphere as they carry lanterns , given away by the city and bought from street vendors at the event .",
+        "baseline":"人们集群观看灯台场景,享受节日的气氛,因为他们携带着街头卖给城市并从街头卖店购买的灯台。",
+        "zh":[
+            "人们集群观看灯台场景,享受节日的气氛,携带灯台,由城市赠送,并在活动中从街头商店购买。",
+            "人们欢呼着观看灯台场景,享受节日的气氛,携带着街市赠送的灯台,并在活动期间从街上买到灯台。",
+            "人们欢呼着观看灯台场景,享受节日的气氛,携带着街市赠送的灯台,并在活动期间从街上买到灯台。",
+            "人们欢呼着观看灯台场景,享受节日的气氛,携带着街市赠送的灯台,并在活动期间从街上买到灯台。",
+            "人们欢呼着观看灯台场景,享受节日气氛,携带着街头市赠送的灯台和在场上从街头卖家购买的灯台。",
+            "人们欢呼着观看灯台场景,享受节日的气氛,携带着街市赠送的灯台,并在活动期间从街上买到灯台。",
+            "人们欢呼着观看灯台场景,享受节日的气氛,携带着街市赠送的灯台,并在活动期间从街上买到灯台。",
+            "人们集群观看灯台场景,享受节日的气氛,携带灯台,由城市赠送,并在活动中从街头商店购买。"
+        ],
+        "fvec":[
+            "000000010000000000000000000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000010000000000000000000000000"
+        ]
+    }
+]

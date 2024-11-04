@@ -1,0 +1,86 @@
+[
+    {
+        "en":"No loud radios and record - playing to irritate me , and great oaks and palms around the place .",
+        "baseline":"没有响亮的收音机和录音机来刺激我, 到处都是大橡木和棕榈.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Please check on that for me .",
+        "baseline":"请帮我查一下。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They never se m to miss a chance recently to mention him favorably .",
+        "baseline":"他们从不错过最近一次机会来赞同他。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The President later personally took action to allow the team into the country .",
+        "baseline":"总统随后亲自采取行动,允许球队进入该国。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The first FIRST Global robotics competition was held this week in Washington D.C.",
+        "baseline":"第一届全球机器人竞赛本周在华盛顿举行。",
+        "zh":[
+            "FIRST全球机器人比赛于本周在华盛顿举行"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Teams from different countries were arranged in groups of three , and groups faced off in pairs .",
+        "baseline":"来自不同国家的队伍被安排成三个小组,而小组则以两组面对面。",
+        "zh":[
+            "来自不同国家的队伍分成三组,并以两队面对面.",
+            "来自不同国家的队伍分成三组,并以两队面对面."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"This year , the European team won the competition overall , with the silver medal going to Poland and the bronze to Armenia .",
+        "baseline":"今年,欧洲队总共赢得比赛,银牌是给波兰,铜牌是给亚美尼亚。",
+        "zh":[
+            "今年,欧洲队总冠军,银牌是波兰,铜牌是亚美尼亚.",
+            "今年,欧洲队总冠军,银牌是波兰,铜牌是亚美尼亚.",
+            "今年,欧洲队总冠军,银牌是波兰,铜牌是亚美尼亚.",
+            "今年,欧洲队总冠军,银牌是波兰,铜牌是亚美尼亚.",
+            "今年,欧洲队总冠军,银牌是波兰,铜牌是亚美尼亚.",
+            "今年,欧洲队总冠军,银牌是波兰,铜牌是亚美尼亚."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"We were so interested because we had n't long or enough time to get ready for competition but we came to United States and now we are here because of Trump intervention . \"",
+        "baseline":"我们非常感兴趣,因为我们没有足够的时间来准备竞争,但我们来到美国,现在我们在这里是因为特朗普的干预。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The team arrived in Washington D.C. after many difficulties .",
+        "baseline":"球队在经历了许多困难之后抵达华盛顿。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They were twice denied visas to enter the United States .",
+        "baseline":"他们两次被拒绝进入美国签证。",
+        "zh":[],
+        "fvec":[]
+    }
+]

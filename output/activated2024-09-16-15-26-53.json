@@ -1,0 +1,88 @@
+[
+    {
+        "en":"To make a difference in America you must have the \" Bully Pulpit \" and speak to the People .",
+        "baseline":"要使美国发生变化,你必须拥有“ Bully Pulpit ”,并与人民讲话。",
+        "zh":[
+            "要在美国做出改变,你必须拥有“BullyPulpit”和与人民讲话.",
+            "要在美国做出改变,你必须拥有“BullyPulpit”和与人民讲话.",
+            "要在美国做出改变,你必须拥有“BullyPulpit”和与人民讲话.",
+            "要在美国做出改变,你必须拥有“BullyPulpit”和与人民讲话.",
+            "要在美国做出改变,你必须拥有“BullyPulpit”和与人民讲话.",
+            "要在美国做出改变,你必须拥有“BullyPulpit”和与人民讲话.",
+            "要在美国做出改变,你必须拥有“BullyPulpit”和与人民讲话.",
+            "要在美国做出改变,你必须拥有“BullyPulpit”和与人民讲话.",
+            "要在美国做出改变,你必须拥有“BullyPulpit”和与人民讲话.",
+            "要在美国做出改变,你必须拥有“BullyPulpit”和与人民讲话."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Why did you choose to run in the Republican Party ?",
+        "baseline":"你为什么选择参加共和党?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Today , like many Americans , I am skeptical .",
+        "baseline":"今天,像许多美国人一样,我也很怀疑。",
+        "zh":[
+            "今天,和许多美国人一样,我也是怀疑的。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"In order to be invited to the debates , we must raise money and poll nationally .",
+        "baseline":"为了被邀请参加辩论,我们必须筹集资金并进行全国性投票。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If you do not receive the Republican nomination , would you consider running as a third party candidate ?",
+        "baseline":"如果你没有得到共和党提名, 你会考虑当第三党候选人 吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"After that , I may reconsider .",
+        "baseline":"之后,我再考虑一下。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"What are your thoughts on the job Barack Obama has done as president ?",
+        "baseline":"你对巴拉克·奥巴马作为总统所做的工作有什么看法?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Closing Loopholes and putting in place a system that is transparent and works .",
+        "baseline":"关闭漏洞并建立一个透明和有效的系统。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Passing a Living Wage program lifting people out of poverty .",
+        "baseline":"通过一项生活工资计划,使人们摆脱贫困。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We have had too many decades of Ivy League elites and Professors immersed in theory .",
+        "baseline":"我们已经拥有太多的几十年的精英和教授沉浸于理论之中。",
+        "zh":[],
+        "fvec":[]
+    }
+]

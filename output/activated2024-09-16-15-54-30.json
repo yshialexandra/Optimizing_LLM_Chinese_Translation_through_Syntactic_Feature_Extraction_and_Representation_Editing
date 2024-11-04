@@ -1,0 +1,96 @@
+[
+    {
+        "en":"Korea 's Kim Shin-Wook was shown a yellow card early in the game .",
+        "baseline":"韩国选手金新武在比赛开始时显示了黄色牌。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Korea substituted Park Joo-Ho in the 28th minute of the game due to injury and was replaced by Kim Min-Woo .",
+        "baseline":"韩国在比赛的第28分钟因受伤而替换了朴正熙,并由金明华取代。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Despite their attempts , neither side could open the scoring in the first half as it ended 0 – 0 .",
+        "baseline":"尽管他们作出了尝试, 双方都未能在第一半场以0-0结束时开出得分.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In the second half , Hwang Hee-Chan was booked for a bad foul .",
+        "baseline":"在下半场,黄海昌因犯规而被选中。",
+        "zh":[
+            "在下半场,黄海昌因一场坏球被替补了.",
+            "在下半场,黄海昌因一场坏球被替补了.",
+            "在下半场,黄海昌因一场坏球被替补了."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"The match ended with Sweden winning three points .",
+        "baseline":"比赛以瑞典赢得三分结束。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Belgium had greater ball possession in the match .",
+        "baseline":"比利時在比賽中擁有更大的球權。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Belgium started the game with attacking style with Romelu Lukaku , Yannick Carrasco , and Dries Mertens making early attempts to put Belgium into the lead against debutans Panama .",
+        "baseline":"比利时以进攻风格开始比赛,与卢卡库、卡拉斯科和梅特伦斯(DriesMertens)在早期的尝试中将比利时带进领先的阵营。",
+        "zh":[
+            "比利时和卢卡库、卡拉斯科、梅特伦斯和杜里斯试图让比利时在对阵巴拿马的比赛中领先."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Dries Mertens 's attempt in the 18th minute failed .",
+        "baseline":"梅特伦斯在第18分钟的尝试失败了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Just two minutes in the second half , Dries Mertens scored a goal from a volley , putting the Belgians in the lead .",
+        "baseline":"在第二半的两分钟里,德里斯·梅特伦斯从排球中得分,使比利时队领先。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In the 69th minute , Romelu Lukaku doubled the lead for Belgium , scoring a header from Kevin De Bruyne 's assist .",
+        "baseline":"在第69分钟,卢卡库对比利时的领先率翻了一番,从德布鲁恩的帮助中得分。",
+        "zh":[
+            "在第69分钟里,罗梅卢卢卡库对比利时的领先倍增,以凯文·德·布鲁恩的助手得分。",
+            "在第69分钟里,罗梅卢卢卡库对比利时的领先倍增,以凯文·德·布鲁恩的助手得分。",
+            "在第69分钟里,罗梅卢卢卡库对比利时的领先倍增,以凯文·德·布鲁恩的助手得分。",
+            "在第69分钟里,罗梅卢卢卡库对比利时的领先倍增,以凯文·德·布鲁恩的助手得分。",
+            "在第69分钟里,罗梅卢卢卡库对比利时的领先倍增,以凯文·德·布鲁恩的助手得分。",
+            "在第69分钟里,罗梅卢卢卡库对比利时的领先倍增,以凯文·德·布鲁恩的帮助得分.",
+            "在第69分钟里,罗梅卢卢卡库对比利时的领先倍增,以凯文·德·布鲁恩的帮助得分.",
+            "在第69分钟里,罗梅卢卢卡库对比利时的领先倍增,以凯文·德·布鲁恩的助手得分。",
+            "在第69分钟里,罗梅卢卢卡库对比利时的领先翻了一番,以KevinDeBruyne的助手得分.",
+            "在第69分钟里,罗梅卢卢卡库对比利时的领先倍增,以凯文·德·布鲁恩的帮助得分."
+        ],
+        "fvec":[
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000"
+        ]
+    }
+]

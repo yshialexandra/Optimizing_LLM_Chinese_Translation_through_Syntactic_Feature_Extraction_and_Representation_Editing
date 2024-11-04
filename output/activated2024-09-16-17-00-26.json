@@ -1,0 +1,82 @@
+[
+    {
+        "en":"Without a valid visa , boarding will be denied  .",
+        "baseline":"没有有效签证,将被拒绝登机。",
+        "zh":[
+            "不领有效签证,将被拒绝登机."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"UK : Applying for the visa is a very simple process and can be done by post or in person at the Cuban embassy in London .",
+        "baseline":"申请签证是一个非常简单的过程,可以通过邮递或亲自到伦敦的古巴大使馆办理。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"When applying to the Cuban Consulate by post , there is a new charge introduced in 2011 which is a £ 25 for a non-personal transaction .",
+        "baseline":"在申请到古巴领事馆邮递时,2011年引入了一项新的收费,为非个人交易的25英镑。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If you can not go to the Cuban Consulate you may consider using VisaCuba  because it may be cheaper .",
+        "baseline":"如果你不能去古巴领事馆,你可以考虑使用VisaCuba,因为它可能更便宜。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If you apply in person to the Cuban Consulate , you get the visa straight away .",
+        "baseline":"如果你亲自向古巴领事馆申请,你就可以立刻获得签证。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It can also be done through online agencies as mentioned before although they may be slightly more expensive  .",
+        "baseline":"它也可以通过在线机构进行,正如前面提到的,尽管它们可能略有昂贵。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Germany : You can obtain the tourist card through the Cuban embassy in post .",
+        "baseline":"德国: 你可以通过古巴大使馆邮寄领取旅游卡.",
+        "zh":[
+            "德国:你可以通过古巴大使馆递交旅游卡.",
+            "德国:你可以通过古巴大使馆递交旅游卡.",
+            "德国:你可以通过古巴大使馆以邮递方式获得旅游卡.",
+            "德国:你可以通过古巴大使馆递交旅游卡.",
+            "德国:你可以通过古巴大使馆到邮局领取旅游卡.",
+            "德国:你可以通过古巴大使馆到邮局领取旅游卡.",
+            "德国:你可以通过古巴大使馆递交旅游卡."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Travel agencies may often offer cheaper and quicker services though .",
+        "baseline":"尽管如此,旅行社往往会提供更便宜和更快的服务。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Citizens of Antigua and Barbuda  , Barbados  , Benin , Bosnia and Herzegovina , CIS  , Dominica , Grenada  , Liechtenstein  , Macedonia , Malaysia  , Mongolia , Montenegro  , Namibia , Singapore , Slovakia , Saint Kitts and Nevis , Saint Lucia , Saint Vincent and the Grenadines , Serbia  , Turkmenistan who can stay 30 days without visa .",
+        "baseline":"居住在安提瓜和巴布达 、 巴巴巴多斯 、 贝宁 、 波斯尼亚-黑塞哥维那 、 独联体 、 多米尼加 、 格林纳达 、 列支敦士登 、 马其顿 、 马来西亚 、 蒙古 、 黑山 、 纳米比亚 、 新加坡 、 斯洛伐克 、 圣基茨和尼维斯 、 圣卢西亚 、 圣文森特和格林纳丁斯 、 塞尔维亚 、 土库曼斯坦 的公民,可以不签证停留30天。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Fort Lee is located between the Paramus , NJ retail corridor and Upper Manhattan .",
+        "baseline":"李堡位于帕拉穆斯 、 NJ零售走廊和上曼哈顿之间.",
+        "zh":[],
+        "fvec":[]
+    }
+]

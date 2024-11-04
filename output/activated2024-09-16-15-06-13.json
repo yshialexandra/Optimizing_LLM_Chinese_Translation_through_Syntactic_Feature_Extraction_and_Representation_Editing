@@ -1,0 +1,90 @@
+[
+    {
+        "en":"And they combed their long hair in preparation .",
+        "baseline":"他们准备梳着长发。",
+        "zh":[
+            "他们在准备时梳了长发.",
+            "他们在准备时梳了长发."
+        ],
+        "fvec":[
+            "000000000000000000010000000000000",
+            "000000000000000000010000000000000"
+        ]
+    },
+    {
+        "en":"We pulled off wet socks and shoes , letting them float away on the tide , before the great worm turned and the wake engulfed the creaking , cracking house .",
+        "baseline":"我们脱下湿袜子和鞋子,让它们在潮汐上漂流,然后大虫转过身来,醒来吞噬了摇摇晃晃晃的房子。",
+        "zh":[
+            "我们把湿袜子和鞋子脱下来,让它们在潮汐上漂泊,然后,大蠕虫转身,醒来,吞噬了皱皱的,破裂的房屋.",
+            "我们把湿袜子和鞋子脱下来,让它们在潮汐上漂泊,然后,大蠕虫转身,醒来,吞噬了皱起皱起的房子."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"We clambered up onto the roof , sliding on the tiles and clinging to chimney stacks , sheltering our eyes from the driving downpour .",
+        "baseline":"我们爬到屋顶上,滑在瓦板上,紧紧地靠着烟囱堆,躲避着暴风雨。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And still it rained .",
+        "baseline":"还是下雨了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We heard a fearsome creaking and cracking and before our eyes a great patch of sky peeled away , deeping down in the troughs and riding the crests with torn sails set against the wind .",
+        "baseline":"我们听到一个可怕的皱纹和裂纹,在我们的眼前,一片巨大的天空被剥落了,在树丛中深入,在悬崖上骑着被风刮伤的帆船。",
+        "zh":[
+            "我们听到一声可怕的颤抖和裂纹,我们眼前一片大片天空inthetroughsandridingthecrestswithtornsailssetagainstthewind."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"The Captain stood above us dressed in jewels and finery from a thousand pillagings .",
+        "baseline":"船长站在我们上方,穿着一万件抢劫品的宝石和装饰品。",
+        "zh":[
+            "船长站在我们上方,穿着来自千上万抢劫的宝石和装饰品。",
+            "船长站在我们上方,穿着来自千上万抢劫的宝石和装饰品。",
+            "船长站在我们上方,穿着来自千上万抢劫的宝石和装饰品。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"The young were mostly dead , and the old men had been taken away , they told us , to learn important new things and to come back when they were ready to contribute fully .",
+        "baseline":"他们告诉我们,年轻人大多已经死了,而老人已经被带走了,他们告诉我们,要学一些重要的新东西,然后回到他们准备充分贡献的时候。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So it was a city of grandmothers .",
+        "baseline":"那是个老奶奶的城市。",
+        "zh":[
+            "那是一个祖母城市。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"“ We live in the modern era ! ” she cried .",
+        "baseline":"她喊道: “ 我们生活在现代时代! ”",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"“ You should be ashamed of yourself ! \"",
+        "baseline":"“ 你应该为自己感到羞愧! ”",
+        "zh":[],
+        "fvec":[]
+    }
+]

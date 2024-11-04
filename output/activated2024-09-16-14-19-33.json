@@ -1,0 +1,76 @@
+[
+    {
+        "en":"She was described by The Guardian of London as the ' Queen of the curve ' , who \" liberated architectural geometry , giving it a whole new expressive identity . \"",
+        "baseline":"她被《伦敦卫报》描述为“曲线的女王”,她“解放了建筑几何,赋予了它一种全新的表现性特征”。",
+        "zh":[
+            "她被伦敦卫报描述为“曲线女王”,她“解放了建筑几何,赋予它一种全新的表达性特征”.",
+            "她被伦敦卫报描述为“曲线女王”,她“解放了建筑几何,赋予它一种全新的表达性特征”."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Hadid studied mathematics at the American University of Beirut before moving , in 1972 , to London to study at the Architectural Association School of Architecture .",
+        "baseline":"哈迪德在贝鲁特美国大学学习数学,然后于1972年搬到伦敦学习建筑协会建筑学院。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There she studied with Rem Koolhaas , Elia Zenghelis and Bernard Tschumi .",
+        "baseline":"在那里,她与雷姆·库尔哈斯 、 埃利亚·泽格利斯和伯纳德·舒米一起学习.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"She could n’t care about tiny details .",
+        "baseline":"她一点也不关心细微的细节。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"when it came to the joinery she knew we could fix that later .",
+        "baseline":"说到合金厂,她知道我们以后可以解决。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Ichiyō Higuchi  was a pen name of Japanese author Natsu Higuchi  , also known as Natsuko Higuchi  .",
+        "baseline":"希古奇一世(Ichiyō Higuchi)是日本作家希古奇納津(Natsu Higuchi)的筆名,也稱為希古奇納津子(Natsuko Higuchi)。",
+        "zh":[
+            "日桂一郎(日语:日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎、日桂一郎。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"She fell in love with him right away , not knowing that , at 31 , he had a reputation as a womanizer .",
+        "baseline":"她立刻爱上了他,不知道在31岁时,他是个女权主义者。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Eventually , she got the break she was so eager for :",
+        "baseline":"最后,她得到了她非常渴望的休息:",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Higuchi felt compelled to demonstrate her classical literary training .",
+        "baseline":"希古奇感到被迫展示她的古典文学训练。",
+        "zh":[
+            "秀吉感到被迫展示她的古典文学训练."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"But she was developing rapidly .",
+        "baseline":"但是她发展得很快。",
+        "zh":[],
+        "fvec":[]
+    }
+]

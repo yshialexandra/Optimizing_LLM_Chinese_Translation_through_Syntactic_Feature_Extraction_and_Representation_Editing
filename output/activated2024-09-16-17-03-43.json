@@ -1,0 +1,74 @@
+[
+    {
+        "en":"From the Airport you can take cab for c. IRR 200,000 to the city centre .",
+        "baseline":"从机场起,你可以乘出租车到市中心的IRR200,000。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Since most people are going there anyway , you can always ask people to share taxi .",
+        "baseline":"因为大多数人都去那里 anyway,你可以随时要求人们分享出租车。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The square contains two mosques , a palace , and the bazaar .",
+        "baseline":"广场有两个清真寺、一座宫殿和一个市场。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It is registered as a UNESCO World Heritage Site .",
+        "baseline":"它被列入教科文组织世界遗产。",
+        "zh":[
+            "它是联合国教科文组织世界遗产。",
+            "它是联合国教科文组织世界遗产。",
+            "它是教科文组织世界遗产。",
+            "它是教科文组织世界遗产。",
+            "它是联合国教科文组织世界遗产。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"There is a tunnel from the mosque to the Royal Palace , across the square .",
+        "baseline":"从清真寺到皇家宫殿有一条隧道,穿过广场。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The portal was covered in mud until it was discovered in 1956 .",
+        "baseline":"门廊被泥土覆盖,直到1956年才发现。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In the sixth floor music room , deep circular niches are found in the walls , having not only aesthetic value , but also acoustic .",
+        "baseline":"在第六层音乐厅内,墙壁中发现深圆的空间,不仅具有美学价值,而且具有声学价值。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"1647 : It is called Palace of forty columns , as there are many columns , and in Iranian , 40 means many .",
+        "baseline":"1647年:它被称作40个柱子的宫殿,因为有许多柱子,在伊朗语中,40个意味着很多。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Contains some spectacular battle murals .",
+        "baseline":"包含一些壮观的战斗壁画。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Owing to its history , Łódź has an impressive collection of residential , commercial and industrial 19th - century architecture including some of Europe 's largest factory buildings , now mostly repurposed as shopping centres or lofts .",
+        "baseline":"由于其历史, 罗兹有令人印象深刻的住宅 、 商业和工业建筑的19世纪建筑,包括欧洲最大的工厂建筑,现在大多被重新用于购物中心或高楼.",
+        "zh":[],
+        "fvec":[]
+    }
+]

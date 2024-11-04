@@ -1,0 +1,74 @@
+[
+    {
+        "en":"There is also Internet addiction , yeah .",
+        "baseline":"还有网络上的瘾,是的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"This looks interesting .",
+        "baseline":"这看起来很有趣。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You do n't like sports .",
+        "baseline":"你不喜欢运动。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It 's a reality show , and they talk about all sorts of weird things that people are , quote , addicted to .",
+        "baseline":"这是一场真人秀,他们谈论着人们对各种怪事的依赖。",
+        "zh":[
+            "这是一个真实节目,他们谈论各种怪事,人们,引用,有瘾。",
+            "这是一个真实节目,他们谈论各种怪事,人们,引用,有瘾。",
+            "这是一个真实节目,他们谈论各种怪事,人们,引用,有瘾。",
+            "这是一个真实节目,他们谈论着人们对各种怪事的依恋。",
+            "这是一个真实节目,他们谈论着各种怪事,人们是,引用,有瘾的."
+        ],
+        "fvec":[
+            "000000000000000000010000000000000",
+            "000000000000000000010000000000000",
+            "000000000000000000010000000000000",
+            "000000000000000000010000000000000",
+            "000000000000000000010000000000000"
+        ]
+    },
+    {
+        "en":"Girls are eating chalk and yeah you know .",
+        "baseline":"女孩们正在吃粉末,你知道吗。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If you think about addiction as loss of control of use , we can broadly define that in two ways .",
+        "baseline":"如果你把依赖看作失去使用控制,我们可以从两个方面界定它。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Now , obsessive compulsive disorder is repetitive behaviors that you feel compelled to perform , even though you know they 're irrational .",
+        "baseline":"现在, obsessive compulsive disorder是你感到被迫进行的重复行为,尽管你知道它们是不合理的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So we 're talking about medical quantification .",
+        "baseline":"所以我们正在谈论医学量化。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They are all the undeserving recipients of corporate socialism , making their space tours .",
+        "baseline":"他们都是企业社会主义的无礼的受援者,在太空旅行。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Thank you .",
+        "baseline":"谢谢你。",
+        "zh":[],
+        "fvec":[]
+    }
+]

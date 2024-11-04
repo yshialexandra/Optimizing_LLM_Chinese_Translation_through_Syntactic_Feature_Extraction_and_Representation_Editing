@@ -1,0 +1,88 @@
+[
+    {
+        "en":"You can use the mint in cooking , as well as it serving a deterrent purpose .",
+        "baseline":"你可以在烹饪中使用ミン特, 同时它也能起到威慑作用.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Use dried snake feces .",
+        "baseline":"使用干蛇粪便。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You can also sometimes find someone who owns a pet snake .",
+        "baseline":"有时你也可以找到拥有宠物蛇的人。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"This will keep mice away .",
+        "baseline":"这会使老鼠远离。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There are electronic units sold that emit an ultrasonic beeping sound that rodents hate .",
+        "baseline":"有电子装置出售,它们发出一种恶虫讨厌的超声蜂鸣声。",
+        "zh":[
+            "有卖的电子装置,发出一种啮齿动物讨厌的超声蜂声."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Use a commercial , organic deterrent .",
+        "baseline":"使用一种商业的、有机的威慑剂。",
+        "zh":[
+            "使用商业、有机的威慑剂.",
+            "使用商业、有机的威慑剂.",
+            "使用商业、有机的威慑剂.",
+            "使用商业、有机的威慑剂.",
+            "使用商业、有机的威慑剂.",
+            "使用商业、有机的威慑剂.",
+            "使用商业、有机的威慑剂.",
+            "使用商业、有机的威慑剂.",
+            "使用商业、有机的威慑剂.",
+            "使用商业、有机的威慑剂."
+        ],
+        "fvec":[
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000"
+        ]
+    },
+    {
+        "en":"They will not kill mice but they should keep them out of areas where the product is applied .",
+        "baseline":"它们不会杀死老鼠,但应该远离产品应用的地区。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Get a cat .",
+        "baseline":"找一只猫。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Just be aware , not all cats have enough energy , interest or training to hunt mice .",
+        "baseline":"要知道,并非所有的猫都有足够的能量、兴趣或训练来猎老鼠。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Kittens typically have to be taught by the mother to easily become a mouser .",
+        "baseline":"猫一般要由母亲教养,才能轻易成为一只老鼠。",
+        "zh":[],
+        "fvec":[]
+    }
+]

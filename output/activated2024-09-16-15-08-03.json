@@ -1,0 +1,88 @@
+[
+    {
+        "en":"Two bright red oval spheres were set into an eye - level groove that ran all around , the “ eyes ” themselves slanted into a menacing and intimidating scowl .",
+        "baseline":"两个明亮的红色的椭圆球被设置成一个眼睛水平的沟槽,它到处跑, “ 眼睛 ” 本身被卷入一个威胁和恐吓的扫荡.",
+        "zh":[
+            "两个明亮的红色的椭圆球被设置成一个眼平的凹槽,环绕着,“眼睛”本身也ina威胁和恐吓的扫荡.",
+            "两个明亮的红色的椭圆球被设置成一个眼平的凹槽,它到处跑,“眼睛”本身也转到一个威胁和恐吓的ejected.",
+            "两个明亮的红色的椭圆球被设置成一个眼平的凹槽环绕着,“眼睛”本身被卷入一个威胁和恐吓的ejected.",
+            "两个明亮的红色的椭圆球被设置成一个眼平的凹槽,环绕着,“眼睛”本身也ina威胁和恐吓的扫荡.",
+            "两个明亮的红色的椭圆球被设置成一个眼平的凹槽环绕,“眼睛”自己转弯成一种威胁和恐吓的摇摆.",
+            "两个明亮的红色的椭圆球被设置成一个眼平的凹槽,它到处跑,“眼睛”本身被卷入一个威胁和吓人的扫荡.",
+            "两个明亮的红色椭圆球被设置成一个眼平的槽,到处跑,“眼睛”本身ina威胁和恐吓的扫荡."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Chalmers was feeling forced to accept the truth : they were all that was left of the Imperial Naval Forces .",
+        "baseline":"查默斯感到被迫接受事实:他们是帝国海军的剩余者。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"At that moment , his worst fears had not only been altogether realised , but far exceeded .",
+        "baseline":"这时,他最可怕的恐惧不仅已经完全实现,而且远远超过了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Jom , grown taller and broad in the shoulders , moaned gently to himself , while I stood nervously rubbing the heel of one sandal on the flagstones .",
+        "baseline":"乔姆,肩上长得高又宽,轻轻地向自己叹息,我 nervously站在旗石上 rubbing一双鞋跟。",
+        "zh":[
+            "乔,肩高又宽,轻轻地向自己叹息,我nervously站在那里在旗石上rubbing一只Sandal的脚跟."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"We glanced at one another in confusion .",
+        "baseline":"我们困惑地互相看了看。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"“ There they are , ” said Pavit , the head house - servant , in a strained voice .",
+        "baseline":"房主帕维特紧张地说, “ 他们来了. ”",
+        "zh":[
+            "“就在那里了,”房主帕维特紧张地说.",
+            "“就在他们那里,”房主帕维特紧张的声音说."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"And there they were : a chain of riders weaving among the trees .",
+        "baseline":"在那儿,有一群骑马人在树丛中织着绳子。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The hectic screams of the children preceded the company into the village , so that they advanced like a festival , drawing people out of their houses .",
+        "baseline":"孩子们的狂热的喊叫,使公司进入村庄,他们像节日一样向前迈进,把人们赶出家园。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"My father dismounted from his mule and strutted toward us , grinning .",
+        "baseline":"我父亲从马车上爬下来,向我们走来,微笑着。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So I watched the tide go out under that sinking moon , and saw gleaming the spires , the towers , and the roofs of that dead , dripping city .",
+        "baseline":"因此,我看着潮水从沉着的月球下流出,看见山 spires 、 塔楼和那死的城市屋顶闪烁着。",
+        "zh":[],
+        "fvec":[]
+    }
+]

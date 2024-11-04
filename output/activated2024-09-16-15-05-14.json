@@ -1,0 +1,70 @@
+[
+    {
+        "en":"I stand there and watch her back down the driveway .",
+        "baseline":"我站在那儿,看着她下车道。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The first drops of rain fell onto the parched stones from a cloudless blue sky .",
+        "baseline":"从一片无云的蓝天上,雨水开始降落在磨碎的石头上。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The garden paused , and everything held its breath and waited .",
+        "baseline":"花园停了下来,一切都保持着呼吸,等待着。",
+        "zh":[
+            "花园停下来,一切都保持着呼吸,等待着."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"More rain would come .",
+        "baseline":"更多的雨会降临。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Still the garden held its breath .",
+        "baseline":"花园仍保持着呼吸。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Wispy vapour trails marbled the blue surface above .",
+        "baseline":"湿润的蒸汽迹迹在上面的蓝色表面上铺满了大理石。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And then it rained for good .",
+        "baseline":"然后又下雨了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Pools erupted and overflowed along the edges of the lawn , cascading around the raspberry canes and over the flower beds .",
+        "baseline":"池塘在草坪边上喷发并溢出,在 raspberry canes 周围和花 beds 上 cascading 。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Earthworms rose up from the water - laden earth where they could no longer breath and wriggled and struggled fro air on the surface , writhing and swimming for a safe haven .",
+        "baseline":"地球虫从水满的大地上爬起来,它们再也无法呼吸,在地面上挣扎着爬上空气,爬上水,游到安全的地方去。",
+        "zh":[
+            "土虫从水满的大地上爬起来,它们再也无法呼吸,在地面上翻翻翻翻翻翻翻地,在空中挣扎起来,为了寻找一个安全的避难所游来游去."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"When the water rippled into the hallway , we splashed our way to the staircase and then up as it nipped at our heels .",
+        "baseline":"当水冲进走廊时,我们冲向楼梯,然后爬上楼梯,当水冲到我们脚跟上时。",
+        "zh":[],
+        "fvec":[]
+    }
+]

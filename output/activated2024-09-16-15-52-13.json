@@ -1,0 +1,62 @@
+[
+    {
+        "en":"Local public transportation hubs are often swamped by the event .",
+        "baseline":"当地公共交通枢纽经常被事件淹没。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The commuting crowds can be avoided however by walking from NTU Hospital Station or Shandao Station .",
+        "baseline":"不过,从北大医院站或山大站步行可以避免交通拥挤。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If you really want to avoid the crowds , definitely avoid the weekends .",
+        "baseline":"如果你真的想避开人群,那么一定要避开周末。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Wait until the fourth or fifth day of the festival when the crowds will have dwindled .",
+        "baseline":"等到节日的第四或第五天,人群已经减少了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"NASA Administrator Charles Bolden announces where four space shuttle orbiters will be permanently displayed at the conclusion of the Space Shuttle Program during an event commemorating the 30th anniversay of the first shuttle launch on April 12 , 2011 .",
+        "baseline":"美国宇航局(NASA)署长查尔斯·博登(Charles Bolden)宣布,在2011年4月12日第一次航天飞机发射的30周年纪念活动期间,航天飞机计划结束时将永久展示四个航天飞机轨道器。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Discovery is undergoing decommissioning and currently being prepped for display by removing toxic materials from the orbiter .",
+        "baseline":"探测器正处于退役阶段,目前正通过从轨道器中除去有毒物质来准备展示。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Finally , Atlantis will go on display at the Kennedy Space Center Visitor Complex following the orbiter 's last flight which launches June 28 .",
+        "baseline":"最后, 阿特兰蒂斯号将在6月28日发射的最后一次轨道飞行之后,在肯尼迪航天中心游客中心展出.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Columbia was lost tragically back on February 1 , 2003 when it disintegrated during re-entry killing all seven astronauts aboard .",
+        "baseline":"2003年2月1日,哥伦比亚号在重返太空时解体,导致7名宇航员全部遇难。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"\" Like many Texans , I am disappointed with NASA 's decision to slight the Johnson Space Center as a permanent home for one of the Space Shuttle Orbiters .",
+        "baseline":"与许多 Texans一样,我对NASA决定将约翰逊太空中心作为太空飞船轨道器的永久居所感到失望。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Houston has played a critical role throughout the life of the space shuttle , but it is clear political favors trumped common sense and fairness in the selection of the final locations for the orbiter fleet . \"",
+        "baseline":"休斯敦在航天飞机的一生中发挥了关键作用,但在选择轨道飞行器舰队最后的地点时,显然政治利益胜过理智和公平。",
+        "zh":[],
+        "fvec":[]
+    }
+]

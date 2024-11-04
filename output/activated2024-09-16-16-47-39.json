@@ -1,0 +1,100 @@
+[
+    {
+        "en":"It 's not looking good though .",
+        "baseline":"虽然看起来不太好。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Expired .",
+        "baseline":"期满。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Let 's see what the shelf life is .",
+        "baseline":"让我们看看存货期是多少。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So you know how lipsticks usually come in packaging ?",
+        "baseline":"你知道 lipsticks通常是怎样包装的 吗?",
+        "zh":[
+            "那么,你知道lipsticks通常是怎样包装的吗?",
+            "那么,你知道lipsticks通常怎么包装吗?"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Expired .",
+        "baseline":"期满。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So this is the throw out slash expired pile .",
+        "baseline":"这就是抛出斜线过期桩。",
+        "zh":[
+            "因此,这是抛出窗格过期堆。",
+            "因此,这是抛出窗格过期堆积物。",
+            "因此,这是抛出窗格过期堆。",
+            "因此,这是抛出窗格过期堆。",
+            "因此,这是抛出窗格过期堆积物。",
+            "因此,这是抛出窗格过期堆。",
+            "因此,这是抛出窗格过期堆。",
+            "因此,这是抛出窗格过期堆积物。",
+            "因此,这是抛出窗格过期堆积物。",
+            "因此,这是抛出窗格过期堆。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Alright so let 's start off with the bed and the couch area .",
+        "baseline":"好吧,让我们从床和沙发开始。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We have two chairs where we can sit down and sort of enjoy the weather when it is a little bit better , um but now it 's really cold so just gon na close it .",
+        "baseline":"我们有两张椅子,我们可以坐下来享受一下天气,当天气有点好的时候,嗯,但现在真的冷了,所以就把它关上吧。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It makes waking up in the morning and getting out of bed at 6:00 a.m. when it 's pitch black outside so much easier when you 're waking up really early .",
+        "baseline":"它使早晨醒来和早上6点起床,外面天黑,当你醒来很早的时候就更容易了。",
+        "zh":[
+            "当外面漆黑的时候,早晨醒来和在6点钟起床比你醒来早得多。",
+            "当外面漆黑的时候,早晨醒来和在6点钟起床比你醒来早得多。",
+            "当外面漆黑的时候,早晨醒来和早上6点起床就比你早醒来更容易了。",
+            "当外面漆黑的时候,早晨醒来和早上6点起床都比你早醒来更容易了。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"We are currently in the car yet again and we ’re driving to Alexander Springs .",
+        "baseline":"我们现在又回到了车里,开车去亚历山大·斯普林斯。",
+        "zh":[],
+        "fvec":[]
+    }
+]

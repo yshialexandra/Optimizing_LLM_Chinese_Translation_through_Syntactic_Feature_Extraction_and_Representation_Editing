@@ -1,0 +1,80 @@
+[
+    {
+        "en":"They also keep track of the score .",
+        "baseline":"他们也跟踪成绩。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Feel free to alter the game rules .",
+        "baseline":"你可以随意修改游戏规则。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Establish boundaries and have the seekers look for the snitch .",
+        "baseline":"建立界限,让寻求者寻找刺刀。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Beaters can try hitting the bludgers around in the air with a shortened hockey sticks or a short bat .",
+        "baseline":"打者可以尝试用短棍或短棍在空中击球。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They could also use regular - length hockey sticks to hit bludgers  on the ground .",
+        "baseline":"他们还可以使用常规长棍球来击球.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It may be easier to play without brooms  .",
+        "baseline":"没有扫帚可以玩得更轻松。",
+        "zh":[
+            "不用扫帚玩起来可能更容易。",
+            "不用扫帚玩起来可能更容易。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"See How to Be a Snitch in Quidditch for more information .",
+        "baseline":"更多信息,请参阅如何成为一个Snitch在Quidditch。",
+        "zh":[
+            "更多信息,请参看如何在克威迪奇做剪裁员。",
+            "更多信息,请参看如何在克威迪奇做剪裁员。",
+            "更多信息,请参看如何在克威迪奇做剪裁员。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"You can play water quidditch in a pool .",
+        "baseline":"你可以在游泳池里玩水 quidditch。",
+        "zh":[
+            "你可以在游泳池里打水球。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Have someone throw something  on a line into the pool at regular intervals .",
+        "baseline":"有谁定期在池塘里乱扔一些东西。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They can even use fake snitches .",
+        "baseline":"他们甚至可以使用假针织物。",
+        "zh":[],
+        "fvec":[]
+    }
+]

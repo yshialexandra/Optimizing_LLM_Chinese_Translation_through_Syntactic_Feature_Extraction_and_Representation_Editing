@@ -1,0 +1,72 @@
+[
+    {
+        "en":"She died from infection caused by severe eczema after they shunned effective conventional medical treatments for homeopathy , a form of alternative medicine that has been described as pseudoscience .",
+        "baseline":"她死于严重湿疹引起的感染后,他们放弃了治疗 homeopathy的有效传统医学治疗,一种被描述为伪科学的替代医学。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Gloria was finally taken to the emergency department shortly before her death .",
+        "baseline":"格洛里亚死前不久才被送到紧急救护处。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Speaking in the parents ' defense , Tom Molomby , SC , said that , as the parents came from India , where homeopathy is in common use , they should be declared not guilty due to cultural differences .",
+        "baseline":"汤姆·莫洛姆比(Tom Molomby)说,由于父母来自印度,在印度人普遍使用 homeopathy,所以他们应该因文化差异而被宣布无罪。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Homeopathy is a form of alternative medicine which treats patients with massively diluted forms of substances that , if given to a healthy person undiluted , would cause symptoms similar to the disease .",
+        "baseline":"内科疗法是一种替代药物,它治疗病人大量稀释的物质形式,如果给一个健康的人不稀释,会引起与疾病相似的症状。",
+        "zh":[
+            "疗法是一种替代疗法,用于治疗患者大量稀释的物质形式,如果给一个健康,不稀释的病人,会造成与疾病相似的症状。",
+            "疗法是一种替代疗法,用于治疗病人大量稀释的物质形式,如果给一个健康,不稀释的病人,则会导致类似疾病的症状。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Microsoft has replaced it with three newer versions .",
+        "baseline":"微软已经用三个较新的版本取代了它。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Mozilla Firefox , its main rival , has been actively increasing its market share while the recently released Google Chrome is also quickly gaining users .",
+        "baseline":"MozillaFirefox,其主要竞争对手,一直在积极增加其市场份额,而最近发布的GoogleChrome也在迅速赢得用户。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"But if it is n't , and Chrome continues to surge , IE could fall to fourth place . \"",
+        "baseline":"但是如果不是这样, Chrome将继续上涨, IE可能会跌至第四位。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Web developers face big problems with IE6 .",
+        "baseline":"网络开发者面临 IE6 的巨大问题。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"As they design their web pages for the newer browsers with advanced web technology and geared to the newest web core markup language HTML 5 , they are forced to accommodate older out - of - date technology to support IE6 users .",
+        "baseline":"由于他们为较新的浏览器设计了先进的网页技术,并采用了最新的网页核心标记语言HTML5,因此他们不得不适应较旧的技术,以支持IE6用户。",
+        "zh":[
+            "当他们为较新的浏览器设计网页时,使用先进的网页技术,并采用最新的网页核心标记语言HTML5,他们被迫适应较旧的旧式技术来支持IE6用户."
+        ],
+        "fvec":[
+            "000000000000000000010000000000000"
+        ]
+    },
+    {
+        "en":"The Internet security firm Secunia.com , has said that as of March 4 , 2011 , IE6 has 277 vulnerabilities ; 39 percent of these are rated \" highly critical \" .",
+        "baseline":"互联网安全公司Secunia.com表示,截至2011年3月4日, IE6有277个漏洞,其中39%。",
+        "zh":[],
+        "fvec":[]
+    }
+]

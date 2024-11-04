@@ -1,0 +1,76 @@
+[
+    {
+        "en":"We could 've scored two or three goals in the first half and put the game to bed early . \"",
+        "baseline":"我们本来能在第一半球中得分两三球,然后把比赛提前打完。",
+        "zh":[
+            "我们本来能在第一半球中得分两三meta,提前打完比赛.”",
+            "我们本来能在第一半球中得分两三meta,并且把比赛提前打完.”",
+            "我们本来能在第一半球中得分两三个进球,然后把比赛提前结束.”",
+            "我们本来能在第一半球中得分两三个进球,然后早点休息比赛.”"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"If we were to get a draw it would have been an excellent result for us .",
+        "baseline":"如果我们能得到抽签,那对我们来说将是一个很好的结果。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"According to the Saudi Interior Ministry over 345 Muslim pilgrims have been killed in a stampede during the annual Hajj pilgrimage near Mecca , Saudi Arabia .",
+        "baseline":"据沙特内政部报道,每年在沙特阿拉伯麦卡附近进行的 Hajj巡礼期间,有345名穆斯林巡礼者丧生。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Muslims are required to make a pilgrimage to Mecca during their lifetimes , if physically or financially possible , as it is one of the five pillars of the Islamic faith .",
+        "baseline":"穆斯林在其一生中必须前往麦加巡礼,如果物理或财政上是可能的,因为这是伊斯兰信仰的五支柱之一。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In the past few days in Italy , several municipalities have started asking religious schools to pay taxes for property and local services , despite the resistance of the Catholic Church .",
+        "baseline":"在过去几天里,在意大利,几个自治市开始要求宗教学校为财产和当地服务支付税,尽管天主教会反对。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The request of the municipalities results from the sentence of the Italian Supreme Court of Cassation on July 8 , recognising as legitimate the request of the Municipality of Livorno asking religious schools to pay property taxes .",
+        "baseline":"7月8日,意大利最高 Cassation法院判决,承认利沃诺市要求宗教学校缴纳财产税的要求是合法的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The request was advanced by the Municipality of Livorno in 2010 .",
+        "baseline":"该项请求于2010年由利沃诺市提出。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In 2014 the Italian municipal tax discipline has changed from the ICI system to the IMU system by the Monti government .",
+        "baseline":"2014年,意大利市政税制由蒙蒂政府从ICI系统改为IMU系统。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Minister of Education Stefania Giannini said a \" more general reflection \"  ) is needed .",
+        "baseline":"教育部长斯蒂芬妮娅·吉安尼尼尼(Stefania Giannini)说,需要“ 更全面地思考 ” 。",
+        "zh":[
+            "教育部长斯蒂芬妮娅·贾宁尼(StefaniaGiannini)说,需要“更普遍的反思”."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Claudio De Vincenti , undersecretary to the prime minister , said \" a discussion table will be opened with the non-profit associations , religious association included \"  ) .",
+        "baseline":"副总理克劳迪奥·德·文森蒂(Claudio De Vincenti)说, “ 将与非营利组织(包括宗教组织)展开讨论桌 ” 。",
+        "zh":[],
+        "fvec":[]
+    }
+]

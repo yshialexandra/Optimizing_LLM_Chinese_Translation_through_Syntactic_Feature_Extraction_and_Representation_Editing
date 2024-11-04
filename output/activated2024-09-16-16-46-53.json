@@ -1,0 +1,84 @@
+[
+    {
+        "en":"Everything has like rubbed off of it .",
+        "baseline":"一切都好像被擦掉了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Oh it looks kind of dry and crusty too .",
+        "baseline":"哦,看起来有点干脆。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Let 's throw this out .",
+        "baseline":"咱们把它扔出去吧。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Go ahead and comment below .",
+        "baseline":"请下文作评论。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Yeah that 's gon na have to go in the expired pile .",
+        "baseline":"是的,我们得进过期的堆里去。",
+        "zh":[
+            "是的,我们得到过期的堆里去。",
+            "是的,我们得进过期堆里去。",
+            "是的,我们得到过期的堆里去。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"So Dose of Colors definitely does not have an expiration date on their products .",
+        "baseline":"因此,染色剂肯定不会在其产品上有一个期满日期。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Let 's keep going .",
+        "baseline":"让我们继续下去。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"My gosh it 's hard to think back .",
+        "baseline":"天哪,想回想起来真难。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"But yeah this just does not look good .",
+        "baseline":"当然,这看起来不太好。",
+        "zh":[
+            "当然,这看起来并不不错。",
+            "当然,这看起来并不不错。",
+            "当然,这看起来并不不错。",
+            "当然,这看起来并不不错。",
+            "当然,这看起来并不不错。",
+            "当然,这看起来并不不错。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"I ca n't remember when I bought things .",
+        "baseline":"我记不起我什么时候买东西。",
+        "zh":[],
+        "fvec":[]
+    }
+]

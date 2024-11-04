@@ -1,0 +1,84 @@
+[
+    {
+        "en":"It ’s hard to even fathom .",
+        "baseline":"甚至很难理解。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We can see possibilities no one has ever seen before .",
+        "baseline":"我们可以看到从未见过的可能性。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We can go places no one has ever gone before .",
+        "baseline":"我们可以去以前没有人去过的地方。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You know , you ’ve — you ’ve heard me say it over and over again .",
+        "baseline":"你知道,你听到我一遍又一遍地说。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"America is defined by one single word : possibilities .",
+        "baseline":"美国被定义为一个单词:可能性。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So nice , thank you very much .",
+        "baseline":"太好了,非常感谢。",
+        "zh":[
+            "很好,非常感谢。",
+            "很好,非常感谢。",
+            "很好,非常感谢。",
+            "很好,非常感谢。",
+            "很好,非常感谢。",
+            "很好,非常感谢。",
+            "很好,非常感谢。",
+            "很好,非常感谢。",
+            "很好,非常感谢。",
+            "很好,非常感谢。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Thank you .",
+        "baseline":"谢谢你。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And it 's an honor to have everybody here .",
+        "baseline":"有这么多人来这儿,真是荣幸。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And , I can tell you , some of the candidates , they went in .",
+        "baseline":"而且,我能告诉你,一些候选人,他们进入了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They did n't know the air - conditioner did n't work .",
+        "baseline":"他们不知道空调坏了.",
+        "zh":[],
+        "fvec":[]
+    }
+]

@@ -1,0 +1,136 @@
+[
+    {
+        "en":"You are finished .",
+        "baseline":"你已经完成了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Enjoy your tasty creation .",
+        "baseline":"享受你的美味的创造。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If you want to make it more quickly , cut the skittles in half before putting them into vodka .",
+        "baseline":"如果你想更快地做,先把水壶切成一半,然后把水壶倒进伏特加里。",
+        "zh":[
+            "如果你想做得更快的话,在把它们放入伏特加之前,切开一半。",
+            "如果你想做得更快的话,在将它们放入伏特加之前,切开半瓶。",
+            "如果你想做得更快的话,在把它们放入伏特加之前,切开一半。"
+        ],
+        "fvec":[
+            "000000100000000000000000010000000",
+            "000000100000000000000000010000000",
+            "000000100000000000000000010000000"
+        ]
+    },
+    {
+        "en":"They 'll dissolve in an hour instead of a day .",
+        "baseline":"它们会在一天而不是一小时内溶解。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Or you could just scoop them out when the color dissolves .",
+        "baseline":"或者你只要把颜色溶解时,就能把它们拔出来。",
+        "zh":[
+            "或者,当颜色溶解时,你可以把它摘出来。",
+            "或者,当颜色溶解时,你可以把它摘出来。",
+            "或者,当颜色溶解时,你可以把它摘出来。",
+            "或者,当颜色溶解时,你可以把它摘出来。",
+            "或者,当颜色溶解时,你可以把它摘出来。",
+            "或者,当颜色溶解时,你可以把它摘出来。",
+            "或者,当颜色溶解时,你可以把它摘出来。",
+            "或者,当颜色溶解时,你可以把它摘出来。",
+            "或者,当颜色溶解时,你可以把它摘出来。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Start with small amount of vodka and Skittles at first to experiment which combination of taste suits you best .",
+        "baseline":"首先用少量 vodka 和 Skittles 来尝试你最适合的口味组合。",
+        "zh":[
+            "首先从少量vodka和Skittles开始,尝试一下你最适合的口味组合.",
+            "首先从少量vodka和Skittles开始,尝试一下你最适合的口味组合.",
+            "首先从少量vodka和Skittles开始,尝试一下你最适合的口味组合.",
+            "首先从少量vodka和Skittles开始,尝试一下你最适合的口味组合.",
+            "首先从少量vodka和Skittles开始,尝试一下你最适合的口味组合.",
+            "首先从少量vodka和Skittles开始,尝试一下你最适合的口味组合."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Then separate the candy and use one flavor for each bottle .",
+        "baseline":"然后把糖果分开,每瓶使用一味。",
+        "zh":[
+            "然后separatethecandyanduseoneflavorforeachbottle.",
+            "然后separatethecandyanduseoneflavorforeachbottle.",
+            "然后separatethecandyanduseoneflavorforeachbottle.",
+            "然后separatethecandyanduseoneflavorforeachbottle。",
+            "然后separatethecandyanduseoneflavorforeachbottle.",
+            "然后separatethecandyanduseoneflavorforeachbottle.",
+            "然后separatethecandyanduseoneflavorforeachbottle.",
+            "然后separatethecandyanduseoneflavorforeachbottle.",
+            "然后separatethecandyanduseoneflavorforeachbottle。",
+            "然后separatethecandyanduseoneflavorforeachbottle."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"If using a t - shirt to strain , be sure fabric softener or a dryer sheet had not been used with it , lets you get some extra  flavoring  .",
+        "baseline":"如果使用T恤来拉伸,请确定布料软剂或干燥板没有用它,让你得到一些额外的香味。",
+        "zh":[
+            "如果您使用T恤来拉伸,请确信织物软体或干燥片没有用它,让你得到一些额外的香味.",
+            "如果您使用T恤来拉伸,请确信织物软体或干燥片没有用它,让你得到一些额外的香味.",
+            "如果您使用T恤来拉伸,请确信织物软化剂或乾板没有用它,可以使您得到一些额外的香味.",
+            "如果使用一件T恤来抽筋,请确信织物软体或干燥片没有用它,让你得到一点额外的香气."
+        ],
+        "fvec":[
+            "000000100010000000000000000000000",
+            "000000100010000000000000000000000",
+            "000000100010000000000000000000000",
+            "000000000010000000000000000000000"
+        ]
+    },
+    {
+        "en":"Drink responsibly .",
+        "baseline":"负责地喝酒。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Never drink and drive .",
+        "baseline":"不喝酒,不开车。",
+        "zh":[],
+        "fvec":[]
+    }
+]

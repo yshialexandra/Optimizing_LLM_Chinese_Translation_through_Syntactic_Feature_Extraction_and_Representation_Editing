@@ -1,0 +1,106 @@
+[
+    {
+        "en":"Deploy .",
+        "baseline":"部署。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It is likely that the shock will dislocate or break both your arms ; nevertheless this is a small price to pay for your life .",
+        "baseline":"很有可能你的双臂被震动移动或断裂,但这是你一生付出的很小代价。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Appeal .",
+        "baseline":"上诉。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If you are of a religious turn of mind , you may wish at this point to offer a prayer to a god , goddess , protective spirit or guardian angel .",
+        "baseline":"如果你有宗教信仰,你可以在此点向一个神、女神、保护灵或守护天使祈祷。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"A strategy that might prove helpful is to consider how fortunate you are that life has been good to you so far .",
+        "baseline":"一个可以证明有帮助的策略是考虑你有多幸运,因为迄今为止,生活对你来说都是好的。",
+        "zh":[
+            "一个有帮助的策略,就是考虑你迄今为止的生活有多幸福。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Alternatively , if life has not been good to you so far ,  consider how lucky you are that it will not be troubling you much longer .",
+        "baseline":"或者,如果生活对你来说一直不好,考虑一下你有多幸运,它不会让你更难过。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Expect impact .",
+        "baseline":"期望撞击。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Water landings : if you have successfully attached to a companion whose chute opens , keep in mind that both your arms may be broken or dislocated , and you may be unable to swim or tread water before your chute fills and drags you under .",
+        "baseline":"水上降落:如果你成功地附着一个搭档,他的跳伞打开,请记住,你的两只胳膊可能会折断或移动,你可能无法在跳伞填满并拖下你之前游泳或游水。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If , after total chute failure , you land on something soft , it is possible that instead of being killed outright , you may be permanently paralyzed due to spinal injury .",
+        "baseline":"如果,在完全跳伞失败后,你落在软体上,有可能因为脊椎损伤而永久瘫痪,而不是直接死亡。",
+        "zh":[
+            "如果,经过完全跳伞失败后,你落在软体上,有可能因为脊椎损伤而导致永久瘫痪,而不是直接死亡。",
+            "如果,经过完全跳伞失败后,你落在软体上,有可能因为脊椎损伤而永远瘫痪。",
+            "如果,经过完全跳伞失败后,你落在软体上,有可能因为脊椎损伤而造成永久瘫痪,而不是直接死亡。",
+            "如果,经过完全跳伞失败后,你落在软体上,有可能因为脊椎损伤而导致永久瘫痪,而不是直接死亡。",
+            "如果,经过完全跳伞失败后,你落在软体上,有可能因为脊椎损伤而导致永久瘫痪,而不是直接死亡。",
+            "如果,经过完全跳伞失败后,你落在软体上,有可能因为脊椎损伤而永远瘫痪。",
+            "如果,经过完全跳伞失败后,你落在软体上,有可能因为脊椎损伤而导致永久瘫痪,而不是直接死亡。",
+            "如果,经过完全跳伞失败后,你落在软体上,有可能因为脊椎损伤而导致永久瘫痪,而不是直接死亡。"
+        ],
+        "fvec":[
+            "000000000000000000000001000001000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000001000",
+            "000000000000000000000001000001000",
+            "000000000000000000000001000001000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000001000",
+            "000000000000000000000001000001000"
+        ]
+    },
+    {
+        "en":"If you 're a chronic procrastinator , you know the pain and stress that comes with putting things off .",
+        "baseline":"如果你是一个长期拖延的人,你知道拖延事情带来的痛苦和压力。",
+        "zh":[
+            "如果你是一个慢性拖延者,你知道拖延事情带来的痛苦和压力。",
+            "如果你是一个慢性拖延者,你会知道拖延事情带来的痛苦和压力.",
+            "如果你是一个慢性拖延者,你知道拖延事情带来的痛苦和压力。",
+            "如果你是一个慢性拖延者,你知道拖延事情带来的痛苦和压力。",
+            "如果你是一个慢性拖延者,你会知道拖延事情带来的痛苦和压力.",
+            "如果你是一个慢性拖延者,你会知道推迟事情带来的痛苦和压力.",
+            "如果你是一个慢性拖延者,你知道拖延事情带来的痛苦和压力。",
+            "如果你是一个慢性拖延者,你知道拖延事情带来的痛苦和压力.",
+            "如果你是一个慢性拖延者,你知道拖延事情带来的痛苦和压力。",
+            "如果你是一个慢性拖延者,你会知道拖延事情带来的痛苦和压力."
+        ],
+        "fvec":[
+            "000000100000000000000001000000000",
+            "000000100000000000000000000000000",
+            "000000100000000000000001000000000",
+            "000000100000000000000001000000000",
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000",
+            "000000100000000000000001000000000",
+            "000000100000000000000000000000000",
+            "000000100000000000000001000000000",
+            "000000100000000000000000000000000"
+        ]
+    }
+]

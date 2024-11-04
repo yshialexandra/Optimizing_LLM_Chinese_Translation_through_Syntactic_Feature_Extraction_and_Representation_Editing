@@ -1,0 +1,84 @@
+[
+    {
+        "en":"We do n't have a guider .",
+        "baseline":"我们没有导游。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"That 's right .",
+        "baseline":"没错。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The — the – w- you know , just continue inventorying and —",
+        "baseline":"你知道,继续存货,然后...",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You know , documenting , uh , uh , whatever .",
+        "baseline":"你知道,记录,等等。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Trying to find , trying to find , uh , trying to find ways to , to , like with with Einstein for example , you know , uh , it seemed to me , he was trying to f- — t- he was exper- experimenting with , with new ways of doing things , you know .",
+        "baseline":"设法找到, 设法找到, 设法找到方法,, 例如与爱因斯坦一样, 你知道, 啊, 在我看来, 他正在设法 F — — t — 他正在试验, 用新的方法做事情, 你知道 。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Well thinking about things .",
+        "baseline":"好好思考事情。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You know ?",
+        "baseline":"你知道吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Mom look .",
+        "baseline":"妈妈看。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They look like the phantom stair - steppers .",
+        "baseline":"他们看起来像幽灵的楼梯.",
+        "zh":[
+            "它们看起来像幽灵的楼梯.",
+            "它们看起来像幽灵的楼梯.",
+            "它们看起来像幽灵的楼梯.",
+            "它们看起来像幽灵的楼梯.",
+            "它们看起来像幽灵的楼梯.",
+            "它们看起来像幽灵的楼梯.",
+            "它们看起来像幽灵的楼梯.",
+            "它们看起来像幽灵的楼梯.",
+            "它们看起来像幽灵的楼梯.",
+            "它们看起来像幽灵的楼梯."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"It does look like the Invisible Man .",
+        "baseline":"它看起来像是无形人。",
+        "zh":[],
+        "fvec":[]
+    }
+]

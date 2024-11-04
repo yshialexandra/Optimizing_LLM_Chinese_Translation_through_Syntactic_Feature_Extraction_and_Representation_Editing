@@ -1,0 +1,70 @@
+[
+    {
+        "en":"Although you may have the desire to accomplish something , getting the motivation to do it is a different matter .",
+        "baseline":"尽管你可能有实现某事的愿望,但 getting the motivation to do it is a different matter。",
+        "zh":[
+            "虽然你可能有达到某事的愿望,但gettingthemotivationtodoitisadifferentmatter。"
+        ],
+        "fvec":[
+            "000000100000000000000001010000000"
+        ]
+    },
+    {
+        "en":"List everything , big and small , that you have to do for your entire day ; break big activities into smaller bits if necessary .",
+        "baseline":"列出你整天必须做的一切,大和小;必要时把大活动分成小部分。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You will feel a growing sense of pride as you visually monitor your ever - diminishing list of projects .",
+        "baseline":"当你在视觉上监视你的不断减少的项目清单时,你会感到越来越自豪。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Then , tackle the most important ones before looking back at the smaller things to do .",
+        "baseline":"然后,对最重要的事情进行处理,然后再回顾一些小事情做。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Keep a notebook by hand before you start your workday .",
+        "baseline":"在开始工作之前,要手提笔记本。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Do n't do it , put it on a list and do it later .",
+        "baseline":"不要这样做,把它放在清单上,然后再去做。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"This prevents you from getting into the \" procrastination zone . \"",
+        "baseline":"这阻止你进入“ 拖延区 ”.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Simply force yourself to use the next 120 seconds to be productive and do the duty you normally would push off for hours or days .  .",
+        "baseline":"简单地迫使自己利用接下来的120秒来生产,并完成你通常要推迟的任务,数小时或几天。",
+        "zh":[
+            "’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’,’’’,’’’’’’’’’’’,’’’’’’’’’’’,’’’’’’’,’’’,’’’,’’’,’’’,’’’,’’’,’’’’’’’,’’’,’’’,’’’,’’’,’’’,’’’,’’’,’’’,’’’,’’’,’’’,’’’,’’’,’’’,’’’,’’’,’’"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Create a timed work frenzy .",
+        "baseline":"创造一个按时工作狂热。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Chances are , you ’ll get into a groove and keep working at a high pace even when your frenzy time is out .",
+        "baseline":"很有可能,即使你的疯狂时间已经过去了,你也会进入一个沟里并继续以高的速度工作。",
+        "zh":[],
+        "fvec":[]
+    }
+]

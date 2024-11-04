@@ -1,0 +1,84 @@
+[
+    {
+        "en":"National superstores  will let you walk the store for boxes when they are stocking the stores between 11 pm and 1 am .",
+        "baseline":"国家超级市场会在下午11点到上午1点之间在商店里储存箱子时,让你步行进商店。",
+        "zh":[
+            "国家超级市场会在下午11点到上午1点之间,商店在储存箱时,将letyouwalkthestoreforboxes。",
+            "国家超级市场会在下午11点到上午1点之间,让您在商店里散步,寻找盒子.",
+            "国家超级市场会在下午11点到上午1点之间,商店在储存箱时,将letyouwalkthestoreforboxes."
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Just take a cart and roam the store .",
+        "baseline":"只要坐车去逛商店。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They do check the cart as you leave so do n't try to sneak anything past them .",
+        "baseline":"你离开时,他们会检查你的车子,所以别想偷偷溜过去。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Throw away or donate junk you do n't want to take to your new place .",
+        "baseline":"扔掉或捐赠你不想带到新的地方的垃圾。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Pack books and heavy items into smaller boxes .",
+        "baseline":"把书和重物包装成较小的箱子。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"While skydiving , it is possible  that both your primary and reserve parachutes will malfunction , leaving you with no method of reducing your velocity .",
+        "baseline":"在跳伞时,你的主降落伞和备用降落伞可能会失效,因此你无法减少速度。",
+        "zh":[
+            "在跳伞时,你既可以使用初级降落伞,也可以使用备用降落伞,这样你就不会有减速的方法了。",
+            "在跳伞时,你既可以使用初级降落伞,也可以使用备用降落伞,这样你就不会有减速的方法了。",
+            "在跳伞时,你既可以使用初级降落伞,也可以使用备用降落伞,这样你就不会有减速的方法了。",
+            "在跳a、b、c、d、e、f、g、h、h、h、h、h、h、h、h、h、h、h、h、h、h、h、h、h、h、h、h。",
+            "在跳伞时,你既可以使用初级降落伞,也可以使用备用降落伞,这样你就不会有减速的方法。",
+            "在跳伞时,你既可以使用初级降落伞,也可以使用备用降落伞,这样你就不会有减速的方法了。"
+        ],
+        "fvec":[
+            "000000000000000000000001010000000",
+            "000000000000000000000001010000000",
+            "000000000000000000000001010000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001010000000",
+            "000000000000000000000001010000000"
+        ]
+    },
+    {
+        "en":"Remain calm .",
+        "baseline":"保持镇定。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Entreat assistance .",
+        "baseline":"提供援助。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If this is a solo jump , then skip to step 6 .",
+        "baseline":"如果这是独跳,那么跳到第6步。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Prepare for deployment .",
+        "baseline":"准备部署。",
+        "zh":[],
+        "fvec":[]
+    }
+]

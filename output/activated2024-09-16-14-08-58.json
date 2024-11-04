@@ -1,0 +1,66 @@
+[
+    {
+        "en":"Skin aging and skin cancer will be discussed as those reactions produced by prolonged or repeated UVR exposure  .",
+        "baseline":"皮肤老化和皮肤癌将被讨论为 prolonged or repeated UVR暴露所产生的反应。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Since the CFLs are the most commonly used light bulbs in the residential and has a great compatibility to LED in terms of design and materials , the proponents conducted a study about innovating and recycling CFL into a more efficient and environment friendly LED light bulb .",
+        "baseline":"由于CFL是住宅中最常用的灯泡,在设计和材料方面对LED具有极大的兼容性,提案者对创新和回收CFL成为更高效、更环保的LED灯泡进行了研究。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Presented at the 2nd XoveTIC Congress , A Coruña , Spain , 5 – 6 September 2019 .",
+        "baseline":"于2019年9月5日至6日在西班牙阿科鲁纳举行的第二届 XoveTIC大会上展出。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"A mutant is a copy of the system in which a change has been done that , in most cases , will lead to a behaviour different than expected .",
+        "baseline":"变种是发生变化的系统复制品,在大多数情况下会导致不同于预期的行为。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In this article , we propose mutation operators specific to the domain of Geographic Information Systems  applications .",
+        "baseline":"本文提出了地理信息系统应用领域特异的变异演算子。",
+        "zh":[
+            "本文提出了地理信息系统应用领域特有的变异演算子."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"As a previous step to designing the mutation operators , we analyzed the main technologies used specifically in the development of GIS , and we identified typical errors a programmer can introduce during the development .",
+        "baseline":"作为设计变异操作器的先决步骤,我们分析了GIS开发中特别使用的主要技术,并确定了程序员在开发过程中可能出现的典型错误。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It exchanges the coordinate system of a geometry , so it does not match the coordinate system that is being used in the user interface .",
+        "baseline":"它交换了几何坐标系统,所以它不匹配在用户界面中使用的坐标系统。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It simulates the error of not checking that the coordinate system is correct .",
+        "baseline":"它模拟了不检查坐标系统是否正确的错误。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"By creating a Geofence with an erroneous location from its central location , the device will receive incorrect location notifications .",
+        "baseline":"通过从其中央位置创建一个具有错误位置的地球防御器,该设备将收到错误位置通知。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We have defined new operators specific to the GIS domain and a way to apply them to a SUT .",
+        "baseline":"我们已经定义了新的特定于GIS域的操作者和一种应用它们于UT的方法。",
+        "zh":[],
+        "fvec":[]
+    }
+]

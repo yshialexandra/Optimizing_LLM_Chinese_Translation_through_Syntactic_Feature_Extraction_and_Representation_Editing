@@ -1,0 +1,80 @@
+[
+    {
+        "en":"Second , we examined the relative proportions of the two discrimination experience measures across each racial category .",
+        "baseline":"其次,对两项种族歧视经验措施的相对比例进行了研究。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Thus , institutions also determine the level of uncertainty to which individuals are subject , stimulating or discouraging transactions .",
+        "baseline":"因此, 机构也决定个人所受的不确定性程度,刺激或阻碍交易。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"A viable economy requires an institutional structure that reduces existing uncertainty and guarantees property rights .",
+        "baseline":"可行的经济需要减少现有的不确定性和保障财产权的体制结构。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The state must protect property rights , provide public services , and ensure a sound judiciary .",
+        "baseline":"国家必须保护财产权,提供公共服务,确保健全的司法制度。",
+        "zh":[
+            "国家必须保护财产权,提供公共服务,确保健全的司法制度."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"If there are disagreements about the policies to be implemented , then the group that wins the political game will make the final decision .",
+        "baseline":"如果在执行政策方面存在分歧,那么赢得政治比赛的小组将作出最后决定。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"On the one hand , a society that adopts policies promoting inclusive political institutions will develop pluralist and centralized institutions .",
+        "baseline":"一方面,采取促进包容性政治机构的政策社会将发展多元化和集中的制度。",
+        "zh":[
+            "一方面,社会采取促进包容性政治机构的政策,将发展多元、集中的制度。",
+            "一方面,社会采取促进包容性政治机构的政策,将发展多元、集中的制度。",
+            "一方面,社会采取促进包容性政治机构的政策,将发展多元、集中的制度。",
+            "一方面,社会采取促进包容性政治机构的政策,将发展多元、集中的制度。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Inclusive institutions guarantee the right to private property , to an impartial legal system and promote a society based on equal conditions .",
+        "baseline":"包容性机构保障私有财产权、公正的法律制度,促进以平等条件为基础的社会。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The consequences of implementing inclusive institutions are reflected in increased activity , productivity , and economic growth .",
+        "baseline":"实施包容性机构的后果反映在增加活动、生产力和经济增长中。",
+        "zh":[
+            "实施包容性机构的结果体现在增加活动、生产率和经济增长中."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"The institutional structure of a state and its constitution are responsible for restricting predatory action — even by the state itself — and for creating rules that benefit the community  .",
+        "baseline":"国家制度结构及其宪法负责限制掠食行为 — — 甚至由国家本身 — — 并创造有利于社区的规则。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Moreover , compliance mechanisms must reflect ex ante and ex post standards  .",
+        "baseline":"此外,遵守机制必须反映前后标准。",
+        "zh":[],
+        "fvec":[]
+    }
+]

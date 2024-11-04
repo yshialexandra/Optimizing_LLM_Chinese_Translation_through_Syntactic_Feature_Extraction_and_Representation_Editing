@@ -1,0 +1,84 @@
+[
+    {
+        "en":"These can be bought at garden centers or purchased online .",
+        "baseline":"这些可以在花园中心购买或网上购买。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Scatter the seeds .",
+        "baseline":"散播种子。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There 's no need to cover them , unless you want to use netting to keep the birds off .",
+        "baseline":"没有必要遮盖它们,除非你想要用网来防止鸟儿离开。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Keep the soil moist until the seeds germinate .",
+        "baseline":"保持土壤湿润,直到种子发芽。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Make sure that the garden bed is in the shade .",
+        "baseline":"一定要把花园的床放在阴影里。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It can take as long as 4 to 4 years before you get flowers .",
+        "baseline":"花期可达4年至4年。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Obtain Beavertail cuttings .",
+        "baseline":"获得贝弗泰尔切口。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If you already own a Beavertail cactus , you can make your own cuttings .",
+        "baseline":"如果你已经拥有一只贝弗泰尔 kaktus,你可以自己做剪切。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In order to form a callous and prevent rot , cure the cuttings by sitting the pad upright in a dry , dark place for 10 to 14 days .",
+        "baseline":"为了形成毛病并防止腐烂,请在干燥、黑暗的地方坐上垫片10-14天,治愈伤口。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Plant the cuttings .",
+        "baseline":"种植剪切。",
+        "zh":[
+            "Plantthecuttings。",
+            "Plantthecuttings。",
+            "Plantthecuttings。",
+            "Plantthecuttings。",
+            "Plantthecuttings。",
+            "Plantthecuttings。",
+            "Plantthecuttings。",
+            "Plantthecuttings。",
+            "Plantthecuttings。",
+            "Plantthecuttings。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    }
+]

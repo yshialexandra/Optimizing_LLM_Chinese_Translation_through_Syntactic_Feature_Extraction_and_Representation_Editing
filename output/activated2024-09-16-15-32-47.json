@@ -1,0 +1,98 @@
+[
+    {
+        "en":"Nah , I ’m kidding .",
+        "baseline":"不,我开玩笑。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It ’s actually more businesslike than you ’d imagine .",
+        "baseline":"事实上,这比你想象的更有商业意义。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It ’s very much like you are trying to make the room laugh , but the room has been a sort of captive audience for many many years now , so it takes a lot to make the room laugh .",
+        "baseline":"就像你试图让房间笑起来一样,但房间已经是一个被囚禁的观众了好多年了,所以要让房间笑起来需要很多时间。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It ’s sort of like , \" Hmmm ... that ’s hilarious . That ’s really really funny \" rather than people falling off their chairs .",
+        "baseline":"这有点像, “ 嗯... 这可笑, 这可真可笑, ” 而不是人们从椅子上掉下来。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It ’s more analytical and clinical ?",
+        "baseline":"它更具有分析性和临床意义吗?",
+        "zh":[
+            "更有分析性和临床意义吗?",
+            "更有分析性和临床意义吗?",
+            "更有分析性和临床意义吗?",
+            "更具有分析性和临床意义吗?",
+            "更具有分析性和临床意义吗?",
+            "更有分析性和临床意义吗?"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"If someone is continually telling unfunny jokes , do you eventually fire them ?",
+        "baseline":"如果有人不停地讲不有趣的笑话, 你最终会解雇他们 吗?",
+        "zh":[
+            "如果有人不停地讲有趣的笑话,你最终会解雇吗?",
+            "如果有人不停地讲有趣的笑话,你最终会解雇他吗?",
+            "如果有人不停地讲有趣的笑话,你最终会解雇他吗?",
+            "如果有人不停地讲有趣的笑话,你最终会解雇吗?",
+            "如果有人不停地讲有趣的笑话,你最终会解雇他吗?",
+            "如果有人不停地讲有趣的笑话,你最终会解雇吗?",
+            "如果有人不停地讲有趣的笑话,你最终会解雇吗?",
+            "如果有人不停地讲有趣的笑话,你最终会解雇吗?",
+            "如果有人不停地讲有趣的笑话,你最终会解雇吗?",
+            "如果有人不停地讲有趣的笑话,你最终会解雇吗?"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"That ’s why we are on the 10th floor to make sure they die when they get kicked out .",
+        "baseline":"这就是为什么我们站在第十层,确保他们被踢出时死亡。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You go through quite a bit .",
+        "baseline":"你经历了相当长一段时间。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"But if somebody wakes up one morning and suddenly no longer is funny , then yeah , head first , out the door as quickly as possible , and as sadistically as possible .",
+        "baseline":"但是,如果某人一早上醒来,突然不再有趣,那么,先头,尽快走出门,并且尽可能有节制。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"\" The future is only peace . The problem is how long will it take and how many victims will it call for . \"",
+        "baseline":"未来只有和平,问题在于需要多长时间,需要多少受害者。",
+        "zh":[],
+        "fvec":[]
+    }
+]

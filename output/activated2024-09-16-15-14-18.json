@@ -1,0 +1,106 @@
+[
+    {
+        "en":"Of course , we tried to pick the locks , but the spikes and saws and drillheads remained — tantalisingly — out of reach .",
+        "baseline":"当然,我们试着选取锁子,但螺钉、锯子和钻头仍然 — — 令人兴奋 — — 无法触及。",
+        "zh":[
+            "当然,我们试着找出锁子,可是螺钉、锯和钻头仍旧——令人兴奋——无法触摸.",
+            "当然,我们试着找出锁子,可是螺钉、锯、钻头仍然——令人兴奋——无法触摸.",
+            "当然,我们试着找出锁子,可是螺钉、锯、钻头仍然——令人窒息的——难以触摸."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"It took a few days good brushing to get it off .",
+        "baseline":"刷好几天才把它脱下来。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And we were off .",
+        "baseline":"我们走了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The hardest part was probably to overcome the gagging reflex that set in when you bit down into the acrid resin jelly and it flowed out and up and around , over teeth , gums and tongue .",
+        "baseline":"最难的部分可能是克服你咬进酸性树脂 Jelly 时所产生的阻塞反射,然后它从牙齿 、 牙龈和舌头上流出。",
+        "zh":[
+            "最棘手的部分可能是克服你咬进泡沫树脂Jelly时所产生的\"gagging\"反射,它在牙齿、牙龈和舌头上往上往上流。",
+            "最棘手的部分可能是克服你咬进泡沫树脂Jelly时出现的\"gagging\"反射,它在牙齿、牙龈和舌头上流出、上下流出。",
+            "最棘手的部分可能是克服你咬进泡沫树脂Jelly时所产生的\"gagging\"反射,它在牙齿、牙龈和舌头上流出、上下流出。",
+            "最棘手的部分可能是克服你咬进泡沫树脂Jelly时所产生的\"gagging\"反射,它会从牙齿、牙、舌头上流出。",
+            "最棘手的部分可能是克服你咬进泡沫树脂Jelly时所产生的\"gagging\"反射,它在牙齿、牙龈和舌头上流出、上下流出。",
+            "最棘手的部分可能是克服你咬进泡沫树脂Jelly时所产生的堵塞反射,它从牙齿、牙龈和舌头上往上流。",
+            "最棘手的部分可能是克服你咬进泡沫树脂Jelly时所产生的\"gagging\"反射,它在牙齿、牙龈和舌头上流出、上下流出。",
+            "最棘手的部分可能是克服你咬进泡沫树脂Jelly时出现的\"gagging\"反射,它在牙齿、牙龈和舌头上流出、上下流出。"
+        ],
+        "fvec":[
+            "000000000000000000000000010000000",
+            "000000000000000000000000010000000",
+            "000000000000000000000000010000000",
+            "000000000000000000000000010000000",
+            "000000000000000000000000010000000",
+            "000000000000000000000000010000000",
+            "000000000000000000000000010000000",
+            "000000000000000000000000010000000"
+        ]
+    },
+    {
+        "en":"Things generally got better when Steven reminded you that you could actually breathe , and swallow , normally .",
+        "baseline":"当史蒂文提醒你你实际上可以呼吸和吞咽的时候,情况总算好起来了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It did n’t matter .",
+        "baseline":"没关系。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"One dial records days , and another thousands of days , another millions of days , and another thousands of millions .",
+        "baseline":"一个拨号记录了几天,还有数千天,还有数百万天,还有数千百万天。",
+        "zh":[
+            "一个拨号记录了几天,还有数千天,还有数百万天,还有数千百万天.",
+            "一个拨号记录几天,还有数千天,还有数百万天,还有数千百万天.",
+            "一个拨号记录几天,还有数千天,还有数百万天,还有数千百万天.",
+            "一个拨号记录几天,还有数千天,还有数百万天,还有数千百万天.",
+            "一个拨号记录了几天,还有数千天,还有数百万天,还有数千百万天.",
+            "一个拨号记录几天,还有数千天,还有数百万天,还有数千百万天.",
+            "一个拨号记录了几天,还有数千天,还有数百万天,还有数千百万天.",
+            "一个拨号记录了几天,还有数千天,还有数百万天,还有数千百万天."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"This puzzled me very much at first .",
+        "baseline":"这在一开始就使我非常困惑。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Still slower , until the dim outlines of a desolate beach grew visible .",
+        "baseline":"还是慢一点,直到一片荒凉的海滩的暗淡的轮廓显而易见。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"North - eastward it was inky black , and out of the blackness shone brightly and steadily the pale white stars .",
+        "baseline":"朝东北看,是漆黑的,从黑暗中闪烁着明亮而稳步的淡白的星星。",
+        "zh":[],
+        "fvec":[]
+    }
+]

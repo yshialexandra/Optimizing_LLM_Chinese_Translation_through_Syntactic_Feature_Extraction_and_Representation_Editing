@@ -1,0 +1,114 @@
+[
+    {
+        "en":"Sarvis has garnered double digits in opinion polls for the 2013 Virginia gubernatorial election , an unusual feat for a third party candidate .",
+        "baseline":"萨尔维斯在2013年弗吉尼亚州州长选举的民意调查中获得了两位数,这对于第三党候选人来说是个不寻常的成就。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Whoever wins election on November 5 , 2013 , would replace outgoing governor Bob McDonnell .",
+        "baseline":"谁在2013年11月5日赢得选举, 将取代即将卸任的州长鲍勃·麦克唐纳尔.",
+        "zh":[
+            "2013年11月5日,谁赢得选举,将取代出任州长鲍勃·麦克唐纳尔.",
+            "2013年11月5日,谁赢得选举,将取代即将离任的州长鲍勃·麦克唐内尔."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"What are your thoughts on the job Bob McDonnell has done as Governor of Virginia ?",
+        "baseline":"你对鲍勃·麦克唐纳担任弗吉尼亚州州长的工作有什么看法?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"What would you have done differently than him ?",
+        "baseline":"你跟他有什么不同?",
+        "zh":[
+            "你会比他做些什么呢?",
+            "你会比他做些什么呢?"
+        ],
+        "fvec":[
+            "000000000000000000000000010000000",
+            "000000000000000000000000010000000"
+        ]
+    },
+    {
+        "en":"McDonnell did well early in his term pushing back against Senate Democrats who wanted huge tax increases in response to major revenue shortfalls during the recession .",
+        "baseline":"麦克唐纳在任期初期表现良好,反对参议院民主党人,他们希望在经济衰退期间大幅增加税收来应对主要收入短缺。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"What do you attribute that success to ?",
+        "baseline":"你认为成功的原因是什么?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Voters see the two major party nominees as exemplifying what is worst about their respective parties , and they want something better .",
+        "baseline":"选民们认为两位主要政党提名者 exemplify what is worst about their respective parties, and they want something better 。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Which previous Virginia Governor do you most admire and why ?",
+        "baseline":"你最欣赏的前弗吉尼亚州长是什么,为什么?",
+        "zh":[
+            "你最钦佩的前弗吉尼亚州长,为什么?",
+            "你最钦佩的前弗吉尼亚州长,为什么?",
+            "你最钦佩的前弗吉尼亚州长,为什么?",
+            "你最钦佩的前弗吉尼亚州长,为什么?",
+            "你最钦佩的前弗吉尼亚州长,为什么?",
+            "你最钦佩的前弗吉尼亚州长,为什么?",
+            "你最钦佩的前弗吉尼亚州长,为什么?",
+            "你最钦佩的前弗吉尼亚州长,为什么?",
+            "你最钦佩的前弗吉尼亚州长,为什么?",
+            "你最钦佩的前弗吉尼亚州长,为什么?"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"On Thursday , with 110 days until the start of the 2014 Winter Paralympics in Sochi , Russia , Wikinews interviewed Assistant Professor in Educational Leadership , Sport Studies and Educational / Counseling Psychology at Washington State University Simon Ličen about attitudes in United States towards the Paralympics .",
+        "baseline":"2014年冬季殘疾人奧林匹克運動會(英语:2014 Winter Paralympics in Sochi, Russia)於俄羅斯索契舉行。",
+        "zh":[
+            "星期四,在2014年冬季殘疾人奧林匹克運動會(英语:2014WinterParalympics)開始前110天,維基新聞采访了華盛頓州立大學教育領導、體育研究及教育/心理咨询助理教授西蒙·里切恩(SimonLičen)關於美國對殘疾人奧林匹克運動會的態度。",
+            "星期四,在2014年冬季殘疾人奧林匹克運動會(英语:2014WinterParalympics)開始前110天,維基新聞采访了華盛頓州立大學教育領導、體育研究及教育/諮詢心理助理教授西蒙·里切恩(SimonLičen)關於美國對殘疾人奧林匹克運動會的態度。",
+            "星期四,在2014年冬季殘疾人奧林匹克運動會(英语:2014WinterParalympics)開始前110天,維基新聞采访了華盛頓州立大學教育領導、體育研究及教育/咨询心理学助理教授西蒙·里切恩(SimonLičen)關於美國對殘疾人奧林匹克運動會的態度。",
+            "星期四,在2014年冬季殘疾人奧林匹克運動會(英语:2014WinterParalympics)開始前110天,維基新聞采访了華盛頓州立大學教育領導、體育研究及教育/諮詢心理助理教授西蒙·里切恩(SimonLičen)關於美國對殘疾人奧林匹克運動會的態度。",
+            "星期四,在2014年冬季殘疾人奧林匹克運動會(英语:2014WinterParalympics)開始前110天,維基新聞采访了華盛頓州立大學教育領導、體育研究及教育/咨询心理学助理教授西蒙·里切恩(SimonLičen)關於美國對殘疾人奧林匹克運動會的態度。",
+            "星期四,在2014年冬季殘疾人奧林匹克運動會(英语:2014WinterParalympics)開始前110天,維基新聞采访了華盛頓州立大學(英语:WashingtonStateUniversity)的教育領導、體育研究和教育/諮詢心理助理教授SimonLičen,關於美國對殘疾人奧林匹克運動會的态度。",
+            "星期四,在2014年冬季殘疾人奧林匹克運動會(英语:2014WinterParalympics)開始前110天,維基新聞采访了華盛頓州立大學教育領導、體育研究及教育/咨询心理学助理教授西蒙·里切恩(SimonLičen)關於美國對殘疾人奧林匹克運動會的態度。",
+            "星期四,在2014年冬季殘疾人奧林匹克運動會(英语:2014WinterParalympics)開始前110天,維基新聞采访了華盛頓州立大學教育領導、體育研究及教育/諮詢心理助理教授西蒙·里切恩(SimonLičen)關於美國對殘疾人奧林匹克運動會的態度。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Ličen has recently joined the Sport Management Program at Washington State University to develop its sport media and communication research and teaching contents .",
+        "baseline":"Ličen最近加入了华盛顿州立大学体育管理项目,发展其体育媒体和通讯研究和教学内容。",
+        "zh":[],
+        "fvec":[]
+    }
+]

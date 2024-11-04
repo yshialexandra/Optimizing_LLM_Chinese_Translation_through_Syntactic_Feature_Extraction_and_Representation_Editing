@@ -1,0 +1,84 @@
+[
+    {
+        "en":"Lemon basil actually contains citral , an aromatic compound found in citrus fruit , and smells very lemony .",
+        "baseline":"柠檬basil实际上含有柠檬,一种在柑橘水果中发现的芳香化合物,并且非常柠檬味。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If you live in a hot climate , you can start the seeds outside instead .",
+        "baseline":"如果你生活在一个炎热的气候中,你可以在外面开始播种。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"3 Prepare seed containers .",
+        "baseline":"3准备种子容器。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Fill flats or individual seed containers with a mixture of equal parts perlite , vermiculite , and peat .",
+        "baseline":"用平坦的或单独的种子容器填满平坦的或单独的种子容器,用平坦的平坦的或单独的种子容器填满平坦的或单独的种子容器。",
+        "zh":[
+            "用平坦的或单一的种子容器,混合相同的颗粒、花粉、泥炭.",
+            "用平坦的或单独的种子容器用平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦",
+            "用平坦的或单独的种子容器用平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦的、平坦"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Press the mixture slightly to eliminate air pockets .",
+        "baseline":"轻轻按混合物去除空气袋。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Dampen the mixture with water so it 's ready to provide the right environment for the basil seeds to germinate .",
+        "baseline":"用水堵塞混合物,使它能够为盆栽种子 germinate提供合适的环境。",
+        "zh":[
+            "将混合物用水挡住,使混合物能够为盆栽种子germinate提供适当的环境。",
+            "将混合物用水挡住,使混合物能够为盆栽种子germinate提供适当的环境。",
+            "将混合物用水挡住,使混合物能够为盆栽种子germinate提供适当的环境。",
+            "将混合物用水挡住,使混合物能够为盆栽种子germinate提供适当的环境。",
+            "将混合物用水挡住,使混合物能够为盆栽种子germinate提供适当的环境。",
+            "将混合物用水挡住,使混合物能够为盆栽种子germinate提供合适的环境。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Cover them lightly with soil .",
+        "baseline":"用土壤轻轻地盖住它们。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Leave the containers in a sunny window .",
+        "baseline":"把容器放在阳光灿烂的窗子里。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Twice daily , remove the plastic wrap and sprinkle the containers with more water .",
+        "baseline":"每天两次,拆掉塑料包装并用更多的水喷洒容器。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"5 Remove the plastic wrap when the sprouts emerge .",
+        "baseline":"5在芽生时,把塑料包装移开。",
+        "zh":[],
+        "fvec":[]
+    }
+]

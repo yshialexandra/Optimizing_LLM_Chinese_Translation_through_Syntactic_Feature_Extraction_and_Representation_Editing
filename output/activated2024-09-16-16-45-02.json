@@ -1,0 +1,86 @@
+[
+    {
+        "en":"So we slept to like 7:15 today .",
+        "baseline":"所以我们今天睡得像7:15了。",
+        "zh":[
+            "所以我们今晚睡7:15好了。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"If you need shoes , get these .",
+        "baseline":"如果你需要鞋子,就买这些。",
+        "zh":[
+            "如果你需要鞋子,买这些吧。",
+            "如果你需要鞋子,买这些吧。",
+            "如果你需要鞋子,买这些吧。",
+            "如果你需要鞋子,买这些吧。",
+            "如果你需要鞋子,买这些吧。",
+            "如果你需要鞋子,买这些吧。"
+        ],
+        "fvec":[
+            "000000000000000000000001010000000",
+            "000000000000000000000001010000000",
+            "000000000000000000000001010000000",
+            "000000000000000000000001010000000",
+            "000000000000000000000001010000000",
+            "000000000000000000000001010000000"
+        ]
+    },
+    {
+        "en":"Alright so I think we 're gon na just do a tiny bit of hiking this morning just to kind of get out and move , and we feel pretty good from hiking 12 miles yesterday , like we 're totally ready to go again .",
+        "baseline":"好吧,我想我们今天早上要出去散散步,我们昨天散散步了12英里,感觉很舒服,好像我们完全准备回去了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It is overcast today and they said there could be some rain , so we 're probably gon na go far and that 's okay .",
+        "baseline":"今天天气阴暗,他们说可能会下雨,所以我们可能要去远点,没关系。",
+        "zh":[
+            "今天天晴,他们说可能有雨,因此我们可能要走远了,没关系.",
+            "今天天晴,他们说可能有雨,因此我们可能要走远了,没关系."
+        ],
+        "fvec":[
+            "000000000000000000010000000000000",
+            "000000000000000000010000000000000"
+        ]
+    },
+    {
+        "en":"1997 they declared it .",
+        "baseline":"1997年,宣布成立。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It 's one of the best roads in the US I feel , it 's amazing .",
+        "baseline":"这是美国最好的道路之一,我觉得,真是太棒了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We got the bear spray though .",
+        "baseline":"不过我们还有熊喷雾。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We 've been hiking 10 plus miles a day so , you know what , last day we 're gon na – we 're gon na chill .",
+        "baseline":"我们每天徒步10英里以上,所以,你知道吗, 上天我们很紧张,我们很冷。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There 's a grizzly bear and two babies that were hanging out up here .",
+        "baseline":"这里有一只熊和两个小孩玩在一起。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So that 's so cool I 'm so glad we found .",
+        "baseline":"那太酷了,我很高兴我们找到了。",
+        "zh":[],
+        "fvec":[]
+    }
+]

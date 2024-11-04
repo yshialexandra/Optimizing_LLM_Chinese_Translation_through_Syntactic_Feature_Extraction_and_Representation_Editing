@@ -1,0 +1,102 @@
+[
+    {
+        "en":"There is no time to lose .",
+        "baseline":"没时间丢失。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We are ready to continue to do so .",
+        "baseline":"我们准备继续这样做。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Over the past year , the International Anti-Corruption Academy set up its headquarters near Vienna , and the Vienna Centre for Disarmament and Non-Proliferation and an office of the International Peace Institute were established .",
+        "baseline":"去年,国际反腐败学院在维也纳附近设立总部,设立了维也纳裁军和不扩散中心和国际和平研究所办公室。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Austria fully stands behind the campaign launched by the Secretary - General on Monday to achieve universal access to modern energy services .",
+        "baseline":"奥地利完全支持秘书长星期一发起的旨在实现普及现代能源服务的运动。",
+        "zh":[
+            "奥地利全力支持秘书长周一发起的争取普及现代能源服务的运动.",
+            "奥地利完全支持秘书长星期一发起的旨在实现普遍获得现代能源服务的运动.",
+            "奥地利全力支持秘书长周一发起的争取普及现代能源服务的运动.",
+            "奥地利全力支持秘书长周一发起的争取普及现代能源服务的运动.",
+            "奥地利全力支持秘书长周一发起的争取普及现代能源服务的运动.",
+            "奥地利全力支持秘书长周一发起的为实现普及现代能源服务的运动.",
+            "奥地利全力支持秘书长周一发起的争取普及现代能源服务的运动.",
+            "奥地利全力支持秘书长周一发起的为实现普遍使用现代能源服务的运动.",
+            "奥地利全力支持秘书长周一发起的争取普及现代能源服务的运动.",
+            "奥地利全力支持秘书长星期一发起的旨在实现普遍获得现代能源服务的运动."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"We support doubling the rate of improvement in energy efficiency and the share of renewable energy in the global energy mix by 2030 .",
+        "baseline":"我们支持到2030年提高能源效率和全球能源组合中可再生能源占比的两倍。",
+        "zh":[
+            "我们支持在2030年内提高能源效率和全球能源组合中可再生能源份额的两倍。",
+            "我们支持在2030年内提高能源效率和全球能源组合中可再生能源份额的两倍。",
+            "我们支持在2030年内提高能源效率和全球能源组合中可再生能源份额的两倍。",
+            "我们支持在2030年内提高能源效率和全球能源组合中可再生能源份额的两倍。",
+            "我们支持在2030年内提高能源效率和全球能源组合中可再生能源份额的两倍。",
+            "我们支持在2030年内提高能源效率和全球能源组合中可再生能源份额的两倍。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Austria provides substantial support to the energy and environment efforts undertaken by the United Nations Industrial Development Organization .",
+        "baseline":"奥地利 对 联合国 工业 发展 组织 进行 的 能源 和 环境 努力 提供 了 实质性 支持 。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Last June , we hosted the Vienna Energy Forum , where about 1,400 participants discussed alternative energy concepts to reach the energy goals of the United Nations .",
+        "baseline":"去年6月,我们主办了维也纳能源论坛,约1,400名参与者讨论了实现联合国能源目标的替代能源概念。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Austria decided , in 1978 , to forgo the use of nuclear energy .",
+        "baseline":"奥地利于1978年决定放弃使用核能。",
+        "zh":[
+            "1978年奥地利决定放弃使用核能."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Some countries have recently adopted a similar course , which we welcome .",
+        "baseline":"一些国家最近采取了类似的方针,我们对此表示欢迎。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If you change the O to a zero , you get into them , considering environmental agency .",
+        "baseline":"如果你把O变为零,你就会进入它们,考虑环境机构。",
+        "zh":[],
+        "fvec":[]
+    }
+]

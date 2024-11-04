@@ -1,0 +1,70 @@
+[
+    {
+        "en":"Whilst peak traffic hour can be a bit smoggy on the main roads , on most sunny days the skies are azure blue .",
+        "baseline":"虽然交通高峰时段在主要道路上可能有点烟雾,但大多数阳光明媚的日子,天空是蓝色的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Experience Moriori culture , experience Rekohu .",
+        "baseline":"体验moriori文化,体验rekohu。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The Chatham Islands consist of the main island , Chatham Island itself , with a population of 600 , smaller Pitt Island with about 40 inhabitants , and a number of rocky outcrops .",
+        "baseline":"查塔姆群岛包括主要岛屿,查塔姆群岛本身,人口600人,较小的皮特群岛约有40人,以及一些岩石覆盖。",
+        "zh":[
+            "查咸群岛主要岛屿,查咸岛本身,人口600人,皮特岛较小,人口约40人,以及一些岩石覆盖。",
+            "查咸群岛主要岛屿,查咸岛本身,人口600人,皮特岛较小,人口约40人,以及一些岩石覆盖。",
+            "查咸群岛主要岛屿,查咸岛本身,人口600人,皮特岛较小,人口约40人,以及一些岩石覆盖。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"In 1835 Maori settlers from the mainland arrived , massacred and enslaved the Moriori .",
+        "baseline":"1835年,来自大陆的毛里族定居者抵达,屠杀和奴役毛里族。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Air Chathams fly 5 days per week , from either Christchurch , Auckland or Wellington and , seasonally , from Napier .",
+        "baseline":"Air Chathams每周飞行5天,从 Christchurch 、 Auckland 、 Wellington 或, 季节性, 从 Napier 。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The plane is based in the Chathams and flies to mainland New Zealand in the morning , then back to the Chathams in the afternoon .",
+        "baseline":"飞机坐落在查坦群岛,早上飞往新西兰大陆,下午返回查坦群岛。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"As part of New Zealand , there are no passport or visa requirements and no border controls on arrival from the mainland .",
+        "baseline":"作为新西兰的一部分,从内地入境时没有护照或签证要求,也没有边境管制。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You should book or ensure accommodation before you board a flight for the Chathams , as during the popular months of the tourism season , between October and April , accommodation can be severely limited .",
+        "baseline":"你应该在登飞机前预订或确保住宿,因为在旅游季节流行的月份,十月至四月之间,住宿可能受到严重限制。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Although flying to the Chathams and back is not cheap , it is worth it .",
+        "baseline":"尽管飞到查塔姆斯和回不便宜,但值得。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Anyway , you do n't have a choice on how you get there , unless you happen to own an aeroplane .",
+        "baseline":"无论如何,你没有选择如何到达那里,除非你碰巧拥有飞机。",
+        "zh":[],
+        "fvec":[]
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "en":"What analysis did you perform on the specimens and what equipment was used ?",
+        "baseline":"你对样品做了什么分析,并使用了什么设备?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Once we figured out what it was , we played a lot of manuscript email tag , which can be challenging and time consuming given the differing schedules that folks keep in terms of travel , field work , etc.",
+        "baseline":"一旦我们明白了它是什么,我们玩了很多手稿电子邮件标签,因为人们在旅行、野外工作等方面保持不同的日程表,这可能很困难和耗时。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Manuscript review and processing took about four months .",
+        "baseline":"手稿审查和处理大约花了四个月。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The preservation was not unorthodox - they followed best practices for anatomical preservation .",
+        "baseline":"他们遵循了最佳的解剖学保存方法。",
+        "zh":[
+            "他们遵循了最佳的解剖学保存的实践.",
+            "他们遵循了最佳的解剖学保存的实践.",
+            "他们遵循了最佳的解剖学保存的实践.",
+            "他们遵循了最佳的解剖学保存的实践.",
+            "他们遵循了最佳的解剖学保存的实践."
+        ],
+        "fvec":[
+            "000000000000000000010000000000000",
+            "000000000000000000010000000000000",
+            "000000000000000000010000000000000",
+            "000000000000000000010000000000000",
+            "000000000000000000010000000000000"
+        ]
+    },
+    {
+        "en":"We hire the opposite of what you 'd think we would hire , what the average person would think we would hire .",
+        "baseline":"我们雇佣的是与你所认为的相反的雇佣人,而一般人所认为的雇佣人。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We hire educated , nice people .",
+        "baseline":"我们雇佣了受过良好教育的人。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"\" -- think again . \"",
+        "baseline":"再想想。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And a bunch of them had called and they said , \" Wow . \"",
+        "baseline":"他们中有几个人打电话说, “ 哇 ”.",
+        "zh":[
+            "有几个人打电话说,“哇.”",
+            "有几个人打电话说,“哇.”",
+            "有几个人打电话说,“哇.”"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Do you remember ?",
+        "baseline":"你还记得吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It varies ; look around Manhattan , look around rents , look around build-outs , look around hiring , look around advertising ...",
+        "baseline":"看一下曼哈顿,看一下租金,看一下建筑物,看一下雇佣,看一下广告。",
+        "zh":[],
+        "fvec":[]
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "en":"To this day , about 10 or 12 of these World War II Japanese shipwrecks comprise what is considered one of the best dive sites in the world .",
+        "baseline":"到今天为止,大约有10到12艘在第二次世界大战中日本沉没的船只构成了被认为是世界上最好的潜水地点之一。",
+        "zh":[
+            "到今天为止,大约有10到12艘在第二次世界大战中日本沉没的船只组成了被认为是世界上最好的潜水地点之一。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"The population increased , as many people from Luzon and the Visayas came to work either as fishermen or miners .",
+        "baseline":"人口增加,因为来自卢森和维萨亚的许多人 either as fishermen or miners came to work 。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"On June 17 , 1950 , Busuanga was officially created as a separate municipality from Coron and in 1954 , Coron was further reduced by the official creation of the Municipality of Linapacan .",
+        "baseline":"1950年6月17日,布苏安加正式成立为与科隆分离的自治市,1954年,科隆被正式成立的利纳帕坎自治市进一步缩小。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"On September 12 , 1992 , Coron was finally reduced by the official creation of the Municipality of Culion .",
+        "baseline":"1992年9月12日,科隆市正式成立,最终被削减。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Coron has taken an important position in the tourism industry .",
+        "baseline":"科隆在旅游业中占据了重要地位。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Canadians are the exception , getting 90 days on arrival and can apply for a 90 day extension .",
+        "baseline":"加拿大人是例外,在抵达后90天,可申请延长90天。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"From Canada , the tourist card is normally provided on the flight .",
+        "baseline":"从加拿大,旅游卡通常在飞机上提供。",
+        "zh":[
+            "从加拿大,旅游卡通常是在飞机上提供。",
+            "从加拿大,旅游卡通常是在飞机上提供。",
+            "从加拿大,旅游卡通常是在飞机上提供。",
+            "从加拿大,旅游卡通常是在飞机上提供。",
+            "从加拿大,旅游卡通常是在飞机上提供。",
+            "从加拿大,旅游卡通常是在飞机上提供。",
+            "从加拿大,旅游卡通常是在飞机上提供。",
+            "从加拿大,旅游卡通常是在飞机上提供。",
+            "从加拿大,旅游卡通常是在飞机上提供。",
+            "从加拿大,旅游卡通常是在飞机上提供。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"It can also be purchased from most Latin American gateway airports if departing from there  .",
+        "baseline":"它也可以从大多数拉丁美洲的机场购买,如果从那里出发。",
+        "zh":[
+            "它也可以从拉丁美洲大部分机场购买,如果从那里出发。",
+            "它也可以从拉丁美洲大部分机场购买,如果从那里出发。",
+            "它也可以从拉丁美洲大部分机场购买,如果从那里出发。",
+            "它也可以从拉丁美洲大部分机场购买,如果从那里出发。",
+            "它也可以从拉丁美洲大部分机场购买,如果从那里出发。",
+            "它也可以从拉丁美洲大部分机场购买,如果从那里出发。",
+            "它也可以从拉丁美洲大部分机场购买,如果从那里出发。",
+            "它也可以从拉丁美洲大部分机场购买,如果从那里出发。",
+            "它也可以从拉丁美洲大部分机场购买,如果从那里出发。",
+            "它也可以从拉丁美洲大部分机场购买,如果从那里出发。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000001",
+            "000000000000000000000001000000001",
+            "000000000000000000000001000000001",
+            "000000000000000000000001000000001",
+            "000000000000000000000001000000001",
+            "000000000000000000000001000000001",
+            "000000000000000000000001000000001",
+            "000000000000000000000001000000001",
+            "000000000000000000000001000000001",
+            "000000000000000000000001000000001"
+        ]
+    },
+    {
+        "en":"Please note that if departing from Europe  , you will require to have the visa before boarding the plane .",
+        "baseline":"请注意,在离开欧洲时,您必须在登机前持签证。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Some times , the airline provides these at the airport , however check first that this is the case .",
+        "baseline":"有时,航空公司在机场提供这些,但先检查一下情况。",
+        "zh":[],
+        "fvec":[]
+    }
+]

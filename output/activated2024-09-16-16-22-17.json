@@ -1,0 +1,82 @@
+[
+    {
+        "en":"It 's coming from more than Mexico .",
+        "baseline":"它来自比墨西哥更远的地方。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"But we do n't know .",
+        "baseline":"但我们不知道。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And it 's got to stop and it 's got to stop fast .",
+        "baseline":"它必须停止,并且必须停止快速。",
+        "zh":[
+            "它必须停下来,并且必须停下来很快。",
+            "它必须停下来,而且必须停下来很快。",
+            "它必须停下来,并且必须停下来很快。",
+            "它必须停下来,而且必须停下来快。",
+            "它必须停下来,并且必须停下来很快。",
+            "它必须停下来,而且必须停下来快。",
+            "它必须停下来,并且必须停下来很快。",
+            "它必须停下来,而且必须停下来快。",
+            "它必须停下来,并且必须停下来很快。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001"
+        ]
+    },
+    {
+        "en":"Islamic terrorism is eating up large portions of the Middle East .",
+        "baseline":"伊斯兰恐怖主义正在吞噬中东大部分地区。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They 've become rich .",
+        "baseline":"他们已经变得富有了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They just built a hotel in Syria .",
+        "baseline":"他们刚在叙利亚建了一个旅馆。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Can you believe this ?",
+        "baseline":"你能相信吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They built a hotel .",
+        "baseline":"他们建了一个旅馆。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So now ISIS has the oil , and what they do n't have , Iran has .",
+        "baseline":"现在 ISIS 拥有石油, 而他们没有石油, 伊朗拥有石油.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Iran is taking over Iraq , and they 're taking it over big league .",
+        "baseline":"伊朗正在接管伊拉克, 他们正在接管大联盟.",
+        "zh":[],
+        "fvec":[]
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "en":"So now we did yoga .",
+        "baseline":"现在我们做了瑜伽。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"But that 's okay .",
+        "baseline":"但没关系。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We 're making dinner .",
+        "baseline":"我们正在做晚餐。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"As you can see , we 're we 're actively making dinner .",
+        "baseline":"正如你所看到的,我们正积极做晚餐。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And on today 's vlog segment of cooking with Ash , Harry !",
+        "baseline":"还有今天与阿什一起烹饪的 vlog 部分, 哈利!",
+        "zh":[
+            "还有今天与阿什做饭的vlog部分,哈里!"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Both wearing sorority sweatshirts .",
+        "baseline":"他们都穿着贵族运动衫。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"One of us needs to change .",
+        "baseline":"我们当中的一个人需要改变。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We we love a boyfriend that supports the YouTube hustle .",
+        "baseline":"我们爱一个支持YouTube的男朋友。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Yes it 's a I provide a service .",
+        "baseline":"是的,我提供了一个服务。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Oh so you do n't even like , emotionally like them .",
+        "baseline":"哦,你甚至不喜欢,情绪上也不喜欢他们。",
+        "zh":[],
+        "fvec":[]
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "en":"\" You all right ? \"",
+        "baseline":"“ 你没事 吗? ”",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"\" They started it . \"",
+        "baseline":"“ 他们开始了. ”",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"\" They started — \"",
+        "baseline":"“ 他们开始 — ”",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Pag backed away , eyes wide .",
+        "baseline":"帕格向后退,眼睛睁大。",
+        "zh":[
+            "帕格向后退,双眼睁大."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"\" What are you doing ?",
+        "baseline":"“ 你在干什么?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"I did n't remember doing that .",
+        "baseline":"我记不起这么做。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It took a while .",
+        "baseline":"花了很长时间。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"\" And now you 're different .",
+        "baseline":"现在你变了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"\" My mom and dad , \" I said , suddenly quiet , \" saved my life .",
+        "baseline":"“ 我妈妈和爸爸, ” 我说, 突然安静, “ 救了我的命.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In the bathtub , a bar of soap was gaily chasing a nylon scrubby thing around the surface of the water .",
+        "baseline":"在浴槽里,一桶肥皂正狂热地追逐一个尼龙的脏东西在水面上。",
+        "zh":[],
+        "fvec":[]
+    }
+]

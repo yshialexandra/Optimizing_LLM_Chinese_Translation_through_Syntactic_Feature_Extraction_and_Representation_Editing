@@ -1,0 +1,84 @@
+[
+    {
+        "en":"It emphasizes consumerism , the belief that success always goes to people who merit it due to their abilities , dedication and qualifications , and reinforces , rather than changes , existing ideas related to gender , ethnicity and nationality .",
+        "baseline":"它强调消费主义,认为成功总是归功于能力、奉献和资格的人们,并且加强了与性别、种族和国籍有关的现有观念,而不是改变。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The impact depends on a number of aspects .",
+        "baseline":"影响取决于若干方面。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"One of them is the channels that NBC as the broadcasting rights owner for the United States will use to air the Paralympic Games on .",
+        "baseline":"其中一个是NBC作为美国广播权拥有者将使用以播放残疾运动会的频道。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So showing the Paralympics live on United States television might turn out to be less glamorous than it appears .",
+        "baseline":"因此,在美国电视上直播残疾运动会可能不像看上去那么华丽。",
+        "zh":[
+            "因此,在美国电视上直播残奥会的结果可能比表面看起来更不华丽。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"A third important factor is the way the event will be mediated : will NBC have its best sports broadcasters following the event after having worked the Winter Olympics ?",
+        "baseline":"第三个重要因素是比赛将如何进行调解: NBC在冬季奥林匹克运动会后会有最好的体育广播机构吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Things have grown steadily since .",
+        "baseline":"自从那以后,事情一直在稳步增长。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Do you personally record audiobooks , and did you already do so before LibriVox ?",
+        "baseline":"你是否亲自录制音频书,并且你已经在利比里沃克斯之前这样做 吗?",
+        "zh":[
+            "你是否亲自录制音书,并且你是否在LibriVox之前已经这样做呢?",
+            "你是否亲自录制音书,并且你是否在LibriVox之前已经这样做呢?"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Ed. : See the LibriVox catalog for a full index .",
+        "baseline":"参见LibriVox目录的完整索引。",
+        "zh":[
+            "请参阅LibriVox目录,找到完整的索引。",
+            "请参阅LibriVox目录,找到完整的索引。",
+            "请参阅LibriVox目录,找到完整的索引。",
+            "参看LibriVox目录,以获得完整的索引.",
+            "请参阅LibriVox目录,找到完整的索引。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"If someone wanted to re-record a chapter because they did n't like the speaker , would you then offer two versions ?",
+        "baseline":"如果有人想重新录制一个章节,因为他们不喜欢演讲者,你会提供两个版本吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You 'll note we offer a couple of versions of some books .",
+        "baseline":"你会注意到我们提供一些版本的书籍。",
+        "zh":[],
+        "fvec":[]
+    }
+]

@@ -1,0 +1,100 @@
+[
+    {
+        "en":"Somebody can manage to be the mayor of Toronto .",
+        "baseline":"有人能成为多伦多市长。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And somehow the blowback never hits them .",
+        "baseline":"不知怎么,回击从来都没有打到他们。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Yeah , they 've lost control over use , right ?",
+        "baseline":"是的, 他们已经失去控制了, 对 吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Even though they 're managing to sort of stickhandle their way through life .",
+        "baseline":"尽管他们正设法通过生活来把握自己的路程。",
+        "zh":[
+            "尽管他们正设法通过生活来做些事情.",
+            "尽管他们正设法通过生活来做些事情.",
+            "尽管他们正设法通过生活来做些事情.",
+            "尽管他们正设法通过生活来做些事情.",
+            "尽管他们正设法通过生活来做些事情.",
+            "尽管,他们还是设法通过生活来解决问题。",
+            "尽管他们正设法通过生活来做些事情."
+        ],
+        "fvec":[
+            "000000100000000000010000000000000",
+            "000000100000000000010000000000000",
+            "000000100000000000010000000000000",
+            "000000100000000000010000000000000",
+            "000000100000000000010000000000000",
+            "000000000000000000010001000000000",
+            "000000100000000000010000000000000"
+        ]
+    },
+    {
+        "en":"Well , you can go for a long , long , say , alcoholism .",
+        "baseline":"嗯, 你可以长时间, 比如, 酗酒.",
+        "zh":[
+            "嗯,你可以长期,长期,说,酗酒.",
+            "嗯,你可以长期,长期,说,酗酒.",
+            "嗯,你可以长期,长期,说,酗酒.",
+            "嗯,你可以长期,长期,说,酗酒.",
+            "嗯,你可以长期,长期,说,酗酒.",
+            "嗯,你可以长期,长期,说,酗酒.",
+            "嗯,你可以长期,长期,说,酗酒.",
+            "嗯,你可以长期,长期,说,酗酒.",
+            "嗯,你可以长期,长期,说,酗酒.",
+            "嗯,你可以长期,长期,说,酗酒."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Do you keep using despite wanting to stop ?",
+        "baseline":"尽管你想停止使用,你还是继续使用 吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Then you may have an addiction to sugar .",
+        "baseline":"那么你可能有糖瘾。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"But drug abuse , of course , is a pattern use of a substance drug in which the user consumes the substance in amounts or with methods which are harmful to themselves or others .",
+        "baseline":"但药物滥用,当然,是一种药物滥用模式,即使用者在数量上或以有害于自己或他人的方法使用药物。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And again , it 's probably just getting into what do you call addiction .",
+        "baseline":"再说一遍, 它可能只是进入你称之为“中毒”的领域.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"This is obviously something that you want and it can be causing problems .",
+        "baseline":"这显然是你想要的东西,它可能会引起问题。",
+        "zh":[],
+        "fvec":[]
+    }
+]

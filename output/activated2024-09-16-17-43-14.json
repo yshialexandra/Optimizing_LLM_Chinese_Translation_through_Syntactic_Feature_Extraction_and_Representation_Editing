@@ -1,0 +1,92 @@
+[
+    {
+        "en":"Try to ensure there is an al dente bite to the germ , in the same way as pasta .",
+        "baseline":"设法确保细菌有咬伤,就像面包一样。",
+        "zh":[
+            "设法确保细菌有一点咬伤,就像面包一样.",
+            "设法确保细菌有牙齿咬伤,与面包一样."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Quinoa will continue cooking for a bit even after you take it off the heat .",
+        "baseline":"奎诺亚会继续做点饭,即使你把它从热中取下来。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Take the quinoa off the heat and let stand , covered , for 5 minutes .",
+        "baseline":"把昆士忌从热中取出来,让它站起来,盖住,5分钟。",
+        "zh":[
+            "把昆士忌从热中取出来,让它静、盖、5分钟.",
+            "把昆士忌从热中取出来,让它静、盖、5分钟.",
+            "把昆士忌从热中取出来,让它静、盖、5分钟."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Uncover and fluff with a fork .",
+        "baseline":"用叉子揭开和擦拭。",
+        "zh":[
+            "用叉子揭开和擦拭."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"The quinoa should look light and fluffy , and you should be able to see the germ separating from the seed .",
+        "baseline":"基诺亚应该看起来光滑,而且你应该能够看到细菌从种子中分离。",
+        "zh":[
+            "基诺亚应该看起来洁白、光滑,你应该看到细菌从种子中分离。",
+            "清菜应该看起来光滑,你应该看到细菌从种子中分开。",
+            "清菜应该看起来光滑,你应该看到细菌从种子中分开。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Serve .",
+        "baseline":"服役。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Freshly cooked quinoa should be served immediately to retain nutritional value and a good flavor .",
+        "baseline":"新鲜煮的昆士忌应立即提供,以保持营养价值和味道。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Rinse 1 cup of quinoa in a fine mesh sieve under cold water .",
+        "baseline":"在冷水下洗一杯清菜。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Pour quinoa into rice cooker .",
+        "baseline":"将奎诺浸入米锅里。",
+        "zh":[
+            "把昆士忌倒进饭锅里."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Add 2 cups of liquid and 1/2 teaspoon of salt into the rice cooker .",
+        "baseline":"将2杯液体和1/2杯盐放入米锅里。",
+        "zh":[],
+        "fvec":[]
+    }
+]

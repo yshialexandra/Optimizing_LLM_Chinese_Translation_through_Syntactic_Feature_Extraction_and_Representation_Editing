@@ -1,0 +1,82 @@
+[
+    {
+        "en":"There are several reasons .",
+        "baseline":"有几个原因。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"One is that logic is slow ; fear is fast .",
+        "baseline":"一是逻辑是缓慢的;恐惧是快速的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In situations of danger , we ought to be fast : First run or kill , then think .",
+        "baseline":"在危险情况下,我们应该快速:先跑或者杀,然后思考。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Some people are afraid of spiders , others of snakes or even cats and dogs .",
+        "baseline":"有些人怕蜘蛛,有些人怕蛇,甚至怕猫狗。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The majority of men and women over 60 in the U.S. are sexually active , most at least two to three times per month  .",
+        "baseline":"在美国,大多数60岁以上的男性和女性都有性行为,大多数是每月至少两次或三次。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They also rate sex as an important part of life .",
+        "baseline":"他们还把性别评为人生的重要组成部分。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"A key question for our study was : How would you rate the sexual aspects of your life these days , from the worst possible situation  to the best possible situation  ?",
+        "baseline":"我们研究的一个关键问题是: 你现在如何评价你生活中的性方面,从最坏的情况到最好的状况?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"This is great news , as a satisfying sex life has been found to be important for health and well - being , regardless of age .",
+        "baseline":"这是好消息, 因为令人满意的性生活已经被发现对健康和福祉至关重要, 不论年龄.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We now know that age - related declines in sexual quality of life are largely related to modifiable factors , so we can target sexual skills , beliefs and attitudes in clinical interventions .",
+        "baseline":"我们现在知道,与年龄有关的性生活质量下降主要与可变因素有关,因此我们可以在临床干预中针对性技能、信仰和态度。",
+        "zh":[
+            "我们现在知道性生活质量与年龄有关的下降主要与可调因素有关,因此我们能够在临床干预中针对性技能、信仰和态度.",
+            "我们现在知道,与年龄有关的性生活质量下降主要与可变因素有关,因此我们可以在临床干预中针对性技能、信仰和态度.",
+            "我们现在知道性生活质量与年龄有关的下降主要与可修改因素有关,因此我们可以在临床干预中针对性技能、信仰和态度.",
+            "我们现在知道性生活质量与年龄有关的下降主要与可调因素有关,因此我们可以在临床干预中针对性技能、信仰和态度.",
+            "我们现在知道性生活质量与年龄有关的下降主要与可调因素有关,因此我们可以在临床干预中针对性技能、信仰和态度.",
+            "我们现在知道性生活质量与年龄有关的下降主要与可调因素有关,因此我们可以在临床干预中针对性技能、信仰和态度.",
+            "我们现在知道性生活质量与年龄有关的下降主要与可调因素有关,因此我们可以在临床干预中针对性技能、信仰和态度.",
+            "我们现在知道,与年龄有关的性生活质量下降主要与可变因素有关,因此我们可以在临床干预中针对性技能、信仰和态度.",
+            "我们现在知道,与年龄有关的性生活质量下降主要与可变因素有关,因此我们可以在临床干预中针对性技能、信仰和态度."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"My father and I were going to mass — my mother did not go ; she was Protestant .",
+        "baseline":"我父亲和我要去弥撒 — — 我母亲没有去,她是新教徒。",
+        "zh":[],
+        "fvec":[]
+    }
+]

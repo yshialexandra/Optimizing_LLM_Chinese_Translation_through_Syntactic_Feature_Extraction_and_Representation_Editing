@@ -1,0 +1,84 @@
+[
+    {
+        "en":"Stretch your muscles thoroughly .",
+        "baseline":"彻底地伸展肌肉。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You should also stretch to \" wind down \" at the end of ballet dancing .",
+        "baseline":"你应该在芭蕾舞结束时伸展到“ 风下 ” 。",
+        "zh":[
+            "在芭蕾舞结束时,你还应该伸展到“风下”.",
+            "在芭蕾舞结束时,你还应该伸展到“风下”.",
+            "在芭蕾舞结束时,你还应该伸展到\"风下\"。",
+            "在芭蕾舞结束时,你还应该伸展到“风下”.",
+            "在芭蕾舞结束时,你还应该伸展到\"风下\"。",
+            "在芭蕾舞结束时,你还应该伸展到“风下”.",
+            "在芭蕾舞结束时,你还应该伸展到“风下”.",
+            "在芭蕾舞结束时,你还应该伸展到\"风下\"。",
+            "在芭蕾舞结束时,你还应该伸展到\"风下\"。",
+            "在芭蕾舞结束时,你还应该伸展到“风下”。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Always wear ballet slippers .",
+        "baseline":"总是穿芭蕾舞鞋。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You should fit them to where the drawstring is tied slightly loose .",
+        "baseline":"你应该把它们贴在拉伸绳被绑得有点松弛的地方。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If you ca n't buy ballet shoes , that it is okay .",
+        "baseline":"如果你不能买芭蕾舞鞋,那没关系。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The most important thing is that you are comfortable , and that you 're not wearing baggy or loose fitting clothing so you can make sure you 're forming and moving correctly in the mirror .",
+        "baseline":"最重要的是你舒适,而且你不穿紧身或松散的适合衣服,这样你就可以确定你在镜子里正形成和移动。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"A plain black leotard and pink tights are usually a safe bet .",
+        "baseline":"简单的黑色领带和粉红色的紧身裤通常是安全的赌注。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Find an appropriate space to practice .",
+        "baseline":"寻找适当的练习空间。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If you want to practice at home , make sure you 've got enough open space to move freely , preferably on a hard wood floor .",
+        "baseline":"如果你想在家练习,请确保你有足够的空位可以自由移动,最好在硬木地板上。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"1 Choose the kind of basil you wish to grow .",
+        "baseline":"选择你想要种植的盆栽。",
+        "zh":[],
+        "fvec":[]
+    }
+]

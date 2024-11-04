@@ -1,0 +1,88 @@
+[
+    {
+        "en":"Montalvo was charged with taking hard drives and a zip drive from the Scientology organization after leaving the Sea Org group .",
+        "baseline":"蒙塔尔沃在离开海洋组织后被指控从科学组织带走硬盘和磁盘。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"After calling the Scientology organization by phone to attempt to speak with his mother , Montalvo was instead put through to a Scientology attorney , Kendrick Moxon .",
+        "baseline":"蒙塔尔沃在打电话给科学组织,试图与母亲谈谈之后,却被转交给科学律师肯德里克·莫克森。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Rathbun wrote , \" Moxon proceeded to lie to Daniel that the hard drives were never returned , and made a convincing case  that Daniel would be put behind iron bars for a good long time , UNLESS of course , he returned and cooperated with Moxon and routed out properly . \"",
+        "baseline":"拉特本写道: “ 摩克逊继续向丹尼尔撒谎,说硬盘从未被归还,并提出一个令人信服的证据,说丹尼尔将被放在铁栏后面很长时间,但当然,他又回到了摩克逊,并与摩克逊合作,并将其彻底销毁。",
+        "zh":[
+            "拉什本写道,“摩克逊继续向丹尼尔撒谎,硬盘从未被返回,并且做了确信的证据,说丹尼尔会被放在铁棒后面很长时间,但当然,他又回到了摩克逊那里并与摩克逊合作,并被彻底驱逐出去。",
+            "拉什本写道,“摩克逊继续向丹尼尔撒谎说,硬盘从未返回,并且做了确信的证据,说丹尼尔会被放在铁棒后面很长时间,但当然,他回来了,与摩克逊合作,并适当地撤出。",
+            "拉什本写道,“摩克逊继续向丹尼尔撒谎说,硬盘从未返回,并且做了确信的证据,说丹尼尔会被放在铁棒后面很长时间,但当然,他回来了,与摩克逊合作,并予以纠正。",
+            "拉什本写道,“摩克逊继续向丹尼尔撒谎,硬盘从未被归还,并且确信丹尼尔会被放在铁棒后面很长时间,但当然,他又回到了摩克逊,并与摩克逊进行合作,并被彻底赶出”。",
+            "拉什本写道,“摩克逊继续向丹尼尔撒谎说,硬盘从未返回,并且做了确信的证据,说丹尼尔会被放在铁棒后面很长时间,但当然,他回来了,与摩克逊合作,并予以纠正。",
+            "拉什本写道,“摩克逊继续向丹尼尔撒谎说,硬盘从未返回,并且做了确信的证据,说丹尼尔会被放在铁棒后面很长时间,但当然,他回来了,与摩克逊合作,并予以纠正。",
+            "拉什本写道,“摩克逊继续向丹尼尔撒谎,硬盘从未被返回,并且做了确信的证据,说丹尼尔会被放在铁栏后面很长一段时间,但当然,他回来了,与摩克逊合作,并适当地撤出。",
+            "拉什本写道,“摩克逊继续向丹尼尔撒谎,硬盘从未被返回,并且做了确信的证据,说丹尼尔会被放在铁棒后面很长时间,但当然,他回来了,与摩克逊合作,并予以纠正。",
+            "拉什本写道,“摩克逊继续向丹尼尔撒谎,硬盘从未被返回,并且做了确信的证据,说丹尼尔会被放在铁棒后面很长时间,但当然,他回来了,与摩克逊合作,并适当地撤出。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Instead of being taken to a hotel , where he could route out as promised , he was taken to the Century City Towers .",
+        "baseline":"他没有被带到旅馆去,而是被带到世纪城塔。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The Hong Kong legislative election was held on Sunday , with a record - breaking turnout of around 2 million voters and turnout rate of 58 % .",
+        "baseline":"香港议会选举于星期天举行, 有超过200万选民参加,投票率为58 % 。",
+        "zh":[
+            "星期天香港议会选举举行,有大约200万名选民参加,投票率为58%.",
+            "星期天举行了香港议会选举,有超过200万选民参加,投票率为58%."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Young and new faces emerged in the new council members , as veteran politicians stepped down in both the anti-establishment and pro-Beijing campus .",
+        "baseline":"年轻和新面孔在新的议会成员中出现, veteran政客在反体制和亲北京的校园中退位。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Pan - democrat Lam Cheuk - ting from the Democratic Party and localist group Youngspiration 's Baggio Leung were successfully elected newcomers .",
+        "baseline":"来自民主党的泛 民主 拉姆·切克顿和青年spiration 的巴吉奥·勒昂成功当选新成员.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Pro-Beijing DAB 's Starry Lee and Holden Chow were successfully elected in this constituency , while pro-Beijing veteran politician Wong Kwok - hing of FTU was defeated by 10,694 votes by James To .",
+        "baseline":"亲北京的国会议员李 Starry 和霍登 Chow 成功当选,而亲北京的资深政治家黄国兴(Wong Kwok- hing)则以10,694票击败詹姆斯·托(James To)。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The election elects 70 members of the Legislative Council .",
+        "baseline":"选举选出70名立法会成员。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Ubisoft , Microsoft , and PlayStation VR all had large areas set up for attendees to try their latest games .",
+        "baseline":" Ubisoft 、 Microsoft 、 PlayStation VR 都为参与者设置了大型区域来尝试最新游戏。",
+        "zh":[],
+        "fvec":[]
+    }
+]

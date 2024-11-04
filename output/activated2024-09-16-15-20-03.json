@@ -1,0 +1,106 @@
+[
+    {
+        "en":"Well that ’s a significant threat to the Soviet Union , to Russia now that there was no longer any Soviet Union , it was a significant threat to Russia and not surprisingly they responded by beefing up their offensive capacity , not much but some .",
+        "baseline":"这是对苏联的严重威胁,对俄罗斯现在不再存在苏联,这是对俄罗斯的严重威胁,毫不奇怪,他们采取了加强进攻能力的行动。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And the claim was that it had to do with Iranian missiles , but forget about that .",
+        "baseline":"还有说它与伊朗导弹有关,但别忘了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Take say on Obama , Obama ’s national security advisor James Jones former Marine commandant is on record of favoring expansion of NATO to the south and the east , further expansion of NATO , and also making it an intervention force .",
+        "baseline":"就奥巴马而言,奥巴马国家安全顾问詹姆斯·琼斯(James Jones)曾任海军指挥官表示支持北约向南和东扩充,进一步扩大北约,并使其成为干预部队。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So I think the first question is , what is this all about , why should we even be debating NATO , is there any reason why it should exist ?",
+        "baseline":"我想第一个问题是,这到底是怎么回事,为什么我们还要讨论北约,为什么它应该存在呢?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Or do you think it ’s nothing ?",
+        "baseline":"或者你认为这没什么?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It ’s really hard to tell .",
+        "baseline":"很难说。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So that ’s a frightening idea , and police were called in and so on .",
+        "baseline":"这是一个可怕的想法,警察被召唤进来等等。",
+        "zh":[
+            "那是个可怕的想法,所以警察被调到,等等。",
+            "那是个可怕的想法,所以警察被调到,等等。",
+            "那是个可怕的想法,所以警察被调到,等等。",
+            "那是个可怕的想法,所以警察被调到,等等。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"It is served in a cocktail glass and topped with Godiva chocolate flakes .",
+        "baseline":"它在鸡尾酒杯中提供,并配上戈迪瓦巧克力片。",
+        "zh":[
+            "它是在鸡尾酒玻璃中提供,并配上戈蒂瓦巧克力片。",
+            "它是在鸡尾酒玻璃中提供,并配上戈蒂瓦巧克力片。",
+            "它是在鸡尾酒玻璃中提供,并配上戈蒂瓦巧克力片。",
+            "它是在鸡尾酒玻璃中提供,并配上戈蒂瓦巧克力薄片。",
+            "它是在鸡尾酒玻璃中提供,并配上戈蒂瓦巧克力薄片。",
+            "它是在鸡尾酒玻璃中提供,并配上戈蒂瓦巧克力薄片。",
+            "它是在鸡尾酒玻璃中提供,并配上戈蒂瓦巧克力片。",
+            "它是在鸡尾酒玻璃中提供,并配上戈蒂瓦巧克力薄片。",
+            "它是在鸡尾酒杯中提供,并配上戈蒂瓦巧克力薄片。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Image ; Pacific Standard , provided by the owners .",
+        "baseline":"图片:太平洋标准,由业主提供。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"What inspired you to create a cocktail after the santorum neologism ?",
+        "baseline":"什么是让你在圣经新词之后创造一个鸡尾酒的灵感?",
+        "zh":[
+            "什么启发了你,在圣经新词之后创造一杯鸡尾酒呢?",
+            "什么启发你创造一个酒后圣orum新词汇呢?",
+            "什么启发了你,在圣orum语义之后,创造一个鸡尾酒?",
+            "什么启发了你,在圣经neologism之后创造一个鸡尾酒?",
+            "什么启发了你,在圣经neologism之后创造一个鸡尾酒?",
+            "什么启发了你,在圣经新词义之后创作一个鸡尾酒?"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000010000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    }
+]

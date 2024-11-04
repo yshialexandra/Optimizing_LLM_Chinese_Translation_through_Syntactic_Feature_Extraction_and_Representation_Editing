@@ -1,0 +1,86 @@
+[
+    {
+        "en":"The Bernoulli family came originally from Antwerp , at that time in the Spanish Netherlands , but emigrated to escape the Spanish persecution of the Huguenots .",
+        "baseline":"伯努利家族最初来自安特卫普,当时在西班牙荷兰,但为了逃避西班牙人迫害而移民。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"After a brief period in Frankfurt the family moved to Basel , in Switzerland .",
+        "baseline":"在法兰克福短暂停留后,全家搬到瑞士巴塞尔。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Daniel Bernoulli was described by W. W. Rouse Ball as \" by far the ablest of the younger Bernoullis \" .",
+        "baseline":"丹尼尔·伯努利被W·W·鲁斯·鲍尔描述为“ 远比年轻的伯努利最能干 ” 。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Daniel studied medicine at Basel , Heidelberg , and Strasbourg , and earned a PhD in anatomy and botany in 1721 .",
+        "baseline":"丹尼尔在巴塞尔、海德堡和斯特拉斯堡学习医学,并在1721年获得解剖学和植物学博士学位。",
+        "zh":[
+            "丹尼尔在巴塞尔、海德堡、斯特拉斯堡学习医学,并于1721年获得解剖学和植物学博士学位."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Two years later he pointed out for the first time the frequent desirability of resolving a compound motion into motions of translation and motion of rotation .",
+        "baseline":"两年后,他首次指出了解决复合运动的经常性需要,即转换运动和旋转运动。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Together Bernoulli and Euler tried to discover more about the flow of fluids .",
+        "baseline":"伯努利和欧勒一起尝试发现更多关于流体的流动。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It was not until about 170 years later , in 1896 that an Italian doctor discovered a less painful method which is still in use today .",
+        "baseline":"直到大约170年后,1896年,一位意大利医生发现了一种较少痛苦的方法,至今仍在使用。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Daniel realised that in a similar way , a moving fluid exchanges its kinetic energy for pressure .",
+        "baseline":"丹尼尔意识到,类似地,一个流动的流体交换其运动能量以压力。",
+        "zh":[
+            "丹尼尔也认识到,一个流动的流体以压力换取其运动能量.",
+            "丹尼尔也认识到,一个流动的流体以压力换取其运动能量.",
+            "丹尼尔也认识到,一个流动的流体以压力换取其运动能量.",
+            "丹尼尔也认识到,一个流动的流体以压力换取其运动能量.",
+            "丹尼尔也认识到,一个流动的流体以压力换取其运动能量.",
+            "丹尼尔也认识到,一个流动的流体以压力换取其运动能量.",
+            "丹尼尔也认识到,一个流动的流体以压力换取其运动能量."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Already in college his interests had turned to music and languages .",
+        "baseline":"在他大学期间,他对音乐和语言的兴趣已经转向了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Chao possessed a natural gift for hearing fine distinctions in pronunciation that was said to be \" legendary for its acuity \" , enabling him to record the sounds of various dialects with a high degree of accuracy .",
+        "baseline":"卡奥拥有一种自然的听力特长,据说是“ 以其敏锐的特长 ”, 使他能够高精度地记录各种方言的声音。",
+        "zh":[
+            "查歐擁有一個自然的天賦,即能聽出'以其敏度而聞名'的發音細分,使他能夠以高精度地記錄各種方言的音訊。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    }
+]

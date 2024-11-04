@@ -1,0 +1,84 @@
+[
+    {
+        "en":"Look for it .",
+        "baseline":"找吧。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Research it .",
+        "baseline":"研究一下。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We 'll see .",
+        "baseline":"再见。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Unhunh .",
+        "baseline":"解散。",
+        "zh":[
+            "解魂。",
+            "解魂。",
+            "解魂。",
+            "解魂。",
+            "解魂。",
+            "解魂。",
+            "解魂。",
+            "解魂。",
+            "解魂。",
+            "解魂。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Yeah like a Ouiji — we used to call em Ouija boards .",
+        "baseline":"是的,就像一个 Ouiji — 我们过去叫 em Ouija板。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Did you like it ?",
+        "baseline":"你喜欢吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Did you like it ?",
+        "baseline":"你喜欢吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Yeah I used to love Ouija boards when I was a little girl .",
+        "baseline":"是的,当我小的时候,我曾经喜欢维雅板。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You do n't know the half of it .",
+        "baseline":"你不知道它的一半。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"I think if we — she woke up , we could w- send her home tonight .",
+        "baseline":"我想如果我们-她醒来,我们可以今晚把她送回家。",
+        "zh":[],
+        "fvec":[]
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "en":"Child , you 're having problems .",
+        "baseline":"孩子,你有问题。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Get your feet off of there .",
+        "baseline":"离开那儿。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Get your feet off of there .",
+        "baseline":"离开那儿。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Kendra , just let it go .",
+        "baseline":"肯德拉,放开吧。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"All you said last night was —",
+        "baseline":"你昨晚所说的只是...",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Kim was n't staying the night .",
+        "baseline":"金没有呆过一夜。",
+        "zh":[
+            "金今晚不呆了。",
+            "金今晚不呆了。",
+            "金今晚不呆了。",
+            "金今晚不呆了。",
+            "金今晚不呆了。",
+            "金今晚不呆了。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"And she goes , no just spend the night .",
+        "baseline":"然后她走了, 不只是过夜。",
+        "zh":[
+            "她走了,不只是度过了一夜。",
+            "她走了,不只是玩过夜。"
+        ],
+        "fvec":[
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000"
+        ]
+    },
+    {
+        "en":"Okay cool , cause she had to go bowling in the morning .",
+        "baseline":"很好,因为她必须早上去打保龄球。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You 'll get a hold of her first .",
+        "baseline":"你得先抓住她。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"A- and I 'm supposed to trust you every time you tell the truth .",
+        "baseline":"你每次说真话我都得相信你。",
+        "zh":[],
+        "fvec":[]
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "en":"Although the lodging and facilities may not be the same as more modern and developed locations , Socotra is a beautiful and magnificent destination choice .",
+        "baseline":"虽然住宿和设施可能与更现代化和发达的地点不同,索科特拉是一个美丽的和壮观的目的地选择。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"However there are four hotels in Hadibo : Taj Socotra Hotel , Hafijj Hotel , Socotra Hotel , and Summer land Hotel .",
+        "baseline":"然而哈迪博有四个酒店:塔吉索科特拉酒店,哈菲兹酒店,索科特拉酒店,和夏季土地酒店。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There are several campsites that allow tourists to barbeque on the beach with beautiful mountain views in the background .",
+        "baseline":"有几个营地让游客在海滩上烧烤,背景有美丽的山景。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"A runway that provides fairly regular airline transportation was only constructed in 1999 .",
+        "baseline":"一个提供相当正规的航空公司运输的跑道仅于1999年建成。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In addition , there are also two information centers located at the airport and Hadibo .",
+        "baseline":"此外,机场还有两个信息中心和哈迪博。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"When to go : Climate is an important consideration .",
+        "baseline":"什么时候去:气候是一个重要的考虑。",
+        "zh":[
+            "什么时候到:气候是一个重要的考虑。",
+            "什么时候到:气候是一个重要的考虑。",
+            "什么时候到:气候是一个重要的考虑。",
+            "什么时候到:气候是一个重要的考虑。",
+            "什么时候到:气候是一个重要的考虑。",
+            "什么时候到:气候是一个重要的考虑。",
+            "什么时候到:气候是一个重要的考虑。",
+            "什么时候到:气候是一个重要的考虑。",
+            "什么时候到:气候是一个重要的考虑。",
+            "什么时候到:气候是一个重要的考虑。"
+        ],
+        "fvec":[
+            "010000000000000000000000000000000",
+            "010000000000000000000000000000000",
+            "010000000000000000000000000000000",
+            "010000000000000000000000000000000",
+            "010000000000000000000000000000000",
+            "010000000000000000000000000000000",
+            "010000000000000000000000000000000",
+            "010000000000000000000000000000000",
+            "010000000000000000000000000000000",
+            "010000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"The monsoon occurs in July till mid-August  .",
+        "baseline":"季风在7月至8月中旬发生。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Generally , wildlife and natural viewing is best from the end of January through May .",
+        "baseline":"一般来说, 野生动物和自然观光最好从1月底到5月.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There are flights from Sana'a via Al Mukalla .",
+        "baseline":"有从萨那飞往穆卡拉的航班。",
+        "zh":[
+            "从萨那飞往阿尔穆卡拉.",
+            "从萨那飞往阿尔穆卡拉.",
+            "从萨那飞往阿尔穆卡拉.",
+            "从萨那飞往阿尔穆卡拉.",
+            "从萨那飞往阿尔-穆卡拉.",
+            "从萨那飞往阿尔穆卡拉."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Yemenia Airlines offers one flight per week on Thursday morning .",
+        "baseline":" Yemenia Airlines每周四上午提供一次航班。",
+        "zh":[],
+        "fvec":[]
+    }
+]

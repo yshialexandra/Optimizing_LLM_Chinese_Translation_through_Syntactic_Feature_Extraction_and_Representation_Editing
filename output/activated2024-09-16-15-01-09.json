@@ -1,0 +1,90 @@
+[
+    {
+        "en":"The gingerbread batter bowl could wait a day , even though it would take longer to clean tomorrow .",
+        "baseline":"姜饼打 bowl可以等一天, 尽管明天要更长时间才能打扫.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"For now , she appreciated its fight to cover the ham - stink that coated the room .",
+        "baseline":"到目前为止, 她赞赏了它为掩盖屋子里弥漫的咸味而作的斗争.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Would you be a doll ? ”",
+        "baseline":"你会做娃娃 吗? ”",
+        "zh":[
+            "你会是个娃娃吗?”",
+            "你会是个娃娃吗?”",
+            "你会是个娃娃吗?”",
+            "你会是个娃娃吗?”"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"“ Moroz out .",
+        "baseline":"”摩洛兹说。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Or a Christmas tree , if that was more your thing .",
+        "baseline":"或者圣诞树,如果你更喜欢的话。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"“ On his way , ” Betty said .",
+        "baseline":"”贝蒂说。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"For many years after her death , however , Tyler was tortured by the memory of a certain visit from her .",
+        "baseline":"然而,她死后多年,泰勒被她某次访问的记忆所折磨。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"He was five or so , and they were playing some board game at the kitchen table .",
+        "baseline":"他大概五岁,他们正在厨房桌边玩板游戏。",
+        "zh":[
+            "他五岁左右,他们正在厨房桌边玩游戏.",
+            "他五岁左右,他们正在厨房桌边玩游戏.",
+            "他五岁左右,他们正在厨房桌边玩游戏.",
+            "他五岁左右,他们正在厨房桌边玩板游戏。",
+            "他五岁左右,他们正在厨房桌边玩板游戏.",
+            "他五岁左右,他们正在厨房桌边玩板游戏。"
+        ],
+        "fvec":[
+            "000000000000000010000000000000000",
+            "000000000000000010000000000000000",
+            "000000000000000010000000000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"At that time he knew only vaguely that Hell was a place you did not want to go , like the dark basement or the even darker attic .",
+        "baseline":"那时,他只是模糊地知道地狱是你不想去的地方,就像黑暗的地下室或更黑暗的阁楼。",
+        "zh":[
+            "那时,他只是模糊地知道,地狱是你不想去的地方,就像黑暗的地下室,或者更黑暗的阁楼。"
+        ],
+        "fvec":[
+            "000000000000000000000000010000000"
+        ]
+    },
+    {
+        "en":"It was not very hard to explain what really happened , he thought .",
+        "baseline":"解释到底发生了什么并不难,他想。",
+        "zh":[],
+        "fvec":[]
+    }
+]

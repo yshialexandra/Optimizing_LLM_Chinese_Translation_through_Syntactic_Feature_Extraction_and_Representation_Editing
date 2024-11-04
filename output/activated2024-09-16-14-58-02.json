@@ -1,0 +1,92 @@
+[
+    {
+        "en":"Know the body is lazy , because it wants to save precious energy .",
+        "baseline":"知道身体懒惰,因为它想节约宝贵的能量。",
+        "zh":[
+            "知道身体懒惰,因为它想节省宝贵的能量.",
+            "知道身体懒惰,因为它想节省宝贵的能量.",
+            "知道身体懒惰,因为它想节省宝贵的能量.",
+            "知道身体懒惰,因为它想节省宝贵的能量.",
+            "知道身体懒惰,因为它想节省宝贵的能量.",
+            "知道身体懒惰,因为它想节省宝贵的能量.",
+            "知道身体懒惰,因为它想节省宝贵的能量.",
+            "知道身体懒惰,因为它想节省宝贵的能量.",
+            "知道身体懒惰,因为它想节省宝贵的能量.",
+            "知道身体懒惰,因为它想节省宝贵的能量."
+        ],
+        "fvec":[
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001"
+        ]
+    },
+    {
+        "en":"Also know that this body would be much happier when it is regularly , and highly active .",
+        "baseline":"同时知道,当身体经常活跃时,身体会变得更快乐。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We know that exercise is not only helpful for cardiovascular and bodily health , but also reduces anxiety .",
+        "baseline":"我们知道锻炼不仅有益于心血管和身体健康,而且能减少焦虑。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"When it comes to sleep , changing behavior works .",
+        "baseline":"说到睡眠,改变行为是有效的。",
+        "zh":[
+            "说到睡眠,改变行为有效。",
+            "说到睡眠,改变行为有效。",
+            "说到睡眠,改变行为有效。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"41 : The Politics of Fear : How It Manipulates Us to Tribalism",
+        "baseline":"恐惧政治:它如何操纵我们走向部落主义",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"President Barack Obama walks away from the lectern with Vice President Joe Biden after making a statement about the mass shooting in Orlando , Fla. , June 16 , 2016 .",
+        "baseline":"2016年6月16日,美国总统巴拉克·奥巴马与副总统乔·比登在佛罗里达州奥兰多举行的大规模枪击事件发表声明后离开讲坛。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And , we learn by instructions , such as being told there is a predator nearby .",
+        "baseline":"我们通过指示学习,比如被告知附近有掠食者。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"This way we accumulated knowledge .",
+        "baseline":"这样我们积累了知识。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It does not have to necessarily be race or nationality , which are used very often .",
+        "baseline":"它不一定必须是种族或国籍,它们经常被使用。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"When building tribal boundaries between “ us ” and “ them , ” some politicians have managed very well to create virtual groups of people that do not communicate and hate without even knowing each other : This is the human animal in action !",
+        "baseline":"当“我们”和“他们”之间建立部落界限时,一些政治家已经非常成功地创造了一个没有相互了解的、相互憎恨的虚拟群体:这就是人类在行动中的动物!",
+        "zh":[],
+        "fvec":[]
+    }
+]

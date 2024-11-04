@@ -1,0 +1,86 @@
+[
+    {
+        "en":"In the near term , the New START Treaty must be extended .",
+        "baseline":"在不久的将来, 新 START 条约必须延长。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We must work to address the heightened threat posed by ballistic missiles and ensure a successful 2020 Review Conference of the Parties to the Treaty on the Non-Proliferation of Nuclear Weapons .",
+        "baseline":"我们 必须 努力 解决 弹道导弹 所 构成 的 日益 严重 威胁, 并 确保 《 不 扩散 核武器 条约 》 缔约国 2020年 审查 会议 取得 成功 。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It is an oath rooted in the Revolution fought by their grandparents to create a republic of laws , not kings .",
+        "baseline":"这是他们祖父母为建立一个法律的共和国而斗争的革命中根深蒂固的誓言,而不是国王。",
+        "zh":[
+            "这是他们祖父母为创造一个法律共和国而奋斗的革命中根深蒂固的誓言,而不是国王。",
+            "这是他们祖父母为创造一个法律共和国而奋斗的革命中根深蒂固的誓言,而不是国王。",
+            "这是他们祖父母为创造一个法律共和国而奋斗的革命中根深蒂固的誓言,而不是国王。",
+            "这是他们祖父母为创造一个法律共和国而奋斗的革命中根深蒂固的誓言,而不是国王。",
+            "这是他们祖父母为创造一个法律共和国而奋斗的革命中根深蒂固的誓言,而不是国王。",
+            "这是他们祖父母为创造一个法律共和国而奋斗的革命中根深蒂固的誓言,而不是国王。",
+            "这是他们祖父母为创造一个法律共和国而奋斗的革命中根深蒂固的誓言,而不是国王。",
+            "这是他们祖父母为创造一个法律共和国而奋斗的革命中根深蒂固的誓言,而不是国王。",
+            "这是他们祖父母为创造一个法律共和国而奋斗的革命中根深蒂固的誓言,而不是国王。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Madam Speaker , this afternoon , Senators will be asked to vote on the two Articles of Impeachment the House presented on abuse of power and the obstruction of Congress .",
+        "baseline":"主席女士,今天下午,参议员将被要求就众议院提出的滥用权力和阻挠国会的两项弹劾条款进行表决。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In doing so , many of them acknowledge that what President Trump did was wrong and inappropriate .",
+        "baseline":"他们中许多人承认特朗普所做的是错误和不恰当的。",
+        "zh":[
+            "他们许多人承认特朗普所做的是错误的,不恰当的."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"They accept that it was wrong for him to withhold military aid to Ukraine until the President of that country promised to interfere in the American elections .",
+        "baseline":"他们承认,他拒绝向乌克兰提供军事援助是错误的,直到该国总统承诺干预美国选举。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Madam Speaker , the Congress has not failed .",
+        "baseline":"主席女士,国会没有失败。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Many of the witnesses and documents , of course , were withheld by the White House .",
+        "baseline":"当然,许多证人和文件被白宫隐瞒。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There was no lobbying .",
+        "baseline":"没有游说。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There was no pressure .",
+        "baseline":"没有压力。",
+        "zh":[],
+        "fvec":[]
+    }
+]

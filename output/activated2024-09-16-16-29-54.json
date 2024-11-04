@@ -1,0 +1,110 @@
+[
+    {
+        "en":"Her peaceful resistance to segregation on a city bus in Montgomery , Alabama , is a recognizable example of civil disobedience .",
+        "baseline":"在阿拉巴马州蒙哥马里市的公共汽车上,她和平地反对种族隔离,这是明显的公民不服从的例子。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In 1930 , Mohandas Gandhi led a group in peaceful protest against a British tax on salt in India .",
+        "baseline":"1930年,莫哈纳达斯·甘地领导了一个和平抗议英国对印度盐税的团体。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"A bug vacuum is an example of how using divergent thinking contributed to the solution of removing bugs from crops without using chemicals .",
+        "baseline":"虫子真空是使用不同的思维如何有助于解决除虫子从作物中而不使用化学品的解决的一个例子。",
+        "zh":[
+            "细菌真空是使用不同的思维方法如何帮助解决无化学物质的作物中细菌的除去的一个例子。",
+            "虫尘真空是使用不同的思维方法如何帮助解决除虫作物而不使用化学物质的问题的一个例子。",
+            "虫尘真空是使用不同的思维方法如何帮助解决除虫作物而不使用化学物质的问题的一个例子。",
+            "虫尘真空是使用不同的思维方法如何帮助解决除虫作物而不使用化学物质的问题的一个例子。",
+            "细菌真空是使用不同的思维方法如何帮助解决无用化学品从作物中除去细菌的一个例子。",
+            "细菌真空是使用不同的思维方法如何帮助解决无用化学品从作物中除去细菌的一个例子。",
+            "虫尘真空是使用不同的思维方法如何帮助解决除虫作物而不使用化学物质的问题的一个例子。",
+            "细菌真空是使用不同的思维方法如何帮助解决无用化学品从作物中除去细菌的一个例子。",
+            "细菌真空是使用不同的思维方法如何帮助解决无用化学品从作物中除去细菌的一个例子。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Entrepreneurs frequently face the challenge of pressure to conform to established habits and patterns within industries .",
+        "baseline":"企业家经常面临着适应行业内既定的习惯和模式的压力。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"A new idea may even appear as impossible or outlandish , perhaps even an embarrassment to the steady and predictable practices established within an industry .",
+        "baseline":"一种新想法甚至可能看起来是不可能的或异乎寻常的,甚至可能对行业内建立的稳固和可预见的惯例感到尴尬。",
+        "zh":[
+            "一种新的观念甚至可能看起来是不可能的,甚至可能是在某种行业内建立的稳固和可预测的惯例上令人尴尬的。",
+            "一种新的观念甚至可能看起来是不可能的,甚至可能是在某种行业内建立的稳固和可预见的惯例上令人尴尬的。",
+            "一种新的观念甚至可能看起来是不可能的,甚至可能是在某种行业内建立的稳固和可预测的惯例上令人尴尬的。",
+            "一种新的观念甚至可能看起来是不可能的,甚至可能是在某种行业内建立的稳固和可预测的惯例上令人尴尬的。",
+            "一种新的观念甚至可能看起来是不可能的,甚至可能是在某种行业内建立的稳固和可预测的惯例上令人尴尬的。",
+            "一种新的观念甚至可能看起来是不可能的,甚至是异乎寻常的,也许甚至会对行业内建立的稳固和可预见的惯例感到尴尬。",
+            "一种新的观念甚至可能看起来是不可能的,甚至可能是在某种行业内建立的稳固和可预测的惯例上令人尴尬的。",
+            "一种新的观念甚至可能看起来是不可能的,甚至可能是在某种行业内建立的稳固和可预见的做法上令人尴尬的。",
+            "一种新的观念甚至可能看起来是不可能的,甚至是异乎寻常的,也许甚至会对行业内建立的稳固和可预见的做法造成尴尬。",
+            "一种新的观念甚至可能看起来是不可能的,甚至可能是在某种行业内建立的稳固和可预测的惯例上令人尴尬的。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Taking the time to explore new ideas , dream , reflect , and view situations from a new perspective contribute to the entrepreneurial mindset .",
+        "baseline":"花时间去探索新想法、梦想、反思、从新的角度看待情况,有助于企业精神。",
+        "zh":[
+            "利用时间去探索、梦想、思考、从新的角度看待情况,有助于企业精神.",
+            "利用时间去探索、梦想、思考、从新的角度看待情况,有助于企业精神."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"The innovator ’s dilemma was presented by Clayton Christensen to explain disruptive technology , which are technologies that , once introduced , displace established patterns , processes , and systems previously accepted as normal or accepted .",
+        "baseline":"创新者困境由克莱顿·克里斯滕森(Clayton Christensen)提出,以解释 disruptive technology,即一旦引入,取代已确立的模式、过程和以前被接受为正常或接受的系统的技术。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Airbnb has raised more than $ 3 billion  and is considering selling stocks to support significant expansion .",
+        "baseline":"Airbnb筹集了超过300亿美元,并正在考虑出售股票以支持大幅扩张。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Sometimes disruptive technologies result from not listening to customers .",
+        "baseline":"有时候 disruptive技术是由于不倾听顾客的结果。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Customers do n’t always know what they want .",
+        "baseline":"顾客并不总是知道他们想要什么。",
+        "zh":[],
+        "fvec":[]
+    }
+]

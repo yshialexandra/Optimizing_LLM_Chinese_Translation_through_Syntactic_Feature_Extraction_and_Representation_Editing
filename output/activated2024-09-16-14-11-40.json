@@ -1,0 +1,100 @@
+[
+    {
+        "en":"The wind - roughened sea surface is associated with the increased brightness temperature  , which induces regional biases when applied to different areas  .",
+        "baseline":"风变的海面与提高亮度温度有关, 在不同地区应用时会引起区域偏差。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The posterior displacement of the CoM produced a more vertically oriented femur during standing  , and increased femoral retraction and decreased knee flexion during walking .",
+        "baseline":"腰椎后位移使腰椎在站立时更垂直,腰椎收缩增加,腰椎在走路时的弯曲减少。",
+        "zh":[
+            "腰椎后位移使腰椎在站立时更垂直,腰椎推力增加,走路时膝盖屈曲减少。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Therefore , we conclude that the location of the CoM can be a key factor in defining limb posture and kinematics .",
+        "baseline":"因此,我们认为坐标定位是确定肢体姿态和运动学的关键因素。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It has been proposed that the relative mass of the CFL can be used as a proxy to estimate the relative importance of femoral retraction during locomotion in extinct bipedal dinosaurs  .",
+        "baseline":"研究表明,CFL的相对质量可以作为代数来估计灭绝双脚恐龙在运动过程中的肢体退缩的相对重要性。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Longer limbs are expected to experience larger bending and torsional moments , so the fact that experimental animals had longer femora suggests that limb verticalization reduces these moments by orienting the bone more parallel to the GRF line of action .",
+        "baseline":"较长的肢体预计会经历较大的弯曲和扭矩,因此实验动物具有较长的股骨的事实表明,肢体垂直化通过将骨头更平行地定位于GRF行动线,减少了弯曲和扭矩。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Nonetheless , this does not mean that tail reduction had no effect on CoM displacement , but that it was not the most important factor .",
+        "baseline":"尽管如此,这并不意味着尾部减少对COM迁移没有影响,但并不是最重要的因素。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Ideally we would have increased tail mass and reduced pectoral limb mass but , unfortunately , this is not experimentally feasible .",
+        "baseline":"理想情况下,我们将增加尾巴质量和减少颈部肢体质量,但不幸的是,这在实验上是不可能的。",
+        "zh":[
+            "理想情况下,我们会增加尾巴质量和减少胸肢质量,但不幸的是,这并不能在实验上做到。",
+            "理想,我们应该增加尾巴质量和减少胸肢质量,但不幸的是,这在实验中是不可能的。",
+            "理想情况下,我们会增加尾巴质量和减少胸肢质量,但不幸,这并不能进行实验。",
+            "理想情况下,我们会增加尾巴质量和减少胸肢质量,但不幸的是,这在实验上是不可能的。",
+            "理想情况下,我们会增加尾巴质量和减少胸肢质量,但不幸的是,这在实验上是不可能的。",
+            "理想情况下,我们会增加尾巴质量和减少胸肢质量,但不幸的是,这并不有实验性可行性。",
+            "理想情况下,我们会增加尾巴质量和减少胸肢质量,但不幸,这并不能有实验结果。",
+            "理想情况下,我们会增加尾巴质量和减少胸肢质量,但不幸的是,这不可能通过实验实现。",
+            "理想情况下,我们会增加尾巴质量和减少胸肢质量,但不幸的是,这在实验上是不可能的。",
+            "理想情况下,我们会增加尾巴质量和减少胸肢质量,但不幸的是,这并不有实验性可行性。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"For us , as digital humanists , defining the “ transmedia fan ” is of particular relevance as we seek to understand contemporary social and cultural transformations engendered by digital technologies .",
+        "baseline":"对于我们,作为数字人文主义者,定义“跨媒体爱好者”具有特殊意义,因为我们试图理解数字技术所产生的当代社会和文化转变。",
+        "zh":[
+            "对于我们,作为数字人文主义者,定义“跨媒体爱好者”是特别有意义的,因为我们寻求理解数字技术所导致的当代社会和文化转变.",
+            "对于我们,作为数字人文主义者,定义“跨媒体爱好者”是特别有意义的,因为我们寻求理解数字技术所导致的当代社会和文化转变.",
+            "作为数字人文家,定义“跨媒体迷”对于我们来说,尤其重要,因为我们试图了解数字技术所产生的当代社会和文化变革。",
+            "作为数字人文家,定义“跨媒体迷”对于我们来说,尤其重要,因为为了了解数字技术所产生的当代社会和文化变革。",
+            "对于我们,作为数字人文主义者,定义“跨媒体爱好者”是特别有意义的,因为我们寻求理解数字技术所导致的当代社会和文化转变."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Future research should explore the negotiation tactics observed in transmedia fans using the principles of De Certeau ’s  everyday life practice , in order to extend its application to the broader context of modern - day consumers .",
+        "baseline":"未来研究应探讨在跨媒体粉丝中观察到的谈判策略,使用德·塞特奥的日常生活实践原则,以便将其应用于现代消费者的更广泛的范围。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"He is particularly remembered for his applications of mathematics to mechanics , especially fluid mechanics , and for his pioneering work in probability and statistics .",
+        "baseline":"他特别被铭记为数学应用于力学,特别是流体力学,以及他在概率和统计方面的先驱工作。",
+        "zh":[],
+        "fvec":[]
+    }
+]

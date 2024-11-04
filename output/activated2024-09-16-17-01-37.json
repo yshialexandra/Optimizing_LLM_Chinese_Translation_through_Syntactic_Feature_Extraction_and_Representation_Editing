@@ -1,0 +1,110 @@
+[
+    {
+        "en":"Fort Lee is a small town but is piled high with apartment buildings .",
+        "baseline":"李堡是一个小城镇,但是堆满了公寓楼。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Although it is highly built up , Fort Lee also houses many playing fields and recreational parks as well as bike and running trails .",
+        "baseline":"虽然是高度建设的,李堡还拥有许多游戏场和休闲公园,以及自行车和跑道。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Fort Lee can also be accessed by boat or ferry from New York City via Edgewater and Weehawken docks .",
+        "baseline":"从纽约市通过Edgewater和Weehawken码头,也可以乘船或渡轮到达李堡。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Most people choose cars , but if headed to a central area , such as Main Street , it is best to drive there , park in a municipal parking lot , and walk around from there .",
+        "baseline":"大多数人选择汽车,但如果要去市中心,比如大街,最好开车到那里,在市政停车场停车,然后从那里步行。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If walking use caution , and if parking , make sure to feed the meter with plenty of pocket change ; the meter maids take their job very seriously .",
+        "baseline":"如果步行使用小心,如果停车,一定要用大量的零钱给计量员喂食;计量员非常认真地对待工作。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The George Washington Bridge can be crossed by bicycle or on foot as well as in a motorized vehicle .",
+        "baseline":"乔治华盛顿大桥可以骑自行车或步行,也可以骑摩托车。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Jack Alter Fort Lee Community Center , 1355 Inwood Terrace , tel : 1 201-592-4699 , contact for membership information , and upcoming events .",
+        "baseline":"Jack Alter Fort Lee Community Center, 1355 Inwood Terrace, 电话:1 201-592-4699, 联络会员资料, 及即将举行的活动.",
+        "zh":[
+            "JackAlterFortLeeCommunityCenter,1355InwoodTerrace,电话:1201-592-4699,联络会员资料,以及即将举行的活动。",
+            "JackAlterFortLeeCommunityCenter,1355InwoodTerrace,电话:1201-592-4699,联络会员资料,以及即将举行的活动。",
+            "JackAlterFortLeeCommunityCenter,1355InwoodTerrace,电话:1201-592-4699,联络会员资料,以及即将举行的活动。",
+            "JackAlterFortLeeCommunityCenter,1355InwoodTerrace,电话:1201-592-4699,联络会员资料,以及即将举行的活动。",
+            "JackAlterFortLeeCommunityCenter,1355InwoodTerrace,电话:1201-592-4699,联络会员资料,以及即将举行的活动。",
+            "JackAlterFortLeeCommunityCenter,1355InwoodTerrace,电话:1201-592-4699,联络会员资料,以及即将举行的活动。",
+            "JackAlterFortLeeCommunityCenter,1355InwoodTerrace,电话:1201-592-4699,联络会员资料,以及即将举行的活动。",
+            "JackAlterFortLeeCommunityCenter,1355InwoodTerrace,电话:1201-592-4699,联络会员资料,以及即将举行的活动。",
+            "JackAlterFortLeeCommunityCenter,1355InwoodTerrace,电话:1201-592-4699,联络会员资料,以及即将举行的活动。",
+            "JackAlterFortLeeCommunityCenter,1355InwoodTerrace,电话:1201-592-4699,联络会员资料,以及即将举行的活动。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"There are tons of specialty boutiques and gourmet caterers , as well as clothing and sporting good retailers .",
+        "baseline":"这里有许多专门的百货店和美食家,以及服装和体育用品零售商。",
+        "zh":[
+            "这里有许多专门店和美食家,以及服装和运动用品零售商。",
+            "这里有许多专卖店和美食家,以及服装和运动商店。",
+            "这里有许多专门店和美食家,以及服装和体育用品零售商。",
+            "这里有许多专门店和美食家,以及服装和运动用品零售商。",
+            "这里有许多专卖店和美食家,以及服装和运动商店。",
+            "这里有许多专门店和美食家,以及服装和体育用品零售商。",
+            "这里有许多专门店和美食家,以及服装和体育用品零售商。",
+            "这里有许多专门店和美食家,以及服装和运动用品零售商。",
+            "这里有许多专门店和美食家,以及服装和体育用品零售商。",
+            "这里有许多专卖店和美食家,以及服装和运动上好的零售商。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"They have a warm local atmosphere and taste great .",
+        "baseline":"他们有一个温暖的当地气氛,味道很好。",
+        "zh":[
+            "他们温暖的当地气氛,味道很好。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"From there , you can look up at the islands La Désirade , Petite Terre , Marie Galante , Les Saintes , La Dominique but also have a perfect view of the islands Grande Terre and far away Basse Terre .",
+        "baseline":"从那里,你可以俯瞰拉迪西拉德岛、 Petite Terre岛、Marie Galante岛、Les Saintes岛、La Dominique岛,同时也可以俯瞰大特里岛和遥远的 Basse Terre岛。",
+        "zh":[],
+        "fvec":[]
+    }
+]

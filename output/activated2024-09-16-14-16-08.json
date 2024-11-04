@@ -1,0 +1,120 @@
+[
+    {
+        "en":"Charles J. Fillmore  was an American linguist and Professor of Linguistics at the University of California , Berkeley .",
+        "baseline":"查尔斯·J·菲尔莫尔(Charles J. Fillmore)是一位美国语言学家和加州大学伯克利语言学教授。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Fillmore spent ten years at The Ohio State University and a year as a Fellow at the Center for Advanced Study in the Behavioral Sciences at Stanford University before joining Berkeley 's Department of Linguistics in 1971 .",
+        "baseline":"菲尔摩在俄亥俄州立大学工作十年,并在斯坦福大学高级行为科学研究中心工作一年,然后于1971年加入伯克利语言学系。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Fillmore was extremely influential in the areas of syntax and lexical semantics .",
+        "baseline":"菲尔莫尔在语法和词义语义领域具有极大的影响力。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Fillmore received the 2012 Lifetime Achievement Award of the Association for Computational Linguistics .",
+        "baseline":"2012年,菲尔莫尔获得计算机语言学协会终身成就奖。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"He died in 2014 .",
+        "baseline":"2014年逝世。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"By 1965 , Fillmore had come to acknowledge that semantics plays a crucial role in grammar .",
+        "baseline":"1965年,菲尔摩尔认识到语义在语法中起着至关重要的作用。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Fillmore served as President of the Linguistic Society of America in 1991 and was awarded an honorary doctorate from the University of Chicago in 2000 .",
+        "baseline":"菲尔莫尔于1991年担任美国语言学会主席,2000年获得芝加哥大学荣誉博士学位。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"After 23 years at the University of California , Berkeley , Fillmore retired in 1994 and joined Berkeley 's International Computer Science Institute .",
+        "baseline":"在加州大学伯克利分校23年后,菲尔摩于1994年退休,加入伯克利国际计算机科学研究所。",
+        "zh":[
+            "在加州大学伯克利23年后,菲尔摩在1994年退休并加入伯克利国际计算机科学研究所.",
+            "在加州大学伯克利23年后,菲尔摩在1994年退休,并加入伯克利国际计算机科学研究所.",
+            "在加州大学伯克利23年后,菲尔摩在1994年退休,并加入伯克利国际计算机科学研究所.",
+            "在加州大学伯克利23年后,菲尔摩在1994年退休,并加入伯克利国际计算机科学研究所.",
+            "在加州大学伯克利23年后,菲尔摩在1994年退休,加入伯克利国际计算机科学研究所.",
+            "在加州大学伯克利23年后,菲尔摩在1994年退休,并加入伯克利国际计算机科学研究所.",
+            "在加州大学伯克利23年后,菲尔摩在1994年退休,并加入伯克利国际计算机科学研究所.",
+            "在加州大学伯克利23年后,菲尔摩在1994年退休,并加入伯克利国际计算机科学研究所.",
+            "在加州大学伯克利23年后,菲尔摩在1994年退休,并加入伯克利国际计算机科学研究所.",
+            "在加州大学伯克利23年后,菲尔摩在1994年退休,并加入伯克利国际计算机科学研究所."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"In FrameNet , words are described in terms of the frames they evoke .",
+        "baseline":"在 FrameNet中,词汇被描述为它们所产生的框架。",
+        "zh":[
+            "在FrameNet中,单词被描述为它们所产生的框架.",
+            "在FrameNet中,单词被描述为它们所产生的框架.",
+            "在FrameNet中,单词被描述为它们所产生的框架.",
+            "在FrameNet中,单词被描述为它们所产生的框架.",
+            "在FrameNet中,单词被描述为它们所产生的框架.",
+            "在FrameNet中,单词被描述为它们所产生的框架."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Data is gathered from the British National Corpus , annotated for semantic and syntactic relations , and stored in a database organized by both lexical items and Frames .",
+        "baseline":"数据由英国国家文库收集,为语义和语法关系注释,并存储在由词汇项目和框架组成的数据库中。",
+        "zh":[
+            "数据被从英国国家Corpus中收集,注释为语义和语法关系,并存放在由词汇项和框架组成的数据库中.",
+            "数据被从英国国家Corpus中收集,注释为语义和语法关系,并存储在一个由词汇项目和框架组成的数据库中.",
+            "数据被从英国国家Corpus中收集,注释为语义和语法关系,并存储在一个由词汇项目和框架组成的数据库中.",
+            "数据被从英国国家Corpus中收集,注释为语义和语法关系,并存放在由词汇项和框架组成的数据库中.",
+            "数据被从英国国家Corpus中收集,注释为语义和语法关系,并存储在一个由词汇项目和框架组成的数据库中.",
+            "数据被从英国国家Corpus中收集,注释为语义和语法关系,并存储在一个由词汇项目和框架组成的数据库中.",
+            "数据被从英国国家Corpus中收集,注释为语义和语法关系,并存储在一个由词汇项目和框架组成的数据库中.",
+            "数据被从英国国家Corpus中收集,注释为语义和语法关系,并存储在一个由词汇项目和框架组成的数据库中.",
+            "数据被从英国国家Corpus中收集,注释为语义和语法关系,并存储在一个由词汇项目和框架组成的数据库中.",
+            "数据被从英国国家Corpus中收集,注释为语义和语法关系,并存放在由词汇项目和框架组成的数据库中."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    }
+]

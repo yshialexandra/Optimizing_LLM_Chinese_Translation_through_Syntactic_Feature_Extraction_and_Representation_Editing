@@ -1,0 +1,80 @@
+[
+    {
+        "en":"In response to the said problem , this project study gives solution to the problem of the society concerning environment , health and safety as well energy conservation , by developing a segmented compact light - emitting diode  bulb from busted CFL that are efficient , economical , and does not contain toxic chemicals .",
+        "baseline":"针对上述问题,本文通过开发一种高效、经济、不含有毒化学物质的分段小型光发射二极管灯,为社会环境、健康、安全及节能问题提供解决方案。",
+        "zh":[
+            "针对上述问题,本课题研究为社会环境、健康、安全以及能源节约问题提供解决办法,开发出一种高效、经济、无毒化学品的分段式小型散射diode灯泡.",
+            "针对上述问题,本课题研究为社会环境、健康、安全以及能源节约问题提供解决办法,开发出一种高效、经济、无毒化学物质的分段式小型光-发射二极管灯泡."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"About 87 percent of 21.0 million households used electricity from March to August 2011 .",
+        "baseline":"从2011年3月到8月,约87%的21.0百万家庭使用了电力。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"As of 2016 , the demand for electricity in the residential is leading among the different sectors .",
+        "baseline":"截至2016年,住宅电力需求在不同行业中领先。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It is often grouped depending on its uses that are distributed for heating and cooling , lighting , operating appliances etc",
+        "baseline":"它通常按其用于供暖和冷却、照明、操作设备等用途分类",
+        "zh":[
+            "其分布于供暖、冷却、照明、运行设备等用途,常被分类起来.",
+            "其分布于供暖、冷却、照明、运行设备等用途,常被分类起来.",
+            "其分布于供暖、冷却、照明、运行设备等用途,常被分类起来."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"The use of correct and appropriate type of light bulb improves the efficiency of energy usage .",
+        "baseline":"使用正确的和合适的类型的灯泡能提高能源使用效率。",
+        "zh":[
+            "使用正确和适当的类型的灯泡,能提高能源使用效率."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"There are three general types of lighting that are widely used in the household nowadays : the  LED bulb ,  CFL bulb and the incandescent bulb .",
+        "baseline":"有三种一般类型的照明在家庭广泛使用:LED灯泡、CFL灯泡和candescent灯泡。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Using CFLs will allow people to decrease their energy consumption ; also it is a good start to decrease greenhouse emissions .",
+        "baseline":"使用CFL将使人们减少能源消耗,同时也是减少温室气体排放的良好开始。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"When products and wastes containing mercury are improperly disposed of , mercury is released into the air , ground or water .",
+        "baseline":"当含有汞的产品和废物被不适当地处置时,汞会释放到空气、地下或水中。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It is persistent in the environment ; it never breaks down nor goes away .",
+        "baseline":"它在环境中是持久的; 它永远不会崩溃或消失.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In addition to the harmful effects of mercury is that it emits Ultraviolet  Radiation .",
+        "baseline":"汞除有害影响外,还会产生紫外辐射。",
+        "zh":[],
+        "fvec":[]
+    }
+]

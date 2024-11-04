@@ -1,0 +1,82 @@
+[
+    {
+        "en":"See how you do n't even have to tell Nonna to get , like , all close to the crust , like , she already knows .",
+        "baseline":"看,你甚至不必告诉诺娜去,比如,她已经知道,全靠在十字架上。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"How 'd you think it went ?",
+        "baseline":"你觉得怎么样了?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They 're , like , the most Italian women you 've ever met .",
+        "baseline":"他们, 就像你见过的大多数意大利女人.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You wan na try ?",
+        "baseline":"你想试试吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You sure ?",
+        "baseline":"你确定吗?",
+        "zh":[
+            "是吗?",
+            "是吗?",
+            "是吗?",
+            "是吗?",
+            "是吗?",
+            "是吗?",
+            "是吗?",
+            "是吗?",
+            "是吗?"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"It did n't get down !",
+        "baseline":"它没落下来!",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You got ta have fun at work .",
+        "baseline":"你在工作中玩得很开心。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It 's just , like , a little twist .",
+        "baseline":"只是有点扭曲。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You can work here !",
+        "baseline":"你可以在这里工作!",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You got it !",
+        "baseline":"你明白了!",
+        "zh":[],
+        "fvec":[]
+    }
+]

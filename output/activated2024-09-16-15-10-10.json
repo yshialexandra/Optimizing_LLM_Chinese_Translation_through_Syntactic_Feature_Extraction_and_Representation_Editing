@@ -1,0 +1,84 @@
+[
+    {
+        "en":"The second night I dreamed that I was on a desert island and Sonia , our golden retriever , was with me .",
+        "baseline":"第二天晚上,我梦见我在沙漠岛上,我们的金猎人索尼亚和我在一起。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"\" Try to touch the past .",
+        "baseline":"试着触摸过去。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Try to deal with the past .",
+        "baseline":"试着处理过去。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Most people would say it started with the Fireflies , but they 'd be wrong .",
+        "baseline":"大多数人会说它从火花开始,但他们会错了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"For me , it began with Robert Paglino .",
+        "baseline":"对我来说,它从罗伯特·帕格林诺开始。",
+        "zh":[
+            "对我来说,它开始于罗伯特·帕格林诺.",
+            "对我来说,它开始于罗伯特·帕格林诺.",
+            "对我来说,它开始于罗伯特·帕格林诺.",
+            "对我来说,它开始于罗伯特·帕格林诺.",
+            "对我来说,它开始于罗伯特·帕格林诺.",
+            "对我来说,它开始于罗伯特·帕格林诺.",
+            "对我来说,它开始于罗伯特·帕格林诺.",
+            "对我来说,它开始于罗伯特·帕格林诺.",
+            "对我来说,它开始于罗伯特·帕格林诺.",
+            "对我来说,它开始于罗伯特·帕格林诺."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"So although both of us could have been repaired , only one of us had been .",
+        "baseline":"因此,虽然我们两个都能够得到修理,但只有我们一个人已经得到修理。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"That did n't make sense .",
+        "baseline":"那没道理。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Even if he had n't been my best friend , I should at least have empathized .",
+        "baseline":"即使他不是我最好的朋友,我至少应该同情他。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Two of the enemy twitched at my feet .",
+        "baseline":"两个敌人在我脚边颤抖。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Blood coursed unheeded from his nose and splattered down his shirt .",
+        "baseline":"血从他鼻子里流出,洒在衬衫上。",
+        "zh":[],
+        "fvec":[]
+    }
+]

@@ -1,0 +1,108 @@
+[
+    {
+        "en":"The legend says that the King of Athens , Theseus unified the ten tribes of early Athens into one kingdom  .",
+        "baseline":"传说说,雅典国王泰西乌斯将早期雅典的十个部落统一为一个王国。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"By the 7th century BC , social unrest had become widespread , and the Areopagus appointed Draco to draft a strict new law code  .",
+        "baseline":"到公元前7世纪,社会动荡已普遍,阿雷奥帕格斯任命德拉科起草一项严格的新法律法规。",
+        "zh":[
+            "到公元前7世纪,社会动荡已普遍,阿雷奥帕格斯任命德拉科制订新的严格的法律法规.",
+            "到公元前7世纪,社会动荡已经普遍,阿雷奥帕格斯任命德拉科制订新的严格的法律法规."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"During the Middle Ages , Athens experienced a decline , but re-emerged under Byzantian rule .",
+        "baseline":"在中世纪,雅典经历了衰落,但在拜占庭统治下再度出现。",
+        "zh":[
+            "在中世纪,雅典经历了衰落,但再次出现于拜占庭统治下.",
+            "在中世纪,雅典经历了衰落,但再次出现于拜占庭统治下.",
+            "在中世纪,雅典经历了衰落,但再次出现于拜占庭统治下.",
+            "在中世纪,雅典经历了衰落,但在拜占庭统治下再度出现.",
+            "在中世纪,雅典经历了衰落,但重新出现在拜占庭统治下.",
+            "在中世纪,雅典经历了衰落,但再次出现于拜占庭统治下.",
+            "在中世纪,雅典经历了衰落,但重新出现在拜占庭统治下.",
+            "在中世纪,雅典经历了衰落,但再次出现于拜占庭统治下."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Athens was thriving and prosperous during the Crusades , actually benefiting from the Italian trade during this period .",
+        "baseline":"雅典在十字军期间繁荣繁荣,实际上从意大利贸易中受益。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Aside from the excellent transportation infrastructure that was completed in time for the 2004 Olympics  , the city 's historic center underwent serious renovation .",
+        "baseline":"除了在2004年奥运会期间完成的交通基础设施外,城市历史中心也进行了重大的翻新。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The ancient Olympic Games took place in Olympia from 776 BCE to 394 AD .",
+        "baseline":"古代奥林匹克运动会于公元前776年至公元394年在奥林匹克举行。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The 20th century however , marked the rapid development of Athens .",
+        "baseline":"然而,20世纪标志着雅典的迅速发展。",
+        "zh":[
+            "然而,二十世纪标志着雅典的快速发展.",
+            "然而,二十世纪标志着雅典的快速发展.",
+            "然而,二十世纪标志着雅典的快速发展.",
+            "然而20世纪标志着雅典的迅速发展.",
+            "然而,二十世纪标志着雅典的快速发展.",
+            "然而,二十世纪标志着雅典的快速发展.",
+            "然而,二十世纪标志着雅典的快速发展."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"The city suffered minor damage during WWII , and suffered extensive urban planning in the decades that followed , as the nation rapidly industrialized and urbanized .",
+        "baseline":"该市在二战期间遭受了轻微的破坏,并在随后的数十年中遭受了广泛的城市规划,随着国家迅速工业化和城市化。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The city also expanded outward through rash development , particularly towards the west , as its population grew by absorbing job - seekers from the provinces .",
+        "baseline":"城市由于迅速发展,特别是向西部扩展,因为其人口通过吸收来自各省的求职者而增长。",
+        "zh":[
+            "由于吸收来自各省的求职者而人口增长,城市也迅速发展到西部.",
+            "城市由于迅速发展而扩展到西部,其人口因吸收来自各省的求职者而增长."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Athens today is ever evolving , forging a brand new identity for the 21st century .",
+        "baseline":"雅典今天正不断发展,为21世纪塑造了全新的身份。",
+        "zh":[],
+        "fvec":[]
+    }
+]

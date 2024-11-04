@@ -1,0 +1,82 @@
+[
+    {
+        "en":"2 Keep the soil damp , but not soaked .",
+        "baseline":"保持土壤湿润,但不要浸透。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Water the mature basil plants once a day , in the morning , so the water has time to soak in and evaporate rather than sitting on the plants overnight .",
+        "baseline":"每天早晨,把成熟的盆栽灌溉一次,这样水就有时间浸入和蒸发,而不是一夜呆在盆栽上。",
+        "zh":[
+            "每天每天一次浇灌成熟盆栽植物,以便水能浸入和蒸发,而不是在一夜之间坐在植物上。",
+            "每天每天浇一次成熟的盆栽植物,以便水能浸入和蒸发,而不是在一夜里坐在植物上。",
+            "每天每天一次浇灌成熟盆栽植物,以便水能浸入和蒸发,而不是在一夜里坐在植物上。",
+            "每天每天一次浇灌成熟盆栽植物,以便水能浸入和蒸发,而不是在一夜之间坐在植物上。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"3 Pinch off flower heads .",
+        "baseline":"3把花头松开。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"When you see flower buds , pinch them and two pairs of leaves under them off .",
+        "baseline":"当你看到花芽时,把它们和两对叶子放在它们下面。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You 'll notice that if you leave the flowers , the plant will become lanky and the leaves wo n't be as full or tasty .",
+        "baseline":"你会注意到,如果你离开花朵,植物就会变得枯燥乏味,叶子就不会那么丰满或美味。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"4 Watch for pests and mold .",
+        "baseline":"注意害虫和霉菌。",
+        "zh":[
+            "看害虫和粘菌。",
+            "看害虫和粘菌。",
+            "看害虫和霉菌。",
+            "看害虫和霉菌。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Weed out the smaller plants to give the larger ones more space .",
+        "baseline":"把较小的植物除去,让较大的植物得到更多的空间。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"1 Harvest and prune .",
+        "baseline":"1收割和剪切。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"As the plant matures , pinch off the top two pairs of leaves once a stalk reaches a reasonable height .",
+        "baseline":"当植物成熟时,当茎达到合理的高度时,把顶部两对叶片松开。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"This helps the plants grow bushy .",
+        "baseline":"这有助于植物生长肥沃。",
+        "zh":[],
+        "fvec":[]
+    }
+]

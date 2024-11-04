@@ -1,0 +1,84 @@
+[
+    {
+        "en":"Cheer the team today ;  Let them hear you shout as they fight for what 's mightily due",
+        "baseline":"祝贺球队今天;让他们听到你喊叫,因为他们为应付的巨大事情而战斗",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The e-mail said , ' Frank , I have never bothered you during the game , but I just wanted to say thank you for your work and thank you for making some sense of the successes and failures and I wish you much success with your work . '",
+        "baseline":"电子邮件说:“弗兰克,我从来没在比赛期间打扰你,只是想说谢谢你所做的工作,谢谢你对成功和失败的理解,并祝你工作成功。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"That 's all it said .",
+        "baseline":"这就是它说的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We did n't use the banner this year , though , because we did n't know .",
+        "baseline":"不过,我们今年没有使用旗帜,因为我们不知道。",
+        "zh":[
+            "不过,今年我们没有使用冠军旗帜,因为我们不知道."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"This year we were n't sure .",
+        "baseline":"今年我们还不太确定。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We were walking on eggshells .",
+        "baseline":"我们走在蛋壳上。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There was a woman , a season ticket holder and a die hard fan .",
+        "baseline":"有一个女人,一个赛季票持有人,一个死硬的粉丝。",
+        "zh":[
+            "有一个女人,一个赛季票持有人,一个死硬球迷.",
+            "有一个女人,一个赛季票持有人,一个死硬球迷.",
+            "有一个女人,一个赛季票持有人,一个死硬球迷.",
+            "有一个女人,一个赛季票持有人,一个死硬球迷.",
+            "有一个女人,一个赛季票持有人,一个死硬球迷."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"She was staggered by the loss last year to the Cardinals .",
+        "baseline":"她因去年输给红军而感到震惊。",
+        "zh":[
+            "她因去年输给卡尔迪纳尔队而震惊。",
+            "她因去年输给卡尔迪纳尔队而震惊。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Last year she came up to me during one of the games late in the season ; she was so happy we were going to the post season .",
+        "baseline":"去年,她在赛季末的一场比赛中来看我,她很高兴我们能进入后赛季。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"She handed me a shirt she bought at the stadium and she gave me a big hug .",
+        "baseline":"她给了我她在体育场买的一件衬衫,并拥抱了我。",
+        "zh":[],
+        "fvec":[]
+    }
+]

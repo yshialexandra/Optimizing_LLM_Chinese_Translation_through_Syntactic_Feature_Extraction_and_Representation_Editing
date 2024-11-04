@@ -1,0 +1,98 @@
+[
+    {
+        "en":"Tropical cyclones are sustained by a form of energy called latent heat , which is released by moisture evaporated from the ocean that condenses to form rain .",
+        "baseline":"热带气旋由一种叫做潜热的能量维持,由海洋蒸发的湿气释放出来并凝结成雨。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Yes , the Cyclone is almost certain to lose strength as it surges over land .",
+        "baseline":"是的, 气旋几乎肯定会失去强度,当它在陆地上 surges.",
+        "zh":[
+            "是的,气旋在登陆时几乎肯定会失去强度.",
+            "是的,气旋在登陆时几乎肯定会失去强度.",
+            "是的,气旋在登陆时几乎肯定会失去强度.",
+            "是的,气旋在登陆时几乎肯定会失去强度.",
+            "是的,气旋在登陆时几乎肯定会失去强度."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Once Cyclone Phailin comes on shore it will immediately begin to lose strength .",
+        "baseline":"一旦气旋菲林登陆,它就会立刻开始失去力量。",
+        "zh":[
+            "一旦菲林气旋登陆,它就会立刻开始失去力量。",
+            "一旦菲林气旋登陆,它就会立刻开始失去力量。",
+            "一旦菲林气旋登陆,它就会立刻开始失去力量。",
+            "一旦菲林气旋登陆,它就会立刻开始失去力量。",
+            "一旦菲林气旋登陆,它就会立刻开始失去力量。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"However , and this is important , it still will contain lots of rainfall making flooding an almost certainty .",
+        "baseline":"然而,这是很重要的,它仍会包含大量降雨,使得洪水几乎是确定的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"However , historically , there have been several events that should cause a societal response .",
+        "baseline":"然而,从历史上来看,有几个事件应该引起社会反应。",
+        "zh":[
+            "然而,历史上,已经发生了一些应该引起社会反应的事情."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"However , the news reports  were very encouraging in that the authorities were reportedly making strenuous efforts to evacuate the population from near the coast and areas that are prone to flooding .",
+        "baseline":"然而, 报道 显示 当局 正在 作出 艰苦 的 努力, 以便 从 海岸 附近 和 易受 洪水 的 地区 疏散 居民 。 这些 消息 令人 鼓舞 。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"What was your first reaction upon learning there was an undiscovered ecosystem under the ice in the Ross Sea ?",
+        "baseline":"当你得知罗斯海冰层下没有发现的生态系统时,你的第一反应是什么?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There 's a return trip planned hopefully for 2015 , with both biologists and ANDRILL geologists .",
+        "baseline":"有计划在2015年,与生物学家和安德里尔地质学家一起返回旅行。",
+        "zh":[
+            "有计划在2015年,与生物学家和安德里尔地质学家一起返回旅行.",
+            "有计划在2015年,与生物学家和安德里尔地质学家一起返回旅行.",
+            "有计划在2015年,与生物学家和安德里尔地质学家一起返回旅行."
+        ],
+        "fvec":[
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000"
+        ]
+    },
+    {
+        "en":"Are you intending to go there yourself ?",
+        "baseline":"你打算亲自去那里吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Talk us through the difficulties encountered when trying to find answers with the specimens on hand .",
+        "baseline":"用手提样品找到答案时遇到的困难,告诉我们。",
+        "zh":[],
+        "fvec":[]
+    }
+]

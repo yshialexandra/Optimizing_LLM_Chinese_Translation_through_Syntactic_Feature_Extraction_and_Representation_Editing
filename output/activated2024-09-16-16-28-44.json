@@ -1,0 +1,108 @@
+[
+    {
+        "en":"Simply put , cognition is thinking , and it encompasses the processes associated with perception , knowledge , problem solving , judgment , language , and memory .",
+        "baseline":"简单地说,认知是思考,它包含与感知、知识、解决问题、判断、语言和记忆有关的过程。",
+        "zh":[
+            "简单说来,认知是思考,它包含与感知、知识、解决问题、判断、语言、记忆有关的进程.",
+            "简单说来,认知是思考,它包含与感知、知识、解决问题、判断、语言、记忆有关的进程.",
+            "简单说来,认知是思考,它包含与感知、知识、解决问题、判断、语言和记忆相关的过程."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Upon waking each morning , you begin thinking — contemplating the tasks that you must complete that day .",
+        "baseline":"每天早晨醒来时,你开始思考 — — 思考你必须完成的任务。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In what order should you run your errands ?",
+        "baseline":"你应该按什么顺序办事 呢?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Should you go to the bank , the cleaners , or the grocery store first ?",
+        "baseline":"你应该先去银行 、 清洁工或杂货店 吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They also sometimes focus on how we organize thoughts and information gathered from our environments into meaningful categories of thought , which will be discussed later .",
+        "baseline":"他们有时也关注我们如何将从环境中收集的思想和信息组织成有意义的思维类别,这将进一步讨论。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The human nervous system is capable of handling endless streams of information .",
+        "baseline":"人类神经系统能够处理无穷的信息流。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"When thoughts are formed , the brain also pulls information from emotions and memories  .",
+        "baseline":"当思想形成时,大脑也从情绪和记忆中提取信息。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The different files stored in the file cabinet are called concepts .",
+        "baseline":"文件柜里存储的不同的文件叫做概念。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"When you study United States history , for example , you learn about more than just individual events that have happened in America ’s past .",
+        "baseline":"比如,当你研究美国历史时,你会了解美国过去发生的不仅仅是个人事件。",
+        "zh":[
+            "比如,当你研究美国历史时,你不仅仅是了解美国过去发生的个别事件。",
+            "比如,当你研究美国历史时,你不仅仅是了解美国过去发生的个别事件。",
+            "比如,当你研究美国历史时,你不仅仅是了解美国过去发生的个别事件。",
+            "比如,当你研究美国历史时,你不仅仅是了解美国过去发生的个别事件。",
+            "比如,当你研究美国历史时,你不仅仅是了解美国过去发生的个别事件。",
+            "比如,当你研究美国历史时,你不仅仅是了解美国过去发生的个别事件。",
+            "比如,当你研究美国历史时,你不仅仅是了解美国过去发生的个别事件。",
+            "比如,当你研究美国历史时,你不仅仅是了解美国过去发生的个别事件。",
+            "比如,当你研究美国历史时,你不仅仅是了解美国过去发生的个别事件。",
+            "比如,当你研究美国历史时,你不仅仅是了解美国过去发生的个别事件。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Some concepts , like tolerance , are agreed upon by many people , because they have been used in various ways over many years .",
+        "baseline":"一些概念,如容忍,是许多人同意的,因为它们在许多年中被用以不同的方式。",
+        "zh":[
+            "一些观念,如宽容,被许多人同意,因为它们多年来被用以多种方式。",
+            "一些观念,如宽容,被许多人同意,因为它们多年来被用以多种方式。",
+            "一些观念,如宽容,被许多人接受,因为多年来它们被用以多种方式。",
+            "一些观念,如宽容,是许多人一致同意的,因为它们多年来被多种方式使用。",
+            "一些观念,如宽容,被许多人同意,因为它们多年来被用以多种方式。",
+            "一些观念,如宽容,被许多人同意,因为它们多年来被用以多种方式。",
+            "一些观念,如宽容,被许多人同意,因为它们多年来被用以多种方式。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000000000001000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    }
+]

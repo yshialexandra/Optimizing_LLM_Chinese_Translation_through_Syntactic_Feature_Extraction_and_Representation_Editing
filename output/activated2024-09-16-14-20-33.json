@@ -1,0 +1,76 @@
+[
+    {
+        "en":"It was published in the prestigious journal Miyako no Hana in 1892 , only nine months after she had started writing in earnest .",
+        "baseline":"它于1892年在她开始认真写作的九个月后,在名誉的《宮子之花》杂志上发表。",
+        "zh":[
+            "1892年,在她开始认真写作的九个月后,它发表在名誉的《美雅科的花报》上。",
+            "它于1892年发表于名誉杂志《宮子no花》,仅仅是在她开始认真写作的九个月.",
+            "它于1892年发表于名誉杂志《宮子no花》,仅仅是在她开始认真写作的九个月.",
+            "它于1892年发表于名誉的《美雅科之花》杂志,是在她开始认真写作的九个月内。"
+        ],
+        "fvec":[
+            "000000000000000000001001000000000",
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000"
+        ]
+    },
+    {
+        "en":"What Higuchi added was a special awareness of suffering and sensitivity .",
+        "baseline":"希古奇补充说,他特别意识到痛苦和敏感性。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The last two are considered her best work .",
+        "baseline":"最后两个被认为是她最好的作品。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"But between constant interruptions and frequent headaches , Higuchi stopped writing .",
+        "baseline":"但是,在不断打断和频繁的头痛之间,希古奇停止写作。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"She died on November 23 , 1896 , at the age of twenty - four .",
+        "baseline":"她于1896年11月23日24岁去世.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Holt graduated in 2006 from Stephenville High School in Texas .",
+        "baseline":"霍尔特于2006年从德克萨斯州斯蒂芬维尔高中毕业。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Holt attended Navarro College in 2007 and 2008 .",
+        "baseline":"霍尔特在2007年和2008年就读于纳瓦罗学院。",
+        "zh":[
+            "霍尔特在2007年和2008年就读纳瓦罗学院."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Holt was drafted by the Pittsburgh Pirates with the club 's ninth round selection in the 2009 Major League Baseball Draft , one pick before his Rice teammate Ryan Berry .",
+        "baseline":"霍尔特在2009年大联盟棒球大选中被匹兹堡海盗队选出第九轮选秀。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"He was promoted to the Pittsburgh Pirates from the minors as the major league rosters expanded on September 1 .",
+        "baseline":"9月1日,他从小队升级到匹兹堡海盗队(Pittsburgh Pirates)。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Holt made his Major League debut on September 1 , 2012 .",
+        "baseline":"霍尔特于2012年9月1日首次亮相。",
+        "zh":[],
+        "fvec":[]
+    }
+]

@@ -1,0 +1,76 @@
+[
+    {
+        "en":"Vessels can call at the Chathams and there are a number of \" safe \" harbours for shelter if the need arises .",
+        "baseline":"船只可以在查塔姆岛上呼叫,如果需要的话,还有一些“ 安全 ” 的避难港。",
+        "zh":[
+            "船可以到查汉号来,如果需要,就有一些安全的避难港.",
+            "船可以到查汉号来,如果需要,就有一些安全的避难港.",
+            "船可以到查汉号来,如果需要,就有一些安全的避难港."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Remember to notify the local policeman , or Ministry of Fisheries officer if you are entering New Zealand via the Chathams .",
+        "baseline":"若要通过查塔姆进入新西兰,请通知当地警察或渔业部官员。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There are several businesses on Chatham Island that will rent you a vehicle .",
+        "baseline":"查特姆岛有几家公司会租给你一辆汽车。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Do not expect the flashest and latest in rental cars though .",
+        "baseline":"尽管如此,不要期望在租车方面最闪亮和最新的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The cars \" will \" be warranted and safe , but they wo n't be exceptionally \" flash \" .",
+        "baseline":"汽车 \" 将 \" 得到保证和安全, 但它们不会特别 \" 闪光 \".",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Chatham Motors have a range of nice rental vans available as well and they provide pretty good service for both visitors and locals .",
+        "baseline":"Chatham Motors也提供一系列漂亮的租车,并为游客和当地人提供相当好的服务。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Places Rated Almanac ranks the area second in recreational options out of 354 US metro areas .",
+        "baseline":"在354个美国地铁区中,Almanac评级该区在休闲选择中排名第二。",
+        "zh":[
+            "该区在354个美国地铁区中,在休闲选择中排名第二.",
+            "该区在354个美国地铁区中,在康乐选择方面排列第二."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Like most U.S. cities , Cleveland proper began to lose population to suburban areas in the 1960s and 1970s .",
+        "baseline":"与大多数美国城市一样,克利夫兰 proper在1960年代和1970年代开始在郊区失去人口。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"While Cleveland continues to play a leading role in building the U.S. industrial base , it has also developed economic prowess in the fields of health care , law , finance , insurance , real estate development , and professional services .",
+        "baseline":"克利夫兰继续在建设美国工业基地方面发挥主导作用,同时也在医疗、法律、金融、保险、房地产开发和专业服务领域发展了经济实力。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Coron is in the province of Palawan , Philippines on Busuanga Island .",
+        "baseline":"科隆位于菲律宾巴拉万省布苏安加岛。",
+        "zh":[],
+        "fvec":[]
+    }
+]

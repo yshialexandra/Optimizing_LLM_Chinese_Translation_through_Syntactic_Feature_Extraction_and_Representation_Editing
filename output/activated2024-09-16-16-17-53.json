@@ -1,0 +1,96 @@
+[
+    {
+        "en":"Contact tracing began immediately and has gone to plan .",
+        "baseline":"联系跟踪立即开始,并已进行计划。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Public health staff will remain in touch with individuals to monitor the situation and give ongoing advice .",
+        "baseline":"公共卫生人员将与个别人士保持联系,以监测情况并提供持续的建议。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"I 'm advised that as a result of our decisive response , the chance of an outbreak from our first case is low .",
+        "baseline":"我被告知,由于我们作出决定的反应,我们的第一宗病例爆发的可能性很小。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Just yesterday , Cabinet decided to extend for another week the travel restrictions that have been in place for China since 3 February and for Iran since last Friday .",
+        "baseline":"就在昨天,内阁决定将从2月3日开始对中国和去年星期五以来对伊朗实行的旅行限制延长一周。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"This is based on an expert assessment of risk .",
+        "baseline":"这基于专家对风险的评估。",
+        "zh":[
+            "这是基于专家对风险的评估。",
+            "这是基于专家对风险的评估。",
+            "这是基于专家评估风险的。",
+            "这是基于专家评估风险的。",
+            "这是基于专家评估风险的。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"We have a strong public health system .",
+        "baseline":"我们有一个强大的公共卫生系统。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"America needs a full - time President and a full - time Congress , particularly at this time with problems we face at home and abroad .",
+        "baseline":"美国需要一个全职总统和一个全职国会,特别是现在我们在国内和国外面临的问题。",
+        "zh":[
+            "美国需要一个全职总统和一个全职国会,特别是现在我们国内和国外面临的问题.",
+            "美国需要一个全职总统和一个全职国会,特别是现在我们国内和国外面临的问题.",
+            "美国需要一个全职总统和一个全职国会,特别是现在我们国内和国外面临的问题.",
+            "美国需要一个全职总统和一个全职国会,特别是在目前国内和国外面临的问题时.",
+            "美国需要一个全职总统和一个全职国会,特别是现在我们国内和国外面临的问题.",
+            "美国需要一个全职总统和一个全职国会,特别是现在我们国内和国外面临的问题.",
+            "美国需要一个全职总统和一个全职国会,特别是现在我们国内和国外面临的问题.",
+            "美国需要一个全职总统和一个全职国会,特别是现在我们国内和国外面临的问题.",
+            "美国需要一个全职总统和一个全职国会,特别是现在我们国内和国外面临的问题.",
+            "美国需要一个全职总统和一个全职国会,特别是现在我们国内和国外面临的问题."
+        ],
+        "fvec":[
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000"
+        ]
+    },
+    {
+        "en":"I shall leave this office with regret at not completing my term , but with gratitude for the privilege of serving as your President for the past 5 1/2 years .",
+        "baseline":"本人因未能完成任期而感到遗憾,但感谢在过去5年半担任总统的荣幸。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So I am proud to be back here again , and I am very happy to be introduced by your distinguished chairman , Bill Green .",
+        "baseline":"因此,我很高兴再次回到这儿,很高兴能见到您尊敬的主席比尔·格林。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There are still too many men and women , particularly young men and women , unable to find work .",
+        "baseline":"还有太多的男性和女性,尤其是年轻的男性和女性,找不到工作。",
+        "zh":[],
+        "fvec":[]
+    }
+]

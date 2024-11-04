@@ -1,0 +1,78 @@
+[
+    {
+        "en":"Seen this before .",
+        "baseline":"以前见过。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"I 'm hungry .",
+        "baseline":"我饿了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Cause I wanted to go to the bathroom when you 're done .",
+        "baseline":"因为你完成的时候,我想去洗手间。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Yes , it 's right here .",
+        "baseline":"是的,就在这儿。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"I got the blades .",
+        "baseline":"我拿了刀子。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They 're right here .",
+        "baseline":"他们就在这儿。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Do you remember the uh , program on TV , about Hantavirus ?",
+        "baseline":"你还记得电视上的关于汉塔病毒的节目 吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It 's the one from the dead mice .",
+        "baseline":"这是死老鼠的。",
+        "zh":[
+            "这是一只死老鼠。",
+            "这是一只死老鼠。",
+            "这是一只死老鼠。",
+            "这是一只死老鼠。",
+            "这是一只死老鼠。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Is it in here ?",
+        "baseline":"它在这儿吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They said , they already determined it was in like eighteen different states .",
+        "baseline":"他们说,他们已经确定这在大约18个不同的州里。",
+        "zh":[
+            "他们说,他们已经确定它是在大约十八个不同的州."
+        ],
+        "fvec":[
+            "000000000000000000010000000000000"
+        ]
+    }
+]

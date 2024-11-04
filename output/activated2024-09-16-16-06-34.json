@@ -1,0 +1,88 @@
+[
+    {
+        "en":"In Libya , thousands lost their lives in the struggle for freedom and democracy .",
+        "baseline":"在利比亚,数千人在争取自由和民主的斗争中丧生。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In Syria , and to some extent in Yemen , the suppression is ongoing .",
+        "baseline":"在叙利亚和某种程度上在也门,镇压正在进行。",
+        "zh":[
+            "在叙利亚,在某种程度上也门,镇压正在进行。",
+            "在叙利亚,在某种程度上在也门,镇压正在持续.",
+            "在叙利亚,在某种程度上在也门,镇压仍在进行。",
+            "在叙利亚,在某种程度上在也门,镇压仍在进行。",
+            "在叙利亚,在某种程度上在也门,镇压正在进行。",
+            "在叙利亚,在某种程度上在也门,镇压正在进行。",
+            "在叙利亚,在某种程度上在也门,镇压正在持续.",
+            "在叙利亚,在某种程度上在也门,镇压仍在进行。",
+            "在叙利亚,在某种程度上也门,镇压正在进行。",
+            "在叙利亚,在某种程度上在也门,镇压仍在进行。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"We strongly urge those responsible to immediately stop the bloodshed and to engage in meaningful dialogue and reforms .",
+        "baseline":"我们 强烈 敦促 负责者 立即 停止 流血, 进行 有意义 的 对话 和 改革 。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Austria supports the Libyan people in its struggle for freedom .",
+        "baseline":"奥地利支持利比亚人民争取自由的斗争。",
+        "zh":[
+            "奥地利支持利比亚人民在争取自由的斗争."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Over € 150 million blocked in Austrian bank accounts has been de-frozen for humanitarian use .",
+        "baseline":"在奥地利银行账户中被封锁的150亿欧元已经被解除冻结,用于人道主义用途。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Both the Austrian Government and private sector have provided medicine , relief supplies and desperately needed fuel to Libya .",
+        "baseline":"奥地利政府和私人部门都为利比亚提供了药品、救济物资和迫切需要的燃料。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The events in the Arab world notwithstanding , we must continue to focus on the Middle East peace process .",
+        "baseline":"不管阿拉伯世界发生什么事,我们必须继续关注中东和平进程。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The Middle East took centre stage this week here at the General Assembly — and rightly so .",
+        "baseline":"本周在大会上,中东问题占据了中心地位 — — 这是正当的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We have no choice but to return to direct negotiations between the two parties .",
+        "baseline":"我们别无选择,只能回到双方之间直接谈判。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Austria fully supports the Quartet statement .",
+        "baseline":"奥地利 完全 支持  kvartet 声明 。",
+        "zh":[],
+        "fvec":[]
+    }
+]

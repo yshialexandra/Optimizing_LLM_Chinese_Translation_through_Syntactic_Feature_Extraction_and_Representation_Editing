@@ -1,0 +1,88 @@
+[
+    {
+        "en":"When I was quite young I was interested in psychoanalysis and in dreams .",
+        "baseline":"当我年轻的时候,我对心理分析和梦想感兴趣。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Sometimes I make them more pretty then they were actually .",
+        "baseline":"有时候我比他们更漂亮。",
+        "zh":[
+            "有时我会比原来更漂亮。",
+            "有时我会比原来更漂亮。",
+            "有时我会比原来更漂亮。",
+            "有时我会比原来更漂亮。",
+            "有时我会比原来更漂亮。",
+            "有时我会比原来更漂亮。",
+            "有时我会比原来更漂亮。",
+            "有时我会比原来更漂亮。",
+            "有时我会比原来更漂亮。",
+            "有时我会比原来更漂亮。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"The first part is called Legato and the second part was called Staccato .",
+        "baseline":"第一部分叫做 Legato,第二部分叫做Staccato。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It 's a book of opening , Overtures I called it , and there is no end to the stories .",
+        "baseline":"这是一本开头书,我把它叫做《启示录》,故事没有结束。",
+        "zh":[
+            "这是一本开头书,我把它叫做介绍书,故事没有结束."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"It keeps changing between narrative and email .",
+        "baseline":"叙事与电子邮件之间不断变化。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It 's a little bit like Achilles and the turtle .",
+        "baseline":"有点像阿希尔斯和乌龟。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Stardust is a NASA space capsule that collected samples from comet 81P/Wild  in deep space and landed back on Earth on January 15 , 2006 .",
+        "baseline":"星尘是一个NASA太空舱,从深层空间中收集了81P/Wild彗星的样品,并于2006年1月15日返回地球。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Wikinews interviewed him for May 's Interview of the Month  on May 18 , 2006 .",
+        "baseline":"维基新闻于2006年5月18日采访他。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Some may not know exactly what Stardust or Stardust @ home is .",
+        "baseline":"有些人可能不知道 exactly what Stardust or Stardust @ home 是。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"This gives a little context .",
+        "baseline":"这给人了一个小小的背景。",
+        "zh":[],
+        "fvec":[]
+    }
+]

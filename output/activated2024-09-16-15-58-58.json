@@ -1,0 +1,110 @@
+[
+    {
+        "en":"For example , the Weatherspoon Art Museum at the University of North Carolina at Greensboro saw attendance levels reach 11,000 visitors when it exhibited its Warhol collection in 2010 , according to curator Elaine Gustafon .",
+        "baseline":"例如,格林斯博罗的北卡罗莱纳大学的“Weatherspoon Art Museum”在2010年展出沃霍尔收藏时,参观人数达到11,000人。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Wilkins explained Warhol 's obsession with celebrities began when he first collected head shots as a kid and continued as a passion throughout his life .",
+        "baseline":"威尔金斯解释说,沃霍尔对名人的痴迷始于他小时候第一次收集头 shots,并继续成为他的一生的激情。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"\" He 's hanging out with the celebrities , and has kind of become the same sort of celebrity he was interested in documenting earlier in his career \" , Wilkins said .",
+        "baseline":"威尔金斯说:“他正在和名人聚在一起,并且有点像他早些时候在事业中感兴趣的名人一样。",
+        "zh":[
+            "威尔金斯说:“他和名人聚在一起,并且已经好像成为他职业生涯中早些时候感兴趣的名人一样,”"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Which as we all know in 2014 , has only increased probably a thousand fold . \"",
+        "baseline":"正如我们都知道的2014年, 只是增加了大约一千倍. ”",
+        "zh":[
+            "正如我们在2014年所知道的那样,只是增加了大约一千倍.”",
+            "正如我们在2014年所知道的那样,只是增加了大约一千倍.”",
+            "正如我们在2014年所知道的那样,只是增加了大约一千倍.”",
+            "正如我们在2014年所知道的那样,只是增加了大约一千倍.”",
+            "正如我们在2014年所知道的那样,只是增加了大约一千倍.”",
+            "正如我们在2014年所知道的那样,只是增加了大约一千倍.”",
+            "正如我们在2014年所知道的那样,只是增加了大约一千倍.”",
+            "正如我们在2014年所知道的那样,只是增加了大约一千倍.”",
+            "正如我们在2014年所知道的那样,只是增加了大约一千倍.”",
+            "正如我们在2014年所知道的那样,只是增加了大约一千倍.”"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Wilkins said , \"  liked the way photo booths and the Polaroid 's front flash looked \" .",
+        "baseline":"威尔金斯说, “ 喜欢照片摊位和波拉罗伊德的正面闪光的样子 ”.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Wilkins also said Warhol was both an artist and a businessperson .",
+        "baseline":"威尔金斯还说沃霍尔是一位艺术家和商人。",
+        "zh":[
+            "威尔金斯还说,沃霍尔是一个艺术家和商人。",
+            "威尔金斯还说,沃霍尔是一个艺术家和商人。",
+            "威尔金斯还说,沃霍尔是一个艺术家和商人。",
+            "威尔金斯还说,沃霍尔是一个艺术家和商人。",
+            "威尔金斯还说,沃霍尔是一个艺术家和商人。",
+            "威尔金斯还说,沃霍尔是一个艺术家和商人。",
+            "威尔金斯还说,沃霍尔是一个艺术家和商人。",
+            "威尔金斯还说,沃霍尔是一个艺术家和商人。",
+            "威尔金斯还说,沃霍尔是一个艺术家和商人。",
+            "威尔金斯还说,沃霍尔是一个艺术家和商人。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"\" As a way to commercialize his work , he would make a blue Marilyn and a pink Marilyn and a yellow Marilyn , and then you could pick your favorite color and buy that .",
+        "baseline":"作为一种商业化的手段,他会制作一个蓝色的马里林和一个粉红色的马里林和一个黄色的马里林,然后你可以选择你最喜欢的颜色并买那件。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Why did she so badly want to attend ?",
+        "baseline":"她为什么这么想参加呢?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"He is a post-modern diety . \"",
+        "baseline":"他是一个后现代的饮食。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Exhibit goers then became part of the very exhibit they had wanted to attend .",
+        "baseline":"参观者随后成为他们想参加的展览的一部分。",
+        "zh":[],
+        "fvec":[]
+    }
+]

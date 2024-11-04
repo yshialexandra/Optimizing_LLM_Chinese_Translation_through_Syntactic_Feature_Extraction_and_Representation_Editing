@@ -1,0 +1,78 @@
+[
+    {
+        "en":"But you know what ?",
+        "baseline":"但你知道吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Fired us up for the actual Paralympics .",
+        "baseline":"为真正的残疾人运动会开火了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So you can come back home and revisit what you need to do and , you know , where the team 's at .",
+        "baseline":"这样你就可以回家,再看看你需要做什么,你知道,球队在哪儿。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You have received a good deal of attention recently .",
+        "baseline":"你最近得到了相当多的关注。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"To me , the ultimate feeling of success as an artist , is to move somebody enough where they thank you .",
+        "baseline":"对我来说,作为一名艺术家的终极成就感,就是让别人有足够的动力去感谢你。",
+        "zh":[
+            "对我来说,作为艺术家最终的成就感,就是让某人有足够的动力去感谢你。",
+            "对我来说,作为艺术家最终的成就感,就是让某人有足够的动力去感谢你。",
+            "对我来说,作为艺术家最终的成就感,就是让某人有足够的动力去感谢你。",
+            "对我来说,作为一名艺术家的终极成就感是让一个人能足够地表达谢意。",
+            "对我来说,作为艺术家最终的成就感,就是让某人有足够的动力去感谢你。",
+            "对我来说,作为艺术家最终的成就感,就是让某人有足够的动力去感谢你。",
+            "对我来说,作为艺术家最终的成就感,就是让某人有足够的动力去感谢你。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"How do you feel about having a lot of your work overshadowed by the Mets work ?",
+        "baseline":"你觉得你的很多工作被地铁工作掩盖了 吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Walt Whitman , the first great American poet , wrote about the Civil War .",
+        "baseline":"美国第一位伟大的诗人沃尔特·惠特曼(Walt Whitman)对内战作了文章。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Can you recite a stanza that expresses how you feel right now ?",
+        "baseline":"你能朗诵一段表达你现在的感受的诗歌 吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Have no fear , no hesitation , for Winning shall be it's reward !",
+        "baseline":"不要害怕, 不要犹豫, 因为胜利就是回报!",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"you 've kept it up this long",
+        "baseline":"你一直坚持这么久了",
+        "zh":[],
+        "fvec":[]
+    }
+]

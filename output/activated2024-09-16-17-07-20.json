@@ -1,0 +1,90 @@
+[
+    {
+        "en":"Though there are a few draws for the traveler , West Oakland is dominantly a very poor working - class residential neighborhood with a less than spectacular reputation .",
+        "baseline":"尽管旅游者有一些吸引力, 西奥克兰主要是一个非常贫穷的工人阶级住宅区,其声誉还不如壮观.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"At an elevation of 1100 ft  , it is situated in the biologically unique Sonoran Desert .",
+        "baseline":"海拔1100英尺, 它位于生物学上独一无二的索诺兰沙漠.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Over time it has merged with the neighboring cities of Scottsdale , Tempe , Glendale , Peoria , Chandler , and Gilbert to form the Greater Phoenix Metropolitan Area .",
+        "baseline":"它与邻近城市斯科茨代尔、特门、格伦代尔、皮奥里亚、钱德勒和吉尔伯特合并形成大费尼克斯大都会区。",
+        "zh":[
+            "该区与斯科茨代尔、特门、格伦代尔、皮奥里亚、钱德勒、吉尔伯特等邻近城市合并,形成了greaterPhoenixMetropolitanArea。",
+            "它与邻近的斯科茨代尔、腾佩、格伦代尔、皮奥里亚、钱德勒和吉尔伯特一起合并,形成大芬尼克斯大都会区.",
+            "该区与斯科茨代尔、特门、格伦代尔、皮奥里亚、钱德勒、吉尔伯特等邻近城市合并,形成了greaterPhoenixMetropolitanArea。",
+            "它与邻近的斯科茨代尔、腾佩、格伦代尔、皮奥里亚、钱德勒和吉尔伯特一起合并,形成大芬尼克斯大都市区.",
+            "它与邻近的斯科茨代尔、腾佩、格伦代尔、皮奥里亚、钱德勒和吉尔伯特一起合并,形成大芬尼克斯大都市区.",
+            "该区与斯科茨代尔、Tempe、Glendale、Peoria、Chandler和Gilbert的邻近城市合并,形成了greaterPhoenixMetropolitanArea。",
+            "它与邻近的斯科茨代尔、腾佩、格伦代尔、皮奥里亚、钱德勒和吉尔伯特一起合并,形成大芬尼克斯大都市区."
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000000000000001",
+            "000000000000000000000001000000000",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000001000000000",
+            "000000000000000000000000000000001"
+        ]
+    },
+    {
+        "en":"White settlers discovered the remnants of the Hohokam culture in the 19th century .",
+        "baseline":"白人移民在19世纪发现了霍霍坎文化遗迹。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Monsoon rains with lightning occur regularly from July to September during the late afternoon and evening , occasionally overnight also .",
+        "baseline":"从7月到9月,在晚间和晚上,经常有雷雨,有时甚至在一夜之间。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"However , like much of the Southwest with a large Hispanic population , Spanish is very widely spoken in Phoenix .",
+        "baseline":"然而,与西南部人口众多的西班牙人一样,西班牙语在凤凰城非常广泛地使用。",
+        "zh":[
+            "然而,与大部分西班牙人居住在西南地区一样,西班牙语在凤凰城非常广为流传。",
+            "然而,与大部分西班牙人居住的西南地区类似,西班牙语在凤凰城非常广为流传。",
+            "然而,与大部分西班牙人居住的西南地区一样,西班牙语在凤凰城非常广为流传。",
+            "然而,与大部分西班牙人居住的西南地区一样,西班牙语在凤凰城非常广为流传。",
+            "然而,与大部分西班牙人居住的西南地区一样,西班牙语在凤凰城非常广为流传。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Spanish is a language often used for day - to - day discourse in many places , although English is the language of preference , especially when dealing with businesses and government .",
+        "baseline":"西班牙语是许多地方经常用来进行日常对话的语言,尽管英语是优先的语言,特别是在处理企业和政府时。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It is at the southeast end of Downtown .",
+        "baseline":"位于市中心的东南端。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There is no Terminal 1 .",
+        "baseline":"没有 Terminal 1 。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Valley Metro #13 goes west to S 75th Ave along S Buckeye  from Terminal 2 .",
+        "baseline":"谷地铁13号从2号车站往西行至S75街大道沿S巴克叶。",
+        "zh":[],
+        "fvec":[]
+    }
+]

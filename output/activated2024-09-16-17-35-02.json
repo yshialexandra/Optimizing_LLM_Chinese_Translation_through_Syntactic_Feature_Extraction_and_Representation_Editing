@@ -1,0 +1,82 @@
+[
+    {
+        "en":"Just do the denim and canvas stuff together .",
+        "baseline":"只是把布和帆布做在一起。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Fasten the straps to the bib .",
+        "baseline":"把带子绑在车子上。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Go ahead and fasten both straps before you wash .",
+        "baseline":"先把两条带都系好,然后洗好。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"This will help keep them from twisting up during the wash .",
+        "baseline":"这有助于防止它们在洗涤过程中变形。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Use twist ties to keep the straps fastened .",
+        "baseline":"使用旋转的领带保持带紧。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Do n’t skip it .",
+        "baseline":"不要错过。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Take the 20 seconds to use a couple twist ties on the fasteners to make sure they do n’t come loose .",
+        "baseline":"花20秒使用两个旋转的链子,确保它们不会松散。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Overalls have more pockets than pants .",
+        "baseline":"总的来说,口袋比裤子多。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Men put cell phones and small tools in them .",
+        "baseline":"男人把手机和小工具放在里面。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Move the strap adjusters around .",
+        "baseline":"把腰带调节器移动。",
+        "zh":[
+            "移动带调节器。",
+            "移动带调节器。",
+            "移动带调节器。",
+            "移动带调节器。",
+            "移动带调节器。",
+            "移动带调节器。",
+            "移动带调节器。",
+            "移动带调节器。",
+            "移动带调节器。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    }
+]

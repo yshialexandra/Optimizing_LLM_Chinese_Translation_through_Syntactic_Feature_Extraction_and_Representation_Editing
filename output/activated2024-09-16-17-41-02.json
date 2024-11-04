@@ -1,0 +1,94 @@
+[
+    {
+        "en":"Ideally the quaffle and bludgers should be slightly deflated so that they are easier to throw and catch .",
+        "baseline":"理想情况下,夸夫尔和布尔德格尔应该稍微放宽,以便更容易投掷和捕获。",
+        "zh":[
+            "ideal的是,夸夫尔和布尔德尔应该稍微平下来,以便更容易投掷和捕获。",
+            "ideal的是,夸夫尔和布尔德尔应该稍微平下来,以便更容易投掷和捕获。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Start the game .",
+        "baseline":"开始游戏。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Both teams start from the edges and attempt to obtain the quaffle and bludgers .",
+        "baseline":"两队都从边缘开始,试图获得夸夫尔和布鲁杰尔。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Chasers try to score by throwing the quaffle into one of the three goal hoops .",
+        "baseline":"裁判试图通过投掷夸夫尔进入三个球圈中的一个球得分。",
+        "zh":[
+            "赛跑者试图通过投掷拳击球进入三球中的一个球圈来得分."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Each score is worth 10 points .",
+        "baseline":"每个分数都值10分。",
+        "zh":[
+            "每个分数值10分。",
+            "每个分数值10分。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"If Keeper is close to their hoops they are safe from being hit by bludgers .",
+        "baseline":"如果守门员靠近他们的 hoops,他们就不会被布鲁杰尔击中。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Seekers try to tackle the snitch  or obtain an object attached to the snitch such as a sock or flag .",
+        "baseline":"求职者尝试去解决缝纫或获得附着缝纫的物体,如袜子或旗帜。",
+        "zh":[
+            "寻找者尝试去解决针刺或获得套刺附着的物体,如袜子或旗帜.",
+            "寻找者设法解决针刺或获得套刺附着的物体,如袜子或旗帜."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Then the seekers search for the snitch , and attempt to tag the player .",
+        "baseline":"然后,搜寻者寻找刺刀,并试图标记玩家。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Regardless of method , the winning seeker wins 30 points for his or her team , unlike the books , in which the snitch is worth 150 points .",
+        "baseline":"无论方法如何,胜者为球队赢得30分,与书本不同,在书中划分值150分。",
+        "zh":[
+            "无论方法如何,获胜者会为球队赢得30分,与书本不同,在书本中划分的分数为150分。",
+            "无论方法如何,获胜者会为球队赢得30分,与书本不同,在书本中划分的值为150分。",
+            "无论方法如何,获胜者会为球队赢得30分,与书本不同,在书本中划分的分数为150分。",
+            "无论方法如何,获胜者会为球队赢得30分,与书本不同,在书本中划分的值为150分。"
+        ],
+        "fvec":[
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000"
+        ]
+    },
+    {
+        "en":"The referee should ensure that rules are being followed .",
+        "baseline":"仲裁员应确保规则得到遵守。",
+        "zh":[],
+        "fvec":[]
+    }
+]

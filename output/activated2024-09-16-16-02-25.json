@@ -1,0 +1,88 @@
+[
+    {
+        "en":"The only people who are able to fly with them are also billionaires and millionaires .",
+        "baseline":"唯一能和他们一起飞行的人也是亿万富翁和百万富翁。",
+        "zh":[
+            "唯一能和他们飞行的人是亿万富翁,百万富翁。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Well , first of all , I 'm actually really happy that it 's not a government program where they 're forcing taxpayers to spend the billions of dollars on something like that .",
+        "baseline":"首先,我真高兴,这不是他们强迫纳税人花费数十亿美元的政府计划。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If they want to spend it on building mansions , they can do that .",
+        "baseline":"如果他们想花钱建造公寓,他们可以。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Not to mention , The Hill Online newspaper reported in late May that a US competitiveness bill , then being debated on the Senate floor , included ten billion for Bezos 's own space exploration company , Blue Origin .",
+        "baseline":"更不用说,《希尔在线》杂志5月底报道,美国竞争性法案,随后在参议院议席上进行辩论,包括了10亿美元用于贝佐斯自己的太空勘探公司蓝源。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"What are you doing movie ?",
+        "baseline":"你在做什么电影?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Yeah , dad hates bears , okay .",
+        "baseline":"是的,爸爸讨厌熊。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So it 's sort of like a half - assed Ahab thing , but we , we 're supposed to sympathize with the dad , but Ahab is , like , clearly not a model of behavior that you should follow .",
+        "baseline":"所以,这有点像阿哈布的一半,但我们,我们应该同情父亲,但阿哈布显然不是你应该遵循的行为模式。",
+        "zh":[
+            "因此,这就像阿哈布的一半,但我们,我们应该同情父亲,但阿哈布显然不是你应该遵循的行为模式。"
+        ],
+        "fvec":[
+            "000000000000000000000000010000000"
+        ]
+    },
+    {
+        "en":"Yeah and he 's not following it .",
+        "baseline":"是的,他不跟随它。",
+        "zh":[
+            "是啊,他不跟着它。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Let 's go .",
+        "baseline":"让我们走吧。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Yeah , you can have stakes and real stuff going on in there .",
+        "baseline":"是的,你可以有赌注和真正的事情在里面发生。",
+        "zh":[
+            "是的,你可以有赌注和真正的事情在里面发生.",
+            "是的,你可以有赌注和真正的事情在里面发生.",
+            "是的,你可以有赌注和真正的事情在里面发生.",
+            "是的,你可以有赌注和真正的事情在里面发生.",
+            "是的,你可以有赌注和真正的事情在里面发生.",
+            "是的,你可以有赌注和真正的事情在里面发生."
+        ],
+        "fvec":[
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000"
+        ]
+    }
+]

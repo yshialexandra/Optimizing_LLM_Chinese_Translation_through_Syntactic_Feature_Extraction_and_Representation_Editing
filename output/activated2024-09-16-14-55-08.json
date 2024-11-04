@@ -1,0 +1,86 @@
+[
+    {
+        "en":"You can put up with noise / silence / kids / discomfort / hunger for 20 minutes .",
+        "baseline":"你可以忍受噪音/沉默/孩子/不适/饥饿的20分钟。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The biggest impediment to concentration is your computer ’s ecosystem of interruption technologies : IM , email alerts , RSS alerts , Skype rings , etc.",
+        "baseline":"最大的障碍是计算机中断技术生态系统: IM 、 电子邮件通知、RSS通知、Skype环等等.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Does it require higher taxes and bigger government ?",
+        "baseline":"它需要更高的税收和更大的政府 吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"But then , there ’s the exception .",
+        "baseline":"但也有例外。",
+        "zh":[
+            "但是,还有例外.",
+            "但是,还有例外.",
+            "但是,还有例外."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"How Would It Work Nationally ?",
+        "baseline":"这将如何在国家范围内运作?",
+        "zh":[
+            "全国如何运作呢?",
+            "全国如何运作呢?",
+            "全国如何运作呢?"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"As in Alaska , enrollment could be done online and payments could wired electronically at a cost of pennies per transaction .",
+        "baseline":"与阿拉斯加一样,登记可以通过网上进行,支付可以通过电子方式支付,每笔交易费用为 pennies 。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The Social Security Administration could set that up in a jiffy .",
+        "baseline":"社会保险局可以马上就这么做。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Initially , a sizable chunk would come from selling a declining number of permits to dump carbon into our air .",
+        "baseline":"起初,从出售减少的碳排放许可证来获得大量资金。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In midlife , $ 5,000 per person would add 25 percent to the income of a family of four earning $ 80,000 a year .",
+        "baseline":"在中期, 每人5000美元将增加四人家庭每年收入的25%.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In late life , it would boost the average retiree ’s Social Security benefit by about 30 percent .",
+        "baseline":"在晚年,它将使退休者的平均社会保障福利增加30%左右。",
+        "zh":[
+            "在晚年,它将使退休者平均的社会保障福利增加约30%.",
+            "在晚年,它将使退休者平均的社会保障福利增加约30%.",
+            "在晚年,它将使退休者平均的社会保障福利增加30%."
+        ],
+        "fvec":[
+            "000000000000000100000000000000000",
+            "000000000000000100000000000000000",
+            "000000000000000100000000000000000"
+        ]
+    }
+]

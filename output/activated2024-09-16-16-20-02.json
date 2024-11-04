@@ -1,0 +1,76 @@
+[
+    {
+        "en":"Thank you .",
+        "baseline":"谢谢你。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"From the beginning of history , humans have looked up to the night sky with wonder .",
+        "baseline":"从历史的开始,人类一直带着惊奇地仰望着夜空。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And thanks to dedicated people who have been working for decades in engineering and on scientific marvels , we can look to the sky with new understanding .",
+        "baseline":"感谢多年来在工程和科学奇迹领域工作献身的人们,我们能够以新的理解看待天空。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And now we enter a new phase of scientific discovery .",
+        "baseline":"现在我们进入了科学发现的新阶段。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"With that , it is my great honor to introduce a leader who has always believed in the power of American innovation and international cooperation to achieve the remarkable : our President , the President of the United States , Joe Biden .",
+        "baseline":"为此,我非常荣幸地介绍一位一直相信美国创新和国际合作的力量领导者:我们的总统,美国总统,乔·比登。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And thank you , my dear friend and our outstanding NASA Administrator and the guy — the only guy here who ’s been in space , Bill Nelson .",
+        "baseline":"谢谢你,我亲爱的朋友,我们的杰出NASA行政长官和这里唯一在太空的家伙,比尔·纳尔逊。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Thank you very much for what you ’re doing .",
+        "baseline":"非常感谢你所做的事。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And — and , Dr. Nelson , you ’re doing a great job leading this Office of Science and Technology Policy .",
+        "baseline":"而且,纳尔逊博士,你在领导科学和技术政策办公室方面做得很好。",
+        "zh":[
+            "而且,纳尔逊医生,你领导科学和技术政策办公室的工作非常出色。",
+            "而且,纳尔逊医生,你领导科学和技术政策办公室的工作非常出色。",
+            "而且,纳尔逊医生,你领导科学和技术政策办公室的工作非常出色。",
+            "而且,纳尔逊医生,你领导科学和技术政策办公室的工作非常出色。",
+            "而且,纳尔逊医生,你领导科学和技术政策办公室的工作非常出色。",
+            "而且,纳尔逊医生,你领导科学和技术政策办公室的工作非常出色。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"It really is a matter — it really is amazing .",
+        "baseline":"这真是个问题,真令人惊奇。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It ’s — it ’s — anyway , I do n’t want to — I ’ll see what they think when we see this .",
+        "baseline":"不管怎样,我不想,我看看他们会怎么看。",
+        "zh":[],
+        "fvec":[]
+    }
+]

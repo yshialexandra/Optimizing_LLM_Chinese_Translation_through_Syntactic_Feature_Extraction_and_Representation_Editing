@@ -1,0 +1,88 @@
+[
+    {
+        "en":"The traveler stood up from the table .",
+        "baseline":"旅行者从桌子上站起来。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"“ Nonetheless , ” the traveler said , and she walked out .",
+        "baseline":"“ 尽管如此, ” 旅行者说, 她走了出来.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They were laughing at the chemist as well as at the traveler .",
+        "baseline":"他们对化学家和旅行者都笑了笑。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Here and there were bits of charred debris in the gutters .",
+        "baseline":"这里还有一些烧焦的废物在排水道里。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"She smelled like honey that has been kept a while in a dark room , a little fermented .",
+        "baseline":"她闻起来像在黑暗的房间里留着的蜂蜜,有点发酵。",
+        "zh":[
+            "她闻起来像在暗房里留了一段时间的蜂蜜,有点发酵."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"In his years of service to the Imperial Naval Forces he had never seen anything like it , not even in archive war footage .",
+        "baseline":"在服役期间,他从未见过类似的东西,甚至在战争档案中也没有。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The enormous forms of the battleships loomed like giants atop a hill , staring down upon a tiny village below .",
+        "baseline":"巨型战列舰像巨人般出现在山顶上,凝视着下面的一个小村庄。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The Enemy can not be allowed to advance any further .",
+        "baseline":"敌人不能再向前推进。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Make them proud ! ”",
+        "baseline":"让他们感到骄傲! ”",
+        "zh":[
+            "让他们骄傲吧!”",
+            "让他们骄傲吧!”",
+            "让他们骄傲吧!”",
+            "让他们骄傲吧!”",
+            "让他们骄傲吧!”",
+            "让他们骄傲吧!”",
+            "让他们骄傲吧!”",
+            "让他们骄傲吧!”",
+            "让他们骄傲吧!”",
+            "让他们骄傲吧!”"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Had they died fast or were they now suffering a fate far worse . . ?",
+        "baseline":"他们快死了,或者他们现在受了更糟糕的命运呢?",
+        "zh":[],
+        "fvec":[]
+    }
+]

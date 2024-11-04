@@ -1,0 +1,86 @@
+[
+    {
+        "en":"Siméon Poisson reviewed Galois ' paper on equation theory and declared it \" incomprehensible \" .",
+        "baseline":"西蒙·波森审查了加洛瓦关于方程理论的论文,并宣布它“ 不可理解 ” 。",
+        "zh":[
+            "西蒙·波森(SiméonPoisson)审查了加洛瓦关于方程理论的论文,并宣布它是“难以理解”的.",
+            "西蒙·波森(SiméonPoisson)审查了加洛瓦关于方程理论的论文,并宣布它是“不可理解”的.",
+            "西蒙·波森(SiméonPoisson)审查了加洛瓦关于方程理论的论文,并宣布它是“不可理解”的."
+        ],
+        "fvec":[
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001"
+        ]
+    },
+    {
+        "en":"Galois ' fatal duel took place on 30 May .",
+        "baseline":"5月30日,加洛伊斯的致命决斗发生。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Fragments of letters from her , copied by Galois himself  , are available .",
+        "baseline":"她写的信 fragments, 由Galois himself 复制, 是可用的.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"However , the legend of Galois pouring his mathematical thoughts onto paper the night before he died seems to have been exaggerated .",
+        "baseline":"然而,盖洛斯在死前晚上把数学思想倒在纸上的故事似乎被夸大了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Évariste Galois was buried in a common grave and the exact location is still unknown .",
+        "baseline":"埃瓦里斯特·加洛瓦斯被埋葬在一个共同的坟墓中,确切的地点尚不清楚。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Early in the morning of 30 May 1832 , he was shot in the abdomen ,  abandoned by his opponents and seconds , and was found by a passing farmer .",
+        "baseline":"1832年5月30日早些时候,他被击中腹部,被反对者遗弃,几秒钟后被一个经过的农民发现。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"As well as appearing in films , Goode has appeared in numerous television shows .",
+        "baseline":"除了出演电影外,古德还出现在许多电视节目中。",
+        "zh":[
+            "除了在电影中出现,古德还出现在许多电视节目中.",
+            "除了在电影中出现,古德还出现在许多电视节目中.",
+            "除了在电影中出现,古德还出现在许多电视节目中."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"His most notable television roles include Henry Talbot in the final season of historical period drama Downton Abbey , and Finley \" Finn \" Polmar in the CBS legal drama The Good Wife .",
+        "baseline":"他最著名的电视角色包括亨利·塔尔博特在历史时期戏剧《唐顿修道院》的最后一季,以及费尼·“ 芬 ” 波尔马在CBS法律剧《好妻》中。",
+        "zh":[
+            "他最著名的电视角色包括亨利·塔博特在历史时期戏剧《唐顿修道院》的最后一季,芬利”芬”波尔马在CBS法律戏剧《好妻》中.",
+            "他最著名的电视角色包括亨利·塔尔博特(HenryTalbot)在历史时期戏剧《唐顿修道院》的最后一季,芬利·“芬”波尔玛尔(FinleyPolmar)在CBS的法律戏剧《好妻》中.",
+            "他最著名的电视角色包括亨利·塔尔博特(HenryTalbot)在历史时期戏剧《唐顿修道院》的最后一季,芬利·“芬”波尔玛(FinleyPolmar)在CBS法律剧《好妻》中."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Goode has been in a relationship with Sophie Dymoke since 2005 .",
+        "baseline":"自2005年起,古德与索菲·迪莫克(Sophie Dymoke)建立了关系。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They married in 2014 .",
+        "baseline":"2014年结婚。",
+        "zh":[],
+        "fvec":[]
+    }
+]

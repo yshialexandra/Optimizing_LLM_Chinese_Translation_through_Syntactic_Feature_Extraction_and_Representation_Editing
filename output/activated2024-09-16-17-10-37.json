@@ -1,0 +1,110 @@
+[
+    {
+        "en":"For easy reference ferries are listed under the individual islands .",
+        "baseline":"为方便参考,船只在个别岛屿下列出。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Allow 4 - 7 days for the whole trail depending on experience and your desired pace , but it is also possible do to day trips along the route .",
+        "baseline":"根据经验和你所希望的步速,允许4-7天的整个行程,但也可以做日游沿途。",
+        "zh":[
+            "根据经验和所需的步调,允许4-7天的整个行程,但是,也可以在路线上进行日程旅行。",
+            "根据经验和所需的步调,允许4-7天的整个行程,但也可以在路线上进行日游。"
+        ],
+        "fvec":[
+            "000000000000010000000001000000000",
+            "000000000000010000000001000000000"
+        ]
+    },
+    {
+        "en":"Pre arranged package tours are also available from Travel Heels in Taasinge or Vagabond Tours in Tranekær , in cooperation with the local tourist authority .",
+        "baseline":"预安排的旅游包也可以由旅游鞋在塔辛格或瓦加邦旅游在特兰尼尔,与当地旅游局合作。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"For the remainder of the year , short stays are permitted , which is interpreted by the authorities as a day or a night .",
+        "baseline":"全年的剩余时间,允许短期逗留,由当局解释为一天或一夜。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"While you are normally not allowed to set up a tent , you are permitted to sleep on the beach in a sleeping bag , if necessary under a primitive cover like a tarpaulin .",
+        "baseline":"虽然你通常不允许设置帐篷,但是你可以在海滩上睡在睡袋里,如果必要的话,你可以用一种原始的遮蔽物,如木板。",
+        "zh":[
+            "虽然你通常不允许设置一座帐篷,不过你可以在海滩上睡在睡袋里,如果必要的话,你可以睡在原始的窗帘下。",
+            "虽然你通常不允许设置帐篷,但你可以在沙滩上睡在睡袋里,如果必要的话,你可以睡在原始的窗帘下。",
+            "虽然你通常不允许设置帐篷,但你可以在海滩上睡在睡袋中,如果有必要,你可以在原始的遮蔽下睡,如网架。",
+            "虽然你通常不允许设置一座帐篷,不过你可以在海滩上睡在睡袋里,如果必要的话,你可以睡在原始的窗帘下。",
+            "通常你不能设置帐篷,你可以在海滩上睡在一张睡袋里,如果必要的话,你可以用原始的遮蔽物睡在沙滩上。",
+            "虽然你通常不允许设置一座帐篷,不过你可以在海滩上睡在睡袋里,如果必要的话,你可以睡在原始的窗帘下。",
+            "虽然你通常不允许设置帐篷,但你可以在海滩上睡在睡袋中,如果必要,你可以在原始的遮蔽下睡,如网架。",
+            "通常你不能设置帐篷,你可以在海滩上睡在睡袋里,必要时,也可以睡在原始的窗帘下。",
+            "虽然你通常不允许设置一座帐篷,不过你可以在海滩上睡在睡袋里,如果必要的话,你可以睡在原始的窗帘下。",
+            "虽然你通常不允许设置一座帐篷,你可以在海滩上睡在睡袋中,如果必要,你可以在原始的遮蔽下睡,如网架。"
+        ],
+        "fvec":[
+            "000000100000000000000001010000000",
+            "000000100000000000000001010000000",
+            "000000100000000000000001010000000",
+            "000000100000000000000001010000000",
+            "000000000000000000000001010000000",
+            "000000100000000000000001010000000",
+            "000000100000000000000001010000000",
+            "000000000000000000000001010000000",
+            "000000100000000000000001010000000",
+            "000000100000000000000001010000000"
+        ]
+    },
+    {
+        "en":"Among Thais , there are strict rules of hierarchy that dictate how and when the wai should be given .",
+        "baseline":"在泰国人中,有严格的等级规则,规定如何和什么时候应给予豁免。",
+        "zh":[
+            "泰国人中,有严格的等级规则,规定如何和何时应给予豁免。",
+            "泰国人中,有严格的等级规则,规定如何和何时给予豁免。",
+            "在泰国,有严格的hierarchy规则,规定如何和何时应给予豁免。",
+            "泰国人中,有严格的等级规则,规定如何和何时应给予豁免。",
+            "泰国人中,有严格的等级规则,规定如何和何时应给予豁免。",
+            "泰国人中,有严格的等级规则,规定如何和何时给予豁免。",
+            "泰国人中,有严格的等级规则,规定如何和何时给予豁免。",
+            "在泰国,有严格的hierarchy规则,规定如何和何时应给予豁免。",
+            "泰国人中,有严格的等级规则,规定如何和何时给予豁免。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"You should not wai service people or street vendors .",
+        "baseline":"你不应该拒绝服务人员或街头卖家。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You will also often see Thais doing a wai as they walk past temples and spirit houses .",
+        "baseline":"你会经常看到泰国人在走过寺庙和灵房时做礼拜。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"while you 're unlikely to cause offense if you do , you may well look slightly strange .",
+        "baseline":"如果你这样做,你不太可能造成伤害,你可能看起来有点奇怪。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You will find that dressing appropriately means that you are shown more respect in return .",
+        "baseline":"你会发现穿得合适意味着你得到更多的尊重。",
+        "zh":[],
+        "fvec":[]
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "en":"Using the dictionary can ensure you not missing a single word .",
+        "baseline":"使用词典可以确保您没有错过单词。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Get used to using it yourself , and spread it to others .",
+        "baseline":"习惯用它自己,并把它传给别人。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If you 're really ambitious , set a goal of helping others become fluent in the language .",
+        "baseline":"如果你真有野心, 设法帮助别人掌握语言.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Remember you should know how to write it .",
+        "baseline":"记住,你应该知道怎么写。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Do n't use random letters .",
+        "baseline":"不要使用随机字母。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It should make some sense , so that it will be easier to learn and speak with [ Example : Do n't use oh as e , hello as llo , and See ya as c yah ) .",
+        "baseline":"它应该有一点道理, 以便更容易学习和与人交谈. [ 例: 不要用“哦”来表示“e”, “你好”来表示“ló”, “见你”来表示“c yah”.",
+        "zh":[
+            "这应该有一点道理,这样就更容易学习和和他说话.[例:不要用“哦”,“你好”,“来吧”,“见吧”.",
+            "这应该有一点道理,这样就更容易学习和和他说话.[例:不要用“哦”来表示“e”,“你好”来表示“ló”,“见你”来表示“cyah”.",
+            "它应该是有意义的,这样就更容易学习和和他说:[例:不要用哦为e,你好为llo,和见你为cyah].",
+            "这应该有一点道理,这样就更容易学习和和别人谈谈.[例:不要用“哦”来表示“e”,“你好”来表示“ló”,“见你”来表示“cyah”.",
+            "这应该有一点道理,这样就更容易学习和和别人谈谈.[例:不要用“哦”来表示“e”,“你好”来表示“ló”,“见你”来表示“cyah”.",
+            "这应该有一点道理,这样就更容易学习和和别人谈谈.[例:不要用“哦”来表示“e”,“你好”来表示“ló”,“见你”来表示“cyah”.",
+            "这应该有一点道理,这样就更容易学习和和他说话.[例:不要用“哦”来表示“e”,“你好”来表示“ló”,“见你”来表示“cyah”.",
+            "这应该有一点道理,这样就更容易学习和和别人讲话[例:不要用哦为e,你好为llo,见你为cyah]。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"This will make grammar much easier to make .",
+        "baseline":"这将使语法变得更加容易。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Try this with a group of friends .",
+        "baseline":"与一群朋友一起尝试一下。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"This makes your first language a proto-language — a language that branches off into a family of languages .",
+        "baseline":"这使得你的第一个语言成为一个原始语言 — — 语言分支成一个语言家族。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In addition , repelling and removing rodents from your home can be a hassle if you do n't know what you are doing .",
+        "baseline":"此外,如果你不知道你在做什么,那么从家里驱除和消灭啮齿动物可能是一个麻烦。",
+        "zh":[],
+        "fvec":[]
+    }
+]

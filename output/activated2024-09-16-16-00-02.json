@@ -1,0 +1,106 @@
+[
+    {
+        "en":"Several scenarios were considered because of uncertainty of future levels of ozone pollution .",
+        "baseline":"由于对今后臭氧污染水平的不确定性,考虑了几个方案。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"By 2050 , undernourishment would increase by either 49 percent or by 27 percent , depending on the scenario .",
+        "baseline":"到2050年,营养不良将增加49 % 或27 %, 视情况而定。",
+        "zh":[
+            "到2050年,营养不良将either增加49%或27%,视情况而定。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Heald said although temperature and ozone are separately known to impact crop yields , \" nobody has looked at these together \" .",
+        "baseline":"海尔德说,尽管温度和臭氧分别影响作物产量, “ 没有人把它们都看成一对 ” 。",
+        "zh":[
+            "海尔德说,尽管温度和臭氧分开存在影响作物产量的因素,但没有人把它们结合起来研究.",
+            "海尔德说,尽管温度和臭氧分开存在影响作物产量的因素,但没有人把它们结合起来研究."
+        ],
+        "fvec":[
+            "000000100000000000000000000000000",
+            "000000100000000000000000000000000"
+        ]
+    },
+    {
+        "en":"As Heald told The Huffington Post , US surface ozone has dropped partly due to the Clean Air Act .",
+        "baseline":"正如希尔德告诉《哈芬顿邮报》的说法,美国地表臭氧部分由于《清洁空气法案》而下降。",
+        "zh":[
+            "希尔德告诉《哈芬顿邮报》,由于《清洁空气法》,美国表面臭氧部分下降.",
+            "正如海尔德(Heald)在《哈芬顿邮报(HuffingtonPost)》上报导的那样,由于《清洁空气法案》,美国表面臭氧量部分下降了.",
+            "希尔德告诉《哈芬顿邮报》,由于《清洁空气法》,美国表面臭氧部分下降.",
+            "希尔德告诉《哈芬顿邮报》,由于《清洁空气法》,美国表面臭氧部分下降."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"\" Despite an increase in vehicle miles driven and energy consumption , surface ozone has declined by 25 percent on average across the U.S. from 1980 to 2012",
+        "baseline":"尽管汽车行驶里程和能源消耗量有所增加,但从1980年到2012年,美国平均地表臭氧量下降了25%",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The Greek Orthodox Church , a Christian denomination , is extremely critical of worshippers of the ancient deities .",
+        "baseline":"希腊正教会,一个基督教教派,对古代神圣的崇拜者极为批评。",
+        "zh":[
+            "希腊正教会是基督教的教派,对古代神圣的崇拜者非常严厉。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Today , about 100,000 Greeks worship the ancient gods , such as Zeus , Hera , Poseidon , Aphrodite , and Athena .",
+        "baseline":"如今,大约有100,000名希腊人崇拜古神,如宙斯、赫拉、波西登、阿弗罗迪特和雅典。",
+        "zh":[
+            "今天,大约有10万希腊人崇拜古神,如宙斯、赫拉、波西登、阿弗罗迪特、雅典.",
+            "今天,大约有10万希腊人崇拜古神,如宙斯、赫拉、波西顿、阿弗罗迪特、雅典.",
+            "今天,大约有10万希腊人崇拜古神,如宙斯、赫拉、波西登、阿弗罗迪特、雅典.",
+            "今天,大约有10万希腊人崇拜古神,如宙斯、赫拉、鲍西登、阿弗罗迪特、雅典.",
+            "今天,大约有10万希腊人崇拜古神,如宙斯、赫拉、鲍西登、阿弗罗迪特、雅典.",
+            "今天,大约有10万希腊人崇拜古神,如宙斯、赫拉、波西顿、阿弗罗迪特、雅典.",
+            "今天,大约有10万希腊人崇拜古神,如宙斯、赫拉、波西登、阿弗罗迪特、雅典.",
+            "今天,大约有10万希腊人崇拜古神,如宙斯、赫拉、鲍西登、阿弗罗迪特、雅典.",
+            "今天,大约有10万希腊人崇拜古神,如宙斯、赫拉、波西登、阿弗罗迪特、雅典."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Would you say there has to be a negative consequence to the thing you ca n't stop ?",
+        "baseline":"你认为你不能停止的事情必然会带来负面后果 吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Somebody can manage to be a teacher .",
+        "baseline":"有人能成为一名教师。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Somebody can manage to be a cop .",
+        "baseline":"有人能成为警察。",
+        "zh":[],
+        "fvec":[]
+    }
+]

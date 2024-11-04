@@ -1,0 +1,116 @@
+[
+    {
+        "en":"The task that lies ahead -- to put Rapid City and the area back together -- will not be done for years .",
+        "baseline":"接下来的任务 — — 把快速城和地区重新统一起来 — — 将不会在几年内完成。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"But it must be done .",
+        "baseline":"但必须做到。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"SBA loans are presently available to businessmen and homeowners affected by the flood .",
+        "baseline":"SBA贷款现已向受洪灾影响的商人和房主提供。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They are given at 5 1/8 % interest .",
+        "baseline":"他们按5/8 % 的利息支付。",
+        "zh":[
+            "它们的利率为5.8%。",
+            "它们的利率为5.8%。",
+            "它们的利率为5.8%。",
+            "它们的利率为5.8%。",
+            "它们的利率为5.8%。",
+            "它们的利率为5.8%。",
+            "它们的利率为5.8%。",
+            "它们的利率为5.8%。",
+            "它们的利率为5.8%。",
+            "他们拿到的利息是5/8%。"
+        ],
+        "fvec":[
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000000000000000010000000000000"
+        ]
+    },
+    {
+        "en":"But I would rate the chances of passing my 90 % forgiveness bill as poor .",
+        "baseline":"但是,我将把通过我的90%的宽恕法案的几率评为很差。",
+        "zh":[
+            "但是,我将把通过我90%的宽恕法案的几率评为低.",
+            "但是,我将把通过我90%的宽恕法案的几率评为低.",
+            "但是,我将把通过我百分之九十的赦免法案的机会评为很差.",
+            "但是,我将把通过我90%的宽恕法案的几率评为低."
+        ],
+        "fvec":[
+            "000000000000000100000000000000000",
+            "000000000000000100000000000000000",
+            "000000000000000100000000000000000",
+            "000000000000000100000000000000000"
+        ]
+    },
+    {
+        "en":"Many of you have already written describing problems you are having with Federal agencies as a result of the flood .",
+        "baseline":"你们中的许多人已经写了文章,描述了由于洪水而与联邦机构发生的问题。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You can reach me at : 508 Cannon Office Building , Washington , D.C. 20515 .",
+        "baseline":"你可以致电我: 508 Cannon Office Building, Washington, D.C. 20515 。",
+        "zh":[
+            "你可以到:508华盛顿特区炮兵办公室大厦20515.",
+            "你可以到:508CannonOfficeBuilding,Washington,D.C.20515。",
+            "你可以到:508华盛顿特区炮兵办公室大厦20515.",
+            "你可以到:508CannonOfficeBuilding,Washington,D.C.20515。",
+            "你可以到:508华盛顿特区炮兵办公室大厦20515.",
+            "你可以到:508CannonOfficeBuilding,Washington,D.C.20515。",
+            "你可以到:508华盛顿特区炮兵办公室大厦20515.",
+            "你可以到:508华盛顿特区炮兵办公室大厦20515.",
+            "你可以到:508华盛顿特区炮兵办公室大厦20515.",
+            "你可以到:508华盛顿特区炮兵办公室大厦20515."
+        ],
+        "fvec":[
+            "000000000000000000000000010000000",
+            "000000000000000000000001010000000",
+            "000000000000000000000000010000000",
+            "000000000000000000000001010000000",
+            "000000000000000000000000010000000",
+            "000000000000000000000001010000000",
+            "000000000000000000000000010000000",
+            "000000000000000000000000010000000",
+            "000000000000000000000000010000000",
+            "000000000000000000000000010000000"
+        ]
+    },
+    {
+        "en":"First , it guarantees that no one dispossesses fellow citizens by obtaining a disproportionate share of what nature provides for humanity .",
+        "baseline":"首先,它保证没有人通过获得自然为人类提供的不相称的份额来剥夺同胞。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Some economists might be tempted to suggest that the rent can be collected publicly simply by selling land outright at auction .",
+        "baseline":"一些经济学家可能被诱惑说,租税可以通过直接在拍卖中出售土地来公开征集。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Collecting rent annually provides access to land for persons with limited access to credit .",
+        "baseline":"每年征收租金,让有限制信贷的人士获得土地。",
+        "zh":[],
+        "fvec":[]
+    }
+]

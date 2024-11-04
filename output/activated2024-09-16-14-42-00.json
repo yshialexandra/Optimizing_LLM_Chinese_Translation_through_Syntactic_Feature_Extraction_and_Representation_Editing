@@ -1,0 +1,72 @@
+[
+    {
+        "en":"That topples over .",
+        "baseline":"它倒塌了。",
+        "zh":[
+            "这倒下来了。",
+            "这倒下来了。",
+            "这倒下来了。",
+            "这倒下来了。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"There 's no proble- .",
+        "baseline":"没问题。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It will not take any frost .",
+        "baseline":"不会有霜。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"No problem .",
+        "baseline":"没问题。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It comes right up .",
+        "baseline":"它直升起来。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Is n't that what you gave the neighbor one time ?",
+        "baseline":"不是你一次给邻居的吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You gave him some kind of herb .",
+        "baseline":"你给了他一些草药。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Yeah , it 's out .",
+        "baseline":"是的,已经出去了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You smoked it down into the cork , did n't you ?",
+        "baseline":"你把它吸进树皮里, 不是 吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You smoked it down into the cork .",
+        "baseline":"你把它吸进树皮里。",
+        "zh":[],
+        "fvec":[]
+    }
+]

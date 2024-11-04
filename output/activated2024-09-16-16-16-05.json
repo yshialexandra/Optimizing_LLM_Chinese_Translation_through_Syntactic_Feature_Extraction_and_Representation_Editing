@@ -1,0 +1,78 @@
+[
+    {
+        "en":"Well , if no one among us is capable of governing himself , then who among us has the capacity to govern someone else ?",
+        "baseline":"如果我们当中没有人能治理自己,那么谁有能力治理别人呢?",
+        "zh":[
+            "如果我们中没有一个人能够自己治理,那么我们中谁有能力治理别人呢?",
+            "如果我们中没有一个人能自己治理,那么我们中谁能统治别人呢?"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"We hear much of special interest groups .",
+        "baseline":"我们听到许多特别利益集团。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Well , our concern must be for a special interest group that has been too long neglected .",
+        "baseline":"我们必须关心一个长期以来被忽视的特殊利益集团。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Mr. President , I need to catch my breath , so much has happened .",
+        "baseline":"主席先生,我需要喘息,发生了这么多事。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The hope she spoke about — the strong and happy hope — the hope we feel today , is a hope , of course , that is tempered by reality .",
+        "baseline":"她所讲的希望 — — 强烈而快乐的希望 — — 我们今天所感受到的希望, 当然是希望, 它由现实所调和的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The crowds that customarily line the National Mall were absent , a reminder that our Nation is still in the throes of a deadly pandemic .",
+        "baseline":"传统上排列在国家广场的人群没有出现,这提醒我们国家仍处于致命的流行病的苦难之中。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"KAMALA HARRIS is now the 49th Vice President of the United States .",
+        "baseline":"卡马拉·哈里斯现任美国第49任副总统。",
+        "zh":[
+            "卡馬拉·哈里斯是美國第四十九任副總統。",
+            "卡馬拉·哈里斯是美國第四十九任副總統。",
+            "卡馬拉·哈里斯是美國第四十九任副總統。",
+            "卡馬拉·哈里斯是美國第四十九任副總統。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Today , the threat to our democracy from the Presidency itself has ended , but the challenges we face as a nation remain .",
+        "baseline":"今天,总统本身对我国民主的威胁已经结束,但我们作为一个国家面临的挑战仍然存在。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We have a lengthy agenda , and we need to get it done together .",
+        "baseline":"我们有一个漫长的议程,我们需要一起完成。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The Senate must immediately set to work on the mission President Biden described — restoring the greatness and goodness of America .",
+        "baseline":"参议院必须立即开始完成总统比登所描述的任务 — — 恢复美国伟大和善良。",
+        "zh":[],
+        "fvec":[]
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "en":"Yeah , I love hot tea .",
+        "baseline":"是的,我喜欢热茶。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"But the winter has n't blasted cold enough for me yet .",
+        "baseline":"可是冬天还没有太冷了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Do you put lemon in your hot tea ?",
+        "baseline":"你把柠檬放在热茶里 吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Which you do n't have .",
+        "baseline":"你没有的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You ever do ?",
+        "baseline":"你做过吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Now you wo n't be able to touch Jonathan .",
+        "baseline":"现在你无法触摸乔纳森。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Just do n't tell him .",
+        "baseline":"别告诉他。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Because you 're drinking lemon and honey ?",
+        "baseline":"因为你喝柠檬和蜂蜜?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Eight months old and potty trained .",
+        "baseline":"八个月大,受体操。",
+        "zh":[
+            "八岁、受体操。",
+            "八岁、受体操。",
+            "八岁、受体操。",
+            "八岁、受体操。",
+            "八岁、受体操。",
+            "八岁、受体操。",
+            "八岁、受体操。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"They only – They did n't make it till nine .",
+        "baseline":"他们只--他们直到九点才赶上。",
+        "zh":[
+            "他们只有——他们直到九岁才成功。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "en":"Most American settlers were from southern states , and many had brought slaves with them .",
+        "baseline":"大多数美国移民来自南方的州,许多人带着奴隶。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Mexico tried to accommodate them by maintaining the fiction that the slaves were indentured servants .",
+        "baseline":"墨西哥试图通过维持奴隶是雇佣奴隶的虚构来适应他们。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The dislike of most for Roman Catholicism  and a widely held belief in American racial superiority led them generally to regard Mexicans as dishonest , ignorant , and backward .",
+        "baseline":"大多数人对罗马天主教的厌恶和对美国种族优势的广泛信仰导致他们普遍认为墨西哥人不诚实、无知和落后。",
+        "zh":[
+            "他们对罗马天主教的憎恨和对美国种族优势的普遍信仰导致他们普遍认为墨西哥人是不诚实、无知和落后的."
+        ],
+        "fvec":[
+            "000000000000010000010000000000000"
+        ]
+    },
+    {
+        "en":"Outraged , Edwards and a small party of men took prisoner the alcalde of Nacogdoches .",
+        "baseline":"爱德华兹和一小伙人愤怒地俘虏了纳科格多奇市长。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The growing presence of American settlers in Texas , their reluctance to abide by Mexican law , and their desire for independence caused the Mexican government to grow wary .",
+        "baseline":"美国移民在德克萨斯的日益增多,他们不愿遵守墨西哥法律,以及他们对独立的愿望使墨西哥政府变得更加谨慎。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Lawyer and soldier William B. Travis and a small force marched on Anahuac in June , and the fort surrendered .",
+        "baseline":"律师和士兵威廉·B·特拉维斯和一支小部队在6月在阿纳胡阿克上游行,堡垒投降。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They selected Henry Smith , leader of the Independence Party , as governor of Texas and placed Sam Houston , a former soldier who had been a congressman and governor of Tennessee , in charge of its small military force .",
+        "baseline":"他们选出独立党领袖亨利·史密斯为德克萨斯州州长,并任命前参议院议员和田纳西州州长萨姆·休斯顿(Sam Houston)为其小军事力量的负责人。",
+        "zh":[
+            "他们选择亨利·史密斯(HenrySmith),独立党领袖,作为德克萨斯州州长,并任命前参议员兼田纳西州州长萨姆·休斯顿(SamHouston)为其小军事力量的负责人。"
+        ],
+        "fvec":[
+            "000000000000010000010000000000000"
+        ]
+    },
+    {
+        "en":"The Consultation delegates met again in March 1836 .",
+        "baseline":"协商代表于1836年3月再次开会。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They declared their independence from Mexico and drafted a constitution calling for an American - style judicial system and an elected president and legislature .",
+        "baseline":"他们宣布脱离墨西哥独立,并起草了一项宪法,要求建立美国式司法制度,选举总统和立法机构。",
+        "zh":[
+            "他们宣布脱离墨西哥独立,并起草了一项宪法,要求建立美国式的司法制度,选举总统和立法机构.",
+            "他们宣布脱离墨西哥独立,并起草了一项宪法,要求建立美国式的司法制度,选举总统和立法机构.",
+            "他们宣布脱离墨西哥独立,并起草了一项宪法,要求建立美国式的司法制度,选举总统和立法机构.",
+            "他们宣布脱离墨西哥独立,并起草了一项宪法,要求建立美国式的司法制度,选举总统和立法机构."
+        ],
+        "fvec":[
+            "000000000000000000010000000000000",
+            "000000000000000000010000000000000",
+            "000000000000000000010000000000000",
+            "000000000000000000010000000000000"
+        ]
+    },
+    {
+        "en":"Significantly , they also established that slavery would not be prohibited in Texas .",
+        "baseline":"他们还规定,德克萨斯州不会禁止奴隶制。",
+        "zh":[
+            "而且,他们也规定在德克萨斯州不会禁止奴隶制.",
+            "而且,他们也规定在德克萨斯州不会禁止奴隶制.",
+            "而且,他们也规定在德克萨斯州不会禁止奴隶制.",
+            "而且,他们也规定在德克萨斯州不会禁止奴隶制."
+        ],
+        "fvec":[
+            "000000000000000000010000000000000",
+            "000000000000000000010000000000000",
+            "000000000000000000010000000000000",
+            "000000000000000000010000000000000"
+        ]
+    }
+]

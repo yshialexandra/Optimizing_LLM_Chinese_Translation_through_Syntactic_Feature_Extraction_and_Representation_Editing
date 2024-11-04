@@ -1,0 +1,94 @@
+[
+    {
+        "en":"Experiment with the flavors of either recipe by replacing the vanilla extract with fragrant ingredients like neroli orange oil , rosewater , orange blossom water or coconut extract .",
+        "baseline":"用香料代替香草提取品来尝试两种配方的风味,如尼罗利橙油、玫瑰水、橙花水或椰子提取品。",
+        "zh":[
+            "用芳香成分代替香草提取的香料来尝试两种配方的香味,如黑罗利橙油、玫瑰水、橙花水或椰子提取.",
+            "用芳香成分代替香草提取的香料来尝试两种配方的香味,如黑罗利橙油、玫瑰水、橙花水或椰子提取.",
+            "用芳香成分代替香草提取的香料来尝试两种配方的香味,如尼罗利橙油、玫瑰水、橙花水或椰子提取.",
+            "用芳香成分代替香草提取的香料来尝试两种配方的香味,如尼罗利橙油、玫瑰水、橙花水或椰子提取.",
+            "用芳香成分代替香草提取的香料来尝试两种配方的香味,如黑罗利橙油、玫瑰水、橙花水或椰子提取."
+        ],
+        "fvec":[
+            "000000000010000000000000000000000",
+            "000000000010000000000000000000000",
+            "000000000010000000000000000000000",
+            "000000000010000000000000000000000",
+            "000000000010000000000000000000000"
+        ]
+    },
+    {
+        "en":"It ’s easy to annoy people when you are cramped in such a small , tight space .",
+        "baseline":"在一个如此狭窄的空间里,你很容易惹人生气。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You could look at yourself , turning to catch different angles and say “ All right , all right , now we ’re talking , ” very loudly .",
+        "baseline":"你可以看着自己,转过身来抓住不同的角度,然后大声说“ 好吧, 好吧, 我们现在谈话了 ”。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Dance to the elevator music .",
+        "baseline":"跳舞到电梯音乐。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Many elevators play music in the background , usually soft rock or smooth jazz .",
+        "baseline":"许多电梯在背景里播放音乐, 通常是软摇滚或流畅的爵士乐.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If you ’re in an elevator that is playing music , start to dance .",
+        "baseline":"如果你在电梯里播放音乐,就开始跳舞。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Exclaim that you 've lost a beast .",
+        "baseline":"发声说你丢了一只野兽。",
+        "zh":[
+            "喊,你丢了一只野兽。",
+            "喊,你丢了一只野兽了。",
+            "喊,你丢了一只野兽。",
+            "发声说,你丢了一只野兽。",
+            "喊,你丢了一只牲畜了。",
+            "喊,你丢了一只野兽。",
+            "喊,你丢了一只野兽。",
+            "发声说,你丢了一只野兽。",
+            "发声说,你丢了一只野兽。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Most people will probably see that this is a joke .",
+        "baseline":"大多数人会发现这是个笑话。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"However , if somebody looks seriously alarmed or is starting to panic , let them know that you were not being serious .",
+        "baseline":"但是,如果有人看上去很惊慌或开始惊慌,请让他们知道你不是认真的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Build in or add something to the elevator .",
+        "baseline":"把东西装进电梯里或添加到电梯里。",
+        "zh":[],
+        "fvec":[]
+    }
+]

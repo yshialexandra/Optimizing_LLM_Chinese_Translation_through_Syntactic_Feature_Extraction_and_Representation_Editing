@@ -1,0 +1,84 @@
+[
+    {
+        "en":"Do you want to say hi ?",
+        "baseline":"你想说你好吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Start with cinnamon sugar first .",
+        "baseline":"首先先吃 cinnamon sugar 。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Do you want to have a piece ?",
+        "baseline":"你想要一块吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Yeah , well , no matters .",
+        "baseline":"好吧,没关系。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You want to film – you want to film the outro ?",
+        "baseline":"你想拍电影——你想拍 outro吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Can you see yourself ?",
+        "baseline":"你能看见自己吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You like it ?",
+        "baseline":"你喜欢吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So , you said that you had an outro that you 've been practicing ?",
+        "baseline":"那么, 你说过你一直在练习的 outro 吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Do you want to give it a try ?",
+        "baseline":"你想试试吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"What do you say at the end of the video ?",
+        "baseline":"视频结束时你说什么?",
+        "zh":[
+            "视频末尾你说什么?",
+            "视频末尾你说什么?",
+            "视频末尾你说什么?",
+            "视频末尾你说什么?",
+            "视频末尾你说什么?",
+            "视频末尾你说什么?",
+            "视频末尾你说什么?",
+            "视频末尾你说什么?",
+            "视频末尾你说什么?",
+            "视频末尾你说什么?"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    }
+]

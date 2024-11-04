@@ -1,0 +1,88 @@
+[
+    {
+        "en":"The government of the United States can best be described as a republic , or representative democracy .",
+        "baseline":"美国政府最适合形容为共和国或代表民主。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In a representative democracy , however , the citizens do not govern directly .",
+        "baseline":"然而,在代表性民主国家里,公民并不直接治理。",
+        "zh":[
+            "然而,在一个代表性民主国家里,公民并不直接统治.",
+            "然而,在一个代表性民主国家里,公民并不直接执政.",
+            "然而,在一个代表性民主国家里,公民并不直接执政.",
+            "然而,在一个代表性民主国家里,公民并不直接统治.",
+            "然而,在一个代表性民主国家里,公民并不直接统治.",
+            "然而,在一个代表性民主国家里,公民并不直接执政.",
+            "然而,在一个代表性民主国家里,公民并不直接统治.",
+            "然而,在一个代表性民主国家里,公民并不直接统治."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Thus , U.S. citizens vote for members of Congress , the president and vice president , members of state legislatures , governors , mayors , and members of town councils and school boards to act on their behalf .",
+        "baseline":"因此,美国公民投票选出国会议员、总统和副总统、州议会议员、州长、市长、市议会和学校委员会成员来代表他们。",
+        "zh":[
+            "因此,美国公民投票选出国会议员、总统和副总统、州议会议员、州长、市长、市议会和学校理事会成员来代表他们行事.",
+            "因此,美国公民投票选出国会议员、总统和副总统、州议会议员、州长、市长、以及市议会和学校委员会成员来代表他们行事.",
+            "因此,美国公民投票选出国会议员、总统和副总统、州议会议员、州长、市长、以及市议会和学校委员会成员来代表他们行事."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"In a direct democracy , unlike representative democracy , people participate directly in making government decisions .",
+        "baseline":"在直接民主中,与代表民主不同,人民直接参与政府决策。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"For example , a referendum or proposed law might be placed on the ballot for citizens to vote on directly during state or local elections instead of leaving the matter in the hands of the state legislature .",
+        "baseline":"例如,公民可以在州选举或地方选举中直接投票,而不是把问题交给州议会。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"North Korea is an example of a totalitarian government .",
+        "baseline":"朝鲜是一个 totalitarian政府的例子。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The map of the world shows the different forms of government that currently exist .",
+        "baseline":"世界地图显示现存的各种政府形式。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There are three main motivation concepts that have been found to directly relate to learning .",
+        "baseline":"有三个主要的动机概念被发现直接与学习有关。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"While much of this chapter will cover very specific aspects about the act of learning , in this section , we will present different information that may at first seem unrelated .",
+        "baseline":"虽然本章的大部分内容将涉及学习行为的非常具体方面,但在本节中,我们将介绍与学习行为有关的不同信息。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Grit can be defined as personal perseverance toward a task or goal .",
+        "baseline":"毅力可以被定义为个人坚持工作或目标。",
+        "zh":[],
+        "fvec":[]
+    }
+]

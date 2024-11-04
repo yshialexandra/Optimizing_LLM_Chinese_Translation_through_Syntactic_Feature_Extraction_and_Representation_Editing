@@ -1,0 +1,78 @@
+[
+    {
+        "en":"Basically , she came up with a few class projects , and I came up with a few class projects ;",
+        "baseline":"基本上,她提出了一些课堂项目,我提出了一些课堂项目;",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We just want to be able to bring , like she said , bring light into the entertainment and into the media industry , specifically is what we do .",
+        "baseline":"我们只是想能够带来,正如她所说,带来娱乐和媒体产业的光线,这正是我们做的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Read below for more of the interview in full .",
+        "baseline":"全文见下文。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The English wikiHow has only 60 admins , compared to the 1000 + on English Wikipedia .",
+        "baseline":"英语维基百科只有60个管理员,与英语维基百科的1000+相比。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"This has several advantages and disadvantages when compared to the non-profit structure at the Wikimedia Foundation .",
+        "baseline":"与维基百科基金会的非营利结构相比,这有许多优点和缺点。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In addition , we 've used our revenue on things like buying carbon offsets to become carbon neutral .",
+        "baseline":"此外,我们把收入用于购买碳补偿品,以使碳中性化。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Why did you decide to create wikiHow ?",
+        "baseline":"你为什么决定创建wikiHow?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Knowledge is power and wikiHow has the potential to make all of us a bit more powerful .",
+        "baseline":"知识是力量,维基如何有潜力让我们变得更有力量。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"eHow contains copyrighted content run on proprietary software .",
+        "baseline":"eHow包含在专有软件上运行的著作权内容。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"However , paying people to write and edit articles ultimately means that you have to make one of two sacrifices .",
+        "baseline":"然而,付钱给人们写和编辑文章最终意味着你必须做出两种牺牲之一。",
+        "zh":[
+            "然而,付钱给人们写和编辑文章最终意味着你必须做出两个牺牲中的一个。",
+            "然而,付钱给人们写和编辑文章最终意味着你必须做出两个牺牲中的一个。",
+            "然而,支付人写和编辑文章最终意味着,你必须做出两种牺牲之一。",
+            "然而,支付人写和编辑文章最终意味着,你必须做出两种牺牲之一。",
+            "然而,付钱给人们写和编辑文章最终意味着你必须做出两个牺牲中的一个。",
+            "然而,支付人写和编辑文章最终意味着,你必须做出两种牺牲之一。",
+            "然而,付钱给人们写和编辑文章最终意味着你必须做出两个牺牲中的一个。"
+        ],
+        "fvec":[
+            "000000000000000000000001010000000",
+            "000000000000000000000001010000000",
+            "000000000010000000000001000000000",
+            "000000000010000000000001000000000",
+            "000000000000000000000001010000000",
+            "000000000010000000000001000000000",
+            "000000000000000000000001010000000"
+        ]
+    }
+]

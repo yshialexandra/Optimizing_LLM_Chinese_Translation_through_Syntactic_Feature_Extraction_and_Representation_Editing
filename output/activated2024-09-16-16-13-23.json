@@ -1,0 +1,70 @@
+[
+    {
+        "en":"The United Nations looks forward to convening the committee in Geneva in the coming weeks .",
+        "baseline":"联合国期待着在未来几周在日内瓦召开委员会。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"However , across the global landscape , we see conflicts persisting , terrorism spreading and the risk of a new arms race growing .",
+        "baseline":"然而,在全球范围内,我们看到冲突持续,恐怖主义扩散,新的军备竞赛的风险不断增加。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Outside interferences , often in violation of Security Council resolutions , make peace processes more difficult .",
+        "baseline":"外部干预,往往违反安全理事会决议,使和平进程更加困难。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Many situations remain unresolved , from Yemen and Libya to Afghanistan and beyond .",
+        "baseline":"许多局势仍未解决,从也门和利比亚到阿富汗和 beyond。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Tensions are heightened in South Asia , where differences need to be addressed through dialogue .",
+        "baseline":"在南亚,紧张局势加剧,需要通过对话解决分歧。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Above all , we are facing the alarming possibility of armed conflict in the Gulf , the consequences of which the world can not afford .",
+        "baseline":"首先,我们正面临着海湾武装冲突的令人震惊的可能性,世界无法承受的后果。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In a context where a minor miscalculation can lead to a major confrontation , we must do everything possible to push for reason and restraint .",
+        "baseline":"在轻微的误算可能导致重大的冲突的情况下,我们必须尽一切努力争取理性和克制。",
+        "zh":[
+            "在轻微的误算会导致重大的冲突的情况下,我们必须竭尽全力争取理性和克制。",
+            "在轻微的误算会导致重大的冲突的情况下,我们必须竭尽全力争取理性和克制。",
+            "在轻微的误算会导致重大的冲突的情况下,我们必须竭尽全力争取理性和克制。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Consider the lives that we can save by strengthening our investments to sustain peace around the world .",
+        "baseline":"让我们考虑通过加强我们为维持世界和平的投资来拯救生命。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Across some of the most troubled corners of the world , some 100,000 United Nations peacekeepers protect civilians and promote peace .",
+        "baseline":"在世界上一些最麻烦的地方,大约有100,000名联合国维持和平人员保护平民并促进和平。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We have bolstered our counter-terrorism architecture and defined new strategies to tackle violent extremism and to address root causes , while respecting human rights .",
+        "baseline":"我们加强了打击恐怖主义的架构,确定了应对暴力极端主义和解决根本原因的新战略,同时尊重人权。",
+        "zh":[],
+        "fvec":[]
+    }
+]

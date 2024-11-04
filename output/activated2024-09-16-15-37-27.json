@@ -1,0 +1,122 @@
+[
+    {
+        "en":"This is absolutely unprecedented , and we 're obviously incredibly excited .",
+        "baseline":"这绝对是前所未有的,我们显然非常兴奋。",
+        "zh":[
+            "这绝对无前例,显然我们非常兴奋.",
+            "这绝对无前例,显然我们非常兴奋.",
+            "这绝对无前例,显然我们非常兴奋.",
+            "这绝对无前例,显然我们非常兴奋.",
+            "这绝对无前例,显然我们非常兴奋.",
+            "这绝对无前例,显然我们非常兴奋.",
+            "这绝对无前例,显然我们非常兴奋.",
+            "这绝对无前例,显然我们非常兴奋.",
+            "这绝对无前例,显然我们非常兴奋.",
+            "这绝对无前例,显然我们非常兴奋."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"OK , I digress .",
+        "baseline":"好吧,我退缩了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Stardust @ home is a highly distributed project using a \" Virtual Microscope \" that is written in html and javascript and runs on most browsers — no downloads are required .",
+        "baseline":"Stardust @ home是一个高度分布的项目,使用一个\"虚拟显微镜 \",它在html和JavaScript中写,并且运行在大多数浏览器 — 不需要下载。",
+        "zh":[
+            "Stardust@home是一个高度分布的项目,使用\"虚拟显微镜\",它写在html和JavaScript,并且运行在大多数浏览器—不需要下载.",
+            "Stardust@home是一个高度分布的项目,使用一个\"虚拟显微镜\",它写在html和JavaScript,并且运行在大多数浏览器—不需要下载.",
+            "Stardust@home是一个高度分布的项目,使用一个\"虚拟显微镜\",它以html和JavaScript写成,并且运行在大多数浏览器—不需要下载.",
+            "Stardust@home是一个高度分布的项目,使用一个\"虚拟显微镜\"写在html和JavaScript,并且运行在大多数浏览器—不需要下载."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"How many samples do you anticipate being found during the course of the project ?",
+        "baseline":"你预计在项目过程中能找到多少样品?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The short answer is that we do n't know .",
+        "baseline":"简言之,我们不知道。",
+        "zh":[
+            "简短的回答是,我们不知道。",
+            "简单的回答是,我们不知道。",
+            "简单的回答是,我们不知道。",
+            "简短的回答是,我们不知道。",
+            "简短的回答是,我们不知道。",
+            "简短的回答是,我们不知道。",
+            "简短的回答是,我们不知道。",
+            "简短的回答是,我们不知道。",
+            "简短的回答是,我们不知道。",
+            "简短的回答是,我们不知道。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"There is a wonderful quote attributed to Einstein — \" If we knew what we were doing , it would n't be called \" research \" , would it ? \"",
+        "baseline":"爱因斯坦有一个很好的引言 — “ 如果我们知道我们正在做什么, 就不会称之为 “ 研究 ”, 是 吗? ”",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We expect that the particles will be of order a micron in size .",
+        "baseline":"我们预计粒子大小为一微米。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We are back from Europe , having been to London then to Mallorca and back to London .",
+        "baseline":"我们从欧洲回来了,曾经去过伦敦,然后去马可拉和回到伦敦。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It was hot , as you yourself will know from your stay in Switzerland and the newspapers -- London was sweltering and the parks are not green , probably for the first time in two hundred years .",
+        "baseline":"天气很热,正如你自己从瑞士和报纸上所知道的那样,伦敦很潮湿,公园没有绿色,这可能是两年来第一次。",
+        "zh":[
+            "正如你自己从瑞士的逗留和报纸上所知道的那样,伦敦的天气很热,公园也不绿,这可能是两百年来第一次。",
+            "正如你自己从瑞士的逗留和报纸上所知道的那样,伦敦的天气很热,公园也不绿,这也许是两年来第一次。"
+        ],
+        "fvec":[
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Luncheons and dinners were crowded with guests , but in the evenings she played bridge constantly and gossiped with our hostess .",
+        "baseline":"午餐和晚餐都挤满了客人,但晚上她不停地打桥牌,和我们的女主人闲聊。",
+        "zh":[],
+        "fvec":[]
+    }
+]

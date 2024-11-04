@@ -1,0 +1,74 @@
+[
+    {
+        "en":"You 're not committed to the real world .",
+        "baseline":"你对现实世界没有承诺。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It 's almost like God to some extent .",
+        "baseline":"它几乎有点像上帝。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You can create worlds , you can study them .",
+        "baseline":"你可以创造世界,你可以研究它们。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Why do you think it is so ?",
+        "baseline":"你为什么这么认为?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You have to have very good teachers in mathematics if you really want to enjoy and to succeed in it .",
+        "baseline":"如果你真的想享受和成功的话,就必须有很好的数学老师。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Maybe they do n't like the precise nature of mathematics .",
+        "baseline":"也许他们不喜欢数学的精确性质。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They have ideas but they can not formulate them in the right way .",
+        "baseline":"他们有想法,但不能正确地制定。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"For example the most famous is Lewis Carrol , author of Alice in Wonderland .",
+        "baseline":"例如,最著名的是路易斯·卡罗尔(Lewis Carrol),《爱丽丝在奇境》的作者。",
+        "zh":[
+            "例如,最著名的是路易斯·卡罗尔,爱丽丝在神奇大地的作者.",
+            "例如,最著名的是路易斯·卡罗尔,爱丽丝在神奇大陆的作者.",
+            "例如最著名的是路易斯·卡罗尔,爱丽丝在奇境的作者.",
+            "例如,最著名的是路易斯·卡罗尔,爱丽丝在神奇大陆的作者.",
+            "例如,最著名的是路易斯·卡罗尔,爱丽丝在神奇大陆的作者."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"You also wrote two collections of short stories and a novel .",
+        "baseline":"你还写了两个短篇小说和一本小说。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Why did you begin to write ?",
+        "baseline":"你为什么开始写?",
+        "zh":[],
+        "fvec":[]
+    }
+]

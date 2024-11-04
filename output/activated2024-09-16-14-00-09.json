@@ -1,0 +1,120 @@
+[
+    {
+        "en":"Thus , the time it takes and the ways of visually exploring an artwork can inform about its relevance , interestingness , and even its aesthetic appeal .",
+        "baseline":"因此,它所花费的时间和视觉探索艺术作品的方式可以说明其相关性、有趣性,甚至其审美吸引力。",
+        "zh":[
+            "因此,所花费的时间和艺术品的视觉探索方法可以说明艺术品的关联性、有趣性,甚至艺术品的审美吸引力.",
+            "因此,所花费的时间和视觉探索艺术作品的方式,可以说明其关联性、有趣性,甚至其审美吸引力.",
+            "因此,所花费的时间和艺术品的视觉探索方法可以说明艺术品的关联性、有趣性,甚至艺术品的审美吸引力.",
+            "因此,所花费的时间和艺术品的视觉探索方法可以说明其相关性、趣味性,甚至其审美吸引力.",
+            "因此,所花费的时间和视觉探索艺术作品的方式,可以说明其关联性、趣味性,甚至其审美魅力.",
+            "因此,所花费的时间和艺术品的视觉探索方法可以说明艺术品的关联性、有趣性,甚至艺术品的审美吸引力."
+        ],
+        "fvec":[
+            "000000010000000000000000000000000",
+            "000000000000010000000000000000000",
+            "000000010000000000000000000000000",
+            "000000010000000000000000000000000",
+            "000000000000010000000000000000000",
+            "000000010000000000000000000000000"
+        ]
+    },
+    {
+        "en":"It has a long history in scholarship  , but many key aspects of its production and significance have not yet been fully understood .",
+        "baseline":"它在学术上有着悠久的历史,但其生产和意义的许多关键方面尚未得到充分理解。",
+        "zh":[
+            "它具有悠久的学术史,但其创作和意义的诸多关键方面尚未完全理解。",
+            "它具有悠久的学术史,但其创作和意义的诸多关键方面尚未完全理解。",
+            "它具有悠久的学术史,但其创作和意义的诸多关键方面尚未完全理解。",
+            "它具有悠久的学术史,但其创作和意义的诸多关键方面尚未完全理解。",
+            "它具有悠久的学术史,但其创作和意义的诸多关键方面尚未完全理解。",
+            "它具有悠久的学术史,但其创作和意义的诸多关键方面尚未完全理解。",
+            "它具有悠久的学术史,但其创作和意义的诸多关键方面尚未完全理解。",
+            "它具有悠久的学术史,但其创作和意义的诸多关键方面尚未完全理解。",
+            "它具有悠久的学术史,但其创作和意义的诸多关键方面尚未完全理解。",
+            "它具有悠久的学术史,但其创作和意义的诸多关键方面尚未完全理解。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000001",
+            "000000000000000000000001000000001",
+            "000000000000000000000001000000001",
+            "000000000000000000000001000000001",
+            "000000000000000000000001000000001",
+            "000000000000000000000001000000001",
+            "000000000000000000000001000000001",
+            "000000000000000000000001000000001",
+            "000000000000000000000001000000001",
+            "000000000000000000000001000000001"
+        ]
+    },
+    {
+        "en":"In computer science , the Computing Research Association  documents trends in the employment of PhD recipients through the annual Taulbee survey of computing departments in North America  .",
+        "baseline":"在计算机科学领域,计算机研究协会通过每年北美洲计算机部门的Taulbee调查记录了博士学位获得者就业趋势。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Second , aggregate information provides only a high - level view of a field , which can make it difficult to investigate causality  .",
+        "baseline":"其次, 综合信息只能提供一个高层次的视角, 从而使研究因果关系变得困难.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Here , we present a novel system , based on a topical web crawler , that can quickly and automatically assemble a full census of an academic field using digital data available on the public World Wide Web .",
+        "baseline":"这里,我们提出了一种基于主题的网络爬行器的新系统,它可以快速和自动建立一个学术领域完整的人口普查,使用在公开的互联网上可用的数字数据。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In many respects , researchers already possess a wealth of knowledge concerning the origins and consequences of discrimination and bias .",
+        "baseline":"在许多方面,研究人员已经掌握了大量关于歧视和偏见的起源和后果的知识。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"What also should not be lost in discussion of discrimination is the growing push to implement social policy aimed at reducing the occurrence of discriminatory practices .",
+        "baseline":"在讨论歧视时,不应该失去的还有日益推动实施旨在减少歧视行为的社会政策。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Respondents were allowed to choose one response from 11 categories .",
+        "baseline":"回答者可以从11个类别中选择一个答案。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Because a race variable is not available from the Wave 4 interviews , we use the racial category reported by the respondent during the Wave 1 interview .",
+        "baseline":"由于Wave4访谈中没有种族变量,我们使用回答者在Wave1访谈中报告的种族类别。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"First , summary statistics of the study variables and racial categories were produced .",
+        "baseline":"首先对研究变量和种族分类进行了总结统计。",
+        "zh":[
+            "首先,对研究变量和种族分类进行了总结统计.",
+            "首先,对研究变量和种族分类进行了总结统计.",
+            "首先,对研究变量和种族分类进行了总结统计.",
+            "首先,对研究变量和种族分类进行了总结统计.",
+            "首先,对研究变量和种族分类进行了总结统计.",
+            "首先,对研究变量和种族分类进行了总结统计.",
+            "首先,对研究变量和种族分类进行了总结统计.",
+            "首先,对研究变量和种族分类进行了总结统计.",
+            "首先,对研究变量和种族分类进行了总结统计.",
+            "首先,对研究变量和种族分类进行了总结统计."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    }
+]

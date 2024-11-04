@@ -1,0 +1,122 @@
+[
+    {
+        "en":"Consider institutions with a credentialing function , such as universities , bar associations , or peer review bodies .",
+        "baseline":"考虑具有授权功能的机构,例如大学、律师协会或同行评审机构。",
+        "zh":[
+            "考虑具有授权功能的机构,如大学、律师会或同行评审机构.",
+            "考虑具有授权功能的机构,如大学、律师会或同行评审机构.",
+            "考虑具有授权功能的机构,如大学、律师会或同行评审机构.",
+            "考虑具有授权功能的机构,如大学、律师会或同行评审机构.",
+            "考虑具有授权功能的机构,如大学、律师会或同行评审机构.",
+            "考虑具有授权功能的机构,例如大学、律师会或同行评审机构.",
+            "考虑具有授权功能的机构,例如大学、律师会或同行评审机构."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"For example , universities have a financial incentive to inflate the expertise of their academic staff , thereby increasing their rankings , bringing in grant money , and attracting students .",
+        "baseline":"例如,大学有财政奖励,以提高其学术人员的专门知识,从而提高其排名,吸引助学金,吸引学生。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Of interest here , studies suggest that , despite the difficulties in acquiring L2 grammar , adult learners can approximate native - like levels of use and neurocognitive processing  –  .",
+        "baseline":"研究表明,尽管在学习L2语法方面有困难,但成人学习者能够接近母语使用水平和神经认知处理水平。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Higher levels of proficiency  may be associated with less attrition  ,  ,  ,  or even with no observed losses  .",
+        "baseline":"较高的技能水平可能与较少的衰减有关,甚至没有观察到的损失。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In addition , students participating in the interview reported a preference for games that involve problem solving , recognize the need to plan actions in relation to their importance for the game and for daily activities , and realize improvements in the ability to sustain attention .",
+        "baseline":"此外,参加面试的学生对涉及解决问题的游戏有偏好,认识到需要在游戏和日常活动方面规划行动,并认识到保持注意力的能力有所改善。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There are two distinct claims being made here : 1. that Huh ? is universal , and 2. that Huh ? is a word .",
+        "baseline":"这里有两种不同的说法: 1. 是 是 普遍的, 2. 是 单词的 。",
+        "zh":[
+            "这里有两种不同的说法:1.哦?是普遍的,2.哦?是单词.",
+            "这里有两种不同的说法:1.哦?是普遍的,2.哦?是单词.",
+            "这里有两种不同的说法:1.是是,是,是,是,是,是,是,是,是,是,是,是,是,是,是,是,是.",
+            "这里有两种不同的说法:1.希希?是普遍的,2.希希?是单词.",
+            "这里有两种不同的说法:1.哦?是普遍的,2.哦?是单词."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"In support of the first claim , we show that the similarities in form and function of an interjection with the specific function of repair initiation are very much greater across languages than chance coincidence would admit .",
+        "baseline":"为了支持第一个说法,我们证明了干涉与修补启动的具体功能形式和功能的相似性在语言中比偶然的巧合所承认的要大得多。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"After speaker G makes a statement , speaker E utters the interjection huh ? .",
+        "baseline":"在 G 发言后, E 发言者发出插嘴 huh? 。",
+        "zh":[
+            "在G发言后,E发言者发表了插话啊?",
+            "在G发言后,E发言者发表了插话啊?",
+            "在G发言后,E发言者发表了插话啊?",
+            "在G发言后,E发言者发表了插话,是吗?",
+            "在G发言后,E发言者发表了插话啊?",
+            "在G发言后,E发言者发表了插话啊?",
+            "在G发言后,E发言者发表了插话啊?",
+            "在G发言后,E发言者发表了插话啊?",
+            "在G发言后,E发言者发表了插话啊?",
+            "在G发言后,E发言者发表了插话啊?"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Further , we posited that if our initial hypothesis was not supported , and in fact there was some non - adult - like performance , that there would be significant variability among the conditions , with cardinal numbers having the highest performance and some the weakest .",
+        "baseline":"此外,我们认为如果我们最初的假设没有得到支持,并且事实上存在一些非成人的性能,那么在条件之间将存在显著的变异,其中枢机数具有最高性能和一些最弱的性能。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It serves as a reminder of the work that needs to be completed for the cross-linguistic study of SI in particular and acquisition more generally .",
+        "baseline":"它提醒人们需要完成对特别语言学的跨语言学研究和更普遍的习得的工作。",
+        "zh":[
+            "它是提醒人们必须完成的工作,特别是对SI的跨语言研究和更普遍的学习。",
+            "它是提醒人们必须完成的工作,特别是对SI的跨语言研究和更普遍的学习。",
+            "它是提醒人们必须完成的工作,特别是对SI的跨语言研究和更普遍的学习。",
+            "它是提醒人们必须完成的工作,特别是对SI的跨语言研究和更普遍的学习。"
+        ],
+        "fvec":[
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000"
+        ]
+    }
+]

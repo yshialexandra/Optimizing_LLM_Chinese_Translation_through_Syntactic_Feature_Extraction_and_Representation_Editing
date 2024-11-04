@@ -1,0 +1,100 @@
+[
+    {
+        "en":"North Americans keep more distance and maintain a large “ personal space . ”",
+        "baseline":"北美洲人保持更远距离并保持“ 个人空间 ” 。",
+        "zh":[
+            "北美人保持更远的距离,保持较大的“个人空间”.",
+            "北美人保持更远的距离,保持较大的“个人空间”.",
+            "北美人保持更远的距离,保持较大的“个人空间”.",
+            "北美人保持更远的距离,保持较大的“个人空间”.",
+            "北美洲人保持更大的距离,保持“个人空间”.",
+            "北美洲人保持更大的距离,保持“个人空间”.",
+            "北美人保持更远的距离,保持较大的“个人空间”.",
+            "北美人保持更远的距离,保持较大的“个人空间”."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"In the United States , it ’s most likely filled with coffee , not Earl Grey tea , a favorite in England , or Yak Butter tea , a staple in Tibet .",
+        "baseline":"在美国,它最有可能是一杯咖啡,而不是英国最受欢迎的厄尔·格雷茶,或者西藏最常用的雅克奶油茶。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"People with the best intentions sometimes travel to a society to “ help ” its people , because they see them as uneducated or backward - essentially inferior .",
+        "baseline":"有好意的人有时会到一个社会去“帮助”其人民,因为他们认为他们是没有教育的或落后的 — — 基本上是低劣的。",
+        "zh":[
+            "有好意的人有时到社会去“帮助”其人民,因为他们认为他们是没有教育的,或者落后的,基本上是劣势的.",
+            "有好意的人有时到社会去“帮助”其人民,因为他们认为他们是没有教育的或落后的,基本上是劣势的.",
+            "有好意的人有时到社会去“帮助”其人民,因为他们认为他们是无教育或落后的,基本上是低劣的.",
+            "有好意的人有时到社会去“帮助”其人民,因为他们认为他们是没有教育的,或者落后的,基本上是劣势的.",
+            "有好意的人有时到社会去“帮助”其人民,因为他们认为他们是没有教育的,或者落后的,基本上是劣势的.",
+            "有好意的人有时到社会去“帮助”其人民,因为他们认为他们是没有教育的,或者落后的,基本上是劣势的."
+        ],
+        "fvec":[
+            "000000000000000000010000000001000",
+            "000000000000000000010000000001000",
+            "000000000000000000010000000001000",
+            "000000000000000000010000000001000",
+            "000000000000000000010000000001000",
+            "000000000000000000010000000001000"
+        ]
+    },
+    {
+        "en":"In sociology , we call this culture shock .",
+        "baseline":"在社会学中,我们称之为文化冲击。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Eventually , as people learn more about a culture , they recover from culture shock .",
+        "baseline":"最后,随着人们对文化的认识,他们从文化冲击中恢复过来。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Culture shock may appear because people are n’t always expecting cultural differences .",
+        "baseline":"文化冲击可能出现,因为人们并不总是期望文化差异。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Over the course of his stay , Barger participated in caribou hunts , learned how to take shelter in winter storms , and sometimes went days with little or no food to share among tribal members .",
+        "baseline":"在他逗留期间,巴格尔参与了美洲豹狩猎,学会了如何在冬天的暴风雨中避难,有时甚至连几天都没有食物与部落成员分享。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Trying hard and working together , two nonmaterial values , were indeed much more important than winning .",
+        "baseline":"努力和共同努力,两个非物质的价值,的确比胜利更重要。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"During his time with the Inuit tribe , Barger learned to engage in cultural relativism .",
+        "baseline":"在他与印第安人部落生活期间,巴格学会了文化相对论。",
+        "zh":[
+            "在与印第安人部落生活期间,巴格学会了文化相对论.",
+            "在与印第安人部落交谈期间,巴格学会了文化相对论。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Practicing cultural relativism requires an open mind and a willingness to consider , and even adapt to , new values and norms .",
+        "baseline":"实践文化相对论需要开放的头脑和考虑,甚至适应新的价值观和规范的意愿。",
+        "zh":[],
+        "fvec":[]
+    }
+]

@@ -1,0 +1,124 @@
+[
+    {
+        "en":"Tulsa has one of the largest concentrations of Art Deco in the nation , having been a booming city during the 1920s when the architecture was first built by rich oil barons who built stately mansions and turned the Downtown area into a treasure trove of art .",
+        "baseline":"塔尔萨是全国最大的艺术装饰中心之一,它是20世纪20年代兴旺的城市,当时建筑由富有的石油贵族建造,他们建造了庄严的豪宅,把市中心地区变成了艺术宝库。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It has major airlines with direct flights to major cities in the U.S.",
+        "baseline":"它有主要航空公司直航到美国主要城市。",
+        "zh":[
+            "美国主要航空公司有直达美国主要城市的航空公司。",
+            "美国主要航空公司有直达美国主要城市的航空公司。",
+            "美国主要航空公司有直达美国主要城市的航空公司。",
+            "美国主要航空公司有直达美国主要城市的航空公司。",
+            "美国主要航空公司有直达美国主要城市的航空公司。",
+            "美国主要航空公司有直达美国主要城市的航空公司。",
+            "美国主要航空公司有直达美国主要城市的航空公司。",
+            "美国主要航空公司有直达美国主要城市的航空公司。",
+            "美国主要航空公司有直达美国主要城市的航空公司。",
+            "美国主要航空公司有直达美国主要城市的航空公司。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"The airport offers free short term parking  .",
+        "baseline":"机场提供免费短期停车。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Thanks to urban planning , the major city streets are placed in a grid layout .",
+        "baseline":"由于城市规划,主要城市街道都设置成网格布局。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Several freeways and bypasses can be used to easily get around the Tulsa Metro area : I - 244 , I - 44 , US 169  , US 75 , Hwy 51  , Creek Turnpike .",
+        "baseline":"多条高速公路和绕道可用来绕过塔尔萨地铁区: I-244, I-44, US 169, US 75, Hwy 51, Creek Turnpike。",
+        "zh":[
+            "多条高速公路和绕道可以轻易地绕过塔尔萨地铁区:I-244、I-44、US169、US75、Hwy51、CreekTurnpike.",
+            "多条高速公路和绕道可以轻易地绕过塔尔萨地铁区:I-244、I-44、US169、US75、Hwy51、CreekTurnpike.",
+            "多条高速公路和绕道可以轻易地绕过塔尔萨地铁区:I-244、I-44、US169、US75、Hwy51、CreekTurnpike.",
+            "多条高速公路和绕道可以轻易地绕过塔尔萨地铁区:I-244、I-44、US169、US75、Hwy51、CreekTurnpike.",
+            "多条高速公路和绕道可以轻易地绕过塔尔萨地铁区:I-244、I-44、US169、US75、Hwy51、CreekTurnpike.",
+            "多条高速公路和绕道可以轻易地绕过塔尔萨地铁区:I-244、I-44、US169、US75、Hwy51、CreekTurnpike.",
+            "多条高速公路和绕道可以轻易地绕过塔尔萨地铁区:I-244、I-44、US169、US75、Hwy51、CreekTurnpike.",
+            "多条高速公路和绕道可以轻易地绕过塔尔萨地铁区:I-244、I-44、US169、US75、Hwy51、CreekTurnpike."
+        ],
+        "fvec":[
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000",
+            "000000000000010000000000000000000"
+        ]
+    },
+    {
+        "en":"Watch out for Place , Street , Avenue designation , e.g. 47th Place , 47th Street , or Florence Place , Florence Avenue .",
+        "baseline":"注意广场 、 街道 、 大道名称,例如第47广场 、 第47街 、 佛罗伦萨广场 、 佛罗伦萨大道 。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Tulsa Transit provides bus service for the Tulsa Metro area .",
+        "baseline":"塔尔萨交通公司为塔尔萨地铁区提供公共汽车服务。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They do not run that often , especially to the outer towns like Broken Arrow .",
+        "baseline":"他们并不经常跑,特别是到外围的城镇,如 Broken Arrow。",
+        "zh":[
+            "他们不太经常跑,特别是到外郊的城镇,如BrokenArrow.",
+            "他们并不经常跑,特别是到外郊的城镇,如BrokenArrow.",
+            "他们并不经常跑,特别是到外郊的城镇,如BrokenArrow.",
+            "他们不太经常跑,特别是到外郊的城镇,如BrokenArrow.",
+            "他们并不经常跑,特别是到外郊的城镇,如BrokenArrow.",
+            "他们不太经常跑,特别是到外郊的城镇,如BrokenArrow.",
+            "他们并不经常跑,特别是到外郊的城镇,如BrokenArrow.",
+            "他们并不经常跑,特别是到外郊的城镇,如BrokenArrow.",
+            "他们并不经常跑,特别是到外郊的城镇,如BrokenArrow.",
+            "他们不太经常跑,特别是到外郊的城镇,如BrokenArrow."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Tulsa has an extensive interconnected paved bike trail system .",
+        "baseline":"图尔萨有一个广泛的相互连接的铺设自行车道系统。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Rivertrail follows the Arkansas River from downtown Tulsa south to the suburbs .",
+        "baseline":"河道沿着阿肯萨斯河从图尔萨市中心南到郊区。",
+        "zh":[],
+        "fvec":[]
+    }
+]

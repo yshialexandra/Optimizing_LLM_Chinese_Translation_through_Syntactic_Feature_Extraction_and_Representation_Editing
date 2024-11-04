@@ -1,0 +1,84 @@
+[
+    {
+        "en":"Anneal and Kumar taught it .",
+        "baseline":"安妮尔和库马尔教过它。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"\" Yes , \" I said .",
+        "baseline":"“ 是的, ” 我说道。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"People from Earth come here to live .",
+        "baseline":"来自地球的人来这里生活。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We forget we are from Earth .",
+        "baseline":"我们忘记我们来自地球。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Then Earth finds us again . \"",
+        "baseline":"然后地球又发现我们了。 ”",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We said the first people came out of the sun .",
+        "baseline":"我们说第一批人从太阳里出来。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"This somehow seemed embarrassing .",
+        "baseline":"这听起来很尴尬。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"\" No , \" she said .",
+        "baseline":"“ 不, ” 她说。",
+        "zh":[
+            "“不,”她说.",
+            "“不,”她说.",
+            "“不,”她说.",
+            "“不,”她说.",
+            "“不,”她说.",
+            "“不,”她说.",
+            "“不,”她说.",
+            "“不,”她说.",
+            "“不,”她说.",
+            "“不,”她说."
+        ],
+        "fvec":[
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000"
+        ]
+    },
+    {
+        "en":"Sometimes there was gunfire outside and we jumped , even Mam on the bed .",
+        "baseline":"有时外面有枪声,我们跳起来,甚至妈妈躺在床上。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Once Bet was asleep it was impossible to wake her up .",
+        "baseline":"贝特一睡,就不可能叫醒她。",
+        "zh":[],
+        "fvec":[]
+    }
+]

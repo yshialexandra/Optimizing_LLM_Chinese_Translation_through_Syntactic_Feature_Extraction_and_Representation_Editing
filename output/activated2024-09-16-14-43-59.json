@@ -1,0 +1,74 @@
+[
+    {
+        "en":"You only have two .",
+        "baseline":"你只有两个。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So you ca n't have a set .",
+        "baseline":"所以你没有一套。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Every time you take over a country you get cards .",
+        "baseline":"每次你接管一个国家,你都会得到卡片。",
+        "zh":[
+            "每次接管一个国家,你都会得到一张卡片。",
+            "每次接管一个国家,你都会得到一张卡片。",
+            "每次接管一个国家,你都会得到一张卡片。",
+            "每次接管一个国家,你都会得到一张卡片。",
+            "每次接管一个国家,你都会得到一张卡片。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Look at that .",
+        "baseline":"看那。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Look at that .",
+        "baseline":"看那。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Do n't you fucking attack me .",
+        "baseline":"你别来攻击我了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"I 'm tired .",
+        "baseline":"我累了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And scientists are , are taking such control over the world these days , uh with their n- , you know , not the scientists , but what they 've invented .",
+        "baseline":"科学家们现在正在控制世界,他们用他们的n-,你知道,不是科学家们,而是他们发明的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Looking with his head down .",
+        "baseline":"他头往下看。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And , and uh , alluded to .",
+        "baseline":"还有,还有,提到了。",
+        "zh":[],
+        "fvec":[]
+    }
+]

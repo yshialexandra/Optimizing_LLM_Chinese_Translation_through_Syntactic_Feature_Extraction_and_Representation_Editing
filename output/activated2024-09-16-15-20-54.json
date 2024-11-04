@@ -1,0 +1,80 @@
+[
+    {
+        "en":"We do n't really remember .",
+        "baseline":"我们实在记不起。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It 's been around forever .",
+        "baseline":"它一直存在着。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We 'll leave that to the professionals .",
+        "baseline":"我们将把这交给专业人员。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Do you think it was an appropriate form of satire for Dan Savage to popularize the definition of the santorum neologism created in his advice column ?",
+        "baseline":"你认为丹·萨维奇(Dan Savage) popularizing the definition of the santorum neologism created in his advice column was an appropriate form of satire 吗?",
+        "zh":[
+            "你认为丹·萨维奇(DanSavage)popularizingthedefinitionofthesantorumneologismcreatedinhisadvicecolumn是适当的讽刺形式吗?",
+            "你认为丹·萨维奇(DanSavage)popularizingsanorumneologismdefinitionwasanappropriateformofsatireinhisadvicecolumn?",
+            "你认为丹·萨维奇(DanSavage)popularizingthedefinitionofthesantorumneologismcreatedinhisadvicecolumn是适当的讽刺形式吗?",
+            "你认为丹·萨维奇(DanSavage)popularizingsanorumneologismdefinitionwasanappropriateformofsatireforDanSavage吗?",
+            "你认为丹·萨维奇(DanSavage)popularizingthedefinitionofthesantorumneologismcreatedinhisadvicecolumn是适当的讽刺形式吗?"
+        ],
+        "fvec":[
+            "000000000000000000000000010000000",
+            "000000000000000000000000010000000",
+            "000000000000000000000000010000000",
+            "000000000000000000000000010000000",
+            "000000000000000000000000010000000"
+        ]
+    },
+    {
+        "en":"We thought it was funny .",
+        "baseline":"我们觉得这很有趣。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The ingredients are shaken and / or poured into a cocktail glass .",
+        "baseline":"材料搅拌并/或倒入鸡尾酒杯中。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"See the pictures .",
+        "baseline":"看照片。",
+        "zh":[
+            "请参见图片。",
+            "请参见图片。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"You 'd probably be having the cocktail at dessert time , so something sweet ; ice cream or pie .",
+        "baseline":"你可能在甜点时喝鸡尾酒, 因此要吃点甜点; 冰淇淋或蛋糕.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We have no way to estimate how many times we 've served it overall , but we 're now pouring around ten a night .",
+        "baseline":"我们没有办法估算我们总共服务了多少次,但现在我们正在晚上喝十杯左右。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The forecast is for a continued decline in strength to a tropical storm within 24 hours and a tropical depression within 36 hours .",
+        "baseline":"预计热带风暴强度在24小时内持续下降,热带低气压在36小时内下降。",
+        "zh":[],
+        "fvec":[]
+    }
+]

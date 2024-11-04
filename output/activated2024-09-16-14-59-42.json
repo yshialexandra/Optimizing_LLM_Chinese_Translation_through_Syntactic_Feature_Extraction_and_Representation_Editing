@@ -1,0 +1,76 @@
+[
+    {
+        "en":"When I was a little girl , he did that often , and called me Muscles .",
+        "baseline":"我小的时候,他经常这样,叫我肌肉。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It smelled like March .",
+        "baseline":"它闻起来像三月。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We walked back through the school because it was drizzling , my father tall in his navy suit and my shoes going click on the linoleum .",
+        "baseline":"我们穿过学校,因为雨水滴着,我父亲身着海军服高高,我的鞋子正踩着毛毯。",
+        "zh":[
+            "我们回校,因为雨滴滴着,我父亲身着海军服高高,我的鞋子正上床。",
+            "我们回校,因为雨滴滴着,我父亲身着海军服高高,我的鞋子正滑动在毛鞋上。",
+            "我们回校,因为雨滴滴着,我父亲身着海军服高高,我的鞋子正滑动在毛鞋上。",
+            "我们回校,因为雨滴滴着,我父亲身着海军服高高,我的鞋子正上床。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"The hall ended in a T and we went left through the gym , walked underneath the bleachers and stood next to the side door , waiting for the rain to stop .",
+        "baseline":"体育馆在T字段结束,我们走到左边,穿过体育馆,走到漂白剂下面,站在侧门旁边,等待雨停。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There were things in the shadows ; a metal pail , a mop , rags .",
+        "baseline":"阴影里有东西: 金属桶 、 毛布 、 毛布.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There was no holder and the end was jagged .",
+        "baseline":"没有扣子,末端被夹住。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There was a rustling on the concrete and the drizzle of soft rain .",
+        "baseline":"混凝土上响起了 rustling 和轻微的雨滴。",
+        "zh":[
+            "混凝土上响起了rustling声,还有轻微的雨滴."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"My father cleared his throat , looking out the door .",
+        "baseline":"我父亲把喉咙清开,看着门外。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It had nearly stopped raining .",
+        "baseline":"雨几乎停止了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In fifteen minutes we would be home and my mother would fry eggs .",
+        "baseline":"十五分钟后,我们就会回家,妈妈会煎蛋。",
+        "zh":[],
+        "fvec":[]
+    }
+]

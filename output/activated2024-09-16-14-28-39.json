@@ -1,0 +1,84 @@
+[
+    {
+        "en":"The federation of monasteries was falling apart , and Theodorus rushed to Tabennese to placate the rebels .",
+        "baseline":"修道院联盟正在瓦解,西奥多拉斯急忙赶到塔本内斯镇压叛乱者。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You should go out on the road there , like , yeah .",
+        "baseline":"你应该在路上出去,像,是的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Y- — oh well , I 'm glad to meet you .",
+        "baseline":"哦,很高兴见到你。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Of course we call it a sholids .",
+        "baseline":"当然,我们称它为沙利德。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And a solid has one shape .",
+        "baseline":"一个固体有一个形状。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The shape that it starts out with .",
+        "baseline":"它开始的形状是 。",
+        "zh":[
+            "它最初的形状是。",
+            "它最初的形状是。",
+            "它最初的形状是。",
+            "它最初的形状是。",
+            "它最初的形状是。",
+            "它最初的形状是。",
+            "它最初的形状是。",
+            "它最初的形状是。",
+            "它最初的形状是。",
+            "它最初的形状是。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Take a bath in .",
+        "baseline":"去洗澡吧。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Add energy .",
+        "baseline":"增加能量。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Well , everybody count together .",
+        "baseline":"好吧,大家一起计数。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There 's a- in there .",
+        "baseline":"里面有个。",
+        "zh":[],
+        "fvec":[]
+    }
+]

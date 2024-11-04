@@ -1,0 +1,82 @@
+[
+    {
+        "en":"The Confederacy also mobilized , perhaps to a greater degree than the Union , its efforts to secure independence and maintain slavery .",
+        "baseline":"联邦也动员起来,也许比欧盟更大程度,努力确保独立和维持奴隶制。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Rampant inflation as well as food shortages in the South lowered morale .",
+        "baseline":"暴涨的通货膨胀以及南方粮食短缺降低了士气。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"From the beginning of the war , the Confederacy placed great hope in being recognized and supported by Great Britain and France .",
+        "baseline":"自战争开始以来,联合王国对英国和法国的承认和支持抱有极大的希望。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Napoleon III of France believed the Civil War presented an opportunity for him to restore a French empire in the Americas .",
+        "baseline":"拿破仑三世认为内战为他重新建立法国在美洲的帝国提供了机会。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The French then moved to capture Mexico City , but the advance came to an end when Mexican forces defeated the French in 1862 .",
+        "baseline":"随后,法国人动身攻占墨西哥城,但墨西哥军队在1862年击败法国人后,前进的结束。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Rather than coming to the aid of the Confederacy , France used the Civil War to provide a pretext for efforts to reestablish its former eighteenth - century colonial holdings .",
+        "baseline":"法国没有向联邦提供援助,而是利用内战作为借口重新建立其18世纪以前的殖民地。",
+        "zh":[
+            "法国使用内战为恢复其18世纪殖民地的努力提供了借口,而不是援助联邦.",
+            "法国利用内战为恢复其18世纪殖民地的努力提供了借口,而不是向联邦提供援助.",
+            "法国使用内战作为借口重新建立其前十八世纪殖民地.",
+            "法国利用内战为重建其18世纪殖民地所作的努力提供了借口.",
+            "法国使用内战作为借口重新建立其前十八世纪殖民地.",
+            "法国使用内战作为借口重新建立其前十八世纪殖民地."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Still , the Confederacy had great confidence that it would find an ally in Great Britain despite the antislavery sentiment there .",
+        "baseline":"尽管英国人反对奴隶制,但南盟仍非常有信心在英国找到盟友。",
+        "zh":[
+            "尽管存在反奴隶制情绪,但苏格兰联邦还是非常有信心在英国找到盟友。",
+            "尽管存在反奴隶制情绪,但苏格兰联邦还是非常有信心在英国找到盟友。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Southerners hoped Britain ’s dependence on cotton for its textile mills would keep the country on their side .",
+        "baseline":"南方人希望英国对纺织厂的棉花依赖将使英国保持在他们一边。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Both were destroyed during the war .",
+        "baseline":"双方在战争中被摧毁。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The Emancipation Proclamation , however , led to the enrollment of African American men as Union soldiers .",
+        "baseline":"然而,解放宣言导致了非洲裔美国人成为联邦士兵。",
+        "zh":[],
+        "fvec":[]
+    }
+]

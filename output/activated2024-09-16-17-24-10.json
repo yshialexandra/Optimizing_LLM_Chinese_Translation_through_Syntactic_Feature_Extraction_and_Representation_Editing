@@ -1,0 +1,70 @@
+[
+    {
+        "en":"Start near the chicken 's beak and draw the line slowly outward , in front of its head .",
+        "baseline":"开始靠近鸡嘴,慢慢向外拉线,放在鸡头前面。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Wake it up by clapping .",
+        "baseline":"通过鼓掌唤醒它。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Clap your hands or give it a gentle shove until it jumps up and walks away .",
+        "baseline":"拍手或轻轻地拍它,直到它跳起来走开。",
+        "zh":[
+            "拍手或轻轻摇,直到它跳起来走开。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"Understand the hypnotic effect .",
+        "baseline":"了解催眠效果。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Keep the chicken upright or on its side .",
+        "baseline":"保持鸡直立或侧面。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Keep hypnosis short and infrequent .",
+        "baseline":"保持催眠短而罕见。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Even if it does , the chicken should n't suffer as long as you let it go soon afterward .",
+        "baseline":"即使这样,只要你把鸡放走后不久,鸡就不会受到伤害。",
+        "zh":[
+            "即便是这样,只要你把鸡放出来后不久,鸡就不会受苦了."
+        ],
+        "fvec":[
+            "000000000000000000000000010000000"
+        ]
+    },
+    {
+        "en":"Even prolonged eye contact seems to have an effect .",
+        "baseline":"甚至 prolonged eye contact似乎也有效果。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Living in stimulating environments with new objects may also help .",
+        "baseline":"生活在刺激的环境中,使用新事物也可以帮助。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Prepare the muffin tray by adding cupcake holders / cases .",
+        "baseline":"通过添加蛋糕夹具/箱子来准备蛋糕盘子。",
+        "zh":[],
+        "fvec":[]
+    }
+]

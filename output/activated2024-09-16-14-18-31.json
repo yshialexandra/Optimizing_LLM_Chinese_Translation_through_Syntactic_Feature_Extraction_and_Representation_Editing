@@ -1,0 +1,82 @@
+[
+    {
+        "en":"They have two daughters , Matilda Eve Goode   and Teddie Eleanor Rose Goode  , and a son , Ralph Goode  .",
+        "baseline":"他们有两个女儿,玛蒂尔达·伊娃·古德和泰迪·埃莉诺·罗斯·古德,还有一个儿子,拉尔夫·古德。",
+        "zh":[
+            "他们育有两个女儿,玛蒂尔达·伊娃·古德和泰迪·埃利亚诺·罗斯·古德,还有一个儿子,拉尔夫·古德.",
+            "他们育有两个女儿,玛蒂尔达·伊娃·古德和泰迪·埃琳娜·罗斯·古德,还有一个儿子,拉尔夫·古德."
+        ],
+        "fvec":[
+            "000000000000000000010000000000000",
+            "000000000000000000010000000000000"
+        ]
+    },
+    {
+        "en":"Goode was born in Exeter , Devon .",
+        "baseline":"古德出生于德文州埃克塞特。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Gordon assumed the additional Christian name of Leopold when confirmed as a Roman Catholic shortly before his death .",
+        "baseline":"戈登在去世前不久被确认为罗马天主教徒时,继承了莱奥波德的额外的基督教名字。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"After his return he distinguished himself in several wars against the Turks and Tatars in southern Russia .",
+        "baseline":"在返回后,他在南俄罗斯的几个战争中对土耳其人和塔塔尔人进行了突出的贡献。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"However , in recognition of his service he was promoted to major - general in 1678 , was appointed to the high command at Kiev in 1679 , and in 1683 was made lieutenant - general .",
+        "baseline":"1678年他被提升为少将,1679年被任命为基辅高级指挥官,1683年被任命为少将。",
+        "zh":[
+            "然而,由于服役,他于1678年升为少将,1679年被任命为基辅高级指挥官,1683年升为少将.",
+            "然而,由于服役,他于1678年升为少将,1679年被任命为基辅高级指挥官,1683年升为少将."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Gordon visited England and Scotland in 1686 .",
+        "baseline":"1686年,戈登访问了英格兰和苏格兰。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"For his services his second son James , brigadier of the Russian army , was created Count of the Holy Roman Empire in 1701 .",
+        "baseline":"他的第二个儿子詹姆斯,俄军旅长,于1701年成为圣罗马帝国伯爵。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"General Gordon left behind him a uniquely detailed diary of his life and times , written in English .",
+        "baseline":"戈登将军留下了他一生和时代独特的详细的日记,写成英文。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"She lived until 1739 .",
+        "baseline":"直到1739年才去世。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In 2012 , she was made a Dame by Elizabeth II for services to architecture , and in 2015 she became the first and only woman to be awarded the Royal Gold Medal from the Royal Institute of British Architects .",
+        "baseline":"2012年,她被伊丽莎白二世为建筑服务的 Dame, 2015年,她成为英国皇家建筑师协会颁发的皇家金奖的第一位和唯一的女性。",
+        "zh":[
+            "2012年,她被伊丽莎白二世为建筑服务的Dame,并于2015年成为英国皇家建筑师学院颁发皇家金奖的首位和唯一的女性。",
+            "2012年,她被伊丽莎白二世为建筑服务的Dame,并于2015年成为英国皇家建筑师学院颁发皇家金奖的首位和唯一的女性。",
+            "2012年,她被伊丽莎白二世为建筑服务的Dame,并于2015年成为英国皇家建筑师学院颁发皇家金奖的首位和唯一的女性。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    }
+]

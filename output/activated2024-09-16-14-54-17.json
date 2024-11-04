@@ -1,0 +1,88 @@
+[
+    {
+        "en":"We ask you to reaffirm Campbell and reverse the decision below .",
+        "baseline":"我们请你重申坎贝尔并扭转下文的决定。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And that was n't just a past question that 's sort of like water under the bridge because of the statute of limitations .",
+        "baseline":"这不是一个过去的问题,因为限制的规例,它有点像水在桥下。",
+        "zh":[
+            "那并不是过去的问题,它有点像水在桥下,因为限制的规约。"
+        ],
+        "fvec":[
+            "000000010000000000000000000000000"
+        ]
+    },
+    {
+        "en":"That has ongoing significance because , if we --",
+        "baseline":"这具有持续意义,因为如果我们...",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It should be considered .",
+        "baseline":"应该考虑。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The Second Circuit did n't .",
+        "baseline":"第二回合没有。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"That 's up to what was made , what use was made of Orange Prince .",
+        "baseline":"这取决于制造的是什么,使用的是橙王子的是什么。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Especially if you ’re in the middle of a sentence .",
+        "baseline":"尤其是当你在句子中间的时候。",
+        "zh":[
+            "尤其是你在句子中间的话。",
+            "尤其是你在句子中间的话。",
+            "尤其是你在句子中间的话。",
+            "尤其是你在句子中间的话。",
+            "尤其是你在句子中间的话。",
+            "尤其是你在句子中间的话。",
+            "尤其是你在句子中间的话。",
+            "尤其是你在句子中间的话。",
+            "尤其是你在句子中间的话。",
+            "尤其是你在句子中间的话。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"That way , when you sit down at the keyboard the next day , your first five or ten words are already ordained , so that you get a little push before you begin your work .",
+        "baseline":"这样,当你第二天坐在键盘上时,你的第一五个或十个字已经被定了,这样你就可以在开始工作之前得到一点推动力。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Potters leave a rough edge on the wet clay before they wrap it in plastic for the night — it ’s hard to build on a smooth edge .",
+        "baseline":"陶工在把泥土包成塑料后,在泥土上留下一个粗糙的边缘 — — 很难在粗糙的边缘上建造。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It ’s nice to have all your physical needs met before you write , but if you convince yourself that you can only write in a perfect world , you compound the problem of finding 20 free minutes with the problem of finding the right environment at the same time .",
+        "baseline":"在你写之前,要满足所有你的物理需求是件好事,但如果你相信自己只能在完美的世界里写字,你就会把找到20分钟的免费时间和找到合适的环境的问题一起填补起来。",
+        "zh":[],
+        "fvec":[]
+    }
+]

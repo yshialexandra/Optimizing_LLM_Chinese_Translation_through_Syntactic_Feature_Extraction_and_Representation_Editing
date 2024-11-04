@@ -1,0 +1,86 @@
+[
+    {
+        "en":"The finals saw US team Cloud9 and Immortals , from Brazil , face off in Counter-Strike : Global Offensive .",
+        "baseline":"在决赛中,来自巴西的美国队Cloud9和Immortals在《反击:全球进攻》中相遇。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"After nearly half an hour , the team was deducted a point , leading to a sudden but temporary rush of success by the US team .",
+        "baseline":"半小时后,球队被扣掉一分,导致美国队突然而暂时的快速成功。",
+        "zh":[
+            "半小时后,球队被扣分了一分,导致美国队突然temporaryrushedofsuccess.",
+            "半小时后,球队被扣分了一分,导致美国队突然temporaryrushedofsuccess.",
+            "半小时后,球队被扣分了一分,导致美国队突然temporaryrushedofsuccess.",
+            "半小时后,球队被扣分了一分,导致美国队突然temporaryrushedofsuccess.",
+            "半小时后,球队被扣分了一分,导致美国队突然temporaryrushedofsuccess.",
+            "半小时后,球队被扣分了一分,导致美国队突然temporaryrushedofsuccess.",
+            "半小时后,球队被扣分了一分,导致美国队突然temporaryrushedofsuccess.",
+            "半小时后,球队被扣分了一分,导致美国队突然temporaryrushedofsuccess.",
+            "半小时后,球队被扣分了一分,导致美国队突然temporaryrushedofsuccess."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"The Canadian garrison of 501st Legion returned with their setup of photo - ops , with proceeds to the Make - A - Wish Foundation .",
+        "baseline":"加拿大第501团的驻军团带着他们拍摄的摄影行动, 并捐献给“ 制造一个愿望基金会 ”.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Brampton Spider - Gwen and Symbiote Spidey pose at the Comic Corps booth .",
+        "baseline":"布兰普顿蜘蛛 - 格温和双胞胎蜘蛛在漫画公司摊位姿态.",
+        "zh":[
+            "布兰普顿蜘蛛Gwen和辛比奥特蜘蛛在漫画公司摊位上做姿势."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"The majority of outfits involved at least some elements made from scratch , a fantastic display of craftsmanship .",
+        "baseline":"大多数服装至少包括一些从零的元素,一个绝佳的工艺品展示。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Mr Key promoted the campaign for a unique New Zealand flag on Waitangi Day - February 6 - this year .",
+        "baseline":"凯先生在今年2月6日(维塔尼日)为新西兰一个独特的旗帜开展宣传活动。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The first referendum is to be held from November 20 to December 11 , selecting a single new flag design out of about four finalists .",
+        "baseline":"第一次公民投票将从11月20日至12月11日举行,从四个最终选民中选出一个新的旗帜设计。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"\" Someone emailed me earlier today talking about a tool a group ’s been using to attack the scientology website .",
+        "baseline":"今天早些时候,有人给我发了电子邮件,说他们正在使用一种工具来攻击科学网站。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"As of 15:11 GMT the site was accessible again , but only loads at relatively slow speeds , and by the end of the day Saturday the site was not loading at all .",
+        "baseline":"截至15:11 GMT,该站再次开放,但仅在相对缓慢的速度上进行载荷,到星期六的最后一天,该站完全没有进行载荷。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Thomas Sam , 42 , and his wife Manju Sam , 36 , from Sydney , Australia , are undergoing trial for manslaughter by gross negligence for the death of their nine - month - old child , Gloria .",
+        "baseline":"来自澳大利亚悉尼的42岁的托马斯·萨姆和他的36岁的妻子曼朱·萨姆因严重 negligence谋杀他们9个月大的孩子格洛里亚而受到审判.",
+        "zh":[],
+        "fvec":[]
+    }
+]

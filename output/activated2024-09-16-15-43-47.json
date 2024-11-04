@@ -1,0 +1,116 @@
+[
+    {
+        "en":"The US State Department said John Kerry , the Secretary of State , contacted Thailand 's foreign minister over temporary housing for the Rohingya out at sea .",
+        "baseline":"美国国务院说,美国国务卿约翰·克里(John Kerry)联系了泰国外交部长,询问罗兴亚人在海上的临时住房问题。",
+        "zh":[
+            "美国国务院说,国务卿约翰?",
+            "美国国务院说,国务卿约翰?",
+            "美国国务院说,国务卿约翰?",
+            "美国国务院说,国务卿约翰?",
+            "美国国务院说,国务卿约翰?"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"After news of the police response was reported , Mohamed received support online ranging from US President Barack Obama to Facebook creator Mark Zuckerberg .",
+        "baseline":"警方回应的消息后,穆罕默德收到了来自美国总统奥巴马到Facebook创建者马克·扎克伯格的在线支持。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The Straits Times noted what began as individual messages to Mohamed had grown into a \" support movement \" .",
+        "baseline":"海峡时报指出,从个人给穆罕默德的讯息开始,已经发展成“ 支持运动 ” 。",
+        "zh":[
+            "海峡时报指出,从个人给穆罕默德的信息开始,已经发展成一个“支持运动”.",
+            "海峡时报指出,从个人给穆罕默德的信息开始,已经发展成一个“支持运动”.",
+            "海峡时报指出,从个人给穆罕默德的信息开始,已经发展成一个“支持运动”.",
+            "海峡时报指出,从个人给穆罕默德的信息开始,已经发展成一个“支持运动”.",
+            "海峡时报指出,从个人给穆罕默德的信息开始,已经发展成一个“支持运动”."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Co-founder of Google , Sergey Brin , personally met with Mohamed during his visit to Google .",
+        "baseline":"Google的共同创始人塞尔维亚·布林在访问谷歌期间亲自与穆罕默德会面。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"She chose the hastag #IStandWithAhmed and posted to Twitter .",
+        "baseline":"她选择“#IStandWithAhmed”并在Twitter上发布。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We should inspire more kids like you to like science .",
+        "baseline":"我们应该鼓励更多像你这样的孩子喜欢科学。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Memon also said she believed the social movement in reaction to Mohamed helped improve Muslim / non-Muslim .",
+        "baseline":"梅蒙还说,她相信社会运动对穆罕默德的反应有助于改善穆斯林/非穆斯林。",
+        "zh":[
+            "梅蒙还表示,她相信社会运动回应穆罕默德有助于改善穆斯林/非穆斯林。",
+            "梅蒙还表示,她相信社会运动回应穆罕默德有助于改善穆斯林/非穆斯林。",
+            "梅蒙还表示,她相信社会运动回应穆罕默德有助于改善穆斯林/非穆斯林。",
+            "梅蒙还表示,她相信社会运动回应穆罕默德有助于改善穆斯林/非穆斯林。",
+            "梅蒙还表示,她相信社会运动回应穆罕默德有助于改善穆斯林/非穆斯林。",
+            "梅蒙还表示,她相信社会运动回应穆罕默德有助于改善穆斯林/非穆斯林。",
+            "梅蒙还表示,她相信社会运动回应穆罕默德有助于改善穆斯林/非穆斯林。",
+            "梅蒙还表示,她相信社会运动回应穆罕默德有助于改善穆斯林/非穆斯林。",
+            "梅蒙还表示,她相信社会运动回应穆罕默德有助于改善穆斯林/非穆斯林。",
+            "梅蒙还表示,她相信社会运动回应穆罕默德有助于改善穆斯林/非穆斯林。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"\" Had it happened five hours earlier or four hours earlier , I think the death toll would have been more than a thousand . \"",
+        "baseline":"如果发生在5小时前或者4小时前,我认为死亡人数将超过1000人。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The crane accident comes just ten days before the beginning of the Hajj , the annual pilgrimage to Mecca , Islam 's holiest site .",
+        "baseline":"车祸发生在伊斯兰圣地摩卡的每年的巡礼 ஹஜ்开始前十天。",
+        "zh":[
+            "车祸发生在哈ஜ்开始前十天,这是每年前往伊斯兰圣地、摩加的巡礼.",
+            "车祸发生在哈ஜ்、每年前往伊斯兰圣地麦卡巡礼的开始十天前.",
+            "车祸发生在哈ஜ்、每年前往伊斯兰圣地麦卡巡礼的开始十天前."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Montalvo is holding a copy of the book Blown for Good critical of Scientology , written by Marc Headley .",
+        "baseline":"蒙塔尔沃持有一本由马克·海德利(Marc Headley)撰写的《Scientology》的《Blown for Good》评论书。",
+        "zh":[],
+        "fvec":[]
+    }
+]

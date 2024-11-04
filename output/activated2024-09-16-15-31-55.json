@@ -1,0 +1,84 @@
+[
+    {
+        "en":"It 's opened up a new fan base , so to speak .",
+        "baseline":"它开辟了一个新的粉丝基础, 就这么说.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"I have never called myself that , by the way .",
+        "baseline":"顺便说一下,我从来没这么称呼自己。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"See the collaboration page for more details .",
+        "baseline":"更详细的资料请参阅合作页面。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We do everything backwards here .",
+        "baseline":"这里我们做的一切都是逆转的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We start with a joke .",
+        "baseline":"我们从一个笑话开始。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Then we assign a headline to a specific writer to execute .",
+        "baseline":"然后我们分配一个标题给一个特定的作者执行。",
+        "zh":[
+            "然后指定一个标题给指定的作者执行。",
+            "然后指定一个标题给指定的作者执行。",
+            "然后指定一个标题给指定的作者执行。",
+            "然后指定一个标题给指定的作者执行。",
+            "然后指定一个标题给指定的作者执行。",
+            "然后指定一个标题给指定的作者执行。",
+            "然后指定一个标题给指定的作者执行。",
+            "然后指定一个标题给指定的作者执行。",
+            "然后指定一个标题给指定的作者执行。",
+            "然后指定一个标题给指定的作者执行。"
+        ],
+        "fvec":[
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000",
+            "000000000000000000000001000000000"
+        ]
+    },
+    {
+        "en":"We are a little less reactionary .",
+        "baseline":"我们有点不太反应。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"There is an understanding in the room .",
+        "baseline":"房间里有一种谅解。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"If it makes the room laugh , it probably ends up in the paper .",
+        "baseline":"如果它使房间笑起来,那么它很可能在报纸上。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"When you are going through the headlines , is it just you guys sitting around trying to crack each other up ?",
+        "baseline":"当你读过头条新闻时, 是不是只是你们俩坐在一起互相打架 呢?",
+        "zh":[],
+        "fvec":[]
+    }
+]

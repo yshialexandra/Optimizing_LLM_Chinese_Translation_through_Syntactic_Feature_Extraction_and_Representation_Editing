@@ -1,0 +1,84 @@
+[
+    {
+        "en":"You know boys are slow ?",
+        "baseline":"你知道男孩很慢吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Yeah I know .",
+        "baseline":"是的,我知道。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"She 's trying .",
+        "baseline":"她正在努力。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"She was in the hospital three times .",
+        "baseline":"她三次住院了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"She said thanks a lot , you know , because she was so worried about Jonathan .",
+        "baseline":"她非常感谢,因为她对乔纳森很担心。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And then she told her that , she did n't outgrow it until she was five or something ?",
+        "baseline":"然后她告诉她,她不会长大到五岁或者什么?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"She did n't have what ?",
+        "baseline":"她没有什么?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Way to go Carolyn .",
+        "baseline":"卡罗琳要走了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You should have heard him , the night we took him to the emergency room .",
+        "baseline":"那天晚上我们带他去救护室,你应该听到他的话。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"That 's scary .",
+        "baseline":"真可怕。",
+        "zh":[
+            "真是可怕。",
+            "真是可怕。",
+            "真是可怕。",
+            "真是可怕。",
+            "真是可怕。",
+            "真是可怕。",
+            "真是可怕。",
+            "真是可怕。",
+            "真是可怕。",
+            "真是可怕。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    }
+]

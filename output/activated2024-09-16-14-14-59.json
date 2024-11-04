@@ -1,0 +1,88 @@
+[
+    {
+        "en":"After the death of his mother in 1846 and his father in 1848 , he sailed west , arriving in San Francisco possibly in November 1849 .",
+        "baseline":"在1846年他母亲和1848年父亲去世后,他航行到西部,可能于1849年11月抵达旧金山。",
+        "zh":[
+            "在1846年他母亲去世后,1848年他父亲去世后,他航行到西部,可能于1849年11月抵达旧金山."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Norton initially made a living as a businessman , but he lost his fortune investing in Peruvian rice .",
+        "baseline":"诺顿最初作为一名商人谋生,但由于投资于秘鲁的稻米,他失去了财富。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"On January 8 , 1880 , Norton collapsed at the corner of California and Dupont  streets and died before he could be given medical treatment .",
+        "baseline":"1880年1月8日,诺顿在加利福尼亚和杜邦街角倒塌,在接受医疗之前去世。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"After assuming absolute control over the country , he saw no further need for a legislature , and on October 12 , 1859 , he issued a decree formally abolishing the United States Congress .",
+        "baseline":"1859年10月12日,他颁布了正式废除美国国会的法令。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"L'Enfant was recruited by Pierre Augustin Caron de Beaumarchais to serve in the American Revolutionary War in the United States .",
+        "baseline":"L’Enfant被皮埃尔·奥古斯丁·卡隆·德·博马歇斯(Pierre Augustin Caron de Beaumarchais)征召参加美国革命战争。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"While there , the Marquis de Lafayette commissioned L'Enfant to paint a portrait of Washington .",
+        "baseline":"在此期间, 拉法耶特侯爵委托L’Enfant画一幅华盛顿的肖像.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"He recovered and became a prisoner of war at surrender of Charleston , South Carolina on May 12 , 1780 .",
+        "baseline":"在1780年5月12日南卡罗莱纳州查尔斯顿投降后,他恢复并成为战俘。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"He was discharged when the Continental Army was disbanded in December 1783 .",
+        "baseline":"1783年12月,大陆军解散后,他被解雇。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Following the American Revolutionary War , L'Enfant established a successful and highly profitable civil engineering firm in New York City .",
+        "baseline":"美国革命战争后,L’Enfant在纽约建立了一个成功的高利润的土木工程公司。",
+        "zh":[
+            "美国革命战争后,兰芬特在纽约市建立了一个成功的高利润的土木工程公司.",
+            "美国革命战争后,兰芬特在纽约建立了一个高效的土木工程公司.",
+            "美国革命战争后,兰芬特在纽约市建立了一个成功的高利润的土木工程公司.",
+            "美国革命战争后,兰芬特在纽约建立了一个高效的土木工程公司.",
+            "美国革命战争后,兰芬特在纽约建立了一个高效的土木工程公司.",
+            "美国革命战争后,兰芬特在纽约建立了一个高效的土木工程公司.",
+            "美国革命战争后,兰芬特在纽约市建立了一个成功的高利润的土木工程公司.",
+            "美国革命战争后,兰芬特在纽约市建立了一个成功的高利润的土木工程公司.",
+            "美国革命战争后,兰芬特在纽约市建立了一个成功的高利润的土木工程公司.",
+            "美国革命战争后,兰芬特在纽约建立了一个高效的土木工程公司."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"L'Enfant took only the first of three degrees offered by the Lodge and did not progress further in Freemasonry .",
+        "baseline":"L'Enfant只获得了 Lodge提供的三个学位中的第一学位,并没有进一步进修自由修士。",
+        "zh":[],
+        "fvec":[]
+    }
+]

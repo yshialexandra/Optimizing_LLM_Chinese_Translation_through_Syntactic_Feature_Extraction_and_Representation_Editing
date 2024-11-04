@@ -1,0 +1,88 @@
+[
+    {
+        "en":"They made the trip twice and were turned down both times .",
+        "baseline":"他们两次旅行,两次被拒绝。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Citing privacy rules , U.S. officials have not said why the team was initially denied visas , but Afghan Ambassador Hamdullah Mohib says there were concerns they would attempt to remain in the United States or in Canada after the contest .",
+        "baseline":"美国官员没有说为什么球队最初被拒绝签证,但阿富汗大使穆希布表示他们会试图在比赛后留在美国或加拿大。",
+        "zh":[
+            "美国官员没有解释为什么球队最初被拒绝领签证,但阿富汗大使穆希博表示,他们在比赛结束后会尝试留在美国或加拿大。",
+            "美国官员没有解释为什么球队最初被拒绝领签证,但阿富汗大使穆希博表示,他们在比赛结束后会尝试留在美国或加拿大。",
+            "美国官员没有解释为什么球队最初被拒绝领签证,但阿富汗大使穆希博表示,他们会试图在比赛结束后留在美国或加拿大。",
+            "美国官员没有解释为什么球队最初被拒绝领签证,但阿富汗大使穆希博表示,他们在比赛结束后会尝试留在美国或加拿大。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"There were also two Syrian teams scheduled to compete , one national and one made up of refugees .",
+        "baseline":"还有两个叙利亚队,一个国家队和一个由难民组成。",
+        "zh":[
+            "还有两支叙利亚队,一个是国家队,另一个是难民队.",
+            "还有两支叙利亚队,一个球队是国家队,另一个是难民队."
+        ],
+        "fvec":[
+            "001000000000000000000000000000000",
+            "001000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"\" Seventeen years ago , this would not have been possible at all , \" said Ambassador Mohib .",
+        "baseline":"“ 十七年前, 这根本不可能, ”莫希布大使说。",
+        "zh":[
+            "“17年前,这一点都不可能。”莫希布大使说。",
+            "“17年前,这一点都不可能,”莫希大使说.",
+            "“17年前,这一点都不可能,”莫希大使说.",
+            "“17年前,这一点都不可能,”莫希大使说."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"The competition ended on Tuesday .",
+        "baseline":"比赛于星期二结束。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"This is the first FIRST Global competition , and the organization plans to hold the contest in a different country every year .",
+        "baseline":"这是第一届全球第一轮比赛,该组织计划每年在不同的国家举办比赛。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Major general Fuad Basya , spokesman for the Indonesian military , said fisherman first noticed the people and a warship was deployed to retrieve them .",
+        "baseline":"印度尼西亚军队发言人福德·巴西亚少将说,渔夫首先注意到了人民,并部署了一支战列舰来追捕他们。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The rescued members included Bangladeshis and Rohingya , a stateless minority of Muslims from Myanmar .",
+        "baseline":"幸存的成员包括孟加拉国人和缅甸的无国籍穆斯林少数群体罗兴亚人。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Malaysia and Indonesia have maintained a policy of turning away boats of migrants which , according to AFP , the Untied Nations and United States have both criticised .",
+        "baseline":"马来西亚和印度尼西亚一直实行拒绝移民船只的政策,据 AFP 报道,联合国和美国都对此表示批评。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"One Rohingya , Muhammad Amin , the first boat rescued on Friday was turned around twice , toward Malaysia by Indonesian navy and then toward Indonesia by Malaysian navy .",
+        "baseline":"一名罗吉尼亚人,穆罕默德·阿明,星期五救出的第一艘船,被印度尼西亚海军转向马来西亚,然后被印度尼西亚海军转向马来西亚。",
+        "zh":[],
+        "fvec":[]
+    }
+]

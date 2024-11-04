@@ -1,0 +1,74 @@
+[
+    {
+        "en":"However , the JSC will recieve pilot and commander seats from the flight deck .",
+        "baseline":"然而, 联检组将从飞机甲板获得飞行员和指挥官席位.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In a statement , Governor of Washington Chris Gregoire said , \" The Museum of Flight put a tremendous amount of effort into landing a retired shuttle in the Pacific Northwest .",
+        "baseline":"华盛顿州长克里斯·格雷戈尔(Chris Gregoire)在一份声明中说,“飞行博物馆在西北太平洋上投入了巨大的努力,让退役的航天飞机降落。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"While the Museum of Flight was in the top running , I ’m disappointed that NASA did not choose them .",
+        "baseline":"尽管飞行博物馆在榜首,但我很失望NASA没有选择它们。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"NASA is also offering shuttle heat shield tiles to schools and universities that want to share technology and a piece of space history with their students .",
+        "baseline":"NASA还向希望与学生分享技术和太空历史的学校和大学提供航天器热屏障瓦片。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"A sensitive Environment Canada document was found wet on an Ottawa street by someone who gave it to the CBC today .",
+        "baseline":"某人今天向加拿大广播公司(CBC)递交了一份敏感的加拿大环境署文件。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"However , on the document , it referred to the database as National Enforcement and Emergency Management Information System and Intelligence System , adding the words \" and Emergency \" to the name .",
+        "baseline":"然而,在文件中,它将数据库称为国家执法和紧急管理信息系统和情报系统,并将“和紧急”字加入名称。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"\" I 'm told two things : that it 's neither classified nor secret and that it 's stuff that could be available under access to information , \" Baird said .",
+        "baseline":"贝尔德说:“ 有人告诉我两件事: 它既不是秘密的,也不是秘密的,而且这是可以利用信息的物品。",
+        "zh":[
+            "“有人告诉我两件事:它既不是机密,也不是秘密,而且underaccesstoinformation可以得到的资料,”白德说.",
+            "“有人告诉我两件事:它既不是秘密的,也不是秘密的,而且这是可以利用信息的物品,”贝德说.",
+            "“有人告诉我两件事:它既不是秘密的,也不是秘密的,而且这是可以利用信息的物品,”贝德说."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"However , when a government document has been found on the streets , the government then says it was n't particularly sensitive .",
+        "baseline":"然而,当政府文件在街上被发现时,政府便表示它并不特别敏感。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In the first game of the day , Sweden faced South Korea at the Nizhny Novgorod Stadium .",
+        "baseline":"在今天的第一场比赛中,瑞典在尼日诺夫哥尔德体育场面对韩国。",
+        "zh":[
+            "在今天的第一场比赛中,瑞典在尼什尼诺夫Novgorod体育场面对韩国."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Sweden had higher ball possession in the game .",
+        "baseline":"瑞典在比赛中拥有较高的球权。",
+        "zh":[],
+        "fvec":[]
+    }
+]

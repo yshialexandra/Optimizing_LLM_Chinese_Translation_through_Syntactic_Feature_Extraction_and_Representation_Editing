@@ -1,0 +1,68 @@
+[
+    {
+        "en":"So if anybody speaks Dutch tell me what that means .",
+        "baseline":"如果有人能说荷兰语,告诉我那是什么意思。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So heading home now .",
+        "baseline":"现在回家了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The 30th , Chapters 17 through 22 - yes that 's like six chapters or something .",
+        "baseline":"第30章, 第17章到第22章 - 是的,那就像六章或什么。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So I 'm gon na exchange them for another pair because something 's not right about that .",
+        "baseline":"因此,我不得不换换换另外一对,因为这儿有些不对劲。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So I just got finished at the library .",
+        "baseline":"我刚在图书馆完成工作。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"So if you do go to FGCU and you ever see me on campus , like feel free to say hi because you 'll make my day .",
+        "baseline":"因此,如果你真的到FGCU去见我在校园里,就别忘了说你好,因为你会让我开心的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"But it 's over now and they 're gon na send them to me in the mail .",
+        "baseline":"但是现在已经结束了,他们快要给我发邮件了。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Hopefully they 'll be here in about a week .",
+        "baseline":"希望他们大约在一周内就到这儿来。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"But oh well it 's over with now , we 're gon na go get lunch .",
+        "baseline":"可是,现在就结束了,我们要去吃午饭了。",
+        "zh":[
+            "可是,现在就结束了,我们要去吃点午饭了.",
+            "可是,现在就结束了,我们要去吃点午饭了."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"This is like the calmest water you might have seen .",
+        "baseline":"这是你可能见过的最平静的水。",
+        "zh":[],
+        "fvec":[]
+    }
+]

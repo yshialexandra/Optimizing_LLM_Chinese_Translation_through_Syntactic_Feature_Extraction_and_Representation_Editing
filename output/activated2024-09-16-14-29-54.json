@@ -1,0 +1,78 @@
+[
+    {
+        "en":"Because , there 's no hole in the counter at all .",
+        "baseline":"因为, 柜台里根本没有孔。",
+        "zh":[
+            "因为,柜台上根本没有孔。",
+            "因为,柜台上根本没有孔。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Pull em out .",
+        "baseline":"把他们拉出来。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You slowed down the molecules ,",
+        "baseline":"你把分子减慢了,",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"N- you just , it takes well , it takes me longer than most people , cause you know , I 'm not as strong and , and I 'm not as good , as like somebody that would do it all the time .",
+        "baseline":"因为你知道,我并不那么强壮,而且也不那么好,就像总是这么做的人一样。",
+        "zh":[
+            "你知道,我并不那么强壮,而且我也不那么好,就像总是这么做的人一样。",
+            "你知道,我并不那么强壮,而且我也不那么好,就像总是这么做的人一样。",
+            "你知道,我并不那么强壮,而且我也不那么好,就像总是这么做的人一样。",
+            "你知道,我并不那么强壮,而且我也不那么好,就像总是这么做的人一样。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"You know .",
+        "baseline":"你知道吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"But you know , they do it for a living .",
+        "baseline":"但你知道,他们是为谋生而做的。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Did they train you —",
+        "baseline":"他们训练你吗?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Did they train you that —",
+        "baseline":"他们训练你...",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Or — and watching , people come to our place , and doing it and stuff you know .",
+        "baseline":"或者 — 看着, 人们来到我们的地方, 做它和你知道的事情.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"And you can only take — if you want to , you can only take it for eight weeks .",
+        "baseline":"而且你只能服用——如果你想的话,你只能服用8周。",
+        "zh":[],
+        "fvec":[]
+    }
+]

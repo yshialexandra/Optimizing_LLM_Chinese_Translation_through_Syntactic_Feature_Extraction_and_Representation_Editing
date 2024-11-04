@@ -1,0 +1,80 @@
+[
+    {
+        "en":"It was addressed and argued by both sides , and the jury was asked to make a finding .",
+        "baseline":"双方对此进行了辩论,陪审团被要求作出结论。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Here the jury made the finding .",
+        "baseline":"在这里,陪审团作出了结论。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It made a specific finding for the provocation mitigator .",
+        "baseline":"它对挑衅减缓器做了具体的发现。",
+        "zh":[
+            "它对挑衅减弱器做了具体的发现.",
+            "它针对挑衅减弱器做了具体的发现."
+        ],
+        "fvec":[
+            "000000000000000000000000000000001",
+            "000000000000000000000000000000001"
+        ]
+    },
+    {
+        "en":"The proble- , uh , excuse me , the uh -- the self defense issues uh we believe are ripe first and foremost in proposition .",
+        "baseline":"麻烦,抱歉,自我防卫问题我们认为在建议方面是最成熟的问题。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Goldsmith and the Second Circuit say no .",
+        "baseline":"戈德斯密斯和第二电路说不。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"First , the precedent supports us .",
+        "baseline":"首先,先例支持我们。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Campbell unambiguously requires an examination of meaning or message .",
+        "baseline":"坎贝尔明确要求对意义或信息进行检查。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"It would make it illegal for artists , museums , galleries , and collectors to display , sell , profit from , maybe even possess a significant quantity of works .",
+        "baseline":"它将使艺术家、博物馆、美术馆和收藏家无法展示、销售、盈利,甚至可能拥有大量作品。",
+        "zh":[
+            "这将禁止艺术家、博物馆、美术馆和收藏家展示、销售、盈利,甚至拥有大量作品。",
+            "这将禁止艺术家、博物馆、美术馆和收藏家展示、销售、盈利,甚至拥有大量作品。",
+            "这将禁止艺术家、博物馆、美术馆和收藏家展示、销售、盈利,甚至拥有大量作品。",
+            "这将禁止艺术家、博物馆、美术馆和收藏家展示、销售、盈利,甚至拥有大量作品。",
+            "这将禁止艺术家、博物馆、美术馆和收藏家展示、销售、盈利,甚至拥有大量作品。"
+        ],
+        "fvec":[
+            "000000000000000100000001000000000",
+            "000000000000000100000001000000000",
+            "000000000000000100000001000000000",
+            "000000000000000100000001000000000",
+            "000000000000000100000001000000000"
+        ]
+    },
+    {
+        "en":"It would also chill the creation of new art by established and up - and - coming artists alike .",
+        "baseline":"它也会冷却既定的又新兴的艺术家创造新艺术.",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You should reject them .",
+        "baseline":"你应该拒绝他们。",
+        "zh":[],
+        "fvec":[]
+    }
+]

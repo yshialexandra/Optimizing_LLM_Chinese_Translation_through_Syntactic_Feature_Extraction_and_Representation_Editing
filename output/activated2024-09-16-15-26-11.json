@@ -1,0 +1,72 @@
+[
+    {
+        "en":"So I decided to sell eHow and use the proceeds to build wikiHow .",
+        "baseline":"因此,我决定出售eHow并使用收益来创建wikiHow。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Why did you decide to use a Creative Commons license ?",
+        "baseline":"你为什么决定使用Creative Commons许可证?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"wikiHow now has millions of visitors per month .",
+        "baseline":"wikiHow现在每月有数百万访问者。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"In December 2008 , wikiHow had over 14 million unique visitors according to Google Analytics  .",
+        "baseline":"在2008年12月,WikiHow拥有超过14百万独特的访问者,根据Google Analytics。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Quantcast ranks wikiHow as the 135th most popular site in the US .",
+        "baseline":"Quantcast将WikiHow评为美国第135位最受欢迎的网站。",
+        "zh":[
+            "Quantcast将wikiHow列为美国最受欢迎的网站第135位.",
+            "Quantcast将wikiHow列为美国最受欢迎的网站第135位.",
+            "Quantcast将wikiHow列为美国最受欢迎的网站第135位.",
+            "Quantcast将wikiHow列为美国最受欢迎的网站第135位."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"People want to learn more practical skills , and for the most part the internet does n't provide enough quality information yet .",
+        "baseline":"人们想学习更多的实际技能,而大部分情况下,互联网还没有提供足够的质量信息。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"We continue to depend on this same virtuous cycle : More readers , means more editors , which creates better instructions , leading again to more readers .",
+        "baseline":"我们继续依靠同样的良性循环:更多的读者,意味着更多的编辑,这创造出更好的指导,再次导致更多的读者。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"When I was a young man in Air Force ROTC I was chosen to attend a unique Pilot Training Program called Euro- NATO Joint Jet Pilot Training .",
+        "baseline":"当我年轻时,我被选中参加欧洲-北约联合喷气飞行员训练的独一无二的飞行员训练计划。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The Air Force only selected 180 Officers a year from the Academy , Squadron Officer School and ROTC to attend .",
+        "baseline":"空军每年只选出180名军官从学院、分舰队军官学校和特遣队军官学校参加。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Congress has proven itself ineffective as a body .",
+        "baseline":"国会已经证明自己作为一个机构是无效的。",
+        "zh":[],
+        "fvec":[]
+    }
+]

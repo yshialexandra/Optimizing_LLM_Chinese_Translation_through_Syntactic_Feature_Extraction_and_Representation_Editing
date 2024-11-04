@@ -1,0 +1,66 @@
+[
+    {
+        "en":"The future is only peace .",
+        "baseline":"未来只有和平。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The problem is how long will it take and how many victims will it call for .",
+        "baseline":"问题在于需要多长时间,需要多少受害者。",
+        "zh":[
+            "问题是需要多少时间和需要多少受害者。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Armies can not conquer science .",
+        "baseline":"军队不能征服科学。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"How do you approach the difficult challenge of talking to the Palestinians when , in the end , they do n’t want Israel to exist .",
+        "baseline":"如何面对与巴勒斯坦人交谈的困难挑战呢? 最后,他们不想以色列存在。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"How do you come to an understanding to make peace possible ?",
+        "baseline":"你如何才能达成一种让和平成为可能的谅解?",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"You see , the terrorists are protesting against modernity .",
+        "baseline":"你看,恐怖分子正在抗议现代性。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"They consider modernity as their enemy , but then they have two problems .",
+        "baseline":"他们把现代性当作敌人,但他们却有两个问题。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Sooner or later they will have to enter the new age .",
+        "baseline":"早晚他们将不得不进入新的时代。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"History is becoming more and more irrelevant .",
+        "baseline":"历史变得越来越无关紧要。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"How do you feel about that ?",
+        "baseline":"你觉得怎么样?",
+        "zh":[],
+        "fvec":[]
+    }
+]

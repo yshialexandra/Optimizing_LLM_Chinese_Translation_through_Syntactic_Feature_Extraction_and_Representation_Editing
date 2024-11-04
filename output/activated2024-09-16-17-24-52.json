@@ -1,0 +1,106 @@
+[
+    {
+        "en":"Put to one side .",
+        "baseline":"放在一边。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Alternatively , use a silicone cupcake baking sheet with molded holes .",
+        "baseline":"或者, 使用硅蛋糕烤板和模成的孔.",
+        "zh":[
+            "或者,使用一个有模孔的silikoncupcake烘烤板.",
+            "或者,使用一个有模孔的silikoncupcake烤张.",
+            "或者,使用一个有模孔的silikoncupcake烤张.",
+            "或者,使用一个有模孔的silikoncupcake烤张.",
+            "或者,使用一个有模孔的silikoncupcake烤张.",
+            "或者,使用一个有模孔的silikoncupcake烤张.",
+            "或者,使用一个有模孔的silikoncupcake烤张.",
+            "或者,使用一个有模孔的silikoncupcake烤张.",
+            "或者,使用一个有模孔的silikoncupcake烤张.",
+            "或者,使用一个有模孔的silikoncupcake烘烤板."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"Put the cider vinegar into a small bowl and add the soy milk .",
+        "baseline":"把柠檬醋放在一个小碗里,加入大豆牛奶。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Stir this well and then put to one side .",
+        "baseline":"搅拌好,然后放在一边。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Stir the oil and vanilla extract into the bowl containing the soy milk and vinegar .",
+        "baseline":"把油和瓦尼拉提取物搅拌到包含大豆奶和醋的碗里。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Mix together .",
+        "baseline":"混合在一起。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Add the wet ingredients to the dry ingredients and beat together  .",
+        "baseline":"将湿的成分加入干燥的成分,并搅拌在一起。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Fill the muffin pan .",
+        "baseline":"填满面包盘。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Bake for 18 - 20 minutes .",
+        "baseline":"烤18-20分钟。",
+        "zh":[
+            "Bake18-20分钟.",
+            "烘烤18-20分钟.",
+            "Bakefor18-20minutes.",
+            "烘烤18-20分钟.",
+            "烘烤18-20分钟.",
+            "烘烤18-20分钟.",
+            "烘烤18-20分钟。",
+            "烘烤18-20分钟.",
+            "烘烤18-20分钟。",
+            "烘烤18-20分钟."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"If you are n't certain , turn off the oven earlier and let them sit for a few more minutes rather than bake them into rocks .",
+        "baseline":"如果你不确定的话,先把烤箱关掉,再让它们坐几分钟,而不是把它们烤成岩石。",
+        "zh":[],
+        "fvec":[]
+    }
+]

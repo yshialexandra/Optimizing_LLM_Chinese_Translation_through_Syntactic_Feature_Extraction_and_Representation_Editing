@@ -1,0 +1,88 @@
+[
+    {
+        "en":"And there was a heavier sound , a rasp , like a box pulled over concrete .",
+        "baseline":"还有一个更重的声音,像一个被拉过混凝土的盒子一样。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"No doubt there was , some two things that happened to be making noises at the same time .",
+        "baseline":"毫无疑问,有两个事情发生了同时发出声音。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"The Xbox was upstairs .",
+        "baseline":"Xbox在楼上。",
+        "zh":[
+            "Xbox是楼上。",
+            "Xbox是楼上。",
+            "Xbox是楼上。",
+            "Xbox是楼上。"
+        ],
+        "fvec":[
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000",
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"“ Her boys , ” as she called them , did n’t take a lot of eggnog in their rum .",
+        "baseline":"她叫他们“ 她的男孩 ”, 他们不把蛋蜜多喝在酒里.",
+        "zh":[
+            "她叫他们“她的孩子们”,不把鸡蛋菜放在他们的酒中.",
+            "她叫他们“她的孩子们”,不把鸡蛋菜放在他们的酒中.",
+            "她叫他们“她的孩子们”,不把鸡蛋菜放在他们的酒中.",
+            "她叫他们“她的孩子们”,不把蛋果放在他们的酒中.",
+            "她叫他们“她的孩子们”,不把蛋果放在他们的酒中."
+        ],
+        "fvec":[
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000",
+            "000000000000000000001000000000000"
+        ]
+    },
+    {
+        "en":"Betty never knew how naughty she should feel about wanting to strangle him sometimes .",
+        "baseline":"贝蒂从来没知道她为什么会想窒息他。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"A few crumpled bills in American currency fell out of his pocket .",
+        "baseline":"他口袋里掉了几张美国货币的碎纸。",
+        "zh":[
+            "他口袋里掉了几张纸币."
+        ],
+        "fvec":[
+            "000000000000000000000000000000000"
+        ]
+    },
+    {
+        "en":"One of her boys probably stepped on a landmine .",
+        "baseline":"她的一个男孩可能踩到了地雷。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"Williams , she guessed .",
+        "baseline":"她猜想,威廉姆斯。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"She thought she could hear Gomez laughing .",
+        "baseline":"她以为她能听到戈梅斯笑。",
+        "zh":[],
+        "fvec":[]
+    },
+    {
+        "en":"She put them in the sink to soak .",
+        "baseline":"她把它们放在水槽里浸泡。",
+        "zh":[],
+        "fvec":[]
+    }
+]
