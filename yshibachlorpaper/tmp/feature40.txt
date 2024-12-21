@@ -1,0 +1,273 @@
+John Markoff 发表于 2010 年 4 月 19 日
+
+(ROOT (IP (NP (FW John) (FW Markoff)) (VP (VV 发表) (PP (IN 于) (NP (CD 2010) (NNB 年 4) (CD 月 19) (NNB 日))))))
+{"IP": {"NP": {}, "VP": {}}}
+{"IP": {"NP": {"FW": {}}, "VP": {"VV": {}, "PP": {}}}}
+{"NP": {"FW": {}}}
+{"VP": {"VV": {}, "PP": {}}}
+----------------------------------------------------------------------
+但一位直接了解调查情况的人士表示，损失包括谷歌的一项皇冠上的明珠，即一个密码系统，该系统控制了全球数百万用户访问该公司几乎所有网络服务的权限，包括电子邮件和商务应用程序。
+
+(ROOT (IP (ADVP (RB 但)) (NP (QP (CD 一) (CLP (NNB 位))) (CP (CP (IP (VP (ADVP (RB 直接)) (VP (VV 了解) (NP (NN 调查) (NN 情况))))) (DEC 的))) (NP (NN 人士))) (VP (VV 表示) (, ，) (IP (IP (NP (NN 损失)) (VP (VV 包括) (NP (NP (DNP (NP (NNP 谷歌)) (DEC 的)) (QP (CD 一) (CLP (NNB 项))) (DNP (LCP (NP (NN 皇冠)) (IN 上)) (DEC 的)) (NP (NN 明珠))) (, ，) (NP (ADVP (VC 即)) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 密码) (NN 系统))))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 系统))) (VP (VV 控制) (AS 了) (NP (CP (CP (IP (NP (NP (NN 全球)) (QP (CD 数百万)) (NP (NN 用户))) (VP (VV 访问) (NP (NP (DP (DT 该)) (NP (NN 公司))) (DP (ADVP (RB 几乎)) (DP (DT 所有))) (NP (NN 网络) (NN 服务))))) (DEC 的))) (NP (NN 权限))))) (, ，) (IP (VP (VV 包括) (NP (NN 电子) (NN 邮件) (CC 和) (NN 商务) (NN 应用) (NN 程序)))))) (. 。)))
+{"IP": {"ADVP": {}, "NP": {}, "VP": {}, ".": {}}}
+{"IP": {"ADVP": {"RB": {}}, "NP": {"QP": {}, "CP": {}, "NP": {}}, "VP": {"VV": {}, ",": {}, "IP": {}}, ".": {}}}
+{"ADVP": {"RB": {}}}
+{"NP": {"QP": {}, "CP": {}, "NP": {}}}
+{"VP": {"VV": {}, ",": {}, "IP": {}}}
+----------------------------------------------------------------------
+这个名为“地球女神”的项目的代码，在去年 12 月份遭到了一场短短两天的闪电袭击，该人士称。
+
+(ROOT (IP (IP (NP (DNP (NP (DP (DT 这) (CLP (NNB 个))) (CP (CP (IP (NP (NN 名)) (VP (VC 为) (NP (`` “) (NNP 地球) (NN 女神) ('' ”)))) (DEC 的))) (NP (NN 项目))) (DEC 的)) (NP (NN 代码))) (, ，) (VP (PP (IN 在) (NP (NN 去年) (CD 12) (NNB 月份))) (VP (VV 遭到) (AS 了) (NP (QP (CD 一) (CLP (NNB 场))) (DNP (QP (ADVP (JJ 短短)) (QP (CD 两) (CLP (NNB 天)))) (DEC 的)) (NP (NN 闪电) (NN 袭击)))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 人士))) (VP (VV 称))) (. 。)))
+{"IP": {"IP": {}, ",": {}, ".": {}}}
+{"IP": {"IP": {"NP": {}, ",": {}, "VP": {}}, ",": {}, ".": {}}}
+{"IP": {"NP": {}, ",": {}, "VP": {}}}
+----------------------------------------------------------------------
+这款软件在四年前的一次技术会议上公开描述过，旨在让用户和员工只需使用一次密码即可登录，操作一系列服务。
+
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 款))) (NP (NN 软件))) (VP (PP (IN 在) (LCP (NP (DNP (LCP (QP (CD 四) (CLP (NNB 年))) (IN 前)) (DEC 的)) (QP (CD 一) (CLP (NNB 次))) (NP (NN 技术) (NN 会议))) (IN 上))) (ADVP (RB 公开)) (VP (VV 描述) (AS 过)))) (, ，) (IP (NP (VV 旨)) (VP (VV 在) (IP (IP (VP (VV 让) (NP (NN 用户) (CC 和) (NN 员工)) (IP (VP (ADVP (RB 只)) (VP (MD 需) (VP (VV 使用) (NP (QP (CD 一) (CLP (NNB 次))) (NP (NN 密码))))))))) (VP (ADVP (RB 即)) (VP (VP (MD 可) (VP (VV 登录))) (, ，) (VP (VV 操作) (NP (QP (CD 一) (CLP (NN 系列))) (NP (NN 服务))))))))) (. 。)))
+{"IP": {"IP": {}, ",": {}, ".": {}}}
+{"IP": {"IP": {"NP": {}, "VP": {}}, ",": {}, ".": {}}}
+{"IP": {"NP": {}, "VP": {}}}
+----------------------------------------------------------------------
+侵入者似乎没有盗取谷歌邮箱用户的密码，但谷歌公司在遭遇入侵后迅速对其网络安全进行了重大改变。
+
+(ROOT (IP (IP (NP (VV 侵入) (SFN 者)) (VP (ADVP (RB 似乎)) (VP (VV 没有) (VP (VV 盗取) (NP (DNP (NP (NN 谷) (NN 歌邮) (SFN 箱) (NN 用户)) (DEC 的)) (NP (NN 密码))))))) (, ，) (IP (ADVP (RB 但)) (NP (NNP 谷歌) (NN 公司)) (VP (PP (IN 在) (LCP (IP (VP (VV 遭遇) (NP (NN 入侵)))) (IN 后))) (ADVP (RB 迅速)) (PP (IN 对) (NP (NP (PRP 其)) (NP (NN 网络) (NN 安全)))) (VP (VV 进行) (AS 了) (NP (ADJP (JJ 重大)) (NP (NN 改变)))))) (. 。)))
+{"IP": {"IP": {}, ",": {}, ".": {}}}
+{"IP": {"IP": {"NP": {}, "VP": {}, "ADVP": {}}, ",": {}, ".": {}}}
+{"IP": {"NP": {}, "VP": {}, "ADVP": {}}}
+----------------------------------------------------------------------
+但是，这次盗窃行为虽然可能会让入侵者发现谷歌并不知道的漏洞，但这种可能性很小，独立的计算机专家表示。
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (NP (DP (DT 这) (CLP (NNB 次))) (NP (NN 盗窃) (NN 行为))) (VP (ADVP (IN 虽然)) (VP (MD 可能) (VP (MD 会) (VP (VV 让) (NP (VV 入侵) (SFN 者)) (IP (VP (VV 发现) (NP (CP (IP (NP (NN 谷) (SFN 歌)) (VP (ADVP (RB 并)) (ADVP (RB 不)) (VP (VV 知道)))) (DEC 的)) (NP (NN 漏洞))))))))) (, ，) (ADVP (RB 但)) (NP (DP (DT 这) (CLP (NNB 种))) (IP (IP (NP (NN 可能) (SFN 性)) (VP (JJ 很小))) (, ，) (IP (NP (CP (CP (IP (VP (JJ 独立))) (DEC 的))) (NP (VV 计算) (SFN 机) (NN 专家))) (VP (VV 表示))))) (. 。)))
+{"IP": {"ADVP": {}, ",": {}, "NP": {}, "VP": {}, ".": {}}}
+{"IP": {"ADVP": {"RB": {}}, ",": {}, "NP": {"DP": {}, "NP": {}, "IP": {}}, "VP": {"ADVP": {}, "VP": {}}, ".": {}}}
+{"ADVP": {"RB": {}}}
+{"NP": {"DP": {}, "NP": {}, "IP": {}}}
+{"VP": {"ADVP": {}, "VP": {}}}
+----------------------------------------------------------------------
+这些新的细节似乎可能会加剧对谷歌等集中数百万个人和企业个人信息的大型计算系统的安全性和隐私性的争论。
+
+(ROOT (IP (NP (DP (DT 这些)) (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 细节))) (VP (ADVP (RB 似乎)) (VP (MD 可能) (VP (MD 会) (VP (VV 加剧) (NP (DNP (PP (IN 对) (NP (NP (NNP 谷歌) (NN 等)) (CP (CP (IP (VP (VV 集中) (NP (NP (QP (CD 数百万) (CLP (NNB 个))) (NP (NN 人) (CC 和) (NN 企业))) (NP (NN 个人) (NN 信息))))) (DEC 的))) (ADJP (JJ 大型)) (NP (NN 计算) (NN 系统)))) (DEC 的)) (DNP (NP (NN 安全) (SFN 性) (CC 和) (NN 隐私) (SFN 性)) (DEC 的)) (NP (NN 争论))))))) (. 。)))
+{"IP": {"NP": {}, "VP": {}, ".": {}}}
+{"IP": {"NP": {"DP": {}, "CP": {}, "NP": {}}, "VP": {"ADVP": {}, "VP": {}}, ".": {}}}
+{"NP": {"DP": {}, "CP": {}, "NP": {}}}
+{"VP": {"ADVP": {}, "VP": {}}}
+----------------------------------------------------------------------
+由于大量数字信息被存储在一个被称为“云”计算的计算机集群中，一次突破就可能导致灾难性的损失。
+
+(ROOT (IP (PP (IN 由于) (IP (NP (QP (JJ 大量)) (NP (NN 数字) (NN 信息))) (VP (BB 被) (VP (VV 存储) (PP (VV 在) (LCP (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (BB 被) (VP (VCP (VV 称) (VC 为)) (NP (NP (`` “) (NN 云) ('' ”)) (NP (VV 计算)))))) (DEC 的))) (NP (VV 计算) (SFN 机) (NN 集群))) (IN 中))))))) (, ，) (NP (QP (CD 一) (CLP (NNB 次))) (NP (VV 突破))) (VP (ADVP (RB 就)) (VP (MD 可能) (VP (VV 导致) (NP (DNP (NP (NN 灾难) (SFN 性)) (DEC 的)) (NP (NN 损失)))))) (. 。)))
+{"IP": {"PP": {}, ",": {}, "NP": {}, "VP": {}, ".": {}}}
+{"IP": {"PP": {"IN": {}, "IP": {}}, ",": {}, "NP": {"QP": {}, "NP": {}}, "VP": {"ADVP": {}, "VP": {}}, ".": {}}}
+{"PP": {"IN": {}, "IP": {}}}
+{"NP": {"QP": {}, "NP": {}}}
+{"VP": {"ADVP": {}, "VP": {}}}
+----------------------------------------------------------------------
+据了解内部调查的人士称，这起盗窃事件始于一名在中国使用微软聊天程序的谷歌雇员收到的一条即时消息。
+
+(ROOT (PP (IN 据) (IP (NP (CP (CP (IP (VP (VV 了解) (NP (NN 内部) (NN 调查)))) (DEC 的))) (NP (NN 人士))) (VP (VV 称) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 起))) (NP (NN 盗窃) (NN 事件))) (VP (VV 始) (PP (VV 于) (NP (CP (CP (IP (NP (QP (CD 一) (CLP (NNB 名))) (CP (CP (IP (VP (PP (VV 在) (NP (NNP 中国))) (VP (VV 使用) (NP (NP (NNP 微软)) (NP (NN 聊天) (NN 程序)))))) (DEC 的))) (NP (NNP 谷歌)) (NP (NN 雇员))) (VP (VV 收到))) (DEC 的))) (QP (CD 一) (CLP (NNB 条))) (ADJP (JJ 即时)) (NP (NN 消息)))))))) (. 。)))
+{"PP": {"IN": {}, "IP": {}, ".": {}}}
+{"PP": {"IN": {}, "IP": {"NP": {}, "VP": {}}, ".": {}}}
+{"IP": {"NP": {}, "VP": {}}}
+----------------------------------------------------------------------
+这名员工在点击链接并连接到一个“被毒”的网站后，无意中允许入侵者访问了他（或她）的个人电脑，然后进入加州山景城谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 名))) (NP (NN 员工))) (VP (VP (LCP (IP (VP (PP (IN 在) (NP (VV 点击) (SFN 链) (VV 接))) (RB 并) (VP (VRD (VV 连接) (VV 到)) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (`` “) (VP (BB 被) (VP (NN 毒))) ('' ”))) (DEC 的))) (NP (NN 网站)))))) (IN 后)) (, ，) (LCP (ADVP (VV 无意)) (IN 中)) (VP (VV 允许) (NP (VV 入侵) (SFN 者)) (IP (VP (VV 访问) (AS 了) (NP (DNP (NP (PRP 他) (PRN (-LRB- （) (CC 或) (NP (PRP 她)) (-RRB- ）))) (DEC 的)) (NP (NN 个人) (NN 电脑))))))) (, ，) (VP (ADVP (RB 然后)) (VP (VV 进入) (NP (NNP 加州) (NN 山景) (SFN 城) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷)))))))
+{"IP": {"NP": {}, "VP": {}}}
+{"IP": {"NP": {"DP": {}, "NP": {}}, "VP": {"VP": {}, ",": {}}}}
+{"NP": {"DP": {}, "NP": {}}}
+{"VP": {"VP": {}, ",": {}}}
+----------------------------------------------------------------------
+最终，入侵者获得了开发团队使用的软件存储库的控制权。
+
+(ROOT (IP (ADVP (NN 最终)) (, ，) (NP (VV 入侵) (SFN 者)) (VP (VV 获得) (AS 了) (NP (DNP (NP (CP (CP (IP (NP (NN 开发) (NN 团队)) (VP (VV 使用))) (DEC 的))) (NP (NN 软件) (VV 存储) (SFN 库))) (DEC 的)) (NP (VV 控制) (SFN 权)))) (. 。)))
+{"IP": {"ADVP": {}, ",": {}, "NP": {}, "VP": {}, ".": {}}}
+{"IP": {"ADVP": {"NN": {}}, ",": {}, "NP": {"VV": {}, "SFN": {}}, "VP": {"VV": {}, "AS": {}, "NP": {}}, ".": {}}}
+{"ADVP": {"NN": {}}}
+{"NP": {"VV": {}, "SFN": {}}}
+{"VP": {"VV": {}, "AS": {}, "NP": {}}}
+----------------------------------------------------------------------
+该公司一直密切保管着该软件被盗的细节。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 公司))) (VP (ADVP (RB 一直)) (ADVP (RB 密切)) (VP (VV 保管) (AS 着) (NP (CP (IP (NP (DP (DT 该)) (NP (NN 软件))) (VP (BB 被) (VP (VV 盗)))) (DEC 的)) (NP (NN 细节))))) (. 。)))
+{"IP": {"NP": {}, "VP": {}, ".": {}}}
+{"IP": {"NP": {"DP": {}, "NP": {}}, "VP": {"ADVP": {}, "VP": {}}, ".": {}}}
+{"NP": {"DP": {}, "NP": {}}}
+{"VP": {"ADVP": {}, "VP": {}}}
+----------------------------------------------------------------------
+谷歌在 1 月 12 日公开发表公司网站上的一篇文章，宣布公司在未知“知识产权”被盗以及两名中国人权倡导者电子邮件账户被明显泄露后，改变了对中国的政策。
+
+(ROOT (IP (NP (NNP 谷歌)) (VP (PP (IN 在) (LCP (NP (CD 1) (NNB 月) (CD 12)) (NNB 日公开))) (VP (VP (VV 发表) (NP (DNP (LCP (NP (NN 公司) (NN 网站)) (IN 上)) (DEC 的)) (QP (CD 一) (CLP (NNB 篇))) (NP (NN 文章)))) (, ，) (VP (VV 宣布) (IP (NP (NN 公司)) (VP (PP (IN 在) (LCP (IP (IP (VP (ADVP (RB 未)) (VP (VV 知) (IP (NP (`` “) (NN 知识) (NN 产权) ('' ”)) (VP (BB 被) (VP (NN 盗))))))) (CC 以及) (IP (NP (NP (QP (CD 两) (CLP (NNB 名))) (NP (NNP 中国)) (NP (NN 人权) (VV 倡导) (SFN 者))) (NP (NN 电子) (NN 邮件) (NN 账户))) (VP (BB 被) (VP (ADVP (RB 明显)) (VP (VV 泄露)))))) (IN 后))) (, ，) (VP (VV 改变) (AS 了) (NP (DNP (PP (IN 对) (NP (NNP 中国))) (DEC 的)) (NP (NN 政策))))))))) (. 。)))
+{"IP": {"NP": {}, "VP": {}, ".": {}}}
+{"IP": {"NP": {"NNP": {}}, "VP": {"PP": {}, "VP": {}}, ".": {}}}
+{"NP": {"NNP": {}}}
+{"VP": {"PP": {}, "VP": {}}}
+----------------------------------------------------------------------
+这些指控成为美中关系的一大紧张因素，美国国务卿希拉里·罗德姆·克林顿敦促中国对这次袭击展开“透明”的调查。
+
+(ROOT (IP (IP (NP (DP (DT 这些)) (NP (NN 指控))) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (NP (NNP 美) (NNP 中)) (NP (NN 关系))) (DEC 的)) (QP (CD 一)) (ADJP (PFA 大)) (ADJP (JJ 紧张)) (NP (NN 因素)))))) (, ，) (IP (NP (NP (NP (NNP 美国)) (NP (NN 国务) (SFN 卿))) (NP (NNP 希拉里) (/ ·) (NNP 罗德姆) (/ ·) (NNP 克林顿))) (VP (VV 敦促) (NP (NNP 中国)) (IP (VP (PP (IN 对) (NP (DP (DT 这) (CLP (NNB 次))) (NP (NN 袭击)))) (VP (VV 展开) (NP (DNP (NP (`` “) (JJ 透明) ('' ”)) (DEC 的)) (NP (NN 调查)))))))) (. 。)))
+{"IP": {"IP": {}, ",": {}, ".": {}}}
+{"IP": {"IP": {"NP": {}, "VP": {}}, ",": {}, ".": {}}}
+{"IP": {"NP": {}, "VP": {}}}
+----------------------------------------------------------------------
+3 月，谷歌在与中国政府进行了艰难讨论后，宣布将其中国大陆语言网站搬到香港，并开始重新引导搜索请求。
+
+(ROOT (IP (NP (QP (CD 3)) (NP (NNB 月))) (, ，) (NP (NNP 谷歌)) (VP (PP (IN 在) (LCP (IP (VP (PP (IN 与) (NP (NP (NNP 中国)) (NP (NN 政府)))) (VP (VV 进行) (AS 了) (NP (ADJP (JJ 艰难)) (NP (NN 讨论)))))) (IN 后))) (, ，) (VP (VV 宣布) (IP (VP (VP (BB 将) (IP (NP (NP (PRP 其)) (NP (NP (NNP 中国)) (NP (NN 大陆))) (NP (NN 语言) (NN 网站))) (VP (VV 搬到) (NP (NNP 香港))))) (, ，) (RB 并) (VP (VV 开始) (VP (ADVP (RB 重新)) (VP (VV 引导) (NP (NN 搜索) (NN 请求))))))))) (. 。)))
+{"IP": {"NP": {}, ",": {}, "VP": {}, ".": {}}}
+{"IP": {"NP": {"QP": {}, "NP": {}, "NNP": {}}, ",": {}, "VP": {"PP": {}, ",": {}, "VP": {}}, ".": {}}}
+{"NP": {"QP": {}, "NP": {}, "NNP": {}}}
+{"VP": {"PP": {}, ",": {}, "VP": {}}}
+----------------------------------------------------------------------
+周一，该公司高层拒绝对此案的新细节发表评论，称他们在一月初的声明中已经处理了该公司知识产权被盗所引发的安全问题。
+
+(ROOT (IP (NP (NNP 周) (NNP 一)) (, ，) (NP (NP (DP (DT 该)) (NP (NN 公司))) (NP (NN 高层))) (VP (VP (VV 拒绝) (IP (VP (PP (IN 对) (NP (DNP (NP (NN 此案)) (DEC 的)) (ADJP (PFA 新)) (NP (NN 细节)))) (VP (VV 发表) (NP (NN 评论)))))) (, ，) (VP (VV 称) (IP (NP (PRP 他们)) (VP (PP (IN 在) (LCP (NP (DNP (LCP (NP (QP (CD 一)) (NP (NNB 月))) (IN 初)) (DEC 的)) (NP (NN 声明))) (IN 中))) (ADVP (RB 已经)) (VP (VV 处理) (AS 了) (NP (CP (CP (IP (IP (NP (NP (DP (DT 该)) (NP (NN 公司))) (NP (NN 知识) (NN 产权))) (VP (BB 被) (VP (VV 盗)))) (VP (RB 所) (VP (VV 引发)))) (DEC 的))) (NP (NN 安全) (NN 问题)))))))) (. 。)))
+{"IP": {"NP": {}, ",": {}, "VP": {}, ".": {}}}
+{"IP": {"NP": {"NNP": {}, "NP": {}}, ",": {}, "VP": {"VP": {}, ",": {}}, ".": {}}}
+{"NP": {"NNP": {}, "NP": {}}}
+{"VP": {"VP": {}, ",": {}}}
+----------------------------------------------------------------------
+谷歌高层也在闭门会谈中表示，谷歌公司在遭到入侵时比其他遭到入侵的 20 多家公司都更加透明，而这些公司中绝大多数并没有承认遭到攻击。
+
+(ROOT (IP (NP (NP (NNP 谷歌)) (NP (NN 高层))) (VP (ADVP (RB 也)) (PP (IN 在) (LCP (NP (NN 闭门) (NN 会谈)) (IN 中))) (VP (VV 表示) (, ，) (IP (IP (NP (NNP 谷歌) (NN 公司)) (VP (PP (IN 在) (LCP (IP (VP (VV 遭到) (NP (NN 入侵)))) (IN 时))) (PP (IN 比) (NP (DP (DT 其他)) (CP (CP (IP (VP (VV 遭到) (NP (NN 入侵)))) (DEC 的))) (QP (CD 20)) (ADJP (NNB 多家)) (NP (NN 公司)))) (ADVP (RB 都)) (ADVP (RB 更加)) (VP (JJ 透明)))) (, ，) (RB 而) (IP (LCP (NP (DP (DT 这些)) (NP (NN 公司))) (IN 中)) (QP (ADJP (RB 绝大)) (QP (JJ 多数))) (VP (ADVP (RB 并)) (VP (VV 没有) (VP (VV 承认) (IP (VP (VV 遭到) (NP (NN 攻击))))))))))) (. 。)))
+{"IP": {"NP": {}, "VP": {}, ".": {}}}
+{"IP": {"NP": {"NP": {}}, "VP": {"ADVP": {}, "PP": {}, "VP": {}}, ".": {}}}
+{"NP": {"NP": {}}}
+{"VP": {"ADVP": {}, "PP": {}, "VP": {}}}
+----------------------------------------------------------------------
+谷歌继续使用 Gaia 系统，现在称为 Single Sign-On。
+
+(ROOT (IP (NP (NNP 谷歌)) (VP (VP (VV 继续) (VP (VV 使用) (NP (FW Gaia) (NN 系统)))) (, ，) (VP (NP (NN 现在)) (VP (VCP (VV 称) (VC 为)) (NP (FW Single) (FW Sign-On))))) (. 。)))
+{"IP": {"NP": {}, "VP": {}, ".": {}}}
+{"IP": {"NP": {"NNP": {}}, "VP": {"VP": {}, ",": {}}, ".": {}}}
+{"NP": {"NNP": {}}}
+{"VP": {"VP": {}, ",": {}}}
+----------------------------------------------------------------------
+谷歌在宣布遭遇入侵后几个小时，宣布将为 Gmail 服务启用一层新的加密层。
+
+(ROOT (IP (NP (NNP 谷歌)) (VP (PP (IN 在) (NP (LCP (IP (VP (VV 宣布) (IP (VP (VV 遭遇) (NP (NN 入侵)))))) (IN 后)) (QP (CD 几) (CLP (NNB 个))) (NP (NN 小时)))) (, ，) (VP (VV 宣布) (IP (VP (ADVP (RB 将)) (PP (IN 为) (NP (FW Gmail) (NN 服务))) (VP (VV 启用) (NP (QP (CD 一) (CLP (NNB 层))) (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (VV 加密) (SFN 层)))))))) (. 。)))
+{"IP": {"NP": {}, "VP": {}, ".": {}}}
+{"IP": {"NP": {"NNP": {}}, "VP": {"PP": {}, ",": {}, "VP": {}}, ".": {}}}
+{"NP": {"NNP": {}}}
+{"VP": {"PP": {}, ",": {}, "VP": {}}}
+----------------------------------------------------------------------
+该公司还加强了数据中心的安全，进一步保证了其服务与用户电脑之间的通讯链路。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 公司))) (VP (VP (ADVP (RB 还)) (VP (VV 加强) (AS 了) (NP (DNP (NP (NN 数据) (NN 中心)) (DEC 的)) (NP (NN 安全))))) (, ，) (VP (VP (VV 进) (QP (CD 一) (CLP (NNB 步)))) (VP (VV 保证) (AS 了) (NP (DNP (LCP (NP (NP (PRP 其)) (NP (NN 服务) (CC 与) (NN 用户) (NN 电脑))) (IN 之间)) (DEC 的)) (NP (NN 通讯) (NN 链路)))))) (. 。)))
+{"IP": {"NP": {}, "VP": {}, ".": {}}}
+{"IP": {"NP": {"DP": {}, "NP": {}}, "VP": {"VP": {}, ",": {}}, ".": {}}}
+{"NP": {"DP": {}, "NP": {}}}
+{"VP": {"VP": {}, ",": {}}}
+----------------------------------------------------------------------
+一些技术专家表示，谷歌很快就发现了软件被盗的情况，因此不清楚盗窃行为的后果是什么。
+
+(ROOT (IP (NP (QP (JJ 一些)) (NP (NN 技术) (NN 专家))) (VP (VV 表示) (, ，) (IP (IP (NP (NNP 谷歌)) (VP (ADVP (RB 很快)) (ADVP (RB 就)) (VP (VV 发现) (AS 了) (NP (CP (IP (NP (NN 软件)) (VP (BB 被) (VP (VV 盗)))) (DEC 的)) (NP (NN 情况)))))) (, ，) (IP (ADVP (IN 因)) (ADVP (PRD 此)) (VP (ADVP (RB 不)) (VP (VV 清楚) (IP (NP (DNP (NP (NP (VV 盗) (NN 窃)) (NP (NN 行为))) (DEC 的)) (NP (NN 后果))) (VP (VC 是) (NP (WP 什么))))))))) (. 。)))
+{"IP": {"NP": {}, "VP": {}, ".": {}}}
+{"IP": {"NP": {"QP": {}, "NP": {}}, "VP": {"VV": {}, ",": {}, "IP": {}}, ".": {}}}
+{"NP": {"QP": {}, "NP": {}}}
+{"VP": {"VV": {}, ",": {}, "IP": {}}}
+----------------------------------------------------------------------
+最令人担忧的可能性之一是，攻击者可能打算在 Gaia 程序中植入一个木马程序，即一个秘密后门，并在谷歌的数十个全球数据中心中安装它，以建立秘密入口点。
+
+(ROOT (IP (NP (CP (CP (IP (VP (VV 最令) (NP (NN 人)) (IP (VP (JJ 担忧))))) (DEC 的))) (DNP (NP (NN 可能) (SFN 性)) (DEC 之)) (NP (CD 一))) (VP (VC 是) (, ，) (IP (NP (VV 攻击) (SFN 者)) (VP (MD 可能) (VP (VV 打算) (IP (IP (VP (VP (PP (IN 在) (LCP (NP (FW Gaia) (NN 程序)) (IN 中))) (VP (VV 植入) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 木马) (NN 程序))))) (, ，) (NP (ADVP (VC 即)) (NP (QP (CD 一) (CLP (NNB 个))) (ADJP (NN 秘密)) (NP (NN 后门))))) (, ，) (RB 并) (VP (PP (IN 在) (LCP (NP (DNP (NP (NNP 谷歌)) (DEC 的)) (QP (CD 数十) (CLP (NNB 个))) (NP (NN 全球) (NN 数据) (NN 中心))) (IN 中))) (VP (VV 安装) (NP (PRP 它)))) (, ，) (VP (RB 以) (VP (VV 建立) (NP (ADJP (NN 秘密)) (NP (NN 入口) (SFN 点))))))))))) (. 。)))
+{"IP": {"NP": {}, "VP": {}, ".": {}}}
+{"IP": {"NP": {"CP": {}, "DNP": {}, "NP": {}}, "VP": {"VC": {}, ",": {}, "IP": {}}, ".": {}}}
+{"NP": {"CP": {}, "DNP": {}, "NP": {}}}
+{"VP": {"VC": {}, ",": {}, "IP": {}}}
+----------------------------------------------------------------------
+但独立的安全专家强调，这样一项工作极其困难，特别是因为谷歌的安全专家已经被告知程序被盗。
+
+(ROOT (IP (ADVP (RB 但)) (NP (CP (CP (IP (VP (JJ 独立))) (DEC 的))) (NP (NN 安全) (NN 专家))) (VP (VV 强调) (, ，) (IP (IP (NP (QP (DP (PRD 这样)) (QP (CD 一) (CLP (NNB 项)))) (NP (NN 工作))) (VP (ADVP (RB 极)) (ADVP (PRP 其)) (VP (JJ 困难)))) (, ，) (IP (ADVP (RB 特别)) (ADVP (VC 是)) (PP (IN 因为) (IP (NP (DNP (NP (NNP 谷歌)) (DEC 的)) (NP (NN 安全) (NN 专家))) (VP (ADVP (RB 已经)) (VP (BB 被) (VP (VV 告知) (IP (NP (NN 程序)) (VP (BB 被) (VP (VV 盗)))))))))))) (. 。)))
+{"IP": {"ADVP": {}, "NP": {}, "VP": {}, ".": {}}}
+{"IP": {"ADVP": {"RB": {}}, "NP": {"CP": {}, "NP": {}}, "VP": {"VV": {}, ",": {}, "IP": {}}, ".": {}}}
+{"ADVP": {"RB": {}}}
+{"NP": {"CP": {}, "NP": {}}}
+{"VP": {"VV": {}, ",": {}, "IP": {}}}
+----------------------------------------------------------------------
+但是，获取原始编程员的指示或源代码，也可以为技术熟练的黑客提供有关谷歌工程师可能未发现的微妙安全漏洞的知识。
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (IP (VP (VV 获取) (NP (DNP (NP (ADJP (JJ 原始)) (NP (VV 编程) (SFN 员))) (DEC 的)) (NP (NN 指示) (CC 或) (VV 源) (NN 代码))))) (, ，) (VP (ADVP (RB 也)) (VP (MD 可以) (VP (PP (IN 为) (NP (CP (CP (IP (NP (NN 技术)) (VP (VV 熟练))) (DEC 的))) (NP (NN 黑客)))) (VP (VV 提供) (NP (DNP (PP (IN 有关) (NP (CP (CP (IP (NP (NP (NNP 谷歌)) (NP (NN 工程) (SFN 师))) (VP (MD 可能) (VP (ADVP (RB 未)) (VP (VV 发现))))) (DEC 的))) (ADJP (JJ 微妙)) (NP (NN 安全) (NN 漏洞)))) (DEC 的)) (NP (NN 知识))))))) (. 。)))
+{"IP": {"ADVP": {}, ",": {}, "IP": {}, "VP": {}, ".": {}}}
+{"IP": {"ADVP": {"RB": {}}, ",": {}, "IP": {"VP": {}}, "VP": {"ADVP": {}, "VP": {}}, ".": {}}}
+{"ADVP": {"RB": {}}}
+{"IP": {"VP": {}}}
+{"VP": {"ADVP": {}, "VP": {}}}
+----------------------------------------------------------------------
+“如果您能在修复漏洞之前，进入软件存储库，那么那里就是彩虹彩虹的黄金，”麦克阿瑟公司首席技术官乔治·库茨说，麦克阿瑟公司是去年分析谷歌和其他公司遭遇入侵时使用的非法软件的公司之一。
+
+(ROOT (IP (IP (IP (`` “) (CP (ADVP (IN 如果)) (IP (NP (PRP 您)) (VP (MD 能) (VP (PP (IN 在) (LCP (IP (VP (VV 修复) (NP (NN 漏洞)))) (IN 之前))) (, ，) (VP (VV 进入) (NP (NN 软件) (VV 存储) (SFN 库))))))) (, ，) (ADVP (RB 那么)) (NP (PRD 那里)) (VP (VC 就是) (NP (DNP (NP (NP (ADJP (NN 彩)) (NP (NN 虹))) (NP (NN 彩虹))) (DEC 的)) (NP (NN 黄金))))) (, ，) ('' ”) (NP (NP (NP (NNP 麦克阿瑟) (NN 公司)) (NP (JJ 首席) (NN 技术) (SFN 官))) (NP (NNP 乔治) (/ ·) (NNP 库茨))) (VP (VV 说))) (, ，) (IP (NP (NNP 麦克阿瑟) (NN 公司)) (VP (VC 是) (NP (DNP (NP (CP (CP (IP (VP (NP (NN 去年)) (VP (VV 分析) (NP (CP (CP (IP (NP (NP (NNP 谷歌)) (CC 和) (NP (DP (DT 其他)) (NP (NN 公司)))) (VP (LCP (IP (VP (VV 遭遇) (NP (NN 入侵)))) (IN 时)) (VP (VV 使用)))) (DEC 的))) (ADJP (JJ 非法)) (NP (NN 软件)))))) (DEC 的))) (NP (NN 公司))) (DEC 之)) (NP (CD 一))))) (. 。)))
+{"IP": {"IP": {}, ",": {}, ".": {}}}
+{"IP": {"IP": {"IP": {}, ",": {}, """": {}, "NP": {}, "VP": {}}, ",": {}, ".": {}}}
+{"IP": {"IP": {}, ",": {}, """": {}, "NP": {}, "VP": {}}}
+----------------------------------------------------------------------
+Neustar 公司副总裁罗德尼·乔夫说：“如果你能够理解这个系统的工作原理，那么这显然是一个真实的问题。”
+
+(ROOT (IP (NP (NP (NP (FW Neustar) (NN 公司)) (ADJP (PFA 副)) (NP (NN 总裁))) (NP (NNP 罗德尼) (/ ·) (NNP 乔夫))) (VP (VV 说) (: ：) (IP (`` “) (CP (ADVP (IN 如果)) (IP (NP (PRP 你)) (VP (MD 能够) (VP (VV 理解) (NP (DNP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 系统))) (DEC 的)) (NP (NN 工作) (NN 原理))))))) (, ，) (ADVP (RB 那么)) (NP (PRD 这)) (VP (ADVP (RB 显然)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 真实))) (DEC 的))) (NP (NN 问题))))))) (. 。) ('' ”)))
+{"IP": {"NP": {}, "VP": {}, ".": {}, """": {}}}
+{"IP": {"NP": {"NP": {}}, "VP": {"VV": {}, ":": {}, "IP": {}}, ".": {}, """": {}}}
+{"NP": {"NP": {}}}
+{"VP": {"VV": {}, ":": {}, "IP": {}}}
+----------------------------------------------------------------------
+他说，了解软件所依据的算法，对于寻找系统弱点的攻击者而言，可能很有价值。
+
+(ROOT (IP (NP (PRP 他)) (VP (VV 说) (, ，) (IP (IP (VP (VV 了解) (NP (CP (CP (IP (NP (NN 软件)) (VP (RB 所) (VP (VV 依据)))) (DEC 的))) (NP (NN 算法))))) (, ，) (VP (IP (VP (PP (IN 对于) (NP (CP (CP (IP (VP (VV 寻找) (NP (NN 系统) (NN 弱点)))) (DEC 的))) (NP (VV 攻击) (SFN 者)))) (VP (RB 而) (VP (VV 言))))) (, ，) (VP (MD 可能) (VP (ADVP (RB 很)) (VP (VV 有) (NP (NN 价值)))))))) (. 。)))
+{"IP": {"NP": {}, "VP": {}, ".": {}}}
+{"IP": {"NP": {"PRP": {}}, "VP": {"VV": {}, ",": {}, "IP": {}}, ".": {}}}
+{"NP": {"PRP": {}}}
+{"VP": {"VV": {}, ",": {}, "IP": {}}}
+----------------------------------------------------------------------
+当谷歌首次宣布遭遇网络盗窃时，该公司表示有证据表明入侵行为来自中国。
+
+(ROOT (IP (IP (NP (NNP 当谷) (SFN 歌)) (VP (ADVP (CD 首次)) (VP (VV 宣布) (LCP (IP (VP (VV 遭遇) (NP (NN 网络) (SFN 盗) (NN 窃)))) (IN 时))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 公司))) (VP (VV 表示) (IP (VP (VV 有) (IP (NP (NN 证据)) (VP (VV 表明) (IP (NP (NN 入侵) (NN 行为)) (VP (VV 来) (VP (VV 自) (NP (NNP 中国))))))))))) (. 。)))
+{"IP": {"IP": {}, ",": {}, ".": {}}}
+{"IP": {"IP": {"NP": {}, "VP": {}}, ",": {}, ".": {}}}
+{"IP": {"NP": {}, "VP": {}}}
+----------------------------------------------------------------------
+袭击事件的来源被追溯到中国的两个校园的电脑上，但调查人员承认，真正的来源可能被隐藏了，这是网络攻击的绝招。
+
+(ROOT (IP (IP (NP (DNP (NP (NN 袭击) (NN 事件)) (DEC 的)) (NP (NN 来源))) (VP (BB 被) (VP (VRD (VV 追溯) (VV 到)) (LCP (NP (DNP (NP (DNP (NP (NNP 中国)) (DEC 的)) (QP (CD 两) (CLP (NNB 个))) (NP (NN 校园))) (DEC 的)) (NP (NN 电脑))) (NN 上))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 调查) (NN 人员)) (VP (VV 承认) (, ，) (IP (IP (NP (CP (CP (IP (VP (JJ 真正))) (DEC 的))) (NP (NN 来源))) (VP (MD 可能) (VP (BB 被) (VP (VV 隐藏) (UH 了))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (DNP (NP (NN 网络) (NN 攻击)) (DEC 的)) (NP (NN 绝招)))))))) (. 。)))
+{"IP": {"IP": {}, ",": {}, ".": {}}}
+{"IP": {"IP": {"NP": {}, "VP": {}, "ADVP": {}}, ",": {}, ".": {}}}
+{"IP": {"NP": {}, "VP": {}, "ADVP": {}}}
+----------------------------------------------------------------------
+参与调查其他 20 多家科技公司遭遇入侵事件的几位人士表示，虽然这些入侵事件具有相似之处，但也存在巨大差异，比如入侵使用的软件类型不同。
+
+(ROOT (IP (NP (CP (CP (IP (VP (VV 参与) (IP (VP (VV 调查) (IP (NP (DP (DT 其他) (QP (CD 20))) (ADJP (NN 多家)) (NP (NN 科技) (NN 公司))) (VP (VV 遭遇) (NP (NN 入侵) (NN 事件)))))))) (DEC 的))) (QP (CD 几) (CLP (NNB 位))) (NP (NN 人士))) (VP (VV 表示) (, ，) (IP (IP (CP (ADVP (IN 虽然)) (IP (NP (DP (DT 这些)) (NP (NN 入侵) (NN 事件))) (VP (VV 具有) (NP (CP (CP (IP (VP (JJ 相似))) (DEC 之))) (NP (NN 处)))))) (, ，) (ADVP (RB 但)) (VP (ADVP (RB 也)) (VP (VV 存在) (NP (ADJP (JJ 巨大)) (NP (NN 差异)))))) (, ，) (IP (ADVP (VV 比如)) (NP (DNP (NP (VV 入侵) (VV 使用)) (DEC 的)) (NP (NN 软件) (NN 类型))) (VP (JJ 不同))))) (. 。)))
+{"IP": {"NP": {}, "VP": {}, ".": {}}}
+{"IP": {"NP": {"CP": {}, "QP": {}, "NP": {}}, "VP": {"VV": {}, ",": {}, "IP": {}}, ".": {}}}
+{"NP": {"CP": {}, "QP": {}, "NP": {}}}
+{"VP": {"VV": {}, ",": {}, "IP": {}}}
+----------------------------------------------------------------------
+据参与谷歌调查的人士称，在一家著名的硅谷公司中，调查人员发现有证据表明攻击事件可追溯到两年多前。
+
+(ROOT (PP (IN 据) (IP (NP (CP (CP (IP (VP (VV 参与) (NP (NP (NNP 谷歌)) (NP (NN 调查))))) (DEC 的))) (NP (NN 人士))) (VP (VV 称) (, ，) (IP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 家))) (CP (CP (IP (VP (JJ 著名))) (DEC 的))) (NP (NNP 硅谷) (NN 公司))) (IN 中))) (, ，) (NP (NN 调查) (NN 人员)) (VP (VV 发现) (IP (VP (VV 有) (IP (NP (NN 证据)) (VP (VV 表明) (IP (NP (NN 攻击) (NN 事件)) (VP (MD 可) (VP (VRD (VV 追溯) (VV 到)) (LCP (QP (QP (CD 两) (CLP (NNB 年))) (ADVP (IN 多))) (IN 前))))))))))))) (. 。)))
+{"PP": {"IN": {}, "IP": {}, ".": {}}}
+{"PP": {"IN": {}, "IP": {"NP": {}, "VP": {}}, ".": {}}}
+{"IP": {"NP": {}, "VP": {}}}
+----------------------------------------------------------------------
+就谷歌而言，入侵者似乎掌握了 Gaia 软件开发人员姓名的准确情报，他们先试图访问他们的工作电脑，然后使用一套复杂的技术访问程序源代码存储的存储库。
+
+(ROOT (IP (IP (IP (VP (PP (IN 就) (NP (NN 谷) (SFN 歌))) (VP (RB 而) (VP (VV 言))))) (, ，) (NP (VV 入侵) (SFN 者)) (VP (RB 似乎) (VP (VV 掌握) (AS 了) (NP (DNP (NP (NP (NP (FW Gaia)) (NP (NN 软件) (NN 开发) (NN 人员))) (NP (NN 姓名))) (DEC 的)) (ADJP (JJ 准确)) (NP (NN 情报)))))) (, ，) (IP (NP (PRP 他们)) (VP (VP (ADVP (RB 先)) (VP (VV 试图) (IP (VP (VV 访问) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 工作) (NN 电脑))))))) (, ，) (NP (CP (CP (IP (VP (ADVP (RB 然后)) (VP (VP (VV 使用) (NP (QP (CD 一) (CLP (NNB 套))) (CP (CP (IP (VP (JJ 复杂))) (DEC 的))) (NP (NN 技术) (NN 访问) (NN 程序) (SFN 源) (NN 代码)))) (VP (VV 存储))))) (DEC 的))) (NP (VV 存储) (SFN 库))))) (. 。)))
+{"IP": {"IP": {}, ",": {}, ".": {}}}
+{"IP": {"IP": {"IP": {}, ",": {}, "NP": {}, "VP": {}}, ",": {}, ".": {}}}
+{"IP": {"IP": {}, ",": {}, "NP": {}, "VP": {}}}
+----------------------------------------------------------------------
+然后，他们将盗走的软件传输到一家名为 Rackspace 的德克萨斯州公司的电脑上，该公司提供网络托管服务，但对此次交易一无所知。
+
+(ROOT (IP (IP (ADVP (RB 然后)) (, ，) (NP (PRP 他们)) (VP (BB 将) (IP (NP (CP (CP (IP (VP (VV 盗走))) (DEC 的))) (NP (NN 软件))) (VP (VRD (VV 传输) (VV 到)) (LCP (NP (DNP (NP (QP (CD 一) (CLP (NNB 家))) (CP (CP (IP (NP (NN 名)) (VP (VC 为) (NP (FW Rackspace)))) (DEC 的))) (NP (NNP 德克萨斯) (SFN 州) (NN 公司))) (DEC 的)) (NP (NN 电脑))) (NN 上)))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 公司))) (VP (VV 提供) (NP (NN 网络) (NN 托管) (NN 服务)))) (, ，) (IP (ADVP (RB 但)) (VP (PP (IN 对) (NP (DP (DT 此次)) (NP (NN 交易)))) (ADVP (CD 一)) (VP (VV 无) (NP (RB 所) (VP (VV 知)))))) (. 。)))
+{"IP": {"IP": {}, ",": {}, ".": {}}}
+{"IP": {"IP": {"ADVP": {}, ",": {}, "NP": {}, "VP": {}}, ",": {}, ".": {}}}
+{"IP": {"ADVP": {}, ",": {}, "NP": {}, "VP": {}}}
+----------------------------------------------------------------------
+目前还不清楚该软件是从哪里发送的。
+
+(ROOT (IP (VP (NP (NN 目前)) (ADVP (RB 还)) (ADVP (RB 不)) (VP (VV 清楚) (IP (NP (DP (DT 该)) (NP (NN 软件))) (VP (VC 是) (NP (CP (CP (IP (VP (PP (IN 从) (NP (WP 哪里))) (VP (VV 发送)))) (UH 的)))))))) (. 。)))
+{"IP": {"VP": {}, ".": {}}}
+{"IP": {"VP": {"NP": {}, "ADVP": {}, "VP": {}}, ".": {}}}
+{"VP": {"NP": {}, "ADVP": {}, "VP": {}}}
+----------------------------------------------------------------------
+入侵者可以访问一个名为 Moma 的内部谷歌公司目录，该目录包含每位谷歌员工工作活动的信息，他们可能会利用该目录来查找特定的员工。
+
+(ROOT (IP (IP (NP (VV 入侵) (SFN 者)) (VP (MD 可以) (VP (VV 访问) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (NP (NN 名)) (VP (VC 为) (NP (FW Moma)))) (DEC 的))) (NP (NN 内部)) (NP (NNP 谷歌) (NN 公司)) (NP (NN 目录)))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 目录))) (VP (VV 包含) (NP (DNP (NP (DP (DT 每位)) (NP (NNP 谷歌)) (NP (NN 员工) (NN 工作) (NN 活动))) (DEC 的)) (NP (NN 信息))))) (, ，) (IP (NP (PRP 他们)) (VP (MD 可能) (VP (MD 会) (VP (VP (VV 利用) (NP (DP (DT 该)) (NP (NN 目录)))) (VP (RB 来) (VP (VV 查找) (NP (DNP (ADJP (JJ 特定)) (DEC 的)) (NP (NN 员工))))))))) (. 。)))
+{"IP": {"IP": {}, ",": {}, ".": {}}}
+{"IP": {"IP": {"NP": {}, "VP": {}}, ",": {}, ".": {}}}
+{"IP": {"NP": {}, "VP": {}}}
+----------------------------------------------------------------------

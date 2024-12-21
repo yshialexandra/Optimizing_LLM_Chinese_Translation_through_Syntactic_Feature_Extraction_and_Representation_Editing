@@ -1,0 +1,47 @@
+在英国最负盛名的文学奖首次在其 46 年历史中向任何国籍的作家开放之后，英国作家占据了曼布里奖短名单的三个名额。
+
+(ROOT (IP (LCP (IP (NP (CP (CP (IP (VP (PP (IN 在) (NP (NNP 英国))) (ADVP (RB 最)) (VP (JJ 负盛) (NP (SFN 名))))) (DEC 的))) (NP (NN 文学) (SFN 奖))) (VP (ADVP (CD 首次)) (PP (IN 在) (LCP (NP (NP (PRP 其)) (QP (CD 46)) (NP (NN 年历史))) (IN 中))) (PP (IN 向) (NP (DNP (NP (DP (DT 任何)) (NP (NN 国籍))) (DEC 的)) (NP (NN 作家)))) (VP (VV 开放)))) (IN 之后)) (, ，) (NP (NP (NNP 英国)) (NP (NN 作家))) (VP (VV 占据) (AS 了) (NP (DNP (NP (NP (NP (NNP 曼布) (NN 里)) (NP (SFN 奖))) (ADJP (PFA 短)) (NP (NN 名单))) (DEC 的)) (QP (CD 三) (CLP (NNB 个))) (NP (NN 名额)))) (. 。)))
+{"IP": {"LCP": {}, ",": {}, "NP": {}, "VP": {}, ".": {}}}
+{"IP": {"LCP": {"IP": {}, "IN": {}}, ",": {}, "NP": {"NP": {}}, "VP": {"VV": {}, "AS": {}, "NP": {}}, ".": {}}}
+{"LCP": {"IP": {}, "IN": {}}}
+{"NP": {"NP": {}}}
+{"VP": {"VV": {}, "AS": {}, "NP": {}}}
+----------------------------------------------------------------------
+这一举措旨在“尽可能充分地体现英语的活力、生命力、多样性和荣耀”，但也引发了人们对美国文学大师将主宰英国奖项的担忧。
+
+(ROOT (IP (NP (NP (DP (DT 这)) (NP (VV 一举) (SFN 措))) (NP (NN 旨))) (VP (VV 在) (VP (`` “) (VP (ADVP (VV 尽)) (VP (MD 可能) (VP (DVP (VP (JJ 充分)) (DEV 地)) (VP (VV 体现) (NP (DNP (NP (NNP 英) (SFN 语)) (DEC 的)) (NP (NN 活力) (EC 、) (NN 生命) (SFN 力) (EC 、) (JJ 多样) (SFN 性) (CC 和) (NN 荣耀) ('' ”))))))) (, ，) (VP (ADVP (RB 但)) (ADVP (RB 也)) (VP (VV 引发) (AS 了) (NP (NP (NN 人们)) (DNP (PP (IN 对) (IP (NP (NP (NNP 美国)) (NP (NN 文学) (NN 大师))) (VP (ADVP (RB 将)) (VP (VV 主宰) (NP (NP (NNP 英国)) (NP (NN 奖项))))))) (DEC 的)) (NP (NN 担忧))))))) (. 。)))
+{"IP": {"NP": {}, "VP": {}, ".": {}}}
+{"IP": {"NP": {"NP": {}}, "VP": {"VV": {}, "VP": {}}, ".": {}}}
+{"NP": {"NP": {}}}
+{"VP": {"VV": {}, "VP": {}}}
+----------------------------------------------------------------------
+但是，最终，美国的两位作家 Joshua Ferris 和 Karen Joy Fowler 进入了今年奖项的最终决赛。
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (ADVP (NN 最终)) (, ，) (NP (NP (DNP (NP (NNP 美国)) (DEC 的)) (QP (CD 两) (CLP (NNB 位))) (NP (NN 作家))) (NP (FW Joshua) (FW Ferris) (CC 和) (FW Karen) (FW Joy) (FW Fowler))) (VP (VV 进入) (AS 了) (NP (DNP (NP (NN 今年) (NN 奖项)) (DEC 的)) (ADJP (NN 最终)) (NP (NN 决赛)))) (. 。)))
+{"IP": {"ADVP": {}, ",": {}, "NP": {}, "VP": {}, ".": {}}}
+{"IP": {"ADVP": {"RB": {}, "NN": {}}, ",": {}, "NP": {"NP": {}}, "VP": {"VV": {}, "AS": {}, "NP": {}}, ".": {}}}
+{"ADVP": {"RB": {}, "NN": {}}}
+{"NP": {"NP": {}}}
+{"VP": {"VV": {}, "AS": {}, "NP": {}}}
+----------------------------------------------------------------------
+费里斯和福勒与澳大利亚作家理查德·弗兰兰加入最终六人名单，今年有三位英国作家入围 50,000 英镑奖项：前一届获奖者霍华德·雅各布森、尼尔·穆赫赖吉和阿里·史密斯。
+
+(ROOT (IP (IP (NP (NP (NNP 费里斯和福勒)) (CC 与) (NP (NP (NP (NNP 澳大利亚)) (NP (NN 作家))) (NP (NNP 理查德) (/ ·) (NNP 弗兰兰)))) (VP (VV 加入) (NP (ADJP (NN 最终)) (NP (QP (CD 六)) (NP (NN 人))) (NP (NN 名单))))) (, ，) (IP (VP (NP (NN 今年)) (VP (VV 有) (IP (IP (NP (QP (CD 三) (CLP (NNB 位))) (NP (NNP 英国)) (NP (NN 作家))) (VP (VV 入围) (NP (QP (CD 50,000) (CLP (NNB 英镑))) (NP (NN 奖项))))) (: ：) (NP (NP (DP (DT 前) (QP (CD 一) (CLP (NNB 届)))) (NP (VV 获奖) (SFN 者))) (NP (NNP 霍华德) (/ ·) (NNP 雅各布森) (EC 、) (NNP 尼尔) (/ ·) (NNP 穆赫赖吉) (CC 和) (NNP 阿里) (/ ·) (NNP 史密斯))))))) (. 。)))
+{"IP": {"IP": {}, ",": {}, ".": {}}}
+{"IP": {"IP": {"NP": {}, "VP": {}}, ",": {}, ".": {}}}
+{"IP": {"NP": {}, "VP": {}}}
+----------------------------------------------------------------------
+英国作家大卫·米切尔的新小说《骨铭》被乌玛·卢·奎因 (Ursula K Le Guin) 在《卫报》的评论中描述为“600 页的元架构小说，用毫不留情的杰出文学作品”，但该书未能入围，美国文学明星西里·赫斯特韦特 (Siri Hustvedt) 和理查德·鲍斯 (Richard Powers) 也同样未能入围。
+
+(ROOT (IP (IP (NP (NP (DNP (NP (NP (NP (NNP 英国)) (NP (NN 作家))) (NP (NNP 大卫) (/ ·) (NNP 米切尔))) (DEC 的)) (ADJP (PFA 新)) (NP (NN 小说))) (NP (-LRB- 《) (NNP 骨铭) (-RRB- 》))) (VP (BB 被) (IP (NP (NNP 乌玛) (/ ·) (NNP 卢) (/ ·) (NNP 奎因) (PRN (/ -LRB-) (LCP (NP (NP (FW Ursula) (FW K Le) (FW Guin-RRB-)) (DNP (PP (IN 在) (NP (-LRB- 《) (NNP 卫报) (-RRB- 》))) (DEC 的)) (NP (NN 评论))) (IN 中)))) (VP (VRD (VV 描述) (VC 为)) (NP (`` “) (QP (CD 600)) (NP (NNB 页的)) (NP (NN 元) (NN 架构) (NN 小说)) (, ，) (PP (VV 用) (NP (CP (CP (IP (VP (ADVP (RB 毫不)) (VP (JJ 留情)))) (DEC 的))) (ADJP (JJ 杰出)) (NP (NN 文学) (NN 作品)))) ('' ”)))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 该书)) (VP (MD 未能) (VP (VV 入围)))) (, ，) (IP (NP (NP (NP (NNP 美国)) (NP (NN 文学) (NN 明星))) (NP (NNP 西里) (/ ·) (NNP 赫斯特韦特) (FW -LRB-Siri) (FW Hustvedt-RRB-) (CC 和理) (NNP 查德) (/ ·) (NNP 鲍斯) (FW -LRB-Richard) (FW Powers-RRB-))) (VP (ADVP (RB 也)) (ADVP (RB 同样)) (VP (MD 未能) (VP (VV 入围))))) (. 。)))
+{"IP": {"IP": {}, ",": {}, ".": {}}}
+{"IP": {"IP": {"NP": {}, "VP": {}, "ADVP": {}}, ",": {}, ".": {}}}
+{"IP": {"NP": {}, "VP": {}, "ADVP": {}}}
+----------------------------------------------------------------------
+相反，在 13 本入围作品中，由哲学家 AC Grayling 领导的评委会最终选择了费里斯的第三部小说《在适当的时间再次站起来》，这本书被史蒂芬·金称为“牙科的 Catch-22”，故事讲述一名牙医发现自己在网上被人伪造了一个人，而福尔顿的《我们都完全与他人截然不同》则是一部关于现代小说中最不寻常家庭之一的故事，这本书已赢得 2014 年 PEN/Faulkner 奖。
+
+(ROOT (IP (IP (ADVP (VV 相反)) (, ，) (PP (IN 在) (LCP (NP (QP (CD 13) (CLP (NNB 本))) (NP (NN 入围) (NN 作品))) (IN 中))) (, ，) (NP (CP (CP (IP (VP (PP (VV 由) (NP (NP (NN 哲学) (SFN 家)) (NP (FW AC) (FW Grayling)))) (VP (VV 领导)))) (DEC 的))) (NP (NN 评委) (SFN 会))) (VP (ADVP (NN 最终)) (VP (VV 选择) (AS 了) (NP (NP (DNP (NP (NNP 费里斯)) (DEC 的)) (QP (CD 第三) (CLP (NNB 部))) (NP (NN 小说))) (IP (-LRB- 《) (VP (PP (IN 在) (NP (CP (CP (IP (VP (JJ 适当))) (DEC 的))) (NP (NN 时间)))) (ADVP (RB 再次)) (VP (VRD (VV 站) (VV 起来)))) (-RRB- 》)))))) (, ，) (IP (NP (DP (DT 这)) (NP (NN 本书))) (VP (BB 被) (IP (NP (NNP 史蒂芬) (/ ·)) (VP (NNP 金称) (VP (VC 为) (NP (`` “) (DNP (NP (NN 牙科)) (DEC 的)) (NP (FW Catch-22)) ('' ”))))))) (, ，) (IP (NP (NN 故事)) (VP (VV 讲述) (IP (IP (NP (QP (CD 一) (CLP (NNB 名))) (NP (NN 牙医))) (VP (VV 发现) (IP (NP (PRD 自己)) (VP (PP (VV 在) (NP (NN 网上))) (VP (BB 被) (IP (NP (NN 人)) (VP (VV 伪造) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 人)))))))))) (, ，) (RB 而) (IP (NP (DNP (NP (NNP 福尔顿)) (DEC 的)) (IP (-LRB- 《) (NP (PRP 我们)) (VP (ADVP (RB 都)) (ADVP (RB 完全)) (PP (IN 与) (NP (NN 他人))) (VP (VV 截然不同))) (-RRB- 》))) (VP (VC 则是) (NP (DNP (NP (DNP (NP (QP (CD 一) (CLP (NNB 部))) (CP (IP (VP (PP (IN 关于) (LCP (NP (ADJP (NN 现代)) (NP (NN 小说))) (IN 中))) (ADVP (RB 最)) (ADVP (RB 不)) (VP (JJ 寻常))))) (NP (NN 家庭))) (DEC 之)) (NP (CD 一))) (DEC 的)) (NP (NN 故事))))) (, ，) (IP (NP (DP (DT 这)) (NP (NN 本书))) (VP (ADVP (RB 已)) (VP (VV 赢得) (NP (CD 2014) (NNB 年 PEN) (/ /) (FW Faulkner) (SFN 奖)))))))) (. 。)))
+{"IP": {"IP": {}, ",": {}, ".": {}}}
+{"IP": {"IP": {"ADVP": {}, ",": {}, "PP": {}, "NP": {}, "VP": {}}, ",": {}, ".": {}}}
+{"IP": {"ADVP": {}, ",": {}, "PP": {}, "NP": {}, "VP": {}}}
+----------------------------------------------------------------------

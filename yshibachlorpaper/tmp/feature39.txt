@@ -1,0 +1,81 @@
+东京（路透社） - 任天堂公司（7974.OS: 报价、简介、研究、股价动态）的 Wii 游戏机在 6 月再次在日本的销量超过索尼公司（6758.T: 报价、简介、研究、股价动态）的 PlayStation 3，但其领先优势正在消失，一家游戏杂志出版商称。
+
+(ROOT (IP (IP (NP (DNP (NP (NP (NNP 东京)) (PRN (-LRB- （) (NP (NNP 路透) (SFN 社)) (-RRB- ）)) (HYPH -) (NP (NNP 任天堂) (NN 公司)) (PRN (-LRB- （) (NP (FW 7974.OS:) (NP (NN 报价) (EC 、) (NN 简介) (EC 、) (NN 研究) (EC 、) (NN 股价) (NN 动态))) (-RRB- ）))) (DEC 的)) (NP (FW Wii) (NN 游戏) (SFN 机))) (VP (PP (IN 在) (QP (CD 6) (NNB 月))) (ADVP (RB 再次)) (NP (DNP (PP (VV 在) (NP (NNP 日本))) (DEC 的)) (NP (NN 销量))) (VP (VV 超过) (NP (DNP (NP (NNP 索尼) (NN 公司) (PRN (-LRB- （) (NP (CD 6758.T:) (NP (NN 报价) (EC 、) (NN 简介) (EC 、) (NN 研究) (EC 、) (NN 股价) (NN 动态))) (-RRB- ）))) (DEC 的)) (NP (FW Play) (FW Station) (CD 3)))))) (, ，) (IP (ADVP (RB 但)) (NP (NP (PRP 其)) (NP (JJ 领先) (NN 优势))) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 消失)))) (, ，) (IP (NP (NP (QP (CD 一) (CLP (NNB 家))) (NP (NN 游戏) (NN 杂志))) (NP (VV 出版))) (VP (VV 商称))) (. 。)))
+{"IP": {"IP": {}, ",": {}, ".": {}}}
+{"IP": {"IP": {"NP": {}, "VP": {}, "ADVP": {}}, ",": {}, ".": {}}}
+{"IP": {"NP": {}, "VP": {}, "ADVP": {}}}
+----------------------------------------------------------------------
+Enterbrain 表示，Wii 的销量比竞争对手高出 1.7 倍，成为第七个月的第一款游戏主机，但这一数字远远低于 Wii 在 5 月份的 6 倍领先。
+
+(ROOT (IP (NP (FW Enterbrain)) (VP (VV 表示) (, ，) (IP (IP (NP (DNP (NP (FW Wii)) (DEC 的)) (NP (NN 销量))) (VP (VP (PP (IN 比) (NP (NN 竞争) (NN 对手))) (VP (VV 高出) (QP (CD 1.7) (CLP (NNB 倍))))) (, ，) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (QP (CD 第七) (CLP (NNB 个))) (NP (NN 月))) (DEC 的)) (QP (CD 第一) (CLP (NNB 款))) (NP (NN 游戏) (NN 主机))))))) (, ，) (IP (ADVP (RB 但)) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 数字))) (VP (ADVP (RB 远远)) (VP (JJ 低) (PP (VV 于) (NP (NP (FW Wii)) (DNP (PP (IN 在) (NP (QP (CD 5)) (NP (NN 月份)))) (DEC 的)) (QP (CD 6) (CLP (NNB 倍))) (NP (NN 领先))))))))) (. 。)))
+{"IP": {"NP": {}, "VP": {}, ".": {}}}
+{"IP": {"NP": {"FW": {}}, "VP": {"VV": {}, ",": {}, "IP": {}}, ".": {}}}
+{"NP": {"FW": {}}}
+{"VP": {"VV": {}, ",": {}, "IP": {}}}
+----------------------------------------------------------------------
+该杂志称，科乐美公司（9766.T: 价格、简介、研究、股价）于六月份推出了高度期待的《Metal Gear Solid 4》，为索尼机器带来了需求。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 杂志))) (VP (VV 称) (, ，) (IP (NP (NP (NNP 科乐) (NNP 美) (NN 公司)) (PRN (-LRB- （) (NP (NP (CD 9766.T:)) (NP (NN 价格) (EC 、) (NN 简介) (EC 、) (NN 研究) (EC 、) (NN 股价))) (-RRB- ）))) (VP (VP (PP (IN 于) (NP (QP (CD 六) (CLP (NNB 月))) (NP (NNB 份)))) (VP (VV 推出) (AS 了) (NP (CP (CP (IP (NP (ADJP (NN 高度)) (NP (VV 期待)))) (DEC 的))) (NP (-LRB- 《) (NP (FW Metal) (FW Gear) (FW Solid)) (QP (CD 4)) (-RRB- 》))))) (, ，) (VP (PP (IN 为) (NP (NNP 索尼) (NN 机器))) (VP (VV 带来) (AS 了) (NP (NN 需求))))))) (. 。)))
+{"IP": {"NP": {}, "VP": {}, ".": {}}}
+{"IP": {"NP": {"DP": {}, "NP": {}}, "VP": {"VV": {}, ",": {}, "IP": {}}, ".": {}}}
+{"NP": {"DP": {}, "NP": {}}}
+{"VP": {"VV": {}, ",": {}, "IP": {}}}
+----------------------------------------------------------------------
+Enterbrain 表示，在 6 月 29 日结束的五周内，任天堂 Wii 游戏机的销量为 235,990 台，而 PS3 的销量为 139,494 台。
+
+(ROOT (IP (NP (FW Enterbrain)) (VP (VV 表示) (, ，) (IP (IP (LCP (NP (CP (CP (IP (VP (PP (IN 在) (NP (CD 6) (NNB 月 29) (NNB 日))) (VP (VV 结束)))) (DEC 的))) (QP (CD 五) (CLP (NNB 周)))) (IN 内)) (, ，) (NP (DNP (NP (NP (NNP 任天堂)) (NP (FW Wii) (NN 游戏) (SFN 机))) (DEC 的)) (NP (NN 销量))) (VP (VC 为) (QP (CD 235,990) (CLP (NNB 台))))) (, ，) (RB 而) (IP (NP (DNP (NP (FW PS3)) (DEC 的)) (NP (NN 销量))) (VP (VC 为) (QP (CD 139,494) (CLP (NNB 台))))))) (. 。)))
+{"IP": {"NP": {}, "VP": {}, ".": {}}}
+{"IP": {"NP": {"FW": {}}, "VP": {"VV": {}, ",": {}, "IP": {}}, ".": {}}}
+{"NP": {"FW": {}}}
+{"VP": {"VV": {}, ",": {}, "IP": {}}}
+----------------------------------------------------------------------
+微软公司 (MSFT.O: 报价、公司简介、研究报告、股票动态) Xbox 360 的销量为 10,964 台，位居第三。
+
+(ROOT (IP (NP (DNP (NP (NP (NP (NNP 微软) (NN 公司)) (FW -LRB-MSFT.O:) (NP (NP (NN 报价)) (EC 、) (NP (NN 公司) (NN 简介)) (EC 、) (NP (NN 研究) (NN 报告)) (EC 、) (NP (NN 股票) (NN 动态)) (-RRB- -RRB-))) (NP (FW Xbox) (FW 360))) (DEC 的)) (NP (NN 销量))) (VP (VP (VC 为) (QP (CD 10,964) (CLP (NNB 台)))) (, ，) (VP (VV 位居) (QP (CD 第三)))) (. 。)))
+{"IP": {"NP": {}, "VP": {}, ".": {}}}
+{"IP": {"NP": {"DNP": {}, "NP": {}}, "VP": {"VP": {}, ",": {}}, ".": {}}}
+{"NP": {"DNP": {}, "NP": {}}}
+{"VP": {"VP": {}, ",": {}}}
+----------------------------------------------------------------------
+尽管在六月份表现强劲，但PS3在全球销量方面还有很大的追赶空间。
+
+(ROOT (IP (VP (ADVP (IN 尽管)) (PP (IN 在) (NP (NP (QP (CD 六)) (NP (NNB 月))) (NP (IN 份)))) (NP (VV 表现)) (VP (JJ 强劲))) (, ，) (ADVP (RB 但)) (NP (FW PS3)) (VP (PP (IN 在) (NP (NN 全球) (NN 销量) (NN 方面))) (ADVP (RB 还)) (VP (VV 有) (NP (CP (CP (IP (VP (JJ 很大))) (DEC 的))) (NP (NN 追赶) (NN 空间))))) (. 。)))
+{"IP": {"VP": {}, ",": {}, "ADVP": {}, "NP": {}, ".": {}}}
+{"IP": {"VP": {"ADVP": {}, "PP": {}, "NP": {}, "VP": {}}, ",": {}, "ADVP": {"RB": {}}, "NP": {"FW": {}}, ".": {}}}
+{"VP": {"ADVP": {}, "PP": {}, "NP": {}, "VP": {}}}
+{"ADVP": {"RB": {}}}
+{"NP": {"FW": {}}}
+----------------------------------------------------------------------
+截至 3 月底，索尼最新游戏机全球销量为 1285 万台，仅为竞争对手两家公司 2006 年下半年推出的游戏机销量的一半。
+
+(ROOT (IP (PP (IN 截至) (NP (CD 3) (NN 月底))) (, ，) (NP (NP (NP (NNP 索尼)) (ADJP (JJ 最新)) (NP (NN 游戏) (SFN 机))) (NP (NN 全球) (NN 销量))) (VP (VP (VC 为) (QP (CD 1285) (CLP (NNB 万台)))) (, ，) (VP (ADVP (RB 仅)) (VP (VC 为) (QP (DNP (NP (NP (CP (CP (IP (NP (NP (NN 竞争) (NN 对手)) (QP (CD 两) (CLP (NNB 家))) (NP (NN 公司))) (VP (NP (CD 2006)) (DP (NNB 年下半) (CLP (NNB 年))) (VP (VV 推出)))) (DEC 的))) (NP (NN 游戏) (SFN 机))) (NP (NN 销量))) (DEC 的)) (QP (CD 一半)))))) (. 。)))
+{"IP": {"PP": {}, ",": {}, "NP": {}, "VP": {}, ".": {}}}
+{"IP": {"PP": {"IN": {}, "NP": {}}, ",": {}, "NP": {"NP": {}}, "VP": {"VP": {}, ",": {}}, ".": {}}}
+{"PP": {"IN": {}, "NP": {}}}
+{"NP": {"NP": {}}}
+{"VP": {"VP": {}, ",": {}}}
+----------------------------------------------------------------------
+据出版商称，在这五周期间，索尼手持游戏机 PlayStation Portable 的销量为 274,131 台，超过了任天堂的 DS 设备销量 195,714 台。
+
+(ROOT (IP (PP (IN 据) (IP (NP (VV 出版) (SFN 商)) (VP (VV 称)))) (, ，) (PP (IN 在) (LCP (NP (DP (DT 这) (QP (CD 五))) (NP (NNB 周期))) (IN 间))) (, ，) (NP (DNP (NP (NP (NP (NNP 索尼)) (VP (VV 手持) (NP (NN 游戏) (SFN 机)))) (NP (FW Play) (FW Station) (FW Portable))) (DEC 的)) (NP (NN 销量))) (VP (VP (VC 为) (QP (CD 274,131) (CLP (NNB 台)))) (, ，) (VP (VV 超过) (AS 了) (NP (DNP (NP (NNP 任天堂)) (DEC 的)) (NP (FW DS) (NN 设备) (NN 销量))) (QP (CD 195,714) (CLP (NNB 台))))) (. 。)))
+{"IP": {"PP": {}, ",": {}, "NP": {}, "VP": {}, ".": {}}}
+{"IP": {"PP": {"IN": {}, "IP": {}, "LCP": {}}, ",": {}, "NP": {"DNP": {}, "NP": {}}, "VP": {"VP": {}, ",": {}}, ".": {}}}
+{"PP": {"IN": {}, "IP": {}, "LCP": {}}}
+{"NP": {"DNP": {}, "NP": {}}}
+{"VP": {"VP": {}, ",": {}}}
+----------------------------------------------------------------------
+宣布前，索尼股价上涨了 0.9%，收于 4600 日元，任天堂股价上涨了 0.2%，收于 60900 日元。
+
+(ROOT (IP (IP (LCP (IP (VP (VV 宣布))) (IN 前)) (, ，) (NP (NP (NNP 索尼)) (NP (NN 股价))) (VP (VP (VV 上涨) (AS 了) (QP (CD 0.9%))) (, ，) (VP (VV 收) (PP (VV 于) (QP (CD 4600) (CLP (NNB 日元))))))) (, ，) (IP (NP (NP (NNP 任天堂)) (NP (NN 股价))) (VP (VP (VV 上涨) (AS 了) (QP (CD 0.2%))) (, ，) (VP (VV 收) (PP (VV 于) (QP (CD 60900) (CLP (NNB 日元))))))) (. 。)))
+{"IP": {"IP": {}, ",": {}, ".": {}}}
+{"IP": {"IP": {"LCP": {}, ",": {}, "NP": {}, "VP": {}}, ",": {}, ".": {}}}
+{"IP": {"LCP": {}, ",": {}, "NP": {}, "VP": {}}}
+----------------------------------------------------------------------
+日经平均指数.N225 下跌 0.2%。
+
+(ROOT (IP (NP (NP (NNP 日经)) (ADJP (JJ 平均)) (NP (NN 指数))) (NP (FW .N225)) (VP (VV 下跌) (QP (CD 0.2%))) (. 。)))
+{"IP": {"NP": {}, "VP": {}, ".": {}}}
+{"IP": {"NP": {"NP": {}, "ADJP": {}, "FW": {}}, "VP": {"VV": {}, "QP": {}}, ".": {}}}
+{"NP": {"NP": {}, "ADJP": {}, "FW": {}}}
+{"VP": {"VV": {}, "QP": {}}}
+----------------------------------------------------------------------
