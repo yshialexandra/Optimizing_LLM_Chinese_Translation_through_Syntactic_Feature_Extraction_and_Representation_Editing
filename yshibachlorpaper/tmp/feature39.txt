@@ -1,86 +1,1804 @@
-东京（路透社） - 任天堂公司（7974.OS: 报价、简介、研究、股价动态）的 Wii 游戏机在 6 月再次在日本的销量超过索尼公司（6758.T: 报价、简介、研究、股价动态）的 PlayStation 3，但其领先优势正在消失，一家游戏杂志出版商称。
+爱尔兰人有一句谚语，叫“做穷人”，意思是夸大自己的困难来获得同情、慈善和可能的宽容。
 
-(ROOT (IP (IP (NP (DNP (NP (NP (NNP 东京)) (PRN (-LRB- （) (NP (NNP 路透) (SFN 社)) (-RRB- ）)) (HYPH -) (NP (NNP 任天堂) (NN 公司)) (PRN (-LRB- （) (NP (FW 7974.OS:) (NP (NN 报价) (EC 、) (NN 简介) (EC 、) (NN 研究) (EC 、) (NN 股价) (NN 动态))) (-RRB- ）))) (DEC 的)) (NP (FW Wii) (NN 游戏) (SFN 机))) (VP (PP (IN 在) (QP (CD 6) (NNB 月))) (ADVP (RB 再次)) (NP (DNP (PP (VV 在) (NP (NNP 日本))) (DEC 的)) (NP (NN 销量))) (VP (VV 超过) (NP (DNP (NP (NNP 索尼) (NN 公司) (PRN (-LRB- （) (NP (CD 6758.T:) (NP (NN 报价) (EC 、) (NN 简介) (EC 、) (NN 研究) (EC 、) (NN 股价) (NN 动态))) (-RRB- ）))) (DEC 的)) (NP (FW Play) (FW Station) (CD 3)))))) (, ，) (IP (ADVP (RB 但)) (NP (NP (PRP 其)) (NP (JJ 领先) (NN 优势))) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 消失)))) (, ，) (IP (NP (NP (QP (CD 一) (CLP (NNB 家))) (NP (NN 游戏) (NN 杂志))) (NP (VV 出版))) (VP (VV 商称))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-Enterbrain 表示，Wii 的销量比竞争对手高出 1.7 倍，成为第七个月的第一款游戏主机，但这一数字远远低于 Wii 在 5 月份的 6 倍领先。
-
-(ROOT (IP (NP (FW Enterbrain)) (VP (VV 表示) (, ，) (IP (IP (NP (DNP (NP (FW Wii)) (DEC 的)) (NP (NN 销量))) (VP (VP (PP (IN 比) (NP (NN 竞争) (NN 对手))) (VP (VV 高出) (QP (CD 1.7) (CLP (NNB 倍))))) (, ，) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (QP (CD 第七) (CLP (NNB 个))) (NP (NN 月))) (DEC 的)) (QP (CD 第一) (CLP (NNB 款))) (NP (NN 游戏) (NN 主机))))))) (, ，) (IP (ADVP (RB 但)) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 数字))) (VP (ADVP (RB 远远)) (VP (JJ 低) (PP (VV 于) (NP (NP (FW Wii)) (DNP (PP (IN 在) (NP (QP (CD 5)) (NP (NN 月份)))) (DEC 的)) (QP (CD 6) (CLP (NNB 倍))) (NP (NN 领先))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'FW': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-该杂志称，科乐美公司（9766.T: 价格、简介、研究、股价）于六月份推出了高度期待的《Metal Gear Solid 4》，为索尼机器带来了需求。
-
-(ROOT (IP (NP (DP (DT 该)) (NP (NN 杂志))) (VP (VV 称) (, ，) (IP (NP (NP (NNP 科乐) (NNP 美) (NN 公司)) (PRN (-LRB- （) (NP (NP (CD 9766.T:)) (NP (NN 价格) (EC 、) (NN 简介) (EC 、) (NN 研究) (EC 、) (NN 股价))) (-RRB- ）))) (VP (VP (PP (IN 于) (NP (QP (CD 六) (CLP (NNB 月))) (NP (NNB 份)))) (VP (VV 推出) (AS 了) (NP (CP (CP (IP (NP (ADJP (NN 高度)) (NP (VV 期待)))) (DEC 的))) (NP (-LRB- 《) (NP (FW Metal) (FW Gear) (FW Solid)) (QP (CD 4)) (-RRB- 》))))) (, ，) (VP (PP (IN 为) (NP (NNP 索尼) (NN 机器))) (VP (VV 带来) (AS 了) (NP (NN 需求))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-Enterbrain 表示，在 6 月 29 日结束的五周内，任天堂 Wii 游戏机的销量为 235,990 台，而 PS3 的销量为 139,494 台。
-
-(ROOT (IP (NP (FW Enterbrain)) (VP (VV 表示) (, ，) (IP (IP (LCP (NP (CP (CP (IP (VP (PP (IN 在) (NP (CD 6) (NNB 月 29) (NNB 日))) (VP (VV 结束)))) (DEC 的))) (QP (CD 五) (CLP (NNB 周)))) (IN 内)) (, ，) (NP (DNP (NP (NP (NNP 任天堂)) (NP (FW Wii) (NN 游戏) (SFN 机))) (DEC 的)) (NP (NN 销量))) (VP (VC 为) (QP (CD 235,990) (CLP (NNB 台))))) (, ，) (RB 而) (IP (NP (DNP (NP (FW PS3)) (DEC 的)) (NP (NN 销量))) (VP (VC 为) (QP (CD 139,494) (CLP (NNB 台))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'FW': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-微软公司 (MSFT.O: 报价、公司简介、研究报告、股票动态) Xbox 360 的销量为 10,964 台，位居第三。
-
-(ROOT (IP (NP (DNP (NP (NP (NP (NNP 微软) (NN 公司)) (FW -LRB-MSFT.O:) (NP (NP (NN 报价)) (EC 、) (NP (NN 公司) (NN 简介)) (EC 、) (NP (NN 研究) (NN 报告)) (EC 、) (NP (NN 股票) (NN 动态)) (-RRB- -RRB-))) (NP (FW Xbox) (FW 360))) (DEC 的)) (NP (NN 销量))) (VP (VP (VC 为) (QP (CD 10,964) (CLP (NNB 台)))) (, ，) (VP (VV 位居) (QP (CD 第三)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-尽管在六月份表现强劲，但PS3在全球销量方面还有很大的追赶空间。
-
-(ROOT (IP (VP (ADVP (IN 尽管)) (PP (IN 在) (NP (NP (QP (CD 六)) (NP (NNB 月))) (NP (IN 份)))) (NP (VV 表现)) (VP (JJ 强劲))) (, ，) (ADVP (RB 但)) (NP (FW PS3)) (VP (PP (IN 在) (NP (NN 全球) (NN 销量) (NN 方面))) (ADVP (RB 还)) (VP (VV 有) (NP (CP (CP (IP (VP (JJ 很大))) (DEC 的))) (NP (NN 追赶) (NN 空间))))) (. 。)))
-{'IP': {'VP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'VP': {'ADVP': {}, 'PP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'FW': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'VP': {'ADVP': {}, 'PP': {}, 'NP': {}, 'VP': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'FW': {}}}
-{'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-截至 3 月底，索尼最新游戏机全球销量为 1285 万台，仅为竞争对手两家公司 2006 年下半年推出的游戏机销量的一半。
-
-(ROOT (IP (PP (IN 截至) (NP (CD 3) (NN 月底))) (, ，) (NP (NP (NP (NNP 索尼)) (ADJP (JJ 最新)) (NP (NN 游戏) (SFN 机))) (NP (NN 全球) (NN 销量))) (VP (VP (VC 为) (QP (CD 1285) (CLP (NNB 万台)))) (, ，) (VP (ADVP (RB 仅)) (VP (VC 为) (QP (DNP (NP (NP (CP (CP (IP (NP (NP (NN 竞争) (NN 对手)) (QP (CD 两) (CLP (NNB 家))) (NP (NN 公司))) (VP (NP (CD 2006)) (DP (NNB 年下半) (CLP (NNB 年))) (VP (VV 推出)))) (DEC 的))) (NP (NN 游戏) (SFN 机))) (NP (NN 销量))) (DEC 的)) (QP (CD 一半)))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'NP': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-据出版商称，在这五周期间，索尼手持游戏机 PlayStation Portable 的销量为 274,131 台，超过了任天堂的 DS 设备销量 195,714 台。
-
-(ROOT (IP (PP (IN 据) (IP (NP (VV 出版) (SFN 商)) (VP (VV 称)))) (, ，) (PP (IN 在) (LCP (NP (DP (DT 这) (QP (CD 五))) (NP (NNB 周期))) (IN 间))) (, ，) (NP (DNP (NP (NP (NP (NNP 索尼)) (VP (VV 手持) (NP (NN 游戏) (SFN 机)))) (NP (FW Play) (FW Station) (FW Portable))) (DEC 的)) (NP (NN 销量))) (VP (VP (VC 为) (QP (CD 274,131) (CLP (NNB 台)))) (, ，) (VP (VV 超过) (AS 了) (NP (DNP (NP (NNP 任天堂)) (DEC 的)) (NP (FW DS) (NN 设备) (NN 销量))) (QP (CD 195,714) (CLP (NNB 台))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-宣布前，索尼股价上涨了 0.9%，收于 4600 日元，任天堂股价上涨了 0.2%，收于 60900 日元。
-
-(ROOT (IP (IP (LCP (IP (VP (VV 宣布))) (IN 前)) (, ，) (NP (NP (NNP 索尼)) (NP (NN 股价))) (VP (VP (VV 上涨) (AS 了) (QP (CD 0.9%))) (, ，) (VP (VV 收) (PP (VV 于) (QP (CD 4600) (CLP (NNB 日元))))))) (, ，) (IP (NP (NP (NNP 任天堂)) (NP (NN 股价))) (VP (VP (VV 上涨) (AS 了) (QP (CD 0.2%))) (, ，) (VP (VV 收) (PP (VV 于) (QP (CD 60900) (CLP (NNB 日元))))))) (. 。)))
+(ROOT (IP (IP (NP (NP (NNP 爱尔兰)) (NP (SFN 人))) (VP (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 句))) (NP (NN 谚语)))) (, ，) (VP (VV 叫) (NP (`` “) (ADJP (VV 做穷)) (NP (SFN 人)) ('' ”))))) (, ，) (IP (NP (NN 意思)) (VP (VC 是) (IP (VP (VP (VV 夸大) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 困难)))) (VP (RB 来) (VP (VV 获得) (NP (NP (NN 同情)) (EC 、) (NP (NN 慈善)) (CC 和) (NP (CP (CP (IP (VP (MD 可能))) (DEC 的))) (NP (NN 宽容)))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP73927': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP5583': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+爱尔兰	人	compound
+人	有	nsubj
+有	ROOT	root
+一	句	nummod
+句	谚语	clf
+谚语	叫	nsubj
+，	谚语	punct
+叫	有	ccomp
+“	人	punct
+做穷	人	compound
+人	叫	obj
+”	人	punct
+，	是	punct
+意思	是	nsubj
+是	有	parataxis
+夸大	获得	xcomp
+自己	夸大	obj
+的	自己	case
+困难	夸大	obj
+来	获得	mark
+获得	是	xcomp
+同情	获得	obj
+、	慈善	punct
+慈善	同情	conj
+和	宽容	cc
+可能	宽容	det
+的	可能	mark:rel
+宽容	同情	conj
+。	有	punct
+----------------------------------------------------------------------
+2007 年爆发爱尔兰建筑泡沫后，爱尔兰采取了这一措施，并从欧盟和国际货币基金组织 (IMF) 获得了一揽子贷款，贷款将持续到 2014 年。
+
+(ROOT (IP (IP (LCP (IP (VP (NP (CD 2007)) (VP (NNB 年爆发) (NP (NP (NNP 爱尔兰)) (NP (NN 建筑) (NN 泡沫)))))) (IN 后)) (, ，) (NP (NNP 爱尔兰)) (VP (VP (VV 采取) (AS 了) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 措施)))) (, ，) (RB 并) (VP (PP (IN 从) (NP (NP (NNP 欧盟) (CC 和) (NN 国际) (NN 货币) (NN 基金) (NN 组织)) (NP (FW -LRB-IMF-RRB-)))) (VP (VV 获得) (AS 了) (NP (QP (CD 一)) (CLP (NNB 揽子)) (NP (VV 贷) (SFN 款))))))) (, ，) (IP (NP (VV 贷) (SFN 款)) (VP (ADVP (RB 将)) (VP (VRD (VV 持续) (VV 到)) (NP (CD 2014) (NNB 年))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP91931': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP32186': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+2007	年爆发	nummod
+年爆发	泡沫	clf
+爱尔兰	泡沫	nmod
+建筑	泡沫	nmod
+泡沫	采取	nmod:tmod
+后	泡沫	case
+，	泡沫	punct
+爱尔兰	采取	nsubj
+采取	ROOT	root
+了	采取	aux
+这	措施	det
+一	措施	nummod
+措施	采取	obj
+，	获得	punct
+并	获得	mark
+从	(IMF)	case
+欧盟	获得	obl
+和	组织	cc
+国际	组织	nmod
+货币	组织	nmod
+基金	组织	nmod
+组织	欧盟	conj
+(IMF)	获得	obl
+获得	采取	ccomp
+了	获得	aux
+一	揽子	nummod
+揽子	款	nmod
+贷	款	compound
+款	获得	obj
+，	持续	punct
+贷	款	compound
+款	持续	nsubj
+将	持续	advmod
+持续	获得	parataxis
+到	持续	mark
+2014	年	nummod
+年	持续	obj
+。	采取	punct
 ----------------------------------------------------------------------
-日经平均指数.N225 下跌 0.2%。
+多年来，都柏林一直试图赢得欧洲当局的好感，私下表示，如果不能就过去几届政府积累的 640 亿欧元银行债务达成协议，它将无法偿还贷款。
 
-(ROOT (IP (NP (NP (NNP 日经)) (ADJP (JJ 平均)) (NP (NN 指数))) (NP (FW .N225)) (VP (VV 下跌) (QP (CD 0.2%))) (. 。)))
-{'IP': {'NP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'ADJP': {}, 'NP': {}}, 'NP': {'FW': {}}, 'VP': {'VV': {}, 'QP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'ADJP': {}, 'NP': {}}}
-{'NP': {'FW': {}}}
-{'VP': {'VV': {}, 'QP': {}}}
+(ROOT (IP (LCP (QP (CD 多) (CLP (NNB 年))) (IN 来)) (, ，) (NP (NNP 都柏林)) (VP (VP (ADVP (RB 一直)) (VP (VV 试图) (IP (VP (VV 赢得) (NP (DNP (NP (NP (NNP 欧洲)) (NP (NN 当局))) (DEC 的)) (NP (NN 好感))))))) (, ，) (VP (ADVP (RB 私下)) (VP (VV 表示) (, ，) (IP (IP (VP (ADVP (IN 如果)) (VP (MD 不能) (VP (PP (IN 就) (NP (CP (CP (IP (NP (QP (NP (NN 过去)) (QP (CD 几) (CLP (NNB 届)))) (NP (NN 政府))) (VP (VV 积累))) (DEC 的))) (NP (QP (CD 640) (QP (NNB 亿) (CLP (NNP 欧) (CLP (NNB 元))))) (NP (NN 银行))) (NP (NN 债务)))) (VP (VV 达成) (NP (NN 协议))))))) (, ，) (NP (PRP 它)) (VP (ADVP (RB 将)) (VP (VV 无) (NP (VV 法偿) (RB 还) (VV 贷) (SFN 款)))))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'QP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP2954': {}}, '.': {}}}
+{'IP': {'LCP': {'QP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'QP': {}, 'IN': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+多	年	nummod
+年	表示	nmod:tmod
+来	年	case
+，	年	punct
+都柏林	表示	nsubj
+一直	试图	advmod
+试图	表示	advcl
+赢得	试图	xcomp
+欧洲	当局	nmod
+当局	赢得	obj
+的	赢得	mark:rel
+好感	赢得	obj
+，	试图	punct
+私下	表示	advmod
+表示	ROOT	root
+，	无	punct
+如果	达成	case
+能	达成	aux
+就	债务	case
+过去	政府	nmod
+几	届	nummod
+届	政府	clf
+政府	积累	nsubj
+积累	债务	acl:relcl
+的	积累	mark:rel
+640	亿	nummod
+亿	债务	clf
+欧	元	nmod
+元	债务	nmod
+银行	债务	nmod
+债务	达成	obl
+达成	无	ccomp
+协议	达成	obj
+，	达成	punct
+它	无	nsubj
+将	无	advmod
+无	表示	ccomp
+法偿	无	xcomp
+还	贷	mark
+贷	款	compound
+款	法偿	obj
+。	表示	punct
+----------------------------------------------------------------------
+终于，爱尔兰开始超越“嘴上说穷”的层面。
+
+(ROOT (IP (ADVP (RB 终于)) (, ，) (NP (NNP 爱尔兰)) (VP (VV 开始) (VP (VV 超越) (NP (CP (IP (`` “) (LCP (NP (NN 嘴)) (VV 上)) (VP (VV 说) (NP (NN 穷))) ('' ”)) (DEC 的)) (NP (NN 层面))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, 'VP': {}}}
+Dependency Features:
+终于	开始	advmod
+，	终于	punct
+爱尔兰	开始	nsubj
+开始	ROOT	root
+超越	开始	xcomp
+“	嘴	punct
+嘴	说	nsubj
+上	嘴	case
+说	层面	acl:relcl
+穷	说	obj
+”	说	punct
+的	说	mark:rel
+层面	超越	obj
+。	开始	punct
+----------------------------------------------------------------------
+爱尔兰总理恩达·肯尼 (Enda Kenny) 最近登上《时代周刊》封面，标题为“凯尔特复兴”，《金融时报》称爱尔兰财政部长是欧洲最佳之一。
+
+(ROOT (IP (IP (NP (NP (NP (NNP 爱尔兰)) (NP (NN 总理))) (NP (NNP 恩达) (/ ·) (NNP 肯尼) (FW -LRB-Enda) (FW Kenny-RRB-))) (VP (NP (NN 最近)) (VP (VV 登上) (NP (NP (-LRB- 《) (NN 时代) (NN 周刊) (-RRB- 》)) (NP (NN 封面)))))) (, ，) (IP (NP (NN 标题)) (VP (VC 为) (NP (`` “) (NP (NNP 凯尔特)) (VP (VV 复兴)) ('' ”)))) (, ，) (IP (NP (-LRB- 《) (NN 金融) (NN 时报) (-RRB- 》)) (VP (VV 称) (IP (NP (NP (NNP 爱尔兰)) (NP (NN 财政) (NN 部长))) (VP (VC 是) (NP (NP (NNP 欧洲)) (DNP (ADJP (JJ 最佳)) (DEC 之)) (NP (CD 一))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP74409': {}, ',59210': {}, 'IP94186': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP3919': {'NP': {}, 'VP': {}}, ',97637': {}, 'IP51969': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+爱尔兰	总理	nmod
+总理	登上	nsubj
+恩达	总理	appos
+·	肯尼	punct
+肯尼	恩达	flat:name
+(Enda	总理	appos
+Kenny)	(Enda	flat:foreign
+最近	登上	nmod:tmod
+登上	ROOT	root
+《	周刊	punct
+时代	周刊	nmod
+周刊	封面	nmod
+》	周刊	punct
+封面	登上	obj
+，	复兴	punct
+标题	复兴	nsubj
+为	复兴	cop
+“	复兴	punct
+凯尔特	复兴	nmod
+复兴	登上	parataxis
+”	复兴	punct
+，	称	punct
+《	时报	punct
+金融	时报	nmod
+时报	称	nsubj
+》	时报	punct
+称	登上	parataxis
+爱尔兰	部长	nmod
+财政	部长	nmod
+部长	一	nsubj
+是	一	cop
+欧洲	一	nmod
+最佳	一	amod
+之	最佳	mark:rel
+一	称	ccomp
+。	登上	punct
+----------------------------------------------------------------------
+该国最大的银行可以再次在公开市场借贷。
+
+(ROOT (IP (NP (CP (CP (IP (VP (NP (NN 该国)) (VP (JJ 最大)))) (DEC 的))) (NP (NN 银行))) (VP (MD 可以) (VP (ADVP (RB 再次)) (PP (IN 在) (NP (ADJP (JJ 公开)) (NP (NN 市场)))) (VP (VV 借贷)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+该国	银行	nmod
+最大	银行	amod
+的	最大	mark:rel
+银行	借贷	nsubj
+可以	借贷	aux
+再次	借贷	advmod
+在	市场	case
+公开	市场	amod
+市场	借贷	obl
+借贷	ROOT	root
+。	借贷	punct
+----------------------------------------------------------------------
+爱尔兰主权债券的利率——被视为违约可能性的关键指标——正在迅速下降。
+
+(ROOT (IP (NP (DNP (NP (NP (NNP 爱尔兰)) (NP (NN 主权) (NN 债券))) (DEC 的)) (NP (NN 利率))) (HYPH ——) (VP (VP (BB 被) (VP (VCP (VV 视) (VC 为)) (NP (DNP (NP (NN 违约) (NN 可能) (SFN 性)) (DEC 的)) (NP (NN 关键) (NN 指标))))) (HYPH —) (HYPH —) (VP (ADVP (RB 正)) (ADVP (RB 在)) (ADVP (RB 迅速)) (VP (VV 下降)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'HYPH': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'HYPH': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'HYPH': {}, 'VP': {'VP': {}, 'HYPH': {}, 'HYPH34776': {}, 'VP96970': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'HYPH': {}, 'VP': {'VP': {}, 'HYPH': {}, 'HYPH': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VP': {}, 'HYPH': {}, 'HYPH': {}, 'VP': {}}}
+Dependency Features:
+爱尔兰	债券	nmod
+主权	债券	nmod
+债券	利率	nmod
+的	债券	case
+利率	视	nsubj:pass
+——	利率	punct
+被	视	aux:pass
+视	ROOT	root
+为	视	mark
+违约	性	nmod
+可能	性	compound
+性	指标	nmod
+的	性	mark:rel
+关键	指标	nmod
+指标	下降	nsubj
+—	下降	punct
+—	下降	punct
+正	下降	advmod
+在	下降	advmod
+迅速	下降	advmod
+下降	视	ccomp
+。	视	punct
+----------------------------------------------------------------------
+评级机构如穆迪和惠誉等已经上调了对该国及其部分银行的展望。
+
+(ROOT (IP (NP (NP (NN 评级) (NN 机构)) (NP (ADVP (VV 如)) (NP (NNP 穆迪) (CC 和) (NNP 惠誉) (NN 等)))) (VP (ADVP (RB 已经)) (VP (VV 上调) (AS 了) (NP (DNP (PP (IN 对) (NP (NP (NN 该国)) (CC 及) (NP (NP (PRP 其)) (QP (NN 部分)) (NP (NN 银行))))) (DEC 的)) (NP (NN 展望))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP91671': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+评级	机构	nmod
+机构	上调	nsubj
+如	上调	advcl
+穆迪	如	obj
+和	惠誉	cc
+惠誉	穆迪	conj
+等	穆迪	acl
+已经	上调	advmod
+上调	ROOT	root
+了	上调	aux
+对	展望	case
+该国	展望	nmod
+及	银行	cc
+其	银行	nmod
+部分	银行	nmod
+银行	该国	conj
+的	展望	case
+展望	上调	obj
+。	上调	punct
+----------------------------------------------------------------------
+去年夏天，政府举行了两次成功的主权债券拍卖，并计划在下一年举行更多拍卖，这似乎差不多完成了转变。
+
+(ROOT (IP (IP (NP (NN 去年) (NN 夏天)) (, ，) (NP (NN 政府)) (VP (VP (VV 举行) (AS 了) (NP (QP (CD 两) (CLP (NNB 次))) (CP (CP (IP (VP (JJ 成功))) (DEC 的))) (NP (NN 主权) (NN 债券) (NN 拍卖)))) (, ，) (RB 并) (VP (VV 计划) (IP (VP (PP (IN 在) (DP (DT 下) (QP (CD 一) (CLP (NNB 年))))) (VP (VV 举行) (NP (ADJP (JJ 更多)) (NP (NN 拍卖))))))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 似乎)) (ADVP (VV 差)) (ADVP (RB 不多)) (VP (VV 完成) (AS 了) (NP (NN 转变))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP67762': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP85268': {}, 'VP': {}}, ',': {}, 'IP11786': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+去年	夏天	nmod
+夏天	计划	nmod:tmod
+，	夏天	punct
+政府	计划	nsubj
+举行	计划	advcl
+了	举行	aux
+两	次	nummod
+次	拍卖	clf
+成功	拍卖	amod
+的	成功	mark:rel
+主权	拍卖	nmod
+债券	拍卖	nmod
+拍卖	举行	obj
+，	举行	punct
+并	计划	mark
+计划	ROOT	root
+在	年	case
+下	年	det
+一	年	nummod
+年	举行	obl
+举行	计划	xcomp
+更多	拍卖	amod
+拍卖	举行	obj
+，	差	punct
+这	差	nsubj
+似乎	差	advmod
+差	完成	advcl
+不多	完成	advmod
+完成	计划	parataxis
+了	完成	aux
+转变	完成	obj
+。	计划	punct
+----------------------------------------------------------------------
+2013年底或2014年初，爱尔兰应该不再需要欧盟和国际货币基金组织的援助。
+
+(ROOT (IP (LCP (LCP (NP (CD 2013) (NNB 年)) (IN 底)) (CC 或) (LCP (NP (CD 2014) (NNB 年)) (IN 初))) (, ，) (NP (NNP 爱尔兰)) (VP (MD 应该) (VP (ADVP (RB 不再)) (VP (VV 需要) (NP (DNP (NP (NP (NNP 欧盟)) (CC 和) (NP (NN 国际) (NN 货币) (NN 基金) (NN 组织))) (DEC 的)) (NP (NN 援助)))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'LCP': {}, 'CC': {}, 'LCP95947': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {'LCP': {}, 'CC': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'LCP': {}, 'CC': {}, 'LCP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+2013	年	nummod
+年	需要	nmod:tmod
+底	年	case
+或	年	cc
+2014	年	nummod
+年	年	conj
+初	年	case
+，	年	punct
+爱尔兰	需要	nsubj
+应该	需要	aux
+不再	需要	advmod
+需要	ROOT	root
+欧盟	援助	nmod
+和	组织	cc
+国际	组织	nmod
+货币	组织	nmod
+基金	组织	nmod
+组织	欧盟	conj
+的	欧盟	case
+援助	需要	obj
+。	需要	punct
+----------------------------------------------------------------------
+从国内生产总值来看，经济仍然增速缓慢，但远未崩溃。
+
+(ROOT (IP (IP (VP (PP (IN 从) (NP (NN 国内) (NN 生产) (NN 总值))) (VP (RB 来) (VP (VV 看))))) (, ，) (NP (NN 经济)) (VP (VP (ADVP (RB 仍然)) (NP (VV 增速)) (VP (JJ 缓慢))) (, ，) (VP (ADVP (RB 但)) (ADVP (RB 远)) (ADVP (RB 未)) (VP (VV 崩溃)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP31526': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+从	总值	case
+国内	总值	nmod
+生产	总值	nmod
+总值	看	obl
+来	看	mark
+看	崩溃	advcl
+，	看	punct
+经济	崩溃	nsubj
+仍然	增速	advmod
+增速	崩溃	advcl
+缓慢	增速	xcomp
+，	增速	punct
+但	崩溃	mark
+远	崩溃	advmod
+未	崩溃	advmod
+崩溃	ROOT	root
+。	崩溃	punct
+----------------------------------------------------------------------
+由于单位劳动成本比任何其他欧洲国家都要低，出口已经成为大部分增长的主要驱动力。
+
+(ROOT (PP (IN 由于) (IP (IP (NP (NN 单位) (NN 劳动) (NN 成本)) (VP (PP (IN 比) (NP (DP (DT 任何)) (DP (DT 其他)) (NP (NNP 欧洲)) (NP (NN 国家)))) (ADVP (RB 都)) (ADVP (MD 要)) (VP (JJ 低)))) (, ，) (IP (NP (NN 出口)) (VP (ADVP (RB 已经)) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (VV 增长))) (DEC 的)) (ADJP (JJ 主要)) (NP (VV 驱动) (SFN 力)))))))) (. 。)))
+layer 2:
+{'PP': {'IN': {}, 'IP': {}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'PP': {'IN': {}, 'IP': {'IP': {}, ',': {}, 'IP40133': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {'IP': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+由于	低	case
+单位	成本	nmod
+劳动	成本	nmod
+成本	低	nsubj
+比	国家	case
+任何	国家	det
+其他	国家	det
+欧洲	国家	nmod
+国家	低	nmod
+都	低	mark
+要	低	aux
+低	成	ccomp
+，	低	punct
+出口	成	nsubj
+已经	成	advmod
+成	ROOT	root
+为	成	mark
+大	部分	case
+部分	增长	nsubj
+增长	力	acl:relcl
+的	增长	mark:rel
+主要	力	amod
+驱动	力	compound
+力	成	obj
+。	成	punct
+----------------------------------------------------------------------
+爱尔兰银行正在进行债务脱困，即抛售坏账，以缩小其资产负债表规模，使其更易于管理。
+
+(ROOT (IP (NP (NNP 爱尔兰) (NN 银行)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VP (VV 进行) (NP (NN 债务) (NN 脱困))) (, ，) (VP (ADVP (RB 即)) (VP (VV 抛售) (NP (NN 坏账)))) (, ，) (VP (RB 以) (VP (VV 缩小) (NP (NP (PRP 其)) (NP (NN 资产) (NN 负债表) (NN 规模))))) (, ，) (VP (VV 使) (NP (PRP 其)) (IP (VP (ADVP (RB 更)) (VP (VV 易) (PP (VV 于) (NP (VV 管理))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'ADVP62418': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+爱尔兰	银行	nmod
+银行	使	nsubj
+正	进行	advmod
+在	进行	advmod
+进行	使	advcl
+债务	脱困	nmod
+脱困	进行	obj
+，	进行	punct
+即	抛售	mark
+抛售	使	advcl
+坏账	抛售	obj
+，	抛售	punct
+以	缩小	mark
+缩小	使	advcl
+其	规模	nmod
+资产	规模	nmod
+负债表	规模	nmod
+规模	缩小	obj
+，	缩小	punct
+使	ROOT	root
+其	易	nsubj
+更	易	advmod
+易	使	ccomp
+于	易	mark
+管理	易	xcomp
+。	使	punct
+----------------------------------------------------------------------
+爱尔兰仍然是跨国公司寻求低税和灵活、年轻、技术熟练的劳动力的天堂。
+
+(ROOT (IP (NP (NNP 爱尔兰)) (VP (ADVP (RB 仍然)) (VP (VC 是) (NP (CP (IP (NP (ADJP (NN 跨国)) (NP (NN 公司))) (VP (VV 寻求) (NP (CP (CP (IP (NP (NN 低税) (CC 和) (JJ 灵活) (EC 、) (JJ 年轻) (EC 、) (NN 技术)) (VP (JJ 熟练))) (DEC 的))) (NP (VV 劳动) (SFN 力))))) (DEC 的)) (NP (NN 天堂))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+爱尔兰	天堂	nsubj
+仍然	天堂	advmod
+是	天堂	cop
+跨国	公司	nmod
+公司	寻求	nsubj
+寻求	天堂	acl:relcl
+低税	寻求	obj
+和	灵活	cc
+灵活	低税	conj
+、	年轻	punct
+年轻	低税	conj
+、	熟练	punct
+技术	熟练	nsubj
+熟练	寻求	conj
+的	寻求	mark:rel
+劳动	力	compound
+力	寻求	obj
+的	寻求	mark:rel
+天堂	ROOT	root
+。	天堂	punct
+----------------------------------------------------------------------
+一旦彻底偿还债务的威胁消失，房价开始下跌，国际投资者开始在那里购买房产。
+
+(ROOT (IP (IP (CP (ADVP (IN 一旦)) (IP (VP (VP (ADVP (RB 彻底)) (VP (VV 偿) (VP (VV 还) (NP (DNP (NP (NN 债务)) (DEC 的)) (NP (NN 威胁)))))) (VP (VV 消失))))) (, ，) (NP (NN 房价)) (VP (VV 开始) (VP (VV 下跌)))) (, ，) (IP (NP (NN 国际) (VV 投资) (SFN 者)) (VP (VV 开始) (VP (PP (VV 在) (NP (PRD 那里))) (VP (VV 购买) (NP (NN 房产)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP56516': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP17463': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+一旦	消失	case
+彻底	偿	advmod
+偿	威胁	acl:relcl
+还	偿	xcomp
+债务	还	obj
+的	偿	mark:rel
+威胁	消失	nsubj
+消失	开始	ccomp
+，	消失	punct
+房价	开始	nsubj
+开始	开始	ccomp
+下跌	开始	xcomp
+，	开始	punct
+国际	者	nmod
+投资	者	compound
+者	开始	nsubj
+开始	ROOT	root
+在	购买	advcl
+那里	在	obj
+购买	开始	xcomp
+房产	购买	obj
+。	开始	punct
+----------------------------------------------------------------------
+与希腊不同，没有发生大规模的公众抗议或社会动荡。
+
+(ROOT (IP (IP (VP (PP (IN 与) (NP (NNP 希腊))) (VP (JJ 不同)))) (, ，) (VP (VV 没有) (VP (VV 发生) (NP (DNP (NP (ADJP (PFA 大)) (NP (NN 规模))) (DEC 的)) (NP (NN 公众) (NN 抗议) (CC 或) (NN 社会) (JJ 动荡))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'VP': {'VV': {}, 'VP': {}}}
+Dependency Features:
+与	希腊	case
+希腊	不同	nmod
+不同	ROOT	root
+，	有	punct
+有	不同	parataxis
+发生	抗议	acl:relcl
+大	规模	case
+规模	发生	obj
+的	发生	mark:rel
+公众	抗议	nmod
+抗议	有	obj
+或	动荡	cc
+社会	动荡	nsubj
+动荡	抗议	conj
+。	不同	punct
+----------------------------------------------------------------------
+紧缩派把爱尔兰当作他们的政策的标杆。
+
+(ROOT (IP (NP (VV 紧缩) (SFN 派)) (VP (BB 把) (IP (NP (NNP 爱尔兰)) (VP (VV 当作) (NP (DNP (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 政策))) (DEC 的)) (NP (NN 标杆)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'VV': {}, 'SFN': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'VV': {}, 'SFN': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
+{'NP': {'VV': {}, 'SFN': {}}}
+{'VP': {'BB': {}, 'IP': {}}}
+Dependency Features:
+紧缩	派	compound
+派	标杆	nsubj
+把	爱尔兰	case
+爱尔兰	当作	obl:patient
+当作	标杆	acl:relcl
+他	政策	det
+的	他	case
+政策	当作	iobj
+的	当作	mark:rel
+标杆	ROOT	root
+。	标杆	punct
+----------------------------------------------------------------------
+事实上，该国通过增税减支，让财政状况大为改善。
+
+(ROOT (IP (LCP (NP (NN 事实)) (IN 上)) (, ，) (NP (NN 该国)) (VP (PP (IN 通过) (NP (NN 增税) (NN 减支))) (, ，) (VP (VV 让) (NP (NN 财政) (NN 状况)) (IP (VP (ADVP (RB 大)) (ADVP (VC 为)) (VP (VV 改善)))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'PP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+事实	让	obl
+上	事实	case
+，	事实	punct
+该国	让	nsubj
+通过	减支	case
+增税	减支	nmod
+减支	让	obl
+，	减支	punct
+让	ROOT	root
+财政	状况	nmod
+状况	为	nsubj
+大	为	advmod
+为	让	ccomp
+改善	为	xcomp
+。	让	punct
+----------------------------------------------------------------------
+在预算纪律方面，前欧洲中央银行行长让-克洛德·特里谢于5月说过，“希腊有一个榜样，而这个榜样就是爱尔兰。”
+
+(ROOT (IP (PP (IN 在) (NP (NN 预算) (NN 纪律) (NN 方面))) (, ，) (NP (ADJP (PFA 前)) (NP (NNP 欧洲) (NN 中央) (NN 银行)) (NP (NN 行长))) (VP (VV 让) (NP (NNP -克洛德) (/ ·) (NNP 特里谢)) (IP (VP (PP (IN 于) (NP (QP (CD 5)) (NP (NNB 月)))) (VP (VV 说) (AS 过) (, ，) (IP (`` “) (IP (NP (NNP 希腊)) (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 榜样))))) (, ，) (RB 而) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 榜样))) (VP (VC 就是) (NP (NNP 爱尔兰))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'ADJP': {}, 'NP': {}, 'NP49501': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'ADJP': {}, 'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'ADJP': {}, 'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
+Dependency Features:
+在	方面	case
+预算	方面	nmod
+纪律	方面	nmod
+方面	说	obl
+，	方面	punct
+前	行长	case
+欧洲	行长	nmod
+中央	行长	nmod
+银行	行长	nmod
+行长	说	nsubj
+让	说	advcl
+-克洛德	让	obj
+·	特里谢	punct
+特里谢	-克洛德	flat:name
+于	月	case
+5	月	nummod
+月	说	obl
+说	ROOT	root
+过	说	aux
+，	有	punct
+“	有	punct
+希腊	有	nsubj
+有	说	ccomp
+一	个	nummod
+个	榜样	clf
+榜样	有	obj
+，	有	punct
+而	爱尔兰	mark
+这	个	det
+个	榜样	clf
+榜样	爱尔兰	nsubj
+是	爱尔兰	cop
+爱尔兰	说	ccomp
+。	爱尔兰	punct
+”	爱尔兰	punct
+----------------------------------------------------------------------
+然而，国内需求仍然处于低迷状态，政府在下一个三年预算中仍需要再削减 180 亿欧元。
+
+(ROOT (IP (IP (ADVP (RB 然而)) (, ，) (NP (NN 国内) (NN 需求)) (VP (ADVP (RB 仍然)) (VP (VV 处) (PP (VV 于) (NP (ADJP (JJ 低迷)) (NP (NN 状态))))))) (, ，) (IP (NP (NN 政府)) (VP (PP (IN 在) (LCP (NP (DP (DT 下) (QP (CD 一) (CLP (NNB 个)))) (QP (CD 三) (CLP (NNB 年))) (NP (NN 预算))) (IN 中))) (ADVP (RB 仍)) (VP (MD 需要) (VP (ADVP (RB 再)) (VP (VV 削减) (QP (QP (CD 180)) (QP (CD 亿) (CLP (NNP 欧) (CLP (NNB 元)))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP72872': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP32778': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+然而	处	mark
+，	然而	punct
+国内	需求	nmod
+需求	处	nsubj
+仍然	处	advmod
+处	ROOT	root
+于	处	mark
+低迷	状态	amod
+状态	处	obj
+，	处	punct
+政府	削减	nsubj
+在	预算	case
+下	个	det
+一	个	nummod
+个	预算	nmod
+三	年	nummod
+年	预算	clf
+预算	削减	obl
+中	预算	case
+仍	削减	advmod
+需要	削减	aux
+再	削减	advmod
+削减	处	parataxis
+180	元	nummod
+亿	元	nummod
+欧	元	nmod
+元	削减	obj
+。	削减	punct
+----------------------------------------------------------------------
+该国的总产出约为1600亿欧元，只占美国总产出的1.5%。
+
+(ROOT (IP (NP (DNP (NP (NN 该国)) (DEC 的)) (ADJP (PFA 总)) (NP (NN 产出))) (VP (VP (ADVP (RB 约)) (VP (VC 为) (QP (CD 1600亿) (CLP (NNP 欧) (CLP (NNB 元)))))) (, ，) (VP (ADVP (RB 只)) (VP (VV 占) (QP (DNP (NP (NP (NNP 美国)) (ADJP (PFA 总)) (NP (NN 产出))) (DEC 的)) (QP (CD 1.5%)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP73013': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+该国	产出	nmod
+的	该国	case
+总	产出	case
+产出	占	nsubj
+约	元	advmod
+为	元	cop
+1600亿	元	nummod
+欧	元	nmod
+元	占	advcl
+，	元	punct
+只	占	advmod
+占	ROOT	root
+美国	产出	nmod
+总	产出	case
+产出	1.5%	nmod
+的	产出	case
+1.5%	占	obj
+。	占	punct
+----------------------------------------------------------------------
+爱尔兰的国内生产总值与债务之比已达到令人震惊的 108%，预计到 2014 年将上升到 122%，这使爱尔兰面临着违约的可能性。
+
+(ROOT (IP (IP (NP (DNP (NP (DNP (NP (NNP 爱尔兰)) (DEC 的)) (NP (NN 国内) (NN 生产) (NN 总值) (CC 与) (NN 债务))) (DEC 之)) (NP (NN 比))) (VP (ADVP (RB 已)) (VP (VV 达到) (QP (CP (CP (IP (VP (VV 令) (NP (NN 人)) (IP (VP (JJ 震惊))))) (DEC 的))) (QP (CD 108%)))))) (, ，) (IP (VP (VV 预计) (IP (VP (PP (IN 到) (NP (CD 2014))) (ADVP (NNB 年将)) (VP (VRD (VV 上升) (VV 到)) (QP (CD 122%))))))) (, ，) (IP (NP (PRD 这)) (VP (VV 使) (NP (NNP 爱尔兰)) (IP (VP (VV 面临) (AS 着) (NP (DNP (NP (VV 违约)) (DEC 的)) (NP (NN 可能) (SFN 性))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP32212': {}, ',5361': {}, 'IP94830': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP50999': {'VP': {}}, ',1969': {}, 'IP13079': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+爱尔兰	总值	nmod
+的	爱尔兰	case
+国内	总值	nmod
+生产	总值	nmod
+总值	比	nmod
+与	债务	cc
+债务	总值	conj
+之	总值	case
+比	达到	nsubj
+已	达到	advmod
+达到	ROOT	root
+令	108%	acl:relcl
+人	震惊	nsubj
+震惊	令	ccomp
+的	令	mark:rel
+108%	达到	obj
+，	达到	punct
+预计	达到	parataxis
+到	年将	case
+2014	年将	nummod
+年将	上升	obl
+上升	预计	xcomp
+到	上升	mark
+122%	上升	obj
+，	使	punct
+这	使	nsubj
+使	预计	parataxis
+爱尔兰	面临	nsubj
+面临	使	ccomp
+着	面临	aux
+违约	性	acl:relcl
+的	违约	mark:rel
+可能	性	compound
+性	面临	obj
+。	上升	punct
+----------------------------------------------------------------------
+家庭债务与可支配收入的比率达到 210％，远高于其他任何发达国家。
+
+(ROOT (IP (NP (DNP (NP (NP (NN 家庭) (NN 债务)) (CC 与) (NP (CP (IP (VP (MD 可) (VP (VV 支配))))) (NP (NN 收入)))) (DEC 的)) (NP (NN 比率))) (VP (VP (VV 达到) (QP (CD 210) (CLP (NNB ％)))) (, ，) (VP (ADVP (RB 远)) (VP (JJ 高) (PP (VV 于) (NP (DP (DT 其他)) (DP (DT 任何)) (ADJP (JJ 发达)) (NP (NN 国家))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP4984': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+家庭	债务	nmod
+债务	比率	nmod
+与	收入	cc
+可	支配	aux
+支配	比率	acl:relcl
+收入	支配	obj
+的	支配	mark:rel
+比率	高	nsubj
+达到	高	advcl
+210	％	nummod
+％	达到	obj
+，	达到	punct
+远	高	advmod
+高	ROOT	root
+于	高	mark
+其他	国家	det
+任何	国家	det
+发达	国家	amod
+国家	高	obj
+。	高	punct
+----------------------------------------------------------------------
+约有 15% 的爱尔兰公民失业，其中一半以上的人已失业超过一年。
+
+(ROOT (IP (IP (NP (DNP (QP (ADVP (VV 约有)) (QP (CD 15%))) (DEC 的)) (NP (NNP 爱尔兰)) (NP (NN 公民))) (VP (VV 失业))) (, ，) (IP (NP (NN 其中)) (NP (DNP (LCP (QP (CD 一半)) (IN 以上)) (DEC 的)) (NP (NN 人))) (VP (ADVP (RB 已)) (VP (VV 失业) (VP (VV 超过) (QP (CD 一) (CLP (NNB 年))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP94463': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP7293': {'NP': {}, 'NP82189': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+约有	人	acl:relcl
+15%	公民	nummod
+的	15%	mark:rel
+爱尔兰	公民	nmod
+公民	失业	nsubj
+失业	约有	ccomp
+，	超过	punct
+其中	一半	nmod
+一半	人	nummod
+以上	一半	case
+的	一半	case
+人	超过	nsubj
+已	失业	advmod
+失业	超过	advcl
+超过	ROOT	root
+一	年	nummod
+年	超过	obj
+。	超过	punct
+----------------------------------------------------------------------
+德国政府向这些不顾一切的银行注入了超过 640 亿欧元，但这些银行仍然拒绝放贷。
+
+(ROOT (IP (IP (NP (NP (NNP 德国)) (NP (NN 政府))) (VP (PP (IN 向) (NP (DP (DT 这些)) (CP (CP (IP (VP (VV 不顾) (NP (DT 一切)))) (DEC 的))) (NP (NN 银行)))) (VP (VV 注入) (AS 了) (QP (ADVP (VV 超过)) (QP (CD 640) (QP (NNB 亿) (CLP (NNP 欧) (CLP (NNB 元))))))))) (, ，) (IP (ADVP (RB 但)) (NP (DP (DT 这些)) (NP (NN 银行))) (VP (ADVP (RB 仍然)) (VP (VV 拒绝) (IP (VP (VV 放贷)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP91215': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP19278': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+德国	政府	nmod
+政府	注入	nsubj
+向	银行	case
+这些	银行	det
+顾	银行	acl:relcl
+一切	顾	obj
+的	顾	mark:rel
+银行	注入	obl
+注入	ROOT	root
+了	注入	aux
+超过	元	amod
+640	亿	nummod
+亿	元	clf
+欧	元	nmod
+元	注入	obj
+，	拒绝	punct
+但	拒绝	mark
+这些	银行	det
+银行	拒绝	nsubj
+仍然	拒绝	advmod
+拒绝	注入	parataxis
+放贷	拒绝	xcomp
+。	注入	punct
+----------------------------------------------------------------------
+所有这些都表明，强劲复苏的前景似乎不大乐观。
+
+(ROOT (IP (NP (DP (DT 所有)) (NP (DT 这些))) (VP (ADVP (RB 都)) (VP (VV 表明) (, ，) (IP (NP (CP (IP (VP (ADVP (JJ 强劲)) (VP (VV 复苏)))) (DEC 的)) (NP (NN 前景))) (VP (ADVP (RB 似乎)) (ADVP (RB 不大)) (VP (JJ 乐观)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+所有	这些	det
+这些	表明	nsubj
+都	表明	mark
+表明	ROOT	root
+，	乐观	punct
+强劲	复苏	advcl
+复苏	前景	acl:relcl
+的	复苏	mark:rel
+前景	乐观	nsubj
+似乎	乐观	advmod
+不大	乐观	advmod
+乐观	表明	ccomp
+。	表明	punct
+----------------------------------------------------------------------
+即使昨天的需求某种程度上回升了，爱尔兰仍然要偿还巨额债务，这将阻碍其近期的增长。
+
+(ROOT (IP (IP (CP (ADVP (IN 即使)) (IP (NP (DNP (NP (NN 昨天)) (DEC 的)) (NP (NN 需求))) (VP (LCP (NP (ADJP (DT 某种)) (NP (NN 程度))) (IN 上)) (VP (VV 回升) (UH 了))))) (, ，) (NP (NNP 爱尔兰)) (VP (ADVP (RB 仍然)) (VP (VV 要偿) (NP (ADVP (RB 还)) (ADJP (JJ 巨额)) (NP (NN 债务)))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 将)) (VP (VV 阻碍) (NP (NP (PRP 其)) (DNP (NP (NN 近期)) (DEC 的)) (NP (NN 增长)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP29824': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP94000': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+即使	回升	case
+昨天	程度	nmod
+的	昨天	case
+需求	程度	nmod
+某种	程度	det
+程度	回升	obl
+上	程度	case
+回升	阻碍	ccomp
+了	回升	discourse
+，	回升	punct
+爱尔兰	要偿	nsubj
+仍然	要偿	advmod
+要偿	阻碍	advcl
+还	要偿	mark
+巨额	债务	amod
+债务	要偿	obj
+，	要偿	punct
+这	阻碍	nsubj
+将	阻碍	advmod
+阻碍	ROOT	root
+其	增长	nmod
+近期	增长	nmod
+的	近期	case
+增长	阻碍	obj
+。	阻碍	punct
+----------------------------------------------------------------------
+换句话说，爱尔兰可能只是走到了失落的十年的中途站。
+
+(ROOT (IP (IP (VP (VP (VV 换) (NP (QP (CLP (NNB 句))) (NP (NN 话)))) (VP (VV 说)))) (, ，) (NP (NNP 爱尔兰)) (VP (MD 可能) (VP (ADVP (RB 只)) (VP (VC 是) (VP (VV 走到) (AS 了) (NP (DNP (QP (CP (CP (IP (VP (VV 失落))) (DEC 的))) (QP (CD 十) (CLP (NNB 年)))) (DEC 的)) (NP (NN 中途) (SFN 站))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+换	说	advcl
+句	话	nmod
+话	换	obj
+说	ROOT	root
+，	是	punct
+爱尔兰	是	nsubj
+可能	是	aux
+只	是	advmod
+是	说	ccomp
+走到	是	xcomp
+了	走到	aux
+失落	站	acl:relcl
+的	失落	mark:rel
+十	年	nummod
+年	失落	obj
+的	失落	mark:rel
+中途	站	compound
+站	走到	obj
+。	说	punct
+----------------------------------------------------------------------
+那么为什么市场仍然相信爱尔兰呢?
+
+(ROOT (CP (IP (ADVP (RB 那么)) (VP (PP (IN 为) (NP (DP (WP 什么)) (NP (NN 市场)))) (ADVP (RB 仍然)) (VP (VV 相信) (NP (NNP 爱尔兰))))) (UH 呢) (. ?)))
+layer 2:
+{'CP': {'IP': {}, 'UH': {}, '.': {}}}
+{'CP': {'IP': {}, 'UH': {}, '.': {}}}
+layer 3:
+{'CP': {'IP': {'ADVP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'CP': {'IP': {'ADVP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+那么	相信	advmod
+为	什么	case
+什么	相信	obl
+市场	相信	nsubj
+仍然	相信	advmod
+相信	ROOT	root
+爱尔兰	相信	obj
+呢	相信	discourse
+?	相信	punct
+----------------------------------------------------------------------
+首先，在债务和违约方面，爱尔兰往往被混同在欧洲边缘的受援国之中，如匈牙利、希腊、拉脱维亚、立陶宛和葡萄牙。
+
+(ROOT (IP (IP (ADVP (RB 首先)) (, ，) (PP (IN 在) (NP (NP (NN 债务) (CC 和) (NN 违约)) (NP (NN 方面)))) (, ，) (NP (NNP 爱尔兰)) (VP (ADVP (RB 往往)) (VP (BB 被) (VP (VV 混同) (PP (VV 在) (LCP (NP (DNP (NP (NP (NNP 欧洲)) (NP (NN 边缘))) (DEC 的)) (NP (VV 受援) (SFN 国))) (IN 之中))))))) (, ，) (NP (ADVP (VV 如)) (NP (NNP 匈牙利) (EC 、) (NNP 希腊) (EC 、) (NNP 拉脱维亚) (EC 、) (NNP 立陶宛) (CC 和) (NNP 葡萄牙))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',96195': {}, 'NP': {}, 'VP': {}}, ',': {}, 'NP': {'ADVP': {}, 'NP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'NP': {'ADVP': {}, 'NP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'ADVP': {}, 'NP': {}}}
+Dependency Features:
+首先	混同	advmod
+，	首先	punct
+在	债务	case
+债务	混同	obl
+和	方面	cc
+违约	方面	nmod
+方面	债务	conj
+，	债务	punct
+爱尔兰	混同	nsubj:pass
+往往	混同	advmod
+被	混同	aux:pass
+混同	ROOT	root
+在	混同	mark
+欧洲	边缘	nmod
+边缘	混同	obj
+的	混同	mark:rel
+受援	国	compound
+国	如	nsubj
+之中	国	case
+，	国	punct
+如	混同	ccomp
+匈牙利	如	obj
+、	希腊	punct
+希腊	匈牙利	conj
+、	拉脱维亚	punct
+拉脱维亚	匈牙利	conj
+、	立陶宛	punct
+立陶宛	匈牙利	conj
+和	葡萄牙	cc
+葡萄牙	匈牙利	conj
+。	如	punct
+----------------------------------------------------------------------
+相比这些糟糕的国家，爱尔兰是一个完全不同的类别。
+
+(ROOT (IP (PP (VV 相比) (NP (DP (DT 这些)) (CP (CP (IP (VP (JJ 糟糕))) (DEC 的))) (NP (NN 国家)))) (, ，) (NP (NNP 爱尔兰)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 完全)) (VP (JJ 不同)))) (DEC 的))) (NP (NN 类别)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'NP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+相比	类别	acl
+这些	国家	det
+糟糕	国家	amod
+的	糟糕	mark:rel
+国家	相比	obj
+，	相比	punct
+爱尔兰	类别	nsubj
+是	类别	cop
+一	个	nummod
+个	类别	clf
+完全	不同	advmod
+不同	类别	amod
+的	不同	mark:rel
+类别	ROOT	root
+。	类别	punct
+----------------------------------------------------------------------
+这并不是说一切都很美好，但在盲人的国度，一只眼睛看清路的人就是王。
+
+(ROOT (IP (IP (NP (PRD 这)) (VP (ADVP (RB 并)) (VP (VC 不是) (VP (VV 说) (IP (NP (DT 一切)) (VP (ADVP (RB 都)) (ADVP (RB 很)) (VP (JJ 美好)))))))) (, ，) (IP (NP (CP (CP (IP (ADVP (RB 但)) (PP (VV 在) (NP (DNP (NP (ADJP (VV 盲)) (NP (NN 人))) (DEC 的)) (NP (NN 国度)))) (, ，) (NP (QP (CD 一) (CLP (NNB 只))) (NP (NN 眼睛))) (VP (VV 看) (NP (ADJP (NNP 清)) (NP (SFN 路))))) (DEC 的))) (NP (NN 人))) (VP (VC 就是) (NP (NN 王)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP86499': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP96291': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+这	是	nsubj
+并	是	mark
+是	ROOT	root
+说	是	xcomp
+一切	美好	nsubj
+都	美好	mark
+很	美好	advmod
+美好	说	ccomp
+，	王	punct
+但	在	mark
+在	国度	acl:relcl
+盲	国度	acl:relcl
+人	盲	obj
+的	盲	mark:rel
+国度	王	nmod
+，	国度	punct
+一	只	nummod
+只	眼睛	clf
+眼睛	看	nsubj
+看	人	acl:relcl
+清	路	compound
+路	看	obj
+的	看	mark:rel
+人	王	nsubj
+是	王	cop
+王	是	parataxis
+。	是	punct
+----------------------------------------------------------------------
+其次，爱尔兰债券的利率要高于强劲的欧洲经济体，这主要是因为爱尔兰银行回归国内偏好投资，购买政府债券。
+
+(ROOT (IP (IP (ADVP (NN 其次)) (, ，) (NP (DNP (NP (NP (NNP 爱尔兰)) (NP (NN 债券))) (DEC 的)) (NP (NN 利率))) (VP (MD 要) (VP (JJ 高) (PP (VV 于) (NP (CP (CP (IP (VP (JJ 强劲))) (DEC 的))) (NP (NNP 欧洲)) (NP (NN 经济) (SFN 体))))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 主要)) (VP (VC 是) (PP (IN 因为) (IP (NP (NNP 爱尔兰) (NN 银行)) (VP (VP (VV 回归) (NP (NN 国内) (VV 偏好) (NN 投资))) (, ，) (VP (VV 购买) (NP (NN 政府) (NN 债券))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP2852': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP73495': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+其次	高	obl
+，	其次	punct
+爱尔兰	债券	nmod
+债券	利率	nmod
+的	债券	case
+利率	高	nsubj
+要	高	aux
+高	ROOT	root
+于	高	mark
+强劲	体	amod
+的	强劲	mark:rel
+欧洲	体	nmod
+经济	体	compound
+体	高	obj
+，	是	punct
+这	是	nsubj
+主要	是	advmod
+是	高	parataxis
+因为	是	xcomp
+爱尔兰	银行	nmod
+银行	购买	nsubj
+回归	购买	advcl
+国内	偏好	nsubj
+偏好	回归	ccomp
+投资	偏好	obj
+，	回归	punct
+购买	因为	ccomp
+政府	债券	nmod
+债券	购买	obj
+。	高	punct
+----------------------------------------------------------------------
+换句话说，欧洲银行不再全球投资，而是将资金引向本国市场，推动本国债券的需求。
+
+(ROOT (IP (IP (VP (VP (VV 换) (NP (QP (CLP (NNB 句))) (NP (NN 话)))) (VP (VV 说)))) (, ，) (NP (NNP 欧洲) (NN 银行)) (VP (VP (ADVP (RB 不)) (ADVP (RB 再)) (NP (NN 全球)) (VP (VV 投资))) (, ，) (VP (RB 而是) (VP (VP (BB 将) (IP (NP (NN 资金)) (VP (VV 引向) (NP (NN 本国) (NN 市场))))) (, ，) (VP (VV 推动) (NP (DNP (NP (NN 本国) (NN 债券)) (DEC 的)) (NP (NN 需求))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP93333': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+换	说	advcl
+句	话	nmod
+话	换	obj
+说	ROOT	root
+，	推动	punct
+欧洲	银行	nmod
+银行	投资	nsubj
+不	投资	advmod
+再	投资	advmod
+全球	投资	obl
+投资	推动	advcl
+，	投资	punct
+而是	推动	mark
+将	资金	case
+资金	引向	obl:patient
+引向	推动	advcl
+本国	市场	nmod
+市场	引向	iobj
+，	引向	punct
+推动	说	ccomp
+本国	债券	nmod
+债券	需求	nmod
+的	债券	case
+需求	推动	obj
+。	说	punct
+----------------------------------------------------------------------
+最后，市场假设爱尔兰民众会接受毒药般的紧缩措施，像过去五年一样安静地忍受痛苦。
+
+(ROOT (IP (ADVP (NN 最后)) (, ，) (NP (NN 市场)) (VP (VV 假设) (IP (NP (NP (NNP 爱尔兰)) (NP (NN 民众))) (VP (VP (MD 会) (VP (VV 接受) (NP (CP (CP (IP (NP (NN 毒药)) (VP (JJ 般))) (DEC 的))) (NP (NN 紧缩) (NN 措施))))) (, ，) (VP (IP (VP (PP (IN 像) (QP (NP (NN 过去)) (QP (CD 五) (CLP (NNB 年))))) (VP (JJ 一样)))) (DVP (VP (JJ 安静)) (DEV 地)) (VP (VV 忍受) (NP (NN 痛苦))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'NN': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+最后	假设	nmod:tmod
+，	最后	punct
+市场	假设	nsubj
+假设	ROOT	root
+爱尔兰	民众	nmod
+民众	忍受	nsubj
+会	接受	aux
+接受	忍受	advcl
+毒药	般	nsubj
+般	措施	amod
+的	般	mark:rel
+紧缩	措施	nmod
+措施	接受	obj
+，	接受	punct
+像	年	case
+过去	年	nmod
+五	年	nummod
+年	一样	nmod
+一样	忍受	advcl
+安静	忍受	advmod
+地	安静	mark:adv
+忍受	假设	ccomp
+痛苦	忍受	obj
+。	假设	punct
+----------------------------------------------------------------------
+即使是在 2009 年 9 月，当数十亿欧元的有担保和无担保债券利用未来纳税人收入偿还时，爱尔兰人并没有上街抗议。
+
+(ROOT (IP (IP (VP (ADVP (IN 即使)) (VP (VC 是) (PP (IN 在) (NP (CD 2009) (NNB 年 9) (NNB 月)))))) (, ，) (PP (IN 当) (LCP (IP (NP (DNP (QP (CD 数十亿) (CLP (NNP 欧) (CLP (NNB 元)))) (DEC 的)) (CP (IP (VP (VP (VV 有) (NP (NN 担保))) (CC 和) (VP (VV 无) (NP (NN 担保)))))) (NP (NN 债券))) (VP (VV 利用) (NP (NN 未来) (VV 纳税) (SFN 人) (NN 收入)))) (IN 偿还时))) (, ，) (NP (NP (NNP 爱尔兰)) (NP (SFN 人))) (VP (ADVP (RB 并)) (VP (VV 没有) (VP (VSB (VV 上街) (VV 抗议))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, ',80670': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'PP': {'IN': {}, 'LCP': {}}, ',69417': {}, 'NP': {'NP': {}, 'NP51399': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+即使	是	case
+是	有	xcomp
+在	月	case
+2009	月	nummod
+年 9	月	nummod
+月	是	obl
+，	是	punct
+当	利用	case
+数十亿	元	nummod
+欧	元	nmod
+元	有	obl
+的	元	mark:rel
+有	利用	xcomp
+担保	有	obj
+和	无	cc
+无	利用	conj
+担保	债券	nmod
+债券	无	obj
+利用	有	ccomp
+未来	收入	nmod
+纳税	人	compound
+人	收入	nmod
+收入	利用	obj
+偿还时	利用	mark
+，	利用	punct
+爱尔兰	人	compound
+人	有	nsubj
+并	有	mark
+有	ROOT	root
+上街	抗议	advcl
+抗议	有	xcomp
+。	有	punct
+----------------------------------------------------------------------
+即使不堪，当局也通过紧缩政策来避免大规模的公众抗议，最糟糕的情况已经过去了。
+
+(ROOT (IP (IP (IP (VP (ADVP (IN 即使)) (VP (VV 不堪)))) (, ，) (NP (NN 当局)) (VP (ADVP (RB 也)) (PP (IN 通过) (NP (NN 紧缩) (NN 政策))) (VP (RB 来) (VP (VV 避免) (NP (DNP (NP (ADJP (PFA 大)) (NP (NN 规模))) (DEC 的)) (NP (NN 公众) (NN 抗议))))))) (, ，) (IP (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 糟糕)))) (DEC 的))) (NP (NN 情况))) (VP (ADVP (RB 已经)) (VP (VV 过去) (UH 了)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP57492': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP26304': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+即使	堪	case
+堪	避免	xcomp
+，	堪	punct
+当局	避免	nsubj
+也	避免	mark
+通过	政策	case
+紧缩	政策	nmod
+政策	避免	obl
+来	避免	mark
+避免	ROOT	root
+大	规模	case
+规模	抗议	nmod
+的	规模	case
+公众	抗议	nmod
+抗议	避免	obj
+，	过去	punct
+最	糟糕	advmod
+糟糕	情况	amod
+的	糟糕	mark:rel
+情况	过去	nsubj
+已经	过去	advmod
+过去	避免	parataxis
+了	过去	discourse
+。	避免	punct
+----------------------------------------------------------------------
+预计未来两年将实施的 81 亿欧元的支出削减和税收增加将与该国已经经历的 251 亿欧元的削减和税收增加相比，显得微不足道。
+
+(ROOT (IP (VP (VV 预计) (IP (NP (NP (CP (CP (IP (VP (QP (NP (NN 未来)) (QP (CD 两) (CLP (NNB 年)))) (ADVP (RB 将)) (VP (VV 实施)))) (DEC 的))) (DNP (QP (CD 81 亿) (CLP (NNP 欧) (CLP (NNB 元)))) (DEC 的)) (NP (NN 支出) (NN 削减))) (CC 和) (NP (NN 税收) (VV 增加))) (VP (VP (ADVP (RB 将)) (PP (IN 与) (NP (NP (NP (NN 该国)) (CP (CP (IP (VP (ADVP (RB 已经)) (VP (VV 经历)))) (DEC 的))) (DNP (QP (CD 251 亿) (CLP (NNP 欧) (CLP (NNB 元)))) (DEC 的)) (NP (NN 削减) (CC 和) (NN 税收))) (NP (VV 增加)))) (VP (VV 相比))) (, ，) (VP (VV 显得) (VP (ADVP (JJ 微)) (VP (JJ 不足) (NP (SFV 道)))))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+预计	显得	advcl
+未来	年	nmod
+两	年	nummod
+年	实施	nmod:tmod
+将	实施	advmod
+实施	削减	acl:relcl
+的	实施	mark:rel
+81 亿	元	nummod
+欧	元	nmod
+元	削减	nmod
+的	元	mark:rel
+支出	削减	nmod
+削减	相比	nsubj
+和	增加	cc
+税收	增加	nsubj
+增加	削减	conj
+将	相比	advmod
+与	削减	case
+该国	经历	nsubj
+已经	经历	advmod
+经历	元	acl:relcl
+的	经历	mark:rel
+251 亿	元	nummod
+欧	元	nmod
+元	削减	nmod
+的	元	case
+削减	相比	obl
+和	增加	cc
+税收	增加	nsubj
+增加	削减	conj
+相比	显得	ccomp
+，	预计	punct
+显得	ROOT	root
+微	显得	xcomp
+不足	道	compound
+道	显得	obj
+。	显得	punct
+----------------------------------------------------------------------
+主权债务的讽刺之处在于，一个国家的债务水平在短期内并不重要，只要有人愿意向它贷款。
+
+(ROOT (IP (NP (DNP (NP (DNP (NP (NN 主权) (NN 债务)) (DEC 的)) (NP (VV 讽刺))) (DEC 之)) (NP (NN 处))) (VP (VV 在) (PP (VV 于) (, ，) (IP (IP (NP (DNP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 国家))) (DEC 的)) (NP (NN 债务) (NN 水平))) (VP (PP (IN 在) (LCP (NP (NN 短期)) (IN 内))) (ADVP (RB 并)) (ADVP (RB 不)) (VP (JJ 重要)))) (, ，) (IP (VP (ADVP (IN 只要)) (VP (VV 有) (IP (NP (NN 人)) (VP (MD 愿意) (IP (VP (PP (IN 向) (NP (PRP 它))) (VP (VV 贷) (NP (SFN 款))))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'PP': {}}}
+Dependency Features:
+主权	债务	nmod
+债务	处	nmod
+的	债务	case
+讽刺	处	acl:relcl
+之	讽刺	mark:rel
+处	在	nsubj
+在	ROOT	root
+于	在	mark
+，	重要	punct
+一	个	nummod
+个	国家	clf
+国家	水平	nmod
+的	国家	case
+债务	水平	nmod
+水平	重要	nsubj
+在	短期	case
+短期	重要	nmod
+内	短期	case
+并	不	advmod
+不	重要	advmod
+重要	在	ccomp
+，	有	punct
+只要	有	case
+有	重要	xcomp
+人	款	nsubj
+愿意	贷	aux
+向	它	case
+它	款	nmod
+贷	款	compound
+款	有	obj
+。	在	punct
+----------------------------------------------------------------------
+感觉就是一切。
+
+(ROOT (IP (NP (NN 感觉)) (VP (VC 就是) (NP (NN 一切))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+感觉	一切	nsubj
+是	一切	cop
+一切	ROOT	root
+。	一切	punct
+----------------------------------------------------------------------
+因此，爱尔兰讨好欧洲当局，努力说服投资者认为其债券安全的策略可能是明智的。
+
+(ROOT (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (NNP 爱尔兰)) (VP (VP (VV 讨好) (NP (NP (NNP 欧洲)) (NP (NN 当局)))) (, ，) (VP (ADVP (RB 努力)) (VP (VV 说服) (NP (VV 投资) (SFN 者)) (IP (VP (VV 认为) (IP (NP (DNP (NP (NP (NP (PRP 其)) (NP (NN 债券))) (NP (NN 安全))) (DEC 的)) (NP (NN 策略))) (VP (MD 可能) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 明智))) (UH 的)))))))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'ADVP29396': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'IN': {}}, 'ADVP83126': {'PRD': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP80321': {}}, '.': {}}}
+{'IP': {'ADVP': {'IN': {}}, 'ADVP': {'PRD': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'IN': {}}}
+{'ADVP': {'PRD': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+因	此	case
+此	讨好	obl
+，	此	punct
+爱尔兰	讨好	nsubj
+讨好	ROOT	root
+欧洲	当局	nmod
+当局	讨好	obj
+，	讨好	punct
+努力	说服	advmod
+说服	讨好	parataxis
+投资	者	compound
+者	说服	obj
+为	说服	ccomp
+其	安全	nmod
+债券	安全	nmod
+安全	策略	nmod
+的	为	mark:rel
+策略	明智	nsubj
+可能	明智	aux
+是	明智	cop
+明智	为	ccomp
+的	明智	discourse
+。	讨好	punct
+----------------------------------------------------------------------
+爱尔兰几乎肯定会在 2014 年后需要一些类型的进一步援助，包括重组前几届政府欠下的与银行有关的债务。
+
+(ROOT (IP (IP (NP (NNP 爱尔兰)) (VP (ADVP (RB 几乎)) (VP (VV 肯定) (IP (VP (MD 会) (VP (PP (IN 在) (LCP (NP (CD 2014)) (NNB 年后))) (VP (VV 需要) (NP (DNP (NP (QP (JJ 一些)) (NP (NN 类型))) (DEC 的)) (ADJP (ADJP (VV 进)) (QP (CD 一) (CLP (NNB 步)))) (NP (NN 援助)))))))))) (, ，) (IP (VP (VV 包括) (IP (VP (VV 重组) (NP (CP (CP (IP (NP (DP (DT 前) (QP (CD 几) (CLP (NNB 届)))) (NP (NN 政府))) (VP (VV 欠下))) (DEC 的))) (CP (CP (IP (VP (PP (IN 与) (NP (NN 银行))) (VP (JJ 有关)))) (DEC 的))) (NP (NN 债务))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP19251': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP67911': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+爱尔兰	肯定	nsubj
+几乎	肯定	advmod
+肯定	ROOT	root
+会	需要	aux
+在	年后	case
+2014	年后	nummod
+年后	需要	obl
+需要	包括	advcl
+一些	类型	amod
+类型	援助	nmod
+的	类型	case
+进	援助	amod
+一	步	nummod
+步	进	obj
+援助	需要	obj
+，	需要	punct
+包括	肯定	xcomp
+重组	包括	xcomp
+前	届	det
+几	届	nummod
+届	政府	nmod
+政府	欠下	nsubj
+欠下	债务	acl:relcl
+的	欠下	mark:rel
+与	银行	case
+银行	有关	nmod
+有关	债务	amod
+的	有关	mark:rel
+债务	重组	obj
+。	肯定	punct
+----------------------------------------------------------------------
+但这一事实某种程度上并没有让市场感到担忧。
+
+(ROOT (IP (ADVP (RB 但)) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 事实))) (VP (LCP (NP (ADJP (DT 某种)) (NP (NN 程度))) (IN 上)) (ADVP (RB 并)) (VP (VV 没有) (VP (VV 让) (NP (NN 市场)) (IP (VP (VV 感到) (NP (JJ 担忧))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'LCP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'LCP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'LCP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+但	有	mark
+这	事实	det
+一	事实	nummod
+事实	程度	nmod
+某种	程度	det
+程度	有	obl
+上	程度	case
+并	有	mark
+有	ROOT	root
+让	有	xcomp
+市场	感到	nsubj
+感到	让	ccomp
+担忧	感到	xcomp
+。	有	punct
+----------------------------------------------------------------------
+爱尔兰可能看似是推行欧洲各地紧缩政策的最新典范，但欧洲各国政府应该小心，不要将爱尔兰的经验教训拿来应用到下一个违纪国家。
+
+(ROOT (IP (IP (NP (NNP 爱尔兰)) (VP (MD 可能) (VP (VV 看似) (IP (VP (VC 是) (NP (CP (IP (VP (VV 推行) (NP (NP (NNP 欧洲)) (NP (NN 各地)) (NP (NN 紧缩)) (NP (NN 政策))))) (DEC 的)) (ADJP (JJ 最新)) (NP (NN 典范)))))))) (, ，) (IP (ADVP (RB 但)) (NP (NP (NNP 欧洲) (NN 各国)) (NP (NN 政府))) (VP (VP (MD 应该) (VP (JJ 小心))) (, ，) (VP (MD 不要) (VP (BB 将) (IP (NP (DNP (NP (NNP 爱尔兰)) (DEC 的)) (NP (NN 经验) (NN 教训))) (VP (VV 拿来) (IP (VP (VRD (VV 应用) (VV 到)) (NP (DP (DT 下) (QP (CD 一) (CLP (NNB 个)))) (ADJP (NN 违纪)) (NP (NN 国家))))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP45961': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP68812': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+爱尔兰	看似	nsubj
+可能	看似	aux
+看似	ROOT	root
+是	典范	cop
+推行	典范	acl:relcl
+欧洲	政策	nmod
+各地	政策	nmod
+紧缩	政策	nmod
+政策	推行	obj
+的	推行	mark:rel
+最新	典范	amod
+典范	看似	xcomp
+，	拿来	punct
+但	拿来	mark
+欧洲	政府	nmod
+各国	政府	nmod
+政府	拿来	nsubj
+应该	小心	aux
+小心	拿来	advcl
+，	小心	punct
+要	拿来	aux
+将	教训	case
+爱尔兰	教训	nmod
+的	爱尔兰	case
+经验	教训	nmod
+教训	拿来	obl:patient
+拿来	典范	parataxis
+应用	拿来	xcomp
+到	应用	mark
+下	个	det
+一	个	nummod
+个	国家	nmod
+违纪	国家	nmod
+国家	应用	obj
+。	典范	punct
+----------------------------------------------------------------------
+爱尔兰很小，政府和人民很软弱，其房地产泡沫的规模前所未有。
+
+(ROOT (IP (IP (NP (NNP 爱尔兰)) (VP (JJ 很小))) (, ，) (IP (NP (NN 政府) (CC 和) (NN 人民)) (VP (ADVP (RB 很)) (VP (JJ 软弱)))) (, ，) (IP (NP (DNP (NP (NP (PRP 其)) (NP (NN 房地产) (NN 泡沫))) (DEC 的)) (NP (NN 规模))) (VP (ADVP (VV 前)) (VP (RB 所) (VP (VV 未有))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP62731': {}, ',42463': {}, 'IP54874': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP4732': {'NP': {}, 'VP': {}}, ',37155': {}, 'IP86705': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+爱尔兰	很小	obl
+很小	软弱	advcl
+，	很小	punct
+政府	软弱	nsubj
+和	人民	cc
+人民	政府	conj
+很	软弱	advmod
+软弱	ROOT	root
+，	前	punct
+其	泡沫	nmod
+房地产	泡沫	nmod
+泡沫	规模	nmod
+的	泡沫	case
+规模	前	nsubj
+前	软弱	parataxis
+所	有	mark
+有	前	xcomp
+。	软弱	punct
+----------------------------------------------------------------------
+市场对爱尔兰的看法与其他国家不同，更愿意相信爱尔兰。
+
+(ROOT (IP (NP (NP (NN 市场)) (DNP (PP (IN 对) (NP (NNP 爱尔兰))) (DEC 的)) (NP (NN 看法))) (VP (VP (PP (IN 与) (NP (DP (DT 其他)) (NP (NN 国家)))) (VP (JJ 不同))) (, ，) (VP (ADVP (RB 更)) (VP (MD 愿意) (IP (VP (VV 相信) (NP (NNP 爱尔兰))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'DNP': {}, 'NP71497': {}}, 'VP': {'VP': {}, ',': {}, 'VP63200': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'DNP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+市场	看法	nmod
+对	看法	case
+爱尔兰	看法	nmod
+的	看法	case
+看法	不同	nsubj
+与	国家	case
+其他	国家	det
+国家	不同	nmod
+不同	ROOT	root
+，	相信	punct
+更	相信	advmod
+愿意	相信	aux
+相信	不同	parataxis
+爱尔兰	相信	obj
+。	不同	punct
+----------------------------------------------------------------------
+因此，爱尔兰向其欧洲邻国提供的先例并不是典范，而是警示。
+
+(ROOT (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (CP (CP (IP (NP (NNP 爱尔兰)) (VP (PP (IN 向) (NP (NP (PRP 其)) (NP (NNP 欧洲)) (NP (NN 邻国)))) (VP (VV 提供)))) (DEC 的))) (NP (NN 先例))) (VP (VP (ADVP (RB 并)) (VP (VC 不是) (NP (NN 典范)))) (, ，) (VP (VC 而是) (NP (NN 警示)))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'ADVP63180': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'IN': {}}, 'ADVP39504': {'PRD': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP78441': {}}, '.': {}}}
+{'IP': {'ADVP': {'IN': {}}, 'ADVP': {'PRD': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'IN': {}}}
+{'ADVP': {'PRD': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+因	此	case
+此	警示	nmod
+，	此	punct
+爱尔兰	提供	nsubj
+向	邻国	case
+其	邻国	nmod
+欧洲	邻国	nmod
+邻国	提供	obl
+提供	先例	acl:relcl
+的	提供	mark:rel
+先例	典范	nsubj
+并	典范	mark
+是	典范	cop
+典范	警示	acl
+，	典范	punct
+是	警示	cop
+警示	ROOT	root
+。	警示	punct
+----------------------------------------------------------------------
+鉴于市场对爱尔兰的态度，欧洲其他国家可能会更加谨慎，即使接受援助对他们来说是明智的选择，也不会主动要求。
+
+(ROOT (IP (IP (PP (VV 鉴) (PP (VV 于) (NP (NP (NN 市场)) (DNP (PP (IN 对) (NP (NNP 爱尔兰))) (DEC 的)) (NP (NN 态度))))) (, ，) (NP (NP (NNP 欧洲)) (DP (DT 其他)) (NP (NN 国家))) (VP (MD 可能) (VP (MD 会) (VP (ADVP (RB 更加)) (VP (JJ 谨慎)))))) (, ，) (IP (IP (VP (ADVP (IN 即使)) (VP (VV 接受) (NP (NN 援助))))) (IP (VP (PP (IN 对) (NP (PRP 他们))) (VP (RB 来) (VP (VV 说))))) (VP (VP (VC 是) (NP (CP (CP (IP (VP (JJ 明智))) (DEC 的))) (NP (NN 选择)))) (, ，) (VP (ADVP (RB 也)) (VP (MD 不会) (VP (ADVP (RB 主动)) (VP (VV 要求))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP65453': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP92033': {'IP': {}, 'IP73397': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'IP': {}, 'IP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'IP': {}, 'IP': {}, 'VP': {}}}
+Dependency Features:
+鉴	ROOT	root
+于	鉴	mark
+市场	态度	nmod
+对	态度	case
+爱尔兰	态度	nmod
+的	态度	case
+态度	鉴	obj
+，	谨慎	punct
+欧洲	国家	nmod
+其他	国家	det
+国家	谨慎	nsubj
+可能	谨慎	aux
+会	谨慎	aux
+更加	谨慎	advmod
+谨慎	鉴	parataxis
+，	要求	punct
+即使	接受	case
+接受	说	xcomp
+援助	接受	obj
+对	他	case
+他	说	obl
+来	说	mark
+说	选择	csubj
+是	选择	cop
+明智	选择	amod
+的	明智	mark:rel
+选择	要求	advcl
+，	说	punct
+也	要求	mark
+会	要求	aux
+主动	要求	advmod
+要求	鉴	parataxis
+。	鉴	punct
+----------------------------------------------------------------------
+也许，爱尔兰可以通过拒绝哭苦，挽救自己；其他欧洲国家在做同样的事情之前，应该好好想想。
+
+(ROOT (IP (ADVP (RB 也许)) (, ，) (NP (NNP 爱尔兰)) (VP (MD 可以) (VP (PP (IN 通过) (IP (VP (VP (VV 拒绝) (NP (VV 哭苦))) (, ，) (VP (VV 挽救) (NP (PRD 自己)))))) (: ；) (NP (DP (DT 其他)) (NP (NNP 欧洲)) (NP (NN 国家))) (VP (PP (IN 在) (LCP (IP (VP (VV 做) (NP (DNP (ADJP (JJ 同样)) (DEC 的)) (NP (NN 事情))))) (IN 之前))) (, ，) (VP (MD 应该) (VP (ADVP (RB 好好)) (VP (VV 想想))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+也许	挽救	advmod
+，	也许	punct
+爱尔兰	挽救	nsubj
+可以	挽救	aux
+通过	拒绝	case
+拒绝	挽救	xcomp
+哭苦	拒绝	xcomp
+，	拒绝	punct
+挽救	ROOT	root
+自己	挽救	obj
+；	想想	punct
+其他	国家	det
+欧洲	国家	nmod
+国家	想想	nsubj
+在	做	case
+做	想想	xcomp
+同样	事情	amod
+的	同样	mark:rel
+事情	做	obj
+之前	做	mark
+，	做	punct
+应该	想想	aux
+好好	想想	advmod
+想想	挽救	parataxis
+。	挽救	punct
 ----------------------------------------------------------------------

@@ -1,165 +1,654 @@
-随着苹果公司预计将于周一推出新版iPhone，“智能手机”市场的争夺将进入一个新的阶段。
+Makoto Nishimura 正通过一群不太可能的学生，继续保持日本歌舞伎艺术的生命力。
 
-(ROOT (IP (PP (VV 随) (PP (AS 着) (IP (NP (NNP 苹果) (NN 公司)) (VP (VV 预计) (IP (VP (ADVP (RB 将)) (PP (IN 于) (NP (NNB 周) (CD 一))) (VP (VV 推出) (NP (ADJP (NN 新版)) (NP (FW iPhone)))))))))) (, ，) (NP (DNP (NP (NP (`` “) (NN 智能) (NN 手机) ('' ”)) (NP (NN 市场))) (DEC 的)) (NP (NN 争夺))) (VP (ADVP (RB 将)) (VP (VV 进入) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 阶段))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+(ROOT (IP (NP (FW Makoto) (FW Nishimura)) (VP (ADVP (RB 正)) (PP (VV 通过) (NP (QP (CD 一) (CLP (NNB 群))) (CP (CP (IP (VP (ADVP (RB 不)) (ADVP (RB 太)) (VP (JJ 可能)))) (DEC 的))) (NP (NN 学生)))) (, ，) (VP (VV 继续) (VP (VV 保持) (NP (DNP (NP (NP (NNP 日本)) (NP (NN 歌舞) (SFN 伎) (NN 艺术))) (DEC 的)) (NP (NN 生命) (SFN 力)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'FW': {}, 'FW86531': {}}, 'VP': {'ADVP': {}, 'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'FW': {}, 'FW': {}}, 'VP': {'ADVP': {}, 'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'FW': {}, 'FW': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+Makoto	继续	nsubj
+Nishimura	Makoto	flat:foreign
+正	通过	advmod
+通过	继续	advcl
+一	群	nummod
+群	学生	clf
+不	可能	advmod
+太	可能	advmod
+可能	学生	amod
+的	可能	mark:rel
+学生	通过	obj
+，	通过	punct
+继续	ROOT	root
+保持	继续	xcomp
+日本	艺术	nmod
+歌舞	伎	compound
+伎	艺术	nmod
+艺术	力	nmod
+的	艺术	case
+生命	力	compound
+力	保持	obj
+。	继续	punct
+----------------------------------------------------------------------
+位于东京目黑区的岛村茂人的小公寓里，藏有许多传统日本乐器。
+
+(ROOT (IP (LCP (NP (CP (CP (IP (VP (VV 位) (PP (VV 于) (NP (NNP 东京) (NNP 目黑) (SFN 区))))) (DEC 的))) (DNP (NP (NP (NNP 岛村) (NNP 茂)) (NP (SFN 人))) (DEC 的)) (ADJP (PFA 小)) (NP (NN 公寓))) (IN 里)) (, ，) (VP (VV 藏有) (NP (QP (CD 许多)) (ADJP (NN 传统)) (NP (NNP 日本)) (NP (NN 乐器)))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+位	公寓	acl:relcl
+于	位	mark
+东京	区	nmod
+目黑	区	compound
+区	位	obj
+的	位	mark:rel
+岛村	人	nmod
+茂	人	compound
+人	位	obj
+的	位	mark:rel
+小	公寓	case
+公寓	藏有	nsubj
+里	公寓	case
+，	公寓	punct
+藏有	ROOT	root
+许多	乐器	nummod
+传统	乐器	nmod
+日本	乐器	nmod
+乐器	藏有	obj
+。	藏有	punct
+----------------------------------------------------------------------
+她书架前挂着一排三弦琴（一种方形小琴），琴身用和服布整齐包裹着。
+
+(ROOT (IP (IP (LCP (NP (NP (PRP 她)) (NP (NN 书架))) (IN 前)) (VP (VV 挂) (AS 着) (NP (QP (CD 一) (CLP (NNB 排))) (QP (CD 三) (CLP (NN 弦))) (NP (SFN 琴)) (PRN (-LRB- （) (NP (QP (CD 一) (CLP (NNB 种))) (ADJP (NN 方形)) (NP (NN 小琴))) (-RRB- ）))))) (, ，) (IP (NP (NN 琴)) (VP (VP (NN 身用) (CC 和) (NN 服布)) (ADVP (RB 整齐)) (VP (VV 包裹) (AS 着)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP18651': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, 'VP': {}}, ',': {}, 'IP61178': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'LCP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+她	书架	nmod
+书架	挂	nsubj
+前	书架	case
+挂	ROOT	root
+着	挂	aux
+一	排	nummod
+排	琴	nmod
+三	弦	nummod
+弦	琴	compound
+琴	挂	obj
+（	小琴	punct
+一	种	nummod
+种	小琴	clf
+方形	小琴	nmod
+小琴	琴	appos
+）	小琴	punct
+，	身用	punct
+琴	身用	nmod
+身用	包裹	nsubj
+和	服布	cc
+服布	身用	conj
+整齐	包裹	advmod
+包裹	挂	ccomp
+着	包裹	aux
+。	包裹	punct
+----------------------------------------------------------------------
+其他用于歌舞伎表演的乐器，如笛子、鼓子和一种称为琴的 13 弦日本琴，放在书架旁边和周围。但就像歌舞伎乐队一样，三弦琴占据了中心位置。
+
+(ROOT (IP (NP (NP (DP (DT 其他)) (CP (CP (IP (VP (VV 用) (PP (VV 于) (NP (NN 歌舞) (SFN 伎) (NN 表演))))) (DEC 的))) (NP (NN 乐器))) (, ，) (NP (ADVP (VV 如)) (NP (NP (NN 笛子) (EC 、) (NN 鼓子)) (CC 和) (NP (QP (CD 一) (CLP (NNB 种))) (CP (CP (IP (VP (VV 称) (IP (VP (VC 为) (NP (NN 琴)))))) (DEC 的))) (QP (CD 13) (CLP (NN 弦))) (NP (NNP 日本) (SFN 琴)))))) (, ，) (VP (VV 放) (PP (VV 在) (NP (NN 书架) (NN 旁边) (CC 和) (NN 周围)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, ',': {}, 'NP55426': {}}, ',': {}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, ',': {}, 'NP': {}}, ',': {}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'NP': {'NP': {}, ',': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'PP': {}}}
+Dependency Features:
+其他	乐器	det
+用	乐器	acl:relcl
+于	用	mark
+歌舞	伎	compound
+伎	表演	nmod
+表演	用	obj
+的	用	mark:rel
+乐器	如	nsubj
+，	乐器	punct
+如	ROOT	root
+笛子	如	obj
+、	鼓子	punct
+鼓子	笛子	conj
+和	琴	cc
+一	种	nummod
+种	琴	nmod
+称	琴	acl:relcl
+为	称	mark
+琴	称	obj
+的	称	mark:rel
+13	弦	nummod
+弦	琴	nmod
+日本	琴	compound
+琴	笛子	conj
+，	琴	punct
+放	如	ccomp
+在	放	mark
+书架	旁边	nmod
+旁边	放	obj
+和	周围	cc
+周围	旁边	conj
+。	放	punct
+----------------------------------------------------------------------
+西村作为一名 17 岁的高中生，第一次接触三味线是在她母亲带她去见著名的音乐教授广岛喜久央（Hiroaki Kikuoka）的时候。
+
+(ROOT (IP (IP (NP (NNP 西村)) (VP (PP (VV 作) (PP (VC 为) (NP (QP (CD 一) (CLP (NNB 名))) (DNP (QP (CD 17) (CLP (NNB 岁))) (DEC 的)) (NP (NN 高中) (SFN 生))))) (, ，) (QP (CD 第一) (CLP (NNB 次))) (VP (VV 接触) (NP (QP (CD 三) (CLP (NN 味))) (NP (SFN 线)))))) (VP (VC 是) (PP (IN 在) (NP (CP (CP (IP (NP (NP (PRP 她)) (NP (NN 母亲))) (VP (VP (VV 带) (NP (PRP 她))) (VP (VV 去) (VP (VV 见) (NP (NP (CP (CP (IP (VP (JJ 著名))) (DEC 的))) (NP (NN 音乐) (NN 教授))) (NP (NNP 广岛) (NNP 喜久) (NNP 央) (PRN (-LRB- （) (NP (FW Hiroaki) (FW Kikuoka)) (-RRB- ）)))))))) (DEC 的))) (NP (NN 时候))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, 'VP': {'VC': {}, 'PP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, 'VP': {'VC': {}, 'PP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'VP': {'VC': {}, 'PP': {}}}
+Dependency Features:
+西村	作	nsubj
+作	ROOT	root
+为	作	mark
+一	名	nummod
+名	生	nmod
+17	岁	nummod
+岁	生	nmod
+的	岁	mark:rel
+高中	生	compound
+生	作	obj
+，	是	punct
+第一	次	nummod
+次	接触	obl
+接触	是	advcl
+三	味	nummod
+味	线	compound
+线	接触	obj
+是	作	parataxis
+在	是	xcomp
+她	母亲	nmod
+母亲	去	nsubj
+带	去	advcl
+她	带	obj
+去	在	ccomp
+见	去	xcomp
+著名	教授	amod
+的	著名	mark:rel
+音乐	教授	nmod
+教授	见	obj
+广岛	喜久	nmod
+喜久	教授	appos
+央	喜久	appos
+（	Hiroaki	punct
+Hiroaki	喜久	appos
+Kikuoka	Hiroaki	flat:foreign
+）	Hiroaki	punct
+的	去	mark:rel
+时候	见	obj
+。	作	punct
+----------------------------------------------------------------------
+Kikuoka 鼓励她学习这种乐器，并且在她作为两个孩子的母亲奋斗的过程中，为她提供了 25 年的指导，甚至还免费教她弹琴。
+
+(ROOT (IP (NP (FW Kikuoka)) (VP (VP (VV 鼓励) (NP (PRP 她)) (IP (VP (VV 学习) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 乐器)))))) (, ，) (RB 并且) (VP (PP (IN 在) (IP (NP (PRP 她)) (VP (PP (VV 作) (PP (VC 为) (LCP (NP (CP (IP (NP (DNP (NP (QP (CD 两) (CLP (NNB 个))) (NP (NN 孩子))) (DEC 的)) (NP (NN 母亲))) (VP (VV 奋斗))) (DEC 的)) (NP (NN 过程))) (IN 中)))) (, ，) (PP (IN 为) (NP (PRP 她))) (VP (VV 提供) (AS 了) (NP (QP (CD 25) (CLP (NNB 年的))) (NP (NN 指导))))))) (, ，) (ADVP (RB 甚至)) (ADVP (RB 还)) (ADVP (RB 免费)) (VP (VV 教) (NP (PRP 她)) (IP (VP (VV 弹琴)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'FW': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP86478': {}}, '.': {}}}
+{'IP': {'NP': {'FW': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+Kikuoka	鼓励	nsubj
+鼓励	ROOT	root
+她	学习	nsubj
+学习	鼓励	ccomp
+这	种	det
+种	乐器	clf
+乐器	学习	obj
+，	弹琴	punct
+并且	弹琴	mark
+在	过程	case
+她	作	nsubj
+作	过程	acl:relcl
+为	作	mark
+两	个	nummod
+个	孩子	clf
+孩子	作	obj
+的	作	mark:rel
+母亲	奋斗	nsubj
+奋斗	过程	acl:relcl
+的	奋斗	mark:rel
+过程	弹琴	obl
+中	过程	case
+，	过程	punct
+为	她	case
+她	提供	obl
+提供	教	advcl
+了	提供	aux
+25	年的	nummod
+年的	指导	clf
+指导	提供	obj
+，	提供	punct
+甚至	教	mark
+还	教	mark
+免费	教	advmod
+教	弹琴	advcl
+她	教	obj
+弹琴	鼓励	parataxis
+。	鼓励	punct
+----------------------------------------------------------------------
+这种善意让西村感到非常感激，很快，她开了一间家庭录音室，将歌舞乱舞的知识传授给后人。
+
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 善意))) (VP (VV 让) (NP (NNP 西村)) (IP (VP (VV 感到) (IP (VP (ADVP (RB 非常)) (VP (JJ 感激)))))))) (, ，) (IP (ADVP (JJ 很快)) (, ，) (NP (PRP 她)) (VP (VP (VV 开) (AS 了) (NP (QP (CD 一) (CLP (NNB 间))) (NP (NN 家庭) (VV 录音) (SFN 室)))) (, ，) (VP (BB 将) (IP (NP (CP (IP (NP (NN 歌舞)) (VP (VV 乱舞))) (DEC 的)) (NP (NN 知识))) (VP (VRD (VV 传授) (VV 给)) (NP (NN 后人))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP37038': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP20309': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+这	种	det
+种	善意	clf
+善意	让	nsubj
+让	ROOT	root
+西村	感到	nsubj
+感到	让	ccomp
+非常	感激	advmod
+感激	感到	xcomp
+，	传授	punct
+很快	传授	advmod
+，	很快	punct
+她	传授	nsubj
+开	传授	advcl
+了	开	aux
+一	间	nummod
+间	室	nmod
+家庭	室	nmod
+录音	室	compound
+室	开	obj
+，	开	punct
+将	知识	case
+歌舞	乱舞	obl:patient
+乱舞	知识	acl:relcl
+的	乱舞	mark:rel
+知识	传授	obl:patient
+传授	让	parataxis
+给	传授	mark
+后人	传授	obj
+。	传授	punct
+----------------------------------------------------------------------
+尽管如今的吉它兄弟等现代表演已经更新了三弦的形象，但是随着年轻日本人倾向流行音乐，这门艺术正在逐渐消失。
+
+(ROOT (IP (CP (ADVP (IN 尽管)) (IP (NP (DNP (NP (NN 如今)) (DEC 的)) (NP (NNP 吉) (PRP 它) (NN 兄弟) (NN 等)) (ADJP (NN 现代)) (NP (NN 表演))) (VP (ADVP (RB 已经)) (ADVP (RB 更)) (VP (JJ 新) (AS 了) (NP (DNP (NP (NN 三弦)) (DEC 的)) (NP (NN 形象))))))) (, ，) (ADVP (RB 但是)) (PP (VV 随) (PP (AS 着) (IP (NP (ADJP (JJ 年轻)) (NP (NNP 日本)) (NP (SFN 人))) (VP (VV 倾向) (NP (ADJP (JJ 流行)) (NP (NN 音乐))))))) (, ，) (NP (NN 这门) (NN 艺术)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (ADVP (RB 逐渐)) (VP (VV 消失))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'PP': {}, ',2497': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'PP': {'VV': {}, 'PP': {}}, ',4485': {}, 'NP': {'NN': {}, 'NN84688': {}}, 'VP': {'ADVP': {}, 'ADVP42758': {}, 'ADVP75042': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'NN': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
 {'PP': {'VV': {}, 'PP': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+{'NP': {'NN': {}, 'NN': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+尽管	新	case
+如今	兄弟	nmod
+的	如今	case
+吉	兄弟	nmod
+它	兄弟	nmod
+兄弟	新	nsubj
+等	兄弟	acl
+现代	表演	nmod
+表演	兄弟	appos
+已经	新	advmod
+更	新	advmod
+新	随	ccomp
+了	新	aux
+三弦	形象	nmod
+的	三弦	case
+形象	新	obj
+，	新	punct
+但是	消失	mark
+随	消失	advcl
+着	随	aux
+年轻	人	amod
+日本	人	compound
+人	倾向	nsubj
+倾向	随	ccomp
+流行	音乐	amod
+音乐	倾向	obj
+，	随	punct
+这门	艺术	nmod
+艺术	消失	nsubj
+正	消失	advmod
+在	消失	advmod
+逐渐	消失	advmod
+消失	ROOT	root
+。	消失	punct
 ----------------------------------------------------------------------
-自 2007 年推出以来，苹果已在 80 个国家销售超过 2100 万部 iPhone。
+现今剩下的少数专业三弦演奏者大多来自世代相传的家庭，孩子从六七岁就开始学习。
 
-(ROOT (IP (LCP (IP (VP (PP (IN 自) (NP (CD 2007))) (VP (NNB 年推出)))) (IN 以来)) (, ，) (NP (NNP 苹果)) (VP (ADVP (RB 已)) (PP (VV 在) (NP (QP (CD 80) (CLP (NNB 个))) (NP (NN 国家)))) (VP (VV 销售) (NP (QP (ADVP (VV 超过)) (QP (CD 2100) (CLP (NNB 万部)))) (NP (FW iPhone))))) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
-{'LCP': {'IP': {}, 'IN': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-新款iPhone对苹果公司来说如此重要，苹果公司首席执行官史蒂夫·乔布斯 (Steve Jobs) 预计将从病假回来出席在旧金山举行的苹果全球开发者大会 (WWDC) 上发布会。
-
-(ROOT (IP (IP (NP (FW 新款iPhone)) (VP (IP (VP (PP (IN 对) (NP (NNP 苹果) (NN 公司))) (VP (RB 来) (VP (VV 说))))) (ADVP (VV 如此)) (VP (JJ 重要)))) (, ，) (IP (NP (NP (NP (NNP 苹果) (NN 公司)) (NP (JJ 首席) (VV 执行))) (NP (NNP 官史蒂夫) (/ ·) (NNP 乔布斯) (FW -LRB-Steve) (FW Jobs-RRB-))) (VP (VV 预计) (VP (LCP (IP (IP (VP (ADVP (RB 将)) (PP (IN 从) (NP (NN 病假))) (VP (VV 回来) (VP (VV 出席) (NP (CP (CP (IP (VP (PP (VV 在) (NP (NNP 旧金山))) (VP (VV 举行)))) (DEC 的))) (NP (NNP 苹果) (NN 全球) (VV 开发) (SFN 者) (NN 大会)) (NP (FW -LRB-WWDC))))))) (-RRB- -RRB-)) (IN 上)) (VP (VV 发布) (NP (SFN 会)))))) (. 。)))
+(ROOT (IP (IP (NP (CP (CP (IP (VP (NP (NN 现今)) (VP (VV 剩下)))) (DEC 的))) (QP (JJ 少数)) (ADJP (JJ 专业)) (NP (NN 三弦) (VV 演奏)) (NP (SFN 者))) (VP (ADVP (RB 大多)) (VP (VV 来自) (NP (CP (CP (IP (VP (JJ 世代相传))) (DEC 的))) (NP (NN 家庭)))))) (, ，) (IP (NP (NN 孩子)) (VP (PP (IN 从) (QP (CD 六七) (CLP (NNB 岁)))) (ADVP (RB 就)) (VP (VV 开始) (VP (VV 学习))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP82868': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP63849': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+现今	剩下	nmod:tmod
+剩下	者	acl:relcl
+的	剩下	mark:rel
+少数	者	amod
+专业	者	amod
+三弦	者	nmod
+演奏	者	compound
+者	来自	nsubj
+大多	来自	advmod
+来自	ROOT	root
+世代相传	家庭	amod
+的	世代相传	mark:rel
+家庭	来自	obj
+，	开始	punct
+孩子	开始	nsubj
+从	岁	case
+六七	岁	nummod
+岁	开始	obl
+就	开始	mark
+开始	来自	parataxis
+学习	开始	xcomp
+。	来自	punct
 ----------------------------------------------------------------------
-Jobs 先生曾抗击胰腺癌，1 月份因为激素失调而休医。
+有趣的是，Nishimura 吸引了最多外国人的关注。
 
-(ROOT (IP (NP (FW Jobs) (NN 先生)) (VP (VP (ADVP (RB 曾)) (VP (VV 抗击) (NP (NN 胰腺癌)))) (, ，) (VP (NP (QP (CD 1)) (NP (NNB 月份))) (PP (IN 因为) (IP (NP (NN 激素)) (VP (VV 失调)))) (VP (RB 而) (VP (VV 休医))))) (. 。)))
+(ROOT (IP (NP (CP (CP (IP (VP (JJ 有趣))) (DEC 的)))) (VP (VC 是) (, ，) (IP (NP (FW Nishimura)) (VP (VV 吸引) (AS 了) (NP (DNP (NP (ADJP (JJ 最多)) (NP (NN 外国) (SFN 人))) (DEC 的)) (NP (NN 关注)))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'FW': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'FW': {}, 'NN': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-该公司拒绝证实或否认乔布斯是否会出席会议，但表示他将在本月底回到工作岗位。
-
-(ROOT (IP (NP (DP (DT 该)) (NP (NN 公司))) (VP (VP (VV 拒绝) (IP (VP (VP (VV 证实)) (CC 或) (VP (VV 否认) (IP (NP (NNP 乔布斯)) (VP (ADVP (VC 是否)) (VP (MD 会) (VP (VV 出席) (NP (NN 会议)))))))))) (, ，) (VP (ADVP (RB 但)) (VP (VV 表示) (IP (NP (PRP 他)) (VP (ADVP (RB 将)) (PP (IN 在) (LCP (NP (NN 本月)) (IN 底))) (VP (VV 回到) (NP (NN 工作) (NN 岗位)))))))) (. 。)))
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+有趣	是	csubj
+的	有趣	mark:rel
+是	ROOT	root
+，	吸引	punct
+Nishimura	吸引	nsubj
+吸引	是	ccomp
+了	吸引	aux
+最多	人	amod
+外国	人	compound
+人	关注	nmod
+的	人	case
+关注	吸引	obj
+。	是	punct
 ----------------------------------------------------------------------
-苹果公司表示，其首席营销官菲利普·席勒将发表主旨演讲。
+事实上，她的第一位三味线学生就是澳大利亚人。她在自己的工作室网站上写道：“这很讽刺，我的外国学生比大多数日本人更像日本人。”
 
-(ROOT (IP (NP (NNP 苹果) (NN 公司)) (VP (VV 表示) (, ，) (IP (NP (NP (NP (PRP 其)) (NP (JJ 首席) (VV 营销) (SFN 官))) (NP (NNP 菲利普) (/ ·) (NNP 席勒))) (VP (ADVP (RB 将)) (VP (VV 发表) (NP (NN 主旨) (NN 演讲)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NNP': {}, 'NN': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-周末，网上流传了一组疑似新款iPhone的照片。
-
-(ROOT (IP (NP (NN 周末)) (, ，) (NP (NN 网上)) (VP (VV 流传) (AS 了) (NP (QP (CD 一) (CLP (NNB 组))) (CP (CP (IP (VP (JJ 疑似) (NP (NP (ADJP (PFA 新)) (NP (NNB 款))) (NP (FW iPhone))))) (DEC 的))) (NP (NN 照片)))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
-----------------------------------------------------------------------
-预计该手机将配备 320 万像素摄影头，而目前的摄影头为 200 万像素；内置指南针和橡胶背衬。
-
-(ROOT (IP (VP (VV 预计) (IP (IP (NP (DP (DT 该)) (NP (NN 手机))) (VP (ADVP (RB 将)) (VP (VV 配备) (NP (QP (CD 320)) (NP (NN 万像)) (NP (SFN 素) (VV 摄影) (SFN 头)))))) (, ，) (RB 而) (IP (NP (DNP (NP (NN 目前)) (DEC 的)) (NP (VV 摄影) (SFN 头))) (VP (VC 为) (NP (QP (CD 200)) (NP (NN 万像)) (NP (SFN 素))))) (: ；) (IP (VP (VV 内置) (NP (VV 指南) (SFN 针) (CC 和) (NN 橡胶) (NN 背衬)))))) (. 。)))
-{'IP': {'VP': {}, '.': {}}}
-{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-----------------------------------------------------------------------
-其他照片显示该设备配有前置摄像头，可以让客户进行双向视频对话。
-
-(ROOT (IP (NP (DP (DT 其他)) (NP (NN 照片))) (VP (VV 显示) (IP (IP (NP (DP (DT 该)) (NP (NN 设备))) (VP (VV 配有) (NP (ADJP (VV 前置)) (NP (VV 摄像) (SFN 头))))) (, ，) (IP (VP (MD 可以) (VP (VV 让) (NP (NN 客户)) (IP (VP (VV 进行) (NP (QP (CD 双) (CLP (VV 向))) (NP (NN 视频) (NN 对话)))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-----------------------------------------------------------------------
-博客还表示，苹果公司还可能会推出一款更便宜的低端版本手机，以吸引那些对高昂的价格不满的客户。
-
-(ROOT (IP (NP (NN 博客)) (VP (ADVP (RB 还)) (VP (VV 表示) (, ，) (IP (NP (NNP 苹果) (NN 公司)) (VP (ADVP (RB 还)) (VP (MD 可能) (VP (MD 会) (VP (VP (VV 推出) (NP (QP (CD 一) (CLP (NNB 款))) (CP (CP (IP (VP (ADVP (RB 更)) (VP (JJ 便宜)))) (DEC 的))) (NP (ADJP (NN 低端)) (NP (NN 版本))) (NP (NN 手机)))) (, ，) (VP (RB 以) (VP (VV 吸引) (NP (DP (DT 那些)) (CP (CP (IP (VP (PP (IN 对) (NP (CP (CP (IP (VP (JJ 高昂))) (DEC 的))) (NP (NN 价格)))) (VP (JJ 不满)))) (DEC 的))) (NP (NN 客户)))))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-美国投资银行 Piper Jaffrey 的分析师 Gene Munster 是最受尊重的“苹果迷”，他表示，苹果公司将发布新的操作系统，但不会发布新的手机，因此可能会引发广泛的失望。
-
-(ROOT (IP (IP (NP (NP (DNP (NP (NP (NNP 美国) (NN 投资) (NN 银行)) (NP (FW Piper) (FW Jaffrey))) (DEC 的)) (NP (VV 分析) (SFN 师))) (NP (FW Gene) (FW Munster))) (VP (VC 是) (NP (CP (CP (IP (VP (VV 最受) (NP (VV 尊重)))) (DEC 的))) (NP (`` “) (NNP 苹果) (SFN 迷) ('' ”))))) (, ，) (IP (NP (PRP 他)) (VP (VV 表示) (, ，) (IP (IP (NP (NNP 苹果) (NN 公司)) (VP (VP (ADVP (RB 将)) (VP (VV 发布) (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 操作) (NN 系统))))) (, ，) (VP (ADVP (RB 但)) (VP (MD 不会) (VP (VV 发布) (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 手机)))))))) (, ，) (IP (ADVP (IN 因)) (ADVP (PRD 此)) (VP (MD 可能) (VP (MD 会) (VP (VV 引发) (NP (CP (CP (IP (VP (JJ 广泛))) (DEC 的))) (NP (NN 失望)))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-他表示，新的“iPhone 系列”可能要到七月才会发布。
-
-(ROOT (IP (NP (PRP 他)) (VP (VV 表示) (, ，) (IP (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (`` “) (FW iPhone) (NN 系列) ('' ”))) (VP (MD 可能) (VP (MD 要) (VP (VP (IN 到) (NP (CD 七) (NNB 月))) (ADVP (RB 才)) (VP (MD 会) (VP (VV 发布)))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-自 2007 年推出以来，苹果已在 80 个国家销售超过 2100 万部 iPhone。
-
-(ROOT (IP (LCP (IP (VP (PP (IN 自) (NP (CD 2007))) (VP (NNB 年推出)))) (IN 以来)) (, ，) (NP (NNP 苹果)) (VP (ADVP (RB 已)) (PP (VV 在) (NP (QP (CD 80) (CLP (NNB 个))) (NP (NN 国家)))) (VP (VV 销售) (NP (QP (ADVP (VV 超过)) (QP (CD 2100) (CLP (NNB 万部)))) (NP (FW iPhone))))) (. 。)))
+(ROOT (IP (LCP (NP (NN 事实)) (IN 上)) (, ，) (NP (DNP (NP (PRP 她)) (DEC 的)) (QP (CD 第一) (CLP (NNB 位))) (NP (QP (CD 三) (CLP (NN 味))) (NP (SFN 线))) (NP (NN 学生))) (VP (VC 就是) (NP (NP (NNP 澳大利亚)) (NP (SFN 人)))) (. 。)))
+layer 2:
 {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
-{'LCP': {'IP': {}, 'IN': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'DNP': {}, 'QP': {}, 'NP': {}, 'NP29473': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'DNP': {}, 'QP': {}, 'NP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'DNP': {}, 'QP': {}, 'NP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+事实	人	obl
+上	事实	case
+，	事实	punct
+她	学生	det
+的	她	case
+第一	位	nummod
+位	学生	clf
+三	味	nummod
+味	线	compound
+线	学生	nmod
+学生	人	nsubj
+是	人	cop
+澳大利亚	人	compound
+人	ROOT	root
+。	人	punct
 ----------------------------------------------------------------------
-根据加特纳的数据，该公司在全球智能手机市场的份额约为 10%。
+在接下来的 20 年里，Nishimura 的歌舞乱舞音乐学生名单将超过 200 人。如今，她的客户来自德国、巴西、法国、南非、英国、波兰、加拿大和美国。
 
-(ROOT (IP (PP (IN 根据) (NP (DNP (NP (NNP 加特纳)) (DEC 的)) (NP (NN 数据)))) (, ，) (NP (NP (DP (DT 该)) (NP (NN 公司))) (DNP (PP (IN 在) (NP (NP (NN 全球)) (NP (NN 智能) (NN 手机) (NN 市场)))) (DEC 的)) (NP (NN 份额))) (VP (ADVP (RB 约)) (VP (VC 为) (QP (CD 10%)))) (. 。)))
+(ROOT (IP (PP (IN 在) (LCP (NP (CP (CP (IP (VP (VRD (VV 接) (VV 下来)))) (DEC 的))) (NP (CD 20))) (NNB 年里))) (, ，) (NP (NP (DNP (NP (FW Nishimura)) (DEC 的)) (NP (NN 歌舞) (NN 乱舞) (NN 音乐) (NN 学生))) (NP (NN 名单))) (VP (ADVP (RB 将)) (VP (VV 超过) (NP (QP (CD 200)) (NP (NN 人))))) (. 。)))
+layer 2:
 {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'NP': {}}}
-{'NP': {'NP': {}, 'DNP': {}, 'NP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'NP14772': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
 {'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+在	年里	case
+接	年里	acl:relcl
+下来	接	mark
+的	接	mark:rel
+20	年里	nummod
+年里	超过	obl
+，	年里	punct
+Nishimura	名单	nmod
+的	Nishimura	mark:rel
+歌舞	名单	nmod
+乱舞	名单	nmod
+音乐	名单	nmod
+学生	名单	nmod
+名单	超过	nsubj
+将	超过	advmod
+超过	ROOT	root
+200	人	nummod
+人	超过	obj
+。	超过	punct
 ----------------------------------------------------------------------
-苹果公司的这一重大宣布距离棕榈手机重新进入智能手机市场并获得好评仅过了几天。
+在晚上和周末，Nishimura 的公寓里充满了学生弹奏、哼唱和唱歌的声音。
 
-(ROOT (IP (NP (DNP (NP (NNP 苹果) (NN 公司)) (DEC 的)) (DP (DT 这) (QP (CD 一))) (ADJP (JJ 重大)) (NP (NN 宣布))) (VP (VP (VP (PP (IN 距离) (NP (NN 棕榈) (NN 手机))) (ADVP (RB 重新)) (VP (VV 进入) (NP (NP (NN 智) (SFN 能) (NN 手机)) (NP (NN 市场))))) (RB 并) (VP (VV 获得) (NP (NN 好评)))) (VP (ADVP (RB 仅)) (VP (VV 过) (AS 了) (QP (CD 几) (CLP (NNB 天)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'DP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'DP': {}, 'ADJP': {}, 'NP': {}}}
-{'VP': {'VP': {}, 'VP': {}}}
+(ROOT (IP (PP (IN 在) (NP (NN 晚上) (CC 和) (NN 周末))) (, ，) (LCP (NP (DNP (NP (FW Nishimura)) (DEC 的)) (NP (NN 公寓))) (NN 里)) (VP (VV 充满) (AS 了) (NP (CP (IP (NP (NN 学生)) (VP (VV 弹奏) (EC 、) (VV 哼唱) (CC 和) (VV 唱歌))) (DEC 的)) (NP (NN 声音)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'LCP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'LCP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'LCP': {'NP': {}, 'NN': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'LCP': {'NP': {}, 'NN': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'LCP': {'NP': {}, 'NN': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+在	晚上	case
+晚上	充满	obl
+和	周末	cc
+周末	晚上	conj
+，	晚上	punct
+Nishimura	公寓	det
+的	Nishimura	case
+公寓	充满	nsubj
+里	公寓	acl
+充满	ROOT	root
+了	充满	aux
+学生	弹奏	nsubj
+弹奏	声音	acl:relcl
+、	哼唱	punct
+哼唱	弹奏	conj
+和	唱歌	cc
+唱歌	弹奏	conj
+的	弹奏	mark:rel
+声音	充满	obj
+。	充满	punct
 ----------------------------------------------------------------------
-被称为“iPhone的最佳竞争对手”的 Pre 周末在美国上市。
+每年举办一次演唱会（最近一次是去年八月），所得收费用于举办演唱会。
 
-(ROOT (IP (NP (CP (CP (IP (VP (BB 被) (VP (VCP (VV 称) (VC 为)) (NP (`` “) (DNP (NP (FW iPhone)) (DEC 的)) (ADJP (JJ 最佳)) (NP (NN 竞争) (NN 对手)) ('' ”))))) (DEC 的))) (NP (FW Pre) (NN 周末))) (VP (PP (VV 在) (NP (NNP 美国))) (VP (VV 上市))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-Pre 拥有触摸屏和滑出键盘，预计将于今年晚些时候在英国上市。
-
-(ROOT (IP (IP (NP (FW Pre)) (VP (VV 拥有) (NP (NN 触摸屏) (CC 和) (NN 滑出) (NN 键盘)))) (, ，) (IP (VP (VV 预计) (IP (VP (ADVP (RB 将)) (PP (IN 于) (NP (NP (NN 今年)) (ADJP (NN 晚些)) (NP (NN 时候)))) (PP (VV 在) (NP (NNP 英国))) (VP (VV 上市)))))) (. 。)))
+(ROOT (IP (IP (VP (NP (DT 每年)) (VP (VV 举办) (NP (QP (CD 一) (CLP (NNB 次))) (NP (VV 演唱) (SFN 会)) (PRN (-LRB- （) (IP (QP (NP (NN 最近)) (QP (CD 一) (CLP (NNB 次)))) (VP (VC 是) (NP (NN 去年) (CD 八) (NNB 月)))) (-RRB- ）)))))) (, ，) (IP (NP (CP (IP (VP (RB 所) (VP (VV 得))))) (NP (NN 收费))) (VP (VV 用) (PP (VV 于) (IP (VP (VV 举办) (NP (VV 演唱) (SFN 会))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP22005': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP86220': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+每年	举办	nmod:tmod
+举办	ROOT	root
+一	次	nummod
+次	会	nmod
+演唱	会	compound
+会	举办	obj
+（	用	punct
+最近	次	nmod
+一	次	nummod
+次	月	nsubj
+是	月	cop
+去年	月	nmod
+八	月	nummod
+月	用	advcl
+）	月	punct
+，	月	punct
+所	得	mark
+得	收费	amod
+收费	用	nsubj
+用	举办	parataxis
+于	用	mark
+举办	用	xcomp
+演唱	会	compound
+会	举办	obj
+。	举办	punct
 ----------------------------------------------------------------------
-Pre 的成功可能会给 U2 前卫乐队主唱博纳 (Bono) 带来巨大的好处，博纳 的私募股权公司 Elevation Partners 拥有该公司 41% 的股份。
+她的学生身着全套和服，在专业音乐家的伴奏下表演，观众超过 100 人。
 
-(ROOT (IP (IP (NP (DNP (NP (FW Pre)) (DEC 的)) (NP (NN 成功))) (VP (MD 可能) (VP (MD 会) (VP (PP (VV 给) (NP (NP (NP (FW U2)) (ADJP (JJ 前卫)) (NP (NN 乐队))) (NP (NNP 主唱博纳) (FW -LRB-Bono-RRB-)))) (VP (VV 带来) (NP (CP (CP (IP (VP (JJ 巨大))) (DEC 的))) (NP (NN 好处)))))))) (, ，) (IP (NP (NP (DNP (NP (NNP 博纳)) (DEC 的)) (NP (NN 私募) (NN 股权) (NN 公司))) (NP (FW Elevation) (FW Partners))) (VP (VV 拥有) (NP (NP (DP (DT 该)) (NP (NN 公司))) (DNP (QP (CD 41%)) (DEC 的)) (NP (NN 股份))))) (. 。)))
+(ROOT (IP (IP (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 学生))) (VP (VP (VV 身着) (NP (DT 全套) (CC 和) (SFN 服))) (, ，) (VP (PP (IN 在) (LCP (NP (DNP (NP (JJ 专业) (NN 音乐) (SFN 家)) (DEC 的)) (NP (NN 伴奏))) (IN 下))) (VP (VV 表演))))) (, ，) (IP (NP (NN 观众)) (VP (VV 超过) (NP (QP (CD 100)) (NP (NN 人))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP72863': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP8397': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+她	学生	det
+的	她	case
+学生	表演	nsubj
+身着	表演	advcl
+全套	身着	obj
+和	服	cc
+服	全套	conj
+，	身着	punct
+在	伴奏	case
+专业	家	amod
+音乐	家	compound
+家	伴奏	nmod
+的	家	case
+伴奏	表演	obl
+下	伴奏	case
+表演	ROOT	root
+，	超过	punct
+观众	超过	nsubj
+超过	表演	parataxis
+100	人	nummod
+人	超过	obj
+。	表演	punct
 ----------------------------------------------------------------------
-去年十二月，Elevation 公司增持了其持股，以每股 3.24 美元的价格买入价值 1 亿美元（6200 万英镑）的股票。
+对于不能参加西村的音乐会的观众，还有几个机会可以在东京的歌舞伎场看到三味线的现场演奏。西村推荐位于银座的新歌舞伎座，这里的现代化设施令人印象深刻。
 
-(ROOT (IP (NP (NN 去年) (CD 十二) (NNB 月)) (, ，) (NP (FW Elevation) (NN 公司)) (VP (VP (VV 增持) (AS 了) (NP (NP (PRP 其)) (NP (NN 持股)))) (, ，) (VP (PP (IN 以) (NP (CP (CP (IP (NP (NN 每股)) (VP (QP (CD 3.24) (CLP (NNB 美元))))) (DEC 的))) (NP (NN 价格)))) (VP (VV 买入) (NP (CP (CP (IP (VP (NN 价值) (QP (CD 1 亿) (CLP (NNP 美) (CLP (NNB 元))) (PRN (-LRB- （) (QP (CD 6200) (QP (CD 万) (CLP (NNP 英) (CLP (NNB 镑))))) (-RRB- ）))))) (DEC 的))) (NP (NN 股票)))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'FW': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}, 'CD': {}, 'NNB': {}}}
-{'NP': {'FW': {}, 'NN': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+(ROOT (IP (PP (IN 对于) (NP (CP (CP (IP (VP (MD 不能) (VP (VV 参加) (NP (DNP (NP (NNP 西村)) (DEC 的)) (NP (NN 音乐) (SFN 会)))))) (DEC 的))) (NP (NN 观众)))) (, ，) (VP (ADVP (RB 还)) (VP (VV 有) (IP (NP (QP (CD 几) (CLP (NNB 个))) (NP (NN 机会))) (VP (MD 可以) (VP (PP (IN 在) (NP (DNP (NP (NNP 东京)) (DEC 的)) (NP (NN 歌舞) (NN 伎场)))) (VP (VV 看到) (NP (DNP (NP (QP (CD 三) (CLP (NN 味))) (NP (SFN 线))) (DEC 的)) (NP (NN 现场) (NN 演奏))))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+对于	观众	case
+能	参加	aux
+参加	观众	acl:relcl
+西村	参加	obj
+的	参加	mark:rel
+音乐	会	compound
+会	参加	obj
+的	参加	mark:rel
+观众	有	obl
+，	观众	punct
+还	有	mark
+有	ROOT	root
+几	个	nummod
+个	机会	clf
+机会	看到	nsubj
+可以	看到	aux
+在	伎场	case
+东京	伎场	nmod
+的	东京	case
+歌舞	伎场	nmod
+伎场	看到	obl
+看到	有	ccomp
+三	味	nummod
+味	线	compound
+线	演奏	nmod
+的	线	mark:rel
+现场	演奏	nmod
+演奏	看到	obj
+。	看到	punct
 ----------------------------------------------------------------------
-该公司的股价周五收盘为 13 美元。
+所有演员都是男性，身穿华丽的服装和斗篷，戴着假发，脸上涂满戏剧化的妆容。他们唱歌跳舞，讲述爱情、家庭和战争的故事，三弦和其他乐器为角色强调各种情绪添加了声音效果。
 
-(ROOT (IP (NP (DNP (NP (DP (DT 该)) (NP (NN 公司))) (DEC 的)) (NP (NN 股价))) (VP (NP (NNP 周) (CD 五)) (VP (VRD (NN 收盘) (VC 为)) (QP (CD 13) (CLP (NNB 美元))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'NP': {}, 'VP': {}}}
+(ROOT (IP (IP (NP (DP (DT 所有)) (NP (NN 演员))) (VP (VP (VC 都是) (NP (NN 男性))) (, ，) (VP (VV 身穿) (NP (CP (CP (IP (VP (JJ 华丽))) (DEC 的))) (NP (NN 服装) (CC 和) (NN 斗篷)))) (, ，) (VP (VV 戴) (AS 着) (NP (NN 假发))))) (, ，) (IP (NP (NN 脸上)) (VP (VV 涂满) (NP (CP (CP (IP (NP (NN 戏剧)) (VP (SFV 化))) (DEC 的))) (NP (NN 妆容))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP24797': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP99784': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+所有	演员	det
+演员	戴	nsubj
+是	男性	cop
+男性	戴	advcl
+，	男性	punct
+身穿	戴	advcl
+华丽	服装	amod
+的	华丽	mark:rel
+服装	身穿	obj
+和	斗篷	cc
+斗篷	服装	conj
+，	身穿	punct
+戴	ROOT	root
+着	戴	aux
+假发	戴	obj
+，	涂满	punct
+脸上	涂满	nsubj
+涂满	戴	parataxis
+戏剧	化	compound
+化	妆容	acl:relcl
+的	化	mark:rel
+妆容	涂满	obj
+。	戴	punct
 ----------------------------------------------------------------------

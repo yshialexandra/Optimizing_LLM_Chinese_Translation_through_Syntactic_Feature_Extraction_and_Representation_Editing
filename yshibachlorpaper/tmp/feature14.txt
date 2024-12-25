@@ -1,474 +1,1059 @@
-巴拉克·奥巴马总统下周到伦敦访问，他会发现世界峰会上缺少一个大国：欧洲。
+“很难一直站在外面看，但这些外国人没有选择。”
 
-(ROOT (IP (IP (NP (NNP 巴拉克) (/ ·) (NNP 奥巴马) (NN 总统)) (VP (NN 下) (VP (VP (VV 周到) (NP (NNP 伦敦))) (VP (VV 访问))))) (, ，) (IP (NP (PRP 他)) (VP (MD 会) (VP (VV 发现) (IP (LCP (NP (NN 世界) (NN 峰) (SFN 会)) (IN 上)) (VP (VV 缺少) (NP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 大国))) (: ：) (NP (NNP 欧洲)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在 G20 会议的 20 位领导人中，有 5 位将是欧洲人，代表法国、德国、英国、意大利和欧盟，但总和小于其组成部分。
-
-(ROOT (IP (IP (PP (IN 在) (LCP (NP (DNP (NP (FW G20) (NN 会议)) (DEC 的)) (QP (CD 20) (CLP (NNB 位))) (NP (VV 领导) (SFN 人))) (IN 中))) (, ，) (VP (VV 有) (IP (QP (CD 5)) (VP (VP (ADVP (NNB 位将)) (VP (VC 是) (NP (NP (NNP 欧洲)) (NP (SFN 人))))) (, ，) (VP (VV 代表) (NP (NNP 法国) (EC 、) (NNP 德国) (EC 、) (NNP 英国) (EC 、) (NNP 意大利) (CC 和) (NNP 欧盟))))))) (, ，) (IP (ADVP (RB 但)) (NP (RB 总和)) (VP (JJ 小) (PP (VV 于) (NP (NP (PRP 其)) (NP (NN 组成) (NN 部分)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'VP': {}}}
+(ROOT (IP (`` “) (IP (VP (ADVP (RB 很难)) (ADVP (RB 一直)) (VP (VP (VV 站) (PP (VV 在) (NP (NN 外面)))) (VP (VV 看))))) (, ，) (IP (ADVP (RB 但)) (NP (DP (DT 这些)) (NP (NN 外国) (SFN 人))) (VP (VV 没有) (NP (VV 选择)))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP2330': {}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'``': {}, 'IP': {'VP': {}}, ',': {}, 'IP59831': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'VP': {}}}
 {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PUNCT', 'VERB', 'punct']	['“', '站', 'punct']
+['ADV', 'VERB', 'advmod']	['很难', '站', 'advmod']
+['ADV', 'VERB', 'advmod']	['一直', '站', 'advmod']
+['VERB', 'VERB', 'advcl']	['站', '有', 'advcl']
+['VERB', 'VERB', 'mark']	['在', '站', 'mark']
+['NOUN', 'VERB', 'obl']	['外面', '看', 'obl']
+['VERB', 'VERB', 'xcomp']	['看', '站', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '站', 'punct']
+['ADV', 'VERB', 'mark']	['但', '有', 'mark']
+['DET', 'PART', 'det']	['这些', '人', 'det']
+['NOUN', 'PART', 'compound']	['外国', '人', 'compound']
+['PART', 'VERB', 'nsubj']	['人', '有', 'nsubj']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['选择', '有', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '有', 'punct']
 ----------------------------------------------------------------------
-欧洲人会很多，但欧洲却不会存在。
+这是这本书最引人注目的第一句话，讲述了在广州建立的最早的——非常有限的——外国贸易定居点。
 
-(ROOT (IP (IP (NP (NP (NNP 欧洲)) (NP (SFN 人))) (VP (MD 会) (VP (JJ 很多)))) (, ，) (IP (ADVP (RB 但)) (NP (NNP 欧洲)) (VP (ADVP (RB 却)) (VP (MD 不会) (VP (VV 存在))))) (. 。)))
+(ROOT (IP (NP (PRD 这)) (VP (VP (VC 是) (NP (NP (DP (DT 这) (CLP (NNB 本))) (NP (NN 书))) (CP (CP (IP (VP (VP (ADVP (RB 最)) (VP (JJ 引人))) (VP (NN 注目)))) (DEC 的))) (QP (CD 第一)) (NP (NN 句话)))) (, ，) (VP (VV 讲述) (AS 了) (NP (CP (CP (IP (VP (PP (IN 在) (NP (NNP 广州))) (VP (VV 建立)))) (DEC 的))) (CP (CP (IP (VP (JJ 最早))) (DEC 的))) (HYPH ——) (CP (CP (IP (VP (ADVP (RB 非常)) (VP (JJ 有限)))) (DEC 的))) (HYPH ——) (NP (NN 外国) (NN 贸易) (VV 定居) (SFN 点))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VP': {}, ',': {}, 'VP92898': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['这', '讲述', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '句话', 'cop']
+['DET', 'NOUN', 'det']	['这', '本', 'det']
+['NOUN', 'NOUN', 'clf']	['本', '书', 'clf']
+['NOUN', 'NOUN', 'nmod']	['书', '句话', 'nmod']
+['ADV', 'ADJ', 'advmod']	['最', '引人', 'advmod']
+['ADJ', 'NOUN', 'amod']	['引人', '注目', 'amod']
+['NOUN', 'NOUN', 'nmod']	['注目', '句话', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '注目', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['第一', '句话', 'nummod']
+['NOUN', 'VERB', 'advcl']	['句话', '讲述', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['，', '句话', 'punct']
+['VERB', 'ROOT', 'root']	['讲述', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '讲述', 'aux']
+['ADP', 'PROPN', 'case']	['在', '广州', 'case']
+['PROPN', 'VERB', 'obl']	['广州', '建立', 'obl']
+['VERB', 'PART', 'acl:relcl']	['建立', '点', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '建立', 'mark:rel']
+['ADJ', 'PART', 'amod']	['最早', '点', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '最早', 'mark:rel']
+['PUNCT', 'ADJ', 'punct']	['——', '有限', 'punct']
+['ADV', 'ADJ', 'advmod']	['非常', '有限', 'advmod']
+['ADJ', 'PART', 'amod']	['有限', '点', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '有限', 'mark:rel']
+['PUNCT', 'PART', 'punct']	['——', '点', 'punct']
+['NOUN', 'PART', 'nmod']	['外国', '点', 'nmod']
+['NOUN', 'PART', 'nmod']	['贸易', '点', 'nmod']
+['VERB', 'PART', 'compound']	['定居', '点', 'compound']
+['PART', 'VERB', 'obj']	['点', '讲述', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '讲述', 'punct']
+----------------------------------------------------------------------
+约翰逊·斯朋斯关于 19 世纪中期中国对清朝的太平天国起义的精彩回忆录最初出现在十几年前，但我刚刚才发现它。
+
+(ROOT (IP (IP (NP (NP (NNP 约翰逊) (/ ·) (NNP 斯朋斯)) (PP (IN 关于) (NP (NP (QP (CD 19)) (NP (NNB 世纪))) (NP (NN 中期)))) (DNP (NP (NP (NNP 中国)) (DNP (PP (IN 对) (NP (NNP 清朝))) (DEC 的)) (NP (JJ 太平) (NN 天国)) (NP (NN 起义))) (DEC 的)) (ADJP (JJ 精彩)) (NP (VV 回忆) (SFN 录))) (VP (ADVP (NN 最初)) (VP (VV 出现) (PP (IN 在) (LCP (QP (CD 十几) (CLP (NNB 年))) (IN 前)))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 我)) (VP (ADVP (RB 刚刚)) (ADVP (RB 才)) (VP (VV 发现) (NP (PRP 它))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP89975': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP95443': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['约翰逊', '出现', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['·', '斯朋斯', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['斯朋斯', '约翰逊', 'flat:name']
+['ADP', 'PART', 'case']	['关于', '录', 'case']
+['NUM', 'NOUN', 'nummod']	['19', '世纪', 'nummod']
+['NOUN', 'NOUN', 'clf']	['世纪', '中期', 'clf']
+['NOUN', 'NOUN', 'nmod']	['中期', '起义', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['中国', '起义', 'nmod']
+['ADP', 'PROPN', 'case']	['对', '清朝', 'case']
+['PROPN', 'NOUN', 'nmod']	['清朝', '起义', 'nmod']
+['PART', 'NOUN', 'case']	['的', '起义', 'case']
+['ADJ', 'NOUN', 'amod']	['太平', '起义', 'amod']
+['NOUN', 'NOUN', 'nmod']	['天国', '起义', 'nmod']
+['NOUN', 'PART', 'nmod']	['起义', '录', 'nmod']
+['PART', 'NOUN', 'case']	['的', '起义', 'case']
+['ADJ', 'PART', 'amod']	['精彩', '录', 'amod']
+['VERB', 'PART', 'compound']	['回忆', '录', 'compound']
+['PART', 'VERB', 'obl']	['录', '出现', 'obl']
+['NOUN', 'VERB', 'nmod:tmod']	['最初', '出现', 'nmod:tmod']
+['VERB', 'ROOT', 'root']	['出现', 'NONE', 'root']
+['ADP', 'NOUN', 'case']	['在', '年', 'case']
+['NUM', 'NOUN', 'nummod']	['十几', '年', 'nummod']
+['NOUN', 'VERB', 'obl']	['年', '出现', 'obl']
+['ADP', 'NOUN', 'case']	['前', '年', 'case']
+['PUNCT', 'VERB', 'punct']	['，', '出现', 'punct']
+['ADV', 'VERB', 'mark']	['但', '发现', 'mark']
+['PRON', 'VERB', 'nsubj']	['我', '发现', 'nsubj']
+['ADV', 'VERB', 'advmod']	['刚刚', '发现', 'advmod']
+['ADV', 'VERB', 'mark']	['才', '发现', 'mark']
+['VERB', 'VERB', 'parataxis']	['发现', '出现', 'parataxis']
+['PRON', 'VERB', 'obj']	['它', '发现', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '发现', 'punct']
 ----------------------------------------------------------------------
-本周，戴维·卡梅伦在前往首脑会议的第一站时向欧洲议会表示，欧洲在应对全球化挑战方面“处于独特的领导地位”。
+这是一位认真的历史学家做出的一个大胆和不寻常的选择，他几乎完全用活泼的现在时态来描述历史（事实上，他在那个引人注目的开篇部分，似乎是从一个主要角色的视角或一个普通中国人的视角来写这段历史）；虽然有时会略微影响注意力（特别是当他不得不在他的叙述中向前或向后跳跃，离开现在时态，然后再回到现在时态），但总体而言，这种方式非常有效，可以让读者全身心地参与故事。
 
-(ROOT (IP (NP (NN 本周)) (, ，) (NP (NNP 戴维) (/ ·) (NNP 卡梅伦)) (VP (PP (IN 在) (LCP (IP (VP (VV 前往) (NP (DNP (NP (NN 首脑) (NN 会议)) (DEC 的)) (QP (CD 第一)) (NP (NN 站))))) (IN 时))) (PP (IN 向) (NP (NNP 欧洲) (NN 议会))) (VP (VV 表示) (, ，) (IP (NP (NNP 欧洲)) (VP (PP (IN 在) (NP (IP (VP (VV 应对) (NP (NN 全球) (SFV 化) (NN 挑战)))) (NP (NN 方面)))) (VP (`` “) (VV 处) (PP (VV 于) (NP (CP (CP (IP (VP (JJ 独特))) (DEC 的))) (NP (NN 领导) (NN 地位)))) ('' ”)))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'PP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
-{'VP': {'PP': {}, 'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-可能会被安排，但目前它却毫无疑问地失去了这个位置。
-
-(ROOT (IP (IP (VP (MD 可能) (VP (MD 会) (VP (BB 被) (VP (VV 安排)))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 目前)) (NP (PRP 它)) (VP (ADVP (RB 却)) (DVP (VP (VV 毫无) (NP (JJ 疑问))) (DEV 地)) (VP (VV 失去) (AS 了) (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 位置)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-欧洲对于欧洲一体化进程开始 50 多年来最大的金融和经济危机的反应弱而且分歧。
-
-(ROOT (IP (NP (CP (IP (NP (NNP 欧洲)) (VP (PP (IN 对于) (NP (NP (NNP 欧洲)) (NP (QP (CD 一)) (NP (NN 体化))) (NP (NN 进程)))) (VP (VV 开始) (NP (CP (CP (IP (VP (LCP (NP (QP (CD 50)) (QP (CD 多))) (NNB 年来)) (VP (JJ 最大)))) (DEC 的))) (NP (NN 金融) (CC 和) (NN 经济)) (NP (NN 危机)))))) (DEC 的)) (NP (NN 反应))) (VP (JJ 弱) (CC 而且) (NN 分歧)) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'JJ': {}, 'CC': {}, 'NN': {}}, '.': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'JJ': {}, 'CC': {}, 'NN': {}}}
-----------------------------------------------------------------------
-中国和美国都推出了大规模的财政刺激计划，相比之下，欧洲迄今为止只是带来了一点点。
-
-(ROOT (IP (IP (NP (NNP 中国) (CC 和) (NNP 美国)) (VP (ADVP (RB 都)) (VP (VV 推出) (AS 了) (NP (DNP (NP (ADJP (PFA 大)) (NP (NN 规模))) (DEC 的)) (NP (NN 财政) (NN 刺激) (NN 计划)))))) (, ，) (IP (LCP (VP (VV 相比)) (IN 之下)) (, ，) (NP (NNP 欧洲)) (VP (IP (VP (PP (IN 迄) (NP (NN 今))) (VP (VC 为) (NP (NN 止))))) (ADVP (RB 只)) (VP (VC 是) (VP (VV 带来) (AS 了) (QP (CD 一点) (CLP (NN 点))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-法国经济学家尼古拉·贝韦兹最近估算，欧洲的刺激计划总额约为国内生产总值的 1.5%，而美国为 12%。
-
-(ROOT (IP (NP (NP (NP (NNP 法国)) (NP (NN 经济) (SFN 学) (SFN 家))) (NP (NNP 尼古拉) (/ ·) (NNP 贝韦兹))) (VP (NP (NN 最近)) (VP (VV 估算) (, ，) (IP (IP (NP (DNP (NP (NNP 欧洲)) (DEC 的)) (NP (NN 刺激) (NN 计划) (NN 总额))) (VP (ADVP (RB 约)) (VP (VC 为) (QP (DNP (NP (NN 国内) (NN 生产) (NN 总值)) (DEC 的)) (QP (CD 1.5%)))))) (, ，) (RB 而) (IP (NP (NNP 美国)) (VP (VC 为) (QP (CD 12%))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-欧洲人在这方面做得相对较少，但他们却从事了两项特有的活动：为争夺哪个国家能得到哪个花生而争吵，并指责美国人。
-
-(ROOT (IP (IP (NP (NP (NNP 欧洲)) (NP (SFN 人))) (VP (PP (IN 在) (NP (DP (DT 这)) (NP (NN 方面)))) (VP (VV 做得) (VP (ADVP (RB 相对)) (VP (JJ 较少)))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 他们)) (VP (ADVP (RB 却)) (VP (VV 从事) (AS 了) (NP (QP (CD 两) (CLP (NNB 项))) (DNP (ADJP (VV 特有)) (DEC 的)) (NP (NN 活动)))))) (: ：) (IP (VP (VP (PP (IN 为) (IP (VP (VV 争夺) (IP (NP (DP (DT 哪) (CLP (NNB 个))) (NP (NN 国家))) (VP (MD 能) (VP (VV 得到) (NP (DP (DT 哪) (CLP (NNB 个))) (NP (NN 花生))))))))) (VP (RB 而) (VP (VV 争吵)))) (, ，) (RB 并) (VP (VV 指责) (NP (NP (NNP 美国)) (NP (SFN 人)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ':': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'VP': {}}, ':': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-因此，例如，经济学家克里斯托弗·施密特 (Christoph Schmidt) 是德国政府经济顾问的五位所谓“圣人”之一，他对美国印钞扩大国债和增加未来通货膨胀风险表示了极大的不满。
-
-(ROOT (IP (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (ADVP (VV 例如)) (, ，) (NP (NP (NN 经济) (SFN 学) (SFN 家)) (NP (NNP 克里斯托弗) (/ ·) (NNP 施密特) (FW -LRB-Christoph) (FW Schmidt-RRB-))) (VP (VC 是) (NP (DNP (NP (DNP (NP (NP (NNP 德国)) (NP (NN 政府) (NN 经济) (NN 顾问))) (DEC 的)) (CP (IP (QP (CD 五) (CLP (NNB 位))) (VP (RB 所) (VP (VV 谓))))) (NP (`` “) (NN 圣人) ('' ”))) (DEC 之)) (NP (CD 一))))) (, ，) (IP (NP (PRP 他)) (VP (PP (IN 对) (NP (IP (NP (NP (NNP 美国)) (NP (NN 印钞))) (VP (VP (VV 扩大) (NP (NN 国债))) (CC 和) (VP (VV 增加) (NP (NN 未来) (NN 通货) (NN 膨胀))))) (NP (NN 风险)))) (VP (VV 表示) (AS 了) (NP (CP (CP (IP (VP (JJ 极大))) (DEC 的))) (NP (NN 不满)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这确实是事实，但与此同时，德国又一次期待着美国消费者花这些美元，从而扶助德国出口业。
-
-(ROOT (IP (IP (NP (PRD 这)) (VP (ADVP (RB 确实)) (VP (VC 是) (NP (NN 事实))))) (, ，) (IP (ADVP (RB 但)) (NP (PP (IN 与) (NP (PRD 此))) (NP (NN 同时))) (, ，) (NP (NNP 德国)) (VP (QP (ADVP (RB 又)) (QP (CD 一) (CLP (NNB 次)))) (VP (VV 期待) (AS 着) (IP (NP (NP (NNP 美国)) (NP (VV 消费) (SFN 者))) (VP (VP (VV 花) (NP (DP (DT 这些)) (NP (NNP 美) (SFN 元)))) (, ，) (VP (ADVP (RB 从而)) (VP (VV 扶助) (NP (NP (NNP 德国)) (NP (VV 出口) (SFN 业)))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-说到咬主人的手，岂不是太过分了。
-
-(ROOT (IP (IP (VP (VRD (VV 说) (VV 到)) (NP (CP (CP (IP (VP (VV 咬) (NP (NN 主人)))) (DEC 的))) (NP (NN 手))))) (, ，) (VP (ADVP (RB 岂)) (VP (VC 不是) (VP (ADVP (RB 太过)) (VP (JJ 分) (UH 了))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-欧洲团结甚至不能让其他欧洲人感受到。
-
-(ROOT (IP (NP (NP (NNP 欧洲)) (NP (JJ 团结))) (VP (ADVP (RB 甚至)) (VP (MD 不能) (VP (VV 让) (NP (DP (DT 其他)) (NP (NNP 欧洲)) (NP (SFN 人))) (IP (VP (VRD (VV 感受) (VV 到))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-上周，欧盟各国政府仍在布鲁塞尔争吵，就 50 亿欧元的微不足道的基础设施基金的分配问题而言。
-
-(ROOT (IP (NP (NN 上周)) (, ，) (NP (NP (NNP 欧盟) (NN 各国)) (NP (NN 政府))) (VP (VP (ADVP (RB 仍)) (PP (VV 在) (NP (NNP 布鲁塞尔))) (VP (VV 争吵))) (, ，) (VP (PP (VV 就) (NP (DNP (NP (DNP (NP (DNP (QP (QP (CD 50)) (QP (CD 亿) (CLP (NNP 欧) (CLP (NNB 元))))) (DEC 的)) (IP (VP (ADJP (PFA 微)) (VP (JJ 不足)))) (NP (SFN 道))) (DEC 的)) (NP (NN 基础) (NN 设施) (NN 基金))) (DEC 的)) (NP (NN 分配) (NN 问题)))) (VP (RB 而) (VP (VV 言))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-法国并非唯一一个在欧洲单一市场内部有效扭转公平竞争规则的国家，采取了有针对性的国家刺激措施。
-
-(ROOT (IP (NP (NNP 法国)) (VP (VP (VC 并非) (NP (QP (ADJP (JJ 唯一)) (QP (CD 一) (CLP (NNB 个)))) (CP (CP (IP (VP (PP (IN 在) (NP (NP (NP (NNP 欧洲)) (ADJP (JJ 单一)) (NP (NN 市场))) (NP (NN 内部)))) (ADVP (RB 有效)) (VP (VV 扭转) (NP (JJ 公平) (NN 竞争) (NN 规则))))) (DEC 的))) (NP (NN 国家)))) (, ，) (VP (VV 采取) (AS 了) (NP (CP (CP (IP (VP (VV 有) (NP (VV 针对) (SFN 性)))) (DEC 的))) (NP (NN 国家) (NN 刺激) (NN 措施))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-对于欧洲东部的贫穷亲戚们来说，他们在很大程度上被迫自食其力，尽管富裕的西欧人会很有礼貌地向基金组织求援，要求它给他们更多的钱。
-
-(ROOT (IP (IP (IP (VP (PP (IN 对于) (NP (NP (DNP (NP (NP (NNP 欧洲)) (NP (NN 东部))) (DEC 的)) (ADJP (JJ 贫穷)) (NP (NN 亲戚))) (NP (SFN 们)))) (VP (RB 来) (VP (VV 说))))) (, ，) (NP (PRP 他们)) (VP (PP (IN 在) (LCP (NP (ADJP (JJ 很大)) (NP (NN 程度))) (IN 上))) (VP (BB 被) (VP (VV 迫) (IP (VP (VV 自食) (NN 其力))))))) (, ，) (IP (CP (ADVP (IN 尽管)) (IP (NP (CP (CP (IP (VP (JJ 富裕))) (DEC 的))) (NP (NN 西) (NNP 欧)) (NP (SFN 人))) (VP (MD 会) (VP (DVP (VP (VV 很有) (NP (JJ 礼貌))) (DEV 地)) (PP (IN 向) (NP (NN 基金) (NN 组织))) (VP (VV 求援)))))) (, ，) (VP (VV 要求) (NP (PRP 它)) (IP (VP (PP (VV 给) (NP (PRP 他们))) (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的))) (NP (NN 钱))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'CP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'CP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-奥巴马此次欧洲之行将继续前往北约峰会，然后前往布拉格参加欧盟-美国会议，这次欧洲之行也将关乎外交和安全政策。
-
-(ROOT (IP (IP (NP (NNP 奥巴马)) (VP (VP (NP (ADJP (DT 此次)) (DNP (NP (NNP 欧洲)) (DEC 之)) (NP (RB 行将))) (VP (VV 继续) (VP (VV 前往) (NP (NNP 北约) (NN 峰会))))) (, ，) (VP (ADVP (RB 然后)) (VP (VP (VV 前往) (NP (NNP 布拉格))) (VP (VV 参加) (NP (NP (NNP 欧盟) (HYPH -) (NNP 美国)) (NP (NN 会议)))))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 次))) (DNP (NP (NNP 欧洲)) (DEC 之)) (NP (NN 行))) (VP (ADVP (RB 也)) (ADVP (RB 将)) (VP (VV 关乎) (NP (NP (NN 外交) (CC 和) (NN 安全)) (NP (NN 政策)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+(ROOT (IP (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (NP (QP (CD 一) (CLP (NNB 位))) (CP (CP (IP (VP (JJ 认真))) (DEC 的))) (NP (NN 历史) (NN 学家))) (VP (VV 做出))) (DEC 的))) (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VP (JJ 大胆)) (CC 和) (VP (ADVP (RB 不)) (VP (JJ 寻常))))) (DEC 的))) (NP (NN 选择))))) (, ，) (IP (NP (PRP 他)) (VP (ADVP (RB 几乎)) (ADVP (RB 完全)) (VP (VP (VV 用) (NP (CP (CP (IP (VP (JJ 活泼))) (DEC 的))) (NP (NN 现在) (NN 时态)))) (VP (RB 来) (VP (VV 描述) (NP (NN 历史))))))) (PRN (-LRB- （) (IP (LCP (NP (NN 事实)) (IN 上)) (, ，) (IP (NP (NP (PRP 他)) (VP (PP (IN 在) (NP (DP (DT 那) (CLP (NNB 个))) (CP (CP (IP (NP (JJ 引人)) (VP (NN 注目))) (DEC 的))) (NP (NN 开篇) (NN 部分)))) (, ，) (ADVP (RB 似乎)) (VP (VC 是) (VP (PP (IN 从) (NP (NP (DNP (NP (QP (CD 一) (CLP (NNB 个))) (ADJP (JJ 主要)) (NP (NN 角色))) (DEC 的)) (NP (NN 视角))) (CC 或) (NP (DNP (NP (QP (CD 一) (CLP (NNB 个))) (ADJP (JJ 普通)) (NP (NNP 中国)) (NP (SFN 人))) (DEC 的)) (NP (NN 视角))))) (VP (RB 来) (VP (VV 写) (NP (DP (DT 这) (CLP (NNB 段))) (NP (NN 历史))))))))) (-RRB- ）))) (: ；) (IP (IP (VP (ADVP (IN 虽然)) (ADVP (RB 有时)) (VP (MD 会) (VP (ADVP (RB 略微)) (VP (VV 影响) (NP (VV 注意) (SFN 力)))))) (PRN (-LRB- （) (VP (ADVP (RB 特别)) (ADVP (VC 是)) (PP (IN 当) (IP (IP (NP (PRP 他)) (VP (MD 不得) (VP (VP (VV 不在) (LCP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 叙述))) (IN 中))) (VP (NP (VV 向前) (CC 或) (IN 向)) (ADVP (RB 后)) (VP (VV 跳跃))) (, ，) (VP (VV 离开) (NP (NN 现在) (NN 时态)))))) (, ，) (IP (VP (ADVP (RB 然后)) (ADVP (RB 再)) (VP (VV 回到) (NP (NN 现在) (NN 时态))))) (-RRB- ）)))))) (, ，) (ADVP (RB 但)) (IP (VP (NP (NN 总体)) (VP (RB 而) (VP (VV 言))))) (, ，) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 方式))) (VP (ADVP (RB 非常)) (VP (JJ 有效)))) (, ，) (IP (VP (MD 可以) (VP (VV 让) (NP (NN 读者)) (IP (VP (NP (NN 全身)) (ADVP (RB 心地)) (VP (VV 参与) (NP (NN 故事))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP89818': {}, 'PRN': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, 'PRN': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP53776': {'NP': {}, 'VP': {}}, 'PRN': {'-LRB-': {}, 'IP': {}, ':': {}, 'IP67943': {}, ',': {}, 'IP81503': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, 'PRN': {'-LRB-': {}, 'IP': {}, ':': {}, 'IP': {}, ',': {}, 'IP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+{'PRN': {'-LRB-': {}, 'IP': {}, ':': {}, 'IP': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'nsubj']	['这', '选择', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '选择', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '位', 'nummod']
+['NOUN', 'NOUN', 'clf']	['位', '选择', 'clf']
+['ADJ', 'NOUN', 'amod']	['认真', '学家', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '认真', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['历史', '学家', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['学家', '做出', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['做出', '选择', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '做出', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '选择', 'clf']
+['ADJ', 'NOUN', 'amod']	['大胆', '选择', 'amod']
+['CCONJ', 'ADJ', 'cc']	['和', '寻常', 'cc']
+['ADV', 'ADJ', 'advmod']	['不', '寻常', 'advmod']
+['ADJ', 'ADJ', 'conj']	['寻常', '大胆', 'conj']
+['PART', 'ADJ', 'mark:rel']	['的', '大胆', 'mark:rel']
+['NOUN', 'ROOT', 'root']	['选择', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '描述', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '描述', 'nsubj']
+['ADV', 'VERB', 'advmod']	['几乎', '用', 'advmod']
+['ADV', 'VERB', 'advmod']	['完全', '用', 'advmod']
+['VERB', 'VERB', 'advcl']	['用', '描述', 'advcl']
+['ADJ', 'NOUN', 'amod']	['活泼', '时态', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '活泼', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['现在', '时态', 'nmod']
+['NOUN', 'VERB', 'obj']	['时态', '用', 'obj']
+['ADV', 'VERB', 'mark']	['来', '描述', 'mark']
+['VERB', 'NOUN', 'parataxis']	['描述', '选择', 'parataxis']
+['NOUN', 'VERB', 'obj']	['历史', '描述', 'obj']
+['PUNCT', 'VERB', 'punct']	['（', '是', 'punct']
+['NOUN', 'VERB', 'obl']	['事实', '是', 'obl']
+['ADP', 'NOUN', 'case']	['上', '事实', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '事实', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '是', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '部分', 'case']
+['DET', 'NOUN', 'det']	['那', '个', 'det']
+['NOUN', 'NOUN', 'clf']	['个', '注目', 'clf']
+['ADJ', 'NOUN', 'amod']	['引人', '注目', 'amod']
+['NOUN', 'NOUN', 'nmod']	['注目', '部分', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '注目', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['开篇', '部分', 'nmod']
+['NOUN', 'VERB', 'obl']	['部分', '是', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '部分', 'punct']
+['ADV', 'VERB', 'advmod']	['似乎', '是', 'advmod']
+['VERB', 'VERB', 'advcl']	['是', '描述', 'advcl']
+['ADP', 'NOUN', 'case']	['从', '视角', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '角色', 'clf']
+['ADJ', 'NOUN', 'amod']	['主要', '角色', 'amod']
+['NOUN', 'NOUN', 'nmod']	['角色', '视角', 'nmod']
+['PART', 'NOUN', 'case']	['的', '角色', 'case']
+['NOUN', 'VERB', 'obl']	['视角', '写', 'obl']
+['CCONJ', 'PART', 'cc']	['或', '人', 'cc']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'PART', 'nmod']	['个', '人', 'nmod']
+['ADJ', 'PART', 'amod']	['普通', '人', 'amod']
+['PROPN', 'PART', 'compound']	['中国', '人', 'compound']
+['PART', 'NOUN', 'conj']	['人', '视角', 'conj']
+['PART', 'VERB', 'mark:rel']	['的', '写', 'mark:rel']
+['NOUN', 'NOUN', 'conj']	['视角', '视角', 'conj']
+['ADV', 'VERB', 'mark']	['来', '写', 'mark']
+['VERB', 'VERB', 'xcomp']	['写', '是', 'xcomp']
+['DET', 'NOUN', 'det']	['这', '段', 'det']
+['NOUN', 'NOUN', 'clf']	['段', '历史', 'clf']
+['NOUN', 'VERB', 'obj']	['历史', '写', 'obj']
+['PUNCT', 'VERB', 'punct']	['）', '写', 'punct']
+['PUNCT', 'VERB', 'punct']	['；', '是', 'punct']
+['ADP', 'VERB', 'case']	['虽然', '影响', 'case']
+['ADV', 'VERB', 'advmod']	['有时', '影响', 'advmod']
+['AUX', 'VERB', 'aux']	['会', '影响', 'aux']
+['ADV', 'VERB', 'advmod']	['略微', '影响', 'advmod']
+['VERB', 'VERB', 'xcomp']	['影响', '是', 'xcomp']
+['VERB', 'PART', 'compound']	['注意', '力', 'compound']
+['PART', 'VERB', 'obj']	['力', '影响', 'obj']
+['PUNCT', 'VERB', 'punct']	['（', '影响', 'punct']
+['ADV', 'VERB', 'advmod']	['特别', '是', 'advmod']
+['VERB', 'VERB', 'advcl']	['是', '回到', 'advcl']
+['ADP', 'NOUN', 'case']	['当', '叙述', 'case']
+['PRON', 'VERB', 'nsubj']	['他', '在', 'nsubj']
+['AUX', 'VERB', 'aux']	['得', '在', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['在', '叙述', 'acl:relcl']
+['PRON', 'VERB', 'obj']	['他', '在', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '在', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['叙述', '向前', 'obl']
+['ADP', 'NOUN', 'case']	['中', '叙述', 'case']
+['VERB', 'VERB', 'advcl']	['向前', '是', 'advcl']
+['CCONJ', 'VERB', 'cc']	['或', '跳跃', 'cc']
+['ADP', 'ADV', 'case']	['向', '后', 'case']
+['ADV', 'VERB', 'advmod']	['后', '跳跃', 'advmod']
+['VERB', 'VERB', 'xcomp']	['跳跃', '向前', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '向前', 'punct']
+['VERB', 'VERB', 'advcl']	['离开', '回到', 'advcl']
+['NOUN', 'NOUN', 'nmod']	['现在', '时态', 'nmod']
+['NOUN', 'VERB', 'obj']	['时态', '离开', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '离开', 'punct']
+['ADV', 'VERB', 'advmod']	['然后', '回到', 'advmod']
+['ADV', 'VERB', 'advmod']	['再', '回到', 'advmod']
+['VERB', 'VERB', 'advcl']	['回到', '言', 'advcl']
+['NOUN', 'NOUN', 'nmod']	['现在', '时态', 'nmod']
+['NOUN', 'VERB', 'obj']	['时态', '回到', 'obj']
+['PUNCT', 'VERB', 'punct']	['）', '回到', 'punct']
+['PUNCT', 'VERB', 'punct']	['，', '回到', 'punct']
+['ADV', 'VERB', 'mark']	['但', '言', 'mark']
+['NOUN', 'VERB', 'obl']	['总体', '言', 'obl']
+['ADV', 'VERB', 'mark']	['而', '言', 'mark']
+['VERB', 'VERB', 'advcl']	['言', '让', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '言', 'punct']
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '方式', 'clf']
+['NOUN', 'ADJ', 'nsubj']	['方式', '有效', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['非常', '有效', 'advmod']
+['ADJ', 'VERB', 'advcl']	['有效', '让', 'advcl']
+['PUNCT', 'ADJ', 'punct']	['，', '有效', 'punct']
+['AUX', 'VERB', 'aux']	['可以', '让', 'aux']
+['VERB', 'NOUN', 'parataxis']	['让', '选择', 'parataxis']
+['NOUN', 'VERB', 'nsubj']	['读者', '参与', 'nsubj']
+['NOUN', 'VERB', 'obl']	['全身', '参与', 'obl']
+['ADV', 'VERB', 'advmod']	['心地', '参与', 'advmod']
+['VERB', 'VERB', 'ccomp']	['参与', '让', 'ccomp']
+['NOUN', 'VERB', 'obj']	['故事', '参与', 'obj']
+['PUNCT', 'NOUN', 'punct']	['。', '选择', 'punct']
 ----------------------------------------------------------------------
-欧洲在这方面甚至更不是一个玩家。
+对于这样一个严肃的主题，这本书的阅读非常容易，也很有趣。
 
-(ROOT (IP (NP (NNP 欧洲)) (VP (PP (IN 在) (NP (DP (DT 这)) (NP (NN 方面)))) (ADVP (RB 甚至)) (ADVP (RB 更)) (VP (VC 不是) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 玩家))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'PP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-归根结底，欧洲人在与伊朗的外交上已经达成一致，尽管还不得而知这种欧洲团结是否能够在美国要求对德黑兰实施更多经济制裁时继续下去。
-
-(ROOT (IP (NP (VV 归根) (VV 结底)) (, ，) (NP (NP (NNP 欧洲)) (NP (SFN 人))) (VP (PP (IN 在) (IP (VP (PP (IN 与) (LCP (NP (DNP (NP (NNP 伊朗)) (DEC 的)) (NP (NN 外交))) (IN 上))) (ADVP (RB 已经)) (VP (VV 达成) (NP (NN 一致)))))) (, ，) (VP (ADVP (IN 尽管)) (ADVP (RB 还)) (VP (VP (MD 不得)) (VP (RB 而) (VP (VV 知) (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NNP 欧洲)) (NP (NN 团结))) (VP (ADVP (VC 是否)) (VP (MD 能够) (VP (PP (IN 在) (LCP (IP (NP (NNP 美国)) (VP (VV 要求) (IP (VP (PP (IN 对) (NP (NNP 德黑兰))) (VP (VV 实施) (NP (ADJP (JJ 更多)) (NP (NN 经济) (NN 制裁)))))))) (IN 时))) (VP (VRD (VV 继续) (VV 下去)))))))))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'VV': {}, 'VV': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'VV': {}, 'VV': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'PP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在奥巴马议程上的其他大部分问题上，阿富汗、巴基斯坦、与俄罗斯和中国的关系、核扩散问题，欧洲都没有。
-
-(ROOT (IP (LCP (NP (DNP (PP (IN 在) (LCP (NP (NP (NNP 奥巴马)) (NP (NN 议程))) (IN 上))) (DEC 的)) (DP (DT 其他)) (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (NN 问题))) (IN 上)) (, ，) (NP (NP (DNP (NP (NNP 阿富汗) (EC 、) (NNP 巴基斯坦) (EC 、) (CC 与) (NNP 俄罗斯) (CC 和) (NNP 中国)) (DEC 的)) (NP (NN 关系))) (EC 、) (NP (NP (NN 核) (NN 扩散)) (NP (NN 问题)))) (, ，) (NP (NNP 欧洲)) (VP (ADVP (RB 都)) (VP (VV 没有))) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'NP': {}, 'EC': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'LCP': {'NP': {}, 'IN': {}}}
-{'NP': {'NP': {}, 'EC': {}, 'NP': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-欧洲有个别国家。
-
-(ROOT (IP (NP (NNP 欧洲)) (VP (VV 有) (NP (ADJP (JJ 个别)) (NP (NN 国家)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, 'NP': {}}}
-----------------------------------------------------------------------
-与第一任期伊始的乔治·W·布什不同，奥巴马总统在意识形态和实践两方面都有意与一个更强大、更团结的欧洲合作。
-
-(ROOT (IP (IP (VP (PP (IN 与) (NP (CP (CP (IP (NP (QP (CD 第一)) (NP (NN 任期))) (VP (NN 伊始))) (DEC 的))) (NP (NNP 乔治) (/ ·) (FW W) (/ ·) (NNP 布什)))) (VP (JJ 不同)))) (, ，) (NP (NNP 奥巴马) (NN 总统)) (VP (PP (IN 在) (NP (NP (NN 意识) (NN 形态) (CC 和) (NN 实践)) (QP (CD 两)) (NP (NN 方面)))) (ADVP (RB 都)) (VP (VV 有意) (IP (VP (PP (IN 与) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VP (ADVP (RB 更)) (VP (JJ 强大))) (EC 、) (VP (ADVP (RB 更)) (VP (JJ 团结))))) (DEC 的))) (NP (NNP 欧洲)))) (VP (VV 合作)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'NNP': {}, 'NN': {}}}
-{'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-但是，即使是他也无法与不存在的东西合作。
-
-(ROOT (IP (ADVP (RB 但是)) (, ，) (VP (ADVP (IN 即使)) (VP (VC 是) (IP (NP (PRP 他)) (VP (ADVP (RB 也)) (ADVP (VV 无法)) (PP (IN 与) (NP (CP (CP (IP (VP (ADVP (RB 不)) (VP (VV 存在)))) (DEC 的))) (NP (NN 东西)))) (VP (VV 合作)))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-回顾过去，人们开始意识到，欧洲已经花费了十年的最佳时间，但仍然未能团结起来。
-
-(ROOT (IP (IP (VP (VV 回顾) (NP (NN 过去)))) (, ，) (NP (NN 人们)) (VP (VV 开始) (VP (VRD (VV 意识) (VV 到)) (, ，) (IP (NP (NNP 欧洲)) (VP (VP (ADVP (RB 已经)) (VP (VV 花费) (AS 了) (NP (DNP (QP (CD 十) (CLP (NNB 年))) (DEC 的)) (ADJP (JJ 最佳)) (NP (NN 时间))))) (, ，) (VP (ADVP (RB 但)) (ADVP (RB 仍然)) (VP (MD 未能) (VP (VRD (VV 团结) (VV 起来))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'VV': {}, 'VP': {}}}
-----------------------------------------------------------------------
-一个以雄心勃勃的欧洲宪法计划开始的十年，以一个远远不及欧盟宪法雄心的里斯本条约的命运结束，这个条约的命运就在于民主的疑点之中，即在于是否能够说服爱尔兰人民把“不”改成“是”。
-
-(ROOT (IP (IP (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (PP (VV 以) (NP (CP (CP (IP (NP (JJ 雄心)) (VP (JJ 勃勃))) (DEC 的))) (NP (NNP 欧洲)) (NP (NN 宪法) (NN 计划)))) (VP (VV 开始)))) (DEC 的))) (QP (CD 十) (CLP (NNB 年)))) (, ，) (VP (PP (VV 以) (NP (DNP (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 远远)) (VP (VV 不及) (NP (NP (NP (NNP 欧盟)) (NP (NN 宪法))) (NP (NN 雄心)))))) (DEC 的))) (NP (NNP 里斯本)) (NP (NN 条约))) (DEC 的)) (NP (NN 命运)))) (VP (VV 结束)))) (, ，) (IP (NP (DNP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 条约))) (DEC 的)) (NP (NN 命运))) (VP (ADVP (RB 就)) (VP (VV 在) (PP (VV 于) (LCP (NP (DNP (NP (NN 民主)) (DEC 的)) (NP (NN 疑点))) (IN 之中)))))) (, ，) (IP (VP (ADVP (RB 即)) (VP (VV 在) (PP (VV 于) (IP (VP (ADVP (VC 是否)) (VP (MD 能够) (VP (VV 说服) (NP (NP (NNP 爱尔兰)) (NP (NN 人民))) (IP (VP (BB 把) (IP (NP (`` “) (RB 不) ('' ”)) (VP (VV 改成) (NP (`` “) (VC 是) ('' ”)))))))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-如果我们在宪法辩论中浪费的时间只占用了一半，我们就可以根据现有条约更好地协调我们的行动，我们现在的情况会更好。
-
-(ROOT (IP (IP (CP (ADVP (IN 如果)) (IP (NP (CP (CP (IP (NP (PRP 我们)) (VP (PP (IN 在) (LCP (NP (NN 宪法) (NN 辩论)) (IN 中))) (VP (VV 浪费)))) (DEC 的))) (NP (NN 时间))) (VP (ADVP (RB 只)) (VP (VV 占用) (AS 了) (QP (CD 一半)))))) (, ，) (NP (PRP 我们)) (VP (ADVP (RB 就)) (VP (MD 可以) (VP (PP (IN 根据) (NP (ADJP (NN 现有)) (NP (NN 条约)))) (DVP (VP (JJ 更好)) (DEV 地)) (VP (VV 协调) (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NN 行动)))))))) (, ，) (IP (NP (NP (PRP 我们)) (DNP (NP (NN 现在)) (DEC 的)) (NP (NN 情况))) (VP (MD 会) (VP (JJ 更好)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-欧洲在说，但却没有做。
-
-(ROOT (IP (NP (NNP 欧洲)) (VP (VP (ADVP (VV 在)) (VP (VV 说))) (, ，) (VP (ADVP (RB 但)) (ADVP (RB 却)) (VP (VV 没有) (VP (VV 做))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-欧盟每个成员国都对这场灾难负有一定的责任，布鲁塞尔的机构领导人也是如此。但是，三个最大的成员国应该承担更大的责任。
-
-(ROOT (IP (IP (NP (NP (NNP 欧盟)) (DP (DT 每个)) (NP (NN 成员) (SFN 国))) (VP (ADVP (RB 都)) (PP (IN 对) (NP (DP (DT 这) (CLP (NNB 场))) (NP (NN 灾难)))) (VP (VV 负有) (NP (DNP (ADJP (JJ 一定)) (DEC 的)) (NP (NN 责任)))))) (, ，) (IP (NP (DNP (NP (NNP 布鲁塞尔)) (DEC 的)) (NP (NN 机构) (VV 领导) (SFN 人))) (VP (VC 也是) (NP (VV 如此)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-法国的“不”杀死了原来的宪法条约。
-
-(ROOT (IP (NP (DNP (NP (NNP 法国)) (DEC 的)) (NP (`` “) (RB 不) ('' ”))) (VP (VV 杀死) (AS 了) (NP (DNP (ADJP (RB 原来)) (DEC 的)) (NP (NN 宪法) (NN 条约)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+(ROOT (IP (PP (IN 对于) (NP (QP (ADVP (PRD 这样)) (QP (CD 一) (CLP (NNB 个)))) (CP (CP (IP (VP (JJ 严肃))) (DEC 的))) (NP (NN 主题)))) (, ，) (NP (DNP (NP (DP (DT 这)) (NP (NN 本书))) (DEC 的)) (NP (NN 阅读))) (VP (VP (ADVP (RB 非常)) (VP (JJ 容易))) (, ，) (VP (ADVP (RB 也)) (ADVP (RB 很)) (VP (JJ 有趣)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP16280': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
 {'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
-----------------------------------------------------------------------
-1997 年，英国新工党政府上台，承诺开启英国与欧洲关系的新纪元。
-
-(ROOT (IP (NP (CD 1997) (NNB 年)) (, ，) (NP (NP (NP (NNP 英国)) (ADJP (PFA 新)) (NP (NN 工党))) (NP (NN 政府))) (VP (VP (VV 上台)) (, ，) (VP (VV 承诺) (IP (VP (VV 开启) (NP (DNP (NP (NP (NNP 英国) (CC 与) (NNP 欧洲)) (NP (NN 关系))) (DEC 的)) (ADJP (PFA 新)) (NP (NN 纪元))))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
 {'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['对于', '主题', 'case']
+['PRON', 'NOUN', 'nmod']	['这样', '主题', 'nmod']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '主题', 'clf']
+['ADJ', 'NOUN', 'amod']	['严肃', '主题', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '严肃', 'mark:rel']
+['NOUN', 'ADJ', 'nmod']	['主题', '容易', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['，', '主题', 'punct']
+['DET', 'NOUN', 'det']	['这', '本书', 'det']
+['NOUN', 'NOUN', 'nmod']	['本书', '阅读', 'nmod']
+['PART', 'NOUN', 'case']	['的', '本书', 'case']
+['NOUN', 'ADJ', 'nsubj']	['阅读', '容易', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['非常', '容易', 'advmod']
+['ADJ', 'ADJ', 'advcl']	['容易', '有趣', 'advcl']
+['PUNCT', 'ADJ', 'punct']	['，', '有趣', 'punct']
+['ADV', 'ADJ', 'mark']	['也', '有趣', 'mark']
+['ADV', 'ADJ', 'advmod']	['很', '有趣', 'advmod']
+['ADJ', 'ROOT', 'root']	['有趣', 'NONE', 'root']
+['PUNCT', 'ADJ', 'punct']	['。', '有趣', 'punct']
 ----------------------------------------------------------------------
-相反，英国又回到了以往的样子，宁愿在华盛顿的后面跑，不愿意站在欧洲乐队的前排。
+故事的中心是一个来自中国南方一个相当贫穷的家庭的年轻人鸿秀全的形象，他一生都致力于研究儒家经典，以便通过闻名遐迩的严格的帝国考试体系，获得公务员的职位。
 
-(ROOT (IP (ADVP (VV 相反)) (, ，) (NP (NNP 英国)) (VP (VP (ADVP (RB 又)) (VP (VV 回到) (AS 了) (NP (DNP (NP (NN 以往)) (DEC 的)) (NP (NN 样子))))) (, ，) (VP (VV 宁愿) (IP (VP (PP (VV 在) (NP (DNP (NP (NNP 华盛顿)) (DEC 的)) (NP (NN 后面)))) (VP (VV 跑))))) (, ，) (VP (ADVP (RB 不)) (VP (MD 愿意) (IP (VP (VV 站) (PP (VV 在) (NP (DNP (NP (NP (NNP 欧洲)) (NP (NN 乐队))) (DEC 的)) (NP (NN 前排))))))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'VV': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}}, '.': {}}}
-{'ADVP': {'VV': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}}}
-----------------------------------------------------------------------
-英国首相在欧洲议会发言时表示，英国“不是一个与欧洲隔绝的岛国，而是一个位于欧洲中心的国家”。
-
-(ROOT (IP (NP (NP (NNP 英国)) (NP (NN 首相))) (VP (LCP (IP (VP (PP (IN 在) (NP (NNP 欧洲) (NN 议会))) (VP (VV 发言)))) (IN 时)) (VP (VV 表示) (, ，) (IP (NP (NNP 英国)) (VP (`` “) (VC 不是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (PP (IN 与) (NP (NNP 欧洲))) (VP (VV 隔绝)))) (DEC 的))) (NP (NN 岛国))) (, ，) (VP (VC 而是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 位) (PP (VV 于) (NP (NP (NNP 欧洲)) (NP (NN 中心)))))) (DEC 的))) (NP (NN 国家)))) ('' ”))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'LCP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'LCP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-那么，请你自己说一说。我怀疑大多数英国人是这样的。
-
-(ROOT (IP (ADVP (RB 那么)) (, ，) (VP (VV 请) (NP (PRP 你) (PRD 自己)) (IP (VP (VV 说) (IP (VP (ADVP (CD 一)) (VP (NN 说))))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
-----------------------------------------------------------------------
-的确，受戈登·布朗的启发，我邀请了一位民意调查人员向英国民众提出这个具体问题：“你认为英国是欧洲中心的国家吗？”即使这是英国“自己的看法”，也不代表欧洲或其他地区的人们也这样认为。
-
-(ROOT (IP (IP (ADVP (RB 的确)) (, ，) (IP (VP (VV 受) (NP (DNP (NP (NNP 戈登) (/ ·) (NNP 布朗)) (DEC 的)) (NP (NN 启发))))) (, ，) (NP (PRP 我)) (VP (VV 邀请) (AS 了) (NP (QP (CD 一) (CLP (NNB 位))) (NP (NN 民意) (NN 调查) (NN 人员))) (IP (VP (PP (IN 向) (NP (NP (NNP 英国)) (NP (NN 民众)))) (VP (VV 提出) (NP (DP (DT 这) (CLP (NNB 个))) (ADJP (JJ 具体)) (NP (NN 问题)))))))) (: ：) (IP (`` “) (NP (PRP 你)) (VP (VV 认为) (IP (NP (NNP 英国)) (VP (VC 是) (NP (DNP (NP (NP (NNP 欧洲)) (NP (NN 中心))) (DEC 的)) (NP (NN 国家)))))) (UH 吗)) (. ？) ('' ”)))
-{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}, "''": {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP': {'``': {}, 'NP': {}, 'VP': {}, 'UH': {}}, '.': {}, "''": {}}}
-{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'``': {}, 'NP': {}, 'VP': {}, 'UH': {}}}
-----------------------------------------------------------------------
-如果保守党赢得下一次大选，英国对欧洲的参与将进一步减少。
-
-(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (JJ 保守) (SFN 党)) (VP (VV 赢得) (NP (DP (DT 下) (QP (CD 一) (CLP (NNB 次)))) (NP (NN 大选)))))) (, ，) (NP (NP (NNP 英国)) (DNP (PP (IN 对) (NP (NNP 欧洲))) (DEC 的)) (NP (NN 参与))) (VP (ADVP (RB 将)) (VP (VP (VV 进) (QP (CD 一) (CLP (NNB 步)))) (VP (VV 减少)))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'NP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'NP': {'NP': {}, 'DNP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-如果没有英国，欧洲就不可能有严肃的外交政策。
-
-(ROOT (IP (IP (VP (ADVP (IN 如果)) (VP (VV 没有) (NP (NNP 英国))))) (, ，) (NP (NNP 欧洲)) (VP (ADVP (RB 就)) (ADVP (RB 不)) (VP (MD 可能) (VP (VV 有) (NP (CP (CP (IP (VP (JJ 严肃))) (DEC 的))) (NP (NN 外交) (NN 政策)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-然而，最大的变化在德国。
-
-(ROOT (IP (ADVP (RB 然而)) (, ，) (NP (CP (CP (IP (VP (JJ 最大))) (DEC 的))) (NP (NN 变化))) (VP (PP (VV 在) (NP (NNP 德国)))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'PP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'PP': {}}}
-----------------------------------------------------------------------
-十年前，时任德国总理的赫尔穆特·施密特·科尔刚刚卸任，德国仍是最积极致力于欧洲统一的主要欧洲国家。
-
-(ROOT (IP (IP (LCP (QP (CD 十) (CLP (NNB 年))) (IN 前)) (, ，) (NP (DNP (NP (ADJP (VV 时任)) (NP (NNP 德国)) (NP (NN 总理))) (DEC 的)) (NP (NNP 赫尔穆特) (/ ·) (NNP 施密特) (/ ·) (NNP 科尔))) (VP (ADVP (RB 刚刚)) (VP (VV 卸任)))) (, ，) (IP (NP (NNP 德国)) (VP (VC 仍是) (NP (CP (CP (IP (VP (ADVP (RB 最)) (ADVP (RB 积极)) (VP (VV 致力) (PP (VV 于) (NP (NP (NNP 欧洲)) (NP (VV 统一))))))) (DEC 的))) (ADJP (JJ 主要)) (NP (NNP 欧洲)) (NP (NN 国家))))) (. 。)))
+(ROOT (IP (IP (NP (DNP (NP (NN 故事)) (DEC 的)) (NP (NN 中心))) (VP (VC 是) (NP (DNP (NP (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 来) (PP (VV 自) (NP (NP (NP (NNP 中国)) (NP (NN 南方))) (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 相当)) (VP (JJ 贫穷)))) (DEC 的))) (NP (NN 家庭)))))) (DEC 的))) (ADJP (JJ 年轻)) (NP (SFN 人))) (NP (NNP 鸿) (NNP 秀全))) (DEC 的)) (NP (NN 形象))))) (, ，) (IP (NP (PRP 他)) (VP (VP (QP (CD 一) (CLP (NN 生))) (ADVP (RB 都)) (VP (VV 致力) (PP (VV 于) (IP (VP (VV 研究) (NP (NNP 儒) (SFN 家) (NN 经典))))))) (, ，) (VP (RB 以) (VP (ADVP (VV 便)) (PP (IN 通过) (NP (CP (CP (IP (VP (VV 闻名) (NP (NN 遐迩)))) (DEC 的))) (CP (CP (IP (VP (JJ 严格))) (DEC 的))) (NP (NN 帝国) (NN 考试) (NN 体系)))) (, ，) (VP (VV 获得) (NP (DNP (NP (NN 公务) (SFN 员)) (DEC 的)) (NP (NN 职位)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP89278': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP35537': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['故事', '中心', 'nmod']
+['PART', 'NOUN', 'case']	['的', '故事', 'case']
+['NOUN', 'NOUN', 'nsubj']	['中心', '形象', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '形象', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '形象', 'clf']
+['VERB', 'NOUN', 'acl:relcl']	['来', '形象', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['自', '来', 'mark']
+['PROPN', 'NOUN', 'nmod']	['中国', '南方', 'nmod']
+['NOUN', 'VERB', 'obj']	['南方', '来', 'obj']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '家庭', 'clf']
+['ADV', 'ADJ', 'advmod']	['相当', '贫穷', 'advmod']
+['ADJ', 'NOUN', 'amod']	['贫穷', '家庭', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '贫穷', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['家庭', '来', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '来', 'mark:rel']
+['ADJ', 'PART', 'compound']	['年轻', '人', 'compound']
+['PART', 'NOUN', 'nmod']	['人', '形象', 'nmod']
+['PROPN', 'PART', 'appos']	['鸿', '人', 'appos']
+['PROPN', 'PROPN', 'flat:name']	['秀全', '鸿', 'flat:name']
+['PART', 'PROPN', 'case']	['的', '鸿', 'case']
+['NOUN', 'ROOT', 'root']	['形象', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '获得', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '获得', 'nsubj']
+['NUM', 'NOUN', 'nummod']	['一', '生', 'nummod']
+['NOUN', 'VERB', 'obl']	['生', '致力', 'obl']
+['ADV', 'VERB', 'mark']	['都', '致力', 'mark']
+['VERB', 'VERB', 'advcl']	['致力', '便', 'advcl']
+['VERB', 'VERB', 'mark']	['于', '致力', 'mark']
+['VERB', 'VERB', 'xcomp']	['研究', '致力', 'xcomp']
+['PROPN', 'PART', 'compound']	['儒', '家', 'compound']
+['PART', 'NOUN', 'nmod']	['家', '经典', 'nmod']
+['NOUN', 'VERB', 'obj']	['经典', '研究', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '致力', 'punct']
+['ADV', 'VERB', 'mark']	['以', '便', 'mark']
+['VERB', 'VERB', 'advcl']	['便', '获得', 'advcl']
+['ADP', 'NOUN', 'case']	['通过', '体系', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['闻名', '体系', 'acl:relcl']
+['NOUN', 'VERB', 'obj']	['遐迩', '闻名', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '闻名', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['严格', '体系', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '严格', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['帝国', '体系', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['考试', '体系', 'nmod']
+['NOUN', 'VERB', 'obl']	['体系', '便', 'obl']
+['PUNCT', 'VERB', 'punct']	['，', '便', 'punct']
+['VERB', 'NOUN', 'parataxis']	['获得', '形象', 'parataxis']
+['NOUN', 'PART', 'compound']	['公务', '员', 'compound']
+['PART', 'NOUN', 'nmod']	['员', '职位', 'nmod']
+['PART', 'PART', 'case']	['的', '员', 'case']
+['NOUN', 'VERB', 'obj']	['职位', '获得', 'obj']
+['PUNCT', 'NOUN', 'punct']	['。', '形象', 'punct']
+----------------------------------------------------------------------
+在第二次考试失利后，他感到发烧，在病榻上闷闷不乐时，他梦见了一个非常漫长、生动、详细的梦，他去了“天堂”，遇到了“上帝”，并与一群“魔鬼恶煞”进行了一场大战。
+
+(ROOT (IP (IP (LCP (IP (PP (IN 在) (LCP (IP (NP (QP (CD 第二) (CLP (NNB 次))) (NP (NN 考试))) (VP (VV 失利))) (IN 后))) (, ，) (NP (PRP 他)) (VP (VP (VV 感到) (NP (VV 发烧))) (, ，) (VP (PP (VV 在) (LCP (NP (NN 病榻)) (NN 上))) (VP (VCD (JJ 闷闷) (VV 不乐)))))) (IN 时)) (, ，) (NP (PRP 他)) (VP (ADVP (NNP 梦)) (VP (VV 见) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 非常)) (VP (JJ 漫长) (EC 、) (JJ 生动) (EC 、) (JJ 详细)))) (DEC 的))) (NP (NN 梦)))))) (, ，) (IP (NP (PRP 他)) (VP (VP (VV 去) (AS 了) (NP (`` “) (NN 天堂) ('' ”))) (, ，) (VP (VV 遇到) (AS 了) (NP (`` “) (NN 上帝) ('' ”))) (, ，) (RB 并) (VP (PP (IN 与) (NP (QP (CD 一) (CLP (NNB 群))) (IP (`` “) (NP (NN 魔鬼)) (ADJP (JJ 恶)) (NP (SFN 煞)) ('' ”)))) (VP (VV 进行) (AS 了) (NP (QP (CD 一) (CLP (NNB 场))) (NP (NN 大战))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP56682': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP70117': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['在', '失利', 'case']
+['NUM', 'NOUN', 'nummod']	['第二', '次', 'nummod']
+['NOUN', 'NOUN', 'clf']	['次', '考试', 'clf']
+['NOUN', 'VERB', 'nsubj']	['考试', '失利', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['失利', '感到', 'ccomp']
+['ADP', 'VERB', 'mark']	['后', '失利', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '失利', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '感到', 'nsubj']
+['VERB', 'ROOT', 'root']	['感到', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['发烧', '感到', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '见', 'punct']
+['VERB', 'VERB', 'advcl']	['在', '乐', 'advcl']
+['NOUN', 'VERB', 'obj']	['病榻', '在', 'obj']
+['NOUN', 'NOUN', 'acl']	['上', '病榻', 'acl']
+['ADJ', 'VERB', 'advcl']	['闷闷', '乐', 'advcl']
+['VERB', 'VERB', 'advcl']	['乐', '见', 'advcl']
+['ADP', 'VERB', 'mark']	['时', '乐', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '乐', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '见', 'nsubj']
+['PROPN', 'PRON', 'appos']	['梦', '他', 'appos']
+['VERB', 'VERB', 'parataxis']	['见', '感到', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '见', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '梦', 'clf']
+['ADV', 'ADJ', 'advmod']	['非常', '漫长', 'advmod']
+['ADJ', 'NOUN', 'amod']	['漫长', '梦', 'amod']
+['PUNCT', 'ADJ', 'punct']	['、', '生动', 'punct']
+['ADJ', 'ADJ', 'conj']	['生动', '漫长', 'conj']
+['PUNCT', 'ADJ', 'punct']	['、', '详细', 'punct']
+['ADJ', 'ADJ', 'conj']	['详细', '漫长', 'conj']
+['PART', 'ADJ', 'mark:rel']	['的', '漫长', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['梦', '见', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '进行', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '进行', 'nsubj']
+['VERB', 'VERB', 'advcl']	['去', '进行', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '去', 'aux']
+['PUNCT', 'NOUN', 'punct']	['“', '天堂', 'punct']
+['NOUN', 'VERB', 'obj']	['天堂', '去', 'obj']
+['PUNCT', 'NOUN', 'punct']	['”', '天堂', 'punct']
+['PUNCT', 'VERB', 'punct']	['，', '去', 'punct']
+['VERB', 'VERB', 'advcl']	['遇到', '进行', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '遇到', 'aux']
+['PUNCT', 'NOUN', 'punct']	['“', '上帝', 'punct']
+['NOUN', 'VERB', 'obj']	['上帝', '遇到', 'obj']
+['PUNCT', 'NOUN', 'punct']	['”', '上帝', 'punct']
+['PUNCT', 'VERB', 'punct']	['，', '遇到', 'punct']
+['ADV', 'VERB', 'mark']	['并', '进行', 'mark']
+['ADP', 'PART', 'case']	['与', '煞', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '群', 'nummod']
+['NOUN', 'PART', 'nmod']	['群', '煞', 'nmod']
+['PUNCT', 'PART', 'punct']	['“', '煞', 'punct']
+['NOUN', 'PART', 'nmod']	['魔鬼', '煞', 'nmod']
+['ADJ', 'PART', 'compound']	['恶', '煞', 'compound']
+['PART', 'VERB', 'obl']	['煞', '进行', 'obl']
+['PUNCT', 'PART', 'punct']	['”', '煞', 'punct']
+['VERB', 'VERB', 'parataxis']	['进行', '感到', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '进行', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '场', 'nummod']
+['NOUN', 'NOUN', 'clf']	['场', '大战', 'clf']
+['NOUN', 'VERB', 'obj']	['大战', '进行', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '感到', 'punct']
 ----------------------------------------------------------------------
-然而，右翼和左翼的声音却表示德国现在应该走出阴影，成为一个“正常”的国家——这意味着更像法国和英国。
+直到几年后，他在阅读一本外国书籍时才明白了这个梦的意义，这本书是中译本的圣经论著，最近才开始在国内流通。
 
-(ROOT (IP (ADVP (RB 然而)) (, ，) (NP (DNP (NP (NN 右翼) (CC 和) (NN 左翼)) (DEC 的)) (NP (NN 声音))) (VP (ADVP (RB 却)) (VP (VV 表示) (IP (IP (NP (NNP 德国)) (VP (NP (NN 现在)) (VP (MD 应该) (VP (VP (VV 走出) (NP (NN 阴影))) (, ，) (VP (VV 成) (VP (VC 为) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (`` “) (JJ 正常) ('' ”))) (DEC 的))) (NP (NN 国家))))))))) (HYPH —) (HYPH —) (IP (NP (PRD 这)) (VP (VV 意味) (AS 着) (IP (VP (ADVP (RB 更)) (VP (PP (VV 像) (NP (NNP 法国) (CC 和) (NNP 英国))))))))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-十年后，这些呼声已经获得了胜利。今天的柏林共和国毫不犹豫地把短期国家利益放在第一位。
-
-(ROOT (IP (LCP (QP (CD 十) (CLP (NNB 年))) (IN 后)) (, ，) (NP (DP (DT 这些)) (NP (NN 呼声))) (VP (ADVP (RB 已经)) (VP (VV 获得) (AS 了) (NP (NN 胜利)))) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'QP': {}, 'IN': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'LCP': {'QP': {}, 'IN': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这可能不是默克尔个人的偏好。
-
-(ROOT (IP (NP (PRD 这)) (VP (MD 可能) (VP (VC 不是) (NP (DNP (NP (NP (NNP 默克尔)) (QP (NNB 个)) (NP (NN 人))) (DEC 的)) (NP (NN 偏好))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRD': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRD': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
-----------------------------------------------------------------------
-但在选举年，竞选激烈；而这场竞选不会由那些建议为了更大的欧洲或西方利益而牺牲一个德国工作岗位、一枚欧元或一名士兵的政客赢得。
-
-(ROOT (IP (IP (ADVP (RB 但)) (PP (IN 在) (NP (VV 选举) (SFN 年))) (, ，) (NP (VV 竞选)) (VP (JJ 激烈))) (: ；) (IP (ADVP (RB 而)) (NP (DP (DT 这) (CLP (NNB 场))) (NP (NN 竞选))) (VP (MD 不会) (VP (PP (VV 由) (NP (DP (DT 那些)) (NP (VV 建议)))) (PP (IN 为) (PP (AS 了) (NP (CP (CP (IP (VP (JJ 更大))) (DEC 的))) (NP (NNP 欧洲) (CC 或) (NNP 西方)) (NP (NN 利益))))) (VP (RB 而) (VP (VV 牺牲) (IP (NP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NNP 德国)) (NP (VV 工作) (SFN 岗) (SFN 位))) (EC 、) (NP (QP (CD 一) (CLP (NNB 枚))) (DNP (NP (NP (NP (NNP 欧)) (NP (SFN 元))) (CC 或) (NP (QP (CD 一) (CLP (NNB 名))) (NP (NN 士兵)))) (DEC 的)) (NP (NN 政客)))) (VP (VV 赢得)))))))) (. 。)))
-{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-“我们要为他们支付保释金？”基督教社会联盟 (Christian Social Union) 的默克尔盟友们呼喊着，他们在巴伐利亚为自己的政治生命而斗争。
-
-(ROOT (IP (IP (`` “) (NP (PRP 我们)) (VP (MD 要) (VP (PP (IN 为) (NP (PRP 他们))) (VP (VV 支付) (NP (VV 保释) (SFN 金))))) (. ？) ('' ”)) (IP (NP (DNP (NP (NP (NNP 基督) (SFN 教) (NN 社会) (NN 联盟)) (NP (FW -LRB-Christian) (FW Social) (FW Union-RRB-))) (DEC 的)) (NP (NNP 默克尔)) (NP (NN 盟友) (SFN 们))) (VP (VV 呼喊) (AS 着))) (, ，) (IP (NP (PRP 他们)) (VP (PP (VV 在) (NP (NNP 巴伐利亚))) (PP (IN 为) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 政治) (NN 生命)))) (VP (RB 而) (VP (VV 斗争))))) (. 。)))
-{'IP': {'IP': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-面对一个自称为“左派”的党派的民粹主义挑战，社会民主党的表现也不妙。
-
-(ROOT (IP (IP (VP (VV 面对) (NP (DNP (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 自称) (IP (VP (VC 为) (NP (`` “) (NN 左派) ('' ”)))))) (DEC 的))) (NP (NN 党派))) (DEC 的)) (NP (NN 民粹) (NN 主义) (NN 挑战))))) (, ，) (NP (DNP (NP (NN 社会) (NN 民主) (SFN 党)) (DEC 的)) (NP (NN 表现))) (VP (ADVP (RB 也)) (VP (JJ 不妙))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-法国和英国这样做，这什么都不新奇。
-
-(ROOT (IP (IP (NP (NNP 法国) (CC 和) (NNP 英国)) (VP (ADVP (RB 这样)) (VP (VV 做)))) (, ，) (NP (PRD 这)) (NP (WP 什么)) (VP (ADVP (RB 都)) (ADVP (RB 不)) (VP (JJ 新奇))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'NP': {'PRD': {}}, 'NP': {'WP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'NP': {'PRD': {}}}
-{'NP': {'WP': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-新的是德国现在像法国和英国一样行事。
-
-(ROOT (IP (NP (CP (CP (IP (VP (JJ 新))) (DEC 的)))) (VP (VC 是) (IP (NP (NNP 德国)) (VP (IP (VP (NP (NN 现在)) (PP (IN 像) (NP (NNP 法国) (CC 和) (NNP 英国))) (VP (JJ 一样)))) (VP (VV 行事))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
-{'NP': {'CP': {}}}
-{'VP': {'VC': {}, 'IP': {}}}
-----------------------------------------------------------------------
-在这种星座中，美国人和中国人都不认为欧洲是一个单一、一致的伙伴。
-
-(ROOT (IP (PP (IN 在) (LCP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 星座))) (IN 中))) (, ，) (NP (NP (NP (NNP 美国)) (NP (SFN 人))) (CC 和) (NP (NP (NNP 中国)) (NP (SFN 人)))) (VP (ADVP (RB 都)) (ADVP (RB 不)) (VP (VV 认为) (IP (NP (NNP 欧洲)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 单一) (EC 、) (JJ 一致))) (DEC 的))) (NP (NN 伙伴))))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'CC': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'NP': {}, 'CC': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-二十国集团似乎正在逐渐被接受为全球集体行动的新体制框架，至少在金融和经济政策方面。但它只是一个框架。
-
-(ROOT (IP (NP (NP (QP (CD 二十)) (NP (NN 国))) (NP (NN 集团))) (VP (VP (ADVP (RB 似乎)) (ADVP (RB 正)) (ADVP (RB 在)) (ADVP (RB 逐渐)) (VP (BB 被) (VP (VCP (VV 接受) (VC 为)) (NP (DNP (NP (NP (NN 全球)) (ADJP (NN 集体)) (NP (NN 行动))) (DEC 的)) (ADJP (PFA 新)) (NP (NN 体制) (NN 框架)))))) (, ，) (PP (ADVP (VV 至少)) (PP (IN 在) (NP (NP (NP (NN 金融) (CC 和) (NN 经济)) (NP (NN 政策))) (NP (NN 方面)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'PP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'PP': {}}}
-----------------------------------------------------------------------
-要让这样的框架发挥作用，你总是需要在后台，有一个主要参与者的战略联盟。
-
-(ROOT (IP (IP (VP (MD 要) (VP (VV 让) (NP (DNP (NP (PRD 这样)) (DEC 的)) (NP (NN 框架))) (IP (VP (VV 发挥) (NP (NN 作用))))))) (, ，) (NP (PRP 你)) (VP (ADVP (RB 总)) (VP (VC 是) (VP (MD 需要) (VP (PP (VV 在) (NP (NN 后台))) (, ，) (VP (VV 有) (NP (DNP (NP (QP (CD 一) (CLP (NNB 个))) (ADJP (JJ 主要)) (NP (VV 参与) (SFN 者))) (DEC 的)) (NP (NN 战略) (NN 联盟)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在北京和华盛顿，人们越来越多地提到 G20 内部的“G2”。G2 指的是美国和中国。
-
-(ROOT (IP (PP (VV 在) (NP (NNP 北京) (CC 和) (NNP 华盛顿))) (, ，) (NP (NN 人们)) (VP (DVP (VP (ADVP (RB 越来越)) (VP (JJ 多))) (DEV 地)) (VP (VV 提到) (NP (DNP (NP (NP (FW G20)) (NP (NN 内部))) (DEC 的)) (NP (`` “) (FW G2) ('' ”))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'DVP': {}, 'VP': {}}, '.': {}}}
-{'PP': {'VV': {}, 'NP': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'DVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-然而，欧盟的经济规模与美国相当，是美国，而不是中国。
-
-(ROOT (IP (ADVP (RB 然而)) (, ，) (NP (DNP (NP (NNP 欧盟)) (DEC 的)) (NP (NN 经济) (NN 规模))) (VP (VP (PP (IN 与) (NP (NNP 美国))) (VP (VV 相当))) (, ，) (VP (VC 是) (NP (NNP 美国))) (, ，) (RB 而) (VP (VC 不是) (NP (NNP 中国)))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}}}
-----------------------------------------------------------------------
-特别是在经济政策上，战略联盟应该是 G3。
-
-(ROOT (IP (ADVP (RB 特别)) (ADVP (VC 是)) (PP (IN 在) (LCP (NP (NN 经济) (NN 政策)) (IN 上))) (, ，) (NP (NN 战略) (NN 联盟)) (VP (MD 应该) (VP (VC 是) (NP (FW G3)))) (. 。)))
-{'IP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'ADVP': {'VC': {}}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NN': {}, 'NN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'ADVP': {'VC': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'NN': {}, 'NN': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
-----------------------------------------------------------------------
-但欧洲在哪里？
-
-(ROOT (IP (ADVP (RB 但)) (NP (NNP 欧洲)) (VP (PP (IN 在) (NP (WP 哪里)))) (. ？)))
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'NP': {'NNP': {}}, 'VP': {'PP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'PP': {}}}
-----------------------------------------------------------------------
-如果欧洲放弃了它仍然可以扮演的角色，而美国和中国都仍然希望它扮演这一角色，那么这不是一个明智的选择。
-
-(ROOT (IP (IP (CP (ADVP (IN 如果)) (IP (NP (NNP 欧洲)) (VP (VV 放弃) (AS 了) (NP (CP (CP (IP (NP (PRP 它)) (VP (ADVP (RB 仍然)) (VP (MD 可以) (VP (VV 扮演))))) (DEC 的))) (NP (NN 角色)))))) (, ，) (ADVP (RB 而)) (NP (NNP 美国) (CC 和) (NNP 中国)) (VP (ADVP (RB 都)) (ADVP (RB 仍然)) (VP (VV 希望) (IP (NP (PRP 它)) (VP (VV 扮演) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 角色)))))))) (, ，) (IP (ADVP (RB 那么)) (NP (PRD 这)) (VP (VC 不是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 明智))) (DEC 的))) (NP (NN 选择))))) (. 。)))
+(ROOT (IP (IP (PP (IN 直到) (LCP (QP (CD 几) (CLP (NNB 年))) (IN 后))) (, ，) (NP (PRP 他)) (VP (PP (IN 在) (LCP (IP (VP (VV 阅读) (NP (QP (CD 一) (CLP (NNB 本))) (NP (NN 外国) (NN 书籍))))) (IN 时))) (ADVP (RB 才)) (VP (VV 明白) (AS 了) (NP (DNP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 梦))) (DEC 的)) (NP (NN 意义)))))) (, ，) (IP (NP (DP (DT 这)) (NP (NN 本书))) (VP (VP (VC 是) (NP (DNP (NP (IN 中) (NN 译本)) (DEC 的)) (NP (NNP 圣经) (NN 论著)))) (, ，) (VP (NP (NN 最近)) (ADVP (RB 才)) (VP (VV 开始) (VP (PP (VV 在) (NP (NN 国内))) (VP (VV 流通))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP20727': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP46157': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['直到', '年', 'case']
+['NUM', 'NOUN', 'nummod']	['几', '年', 'nummod']
+['NOUN', 'VERB', 'obl']	['年', '明白', 'obl']
+['ADP', 'NOUN', 'case']	['后', '年', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '年', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '明白', 'nsubj']
+['ADP', 'VERB', 'case']	['在', '阅读', 'case']
+['VERB', 'VERB', 'xcomp']	['阅读', '明白', 'xcomp']
+['NUM', 'NOUN', 'nummod']	['一', '本', 'nummod']
+['NOUN', 'NOUN', 'clf']	['本', '书籍', 'clf']
+['NOUN', 'NOUN', 'nmod']	['外国', '书籍', 'nmod']
+['NOUN', 'VERB', 'obj']	['书籍', '阅读', 'obj']
+['ADP', 'VERB', 'mark']	['时', '阅读', 'mark']
+['ADV', 'VERB', 'mark']	['才', '明白', 'mark']
+['VERB', 'ROOT', 'root']	['明白', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '明白', 'aux']
+['DET', 'NOUN', 'det']	['这', '个', 'det']
+['NOUN', 'NOUN', 'clf']	['个', '梦', 'clf']
+['NOUN', 'NOUN', 'nmod']	['梦', '意义', 'nmod']
+['PART', 'NOUN', 'case']	['的', '梦', 'case']
+['NOUN', 'VERB', 'obj']	['意义', '明白', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '流通', 'punct']
+['DET', 'NOUN', 'det']	['这', '本书', 'det']
+['NOUN', 'VERB', 'nsubj']	['本书', '流通', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '论著', 'cop']
+['ADP', 'NOUN', 'case']	['中', '译本', 'case']
+['NOUN', 'NOUN', 'acl:relcl']	['译本', '论著', 'acl:relcl']
+['PART', 'NOUN', 'mark:rel']	['的', '译本', 'mark:rel']
+['PROPN', 'NOUN', 'nmod']	['圣经', '论著', 'nmod']
+['NOUN', 'VERB', 'advcl']	['论著', '流通', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['，', '论著', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['最近', '流通', 'nmod:tmod']
+['ADV', 'VERB', 'mark']	['才', '开始', 'mark']
+['VERB', 'VERB', 'advcl']	['开始', '流通', 'advcl']
+['VERB', 'VERB', 'advcl']	['在', '流通', 'advcl']
+['NOUN', 'VERB', 'obj']	['国内', '在', 'obj']
+['VERB', 'VERB', 'parataxis']	['流通', '明白', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '明白', 'punct']
 ----------------------------------------------------------------------
-但是，不选择也是选择。
+洪深信，他的梦是真实的经历，他所遇到的“神”就是基督教的上帝耶和华；而且，他洪深是上帝的第二个儿子，耶稣的弟弟，被派来地球，执行神圣使命，将中国人改宗为真正的宗教，拯救他们脱离“魔鬼恶魔”的控制。
 
-(ROOT (IP (ADVP (RB 但是)) (, ，) (IP (VP (ADVP (RB 不)) (VP (VV 选择)))) (VP (VC 也是) (NP (VV 选择))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'IP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'VP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+(ROOT (IP (NP (NNP 洪)) (VP (NNP 深信) (, ，) (IP (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 梦))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 真实))) (DEC 的))) (NP (NN 经历))))) (, ，) (IP (NP (CP (CP (IP (NP (PRP 他)) (VP (RB 所) (VP (VV 遇到)))) (DEC 的))) (NP (`` “) (NN 神) ('' ”))) (VP (VC 就是) (NP (NP (DNP (NP (NNP 基督) (SFN 教)) (DEC 的)) (NP (NN 上帝))) (NP (NNP 耶和华))))) (: ；) (IP (ADVP (RB 而且)) (, ，) (NP (PRP 他) (NNP 洪) (NNP 深)) (VP (VP (VC 是) (NP (NP (DNP (NP (NNP 上帝)) (DEC 的)) (QP (CD 第二) (CLP (NNB 个))) (NP (NN 儿子))) (, ，) (NP (DNP (NP (NNP 耶稣)) (DEC 的)) (NP (NN 弟弟))))) (, ，) (VP (BB 被) (VP (VV 派来) (NP (NN 地球)))) (, ，) (VP (VV 执行) (NP (ADJP (JJ 神圣)) (NP (NN 使命)))) (, ，) (VP (BB 将) (IP (NP (NP (NNP 中国)) (NP (SFN 人))) (VP (VRD (VV 改宗) (VC 为)) (NP (CP (CP (IP (VP (JJ 真正))) (DEC 的))) (NP (NN 宗教)))))) (, ，) (VP (VV 拯救) (NP (PRP 他们)) (IP (VP (VV 脱离) (NP (DNP (NP (`` “) (NN 魔鬼) (NN 恶魔) ('' ”)) (DEC 的)) (NP (NN 控制)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'NNP': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'NNP': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'NNP': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nsubj']	['洪', '经历', 'nsubj']
+['PROPN', 'PROPN', 'flat:name']	['深信', '洪', 'flat:name']
+['PUNCT', 'PROPN', 'punct']	['，', '洪', 'punct']
+['PRON', 'NOUN', 'det']	['他', '梦', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'NOUN', 'nsubj']	['梦', '经历', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '经历', 'cop']
+['ADJ', 'NOUN', 'amod']	['真实', '经历', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '真实', 'mark:rel']
+['NOUN', 'ROOT', 'root']	['经历', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['，', '上帝', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '遇到', 'nsubj']
+['ADV', 'VERB', 'mark']	['所', '遇到', 'mark']
+['VERB', 'NOUN', 'acl:relcl']	['遇到', '神', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '遇到', 'mark:rel']
+['PUNCT', 'NOUN', 'punct']	['“', '神', 'punct']
+['NOUN', 'NOUN', 'nsubj']	['神', '上帝', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['”', '神', 'punct']
+['AUX', 'NOUN', 'cop']	['是', '上帝', 'cop']
+['PROPN', 'PART', 'compound']	['基督', '教', 'compound']
+['PART', 'NOUN', 'nmod']	['教', '上帝', 'nmod']
+['PART', 'PART', 'mark:rel']	['的', '教', 'mark:rel']
+['NOUN', 'NOUN', 'parataxis']	['上帝', '经历', 'parataxis']
+['PROPN', 'NOUN', 'appos']	['耶和华', '上帝', 'appos']
+['PUNCT', 'NOUN', 'punct']	['；', '儿子', 'punct']
+['ADV', 'NOUN', 'mark']	['而且', '儿子', 'mark']
+['PUNCT', 'ADV', 'punct']	['，', '而且', 'punct']
+['PRON', 'NOUN', 'nsubj']	['他', '儿子', 'nsubj']
+['PROPN', 'PRON', 'appos']	['洪', '他', 'appos']
+['PROPN', 'PROPN', 'flat:name']	['深', '洪', 'flat:name']
+['AUX', 'NOUN', 'cop']	['是', '儿子', 'cop']
+['PROPN', 'NOUN', 'nmod']	['上帝', '儿子', 'nmod']
+['PART', 'PROPN', 'case']	['的', '上帝', 'case']
+['NUM', 'NOUN', 'nummod']	['第二', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '儿子', 'clf']
+['NOUN', 'NOUN', 'parataxis']	['儿子', '经历', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['，', '拯救', 'punct']
+['PROPN', 'NOUN', 'nmod']	['耶稣', '弟弟', 'nmod']
+['PART', 'PROPN', 'case']	['的', '耶稣', 'case']
+['NOUN', 'VERB', 'nsubj']	['弟弟', '拯救', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '弟弟', 'punct']
+['AUX', 'VERB', 'aux:pass']	['被', '执行', 'aux:pass']
+['VERB', 'VERB', 'advcl']	['派来', '执行', 'advcl']
+['NOUN', 'VERB', 'obj']	['地球', '派来', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '派来', 'punct']
+['VERB', 'VERB', 'advcl']	['执行', '拯救', 'advcl']
+['ADJ', 'NOUN', 'amod']	['神圣', '使命', 'amod']
+['NOUN', 'VERB', 'obj']	['使命', '执行', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '执行', 'punct']
+['ADP', 'PART', 'case']	['将', '人', 'case']
+['PROPN', 'PART', 'compound']	['中国', '人', 'compound']
+['PART', 'VERB', 'obl:patient']	['人', '改宗', 'obl:patient']
+['VERB', 'VERB', 'advcl']	['改宗', '拯救', 'advcl']
+['VERB', 'VERB', 'mark']	['为', '改宗', 'mark']
+['ADJ', 'NOUN', 'amod']	['真正', '宗教', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '真正', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['宗教', '改宗', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '改宗', 'punct']
+['VERB', 'NOUN', 'parataxis']	['拯救', '经历', 'parataxis']
+['PRON', 'VERB', 'nsubj']	['他', '脱离', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['脱离', '控制', 'acl:relcl']
+['PUNCT', 'NOUN', 'punct']	['“', '恶魔', 'punct']
+['NOUN', 'NOUN', 'nmod']	['魔鬼', '恶魔', 'nmod']
+['NOUN', 'VERB', 'obj']	['恶魔', '脱离', 'obj']
+['PUNCT', 'NOUN', 'punct']	['”', '恶魔', 'punct']
+['PART', 'VERB', 'mark:rel']	['的', '脱离', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['控制', '拯救', 'obj']
+['PUNCT', 'NOUN', 'punct']	['。', '经历', 'punct']
+----------------------------------------------------------------------
+起初，这些“魔鬼鬼怪”主要与传统中国宗教的尚未觉醒的信仰有关，但随着洪的新兴宗教规模不断扩大，并且开始引起当地政府的怀疑和迫害，它快速地政治化和军事化，并开始将“魔鬼鬼怪”视为中国的满族统治者，即来自远东的“鞑靼”入侵者，他们在两个世纪前夺取了中国，但从未被原住民汉族完全接受，现在他们开始发现自己的权力日益脆弱。
+
+(ROOT (IP (IP (ADVP (NN 起初)) (, ，) (NP (DP (DT 这些)) (NP (`` “) (NN 魔鬼) (NN 鬼怪) ('' ”))) (VP (ADVP (RB 主要)) (PP (IN 与) (NP (DNP (NP (ADJP (NN 传统)) (NP (NNP 中国)) (NP (NN 宗教))) (DEC 的)) (CP (CP (IP (VP (ADVP (RB 尚)) (ADVP (RB 未)) (VP (VV 觉醒)))) (DEC 的))) (NP (NN 信仰)))) (VP (JJ 有关)))) (, ，) (IP (ADVP (RB 但)) (PP (VV 随) (PP (AS 着) (IP (NP (NP (DNP (NP (NNP 洪)) (DEC 的)) (ADJP (JJ 新兴)) (NP (NN 宗教))) (NP (NN 规模))) (VP (ADVP (RB 不断)) (VP (VV 扩大)))))) (, ，) (RB 并且) (VP (VV 开始) (VP (VV 引起) (NP (DNP (NP (NN 当地) (NN 政府)) (DEC 的)) (NP (NN 怀疑) (CC 和) (NN 迫害)))))) (, ，) (IP (NP (PRP 它)) (VP (VP (ADVP (RB 快速)) (NP (NN 地政) (VV 治化) (CC 和) (NN 军事) (SFV 化))) (, ，) (RB 并) (VP (VV 开始) (VP (BB 将) (IP (NP (`` “) (NN 魔鬼) (NN 鬼怪) ('' ”)) (VP (VRD (VV 视) (VC 为)) (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NN 满族) (VV 统治) (SFN 者))))))))) (, ，) (IP (NP (ADVP (RB 即)) (NP (CP (CP (IP (VP (VV 来) (PP (VV 自) (NP (NNP 远东))))) (DEC 的))) (NP (`` “) (NN 鞑靼) ('' ”)) (NP (VV 入侵) (SFN 者)))) (, ，) (NP (PRP 他们)) (VP (VP (PP (IN 在) (LCP (NP (QP (CD 两) (CLP (NNB 个))) (NP (NN 世纪))) (IN 前))) (VP (VV 夺取) (AS 了) (NP (NNP 中国)))) (, ，) (VP (ADVP (RB 但)) (ADVP (IN 从)) (ADVP (RB 未)) (VP (BB 被) (CP (IP (NP (NP (ADJP (PFA 原)) (NP (NN 住民))) (NP (NNP 汉) (SFN 族))) (VP (ADVP (RB 完全)) (VP (VV 接受))))))))) (, ，) (IP (NP (NN 现在)) (NP (PRP 他们)) (VP (VV 开始) (VP (VV 发现) (IP (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 权力))) (VP (ADVP (RB 日益)) (VP (JJ 脆弱))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP89401': {}, ',54210': {}, 'IP41279': {}, ',62734': {}, 'IP60942': {}, ',93953': {}, 'IP24203': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP17256': {'ADVP': {}, 'PP': {}, ',': {}, 'RB': {}, 'VP': {}}, ',34354': {}, 'IP9361': {'NP': {}, 'VP': {}}, ',97974': {}, 'IP14561': {'NP': {}, ',': {}, 'NP91473': {}, 'VP': {}}, ',92977': {}, 'IP16703': {'NP': {}, 'NP92281': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'RB': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'ADJ', 'obl']	['起初', '有关', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '起初', 'punct']
+['DET', 'NOUN', 'det']	['这些', '鬼怪', 'det']
+['PUNCT', 'NOUN', 'punct']	['“', '鬼怪', 'punct']
+['NOUN', 'NOUN', 'nmod']	['魔鬼', '鬼怪', 'nmod']
+['NOUN', 'ADJ', 'nsubj']	['鬼怪', '有关', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['”', '鬼怪', 'punct']
+['ADV', 'ADJ', 'advmod']	['主要', '有关', 'advmod']
+['ADP', 'NOUN', 'case']	['与', '信仰', 'case']
+['NOUN', 'NOUN', 'nmod']	['传统', '宗教', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['中国', '宗教', 'nmod']
+['NOUN', 'VERB', 'obl']	['宗教', '觉醒', 'obl']
+['PART', 'NOUN', 'case']	['的', '宗教', 'case']
+['ADV', 'ADV', 'advmod']	['尚', '未', 'advmod']
+['ADV', 'VERB', 'advmod']	['未', '觉醒', 'advmod']
+['VERB', 'NOUN', 'acl:relcl']	['觉醒', '信仰', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '觉醒', 'mark:rel']
+['NOUN', 'ADJ', 'nmod']	['信仰', '有关', 'nmod']
+['ADJ', 'ROOT', 'root']	['有关', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '开始', 'punct']
+['ADV', 'VERB', 'mark']	['但', '开始', 'mark']
+['VERB', 'VERB', 'advcl']	['随', '开始', 'advcl']
+['AUX', 'VERB', 'aux']	['着', '随', 'aux']
+['PROPN', 'NOUN', 'nmod']	['洪', '规模', 'nmod']
+['PART', 'PROPN', 'case']	['的', '洪', 'case']
+['ADJ', 'NOUN', 'amod']	['新兴', '规模', 'amod']
+['NOUN', 'NOUN', 'nmod']	['宗教', '规模', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['规模', '扩大', 'nsubj']
+['ADV', 'VERB', 'advmod']	['不断', '扩大', 'advmod']
+['VERB', 'VERB', 'ccomp']	['扩大', '随', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '随', 'punct']
+['ADV', 'VERB', 'mark']	['并且', '开始', 'mark']
+['VERB', 'ADJ', 'parataxis']	['开始', '有关', 'parataxis']
+['VERB', 'VERB', 'xcomp']	['引起', '开始', 'xcomp']
+['NOUN', 'NOUN', 'nmod']	['当地', '政府', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['政府', '怀疑', 'nmod']
+['PART', 'NOUN', 'case']	['的', '政府', 'case']
+['NOUN', 'VERB', 'obj']	['怀疑', '引起', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '迫害', 'cc']
+['NOUN', 'NOUN', 'conj']	['迫害', '怀疑', 'conj']
+['PUNCT', 'VERB', 'punct']	['，', '开始', 'punct']
+['PRON', 'VERB', 'nsubj']	['它', '开始', 'nsubj']
+['ADV', 'VERB', 'advmod']	['快速', '治化', 'advmod']
+['NOUN', 'VERB', 'nsubj']	['地政', '治化', 'nsubj']
+['VERB', 'VERB', 'advcl']	['治化', '开始', 'advcl']
+['CCONJ', 'PART', 'cc']	['和', '化', 'cc']
+['NOUN', 'PART', 'compound']	['军事', '化', 'compound']
+['PART', 'VERB', 'conj']	['化', '治化', 'conj']
+['PUNCT', 'VERB', 'punct']	['，', '治化', 'punct']
+['ADV', 'VERB', 'mark']	['并', '开始', 'mark']
+['VERB', 'ADJ', 'parataxis']	['开始', '有关', 'parataxis']
+['ADP', 'NOUN', 'case']	['将', '鬼怪', 'case']
+['PUNCT', 'NOUN', 'punct']	['“', '鬼怪', 'punct']
+['NOUN', 'NOUN', 'nmod']	['魔鬼', '鬼怪', 'nmod']
+['NOUN', 'VERB', 'obl:patient']	['鬼怪', '视', 'obl:patient']
+['PUNCT', 'NOUN', 'punct']	['”', '鬼怪', 'punct']
+['VERB', 'VERB', 'xcomp']	['视', '开始', 'xcomp']
+['VERB', 'VERB', 'mark']	['为', '视', 'mark']
+['PROPN', 'PART', 'nmod']	['中国', '者', 'nmod']
+['PART', 'PROPN', 'case']	['的', '中国', 'case']
+['NOUN', 'PART', 'nmod']	['满族', '者', 'nmod']
+['VERB', 'PART', 'compound']	['统治', '者', 'compound']
+['PART', 'VERB', 'obj']	['者', '视', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '视', 'punct']
+['ADV', 'VERB', 'mark']	['即', '来', 'mark']
+['VERB', 'PART', 'acl:relcl']	['来', '者', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['自', '来', 'mark']
+['PROPN', 'VERB', 'obj']	['远东', '来', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '来', 'mark:rel']
+['PUNCT', 'NOUN', 'punct']	['“', '鞑靼', 'punct']
+['NOUN', 'PART', 'nmod']	['鞑靼', '者', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['”', '鞑靼', 'punct']
+['VERB', 'PART', 'compound']	['入侵', '者', 'compound']
+['PART', 'VERB', 'obj']	['者', '视', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '夺取', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '夺取', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '世纪', 'case']
+['NUM', 'NOUN', 'nummod']	['两', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '世纪', 'clf']
+['NOUN', 'VERB', 'obl']	['世纪', '夺取', 'obl']
+['ADP', 'NOUN', 'case']	['前', '世纪', 'case']
+['VERB', 'ADJ', 'parataxis']	['夺取', '有关', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '夺取', 'aux']
+['PROPN', 'VERB', 'obj']	['中国', '夺取', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '夺取', 'punct']
+['ADV', 'VERB', 'mark']	['但', '接受', 'mark']
+['ADP', 'VERB', 'case']	['从', '接受', 'case']
+['ADV', 'VERB', 'advmod']	['未', '接受', 'advmod']
+['AUX', 'VERB', 'aux:pass']	['被', '接受', 'aux:pass']
+['PART', 'PART', 'case']	['原', '族', 'case']
+['NOUN', 'PART', 'nmod']	['住民', '族', 'nmod']
+['PROPN', 'PART', 'compound']	['汉', '族', 'compound']
+['PART', 'VERB', 'nsubj']	['族', '接受', 'nsubj']
+['ADV', 'VERB', 'advmod']	['完全', '接受', 'advmod']
+['VERB', 'VERB', 'advcl']	['接受', '开始', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '接受', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['现在', '开始', 'nmod:tmod']
+['PRON', 'VERB', 'nsubj']	['他', '开始', 'nsubj']
+['VERB', 'ADJ', 'parataxis']	['开始', '有关', 'parataxis']
+['VERB', 'VERB', 'xcomp']	['发现', '开始', 'xcomp']
+['PRON', 'VERB', 'obj']	['自己', '发现', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '发现', 'mark:rel']
+['NOUN', 'ADJ', 'nsubj']	['权力', '脆弱', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['日益', '脆弱', 'advmod']
+['ADJ', 'VERB', 'xcomp']	['脆弱', '开始', 'xcomp']
+['PUNCT', 'ADJ', 'punct']	['。', '有关', 'punct']
+----------------------------------------------------------------------
+虽然较早的两位信徒对于“传递上帝和耶稣的声音”具有极高的说服力，但洪振刚还是非常成功地赢得了追随者。
+
+(ROOT (IP (CP (ADVP (IN 虽然)) (IP (NP (CP (CP (IP (VP (JJ 较早))) (DEC 的))) (QP (CD 两) (CLP (NNB 位))) (NP (NN 信徒))) (VP (PP (IN 对于) (VP (`` “) (VP (VV 传递) (NP (DNP (NP (NN 上帝) (CC 和) (NNP 耶稣)) (DEC 的)) (NP (NN 声音)))) ('' ”))) (VP (VV 具有) (NP (CP (CP (IP (VP (JJ 极高))) (DEC 的))) (NP (VV 说服) (SFN 力))))))) (, ，) (ADVP (RB 但)) (NP (NNP 洪) (NNP 振) (RB 刚)) (VP (ADVP (RB 还是)) (DVP (VP (ADVP (RB 非常)) (VP (JJ 成功))) (DEV 地)) (VP (VV 赢得) (AS 了) (NP (VV 追随) (SFN 者)))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'NNP': {}, 'NNP66698': {}, 'RB': {}}, 'VP': {'ADVP': {}, 'DVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'NNP': {}, 'NNP': {}, 'RB': {}}, 'VP': {'ADVP': {}, 'DVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
 {'ADVP': {'RB': {}}}
-{'IP': {'VP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
+{'NP': {'NNP': {}, 'NNP': {}, 'RB': {}}}
+{'VP': {'ADVP': {}, 'DVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['虽然', '具有', 'case']
+['ADJ', 'NOUN', 'amod']	['较早', '信徒', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '较早', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['两', '位', 'nummod']
+['NOUN', 'NOUN', 'clf']	['位', '信徒', 'clf']
+['NOUN', 'VERB', 'nsubj']	['信徒', '具有', 'nsubj']
+['ADP', 'NOUN', 'case']	['对于', '声音', 'case']
+['PUNCT', 'NOUN', 'punct']	['“', '声音', 'punct']
+['VERB', 'NOUN', 'acl:relcl']	['传递', '声音', 'acl:relcl']
+['NOUN', 'VERB', 'obj']	['上帝', '传递', 'obj']
+['CCONJ', 'PROPN', 'cc']	['和', '耶稣', 'cc']
+['PROPN', 'NOUN', 'conj']	['耶稣', '上帝', 'conj']
+['PART', 'VERB', 'mark:rel']	['的', '传递', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['声音', '具有', 'obl']
+['PUNCT', 'NOUN', 'punct']	['”', '声音', 'punct']
+['VERB', 'VERB', 'ccomp']	['具有', '赢得', 'ccomp']
+['ADJ', 'PART', 'amod']	['极高', '力', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '极高', 'mark:rel']
+['VERB', 'PART', 'compound']	['说服', '力', 'compound']
+['PART', 'VERB', 'obj']	['力', '具有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '具有', 'punct']
+['ADV', 'VERB', 'mark']	['但', '赢得', 'mark']
+['PROPN', 'VERB', 'nsubj']	['洪', '赢得', 'nsubj']
+['PROPN', 'PROPN', 'flat:name']	['振', '洪', 'flat:name']
+['ADV', 'VERB', 'advmod']	['刚', '赢得', 'advmod']
+['ADV', 'VERB', 'mark']	['还是', '赢得', 'mark']
+['ADV', 'ADJ', 'advmod']	['非常', '成功', 'advmod']
+['ADJ', 'VERB', 'advmod']	['成功', '赢得', 'advmod']
+['PART', 'ADJ', 'mark:adv']	['地', '成功', 'mark:adv']
+['VERB', 'ROOT', 'root']	['赢得', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '赢得', 'aux']
+['VERB', 'PART', 'compound']	['追随', '者', 'compound']
+['PART', 'VERB', 'obj']	['者', '赢得', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '赢得', 'punct']
 ----------------------------------------------------------------------
-如果我们继续这样下去，我们欧洲人将选择不一起吊 — — 最终我们将分别吊起来。
+随着这种直接的神圣干预的出现，洪很快创立了一个强大的千禧年运动，旨在在地球上建立一个神国，即“大和平”的天平王国。
 
-(ROOT (IP (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 我们)) (VP (VV 继续) (VP (ADVP (PRD 这样)) (VP (VV 下去)))))) (, ，) (NP (NP (PRP 我们)) (NP (NNP 欧洲)) (NP (SFN 人))) (VP (ADVP (RB 将)) (VP (VV 选择) (IP (VP (ADVP (RB 不)) (ADVP (RB 一起)) (VP (VV 吊))))))) ('' —) (HYPH —) (IP (ADVP (NN 最终)) (NP (PRP 我们)) (VP (ADVP (RB 将)) (ADVP (RB 分别)) (VP (VRD (VV 吊) (VV 起来))))) (. 。)))
-{'IP': {'IP': {}, "''": {}, 'HYPH': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, "''": {}, 'HYPH': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+(ROOT (IP (IP (PP (VV 随) (PP (AS 着) (NP (DNP (NP (DP (DT 这) (CLP (NNB 种))) (DNP (ADJP (JJ 直接)) (DEC 的)) (ADJP (JJ 神圣)) (NP (NN 干预))) (DEC 的)) (NP (NN 出现))))) (, ，) (NP (NNP 洪)) (VP (ADVP (RB 很快)) (VP (VV 创立) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 强大))) (DEC 的))) (NP (NNP 千禧) (NNB 年)) (NP (NN 运动)))))) (, ，) (IP (NP (NN 旨)) (VP (VV 在) (IP (VP (PP (IN 在) (LCP (NP (NN 地球)) (IN 上))) (VP (VV 建立) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (NP (NP (NN 神国)) (, ，) (NP (ADVP (VC 即)) (NP (`` “) (ADJP (PFA 大)) (NP (NN 和平)) ('' ”)))) (DEC 的)) (NP (NN 天平) (NN 王国)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP54987': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP46834': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['随', '创立', 'advcl']
+['AUX', 'VERB', 'aux']	['着', '随', 'aux']
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '出现', 'clf']
+['ADJ', 'NOUN', 'amod']	['直接', '干预', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '直接', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['神圣', '干预', 'amod']
+['NOUN', 'VERB', 'obj']	['干预', '随', 'obj']
+['PART', 'ADJ', 'mark:rel']	['的', '直接', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['出现', '随', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '随', 'punct']
+['PROPN', 'VERB', 'nsubj']	['洪', '创立', 'nsubj']
+['ADV', 'VERB', 'advmod']	['很快', '创立', 'advmod']
+['VERB', 'ROOT', 'root']	['创立', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '创立', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '运动', 'clf']
+['ADJ', 'NOUN', 'amod']	['强大', '运动', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '强大', 'mark:rel']
+['PROPN', 'NOUN', 'compound']	['千禧', '年', 'compound']
+['NOUN', 'NOUN', 'clf']	['年', '运动', 'clf']
+['NOUN', 'VERB', 'obj']	['运动', '创立', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '在', 'punct']
+['NOUN', 'VERB', 'nsubj']	['旨', '在', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['在', '创立', 'parataxis']
+['ADP', 'NOUN', 'case']	['在', '地球', 'case']
+['NOUN', 'VERB', 'obl']	['地球', '建立', 'obl']
+['ADP', 'NOUN', 'case']	['上', '地球', 'case']
+['VERB', 'VERB', 'xcomp']	['建立', '在', 'xcomp']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '王国', 'clf']
+['NOUN', 'VERB', 'nsubj']	['神国', '即', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '神国', 'punct']
+['VERB', 'NOUN', 'acl:relcl']	['即', '王国', 'acl:relcl']
+['PUNCT', 'NOUN', 'punct']	['“', '和平', 'punct']
+['PART', 'NOUN', 'case']	['大', '和平', 'case']
+['NOUN', 'VERB', 'xcomp']	['和平', '即', 'xcomp']
+['PUNCT', 'NOUN', 'punct']	['”', '和平', 'punct']
+['PART', 'VERB', 'mark:rel']	['的', '即', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['天平', '王国', 'nmod']
+['NOUN', 'VERB', 'obj']	['王国', '建立', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '创立', 'punct']
+----------------------------------------------------------------------
+太平军迅速发展到数千人，后来又达到数十万人，在鼎盛时期，他们控制了中国中部的广大地区，并在南京建立了他们的天国首都。
+
+(ROOT (IP (IP (NP (NNP 太平) (SFN 军)) (VP (ADVP (RB 迅速)) (VP (VRD (VV 发展) (VV 到)) (NP (QP (CD 数千)) (NP (NN 人)))))) (, ，) (IP (VP (ADVP (NN 后来)) (ADVP (RB 又)) (VP (VV 达到) (NP (QP (CD 数十万)) (NP (NN 人)))))) (, ，) (IP (PP (IN 在) (NP (NP (JJ 鼎盛)) (NP (NN 时期)))) (, ，) (NP (PRP 他们)) (VP (VP (VV 控制) (AS 了) (NP (DNP (NP (NP (NNP 中国)) (NP (NN 中部))) (DEC 的)) (ADJP (JJ 广大)) (NP (NN 地区)))) (, ，) (RB 并) (VP (PP (VV 在) (NP (NNP 南京))) (VP (VV 建立) (AS 了) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 天国) (NN 首都))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP22392': {}, ',24065': {}, 'IP66335': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP5926': {'VP': {}}, ',57972': {}, 'IP86411': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'PART', 'compound']	['太平', '军', 'compound']
+['PART', 'VERB', 'nsubj']	['军', '达到', 'nsubj']
+['ADV', 'VERB', 'advmod']	['迅速', '发展', 'advmod']
+['VERB', 'VERB', 'advcl']	['发展', '达到', 'advcl']
+['VERB', 'VERB', 'mark']	['到', '发展', 'mark']
+['NUM', 'NOUN', 'nummod']	['数千', '人', 'nummod']
+['NOUN', 'VERB', 'obj']	['人', '发展', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '发展', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['后来', '达到', 'nmod:tmod']
+['ADV', 'VERB', 'mark']	['又', '达到', 'mark']
+['VERB', 'ROOT', 'root']	['达到', 'NONE', 'root']
+['NUM', 'NOUN', 'nummod']	['数十万', '人', 'nummod']
+['NOUN', 'VERB', 'obj']	['人', '达到', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '建立', 'punct']
+['ADP', 'NOUN', 'case']	['在', '时期', 'case']
+['ADJ', 'NOUN', 'amod']	['鼎盛', '时期', 'amod']
+['NOUN', 'VERB', 'obl']	['时期', '建立', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '时期', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '控制', 'nsubj']
+['VERB', 'VERB', 'advcl']	['控制', '建立', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '控制', 'aux']
+['PROPN', 'NOUN', 'nmod']	['中国', '中部', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['中部', '地区', 'nmod']
+['PART', 'NOUN', 'case']	['的', '中部', 'case']
+['ADJ', 'NOUN', 'amod']	['广大', '地区', 'amod']
+['NOUN', 'VERB', 'obj']	['地区', '控制', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '控制', 'punct']
+['ADV', 'VERB', 'mark']	['并', '建立', 'mark']
+['VERB', 'VERB', 'advcl']	['在', '建立', 'advcl']
+['PROPN', 'VERB', 'obj']	['南京', '在', 'obj']
+['VERB', 'VERB', 'parataxis']	['建立', '达到', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '建立', 'aux']
+['PRON', 'NOUN', 'det']	['他', '首都', 'det']
+['PART', 'PRON', 'mark:rel']	['的', '他', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['天国', '首都', 'nmod']
+['NOUN', 'VERB', 'obj']	['首都', '建立', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '达到', 'punct']
+----------------------------------------------------------------------
+15 年来，他们和其他不满的团体与帝国政府军队进行了一场残酷的内战，这场战争是历史上最可怕的战争之一，据说至少有 2000 万人死亡，不仅是在战场上，还有通过残酷的屠杀和处决、饥饿和疾病。
+
+(ROOT (IP (IP (LCP (QP (CD 15)) (NNB 年来)) (, ，) (NP (NP (NP (PRP 他们)) (CC 和) (NP (DP (DT 其他)) (CP (CP (IP (VP (JJ 不满))) (DEC 的))) (NP (NN 团体)))) (CC 与) (NP (NN 帝国) (NN 政府) (NN 军队))) (VP (VV 进行) (AS 了) (NP (QP (CD 一) (CLP (NNB 场))) (CP (CP (IP (VP (JJ 残酷))) (DEC 的))) (NP (NN 内战))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 场))) (NP (NN 战争))) (VP (VC 是) (NP (DNP (NP (CP (CP (IP (VP (LCP (NP (NN 历史)) (IN 上)) (ADVP (RB 最)) (VP (JJ 可怕)))) (DEC 的))) (NP (NN 战争))) (DEC 之)) (NP (CD 一))))) (, ，) (IP (ADVP (VV 据说)) (IP (VP (ADVP (RB 至少)) (VP (VV 有) (IP (NP (QP (CD 2000) (QP (NNB 万))) (NP (NN 人))) (VP (VV 死亡)))))) (, ，) (VP (IN 不仅) (VP (VC 是) (VP (PP (VV 在) (LCP (NP (NN 战场)) (IN 上))) (, ，) (ADVP (RB 还)) (VP (VV 有) (PP (VV 通过) (NP (CP (CP (IP (VP (JJ 残酷))) (DEC 的))) (NP (NN 屠杀) (CC 和) (NN 处决) (EC 、) (NN 饥饿) (CC 和) (NN 疾病))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP66307': {}, ',40230': {}, 'IP77236': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP25238': {'NP': {}, 'VP': {}}, ',44228': {}, 'IP51482': {'ADVP': {}, 'IP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['NUM', 'NOUN', 'nummod']	['15', '年来', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['年来', '进行', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '年来', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '进行', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '团体', 'cc']
+['DET', 'NOUN', 'det']	['其他', '团体', 'det']
+['ADJ', 'NOUN', 'amod']	['不满', '团体', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '不满', 'mark:rel']
+['NOUN', 'PRON', 'conj']	['团体', '他', 'conj']
+['CCONJ', 'NOUN', 'cc']	['与', '军队', 'cc']
+['NOUN', 'NOUN', 'nmod']	['帝国', '军队', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['政府', '军队', 'nmod']
+['NOUN', 'PRON', 'conj']	['军队', '他', 'conj']
+['VERB', 'ROOT', 'root']	['进行', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '进行', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '场', 'nummod']
+['NOUN', 'NOUN', 'clf']	['场', '内战', 'clf']
+['ADJ', 'NOUN', 'amod']	['残酷', '内战', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '残酷', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['内战', '进行', 'obj']
+['PUNCT', 'NUM', 'punct']	['，', '一', 'punct']
+['DET', 'NOUN', 'det']	['这', '场', 'det']
+['NOUN', 'NOUN', 'clf']	['场', '战争', 'clf']
+['NOUN', 'NUM', 'nsubj']	['战争', '一', 'nsubj']
+['AUX', 'NUM', 'cop']	['是', '一', 'cop']
+['NOUN', 'ADJ', 'obl']	['历史', '可怕', 'obl']
+['ADP', 'NOUN', 'case']	['上', '历史', 'case']
+['ADV', 'ADJ', 'advmod']	['最', '可怕', 'advmod']
+['ADJ', 'NOUN', 'amod']	['可怕', '战争', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '可怕', 'mark:rel']
+['NOUN', 'NUM', 'nmod']	['战争', '一', 'nmod']
+['PART', 'NOUN', 'case']	['之', '战争', 'case']
+['NUM', 'VERB', 'parataxis']	['一', '进行', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['VERB', 'VERB', 'advcl']	['据说', '有', 'advcl']
+['ADV', 'VERB', 'advmod']	['至少', '有', 'advmod']
+['VERB', 'VERB', 'xcomp']	['有', '据说', 'xcomp']
+['NUM', 'NOUN', 'nummod']	['2000', '万', 'nummod']
+['NOUN', 'NOUN', 'clf']	['万', '人', 'clf']
+['NOUN', 'VERB', 'nsubj']	['人', '死亡', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['死亡', '有', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '死亡', 'punct']
+['ADP', 'VERB', 'case']	['不仅', '是', 'case']
+['VERB', 'VERB', 'xcomp']	['是', '有', 'xcomp']
+['VERB', 'VERB', 'xcomp']	['在', '是', 'xcomp']
+['NOUN', 'VERB', 'obj']	['战场', '在', 'obj']
+['ADP', 'NOUN', 'case']	['上', '战场', 'case']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['ADV', 'VERB', 'mark']	['还', '有', 'mark']
+['VERB', 'VERB', 'parataxis']	['有', '进行', 'parataxis']
+['VERB', 'VERB', 'xcomp']	['通过', '有', 'xcomp']
+['ADJ', 'NOUN', 'amod']	['残酷', '屠杀', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '残酷', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['屠杀', '通过', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '处决', 'cc']
+['NOUN', 'NOUN', 'conj']	['处决', '屠杀', 'conj']
+['PUNCT', 'NOUN', 'punct']	['、', '饥饿', 'punct']
+['NOUN', 'NOUN', 'conj']	['饥饿', '屠杀', 'conj']
+['CCONJ', 'NOUN', 'cc']	['和', '疾病', 'cc']
+['NOUN', 'NOUN', 'conj']	['疾病', '屠杀', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '进行', 'punct']
+----------------------------------------------------------------------
+在中国以外，这段历史可能很少人知道。
+
+(ROOT (IP (PP (VV 在) (LCP (NP (NNP 中国)) (IN 以外))) (, ，) (NP (DP (DT 这) (CLP (NNB 段))) (NP (NN 历史))) (VP (MD 可能) (CP (IP (NP (QP (JJ 很少)) (NP (NN 人))) (VP (VV 知道))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'LCP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'MD': {}, 'CP': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'LCP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'MD': {}, 'CP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'LCP': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'MD': {}, 'CP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['在', '知道', 'advcl']
+['PROPN', 'VERB', 'obj']	['中国', '在', 'obj']
+['ADP', 'VERB', 'mark']	['以外', '在', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '在', 'punct']
+['DET', 'NOUN', 'det']	['这', '段', 'det']
+['NOUN', 'NOUN', 'clf']	['段', '历史', 'clf']
+['NOUN', 'VERB', 'nsubj']	['历史', '知道', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '知道', 'aux']
+['ADJ', 'NOUN', 'amod']	['很少', '人', 'amod']
+['NOUN', 'VERB', 'nsubj']	['人', '知道', 'nsubj']
+['VERB', 'ROOT', 'root']	['知道', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['。', '知道', 'punct']
+----------------------------------------------------------------------
+它应该得到更广泛的知晓，因为它是理解今天中国的关键之一（例如，现在的共产党政府对宗教总体上极为警惕，对法轮功等邪教尤其如此，这与一百五十年前太平天国的惊人迅猛增长和最终灾难性的影响有关），斯潘斯的书使它变得非常容易理解。
+
+(ROOT (IP (IP (NP (PRP 它)) (VP (MD 应该) (VP (VV 得到) (NP (CP (CP (IP (VP (ADVP (RB 更)) (VP (JJ 广泛)))) (DEC 的))) (NP (NN 知晓)))))) (, ，) (PP (IN 因为) (IP (NP (PRP 它)) (VP (VC 是) (VP (VV 理解) (NP (NP (NN 今天)) (DNP (NP (NNP 中国)) (DEC 的)) (DNP (NP (NN 关键)) (DEC 之)) (NP (CD 一)) (PRN (-LRB- （) (IP (ADVP (VV 例如)) (, ，) (IP (IP (NP (DNP (NP (NN 现在)) (DEC 的)) (NP (VV 共产) (SFN 党)) (NP (NN 政府))) (VP (PP (IN 对) (NP (NN 宗教))) (LCP (NP (NN 总体)) (IN 上)) (ADVP (RB 极为)) (VP (VV 警惕)))) (, ，) (IP (VP (PP (IN 对) (NP (NP (NN 法轮) (SFN 功) (NN 等)) (NP (NN 邪教)))) (ADVP (RB 尤其)) (VP (VV 如此)))) (, ，) (IP (NP (PRD 这)) (VP (PP (IN 与) (NP (DNP (NP (DNP (NP (LCP (QP (CD 一百五十) (CLP (NNB 年))) (IN 前)) (NP (JJ 太平) (NN 天国))) (DEC 的)) (NP (NP (ADJP (JJ 惊人)) (ADJP (JJ 迅猛)) (NP (NN 增长))) (CC 和) (NP (ADVP (NN 最终)) (NP (NN 灾难) (SFN 性))))) (DEC 的)) (NP (NN 影响)))) (VP (JJ 有关)))) (-RRB- ）))) (, ，) (IP (NP (DNP (NP (NNP 斯潘斯)) (DEC 的)) (NP (NN 书使))) (NP (PRP 它)) (VP (VV 变得) (VP (ADVP (RB 非常)) (VP (RB 容易) (IP (VP (VV 理解))))))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['它', '得到', 'nsubj']
+['AUX', 'VERB', 'aux']	['应该', '得到', 'aux']
+['VERB', 'ROOT', 'root']	['得到', 'NONE', 'root']
+['ADV', 'ADJ', 'advmod']	['更', '广泛', 'advmod']
+['ADJ', 'NOUN', 'amod']	['广泛', '知晓', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '广泛', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['知晓', '得到', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '例如', 'punct']
+['ADP', 'NUM', 'case']	['因为', '一', 'case']
+['PRON', 'NUM', 'nsubj']	['它', '一', 'nsubj']
+['AUX', 'NUM', 'cop']	['是', '一', 'cop']
+['VERB', 'NUM', 'acl:relcl']	['理解', '一', 'acl:relcl']
+['NOUN', 'PROPN', 'nmod']	['今天', '中国', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['中国', '关键', 'nmod']
+['PART', 'PROPN', 'case']	['的', '中国', 'case']
+['NOUN', 'NUM', 'acl:relcl']	['关键', '一', 'acl:relcl']
+['PART', 'NOUN', 'mark:rel']	['之', '关键', 'mark:rel']
+['NUM', 'VERB', 'ccomp']	['一', '得到', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['（', '例如', 'punct']
+['VERB', 'VERB', 'parataxis']	['例如', '得到', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['，', '警惕', 'punct']
+['NOUN', 'NOUN', 'nmod']	['现在', '政府', 'nmod']
+['PART', 'NOUN', 'case']	['的', '现在', 'case']
+['VERB', 'PART', 'compound']	['共产', '党', 'compound']
+['PART', 'NOUN', 'nmod']	['党', '政府', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['政府', '警惕', 'nsubj']
+['ADP', 'NOUN', 'case']	['对', '总体', 'case']
+['NOUN', 'NOUN', 'nmod']	['宗教', '总体', 'nmod']
+['NOUN', 'VERB', 'obl']	['总体', '警惕', 'obl']
+['ADP', 'NOUN', 'case']	['上', '总体', 'case']
+['ADV', 'VERB', 'advmod']	['极为', '警惕', 'advmod']
+['VERB', 'VERB', 'ccomp']	['警惕', '例如', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '警惕', 'punct']
+['ADP', 'NOUN', 'case']	['对', '法轮', 'case']
+['NOUN', 'VERB', 'obl']	['法轮', '如此', 'obl']
+['PART', 'NOUN', 'conj']	['功', '法轮', 'conj']
+['NOUN', 'NOUN', 'acl']	['等', '法轮', 'acl']
+['NOUN', 'NOUN', 'appos']	['邪教', '法轮', 'appos']
+['ADV', 'VERB', 'advmod']	['尤其', '如此', 'advmod']
+['VERB', 'ADJ', 'advcl']	['如此', '有关', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '如此', 'punct']
+['PRON', 'ADJ', 'nsubj']	['这', '有关', 'nsubj']
+['ADP', 'NOUN', 'case']	['与', '增长', 'case']
+['NUM', 'NOUN', 'nummod']	['一百五十', '年', 'nummod']
+['NOUN', 'ADJ', 'nmod']	['年', '有关', 'nmod']
+['ADP', 'NOUN', 'case']	['前', '年', 'case']
+['ADJ', 'NOUN', 'amod']	['太平', '天国', 'amod']
+['NOUN', 'NOUN', 'nmod']	['天国', '增长', 'nmod']
+['PART', 'NOUN', 'case']	['的', '天国', 'case']
+['ADJ', 'NOUN', 'amod']	['惊人', '增长', 'amod']
+['ADJ', 'NOUN', 'amod']	['迅猛', '增长', 'amod']
+['NOUN', 'ADJ', 'nmod']	['增长', '有关', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['和', '影响', 'cc']
+['NOUN', 'PART', 'nmod']	['最终', '性', 'nmod']
+['NOUN', 'PART', 'compound']	['灾难', '性', 'compound']
+['PART', 'NOUN', 'conj']	['性', '增长', 'conj']
+['PART', 'NOUN', 'case']	['的', '增长', 'case']
+['NOUN', 'NOUN', 'conj']	['影响', '增长', 'conj']
+['ADJ', 'VERB', 'parataxis']	['有关', '得到', 'parataxis']
+['PUNCT', 'ADJ', 'punct']	['）', '有关', 'punct']
+['PUNCT', 'VERB', 'punct']	['，', '变得', 'punct']
+['PROPN', 'NOUN', 'nmod']	['斯潘斯', '书使', 'nmod']
+['PART', 'PROPN', 'case']	['的', '斯潘斯', 'case']
+['NOUN', 'VERB', 'nsubj']	['书使', '变得', 'nsubj']
+['PRON', 'VERB', 'nsubj']	['它', '变得', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['变得', '得到', 'parataxis']
+['ADV', 'VERB', 'advmod']	['非常', '理解', 'advmod']
+['ADV', 'VERB', 'advmod']	['容易', '理解', 'advmod']
+['VERB', 'VERB', 'xcomp']	['理解', '变得', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '得到', 'punct']
+----------------------------------------------------------------------
+这是一本我强烈推荐的书，即使是那些不喜欢非虚构类或历史类的人也不例外。
+
+(ROOT (IP (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 本))) (CP (CP (IP (NP (PRP 我)) (VP (ADVP (RB 强烈)) (VP (VV 推荐)))) (DEC 的))) (NP (NN 书))))) (, ，) (IP (VP (ADVP (IN 即使)) (VP (VC 是) (IP (NP (DP (DT 那些)) (CP (CP (IP (VP (ADVP (RB 不)) (VP (VV 喜欢) (NP (ADVP (VC 非)) (NP (NN 虚构) (SFN 类) (CC 或) (NN 历史) (SFN 类)))))) (DEC 的))) (NP (NN 人))) (VP (ADVP (RB 也)) (ADVP (RB 不)) (VP (JJ 例外))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP84609': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP29470': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'nsubj']	['这', '书', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '书', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '本', 'nummod']
+['NOUN', 'NOUN', 'clf']	['本', '书', 'clf']
+['PRON', 'VERB', 'nsubj']	['我', '推荐', 'nsubj']
+['ADV', 'VERB', 'advmod']	['强烈', '推荐', 'advmod']
+['VERB', 'NOUN', 'acl:relcl']	['推荐', '书', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '推荐', 'mark:rel']
+['NOUN', 'ROOT', 'root']	['书', 'NONE', 'root']
+['PUNCT', 'ADJ', 'punct']	['，', '例外', 'punct']
+['ADP', 'VERB', 'case']	['即使', '是', 'case']
+['VERB', 'ADJ', 'xcomp']	['是', '例外', 'xcomp']
+['DET', 'NOUN', 'det']	['那些', '人', 'det']
+['ADV', 'VERB', 'advmod']	['不', '喜欢', 'advmod']
+['VERB', 'NOUN', 'acl:relcl']	['喜欢', '人', 'acl:relcl']
+['VERB', 'VERB', 'xcomp']	['非', '喜欢', 'xcomp']
+['NOUN', 'PART', 'compound']	['虚构', '类', 'compound']
+['PART', 'VERB', 'obj']	['类', '非', 'obj']
+['CCONJ', 'PART', 'cc']	['或', '类', 'cc']
+['NOUN', 'PART', 'compound']	['历史', '类', 'compound']
+['PART', 'PART', 'conj']	['类', '类', 'conj']
+['PART', 'VERB', 'mark:rel']	['的', '喜欢', 'mark:rel']
+['NOUN', 'ADJ', 'nsubj']	['人', '例外', 'nsubj']
+['ADV', 'ADJ', 'mark']	['也', '例外', 'mark']
+['ADV', 'ADJ', 'advmod']	['不', '例外', 'advmod']
+['ADJ', 'NOUN', 'parataxis']	['例外', '书', 'parataxis']
+['PUNCT', 'NOUN', 'punct']	['。', '书', 'punct']
 ----------------------------------------------------------------------

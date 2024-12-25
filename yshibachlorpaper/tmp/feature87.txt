@@ -1,409 +1,265 @@
-在两位伊丽莎白时代和雅各布时代最伟大的作家去世几十年后，诗人兼评论家约翰·德里登对他们的感情表达了自己的真实感受。
-
-(ROOT (IP (PP (IN 在) (LCP (IP (NP (CP (CP (IP (VP (NP (QP (CD 两) (CLP (NNB 位))) (NP (NP (NP (NNP 伊丽莎白)) (NP (NN 时代))) (CC 和) (NP (NP (NNP 雅各布)) (NP (NN 时代))))) (ADVP (RB 最)) (VP (JJ 伟大)))) (DEC 的))) (NP (NN 作家))) (VP (VV 去世) (QP (CD 几十) (CLP (NNB 年))))) (IN 后))) (, ，) (NP (NP (NN 诗人) (CC 兼) (VV 评论) (SFN 家)) (NP (NNP 约翰) (/ ·) (NNP 德里登))) (VP (PP (IN 对) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 感情)))) (VP (VV 表达) (AS 了) (NP (DNP (NP (PRD 自己)) (DEC 的)) (ADJP (JJ 真实)) (NP (NN 感受))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
+.
+(ROOT (. .))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+.	ROOT	root
 ----------------------------------------------------------------------
-他写道：“我敬佩他，”他说的是本·约翰逊，“但我爱莎士比亚。”
-
-(ROOT (IP (IP (NP (PRP 他)) (VP (VV 写道) (: ：) (IP (`` “) (NP (PRP 我)) (VP (VV 敬佩) (NP (PRP 他)))))) (, ，) ('' ”) (IP (NP (CP (CP (IP (NP (PRP 他)) (VP (VV 说))) (DEC 的)))) (VP (VC 是) (NP (NNP 本) (/ ·) (NNP 约翰) (NNP 逊)))) (, ，) (IP (`` “) (ADVP (RB 但)) (NP (PRP 我)) (VP (VV 爱莎士比亚))) (. 。) ('' ”)))
-{'IP': {'IP': {}, ',': {}, "''": {}, 'IP': {}, ',': {}, '.': {}, "''": {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP': {'NP': {}, 'VP': {}, '``': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, '``': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+/
+(ROOT (. /))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+/	ROOT	root
 ----------------------------------------------------------------------
-如果在文学史的背景下，赞美可以说涉及持续的学术兴趣，而爱可以说是几个世纪以来学者和普通民众都普遍感兴趣的主题，德里登似乎已经为后人说了话。
-
-(ROOT (IP (CP (ADVP (IN 如果)) (IP (PP (IN 在) (LCP (NP (DNP (NP (NN 文学) (SFN 史)) (DEC 的)) (NP (NN 背景))) (IN 下))) (, ，) (NP (NN 赞美)) (VP (MD 可以) (VP (VV 说) (IP (VP (VV 涉及) (NP (CP (CP (IP (VP (JJ 持续))) (DEC 的))) (NP (NN 学术) (NN 兴趣))))))))) (, ，) (RB 而) (NP (CP (IP (NP (MD 爱)) (VP (MD 可以) (VP (VV 说))))) (CP (CP (IP (VP (VC 是) (IP (LCP (NP (QP (CD 几) (CLP (NNB 个))) (NP (NN 世纪))) (IN 以来)) (NP (NP (NN 学者)) (CC 和) (NP (ADJP (JJ 普通)) (NP (NN 民众)))) (VP (ADVP (RB 都)) (ADVP (RB 普遍)) (VP (VV 感) (NP (NN 兴趣))))))) (DEC 的))) (NP (NN 主题))) (, ，) (NP (NNP 德里登)) (VP (ADVP (RB 似乎)) (ADVP (RB 已经)) (PP (IN 为) (NP (NN 后人))) (VP (VV 说) (AS 了) (NP (NN 话)))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'RB': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'RB': {}, 'NP': {'CP': {}, 'CP': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'NP': {'CP': {}, 'CP': {}, 'NP': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}}
+i
+(ROOT (FW i))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+i	ROOT	root
 ----------------------------------------------------------------------
-约翰生是他时代最著名的人物，也是他死后（1637 年）几年内最成就的人物，但是今天，他的剧作相对罕见，只有“瓦尔波尼”和“炼金术士”广为人知，他的诗歌更是凤毛麟角。
-
-(ROOT (IP (NP (NNP 约翰) (VV 生)) (VP (VP (VC 是) (NP (CP (CP (IP (VP (NP (NP (PRP 他)) (NP (NN 时代))) (ADVP (RB 最)) (VP (JJ 著名)))) (DEC 的))) (NP (NN 人物)))) (, ，) (VP (VC 也是) (LCP (NP (PRP 他)) (VV 死后) (PRN (-LRB- （) (NP (CP (CP (IP (VP (LCP (QP (NP (QP (CD 1637)) (NP (NNB 年）))) (QP (CD 几) (CLP (NNB 年)))) (IN 内)) (ADVP (RB 最)) (VP (JJ 成就)))) (DEC 的))) (NP (NN 人物))) (, ，) (IP (ADVP (RB 但是)) (NP (NN 今天)) (, ，) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 剧作))) (VP (ADVP (RB 相对)) (VP (JJ 罕见)))) (, ，) (IP (NP (ADVP (VV 只有)) (NP (NP (`` “) (NNP 瓦尔波尼) ('' ”)) (CC 和) (NP (`` “) (NN 炼金) (NN 术士) ('' ”)))) (VP (ADVP (RB 广)) (VP (BB 为) (CP (IP (NP (NN 人)) (VP (VV 知))))))) (, ，) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 诗歌))) (VP (VC 更是) (NP (NNP 凤) (NNP 毛) (NNP 麟角)))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}, 'VV': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}, 'VV': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+n
+(ROOT (FW n))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+n	ROOT	root
 ----------------------------------------------------------------------
-莎士比亚已经成为这个时代的伟大天才，他的剧作将永远占据舞台，而他的一系列 sonnets 也几乎同样受到推崇。
-
-(ROOT (IP (IP (NP (NNP 莎士比亚)) (VP (ADVP (RB 已经)) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 时代))) (DEC 的)) (ADJP (JJ 伟大)) (NP (NN 天才))))))) (, ，) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 剧作))) (VP (ADVP (RB 将)) (ADVP (RB 永远)) (VP (VV 占据) (NP (NN 舞台))))) (, ，) (RB 而) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (QP (CD 一) (CLP (NN 系列))) (NP (FW sonnets))) (VP (ADVP (RB 也)) (ADVP (RB 几乎)) (ADVP (RB 同样)) (VP (VV 受到) (NP (NN 推崇))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'RB': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'RB': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
+s
+(ROOT (NP (FW s)))
+layer 2:
+{'NP': {'FW': {}}}
+{'NP': {'FW': {}}}
+layer 3:
+{'NP': {'FW': {}}}
+{'NP': {'FW': {}}}
+Dependency Features:
+s	ROOT	root
 ----------------------------------------------------------------------
-约翰逊和莎士比亚的生活和死后命运的对比，是伊恩·唐纳森在《约翰逊:一生》这部深入研究但又易于阅读的新传记中，经常出现的一个次要主题。
-
-(ROOT (IP (NP (DNP (NP (NP (DNP (NP (NNP 约翰逊) (CC 和) (NNP 莎士比亚)) (DEC 的)) (NP (NN 生活))) (CC 和) (NP (ADJP (NN 死后)) (NP (NN 命运)))) (DEC 的)) (NP (NN 对比))) (, ，) (VP (VC 是) (NP (CP (CP (IP (NP (NNP 伊恩) (/ ·) (NNP 唐纳森)) (VP (PP (IN 在) (LCP (NP (NP (-LRB- 《) (NNP 约翰逊:) (QP (CD 一)) (NP (NN 生)) (-RRB- 》)) (DP (DT 这) (CLP (NNB 部))) (CP (CP (IP (VP (VP (ADVP (RB 深入)) (VP (VV 研究))) (RB 但) (VP (ADVP (RB 又)) (VP (VV 易) (PP (VV 于) (IP (VP (VV 阅读)))))))) (DEC 的))) (ADJP (PFA 新)) (NP (NN 传记))) (IN 中))) (, ，) (ADVP (RB 经常)) (VP (VV 出现)))) (DEC 的))) (QP (CD 一) (CLP (NNB 个))) (ADJP (JJ 次要)) (NP (NN 主题)))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, ',': {}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-作为即将出版的七卷《贝内迪克·琼森作品剑桥版》的总编，唐纳森认为，尽管莎士比亚的作品被淡忘，但琼森对英国剧场的发展同样重要，甚至在某些方面可能更重要，至少在他们的戏剧首次上演的那些年里，琼森的作品更受欢迎。
-
-(ROOT (IP (PP (VV 作) (PP (VC 为) (NP (DNP (NP (CP (CP (IP (VP (ADVP (RB 即将)) (VP (VV 出版)))) (DEC 的))) (QP (CD 七) (CLP (NNB 卷))) (NP (-LRB- 《) (NP (NP (NNP 贝内迪克) (/ ·) (NNP 琼森)) (NP (NN 作品))) (NP (NNP 剑桥) (SFN 版)) (-RRB- 》))) (DEC 的)) (NP (NN 总编))))) (, ，) (NP (NNP 唐纳森)) (VP (VV 认为) (, ，) (IP (IP (CP (ADVP (IN 尽管)) (IP (NP (DNP (NP (NNP 莎士比亚)) (DEC 的)) (NP (NN 作品))) (VP (BB 被) (VP (VV 淡忘))))) (, ，) (ADVP (RB 但)) (NP (NNP 琼森)) (DNP (PP (IN 对) (NP (NP (NNP 英国)) (NP (NN 剧场)))) (DEC 的)) (NP (NN 发展)) (VP (VP (ADVP (RB 同样)) (VP (JJ 重要))) (, ，) (VP (ADVP (RB 甚至)) (PP (IN 在) (NP (DP (DT 某些)) (NP (NN 方面)))) (VP (MD 可能) (VP (ADVP (RB 更)) (VP (JJ 重要))))))) (, ，) (IP (PP (ADVP (RB 至少)) (PP (IN 在) (LCP (NP (CP (CP (IP (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 戏剧))) (VP (ADVP (CD 首次)) (VP (VV 上演)))) (DEC 的))) (DP (DT 那些) (CLP (NNB 年)))) (IN 里)))) (, ，) (NP (DNP (NP (NNP 琼森)) (DEC 的)) (NP (NN 作品))) (VP (ADVP (RB 更)) (VP (VV 受) (NP (VV 欢迎))))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'PP': {'VV': {}, 'PP': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+r
+(ROOT (FW r))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+r	ROOT	root
 ----------------------------------------------------------------------
-唐纳森写道：“约翰逊“为了改变早期现代英格兰戏剧作者的地位，大胆宣称他的道德尊严、批评权和准法律权利，即文本所有权”。
-
-(ROOT (IP (NP (NNP 唐纳森)) (VP (VV 写道) (: ：) (IP (`` “) (NP (NNP 约翰逊)) (VP (`` “) (PP (IN 为了) (IP (VP (VV 改变) (NP (DNP (NP (NP (NN 早期)) (ADJP (NN 现代)) (NP (NNP 英格兰)) (NP (NN 戏剧) (NN 作者))) (DEC 的)) (NP (NN 地位)))))) (, ，) (ADVP (RB 大胆)) (VP (VV 宣称) (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NP (NN 道德) (NN 尊严)) (EC 、) (NP (VV 批评) (SFN 权)) (CC 和) (NP (ADJP (PFA 准)) (NP (NN 法律) (NN 权利))))) (, ，) (NP (ADVP (VC 即)) (NP (NN 文本) (VV 所有) (SFN 权))))) ('' ”)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+u
+(ROOT (FW u))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+u	ROOT	root
 ----------------------------------------------------------------------
-“首先，他会让剧作家成为一个可见的人物，— — 在他作品的书名页面上名义上可见，通过他自己的剧作创作的语言可以想象到他的存在。”
-
-(ROOT (IP (-LRB- “) (IP (ADVP (RB 首先)) (, ，) (NP (PRP 他)) (VP (MD 会) (VP (VV 让) (NP (NN 剧作家)) (IP (VP (VV 成) (VP (VC 为) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 可见))) (DEC 的))) (NP (NN 人物))))))))) (, ，) (HYPH —) (HYPH —) (IP (VP (PP (IN 在) (LCP (NP (DNP (NP (NP (PRP 他)) (NP (NN 作品))) (DEC 的)) (NP (NN 书名) (NN 页面))) (IN 上))) (LCP (NP (NN 名义)) (IN 上)) (VP (MD 可) (VP (VV 见))))) (, ，) (IP (VP (PP (IN 通过) (NP (DNP (NP (DNP (NP (PRP 他) (PRD 自己)) (DEC 的)) (NP (NN 剧作) (VV 创作))) (DEC 的)) (NP (NN 语言)))) (VP (MD 可以) (VP (VRD (VV 想象) (VV 到)) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 存在))))))) (. 。) ('' ”)))
-{'IP': {'-LRB-': {}, 'IP': {}, ',': {}, 'HYPH': {}, 'HYPH': {}, 'IP': {}, ',': {}, '.': {}, "''": {}}}
-{'IP': {'-LRB-': {}, 'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'HYPH': {}, 'HYPH': {}, 'IP': {'VP': {}, 'VP': {}}, ',': {}, '.': {}, "''": {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}, 'VP': {}}}
+c
+(ROOT (FW c))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+c	ROOT	root
 ----------------------------------------------------------------------
-莎士比亚在他一生中的相对隐形，肯定会在他死后的几个世纪中造成无法解决的问题，这也证明了对他剧作的作者权问题的永恒和烦人的争论。
-
-(ROOT (IP (IP (NP (NP (NNP 莎士比亚)) (DNP (PP (IN 在) (LCP (NP (NP (PRP 他)) (QP (CD 一) (CLP (NN 生)))) (IN 中))) (DEC 的)) (ADJP (JJ 相对)) (NP (NN 隐形))) (, ，) (VP (ADVP (VV 肯定)) (VP (MD 会) (VP (PP (IN 在) (LCP (NP (DNP (LCP (NP (PRP 他)) (VV 死后)) (DEC 的)) (QP (CD 几) (CLP (NNB 个))) (NP (NN 世纪))) (IN 中))) (VP (VV 造成) (NP (CP (CP (IP (VP (ADVP (VV 无法)) (VP (VV 解决)))) (DEC 的))) (NP (NN 问题)))))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 也)) (VP (VV 证明) (AS 了) (NP (DNP (NP (DNP (PP (IN 对) (NP (NP (PRP 他)) (NP (NN 剧作)))) (DEC 的)) (NP (NN 作者) (SFN 权) (NN 问题))) (DEC 的)) (CP (CP (IP (NP (NP (NN 永恒)) (CC 和) (JJ 烦人))) (DEC 的))) (NP (NN 争论)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-如果他有远见，能够让自己成为像约翰逊那样的多姿多彩和具有斗志的公众人物（被监禁了几次，因酗酒而闻名，有时是他时代强大名人的朋友，有时是他们的敌人），那么我们就不会受到盛行的牛津派理论的困扰，这些理论仍在今天大呼小叫。
-
-(ROOT (IP (IP (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 他)) (VP (VV 有) (NP (NN 远见))))) (, ，) (VP (MD 能够) (VP (VV 让) (NP (PRD 自己)) (IP (VP (VV 成) (VP (VC 为) (NP (CP (CP (IP (VP (PP (IN 像) (NP (NNP 约翰) (NNP 逊))) (VP (PRD 那样)))) (DEC 的))) (CP (CP (IP (VP (VP (NP (QP (CD 多)) (NP (NN 姿))) (VP (NP (ADVP (CD 多)) (NP (NN 彩))))) (CC 和) (VP (VV 具有) (NP (NN 斗志))))) (DEC 的))) (NP (NN 公众) (NN 人物)) (PRN (-LRB- （) (IP (VP (BB 被) (VP (VV 监禁) (AS 了) (QP (CD 几) (CLP (NNB 次)))))) (, ，) (IP (VP (PP (IN 因) (NP (VV 酗酒))) (VP (RB 而) (VP (VV 闻名))))) (, ，) (IP (VP (ADVP (RB 有时)) (VP (VC 是) (NP (DNP (NP (NP (NP (PRP 他)) (NP (NN 时代))) (ADJP (JJ 强大)) (NP (NN 名人))) (DEC 的)) (NP (NN 朋友)))))) (, ，) (IP (VP (ADVP (RB 有时)) (VP (VC 是) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 敌人)))))) (-RRB- ）))))))))) (, ，) (ADVP (RB 那么)) (NP (PRP 我们)) (VP (ADVP (RB 就)) (VP (MD 不会) (VP (VV 受到) (NP (DNP (NP (CP (CP (IP (VP (VV 盛行))) (DEC 的))) (NP (NNP 牛津) (SFN 派)) (NP (NN 理论))) (DEC 的)) (NP (NN 困扰))))))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 理论))) (VP (ADVP (RB 仍)) (PP (IN 在) (NP (NN 今天))) (VP (VV 大呼) (VV 小叫)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
 ----------------------------------------------------------------------
-在一个似乎有点多余的前言中，唐纳森反对大众的一般观点，即约翰逊的传记作者面临着与写莎士比亚作品的作家相同的“谜题和兴奋”。唐纳森开始他的书，几乎是字面意思，约翰逊从伦敦出发，开始了一次完全是徒步的苏格兰之旅。
-
-(ROOT (IP (IP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (RB 似乎) (VP (ADVP (VV 有点)) (VP (JJ 多余))))) (DEC 的))) (NP (NN 前言))) (IN 中))) (, ，) (NP (NNP 唐) (NNP 纳森)) (VP (VV 反对) (NP (DNP (NP (NN 大众)) (DEC 的)) (ADJP (JJ 一般)) (NP (NN 观点))))) (, ，) (IP (ADVP (VC 即)) (NP (DNP (NP (NNP 约翰逊)) (DEC 的)) (NP (NN 传记) (NN 作者))) (VP (VV 面临) (AS 着) (NP (CP (CP (IP (VP (PP (IN 与) (NP (CP (CP (IP (VP (VV 写) (NP (NP (NNP 莎士比亚)) (NP (NN 作品))))) (DEC 的))) (NP (NN 作家)))) (VP (JJ 相同)))) (DEC 的))) (NP (`` “) (NN 谜题) (CC 和) (NN 兴奋) ('' ”))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-那是 1618 年，他 46 岁了，已经是一个名声显赫的文学人物，“在路上，当地官员、大家族的使者、年轻人和老人都跑出来欢迎他。”
-
-(ROOT (IP (IP (NP (PRD 那)) (VP (VC 是) (QP (CD 1618) (CLP (NNB 年))))) (, ，) (IP (NP (PRP 他)) (VP (QP (CD 46)) (VP (NNB 岁了)))) (, ，) (IP (VP (ADVP (RB 已经)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (NP (NN 名声)) (VP (JJ 显赫))) (DEC 的))) (NP (NN 文学) (NN 人物)))))) (, ，) (IP (`` “) (PP (VV 在) (NP (NN 路上))) (, ，) (NP (NP (NN 当地) (NN 官员)) (EC 、) (NP (DNP (NP (ADJP (PFA 大)) (NP (NN 家族))) (DEC 的)) (NP (NN 使者))) (EC 、) (NP (ADJP (JJ 年轻)) (NP (SFN 人))) (CC 和) (NP (NN 老人))) (VP (ADVP (RB 都)) (VP (VP (VRD (VV 跑) (VV 出))) (VP (RB 来) (VP (VV 欢迎) (NP (PRP 他))))))) (. 。) ('' ”)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}, "''": {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'VP': {}, '``': {}, 'PP': {}, ',': {}, 'NP': {}}, ',': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'VP': {}, '``': {}, 'PP': {}, ',': {}, 'NP': {}}}
+x
+(ROOT (FW x))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+x	ROOT	root
 ----------------------------------------------------------------------
-尽管他还有很多工作和更大的名声在前面，但约翰逊“已经成为英国第一个文学名人”。
-
-(ROOT (IP (CP (ADVP (IN 尽管)) (IP (NP (PRP 他)) (VP (ADVP (RB 还)) (VP (VV 有) (IP (NP (NP (QP (CD 很多)) (NP (NN 工作))) (CC 和) (NP (CP (CP (IP (VP (JJ 更大))) (DEC 的))) (NP (NN 名声)))) (PP (VV 在) (NP (NN 前面)))))))) (, ，) (ADVP (RB 但)) (NP (NNP 约翰逊)) (VP (`` “) (ADVP (RB 已经)) (VP (VV 成) (VP (VC 为) (NP (NP (NNP 英国)) (QP (CD 第一) (CLP (NNB 个))) (NP (NN 文学) (NN 名人))))) ('' ”)) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'NNP': {}}, 'VP': {'``': {}, 'ADVP': {}, 'VP': {}, "''": {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'``': {}, 'ADVP': {}, 'VP': {}, "''": {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-约翰逊的苏格兰之旅还因为他与威廉·德拉蒙德的决战而闻名，德拉蒙德在他们的对话中的笔记是学者的主要资源，但从某些方面来说，它是一个令人怀疑和误导的资源，唐纳森充分论证了这一点。
-
-(ROOT (IP (IP (NP (DNP (NP (NNP 约翰) (NNP 逊)) (DEC 的)) (DNP (NP (NNP 苏格兰)) (DEC 之)) (NP (NN 旅))) (VP (ADVP (RB 还)) (PP (IN 因为) (NP (NP (PRP 他)) (DNP (PP (IN 与) (NP (NNP 威廉) (/ ·) (NNP 德拉蒙德))) (DEC 的)) (NP (NN 决战)))) (VP (RB 而) (VP (VV 闻名))))) (, ，) (IP (NP (NP (NNP 德拉蒙德)) (DNP (PP (IN 在) (LCP (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 对话))) (IN 中))) (DEC 的)) (NP (NN 笔记))) (VP (VC 是) (NP (DNP (NP (NN 学者)) (DEC 的)) (ADJP (JJ 主要)) (NP (NN 资源))))) (, ，) (IP (ADVP (RB 但)) (IP (VP (PP (IN 从) (NP (DP (DT 某些)) (NP (NN 方面)))) (VP (RB 来) (VP (VV 说))))) (, ，) (NP (PRP 它)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 令) (NP (NN 人)) (IP (VP (VP (VV 怀疑)) (CC 和) (VP (VV 误导)))))) (DEC 的))) (NP (NN 资源))))) (, ，) (IP (NP (NNP 唐) (NNP 纳森)) (VP (ADVP (RB 充分)) (VP (VV 论证) (AS 了) (DP (DT 这) (QP (CD 一) (CLP (NN 点))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+/
+(ROOT (. /))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+/	ROOT	root
 ----------------------------------------------------------------------
-例如，就是从这些简略的笔记中，我们可以看到约翰逊的形象，他被认为是文学伦敦的第一个讽刺家？他认为伟大的诗人约翰·东恩（约翰逊的同时代人和朋友）“应该被绞死”，因为“不懂拿什么样的口音来说”。
-
-(ROOT (IP (IP (ADVP (VV 例如)) (, ，) (VP (VC 就是) (IP (PP (IN 从) (LCP (NP (DP (DT 这些)) (CP (CP (IP (VP (JJ 简略))) (DEC 的))) (NP (NN 笔记))) (IN 中))) (, ，) (NP (PRP 我们)) (VP (MD 可以) (VP (VV 看到) (NP (DNP (NP (NNP 约翰逊)) (DEC 的)) (NP (NN 形象)))))))) (, ，) (IP (NP (PRP 他)) (VP (BB 被) (VP (VCP (VV 认为) (VC 是)) (NP (DNP (NP (NP (NN 文学)) (NP (NNP 伦敦))) (DEC 的)) (QP (CD 第一) (CLP (NNB 个))) (NP (VV 讽刺) (SFN 家)))))) (. ？)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+B
+(ROOT (FW B))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+B	ROOT	root
 ----------------------------------------------------------------------
-更臭名昭著的是，指责莎士比亚“想要艺术”。
-
-(ROOT (IP (NP (CP (CP (IP (NP (JJ 更臭) (NN 名)) (VP (JJ 昭著))) (DEC 的)))) (VP (VC 是) (, ，) (IP (VP (VV 指责) (NP (NNP 莎士比亚)) (IP (VP (`` “) (VV 想要) (NP (NN 艺术)) ('' ”)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'CP': {}}}
-{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+1
+(ROOT (CD 1))
+layer 2:
+{'CD': {}}
+layer 3:
+{'CD': {}}
+Dependency Features:
+1	ROOT	root
 ----------------------------------------------------------------------
-尽管约翰生和莎士比亚都来自相对贫寒的家庭，但约翰生的文学修养显然要高一些。
-
-(ROOT (IP (CP (ADVP (IN 尽管)) (IP (NP (NNP 约翰) (SFN 生) (CC 和) (NNP 莎士比亚)) (VP (ADVP (RB 都)) (VP (VV 来) (PP (VV 自) (NP (CP (CP (IP (VP (ADVP (RB 相对)) (VP (JJ 贫寒)))) (DEC 的))) (NP (NN 家庭)))))))) (, ，) (ADVP (RB 但)) (NP (DNP (NP (NNP 约翰) (SFN 生)) (DEC 的)) (NP (NN 文学) (NN 修养))) (VP (ADVP (RB 显然)) (VP (MD 要) (VP (JJ 高) (ADVP (JJ 一些))))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+3
+(ROOT (LS 3))
+layer 2:
+{'LS': {}}
+layer 3:
+{'LS': {}}
+Dependency Features:
+3	ROOT	root
 ----------------------------------------------------------------------
-他是苏格兰人，因此他的旅行也是路旅，他的出生有一些猜测，尽管大概是 1572 年。
-
-(ROOT (IP (IP (NP (PRP 他)) (VP (VC 是) (NP (NP (NNP 苏格兰)) (NP (SFN 人))))) (, ，) (IP (ADVP (IN 因)) (ADVP (PRD 此)) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 旅行))) (VP (VC 也是) (NP (NN 路旅)))) (, ，) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 出生))) (VP (VV 有) (NP (QP (JJ 一些)) (NP (NN 猜测))))) (, ，) (IP (VP (ADVP (IN 尽管)) (ADVP (RB 大概)) (VP (VC 是) (QP (CD 1572) (CLP (NNB 年)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
+A
+(ROOT (FW A))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+A	ROOT	root
 ----------------------------------------------------------------------
-（唐纳森在一篇关于占星术的巨大偏离中花费了太长时间来搜集一个确切的夏季日期。)
-
-(ROOT (IP (-LRB- （) (NP (NNP 唐纳森)) (VP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 篇))) (DNP (PP (IN 关于) (NP (VV 占星) (SFN 术))) (DEC 的)) (ADJP (JJ 巨大)) (NP (NN 偏离))) (IN 中))) (VP (VP (VV 花费) (AS 了) (NP (ADJP (JJ 太长)) (NP (NN 时间)))) (VP (RB 来) (VP (VV 搜集) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 确切))) (DEC 的))) (NP (NN 夏季) (NN 日期))))))) (. 。)))
-{'IP': {'-LRB-': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'-LRB-': {}, 'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
 ----------------------------------------------------------------------
-他的父亲在他出生前一个月就去世了，琼森在伦敦长大，成长为一名砖匠的继子，即使在开始写作后，他也会自己从事这项职业。
-
-(ROOT (IP (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 父亲))) (VP (PP (IN 在) (NP (LCP (IP (NP (PRP 他)) (VP (VV 出生))) (IN 前)) (QP (CD 一) (CLP (NNB 个))) (NP (NN 月)))) (ADVP (RB 就)) (VP (VV 去世) (UH 了)))) (, ，) (IP (NP (NNP 琼森)) (VP (VP (PP (VV 在) (NP (NNP 伦敦))) (VP (VV 长大))) (, ，) (VP (VRD (VV 成长) (VC 为)) (NP (DNP (NP (QP (CD 一) (CLP (NNB 名))) (NP (NN 砖匠))) (DEC 的)) (NP (NN 继子)))))) (, ，) (VP (ADVP (IN 即使)) (PP (IN 在) (LCP (IP (VP (VV 开始) (VP (VV 写作)))) (IN 后))) (, ，) (NP (PRP 他)) (VP (ADVP (RB 也)) (VP (MD 会) (VP (NP (PRD 自己)) (VP (VV 从事) (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 职业)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'VP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'VP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+e
+(ROOT (NP (ADD e)))
+layer 2:
+{'NP': {'ADD': {}}}
+{'NP': {'ADD': {}}}
+layer 3:
+{'NP': {'ADD': {}}}
+{'NP': {'ADD': {}}}
+Dependency Features:
+e	ROOT	root
 ----------------------------------------------------------------------
-但是，他的智力让他得以进入一所好学校，他精通拉丁语，在整个职业生涯中，他一直以古典作家（他特别崇拜奥德赛）为榜样。
-
-(ROOT (IP (IP (ADVP (RB 但是)) (, ，) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 智力))) (VP (VV 让) (NP (PRP 他)) (IP (VP (VV 得) (VP (RB 以) (VP (VV 进入) (NP (QP (CD 一) (CLP (NNB 所))) (ADJP (JJ 好)) (NP (NN 学校))))))))) (, ，) (IP (NP (PRP 他)) (VP (VV 精通) (NP (NP (NNP 拉丁)) (NP (SFN 语))))) (, ，) (IP (PP (IN 在) (LCP (NP (DP (DT 整个)) (NP (NN 职业) (NN 生涯))) (IN 中))) (, ，) (NP (PRP 他)) (VP (ADVP (RB 一直)) (PP (VV 以) (NP (ADJP (JJ 古典)) (NP (NN 作家)) (PRN (-LRB- （) (IP (NP (PRP 他)) (VP (ADVP (RB 特别)) (VP (VV 崇拜) (NP (NNP 奥德赛))))) (-RRB- ）)))) (VP (VC 为) (NP (NN 榜样))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+n
+(ROOT (FW n))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+n	ROOT	root
 ----------------------------------------------------------------------
-他的戏剧生涯起步于揭短隐的早期合作，约翰逊后来蔑视了这些作品，并将其排除在 1616 年出版的《第一集》中。
-
-(ROOT (IP (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 戏剧) (NN 生涯))) (VP (VV 起) (VP (VV 步) (PP (VV 于) (NP (DNP (NP (JJ 揭短隐)) (DEC 的)) (NP (NN 早期) (NN 合作))))))) (, ，) (IP (NP (NNP 约翰逊)) (VP (VP (ADVP (NN 后来)) (VP (VV 蔑视) (AS 了) (NP (DP (DT 这些)) (NP (NN 作品))))) (, ，) (RB 并) (VP (BB 将) (IP (NP (PRP 其)) (VP (VV 排除) (PP (IN 在) (LCP (NP (DNP (NP (CD 1616) (NNB 年出版)) (DEC 的)) (QP (-LRB- 《) (QP (CD 第一) (CLP (NNB 集))) (-RRB- 》))) (IN 中)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
 ----------------------------------------------------------------------
-其中一部作品《狗屎岛》被遗失，导致他因煽动叛乱而入狱。
-
-(ROOT (IP (IP (NP (NP (NP (NN 其中)) (QP (CD 一) (CLP (NNB 部))) (NP (NN 作品))) (NP (-LRB- 《) (NN 狗) (SFN 屎) (SFN 岛) (-RRB- 》))) (VP (BB 被) (VP (VV 遗失)))) (, ，) (IP (VP (VV 导致) (IP (NP (PRP 他)) (VP (PP (IN 因) (IP (VP (VV 煽动) (NP (NN 叛乱))))) (VP (RB 而) (VP (VV 入狱))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}}}
+z
+(ROOT (FW z))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+z	ROOT	root
 ----------------------------------------------------------------------
-讽刺，这在莎士比亚的作品中从未出现过，但成为了约翰逊的专长，在伊丽莎白时代，这是一项危险的业务。
-
-(ROOT (IP (IP (VP (VV 讽刺))) (, ，) (IP (NP (PRD 这)) (VP (VP (PP (IN 在) (LCP (NP (DNP (NP (NNP 莎士比亚)) (DEC 的)) (NP (NN 作品))) (IN 中))) (ADVP (IN 从)) (ADVP (RB 未)) (VP (VV 出现) (AS 过))) (, ，) (VP (ADVP (RB 但)) (VP (VV 成) (VP (VC 为) (AS 了) (NP (DNP (NP (NNP 约翰逊)) (DEC 的)) (NP (NN 专长)))))))) (, ，) (IP (PP (IN 在) (NP (NP (NNP 伊丽莎白)) (NP (NN 时代)))) (, ，) (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 项))) (CP (CP (IP (VP (JJ 危险))) (DEC 的))) (NP (NN 业务))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+h
+(ROOT (FW h))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+h	ROOT	root
 ----------------------------------------------------------------------
-也有詹姆士一世统治时期的英格兰：约翰逊在詹姆斯统治时期也因为写作而惹恼王室，他与他的合作者一起被关押了起来，他们的剧作《向东去！》（Eastward Ho!）也因此遭到禁演。
-
-(ROOT (IP (IP (VP (ADVP (RB 也)) (VP (VV 有) (NP (DNP (IP (NP (NNP 詹姆士) (NNP 一世)) (NP (VV 统治) (NN 时期))) (DEC 的)) (NP (NNP 英格兰)))))) (: ：) (IP (NP (NNP 约翰逊)) (VP (PP (IN 在) (NP (NP (NP (NNP 詹姆斯)) (NP (NN 统治))) (NP (NN 时期)))) (ADVP (RB 也)) (PP (IN 因为) (NP (VV 写作))) (VP (RB 而) (VP (VV 惹恼) (NP (NN 王室)))))) (, ，) (IP (NP (PRP 他)) (VP (PP (IN 与) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (VV 合作) (SFN 者)))) (ADVP (NN 一起)) (VP (BB 被) (VP (VV 关押) (AS 了) (VV 起来))))) (, ，) (IP (NP (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 剧作))) (NP (-LRB- 《) (IN 向) (VV 东去) (-RRB- ！) (-RRB- 》) (PRN (-LRB- （) (NP (FW Eastward) (FW Ho!)) (-RRB- ）)))) (VP (ADVP (RB 也)) (PP (IN 因) (NP (PRD 此))) (VP (VV 遭到) (NP (NN 禁演))))) (. 。)))
-{'IP': {'IP': {}, ':': {}, 'IP': {}, ',': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, ',': {}, '.': {}}}
-{'IP': {'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
+.
+(ROOT (. .))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+.	ROOT	root
 ----------------------------------------------------------------------
-唐纳森指出，现存的文本几乎没有提到哪些行为特别激怒了君主，除非这些行为是对现在占据宫廷的苏格兰骑士的一般性挖苦。
-
-(ROOT (IP (NP (NNP 唐纳森)) (VP (VV 指出) (, ，) (IP (IP (NP (DNP (ADJP (VV 现存)) (DEC 的)) (NP (NN 文本))) (VP (ADVP (RB 几乎)) (VP (VV 没有) (VP (VV 提到) (IP (NP (DP (DT 哪些)) (NP (NN 行为))) (VP (ADVP (RB 特别)) (VP (VV 激怒) (AS 了) (NP (NN 君主))))))))) (, ，) (CP (ADVP (IN 除非)) (IP (NP (DP (DT 这些)) (NP (NN 行为))) (VP (VC 是) (NP (DNP (PP (IN 对) (NP (CP (CP (IP (VP (NP (NN 现在)) (VP (VV 占据) (NP (NN 宫廷))))) (DEC 的))) (NP (NNP 苏格兰)) (NP (NN 骑士)))) (DEC 的)) (ADJP (JJ 一般)) (ADJP (SFN 性)) (NP (NN 挖苦)))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-国王和女王很容易生气。
-
-(ROOT (IP (NP (NN 国王) (CC 和) (NN 女王)) (VP (ADVP (RB 很)) (VP (RB 容易) (IP (VP (JJ 生气))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}, 'CC': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}, 'CC': {}, 'NN': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+x
+(ROOT (FW x))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+x	ROOT	root
 ----------------------------------------------------------------------
-尽管有这些令人费解的失误，但鉴于他的野心和他距离权力中心的近距离，约翰生一生在英国宫廷中取得了长足的进步，这是一项令人印象深刻的成就，考虑到他面临的诸多困难。
-
-(ROOT (IP (IP (IP (VP (ADVP (IN 尽管)) (VP (VV 有) (NP (DP (DT 这些)) (CP (CP (IP (VP (VV 令) (NP (NN 人)) (IP (VP (VV 费解))))) (DEC 的))) (NP (NN 失误)))))) (, ，) (ADVP (RB 但)) (PP (VV 鉴) (PP (VV 于) (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 野心))) (CC 和) (NP (NP (PRP 他)) (CP (IP (VP (IN 距离) (NP (NN 权力) (NN 中心)))) (DEC 的)) (ADJP (PFA 近)) (NP (NN 距离)))))) (, ，) (NP (NP (NNP 约翰) (VV 生)) (QP (CD 一) (CLP (NN 生)))) (VP (PP (IN 在) (LCP (NP (NP (NNP 英国)) (NP (NN 宫廷))) (IN 中))) (VP (VV 取得) (AS 了) (NP (CP (CP (IP (VP (JJ 长足))) (DEC 的))) (NP (NN 进步)))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 项))) (CP (CP (IP (VP (VV 令) (NP (NN 人)) (IP (NP (NN 印象)) (VP (JJ 深刻))))) (DEC 的))) (NP (NN 成就))))) (, ，) (IP (VP (VRD (VV 考虑) (VV 到)) (NP (CP (CP (IP (NP (PRP 他)) (VP (VV 面临))) (DEC 的))) (QP (JJ 诸多)) (NP (NN 困难))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-唐纳森写道：“他是一个难以接近、易冲动、自恋、学术派、喜欢喝酒的人，信仰错误，有犯罪前科，” 他还是一个“讽刺宫廷习俗”的人，被指控叛国。
-
-(ROOT (IP (IP (NP (NNP 唐纳森)) (VP (VV 写道) (: ：) (IP (`` “) (NP (PRP 他)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VP (ADVP (JJ 难)) (ADVP (RB 以)) (VP (VV 接近))) (EC 、) (VP (ADVP (VV 易)) (VP (JJ 冲动))) (EC 、) (VP (JJ 自恋)) (EC 、) (NP (VV 学术) (SFN 派)) (EC 、) (VP (VV 喜欢) (IP (VP (VV 喝) (NP (NN 酒))))))) (DEC 的))) (NP (NN 人)))) (, ，) (IP (NP (NN 信仰)) (VP (JJ 错误))) (, ，) (IP (VP (VV 有) (NP (NP (NN 犯罪)) (ADJP (PFA 前)) (NP (SFN 科)))))))) (, ，) ('' ”) (IP (NP (PRP 他)) (VP (VP (VC 还是) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (NP (`` “) (ADJP (JJ 讽刺)) (NP (NN 宫廷) (NN 习俗)) ('' ”)) (DEC 的)) (NP (NN 人)))) (, ，) (VP (BB 被) (VP (VV 指控) (IP (VP (VV 叛国))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, "''": {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-尽管如此，他仍然成为了最受欢迎的戏剧作家之一，他的作品是为国王和王后以及各种有钱人在特殊场合和节日组织的复杂的娱乐活动，这些活动结合了诗歌、音乐和舞蹈。
-
-(ROOT (IP (IP (IP (VP (ADVP (IN 尽管)) (VP (VV 如此)))) (, ，) (NP (PRP 他)) (VP (ADVP (RB 仍然)) (VP (VV 成) (VP (VC 为) (AS 了) (NP (DNP (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (VV 受) (NP (VV 欢迎))))) (DEC 的))) (NP (NN 戏剧) (NN 作家))) (DEC 之)) (NP (CD 一))))))) (, ，) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 作品))) (VP (VC 是) (NP (CP (CP (IP (VP (PP (IN 为) (NP (NP (NN 国王) (CC 和) (NN 王后)) (CC 以及) (NP (ADJP (DT 各种)) (ADJP (JJ 有钱)) (NP (SFN 人))))) (PP (IN 在) (NP (NP (ADJP (JJ 特殊)) (NP (NN 场合))) (CC 和) (NP (NN 节日)))) (VP (VV 组织)))) (DEC 的))) (CP (CP (IP (VP (JJ 复杂))) (DEC 的))) (NP (NN 娱乐) (NN 活动))))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 活动))) (VP (VV 结合) (AS 了) (NP (NN 诗歌) (EC 、) (NN 音乐) (CC 和) (NN 舞蹈)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-他的天赋让他得到了很多宽恕。
-
-(ROOT (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 天赋))) (VP (VV 让) (NP (PRP 他)) (IP (VP (VV 得到) (AS 了) (NP (QP (CD 很多)) (NP (NN 宽恕)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
-----------------------------------------------------------------------
-约翰逊结过多次矛盾缠身的婚姻（还有一位妻子，她几乎在这本传记中没有任何描述，也没有任何作用），唐纳森对这些都进行了彻底的挖掘。
-
-(ROOT (IP (IP (NP (NNP 约翰逊)) (VP (VV 结) (AS 过) (NP (QP (CD 多) (CLP (NNB 次))) (CP (CP (IP (NP (NN 矛盾)) (VP (VV 缠身))) (DEC 的))) (NP (NN 婚姻)) (PRN (-LRB- （) (IP (VP (ADVP (RB 还)) (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 位))) (NP (NN 妻子)))))) (, ，) (IP (NP (PRP 她)) (VP (VP (ADVP (RB 几乎)) (PP (IN 在) (LCP (NP (DP (DT 这) (CLP (NNB 本))) (NP (NN 传记))) (IN 中))) (VP (VV 没有) (NP (DP (DT 任何)) (NP (NN 描述))))) (, ，) (VP (ADVP (RB 也)) (VP (VV 没有) (NP (DP (DT 任何)) (NP (NN 作用))))))) (-RRB- ）))))) (, ，) (IP (NP (NNP 唐纳森)) (VP (PP (IN 对) (NP (DT 这些))) (ADVP (RB 都)) (VP (VV 进行) (AS 了) (NP (CP (CP (IP (VP (JJ 彻底))) (DEC 的))) (NP (NN 挖掘)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-他在论述最近的学术成果时，大多数是在讨论小细节，他对其他约翰逊专家的评价也很客气，甚至有些过分。
-
-(ROOT (IP (IP (NP (PRP 他)) (PP (IN 在) (LCP (IP (VP (VV 论述) (NP (DNP (NP (NN 最近)) (DEC 的)) (NP (NN 学术) (NN 成果))))) (IN 时))) (, ，) (QP (ADVP (RB 大)) (QP (RB 多数))) (VP (VC 是) (VP (ADVP (IN 在)) (VP (VV 讨论) (NP (ADJP (PFA 小)) (NP (NN 细节))))))) (, ，) (IP (NP (PRP 他)) (DNP (PP (IN 对) (NP (DP (DT 其他)) (NP (NNP 约翰逊)) (NP (NN 专家)))) (DEC 的)) (NP (NN 评价)) (VP (VP (ADVP (RB 也)) (ADVP (RB 很)) (VP (JJ 客气))) (, ，) (VP (ADVP (RB 甚至)) (ADVP (VV 有些)) (VP (JJ 过分))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'PP': {}, ',': {}, 'QP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'DNP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'PP': {}, ',': {}, 'QP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'DNP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-尽管书中有丰富的脚注，但经常出现类似“Barbara Mowat 巧妙地论证了”和“Fredson Bowers 令人信服地提出了”这样的短语。
-
-(ROOT (IP (CP (ADVP (IN 尽管)) (IP (NP (NN 书中)) (VP (VV 有) (NP (CP (CP (IP (VP (JJ 丰富))) (DEC 的))) (NP (NN 脚) (SFN 注)))))) (, ，) (ADVP (RB 但)) (VP (ADVP (RB 经常)) (VP (VV 出现) (NP (VP (VP (VV 类似) (NP (`` “) (NP (FW Barbara) (FW Mowat)) (NP (ADJP (JJ 巧妙)) (NP (NN 地论))) (NP (SFN 证)) (UH 了) ('' ”))) (CC 和) (NP (`` “) (NP (FW Fredson) (FW Bowers)) (VP (DVP (VP (ADVP (RB 令人)) (VP (JJ 信服))) (DEV 地)) (VP (VV 提出) (UH 了))) ('' ”))) (DNP (NP (PRD 这样)) (DEC 的)) (NP (NN 短语))))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'ADVP': {'RB': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-因为它的主题不断变化，“Jonson 就像他自己的作品 Volpone 一样，像一名演员一样灵活地从一个角色走到另一个角色，”唐纳森 (Donaldson) 这样说 ，尽管有时会过度地游离在法庭政治和宗教问题的边缘，但这本书仍然很活泼，这些问题一直是 Jonson 一生中的动荡话题。
-
-(ROOT (IP (IP (PP (IN 因为) (IP (NP (DNP (NP (PRP 它)) (DEC 的)) (NP (NN 主题))) (VP (ADVP (RB 不断)) (VP (VV 变化))))) (, ，) (`` “) (NP (FW Jonson)) (VP (IP (VP (PP (IN 就像) (NP (NP (DNP (NP (PRP 他) (PRD 自己)) (DEC 的)) (NP (NN 作品))) (NP (FW Volpone)))) (VP (JJ 一样)))) (, ，) (PP (IN 像) (NP (QP (CD 一) (CLP (NNB 名))) (NP (NN 演员)))) (VP (JJ 一样)) (DVP (VP (JJ 灵活)) (DEV 地)) (PP (IN 从) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 角色)))) (VP (VV 走到) (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 角色)))))) (, ，) ('' ”) (IP (NP (NNP 唐纳森) (FW -LRB-Donaldson-RRB-)) (VP (ADVP (RB 这样)) (VP (VV 说)))) (, ，) (IP (IP (VP (ADVP (IN 尽管)) (ADVP (RB 有时)) (VP (MD 会) (VP (DVP (VP (JJ 过度)) (DEV 地)) (VP (VV 游离) (PP (IN 在) (NP (DNP (NP (NP (NN 法庭) (NN 政治) (CC 和) (NN 宗教)) (NP (NN 问题))) (DEC 的)) (NP (NN 边缘))))))))) (, ，) (ADVP (RB 但)) (NP (DP (DT 这)) (NP (NN 本书))) (VP (ADVP (RB 仍然)) (ADVP (RB 很)) (VP (JJ 活泼)))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 问题))) (VP (ADVP (RB 一直)) (VP (VC 是) (NP (NP (FW Jonson)) (DNP (LCP (NP (NN 一生)) (IN 中)) (DEC 的)) (ADJP (JJ 动荡)) (NP (NN 话题)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, "''": {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, '``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP': {'NP': {}, 'VP': {}, 'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, '``': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-(约翰逊在伊丽莎白女王统治期间皈依天主教，并因拒绝接受天主教而被带到法庭，与他的妻子一起，但他后来回到了英国国教，在这两次事件中，政治机会主义似乎没有发挥任何作用。)
-
-(ROOT (IP (IP (NP (NNP -LRB-约翰逊)) (VP (VP (PP (IN 在) (NP (IP (NP (NNP 伊丽莎白) (NN 女王)) (VP (VV 统治))) (NP (NN 期间)))) (VP (VV 皈依) (NP (NNP 天主) (SFN 教)))) (, ，) (RB 并) (VP (PP (IN 因) (IP (VP (VV 拒绝) (IP (VP (VV 接受) (NP (NNP 天主) (SFN 教))))))) (VP (RB 而) (VP (VP (BB 被) (VP (VV 带到) (NP (NN 法庭)))) (, ，) (VP (PP (IN 与) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 妻子)))) (VP (NN 一起)))))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 他)) (VP (ADVP (NN 后来)) (VP (VV 回到) (AS 了) (NP (NP (NNP 英国)) (NP (NN 国教)))))) (, ，) (IP (PP (IN 在) (LCP (NP (DP (DT 这) (QP (CD 两) (CLP (NNB 次)))) (NP (NN 事件))) (IN 中))) (, ，) (NP (NN 政治) (NN 机会) (NN 主义)) (VP (ADVP (RB 似乎)) (VP (VV 没有) (VP (VV 发挥) (NP (DP (DT 任何)) (NP (NN 作用))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-考虑到约翰逊的作品数量巨大，唐纳森对其作品的分析必然要简化，但他为当代伦敦生活的大型喜剧提出了鲜明的论点，并对现在几乎已经陌生的历史剧《塞凯纳斯的覆辙》（Sejanus His Fall）和《卡蒂利涅的阴谋》（Catiline His Conspiracy）给予了同样的重视。
-
-(ROOT (IP (IP (IP (VP (VRD (VV 考虑) (VV 到)) (IP (NP (NP (DNP (NP (NNP 约翰逊)) (DEC 的)) (NP (NN 作品))) (NP (NN 数量))) (VP (JJ 巨大))))) (, ，) (NP (NP (NNP 唐纳森)) (DNP (PP (IN 对) (NP (NP (PRP 其)) (NP (NN 作品)))) (DEC 的)) (NP (NN 分析))) (VP (ADVP (RB 必然)) (VP (MD 要) (VP (VV 简化))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 他)) (VP (VP (PP (IN 为) (NP (DNP (NP (NP (NN 当代)) (NP (NNP 伦敦)) (NP (NN 生活))) (DEC 的)) (ADJP (JJ 大型)) (NP (NN 喜剧)))) (VP (VV 提出) (AS 了) (NP (CP (CP (IP (VP (JJ 鲜明))) (DEC 的))) (NP (NN 论点))))) (, ，) (RB 并) (VP (PP (IN 对) (NP (NP (NP (CP (CP (IP (VP (NP (NN 现在)) (ADVP (RB 几乎)) (ADVP (RB 已经)) (VP (JJ 陌生)))) (DEC 的))) (NP (NN 历史) (SFN 剧))) (NP (-LRB- 《) (DNP (NP (NNP 塞凯纳斯)) (DEC 的)) (NP (NN 覆辙)) (-RRB- 》) (PRN (-LRB- （) (NP (FW Sejanus) (FW His) (FW Fall)) (-RRB- ）)))) (CC 和) (NP (-LRB- 《) (DNP (NP (NNP 卡蒂利涅)) (DEC 的)) (NP (NN 阴谋)) (-RRB- 》) (PRN (-LRB- （) (NP (FW Catiline) (FW His) (FW Conspiracy)) (-RRB- ）))))) (VP (VV 给予) (AS 了) (NP (DNP (ADJP (JJ 同样)) (DEC 的)) (NP (NN 重视))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-他的诗歌也有很多，大多写给赞美顾客的人士，还有他与建筑师和设计师伊尼戈·琼斯合作（并争吵）的面具的描述。
-
-(ROOT (IP (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 诗歌))) (VP (ADVP (RB 也)) (VP (VV 有) (QP (CD 很多))))) (, ，) (IP (NP (CP (CP (IP (VP (ADVP (RB 大多)) (VP (VV 写给) (NP (ADJP (NN 赞美)) (NP (NN 顾客)))))) (DEC 的))) (NP (NN 人士))) (, ，) (VP (ADVP (RB 还)) (VP (VV 有) (NP (DNP (NP (CP (IP (NP (PRP 他)) (VP (VP (PP (IN 与) (NP (NP (VV 建筑) (SFN 师) (CC 和) (VV 设计) (SFN 师)) (NP (NNP 伊尼戈) (/ ·) (NNP 琼斯)))) (VP (VV 合作))) (PRN (-LRB- （) (RB 并) (VP (VV 争吵)) (-RRB- ）)))) (DEC 的)) (NP (NN 面具))) (DEC 的)) (NP (NN 描述)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-约翰生的作品中有一些可以引用的段落，比如“只为你用眼神倾倒”，但是由于他最出色的才华是野蛮的讽刺，因此他的戏剧缺乏莎士比亚即使是最微不足道的喜剧都具有的普遍吸引力。
-
-(ROOT (IP (IP (LCP (NP (DNP (NP (NNP 约翰) (VV 生)) (DEC 的)) (NP (NN 作品))) (IN 中)) (VP (VV 有) (NP (QP (JJ 一些)) (CP (CP (IP (VP (MD 可以) (VP (VV 引用)))) (DEC 的))) (NP (NN 段落))))) (, ，) (IP (ADVP (VV 比如)) (VP (`` “) (ADVP (RB 只)) (PP (IN 为) (NP (PRP 你))) (PP (VV 用) (NP (NN 眼神))) (VP (VV 倾倒)) ('' ”))) (, ，) (IP (ADVP (RB 但是)) (PP (IN 由于) (IP (NP (NP (PRP 他)) (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 出色)))) (DEC 的))) (NP (RB 才) (NNP 华))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 野蛮))) (DEC 的))) (NP (NN 讽刺)))))) (, ，) (ADVP (IN 因)) (ADVP (PRD 此)) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 戏剧))) (VP (VV 缺乏) (IP (NP (NNP 莎士比亚)) (VP (ADVP (IN 即使)) (VP (VC 是) (NP (CP (CP (IP (NP (CP (CP (IP (VP (VCD (JJ 最微) (JJ 不足道)))) (DEC 的))) (NP (NN 喜剧))) (VP (ADVP (RB 都)) (VP (VV 具有)))) (DEC 的))) (ADJP (JJ 普遍)) (NP (VV 吸引) (SFN 力)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'LCP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'VP': {}, 'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'LCP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'VP': {}, 'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-(托马斯·斯坦利·汤姆森的拜师，爱伦·坡写道，他的是“幽默漫画艺术”，尽管“幽默漫画艺术”很棒，就像马洛的那样。)
-
-(ROOT (IP (-LRB- -LRB-) (NP (DNP (NP (NNP 托马斯) (/ ·) (NNP 斯坦利) (/ ·) (NNP 汤姆) (NNP 森)) (DEC 的)) (NP (NN 拜师))) (, ，) (NP (NNP 爱伦) (/ ·) (NNP 坡)) (VP (VV 写道)) (, ，) (IP (NP (DNP (NP (PRP 他)) (DEC 的))) (VP (VC 是) (NP (`` “) (ADJP (JJ 幽默)) (NP (NN 漫画) (NN 艺术)) ('' ”)))) (, ，) (IP (CP (ADVP (IN 尽管)) (IP (NP (`` “) (ADJP (JJ 幽默)) (NP (NN 漫画) (NN 艺术)) ('' ”)) (VP (VV 很棒)))) (, ，) (VP (ADVP (RB 就)) (PP (IN 像) (NP (DNP (NP (NNP 马洛)) (DEC 的)))) (VP (JJ 那样)))) (. 。)))
-{'IP': {'-LRB-': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}, 'IP': {}, '.': {}}}
-{'IP': {'-LRB-': {}, 'NP': {'DNP': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'VV': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, 'IP': {'CP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
-{'VP': {'VV': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'CP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-约翰生曾对戏剧作品抱怨，他一生从戏剧作品中获得的收入不到 200 英镑。
-
-(ROOT (IP (IP (NP (NNP 约翰) (NNP 生)) (VP (ADVP (RB 曾)) (PP (IN 对) (NP (NN 戏剧) (NN 作品))) (VP (VV 抱怨)))) (, ，) (IP (NP (CP (CP (IP (NP (PRP 他)) (VP (QP (CD 一) (CLP (NN 生))) (PP (IN 从) (LCP (NP (NN 戏剧) (NN 作品)) (IN 中))) (VP (VV 获得)))) (DEC 的))) (NP (NN 收入))) (VP (QP (ADVP (VV 不到)) (QP (CD 200) (CLP (NNB 英镑)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-他经常陷入贫困，甚至落到了向他的灵感之源求钱的低谷，他用诗歌呼吁他们。
-
-(ROOT (IP (IP (NP (PRP 他)) (VP (VP (ADVP (RB 经常)) (VP (VV 陷入) (NP (NN 贫困)))) (, ，) (VP (ADVP (RB 甚至)) (VP (VV 落到) (AS 了) (NP (CP (IP (VP (PP (IN 向) (NP (DNP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 灵感))) (DEC 之)) (NP (NN 源)))) (VP (VV 求钱)))) (DEC 的)) (NP (NN 低谷))))))) (, ，) (IP (NP (PRP 他)) (VP (PP (VV 用) (NP (NN 诗歌))) (VP (VV 呼吁) (NP (PRP 他们))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-虽然这并不是一项赚钱的行业，但他坚信出版自己的作品很重要，并且还帮助出版了莎士比亚的《第一部分集》。
-
-(ROOT (IP (CP (ADVP (IN 虽然)) (IP (NP (PRD 这)) (VP (ADVP (RB 并)) (VP (VC 不是) (NP (QP (CD 一) (CLP (NNB 项))) (CP (CP (IP (VP (VV 赚钱))) (DEC 的))) (NP (NN 行业))))))) (, ，) (ADVP (RB 但)) (NP (PRP 他)) (VP (VP (VV 坚信) (IP (IP (VP (VV 出版) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 作品))))) (VP (ADVP (RB 很)) (VP (JJ 重要))))) (, ，) (RB 并且) (VP (ADVP (RB 还)) (VP (VV 帮助) (IP (VP (VV 出版) (AS 了) (NP (DNP (NP (NNP 莎士比亚)) (DEC 的)) (NP (-LRB- 《) (QP (CD 第一)) (NP (NN 部分)) (NP (SFN 集)) (-RRB- 》)))))))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
-----------------------------------------------------------------------
-他在《福禄》上发表的赞美诗以一句著名的赞美结束：“他不是属于某个时代，而是属于所有时代！”
-
-(ROOT (IP (NP (CP (CP (IP (NP (PRP 他)) (VP (PP (IN 在) (LCP (NP (-LRB- 《) (NNP 福禄) (-RRB- 》)) (IN 上))) (VP (VV 发表)))) (DEC 的))) (NP (VV 赞美) (SFN 诗))) (VP (PP (VV 以) (NP (QP (CD 一) (CLP (NNB 句))) (CP (CP (IP (VP (JJ 著名))) (DEC 的))) (NP (NN 赞美)))) (VP (VV 结束) (: ：) (IP (`` “) (NP (PRP 他)) (VP (VP (VC 不是) (VP (VV 属) (PP (VV 于) (NP (DP (DT 某个)) (NP (NN 时代)))))) (, ，) (VP (VC 而是) (VP (VV 属) (PP (VV 于) (NP (DP (DT 所有)) (NP (NN 时代)))))))))) (. ！) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-历史证明了这句感叹的真实性，显然，但是随后，其作者的声誉下降，这里有一种微妙的反差。
-
-(ROOT (IP (IP (NP (NN 历史)) (VP (VV 证明) (AS 了) (NP (DNP (NP (DP (DT 这) (CLP (NNB 句))) (NP (VV 感叹))) (DEC 的)) (NP (JJ 真实) (SFN 性))))) (, ，) (IP (ADVP (JJ 显然)) (, ，) (ADVP (RB 但是)) (ADVP (RB 随后)) (, ，) (NP (DNP (NP (NP (PRP 其)) (NP (NN 作者))) (DEC 的)) (NP (NN 声誉))) (VP (VV 下降))) (, ，) (IP (NP (PRD 这里)) (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 种))) (CP (CP (IP (VP (JJ 微妙))) (DEC 的))) (NP (NN 反差))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, ',': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-约翰生作为一位戏剧家、诗人和文学界的杰出人物，热衷于在当时的公众舞台上发挥重大作用，他希望后人能够为他带来更加辉煌的成就。
-
-(ROOT (IP (IP (NP (NNP 约翰) (SFN 生)) (VP (PP (VV 作) (PP (VC 为) (NP (QP (CD 一) (CLP (NNB 位))) (DNP (NP (NN 戏剧) (SFN 家) (EC 、) (NN 诗人) (CC 和) (NN 文学) (SFN 界)) (DEC 的)) (ADJP (JJ 杰出)) (NP (NN 人物))))) (, ，) (VP (VV 热衷) (PP (VV 于) (IP (VP (PP (IN 在) (LCP (NP (DNP (NP (NN 当时)) (DEC 的)) (NP (NN 公众) (NN 舞台))) (IN 上))) (VP (VV 发挥) (NP (ADJP (JJ 重大)) (NP (NN 作用)))))))))) (, ，) (IP (NP (PRP 他)) (VP (VV 希望) (IP (NP (NN 后人)) (VP (MD 能够) (VP (PP (IN 为) (NP (PRP 他))) (VP (VV 带来) (NP (CP (CP (IP (VP (ADVP (RB 更加)) (VP (JJ 辉煌)))) (DEC 的))) (NP (NN 成就))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-但到了 18 世纪，莎士比亚的想象力极强的作品征服了英语世界。
-
-(ROOT (IP (ADVP (RB 但)) (IP (VP (VV 到) (AS 了) (NP (QP (CD 18)) (NP (NNB 世纪))))) (, ，) (NP (DNP (NP (NNP 莎士比亚)) (DEC 的)) (CP (CP (IP (NP (VV 想象) (SFN 力)) (VP (ADVP (RB 极)) (VP (JJ 强)))) (DEC 的))) (NP (NN 作品))) (VP (VV 征服) (AS 了) (NP (NNP 英) (SFN 语) (NN 世界))) (. 。)))
-{'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'IP': {'VP': {}}, ',': {}, 'NP': {'DNP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'DNP': {}, 'CP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
-----------------------------------------------------------------------
-唐纳森幽默地说：“詹森总是认识到名声的不确定性，但事实证明名声是一个不稳定的朋友。”
-
-(ROOT (IP (NP (NNP 唐纳森)) (VP (DVP (VP (JJ 幽默)) (DEV 地)) (VP (VV 说) (: ：) (IP (`` “) (NP (NNP 詹森)) (VP (ADVP (RB 总)) (VP (VC 是) (VP (VRD (VV 认识) (VV 到)) (NP (DNP (NP (NN 名声)) (DEC 的)) (CP (IP (VP (ADVP (RB 不)) (VP (JJ 确定))))) (NP (SFN 性)))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 事实)) (VP (VV 证明) (IP (NP (NN 名声)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 不)) (VP (JJ 稳定)))) (DEC 的))) (NP (NN 朋友)))))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'DVP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'DVP': {}, 'VP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------

@@ -1,332 +1,594 @@
-加拿大作家爱丽丝·门罗获得了2013年诺贝尔文学奖。
+2008 年终于过去了，全球数以百万计的中国人在 1 月 26 日星期一迎来了中国新年。
 
-(ROOT (IP (NP (NP (NP (NNP 加拿大)) (NP (NN 作家))) (NP (NNP 爱丽丝) (/ ·) (NNP 门罗))) (VP (VV 获得) (AS 了) (NP (NP (CD 2013) (NNB 年)) (NP (NNP 诺贝尔)) (NP (NN 文学) (SFN 奖)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+(ROOT (IP (IP (NP (CD 2008)) (VP (ADVP (NNB 年终于)) (VP (NN 过去) (UH 了)))) (, ，) (NP (NP (NN 全球)) (CP (CP (IP (NP (CD 数)) (VP (PP (VV 以) (QP (CD 百万))) (VP (VV 计)))) (DEC 的))) (NP (NNP 中国)) (NP (SFN 人))) (VP (PP (IN 在) (QP (CD 1) (NNB 月) (CD 26) (NNB 日星期))) (ADVP (CD 一)) (VP (VV 迎) (VP (VV 来) (AS 了) (NP (NP (NNP 中国)) (NP (NN 新年)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'NP': {'NP': {}, 'CP': {}, 'NP27163': {}, 'NP3270': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'NP': {'NP': {}, 'CP': {}, 'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'NP': {'NP': {}, 'CP': {}, 'NP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+2008	年终于	nummod
+年终于	过去	clf
+过去	迎	nmod:tmod
+了	过去	discourse
+，	过去	punct
+全球	人	nmod
+数	以	obl
+以	人	acl:relcl
+百万	计	obl
+计	人	acl:relcl
+的	计	mark:rel
+中国	人	compound
+人	迎	nsubj
+在	日星期	case
+1	月	nummod
+月	日星期	clf
+26	日星期	nummod
+日星期	迎	obl
+一	迎	obl
+迎	ROOT	root
+来	迎	mark
+了	迎	aux
+中国	新年	nmod
+新年	迎	obj
+。	迎	punct
 ----------------------------------------------------------------------
-在宣布她获奖时，瑞典学院常务秘书彼得·恩格伦德称她是“当代短篇小说大师”。
+在我们对鼠年挥手告别的同时，牛年以传统的方式迎来，烟花、派对和宴会一应俱全。
 
-(ROOT (IP (PP (IN 在) (LCP (IP (VP (VV 宣布) (IP (NP (PRP 她)) (VP (VV 获奖))))) (IN 时))) (, ，) (NP (NP (NP (NNP 瑞典) (NN 学院)) (ADJP (NN 常务)) (NP (NN 秘书))) (NP (NNP 彼得) (/ ·) (NNP 恩格伦德))) (VP (VV 称) (NP (PRP 她)) (IP (VP (VC 是) (NP (`` “) (ADJP (NN 当代)) (NP (NN 短篇) (NN 小说) (NN 大师)) ('' ”))))) (. 。)))
+(ROOT (IP (IP (PP (IN 在) (NP (CP (IP (NP (PRP 我们)) (VP (PP (IN 对) (NP (NN 鼠年))) (VP (VCD (VV 挥手) (VV 告别))))) (DEC 的)) (NP (NN 同时)))) (, ，) (NP (NNP 牛) (NNB 年)) (VP (PP (IN 以) (NP (DNP (ADJP (NN 传统)) (DEC 的)) (NP (NN 方式)))) (VP (VV 迎来)))) (, ，) (IP (NP (NN 烟花) (EC 、) (NN 派对) (CC 和) (NN 宴会)) (VP (QP (CD 一)) (NP (NN 应)) (VP (JJ 俱全)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP1927': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP4805': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+在	同时	case
+我	告别	nsubj
+对	鼠年	case
+鼠年	告别	obl
+挥手	告别	advcl
+告别	同时	acl:relcl
+的	告别	mark:rel
+同时	迎来	obl
+，	同时	punct
+牛	年	compound
+年	迎来	nmod:tmod
+以	方式	case
+传统	方式	nmod
+的	传统	mark:rel
+方式	迎来	obl
+迎来	ROOT	root
+，	俱全	punct
+烟花	俱全	nsubj
+、	派对	punct
+派对	烟花	conj
+和	宴会	cc
+宴会	烟花	conj
+一	应	nummod
+应	俱全	obl
+俱全	迎来	parataxis
+。	迎来	punct
+----------------------------------------------------------------------
+中文牛的发音与英文“new”（新的）相近，但又有“牛”的意思，这个巧合被解读为一个吉祥的开年之礼。
+
+(ROOT (IP (IP (NP (DNP (NP (NN 中文牛)) (DEC 的)) (NP (NN 发音))) (VP (VP (PP (IN 与) (NP (NP (NNP 英) (SFN 文)) (NP (`` “) (FW new) ('' ”)) (PRN (-LRB- （) (CP (CP (IP (VP (JJ 新))) (DEC 的))) (-RRB- ）)))) (VP (JJ 相近))) (, ，) (VP (ADVP (RB 但)) (ADVP (RB 又)) (VP (VV 有) (NP (DNP (NP (`` “) (NN 牛) ('' ”)) (DEC 的)) (NP (NN 意思))))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 巧合))) (VP (BB 被) (VP (VRD (VV 解读) (VC 为)) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 吉祥))) (DEC 的))) (DNP (NP (NN 开年)) (DEC 之)) (NP (NN 礼)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP11428': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP55027': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+中文牛	发音	nmod
+的	中文牛	case
+发音	有	nsubj
+与	new	case
+英	文	compound
+文	new	nmod
+“	new	punct
+new	相近	nmod
+”	new	punct
+（	新	punct
+新	相近	amod
+的	新	mark:rel
+）	新	punct
+相近	有	advcl
+，	相近	punct
+但	有	mark
+又	有	mark
+有	ROOT	root
+“	牛	punct
+牛	意思	nmod
+”	牛	punct
+的	牛	case
+意思	有	obj
+，	解读	punct
+这	个	det
+个	巧合	clf
+巧合	解读	nsubj:pass
+被	解读	aux:pass
+解读	有	parataxis
+为	解读	mark
+一	个	nummod
+个	礼	clf
+吉祥	礼	amod
+的	吉祥	mark:rel
+开年	礼	nmod
+之	开年	case
+礼	解读	obj
+。	有	punct
+----------------------------------------------------------------------
+根据中国占星术，牛年出生的人耐心、勤奋，能够赢得他人信任。
+
+(ROOT (IP (PP (IN 根据) (NP (NP (NNP 中国)) (NP (VV 占星) (SFN 术)))) (, ，) (NP (CP (CP (IP (VP (NP (NN 牛年)) (VP (VV 出生)))) (DEC 的))) (NP (NN 人))) (VP (VP (JJ 耐心) (EC 、) (JJ 勤奋)) (, ，) (VP (MD 能够) (VP (VV 赢得) (NP (NN 他人) (NN 信任))))) (. 。)))
+layer 2:
 {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
-----------------------------------------------------------------------
-这位 82 岁的作家，著有《亲爱的生命》和《快乐色彩的舞蹈》等书，自 1901 年奖项创立以来，她是第 13 位获奖的女性。
-
-(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 位))) (DNP (QP (CD 82) (CLP (NNB 岁))) (DEC 的)) (NP (NN 作家))) (, ，) (VP (VV 著有) (NP (NP (NP (-LRB- 《) (CP (CP (IP (VP (JJ 亲爱))) (DEC 的))) (NP (NN 生命)) (-RRB- 》)) (CC 和) (NP (-LRB- 《) (DNP (NP (NN 快乐) (NN 色彩)) (DEC 的)) (NP (NN 舞蹈)) (-RRB- 》)) (NN 等)) (NP (NN 书))))) (, ，) (IP (PP (IN 自) (LCP (IP (NP (CD 1901) (NNB 年)) (NP (NN 奖项)) (VP (VV 创立))) (IN 以来))) (, ，) (NP (PRP 她)) (VP (VC 是) (NP (QP (CD 第) (QP (CD 13) (CLP (NNB 位)))) (CP (CP (IP (VP (VV 获奖))) (DEC 的))) (NP (NN 女性))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'VP': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-芒罗告诉加拿大媒体：“我知道自己有望获奖，是的，但我从未想过自己能获胜。”
-
-(ROOT (IP (NP (NNP 芒罗)) (VP (VV 告诉) (NP (NP (NNP 加拿大)) (NP (NN 媒体))) (: ：) (IP (`` “) (IP (NP (PRP 我)) (VP (VV 知道) (IP (NP (PRD 自己)) (VP (VV 有望) (IP (VP (VV 获奖))))))) (, ，) (CP (IP (VP (VC 是))) (UH 的)) (, ，) (IP (ADVP (RB 但)) (NP (PRP 我)) (VP (ADVP (IN 从)) (ADVP (RB 未)) (VP (VV 想) (AS 过) (IP (NP (PRD 自己)) (VP (MD 能) (VP (VV 获胜))))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, 'NP': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, 'NP': {}, ':': {}, 'IP': {}}}
-----------------------------------------------------------------------
-该奖项由诺贝尔基金会颁发，颁发给活着的作家，奖金为八百万克朗（77万英镑）。
-
-(ROOT (IP (IP (NP (DP (DT 该)) (NP (NN 奖项))) (VP (VP (PP (VV 由) (NP (NNP 诺贝尔) (NN 基金) (SFN 会))) (VP (VV 颁发))) (, ，) (VP (VRD (VV 颁发) (VV 给)) (NP (CP (CP (IP (VP (JJ 活着))) (DEC 的))) (NP (NN 作家)))))) (, ，) (IP (NP (NN 奖金)) (VP (VC 为) (QP (CD 八百万克朗) (PRN (-LRB- （) (QP (CD 77万) (CLP (NNP 英) (CLP (NNB 镑)))) (-RRB- ）))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-以往获奖者包括 Rudyard Kipling、Toni Morrison 和 Ernest Hemingway 等文学巨匠。
-
-(ROOT (IP (NP (NP (NN 以往)) (CP (IP (VP (VV 获奖)))) (NP (SFN 者))) (VP (VV 包括) (NP (NP (FW Rudyard) (FW Kipling) (EC 、) (FW Toni) (FW Morrison) (CC 和) (FW Ernest) (FW Hemingway) (NN 等)) (NP (NN 文学) (NN 巨匠)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'CP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'NP': {}}}
-----------------------------------------------------------------------
-英格伦先生告诉美联社，在宣布结果之前，他未能与曼罗先生取得联系，因此留下了一条留言，通知她获奖的消息。
-
-(ROOT (IP (NP (NNP 英格伦) (NN 先生)) (VP (VV 告诉) (NP (NNP 美联) (SFN 社)) (, ，) (NP (CP (IP (PP (IN 在) (LCP (IP (VP (VV 宣布) (NP (NN 结果)))) (IN 之前))) (, ，) (NP (PRP 他)) (VP (VP (MD 未能) (VP (PP (IN 与) (NP (NNP 曼罗) (NN 先生))) (VP (VV 取得) (NP (NN 联系))))) (, ，) (VP (ADVP (IN 因)) (ADVP (PRD 此)) (VP (VP (VV 留下) (AS 了) (NP (QP (CD 一) (CLP (NNB 条))) (NP (NN 留言)))) (, ，) (VP (VV 通知) (NP (PRP 她)) (IP (VP (VV 获奖)))))))) (DEC 的)) (NP (NN 消息)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, 'NP': {}, ',': {}, 'NP': {}}, '.': {}}}
-{'NP': {'NNP': {}, 'NN': {}}}
-{'VP': {'VV': {}, 'NP': {}, ',': {}, 'NP': {}}}
-----------------------------------------------------------------------
-他补充说：“她把一种艺术形式——短篇小说——培养到了几乎完美的程度，而这种形式往往被小说所掩盖。”
-
-(ROOT (IP (NP (PRP 他)) (VP (VP (VV 补充)) (VP (VV 说) (: ：) (IP (`` “) (NP (PRP 她)) (VP (BB 把) (NP (NP (QP (CD 一) (CLP (NNB 种))) (NP (NN 艺术) (NN 形式))) (PRN (HYPH —) (HYPH —) (NP (JJ 短篇) (NN 小说)) (HYPH —) (HYPH —) (IP (VP (VRD (VV 培养) (VV 到)) (AS 了) (NP (CP (CP (IP (VP (ADVP (JJ 几乎)) (VP (JJ 完美)))) (DEC 的))) (NP (NN 程度)))))))) (, ，) (IP (ADVP (RB 而)) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 形式))) (VP (ADVP (RB 往往)) (VP (BB 被) (CP (IP (NP (NN 小说)) (VP (RB 所) (VP (VV 掩盖))))))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-芒罗在青少年时期就开始写作，1950 年发表了她的第一篇故事《影子的尺寸》。
-
-(ROOT (IP (NP (NNP 芒罗)) (VP (VP (PP (IN 在) (NP (NP (ADJP (NNP 青)) (NP (NN 少年))) (NP (NN 时期)))) (ADVP (RB 就)) (VP (VV 开始) (VP (VV 写作)))) (, ，) (VP (NP (CD 1950) (NNB 年)) (VP (VV 发表) (AS 了) (NP (NP (DNP (NP (PRP 她)) (DEC 的)) (QP (CD 第一) (CLP (NNB 篇))) (NP (NN 故事))) (NP (-LRB- 《) (DNP (NP (NN 影子)) (DEC 的)) (NP (NN 尺寸)) (-RRB- 》)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP33214': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
 {'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+根据	术	case
+中国	术	nmod
+占星	术	compound
+术	赢得	obl
+，	术	punct
+牛年	出生	nsubj
+出生	人	acl:relcl
+的	出生	mark:rel
+人	耐心	nsubj
+耐心	赢得	advcl
+、	勤奋	punct
+勤奋	耐心	conj
+，	耐心	punct
+能够	赢得	aux
+赢得	ROOT	root
+他人	信任	nmod
+信任	赢得	obj
+。	赢得	punct
 ----------------------------------------------------------------------
-当时她在西安大略大学学习英语。
+然而，有时他们会变得极其激烈，极其顽固。
 
-(ROOT (IP (NP (NN 当时)) (NP (PRP 她)) (VP (PP (VV 在) (NP (NNP 西安) (NNP 大略) (NN 大学))) (VP (VV 学习) (NP (NNP 英) (SFN 语)))) (. 。)))
-{'IP': {'NP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, 'NP': {'PRP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
+(ROOT (IP (ADVP (RB 然而)) (, ，) (ADVP (RB 有时)) (NP (PRP 他们)) (VP (MD 会) (VP (VV 变得) (VP (VP (ADVP (RB 极)) (ADVP (PRP 其)) (VP (JJ 激烈))) (, ，) (VP (ADVP (RB 极)) (ADVP (PRP 其)) (VP (JJ 顽固)))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'ADVP46635': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'ADVP77456': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'ADVP': {'RB': {}}}
 {'NP': {'PRP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+然而	变得	mark
+，	然而	punct
+有时	变得	advmod
+他	变得	nsubj
+会	变得	aux
+变得	ROOT	root
+极	激烈	advmod
+其	激烈	nsubj
+激烈	变得	ccomp
+，	顽固	punct
+极	顽固	advmod
+其	顽固	nsubj
+顽固	变得	parataxis
+。	变得	punct
+----------------------------------------------------------------------
+传统上，伦敦的中国新年庆祝活动在元旦后的第一个星期天举行。
+
+(ROOT (IP (LCP (NP (NN 传统)) (IN 上)) (, ，) (NP (DNP (NP (NNP 伦敦)) (DEC 的)) (NP (NNP 中国)) (NP (NN 新年) (NN 庆祝) (NN 活动))) (VP (PP (IN 在) (NP (DNP (LCP (NP (NN 元旦)) (IN 后)) (DEC 的)) (QP (CD 第一) (CLP (NNB 个))) (NP (NN 星期) (CD 天)))) (VP (VV 举行))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}, 'NP37460': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'DNP': {}, 'NP': {}, 'NP': {}}}
 {'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+传统	举行	obl
+上	传统	case
+，	传统	punct
+伦敦	活动	nmod
+的	伦敦	case
+中国	活动	nmod
+新年	活动	nmod
+庆祝	活动	nmod
+活动	举行	nsubj
+在	星期	case
+元旦	星期	nmod
+后	元旦	case
+的	元旦	case
+第一	个	nummod
+个	星期	clf
+星期	举行	obl
+天	举行	obl
+举行	ROOT	root
+。	举行	punct
 ----------------------------------------------------------------------
-契科夫
+今年，伦敦市长向观众承诺，在著名地标特拉法尔加广场，将为观众呈现丰富多彩的现场表演、五彩缤纷的游行和美食盛宴。
 
-(ROOT (NP (NNP 契科夫)))
-{'NP': {'NNP': {}}}
-{'NP': {'NNP': {}}}
-----------------------------------------------------------------------
-1968 年出版的《快乐色彩之舞》是敏罗的第一部作品，并获得了加拿大最高文学奖——总督奖。
-
-(ROOT (IP (NP (DNP (NP (CD 1968) (NNB 年出版)) (DEC 的)) (NP (-LRB- 《) (DNP (NP (NN 快乐) (NN 色彩)) (DEC 之)) (NP (NN 舞)) (-RRB- 》))) (VP (VP (VC 是) (NP (DNP (NP (NNP 敏罗)) (DEC 的)) (QP (CD 第一) (CLP (NNB 部))) (NP (NN 作品)))) (, ，) (RB 并) (VP (VV 获得) (AS 了) (NP (NP (NP (NNP 加拿大)) (NP (ADJP (JJ 最高)) (NP (NN 文学))) (NP (SFN 奖))) (HYPH —) (HYPH —) (NP (NN 总督) (SFN 奖))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
-----------------------------------------------------------------------
-2009 年，她因其整个作品获得了曼布罗国际文学奖，但她对自己的成就视而不见。
-
-(ROOT (IP (IP (NP (CD 2009) (NNB 年)) (, ，) (NP (PRP 她)) (VP (PP (IN 因) (NP (NP (PRP 其)) (DP (DT 整个)) (NP (NN 作品)))) (VP (VV 获得) (AS 了) (NP (NNP 曼布罗) (NN 国际) (NN 文学) (SFN 奖))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 她)) (VP (PP (IN 对) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 成就)))) (VP (VP (VV 视)) (VP (RB 而) (VP (VV 不见)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-她曾在接受 Book Lounge 的一次采访中说过：“我觉得我能成功做到这一点可能是因为我没有其他才华。”
-
-(ROOT (IP (NP (PRP 她)) (VP (ADVP (RB 曾)) (PP (IN 在) (LCP (IP (VP (VV 接受) (NP (DNP (NP (FW Book) (FW Lounge)) (DEC 的)) (QP (CD 一) (CLP (NNB 次))) (NP (NN 采访))))) (IN 中))) (VP (VV 说) (AS 过) (: ：) (IP (`` “) (IP (NP (PRP 我)) (VP (VV 觉得) (IP (NP (PRP 我)) (VP (MD 能) (VP (ADVP (RB 成功)) (VP (VV 做到) (IP (DP (PRD 这) (QP (JJ 一点))) (VP (MD 可能) (VP (VC 是) (PP (IN 因为) (IP (NP (PRP 我)) (VP (VV 没有) (NP (DP (DT 其他)) (NP (VV 才) (NNP 华)))))))))))))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-BBC艺术编辑威尔·贡伯茨说，自从开始写作以来，芒罗就“一直处于自己的最高水平”。
-
-(ROOT (IP (NP (NP (NP (FW BBC)) (NP (NN 艺术) (NN 编辑))) (NP (NNP 威尔) (/ ·) (NNP 贡伯茨))) (VP (VV 说) (, ，) (IP (PP (IN 自从) (LCP (IP (VP (VV 开始) (VP (VV 写作)))) (IN 以来))) (, ，) (NP (NNP 芒罗)) (VP (ADVP (RB 就)) (VP (`` “) (ADVP (RB 一直)) (VP (VV 处) (PP (VV 于) (NP (DNP (NP (PRD 自己)) (DEC 的)) (ADJP (JJ 最高)) (NP (NN 水平))))) ('' ”))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-他说：“很少有作家能与她相比，”他补充说“她洞悉了人类的本质。”
-
-(ROOT (IP (IP (NP (PRP 他)) (VP (VV 说) (: ：) (IP (`` “) (VP (ADVP (RB 很少)) (VP (VV 有) (IP (NP (NN 作家)) (VP (MD 能) (VP (PP (IN 与) (NP (PRP 她))) (VP (VV 相比)))))))))) (, ，) ('' ”) (NP (PRP 他)) (VP (VP (VV 补充)) (VP (VV 说) (IP (`` “) (NP (PRP 她)) (VP (VV 洞悉) (AS 了) (NP (DNP (NP (NN 人类)) (DEC 的)) (NP (NN 本质))))))) (. 。) ('' ”)))
-{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-“我以为她可能不会赢，因为她并不是一个明显的政治作家；近来诺贝尔奖往往会颁发给政治作家。”
-
-(ROOT (IP (`` “) (NP (PRP 我)) (VP (VV 以为) (IP (NP (PRP 她)) (VP (MD 可能) (VP (ADVP (RB 不)) (VP (MD 会) (VP (VV 赢))))))) (, ，) (PP (IN 因为) (IP (NP (PRP 她)) (VP (ADVP (RB 并)) (VP (VC 不是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 明显))) (DEC 的))) (NP (NN 政治) (NN 作家))))))) (: ；) (IP (ADVP (NN 近来)) (NP (NP (NNP 诺贝尔)) (NP (SFN 奖))) (VP (ADVP (RB 往往)) (VP (MD 会) (VP (VRD (VV 颁发) (VV 给)) (NP (NN 政治) (NN 作家)))))) (. 。) ('' ”)))
-{'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'PP': {}, ':': {}, 'IP': {}, '.': {}, "''": {}}}
-{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, ':': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-他补充说，这个奖项“可能对作者没有商业影响”，但“它对历史上如何看待她的作品有很大影响”。
-
-(ROOT (IP (NP (PRP 他)) (VP (VP (VV 补充)) (VP (VV 说) (, ，) (IP (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 奖项))) (VP (`` “) (MD 可能) (VP (PP (IN 对) (NP (NN 作者))) (VP (VV 没有) (NP (NN 商业) (NN 影响)))) ('' ”))) (, ，) (IP (ADVP (RB 但)) (`` “) (NP (PRP 它)) (VP (VP (PP (IN 对) (LCP (NP (NN 历史)) (IN 上))) (ADVP (RB 如何)) (VP (VV 看待) (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 作品))))) (VP (VV 有) (NP (ADJP (JJ 很大)) (NP (NN 影响)))))) ('' ”)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-如果她在去世前没有获奖，我认为这将是一个可怕的、可怕的失误。”
-
-(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 她)) (VP (PP (IN 在) (LCP (NP (VV 去世)) (IN 前))) (VP (VV 没有) (VP (VV 获奖)))))) (, ，) (NP (PRP 我)) (VP (VV 认为) (IP (NP (PRD 这)) (VP (ADVP (RB 将)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 可怕))) (DEC 的))) (EC 、) (CP (CP (IP (VP (JJ 可怕))) (DEC 的))) (NP (NN 失误))))))) (. 。) ('' ”)))
-{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-----------------------------------------------------------------------
-她经常被与 Anton Chekhov 相提并论，她的作品常常写到人类精神，而她的作品中的一个常见主题是年轻女孩在成长过程中面临的困境，以及如何在小镇生活中做出妥协。
-
-(ROOT (IP (IP (NP (PRP 她)) (VP (ADVP (RB 经常)) (VP (BB 被) (VP (VP (PP (IN 与) (NP (FW Anton) (FW Chekhov))) (VP (VV 相提))) (VP (VV 并论)))))) (, ，) (IP (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 作品))) (VP (ADVP (RB 常常)) (VP (VV 写到) (NP (NN 人类) (NN 精神))))) (, ，) (IP (ADVP (RB 而)) (NP (DNP (LCP (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 作品))) (IN 中)) (DEC 的)) (QP (CD 一) (CLP (NNB 个))) (ADJP (JJ 常见)) (NP (NN 主题))) (VP (VP (VC 是) (NP (CP (CP (IP (NP (ADJP (JJ 年轻)) (NP (NN 女孩))) (VP (PP (IN 在) (LCP (NP (NN 成长) (NN 过程)) (IN 中))) (VP (VV 面临)))) (DEC 的))) (NP (NN 困境)))) (, ，) (CC 以及) (VP (ADVP (RB 如何)) (PP (IN 在) (LCP (NP (NN 小镇) (NN 生活)) (IN 中))) (VP (VV 做出) (NP (NN 妥协)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-诺贝尔学院赞扬她“细腻的故事讲述，具有清晰度和心理现实主义特征”。
-
-(ROOT (IP (NP (NNP 诺贝尔) (NN 学院)) (VP (VV 赞扬) (NP (PRP 她)) (IP (`` “) (NP (CP (CP (IP (VP (JJ 细腻))) (DEC 的))) (NP (NN 故事) (VV 讲述))) (, ，) (VP (VV 具有) (NP (NP (PFA 清) (JJ 晰) (SFN 度) (CC 和) (NN 心理) (NN 现实) (NN 主义)) (NP (NN 特征)))) ('' ”))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NNP': {}, 'NN': {}}}
-{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
-----------------------------------------------------------------------
-“梦想”
-
-(ROOT (NP (`` “) (NN 梦想) ('' ”)))
-{'NP': {'``': {}, 'NN': {}, "''": {}}}
-{'NP': {'``': {}, 'NN': {}, "''": {}}}
-----------------------------------------------------------------------
-芒罗的女儿把她叫醒，告诉她她赢得了诺贝尔奖，芒罗说她“感到很意外”并“很高兴”。
-
-(ROOT (IP (IP (NP (DNP (NP (NNP 芒罗)) (DEC 的)) (NP (NN 女儿))) (VP (VP (BB 把) (IP (NP (PRP 她)) (VP (VV 叫醒)))) (, ，) (VP (VV 告诉) (NP (PRP 她)) (NP (PRP 她)) (IP (VP (VV 赢得) (AS 了) (NP (NNP 诺贝尔) (SFN 奖))))))) (, ，) (IP (NP (NNP 芒) (NNP 罗)) (VP (VV 说) (IP (NP (PRP 她)) (VP (VP (`` “) (VV 感到) (VP (ADVP (RB 很)) (VP (JJ 意外))) ('' ”)) (RB 并) (VP (`` “) (ADVP (RB 很)) (VP (JJ 高兴)) ('' ”)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在接受加拿大广播公司 (CBC) 采访时，她表示，她总认为自己的赢得大选的机会“就像梦中情人一样”，“可能会发生，但很可能不会。”
-
-(ROOT (IP (PP (IN 在) (LCP (IP (IP (VP (VV 接受) (NP (NP (NNP 加拿大) (NN 广播) (NN 公司)) (NP (FW -LRB-CBC)))) (-RRB- -RRB-)) (VP (VV 采访))) (IN 时))) (, ，) (NP (PRP 她)) (VP (VV 表示) (, ，) (IP (NP (PRP 她)) (VP (ADVP (RB 总)) (VP (VV 认为) (IP (IP (NP (DNP (NP (PRD 自己)) (DEC 的)) (CP (IP (VP (VV 赢得) (NP (NN 大选)))) (DEC 的)) (NP (NN 机会))) (VP (`` “) (ADVP (RB 就)) (PP (VV 像) (NP (NN 梦中) (NN 情人))) (VP (JJ 一样)) ('' ”))) (, ，) (VP (`` “) (MD 可能) (VP (MD 会) (VP (VV 发生))) (, ，) (VP (ADVP (RB 但)) (ADVP (RB 很)) (VP (MD 可能) (VP (MD 不会)))))))))) (. 。) ('' ”)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-威尔·贡佩尔茨对今年诺贝尔文学奖得主爱丽丝·门罗的评价
-
-(ROOT (NP (NP (NNP 威尔) (/ ·) (NNP 贡佩尔茨)) (DNP (PP (IN 对) (NP (NP (NP (NN 今年)) (NP (NNP 诺贝尔)) (NP (NN 文学) (SFN 奖)) (NP (NN 得主))) (NP (NNP 爱丽丝) (/ ·) (NNP 门罗)))) (DEC 的)) (NP (NN 评价))))
-{'NP': {'NP': {}, 'DNP': {}, 'NP': {}}}
-{'NP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'DNP': {'PP': {}, 'DEC': {}}, 'NP': {'NN': {}}}}
-{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
-{'DNP': {'PP': {}, 'DEC': {}}}
+(ROOT (IP (NP (NN 今年)) (, ，) (NP (NP (NNP 伦敦)) (NP (NN 市长))) (VP (PP (IN 向) (NP (NN 观众))) (VP (VV 承诺) (, ，) (IP (VP (PP (IN 在) (NP (NP (ADJP (JJ 著名)) (NP (NN 地标))) (NP (NNP 特拉法尔加) (NN 广场)))) (, ，) (ADVP (RB 将)) (PP (IN 为) (NP (NN 观众))) (VP (VV 呈现) (NP (CP (CP (IP (VP (VCD (JJ 丰富) (JJ 多彩)))) (DEC 的))) (DNP (NP (NP (NN 现场) (NN 表演)) (EC 、) (NP (NN 五彩缤纷))) (DEC 的)) (NP (NN 游行) (CC 和) (NN 美食)) (NP (NN 盛宴)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP50279': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP92177': {'NP': {}, 'NP76540': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
 {'NP': {'NN': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+今年	承诺	nmod:tmod
+，	今年	punct
+伦敦	市长	nmod
+市长	承诺	nsubj
+向	观众	case
+观众	承诺	obl
+承诺	ROOT	root
+，	呈现	punct
+在	广场	case
+著名	广场	amod
+地标	广场	nmod
+特拉法尔加	广场	nmod
+广场	呈现	obl
+，	广场	punct
+将	呈现	advmod
+为	观众	case
+观众	呈现	obl
+呈现	承诺	xcomp
+丰富	表演	amod
+多彩	表演	amod
+的	多彩	mark:rel
+现场	表演	nmod
+表演	呈现	obj
+、	游行	punct
+五彩缤纷	游行	nmod
+的	五彩缤纷	case
+游行	表演	conj
+和	盛宴	cc
+美食	盛宴	nmod
+盛宴	表演	conj
+。	承诺	punct
 ----------------------------------------------------------------------
-这里是半夜，我当然已经忘了这一切了，”她补充道。
+在北爱尔兰德里，庆祝活动提前到来。
 
-(ROOT (IP (IP (IP (NP (PRD 这里)) (VP (VC 是) (NP (QP (CD 半)) (NP (NNB 夜))))) (, ，) (IP (NP (PRP 我)) (VP (ADVP (RB 当然)) (ADVP (RB 已经)) (VP (VV 忘) (AS 了) (NP (DP (PRD 这)) (NP (NN 一切))))) (UH 了))) (, ，) ('' ”) (NP (PRP 她)) (VP (VP (VV 补充)) (VP (VV 道))) (. 。)))
-{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, 'IP': {}}, ',': {}, "''": {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'IP': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-自 20 世纪 60 年代以来，曼罗就发表了十几部短篇小说集，其中许多故事发生在她的家乡西南安大略省。
-
-(ROOT (IP (IP (PP (IN 自) (LCP (NP (NP (QP (CD 20)) (NP (NNB 世纪))) (QP (CD 60)) (NP (NNB 年代))) (IN 以来))) (, ，) (NP (NNP 曼罗)) (VP (ADVP (RB 就)) (VP (VV 发表) (AS 了) (NP (QP (CD 十) (QP (CD 几) (CLP (NNB 部)))) (ADJP (NN 短篇)) (NP (NN 小说) (SFN 集)))))) (, ，) (IP (NP (NN 其中)) (NP (QP (CD 许多)) (NP (NN 故事))) (VP (VV 发生) (PP (IN 在) (NP (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 家乡))) (NP (NN 西) (NNP 南安大略) (SFN 省)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-她的文学作品获得了多个奖项。
-
-(ROOT (IP (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 文学) (NN 作品))) (VP (VV 获得) (AS 了) (NP (QP (CD 多) (CLP (NNB 个))) (NP (NN 奖项)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
-----------------------------------------------------------------------
-她赢得了英联邦作家奖，《仇恨、友谊、约会、恋爱、婚姻》获得了美国全国图书评论家协会奖，并且三次获得了总督奖。
-
-(ROOT (IP (IP (NP (PRP 她)) (VP (VV 赢得) (AS 了) (NP (NNP 英) (NN 联邦) (NN 作家) (SFN 奖)))) (, ，) (IP (NP (-LRB- 《) (NP (NN 仇恨) (EC 、) (NN 友谊) (EC 、) (NN 约会) (EC 、) (NN 恋爱) (EC 、) (NN 婚姻)) (-RRB- 》)) (VP (VP (VV 获得) (AS 了) (NP (NP (NNP 美国) (NN 全国) (NN 图书) (VV 评论) (SFN 家) (NN 协会)) (NP (SFN 奖)))) (, ，) (RB 并且) (VP (QP (CD 三) (CLP (NNB 次))) (VP (VV 获得) (AS 了) (NP (NN 总督) (SFN 奖)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-其他值得注意的作品包括《女孩和女人的生活》、《你以为你是谁》、《爱的进展》和《逃跑》。
-
-(ROOT (IP (NP (DP (DT 其他)) (CP (CP (IP (VP (VV 值得) (NP (VV 注意)))) (DEC 的))) (NP (NN 作品))) (VP (VV 包括) (UCP (NP (-LRB- 《) (DNP (NP (NN 女孩) (CC 和) (NN 女人)) (DEC 的)) (NP (NN 生活)) (-RRB- 》)) (EC 、) (IP (-LRB- 《) (NP (PRP 你)) (VP (VV 以为) (IP (NP (PRP 你)) (VP (VC 是) (NP (WP 谁))))) (-RRB- 》)) (EC 、) (NP (-LRB- 《) (DNP (NP (NN 爱)) (DEC 的)) (NP (NN 进展)) (-RRB- 》)) (CC 和) (NP (-LRB- 《) (VV 逃跑) (-RRB- 》)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VV': {}, 'UCP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'CP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'UCP': {}}}
-----------------------------------------------------------------------
-1980 年，《乞丐女孩》入围年度 Booker 奖，她的故事经常出现在《纽约客》和《巴黎评论》等刊物上。
-
-(ROOT (IP (IP (NP (CD 1980) (NNB 年)) (, ，) (NP (-LRB- 《) (NN 乞丐) (NN 女孩) (-RRB- 》)) (VP (VV 入围) (NP (NP (NN 年度)) (NP (FW Booker) (SFN 奖))))) (, ，) (IP (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 故事))) (VP (ADVP (RB 经常)) (VP (VV 出现) (PP (IN 在) (LCP (NP (NP (NP (-LRB- 《) (NNP 纽约) (SFN 客) (-RRB- 》)) (CC 和) (NP (-LRB- 《) (NP (NNP 巴黎)) (NP (NN 评论)) (-RRB- 》)) (NN 等)) (NP (NN 刊物))) (IN 上)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-退休
-
-(ROOT (NP (VV 退休)))
-{'NP': {'VV': {}}}
-{'NP': {'VV': {}}}
-----------------------------------------------------------------------
-其中一些故事也被改编成电影，包括《熊从山上跳下来》，后来改编成了《离她远去》，由朱莉·克里斯蒂和戈登·平森主演。
-
-(ROOT (IP (IP (NP (NN 其中)) (NP (QP (JJ 一些)) (NP (NN 故事))) (VP (ADVP (RB 也)) (VP (BB 被) (VP (VRD (VV 改编) (VV 成)) (NP (NN 电影)))))) (, ，) (IP (VP (VV 包括) (IP (-LRB- 《) (NP (NN 熊)) (VP (PP (IN 从) (LCP (NP (NN 山)) (IN 上))) (VP (VRD (VV 跳) (VV 下来)))) (-RRB- 》)))) (, ，) (IP (VP (VP (ADVP (NN 后来)) (VP (VRD (VV 改编) (VV 成)) (AS 了) (IP (-LRB- 《) (VP (PP (IN 离) (NP (PRP 她))) (VP (VV 远去))) (-RRB- 》)))) (, ，) (VP (PP (VV 由) (NP (NNP 朱莉) (/ ·) (NNP 克里斯蒂) (CC 和) (NNP 戈登) (/ ·) (NNP 平森))) (VP (VV 主演))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-今年早些时候，芒罗透露，她于 2012 年出版的最新作品《亲爱的生命》将是她的最后一部作品。
-
-(ROOT (IP (NP (NP (NN 今年)) (ADJP (NN 早些)) (NP (NN 时候))) (, ，) (NP (NNP 芒) (NNP 罗)) (VP (VV 透露) (, ，) (IP (NP (PRP 她)) (DNP (PP (IN 于) (NP (CD 2012) (NNB 年出版))) (DEC 的)) (ADJP (JJ 最新)) (NP (NN 作品)) (NP (-LRB- 《) (CP (CP (IP (VP (JJ 亲爱))) (DEC 的))) (NP (NN 生命)) (-RRB- 》)) (VP (VC 将是) (NP (DNP (NP (PRP 她)) (DEC 的)) (QP (ADJP (NN 最后)) (QP (CD 一) (CLP (NNB 部)))) (NP (NN 作品)))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'ADJP': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}, 'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'ADJP': {}, 'NP': {}}}
-{'NP': {'NNP': {}, 'NNP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-她告诉加拿大国家报道，“也许，当你年纪我这么大的时候，你不会像作家那样希望孤独。”
-
-(ROOT (IP (NP (PRP 她)) (VP (VV 告诉) (NP (NP (NNP 加拿大)) (NP (NN 国家) (NN 报道))) (, ，) (IP (`` “) (IP (ADVP (VV 也许)) (, ，) (PP (IN 当) (IP (NP (NP (PRP 你)) (NP (NN 年纪))) (CP (CP (IP (NP (PRP 我)) (VP (ADVP (RB 这么)) (VP (JJ 大)))) (DEC 的))) (NP (NN 时候)))) (, ，) (NP (PRP 你)) (VP (MD 不会) (VP (PP (VV 像) (NP (NN 作家))) (ADVP (RB 那样)) (VP (VV 希望) (IP (VP (JJ 孤独))))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-2009 年，芒罗透露自己正在接受癌症治疗。
-
-(ROOT (IP (NP (CD 2009) (NNB 年)) (, ，) (NP (NNP 芒罗)) (VP (VV 透露) (IP (NP (PRD 自己)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 接受) (NP (NN 癌症) (NN 治疗)))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-----------------------------------------------------------------------
-她还接受过心脏病的冠状动脉绕行术。
-
-(ROOT (IP (NP (PRP 她)) (VP (ADVP (RB 还)) (VP (VV 接受) (NP (DNP (NP (NN 过心) (NN 脏病)) (DEC 的)) (ADJP (NN 冠状)) (NP (NN 动脉)) (NP (VV 绕) (NN 行术))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
+(ROOT (IP (PP (VV 在) (NP (NN 北) (NNP 爱尔兰德里))) (, ，) (NP (NN 庆祝) (NN 活动)) (VP (ADVP (RB 提前)) (VP (VV 到来))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}, 'NN87687': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'NP': {}}}
+{'NP': {'NN': {}, 'NN': {}}}
 {'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+在	到来	advcl
+北	爱尔兰德里	nmod
+爱尔兰德里	在	obj
+，	在	punct
+庆祝	活动	nmod
+活动	到来	nsubj
+提前	到来	advmod
+到来	ROOT	root
+。	到来	punct
 ----------------------------------------------------------------------
-据美国文学评论家戴维·霍梅尔 (David Homel) 所说：“她不是一个社会名流。
+当地人们可以观看书法演示、品尝正宗的中国茶和中国宴席。
 
-(ROOT (PP (IN 据) (IP (NP (NP (NP (NNP 美国)) (NP (NN 文学) (VV 评论) (SFN 家))) (NP (NNP 戴维) (/ ·) (NNP 霍梅尔) (FW -LRB-David) (FW Homel-RRB-))) (VP (VV 所说) (: ：) (IP (`` “) (NP (PRP 她)) (VP (VC 不是) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 社会) (NN 名流))))))) (. 。)))
-{'PP': {'IN': {}, 'IP': {}, '.': {}}}
-{'PP': {'IN': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-她很少公开露面，也不参加书籍巡演。
-
-(ROOT (IP (NP (PRP 她)) (VP (VP (ADVP (RB 很少)) (ADVP (VV 公开)) (VP (VV 露面))) (, ，) (VP (ADVP (RB 也)) (ADVP (RB 不)) (VP (VV 参加) (NP (NN 书籍) (NN 巡演))))) (. 。)))
+(ROOT (IP (NP (NN 当地) (NN 人们)) (VP (MD 可以) (VP (VP (VV 观看) (NP (NN 书法) (NN 演示))) (EC 、) (VP (VV 品尝) (NP (NP (DNP (ADJP (NN 正宗)) (DEC 的)) (NP (NNP 中国)) (NP (SFN 茶))) (CC 和) (NP (NP (NNP 中国)) (NP (NN 宴席))))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-芒罗将于 12 月 10 日在斯德哥尔摩接受最新奖项，这一天也是奖项创立者阿尔弗雷德·诺贝尔（Alfred Nobel）逝世纪念日。
-
-(ROOT (IP (IP (NP (NNP 芒罗)) (VP (ADVP (RB 将)) (PP (IN 于) (NP (CD 12) (NNB 月 10) (NNP 日在斯德哥尔摩))) (VP (VV 接受) (NP (ADJP (JJ 最新)) (NP (NN 奖项)))))) (, ，) (IP (DP (DT 这) (QP (CD 一) (CLP (NNB 天)))) (VP (VC 也是) (NP (NP (NP (NN 奖项) (VV 创立) (SFN 者)) (NP (NNP 阿尔弗雷德) (/ ·) (NNP 诺贝尔)) (PRN (-LRB- （) (NP (FW Al) (FW fred) (FW Nobel)) (-RRB- ）))) (NP (VV 逝世) (VV 纪念) (SFN 日))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'DP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'DP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-去年的获奖者是中国小说家莫言。
-
-(ROOT (IP (NP (DNP (NP (NN 去年)) (DEC 的)) (NP (VV 获奖) (SFN 者))) (VP (VC 是) (NP (NP (NP (NNP 中国)) (NP (NN 小说) (SFN 家))) (NP (NNP 莫言)))) (. 。)))
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'NN41799': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'NN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'NN': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+当地	人	nmod
+人	观看	nsubj
+可以	观看	aux
+观看	ROOT	root
+书法	演示	nmod
+演示	观看	obj
+、	品尝	punct
+品尝	观看	conj
+正宗	茶	nmod
+的	正宗	case
+中国	茶	compound
+茶	演示	conj
+和	宴席	cc
+中国	宴席	nmod
+宴席	茶	conj
+。	观看	punct
+----------------------------------------------------------------------
+德里市长杰拉德·迪维 (Gerard Diver) 认为这些活动非常重要，不仅对华人社区而言，对德里的所有人而言都是如此。
+
+(ROOT (IP (NP (NP (NP (NNP 德里)) (NP (NN 市长))) (NP (NNP 杰拉德) (/ ·) (NNP 迪维) (FW -LRB-Gerard) (FW Diver-RRB-))) (VP (VV 认为) (IP (IP (NP (DP (DT 这些)) (NP (NN 活动))) (VP (ADVP (RB 非常)) (VP (JJ 重要)))) (, ，) (VP (IN 不仅) (VP (PP (IN 对) (NP (NNP 华) (SFN 人) (NN 社区))) (VP (RB 而) (VP (VV 言)))) (, ，) (VP (IP (VP (PP (IN 对) (NP (DNP (NP (NNP 德里)) (DEC 的)) (DP (DT 所有)) (NP (NN 人)))) (VP (RB 而) (VP (VV 言))))) (VP (VC 都是) (NP (VV 如此))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP32858': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+德里	市长	nmod
+市长	为	nsubj
+杰拉德	市长	appos
+·	迪维	punct
+迪维	杰拉德	flat:name
+(Gerard	市长	appos
+Diver)	(Gerard	flat:foreign
+为	ROOT	root
+这些	活动	det
+活动	重要	nsubj
+非常	重要	advmod
+重要	为	ccomp
+，	言	punct
+不仅	言	case
+对	社区	case
+华	人	compound
+人	社区	nmod
+社区	言	obl
+而	言	mark
+言	言	advcl
+，	言	punct
+对	人	case
+德里	人	nmod
+的	德里	case
+所有	人	det
+人	言	obl
+而	言	mark
+言	为	ccomp
+是	如此	cop
+如此	言	xcomp
+。	为	punct
+----------------------------------------------------------------------
+“我们生活在一个岛上，有时我觉得我们可能没有像应该的那样接触到不同的文化或不同的做事方式。
+
+(ROOT (IP (`` “) (IP (NP (PRP 我们)) (VP (VV 生活) (PP (IN 在) (LCP (QP (CD 一) (CLP (NNB 个))) (NN 岛上))))) (, ，) (IP (ADVP (RB 有时)) (NP (PRP 我)) (VP (VV 觉得) (IP (NP (PRP 我们)) (VP (MD 可能) (VP (VV 没有) (VP (PP (IN 像) (NP (CP (CP (IP (VP (MD 应该))) (DEV 的))))) (ADVP (RB 那样)) (VP (VRD (VV 接触) (VV 到)) (NP (NP (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (NN 文化))) (CC 或) (NP (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (NN 做事) (NN 方式))))))))))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP19640': {}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP77804': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+“	生活	punct
+我	生活	nsubj
+生活	ROOT	root
+在	岛上	case
+一	个	nummod
+个	岛上	clf
+岛上	生活	obl
+，	生活	punct
+有时	觉得	advmod
+我	觉得	nsubj
+觉得	生活	parataxis
+我	有	nsubj
+可能	有	aux
+有	觉得	ccomp
+像	应该	case
+应该	接触	aux
+的	应该	mark:adv
+那样	接触	advmod
+接触	有	xcomp
+到	接触	mark
+不同	文化	amod
+的	不同	mark:rel
+文化	接触	obj
+或	方式	cc
+不同	方式	amod
+的	不同	mark:rel
+做事	方式	nmod
+方式	文化	conj
+。	觉得	punct
+----------------------------------------------------------------------
+“这是一个了解中国文化和传统的宝贵机会，也是一个进步的重要标志，”迪弗先生说。
+
+(ROOT (IP (IP (`` “) (NP (PRD 这)) (VP (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (IP (VP (VV 了解) (NP (NP (NNP 中国)) (NP (NN 文化) (CC 和) (NN 传统))))) (DEC 的)) (ADJP (JJ 宝贵)) (NP (NN 机会)))) (, ，) (VP (VC 也是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 进步))) (DEC 的))) (ADJP (JJ 重要)) (NP (NN 标志)))))) (, ，) ('' ”) (NP (NNP 迪弗) (NN 先生)) (VP (VV 说)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+“	标志	punct
+这	标志	nsubj
+是	机会	cop
+一	个	nummod
+个	机会	clf
+了解	机会	acl:relcl
+中国	文化	nmod
+文化	了解	obj
+和	传统	cc
+传统	文化	conj
+的	了解	mark:rel
+宝贵	机会	amod
+机会	标志	acl
+，	机会	punct
+是	标志	cop
+一	个	nummod
+个	标志	clf
+进步	标志	acl:relcl
+的	进步	mark:rel
+重要	标志	amod
+标志	ROOT	root
+，	说	punct
+”	说	punct
+迪弗	先生	nmod
+先生	说	nsubj
+说	标志	parataxis
+。	标志	punct
+----------------------------------------------------------------------
+然而，全球金融危机影响了该国其他地方的庆祝活动。
+
+(ROOT (IP (ADVP (RB 然而)) (, ，) (NP (NN 全球) (NN 金融) (NN 危机)) (VP (VV 影响) (AS 了) (NP (DNP (NP (NP (NN 该国)) (DP (DT 其他)) (NP (NN 地方))) (DEC 的)) (NP (NN 庆祝) (NN 活动)))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NN': {}, 'NN26678': {}, 'NN73071': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NN': {}, 'NN': {}, 'NN': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NN': {}, 'NN': {}, 'NN': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+然而	影响	mark
+，	然而	punct
+全球	危机	nmod
+金融	危机	nmod
+危机	影响	nsubj
+影响	ROOT	root
+了	影响	aux
+该国	地方	nmod
+其他	地方	det
+地方	活动	nmod
+的	地方	case
+庆祝	活动	nmod
+活动	影响	obj
+。	影响	punct
+----------------------------------------------------------------------
+由于缺乏资金，考文垂社区华人协会被迫取消了新年的计划。
+
+(ROOT (IP (PP (IN 由于) (IP (VP (VV 缺乏) (NP (NN 资金))))) (, ，) (NP (NP (NP (NN 考文) (SFN 垂)) (NP (NN 社区))) (NP (NNP 华) (SFN 人) (NN 协会))) (VP (BB 被) (VP (VV 迫) (IP (VP (VV 取消) (AS 了) (NP (DNP (NP (ADJP (PFA 新)) (NP (NNB 年))) (DEC 的)) (NP (NN 计划))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'NP': {}, 'NP17112': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'BB': {}, 'VP': {}}}
+Dependency Features:
+由于	缺乏	case
+缺乏	迫	xcomp
+资金	缺乏	obj
+，	缺乏	punct
+考文	垂	compound
+垂	协会	nmod
+社区	协会	nmod
+华	人	compound
+人	协会	nmod
+协会	迫	nsubj:pass
+被	迫	aux:pass
+迫	ROOT	root
+取消	迫	xcomp
+了	取消	aux
+新	年	case
+年	计划	nmod
+的	年	mark:rel
+计划	取消	obj
+。	迫	punct
+----------------------------------------------------------------------
+同样在该国西南部，由于一些赞助商被迫减少资金支持，因此决定减少庆祝活动。
+
+(ROOT (IP (IP (VP (ADVP (RB 同样)) (VP (PP (VV 在) (NP (NP (NN 该国)) (NP (NN 西南) (SFN 部))))))) (, ，) (PP (IN 由于) (IP (NP (QP (JJ 一些)) (NP (VV 赞助) (SFN 商))) (VP (BB 被) (VP (VV 迫) (IP (VP (VV 减少) (NP (NN 资金) (NN 支持)))))))) (, ，) (ADVP (IN 因)) (ADVP (PRD 此)) (VP (VV 决定) (IP (VP (VV 减少) (NP (NN 庆祝) (NN 活动))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, ',75165': {}, 'ADVP': {}, 'ADVP64070': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, ',45243': {}, 'ADVP': {'IN': {}}, 'ADVP89492': {'PRD': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, ',': {}, 'ADVP': {'IN': {}}, 'ADVP': {'PRD': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'ADVP': {'IN': {}}}
+{'ADVP': {'PRD': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+同样	在	advmod
+在	决定	advcl
+该国	部	nmod
+西南	部	compound
+部	在	obj
+，	在	punct
+由于	迫	case
+一些	商	amod
+赞助	商	compound
+商	迫	nsubj:pass
+被	迫	aux:pass
+迫	决定	ccomp
+减少	迫	xcomp
+资金	支持	nmod
+支持	减少	obj
+，	迫	punct
+因	此	case
+此	决定	obl
+决定	ROOT	root
+减少	决定	xcomp
+庆祝	活动	nmod
+活动	减少	obj
+。	决定	punct
+----------------------------------------------------------------------
+尽管遭遇挫折，但人们仍决心以盛大的方式迎接牛年，并希望牛年能够带来通过坚韧和辛勤劳动而获得的繁荣。
+
+(ROOT (IP (IP (VP (ADVP (IN 尽管)) (VP (VV 遭遇) (NP (NN 挫折))))) (, ，) (ADVP (RB 但)) (NP (NN 人们)) (VP (VP (ADVP (RB 仍)) (VP (VV 决心) (IP (VP (PP (IN 以) (NP (CP (CP (IP (VP (JJ 盛大))) (DEC 的))) (NP (NN 方式)))) (VP (VV 迎接) (NP (NNP 牛) (SFN 年))))))) (, ，) (RB 并) (VP (VV 希望) (IP (NP (NNP 牛) (NNB 年)) (VP (MD 能够) (VP (VV 带来) (NP (CP (CP (IP (VP (PP (VV 通过) (NP (NP (JJ 坚韧)) (CC 和) (NP (ADJP (JJ 辛勤)) (NP (NN 劳动))))) (VP (RB 而) (VP (VV 获得))))) (DEC 的))) (NP (NN 繁荣)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'NN': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP88874': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'NN': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+尽管	遭遇	case
+遭遇	希望	xcomp
+挫折	遭遇	obj
+，	遭遇	punct
+但	决心	mark
+人	决心	nsubj
+仍	决心	advmod
+决心	希望	advcl
+以	方式	case
+盛大	方式	amod
+的	盛大	mark:rel
+方式	迎接	obl
+迎接	决心	xcomp
+牛	年	compound
+年	迎接	obj
+，	决心	punct
+并	希望	mark
+希望	ROOT	root
+牛	年	compound
+年	带来	nmod:tmod
+能够	带来	aux
+带来	希望	ccomp
+通过	获得	advcl
+坚韧	通过	xcomp
+和	劳动	cc
+辛勤	劳动	amod
+劳动	坚韧	conj
+而	获得	mark
+获得	繁荣	acl:relcl
+的	获得	mark:rel
+繁荣	带来	obj
+。	希望	punct
 ----------------------------------------------------------------------

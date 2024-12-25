@@ -1,212 +1,1142 @@
-美国和欧盟试图平息以色列，部长们威胁拒绝向巴勒斯坦权力机构提供关税收入，以作为对联合国地位申请的回应
+今天，费城学区被指控通过笔记本电脑摄像头秘密监视学生的争议升级，该学区承认拍摄了超过 56,000 张学生照片，其中许多照片拍摄在学生家中。
 
-(ROOT (IP (IP (NP (NNP 美国) (CC 和) (NNP 欧盟)) (VP (VV 试图) (IP (VP (VV 平息) (NP (NNP 以色列)))))) (, ，) (NP (CP (IP (NP (NN 部长) (SFN 们)) (VP (VP (VV 威胁) (IP (VP (VV 拒绝) (IP (VP (PP (IN 向) (NP (NP (NNP 巴勒斯坦)) (NP (NN 权力) (NN 机构)))) (VP (VV 提供) (NP (NN 关税) (NN 收入)))))))) (, ，) (VP (RB 以) (VP (VV 作) (PP (VC 为) (NP (PP (IN 对) (NP (NP (VV 联合) (SFN 国)) (NP (NN 地位)))) (NP (NN 申请)))))))) (DEC 的)) (NP (NN 回应)))))
-{'IP': {'IP': {}, ',': {}, 'NP': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}}}
+(ROOT (IP (IP (NP (NN 今天)) (, ，) (NP (NNP 费城) (NN 学区)) (VP (BB 被) (VP (VV 指控) (IP (VP (PP (IN 通过) (NP (NN 笔) (NN 记本) (NN 电脑) (VV 摄像) (SFN 头))) (ADVP (NN 秘密)) (VP (VV 监视) (NP (DNP (NP (NN 学生)) (DEC 的)) (NP (NN 争议) (NN 升级))))))))) (, ，) (IP (NP (NN 该学) (SFN 区)) (VP (VV 承认) (IP (VP (VV 拍摄) (AS 了) (NP (QP (ADVP (VV 超过)) (QP (CD 56,000) (CLP (NNB 张)))) (NP (NN 学生) (NN 照片))))))) (, ，) (IP (NP (NN 其中)) (NP (QP (CD 许多)) (NP (NN 照片))) (VP (VV 拍摄) (PP (VV 在) (LCP (NP (NN 学生)) (NN 家中))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP51798': {}, ',98002': {}, 'IP17628': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP46210': {}, 'VP': {}}, ',': {}, 'IP44487': {'NP': {}, 'VP': {}}, ',94785': {}, 'IP34865': {'NP': {}, 'NP60856': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nmod:tmod']	['今天', '监视', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '今天', 'punct']
+['PROPN', 'NOUN', 'nmod']	['费城', '学区', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['学区', '监视', 'nsubj']
+['AUX', 'VERB', 'aux:pass']	['被', '指控', 'aux:pass']
+['VERB', 'VERB', 'advcl']	['指控', '监视', 'advcl']
+['ADP', 'PART', 'case']	['通过', '头', 'case']
+['NOUN', 'PART', 'nmod']	['笔', '头', 'nmod']
+['NOUN', 'PART', 'nmod']	['记本', '头', 'nmod']
+['NOUN', 'PART', 'nmod']	['电脑', '头', 'nmod']
+['VERB', 'PART', 'compound']	['摄像', '头', 'compound']
+['PART', 'VERB', 'obl']	['头', '监视', 'obl']
+['NOUN', 'VERB', 'obl']	['秘密', '监视', 'obl']
+['VERB', 'ROOT', 'root']	['监视', 'NONE', 'root']
+['NOUN', 'NOUN', 'nmod']	['学生', '升级', 'nmod']
+['PART', 'NOUN', 'case']	['的', '学生', 'case']
+['NOUN', 'NOUN', 'nmod']	['争议', '升级', 'nmod']
+['NOUN', 'VERB', 'obj']	['升级', '监视', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '承认', 'punct']
+['NOUN', 'PART', 'compound']	['该学', '区', 'compound']
+['PART', 'VERB', 'nsubj']	['区', '承认', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['承认', '监视', 'parataxis']
+['VERB', 'VERB', 'xcomp']	['拍摄', '承认', 'xcomp']
+['AUX', 'VERB', 'aux']	['了', '拍摄', 'aux']
+['VERB', 'NOUN', 'amod']	['超过', '张', 'amod']
+['NUM', 'NOUN', 'nummod']	['56,000', '张', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['张', '照片', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['学生', '照片', 'nmod']
+['NOUN', 'VERB', 'obj']	['照片', '拍摄', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '拍摄', 'punct']
+['NOUN', 'NOUN', 'nmod']	['其中', '照片', 'nmod']
+['NUM', 'NOUN', 'nummod']	['许多', '照片', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['照片', '拍摄', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['拍摄', '指控', 'parataxis']
+['VERB', 'VERB', 'mark']	['在', '拍摄', 'mark']
+['NOUN', 'NOUN', 'nmod']	['学生', '家中', 'nmod']
+['NOUN', 'VERB', 'obj']	['家中', '拍摄', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '监视', 'punct']
 ----------------------------------------------------------------------
-美国和欧洲的谈判代表敦促以色列不要对巴勒斯坦人采取惩罚性措施，如果他们继续努力争取在联合国获得国家地位的承认。
+当这场丑闻曝光时，人们认为只有少数学生的照片被拍下，其中包括 Blake Robbins。
 
-(ROOT (IP (IP (NP (DNP (NP (NNP 美国) (CC 和) (NNP 欧洲)) (DEC 的)) (NP (NN 谈判) (NN 代表))) (VP (VV 敦促) (NP (NNP 以色列)) (IP (VP (MD 不要) (VP (PP (IN 对) (NP (NP (NNP 巴勒斯坦)) (NP (SFN 人)))) (VP (VV 采取) (NP (VV 惩罚) (SFN 性) (NN 措施)))))))) (, ，) (CP (ADVP (IN 如果)) (IP (NP (PRP 他们)) (VP (VV 继续) (VP (VP (VV 努力)) (VP (VV 争取) (NP (CP (IP (VP (PP (VV 在) (NP (VV 联合) (SFN 国))) (VP (VV 获得) (NP (NN 国家) (NN 地位))))) (DEC 的)) (NP (NN 承认)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'CP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'CP': {'ADVP': {}, 'IP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-----------------------------------------------------------------------
-以色列政府正在考虑一系列报复措施，包括根据《奥斯陆协议》的条款扣留以色列代表巴勒斯坦权力机构收取的关税收入。
-
-(ROOT (IP (IP (NP (NP (NNP 以色列)) (NP (NN 政府))) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 考虑) (NP (QP (CD 一) (CLP (NN 系列))) (NP (NN 报复) (NN 措施)))))) (, ，) (IP (VP (VV 包括) (IP (VP (PP (IN 根据) (NP (DNP (NP (-LRB- 《) (NP (NNP 奥斯陆)) (NP (NN 协议)) (-RRB- 》)) (DEC 的)) (NP (NN 条款)))) (VP (VV 扣留) (NP (CP (CP (IP (NP (NP (NNP 以色列)) (NP (VV 代表) (NNP 巴勒斯坦)) (NP (NN 权力) (NN 机构))) (VP (VV 收取))) (DEC 的))) (NP (NN 关税) (NN 收入)))))))) (. 。)))
+(ROOT (IP (IP (PP (IN 当) (LCP (IP (NP (DP (DT 这) (CLP (NNB 场))) (NP (NN 丑闻))) (VP (VV 曝光))) (IN 时))) (, ，) (NP (NN 人们)) (VP (VV 认为) (IP (NP (ADVP (VV 只有)) (NP (DNP (NP (QP (JJ 少数)) (NP (NN 学生))) (DEC 的)) (NP (NN 照片)))) (VP (BB 被) (VP (VV 拍下)))))) (, ，) (IP (NP (NN 其中)) (VP (VV 包括) (NP (FW Blake) (FW Robbins)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP47324': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP6501': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['当', '曝光', 'case']
+['DET', 'NOUN', 'det']	['这', '场', 'det']
+['NOUN', 'NOUN', 'clf']	['场', '丑闻', 'clf']
+['NOUN', 'VERB', 'nsubj']	['丑闻', '曝光', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['曝光', '为', 'ccomp']
+['ADP', 'VERB', 'mark']	['时', '曝光', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '曝光', 'punct']
+['NOUN', 'VERB', 'nsubj']	['人', '为', 'nsubj']
+['VERB', 'ROOT', 'root']	['为', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['只有', '为', 'xcomp']
+['ADJ', 'NOUN', 'amod']	['少数', '学生', 'amod']
+['NOUN', 'NOUN', 'nmod']	['学生', '照片', 'nmod']
+['PART', 'NOUN', 'case']	['的', '学生', 'case']
+['NOUN', 'VERB', 'nsubj:pass']	['照片', '拍下', 'nsubj:pass']
+['AUX', 'VERB', 'aux:pass']	['被', '拍下', 'aux:pass']
+['VERB', 'VERB', 'ccomp']	['拍下', '只有', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '包括', 'punct']
+['NOUN', 'VERB', 'nsubj']	['其中', '包括', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['包括', '为', 'parataxis']
+['X', 'VERB', 'obj']	['Blake', '包括', 'obj']
+['X', 'X', 'flat:foreign']	['Robbins', 'Blake', 'flat:foreign']
+['PUNCT', 'VERB', 'punct']	['。', '为', 'punct']
 ----------------------------------------------------------------------
-每月向巴权力机构转交约 4 亿谢克尔（690 万英镑）。
+但本周公布的法庭文件显示，对罗宾斯和其他学生拍摄了数千张照片。
 
-(ROOT (IP (VP (NP (DT 每月)) (PP (IN 向) (NP (NP (NNP 巴)) (NP (NN 权力) (NN 机构)))) (VP (VV 转交) (QP (ADVP (RB 约)) (QP (CD 4) (CLP (NNP 亿谢克尔))) (PRN (-LRB- （) (QP (QP (CD 690)) (QP (CD 万) (CLP (NNP 英) (CLP (NNB 镑))))) (-RRB- ）))))) (. 。)))
-{'IP': {'VP': {}, '.': {}}}
-{'IP': {'VP': {'NP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
-{'VP': {'NP': {}, 'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-一些以色列部长，包括极右翼的外交部长阿维格多·利伯曼 (Avigdor Lieberman) 和财政部长尤万·斯泰因茨 (Yuval Steinitz) 要求扣留这笔钱。
-
-(ROOT (IP (NP (NP (NP (QP (JJ 一些)) (NP (NNP 以色列)) (NP (NN 部长))) (, ，) (VP (VV 包括) (NP (NP (DNP (ADJP (ADVP (RB 极)) (ADJP (NN 右翼))) (DEC 的)) (NP (NN 外交) (NN 部长))) (NP (NNP 阿维格多) (/ ·) (NNP 利伯曼) (FW -LRB-Avigdor) (FW Lieberman)))) (-RRB- -RRB-)) (CC 和) (NP (NP (NN 财政) (NN 部长)) (NP (NNP 尤万) (/ ·) (NNP 斯泰因茨) (FW -LRB-Yuval) (FW Steinitz-RRB-)))) (VP (VV 要求) (IP (VP (VV 扣留) (NP (DP (DT 这) (CLP (NNB 笔))) (NP (NN 钱)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'CC': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'CC': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-----------------------------------------------------------------------
-但美国和欧盟的外交官担心这可能会严重破坏巴权力机构，甚至可能导致其崩溃。
-
-(ROOT (IP (ADVP (RB 但)) (NP (DNP (NP (NNP 美国) (CC 和) (NNP 欧盟)) (DEC 的)) (NP (NN 外交) (SFN 官))) (VP (VV 担心) (IP (NP (PRD 这)) (VP (VP (MD 可能) (VP (MD 会) (VP (ADVP (RB 严重)) (VP (VV 破坏) (NP (NP (NNP 巴)) (NP (NN 权力) (NN 机构))))))) (, ，) (VP (ADVP (RB 甚至)) (VP (MD 可能) (VP (VV 导致) (NP (NP (PRP 其)) (NP (VV 崩溃))))))))) (. 。)))
+(ROOT (IP (ADVP (RB 但)) (NP (CP (CP (IP (VP (NP (NN 本周)) (VP (VV 公布)))) (DEC 的))) (NP (NN 法庭) (NN 文件))) (VP (VV 显示) (, ，) (IP (VP (PP (IN 对) (NP (NP (NNP 罗宾斯)) (CC 和) (NP (DP (DT 其他)) (NP (NN 学生))))) (VP (VV 拍摄) (AS 了) (NP (QP (CD 数千) (CLP (NNB 张))) (NP (NN 照片))))))) (. 。)))
+layer 2:
 {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
 {'ADVP': {'RB': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-----------------------------------------------------------------------
-据信反对这一举动的副总理丹·梅里多 (Dan Meridor) 周一表示，以色列内阁尚未作出任何决定。“我尽量不用威胁的语气，”他在耶路撒冷的一次会议上说到。
-
-(ROOT (IP (ADVP (VV 据信)) (NP (NP (CP (CP (IP (VP (VV 反对) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 举动))))) (DEC 的))) (ADJP (PFA 副)) (NP (NN 总理))) (NP (NNP 丹) (/ ·) (NNP 梅里多) (FW -LRB-Dan) (FW Meridor-RRB-))) (VP (ADVP (RB 周一)) (VP (VV 表示) (, ，) (IP (NP (NP (NNP 以色列)) (NP (NN 内阁))) (VP (ADVP (RB 尚)) (ADVP (RB 未)) (VP (VV 作出) (NP (DP (DT 任何)) (NP (NN 决定)))))))) (. 。)))
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'VV': {}}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'VV': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-他补充说，巴以在安全和经济问题上的合作“对双方都有帮助”。
-
-(ROOT (IP (NP (PRP 他)) (VP (VP (VV 补充)) (VP (VV 说) (, ，) (IP (NP (NP (NNP 巴以)) (DNP (PP (IN 在) (LCP (NP (NP (NN 安全) (CC 和) (NN 经济)) (NP (NN 问题))) (IN 上))) (DEC 的)) (NP (NN 合作))) (VP (`` “) (PP (IN 对) (NP (QP (CD 双)) (NP (NN 方)))) (ADVP (RB 都)) (VP (VV 有) (NP (NN 帮助))) ('' ”))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-他说，任何决定“都需要考虑以色列的利益”。
-
-(ROOT (IP (NP (PRP 他)) (VP (VV 说) (, ，) (IP (NP (DP (DT 任何)) (NP (NN 决定))) (VP (`` “) (ADVP (RB 都)) (VP (MD 需要) (VP (VV 考虑) (NP (DNP (NP (NNP 以色列)) (DEC 的)) (NP (NN 利益))))) ('' ”)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-如果巴权力机构崩溃，以色列将被迫承担巴勒斯坦领土的责任，而以色列不愿意这样做。
-
-(ROOT (IP (IP (CP (ADVP (IN 如果)) (IP (NP (NP (NNP 巴)) (NP (NN 权力) (NN 机构))) (VP (VV 崩溃)))) (, ，) (NP (NNP 以色列)) (VP (ADVP (RB 将)) (VP (BB 被) (VP (VV 迫) (IP (VP (VV 承担) (NP (DNP (NP (NP (NNP 巴勒斯坦)) (NP (NN 领土))) (DEC 的)) (NP (NN 责任))))))))) (, ，) (IP (ADVP (RB 而)) (NP (NNP 以色列)) (VP (ADVP (RB 不)) (VP (MD 愿意) (IP (VP (ADVP (RB 这样)) (VP (VV 做))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-巴勒斯坦驻纽约代表团高级成员纳比勒·萨斯 (Nabil Shaath) 周末表示，巴权力机构并不过分担心以色列扣留关税收入的威胁。
-
-(ROOT (IP (NP (NP (NP (NP (NNP 巴勒斯坦)) (CP (IP (VP (VV 驻) (NP (NNP 纽约))))) (NP (NN 代表) (SFN 团))) (ADJP (JJ 高级)) (NP (NN 成员))) (NP (NNP 纳比勒) (/ ·) (NNP 萨斯) (FW -LRB-Nabil) (FW Shaath-RRB-))) (VP (NP (NN 周末)) (VP (VV 表示) (, ，) (IP (NP (NP (NNP 巴)) (NP (NN 权力) (NN 机构))) (VP (ADVP (RB 并)) (ADVP (RB 不过)) (ADVP (VV 分)) (VP (VV 担) (IP (VP (VV 心) (NP (CP (IP (NP (NNP 以色列)) (VP (VV 扣留) (NP (NN 关税) (NN 收入)))) (DEC 的)) (NP (NN 威胁)))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-如果联合国的行动得到执行，美国国会还威胁要停止向巴人民权力机构提供资金。
-
-(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (DNP (NP (VV 联合) (SFN 国)) (DEC 的)) (NP (NN 行动))) (VP (VV 得到) (NP (NN 执行))))) (, ，) (NP (NNP 美国) (NN 国会)) (VP (ADVP (RB 还)) (VP (VV 威胁) (IP (VP (MD 要) (VP (VV 停止) (IP (VP (PP (IN 向) (NP (NP (NNP 巴)) (NP (NN 人民) (NN 权力) (NN 机构)))) (VP (VV 提供) (NP (NN 资金)))))))))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'NP': {'NNP': {}, 'NN': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-Shaath 说：“你不能用钱来换取你的权利。”
-
-(ROOT (IP (NP (FW Shaath)) (VP (VV 说) (: ：) (IP (`` “) (NP (PRP 你)) (VP (MD 不能) (VP (PP (VV 用) (NP (NN 钱))) (VP (RB 来) (VP (VV 换) (VP (VV 取) (NP (DNP (NP (PRP 你)) (DEC 的)) (NP (NN 权利)))))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'NP': {'FW': {}}}
-{'VP': {'VV': {}, ':': {}, 'IP': {}}}
-----------------------------------------------------------------------
-他说，阿拉伯国家已向巴权力机构保证，他们将弥补任何短缺，欧洲人和日本人也承诺不减少资金。
-
-(ROOT (IP (NP (PRP 他)) (VP (VV 说) (, ，) (IP (NP (NP (NNP 阿拉伯)) (NP (NN 国家))) (VP (ADVP (RB 已)) (PP (IN 向) (NP (NP (NNP 巴)) (NP (NN 权力) (NN 机构)))) (VP (VV 保证) (, ，) (IP (IP (NP (PRP 他们)) (VP (ADVP (RB 将)) (VP (VV 弥补) (NP (DP (DT 任何)) (NP (NN 短缺)))))) (, ，) (IP (NP (NP (NP (NNP 欧洲)) (NP (SFN 人))) (CC 和) (NP (NP (NNP 日本)) (NP (SFN 人)))) (VP (ADVP (RB 也)) (VP (VV 承诺) (IP (VP (ADVP (RB 不)) (VP (VV 减少) (NP (NN 资金))))))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-以色列部长们提议的其他惩罚性措施包括将西岸定居点并入以色列，并撕毁《奥斯陆协议》，根据该协议，巴权力机构获得了对西岸和加沙部分地区的控制权。
-
-(ROOT (IP (IP (NP (CP (CP (IP (NP (NP (NNP 以色列)) (NP (NN 部长) (SFN 们))) (VP (VV 提议))) (DEC 的))) (DP (DT 其他)) (NP (VV 惩罚) (SFN 性) (NN 措施))) (VP (VV 包括) (IP (VP (VP (BB 将) (IP (NP (NN 西岸) (VV 定居) (SFN 点)) (VP (VV 并入) (NP (NNP 以色列))))) (, ，) (RB 并) (VP (VV 撕) (VP (VV 毁) (NP (-LRB- 《) (NP (NNP 奥斯陆)) (NP (NN 协议)) (-RRB- 》)))))))) (, ，) (IP (PP (IN 根据) (NP (DP (DT 该)) (NP (NN 协议)))) (, ，) (NP (NP (NNP 巴)) (NP (NN 权力) (NN 机构))) (VP (VV 获得) (AS 了) (NP (DNP (PP (IN 对) (NP (NP (NN 西岸) (CC 和) (NNP 加沙)) (ADJP (NN 部分)) (NP (NN 地区)))) (DEC 的)) (NP (VV 控制) (SFN 权))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在纽约，为寻找避免在联合国发生外交冲突的办法而进行的谈判仍在继续。
-
-(ROOT (IP (PP (VV 在) (NP (NNP 纽约))) (, ，) (NP (CP (CP (IP (VP (PP (IN 为) (IP (VP (VV 寻找) (IP (VP (VV 避免) (NP (DNP (PP (IN 在) (IP (NP (VV 联合) (SFN 国)) (VP (VV 发生) (NP (NN 外交) (NN 冲突))))) (DEC 的)) (NP (NN 办法)))))))) (VP (RB 而) (VP (VV 进行))))) (DEC 的))) (NP (NN 谈判))) (VP (ADVP (RB 仍)) (ADVP (RB 在)) (VP (VV 继续))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'PP': {'VV': {}, 'NP': {}}}
 {'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-中东四方会议——美国、欧盟、联合国和俄罗斯——将于周一恢复会议，因未能就声明措辞达成一致。
-
-(ROOT (IP (IP (NP (NP (NP (NNP 中东)) (NP (QP (CD 四)) (NP (NN 方))) (NP (NN 会议))) (HYPH —) (HYPH —) (NP (NNP 美国) (EC 、) (NNP 欧盟) (EC 、) (VV 联合) (SFN 国) (CC 和) (NNP 俄罗斯))) (HYPH —) (HYPH —) (VP (ADVP (RB 将)) (PP (IN 于) (NP (NNP 周) (CD 一))) (VP (VV 恢复) (NP (NN 会议))))) (, ，) (PP (IN 因) (IP (VP (MD 未能) (VP (PP (IN 就) (NP (NN 声明) (NN 措辞))) (VP (VV 达成) (NP (NN 一致))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'HYPH': {}, 'HYPH': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'HYPH': {}, 'HYPH': {}, 'VP': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
-----------------------------------------------------------------------
-英国前首相托尼·布莱尔周日表示，仍有望避免冲突。“问题是，人们能否找到一条道路，使巴勒斯坦人能够向建国迈出重要一步，同时不至于最终由联合国取代谈判？”
-
-(ROOT (IP (NP (NP (NP (NNP 英国)) (ADJP (PFA 前)) (NP (NN 首相))) (NP (NNP 托尼) (/ ·) (NNP 布莱尔))) (VP (NP (NN 周日)) (VP (VV 表示) (, ，) (IP (VP (ADVP (RB 仍)) (VP (VP (VV 有) (NP (VV 望))) (VP (VV 避免) (NP (NN 冲突)))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-他告诉 ABC 电视台，四方声明提供了“一个成功谈判的时间框架，如果您愿意，我们可以说是一个时间表”，这一点很重要。
-
-(ROOT (IP (NP (PRP 他)) (VP (VV 告诉) (NP (FW ABC) (NN 电视) (SFN 台)) (, ，) (IP (NP (NP (QP (CD 四)) (NP (NN 方))) (NP (NN 声明))) (VP (VV 提供) (AS 了) (IP (`` “) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (JJ 成功)) (VP (NN 谈判)))) (DEC 的))) (NP (NN 时间) (NN 框架))) (, ，) (CP (CP (ADVP (IN 如果)) (IP (NP (PRP 您)) (VP (MD 愿意)))) (, ，) (NP (PRP 我们)) (VP (IP (VP (MD 可以) (VP (VV 说)))) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 时间) (SFN 表))))) ('' ”)) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 一点)) (ADVP (RB 很)) (VP (JJ 重要)))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-据悉，布莱尔正在推动“基准谈判”，在这种谈判中，确定的关键问题必须在规定的日期之前达成一致。
-
-(ROOT (IP (IP (ADVP (VV 据悉)) (, ，) (NP (NNP 布莱尔)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 推动) (NP (`` “) (NN 基准) (NN 谈判) ('' ”))))) (, ，) (IP (PP (IN 在) (LCP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 谈判))) (IN 中))) (, ，) (NP (CP (CP (IP (VP (VV 确定))) (DEC 的))) (NP (NN 关键) (NN 问题))) (VP (MD 必须) (VP (PP (IN 在) (LCP (NP (CP (CP (IP (VP (NN 规定))) (DEC 的))) (NP (NN 日期))) (IN 之前))) (VP (VV 达成) (NP (NN 一致)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-据报道，另一项提议是巴勒斯坦人提交其作为独立国家的联合国正式会员国申请，但之后将“冻结”一段定义期，可能为六个月，期间双边会谈将恢复，试图达成冲突的谈判解决方案。
-
-(ROOT (IP (PP (IN 据) (NP (NN 报道))) (, ，) (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 项)))) (NP (NN 提议))) (VP (VP (VC 是) (IP (NP (NP (NNP 巴勒斯坦)) (NP (SFN 人))) (VP (VV 提交) (NP (PRP 其)) (NP (DNP (PP (VV 作) (PP (VC 为) (NP (ADJP (JJ 独立)) (NP (NN 国家))))) (DEC 的)) (NP (VV 联合) (SFN 国)) (ADJP (JJ 正式)) (NP (NN 会员) (SFN 国))) (IP (VP (NN 申请)))))) (, ，) (IP (ADVP (RB 但)) (VP (ADVP (NN 之后)) (VP (BB 将) (IP (NP (VP (`` “) (VV 冻结) ('' ”)) (QP (CD 一) (CLP (NNB 段))) (NP (NN 定义) (SFN 期))) (, ，) (VP (MD 可能) (VP (IN 为) (NP (QP (CD 六) (CLP (NNB 个))) (NP (NN 月))))))))) (, ，) (IP (NP (NN 期间)) (NP (NP (QP (CD 双)) (NP (NN 边))) (NP (NN 会谈))) (VP (VP (ADVP (RB 将)) (VP (VV 恢复))) (, ，) (VP (VV 试图) (IP (VP (VV 达成) (NP (DNP (NP (NN 冲突)) (DEC 的)) (NP (NN 谈判) (NN 解决) (NN 方案))))))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'NP': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-英国广播公司 (BBC) 进行的一项民意调查发现，在 19 个国家，支持巴勒斯坦国家的人数超过了反对的人数。
-
-(ROOT (IP (NP (CP (CP (IP (NP (NP (NNP 英国) (NN 广播) (NN 公司)) (NP (FW -LRB-BBC-RRB-))) (VP (VV 进行))) (DEC 的))) (QP (CD 一) (CLP (NNB 项))) (NP (NN 民意) (NN 调查))) (VP (VV 发现) (, ，) (IP (PP (VV 在) (NP (QP (CD 19) (CLP (NNB 个))) (NP (NN 国家)))) (, ，) (NP (CP (CP (IP (VP (VV 支持) (NP (NP (NNP 巴勒斯坦)) (NP (NN 国家))))) (DEC 的))) (NP (NN 人数))) (VP (VV 超过) (AS 了) (NP (DNP (NP (VV 反对)) (DEC 的)) (NP (NN 人数)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}, 'QP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'CP': {}, 'QP': {}, 'NP': {}}}
 {'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['但', '显示', 'mark']
+['NOUN', 'VERB', 'nmod:tmod']	['本周', '公布', 'nmod:tmod']
+['VERB', 'NOUN', 'acl:relcl']	['公布', '文件', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '公布', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['法庭', '文件', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['文件', '显示', 'nsubj']
+['VERB', 'VERB', 'advcl']	['显示', '拍摄', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '显示', 'punct']
+['ADP', 'PROPN', 'case']	['对', '罗宾斯', 'case']
+['PROPN', 'VERB', 'obl']	['罗宾斯', '拍摄', 'obl']
+['CCONJ', 'NOUN', 'cc']	['和', '学生', 'cc']
+['DET', 'NOUN', 'det']	['其他', '学生', 'det']
+['NOUN', 'PROPN', 'conj']	['学生', '罗宾斯', 'conj']
+['VERB', 'ROOT', 'root']	['拍摄', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '拍摄', 'aux']
+['NUM', 'NOUN', 'nummod']	['数千', '张', 'nummod']
+['NOUN', 'NOUN', 'clf']	['张', '照片', 'clf']
+['NOUN', 'VERB', 'obj']	['照片', '拍摄', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '拍摄', 'punct']
 ----------------------------------------------------------------------
-平均而言，49% 的人支持这一举措，21% 的人反对。
+罗宾斯和他的父母已经对费城郊区的低梅里昂学区提起诉讼。
 
-(ROOT (IP (IP (IP (VP (ADVP (JJ 平均)) (VP (RB 而) (VP (VV 言))))) (, ，) (NP (QP (CD 49%)) (NP (NN 的人))) (VP (VV 支持) (NP (DP (DT 这)) (NP (VV 一举) (SFN 措))))) (, ，) (IP (DNP (QP (CD 21%)) (DEC 的人)) (VP (VV 反对))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'DNP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'DNP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在美国，美国承诺否决联合国安理会提交的提案，在美国，有 45% 的人支持这一提议，有 36% 的人反对。
-
-(ROOT (IP (IP (PP (VV 在) (NP (NNP 美国))) (, ，) (NP (NNP 美国)) (VP (VV 承诺) (IP (VP (VV 否决) (NP (CP (CP (IP (NP (VV 联合) (SFN 国) (NN 安理) (SFN 会)) (VP (VV 提交))) (DEC 的))) (NP (NN 提案))))))) (, ，) (IP (PP (VV 在) (NP (NNP 美国))) (, ，) (VP (VV 有) (IP (NP (QP (CD 45%)) (NP (NN 的人))) (VP (VV 支持) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 提议))))))) (, ，) (IP (VP (VV 有) (IP (NP (QP (CD 36%)) (NP (NN 的人))) (VP (VV 反对))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'VP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'PP': {}, ',': {}, 'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-支持度最高的是穆斯林国家。
-
-(ROOT (IP (NP (CP (CP (IP (NP (VV 支持) (SFN 度)) (VP (JJ 最高))) (DEC 的)))) (VP (VC 是) (NP (NNP 穆斯林) (NN 国家))) (. 。)))
+(ROOT (IP (NP (NP (NNP 罗宾斯)) (CC 和) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 父母)))) (VP (ADVP (RB 已经)) (PP (IN 对) (NP (DNP (NP (NP (NNP 费城)) (NP (NN 郊区))) (DEC 的)) (NP (NNP 低梅) (NNP 里昂) (NN 学区)))) (VP (VV 提起) (NP (NN 诉讼)))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'NP': {'CP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'CC': {}, 'NP47515': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'CC': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'CC': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['罗宾斯', '提起', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '父母', 'cc']
+['PRON', 'NOUN', 'det']	['他', '父母', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'PROPN', 'conj']	['父母', '罗宾斯', 'conj']
+['ADV', 'VERB', 'advmod']	['已经', '提起', 'advmod']
+['ADP', 'NOUN', 'case']	['对', '学区', 'case']
+['PROPN', 'NOUN', 'nmod']	['费城', '郊区', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['郊区', '学区', 'nmod']
+['PART', 'NOUN', 'case']	['的', '郊区', 'case']
+['PROPN', 'NOUN', 'nmod']	['低梅', '学区', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['里昂', '学区', 'nmod']
+['NOUN', 'VERB', 'obl']	['学区', '提起', 'obl']
+['VERB', 'ROOT', 'root']	['提起', 'NONE', 'root']
+['NOUN', 'VERB', 'obj']	['诉讼', '提起', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '提起', 'punct']
 ----------------------------------------------------------------------
-在英国，有 53% 的人赞成，26% 的人反对。
+据罗宾斯的律师提交的法庭文件称，最初认为笔记本电脑的“猥亵”技术仅产生了几张照片，但他们发现了 400 多张罗宾斯的照片，其中包括“部分裸体和睡觉”的照片。
 
-(ROOT (IP (IP (PP (VV 在) (NP (NNP 英国))) (, ，) (VP (VV 有) (IP (NP (QP (CD 53%)) (NP (NN 的人))) (VP (VV 赞成))))) (, ，) (IP (NP (QP (CD 26%)) (NP (NN 的人))) (VP (VV 反对))) (. 。)))
+(ROOT (IP (IP (PP (IN 据) (IP (NP (CP (CP (IP (NP (DNP (NP (NNP 罗宾斯)) (DEC 的)) (NP (NN 律师))) (VP (VV 提交))) (DEC 的))) (NP (NN 法庭) (NN 文件))) (VP (VV 称) (, ，) (IP (VP (ADVP (NN 最初)) (VP (VV 认为) (IP (NP (DNP (NP (NN 笔) (NN 记本) (NN 电脑)) (DEC 的)) (NP (`` “) (NN 猥亵) ('' ”)) (NP (NN 技术))) (VP (ADVP (RB 仅)) (VP (VV 产生) (AS 了) (NP (QP (CD 几) (CLP (NNB 张))) (NP (NN 照片)))))))))))) (, ，) (ADVP (RB 但)) (NP (PRP 他们)) (VP (VV 发现) (AS 了) (NP (DNP (NP (QP (CD 400)) (NP (NNP 多张罗宾斯))) (DEC 的)) (NP (NN 照片))))) (, ，) (IP (NP (NN 其中)) (VP (VV 包括) (NP (DNP (NP (`` “) (QP (NN 部分)) (NP (NN 裸体) (CC 和) (VV 睡觉)) ('' ”)) (DEC 的)) (NP (NN 照片))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP27834': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'VP': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP3313': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['据', '文件', 'case']
+['PROPN', 'NOUN', 'nmod']	['罗宾斯', '律师', 'nmod']
+['PART', 'PROPN', 'case']	['的', '罗宾斯', 'case']
+['NOUN', 'VERB', 'nsubj']	['律师', '提交', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['提交', '文件', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '提交', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['法庭', '文件', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['文件', '称', 'nsubj']
+['VERB', 'ROOT', 'root']	['称', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '发现', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['最初', '为', 'nmod:tmod']
+['VERB', 'NOUN', 'acl:relcl']	['为', '技术', 'acl:relcl']
+['NOUN', 'NOUN', 'nmod']	['笔', '电脑', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['记本', '电脑', 'nmod']
+['NOUN', 'VERB', 'obj']	['电脑', '为', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '为', 'mark:rel']
+['PUNCT', 'NOUN', 'punct']	['“', '猥亵', 'punct']
+['NOUN', 'NOUN', 'nmod']	['猥亵', '技术', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['”', '猥亵', 'punct']
+['NOUN', 'VERB', 'nsubj']	['技术', '产生', 'nsubj']
+['ADV', 'VERB', 'advmod']	['仅', '产生', 'advmod']
+['VERB', 'VERB', 'ccomp']	['产生', '称', 'ccomp']
+['AUX', 'VERB', 'aux']	['了', '产生', 'aux']
+['NUM', 'NOUN', 'nummod']	['几', '张', 'nummod']
+['NOUN', 'NOUN', 'clf']	['张', '照片', 'clf']
+['NOUN', 'VERB', 'obj']	['照片', '产生', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '称', 'punct']
+['ADV', 'VERB', 'mark']	['但', '发现', 'mark']
+['PRON', 'VERB', 'nsubj']	['他', '发现', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['发现', '称', 'ccomp']
+['AUX', 'VERB', 'aux']	['了', '发现', 'aux']
+['NUM', 'PROPN', 'nummod']	['400', '多张罗宾斯', 'nummod']
+['PROPN', 'NOUN', 'nmod']	['多张罗宾斯', '照片', 'nmod']
+['PART', 'PROPN', 'mark:rel']	['的', '多张罗宾斯', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['照片', '发现', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '包括', 'punct']
+['NOUN', 'VERB', 'obl']	['其中', '包括', 'obl']
+['VERB', 'VERB', 'parataxis']	['包括', '发现', 'parataxis']
+['PUNCT', 'NOUN', 'punct']	['“', '裸体', 'punct']
+['NOUN', 'NOUN', 'nmod']	['部分', '裸体', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['裸体', '照片', 'nmod']
+['CCONJ', 'VERB', 'cc']	['和', '睡觉', 'cc']
+['VERB', 'NOUN', 'conj']	['睡觉', '裸体', 'conj']
+['PUNCT', 'NOUN', 'punct']	['”', '裸体', 'punct']
+['PART', 'NOUN', 'case']	['的', '裸体', 'case']
+['NOUN', 'VERB', 'obj']	['照片', '包括', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '发现', 'punct']
+----------------------------------------------------------------------
+他们家里还有其他学生的照片。
+
+(ROOT (IP (NP (NP (PRP 他们)) (NP (NN 家里))) (VP (ADVP (RB 还)) (VP (VV 有) (NP (DNP (NP (DP (DT 其他)) (NP (NN 学生))) (DEC 的)) (NP (NN 照片))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP19646': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'nmod']	['他', '家里', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['家里', '有', 'nsubj']
+['ADV', 'VERB', 'mark']	['还', '有', 'mark']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['DET', 'NOUN', 'det']	['其他', '学生', 'det']
+['NOUN', 'NOUN', 'nmod']	['学生', '照片', 'nmod']
+['PART', 'NOUN', 'case']	['的', '学生', 'case']
+['NOUN', 'VERB', 'obj']	['照片', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+“不仅 Blake Robbins 本人受到监控，他与他在聊天的每一个人都受到监控，”Robbins 的律师马克·哈尔茨曼说。
+
+(ROOT (IP (IP (`` “) (ADVP (IN 不仅)) (NP (NP (FW Blake) (FW Robbins)) (NP (PRD 本人))) (VP (VV 受到) (NP (NN 监控))) (, ，) (IP (NP (NP (PRP 他)) (IN 与) (NP (NP (PRP 他)) (DNP (PP (VV 在) (NP (VV 聊天))) (DEC 的)) (DP (DT 每) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 人)))) (VP (ADVP (RB 都)) (VP (VV 受到) (NP (NN 监控)))))) (, ，) ('' ”) (NP (NP (DNP (NP (FW Robbins)) (DEC 的)) (NP (NN 律师))) (NP (NNP 马克) (/ ·) (NNP 哈尔茨曼))) (VP (VV 说)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}}, ',': {}, "''": {}, 'NP': {'NP': {}, 'NP48461': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}}, ',': {}, "''": {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+['PUNCT', 'VERB', 'punct']	['“', '说', 'punct']
+['ADP', 'VERB', 'case']	['不仅', '受到', 'case']
+['X', 'VERB', 'nsubj']	['Blake', '受到', 'nsubj']
+['X', 'X', 'flat:foreign']	['Robbins', 'Blake', 'flat:foreign']
+['PRON', 'X', 'appos']	['本人', 'Blake', 'appos']
+['VERB', 'VERB', 'ccomp']	['受到', '受到', 'ccomp']
+['NOUN', 'VERB', 'obj']	['监控', '受到', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '受到', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '受到', 'nsubj']
+['ADP', 'NOUN', 'case']	['与', '人', 'case']
+['PRON', 'VERB', 'nsubj']	['他', '在', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['在', '人', 'acl:relcl']
+['VERB', 'VERB', 'xcomp']	['聊天', '在', 'xcomp']
+['PART', 'VERB', 'mark:rel']	['的', '在', 'mark:rel']
+['DET', 'NOUN', 'det']	['每', '个', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['个', '人', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['人', '受到', 'nsubj']
+['ADV', 'VERB', 'mark']	['都', '受到', 'mark']
+['VERB', 'VERB', 'ccomp']	['受到', '说', 'ccomp']
+['NOUN', 'VERB', 'obj']	['监控', '受到', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '受到', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '受到', 'punct']
+['DET', 'NOUN', 'det']	['Robbins', '律师', 'det']
+['PART', 'DET', 'case']	['的', 'Robbins', 'case']
+['NOUN', 'VERB', 'nsubj']	['律师', '说', 'nsubj']
+['PROPN', 'NOUN', 'appos']	['马克', '律师', 'appos']
+['PUNCT', 'PROPN', 'punct']	['·', '哈尔茨曼', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['哈尔茨曼', '马克', 'flat:name']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
+----------------------------------------------------------------------
+Robbins 就读的哈里顿学校的律师亨利·霍克迈默 (Henry Hockeimer) 透露，至少有 56,000 张网络摄像头照片和其他图像从学生的笔记本电脑中截取，但他否认有任何图像含有色情内容。
+
+(ROOT (IP (NP (NP (CP (CP (IP (NP (FW Robbins)) (VP (VV 就读))) (DEC 的))) (DNP (NP (NNP 哈里顿) (NN 学校)) (DEC 的)) (NP (NN 律师))) (NP (NNP 亨利) (/ ·) (NNP 霍克迈) (NNP 默) (FW -LRB-Henry) (FW Hockeimer-RRB-))) (VP (VV 透露) (, ，) (IP (IP (VP (ADVP (RB 至少)) (VP (VV 有) (IP (NP (NP (QP (CD 56,000) (CLP (NNB 张))) (NP (NN 网络) (VV 摄像) (SFN 头) (NN 照片))) (CC 和) (NP (DP (DT 其他)) (NP (NN 图像)))) (VP (PP (IN 从) (LCP (NP (DNP (NP (NN 学生)) (DEC 的)) (NP (NN 笔) (NN 记本) (NN 电脑))) (IN 中))) (VP (VV 截取))))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 他)) (VP (VV 否认) (IP (VP (VV 有) (IP (NP (DP (DT 任何)) (NP (NN 图像))) (VP (VV 含有) (NP (NN 色情) (NN 内容)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP68447': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['X', 'VERB', 'nsubj']	['Robbins', '就读', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['就读', '学校', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '就读', 'mark:rel']
+['PROPN', 'NOUN', 'nmod']	['哈里顿', '学校', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['学校', '律师', 'nmod']
+['PART', 'VERB', 'mark:rel']	['的', '就读', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['律师', '透露', 'nsubj']
+['PROPN', 'NOUN', 'appos']	['亨利', '律师', 'appos']
+['PUNCT', 'PROPN', 'punct']	['·', '霍克迈', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['霍克迈', '亨利', 'flat:name']
+['PROPN', 'PROPN', 'flat:name']	['默', '亨利', 'flat:name']
+['X', 'PROPN', 'appos']	['(Henry', '默', 'appos']
+['X', 'X', 'flat:foreign']	['Hockeimer)', '(Henry', 'flat:foreign']
+['VERB', 'ROOT', 'root']	['透露', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['ADV', 'VERB', 'advmod']	['至少', '有', 'advmod']
+['VERB', 'VERB', 'ccomp']	['有', '透露', 'ccomp']
+['NUM', 'NOUN', 'nummod']	['56,000', '张', 'nummod']
+['NOUN', 'NOUN', 'clf']	['张', '照片', 'clf']
+['NOUN', 'NOUN', 'nmod']	['网络', '照片', 'nmod']
+['VERB', 'PART', 'compound']	['摄像', '头', 'compound']
+['PART', 'NOUN', 'nmod']	['头', '照片', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['照片', '截取', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '图像', 'cc']
+['DET', 'NOUN', 'det']	['其他', '图像', 'det']
+['NOUN', 'NOUN', 'conj']	['图像', '照片', 'conj']
+['ADP', 'NOUN', 'case']	['从', '电脑', 'case']
+['NOUN', 'NOUN', 'nmod']	['学生', '电脑', 'nmod']
+['PART', 'NOUN', 'case']	['的', '学生', 'case']
+['NOUN', 'NOUN', 'nmod']	['笔', '电脑', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['记本', '电脑', 'nmod']
+['NOUN', 'VERB', 'obl']	['电脑', '截取', 'obl']
+['ADP', 'NOUN', 'case']	['中', '电脑', 'case']
+['VERB', 'VERB', 'ccomp']	['截取', '有', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '否认', 'punct']
+['ADV', 'VERB', 'mark']	['但', '否认', 'mark']
+['PRON', 'VERB', 'nsubj']	['他', '否认', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['否认', '透露', 'parataxis']
+['VERB', 'VERB', 'xcomp']	['有', '否认', 'xcomp']
+['DET', 'NOUN', 'det']	['任何', '图像', 'det']
+['NOUN', 'VERB', 'nsubj']	['图像', '含有', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['含有', '有', 'ccomp']
+['NOUN', 'NOUN', 'nmod']	['色情', '内容', 'nmod']
+['NOUN', 'VERB', 'obj']	['内容', '含有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '透露', 'punct']
+----------------------------------------------------------------------
+该学区向学生发放了 2300 台笔记本电脑，并表示启动了安装在笔记本电脑中的间谍软件，试图追踪 80 台失踪的笔记本电脑。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 学区))) (VP (VP (PP (IN 向) (NP (NN 学生))) (VP (VV 发放) (AS 了) (NP (QP (CD 2300) (CLP (NNB 台笔))) (NP (NN 记本) (NN 电脑))))) (, ，) (RB 并) (VP (VV 表示) (IP (VP (VP (VV 启动) (AS 了) (NP (CP (CP (IP (VP (VV 安装) (PP (IN 在) (LCP (NP (NN 笔) (NN 记本) (NN 电脑)) (IN 中))))) (DEC 的))) (NP (NN 间谍) (NN 软件)))) (, ，) (VP (VV 试图) (IP (VP (VV 追踪) (NP (DNP (NP (QP (CD 80)) (NP (NNB 台失踪))) (DEC 的)) (NP (NN 笔) (NN 记本) (NN 电脑)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP83729': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['该', '学区', 'det']
+['NOUN', 'VERB', 'nsubj']	['学区', '试图', 'nsubj']
+['ADP', 'NOUN', 'case']	['向', '学生', 'case']
+['NOUN', 'VERB', 'obl']	['学生', '发放', 'obl']
+['VERB', 'VERB', 'advcl']	['发放', '试图', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '发放', 'aux']
+['NUM', 'NOUN', 'nummod']	['2300', '台笔', 'nummod']
+['NOUN', 'NOUN', 'clf']	['台笔', '电脑', 'clf']
+['NOUN', 'NOUN', 'nmod']	['记本', '电脑', 'nmod']
+['NOUN', 'VERB', 'obj']	['电脑', '发放', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '发放', 'punct']
+['ADV', 'VERB', 'mark']	['并', '表示', 'mark']
+['VERB', 'VERB', 'advcl']	['表示', '试图', 'advcl']
+['VERB', 'VERB', 'xcomp']	['启动', '表示', 'xcomp']
+['AUX', 'VERB', 'aux']	['了', '启动', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['安装', '软件', 'acl:relcl']
+['ADP', 'NOUN', 'case']	['在', '电脑', 'case']
+['NOUN', 'NOUN', 'nmod']	['笔', '电脑', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['记本', '电脑', 'nmod']
+['NOUN', 'VERB', 'obl']	['电脑', '安装', 'obl']
+['ADP', 'NOUN', 'case']	['中', '电脑', 'case']
+['PART', 'VERB', 'mark:rel']	['的', '安装', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['间谍', '软件', 'nmod']
+['NOUN', 'VERB', 'obj']	['软件', '启动', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '启动', 'punct']
+['VERB', 'ROOT', 'root']	['试图', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['追踪', '试图', 'xcomp']
+['NUM', 'NOUN', 'nummod']	['80', '台失踪', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['台失踪', '电脑', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '台失踪', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['笔', '电脑', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['记本', '电脑', 'nmod']
+['NOUN', 'VERB', 'obj']	['电脑', '追踪', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '试图', 'punct']
+----------------------------------------------------------------------
+该系统现已被停用。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 系统))) (VP (ADVP (NN 现)) (ADVP (RB 已)) (VP (BB 被) (VP (VV 停用)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP99519': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['该', '系统', 'det']
+['NOUN', 'VERB', 'nsubj:pass']	['系统', '停用', 'nsubj:pass']
+['NOUN', 'VERB', 'nmod:tmod']	['现', '停用', 'nmod:tmod']
+['ADV', 'VERB', 'advmod']	['已', '停用', 'advmod']
+['AUX', 'VERB', 'aux:pass']	['被', '停用', 'aux:pass']
+['VERB', 'ROOT', 'root']	['停用', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['。', '停用', 'punct']
+----------------------------------------------------------------------
+这一事件始于 11 月，当时一名校方官员怀疑罗宾斯可能在卧室里藏毒，并向他展示了从他的笔记本电脑上截取的一张照片。
+
+(ROOT (IP (IP (NP (DP (DT 这) (QP (CD 一))) (NP (NN 事件))) (VP (VV 始) (PP (VV 于) (NP (CD 11) (NNB 月))))) (, ，) (IP (NP (NN 当时)) (NP (QP (CD 一) (CLP (NNB 名))) (NP (NN 校方) (NN 官员))) (VP (VV 怀疑) (IP (NP (NNP 罗宾斯)) (VP (VP (MD 可能) (VP (PP (VV 在) (LCP (NP (NN 卧室)) (NN 里))) (VP (VV 藏毒)))) (, ，) (RB 并) (VP (PP (IN 向) (NP (PRP 他))) (VP (VV 展示) (AS 了) (NP (CP (CP (IP (VP (PP (IN 从) (LCP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 笔) (NN 记本) (NN 电脑))) (IN 上))) (VP (VV 截取)))) (DEC 的))) (QP (CD 一) (CLP (NNB 张))) (NP (NN 照片))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP54245': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP22172': {'NP': {}, 'NP6338': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这', '事件', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '事件', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['事件', '始', 'nsubj']
+['VERB', 'ROOT', 'root']	['始', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['于', '始', 'mark']
+['NUM', 'NOUN', 'nummod']	['11', '月', 'nummod']
+['NOUN', 'VERB', 'obj']	['月', '始', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '怀疑', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['当时', '怀疑', 'nmod:tmod']
+['NUM', 'NOUN', 'nummod']	['一', '名', 'nummod']
+['NOUN', 'NOUN', 'clf']	['名', '官员', 'clf']
+['NOUN', 'NOUN', 'nmod']	['校方', '官员', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['官员', '怀疑', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['怀疑', '始', 'parataxis']
+['PROPN', 'VERB', 'nsubj']	['罗宾斯', '藏毒', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '藏毒', 'aux']
+['VERB', 'VERB', 'advcl']	['在', '藏毒', 'advcl']
+['NOUN', 'VERB', 'obj']	['卧室', '在', 'obj']
+['NOUN', 'NOUN', 'acl']	['里', '卧室', 'acl']
+['VERB', 'VERB', 'ccomp']	['藏毒', '怀疑', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '藏毒', 'punct']
+['ADV', 'VERB', 'mark']	['并', '展示', 'mark']
+['ADP', 'PRON', 'case']	['向', '他', 'case']
+['PRON', 'VERB', 'obl']	['他', '展示', 'obl']
+['VERB', 'VERB', 'ccomp']	['展示', '怀疑', 'ccomp']
+['AUX', 'VERB', 'aux']	['了', '展示', 'aux']
+['ADP', 'NOUN', 'case']	['从', '电脑', 'case']
+['PRON', 'NOUN', 'det']	['他', '电脑', 'det']
+['PART', 'PRON', 'mark:rel']	['的', '他', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['笔', '电脑', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['记本', '电脑', 'nmod']
+['NOUN', 'VERB', 'obl']	['电脑', '截取', 'obl']
+['ADP', 'NOUN', 'case']	['上', '电脑', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['截取', '照片', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '截取', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['一', '张', 'nummod']
+['NOUN', 'NOUN', 'clf']	['张', '照片', 'clf']
+['NOUN', 'VERB', 'obj']	['照片', '展示', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '始', 'punct']
+----------------------------------------------------------------------
+罗宾斯称“药丸”是糖果，他和父母提起诉讼，声称侵犯了公民权利。
+
+(ROOT (IP (IP (NP (NNP 罗宾斯)) (VP (VV 称) (IP (NP (`` “) (NN 药丸) ('' ”)) (VP (VC 是) (NP (NN 糖果)))))) (, ，) (IP (NP (PRP 他)) (VP (VP (PP (IN 和) (NP (NN 父母))) (VP (VV 提起) (NP (NN 诉讼)))) (, ，) (VP (VV 声称) (IP (VP (VV 侵犯) (AS 了) (NP (NN 公民) (NN 权利))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP8242': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP68691': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['罗宾斯', '称', 'nsubj']
+['VERB', 'ROOT', 'root']	['称', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['“', '药丸', 'punct']
+['NOUN', 'NOUN', 'nsubj']	['药丸', '糖果', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['”', '药丸', 'punct']
+['AUX', 'NOUN', 'cop']	['是', '糖果', 'cop']
+['NOUN', 'VERB', 'ccomp']	['糖果', '称', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '声称', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '声称', 'nsubj']
+['ADP', 'NOUN', 'case']	['和', '父母', 'case']
+['NOUN', 'VERB', 'obl']	['父母', '提起', 'obl']
+['VERB', 'VERB', 'advcl']	['提起', '声称', 'advcl']
+['NOUN', 'VERB', 'obj']	['诉讼', '提起', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '提起', 'punct']
+['VERB', 'VERB', 'parataxis']	['声称', '称', 'parataxis']
+['VERB', 'VERB', 'xcomp']	['侵犯', '声称', 'xcomp']
+['AUX', 'VERB', 'aux']	['了', '侵犯', 'aux']
+['NOUN', 'NOUN', 'nmod']	['公民', '权利', 'nmod']
+['NOUN', 'VERB', 'obj']	['权利', '侵犯', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '称', 'punct']
+----------------------------------------------------------------------
+Robbins 表示，他不知道为什么窃听设备被激活，因为他的笔记本电脑没有被报告被盗或遗失。
+
+(ROOT (IP (NP (FW Robbins)) (VP (VV 表示) (, ，) (IP (IP (NP (PRP 他)) (VP (ADVP (RB 不)) (VP (VV 知道) (IP (VP (PP (IN 为) (NP (DP (WP 什么)) (NP (VV 窃听) (NN 设备)))) (VP (BB 被) (VP (VV 激活)))))))) (, ，) (PP (IN 因为) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 笔) (NN 记本) (NN 电脑))) (VP (VV 没有) (VP (BB 被) (VP (VV 报告) (IP (VP (VP (BB 被) (VP (VV 盗))) (CC 或) (VP (VV 遗失))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['X', 'VERB', 'nsubj']	['Robbins', '表示', 'nsubj']
+['VERB', 'ROOT', 'root']	['表示', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '知道', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '知道', 'nsubj']
+['ADV', 'VERB', 'advmod']	['不', '知道', 'advmod']
+['VERB', 'VERB', 'ccomp']	['知道', '表示', 'ccomp']
+['ADP', 'PRON', 'case']	['为', '什么', 'case']
+['PRON', 'VERB', 'obl']	['什么', '激活', 'obl']
+['VERB', 'VERB', 'advcl']	['窃听', '激活', 'advcl']
+['NOUN', 'VERB', 'nsubj:pass']	['设备', '激活', 'nsubj:pass']
+['AUX', 'VERB', 'aux:pass']	['被', '激活', 'aux:pass']
+['VERB', 'VERB', 'ccomp']	['激活', '知道', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['ADP', 'VERB', 'case']	['因为', '有', 'case']
+['PRON', 'NOUN', 'det']	['他', '电脑', 'det']
+['PART', 'PRON', 'mark:rel']	['的', '他', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['笔', '电脑', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['记本', '电脑', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['电脑', '有', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['有', '知道', 'ccomp']
+['AUX', 'VERB', 'aux:pass']	['被', '报告', 'aux:pass']
+['VERB', 'VERB', 'xcomp']	['报告', '盗', 'xcomp']
+['AUX', 'VERB', 'aux:pass']	['被', '盗', 'aux:pass']
+['VERB', 'VERB', 'xcomp']	['盗', '有', 'xcomp']
+['CCONJ', 'VERB', 'cc']	['或', '遗失', 'cc']
+['VERB', 'VERB', 'conj']	['遗失', '盗', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '表示', 'punct']
+----------------------------------------------------------------------
+其他被拍下照片的学生表示，他们的笔记本电脑也没有被报告失窃或遗失。
+
+(ROOT (IP (NP (DP (DT 其他)) (CP (CP (IP (VP (BB 被) (VP (VV 拍下) (NP (NN 照片))))) (DEC 的))) (NP (NN 学生))) (VP (VV 表示) (, ，) (IP (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 笔) (NN 记本) (NN 电脑))) (VP (ADVP (RB 也)) (VP (VV 没有) (VP (BB 被) (VP (VV 报告) (IP (VP (VV 失窃) (CC 或) (VV 遗失))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'CP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['其他', '学生', 'det']
+['AUX', 'VERB', 'aux:pass']	['被', '拍下', 'aux:pass']
+['VERB', 'NOUN', 'acl:relcl']	['拍下', '学生', 'acl:relcl']
+['NOUN', 'VERB', 'obj']	['照片', '拍下', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '拍下', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['学生', '表示', 'nsubj']
+['VERB', 'ROOT', 'root']	['表示', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['PRON', 'NOUN', 'det']	['他', '电脑', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'NOUN', 'nmod']	['笔', '电脑', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['记本', '电脑', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['电脑', '有', 'nsubj']
+['ADV', 'VERB', 'mark']	['也', '有', 'mark']
+['VERB', 'VERB', 'ccomp']	['有', '表示', 'ccomp']
+['AUX', 'VERB', 'aux:pass']	['被', '失窃', 'aux:pass']
+['VERB', 'VERB', 'advcl']	['报告', '失窃', 'advcl']
+['VERB', 'VERB', 'xcomp']	['失窃', '有', 'xcomp']
+['CCONJ', 'VERB', 'cc']	['或', '遗失', 'cc']
+['VERB', 'VERB', 'conj']	['遗失', '失窃', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '表示', 'punct']
+----------------------------------------------------------------------
+美国联邦调查局 (FBI) 正在调查这起丑闻，参议院将审议一项立法草案，将使用网络摄像头进行间谍活动定为犯罪。
+
+(ROOT (IP (IP (NP (NP (NNP 美国) (NN 联邦) (VV 调查) (SFN 局)) (NP (FW -LRB-FBI)) (-RRB- -RRB-)) (VP (ADVP (RB 正在)) (VP (VV 调查) (NP (DP (DT 这) (CLP (NNB 起))) (NP (NN 丑闻)))))) (, ，) (IP (NP (VV 参议) (SFN 院)) (VP (VP (ADVP (RB 将)) (VP (VV 审议) (NP (QP (CD 一) (CLP (NNB 项))) (NP (NN 立法) (NN 草案))))) (, ，) (VP (BB 将) (IP (IP (VP (VP (VV 使用) (NP (NN 网络) (VV 摄像) (SFN 头))) (VP (VV 进行) (NP (NN 间谍) (NN 活动))))) (VP (VRD (VV 定) (VC 为)) (NP (NN 犯罪))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP98389': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP57900': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'PART', 'nmod']	['美国', '局', 'nmod']
+['NOUN', 'PART', 'nmod']	['联邦', '局', 'nmod']
+['VERB', 'PART', 'compound']	['调查', '局', 'compound']
+['PART', 'X', 'nmod']	['局', '(FBI', 'nmod']
+['X', 'VERB', 'nsubj']	['(FBI', '调查', 'nsubj']
+['PUNCT', 'X', 'punct']	[')', '(FBI', 'punct']
+['ADV', 'VERB', 'advmod']	['正在', '调查', 'advmod']
+['VERB', 'ROOT', 'root']	['调查', 'NONE', 'root']
+['DET', 'NOUN', 'det']	['这', '起', 'det']
+['NOUN', 'NOUN', 'clf']	['起', '丑闻', 'clf']
+['NOUN', 'VERB', 'obj']	['丑闻', '调查', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '审议', 'punct']
+['VERB', 'PART', 'compound']	['参议', '院', 'compound']
+['PART', 'VERB', 'nsubj']	['院', '审议', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '审议', 'advmod']
+['VERB', 'VERB', 'parataxis']	['审议', '调查', 'parataxis']
+['NUM', 'NOUN', 'nummod']	['一', '项', 'nummod']
+['NOUN', 'NOUN', 'clf']	['项', '草案', 'clf']
+['NOUN', 'NOUN', 'nmod']	['立法', '草案', 'nmod']
+['NOUN', 'VERB', 'obj']	['草案', '审议', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '审议', 'punct']
+['ADP', 'VERB', 'case']	['将', '使用', 'case']
+['VERB', 'VERB', 'xcomp']	['使用', '定', 'xcomp']
+['NOUN', 'PART', 'nmod']	['网络', '头', 'nmod']
+['VERB', 'PART', 'compound']	['摄像', '头', 'compound']
+['PART', 'VERB', 'obj']	['头', '使用', 'obj']
+['VERB', 'VERB', 'advcl']	['进行', '定', 'advcl']
+['NOUN', 'NOUN', 'nmod']	['间谍', '活动', 'nmod']
+['NOUN', 'VERB', 'obj']	['活动', '进行', 'obj']
+['VERB', 'VERB', 'ccomp']	['定', '审议', 'ccomp']
+['VERB', 'VERB', 'mark']	['为', '定', 'mark']
+['NOUN', 'VERB', 'obj']	['犯罪', '定', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '调查', 'punct']
+----------------------------------------------------------------------
+学校的一名管理员，她是几个有权限追踪笔记本电脑的人之一，拒绝回答问题，并援引她的沉默权。
+
+(ROOT (IP (NP (DNP (NP (NN 学校)) (DEC 的)) (QP (CD 一) (CLP (NNB 名))) (NP (VV 管理) (SFN 员))) (, ，) (NP (PRP 她)) (VP (VP (VC 是) (NP (QP (CD 几) (CLP (NNB 个))) (CP (CP (IP (VP (VP (VV 有) (NP (NN 权限))) (VP (VV 追踪) (NP (SFN 笔) (NN 记本) (NN 电脑))))) (DEC 的))) (DNP (NP (NN 人)) (DEC 之)) (NP (CD 一)))) (, ，) (VP (VV 拒绝) (IP (VP (VV 回答) (NP (NN 问题))))) (, ，) (RB 并) (VP (VV 援引) (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (VV 沉默) (SFN 权))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP5588': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'QP': {}, 'NP': {}}, ',': {}, 'NP95047': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP38672': {}, ',43962': {}, 'RB': {}, 'VP37831': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'QP': {}, 'NP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'QP': {}, 'NP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'PART', 'nmod']	['学校', '员', 'nmod']
+['PART', 'NOUN', 'case']	['的', '学校', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '名', 'nummod']
+['NOUN', 'PART', 'nmod']	['名', '员', 'nmod']
+['VERB', 'PART', 'compound']	['管理', '员', 'compound']
+['PART', 'VERB', 'nsubj']	['员', '援引', 'nsubj']
+['PUNCT', 'PART', 'punct']	['，', '员', 'punct']
+['PRON', 'PART', 'appos']	['她', '员', 'appos']
+['AUX', 'NUM', 'cop']	['是', '一', 'cop']
+['NUM', 'NOUN', 'nummod']	['几', '个', 'nummod']
+['NOUN', 'NUM', 'clf']	['个', '一', 'clf']
+['VERB', 'NOUN', 'acl:relcl']	['有', '人', 'acl:relcl']
+['NOUN', 'NOUN', 'nmod']	['权限', '电脑', 'nmod']
+['VERB', 'PART', 'compound']	['追踪', '笔', 'compound']
+['PART', 'NOUN', 'nmod']	['笔', '电脑', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['记本', '电脑', 'nmod']
+['NOUN', 'VERB', 'obj']	['电脑', '有', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '有', 'mark:rel']
+['NOUN', 'NUM', 'nmod']	['人', '一', 'nmod']
+['PART', 'NOUN', 'case']	['之', '人', 'case']
+['NUM', 'VERB', 'advcl']	['一', '援引', 'advcl']
+['PUNCT', 'NUM', 'punct']	['，', '一', 'punct']
+['VERB', 'VERB', 'advcl']	['拒绝', '援引', 'advcl']
+['VERB', 'VERB', 'xcomp']	['回答', '拒绝', 'xcomp']
+['NOUN', 'VERB', 'obj']	['问题', '回答', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '拒绝', 'punct']
+['ADV', 'VERB', 'mark']	['并', '援引', 'mark']
+['VERB', 'ROOT', 'root']	['援引', 'NONE', 'root']
+['PRON', 'PART', 'det']	['她', '权', 'det']
+['PART', 'PRON', 'case']	['的', '她', 'case']
+['VERB', 'PART', 'compound']	['沉默', '权', 'compound']
+['PART', 'VERB', 'obj']	['权', '援引', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '援引', 'punct']
+----------------------------------------------------------------------
+《费城每日新闻》报道称，其中 38,500 张图片来自于 2008 年 9 月失窃的六台笔记本电脑，这些笔记本电脑来自哈里顿体育馆。
+
+(ROOT (IP (NP (-LRB- 《) (NP (NNP 费城)) (ADJP (NNP 每日)) (NP (NN 新闻)) (-RRB- 》)) (NP (NN 报道)) (VP (VV 称) (, ，) (IP (IP (NP (NN 其中)) (NP (QP (CD 38,500)) (NP (NN 张图片))) (VP (VV 来) (VP (VV 自) (NP (CP (CP (IP (VP (PP (IN 于) (NP (CD 2008) (NNB 年 9))) (ADVP (NN 月失)) (VP (VV 窃)))) (DEC 的))) (QP (CD 六) (CLP (NNB 台))) (NP (NN 笔) (NN 记本) (NN 电脑)))))) (, ，) (IP (NP (DP (DT 这些) (CLP (NNB 笔))) (NP (NN 记本) (NN 电脑))) (VP (VV 来) (VP (VV 自) (NP (NNP 哈里顿) (NN 体育) (SFN 馆))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'NP15730': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'-LRB-': {}, 'NP': {}, 'ADJP': {}, 'NP79629': {}, '-RRB-': {}}, 'NP35500': {'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'-LRB-': {}, 'NP': {}, 'ADJP': {}, 'NP': {}, '-RRB-': {}}, 'NP': {'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'-LRB-': {}, 'NP': {}, 'ADJP': {}, 'NP': {}, '-RRB-': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['PUNCT', 'NOUN', 'punct']	['《', '新闻', 'punct']
+['PROPN', 'NOUN', 'nmod']	['费城', '新闻', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['每日', '新闻', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['新闻', '报道', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['》', '新闻', 'punct']
+['NOUN', 'VERB', 'nsubj']	['报道', '称', 'nsubj']
+['VERB', 'ROOT', 'root']	['称', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '来', 'punct']
+['NOUN', 'NOUN', 'nmod']	['其中', '张图片', 'nmod']
+['NUM', 'NOUN', 'nummod']	['38,500', '张图片', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['张图片', '来', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['来', '称', 'ccomp']
+['VERB', 'VERB', 'mark']	['自', '来', 'mark']
+['ADP', 'NOUN', 'case']	['于', '月失', 'case']
+['NUM', 'NOUN', 'nummod']	['2008', '年 9', 'nummod']
+['NOUN', 'NOUN', 'clf']	['年 9', '月失', 'clf']
+['NOUN', 'VERB', 'obl']	['月失', '窃', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['窃', '电脑', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '窃', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['六', '台', 'nummod']
+['NOUN', 'NOUN', 'clf']	['台', '电脑', 'clf']
+['NOUN', 'NOUN', 'nmod']	['笔', '电脑', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['记本', '电脑', 'nmod']
+['NOUN', 'VERB', 'obj']	['电脑', '来', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '来', 'punct']
+['DET', 'NOUN', 'det']	['这些', '笔', 'det']
+['NOUN', 'NOUN', 'clf']	['笔', '电脑', 'clf']
+['NOUN', 'NOUN', 'nmod']	['记本', '电脑', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['电脑', '来', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['来', '称', 'parataxis']
+['VERB', 'VERB', 'mark']	['自', '来', 'mark']
+['PROPN', 'PART', 'nmod']	['哈里顿', '馆', 'nmod']
+['NOUN', 'PART', 'compound']	['体育', '馆', 'compound']
+['PART', 'VERB', 'obj']	['馆', '来', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '称', 'punct']
+----------------------------------------------------------------------
+另一组图像来自员工负责追踪的笔记本电脑上的摄像头，这些摄像头失效或被忘记关闭。
+
+(ROOT (IP (IP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 组)))) (NP (NN 图像))) (VP (VV 来) (VP (VV 自) (NP (DNP (LCP (NP (CP (CP (IP (NP (NN 员工)) (VP (VV 负责) (IP (VP (VV 追踪))))) (DEC 的))) (NP (NN 笔) (NN 记本)) (NP (NN 电脑))) (IN 上)) (DEC 的)) (NP (VV 摄像) (SFN 头)))))) (, ，) (IP (NP (DP (DT 这些)) (NP (VV 摄像) (SFN 头))) (VP (VP (VV 失效)) (CC 或) (VP (BB 被) (VP (VV 忘记) (IP (VP (VV 关闭))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP34664': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP53581': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['另', '组', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '组', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['组', '图像', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['图像', '来', 'nsubj']
+['VERB', 'ROOT', 'root']	['来', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['自', '来', 'mark']
+['NOUN', 'VERB', 'nsubj']	['员工', '负责', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['负责', '电脑', 'acl:relcl']
+['VERB', 'VERB', 'xcomp']	['追踪', '负责', 'xcomp']
+['PART', 'VERB', 'mark:rel']	['的', '负责', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['笔', '电脑', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['记本', '电脑', 'nmod']
+['NOUN', 'PART', 'nmod']	['电脑', '头', 'nmod']
+['ADP', 'NOUN', 'case']	['上', '电脑', 'case']
+['PART', 'NOUN', 'case']	['的', '电脑', 'case']
+['VERB', 'PART', 'compound']	['摄像', '头', 'compound']
+['PART', 'VERB', 'obj']	['头', '来', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '失效', 'punct']
+['DET', 'PART', 'det']	['这些', '头', 'det']
+['VERB', 'PART', 'compound']	['摄像', '头', 'compound']
+['PART', 'VERB', 'nsubj']	['头', '失效', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['失效', '来', 'parataxis']
+['CCONJ', 'VERB', 'cc']	['或', '忘记', 'cc']
+['AUX', 'VERB', 'aux:pass']	['被', '忘记', 'aux:pass']
+['VERB', 'VERB', 'conj']	['忘记', '失效', 'conj']
+['VERB', 'VERB', 'conj']	['关闭', '失效', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '来', 'punct']
+----------------------------------------------------------------------
+在约 15 起案件中，尚未确定为何对这些机器进行监控。
+
+(ROOT (IP (VP (PP (VV 在) (LCP (NP (QP (ADVP (RB 约)) (QP (CD 15))) (NP (NNB 起案件))) (IN 中))) (, ，) (ADVP (RB 尚)) (ADVP (RB 未)) (VP (VV 确定) (IP (VP (PP (IN 为) (NP (PRD 何))) (PP (IN 对) (NP (DP (DT 这些)) (NP (NN 机器)))) (VP (VV 进行) (NP (NN 监控))))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'PP': {}, ',': {}, 'ADVP': {}, 'ADVP41500': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {'PP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'VP': {'PP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['在', '确定', 'advcl']
+['ADV', 'NOUN', 'advmod']	['约', '起案件', 'advmod']
+['NUM', 'NOUN', 'nummod']	['15', '起案件', 'nummod']
+['NOUN', 'VERB', 'obj']	['起案件', '在', 'obj']
+['ADP', 'VERB', 'mark']	['中', '在', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '在', 'punct']
+['ADV', 'ADV', 'advmod']	['尚', '未', 'advmod']
+['ADV', 'VERB', 'advmod']	['未', '确定', 'advmod']
+['VERB', 'ROOT', 'root']	['确定', 'NONE', 'root']
+['ADP', 'PRON', 'case']	['为', '何', 'case']
+['PRON', 'VERB', 'obl']	['何', '进行', 'obl']
+['ADP', 'NOUN', 'case']	['对', '机器', 'case']
+['DET', 'NOUN', 'det']	['这些', '机器', 'det']
+['NOUN', 'VERB', 'obl']	['机器', '进行', 'obl']
+['VERB', 'VERB', 'ccomp']	['进行', '确定', 'ccomp']
+['NOUN', 'VERB', 'obj']	['监控', '进行', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '确定', 'punct']
+----------------------------------------------------------------------
+在其他几个案例中，拍摄的图像没有找回。
+
+(ROOT (IP (PP (IN 在) (LCP (NP (DP (DT 其他) (QP (CD 几) (CLP (NNB 个)))) (NP (NN 案例))) (IN 中))) (, ，) (NP (CP (CP (IP (VP (VV 拍摄))) (DEC 的))) (NP (NN 图像))) (VP (VV 没有) (VP (VV 找回))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['在', '案例', 'case']
+['DET', 'NOUN', 'det']	['其他', '个', 'det']
+['NUM', 'NOUN', 'nummod']	['几', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '案例', 'clf']
+['NOUN', 'VERB', 'obl']	['案例', '有', 'obl']
+['ADP', 'NOUN', 'case']	['中', '案例', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '案例', 'punct']
+['VERB', 'NOUN', 'acl:relcl']	['拍摄', '图像', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '拍摄', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['图像', '有', 'nsubj']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['找回', '有', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+Hockeimer 表示，设备中的跟踪程序会自动每隔 15 分钟拍一张照片，通常会同时拍摄用户的照片和屏幕截图。
+
+(ROOT (IP (NP (FW Hockeimer)) (VP (VV 表示) (, ，) (IP (NP (DNP (LCP (NP (NN 设备)) (IN 中)) (DEC 的)) (NP (NN 跟踪) (NN 程序))) (VP (VP (MD 会) (VP (ADVP (RB 自动)) (PP (IN 每隔) (QP (CD 15) (CLP (NNB 分钟)))) (VP (VV 拍) (NP (QP (CD 一) (CLP (NNB 张))) (NP (NN 照片)))))) (, ，) (VP (ADVP (RB 通常)) (VP (MD 会) (VP (ADVP (NN 同时)) (VP (VV 拍摄) (NP (DNP (NP (NN 用户)) (DEC 的)) (NP (NN 照片) (CC 和) (NN 屏幕) (NN 截图)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['X', 'VERB', 'nsubj']	['Hockeimer', '表示', 'nsubj']
+['VERB', 'ROOT', 'root']	['表示', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '拍摄', 'punct']
+['NOUN', 'NOUN', 'nmod']	['设备', '程序', 'nmod']
+['ADP', 'NOUN', 'case']	['中', '设备', 'case']
+['PART', 'NOUN', 'case']	['的', '设备', 'case']
+['NOUN', 'NOUN', 'nmod']	['跟踪', '程序', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['程序', '拍', 'nsubj']
+['AUX', 'VERB', 'aux']	['会', '拍', 'aux']
+['ADV', 'VERB', 'advmod']	['自动', '拍', 'advmod']
+['ADP', 'NOUN', 'case']	['每隔', '分钟', 'case']
+['NUM', 'NOUN', 'nummod']	['15', '分钟', 'nummod']
+['NOUN', 'VERB', 'obl']	['分钟', '拍', 'obl']
+['VERB', 'VERB', 'advcl']	['拍', '拍摄', 'advcl']
+['NUM', 'NOUN', 'nummod']	['一', '张', 'nummod']
+['NOUN', 'NOUN', 'clf']	['张', '照片', 'clf']
+['NOUN', 'VERB', 'obj']	['照片', '拍', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '拍', 'punct']
+['ADV', 'VERB', 'advmod']	['通常', '拍摄', 'advmod']
+['AUX', 'VERB', 'aux']	['会', '拍摄', 'aux']
+['NOUN', 'VERB', 'nmod:tmod']	['同时', '拍摄', 'nmod:tmod']
+['VERB', 'VERB', 'ccomp']	['拍摄', '表示', 'ccomp']
+['NOUN', 'NOUN', 'nmod']	['用户', '照片', 'nmod']
+['PART', 'NOUN', 'case']	['的', '用户', 'case']
+['NOUN', 'VERB', 'obj']	['照片', '拍摄', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '截图', 'cc']
+['NOUN', 'NOUN', 'nmod']	['屏幕', '截图', 'nmod']
+['NOUN', 'NOUN', 'conj']	['截图', '照片', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '表示', 'punct']
+----------------------------------------------------------------------
+Hockeimer 说，有时会连续数周或数月播放该节目。
+
+(ROOT (IP (NP (FW Hockeimer)) (VP (VV 说) (, ，) (IP (VP (ADVP (RB 有时)) (VP (MD 会) (VP (VP (QP (ADVP (RB 连续)) (QP (CD 数) (CLP (NNB 周)))) (CC 或) (NP (QP (CD 数)) (NP (NNB 月)))) (VP (VV 播放) (NP (DP (DT 该)) (NP (NN 节目))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['X', 'VERB', 'nsubj']	['Hockeimer', '说', 'nsubj']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '播放', 'punct']
+['ADV', 'VERB', 'advmod']	['有时', '播放', 'advmod']
+['AUX', 'VERB', 'aux']	['会', '播放', 'aux']
+['ADV', 'NOUN', 'advmod']	['连续', '周', 'advmod']
+['NUM', 'NOUN', 'nummod']	['数', '周', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['周', '播放', 'nmod:tmod']
+['CCONJ', 'NOUN', 'cc']	['或', '月', 'cc']
+['NUM', 'NOUN', 'nummod']	['数', '月', 'nummod']
+['NOUN', 'NOUN', 'conj']	['月', '周', 'conj']
+['VERB', 'VERB', 'ccomp']	['播放', '说', 'ccomp']
+['DET', 'NOUN', 'det']	['该', '节目', 'det']
+['NOUN', 'VERB', 'obj']	['节目', '播放', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
+----------------------------------------------------------------------
+他说：“没有关于启动该程序的情况和关闭启动的情况的书面政策或程序。”
+
+(ROOT (IP (NP (PRP 他)) (VP (VV 说) (: ：) (IP (`` “) (VP (VV 没有) (NP (NP (DNP (PP (IN 关于) (IP (VP (VV 启动) (NP (DP (DT 该)) (NP (NN 程序)))))) (DEC 的)) (NP (NN 情况))) (CC 和) (NP (DNP (NP (CP (IP (VP (VV 关闭) (VV 启动))) (DEC 的)) (NP (NN 情况))) (DEC 的)) (ADJP (NN 书面)) (NP (NN 政策) (CC 或) (NN 程序))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['他', '说', 'nsubj']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['：', '有', 'punct']
+['PUNCT', 'VERB', 'punct']	['“', '有', 'punct']
+['VERB', 'VERB', 'xcomp']	['有', '说', 'xcomp']
+['ADP', 'NOUN', 'case']	['关于', '情况', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['启动', '情况', 'acl:relcl']
+['DET', 'NOUN', 'det']	['该', '程序', 'det']
+['NOUN', 'VERB', 'obj']	['程序', '启动', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '启动', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['情况', '有', 'obl']
+['CCONJ', 'NOUN', 'cc']	['和', '政策', 'cc']
+['VERB', 'NOUN', 'acl:relcl']	['关闭', '政策', 'acl:relcl']
+['VERB', 'NOUN', 'acl:relcl']	['启动', '情况', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '启动', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['情况', '关闭', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '关闭', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['书面', '政策', 'nmod']
+['NOUN', 'NOUN', 'conj']	['政策', '情况', 'conj']
+['CCONJ', 'NOUN', 'cc']	['或', '程序', 'cc']
+['NOUN', 'NOUN', 'conj']	['程序', '政策', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '有', 'punct']
+----------------------------------------------------------------------
+Robbins 的律师在法庭文件中表示，该技术在 2018 年 10 月 20 日至 11 月 4 日期间被激活，其中有 400 张他在家中的照片，其中包括他的家人。
+
+(ROOT (IP (NP (DNP (NP (FW Robbins)) (DEC 的)) (NP (NN 律师))) (VP (PP (IN 在) (LCP (NP (NN 法庭) (NN 文件)) (IN 中))) (VP (VV 表示) (, ，) (IP (IP (NP (DP (DT 该)) (NP (NN 技术))) (VP (PP (IN 在) (LCP (NP (NP (CD 2018) (NNB 年 10) (CD 月 20) (CC 日至) (CD 11) (NNB 月 4)) (NP (NN 日期))) (IN 间))) (VP (BB 被) (VP (VV 激活))))) (, ，) (IP (NP (NN 其中)) (VP (VV 有) (IP (QP (CD 400)) (VP (NNB 张他) (NP (DNP (PP (VV 在) (NP (NN 家中))) (DEC 的)) (NP (NN 照片))))))) (, ，) (IP (NP (NN 其中)) (VP (VV 包括) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 家人)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['Robbins', '律师', 'det']
+['PART', 'DET', 'case']	['的', 'Robbins', 'case']
+['NOUN', 'VERB', 'nsubj']	['律师', '表示', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '文件', 'case']
+['NOUN', 'NOUN', 'nmod']	['法庭', '文件', 'nmod']
+['NOUN', 'VERB', 'obl']	['文件', '表示', 'obl']
+['ADP', 'NOUN', 'case']	['中', '文件', 'case']
+['VERB', 'ROOT', 'root']	['表示', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['DET', 'NOUN', 'det']	['该', '技术', 'det']
+['NOUN', 'VERB', 'nsubj:pass']	['技术', '激活', 'nsubj:pass']
+['ADP', 'NOUN', 'case']	['在', '日期', 'case']
+['NUM', 'NOUN', 'nummod']	['2018', '年 10', 'nummod']
+['NOUN', 'NUM', 'clf']	['年 10', '月 20', 'clf']
+['NUM', 'NOUN', 'nummod']	['月 20', '日期', 'nummod']
+['CCONJ', 'NOUN', 'cc']	['日至', '月 4', 'cc']
+['NUM', 'NOUN', 'nummod']	['11', '月 4', 'nummod']
+['NOUN', 'NOUN', 'clf']	['月 4', '日期', 'clf']
+['NOUN', 'VERB', 'obl']	['日期', '激活', 'obl']
+['ADP', 'NOUN', 'case']	['间', '日期', 'case']
+['AUX', 'VERB', 'aux:pass']	['被', '激活', 'aux:pass']
+['VERB', 'VERB', 'advcl']	['激活', '有', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['NOUN', 'VERB', 'obl']	['其中', '有', 'obl']
+['VERB', 'VERB', 'ccomp']	['有', '表示', 'ccomp']
+['NUM', 'NOUN', 'nummod']	['400', '张他', 'nummod']
+['NOUN', 'NOUN', 'clf']	['张他', '照片', 'clf']
+['VERB', 'NOUN', 'acl:relcl']	['在', '照片', 'acl:relcl']
+['NOUN', 'VERB', 'obj']	['家中', '在', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '在', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['照片', '包括', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '照片', 'punct']
+['NOUN', 'VERB', 'obl']	['其中', '包括', 'obl']
+['VERB', 'VERB', 'ccomp']	['包括', '有', 'ccomp']
+['PRON', 'NOUN', 'det']	['他', '家人', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'VERB', 'obj']	['家人', '包括', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '表示', 'punct']
+----------------------------------------------------------------------
+法庭文件称，“除了 Blake Robbins 的额外网络摄像头照片和屏幕截图，迄今为止还没有找到，因为这些证据被 IT 部门删除了。”
+
+(ROOT (IP (NP (NN 法庭) (NN 文件)) (VP (VV 称) (, ，) (IP (`` “) (PP (VV 除) (PP (AS 了) (NP (DNP (NP (FW Blake) (FW Robbins)) (DEC 的)) (NP (ADJP (JJ 额外)) (NP (NN 网络) (VV 摄像) (SFN 头) (NN 照片) (CC 和) (NN 屏幕) (NN 截图)))))) (, ，) (VP (ADVP (IN 迄)) (NP (NN 今)) (VP (VC 为) (ADVP (NN 止))) (ADVP (RB 还)) (VP (VV 没有) (VP (VV 找到)))) (, ，) (PP (IN 因为) (IP (NP (DP (DT 这些)) (NP (NN 证据))) (VP (BB 被) (CP (IP (NP (FW IT) (NN 部门)) (VP (VV 删除) (UH 了))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'NN67862': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NN': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'NN': {}, 'NN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['法庭', '文件', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['文件', '称', 'nsubj']
+['VERB', 'ROOT', 'root']	['称', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['PUNCT', 'VERB', 'punct']	['“', '有', 'punct']
+['VERB', 'VERB', 'advcl']	['除', '有', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '除', 'aux']
+['DET', 'NOUN', 'det']	['Blake', '照片', 'det']
+['DET', 'DET', 'flat:foreign']	['Robbins', 'Blake', 'flat:foreign']
+['PART', 'DET', 'case']	['的', 'Blake', 'case']
+['ADJ', 'NOUN', 'amod']	['额外', '照片', 'amod']
+['NOUN', 'NOUN', 'nmod']	['网络', '照片', 'nmod']
+['VERB', 'PART', 'compound']	['摄像', '头', 'compound']
+['PART', 'NOUN', 'nmod']	['头', '照片', 'nmod']
+['NOUN', 'VERB', 'obj']	['照片', '除', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '截图', 'cc']
+['NOUN', 'NOUN', 'nmod']	['屏幕', '截图', 'nmod']
+['NOUN', 'NOUN', 'conj']	['截图', '照片', 'conj']
+['PUNCT', 'VERB', 'punct']	['，', '除', 'punct']
+['ADP', 'NOUN', 'case']	['迄', '今', 'case']
+['NOUN', 'NOUN', 'nmod']	['今', '止', 'nmod']
+['AUX', 'NOUN', 'cop']	['为', '止', 'cop']
+['NOUN', 'VERB', 'advcl']	['止', '有', 'advcl']
+['ADV', 'VERB', 'mark']	['还', '有', 'mark']
+['VERB', 'VERB', 'ccomp']	['有', '称', 'ccomp']
+['VERB', 'VERB', 'xcomp']	['找到', '有', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '删除', 'punct']
+['ADP', 'VERB', 'case']	['因为', '删除', 'case']
+['DET', 'NOUN', 'det']	['这些', '证据', 'det']
+['NOUN', 'VERB', 'nsubj:pass']	['证据', '删除', 'nsubj:pass']
+['AUX', 'VERB', 'aux:pass']	['被', '删除', 'aux:pass']
+['X', 'NOUN', 'nmod']	['IT', '部门', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['部门', '删除', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['删除', '有', 'ccomp']
+['PART', 'VERB', 'discourse']	['了', '删除', 'discourse']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '删除', 'punct']
+----------------------------------------------------------------------
+他的律师正在努力获取管理员的家里电脑，以确定她是否下载过这些图片。
+
+(ROOT (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 律师))) (VP (VP (ADVP (RB 正)) (ADVP (RB 在)) (ADVP (RB 努力)) (VP (VV 获取) (NP (DNP (NP (VV 管理) (SFN 员)) (DEC 的)) (NP (NN 家里) (NN 电脑))))) (, ，) (VP (RB 以) (VP (VV 确定) (IP (NP (PRP 她)) (VP (ADVP (VC 是否)) (VP (VV 下载) (AS 过) (NP (DP (DT 这些)) (NP (NN 图片))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP52270': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'det']	['他', '律师', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'VERB', 'nsubj']	['律师', '确定', 'nsubj']
+['ADV', 'VERB', 'advmod']	['正', '获取', 'advmod']
+['ADV', 'VERB', 'advmod']	['在', '获取', 'advmod']
+['ADV', 'VERB', 'advmod']	['努力', '获取', 'advmod']
+['VERB', 'VERB', 'advcl']	['获取', '确定', 'advcl']
+['VERB', 'PART', 'compound']	['管理', '员', 'compound']
+['PART', 'NOUN', 'nmod']	['员', '电脑', 'nmod']
+['PART', 'PART', 'case']	['的', '员', 'case']
+['NOUN', 'NOUN', 'nmod']	['家里', '电脑', 'nmod']
+['NOUN', 'VERB', 'obj']	['电脑', '获取', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '获取', 'punct']
+['ADV', 'VERB', 'mark']	['以', '确定', 'mark']
+['VERB', 'ROOT', 'root']	['确定', 'NONE', 'root']
+['PRON', 'VERB', 'nsubj']	['她', '是', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['是', '确定', 'ccomp']
+['VERB', 'VERB', 'xcomp']	['下载', '是', 'xcomp']
+['AUX', 'VERB', 'aux']	['过', '下载', 'aux']
+['DET', 'NOUN', 'det']	['这些', '图片', 'det']
+['NOUN', 'VERB', 'obj']	['图片', '下载', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '确定', 'punct']
+----------------------------------------------------------------------
+法庭文件称她可能是一个偷窥者。
+
+(ROOT (IP (NP (NN 法庭) (NN 文件)) (VP (VV 称) (IP (NP (PRP 她)) (VP (MD 可能) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (NP (VV 偷窥) (SFN 者))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'NN85119': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'NN': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'NN': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['法庭', '文件', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['文件', '称', 'nsubj']
+['VERB', 'ROOT', 'root']	['称', 'NONE', 'root']
+['PRON', 'PART', 'nsubj']	['她', '者', 'nsubj']
+['AUX', 'PART', 'aux']	['可能', '者', 'aux']
+['AUX', 'PART', 'cop']	['是', '者', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'PART', 'nmod']	['个', '者', 'nmod']
+['VERB', 'PART', 'compound']	['偷窥', '者', 'compound']
+['PART', 'VERB', 'ccomp']	['者', '称', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '称', 'punct']
+----------------------------------------------------------------------
+在一封电子邮件中，一位 IT 人员评论说，从学生电脑上查看摄像头照片和屏幕截图就像“一部小小的 Lower Merion School District（下迈翁学区）的电视剧”，她据称回复说：“我知道，我喜欢这样的事。”
+
+(ROOT (IP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 封))) (NP (NN 电子) (NN 邮件))) (IN 中))) (, ，) (NP (QP (CD 一) (CLP (NNB 位))) (NP (FW IT) (NN 人员))) (VP (VP (VV 评论)) (VP (VV 说) (, ，) (IP (IP (VP (PP (IN 从) (LCP (NP (NN 学生) (NN 电脑)) (IN 上))) (VP (VV 查) (VP (VV 看) (IP (NP (NP (NP (VV 摄像) (SFN 头)) (NP (NN 照片))) (CC 和) (NP (NN 屏幕) (NN 截图))) (VP (ADVP (RB 就)) (VP (VV 像) (NP (`` “) (DNP (NP (QP (CD 一) (CLP (NNB 部))) (CP (CP (IP (VP (JJ 小小))) (DEC 的))) (NP (FW Lower) (FW Merion)) (NP (FW School)) (NP (FW District)) (PRN (-LRB- （) (NP (VV 下迈) (NNP 翁) (SFN 学) (SFN 区)) (-RRB- ）))) (DEC 的)) (NP (NN 电视) (SFN 剧)) ('' ”))))))))) (, ，) (IP (NP (PRP 她)) (VP (ADVP (VV 据称)) (VP (VP (VV 回复)) (VP (VV 说) (: ：) (IP (`` “) (NP (PRP 我)) (VP (VV 知道) (, ，) (IP (NP (PRP 我)) (VP (VV 喜欢) (NP (DNP (NP (PRD 这样)) (DEC 的)) (NP (NN 事)))))))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP22993': {}}, '.': {}, "''": {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['在', '邮件', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '封', 'nummod']
+['NOUN', 'NOUN', 'clf']	['封', '邮件', 'clf']
+['NOUN', 'NOUN', 'nmod']	['电子', '邮件', 'nmod']
+['NOUN', 'VERB', 'obl']	['邮件', '说', 'obl']
+['ADP', 'NOUN', 'case']	['中', '邮件', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '邮件', 'punct']
+['NUM', 'NOUN', 'nummod']	['一', '位', 'nummod']
+['NOUN', 'NOUN', 'clf']	['位', '人员', 'clf']
+['X', 'NOUN', 'nmod']	['IT', '人员', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['人员', '说', 'nsubj']
+['VERB', 'VERB', 'advcl']	['评论', '说', 'advcl']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '查', 'punct']
+['ADP', 'NOUN', 'case']	['从', '电脑', 'case']
+['NOUN', 'NOUN', 'nmod']	['学生', '电脑', 'nmod']
+['NOUN', 'VERB', 'obl']	['电脑', '查', 'obl']
+['ADP', 'NOUN', 'case']	['上', '电脑', 'case']
+['VERB', 'VERB', 'xcomp']	['查', '说', 'xcomp']
+['VERB', 'VERB', 'xcomp']	['看', '查', 'xcomp']
+['VERB', 'PART', 'compound']	['摄像', '头', 'compound']
+['PART', 'NOUN', 'nmod']	['头', '照片', 'nmod']
+['NOUN', 'VERB', 'obj']	['照片', '看', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '截图', 'cc']
+['NOUN', 'NOUN', 'nmod']	['屏幕', '截图', 'nmod']
+['NOUN', 'NOUN', 'conj']	['截图', '照片', 'conj']
+['ADV', 'VERB', 'mark']	['就', '像', 'mark']
+['VERB', 'VERB', 'advcl']	['像', '据称', 'advcl']
+['PUNCT', 'X', 'punct']	['“', 'Lower', 'punct']
+['NUM', 'NOUN', 'nummod']	['一', '部', 'nummod']
+['NOUN', 'PART', 'nmod']	['部', '剧', 'nmod']
+['ADJ', 'PART', 'amod']	['小小', '剧', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '小小', 'mark:rel']
+['X', 'PART', 'nmod']	['Lower', '剧', 'nmod']
+['X', 'X', 'flat:foreign']	['Merion', 'Lower', 'flat:foreign']
+['X', 'X', 'flat:foreign']	['School', 'Lower', 'flat:foreign']
+['X', 'VERB', 'flat:foreign']	['District', '下迈', 'flat:foreign']
+['PUNCT', 'PART', 'punct']	['（', '区', 'punct']
+['VERB', 'PART', 'acl:relcl']	['下迈', '剧', 'acl:relcl']
+['PROPN', 'PART', 'compound']	['翁', '学', 'compound']
+['PART', 'PART', 'compound']	['学', '区', 'compound']
+['PART', 'VERB', 'obj']	['区', '下迈', 'obj']
+['PUNCT', 'PART', 'punct']	['）', '区', 'punct']
+['PART', 'VERB', 'mark:rel']	['的', '下迈', 'mark:rel']
+['NOUN', 'PART', 'compound']	['电视', '剧', 'compound']
+['PART', 'VERB', 'obj']	['剧', '像', 'obj']
+['PUNCT', 'PART', 'punct']	['”', '剧', 'punct']
+['PUNCT', 'VERB', 'punct']	['，', '据称', 'punct']
+['PRON', 'VERB', 'nsubj']	['她', '据称', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['据称', '说', 'parataxis']
+['VERB', 'VERB', 'advcl']	['回复', '说', 'advcl']
+['VERB', 'VERB', 'xcomp']	['说', '据称', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['：', '知道', 'punct']
+['PUNCT', 'VERB', 'punct']	['“', '知道', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '知道', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['知道', '说', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '喜欢', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '喜欢', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['喜欢', '知道', 'ccomp']
+['PRON', 'NOUN', 'det']	['这样', '事', 'det']
+['PART', 'PRON', 'case']	['的', '这样', 'case']
+['NOUN', 'VERB', 'obj']	['事', '喜欢', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '知道', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '知道', 'punct']
 ----------------------------------------------------------------------

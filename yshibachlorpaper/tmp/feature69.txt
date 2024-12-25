@@ -1,384 +1,265 @@
-米特·罗姆尼最近的一番观点，就是关于文化在解释为什么有些国家富强而有些国家贫穷落后的问题上的作用，引起了很多评论。
-
-(ROOT (IP (NP (NP (NNP 米特) (/ ·) (NNP 罗姆尼)) (DNP (NP (NN 最近)) (DEC 的)) (QP (CD 一) (CLP (NNB 番))) (NP (NN 观点))) (, ，) (VP (VP (VC 就是) (PP (IN 关于) (IP (NP (NN 文化)) (DNP (PP (IN 在) (IP (VP (VV 解释) (LCP (NP (CP (IP (IP (PP (IN 为) (NP (WP 什么))) (NP (DP (VV 有些)) (NP (NN 国家))) (VP (VV 富强))) (RB 而) (IP (NP (DP (VV 有些)) (NP (NN 国家))) (VP (VCD (JJ 贫穷) (JJ 落后))))) (DEC 的)) (NP (NN 问题))) (IN 上))))) (DEC 的)) (NP (NN 作用))))) (, ，) (VP (VV 引起) (AS 了) (NP (QP (CD 很多)) (NP (NN 评论))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'DNP': {}, 'QP': {}, 'NP': {}}, ',': {}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'DNP': {}, 'QP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+.
+(ROOT (. .))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+.	ROOT	root
 ----------------------------------------------------------------------
-我尤其对他的言论感兴趣，因为他歪曲了我的观点，并且在与另一位学者的论点相对比时，对这个问题进行了过度简化。
-
-(ROOT (IP (IP (NP (PRP 我)) (VP (ADVP (RB 尤其)) (PP (IN 对) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 言论)))) (VP (VV 感) (NP (NN 兴趣))))) (, ，) (PP (PP (IN 因为) (IP (NP (PRP 他)) (VP (VV 歪曲) (AS 了) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 观点)))))) (, ，) (RB 并且) (VP (LCP (IP (VP (PP (IN 在) (NP (DNP (PP (IN 与) (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 位)))) (NP (NN 学者)))) (DEC 的)) (NP (NN 论点)))) (ADVP (RB 相对)) (VP (IN 比)))) (IN 时)) (, ，) (PP (IN 对) (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 问题)))) (VP (VV 进行) (AS 了) (NP (ADJP (JJ 过度)) (NP (NN 简化)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'PP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'PP': {'PP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+/
+(ROOT (. /))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+/	ROOT	root
 ----------------------------------------------------------------------
-我的《枪、病菌和钢》并非如罗姆尼先生在耶路撒冷的一次演讲中所说的“基本上说明土地的物理特征决定了生活在那里的人们的成功程度。
-
-(ROOT (IP (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (-LRB- 《) (NP (NN 枪) (EC 、) (NN 病菌) (CC 和) (NN 钢)) (-RRB- 》))) (VP (VC 并非) (VP (PP (VV 如) (NP (CP (CP (IP (NP (NNP 罗姆尼) (NN 先生)) (VP (PP (IN 在) (LCP (NP (DNP (NP (NNP 耶路撒冷)) (DEC 的)) (QP (CD 一) (CLP (NNB 次))) (NP (NN 演讲))) (IN 中))) (VP (RB 所) (VP (VV 说))))) (UH 的))))) (`` “) (LCP (NP (NN 基本)) (IN 上)) (VP (VV 说明) (IP (NP (DNP (NP (NN 土地)) (DEC 的)) (NP (NN 物理) (NN 特征))) (VP (VV 决定) (AS 了) (NP (DNP (NP (CP (CP (IP (VP (VV 生活) (PP (IN 在) (NP (PRD 那里))))) (DEC 的))) (NP (NN 人们))) (DEC 的)) (NP (JJ 成功) (NN 程度)))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'VP': {}}}
+i
+(ROOT (FW i))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+i	ROOT	root
 ----------------------------------------------------------------------
-这里有铁矿，还有其他资源。”
-
-(ROOT (IP (NP (PRD 这里)) (VP (VP (VV 有) (NP (NN 铁矿))) (, ，) (VP (ADVP (RB 还)) (VP (VV 有) (NP (DP (DT 其他)) (NP (NN 资源)))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'PRD': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'NP': {'PRD': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+n
+(ROOT (FW n))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+n	ROOT	root
 ----------------------------------------------------------------------
-这与我的书实际上所说的内容截然不同，我不得不怀疑罗姆尼先生是否阅读过这本书。
-
-(ROOT (IP (IP (NP (PRD 这)) (VP (PP (IN 与) (NP (CP (CP (IP (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 书))) (VP (LCP (NP (NN 实际)) (IN 上)) (VP (RB 所) (VP (VV 说))))) (DEC 的))) (NP (NN 内容)))) (VP (JJ 截然不同)))) (, ，) (IP (NP (PRP 我)) (VP (MD 不得) (VP (ADVP (RB 不)) (VP (VV 怀疑) (IP (NP (NNP 罗姆尼) (NN 先生)) (VP (ADVP (VC 是否)) (VP (VV 阅读) (AS 过) (NP (DP (DT 这)) (NP (NN 本书)))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+s
+(ROOT (NP (FW s)))
+layer 2:
+{'NP': {'FW': {}}}
+{'NP': {'FW': {}}}
+layer 3:
+{'NP': {'FW': {}}}
+{'NP': {'FW': {}}}
+Dependency Features:
+s	ROOT	root
 ----------------------------------------------------------------------
-我的关注主要集中在生物特征上，比如植物和动物种类，在物理特征上，我提到的是大陆的大小和形状以及相对的孤立。
-
-(ROOT (IP (IP (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 关注))) (VP (ADVP (RB 主要)) (VP (VV 集中) (PP (IN 在) (NP (LCP (NP (NN 生物) (NN 特征)) (IN 上)) (, ，) (NP (ADVP (VV 比如)) (NP (NP (NN 植物) (CC 和) (NN 动物)) (NP (NN 种类))))))))) (, ，) (IP (PP (IN 在) (LCP (NP (NN 物理) (NN 特征)) (IN 上))) (, ，) (NP (CP (CP (IP (NP (PRP 我)) (VP (VV 提到))) (DEC 的)))) (VP (VC 是) (NP (NP (DNP (NP (NN 大陆)) (DEC 的)) (NP (NN 大小) (CC 和) (NN 形状))) (CC 以及) (NP (DNP (ADJP (JJ 相对)) (DEC 的)) (NP (NN 孤立)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-我没有提到铁矿石，它的分布如此广泛，它的分布对不同民族的成功没有什么影响。
-
-(ROOT (IP (IP (NP (PRP 我)) (VP (VV 没有) (VP (VV 提到) (NP (NN 铁) (NN 矿石))))) (, ，) (IP (NP (DNP (NP (PRP 它)) (DEC 的)) (NP (NN 分布))) (VP (ADVP (VV 如此)) (VP (JJ 广泛)))) (, ，) (IP (NP (DNP (NP (PRP 它)) (DEC 的)) (NP (NN 分布))) (VP (PP (IN 对) (NP (DNP (NP (ADJP (JJ 不同)) (NP (NN 民族))) (DEC 的)) (NP (NN 成功)))) (VP (VV 没有) (NP (DP (WP 什么)) (NP (NN 影响)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
+r
+(ROOT (FW r))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+r	ROOT	root
 ----------------------------------------------------------------------
-(我本周才知道，罗姆尼先生在他的回忆录《没有道歉：相信美国》中也曲解了我的书。)
-
-(ROOT (IP (-LRB- -LRB-) (NP (PRP 我)) (VP (NP (DP (DT 本)) (NP (NNB 周))) (ADVP (RB 才)) (VP (VV 知道) (, ，) (IP (NP (NNP 罗姆尼) (NN 先生)) (VP (PP (IN 在) (LCP (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (VV 回忆) (SFN 录))) (IP (-LRB- 《) (VP (VV 没有) (NP (NN 道歉))) (: ：) (VP (VV 相信) (NP (NNP 美国))) (-RRB- 》))) (IN 中))) (ADVP (RB 也)) (VP (VV 曲解) (AS 了) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 书)))))))) (. 。)))
-{'IP': {'-LRB-': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'-LRB-': {}, 'NP': {'PRP': {}}, 'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}}
+u
+(ROOT (FW u))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+u	ROOT	root
 ----------------------------------------------------------------------
-这还不是最糟糕的部分。
-
-(ROOT (IP (NP (PRD 这)) (VP (ADVP (RB 还)) (VP (VC 不是) (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 糟糕)))) (DEC 的))) (NP (NN 部分))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRD': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+c
+(ROOT (FW c))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+c	ROOT	root
 ----------------------------------------------------------------------
-即使是那些强调社会解释而非地理解释的学者，如哈佛大学的经济学家大卫·S·兰德斯，他的著作《民族的财富与贫穷》被罗姆尼先生亲热地提及，罗姆尼先生说“文化是一切的根本”，这一说法却危险地过时了。
-
-(ROOT (IP (IP (IP (VP (ADVP (IN 即使)) (VP (VC 是) (NP (NP (DP (DT 那些)) (CP (CP (IP (VP (VV 强调) (NP (NN 社会) (NN 解释) (CC 而非) (NN 地理) (NN 解释)))) (DEC 的))) (NP (NN 学者))) (, ，) (NP (ADVP (VV 如)) (NP (NP (DNP (NP (NNP 哈佛) (NN 大学)) (DEC 的)) (NP (NN 经济) (NN 学家))) (NP (NNP 大卫) (/ ·) (FW S) (/ ·) (NNP 兰德斯)))))))) (, ，) (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 著作))) (NP (-LRB- 《) (DNP (NP (NN 民族)) (DEC 的)) (NP (NN 财富) (CC 与) (NN 贫穷)) (-RRB- 》))) (VP (BB 被) (CP (IP (NP (NNP 罗姆尼) (NN 先生)) (VP (DVP (VP (JJ 亲热)) (DEV 地)) (VP (VV 提及))))))) (, ，) (IP (NP (NNP 罗姆尼) (NN 先生)) (VP (VV 说) (IP (`` “) (NP (NN 文化)) (VP (VC 是) (NP (DNP (DP (DT 一切)) (DEC 的)) (NP (NN 根本)))) ('' ”)))) (, ，) (IP (NP (DP (DT 这) (QP (CD 一))) (NP (NN 说法))) (VP (ADVP (RB 却)) (VP (JJ 危险) (DEV 地过) (IN 时))) (UH 了)) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}, 'UH': {}}, ',': {}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}, 'UH': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-事实上，兰德斯先生分析了多个因素（包括气候），来解释为什么工业革命首先发生在欧洲而非其他地方。
-
-(ROOT (IP (LCP (NP (NN 事实)) (IN 上)) (, ，) (NP (NNP 兰德斯) (NN 先生)) (VP (VP (VV 分析) (AS 了) (NP (QP (CD 多) (CLP (NNB 个))) (NP (NN 因素)) (PRN (-LRB- （) (VP (VV 包括) (NP (NN 气候))) (-RRB- ）)))) (, ，) (VP (RB 来) (VP (VV 解释) (IP (VP (PP (IN 为) (NP (DP (WP 什么)) (NP (NN 工业) (NN 革命)))) (ADVP (RB 首先)) (VP (VP (VV 发生) (PP (IN 在) (NP (NNP 欧洲)))) (VP (VC 而非) (NP (DP (DT 其他)) (NP (NN 地方)))))))))) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'LCP': {'NP': {}, 'IN': {}}}
-{'NP': {'NNP': {}, 'NN': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
 ----------------------------------------------------------------------
-正如幸福的婚姻需要许多不同的因素，国家的财富和权力也是如此。
-
-(ROOT (IP (PP (IN 正如) (IP (NP (CP (CP (IP (VP (JJ 幸福))) (DEC 的))) (NP (NN 婚姻))) (VP (VV 需要) (NP (QP (CD 许多)) (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (NN 因素)))))) (, ，) (NP (DNP (NP (NN 国家)) (DEC 的)) (NP (NN 财富) (CC 和) (NN 权力))) (VP (VC 也是) (NP (VV 如此))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-这并不是否认文化的重要性。
-
-(ROOT (IP (NP (PRD 这)) (VP (ADVP (RB 并)) (VP (VC 不是) (VP (VV 否认) (NP (DNP (NP (NN 文化)) (DEC 的)) (NP (JJ 重要) (SFN 性)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRD': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+x
+(ROOT (FW x))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+x	ROOT	root
 ----------------------------------------------------------------------
-一些国家有政治体制和文化习俗 — — 诚实的政府、法治、积累财富的机会 — — 奖励劳动。
-
-(ROOT (IP (NP (QP (JJ 一些)) (NP (NN 国家))) (VP (VV 有) (NP (NP (NN 政治) (NN 体制) (CC 和) (NN 文化) (NN 习俗)) (PRN (HYPH — —) (NP (NP (CP (CP (IP (VP (JJ 诚实))) (DEC 的))) (NP (NN 政府))) (EC 、) (NP (NN 法治)) (EC 、) (NP (CP (CP (IP (VP (VV 积累) (NP (NN 财富)))) (DEC 的))) (NP (NN 机会))) (HYPH —) (HYPH —) (NP (VV 奖励) (NN 劳动)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
-{'NP': {'QP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'NP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-有些人不这样。
-
-(ROOT (IP (NP (DP (VV 有些)) (NP (NN 人))) (VP (ADVP (RB 不)) (VP (PRD 这样))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+/
+(ROOT (. /))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+/	ROOT	root
 ----------------------------------------------------------------------
-熟悉的例子是相邻国家，它们的环境相似，但制度却大不相同。
-
-(ROOT (IP (IP (NP (CP (CP (IP (VP (JJ 熟悉))) (DEC 的))) (NP (NN 例子))) (VP (VC 是) (NP (ADJP (NN 相邻)) (NP (NN 国家))))) (, ，) (IP (NP (DNP (NP (PRP 它们)) (DEC 的)) (NP (NN 环境))) (VP (JJ 相似))) (, ，) (IP (ADVP (RB 但)) (NP (NN 制度)) (VP (ADVP (RB 却)) (ADVP (RB 大)) (ADVP (RB 不)) (VP (JJ 相同)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+A
+(ROOT (FW A))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+A	ROOT	root
 ----------------------------------------------------------------------
-(比如说韩国和朝鲜，还有海地和多米尼加共和国。)
-
-(ROOT (IP (-LRB- -LRB-) (VP (VP (ADVP (VV 比如)) (VP (VV 说) (NP (NNP 韩国) (CC 和) (NNP 朝鲜)))) (, ，) (VP (ADVP (RB 还)) (VP (VV 有) (NP (NNP 海地) (CC 和) (NNP 多米尼加) (NN 共和) (SFN 国))))) (. 。)))
-{'IP': {'-LRB-': {}, 'VP': {}, '.': {}}}
-{'IP': {'-LRB-': {}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+0
+(ROOT (LS 0))
+layer 2:
+{'LS': {}}
+layer 3:
+{'LS': {}}
+Dependency Features:
+0	ROOT	root
 ----------------------------------------------------------------------
-富有和强大的国家往往有良好的体制，奖励劳动。
-
-(ROOT (IP (NP (CP (CP (IP (VP (JJ 富有) (CC 和) (JJ 强大))) (DEC 的))) (NP (NN 国家))) (VP (ADVP (RB 往往)) (VP (VP (VV 有) (NP (CP (CP (IP (VP (JJ 良好))) (DEC 的))) (NP (NN 体制)))) (, ，) (VP (VV 奖励) (NP (NN 劳动))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+2
+(ROOT (LS 2))
+layer 2:
+{'LS': {}}
+layer 3:
+{'LS': {}}
+Dependency Features:
+2	ROOT	root
 ----------------------------------------------------------------------
-但机构和文化并不是答案的全部，因为一些机构不好的国家（如意大利和阿根廷）富有，而一些品德高尚的国家（如坦桑尼亚和不丹）却贫穷。
-
-(ROOT (IP (IP (ADVP (RB 但)) (NP (NN 机构) (CC 和) (NN 文化)) (VP (ADVP (RB 并)) (VP (VC 不是) (NP (DNP (NP (NN 答案)) (DEC 的)) (NP (DT 全部)))))) (, ，) (PP (IN 因为) (IP (NP (CP (CP (IP (NP (QP (JJ 一些)) (NP (NN 机构))) (VP (JJ 不好))) (DEC 的))) (NP (NN 国家)) (PRN (-LRB- （) (NP (ADVP (VV 如)) (NP (NNP 意大利) (CC 和) (NNP 阿根廷))) (-RRB- ）))) (VP (VV 富有)))) (, ，) (RB 而) (NP (QP (JJ 一些)) (DNP (NP (NNP 品) (NNP 德高尚)) (DEC 的)) (NP (NN 国家)) (PRN (-LRB- （) (NP (NNP 如坦桑尼亚) (CC 和) (NNP 不丹)) (-RRB- ）))) (VP (ADVP (RB 却)) (VP (JJ 贫穷))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'PP': {}, ',': {}, 'RB': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, ',': {}, 'RB': {}, 'NP': {'QP': {}, 'DNP': {}, 'NP': {}, 'PRN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
-{'NP': {'QP': {}, 'DNP': {}, 'NP': {}, 'PRN': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+D
+(ROOT (FW D))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+D	ROOT	root
 ----------------------------------------------------------------------
-另一组因素涉及地理，其中包含许多比罗姆尼混淆的物理特征更多的方面。
-
-(ROOT (IP (IP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 组)))) (NP (NN 因素))) (VP (VV 涉及) (NP (NN 地理)))) (, ，) (IP (NP (NN 其中)) (VP (VV 包含) (NP (QP (CD 许多)) (CP (CP (IP (VP (PP (IN 比) (NP (CP (CP (IP (VP (NNP 罗姆尼混淆))) (DEC 的))) (NP (NN 物理) (NN 特征)))) (VP (JJ 更多)))) (DEC 的))) (NP (NN 方面))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
 ----------------------------------------------------------------------
-这种地理因素之一是纬度，它对财富和权力产生了巨大的影响：热带国家往往比温带国家贫穷。原因包括热带疾病对生命和工作的消耗性影响，以及热带地区的农业和土壤平均产出低于温带地区。
-
-(ROOT (IP (IP (NP (DNP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 地理) (NN 因素))) (DEC 之)) (NP (CD 一))) (VP (VC 是) (NP (NN 纬度)))) (, ，) (IP (NP (PRP 它)) (VP (PP (IN 对) (NP (NN 财富) (CC 和) (NN 权力))) (VP (VV 产生) (AS 了) (NP (CP (CP (IP (VP (JJ 巨大))) (DEC 的))) (NP (NN 影响)))))) (: ：)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ':': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ':': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+e
+(ROOT (NP (ADD e)))
+layer 2:
+{'NP': {'ADD': {}}}
+{'NP': {'ADD': {}}}
+layer 3:
+{'NP': {'ADD': {}}}
+{'NP': {'ADD': {}}}
+Dependency Features:
+e	ROOT	root
 ----------------------------------------------------------------------
-第二个因素是海上通道
-
-(ROOT (IP (NP (QP (CD 第二) (CLP (NNB 个))) (NP (NN 因素))) (VP (VC 是) (NP (NN 海上) (NN 通道)))))
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}}}
-{'NP': {'QP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
+n
+(ROOT (FW n))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+n	ROOT	root
 ----------------------------------------------------------------------
-没有海岸或大型航运河流的国家往往贫穷，因为陆上或空中运输成本要比海上运输成本高得多。
-
-(ROOT (IP (IP (NP (CP (CP (IP (VP (VV 没有) (NP (NP (NN 海岸)) (CC 或) (NP (ADJP (NN 大型)) (NP (NN 航运) (NN 河流)))))) (DEC 的))) (NP (NN 国家))) (VP (ADVP (RB 往往)) (VP (JJ 贫穷)))) (, ，) (PP (IN 因为) (IP (NP (NP (NN 陆上) (CC 或) (NN 空中) (NN 运输)) (NP (NN 成本))) (VP (MD 要) (VP (PP (IN 比) (NP (NN 海上) (NN 运输) (NN 成本))) (VP (JJ 高) (ADVP (JJ 得多))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
 ----------------------------------------------------------------------
-第三个地理因素是农业的历史
-
-(ROOT (IP (NP (QP (CD 第三) (CLP (NNB 个))) (NP (NN 地理) (NN 因素))) (VP (VC 是) (NP (DNP (NP (NN 农业)) (DEC 的)) (NP (NN 历史))))))
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}}}
-{'NP': {'QP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
+z
+(ROOT (FW z))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+z	ROOT	root
 ----------------------------------------------------------------------
-如果一个外星人在公元前 2000 年游览地球，他会发现集权政府、书写和金属工具在欧亚大陆已经广泛存在，但在新大陆、撒哈拉沙漠以南非洲和澳大利亚尚未出现。
-
-(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 外星) (SFN 人))) (VP (PP (IN 在) (NP (LCP (NP (NN 公元)) (IN 前)) (QP (CD 2000)))) (VP (NNB 年游览) (NP (NNP 地球)))))) (, ，) (NP (PRP 他)) (VP (VP (MD 会) (VP (VV 发现) (IP (NP (NN 集权) (NN 政府) (EC 、) (NN 书写) (CC 和) (NN 金属) (NN 工具)) (VP (PP (VV 在) (NP (NP (NNP 欧) (NNP 亚)) (NP (NN 大陆)))) (ADVP (RB 已经)) (ADVP (RB 广泛)) (VP (VV 存在)))))) (, ，) (VP (ADVP (RB 但)) (PP (VV 在) (NP (LCP (NP (NP (ADJP (PFA 新)) (NP (NN 大陆))) (EC 、) (NP (NNP 撒哈拉) (NN 沙漠))) (NN 以南)) (NP (NNP 非洲) (CC 和) (NNP 澳大利亚)))) (ADVP (RB 尚)) (ADVP (RB 未)) (VP (VV 出现)))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+h
+(ROOT (FW h))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+h	ROOT	root
 ----------------------------------------------------------------------
-这个长期的领先优势让访客预测得准，今天，世界上大多数最富有和最强大的国家都是欧亚国家（以及他们在北美、澳大利亚和新西兰的海外殖民地）。
-
-(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 个))) (DNP (NP (NN 长期)) (DEC 的)) (NP (JJ 领先) (NN 优势))) (VP (VV 让) (NP (NN 访客)) (IP (VP (VV 预测) (IP (VP (JJ 得准))))))) (, ，) (IP (NP (NN 今天)) (, ，) (NP (LCP (NP (NN 世界)) (IN 上)) (QP (ADVP (RB 大)) (QP (JJ 多数))) (CP (CP (IP (VP (VP (ADVP (RB 最)) (VP (JJ 富有))) (CC 和) (VP (ADVP (RB 最)) (VP (JJ 强大))))) (DEC 的))) (NP (NN 国家))) (VP (VC 都是) (NP (NP (NNP 欧) (NNP 亚)) (NP (NN 国家)) (PRN (-LRB- （) (CC 以及) (NP (NP (PRP 他们)) (DNP (PP (VV 在) (NP (NNP 北美) (EC 、) (NNP 澳大利亚) (CC 和) (NNP 新西兰))) (DEC 的)) (NP (NN 海外) (VV 殖民) (SFN 地))) (-RRB- ）))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+.
+(ROOT (. .))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+.	ROOT	root
 ----------------------------------------------------------------------
-原因是地理的历史效应：13,000 年前，世界各地的人们都是狩猎采集者，生活在人口稀少的地方，没有集权政府、军队、文字或金属工具。
-
-(ROOT (IP (NP (NN 原因)) (VP (VC 是) (IP (NP (DNP (NP (NN 地理)) (DEC 的)) (NP (NN 历史) (NN 效应))) (: ：) (LCP (QP (CD 13,000)) (NNB 年前)) (, ，) (NP (DNP (NP (NN 世界) (NN 各地)) (DEC 的)) (NP (NN 人们))) (VP (VP (VC 都是) (NP (VV 狩猎) (VV 采集) (SFN 者))) (, ，) (VP (VV 生活) (PP (IN 在) (NP (CP (CP (IP (NP (NN 人口)) (VP (JJ 稀少))) (DEC 的))) (NP (NN 地方))))) (, ，) (VP (VV 没有) (NP (NN 集权) (NN 政府) (EC 、) (NN 军队) (EC 、) (NN 文字) (CC 或) (NN 金属) (NN 工具)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'VC': {}, 'IP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-这四种权力根源是农业发展的结果，农业产生了人口爆炸和粮食积累，足以养活全职领袖、士兵、书写者和发明家。
-
-(ROOT (IP (IP (NP (DP (DT 这) (QP (CD 四) (CLP (NNB 种)))) (NP (NN 权力) (NN 根源))) (VP (VC 是) (NP (DNP (NP (NN 农业) (VV 发展)) (DEC 的)) (NP (NN 结果))))) (, ，) (IP (NP (NN 农业)) (VP (VP (VV 产生) (AS 了) (NP (NN 人口) (NN 爆炸) (CC 和) (NN 粮食) (NN 积累))) (, ，) (VP (ADVP (VV 足)) (VP (RB 以) (VP (VV 养活) (NP (ADJP (JJ 全职)) (NP (NN 领袖) (EC 、) (NN 士兵) (EC 、) (VV 书写) (SFN 者) (CC 和) (VV 发明) (SFN 家)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+x
+(ROOT (FW x))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+x	ROOT	root
 ----------------------------------------------------------------------
-但农业只能在那些拥有许多适合驯化的野生植物和动物种类的地区，如野生小麦、水稻、猪和牛，起源。
-
-(ROOT (IP (ADVP (RB 但)) (NP (NN 农业)) (VP (ADVP (RB 只)) (VP (MD 能) (VP (PP (IN 在) (NP (NP (DP (DT 那些)) (CP (CP (IP (VP (VV 拥有) (NP (QP (CD 许多)) (CP (CP (IP (VP (VV 适合) (NP (VV 驯化)))) (DEC 的))) (ADJP (JJ 野生)) (NP (NN 植物) (CC 和) (NN 动物)) (NP (NN 种类))))) (DEC 的))) (NP (NN 地区))) (, ，) (NP (ADVP (VV 如)) (NP (ADJP (JJ 野生)) (NP (NN 小麦) (EC 、) (NN 水稻) (EC 、) (NN 猪和牛)))))) (, ，) (VP (NN 起源))))) (. 。)))
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-总之，地理解释和文化机构解释并不独立。
-
-(ROOT (IP (ADVP (RB 总之)) (, ，) (NP (NP (NN 地理) (NN 解释) (CC 和) (NN 文化) (NN 机构)) (NP (NN 解释))) (VP (ADVP (RB 并)) (ADVP (RB 不)) (VP (JJ 独立))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-当然，并非所有的农业区域都发展出了诚实的集权政府，但是，没有一个非农业区域，无论是诚实的还是不诚实的，都发展出过集权政府。
-
-(ROOT (IP (IP (ADVP (RB 当然)) (, ，) (VP (VC 并非) (IP (NP (DNP (DP (DT 所有)) (DEC 的)) (NP (NN 农业) (NN 区域))) (VP (ADVP (RB 都)) (VP (VRD (VV 发展) (VV 出)) (AS 了) (NP (CP (CP (IP (VP (JJ 诚实))) (DEC 的))) (NP (NN 集权) (NN 政府)))))))) (, ，) (IP (ADVP (RB 但是)) (, ，) (IP (VP (VV 没有) (NP (QP (CD 一) (CLP (NNB 个))) (NP (ADJP (VC 非)) (NP (NN 农业))) (NP (NN 区域))))) (, ，) (VP (IP (VP (ADVP (IN 无论)) (VP (VC 是) (NP (NP (CP (CP (IP (VP (JJ 诚实))) (DEC 的)))) (VC 还是) (NP (CP (CP (IP (VP (ADVP (RB 不)) (VP (JJ 诚实)))) (UH 的)))))))) (, ，) (ADVP (RB 都)) (VP (VRD (VV 发展) (VV 出)) (AS 过) (NP (NN 集权) (NN 政府))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这就是为什么当今促进财富的机构首先出现在拥有最古老和最富庶农业的欧亚大陆。
-
-(ROOT (IP (NP (PRD 这)) (VP (VC 就是) (IP (NP (PP (IN 为) (DP (WP 什么))) (NP (NN 当今)) (CP (CP (IP (VP (VV 促进) (NP (NN 财富)))) (DEC 的))) (NP (NN 机构))) (VP (ADVP (RB 首先)) (VP (VV 出现) (PP (IN 在) (NP (CP (CP (IP (VP (VV 拥有) (IP (VP (VP (ADVP (RB 最)) (VP (JJ 古老))) (CC 和) (NP (ADJP (JJ 最富庶)) (NP (NN 农业))))))) (DEC 的))) (NP (NNP 欧) (NNP 亚)) (NP (NN 大陆)))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
-{'NP': {'PRD': {}}}
-{'VP': {'VC': {}, 'IP': {}}}
-----------------------------------------------------------------------
-这对美国来说意味着什么？我们可以假设，美国拥有温带地区、海岸和可航行河流的祝福，将永远富有，而热带或内陆国家注定要陷入永恒的贫穷吗？
-
-(ROOT (IP (NP (PRD 这)) (VP (IP (VP (PP (IN 对) (NP (NNP 美国))) (VP (RB 来) (VP (VV 说))))) (VP (VV 意味) (AS 着) (NP (WP 什么)))) (. ？)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRD': {}}, 'VP': {'IP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRD': {}}}
-{'VP': {'IP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-当然不会。
-
-(ROOT (IP (VP (ADVP (RB 当然)) (VP (MD 不会))) (. 。)))
-{'IP': {'VP': {}, '.': {}}}
-{'IP': {'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-一些热带和亚热带国家尽管地理条件有限，但仍然变得富裕起来。
-
-(ROOT (IP (NP (QP (JJ 一些)) (NP (NP (NN 热带)) (CC 和) (NP (ADJP (PFA 亚)) (NP (NN 热带)))) (NP (NN 国家))) (VP (CP (ADVP (IN 尽管)) (IP (NP (NN 地理) (NN 条件)) (VP (JJ 有限)))) (, ，) (ADVP (RB 但)) (ADVP (RB 仍然)) (VP (VV 变得) (VP (VRD (JJ 富裕) (VV 起来))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'QP': {}, 'NP': {}, 'NP': {}}, 'VP': {'CP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'QP': {}, 'NP': {}, 'NP': {}}}
-{'VP': {'CP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-他们投资公共卫生，以克服自身的疾病负担（博茨瓦纳和菲律宾）。
-
-(ROOT (IP (NP (PRP 他们)) (VP (VP (VV 投资) (NP (ADJP (JJ 公共)) (NP (NN 卫生)))) (, ，) (VP (RB 以) (VP (VV 克服) (NP (DNP (NP (PRD 自身)) (DEC 的)) (NP (NN 疾病) (NN 负担)) (PRN (-LRB- （) (NP (NNP 博茨瓦纳) (CC 和) (NNP 菲律宾)) (-RRB- ）)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-他们投资了适合热带地区的作物（巴西和马来西亚）。
-
-(ROOT (IP (NP (PRP 他们)) (VP (VV 投资) (AS 了) (NP (CP (CP (IP (VP (VV 适合) (NP (NN 热带) (NN 地区)))) (DEC 的))) (NP (NN 作物)) (PRN (-LRB- （) (NP (NNP 巴西) (CC 和) (NNP 马来西亚)) (-RRB- ）)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
-----------------------------------------------------------------------
-他们将经济重点放在农业以外的行业上（新加坡和台湾）。
-
-(ROOT (IP (NP (PRP 他们)) (VP (BB 将) (IP (NP (NN 经济) (NN 重点)) (VP (VV 放) (PP (VV 在) (NP (LCP (NP (DNP (LCP (NP (NN 农业)) (IN 以外)) (DEC 的)) (NP (NN 行业))) (IN 上)) (PRN (-LRB- （) (NP (NNP 新加坡) (CC 和) (NNP 台湾)) (-RRB- ）))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'BB': {}, 'IP': {}}}
-----------------------------------------------------------------------
-相反，地理优势并不能保证永远的成功，欧美日渐难行就是证明。
-
-(ROOT (IP (IP (ADVP (VV 相反)) (, ，) (NP (NN 地理) (NN 优势)) (VP (ADVP (RB 并)) (VP (MD 不能) (VP (VV 保证) (NP (DNP (ADJP (JJ 永远)) (DEC 的)) (NP (NN 成功))))))) (, ，) (IP (NP (NNP 欧) (NNP 美)) (VP (VP (ADVP (RB 日渐)) (VP (JJ 难行))) (VP (VC 就是) (VP (VV 证明))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-我们美国人未能向大部分人口提供优质的教育和经济刺激。
-
-(ROOT (IP (NP (NP (PRP 我们)) (NP (NNP 美国)) (NP (SFN 人))) (VP (MD 未能) (VP (PP (IN 向) (NP (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (NN 人口)))) (VP (VV 提供) (NP (DNP (ADJP (JJ 优质)) (DEC 的)) (NP (NN 教育) (CC 和) (NN 经济)) (NP (NN 刺激)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
-----------------------------------------------------------------------
-印度、中国等未曾成为世界领先国家的国家都在大力投资教育、技术和基础设施。
-
-(ROOT (IP (NP (NP (NNP 印度) (EC 、) (NNP 中国) (NN 等)) (CP (CP (IP (VP (ADVP (RB 未)) (ADVP (RB 曾)) (VP (VV 成) (VP (VC 为) (NP (NP (NN 世界)) (ADJP (JJ 领先)) (NP (NN 国家))))))) (DEC 的))) (NP (NN 国家))) (VP (ADVP (RB 都)) (ADVP (RB 在)) (ADVP (RB 大力)) (VP (VV 投资) (NP (NN 教育) (EC 、) (NN 技术) (CC 和) (NN 基础) (NN 设施)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'CP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-它们正在为越来越多的公民提供经济机会。
-
-(ROOT (IP (NP (PRP 它们)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (PP (IN 为) (NP (CP (CP (IP (VP (ADVP (RB 越来越)) (VP (JJ 多)))) (DEC 的))) (NP (NN 公民)))) (VP (VV 提供) (NP (NN 经济) (NN 机会)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这也是职位流失海外的部分原因。
-
-(ROOT (IP (NP (PRD 这)) (VP (VC 也是) (NP (CP (CP (IP (NP (NN 职位)) (VP (VP (VV 流失) (NP (NN 海外))))) (DEC 的))) (QP (NN 部分)) (NP (NN 原因)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'NP': {'PRD': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
-----------------------------------------------------------------------
-如果我们不能接受良好的教育，不能负担得起医疗保健，不能依靠自己的努力获得好工作和增长收入，那么我们的地理位置将不会让我们富有和强大。
-
-(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 我们)) (VP (VP (MD 不能) (VP (VV 接受) (NP (CP (CP (IP (VP (JJ 良好))) (DEC 的))) (NP (NN 教育))))) (, ，) (VP (MD 不能) (VP (VRD (VV 负担) (VV 得起)) (NP (NN 医疗) (NN 保健)))) (, ，) (VP (MD 不能) (VP (VP (VV 依靠) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 努力)))) (VP (VV 获得) (NP (NP (ADJP (JJ 好)) (NP (NN 工作))) (CC 和) (NP (NN 增长) (NN 收入))))))))) (, ，) (ADVP (RB 那么)) (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NN 地理) (NN 位置))) (VP (ADVP (RB 将)) (VP (MD 不会) (VP (VV 让) (NP (PRP 我们)) (IP (VP (VV 富有) (CC 和) (JJ 强大)))))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-米特·罗姆尼可能会成为我们的下一任总统。
-
-(ROOT (IP (NP (NNP 米特) (/ ·) (NNP 罗姆尼)) (VP (MD 可能) (VP (MD 会) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (PRP 我们)) (DEC 的)) (DP (DT 下) (QP (CD 一) (CLP (NNB 任)))) (NP (NN 总统))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
-----------------------------------------------------------------------
-他还会继续为多因素问题寻找单一因素的解释吗，还会不懂历史和现代世界吗？
-
-(ROOT (IP (CP (IP (NP (PRP 他)) (VP (ADVP (RB 还)) (VP (MD 会) (VP (VV 继续) (VP (PP (IN 为) (NP (NP (QP (CD 多)) (NP (NN 因素))) (NP (NN 问题)))) (VP (VV 寻找) (NP (DNP (NP (ADJP (JJ 单一)) (NP (NN 因素))) (DEC 的)) (NP (NN 解释))))))))) (UH 吗)) (, ，) (CP (IP (VP (ADVP (RB 还)) (VP (VNV (MD 会) (RB 不) (VV 懂)) (NP (NP (NN 历史)) (CC 和) (NP (ADJP (NN 现代)) (NP (NN 世界))))))) (UH 吗)) (. ？)))
-{'IP': {'CP': {}, ',': {}, 'CP': {}, '.': {}}}
-{'IP': {'CP': {'IP': {}, 'UH': {}}, ',': {}, 'CP': {'IP': {}, 'UH': {}}, '.': {}}}
-{'CP': {'IP': {}, 'UH': {}}}
-{'CP': {'IP': {}, 'UH': {}}}
-----------------------------------------------------------------------
-如果是这样的话，他将会掌管一个衰落的国家，浪费着其地理位置和历史优势。
-
-(ROOT (IP (CP (IP (VP (ADVP (IN 如果)) (VP (VC 是) (NP (PRD 这样))))) (UH 的话)) (, ，) (NP (PRP 他)) (VP (ADVP (RB 将)) (VP (MD 会) (VP (VP (VV 掌管) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 衰落))) (DEC 的))) (NP (NN 国家)))) (, ，) (VP (VV 浪费) (AS 着) (NP (NP (PRP 其)) (NP (NN 地理) (NN 位置) (CC 和) (NN 历史) (NN 优势))))))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'IP': {}, 'UH': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'CP': {'IP': {}, 'UH': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------

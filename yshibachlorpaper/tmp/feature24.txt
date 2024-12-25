@@ -1,256 +1,1386 @@
-地质学家称，大小与地球相当的“岩石行星”“失踪了”。
+对于一名驾驶房车前往科斯塔-迪尔索尔的荷兰人来说，唯一提醒他已经越过边境的事情，是接连不断的短信向他表示欢迎，欢迎他来到比利时、法国和西班牙。
 
-(ROOT (IP (NP (NN 地质) (SFN 学) (SFN 家)) (VP (VV 称) (, ，) (IP (NP (CP (CP (IP (NP (NN 大小)) (VP (PP (IN 与) (NP (NNP 地球))) (VP (VV 相当)))) (DEC 的))) (NP (`` “) (NN 岩石) (NN 行星) ('' ”))) (VP (`` “) (VV 失踪) (UH 了) ('' ”)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}, 'SFN': {}, 'SFN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NN': {}, 'SFN': {}, 'SFN': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-天文学家今天宣布，在我们太阳系以外发现的最小行星，正在绕一颗距离我们约 560 光年的太阳伴星运行。
-
-(ROOT (IP (NP (NN 天文) (SFN 学) (SFN 家)) (VP (NP (NN 今天)) (VP (VV 宣布) (, ，) (IP (NP (CP (CP (IP (VP (PP (VV 在) (LCP (NP (NP (PRP 我们)) (NP (NN 太阳) (SFN 系))) (IN 以外))) (VP (VV 发现)))) (DEC 的))) (ADJP (JJ 最小)) (NP (NN 行星))) (, ，) (VP (ADVP (RB 正)) (ADVP (IN 在)) (VP (VP (IN 绕) (NP (QP (CD 一) (CLP (NNB 颗))) (CP (CP (IP (VP (IN 距离) (NP (PRP 我们)) (QP (ADVP (RB 约)) (QP (CD 560) (CLP (NNB 光年)))))) (DEC 的))) (NP (NN 太阳) (NN 伴星)))) (VP (VV 运行))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}, 'SFN': {}, 'SFN': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}, 'SFN': {}, 'SFN': {}}}
-{'VP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这颗被称为“开普勒-10b”的行星，占地球体积的 1.4 倍，质量是地球的 4.6 倍。
-
-(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 颗))) (CP (CP (IP (VP (BB 被) (VP (VCP (VV 称) (VC 为)) (NP (`` “) (FW 开普勒-10b) ('' ”))))) (DEC 的))) (NP (NN 行星))) (, ，) (VP (VV 占) (QP (DNP (NP (NNP 地球) (NN 体积)) (DEC 的)) (QP (CD 1.4) (CLP (NNB 倍)))))) (, ，) (IP (NP (NN 质量)) (VP (VC 是) (QP (DNP (NP (NNP 地球)) (DEC 的)) (QP (CD 4.6) (CLP (NNB 倍)))))) (. 。)))
+(ROOT (IP (IP (IP (VP (PP (IN 对于) (NP (QP (CD 一) (CLP (NNB 名))) (CP (CP (IP (VP (VP (VV 驾驶) (NP (NN 房车))) (VP (VV 前往) (NP (NNP 科斯塔-迪尔索尔))))) (DEC 的))) (NP (NNP 荷兰)) (NP (SFN 人)))) (VP (RB 来) (VP (VV 说))))) (, ，) (NP (CP (IP (VP (ADVP (RB 唯一)) (VP (VV 提醒) (NP (PRP 他)) (IP (VP (ADVP (RB 已经)) (VP (VV 越过) (NP (NN 边境)))))))) (DEC 的)) (NP (NN 事情))) (, ，) (VP (VC 是) (IP (NP (CP (CP (IP (VP (ADVP (RB 接连) (JJ 不断)))) (DEC 的))) (NP (NN 短信))) (VP (PP (IN 向) (NP (PRP 他))) (VP (VV 表示) (NP (VV 欢迎))))))) (, ，) (IP (VP (VV 欢迎) (NP (PRP 他)) (IP (VP (VV 来到) (NP (NNP 比利时) (EC 、) (NNP 法国) (CC 和) (NNP 西班牙)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP82287': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-研究小组表示，利用美国航空航天局的凯伯勒太空船发现的这颗行星是已知的超过 500 颗系外行星中，首颗有确切证据表明它是岩石行星？就像地球、火星、金星或金星一样？
-
-(ROOT (IP (NP (NN 研究) (NN 小组)) (VP (VV 表示) (, ，) (IP (IP (NP (CP (CP (IP (VP (VP (VV 利用) (NP (DNP (NP (NNP 美国) (NN 航空) (NN 航天) (SFN 局)) (DEC 的)) (NP (NNP 凯伯勒) (NN 太空) (SFN 船)))) (VP (VV 发现)))) (DEC 的))) (DP (DT 这) (CLP (NNB 颗))) (NP (NN 行星))) (VP (VC 是) (LCP (NP (CP (CP (IP (VP (VV 已知))) (DEC 的))) (QP (ADVP (VV 超过)) (QP (CD 500) (CLP (NNB 颗)))) (ADJP (JJ 系外)) (NP (NN 行星))) (IN 中)))) (, ，) (IP (QP (CD 首) (CLP (NNB 颗))) (VP (VV 有) (IP (NP (ADJP (JJ 确切)) (NP (NN 证据))) (VP (VV 表明) (IP (NP (PRP 它)) (VP (VC 是) (NP (NN 岩石) (NN 行星)))))))))) (. ？)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NN': {}, 'NN': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-凯普勒号于 2009 年 3 月发射，其设计目的是寻找可能有生命的类地行星。
-
-(ROOT (IP (IP (NP (NNP 凯普勒) (SFN 号)) (VP (PP (IN 于) (NP (CD 2009) (NNB 年 3) (NNB 月))) (VP (VV 发射)))) (, ，) (IP (NP (NP (PRP 其)) (NP (NN 设计) (NN 目的))) (VP (VC 是) (VP (VV 寻找) (NP (CP (CP (IP (VP (MD 可能) (VP (VV 有) (NP (NN 生命))))) (DEC 的))) (ADJP (NN 类地)) (NP (NN 行星)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-自 2009 年发现凯撒-10b 以来，天文学家一直在研究它。当时，团队探测到行星经过恒星时，恒星发生了周期性的衰减。
-
-(ROOT (IP (LCP (IP (VP (PP (IN 自) (NP (CD 2009))) (VP (NNB 年发现) (NP (NNP 凯撒) (HYPH -) (NNP 10b))))) (IN 以来)) (, ，) (NP (NN 天文) (SFN 学) (SFN 家)) (VP (ADVP (RB 一直)) (ADVP (RB 在)) (VP (VV 研究) (NP (PRP 它)))) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NN': {}, 'SFN': {}, 'SFN': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'LCP': {'IP': {}, 'IN': {}}}
-{'NP': {'NN': {}, 'SFN': {}, 'SFN': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-从类似的距离看，这颗小行星的发现并不容易，从太阳前面通过的地球会导致恒星亮度减弱 0.01%，这是即将发表的一篇文章中的主要作者，圣何塞州立大学的纳塔莉·巴塔拉 (Natalie Batalha) 所说的。
-
-(ROOT (IP (IP (IP (VP (PP (IN 从) (NP (CP (CP (IP (VP (JJ 类似))) (DEC 的))) (NP (NN 距离)))) (VP (VV 看)))) (, ，) (NP (DNP (NP (DP (DT 这) (CLP (NNB 颗))) (ADJP (PFA 小)) (NP (NN 行星))) (DEC 的)) (NP (NN 发现))) (VP (ADVP (RB 并)) (ADVP (RB 不)) (VP (JJ 容易)))) (, ，) (IP (NP (CP (CP (IP (VP (PP (IN 从) (NP (NP (NN 太阳)) (NP (NN 前面)))) (VP (VV 通过)))) (DEC 的))) (NP (NN 地球))) (VP (MD 会) (VP (VV 导致) (IP (NP (NN 恒星) (NN 亮度)) (VP (VV 减弱) (QP (CD 0.01%))))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (DNP (LCP (NP (CP (CP (IP (VP (ADVP (RB 即将)) (VP (VV 发表)))) (DEC 的))) (QP (CD 一) (CLP (NNB 篇))) (NP (NN 文章))) (IN 中)) (DEC 的)) (ADJP (JJ 主要)) (NP (NN 作者))))) (, ，) (NP (CP (CP (IP (NP (DNP (NP (NNP 圣何塞) (SFN 州) (VV 立) (NN 大学)) (DEC 的)) (NP (NNP 纳塔莉) (/ ·) (NNP 巴塔拉) (FW -LRB-Natalie) (FW Batalha-RRB-))) (VP (VV 所说))) (UH 的)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'NP': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'NP': {'CP': {}}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
-{'NP': {'CP': {}}}
-----------------------------------------------------------------------
-“假设你有 10000 支灯泡，把其中一支拿走，这就是我们要寻找的亮度变化，”巴尔塔亚在今天在华盛顿州西雅图举行的美国天文学会议上说。
-
-(ROOT (IP (IP (`` “) (IP (VP (VV 假设) (IP (NP (PRP 你)) (VP (VP (VV 有) (IP (NP (QP (CD 10000)) (NP (NNB 支灯))) (VP (VV 泡)))) (, ，) (VP (BB 把) (IP (QP (NP (NN 其中)) (QP (CD 一) (CLP (NNB 支)))) (VP (VV 拿走)))))))) (, ，) (IP (NP (PRD 这)) (VP (VC 就是) (NP (CP (CP (IP (NP (PRP 我们)) (VP (MD 要) (VP (VV 寻找)))) (DEC 的))) (NP (NN 亮度) (NN 变化))))) (, ，) ('' ”)) (IP (NP (NNP 巴尔塔亚)) (VP (PP (IN 在) (LCP (NP (CP (CP (IP (VP (NP (NN 今天)) (PP (VV 在) (NP (NNP 华盛顿) (SFN 州) (NNP 西雅图))) (VP (VV 举行)))) (DEC 的))) (NP (NNP 美国) (NN 天文) (SFN 学) (NN 会议))) (IN 上))) (VP (VV 说)))) (. 。)))
-{'IP': {'IP': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, "''": {}}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, "''": {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-尽管如此，在使用凯伯勒和其他仪器精确计算新行星的大小、质量和密度后，巴特拉表示“我们毫无疑问地知道，这是一颗岩石世界。”
-
-(ROOT (IP (IP (VP (ADVP (IN 尽管)) (VP (VV 如此)))) (, ，) (PP (IN 在) (LCP (IP (VP (VP (VV 使用) (NP (NP (NNP 凯伯勒)) (CC 和) (NP (DP (DT 其他)) (NP (NN 仪器))))) (VP (ADVP (RB 精确)) (VP (VV 计算) (NP (DNP (NP (ADJP (PFA 新)) (NP (NN 行星))) (DEC 的)) (NP (NN 大小) (EC 、) (NN 质量) (CC 和) (NN 密度))))))) (IN 后))) (, ，) (NP (NNP 巴特拉)) (VP (VV 表示) (IP (`` “) (NP (PRP 我们)) (VP (DVP (VP (VV 毫无) (NP (JJ 疑问))) (DEV 地)) (VP (VV 知道) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 颗))) (NP (NN 岩石) (NN 世界))))))))) (. 。) ('' ”)))
-{'IP': {'IP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, ',23442': {}, 'VP': {}}, ',': {}, 'IP49703': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}}}
 {'IP': {'VP': {}}}
+Dependency Features:
+对于	人	case
+一	名	nummod
+名	房车	clf
+驾驶	房车	amod
+房车	前往	obl
+前往	人	acl:relcl
+科斯塔-迪尔索尔	前往	obj
+的	前往	mark:rel
+荷兰	人	compound
+人	说	obl
+来	说	mark
+说	ROOT	root
+，	提醒	punct
+唯一	提醒	advmod
+提醒	说	xcomp
+他	越过	nsubj
+已经	越过	advmod
+越过	事情	acl:relcl
+边境	越过	obj
+的	越过	mark:rel
+事情	提醒	obj
+，	提醒	punct
+是	提醒	ccomp
+接连	不断	advmod
+不断	短信	amod
+的	不断	mark:rel
+短信	表示	nsubj
+向	他	case
+他	表示	obl
+表示	是	ccomp
+欢迎	表示	xcomp
+，	欢迎	punct
+欢迎	说	parataxis
+他	来到	nsubj
+来到	欢迎	ccomp
+比利时	来到	obj
+、	法国	punct
+法国	比利时	conj
+和	西班牙	cc
+西班牙	比利时	conj
+。	说	punct
+----------------------------------------------------------------------
+这是在今年夏天移民危机爆发之前，也是巴黎上周末发生恐怖袭击之前的情况。
+
+(ROOT (IP (NP (PRD 这)) (VP (VC 是) (VP (PP (IN 在) (LCP (IP (NP (NN 今年) (NN 夏天)) (NP (NN 移民) (NN 危机)) (VP (VV 爆发))) (IN 之前))) (, ，) (VP (VC 也是) (NP (DNP (LCP (NP (NP (NNP 巴黎)) (VP (NP (DP (NN 上)) (NP (NN 周末))) (VP (VV 发生) (NP (NN 恐怖) (NN 袭击))))) (IN 之前)) (DEC 的)) (NP (NN 情况)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VC': {}, 'VP': {}}}
+Dependency Features:
+这	是	nsubj
+是	ROOT	root
+在	爆发	case
+今年	爆发	nmod:tmod
+夏天	爆发	nmod:tmod
+移民	危机	nmod
+危机	爆发	nsubj
+爆发	情况	ccomp
+之前	爆发	mark
+，	爆发	punct
+是	情况	cop
+巴黎	周末	nmod
+上	周末	nmod
+周末	发生	nmod:tmod
+发生	情况	acl:relcl
+恐怖	袭击	nmod
+袭击	发生	obj
+之前	发生	mark
+的	发生	mark:rel
+情况	是	ccomp
+。	是	punct
+----------------------------------------------------------------------
+现在，跨越 26 个国家的无国界申根区，欧盟委员会主席让-克劳德·琼克称之为“欧洲一体化的独特标志”，正面临着创立以来最大的威胁。
+
+(ROOT (IP (NP (NN 现在)) (, ，) (NP (CP (CP (IP (VP (VV 跨越) (NP (QP (CD 26) (CLP (NNB 个))) (NP (NN 国家))))) (DEC 的))) (CP (IP (VP (VV 无) (NP (NN 国界))))) (NP (VV 申根) (SFN 区))) (, ，) (NP (NP (NNP 欧盟) (NN 委员) (SFN 会)) (NP (NN 主席))) (VP (VP (VV 让) (NP (NNP -克劳德) (/ ·) (NNP 琼克)) (IP (VP (VV 称) (NP (PRD 之)) (IP (VP (VC 为) (NP (`` “) (DNP (NP (NP (NNP 欧洲)) (NP (QP (CD 一)) (NP (NN 体))) (NP (SFV 化))) (DEC 的)) (ADJP (JJ 独特)) (NP (NN 标志)) ('' ”))))))) (, ，) (VP (ADVP (RB 正)) (VP (VV 面临) (AS 着) (NP (CP (CP (IP (VP (LCP (NP (VV 创立)) (IN 以来)) (VP (JJ 最大)))) (DEC 的))) (NP (NN 威胁)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP25777': {}, ',808': {}, 'NP93202': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP65633': {'CP': {}, 'CP24600': {}, 'NP': {}}, ',75086': {}, 'NP29318': {'NP': {}, 'NP86785': {}}, 'VP': {'VP': {}, ',': {}, 'VP30898': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'CP': {}, 'CP': {}, 'NP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'NP': {'CP': {}, 'CP': {}, 'NP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+现在	让	nmod:tmod
+，	现在	punct
+跨越	区	acl:relcl
+26	个	nummod
+个	国家	clf
+国家	跨越	obj
+的	跨越	mark:rel
+无	区	amod
+国界	区	nmod
+申根	区	compound
+区	让	nsubj
+，	主席	punct
+欧盟	主席	nmod
+委员	会	compound
+会	主席	nmod
+主席	区	appos
+让	ROOT	root
+-克劳德	称	nsubj
+·	琼克	punct
+琼克	-克劳德	flat:name
+称	让	ccomp
+之	标志	nsubj
+为	标志	cop
+“	标志	punct
+欧洲	标志	nmod
+一	体	nummod
+体	化	compound
+化	标志	acl:relcl
+的	化	mark:rel
+独特	标志	amod
+标志	称	ccomp
+”	标志	punct
+，	标志	punct
+正	面临	advmod
+面临	称	ccomp
+着	面临	aux
+创立	最大	advcl
+以来	创立	mark
+最大	威胁	amod
+的	最大	mark:rel
+威胁	面临	obj
+。	面临	punct
+----------------------------------------------------------------------
+8 月份，在 Ayoub El Khazzani 携带突击步枪穿越两个边境后，在 Thalys 列车上袭击同伴乘客后，呼吁遏制无国界旅行的呼声就变得更加强烈。
+
+(ROOT (IP (NP (QP (CD 8)) (NP (NNB 月份))) (, ，) (PP (IN 在) (LCP (IP (NP (FW Ayoub) (FW El) (FW Khazzani)) (VP (VP (VV 携带) (NP (NN 突击) (NN 步枪))) (VP (VV 穿越) (NP (QP (CD 两) (CLP (NNB 个))) (NP (NN 边境)))))) (IN 后))) (, ，) (LCP (IP (VP (PP (IN 在) (LCP (NP (FW Thalys) (NN 列车)) (NN 上))) (VP (VV 袭击) (NP (NN 同伴) (NN 乘客))))) (IN 后)) (, ，) (VP (VP (VV 呼吁) (IP (VP (VV 遏) (VP (VV 制) (NP (CP (IP (VP (VP (VV 无) (NP (NN 国界))) (NP (NN 旅行)))) (DEC 的)) (NP (NN 呼声))))))) (VP (ADVP (RB 就)) (VP (VV 变得) (VP (ADVP (RB 更加)) (VP (JJ 强烈)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'PP': {}, ',1354': {}, 'LCP': {}, ',94695': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'PP': {}, ',': {}, 'LCP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, ',': {}, 'PP': {'IN': {}, 'LCP': {}}, ',37183': {}, 'LCP': {'IP': {}, 'IN': {}}, ',68163': {}, 'VP': {'VP': {}, 'VP18770': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, ',': {}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
 {'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
+{'LCP': {'IP': {}, 'IN': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+8	月份	nummod
+月份	呼吁	nmod:tmod
+，	月份	punct
+在	穿越	case
+Ayoub	穿越	nsubj
+El	Ayoub	flat:foreign
+Khazzani	Ayoub	flat:foreign
+携带	穿越	advcl
+突击	步枪	nmod
+步枪	携带	obj
+穿越	呼吁	ccomp
+两	个	nummod
+个	边境	clf
+边境	穿越	obj
+后	穿越	mark
+，	穿越	punct
+在	列车	case
+Thalys	列车	nmod
+列车	袭击	obl
+上	列车	acl
+袭击	呼吁	advcl
+同伴	乘客	nmod
+乘客	袭击	obj
+后	袭击	mark
+，	袭击	punct
+呼吁	ROOT	root
+遏	呼吁	xcomp
+制	呼声	acl:relcl
+无	旅行	amod
+国界	无	obj
+旅行	制	obj
+的	制	mark:rel
+呼声	变得	nsubj
+就	变得	mark
+变得	呼吁	ccomp
+更加	变得	advmod
+强烈	变得	xcomp
+。	呼吁	punct
 ----------------------------------------------------------------------
-在研究凯丽叶-10b 的性质之前，科学家们研究了主恒星的性质，这些性质是通过恒星震动声波波动而被揭示出来的，这些波动使整个恒星像钟一样鸣响。
+9 月，德国总理安格拉·默克尔警告说，如果不就如何处理难民问题达成协议，难民们的呼声将变得更加强烈。
 
-(ROOT (IP (IP (PP (IN 在) (LCP (IP (VP (VV 研究) (NP (DNP (NP (NNP 凯丽叶-10b)) (DEC 的)) (NP (NN 性质))))) (IN 之前))) (, ，) (NP (NN 科学) (SFN 家) (SFN 们)) (VP (VV 研究) (AS 了) (NP (DNP (NP (ADJP (PFA 主)) (NP (NN 恒星))) (DEC 的)) (NP (NN 性质))))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 性质))) (VP (VC 是) (NP (CP (CP (IP (VP (PP (IN 通过) (NP (NN 恒星) (NN 震动) (NN 声波) (NN 波动))) (VP (RB 而) (VP (BB 被) (VP (VRD (VV 揭示) (VV 出来))))))) (UH 的)))))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 波动))) (VP (VV 使) (NP (DP (DT 整个)) (NP (NN 恒星))) (IP (VP (VP (NP (JJ 像钟)) (VP (JJ 一样))) (VP (VV 鸣响)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
+(ROOT (IP (NP (QP (CD 9)) (NP (NNB 月))) (, ，) (NP (NP (NP (NNP 德国)) (NP (NN 总理))) (NP (NNP 安格拉) (/ ·) (NNP 默克尔))) (VP (VP (VV 警告)) (VP (VV 说) (, ，) (IP (IP (VP (ADVP (IN 如果)) (PP (IN 不就) (IP (VP (ADVP (RB 如何)) (VP (VV 处理) (NP (NN 难民) (NN 问题)))))) (VP (VV 达成) (NP (NN 协议))))) (, ，) (NP (DNP (NP (NN 难民) (SFN 们)) (DEC 的)) (NP (NN 呼声))) (VP (ADVP (RB 将)) (VP (VV 变得) (VP (ADVP (RB 更加)) (VP (JJ 强烈)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP50432': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, ',': {}, 'NP34733': {'NP': {}, 'NP42629': {}}, 'VP': {'VP': {}, 'VP12687': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+9	月	nummod
+月	说	nmod:tmod
+，	月	punct
+德国	总理	nmod
+总理	说	nsubj
+安格拉	总理	appos
+·	默克尔	punct
+默克尔	安格拉	flat:name
+警告	说	advcl
+说	ROOT	root
+，	变得	punct
+如果	达成	case
+不就	达成	case
+如何	处理	advmod
+处理	达成	xcomp
+难民	问题	nmod
+问题	处理	obj
+达成	变得	xcomp
+协议	达成	obj
+，	达成	punct
+难民	们	compound
+们	呼声	nmod
+的	们	case
+呼声	变得	nsubj
+将	变得	advmod
+变得	说	ccomp
+更加	强烈	advmod
+强烈	变得	xcomp
+。	说	punct
 ----------------------------------------------------------------------
-“就像我们利用声纳探测孕妇腹中胎儿，利用地震探测地球内部一样，我们利用恒星震动探测恒星本身的内部结构和性质，”巴塔拉说道。
+由于移民涌入的规模庞大，匈牙利、斯洛文尼亚等国以及最终德国和奥地利等国暂时重新实施了边境管制。
 
-(ROOT (IP (IP (`` “) (IP (VP (PP (ADVP (RB 就)) (PP (VV 像) (IP (NP (PRP 我们)) (VP (VP (VV 利用) (NP (NN 声纳))) (VP (VV 探测) (NP (LCP (NP (NN 孕妇) (SFN 腹)) (IN 中)) (NP (NN 胎儿)))) (, ，) (VP (VP (VV 利用) (NP (NN 地震))) (VP (VV 探测) (NP (NNP 地球) (NN 内部)))))))) (VP (JJ 一样)))) (, ，) (NP (PRP 我们)) (VP (VV 利用) (NP (CP (CP (IP (NP (NN 恒星)) (VP (VP (NN 震动)) (VP (VV 探测) (NP (NP (NN 恒星)) (NP (PRD 本身)))))) (DEC 的))) (NP (NN 内部) (NN 结构) (CC 和) (NN 性质))))) (, ，) ('' ”) (NP (NNP 巴塔拉)) (VP (VV 说道)) (. 。)))
-{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
-{'IP': {'``': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}}}
+(ROOT (IP (PP (IN 由于) (IP (NP (CP (CP (IP (NP (NN 移民)) (VP (VV 涌入))) (DEC 的))) (NP (NN 规模))) (VP (JJ 庞大)))) (, ，) (NP (NP (NNP 匈牙利) (EC 、) (NNP 斯洛文尼亚) (NN 等国)) (CC 以及) (NP (NP (ADVP (NN 最终)) (NP (NNP 德国) (CC 和) (NNP 奥地利))) (NP (NN 等国)))) (VP (ADVP (RB 暂时)) (ADVP (RB 重新)) (VP (VV 实施) (AS 了) (NP (NN 边境) (NN 管制)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'NP': {}, 'CC': {}, 'NP67165': {}}, 'VP': {'ADVP': {}, 'ADVP55966': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'NP': {}, 'CC': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'NP': {}, 'CC': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+由于	庞大	case
+移民	涌入	nsubj
+涌入	规模	acl:relcl
+的	涌入	mark:rel
+规模	庞大	nsubj
+庞大	实施	ccomp
+，	庞大	punct
+匈牙利	实施	nsubj
+、	斯洛文尼亚	punct
+斯洛文尼亚	匈牙利	conj
+等国	匈牙利	conj
+以及	等国	cc
+最终	等国	nmod
+德国	等国	nmod
+和	奥地利	cc
+奥地利	德国	conj
+等国	实施	nsubj
+暂时	实施	advmod
+重新	实施	advmod
+实施	ROOT	root
+了	实施	aux
+边境	管制	nmod
+管制	实施	obj
+。	实施	punct
 ----------------------------------------------------------------------
-“一颗微小的恒星会产生不同的[振动]频率，而一颗大的恒星则会产生不同的频率，就像当你弹奏小提琴时，你会得到一种不同的声音，而当你弹奏大提琴时，你会得到一种不同的声音。”
+当时每周有 10,000 名新来者，瑞典于 11 月 12 日加入其中。
 
-(ROOT (IP (`` “) (NP (QP (CD 一) (CLP (NNB 颗))) (CP (CP (IP (VP (JJ 微小))) (DEC 的))) (NP (NN 恒星))) (VP (MD 会) (VP (VV 产生) (NP (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (`` [) (NN 振动) ('' ]) (NN 频率))))) (, ，) (RB 而) (IP (NP (QP (CD 一) (CLP (NNB 颗))) (CP (CP (IP (VP (JJ 大))) (DEC 的))) (NP (NN 恒星))) (VP (ADVP (RB 则)) (VP (MD 会) (VP (VV 产生) (NP (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (NN 频率))))))) (, ，) (PP (ADVP (RB 就)) (PP (VV 像) (IP (IP (PP (IN 当) (LCP (IP (NP (PRP 你)) (VP (VV 弹奏) (NP (ADJP (PFA 小)) (NP (NN 提琴))))) (IN 时))) (, ，) (NP (PRP 你)) (VP (MD 会) (VP (VV 得到) (NP (QP (CD 一) (CLP (NNB 种))) (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (NN 声音)))))) (, ，) (IP (ADVP (RB 而)) (PP (IN 当) (LCP (IP (NP (PRP 你)) (VP (VV 弹奏) (NP (ADJP (PFA 大)) (NP (NN 提琴))))) (IN 时))) (, ，) (NP (PRP 你)) (VP (MD 会) (VP (VV 得到) (NP (QP (CD 一) (CLP (NNB 种))) (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (NN 声音))))))))) (. 。) ('' ”)))
-{'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'RB': {}, 'IP': {}, ',': {}, 'PP': {}, '.': {}, "''": {}}}
-{'IP': {'``': {}, 'NP': {'QP': {}, 'CP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, ',': {}, 'RB': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'ADVP': {}, 'PP': {}}, '.': {}, "''": {}}}
-{'NP': {'QP': {}, 'CP': {}, 'NP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'PP': {'ADVP': {}, 'PP': {}}}
-----------------------------------------------------------------------
-巴特拉和同事们利用恒星震动，能够准确地确定恒星的大小、质量和年龄，这反过来又允许他们对新行星的特征进行精确的估算。
-
-(ROOT (IP (IP (NP (NP (NNP 巴特拉)) (CC 和) (NP (NN 同事) (SFN 们))) (VP (VP (VV 利用) (NP (NN 恒星) (NN 震动))) (, ，) (VP (MD 能够) (VP (DVP (VP (JJ 准确)) (DEV 地)) (VP (VV 确定) (NP (DNP (NP (NN 恒星)) (DEC 的)) (NP (NN 大小) (EC 、) (NN 质量) (CC 和) (NN 年龄)))))))) (, ，) (IP (NP (PRD 这)) (VP (IP (VP (VRD (VV 反) (VV 过来)))) (ADVP (RB 又)) (VP (VV 允许) (NP (PRP 他们)) (IP (VP (PP (IN 对) (NP (DNP (NP (ADJP (PFA 新)) (NP (NN 行星))) (DEC 的)) (NP (NN 特征)))) (VP (VV 进行) (NP (CP (CP (IP (VP (JJ 精确))) (DEC 的))) (NP (NN 估算))))))))) (. 。)))
+(ROOT (IP (IP (NP (NN 当时)) (NP (DT 每周)) (VP (VV 有) (NP (QP (CD 10,000)) (ADJP (NN 名新来)) (NP (SFN 者))))) (, ，) (IP (NP (NNP 瑞典)) (VP (PP (IN 于) (NP (CD 11) (NNB 月 12) (NNB 日))) (VP (VV 加入) (NP (NN 其中))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP22023': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'NP15203': {}, 'VP': {}}, ',': {}, 'IP65725': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+当时	有	nmod:tmod
+每周	有	obl
+有	ROOT	root
+10,000	者	nummod
+名新来	者	compound
+者	有	obj
+，	加入	punct
+瑞典	加入	nsubj
+于	日	case
+11	月 12	nummod
+月 12	日	clf
+日	加入	obl
+加入	有	parataxis
+其中	加入	obj
+。	有	punct
+----------------------------------------------------------------------
+荷兰9月份以来在边境地区的抽查次数增加了一倍。
+
+(ROOT (IP (NP (NP (NNP 荷兰)) (LCP (NP (NP (QP (CD 9)) (NP (NNB 月))) (NP (NNB 份))) (IN 以来)) (DNP (PP (VV 在) (NP (NN 边境) (NN 地区))) (DEC 的)) (NP (NN 抽查) (NN 次数))) (VP (VV 增加) (AS 了) (QP (CD 一) (CLP (NNB 倍)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'LCP': {}, 'DNP': {}, 'NP71516': {}}, 'VP': {'VV': {}, 'AS': {}, 'QP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'LCP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'QP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'LCP': {}, 'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'QP': {}}}
+Dependency Features:
+荷兰	份	nmod
+9	月	nummod
+月	份	clf
+份	在	nmod:tmod
+以来	份	case
+在	次数	acl:relcl
+边境	地区	nmod
+地区	在	obj
+的	在	mark:rel
+抽查	次数	nmod
+次数	增加	nsubj
+增加	ROOT	root
+了	增加	aux
+一	倍	nummod
+倍	增加	obj
+。	增加	punct
+----------------------------------------------------------------------
+丹麦宣布将在边境口岸引入电子牌照扫描仪，这将挑战申根框架的极限。
+
+(ROOT (IP (IP (NP (NNP 丹麦)) (VP (VV 宣布) (IP (VP (ADVP (RB 将)) (PP (VV 在) (NP (NN 边境) (NN 口岸))) (VP (VV 引入) (NP (NP (NN 电子) (NN 牌照)) (ADJP (VV 扫)) (NP (NN 描仪)))))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 将)) (VP (VV 挑战) (NP (DNP (NP (NN 申根) (NN 框架)) (DEC 的)) (NP (NN 极限)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP27863': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP40284': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+丹麦	宣布	nsubj
+宣布	ROOT	root
+将	引入	advmod
+在	引入	advcl
+边境	口岸	nmod
+口岸	在	obj
+引入	宣布	xcomp
+电子	描仪	nmod
+牌照	扫	nsubj
+扫	描仪	amod
+描仪	引入	obj
+，	挑战	punct
+这	挑战	nsubj
+将	挑战	advmod
+挑战	宣布	parataxis
+申根	框架	nmod
+框架	极限	nmod
+的	框架	case
+极限	挑战	obj
+。	宣布	punct
 ----------------------------------------------------------------------
-天文学家仔细研究了恒星光芒的微小变化，以确定凯撒-10b的大小。
+巴黎袭击事件改变了辩论的内容。
 
-(ROOT (IP (NP (NN 天文) (SFN 学) (SFN 家)) (VP (VP (ADVP (RB 仔细)) (VP (VV 研究) (AS 了) (NP (DNP (NP (NN 恒星) (NN 光芒)) (DEC 的)) (ADJP (JJ 微小)) (NP (NN 变化))))) (, ，) (VP (RB 以) (VP (VV 确定) (NP (DNP (NP (NNP 凯撒) (HYPH -) (FW 10b)) (DEC 的)) (NP (NN 大小)))))) (. 。)))
+(ROOT (IP (NP (NP (NNP 巴黎)) (NP (NN 袭击) (NN 事件))) (VP (VV 改变) (AS 了) (NP (DNP (NP (NN 辩论)) (DEC 的)) (NP (NN 内容)))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}, 'SFN': {}, 'SFN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}, 'SFN': {}, 'SFN': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这些观测还表明，该行星与恒星距离很近，公转周期为 20 小时。
-
-(ROOT (IP (NP (DP (DT 这些)) (NP (NN 观测))) (VP (ADVP (RB 还)) (VP (VV 表明) (, ，) (IP (IP (NP (DP (DT 该)) (NP (NN 行星))) (VP (PP (IN 与) (NP (NN 恒星))) (VP (VP (NN 距离)) (VP (JJ 很近))))) (, ，) (IP (NP (NN 公转) (NN 周期)) (VP (VC 为) (NP (QP (CD 20)) (NP (NNB 小时)))))))) (. 。)))
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-凯撒计划团队使用夏威夷 W. M. 凯克天文台对宿主恒星光谱中微小波长变化的精确测量。
-
-(ROOT (IP (NP (NP (NNP 凯撒)) (NP (VV 计划) (NN 团队))) (VP (VV 使用) (NP (DNP (NP (NP (NNP 夏威夷) (FW W.) (FW M.) (NNP 凯克) (NN 天文) (SFN 台)) (PP (IN 对) (LCP (NP (NN 宿主) (NN 恒星) (NN 光谱)) (IN 中))) (NP (ADJP (JJ 微小)) (NP (NN 波长))) (NP (VV 变化))) (DEC 的)) (ADJP (JJ 精确)) (NP (NN 测量)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP80784': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
 {'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+巴黎	事件	nmod
+袭击	事件	nmod
+事件	改变	nsubj
+改变	ROOT	root
+了	改变	aux
+辩论	内容	nmod
+的	辩论	case
+内容	改变	obj
+。	改变	punct
 ----------------------------------------------------------------------
-这些数据表明，银河系中的恒星会在受到行星引力作用时前后摇摆，这使得团队得以计算出这两个物体的质量。
+自从恐怖分子与比利时有着密切联系后，从布鲁塞尔过境的标致汽车对法国似乎已经和从大马士革飞来的飞机一样具有威胁。
 
-(ROOT (IP (NP (DP (DT 这些)) (NP (NN 数据))) (VP (VV 表明) (, ，) (IP (IP (NP (DNP (LCP (NP (NNP 银河)) (NN 系中)) (DEC 的)) (NP (NN 恒星))) (VP (MD 会) (VP (PP (IN 在) (LCP (IP (VP (VV 受到) (NP (NN 行星) (NN 引力) (NN 作用)))) (IN 时))) (ADVP (NN 前后)) (VP (VV 摇摆))))) (, ，) (IP (NP (PRD 这)) (VP (VV 使得) (NP (NN 团队)) (IP (VP (VV 得) (VP (RB 以) (VP (VRD (VV 计算) (VV 出)) (NP (DNP (NP (DP (DT 这) (QP (CD 两) (CLP (NNB 个)))) (NP (NN 物体))) (DEC 的)) (NP (NN 质量))))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+(ROOT (IP (PP (IN 自从) (LCP (IP (NP (NN 恐怖) (NN 分子)) (VP (PP (IN 与) (NP (NNP 比利时))) (VP (VV 有) (AS 着) (NP (ADJP (JJ 密切)) (NP (NN 联系)))))) (IN 后))) (, ，) (NP (CP (CP (IP (VP (PP (IN 从) (NP (NNP 布鲁塞尔))) (VP (VV 过境)))) (DEC 的))) (ADJP (JJ 标致)) (NP (NN 汽车))) (VP (PP (IN 对) (NP (NNP 法国))) (ADVP (RB 似乎)) (ADVP (RB 已经)) (PP (IN 和) (NP (CP (CP (IP (VP (PP (IN 从) (NP (NNP 大马) (NNP 士革))) (VP (VV 飞来)))) (DEC 的))) (NP (NN 飞机)))) (VP (JJ 一样)) (VP (VV 具有) (NP (NN 威胁)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'CP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'ADVP86327': {}, 'PP39902': {}, 'VP': {}, 'VP72757': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'CP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'CP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}, 'VP': {}}}
+Dependency Features:
+自从	有	case
+恐怖	分子	nmod
+分子	有	nsubj
+与	比利时	case
+比利时	有	obl
+有	具有	ccomp
+着	有	aux
+密切	联系	amod
+联系	有	obj
+后	有	mark
+，	有	punct
+从	布鲁塞尔	case
+布鲁塞尔	过境	obl
+过境	汽车	acl:relcl
+的	过境	mark:rel
+标致	汽车	amod
+汽车	具有	nsubj
+对	法国	case
+法国	具有	obl
+似乎	具有	advmod
+已经	具有	advmod
+和	飞机	case
+从	士革	case
+大马	士革	nmod
+士革	飞来	obl
+飞来	飞机	acl:relcl
+的	飞来	mark:rel
+飞机	一样	nmod
+一样	具有	advcl
+具有	ROOT	root
+威胁	具有	obj
+。	具有	punct
 ----------------------------------------------------------------------
-根据这些数据，研究小组得出结论，Kepler-10b 必须是一颗岩石世界，平均密度为 8.8 克拉/立方厘米，约等于一块铁。
+随着调查人员追踪恐怖分子及其武器的活动，欧洲内部的联系将会越来越多，甚至会揭露更多申根协定的弱点。
 
-(ROOT (IP (IP (PP (IN 根据) (NP (DP (DT 这些)) (NP (NN 数据)))) (, ，) (NP (NN 研究) (NN 小组)) (VP (VV 得出) (NP (NN 结论)))) (, ，) (IP (NP (FW Kepler-10b)) (VP (MD 必须) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 颗))) (NP (NN 岩石) (NN 世界)))))) (, ，) (IP (NP (ADJP (JJ 平均)) (NP (NN 密度))) (VP (VC 为) (QP (QP (CD 8.8) (CLP (NNB 克拉))) (/ /) (NNB 立方厘米)))) (, ，) (IP (VP (ADVP (RB 约)) (VP (VV 等) (PP (VV 于) (NP (QP (CD 一)) (NP (NN 块铁))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-“岩石世界”是“行星缺失的环节”，但是，岩石并不能保证一个行星是否适合居住。
-
-(ROOT (IP (IP (NP (`` “) (NN 岩石) (NN 世界) ('' ”)) (VP (VC 是) (NP (`` “) (CP (CP (IP (NP (NN 行星)) (VP (NN 缺失))) (DEC 的))) (NP (NN 环节)) ('' ”)))) (, ，) (IP (ADVP (RB 但是)) (, ，) (NP (NN 岩石)) (VP (ADVP (RB 并)) (VP (MD 不能) (VP (VV 保证) (IP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 行星))) (VP (ADVP (VC 是否)) (VP (VV 适合) (IP (VP (VV 居住)))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在 Kepler-10b 这个行星上，一侧总是朝向恒星，因此，这一侧的表面温度为 2,500 度 F（1,370 度 C），巴特拉估计。
-
-(ROOT (IP (IP (PP (IN 在) (LCP (NP (NP (FW Kepler-10b)) (DP (DT 这) (CLP (NNB 个))) (NP (NN 行星))) (IN 上))) (, ，) (QP (CD 一) (CLP (NN 侧))) (VP (ADVP (RB 总)) (VP (VC 是) (VP (VV 朝向) (NP (NN 恒星)))))) (, ，) (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (DNP (NP (DP (DT 这) (QP (CD 一))) (NP (NN 侧))) (DEC 的)) (NP (NN 表面) (NN 温度))) (VP (VC 为) (QP (CD 2,500) (CLP (FW 度 F)) (PRN (-LRB- （) (QP (CD 1,370) (CLP (FW 度 C))) (-RRB- ）))))) (, ，) (IP (NP (NNP 巴特拉)) (VP (VV 估计))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'QP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'QP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这样的世界几乎不可能保留大气层，因为炙热的气体会迅速排出太空。
-
-(ROOT (IP (IP (NP (DNP (NP (PRD 这样)) (DEC 的)) (NP (NN 世界))) (VP (ADVP (RB 几乎)) (ADVP (RB 不)) (VP (MD 可能) (VP (VV 保留) (NP (NN 大气) (SFN 层)))))) (, ，) (PP (IN 因为) (IP (NP (CP (CP (IP (VP (JJ 炙热))) (DEC 的))) (NP (NN 气体))) (VP (MD 会) (VP (ADVP (RB 迅速)) (VP (VV 排出) (NP (NN 太空))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
-----------------------------------------------------------------------
-但是，凯撒研究所的凯撒·马西 (Geoffrey Marcy) 表示，这是一个非常重要的发现，它发现了一颗巨大的行星。
-
-(ROOT (IP (ADVP (RB 但是)) (, ，) (NP (DNP (NP (NNP 凯撒) (VV 研究) (SFN 所)) (DEC 的)) (NP (NNP 凯撒) (/ ·) (NNP 马西) (FW -LRB-Geoffrey) (FW Marcy-RRB-))) (VP (VV 表示) (, ，) (IP (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 非常)) (VP (JJ 重要)))) (DEC 的))) (NP (NN 发现))))) (, ，) (IP (NP (PRP 它)) (VP (VV 发现) (AS 了) (NP (QP (CD 一) (CLP (NNB 颗))) (CP (CP (IP (VP (JJ 巨大))) (DEC 的))) (NP (NN 行星))))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
+(ROOT (IP (PP (VV 随) (PP (AS 着) (IP (NP (NN 调查) (NN 人员)) (VP (VV 追踪) (NP (DNP (NP (NP (NN 恐怖) (NN 分子)) (CC 及) (NP (NP (PRP 其)) (NP (NN 武器)))) (DEC 的)) (NP (NN 活动))))))) (, ，) (NP (DNP (NP (NP (NNP 欧洲)) (NP (NN 内部))) (DEC 的)) (NP (NN 联系))) (VP (VP (ADVP (RB 将)) (VP (MD 会) (VP (ADVP (RB 越来越)) (VP (JJ 多))))) (, ，) (VP (ADVP (RB 甚至)) (VP (MD 会) (VP (VV 揭露) (NP (DNP (NP (ADJP (JJ 更多)) (NP (NN 申根) (NN 协定))) (DEC 的)) (NP (NN 弱点))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP44545': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'PP': {}}}
 {'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-参与凯伯勒任务的马西并非巴特拉团队的核心成员。
-
-(ROOT (IP (NP (CP (CP (IP (VP (VV 参与) (NP (NP (NNP 凯伯勒)) (NP (NN 任务))))) (DEC 的))) (NP (NNP 马西))) (VP (VC 并非) (NP (DNP (NP (NP (NNP 巴特拉)) (NP (NN 团队))) (DEC 的)) (NP (NN 核心) (NN 成员)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
-----------------------------------------------------------------------
-他在 AAS 会议上说：“在天文学中，我们已经发现了 15 年的巨型气态行星。但最终目标是发现像地球一样的可居住的星球。”
-
-(ROOT (IP (NP (PRP 他)) (VP (PP (IN 在) (LCP (NP (FW AAS) (NN 会议)) (IN 上))) (VP (VV 说) (: ：) (IP (`` “) (PP (IN 在) (LCP (NP (NN 天文) (SFN 学)) (IN 中))) (, ，) (NP (PRP 我们)) (VP (ADVP (RB 已经)) (VP (VV 发现) (AS 了) (NP (DNP (QP (CD 15) (CLP (NNB 年))) (DEC 的)) (ADJP (NN 巨型)) (NP (NN 气态) (NN 行星)))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-根据 Marcy Kepler-10b 是“行星的缺失链接”。
-
-(ROOT (IP (VP (PP (IN 根据) (NP (FW Marcy) (FW Kepler-) (FW 10b))) (VP (VC 是) (NP (`` “) (DNP (NP (NN 行星)) (DEC 的)) (NP (NN 缺失) (NN 链接)) ('' ”)))) (. 。)))
-{'IP': {'VP': {}, '.': {}}}
-{'IP': {'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-“它肯定不是木星那样的气态巨行星，也不适合居住，因为太热了。
-
-(ROOT (IP (`` “) (NP (PRP 它)) (VP (VP (ADVP (VV 肯定)) (VP (VC 不是) (NP (NP (NNP 木星)) (DNP (NP (PRD 那样)) (DEC 的)) (ADJP (NN 气态)) (ADJP (PFA 巨)) (NP (NN 行星))))) (, ，) (VP (ADVP (RB 也)) (ADVP (RB 不)) (VP (VV 适合) (IP (NP (VV 居住)))))) (, ，) (PP (IN 因为) (IP (VP (JJ 太热) (UH 了)))) (. 。)))
-{'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'PP': {}, '.': {}}}
-{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
 {'VP': {'VP': {}, ',': {}, 'VP': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
+Dependency Features:
+随	揭露	advcl
+着	随	aux
+调查	人员	nmod
+人员	追踪	nsubj
+追踪	随	ccomp
+恐怖	分子	nmod
+分子	追踪	obj
+及	武器	cc
+其	武器	nmod
+武器	分子	conj
+的	追踪	mark:rel
+活动	随	obj
+，	随	punct
+欧洲	内部	nmod
+内部	联系	nmod
+的	内部	case
+联系	揭露	nsubj
+将	多	advmod
+会	多	aux
+越来越	多	advmod
+多	揭露	advcl
+，	多	punct
+甚至	揭露	mark
+会	揭露	aux
+揭露	ROOT	root
+更多	协定	amod
+申根	协定	nmod
+协定	弱点	nmod
+的	协定	case
+弱点	揭露	obj
+。	揭露	punct
 ----------------------------------------------------------------------
-这是一颗过渡性的行星，它在气态巨行星和我们希望发现的行星之间。”
+上周发生袭击事件后，法国迅速在主要过境点恢复了边境检查。
 
-(ROOT (IP (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 颗))) (DNP (NP (VV 过渡) (SFN 性)) (DEC 的)) (NP (NN 行星))))) (, ，) (IP (NP (PRP 它)) (VP (PP (IN 在) (LCP (NP (NP (NN 气态) (NN 巨行) (SFN 星)) (CC 和) (NP (CP (CP (IP (NP (PRP 我们)) (VP (VV 希望) (IP (VP (VV 发现))))) (DEC 的))) (NP (NN 行星)))) (IN 之间))))) (. 。) ('' ”)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-巴塔拉同意，另一颗可能是岩石行星的 COROT-7b 在大小和质量上可能更加类似于地球。
-
-(ROOT (IP (NP (NNP 巴塔拉)) (VP (VV 同意) (, ，) (IP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 颗)))) (CP (CP (IP (VP (MD 可能) (VP (VC 是) (NP (NN 岩石) (NN 行星))))) (DEC 的))) (NP (FW COROT-7b))) (VP (PP (IN 在) (LCP (NP (NN 大小) (CC 和) (NN 质量)) (IN 上))) (VP (MD 可能) (VP (ADVP (RB 更加)) (VP (VV 类似) (PP (IN 于) (NP (NNP 地球))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+(ROOT (IP (LCP (IP (VP (NP (NN 上周)) (VP (VV 发生) (NP (NN 袭击) (NN 事件))))) (IN 后)) (, ，) (NP (NNP 法国)) (VP (ADVP (RB 迅速)) (PP (IN 在) (NP (ADJP (JJ 主要)) (NP (VV 过) (NN 境点)))) (VP (VV 恢复) (AS 了) (NP (NN 边境) (NN 检查)))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'IP': {}, 'IN': {}}}
 {'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+上周	事件	nmod
+发生	事件	amod
+袭击	发生	obj
+事件	恢复	obl
+后	事件	case
+，	事件	punct
+法国	恢复	nsubj
+迅速	恢复	advmod
+在	境点	case
+主要	境点	amod
+过	境点	amod
+境点	恢复	obl
+恢复	ROOT	root
+了	恢复	aux
+边境	检查	nmod
+检查	恢复	obj
+。	恢复	punct
+----------------------------------------------------------------------
+申根框架允许采取此类国家安全临时措施；法国已经计划在本月晚些时候举行一次联合国气候大会，因此法国已经计划采取这一措施。
+
+(ROOT (IP (IP (NP (NP (NNP 申根)) (NP (NN 框架))) (VP (VV 允许) (IP (VP (VV 采取) (NP (ADJP (DT 此类)) (NP (NN 国家) (NN 安全)) (ADJP (JJ 临时)) (NP (NN 措施))))))) (: ；) (IP (NP (NNP 法国)) (VP (ADVP (RB 已经)) (VP (VV 计划) (IP (VP (PP (IN 在) (NP (NP (NN 本月)) (ADJP (NN 晚些)) (NP (NN 时候)))) (VP (VV 举行) (NP (QP (CD 一) (CLP (NNB 次))) (NP (VV 联合) (SFN 国)) (NP (NN 气候) (NN 大会))))))))) (, ，) (IP (ADVP (IN 因)) (ADVP (PRD 此)) (NP (NNP 法国)) (VP (ADVP (RB 已经)) (VP (VV 计划) (IP (VP (VV 采取) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 措施)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP63222': {}, ',': {}, 'IP17145': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP12952': {'NP': {}, 'VP': {}}, ',': {}, 'IP12999': {'ADVP': {}, 'ADVP5985': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+申根	框架	nmod
+框架	允许	nsubj
+允许	ROOT	root
+采取	允许	xcomp
+此类	措施	det
+国家	措施	nmod
+安全	措施	nmod
+临时	措施	amod
+措施	采取	obj
+；	计划	punct
+法国	计划	nsubj
+已经	计划	advmod
+计划	允许	parataxis
+在	时候	case
+本月	时候	nmod
+晚些	时候	nmod
+时候	举行	obl
+举行	计划	xcomp
+一	次	nummod
+次	大会	clf
+联合	国	compound
+国	大会	nmod
+气候	大会	nmod
+大会	举行	obj
+，	计划	punct
+因	此	case
+此	计划	obl
+法国	计划	nsubj
+已经	计划	advmod
+计划	允许	parataxis
+采取	计划	xcomp
+这	措施	det
+一	措施	nummod
+措施	采取	obj
+。	允许	punct
+----------------------------------------------------------------------
+现在他们要求更多。
+
+(ROOT (IP (NP (NN 现在)) (NP (PRP 他们)) (VP (VV 要求) (IP (VP (JJ 更多)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'NP11775': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'NP14186': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+现在	要求	nmod:tmod
+他	要求	nsubj
+要求	ROOT	root
+更多	要求	xcomp
+。	要求	punct
+----------------------------------------------------------------------
+法国将在 11 月 20 日在布鲁塞尔举行的司法和内政部长会议上，要求欧洲开始收集从事本地区旅行的乘客的姓名记录（自查理·卻不道德袭击事件以来，法国一直在推动这一要求），并通过安全数据库申根信息系统进一步交换数据。
+
+(ROOT (IP (LCP (NP (CP (CP (IP (NP (NNP 法国)) (VP (ADVP (RB 将)) (PP (IN 在) (NP (CD 11) (NNB 月 20))) (PP (IN 日在) (NP (NNP 布鲁塞尔))) (VP (VV 举行)))) (DEC 的))) (NP (NP (NN 司法) (CC 和) (NN 内政)) (NP (NN 部长))) (NP (NN 会议))) (IN 上)) (, ，) (VP (VV 要求) (NP (NNP 欧洲)) (IP (VP (VP (VV 开始) (VP (VV 收集) (NP (DNP (NP (CP (CP (IP (VP (VV 从事) (NP (NP (DP (DT 本)) (NP (NN 地区))) (NP (NN 旅行))))) (DEC 的))) (NP (NN 乘客))) (DEC 的)) (NP (NN 姓名) (NN 记录)) (PRN (-LRB- （) (IP (PP (IN 自) (LCP (IP (NP (NNP 查理) (/ ·)) (VP (ADVP (NNP 卻)) (ADVP (RB 不)) (VP (NN 道德) (NP (NN 袭击) (NN 事件))))) (IN 以来))) (, ，) (NP (NNP 法国)) (VP (ADVP (RB 一直)) (ADVP (RB 在)) (VP (VV 推动) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 要求)))))) (-RRB- ）))))) (, ，) (RB 并) (VP (PP (IN 通过) (NP (NN 安全) (NN 数据) (SFN 库) (NN 申根) (NN 信息) (NN 系统))) (VP (VP (VV 进) (QP (CD 一) (CLP (NNB 步)))) (VP (VV 交换) (NP (NN 数据)))))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
+Dependency Features:
+法国	要求	nsubj
+将	要求	advmod
+在	月 20	case
+11	月 20	nummod
+月 20	举行	obl
+日在	布鲁塞尔	case
+布鲁塞尔	举行	obl
+举行	会议	acl:relcl
+的	举行	mark:rel
+司法	会议	nmod
+和	部长	cc
+内政	司法	conj
+部长	会议	nmod
+会议	要求	obl
+上	会议	case
+，	会议	punct
+要求	ROOT	root
+欧洲	开始	nsubj
+开始	要求	ccomp
+收集	开始	xcomp
+从事	乘客	acl:relcl
+本	地区	det
+地区	旅行	nmod
+旅行	从事	obj
+的	从事	mark:rel
+乘客	收集	obj
+的	从事	mark:rel
+姓名	记录	nmod
+记录	收集	obj
+（	交换	punct
+自	事件	case
+查理	事件	nmod
+·	卻	punct
+卻	查理	flat:name
+不	事件	advmod
+道德	事件	nmod
+袭击	事件	nmod
+事件	交换	obl
+以来	事件	case
+，	事件	punct
+法国	推动	nsubj
+一直	推动	advmod
+在	推动	advmod
+推动	交换	advcl
+这	要求	det
+一	要求	nummod
+要求	推动	obj
+）	推动	punct
+，	推动	punct
+并	交换	mark
+通过	系统	case
+安全	库	nmod
+数据	库	compound
+库	系统	nmod
+申根	系统	nmod
+信息	系统	nmod
+系统	交换	obl
+进	交换	advcl
+一	步	nummod
+步	进	obj
+交换	要求	parataxis
+数据	交换	obj
+。	要求	punct
+----------------------------------------------------------------------
+法国还要求建立一个真正的欧洲范围内的机构来监管申根协定的外部边界。
+
+(ROOT (IP (NP (NNP 法国)) (VP (ADVP (RB 还)) (VP (VV 要求) (IP (VP (VP (VV 建立) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 真正))) (DEC 的))) (DNP (LCP (NP (NP (NNP 欧洲)) (NP (NN 范围))) (IN 内)) (DEC 的)) (NP (NN 机构)))) (VP (RB 来) (VP (VV 监管) (NP (DNP (NP (NN 申根) (NN 协定)) (DEC 的)) (NP (NN 外部) (NN 边界))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+法国	要求	nsubj
+还	要求	mark
+要求	ROOT	root
+建立	要求	xcomp
+一	个	nummod
+个	机构	clf
+真正	范围	amod
+的	真正	mark:rel
+欧洲	范围	nmod
+范围	机构	nmod
+内	范围	case
+的	范围	case
+机构	建立	obj
+来	监管	mark
+监管	建立	ccomp
+申根	协定	nmod
+协定	边界	nmod
+的	协定	case
+外部	边界	nmod
+边界	监管	obj
+。	要求	punct
+----------------------------------------------------------------------
+法国总统奥朗德表示，他希望欧洲是一个开放的边界，而不是一个“围墙和铁丝网”的大陆。
+
+(ROOT (IP (NP (NP (NP (NNP 法国)) (NP (NN 总统))) (NP (NNP 奥朗德))) (VP (VV 表示) (, ，) (IP (NP (PRP 他)) (VP (VV 希望) (IP (NP (NNP 欧洲)) (VP (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 开放))) (DEC 的))) (NP (NN 边界)))) (, ，) (RB 而) (VP (VC 不是) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (NP (`` “) (NN 围墙) (CC 和) (NN 铁丝) (SFN 网) ('' ”)) (DEC 的)) (NP (NN 大陆))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP32813': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
 {'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+法国	总统	nmod
+总统	表示	nsubj
+奥朗德	总统	appos
+表示	ROOT	root
+，	大陆	punct
+他	希望	nsubj
+希望	大陆	acl
+欧洲	边界	nsubj
+是	边界	cop
+一	个	nummod
+个	边界	clf
+开放	边界	amod
+的	开放	mark:rel
+边界	大陆	acl
+，	边界	punct
+而	大陆	mark
+是	大陆	cop
+一	个	nummod
+个	大陆	clf
+“	围墙	punct
+围墙	大陆	nmod
+和	铁丝	cc
+铁丝	网	compound
+网	围墙	conj
+”	网	punct
+的	围墙	case
+大陆	表示	ccomp
+。	表示	punct
 ----------------------------------------------------------------------
-但它的恒星活动很大，尤其是日冕风暴和其他干扰，这使得我们难以确定重要参数的精确度。
+但是，另一些人不这么认为，特别是在东部。
 
-(ROOT (IP (IP (ADVP (RB 但)) (NP (DNP (NP (PRP 它)) (DEC 的)) (NP (NN 恒星) (NN 活动))) (VP (JJ 很大))) (, ，) (IP (VP (ADVP (RB 尤其)) (VP (VC 是) (NP (NP (NN 日冕) (NN 风暴)) (CC 和) (NP (DP (DT 其他)) (NP (NN 干扰))))))) (, ，) (IP (NP (PRD 这)) (VP (VV 使得) (NP (PRP 我们)) (IP (VP (ADVP (JJ 难)) (ADVP (RB 以)) (VP (VV 确定) (NP (DNP (NP (ADJP (JJ 重要)) (NP (NN 参数))) (DEC 的)) (NP (JJ 精确) (SFN 度)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}, 'NP': {}, 'VP': {}}}
+(ROOT (IP (ADVP (RB 但是)) (, ，) (NP (DP (DT 另) (QP (JJ 一些))) (NP (NN 人))) (VP (ADVP (RB 不)) (ADVP (RB 这么)) (VP (VV 认为) (, ，) (IP (VP (ADVP (RB 特别)) (VP (VC 是) (PP (VV 在) (NP (NN 东部)))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP72867': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+但是	为	mark
+，	但是	punct
+另	人	det
+一些	人	amod
+人	为	nsubj
+不	为	advmod
+这么	为	advmod
+为	ROOT	root
+，	是	punct
+特别	是	advmod
+是	为	ccomp
+在	是	xcomp
+东部	在	obj
+。	为	punct
 ----------------------------------------------------------------------
-她说：“对于 Kepler-10来说，我们是幸运的。”
+匈牙利已经在与塞尔维亚的边境修建了 100 英里长的围栏。
 
-(ROOT (IP (NP (PRP 她)) (VP (VV 说) (: ：) (IP (`` “) (IP (VP (PP (IN 对于) (NP (FW Kepler-10))) (VP (RB 来) (VP (VV 说))))) (, ，) (NP (PRP 我们)) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 幸运))) (UH 的))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+(ROOT (IP (NP (NNP 匈牙利)) (VP (ADVP (RB 已经)) (PP (VV 在) (NP (DNP (PP (IN 与) (NP (NNP 塞尔维亚))) (DEC 的)) (NP (NN 边境)))) (VP (VV 修建) (AS 了) (NP (QP (CD 100) (CLP (NNB 英里))) (CP (CP (IP (VP (JJ 长))) (DEC 的))) (NP (NN 围栏))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+匈牙利	修建	nsubj
+已经	修建	advmod
+在	边境	acl:relcl
+与	塞尔维亚	case
+塞尔维亚	在	obl
+的	在	mark:rel
+边境	修建	obl
+修建	ROOT	root
+了	修建	aux
+100	英里	nummod
+英里	长	obl
+长	围栏	amod
+的	长	mark:rel
+围栏	修建	obj
+。	修建	punct
+----------------------------------------------------------------------
+奥地利正计划在与斯洛文尼亚接壤的边境上修建一座。
+
+(ROOT (IP (NP (NNP 奥地利)) (VP (ADVP (RB 正)) (VP (VV 计划) (IP (VP (PP (VV 在) (LCP (NP (CP (CP (IP (VP (PP (IN 与) (NP (NNP 斯洛文尼亚))) (VP (VV 接壤)))) (DEC 的))) (NP (NN 边境))) (NN 上))) (VP (VV 修建) (QP (CD 一) (CLP (NNB 座)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+奥地利	计划	nsubj
+正	计划	advmod
+计划	ROOT	root
+在	修建	advcl
+与	斯洛文尼亚	case
+斯洛文尼亚	接壤	obl
+接壤	边境	acl:relcl
+的	接壤	mark:rel
+边境	在	obj
+上	边境	acl
+修建	计划	xcomp
+一	座	nummod
+座	修建	obj
+。	计划	punct
+----------------------------------------------------------------------
+斯洛伐克总理罗伯特·菲科 (Robert Fico) 表示，他也准备建围墙（“保护斯洛伐克公民的安全高于移民权利”）。
+
+(ROOT (IP (NP (NP (NP (NNP 斯洛伐克)) (NP (NN 总理))) (NP (NNP 罗伯特) (/ ·) (NNP 菲科) (FW -LRB-Robert) (FW Fico-RRB-))) (VP (VV 表示) (, ，) (IP (NP (PRP 他)) (VP (ADVP (RB 也)) (VP (VV 准备) (IP (IP (VP (VV 建) (NP (NN 围墙))) (PRN (-LRB- （) (IP (`` “) (IP (VP (VV 保护) (NP (DNP (NP (NP (NNP 斯洛伐克)) (NP (NN 公民))) (DEC 的)) (NP (NN 安全))))) (VP (JJ 高) (PP (VV 于) (NP (NN 移民) (NN 权利)))) ('' ”)) (-RRB- ）)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP81174': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+斯洛伐克	总理	nmod
+总理	表示	nsubj
+罗伯特	总理	appos
+·	菲科	punct
+菲科	罗伯特	flat:name
+(Robert	总理	appos
+Fico)	(Robert	flat:foreign
+表示	ROOT	root
+，	准备	punct
+他	准备	nsubj
+也	准备	mark
+准备	表示	ccomp
+建	准备	xcomp
+围墙	建	obj
+（	高	punct
+“	高	punct
+保护	安全	acl:relcl
+斯洛伐克	公民	nmod
+公民	保护	obj
+的	保护	mark:rel
+安全	高	nsubj
+高	准备	ccomp
+于	高	mark
+移民	权利	nmod
+权利	高	obj
+”	高	punct
+）	高	punct
+。	表示	punct
+----------------------------------------------------------------------
+巴黎袭击事件发生后，波兰欧洲事务部长宣布欧盟重新分配寻求庇护者的协议已经失效。
+
+(ROOT (IP (LCP (IP (NP (NP (NNP 巴黎)) (NP (NN 袭击) (NN 事件))) (VP (VV 发生))) (IN 后)) (, ，) (NP (NP (NNP 波兰)) (NP (NNP 欧洲)) (NP (NN 事务) (NN 部长))) (VP (VV 宣布) (IP (NP (CP (IP (NP (NNP 欧盟)) (VP (ADVP (RB 重新)) (VP (VV 分配) (NP (CP (IP (VP (VV 寻求) (NP (VV 庇护))))) (NP (SFN 者)))))) (DEC 的)) (NP (NN 协议))) (VP (ADVP (RB 已经)) (VP (VV 失效))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NP': {}, 'NP21995': {}, 'NP57045': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'LCP': {'IP': {}, 'IN': {}}}
+{'NP': {'NP': {}, 'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+巴黎	事件	nmod
+袭击	事件	nmod
+事件	发生	nsubj
+发生	ROOT	root
+后	发生	mark
+，	宣布	punct
+波兰	部长	nmod
+欧洲	部长	nmod
+事务	部长	nmod
+部长	宣布	nsubj
+宣布	发生	parataxis
+欧盟	分配	nsubj
+重新	分配	advmod
+分配	协议	acl:relcl
+寻求	分配	xcomp
+庇护	者	compound
+者	寻求	obj
+的	分配	mark:rel
+协议	失效	nsubj
+已经	失效	advmod
+失效	宣布	ccomp
+。	发生	punct
+----------------------------------------------------------------------
+斯洛伐克的选举活动已经变成了反移民的吵闹。
+
+(ROOT (IP (NP (DNP (NP (NNP 斯洛伐克)) (DEC 的)) (NP (NN 选举) (NN 活动))) (VP (ADVP (RB 已经)) (VP (VV 变成) (AS 了) (NP (CP (IP (VP (VV 反) (NP (NN 移民)))) (DEC 的)) (NP (NN 吵闹))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+斯洛伐克	活动	nmod
+的	斯洛伐克	case
+选举	活动	nmod
+活动	变成	nsubj
+已经	变成	advmod
+变成	ROOT	root
+了	变成	aux
+反	吵闹	acl:relcl
+移民	反	obj
+的	反	mark:rel
+吵闹	变成	obj
+。	变成	punct
+----------------------------------------------------------------------
+匈牙利总理维克托·奥尔班 (Viktor Orban) 将恐怖袭击归咎于移民。
+
+(ROOT (IP (NP (NP (NP (NNP 匈牙利)) (NP (NN 总理))) (NP (NNP 维克托) (/ ·) (NNP 奥尔班) (FW -LRB-Viktor) (FW Orban-RRB-))) (VP (BB 将) (IP (NP (JJ 恐怖) (NN 袭击)) (VP (VV 归咎) (PP (VV 于) (NP (NN 移民)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP60011': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'BB': {}, 'IP': {}}}
+Dependency Features:
+匈牙利	总理	nmod
+总理	归咎	nsubj
+维克托	总理	appos
+·	奥尔班	punct
+奥尔班	维克托	flat:name
+(Viktor	总理	appos
+Orban)	(Viktor	flat:foreign
+将	袭击	case
+恐怖	袭击	amod
+袭击	归咎	obl:patient
+归咎	ROOT	root
+于	归咎	mark
+移民	归咎	obj
+。	归咎	punct
+----------------------------------------------------------------------
+(他还说，这会增加强奸，并威胁到欧洲的文化。)
+
+(ROOT (IP (-LRB- -LRB-) (NP (PRP 他)) (VP (ADVP (RB 还)) (VP (VV 说) (, ，) (IP (NP (PRD 这)) (VP (MD 会) (VP (VP (VV 增加) (NP (ADJP (PFA 强)) (NP (NN 奸)))) (, ，) (RB 并) (VP (VRD (VV 威胁) (VV 到)) (NP (DNP (NP (NNP 欧洲)) (DEC 的)) (NP (NN 文化))))))))) (. 。)))
+layer 2:
+{'IP': {'-LRB-': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'-LRB-': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'-LRB-': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'-LRB-': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
 {'NP': {'PRP': {}}}
-{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+(	说	punct
+他	说	nsubj
+还	说	mark
+说	ROOT	root
+，	威胁	punct
+这	威胁	nsubj
+会	增加	aux
+增加	威胁	advcl
+强	奸	case
+奸	增加	obj
+，	增加	punct
+并	威胁	mark
+威胁	说	ccomp
+到	威胁	mark
+欧洲	文化	nmod
+的	欧洲	case
+文化	威胁	obj
+。	说	punct
 ----------------------------------------------------------------------
-“它是一颗非常安静的恒星。”
+在西欧，右翼民粹主义者正在煽动民众的恐惧。
 
-(ROOT (IP (`` “) (NP (PRP 它)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 颗))) (CP (CP (IP (VP (ADVP (RB 非常)) (VP (JJ 安静)))) (DEC 的))) (NP (NN 恒星)))) (. 。) ('' ”)))
-{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}, "''": {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
+(ROOT (IP (PP (VV 在) (NP (NN 西) (NNP 欧))) (, ，) (NP (ADJP (NN 右翼)) (NP (NN 民粹) (NN 主义) (SFN 者))) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 煽动) (NP (DNP (NP (NN 民众)) (DEC 的)) (NP (NN 恐惧))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP36614': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'NP': {}}}
+{'NP': {'ADJP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+在	煽动	advcl
+西	欧	nmod
+欧	在	obj
+，	在	punct
+右翼	者	nmod
+民粹	主义	nmod
+主义	者	compound
+者	煽动	nsubj
+正	煽动	advmod
+在	煽动	advmod
+煽动	ROOT	root
+民众	恐惧	nmod
+的	民众	case
+恐惧	煽动	obj
+。	煽动	punct
+----------------------------------------------------------------------
+有一则（尚未得到证实）报道称，巴黎枪手之一以叙利亚难民的身份，通过希腊进入欧洲，这对他们的事业更是雪上加霜。
+
+(ROOT (IP (VP (VV 有) (QP (CD 一) (CLP (NNB 则)))) (PRN (-LRB- （) (VP (ADVP (RB 尚)) (ADVP (RB 未)) (VP (VV 得到) (NP (VV 证实)))) (-RRB- ）)) (NP (NN 报道)) (VP (VV 称) (, ，) (IP (NP (NP (DNP (NP (NP (NNP 巴黎)) (NP (NN 枪手))) (DEC 之)) (QP (CD 一))) (VP (PP (VV 以) (NP (DNP (NP (NP (NNP 叙利亚)) (NP (NN 难民))) (DEC 的)) (NP (NN 身份)))) (, ，) (PP (VV 通过) (NP (NNP 希腊))) (VP (VV 进入) (NP (NNP 欧洲))))) (, ，) (IP (NP (PRD 这)) (VP (PP (IN 对) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 事业)))) (ADVP (RB 更是)) (VP (JJ 雪上加霜)))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, 'PRN': {}, 'NP': {}, 'VP78362': {}, '.': {}}}
+{'IP': {'VP': {}, 'PRN': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VV': {}, 'QP': {}}, 'PRN': {'-LRB-': {}, 'VP': {}, '-RRB-': {}}, 'NP': {'NN': {}}, 'VP81710': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'VP': {'VV': {}, 'QP': {}}, 'PRN': {'-LRB-': {}, 'VP': {}, '-RRB-': {}}, 'NP': {'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'VP': {'VV': {}, 'QP': {}}}
+{'PRN': {'-LRB-': {}, 'VP': {}, '-RRB-': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+有	ROOT	root
+一	则	nummod
+则	得到	nsubj
+（	得到	punct
+尚	未	advmod
+未	得到	advmod
+得到	有	ccomp
+证实	得到	xcomp
+）	称	punct
+报道	称	nsubj
+称	得到	parataxis
+，	通过	punct
+巴黎	枪手	nmod
+枪手	一	nmod
+之	枪手	case
+一	身份	nmod
+以	身份	acl:relcl
+叙利亚	难民	nmod
+难民	以	obj
+的	以	mark:rel
+身份	通过	nsubj
+，	身份	punct
+通过	称	ccomp
+希腊	进入	nsubj
+进入	通过	ccomp
+欧洲	进入	obj
+，	雪上加霜	punct
+这	事业	nmod
+对	事业	case
+他	事业	nmod
+的	他	mark:rel
+事业	雪上加霜	nmod
+是	雪上加霜	advmod
+雪上加霜	有	parataxis
+。	有	punct
+----------------------------------------------------------------------
+几个月来一直警告圣战分子假扮难民的马琳·勒庞 (Marine Le Pen) 宣称获得了证明。
+
+(ROOT (IP (NP (CP (CP (IP (VP (LCP (NP (QP (CD 几) (CLP (NNB 个))) (NP (NN 月))) (IN 来)) (ADVP (RB 一直)) (VP (VV 警告) (NP (NN 圣战) (NN 分子)) (IP (VP (VV 假扮) (NP (NN 难民))))))) (DEC 的))) (NP (NNP 马琳) (/ ·) (NNP 勒庞)) (FW -LRB-Marine) (FW Le) (FW Pen-RRB-)) (VP (VV 宣称) (IP (VP (VV 获得) (AS 了) (NP (NN 证明))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}, 'FW': {}, 'FW66760': {}, 'FW3561': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}, 'FW': {}, 'FW': {}, 'FW': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'NP': {}, 'FW': {}, 'FW': {}, 'FW': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+几	个	nummod
+个	月	clf
+月	警告	nmod:tmod
+来	月	case
+一直	警告	advmod
+警告	ROOT	root
+圣战	分子	nmod
+分子	假扮	nsubj
+假扮	马琳	acl:relcl
+难民	假扮	obj
+的	假扮	mark:rel
+马琳	宣称	nsubj
+·	勒庞	punct
+勒庞	马琳	flat:name
+(Marine	马琳	appos
+Le	(Marine	flat:foreign
+Pen)	(Marine	flat:foreign
+宣称	警告	ccomp
+获得	宣称	xcomp
+了	获得	aux
+证明	获得	obj
+。	宣称	punct
+----------------------------------------------------------------------
+意大利右翼联盟党的马特奥·萨维尼 (Matteo Salvini) 重申了他关于暂停申根协议的呼吁。
+
+(ROOT (IP (NP (DNP (NP (NP (NP (NNP 意大利)) (ADJP (NN 右翼)) (NP (NN 联盟))) (NP (SFN 党))) (DEC 的)) (NP (NNP 马特奥) (/ ·) (NNP 萨维尼) (FW -LRB-Matteo) (FW Salvini-RRB-))) (VP (VV 重申) (AS 了) (NP (NP (PRP 他)) (DNP (PP (IN 关于) (IP (VP (VV 暂停) (NP (NN 申根) (NN 协议))))) (DEC 的)) (NP (NN 呼吁)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+意大利	党	nmod
+右翼	党	nmod
+联盟	党	compound
+党	马特奥	nmod
+的	党	mark:rel
+马特奥	重申	nsubj
+·	萨维尼	punct
+萨维尼	马特奥	flat:name
+(Matteo	马特奥	appos
+Salvini)	(Matteo	flat:foreign
+重申	ROOT	root
+了	重申	aux
+他	呼吁	nmod
+关于	呼吁	case
+暂停	呼吁	acl:relcl
+申根	协议	nmod
+协议	暂停	obj
+的	暂停	mark:rel
+呼吁	重申	obj
+。	重申	punct
+----------------------------------------------------------------------
+在爆炸发生后进行的民意调查中，70% 的荷兰人表示应关闭边境。
+
+(ROOT (IP (LCP (NP (CP (CP (IP (VP (PP (IN 在) (LCP (IP (NP (VV 爆炸)) (VP (VV 发生))) (IN 后))) (VP (VV 进行)))) (DEC 的))) (NP (NN 民意) (NN 调查))) (IN 中)) (, ，) (NP (DNP (QP (CD 70%)) (DEC 的)) (NP (NNP 荷兰)) (NP (SFN 人))) (VP (VV 表示) (IP (VP (MD 应) (VP (VV 关闭) (NP (NN 边境)))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}, 'NP91396': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'DNP': {}, 'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+在	调查	case
+爆炸	发生	advcl
+发生	进行	xcomp
+后	发生	mark
+进行	调查	acl:relcl
+的	进行	mark:rel
+民意	调查	nmod
+调查	表示	obl
+中	调查	case
+，	调查	punct
+70%	人	nummod
+的	70%	case
+荷兰	人	compound
+人	表示	nsubj
+表示	ROOT	root
+应	关闭	aux
+关闭	表示	xcomp
+边境	关闭	obj
+。	表示	punct
+----------------------------------------------------------------------
+恐惧和憎恶并不是唯一的反应。
+
+(ROOT (IP (NP (NN 恐惧) (CC 和) (NN 憎恶)) (VP (ADVP (RB 并)) (VP (VC 不是) (NP (DNP (ADJP (JJ 唯一)) (DEC 的)) (NP (NN 反应))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'CC': {}, 'NN89808': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'CC': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'CC': {}, 'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+恐惧	反应	nsubj
+和	憎恶	cc
+憎恶	恐惧	conj
+并	反应	mark
+是	反应	cop
+唯一	反应	amod
+的	唯一	mark:rel
+反应	ROOT	root
+。	反应	punct
+----------------------------------------------------------------------
+德国内政部长托马斯·德梅齐埃于 11 月 15 日敦促媒体和社会不要将袭击事件与难民辩论联系起来。
+
+(ROOT (IP (NP (NP (NP (NNP 德国)) (NP (NN 内政) (NN 部长))) (NP (NNP 托马斯) (/ ·) (NNP 德梅齐) (NNP 埃于))) (VP (NP (CD 11) (NNB 月 15)) (VP (VV 日敦促) (NP (NN 媒体) (CC 和) (NN 社会)) (IP (VP (MD 不要) (VP (BB 将) (IP (NP (NN 袭击) (NN 事件)) (VP (PP (IN 与) (NP (NN 难民) (NN 辩论))) (VP (VRD (VV 联系) (VV 起来)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP38576': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+德国	部长	nmod
+内政	部长	nmod
+部长	联系	nsubj
+托马斯	部长	appos
+·	德梅齐	punct
+德梅齐	托马斯	flat:name
+埃于	部长	appos
+11	月 15	nummod
+月 15	日敦促	nmod:tmod
+日敦促	ROOT	root
+媒体	日敦促	obj
+和	社会	cc
+社会	媒体	conj
+要	联系	aux
+将	事件	case
+袭击	事件	nmod
+事件	联系	obl:patient
+与	辩论	case
+难民	辩论	nmod
+辩论	联系	obl
+联系	日敦促	ccomp
+起来	联系	mark
+。	联系	punct
+----------------------------------------------------------------------
+德国和西欧大部分地区的谈话节目中的主流观点是难民是伊斯兰国的受害者，而非罪犯。
+
+(ROOT (IP (NP (DNP (LCP (NP (DNP (NP (NP (NNP 德国)) (CC 和) (NP (NP (NN 西) (NNP 欧)) (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (NN 地区)))) (DEC 的)) (NP (NN 谈话) (NN 节目))) (IN 中)) (DEC 的)) (NP (NN 主流) (NN 观点))) (VP (VC 是) (IP (NP (NN 难民)) (VP (VP (VC 是) (NP (DNP (NP (NNP 伊斯兰) (SFN 国)) (DEC 的)) (NP (VV 受害) (SFN 者)))) (, ，) (VP (VC 而非) (NP (NN 罪犯)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'IP': {}}}
+Dependency Features:
+德国	节目	nmod
+和	欧	cc
+西	欧	nmod
+欧	德国	conj
+大	部分	case
+部分	地区	nmod
+地区	德国	conj
+的	德国	case
+谈话	节目	nmod
+节目	观点	nmod
+中	节目	case
+的	节目	case
+主流	观点	nmod
+观点	是	nsubj
+是	ROOT	root
+难民	者	nsubj
+是	者	cop
+伊斯兰	国	compound
+国	者	nmod
+的	国	mark:rel
+受害	者	compound
+者	是	ccomp
+，	罪犯	punct
+而非	罪犯	cop
+罪犯	者	conj
+。	是	punct
+----------------------------------------------------------------------
+土耳其总统雷杰普·塔伊普·埃尔多安 是默克尔的一个不太可能但是必要的盟友，在上周的 G20 峰会上，他说，将难民当作恐怖分子对待，是“回避人道主义责任”。
+
+(ROOT (IP (IP (NP (DNP (NP (NP (NP (NNP 土耳其)) (NP (NN 总统))) (NP (NNP 雷杰普) (/ ·) (NNP 塔伊普) (/ ·) (NNP 埃尔多安) (NNP 是默克尔))) (DEC 的)) (QP (CD 一) (CLP (NNB 个)))) (VP (ADVP (RB 不太)) (VP (MD 可能) (VP (ADVP (RB 但是)) (NP (CP (CP (IP (VP (JJ 必要))) (DEC 的))) (NP (NN 盟友))))))) (, ，) (IP (PP (IN 在) (LCP (NP (DNP (NP (NN 上周)) (DEC 的)) (NP (FW G20) (NN 峰会))) (IN 上))) (, ，) (NP (PRP 他)) (VP (VV 说) (, ，) (IP (VP (VP (BB 将) (IP (NP (NN 难民)) (VP (VP (VV 当作) (NP (NN 恐怖) (NN 分子))) (VP (VV 对待))))) (, ，) (VP (VC 是) (VP (`` “) (VV 回避) (NP (NP (NN 人道) (NN 主义)) (NP (NN 责任))) ('' ”))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP31474': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP21956': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+土耳其	总统	nmod
+总统	是默克尔	nsubj
+雷杰普	总统	appos
+·	塔伊普	punct
+塔伊普	雷杰普	flat:name
+·	埃尔多安	punct
+埃尔多安	雷杰普	flat:name
+是默克尔	盟友	acl:relcl
+的	是默克尔	mark:rel
+一	个	nummod
+个	盟友	clf
+不太	盟友	advmod
+可能	盟友	aux
+但是	盟友	mark
+必要	盟友	amod
+的	必要	mark:rel
+盟友	ROOT	root
+，	说	punct
+在	峰会	case
+上周	峰会	nmod
+的	上周	case
+G20	峰会	nmod
+峰会	说	obl
+上	峰会	case
+，	峰会	punct
+他	说	nsubj
+说	盟友	parataxis
+，	是	punct
+将	难民	case
+难民	当作	obl:patient
+当作	是	advcl
+恐怖	分子	nmod
+分子	当作	iobj
+对待	当作	ccomp
+，	当作	punct
+是	说	ccomp
+“	回避	punct
+回避	是	xcomp
+人道	责任	nmod
+主义	责任	nmod
+责任	回避	obj
+”	回避	punct
+。	盟友	punct
+----------------------------------------------------------------------
+11 月 18 日，埃尔多安与希腊总理齐普拉斯举行了一次重要会谈；他们共同的边界是申根区周边最疏松的边界之一。
+
+(ROOT (IP (IP (NP (CD 11) (NNB 月 18) (NNB 日)) (, ，) (NP (NNP 埃尔多安)) (VP (PP (IN 与) (NP (NP (NP (NNP 希腊)) (NP (NN 总理))) (NP (NNP 齐普拉斯)))) (VP (VV 举行) (AS 了) (NP (QP (CD 一) (CLP (NNB 次))) (ADJP (JJ 重要)) (NP (NN 会谈)))))) (: ；) (IP (NP (NP (PRP 他们)) (DNP (ADJP (JJ 共同)) (DEC 的)) (NP (NN 边界))) (VP (VC 是) (NP (DNP (NP (NP (NP (NNP 申根) (SFN 区)) (NP (NN 周边))) (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 疏松)))) (DEC 的))) (NP (NN 边界))) (DEC 之)) (NP (CD 一))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP83006': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP23496': {}, 'VP': {}}, ':': {}, 'IP57818': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+11	月 18	nummod
+月 18	日	clf
+日	举行	nmod:tmod
+，	日	punct
+埃尔多安	举行	nsubj
+与	总理	case
+希腊	总理	nmod
+总理	举行	obl
+齐普拉斯	总理	appos
+举行	ROOT	root
+了	举行	aux
+一	次	nummod
+次	会谈	clf
+重要	会谈	amod
+会谈	举行	obj
+；	一	punct
+他	边界	nmod
+共同	边界	amod
+的	共同	mark:rel
+边界	一	nsubj
+是	一	cop
+申根	区	compound
+区	周边	nmod
+周边	疏松	nsubj
+最	疏松	advmod
+疏松	边界	acl:relcl
+的	疏松	mark:rel
+边界	一	nmod
+之	边界	case
+一	举行	parataxis
+。	举行	punct
+----------------------------------------------------------------------
+在该地区的外部边界得到保障之前，该地区内部的行动自由将受到威胁。
+
+(ROOT (IP (PP (IN 在) (LCP (IP (NP (DNP (NP (DP (DT 该)) (NP (NN 地区))) (DEC 的)) (NP (NN 外部) (NN 边界))) (VP (VV 得到) (NP (NN 保障)))) (IN 之前))) (, ，) (NP (DNP (NP (NP (DP (DT 该)) (NP (NN 地区))) (NP (NN 内部))) (DEC 的)) (NP (NN 行动) (NN 自由))) (VP (ADVP (RB 将)) (VP (VV 受到) (NP (NN 威胁)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+在	边界	case
+该	地区	det
+地区	边界	nmod
+的	地区	case
+外部	边界	nmod
+边界	得到	nsubj
+得到	受到	ccomp
+保障	得到	obj
+之前	得到	mark
+，	得到	punct
+该	内部	det
+地区	内部	nmod
+内部	自由	nmod
+的	内部	case
+行动	自由	nmod
+自由	受到	nsubj
+将	受到	advmod
+受到	ROOT	root
+威胁	受到	obj
+。	受到	punct
 ----------------------------------------------------------------------

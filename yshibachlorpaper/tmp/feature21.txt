@@ -1,456 +1,2060 @@
-亚洲女性正在拒绝婚姻，这种社会现象十分严重。
+事实上，美中新关系使得欧洲大陆被边缘化，但欧洲大陆并不知道，更不知道如何应对。
 
-(ROOT (IP (IP (NP (NP (NNP 亚洲)) (NP (NN 女性))) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 拒绝) (NP (NN 婚姻))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 社会) (NN 现象))) (VP (ADVP (RB 十分)) (VP (JJ 严重)))) (. 。)))
+(ROOT (IP (IP (LCP (NP (NN 事实)) (IN 上)) (, ，) (NP (NP (NNP 美) (NNP 中)) (ADJP (PFA 新)) (NP (NN 关系))) (VP (VV 使得) (NP (NP (NNP 欧洲)) (NP (NN 大陆))) (IP (VP (BB 被) (VP (VRD (NN 边缘) (SFV 化))))))) (, ，) (IP (ADVP (RB 但)) (NP (NP (NNP 欧洲)) (NP (NN 大陆))) (VP (VP (ADVP (RB 并)) (ADVP (RB 不)) (VP (VV 知道))) (, ，) (VP (ADVP (RB 更)) (ADVP (RB 不)) (VP (VV 知道) (IP (VP (ADVP (RB 如何)) (VP (VV 应对)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP77453': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP24734': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'obl']	['事实', '使得', 'obl']
+['ADP', 'NOUN', 'case']	['上', '事实', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '事实', 'punct']
+['PROPN', 'NOUN', 'nmod']	['美', '关系', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['中', '关系', 'nmod']
+['PART', 'NOUN', 'case']	['新', '关系', 'case']
+['NOUN', 'VERB', 'nsubj']	['关系', '使得', 'nsubj']
+['VERB', 'ROOT', 'root']	['使得', 'NONE', 'root']
+['PROPN', 'NOUN', 'nmod']	['欧洲', '大陆', 'nmod']
+['NOUN', 'PART', 'nsubj:pass']	['大陆', '化', 'nsubj:pass']
+['AUX', 'PART', 'aux:pass']	['被', '化', 'aux:pass']
+['NOUN', 'PART', 'compound']	['边缘', '化', 'compound']
+['PART', 'VERB', 'ccomp']	['化', '使得', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '知道', 'punct']
+['ADV', 'VERB', 'mark']	['但', '知道', 'mark']
+['PROPN', 'NOUN', 'nmod']	['欧洲', '大陆', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['大陆', '知道', 'nsubj']
+['ADV', 'ADV', 'advmod']	['并', '不', 'advmod']
+['ADV', 'VERB', 'advmod']	['不', '知道', 'advmod']
+['VERB', 'VERB', 'parataxis']	['知道', '使得', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['，', '知道', 'punct']
+['ADV', 'VERB', 'advmod']	['更', '知道', 'advmod']
+['ADV', 'VERB', 'advmod']	['不', '知道', 'advmod']
+['VERB', 'VERB', 'parataxis']	['知道', '使得', 'parataxis']
+['ADV', 'VERB', 'advmod']	['如何', '应对', 'advmod']
+['VERB', 'VERB', 'xcomp']	['应对', '知道', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '使得', 'punct']
 ----------------------------------------------------------------------
-二十年前，关于“亚洲价值观”是否存在的争论爆发。
+7月27日，中美战略对话开始前一天，中国发布消息称，国家主席胡锦涛向台湾当局领导人马英九发来电报，祝贺他当选国民党主席。
 
-(ROOT (IP (LCP (QP (CD 二十) (CLP (NNB 年))) (IN 前)) (, ，) (NP (DNP (PP (IN 关于) (IP (NP (`` “) (NP (NNP 亚洲)) (NP (NN 价值) (SFN 观)) ('' ”)) (VP (ADVP (RB 是否)) (VP (VV 存在))))) (DEC 的)) (NP (NN 争论))) (VP (VV 爆发)) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'QP': {}, 'IN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}}, '.': {}}}
-{'LCP': {'QP': {}, 'IN': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VV': {}}}
+(ROOT (IP (NP (CD 7) (NNB 月) (CD 27) (NNB 日)) (, ，) (QP (LCP (IP (NP (NP (NNP 中) (NNP 美)) (NP (NN 战略) (NN 对话))) (VP (VV 开始))) (IN 前)) (QP (CD 一) (CLP (NNB 天)))) (, ，) (NP (NNP 中国)) (VP (VP (VV 发布) (NP (NN 消息))) (VP (VV 称) (, ，) (IP (NP (NP (NN 国家) (NN 主席)) (NP (NNP 胡) (NNP 锦) (NNP 涛))) (VP (VP (PP (IN 向) (NP (NP (NP (NP (NNP 台湾)) (NP (NN 当局))) (NP (VV 领导) (SFN 人))) (NP (NNP 马) (NNP 英九)))) (VP (VV 发来) (NP (NN 电报)))) (, ，) (VP (VV 祝贺) (NP (PRP 他)) (IP (VP (VV 当选) (NP (NP (NN 国民) (SFN 党)) (NP (NN 主席)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'QP': {}, ',89274': {}, 'NP75076': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'QP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD37180': {}, 'NNB8235': {}}, ',': {}, 'QP': {'LCP': {}, 'QP': {}}, ',40682': {}, 'NP63471': {'NNP': {}}, 'VP': {'VP': {}, 'VP85380': {}}, '.': {}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'QP': {'LCP': {}, 'QP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}}
+{'QP': {'LCP': {}, 'QP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+['NUM', 'NOUN', 'nummod']	['7', '月', 'nummod']
+['NOUN', 'NOUN', 'clf']	['月', '日', 'clf']
+['NUM', 'NOUN', 'nummod']	['27', '日', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['日', '发布', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '日', 'punct']
+['PROPN', 'NOUN', 'nmod']	['中', '对话', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['美', '对话', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['战略', '对话', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['对话', '开始', 'nsubj']
+['VERB', 'NOUN', 'amod']	['开始', '天', 'amod']
+['ADP', 'VERB', 'mark']	['前', '开始', 'mark']
+['NUM', 'NOUN', 'nummod']	['一', '天', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['天', '发布', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '天', 'punct']
+['PROPN', 'VERB', 'nsubj']	['中国', '发布', 'nsubj']
+['VERB', 'ROOT', 'root']	['发布', 'NONE', 'root']
+['NOUN', 'VERB', 'nsubj']	['消息', '称', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['称', '发布', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '祝贺', 'punct']
+['NOUN', 'NOUN', 'nmod']	['国家', '主席', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['主席', '祝贺', 'nsubj']
+['PROPN', 'NOUN', 'appos']	['胡', '主席', 'appos']
+['PROPN', 'PROPN', 'flat:name']	['锦', '胡', 'flat:name']
+['PROPN', 'PROPN', 'flat:name']	['涛', '胡', 'flat:name']
+['ADP', 'PART', 'case']	['向', '人', 'case']
+['PROPN', 'PART', 'nmod']	['台湾', '人', 'nmod']
+['NOUN', 'PART', 'nmod']	['当局', '人', 'nmod']
+['VERB', 'PART', 'compound']	['领导', '人', 'compound']
+['PART', 'VERB', 'obl']	['人', '发来', 'obl']
+['PROPN', 'PART', 'appos']	['马', '人', 'appos']
+['PROPN', 'PROPN', 'flat:name']	['英九', '马', 'flat:name']
+['VERB', 'VERB', 'advcl']	['发来', '祝贺', 'advcl']
+['NOUN', 'VERB', 'obj']	['电报', '发来', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '发来', 'punct']
+['VERB', 'VERB', 'ccomp']	['祝贺', '称', 'ccomp']
+['PRON', 'VERB', 'nsubj']	['他', '当选', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['当选', '祝贺', 'ccomp']
+['NOUN', 'PART', 'compound']	['国民', '党', 'compound']
+['PART', 'NOUN', 'nmod']	['党', '主席', 'nmod']
+['NOUN', 'VERB', 'obj']	['主席', '当选', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '发布', 'punct']
 ----------------------------------------------------------------------
-大多数人的注意力集中在了各个专制者对民主的怀疑，他们认为民主不是他们的一部分。
+这是两国领导人首次直接沟通。
 
-(ROOT (IP (IP (NP (DNP (NP (QP (ADJP (RB 大)) (QP (JJ 多数))) (NP (NN 人))) (DEC 的)) (NP (VV 注意) (SFN 力))) (VP (VV 集中) (PP (VV 在) (AS 了) (NP (NP (DP (DT 各个)) (NP (NN 专制) (SFN 者))) (DNP (PP (IN 对) (NP (NN 民主))) (DEC 的)) (NP (NN 怀疑)))))) (, ，) (IP (NP (PRP 他们)) (VP (VV 认为) (IP (NP (NN 民主)) (VP (VC 不是) (NP (DNP (NP (PRP 他们)) (DEC 的)) (QP (CD 一)) (NP (NN 部分))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+(ROOT (IP (NP (PRD 这)) (VP (VC 是) (IP (NP (NP (QP (CD 两)) (NP (NN 国))) (NP (VV 领导) (SFN 人))) (VP (ADVP (CD 首次)) (ADVP (RB 直接)) (VP (VV 沟通))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VC': {}, 'IP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['这', '沟通', 'nsubj']
+['AUX', 'VERB', 'cop']	['是', '沟通', 'cop']
+['NUM', 'NOUN', 'nummod']	['两', '国', 'nummod']
+['NOUN', 'PART', 'nmod']	['国', '人', 'nmod']
+['VERB', 'PART', 'compound']	['领导', '人', 'compound']
+['PART', 'VERB', 'nsubj']	['人', '沟通', 'nsubj']
+['NUM', 'VERB', 'obl']	['首次', '沟通', 'obl']
+['ADV', 'VERB', 'advmod']	['直接', '沟通', 'advmod']
+['VERB', 'ROOT', 'root']	['沟通', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['。', '沟通', 'punct']
 ----------------------------------------------------------------------
-但是，这一观点虽然不为人所注意，但也更有趣，即亚洲的传统家庭价值观比美国和欧洲更强，这部分地解释了亚洲的经济成功。
+中国战略家们认为，简而言之，中美之争可以归结为台湾问题。
 
-(ROOT (IP (IP (ADVP (RB 但是)) (, ，) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 观点))) (VP (IP (VP (ADVP (IN 虽然)) (ADVP (RB 不)) (VP (BB 为) (CP (IP (NP (NN 人)) (VP (RB 所) (VP (VV 注意)))))))) (, ，) (ADVP (RB 但)) (ADVP (RB 也)) (ADVP (RB 更)) (VP (JJ 有趣)))) (, ，) (IP (ADVP (VC 即)) (NP (DNP (NP (NNP 亚洲)) (DEC 的)) (ADJP (NN 传统)) (NP (NN 家庭) (NN 价值) (SFN 观))) (VP (PP (IN 比) (NP (NNP 美国) (CC 和) (NNP 欧洲))) (VP (JJ 更强)))) (, ，) (IP (VP (DVP (DP (DT 这) (CLP (NN 部分))) (DEV 地)) (VP (VV 解释) (AS 了) (NP (DNP (NP (NNP 亚洲)) (DEC 的)) (NP (NN 经济) (NN 成功)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'VP': {}}}
+(ROOT (IP (NP (NP (NNP 中国)) (NP (NN 战略) (SFN 家) (SFN 们))) (VP (VV 认为) (, ，) (IP (IP (VP (ADVP (RB 简而)) (VP (VV 言)))) (NP (PRD 之)) (, ，) (NP (DNP (NP (NNP 中) (NNP 美)) (DEC 之)) (NP (NN 争))) (VP (MD 可以) (VP (VRD (VV 归结) (VC 为)) (NP (NP (NNP 台湾)) (NP (NN 问题))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP38280': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['PROPN', 'PART', 'nmod']	['中国', '们', 'nmod']
+['NOUN', 'PART', 'compound']	['战略', '家', 'compound']
+['PART', 'PART', 'compound']	['家', '们', 'compound']
+['PART', 'VERB', 'nsubj']	['们', '为', 'nsubj']
+['VERB', 'ROOT', 'root']	['为', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '言', 'punct']
+['ADV', 'VERB', 'advmod']	['简而', '言', 'advmod']
+['VERB', 'VERB', 'ccomp']	['言', '为', 'ccomp']
+['PRON', 'VERB', 'obj']	['之', '言', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '归结', 'punct']
+['PROPN', 'NOUN', 'nmod']	['中', '争', 'nmod']
+['PROPN', 'PROPN', 'conj']	['美', '中', 'conj']
+['PART', 'PROPN', 'case']	['之', '中', 'case']
+['NOUN', 'VERB', 'nsubj']	['争', '归结', 'nsubj']
+['AUX', 'VERB', 'aux']	['可以', '归结', 'aux']
+['VERB', 'VERB', 'parataxis']	['归结', '为', 'parataxis']
+['VERB', 'VERB', 'mark']	['为', '归结', 'mark']
+['PROPN', 'NOUN', 'nmod']	['台湾', '问题', 'nmod']
+['NOUN', 'VERB', 'obj']	['问题', '归结', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '为', 'punct']
 ----------------------------------------------------------------------
-李光耀，新加坡前总理，亚洲价值观的倡导者，曾这样评价中国家庭：“鼓励学习、勤奋、节俭、抛下当下的享受为将来的利益”。
+当然，中美之间有过，也将有很多磕磕碰碰，包括贸易、经济、人权等领域的冲突，但没有一个比台湾这个问题更为重要、更为紧迫了。台湾在美国的支持下，几十年来一直保持着事实上的独立。
 
-(ROOT (IP (NP (NP (NNP 李) (NNP 光耀)) (, ，) (NP (NP (NNP 新加坡)) (ADJP (PFA 前)) (NP (NN 总理))) (, ，) (NP (DNP (NP (NP (NNP 亚洲)) (NP (NN 价值) (SFN 观))) (DEC 的)) (NP (VV 倡导) (SFN 者)))) (, ，) (VP (ADVP (RB 曾)) (ADVP (RB 这样)) (VP (VV 评价) (NP (NP (NNP 中国)) (NP (NN 家庭))) (: ：) (IP (`` “) (IP (VP (VV 鼓励) (IP (VP (VP (VV 学习) (EC 、) (JJ 勤奋) (EC 、) (JJ 节俭)) (EC 、) (VP (VV 抛下) (NP (DNP (NP (NN 当下)) (DEV 的)) (NP (VV 享受)))))))) (VP (VC 为) (NP (DNP (NP (NN 将来)) (DEC 的)) (NP (NN 利益)))) ('' ”)))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, ',': {}, 'NP': {}, ',': {}}, ',': {}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, ',': {}, 'NP': {}, ',': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-从表面上看，他的说法仍然令人信服。
-
-(ROOT (IP (IP (VP (PP (IN 从) (LCP (NP (NN 表面)) (IN 上))) (VP (VV 看)))) (, ，) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 说法))) (VP (ADVP (RB 仍然)) (VP (VV 令) (NP (NN 人)) (IP (VP (VV 信服))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+(ROOT (IP (IP (ADVP (RB 当然)) (, ，) (LCP (NP (NNP 中) (NNP 美)) (IN 之间)) (VP (VP (VV 有) (AS 过)) (, ，) (VP (ADVP (RB 也)) (ADVP (RB 将)) (VP (VV 有) (NP (QP (CD 很多)) (IP (VP (VP (NN 磕) (VV 磕)) (VP (VV 碰碰))))))))) (, ，) (IP (VP (VV 包括) (NP (DNP (NP (NP (NN 贸易) (EC 、) (NN 经济) (EC 、) (NN 人权) (NN 等)) (NP (NN 领域))) (DEC 的)) (NP (NN 冲突))))) (, ，) (IP (ADVP (RB 但)) (VP (VV 没有) (IP (NP (QP (CD 一) (CLP (NNB 个))) (PP (IN 比) (NP (NNP 台湾))) (DP (DT 这) (CLP (NNB 个))) (NP (NN 问题))) (VP (VP (ADVP (RB 更为)) (VP (JJ 重要))) (EC 、) (VP (ADVP (RB 更为)) (VP (JJ 紧迫)))))) (UH 了)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP70913': {}, ',55333': {}, 'IP59163': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'LCP': {}, 'VP': {}}, ',': {}, 'IP53595': {'VP': {}}, ',53571': {}, 'IP63239': {'ADVP': {}, 'VP': {}, 'UH': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'LCP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'VP': {}, 'UH': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'LCP': {}, 'VP': {}}}
 {'IP': {'VP': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'VP': {}, 'UH': {}}}
+Dependency Features:
+['ADV', 'VERB', 'advmod']	['当然', '有', 'advmod']
+['PUNCT', 'ADV', 'punct']	['，', '当然', 'punct']
+['PROPN', 'PROPN', 'nmod']	['中', '美', 'nmod']
+['PROPN', 'VERB', 'nsubj']	['美', '有', 'nsubj']
+['ADP', 'PROPN', 'case']	['之间', '美', 'case']
+['VERB', 'VERB', 'advcl']	['有', '有', 'advcl']
+['AUX', 'VERB', 'aux']	['过', '有', 'aux']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['ADV', 'VERB', 'mark']	['也', '有', 'mark']
+['ADV', 'VERB', 'advmod']	['将', '有', 'advmod']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['NUM', 'NOUN', 'nummod']	['很多', '磕', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['磕', '碰碰', 'nsubj']
+['VERB', 'VERB', 'advcl']	['磕', '碰碰', 'advcl']
+['VERB', 'VERB', 'advcl']	['碰碰', '包括', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '碰碰', 'punct']
+['VERB', 'NOUN', 'acl:relcl']	['包括', '冲突', 'acl:relcl']
+['NOUN', 'VERB', 'obj']	['贸易', '包括', 'obj']
+['PUNCT', 'NOUN', 'punct']	['、', '经济', 'punct']
+['NOUN', 'NOUN', 'conj']	['经济', '贸易', 'conj']
+['PUNCT', 'NOUN', 'punct']	['、', '人权', 'punct']
+['NOUN', 'NOUN', 'conj']	['人权', '贸易', 'conj']
+['NOUN', 'NOUN', 'acl']	['等', '贸易', 'acl']
+['NOUN', 'NOUN', 'appos']	['领域', '贸易', 'appos']
+['PART', 'VERB', 'mark:rel']	['的', '包括', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['冲突', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['ADV', 'VERB', 'mark']	['但', '有', 'mark']
+['VERB', 'VERB', 'parataxis']	['有', '有', 'parataxis']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'ADJ', 'obl']	['个', '重要', 'obl']
+['ADP', 'PROPN', 'case']	['比', '台湾', 'case']
+['PROPN', 'ADJ', 'nmod']	['台湾', '重要', 'nmod']
+['DET', 'NOUN', 'det']	['这', '个', 'det']
+['NOUN', 'NOUN', 'clf']	['个', '问题', 'clf']
+['NOUN', 'PROPN', 'appos']	['问题', '台湾', 'appos']
+['ADV', 'ADJ', 'advmod']	['更为', '重要', 'advmod']
+['ADJ', 'VERB', 'ccomp']	['重要', '有', 'ccomp']
+['PUNCT', 'ADJ', 'punct']	['、', '紧迫', 'punct']
+['ADV', 'ADJ', 'advmod']	['更为', '紧迫', 'advmod']
+['ADJ', 'ADJ', 'conj']	['紧迫', '重要', 'conj']
+['PART', 'VERB', 'discourse']	['了', '有', 'discourse']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
 ----------------------------------------------------------------------
-在亚洲大部分地区，婚姻非常普遍，非婚生孩子几乎是不存在的。
+如果美国不支持北京所说的“分裂主义”活动，反而支持台湾问题的和平解决，那么就不会再有与中国的重大战略问题。
 
-(ROOT (IP (IP (PP (IN 在) (NP (NP (NNP 亚洲)) (ADJP (PFA 大)) (QP (NN 部分)) (NP (NN 地区)))) (, ，) (NP (NN 婚姻)) (VP (ADVP (RB 非常)) (VP (JJ 普遍)))) (, ，) (IP (NP (ADJP (ADVP (VC 非)) (ADJP (NN 婚生))) (NP (NN 孩子))) (VP (ADVP (RB 几乎)) (VP (VC 是) (NP (CP (CP (IP (VP (ADVP (RB 不)) (VP (VV 存在)))) (UH 的))))))) (. 。)))
+(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (NNP 美国)) (VP (VP (ADVP (RB 不)) (VP (VV 支持) (NP (CP (CP (IP (NP (NNP 北京)) (VP (RB 所) (VP (VV 说)))) (DEC 的))) (NP (`` “) (NN 分裂) (NN 主义) ('' ”)) (NP (NN 活动))))) (, ，) (VP (ADVP (VV 反)) (ADVP (RB 而)) (VP (VV 支持) (NP (DNP (NP (NP (NNP 台湾)) (NP (NN 问题))) (DEC 的)) (NP (NN 和平) (NN 解决)))))))) (, ，) (ADVP (RB 那么)) (VP (ADVP (RB 就)) (VP (MD 不会) (VP (ADVP (RB 再)) (VP (VV 有) (NP (DNP (PP (IN 与) (NP (NNP 中国))) (DEC 的)) (ADJP (JJ 重大)) (NP (NN 战略) (NN 问题))))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['如果', '支持', 'case']
+['PROPN', 'VERB', 'nsubj']	['美国', '支持', 'nsubj']
+['ADV', 'VERB', 'advmod']	['不', '支持', 'advmod']
+['VERB', 'VERB', 'ccomp']	['支持', '支持', 'ccomp']
+['PROPN', 'VERB', 'nsubj']	['北京', '说', 'nsubj']
+['ADV', 'VERB', 'mark']	['所', '说', 'mark']
+['VERB', 'NOUN', 'acl:relcl']	['说', '主义', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '说', 'mark:rel']
+['PUNCT', 'NOUN', 'punct']	['“', '主义', 'punct']
+['NOUN', 'NOUN', 'nmod']	['分裂', '主义', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['主义', '活动', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['”', '主义', 'punct']
+['NOUN', 'VERB', 'obj']	['活动', '支持', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '支持', 'punct']
+['VERB', 'VERB', 'advcl']	['反', '支持', 'advcl']
+['ADV', 'VERB', 'mark']	['而', '支持', 'mark']
+['VERB', 'VERB', 'advcl']	['支持', '有', 'advcl']
+['PROPN', 'NOUN', 'nmod']	['台湾', '问题', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['问题', '解决', 'nmod']
+['PART', 'NOUN', 'case']	['的', '问题', 'case']
+['NOUN', 'NOUN', 'nmod']	['和平', '解决', 'nmod']
+['NOUN', 'VERB', 'obj']	['解决', '支持', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '支持', 'punct']
+['ADV', 'VERB', 'advmod']	['那么', '有', 'advmod']
+['ADV', 'VERB', 'mark']	['就', '有', 'mark']
+['AUX', 'VERB', 'aux']	['会', '有', 'aux']
+['ADV', 'VERB', 'advmod']	['再', '有', 'advmod']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['ADP', 'NOUN', 'case']	['与', '问题', 'case']
+['PROPN', 'NOUN', 'nmod']	['中国', '问题', 'nmod']
+['PART', 'NOUN', 'case']	['的', '问题', 'case']
+['ADJ', 'NOUN', 'amod']	['重大', '问题', 'amod']
+['NOUN', 'NOUN', 'nmod']	['战略', '问题', 'nmod']
+['NOUN', 'VERB', 'obj']	['问题', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+相反，中国会感谢美国在与台湾和平解决问题方面发挥的作用。
+
+(ROOT (IP (ADVP (VV 相反)) (, ，) (NP (NNP 中国)) (VP (MD 会) (VP (VV 感谢) (NP (CP (CP (IP (NP (NNP 美国)) (VP (PP (IN 在) (NP (IP (VP (PP (IN 与) (NP (NNP 台湾))) (ADVP (RB 和平)) (VP (VV 解决) (NP (NN 问题))))) (NP (NN 方面)))) (VP (VV 发挥)))) (DEC 的))) (NP (NN 作用))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'VV': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'VV': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'VV': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['相反', '感谢', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '相反', 'punct']
+['PROPN', 'VERB', 'nsubj']	['中国', '感谢', 'nsubj']
+['AUX', 'VERB', 'aux']	['会', '感谢', 'aux']
+['VERB', 'ROOT', 'root']	['感谢', 'NONE', 'root']
+['PROPN', 'VERB', 'nsubj']	['美国', '发挥', 'nsubj']
+['ADP', 'PROPN', 'case']	['在', '台湾', 'case']
+['ADP', 'PROPN', 'case']	['与', '台湾', 'case']
+['PROPN', 'VERB', 'obl']	['台湾', '解决', 'obl']
+['ADV', 'VERB', 'advmod']	['和平', '解决', 'advmod']
+['VERB', 'VERB', 'xcomp']	['解决', '发挥', 'xcomp']
+['NOUN', 'NOUN', 'nmod']	['问题', '方面', 'nmod']
+['NOUN', 'VERB', 'obl']	['方面', '发挥', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['发挥', '作用', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '发挥', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['作用', '感谢', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '感谢', 'punct']
+----------------------------------------------------------------------
+解决台湾问题的方案还不够成熟，还有许多细节要解决。
+
+(ROOT (IP (IP (NP (CP (CP (IP (VP (VV 解决) (NP (NP (NNP 台湾)) (NP (NN 问题))))) (DEC 的))) (NP (NN 方案))) (VP (ADVP (RB 还)) (ADVP (RB 不够)) (VP (JJ 成熟)))) (, ，) (IP (VP (ADVP (RB 还)) (VP (VV 有) (IP (NP (QP (CD 许多)) (NP (NN 细节))) (VP (MD 要) (VP (VV 解决))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP25431': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP43988': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+['VERB', 'NOUN', 'acl:relcl']	['解决', '方案', 'acl:relcl']
+['PROPN', 'NOUN', 'nmod']	['台湾', '问题', 'nmod']
+['NOUN', 'VERB', 'obj']	['问题', '解决', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '解决', 'mark:rel']
+['NOUN', 'ADJ', 'nsubj']	['方案', '成熟', 'nsubj']
+['ADV', 'ADJ', 'mark']	['还', '成熟', 'mark']
+['ADV', 'ADJ', 'advmod']	['不够', '成熟', 'advmod']
+['ADJ', 'ROOT', 'root']	['成熟', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['ADV', 'VERB', 'mark']	['还', '有', 'mark']
+['VERB', 'ADJ', 'parataxis']	['有', '成熟', 'parataxis']
+['NUM', 'NOUN', 'nummod']	['许多', '细节', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['细节', '解决', 'nsubj']
+['AUX', 'VERB', 'aux']	['要', '解决', 'aux']
+['VERB', 'VERB', 'ccomp']	['解决', '有', 'ccomp']
+['PUNCT', 'ADJ', 'punct']	['。', '成熟', 'punct']
+----------------------------------------------------------------------
+然而，近几个月，马英九执政后，迈出了许多坚实的步伐。
+
+(ROOT (IP (ADVP (RB 然而)) (, ，) (NP (QP (ADVP (RB 近)) (QP (CD 几) (CLP (NNB 个)))) (NP (NN 月))) (, ，) (NP (NNP 马) (NNP 英九)) (VP (LCP (IP (VP (VV 执政))) (IN 后)) (, ，) (VP (VV 迈出) (AS 了) (NP (QP (CD 许多)) (CP (CP (IP (VP (JJ 坚实))) (DEC 的))) (NP (NN 步伐))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, ',72283': {}, 'NP31353': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, ',32905': {}, 'NP41249': {'NNP': {}, 'NNP74629': {}}, 'VP': {'LCP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}, 'NNP': {}}, 'VP': {'LCP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'NP': {'NNP': {}, 'NNP': {}}}
+{'VP': {'LCP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['然而', '迈出', 'mark']
+['PUNCT', 'ADV', 'punct']	['，', '然而', 'punct']
+['ADV', 'NOUN', 'advmod']	['近', '个', 'advmod']
+['NUM', 'NOUN', 'nummod']	['几', '个', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['个', '月', 'nmod']
+['NOUN', 'VERB', 'nmod:tmod']	['月', '迈出', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '月', 'punct']
+['PROPN', 'VERB', 'nsubj']	['马', '执政', 'nsubj']
+['PROPN', 'PROPN', 'flat:name']	['英九', '马', 'flat:name']
+['VERB', 'VERB', 'advcl']	['执政', '迈出', 'advcl']
+['ADP', 'VERB', 'mark']	['后', '执政', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '执政', 'punct']
+['VERB', 'ROOT', 'root']	['迈出', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '迈出', 'aux']
+['NUM', 'NOUN', 'nummod']	['许多', '步伐', 'nummod']
+['ADJ', 'NOUN', 'amod']	['坚实', '步伐', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '坚实', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['步伐', '迈出', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '迈出', 'punct']
+----------------------------------------------------------------------
+这么多次，甚至原本的亲独的民进党也直接与北京接触，标志着民进党与大陆的敌对关系结束。
+
+(ROOT (IP (IP (QP (ADVP (RB 这么)) (ADJP (CD 多) (CLP (NNB 次)))) (, ，) (ADVP (RB 甚至)) (NP (DNP (ADJP (RB 原本)) (DEC 的)) (CP (CP (IP (VP (JJ 亲独))) (DEC 的))) (NP (NNP 民进) (SFN 党))) (VP (ADVP (RB 也)) (ADVP (RB 直接)) (PP (IN 与) (NP (NNP 北京))) (VP (VV 接触)))) (, ，) (IP (VP (VV 标志) (AS 着) (IP (NP (DNP (NP (NP (NNP 民进) (SFN 党)) (CC 与) (NP (NN 大陆))) (DEC 的)) (ADJP (NN 敌对)) (NP (NN 关系))) (VP (VV 结束))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP76018': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'QP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP72202': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'QP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'QP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+['ADV', 'NOUN', 'advmod']	['这么', '次', 'advmod']
+['NUM', 'NOUN', 'nummod']	['多', '次', 'nummod']
+['NOUN', 'VERB', 'obl']	['次', '标志', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '次', 'punct']
+['ADV', 'VERB', 'mark']	['甚至', '接触', 'mark']
+['ADV', 'ADJ', 'advmod']	['原本', '亲独', 'advmod']
+['PART', 'ADV', 'mark:rel']	['的', '原本', 'mark:rel']
+['ADJ', 'PART', 'amod']	['亲独', '党', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '亲独', 'mark:rel']
+['PROPN', 'PART', 'compound']	['民进', '党', 'compound']
+['PART', 'VERB', 'nsubj']	['党', '接触', 'nsubj']
+['ADV', 'VERB', 'mark']	['也', '接触', 'mark']
+['ADV', 'VERB', 'advmod']	['直接', '接触', 'advmod']
+['ADP', 'PROPN', 'case']	['与', '北京', 'case']
+['PROPN', 'VERB', 'obl']	['北京', '接触', 'obl']
+['VERB', 'VERB', 'advcl']	['接触', '标志', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '接触', 'punct']
+['VERB', 'ROOT', 'root']	['标志', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['着', '标志', 'aux']
+['PROPN', 'PART', 'compound']	['民进', '党', 'compound']
+['PART', 'NOUN', 'nmod']	['党', '关系', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['与', '大陆', 'cc']
+['NOUN', 'PART', 'conj']	['大陆', '党', 'conj']
+['PART', 'PART', 'case']	['的', '党', 'case']
+['NOUN', 'NOUN', 'nmod']	['敌对', '关系', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['关系', '结束', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['结束', '标志', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '标志', 'punct']
+----------------------------------------------------------------------
+在华盛顿，与中国的首轮对话取得了成功。
+
+(ROOT (IP (PP (VV 在) (NP (NNP 华盛顿))) (, ，) (NP (DNP (PP (IN 与) (NP (NNP 中国))) (DEC 的)) (NP (NN 首轮) (NN 对话))) (VP (VV 取得) (AS 了) (NP (NN 成功))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'NP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['在', '取得', 'advcl']
+['PROPN', 'VERB', 'obj']	['华盛顿', '在', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '在', 'punct']
+['ADP', 'NOUN', 'case']	['与', '对话', 'case']
+['PROPN', 'NOUN', 'nmod']	['中国', '对话', 'nmod']
+['PART', 'PROPN', 'case']	['的', '中国', 'case']
+['NOUN', 'NOUN', 'nmod']	['首轮', '对话', 'nmod']
+['NOUN', 'VERB', 'obl']	['对话', '取得', 'obl']
+['VERB', 'ROOT', 'root']	['取得', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '取得', 'aux']
+['NOUN', 'VERB', 'obj']	['成功', '取得', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '取得', 'punct']
+----------------------------------------------------------------------
+双方一致认为，经贸对话取得积极成果，但在具体双边贸易和经济问题上进展有限。
+
+(ROOT (IP (NP (QP (CD 双)) (NP (NN 方))) (VP (ADVP (RB 一致)) (VP (VV 认为) (, ，) (IP (IP (NP (NN 经贸) (NN 对话)) (VP (VV 取得) (NP (ADJP (JJ 积极)) (NP (NN 成果))))) (, ，) (IP (ADVP (RB 但)) (PP (IN 在) (LCP (NP (ADJP (JJ 具体)) (QP (CD 双) (CLP (NN 边))) (NP (NN 贸易) (CC 和) (NN 经济)) (NP (NN 问题))) (IN 上))) (NP (VV 进展)) (VP (JJ 有限)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['NUM', 'NOUN', 'nummod']	['双', '方', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['方', '为', 'nsubj']
+['ADV', 'VERB', 'advmod']	['一致', '为', 'advmod']
+['VERB', 'ROOT', 'root']	['为', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '取得', 'punct']
+['NOUN', 'NOUN', 'nmod']	['经贸', '对话', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['对话', '取得', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['取得', '为', 'ccomp']
+['ADJ', 'NOUN', 'amod']	['积极', '成果', 'amod']
+['NOUN', 'VERB', 'obj']	['成果', '取得', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '进展', 'punct']
+['ADV', 'VERB', 'mark']	['但', '进展', 'mark']
+['ADP', 'NOUN', 'case']	['在', '贸易', 'case']
+['ADJ', 'NOUN', 'amod']	['具体', '贸易', 'amod']
+['NUM', 'NOUN', 'nummod']	['双', '边', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['边', '贸易', 'nmod']
+['NOUN', 'ADJ', 'nmod']	['贸易', '有限', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['和', '问题', 'cc']
+['NOUN', 'NOUN', 'nmod']	['经济', '问题', 'nmod']
+['NOUN', 'NOUN', 'conj']	['问题', '贸易', 'conj']
+['ADP', 'NOUN', 'case']	['上', '贸易', 'case']
+['VERB', 'VERB', 'ccomp']	['进展', '为', 'ccomp']
+['ADJ', 'VERB', 'xcomp']	['有限', '进展', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '为', 'punct']
+----------------------------------------------------------------------
+最重要的是，美国总统奥巴马赞扬这一对话的开始，称这是本世纪和平与发展的重要框架。
+
+(ROOT (IP (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 重要)))) (DEC 的)))) (VP (VC 是) (, ，) (IP (NP (NP (NP (NNP 美国)) (NP (NN 总统))) (NP (NNP 奥巴马))) (VP (VP (VV 赞扬) (NP (DNP (NP (DP (DT 这) (QP (CD 一))) (NP (NN 对话))) (DEC 的)) (NP (NN 开始)))) (, ，) (VP (VV 称) (IP (NP (PRD 这)) (VP (VC 是) (NP (DNP (NP (NP (DP (DT 本)) (NP (NNB 世纪))) (NP (NN 和平) (CC 与) (VV 发展))) (DEC 的)) (ADJP (JJ 重要)) (NP (NN 框架))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['ADV', 'ADJ', 'advmod']	['最', '重要', 'advmod']
+['ADJ', 'VERB', 'csubj']	['重要', '是', 'csubj']
+['PART', 'ADJ', 'mark:rel']	['的', '重要', 'mark:rel']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '称', 'punct']
+['PROPN', 'NOUN', 'nmod']	['美国', '总统', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['总统', '赞扬', 'nsubj']
+['PROPN', 'NOUN', 'appos']	['奥巴马', '总统', 'appos']
+['VERB', 'VERB', 'advcl']	['赞扬', '称', 'advcl']
+['DET', 'NOUN', 'det']	['这', '对话', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '对话', 'nummod']
+['NOUN', 'VERB', 'obj']	['对话', '赞扬', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '赞扬', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['开始', '赞扬', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '赞扬', 'punct']
+['VERB', 'VERB', 'xcomp']	['称', '是', 'xcomp']
+['PRON', 'NOUN', 'nsubj']	['这', '框架', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '框架', 'cop']
+['DET', 'NOUN', 'det']	['本', '世纪', 'det']
+['NOUN', 'NOUN', 'clf']	['世纪', '和平', 'clf']
+['NOUN', 'NOUN', 'nmod']	['和平', '框架', 'nmod']
+['CCONJ', 'VERB', 'cc']	['与', '发展', 'cc']
+['VERB', 'NOUN', 'conj']	['发展', '和平', 'conj']
+['PART', 'NOUN', 'case']	['的', '和平', 'case']
+['ADJ', 'NOUN', 'amod']	['重要', '框架', 'amod']
+['NOUN', 'VERB', 'ccomp']	['框架', '称', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+事实上，作为美国最大债权国，中国几乎拥有 2.2 万亿美元的储备，在绿色美元命运中，中国在外国中拥有最大话语权。
+
+(ROOT (IP (IP (LCP (NP (NN 事实)) (IN 上)) (, ，) (PP (VV 作) (PP (VC 为) (NP (NP (NNP 美国)) (ADJP (JJ 最大)) (NP (NN 债权) (SFN 国))))) (, ，) (NP (NNP 中国)) (VP (ADVP (RB 几乎)) (VP (VV 拥有) (NP (DNP (QP (QP (CD 2.2)) (QP (CD 万亿) (CLP (NNP 美) (CLP (NNB 元))))) (DEC 的)) (NP (NN 储备)))))) (, ，) (IP (PP (IN 在) (LCP (NP (ADJP (NN 绿色)) (NP (NNP 美) (SFN 元)) (NP (NN 命运))) (IN 中))) (, ，) (NP (NNP 中国)) (VP (PP (IN 在) (LCP (NP (NN 外国)) (IN 中))) (VP (VV 拥有) (NP (ADJP (JJ 最大)) (NP (NN 话语) (SFN 权)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP18846': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, ',': {}, 'PP': {}, ',13244': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP2014': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'LCP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'obl']	['事实', '作', 'obl']
+['ADP', 'NOUN', 'case']	['上', '事实', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '事实', 'punct']
+['VERB', 'ROOT', 'root']	['作', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['为', '作', 'mark']
+['PROPN', 'PART', 'nmod']	['美国', '国', 'nmod']
+['ADJ', 'PART', 'amod']	['最大', '国', 'amod']
+['NOUN', 'PART', 'compound']	['债权', '国', 'compound']
+['PART', 'VERB', 'obj']	['国', '作', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '拥有', 'punct']
+['PROPN', 'VERB', 'nsubj']	['中国', '拥有', 'nsubj']
+['ADV', 'VERB', 'advmod']	['几乎', '拥有', 'advmod']
+['VERB', 'VERB', 'parataxis']	['拥有', '作', 'parataxis']
+['NUM', 'NOUN', 'nummod']	['2.2', '元', 'nummod']
+['NUM', 'NOUN', 'nummod']	['万亿', '元', 'nummod']
+['PROPN', 'NOUN', 'nmod']	['美', '元', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['元', '储备', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '元', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['储备', '拥有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '拥有', 'punct']
+['ADP', 'NOUN', 'case']	['在', '命运', 'case']
+['NOUN', 'NOUN', 'nmod']	['绿色', '命运', 'nmod']
+['PROPN', 'PART', 'compound']	['美', '元', 'compound']
+['PART', 'NOUN', 'nmod']	['元', '命运', 'nmod']
+['NOUN', 'VERB', 'obl']	['命运', '拥有', 'obl']
+['ADP', 'NOUN', 'case']	['中', '命运', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '命运', 'punct']
+['PROPN', 'VERB', 'nsubj']	['中国', '拥有', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '外国', 'case']
+['NOUN', 'VERB', 'obl']	['外国', '拥有', 'obl']
+['ADP', 'NOUN', 'case']	['中', '外国', 'case']
+['VERB', 'VERB', 'parataxis']	['拥有', '作', 'parataxis']
+['ADJ', 'PART', 'amod']	['最大', '权', 'amod']
+['NOUN', 'PART', 'compound']	['话语', '权', 'compound']
+['PART', 'VERB', 'obj']	['权', '拥有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '作', 'punct']
+----------------------------------------------------------------------
+在美国，许多经济学家认为美元贬值可以改善银行和信贷机构的整体状况，并有助于该国走出当前的金融危机。
+
+(ROOT (IP (PP (VV 在) (NP (NNP 美国))) (, ，) (NP (QP (CD 许多)) (NP (NN 经济) (SFN 学) (SFN 家))) (VP (VV 认为) (IP (IP (NP (NNP 美) (SFN 元)) (VP (VV 贬值))) (VP (VP (MD 可以) (VP (VV 改善) (NP (DNP (NP (NP (NN 银行) (CC 和) (NN 信贷)) (NP (NN 机构))) (DEC 的)) (NP (JJ 整体) (NN 状况))))) (, ，) (RB 并) (VP (VV 有助) (PP (VV 于) (IP (NP (NN 该国)) (VP (VV 走出) (NP (DNP (NP (NN 当前)) (DEC 的)) (NP (NN 金融) (NN 危机)))))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'NP': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['在', '为', 'advcl']
+['PROPN', 'VERB', 'obj']	['美国', '在', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '在', 'punct']
+['NUM', 'PART', 'nummod']	['许多', '家', 'nummod']
+['NOUN', 'PART', 'compound']	['经济', '学', 'compound']
+['PART', 'PART', 'compound']	['学', '家', 'compound']
+['PART', 'VERB', 'nsubj']	['家', '有助', 'nsubj']
+['VERB', 'VERB', 'advcl']	['为', '有助', 'advcl']
+['PROPN', 'PART', 'compound']	['美', '元', 'compound']
+['PART', 'VERB', 'nsubj']	['元', '贬值', 'nsubj']
+['VERB', 'VERB', 'advcl']	['贬值', '改善', 'advcl']
+['AUX', 'VERB', 'aux']	['可以', '改善', 'aux']
+['VERB', 'VERB', 'ccomp']	['改善', '为', 'ccomp']
+['NOUN', 'NOUN', 'nmod']	['银行', '状况', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['和', '机构', 'cc']
+['NOUN', 'NOUN', 'nmod']	['信贷', '机构', 'nmod']
+['NOUN', 'NOUN', 'conj']	['机构', '银行', 'conj']
+['PART', 'NOUN', 'case']	['的', '银行', 'case']
+['ADJ', 'NOUN', 'amod']	['整体', '状况', 'amod']
+['NOUN', 'VERB', 'obj']	['状况', '改善', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '为', 'punct']
+['ADV', 'VERB', 'mark']	['并', '有助', 'mark']
+['VERB', 'ROOT', 'root']	['有助', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['于', '有助', 'mark']
+['NOUN', 'VERB', 'nsubj']	['该国', '走出', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['走出', '有助', 'ccomp']
+['NOUN', 'NOUN', 'nmod']	['当前', '危机', 'nmod']
+['PART', 'NOUN', 'case']	['的', '当前', 'case']
+['NOUN', 'NOUN', 'nmod']	['金融', '危机', 'nmod']
+['NOUN', 'VERB', 'obj']	['危机', '走出', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有助', 'punct']
+----------------------------------------------------------------------
+中国害怕美元可能贬值，这将导致其以美元计价的资产贬值。
+
+(ROOT (IP (IP (NP (NNP 中国)) (VP (VV 害怕) (IP (NP (NNP 美) (SFN 元)) (VP (MD 可能) (VP (VV 贬值)))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 将)) (VP (VV 导致) (IP (NP (CP (CP (IP (VP (DP (PRP 其以) (NP (NP (NNP 美)) (NP (SFN 元)))) (VP (VV 计价)))) (DEC 的))) (NP (NN 资产))) (VP (VV 贬值)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP93671': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP8454': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['中国', '害怕', 'nsubj']
+['VERB', 'ROOT', 'root']	['害怕', 'NONE', 'root']
+['PROPN', 'PART', 'compound']	['美', '元', 'compound']
+['PART', 'VERB', 'nsubj']	['元', '贬值', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '贬值', 'aux']
+['VERB', 'VERB', 'ccomp']	['贬值', '害怕', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '导致', 'punct']
+['PRON', 'VERB', 'nsubj']	['这', '导致', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '导致', 'advmod']
+['VERB', 'VERB', 'parataxis']	['导致', '害怕', 'parataxis']
+['PRON', 'PART', 'nmod']	['其以', '元', 'nmod']
+['PROPN', 'PART', 'compound']	['美', '元', 'compound']
+['PART', 'VERB', 'nsubj']	['元', '计价', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['计价', '资产', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '计价', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['资产', '贬值', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['贬值', '导致', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '害怕', 'punct']
+----------------------------------------------------------------------
+然而，即使这可能是引发冲突的主要原因，也可以避免。
+
+(ROOT (IP (ADVP (RB 然而)) (, ，) (CP (ADVP (IN 即使)) (IP (NP (PRD 这)) (VP (MD 可能) (VP (VC 是) (NP (CP (CP (VP (VP (VV 引发) (NP (NN 冲突)))) (DEC 的))) (ADJP (JJ 主要)) (NP (NN 原因))))))) (, ，) (VP (ADVP (RB 也)) (VP (MD 可以) (VP (VV 避免)))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'CP': {}, ',6595': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'CP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'CP': {'ADVP': {}, 'IP': {}}, ',89079': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['然而', '避免', 'mark']
+['PUNCT', 'ADV', 'punct']	['，', '然而', 'punct']
+['ADP', 'NOUN', 'case']	['即使', '原因', 'case']
+['PRON', 'NOUN', 'nsubj']	['这', '原因', 'nsubj']
+['AUX', 'NOUN', 'aux']	['可能', '原因', 'aux']
+['AUX', 'NOUN', 'cop']	['是', '原因', 'cop']
+['VERB', 'NOUN', 'acl:relcl']	['引发', '原因', 'acl:relcl']
+['NOUN', 'VERB', 'obj']	['冲突', '引发', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '引发', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['主要', '原因', 'amod']
+['NOUN', 'VERB', 'ccomp']	['原因', '避免', 'ccomp']
+['PUNCT', 'NOUN', 'punct']	['，', '原因', 'punct']
+['ADV', 'VERB', 'mark']	['也', '避免', 'mark']
+['AUX', 'VERB', 'aux']	['可以', '避免', 'aux']
+['VERB', 'ROOT', 'root']	['避免', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['。', '避免', 'punct']
+----------------------------------------------------------------------
+在几乎破产的加利福尼亚，共和党参议院候选人 Bill Mundell 表示，如果该州将公共资产私有化，以补充财政，美元贬值的可能性就会受到限制。
+
+(ROOT (IP (PP (IN 在) (NP (CP (CP (IP (VP (ADVP (RB 几乎)) (VP (VV 破产)))) (DEC 的))) (NP (NNP 加利福尼亚)))) (, ，) (NP (NP (NP (NP (NN 共和) (SFN 党)) (NP (VV 参议) (SFN 院))) (NP (VV 候选) (SFN 人))) (NP (FW Bill) (FW Mundell))) (VP (VV 表示) (, ，) (IP (CP (ADVP (IN 如果)) (IP (NP (NNP 该州)) (VP (VP (BB 将) (IP (NP (ADJP (JJ 公共)) (NP (NN 资产))) (VP (VSB (JJ 私有) (SFV 化))))) (, ，) (VP (RB 以) (VP (VV 补充) (NP (NN 财政))))))) (, ，) (NP (CP (IP (NP (NNP 美) (SFN 元)) (VP (VV 贬值))) (DEC 的)) (NP (NN 可能) (SFN 性))) (VP (ADVP (RB 就)) (VP (MD 会) (VP (VV 受到) (NP (NN 限制))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NP': {}, 'NP28986': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['ADP', 'PROPN', 'case']	['在', '加利福尼亚', 'case']
+['ADV', 'VERB', 'advmod']	['几乎', '破产', 'advmod']
+['VERB', 'PROPN', 'acl:relcl']	['破产', '加利福尼亚', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '破产', 'mark:rel']
+['PROPN', 'VERB', 'obl']	['加利福尼亚', '表示', 'obl']
+['PUNCT', 'PROPN', 'punct']	['，', '加利福尼亚', 'punct']
+['NOUN', 'PART', 'compound']	['共和', '党', 'compound']
+['PART', 'PART', 'nmod']	['党', '人', 'nmod']
+['VERB', 'PART', 'compound']	['参议', '院', 'compound']
+['PART', 'PART', 'nmod']	['院', '人', 'nmod']
+['VERB', 'PART', 'compound']	['候选', '人', 'compound']
+['PART', 'VERB', 'nsubj']	['人', '表示', 'nsubj']
+['X', 'PART', 'appos']	['Bill', '人', 'appos']
+['X', 'X', 'flat:foreign']	['Mundell', 'Bill', 'flat:foreign']
+['VERB', 'ROOT', 'root']	['表示', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '受到', 'punct']
+['ADP', 'VERB', 'case']	['如果', '补充', 'case']
+['PROPN', 'PART', 'nsubj']	['该州', '化', 'nsubj']
+['ADP', 'NOUN', 'case']	['将', '资产', 'case']
+['ADJ', 'NOUN', 'amod']	['公共', '资产', 'amod']
+['NOUN', 'PART', 'obl:patient']	['资产', '化', 'obl:patient']
+['ADJ', 'PART', 'compound']	['私有', '化', 'compound']
+['PART', 'VERB', 'advcl']	['化', '补充', 'advcl']
+['PUNCT', 'PART', 'punct']	['，', '化', 'punct']
+['ADV', 'VERB', 'mark']	['以', '补充', 'mark']
+['VERB', 'VERB', 'ccomp']	['补充', '受到', 'ccomp']
+['NOUN', 'VERB', 'obj']	['财政', '补充', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '补充', 'punct']
+['PROPN', 'PART', 'compound']	['美', '元', 'compound']
+['PART', 'VERB', 'nsubj']	['元', '贬值', 'nsubj']
+['VERB', 'PART', 'acl:relcl']	['贬值', '性', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '贬值', 'mark:rel']
+['NOUN', 'PART', 'compound']	['可能', '性', 'compound']
+['PART', 'VERB', 'nsubj']	['性', '受到', 'nsubj']
+['ADV', 'VERB', 'mark']	['就', '受到', 'mark']
+['AUX', 'VERB', 'aux']	['会', '受到', 'aux']
+['VERB', 'VERB', 'ccomp']	['受到', '表示', 'ccomp']
+['NOUN', 'VERB', 'obj']	['限制', '受到', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '表示', 'punct']
+----------------------------------------------------------------------
+根据蒙德尔的说法，这项计划可以在全国范围内推广，有助于扭转危机，这也是中国欢迎的，并可以使两国之间的关系更加紧密。
+
+(ROOT (IP (IP (PP (IN 根据) (NP (DNP (NP (NNP 蒙德尔)) (DEC 的)) (NP (NN 说法)))) (, ，) (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 计划))) (VP (VP (MD 可以) (VP (PP (IN 在) (LCP (NP (NN 全国) (NN 范围)) (IN 内))) (VP (VV 推广)))) (, ，) (VP (VV 有助) (PP (VV 于) (IP (VP (VV 扭转) (NP (NN 危机)))))))) (, ，) (IP (NP (PRD 这)) (VP (VP (VC 也是) (NP (CP (CP (IP (NP (NNP 中国)) (VP (VV 欢迎))) (UH 的))))) (, ，) (RB 并) (VP (MD 可以) (VP (VV 使) (NP (DNP (LCP (NP (QP (CD 两)) (NP (NN 国))) (IN 之间)) (DEC 的)) (NP (NN 关系))) (IP (VP (ADVP (RB 更加)) (VP (JJ 紧密)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP83295': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP40170': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['根据', '说法', 'case']
+['PROPN', 'NOUN', 'nmod']	['蒙德尔', '说法', 'nmod']
+['PART', 'PROPN', 'case']	['的', '蒙德尔', 'case']
+['NOUN', 'VERB', 'obl']	['说法', '有助', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '说法', 'punct']
+['DET', 'NOUN', 'det']	['这', '项', 'det']
+['NOUN', 'NOUN', 'clf']	['项', '计划', 'clf']
+['NOUN', 'VERB', 'nsubj']	['计划', '有助', 'nsubj']
+['AUX', 'VERB', 'aux']	['可以', '推广', 'aux']
+['ADP', 'NOUN', 'case']	['在', '范围', 'case']
+['NOUN', 'NOUN', 'nmod']	['全国', '范围', 'nmod']
+['NOUN', 'VERB', 'obl']	['范围', '推广', 'obl']
+['ADP', 'NOUN', 'case']	['内', '范围', 'case']
+['VERB', 'VERB', 'advcl']	['推广', '有助', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '推广', 'punct']
+['VERB', 'ROOT', 'root']	['有助', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['于', '有助', 'mark']
+['VERB', 'VERB', 'xcomp']	['扭转', '有助', 'xcomp']
+['NOUN', 'VERB', 'obj']	['危机', '扭转', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['PRON', 'VERB', 'nsubj']	['这', '是', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['是', '有助', 'parataxis']
+['PROPN', 'VERB', 'nsubj']	['中国', '欢迎', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['欢迎', '是', 'ccomp']
+['PART', 'VERB', 'discourse']	['的', '是', 'discourse']
+['PUNCT', 'ADJ', 'punct']	['，', '紧密', 'punct']
+['ADV', 'VERB', 'mark']	['并', '使', 'mark']
+['AUX', 'VERB', 'aux']	['可以', '使', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['使', '关系', 'acl:relcl']
+['NUM', 'NOUN', 'nummod']	['两', '国', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['国', '关系', 'nmod']
+['ADP', 'NOUN', 'case']	['之间', '国', 'case']
+['PART', 'VERB', 'mark:rel']	['的', '使', 'mark:rel']
+['NOUN', 'ADJ', 'nsubj']	['关系', '紧密', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['更加', '紧密', 'advmod']
+['ADJ', 'VERB', 'ccomp']	['紧密', '是', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '有助', 'punct']
 ----------------------------------------------------------------------
-相比之下，一些西方国家的婚姻离婚率达到一半，所有孩子中有一半出生于婚外。
+无论如何，这是一场美中之间的对话，日本作为世界上第二大债权国，也将在其中发挥作用。
 
-(ROOT (IP (LCP (VP (VV 相比)) (IN 之下)) (, ，) (IP (IP (NP (DNP (NP (QP (JJ 一些)) (NP (NNP 西方) (NN 国家))) (DEC 的)) (NP (NN 婚姻) (VV 离婚) (SFN 率))) (VP (VV 达到) (QP (CD 一半)))) (, ，) (IP (LCP (NP (DP (DT 所有)) (NP (NN 孩子))) (IN 中)) (VP (VV 有) (IP (QP (CD 一半)) (VP (VV 出生) (PP (IN 于) (NP (NN 婚外)))))))) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'LCP': {'VP': {}, 'IN': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'LCP': {'VP': {}, 'IN': {}}}
+(ROOT (IP (IP (IP (VP (ADVP (IN 无论)) (VP (WP 如何)))) (, ，) (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 场))) (DNP (LCP (NP (NNP 美中)) (IN 之间)) (DEC 的)) (NP (NN 对话))))) (, ，) (IP (NP (NNP 日本)) (VP (PP (VV 作) (PP (VC 为) (NP (LCP (NP (NN 世界)) (IN 上)) (ADJP (QP (CD 第二)) (ADJP (JJ 大))) (NP (NN 债权) (SFN 国))))) (, ，) (ADVP (RB 也)) (ADVP (RB 将)) (PP (IN 在) (NP (NN 其中))) (VP (VV 发挥) (NP (NN 作用))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP19164': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP32794': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'PRON', 'case']	['无论', '如何', 'case']
+['PRON', 'NOUN', 'nmod']	['如何', '对话', 'nmod']
+['PUNCT', 'PRON', 'punct']	['，', '如何', 'punct']
+['PRON', 'NOUN', 'nsubj']	['这', '对话', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '对话', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '场', 'nummod']
+['NOUN', 'PROPN', 'clf']	['场', '美中', 'clf']
+['PROPN', 'NOUN', 'nmod']	['美中', '对话', 'nmod']
+['ADP', 'PROPN', 'case']	['之间', '美中', 'case']
+['PART', 'PROPN', 'case']	['的', '美中', 'case']
+['NOUN', 'ROOT', 'root']	['对话', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '发挥', 'punct']
+['PROPN', 'VERB', 'nsubj']	['日本', '发挥', 'nsubj']
+['VERB', 'VERB', 'advcl']	['作', '发挥', 'advcl']
+['VERB', 'VERB', 'mark']	['为', '作', 'mark']
+['NOUN', 'PART', 'nmod']	['世界', '国', 'nmod']
+['ADP', 'NOUN', 'case']	['上', '世界', 'case']
+['NUM', 'PART', 'nummod']	['第二', '国', 'nummod']
+['ADJ', 'PART', 'amod']	['大', '国', 'amod']
+['NOUN', 'PART', 'compound']	['债权', '国', 'compound']
+['PART', 'VERB', 'obj']	['国', '作', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '作', 'punct']
+['ADV', 'VERB', 'mark']	['也', '发挥', 'mark']
+['ADV', 'VERB', 'advmod']	['将', '发挥', 'advmod']
+['ADP', 'NOUN', 'case']	['在', '其中', 'case']
+['NOUN', 'VERB', 'obl']	['其中', '发挥', 'obl']
+['VERB', 'NOUN', 'parataxis']	['发挥', '对话', 'parataxis']
+['NOUN', 'VERB', 'obj']	['作用', '发挥', 'obj']
+['PUNCT', 'NOUN', 'punct']	['。', '对话', 'punct']
+----------------------------------------------------------------------
+欧洲因为没有大量持有美元，因此不在考虑范围之内。
+
+(ROOT (IP (NP (NNP 欧洲)) (VP (PP (IN 因为) (IP (VP (VV 没有) (VP (QP (JJ 大量)) (VP (VV 持有) (NP (NNP 美) (SFN 元))))))) (, ，) (ADVP (IN 因)) (ADVP (PRD 此)) (ADVP (RB 不)) (VP (VV 在) (LCP (NP (NN 考虑) (NN 范围)) (IN 之内)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, ',': {}, 'ADVP': {}, 'ADVP58879': {}, 'ADVP5594': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'PP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['欧洲', '在', 'nsubj']
+['ADP', 'VERB', 'case']	['因为', '有', 'case']
+['VERB', 'VERB', 'xcomp']	['有', '在', 'xcomp']
+['ADJ', 'PART', 'amod']	['大量', '元', 'amod']
+['VERB', 'VERB', 'xcomp']	['持有', '有', 'xcomp']
+['PROPN', 'PART', 'compound']	['美', '元', 'compound']
+['PART', 'VERB', 'obj']	['元', '持有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['ADP', 'PRON', 'case']	['因', '此', 'case']
+['PRON', 'VERB', 'obl']	['此', '在', 'obl']
+['ADV', 'VERB', 'advmod']	['不', '在', 'advmod']
+['VERB', 'ROOT', 'root']	['在', 'NONE', 'root']
+['NOUN', 'NOUN', 'nmod']	['考虑', '范围', 'nmod']
+['NOUN', 'VERB', 'obj']	['范围', '在', 'obj']
+['ADP', 'NOUN', 'case']	['之内', '范围', 'case']
+['PUNCT', 'VERB', 'punct']	['。', '在', 'punct']
+----------------------------------------------------------------------
+从战略上来看，中国对北朝鲜和伊朗有着影响力，这两个地方是全球政治的两大热点。
+
+(ROOT (IP (IP (VP (PP (IN 从) (LCP (NP (NN 战略)) (IN 上))) (VP (RB 来) (VP (VV 看))))) (, ，) (IP (IP (NP (NNP 中国)) (VP (PP (IN 对北) (NP (NNP 朝鲜) (CC 和) (NNP 伊朗))) (VP (VV 有) (AS 着) (NP (VV 影响) (SFN 力))))) (, ，) (IP (NP (DP (DT 这) (QP (CD 两) (CLP (NNB 个)))) (NP (NN 地方))) (VP (VC 是) (NP (DNP (NP (NN 全球) (NN 政治)) (DEC 的)) (QP (CD 两)) (NP (JJ 大热) (SFN 点)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP49297': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP1846': {'IP': {}, ',': {}, 'IP66971': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['从', '战略', 'case']
+['NOUN', 'VERB', 'obl']	['战略', '看', 'obl']
+['ADP', 'NOUN', 'case']	['上', '战略', 'case']
+['ADV', 'VERB', 'mark']	['来', '看', 'mark']
+['VERB', 'VERB', 'advcl']	['看', '有', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '看', 'punct']
+['PROPN', 'VERB', 'nsubj']	['中国', '有', 'nsubj']
+['ADP', 'PROPN', 'case']	['对北', '朝鲜', 'case']
+['PROPN', 'VERB', 'obl']	['朝鲜', '有', 'obl']
+['CCONJ', 'PROPN', 'cc']	['和', '伊朗', 'cc']
+['PROPN', 'PROPN', 'conj']	['伊朗', '朝鲜', 'conj']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['着', '有', 'aux']
+['VERB', 'PART', 'compound']	['影响', '力', 'compound']
+['PART', 'VERB', 'obj']	['力', '有', 'obj']
+['PUNCT', 'PART', 'punct']	['，', '点', 'punct']
+['DET', 'NOUN', 'det']	['这', '个', 'det']
+['NUM', 'NOUN', 'nummod']	['两', '个', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['个', '地方', 'nmod']
+['NOUN', 'PART', 'nsubj']	['地方', '点', 'nsubj']
+['AUX', 'PART', 'cop']	['是', '点', 'cop']
+['NOUN', 'NOUN', 'nmod']	['全球', '政治', 'nmod']
+['NOUN', 'PART', 'nmod']	['政治', '点', 'nmod']
+['PART', 'NOUN', 'case']	['的', '政治', 'case']
+['NUM', 'PART', 'nummod']	['两', '点', 'nummod']
+['ADJ', 'PART', 'compound']	['大热', '点', 'compound']
+['PART', 'VERB', 'parataxis']	['点', '有', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
 ----------------------------------------------------------------------
-许多人认为，英国最近的暴乱起源于缺乏父母的指导或孝道，这些暴乱似乎凸显了东西方之间的深刻差异。
+而中国对稳定邻国阿富汗也有着重大利益。
 
-(ROOT (IP (NP (QP (CD 许多)) (NP (NN 人))) (VP (VV 认为) (, ，) (IP (IP (NP (NP (NNP 英国)) (DNP (NP (NN 最近)) (DEC 的)) (NP (NN 暴乱))) (VP (VV 起源) (PP (VV 于) (NP (CP (CP (IP (VP (VV 缺乏) (NP (NN 父母)))) (DEC 的))) (NP (NN 指导) (CC 或) (NN 孝道)))))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 暴乱))) (VP (RB 似乎) (VP (VV 凸显) (AS 了) (NP (DNP (LCP (NP (NN 东西) (SFN 方)) (IN 之间)) (DEC 的)) (ADJP (JJ 深刻)) (NP (NN 差异)))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'QP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-然而，即使各地的传统不同，东亚、东南亚和南亚的婚姻也在迅速变化。
-
-(ROOT (IP (ADVP (RB 然而)) (, ，) (CP (ADVP (IN 即使)) (IP (NP (DNP (NP (NN 各地)) (DEC 的)) (NP (NN 传统))) (VP (JJ 不同)))) (, ，) (NP (DNP (NP (NNP 东亚) (EC 、) (NN 东南) (NNP 亚) (CC 和) (NNP 南亚)) (DEC 的)) (NP (NN 婚姻))) (VP (ADVP (RB 也)) (ADVP (RB 在)) (ADVP (RB 迅速)) (VP (VV 变化))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这些变化与 20 世纪下半叶西方发生的变化不同，尽管一些国家离婚率在上升，但是离婚仍然相对罕见。
-
-(ROOT (IP (IP (NP (DP (DT 这些)) (NP (NN 变化))) (VP (PP (IN 与) (NP (CP (CP (IP (NP (NP (QP (CD 20)) (NP (NNB 世纪))) (QP (NN 下半) (CLP (NNP 叶))) (NP (NNP 西方))) (VP (VV 发生))) (DEC 的))) (NP (NN 变化)))) (VP (JJ 不同)))) (, ，) (IP (CP (ADVP (IN 尽管)) (IP (NP (QP (JJ 一些)) (NP (NN 国家))) (NP (VV 离婚) (SFN 率)) (VP (ADVP (VV 在)) (VP (VV 上升))))) (, ，) (ADVP (RB 但是)) (NP (VV 离婚)) (VP (ADVP (RB 仍然)) (ADVP (RB 相对)) (VP (JJ 罕见)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-亚洲正在发生的事情就是人们逃离婚姻（见文章）。
-
-(ROOT (IP (NP (CP (CP (IP (NP (NNP 亚洲)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 发生)))) (DEC 的))) (NP (NN 事情))) (VP (VC 就是) (IP (NP (NN 人们)) (VP (VV 逃离) (NP (NN 婚姻) (PRN (-LRB- （) (VP (VV 见) (NP (NN 文章))) (-RRB- ）)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'IP': {}}}
-----------------------------------------------------------------------
-婚姻率下降的部分原因是人们推迟结婚。
-
-(ROOT (IP (NP (CP (CP (IP (NP (NN 婚姻) (SFN 率)) (VP (VV 下降))) (DEC 的))) (QP (NN 部分)) (NP (NN 原因))) (VP (VC 是) (IP (NP (NN 人们)) (VP (VV 推迟) (NP (VV 结婚))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}, 'QP': {}, 'NP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
-{'NP': {'CP': {}, 'QP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'IP': {}}}
-----------------------------------------------------------------------
-世界各地的结婚年龄都在上升，但亚洲的上升幅度尤其明显。
-
-(ROOT (IP (IP (NP (DNP (NP (NN 世界) (NN 各地)) (DEC 的)) (NP (NN 结婚) (NN 年龄))) (VP (ADVP (RB 都)) (ADVP (VV 在)) (VP (VV 上升)))) (, ，) (IP (ADVP (RB 但)) (NP (DNP (NP (NNP 亚洲)) (DEC 的)) (NP (NN 上升) (NN 幅度))) (VP (ADVP (RB 尤其)) (VP (JJ 明显)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-当地人现在甚至比西方人更晚结婚。
-
-(ROOT (IP (NP (NN 当地) (SFN 人)) (VP (NP (NN 现在)) (ADVP (RB 甚至)) (PP (IN 比) (NP (NNP 西方) (SFN 人))) (VP (VSB (RB 更晚) (VV 结婚)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}, 'SFN': {}}, 'VP': {'NP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}, 'SFN': {}}}
-{'VP': {'NP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在最富有的地方——日本、台湾、韩国和香港，过去几十年，结婚的平均年龄大幅上升，女性为 29-30 岁，男性为 31-33 岁。
-
-(ROOT (IP (IP (PP (VV 在) (NP (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 富有)))) (DEC 的))) (NP (NN 地方))) (HYPH —) (HYPH —) (NP (NNP 日本) (EC 、) (NNP 台湾) (EC 、) (NNP 韩国) (CC 和) (NNP 香港)))) (, ，) (QP (NP (NN 过去)) (QP (CD 几十) (CLP (NNB 年)))) (, ，) (NP (DNP (NP (VV 结婚)) (DEC 的)) (ADJP (JJ 平均)) (NP (NN 年龄))) (VP (ADVP (RB 大幅)) (VP (VV 上升)))) (, ，) (IP (NP (NN 女性)) (VP (VC 为) (QP (CD 29-30) (CLP (NNB 岁))))) (, ，) (IP (NP (NN 男性)) (VP (VC 为) (QP (QP (CD 31)) (HYPH -) (QP (CD 33) (CLP (NNB 岁)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'QP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'QP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-很多亚洲人不再晚婚，甚至不婚。
-
-(ROOT (IP (NP (QP (CD 很多)) (NP (NNP 亚洲)) (NP (SFN 人))) (VP (VP (ADVP (RB 不)) (ADVP (RB 再)) (VP (VV 晚婚))) (, ，) (VP (ADVP (RB 甚至)) (VP (VV 不婚)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'QP': {}, 'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'QP': {}, 'NP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-日本三十多岁的女性中有近三分之一是未婚，其中一半可能永远都是。台湾三十多岁的女性有五分之一以上是单身，大多数永远也不会结婚。
-
-(ROOT (IP (IP (LCP (NP (NP (NNP 日本)) (DNP (QP (CD 三十多) (CLP (NNB 岁))) (DEC 的)) (NP (NN 女性))) (IN 中)) (VP (VV 有) (IP (NP (DNP (QP (ADVP (RB 近)) (QP (CD 三) (CLP (NNB 分)))) (DEC 之)) (QP (CD 一))) (VP (VC 是) (NP (JJ 未婚)))))) (, ，) (IP (NP (NN 其中)) (QP (CD 一半)) (VP (MD 可能) (VP (ADVP (RB 永远)) (VP (VC 都是))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'LCP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'QP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'LCP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'QP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在一些地方，未婚率特别高：曼谷的 40-44 岁女性中有 20% 未婚；东京的 21%；新加坡同龄大学毕业生中的 27%。
-
-(ROOT (IP (IP (PP (IN 在) (NP (QP (JJ 一些)) (NP (NN 地方)))) (, ，) (NP (RB 未) (NN 婚率)) (VP (ADVP (RB 特别)) (VP (JJ 高)))) (: ：) (IP (LCP (NP (DNP (NP (NNP 曼谷)) (DEC 的)) (QP (CD 40-44) (CLP (NNB 岁))) (NP (NN 女性))) (IN 中)) (VP (VV 有) (IP (IP (QP (CD 20%)) (VP (VV 未婚))) (: ；) (QP (DNP (NP (NNP 东京)) (DEC 的)) (QP (CD 21%))) (: ；) (QP (DNP (LCP (NP (NP (NP (NNP 新加坡)) (NP (NN 同龄) (NN 大学))) (NP (VV 毕业))) (SFN 生中)) (DEC 的)) (QP (CD 27%)))))) (. 。)))
-{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP': {'LCP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'LCP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-到目前为止，这一趋势并未影响到亚洲两巨头中国和印度。
-
-(ROOT (IP (IP (VP (PP (IN 到) (NP (NN 目前))) (VP (VC 为) (NP (NN 止))))) (, ，) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 趋势))) (VP (ADVP (RB 并)) (ADVP (RB 未)) (VP (VRD (VV 影响) (VV 到)) (NP (NP (NP (NNP 亚洲)) (QP (CD 两)) (NP (NN 巨头))) (NP (NNP 中国) (CC 和) (NNP 印度))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-但很可能会这样，因为在亚洲其他地方，经济因素推动了人口老龄化，这两个国家也会受到影响；而且这种后果还会因为这两个国家一代人都实行的性别选择性人工流产而加剧。
-
-(ROOT (IP (IP (ADVP (RB 但)) (VP (ADVP (RB 很)) (VP (MD 可能) (VP (MD 会) (VP (PRD 这样)))))) (, ，) (IP (PP (IN 因为) (IP (PP (IN 在) (NP (NP (NNP 亚洲)) (DP (DT 其他)) (NP (NN 地方)))) (, ，) (NP (NN 经济) (NN 因素)) (VP (VV 推动) (AS 了) (NP (NN 人口) (NN 老龄) (SFV 化))))) (, ，) (NP (DP (DT 这) (QP (CD 两) (CLP (NNB 个)))) (NP (NN 国家))) (VP (ADVP (RB 也)) (VP (MD 会) (VP (VV 受到) (NP (NN 影响)))))) (: ；) (IP (ADVP (RB 而且)) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 后果))) (VP (ADVP (RB 还)) (VP (MD 会) (VP (PP (IN 因为) (NP (NP (DP (DT 这) (QP (CD 两) (CLP (NNB 个)))) (NP (NN 国家))) (CP (CP (IP (NP (NN 一代) (NN 人)) (VP (ADVP (RB 都)) (VP (VV 实行)))) (DEC 的))) (NP (NN 性别) (VV 选择) (SFN 性)) (ADJP (NN 人工)) (NP (VV 流产)))) (VP (RB 而) (VP (VV 加剧))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ':': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ':': {}, '.': {}}}
-{'IP': {'ADVP': {}, 'VP': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-到 2050 年，中国和印度将有 6000 万 50 岁以上的男性，比女性多。
-
-(ROOT (IP (IP (PP (IN 到) (NP (CD 2050) (NNB 年))) (, ，) (NP (NNP 中国) (CC 和) (NNP 印度)) (VP (ADVP (RB 将)) (VP (VV 有) (NP (QP (CD 6000) (QP (CD 万))) (DNP (LCP (QP (CD 50) (CLP (NNB 岁))) (IN 以上)) (DEC 的)) (NP (NN 男性)))))) (, ，) (IP (VP (PP (IN 比) (NP (NN 女性))) (VP (JJ 多)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}}}
-----------------------------------------------------------------------
-单身的快乐
-
-(ROOT (NP (DNP (NP (VV 单身)) (DEC 的)) (NP (NN 快乐))))
-{'NP': {'DNP': {}, 'NP': {}}}
-{'NP': {'DNP': {'NP': {}, 'DEC': {}}, 'NP': {'NN': {}}}}
-{'DNP': {'NP': {}, 'DEC': {}}}
-{'NP': {'NN': {}}}
-----------------------------------------------------------------------
-随着女性进入工作岗位，她们越来越退缩，不愿结婚。
-
-(ROOT (IP (PP (VV 随) (PP (AS 着) (IP (NP (NN 女性)) (VP (VV 进入) (NP (NN 工作) (NN 岗位)))))) (, ，) (NP (PRP 她们)) (VP (VP (ADVP (RB 越来越)) (VP (VV 退缩))) (, ，) (VP (MD 不愿) (VP (VV 结婚)))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'PP': {'VV': {}, 'PP': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这部分原因在于，在亚洲，女性要既有工作又有婚姻，是一件很艰难的事。
-
-(ROOT (IP (NP (DP (DT 这) (CLP (NN 部分))) (NP (NN 原因))) (VP (VV 在) (PP (VV 于) (, ，) (IP (IP (PP (IN 在) (NP (NNP 亚洲))) (, ，) (NP (NN 女性)) (VP (MD 要) (VP (CC 既) (VP (VV 有) (NP (NN 工作))) (CC 又) (VP (VV 有) (NP (NN 婚姻)))))) (, ，) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 件))) (CP (CP (IP (VP (ADVP (RB 很)) (VP (JJ 艰难)))) (DEC 的))) (NP (NN 事))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'PP': {}}}
-----------------------------------------------------------------------
-在那里，妇女是丈夫、孩子和老年父母的主要照料者，即使她们有全职工作，也仍然要继续扮演这一角色。
-
-(ROOT (IP (IP (PP (IN 在) (NP (PRD 那里))) (, ，) (NP (NN 妇女)) (VP (VC 是) (NP (DNP (NP (NN 丈夫) (EC 、) (NN 孩子) (CC 和) (NN 老年) (NN 父母)) (DEC 的)) (ADJP (JJ 主要)) (NP (VV 照料) (SFN 者))))) (, ，) (IP (CP (ADVP (IN 即使)) (IP (NP (PRP 她们)) (VP (VV 有) (NP (ADJP (JJ 全职)) (NP (NN 工作)))))) (, ，) (VP (ADVP (RB 也)) (ADVP (RB 仍然)) (VP (MD 要) (VP (VV 继续) (VP (VV 扮演) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 角色)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'CP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'CP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这在世界其他地方也是如此，但亚洲妇女承受的负担尤其重。
-
-(ROOT (IP (IP (NP (PRD 这)) (VP (PP (IN 在) (NP (NP (NN 世界)) (DP (DT 其他)) (NP (NN 地方)))) (VP (VC 也是) (NP (VV 如此))))) (, ，) (IP (ADVP (RB 但)) (NP (CP (CP (IP (NP (NP (NNP 亚洲)) (NP (NN 妇女))) (VP (VV 承受))) (DEC 的))) (NP (NN 负担))) (VP (ADVP (RB 尤其)) (VP (JJ 重)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-日本妇女每周在办公室工作 40 个小时，然后平均再做 30 个小时家务，而丈夫平均只做 3 个小时。
-
-(ROOT (IP (IP (NP (NP (NNP 日本)) (NP (NN 妇女))) (VP (VP (NP (DT 每周)) (PP (IN 在) (NP (VV 办公) (SFN 室))) (VP (VV 工作) (QP (CD 40) (CLP (NNB 个小时))))) (, ，) (VP (ADVP (RB 然后)) (ADVP (RB 平均)) (ADVP (RB 再)) (VP (VV 做) (NP (NP (QP (CD 30) (CLP (NNB 个))) (NP (NN 小时))) (NP (NN 家务))))))) (, ，) (IP (ADVP (RB 而)) (NP (NN 丈夫)) (VP (ADVP (RB 平均)) (ADVP (RB 只)) (VP (VV 做) (NP (QP (CD 3) (CLP (NNB 个))) (NP (NN 小时)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-而且，放弃工作照顾孩子的亚洲妇女很难重新回到工作岗位。
-
-(ROOT (IP (ADVP (RB 而且)) (, ，) (NP (CP (CP (IP (VP (VP (VV 放弃) (NP (NN 工作))) (VP (VV 照顾) (NP (NN 孩子))))) (DEC 的))) (NP (NNP 亚洲)) (NP (NN 妇女))) (VP (RB 很难) (IP (VP (ADVP (RB 重新)) (VP (VV 回到) (NP (NN 工作) (NN 岗位)))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}, 'NP': {}}, 'VP': {'RB': {}, 'IP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'CP': {}, 'NP': {}, 'NP': {}}}
-{'VP': {'RB': {}, 'IP': {}}}
-----------------------------------------------------------------------
-令人不意外的是，亚洲妇女对婚姻持非常悲观的态度。
-
-(ROOT (IP (NP (CP (CP (IP (VP (VV 令) (NP (NN 人)) (IP (VP (ADVP (RB 不)) (VP (JJ 意外)))))) (DEC 的)))) (VP (VC 是) (, ，) (IP (NP (NP (NNP 亚洲)) (NP (NN 妇女))) (VP (PP (IN 对) (NP (NN 婚姻))) (VP (VV 持) (NP (CP (CP (IP (VP (ADVP (RB 非常)) (VP (JJ 悲观)))) (DEC 的))) (NP (NN 态度))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'CP': {}}}
-{'VP': {'VC': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-根据今年的一项调查，相比日本男性或美国男女，日本女性对婚姻的看法更为消极。
-
-(ROOT (IP (PP (IN 根据) (NP (DNP (NP (NN 今年)) (DEC 的)) (QP (CD 一) (CLP (NNB 项))) (NP (NN 调查)))) (, ，) (IP (VP (VV 相比) (NP (NP (NP (NNP 日本)) (NP (NN 男性))) (CC 或) (NP (NP (NNP 美国)) (NP (NN 男女)))))) (, ，) (NP (NP (NP (NNP 日本)) (NP (NN 女性))) (DNP (PP (IN 对) (NP (NN 婚姻))) (DEC 的)) (NP (NN 看法))) (VP (ADVP (RB 更为)) (VP (JJ 消极))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'NP': {'NP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'NP': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'NP': {}, 'DNP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-就在妇女找工作变得更加困难的同时，它也为她们提供了一个替代方案。
-
-(ROOT (IP (PP (ADVP (RB 就)) (PP (IN 在) (NP (CP (IP (IP (NP (NN 妇女)) (VP (VV 找) (NP (NN 工作)))) (VP (VV 变得) (VP (ADVP (RB 更加)) (VP (JJ 困难))))) (DEC 的)) (NP (NN 同时))))) (, ，) (NP (PRP 它)) (VP (PP (IN 也为) (NP (PRP 她们))) (VP (VV 提供) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 替代) (NN 方案))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'ADVP': {}, 'PP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'PP': {'ADVP': {}, 'PP': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-更多的女性已经独立财务，因此，她们可以追求单身生活，这可能比传统婚姻中的琐碎事务更有吸引力。
-
-(ROOT (IP (IP (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的))) (NP (NN 女性))) (VP (ADVP (RB 已经)) (VP (VV 独立) (NP (NN 财务))))) (, ，) (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (PRP 她们)) (VP (MD 可以) (VP (VV 追求) (NP (NN 单身) (NN 生活))))) (, ，) (IP (NP (PRD 这)) (VP (MD 可能) (VP (PP (IN 比) (NP (DNP (LCP (NP (ADJP (NN 传统)) (NP (NN 婚姻))) (IN 中)) (DEC 的)) (ADJP (JJ 琐碎)) (NP (NN 事务)))) (ADVP (RB 更)) (VP (VV 有) (NP (VV 吸引) (SFN 力)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-更多的教育也促使婚姻数量减少，因为最受教育的亚洲女性总是最不愿意结婚，而现在有更多的女性接受过高等教育。
-
-(ROOT (IP (IP (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的))) (NP (NN 教育))) (VP (ADVP (RB 也)) (VP (VV 促使) (NP (NN 婚姻) (NN 数量)) (IP (VP (VV 减少)))))) (, ，) (IP (PP (IN 因为) (IP (NP (CP (CP (IP (VP (VV 最受) (NP (NN 教育)))) (DEC 的))) (NP (NNP 亚洲)) (NP (NN 女性))) (VP (ADVP (RB 总)) (VP (VC 是) (VP (ADVP (RB 最)) (ADVP (RB 不)) (VP (MD 愿意) (IP (VP (VV 结婚))))))))) (, ，) (ADVP (RB 而)) (VP (NP (NN 现在)) (VP (VV 有) (IP (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的))) (NP (NN 女性))) (VP (VV 接受) (AS 过) (NP (ADJP (JJ 高等)) (NP (NN 教育)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'PP': {}, ',': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-没有婚姻，没有孩子
-
-(ROOT (IP (IP (VP (VV 没有) (NP (NN 婚姻)))) (, ，) (IP (VP (VV 没有) (NP (NN 孩子))))))
-{'IP': {'IP': {}, ',': {}, 'IP': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'VP': {}}}}
-{'IP': {'VP': {}}}
-{'IP': {'VP': {}}}
-----------------------------------------------------------------------
-因此，亚洲婚姻率下降，是女性现在享有更大自由的结果，这是值得庆贺的。
-
-(ROOT (IP (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (NP (NNP 亚洲)) (NP (NN 婚姻) (SFN 率))) (VP (VV 下降))) (, ，) (IP (VP (VC 是) (NP (CP (IP (NP (NN 女性)) (VP (NP (NN 现在)) (VP (VV 享有) (NP (ADJP (JJ 更大)) (NP (NN 自由)))))) (DEC 的)) (NP (NN 结果))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (VP (VV 值得) (NP (VV 庆贺)))) (UH 的)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-但它也在造成社会问题。
-
-(ROOT (IP (ADVP (RB 但)) (NP (PRP 它)) (VP (ADVP (RB 也)) (ADVP (RB 在)) (VP (VV 造成) (NP (NN 社会) (NN 问题)))) (. 。)))
+(ROOT (IP (ADVP (RB 而)) (NP (NNP 中国)) (VP (PP (IN 对) (IP (VP (VV 稳定) (NP (NP (NN 邻国)) (NP (NNP 阿富汗)))))) (VP (VV 也有) (AS 着) (NP (ADJP (JJ 重大)) (NP (NN 利益))))) (. 。)))
+layer 2:
 {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
 {'ADVP': {'RB': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-与西方相比，亚洲国家在养老金和其他形式的社会保障方面投资较少，假设家庭会照顾年长或生病的亲人。这种假设不再可靠。
-
-(ROOT (IP (IP (IP (VP (PP (IN 与) (NP (NNP 西方))) (VP (VV 相比)))) (, ，) (NP (NP (NNP 亚洲)) (NP (NN 国家))) (PP (IN 在) (NP (NP (NP (NN 养老) (SFN 金)) (CC 和) (NP (DNP (NP (DP (DT 其他)) (NP (NN 形式))) (DEC 的)) (NP (NN 社会) (NN 保障)))) (NP (NN 方面)))) (NP (VV 投资)) (VP (JJ 较少))) (, ，) (IP (VP (VV 假设) (IP (NP (NN 家庭)) (VP (MD 会) (VP (VV 照顾) (NP (CP (CP (IP (VP (JJ 年长) (CC 或) (VV 生病))) (DEC 的))) (NP (NN 亲人)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'PP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'PP': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}}}
-----------------------------------------------------------------------
-婚姻的衰落也是生育率的崩溃之一。
-
-(ROOT (IP (NP (DNP (NP (NN 婚姻)) (DEC 的)) (NP (NN 衰落))) (VP (VC 也是) (NP (DNP (NP (NN 生) (NN 育率)) (DEC 的)) (DNP (NP (NN 崩溃)) (DEC 之)) (NP (CD 一)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
-----------------------------------------------------------------------
-东亚的生育率从 20 世纪 60 年代末的每名妇女 5.3 个孩子降至目前的 1.6 个。
-
-(ROOT (IP (NP (DNP (NP (NNP 东亚)) (DEC 的)) (NP (VV 生育) (SFN 率))) (VP (PP (IN 从) (NP (NP (DNP (LCP (NP (NP (QP (CD 20)) (NP (NNB 世纪))) (QP (CD 60)) (NP (NNB 年代))) (IN 末)) (DEC 的)) (ADJP (DT 每名)) (NP (NN 妇女))) (QP (CD 5.3) (CLP (NNB 个))) (NP (NN 孩子)))) (VP (VRD (VV 降) (VV 至)) (QP (DNP (NP (NN 目前)) (DEC 的)) (QP (CD 1.6) (CLP (NNB 个)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
+{'NP': {'NNP': {}}}
 {'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['而', '也有', 'mark']
+['PROPN', 'VERB', 'nsubj']	['中国', '也有', 'nsubj']
+['ADP', 'VERB', 'case']	['对', '稳定', 'case']
+['VERB', 'VERB', 'xcomp']	['稳定', '也有', 'xcomp']
+['NOUN', 'PROPN', 'nmod']	['邻国', '阿富汗', 'nmod']
+['PROPN', 'VERB', 'obj']	['阿富汗', '稳定', 'obj']
+['VERB', 'ROOT', 'root']	['也有', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['着', '也有', 'aux']
+['ADJ', 'NOUN', 'amod']	['重大', '利益', 'amod']
+['NOUN', 'VERB', 'obj']	['利益', '也有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '也有', 'punct']
 ----------------------------------------------------------------------
-在结婚率最低的国家，生育率接近 1.0。
+欧洲作为一个整体，以及各个欧洲国家，对伊朗和朝鲜的影响力有限，甚至没有影响力，尽管他们有部队在阿富汗，但中亚距离他们的利益很远，很遥远。
 
-(ROOT (IP (PP (IN 在) (NP (CP (CP (IP (NP (VV 结婚) (SFN 率)) (VP (JJ 最低))) (DEC 的))) (NP (NN 国家)))) (, ，) (NP (VV 生育) (SFN 率)) (VP (VV 接近) (QP (CD 1.0))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'VV': {}, 'SFN': {}}, 'VP': {'VV': {}, 'QP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'NP': {}}}
-{'NP': {'VV': {}, 'SFN': {}}}
-{'VP': {'VV': {}, 'QP': {}}}
-----------------------------------------------------------------------
-由于人口老龄化的速度惊人，这已经开始引发巨大的人口问题。
-
-(ROOT (IP (PP (IN 由于) (IP (NP (CP (IP (NP (NN 人口)) (VP (NN 老龄) (SFV 化))) (DEC 的)) (NP (NN 速度))) (VP (JJ 惊人)))) (, ，) (NP (PRD 这)) (VP (ADVP (RB 已经)) (VP (VV 开始) (VP (VV 引发) (NP (CP (CP (IP (VP (JJ 巨大))) (DEC 的))) (NP (NN 人口) (NN 问题)))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
-{'NP': {'PRD': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-还有其他，虽然不那么明显的问题。婚姻会让男人变得社会化：它与睾酮水平低和犯罪行为少有关。
-
-(ROOT (IP (IP (VP (ADVP (RB 还)) (VP (VV 有) (NP (DT 其他))))) (, ，) (NP (CP (CP (IP (VP (ADVP (IN 虽然)) (ADVP (RB 不)) (ADVP (RB 那么)) (VP (JJ 明显)))) (DEC 的))) (NP (NN 问题))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, '.': {}}}
+(ROOT (IP (IP (NP (NNP 欧洲)) (PP (VV 作) (PP (VC 为) (NP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 整体))) (, ，) (CC 以及) (NP (ADJP (DT 各个)) (NP (NNP 欧洲)) (NP (NN 国家)))))) (, ，) (NP (DNP (PP (IN 对) (NP (NNP 伊朗) (CC 和) (NNP 朝鲜))) (DEC 的)) (NP (VV 影响) (SFN 力))) (VP (JJ 有限))) (, ，) (IP (VP (ADVP (RB 甚至)) (VP (VV 没有) (NP (VV 影响) (SFN 力))))) (, ，) (IP (CP (ADVP (IN 尽管)) (IP (NP (PRP 他们)) (VP (VV 有) (NP (NP (NN 部队)) (PP (VV 在) (NP (NNP 阿富汗))))))) (, ，) (ADVP (RB 但)) (NP (CP (CP (IP (NP (NNP 中亚)) (VP (IN 距离) (NP (PRP 他们)))) (DEC 的))) (NP (NN 利益))) (VP (VP (JJ 很远)) (, ，) (VP (ADVP (JJ 很遥)) (VP (JJ 远))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP21960': {}, ',95867': {}, 'IP43382': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'PP': {}, ',': {}, 'NP28248': {}, 'VP': {}}, ',': {}, 'IP92365': {'VP': {}}, ',35251': {}, 'IP15375': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
 {'IP': {'VP': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['欧洲', '有', 'nsubj']
+['VERB', 'VERB', 'advcl']	['作', '有', 'advcl']
+['VERB', 'VERB', 'mark']	['为', '作', 'mark']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '整体', 'clf']
+['NOUN', 'VERB', 'obj']	['整体', '作', 'obj']
+['PUNCT', 'NOUN', 'punct']	['，', '国家', 'punct']
+['CCONJ', 'NOUN', 'cc']	['以及', '国家', 'cc']
+['DET', 'NOUN', 'det']	['各个', '国家', 'det']
+['PROPN', 'NOUN', 'nmod']	['欧洲', '国家', 'nmod']
+['NOUN', 'NOUN', 'conj']	['国家', '整体', 'conj']
+['PUNCT', 'VERB', 'punct']	['，', '作', 'punct']
+['ADP', 'PART', 'case']	['对', '力', 'case']
+['PROPN', 'PART', 'nmod']	['伊朗', '力', 'nmod']
+['CCONJ', 'PROPN', 'cc']	['和', '朝鲜', 'cc']
+['PROPN', 'PROPN', 'conj']	['朝鲜', '伊朗', 'conj']
+['PART', 'PROPN', 'case']	['的', '伊朗', 'case']
+['VERB', 'PART', 'compound']	['影响', '力', 'compound']
+['PART', 'ADJ', 'nmod']	['力', '有限', 'nmod']
+['ADJ', 'VERB', 'advcl']	['有限', '有', 'advcl']
+['PUNCT', 'ADJ', 'punct']	['，', '有限', 'punct']
+['ADV', 'VERB', 'mark']	['甚至', '有', 'mark']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['VERB', 'PART', 'compound']	['影响', '力', 'compound']
+['PART', 'VERB', 'obj']	['力', '有', 'obj']
+['PUNCT', 'ADJ', 'punct']	['，', '远', 'punct']
+['ADP', 'VERB', 'case']	['尽管', '有', 'case']
+['PRON', 'VERB', 'nsubj']	['他', '有', 'nsubj']
+['VERB', 'ADJ', 'ccomp']	['有', '远', 'ccomp']
+['NOUN', 'VERB', 'nsubj']	['部队', '在', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['在', '有', 'ccomp']
+['PROPN', 'VERB', 'obj']	['阿富汗', '在', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['ADV', 'ADJ', 'mark']	['但', '很远', 'mark']
+['PROPN', 'NOUN', 'nmod']	['中亚', '利益', 'nmod']
+['ADP', 'NOUN', 'case']	['距离', '利益', 'case']
+['PRON', 'NOUN', 'det']	['他', '利益', 'det']
+['PART', 'PRON', 'mark:rel']	['的', '他', 'mark:rel']
+['NOUN', 'ADJ', 'nmod']	['利益', '很远', 'nmod']
+['ADJ', 'ADJ', 'advcl']	['很远', '远', 'advcl']
+['PUNCT', 'ADJ', 'punct']	['，', '很远', 'punct']
+['ADJ', 'ADJ', 'amod']	['很遥', '远', 'amod']
+['ADJ', 'VERB', 'parataxis']	['远', '有', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
 ----------------------------------------------------------------------
-婚姻少了，犯罪可能就多了。
+此外，中国的经济在未来几十年内将会继续增长，中国的政治力量也会随之增长。
 
-(ROOT (IP (IP (NP (NN 婚姻)) (VP (JJ 少) (UH 了))) (, ，) (IP (NP (NN 犯罪)) (VP (MD 可能) (VP (ADVP (RB 就)) (VP (JJ 多) (UH 了))))) (. 。)))
+(ROOT (IP (ADVP (NN 此外)) (, ，) (IP (IP (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NN 经济))) (VP (PP (IN 在) (LCP (QP (NP (NN 未来)) (QP (CD 几十) (CLP (NNB 年)))) (IN 内))) (ADVP (RB 将)) (VP (MD 会) (VP (VV 继续) (VP (VV 增长)))))) (, ，) (IP (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NN 政治) (NN 力量))) (VP (ADVP (RB 也)) (VP (MD 会) (VP (ADVP (RB 随之)) (VP (VV 增长))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'IP22325': {}}, '.': {}}}
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'NN': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'obl']	['此外', '继续', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '此外', 'punct']
+['PROPN', 'NOUN', 'nmod']	['中国', '经济', 'nmod']
+['PART', 'PROPN', 'case']	['的', '中国', 'case']
+['NOUN', 'VERB', 'nsubj']	['经济', '继续', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '年', 'case']
+['NOUN', 'NOUN', 'nmod']	['未来', '年', 'nmod']
+['NUM', 'NOUN', 'nummod']	['几十', '年', 'nummod']
+['NOUN', 'VERB', 'obl']	['年', '继续', 'obl']
+['ADP', 'NOUN', 'case']	['内', '年', 'case']
+['ADV', 'VERB', 'advmod']	['将', '继续', 'advmod']
+['AUX', 'VERB', 'aux']	['会', '继续', 'aux']
+['VERB', 'ROOT', 'root']	['继续', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['增长', '继续', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '增长', 'punct']
+['PROPN', 'NOUN', 'nmod']	['中国', '力量', 'nmod']
+['PART', 'PROPN', 'case']	['的', '中国', 'case']
+['NOUN', 'NOUN', 'nmod']	['政治', '力量', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['力量', '增长', 'nsubj']
+['ADV', 'VERB', 'mark']	['也', '增长', 'mark']
+['AUX', 'VERB', 'aux']	['会', '增长', 'aux']
+['ADV', 'VERB', 'advmod']	['随之', '增长', 'advmod']
+['VERB', 'VERB', 'parataxis']	['增长', '继续', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '继续', 'punct']
+----------------------------------------------------------------------
+因此，欧洲在全球事务和美国问题上的相对严肃性和重要性将逐步减少。
+
+(ROOT (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (NP (NNP 欧洲)) (DNP (PP (IN 在) (LCP (NP (NP (NN 全球) (NN 事务)) (CC 和) (NP (NP (NNP 美国)) (NP (NN 问题)))) (IN 上))) (DEC 的)) (NP (ADJP (JJ 相对)) (NP (JJ 严肃) (SFN 性) (CC 和) (JJ 重要) (SFN 性)))) (VP (ADVP (RB 将)) (ADVP (RB 逐步)) (VP (VV 减少))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'ADVP6809': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'IN': {}}, 'ADVP89765': {'PRD': {}}, ',': {}, 'NP': {'NP': {}, 'DNP': {}, 'NP63577': {}}, 'VP': {'ADVP': {}, 'ADVP76314': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'IN': {}}, 'ADVP': {'PRD': {}}, ',': {}, 'NP': {'NP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'IN': {}}}
+{'ADVP': {'PRD': {}}}
+{'NP': {'NP': {}, 'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'PRON', 'case']	['因', '此', 'case']
+['PRON', 'VERB', 'obl']	['此', '减少', 'obl']
+['PUNCT', 'PRON', 'punct']	['，', '此', 'punct']
+['PROPN', 'PART', 'nmod']	['欧洲', '性', 'nmod']
+['ADP', 'NOUN', 'case']	['在', '事务', 'case']
+['NOUN', 'NOUN', 'nmod']	['全球', '事务', 'nmod']
+['NOUN', 'PART', 'nmod']	['事务', '性', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['和', '问题', 'cc']
+['PROPN', 'NOUN', 'nmod']	['美国', '问题', 'nmod']
+['NOUN', 'NOUN', 'conj']	['问题', '事务', 'conj']
+['ADP', 'NOUN', 'case']	['上', '事务', 'case']
+['PART', 'PART', 'case']	['的', '性', 'case']
+['ADJ', 'PART', 'amod']	['相对', '性', 'amod']
+['ADJ', 'PART', 'compound']	['严肃', '性', 'compound']
+['PART', 'VERB', 'nsubj']	['性', '减少', 'nsubj']
+['CCONJ', 'PART', 'cc']	['和', '性', 'cc']
+['ADJ', 'PART', 'compound']	['重要', '性', 'compound']
+['PART', 'PART', 'conj']	['性', '性', 'conj']
+['ADV', 'VERB', 'advmod']	['将', '减少', 'advmod']
+['ADV', 'VERB', 'advmod']	['逐步', '减少', 'advmod']
+['VERB', 'ROOT', 'root']	['减少', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['。', '减少', 'punct']
+----------------------------------------------------------------------
+欧元是一种非常重要的货币，它将在很多年内保持这一地位。
+
+(ROOT (IP (IP (NP (NNP 欧) (NNP 元)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (CP (CP (IP (VP (ADVP (RB 非常)) (VP (JJ 重要)))) (DEC 的))) (NP (NN 货币))))) (, ，) (IP (NP (PRP 它)) (VP (ADVP (RB 将)) (PP (IN 在) (LCP (QP (CD 很多)) (NN 年内))) (VP (VV 保持) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 地位)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP71832': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP11063': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'PROPN', 'nmod']	['欧', '元', 'nmod']
+['PROPN', 'NOUN', 'nsubj']	['元', '货币', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '货币', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '种', 'nummod']
+['NOUN', 'NOUN', 'clf']	['种', '货币', 'clf']
+['ADV', 'ADJ', 'advmod']	['非常', '重要', 'advmod']
+['ADJ', 'NOUN', 'amod']	['重要', '货币', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '重要', 'mark:rel']
+['NOUN', 'ROOT', 'root']	['货币', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '保持', 'punct']
+['PRON', 'VERB', 'nsubj']	['它', '保持', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '保持', 'advmod']
+['ADP', 'NOUN', 'case']	['在', '年内', 'case']
+['NUM', 'NOUN', 'nummod']	['很多', '年内', 'nummod']
+['NOUN', 'VERB', 'obl']	['年内', '保持', 'obl']
+['VERB', 'NOUN', 'parataxis']	['保持', '货币', 'parataxis']
+['DET', 'NOUN', 'det']	['这', '地位', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '地位', 'nummod']
+['NOUN', 'VERB', 'obj']	['地位', '保持', 'obj']
+['PUNCT', 'NOUN', 'punct']	['。', '货币', 'punct']
 ----------------------------------------------------------------------
-亚洲的婚姻能否复苏?
+然而，如果没有政治领导人的带领，它只能是一个贸易工具而已。
 
-(ROOT (IP (NP (DNP (NP (NNP 亚洲)) (DEC 的)) (NP (NN 婚姻))) (VP (MD 能否) (VP (VV 复苏))) (. ?)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+(ROOT (IP (IP (ADVP (RB 然而)) (, ，) (IP (VP (ADVP (IN 如果)) (VP (VV 没有) (NP (DNP (NP (NN 政治) (VV 领导) (SFN 人)) (DEC 的)) (NP (NN 带领)))))) (, ，) (NP (PRP 它)) (VP (MD 只能) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 贸易) (NN 工具)))))) (UH 而已) (. 。)))
+layer 2:
+{'IP': {'IP': {}, 'UH': {}, '.': {}}}
+{'IP': {'IP': {}, 'UH': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',72072': {}, 'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'NOUN', 'mark']	['然而', '工具', 'mark']
+['PUNCT', 'ADV', 'punct']	['，', '然而', 'punct']
+['ADP', 'VERB', 'case']	['如果', '有', 'case']
+['VERB', 'NOUN', 'xcomp']	['有', '工具', 'xcomp']
+['NOUN', 'PART', 'nmod']	['政治', '人', 'nmod']
+['VERB', 'PART', 'compound']	['领导', '人', 'compound']
+['PART', 'NOUN', 'nmod']	['人', '带领', 'nmod']
+['PART', 'PART', 'case']	['的', '人', 'case']
+['NOUN', 'VERB', 'obj']	['带领', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['PRON', 'NOUN', 'nsubj']	['它', '工具', 'nsubj']
+['AUX', 'NOUN', 'aux']	['只能', '工具', 'aux']
+['AUX', 'NOUN', 'cop']	['是', '工具', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '工具', 'clf']
+['NOUN', 'NOUN', 'nmod']	['贸易', '工具', 'nmod']
+['NOUN', 'ROOT', 'root']	['工具', 'NONE', 'root']
+['PART', 'NOUN', 'discourse']	['而已', '工具', 'discourse']
+['PUNCT', 'NOUN', 'punct']	['。', '工具', 'punct']
+----------------------------------------------------------------------
+此外，欧盟没有统一的外交和防务政策，因此军事行动的合作必然要逐案由美国来协商，欧盟的整体实力也不会大幅提升。
+
+(ROOT (IP (IP (ADVP (NN 此外)) (, ，) (NP (NNP 欧盟)) (VP (VV 没有) (NP (CP (CP (IP (VP (JJ 统一))) (DEC 的))) (NP (NN 外交) (CC 和) (NN 防务)) (NP (NN 政策))))) (, ，) (IP (ADVP (IN 因)) (ADVP (PRD 此)) (NP (DNP (NP (NN 军事) (NN 行动)) (DEC 的)) (NP (NN 合作))) (VP (ADVP (JJ 必然)) (VP (NN 要逐案) (IP (VP (PP (VV 由) (NP (NNP 美国))) (VP (RB 来) (VP (VV 协商)))))))) (, ，) (IP (NP (DNP (NP (NNP 欧盟)) (DEC 的)) (NP (JJ 整体) (NN 实力))) (VP (ADVP (RB 也)) (VP (MD 不会) (VP (ADVP (RB 大幅)) (VP (VV 提升)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP58172': {}, ',28547': {}, 'IP32467': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP10966': {'ADVP': {}, 'ADVP43917': {}, 'NP': {}, 'VP': {}}, ',43651': {}, 'IP91132': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'obl']	['此外', '有', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '此外', 'punct']
+['PROPN', 'VERB', 'nsubj']	['欧盟', '有', 'nsubj']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['ADJ', 'NOUN', 'amod']	['统一', '政策', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '统一', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['外交', '政策', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['和', '防务', 'cc']
+['NOUN', 'NOUN', 'conj']	['防务', '外交', 'conj']
+['NOUN', 'VERB', 'obj']	['政策', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '由', 'punct']
+['ADP', 'PRON', 'case']	['因', '此', 'case']
+['PRON', 'VERB', 'obl']	['此', '由', 'obl']
+['NOUN', 'NOUN', 'nmod']	['军事', '行动', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['行动', '合作', 'nmod']
+['PART', 'NOUN', 'case']	['的', '行动', 'case']
+['NOUN', 'VERB', 'nsubj']	['合作', '由', 'nsubj']
+['ADJ', 'NOUN', 'amod']	['必然', '要逐案', 'amod']
+['NOUN', 'VERB', 'nsubj']	['要逐案', '由', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['由', '有', 'parataxis']
+['PROPN', 'VERB', 'nsubj']	['美国', '协商', 'nsubj']
+['ADV', 'VERB', 'mark']	['来', '协商', 'mark']
+['VERB', 'VERB', 'ccomp']	['协商', '由', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '提升', 'punct']
+['PROPN', 'NOUN', 'nmod']	['欧盟', '实力', 'nmod']
+['PART', 'PROPN', 'case']	['的', '欧盟', 'case']
+['ADJ', 'NOUN', 'amod']	['整体', '实力', 'amod']
+['NOUN', 'VERB', 'nsubj']	['实力', '提升', 'nsubj']
+['ADV', 'VERB', 'mark']	['也', '提升', 'mark']
+['AUX', 'VERB', 'aux']	['会', '提升', 'aux']
+['ADV', 'VERB', 'advmod']	['大幅', '提升', 'advmod']
+['VERB', 'VERB', 'parataxis']	['提升', '有', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+换句话说，欧洲国家的参与在未来几十年可能会变得更加繁琐和不那么重要。
+
+(ROOT (IP (IP (VP (VP (VV 换) (NP (QP (CLP (NNB 句))) (NP (NN 话)))) (VP (VV 说)))) (, ，) (NP (DNP (NP (NP (NNP 欧洲)) (NP (NN 国家))) (DEC 的)) (NP (NN 参与))) (VP (PP (IN 在) (QP (NP (NN 未来)) (QP (CD 几十) (CLP (NNB 年))))) (VP (MD 可能) (VP (MD 会) (VP (VV 变得) (VP (VP (ADVP (RB 更加)) (VP (JJ 繁琐))) (CC 和) (VP (ADVP (RB 不)) (ADVP (RB 那么)) (VP (JJ 重要)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
 {'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['换', '说', 'advcl']
+['NOUN', 'NOUN', 'nmod']	['句', '话', 'nmod']
+['NOUN', 'VERB', 'obj']	['话', '换', 'obj']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '变得', 'punct']
+['PROPN', 'NOUN', 'nmod']	['欧洲', '国家', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['国家', '参与', 'nmod']
+['PART', 'NOUN', 'case']	['的', '国家', 'case']
+['NOUN', 'VERB', 'nsubj']	['参与', '变得', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '年', 'case']
+['NOUN', 'NOUN', 'nmod']	['未来', '年', 'nmod']
+['NUM', 'NOUN', 'nummod']	['几十', '年', 'nummod']
+['NOUN', 'VERB', 'obl']	['年', '变得', 'obl']
+['AUX', 'VERB', 'aux']	['可能', '变得', 'aux']
+['AUX', 'VERB', 'aux']	['会', '变得', 'aux']
+['VERB', 'VERB', 'ccomp']	['变得', '说', 'ccomp']
+['ADV', 'ADJ', 'advmod']	['更加', '繁琐', 'advmod']
+['ADJ', 'VERB', 'xcomp']	['繁琐', '变得', 'xcomp']
+['CCONJ', 'ADJ', 'cc']	['和', '重要', 'cc']
+['ADV', 'ADJ', 'advmod']	['不', '重要', 'advmod']
+['ADV', 'ADJ', 'advmod']	['那么', '重要', 'advmod']
+['ADJ', 'VERB', 'xcomp']	['重要', '变得', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
 ----------------------------------------------------------------------
-如果性别角色的预期改变了，那么就可以了；但是改变传统观念很难。
+当然，许多国家都会保持自己的特色。
 
-(ROOT (IP (IP (CP (ADVP (IN 如果)) (IP (NP (DNP (NP (NN 性别) (NN 角色)) (DEC 的)) (NP (NN 预期))) (VP (VV 改变) (UH 了)))) (, ，) (ADVP (RB 那么)) (VP (ADVP (RB 就)) (VP (MD 可以) (UH 了)))) (: ；) (IP (ADVP (RB 但是)) (IP (VP (VV 改变) (NP (ADJP (NN 传统)) (NP (NN 观念))))) (VP (JJ 很难))) (. 。)))
-{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, ':': {}, 'IP': {'ADVP': {}, 'IP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'IP': {}, 'VP': {}}}
+(ROOT (IP (ADVP (RB 当然)) (, ，) (NP (QP (CD 许多)) (NP (NN 国家))) (VP (RB 都会) (VP (VV 保持) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 特色))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'RB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'RB': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'RB': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'advmod']	['当然', '保持', 'advmod']
+['PUNCT', 'ADV', 'punct']	['，', '当然', 'punct']
+['NUM', 'NOUN', 'nummod']	['许多', '国家', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['国家', '保持', 'nsubj']
+['ADV', 'VERB', 'advmod']	['都会', '保持', 'advmod']
+['VERB', 'ROOT', 'root']	['保持', 'NONE', 'root']
+['PRON', 'NOUN', 'det']	['自己', '特色', 'det']
+['PART', 'PRON', 'case']	['的', '自己', 'case']
+['NOUN', 'VERB', 'obj']	['特色', '保持', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '保持', 'punct']
 ----------------------------------------------------------------------
-政府无法通过立法来消除民众的偏见。但是，政府可以鼓励变革。
+德国和北欧国家将继续专注于机械制造业；英国将成为金融和高等教育中心之一；法国将决定优雅和美酒的标准；意大利将继续成为一个有好食物、好天气的户外游乐场；伊比利半岛将继续成为向拉丁美洲投射出的欧洲风景。
 
-(ROOT (IP (NP (NN 政府)) (VP (ADVP (VV 无法)) (PP (IN 通过) (NP (NN 立法))) (VP (RB 来) (VP (VV 消除) (NP (DNP (NP (NN 民众)) (DEC 的)) (NP (NN 偏见)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+(ROOT (IP (IP (NP (NP (NNP 德国) (CC 和) (NN 北) (NNP 欧)) (NP (NN 国家))) (VP (ADVP (RB 将)) (VP (VV 继续) (VP (VV 专注) (PP (VV 于) (NP (NN 机械) (VV 制造) (SFN 业))))))) (: ；) (IP (NP (NNP 英国)) (VP (ADVP (RB 将)) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (NP (NP (NN 金融)) (CC 和) (NP (ADJP (JJ 高等)) (NP (NN 教育)))) (NP (NN 中心))) (DEC 之)) (NP (CD 一))))))) (: ；) (IP (NP (NNP 法国)) (VP (ADVP (RB 将)) (VP (VV 决定) (NP (DNP (NP (VP (JJ 优雅) (CC 和) (NNP 美)) (NP (SFN 酒))) (DEC 的)) (NP (NN 标准)))))) (: ；) (IP (NP (NNP 意大利)) (VP (ADVP (RB 将)) (VP (VV 继续) (VP (VV 成) (VP (VC 为) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (NP (NP (ADJP (JJ 有好)) (NP (NN 食物))) (EC 、) (NP (ADJP (JJ 好)) (NP (NN 天气)))) (DEC 的)) (ADJP (NN 户外)) (NP (VV 游乐) (SFN 场)))))))) (: ；) (IP (NP (NNP 伊比利) (NN 半岛)) (VP (ADVP (RB 将)) (VP (VV 继续) (VP (VV 成) (VP (VC 为) (NP (CP (CP (IP (VP (PP (IN 向) (NP (NNP 拉丁) (NNP 美洲))) (VP (VRD (VV 投射) (VV 出))))) (DEC 的))) (NP (NNP 欧洲)) (NP (NN 风景)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP83735': {}, ':83334': {}, 'IP21943': {}, ':75017': {}, 'IP20558': {}, ':4671': {}, 'IP98812': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, ':': {}, 'IP': {}, ':': {}, 'IP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP59355': {'NP': {}, 'VP': {}}, ':62070': {}, 'IP74476': {'NP': {}, 'VP': {}}, ':95875': {}, 'IP92698': {'NP': {}, 'VP': {}}, ':66721': {}, 'IP26505': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['德国', '国家', 'nmod']
+['CCONJ', 'PROPN', 'cc']	['和', '欧', 'cc']
+['NOUN', 'PROPN', 'nmod']	['北', '欧', 'nmod']
+['PROPN', 'PROPN', 'conj']	['欧', '德国', 'conj']
+['NOUN', 'VERB', 'nsubj']	['国家', '继续', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '继续', 'advmod']
+['VERB', 'ROOT', 'root']	['继续', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['专注', '继续', 'xcomp']
+['VERB', 'VERB', 'mark']	['于', '专注', 'mark']
+['NOUN', 'PART', 'nmod']	['机械', '业', 'nmod']
+['VERB', 'PART', 'compound']	['制造', '业', 'compound']
+['PART', 'VERB', 'obj']	['业', '专注', 'obj']
+['PUNCT', 'VERB', 'punct']	['；', '成', 'punct']
+['PROPN', 'VERB', 'nsubj']	['英国', '成', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '成', 'advmod']
+['VERB', 'VERB', 'parataxis']	['成', '继续', 'parataxis']
+['VERB', 'VERB', 'mark']	['为', '成', 'mark']
+['NOUN', 'NUM', 'nmod']	['金融', '一', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['和', '中心', 'cc']
+['ADJ', 'NOUN', 'amod']	['高等', '教育', 'amod']
+['NOUN', 'NOUN', 'nmod']	['教育', '中心', 'nmod']
+['NOUN', 'NOUN', 'conj']	['中心', '金融', 'conj']
+['PART', 'NOUN', 'case']	['之', '金融', 'case']
+['NUM', 'VERB', 'obj']	['一', '成', 'obj']
+['PUNCT', 'VERB', 'punct']	['；', '决定', 'punct']
+['PROPN', 'VERB', 'nsubj']	['法国', '决定', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '决定', 'advmod']
+['VERB', 'VERB', 'parataxis']	['决定', '继续', 'parataxis']
+['ADJ', 'NOUN', 'amod']	['优雅', '标准', 'amod']
+['CCONJ', 'PART', 'cc']	['和', '酒', 'cc']
+['PROPN', 'PART', 'compound']	['美', '酒', 'compound']
+['PART', 'ADJ', 'conj']	['酒', '优雅', 'conj']
+['PART', 'ADJ', 'mark:rel']	['的', '优雅', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['标准', '决定', 'obj']
+['PUNCT', 'VERB', 'punct']	['；', '继续', 'punct']
+['PROPN', 'VERB', 'nsubj']	['意大利', '继续', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '继续', 'advmod']
+['VERB', 'VERB', 'parataxis']	['继续', '继续', 'parataxis']
+['VERB', 'VERB', 'xcomp']	['成', '继续', 'xcomp']
+['VERB', 'VERB', 'mark']	['为', '成', 'mark']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'PART', 'nmod']	['个', '场', 'nmod']
+['ADJ', 'NOUN', 'amod']	['有好', '食物', 'amod']
+['NOUN', 'PART', 'nmod']	['食物', '场', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['、', '天气', 'punct']
+['ADJ', 'NOUN', 'amod']	['好', '天气', 'amod']
+['NOUN', 'NOUN', 'conj']	['天气', '食物', 'conj']
+['PART', 'NOUN', 'case']	['的', '食物', 'case']
+['NOUN', 'PART', 'nmod']	['户外', '场', 'nmod']
+['VERB', 'PART', 'compound']	['游乐', '场', 'compound']
+['PART', 'VERB', 'obj']	['场', '成', 'obj']
+['PUNCT', 'VERB', 'punct']	['；', '继续', 'punct']
+['PROPN', 'NOUN', 'nmod']	['伊比利', '半岛', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['半岛', '继续', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '继续', 'advmod']
+['VERB', 'VERB', 'parataxis']	['继续', '继续', 'parataxis']
+['VERB', 'VERB', 'xcomp']	['成', '继续', 'xcomp']
+['VERB', 'VERB', 'mark']	['为', '成', 'mark']
+['ADP', 'PROPN', 'case']	['向', '美洲', 'case']
+['PROPN', 'PROPN', 'nmod']	['拉丁', '美洲', 'nmod']
+['PROPN', 'VERB', 'obl']	['美洲', '投射', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['投射', '风景', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['出', '投射', 'mark']
+['PART', 'VERB', 'mark:rel']	['的', '投射', 'mark:rel']
+['PROPN', 'NOUN', 'nmod']	['欧洲', '风景', 'nmod']
+['NOUN', 'VERB', 'obj']	['风景', '成', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '继续', 'punct']
 ----------------------------------------------------------------------
-矛盾的是，放宽离婚法律可能会刺激婚姻。
+这些事情都很有趣，但现实中都不是大戏——尽管很少有人会承认，出于礼貌和对旧有的尊重。
 
-(ROOT (IP (NP (CP (CP (IP (VP (JJ 矛盾))) (DEC 的)))) (VP (VC 是) (, ，) (IP (NP (CP (IP (VP (VV 放) (VP (PFA 宽))))) (NP (NN 离婚) (NN 法律))) (VP (MD 可能) (VP (MD 会) (VP (VV 刺激) (NP (NN 婚姻))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'CP': {}}}
-{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+(ROOT (IP (IP (NP (DP (DT 这些)) (NP (NN 事情))) (VP (ADVP (RB 都)) (ADVP (RB 很)) (VP (JJ 有趣)))) (, ，) (IP (ADVP (RB 但)) (LCP (NP (NN 现实)) (IN 中)) (VP (ADVP (RB 都)) (VP (VC 不是) (NP (NN 大戏))))) (HYPH —) (HYPH —)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP57422': {}, 'HYPH': {}, 'HYPH56022': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, 'HYPH': {}, 'HYPH': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP88063': {'ADVP': {}, 'LCP': {}, 'VP': {}}, 'HYPH': {}, 'HYPH4529': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'LCP': {}, 'VP': {}}, 'HYPH': {}, 'HYPH': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'LCP': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这些', '事情', 'det']
+['NOUN', 'ADJ', 'nsubj']	['事情', '有趣', 'nsubj']
+['ADV', 'ADJ', 'mark']	['都', '有趣', 'mark']
+['ADV', 'ADJ', 'advmod']	['很', '有趣', 'advmod']
+['ADJ', 'ROOT', 'root']	['有趣', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['，', '大戏', 'punct']
+['ADV', 'NOUN', 'mark']	['但', '大戏', 'mark']
+['NOUN', 'NOUN', 'obl']	['现实', '大戏', 'obl']
+['ADP', 'NOUN', 'case']	['中', '现实', 'case']
+['ADV', 'NOUN', 'mark']	['都', '大戏', 'mark']
+['AUX', 'NOUN', 'cop']	['是', '大戏', 'cop']
+['NOUN', 'ADJ', 'parataxis']	['大戏', '有趣', 'parataxis']
+['PUNCT', 'NOUN', 'punct']	['—', '大戏', 'punct']
+['PUNCT', 'NOUN', 'punct']	['—', '大戏', 'punct']
 ----------------------------------------------------------------------
-如果她们知道婚姻可以解除，而不仅仅是因为她们可以逃离不幸的婚姻，那么现在宁愿远离婚姻的女性可能会更愿意结婚。因为她们的自由让她们的丈夫保持警惕。
+这些趋势肯定不是石头上刻的，它们可以通过启动不同的趋势而逆转和改变。
 
-(ROOT (IP (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 她们)) (VP (VV 知道) (IP (NP (NN 婚姻)) (VP (MD 可以) (VP (VV 解除))))))) (, ，) (ADVP (RB 而)) (VP (ADVP (RB 不)) (ADVP (RB 仅仅)) (VP (VC 是) (PP (IN 因为) (IP (NP (PRP 她们)) (VP (MD 可以) (VP (VV 逃离) (NP (CP (CP (IP (VP (JJ 不幸))) (DEC 的))) (NP (NN 婚姻)))))))))) (, ，) (IP (ADVP (RB 那么)) (NP (NN 现在)) (NP (CP (CP (IP (VP (VV 宁愿) (IP (VP (VV 远离) (NP (NN 婚姻)))))) (DEC 的))) (NP (NN 女性))) (VP (MD 可能) (VP (MD 会) (VP (ADVP (RB 更)) (VP (MD 愿意) (IP (VP (VV 结婚)))))))) (. 。)))
+(ROOT (IP (IP (NP (DP (DT 这些)) (NP (NN 趋势))) (VP (ADVP (VV 肯定)) (VP (VC 不是) (NP (CP (CP (IP (LCP (NP (NN 石)) (NN 头上)) (VP (VV 刻))) (UH 的))))))) (, ，) (IP (NP (PRP 它们)) (VP (MD 可以) (VP (PP (IN 通过) (IP (VP (VV 启动) (NP (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (NN 趋势)))))) (VP (RB 而) (VP (VV 逆转) (CC 和) (VV 改变)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP28788': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP95982': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这些', '趋势', 'det']
+['NOUN', 'VERB', 'nsubj']	['趋势', '肯定', 'nsubj']
+['VERB', 'ROOT', 'root']	['肯定', 'NONE', 'root']
+['AUX', 'VERB', 'cop']	['是', '刻', 'cop']
+['NOUN', 'VERB', 'nsubj']	['石', '刻', 'nsubj']
+['NOUN', 'VERB', 'nsubj']	['头上', '刻', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['刻', '肯定', 'ccomp']
+['PART', 'VERB', 'discourse']	['的', '刻', 'discourse']
+['PUNCT', 'VERB', 'punct']	['，', '逆转', 'punct']
+['PRON', 'VERB', 'nsubj']	['它', '逆转', 'nsubj']
+['AUX', 'VERB', 'aux']	['可以', '逆转', 'aux']
+['ADP', 'VERB', 'case']	['通过', '启动', 'case']
+['VERB', 'VERB', 'xcomp']	['启动', '逆转', 'xcomp']
+['ADJ', 'NOUN', 'amod']	['不同', '趋势', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '不同', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['趋势', '启动', 'obj']
+['ADV', 'VERB', 'mark']	['而', '逆转', 'mark']
+['VERB', 'VERB', 'parataxis']	['逆转', '肯定', 'parataxis']
+['CCONJ', 'VERB', 'cc']	['和', '改变', 'cc']
+['VERB', 'VERB', 'conj']	['改变', '逆转', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '肯定', 'punct']
 ----------------------------------------------------------------------
-家庭法应该规定，离婚妇女应该得到更多的配偶资产。
+但要做到这一点，欧洲应该制定自己的统一的亚洲政策，确定自己的优先事项，并学会在欧元和欧洲防御战略问题上团结一致。
 
-(ROOT (IP (NP (NN 家庭) (SFN 法)) (VP (MD 应该) (VP (VV 规定) (, ，) (IP (NP (NN 离婚) (NN 妇女)) (VP (MD 应该) (VP (VV 得到) (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的))) (NP (NN 配偶) (NN 资产)))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}, 'SFN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}, 'SFN': {}}}
+(ROOT (IP (ADVP (RB 但)) (IP (VP (MD 要) (VP (VV 做到) (DP (DT 这) (QP (CD 一) (CLP (NN 点))))))) (, ，) (NP (NNP 欧洲)) (VP (MD 应该) (VP (VP (VV 制定) (NP (DNP (NP (PRD 自己)) (DEC 的)) (CP (CP (IP (VP (JJ 统一))) (DEC 的))) (NP (NNP 亚洲)) (NP (NN 政策)))) (, ，) (VP (VV 确定) (NP (DNP (NP (PRD 自己)) (DEC 的)) (ADJP (JJ 优先)) (NP (NN 事项)))) (, ，) (RB 并) (VP (VV 学会) (IP (VP (PP (IN 在) (LCP (NP (NP (NP (NNP 欧) (NNP 元) (CC 和) (NNP 欧洲)) (NP (NN 防御) (NN 战略))) (NP (NN 问题))) (IN 上))) (VP (VCD (VV 团结) (JJ 一致)))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'IP': {'VP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'IP': {'VP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'NNP': {}}}
 {'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['但', '做到', 'mark']
+['AUX', 'VERB', 'aux']	['要', '做到', 'aux']
+['VERB', 'VERB', 'advcl']	['做到', '学会', 'advcl']
+['DET', 'NOUN', 'det']	['这', '点', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '点', 'nummod']
+['NOUN', 'VERB', 'obj']	['点', '做到', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '做到', 'punct']
+['PROPN', 'VERB', 'nsubj']	['欧洲', '学会', 'nsubj']
+['AUX', 'VERB', 'aux']	['应该', '制定', 'aux']
+['VERB', 'VERB', 'advcl']	['制定', '学会', 'advcl']
+['PRON', 'NOUN', 'det']	['自己', '政策', 'det']
+['PART', 'PRON', 'case']	['的', '自己', 'case']
+['ADJ', 'NOUN', 'acl:relcl']	['统一', '政策', 'acl:relcl']
+['PART', 'ADJ', 'mark:rel']	['的', '统一', 'mark:rel']
+['PROPN', 'NOUN', 'nmod']	['亚洲', '政策', 'nmod']
+['NOUN', 'VERB', 'obj']	['政策', '制定', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '制定', 'punct']
+['VERB', 'VERB', 'advcl']	['确定', '学会', 'advcl']
+['PRON', 'NOUN', 'det']	['自己', '事项', 'det']
+['PART', 'PRON', 'case']	['的', '自己', 'case']
+['ADJ', 'NOUN', 'amod']	['优先', '事项', 'amod']
+['NOUN', 'VERB', 'obj']	['事项', '确定', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '确定', 'punct']
+['ADV', 'VERB', 'mark']	['并', '学会', 'mark']
+['VERB', 'ROOT', 'root']	['学会', 'NONE', 'root']
+['ADP', 'NOUN', 'case']	['在', '问题', 'case']
+['PROPN', 'PROPN', 'nmod']	['欧', '元', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['元', '问题', 'nmod']
+['CCONJ', 'PROPN', 'cc']	['和', '欧洲', 'cc']
+['PROPN', 'PROPN', 'conj']	['欧洲', '元', 'conj']
+['NOUN', 'NOUN', 'nmod']	['防御', '问题', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['战略', '问题', 'nmod']
+['NOUN', 'ADJ', 'nmod']	['问题', '一致', 'nmod']
+['ADP', 'NOUN', 'case']	['上', '问题', 'case']
+['VERB', 'VERB', 'xcomp']	['团结', '学会', 'xcomp']
+['ADJ', 'VERB', 'xcomp']	['一致', '团结', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '学会', 'punct']
 ----------------------------------------------------------------------
-各国政府还应该立法，要求雇主提供产假和陪产假，并提供或补贴育儿服务。
+然而，欧洲或欧洲各国并没有意识到自身的边缘化，更不会有任何反应的迹象。
 
-(ROOT (IP (NP (NP (NN 各国)) (NP (NN 政府))) (VP (ADVP (RB 还)) (VP (MD 应该) (VP (VP (VV 立法)) (, ，) (VP (VV 要求) (NP (NN 雇主)) (IP (VP (VV 提供) (NP (NN 产假) (CC 和) (VV 陪) (NN 产假))))) (, ，) (RB 并) (VP (VP (VV 提供)) (CC 或) (VP (VV 补贴) (NP (NN 育儿) (NN 服务))))))) (. 。)))
+(ROOT (IP (ADVP (RB 然而)) (, ，) (NP (NP (NNP 欧洲) (CC 或) (NNP 欧洲)) (NP (NN 各国))) (VP (VP (ADVP (RB 并)) (VP (VV 没有) (VP (VRD (VV 意识) (VV 到)) (NP (DNP (NP (PRD 自身)) (DEC 的)) (NP (NN 边缘) (SFV 化)))))) (, ，) (VP (ADVP (RB 更)) (VP (MD 不会) (VP (VV 有) (NP (DNP (NP (DP (DT 任何)) (NP (NN 反应))) (DEC 的)) (NP (NN 迹象))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NP': {}, 'NP39874': {}}, 'VP': {'VP': {}, ',': {}, 'VP77802': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['然而', '有', 'mark']
+['PUNCT', 'ADV', 'punct']	['，', '然而', 'punct']
+['PROPN', 'NOUN', 'nmod']	['欧洲', '各国', 'nmod']
+['CCONJ', 'PROPN', 'cc']	['或', '欧洲', 'cc']
+['PROPN', 'PROPN', 'conj']	['欧洲', '欧洲', 'conj']
+['NOUN', 'VERB', 'nsubj']	['各国', '有', 'nsubj']
+['ADV', 'VERB', 'mark']	['并', '有', 'mark']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['意识', '有', 'xcomp']
+['VERB', 'VERB', 'mark']	['到', '意识', 'mark']
+['PRON', 'PART', 'det']	['自身', '化', 'det']
+['PART', 'PRON', 'case']	['的', '自身', 'case']
+['NOUN', 'PART', 'compound']	['边缘', '化', 'compound']
+['PART', 'VERB', 'ccomp']	['化', '意识', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '意识', 'punct']
+['ADV', 'VERB', 'advmod']	['更', '有', 'advmod']
+['AUX', 'VERB', 'aux']	['会', '有', 'aux']
+['VERB', 'VERB', 'xcomp']	['有', '有', 'xcomp']
+['DET', 'NOUN', 'det']	['任何', '反应', 'det']
+['NOUN', 'NOUN', 'nmod']	['反应', '迹象', 'nmod']
+['PART', 'NOUN', 'case']	['的', '反应', 'case']
+['NOUN', 'VERB', 'obj']	['迹象', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+欧洲漫画博物馆将于 1 月 20 日前举办“欧洲漫画”展览。
+
+(ROOT (IP (NP (NNP 欧洲) (NN 漫画) (NN 博物) (SFN 馆)) (VP (ADVP (RB 将)) (PP (IN 于) (NP (CD 1) (NNB 月) (CD 20))) (ADVP (NNB 日前)) (VP (VV 举办) (NP (NP (`` “) (NP (NNP 欧洲)) (NP (NN 漫画)) ('' ”)) (NP (NN 展览))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, 'NN': {}, 'NN77129': {}, 'SFN': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'ADVP16657': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, 'NN': {}, 'NN': {}, 'SFN': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}, 'NN': {}, 'NN': {}, 'SFN': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'PART', 'nmod']	['欧洲', '馆', 'nmod']
+['NOUN', 'PART', 'nmod']	['漫画', '馆', 'nmod']
+['NOUN', 'PART', 'compound']	['博物', '馆', 'compound']
+['PART', 'VERB', 'nsubj']	['馆', '举办', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '举办', 'advmod']
+['ADP', 'NOUN', 'case']	['于', '日前', 'case']
+['NUM', 'NOUN', 'nummod']	['1', '月', 'nummod']
+['NOUN', 'NOUN', 'clf']	['月', '日前', 'clf']
+['NUM', 'NOUN', 'nummod']	['20', '日前', 'nummod']
+['NOUN', 'VERB', 'obl']	['日前', '举办', 'obl']
+['VERB', 'ROOT', 'root']	['举办', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['“', '漫画', 'punct']
+['PROPN', 'NOUN', 'nmod']	['欧洲', '展览', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['漫画', '展览', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['”', '漫画', 'punct']
+['NOUN', 'VERB', 'obj']	['展览', '举办', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '举办', 'punct']
+----------------------------------------------------------------------
+如果这样的话，整个地缘政治游戏将会发生巨大变化。
+
+(ROOT (IP (IP (VP (ADVP (IN 如果)) (ADVP (PRD 这样)) (VP (UH 的话)))) (, ，) (NP (DP (DT 整个)) (NP (NN 地缘) (NN 政治) (NN 游戏))) (VP (ADVP (RB 将)) (VP (MD 会) (VP (VV 发生) (NP (ADJP (JJ 巨大)) (NP (NN 变化)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'PRON', 'case']	['如果', '这样', 'case']
+['PRON', 'VERB', 'obl']	['这样', '发生', 'obl']
+['PART', 'PRON', 'discourse']	['的话', '这样', 'discourse']
+['PUNCT', 'PRON', 'punct']	['，', '这样', 'punct']
+['DET', 'NOUN', 'det']	['整个', '游戏', 'det']
+['NOUN', 'NOUN', 'nmod']	['地缘', '游戏', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['政治', '游戏', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['游戏', '发生', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '发生', 'advmod']
+['AUX', 'VERB', 'aux']	['会', '发生', 'aux']
+['VERB', 'ROOT', 'root']	['发生', 'NONE', 'root']
+['ADJ', 'NOUN', 'amod']	['巨大', '变化', 'amod']
+['NOUN', 'VERB', 'obj']	['变化', '发生', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '发生', 'punct']
+----------------------------------------------------------------------
+欧洲毕竟还是世界上最大的贸易大国，但它是一个没有腿的巨人，有25个头。
+
+(ROOT (IP (IP (NP (NNP 欧洲)) (VP (ADVP (RB 毕竟)) (VP (VC 还是) (NP (CP (CP (IP (VP (LCP (NP (NN 世界)) (IN 上)) (VP (JJ 最大)))) (DEC 的))) (NP (NN 贸易) (NN 大国)))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 它)) (VP (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 没有) (NP (NN 腿)))) (DEC 的))) (NP (NN 巨人)))) (, ，) (VP (VV 有) (NP (QP (CD 25) (CLP (NNB 个))) (NP (NN 头)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP76648': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP34476': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nsubj']	['欧洲', '大国', 'nsubj']
+['ADV', 'NOUN', 'advmod']	['毕竟', '大国', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '大国', 'cop']
+['NOUN', 'ADJ', 'obl']	['世界', '最大', 'obl']
+['ADP', 'NOUN', 'case']	['上', '世界', 'case']
+['ADJ', 'NOUN', 'amod']	['最大', '大国', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '最大', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['贸易', '大国', 'nmod']
+['NOUN', 'ROOT', 'root']	['大国', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['ADV', 'VERB', 'mark']	['但', '有', 'mark']
+['PRON', 'VERB', 'nsubj']	['它', '有', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '巨人', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '巨人', 'clf']
+['VERB', 'NOUN', 'acl:relcl']	['有', '巨人', 'acl:relcl']
+['NOUN', 'VERB', 'obj']	['腿', '有', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '有', 'mark:rel']
+['NOUN', 'VERB', 'advcl']	['巨人', '有', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['，', '巨人', 'punct']
+['VERB', 'NOUN', 'parataxis']	['有', '大国', 'parataxis']
+['NUM', 'NOUN', 'nummod']	['25', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '头', 'clf']
+['NOUN', 'VERB', 'obj']	['头', '有', 'obj']
+['PUNCT', 'NOUN', 'punct']	['。', '大国', 'punct']
+----------------------------------------------------------------------
+欧洲各国政府是否会从美中对话中得到提示，认识到他们必须立即行动，因为五年或十年后就太迟了？
+
+(ROOT (IP (IP (NP (NP (NNP 欧洲) (NN 各国)) (NP (NN 政府))) (VP (ADVP (VC 是否)) (VP (MD 会) (VP (VP (PP (IN 从) (LCP (NP (NP (NNP 美中)) (NP (NN 对话))) (IN 中))) (VP (VV 得到) (NP (NN 提示)))) (, ，) (VP (VRD (VV 认识) (VV 到)) (IP (NP (PRP 他们)) (VP (MD 必须) (VP (ADVP (RB 立即)) (VP (VV 行动)))))))))) (, ，) (PP (IN 因为) (IP (VP (LCP (QP (QP (CD 五) (CLP (NNB 年))) (CC 或) (QP (CD 十) (CLP (NNB 年)))) (IN 后)) (ADVP (RB 就)) (VP (VV 太迟) (UH 了))))) (. ？)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['欧洲', '政府', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['各国', '政府', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['政府', '认识', 'nsubj']
+['VERB', 'VERB', 'advcl']	['是', '认识', 'advcl']
+['AUX', 'VERB', 'aux']	['会', '得到', 'aux']
+['ADP', 'NOUN', 'case']	['从', '对话', 'case']
+['PROPN', 'NOUN', 'nmod']	['美中', '对话', 'nmod']
+['NOUN', 'VERB', 'obl']	['对话', '得到', 'obl']
+['ADP', 'NOUN', 'case']	['中', '对话', 'case']
+['VERB', 'VERB', 'xcomp']	['得到', '是', 'xcomp']
+['NOUN', 'VERB', 'obj']	['提示', '得到', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['VERB', 'ROOT', 'root']	['认识', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['到', '认识', 'mark']
+['PRON', 'VERB', 'nsubj']	['他', '行动', 'nsubj']
+['AUX', 'VERB', 'aux']	['必须', '行动', 'aux']
+['ADV', 'VERB', 'advmod']	['立即', '行动', 'advmod']
+['VERB', 'VERB', 'ccomp']	['行动', '认识', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '太迟', 'punct']
+['ADP', 'NOUN', 'case']	['因为', '年', 'case']
+['NUM', 'NOUN', 'nummod']	['五', '年', 'nummod']
+['NOUN', 'VERB', 'obl']	['年', '太迟', 'obl']
+['CCONJ', 'NOUN', 'cc']	['或', '年', 'cc']
+['NUM', 'NOUN', 'nummod']	['十', '年', 'nummod']
+['NOUN', 'NOUN', 'conj']	['年', '年', 'conj']
+['ADP', 'NOUN', 'case']	['后', '年', 'case']
+['ADV', 'VERB', 'mark']	['就', '太迟', 'mark']
+['VERB', 'VERB', 'ccomp']	['太迟', '认识', 'ccomp']
+['PART', 'VERB', 'discourse']	['了', '太迟', 'discourse']
+['PUNCT', 'VERB', 'punct']	['？', '太迟', 'punct']
+----------------------------------------------------------------------
+不太可能。
+
+(ROOT (IP (VP (ADVP (RB 不)) (ADVP (RB 太)) (VP (MD 可能))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'ADVP': {}, 'ADVP97977': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'AUX', 'advmod']	['不', '可能', 'advmod']
+['ADV', 'AUX', 'advmod']	['太', '可能', 'advmod']
+['AUX', 'ROOT', 'root']	['可能', 'NONE', 'root']
+['PUNCT', 'AUX', 'punct']	['。', '可能', 'punct']
+----------------------------------------------------------------------
+没有一个政府愿意向布鲁塞尔或其他欧洲国家政府妥协，欧洲甚至没有一种官方语言。
+
+(ROOT (IP (IP (VP (VV 没有) (IP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 政府))) (VP (MD 愿意) (IP (VP (PP (IN 向) (NP (NP (NNP 布鲁塞尔)) (CC 或) (NP (NP (DP (DT 其他)) (NP (NNP 欧洲)) (NP (NN 国家))) (NP (NN 政府))))) (VP (VV 妥协)))))))) (, ，) (IP (NP (NNP 欧洲)) (VP (ADVP (RB 甚至)) (VP (VV 没有) (NP (QP (CD 一) (CLP (NNB 种))) (NP (NN 官方) (NN 语言)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP49576': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP90757': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '政府', 'clf']
+['NOUN', 'VERB', 'nsubj']	['政府', '妥协', 'nsubj']
+['AUX', 'VERB', 'aux']	['愿意', '妥协', 'aux']
+['ADP', 'PROPN', 'case']	['向', '布鲁塞尔', 'case']
+['PROPN', 'VERB', 'obl']	['布鲁塞尔', '妥协', 'obl']
+['CCONJ', 'NOUN', 'cc']	['或', '国家', 'cc']
+['DET', 'NOUN', 'det']	['其他', '国家', 'det']
+['PROPN', 'NOUN', 'nmod']	['欧洲', '国家', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['国家', '政府', 'nmod']
+['NOUN', 'VERB', 'obl']	['政府', '妥协', 'obl']
+['VERB', 'VERB', 'ccomp']	['妥协', '有', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['PROPN', 'VERB', 'nsubj']	['欧洲', '有', 'nsubj']
+['ADV', 'VERB', 'mark']	['甚至', '有', 'mark']
+['VERB', 'VERB', 'parataxis']	['有', '有', 'parataxis']
+['NUM', 'NOUN', 'nummod']	['一', '种', 'nummod']
+['NOUN', 'NOUN', 'clf']	['种', '语言', 'clf']
+['NOUN', 'NOUN', 'nmod']	['官方', '语言', 'nmod']
+['NOUN', 'VERB', 'obj']	['语言', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+布鲁塞尔有 25 种语言，而口译员在一些无用工作的凯恩斯主义计划下很有用。
+
+(ROOT (IP (IP (NP (NNP 布鲁塞尔)) (VP (VV 有) (NP (QP (CD 25) (CLP (NNB 种))) (NP (NN 语言))))) (, ，) (IP (NP (RB 而口) (NN 译员)) (VP (PP (IN 在) (LCP (NP (QP (JJ 一些)) (CP (CP (IP (VP (ADJP (JJ 无用)) (VP (NN 工作)))) (DEC 的))) (NP (NNP 凯恩斯) (NN 主义)) (NP (NN 计划))) (IN 下))) (ADVP (RB 很)) (VP (JJ 有用)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP79639': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP58367': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['布鲁塞尔', '有', 'nsubj']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['NUM', 'NOUN', 'nummod']	['25', '种', 'nummod']
+['NOUN', 'NOUN', 'clf']	['种', '语言', 'clf']
+['NOUN', 'VERB', 'obj']	['语言', '有', 'obj']
+['PUNCT', 'ADJ', 'punct']	['，', '有用', 'punct']
+['ADV', 'ADJ', 'advmod']	['而口', '有用', 'advmod']
+['NOUN', 'ADJ', 'nsubj']	['译员', '有用', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '计划', 'case']
+['ADJ', 'NOUN', 'amod']	['一些', '工作', 'amod']
+['ADJ', 'NOUN', 'amod']	['无用', '工作', 'amod']
+['NOUN', 'NOUN', 'nmod']	['工作', '计划', 'nmod']
+['PART', 'NOUN', 'case']	['的', '工作', 'case']
+['PROPN', 'NOUN', 'nmod']	['凯恩斯', '计划', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['主义', '计划', 'nmod']
+['NOUN', 'ADJ', 'nmod']	['计划', '有用', 'nmod']
+['ADP', 'NOUN', 'case']	['下', '计划', 'case']
+['ADV', 'ADJ', 'advmod']	['很', '有用', 'advmod']
+['ADJ', 'VERB', 'parataxis']	['有用', '有', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+如果某个欧洲政党代表欧洲发言，它不知道从哪个语言开始。
+
+(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (DP (DT 某个)) (NP (NNP 欧洲)) (NP (NN 政党))) (VP (VP (VV 代表) (NP (NNP 欧洲))) (VP (VV 发言))))) (, ，) (NP (PRP 它)) (VP (ADVP (RB 不)) (VP (VV 知道) (IP (VP (PP (IN 从) (NP (DP (DT 哪) (CLP (NNB 个))) (NP (NN 语言)))) (VP (VV 开始)))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['如果', '发言', 'case']
+['DET', 'NOUN', 'det']	['某个', '政党', 'det']
+['PROPN', 'NOUN', 'nmod']	['欧洲', '政党', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['政党', '发言', 'nsubj']
+['VERB', 'VERB', 'advcl']	['代表', '发言', 'advcl']
+['PROPN', 'VERB', 'obj']	['欧洲', '代表', 'obj']
+['VERB', 'VERB', 'ccomp']	['发言', '知道', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '发言', 'punct']
+['PRON', 'VERB', 'nsubj']	['它', '知道', 'nsubj']
+['ADV', 'VERB', 'advmod']	['不', '知道', 'advmod']
+['VERB', 'ROOT', 'root']	['知道', 'NONE', 'root']
+['ADP', 'NOUN', 'case']	['从', '语言', 'case']
+['DET', 'NOUN', 'det']	['哪', '个', 'det']
+['NOUN', 'NOUN', 'clf']	['个', '语言', 'clf']
+['NOUN', 'VERB', 'obl']	['语言', '开始', 'obl']
+['VERB', 'VERB', 'xcomp']	['开始', '知道', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '知道', 'punct']
+----------------------------------------------------------------------
+对于不信教的欧盟来说，这一点很奇怪，非常聪明的天主教枢机官，精通十几种语言，是唯一能够与几乎所有欧洲人交谈的官员。
+
+(ROOT (IP (IP (IP (VP (PP (IN 对于) (NP (CP (CP (IP (VP (ADVP (RB 不)) (VP (VV 信教)))) (DEC 的))) (NP (NNP 欧盟)))) (VP (RB 来) (VP (VV 说))))) (, ，) (DP (PRD 这) (CLP (JJ 一点))) (VP (ADVP (RB 很)) (VP (JJ 奇怪)))) (, ，) (IP (NP (CP (CP (IP (VP (ADVP (RB 非常)) (VP (JJ 聪明)))) (DEC 的))) (NP (NNP 天主) (SFN 教)) (NP (NN 枢机) (SFN 官))) (, ，) (VP (VP (VV 精通) (NP (QP (CD 十) (QP (CD 几) (CLP (NNB 种)))) (NP (NN 语言)))) (, ，) (VP (VC 是) (NP (ADJP (JJ 唯一)) (CP (CP (IP (VP (MD 能够) (VP (PP (IN 与) (NP (DP (ADVP (RB 几乎)) (DP (DT 所有))) (NP (NNP 欧洲)) (NP (SFN 人)))) (VP (VV 交谈))))) (DEC 的))) (NP (NN 官员)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP2070': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'DP': {}, 'VP': {}}, ',': {}, 'IP8858': {'NP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'DP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'DP': {}, 'VP': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'PROPN', 'case']	['对于', '欧盟', 'case']
+['ADV', 'VERB', 'advmod']	['不', '信教', 'advmod']
+['VERB', 'PROPN', 'acl:relcl']	['信教', '欧盟', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '信教', 'mark:rel']
+['PROPN', 'VERB', 'obl']	['欧盟', '说', 'obl']
+['ADV', 'VERB', 'mark']	['来', '说', 'mark']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'ADJ', 'punct']	['，', '奇怪', 'punct']
+['PRON', 'ADJ', 'nsubj']	['这', '奇怪', 'nsubj']
+['ADJ', 'ADJ', 'advcl']	['一点', '奇怪', 'advcl']
+['ADV', 'ADJ', 'advmod']	['很', '奇怪', 'advmod']
+['ADJ', 'VERB', 'ccomp']	['奇怪', '说', 'ccomp']
+['PUNCT', 'NOUN', 'punct']	['，', '官员', 'punct']
+['ADV', 'ADJ', 'advmod']	['非常', '聪明', 'advmod']
+['ADJ', 'PART', 'amod']	['聪明', '官', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '聪明', 'mark:rel']
+['PROPN', 'PART', 'compound']	['天主', '教', 'compound']
+['PART', 'PART', 'nmod']	['教', '官', 'nmod']
+['NOUN', 'PART', 'compound']	['枢机', '官', 'compound']
+['PART', 'NOUN', 'nsubj']	['官', '官员', 'nsubj']
+['PUNCT', 'PART', 'punct']	['，', '官', 'punct']
+['VERB', 'NOUN', 'acl']	['精通', '官员', 'acl']
+['NUM', 'NOUN', 'nummod']	['十', '种', 'nummod']
+['NUM', 'NOUN', 'nummod']	['几', '种', 'nummod']
+['NOUN', 'NOUN', 'clf']	['种', '语言', 'clf']
+['NOUN', 'VERB', 'obj']	['语言', '精通', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '精通', 'punct']
+['AUX', 'NOUN', 'cop']	['是', '官员', 'cop']
+['ADJ', 'NOUN', 'amod']	['唯一', '官员', 'amod']
+['AUX', 'VERB', 'aux']	['能够', '交谈', 'aux']
+['ADP', 'PART', 'case']	['与', '人', 'case']
+['ADV', 'DET', 'advmod']	['几乎', '所有', 'advmod']
+['DET', 'PART', 'det']	['所有', '人', 'det']
+['PROPN', 'PART', 'compound']	['欧洲', '人', 'compound']
+['PART', 'VERB', 'obl']	['人', '交谈', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['交谈', '官员', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '交谈', 'mark:rel']
+['NOUN', 'VERB', 'ccomp']	['官员', '说', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
+----------------------------------------------------------------------
+事实上，统一的理由毫无用处，但现有的机构做了一件积极的事：他们检查和限制单个国家的政治运动和议程。
+
+(ROOT (IP (IP (LCP (NP (NN 事实)) (IN 上)) (, ，) (NP (CP (IP (VP (JJ 统一))) (DEC 的)) (NP (NN 理由))) (VP (VV 毫无) (NP (VV 用) (NN 处)))) (, ，) (IP (ADVP (RB 但)) (NP (DNP (ADJP (VV 现有)) (DEC 的)) (NP (NN 机构))) (VP (VV 做) (AS 了) (NP (QP (CD 一) (CLP (NNB 件))) (CP (CP (IP (VP (JJ 积极))) (DEC 的))) (NP (NN 事))))) (: ：) (IP (NP (PRP 他们)) (VP (VP (VV 检查)) (CC 和) (VP (VV 限制) (NP (DNP (NP (QP (CD 单) (CLP (NNB 个))) (NP (NN 国家))) (DEC 的)) (NP (NN 政治) (NN 运动) (VV 和议) (SFN 程)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP32481': {}, ':': {}, 'IP40797': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP88107': {'ADVP': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP88725': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'obl']	['事实', '毫无', 'obl']
+['ADP', 'NOUN', 'case']	['上', '事实', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '事实', 'punct']
+['ADJ', 'NOUN', 'acl:relcl']	['统一', '理由', 'acl:relcl']
+['PART', 'ADJ', 'mark:rel']	['的', '统一', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['理由', '毫无', 'nsubj']
+['VERB', 'ROOT', 'root']	['毫无', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['用', '毫无', 'xcomp']
+['NOUN', 'VERB', 'obj']	['处', '用', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '做', 'punct']
+['ADV', 'VERB', 'mark']	['但', '做', 'mark']
+['VERB', 'NOUN', 'acl:relcl']	['现有', '机构', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '现有', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['机构', '做', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['做', '毫无', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '做', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '件', 'nummod']
+['NOUN', 'NOUN', 'clf']	['件', '事', 'clf']
+['ADJ', 'NOUN', 'amod']	['积极', '事', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '积极', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['事', '做', 'obj']
+['PUNCT', 'VERB', 'punct']	['：', '检查', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '检查', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['检查', '毫无', 'parataxis']
+['CCONJ', 'VERB', 'cc']	['和', '限制', 'cc']
+['VERB', 'VERB', 'conj']	['限制', '检查', 'conj']
+['NUM', 'NOUN', 'nummod']	['单', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '国家', 'clf']
+['NOUN', 'VERB', 'obj']	['国家', '限制', 'obj']
+['PART', 'NOUN', 'case']	['的', '国家', 'case']
+['NOUN', 'PART', 'nmod']	['政治', '程', 'nmod']
+['NOUN', 'PART', 'nmod']	['运动', '程', 'nmod']
+['VERB', 'PART', 'compound']	['和议', '程', 'compound']
+['PART', 'VERB', 'obj']	['程', '检查', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '毫无', 'punct']
+----------------------------------------------------------------------
+这样一来，欧洲国家就既没有团结一致的底气，也没有单独行动的底气。
+
+(ROOT (IP (QP (ADVP (PRD 这样)) (QP (CD 一) (CLP (NN 来)))) (, ，) (NP (NP (NNP 欧洲)) (NP (NN 国家))) (VP (ADVP (RB 就)) (VP (CC 既) (VP (VV 没有) (NP (CP (CP (IP (VP (VCD (VV 团结) (JJ 一致)))) (DEC 的))) (NP (NN 底气)))) (, ，) (RB 也) (VP (VV 没有) (NP (CP (IP (VP (ADVP (RB 单独)) (VP (VV 行动)))) (DEC 的)) (NP (NN 底气)))))) (. 。)))
+layer 2:
+{'IP': {'QP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'QP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'QP': {'ADVP': {}, 'QP': {}}, ',': {}, 'NP': {'NP': {}, 'NP59545': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'QP': {'ADVP': {}, 'QP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'QP': {'ADVP': {}, 'QP': {}}}
 {'NP': {'NP': {}, 'NP': {}}}
 {'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'nmod']	['这样', '来', 'nmod']
+['NUM', 'NOUN', 'nummod']	['一', '来', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['来', '有', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '来', 'punct']
+['PROPN', 'NOUN', 'nmod']	['欧洲', '国家', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['国家', '有', 'nsubj']
+['ADV', 'VERB', 'mark']	['就', '有', 'mark']
+['CCONJ', 'VERB', 'cc']	['既', '有', 'cc']
+['VERB', 'VERB', 'advcl']	['有', '有', 'advcl']
+['VERB', 'VERB', 'xcomp']	['团结', '有', 'xcomp']
+['ADJ', 'NOUN', 'amod']	['一致', '底气', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '一致', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['底气', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['ADV', 'VERB', 'mark']	['也', '有', 'mark']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['ADV', 'VERB', 'advmod']	['单独', '行动', 'advmod']
+['VERB', 'NOUN', 'acl:relcl']	['行动', '底气', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '行动', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['底气', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
 ----------------------------------------------------------------------
-如果承担这些费用有助于促进家庭生活，那么它可能会减轻国家照顾老年人的负担。
+如果他们独自一人，每个人至少都能发挥自己的长处。
 
-(ROOT (IP (CP (ADVP (IN 如果)) (IP (IP (VP (VV 承担) (NP (DP (DT 这些)) (NP (NN 费用))))) (VP (VV 有助) (PP (VV 于) (IP (VP (VV 促进) (NP (NN 家庭) (NN 生活)))))))) (, ，) (ADVP (RB 那么)) (NP (PRP 它)) (VP (MD 可能) (VP (MD 会) (VP (VV 减轻) (NP (CP (IP (NP (NN 国家)) (VP (VV 照顾) (NP (NN 老年) (SFN 人)))) (DEC 的)) (NP (NN 负担)))))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 他们)) (VP (NP (ADVP (RB 独自)) (QP (CD 一)) (NP (NN 人)))))) (, ，) (NP (DP (DT 每个)) (NP (NN 人))) (VP (ADVP (RB 至少)) (VP (MD 都能) (VP (VV 发挥) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 长处)))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
 {'CP': {'ADVP': {}, 'IP': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'ADV', 'case']	['如果', '独自', 'case']
+['PRON', 'ADV', 'nsubj']	['他', '独自', 'nsubj']
+['ADV', 'VERB', 'advmod']	['独自', '发挥', 'advmod']
+['NUM', 'NOUN', 'nummod']	['一', '人', 'nummod']
+['NOUN', 'ADV', 'obj']	['人', '独自', 'obj']
+['PUNCT', 'ADV', 'punct']	['，', '独自', 'punct']
+['DET', 'NOUN', 'det']	['每个', '人', 'det']
+['NOUN', 'VERB', 'nsubj']	['人', '发挥', 'nsubj']
+['ADV', 'VERB', 'advmod']	['至少', '发挥', 'advmod']
+['AUX', 'VERB', 'aux']	['都能', '发挥', 'aux']
+['VERB', 'ROOT', 'root']	['发挥', 'NONE', 'root']
+['PRON', 'NOUN', 'det']	['自己', '长处', 'det']
+['PART', 'PRON', 'case']	['的', '自己', 'case']
+['NOUN', 'VERB', 'obj']	['长处', '发挥', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '发挥', 'punct']
+----------------------------------------------------------------------
+然而，看到欧洲国家摆脱欧盟束缚却很难。
+
+(ROOT (IP (ADVP (RB 然而)) (, ，) (IP (VP (VV 看到) (IP (NP (NP (NNP 欧洲)) (NP (NN 国家))) (VP (VV 摆脱) (NP (NP (NNP 欧盟)) (NP (NN 束缚))))))) (VP (ADVP (RB 却)) (VP (JJ 很难))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'VP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'VP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
 {'ADVP': {'RB': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['然而', '看到', 'mark']
+['PUNCT', 'ADV', 'punct']	['，', '然而', 'punct']
+['VERB', 'ROOT', 'root']	['看到', 'NONE', 'root']
+['PROPN', 'NOUN', 'nmod']	['欧洲', '国家', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['国家', '摆脱', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['摆脱', '看到', 'ccomp']
+['PROPN', 'NOUN', 'nmod']	['欧盟', '束缚', 'nmod']
+['NOUN', 'VERB', 'obj']	['束缚', '摆脱', 'obj']
+['ADV', 'ADJ', 'mark']	['却', '很难', 'mark']
+['ADJ', 'VERB', 'ccomp']	['很难', '看到', 'ccomp']
+['PUNCT', 'ADJ', 'punct']	['。', '很难', 'punct']
 ----------------------------------------------------------------------
-亚洲各国政府长期以来都认为，亚洲家庭生活的优越性是亚洲与西方的巨大差异之一。
+这种缺失已经存在了很长时间，我们发现它已经不再相关了。
 
-(ROOT (IP (NP (NP (NP (NNP 亚洲)) (NP (NN 各国))) (NP (NN 政府))) (VP (LCP (NP (NN 长期)) (IN 以来)) (ADVP (RB 都)) (VP (VV 认为) (, ，) (IP (NP (DNP (NP (NP (NNP 亚洲)) (NP (NN 家庭) (NN 生活))) (DEC 的)) (NP (JJ 优越) (SFN 性))) (VP (VC 是) (NP (DNP (NP (DNP (NP (NNP 亚洲) (CC 与) (NNP 西方)) (DEC 的)) (ADJP (JJ 巨大)) (NP (NN 差异))) (DEC 之)) (NP (CD 一))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'LCP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'LCP': {}, 'ADVP': {}, 'VP': {}}}
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 缺失))) (VP (ADVP (RB 已经)) (VP (VV 存在) (AS 了) (NP (ADJP (JJ 很长)) (NP (NN 时间)))))) (, ，) (IP (NP (PRP 我们)) (VP (VV 发现) (IP (IP (NP (PRP 它)) (VP (ADVP (RB 已经)) (ADVP (RB 不)) (ADVP (RB 再)) (VP (JJ 相关)))) (UH 了)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP68787': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP27218': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '缺失', 'clf']
+['NOUN', 'VERB', 'nsubj']	['缺失', '存在', 'nsubj']
+['ADV', 'VERB', 'advmod']	['已经', '存在', 'advmod']
+['VERB', 'ROOT', 'root']	['存在', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '存在', 'aux']
+['ADJ', 'NOUN', 'amod']	['很长', '时间', 'amod']
+['NOUN', 'VERB', 'obj']	['时间', '存在', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '发现', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '发现', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['发现', '存在', 'parataxis']
+['PRON', 'ADJ', 'nsubj']	['它', '相关', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['已经', '相关', 'advmod']
+['ADV', 'ADJ', 'advmod']	['不', '相关', 'advmod']
+['ADV', 'ADJ', 'advmod']	['再', '相关', 'advmod']
+['ADJ', 'VERB', 'ccomp']	['相关', '发现', 'ccomp']
+['PART', 'VERB', 'discourse']	['了', '发现', 'discourse']
+['PUNCT', 'VERB', 'punct']	['。', '存在', 'punct']
 ----------------------------------------------------------------------
-但是，这种信心已经不再合理。
+然而，这一缺席将给美中关系带来额外的推动。
 
-(ROOT (IP (ADVP (RB 但是)) (, ，) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 信心))) (VP (ADVP (RB 已经)) (ADVP (RB 不)) (ADVP (RB 再)) (VP (JJ 合理))) (. 。)))
+(ROOT (IP (ADVP (RB 然而)) (, ，) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 缺席))) (VP (ADVP (RB 将)) (PP (VV 给) (NP (NP (NNP 美) (NNP 中)) (NP (NN 关系)))) (VP (VV 带来) (NP (DNP (ADJP (JJ 额外)) (DEC 的)) (NP (NN 推动))))) (. 。)))
+layer 2:
 {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
 {'ADVP': {'RB': {}}}
 {'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['然而', '带来', 'mark']
+['PUNCT', 'ADV', 'punct']	['，', '然而', 'punct']
+['DET', 'NOUN', 'det']	['这', '缺席', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '缺席', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['缺席', '带来', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '带来', 'advmod']
+['VERB', 'VERB', 'advcl']	['给', '带来', 'advcl']
+['PROPN', 'NOUN', 'nmod']	['美', '关系', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['中', '关系', 'nmod']
+['NOUN', 'VERB', 'obj']	['关系', '给', 'obj']
+['VERB', 'ROOT', 'root']	['带来', 'NONE', 'root']
+['ADJ', 'NOUN', 'amod']	['额外', '推动', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '额外', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['推动', '带来', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '带来', 'punct']
 ----------------------------------------------------------------------
-他们需要清醒地认识到自己国家正在发生的巨大社会变革，并思考如何应对这些后果。
+对于这两个国家而言，在未来 50 年，没有别的国家会像对方那样具有政治吸引力或有趣。
 
-(ROOT (IP (NP (PRP 他们)) (VP (MD 需要) (VP (VP (DVP (VP (NNP 清)) (NNP 醒地)) (VP (VRD (VV 认识) (VV 到)) (NP (CP (CP (IP (NP (NP (PRD 自己)) (NP (NN 国家))) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 发生)))) (DEC 的))) (ADJP (JJ 巨大)) (NP (NN 社会) (NN 变革))))) (, ，) (RB 并) (VP (VV 思考) (IP (VP (ADVP (RB 如何)) (VP (VV 应对) (NP (DP (DT 这些)) (NP (NN 后果))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
+(ROOT (IP (IP (VP (PP (IN 对于) (NP (DP (DT 这) (QP (CD 两) (CLP (NNB 个)))) (NP (NN 国家)))) (VP (RB 而) (VP (VV 言))))) (, ，) (PP (VV 在) (QP (NP (NN 未来)) (QP (CD 50) (CLP (NNB 年))))) (, ，) (NP (CP (CP (IP (VP (ADVP (RB 没)) (VP (JJ 有别)))) (DEC 的))) (NP (NN 国家))) (VP (MD 会) (VP (PP (IN 像) (NP (PRD 对方))) (ADVP (PRD 那样)) (VP (VV 具有) (NP (NN 政治) (VV 吸引) (SFN 力) (CC 或) (JJ 有趣))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, ',12399': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'PP': {'VV': {}, 'QP': {}}, ',85332': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'PP': {'VV': {}, 'QP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'PP': {'VV': {}, 'QP': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
 {'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['对于', '国家', 'case']
+['DET', 'NOUN', 'det']	['这', '个', 'det']
+['NUM', 'NOUN', 'nummod']	['两', '个', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['个', '国家', 'nmod']
+['NOUN', 'VERB', 'obl']	['国家', '言', 'obl']
+['ADV', 'VERB', 'mark']	['而', '言', 'mark']
+['VERB', 'VERB', 'advcl']	['言', '具有', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '言', 'punct']
+['VERB', 'VERB', 'advcl']	['在', '具有', 'advcl']
+['NOUN', 'NOUN', 'nmod']	['未来', '年', 'nmod']
+['NUM', 'NOUN', 'nummod']	['50', '年', 'nummod']
+['NOUN', 'VERB', 'obj']	['年', '在', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '在', 'punct']
+['ADV', 'ADJ', 'advmod']	['没', '有别', 'advmod']
+['ADJ', 'NOUN', 'amod']	['有别', '国家', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '有别', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['国家', '具有', 'nsubj']
+['AUX', 'VERB', 'aux']	['会', '具有', 'aux']
+['ADP', 'PRON', 'case']	['像', '对方', 'case']
+['PRON', 'VERB', 'obl']	['对方', '具有', 'obl']
+['PRON', 'VERB', 'obl']	['那样', '具有', 'obl']
+['VERB', 'ROOT', 'root']	['具有', 'NONE', 'root']
+['NOUN', 'PART', 'nmod']	['政治', '力', 'nmod']
+['VERB', 'PART', 'compound']	['吸引', '力', 'compound']
+['PART', 'VERB', 'obj']	['力', '具有', 'obj']
+['CCONJ', 'ADJ', 'cc']	['或', '有趣', 'cc']
+['ADJ', 'PART', 'conj']	['有趣', '力', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '具有', 'punct']
+----------------------------------------------------------------------
+即使欧洲在十年内醒悟，也可能已经来不及扭转美国和中国在这十年间形成的紧密关系。
+
+(ROOT (IP (CP (ADVP (IN 即使)) (IP (NP (NNP 欧洲)) (VP (PP (IN 在) (LCP (QP (CD 十) (CLP (NNB 年))) (IN 内))) (VP (VV 醒悟))))) (, ，) (VP (ADVP (RB 也)) (VP (MD 可能) (VP (ADVP (RB 已经)) (VP (RB 来) (VP (VV 不及) (VP (VV 扭转) (NP (CP (CP (IP (NP (NNP 美国) (CC 和) (NNP 中国)) (VP (PP (IN 在) (LCP (QP (CD 这十) (CLP (NNB 年))) (IN 间))) (VP (VV 形成)))) (DEC 的))) (ADJP (JJ 紧密)) (NP (NN 关系))))))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['即使', '醒悟', 'case']
+['PROPN', 'VERB', 'nsubj']	['欧洲', '醒悟', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '年', 'case']
+['NUM', 'NOUN', 'nummod']	['十', '年', 'nummod']
+['NOUN', 'VERB', 'obl']	['年', '醒悟', 'obl']
+['ADP', 'NOUN', 'case']	['内', '年', 'case']
+['VERB', 'VERB', 'ccomp']	['醒悟', '及', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '醒悟', 'punct']
+['ADV', 'VERB', 'mark']	['也', '及', 'mark']
+['AUX', 'VERB', 'aux']	['可能', '及', 'aux']
+['ADV', 'VERB', 'advmod']	['已经', '及', 'advmod']
+['ADV', 'VERB', 'mark']	['来', '及', 'mark']
+['VERB', 'ROOT', 'root']	['及', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['扭转', '及', 'xcomp']
+['PROPN', 'VERB', 'nsubj']	['美国', '形成', 'nsubj']
+['CCONJ', 'PROPN', 'cc']	['和', '中国', 'cc']
+['PROPN', 'PROPN', 'conj']	['中国', '美国', 'conj']
+['ADP', 'NOUN', 'case']	['在', '年', 'case']
+['NUM', 'NOUN', 'nummod']	['这十', '年', 'nummod']
+['NOUN', 'VERB', 'obl']	['年', '形成', 'obl']
+['ADP', 'NOUN', 'case']	['间', '年', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['形成', '关系', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '形成', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['紧密', '关系', 'amod']
+['NOUN', 'VERB', 'obj']	['关系', '扭转', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '及', 'punct']
+----------------------------------------------------------------------
+最终，欧洲的缺席可能成为跨太平洋关系的发酵剂，成为美国与中国之间的粘合剂，就像空气的缺席一样。
+
+(ROOT (IP (IP (ADVP (NN 最终)) (, ，) (NP (DNP (NP (NNP 欧洲)) (DEC 的)) (NP (NN 缺席))) (VP (MD 可能) (VP (VP (VV 成) (VP (VC 为) (NP (CP (CP (IP (VP (VV 跨) (NP (NP (NNP 太平) (SFN 洋)) (NP (NN 关系))))) (DEC 的))) (NP (VV 发酵) (SFN 剂))))) (, ，) (VP (VV 成) (VP (VC 为) (NP (DNP (LCP (NP (NNP 美国) (CC 与) (NNP 中国)) (IN 之间)) (DEC 的)) (NP (VV 粘合) (SFN 剂)))))))) (, ，) (IP (VP (ADVP (RB 就)) (PP (IN 像) (NP (DNP (NP (NN 空气)) (DEC 的)) (NP (NN 缺席)))) (VP (JJ 一样)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP2825': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP66184': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+['NOUN', 'ADJ', 'nmod:tmod']	['最终', '一样', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '最终', 'punct']
+['PROPN', 'NOUN', 'nmod']	['欧洲', '缺席', 'nmod']
+['PART', 'PROPN', 'case']	['的', '欧洲', 'case']
+['NOUN', 'ADJ', 'nsubj']	['缺席', '一样', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '成', 'aux']
+['VERB', 'ADJ', 'advcl']	['成', '一样', 'advcl']
+['VERB', 'VERB', 'mark']	['为', '成', 'mark']
+['VERB', 'PART', 'acl:relcl']	['跨', '剂', 'acl:relcl']
+['PROPN', 'PART', 'compound']	['太平', '洋', 'compound']
+['PART', 'NOUN', 'nmod']	['洋', '关系', 'nmod']
+['NOUN', 'VERB', 'obj']	['关系', '跨', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '跨', 'mark:rel']
+['VERB', 'PART', 'compound']	['发酵', '剂', 'compound']
+['PART', 'VERB', 'obj']	['剂', '成', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '成', 'punct']
+['VERB', 'ADJ', 'advcl']	['成', '一样', 'advcl']
+['VERB', 'VERB', 'mark']	['为', '成', 'mark']
+['PROPN', 'PART', 'nmod']	['美国', '剂', 'nmod']
+['CCONJ', 'PROPN', 'cc']	['与', '中国', 'cc']
+['PROPN', 'PROPN', 'conj']	['中国', '美国', 'conj']
+['ADP', 'PROPN', 'case']	['之间', '美国', 'case']
+['PART', 'PROPN', 'case']	['的', '美国', 'case']
+['VERB', 'PART', 'compound']	['粘合', '剂', 'compound']
+['PART', 'VERB', 'obj']	['剂', '成', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '成', 'punct']
+['ADV', 'ADJ', 'mark']	['就', '一样', 'mark']
+['ADP', 'NOUN', 'case']	['像', '缺席', 'case']
+['NOUN', 'NOUN', 'nmod']	['空气', '缺席', 'nmod']
+['PART', 'NOUN', 'case']	['的', '空气', 'case']
+['NOUN', 'ADJ', 'nmod']	['缺席', '一样', 'nmod']
+['ADJ', 'ROOT', 'root']	['一样', 'NONE', 'root']
+['PUNCT', 'ADJ', 'punct']	['。', '一样', 'punct']
 ----------------------------------------------------------------------

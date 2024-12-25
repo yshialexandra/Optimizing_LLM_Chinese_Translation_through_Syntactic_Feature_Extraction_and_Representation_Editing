@@ -1,572 +1,1778 @@
-伊斯兰教中的同性恋问题开始引起争论。
+John Markoff 发表于 2010 年 4 月 19 日
 
-(ROOT (IP (NP (DNP (LCP (NP (NNP 伊斯兰) (SFN 教)) (IN 中)) (DEC 的)) (NP (NN 同性) (SFN 恋) (NN 问题))) (VP (VV 开始) (VP (VV 引起) (NP (NN 争论)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'VP': {}}}
+(ROOT (IP (NP (FW John) (FW Markoff)) (VP (VV 发表) (PP (IN 于) (NP (CD 2010) (NNB 年 4) (CD 月 19) (NNB 日))))))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'NP': {'FW': {}, 'FW88435': {}}, 'VP': {'VV': {}, 'PP': {}}}}
+{'IP': {'NP': {'FW': {}, 'FW': {}}, 'VP': {'VV': {}, 'PP': {}}}}
+{'NP': {'FW': {}, 'FW': {}}}
+{'VP': {'VV': {}, 'PP': {}}}
+Dependency Features:
+John	发表	nsubj
+Markoff	John	flat:foreign
+发表	ROOT	root
+于	日	case
+2010	年 4	nummod
+年 4	日	clf
+月 19	日	nummod
+日	发表	obl
 ----------------------------------------------------------------------
-但在穆斯林国家，迫害——以及假冒——仍然泛滥。
+但一位直接了解调查情况的人士表示，损失包括谷歌的一项皇冠上的明珠，即一个密码系统，该系统控制了全球数百万用户访问该公司几乎所有网络服务的权限，包括电子邮件和商务应用程序。
 
-(ROOT (IP (ADVP (RB 但)) (PP (VV 在) (NP (NNP 穆斯林) (NN 国家))) (, ，) (NP (NP (VV 迫害)) (HYPH —) (HYPH —) (CC 以及) (NP (JJ 假冒))) (HYPH —) (HYPH —) (VP (ADVP (RB 仍然)) (VP (JJ 泛滥))) (. 。)))
-{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'HYPH': {}, 'HYPH': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'NP': {}, 'HYPH': {}, 'HYPH': {}, 'CC': {}, 'NP': {}}, 'HYPH': {}, 'HYPH': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+(ROOT (IP (ADVP (RB 但)) (NP (QP (CD 一) (CLP (NNB 位))) (CP (CP (IP (VP (ADVP (RB 直接)) (VP (VV 了解) (NP (NN 调查) (NN 情况))))) (DEC 的))) (NP (NN 人士))) (VP (VV 表示) (, ，) (IP (IP (NP (NN 损失)) (VP (VV 包括) (NP (NP (DNP (NP (NNP 谷歌)) (DEC 的)) (QP (CD 一) (CLP (NNB 项))) (DNP (LCP (NP (NN 皇冠)) (IN 上)) (DEC 的)) (NP (NN 明珠))) (, ，) (NP (ADVP (VC 即)) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 密码) (NN 系统))))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 系统))) (VP (VV 控制) (AS 了) (NP (CP (CP (IP (NP (NP (NN 全球)) (QP (CD 数百万)) (NP (NN 用户))) (VP (VV 访问) (NP (NP (DP (DT 该)) (NP (NN 公司))) (DP (ADVP (RB 几乎)) (DP (DT 所有))) (NP (NN 网络) (NN 服务))))) (DEC 的))) (NP (NN 权限))))) (, ，) (IP (VP (VV 包括) (NP (NN 电子) (NN 邮件) (CC 和) (NN 商务) (NN 应用) (NN 程序)))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'QP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'QP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
 {'ADVP': {'RB': {}}}
-{'PP': {'VV': {}, 'NP': {}}}
-{'NP': {'NP': {}, 'HYPH': {}, 'HYPH': {}, 'CC': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-一张传单展示了一个木偶从绞索上悬吊，并建议烧死或石死同性恋者。
-
-(ROOT (IP (NP (QP (CD 一) (CLP (NNB 张))) (NP (NN 传单))) (VP (VV 展示) (AS 了) (IP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 木偶))) (VP (VP (PP (IN 从) (LCP (NP (NN 绞索)) (NN 上))) (VP (VV 悬吊))) (, ，) (RB 并) (VP (VV 建议) (IP (VP (VP (VV 烧死)) (CC 或) (VP (VV 石死) (NP (NN 同性) (SFN 恋) (SFN 者))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'IP': {}}, '.': {}}}
-{'NP': {'QP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'IP': {}}}
-----------------------------------------------------------------------
-另一个人写道：“上帝憎恶你。”
-
-(ROOT (IP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 人))) (VP (VV 写道) (: ：) (IP (`` “) (NP (NNP 上帝)) (VP (VV 憎恶) (NP (PRP 你))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ':': {}, 'IP': {}}}
-----------------------------------------------------------------------
-第三个组织警告同性恋者：“转变，否则就要烧掉你们。”
-
-(ROOT (IP (NP (QP (CD 第三) (CLP (NNB 个))) (NP (NN 组织))) (VP (VV 警告) (NP (NN 同性) (SFN 恋) (SFN 者)) (: ：) (IP (`` “) (VP (VV 转变)) (, ，) (VP (ADVP (VV 否则)) (ADVP (RB 就)) (VP (MD 要) (VP (VV 烧掉) (NP (PRP 你们))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'NP': {'QP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'NP': {}, ':': {}, 'IP': {}}}
-----------------------------------------------------------------------
-1月20日，在英国德比市散发传单的三名穆斯林男子被判犯有仇恨罪。
-
-(ROOT (IP (NP (CD 1) (NNB 月) (CD 20) (NNB 日)) (, ，) (NP (CP (CP (IP (VP (PP (VV 在) (NP (NNP 英国) (NNP 德比) (SFN 市))) (VP (VV 散发) (NP (NN 传单))))) (DEC 的))) (QP (CD 三) (CLP (NNB 名))) (NP (NNP 穆斯林) (NN 男子))) (VP (BB 被) (VP (VV 判犯) (IP (VP (VV 有) (NP (NN 仇恨) (SFN 罪)))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'CP': {}, 'QP': {}, 'NP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}}
-{'NP': {'CP': {}, 'QP': {}, 'NP': {}}}
-{'VP': {'BB': {}, 'VP': {}}}
-----------------------------------------------------------------------
-其中一人卡比尔·艾哈迈德说，他的穆斯林职责是“传递信息”。
-
-(ROOT (IP (NP (NP (NP (NN 其中)) (QP (CD 一)) (NP (NN 人))) (NP (NNP 卡比尔) (/ ·) (NNP 艾哈迈德))) (VP (VV 说) (, ，) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 穆斯林) (NN 职责))) (VP (VC 是) (NP (`` “) (NN 传递) (NN 信息) ('' ”))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-至少在宗教纯粹派的眼中，这一讯息是无可厚非的谴责。
-
-(ROOT (IP (PP (ADVP (RB 至少)) (PP (IN 在) (NP (DNP (NP (NN 宗教) (JJ 纯粹) (SFN 派)) (DEC 的)) (NP (NN 眼中))))) (, ，) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 讯息))) (VP (VC 是) (NP (CP (CP (IP (VP (VV 无) (VP (MD 可) (VP (JJ 厚非))))) (DEC 的))) (NP (NN 谴责)))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'ADVP': {}, 'PP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'PP': {'ADVP': {}, 'PP': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
-----------------------------------------------------------------------
-在对同性恋判处死刑的七个国家中，所有国家都是穆斯林国家。
-
-(ROOT (IP (PP (IN 在) (LCP (NP (CP (CP (IP (VP (PP (IN 对) (NP (NN 同性) (SFN 恋))) (VP (VV 判处) (NP (NN 死刑))))) (DEC 的))) (QP (CD 七) (CLP (NNB 个))) (NP (NN 国家))) (IN 中))) (, ，) (NP (DP (DT 所有)) (NP (NN 国家))) (VP (VC 都是) (NP (NN 穆斯林) (NN 国家))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
-----------------------------------------------------------------------
-即使同性恋不会被处决，但迫害也是普遍存在的。
-
-(ROOT (IP (CP (ADVP (IN 即使)) (IP (NP (NN 同性) (SFN 恋)) (VP (MD 不会) (VP (BB 被) (VP (VV 处决)))))) (, ，) (ADVP (RB 但)) (NP (NN 迫害)) (VP (RB 也是) (NP (CP (CP (IP (VP (ADVP (RB 普遍)) (VP (VV 存在)))) (UH 的))))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'NN': {}}, 'VP': {'RB': {}, 'NP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'RB': {}, 'NP': {}}}
-----------------------------------------------------------------------
-2010 年，一名沙特男子因与另一名男子发生性关系而被判处 500 下鞭笞和五年监禁。
-
-(ROOT (IP (NP (CD 2010) (NNB 年)) (, ，) (NP (QP (CD 一) (CLP (NNB 名))) (NP (NNP 沙特)) (NP (NN 男子))) (VP (PP (IN 因) (IP (VP (PP (IN 与) (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 名)))) (NP (NN 男子)))) (VP (VV 发生) (NP (NN 性) (NN 关系)))))) (VP (RB 而) (VP (BB 被) (VP (VV 判处) (NP (NP (LCP (QP (CD 500)) (NNB 下鞭)) (NP (, 笞))) (CC 和) (NP (QP (CD 五) (CLP (NNB 年))) (NP (NN 监禁)))))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}}}
-{'NP': {'QP': {}, 'NP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-去年二月，巴林警方在一场“同性恋派对”中逮捕了数十名男子，其中大多数是其他海湾国家的公民。
-
-(ROOT (IP (IP (NP (NN 去年) (QP (CD 二)) (NP (NNB 月))) (, ，) (NP (NP (NNP 巴林)) (NP (NN 警方))) (VP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 场))) (NP (`` “) (NN 同性) (SFN 恋) (NN 派对) ('' ”))) (IN 中))) (VP (VV 逮捕) (AS 了) (NP (QP (CD 数十) (CLP (NNB 名))) (NP (NN 男子)))))) (, ，) (IP (NP (NN 其中)) (QP (ADVP (RB 大)) (QP (RB 多数))) (VP (VC 是) (NP (DNP (NP (DP (DT 其他)) (NP (NN 海湾) (NN 国家))) (DEC 的)) (NP (NN 公民))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'QP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'QP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-伊朗男同性恋者通常会因其他虚假指控而受到审判。
-
-(ROOT (IP (NP (NP (NNP 伊朗)) (ADJP (NN 男)) (NP (NN 同性) (NN 恋者))) (VP (ADVP (RB 通常)) (VP (MD 会) (VP (PP (IN 因) (NP (DP (DT 其他)) (ADJP (JJ 虚假)) (NP (NN 指控)))) (VP (RB 而) (VP (VV 受到) (NP (NN 审判))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'ADJP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-但是去年九月，有三人因为同性恋被特别处决。
-
-(ROOT (IP (ADVP (RB 但是)) (NP (NN 去年) (CD 九) (NNB 月)) (, ，) (VP (VV 有) (IP (NP (QP (CD 三)) (NP (NN 人))) (VP (PP (IN 因为) (NP (NN 同性) (SFN 恋))) (VP (BB 被) (VP (ADVP (RB 特别)) (VP (VV 处决))))))) (. 。)))
-{'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'NP': {'NN': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'NN': {}, 'CD': {}, 'NNB': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-----------------------------------------------------------------------
-（穆斯林国家的同性恋者往往会更容易逃脱：在伊朗，只要被判四次，就会被判处死刑。）
-
-(ROOT (IP (-LRB- （) (NP (DNP (NP (NNP 穆斯林) (NN 国家)) (DEC 的)) (NP (NN 同性) (NN 恋者))) (VP (ADVP (RB 往往)) (VP (MD 会) (VP (ADVP (RB 更)) (VP (RB 容易) (IP (VP (VV 逃脱))))))) (: ：) (IP (PP (VV 在) (NP (NNP 伊朗))) (, ，) (VP (IP (VP (ADVP (IN 只要)) (VP (BB 被) (QP (CD 判四) (CLP (NNB 次)))))) (, ，) (ADVP (RB 就)) (VP (MD 会) (VP (BB 被) (VP (VV 判处) (NP (NN 死刑))))))) (. 。)))
-{'IP': {'-LRB-': {}, 'NP': {}, 'VP': {}, ':': {}, 'IP': {}, '.': {}}}
-{'IP': {'-LRB-': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, ':': {}, 'IP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-{'IP': {'PP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在穆斯林人口绝大多数的国家，公开同性恋生活很少见，但隐藏起来却很容易。
-
-(ROOT (IP (IP (PP (IN 在) (NP (CP (CP (IP (NP (NNP 穆斯林) (NN 人口)) (VP (JJ 绝大) (QP (JJ 多数)))) (DEC 的))) (NP (NN 国家)))) (, ，) (NP (ADJP (JJ 公开)) (NP (NN 同性) (SFN 恋) (NN 生活))) (VP (ADVP (RB 很)) (VP (JJ 少见)))) (, ，) (IP (ADVP (RB 但)) (IP (VP (VRD (VV 隐藏) (VV 起来)))) (VP (ADVP (RB 却)) (ADVP (RB 很)) (VP (JJ 容易)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'IP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'IP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-沙特阿拉伯等法律严厉的国家，也有社会各阶层繁荣的同性恋风气。
-
-(ROOT (IP (NP (NP (NNP 沙特阿拉伯) (NN 等)) (CP (CP (IP (NP (NN 法律)) (VP (JJ 严厉))) (DEC 的))) (NP (NN 国家))) (, ，) (VP (VV 也有) (NP (CP (IP (NP (NP (NN 社会)) (DP (DT 各)) (NP (NN 阶层))) (VP (JJ 繁荣))) (DEC 的)) (NP (NN 同性) (SFN 恋)) (NP (NN 风气)))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'CP': {}, 'NP': {}}, ',': {}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'CP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'NP': {}}}
-----------------------------------------------------------------------
-叙利亚警察通常不会逮捕同性恋，因此他们很可怕。
-
-(ROOT (IP (IP (NP (NP (NNP 叙利亚)) (NP (NN 警察))) (VP (ADVP (RB 通常)) (VP (MD 不会) (VP (VV 逮捕) (NP (NN 同性) (SFN 恋)))))) (, ，) (IP (ADVP (IN 因)) (ADVP (PRD 此)) (NP (PRP 他们)) (VP (ADVP (RB 很)) (VP (JJ 可怕)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在大马士革，Sibkeh 公园白天是一个树木繁茂的儿童游乐场。
-
-(ROOT (IP (PP (VV 在) (NP (NNP 大马) (NN 士革))) (, ，) (NP (NP (FW Sibkeh) (NN 公园)) (NP (NN 白天))) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (NP (NN 树木)) (VP (JJ 繁茂))) (DEC 的))) (NP (NN 儿童) (VV 游乐) (SFN 场)))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'PP': {'VV': {}, 'NP': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
-----------------------------------------------------------------------
-夜晚，这里的年轻人会围坐在长凳上或墙边。
-
-(ROOT (IP (NP (NN 夜晚)) (, ，) (NP (DNP (NP (PRD 这里)) (DEC 的)) (ADJP (JJ 年轻)) (NP (SFN 人))) (VP (MD 会) (VP (VV 围坐) (PP (VV 在) (NP (LCP (NP (NN 长凳)) (NN 上)) (CC 或) (NP (NN 墙边)))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
-----------------------------------------------------------------------
-富有的阿富汗人会买卖男孩，作为他们的异性恋伴。
-
-(ROOT (IP (NP (CP (CP (IP (VP (JJ 富有))) (DEC 的))) (NP (NNP 阿富汗)) (NP (SFN 人))) (VP (MD 会) (VP (VP (VV 买卖) (NP (NN 男孩))) (, ，) (PP (VV 作) (PP (VC 为) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 异性) (NN 恋伴))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}, 'NP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CP': {}, 'NP': {}, 'NP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在法律较为宽松的地方，当局会寻找其他方式来镇压。
-
-(ROOT (IP (PP (IN 在) (NP (CP (CP (IP (NP (NN 法律)) (VP (ADVP (RB 较为)) (VP (JJ 宽松)))) (DEC 的))) (NP (NN 地方)))) (, ，) (NP (NN 当局)) (VP (MD 会) (VP (VP (VV 寻找) (NP (DP (DT 其他)) (NP (NN 方式)))) (VP (RB 来) (VP (VV 镇压))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'NP': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在约旦首都安曼，有几家同性恋酒吧因诸如违规销售酒精等虚假指控而遭到搜查或关闭。
-
-(ROOT (IP (PP (VV 在) (NP (NP (NP (NNP 约旦)) (NP (NN 首都))) (NP (NNP 安曼)))) (, ，) (VP (VV 有) (IP (NP (QP (CD 几) (CLP (NNB 家))) (NP (NN 同性) (SFN 恋) (NN 酒吧))) (VP (PP (IN 因) (NP (ADVP (IN 诸如)) (NP (IP (VP (ADVP (JJ 违规)) (VP (VV 销售) (NP (NN 酒精)))) (NN 等)) (ADJP (JJ 虚假)) (NP (NN 指控))))) (VP (RB 而) (VP (VV 遭到) (NP (VV 搜查) (CC 或) (VV 关闭))))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'PP': {'VV': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-----------------------------------------------------------------------
-即使同性恋在某些国家（如土耳其）是合法的，官方也会对此予以严厉谴责。
-
-(ROOT (IP (CP (ADVP (IN 即使)) (IP (NP (NN 同性) (SFN 恋)) (VP (PP (IN 在) (NP (DP (DT 某些)) (NP (NN 国家)) (PRN (-LRB- （) (NP (ADVP (VV 如)) (NP (NNP 土耳其))) (-RRB- ）)))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 合法))) (UH 的)))))))) (, ，) (NP (NN 官方)) (VP (ADVP (RB 也)) (VP (MD 会) (VP (ADVP (VV 对此)) (VP (VV 予) (PP (VV 以) (NP (ADJP (JJ 严厉)) (NP (NN 谴责)))))))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-一位前妇女事务部长阿里耶·卡瓦夫 (Aliye Kavaf) 称之为“疾病”；内政部长伊德里斯·纳伊姆·萨希 (Idris Naim Sahin) 把它 (连同琐罗亚斯德教和吃猪肉) 作为“耻辱、不道德和不人道的情况”的例子。
-
-(ROOT (IP (IP (NP (QP (CD 一) (CLP (NNB 位))) (NP (ADJP (PFA 前)) (NP (NN 妇女) (NN 事务) (NN 部长))) (NP (NNP 阿里耶) (/ ·) (NNP 卡瓦夫) (FW -LRB-Aliye) (FW Kavaf-RRB-))) (VP (VV 称) (NP (PRD 之)) (IP (VP (VC 为) (NP (`` “) (NN 疾病) ('' ”)))))) (: ；) (IP (NP (NP (NN 内政) (NN 部长)) (NP (NNP 伊德里斯) (/ ·) (NNP 纳伊姆) (/ ·) (NNP 萨希) (FW -LRB-Idris) (FW Naim) (FW Sahin-RRB-))) (VP (BB 把) (IP (NP (NP (PRP 它)) (PRN (-LRB- -LRB-) (VP (PP (BB 连同) (NP (-LRB- 琐) (NNP 罗亚斯德) (SFN 教))) (CC 和) (VP (VV 吃) (NP (NN 猪肉)))) ('' -RRB-))) (VP (VV 作为) (NP (DNP (NP (`` “) (CP (IP (VP (VP (JJ 耻辱)) (EC 、) (VP (ADVP (RB 不)) (VP (JJ 道德))) (CC 和) (VP (ADVP (RB 不)) (VP (JJ 人道))))) (DEC 的)) (NP (NN 情况)) ('' ”)) (DEC 的)) (NP (NN 例子))))))) (. 。)))
-{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-一部新电影《Zenne Dancer》描述了一名年轻男子2008年遭到谋杀的故事，这是土耳其第一起同性恋“名誉杀人”案件（嫌疑人即受害人的父亲正在逃亡）。
-
-(ROOT (IP (IP (NP (NP (QP (CD 一) (CLP (NNB 部))) (ADJP (PFA 新)) (NP (NN 电影))) (NP (-LRB- 《) (FW Zenne) (FW Dancer) (-RRB- 》))) (VP (VV 描述) (AS 了) (NP (CP (IP (NP (QP (CD 一) (CLP (NNB 名))) (ADJP (JJ 年轻)) (NP (NN 男子))) (VP (NP (CD 2008) (NNB 年)) (VP (VV 遭到) (NP (VV 谋杀))))) (DEC 的)) (NP (NN 故事))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (NP (NNP 土耳其)) (QP (CD 第一) (CLP (NNB 起))) (NP (NN 同性) (SFN 恋)) (NP (`` “) (ADJP (NN 名誉)) (NP (NN 杀人)) ('' ”)) (NP (NN 案件)) (PRN (-LRB- （) (IP (NP (CP (CP (IP (NP (VV 嫌疑) (SFN 人)) (VP (VC 即) (NP (VV 受害) (SFN 人)))) (DEC 的))) (NP (NN 父亲))) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 逃亡)))) (-RRB- ）))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-同性恋罪名也可以用于政治压制。
-
-(ROOT (IP (NP (NN 同性) (SFN 恋) (NN 罪名)) (VP (ADVP (RB 也)) (VP (MD 可以) (VP (VV 用) (PP (VV 于) (NP (NN 政治) (NN 压制)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}, 'SFN': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}, 'SFN': {}, 'NN': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-马来西亚反对党领袖安华·伊布拉欣因“同性恋”两次被判刑，总检察长正在对最新的无罪判决提起上诉。
-
-(ROOT (IP (IP (NP (NP (NP (NNP 马来西亚)) (NP (VV 反对) (SFN 党)) (NP (NN 领袖))) (NP (NNP 安华) (/ ·) (NNP 伊布拉欣))) (VP (PP (IN 因) (NP (`` “) (NN 同性) (SFN 恋) ('' ”))) (QP (CD 两) (CLP (NNB 次))) (VP (BB 被) (VP (VV 判刑))))) (, ，) (IP (NP (ADJP (PFA 总)) (NP (NN 检察) (SFN 长))) (VP (ADVP (RB 正)) (ADVP (IN 在)) (PP (IN 对) (NP (CP (CP (IP (VP (JJ 最新))) (DEC 的))) (ADJP (NN 无罪)) (NP (NN 判决)))) (VP (VV 提起) (NP (NN 上诉))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-不容忍可以使其他战斗派别团结起来。
-
-(ROOT (IP (IP (VP (ADVP (RB 不)) (VP (VV 容忍)))) (VP (MD 可以) (VP (VV 使) (NP (DP (DT 其他)) (NP (NN 战斗) (NN 派别))) (IP (VP (VRD (VV 团结) (VV 起来)))))) (. 。)))
-{'IP': {'IP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在尼日利亚，穆斯林和保守的基督徒都支持一项拟议法律，禁止同性婚姻（并间接将所有同性恋婚姻定为犯罪）。
-
-(ROOT (IP (PP (VV 在) (NP (NNP 尼日利亚))) (, ，) (NP (NP (NNP 穆斯林)) (CC 和) (NP (CP (CP (IP (VP (JJ 保守))) (DEC 的))) (NP (NNP 基督) (SFN 徒)))) (VP (ADVP (RB 都)) (VP (VV 支持) (NP (QP (CD 一) (CLP (NNB 项))) (IP (VP (VP (VV 拟议) (NP (NN 法律))) (, ，) (VP (VV 禁止) (NP (NN 同性) (NN 婚姻))))) (PRN (-LRB- （) (RB 并) (IP (VP (ADVP (RB 间接)) (VP (BB 将) (IP (NP (DP (DT 所有)) (NP (NN 同性) (SFN 恋) (NN 婚姻))) (VP (VRD (VV 定) (VC 为)) (NP (NN 犯罪))))))) (-RRB- ）))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'NP': {}, 'CC': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'PP': {'VV': {}, 'NP': {}}}
-{'NP': {'NP': {}, 'CC': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-阿拉伯之春的民主动乱给他们带来的欢欣鼓舞很少。
-
-(ROOT (IP (NP (CP (CP (IP (NP (DNP (NP (DNP (NP (NNP 阿拉伯)) (DEC 之)) (NP (NN 春))) (DEC 的)) (NP (NN 民主) (NN 动乱))) (VP (PP (VV 给) (NP (PRP 他们))) (VP (VV 带来)))) (DEC 的))) (NP (NN 欢欣) (NN 鼓舞))) (VP (JJ 很少)) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'JJ': {}}, '.': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'JJ': {}}}
-----------------------------------------------------------------------
-国际同性恋者人权委员会的 Hossein Alizadeh 表示，这家位于纽约的游说组织认为，宗教的复苏正在加强伊斯兰教的强硬立场，并且在各种性问题上引发了压制性的反应。
-
-(ROOT (IP (NP (DNP (NP (NP (NN 国际)) (NP (NN 同性) (SFN 恋) (SFN 者)) (NP (NN 人权) (NN 委员) (SFN 会))) (DEC 的)) (NP (FW Hossein) (FW Alizadeh))) (VP (VV 表示) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 家))) (CP (CP (IP (VP (VV 位) (PP (VV 于) (NP (NNP 纽约))))) (DEC 的))) (NP (NN 游说) (NN 组织))) (VP (VV 认为) (, ，) (IP (NP (DNP (NP (NN 宗教)) (DEC 的)) (NP (NN 复苏))) (VP (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 加强) (NP (DNP (NP (NNP 伊斯兰) (SFN 教)) (DEC 的)) (ADJP (JJ 强硬)) (NP (NN 立场))))) (, ，) (RB 并且) (VP (PP (IN 在) (LCP (NP (ADJP (DT 各种)) (NP (NN 性) (NN 问题))) (IN 上))) (VP (VV 引发) (AS 了) (NP (DNP (NP (VV 压制) (SFN 性)) (DEC 的)) (NP (NN 反应)))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-但突尼斯和埃及等国的前政权留下的法律似乎已经足够残忍，以至于新政府满意。
-
-(ROOT (IP (IP (NP (CP (CP (IP (NP (DNP (NP (NP (NNP 但突尼斯) (CC 和) (NNP 埃及)) (NP (NN 等国))) (DEC 的)) (ADJP (PFA 前)) (NP (NN 政权))) (VP (VV 留下))) (DEC 的))) (NP (NN 法律))) (VP (ADVP (RB 似乎)) (ADVP (RB 已经)) (VP (RB 足够) (VP (JJ 残忍))))) (, ，) (IP (ADVP (RB 以至)) (PP (IN 于) (NP (ADJP (PFA 新)) (NP (NN 政府)))) (VP (JJ 满意))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-一个具有预示性的反例是伊拉克。
-
-(ROOT (IP (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 具有) (NP (VV 预示) (SFN 性)))) (DEC 的))) (NP (NN 反例))) (VP (VC 是) (NP (NNP 伊拉克))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'QP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
 {'NP': {'QP': {}, 'CP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+但	表示	mark
+一	位	nummod
+位	人士	clf
+直接	了解	advmod
+了解	人士	acl:relcl
+调查	情况	nmod
+情况	了解	obj
+的	了解	mark:rel
+人士	表示	nsubj
+表示	ROOT	root
+，	控制	punct
+损失	包括	nsubj
+包括	明珠	acl:relcl
+谷歌	包括	obj
+的	包括	mark:rel
+一	项	nummod
+项	明珠	clf
+皇冠	明珠	nmod
+上	皇冠	case
+的	包括	mark:rel
+明珠	即	nsubj
+，	明珠	punct
+即	控制	ccomp
+一	个	nummod
+个	系统	clf
+密码	系统	nmod
+系统	即	xcomp
+，	控制	punct
+该	系统	det
+系统	控制	nsubj
+控制	表示	parataxis
+了	控制	aux
+全球	用户	nmod
+数百万	用户	nummod
+用户	访问	nsubj
+访问	控制	ccomp
+该	公司	det
+公司	服务	nmod
+几乎	所有	advmod
+所有	服务	det
+网络	服务	nmod
+服务	访问	obj
+的	访问	mark:rel
+权限	包括	nsubj
+，	权限	punct
+包括	控制	ccomp
+电子	邮件	nmod
+邮件	包括	obj
+和	程序	cc
+商务	程序	nmod
+应用	程序	nmod
+程序	邮件	conj
+。	表示	punct
 ----------------------------------------------------------------------
-以前的伊拉克政权在政治上压制人民，但对性道德没有任何抵触。
+这个名为“地球女神”的项目的代码，在去年 12 月份遭到了一场短短两天的闪电袭击，该人士称。
 
-(ROOT (IP (IP (NP (DNP (NP (NN 以前)) (DEC 的)) (NP (NNP 伊拉克)) (NP (NN 政权))) (VP (PP (IN 在) (LCP (NP (NN 政治)) (IN 上))) (VP (VV 压制) (NP (NN 人民))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 对性) (NN 道德)) (VP (VV 没有) (NP (DP (DT 任何)) (NP (NN 抵触))))) (. 。)))
+(ROOT (IP (IP (NP (DNP (NP (DP (DT 这) (CLP (NNB 个))) (CP (CP (IP (NP (NN 名)) (VP (VC 为) (NP (`` “) (NNP 地球) (NN 女神) ('' ”)))) (DEC 的))) (NP (NN 项目))) (DEC 的)) (NP (NN 代码))) (, ，) (VP (PP (IN 在) (NP (NN 去年) (CD 12) (NNB 月份))) (VP (VV 遭到) (AS 了) (NP (QP (CD 一) (CLP (NNB 场))) (DNP (QP (ADVP (JJ 短短)) (QP (CD 两) (CLP (NNB 天)))) (DEC 的)) (NP (NN 闪电) (NN 袭击)))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 人士))) (VP (VV 称))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP31366': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP64513': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+这	个	det
+个	名	clf
+名	项目	nsubj
+为	女神	cop
+“	女神	punct
+地球	女神	nmod
+女神	项目	nmod
+”	女神	punct
+的	女神	mark:rel
+项目	代码	nmod
+的	项目	case
+代码	遭到	advcl
+，	代码	punct
+在	月份	case
+去年	月份	nmod
+12	月份	nummod
+月份	遭到	obl
+遭到	ROOT	root
+了	遭到	aux
+一	场	nummod
+场	袭击	clf
+短短	袭击	amod
+两	天	nummod
+天	短短	obl
+的	短短	mark:rel
+闪电	袭击	nmod
+袭击	遭到	obj
+，	称	punct
+该	人士	det
+人士	称	nsubj
+称	遭到	parataxis
+。	遭到	punct
+----------------------------------------------------------------------
+这款软件在四年前的一次技术会议上公开描述过，旨在让用户和员工只需使用一次密码即可登录，操作一系列服务。
+
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 款))) (NP (NN 软件))) (VP (PP (IN 在) (LCP (NP (DNP (LCP (QP (CD 四) (CLP (NNB 年))) (IN 前)) (DEC 的)) (QP (CD 一) (CLP (NNB 次))) (NP (NN 技术) (NN 会议))) (IN 上))) (ADVP (RB 公开)) (VP (VV 描述) (AS 过)))) (, ，) (IP (NP (VV 旨)) (VP (VV 在) (IP (IP (VP (VV 让) (NP (NN 用户) (CC 和) (NN 员工)) (IP (VP (ADVP (RB 只)) (VP (MD 需) (VP (VV 使用) (NP (QP (CD 一) (CLP (NNB 次))) (NP (NN 密码))))))))) (VP (ADVP (RB 即)) (VP (VP (MD 可) (VP (VV 登录))) (, ，) (VP (VV 操作) (NP (QP (CD 一) (CLP (NN 系列))) (NP (NN 服务))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP68097': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP10444': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+这	款	det
+款	软件	clf
+软件	描述	nsubj
+在	会议	case
+四	年	nummod
+年	会议	nmod
+前	年	case
+的	年	case
+一	次	nummod
+次	会议	clf
+技术	会议	nmod
+会议	描述	obl
+上	会议	case
+公开	描述	advmod
+描述	ROOT	root
+过	描述	aux
+，	在	punct
+旨	在	nsubj
+在	描述	parataxis
+让	在	xcomp
+用户	操作	nsubj
+和	员工	cc
+员工	用户	conj
+只	使用	advmod
+需	使用	aux
+使用	操作	advcl
+一	次	nummod
+次	密码	clf
+密码	使用	obj
+即	登录	mark
+可	登录	aux
+登录	操作	advcl
+，	登录	punct
+操作	让	ccomp
+一	系列	nummod
+系列	服务	nmod
+服务	操作	obj
+。	描述	punct
+----------------------------------------------------------------------
+侵入者似乎没有盗取谷歌邮箱用户的密码，但谷歌公司在遭遇入侵后迅速对其网络安全进行了重大改变。
+
+(ROOT (IP (IP (NP (VV 侵入) (SFN 者)) (VP (ADVP (RB 似乎)) (VP (VV 没有) (VP (VV 盗取) (NP (DNP (NP (NN 谷) (NN 歌邮) (SFN 箱) (NN 用户)) (DEC 的)) (NP (NN 密码))))))) (, ，) (IP (ADVP (RB 但)) (NP (NNP 谷歌) (NN 公司)) (VP (PP (IN 在) (LCP (IP (VP (VV 遭遇) (NP (NN 入侵)))) (IN 后))) (ADVP (RB 迅速)) (PP (IN 对) (NP (NP (PRP 其)) (NP (NN 网络) (NN 安全)))) (VP (VV 进行) (AS 了) (NP (ADJP (JJ 重大)) (NP (NN 改变)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP37083': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP16151': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+侵入	者	compound
+者	有	nsubj
+似乎	有	advmod
+有	ROOT	root
+盗取	密码	acl:relcl
+谷	用户	nmod
+歌邮	箱	compound
+箱	用户	nmod
+用户	盗取	obj
+的	盗取	mark:rel
+密码	有	obj
+，	进行	punct
+但	进行	mark
+谷歌	公司	nmod
+公司	进行	nsubj
+在	遭遇	case
+遭遇	进行	xcomp
+入侵	遭遇	obj
+后	遭遇	mark
+迅速	进行	advmod
+对	安全	case
+其	安全	nmod
+网络	安全	nmod
+安全	进行	obl
+进行	有	parataxis
+了	进行	aux
+重大	改变	amod
+改变	进行	obj
+。	有	punct
 ----------------------------------------------------------------------
-现在，即使是被怀疑同性恋的男人也会遭到绑架、强奸、酷刑和法外处决。
+但是，这次盗窃行为虽然可能会让入侵者发现谷歌并不知道的漏洞，但这种可能性很小，独立的计算机专家表示。
 
-(ROOT (IP (NP (NN 现在)) (, ，) (VP (ADVP (IN 即使)) (VP (VC 是) (IP (NP (CP (CP (IP (VP (BB 被) (VP (VV 怀疑) (NP (NN 同性) (SFN 恋))))) (DEC 的))) (NP (NN 男人))) (VP (ADVP (RB 也)) (VP (MD 会) (VP (VV 遭到) (NP (NP (VV 绑) (SFN 架)) (EC 、) (PFA 强) (NN 奸) (EC 、) (NN 酷刑) (CC 和) (NN 法外) (NN 处决)))))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-伊拉克 LGBT (女同性恋、男同性恋、双性恋和变性者) 组织负责人 Ali Hili 表示，自 2003 年入侵伊拉克以来，已有 700 多人因性取向而被杀。
-
-(ROOT (IP (NP (NP (NP (NNP 伊拉克)) (NP (FW LGBT)) (NP (NP (ADJP (NN -LRB-女)) (NP (NN 同性) (SFN 恋))) (EC 、) (NP (ADJP (NN 男)) (NP (NN 同性) (SFN 恋))) (EC 、) (NP (NP (QP (CD 双)) (NP (NN 性))) (NP (SFN 恋))) (CC 和) (NP (NP (NP (NP (VV 变性)) (NP (SFN 者-RRB-))) (NP (NN 组织))) (NP (VV 负责) (SFN 人))))) (NP (FW Ali) (FW Hili))) (VP (VV 表示) (, ，) (IP (VP (LCP (IP (VP (PP (IN 自) (NP (CD 2003))) (VP (NNB 年入侵) (NP (NNP 伊拉克))))) (IN 以来)) (, ，) (ADVP (RB 已)) (VP (VV 有) (IP (NP (QP (CD 700) (QP (CD 多))) (NP (NN 人))) (VP (PP (IN 因) (NP (VV 性取) (VV 向))) (VP (RB 而) (VP (BB 被) (VP (VV 杀)))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-他说，这里是世界上对性少数群体最危险的地方。
-
-(ROOT (IP (NP (PRP 他)) (VP (VV 说) (, ，) (IP (NP (PRD 这里)) (VP (VC 是) (NP (CP (CP (NP (LCP (NP (NN 世界)) (IN 上)) (NP (ADJP (NN 对性)) (NP (JJ 少数))) (NP (NN 群体)) (VP (ADVP (RB 最)) (VP (JJ 危险)))) (DEC 的))) (NP (NN 地方)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-神学或技术
-
-(ROOT (NP (NN 神学) (CC 或) (NN 技术)))
-{'NP': {'NN': {}, 'CC': {}, 'NN': {}}}
-{'NP': {'NN': {}, 'CC': {}, 'NN': {}}}
-----------------------------------------------------------------------
-一个微小的希望来源是互联网：在线生活为同性恋者提供了安全、保密和诉诸法律的机会。
-
-(ROOT (IP (IP (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 微小))) (DEC 的))) (NP (NN 希望) (NN 来源))) (VP (VC 是) (NP (JJ 互联) (SFN 网)))) (: ：) (IP (VP (PP (IN 在) (NP (NN 线) (VV 生活))) (PP (IN 为) (NP (NN 同性) (SFN 恋) (SFN 者))) (VP (VV 提供) (AS 了) (NP (CP (IP (VP (VP (NN 安全)) (EC 、) (VP (NN 保密)) (CC 和) (VP (VV 诉诸) (NP (NN 法律))))) (DEC 的)) (NP (NN 机会)))))) (. 。)))
-{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}}}
-----------------------------------------------------------------------
-在一场名为“我们无处不在”的运动中，伊朗男女同性恋者在脸书上发布了抗议视频。
-
-(ROOT (IP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 场))) (CP (IP (NP (NN 名)) (VP (VC 为) (IP (`` “) (NP (PRP 我们)) (VP (ADVP (VV 无处)) (ADVP (RB 不)) (VP (VV 在))) ('' ”)))) (DEC 的)) (NP (NN 运动))) (IN 中))) (, ，) (NP (NP (NNP 伊朗)) (NP (NN 男女)) (NP (NN 同性) (SFN 恋) (SFN 者))) (VP (PP (IN 在) (LCP (NP (NN 脸书)) (IN 上))) (VP (VV 发布) (AS 了) (NP (NN 抗议) (NN 视频)))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-其中一篇名为《Ali the Queer》（阿里同性恋者）的诗歌中，一个男人谈到了他对于一个不再将偏离异性恋标准的人视为不自然或异常的世界的向往。
-
-(ROOT (IP (LCP (NP (NP (NN 其中)) (QP (CD 一) (CLP (NNB 篇))) (CP (CP (IP (NP (NN 名)) (VP (VC 为) (NP (-LRB- 《) (NP (FW Ali)) (DP (FW the)) (NP (FW Queer)) (-RRB- 》))) (PRN (-LRB- （) (NP (NP (NNP 阿里)) (NP (NN 同性) (SFN 恋) (SFN 者))) (-RRB- ）))) (DEC 的))) (NP (NN 诗歌))) (IN 中)) (, ，) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 男人))) (VP (VV 谈到) (AS 了) (NP (CP (IP (NP (PRP 他)) (VP (PP (IN 对于) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 不)) (ADVP (RB 再)) (VP (BB 将) (IP (VP (VV 偏离) (NP (NN 异性) (SFN 恋) (NN 标准))))))) (DEC 的))) (NP (NN 人)))) (VP (VRD (VV 视) (VC 为)) (NP (CP (CP (IP (VP (VP (ADVP (RB 不)) (VP (JJ 自然))) (CC 或) (VP (JJ 异常)))) (DEC 的))) (NP (NN 世界)))))) (DEC 的)) (NP (NN 向往)))) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
-{'LCP': {'NP': {}, 'IN': {}}}
-{'NP': {'QP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
-----------------------------------------------------------------------
-然而，最近在阿拉伯联合酋长国上传的一段视频显示，一名偏男孩的同性恋男子被两名直男“治愈”。
-
-(ROOT (IP (ADVP (RB 然而)) (, ，) (NP (CP (CP (IP (VP (NP (NN 最近)) (PP (VV 在) (NP (NP (NNP 阿拉伯)) (ADJP (VV 联合)) (NP (NNP 酋) (NNP 长国)))) (VP (VV 上传)))) (DEC 的))) (QP (CD 一) (CLP (NNB 段))) (NP (NN 视频))) (VP (VV 显示) (, ，) (IP (NP (DNP (NP (QP (CD 一) (CLP (NNB 名))) (ADJP (PFA 偏)) (NP (NN 男孩))) (DEC 的)) (NP (NN 同性) (SFN 恋) (NN 男子))) (VP (BB 被) (IP (NP (QP (CD 两) (CLP (NNB 名))) (NP (NN 直男))) (VP (`` “) (VV 治) (JJ 愈) ('' ”)))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'CP': {}, 'QP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+(ROOT (IP (ADVP (RB 但是)) (, ，) (NP (DP (DT 这) (CLP (NNB 次))) (NP (NN 盗窃) (NN 行为))) (VP (ADVP (IN 虽然)) (VP (MD 可能) (VP (MD 会) (VP (VV 让) (NP (VV 入侵) (SFN 者)) (IP (VP (VV 发现) (NP (CP (IP (NP (NN 谷) (SFN 歌)) (VP (ADVP (RB 并)) (ADVP (RB 不)) (VP (VV 知道)))) (DEC 的)) (NP (NN 漏洞))))))))) (, ，) (ADVP (RB 但)) (NP (DP (DT 这) (CLP (NNB 种))) (IP (IP (NP (NN 可能) (SFN 性)) (VP (JJ 很小))) (, ，) (IP (NP (CP (CP (IP (VP (JJ 独立))) (DEC 的))) (NP (VV 计算) (SFN 机) (NN 专家))) (VP (VV 表示))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, ',64359': {}, 'ADVP69195': {}, 'NP47793': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, ',': {}, 'ADVP': {}, 'NP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, ',59348': {}, 'ADVP75316': {'RB': {}}, 'NP33712': {'DP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'DP': {}, 'IP': {}}, '.': {}}}
 {'ADVP': {'RB': {}}}
-{'NP': {'CP': {}, 'QP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DP': {}, 'IP': {}}}
+Dependency Features:
+但是	很小	mark
+，	但是	punct
+这	次	det
+次	行为	clf
+盗窃	行为	nmod
+行为	很小	nsubj
+虽然	让	case
+可能	让	aux
+会	让	aux
+让	很小	xcomp
+入侵	者	compound
+者	发现	nsubj
+发现	让	ccomp
+谷	歌	compound
+歌	知道	nsubj
+并	知道	mark
+不	知道	advmod
+知道	漏洞	acl:relcl
+的	知道	mark:rel
+漏洞	发现	obj
+，	让	punct
+但	很小	mark
+这	种	det
+种	性	nmod
+可能	性	compound
+性	很小	nsubj
+很小	ROOT	root
+，	表示	punct
+独立	专家	amod
+的	独立	mark:rel
+计算	机	compound
+机	专家	nmod
+专家	表示	nsubj
+表示	很小	parataxis
+。	很小	punct
 ----------------------------------------------------------------------
-互联网还为辩论这一根本问题提供了机会：伊斯兰禁止同性恋。
+这些新的细节似乎可能会加剧对谷歌等集中数百万个人和企业个人信息的大型计算系统的安全性和隐私性的争论。
 
-(ROOT (IP (IP (NP (VV 互联) (SFN 网)) (VP (ADVP (RB 还)) (PP (IN 为) (NP (NP (VV 辩论)) (DP (DT 这) (QP (CD 一))) (ADJP (JJ 根本)) (NP (NN 问题)))) (VP (VV 提供) (AS 了) (NP (NN 机会))))) (: ：) (IP (NP (NNP 伊斯兰)) (VP (VV 禁止) (NP (NN 同性) (SFN 恋)))) (. 。)))
-{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+(ROOT (IP (NP (DP (DT 这些)) (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 细节))) (VP (ADVP (RB 似乎)) (VP (MD 可能) (VP (MD 会) (VP (VV 加剧) (NP (DNP (PP (IN 对) (NP (NP (NNP 谷歌) (NN 等)) (CP (CP (IP (VP (VV 集中) (NP (NP (QP (CD 数百万) (CLP (NNB 个))) (NP (NN 人) (CC 和) (NN 企业))) (NP (NN 个人) (NN 信息))))) (DEC 的))) (ADJP (JJ 大型)) (NP (NN 计算) (NN 系统)))) (DEC 的)) (DNP (NP (NN 安全) (SFN 性) (CC 和) (NN 隐私) (SFN 性)) (DEC 的)) (NP (NN 争论))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'CP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+这些	细节	det
+新	细节	amod
+的	新	mark:rel
+细节	加剧	nsubj
+似乎	加剧	advmod
+可能	加剧	aux
+会	加剧	aux
+加剧	ROOT	root
+对	谷歌	case
+谷歌	集中	obl
+等	谷歌	acl
+集中	性	acl:relcl
+数百万	个	nummod
+个	人	clf
+人	集中	obj
+和	信息	cc
+企业	信息	nmod
+个人	信息	nmod
+信息	人	conj
+的	集中	mark:rel
+大型	系统	amod
+计算	系统	nmod
+系统	性	nmod
+的	集中	mark:rel
+安全	性	compound
+性	加剧	obj
+和	争论	cc
+隐私	性	compound
+性	争论	nmod
+的	性	case
+争论	性	conj
+。	加剧	punct
+----------------------------------------------------------------------
+由于大量数字信息被存储在一个被称为“云”计算的计算机集群中，一次突破就可能导致灾难性的损失。
+
+(ROOT (IP (PP (IN 由于) (IP (NP (QP (JJ 大量)) (NP (NN 数字) (NN 信息))) (VP (BB 被) (VP (VV 存储) (PP (VV 在) (LCP (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (BB 被) (VP (VCP (VV 称) (VC 为)) (NP (NP (`` “) (NN 云) ('' ”)) (NP (VV 计算)))))) (DEC 的))) (NP (VV 计算) (SFN 机) (NN 集群))) (IN 中))))))) (, ，) (NP (QP (CD 一) (CLP (NNB 次))) (NP (VV 突破))) (VP (ADVP (RB 就)) (VP (MD 可能) (VP (VV 导致) (NP (DNP (NP (NN 灾难) (SFN 性)) (DEC 的)) (NP (NN 损失)))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+由于	存储	case
+大量	信息	amod
+数字	信息	nmod
+信息	存储	nsubj:pass
+被	存储	aux:pass
+存储	导致	ccomp
+在	存储	mark
+一	个	nummod
+个	集群	clf
+被	称	aux:pass
+称	集群	acl:relcl
+为	称	mark
+“	云	punct
+云	计算	nsubj
+”	云	punct
+计算	集群	acl:relcl
+的	称	mark:rel
+计算	机	compound
+机	集群	nmod
+集群	存储	obj
+中	集群	case
+，	存储	punct
+一	次	nummod
+次	突破	obl
+突破	导致	csubj
+就	导致	mark
+可能	导致	aux
+导致	ROOT	root
+灾难	性	compound
+性	损失	nmod
+的	性	case
+损失	导致	obj
+。	导致	punct
+----------------------------------------------------------------------
+据了解内部调查的人士称，这起盗窃事件始于一名在中国使用微软聊天程序的谷歌雇员收到的一条即时消息。
+
+(ROOT (PP (IN 据) (IP (NP (CP (CP (IP (VP (VV 了解) (NP (NN 内部) (NN 调查)))) (DEC 的))) (NP (NN 人士))) (VP (VV 称) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 起))) (NP (NN 盗窃) (NN 事件))) (VP (VV 始) (PP (VV 于) (NP (CP (CP (IP (NP (QP (CD 一) (CLP (NNB 名))) (CP (CP (IP (VP (PP (VV 在) (NP (NNP 中国))) (VP (VV 使用) (NP (NP (NNP 微软)) (NP (NN 聊天) (NN 程序)))))) (DEC 的))) (NP (NNP 谷歌)) (NP (NN 雇员))) (VP (VV 收到))) (DEC 的))) (QP (CD 一) (CLP (NNB 条))) (ADJP (JJ 即时)) (NP (NN 消息)))))))) (. 。)))
+layer 2:
+{'PP': {'IN': {}, 'IP': {}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'PP': {'IN': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+据	了解	case
+了解	人士	acl:relcl
+内部	调查	nmod
+调查	了解	obj
+的	了解	mark:rel
+人士	称	nsubj
+称	ROOT	root
+，	始	punct
+这	起	det
+起	事件	clf
+盗窃	事件	nmod
+事件	始	nsubj
+始	称	ccomp
+于	始	mark
+一	名	nummod
+名	雇员	clf
+在	使用	advcl
+中国	在	obj
+使用	雇员	acl:relcl
+微软	程序	nmod
+聊天	程序	nmod
+程序	使用	obj
+的	使用	mark:rel
+谷歌	雇员	nmod
+雇员	收到	nsubj
+收到	消息	acl:relcl
+的	收到	mark:rel
+一	条	nummod
+条	消息	clf
+即时	消息	amod
+消息	始	obj
+。	称	punct
+----------------------------------------------------------------------
+这名员工在点击链接并连接到一个“被毒”的网站后，无意中允许入侵者访问了他（或她）的个人电脑，然后进入加州山景城谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷谷
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 名))) (NP (NN 员工))) (VP (VP (LCP (IP (VP (PP (IN 在) (NP (VV 点击) (SFN 链) (VV 接))) (RB 并) (VP (VRD (VV 连接) (VV 到)) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (`` “) (VP (BB 被) (VP (NN 毒))) ('' ”))) (DEC 的))) (NP (NN 网站)))))) (IN 后)) (, ，) (LCP (ADVP (VV 无意)) (IN 中)) (VP (VV 允许) (NP (VV 入侵) (SFN 者)) (IP (VP (VV 访问) (AS 了) (NP (DNP (NP (PRP 他) (PRN (-LRB- （) (CC 或) (NP (PRP 她)) (-RRB- ）))) (DEC 的)) (NP (NN 个人) (NN 电脑))))))) (, ，) (VP (ADVP (RB 然后)) (VP (VV 进入) (NP (NNP 加州) (NN 山景) (SFN 城) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷) (SFN 谷)))))))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP28171': {}}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+这	名	det
+名	员工	clf
+员工	连接	nsubj
+在	接	case
+点击	链	compound
+链	接	obl
+接	连接	xcomp
+并	连接	mark
+连接	允许	advcl
+到	连接	mark
+一	个	nummod
+个	网站	clf
+“	毒	punct
+被	毒	nummod
+毒	网站	nmod
+”	毒	punct
+的	毒	mark:rel
+网站	连接	obj
+后	连接	mark
+，	连接	punct
+无意	允许	advcl
+中	无意	mark
+允许	ROOT	root
+入侵	者	compound
+者	访问	nsubj
+访问	允许	ccomp
+了	访问	aux
+他	访问	obj
+（	她	punct
+或	她	cc
+她	他	conj
+）	她	punct
+的	访问	mark:rel
+个人	电脑	nmod
+电脑	允许	obj
+，	允许	punct
+然后	进入	advmod
+进入	允许	parataxis
+加州	进入	obj
+山景	城	compound
+城	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	谷	compound
+谷	进入	obj
 ----------------------------------------------------------------------
-这是根据一个故事来做的（虽然细节不同，但这个故事在三大阿拉伯宗教中都有），这个故事讲述了一个叫洛特的人和所罗门和gomorrah两座城市的故事。
+最终，入侵者获得了开发团队使用的软件存储库的控制权。
 
-(ROOT (IP (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (VP (PP (IN 根据) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 故事)))) (VP (RB 来) (VP (VV 做))))) (UH 的))) (PRN (-LRB- （) (IP (CP (ADVP (IN 虽然)) (IP (NP (NN 细节)) (VP (JJ 不同)))) (, ，) (ADVP (RB 但)) (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 故事))) (VP (PP (IN 在) (LCP (NP (QP (CD 三)) (ADJP (PFA 大)) (NP (NNP 阿拉伯)) (NP (NN 宗教))) (IN 中))) (ADVP (RB 都)) (VP (VV 有)))) (-RRB- ）))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 故事))) (VP (VV 讲述) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (NP (NP (DNP (NP (NNP 叫洛特)) (DEC 的)) (NP (NN 人))) (CC 和) (NP (NP (RB 所) (NNP 罗) (SFN 门) (CC 和) (FW gomorrah)) (QP (CD 两) (CLP (NNB 座))) (NP (NN 城市)))) (DEC 的)) (NP (NN 故事))))) (. 。)))
+(ROOT (IP (ADVP (NN 最终)) (, ，) (NP (VV 入侵) (SFN 者)) (VP (VV 获得) (AS 了) (NP (DNP (NP (CP (CP (IP (NP (NN 开发) (NN 团队)) (VP (VV 使用))) (DEC 的))) (NP (NN 软件) (VV 存储) (SFN 库))) (DEC 的)) (NP (VV 控制) (SFN 权)))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'VV': {}, 'SFN': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'VV': {}, 'SFN': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'ADVP': {'NN': {}}}
+{'NP': {'VV': {}, 'SFN': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+最终	获得	nmod:tmod
+，	最终	punct
+入侵	者	compound
+者	获得	nsubj
+获得	ROOT	root
+了	获得	aux
+开发	团队	nmod
+团队	使用	nsubj
+使用	库	acl:relcl
+的	使用	mark:rel
+软件	库	nmod
+存储	库	compound
+库	权	nmod
+的	库	case
+控制	权	compound
+权	获得	obj
+。	获得	punct
+----------------------------------------------------------------------
+该公司一直密切保管着该软件被盗的细节。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 公司))) (VP (ADVP (RB 一直)) (ADVP (RB 密切)) (VP (VV 保管) (AS 着) (NP (CP (IP (NP (DP (DT 该)) (NP (NN 软件))) (VP (BB 被) (VP (VV 盗)))) (DEC 的)) (NP (NN 细节))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP68977': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+该	公司	det
+公司	保管	nsubj
+一直	保管	advmod
+密切	保管	advmod
+保管	ROOT	root
+着	保管	aux
+该	软件	det
+软件	盗	nsubj
+被	盗	aux:pass
+盗	细节	acl:relcl
+的	盗	mark:rel
+细节	保管	obj
+。	保管	punct
+----------------------------------------------------------------------
+谷歌在 1 月 12 日公开发表公司网站上的一篇文章，宣布公司在未知“知识产权”被盗以及两名中国人权倡导者电子邮件账户被明显泄露后，改变了对中国的政策。
+
+(ROOT (IP (NP (NNP 谷歌)) (VP (PP (IN 在) (LCP (NP (CD 1) (NNB 月) (CD 12)) (NNB 日公开))) (VP (VP (VV 发表) (NP (DNP (LCP (NP (NN 公司) (NN 网站)) (IN 上)) (DEC 的)) (QP (CD 一) (CLP (NNB 篇))) (NP (NN 文章)))) (, ，) (VP (VV 宣布) (IP (NP (NN 公司)) (VP (PP (IN 在) (LCP (IP (IP (VP (ADVP (RB 未)) (VP (VV 知) (IP (NP (`` “) (NN 知识) (NN 产权) ('' ”)) (VP (BB 被) (VP (NN 盗))))))) (CC 以及) (IP (NP (NP (QP (CD 两) (CLP (NNB 名))) (NP (NNP 中国)) (NP (NN 人权) (VV 倡导) (SFN 者))) (NP (NN 电子) (NN 邮件) (NN 账户))) (VP (BB 被) (VP (ADVP (RB 明显)) (VP (VV 泄露)))))) (IN 后))) (, ，) (VP (VV 改变) (AS 了) (NP (DNP (PP (IN 对) (NP (NNP 中国))) (DEC 的)) (NP (NN 政策))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+谷歌	宣布	nsubj
+在	日公开	case
+1	月	nummod
+月	日公开	clf
+12	日公开	nummod
+日公开	发表	obl
+发表	文章	acl:relcl
+公司	网站	nmod
+网站	文章	nmod
+上	网站	case
+的	网站	case
+一	篇	nummod
+篇	文章	clf
+文章	宣布	nsubj
+，	文章	punct
+宣布	ROOT	root
+公司	改变	nsubj
+在	知	case
+未	知	advmod
+知	改变	xcomp
+“	产权	punct
+知识	产权	nmod
+产权	盗	nmod
+”	产权	punct
+被	盗	case
+盗	知	obj
+以及	账户	cc
+两	名	nummod
+名	账户	clf
+中国	账户	nmod
+人权	者	nmod
+倡导	者	compound
+者	账户	nmod
+电子	账户	nmod
+邮件	账户	nmod
+账户	盗	conj
+被	泄露	aux:pass
+明显	泄露	advmod
+泄露	改变	ccomp
+后	泄露	mark
+，	泄露	punct
+改变	宣布	ccomp
+了	改变	aux
+对	政策	case
+中国	对	nmod
+的	政策	case
+政策	改变	obj
+。	宣布	punct
+----------------------------------------------------------------------
+这些指控成为美中关系的一大紧张因素，美国国务卿希拉里·罗德姆·克林顿敦促中国对这次袭击展开“透明”的调查。
+
+(ROOT (IP (IP (NP (DP (DT 这些)) (NP (NN 指控))) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (NP (NNP 美) (NNP 中)) (NP (NN 关系))) (DEC 的)) (QP (CD 一)) (ADJP (PFA 大)) (ADJP (JJ 紧张)) (NP (NN 因素)))))) (, ，) (IP (NP (NP (NP (NNP 美国)) (NP (NN 国务) (SFN 卿))) (NP (NNP 希拉里) (/ ·) (NNP 罗德姆) (/ ·) (NNP 克林顿))) (VP (VV 敦促) (NP (NNP 中国)) (IP (VP (PP (IN 对) (NP (DP (DT 这) (CLP (NNB 次))) (NP (NN 袭击)))) (VP (VV 展开) (NP (DNP (NP (`` “) (JJ 透明) ('' ”)) (DEC 的)) (NP (NN 调查)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP90374': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP45961': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+这些	指控	det
+指控	成	nsubj
+成	ROOT	root
+为	成	mark
+美	关系	nmod
+中	关系	nmod
+关系	因素	nmod
+的	关系	case
+一	因素	nummod
+大	因素	case
+紧张	因素	amod
+因素	成	obj
+，	敦促	punct
+美国	卿	nmod
+国务	卿	compound
+卿	敦促	nsubj
+希拉里	卿	appos
+·	罗德姆	punct
+罗德姆	希拉里	flat:name
+·	克林顿	punct
+克林顿	希拉里	flat:name
+敦促	成	parataxis
+中国	展开	nsubj
+对	袭击	case
+这	次	det
+次	袭击	clf
+袭击	展开	obl
+展开	敦促	ccomp
+“	透明	punct
+透明	调查	acl:relcl
+”	透明	punct
+的	透明	mark:rel
+调查	展开	obj
+。	成	punct
 ----------------------------------------------------------------------
-这些城市被火焰和硫磺包围，作为当地喜欢同性恋行为的当地人受到上帝惩罚的一部分。
+3 月，谷歌在与中国政府进行了艰难讨论后，宣布将其中国大陆语言网站搬到香港，并开始重新引导搜索请求。
 
-(ROOT (IP (NP (DP (DT 这些)) (NP (NN 城市))) (VP (VP (BB 被) (CP (IP (NP (NN 火焰) (CC 和) (NN 硫磺)) (VP (VV 包围))))) (, ，) (VP (PP (VV 作) (PP (VC 为) (NP (NP (NN 当地)) (CP (CP (IP (VP (VV 喜欢) (NP (NN 同性) (SFN 恋) (NN 行为)))) (DEC 的))) (NP (NN 当地) (SFN 人))))) (VP (VV 受到) (NP (DNP (NP (NP (NN 上帝)) (NP (NN 惩罚))) (DEC 的)) (QP (CD 一)) (NP (NN 部分)))))) (. 。)))
+(ROOT (IP (NP (QP (CD 3)) (NP (NNB 月))) (, ，) (NP (NNP 谷歌)) (VP (PP (IN 在) (LCP (IP (VP (PP (IN 与) (NP (NP (NNP 中国)) (NP (NN 政府)))) (VP (VV 进行) (AS 了) (NP (ADJP (JJ 艰难)) (NP (NN 讨论)))))) (IN 后))) (, ，) (VP (VV 宣布) (IP (VP (VP (BB 将) (IP (NP (NP (PRP 其)) (NP (NP (NNP 中国)) (NP (NN 大陆))) (NP (NN 语言) (NN 网站))) (VP (VV 搬到) (NP (NNP 香港))))) (, ，) (RB 并) (VP (VV 开始) (VP (ADVP (RB 重新)) (VP (VV 引导) (NP (NN 搜索) (NN 请求))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP65525': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, ',': {}, 'NP40115': {'NNP': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'PP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+3	月	nummod
+月	宣布	nmod:tmod
+，	月	punct
+谷歌	宣布	nsubj
+在	政府	case
+与	政府	case
+中国	政府	nmod
+政府	进行	obl
+进行	宣布	advcl
+了	进行	aux
+艰难	讨论	amod
+讨论	进行	obj
+后	进行	mark
+，	进行	punct
+宣布	开始	advcl
+将	网站	case
+其	网站	nmod
+中国	网站	nmod
+大陆	网站	nmod
+语言	网站	nmod
+网站	搬到	obl:patient
+搬到	宣布	xcomp
+香港	搬到	iobj
+，	宣布	punct
+并	开始	mark
+开始	ROOT	root
+重新	引导	advmod
+引导	开始	xcomp
+搜索	请求	nmod
+请求	引导	obj
+。	开始	punct
+----------------------------------------------------------------------
+周一，该公司高层拒绝对此案的新细节发表评论，称他们在一月初的声明中已经处理了该公司知识产权被盗所引发的安全问题。
+
+(ROOT (IP (NP (NNP 周) (NNP 一)) (, ，) (NP (NP (DP (DT 该)) (NP (NN 公司))) (NP (NN 高层))) (VP (VP (VV 拒绝) (IP (VP (PP (IN 对) (NP (DNP (NP (NN 此案)) (DEC 的)) (ADJP (PFA 新)) (NP (NN 细节)))) (VP (VV 发表) (NP (NN 评论)))))) (, ，) (VP (VV 称) (IP (NP (PRP 他们)) (VP (PP (IN 在) (LCP (NP (DNP (LCP (NP (QP (CD 一)) (NP (NNB 月))) (IN 初)) (DEC 的)) (NP (NN 声明))) (IN 中))) (ADVP (RB 已经)) (VP (VV 处理) (AS 了) (NP (CP (CP (IP (IP (NP (NP (DP (DT 该)) (NP (NN 公司))) (NP (NN 知识) (NN 产权))) (VP (BB 被) (VP (VV 盗)))) (VP (RB 所) (VP (VV 引发)))) (DEC 的))) (NP (NN 安全) (NN 问题)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP67170': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, 'NNP32978': {}}, ',': {}, 'NP86885': {'NP': {}, 'NP49002': {}}, 'VP': {'VP': {}, ',': {}, 'VP87493': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, 'NNP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}, 'NNP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+周	称	obl
+一	周	case
+，	周	punct
+该	公司	det
+公司	高层	nmod
+高层	称	nsubj
+拒绝	称	advcl
+对	细节	case
+此案	细节	nmod
+的	此案	case
+新	细节	case
+细节	发表	obl
+发表	拒绝	xcomp
+评论	发表	obj
+，	拒绝	punct
+称	ROOT	root
+他	处理	nsubj
+在	声明	case
+一	月	nummod
+月	声明	nmod
+初	月	case
+的	月	case
+声明	处理	obl
+中	声明	case
+已经	处理	advmod
+处理	称	ccomp
+了	处理	aux
+该	产权	det
+公司	产权	nmod
+知识	产权	nmod
+产权	引发	nsubj
+被	盗	aux:pass
+盗	引发	advcl
+所	引发	mark
+引发	问题	acl:relcl
+的	引发	mark:rel
+安全	问题	nmod
+问题	处理	obj
+。	称	punct
+----------------------------------------------------------------------
+谷歌高层也在闭门会谈中表示，谷歌公司在遭到入侵时比其他遭到入侵的 20 多家公司都更加透明，而这些公司中绝大多数并没有承认遭到攻击。
+
+(ROOT (IP (NP (NP (NNP 谷歌)) (NP (NN 高层))) (VP (ADVP (RB 也)) (PP (IN 在) (LCP (NP (NN 闭门) (NN 会谈)) (IN 中))) (VP (VV 表示) (, ，) (IP (IP (NP (NNP 谷歌) (NN 公司)) (VP (PP (IN 在) (LCP (IP (VP (VV 遭到) (NP (NN 入侵)))) (IN 时))) (PP (IN 比) (NP (DP (DT 其他)) (CP (CP (IP (VP (VV 遭到) (NP (NN 入侵)))) (DEC 的))) (QP (CD 20)) (ADJP (NNB 多家)) (NP (NN 公司)))) (ADVP (RB 都)) (ADVP (RB 更加)) (VP (JJ 透明)))) (, ，) (RB 而) (IP (LCP (NP (DP (DT 这些)) (NP (NN 公司))) (IN 中)) (QP (ADJP (RB 绝大)) (QP (JJ 多数))) (VP (ADVP (RB 并)) (VP (VV 没有) (VP (VV 承认) (IP (VP (VV 遭到) (NP (NN 攻击))))))))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP53723': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+谷歌	高层	nmod
+高层	表示	nsubj
+也	表示	mark
+在	会谈	case
+闭门	会谈	nmod
+会谈	表示	obl
+中	会谈	case
+表示	ROOT	root
+，	有	punct
+谷歌	公司	nmod
+公司	透明	nsubj
+在	遭到	case
+遭到	透明	xcomp
+入侵	遭到	obj
+时	遭到	mark
+比	公司	case
+其他	公司	det
+遭到	公司	acl:relcl
+入侵	遭到	obj
+的	遭到	mark:rel
+20	多家	nummod
+多家	公司	clf
+公司	透明	nmod
+都	透明	mark
+更加	透明	advmod
+透明	表示	ccomp
+，	有	punct
+而	有	mark
+这些	公司	det
+公司	有	nsubj
+中	公司	case
+绝大	多数	advmod
+多数	有	advmod
+并	有	mark
+有	表示	parataxis
+承认	有	xcomp
+遭到	承认	xcomp
+攻击	遭到	obj
+。	表示	punct
+----------------------------------------------------------------------
+谷歌继续使用 Gaia 系统，现在称为 Single Sign-On。
+
+(ROOT (IP (NP (NNP 谷歌)) (VP (VP (VV 继续) (VP (VV 使用) (NP (FW Gaia) (NN 系统)))) (, ，) (VP (NP (NN 现在)) (VP (VCP (VV 称) (VC 为)) (NP (FW Single) (FW Sign-On))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP20669': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+谷歌	称	nsubj
+继续	称	advcl
+使用	继续	xcomp
+Gaia	系统	nmod
+系统	使用	obj
+，	继续	punct
+现在	称	nmod:tmod
+称	ROOT	root
+为	称	mark
+Single	称	obj
+Sign-On	Single	flat:foreign
+。	称	punct
+----------------------------------------------------------------------
+谷歌在宣布遭遇入侵后几个小时，宣布将为 Gmail 服务启用一层新的加密层。
+
+(ROOT (IP (NP (NNP 谷歌)) (VP (PP (IN 在) (NP (LCP (IP (VP (VV 宣布) (IP (VP (VV 遭遇) (NP (NN 入侵)))))) (IN 后)) (QP (CD 几) (CLP (NNB 个))) (NP (NN 小时)))) (, ，) (VP (VV 宣布) (IP (VP (ADVP (RB 将)) (PP (IN 为) (NP (FW Gmail) (NN 服务))) (VP (VV 启用) (NP (QP (CD 一) (CLP (NNB 层))) (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (VV 加密) (SFN 层)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'PP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+谷歌	宣布	nsubj
+在	宣布	case
+宣布	宣布	xcomp
+遭遇	宣布	xcomp
+入侵	遭遇	obj
+后	遭遇	mark
+几	个	nummod
+个	小时	clf
+小时	宣布	obl
+，	小时	punct
+宣布	ROOT	root
+将	启用	advmod
+为	服务	case
+Gmail	服务	nmod
+服务	启用	obl
+启用	宣布	xcomp
+一	层	nummod
+层	层	nmod
+新	层	amod
+的	新	mark:rel
+加密	层	compound
+层	启用	obj
+。	宣布	punct
+----------------------------------------------------------------------
+该公司还加强了数据中心的安全，进一步保证了其服务与用户电脑之间的通讯链路。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 公司))) (VP (VP (ADVP (RB 还)) (VP (VV 加强) (AS 了) (NP (DNP (NP (NN 数据) (NN 中心)) (DEC 的)) (NP (NN 安全))))) (, ，) (VP (VP (VV 进) (QP (CD 一) (CLP (NNB 步)))) (VP (VV 保证) (AS 了) (NP (DNP (LCP (NP (NP (PRP 其)) (NP (NN 服务) (CC 与) (NN 用户) (NN 电脑))) (IN 之间)) (DEC 的)) (NP (NN 通讯) (NN 链路)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP62677': {}}, '.': {}}}
 {'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
 {'NP': {'DP': {}, 'NP': {}}}
 {'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+该	公司	det
+公司	保证	nsubj
+还	加强	mark
+加强	保证	advcl
+了	加强	aux
+数据	中心	nmod
+中心	安全	nmod
+的	中心	case
+安全	加强	obj
+，	加强	punct
+进	保证	advcl
+一	步	nummod
+步	进	obj
+保证	ROOT	root
+了	保证	aux
+其	服务	nmod
+服务	链路	nmod
+与	电脑	cc
+用户	电脑	nmod
+电脑	服务	conj
+之间	服务	case
+的	服务	case
+通讯	链路	nmod
+链路	保证	obj
+。	保证	punct
 ----------------------------------------------------------------------
-早期的伊斯兰社会不那么僵硬。
+一些技术专家表示，谷歌很快就发现了软件被盗的情况，因此不清楚盗窃行为的后果是什么。
 
-(ROOT (IP (NP (DNP (NP (NN 早期)) (DEC 的)) (NP (NNP 伊斯兰) (NN 社会))) (VP (ADVP (RB 不)) (ADVP (RB 那么)) (VP (JJ 僵硬))) (. 。)))
+(ROOT (IP (NP (QP (JJ 一些)) (NP (NN 技术) (NN 专家))) (VP (VV 表示) (, ，) (IP (IP (NP (NNP 谷歌)) (VP (ADVP (RB 很快)) (ADVP (RB 就)) (VP (VV 发现) (AS 了) (NP (CP (IP (NP (NN 软件)) (VP (BB 被) (VP (VV 盗)))) (DEC 的)) (NP (NN 情况)))))) (, ，) (IP (ADVP (IN 因)) (ADVP (PRD 此)) (VP (ADVP (RB 不)) (VP (VV 清楚) (IP (NP (DNP (NP (NP (VV 盗) (NN 窃)) (NP (NN 行为))) (DEC 的)) (NP (NN 后果))) (VP (VC 是) (NP (WP 什么))))))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-一位十一世纪的波斯统治者建议他的儿子根据季节来更换性伴侣：夏天与年轻男子同居，冬天与女人同居。
-
-(ROOT (IP (IP (NP (QP (CD 一) (CLP (NNB 位))) (DNP (NP (NNP 十一世) (SFN 纪)) (DEC 的)) (NP (NNP 波斯)) (NP (VV 统治) (SFN 者))) (VP (VV 建议) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 儿子))) (IP (VP (PP (IN 根据) (NP (NN 季节))) (VP (RB 来) (VP (VV 更换) (NP (NN 性) (NN 伴侣)))))))) (: ：) (IP (VP (NP (NN 夏天)) (PP (IN 与) (NP (ADJP (JJ 年轻)) (NP (NN 男子)))) (VP (VV 同居))) (, ，) (VP (NP (NN 冬天)) (PP (IN 与) (NP (NN 女人))) (VP (VV 同居)))) (. 。)))
-{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-八世纪巴格达的阿布·努瓦斯（Abu Nuwas）和其他波斯和乌尔都语诗人的许多情人诗都是写给男孩的。
-
-(ROOT (IP (NP (NP (NNP 八世) (SFN 纪)) (DNP (NP (NNP 巴格达)) (DEC 的)) (DNP (NP (NP (NNP 阿布) (/ ·) (NNP 努瓦斯) (PRN (-LRB- （) (NP (FW Abu) (FW Nuwas)) (-RRB- ）))) (CC 和) (NP (NP (DP (DT 其他)) (NP (NNP 波斯) (CC 和) (NNP 乌尔) (NNP 都)) (NP (SFN 语))) (NP (NN 诗人)))) (DEC 的)) (QP (CD 许多)) (NP (NN 情人) (SFN 诗))) (VP (VC 都是) (NP (CP (CP (IP (VP (VV 写给) (NP (NN 男孩)))) (UH 的))))) (. 。)))
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'DNP': {}, 'DNP': {}, 'QP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'DNP': {}, 'DNP': {}, 'QP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
-----------------------------------------------------------------------
-在中世纪神秘主义文献中，特别是苏菲派文献中，被谈到的被爱的人是男孩还是上帝，这不清楚，为男人和男孩之间的关系提供了半宗教性的批准。
-
-(ROOT (IP (IP (PP (IN 在) (LCP (NP (NP (ADJP (NN 中)) (NP (NNB 世纪))) (NP (ADJP (JJ 神秘)) (NP (NN 主义))) (NP (NN 文献))) (IN 中))) (, ，) (VP (ADVP (RB 特别)) (VP (VC 是) (LCP (NP (NP (NP (NNP 苏) (NNP 菲)) (NP (SFN 派))) (NP (NN 文献))) (IN 中)))) (, ，) (NP (CP (CP (IP (VP (BB 被) (VP (VV 谈到)))) (DEC 的))) (CP (CP (IP (VP (BB 被) (VP (VV 爱)))) (DEC 的))) (NP (NN 人))) (VP (VC 是) (NP (NN 男孩) (VC 还是) (NN 上帝)))) (, ，) (IP (NP (PRD 这)) (VP (VP (ADVP (RB 不)) (VP (JJ 清楚))) (, ，) (VP (PP (IN 为) (NP (DNP (LCP (NP (NN 男人) (CC 和) (NN 男孩)) (IN 之间)) (DEC 的)) (NP (NN 关系)))) (VP (VV 提供) (AS 了) (NP (QP (PFA 半)) (DNP (NP (NN 宗教) (SFN 性)) (DEC 的)) (NP (NN 批准))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'VP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'VP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-旧时的欧洲报道者对哈里发时代对同性恋性行为的宽容态度感到愤怒（现在的批判是相反的）。
-
-(ROOT (IP (NP (DNP (ADJP (NN 旧时)) (DEC 的)) (NP (NNP 欧洲)) (NP (VV 报道) (SFN 者))) (VP (PP (IN 对) (NP (NP (NN 哈里发) (NN 时代)) (DNP (PP (IN 对) (NP (NN 同性) (NN 恋性) (NN 行为))) (DEC 的)) (NP (JJ 宽容) (NN 态度)))) (VP (VV 感到) (NP (JJ 愤怒)))) (PRN (-LRB- （) (IP (NP (DNP (NP (NN 现在)) (DEC 的)) (NP (NN 批判))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 相反))) (UH 的)))))) (-RRB- ）)) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, 'PRN': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, 'PRN': {'-LRB-': {}, 'IP': {}, '-RRB-': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-{'PRN': {'-LRB-': {}, 'IP': {}, '-RRB-': {}}}
-----------------------------------------------------------------------
-与近几十年的自由派犹太和基督教学者一样，一些穆斯林思想家现在也在寻找神学上的宽容。
-
-(ROOT (IP (IP (VP (PP (IN 与) (NP (DNP (QP (ADVP (RB 近)) (QP (CD 几十) (CLP (NNB 年)))) (DEC 的)) (NP (NN 自由) (SFN 派)) (NP (NNP 犹太) (CC 和) (NNP 基督) (NN 教学) (SFN 者)))) (VP (JJ 一样)))) (, ，) (NP (QP (JJ 一些)) (NP (NNP 穆斯林) (NN 思想) (SFN 家))) (VP (NP (NN 现在)) (ADVP (RB 也)) (ADVP (RB 在)) (VP (VV 寻找) (NP (DNP (LCP (NP (NN 神学)) (IN 上)) (DEC 的)) (NP (NN 宽容))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'NP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
 {'NP': {'QP': {}, 'NP': {}}}
-{'VP': {'NP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-“古兰经并没有谴责同性恋，”美国籍穆斯林改信者 Scott Siraj al-Haqq Kugle 说，他在亚特兰大的埃默里大学教授伊斯兰研究。
-
-(ROOT (IP (IP (IP (IP (`` “) (NP (NNP 古兰)) (VP (ADVP (IN 经)) (ADVP (RB 并)) (VP (VV 没有) (VP (VV 谴责) (NP (NN 同性) (SFN 恋)))))) (, ，) ('' ”)) (NP (NP (NP (NNP 美)) (NP (SFN 国)) (ADJP (SFN 籍)) (NP (NNP 穆斯林) (VV 改信) (SFN 者))) (NP (FW Scott) (FW Siraj) (FW al-Haqq) (FW Kugle))) (VP (VV 说))) (, ，) (IP (NP (PRP 他)) (VP (PP (VV 在) (NP (DNP (NP (NNP 亚特兰大)) (DEC 的)) (NP (NNP 埃默里) (NN 大学)))) (VP (VP (NN 教授) (NP (NNP 伊斯兰))) (VP (VV 研究))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'IP': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-他认为，罗得的故事涉及男性强奸和暴力，而不是一般的同性恋。
-
-(ROOT (IP (NP (PRP 他)) (VP (VV 认为) (, ，) (IP (NP (DNP (NP (NNP 罗得)) (DEC 的)) (NP (NN 故事))) (VP (VP (VV 涉及) (NP (NP (NN 男性)) (ADJP (PFA 强)) (NP (NN 奸) (CC 和) (NN 暴力)))) (, ，) (RB 而) (VP (VC 不是) (NP (DNP (ADJP (JJ 一般)) (DEC 的)) (NP (NN 同性) (SFN 恋))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
 {'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+一些	专家	amod
+技术	专家	nmod
+专家	表示	nsubj
+表示	ROOT	root
+，	清楚	punct
+谷歌	发现	nsubj
+很快	发现	advmod
+就	发现	mark
+发现	清楚	advcl
+了	发现	aux
+软件	盗	nsubj:pass
+被	盗	aux:pass
+盗	情况	acl:relcl
+的	盗	mark:rel
+情况	发现	obj
+，	发现	punct
+因	此	case
+此	清楚	obl
+不	清楚	advmod
+清楚	表示	ccomp
+盗	后果	acl:relcl
+窃	行为	nmod
+行为	盗	obj
+的	盗	mark:rel
+后果	什么	nsubj
+是	什么	cop
+什么	清楚	ccomp
+。	表示	punct
 ----------------------------------------------------------------------
-他说，古典伊斯兰教神学家和法学家大多关注的是遏制不受控制的不道德行为。
+最令人担忧的可能性之一是，攻击者可能打算在 Gaia 程序中植入一个木马程序，即一个秘密后门，并在谷歌的数十个全球数据中心中安装它，以建立秘密入口点。
 
-(ROOT (IP (NP (PRP 他)) (VP (VV 说) (, ，) (IP (NP (CP (CP (IP (NP (ADJP (NN 古典)) (NP (NNP 伊斯兰)) (NP (NN 教神) (NN 学家) (CC 和) (NN 法学) (SFN 家))) (VP (ADVP (RB 大多)) (VP (VV 关注)))) (DEC 的)))) (VP (VC 是) (IP (VP (VV 遏制) (NP (CP (CP (IP (VP (VV 不受) (NP (VV 控制)))) (DEC 的))) (IP (VP (ADVP (PFA 不)) (VP (NN 道德)))) (NP (NN 行为)))))))) (. 。)))
+(ROOT (IP (NP (CP (CP (IP (VP (VV 最令) (NP (NN 人)) (IP (VP (JJ 担忧))))) (DEC 的))) (DNP (NP (NN 可能) (SFN 性)) (DEC 之)) (NP (CD 一))) (VP (VC 是) (, ，) (IP (NP (VV 攻击) (SFN 者)) (VP (MD 可能) (VP (VV 打算) (IP (IP (VP (VP (PP (IN 在) (LCP (NP (NP (FW Gaia)) (NP (NN 程序))) (IN 中))) (VP (VV 植入) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 木马) (NN 程序))))) (, ，) (NP (ADVP (VC 即)) (NP (QP (CD 一) (CLP (NNB 个))) (ADJP (NN 秘密)) (NP (NN 后门))))) (, ，) (RB 并) (VP (PP (IN 在) (LCP (NP (DNP (NP (NNP 谷歌)) (DEC 的)) (QP (CD 数十) (CLP (NNB 个))) (NP (NN 全球) (NN 数据) (NN 中心))) (IN 中))) (VP (VV 安装) (NP (PRP 它)))) (, ，) (VP (RB 以) (VP (VV 建立) (NP (ADJP (NN 秘密)) (NP (NN 入口) (SFN 点))))))))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-古兰经中没有谴责那些对女性没有性欲的男人。
-
-(ROOT (IP (LCP (NP (NNP 古兰) (SFN 经)) (IN 中)) (VP (VV 没有) (VP (VV 谴责) (NP (DP (DT 那些)) (CP (CP (IP (VP (PP (IN 对) (NP (NN 女性))) (VP (VV 没有) (NP (NN 性) (SFN 欲))))) (DEC 的))) (NP (NN 男人))))) (. 。)))
-{'IP': {'LCP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'NP': {}, 'IN': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
-{'LCP': {'NP': {}, 'IN': {}}}
-{'VP': {'VV': {}, 'VP': {}}}
-----------------------------------------------------------------------
-宾夕法尼亚州莫拉维亚学院的伊朗学者阿拉什·纳拉吉 (Arash Naraghi) 表示，谴责同性恋的经文，如同提及奴隶制和托勒密世界观的经文一样，源自写作时的普遍信仰，应该重新审视。
-
-(ROOT (IP (NP (NP (DNP (NP (NNP 宾夕法尼亚) (SFN 州) (NNP 莫拉维亚) (NN 学院)) (DEC 的)) (NP (NNP 伊朗)) (NP (SFN 学) (SFN 者))) (NP (NNP 阿拉什) (/ ·) (NNP 纳拉吉) (FW -LRB-Arash) (FW Naraghi-RRB-))) (VP (VV 表示) (, ，) (IP (NP (CP (CP (IP (VP (VV 谴责) (NP (NN 同性) (SFN 恋)))) (DEC 的))) (NP (NN 经文))) (, ，) (VP (IP (VP (PP (VV 如同) (IP (VP (VV 提及) (NP (DNP (NP (NP (NN 奴隶) (SFN 制)) (CC 和) (NP (NP (NNP 托勒密)) (NP (NN 世界) (SFN 观)))) (DEC 的)) (NP (NN 经文)))))) (VP (JJ 一样)))) (, ，) (VP (VV 源) (PP (VV 自) (NP (DNP (LCP (NP (VV 写作)) (IN 时)) (DEC 的)) (ADJP (JJ 普遍)) (NP (NN 信仰))))) (, ，) (VP (MD 应该) (VP (ADVP (RB 重新)) (VP (VV 审视))))))) (. 。)))
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-即使是黎巴嫩真主党党团军团的灵魂领袖穆罕默德·侯赛因·法赫达拉也承认，需要更多研究来了解同性恋。
-
-(ROOT (IP (VP (ADVP (IN 即使)) (VP (VC 是) (IP (NP (NP (DNP (NP (NP (NNP 黎巴) (PFA 嫩) (NN 真主) (SFN 党)) (NP (NN 党团) (NN 军团))) (DEC 的)) (NP (NN 灵魂) (NN 领袖))) (NP (NNP 穆罕默德) (/ ·) (NNP 侯赛) (IN 因) (/ ·) (NNP 法赫达拉))) (VP (ADVP (RB 也)) (VP (VV 承认) (, ，) (IP (VP (VP (VV 需要) (NP (ADJP (JJ 更多)) (NP (NN 研究)))) (VP (RB 来) (VP (VV 了解) (NP (NN 同性) (SFN 恋))))))))))) (. 。)))
-{'IP': {'VP': {}, '.': {}}}
-{'IP': {'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-令人预料的是，这场辩论，无论如何，都是伊斯兰世界以外的同性恋穆斯林引领的。
-
-(ROOT (IP (NP (CP (CP (IP (VP (VV 令) (NP (NN 人)) (IP (VP (VV 预料))))) (DEC 的)))) (VP (VC 是) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 场))) (NP (NN 辩论))) (, ，) (VP (IP (VP (ADVP (IN 无论)) (VP (WP 如何)))) (, ，) (VP (VC 都是) (NP (CP (CP (IP (NP (DNP (LCP (NP (NNP 伊斯兰) (NN 世界)) (IN 以外)) (DEC 的)) (NP (NN 同性) (SFN 恋) (NN 穆斯林))) (VP (VV 引领))) (UH 的)))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'CP': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'DNP': {}, 'NP': {}}}
 {'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+最令	一	acl:relcl
+人	担忧	nsubj
+担忧	最令	ccomp
+的	最令	mark:rel
+可能	性	compound
+性	一	nmod
+之	性	case
+一	是	nsubj
+是	ROOT	root
+，	建立	punct
+攻击	者	compound
+者	建立	nsubj
+可能	打算	aux
+打算	建立	advcl
+在	程序	case
+Gaia	程序	nmod
+程序	植入	obl
+中	程序	case
+植入	打算	xcomp
+一	个	nummod
+个	程序	clf
+木马	程序	nmod
+程序	植入	nsubj
+，	程序	punct
+即	打算	ccomp
+一	个	nummod
+个	后门	clf
+秘密	后门	nmod
+后门	即	xcomp
+，	打算	punct
+并	安装	mark
+在	中心	case
+谷歌	中心	nmod
+的	谷歌	case
+数十	个	nummod
+个	中心	clf
+全球	中心	nmod
+数据	中心	nmod
+中心	安装	obl
+中	中心	case
+安装	建立	advcl
+它	安装	obj
+，	安装	punct
+以	建立	mark
+建立	是	ccomp
+秘密	点	nmod
+入口	点	compound
+点	建立	obj
+。	是	punct
 ----------------------------------------------------------------------
-尽管他们的权利得到了更好的保护，但他们也可能会遭受不容忍，如去年十月德比市的审判所突出表明的那样。
+但独立的安全专家强调，这样一项工作极其困难，特别是因为谷歌的安全专家已经被告知程序被盗。
 
-(ROOT (IP (IP (CP (ADVP (IN 尽管)) (IP (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 权利))) (VP (VV 得到) (AS 了) (NP (CP (CP (IP (VP (JJ 更好))) (DEC 的))) (NP (NN 保护)))))) (, ，) (ADVP (RB 但)) (NP (PRP 他们)) (VP (ADVP (RB 也)) (VP (MD 可能) (VP (MD 会) (VP (VV 遭受) (IP (VP (ADVP (RB 不)) (VP (NN 容忍))))))))) (, ，) (PP (IN 如) (NP (CP (CP (IP (NP (NP (NN 去年)) (QP (CD 十)) (NP (NNB 月))) (NP (DNP (NP (NNP 德比) (SFN 市)) (DEC 的)) (NP (NN 审判))) (VP (VP (RB 所) (VP (RB 突出))) (VP (VV 表明)))) (DEC 的))) (NP (PRD 那样)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
-{'IP': {'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'NP': {}}, '.': {}}}
-{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-{'PP': {'IN': {}, 'NP': {}}}
+(ROOT (IP (ADVP (RB 但)) (NP (CP (CP (IP (VP (JJ 独立))) (DEC 的))) (NP (NN 安全) (NN 专家))) (VP (VV 强调) (, ，) (IP (IP (NP (QP (DP (PRD 这样)) (QP (CD 一) (CLP (NNB 项)))) (NP (NN 工作))) (VP (ADVP (RB 极)) (ADVP (PRP 其)) (VP (JJ 困难)))) (, ，) (IP (ADVP (RB 特别)) (ADVP (VC 是)) (PP (IN 因为) (IP (NP (DNP (NP (NNP 谷歌)) (DEC 的)) (NP (NN 安全) (NN 专家))) (VP (ADVP (RB 已经)) (VP (BB 被) (VP (VV 告知) (IP (NP (NN 程序)) (VP (BB 被) (VP (VV 盗)))))))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+但	强调	mark
+独立	专家	amod
+的	独立	mark:rel
+安全	专家	nmod
+专家	强调	nsubj
+强调	ROOT	root
+，	困难	punct
+这样	工作	det
+一	项	nummod
+项	工作	clf
+工作	困难	nsubj
+极	困难	advmod
+其	困难	nsubj
+困难	强调	ccomp
+，	是	punct
+特别	是	advmod
+是	强调	parataxis
+因为	是	xcomp
+谷歌	专家	nmod
+的	谷歌	case
+安全	专家	nmod
+专家	告知	nsubj:pass
+已经	告知	advmod
+被	告知	aux:pass
+告知	因为	ccomp
+程序	盗	nsubj:pass
+被	盗	aux:pass
+盗	告知	ccomp
+。	强调	punct
 ----------------------------------------------------------------------
-在欧洲有很多穷人、信仰穆斯林的移民的城市，市政政治带来了一些可疑的联盟。
+但是，获取原始编程员的指示或源代码，也可以为技术熟练的黑客提供有关谷歌工程师可能未发现的微妙安全漏洞的知识。
 
-(ROOT (IP (IP (VP (PP (VV 在) (NP (NNP 欧洲))) (VP (VV 有) (NP (QP (CD 很多)) (DNP (NP (NP (NN 穷人)) (EC 、) (NP (CP (CP (IP (VP (NN 信仰) (NP (NN 穆斯林)))) (DEC 的))) (NP (NN 移民)))) (DEC 的)) (NP (NN 城市)))))) (, ，) (IP (NP (NN 市政) (NN 政治)) (VP (VV 带来) (AS 了) (NP (QP (JJ 一些)) (CP (CP (IP (VP (JJ 可疑))) (DEC 的))) (NP (NN 联盟))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+(ROOT (IP (ADVP (RB 但是)) (, ，) (IP (VP (VV 获取) (NP (DNP (NP (ADJP (JJ 原始)) (NP (VV 编程) (SFN 员))) (DEC 的)) (NP (NN 指示) (CC 或) (VV 源) (NN 代码))))) (, ，) (VP (ADVP (RB 也)) (VP (MD 可以) (VP (PP (IN 为) (NP (CP (CP (IP (NP (NN 技术)) (VP (VV 熟练))) (DEC 的))) (NP (NN 黑客)))) (VP (VV 提供) (NP (DNP (PP (IN 有关) (NP (CP (CP (IP (NP (NP (NNP 谷歌)) (NP (NN 工程) (SFN 师))) (VP (MD 可能) (VP (ADVP (RB 未)) (VP (VV 发现))))) (DEC 的))) (ADJP (JJ 微妙)) (NP (NN 安全) (NN 漏洞)))) (DEC 的)) (NP (NN 知识))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',89370': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'VP': {}}, ',17626': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
 {'IP': {'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+但是	提供	mark
+，	但是	punct
+获取	提供	advcl
+原始	员	amod
+编程	员	compound
+员	指示	nmod
+的	获取	mark:rel
+指示	获取	obj
+或	代码	cc
+源	获取	conj
+代码	源	obj
+，	获取	punct
+也	提供	mark
+可以	提供	aux
+为	黑客	case
+技术	熟练	nsubj
+熟练	黑客	acl:relcl
+的	熟练	mark:rel
+黑客	提供	obl
+提供	ROOT	root
+有关	师	case
+谷歌	师	nmod
+工程	师	compound
+师	发现	obl
+可能	发现	aux
+未	发现	advmod
+发现	知识	acl:relcl
+的	发现	mark:rel
+微妙	安全	amod
+安全	漏洞	nmod
+漏洞	发现	obj
+的	发现	mark:rel
+知识	提供	obj
+。	提供	punct
 ----------------------------------------------------------------------
-左翼伦敦政客肯·利文斯通 (Ken Livingstone) 是同性恋权利领域的佼佼者，他过去曾欢迎过一位支持将同性恋判处死刑的埃及穆斯林教士尤素福·加拉达维 (Yusuf al-Qaradawi)。
+“如果您能在修复漏洞之前，进入软件存储库，那么那里就是彩虹彩虹的黄金，”麦克阿瑟公司首席技术官乔治·库茨说，麦克阿瑟公司是去年分析谷歌和其他公司遭遇入侵时使用的非法软件的公司之一。
 
-(ROOT (IP (IP (NP (NP (ADJP (NN 左翼)) (NP (NNP 伦敦)) (NP (NN 政客))) (NP (NNP 肯) (/ ·) (NNP 利文斯通) (FW -LRB-Ken) (FW Livingstone-RRB-))) (VP (VC 是) (NP (DNP (NP (NP (NN 同性) (SFN 恋) (NN 权利)) (NP (NN 领域))) (DEC 的)) (NP (VV 佼佼) (SFN 者))))) (, ，) (IP (NP (PRP 他)) (VP (NP (NN 过去)) (ADVP (RB 曾)) (VP (VV 欢迎) (AS 过) (NP (QP (CD 一) (CLP (NNB 位))) (CP (CP (IP (VP (VV 支持) (IP (VP (BB 将) (IP (NP (NN 同性) (SFN 恋)) (VP (VV 判处) (NP (NN 死刑)))))))) (DEC 的))) (NP (NP (NNP 埃及)) (NP (NNP 穆斯林) (NN 教士))) (NP (NNP 尤素) (NNP 福) (/ ·) (NNP 加拉达维) (FW -LRB-Yusuf) (FW al-) (FW Qaradawi-RRB-)))))) (. 。)))
+(ROOT (IP (IP (IP (`` “) (CP (ADVP (IN 如果)) (IP (NP (PRP 您)) (VP (MD 能) (VP (PP (IN 在) (LCP (IP (VP (VV 修复) (NP (NN 漏洞)))) (IN 之前))) (, ，) (VP (VV 进入) (NP (NN 软件) (VV 存储) (SFN 库))))))) (, ，) (ADVP (RB 那么)) (NP (PRD 那里)) (VP (VC 就是) (NP (DNP (NP (NP (ADJP (NN 彩)) (NP (NN 虹))) (NP (NN 彩虹))) (DEC 的)) (NP (NN 黄金))))) (, ，) ('' ”) (NP (NP (NP (NNP 麦克阿瑟) (NN 公司)) (NP (JJ 首席) (NN 技术) (SFN 官))) (NP (NNP 乔治) (/ ·) (NNP 库茨))) (VP (VV 说))) (, ，) (IP (NP (NNP 麦克阿瑟) (NN 公司)) (VP (VC 是) (NP (DNP (NP (CP (CP (IP (VP (NP (NN 去年)) (VP (VV 分析) (NP (CP (CP (IP (NP (NP (NNP 谷歌)) (CC 和) (NP (DP (DT 其他)) (NP (NN 公司)))) (VP (LCP (IP (VP (VV 遭遇) (NP (NN 入侵)))) (IN 时)) (VP (VV 使用)))) (DEC 的))) (ADJP (JJ 非法)) (NP (NN 软件)))))) (DEC 的))) (NP (NN 公司))) (DEC 之)) (NP (CD 一))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP62731': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP33075': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+“	说	punct
+如果	进入	case
+您	进入	nsubj
+能	进入	aux
+在	修复	case
+修复	进入	xcomp
+漏洞	修复	obj
+之前	修复	mark
+，	修复	punct
+进入	黄金	ccomp
+软件	库	nmod
+存储	库	compound
+库	进入	obj
+，	进入	punct
+那么	黄金	advmod
+那里	黄金	nsubj
+是	黄金	cop
+彩	彩虹	nmod
+虹	彩虹	nmod
+彩虹	黄金	nmod
+的	彩虹	mark:rel
+黄金	说	ccomp
+，	官	punct
+”	黄金	punct
+麦克阿瑟	官	nmod
+公司	官	nmod
+首席	官	amod
+技术	官	compound
+官	说	nsubj
+乔治	官	appos
+·	库茨	punct
+库茨	乔治	flat:name
+说	ROOT	root
+，	一	punct
+麦克阿瑟	公司	nmod
+公司	一	nsubj
+是	一	cop
+去年	分析	nmod:tmod
+分析	公司	acl:relcl
+谷歌	遭遇	nsubj
+和	公司	cc
+其他	公司	det
+公司	谷歌	conj
+遭遇	使用	advcl
+入侵	遭遇	obj
+时	遭遇	mark
+使用	公司	acl:relcl
+的	使用	mark:rel
+非法	软件	amod
+软件	使用	obj
+的	分析	mark:rel
+公司	一	nmod
+之	公司	case
+一	说	ccomp
+。	说	punct
+----------------------------------------------------------------------
+Neustar 公司副总裁罗德尼·乔夫说：“如果你能够理解这个系统的工作原理，那么这显然是一个真实的问题。”
+
+(ROOT (IP (NP (NP (NP (FW Neustar) (NN 公司)) (ADJP (PFA 副)) (NP (NN 总裁))) (NP (NNP 罗德尼) (/ ·) (NNP 乔夫))) (VP (VV 说) (: ：) (IP (`` “) (CP (ADVP (IN 如果)) (IP (NP (PRP 你)) (VP (MD 能够) (VP (VV 理解) (NP (DNP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 系统))) (DEC 的)) (NP (NN 工作) (NN 原理))))))) (, ，) (ADVP (RB 那么)) (NP (PRD 这)) (VP (ADVP (RB 显然)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 真实))) (DEC 的))) (NP (NN 问题))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP44477': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+Neustar	总裁	nmod
+公司	总裁	nmod
+副	总裁	case
+总裁	说	nsubj
+罗德尼	总裁	appos
+·	乔夫	punct
+乔夫	罗德尼	flat:name
+说	ROOT	root
+：	问题	punct
+“	问题	punct
+如果	理解	case
+你	理解	nsubj
+能够	理解	aux
+理解	问题	ccomp
+这	个	det
+个	系统	clf
+系统	原理	nmod
+的	系统	case
+工作	原理	nmod
+原理	理解	obj
+，	理解	punct
+那么	问题	advmod
+这	问题	nsubj
+显然	问题	advmod
+是	问题	cop
+一	个	nummod
+个	问题	clf
+真实	问题	amod
+的	真实	mark:rel
+问题	说	ccomp
+。	问题	punct
+”	问题	punct
+----------------------------------------------------------------------
+他说，了解软件所依据的算法，对于寻找系统弱点的攻击者而言，可能很有价值。
+
+(ROOT (IP (NP (PRP 他)) (VP (VV 说) (, ，) (IP (IP (VP (VV 了解) (NP (CP (CP (IP (NP (NN 软件)) (VP (RB 所) (VP (VV 依据)))) (DEC 的))) (NP (NN 算法))))) (, ，) (VP (IP (VP (PP (IN 对于) (NP (CP (CP (IP (VP (VV 寻找) (NP (NN 系统) (NN 弱点)))) (DEC 的))) (NP (VV 攻击) (SFN 者)))) (VP (RB 而) (VP (VV 言))))) (, ，) (VP (MD 可能) (VP (ADVP (RB 很)) (VP (VV 有) (NP (NN 价值)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+他	说	nsubj
+说	ROOT	root
+，	有	punct
+了解	有	advcl
+软件	依据	nsubj
+所	依据	mark
+依据	算法	acl:relcl
+的	依据	mark:rel
+算法	了解	obj
+，	了解	punct
+对于	者	case
+寻找	者	acl:relcl
+系统	弱点	nmod
+弱点	寻找	obj
+的	寻找	mark:rel
+攻击	者	compound
+者	言	obl
+而	言	mark
+言	有	advcl
+，	言	punct
+可能	有	aux
+很	有	advmod
+有	说	ccomp
+价值	有	obj
+。	说	punct
+----------------------------------------------------------------------
+当谷歌首次宣布遭遇网络盗窃时，该公司表示有证据表明入侵行为来自中国。
+
+(ROOT (IP (IP (NP (NNP 当谷) (SFN 歌)) (VP (ADVP (CD 首次)) (VP (VV 宣布) (LCP (IP (VP (VV 遭遇) (NP (NN 网络) (SFN 盗) (NN 窃)))) (IN 时))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 公司))) (VP (VV 表示) (IP (VP (VV 有) (IP (NP (NN 证据)) (VP (VV 表明) (IP (NP (NN 入侵) (NN 行为)) (VP (VV 来) (VP (VV 自) (NP (NNP 中国))))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP37931': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP53476': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+当谷	歌	compound
+歌	宣布	nsubj
+首次	宣布	obl
+宣布	ROOT	root
+遭遇	宣布	xcomp
+网络	盗	compound
+盗	窃	nmod
+窃	遭遇	obj
+时	遭遇	mark
+，	宣布	punct
+该	公司	det
+公司	表示	nsubj
+表示	宣布	parataxis
+有	表示	xcomp
+证据	表明	nsubj
+表明	有	ccomp
+入侵	行为	nmod
+行为	来	nsubj
+来	表明	ccomp
+自	来	mark
+中国	来	obj
+。	表示	punct
 ----------------------------------------------------------------------
-在穆斯林国家，活动人士大多避免了神学辩论的坑。
+袭击事件的来源被追溯到中国的两个校园的电脑上，但调查人员承认，真正的来源可能被隐藏了，这是网络攻击的绝招。
 
-(ROOT (IP (PP (VV 在) (NP (NNP 穆斯林) (NN 国家))) (, ，) (NP (NN 活动) (NN 人士)) (VP (ADVP (RB 大多)) (VP (VV 避免) (AS 了) (NP (DNP (NP (NN 神学) (NN 辩论)) (DEC 的)) (NP (NN 坑))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'PP': {'VV': {}, 'NP': {}}}
-{'NP': {'NN': {}, 'NN': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+(ROOT (IP (IP (NP (DNP (NP (NN 袭击) (NN 事件)) (DEC 的)) (NP (NN 来源))) (VP (BB 被) (VP (VRD (VV 追溯) (VV 到)) (LCP (NP (DNP (NP (DNP (NP (NNP 中国)) (DEC 的)) (QP (CD 两) (CLP (NNB 个))) (NP (NN 校园))) (DEC 的)) (NP (NN 电脑))) (NN 上))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 调查) (NN 人员)) (VP (VV 承认) (, ，) (IP (IP (NP (CP (CP (IP (VP (JJ 真正))) (DEC 的))) (NP (NN 来源))) (VP (MD 可能) (VP (BB 被) (VP (VV 隐藏) (UH 了))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (DNP (NP (NN 网络) (NN 攻击)) (DEC 的)) (NP (NN 绝招)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP92549': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP97126': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+袭击	事件	nmod
+事件	来源	nmod
+的	事件	case
+来源	追溯	nsubj:pass
+被	追溯	aux:pass
+追溯	ROOT	root
+到	追溯	mark
+中国	校园	nmod
+的	中国	case
+两	个	nummod
+个	校园	clf
+校园	追溯	obj
+的	追溯	mark:rel
+电脑	追溯	obj
+上	电脑	acl
+，	承认	punct
+但	承认	mark
+调查	人员	nmod
+人员	承认	nsubj
+承认	追溯	parataxis
+，	隐藏	punct
+真正	来源	amod
+的	真正	mark:rel
+来源	隐藏	nsubj:pass
+可能	隐藏	aux
+被	隐藏	aux:pass
+隐藏	承认	ccomp
+了	隐藏	discourse
+，	绝招	punct
+这	绝招	nsubj
+是	绝招	cop
+网络	攻击	nmod
+攻击	绝招	nmod
+的	攻击	case
+绝招	承认	ccomp
+。	追溯	punct
 ----------------------------------------------------------------------
-相反，黎巴嫩非政府组织 Helem 等团体则以世俗的人权语言，援引联合国宣言。
+参与调查其他 20 多家科技公司遭遇入侵事件的几位人士表示，虽然这些入侵事件具有相似之处，但也存在巨大差异，比如入侵使用的软件类型不同。
 
-(ROOT (IP (ADVP (VV 相反)) (, ，) (NP (NP (NP (NP (NP (NNP 黎巴嫩)) (NP (ADJP (PFA 非)) (NP (NN 政府))) (NP (NN 组织))) (NP (FW Helem))) (NN 等)) (NP (NN 团体))) (VP (ADVP (RB 则)) (PP (IN 以) (NP (DNP (ADJP (NN 世俗)) (DEC 的)) (NP (NN 人权) (NN 语言)))) (, ，) (VP (VV 援引) (NP (NP (VV 联合) (SFN 国)) (NP (NN 宣言))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'VV': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'VV': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'PP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-阿里扎德先生认为，虽然进展缓慢，但还是有进展。
-
-(ROOT (IP (NP (NNP 阿里扎德) (NN 先生)) (VP (VV 认为) (, ，) (IP (CP (ADVP (IN 虽然)) (IP (NP (NN 进展)) (VP (JJ 缓慢)))) (, ，) (ADVP (RB 但)) (VP (ADVP (RB 还是)) (VP (VV 有) (NP (NN 进展)))))) (. 。)))
+(ROOT (IP (NP (CP (CP (IP (VP (VV 参与) (IP (VP (VV 调查) (IP (NP (DP (DT 其他) (QP (CD 20))) (ADJP (NN 多家)) (NP (NN 科技) (NN 公司))) (VP (VV 遭遇) (NP (NN 入侵) (NN 事件)))))))) (DEC 的))) (QP (CD 几) (CLP (NNB 位))) (NP (NN 人士))) (VP (VV 表示) (, ，) (IP (IP (CP (ADVP (IN 虽然)) (IP (NP (DP (DT 这些)) (NP (NN 入侵) (NN 事件))) (VP (VV 具有) (NP (CP (CP (IP (VP (JJ 相似))) (DEC 之))) (NP (NN 处)))))) (, ，) (ADVP (RB 但)) (VP (ADVP (RB 也)) (VP (VV 存在) (NP (ADJP (JJ 巨大)) (NP (NN 差异)))))) (, ，) (IP (ADVP (VV 比如)) (NP (DNP (NP (VV 入侵) (VV 使用)) (DEC 的)) (NP (NN 软件) (NN 类型))) (VP (JJ 不同))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NNP': {}, 'NN': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'QP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'QP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'QP': {}, 'NP': {}}}
 {'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+参与	表示	advcl
+调查	参与	xcomp
+其他	公司	det
+20	公司	nummod
+多家	公司	nmod
+科技	公司	nmod
+公司	调查	obj
+遭遇	人士	acl:relcl
+入侵	事件	nmod
+事件	遭遇	obj
+的	遭遇	mark:rel
+几	位	nummod
+位	人士	clf
+人士	表示	nsubj
+表示	ROOT	root
+，	存在	punct
+虽然	具有	case
+这些	事件	det
+入侵	事件	nmod
+事件	具有	nsubj
+具有	存在	ccomp
+相似	处	amod
+之	相似	mark:rel
+处	具有	obj
+，	具有	punct
+但	存在	mark
+也	存在	mark
+存在	表示	ccomp
+巨大	差异	amod
+差异	存在	obj
+，	存在	punct
+比如	存在	ccomp
+入侵	类型	acl:relcl
+使用	入侵	xcomp
+的	使用	mark:rel
+软件	类型	nmod
+类型	不同	nsubj
+不同	比如	ccomp
+。	表示	punct
 ----------------------------------------------------------------------
-即使是最抗拒改革的穆斯林教士，也在稍微转变。
+据参与谷歌调查的人士称，在一家著名的硅谷公司中，调查人员发现有证据表明攻击事件可追溯到两年多前。
 
-(ROOT (IP (IP (VP (ADVP (IN 即使)) (VP (VC 是) (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (VV 抗拒) (NP (NN 改革))))) (DEC 的))) (NP (NNP 穆斯林) (NN 教士)))))) (, ，) (VP (ADVP (RB 也)) (ADVP (RB 在)) (ADVP (RB 稍微)) (VP (VV 转变))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+(ROOT (PP (IN 据) (IP (NP (CP (CP (IP (VP (VV 参与) (NP (NP (NNP 谷歌)) (NP (NN 调查))))) (DEC 的))) (NP (NN 人士))) (VP (VV 称) (, ，) (IP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 家))) (CP (CP (IP (VP (JJ 著名))) (DEC 的))) (NP (NNP 硅谷) (NN 公司))) (IN 中))) (, ，) (NP (NN 调查) (NN 人员)) (VP (VV 发现) (IP (VP (VV 有) (IP (NP (NN 证据)) (VP (VV 表明) (IP (NP (NN 攻击) (NN 事件)) (VP (MD 可) (VP (VRD (VV 追溯) (VV 到)) (LCP (QP (QP (CD 两) (CLP (NNB 年))) (ADVP (IN 多))) (IN 前))))))))))))) (. 。)))
+layer 2:
+{'PP': {'IN': {}, 'IP': {}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'PP': {'IN': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+据	公司	case
+参与	人士	acl:relcl
+谷歌	调查	nmod
+调查	参与	obj
+的	参与	mark:rel
+人士	称	nsubj
+称	ROOT	root
+，	发现	punct
+在	公司	case
+一	家	nummod
+家	公司	clf
+著名	公司	amod
+的	著名	mark:rel
+硅谷	公司	nmod
+公司	发现	obl
+中	公司	case
+，	公司	punct
+调查	人员	nmod
+人员	发现	nsubj
+发现	称	ccomp
+有	发现	xcomp
+证据	表明	nsubj
+表明	有	ccomp
+攻击	事件	nmod
+事件	追溯	nsubj
+可	追溯	aux
+追溯	有	ccomp
+到	追溯	mark
+两	年	nummod
+年	追溯	nmod:tmod
+多	年	case
+前	年	case
+。	称	punct
 ----------------------------------------------------------------------
-2009 年伊拉克发生针对男同性恋者的袭击事件后，一位火热的什叶派教士穆卡塔·萨德 (Muqtada al-Sadr) 谴责了这些杀人事件。
+就谷歌而言，入侵者似乎掌握了 Gaia 软件开发人员姓名的准确情报，他们先试图访问他们的工作电脑，然后使用一套复杂的技术访问程序源代码存储的存储库。
 
-(ROOT (IP (LCP (IP (NP (CD 2009)) (NP (NNB 年伊拉克)) (VP (VV 发生) (NP (DNP (PP (VV 针对) (NP (ADJP (NN 男)) (NP (NN 同性) (SFN 恋者)))) (DEC 的)) (NP (NN 袭击) (NN 事件))))) (IN 后)) (, ，) (NP (NP (QP (CD 一) (CLP (NNB 位))) (CP (CP (IP (VP (JJ 火热))) (DEC 的))) (NP (NNP 什叶) (SFN 派)) (NP (NN 教士))) (NP (NNP 穆卡塔) (/ ·) (NNP 萨德) (FW -LRB-Muqtada) (FW al-Sadr-RRB-))) (VP (VV 谴责) (AS 了) (NP (DP (DT 这些)) (NP (NN 杀人) (NN 事件)))) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
-{'LCP': {'IP': {}, 'IN': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+(ROOT (IP (IP (IP (VP (PP (IN 就) (NP (NN 谷) (SFN 歌))) (VP (RB 而) (VP (VV 言))))) (, ，) (NP (VV 入侵) (SFN 者)) (VP (RB 似乎) (VP (VV 掌握) (AS 了) (NP (DNP (NP (NP (NP (FW Gaia)) (NP (NN 软件) (NN 开发) (NN 人员))) (NP (NN 姓名))) (DEC 的)) (ADJP (JJ 准确)) (NP (NN 情报)))))) (, ，) (IP (NP (PRP 他们)) (VP (VP (ADVP (RB 先)) (VP (VV 试图) (IP (VP (VV 访问) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 工作) (NN 电脑))))))) (, ，) (NP (CP (CP (IP (VP (ADVP (RB 然后)) (VP (VP (VV 使用) (NP (QP (CD 一) (CLP (NNB 套))) (CP (CP (IP (VP (JJ 复杂))) (DEC 的))) (NP (NN 技术) (NN 访问) (NN 程序) (SFN 源) (NN 代码)))) (VP (VV 存储))))) (DEC 的))) (NP (VV 存储) (SFN 库))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP19519': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP60556': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+就	歌	case
+谷	歌	compound
+歌	言	obl
+而	言	mark
+言	掌握	advcl
+，	言	punct
+入侵	者	compound
+者	掌握	nsubj
+似乎	掌握	advmod
+掌握	ROOT	root
+了	掌握	aux
+Gaia	姓名	nmod
+软件	人员	nmod
+开发	人员	nmod
+人员	姓名	nmod
+姓名	情报	nmod
+的	姓名	case
+准确	情报	amod
+情报	掌握	obj
+，	使用	punct
+他	使用	nsubj
+先	试图	advmod
+试图	使用	advcl
+访问	试图	xcomp
+他	访问	obj
+的	他	mark:rel
+工作	电脑	nmod
+电脑	访问	obj
+，	试图	punct
+然后	使用	advmod
+使用	掌握	parataxis
+一	套	nummod
+套	技术	clf
+复杂	技术	amod
+的	复杂	mark:rel
+技术	代码	nmod
+访问	代码	nmod
+程序	源	compound
+源	代码	nmod
+代码	存储	nsubj
+存储	库	acl:relcl
+的	存储	mark:rel
+存储	库	compound
+库	使用	obj
+。	掌握	punct
 ----------------------------------------------------------------------
-他说，同性恋的“败坏”确实应该得到根除，但是通过“宣教和引导”，而不是暴力。
+然后，他们将盗走的软件传输到一家名为 Rackspace 的德克萨斯州公司的电脑上，该公司提供网络托管服务，但对此次交易一无所知。
 
-(ROOT (IP (NP (PRP 他)) (VP (VV 说) (, ，) (IP (NP (DNP (NP (NN 同性) (SFN 恋)) (DEC 的)) (NP (`` “) (NN 败坏) ('' ”))) (VP (VP (ADVP (RB 确实)) (VP (MD 应该) (VP (VV 得到) (NP (NN 根除))))) (, ，) (VP (ADVP (RB 但是)) (PP (IN 通过) (NP (`` “) (VV 宣教) (CC 和) (VV 引导) ('' ”))) (, ，) (ADVP (RB 而)) (VP (VC 不是) (NP (NN 暴力))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+(ROOT (IP (IP (ADVP (RB 然后)) (, ，) (NP (PRP 他们)) (VP (BB 将) (IP (NP (CP (CP (IP (VP (VV 盗走))) (DEC 的))) (NP (NN 软件))) (VP (VRD (VV 传输) (VV 到)) (LCP (NP (DNP (NP (QP (CD 一) (CLP (NNB 家))) (CP (CP (IP (NP (NN 名)) (VP (VC 为) (NP (FW Rackspace)))) (DEC 的))) (NP (NNP 德克萨斯) (SFN 州) (NN 公司))) (DEC 的)) (NP (NN 电脑))) (NN 上)))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 公司))) (VP (VV 提供) (NP (NN 网络) (NN 托管) (NN 服务)))) (, ，) (IP (ADVP (RB 但)) (VP (PP (IN 对) (NP (DP (DT 此次)) (NP (NN 交易)))) (ADVP (CD 一)) (VP (VV 无) (NP (RB 所) (VP (VV 知)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP34144': {}, ',66151': {}, 'IP38481': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP71932': {'NP': {}, 'VP': {}}, ',85801': {}, 'IP72610': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+然后	传输	advmod
+，	然后	punct
+他	传输	nsubj
+将	软件	case
+盗走	软件	acl:relcl
+的	盗走	mark:rel
+软件	传输	obl:patient
+传输	ROOT	root
+到	传输	mark
+一	家	nummod
+家	电脑	clf
+名	公司	nmod
+为	公司	cop
+Rackspace	公司	acl:relcl
+的	Rackspace	mark:rel
+德克萨斯	州	compound
+州	公司	nmod
+公司	电脑	nmod
+的	公司	case
+电脑	传输	obj
+上	电脑	acl
+，	提供	punct
+该	公司	det
+公司	提供	nsubj
+提供	传输	parataxis
+网络	服务	nmod
+托管	服务	nmod
+服务	提供	obj
+，	无	punct
+但	无	mark
+对	交易	case
+此次	交易	det
+交易	无	obl
+一	无	advmod
+无	传输	parataxis
+所	知	mark
+知	无	xcomp
+。	传输	punct
 ----------------------------------------------------------------------
-乐观者会认为这是一种进步。
+目前还不清楚该软件是从哪里发送的。
 
-(ROOT (IP (NP (JJ 乐观) (SFN 者)) (VP (MD 会) (VP (VV 认为) (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (NP (NN 进步))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'JJ': {}, 'SFN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'NP': {'JJ': {}, 'SFN': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
+(ROOT (IP (VP (NP (NN 目前)) (ADVP (RB 还)) (ADVP (RB 不)) (VP (VV 清楚) (IP (NP (DP (DT 该)) (NP (NN 软件))) (VP (VC 是) (NP (CP (CP (IP (VP (PP (IN 从) (NP (WP 哪里))) (VP (VV 发送)))) (UH 的)))))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'NP': {}, 'ADVP': {}, 'ADVP22913': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {'NP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'VP': {'NP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+目前	清楚	nmod:tmod
+还	清楚	mark
+不	清楚	advmod
+清楚	ROOT	root
+该	软件	det
+软件	是	nsubj
+是	清楚	ccomp
+从	哪里	case
+哪里	发送	obl
+发送	是	xcomp
+的	是	discourse
+。	清楚	punct
+----------------------------------------------------------------------
+入侵者可以访问一个名为 Moma 的内部谷歌公司目录，该目录包含每位谷歌员工工作活动的信息，他们可能会利用该目录来查找特定的员工。
+
+(ROOT (IP (IP (NP (VV 入侵) (SFN 者)) (VP (MD 可以) (VP (VV 访问) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (NP (NN 名)) (VP (VC 为) (NP (FW Moma)))) (DEC 的))) (NP (NN 内部)) (NP (NNP 谷歌) (NN 公司)) (NP (NN 目录)))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 目录))) (VP (VV 包含) (NP (DNP (NP (DP (DT 每位)) (NP (NNP 谷歌)) (NP (NN 员工) (NN 工作) (NN 活动))) (DEC 的)) (NP (NN 信息))))) (, ，) (IP (NP (PRP 他们)) (VP (MD 可能) (VP (MD 会) (VP (VP (VV 利用) (NP (DP (DT 该)) (NP (NN 目录)))) (VP (RB 来) (VP (VV 查找) (NP (DNP (ADJP (JJ 特定)) (DEC 的)) (NP (NN 员工))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP85893': {}, ',65727': {}, 'IP46490': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP88365': {'NP': {}, 'VP': {}}, ',48848': {}, 'IP63564': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+入侵	者	compound
+者	访问	nsubj
+可以	访问	aux
+访问	ROOT	root
+一	个	nummod
+个	目录	clf
+名	Moma	nsubj
+为	Moma	cop
+Moma	目录	acl:relcl
+的	Moma	mark:rel
+内部	目录	nmod
+谷歌	目录	nmod
+公司	目录	nmod
+目录	访问	obj
+，	包含	punct
+该	目录	det
+目录	包含	nsubj
+包含	访问	parataxis
+每位	活动	det
+谷歌	活动	nmod
+员工	活动	nmod
+工作	活动	nmod
+活动	信息	nmod
+的	包含	mark:rel
+信息	包含	obj
+，	查找	punct
+他	查找	nsubj
+可能	查找	aux
+会	查找	aux
+利用	查找	advcl
+该	目录	det
+目录	利用	obj
+来	查找	mark
+查找	访问	parataxis
+特定	员工	amod
+的	特定	mark:rel
+员工	查找	obj
+。	访问	punct
 ----------------------------------------------------------------------

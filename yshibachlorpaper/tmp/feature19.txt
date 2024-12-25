@@ -1,257 +1,688 @@
-这是一个关于秘密特工和监控的故事，它可能来自英国广播公司经典间谍剧《小偷、狗皮、士兵、间谍》。
+医护人员也会有人类的一些缺点。
 
-(ROOT (IP (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (PP (IN 关于) (NP (ADJP (NN 秘密)) (NP (NN 特工) (CC 和) (VV 监控)))) (DEC 的)) (NP (NN 故事))))) (, ，) (IP (NP (PRP 它)) (VP (MD 可能) (VP (VV 来) (PP (VV 自) (NP (NP (NP (NNP 英国) (NN 广播) (NN 公司)) (NP (NN 经典) (NN 间) (NN 谍剧))) (NP (-LRB- 《) (NP (NN 小偷) (EC 、) (NN 狗) (SFN 皮) (EC 、) (NN 士兵) (EC 、) (NN 间谍) (-RRB- 》)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-但不同的是，这次涉及的是真正的间谍，他们在广播大厦背后操作，而不是在小屏幕上。
-
-(ROOT (IP (ADVP (RB 但)) (NP (CP (CP (IP (VP (JJ 不同))) (DEC 的)))) (VP (VC 是) (, ，) (IP (IP (NP (CP (CP (IP (VP (DP (DT 这) (CLP (NNB 次))) (VP (VV 涉及)))) (DEC 的)))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 真正))) (DEC 的))) (NP (NN 间谍))))) (, ，) (IP (NP (PRP 他们)) (VP (VP (PP (VV 在) (NP (NP (NN 广播) (NN 大厦)) (NP (NN 背后)))) (VP (VV 操作))) (, ，) (RB 而) (VP (VC 不是) (PP (IN 在) (LCP (NP (ADJP (PFA 小)) (NP (NN 屏幕))) (NN 上)))))))) (. 。)))
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'CP': {}}}
-{'VP': {'VC': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-《星期日电讯报》获得的保密文件显示，BBC 允许 MI5 调查数千名员工的背景和政治派别，其中包括新闻主播、记者和连续播放员。
-
-(ROOT (IP (NP (CP (CP (IP (NP (-LRB- 《) (NN 星期) (SFN 日) (NN 电讯) (SFN 报) (-RRB- 》)) (VP (VV 获得))) (DEC 的))) (NP (NN 保密) (NN 文件))) (VP (VV 显示) (, ，) (IP (IP (NP (FW BBC)) (VP (VV 允许) (NP (FW MI5)) (IP (VP (VV 调查) (NP (DNP (NP (QP (CD 数千) (CLP (NNB 名))) (NP (NN 员工))) (DEC 的)) (NP (NN 背景) (CC 和) (NN 政治) (NN 派别))))))) (, ，) (IP (NP (NN 其中)) (VP (VV 包括) (NP (NP (NN 新闻) (NN 主播)) (EC 、) (NP (NN 记者)) (CC 和) (NP (ADJP (JJ 连续)) (NP (VV 播放) (SFN 员)))))))) (. 。)))
+(ROOT (IP (NP (ADJP (NN 医护)) (NP (NN 人员))) (VP (ADVP (RB 也)) (VP (MD 会) (VP (VV 有) (NP (DNP (NP (NN 人类)) (DEC 的)) (QP (JJ 一些)) (NP (NN 缺点)))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'ADJP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['医护', '人员', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['人员', '有', 'nsubj']
+['ADV', 'VERB', 'mark']	['也', '有', 'mark']
+['AUX', 'VERB', 'aux']	['会', '有', 'aux']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['NOUN', 'NOUN', 'nmod']	['人类', '缺点', 'nmod']
+['PART', 'NOUN', 'case']	['的', '人类', 'case']
+['ADJ', 'NOUN', 'amod']	['一些', '缺点', 'amod']
+['NOUN', 'VERB', 'obj']	['缺点', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+但偏见会影响护理，特别是决定护理人员如何与患者合作。
+
+(ROOT (IP (ADVP (RB 但)) (VP (VP (ADVP (VV 偏)) (VP (VV 见) (IP (VP (MD 会) (VP (VV 影响) (NP (NN 护理))))))) (, ，) (VP (ADVP (RB 特别)) (ADVP (VC 是)) (VP (VV 决定) (IP (NP (NN 护理) (NN 人员)) (VP (ADVP (RB 如何)) (PP (IN 与) (NP (NN 患者))) (VP (VV 合作))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'VP': {'VP': {}, ',': {}, 'VP28044': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['但', '偏', 'mark']
+['VERB', 'ROOT', 'root']	['偏', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['见', '偏', 'mark']
+['AUX', 'VERB', 'aux']	['会', '影响', 'aux']
+['VERB', 'VERB', 'xcomp']	['影响', '偏', 'xcomp']
+['NOUN', 'VERB', 'obj']	['护理', '影响', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['ADV', 'VERB', 'advmod']	['特别', '是', 'advmod']
+['VERB', 'VERB', 'parataxis']	['是', '偏', 'parataxis']
+['VERB', 'VERB', 'xcomp']	['决定', '是', 'xcomp']
+['NOUN', 'NOUN', 'nmod']	['护理', '人员', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['人员', '合作', 'nsubj']
+['ADV', 'VERB', 'advmod']	['如何', '合作', 'advmod']
+['ADP', 'NOUN', 'case']	['与', '患者', 'case']
+['NOUN', 'VERB', 'obl']	['患者', '合作', 'obl']
+['VERB', 'VERB', 'ccomp']	['合作', '决定', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '偏', 'punct']
+----------------------------------------------------------------------
+约三分之二的美国成年人超重，约三分之一的人口被归类为肥胖。
+
+(ROOT (IP (NP (DNP (QP (DNP (QP (ADVP (RB 约)) (QP (CD 三) (CLP (NNB 分)))) (DEC 之)) (QP (CD 二))) (DEC 的)) (NP (NNP 美国)) (NP (ADJP (NN 成年)) (NP (SFN 人))) (VP (JJ 超重))) (, ，) (IP (NP (DNP (QP (DNP (QP (ADVP (RB 约)) (QP (CD 三) (CLP (NNB 分)))) (DEC 之)) (QP (CD 一))) (DEC 的)) (NP (NN 人口))) (VP (BB 被) (VP (VRD (VV 归类) (VC 为)) (NP (NN 肥胖))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'IP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}, 'NP34754': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'NOUN', 'advmod']	['约', '分', 'advmod']
+['NUM', 'NOUN', 'nummod']	['三', '分', 'nummod']
+['NOUN', 'NUM', 'nmod']	['分', '二', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['之', '分', 'mark:rel']
+['NUM', 'PART', 'nmod']	['二', '人', 'nmod']
+['PART', 'NUM', 'mark:rel']	['的', '二', 'mark:rel']
+['PROPN', 'PART', 'nmod']	['美国', '人', 'nmod']
+['NOUN', 'PART', 'compound']	['成年', '人', 'compound']
+['PART', 'ADJ', 'nsubj']	['人', '超重', 'nsubj']
+['ADJ', 'ROOT', 'root']	['超重', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '归类', 'punct']
+['ADV', 'NOUN', 'advmod']	['约', '分', 'advmod']
+['NUM', 'NOUN', 'nummod']	['三', '分', 'nummod']
+['NOUN', 'NUM', 'nmod']	['分', '一', 'nmod']
+['PART', 'NOUN', 'case']	['之', '分', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '人口', 'nummod']
+['PART', 'NUM', 'case']	['的', '一', 'case']
+['NOUN', 'VERB', 'nsubj:pass']	['人口', '归类', 'nsubj:pass']
+['AUX', 'VERB', 'aux:pass']	['被', '归类', 'aux:pass']
+['VERB', 'ADJ', 'parataxis']	['归类', '超重', 'parataxis']
+['VERB', 'VERB', 'mark']	['为', '归类', 'mark']
+['NOUN', 'VERB', 'obj']	['肥胖', '归类', 'obj']
+['PUNCT', 'ADJ', 'punct']	['。', '超重', 'punct']
+----------------------------------------------------------------------
+根据一项新的研究的作者，过去十年，公众对肥胖者的偏见增加了大约三分之二。
+
+(ROOT (IP (PP (IN 根据) (NP (DNP (NP (QP (CD 一) (CLP (NNB 项))) (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 研究))) (DEC 的)) (NP (NN 作者)))) (, ，) (QP (NP (NN 过去)) (QP (CD 十) (CLP (NNB 年)))) (, ，) (NP (NP (NN 公众)) (DNP (PP (IN 对) (NP (NN 肥胖) (SFN 者))) (DEC 的)) (NP (NN 偏见))) (VP (VV 增加) (AS 了) (NP (DNP (QP (ADVP (RB 大约)) (QP (CD 三) (CLP (NNB 分)))) (DEC 之)) (QP (CD 二)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'QP': {}, ',6305': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'QP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'QP': {'NP': {}, 'QP': {}}, ',82232': {}, 'NP': {'NP': {}, 'DNP': {}, 'NP15925': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'QP': {'NP': {}, 'QP': {}}, ',': {}, 'NP': {'NP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'QP': {'NP': {}, 'QP': {}}}
+{'NP': {'NP': {}, 'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['根据', '作者', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '项', 'nummod']
+['NOUN', 'NOUN', 'clf']	['项', '作者', 'clf']
+['ADJ', 'NOUN', 'amod']	['新', '研究', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '新', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['研究', '作者', 'nmod']
+['PART', 'NOUN', 'case']	['的', '研究', 'case']
+['NOUN', 'VERB', 'obl']	['作者', '增加', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '作者', 'punct']
+['NOUN', 'NOUN', 'nmod']	['过去', '年', 'nmod']
+['NUM', 'NOUN', 'nummod']	['十', '年', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['年', '增加', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '年', 'punct']
+['NOUN', 'NOUN', 'nmod']	['公众', '偏见', 'nmod']
+['ADP', 'NOUN', 'case']	['对', '偏见', 'case']
+['NOUN', 'PART', 'compound']	['肥胖', '者', 'compound']
+['PART', 'NOUN', 'nmod']	['者', '偏见', 'nmod']
+['PART', 'NOUN', 'case']	['的', '偏见', 'case']
+['NOUN', 'VERB', 'nsubj']	['偏见', '增加', 'nsubj']
+['VERB', 'ROOT', 'root']	['增加', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '增加', 'aux']
+['ADV', 'NUM', 'advmod']	['大约', '三', 'advmod']
+['NUM', 'NOUN', 'nummod']	['三', '分', 'nummod']
+['NOUN', 'NUM', 'nmod']	['分', '二', 'nmod']
+['PART', 'NOUN', 'case']	['之', '分', 'case']
+['NUM', 'VERB', 'obj']	['二', '增加', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '增加', 'punct']
+----------------------------------------------------------------------
+新的分析发现，许多年轻公共卫生学生也有“肥胖症”的倾向，但他们的态度可以改变。
+
+(ROOT (IP (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 分析))) (VP (VV 发现) (, ，) (IP (IP (NP (QP (CD 许多)) (ADJP (JJ 年轻)) (ADJP (JJ 公共)) (NP (NN 卫生) (NN 学生))) (VP (ADVP (RB 也)) (VP (VV 有) (NP (DNP (NP (`` “) (VV 肥胖) (SFN 症) ('' ”)) (DEC 的)) (NP (NN 倾向)))))) (, ，) (IP (ADVP (RB 但)) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 态度))) (VP (MD 可以) (VP (VV 改变)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
 {'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
 {'NP': {'CP': {}, 'NP': {}}}
 {'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['ADJ', 'NOUN', 'amod']	['新', '分析', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '新', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['分析', '发现', 'nsubj']
+['VERB', 'ROOT', 'root']	['发现', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '改变', 'punct']
+['NUM', 'NOUN', 'nummod']	['许多', '学生', 'nummod']
+['ADJ', 'NOUN', 'amod']	['年轻', '学生', 'amod']
+['ADJ', 'NOUN', 'amod']	['公共', '学生', 'amod']
+['NOUN', 'NOUN', 'nmod']	['卫生', '学生', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['学生', '有', 'nsubj']
+['ADV', 'VERB', 'mark']	['也', '有', 'mark']
+['VERB', 'VERB', 'ccomp']	['有', '发现', 'ccomp']
+['PUNCT', 'PART', 'punct']	['“', '症', 'punct']
+['VERB', 'PART', 'compound']	['肥胖', '症', 'compound']
+['PART', 'VERB', 'obj']	['症', '有', 'obj']
+['PUNCT', 'PART', 'punct']	['”', '症', 'punct']
+['PART', 'VERB', 'mark:rel']	['的', '有', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['倾向', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '改变', 'punct']
+['ADV', 'VERB', 'mark']	['但', '改变', 'mark']
+['PRON', 'NOUN', 'det']	['他', '态度', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'VERB', 'nsubj']	['态度', '改变', 'nsubj']
+['AUX', 'VERB', 'aux']	['可以', '改变', 'aux']
+['VERB', 'VERB', 'parataxis']	['改变', '发现', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '发现', 'punct']
 ----------------------------------------------------------------------
-这些文件揭露了 BBC 迄今为止与安全局的秘密联系，文件显示，在某一阶段， BBC 负责审查 6300 个不同的 BBC 岗位，几乎占总员工人数的三分之一。
+“在医疗保健机构中，对肥胖患者的体重成见非常普遍，”耶鲁大学饮食政策和肥胖中心的领导者之一、本次研究的共同作者雷贝卡·普尔在一份声明中说道。在对澳大利亚 159 名公共卫生和健康促进学生的一项调查中，这个团体表现出了“强烈的隐含”的偏见，对肥胖者不满。
 
-(ROOT (IP (IP (NP (DP (DT 这些)) (NP (NN 文件))) (VP (VV 揭露) (AS 了) (IP (IP (NP (FW BBC)) (VP (ADVP (NN 迄今)) (VP (VC 为) (VP (NN 止))))) (DNP (PP (IN 与) (NP (NN 安全) (SFN 局))) (DEC 的)) (ADJP (NN 秘密)) (NP (NN 联系))))) (, ，) (IP (NP (NN 文件)) (VP (VV 显示) (, ，) (IP (IP (PP (IN 在) (NP (DP (DT 某) (QP (CD 一))) (NP (NN 阶段)))) (, ，) (NP (FW BBC)) (VP (VV 负责) (IP (VP (VV 审查) (NP (QP (CD 6300) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (FW BBC) (NN 岗位))))))) (, ，) (IP (VP (ADVP (RB 几乎)) (VP (VV 占) (NP (DNP (QP (DNP (NP (NP (ADJP (PFA 总)) (NP (NN 员工))) (NP (NN 人数))) (DEC 的)) (QP (CD 三) (CLP (NNB 分)))) (DEC 之)) (NP (CD 一))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+(ROOT (IP (IP (`` “) (PP (IN 在) (LCP (NP (NN 医疗) (NN 保健) (NN 机构)) (IN 中))) (, ，) (NP (DNP (PP (IN 对) (NP (NN 肥胖) (NN 患者))) (DEC 的)) (NP (NN 体重) (NN 成见))) (VP (ADVP (RB 非常)) (VP (JJ 普遍)))) (, ，) ('' ”) (IP (NP (NP (DNP (NP (DNP (NP (NP (NNP 耶鲁) (NN 大学)) (NP (NN 饮食) (NN 政策) (CC 和) (NN 肥胖)) (NP (NN 中心))) (DEC 的)) (NP (VV 领导) (SFN 者))) (DEC 之)) (NP (CD 一))) (EC 、) (NP (DNP (NP (ADJP (DT 本次)) (NP (NN 研究))) (DEC 的)) (ADJP (JJ 共同)) (NP (NN 作者))) (NP (NNP 雷贝卡) (/ ·) (NNP 普尔))) (VP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 份))) (NP (NN 声明))) (IN 中))) (VP (VV 说道)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP52630': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP23711': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PUNCT', 'NOUN', 'punct']	['“', '机构', 'punct']
+['ADP', 'NOUN', 'case']	['在', '机构', 'case']
+['NOUN', 'NOUN', 'nmod']	['医疗', '机构', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['保健', '机构', 'nmod']
+['NOUN', 'ADJ', 'nmod']	['机构', '普遍', 'nmod']
+['ADP', 'NOUN', 'case']	['中', '机构', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '机构', 'punct']
+['ADP', 'NOUN', 'case']	['对', '成见', 'case']
+['NOUN', 'NOUN', 'nmod']	['肥胖', '患者', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['患者', '成见', 'nmod']
+['PART', 'NOUN', 'case']	['的', '患者', 'case']
+['NOUN', 'NOUN', 'nmod']	['体重', '成见', 'nmod']
+['NOUN', 'ADJ', 'nmod']	['成见', '普遍', 'nmod']
+['ADV', 'ADJ', 'advmod']	['非常', '普遍', 'advmod']
+['ADJ', 'ROOT', 'root']	['普遍', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '说道', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '说道', 'punct']
+['PROPN', 'NOUN', 'nmod']	['耶鲁', '政策', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['大学', '政策', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['饮食', '政策', 'nmod']
+['NOUN', 'PART', 'nmod']	['政策', '者', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['和', '中心', 'cc']
+['NOUN', 'NOUN', 'nmod']	['肥胖', '中心', 'nmod']
+['NOUN', 'NOUN', 'conj']	['中心', '政策', 'conj']
+['PART', 'NOUN', 'case']	['的', '政策', 'case']
+['VERB', 'PART', 'compound']	['领导', '者', 'compound']
+['PART', 'NUM', 'nmod']	['者', '一', 'nmod']
+['PART', 'PART', 'case']	['之', '者', 'case']
+['NUM', 'NOUN', 'nmod']	['一', '作者', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['、', '研究', 'punct']
+['DET', 'NOUN', 'det']	['本次', '研究', 'det']
+['NOUN', 'NUM', 'conj']	['研究', '一', 'conj']
+['PART', 'NUM', 'case']	['的', '一', 'case']
+['ADJ', 'NOUN', 'amod']	['共同', '作者', 'amod']
+['NOUN', 'VERB', 'nsubj']	['作者', '说道', 'nsubj']
+['PROPN', 'NOUN', 'appos']	['雷贝卡', '作者', 'appos']
+['PUNCT', 'PROPN', 'punct']	['·', '普尔', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['普尔', '雷贝卡', 'flat:name']
+['ADP', 'NOUN', 'case']	['在', '声明', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '份', 'nummod']
+['NOUN', 'NOUN', 'clf']	['份', '声明', 'clf']
+['NOUN', 'VERB', 'obl']	['声明', '说道', 'obl']
+['ADP', 'NOUN', 'case']	['中', '声明', 'case']
+['VERB', 'ADJ', 'parataxis']	['说道', '普遍', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '说道', 'punct']
 ----------------------------------------------------------------------
-BBC 在 20 世纪 70 年代末和 80 年代初达到了与 George Smiley 在《小偷、猎人、卖力仆、间谍》和《小偷、猎人、卖力仆、间谍之人》中的虚构冒险故事相呼应的巅峰，数以百万的观众聚精会神地观看着。
+研究人员指出，感到因体重而受歧视的人，更不可能锻炼，更容易吃得不健康，更不可能坚持减肥，更不可能寻求预防性保健，
 
-(ROOT (IP (NP (FW BBC)) (VP (PP (IN 在) (LCP (NP (LCP (NP (NP (QP (CD 20)) (NP (NNB 世纪))) (QP (CD 70)) (NP (NNB 年代))) (IN 末)) (CC 和) (NP (QP (CD 80)) (NP (NNB 年代)))) (IN 初))) (VP (VV 达到) (AS 了) (VP (PP (IN 与) (NP (FW George) (FW Smiley))) (PP (VV 在) (NP (-LRB- 《) (NP (NN 小偷) (EC 、) (NN 猎人) (EC 、) (JJ 卖力) (SFN 仆) (EC 、) (NN 间谍) (-RRB- 》)) (CC 和) (NP (-LRB- 《) (DNP (NP (NN 小偷) (EC 、) (NN 猎人) (EC 、) (JJ 卖力) (SFN 仆) (EC 、) (NN 间谍)) (DEC 之)) (NP (NN 人)) (-RRB- 》)))))))))
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {'FW': {}}, 'VP': {'PP': {}, 'VP': {}}}}
-{'NP': {'FW': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-文件显示，BBC 高层人士在工会和媒体提出尴尬问题时掩盖了这些关联。
-
-(ROOT (IP (NP (NN 文件)) (VP (VV 显示) (, ，) (IP (NP (NP (FW BBC)) (NP (NN 高层) (NN 人士))) (VP (LCP (IP (VP (PP (IN 在) (NP (NN 工会) (CC 和) (NN 媒体))) (VP (VV 提出) (NP (ADJP (JJ 尴尬)) (NP (NN 问题)))))) (IN 时)) (VP (VV 掩盖) (AS 了) (NP (DP (DT 这些)) (NP (NN 关联))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-文件提到了一项“彻底否认”为基础的“防御战略”。
-
-(ROOT (IP (NP (NN 文件)) (VP (VV 提到) (AS 了) (NP (QP (CD 一) (CLP (NNB 项))) (CP (CP (IP (VP (`` “) (ADVP (RB 彻底)) (VP (VV 否认)) ('' ”)) (VP (VC 为) (NP (NN 基础)))) (DEC 的))) (NP (`` “) (NN 防御) (NN 战略) ('' ”)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
-----------------------------------------------------------------------
-一份日期为 1985 年 3 月 1 日的文件说：“保持低头，拒绝回答任何问题。”
-
-(ROOT (IP (NP (QP (CD 一) (CLP (NNB 份))) (NP (NN 日期))) (VP (VP (VC 为) (NP (DNP (NP (CD 1985) (NNB 年 3) (CD 月 1) (NNB 日)) (DEC 的)) (NP (NN 文件)))) (VP (VV 说) (: ：) (IP (`` “) (VP (VP (VV 保持) (NP (JJ 低头))) (, ，) (VP (VV 拒绝) (IP (VP (VV 回答) (NP (DP (DT 任何)) (NP (NN 问题)))))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'NP': {'QP': {}, 'NP': {}}}
-{'VP': {'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-然而，BBC 一直拒绝透露与情报机构合作的程度。
-
-(ROOT (IP (ADVP (RB 然而)) (, ，) (NP (FW BBC)) (VP (ADVP (RB 一直)) (VP (VV 拒绝) (IP (VP (VV 透露) (NP (CP (CP (IP (VP (PP (IN 与) (NP (NN 情报) (NN 机构))) (VP (VV 合作)))) (DEC 的))) (NP (NN 程度))))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'FW': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'FW': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-只是在本报根据《信息自由法》提出要求后，才最终愿意公布审查行动的细节。
-
-(ROOT (IP (ADVP (RB 只是)) (PP (IN 在) (LCP (IP (NP (NN 本报)) (VP (PP (IN 根据) (NP (-LRB- 《) (NN 信息) (NN 自由) (SFN 法) (-RRB- 》))) (VP (VV 提出) (NP (NN 要求))))) (IN 后))) (, ，) (VP (ADVP (RB 才)) (ADVP (NN 最终)) (VP (MD 愿意) (IP (VP (VV 公布) (NP (DNP (NP (NN 审查) (NN 行动)) (DEC 的)) (NP (NN 细节))))))) (. 。)))
-{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-另一份日期为 1983 年的 BBC 内部文件证实了这一点：“我们向安全局提供个人详细资料。
-
-(ROOT (IP (IP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 份)))) (NP (NN 日期))) (VP (VC 为) (NP (CD 1983) (NNB 年的)))) (IP (NP (NP (FW BBC)) (NP (NN 内部) (NN 文件))) (VP (VV 证实) (AS 了) (DP (DT 这) (QP (CD 一) (CLP (NN 点)))))) (: ：) (IP (`` “) (NP (PRP 我们)) (VP (PP (IN 向) (NP (NN 安全) (SFN 局))) (VP (VV 提供) (NP (NP (PRD 个人)) (ADJP (JJ 详细)) (NP (NN 资料)))))) (. 。)))
-{'IP': {'IP': {}, 'IP': {}, ':': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, 'IP': {'NP': {}, 'VP': {}, '``': {}, 'NP': {}, 'VP': {}}, ':': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, '``': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-如果有任何已知不良信息，我们会收到这些信息，并在必要时根据个人的参与情况进行评估。
-
-(ROOT (IP (IP (VP (ADVP (IN 如果)) (VP (VV 有) (NP (DP (DT 任何)) (ADJP (VV 已知)) (ADJP (JJ 不良)) (NP (NN 信息)))))) (, ，) (NP (PRP 我们)) (VP (VP (MD 会) (VP (VV 收到) (NP (DP (DT 这些)) (NP (NN 信息))))) (, ，) (RB 并) (VP (PP (IN 在) (LCP (IP (VP (NN 必要))) (IN 时))) (PP (IN 根据) (NP (DNP (NP (NN 个人)) (DEC 的)) (NP (NN 参与) (NN 情况)))) (VP (VV 进行) (NP (NN 评估))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这是作为建议提供给我们的；然后，职能管理部门就会决定采取什么行动。”
-
-(ROOT (IP (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (VP (PP (VV 作) (PP (VC 为) (NP (VV 建议)))) (VP (VRD (VV 提供) (VV 给)) (NP (PRP 我们))))) (UH 的)))))) (: ；) (IP (ADVP (RB 然后)) (, ，) (NP (NN 职能) (NN 管理) (NN 部门)) (VP (ADVP (RB 就)) (VP (MD 会) (VP (VV 决定) (IP (VP (VV 采取) (NP (DP (WP 什么)) (NP (NN 行动))))))))) (. 。) ('' ”)))
-{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}, "''": {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-文件并未指名道姓，但有可能 BBC 的一些最大的名人都被严格审查过。
-
-(ROOT (IP (IP (NP (NN 文件)) (VP (ADVP (RB 并)) (ADVP (RB 未)) (VP (VV 指) (NP (VV 名) (NN 道姓))))) (, ，) (IP (ADVP (RB 但)) (IP (VP (VV 有) (NP (NN 可能)))) (NP (DNP (NP (FW BBC)) (DEC 的)) (QP (JJ 一些)) (CP (CP (IP (VP (JJ 最大))) (DEC 的))) (NP (NN 名人))) (VP (ADVP (RB 都)) (VP (BB 被) (VP (ADVP (RB 严格)) (VP (VV 审查) (AS 过)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'IP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'IP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-不同的岗位被审查出来的原因不同。
-
-(ROOT (IP (NP (CP (CP (IP (NP (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (NN 岗位))) (VP (BB 被) (VP (VRD (VV 审查) (VV 出来))))) (DEC 的))) (NP (NN 原因))) (VP (JJ 不同)) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'JJ': {}}, '.': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'JJ': {}}}
-----------------------------------------------------------------------
-包括总干事在内的高级官员及其支持人员都接受了检查，因为他们在工作中掌握了与其工作有关的机密政府信息。
-
-(ROOT (IP (IP (NP (NP (CP (CP (IP (VP (VV 包括) (LCP (NP (ADJP (PFA 总)) (NP (NN 干事))) (IN 在内)))) (DEC 的))) (ADJP (JJ 高级)) (NP (NN 官员))) (CC 及) (NP (NP (PRP 其)) (NP (NN 支持) (NN 人员)))) (VP (ADVP (RB 都)) (VP (VV 接受) (AS 了) (NP (NN 检查))))) (, ，) (PP (IN 因为) (IP (NP (PRP 他们)) (VP (PP (IN 在) (LCP (NP (NN 工作)) (IN 中))) (VP (VV 掌握) (AS 了) (NP (CP (CP (IP (VP (PP (IN 与) (NP (NP (PRP 其)) (NP (NN 工作)))) (VP (JJ 有关)))) (DEC 的))) (NP (NN 机密) (NN 政府) (NN 信息))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
-----------------------------------------------------------------------
-但是，数千名员工被检查，因为他们参与了现场直播，而英国广播公司担心播出中会出现偏见或中断。
-
-(ROOT (IP (IP (ADVP (RB 但是)) (, ，) (NP (QP (CD 数千) (CLP (NNB 名))) (NP (NN 员工))) (VP (BB 被) (VP (VV 检查)))) (, ，) (IP (PP (IN 因为) (IP (NP (PRP 他们)) (VP (VV 参与) (AS 了) (NP (NN 现场) (NN 直播))))) (, ，) (ADVP (RB 而)) (NP (NNP 英国) (NN 广播) (NN 公司)) (VP (VV 担心) (IP (LCP (NP (VV 播出)) (IN 中)) (VP (MD 会) (VP (VV 出现) (NP (NN 偏见) (CC 或) (VV 中断))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'PP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-1983 年，5728 名英国广播公司员工遭到了这种第二种审查，即“反颠覆审查”。
-
-(ROOT (IP (NP (CD 1983) (NNB 年)) (, ，) (NP (NP (QP (CD 5728) (CLP (NNB 名英国))) (NP (NN 广播) (NN 公司))) (NP (NN 员工))) (VP (VV 遭到) (AS 了) (NP (NP (DP (DT 这) (CLP (NNB 种))) (QP (CD 第二) (CLP (NNB 种))) (NP (NN 审查))) (, ，) (NP (ADVP (VC 即)) (NP (`` “) (ADJP (VV 反)) (NP (VV 颠覆)) (NP (NN 审查)) ('' ”))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
-----------------------------------------------------------------------
-这一审查制度在 20 世纪 80 年代末逐步取消，还适用于数十名其他雇员，包括电视制片人、导演、音响工程师、秘书和研究人员。
-
-(ROOT (IP (IP (NP (DP (DT 这) (QP (CD 一))) (NP (NN 审查) (NN 制度))) (VP (VP (PP (IN 在) (LCP (NP (NP (QP (CD 20)) (NP (NNB 世纪))) (QP (CD 80)) (NP (NNB 年代))) (IN 末))) (ADVP (RB 逐步)) (VP (VV 取消))) (, ，) (VP (ADVP (RB 还)) (VP (VV 适用) (PP (IN 于) (NP (QP (CD 数十) (CLP (NNB 名))) (DP (DT 其他)) (NP (NN 雇员)))))))) (, ，) (IP (VP (VV 包括) (NP (NN 电视) (VV 制片) (SFN 人) (EC 、) (NN 导演) (EC 、) (NN 音响) (NN 工程) (SFN 师) (EC 、) (NN 秘书) (CC 和) (NN 研究) (NN 人员)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}}}
-----------------------------------------------------------------------
-自由电视和广播电台工作人员的详细资料也经常被转交给安全部门，甚至 Radio 4 的女性时间节目编辑和副编辑的职位也受到 MI5 的背景调查。
-
-(ROOT (IP (IP (NP (DNP (NP (NP (ADJP (NN 自由)) (NP (NN 电视))) (CC 和) (NP (NP (NN 广播) (NN 电台)) (NP (NN 工作) (NN 人员)))) (DEC 的)) (ADJP (JJ 详细)) (NP (NN 资料))) (VP (ADVP (RB 也)) (ADVP (RB 经常)) (VP (BB 被) (VP (VRD (VV 转交) (VV 给)) (NP (NN 安全) (NN 部门)))))) (, ，) (IP (ADVP (RB 甚至)) (NP (DNP (NP (DNP (NP (FW Radio) (CD 4)) (DEC 的)) (NP (NP (NN 女性) (NN 时间) (NN 节目) (NN 编辑)) (CC 和) (NP (ADJP (PFA 副)) (NP (NN 编辑))))) (DEC 的)) (NP (NN 职位))) (VP (ADVP (RB 也)) (VP (VV 受到) (NP (DNP (NP (FW MI) (CD 5)) (DEC 的)) (NP (NN 背景) (NN 调查)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在许多情况下，申请人的配偶也遭到了检查。
-
-(ROOT (IP (PP (IN 在) (LCP (NP (QP (CD 许多)) (NP (NN 情况))) (IN 下))) (, ，) (NP (CP (CP (IP (VP (VV 申请) (NP (SFN 人)))) (DEC 的))) (NP (NN 配偶))) (VP (ADVP (RB 也)) (VP (VV 遭到) (AS 了) (NP (NN 检查)))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-英国广播公司曾多次试图对该系统进行更多透露，但被安全局阻止。
-
-(ROOT (IP (NP (NNP 英国) (NN 广播) (NN 公司)) (VP (VP (ADVP (RB 曾)) (QP (CD 多) (CLP (NNB 次))) (VP (VV 试图) (IP (VP (PP (IN 对) (NP (DP (DT 该)) (NP (NN 系统)))) (VP (VV 进行) (NP (ADJP (JJ 更多)) (NP (NN 透露)))))))) (, ，) (VP (ADVP (RB 但)) (VP (BB 被) (CP (IP (NP (NN 安全) (SFN 局)) (VP (VV 阻止))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}, 'NN': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}, 'NN': {}, 'NN': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-1985 年 3 月 7 日的一份备忘录写道：“安全局规定我们对完整的审查过程保密，这不是我们自己制定的。”
-
-(ROOT (IP (NP (DNP (NP (CD 1985) (NNB 年 3) (CD 月 7) (NNB 日)) (DEC 的)) (QP (CD 一) (CLP (NNB 份))) (NP (VV 备忘) (SFN 录))) (VP (VV 写道) (: ：) (IP (`` “) (NP (NN 安全) (SFN 局)) (VP (VV 规定) (IP (NP (PRP 我们)) (VP (PP (IN 对) (NP (CP (CP (IP (VP (JJ 完整))) (DEC 的))) (NP (NN 审查) (NN 过程)))) (VP (NN 保密))))) (, ，) (IP (NP (PRD 这)) (VP (VC 不是) (NP (CP (CP (IP (NP (PRP 我们) (PRD 自己)) (VP (VV 制定))) (UH 的)))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'DNP': {}, 'QP': {}, 'NP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'NP': {'DNP': {}, 'QP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ':': {}, 'IP': {}}}
-----------------------------------------------------------------------
-就其本身而言，安全部门对 BBC 转交给他们的人数日益感到担忧。在 1983 年前四个月，他们被要求调查 619 名不同的人。
-
-(ROOT (IP (IP (VP (PP (IN 就) (NP (NP (PRP 其)) (NP (PRD 本身)))) (VP (RB 而) (VP (VV 言))))) (, ，) (NP (NN 安全) (NN 部门)) (VP (PP (IN 对) (NP (CP (CP (IP (NP (FW BBC)) (VP (VRD (VV 转交) (VV 给)) (NP (PRP 他们)))) (DEC 的))) (NP (NN 人数)))) (ADVP (RB 日益)) (VP (VV 感到) (NP (JJ 担忧)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NN': {}, 'NN': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
+(ROOT (IP (NP (NN 研究) (NN 人员)) (VP (VV 指出) (, ，) (IP (IP (VP (VV 感到) (NP (CP (CP (IP (VP (PP (IN 因) (NP (NN 体重))) (VP (RB 而) (VP (VV 受) (NP (VV 歧视)))))) (DEC 的))) (NP (NN 人))))) (, ，) (VP (VP (ADVP (RB 更)) (ADVP (RB 不)) (VP (MD 可能) (VP (VV 锻炼)))) (, ，) (VP (ADVP (RB 更)) (VP (RB 容易) (IP (VP (VV 吃得) (VP (ADVP (RB 不)) (VP (JJ 健康))))))) (, ，) (VP (ADVP (RB 更)) (ADVP (RB 不)) (VP (MD 可能) (VP (VV 坚持) (NP (VV 减肥))))) (, ，) (VP (ADVP (RB 更)) (ADVP (RB 不)) (VP (MD 可能) (VP (VV 寻求) (NP (VV 预防) (ADJP (SFN 性)) (NP (NN 保健))))))))) (, ，)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, ',': {}}}
+{'IP': {'NP': {}, 'VP': {}, ',': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'NN74954': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, ',': {}}}
+{'IP': {'NP': {'NN': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, ',': {}}}
 {'NP': {'NN': {}, 'NN': {}}}
-{'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-20 世纪 80 年代初，BBC 有一份“主要颠覆组织”名单，其中包括共产党、社会主义工人党、工人革命党、激进派、国民阵线和英国民族党。
-
-(ROOT (IP (IP (LCP (NP (NP (QP (CD 20)) (NP (NNB 世纪))) (QP (CD 80)) (NP (NNB 年代))) (IN 初)) (, ，) (NP (FW BBC)) (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 份))) (NP (`` “) (ADJP (JJ 主要)) (NP (NN 颠覆) (NN 组织)) ('' ”)) (NP (NN 名单))))) (, ，) (IP (NP (NN 其中)) (VP (VV 包括) (NP (VV 共产) (SFN 党) (EC 、) (NN 社会) (NN 主义) (NN 工人) (SFN 党) (EC 、) (NN 工人) (NN 革命) (SFN 党) (EC 、) (JJ 激进) (SFN 派) (EC 、) (NN 国民) (NN 阵线) (CC 和) (NNP 英国) (NN 民族) (SFN 党)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-相比之下，当时非常受欢迎的 CND 并没有被视为“颠覆组织”。
-
-(ROOT (IP (LCP (VP (VV 相比)) (IN 之下)) (, ，) (NP (CP (CP (IP (VP (NP (NN 当时)) (ADVP (RB 非常)) (VP (VV 受) (NP (VV 欢迎))))) (DEC 的))) (NP (FW CND))) (VP (ADVP (RB 并)) (VP (VV 没有) (VP (BB 被) (VP (VCP (VV 视) (VC 为)) (NP (`` “) (VV 颠覆) (NN 组织) ('' ”)))))) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'VP': {}, 'IN': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'LCP': {'VP': {}, 'IN': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-对极端思想的青少年往往会有偏见，但并不一定意味着就会被禁止就业。
-
-(ROOT (IP (NP (DNP (PP (IN 对) (NP (ADJP (JJ 极端)) (NP (NN 思想)))) (DEC 的)) (ADJP (PFA 青)) (NP (NN 少年))) (VP (VP (ADVP (RB 往往)) (VP (MD 会) (VP (VV 有) (NP (NN 偏见))))) (, ，) (VP (ADVP (RB 但)) (ADVP (RB 并)) (ADVP (RB 不)) (ADVP (RB 一定)) (VP (VV 意味) (AS 着) (IP (VP (ADVP (RB 就)) (VP (MD 会) (VP (BB 被) (VP (VV 禁止) (IP (VP (VV 就业))))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-文件显示，1968 年，那时的英国广播公司总裁休·格里尔 (Sir Hugh Greene) 和行政主管约翰·阿克尔 (John Arkell) 在接受一名记者采访时成功回避了这一问题。
-
-(ROOT (IP (NP (NN 文件)) (VP (VV 显示) (, ，) (IP (NP (CD 1968) (NNB 年)) (, ，) (NP (DNP (NP (NN 那时)) (DEC 的)) (NP (NP (NP (NP (NNP 英国) (NN 广播) (NN 公司)) (NP (NN 总裁))) (NP (NNP 休) (/ ·) (NNP 格里尔) (FW -LRB-Sir) (FW Hugh) (FW Greene-RRB-))) (CC 和) (NP (NP (NN 行政) (NN 主管)) (NP (NNP 约翰) (/ ·) (NNP 阿克尔) (FW -LRB-John) (FW Arkell-RRB-))))) (VP (PP (IN 在) (LCP (IP (VP (VV 接受) (NP (NP (QP (CD 一) (CLP (NNB 名))) (NP (NN 记者))) (VP (NN 采访))))) (IN 时))) (ADVP (RB 成功)) (VP (VV 回避) (AS 了) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 问题))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
 {'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['研究', '人员', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['人员', '指出', 'nsubj']
+['VERB', 'ROOT', 'root']	['指出', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '锻炼', 'punct']
+['VERB', 'NOUN', 'acl:relcl']	['感到', '人', 'acl:relcl']
+['ADP', 'NOUN', 'case']	['因', '体重', 'case']
+['NOUN', 'VERB', 'obl']	['体重', '受', 'obl']
+['ADV', 'VERB', 'mark']	['而', '受', 'mark']
+['VERB', 'VERB', 'xcomp']	['受', '感到', 'xcomp']
+['VERB', 'VERB', 'xcomp']	['歧视', '受', 'xcomp']
+['PART', 'VERB', 'mark:rel']	['的', '感到', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['人', '锻炼', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '人', 'punct']
+['ADV', 'VERB', 'advmod']	['更', '锻炼', 'advmod']
+['ADV', 'VERB', 'advmod']	['不', '锻炼', 'advmod']
+['AUX', 'VERB', 'aux']	['可能', '锻炼', 'aux']
+['VERB', 'VERB', 'ccomp']	['锻炼', '指出', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '寻求', 'punct']
+['ADV', 'ADV', 'advmod']	['更', '容易', 'advmod']
+['ADV', 'VERB', 'advmod']	['容易', '吃得', 'advmod']
+['VERB', 'VERB', 'advcl']	['吃得', '寻求', 'advcl']
+['ADV', 'ADJ', 'advmod']	['不', '健康', 'advmod']
+['ADJ', 'VERB', 'xcomp']	['健康', '吃得', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '吃得', 'punct']
+['ADV', 'VERB', 'advmod']	['更', '坚持', 'advmod']
+['ADV', 'VERB', 'advmod']	['不', '坚持', 'advmod']
+['AUX', 'VERB', 'aux']	['可能', '坚持', 'aux']
+['VERB', 'VERB', 'advcl']	['坚持', '寻求', 'advcl']
+['VERB', 'VERB', 'xcomp']	['减肥', '坚持', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '坚持', 'punct']
+['ADV', 'VERB', 'advmod']	['更', '寻求', 'advmod']
+['ADV', 'VERB', 'advmod']	['不', '寻求', 'advmod']
+['AUX', 'VERB', 'aux']	['可能', '寻求', 'aux']
+['VERB', 'VERB', 'ccomp']	['寻求', '指出', 'ccomp']
+['VERB', 'PART', 'compound']	['预防', '性', 'compound']
+['PART', 'NOUN', 'nmod']	['性', '保健', 'nmod']
+['NOUN', 'VERB', 'obj']	['保健', '寻求', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '寻求', 'punct']
 ----------------------------------------------------------------------
-1968 年 3 月 1 日，Arkell 先生给另一位高级同事的备忘录写道：“你可以在下次和 MI5 谈话时，向 BBC 索取一点点赞赏，告诉他们，尽管有人提出了很多针对性的深刻问题，但我仍然坚持按照你为我准备的内容进行报道。
+“因此，我们认为，减少健康专业人员的反脂情绪至关重要，”研究人员在研究中写道，该研究于 4 月 15 日在《Obesity》 (《科学美国人》是 Nature Publishing Group 的一部分) 上发表。
 
-(ROOT (IP (NP (CD 1968) (NNB 年 3) (CD 月 1) (NNB 日)) (, ，) (NP (FW Arkell) (NN 先生)) (VP (PP (VV 给) (NP (DNP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 位)))) (ADJP (JJ 高级)) (NP (NN 同事))) (DEC 的)) (NP (VV 备忘) (SFN 录)))) (VP (VV 写道) (: ：) (IP (`` “) (NP (PRP 你)) (VP (LCP (IP (VP (MD 可以) (VP (PP (IN 在) (NP (NN 下次) (IN 和) (FW MI5))) (VP (NN 谈话))))) (IN 时)) (, ，) (PP (IN 向) (NP (FW BBC))) (VP (VP (VV 索取) (NP (QP (JJ 一点) (CLP (NNB 点))) (NP (NN 赞赏)))) (, ，) (VP (VV 告诉) (NP (PRP 他们)) (, ，) (IP (IP (VP (ADVP (IN 尽管)) (VP (VV 有) (IP (NP (NN 人)) (VP (VV 提出) (AS 了) (NP (QP (CD 很多)) (DNP (NP (VV 针对) (SFN 性)) (DEC 的)) (ADJP (JJ 深刻)) (NP (NN 问题)))))))) (, ，) (ADVP (RB 但)) (NP (PRP 我)) (VP (ADVP (RB 仍然)) (VP (VV 坚持) (IP (VP (PP (IN 按照) (NP (CP (CP (IP (NP (PRP 你)) (VP (PP (IN 为) (NP (PRP 我))) (VP (VV 准备)))) (DEC 的))) (NP (NN 内容)))) (VP (VV 进行) (NP (NN 报道)))))))))))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'FW': {}, 'NN': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}}
-{'NP': {'FW': {}, 'NN': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
+(ROOT (IP (IP (`` “) (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (PRP 我们)) (VP (VV 认为) (, ，) (IP (IP (VP (VV 减少) (NP (DNP (NP (NN 健康) (NN 专业) (NN 人员)) (DEC 的)) (NP (NN 反脂) (NN 情绪))))) (VP (JJ 至关重要))))) (, ，) ('' ”) (IP (NP (NN 研究) (NN 人员)) (VP (PP (IN 在) (LCP (NP (NN 研究)) (IN 中))) (VP (VV 写道) (, ，) (IP (NP (DP (DT 该)) (NP (NN 研究))) (VP (PP (IN 于) (NP (CD 4) (NNB 月) (CD 15))) (PP (NNB 日在) (LCP (NP (-LRB- 《) (FW Obesity) (-RRB- 》) (PRN (HYPH -LRB-) (IP (NP (-LRB- 《) (NN 科学) (NNP 美国) (SFN 人) (-RRB- 》)) (VP (VC 是) (NP (DNP (NP (FW Nature) (FW Publishing) (FW Group)) (DEC 的)) (QP (CD 一)) (NP (NN 部分))))) (-RRB- -RRB-))) (IN 上))) (VP (VV 发表))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP79173': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'ADVP': {}, 'ADVP78395': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP91463': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PUNCT', 'VERB', 'punct']	['“', '写道', 'punct']
+['ADP', 'PRON', 'case']	['因', '此', 'case']
+['PRON', 'VERB', 'obl']	['此', '写道', 'obl']
+['PUNCT', 'PRON', 'punct']	['，', '此', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '为', 'nsubj']
+['VERB', 'VERB', 'advcl']	['为', '写道', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '减少', 'punct']
+['VERB', 'NOUN', 'acl:relcl']	['减少', '情绪', 'acl:relcl']
+['NOUN', 'NOUN', 'nmod']	['健康', '人员', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['专业', '人员', 'nmod']
+['NOUN', 'VERB', 'obj']	['人员', '减少', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '减少', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['反脂', '情绪', 'nmod']
+['NOUN', 'ADJ', 'nsubj']	['情绪', '至关重要', 'nsubj']
+['ADJ', 'VERB', 'ccomp']	['至关重要', '为', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '为', 'punct']
+['PUNCT', 'ADJ', 'punct']	['”', '至关重要', 'punct']
+['NOUN', 'NOUN', 'nmod']	['研究', '人员', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['人员', '写道', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '研究', 'case']
+['NOUN', 'VERB', 'obl']	['研究', '写道', 'obl']
+['ADP', 'NOUN', 'case']	['中', '研究', 'case']
+['VERB', 'ROOT', 'root']	['写道', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '发表', 'punct']
+['DET', 'NOUN', 'det']	['该', '研究', 'det']
+['NOUN', 'VERB', 'nsubj']	['研究', '发表', 'nsubj']
+['ADP', 'NOUN', 'case']	['于', '日在', 'case']
+['NUM', 'NOUN', 'nummod']	['4', '月', 'nummod']
+['NOUN', 'NOUN', 'clf']	['月', '日在', 'clf']
+['NUM', 'NOUN', 'nummod']	['15', '日在', 'nummod']
+['NOUN', 'VERB', 'obl']	['日在', '发表', 'obl']
+['PUNCT', 'X', 'punct']	['《', 'Obesity', 'punct']
+['X', 'NOUN', 'appos']	['Obesity', '日在', 'appos']
+['PUNCT', 'X', 'punct']	['》', 'Obesity', 'punct']
+['PUNCT', 'PART', 'punct']	['(', '人', 'punct']
+['PUNCT', 'PART', 'punct']	['《', '人', 'punct']
+['NOUN', 'PART', 'nmod']	['科学', '人', 'nmod']
+['PROPN', 'PART', 'compound']	['美国', '人', 'compound']
+['PART', 'X', 'conj']	['人', 'Obesity', 'conj']
+['PUNCT', 'PART', 'punct']	['》', '人', 'punct']
+['AUX', 'X', 'cop']	['是', 'Nature', 'cop']
+['X', 'NOUN', 'nmod']	['Nature', '部分', 'nmod']
+['X', 'X', 'flat:foreign']	['Publishing', 'Nature', 'flat:foreign']
+['DET', 'X', 'flat:foreign']	['Group', 'Nature', 'flat:foreign']
+['PART', 'X', 'mark:rel']	['的', 'Nature', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['一', '部分', 'nummod']
+['NOUN', 'VERB', 'obl']	['部分', '发表', 'obl']
+['PUNCT', 'NOUN', 'punct']	[')', '部分', 'punct']
+['ADP', 'NOUN', 'case']	['上', '部分', 'case']
+['VERB', 'VERB', 'ccomp']	['发表', '写道', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '写道', 'punct']
 ----------------------------------------------------------------------
-“我仍然否认我们有任何审查程序。”
+研究人员表示，“我们很意外，减少肥胖偏见或体重污名化的努力很少，特别是在负责治疗超重或肥胖患者的医护人员中，”曼彻斯特大学心理科学学院的凯里·奥布莱恩 (Kerry O'Brien) 是这项研究的主要作者，他在一份准备好的声明中说。
 
-(ROOT (IP (`` “) (NP (PRP 我)) (VP (ADVP (RB 仍然)) (VP (VV 否认) (IP (NP (PRP 我们)) (VP (VV 有) (NP (DP (DT 任何)) (NP (NN 审查) (NN 程序))))))) (. 。) ('' ”)))
-{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+(ROOT (IP (IP (NP (NN 研究) (NN 人员)) (VP (VV 表示) (, ，) (IP (`` “) (NP (PRP 我们)) (VP (ADVP (RB 很)) (VP (JJ 意外))) (, ，) (IP (NP (CP (IP (VP (VV 减少) (NP (NN 肥胖) (NN 偏见) (CC 或) (NN 体重) (NN 污名) (SFV 化)))) (DEC 的)) (NP (NN 努力))) (VP (JJ 很少))) (, ，) (IP (VP (ADVP (RB 特别)) (VP (VC 是) (LCP (NP (CP (CP (IP (VP (ADVP (RB 在)) (VP (VV 负责) (IP (VP (VV 治疗) (NP (NP (JJ 超重) (CC 或) (NN 肥胖)) (NP (NN 患者)))))))) (DEC 的))) (ADJP (NN 医护)) (NP (NN 人员))) (IN 中)))))))) (, ，) ('' ”) (IP (NP (DNP (NP (NP (NNP 曼彻斯特) (NN 大学)) (NP (NN 心理) (NN 科学) (NN 学院))) (DEC 的)) (NP (NNP 凯里) (/ ·) (NNP 奥布莱恩) (FW -LRB-Kerry) (FW O') (FW Brien-RRB-))) (VP (VC 是) (NP (DNP (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 研究))) (DEC 的)) (ADJP (JJ 主要)) (NP (NN 作者))))) (, ，) (IP (NP (PRP 他)) (VP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 份))) (CP (CP (IP (VP (VRD (VV 准备) (JJ 好)))) (DEC 的))) (NP (NN 声明))) (IN 中))) (VP (VV 说)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP24659': {}, ',12734': {}, 'IP10051': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP78065': {'NP': {}, 'VP': {}}, ',75391': {}, 'IP77551': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['研究', '人员', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['人员', '表示', 'nsubj']
+['VERB', 'ROOT', 'root']	['表示', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['，', '作者', 'punct']
+['PUNCT', 'NOUN', 'punct']	['“', '作者', 'punct']
+['PRON', 'ADJ', 'nsubj']	['我', '很少', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['很', '意外', 'advmod']
+['ADJ', 'VERB', 'advcl']	['意外', '减少', 'advcl']
+['PUNCT', 'ADJ', 'punct']	['，', '意外', 'punct']
+['VERB', 'ADJ', 'csubj']	['减少', '很少', 'csubj']
+['NOUN', 'NOUN', 'nmod']	['肥胖', '偏见', 'nmod']
+['NOUN', 'VERB', 'obj']	['偏见', '减少', 'obj']
+['CCONJ', 'PART', 'cc']	['或', '化', 'cc']
+['NOUN', 'PART', 'nsubj']	['体重', '化', 'nsubj']
+['NOUN', 'PART', 'compound']	['污名', '化', 'compound']
+['PART', 'NOUN', 'conj']	['化', '偏见', 'conj']
+['PART', 'VERB', 'mark:rel']	['的', '减少', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['努力', '减少', 'obj']
+['ADJ', 'NOUN', 'acl']	['很少', '人员', 'acl']
+['PUNCT', 'ADJ', 'punct']	['，', '很少', 'punct']
+['ADV', 'NOUN', 'advmod']	['特别', '人员', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '人员', 'cop']
+['ADV', 'VERB', 'advmod']	['在', '负责', 'advmod']
+['VERB', 'NOUN', 'acl:relcl']	['负责', '人员', 'acl:relcl']
+['VERB', 'VERB', 'xcomp']	['治疗', '负责', 'xcomp']
+['ADJ', 'NOUN', 'amod']	['超重', '患者', 'amod']
+['CCONJ', 'NOUN', 'cc']	['或', '肥胖', 'cc']
+['NOUN', 'ADJ', 'conj']	['肥胖', '超重', 'conj']
+['NOUN', 'VERB', 'obj']	['患者', '治疗', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '负责', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['医护', '人员', 'nmod']
+['NOUN', 'NOUN', 'acl']	['人员', '作者', 'acl']
+['ADP', 'NOUN', 'case']	['中', '人员', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '人员', 'punct']
+['PUNCT', 'NOUN', 'punct']	['”', '人员', 'punct']
+['PROPN', 'NOUN', 'nmod']	['曼彻斯特', '学院', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['大学', '学院', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['心理', '学院', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['科学', '学院', 'nmod']
+['NOUN', 'PROPN', 'nmod']	['学院', '凯里', 'nmod']
+['PART', 'NOUN', 'case']	['的', '学院', 'case']
+['PROPN', 'NOUN', 'nsubj']	['凯里', '作者', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['·', '奥布莱恩', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['奥布莱恩', '凯里', 'flat:name']
+['X', 'PROPN', 'appos']	['(Kerry', '凯里', 'appos']
+['X', 'X', 'flat:foreign']	["O'", '(Kerry', 'flat:foreign']
+['X', 'X', 'flat:foreign']	['Brien)', '(Kerry', 'flat:foreign']
+['AUX', 'NOUN', 'cop']	['是', '作者', 'cop']
+['DET', 'NOUN', 'det']	['这', '项', 'det']
+['NOUN', 'NOUN', 'clf']	['项', '研究', 'clf']
+['NOUN', 'NOUN', 'nmod']	['研究', '作者', 'nmod']
+['PART', 'NOUN', 'case']	['的', '研究', 'case']
+['ADJ', 'NOUN', 'amod']	['主要', '作者', 'amod']
+['NOUN', 'VERB', 'ccomp']	['作者', '表示', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '说', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '说', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '声明', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '份', 'nummod']
+['NOUN', 'NOUN', 'clf']	['份', '声明', 'clf']
+['VERB', 'NOUN', 'acl:relcl']	['准备', '声明', 'acl:relcl']
+['ADJ', 'VERB', 'xcomp']	['好', '准备', 'xcomp']
+['PART', 'VERB', 'mark:rel']	['的', '准备', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['声明', '说', 'obl']
+['ADP', 'NOUN', 'case']	['中', '声明', 'case']
+['VERB', 'VERB', 'ccomp']	['说', '表示', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '表示', 'punct']
 ----------------------------------------------------------------------
-BBC 拒绝置评。
+为了测试培训是否有能力减少偏见，对受访学生进行了随机分配，分为三个为期七周的辅导课程之一。
 
-(ROOT (IP (NP (FW BBC)) (VP (VV 拒绝) (IP (VP (VV 置评)))) (. 。)))
+(ROOT (IP (PP (IN 为了) (IP (VP (VP (VV 测试) (IP (NP (NN 培训)) (VP (ADVP (VC 是否)) (VP (VP (VV 有) (NP (NN 能力))) (VP (VV 减少) (NP (NN 偏见))))))) (, ，) (VP (PP (IN 对) (NP (ADJP (NN 受访)) (NP (NN 学生)))) (VP (VV 进行) (AS 了) (NP (ADJP (JJ 随机)) (NP (NN 分配)))))))) (, ，) (VP (VV 分) (VP (VC 为) (NP (DNP (NP (QP (CD 三) (CLP (NNB 个))) (CP (CP (IP (VP (VV 为期) (QP (CD 七) (CLP (NNB 周))))) (DEC 的))) (NP (NN 辅导) (NN 课程))) (DEC 之)) (NP (CD 一))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'VP': {'VV': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['为了', '测试', 'case']
+['VERB', 'VERB', 'xcomp']	['测试', '进行', 'xcomp']
+['NOUN', 'VERB', 'nsubj']	['培训', '是', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['是', '测试', 'ccomp']
+['VERB', 'VERB', 'advcl']	['有', '减少', 'advcl']
+['NOUN', 'VERB', 'obj']	['能力', '有', 'obj']
+['VERB', 'VERB', 'ccomp']	['减少', '测试', 'ccomp']
+['NOUN', 'VERB', 'obj']	['偏见', '减少', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '测试', 'punct']
+['ADP', 'NOUN', 'case']	['对', '学生', 'case']
+['NOUN', 'NOUN', 'nmod']	['受访', '学生', 'nmod']
+['NOUN', 'VERB', 'obl']	['学生', '进行', 'obl']
+['VERB', 'ROOT', 'root']	['进行', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '进行', 'aux']
+['ADJ', 'NOUN', 'amod']	['随机', '分配', 'amod']
+['NOUN', 'VERB', 'obj']	['分配', '进行', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '分', 'punct']
+['VERB', 'VERB', 'parataxis']	['分', '进行', 'parataxis']
+['VERB', 'VERB', 'mark']	['为', '分', 'mark']
+['NUM', 'NOUN', 'nummod']	['三', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '课程', 'clf']
+['VERB', 'NOUN', 'acl:relcl']	['为', '课程', 'acl:relcl']
+['NUM', 'NOUN', 'nummod']	['七', '周', 'nummod']
+['NOUN', 'VERB', 'obj']	['周', '为', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '为', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['辅导', '课程', 'nmod']
+['NOUN', 'NUM', 'nmod']	['课程', '一', 'nmod']
+['PART', 'NOUN', 'case']	['之', '课程', 'case']
+['NUM', 'VERB', 'obj']	['一', '分', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '进行', 'punct']
+----------------------------------------------------------------------
+一组人了解到肥胖的生活方式相关原因，如饮食和运动习惯。
+
+(ROOT (IP (NP (ADJP (NN 一组)) (NP (NN 人))) (VP (VRD (VV 了解) (VV 到)) (NP (NP (DNP (NP (NN 肥胖)) (DEC 的)) (NP (NN 生活) (NN 方式)) (ADJP (JJ 相关)) (NP (NN 原因))) (, ，) (NP (ADVP (VV 如)) (NP (NP (NN 饮食) (CC 和) (NN 运动)) (NP (NN 习惯)))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'NP': {'FW': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'VRD': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'VRD': {}, 'NP': {}}, '.': {}}}
+{'NP': {'ADJP': {}, 'NP': {}}}
+{'VP': {'VRD': {}, 'NP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['一组', '人', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['人', '了解', 'nsubj']
+['VERB', 'ROOT', 'root']	['了解', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['到', '了解', 'mark']
+['NOUN', 'NOUN', 'nmod']	['肥胖', '方式', 'nmod']
+['PART', 'NOUN', 'case']	['的', '肥胖', 'case']
+['NOUN', 'NOUN', 'nmod']	['生活', '方式', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['方式', '原因', 'nmod']
+['ADJ', 'NOUN', 'amod']	['相关', '原因', 'amod']
+['NOUN', 'VERB', 'nsubj']	['原因', '如', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '原因', 'punct']
+['VERB', 'VERB', 'ccomp']	['如', '了解', 'ccomp']
+['NOUN', 'VERB', 'obj']	['饮食', '如', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '运动', 'cc']
+['NOUN', 'NOUN', 'conj']	['运动', '饮食', 'conj']
+['NOUN', 'VERB', 'obj']	['习惯', '如', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '了解', 'punct']
+----------------------------------------------------------------------
+另一组学生了解了可能导致肥胖的遗传和环境因素，如家族史和垃圾食品营销。
+
+(ROOT (IP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 组)))) (NP (NN 学生))) (VP (VV 了解) (AS 了) (NP (NP (CP (CP (IP (VP (MD 可能) (VP (VV 导致) (NP (NN 肥胖))))) (DEC 的))) (NP (NN 遗传) (CC 和) (NN 环境) (NN 因素))) (, ，) (NP (ADVP (VV 如)) (NP (NP (NN 家族) (SFN 史) (CC 和) (NN 垃) (SFN 圾) (NN 食品)) (NP (NN 营销)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['另', '组', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '组', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['组', '学生', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['学生', '了解', 'nsubj']
+['VERB', 'ROOT', 'root']	['了解', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '了解', 'aux']
+['AUX', 'VERB', 'aux']	['可能', '导致', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['导致', '遗传', 'acl:relcl']
+['NOUN', 'VERB', 'obj']	['肥胖', '导致', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '导致', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['遗传', '如', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '因素', 'cc']
+['NOUN', 'NOUN', 'nmod']	['环境', '因素', 'nmod']
+['NOUN', 'NOUN', 'conj']	['因素', '遗传', 'conj']
+['PUNCT', 'NOUN', 'punct']	['，', '遗传', 'punct']
+['VERB', 'VERB', 'ccomp']	['如', '了解', 'ccomp']
+['NOUN', 'PART', 'compound']	['家族', '史', 'compound']
+['PART', 'VERB', 'obj']	['史', '如', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '营销', 'cc']
+['NOUN', 'PART', 'compound']	['垃', '圾', 'compound']
+['PART', 'NOUN', 'nmod']	['圾', '营销', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['食品', '营销', 'nmod']
+['NOUN', 'PART', 'conj']	['营销', '史', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '了解', 'punct']
+----------------------------------------------------------------------
+而对照组则参加了一次关于青少年饮酒问题的研讨会。
+
+(ROOT (IP (ADVP (RB 而)) (NP (VV 对照) (SFN 组)) (VP (ADVP (RB 则)) (VP (VV 参加) (AS 了) (NP (QP (CD 一) (CLP (NNB 次))) (DNP (PP (IN 关于) (NP (NP (NP (ADJP (PFA 青)) (NP (NN 少年))) (NP (NN 饮酒))) (NP (NN 问题)))) (DEC 的)) (NP (NN 研讨) (SFN 会))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'VV': {}, 'SFN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'VV': {}, 'SFN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'VV': {}, 'SFN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['而', '参加', 'mark']
+['VERB', 'PART', 'compound']	['对照', '组', 'compound']
+['PART', 'VERB', 'nsubj']	['组', '参加', 'nsubj']
+['ADV', 'VERB', 'mark']	['则', '参加', 'mark']
+['VERB', 'ROOT', 'root']	['参加', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '参加', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '次', 'nummod']
+['NOUN', 'PART', 'nmod']	['次', '会', 'nmod']
+['ADP', 'PART', 'case']	['关于', '会', 'case']
+['PART', 'NOUN', 'case']	['青', '问题', 'case']
+['NOUN', 'NOUN', 'nmod']	['少年', '问题', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['饮酒', '问题', 'nmod']
+['NOUN', 'ADP', 'nmod']	['问题', '关于', 'nmod']
+['PART', 'PART', 'case']	['的', '会', 'case']
+['NOUN', 'PART', 'compound']	['研讨', '会', 'compound']
+['PART', 'VERB', 'obj']	['会', '参加', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '参加', 'punct']
+----------------------------------------------------------------------
+那些接受生活方式教程的学生实际上抵触情绪增加了 27%，但那些学习了遗传和环境因素的学生减少了同样的数量。
+
+(ROOT (IP (IP (NP (DP (DT 那些)) (CP (CP (IP (VP (VV 接受) (NP (NN 生活) (NN 方式) (NN 教程)))) (DEC 的))) (NP (NN 学生))) (LCP (NP (NN 实际)) (IN 上)) (NP (VV 抵触) (NN 情绪)) (VP (VV 增加) (AS 了) (QP (CD 27%)))) (, ，) (IP (ADVP (RB 但)) (NP (DP (DT 那些)) (CP (CP (IP (VP (VV 学习) (AS 了) (NP (NP (NN 遗传) (CC 和) (NN 环境)) (NP (NN 因素))))) (DEC 的))) (NP (NN 学生))) (VP (VV 减少) (AS 了) (NP (DNP (ADJP (JJ 同样)) (DEC 的)) (NP (NN 数量))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP4609': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'LCP': {}, 'NP88701': {}, 'VP': {}}, ',': {}, 'IP67305': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'LCP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'LCP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['那些', '学生', 'det']
+['VERB', 'NOUN', 'acl:relcl']	['接受', '学生', 'acl:relcl']
+['NOUN', 'NOUN', 'nmod']	['生活', '教程', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['方式', '教程', 'nmod']
+['NOUN', 'VERB', 'obj']	['教程', '接受', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '接受', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['学生', '增加', 'nsubj']
+['NOUN', 'VERB', 'obl']	['实际', '增加', 'obl']
+['ADP', 'NOUN', 'case']	['上', '实际', 'case']
+['VERB', 'VERB', 'advcl']	['抵触', '增加', 'advcl']
+['NOUN', 'VERB', 'obj']	['情绪', '抵触', 'obj']
+['VERB', 'ROOT', 'root']	['增加', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '增加', 'aux']
+['NUM', 'VERB', 'obj']	['27%', '增加', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '减少', 'punct']
+['ADV', 'VERB', 'mark']	['但', '减少', 'mark']
+['DET', 'NOUN', 'det']	['那些', '学生', 'det']
+['VERB', 'NOUN', 'acl:relcl']	['学习', '学生', 'acl:relcl']
+['AUX', 'VERB', 'aux']	['了', '学习', 'aux']
+['NOUN', 'NOUN', 'nmod']	['遗传', '学生', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['和', '因素', 'cc']
+['NOUN', 'NOUN', 'nmod']	['环境', '因素', 'nmod']
+['NOUN', 'NOUN', 'conj']	['因素', '遗传', 'conj']
+['PART', 'VERB', 'mark:rel']	['的', '学习', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['学生', '减少', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['减少', '增加', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '减少', 'aux']
+['ADJ', 'NOUN', 'amod']	['同样', '数量', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '同样', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['数量', '减少', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '增加', 'punct']
+----------------------------------------------------------------------
+“人们只是听说肥胖是由于饮食不当和缺乏运动造成的，这意味着肥胖的人只是懒惰和胖乱，”奥布莱恩说道。“那些负责向肥胖人群提供健康服务的人可能会对患者感到沮丧，因为他们在咨询和治疗后并没有减肥，——肥胖的人一直在与自身的生理和环境作斗争。
+
+(ROOT (IP (IP (`` “) (NP (NN 人们)) (VP (ADVP (RB 只)) (VP (VC 是) (VP (VV 听说) (IP (NP (NN 肥胖)) (VP (VC 是) (NP (CP (CP (IP (VP (PP (IN 由于) (IP (IP (NP (NN 饮食)) (VP (JJ 不当))) (CC 和) (IP (VP (VV 缺乏) (NP (NN 运动)))))) (VP (VV 造成)))) (UH 的))))))))) (, ，) (IP (NP (PRD 这)) (NP (CP (CP (IP (VP (VV 意味) (AS 着) (NP (VV 肥胖)))) (DEC 的))) (NP (NN 人))) (VP (ADVP (RB 只)) (VP (VC 是) (VP (JJ 懒惰) (CC 和) (JJ 胖乱)))))) (, ，) ('' ”) (NP (NNP 奥布莱恩)) (VP (VV 说道)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+['PUNCT', 'VERB', 'punct']	['“', '是', 'punct']
+['NOUN', 'VERB', 'nsubj']	['人', '是', 'nsubj']
+['ADV', 'VERB', 'advmod']	['只', '是', 'advmod']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['听说', '是', 'xcomp']
+['NOUN', 'VERB', 'nsubj']	['肥胖', '是', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['是', '听说', 'ccomp']
+['ADP', 'VERB', 'case']	['由于', '是', 'case']
+['NOUN', 'ADJ', 'nsubj']	['饮食', '不当', 'nsubj']
+['ADJ', 'VERB', 'xcomp']	['不当', '是', 'xcomp']
+['CCONJ', 'VERB', 'cc']	['和', '缺乏', 'cc']
+['VERB', 'VERB', 'conj']	['缺乏', '是', 'conj']
+['NOUN', 'VERB', 'nsubj']	['运动', '造成', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['造成', '缺乏', 'ccomp']
+['PART', 'VERB', 'discourse']	['的', '是', 'discourse']
+['PUNCT', 'VERB', 'punct']	['，', '意味', 'punct']
+['PRON', 'VERB', 'nsubj']	['这', '意味', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['意味', '是', 'parataxis']
+['AUX', 'VERB', 'aux']	['着', '意味', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['肥胖', '人', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '肥胖', 'mark:rel']
+['NOUN', 'ADJ', 'nsubj']	['人', '懒惰', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['只', '懒惰', 'advmod']
+['AUX', 'ADJ', 'cop']	['是', '懒惰', 'cop']
+['ADJ', 'VERB', 'ccomp']	['懒惰', '意味', 'ccomp']
+['CCONJ', 'ADJ', 'cc']	['和', '胖乱', 'cc']
+['ADJ', 'ADJ', 'conj']	['胖乱', '懒惰', 'conj']
+['PUNCT', 'ADJ', 'punct']	['，', '懒惰', 'punct']
+['PUNCT', 'ADJ', 'punct']	['”', '懒惰', 'punct']
+['PROPN', 'VERB', 'nsubj']	['奥布莱恩', '说道', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['说道', '意味', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+奥布莱恩指出，如果专业人士时刻牢记这一点，可能会帮助他们不要将患者污名化。
+
+(ROOT (IP (NP (NNP 奥布莱恩)) (VP (VV 指出) (, ，) (IP (CP (ADVP (IN 如果)) (IP (NP (NN 专业) (NN 人士)) (VP (NP (NN 时刻)) (VP (VV 牢记) (DP (DT 这) (CLP (NN 一点))))))) (, ，) (VP (MD 可能) (VP (MD 会) (VP (VV 帮助) (NP (PRP 他们)) (IP (VP (MD 不要) (VP (BB 将) (IP (NP (NN 患者)) (VP (VRD (VV 污名) (SFV 化)))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['奥布莱恩', '指出', 'nsubj']
+['VERB', 'ROOT', 'root']	['指出', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '帮助', 'punct']
+['ADP', 'VERB', 'case']	['如果', '牢记', 'case']
+['NOUN', 'NOUN', 'nmod']	['专业', '人士', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['人士', '牢记', 'nsubj']
+['NOUN', 'VERB', 'nmod:tmod']	['时刻', '牢记', 'nmod:tmod']
+['VERB', 'VERB', 'ccomp']	['牢记', '帮助', 'ccomp']
+['DET', 'NOUN', 'det']	['这', '一点', 'det']
+['NOUN', 'VERB', 'obj']	['一点', '牢记', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '牢记', 'punct']
+['AUX', 'VERB', 'aux']	['可能', '帮助', 'aux']
+['AUX', 'VERB', 'aux']	['会', '帮助', 'aux']
+['VERB', 'VERB', 'xcomp']	['帮助', '指出', 'xcomp']
+['PRON', 'PART', 'nsubj']	['他', '化', 'nsubj']
+['AUX', 'PART', 'aux']	['要', '化', 'aux']
+['ADP', 'NOUN', 'case']	['将', '患者', 'case']
+['NOUN', 'PART', 'obl:patient']	['患者', '化', 'obl:patient']
+['VERB', 'PART', 'compound']	['污名', '化', 'compound']
+['PART', 'VERB', 'ccomp']	['化', '帮助', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '指出', 'punct']
 ----------------------------------------------------------------------

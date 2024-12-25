@@ -1,460 +1,749 @@
-在中国经济观察者中，这个夏天最流行的游戏是猜测涌入中国的投机资本或“热钱”的规模。
+奥巴马周二表示，他将在今年春季和夏季向阿富汗增派 17,000 名美军，这将使他对这场战争的印记深深印在了这场战争上，他早就对这场战争的方向表示了不满。
 
-(ROOT (IP (PP (IN 在) (LCP (NP (NP (NNP 中国)) (NP (NN 经济) (VV 观察) (SFN 者))) (IN 中))) (, ，) (NP (DP (DT 这) (CLP (NNB 个))) (CP (CP (IP (VP (NP (NN 夏天)) (ADVP (RB 最)) (VP (JJ 流行)))) (DEC 的))) (NP (NN 游戏))) (VP (VC 是) (VP (VV 猜测) (IP (VP (VV 涌入) (NP (DNP (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NP (NN 投机) (NN 资本)) (CC 或) (NP (`` “) (NN 热钱) ('' ”)))) (DEC 的)) (NP (NN 规模))))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VC': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'DP': {}, 'CP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'VP': {}}}
-----------------------------------------------------------------------
-一个线索是，尽管今年中国的贸易顺差开始收窄，但其外汇储备增速却越来越快。
-
-(ROOT (IP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 线索))) (VP (VC 是) (, ，) (IP (CP (ADVP (IN 尽管)) (IP (NP (NN 今年)) (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NN 贸易) (NN 顺差))) (VP (VV 开始) (VP (VV 收窄))))) (, ，) (ADVP (RB 但)) (NP (NP (NP (PRP 其)) (NP (NN 外汇) (NN 储备))) (NP (NN 增速))) (VP (ADVP (RB 却)) (ADVP (RB 越来越)) (VP (JJ 快))))) (. 。)))
+(ROOT (IP (NP (NNP 奥巴马)) (VP (NP (NNP 周) (CD 二)) (VP (VV 表示) (, ，) (IP (IP (NP (PRP 他)) (VP (ADVP (RB 将)) (PP (IN 在) (NP (NN 今年) (NN 春季) (CC 和) (NN 夏季))) (PP (IN 向) (NP (NNP 阿富汗))) (VP (VV 增派) (NP (QP (CD 17,000)) (NP (NNP 名美)) (NP (NN 军)))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 将)) (VP (VV 使) (NP (NP (PRP 他)) (DNP (PP (IN 对) (NP (DP (DT 这) (CLP (NNB 场))) (NP (NN 战争)))) (DEC 的)) (NP (NN 印记))) (IP (VP (ADVP (RB 深深)) (VP (VV 印) (PP (VV 在) (AS 了) (LCP (NP (DP (DT 这) (CLP (NNB 场))) (NP (NN 战争))) (IN 上))))))))) (, ，) (IP (NP (PRP 他)) (VP (ADVP (RB 早)) (ADVP (RB 就)) (PP (IN 对) (NP (DNP (NP (DP (DT 这) (CLP (NNB 场))) (NP (NN 战争))) (DEC 的)) (NP (NN 方向)))) (VP (VV 表示) (AS 了) (NP (JJ 不满)))))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'QP': {}, 'NP': {}}}
-{'VP': {'VC': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-它的净外汇收入现在主要来自资本流入，而非经常账户盈余。
-
-(ROOT (IP (NP (DNP (NP (PRP 它)) (DEC 的)) (ADJP (JJ 净)) (NP (NN 外汇) (NN 收入))) (VP (NP (NN 现在)) (ADVP (RB 主要)) (VP (VV 来) (PP (VV 自) (NP (NP (NN 资本) (VV 流入)) (, ，) (VC 而非) (NP (NP (ADJP (JJ 经常)) (NP (NN 账户))) (NP (NN 盈余))))))) (. 。)))
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}}
-{'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+奥巴马	表示	nsubj
+周	表示	nsubj
+二	表示	obl
+表示	ROOT	root
+，	使	punct
+他	增派	nsubj
+将	增派	advmod
+在	春季	case
+今年	春季	nmod
+春季	增派	obl
+和	夏季	cc
+夏季	春季	conj
+向	阿富汗	case
+阿富汗	增派	obl
+增派	使	ccomp
+17,000	军	nummod
+名美	军	compound
+军	增派	obj
+，	使	punct
+这	使	nsubj
+将	使	advmod
+使	表示	ccomp
+他	印记	nmod
+对	印记	case
+这	场	det
+场	战争	clf
+战争	印记	nmod
+的	印记	case
+印记	印	nsubj
+深深	印	advmod
+印	使	ccomp
+在	印	mark
+了	印	aux
+这	场	det
+场	战争	clf
+战争	印	obj
+上	战争	case
+，	印	punct
+他	表示	nsubj
+早	表示	advmod
+就	表示	mark
+对	方向	case
+这	场	det
+场	战争	clf
+战争	方向	nmod
+的	战争	case
+方向	表示	obl
+表示	表示	ccomp
+了	表示	aux
+不满	表示	xcomp
+。	表示	punct
 ----------------------------------------------------------------------
-据泄露的官方数字显示，4 月和 5 月中国的外汇储备上涨了 1150 亿美元，达到 18 万亿美元。
+这项命令将增加已经部署在伊拉克的 36,000 名美军人数，增加近 50%。
 
-(ROOT (IP (NP (IP (PP (IN 据) (NP (VV 泄露))) (DEC 的)) (NP (NN 官方) (NN 数字))) (VP (VV 显示) (, ，) (IP (NP (DNP (QP (CD 4) (NNB 月和) (CD 5) (NNB 月中国)) (DEC 的)) (NP (NN 外汇) (NN 储备))) (VP (VP (VV 上涨) (AS 了) (QP (CD 1150) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元)))))) (, ，) (VP (VV 达到) (QP (QP (CD 18)) (QP (CD 万亿) (CLP (NNP 美) (CLP (NNB 元))))))))) (. 。)))
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 命令))) (VP (ADVP (RB 将)) (VP (VP (VV 增加) (NP (NP (CP (CP (IP (VP (ADVP (RB 已经)) (VP (VV 部署) (PP (VV 在) (NP (NNP 伊拉克)))))) (DEC 的))) (QP (CD 36,000)) (NP (NNP 名美)) (NP (NN 军))) (NP (NN 人数)))) (, ，) (VP (VV 增加) (QP (ADVP (RB 近)) (QP (CD 50%)))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'IP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'IP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-5 月至今，报告的储备规模增加了 2690 亿美元，比去年同期增加了 20%。
-
-(ROOT (IP (NP (CD 5) (NNB 月至) (NN 今)) (, ，) (NP (DNP (NP (NN 报告)) (DEC 的)) (NP (NN 储备) (NN 规模))) (VP (VP (VV 增加) (AS 了) (QP (CD 2690) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元)))))) (, ，) (VP (PP (IN 比) (NP (NN 去年) (NN 同期))) (VP (VV 增加) (AS 了) (QP (CD 20%))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'NN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'NN': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-但即使这样，也低估了中国人民银行 (PBOC) 在外汇方面的真实积累速度。
-
-(ROOT (IP (ADVP (RB 但)) (VP (IP (VP (ADVP (IN 即使)) (NP (PRD 这样)))) (, ，) (ADVP (RB 也)) (VP (VV 低估) (AS 了) (NP (NP (NP (NNP 中国) (NN 人民) (NN 银行)) (NP (NN -LRB-PBOC-RRB-))) (DNP (PP (IN 在) (NP (NN 外汇) (NN 方面))) (DEC 的)) (ADJP (JJ 真实)) (NP (NN 积累) (NN 速度))))) (. 。)))
-{'IP': {'ADVP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'VP': {'IP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'VP': {'IP': {}, ',': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-北京的一家经济研究公司 Stone & McCarthy 的分析师洛根·赖特 (Logan Wright) 做了一些统计推理工作，来解释这些数字。
-
-(ROOT (IP (NP (NP (DNP (NP (NP (DNP (NP (NNP 北京)) (DEC 的)) (QP (CD 一) (CLP (NNB 家))) (NP (NN 经济) (NN 研究) (NN 公司))) (NP (FW Stone) (FW & Mc) (FW Carthy))) (DEC 的)) (NP (VV 分析) (SFN 师))) (NP (NNP 洛根) (/ ·) (NNP 赖特) (FW -LRB-Logan) (FW Wright-RRB-))) (VP (VP (VV 做) (AS 了) (NP (QP (JJ 一些)) (NP (NN 统计) (NN 推理) (NN 工作)))) (, ，) (VP (RB 来) (VP (VV 解释) (NP (DP (DT 这些)) (NP (NN 数字)))))) (. 。)))
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-第一个问题是，所报告的储备不包括人民银行向国有投资公司转移的外汇。
-
-(ROOT (IP (NP (QP (CD 第一) (CLP (NNB 个))) (NP (NN 问题))) (VP (VC 是) (, ，) (IP (NP (CP (CP (IP (VP (RB 所) (VP (VV 报告)))) (DEC 的))) (NP (NN 储备))) (VP (ADVP (RB 不)) (VP (VV 包括) (NP (CP (CP (IP (NP (NN 人民) (NN 银行)) (VP (PP (IN 向) (NP (ADJP (NN 国有)) (NP (NN 投资) (NN 公司)))) (VP (VV 转移)))) (DEC 的))) (NP (NN 外汇))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'QP': {}, 'NP': {}}}
-{'VP': {'VC': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-今年，由于中国人民银行“要求”银行使用美元支付其现在必须持有的额外准备金，因此，央行在会计上也减少了备付金数字。
-
-(ROOT (IP (NP (NN 今年)) (, ，) (PP (IN 由于) (IP (NP (CP (IP (NP (NNP 中国) (NN 人民) (NN 银行)) (VP (`` “) (VV 要求) ('' ”)))) (NP (NN 银行))) (VP (VP (VV 使用) (NP (NNP 美) (SFN 元))) (VP (VV 支付) (NP (CP (CP (IP (NP (PRP 其)) (VP (NP (NN 现在)) (VP (MD 必须) (VP (VV 持有))))) (DEC 的))) (ADJP (JJ 额外)) (NP (VV 准备) (SFN 金))))))) (, ，) (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (NN 央行)) (VP (PP (IN 在) (LCP (NP (NN 会计)) (IN 上))) (ADVP (RB 也)) (VP (VV 减少) (AS 了) (NP (VV 备付) (SFN 金) (NN 数字)))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'PP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, ',': {}, 'ADVP': {'IN': {}}, 'ADVP': {'PRD': {}}, 'NP': {'NN': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
-{'ADVP': {'IN': {}}}
-{'ADVP': {'PRD': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-把这两项资产加到已报告的储备中，Wright 先生估计，2008 年前 5 个月，外汇资产总额增加了 3930 亿美元（见图），比上年同期的增长翻了一倍以上。
-
-(ROOT (IP (IP (VP (BB 把) (IP (NP (DP (DT 这) (QP (CD 两) (CLP (NNB 项)))) (NP (NN 资产))) (VP (VV 加到) (LCP (NP (CP (CP (IP (VP (ADVP (RB 已)) (VP (VV 报告)))) (DEC 的))) (NP (NN 储备))) (IN 中)))))) (, ，) (NP (FW Wright) (NN 先生)) (VP (VV 估计) (, ，) (IP (NP (LCP (NP (CD 2008)) (NNB 年前)) (QP (CD 5)) (NP (NNB 个月))) (, ，) (NP (NN 外汇) (NN 资产) (NN 总额)) (VP (VP (VV 增加) (AS 了) (QP (CD 3930) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元)))) (PRN (-LRB- （) (NP (NN 见图)) (-RRB- ）)))) (, ，) (VP (PP (IN 比) (NP (DNP (NP (NN 上年) (NN 同期)) (DEC 的)) (NP (NN 增长)))) (VP (VV 翻) (AS 了) (LCP (QP (CD 一) (CLP (NNB 倍))) (IN 以上))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'FW': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'FW': {}, 'NN': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-中国的贸易顺差和外国直接投资 (FDI) 只能解释 30% 的原因。
-
-(ROOT (IP (NP (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NN 贸易) (NN 顺差))) (CC 和) (NP (NP (NP (NN 外国)) (ADJP (JJ 直接)) (NP (NN 投资))) (NP (NN -LRB-FDI-RRB-)))) (VP (RB 只能) (VP (VV 解释) (NP (DNP (QP (CD 30%)) (DEC 的)) (NP (NN 原因))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'CC': {}, 'NP': {}}, 'VP': {'RB': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'CC': {}, 'NP': {}}}
-{'VP': {'RB': {}, 'VP': {}}}
-----------------------------------------------------------------------
-扣除投资收入和美元贬值后的非美元储备资产增值，仍然留下了一个2140亿美元的未解释差额，相当于每年5000亿美元。
-
-(ROOT (IP (VP (VP (VV 扣除) (NP (NP (NN 投资) (NN 收入)) (CC 和) (NP (DNP (LCP (IP (NP (NNP 美) (SFN 元)) (VP (VV 贬值))) (IN 后)) (DEC 的)) (NP (ADJP (PFA 非)) (NP (NP (NNP 美)) (NP (SFN 元))) (NP (NN 储备))) (NP (NN 资产) (VV 增值))))) (, ，) (VP (ADVP (RB 仍然)) (VP (VV 留下) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (QP (CD 2140亿) (CLP (NNP 美) (CLP (NNB 元)))) (DEC 的)) (CP (IP (VP (ADJP (RB 未)) (VP (NN 解释))))) (NP (NN 差额))))) (, ，) (VP (VV 相当) (PP (VV 于) (QP (NP (DT 每年)) (QP (CD 5000亿) (CLP (NNP 美) (CLP (NNB 元)))))))) (. 。)))
-{'IP': {'VP': {}, '.': {}}}
-{'IP': {'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}}, '.': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}}}
-----------------------------------------------------------------------
-一些经济学家将其作为热钱流入的代理。
-
-(ROOT (IP (NP (QP (JJ 一些)) (NP (NN 经济) (SFN 学) (SFN 家))) (VP (BB 将) (IP (NP (PRP 其)) (VP (VV 作) (PP (VC 为) (NP (DNP (NP (NN 热钱) (VV 流入)) (DEC 的)) (NP (NN 代理))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
-{'NP': {'QP': {}, 'NP': {}}}
-{'VP': {'BB': {}, 'IP': {}}}
-----------------------------------------------------------------------
-但其中一部分可能反映了非投机性交易，比如中国企业的外债。
-
-(ROOT (IP (ADVP (RB 但)) (NP (NP (NN 其中)) (QP (CD 一)) (NP (NN 部分))) (VP (MD 可能) (VP (VV 反映) (AS 了) (NP (NP (NP (ADJP (VC 非)) (NP (VV 投机))) (ADJP (SFN 性)) (NP (NN 交易))) (, ，) (NP (ADVP (VV 比如)) (NP (DNP (NP (NP (NNP 中国)) (NP (NN 企业))) (DEC 的)) (NP (NN 外债))))))) (. 。)))
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'NP': {'NP': {}, 'QP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'NP': {}, 'QP': {}, 'NP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
-----------------------------------------------------------------------
-因此，赖特先生估计，2008 年前 5 个月，中国接受到的热钱高达 1700 亿美元。
-
-(ROOT (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (NNP 赖特) (NN 先生)) (VP (VV 估计) (, ，) (IP (NP (CD 2008)) (VP (NNB 年前) (QP (CD 5)) (NP (NNB 个月))) (, ，) (NP (CP (CP (IP (NP (NNP 中国)) (VP (VRD (VV 接受) (VV 到)))) (DEC 的))) (NP (NN 热钱))) (VP (VV 高达) (QP (QP (CD 1700)) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元)))))))) (. 。)))
-{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'IN': {}}, 'ADVP': {'PRD': {}}, ',': {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'ADVP': {'IN': {}}}
-{'ADVP': {'PRD': {}}}
-{'NP': {'NNP': {}, 'NN': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-这远远超过了任何新兴经济体以往的经历。
-
-(ROOT (IP (NP (PRD 这)) (VP (ADVP (RB 远远)) (VP (VV 超过) (AS 了) (NP (DP (DT 任何)) (NP (ADJP (JJ 新兴)) (NP (NN 经济) (SFN 体))) (DNP (NP (NN 以往)) (DEC 的)) (NP (NN 经历))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRD': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
 {'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+这	项	det
+项	命令	clf
+命令	增加	nsubj
+将	增加	advmod
+增加	增加	advcl
+已经	部署	advmod
+部署	人数	acl:relcl
+在	部署	mark
+伊拉克	在	obj
+的	部署	mark:rel
+36,000	军	nummod
+名美	军	compound
+军	人数	nmod
+人数	增加	obj
+，	增加	punct
+增加	ROOT	root
+近	50%	advmod
+50%	增加	obj
+。	增加	punct
 ----------------------------------------------------------------------
-北京大学光华管理学院的经济学家迈克尔·皮蒂斯 (Michael Pettis) 认为，在此期间的投机性流入资金可能超过 2000 亿美元，因为热钱也通过公司夸大外国直接投资和出口超计价进入中国。
+白宫官员表示，在行政部门完成对阿富汗政策的更广泛审查后，将再作出是否派遣更多部队的决定。
 
-(ROOT (IP (NP (NP (DNP (NP (NP (NNP 北京) (NN 大学)) (NP (NNP 光华) (NN 管理) (NN 学院))) (DEC 的)) (NP (NN 经济) (NN 学家))) (NP (NNP 迈克) (NNP 尔) (/ ·) (NNP 皮蒂斯) (FW -LRB-Michael) (FW Pettis-RRB-))) (VP (VV 认为) (, ，) (IP (IP (NP (DNP (PP (IN 在) (NP (DP (DT 此)) (NP (NN 期间)))) (DEC 的)) (NP (VV 投机) (SFN 性) (NN 流入) (NN 资金))) (VP (MD 可能) (VP (VV 超过) (QP (QP (CD 2000)) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元)))))))) (, ，) (PP (IN 因为) (IP (NP (NN 热钱)) (VP (ADVP (RB 也)) (PP (IN 通过) (NP (NN 公司))) (VP (VP (VV 夸大) (NP (NP (NP (NN 外国)) (ADJP (JJ 直接)) (NP (NN 投资))) (CC 和) (NP (NN 出口) (NN 超计价)))) (VP (VV 进入) (NP (NNP 中国))))))))) (. 。)))
+(ROOT (IP (NP (NP (NNP 白宫)) (NP (NN 官员))) (VP (VV 表示) (, ，) (IP (VP (PP (IN 在) (LCP (IP (NP (NN 行政) (NN 部门)) (VP (VV 完成) (NP (DNP (PP (IN 对) (NP (NP (NNP 阿富汗)) (NP (NN 政策)))) (DEC 的)) (ADJP (ADVP (RB 更)) (ADJP (JJ 广泛))) (NP (NN 审查))))) (IN 后))) (, ，) (ADVP (RB 将)) (ADVP (RB 再)) (VP (VV 作出) (NP (CP (IP (VP (ADVP (VV 是否)) (VP (VV 派遣) (NP (ADJP (JJ 更多)) (NP (NN 部队)))))) (DEC 的)) (NP (NN 决定))))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP19243': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
 {'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
 {'NP': {'NP': {}, 'NP': {}}}
 {'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+白宫	官员	nmod
+官员	表示	nsubj
+表示	ROOT	root
+，	作出	punct
+在	部门	case
+行政	部门	nmod
+部门	完成	nsubj
+完成	审查	acl:relcl
+对	政策	case
+阿富汗	政策	nmod
+政策	完成	obl
+的	完成	mark:rel
+更	广泛	advmod
+广泛	审查	amod
+审查	作出	obl
+后	完成	mark
+，	审查	punct
+将	作出	advmod
+再	作出	advmod
+作出	表示	ccomp
+是	作出	xcomp
+派遣	决定	acl:relcl
+更多	部队	amod
+部队	派遣	obj
+的	派遣	mark:rel
+决定	作出	obj
+。	表示	punct
 ----------------------------------------------------------------------
-外资公司正在带来比投资所需的资金还多的资本：外国直接投资的净流入比一年前高出 60%，但这些钱用于固定投资的实际使用额却下降了 6%，其中一部分资金被转移到其他地方。
+奥巴马在一份书面声明中表示，增兵“是为了稳定不断恶化的阿富汗局势，但该国仍然缺乏紧急需要的战略关注、领导和资源。”
 
-(ROOT (NP (CP (CP (IP (NP (NN 外资) (NN 公司)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VP (VV 带来) (NP (CP (CP (IP (VP (PP (IN 比) (NP (NN 投资))) (VP (RB 所) (VP (VV 需))))) (DEC 的))) (NP (NN 资金)))) (VP (ADVP (RB 还)) (VP (JJ 多)))))) (DEC 的))) (NP (NN 资本)) (: ：)))
-{'NP': {'CP': {}, 'NP': {}, ':': {}}}
-{'NP': {'CP': {'CP': {}}, 'NP': {'NN': {}}, ':': {}}}
-{'CP': {'CP': {}}}
-{'NP': {'NN': {}}}
-----------------------------------------------------------------------
-推算出来的收入数字是一回事，实际到手的钱是另一回事。
-
-(ROOT (IP (IP (NP (CP (CP (IP (VP (VRD (VV 推算) (VV 出来)))) (DEC 的))) (NP (NN 收入) (NN 数字))) (VP (VC 是) (NP (QP (CD 一)) (NP (NN 回事))))) (, ，) (IP (NP (CP (CP (IP (VP (ADVP (NN 实际)) (VP (VV 到手)))) (DEC 的)))) (VP (NN 钱是) (NP (DP (DT 另) (QP (CD 一))) (NP (NNB 回事))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-另一个问题是要想知道它要去哪里，以及如何绕过中国严格的资本管制。
-
-(ROOT (IP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 问题))) (VP (VC 是) (VP (MD 要) (VP (MD 想) (IP (VP (VV 知道) (IP (NP (PRP 它)) (VP (VP (MD 要) (VP (VV 去) (NP (WP 哪里)))) (, ，) (CC 以及) (VP (ADVP (RB 如何)) (VP (VV 绕过) (NP (NP (NNP 中国)) (CP (CP (IP (VP (JJ 严格))) (DEC 的))) (NP (NN 资本) (NN 管制)))))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'VP': {}}}
-----------------------------------------------------------------------
-股市继续下跌（见文章），不是炒作资金的天堂。
-
-(ROOT (IP (IP (NP (NN 股市)) (VP (VV 继续) (VP (VV 下跌))) (PRN (-LRB- （) (VP (VV 见) (NP (NN 文章))) (-RRB- ）))) (, ，) (VP (VC 不是) (NP (DNP (NP (VV 炒作) (NN 资金)) (DEC 的)) (NP (NN 天堂)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}, 'PRN': {}}, ',': {}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'PRN': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
-----------------------------------------------------------------------
-有的人进入了房地产行业。
-
-(ROOT (IP (NP (DP (DT 有的)) (NP (NN 人))) (VP (VV 进入) (AS 了) (NP (NN 房地产) (NN 行业))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
-----------------------------------------------------------------------
-大部分资金都投资于普通银行存款。
-
-(ROOT (IP (NP (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (NN 资金))) (VP (ADVP (RB 都)) (VP (VV 投资) (PP (VV 于) (NP (NP (ADJP (JJ 普通)) (NP (NN 银行))) (NP (NN 存款)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'QP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-人民币存款的利率略高于 4%，而美元存款利率仅为 2%，再加上人民币预计将升值，这为能够将资金存入中国的人提供了一个似乎无风险的利润。
-
-(ROOT (IP (IP (NP (DNP (NP (NN 人民) (SFN 币) (NN 存款)) (DEC 的)) (NP (NN 利率))) (VP (JJ 略高) (PP (VV 于) (QP (CD 4%))))) (, ，) (RB 而) (IP (NP (NP (NNP 美) (SFN 元)) (NP (NN 存款) (NN 利率))) (VP (ADVP (RB 仅)) (VP (VC 为) (QP (CD 2%))))) (, ，) (IP (VP (ADVP (RB 再)) (VP (VV 加上) (IP (NP (NN 人民) (SFN 币)) (VP (VV 预计) (IP (VP (ADVP (RB 将)) (VP (VV 升值))))))))) (, ，) (IP (NP (PRD 这)) (VP (PP (IN 为) (NP (CP (CP (IP (VP (MD 能够) (VP (BB 将) (IP (NP (NN 资金)) (VP (VV 存入) (NP (NNP 中国))))))) (DEC 的))) (NP (NN 人)))) (VP (VV 提供) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 似乎)) (VP (VV 无) (NP (NN 风险))))) (DEC 的))) (NP (NN 利润)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'RB': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'RB': {}, 'IP': {'NP': {}, 'VP': {}, 'VP': {}, 'NP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'VP': {}, 'NP': {}}}
-----------------------------------------------------------------------
-它通过各种歪路转弯的方式进来。
-
-(ROOT (IP (NP (PRP 它)) (VP (PP (IN 通过) (NP (ADJP (DT 各种)) (CP (IP (VP (NP (NN 歪路) (VV 转弯)))) (DEC 的)) (NP (NN 方式)))) (VP (VV 进来))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-虽然有关于通过中国合作伙伴投资的传闻，但那些关心流动性的大型西方投资基金将很难将资金转移到中国，
-
-(ROOT (IP (IP (VP (ADVP (IN 虽然)) (VP (VV 有) (PP (IN 关于) (NP (CP (IP (VP (PP (IN 通过) (NP (NP (NNP 中国)) (NP (NN 合作) (NN 伙伴)))) (VP (VV 投资)))) (DEC 的)) (NP (NN 传闻))))))) (, ，) (ADVP (RB 但)) (NP (DP (DT 那些)) (CP (CP (IP (VP (VV 关心) (NP (VV 流动) (SFN 性)))) (DEC 的))) (ADJP (JJ 大型)) (NP (NNP 西方) (NN 投资) (NN 基金))) (VP (ADVP (RB 将)) (ADVP (RB 很难)) (VP (BB 将) (IP (NP (NN 资金)) (VP (VRD (VV 转移) (VV 到)) (NP (NNP 中国)))))) (, ，)))
-{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, ',': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'DP': {}, 'CP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, ',': {}}}
-{'IP': {'VP': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'DP': {}, 'CP': {}, 'ADJP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-贸易和投资为中国和外国企业提供了很大的漏洞。
-
-(ROOT (IP (NP (NN 贸易) (CC 和) (NN 投资)) (VP (PP (IN 为) (NP (NP (NNP 中国)) (CC 和) (NP (NN 外国) (NN 企业)))) (VP (VV 提供) (AS 了) (NP (CP (CP (IP (VP (JJ 很大))) (DEC 的))) (NP (NN 漏洞))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}, 'CC': {}, 'NN': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}, 'CC': {}, 'NN': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-居民个人可以使用每年 5 万美元的限额将资金从国外带入中国，许多人还会使用自己的朋友和亲戚的配额。
-
-(ROOT (IP (IP (NP (NN 居民) (NN 个人)) (VP (MD 可以) (VP (VP (VV 使用) (NP (DNP (QP (ADVP (DT 每年)) (QP (CD 5 万) (CLP (NNP 美) (CLP (NNB 元))))) (DEC 的)) (NP (NN 限额)))) (VP (BB 将) (IP (NP (NN 资金)) (VP (PP (IN 从) (NP (NN 国外))) (VP (VV 带入) (NP (NNP 中国))))))))) (, ，) (IP (NP (QP (CD 许多)) (NP (NN 人))) (VP (ADVP (RB 还)) (VP (MD 会) (VP (VV 使用) (NP (DNP (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 朋友) (CC 和) (NN 亲戚))) (DEC 的)) (NP (NN 配额))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-另一个大的漏洞是香港居民每天可以将 80,000 元人民币（11,600 美元）存入内地的银行。
-
-(ROOT (IP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 个)))) (CP (CP (IP (VP (JJ 大))) (DEC 的))) (NP (NN 漏洞))) (VP (VC 是) (IP (NP (NP (NNP 香港)) (NP (NN 居民))) (VP (NP (DT 每天)) (VP (MD 可以) (VP (BB 将) (IP (NP (QP (CD 80,000)) (NP (NNP 元人民) (SFN 币)) (PRN (-LRB- （) (QP (CD 11,600) (CLP (NNB 美元))) (-RRB- ）))) (VP (VV 存入) (NP (DNP (NP (NN 内地)) (DEC 的)) (NP (NN 银行)))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'CP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'IP': {}}}
-----------------------------------------------------------------------
-政府正在试图予以打击，但这可能会导致这种活动转移到地下货币兑换商手中。
-
-(ROOT (IP (IP (NP (NN 政府)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 试图) (IP (VP (VV 予) (NP (VV 以) (NP (NN 打击)))))))) (, ，) (IP (ADVP (RB 但)) (NP (PRD 这)) (VP (MD 可能) (VP (MD 会) (VP (VV 导致) (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 活动))) (VP (VRD (VV 转移) (VV 到)) (LCP (NP (NP (ADJP (NN 地下)) (NP (NN 货币))) (NP (VV 兑换) (SFN 商))) (NN 手中)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-如果政府加强对外商直接投资和贸易流量的监管，额外的官僚作风可能会损害实体经济。
-
-(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (NN 政府)) (VP (VV 加强) (NP (DNP (NP (NP (ADJP (JJ 对外)) (NP (SFN 商))) (NP (NP (ADJP (JJ 直接)) (NP (NN 投资))) (CC 和) (NP (NN 贸易) (NN 流量)))) (DEC 的)) (NP (NN 监管)))))) (, ，) (NP (DNP (ADJP (JJ 额外)) (DEC 的)) (NP (NN 官僚) (NN 作风))) (VP (MD 可能) (VP (MD 会) (VP (VV 损害) (NP (NN 实体) (NN 经济))))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
-----------------------------------------------------------------------
-中国需要减少破坏性资本流入的刺激，而不是阻断渠道。
-
-(ROOT (IP (NP (NNP 中国)) (VP (VP (MD 需要) (VP (VV 减少) (NP (CP (CP (IP (VP (VV 破坏) (NP (NP (ADJP (SFN 性)) (NP (NN 资本))) (NP (VV 流入))))) (DEC 的))) (NP (NN 刺激))))) (, ，) (RB 而) (VP (VC 不是) (NP (NN 阻断) (NN 渠道)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+(ROOT (IP (NP (NNP 奥巴马)) (VP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 份))) (ADJP (NN 书面)) (NP (NN 声明))) (IN 中))) (VP (VV 表示) (, ，) (IP (NP (NN 增兵)) (VP (`` “) (VC 是) (PP (IN 为了) (IP (VP (VV 稳定) (NP (CP (CP (IP (VP (ADVP (RB 不断)) (VP (VV 恶化)))) (DEC 的))) (NP (NNP 阿富汗)) (NP (NN 局势)))))) (, ，) (ADVP (RB 但)) (NP (NN 该国)) (VP (ADVP (RB 仍然)) (VP (VV 缺乏) (NP (DNP (NP (ADJP (JJ 紧急)) (NP (NN 需要))) (DEC 的)) (NP (NN 战略) (NN 关注) (EC 、) (NN 领导) (CC 和) (NN 资源))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
 {'NP': {'NNP': {}}}
-{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
-----------------------------------------------------------------------
-大量热钱流入对中国经济带来两大危害。
-
-(ROOT (IP (IP (NP (QP (JJ 大量)) (ADJP (PFA 热)) (NP (NN 钱))) (VP (VV 流入))) (VP (PP (IN 对) (NP (NP (NNP 中国)) (NP (NN 经济)))) (VP (VV 带来) (NP (QP (CD 两)) (ADJP (PFA 大)) (NP (NN 危害))))) (. 。)))
-{'IP': {'IP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
 {'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+奥巴马	表示	nsubj
+在	声明	case
+一	份	nummod
+份	声明	clf
+书面	声明	nmod
+声明	表示	obl
+中	声明	case
+表示	ROOT	root
+，	缺乏	punct
+增兵	是	nsubj
+“	是	punct
+是	缺乏	advcl
+为了	是	xcomp
+稳定	是	xcomp
+不断	恶化	advmod
+恶化	局势	acl:relcl
+的	恶化	mark:rel
+阿富汗	局势	nmod
+局势	稳定	obj
+，	是	punct
+但	缺乏	mark
+该国	缺乏	nsubj
+仍然	缺乏	advmod
+缺乏	表示	ccomp
+紧急	需要	amod
+需要	关注	nmod
+的	需要	case
+战略	关注	nmod
+关注	缺乏	obj
+、	领导	punct
+领导	关注	conj
+和	资源	cc
+资源	关注	conj
+。	缺乏	punct
+”	缺乏	punct
 ----------------------------------------------------------------------
-其中一个原因是资本可能突然外流，十年前金融危机期间，东亚其他国家和今年越南都曾经发生过这种情况。
+至少目前，奥巴马的决定让美国驻阿富汗的指挥官得到了他们要求的大部分，但并非全部的部队。
 
-(ROOT (IP (IP (NP (NP (NN 其中)) (QP (CD 一) (CLP (NNB 个))) (NP (NN 原因))) (VP (VC 是) (IP (NP (NN 资本)) (VP (MD 可能) (VP (ADVP (RB 突然)) (VP (VV 外流))))))) (, ，) (IP (NP (NP (LCP (QP (CD 十) (CLP (NNB 年))) (IN 前)) (NP (NN 金融) (NN 危机))) (NP (NN 期间))) (, ，) (NP (NP (NP (NNP 东亚)) (DP (DT 其他)) (NP (NN 国家))) (CC 和) (NP (NP (NN 今年)) (NP (NNP 越南)))) (VP (ADVP (RB 都)) (ADVP (RB 曾经)) (VP (VV 发生) (AS 过) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 情况)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+(ROOT (IP (ADVP (RB 至少)) (NP (NN 目前)) (, ，) (NP (DNP (NP (NNP 奥巴马)) (DEC 的)) (NP (NN 决定))) (VP (VP (VV 让) (NP (NP (NNP 美国)) (CP (CP (IP (VP (VV 驻) (NP (NNP 阿) (NNP 富汗)))) (DEC 的))) (NP (VV 指挥) (SFN 官))) (IP (VP (VV 得到) (AS 了) (NP (CP (CP (IP (NP (PRP 他们)) (VP (VV 要求))) (DEC 的))) (ADJP (PFA 大)) (NP (NN 部分)))))) (, ，) (VP (ADVP (RB 但)) (VP (VC 并非) (NP (DNP (DP (DT 全部)) (DEC 的)) (NP (NN 部队)))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'NP13095': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NN': {}}, ',': {}, 'NP93909': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP56134': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NN': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+至少	目前	advmod
+目前	让	nmod:tmod
+，	目前	punct
+奥巴马	决定	nmod
+的	奥巴马	case
+决定	并非	nsubj
+让	并非	advcl
+美国	官	nmod
+驻	官	amod
+阿	驻	obj
+富汗	驻	obj
+的	驻	mark:rel
+指挥	官	compound
+官	得到	nsubj
+得到	让	ccomp
+了	得到	aux
+他	要求	nsubj
+要求	部分	acl:relcl
+的	要求	mark:rel
+大	部分	case
+部分	得到	obj
+，	得到	punct
+但	并非	mark
+并非	ROOT	root
+全部	部队	det
+的	全部	case
+部队	并非	xcomp
+。	并非	punct
 ----------------------------------------------------------------------
-中国的经济由经常账户盈余和巨额储备所保护，但其银行系统将因突然撤回而受损。
+但这一决定也会给总统带来政治风险，因为他将在承诺迅速从伊拉克撤军之前，向阿富汗派遣更多的部队。
 
-(ROOT (IP (IP (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NN 经济))) (VP (PP (VV 由) (NP (NP (ADJP (JJ 经常)) (NP (NN 账户) (NN 盈余))) (CC 和) (NP (ADJP (JJ 巨额)) (NP (NN 储备))))) (VP (RB 所) (VP (VV 保护))))) (, ，) (IP (ADVP (RB 但)) (NP (NP (PRP 其)) (NP (NN 银行) (NN 系统))) (VP (ADVP (RB 将)) (PP (IN 因) (IP (VP (ADVP (RB 突然)) (VP (VV 撤回))))) (VP (RB 而) (VP (VV 受损))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+(ROOT (IP (IP (ADVP (RB 但)) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 决定))) (VP (ADVP (RB 也)) (VP (MD 会) (VP (PP (VV 给) (NP (NN 总统))) (VP (VV 带来) (NP (NN 政治) (NN 风险))))))) (, ，) (PP (IN 因为) (IP (NP (PRP 他)) (VP (ADVP (RB 将)) (PP (IN 在) (LCP (IP (VP (VV 承诺) (IP (VP (ADVP (RB 迅速)) (PP (IN 从) (NP (NNP 伊拉克))) (VP (VV 撤军)))))) (IN 之前))) (, ，) (PP (IN 向) (NP (NNP 阿富汗))) (VP (VV 派遣) (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的))) (NP (NN 部队))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
 {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+Dependency Features:
+但	给	mark
+这	决定	det
+一	决定	nummod
+决定	给	nsubj
+也	给	mark
+会	给	aux
+给	ROOT	root
+总统	带来	nsubj
+带来	给	ccomp
+政治	风险	nmod
+风险	带来	obj
+，	派遣	punct
+因为	派遣	case
+他	派遣	nsubj
+将	派遣	advmod
+在	承诺	case
+承诺	派遣	xcomp
+迅速	撤军	advmod
+从	伊拉克	case
+伊拉克	撤军	obl
+撤军	承诺	xcomp
+之前	撤军	mark
+，	承诺	punct
+向	阿富汗	case
+阿富汗	派遣	obl
+派遣	给	ccomp
+更多	部队	amod
+的	更多	mark:rel
+部队	派遣	obj
+。	给	punct
 ----------------------------------------------------------------------
-更为直接的担忧是资本流入会引发通货膨胀。
+许多专家担心阿富汗对美国来说比伊拉克更为具有挑战性，特别是邻国巴基斯坦为塔利班和基地组织的叛乱分子提供了避难所。
 
-(ROOT (IP (NP (CP (CP (IP (VP (ADVP (RB 更为)) (VP (JJ 直接)))) (DEC 的))) (NP (NN 担忧))) (VP (VC 是) (IP (NP (NN 资本) (NN 流入)) (VP (MD 会) (VP (VV 引发) (NP (NN 通货) (VV 膨胀)))))) (. 。)))
+(ROOT (IP (NP (QP (CD 许多)) (NP (NN 专家))) (VP (VV 担心) (IP (IP (NP (NNP 阿富汗)) (VP (IP (VP (PP (IN 对) (NP (NNP 美国))) (VP (RB 来) (VP (VV 说))))) (PP (IN 比) (NP (NNP 伊拉克))) (ADVP (RB 更为)) (VP (VV 具有) (NP (VV 挑战) (SFN 性))))) (, ，) (IP (ADVP (RB 特别)) (ADVP (VC 是)) (NP (NP (NN 邻国)) (NP (NNP 巴基斯坦))) (VP (PP (IN 为) (NP (DNP (NP (NNP 塔利班) (CC 和) (NN 基地) (NN 组织)) (DEC 的)) (NP (NN 叛乱) (NN 分子)))) (VP (VV 提供) (AS 了) (NP (VV 避难) (SFN 所))))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'IP': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+许多	专家	nummod
+专家	担心	nsubj
+担心	ROOT	root
+阿富汗	说	nsubj
+对	美国	case
+美国	说	obl
+来	说	mark
+说	担心	ccomp
+比	伊拉克	case
+伊拉克	具有	obl
+更为	具有	advmod
+具有	说	xcomp
+挑战	性	compound
+性	具有	obj
+，	提供	punct
+特别	提供	advmod
+是	分子	cop
+邻国	分子	nmod
+巴基斯坦	邻国	appos
+为	分子	case
+塔利班	分子	nmod
+和	组织	cc
+基地	组织	nmod
+组织	塔利班	conj
+的	塔利班	case
+叛乱	分子	nmod
+分子	提供	obl
+提供	担心	parataxis
+了	提供	aux
+避难	所	compound
+所	提供	obj
+。	担心	punct
 ----------------------------------------------------------------------
-随着外资流入，中国央行必须购买更多美元来稳定人民币，这实际上意味着印钞。
+根据奥巴马先生的计划，北卡罗莱纳州莱约纳营的一个 8000 人的海军陆战队部队将在未来几周部署，目标是在今年晚春前抵达阿富汗，政府官员表示，华盛顿州刘易斯堡的一个由 4000 名士兵组成的陆军旅将在夏天抵达。
 
-(ROOT (IP (IP (PP (VV 随) (PP (AS 着) (IP (NP (NN 外资)) (VP (VV 流入))))) (, ，) (NP (NNP 中国) (NN 央行)) (VP (MD 必须) (VP (VP (VV 购买) (NP (ADJP (JJ 更多)) (NP (NNP 美) (CLP (SFN 元))))) (VP (RB 来) (VP (VV 稳定) (NP (NN 人民) (SFN 币))))))) (, ，) (IP (NP (PRD 这)) (VP (LCP (NP (NN 实际)) (IN 上)) (VP (VV 意味) (AS 着) (NP (NN 印钞))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+(ROOT (IP (IP (PP (IN 根据) (NP (DNP (NP (NNP 奥巴马) (NN 先生)) (DEC 的)) (NP (NN 计划)))) (, ，) (NP (DNP (NP (NN 北) (NNP 卡罗莱纳) (SFN 州) (NNP 莱约纳营)) (DEC 的)) (QP (CD 一) (CLP (NNB 个))) (DNP (NP (QP (CD 8000)) (NP (NN 人))) (DEC 的)) (NP (NN 海军) (VV 陆战) (SFN 队) (NN 部队))) (VP (ADVP (RB 将)) (PP (IN 在) (QP (NP (NN 未来)) (QP (CD 几) (CLP (NNB 周))))) (VP (VV 部署)))) (, ，) (IP (NP (NN 目标)) (VP (VC 是) (VP (PP (IN 在) (LCP (NP (NN 今年) (NN 晚春)) (IN 前))) (VP (VV 抵达) (NP (NNP 阿富汗)))))) (, ，) (IP (NP (NN 政府) (NN 官员)) (VP (VV 表示) (, ，) (IP (NP (DNP (NP (NNP 华盛顿) (SFN 州) (NNP 刘) (NNP 易斯) (SFN 堡)) (DEC 的)) (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (PP (VV 由) (NP (QP (CD 4000)) (NP (NN 名士兵)))) (VP (VV 组成)))) (DEC 的))) (NP (NN 陆军) (NN 旅将))) (VP (PP (IN 在) (NP (NN 夏天))) (VP (VV 抵达)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP13620': {}, ',47027': {}, 'IP69339': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP69830': {'NP': {}, 'VP': {}}, ',52947': {}, 'IP36328': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-然后央行通过发行票据（称为“灭菌”）或提高银行的准备金要求来清理这些过剩的流动性，但这一切都使货币政策变得复杂。
-
-(ROOT (IP (IP (ADVP (RB 然后)) (NP (NN 央行)) (VP (PP (IN 通过) (IP (VP (IP (VP (VV 发行) (NP (NN 票据))) (PRN (-LRB- （) (VP (VCP (VV 称) (VC 为)) (NP (`` “) (VV 灭菌) ('' ”))) (-RRB- ）))) (CC 或) (VP (VV 提高) (NP (DNP (NP (NN 银行)) (DEC 的)) (NP (VV 准备) (SFN 金) (NN 要求))))))) (VP (RB 来) (VP (VV 清理) (NP (DP (DT 这些)) (CP (CP (IP (VP (JJ 过剩))) (DEC 的))) (NP (VV 流动) (SFN 性))))))) (, ，) (IP (ADVP (RB 但)) (NP (DP (DT 这)) (NP (DT 一切))) (VP (ADVP (RB 都)) (VP (VV 使) (NP (NN 货币) (NN 政策)) (IP (VP (VV 变得) (VP (JJ 复杂))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-中国的利率低于通货膨胀率，但人民银行担心更高的利率会吸引更多的热钱，最终加剧通货膨胀压力。
-
-(ROOT (IP (IP (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NN 利率))) (VP (JJ 低) (PP (VV 于) (NP (NN 通货) (VV 膨胀) (SFN 率))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 人民) (NN 银行)) (VP (VP (VV 担心) (IP (NP (CP (CP (IP (VP (JJ 更高))) (DEC 的))) (NP (NN 利率))) (VP (MD 会) (VP (VV 吸引) (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的))) (NP (NN 热钱))))))) (, ，) (VP (ADVP (NN 最终)) (VP (VV 加剧) (NP (NN 通货) (VV 膨胀) (NN 压力)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+根据	计划	case
+奥巴马	先生	nmod
+先生	计划	nmod
+的	先生	case
+计划	部署	obl
+，	计划	punct
+北	莱约纳营	nmod
+卡罗莱纳	州	compound
+州	莱约纳营	nmod
+莱约纳营	部队	nmod
+的	莱约纳营	case
+一	个	nummod
+个	人	clf
+8000	人	nummod
+人	部队	nmod
+的	人	mark:rel
+海军	部队	nmod
+陆战	队	compound
+队	部队	nmod
+部队	部署	nsubj
+将	部署	advmod
+在	周	case
+未来	周	nmod
+几	周	nummod
+周	部署	obl
+部署	ROOT	root
+，	是	punct
+目标	是	nsubj
+是	部署	parataxis
+在	晚春	case
+今年	晚春	nmod
+晚春	抵达	obl
+前	晚春	case
+抵达	是	xcomp
+阿富汗	抵达	obj
+，	表示	punct
+政府	官员	nmod
+官员	表示	nsubj
+表示	部署	parataxis
+，	抵达	punct
+华盛顿	州	compound
+州	堡	nmod
+刘	堡	nmod
+易斯	堡	compound
+堡	由	obj
+的	，	mark:rel
+一	个	nummod
+个	旅将	clf
+由	旅将	acl:relcl
+4000	名士兵	nummod
+名士兵	组成	nsubj
+组成	由	ccomp
+的	由	mark:rel
+陆军	旅将	nmod
+旅将	抵达	nsubj
+在	夏天	case
+夏天	抵达	obl
+抵达	表示	ccomp
+。	部署	punct
 ----------------------------------------------------------------------
-相反，中国央行试图通过让人民币兑美元升值，以每年 18% 的速度，来遏制通货膨胀。
+还将在今年夏天部署 5,000 名陆军支援部队。
 
-(ROOT (IP (ADVP (VV 相反)) (, ，) (NP (NNP 中国) (NN 央行)) (VP (VV 试图) (IP (VP (PP (VV 通过) (IP (VP (VV 让) (NP (NN 人民) (SFN 币)) (IP (VP (VP (VV 兑) (NP (NNP 美) (SFN 元))) (VP (VV 升值))))))) (, ，) (PP (VV 以) (NP (NP (DT 每年)) (DNP (QP (CD 18%)) (DEC 的)) (NP (NN 速度)))) (, ，) (VP (RB 来) (VP (VV 遏制) (NP (NN 通货) (VV 膨胀))))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'VV': {}}, ',': {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'ADVP': {'VV': {}}}
-{'NP': {'NNP': {}, 'NN': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
+(ROOT (IP (VP (ADVP (RB 还)) (ADVP (RB 将)) (PP (IN 在) (NP (NN 今年) (NN 夏天))) (VP (VV 部署) (NP (NP (QP (CD 5,000)) (NP (NNB 名陆军))) (NP (NN 支援) (NN 部队))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'ADVP': {}, 'ADVP5751': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+还	部署	mark
+将	部署	advmod
+在	夏天	case
+今年	夏天	nmod
+夏天	部署	obl
+部署	ROOT	root
+5,000	名陆军	nummod
+名陆军	部队	clf
+支援	部队	nmod
+部队	部署	obj
+。	部署	punct
 ----------------------------------------------------------------------
-但这促使投资者押注未来升值，加剧资本流入。
+即使在白宫尚未宣布这一决定之前，反战团体就已经对奥巴马先生的决定进行了批评。
 
-(ROOT (IP (ADVP (RB 但)) (NP (PRD 这)) (VP (VV 促使) (NP (VV 投资) (SFN 者)) (IP (VP (VP (VV 押注) (NP (NN 未来) (VV 升值))) (, ，) (VP (VV 加剧) (NP (NN 资本) (VV 流入)))))) (. 。)))
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'NP': {'PRD': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'PRD': {}}}
-{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
-----------------------------------------------------------------------
-4 月以来，人民币升值的速度大大减缓，这是为了阻止投机者。
-
-(ROOT (IP (IP (LCP (NP (QP (CD 4)) (NP (NNB 月))) (IN 以来)) (, ，) (NP (CP (CP (IP (NP (NN 人民) (SFN 币)) (VP (VP (VV 升值)))) (DEC 的))) (NP (NN 速度))) (VP (ADVP (RB 大大)) (VP (VV 减缓)))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (PP (IN 为了) (IP (VP (VV 阻止) (NP (VV 投机) (SFN 者))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-一些经济学家认为，热钱所造成的问题被夸大了。
-
-(ROOT (IP (NP (QP (JJ 一些)) (NP (NN 经济) (SFN 学) (SFN 家))) (VP (VV 认为) (, ，) (IP (NP (CP (CP (IP (NP (NN 热钱)) (VP (RB 所) (VP (VV 造成)))) (DEC 的))) (NP (NN 问题))) (VP (BB 被) (VP (VV 夸大) (UH 了))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'QP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-毕竟，人民银行迄今为止在对增加的储备进行灭菌方面取得了成功。
-
-(ROOT (IP (ADVP (IN 毕竟)) (, ，) (NP (NN 人民) (NN 银行)) (VP (IP (VP (PP (IN 迄) (NP (NN 今))) (VP (VC 为) (NP (NN 止))))) (PP (IN 在) (NP (IP (VP (PP (IN 对) (NP (CP (CP (IP (VP (VV 增加))) (DEC 的))) (NP (NN 储备)))) (VP (VV 进行) (NP (NN 灭菌))))) (NP (NN 方面)))) (VP (VV 取得) (AS 了) (NP (NN 成功)))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'IN': {}}, ',': {}, 'NP': {'NN': {}, 'NN': {}}, 'VP': {'IP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'IN': {}}}
-{'NP': {'NN': {}, 'NN': {}}}
-{'VP': {'IP': {}, 'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-5月份的年通货膨胀率为 7.7%，也开始下降，而上周柴油价格上涨的影响可能在未来几个月被食品价格下降所抵消。
-
-(ROOT (IP (IP (NP (DNP (NP (NP (QP (CD 5)) (NP (NNB 月))) (NP (NNB 份))) (DEC 的)) (ADJP (NNB 年)) (NP (NN 通货) (VV 膨胀) (SFN 率))) (VP (VP (VC 为) (QP (CD 7.7%))) (, ，) (VP (ADVP (RB 也)) (VP (VV 开始) (VP (VV 下降)))))) (, ，) (RB 而) (IP (NP (CP (IP (NP (ADJP (NN 上) (CLP (NN 周))) (NP (NN 柴油) (NN 价格))) (VP (VV 上涨))) (DEC 的)) (NP (NN 影响))) (VP (MD 可能) (VP (PP (IN 在) (NP (NP (NN 未来)) (QP (CD 几) (CLP (NNB 个))) (NP (NN 月)))) (VP (BB 被) (CP (IP (CP (IP (NP (NN 食品) (NN 价格)) (VP (VV 下降)))) (VP (RB 所) (VP (VV 抵消))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'RB': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'RB': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-问题在于，如果不进行筛选，货币供应量的增长将会激增，而目前筛选的能力差不多到了极限。
-
-(ROOT (IP (NP (NN 问题)) (VP (VV 在于) (, ，) (IP (IP (IP (VP (ADVP (IN 如果)) (ADVP (RB 不)) (VP (VV 进行) (NP (NN 筛选))))) (, ，) (NP (DNP (NP (NN 货币) (VV 供应) (SFN 量)) (DEC 的)) (NP (NN 增长))) (VP (ADVP (RB 将)) (VP (MD 会) (VP (VV 激增))))) (, ，) (RB 而) (IP (NP (CP (CP (IP (VP (NP (NN 目前)) (VP (VV 筛选)))) (DEC 的))) (NP (NN 能力))) (VP (VP (VV 差) (ADVP (JJ 不多))) (VP (VV 到) (AS 了) (NP (NN 极限))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-由于清偿央行票据的成本越来越高，央行现在更多地依靠提高银行准备金要求（央行向银行支付的准备金利率仅为1.9%，而票据利率超过4%）来清偿流动性。
-
-(ROOT (IP (IP (PP (IN 由于) (IP (VP (VV 清偿) (IP (NP (DNP (NP (NP (NN 央行)) (NP (NN 票据))) (DEC 的)) (NP (NN 成本))) (VP (ADVP (RB 越来越)) (VP (JJ 高))))))) (, ，) (NP (NN 央行)) (VP (NP (NN 现在)) (DVP (VP (JJ 更多)) (DEV 地)) (VP (VV 依靠) (IP (VP (VV 提高) (NP (NP (NN 银行) (VV 准备) (SFN 金)) (NP (NN 要求))))))) (PRN (-LRB- （) (IP (NP (CP (CP (IP (NP (NN 央行)) (VP (PP (IN 向) (NP (NN 银行))) (VP (VV 支付)))) (DEC 的))) (NP (NN 准备) (VV 金利) (SFN 率))) (VP (ADVP (RB 仅)) (VP (VC 为) (QP (CD 1.9%))))) (, ，) (RB 而) (IP (NP (NN 票据) (NN 利率)) (VP (VV 超过) (QP (CD 4%)))) (-RRB- ）))) (VP (RB 来) (VP (VV 清偿) (NP (VV 流动) (SFN 性)))) (. 。)))
-{'IP': {'IP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, 'PRN': {}}, 'VP': {'RB': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, 'PRN': {}}}
-{'VP': {'RB': {}, 'VP': {}}}
-----------------------------------------------------------------------
-2007年1月以来，最低准备金率已经提高了16次，从9%提高到17.5%。
-
-(ROOT (IP (LCP (NP (CD 2007) (NNB 年) (CD 1) (NNB 月)) (IN 以来)) (, ，) (NP (ADJP (JJ 最低)) (NP (VV 准备) (SFN 金率))) (VP (VP (ADVP (RB 已经)) (VP (VV 提高) (AS 了) (QP (CD 16) (CLP (NNB 次))))) (, ，) (VP (PP (IN 从) (QP (CD 9%))) (VP (VRD (VV 提高) (VV 到)) (QP (CD 17.5%))))) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'LCP': {'NP': {}, 'IN': {}}}
+(ROOT (IP (PP (ADVP (IN 即使)) (PP (IN 在) (LCP (IP (NP (NNP 白宫)) (VP (ADVP (RB 尚)) (ADVP (RB 未)) (VP (VV 宣布) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 决定)))))) (IN 之前)))) (, ，) (NP (ADJP (NN 反战)) (NP (NN 团体))) (VP (ADVP (RB 就)) (ADVP (RB 已经)) (PP (IN 对) (NP (DNP (NP (NNP 奥巴马) (NN 先生)) (DEC 的)) (NP (NN 决定)))) (VP (VV 进行) (AS 了) (NP (NN 批评)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'ADVP': {}, 'PP': {}}, ',': {}, 'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP95928': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'ADVP': {}, 'PP': {}}, ',': {}, 'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'ADVP': {}, 'PP': {}}}
 {'NP': {'ADJP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+即使	宣布	case
+在	宣布	case
+白宫	宣布	nsubj
+尚	未	advmod
+未	宣布	advmod
+宣布	进行	ccomp
+这	决定	det
+一	决定	nummod
+决定	宣布	obj
+之前	宣布	mark
+，	宣布	punct
+反战	团体	nmod
+团体	进行	nsubj
+就	进行	mark
+已经	进行	advmod
+对	决定	case
+奥巴马	先生	nmod
+先生	决定	nmod
+的	决定	case
+决定	进行	obl
+进行	ROOT	root
+了	进行	aux
+批评	进行	obj
+。	进行	punct
 ----------------------------------------------------------------------
-但是，如果不影响银行利润，它很难继续上涨。
+“总统在决定任务之前就投入了这些部队，”美国反战联盟组织负责人汤姆·安德鲁斯说。
 
-(ROOT (IP (ADVP (RB 但是)) (, ，) (IP (VP (ADVP (IN 如果)) (ADVP (RB 不)) (VP (VV 影响) (NP (NN 银行) (NN 利润))))) (, ，) (NP (PRP 它)) (VP (ADVP (RB 很难)) (VP (VV 继续) (VP (VV 上涨)))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'IP': {'VP': {}}}
+(ROOT (IP (IP (`` “) (IP (NP (NN 总统)) (VP (PP (IN 在) (LCP (IP (VP (VV 决定) (NP (NN 任务)))) (IN 之前))) (ADVP (RB 就)) (VP (VV 投入) (AS 了) (NP (DP (DT 这些)) (NP (NN 部队)))))) (, ，) ('' ”)) (NP (NP (NP (NP (NNP 美国)) (ADJP (NN 反战)) (NP (NN 联盟)) (NP (NN 组织))) (NP (VV 负责) (SFN 人))) (NP (NNP 汤姆) (/ ·))) (VP (NNP 安德鲁斯说)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, "''": {}}, 'NP': {'NP': {}, 'NP81648': {}}, 'VP': {'NNP': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, "''": {}}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'NNP': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, ',': {}, "''": {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'NNP': {}}}
+Dependency Features:
+“	投入	punct
+总统	投入	nsubj
+在	决定	case
+决定	投入	xcomp
+任务	决定	obj
+之前	决定	mark
+就	投入	mark
+投入	ROOT	root
+了	投入	aux
+这些	部队	det
+部队	投入	obj
+，	人	punct
+”	人	punct
+美国	人	nmod
+反战	人	nmod
+联盟	人	nmod
+组织	人	nmod
+负责	人	compound
+人	投入	parataxis
+汤姆	人	appos
+·	安德鲁斯说	punct
+安德鲁斯说	汤姆	flat:name
+。	投入	punct
+----------------------------------------------------------------------
+“我们需要避免军事升级的滑坡。”
+
+(ROOT (IP (`` “) (NP (PRP 我们)) (VP (MD 需要) (VP (VV 避免) (NP (DNP (NP (NN 军事) (VV 升级)) (DEC 的)) (NP (NN 滑坡))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}, "''": {}}}
 {'NP': {'PRP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-因此，为了遏制未来的通货膨胀，中国需要遏制资本涌入。
-
-(ROOT (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (PP (IN 为了) (IP (VP (VV 遏制) (NP (DNP (NP (NN 未来)) (DEC 的)) (NP (NN 通货) (VV 膨胀)))))) (, ，) (NP (NNP 中国)) (VP (MD 需要) (VP (VV 遏制) (NP (NN 资本) (VV 涌入)))) (. 。)))
-{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'IN': {}}, 'ADVP': {'PRD': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'IN': {}}}
-{'ADVP': {'PRD': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
-{'NP': {'NNP': {}}}
 {'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+“	避免	punct
+我	避免	nsubj
+需要	避免	aux
+避免	ROOT	root
+军事	升级	obl
+升级	滑坡	acl:relcl
+的	升级	mark:rel
+滑坡	避免	obj
+。	避免	punct
+”	避免	punct
 ----------------------------------------------------------------------
-一种解决方案是大幅一次性升值人民币，这样投资者就不再认为人民币是一种单向投资了。
+奥巴马在声明中说：“我们有责任在伊拉克削减军力，这样我们就有了增加阿富汗派驻人数的灵活性。”
 
-(ROOT (IP (IP (NP (QP (CD 一) (CLP (NNB 种))) (NP (NN 解决) (NN 方案))) (VP (VC 是) (IP (VP (QP (ADVP (JJ 大幅)) (QP (CD 一) (CLP (NNB 次)))) (ADVP (NN 性)) (VP (VV 升值) (NP (NN 人民) (SFN 币))))))) (, ，) (IP (ADVP (RB 这样)) (NP (VV 投资) (SFN 者)) (VP (ADVP (RB 就)) (ADVP (RB 不)) (ADVP (RB 再)) (VP (VV 认为) (IP (NP (NN 人民) (SFN 币)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (ADJP (RB 单向)) (NP (VV 投资))))))) (UH 了)) (. 。)))
+(ROOT (IP (NP (NNP 奥巴马)) (VP (PP (IN 在) (LCP (NP (NN 声明)) (IN 中))) (VP (VV 说) (: ：) (IP (`` “) (IP (NP (PRP 我们)) (VP (VP (VV 有) (NP (NN 责任))) (VP (PP (VV 在) (NP (NNP 伊拉克))) (VP (VV 削减) (NP (NN 军力)))))) (, ，) (IP (ADVP (PRD 这样)) (NP (PRP 我们)) (VP (ADVP (RB 就)) (VP (VV 有) (AS 了) (NP (CP (IP (VP (VV 增加) (NP (NP (NNP 阿富汗)) (ADJP (NN 派驻)) (NP (NN 人数))))) (DEC 的)) (NP (JJ 灵活) (SFN 性))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+奥巴马	说	nsubj
+在	声明	case
+声明	说	obl
+中	声明	case
+说	ROOT	root
+：	有	punct
+“	有	punct
+我	有	nsubj
+有	有	advcl
+责任	在	obj
+在	削减	advcl
+伊拉克	在	obj
+削减	有	ccomp
+军力	削减	obj
+，	有	punct
+这样	有	obl
+我	有	nsubj
+就	有	mark
+有	说	ccomp
+了	有	aux
+增加	性	acl:relcl
+阿富汗	人数	nmod
+派驻	人数	nmod
+人数	增加	obj
+的	增加	mark:rel
+灵活	性	compound
+性	有	obj
+。	有	punct
+”	有	punct
+----------------------------------------------------------------------
+美国驻阿富汗的将领一直在敦促在今年春季晚些时候或者早些时候部署更多的部队，以帮助应对该国日益严重的暴力和混乱。
+
+(ROOT (IP (NP (NP (NNP 美国)) (CP (CP (IP (VP (VV 驻) (NP (NNP 阿) (NNP 富汗)))) (DEC 的))) (NP (NN 将领))) (VP (ADVP (RB 一直)) (ADVP (RB 在)) (VP (VV 敦促) (IP (VP (VP (PP (PP (IN 在) (NP (NP (NN 今年) (NN 春季)) (ADJP (NN 晚些)) (NP (NN 时候)))) (CC 或者) (NP (ADJP (JJ 早些)) (NP (NN 时候)))) (VP (VV 部署) (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的))) (NP (NN 部队))))) (, ，) (VP (RB 以) (VP (VV 帮助) (IP (VP (VV 应对) (NP (NP (NN 该国)) (CP (CP (IP (VP (ADVP (RB 日益)) (VP (JJ 严重)))) (DEC 的))) (NP (NN 暴力) (CC 和) (NN 混乱))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'CP': {}, 'NP34314': {}}, 'VP': {'ADVP': {}, 'ADVP29775': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'CP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+美国	将领	nmod
+驻	将领	acl:relcl
+阿	驻	obj
+富汗	驻	obj
+的	驻	mark:rel
+将领	帮助	nsubj
+一直	敦促	advmod
+在	敦促	advmod
+敦促	帮助	advcl
+在	时候	case
+今年	时候	nmod
+春季	时候	nmod
+晚些	时候	nmod
+时候	部署	obl
+或者	时候	cc
+早些	时候	amod
+时候	时候	conj
+部署	帮助	advcl
+更多	部队	amod
+的	更多	mark:rel
+部队	部署	obj
+，	部署	punct
+以	帮助	mark
+帮助	ROOT	root
+应对	帮助	xcomp
+该国	暴力	nmod
+日益	严重	advmod
+严重	暴力	amod
+的	严重	mark:rel
+暴力	应对	obj
+和	混乱	cc
+混乱	暴力	conj
+。	帮助	punct
+----------------------------------------------------------------------
+在指挥官最初要求的30,000 名额外部队中，约有 6,000 人在布什总统的授权下于 1 月份抵达。
+
+(ROOT (IP (PP (IN 在) (LCP (NP (CP (CP (IP (NP (VV 指挥) (SFN 官)) (VP (ADVP (NN 最初)) (VP (VV 要求)))) (DEC 的))) (NP (QP (CD 30,000)) (NP (NN 名额))) (NP (NN 外部) (SFN 队))) (IN 中))) (, ，) (VP (ADVP (RB 约)) (VP (VV 有) (IP (LCP (NP (DNP (NP (QP (CD 6,000)) (NP (NNP 人在布什)) (NP (NN 总统))) (DEC 的)) (NP (NN 授权))) (IN 下)) (VP (PP (IN 于) (NP (QP (CD 1)) (NP (NNB 月份)))) (VP (VV 抵达)))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+在	队	case
+指挥	官	compound
+官	要求	nsubj
+最初	要求	nmod:tmod
+要求	队	acl:relcl
+的	要求	mark:rel
+30,000	名额	nummod
+名额	队	nmod
+外部	队	compound
+队	抵达	obl
+中	队	case
+，	队	punct
+约	有	advmod
+有	抵达	advcl
+6,000	总统	nummod
+人在布什	总统	nmod
+总统	授权	nmod
+的	总统	case
+授权	抵达	obl
+下	授权	case
+于	月份	case
+1	月份	nummod
+月份	抵达	obl
+抵达	ROOT	root
+。	抵达	punct
+----------------------------------------------------------------------
+政府对阿富汗政策的审查应该在奥巴马先生四月初前往欧洲参加北约峰会之前完成，在那次峰会上，他将呼吁美国盟国在阿富汗派遣更多的军队和人员。
+
+(ROOT (IP (IP (NP (NP (NN 政府)) (DNP (PP (IN 对) (NP (NP (NNP 阿富汗)) (NP (NN 政策)))) (DEC 的)) (NP (NN 审查))) (VP (MD 应该) (VP (PP (IN 在) (LCP (IP (NP (NNP 奥巴马) (NN 先生)) (VP (LCP (NP (QP (CD 四)) (NP (NNB 月))) (IN 初)) (VP (VP (VV 前往) (NP (NNP 欧洲))) (VP (VV 参加) (NP (NNP 北约) (SFN 峰) (SFN 会)))))) (IN 之前))) (VP (VV 完成))))) (, ，) (IP (PP (IN 在) (LCP (NP (DP (DT 那) (CLP (NNB 次))) (NP (NN 峰) (SFN 会))) (IN 上))) (, ，) (NP (PRP 他)) (VP (ADVP (RB 将)) (VP (VV 呼吁) (NP (NP (NNP 美国)) (NP (NN 盟国))) (IP (VP (PP (VV 在) (NP (NNP 阿富汗))) (VP (VV 派遣) (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的))) (NP (NN 军队) (CC 和) (NN 人员))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP89439': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'UH': {}}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP33511': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'UH': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+政府	审查	nmod
+对	审查	case
+阿富汗	政策	nmod
+政策	审查	nmod
+的	审查	case
+审查	完成	nsubj
+应该	完成	aux
+在	月	case
+奥巴马	月	nmod
+先生	月	nmod
+四	月	nummod
+月	参加	obl
+初	月	case
+前往	参加	advcl
+欧洲	前往	obj
+参加	完成	advcl
+北约	峰	compound
+峰	会	compound
+会	参加	obj
+之前	参加	mark
+完成	ROOT	root
+，	呼吁	punct
+在	会	case
+那	次	det
+次	会	nmod
+峰	会	compound
+会	呼吁	obl
+上	会	case
+，	会	punct
+他	呼吁	nsubj
+将	呼吁	advmod
+呼吁	完成	parataxis
+美国	盟国	nmod
+盟国	派遣	nsubj
+在	派遣	advcl
+阿富汗	在	obj
+派遣	呼吁	ccomp
+更多	军队	amod
+的	更多	mark:rel
+军队	派遣	obj
+和	人员	cc
+人员	军队	conj
+。	完成	punct
 ----------------------------------------------------------------------
-这反过来又为人民银行提供了上调利率的空间。
+在周二接受加拿大广播公司采访时，奥巴马表示，“我完全相信，你不能只靠军事手段，来解决阿富汗问题，解决塔利班问题，解决该地区极端主义蔓延的问题。”
 
-(ROOT (IP (NP (PRD 这)) (VP (IP (VP (VRD (VV 反) (VV 过来)))) (ADVP (RB 又)) (PP (IN 为) (NP (NN 人民) (NN 银行))) (VP (VV 提供) (AS 了) (NP (CP (IP (VP (VP (NN 上调) (NP (NN 利率))))) (DEC 的)) (NP (NN 空间))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRD': {}}, 'VP': {'IP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRD': {}}}
-{'VP': {'IP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-问题在于，要改变投资者的预期，人民币可能需要上涨大约 20%，这对中国领导人来说是不可接受的，尤其是当全球需求放缓，一些出口商已经陷入困境。
-
-(ROOT (IP (NP (NN 问题)) (VP (VV 在) (PP (VV 于) (, ，) (IP (IP (IP (VP (MD 要) (VP (VV 改变) (NP (DNP (NP (VV 投资) (SFN 者)) (DEC 的)) (NP (NN 预期)))))) (, ，) (NP (NN 人民) (SFN 币)) (VP (MD 可能) (VP (MD 需要) (VP (VV 上涨) (QP (ADVP (RB 大约)) (QP (CD 20%))))))) (, ，) (IP (NP (PRD 这)) (VP (IP (VP (PP (IN 对) (NP (NP (NNP 中国)) (NP (VV 领导) (SFN 人)))) (VP (RB 来) (VP (VV 说))))) (VP (VC 是) (NP (CP (CP (IP (VP (MD 不可) (VP (VV 接受)))) (UH 的))))))) (, ，) (IP (ADVP (RB 尤其)) (ADVP (VC 是)) (PP (IN 当) (IP (NP (NN 全球) (NN 需求)) (VP (VV 放缓)))) (, ，) (NP (QP (JJ 一些)) (NP (VV 出口) (SFN 商))) (VP (ADVP (RB 已经)) (VP (VV 陷入) (NP (NN 困境)))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'VV': {}, 'PP': {}}}
-----------------------------------------------------------------------
-这意味着货币政策将保持过度宽松的状态。
-
-(ROOT (IP (NP (PRD 这)) (VP (VV 意味) (AS 着) (IP (NP (NN 货币) (NN 政策)) (VP (ADVP (RB 将)) (VP (VV 保持) (NP (CP (IP (VP (ADVP (JJ 过度)) (VP (JJ 宽松)))) (DEC 的)) (NP (NN 状态))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRD': {}}, 'VP': {'VV': {}, 'AS': {}, 'IP': {}}, '.': {}}}
-{'NP': {'PRD': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'IP': {}}}
-----------------------------------------------------------------------
-随着热钱的涌入持续时间越长，利率依然过低，潜在通胀的风险就越大。
-
-(ROOT (IP (PP (VV 随) (PP (AS 着) (IP (IP (NP (CP (IP (NP (DNP (NP (NN 热钱)) (DEC 的)) (NP (NN 涌入))) (VP (NN 持续)))) (NP (NN 时间))) (VP (JJ 越长))) (, ，) (IP (NP (NN 利率)) (VP (ADVP (RB 依然)) (VP (JJ 过低)))) (, ，) (IP (NP (CP (IP (VP (VV 潜在) (NP (NN 通胀)))) (DEC 的)) (NP (NN 风险))) (VP (ADVP (RB 就)) (VP (JJ 越大))))))) (. 。)))
-{'IP': {'PP': {}, '.': {}}}
-{'IP': {'PP': {'VV': {}, 'PP': {}}, '.': {}}}
-{'PP': {'VV': {}, 'PP': {}}}
+(ROOT (IP (LCP (IP (VP (PP (IN 在) (NP (NNP 周) (NNP 二))) (VP (VV 接受) (IP (NP (NNP 加拿大) (NN 广播) (NN 公司)) (VP (VV 采访)))))) (IN 时)) (, ，) (NP (NNP 奥巴马)) (VP (VV 表示) (, ，) (IP (`` “) (NP (PRP 我)) (VP (ADVP (RB 完全)) (VP (VV 相信) (, ，) (IP (NP (PRP 你)) (VP (MD 不能) (VP (ADVP (RB 只)) (PP (IN 靠) (NP (NN 军事) (NN 手段))) (, ，) (VP (RB 来) (VP (VP (VV 解决) (NP (NP (NNP 阿富汗)) (NP (NN 问题)))) (, ，) (VP (VV 解决) (NP (NP (NNP 塔利班)) (NP (NN 问题)))) (, ，) (VP (VV 解决) (NP (CP (IP (NP (NP (DP (DT 该)) (NP (NN 地区))) (ADJP (JJ 极端)) (NP (NN 主义))) (VP (VV 蔓延))) (DEC 的)) (NP (NN 问题))))))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'LCP': {'IP': {}, 'IN': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+在	周	case
+周	接受	nsubj
+二	周	flat:name
+接受	采访	advcl
+加拿大	公司	nmod
+广播	公司	nmod
+公司	接受	obj
+采访	表示	ccomp
+时	采访	mark
+，	采访	punct
+奥巴马	表示	nsubj
+表示	ROOT	root
+，	解决	punct
+“	解决	punct
+我	相信	nsubj
+完全	相信	advmod
+相信	解决	advcl
+，	相信	punct
+你	解决	nsubj
+能	解决	aux
+只	解决	advmod
+靠	手段	case
+军事	手段	nmod
+手段	解决	obl
+，	手段	punct
+来	解决	mark
+解决	解决	advcl
+阿富汗	问题	nmod
+问题	解决	obj
+，	解决	punct
+解决	解决	advcl
+塔利班	问题	nmod
+问题	解决	obj
+，	解决	punct
+解决	表示	ccomp
+该	主义	det
+地区	主义	nmod
+极端	主义	amod
+主义	蔓延	nsubj
+蔓延	问题	acl:relcl
+的	蔓延	mark:rel
+问题	解决	obj
+。	解决	punct
+”	解决	punct
 ----------------------------------------------------------------------

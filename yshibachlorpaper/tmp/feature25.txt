@@ -1,143 +1,3403 @@
-周四上午，乘坐飞机的乘客在伦敦希斯罗机场的跑道上一定会好奇，究竟发生了什么问题。
+五个值得关注的国家
 
-(ROOT (IP (IP (NP (NN 周四) (NN 上午)) (, ，) (NP (CP (CP (IP (VP (VV 乘坐) (NP (ADJP (VV 飞)) (NP (SFN 机))))) (DEC 的))) (NP (NN 乘客))) (VP (PP (VV 在) (LCP (NP (DNP (NP (NNP 伦敦) (NNP 希斯罗) (NN 机场)) (DEC 的)) (NP (NN 跑道))) (NN 上))) (ADVP (RB 一定)) (VP (MD 会) (VP (JJ 好奇))))) (, ，) (IP (VP (ADVP (RB 究竟)) (VP (VV 发生) (AS 了) (NP (DP (WP 什么)) (NP (NN 问题)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}}}
-----------------------------------------------------------------------
-天空上的天空是干净的蓝色，但英国政府却关闭了整个领空，在五个机场停飞所有航班，扰乱了数十万旅客的行程，包括那些旅程起点在欧洲、北美以外地区，只经停希思罗机场（欧洲最繁忙的机场，也是一个每天处理 1200 多个航班和 18 万余名乘客的主要国际枢纽）的旅客。
-
-(ROOT (IP (IP (NP (DNP (LCP (NP (NN 天空)) (NN 上)) (DEC 的)) (NP (NN 天空))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 干净))) (DEC 的))) (NP (NN 蓝色))))) (, ，) (IP (ADVP (RB 但)) (NP (NP (NNP 英国)) (NP (NN 政府))) (VP (ADVP (RB 却)) (VP (VV 关闭) (AS 了) (NP (DP (DT 整个)) (NP (NN 领空)))))) (, ，) (IP (VP (VP (PP (VV 在) (NP (QP (CD 五) (CLP (NNB 个))) (NP (NN 机场)))) (VP (VV 停飞) (NP (DP (DT 所有)) (NP (NN 航班))))) (, ，) (VP (VV 扰乱) (AS 了) (NP (DNP (NP (QP (CD 数十万)) (NP (NN 旅客))) (DEC 的)) (NP (NN 行程)))))) (, ，) (IP (VP (VV 包括) (NP (NP (DP (DT 那些)) (NP (NN 旅程) (NN 起点))) (CP (CP (IP (VP (PP (VV 在) (NP (LCP (NP (NNP 欧洲) (EC 、) (NN 北) (NNP 美)) (IN 以外)) (NP (NN 地区)))) (, ，) (VP (ADVP (RB 只)) (VP (VV 经停) (NP (NNP 希思罗) (NN 机场)))) (PRN (-LRB- （) (NP (CP (CP (IP (VP (NP (NNP 欧洲)) (ADVP (RB 最)) (VP (JJ 繁忙)))) (DEC 的))) (NP (NN 机场))) (, ，) (VP (VC 也是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (NP (DT 每天)) (VP (VV 处理) (NP (NP (QP (CD 1200) (QP (CD 多) (CLP (NNB 个)))) (NP (NN 航班))) (CC 和) (NP (QP (QP (CD 18)) (QP (CD 万余) (CLP (NNB 名)))) (NP (NN 乘客))))))) (DEC 的))) (ADJP (JJ 主要)) (NP (NN 国际) (NN 枢纽)))) (-RRB- ）)))) (DEC 的))) (NP (NN 旅客))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-西欧和斯堪的纳维亚大部分地区的机场也关闭。
-
-(ROOT (IP (NP (DNP (NP (NP (NNP 西欧) (CC 和) (NNP 斯堪) (DEC 的) (NNP 纳维亚)) (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (NN 地区))) (DEC 的)) (NP (NN 机场))) (VP (ADVP (RB 也)) (VP (VV 关闭))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-“当时太阳正在升起，天空看起来正常，”纽约市的莱哈·希弗顿说，她从约翰·甘迺迪国际机场飞往希思罗机场的航班是在天空关闭前最后一架降落的航班。“从地面上看，你根本看不出什么问题。”
-
-(ROOT (IP (IP (`` “) (IP (NP (NN 当时)) (NP (NN 太阳)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 升起)))) (, ，) (IP (NP (NN 天空)) (VP (VRD (VV 看) (VV 起来)) (VP (JJ 正常)))) (, ，) ('' ”)) (NP (DNP (NP (NNP 纽约) (SFN 市)) (DEC 的)) (NP (NNP 莱哈) (/ ·) (NNP 希弗顿))) (VP (VV 说) (, ，) (IP (NP (CP (CP (IP (NP (PRP 她)) (VP (PP (IN 从) (NP (NNP 约翰) (/ ·) (NNP 甘迺迪) (NN 国际) (NN 机场))) (VP (VV 飞往) (NP (NNP 希思罗) (NN 机场))))) (DEC 的))) (NP (NN 航班))) (VP (VC 是) (NP (PP (VV 在) (LCP (IP (NP (NN 天空)) (VP (VV 关闭))) (IN 前))) (QP (ADJP (NN 最后)) (QP (CD 一) (CLP (NNB 架)))) (CP (CP (IP (VP (VV 降落))) (DEC 的))) (NP (NN 航班)))))) (. 。)))
-{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, "''": {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, "''": {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-乘客们看不到的是冰岛埃亚菲亚特拉峰会火山喷发，这座火山距离英国有 621 英里（1000 公里）的距离，周二晚上喷发出一股有毒的灰尘浓烟。
-
-(ROOT (IP (IP (NP (CP (CP (IP (NP (NN 乘客) (SFN 们)) (VP (VRD (VV 看) (VV 不到)))) (DEC 的)))) (VP (VC 是) (IP (NP (NNP 冰岛) (NNP 埃亚菲亚特拉峰)) (VP (SFN 会) (NP (NN 火山)) (VP (VV 喷发)))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 座))) (NP (NN 火山))) (VP (IN 距离) (NP (NNP 英国)) (VP (VV 有) (NP (DNP (QP (CD 621) (CLP (NNB 英里)) (PRN (-LRB- （) (QP (CD 1000) (CLP (NNB 公里))) (-RRB- ）))) (DEC 的)) (NP (NN 距离)))))) (, ，) (IP (VP (NP (NN 周) (QP (CD 二)) (NP (NN 晚上))) (VP (VRD (VV 喷发) (VV 出)) (NP (QP (CD 一) (CLP (NNB 股))) (CP (CP (IP (VP (JJ 有毒))) (DEC 的))) (NP (NN 灰尘) (NN 浓烟)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-周三，主要风向将灰烬吹到欧洲大部分地区，尽管灰烬高度（高达 36000 英尺）和分散程度太高，不易见到，但仍对航空旅行造成严重威胁。
-
-(ROOT (IP (IP (NP (NN 周三)) (, ，) (NP (ADJP (JJ 主要)) (NP (SFN 风) (VV 向))) (VP (BB 将) (IP (NP (NN 灰烬)) (VP (VV 吹到) (NP (NP (NNP 欧洲)) (ADJP (PFA 大)) (QP (NN 部分)) (NP (NN 地区))))))) (, ，) (IP (CP (ADVP (IN 尽管)) (IP (NP (NP (NN 灰烬) (NN 高度) (PRN (-LRB- （) (VP (VV 高达) (QP (CD 36000) (CLP (NNB 英尺)))) (-RRB- ）))) (CC 和) (NP (JJ 分散) (NN 程度))) (VP (JJ 太高)))) (, ，) (VP (ADVP (RB 不易)) (VP (VV 见到))) (, ，) (ADVP (RB 但)) (VP (ADVP (RB 仍)) (PP (IN 对) (NP (NN 航空) (NN 旅行))) (VP (VV 造成) (NP (ADJP (JJ 严重)) (NP (NN 威胁)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'CP': {}, ',': {}, 'VP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'CP': {}, ',': {}, 'VP': {}, ',': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-火山灰由二氧化硫、二氧化碳和氟化氢等组成，还有细小的二氧化硅颗粒，可能不会阻挡飞行员的视线，但其中的化学物质可能会损坏机舱内的敏感航空发动机。它还可能会堵塞飞机的通风孔，导致发动机停止运行。
-
-(ROOT (IP (IP (NP (NN 火山) (SFN 灰)) (VP (VP (PP (IN 由) (NP (NP (QP (CD 二)) (NP (VV 氧化)) (NP (SFN 硫))) (EC 、) (NP (NP (QP (CD 二)) (NP (VV 氧化))) (NP (SFN 碳))) (CC 和) (NP (NN 氟) (SFN 化) (SFN 氢)) (NN 等))) (VP (VV 组成))) (, ，) (VP (ADVP (RB 还)) (VP (VV 有) (NP (CP (CP (IP (VP (JJ 细小))) (DEC 的))) (NP (QP (CD 二)) (NP (VV 氧化))) (NP (SFN 硅) (SFN 颗) (NN 粒))))))) (, ，) (IP (VP (MD 可能) (VP (MD 不会) (VP (VV 阻挡) (NP (DNP (NP (VV 飞行) (SFN 员)) (DEC 的)) (NP (NN 视线))))))) (, ，) (IP (ADVP (RB 但)) (NP (DNP (NP (NN 其中)) (DEC 的)) (NP (NN 化学) (NN 物质))) (VP (MD 可能) (VP (MD 会) (VP (VV 损坏) (NP (DNP (LCP (NP (NN 机) (SFN 舱)) (NN 内)) (DEC 的)) (ADJP (JJ 敏感)) (NP (NN 航空) (VV 发动) (SFN 机))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这种威胁有多严重？它可能会致命：
-
-(ROOT (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 威胁))) (VP (VV 有) (VP (ADVP (RB 多)) (VP (JJ 严重)))) (. ？)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'VP': {}}}
-----------------------------------------------------------------------
-1982 年，一架英国航空公司从吉隆坡飞往澳大利亚珀斯的航班，飞过刚喷出的印尼火山灰云。飞机的每个发动机都一个个关闭，飞机开始向地面掉头。
-
-(ROOT (IP (NP (CD 1982) (NNB 年)) (, ，) (NP (QP (CD 一) (CLP (NNB 架))) (NP (NNP 英国) (NN 航空) (NN 公司))) (VP (VP (PP (IN 从) (NP (NNP 吉隆坡))) (VP (VV 飞往) (NP (DNP (NP (NNP 澳大利亚) (NNP 珀斯)) (DEC 的)) (NP (NN 航班))))) (, ，) (VP (VV 飞过) (NP (CP (CP (IP (VP (ADVP (RB 刚)) (VP (VV 喷出)))) (DEC 的))) (NP (NNP 印尼)) (NP (NN 火山)) (NP (NN 灰云))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}}}
-{'NP': {'QP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-只有飞行员成功降低飞机的高度，避开熔岩云，发动机才能清除灰尘，飞机才能在雅加达紧急着陆。
-
-(ROOT (IP (NP (ADVP (IN 只有)) (IP (IP (NP (VV 飞行) (SFN 员)) (VP (VP (ADVP (RB 成功)) (VP (VV 降低) (NP (DNP (NP (NN 飞机)) (DEC 的)) (NP (NN 高度))))) (, ，) (VP (VV 避开) (NP (NN 熔岩) (SFN 云))))) (, ，) (IP (NP (VV 发动) (SFN 机)) (VP (MD 才能) (VP (VV 清) (VP (VV 除) (NP (NN 灰尘)))))))) (, ，) (NP (NN 飞机)) (VP (MD 才能) (VP (PP (VV 在) (NP (NNP 雅加达))) (ADVP (RB 紧急)) (VP (VV 着陆)))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'NP': {'ADVP': {}, 'IP': {}}}
+(ROOT (NP (QP (CD 五) (CLP (NNB 个))) (CP (CP (IP (VP (VV 值得) (NP (VV 关注)))) (DEC 的))) (NP (NN 国家))))
+layer 2:
+{'NP': {'QP': {}, 'CP': {}, 'NP': {}}}
+{'NP': {'QP': {}, 'CP': {}, 'NP': {}}}
+layer 3:
+{'NP': {'QP': {'CD': {}, 'CLP': {}}, 'CP': {'CP': {}}, 'NP': {'NN': {}}}}
+{'NP': {'QP': {'CD': {}, 'CLP': {}}, 'CP': {'CP': {}}, 'NP': {'NN': {}}}}
+{'QP': {'CD': {}, 'CLP': {}}}
+{'CP': {'CP': {}}}
 {'NP': {'NN': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+五	个	nummod
+个	国家	clf
+值得	国家	acl:relcl
+关注	值得	xcomp
+的	值得	mark:rel
+国家	ROOT	root
 ----------------------------------------------------------------------
-英国空域将于周五早上 7 点至少关闭所有非紧急航班，当时，当局希望灰烬烟囱将被主要风向吹走。
+2000 年 5 月，《经济学人》杂志宣称非洲是“一片无望的大陆”。
 
-(ROOT (IP (IP (NP (NP (NNP 英国)) (NP (NN 空域))) (VP (ADVP (RB 将)) (PP (IN 于) (QP (NP (NN 周) (CD 五) (NN 早上)) (QP (CD 7) (CLP (NNB 点))))) (ADVP (RB 至少)) (VP (VV 关闭) (NP (DP (DT 所有)) (ADJP (VC 非)) (ADJP (JJ 紧急)) (NP (NN 航班)))))) (, ，) (IP (NP (NN 当时)) (, ，) (NP (NN 当局)) (VP (VV 希望) (IP (NP (NN 灰烬) (NN 烟囱)) (VP (ADVP (RB 将)) (VP (BB 被) (CP (IP (NP (ADJP (JJ 主要)) (NP (SFN 风) (VV 向))) (VP (VV 吹走))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+(ROOT (IP (NP (CD 2000) (NNB 年 5) (NNB 月)) (, ，) (NP (NP (-LRB- 《) (NN 经济) (SFN 学) (SFN 人) (-RRB- 》)) (NP (NN 杂志))) (VP (VV 宣称) (IP (NP (NNP 非洲)) (VP (VC 是) (NP (`` “) (CP (CP (IP (VP (QP (CD 一) (CLP (NNB 片))) (VP (JJ 无望)))) (DEC 的))) (NP (NN 大陆)) ('' ”))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP49795': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}, 'NNB24321': {}}, ',': {}, 'NP78644': {'NP': {}, 'NP23031': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}, 'NNB': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}, 'NNB': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+2000	年 5	nummod
+年 5	月	nummod
+月	宣称	nmod:tmod
+，	月	punct
+《	人	punct
+经济	学	compound
+学	人	compound
+人	宣称	nsubj
+》	人	punct
+杂志	人	appos
+宣称	ROOT	root
+非洲	大陆	nsubj
+是	大陆	cop
+“	大陆	punct
+一	片	nummod
+片	大陆	clf
+无望	大陆	amod
+的	无望	mark:rel
+大陆	宣称	ccomp
+”	大陆	punct
+。	宣称	punct
 ----------------------------------------------------------------------
-但是如果冰岛的火山持续喷发（过去曾发生过这种情况），新的云层可能会产生，进一步破坏整个北大西洋地区的航空旅行。
+十一年后的 2011 年，它将非洲称为“充满希望的大陆”。
 
-(ROOT (IP (ADVP (RB 但是)) (CP (ADVP (IN 如果)) (IP (NP (DNP (NP (NNP 冰岛)) (DEC 的)) (NP (NN 火山))) (VP (VV 持续) (VP (VV 喷发))) (PRN (-LRB- （) (IP (VP (NP (NN 过去)) (ADVP (RB 曾)) (VP (VV 发生) (AS 过) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 情况)))))) (-RRB- ）)))) (, ，) (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 云层))) (VP (VP (MD 可能) (VP (MD 会) (VP (VV 产生)))) (, ，) (VP (VV 进) (QP (CD 一) (CLP (NN 步))) (VP (VV 破坏) (NP (DNP (NP (DP (DT 整个)) (NP (NN 北) (NNP 大西) (SFN 洋)) (NP (NN 地区))) (DEC 的)) (NP (NN 航空) (NN 旅行)))))) (. 。)))
-{'IP': {'ADVP': {}, 'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-1821 年埃亚夫雅勒火山上一次喷发时，它持续活跃了一整年。
-
-(ROOT (IP (LCP (IP (NP (CD 1821)) (NP (NP (NNP 年埃亚夫雅勒)) (NP (NN 火山))) (VP (DP (NN 上) (QP (CD 一) (CLP (NNB 次)))) (VP (VV 喷发)))) (IN 时)) (, ，) (NP (PRP 它)) (VP (RB 持续) (VP (VV 活跃) (AS 了) (QP (CD 一) (CLP (ADJP (NNB 整)) (CLP (NNB 年)))))) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'RB': {}, 'VP': {}}, '.': {}}}
-{'LCP': {'IP': {}, 'IN': {}}}
+(ROOT (IP (NP (DNP (LCP (QP (CD 十一) (CLP (NNB 年))) (IN 后)) (DEC 的)) (NP (CD 2011) (NNB 年))) (, ，) (NP (PRP 它)) (VP (BB 将) (IP (NP (NNP 非洲)) (VP (VCP (VV 称) (VC 为)) (NP (`` “) (CP (CP (IP (VP (VV 充满) (NP (NN 希望)))) (DEC 的))) (NP (NN 大陆)) ('' ”))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP65598': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, ',': {}, 'NP91033': {'PRP': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
 {'NP': {'PRP': {}}}
-{'VP': {'RB': {}, 'VP': {}}}
+{'VP': {'BB': {}, 'IP': {}}}
+Dependency Features:
+十一	年	nummod
+年	年	nmod
+后	年	case
+的	年	case
+2011	年	nummod
+年	称	nmod:tmod
+，	年	punct
+它	称	nsubj
+将	非洲	case
+非洲	称	obl:patient
+称	ROOT	root
+为	称	mark
+“	大陆	punct
+充满	大陆	acl:relcl
+希望	充满	obj
+的	充满	mark:rel
+大陆	称	obj
+”	大陆	punct
+。	称	punct
 ----------------------------------------------------------------------
-更可怕的是，这次事件可能会引发附近的卡特拉火山喷发，这个火山的威力更大。
+2012 年 10 月 20 日，该杂志称：“近年来，投资者如同昔日的法兰克福和东京一样，纷纷涌入拉各斯和内罗毕。”
 
-(ROOT (IP (NP (CP (CP (IP (VP (ADVP (RB 更)) (VP (JJ 可怕)))) (DEC 的)))) (VP (VC 是) (, ，) (IP (IP (NP (DP (DT 这) (CLP (NNB 次))) (NP (NN 事件))) (VP (MD 可能) (VP (MD 会) (VP (VV 引发) (IP (NP (DNP (NP (NN 附近)) (DEC 的)) (NP (NNP 卡特拉) (NN 火山))) (VP (VV 喷发))))))) (, ，) (IP (NP (DNP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 火山))) (DEC 的)) (NP (NN 威力))) (VP (JJ 更大))))) (. 。)))
+(ROOT (IP (NP (CD 2012) (NNB 年 10) (CD 月 20) (NNB 日)) (, ，) (NP (DP (DT 该)) (NP (NN 杂志))) (VP (VV 称) (: ：) (IP (`` “) (LCP (NP (NN 近年)) (IN 来)) (, ，) (NP (VV 投资) (SFN 者)) (VP (VP (PP (IN 如同) (NP (DNP (ADJP (NN 昔日)) (DEC 的)) (NP (NNP 法兰克) (NNP 福) (CC 和) (NNP 东京)))) (VP (JJ 一样))) (, ，) (VP (ADVP (RB 纷纷)) (VP (VV 涌入) (NP (NNP 拉各斯) (NN 和内罗毕))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP43425': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD11677': {}, 'NNB65585': {}}, ',': {}, 'NP5425': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+2012	年 10	nummod
+年 10	日	clf
+月 20	日	nummod
+日	称	nmod:tmod
+，	日	punct
+该	杂志	det
+杂志	称	nsubj
+称	ROOT	root
+：	涌入	punct
+“	涌入	punct
+近年	涌入	nmod:tmod
+来	近年	case
+，	近年	punct
+投资	者	compound
+者	涌入	nsubj
+如同	法兰克	case
+昔日	法兰克	nmod
+的	昔日	case
+法兰克	一样	nmod
+福	法兰克	flat:name
+和	东京	cc
+东京	法兰克	conj
+一样	涌入	advcl
+，	一样	punct
+纷纷	涌入	advmod
+涌入	称	ccomp
+拉各斯	和内罗毕	nmod
+和内罗毕	涌入	obj
+。	涌入	punct
+”	涌入	punct
+----------------------------------------------------------------------
+显然，阴霾笼罩的怀疑已经被对非洲的积极乐观情绪所取代，这是有充分的理由的，因为过去 10 年来，非洲许多经济体的发展都远远超过世界其他地方的经济体。
+
+(ROOT (IP (IP (ADVP (RB 显然)) (, ，) (NP (DNP (NP (NN 阴霾) (VV 笼) (VV 罩)) (DEC 的)) (NP (NN 怀疑))) (VP (ADVP (RB 已经)) (VP (BB 被) (VP (PP (IN 对) (NP (DNP (NP (NNP 非洲)) (DEC 的)) (ADJP (JJ 积极)) (ADJP (JJ 乐观)) (NP (NN 情绪)))) (VP (RB 所) (VP (VV 取代))))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (VP (VV 有) (NP (CP (CP (IP (VP (JJ 充分))) (DEC 的))) (NP (NN 理由))))) (UH 的)))))) (, ，) (PP (IN 因为) (IP (LCP (QP (NP (NN 过去)) (QP (CD 10))) (NNB 年来)) (, ，) (NP (DNP (NP (NP (NNP 非洲)) (QP (CD 许多)) (NP (NN 经济) (SFN 体))) (DEC 的)) (NP (NN 发展))) (VP (ADVP (RB 都)) (ADVP (RB 远远)) (VP (VV 超过) (NP (DNP (NP (NP (NN 世界)) (DP (DT 其他)) (NP (NN 地方))) (DEC 的)) (NP (NN 经济) (SFN 体))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP85157': {}, ',31124': {}, 'PP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP41180': {'NP': {}, 'VP': {}}, ',76600': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+Dependency Features:
+显然	取代	advmod
+，	显然	punct
+阴霾	罩	nsubj
+笼	罩	advcl
+罩	怀疑	acl:relcl
+的	罩	mark:rel
+怀疑	取代	nsubj
+已经	取代	advmod
+被	取代	aux
+对	情绪	case
+非洲	情绪	nmod
+的	非洲	case
+积极	情绪	amod
+乐观	情绪	amod
+情绪	取代	obl
+所	取代	mark
+取代	ROOT	root
+，	是	punct
+这	是	nsubj
+是	取代	parataxis
+有	是	xcomp
+充分	理由	amod
+的	充分	mark:rel
+理由	有	obj
+的	是	discourse
+，	超过	punct
+因为	超过	case
+过去	年来	nmod
+10	年来	nummod
+年来	超过	obl
+，	年来	punct
+非洲	体	nmod
+许多	体	nummod
+经济	体	compound
+体	发展	nmod
+的	体	case
+发展	超过	nsubj
+都	超过	mark
+远远	超过	advmod
+超过	是	ccomp
+世界	地方	nmod
+其他	地方	det
+地方	体	nmod
+的	地方	case
+经济	体	compound
+体	超过	obj
+。	取代	punct
+----------------------------------------------------------------------
+事实上，根据国际货币基金组织（IMF）2012年10月发布的《世界经济展望》，非洲有 20 个最快增长的经济体中有 11 个，这一快速增长的经济带来了世界上增长最快的中产阶级。
+
+(ROOT (IP (IP (LCP (NP (NN 事实)) (IN 上)) (, ，) (PP (IN 根据) (NP (CP (CP (NP (NP (NN 国际) (NN 货币) (NN 基金) (NN 组织) (PRN (-LRB- （) (NP (FW IMF)) (-RRB- ）))) (VP (NP (CD 2012) (NNB 年) (CD 10) (NNB 月)) (VP (VV 发布)))) (DEC 的))) (NP (-LRB- 《) (NN 世界) (NN 经济) (NN 展望) (-RRB- 》)))) (, ，) (NP (NNP 非洲)) (VP (VV 有) (IP (LCP (NP (QP (CD 20)) (CP (CP (IP (VP (ADVP (NNB 个最快)) (VP (VV 增长)))) (DEC 的))) (NP (NN 经济) (SFN 体))) (IN 中)) (VP (VV 有) (QP (CD 11) (CLP (NNB 个))))))) (, ，) (IP (NP (DP (DT 这) (QP (CD 一))) (CP (CP (IP (VP (ADVP (RB 快速)) (VP (VV 增长)))) (DEC 的))) (NP (NN 经济))) (VP (VV 带来) (AS 了) (NP (CP (CP (IP (LCP (NP (NN 世界)) (IN 上)) (NP (VV 增长)) (VP (JJ 最快))) (DEC 的))) (ADJP (NN 中产)) (NP (NN 阶级))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP77611': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, ',': {}, 'PP': {}, ',45347': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP80008': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'LCP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+事实	有	obl
+上	事实	case
+，	事实	punct
+根据	展望	case
+国际	组织	nmod
+货币	组织	nmod
+基金	组织	nmod
+组织	发布	obl
+（	IMF	punct
+IMF	组织	appos
+）	IMF	punct
+2012	年	nummod
+年	月	clf
+10	月	nummod
+月	发布	nmod:tmod
+发布	展望	acl:relcl
+的	发布	mark:rel
+《	展望	punct
+世界	展望	nmod
+经济	展望	nmod
+展望	有	obl
+》	展望	punct
+，	展望	punct
+非洲	有	nsubj
+有	体	amod
+20	个最快	nummod
+个最快	体	nmod
+增长	体	acl:relcl
+的	增长	mark:rel
+经济	体	compound
+体	有	nsubj
+中	体	case
+有	带来	ccomp
+11	个	nummod
+个	有	obj
+，	带来	punct
+这	一	det
+一	经济	nummod
+快速	增长	advmod
+增长	经济	acl:relcl
+的	增长	mark:rel
+经济	带来	nsubj
+带来	ROOT	root
+了	带来	aux
+世界	增长	obl
+上	世界	case
+增长	阶级	acl:relcl
+最快	增长	xcomp
+的	增长	mark:rel
+中产	阶级	nmod
+阶级	带来	obj
+。	带来	punct
+----------------------------------------------------------------------
+当然，推动这一增长的主要趋势——政策环境变化、预期公平社会和经济政策的中产阶级不断壮大、商品价格居高不下、国内需求强劲、城市化进程迅速加快——并没有对非洲大陆的所有国家产生同样的影响。
+
+(ROOT (IP (ADVP (RB 当然)) (, ，) (NP (NP (CP (CP (IP (VP (VV 推动) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 增长))))) (DEC 的))) (ADJP (JJ 主要)) (NP (NN 趋势))) (HYPH —) (HYPH —) (IP (IP (NP (DNP (NP (NP (NN 政策) (NN 环境) (NN 变化)) (EC 、) (NP (ADJP (VV 预期)) (ADJP (JJ 公平)) (NP (NN 社会))) (CC 和) (NP (NN 经济) (NN 政策))) (DEC 的)) (ADJP (NN 中产)) (NP (NN 阶级))) (VP (ADVP (RB 不断)) (VP (JJ 壮大)))) (EC 、) (IP (NP (NN 商品) (NN 价格)) (VP (VRD (JJ 居高) (JJ 不下)))) (EC 、) (IP (NP (NN 国内) (NN 需求)) (VP (JJ 强劲))) (EC 、) (IP (NP (NN 城市) (SFV 化) (NN 进程)) (VP (ADVP (RB 迅速)) (VP (VV 加快)))) (HYPH —) (HYPH —) (IP (VP (ADVP (RB 并)) (VP (VV 没有) (VP (PP (IN 对) (NP (DNP (NP (NP (NNP 非洲)) (NP (NN 大陆))) (DEC 的)) (DP (DT 所有)) (NP (NN 国家)))) (VP (VV 产生) (NP (DNP (ADJP (JJ 同样)) (DEC 的)) (NP (NN 影响)))))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NP': {}, 'HYPH': {}, 'HYPH13182': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NP': {}, 'HYPH': {}, 'HYPH': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NP': {}, 'HYPH': {}, 'HYPH': {}, 'IP': {}}}
+Dependency Features:
+当然	推动	advmod
+，	当然	punct
+推动	ROOT	root
+这	增长	det
+一	增长	nummod
+增长	趋势	nmod
+的	增长	case
+主要	趋势	amod
+趋势	有	nsubj
+—	变化	punct
+—	变化	punct
+政策	变化	nmod
+环境	变化	nmod
+变化	趋势	conj
+、	阶级	punct
+预期	阶级	acl:relcl
+公平	社会	amod
+社会	预期	obj
+和	政策	cc
+经济	政策	nmod
+政策	社会	conj
+的	预期	mark:rel
+中产	阶级	nmod
+阶级	变化	conj
+不断	壮大	advmod
+壮大	预期	ccomp
+、	居高	punct
+商品	价格	nmod
+价格	居高	nsubj
+居高	壮大	conj
+不下	居高	conj
+、	强劲	punct
+国内	需求	nmod
+需求	强劲	nsubj
+强劲	壮大	conj
+、	进程	punct
+城市	化	compound
+化	进程	nmod
+进程	强劲	nsubj
+迅速	加快	advmod
+加快	有	advcl
+—	加快	punct
+—	加快	punct
+并	有	mark
+有	推动	parataxis
+对	国家	case
+非洲	大陆	nmod
+大陆	国家	nmod
+的	大陆	case
+所有	国家	det
+国家	产生	obl
+产生	有	xcomp
+同样	影响	amod
+的	同样	mark:rel
+影响	产生	obj
+。	产生	punct
+----------------------------------------------------------------------
+以下是五个经济体的简要介绍，这些经济体尤其受益于近期的事态发展，并且在未来具有极大的潜力。
+
+(ROOT (IP (IP (NP (DT 以下)) (VP (VC 是) (NP (DNP (NP (QP (CD 五) (CLP (NNB 个))) (NP (NN 经济) (SFN 体))) (DEC 的)) (ADJP (JJ 简要)) (NP (NN 介绍))))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 经济) (SFN 体))) (VP (VP (ADVP (RB 尤其)) (VP (VV 受益) (PP (VV 于) (NP (DNP (NP (NN 近期)) (DEC 的)) (NP (NN 事态) (NN 发展)))))) (, ，) (RB 并且) (VP (PP (IN 在) (NP (NN 未来))) (VP (VV 具有) (NP (CP (CP (IP (VP (JJ 极大))) (DEC 的))) (NP (NN 潜力))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP38266': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP29805': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+以下	介绍	nsubj
+是	介绍	cop
+五	个	nummod
+个	体	nmod
+经济	体	compound
+体	介绍	nmod
+的	体	case
+简要	介绍	amod
+介绍	ROOT	root
+，	具有	punct
+这些	体	det
+经济	体	compound
+体	具有	nsubj
+尤其	受益	advmod
+受益	具有	advcl
+于	受益	mark
+近期	发展	nmod
+的	近期	case
+事态	发展	nmod
+发展	受益	obj
+，	受益	punct
+并且	具有	mark
+在	未来	case
+未来	具有	obl
+具有	介绍	parataxis
+极大	潜力	amod
+的	极大	mark:rel
+潜力	具有	obj
+。	介绍	punct
+----------------------------------------------------------------------
+南非：非洲最大经济体
+
+(ROOT (IP (NP (NNP 南非)) (: ：) (VP (NP (NP (NNP 非洲)) (ADJP (JJ 最大)) (NP (NN 经济) (SFN 体))))))
+layer 2:
+{'IP': {'NP': {}, ':': {}, 'VP': {}}}
+{'IP': {'NP': {}, ':': {}, 'VP': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, ':': {}, 'VP': {'NP': {}}}}
+{'IP': {'NP': {'NNP': {}}, ':': {}, 'VP': {'NP': {}}}}
+{'NP': {'NNP': {}}}
+{'VP': {'NP': {}}}
+Dependency Features:
+南非	体	nsubj
+：	体	punct
+非洲	体	nmod
+最大	体	amod
+经济	体	compound
+体	ROOT	root
+----------------------------------------------------------------------
+南非是非洲最南端的国家，拥有成熟的经济，工业、金融和交通运输等行业都非常发达。
+
+(ROOT (IP (IP (NP (NNP 南非)) (VP (VP (VC 是) (NP (DNP (NP (NP (NNP 非洲)) (ADVP (RB 最)) (NP (JJ 南端))) (DEC 的)) (NP (NN 国家)))) (, ，) (VP (VV 拥有) (NP (CP (CP (IP (VP (JJ 成熟))) (DEC 的))) (NP (NN 经济)))))) (, ，) (IP (NP (NP (NN 工业) (EC 、) (NN 金融) (CC 和) (NN 交通) (NN 运输) (NN 等)) (NP (NN 行业))) (VP (ADVP (RB 都)) (ADVP (RB 非常)) (VP (JJ 发达)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP57227': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP34388': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+南非	拥有	nsubj
+是	国家	cop
+非洲	国家	nmod
+最	南端	advmod
+南端	国家	amod
+的	南端	mark:rel
+国家	拥有	advcl
+，	国家	punct
+拥有	ROOT	root
+成熟	经济	amod
+的	成熟	mark:rel
+经济	发达	nsubj
+，	工业	punct
+工业	经济	conj
+、	金融	punct
+金融	经济	conj
+和	运输	cc
+交通	运输	nmod
+运输	经济	conj
+等	经济	acl
+行业	经济	appos
+都	发达	mark
+非常	发达	advmod
+发达	拥有	ccomp
+。	拥有	punct
+----------------------------------------------------------------------
+预计该国的国内生产总值为 4080 亿美元，人均收入为 11000 美元，2012 年，该国与巴西和中国一起，坐拥世界银行的中上收入国家席位。
+
+(ROOT (IP (VP (VV 预计) (IP (IP (NP (DNP (NP (NN 该国)) (DEC 的)) (NP (NN 国内) (NN 生产) (NN 总值))) (VP (VC 为) (QP (CD 4080) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元))))))) (, ，) (IP (NP (ADJP (JJ 人均)) (NP (NN 收入))) (VP (VC 为) (QP (CD 11000) (CLP (NNB 美元))))) (, ，) (IP (NP (CD 2012) (NNB 年)) (, ，) (NP (NN 该国)) (VP (VP (PP (IN 与) (NP (NNP 巴西) (CC 和) (NNP 中国))) (VP (NN 一起))) (, ，) (VP (VV 坐拥) (NP (NP (DNP (NP (NN 世界) (NN 银行)) (DEC 的)) (NP (ADJP (JJ 中上)) (NP (NN 收入))) (NP (NN 国家))) (NP (NN 席位)))))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+预计	总值	acl:relcl
+该国	总值	nmod
+的	该国	case
+国内	总值	nmod
+生产	总值	nmod
+总值	元	nsubj
+为	元	cop
+4080	亿	nummod
+亿	元	clf
+美	元	nmod
+元	美元	advcl
+，	元	punct
+人均	收入	amod
+收入	美元	nsubj
+为	美元	cop
+11000	美元	nummod
+美元	坐拥	advcl
+，	美元	punct
+2012	年	nummod
+年	坐拥	nmod:tmod
+，	年	punct
+该国	坐拥	nsubj
+与	巴西	case
+巴西	坐拥	obl
+和	中国	cc
+中国	巴西	conj
+一起	坐拥	obl
+，	一起	punct
+坐拥	ROOT	root
+世界	银行	nmod
+银行	席位	nmod
+的	银行	case
+中上	收入	amod
+收入	席位	nmod
+国家	席位	nmod
+席位	坐拥	obj
+。	坐拥	punct
+----------------------------------------------------------------------
+2010 年，南非加入了金砖国家（巴西、俄罗斯、印度、中国和南非），这是一个以快速增长和在区域和全球事务中日益增长的影响力而闻名的顶级新兴经济体联盟。
+
+(ROOT (IP (IP (NP (CD 2010) (NNB 年)) (, ，) (NP (NNP 南非)) (VP (VV 加入) (AS 了) (NP (NNP 金砖) (NN 国家) (PRN (-LRB- （) (NP (NNP 巴西) (EC 、) (NNP 俄罗斯) (EC 、) (NNP 印度) (EC 、) (NNP 中国) (CC 和) (NNP 南非)) (-RRB- ）))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (PP (IN 以) (NP (NP (ADJP (JJ 快速)) (NP (NN 增长))) (CC 和) (NP (CP (CP (IP (VP (PP (IN 在) (LCP (NP (NP (NN 区域) (CC 和) (NN 全球)) (NP (NN 事务))) (IN 中))) (ADVP (RB 日益)) (VP (VV 增长)))) (DEC 的))) (NP (VV 影响) (SFN 力))))) (VP (RB 而) (VP (VV 闻名))))) (DEC 的))) (ADJP (JJ 顶级)) (ADJP (JJ 新兴)) (NP (NN 经济) (SFN 体) (NN 联盟))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP60164': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP99176': {}, 'VP': {}}, ',': {}, 'IP84231': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+2010	年	nummod
+年	加入	nmod:tmod
+，	年	punct
+南非	加入	nsubj
+加入	ROOT	root
+了	加入	aux
+金砖	国家	nmod
+国家	加入	obj
+（	巴西	punct
+巴西	国家	appos
+、	俄罗斯	punct
+俄罗斯	巴西	conj
+、	印度	punct
+印度	巴西	conj
+、	中国	punct
+中国	巴西	conj
+和	南非	cc
+南非	巴西	conj
+）	巴西	punct
+，	联盟	punct
+这	联盟	nsubj
+是	联盟	cop
+一	个	nummod
+个	联盟	clf
+以	增长	case
+快速	增长	amod
+增长	闻名	obl
+和	事务	cc
+在	区域	case
+区域	增长	conj
+和	事务	cc
+全球	事务	nmod
+事务	区域	conj
+中	区域	case
+日益	增长	advmod
+增长	力	acl:relcl
+的	增长	mark:rel
+影响	力	compound
+力	闻名	obl
+而	闻名	mark
+闻名	联盟	acl:relcl
+的	闻名	mark:rel
+顶级	联盟	amod
+新兴	联盟	amod
+经济	体	compound
+体	联盟	nmod
+联盟	加入	parataxis
+。	加入	punct
+----------------------------------------------------------------------
+尽管南非的基础设施发达，自然资源丰富，但在治理和不平等方面仍面临挑战。
+
+(ROOT (IP (CP (ADVP (IN 尽管)) (IP (IP (NP (DNP (NP (NNP 南非)) (DEC 的)) (NP (NN 基础) (NN 设施))) (VP (JJ 发达))) (, ，) (IP (NP (NN 自然) (NN 资源)) (VP (JJ 丰富))))) (, ，) (ADVP (RB 但)) (VP (PP (IN 在) (NP (NP (NP (NN 治理)) (CC 和) (NP (ADVP (RB 不)) (NP (NN 平等)))) (NP (NN 方面)))) (ADVP (RB 仍)) (VP (VV 面临) (NP (NN 挑战)))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+尽管	发达	case
+南非	设施	nmod
+的	南非	case
+基础	设施	nmod
+设施	发达	nsubj
+发达	丰富	ccomp
+，	发达	punct
+自然	资源	nmod
+资源	丰富	nsubj
+丰富	ROOT	root
+，	丰富	punct
+但	面临	mark
+在	治理	case
+治理	面临	obl
+和	平等	cc
+不	平等	advmod
+平等	治理	conj
+方面	面临	obl
+仍	面临	advmod
+面临	丰富	parataxis
+挑战	面临	obj
+。	面临	punct
+----------------------------------------------------------------------
+抗议、罢工和不稳定局面阻碍了该国的外国投资。
+
+(ROOT (IP (NP (NP (NN 抗议)) (EC 、) (NP (NN 罢工)) (CC 和) (NP (IP (VP (ADVP (RB 不)) (VP (JJ 稳定)))) (NP (NN 局面)))) (VP (VV 阻碍) (AS 了) (NP (DNP (NP (NN 该国)) (DEC 的)) (NP (NN 外国) (NN 投资)))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'EC': {}, 'NP78877': {}, 'CC': {}, 'NP49676': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'EC': {}, 'NP': {}, 'CC': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'EC': {}, 'NP': {}, 'CC': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+抗议	阻碍	nsubj
+、	罢工	punct
+罢工	抗议	conj
+和	局面	cc
+不	稳定	advmod
+稳定	局面	amod
+局面	抗议	conj
+阻碍	ROOT	root
+了	阻碍	aux
+该国	投资	nmod
+的	该国	case
+外国	投资	nmod
+投资	阻碍	obj
+。	阻碍	punct
+----------------------------------------------------------------------
+相比世界银行所界定的非洲中等收入经济体，南非的2.6%的经济增长率可谓乏力。
+
+(ROOT (IP (PP (IN 相比) (NP (CP (CP (IP (NP (NN 世界) (NN 银行)) (VP (RB 所) (VP (VV 界定)))) (DEC 的))) (NP (NP (NNP 非洲)) (ADJP (NN 中) (NN 等)) (NP (NN 收入))) (NP (NN 经济) (SFN 体)))) (, ，) (NP (DNP (NP (NNP 南非)) (DEC 的)) (DNP (QP (CD 2.6%)) (DEC 的)) (NP (NN 经济) (VV 增长) (SFN 率))) (VP (MD 可) (VP (VV 谓) (IP (VP (JJ 乏力))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'DNP': {}, 'DNP30067': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'DNP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'DNP': {}, 'DNP': {}, 'NP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+相比	体	case
+世界	银行	nmod
+银行	界定	nsubj
+所	界定	mark
+界定	体	acl:relcl
+的	界定	mark:rel
+非洲	体	nmod
+中	体	nmod
+等	中	acl
+收入	体	nmod
+经济	体	compound
+体	谓	obl
+，	体	punct
+南非	2.6%	nmod
+的	南非	case
+2.6%	率	amod
+的	2.6%	mark:rel
+经济	率	nmod
+增长	率	compound
+率	谓	nsubj
+可	谓	aux
+谓	ROOT	root
+乏力	谓	xcomp
+。	谓	punct
+----------------------------------------------------------------------
+（这部分是因为，随着与全球经济的联系更加紧密，以及与欧元区的接触更多，南非更多地受到全球经济放缓的影响。）
+
+(ROOT (IP (-LRB- （) (NP (DP (DT 这)) (NP (NN 部分))) (VP (VC 是) (NP (IN 因为))) (, ，) (IP (PP (VV 随) (PP (AS 着) (IP (IP (NP (DNP (PP (IN 与) (NP (NN 全球) (NN 经济))) (DEC 的)) (NP (NN 联系))) (VP (ADVP (RB 更加)) (VP (JJ 紧密)))) (, ，) (CC 以及) (IP (NP (DNP (PP (IN 与) (NP (NP (NNP 欧) (NNP 元)) (NP (SFN 区)))) (DEC 的)) (NP (NN 接触))) (VP (JJ 更多)))))) (, ，) (NP (NNP 南非)) (VP (DVP (VP (JJ 更多)) (DEV 地)) (VP (VV 受到) (NP (CP (IP (NP (NN 全球) (NN 经济)) (VP (VV 放缓))) (DEC 的)) (NP (NN 影响)))))) (. 。)))
+layer 2:
+{'IP': {'-LRB-': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}, '.': {}}}
+{'IP': {'-LRB-': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'-LRB-': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'-LRB-': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+（	是	punct
+这	部分	det
+部分	是	nsubj
+是	ROOT	root
+因为	是	xcomp
+，	随	punct
+随	受到	advcl
+着	随	aux
+与	联系	case
+全球	经济	nmod
+经济	联系	nmod
+的	经济	case
+联系	紧密	nmod
+更加	紧密	advmod
+紧密	随	ccomp
+，	接触	punct
+以及	接触	cc
+与	接触	case
+欧	元	nmod
+元	区	compound
+区	接触	nmod
+的	区	case
+接触	更多	nmod
+更多	受到	advcl
+，	随	punct
+南非	受到	nsubj
+更多	受到	advmod
+地	更多	mark:adv
+受到	是	parataxis
+全球	经济	nmod
+经济	放缓	nsubj
+放缓	影响	acl:relcl
+的	放缓	mark:rel
+影响	受到	obj
+。	是	punct
+----------------------------------------------------------------------
+尽管如此，该国仍是一个重要的区域强国。
+
+(ROOT (IP (IP (VP (ADVP (IN 尽管)) (VP (VV 如此)))) (, ，) (NP (NN 该国)) (VP (VC 仍是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 重要))) (DEC 的))) (NP (NN 区域) (NN 强国)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+尽管	如此	case
+如此	强国	xcomp
+，	如此	punct
+该国	强国	nsubj
+仍是	强国	cop
+一	个	nummod
+个	强国	clf
+重要	强国	amod
+的	重要	mark:rel
+区域	强国	nmod
+强国	ROOT	root
+。	强国	punct
+----------------------------------------------------------------------
+它在邻国投资较大。
+
+(ROOT (IP (NP (PRP 它)) (VP (VP (PP (VV 在) (NP (NN 邻国))) (VP (VV 投资))) (VP (JJ 较大))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP99591': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+它	投资	nsubj
+在	投资	advcl
+邻国	在	obj
+投资	ROOT	root
+较大	投资	xcomp
+。	投资	punct
+----------------------------------------------------------------------
+南非公司——特别是其金融服务、零售、快餐、超市、加油站和纺织公司——正在向非洲大陆泛滥消费品和服务。
+
+(ROOT (NP (NP (NP (NNP 南非)) (NP (NN 公司))) (PRN (HYPH —) (HYPH —) (VP (ADVP (RB 特别)) (VP (VC 是) (NP (NP (PRP 其)) (NP (NP (NN 金融) (NN 服务)) (EC 、) (NP (NN 零售)) (EC 、) (NP (ADJP (JJ 快)) (NP (SFN 餐))) (EC 、) (NP (NN 超市)) (EC 、) (NP (VV 加油) (SFN 站)) (CC 和) (NP (NN 纺织) (NN 公司)))))) (HYPH —) (HYPH —) (IP (VP (ADVP (RB 正)) (ADVP (RB 在)) (PP (IN 向) (NP (NP (NNP 非洲)) (NP (NN 大陆)))) (VP (VV 泛滥) (NP (VV 消费) (SFN 品) (CC 和) (NN 服务)))))) (. 。)))
+layer 2:
+{'NP': {'NP': {}, 'PRN': {}, '.': {}}}
+{'NP': {'NP': {}, 'PRN': {}, '.': {}}}
+layer 3:
+{'NP': {'NP': {'NP': {}, 'NP66969': {}}, 'PRN': {'HYPH': {}, 'HYPH55921': {}, 'VP': {}, 'HYPH83339': {}, 'HYPH72661': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {'NP': {}, 'NP': {}}, 'PRN': {'HYPH': {}, 'HYPH': {}, 'VP': {}, 'HYPH': {}, 'HYPH': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'PRN': {'HYPH': {}, 'HYPH': {}, 'VP': {}, 'HYPH': {}, 'HYPH': {}, 'IP': {}}}
+Dependency Features:
+南非	公司	nmod
+公司	服务	nsubj
+—	公司	punct
+—	公司	punct
+特别	服务	advmod
+是	服务	cop
+其	服务	nmod
+金融	服务	nmod
+服务	泛滥	advcl
+、	零售	punct
+零售	服务	conj
+、	餐	punct
+快	餐	compound
+餐	服务	conj
+、	超市	punct
+超市	服务	conj
+、	站	punct
+加油	站	compound
+站	服务	conj
+和	公司	cc
+纺织	公司	nmod
+公司	服务	conj
+—	泛滥	punct
+—	泛滥	punct
+正	泛滥	advmod
+在	泛滥	advmod
+向	大陆	case
+非洲	大陆	nmod
+大陆	泛滥	obl
+泛滥	ROOT	root
+消费	品	compound
+品	泛滥	obj
+和	服务	cc
+服务	品	conj
+。	泛滥	punct
+----------------------------------------------------------------------
+这使得该国对非洲大陆产生了巨大的影响，并在非洲各国经济的成功中扮演着重要角色。
+
+(ROOT (IP (NP (PRD 这)) (VP (VV 使得) (NP (NN 该国)) (IP (VP (VP (PP (IN 对) (NP (NP (NNP 非洲)) (NP (NN 大陆)))) (VP (VV 产生) (AS 了) (NP (CP (CP (IP (VP (JJ 巨大))) (DEC 的))) (NP (NN 影响))))) (, ，) (RB 并) (VP (PP (IN 在) (LCP (NP (DNP (NP (NP (NP (NNP 非洲)) (NP (NN 各国))) (NP (NN 经济))) (DEC 的)) (NP (NN 成功))) (IN 中))) (VP (VV 扮演) (AS 着) (NP (ADJP (JJ 重要)) (NP (NN 角色)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
+Dependency Features:
+这	使得	nsubj
+使得	ROOT	root
+该国	产生	nsubj
+对	大陆	case
+非洲	大陆	nmod
+大陆	产生	obl
+产生	扮演	advcl
+了	产生	aux
+巨大	影响	amod
+的	巨大	mark:rel
+影响	产生	obj
+，	产生	punct
+并	扮演	mark
+在	成功	case
+非洲	经济	nmod
+各国	经济	nmod
+经济	成功	nmod
+的	经济	case
+成功	扮演	obl
+中	成功	case
+扮演	使得	ccomp
+着	扮演	aux
+重要	角色	amod
+角色	扮演	obj
+。	扮演	punct
+----------------------------------------------------------------------
+2.尼日利亚：一个醒来的巨人
+
+(ROOT (IP (NP (NNP 2.尼日利亚)) (: ：) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 醒来))) (DEC 的))) (NP (NN 巨人)))))
+layer 2:
+{'IP': {'NP': {}, ':': {}, 'NP74011': {}}}
+{'IP': {'NP': {}, ':': {}, 'NP': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, ':': {}, 'NP88504': {'QP': {}, 'CP': {}, 'NP': {}}}}
+{'IP': {'NP': {'NNP': {}}, ':': {}, 'NP': {'QP': {}, 'CP': {}, 'NP': {}}}}
+{'NP': {'NNP': {}}}
+{'NP': {'QP': {}, 'CP': {}, 'NP': {}}}
+Dependency Features:
+2.尼日利亚	ROOT	root
+：	2.尼日利亚	punct
+一	个	nummod
+个	巨人	clf
+醒来	巨人	acl:relcl
+的	醒来	mark:rel
+巨人	2.尼日利亚	appos
+----------------------------------------------------------------------
+西非尼日利亚在大多数人的眼里，将成为非洲十年内最值得关注的国家。
+
+(ROOT (IP (NP (NP (NNP 西非尼日利亚)) (DNP (PP (IN 在) (NP (QP (ADJP (RB 大)) (QP (JJ 多数))) (NP (NN 人)))) (DEC 的)) (NP (NN 眼里))) (, ，) (VP (ADVP (RB 将)) (VP (VV 成) (VP (VC 为) (NP (NP (NNP 非洲)) (CP (CP (IP (VP (LCP (QP (CD 十) (CLP (NNB 年))) (IN 内)) (ADVP (RB 最)) (VP (VV 值得) (NP (VV 关注))))) (DEC 的))) (NP (NN 国家)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'DNP': {}, 'NP86124': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'DNP': {}, 'NP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+西非尼日利亚	眼里	nmod
+在	眼里	case
+大	多数	advmod
+多数	人	amod
+人	眼里	nmod
+的	人	case
+眼里	成	obl
+，	眼里	punct
+将	成	advmod
+成	ROOT	root
+为	成	mark
+非洲	年	nmod
+十	年	nummod
+年	值得	nmod:tmod
+内	年	case
+最	值得	advmod
+值得	国家	acl:relcl
+关注	值得	xcomp
+的	值得	mark:rel
+国家	成	obj
+。	成	punct
+----------------------------------------------------------------------
+这个传统上被称为“非洲睡着的巨人”的国家有超过 1.67 亿人口，其中超过 50% 的人生活在拉各斯和卡诺等城市地区。
+
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 个))) (CP (CP (IP (VP (LCP (NP (NN 传统)) (IN 上)) (VP (BB 被) (VP (VCP (VV 称) (VC 为)) (NP (`` “) (CP (CP (IP (VP (NP (NNP 非洲)) (VP (VV 睡着)))) (DEC 的))) (NP (NN 巨人)) ('' ”)))))) (DEC 的))) (NP (NN 国家))) (VP (VV 有) (NP (QP (ADVP (VV 超过)) (QP (CD 1.67) (QP (NNB 亿)))) (NP (NN 人口))))) (, ，) (IP (NP (NN 其中)) (QP (ADVP (RB 超过)) (QP (CD 50%))) (VP (NN 的人生) (VP (VV 活) (PP (VV 在) (NP (NP (NNP 拉各斯和卡诺) (NN 等)) (NP (NN 城市) (NN 地区))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP40486': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP30684': {'NP': {}, 'QP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'QP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'QP': {}, 'VP': {}}}
+Dependency Features:
+这	个	det
+个	传统	clf
+传统	称	obl
+上	传统	case
+被	称	aux:pass
+称	ROOT	root
+为	称	mark
+“	巨人	punct
+非洲	睡着	nsubj
+睡着	巨人	acl:relcl
+的	睡着	mark:rel
+巨人	称	obj
+”	巨人	punct
+的	睡着	mark:rel
+国家	有	nsubj
+有	称	ccomp
+超过	亿	amod
+1.67	亿	nummod
+亿	人口	clf
+人口	有	obj
+，	活	punct
+其中	活	obl
+超过	50%	advmod
+50%	的人生	nummod
+的人生	活	nsubj
+活	称	parataxis
+在	活	mark
+拉各斯和卡诺	活	obj
+等	拉各斯和卡诺	acl
+城市	地区	nmod
+地区	拉各斯和卡诺	appos
+。	称	punct
+----------------------------------------------------------------------
+据国有石油公司尼日利亚国家石油公司 (NNPC) 称，尼日利亚是非洲最大的石油生产国，每天出口 250 万桶石油。
+
+(ROOT (PP (IN 据) (IP (NP (NP (NP (CP (IP (NP (NN 国)) (VP (VV 有)))) (NP (NN 石油) (NN 公司))) (NP (NNP 尼日利亚) (NN 国家) (NN 石油) (NN 公司))) (NP (FW -LRB-NNPC-RRB-))) (VP (VV 称) (, ，) (IP (NP (NNP 尼日利亚)) (VP (VP (VC 是) (NP (CP (CP (IP (VP (NP (NNP 非洲)) (VP (JJ 最大)))) (DEC 的))) (NP (NN 石油) (VV 生产) (SFN 国)))) (, ，) (VP (NP (DT 每天)) (VP (VV 出口) (NP (QP (CD 250) (CLP (NNB 万桶))) (NP (NN 石油))))))))) (. 。)))
+layer 2:
+{'PP': {'IN': {}, 'IP': {}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'PP': {'IN': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+据	称	case
+国	有	nsubj
+有	公司	amod
+石油	公司	nmod
+公司	称	nsubj
+尼日利亚	公司	nmod
+国家	公司	nmod
+石油	公司	nmod
+公司	公司	appos
+(NNPC)	公司	appos
+称	出口	ccomp
+，	称	punct
+尼日利亚	出口	nsubj
+是	国	cop
+非洲	国	nmod
+最大	国	amod
+的	最大	mark:rel
+石油	国	nmod
+生产	国	compound
+国	出口	advcl
+，	国	punct
+每天	出口	nmod:tmod
+出口	ROOT	root
+250	万桶	nummod
+万桶	石油	clf
+石油	出口	obj
+。	出口	punct
+----------------------------------------------------------------------
+从经济方面来看，过去十年，它实现了强劲的 7% 的增长率，从政治方面来看，该国在不到十年时间里，实现了第二次平民权力移交，该国已经开始巩固民主改革。
+
+(ROOT (IP (IP (IP (VP (PP (IN 从) (NP (NN 经济) (NN 方面))) (VP (RB 来) (VP (VV 看))))) (, ，) (QP (NP (NN 过去)) (QP (CD 十) (CLP (NNB 年)))) (, ，) (NP (PRP 它)) (VP (VP (VV 实现) (AS 了) (NP (CP (CP (IP (VP (JJ 强劲))) (DEC 的))) (DNP (QP (CD 7%)) (DEC 的)) (NP (VV 增长) (SFN 率)))) (, ，) (VP (PP (IN 从) (NP (NN 政治) (NN 方面))) (VP (RB 来) (VP (VV 看)))))) (, ，) (IP (NP (NN 该国)) (VP (PP (IN 在) (LCP (NP (QP (ADVP (VV 不到)) (QP (CD 十) (CLP (NNB 年)))) (NP (NN 时间))) (IN 里))) (, ，) (VP (VV 实现) (AS 了) (NP (QP (CD 第二) (CLP (NNB 次))) (NP (NN 平民) (NN 权力) (NN 移交)))))) (, ，) (IP (NP (NN 该国)) (VP (ADVP (RB 已经)) (VP (VV 开始) (VP (VV 巩固) (NP (NN 民主) (NN 改革)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP17866': {}, ',41544': {}, 'IP20840': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'QP': {}, ',67757': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP21580': {'NP': {}, 'VP': {}}, ',13850': {}, 'IP65987': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'QP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'QP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+从	方面	case
+经济	方面	nmod
+方面	看	obl
+来	看	mark
+看	实现	advcl
+，	看	punct
+过去	年	nmod
+十	年	nummod
+年	实现	nmod:tmod
+，	年	punct
+它	实现	nsubj
+实现	ROOT	root
+了	实现	aux
+强劲	率	amod
+的	强劲	mark:rel
+7%	率	amod
+的	7%	mark:rel
+增长	率	compound
+率	实现	obj
+，	看	punct
+从	方面	case
+政治	方面	nmod
+方面	看	obl
+来	看	mark
+看	实现	parataxis
+，	实现	punct
+该国	实现	nsubj
+在	时间	case
+到	时间	amod
+十	年	nummod
+年	到	obj
+时间	实现	obl
+里	时间	case
+，	时间	punct
+实现	实现	parataxis
+了	实现	aux
+第二	次	nummod
+次	移交	clf
+平民	移交	nmod
+权力	移交	nmod
+移交	实现	obj
+，	开始	punct
+该国	开始	nsubj
+已经	开始	advmod
+开始	实现	parataxis
+巩固	开始	xcomp
+民主	改革	nmod
+改革	巩固	obj
+。	实现	punct
+----------------------------------------------------------------------
+从许多方面来看，尼日利亚目前的状况与 20 世纪 90 年代政治和社会改革扭转其经济萧条局面之前的巴西相似。
+
+(ROOT (IP (IP (VP (PP (IN 从) (NP (QP (CD 许多)) (NP (NN 方面)))) (VP (RB 来) (VP (VV 看))))) (, ，) (NP (NP (NNP 尼日利亚)) (DNP (NP (NN 目前)) (DEC 的)) (NP (NN 状况))) (VP (PP (IN 与) (NP (DNP (LCP (IP (NP (NP (QP (CD 20)) (NP (NNB 世纪))) (QP (CD 90)) (NP (NNB 年代))) (NP (NP (NN 政治) (CC 和) (NN 社会)) (NP (NN 改革))) (VP (VV 扭转) (NP (NP (PRP 其)) (NP (NN 经济)) (NP (NN 萧) (NN 条)) (NP (NN 局面))))) (IN 之前)) (DEC 的)) (NP (NNP 巴西)))) (VP (JJ 相似))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NP': {}, 'DNP': {}, 'NP17056': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'NP': {}, 'DNP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+从	方面	case
+许多	方面	nummod
+方面	看	obl
+来	看	mark
+看	ROOT	root
+，	相似	punct
+尼日利亚	状况	nmod
+目前	状况	nmod
+的	目前	case
+状况	相似	nsubj
+与	巴西	case
+20	世纪	nummod
+世纪	政治	clf
+90	年代	nummod
+年代	政治	clf
+政治	扭转	obl
+和	改革	cc
+社会	改革	nmod
+改革	扭转	nsubj
+扭转	巴西	acl:relcl
+其	局面	nmod
+经济	局面	nmod
+萧	条	compound
+条	局面	nmod
+局面	扭转	obj
+之前	扭转	mark
+的	扭转	mark:rel
+巴西	相似	nmod
+相似	看	ccomp
+。	看	punct
+----------------------------------------------------------------------
+尼日利亚可以通过采取类似的政策，包括投资基础设施、减少贫困和不平等，以及改革体制，来复制巴西的成功经验。
+
+(ROOT (IP (NP (NNP 尼日利亚)) (VP (MD 可以) (VP (PP (IN 通过) (NP (CP (IP (IP (VP (VV 采取) (NP (CP (CP (IP (VP (JJ 类似))) (DEC 的))) (NP (NN 政策))))) (, ，) (IP (VP (VV 包括) (IP (VP (VP (VV 投资) (NP (NN 基础) (NN 设施))) (EC 、) (VP (VV 减少) (NP (NN 贫困))) (CC 和) (VP (ADVP (RB 不)) (VP (NN 平等))) (, ，) (CC 以及) (VP (NN 改革) (NP (NN 体制))) (, ，) (VP (RB 来) (VP (VV 复制) (NP (NNP 巴西))))))))) (DEC 的)) (NP (JJ 成功) (NN 经验)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+尼日利亚	复制	nsubj
+可以	包括	aux
+通过	采取	case
+采取	包括	xcomp
+类似	政策	amod
+的	类似	mark:rel
+政策	采取	obj
+，	采取	punct
+包括	复制	advcl
+投资	包括	xcomp
+基础	设施	nmod
+设施	投资	obj
+、	减少	punct
+减少	投资	conj
+贫困	减少	obj
+和	平等	cc
+不	平等	advmod
+平等	贫困	conj
+，	体制	punct
+以及	体制	cc
+改革	体制	nmod
+体制	贫困	conj
+，	包括	punct
+来	复制	mark
+复制	ROOT	root
+巴西	复制	obj
+的	复制	mark:rel
+成功	经验	amod
+经验	复制	obj
+。	复制	punct
+----------------------------------------------------------------------
+根据渣打银行研究部于 2012 年 10 月发布的一份报告，尼日利亚的挑战是在公用事业、炼油和农业部门复制其在技术（移动电话）方面的成功经验。
+
+(ROOT (IP (PP (IN 根据) (NP (CP (CP (NP (NP (NP (NNP 渣打) (NN 银行)) (NP (VV 研究) (SFN 部))) (VP (PP (IN 于) (NP (CD 2012) (NNB 年 10))) (VP (VV 月发布)))) (DEC 的))) (QP (CD 一) (CLP (NNB 份))) (NP (NN 报告)))) (, ，) (NP (DNP (NP (NNP 尼日利亚)) (DEC 的)) (NP (NN 挑战))) (VP (VC 是) (NP (CP (CP (IP (VP (PP (IN 在) (NP (NP (ADJP (NN 公用)) (NP (NN 事业))) (EC 、) (NP (NP (NN 炼油) (CC 和) (NN 农业)) (NP (NN 部门))))) (VP (VV 复制) (PP (IN 其在) (NP (NP (NN 技术) (PRN (-LRB- （) (NP (NN 移动) (NN 电话)) (-RRB- ）))) (NP (NN 方面))))))) (DEC 的))) (NP (JJ 成功) (NN 经验)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+根据	报告	case
+渣打	部	nmod
+银行	部	nmod
+研究	部	compound
+部	月发布	nsubj
+于	年 10	case
+2012	年 10	nummod
+年 10	月发布	obl
+月发布	报告	acl:relcl
+的	月发布	mark:rel
+一	份	nummod
+份	报告	clf
+报告	是	obl
+，	报告	punct
+尼日利亚	挑战	nmod
+的	尼日利亚	case
+挑战	是	nsubj
+是	ROOT	root
+在	部门	case
+公用	事业	nmod
+事业	复制	obl
+、	炼油	punct
+炼油	部门	nmod
+和	农业	cc
+农业	炼油	conj
+部门	事业	conj
+复制	经验	acl:relcl
+其在	技术	nmod
+技术	方面	nmod
+（	电话	punct
+移动	电话	nmod
+电话	技术	appos
+）	电话	punct
+方面	复制	obj
+的	复制	mark:rel
+成功	经验	amod
+经验	是	obj
+。	是	punct
+----------------------------------------------------------------------
+该报告敦促尼日利亚远离几十年来一直阻碍该国发展的“权钱交易”制度。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 报告))) (NP (NNP 敦) (NNP 促尼日利亚)) (VP (VV 远离) (NP (CP (CP (IP (VP (LCP (QP (CD 几十) (CLP (NNB 年))) (IN 来)) (ADVP (RB 一直)) (VP (VV 阻碍) (NP (NN 该国)) (IP (VP (VV 发展)))))) (DEC 的))) (NP (`` “) (NN 权钱) (NN 交易) ('' ”)) (NP (NN 制度)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'NP87539': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'NP73623': {'NNP': {}, 'NNP57584': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'NP': {'NNP': {}, 'NNP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'NP': {'NNP': {}, 'NNP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+该	报告	det
+报告	阻碍	nsubj
+敦	报告	appos
+促尼日利亚	报告	appos
+远离	阻碍	advcl
+几十	年	nummod
+年	远离	obl
+来	年	case
+一直	阻碍	advmod
+阻碍	ROOT	root
+该国	发展	nsubj
+发展	制度	acl:relcl
+的	发展	mark:rel
+“	交易	punct
+权钱	交易	nmod
+交易	制度	nmod
+”	交易	punct
+制度	阻碍	obj
+。	阻碍	punct
+----------------------------------------------------------------------
+它还呼吁更加强调多样化和长期规划，将尼日利亚从“分配”国变成“生产”国。
+
+(ROOT (IP (NP (PRP 它)) (VP (ADVP (RB 还)) (VP (VV 呼吁) (IP (VP (VP (ADVP (RB 更加)) (VP (VV 强调) (NP (JJ 多样) (SFV 化) (CC 和) (NP (ADJP (NN 长期)) (NP (NN 规划)))))) (, ，) (VP (BB 将) (IP (NP (NNP 尼日利亚)) (VP (PP (IN 从) (NP (`` “) (VV 分配) ('' ”) (SFN 国))) (VP (VV 变成) (NP (`` “) (NN 生产) ('' ”) (SFN 国)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+它	呼吁	nsubj
+还	呼吁	mark
+呼吁	ROOT	root
+更加	强调	advmod
+强调	变成	advcl
+多样	化	compound
+化	强调	obj
+和	规划	cc
+长期	规划	nmod
+规划	化	conj
+，	强调	punct
+将	尼日利亚	case
+尼日利亚	变成	obl:patient
+从	国	case
+“	分配	punct
+分配	国	compound
+”	分配	punct
+国	变成	obl
+变成	呼吁	xcomp
+“	生产	punct
+生产	国	compound
+”	生产	punct
+国	变成	obj
+。	呼吁	punct
+----------------------------------------------------------------------
+报告称，“即使尼日利亚有大量石油和天然气资源，但这些资源也不会决定未来的发展。”
+
+(ROOT (IP (NP (NN 报告)) (VP (VV 称) (, ，) (IP (`` “) (CP (ADVP (IN 即使)) (IP (NP (NNP 尼日利亚)) (VP (VV 有) (NP (QP (JJ 大量)) (NP (NN 石油) (CC 和) (JJ 天然) (SFN 气)) (NP (NN 资源)))))) (, ，) (ADVP (RB 但)) (NP (DP (DT 这些)) (NP (NN 资源))) (VP (ADVP (RB 也)) (VP (MD 不会) (VP (VV 决定) (NP (DNP (NP (NN 未来)) (DEC 的)) (NP (NN 发展)))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+报告	称	nsubj
+称	ROOT	root
+，	决定	punct
+“	决定	punct
+即使	有	case
+尼日利亚	有	nsubj
+有	决定	ccomp
+大量	石油	amod
+石油	有	obj
+和	资源	cc
+天然	气	compound
+气	资源	nmod
+资源	石油	conj
+，	有	punct
+但	决定	mark
+这些	资源	det
+资源	决定	nsubj
+也	决定	mark
+会	决定	aux
+决定	称	ccomp
+未来	发展	nmod
+的	未来	case
+发展	决定	obj
+。	决定	punct
+”	决定	punct
+----------------------------------------------------------------------
+尽管如此，尼日利亚仍然充满乐观。
+
+(ROOT (IP (IP (VP (ADVP (IN 尽管)) (VP (VV 如此)))) (, ，) (NP (NNP 尼日利亚)) (VP (ADVP (RB 仍然)) (VP (VV 充满) (NP (JJ 乐观)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+尽管	如此	case
+如此	充满	xcomp
+，	如此	punct
+尼日利亚	充满	nsubj
+仍然	充满	advmod
+充满	ROOT	root
+乐观	充满	xcomp
+。	充满	punct
+----------------------------------------------------------------------
+《经济学人》甚至最近曾建议，尽管尼日利亚的经济仍然混乱，但它有可能在几年内超过南非。
+
+(ROOT (IP (NP (-LRB- 《) (NN 经济) (SFN 学) (SFN 人) (-RRB- 》)) (VP (ADVP (RB 甚至)) (NP (NN 最近)) (ADVP (RB 曾)) (VP (VV 建议) (, ，) (IP (CP (ADVP (IN 尽管)) (IP (NP (DNP (NP (NNP 尼日利亚)) (DEC 的)) (NP (NN 经济))) (VP (ADVP (RB 仍然)) (VP (JJ 混乱))))) (, ，) (ADVP (RB 但)) (NP (PRP 它)) (VP (VP (VV 有) (NP (MD 可能))) (VP (PP (IN 在) (LCP (QP (CD 几) (CLP (NNB 年))) (IN 内))) (VP (VV 超过) (NP (NNP 南非)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'-LRB-': {}, 'NN': {}, 'SFN': {}, 'SFN46878': {}, '-RRB-': {}}, 'VP': {'ADVP': {}, 'NP': {}, 'ADVP47410': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'-LRB-': {}, 'NN': {}, 'SFN': {}, 'SFN': {}, '-RRB-': {}}, 'VP': {'ADVP': {}, 'NP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'-LRB-': {}, 'NN': {}, 'SFN': {}, 'SFN': {}, '-RRB-': {}}}
+{'VP': {'ADVP': {}, 'NP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+《	人	punct
+经济	学	compound
+学	人	compound
+人	建议	nsubj
+》	人	punct
+甚至	建议	mark
+最近	建议	nmod:tmod
+曾	建议	advmod
+建议	ROOT	root
+，	超过	punct
+尽管	混乱	case
+尼日利亚	经济	nmod
+的	尼日利亚	case
+经济	混乱	nsubj
+仍然	混乱	advmod
+混乱	有	ccomp
+，	混乱	punct
+但	有	mark
+它	有	nsubj
+有	建议	ccomp
+可能	超过	aux
+在	年	case
+几	年	nummod
+年	超过	obl
+内	年	case
+超过	有	xcomp
+南非	超过	obj
+。	建议	punct
+----------------------------------------------------------------------
+安哥拉：中国助推的增长
+
+(ROOT (IP (NP (NNP 安哥拉)) (: ：) (VP (NP (DNP (NP (NP (NNP 中国)) (NP (VV 助推))) (DEC 的)) (NP (NN 增长))))))
+layer 2:
+{'IP': {'NP': {}, ':': {}, 'VP': {}}}
+{'IP': {'NP': {}, ':': {}, 'VP': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, ':': {}, 'VP': {'NP': {}}}}
+{'IP': {'NP': {'NNP': {}}, ':': {}, 'VP': {'NP': {}}}}
+{'NP': {'NNP': {}}}
+{'VP': {'NP': {}}}
+Dependency Features:
+安哥拉	ROOT	root
+：	安哥拉	punct
+中国	助推	nsubj
+助推	增长	acl:relcl
+的	助推	mark:rel
+增长	安哥拉	appos
+----------------------------------------------------------------------
+安哥拉是南部非洲经济体，在南非和尼日利亚之后，是该地区第三大经济体，其国内生产总值为 1070 亿美元，人均收入为 8200 美元。
+
+(ROOT (IP (IP (NP (NNP 安哥拉)) (VP (VP (VC 是) (NP (NP (NP (NN 南部)) (NP (NNP 非洲))) (NP (NN 经济) (SFN 体)))) (, ，) (VP (PP (VV 在) (LCP (NP (NNP 南非) (CC 和) (NNP 尼日利亚)) (IN 之后))) (, ，) (VP (VC 是) (NP (NP (DP (DT 该)) (NP (NN 地区))) (ADJP (QP (CD 第三)) (ADJP (PFA 大))) (NP (NN 经济) (SFN 体))))))) (, ，) (IP (NP (NP (PRP 其)) (NP (NN 国内) (NN 生产) (NN 总值))) (VP (VC 为) (QP (CD 1070) (QP (NNP 亿美) (CLP (NNB 元)))))) (, ，) (IP (NP (ADJP (JJ 人均)) (NP (NN 收入))) (VP (VC 为) (QP (CD 8200) (CLP (NNB 美元))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP6618': {}, ',87647': {}, 'IP62162': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP94274': {'NP': {}, 'VP': {}}, ',70785': {}, 'IP94124': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+安哥拉	体	nsubj
+是	体	cop
+南部	体	nmod
+非洲	体	nmod
+经济	体	compound
+体	体	acl
+，	体	punct
+在	体	acl
+南非	在	obj
+和	尼日利亚	cc
+尼日利亚	南非	conj
+之后	在	mark
+，	在	punct
+是	体	cop
+该	地区	det
+地区	体	nmod
+第三	体	nummod
+大	体	case
+经济	体	compound
+体	ROOT	root
+，	元	punct
+其	总值	nmod
+国内	总值	nmod
+生产	总值	nmod
+总值	元	nsubj
+为	元	cop
+1070	元	nummod
+亿美	元	nmod
+元	体	parataxis
+，	美元	punct
+人均	收入	amod
+收入	美元	nsubj
+为	美元	cop
+8200	美元	nummod
+美元	体	parataxis
+。	体	punct
+----------------------------------------------------------------------
+自 2002 年内战结束以来，安哥拉的经济发展速度远远超过非洲两大经济强国，世界银行最近将其重新归类为中上收入经济体。
+
+(ROOT (IP (IP (PP (IN 自) (LCP (IP (NP (CD 2002) (NNB 年内战)) (VP (VV 结束))) (IN 以来))) (, ，) (NP (DNP (NP (NNP 安哥拉)) (DEC 的)) (NP (NN 经济) (NN 发展) (NN 速度))) (VP (ADVP (RB 远远)) (VP (VV 超过) (NP (NP (NNP 非洲)) (QP (CD 两)) (ADJP (PFA 大)) (NP (NN 经济) (NN 强国)))))) (, ，) (IP (NP (NN 世界) (NN 银行)) (VP (NP (NN 最近)) (VP (BB 将) (IP (NP (PRP 其)) (VP (ADVP (RB 重新)) (VP (VRD (VV 归类) (VC 为)) (NP (NP (ADJP (JJ 中上)) (NP (NN 收入))) (NP (NN 经济) (SFN 体))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP33975': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP9409': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+自	结束	case
+2002	年内战	nummod
+年内战	结束	nmod:tmod
+结束	超过	ccomp
+以来	结束	mark
+，	结束	punct
+安哥拉	速度	nmod
+的	安哥拉	case
+经济	速度	nmod
+发展	速度	nmod
+速度	超过	nsubj
+远远	超过	advmod
+超过	ROOT	root
+非洲	强国	nmod
+两	强国	nummod
+大	强国	case
+经济	强国	nmod
+强国	超过	obj
+，	归类	punct
+世界	银行	nmod
+银行	归类	nsubj
+最近	归类	nmod:tmod
+将	其	case
+其	归类	obl:patient
+重新	归类	advmod
+归类	超过	parataxis
+为	归类	mark
+中上	收入	amod
+收入	体	nmod
+经济	体	compound
+体	归类	obj
+。	超过	punct
+----------------------------------------------------------------------
+不过，与南非不同的是，安哥拉的经济年轻化，缺乏多样化。
+
+(ROOT (IP (ADVP (RB 不过)) (, ，) (NP (CP (CP (IP (VP (PP (IN 与) (NP (NNP 南非))) (VP (JJ 不同)))) (DEC 的)))) (VP (VC 是) (, ，) (IP (NP (DNP (NP (NNP 安哥拉)) (DEC 的)) (NP (NN 经济))) (VP (VP (VCD (JJ 年轻) (SFV 化))) (, ，) (VP (VV 缺乏) (NP (JJ 多样) (SFV 化)))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
 {'NP': {'CP': {}}}
 {'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+不过	是	mark
+，	不过	punct
+与	南非	case
+南非	不同	nmod
+不同	是	csubj
+的	不同	mark:rel
+是	ROOT	root
+，	缺乏	punct
+安哥拉	化	nmod
+的	安哥拉	case
+经济	化	nsubj
+年轻	化	compound
+化	缺乏	csubj
+，	化	punct
+缺乏	是	ccomp
+多样	化	compound
+化	缺乏	xcomp
+。	是	punct
 ----------------------------------------------------------------------
-如果卡特拉爆发，北大西洋航空空域可能会受到影响数月。
+该国仍在从长达 27 年的内战中恢复过来，这场战争摧毁了该国的经济和人民。
 
-(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (NNP 卡特拉)) (VP (VV 爆发)))) (, ，) (NP (NN 北) (NNP 大西) (SFN 洋) (NN 航空) (NN 空域)) (VP (MD 可能) (VP (MD 会) (VP (VV 受到) (NP (NP (VV 影响)) (QP (CD 数)) (NP (NNB 月)))))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'NN': {}, 'NNP': {}, 'SFN': {}, 'NN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+(ROOT (IP (NP (NN 该国)) (VP (ADVP (RB 仍)) (PP (IN 在) (IP (VP (PP (IN 从) (LCP (NP (CP (IP (VP (VV 长达) (QP (CD 27) (CLP (NNB 年的)))))) (NP (NN 内战))) (IN 中))) (VP (VRD (VV 恢复) (NN 过来)))))) (, ，) (NP (DP (DT 这) (CLP (NNB 场))) (NP (NN 战争))) (VP (VV 摧毁) (AS 了) (NP (DNP (NP (NN 该国)) (DEC 的)) (NP (NN 经济) (CC 和) (NN 人民))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+该国	恢复	nsubj
+仍	恢复	advmod
+在	内战	case
+从	内战	case
+长达	内战	amod
+27	年的	nummod
+年的	长达	obj
+内战	恢复	obl
+中	内战	case
+恢复	ROOT	root
+过来	恢复	obj
+，	摧毁	punct
+这	场	det
+场	战争	clf
+战争	摧毁	nsubj
+摧毁	恢复	parataxis
+了	摧毁	aux
+该国	经济	nmod
+的	该国	case
+经济	摧毁	obj
+和	人民	cc
+人民	经济	conj
+。	恢复	punct
+----------------------------------------------------------------------
+安哥拉是非洲第二大石油出口国。
+
+(ROOT (IP (NP (NNP 安哥拉)) (VP (VC 是) (NP (NP (NNP 非洲)) (ADJP (QP (CD 第二)) (ADJP (PFA 大))) (NP (NN 石油) (VV 出口) (SFN 国)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+安哥拉	国	nsubj
+是	国	cop
+非洲	国	nmod
+第二	国	nummod
+大	国	case
+石油	国	nmod
+出口	国	compound
+国	ROOT	root
+。	国	punct
+----------------------------------------------------------------------
+2009 年全球经济衰退之前，其经济增长率达到 15%。
+
+(ROOT (IP (LCP (IP (NP (NP (CD 2009)) (ADJP (NNB 年全球)) (NP (NN 经济))) (VP (VV 衰退))) (IN 之前)) (, ，) (NP (NP (PRP 其)) (NP (NN 经济) (VV 增长) (SFN 率))) (VP (VV 达到) (QP (CD 15%))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NP': {}, 'NP87444': {}}, 'VP': {'VV': {}, 'QP': {}}, '.': {}}}
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'QP': {}}, '.': {}}}
+{'LCP': {'IP': {}, 'IN': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'QP': {}}}
+Dependency Features:
+2009	年全球	nummod
+年全球	衰退	nmod:tmod
+经济	衰退	nsubj
+衰退	达到	ccomp
+之前	衰退	mark
+，	衰退	punct
+其	率	nmod
+经济	率	nmod
+增长	率	compound
+率	达到	nsubj
+达到	ROOT	root
+15%	达到	obj
+。	达到	punct
+----------------------------------------------------------------------
+尽管目前经济正在收缩，但由于出口石油和钻石，以及铀、铁矿石、黄金和铜，因此预计今年该国的经济仍将增长 6.8%。
+
+(ROOT (IP (CP (ADVP (IN 尽管)) (IP (NP (NN 目前)) (NP (NN 经济)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 收缩))))) (, ，) (ADVP (RB 但)) (PP (IN 由于) (IP (VP (NN 出口) (NP (NP (NN 石油) (CC 和) (NN 钻石)) (, ，) (CC 以及) (NP (NN 铀) (EC 、) (NN 铁) (NN 矿石) (EC 、) (NN 黄金) (CC 和) (NN 铜)))))) (, ，) (ADVP (IN 因)) (ADVP (PRD 此)) (VP (VV 预计) (IP (NP (NN 今年)) (NP (DNP (NP (NN 该国)) (DEC 的)) (NP (NN 经济))) (VP (ADVP (RB 仍)) (ADVP (RB 将)) (VP (VV 增长) (QP (CD 6.8%)))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'PP': {}, ',69248': {}, 'ADVP13317': {}, 'ADVP90490': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'PP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'PP': {'IN': {}, 'IP': {}}, ',20065': {}, 'ADVP77041': {'IN': {}}, 'ADVP99423': {'PRD': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'PP': {'IN': {}, 'IP': {}}, ',': {}, 'ADVP': {'IN': {}}, 'ADVP': {'PRD': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
 {'CP': {'ADVP': {}, 'IP': {}}}
-{'NP': {'NN': {}, 'NNP': {}, 'SFN': {}, 'NN': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
+{'ADVP': {'RB': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'ADVP': {'IN': {}}}
+{'ADVP': {'PRD': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+尽管	收缩	case
+目前	收缩	nmod:tmod
+经济	收缩	nsubj
+正	收缩	advmod
+在	收缩	advmod
+收缩	预计	ccomp
+，	收缩	punct
+但	预计	mark
+由于	石油	case
+出口	石油	nmod
+石油	预计	obl
+和	钻石	cc
+钻石	石油	conj
+，	铀	punct
+以及	铀	cc
+铀	石油	conj
+、	矿石	punct
+铁	矿石	nmod
+矿石	铀	conj
+、	黄金	punct
+黄金	铀	conj
+和	铜	cc
+铜	铀	conj
+，	石油	punct
+因	此	case
+此	预计	obl
+预计	ROOT	root
+今年	经济	nmod
+该国	经济	nmod
+的	该国	case
+经济	增长	nsubj
+仍	增长	advmod
+将	增长	advmod
+增长	预计	ccomp
+6.8%	增长	obj
+。	预计	punct
 ----------------------------------------------------------------------
-它甚至可能会影响气候：1991 年菲律宾宾塔布乌火山喷发，将大量灰尘喷入大气，导致地球接收到的太阳光减少，在接下来的两年里，地球的温度降低了约 0.5°C。
+安哥拉的大部分石油出口到中国，中国是非洲大陆上安哥拉最大的贸易伙伴。
 
-(ROOT (IP (IP (NP (PRP 它)) (VP (ADVP (RB 甚至)) (VP (MD 可能) (VP (MD 会) (VP (VV 影响) (NP (NN 气候))))))) (: ：) (IP (NP (CD 1991)) (NP (NP (NNB 年菲律宾)) (NP (NNP 宾塔布乌) (NN 火山))) (VP (VP (VV 喷发)) (, ，) (VP (BB 将) (IP (NP (QP (JJ 大量)) (NP (NN 灰尘))) (VP (VV 喷入) (NP (NN 大气))))))) (, ，) (IP (VP (VV 导致) (IP (NP (CP (CP (IP (NP (NNP 地球)) (VP (VRD (VV 接收) (VV 到)))) (DEC 的))) (NP (NN 太阳) (SFN 光))) (VP (VV 减少))))) (, ，) (IP (PP (VV 在) (LCP (QP (CP (CP (IP (VP (VRD (VV 接) (VV 下来)))) (DEC 的))) (QP (CD 两) (CLP (NNB 年)))) (IN 里))) (, ，) (NP (DNP (NP (NNP 地球)) (DEC 的)) (NP (NN 温度))) (VP (VV 降低) (AS 了) (QP (ADVP (RB 约)) (QP (CD 0.5) (CLP (FW °C)))))) (. 。)))
-{'IP': {'IP': {}, ':': {}, 'IP': {}, ',': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'NP': {}, 'VP': {}, 'VP': {}, 'PP': {}, ',': {}}, ',': {}, ',': {}, '.': {}}}
+(ROOT (IP (IP (NP (DNP (NP (NNP 安哥拉)) (DEC 的)) (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (NN 石油) (NN 出口))) (VP (PP (VV 到) (NP (NNP 中国))))) (, ，) (NP (NNP 中国)) (VP (VC 是) (NP (NP (LCP (NP (NP (NNP 非洲)) (NP (NN 大陆))) (IN 上)) (NP (NNP 安哥拉))) (CP (CP (IP (VP (JJ 最大))) (DEC 的))) (NP (NN 贸易) (NN 伙伴)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'NP': {}, 'VP': {}, 'VP': {}, 'PP': {}, ',': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+安哥拉	出口	nmod
+的	安哥拉	case
+大	部分	case
+部分	出口	nmod
+石油	出口	nmod
+出口	到	nsubj
+到	伙伴	acl
+中国	到	obj
+，	到	punct
+中国	伙伴	nsubj
+是	伙伴	cop
+非洲	大陆	nmod
+大陆	伙伴	nmod
+上	大陆	case
+安哥拉	伙伴	nmod
+最大	伙伴	amod
+的	最大	mark:rel
+贸易	伙伴	nmod
+伙伴	ROOT	root
+。	伙伴	punct
 ----------------------------------------------------------------------
-这是每个人都能够注意到的，即使是在一个晴天。
+战争结束以来，安哥拉的民政府实施了积极的经济和社会改革，这些改革开始产生成果，安哥拉声称在过去十年里将贫困率从 68% 降至 39%。
 
-(ROOT (IP (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (NP (DP (DT 每个)) (NP (NN 人))) (VP (ADVP (RB 都)) (VP (MD 能够) (VP (VRD (VV 注意) (VV 到)))))) (UH 的)))))) (, ，) (VP (IP (VP (ADVP (IN 即使)) (VP (VC 是) (PP (VV 在) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 晴天))))))) (. 。))))
-{'IP': {'IP': {}, ',': {}, 'VP': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'VP': {'IP': {}, '.': {}}}}
+(ROOT (IP (IP (LCP (IP (NP (NN 战争)) (VP (VV 结束))) (IN 以来)) (, ，) (NP (DNP (NP (NNP 安哥拉)) (DEC 的)) (NP (NN 民政) (SFN 府))) (VP (VV 实施) (AS 了) (NP (CP (CP (IP (VP (JJ 积极))) (DEC 的))) (NP (NN 经济) (CC 和) (NN 社会)) (NP (NN 改革))))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 改革))) (VP (VV 开始) (VP (VV 产生) (NP (NN 成果))))) (, ，) (IP (NP (NNP 安哥拉)) (VP (VV 声称) (IP (VP (PP (IN 在) (LCP (QP (NP (NN 过去)) (QP (CD 十) (CLP (NNB 年)))) (IN 里))) (VP (BB 将) (IP (NP (NN 贫) (VV 困) (SFN 率)) (VP (PP (IN 从) (QP (CD 68%))) (VP (VV 降至) (QP (CD 39%)))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP15546': {}, ',8814': {}, 'IP39518': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP23822': {'NP': {}, 'VP': {}}, ',82331': {}, 'IP68062': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-{'VP': {'IP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+战争	结束	nsubj
+结束	实施	advcl
+以来	结束	mark
+，	结束	punct
+安哥拉	府	nmod
+的	安哥拉	case
+民政	府	compound
+府	实施	nsubj
+实施	ROOT	root
+了	实施	aux
+积极	改革	amod
+的	积极	mark:rel
+经济	改革	nmod
+和	社会	cc
+社会	改革	nmod
+改革	实施	obj
+，	开始	punct
+这些	改革	det
+改革	开始	nsubj
+开始	实施	parataxis
+产生	开始	xcomp
+成果	产生	obj
+，	声称	punct
+安哥拉	声称	nsubj
+声称	实施	parataxis
+在	年	case
+过去	年	nmod
+十	年	nummod
+年	降至	obl
+里	年	case
+将	率	case
+贫	率	nmod
+困	率	compound
+率	降至	obl:patient
+从	68%	case
+68%	降至	obl
+降至	声称	xcomp
+39%	降至	obj
+。	实施	punct
+----------------------------------------------------------------------
+它还宣布了一项基础设施发展计划，要建造数千英里的道路和铁路，建造数百座桥梁，并重建机场。
+
+(ROOT (IP (NP (PRP 它)) (VP (VP (ADVP (RB 还)) (VP (VV 宣布) (AS 了) (NP (QP (CD 一) (CLP (NNB 项))) (NP (NN 基础) (NN 设施) (NN 发展) (NN 计划))))) (, ，) (VP (MD 要) (VP (VP (VV 建造) (NP (DNP (QP (CD 数千) (CLP (NNB 英里))) (DEC 的)) (NP (NN 道路) (CC 和) (NN 铁路)))) (, ，) (VP (VV 建造) (NP (QP (CD 数百) (CLP (NNB 座))) (NP (NN 桥梁)))) (, ，) (RB 并) (VP (VV 重建) (NP (NN 机场)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP69600': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+它	宣布	nsubj
+还	宣布	mark
+宣布	ROOT	root
+了	宣布	aux
+一	项	nummod
+项	计划	clf
+基础	计划	nmod
+设施	计划	nmod
+发展	计划	nmod
+计划	重建	nsubj
+，	计划	punct
+要	建造	aux
+建造	重建	advcl
+数千	英里	nummod
+英里	道路	nmod
+的	英里	mark:rel
+道路	建造	obj
+和	铁路	cc
+铁路	道路	conj
+，	建造	punct
+建造	重建	advcl
+数百	座	nummod
+座	桥梁	clf
+桥梁	建造	obj
+，	建造	punct
+并	重建	mark
+重建	宣布	ccomp
+机场	重建	obj
+。	宣布	punct
+----------------------------------------------------------------------
+其中大部分基础设施项目都涉及中国公司，这些人批评这些项目是在实施一项油换基础设施的交易，而这些交易被指责为有利于中国。
+
+(ROOT (IP (IP (NP (NN 其中)) (NP (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (NN 基础) (NN 设施) (NN 项目))) (VP (ADVP (RB 都)) (VP (VV 涉及) (NP (NP (NNP 中国)) (NP (NN 公司)))))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 人))) (VP (VV 批评) (NP (DP (DT 这些)) (NP (NN 项目))) (IP (VP (VC 是) (VP (ADVP (VV 在)) (VP (VV 实施) (NP (DNP (NP (QP (CD 一) (CLP (NNB 项))) (NP (ADJP (NN 油换)) (NP (NN 基础))) (NP (NN 设施))) (DEC 的)) (NP (NN 交易))))))))) (, ，) (RB 而) (IP (NP (DP (DT 这些)) (NP (NN 交易))) (VP (BB 被) (VP (VCP (VV 指责) (VC 为)) (IP (VP (JJ 有利) (PP (VV 于) (NP (NNP 中国)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP21088': {}, ',62146': {}, 'RB': {}, 'IP85391': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'RB': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'NP95625': {}, 'VP': {}}, ',': {}, 'IP64129': {'NP': {}, 'VP': {}}, ',24830': {}, 'RB': {}, 'IP14535': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'RB': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+其中	涉及	obl
+大	部分	case
+部分	项目	nmod
+基础	项目	nmod
+设施	项目	nmod
+项目	涉及	nsubj
+都	涉及	mark
+涉及	ROOT	root
+中国	公司	nmod
+公司	涉及	obj
+，	批评	punct
+这些	人	det
+人	批评	nsubj
+批评	涉及	parataxis
+这些	项目	det
+项目	是	nsubj
+是	批评	ccomp
+在	是	xcomp
+实施	在	xcomp
+一	项	nummod
+项	设施	clf
+油换	设施	nmod
+基础	设施	nmod
+设施	交易	nmod
+的	设施	case
+交易	实施	obj
+，	指责	punct
+而	指责	mark
+这些	交易	det
+交易	指责	nsubj:pass
+被	指责	aux:pass
+指责	涉及	parataxis
+为	指责	mark
+有利	指责	xcomp
+于	有利	mark
+中国	有利	obj
+。	涉及	punct
+----------------------------------------------------------------------
+加纳：非洲的下一颗经济之星？
+
+(ROOT (IP (NP (NNP 加纳)) (: ：) (VP (NP (DNP (NP (NNP 非洲)) (DEC 的)) (DP (DT 下) (QP (CD 一) (CLP (NNB 颗)))) (DNP (NP (NN 经济)) (DEC 之)) (NP (NN 星)))) (. ？)))
+layer 2:
+{'IP': {'NP': {}, ':': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ':': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, ':': {}, 'VP': {'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, ':': {}, 'VP': {'NP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'NP': {}}}
+Dependency Features:
+加纳	星	nmod
+：	加纳	punct
+非洲	加纳	appos
+的	非洲	mark:rel
+下	颗	det
+一	颗	nummod
+颗	经济	nmod
+经济	星	nmod
+之	经济	case
+星	ROOT	root
+？	星	punct
+----------------------------------------------------------------------
+另一个新兴非洲“狮子”是世界银行仍将其划为中低收入国家的西非国家加纳。
+
+(ROOT (IP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 个)))) (ADJP (JJ 新兴)) (NP (NNP 非洲)) (NP (`` “) (NN 狮子) ('' ”))) (VP (VP (VC 是) (NP (NN 世界) (NN 银行))) (VP (ADVP (RB 仍)) (VP (BB 将) (NP (NP (CP (CP (IP (VP (VRD (VV 其划) (VC 为)) (NP (NP (ADJP (JJ 中低)) (NP (NN 收入))) (NP (NN 国家))))) (DEC 的))) (NP (NNP 西非)) (NP (NN 国家))) (NP (NNP 加纳)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'ADJP': {}, 'NP': {}, 'NP29467': {}}, 'VP': {'VP': {}, 'VP41900': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'ADJP': {}, 'NP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'ADJP': {}, 'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+另	个	det
+一	个	nummod
+个	狮子	nmod
+新兴	狮子	amod
+非洲	狮子	nmod
+“	狮子	punct
+狮子	国家	nsubj
+”	狮子	punct
+是	银行	cop
+世界	银行	nmod
+银行	国家	acl
+仍	国家	advmod
+将	国家	case
+其划	国家	acl:relcl
+为	其划	mark
+中低	收入	amod
+收入	国家	nmod
+国家	其划	obj
+的	其划	mark:rel
+西非	国家	nmod
+国家	ROOT	root
+加纳	国家	appos
+。	国家	punct
+----------------------------------------------------------------------
+2011 年，埃塞俄比亚经济增长率为 14.3%，成为世界上增长最快的经济体之一（非洲大陆第一），尽管世界银行预计其2012 年的增长率将降至 7.5%。
+
+(ROOT (IP (IP (NP (CD 2011) (NNB 年)) (, ，) (NP (NP (NNP 埃塞俄比亚)) (NP (NN 经济) (VV 增长) (SFN 率))) (VP (VP (VC 为) (QP (CD 14.3%))) (, ，) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (CP (CP (IP (LCP (NP (NN 世界)) (IN 上)) (NP (VV 增长)) (VP (JJ 最快))) (DEC 的))) (NP (NN 经济) (SFN 体))) (DEC 之)) (NP (CD 一)) (PRN (-LRB- （) (QP (NP (NP (NNP 非洲)) (NP (NN 大陆))) (QP (CD 第一))) (-RRB- ）))))))) (, ，) (CP (ADVP (IN 尽管)) (IP (NP (NN 世界) (NN 银行)) (VP (VV 预计) (IP (NP (NP (PRP 其)) (DNP (NP (CD 2012) (NNB 年)) (DEC 的)) (NP (VV 增长) (SFN 率))) (VP (ADVP (RB 将)) (VP (VRD (VV 降) (VV 至)) (QP (CD 7.5%)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'CP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'CP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP51914': {}, 'VP': {}}, ',': {}, 'CP': {'ADVP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'CP': {'ADVP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+Dependency Features:
+2011	年	nummod
+年	成	nmod:tmod
+，	年	punct
+埃塞俄比亚	率	nmod
+经济	率	nmod
+增长	率	compound
+率	成	nsubj
+为	14.3%	cop
+14.3%	成	advcl
+，	14.3%	punct
+成	ROOT	root
+为	成	mark
+世界	增长	obl
+上	世界	case
+增长	体	acl:relcl
+最快	增长	xcomp
+的	增长	mark:rel
+经济	体	compound
+体	一	nmod
+之	体	case
+一	成	obj
+（	第一	punct
+非洲	第一	nmod
+大陆	第一	nmod
+第一	一	appos
+）	第一	punct
+，	预计	punct
+尽管	预计	case
+世界	银行	nmod
+银行	预计	nsubj
+预计	成	ccomp
+其	年	nmod
+2012	年	nummod
+年	率	nmod
+的	年	case
+增长	率	compound
+率	降	nsubj
+将	降	advmod
+降	预计	ccomp
+至	降	mark
+7.5%	降	obj
+。	成	punct
+----------------------------------------------------------------------
+加纳的增长主要归功于石油产量的增加，尽管钻石、铁矿石和可可出口也对收入产生了贡献。
+
+(ROOT (IP (IP (NP (DNP (NP (NNP 加纳)) (DEC 的)) (NP (NN 增长))) (VP (ADVP (RB 主要)) (VP (VV 归功) (PP (VV 于) (NP (DNP (NP (NN 石油) (NN 产量)) (DEC 的)) (NP (NN 增加))))))) (, ，) (CP (ADVP (IN 尽管)) (IP (NP (NP (NN 钻石)) (EC 、) (NP (NN 铁) (NN 矿石)) (CC 和) (NP (ADJP (NN 可可)) (NP (NN 出口)))) (VP (ADVP (RB 也)) (PP (IN 对) (NP (NN 收入))) (VP (VV 产生) (AS 了) (NP (NN 贡献)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'CP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'CP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'CP': {'ADVP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'CP': {'ADVP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+Dependency Features:
+加纳	增长	nmod
+的	加纳	case
+增长	归功	nsubj
+主要	归功	advmod
+归功	ROOT	root
+于	归功	mark
+石油	产量	nmod
+产量	增加	nmod
+的	产量	case
+增加	归功	obj
+，	产生	punct
+尽管	产生	case
+钻石	产生	nsubj
+、	矿石	punct
+铁	矿石	nmod
+矿石	钻石	conj
+和	出口	cc
+可可	出口	nmod
+出口	钻石	conj
+也	产生	mark
+对	收入	case
+收入	产生	obl
+产生	归功	parataxis
+了	产生	aux
+贡献	产生	obj
+。	归功	punct
+----------------------------------------------------------------------
+在数十年的管理不善之后，加纳在 20 世纪 90 年代初开始实施广泛的经济改革，并得到了国际货币基金组织和世界银行的支持。
+
+(ROOT (IP (PP (IN 在) (LCP (IP (NP (DNP (QP (CD 数十) (CLP (NNB 年))) (DEC 的)) (NP (NN 管理))) (VP (JJ 不善))) (IN 之后))) (, ，) (NP (NNP 加纳)) (VP (VP (PP (IN 在) (LCP (NP (NP (QP (CD 20)) (NP (NNB 世纪))) (QP (CD 90)) (NP (NNB 年代))) (IN 初))) (VP (VV 开始) (VP (VV 实施) (NP (CP (CP (IP (VP (JJ 广泛))) (DEC 的))) (NP (NN 经济) (NN 改革)))))) (, ，) (RB 并) (VP (VV 得到) (AS 了) (NP (DNP (NP (NP (NN 国际) (NN 货币) (NN 基金) (NN 组织)) (CC 和) (NP (NN 世界) (NN 银行))) (DEC 的)) (NP (NN 支持))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP75620': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+在	不善	case
+数十	年	nummod
+年	不善	nmod
+的	年	case
+管理	不善	nsubj
+不善	得到	ccomp
+之后	不善	mark
+，	不善	punct
+加纳	得到	nsubj
+在	年代	case
+20	世纪	nummod
+世纪	年代	clf
+90	年代	nummod
+年代	开始	obl
+初	年代	case
+开始	得到	advcl
+实施	开始	xcomp
+广泛	改革	amod
+的	广泛	mark:rel
+经济	改革	nmod
+改革	实施	obj
+，	开始	punct
+并	得到	mark
+得到	ROOT	root
+了	得到	aux
+国际	组织	nmod
+货币	组织	nmod
+基金	组织	nmod
+组织	支持	nmod
+和	银行	cc
+世界	银行	nmod
+银行	组织	conj
+的	组织	case
+支持	得到	obj
+。	得到	punct
+----------------------------------------------------------------------
+2007 年，在该国发现了石油，这促进了经济的较快增长。
+
+(ROOT (IP (IP (NP (CD 2007) (NNB 年)) (, ，) (VP (PP (VV 在) (NP (NN 该国))) (VP (VV 发现) (AS 了) (NP (NN 石油))))) (, ，) (IP (NP (PRD 这)) (VP (VV 促进) (AS 了) (NP (DNP (NP (NN 经济)) (DEC 的)) (ADJP (JJ 较快)) (NP (NN 增长))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP2034': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP8653': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+2007	年	nummod
+年	发现	nmod:tmod
+，	年	punct
+在	发现	advcl
+该国	在	obj
+发现	ROOT	root
+了	发现	aux
+石油	发现	obj
+，	促进	punct
+这	促进	nsubj
+促进	发现	parataxis
+了	促进	aux
+经济	增长	nmod
+的	经济	case
+较快	增长	amod
+增长	促进	obj
+。	发现	punct
+----------------------------------------------------------------------
+自 1992 年以来，加纳一直是一个稳定的民主国家，被视为审慎的政治和经济改革的典范。
+
+(ROOT (IP (PP (IN 自) (LCP (NP (CD 1992)) (NNB 年以来))) (, ，) (NP (NNP 加纳)) (VP (VP (ADVP (RB 一直)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 稳定))) (DEC 的))) (NP (NN 民主) (NN 国家))))) (, ，) (VP (BB 被) (VP (VCP (VV 视) (VC 为)) (NP (DNP (NP (CP (CP (IP (VP (JJ 审慎))) (DEC 的))) (NP (NN 政治) (CC 和) (NN 经济)) (NP (NN 改革))) (DEC 的)) (NP (NN 典范)))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP20854': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+自	年以来	case
+1992	年以来	nummod
+年以来	视	obl
+，	年以来	punct
+加纳	视	nsubj:pass
+一直	国家	advmod
+是	国家	cop
+一	个	nummod
+个	国家	clf
+稳定	国家	amod
+的	稳定	mark:rel
+民主	国家	nmod
+国家	视	advcl
+，	国家	punct
+被	视	aux:pass
+视	ROOT	root
+为	视	mark
+审慎	政治	amod
+的	审慎	mark:rel
+政治	典范	nmod
+和	改革	cc
+经济	改革	nmod
+改革	政治	conj
+的	政治	case
+典范	视	obj
+。	视	punct
+----------------------------------------------------------------------
+埃塞俄比亚：公共部门投资
+
+(ROOT (NP (NP (NNP 埃塞俄比亚)) (: ：) (NP (ADJP (JJ 公共)) (NP (NN 部门))) (VP (VV 投资))))
+layer 2:
+{'NP': {'NP': {}, ':': {}, 'NP93969': {}, 'VP': {}}}
+{'NP': {'NP': {}, ':': {}, 'NP': {}, 'VP': {}}}
+layer 3:
+{'NP': {'NP': {'NNP': {}}, ':': {}, 'NP63273': {'ADJP': {}, 'NP': {}}, 'VP': {'VV': {}}}}
+{'NP': {'NP': {'NNP': {}}, ':': {}, 'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'VV': {}}}}
+{'NP': {'NNP': {}}}
+{'NP': {'ADJP': {}, 'NP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+埃塞俄比亚	投资	nsubj
+：	埃塞俄比亚	punct
+公共	部门	nmod
+部门	投资	nsubj
+投资	ROOT	root
+----------------------------------------------------------------------
+埃塞俄比亚是一个非资源丰富国家的典范，尽管如此，它的经济在 2004 年至 2011 年间还是以 11% 的平均增长率增长。
+
+(ROOT (IP (IP (NP (NNP 埃塞俄比亚)) (VP (VC 是) (NP (DNP (NP (QP (CD 一) (CLP (NNB 个))) (CP (IP (NP (ADJP (PFA 非)) (NP (NN 资源))) (VP (JJ 丰富)))) (NP (NN 国家))) (DEC 的)) (NP (NN 典范))))) (, ，) (IP (IP (VP (ADVP (IN 尽管)) (VP (NP (VV 如此))))) (, ，) (NP (DNP (NP (PRP 它)) (DEC 的)) (NP (NN 经济))) (VP (PP (IN 在) (LCP (NP (CD 2004) (NNB 年至) (CD 2011)) (NN 年间))) (ADVP (RB 还是)) (PP (IN 以) (NP (DNP (QP (CD 11%)) (DEC 的)) (ADJP (JJ 平均)) (NP (VV 增长) (SFN 率)))) (VP (VV 增长)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP47385': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP86092': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+埃塞俄比亚	典范	nsubj
+是	典范	cop
+一	个	nummod
+个	典范	clf
+非	资源	case
+资源	丰富	nsubj
+丰富	国家	amod
+国家	典范	nmod
+的	国家	mark:rel
+典范	ROOT	root
+，	增长	punct
+尽管	如此	case
+如此	增长	xcomp
+，	如此	punct
+它	经济	det
+的	它	case
+经济	增长	nsubj
+在	年间	case
+2004	年至	nummod
+年至	年间	clf
+2011	年间	nummod
+年间	增长	obl
+还是	增长	mark
+以	率	case
+11%	率	nummod
+的	11%	case
+平均	率	amod
+增长	率	compound
+率	增长	obl
+增长	典范	parataxis
+。	典范	punct
+----------------------------------------------------------------------
+据世界银行称，这是该国政府在农业、工业化和基础设施方面的公共部门投资的结果。
+
+(ROOT (PP (IN 据) (IP (NP (NN 世界) (NN 银行)) (VP (VV 称) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (IP (NP (NP (NP (NN 该国)) (NP (NN 政府))) (DNP (PP (IN 在) (NP (NP (NN 农业) (EC 、) (NN 工业) (SFN 化) (CC 和) (NN 基础) (NN 设施)) (NP (NN 方面)))) (DEC 的)) (ADJP (JJ 公共)) (NP (NN 部门))) (VP (VV 投资))) (DEC 的)) (NP (NN 结果))))))) (. 。)))
+layer 2:
+{'PP': {'IN': {}, 'IP': {}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'PP': {'IN': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+据	称	case
+世界	银行	nmod
+银行	称	nsubj
+称	ROOT	root
+，	称	punct
+这	结果	nsubj
+是	结果	cop
+该国	政府	nmod
+政府	结果	nmod
+在	部门	case
+农业	部门	nmod
+、	化	punct
+工业	化	compound
+化	农业	conj
+和	设施	cc
+基础	设施	nmod
+设施	农业	conj
+方面	农业	conj
+的	投资	mark:rel
+公共	部门	amod
+部门	投资	obl
+投资	结果	acl:relcl
+的	投资	mark:rel
+结果	称	ccomp
+。	结果	punct
+----------------------------------------------------------------------
+埃塞俄比亚政府对水力发电的投资使其成为南苏丹和吉布提等邻国的电力净出口国。
+
+(ROOT (IP (NP (NP (NP (NNP 埃塞俄比亚)) (NP (NN 政府))) (DNP (PP (IN 对) (NP (NN 水力) (VV 发电))) (DEC 的)) (NP (NN 投资))) (VP (VV 使) (NP (PRP 其)) (IP (VP (VV 成) (VP (VC 为) (NP (DNP (NP (NP (NP (NP (NN 南)) (NP (NNP 苏丹))) (CC 和) (NP (NNP 吉布) (NNP 提)) (NN 等)) (NP (NN 邻国))) (DEC 的)) (NP (NN 电力)) (ADJP (PFA 净)) (NP (VV 出口) (SFN 国))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'DNP': {}, 'NP55730': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
+Dependency Features:
+埃塞俄比亚	政府	nmod
+政府	投资	nmod
+对	投资	case
+水力	发电	nsubj
+发电	投资	acl:relcl
+的	发电	mark:rel
+投资	使	obl
+使	ROOT	root
+其	成	nsubj
+成	使	ccomp
+为	成	mark
+南	苏丹	nmod
+苏丹	国	nmod
+和	吉布	cc
+吉布	苏丹	conj
+提	苏丹	conj
+等	苏丹	acl
+邻国	苏丹	appos
+的	苏丹	case
+电力	国	nmod
+净	国	case
+出口	国	compound
+国	成	obj
+。	使	punct
+----------------------------------------------------------------------
+埃塞俄比亚人口为 8500 万，是非洲沙漠南部地区人口最多的国家，仅次于尼日利亚。
+
+(ROOT (IP (NP (NP (NNP 埃塞俄比亚)) (NP (NN 人口))) (VP (VP (VC 为) (QP (CD 8500) (QP (NNB 万)))) (, ，) (VP (VC 是) (NP (CP (CP (IP (NP (NP (NNP 非洲)) (NP (NN 沙漠) (NN 南部) (NN 地区))) (NP (NN 人口)) (VP (JJ 最多))) (DEC 的))) (NP (NN 国家)))) (, ，) (VP (ADVP (RB 仅)) (VP (VV 次) (PP (VV 于) (NP (NNP 尼日利亚)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP42204': {}}, 'VP': {'VP': {}, ',': {}, 'VP12937': {}, ',45276': {}, 'VP74024': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+埃塞俄比亚	人口	nmod
+人口	万	nsubj
+为	万	cop
+8500	万	nummod
+万	ROOT	root
+，	次	punct
+是	国家	cop
+非洲	人口	nmod
+沙漠	人口	nmod
+南部	人口	nmod
+地区	人口	nmod
+人口	最多	nsubj
+最多	国家	acl:relcl
+的	最多	mark:rel
+国家	次	advcl
+，	国家	punct
+仅	次	advmod
+次	万	parataxis
+于	次	mark
+尼日利亚	次	obj
+。	万	punct
+----------------------------------------------------------------------
+预计到 2020 年，埃塞俄比亚的人口将达到 1 亿，埃塞俄比亚是一个巨大的市场，预计将推动该地区的经济一体化和邻国的增长。
+
+(ROOT (IP (VP (VV 预计) (IP (IP (NP (CP (CP (IP (VP (PP (IN 到) (NP (CD 2020))) (VP (NNB 年，) (NP (NNP 埃塞俄比亚))))) (DEC 的))) (NP (NN 人口))) (VP (ADVP (RB 将)) (VP (VV 达到) (QP (CD 1 亿))))) (, ，) (IP (NP (NNP 埃塞俄比亚)) (VP (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 巨大))) (DEC 的))) (NP (NN 市场)))) (, ，) (VP (NN 预计) (IP (VP (ADVP (RB 将)) (VP (VV 推动) (NP (NP (NP (DNP (NP (DP (DT 该)) (NP (NN 地区))) (DEC 的)) (NP (NN 经济))) (QP (CD 一)) (NP (NN 体化))) (CC 和) (NP (DNP (NP (NN 邻国)) (DEC 的)) (NP (NN 增长)))))))))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+预计	ROOT	root
+到	年，	case
+2020	年，	nummod
+年，	达到	obl
+埃塞俄比亚	人口	nmod
+的	埃塞俄比亚	case
+人口	达到	nsubj
+将	达到	advmod
+达到	预计	ccomp
+1 亿	达到	obj
+，	推动	punct
+埃塞俄比亚	市场	nsubj
+是	市场	cop
+一	个	nummod
+个	市场	clf
+巨大	市场	amod
+的	巨大	mark:rel
+市场	推动	advcl
+，	市场	punct
+预计	推动	nsubj
+将	推动	advmod
+推动	达到	parataxis
+该	地区	det
+地区	体化	nmod
+的	地区	case
+经济	体化	nmod
+一	体化	nummod
+体化	增长	nmod
+和	邻国	cc
+邻国	体化	conj
+的	体化	case
+增长	推动	obj
+。	达到	punct
+----------------------------------------------------------------------
+此外，该国在实现千年发展目标（消除贫困、饥饿和疾病）的所有领域都取得了进展，因此受到了赞扬。
+
+(ROOT (IP (ADVP (NN 此外)) (, ，) (NP (NN 该国)) (VP (VP (PP (IN 在) (NP (CP (CP (IP (VP (VV 实现) (NP (QP (CD 千) (CLP (NNB 年))) (NP (NN 发展) (NN 目标)) (PRN (-LRB- （) (IP (VP (VV 消除) (NP (NN 贫困) (EC 、) (NN 饥饿) (CC 和) (NN 疾病)))) (-RRB- ）))))) (DEC 的))) (DP (DT 所有)) (NP (NN 领域)))) (ADVP (RB 都)) (VP (VV 取得) (AS 了) (NP (NN 进展)))) (, ，) (VP (PP (IN 因) (NP (PRD 此))) (VP (VV 受到) (AS 了) (NP (NN 赞扬))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP84296': {}}, '.': {}}}
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'NN': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+此外	受到	obl
+，	此外	punct
+该国	受到	nsubj
+在	实现	case
+实现	受到	xcomp
+千	年	nummod
+年	目标	clf
+发展	目标	nmod
+目标	实现	obj
+（	消除	punct
+消除	实现	ccomp
+贫困	消除	obj
+、	饥饿	punct
+饥饿	贫困	conj
+和	疾病	cc
+疾病	贫困	conj
+）	消除	punct
+的	消除	mark:rel
+所有	领域	det
+领域	实现	obj
+都	取得	mark
+取得	受到	advcl
+了	取得	aux
+进展	取得	obj
+，	取得	punct
+因	此	case
+此	受到	obl
+受到	ROOT	root
+了	受到	aux
+赞扬	受到	obj
+。	受到	punct
+----------------------------------------------------------------------
+埃塞俄比亚政府估计，贫困率从 2004 年的 38.7% 降至 2011 年的 29.6%。
+
+(ROOT (IP (NP (NP (NNP 埃塞俄比亚)) (NP (NN 政府))) (VP (VV 估计) (, ，) (IP (NP (VV 贫困) (SFN 率)) (VP (PP (IN 从) (QP (LCP (NP (CD 2004)) (NNB 年的)) (QP (CD 38.7%)))) (VP (VV 降至) (QP (LCP (NP (CD 2011)) (NNB 年的)) (QP (CD 29.6%))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP23031': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+埃塞俄比亚	政府	nmod
+政府	估计	nsubj
+估计	ROOT	root
+，	降至	punct
+贫困	率	compound
+率	降至	nsubj
+从	38.7%	case
+2004	年的	nummod
+年的	38.7%	clf
+38.7%	降至	obl
+降至	估计	ccomp
+2011	年的	nummod
+年的	29.6%	clf
+29.6%	降至	obj
+。	估计	punct
+----------------------------------------------------------------------
+因此，埃塞俄比亚已经奠定了可持续增长和新兴经济体地位的基础。
+
+(ROOT (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (NNP 埃塞俄比亚)) (VP (ADVP (RB 已经)) (VP (VV 奠定) (AS 了) (NP (CP (IP (VP (MD 可) (NP (NP (ADJP (JJ 持续)) (NP (NN 增长))) (CC 和) (NP (NP (ADJP (JJ 新兴)) (NP (NN 经济) (SFN 体))) (NP (NN 地位)))))) (DEC 的)) (NP (NN 基础))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'ADVP79252': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'IN': {}}, 'ADVP75424': {'PRD': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'IN': {}}, 'ADVP': {'PRD': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'IN': {}}}
+{'ADVP': {'PRD': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+因	此	case
+此	奠定	obl
+，	此	punct
+埃塞俄比亚	奠定	nsubj
+已经	奠定	advmod
+奠定	ROOT	root
+了	奠定	aux
+可	持续	aux
+持续	增长	amod
+增长	基础	nmod
+和	地位	cc
+新兴	地位	amod
+经济	体	compound
+体	地位	nmod
+地位	增长	conj
+的	增长	case
+基础	奠定	obj
+。	奠定	punct
+----------------------------------------------------------------------
+展望未来
+
+(ROOT (IP (VP (VV 展望) (NP (NN 未来)))))
+layer 2:
+{'IP': {'VP': {}}}
+{'IP': {'VP': {}}}
+layer 3:
+{'IP': {'VP': {'VV': {}, 'NP': {}}}}
+{'IP': {'VP': {'VV': {}, 'NP': {}}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+展望	ROOT	root
+未来	展望	obj
+----------------------------------------------------------------------
+虽然这五个经济体代表了非洲大陆的一些最亮眼的地方，但其他国家也在等待，特别是那些资源丰富的国家。
+
+(ROOT (IP (IP (CP (ADVP (IN 虽然)) (IP (NP (DP (DT 这) (QP (CD 五) (CLP (NNB 个)))) (NP (NN 经济) (SFN 体))) (VP (VV 代表) (AS 了) (NP (DNP (NP (NP (NNP 非洲)) (NP (NN 大陆))) (DEC 的)) (QP (JJ 一些)) (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 亮) (NP (SFN 眼))))) (DEC 的))) (NP (NN 地方)))))) (, ，) (ADVP (RB 但)) (NP (DP (DT 其他)) (NP (NN 国家))) (VP (ADVP (RB 也)) (ADVP (RB 在)) (VP (VV 等待)))) (, ，) (IP (VP (ADVP (RB 特别)) (VP (VC 是) (NP (DP (DT 那些)) (CP (CP (IP (NP (NN 资源)) (VP (JJ 丰富))) (DEC 的))) (NP (NN 国家)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP41065': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP45932': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+虽然	代表	case
+这	个	det
+五	个	nummod
+个	体	nmod
+经济	体	compound
+体	代表	nsubj
+代表	等待	ccomp
+了	代表	aux
+非洲	大陆	nmod
+大陆	地方	nmod
+的	大陆	case
+一些	地方	amod
+最	亮	advmod
+亮	眼	compound
+眼	地方	nmod
+的	眼	mark:rel
+地方	代表	obj
+，	代表	punct
+但	等待	mark
+其他	国家	det
+国家	等待	nsubj
+也	等待	mark
+在	等待	advmod
+等待	ROOT	root
+，	国家	punct
+特别	国家	advmod
+是	国家	cop
+那些	资源	det
+资源	丰富	nsubj
+丰富	国家	acl:relcl
+的	丰富	mark:rel
+国家	等待	ccomp
+。	等待	punct
+----------------------------------------------------------------------
+世界银行指出，例如塞拉利昂和平红利和铁矿石出口的综合效益，在 2012 年带来了 25% 的增长率。
+
+(ROOT (IP (NP (NN 世界) (NN 银行)) (VP (VV 指出) (, ，) (IP (NP (ADVP (VV 例如)) (NP (DNP (NP (NP (NP (NNP 塞拉利昂)) (NP (JJ 和平) (NN 红利))) (CC 和) (NP (NP (NN 铁) (NN 矿石)) (NP (NN 出口)))) (DEC 的)) (ADJP (JJ 综合)) (NP (NN 效益)))) (, ，) (VP (PP (IN 在) (NP (CD 2012))) (VP (NNB 年带来) (AS 了) (NP (DNP (QP (CD 25%)) (DEC 的)) (NP (VV 增长) (SFN 率))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'NN64850': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'NN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+世界	银行	nmod
+银行	指出	nsubj
+指出	ROOT	root
+，	例如	punct
+例如	指出	xcomp
+塞拉利昂	红利	nmod
+和平	红利	amod
+红利	例如	obj
+和	出口	cc
+铁	出口	nmod
+矿石	出口	nmod
+出口	红利	conj
+的	例如	mark:rel
+综合	效益	amod
+效益	例如	obj
+，	例如	punct
+在	年带来	case
+2012	年带来	nummod
+年带来	例如	obl
+了	年带来	aux
+25%	率	amod
+的	25%	mark:rel
+增长	率	compound
+率	年带来	appos
+。	指出	punct
+----------------------------------------------------------------------
+同样，尼日尔的铀和石油出口也导致了今年的 15% 的增长率。
+
+(ROOT (IP (ADVP (RB 同样)) (, ，) (NP (DNP (NP (NNP 尼日尔)) (DEC 的)) (NP (NN 铀) (CC 和) (NN 石油)) (NP (NN 出口))) (VP (ADVP (RB 也)) (VP (VV 导致) (AS 了) (NP (DNP (NP (NN 今年)) (DEC 的)) (DNP (QP (CD 15%)) (DEC 的)) (NP (VV 增长) (SFN 率))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}, 'NP89824': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DNP': {}, 'NP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+同样	导致	advmod
+，	同样	punct
+尼日尔	铀	nmod
+的	尼日尔	case
+铀	导致	nsubj
+和	出口	cc
+石油	出口	nmod
+出口	铀	conj
+也	导致	mark
+导致	ROOT	root
+了	导致	aux
+今年	率	nmod
+的	今年	case
+15%	率	nummod
+的	15%	mark:rel
+增长	率	compound
+率	导致	obj
+。	导致	punct
+----------------------------------------------------------------------
+根据世界银行发布的《非洲脉动》 2012 年 10 月版，至少有 10 个国家将加入世界银行将其划为中等收入国家的非洲撒哈拉沙漠以南地区的 21 个国家。
+
+(ROOT (IP (PP (IN 根据) (NP (NP (CP (CP (IP (NP (NN 世界) (NN 银行)) (VP (VV 发布))) (DEC 的))) (NP (-LRB- 《) (NP (NNP 非洲)) (NP (NN 脉动)) (-RRB- 》))) (NP (CD 2012) (NNB 年 10)) (NP (NNB 月版)))) (, ，) (VP (ADVP (RB 至少)) (VP (VV 有) (IP (NP (QP (CD 10) (CLP (NNB 个))) (NP (NN 国家))) (VP (ADVP (RB 将)) (VP (VP (VV 加入) (NP (NN 世界) (NN 银行))) (VP (BB 将) (NP (DNP (NP (CP (CP (IP (VP (VRD (VV 其划) (VC 为)) (NP (NP (NP (NNP 中) (NN 等)) (NP (NN 收入))) (NP (NN 国家))))) (DEC 的))) (LCP (NP (NP (NNP 非洲)) (NP (NNP 撒哈拉) (NN 沙漠))) (NN 以南)) (NP (NN 地区))) (DEC 的)) (QP (CD 21)) (NP (NNB 个国家))))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+根据	月版	case
+世界	银行	nmod
+银行	发布	nsubj
+发布	脉动	acl:relcl
+的	发布	mark:rel
+《	脉动	punct
+非洲	脉动	nmod
+脉动	月版	nmod
+》	脉动	punct
+2012	年 10	nummod
+年 10	月版	nummod
+月版	有	obl
+，	月版	punct
+至少	有	advmod
+有	ROOT	root
+10	个	nummod
+个	国家	clf
+国家	加入	nsubj
+将	加入	advmod
+加入	有	ccomp
+世界	银行	nmod
+银行	加入	nsubj
+将	个国家	case
+其划	个国家	acl:relcl
+为	其划	mark
+中	国家	nmod
+等	中	acl
+收入	国家	nmod
+国家	其划	obj
+的	其划	mark:rel
+非洲	地区	nmod
+撒哈拉	地区	nmod
+沙漠	地区	nmod
+以南	地区	nmod
+地区	其划	obj
+的	其划	mark:rel
+21	个国家	nummod
+个国家	加入	obj
+。	有	punct
+----------------------------------------------------------------------
+预计肯尼亚、坦桑尼亚和卢旺达等国的经济将实现增长，因为这些国家发现和开发了新的石油、天然气和其他矿产资源。
+
+(ROOT (IP (VP (VV 预计) (IP (IP (NP (DNP (NP (NNP 肯尼亚) (EC 、) (NNP 坦桑尼亚) (CC 和) (NNP 卢) (NNP 旺达) (NN 等国)) (DEC 的)) (NP (NN 经济))) (VP (ADVP (RB 将)) (VP (VV 实现) (NP (NN 增长))))) (, ，) (PP (IN 因为) (IP (NP (DP (DT 这些)) (NP (NN 国家))) (VP (VP (VV 发现)) (CC 和) (VP (VV 开发) (AS 了) (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NP (NN 石油)) (EC 、) (NP (JJ 天然) (SFN 气)) (CC 和) (NP (DP (DT 其他)) (NP (NN 矿产) (NN 资源))))))))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+预计	经济	acl:relcl
+肯尼亚	经济	nmod
+、	坦桑尼亚	punct
+坦桑尼亚	肯尼亚	conj
+和	卢	cc
+卢	肯尼亚	conj
+旺达	卢	conj
+等国	肯尼亚	appos
+的	预计	mark:rel
+经济	实现	nsubj
+将	实现	advmod
+实现	ROOT	root
+增长	实现	obj
+，	发现	punct
+因为	发现	case
+这些	国家	det
+国家	发现	nsubj
+发现	实现	ccomp
+和	开发	cc
+开发	发现	conj
+了	开发	aux
+新	石油	amod
+的	新	mark:rel
+石油	开发	obj
+、	气	punct
+天然	气	compound
+气	石油	conj
+和	资源	cc
+其他	资源	det
+矿产	资源	nmod
+资源	石油	conj
+。	发现	punct
+----------------------------------------------------------------------
+美国哥伦比亚特区华盛顿的外交关系委员会民间社会、市场和民主委员会的委员 Terra Lawson-Remer 警告说，不要用“太宽泛的笔触”来描述非洲的发展故事。
+
+(ROOT (IP (NP (NP (DNP (NP (DNP (NP (NP (NNP 美国) (NNP 哥伦比亚) (NN 特区)) (NP (NNP 华盛顿))) (DEC 的)) (NP (NN 外交) (NN 关系) (NN 委员) (SFN 会)) (NP (NN 民间) (NN 社会) (EC 、) (NN 市场) (CC 和) (NN 民主)) (NP (NN 委员) (SFN 会))) (DEC 的)) (NP (NN 委员))) (NP (FW Terra) (FW Lawson) (FW -Remer))) (VP (VP (VV 警告)) (VP (VV 说) (, ，) (IP (VP (MD 不要) (VP (VP (VV 用) (NP (`` “) (CP (CP (IP (VP (ADVP (RB 太)) (VP (JJ 宽泛)))) (DEC 的))) (NP (NN 笔触)) ('' ”))) (VP (RB 来) (VP (VV 描述) (NP (DNP (NP (NNP 非洲)) (DEC 的)) (NP (NN 发展) (NN 故事)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP18727': {}}, 'VP': {'VP': {}, 'VP28994': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+美国	特区	nmod
+哥伦比亚	特区	nmod
+特区	华盛顿	nmod
+华盛顿	会	nmod
+的	华盛顿	mark:rel
+外交	会	nmod
+关系	会	nmod
+委员	会	compound
+会	委员	nmod
+民间	社会	nmod
+社会	委员	nmod
+、	市场	punct
+市场	社会	conj
+和	会	cc
+民主	会	nmod
+委员	会	compound
+会	社会	conj
+的	社会	case
+委员	说	nsubj
+Terra	委员	appos
+Lawson	Terra	flat:foreign
+-Remer	Terra	flat:foreign
+警告	说	advcl
+说	ROOT	root
+，	描述	punct
+要	描述	aux
+用	描述	advcl
+“	笔触	punct
+太	宽泛	advmod
+宽泛	笔触	amod
+的	宽泛	mark:rel
+笔触	用	obj
+”	笔触	punct
+来	描述	mark
+描述	说	ccomp
+非洲	故事	nmod
+的	非洲	case
+发展	故事	nmod
+故事	描述	obj
+。	说	punct
+----------------------------------------------------------------------
+她指出，大多数国家的增长速度快，都是资源丰富的国家，近年来受益于商品价格上涨。
+
+(ROOT (IP (NP (PRP 她)) (VP (VV 指出) (, ，) (IP (IP (NP (DNP (NP (QP (ADJP (RB 大)) (QP (JJ 多数))) (NP (NN 国家))) (DEC 的)) (NP (NN 增长) (NN 速度))) (VP (JJ 快))) (, ，) (IP (VP (VP (VC 都是) (NP (CP (CP (IP (NP (NN 资源)) (VP (JJ 丰富))) (DEC 的))) (NP (NN 国家)))) (, ，) (VP (LCP (NP (NN 近年)) (IN 来)) (VP (VV 受益) (PP (VV 于) (IP (NP (NN 商品) (NN 价格)) (VP (VV 上涨)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+她	指出	nsubj
+指出	ROOT	root
+，	受益	punct
+大	多数	advmod
+多数	国家	amod
+国家	速度	nmod
+的	国家	case
+增长	速度	nmod
+速度	快	nsubj
+快	国家	advcl
+，	快	punct
+是	国家	cop
+资源	丰富	nsubj
+丰富	国家	acl:relcl
+的	丰富	mark:rel
+国家	受益	advcl
+，	国家	punct
+近年	受益	nmod:tmod
+来	近年	case
+受益	指出	ccomp
+于	受益	mark
+商品	价格	nmod
+价格	上涨	nsubj
+上涨	受益	ccomp
+。	指出	punct
+----------------------------------------------------------------------
+Institute for Policy Studies 的 Foreign Policy in Focus 的联合主任 Emira Woods 也提醒，不要过度关注增长，而忽略公平。
+
+(ROOT (IP (NP (NP (DNP (NP (NP (FW Institute)) (DNP (PP (FW for) (NP (FW Policy) (FW Studies))) (DEC 的)) (NP (FW Foreign) (FW Policy)) (DP (FW in)) (NP (FW Focus))) (DEC 的)) (ADJP (NN 联合)) (NP (NN 主任))) (NP (FW Emira) (FW Woods))) (VP (ADVP (RB 也)) (VP (VV 提醒) (, ，) (IP (VP (MD 不要) (VP (ADVP (RB 过度)) (VP (VV 关注) (NP (VV 增长)))) (, ，) (RB 而) (VP (VV 忽略) (NP (JJ 公平))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP37253': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+Institute	主任	det
+for	Institute	flat:foreign
+Policy	Institute	flat:foreign
+Studies	Institute	flat:foreign
+的	Institute	case
+Foreign	主任	nmod
+Policy	Foreign	flat:foreign
+in	Foreign	flat:foreign
+Focus	Foreign	flat:foreign
+的	Foreign	case
+联合	主任	nmod
+主任	提醒	nsubj
+Emira	主任	appos
+Woods	Emira	flat:foreign
+也	提醒	mark
+提醒	ROOT	root
+，	忽略	punct
+要	关注	aux
+过度	关注	advmod
+关注	忽略	advcl
+增长	关注	xcomp
+，	关注	punct
+而	忽略	mark
+忽略	提醒	ccomp
+公平	忽略	xcomp
+。	提醒	punct
+----------------------------------------------------------------------
+她指出，“我们正在看到国家内部和国家之间日益严重的不平等。”
+
+(ROOT (IP (NP (PRP 她)) (VP (VV 指出) (, ，) (IP (`` “) (NP (PRP 我们)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 看到) (IP (LCP (NP (NN 国家) (NN 内部) (CC 和) (NN 国家)) (IN 之间)) (CP (CP (IP (VP (ADVP (RB 日益)) (VP (JJ 严重)))) (DEC 的))) (ADJP (PFA 不)) (NP (NN 平等))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+她	指出	nsubj
+指出	ROOT	root
+，	看到	punct
+“	看到	punct
+我	看到	nsubj
+正	看到	advmod
+在	看到	advmod
+看到	指出	ccomp
+国家	内部	nmod
+内部	平等	nmod
+和	国家	cc
+国家	内部	conj
+之间	内部	case
+日益	严重	advmod
+严重	平等	amod
+的	严重	mark:rel
+不	平等	case
+平等	看到	obj
+。	看到	punct
+”	看到	punct
+----------------------------------------------------------------------
+这种不平等加上穷人对财富共享的日益增长的期望，如果不能满足，可能会导致政治不稳定。
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 种))) (CP (IP (VP (VP (ADVP (PFA 不)) (VP (NN 平等))) (VP (VV 加上) (NP (NP (NN 穷人)) (DNP (PP (IN 对) (NP (NN 财富) (NN 共享))) (DEC 的)) (ADVP (RB 日益)) (NP (VV 增长)))))) (DEC 的)) (NP (NN 期望))) (, ，) (VP (IP (VP (ADVP (IN 如果)) (VP (MD 不能) (VP (VV 满足))))) (, ，) (VP (MD 可能) (VP (MD 会) (VP (VV 导致) (IP (NP (NN 政治)) (VP (ADVP (RB 不)) (VP (JJ 稳定)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'CP': {}, 'NP': {}}, ',': {}, 'VP': {'IP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'CP': {}, 'NP': {}}, ',': {}, 'VP': {'IP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'CP': {}, 'NP': {}}}
+{'VP': {'IP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+这	种	det
+种	平等	clf
+不	平等	case
+平等	加上	nsubj
+加上	导致	csubj
+穷人	增长	nsubj
+对	共享	case
+财富	共享	nmod
+共享	增长	obl
+的	增长	mark:rel
+日益	增长	advmod
+增长	期望	acl:relcl
+的	增长	mark:rel
+期望	加上	obj
+，	加上	punct
+如果	满足	case
+能	满足	aux
+满足	导致	xcomp
+，	满足	punct
+可能	导致	aux
+会	导致	aux
+导致	ROOT	root
+政治	稳定	nsubj
+不	稳定	advmod
+稳定	导致	ccomp
+。	导致	punct
+----------------------------------------------------------------------
+“这就是尼日利亚、埃及的 Tahrir 广场、苏丹和突尼斯发生抗议的原因，”伍兹说。
+
+(ROOT (IP (IP (`` “) (NP (PRD 这)) (VP (VC 就是) (NP (CP (CP (IP (NP (NP (DNP (NP (NNP 尼日利亚) (EC 、) (NNP 埃及)) (DEC 的)) (NP (FW Tahrir) (NN 广场))) (EC 、) (NP (NNP 苏丹) (CC 和) (NNP 突尼斯))) (VP (VP (VV 发生) (NP (NN 抗议))))) (DEC 的))) (NP (NN 原因))))) (, ，) ('' ”) (NP (NNP 伍兹)) (VP (VV 说)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+“	原因	punct
+这	原因	nsubj
+是	原因	cop
+尼日利亚	广场	nmod
+、	埃及	punct
+埃及	尼日利亚	conj
+的	尼日利亚	case
+Tahrir	广场	nmod
+广场	发生	nsubj
+、	苏丹	punct
+苏丹	广场	conj
+和	突尼斯	cc
+突尼斯	广场	conj
+发生	原因	acl:relcl
+抗议	发生	obj
+的	发生	mark:rel
+原因	ROOT	root
+，	说	punct
+”	说	punct
+伍兹	说	nsubj
+说	原因	parataxis
+。	原因	punct
+----------------------------------------------------------------------
+“南非当前的劳工起义也表现出了期望问题和不平等问题的证据。”
+
+(ROOT (IP (`` “) (NP (NP (NNP 南非)) (DNP (NP (NN 当前)) (DEC 的)) (NP (NN 劳工) (NN 起义))) (VP (ADVP (RB 也)) (VP (VRD (VV 表现) (VV 出)) (AS 了) (NP (DNP (NP (NP (NN 期望) (NN 问题)) (CC 和) (NP (IP (VP (ADVP (RB 不)) (VP (JJ 平等)))) (NP (NN 问题)))) (DEC 的)) (NP (NN 证据))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'NP': {}, 'DNP': {}, 'NP16633': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {'NP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'NP': {}, 'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+“	起义	punct
+南非	起义	nmod
+当前	起义	nmod
+的	当前	case
+劳工	起义	nmod
+起义	表现	nsubj
+也	表现	mark
+表现	ROOT	root
+出	表现	mark
+了	表现	aux
+期望	问题	nmod
+问题	表现	obj
+和	证据	cc
+不	平等	advmod
+平等	问题	amod
+问题	问题	conj
+的	问题	case
+证据	问题	conj
+。	表现	punct
+”	表现	punct
+----------------------------------------------------------------------
+然而，对整个非洲大陆而言，有着强烈的信号。
+
+(ROOT (IP (ADVP (RB 然而)) (, ，) (VP (IP (VP (PP (IN 对) (NP (DP (DT 整个)) (NP (NNP 非洲)) (NP (NN 大陆)))) (VP (RB 而) (VP (VV 言))))) (, ，) (VP (VV 有) (AS 着) (NP (CP (CP (IP (VP (JJ 强烈))) (DEC 的))) (NP (NN 信号))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'VP': {'IP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'VP': {'IP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'VP': {'IP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+然而	有	mark
+，	然而	punct
+对	大陆	case
+整个	大陆	det
+非洲	大陆	nmod
+大陆	言	obl
+而	言	mark
+言	有	advcl
+，	言	punct
+有	ROOT	root
+着	有	aux
+强烈	信号	amod
+的	强烈	mark:rel
+信号	有	obj
+。	有	punct
+----------------------------------------------------------------------
+Lawson-Remer 表示，欧洲经济形势的不景气意味着“寻找投资的资本必须去其他地方”。
+
+(ROOT (IP (NP (FW Lawson) (FW -Remer)) (VP (VV 表示) (, ，) (IP (NP (DNP (NP (NP (NNP 欧洲)) (NP (NN 经济) (NN 形势))) (DEC 的)) (ADJP (JJ 不景)) (NP (SFN 气))) (VP (VV 意味) (AS 着) (IP (`` “) (NP (CP (CP (IP (VP (VV 寻找) (NP (VV 投资)))) (DEC 的))) (NP (NN 资本))) (VP (MD 必须) (VP (VV 去) (NP (DP (DT 其他)) (NP (NN 地方))))) ('' ”))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'FW': {}, 'FW14449': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'FW': {}, 'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'FW': {}, 'FW': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+Lawson	表示	nsubj
+-Remer	Lawson	flat:foreign
+表示	ROOT	root
+，	意味	punct
+欧洲	形势	nmod
+经济	形势	nmod
+形势	气	nmod
+的	形势	case
+不景	气	compound
+气	意味	nsubj
+意味	表示	ccomp
+着	意味	aux
+“	去	punct
+寻找	资本	acl:relcl
+投资	寻找	xcomp
+的	寻找	mark:rel
+资本	去	nsubj
+必须	去	aux
+去	意味	ccomp
+其他	地方	det
+地方	去	obj
+”	去	punct
+。	表示	punct
+----------------------------------------------------------------------
+由于非洲经济不断增长、回报率高、自然资源和人力资源丰富，IBM、诺基亚和雀巢等西方大型集团正在大力投资。
+
+(ROOT (IP (PP (IN 由于) (IP (IP (NP (NP (NNP 非洲)) (NP (NN 经济))) (VP (ADVP (JJ 不断)) (VP (NN 增长)))) (EC 、) (IP (NP (NN 回报)) (VP (JJ 率高))) (EC 、) (IP (NP (NN 自然) (NN 资源) (CC 和) (NN 人力) (NN 资源)) (VP (JJ 丰富))))) (, ，) (NP (NP (FW IBM) (EC 、) (NNP 诺基亚) (CC 和) (NNP 雀) (NNP 巢) (NN 等)) (NP (NNP 西方)) (ADJP (NN 大型)) (NP (NN 集团))) (VP (ADVP (RB 正)) (ADVP (RB 在)) (ADVP (RB 大力)) (VP (VV 投资))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'NP': {}, 'NP11176': {}, 'ADJP': {}, 'NP46398': {}}, 'VP': {'ADVP': {}, 'ADVP99315': {}, 'ADVP86317': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'NP': {}, 'NP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+由于	增长	case
+非洲	增长	nmod
+经济	增长	nmod
+不断	增长	amod
+增长	投资	nsubj
+、	率高	punct
+回报	率高	nsubj
+率高	增长	conj
+、	资源	punct
+自然	资源	nmod
+资源	增长	conj
+和	资源	cc
+人力	资源	nmod
+资源	丰富	nsubj
+丰富	增长	conj
+，	增长	punct
+IBM	投资	nsubj
+、	诺基亚	punct
+诺基亚	IBM	conj
+和	巢	cc
+雀	巢	nmod
+巢	IBM	conj
+等	IBM	acl
+西方	集团	nmod
+大型	集团	nmod
+集团	增长	appos
+正	投资	advmod
+在	投资	advmod
+大力	投资	advmod
+投资	ROOT	root
+。	投资	punct
+----------------------------------------------------------------------
+而中国的兴趣似乎没有减弱的迹象。
+
+(ROOT (IP (ADVP (RB 而)) (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NN 兴趣))) (VP (ADVP (RB 似乎)) (VP (VV 没有) (NP (CP (IP (VP (VV 减弱))) (DEC 的)) (NP (NN 迹象))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+而	有	mark
+中国	兴趣	nmod
+的	中国	case
+兴趣	有	nsubj
+似乎	有	advmod
+有	ROOT	root
+减弱	迹象	acl:relcl
+的	减弱	mark:rel
+迹象	有	obj
+。	有	punct
+----------------------------------------------------------------------
+预计该国与非洲的贸易额将在 2012 年达到 2200 亿美元，每年增长 25%，前中国商务部副部长魏建国告诉《中国日报》，非洲将超过美国和欧盟，成为中国最大的贸易伙伴。
+
+(ROOT (IP (IP (VP (VV 预计) (IP (NP (DNP (NP (NP (NN 该国)) (CC 与) (NP (NNP 非洲))) (DEC 的)) (NP (VV 贸易) (SFN 额))) (VP (VP (ADVP (RB 将)) (PP (IN 在) (NP (CD 2012))) (VP (VV 年达到) (QP (QP (CD 2200)) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元))))))) (, ，) (VP (NP (DT 每年)) (VP (VV 增长) (QP (CD 25%)))))))) (, ，) (IP (NP (NP (NP (ADJP (PFA 前)) (NP (NNP 中国)) (NP (NN 商务) (SFN 部))) (ADJP (PFA 副)) (NP (NN 部长))) (NP (NNP 魏) (NNP 建国))) (VP (VV 告诉) (NP (-LRB- 《) (NNP 中国) (NN 日报) (-RRB- 》)) (, ，) (IP (NP (NNP 非洲)) (VP (ADVP (RB 将)) (VP (VP (VV 超过) (NP (NNP 美国) (CC 和) (NNP 欧盟))) (, ，) (VP (VV 成) (VP (VC 为) (NP (NP (NNP 中国)) (CP (CP (IP (VP (JJ 最大))) (DEC 的))) (NP (NN 贸易) (NN 伙伴)))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP65790': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP51049': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+预计	额	acl:relcl
+该国	额	nmod
+与	非洲	cc
+非洲	该国	conj
+的	该国	case
+贸易	额	compound
+额	增长	nsubj
+将	增长	advmod
+在	2012	case
+2012	年达到	obl
+年达到	增长	advcl
+2200	元	nummod
+亿	元	nummod
+美	元	nmod
+元	年达到	obj
+，	年达到	punct
+每年	增长	nmod:tmod
+增长	ROOT	root
+25%	增长	obj
+，	告诉	punct
+前	部长	case
+中国	部长	nmod
+商务	部	compound
+部	部长	nmod
+副	部长	case
+部长	告诉	nsubj
+魏	部长	appos
+建国	魏	flat:name
+告诉	增长	parataxis
+《	日报	punct
+中国	日报	nmod
+日报	告诉	obj
+》	日报	punct
+，	成	punct
+非洲	成	nsubj
+将	超过	advmod
+超过	成	advcl
+美国	超过	obj
+和	欧盟	cc
+欧盟	美国	conj
+，	超过	punct
+成	增长	parataxis
+为	成	mark
+中国	伙伴	nmod
+最大	伙伴	amod
+的	最大	mark:rel
+贸易	伙伴	nmod
+伙伴	成	obj
+。	增长	punct
+----------------------------------------------------------------------
+伍兹认为，整个非洲大陆的技术发展都将是“未来的方向”。
+
+(ROOT (IP (NP (NNP 伍兹)) (VP (VV 认为) (, ，) (IP (NP (DNP (NP (DP (DT 整个)) (NP (NNP 非洲)) (NP (NN 大陆))) (DEC 的)) (NP (NN 技术) (NN 发展))) (VP (ADVP (RB 都)) (ADVP (RB 将)) (VP (VC 是) (NP (`` “) (DNP (NP (NN 未来)) (DEC 的)) (NP (NN 方向)) ('' ”)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+伍兹	为	nsubj
+为	ROOT	root
+，	方向	punct
+整个	大陆	det
+非洲	大陆	nmod
+大陆	发展	nmod
+的	大陆	case
+技术	发展	nmod
+发展	方向	nsubj
+都	方向	mark
+将	方向	advmod
+是	方向	cop
+“	方向	punct
+未来	方向	nmod
+的	未来	mark:rel
+方向	为	ccomp
+”	方向	punct
+。	为	punct
+----------------------------------------------------------------------
+她指出，移动银行和移动电话技术的大规模普及等创新都是积极的发展。
+
+(ROOT (IP (NP (PRP 她)) (VP (VV 指出) (, ，) (IP (NP (NP (NP (DNP (NP (NP (NN 移动) (NN 银行)) (CC 和) (NP (NP (NN 移动) (NN 电话)) (NP (NN 技术)))) (DEC 的)) (NP (ADJP (PFA 大)) (NP (NN 规模))) (NP (NN 普及))) (NN 等)) (NP (NN 创新))) (VP (VC 都是) (NP (CP (CP (IP (VP (JJ 积极))) (DEC 的))) (NP (NN 发展)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+她	指出	nsubj
+指出	ROOT	root
+，	发展	punct
+移动	银行	nmod
+银行	普及	nmod
+和	技术	cc
+移动	技术	nmod
+电话	技术	nmod
+技术	银行	conj
+的	银行	case
+大	规模	case
+规模	普及	nmod
+普及	发展	nsubj
+等	普及	acl
+创新	普及	appos
+是	发展	cop
+积极	发展	amod
+的	积极	mark:rel
+发展	指出	ccomp
+。	指出	punct
+----------------------------------------------------------------------
+“快速增长的青年人口（16 岁至 30 岁的劳动者）与技术创新的结合，是一件积极的事，并且对非洲大陆充满希望，”伍兹说道。
+
+(ROOT (IP (IP (`` “) (NP (NP (CP (CP (IP (VP (ADVP (RB 快速)) (VP (VV 增长)))) (DEC 的))) (NP (NN 青年) (NN 人口)) (PRN (-LRB- （) (NP (DNP (QP (QP (CD 16)) (CC 岁至) (QP (CD 30) (CLP (NNB 岁)))) (DEC 的)) (NP (VV 劳动) (SFN 者))) (-RRB- ）))) (CC 与) (NP (DNP (NP (NN 技术) (VV 创新)) (DEC 的)) (NP (NN 结合)))) (, ，) (VP (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 件))) (CP (CP (IP (VP (JJ 积极))) (DEC 的))) (NP (NN 事)))) (, ，) (RB 并且) (VP (PP (IN 对) (NP (NP (NNP 非洲)) (NP (NN 大陆)))) (VP (VV 充满) (NP (NN 希望)))))) (, ，) ('' ”) (NP (NNP 伍兹)) (VP (VV 说道)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, ',': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, ',': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, ',': {}, 'VP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+“	人口	punct
+快速	增长	advmod
+增长	人口	acl:relcl
+的	增长	mark:rel
+青年	人口	nmod
+人口	事	nsubj
+（	者	punct
+16	岁	nummod
+岁至	30	cc
+30	16	conj
+岁	者	acl:relcl
+的	岁	mark:rel
+劳动	者	compound
+者	人口	appos
+）	者	punct
+与	结合	cc
+技术	创新	nsubj
+创新	结合	acl:relcl
+的	创新	mark:rel
+结合	人口	conj
+，	人口	punct
+是	事	cop
+一	件	nummod
+件	事	clf
+积极	事	amod
+的	积极	mark:rel
+事	充满	advcl
+，	事	punct
+并且	充满	mark
+对	大陆	case
+非洲	大陆	nmod
+大陆	充满	obl
+充满	ROOT	root
+希望	充满	obj
+，	充满	punct
+”	充满	punct
+伍兹	说道	nsubj
+说道	充满	parataxis
+。	充满	punct
+----------------------------------------------------------------------
+考虑到这些因素，有理由相信，尽管面临挑战，非洲将继续呈现出充满活力的新兴市场经济体。
+
+(ROOT (IP (IP (VP (VRD (VV 考虑) (VV 到)) (NP (DP (DT 这些)) (NP (NN 因素))))) (, ，) (VP (VP (VV 有) (NP (NN 理由))) (VP (VV 相信) (, ，) (IP (IP (VP (ADVP (IN 尽管)) (VP (VV 面临) (NP (NN 挑战))))) (, ，) (NP (NNP 非洲)) (VP (ADVP (RB 将)) (VP (VV 继续) (VP (VRD (VV 呈现) (VV 出)) (NP (CP (CP (IP (VP (VV 充满) (NP (NN 活力)))) (DEC 的))) (NP (ADJP (JJ 新兴)) (NP (NN 市场))) (NP (NN 经济) (SFN 体))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'VP': {'VP': {}, 'VP67519': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+考虑	相信	advcl
+到	考虑	mark
+这些	因素	det
+因素	考虑	obj
+，	考虑	punct
+有	相信	advcl
+理由	有	obj
+相信	ROOT	root
+，	继续	punct
+尽管	面临	case
+面临	继续	xcomp
+挑战	面临	obj
+，	面临	punct
+非洲	继续	nsubj
+将	继续	advmod
+继续	相信	ccomp
+呈现	继续	xcomp
+出	呈现	mark
+充满	体	acl:relcl
+活力	充满	obj
+的	充满	mark:rel
+新兴	市场	amod
+市场	体	nmod
+经济	体	compound
+体	呈现	obj
+。	相信	punct
+----------------------------------------------------------------------
+南非、尼日利亚、加纳、安哥拉和埃塞俄比亚可能只是第一波，还有更多国家将跟进。
+
+(ROOT (IP (IP (NP (NNP 南非) (EC 、) (NNP 尼日利亚) (EC 、) (NNP 加纳) (EC 、) (NNP 安哥拉) (CC 和) (NNP 埃塞俄比亚)) (VP (MD 可能) (VP (ADVP (RB 只)) (VP (VC 是) (QP (CD 第一) (CLP (NNB 波))))))) (, ，) (IP (VP (ADVP (RB 还)) (VP (VV 有) (IP (NP (ADJP (JJ 更多)) (NP (NN 国家))) (VP (ADVP (RB 将)) (VP (VV 跟进))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP17696': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP65311': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+南非	有	nsubj
+、	尼日利亚	punct
+尼日利亚	南非	conj
+、	加纳	punct
+加纳	南非	conj
+、	安哥拉	punct
+安哥拉	南非	conj
+和	埃塞俄比亚	cc
+埃塞俄比亚	南非	conj
+可能	波	aux
+只	波	advmod
+是	波	cop
+第一	波	nummod
+波	有	advcl
+，	波	punct
+还	有	mark
+有	ROOT	root
+更多	国家	amod
+国家	跟进	nsubj
+将	跟进	advmod
+跟进	有	ccomp
+。	有	punct
+----------------------------------------------------------------------
+下载招贴版 弗朗西斯·努比·内斯比特 (Francis Njubi Nesbitt) 是圣地亚哥州立大学非洲研究副教授。此前，他曾在肯尼亚内罗毕的《每日民族报》担任记者和编辑；在华盛顿州西雅图的《西雅图报》担任记者和编辑；在马萨诸塞州斯普林菲尔德的《联合报》和《星期日共和党报》担任记者和编辑。
+
+(ROOT (IP (NP (NP (NN 下载) (VV 招贴) (SFN 版)) (NP (NNP 弗朗西斯) (/ ·) (NNP 努比) (/ ·) (NNP 内斯比特) (FW -LRB-Francis) (FW Njubi) (FW Nesbitt-RRB-))) (VP (VC 是) (NP (NP (NNP 圣地亚哥) (NN 州) (VV 立) (NN 大学)) (NP (NNP 非洲)) (NP (NN 研究)) (ADJP (PFA 副)) (NP (NN 教授)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP50164': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+下载	版	nmod
+招贴	版	compound
+版	教授	nsubj
+弗朗西斯	版	appos
+·	努比	punct
+努比	弗朗西斯	flat:name
+·	内斯比特	punct
+内斯比特	弗朗西斯	flat:name
+(Francis	弗朗西斯	appos
+Njubi	(Francis	flat:foreign
+Nesbitt)	(Francis	flat:foreign
+是	教授	cop
+圣地亚哥	教授	nmod
+州	立	nsubj
+立	教授	amod
+大学	教授	nmod
+非洲	教授	nmod
+研究	教授	nmod
+副	教授	case
+教授	ROOT	root
+。	教授	punct
+----------------------------------------------------------------------
+他的著作有《制裁竞赛》（2004 年）和《非洲侨民政治》（2012 年）。
+
+(ROOT (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 著作))) (VP (VV 有) (NP (-LRB- 《) (NN 制裁) (NN 竞赛) (-RRB- 》) (PRN (-LRB- （) (NP (NP (NP (CD 2004) (NNB 年）)) (CC 和) (NP (-LRB- 《) (NP (NNP 非洲)) (NP (NN 侨民) (NN 政治)) (-RRB- 》))) (PRN (-LRB- （) (NP (CD 2012) (NNB 年）))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+他	著作	det
+的	他	case
+著作	有	nsubj
+有	ROOT	root
+《	竞赛	punct
+制裁	竞赛	nmod
+竞赛	有	obj
+》	竞赛	punct
+（	年）	punct
+2004	年）	nummod
+年）	竞赛	parataxis
+和	政治	cc
+《	政治	punct
+非洲	政治	nmod
+侨民	政治	nmod
+政治	年）	conj
+》	政治	punct
+（	年）	punct
+2012	年）	nummod
+年）	竞赛	appos
+。	有	punct
+----------------------------------------------------------------------
+他的文章发表在许多杂志上，包括《非洲事务》、《南部非洲研究国际期刊》、《非洲问题》、《非洲世界》和《非洲世界回顾》，他还是《外交政策重点》的常规贡献者。
+
+(ROOT (IP (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 文章))) (VP (VV 发表) (PP (IN 在) (LCP (NP (QP (CD 许多)) (NP (NN 杂志))) (IN 上))))) (, ，) (IP (VP (VV 包括) (NP (NP (-LRB- 《) (NP (NNP 非洲)) (NP (NN 事务)) (-RRB- 》)) (EC 、) (NP (-LRB- 《) (NP (NN 南部)) (NP (NNP 非洲)) (NP (NN 研究) (NN 国际) (NN 期刊)) (-RRB- 》)) (EC 、) (NP (-LRB- 《) (NP (NNP 非洲)) (NP (NN 问题)) (-RRB- 》)) (EC 、) (NP (-LRB- 《) (NP (NNP 非洲)) (NP (NN 世界)) (-RRB- 》)) (CC 和) (NP (-LRB- 《) (NP (NNP 非洲)) (NP (NN 世界)) (NP (NN 回顾)) (-RRB- 》))))) (, ，) (IP (NP (PRP 他)) (VP (VC 还是) (NP (DNP (NP (-LRB- 《) (NN 外交) (NN 政策) (NN 重点) (-RRB- 》)) (DEC 的)) (ADJP (JJ 常规)) (NP (NN 贡献) (SFN 者))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP66833': {}, ',80325': {}, 'IP75837': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP49622': {'VP': {}}, ',13169': {}, 'IP31125': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+他	文章	det
+的	他	case
+文章	发表	nsubj
+发表	ROOT	root
+在	杂志	case
+许多	杂志	nummod
+杂志	包括	obl
+上	杂志	case
+，	杂志	punct
+包括	发表	ccomp
+《	事务	punct
+非洲	事务	nmod
+事务	包括	obj
+》	事务	punct
+、	期刊	punct
+《	期刊	punct
+南部	期刊	nmod
+非洲	期刊	nmod
+研究	期刊	nmod
+国际	期刊	nmod
+期刊	事务	conj
+》	期刊	punct
+、	问题	punct
+《	问题	punct
+非洲	问题	nmod
+问题	事务	conj
+》	问题	punct
+、	世界	punct
+《	世界	punct
+非洲	世界	nmod
+世界	事务	conj
+》	世界	punct
+和	回顾	cc
+《	回顾	punct
+非洲	回顾	nmod
+世界	回顾	nmod
+回顾	事务	conj
+》	回顾	punct
+，	者	punct
+他	者	nsubj
+是	者	cop
+《	重点	punct
+外交	重点	nmod
+政策	重点	nmod
+重点	者	nmod
+》	重点	punct
+的	重点	case
+常规	者	amod
+贡献	者	compound
+者	发表	parataxis
+。	发表	punct
 ----------------------------------------------------------------------

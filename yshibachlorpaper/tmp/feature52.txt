@@ -1,395 +1,1284 @@
-现金流问题吗?
+许多经济学家和技术专家认为，世界正处在新工业革命的边缘，人工智能领域的进步将以一个令人难以饶恕的速度把人类劳动力淘汰掉。
 
-(ROOT (DNP (NP (NN 现金) (SFN 流) (NN 问题)) (UH 吗) (. ?)))
-{'DNP': {'NP': {}, 'UH': {}, '.': {}}}
-{'DNP': {'NP': {'NN': {}, 'SFN': {}, 'NN': {}}, 'UH': {}, '.': {}}}
-{'NP': {'NN': {}, 'SFN': {}, 'NN': {}}}
-----------------------------------------------------------------------
-全球经济衰退让你沮丧吗?
-
-(ROOT (CP (IP (NP (NN 全球) (NN 经济) (VV 衰退)) (VP (VV 让) (NP (PRP 你)) (IP (VP (JJ 沮丧))))) (UH 吗) (. ?)))
-{'CP': {'IP': {}, 'UH': {}, '.': {}}}
-{'CP': {'IP': {'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-没有预算也没关系，在《独行侠》杂志的《 1000 个终极体验》中，我们为您推荐了一些不会让您费尽预算的目的地。
-
-(ROOT (IP (IP (VP (VP (VV 没有) (NP (NN 预算))) (VP (ADVP (RB 也)) (VP (VV 没) (NP (NN 关系)))))) (, ，) (IP (PP (IN 在) (LCP (NP (DNP (NP (NP (-LRB- 《) (ADJP (VV 独行)) (NP (SFN 侠)) (-RRB- 》)) (NP (NN 杂志))) (DEC 的)) (NP (-LRB- 《) (QP (CD 1000)) (ADJP (NN 个终极)) (NP (NN 体验)) (-RRB- 》))) (IN 中))) (, ，) (NP (PRP 我们)) (VP (PP (IN 为) (NP (PRP 您))) (VP (VV 推荐) (AS 了) (NP (QP (JJ 一些)) (CP (CP (IP (VP (MD 不会) (VP (VV 让) (NP (PRP 您)) (IP (VP (VV 费尽) (NP (NN 预算))))))) (DEC 的))) (NP (NN 目的) (SFN 地)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-印度
-
-(ROOT (NP (NNP 印度)))
-{'NP': {'NNP': {}}}
-{'NP': {'NNP': {}}}
-----------------------------------------------------------------------
-印度一直以来都是一个便宜的目的地。
-
-(ROOT (IP (NP (NNP 印度)) (VP (LCP (ADVP (RB 一直)) (IN 以来)) (VP (VC 都是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 便宜))) (DEC 的))) (NP (NN 目的) (SFN 地))))) (. 。)))
+(ROOT (IP (NP (QP (CD 许多)) (NP (NN 经济) (SFN 学) (SFN 家) (CC 和) (NN 技术) (NN 专家))) (VP (VV 认为) (, ，) (IP (IP (NP (NN 世界)) (VP (ADVP (RB 正)) (VP (VV 处) (PP (VV 在) (NP (DNP (NP (ADJP (PFA 新)) (NP (NN 工业) (NN 革命))) (DEC 的)) (NP (NN 边缘))))))) (, ，) (IP (NP (DNP (NP (ADJP (NN 人工)) (NP (NN 智能) (NN 领域))) (DEC 的)) (NP (NN 进步))) (VP (ADVP (RB 将)) (PP (VV 以) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 令) (NP (NN 人)) (IP (VP (ADVP (JJ 难)) (ADVP (RB 以)) (VP (JJ 饶恕)))))) (DEC 的))) (NP (NN 速度)))) (VP (BB 把) (IP (NP (NN 人类) (VV 劳动) (SFN 力)) (VP (VRD (VV 淘汰) (VV 掉))))))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'LCP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'LCP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-但是，你可能不知道，印度除了电影《宝莱坞》、骑大象和疯狂的交通之外，还有很多其他的东西。
-
-(ROOT (IP (ADVP (RB 但是)) (, ，) (NP (PRP 你)) (VP (MD 可能) (VP (ADVP (RB 不)) (VP (VV 知道) (, ，) (IP (NP (NNP 印度)) (VP (PP (VV 除) (PP (AS 了) (LCP (NP (NP (NP (NN 电影)) (NP (-LRB- 《) (NNP 宝莱坞) (-RRB- 》))) (EC 、) (NP (NN 骑大象)) (CC 和) (NP (CP (CP (IP (VP (JJ 疯狂))) (DEC 的))) (NP (NN 交通)))) (IN 之外)))) (, ，) (ADVP (RB 还)) (VP (VV 有) (NP (QP (CD 很多)) (DNP (DP (DT 其他)) (DEC 的)) (NP (NN 东西))))))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
-----------------------------------------------------------------------
-不要只是去看塔吉特山了，还能去北方旅行吗？
-
-(ROOT (CP (IP (IP (VP (MD 不要) (VP (ADVP (RB 只)) (VP (VC 是) (VP (VV 去看) (NP (NNP 塔吉特) (SFN 山)))))) (UH 了) (, ，) (VP (ADVP (RB 还)) (VP (VP (VV 能去) (NP (NN 北方))) (VP (VV 旅行)))))) (UH 吗) (. ？)))
-{'CP': {'IP': {}, 'UH': {}, '.': {}}}
-{'CP': {'IP': {'IP': {}}, 'UH': {}, '.': {}}}
-{'IP': {'IP': {}}}
-----------------------------------------------------------------------
-去拉达克攀岩，那里的山峰巨大，空气清凉。
-
-(ROOT (IP (IP (NP (NNP 去拉达克攀) (SFN 岩)) (, ，) (NP (DNP (NP (PRD 那里)) (DEC 的)) (NP (NN 山峰))) (VP (JJ 巨大))) (, ，) (IP (NP (NN 空气)) (VP (JJ 清凉))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-或者在布拉迪尔港冲浪吧，那里位于孟加拉湾中部，价格还不贵。
-
-(ROOT (IP (IP (RB 或者) (VP (PP (VV 在) (NP (NNP 布拉迪尔港))) (VP (VV 冲) (NP (NN 浪吧))))) (, ，) (IP (NP (PRD 那里)) (VP (VV 位) (PP (VV 于) (NP (NP (NP (NNP 孟加拉)) (NP (SFN 湾))) (NP (NN 中部)))))) (, ，) (IP (NP (NN 价格)) (VP (ADVP (RB 还)) (VP (JJ 不贵)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'RB': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'RB': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这个经典的休闲目的地仍然是充满冒险的好去处。
-
-(ROOT (IP (NP (NP (DP (DT 这) (CLP (NNB 个))) (CP (CP (IP (VP (NN 经典))) (DEC 的))) (NP (NN 休闲) (NN 目的))) (NP (SFN 地))) (VP (ADVP (RB 仍然)) (VP (VC 是) (NP (CP (CP (IP (VP (VV 充满) (NP (JJ 冒险)))) (DEC 的))) (NP (JJ 好去) (SFN 处))))) (. 。)))
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-尼泊尔
-
-(ROOT (NP (NNP 尼泊尔)))
-{'NP': {'NNP': {}}}
-{'NP': {'NNP': {}}}
-----------------------------------------------------------------------
-很久以前，旅行者就对珠穆朗玛峰和舍拉人民的家园产生了兴趣。
-
-(ROOT (IP (LCP (ADVP (JJ 很久)) (IN 以前)) (, ，) (NP (VV 旅行) (SFN 者)) (VP (ADVP (RB 就)) (NP (DNP (NP (NP (IN 对珠) (NNP 穆朗玛峰) (CC 和) (NNP 舍拉)) (NP (NN 人民))) (DEC 的)) (NP (NN 家园))) (VP (VV 产生) (AS 了) (NP (NN 兴趣)))) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'ADVP': {}, 'IN': {}}, ',': {}, 'NP': {'VV': {}, 'SFN': {}}, 'VP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'LCP': {'ADVP': {}, 'IN': {}}}
-{'NP': {'VV': {}, 'SFN': {}}}
-{'VP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-尽管尼泊尔已经几十年在人们的视线中，但它仍然是最好的预算目的地之一。
-
-(ROOT (IP (CP (ADVP (IN 尽管)) (IP (NP (NNP 尼泊尔)) (VP (QP (ADVP (RB 已经)) (QP (CD 几十) (CLP (NNB 年)))) (VP (PP (IN 在) (LCP (NP (DNP (NP (NN 人们)) (DEC 的)) (NP (NN 视线))) (IN 中))))))) (, ，) (ADVP (RB 但)) (NP (PRP 它)) (VP (ADVP (RB 仍然)) (VP (VC 是) (NP (DNP (NP (CP (CP (IP (VP (JJ 最好))) (DEC 的))) (NP (NN 预算) (NN 目的) (NN 地))) (DEC 之)) (NP (CD 一))))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这次徒步旅行太棒了，而且在这个国家，花费的成本很低，所以我们可以一直徒步旅行下去。
-
-(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 次))) (NP (NN 徒步) (NN 旅行))) (VP (JJ 太棒) (UH 了))) (, ，) (IP (ADVP (RB 而且)) (PP (VV 在) (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 国家)))) (, ，) (NP (CP (CP (IP (VP (VV 花费))) (DEC 的))) (NP (NN 成本))) (VP (JJ 很低))) (, ，) (IP (ADVP (RB 所以)) (NP (PRP 我们)) (VP (MD 可以) (VP (ADVP (RB 一直)) (ADVP (VV 徒步)) (VP (VRD (VV 旅行) (VV 下去)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-许多老牌旅行者都把尼泊尔放在最佳旅游目的地之首，最好的一点是，将其添加到您的目的地名单中也不会花费太多钱。
-
-(ROOT (IP (IP (NP (QP (CD 许多)) (ADJP (JJ 老牌)) (NP (VV 旅行) (SFN 者))) (VP (ADVP (RB 都)) (VP (BB 把) (IP (NP (NNP 尼泊尔)) (VP (VV 放) (PP (VV 在) (NP (DNP (NP (DNP (NP (ADJP (JJ 最佳)) (NP (NN 旅游) (SFN 目))) (DEC 的)) (NP (NN 地))) (DEC 之)) (NP (NN 首))))))))) (, ，) (IP (NP (CP (CP (IP (VP (JJ 最好))) (DEC 的)))) (VP (ADVP (JJ 一点)) (VP (VC 是) (, ，) (VP (IP (VP (BB 将) (IP (NP (PRP 其)) (VP (VRD (VV 添加) (VV 到)) (LCP (NP (NP (DNP (NP (PRP 您)) (DEC 的)) (NP (NN 目的) (SFN 地))) (NP (NN 名单))) (IN 中)))))) (ADVP (RB 也)) (VP (MD 不会) (VP (VV 花费) (NP (ADJP (JJ 太多)) (NP (NN 钱))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-印尼
-
-(ROOT (NP (NNP 印尼)))
-{'NP': {'NNP': {}}}
-{'NP': {'NNP': {}}}
-----------------------------------------------------------------------
-印尼在过去几年里受到了巨大压力。
-
-(ROOT (IP (NP (NNP 印尼)) (VP (PP (IN 在) (LCP (QP (NP (NN 过去)) (QP (CD 几) (CLP (NNB 年)))) (IN 里))) (VP (VV 受到) (AS 了) (NP (ADJP (JJ 巨大)) (NP (NN 压力))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-由于爆炸和其他冲突，很多游客将其从自己的行程中删除。
-
-(ROOT (IP (PP (IN 由于) (NP (NP (NN 爆炸)) (CC 和) (NP (DP (DT 其他)) (NP (NN 冲突))))) (, ，) (NP (QP (CD 很多)) (NP (NN 游客))) (VP (BB 将) (IP (VP (PP (BB 其从) (LCP (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 行程))) (IN 中))) (VP (VV 删除))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'NP': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
 {'NP': {'QP': {}, 'NP': {}}}
-{'VP': {'BB': {}, 'IP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+许多	家	nummod
+经济	学	compound
+学	家	compound
+家	为	nsubj
+和	专家	cc
+技术	专家	nmod
+专家	家	conj
+为	ROOT	root
+，	以	punct
+世界	处	nsubj
+正	处	advmod
+处	以	advcl
+在	处	mark
+新	革命	case
+工业	革命	nmod
+革命	边缘	nmod
+的	革命	case
+边缘	处	obj
+，	处	punct
+人工	领域	nmod
+智能	领域	nmod
+领域	进步	nmod
+的	领域	case
+进步	以	nsubj
+将	以	advmod
+以	为	ccomp
+一	个	nummod
+个	速度	clf
+令	速度	acl:relcl
+人	饶恕	nsubj
+难	饶恕	advmod
+以	饶恕	mark
+饶恕	速度	amod
+的	令	mark:rel
+速度	淘汰	nsubj
+把	力	case
+人类	力	nmod
+劳动	力	compound
+力	淘汰	obl:patient
+淘汰	以	ccomp
+掉	淘汰	mark
+。	为	punct
 ----------------------------------------------------------------------
-他们的流失是我们的收获：原始的海滩仍然是吸引人的地方，您可以体验一把永远都是便宜的生活。
+最近，牛津大学的两位研究人员分析了超过 700 种不同职业所需的技能，以确定哪些职业在不久的将来会受到自动化的威胁，结果并不乐观：
 
-(ROOT (IP (IP (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 流失))) (VP (VC 是) (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NN 收获))))) (: ：) (IP (NP (CP (CP (IP (VP (JJ 原始))) (DEC 的))) (NP (NN 海滩))) (VP (ADVP (RB 仍然)) (VP (VC 是) (NP (CP (CP (IP (VP (VV 吸引) (NP (NN 人)))) (DEC 的))) (NP (NN 地方)))))) (, ，) (IP (NP (PRP 您)) (VP (MD 可以) (VP (VV 体验) (NP (QP (CD 一) (CLP (NNB 把))) (VP (ADVP (NN 永远)) (VP (VC 都是) (NP (CP (CP (IP (VP (JJ 便宜))) (DEC 的))) (NP (NN 生活))))))))) (. 。)))
-{'IP': {'IP': {}, ':': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
+(ROOT (IP (IP (NP (NN 最近)) (, ，) (NP (DNP (NP (NNP 牛津) (NN 大学)) (DEC 的)) (QP (CD 两) (CLP (NNB 位))) (NP (NN 研究) (NN 人员))) (VP (VP (VV 分析) (AS 了) (NP (CP (CP (IP (NP (QP (ADVP (VV 超过)) (QP (CD 700) (CLP (NNB 种)))) (ADJP (JJ 不同)) (NP (NN 职业))) (VP (RB 所) (VP (VV 需)))) (DEC 的))) (NP (NN 技能)))) (, ，) (VP (RB 以) (VP (VV 确定) (IP (NP (DP (DT 哪些)) (NP (NN 职业))) (VP (PP (IN 在) (NP (DNP (NP (NN 不久)) (DEC 的)) (NP (NN 将来)))) (VP (MD 会) (VP (VV 受到) (NP (DNP (NP (JJ 自动) (SFV 化)) (DEC 的)) (NP (NN 威胁))))))))))) (, ，) (IP (ADVP (NN 结果)) (VP (ADVP (RB 并)) (ADVP (RB 不)) (VP (JJ 乐观)))) (: ：)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP17113': {}, ':': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ':': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP58249': {}, 'VP': {}}, ',': {}, 'IP59852': {'ADVP': {}, 'VP': {}}, ':': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'VP': {}}, ':': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+最近	分析	nmod:tmod
+，	最近	punct
+牛津	大学	nmod
+大学	人员	nmod
+的	大学	case
+两	位	nummod
+位	人员	clf
+研究	人员	nmod
+人员	分析	nsubj
+分析	确定	advcl
+了	分析	aux
+超过	技能	amod
+700	种	nummod
+种	技能	clf
+不同	职业	amod
+职业	需	nsubj
+所	需	mark
+需	技能	acl:relcl
+的	需	mark:rel
+技能	分析	obj
+，	分析	punct
+以	确定	mark
+确定	ROOT	root
+哪些	职业	det
+职业	受到	nsubj
+在	将来	case
+不久	将来	nmod
+的	不久	case
+将来	受到	obl
+会	受到	aux
+受到	乐观	advcl
+自动	化	compound
+化	威胁	acl:relcl
+的	化	mark:rel
+威胁	受到	obj
+，	受到	punct
+结果	乐观	obl
+并	不	advmod
+不	乐观	advmod
+乐观	确定	ccomp
+：	确定	punct
 ----------------------------------------------------------------------
-如果你想冲浪或者在海滩上躺一会儿，你就可以花很少钱就能体验一次冒险。
+他们得出结论认为，机器在几十年内可能会取代 47% 的当今工作。
 
-(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 你)) (VP (MD 想) (IP (VP (VP (VV 冲浪)) (CC 或者) (VP (PP (VV 在) (LCP (NP (NN 海滩)) (NN 上))) (VP (VV 躺) (QP (CD 一) (CLP (NN 会儿)))))))))) (, ，) (NP (PRP 你)) (VP (ADVP (RB 就)) (VP (MD 可以) (VP (VP (VV 花) (NP (QP (JJ 很少)) (NP (NN 钱)))) (VP (ADVP (RB 就)) (VP (MD 能) (VP (VV 体验) (NP (QP (CD 一) (CLP (NNB 次))) (NP (NN 冒险))))))))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-只要不去旅游陷阱酒店，你很难花费超过每天 20 美元。
-
-(ROOT (IP (IP (VP (ADVP (IN 只要)) (VP (VV 不去) (NP (VV 旅游) (NN 陷阱) (NN 酒店))))) (, ，) (NP (PRP 你)) (VP (ADVP (RB 很难)) (VP (VV 花费) (QP (ADVP (VV 超过)) (QP (NP (DT 每天)) (QP (CD 20) (CLP (NNB 美元))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-养成内心的刁蛮嘴巴，购买纪念品时不要去旅游区；前往丹皮沙或乌布的中央市场（Pasar Sukowati）。
-
-(ROOT (IP (VP (LCP (IP (VP (VP (VV 养成) (NP (DNP (NP (NN 内心)) (DEC 的)) (NP (NNP 刁) (JJ 蛮)) (NP (NN 嘴巴)))) (, ，) (VP (VV 购买) (NP (VV 纪念) (SFN 品))))) (IN 时)) (VP (VP (MD 不要) (VP (VV 去) (NP (VV 旅游) (SFN 区)))) (: ；) (VP (VV 前往) (NP (DNP (NP (NNP 丹皮沙) (CC 或) (NNP 乌布)) (DEC 的)) (NP (NN 中央) (NN 市场)) (PRN (-LRB- （) (NP (FW Pasar) (FW Sukowati)) (-RRB- ）)))))) (. 。)))
-{'IP': {'VP': {}, '.': {}}}
-{'IP': {'VP': {'LCP': {}, 'VP': {}}, '.': {}}}
-{'VP': {'LCP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-伊朗
-
-(ROOT (NP (NNP 伊朗)))
-{'NP': {'NNP': {}}}
-{'NP': {'NNP': {}}}
-----------------------------------------------------------------------
-伊朗吗?
-
-(ROOT (FRAG (NP (NNP 伊朗)) (UH 吗) (. ?)))
-{'FRAG': {'NP': {}, 'UH': {}, '.': {}}}
-{'FRAG': {'NP': {'NNP': {}}, 'UH': {}, '.': {}}}
-{'NP': {'NNP': {}}}
-----------------------------------------------------------------------
-是那个在“邪恶轴心”中的伊朗？
-
-(ROOT (IP (VP (VC 是) (NP (DP (DT 那) (CLP (NNB 个))) (DNP (PP (IN 在) (LCP (NP (`` “) (ADJP (JJ 邪恶)) (NP (NN 轴心)) ('' ”)) (IN 中))) (DEC 的)) (NP (NNP 伊朗)))) (. ？)))
-{'IP': {'VP': {}, '.': {}}}
-{'IP': {'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
-----------------------------------------------------------------------
-忘掉那些宣传，找一个满足所有要求的国家。
-
-(ROOT (IP (VP (VP (VV 忘掉) (NP (DP (DT 那些)) (NP (NN 宣传)))) (, ，) (VP (VV 找) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 满足) (NP (DP (DT 所有)) (NP (NN 要求))))) (DEC 的))) (NP (NN 国家))))) (. 。)))
-{'IP': {'VP': {}, '.': {}}}
-{'IP': {'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-首先，它便宜：每天 25 美元，你可以住在一家中档酒店，吃尽各种美食。
-
-(ROOT (IP (IP (ADVP (RB 首先)) (, ，) (NP (PRP 它)) (VP (JJ 便宜) (: ：) (QP (NP (DT 每天)) (QP (CD 25) (CLP (NNB 美元)))))) (, ，) (IP (NP (PRP 你)) (VP (MD 可以) (VP (VP (VV 住) (PP (VV 在) (NP (QP (CD 一) (CLP (NNB 家))) (ADJP (NN 中档)) (NP (NN 酒店))))) (, ，) (VP (VV 吃尽) (NP (ADJP (DT 各种)) (NP (NN 美食))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-但是，你却不会发现，这里缺乏其他游客，没有大规模旅游的干扰。
-
-(ROOT (IP (ADVP (RB 但是)) (, ，) (NP (PRP 你)) (VP (ADVP (RB 却)) (VP (MD 不会) (VP (VV 发现) (, ，) (IP (NP (PRD 这里)) (VP (VP (VV 缺乏) (NP (DP (DT 其他)) (NP (NN 游客)))) (, ，) (VP (VV 没有) (NP (DNP (NP (NP (ADJP (PFA 大)) (NP (NN 规模))) (NP (NN 旅游))) (DEC 的)) (NP (NN 干扰))))))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-您将看到古代世界的奇迹，却没有一个旅游团的影子。
-
-(ROOT (IP (NP (PRP 您)) (VP (VP (ADVP (RB 将)) (VP (VV 看到) (NP (DNP (NP (NN 古代) (NN 世界)) (DEC 的)) (NP (NN 奇迹))))) (, ，) (VP (ADVP (RB 却)) (VP (VV 没有) (NP (DNP (NP (QP (CD 一) (CLP (NNB 个))) (NP (VV 旅游) (SFN 团))) (DEC 的)) (NP (NN 影子)))))) (. 。)))
+(ROOT (IP (NP (PRP 他们)) (VP (VP (VV 得出) (NP (NN 结论))) (VP (VV 认为) (, ，) (IP (NP (NN 机器)) (VP (PP (IN 在) (LCP (QP (CD 几十) (CLP (NNB 年))) (IN 内))) (VP (MD 可能) (VP (MD 会) (VP (VV 取代) (NP (DNP (QP (CD 47%)) (DEC 的)) (NP (JJ 当今) (NN 工作)))))))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP76122': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
 {'NP': {'PRP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+他	得出	nsubj
+得出	ROOT	root
+结论	为	nsubj
+为	得出	ccomp
+，	取代	punct
+机器	取代	nsubj
+在	年	case
+几十	年	nummod
+年	取代	obl
+内	年	case
+可能	取代	aux
+会	取代	aux
+取代	为	ccomp
+47%	工作	nummod
+的	47%	mark:rel
+当今	工作	amod
+工作	取代	obj
+。	得出	punct
 ----------------------------------------------------------------------
-事实上，这里是一个非常欢迎游客的国家，当地人对游客的款待令人难以置信。
+这是一个可怕的预言，但其后果并不会平均地落在社会上的每个人身上。
 
-(ROOT (IP (IP (LCP (NP (NN 事实)) (IN 上)) (, ，) (NP (PRD 这里)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 非常)) (VP (VV 欢迎) (NP (NN 游客))))) (DEC 的))) (NP (NN 国家))))) (, ，) (IP (NP (NP (NN 当地) (SFN 人)) (DNP (PP (IN 对) (NP (NN 游客))) (DEC 的)) (NP (NN 款待))) (VP (VV 令) (NP (NN 人)) (IP (VP (ADVP (JJ 难)) (VP (RB 以) (VP (VV 置信))))))) (. 。)))
+(ROOT (IP (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 可怕))) (DEC 的))) (NP (NN 预言))))) (, ，) (IP (ADVP (RB 但)) (ADVP (NN 其后)) (NP (NN 果)) (VP (ADVP (RB 并)) (VP (MD 不会) (VP (ADVP (RB 平均)) (VP (VV 地落) (PP (VV 在) (NP (NP (DNP (LCP (NP (NN 社会)) (IN 上)) (DEC 的)) (DP (DT 每个)) (NP (NN 人))) (NP (NN 身上))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP52020': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-1月份，可以参加古老的波斯圣诞节——萨德节，庆祝着火的诞生。
-
-(ROOT (IP (VP (NP (NP (QP (CD 1)) (NP (NNB 月))) (NP (NNB 份))) (, ，) (VP (MD 可以) (VP (VP (VV 参加) (NP (NP (CP (CP (IP (VP (JJ 古老))) (DEC 的))) (NP (NNP 波斯)) (NP (NNP 圣诞)) (NP (SFN 节—))) (HYPH —) (NP (NNP 萨德) (SFN 节)))) (, ，) (VP (VV 庆祝) (AS 着) (NP (DNP (NP (NN 火)) (DEC 的)) (NP (NN 诞生))))))) (. 。)))
-{'IP': {'VP': {}, '.': {}}}
-{'IP': {'VP': {'NP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'VP': {'NP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-波兰
-
-(ROOT (NP (NNP 波兰)))
-{'NP': {'NNP': {}}}
-{'NP': {'NNP': {}}}
-----------------------------------------------------------------------
-在冷战的好日子里，东欧曾经便宜得不能再便宜。
-
-(ROOT (IP (PP (IN 在) (LCP (NP (DNP (NP (NN 冷战)) (DEC 的)) (ADJP (JJ 好)) (NP (NN 日子))) (IN 里))) (, ，) (NP (NN 东) (NNP 欧)) (VP (ADVP (RB 曾经)) (VP (JJ 便宜) (DEV 得) (VP (MD 不能) (VP (ADVP (RB 再)) (VP (JJ 便宜)))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NN': {}, 'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'NN': {}, 'NNP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-现在和平终于爆发了，成本也在上涨。
-
-(ROOT (IP (IP (NP (NN 现在)) (NP (NN 和平)) (VP (ADVP (RB 终于)) (VP (VV 爆发) (AS 了)))) (, ，) (IP (NP (NN 成本)) (VP (ADVP (RB 也)) (ADVP (RB 在)) (VP (VV 上涨)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-不过，波兰的价格仍然很便宜：每天花费 25 美元，就能轻松玩遍全国。
-
-(ROOT (IP (IP (ADVP (RB 不过)) (, ，) (NP (DNP (NP (NNP 波兰)) (DEC 的)) (NP (NN 价格))) (VP (ADVP (RB 仍然)) (ADVP (RB 很)) (VP (JJ 便宜)))) (: ：) (IP (IP (VP (NP (DT 每天)) (VP (VV 花费) (QP (CD 25) (CLP (NNB 美元)))))) (, ，) (VP (ADVP (RB 就)) (VP (MD 能) (VP (ADVP (RB 轻松)) (VP (VV 玩遍) (NP (NN 全国))))))) (. 。)))
-{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP': {'IP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'IP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-波兰是一个被入侵者踩踏过太多次的国家，因此它已经变得钢炮耐用。
-
-(ROOT (IP (IP (NP (NNP 波兰)) (VP (VC 是) (NP (CP (CP (IP (NP (QP (CD 一) (CLP (NNB 个))) (CP (IP (VP (BB 被) (VP (VV 入侵))))) (NP (SFN 者))) (VP (VRD (VV 踩) (VV 踏过)) (NP (ADJP (JJ 太多)) (NP (NNB 次))))) (DEC 的))) (NP (NN 国家))))) (, ，) (IP (ADVP (IN 因)) (ADVP (PRD 此)) (NP (PRP 它)) (VP (ADVP (RB 已经)) (VP (VV 变得) (IP (NP (NN 钢炮)) (VP (JJ 耐用)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP81371': {'ADVP': {}, 'ADVP26763': {}, 'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+这	预言	nsubj
+是	预言	cop
+一	个	nummod
+个	预言	clf
+可怕	预言	amod
+的	可怕	mark:rel
+预言	ROOT	root
+，	地落	punct
+但	地落	mark
+其后	地落	nmod:tmod
+果	地落	nsubj
+并	地落	mark
+会	地落	aux
+平均	地落	advmod
+地落	预言	parataxis
+在	地落	mark
+社会	身上	nmod
+上	社会	case
+的	社会	case
+每个	人	det
+人	身上	nmod
+身上	地落	obj
+。	预言	punct
 ----------------------------------------------------------------------
-现在这个欧盟成员国正在崛起，所以快来，否则价格会上涨。
+数据的仔细分析显示了一个令人惊讶的模式:
 
-(ROOT (IP (IP (NP (NN 现在)) (NP (DP (DT 这) (CLP (NNB 个))) (NP (NNP 欧盟)) (NP (NN 成员) (SFN 国))) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 崛起)))) (, ，) (IP (ADVP (RB 所以)) (NP (JJ 快来)) (, ，) (ADVP (VV 否则)) (NP (NN 价格)) (VP (JJ 会上涨))) (. 。)))
+(ROOT (IP (NP (DNP (NP (NN 数据)) (DEC 的)) (ADJP (JJ 仔细)) (NP (NN 分析))) (VP (VV 显示) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 令) (NP (NN 人)) (IP (VP (JJ 惊讶))))) (DEC 的))) (NP (NN 模式)))) (. :)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+数据	分析	nmod
+的	数据	case
+仔细	分析	amod
+分析	显示	nsubj
+显示	ROOT	root
+了	显示	aux
+一	个	nummod
+个	模式	clf
+令	模式	acl:relcl
+人	惊讶	nsubj
+惊讶	令	ccomp
+的	令	mark:rel
+模式	显示	obj
+:	显示	punct
+----------------------------------------------------------------------
+女性主要从事的工作相对安全，而男性从事的工作则存在风险。
+
+(ROOT (IP (IP (NP (CP (CP (IP (NP (NN 女性)) (VP (ADVP (RB 主要)) (VP (VV 从事)))) (DEC 的))) (NP (NN 工作))) (VP (ADVP (RB 相对)) (VP (JJ 安全)))) (, ，) (IP (ADVP (RB 而)) (NP (CP (CP (IP (NP (NN 男性)) (VP (VV 从事))) (DEC 的))) (NP (NN 工作))) (VP (ADVP (RB 则)) (VP (VV 存在) (NP (NN 风险))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP30537': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-乡村小镇很美丽，而且费用低廉；位于 Lubelskie 地区的 Krasnystaw 等小镇就是一个廉价旅游的天堂。
-
-(ROOT (IP (IP (NP (NN 乡村) (NN 小镇)) (VP (ADVP (RB 很)) (VP (JJ 美丽)))) (, ，) (IP (ADVP (RB 而且)) (NP (NN 费用)) (VP (JJ 低廉))) (: ；) (IP (NP (NP (NP (CP (CP (IP (VP (VV 位) (PP (VV 于) (NP (FW Lubelskie) (NN 地区))))) (DEC 的))) (NP (FW Krasnystaw))) (NN 等)) (NP (NN 小镇))) (VP (VC 就是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (JJ 廉价)) (VP (NN 旅游)))) (DEC 的))) (NP (NN 天堂))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ':': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ':': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-老挝
-
-(ROOT (NP (NNP 老挝)))
-{'NP': {'NNP': {}}}
-{'NP': {'NNP': {}}}
-----------------------------------------------------------------------
-东南亚是便宜旅行的沃土，多年来泰国是实际上的目的地，但如今旅行者正在超越旧标准，寻找更多冒险的便宜地方。
-
-(ROOT (IP (IP (NP (NNP 东南亚)) (VP (VC 是) (NP (DNP (NP (ADJP (JJ 便宜)) (NP (VV 旅行))) (DEC 的)) (NP (NNP 沃土))))) (, ，) (IP (LCP (QP (CD 多) (CLP (NNB 年))) (VV 来)) (NP (NNP 泰国)) (VP (VC 是) (NP (DNP (LCP (NP (NN 实际)) (IN 上)) (DEC 的)) (NP (NN 目的) (SFN 地))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 如今)) (NP (VV 旅行) (SFN 者)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VP (VV 超越) (NP (ADJP (PFA 旧)) (NP (NN 标准)))) (, ，) (VP (VV 寻找) (NP (ADJP (JJ 更多)) (CP (CP (IP (VP (NN 冒险))) (DEC 的))) (ADJP (JJ 便宜)) (NP (NN 地方))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'LCP': {}, 'NP': {}, 'VP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'LCP': {}, 'NP': {}, 'VP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-进入老挝。
-
-(ROOT (IP (VP (VV 进入) (NP (NNP 老挝))) (. 。)))
-{'IP': {'VP': {}, '.': {}}}
-{'IP': {'VP': {'VV': {}, 'NP': {}}, '.': {}}}
-{'VP': {'VV': {}, 'NP': {}}}
-----------------------------------------------------------------------
-它可能没有泰国的海滩或越南的名气，但它有它的优势。
-
-(ROOT (IP (IP (NP (PRP 它)) (VP (MD 可能) (VP (VV 没有) (NP (NP (DNP (NP (NNP 泰国)) (DEC 的)) (NP (NN 海滩))) (CC 或) (NP (DNP (NP (NNP 越南)) (DEC 的)) (NP (NN 名气))))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 它)) (VP (VV 有) (NP (DNP (NP (PRP 它)) (DEC 的)) (NP (NN 优势))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP74332': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+女性	从事	nsubj
+主要	从事	advmod
+从事	工作	acl:relcl
+的	从事	mark:rel
+工作	安全	nsubj
+相对	安全	advmod
+安全	ROOT	root
+，	存在	punct
+而	存在	mark
+男性	从事	nsubj
+从事	工作	acl:relcl
+的	从事	mark:rel
+工作	存在	nsubj
+则	存在	mark
+存在	安全	parataxis
+风险	存在	obj
+。	安全	punct
 ----------------------------------------------------------------------
-只需每天 15 美元，您就可以获得所需的一切，这样您就可以在未受破坏的河谷和湄公河沿岸的休闲小村庄中自由活动。
+尽管劳动力市场方面取得了进步，但许多常见的职业仍然带有高度的性别偏见，这并不令人感到惊讶。
 
-(ROOT (IP (IP (VP (ADVP (RB 只)) (VP (MD 需) (QP (NP (DT 每天)) (QP (CD 15) (CLP (NNB 美元))))))) (, ，) (IP (NP (PRP 您)) (VP (ADVP (RB 就)) (VP (MD 可以) (VP (VV 获得) (NP (CP (CP (IP (VP (RB 所) (VP (VV 需)))) (DEC 的))) (NP (DT 一切))))))) (, ，) (IP (ADVP (PRD 这样)) (NP (PRP 您)) (VP (ADVP (RB 就)) (VP (MD 可以) (VP (PP (IN 在) (LCP (NP (NP (CP (CP (IP (VP (ADVP (RB 未)) (VP (VV 受) (NP (VV 破坏))))) (DEC 的))) (NP (NN 河谷))) (CC 和) (NP (DNP (NP (NP (NNP 湄公) (SFN 河)) (NP (NN 沿岸))) (DEC 的)) (NP (NN 休闲) (NN 小村) (SFN 庄)))) (NN 中))) (ADVP (RB 自由)) (VP (VV 活动)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-最便宜的方式是从泰国清肯通过船进入。
-
-(ROOT (IP (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 便宜)))) (DEC 的))) (NP (NN 方式))) (VP (VC 是) (IP (VP (PP (IN 从) (NP (NNP 泰国) (VV 清肯))) (PP (VV 通过) (NP (NN 船))) (VP (VV 进入))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'IP': {}}}
-----------------------------------------------------------------------
-乘船的费用大约 0.50 美元；签证，需在老挝支付，大约 30 美元。
-
-(ROOT (IP (IP (NP (CP (CP (IP (VP (VV 乘船))) (DEC 的))) (NP (NN 费用))) (VP (QP (ADVP (RB 大约)) (QP (CD 0.50) (CLP (NNB 美元)))))) (: ；) (IP (NP (NN 签证)) (, ，) (VP (MD 需) (VP (PP (VV 在) (NP (NNP 老挝))) (VP (VV 支付))))) (, ，) (IP (VP (QP (ADVP (RB 大约)) (QP (CD 30) (CLP (NNB 美元)))))) (. 。)))
-{'IP': {'IP': {}, ':': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, ',': {}, 'VP': {}, 'VP': {}}, ',': {}, '.': {}}}
+(ROOT (IP (IP (CP (ADVP (IN 尽管)) (IP (NP (VV 劳动) (SFN 力) (NN 市场) (NN 方面)) (VP (VV 取得) (AS 了) (NP (NN 进步))))) (, ，) (ADVP (RB 但)) (NP (QP (CD 许多)) (CP (CP (IP (VP (JJ 常见))) (DEC 的))) (NP (NN 职业))) (VP (ADVP (RB 仍然)) (VP (VV 带有) (NP (DNP (ADJP (JJ 高度)) (DEC 的)) (NP (NN 性别) (NN 偏见)))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 并)) (VP (VV 不令) (NP (NN 人)) (IP (VP (VV 感到) (NP (JJ 惊讶))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP5119': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP8895': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, ',': {}, 'VP': {}, 'VP': {}}}
+Dependency Features:
+尽管	取得	case
+劳动	力	compound
+力	方面	nmod
+市场	方面	nmod
+方面	取得	nsubj
+取得	带有	ccomp
+了	取得	aux
+进步	取得	obj
+，	取得	punct
+但	带有	mark
+许多	职业	nummod
+常见	职业	amod
+的	常见	mark:rel
+职业	带有	nsubj
+仍然	带有	advmod
+带有	ROOT	root
+高度	偏见	amod
+的	高度	mark:rel
+性别	偏见	nmod
+偏见	带有	obj
+，	令	punct
+这	令	nsubj
+并	令	mark
+令	带有	parataxis
+人	感到	nsubj
+感到	令	ccomp
+惊讶	感到	xcomp
+。	带有	punct
 ----------------------------------------------------------------------
-人生最好的事情确实是免费的——如老挝的塔赛的极其漂亮的石灰岩瀑布。
+例如，在美国的 300 万货车司机中，95% 以上是男性；在近 300 万秘书和行政助理中，95% 以上是女性。
 
-(ROOT (IP (NP (CP (CP (IP (NP (NN 人生)) (VP (JJ 最好))) (DEC 的))) (NP (NN 事情))) (VP (ADVP (RB 确实)) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 免费))) (UH 的))) (HYPH ——) (NP (ADVP (VV 如)) (NP (DNP (NP (DNP (NP (NNP 老挝)) (DEC 的)) (NP (NN 塔赛))) (DEC 的)) (CP (CP (IP (VP (ADVP (RB 极)) (ADVP (PRP 其)) (VP (JJ 漂亮)))) (DEC 的))) (NP (NN 石灰) (SFN 岩) (NN 瀑布))))))) (. 。)))
+(ROOT (IP (IP (ADVP (VV 例如)) (, ，) (LCP (NP (DNP (PP (VV 在) (NP (NNP 美国))) (DEC 的)) (QP (CD 300) (QP (NNB 万))) (NP (NN 货车) (NN 司机))) (IN 中)) (, ，) (LCP (QP (CD 95%)) (IN 以上)) (VP (VC 是) (NP (NN 男性)))) (: ；) (IP (PP (IN 在) (LCP (NP (QP (ADVP (RB 近)) (QP (CD 300) (QP (CD 万)))) (NP (NN 秘书) (CC 和) (NN 行政) (NN 助理))) (IN 中))) (, ，) (LCP (QP (CD 95%)) (IN 以上)) (VP (VC 是) (NP (NN 女性)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP70977': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'LCP': {}, ',42581': {}, 'LCP38088': {}, 'VP': {}}, ':': {}, 'IP86950': {'PP': {}, ',': {}, 'LCP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'LCP': {}, ',': {}, 'LCP': {}, 'VP': {}}, ':': {}, 'IP': {'PP': {}, ',': {}, 'LCP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'LCP': {}, ',': {}, 'LCP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'LCP': {}, 'VP': {}}}
+Dependency Features:
+例如	ROOT	root
+，	女性	punct
+在	司机	acl:relcl
+美国	在	obj
+的	在	mark:rel
+300	万	nummod
+万	司机	clf
+货车	司机	nmod
+司机	男性	nsubj
+中	司机	case
+，	司机	punct
+95%	男性	nummod
+以上	95%	case
+是	男性	cop
+男性	女性	advcl
+；	男性	punct
+在	秘书	case
+近	万	advmod
+300	万	nummod
+万	秘书	nmod
+秘书	女性	nmod
+和	助理	cc
+行政	助理	nmod
+助理	秘书	conj
+中	秘书	case
+，	秘书	punct
+95%	女性	nmod:tmod
+以上	95%	case
+是	女性	cop
+女性	例如	ccomp
+。	例如	punct
+----------------------------------------------------------------------
+自动驾驶汽车是一个不是很遥远的可能性，当它们到来时，这些司机的工作将会消失；办公室支持工作人员不会面临这样的迫在眉睫的威胁。
+
+(ROOT (IP (IP (NP (CP (IP (VP (ADVP (JJ 自动)) (VP (NN 驾驶))))) (NP (NN 汽车))) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VC 不是) (VP (ADVP (RB 很)) (VP (JJ 遥远))))) (DEC 的))) (NP (NN 可能) (SFN 性))))) (, ，) (IP (PP (IN 当) (LCP (IP (NP (PRP 它们)) (VP (VV 到来))) (IN 时))) (, ，) (NP (DNP (NP (DP (DT 这些)) (NP (NN 司机))) (DEC 的)) (NP (NN 工作))) (VP (ADVP (RB 将)) (VP (MD 会) (VP (VV 消失))))) (: ；) (IP (IP (NP (VV 办公) (SFN 室)) (VP (NN 支持) (NP (NN 工作) (NN 人员)))) (VP (MD 不会) (VP (VV 面临) (NP (DNP (NP (PRD 这样)) (DEC 的)) (CP (CP (IP (VP (VV 迫) (NP (NP (VV 在)) (NP (NN 眉睫))))) (DEC 的))) (NP (NN 威胁)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP87212': {}, ':': {}, 'IP77493': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP71423': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP86644': {'IP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP': {'IP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'IP': {}, 'VP': {}}}
+Dependency Features:
+自动	汽车	amod
+驾驶	汽车	nmod
+汽车	性	nsubj
+是	性	cop
+一	个	nummod
+个	性	nmod
+是	性	cop
+很	遥远	advmod
+遥远	性	amod
+的	遥远	mark:rel
+可能	性	compound
+性	ROOT	root
+，	消失	punct
+当	到来	case
+它	到来	nsubj
+到来	消失	ccomp
+时	到来	mark
+，	到来	punct
+这些	司机	det
+司机	工作	nmod
+的	司机	case
+工作	消失	nsubj
+将	消失	advmod
+会	消失	aux
+消失	性	parataxis
+；	面临	punct
+办公	室	compound
+室	人员	nmod
+支持	人员	nmod
+工作	人员	nmod
+人员	面临	nsubj
+会	面临	aux
+面临	性	parataxis
+这样	威胁	det
+的	这样	case
+迫	威胁	acl:relcl
+在	迫	mark
+眉睫	迫	obj
+的	迫	mark:rel
+威胁	面临	obj
+。	性	punct
+----------------------------------------------------------------------
+对于许多性别偏见最严重的职业来说，这种情况也是如此。
+
+(ROOT (IP (IP (VP (PP (IN 对于) (NP (QP (CD 许多)) (CP (CP (IP (IP (NP (NN 性别)) (VP (ADVP (RB 偏)) (VP (VV 见)))) (VP (ADVP (RB 最)) (VP (JJ 严重)))) (DEC 的))) (NP (NN 职业)))) (VP (RB 来) (VP (VV 说))))) (, ，) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 情况))) (VP (VC 也是) (NP (VV 如此))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+对于	职业	case
+许多	职业	nummod
+性别	见	nsubj
+偏	见	advmod
+见	职业	acl:relcl
+最	严重	advmod
+严重	职业	acl:relcl
+的	严重	mark:rel
+职业	说	obl
+来	说	mark
+说	ROOT	root
+，	如此	punct
+这	种	det
+种	情况	clf
+情况	如此	nsubj
+是	如此	cop
+如此	说	ccomp
+。	说	punct
+----------------------------------------------------------------------
+在 250 万个美国建筑和木工工作中，男性占 97%。
+
+(ROOT (IP (PP (VV 在) (LCP (NP (QP (CD 250) (QP (CD 万) (CLP (NNB 个)))) (NP (NNP 美国)) (NP (NN 建筑) (CC 和) (NN 木工) (NN 工作))) (IN 中))) (, ，) (NP (NN 男性)) (VP (VV 占) (QP (CD 97%))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'LCP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VV': {}, 'QP': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'LCP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VV': {}, 'QP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'LCP': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VV': {}, 'QP': {}}}
+Dependency Features:
+在	占	advcl
+250	个	nummod
+万	个	nummod
+个	建筑	nmod
+美国	建筑	nmod
+建筑	在	obj
+和	工作	cc
+木工	工作	nmod
+工作	建筑	conj
+中	建筑	case
+，	在	punct
+男性	占	nsubj
+占	ROOT	root
+97%	占	obj
+。	占	punct
+----------------------------------------------------------------------
+牛津大学的研究估计，这些男性工人有 70% 以上的机会被机器人取代。
+
+(ROOT (IP (NP (DNP (NP (NNP 牛津) (NN 大学)) (DEC 的)) (NP (NN 研究))) (VP (VV 估计) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 男性) (NN 工人))) (VP (VV 有) (IP (NP (DNP (LCP (QP (CD 70%)) (IN 以上)) (DEC 的)) (NP (NN 机会))) (VP (BB 被) (CP (IP (NP (NN 机器) (SFN 人)) (VP (VV 取代))))))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+牛津	大学	nmod
+大学	研究	nmod
+的	大学	case
+研究	估计	nsubj
+估计	ROOT	root
+，	有	punct
+这些	工人	det
+男性	工人	nmod
+工人	有	nsubj
+有	估计	ccomp
+70%	机会	nummod
+以上	70%	case
+的	70%	case
+机会	取代	nsubj:pass
+被	取代	aux:pass
+机器	人	compound
+人	取代	nsubj
+取代	有	ccomp
+。	估计	punct
+----------------------------------------------------------------------
+相比之下，女性占据了 93% 的注册护士职位，她们的落伍风险微乎其微：0.009%。
+
+(ROOT (IP (IP (IP (VP (VV 相比)) (IN 之下)) (, ，) (NP (NN 女性)) (VP (VV 占据) (AS 了) (NP (DNP (QP (CD 93%)) (DEC 的)) (NP (NN 注册) (NN 护士) (NN 职位))))) (, ，) (IP (NP (DNP (NP (PRP 她们)) (DEC 的)) (NP (NN 落伍) (NN 风险))) (VP (VP (VV 微乎) (NP (NP (PRP 其)) (NP (JJ 微)))) (: ：) (VP (QP (CD 0.009%))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP16196': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP96412': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+相比	占据	advcl
+之下	相比	mark
+，	相比	punct
+女性	占据	nsubj
+占据	ROOT	root
+了	占据	aux
+93%	职位	nummod
+的	93%	mark:rel
+注册	职位	nmod
+护士	职位	nmod
+职位	占据	obj
+，	微乎	punct
+她	风险	det
+的	她	case
+落伍	风险	nmod
+风险	微乎	nsubj
+微乎	占据	parataxis
+其	微	nsubj
+微	微乎	ccomp
+：	0.009%	punct
+0.009%	微乎	obj
+。	占据	punct
+----------------------------------------------------------------------
+这种模式的原因是什么?
+
+(ROOT (IP (NP (DNP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 模式))) (DEC 的)) (NP (NN 原因))) (VP (VC 是) (NP (WP 什么))) (. ?)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+这	种	det
+种	模式	clf
+模式	原因	nmod
+的	模式	case
+原因	什么	nsubj
+是	什么	cop
+什么	ROOT	root
+?	什么	punct
+----------------------------------------------------------------------
+即将到来的智能机器所展现的技能更适合目前由男性主导的职业。
+
+(ROOT (IP (NP (CP (CP (IP (NP (CP (CP (IP (VP (ADVP (RB 即将)) (VP (VV 到来)))) (DEC 的))) (NP (NN 智能) (NN 机器))) (VP (RB 所) (VP (VV 展现)))) (DEC 的))) (NP (NN 技能))) (VP (ADVP (RB 更)) (VP (VV 适合) (NP (CP (CP (IP (VP (NP (NN 目前)) (PP (VV 由) (NP (NN 男性))) (VP (VV 主导)))) (DEC 的))) (NP (NN 职业))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
 {'NP': {'CP': {}, 'NP': {}}}
 {'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+即将	到来	advmod
+到来	机器	acl:relcl
+的	到来	mark:rel
+智能	机器	nmod
+机器	展现	nsubj
+所	展现	mark
+展现	技能	acl:relcl
+的	展现	mark:rel
+技能	适合	nsubj
+更	适合	advmod
+适合	ROOT	root
+目前	由	nmod:tmod
+由	职业	acl:relcl
+男性	主导	nsubj
+主导	由	ccomp
+的	由	mark:rel
+职业	适合	obj
+。	适合	punct
 ----------------------------------------------------------------------
-地点:苏丹
+男人承担的许多工作都涉及感知和操控，通常与体力劳动结合起来，比如挥舞锤子或修剪树木。
 
-(ROOT (NP (NP (NN 地点)) (HYPH :) (NP (NNP 苏丹))))
-{'NP': {'NP': {}, 'HYPH': {}, 'NP': {}}}
-{'NP': {'NP': {'NN': {}}, 'HYPH': {}, 'NP': {'NNP': {}}}}
+(ROOT (IP (NP (CP (CP (IP (NP (NN 男人)) (VP (VV 承担))) (DEC 的))) (QP (CD 许多)) (NP (NN 工作))) (VP (VP (ADVP (RB 都)) (VP (VV 涉及) (NP (NN 感知) (CC 和) (NN 操控)))) (, ，) (VP (ADVP (RB 通常)) (PP (IN 与) (NP (NN 体力) (NN 劳动))) (VP (VRD (VV 结合) (VV 起来)))) (, ，) (VP (ADVP (VV 比如)) (VP (VP (VV 挥舞) (NP (NN 锤子))) (CC 或) (VP (VV 修剪) (NP (NN 树木)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'QP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP26392': {}, ',95449': {}, 'VP73827': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'QP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'QP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+男人	承担	nsubj
+承担	工作	acl:relcl
+的	承担	mark:rel
+许多	工作	nummod
+工作	涉及	nsubj
+都	涉及	mark
+涉及	ROOT	root
+感知	涉及	obj
+和	操控	cc
+操控	感知	conj
+，	比如	punct
+通常	结合	advmod
+与	劳动	case
+体力	劳动	nmod
+劳动	结合	obl
+结合	比如	advcl
+起来	结合	mark
+，	结合	punct
+比如	涉及	parataxis
+挥舞	比如	xcomp
+锤子	挥舞	obj
+或	修剪	cc
+修剪	挥舞	conj
+树木	修剪	obj
+。	涉及	punct
+----------------------------------------------------------------------
+最新的移动机器人将先进的感应系统与灵巧的机械手结合起来，成功地完成了这些任务。
+
+(ROOT (IP (NP (CP (CP (IP (VP (JJ 最新))) (DEC 的))) (NP (NN 移动) (NN 机器) (SFN 人))) (VP (VP (BB 将) (IP (NP (CP (CP (IP (VP (JJ 先进))) (DEC 的))) (NP (NN 感应) (NN 系统))) (VP (PP (IN 与) (NP (CP (CP (IP (VP (JJ 灵巧))) (DEC 的))) (NP (NN 机械) (SFN 手)))) (VP (VRD (VV 结合) (VV 起来)))))) (, ，) (VP (DVP (VP (JJ 成功)) (DEV 地)) (VP (VV 完成) (AS 了) (NP (DP (DT 这些)) (NP (NN 任务)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP65150': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+最新	人	amod
+的	最新	mark:rel
+移动	人	nmod
+机器	人	compound
+人	完成	nsubj
+将	系统	case
+先进	系统	amod
+的	先进	mark:rel
+感应	系统	nmod
+系统	结合	obl:patient
+与	手	case
+灵巧	手	amod
+的	灵巧	mark:rel
+机械	手	compound
+手	结合	obl
+结合	完成	advcl
+起来	结合	mark
+，	结合	punct
+成功	完成	advmod
+地	成功	mark:adv
+完成	ROOT	root
+了	完成	aux
+这些	任务	det
+任务	完成	obj
+。	完成	punct
+----------------------------------------------------------------------
+其他更多男性占据主导地位的专业也不安全。
+
+(ROOT (IP (NP (DP (DT 其他)) (ADJP (JJ 更多)) (NP (NN 男性))) (CP (CP (IP (VP (VV 占据) (NP (ADJP (NN 主导)) (NP (NN 地位))))) (DEC 的))) (NP (NN 专业)) (VP (ADVP (RB 也)) (ADVP (RB 不)) (VP (JJ 安全))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'CP': {}, 'NP67286': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'CP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'ADJP': {}, 'NP': {}}, 'CP': {'CP': {}}, 'NP32966': {'NN': {}}, 'VP': {'ADVP': {}, 'ADVP75788': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'ADJP': {}, 'NP': {}}, 'CP': {'CP': {}}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'ADJP': {}, 'NP': {}}}
+{'CP': {'CP': {}}}
 {'NP': {'NN': {}}}
-{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+其他	男性	det
+更多	男性	amod
+男性	占据	nsubj
+占据	专业	acl:relcl
+主导	地位	nmod
+地位	占据	obj
+的	占据	mark:rel
+专业	安全	nsubj
+也	安全	mark
+不	安全	advmod
+安全	ROOT	root
+。	安全	punct
 ----------------------------------------------------------------------
-很难到达，很难进入，很难理解。
+许多看似需要经验和判断的职业，比如商品交易员，正在被日益复杂的机器学习程序所取代，这些程序能够快速从大量数据中捕捉出微妙的模式。
 
-(ROOT (IP (VP (VP (ADVP (RB 很难)) (VP (VV 到达))) (, ，) (VP (ADVP (RB 很难)) (VP (VV 进入))) (, ，) (VP (ADVP (RB 很难)) (VP (VV 理解)))) (. 。)))
-{'IP': {'VP': {}, '.': {}}}
-{'IP': {'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}}, '.': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}}}
-----------------------------------------------------------------------
-苏丹因为错误的原因频频上了新闻报道，但人们应该关注的是当地人民对款待客人的自豪，以及苏丹各地可以看到的惊人景象。
-
-(ROOT (IP (IP (NP (NNP 苏丹)) (VP (PP (IN 因为) (NP (CP (CP (IP (VP (JJ 错误))) (DEC 的))) (NP (NN 原因)))) (ADVP (RB 频频)) (VP (VV 上) (AS 了) (NP (NN 新闻) (NN 报道))))) (, ，) (IP (ADVP (RB 但)) (NP (CP (CP (IP (NP (NN 人们)) (VP (MD 应该) (VP (VV 关注)))) (DEC 的)))) (VP (VC 是) (NP (NP (NP (NN 当地) (NN 人民)) (DNP (PP (IN 对) (IP (VP (VV 款待) (NP (NN 客人))))) (DEC 的)) (NP (NN 自豪))) (, ，) (CC 以及) (NP (CP (CP (IP (NP (NP (NNP 苏丹)) (NP (NN 各地))) (VP (MD 可以) (VP (VV 看到)))) (DEC 的))) (ADJP (JJ 惊人)) (NP (NN 景象)))))) (. 。)))
+(ROOT (IP (IP (NP (NP (QP (CD 许多)) (CP (CP (IP (VP (VV 看似) (IP (VP (VV 需要) (NP (NN 经验) (CC 和) (NN 判断)))))) (DEC 的))) (NP (NN 职业))) (, ，) (NP (ADVP (VV 比如)) (NP (NN 商品) (VV 交易) (SFN 员)))) (, ，) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (BB 被) (CP (IP (NP (CP (CP (IP (VP (ADVP (RB 日益)) (VP (JJ 复杂)))) (DEC 的))) (NP (NN 机器) (NN 学习) (NN 程序))) (VP (RB 所) (VP (VV 取代)))))))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 程序))) (VP (MD 能够) (VP (ADVP (RB 快速)) (PP (IN 从) (LCP (NP (QP (JJ 大量)) (NP (NN 数据))) (IN 中))) (VP (VRD (VV 捕捉) (VV 出)) (NP (CP (CP (IP (VP (JJ 微妙))) (DEC 的))) (NP (NN 模式))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP29645': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP18073': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+许多	职业	nummod
+看似	职业	acl:relcl
+需要	看似	xcomp
+经验	需要	obj
+和	判断	cc
+判断	经验	conj
+的	看似	mark:rel
+职业	比如	nsubj
+，	职业	punct
+比如	ROOT	root
+商品	员	nmod
+交易	员	compound
+员	比如	obj
+，	取代	punct
+正	取代	advmod
+在	取代	advmod
+被	取代	aux:pass
+日益	复杂	advmod
+复杂	程序	amod
+的	复杂	mark:rel
+机器	程序	nmod
+学习	程序	nmod
+程序	取代	nsubj
+所	取代	mark
+取代	比如	ccomp
+，	取代	punct
+这些	程序	det
+程序	捕捉	nsubj
+能够	捕捉	aux
+快速	捕捉	advmod
+从	数据	case
+大量	数据	amod
+数据	捕捉	obl
+中	数据	case
+捕捉	比如	parataxis
+出	捕捉	mark
+微妙	模式	amod
+的	微妙	mark:rel
+模式	捕捉	obj
+。	比如	punct
 ----------------------------------------------------------------------
-在北部，你将欣赏到金字塔和古代世界的其他奇迹，而且很有可能你将拥有它们。
+相比之下，女性通常在更混乱、不规范的环境中工作，在这种环境中，能够阅读人们的情绪和意图对成功至关重要。
 
-(ROOT (IP (IP (PP (VV 在) (NP (NN 北部))) (, ，) (NP (PRP 你)) (VP (ADVP (RB 将)) (VP (VRD (VV 欣赏) (VV 到)) (NP (NP (NN 金字) (SFN 塔)) (CC 和) (NP (DNP (NP (NN 古代) (NN 世界)) (DEC 的)) (DP (DT 其他)) (NP (NN 奇迹))))))) (, ，) (IP (ADVP (RB 而且)) (IP (VP (ADVP (RB 很)) (VP (VV 有) (NP (MD 可能))))) (NP (PRP 你)) (VP (ADVP (RB 将)) (VP (VV 拥有) (NP (PRP 它们))))) (. 。)))
+(ROOT (IP (IP (IP (VP (VV 相比)) (IN 之下)) (, ，) (NP (NN 女性)) (VP (ADVP (RB 通常)) (PP (IN 在) (LCP (NP (CP (CP (IP (VP (VP (ADVP (RB 更)) (VP (JJ 混乱))) (EC 、) (VP (ADVP (RB 不)) (VP (JJ 规范))))) (DEC 的))) (NP (NN 环境))) (IN 中))) (VP (VV 工作)))) (, ，) (IP (PP (IN 在) (LCP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 环境))) (IN 中))) (, ，) (IP (VP (MD 能够) (VP (VV 阅读) (NP (DNP (NP (NN 人们)) (DEC 的)) (NP (NN 情绪) (CC 和) (NN 意图)))))) (VP (PP (IN 对) (NP (RB 成功))) (VP (JJ 至关重要)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP85694': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'IP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP90690': {'PP': {}, ',': {}, 'IP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'IP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'IP': {}, 'VP': {}}}
+Dependency Features:
+相比	工作	advcl
+之下	相比	mark
+，	相比	punct
+女性	工作	nsubj
+通常	工作	advmod
+在	环境	case
+更	混乱	advmod
+混乱	环境	amod
+、	规范	punct
+不	规范	advmod
+规范	混乱	conj
+的	混乱	mark:rel
+环境	工作	obl
+中	环境	case
+工作	阅读	advcl
+，	工作	punct
+在	环境	case
+这	种	det
+种	环境	clf
+环境	阅读	obl
+中	环境	case
+，	环境	punct
+能够	阅读	aux
+阅读	ROOT	root
+人	情绪	nmod
+的	人	case
+情绪	阅读	obj
+和	意图	cc
+意图	情绪	conj
+对	至关重要	case
+成功	至关重要	advmod
+至关重要	阅读	conj
+。	阅读	punct
+----------------------------------------------------------------------
+如果您的工作需要在给患者注射疫苗时让患者不去注意，或者在给哭闹的婴儿喂奶时猜对它想要哪种食物，或者在安抚愤怒的顾客时表现同情，那么，至少在可预见的未来，您不用担心机器人会抢走您的工作。
+
+(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (DNP (NP (PRP 您)) (DEC 的)) (NP (NN 工作))) (VP (MD 需要) (VP (VP (PP (IN 在) (LCP (IP (VP (PP (VV 给) (NP (NN 患者))) (VP (VV 注射) (NP (NN 疫苗))))) (IN 时))) (VP (VV 让) (NP (NN 患者)) (IP (VP (MD 不去) (VP (VV 注意)))))) (, ，) (CC 或者) (VP (PP (IN 在) (LCP (IP (VP (PP (VV 给) (NP (CP (CP (IP (VP (VP (VV 哭)) (VP (VV 闹)))) (DEC 的))) (NP (NN 婴儿)))) (VP (VV 喂奶)))) (IN 时))) (VP (VV 猜) (PP (IN 对) (IP (NP (PRP 它)) (VP (MD 想) (IP (VP (VP (MD 要) (NP (DP (DT 哪) (CLP (NNB 种))) (NP (NN 食物)))) (, ，) (CC 或者) (VP (VP (PP (IN 在) (NP (CP (CP (IP (VP (VV 安抚) (NP (JJ 愤怒)))) (DEC 的))) (NP (NN 顾客)))) (IN 时)) (VP (VV 表现) (NP (NN 同情))))))))))))))) (, ，) (ADVP (RB 那么)) (, ，) (VP (ADVP (RB 至少)) (PP (VV 在) (NP (CP (CP (IP (VP (MD 可) (VP (VV 预见)))) (DEC 的))) (NP (NN 未来)))) (, ，) (NP (PRP 您)) (VP (MD 不用) (VP (VV 担心) (IP (NP (NN 机器) (SFN 人)) (VP (MD 会) (VP (VV 抢走) (NP (DNP (NP (PRP 您)) (DEC 的)) (NP (NN 工作))))))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, ',88892': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, ',7981': {}, 'VP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, ',': {}, 'VP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+如果	让	case
+您	工作	det
+的	您	mark:rel
+工作	让	nsubj
+需要	让	aux
+在	注射	case
+给	注射	advcl
+患者	给	obj
+注射	让	xcomp
+疫苗	注射	obj
+时	注射	mark
+让	ROOT	root
+患者	注意	nsubj
+去	注意	aux
+注意	让	ccomp
+，	猜	punct
+或者	猜	cc
+在	喂奶	case
+给	猜	xcomp
+哭	闹	advcl
+闹	婴儿	acl:relcl
+的	闹	mark:rel
+婴儿	给	obj
+喂奶	猜	xcomp
+时	喂奶	mark
+猜	让	conj
+对	它	case
+它	食物	nmod
+想	食物	aux
+要	食物	aux
+哪	种	det
+种	食物	clf
+食物	猜	ccomp
+，	表现	punct
+或者	表现	cc
+在	安抚	case
+安抚	表现	xcomp
+愤怒	顾客	amod
+的	愤怒	mark:rel
+顾客	安抚	obj
+时	安抚	mark
+表现	在	conj
+同情	表现	obj
+，	表现	punct
+那么	担心	advmod
+，	那么	punct
+至少	在	advmod
+在	担心	advcl
+可	预见	aux
+预见	未来	acl:relcl
+的	预见	mark:rel
+未来	在	obj
+，	在	punct
+您	担心	nsubj
+用	担心	aux
+担心	让	parataxis
+机器	人	compound
+人	抢走	nsubj
+会	抢走	aux
+抢走	担心	ccomp
+您	工作	det
+的	您	case
+工作	抢走	obj
+。	让	punct
+----------------------------------------------------------------------
+那么新机器到底会很擅长什么呢?
+
+(ROOT (CP (IP (ADVP (RB 那么)) (NP (ADJP (PFA 新)) (NP (NN 机器))) (VP (ADVP (RB 到底)) (VP (MD 会) (VP (ADVP (RB 很)) (VP (JJ 擅长) (NP (WP 什么))))))) (UH 呢) (. ?)))
+layer 2:
+{'CP': {'IP': {}, 'UH': {}, '.': {}}}
+{'CP': {'IP': {}, 'UH': {}, '.': {}}}
+layer 3:
+{'CP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'CP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+那么	擅长	advmod
+新	机器	case
+机器	擅长	nsubj
+到底	擅长	advmod
+会	擅长	aux
+很	擅长	advmod
+擅长	ROOT	root
+什么	擅长	obj
+呢	擅长	discourse
+?	擅长	punct
+----------------------------------------------------------------------
+首先，它们适合于容易具体化的任务，并提供客观的成功标准。
+
+(ROOT (IP (ADVP (RB 首先)) (, ，) (NP (PRP 它们)) (VP (VP (VV 适合) (PP (VV 于) (NP (CP (CP (IP (VP (ADVP (RB 容易)) (VP (JJ 具体) (SFV 化)))) (DEC 的))) (NP (NN 任务))))) (, ，) (RB 并) (VP (VV 提供) (NP (CP (CP (IP (VP (JJ 客观))) (DEC 的))) (ADJP (JJ 成功)) (NP (NN 标准))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP94517': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+首先	提供	advmod
+，	首先	punct
+它	提供	nsubj
+适合	提供	advcl
+于	适合	mark
+容易	化	advmod
+具体	化	compound
+化	任务	acl:relcl
+的	化	mark:rel
+任务	适合	obj
+，	适合	punct
+并	提供	mark
+提供	ROOT	root
+客观	标准	amod
+的	客观	mark:rel
+成功	标准	amod
+标准	提供	obj
+。	提供	punct
+----------------------------------------------------------------------
+这些功能允许工程师以编程形式编码要求，并测量结果。
+
+(ROOT (IP (NP (DP (DT 这些)) (NP (NN 功能))) (VP (VV 允许) (NP (NN 工程) (SFN 师)) (IP (VP (VP (PP (IN 以) (NP (NN 编程) (NN 形式))) (VP (VCD (VV 编码) (VV 要求)))) (, ，) (CC 并) (VP (VV 测量) (NP (NN 结果)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
+Dependency Features:
+这些	功能	det
+功能	允许	nsubj
+允许	ROOT	root
+工程	师	compound
+师	编码	nsubj
+以	形式	case
+编程	形式	nmod
+形式	编码	obl
+编码	允许	ccomp
+要求	编码	xcomp
+，	测量	punct
+并	测量	cc
+测量	编码	conj
+结果	测量	obj
+。	允许	punct
+----------------------------------------------------------------------
+我们可以很容易地理解机器人刷墙的目的，并且可以看到工作是否已经完成；但是，我们很难评估老年痴呆症患者是否更喜欢温暖的被子。
+
+(ROOT (IP (IP (NP (PRP 我们)) (VP (VP (MD 可以) (VP (DVP (VP (ADVP (RB 很)) (VP (JJ 容易))) (DEV 地)) (VP (VV 理) (VP (VV 解) (NP (CP (IP (NP (NN 机器) (SFN 人)) (VP (VV 刷墙))) (DEC 的)) (NP (NN 目的))))))) (, ，) (RB 并且) (VP (MD 可以) (VP (VV 看到) (IP (NP (NN 工作)) (VP (ADVP (VC 是否)) (ADVP (RB 已经)) (VP (VV 完成)))))))) (: ；) (IP (ADVP (RB 但是)) (, ，) (NP (PRP 我们)) (VP (ADVP (RB 很难)) (VP (VV 评估) (IP (NP (NP (NN 老年)) (ADJP (ADJP (PFA 痴)) (VV 呆) (SFN 症)) (NP (NN 患者))) (VP (ADVP (VC 是否)) (ADVP (RB 更)) (VP (VV 喜欢) (NP (CP (CP (IP (VP (JJ 温暖))) (DEC 的))) (NP (NN 被子))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP93752': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP92285': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+我	看到	nsubj
+可以	理	aux
+很	容易	advmod
+容易	理	advmod
+地	容易	mark:adv
+理	看到	advcl
+解	理	xcomp
+机器	人	compound
+人	刷墙	nsubj
+刷墙	目的	acl:relcl
+的	刷墙	mark:rel
+目的	解	obj
+，	理	punct
+并且	看到	mark
+可以	看到	aux
+看到	ROOT	root
+工作	完成	nsubj
+是	完成	aux
+已经	完成	advmod
+完成	看到	ccomp
+；	评估	punct
+但是	评估	mark
+，	但是	punct
+我	评估	nsubj
+很难	评估	advmod
+评估	看到	parataxis
+老年	患者	nmod
+痴	呆	case
+呆	症	compound
+症	患者	nmod
+患者	喜欢	nsubj
+是	喜欢	aux
+更	喜欢	advmod
+喜欢	被子	acl:relcl
+温暖	喜欢	xcomp
+的	温暖	mark:rel
+被子	评估	obj
+。	看到	punct
+----------------------------------------------------------------------
+计算机也很擅长那些需要一致性、注意力和客观性的任务，比如洗窗户、管理航班流量，或者为出租车司机分配旅行请求。
+
+(ROOT (IP (IP (NP (VV 计算) (SFN 机)) (VP (ADVP (RB 也)) (ADVP (RB 很)) (VP (VV 擅长) (NP (DP (DT 那些)) (CP (CP (IP (VP (VV 需要) (NP (JJ 一致) (SFN 性) (EC 、) (VV 注意) (SFN 力) (CC 和) (JJ 客观) (SFN 性)))) (DEC 的))) (NP (NN 任务)))))) (, ，) (IP (ADVP (VV 比如)) (IP (VP (VP (VV 洗) (NP (NN 窗户))) (EC 、) (VP (VV 管理) (NP (NN 航班) (NN 流量))) (, ，) (CC 或者) (VP (PP (IN 为) (NP (VV 出租) (SFN 车) (NN 司机))) (VP (VV 分配) (NP (NN 旅行) (NN 请求))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP20677': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP5869': {'ADVP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'IP': {}}}
+Dependency Features:
+计算	机	compound
+机	擅长	nsubj
+也	擅长	mark
+很	擅长	advmod
+擅长	ROOT	root
+那些	任务	det
+需要	擅长	xcomp
+一致	性	compound
+性	需要	obj
+、	力	punct
+注意	力	compound
+力	性	conj
+和	性	cc
+客观	性	compound
+性	任务	nmod
+的	需要	mark:rel
+任务	性	conj
+，	比如	punct
+比如	擅长	conj
+洗	比如	xcomp
+窗户	洗	obj
+、	管理	punct
+管理	洗	conj
+航班	流量	nmod
+流量	管理	obj
+，	分配	punct
+或者	分配	cc
+为	司机	case
+出租	车	compound
+车	司机	nmod
+司机	分配	obl
+分配	比如	conj
+旅行	请求	nmod
+请求	分配	obj
+。	擅长	punct
+----------------------------------------------------------------------
+影响工作安全的另一个特征是它所需要的技能的广度。
+
+(ROOT (IP (NP (CP (CP (IP (VP (VV 影响) (NP (NN 工作) (NN 安全)))) (DEC 的))) (DP (DT 另) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 特征))) (VP (VC 是) (NP (DNP (NP (CP (CP (IP (NP (PRP 它)) (VP (RB 所) (VP (VV 需要)))) (DEC 的))) (NP (NN 技能))) (DEC 的)) (NP (NN 广度)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'DP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+影响	特征	acl:relcl
+工作	安全	nmod
+安全	影响	obj
+的	影响	mark:rel
+另	个	det
+一	个	nummod
+个	特征	nmod
+特征	广度	nsubj
+是	广度	cop
+它	需要	nsubj
+所	需要	mark
+需要	技能	acl:relcl
+的	需要	mark:rel
+技能	广度	nmod
+的	技能	case
+广度	ROOT	root
+。	广度	punct
+----------------------------------------------------------------------
+计算机通常不是为了取代工人而设计的，它们通常是用于自动化特定任务，从而提高工作效率。
+
+(ROOT (IP (IP (NP (VV 计算) (SFN 机)) (VP (ADVP (RB 通常)) (VP (VC 不是) (NP (CP (CP (IP (VP (PP (IN 为了) (IP (VP (VV 取代) (NP (NN 工人))))) (VP (RB 而) (VP (VV 设计))))) (UH 的))))))) (, ，) (IP (NP (PRP 它们)) (VP (ADVP (RB 通常)) (VP (VC 是) (VP (VP (VV 用) (PP (VV 于) (IP (VP (ADVP (JJ 自动)) (VP (SFV 化) (NP (ADJP (JJ 特定)) (NP (NN 任务)))))))) (, ，) (VP (ADVP (RB 从而)) (VP (VV 提高) (NP (NN 工作) (NN 效率)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP11858': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP21397': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+计算	机	compound
+机	是	nsubj
+通常	是	advmod
+是	ROOT	root
+为了	取代	case
+取代	设计	xcomp
+工人	取代	obj
+而	设计	mark
+设计	是	xcomp
+的	是	discourse
+，	是	punct
+它	是	nsubj
+通常	是	advmod
+是	是	parataxis
+用	是	xcomp
+于	用	mark
+自动	化	compound
+化	任务	nmod
+特定	任务	amod
+任务	用	obj
+，	是	punct
+从而	提高	mark
+提高	是	parataxis
+工作	效率	nmod
+效率	提高	obj
+。	是	punct
+----------------------------------------------------------------------
+但是当自动化系统可以匹配该工人的全部才能时，他或她的服务就不再有用。
+
+(ROOT (IP (ADVP (RB 但是)) (PP (IN 当) (LCP (IP (NP (JJ 自动) (SFN 化) (NN 系统)) (VP (MD 可以) (VP (VV 匹配) (NP (DNP (NP (DP (DT 该)) (NP (NN 工人))) (DEC 的)) (DP (DT 全部)) (NP (NN 才能)))))) (IN 时))) (, ，) (NP (NP (PRP 他)) (CC 或) (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 服务)))) (VP (ADVP (RB 就)) (ADVP (RB 不)) (ADVP (RB 再)) (VP (VV 有用))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'CC': {}, 'NP34052': {}}, 'VP': {'ADVP': {}, 'ADVP68603': {}, 'ADVP28871': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'CC': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NP': {}, 'CC': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+但是	有用	mark
+当	才能	case
+自动	化	compound
+化	系统	nmod
+系统	匹配	nsubj
+可以	匹配	aux
+匹配	才能	acl:relcl
+该	工人	det
+工人	匹配	obj
+的	匹配	mark:rel
+全部	才能	det
+才能	有用	obl
+时	才能	case
+，	才能	punct
+他	服务	det
+或	她	cc
+她	他	conj
+的	他	case
+服务	有用	nsubj
+就	有用	mark
+不	有用	advmod
+再	有用	advmod
+有用	ROOT	root
+。	有用	punct
+----------------------------------------------------------------------
+因此，你的职责越广泛、越多样，你的离职就越难以替代。
+
+(ROOT (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (IP (IP (NP (DNP (NP (PRP 你)) (DEC 的)) (NP (NN 职责))) (VP (VP (ADVP (RB 越)) (VP (JJ 广泛))) (EC 、) (VP (ADVP (RB 越)) (VP (JJ 多样))))) (, ，) (IP (NP (DNP (NP (PRP 你)) (DEC 的)) (NP (NN 离职))) (VP (ADVP (RB 就)) (ADVP (JJ 越难)) (VP (RB 以) (VP (VV 替代)))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'ADVP22130': {}, ',': {}, 'IP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'IN': {}}, 'ADVP25078': {'PRD': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'IP53310': {}}, '.': {}}}
+{'IP': {'ADVP': {'IN': {}}, 'ADVP': {'PRD': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'IN': {}}}
+{'ADVP': {'PRD': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+因	此	case
+此	替代	obl
+，	此	punct
+你	职责	det
+的	你	case
+职责	替代	nsubj
+越	广泛	advmod
+广泛	替代	advcl
+、	多样	punct
+越	多样	advmod
+多样	广泛	conj
+，	广泛	punct
+你	离职	det
+的	你	case
+离职	替代	nsubj
+就	替代	mark
+越难	替代	advcl
+以	替代	mark
+替代	ROOT	root
+。	替代	punct
+----------------------------------------------------------------------
+简单来说，今天的典型女性工作，将是未来的主流。
+
+(ROOT (IP (IP (VP (VP (JJ 简单)) (VP (RB 来) (VP (VV 说))))) (, ，) (NP (DNP (NP (NN 今天)) (DEC 的)) (ADJP (NN 典型)) (NP (NN 女性) (NN 工作))) (, ，) (VP (ADVP (RB 将)) (VP (VC 是) (NP (DNP (NP (NN 未来)) (DEC 的)) (NP (NN 主流))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, ',39848': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, ',41222': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+简单	说	advmod
+来	说	mark
+说	ROOT	root
+，	主流	punct
+今天	工作	nmod
+的	今天	case
+典型	工作	nmod
+女性	工作	nmod
+工作	主流	nsubj
+，	工作	punct
+将	主流	advmod
+是	主流	cop
+未来	主流	nmod
+的	未来	case
+主流	说	ccomp
+。	说	punct
+----------------------------------------------------------------------
+在大规模上，这种模式可能会导致劳动力的非自愿分工转移，丈夫在送妻子上班后会照顾家务。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (NP (ADJP (PFA 大)) (NP (NN 规模))) (IN 上))) (, ，) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 模式))) (VP (MD 可能) (VP (MD 会) (VP (VV 导致) (IP (NP (DNP (NP (VV 劳动) (SFN 力)) (DEC 的)) (ADJP (VC 非)) (ADJP (JJ 自愿)) (NP (NN 分工))) (VP (NN 转移))))))) (, ，) (IP (NP (NN 丈夫)) (VP (PP (IN 在) (LCP (IP (VP (VV 送) (NP (NN 妻子)) (IP (VP (VV 上班))))) (IN 后))) (VP (MD 会) (VP (VV 照顾) (NP (NN 家务)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP43278': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP40902': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'IP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-而肉饼的价格不到 1 美元，一宿住宿费不到 10 美元。
-
-(ROOT (IP (IP (ADVP (RB 而)) (NP (DNP (NP (NN 肉饼)) (DEC 的)) (NP (NN 价格))) (VP (QP (ADVP (VV 不到)) (QP (CD 1) (CLP (NNB 美元)))))) (, ，) (IP (NP (NN 一宿) (VV 住宿) (SFN 费)) (VP (QP (ADVP (VV 不到)) (QP (CD 10) (CLP (NNB 美元)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+在	规模	case
+大	规模	case
+规模	导致	obl
+上	规模	case
+，	规模	punct
+这	种	det
+种	模式	clf
+模式	导致	nsubj
+可能	导致	aux
+会	导致	aux
+导致	ROOT	root
+劳动	力	compound
+力	非	xcomp
+的	力	case
+非	转移	amod
+自愿	分工	amod
+分工	转移	nmod
+转移	导致	obj
+，	照顾	punct
+丈夫	照顾	nsubj
+在	上班	case
+送	照顾	xcomp
+妻子	上班	nsubj
+上班	送	ccomp
+后	上班	mark
+会	照顾	aux
+照顾	导致	parataxis
+家务	照顾	obj
+。	导致	punct
+----------------------------------------------------------------------
+表面上，这可能听起来很欢快，但现实会更加惨淡，因为家庭在一个收入下勉强维持生计，而男性则因为失去工作世界的地位而陷入情绪剧烈波动。
+
+(ROOT (IP (IP (LCP (NP (NN 表面)) (IN 上)) (, ，) (NP (PRD 这)) (VP (MD 可能) (VP (VP (VRD (VV 听) (VV 起来))) (VP (ADVP (RB 很)) (VP (JJ 欢快)))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 现实)) (VP (MD 会) (VP (ADVP (RB 更加)) (VP (JJ 惨淡))))) (, ，) (IP (PP (IN 因为) (IP (NP (NN 家庭)) (VP (PP (IN 在) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 收入)))) (VP (VP (NN 下勉) (ADVP (RB 强))) (VP (VV 维持) (NP (NN 生计))))))) (, ，) (ADVP (RB 而)) (NP (NN 男性)) (VP (ADVP (RB 则)) (PP (IN 因为) (IP (VP (VV 失去) (NP (DNP (NP (NN 工作) (NN 世界)) (DEC 的)) (NP (NN 地位)))))) (VP (RB 而) (VP (VV 陷入) (IP (NP (NN 情绪)) (VP (ADJP (JJ 剧烈)) (VP (NN 波动)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP70832': {}, ',41324': {}, 'IP66322': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP48999': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',66125': {}, 'IP51000': {'PP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+表面	听	obl
+上	表面	case
+，	表面	punct
+这	听	nsubj
+可能	听	aux
+听	ROOT	root
+起来	听	mark
+很	欢快	advmod
+欢快	听	xcomp
+，	惨淡	punct
+但	惨淡	mark
+现实	惨淡	nsubj
+会	惨淡	aux
+更加	惨淡	advmod
+惨淡	听	parataxis
+，	陷入	punct
+因为	维持	case
+家庭	维持	nsubj
+在	下勉	case
+一	个	nummod
+个	收入	clf
+收入	下勉	nmod
+下勉	维持	obl
+强	维持	advmod
+维持	陷入	ccomp
+生计	维持	obj
+，	维持	punct
+而	陷入	mark
+男性	陷入	nsubj
+则	陷入	mark
+因为	地位	case
+失去	地位	acl:relcl
+工作	世界	nmod
+世界	失去	obj
+的	失去	mark:rel
+地位	陷入	obl
+而	陷入	mark
+陷入	听	parataxis
+情绪	波动	nmod
+剧烈	波动	amod
+波动	陷入	obj
+。	听	punct
 ----------------------------------------------------------------------

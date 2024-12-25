@@ -1,164 +1,2005 @@
-奥巴马开始大规模拆除乔治·布什的反恐战争，关闭了中央情报局的秘密监狱网络，禁止酷刑和引渡，并呼吁制定一套新的被拘留者规则。
+在中国经济观察者中，这个夏天最流行的游戏是猜测涌入中国的投机资本或“热钱”的规模。
 
-(ROOT (IP (NP (NNP 奥巴马)) (VP (VP (VV 开始) (VP (NP (ADJP (PFA 大)) (NP (NN 规模))) (VP (VV 拆除) (NP (DNP (NP (NNP 乔治) (/ ·) (NNP 布什)) (DEC 的)) (ADJP (NN 反恐)) (NP (NN 战争)))))) (, ，) (VP (VV 关闭) (AS 了) (NP (DNP (NP (NN 中央) (NN 情报) (SFN 局)) (DEC 的)) (ADJP (NN 秘密)) (NP (NN 监狱) (NN 网络)))) (, ，) (VP (VV 禁止) (NP (NN 酷刑) (CC 和) (NN 引渡))) (, ，) (RB 并) (VP (VV 呼吁) (IP (VP (VV 制定) (NP (QP (CD 一) (CLP (NNB 套))) (CP (CP (IP (VP (JJ 新))) (DEC 的))) (CP (IP (VP (BB 被) (VP (VV 拘留))))) (NP (SFN 者) (NN 规则))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}}}
+(ROOT (IP (PP (IN 在) (LCP (NP (NP (NNP 中国)) (NP (NN 经济) (VV 观察) (SFN 者))) (IN 中))) (, ，) (NP (DP (DT 这) (CLP (NNB 个))) (CP (CP (IP (VP (NP (NN 夏天)) (ADVP (RB 最)) (VP (JJ 流行)))) (DEC 的))) (NP (NN 游戏))) (VP (VC 是) (VP (VV 猜测) (IP (VP (VV 涌入) (NP (DNP (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NP (NN 投机) (NN 资本)) (CC 或) (NP (`` “) (NN 热钱) ('' ”)))) (DEC 的)) (NP (NN 规模))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VC': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VC': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'DP': {}, 'CP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'PART', 'case']	['在', '者', 'case']
+['PROPN', 'PART', 'nmod']	['中国', '者', 'nmod']
+['NOUN', 'PART', 'nmod']	['经济', '者', 'nmod']
+['VERB', 'PART', 'compound']	['观察', '者', 'compound']
+['PART', 'VERB', 'obl']	['者', '是', 'obl']
+['ADP', 'PART', 'case']	['中', '者', 'case']
+['PUNCT', 'PART', 'punct']	['，', '者', 'punct']
+['DET', 'NOUN', 'det']	['这', '个', 'det']
+['NOUN', 'NOUN', 'clf']	['个', '游戏', 'clf']
+['NOUN', 'NOUN', 'nmod']	['夏天', '游戏', 'nmod']
+['ADV', 'ADJ', 'advmod']	['最', '流行', 'advmod']
+['ADJ', 'NOUN', 'amod']	['流行', '游戏', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '流行', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['游戏', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['猜测', '是', 'xcomp']
+['VERB', 'NOUN', 'acl:relcl']	['涌入', '资本', 'acl:relcl']
+['PROPN', 'VERB', 'obj']	['中国', '涌入', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '涌入', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['投机', '资本', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['资本', '规模', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['或', '热钱', 'cc']
+['PUNCT', 'NOUN', 'punct']	['“', '热钱', 'punct']
+['NOUN', 'NOUN', 'conj']	['热钱', '资本', 'conj']
+['PUNCT', 'NOUN', 'punct']	['”', '热钱', 'punct']
+['PART', 'VERB', 'mark:rel']	['的', '涌入', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['规模', '猜测', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
 ----------------------------------------------------------------------
-昨日，美国政府对布什的国家安全观予以否认，同时还任命了一位具有强大权威的驻中东特使。
+一个线索是，尽管今年中国的贸易顺差开始收窄，但其外汇储备增速却越来越快。
 
-(ROOT (IP (NP (NN 昨日)) (, ，) (NP (NP (NNP 美国)) (NP (NN 政府))) (VP (VP (PP (IN 对) (NP (DNP (NP (NNP 布什)) (DEC 的)) (NP (NN 国家) (NN 安全)))) (VP (NN 观予) (PP (VV 以) (NP (NN 否认))))) (, ，) (VP (ADVP (NN 同时)) (ADVP (RB 还)) (VP (VV 任命) (AS 了) (NP (QP (CD 一) (CLP (NNB 位))) (CP (CP (IP (VP (VV 具有) (NP (ADJP (JJ 强大)) (NP (NN 权威))))) (DEC 的))) (CP (IP (VP (VV 驻) (NP (NNP 中东))))) (NP (NN 特使)))))) (. 。)))
+(ROOT (IP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 线索))) (VP (VC 是) (, ，) (IP (CP (ADVP (IN 尽管)) (IP (NP (NN 今年)) (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NN 贸易) (NN 顺差))) (VP (VV 开始) (VP (VV 收窄))))) (, ，) (ADVP (RB 但)) (NP (NP (NP (PRP 其)) (NP (NN 外汇) (NN 储备))) (NP (NN 增速))) (VP (ADVP (RB 却)) (ADVP (RB 越来越)) (VP (JJ 快))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '线索', 'clf']
+['NOUN', 'VERB', 'nsubj']	['线索', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['PUNCT', 'ADJ', 'punct']	['，', '快', 'punct']
+['ADP', 'VERB', 'case']	['尽管', '开始', 'case']
+['NOUN', 'VERB', 'nmod:tmod']	['今年', '开始', 'nmod:tmod']
+['PROPN', 'NOUN', 'nmod']	['中国', '顺差', 'nmod']
+['PART', 'PROPN', 'case']	['的', '中国', 'case']
+['NOUN', 'NOUN', 'nmod']	['贸易', '顺差', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['顺差', '开始', 'nsubj']
+['VERB', 'ADJ', 'ccomp']	['开始', '快', 'ccomp']
+['VERB', 'VERB', 'xcomp']	['收窄', '开始', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '开始', 'punct']
+['ADV', 'ADJ', 'mark']	['但', '快', 'mark']
+['PRON', 'NOUN', 'nmod']	['其', '增速', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['外汇', '增速', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['储备', '增速', 'nmod']
+['NOUN', 'ADJ', 'nsubj']	['增速', '快', 'nsubj']
+['ADV', 'ADJ', 'mark']	['却', '快', 'mark']
+['ADV', 'ADJ', 'advmod']	['越来越', '快', 'advmod']
+['ADJ', 'VERB', 'ccomp']	['快', '是', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+它的净外汇收入现在主要来自资本流入，而非经常账户盈余。
+
+(ROOT (IP (NP (DNP (NP (PRP 它)) (DEC 的)) (ADJP (JJ 净)) (NP (NN 外汇) (NN 收入))) (VP (NP (NN 现在)) (ADVP (RB 主要)) (VP (VV 来) (PP (VV 自) (NP (NP (NN 资本) (VV 流入)) (, ，) (VC 而非) (NP (NP (ADJP (JJ 经常)) (NP (NN 账户))) (NP (NN 盈余))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'det']	['它', '收入', 'det']
+['PART', 'PRON', 'case']	['的', '它', 'case']
+['ADJ', 'NOUN', 'amod']	['净', '收入', 'amod']
+['NOUN', 'NOUN', 'nmod']	['外汇', '收入', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['收入', '而非', 'nsubj']
+['NOUN', 'VERB', 'nmod:tmod']	['现在', '来', 'nmod:tmod']
+['ADV', 'VERB', 'advmod']	['主要', '来', 'advmod']
+['VERB', 'VERB', 'advcl']	['来', '而非', 'advcl']
+['VERB', 'VERB', 'mark']	['自', '来', 'mark']
+['NOUN', 'VERB', 'nsubj']	['资本', '流入', 'nsubj']
+['VERB', 'VERB', 'xcomp']	['流入', '来', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '来', 'punct']
+['VERB', 'ROOT', 'root']	['而非', 'NONE', 'root']
+['ADJ', 'NOUN', 'amod']	['经常', '盈余', 'amod']
+['NOUN', 'NOUN', 'nmod']	['账户', '盈余', 'nmod']
+['NOUN', 'VERB', 'obj']	['盈余', '而非', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '而非', 'punct']
+----------------------------------------------------------------------
+据泄露的官方数字显示，4 月和 5 月中国的外汇储备上涨了 1150 亿美元，达到 18 万亿美元。
+
+(ROOT (IP (NP (IP (PP (IN 据) (NP (VV 泄露))) (DEC 的)) (NP (NN 官方) (NN 数字))) (VP (VV 显示) (, ，) (IP (NP (DNP (QP (CD 4) (NNB 月和) (CD 5) (NNB 月中国)) (DEC 的)) (NP (NN 外汇) (NN 储备))) (VP (VP (VV 上涨) (AS 了) (QP (CD 1150) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元)))))) (, ，) (VP (VV 达到) (QP (QP (CD 18)) (QP (CD 万亿) (CLP (NNP 美) (CLP (NNB 元))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'IP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'IP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'IP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['据', '显示', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['泄露', '数字', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '泄露', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['官方', '数字', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['数字', '显示', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['显示', '达到', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '显示', 'punct']
+['NUM', 'NOUN', 'nummod']	['4', '月和', 'nummod']
+['NOUN', 'NOUN', 'clf']	['月和', '月中国', 'clf']
+['NUM', 'NOUN', 'nummod']	['5', '月中国', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['月中国', '储备', 'nmod']
+['PART', 'NOUN', 'case']	['的', '月中国', 'case']
+['NOUN', 'NOUN', 'nmod']	['外汇', '储备', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['储备', '上涨', 'nsubj']
+['VERB', 'VERB', 'advcl']	['上涨', '达到', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '上涨', 'aux']
+['NUM', 'NOUN', 'nummod']	['1150', '元', 'nummod']
+['NUM', 'NOUN', 'nummod']	['亿', '元', 'nummod']
+['PROPN', 'NOUN', 'nmod']	['美', '元', 'nmod']
+['NOUN', 'VERB', 'obj']	['元', '上涨', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '上涨', 'punct']
+['VERB', 'ROOT', 'root']	['达到', 'NONE', 'root']
+['NUM', 'NOUN', 'nummod']	['18', '元', 'nummod']
+['NUM', 'NOUN', 'nummod']	['万亿', '元', 'nummod']
+['PROPN', 'NOUN', 'nmod']	['美', '元', 'nmod']
+['NOUN', 'VERB', 'obj']	['元', '达到', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '达到', 'punct']
+----------------------------------------------------------------------
+5 月至今，报告的储备规模增加了 2690 亿美元，比去年同期增加了 20%。
+
+(ROOT (IP (NP (CD 5) (NNB 月至) (NN 今)) (, ，) (NP (DNP (NP (NN 报告)) (DEC 的)) (NP (NN 储备) (NN 规模))) (VP (VP (VV 增加) (AS 了) (QP (CD 2690) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元)))))) (, ，) (VP (PP (IN 比) (NP (NN 去年) (NN 同期))) (VP (VV 增加) (AS 了) (QP (CD 20%))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP66673': {}, 'VP': {}, '.': {}}}
 {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}, 'NN': {}}, ',': {}, 'NP64444': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP38374': {}}, '.': {}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}, 'NN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}, 'NN': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['NUM', 'NOUN', 'nummod']	['5', '月至', 'nummod']
+['NOUN', 'NOUN', 'clf']	['月至', '今', 'clf']
+['NOUN', 'VERB', 'nmod:tmod']	['今', '增加', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '今', 'punct']
+['NOUN', 'NOUN', 'nmod']	['报告', '规模', 'nmod']
+['PART', 'NOUN', 'case']	['的', '报告', 'case']
+['NOUN', 'NOUN', 'nmod']	['储备', '规模', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['规模', '增加', 'nsubj']
+['VERB', 'VERB', 'advcl']	['增加', '增加', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '增加', 'aux']
+['NUM', 'NOUN', 'nummod']	['2690', '元', 'nummod']
+['NUM', 'NOUN', 'nummod']	['亿', '元', 'nummod']
+['PROPN', 'NOUN', 'nmod']	['美', '元', 'nmod']
+['NOUN', 'VERB', 'obj']	['元', '增加', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '增加', 'punct']
+['ADP', 'NOUN', 'case']	['比', '同期', 'case']
+['NOUN', 'NOUN', 'nmod']	['去年', '同期', 'nmod']
+['NOUN', 'VERB', 'obl']	['同期', '增加', 'obl']
+['VERB', 'ROOT', 'root']	['增加', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '增加', 'aux']
+['NUM', 'VERB', 'obj']	['20%', '增加', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '增加', 'punct']
+----------------------------------------------------------------------
+但即使这样，也低估了中国人民银行 (PBOC) 在外汇方面的真实积累速度。
+
+(ROOT (IP (ADVP (RB 但)) (VP (IP (VP (ADVP (IN 即使)) (NP (PRD 这样)))) (, ，) (ADVP (RB 也)) (VP (VV 低估) (AS 了) (NP (NP (NP (NNP 中国) (NN 人民) (NN 银行)) (NP (NN -LRB-PBOC-RRB-))) (DNP (PP (IN 在) (NP (NN 外汇) (NN 方面))) (DEC 的)) (ADJP (JJ 真实)) (NP (NN 积累) (NN 速度))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'VP': {'IP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'VP': {'IP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'VP': {'IP': {}, ',': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['但', '低估', 'mark']
+['ADP', 'PRON', 'case']	['即使', '这样', 'case']
+['PRON', 'VERB', 'obl']	['这样', '低估', 'obl']
+['PUNCT', 'PRON', 'punct']	['，', '这样', 'punct']
+['ADV', 'VERB', 'mark']	['也', '低估', 'mark']
+['VERB', 'ROOT', 'root']	['低估', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '低估', 'aux']
+['PROPN', 'NOUN', 'nmod']	['中国', '(PBOC)', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['人民', '(PBOC)', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['银行', '(PBOC)', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['(PBOC)', '速度', 'nmod']
+['ADP', 'NOUN', 'case']	['在', '速度', 'case']
+['NOUN', 'NOUN', 'nmod']	['外汇', '方面', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['方面', '速度', 'nmod']
+['PART', 'NOUN', 'case']	['的', '速度', 'case']
+['ADJ', 'NOUN', 'amod']	['真实', '速度', 'amod']
+['NOUN', 'NOUN', 'nmod']	['积累', '速度', 'nmod']
+['NOUN', 'VERB', 'obj']	['速度', '低估', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '低估', 'punct']
+----------------------------------------------------------------------
+北京的一家经济研究公司 Stone & McCarthy 的分析师洛根·赖特 (Logan Wright) 做了一些统计推理工作，来解释这些数字。
+
+(ROOT (IP (NP (NP (DNP (NP (NP (DNP (NP (NNP 北京)) (DEC 的)) (QP (CD 一) (CLP (NNB 家))) (NP (NN 经济) (NN 研究) (NN 公司))) (NP (FW Stone) (FW & Mc) (FW Carthy))) (DEC 的)) (NP (VV 分析) (SFN 师))) (NP (NNP 洛根) (/ ·) (NNP 赖特) (FW -LRB-Logan) (FW Wright-RRB-))) (VP (VP (VV 做) (AS 了) (NP (QP (JJ 一些)) (NP (NN 统计) (NN 推理) (NN 工作)))) (, ，) (VP (RB 来) (VP (VV 解释) (NP (DP (DT 这些)) (NP (NN 数字)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP62648': {}}, 'VP': {'VP': {}, ',': {}, 'VP85352': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
 {'NP': {'NP': {}, 'NP': {}}}
 {'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['北京', '公司', 'nmod']
+['PART', 'PROPN', 'case']	['的', '北京', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '家', 'nummod']
+['NOUN', 'NOUN', 'clf']	['家', '公司', 'clf']
+['NOUN', 'NOUN', 'nmod']	['经济', '公司', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['研究', '公司', 'nmod']
+['NOUN', 'PART', 'nmod']	['公司', '师', 'nmod']
+['DET', 'NOUN', 'det']	['Stone', '公司', 'det']
+['X', 'DET', 'flat:foreign']	['& Mc', 'Stone', 'flat:foreign']
+['DET', 'DET', 'flat:foreign']	['Carthy', 'Stone', 'flat:foreign']
+['PART', 'DET', 'case']	['的', 'Stone', 'case']
+['VERB', 'PART', 'compound']	['分析', '师', 'compound']
+['PART', 'VERB', 'nsubj']	['师', '解释', 'nsubj']
+['PROPN', 'PART', 'appos']	['洛根', '师', 'appos']
+['PUNCT', 'PROPN', 'punct']	['·', '赖特', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['赖特', '洛根', 'flat:name']
+['X', 'PART', 'appos']	['(Logan', '师', 'appos']
+['X', 'X', 'flat:foreign']	['Wright)', '(Logan', 'flat:foreign']
+['VERB', 'VERB', 'advcl']	['做', '解释', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '做', 'aux']
+['ADJ', 'NOUN', 'amod']	['一些', '工作', 'amod']
+['NOUN', 'NOUN', 'nmod']	['统计', '工作', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['推理', '工作', 'nmod']
+['NOUN', 'VERB', 'obj']	['工作', '做', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '做', 'punct']
+['ADV', 'VERB', 'mark']	['来', '解释', 'mark']
+['VERB', 'ROOT', 'root']	['解释', 'NONE', 'root']
+['DET', 'NOUN', 'det']	['这些', '数字', 'det']
+['NOUN', 'VERB', 'obj']	['数字', '解释', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '解释', 'punct']
 ----------------------------------------------------------------------
-奥巴马关闭中央情报局隐蔽审讯中心的决定远远超出了大家预期的，在一年内关闭关塔那摩湾拘留中心的举措。
+第一个问题是，所报告的储备不包括人民银行向国有投资公司转移的外汇。
 
-(ROOT (IP (NP (CP (IP (NP (NNP 奥巴马)) (VP (VV 关闭) (NP (NP (NN 中央) (NN 情报) (SFN 局)) (ADJP (NN 隐蔽)) (NP (NN 审讯) (NN 中心))))) (DEC 的)) (NP (NN 决定))) (VP (VP (ADVP (RB 远远)) (VP (VV 超出) (AS 了) (NP (CP (CP (IP (NP (PRD 大家)) (VP (VV 预期))) (UH 的)))))) (, ，) (VP (PP (IN 在) (LCP (QP (CD 一) (CLP (NNB 年))) (IN 内))) (VP (VV 关闭) (NP (DNP (NP (NP (NNP 关塔) (NNP 那) (NNP 摩湾)) (NP (NN 拘留) (NN 中心))) (DEC 的)) (NP (NN 举措)))))) (. 。)))
+(ROOT (IP (NP (QP (CD 第一) (CLP (NNB 个))) (NP (NN 问题))) (VP (VC 是) (, ，) (IP (NP (CP (CP (IP (VP (RB 所) (VP (VV 报告)))) (DEC 的))) (NP (NN 储备))) (VP (ADVP (RB 不)) (VP (VV 包括) (NP (CP (CP (IP (NP (NN 人民) (NN 银行)) (VP (PP (IN 向) (NP (ADJP (NN 国有)) (NP (NN 投资) (NN 公司)))) (VP (VV 转移)))) (DEC 的))) (NP (NN 外汇))))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['NUM', 'NOUN', 'nummod']	['第一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '问题', 'clf']
+['NOUN', 'VERB', 'nsubj']	['问题', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '包括', 'punct']
+['ADV', 'VERB', 'mark']	['所', '报告', 'mark']
+['VERB', 'NOUN', 'acl:relcl']	['报告', '储备', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '报告', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['储备', '包括', 'nsubj']
+['ADV', 'VERB', 'advmod']	['不', '包括', 'advmod']
+['VERB', 'VERB', 'ccomp']	['包括', '是', 'ccomp']
+['NOUN', 'NOUN', 'nmod']	['人民', '银行', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['银行', '转移', 'nsubj']
+['ADP', 'NOUN', 'case']	['向', '公司', 'case']
+['NOUN', 'NOUN', 'nmod']	['国有', '公司', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['投资', '公司', 'nmod']
+['NOUN', 'VERB', 'obl']	['公司', '转移', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['转移', '外汇', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '转移', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['外汇', '包括', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
 ----------------------------------------------------------------------
-他将撤销布什建立的法律机构抛在了一边，将其视为美国在与基地组织的斗争中重新夺回道德高地的途径。
+今年，由于中国人民银行“要求”银行使用美元支付其现在必须持有的额外准备金，因此，央行在会计上也减少了备付金数字。
 
-(ROOT (IP (NP (PRP 他)) (VP (VP (BB 将) (IP (IP (VP (VV 撤销) (NP (CP (CP (IP (NP (NNP 布什)) (VP (VV 建立))) (DEC 的))) (NP (NN 法律) (NN 机构))))) (VP (VV 抛在) (AS 了) (QP (CD 一) (CLP (NN 边)))))) (, ，) (VP (BB 将) (IP (NP (PRP 其)) (VP (VRD (VV 视) (VC 为)) (NP (CP (IP (NP (NNP 美国)) (VP (PP (IN 在) (LCP (NP (DNP (PP (IN 与) (NP (NN 基地) (NN 组织))) (DEC 的)) (NP (NN 斗争))) (IN 中))) (ADVP (RB 重新)) (VP (VV 夺回) (NP (NN 道德) (NN 高地))))) (DEC 的)) (NP (NN 途径))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+(ROOT (IP (NP (NN 今年)) (, ，) (PP (IN 由于) (IP (NP (CP (IP (NP (NNP 中国) (NN 人民) (NN 银行)) (VP (`` “) (VV 要求) ('' ”)))) (NP (NN 银行))) (VP (VP (VV 使用) (NP (NNP 美) (SFN 元))) (VP (VV 支付) (NP (CP (CP (IP (NP (PRP 其)) (VP (NP (NN 现在)) (VP (MD 必须) (VP (VV 持有))))) (DEC 的))) (ADJP (JJ 额外)) (NP (VV 准备) (SFN 金))))))) (, ，) (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (NN 央行)) (VP (PP (IN 在) (LCP (NP (NN 会计)) (IN 上))) (ADVP (RB 也)) (VP (VV 减少) (AS 了) (NP (VV 备付) (SFN 金) (NN 数字)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'PP': {}, ',73562': {}, 'ADVP': {}, 'ADVP86175': {}, ',44864': {}, 'NP63301': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'PP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, ',89152': {}, 'ADVP': {'IN': {}}, 'ADVP26214': {'PRD': {}}, ',25293': {}, 'NP39124': {'NN': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, ',': {}, 'ADVP': {'IN': {}}, 'ADVP': {'PRD': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'ADVP': {'IN': {}}}
+{'ADVP': {'PRD': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nmod:tmod']	['今年', '减少', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '今年', 'punct']
+['ADP', 'VERB', 'case']	['由于', '支付', 'case']
+['PROPN', 'NOUN', 'nmod']	['中国', '银行', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['人民', '银行', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['银行', '要求', 'nsubj']
+['PUNCT', 'VERB', 'punct']	['“', '要求', 'punct']
+['VERB', 'VERB', 'advcl']	['要求', '支付', 'advcl']
+['PUNCT', 'VERB', 'punct']	['”', '要求', 'punct']
+['NOUN', 'VERB', 'nsubj']	['银行', '要求', 'nsubj']
+['VERB', 'VERB', 'advcl']	['使用', '支付', 'advcl']
+['PROPN', 'PART', 'compound']	['美', '元', 'compound']
+['PART', 'VERB', 'obj']	['元', '使用', 'obj']
+['VERB', 'VERB', 'ccomp']	['支付', '减少', 'ccomp']
+['PRON', 'PART', 'nmod']	['其', '金', 'nmod']
+['NOUN', 'VERB', 'nmod:tmod']	['现在', '持有', 'nmod:tmod']
+['AUX', 'VERB', 'aux']	['必须', '持有', 'aux']
+['VERB', 'PART', 'acl:relcl']	['持有', '金', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '持有', 'mark:rel']
+['ADJ', 'PART', 'amod']	['额外', '金', 'amod']
+['VERB', 'PART', 'compound']	['准备', '金', 'compound']
+['PART', 'VERB', 'obj']	['金', '支付', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '支付', 'punct']
+['ADP', 'PRON', 'case']	['因', '此', 'case']
+['PRON', 'VERB', 'obl']	['此', '减少', 'obl']
+['PUNCT', 'PRON', 'punct']	['，', '此', 'punct']
+['NOUN', 'VERB', 'nsubj']	['央行', '减少', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '会计', 'case']
+['NOUN', 'VERB', 'obl']	['会计', '减少', 'obl']
+['ADP', 'NOUN', 'case']	['上', '会计', 'case']
+['ADV', 'VERB', 'mark']	['也', '减少', 'mark']
+['VERB', 'ROOT', 'root']	['减少', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '减少', 'aux']
+['VERB', 'PART', 'compound']	['备付', '金', 'compound']
+['PART', 'NOUN', 'nmod']	['金', '数字', 'nmod']
+['NOUN', 'VERB', 'obj']	['数字', '减少', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '减少', 'punct']
 ----------------------------------------------------------------------
-奥巴马在签署仪式上说：“我在就职典礼上说过，我们不会继续在安全和理想之间做出错误的选择。”“我们打算赢得这场战斗。我们会按照我们自己的方式赢得它。”
+把这两项资产加到已报告的储备中，Wright 先生估计，2008 年前 5 个月，外汇资产总额增加了 3930 亿美元（见图），比上年同期的增长翻了一倍以上。
 
-(ROOT (IP (NP (NNP 奥巴马)) (VP (PP (IN 在) (LCP (NP (VV 签署) (NN 仪式)) (IN 上))) (VP (VV 说) (: ：) (IP (`` “) (NP (PRP 我)) (VP (PP (IN 在) (LCP (NP (NN 就职) (NN 典礼)) (IN 上))) (VP (VV 说) (AS 过))) (, ，) (IP (NP (PRP 我们)) (VP (MD 不会) (VP (VV 继续) (VP (PP (IN 在) (LCP (NP (NN 安全) (CC 和) (NN 理想)) (IN 之间))) (VP (VV 做出) (NP (CP (CP (IP (VP (JJ 错误))) (DEC 的))) (NP (NN 选择)))))))) (. 。) ('' ”) (IP (`` “) (NP (PRP 我们)) (VP (VV 打算) (IP (VP (VV 赢得) (NP (DP (DT 这) (CLP (NNB 场))) (NP (NN 战斗)))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
+(ROOT (IP (IP (VP (BB 把) (IP (NP (DP (DT 这) (QP (CD 两) (CLP (NNB 项)))) (NP (NN 资产))) (VP (VV 加到) (LCP (NP (CP (CP (IP (VP (ADVP (RB 已)) (VP (VV 报告)))) (DEC 的))) (NP (NN 储备))) (IN 中)))))) (, ，) (NP (FW Wright) (NN 先生)) (VP (VV 估计) (, ，) (IP (NP (LCP (NP (CD 2008)) (NNB 年前)) (QP (CD 5)) (NP (NNB 个月))) (, ，) (NP (NN 外汇) (NN 资产) (NN 总额)) (VP (VP (VV 增加) (AS 了) (QP (CD 3930) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元)))) (PRN (-LRB- （) (NP (NN 见图)) (-RRB- ）)))) (, ，) (VP (PP (IN 比) (NP (DNP (NP (NN 上年) (NN 同期)) (DEC 的)) (NP (NN 增长)))) (VP (VV 翻) (AS 了) (LCP (QP (CD 一) (CLP (NNB 倍))) (IN 以上))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'FW': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'FW': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'FW': {}, 'NN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['把', '资产', 'case']
+['DET', 'NOUN', 'det']	['这', '项', 'det']
+['NUM', 'NOUN', 'nummod']	['两', '项', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['项', '资产', 'nmod']
+['NOUN', 'VERB', 'obl:patient']	['资产', '加到', 'obl:patient']
+['VERB', 'VERB', 'ccomp']	['加到', '估计', 'ccomp']
+['ADV', 'VERB', 'advmod']	['已', '报告', 'advmod']
+['VERB', 'NOUN', 'acl:relcl']	['报告', '储备', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '报告', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['储备', '加到', 'obj']
+['ADP', 'NOUN', 'case']	['中', '储备', 'case']
+['PUNCT', 'VERB', 'punct']	['，', '加到', 'punct']
+['X', 'NOUN', 'nmod']	['Wright', '先生', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['先生', '估计', 'nsubj']
+['VERB', 'ROOT', 'root']	['估计', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '翻', 'punct']
+['NUM', 'NOUN', 'nummod']	['2008', '年前', 'nummod']
+['NOUN', 'NOUN', 'clf']	['年前', '个月', 'clf']
+['NUM', 'NOUN', 'nummod']	['5', '个月', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['个月', '增加', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '个月', 'punct']
+['NOUN', 'NOUN', 'nmod']	['外汇', '总额', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['资产', '总额', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['总额', '增加', 'nsubj']
+['VERB', 'VERB', 'advcl']	['增加', '翻', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '增加', 'aux']
+['NUM', 'NOUN', 'nummod']	['3930', '元', 'nummod']
+['NUM', 'NOUN', 'nummod']	['亿', '元', 'nummod']
+['PROPN', 'NOUN', 'nmod']	['美', '元', 'nmod']
+['NOUN', 'VERB', 'obj']	['元', '增加', 'obj']
+['PUNCT', 'NOUN', 'punct']	['（', '见图', 'punct']
+['NOUN', 'NOUN', 'appos']	['见图', '元', 'appos']
+['PUNCT', 'NOUN', 'punct']	['）', '见图', 'punct']
+['PUNCT', 'VERB', 'punct']	['，', '增加', 'punct']
+['ADP', 'NOUN', 'case']	['比', '增长', 'case']
+['NOUN', 'NOUN', 'nmod']	['上年', '增长', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['同期', '增长', 'nmod']
+['PART', 'NOUN', 'case']	['的', '同期', 'case']
+['NOUN', 'VERB', 'obl']	['增长', '翻', 'obl']
+['VERB', 'VERB', 'ccomp']	['翻', '估计', 'ccomp']
+['AUX', 'VERB', 'aux']	['了', '翻', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '倍', 'nummod']
+['NOUN', 'VERB', 'obj']	['倍', '翻', 'obj']
+['ADP', 'NOUN', 'case']	['以上', '倍', 'case']
+['PUNCT', 'VERB', 'punct']	['。', '估计', 'punct']
 ----------------------------------------------------------------------
-这是对布什所设定的法律标准的彻底否定的一种表现。 白宫官员昨天在向记者介绍情况时表示，新政府不会受到2001年9月11日后司法部就酷刑和被拘留者问题发布的任何意见的影响。
+中国的贸易顺差和外国直接投资 (FDI) 只能解释 30% 的原因。
 
-(ROOT (IP (NP (PRD 这)) (VP (VC 是) (NP (DNP (NP (DNP (PP (IN 对) (NP (CP (CP (IP (NP (NNP 布什)) (VP (RB 所) (VP (VV 设定)))) (DEC 的))) (NP (NN 法律) (NN 标准)))) (DEC 的)) (ADJP (JJ 彻底)) (NP (NN 否定))) (DEC 的)) (QP (CD 一) (CLP (NNB 种))) (NP (NN 表现)))) (. 。)))
+(ROOT (IP (NP (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NN 贸易) (NN 顺差))) (CC 和) (NP (NP (NP (NN 外国)) (ADJP (JJ 直接)) (NP (NN 投资))) (NP (NN -LRB-FDI-RRB-)))) (VP (RB 只能) (VP (VV 解释) (NP (DNP (QP (CD 30%)) (DEC 的)) (NP (NN 原因))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'CC': {}, 'NP82950': {}}, 'VP': {'RB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'CC': {}, 'NP': {}}, 'VP': {'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'CC': {}, 'NP': {}}}
+{'VP': {'RB': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['中国', '顺差', 'nmod']
+['PART', 'PROPN', 'case']	['的', '中国', 'case']
+['NOUN', 'NOUN', 'nmod']	['贸易', '顺差', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['顺差', '解释', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '(FDI)', 'cc']
+['NOUN', 'NOUN', 'nmod']	['外国', '(FDI)', 'nmod']
+['ADJ', 'NOUN', 'amod']	['直接', '(FDI)', 'amod']
+['NOUN', 'NOUN', 'nmod']	['投资', '(FDI)', 'nmod']
+['NOUN', 'NOUN', 'conj']	['(FDI)', '顺差', 'conj']
+['ADV', 'VERB', 'advmod']	['只能', '解释', 'advmod']
+['VERB', 'ROOT', 'root']	['解释', 'NONE', 'root']
+['NUM', 'NOUN', 'amod']	['30%', '原因', 'amod']
+['PART', 'NUM', 'mark:rel']	['的', '30%', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['原因', '解释', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '解释', 'punct']
+----------------------------------------------------------------------
+扣除投资收入和美元贬值后的非美元储备资产增值，仍然留下了一个2140亿美元的未解释差额，相当于每年5000亿美元。
+
+(ROOT (IP (VP (VP (VV 扣除) (NP (NP (NN 投资) (NN 收入)) (CC 和) (NP (DNP (LCP (IP (NP (NNP 美) (SFN 元)) (VP (VV 贬值))) (IN 后)) (DEC 的)) (NP (ADJP (PFA 非)) (NP (NP (NNP 美)) (NP (SFN 元))) (NP (NN 储备))) (NP (NN 资产) (VV 增值))))) (, ，) (VP (ADVP (RB 仍然)) (VP (VV 留下) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (QP (CD 2140亿) (CLP (NNP 美) (CLP (NNB 元)))) (DEC 的)) (CP (IP (VP (ADJP (RB 未)) (VP (NN 解释))))) (NP (NN 差额))))) (, ，) (VP (VV 相当) (PP (VV 于) (QP (NP (DT 每年)) (QP (CD 5000亿) (CLP (NNP 美) (CLP (NNB 元)))))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VP': {}, ',': {}, 'VP6136': {}, ',12300': {}, 'VP74593': {}}, '.': {}}}
+{'IP': {'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['扣除', '增值', 'advcl']
+['NOUN', 'NOUN', 'nmod']	['投资', '收入', 'nmod']
+['NOUN', 'VERB', 'obj']	['收入', '扣除', 'obj']
+['CCONJ', 'VERB', 'cc']	['和', '贬值', 'cc']
+['PROPN', 'PART', 'compound']	['美', '元', 'compound']
+['PART', 'VERB', 'nsubj']	['元', '贬值', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['贬值', '扣除', 'ccomp']
+['ADP', 'VERB', 'mark']	['后', '贬值', 'mark']
+['PART', 'VERB', 'mark:rel']	['的', '扣除', 'mark:rel']
+['PART', 'PART', 'case']	['非', '元', 'case']
+['PROPN', 'PART', 'compound']	['美', '元', 'compound']
+['PART', 'NOUN', 'nmod']	['元', '资产', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['储备', '资产', 'nmod']
+['NOUN', 'NOUN', 'conj']	['资产', '收入', 'conj']
+['VERB', 'VERB', 'advcl']	['增值', '留下', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '扣除', 'punct']
+['ADV', 'VERB', 'advmod']	['仍然', '留下', 'advmod']
+['VERB', 'ROOT', 'root']	['留下', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '留下', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '差额', 'clf']
+['NUM', 'NOUN', 'nummod']	['2140亿', '元', 'nummod']
+['PROPN', 'NOUN', 'nmod']	['美', '元', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['元', '差额', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '元', 'mark:rel']
+['ADV', 'NOUN', 'advmod']	['未', '差额', 'advmod']
+['NOUN', 'NOUN', 'nmod']	['解释', '差额', 'nmod']
+['NOUN', 'VERB', 'obj']	['差额', '留下', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '留下', 'punct']
+['VERB', 'VERB', 'ccomp']	['相当', '留下', 'ccomp']
+['VERB', 'VERB', 'mark']	['于', '相当', 'mark']
+['DET', 'NOUN', 'det']	['每年', '元', 'det']
+['NUM', 'NOUN', 'nummod']	['5000亿', '元', 'nummod']
+['PROPN', 'NOUN', 'nmod']	['美', '元', 'nmod']
+['NOUN', 'VERB', 'obj']	['元', '相当', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '相当', 'punct']
+----------------------------------------------------------------------
+一些经济学家将其作为热钱流入的代理。
+
+(ROOT (IP (NP (QP (JJ 一些)) (NP (NN 经济) (SFN 学) (SFN 家))) (VP (BB 将) (IP (NP (PRP 其)) (VP (VV 作) (PP (VC 为) (NP (DNP (NP (NN 热钱) (VV 流入)) (DEC 的)) (NP (NN 代理))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'BB': {}, 'IP': {}}}
+Dependency Features:
+['ADJ', 'PART', 'amod']	['一些', '家', 'amod']
+['NOUN', 'PART', 'compound']	['经济', '学', 'compound']
+['PART', 'PART', 'compound']	['学', '家', 'compound']
+['PART', 'VERB', 'nsubj']	['家', '作', 'nsubj']
+['ADP', 'PRON', 'case']	['将', '其', 'case']
+['PRON', 'VERB', 'obl:patient']	['其', '作', 'obl:patient']
+['VERB', 'ROOT', 'root']	['作', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['为', '作', 'mark']
+['NOUN', 'VERB', 'nsubj']	['热钱', '流入', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['流入', '代理', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '流入', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['代理', '作', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '作', 'punct']
+----------------------------------------------------------------------
+但其中一部分可能反映了非投机性交易，比如中国企业的外债。
+
+(ROOT (IP (ADVP (RB 但)) (NP (NP (NN 其中)) (QP (CD 一)) (NP (NN 部分))) (VP (MD 可能) (VP (VV 反映) (AS 了) (NP (NP (NP (ADJP (VC 非)) (NP (VV 投机))) (ADJP (SFN 性)) (NP (NN 交易))) (, ，) (NP (ADVP (VV 比如)) (NP (DNP (NP (NP (NNP 中国)) (NP (NN 企业))) (DEC 的)) (NP (NN 外债))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NP': {}, 'QP': {}, 'NP8175': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NP': {}, 'QP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NP': {}, 'QP': {}, 'NP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['但', '反映', 'mark']
+['NOUN', 'NOUN', 'nmod']	['其中', '部分', 'nmod']
+['NUM', 'NOUN', 'nummod']	['一', '部分', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['部分', '反映', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '反映', 'aux']
+['VERB', 'ROOT', 'root']	['反映', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '反映', 'aux']
+['VERB', 'NOUN', 'amod']	['非', '交易', 'amod']
+['VERB', 'PART', 'compound']	['投机', '性', 'compound']
+['PART', 'NOUN', 'nmod']	['性', '交易', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['交易', '比如', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '交易', 'punct']
+['VERB', 'VERB', 'ccomp']	['比如', '反映', 'ccomp']
+['PROPN', 'NOUN', 'nmod']	['中国', '企业', 'nmod']
+['NOUN', 'VERB', 'obj']	['企业', '比如', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '比如', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['外债', '比如', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '反映', 'punct']
+----------------------------------------------------------------------
+因此，赖特先生估计，2008 年前 5 个月，中国接受到的热钱高达 1700 亿美元。
+
+(ROOT (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (NNP 赖特) (NN 先生)) (VP (VV 估计) (, ，) (IP (NP (CD 2008)) (VP (NNB 年前) (QP (CD 5)) (NP (NNB 个月))) (, ，) (NP (CP (CP (IP (NP (NNP 中国)) (VP (VRD (VV 接受) (VV 到)))) (DEC 的))) (NP (NN 热钱))) (VP (VV 高达) (QP (QP (CD 1700)) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元)))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'ADVP2456': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'IN': {}}, 'ADVP15148': {'PRD': {}}, ',': {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'IN': {}}, 'ADVP': {'PRD': {}}, ',': {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'IN': {}}}
+{'ADVP': {'PRD': {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['ADP', 'PRON', 'case']	['因', '此', 'case']
+['PRON', 'VERB', 'obl']	['此', '估计', 'obl']
+['PUNCT', 'PRON', 'punct']	['，', '此', 'punct']
+['PROPN', 'NOUN', 'nmod']	['赖特', '先生', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['先生', '估计', 'nsubj']
+['VERB', 'ROOT', 'root']	['估计', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '高达', 'punct']
+['NUM', 'NOUN', 'nummod']	['2008', '年前', 'nummod']
+['NOUN', 'NOUN', 'clf']	['年前', '个月', 'clf']
+['NUM', 'NOUN', 'nummod']	['5', '个月', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['个月', '高达', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '个月', 'punct']
+['PROPN', 'VERB', 'nsubj']	['中国', '接受', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['接受', '热钱', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['到', '接受', 'mark']
+['PART', 'VERB', 'mark:rel']	['的', '接受', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['热钱', '高达', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['高达', '估计', 'ccomp']
+['NUM', 'NOUN', 'nummod']	['1700', '元', 'nummod']
+['NUM', 'NOUN', 'nummod']	['亿', '元', 'nummod']
+['PROPN', 'NOUN', 'nmod']	['美', '元', 'nmod']
+['NOUN', 'VERB', 'obj']	['元', '高达', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '估计', 'punct']
+----------------------------------------------------------------------
+这远远超过了任何新兴经济体以往的经历。
+
+(ROOT (IP (NP (PRD 这)) (VP (ADVP (RB 远远)) (VP (VV 超过) (AS 了) (NP (DP (DT 任何)) (NP (ADJP (JJ 新兴)) (NP (NN 经济) (SFN 体))) (DNP (NP (NN 以往)) (DEC 的)) (NP (NN 经历))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
 {'NP': {'PRD': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
-----------------------------------------------------------------------
-相反，奥巴马在三项行政命令中重申了美国对日内瓦被拘留者待遇公约的承诺。
-
-(ROOT (IP (ADVP (VV 相反)) (, ，) (NP (NNP 奥巴马)) (VP (PP (IN 在) (LCP (NP (QP (CD 三) (CLP (NNB 项))) (NP (NN 行政) (NN 命令))) (IN 中))) (VP (VV 重申) (AS 了) (NP (NP (NNP 美国)) (DNP (PP (IN 对) (NP (NP (CP (IP (NP (NNP 日内瓦)) (VP (BB 被) (VP (VV 拘留))))) (NP (SFN 者))) (NP (NN 待遇) (NN 公约)))) (DEC 的)) (NP (NN 承诺))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'VV': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'VV': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-所有被拘留者都将由红十字国际委员会登记，这是与布什政府时期的惯例不同的。
-
-(ROOT (IP (IP (NP (DP (DT 所有)) (CP (IP (VP (BB 被) (VP (VV 拘留))))) (NP (SFN 者))) (VP (ADVP (RB 都)) (ADVP (RB 将)) (PP (VV 由) (NP (NP (ADJP (NN 红)) (NP (NN 十字))) (NP (NN 国际) (NN 委员) (SFN 会)))) (VP (VV 登记)))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (NP (DNP (PP (IN 与) (NP (NP (NP (NNP 布什)) (NP (NN 政府))) (NP (NN 时期)))) (DEC 的)) (NP (NN 惯例))) (VP (JJ 不同))) (UH 的)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-一群 16 名退役海军上将和将军在人权第一组织举办的一次会议上表示，这一举措将恢复美国在世界上的道德权威，并加强美国的国家安全。“奥巴马总统拒绝接受国家安全和我们理想之间的恶意选择，”他们说。
-
-(ROOT (IP (NP (QP (JJ 一群)) (QP (CD 16) (CLP (NNB 名))) (ADJP (NN 退役)) (NP (NN 海军) (NN 上将) (CC 和) (NN 将军))) (VP (PP (IN 在) (LCP (NP (CP (CP (IP (NP (NP (NN 人权)) (QP (CD 第一)) (NP (NN 组织))) (VP (VV 举办))) (DEC 的))) (QP (CD 一) (CLP (NNB 次))) (NP (NN 会议))) (IN 上))) (VP (VV 表示) (, ，) (IP (NP (DP (DT 这)) (NP (NNB 一举))) (VP (NN 措将) (VP (VP (VV 恢复) (NP (NP (NNP 美国)) (DNP (PP (IN 在) (LCP (NP (NN 世界)) (IN 上))) (DEC 的)) (NP (NN 道德) (NN 权威)))) (, ，) (RB 并) (VP (VV 加强) (NP (DNP (NP (NNP 美国)) (DEC 的)) (NP (NN 国家) (NN 安全))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'QP': {}, 'QP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'QP': {}, 'QP': {}, 'ADJP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-正如预期的那样，奥巴马兑现了关闭关塔那摩监狱的竞选承诺，发布了关闭该营地的行政命令，并将其限定在一年内。
-
-(ROOT (IP (PP (IN 正如) (NP (CP (CP (IP (VP (VV 预期))) (DEC 的))) (NP (PRD 那样)))) (, ，) (NP (NNP 奥巴马)) (VP (VP (VV 兑现) (AS 了) (NP (CP (IP (VP (VV 关闭) (NP (NP (NNP 关塔) (NNP 那摩)) (NP (NN 监狱))))) (DEC 的)) (NP (NN 竞选) (NN 承诺)))) (, ，) (VP (VV 发布) (AS 了) (NP (CP (CP (IP (VP (VV 关闭) (NP (DP (DT 该)) (NP (NN 营地))))) (DEC 的))) (NP (NN 行政) (NN 命令)))) (, ，) (RB 并) (VP (BB 将) (IP (NP (PRP 其)) (VP (VV 限定) (PP (VV 在) (LCP (QP (CD 一) (CLP (NNB 年))) (IN 内))))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}}, '.': {}}}
-{'PP': {'IN': {}, 'NP': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}}}
-----------------------------------------------------------------------
-他还下令由司法部长和国防部长、国家安全部长和国土安全部长率领的工作组审查每一名被拘留者的情报和信息，并确定他们是否可以获释或接受审判。
-
-(ROOT (IP (NP (PRP 他)) (VP (ADVP (RB 还)) (VP (VV 下令) (NP (CP (CP (IP (VP (PP (VV 由) (NP (NN 司法) (NN 部长) (CC 和) (NN 国防) (NN 部长) (EC 、) (NN 国家) (NN 安全) (NN 部长) (CC 和) (NN 国土) (NN 安全) (NN 部长))) (VP (VV 率领)))) (DEC 的))) (NP (VV 工作) (SFN 组))) (IP (VP (VP (VV 审查) (NP (DNP (NP (DP (DT 每) (QP (CD 一) (CLP (NNB 名)))) (CP (IP (VP (BB 被) (VP (VV 拘留))))) (NP (SFN 者))) (DEC 的)) (NP (NN 情报) (CC 和) (NN 信息)))) (, ，) (RB 并) (VP (VV 确定) (IP (NP (PRP 他们)) (VP (ADVP (VC 是否)) (VP (MD 可以) (VP (VP (VV 获释)) (CC 或) (VP (VV 接受) (NP (NN 审判)))))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
 {'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['这', '超过', 'nsubj']
+['ADV', 'VERB', 'advmod']	['远远', '超过', 'advmod']
+['VERB', 'ROOT', 'root']	['超过', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '超过', 'aux']
+['DET', 'PART', 'det']	['任何', '体', 'det']
+['ADJ', 'PART', 'amod']	['新兴', '体', 'amod']
+['NOUN', 'PART', 'compound']	['经济', '体', 'compound']
+['PART', 'NOUN', 'nmod']	['体', '经历', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['以往', '经历', 'nmod']
+['PART', 'NOUN', 'case']	['的', '以往', 'case']
+['NOUN', 'VERB', 'obj']	['经历', '超过', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '超过', 'punct']
 ----------------------------------------------------------------------
-他呼吁在 30 天内完成对关塔那摩湾监狱囚犯待遇的审查。
+北京大学光华管理学院的经济学家迈克尔·皮蒂斯 (Michael Pettis) 认为，在此期间的投机性流入资金可能超过 2000 亿美元，因为热钱也通过公司夸大外国直接投资和出口超计价进入中国。
 
-(ROOT (IP (NP (PRP 他)) (VP (VV 呼吁) (IP (VP (PP (IN 在) (LCP (QP (CD 30)) (NNB 天内))) (VP (VV 完成) (NP (DNP (PP (IN 对) (NP (NP (NP (NNP 关塔) (DT 那) (NNP 摩湾)) (NP (NN 监狱))) (NP (NN 囚犯) (NN 待遇)))) (DEC 的)) (NP (NN 审查))))))) (. 。)))
+(ROOT (IP (NP (NP (DNP (NP (NP (NNP 北京) (NN 大学)) (NP (NNP 光华) (NN 管理) (NN 学院))) (DEC 的)) (NP (NN 经济) (NN 学家))) (NP (NNP 迈克) (NNP 尔) (/ ·) (NNP 皮蒂斯) (FW -LRB-Michael) (FW Pettis-RRB-))) (VP (VV 认为) (, ，) (IP (IP (NP (DNP (PP (IN 在) (NP (DP (DT 此)) (NP (NN 期间)))) (DEC 的)) (NP (VV 投机) (SFN 性) (NN 流入) (NN 资金))) (VP (MD 可能) (VP (VV 超过) (QP (QP (CD 2000)) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元)))))))) (, ，) (PP (IN 因为) (IP (NP (NN 热钱)) (VP (ADVP (RB 也)) (PP (IN 通过) (NP (NN 公司))) (VP (VP (VV 夸大) (NP (NP (NP (NN 外国)) (ADJP (JJ 直接)) (NP (NN 投资))) (CC 和) (NP (NN 出口) (NN 超计价)))) (VP (VV 进入) (NP (NNP 中国))))))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-----------------------------------------------------------------------
-另一项命令要求中央情报局遵循美国陆军关于审讯的实地手册，该手册禁止使用水肺等手段。
-
-(ROOT (IP (IP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 项)))) (NP (NN 命令))) (VP (VV 要求) (NP (NN 中央) (NN 情报) (SFN 局)) (IP (VP (VV 遵循) (NP (NP (NP (NNP 美国)) (NP (NN 陆军))) (DNP (PP (IN 关于) (NP (VV 审讯))) (DEC 的)) (ADJP (NN 实地)) (NP (NN 手册))))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 手册))) (VP (VV 禁止) (IP (VP (VV 使用) (NP (NN 水) (NN 肺等) (NN 手段)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-奥巴马还指示一个工作组研究，并在 180 天内报告，是否需要为情报官员制定新的准则，超出军方规定的范围。
-
-(ROOT (IP (NP (NNP 奥巴马)) (VP (VP (ADVP (RB 还)) (VP (VV 指示) (NP (QP (CD 一) (CLP (NNB 个))) (NP (VV 工作) (SFN 组))) (IP (VP (VV 研究))))) (, ，) (RB 并) (VP (PP (IN 在) (LCP (QP (CD 180)) (NNB 天内))) (VP (VV 报告) (, ，) (IP (VP (VP (ADVP (VC 是否)) (VP (MD 需要) (VP (PP (IN 为) (NP (NN 情报) (NN 官员))) (VP (VV 制定) (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 准则))))))) (, ，) (VP (VV 超出) (NP (DNP (NP (NN 军方) (NN 规定)) (DEC 的)) (NP (NN 范围))))))))) (. 。)))
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
-----------------------------------------------------------------------
-美国政府官员坚称，此次审查并不是想通过后门恢复酷刑。“我们没有一个秘密附件，允许我们重新使用强化审讯手段，”一名官员说。
-
-(ROOT (IP (NP (NP (NNP 美国)) (NP (NN 政府) (NN 官员))) (VP (VV 坚称) (, ，) (IP (NP (DP (DT 此次)) (NP (NN 审查))) (VP (ADVP (RB 并)) (VP (VC 不是) (VP (MD 想) (IP (VP (PP (IN 通过) (NP (NN 后门))) (VP (VV 恢复) (NP (NN 酷刑)))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP35347': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
 {'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
 {'NP': {'NP': {}, 'NP': {}}}
 {'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['北京', '学院', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['大学', '学院', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['光华', '学院', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['管理', '学院', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['学院', '学家', 'nmod']
+['PART', 'NOUN', 'case']	['的', '学院', 'case']
+['NOUN', 'NOUN', 'nmod']	['经济', '学家', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['学家', '为', 'nsubj']
+['PROPN', 'NOUN', 'appos']	['迈克', '学家', 'appos']
+['PROPN', 'PROPN', 'flat:name']	['尔', '迈克', 'flat:name']
+['PUNCT', 'PROPN', 'punct']	['·', '皮蒂斯', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['皮蒂斯', '迈克', 'flat:name']
+['X', 'NOUN', 'appos']	['(Michael', '学家', 'appos']
+['X', 'X', 'flat:foreign']	['Pettis)', '(Michael', 'flat:foreign']
+['VERB', 'ROOT', 'root']	['为', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '超过', 'punct']
+['ADP', 'NOUN', 'case']	['在', '期间', 'case']
+['DET', 'NOUN', 'det']	['此', '期间', 'det']
+['NOUN', 'NOUN', 'nmod']	['期间', '资金', 'nmod']
+['PART', 'NOUN', 'case']	['的', '期间', 'case']
+['VERB', 'PART', 'compound']	['投机', '性', 'compound']
+['PART', 'NOUN', 'nmod']	['性', '资金', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['流入', '资金', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['资金', '超过', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '超过', 'aux']
+['VERB', 'VERB', 'ccomp']	['超过', '为', 'ccomp']
+['NUM', 'NOUN', 'nummod']	['2000', '元', 'nummod']
+['NUM', 'NOUN', 'nummod']	['亿', '元', 'nummod']
+['PROPN', 'NOUN', 'nmod']	['美', '元', 'nmod']
+['NOUN', 'VERB', 'obj']	['元', '超过', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '进入', 'punct']
+['ADP', 'VERB', 'case']	['因为', '进入', 'case']
+['NOUN', 'VERB', 'nsubj']	['热钱', '进入', 'nsubj']
+['ADV', 'VERB', 'mark']	['也', '进入', 'mark']
+['ADP', 'NOUN', 'case']	['通过', '公司', 'case']
+['NOUN', 'VERB', 'obl']	['公司', '进入', 'obl']
+['VERB', 'VERB', 'advcl']	['夸大', '进入', 'advcl']
+['NOUN', 'NOUN', 'nmod']	['外国', '投资', 'nmod']
+['ADJ', 'NOUN', 'amod']	['直接', '投资', 'amod']
+['NOUN', 'VERB', 'obj']	['投资', '夸大', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '超计价', 'cc']
+['NOUN', 'NOUN', 'nmod']	['出口', '超计价', 'nmod']
+['NOUN', 'NOUN', 'conj']	['超计价', '投资', 'conj']
+['VERB', 'VERB', 'ccomp']	['进入', '为', 'ccomp']
+['PROPN', 'VERB', 'obj']	['中国', '进入', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '为', 'punct']
 ----------------------------------------------------------------------
-最终命令要求对美国境内最后一名敌对战斗人员阿里·萨利赫·哈拉·穆里 (Ali Saleh Khalah al-Marri) 的案件进行审查，他是一名卡塔尔人，被关押在南卡罗莱纳州查尔斯顿的海军拘留所。
+外资公司正在带来比投资所需的资金还多的资本：外国直接投资的净流入比一年前高出 60%，但这些钱用于固定投资的实际使用额却下降了 6%，其中一部分资金被转移到其他地方。
 
-(ROOT (IP (IP (ADVP (NN 最终)) (NP (NN 命令)) (VP (VV 要求) (IP (VP (PP (IN 对) (NP (DNP (NP (NP (NP (NP (NNP 美国)) (NP (NN 境内))) (QP (ADJP (NN 最后)) (QP (CD 一) (CLP (NNB 名)))) (NP (ADJP (NN 敌对)) (NP (NN 战斗))) (NP (NN 人员))) (NP (NNP 阿里) (/ ·) (NNP 萨利赫) (/ ·) (NNP 哈拉) (/ ·) (NNP 穆里) (FW -LRB-Ali) (FW Saleh) (FW Khalah) (FW al-) (FW Marri-RRB-))) (DEC 的)) (NP (NN 案件)))) (VP (VV 进行) (NP (NN 审查))))))) (, ，) (IP (NP (PRP 他)) (VP (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 名))) (NP (NNP 卡塔尔)) (NP (SFN 人)))) (, ，) (VP (BB 被) (VP (VV 关押) (PP (VV 在) (NP (DNP (NP (NNP 南卡罗莱纳) (SFN 州) (NNP 查尔斯) (SFN 顿)) (DEC 的)) (NP (NN 海军) (VV 拘留) (SFN 所)))))))) (. 。)))
+(ROOT (NP (CP (CP (IP (NP (NN 外资) (NN 公司)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VP (VV 带来) (NP (CP (CP (IP (VP (PP (IN 比) (NP (NN 投资))) (VP (RB 所) (VP (VV 需))))) (DEC 的))) (NP (NN 资金)))) (VP (ADVP (RB 还)) (VP (JJ 多)))))) (DEC 的))) (NP (NN 资本)) (: ：)))
+layer 2:
+{'NP': {'CP': {}, 'NP': {}, ':': {}}}
+{'NP': {'CP': {}, 'NP': {}, ':': {}}}
+layer 3:
+{'NP': {'CP': {'CP': {}}, 'NP': {'NN': {}}, ':': {}}}
+{'NP': {'CP': {'CP': {}}, 'NP': {'NN': {}}, ':': {}}}
+{'CP': {'CP': {}}}
+{'NP': {'NN': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['外资', '公司', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['公司', '带来', 'nsubj']
+['ADV', 'VERB', 'advmod']	['正', '带来', 'advmod']
+['ADV', 'VERB', 'advmod']	['在', '带来', 'advmod']
+['VERB', 'ROOT', 'root']	['带来', 'NONE', 'root']
+['ADP', 'NOUN', 'case']	['比', '投资', 'case']
+['NOUN', 'VERB', 'obl']	['投资', '需', 'obl']
+['ADV', 'VERB', 'mark']	['所', '需', 'mark']
+['VERB', 'NOUN', 'acl:relcl']	['需', '资金', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '需', 'mark:rel']
+['NOUN', 'ADJ', 'nsubj']	['资金', '多', 'nsubj']
+['ADV', 'ADJ', 'mark']	['还', '多', 'mark']
+['ADJ', 'NOUN', 'acl:relcl']	['多', '资本', 'acl:relcl']
+['PART', 'ADJ', 'mark:rel']	['的', '多', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['资本', '带来', 'obj']
+['PUNCT', 'VERB', 'punct']	['：', '带来', 'punct']
+----------------------------------------------------------------------
+推算出来的收入数字是一回事，实际到手的钱是另一回事。
+
+(ROOT (IP (IP (NP (CP (CP (IP (VP (VRD (VV 推算) (VV 出来)))) (DEC 的))) (NP (NN 收入) (NN 数字))) (VP (VC 是) (NP (QP (CD 一)) (NP (NN 回事))))) (, ，) (IP (NP (CP (CP (IP (VP (ADVP (NN 实际)) (VP (VV 到手)))) (DEC 的)))) (VP (NN 钱是) (NP (DP (DT 另) (QP (CD 一))) (NP (NNB 回事))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP57196': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP9775': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'NOUN', 'acl:relcl']	['推算', '数字', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['出来', '推算', 'mark']
+['PART', 'VERB', 'mark:rel']	['的', '推算', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['收入', '数字', 'nmod']
+['NOUN', 'NOUN', 'nsubj']	['数字', '回事', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '回事', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '回事', 'nummod']
+['NOUN', 'ROOT', 'root']	['回事', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['，', '回事', 'punct']
+['NOUN', 'VERB', 'obl']	['实际', '到手', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['到手', '钱是', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '到手', 'mark:rel']
+['NOUN', 'NOUN', 'nsubj']	['钱是', '回事', 'nsubj']
+['DET', 'NOUN', 'det']	['另', '回事', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '回事', 'nummod']
+['NOUN', 'NOUN', 'parataxis']	['回事', '回事', 'parataxis']
+['PUNCT', 'NOUN', 'punct']	['。', '回事', 'punct']
 ----------------------------------------------------------------------
-奥巴马在拘留政策突然爆发活动后宣布，他的政府将把解决以巴冲突放在议程的首位，“积极、主动”地寻求全面和平协议。
+另一个问题是要想知道它要去哪里，以及如何绕过中国严格的资本管制。
 
-(ROOT (IP (NP (NNP 奥巴马)) (VP (PP (IN 在) (LCP (NP (IP (NP (NN 拘留) (NN 政策)) (VP (ADVP (RB 突然)) (VP (VV 爆发)))) (NP (NN 活动))) (IN 后))) (VP (VV 宣布) (, ，) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 政府))) (VP (ADVP (RB 将)) (VP (VP (BB 把) (IP (IP (VP (VV 解决) (NP (NP (NNP 以巴)) (NP (NN 冲突))))) (VP (VV 放) (PP (VV 在) (NP (DNP (NP (NN 议程)) (DEC 的)) (NP (NN 首位))))))) (, ，) (VP (DVP (VP (`` “) (JJ 积极) (EC 、) (JJ 主动) ('' ”)) (DEV 地)) (VP (VV 寻求) (NP (ADJP (JJ 全面)) (NP (NN 和平) (NN 协议)))))))))) (. 。)))
+(ROOT (IP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 问题))) (VP (VC 是) (VP (MD 要) (VP (MD 想) (IP (VP (VV 知道) (IP (NP (PRP 它)) (VP (VP (MD 要) (VP (VV 去) (NP (WP 哪里)))) (, ，) (CC 以及) (VP (ADVP (RB 如何)) (VP (VV 绕过) (NP (NP (NNP 中国)) (CP (CP (IP (VP (JJ 严格))) (DEC 的))) (NP (NN 资本) (NN 管制)))))))))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['另', '个', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['个', '问题', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['问题', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['要', '知道', 'aux']
+['AUX', 'VERB', 'aux']	['想', '知道', 'aux']
+['VERB', 'VERB', 'xcomp']	['知道', '是', 'xcomp']
+['PRON', 'VERB', 'nsubj']	['它', '去', 'nsubj']
+['AUX', 'VERB', 'aux']	['要', '去', 'aux']
+['VERB', 'VERB', 'ccomp']	['去', '知道', 'ccomp']
+['PRON', 'VERB', 'obj']	['哪里', '去', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '绕过', 'punct']
+['CCONJ', 'VERB', 'cc']	['以及', '绕过', 'cc']
+['ADV', 'VERB', 'advmod']	['如何', '绕过', 'advmod']
+['VERB', 'VERB', 'conj']	['绕过', '知道', 'conj']
+['PROPN', 'NOUN', 'nmod']	['中国', '管制', 'nmod']
+['ADJ', 'NOUN', 'amod']	['严格', '管制', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '严格', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['资本', '管制', 'nmod']
+['NOUN', 'VERB', 'obj']	['管制', '绕过', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+股市继续下跌（见文章），不是炒作资金的天堂。
+
+(ROOT (IP (IP (NP (NN 股市)) (VP (VV 继续) (VP (VV 下跌))) (PRN (-LRB- （) (VP (VV 见) (NP (NN 文章))) (-RRB- ）))) (, ，) (VP (VC 不是) (NP (DNP (NP (VV 炒作) (NN 资金)) (DEC 的)) (NP (NN 天堂)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}, 'PRN': {}}, ',': {}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}, 'PRN': {}}, ',': {}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, 'PRN': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nsubj']	['股市', '天堂', 'nsubj']
+['VERB', 'NOUN', 'acl']	['继续', '天堂', 'acl']
+['VERB', 'VERB', 'xcomp']	['下跌', '继续', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['（', '见', 'punct']
+['VERB', 'VERB', 'xcomp']	['见', '继续', 'xcomp']
+['NOUN', 'VERB', 'obj']	['文章', '见', 'obj']
+['PUNCT', 'VERB', 'punct']	['）', '见', 'punct']
+['PUNCT', 'VERB', 'punct']	['，', '继续', 'punct']
+['AUX', 'NOUN', 'cop']	['是', '天堂', 'cop']
+['VERB', 'NOUN', 'acl:relcl']	['炒作', '天堂', 'acl:relcl']
+['NOUN', 'VERB', 'obj']	['资金', '炒作', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '炒作', 'mark:rel']
+['NOUN', 'ROOT', 'root']	['天堂', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['。', '天堂', 'punct']
+----------------------------------------------------------------------
+有的人进入了房地产行业。
+
+(ROOT (IP (NP (DP (DT 有的)) (NP (NN 人))) (VP (VV 进入) (AS 了) (NP (NN 房地产) (NN 行业))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['有的', '人', 'det']
+['NOUN', 'VERB', 'nsubj']	['人', '进入', 'nsubj']
+['VERB', 'ROOT', 'root']	['进入', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '进入', 'aux']
+['NOUN', 'NOUN', 'nmod']	['房地产', '行业', 'nmod']
+['NOUN', 'VERB', 'obj']	['行业', '进入', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '进入', 'punct']
+----------------------------------------------------------------------
+大部分资金都投资于普通银行存款。
+
+(ROOT (IP (NP (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (NN 资金))) (VP (ADVP (RB 都)) (VP (VV 投资) (PP (VV 于) (NP (NP (ADJP (JJ 普通)) (NP (NN 银行))) (NP (NN 存款)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PART', 'NOUN', 'case']	['大', '部分', 'case']
+['NOUN', 'NOUN', 'nmod']	['部分', '资金', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['资金', '投资', 'nsubj']
+['ADV', 'VERB', 'mark']	['都', '投资', 'mark']
+['VERB', 'ROOT', 'root']	['投资', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['于', '投资', 'mark']
+['ADJ', 'NOUN', 'amod']	['普通', '存款', 'amod']
+['NOUN', 'NOUN', 'nmod']	['银行', '存款', 'nmod']
+['NOUN', 'VERB', 'obj']	['存款', '投资', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '投资', 'punct']
+----------------------------------------------------------------------
+人民币存款的利率略高于 4%，而美元存款利率仅为 2%，再加上人民币预计将升值，这为能够将资金存入中国的人提供了一个似乎无风险的利润。
+
+(ROOT (IP (IP (NP (DNP (NP (NN 人民) (SFN 币) (NN 存款)) (DEC 的)) (NP (NN 利率))) (VP (JJ 略高) (PP (VV 于) (QP (CD 4%))))) (, ，) (RB 而) (IP (NP (NP (NNP 美) (SFN 元)) (NP (NN 存款) (NN 利率))) (VP (ADVP (RB 仅)) (VP (VC 为) (QP (CD 2%))))) (, ，) (IP (VP (ADVP (RB 再)) (VP (VV 加上) (IP (NP (NN 人民) (SFN 币)) (VP (VV 预计) (IP (VP (ADVP (RB 将)) (VP (VV 升值))))))))) (, ，) (IP (NP (PRD 这)) (VP (PP (IN 为) (NP (CP (CP (IP (VP (MD 能够) (VP (BB 将) (IP (NP (NN 资金)) (VP (VV 存入) (NP (NNP 中国))))))) (DEC 的))) (NP (NN 人)))) (VP (VV 提供) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 似乎)) (VP (VV 无) (NP (NN 风险))))) (DEC 的))) (NP (NN 利润)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'RB': {}, 'IP35356': {}, ',55252': {}, 'IP54034': {}, ',37693': {}, 'IP12491': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'RB': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'RB': {}, 'IP10108': {'NP': {}, 'VP': {}}, ',30899': {}, 'IP1759': {'VP': {}}, ',71286': {}, 'IP19822': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'RB': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'PART', 'compound']	['人民', '币', 'compound']
+['PART', 'NOUN', 'nmod']	['币', '存款', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['存款', '利率', 'nmod']
+['PART', 'NOUN', 'case']	['的', '存款', 'case']
+['NOUN', 'ADJ', 'nsubj']	['利率', '略高', 'nsubj']
+['ADJ', 'ROOT', 'root']	['略高', 'NONE', 'root']
+['VERB', 'ADJ', 'mark']	['于', '略高', 'mark']
+['NUM', 'ADJ', 'obj']	['4%', '略高', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '加上', 'punct']
+['ADV', 'VERB', 'mark']	['而', '加上', 'mark']
+['PROPN', 'PART', 'compound']	['美', '元', 'compound']
+['PART', 'NOUN', 'nmod']	['元', '利率', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['存款', '利率', 'nmod']
+['NOUN', 'NUM', 'nsubj']	['利率', '2%', 'nsubj']
+['ADV', 'NUM', 'advmod']	['仅', '2%', 'advmod']
+['AUX', 'NUM', 'cop']	['为', '2%', 'cop']
+['NUM', 'VERB', 'advcl']	['2%', '加上', 'advcl']
+['PUNCT', 'NUM', 'punct']	['，', '2%', 'punct']
+['ADV', 'VERB', 'advmod']	['再', '加上', 'advmod']
+['VERB', 'ADJ', 'parataxis']	['加上', '略高', 'parataxis']
+['NOUN', 'PART', 'compound']	['人民', '币', 'compound']
+['PART', 'VERB', 'nsubj']	['币', '预计', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['预计', '加上', 'ccomp']
+['ADV', 'VERB', 'advmod']	['将', '升值', 'advmod']
+['VERB', 'VERB', 'xcomp']	['升值', '预计', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '提供', 'punct']
+['PRON', 'VERB', 'nsubj']	['这', '提供', 'nsubj']
+['ADP', 'NOUN', 'case']	['为', '人', 'case']
+['AUX', 'VERB', 'aux']	['能够', '提供', 'aux']
+['ADP', 'NOUN', 'case']	['将', '资金', 'case']
+['NOUN', 'VERB', 'obl:patient']	['资金', '存入', 'obl:patient']
+['VERB', 'NOUN', 'acl:relcl']	['存入', '人', 'acl:relcl']
+['PROPN', 'VERB', 'iobj']	['中国', '存入', 'iobj']
+['PART', 'VERB', 'mark:rel']	['的', '存入', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['人', '提供', 'obl']
+['VERB', 'ADJ', 'parataxis']	['提供', '略高', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '提供', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '利润', 'clf']
+['ADV', 'VERB', 'advmod']	['似乎', '无', 'advmod']
+['VERB', 'NOUN', 'acl:relcl']	['无', '利润', 'acl:relcl']
+['NOUN', 'VERB', 'obj']	['风险', '无', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '无', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['利润', '提供', 'obj']
+['PUNCT', 'ADJ', 'punct']	['。', '略高', 'punct']
+----------------------------------------------------------------------
+它通过各种歪路转弯的方式进来。
+
+(ROOT (IP (NP (PRP 它)) (VP (PP (IN 通过) (NP (ADJP (DT 各种)) (CP (IP (VP (NP (NN 歪路) (VV 转弯)))) (DEC 的)) (NP (NN 方式)))) (VP (VV 进来))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
 {'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['它', '进来', 'nsubj']
+['ADP', 'NOUN', 'case']	['通过', '方式', 'case']
+['DET', 'NOUN', 'det']	['各种', '歪路', 'det']
+['NOUN', 'VERB', 'obl']	['歪路', '转弯', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['转弯', '方式', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '转弯', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['方式', '进来', 'obl']
+['VERB', 'ROOT', 'root']	['进来', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['。', '进来', 'punct']
 ----------------------------------------------------------------------
-作为这一意图的标志，他证实，美国资深调解人，前参议员乔治·米切尔将成为他的中东特使。
+虽然有关于通过中国合作伙伴投资的传闻，但那些关心流动性的大型西方投资基金将很难将资金转移到中国，
 
-(ROOT (IP (PP (IN 作为) (NP (DNP (NP (DP (DT 这) (QP (CD 一))) (NP (NN 意图))) (DEC 的)) (NP (NN 标志)))) (, ，) (NP (PRP 他)) (VP (VV 证实) (, ，) (IP (NP (NP (NP (NNP 美国)) (ADJP (JJ 资深)) (NP (VV 调解) (SFN 人))) (, ，) (NP (NP (ADJP (PFA 前)) (NP (VV 参议) (SFN 员))) (NP (NNP 乔治) (/ ·) (NNP 米切尔)))) (VP (ADVP (RB 将)) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NNP 中东)) (NP (NN 特使)))))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'NP': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+(ROOT (IP (IP (VP (ADVP (IN 虽然)) (VP (VV 有) (PP (IN 关于) (NP (CP (IP (VP (PP (IN 通过) (NP (NP (NNP 中国)) (NP (NN 合作) (NN 伙伴)))) (VP (VV 投资)))) (DEC 的)) (NP (NN 传闻))))))) (, ，) (ADVP (RB 但)) (NP (DP (DT 那些)) (CP (CP (IP (VP (VV 关心) (NP (VV 流动) (SFN 性)))) (DEC 的))) (ADJP (JJ 大型)) (NP (NNP 西方) (NN 投资) (NN 基金))) (VP (ADVP (RB 将)) (ADVP (RB 很难)) (VP (BB 将) (IP (NP (NN 资金)) (VP (VRD (VV 转移) (VV 到)) (NP (NNP 中国)))))) (, ，)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, ',87637': {}}}
+{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, ',': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'DP': {}, 'CP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP42943': {}, 'VP': {}}, ',36960': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'DP': {}, 'CP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, ',': {}}}
+{'IP': {'VP': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DP': {}, 'CP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['虽然', '有', 'case']
+['VERB', 'VERB', 'xcomp']	['有', '转移', 'xcomp']
+['ADP', 'NOUN', 'case']	['关于', '传闻', 'case']
+['ADP', 'NOUN', 'case']	['通过', '伙伴', 'case']
+['PROPN', 'NOUN', 'nmod']	['中国', '伙伴', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['合作', '伙伴', 'nmod']
+['NOUN', 'VERB', 'obl']	['伙伴', '投资', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['投资', '传闻', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '投资', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['传闻', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['ADV', 'VERB', 'mark']	['但', '转移', 'mark']
+['DET', 'NOUN', 'det']	['那些', '基金', 'det']
+['VERB', 'NOUN', 'acl:relcl']	['关心', '基金', 'acl:relcl']
+['VERB', 'PART', 'compound']	['流动', '性', 'compound']
+['PART', 'VERB', 'obj']	['性', '关心', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '关心', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['大型', '基金', 'amod']
+['PROPN', 'NOUN', 'nmod']	['西方', '基金', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['投资', '基金', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['基金', '转移', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '转移', 'advmod']
+['ADV', 'VERB', 'advmod']	['很难', '转移', 'advmod']
+['ADP', 'NOUN', 'case']	['将', '资金', 'case']
+['NOUN', 'VERB', 'obl:patient']	['资金', '转移', 'obl:patient']
+['VERB', 'ROOT', 'root']	['转移', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['到', '转移', 'mark']
+['PROPN', 'VERB', 'obj']	['中国', '转移', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '转移', 'punct']
 ----------------------------------------------------------------------
-奥巴马在以色列轰炸加沙期间一直饱受批评，他提出了一个新立场，尽管仍然倾向以色列，但比布什时期更加公正。
+贸易和投资为中国和外国企业提供了很大的漏洞。
 
-(ROOT (IP (IP (NP (NNP 奥巴马)) (VP (PP (VV 在) (NP (IP (NP (NNP 以色列)) (VP (VV 轰炸) (NP (NNP 加沙)))) (NP (NN 期间)))) (ADVP (RB 一直)) (VP (VV 饱受) (NP (NN 批评))))) (, ，) (IP (NP (PRP 他)) (VP (VV 提出) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (ADJP (PFA 新)) (NP (NN 立场))))) (, ，) (IP (IP (VP (ADVP (IN 尽管)) (ADVP (RB 仍然)) (VP (VV 倾向) (NP (NNP 以色列))))) (, ，) (ADVP (RB 但)) (NP (NP (NNP 比布什)) (NP (NN 时期))) (VP (ADVP (RB 更加)) (VP (JJ 公正)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-他呼吁哈马斯停止向以色列发射火箭，但也表示以色列必须“完成从加沙撤军”。
-
-(ROOT (IP (NP (PRP 他)) (VP (VP (VV 呼吁) (NP (NNP 哈马斯)) (IP (VP (VV 停止) (IP (VP (PP (IN 向) (NP (NNP 以色列))) (VP (VV 发射) (NP (NN 火箭)))))))) (, ，) (VP (ADVP (RB 但)) (ADVP (RB 也)) (VP (VV 表示) (IP (NP (NNP 以色列)) (VP (MD 必须) (VP (`` “) (VV 完成) (IP (VP (PP (IN 从) (NP (NNP 加沙))) (VP (VV 撤军)))) ('' ”))))))) (. 。)))
+(ROOT (IP (NP (NN 贸易) (CC 和) (NN 投资)) (VP (PP (IN 为) (NP (NP (NNP 中国)) (CC 和) (NP (NN 外国) (NN 企业)))) (VP (VV 提供) (AS 了) (NP (CP (CP (IP (VP (JJ 很大))) (DEC 的))) (NP (NN 漏洞))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'CC': {}, 'NN338': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'CC': {}, 'NN': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'CC': {}, 'NN': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nsubj']	['贸易', '提供', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '投资', 'cc']
+['NOUN', 'NOUN', 'conj']	['投资', '贸易', 'conj']
+['ADP', 'PROPN', 'case']	['为', '中国', 'case']
+['PROPN', 'VERB', 'obl']	['中国', '提供', 'obl']
+['CCONJ', 'NOUN', 'cc']	['和', '企业', 'cc']
+['NOUN', 'NOUN', 'nmod']	['外国', '企业', 'nmod']
+['NOUN', 'PROPN', 'conj']	['企业', '中国', 'conj']
+['VERB', 'ROOT', 'root']	['提供', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '提供', 'aux']
+['ADJ', 'NOUN', 'amod']	['很大', '漏洞', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '很大', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['漏洞', '提供', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '提供', 'punct']
+----------------------------------------------------------------------
+居民个人可以使用每年 5 万美元的限额将资金从国外带入中国，许多人还会使用自己的朋友和亲戚的配额。
+
+(ROOT (IP (IP (NP (NN 居民) (NN 个人)) (VP (MD 可以) (VP (VP (VV 使用) (NP (DNP (QP (ADVP (DT 每年)) (QP (CD 5 万) (CLP (NNP 美) (CLP (NNB 元))))) (DEC 的)) (NP (NN 限额)))) (VP (BB 将) (IP (NP (NN 资金)) (VP (PP (IN 从) (NP (NN 国外))) (VP (VV 带入) (NP (NNP 中国))))))))) (, ，) (IP (NP (QP (CD 许多)) (NP (NN 人))) (VP (ADVP (RB 还)) (VP (MD 会) (VP (VV 使用) (NP (DNP (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 朋友) (CC 和) (NN 亲戚))) (DEC 的)) (NP (NN 配额))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP93047': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP99055': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['居民', '个人', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['个人', '带入', 'nsubj']
+['AUX', 'VERB', 'aux']	['可以', '使用', 'aux']
+['VERB', 'VERB', 'advcl']	['使用', '带入', 'advcl']
+['DET', 'NOUN', 'det']	['每年', '元', 'det']
+['NUM', 'NOUN', 'nummod']	['5 万', '元', 'nummod']
+['PROPN', 'NOUN', 'nmod']	['美', '元', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['元', '限额', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '元', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['限额', '使用', 'obj']
+['ADP', 'NOUN', 'case']	['将', '资金', 'case']
+['NOUN', 'VERB', 'obl:patient']	['资金', '带入', 'obl:patient']
+['ADP', 'NOUN', 'case']	['从', '国外', 'case']
+['NOUN', 'VERB', 'obl']	['国外', '带入', 'obl']
+['VERB', 'VERB', 'advcl']	['带入', '使用', 'advcl']
+['PROPN', 'VERB', 'obj']	['中国', '带入', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '带入', 'punct']
+['NUM', 'NOUN', 'nummod']	['许多', '人', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['人', '使用', 'nsubj']
+['ADV', 'VERB', 'mark']	['还', '使用', 'mark']
+['AUX', 'VERB', 'aux']	['会', '使用', 'aux']
+['VERB', 'ROOT', 'root']	['使用', 'NONE', 'root']
+['PRON', 'NOUN', 'det']	['自己', '朋友', 'det']
+['PART', 'PRON', 'case']	['的', '自己', 'case']
+['NOUN', 'NOUN', 'nmod']	['朋友', '配额', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['和', '亲戚', 'cc']
+['NOUN', 'NOUN', 'conj']	['亲戚', '朋友', 'conj']
+['PART', 'NOUN', 'case']	['的', '朋友', 'case']
+['NOUN', 'VERB', 'obj']	['配额', '使用', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '使用', 'punct']
+----------------------------------------------------------------------
+另一个大的漏洞是香港居民每天可以将 80,000 元人民币（11,600 美元）存入内地的银行。
+
+(ROOT (IP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 个)))) (CP (CP (IP (VP (JJ 大))) (DEC 的))) (NP (NN 漏洞))) (VP (VC 是) (IP (NP (NP (NNP 香港)) (NP (NN 居民))) (VP (NP (DT 每天)) (VP (MD 可以) (VP (BB 将) (IP (NP (QP (CD 80,000)) (NP (NNP 元人民) (SFN 币)) (PRN (-LRB- （) (QP (CD 11,600) (CLP (NNB 美元))) (-RRB- ）))) (VP (VV 存入) (NP (DNP (NP (NN 内地)) (DEC 的)) (NP (NN 银行)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'CP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'IP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['另', '个', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['个', '漏洞', 'nmod']
+['ADJ', 'NOUN', 'amod']	['大', '漏洞', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '大', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['漏洞', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['PROPN', 'NOUN', 'nmod']	['香港', '居民', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['居民', '存入', 'nsubj']
+['DET', 'VERB', 'nmod:tmod']	['每天', '存入', 'nmod:tmod']
+['AUX', 'VERB', 'aux']	['可以', '存入', 'aux']
+['ADP', 'PART', 'case']	['将', '币', 'case']
+['NUM', 'PART', 'nummod']	['80,000', '币', 'nummod']
+['PROPN', 'PART', 'compound']	['元人民', '币', 'compound']
+['PART', 'VERB', 'obl:patient']	['币', '存入', 'obl:patient']
+['PUNCT', 'NOUN', 'punct']	['（', '美元', 'punct']
+['NUM', 'NOUN', 'nummod']	['11,600', '美元', 'nummod']
+['NOUN', 'PART', 'appos']	['美元', '币', 'appos']
+['PUNCT', 'NOUN', 'punct']	['）', '美元', 'punct']
+['VERB', 'VERB', 'ccomp']	['存入', '是', 'ccomp']
+['NOUN', 'NOUN', 'nmod']	['内地', '银行', 'nmod']
+['PART', 'NOUN', 'case']	['的', '内地', 'case']
+['NOUN', 'VERB', 'iobj']	['银行', '存入', 'iobj']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+政府正在试图予以打击，但这可能会导致这种活动转移到地下货币兑换商手中。
+
+(ROOT (IP (IP (NP (NN 政府)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 试图) (IP (VP (VV 予) (NP (VV 以) (NP (NN 打击)))))))) (, ，) (IP (ADVP (RB 但)) (NP (PRD 这)) (VP (MD 可能) (VP (MD 会) (VP (VV 导致) (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 活动))) (VP (VRD (VV 转移) (VV 到)) (LCP (NP (NP (ADJP (NN 地下)) (NP (NN 货币))) (NP (VV 兑换) (SFN 商))) (NN 手中)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP59775': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP74415': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nsubj']	['政府', '试图', 'nsubj']
+['ADV', 'VERB', 'advmod']	['正', '试图', 'advmod']
+['ADV', 'VERB', 'advmod']	['在', '试图', 'advmod']
+['VERB', 'ROOT', 'root']	['试图', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['予', '试图', 'xcomp']
+['VERB', 'VERB', 'mark']	['以', '予', 'mark']
+['NOUN', 'VERB', 'obj']	['打击', '予', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '导致', 'punct']
+['ADV', 'VERB', 'mark']	['但', '导致', 'mark']
+['PRON', 'VERB', 'nsubj']	['这', '导致', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '导致', 'aux']
+['AUX', 'VERB', 'aux']	['会', '导致', 'aux']
+['VERB', 'VERB', 'parataxis']	['导致', '试图', 'parataxis']
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '活动', 'clf']
+['NOUN', 'VERB', 'nsubj']	['活动', '转移', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['转移', '导致', 'ccomp']
+['VERB', 'VERB', 'mark']	['到', '转移', 'mark']
+['NOUN', 'NOUN', 'nmod']	['地下', '手中', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['货币', '手中', 'nmod']
+['VERB', 'PART', 'compound']	['兑换', '商', 'compound']
+['PART', 'NOUN', 'nmod']	['商', '手中', 'nmod']
+['NOUN', 'VERB', 'obj']	['手中', '转移', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '试图', 'punct']
+----------------------------------------------------------------------
+如果政府加强对外商直接投资和贸易流量的监管，额外的官僚作风可能会损害实体经济。
+
+(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (NN 政府)) (VP (VV 加强) (NP (DNP (NP (NP (ADJP (JJ 对外)) (NP (SFN 商))) (NP (NP (ADJP (JJ 直接)) (NP (NN 投资))) (CC 和) (NP (NN 贸易) (NN 流量)))) (DEC 的)) (NP (NN 监管)))))) (, ，) (NP (DNP (ADJP (JJ 额外)) (DEC 的)) (NP (NN 官僚) (NN 作风))) (VP (MD 可能) (VP (MD 会) (VP (VV 损害) (NP (NN 实体) (NN 经济))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['如果', '加强', 'case']
+['NOUN', 'VERB', 'nsubj']	['政府', '加强', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['加强', '损害', 'ccomp']
+['ADJ', 'PART', 'compound']	['对外', '商', 'compound']
+['PART', 'NOUN', 'nmod']	['商', '投资', 'nmod']
+['ADJ', 'NOUN', 'amod']	['直接', '投资', 'amod']
+['NOUN', 'NOUN', 'nmod']	['投资', '监管', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['和', '流量', 'cc']
+['NOUN', 'NOUN', 'nmod']	['贸易', '流量', 'nmod']
+['NOUN', 'NOUN', 'conj']	['流量', '投资', 'conj']
+['PART', 'VERB', 'mark:rel']	['的', '加强', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['监管', '加强', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '加强', 'punct']
+['ADJ', 'NOUN', 'amod']	['额外', '作风', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '额外', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['官僚', '作风', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['作风', '损害', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '损害', 'aux']
+['AUX', 'VERB', 'aux']	['会', '损害', 'aux']
+['VERB', 'ROOT', 'root']	['损害', 'NONE', 'root']
+['NOUN', 'NOUN', 'nmod']	['实体', '经济', 'nmod']
+['NOUN', 'VERB', 'obj']	['经济', '损害', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '损害', 'punct']
+----------------------------------------------------------------------
+中国需要减少破坏性资本流入的刺激，而不是阻断渠道。
+
+(ROOT (IP (NP (NNP 中国)) (VP (VP (MD 需要) (VP (VV 减少) (NP (CP (CP (IP (VP (VV 破坏) (NP (NP (ADJP (SFN 性)) (NP (NN 资本))) (NP (VV 流入))))) (DEC 的))) (NP (NN 刺激))))) (, ，) (RB 而) (VP (VC 不是) (NP (NN 阻断) (NN 渠道)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP42417': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nsubj']	['中国', '渠道', 'nsubj']
+['AUX', 'VERB', 'aux']	['需要', '减少', 'aux']
+['VERB', 'NOUN', 'acl']	['减少', '渠道', 'acl']
+['VERB', 'PART', 'compound']	['破坏', '性', 'compound']
+['PART', 'NOUN', 'nmod']	['性', '资本', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['资本', '流入', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['流入', '刺激', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '流入', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['刺激', '减少', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '减少', 'punct']
+['ADV', 'NOUN', 'mark']	['而', '渠道', 'mark']
+['AUX', 'NOUN', 'cop']	['是', '渠道', 'cop']
+['NOUN', 'NOUN', 'nmod']	['阻断', '渠道', 'nmod']
+['NOUN', 'ROOT', 'root']	['渠道', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['。', '渠道', 'punct']
+----------------------------------------------------------------------
+大量热钱流入对中国经济带来两大危害。
+
+(ROOT (IP (IP (NP (QP (JJ 大量)) (ADJP (PFA 热)) (NP (NN 钱))) (VP (VV 流入))) (VP (PP (IN 对) (NP (NP (NNP 中国)) (NP (NN 经济)))) (VP (VV 带来) (NP (QP (CD 两)) (ADJP (PFA 大)) (NP (NN 危害))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+['ADJ', 'NOUN', 'amod']	['大量', '钱', 'amod']
+['PART', 'NOUN', 'case']	['热', '钱', 'case']
+['NOUN', 'VERB', 'nsubj']	['钱', '带来', 'nsubj']
+['VERB', 'VERB', 'advcl']	['流入', '带来', 'advcl']
+['ADP', 'NOUN', 'case']	['对', '经济', 'case']
+['PROPN', 'NOUN', 'nmod']	['中国', '经济', 'nmod']
+['NOUN', 'VERB', 'obl']	['经济', '带来', 'obl']
+['VERB', 'ROOT', 'root']	['带来', 'NONE', 'root']
+['NUM', 'NOUN', 'nummod']	['两', '危害', 'nummod']
+['PART', 'NOUN', 'case']	['大', '危害', 'case']
+['NOUN', 'VERB', 'obj']	['危害', '带来', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '带来', 'punct']
+----------------------------------------------------------------------
+其中一个原因是资本可能突然外流，十年前金融危机期间，东亚其他国家和今年越南都曾经发生过这种情况。
+
+(ROOT (IP (IP (NP (NP (NN 其中)) (QP (CD 一) (CLP (NNB 个))) (NP (NN 原因))) (VP (VC 是) (IP (NP (NN 资本)) (VP (MD 可能) (VP (ADVP (RB 突然)) (VP (VV 外流))))))) (, ，) (IP (NP (NP (LCP (QP (CD 十) (CLP (NNB 年))) (IN 前)) (NP (NN 金融) (NN 危机))) (NP (NN 期间))) (, ，) (NP (NP (NP (NNP 东亚)) (DP (DT 其他)) (NP (NN 国家))) (CC 和) (NP (NP (NN 今年)) (NP (NNP 越南)))) (VP (ADVP (RB 都)) (ADVP (RB 曾经)) (VP (VV 发生) (AS 过) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 情况)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP58634': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP16719': {'NP': {}, ',': {}, 'NP6314': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['其中', '原因', 'nmod']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '原因', 'clf']
+['NOUN', 'VERB', 'nsubj']	['原因', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['NOUN', 'VERB', 'nsubj']	['资本', '外流', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '外流', 'aux']
+['ADV', 'VERB', 'advmod']	['突然', '外流', 'advmod']
+['VERB', 'VERB', 'ccomp']	['外流', '是', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '发生', 'punct']
+['NUM', 'NOUN', 'nummod']	['十', '年', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['年', '期间', 'nmod']
+['ADP', 'NOUN', 'case']	['前', '年', 'case']
+['NOUN', 'NOUN', 'nmod']	['金融', '危机', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['危机', '期间', 'nmod']
+['NOUN', 'VERB', 'nmod:tmod']	['期间', '发生', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '期间', 'punct']
+['PROPN', 'NOUN', 'nmod']	['东亚', '国家', 'nmod']
+['DET', 'NOUN', 'det']	['其他', '国家', 'det']
+['NOUN', 'VERB', 'nsubj']	['国家', '发生', 'nsubj']
+['CCONJ', 'PROPN', 'cc']	['和', '越南', 'cc']
+['NOUN', 'PROPN', 'nmod']	['今年', '越南', 'nmod']
+['PROPN', 'NOUN', 'conj']	['越南', '国家', 'conj']
+['ADV', 'VERB', 'mark']	['都', '发生', 'mark']
+['ADV', 'VERB', 'advmod']	['曾经', '发生', 'advmod']
+['VERB', 'VERB', 'parataxis']	['发生', '是', 'parataxis']
+['AUX', 'VERB', 'aux']	['过', '发生', 'aux']
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '情况', 'clf']
+['NOUN', 'VERB', 'obj']	['情况', '发生', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+中国的经济由经常账户盈余和巨额储备所保护，但其银行系统将因突然撤回而受损。
+
+(ROOT (IP (IP (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NN 经济))) (VP (PP (VV 由) (NP (NP (ADJP (JJ 经常)) (NP (NN 账户) (NN 盈余))) (CC 和) (NP (ADJP (JJ 巨额)) (NP (NN 储备))))) (VP (RB 所) (VP (VV 保护))))) (, ，) (IP (ADVP (RB 但)) (NP (NP (PRP 其)) (NP (NN 银行) (NN 系统))) (VP (ADVP (RB 将)) (PP (IN 因) (IP (VP (ADVP (RB 突然)) (VP (VV 撤回))))) (VP (RB 而) (VP (VV 受损))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP35148': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP19616': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['中国', '经济', 'nmod']
+['PART', 'PROPN', 'case']	['的', '中国', 'case']
+['NOUN', 'VERB', 'nsubj']	['经济', '由', 'nsubj']
+['VERB', 'ROOT', 'root']	['由', 'NONE', 'root']
+['ADJ', 'NOUN', 'amod']	['经常', '盈余', 'amod']
+['NOUN', 'NOUN', 'nmod']	['账户', '盈余', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['盈余', '保护', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '储备', 'cc']
+['ADJ', 'NOUN', 'amod']	['巨额', '储备', 'amod']
+['NOUN', 'NOUN', 'conj']	['储备', '盈余', 'conj']
+['ADV', 'VERB', 'mark']	['所', '保护', 'mark']
+['VERB', 'VERB', 'ccomp']	['保护', '由', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '受损', 'punct']
+['ADV', 'VERB', 'mark']	['但', '受损', 'mark']
+['PRON', 'NOUN', 'nmod']	['其', '系统', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['银行', '系统', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['系统', '受损', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '受损', 'advmod']
+['ADP', 'VERB', 'case']	['因', '撤回', 'case']
+['ADV', 'VERB', 'advmod']	['突然', '撤回', 'advmod']
+['VERB', 'VERB', 'xcomp']	['撤回', '受损', 'xcomp']
+['ADV', 'VERB', 'mark']	['而', '受损', 'mark']
+['VERB', 'VERB', 'parataxis']	['受损', '由', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '由', 'punct']
+----------------------------------------------------------------------
+更为直接的担忧是资本流入会引发通货膨胀。
+
+(ROOT (IP (NP (CP (CP (IP (VP (ADVP (RB 更为)) (VP (JJ 直接)))) (DEC 的))) (NP (NN 担忧))) (VP (VC 是) (IP (NP (NN 资本) (NN 流入)) (VP (MD 会) (VP (VV 引发) (NP (NN 通货) (VV 膨胀)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'IP': {}}}
+Dependency Features:
+['ADV', 'ADJ', 'advmod']	['更为', '直接', 'advmod']
+['ADJ', 'NOUN', 'amod']	['直接', '担忧', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '直接', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['担忧', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['NOUN', 'NOUN', 'nmod']	['资本', '流入', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['流入', '引发', 'nsubj']
+['AUX', 'VERB', 'aux']	['会', '引发', 'aux']
+['VERB', 'VERB', 'ccomp']	['引发', '是', 'ccomp']
+['NOUN', 'VERB', 'nsubj']	['通货', '膨胀', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['膨胀', '引发', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+随着外资流入，中国央行必须购买更多美元来稳定人民币，这实际上意味着印钞。
+
+(ROOT (IP (IP (PP (VV 随) (PP (AS 着) (IP (NP (NN 外资)) (VP (VV 流入))))) (, ，) (NP (NNP 中国) (NN 央行)) (VP (MD 必须) (VP (VP (VV 购买) (NP (ADJP (JJ 更多)) (NP (NNP 美) (CLP (SFN 元))))) (VP (RB 来) (VP (VV 稳定) (NP (NN 人民) (SFN 币))))))) (, ，) (IP (NP (PRD 这)) (VP (LCP (NP (NN 实际)) (IN 上)) (VP (VV 意味) (AS 着) (NP (NN 印钞))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP84075': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP89508': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['随', '购买', 'advcl']
+['AUX', 'VERB', 'aux']	['着', '随', 'aux']
+['NOUN', 'VERB', 'nsubj']	['外资', '流入', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['流入', '随', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '随', 'punct']
+['PROPN', 'NOUN', 'nmod']	['中国', '央行', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['央行', '购买', 'nsubj']
+['AUX', 'VERB', 'aux']	['必须', '购买', 'aux']
+['VERB', 'ROOT', 'root']	['购买', 'NONE', 'root']
+['ADJ', 'PART', 'amod']	['更多', '元', 'amod']
+['PROPN', 'PART', 'compound']	['美', '元', 'compound']
+['PART', 'VERB', 'nsubj']	['元', '稳定', 'nsubj']
+['ADV', 'VERB', 'mark']	['来', '稳定', 'mark']
+['VERB', 'VERB', 'ccomp']	['稳定', '购买', 'ccomp']
+['NOUN', 'PART', 'compound']	['人民', '币', 'compound']
+['PART', 'VERB', 'obj']	['币', '稳定', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '购买', 'punct']
+['PRON', 'VERB', 'nsubj']	['这', '意味', 'nsubj']
+['NOUN', 'VERB', 'obl']	['实际', '意味', 'obl']
+['ADP', 'NOUN', 'case']	['上', '实际', 'case']
+['VERB', 'VERB', 'parataxis']	['意味', '购买', 'parataxis']
+['AUX', 'VERB', 'aux']	['着', '意味', 'aux']
+['NOUN', 'VERB', 'obj']	['印钞', '意味', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '意味', 'punct']
+----------------------------------------------------------------------
+然后央行通过发行票据（称为“灭菌”）或提高银行的准备金要求来清理这些过剩的流动性，但这一切都使货币政策变得复杂。
+
+(ROOT (IP (IP (ADVP (RB 然后)) (NP (NN 央行)) (VP (PP (IN 通过) (IP (VP (IP (VP (VV 发行) (NP (NN 票据))) (PRN (-LRB- （) (VP (VCP (VV 称) (VC 为)) (NP (`` “) (VV 灭菌) ('' ”))) (-RRB- ）))) (CC 或) (VP (VV 提高) (NP (DNP (NP (NN 银行)) (DEC 的)) (NP (VV 准备) (SFN 金) (NN 要求))))))) (VP (RB 来) (VP (VV 清理) (NP (DP (DT 这些)) (CP (CP (IP (VP (JJ 过剩))) (DEC 的))) (NP (VV 流动) (SFN 性))))))) (, ，) (IP (ADVP (RB 但)) (NP (DP (DT 这)) (NP (DT 一切))) (VP (ADVP (RB 都)) (VP (VV 使) (NP (NN 货币) (NN 政策)) (IP (VP (VV 变得) (VP (JJ 复杂))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP64827': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP54129': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'advmod']	['然后', '清理', 'advmod']
+['NOUN', 'VERB', 'nsubj']	['央行', '清理', 'nsubj']
+['ADP', 'VERB', 'case']	['通过', '发行', 'case']
+['VERB', 'VERB', 'xcomp']	['发行', '清理', 'xcomp']
+['NOUN', 'VERB', 'nsubj']	['票据', '称', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['（', '票据', 'punct']
+['VERB', 'VERB', 'ccomp']	['称', '发行', 'ccomp']
+['VERB', 'VERB', 'mark']	['为', '称', 'mark']
+['PUNCT', 'VERB', 'punct']	['“', '灭菌', 'punct']
+['VERB', 'VERB', 'obj']	['灭菌', '称', 'obj']
+['PUNCT', 'VERB', 'punct']	['”', '灭菌', 'punct']
+['PUNCT', 'VERB', 'punct']	['）', '称', 'punct']
+['CCONJ', 'VERB', 'cc']	['或', '提高', 'cc']
+['VERB', 'VERB', 'conj']	['提高', '称', 'conj']
+['NOUN', 'NOUN', 'nmod']	['银行', '要求', 'nmod']
+['PART', 'NOUN', 'case']	['的', '银行', 'case']
+['VERB', 'PART', 'compound']	['准备', '金', 'compound']
+['PART', 'NOUN', 'nmod']	['金', '要求', 'nmod']
+['NOUN', 'VERB', 'obj']	['要求', '提高', 'obj']
+['ADV', 'VERB', 'mark']	['来', '清理', 'mark']
+['VERB', 'ROOT', 'root']	['清理', 'NONE', 'root']
+['DET', 'PART', 'det']	['这些', '性', 'det']
+['ADJ', 'PART', 'amod']	['过剩', '性', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '过剩', 'mark:rel']
+['VERB', 'PART', 'compound']	['流动', '性', 'compound']
+['PART', 'VERB', 'obj']	['性', '清理', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '使', 'punct']
+['ADV', 'VERB', 'mark']	['但', '使', 'mark']
+['DET', 'DET', 'det']	['这', '一切', 'det']
+['DET', 'VERB', 'nsubj']	['一切', '使', 'nsubj']
+['ADV', 'VERB', 'mark']	['都', '使', 'mark']
+['VERB', 'VERB', 'parataxis']	['使', '清理', 'parataxis']
+['NOUN', 'NOUN', 'nmod']	['货币', '政策', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['政策', '变得', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['变得', '使', 'ccomp']
+['ADJ', 'VERB', 'xcomp']	['复杂', '变得', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '清理', 'punct']
+----------------------------------------------------------------------
+中国的利率低于通货膨胀率，但人民银行担心更高的利率会吸引更多的热钱，最终加剧通货膨胀压力。
+
+(ROOT (IP (IP (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NN 利率))) (VP (JJ 低) (PP (VV 于) (NP (NN 通货) (VV 膨胀) (SFN 率))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 人民) (NN 银行)) (VP (VP (VV 担心) (IP (NP (CP (CP (IP (VP (JJ 更高))) (DEC 的))) (NP (NN 利率))) (VP (MD 会) (VP (VV 吸引) (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的))) (NP (NN 热钱))))))) (, ，) (VP (ADVP (NN 最终)) (VP (VV 加剧) (NP (NN 通货) (VV 膨胀) (NN 压力)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP19490': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP74736': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['中国', '利率', 'nmod']
+['PART', 'PROPN', 'case']	['的', '中国', 'case']
+['NOUN', 'ADJ', 'nsubj']	['利率', '低', 'nsubj']
+['ADJ', 'ROOT', 'root']	['低', 'NONE', 'root']
+['VERB', 'ADJ', 'mark']	['于', '低', 'mark']
+['NOUN', 'PART', 'nmod']	['通货', '率', 'nmod']
+['VERB', 'PART', 'compound']	['膨胀', '率', 'compound']
+['PART', 'ADJ', 'obj']	['率', '低', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '加剧', 'punct']
+['ADV', 'VERB', 'mark']	['但', '加剧', 'mark']
+['NOUN', 'NOUN', 'nmod']	['人民', '银行', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['银行', '加剧', 'nsubj']
+['VERB', 'VERB', 'advcl']	['担心', '加剧', 'advcl']
+['ADJ', 'NOUN', 'amod']	['更高', '利率', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '更高', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['利率', '吸引', 'nsubj']
+['AUX', 'VERB', 'aux']	['会', '吸引', 'aux']
+['VERB', 'VERB', 'ccomp']	['吸引', '担心', 'ccomp']
+['ADJ', 'NOUN', 'amod']	['更多', '热钱', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '更多', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['热钱', '吸引', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '吸引', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['最终', '加剧', 'nmod:tmod']
+['VERB', 'ADJ', 'parataxis']	['加剧', '低', 'parataxis']
+['NOUN', 'VERB', 'nsubj']	['通货', '膨胀', 'nsubj']
+['VERB', 'NOUN', 'amod']	['膨胀', '压力', 'amod']
+['NOUN', 'VERB', 'obj']	['压力', '加剧', 'obj']
+['PUNCT', 'ADJ', 'punct']	['。', '低', 'punct']
+----------------------------------------------------------------------
+相反，中国央行试图通过让人民币兑美元升值，以每年 18% 的速度，来遏制通货膨胀。
+
+(ROOT (IP (ADVP (VV 相反)) (, ，) (NP (NNP 中国) (NN 央行)) (VP (VV 试图) (IP (VP (PP (VV 通过) (IP (VP (VV 让) (NP (NN 人民) (SFN 币)) (IP (VP (VP (VV 兑) (NP (NNP 美) (SFN 元))) (VP (VV 升值))))))) (, ，) (PP (VV 以) (NP (NP (DT 每年)) (DNP (QP (CD 18%)) (DEC 的)) (NP (NN 速度)))) (, ，) (VP (RB 来) (VP (VV 遏制) (NP (NN 通货) (VV 膨胀))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'VV': {}}, ',': {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'VV': {}}, ',': {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'VV': {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['相反', '试图', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '相反', 'punct']
+['PROPN', 'NOUN', 'nmod']	['中国', '央行', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['央行', '试图', 'nsubj']
+['VERB', 'ROOT', 'root']	['试图', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['通过', '试图', 'xcomp']
+['VERB', 'VERB', 'xcomp']	['让', '通过', 'xcomp']
+['NOUN', 'PART', 'compound']	['人民', '币', 'compound']
+['PART', 'VERB', 'nsubj']	['币', '升值', 'nsubj']
+['VERB', 'VERB', 'advcl']	['兑', '升值', 'advcl']
+['PROPN', 'PART', 'compound']	['美', '元', 'compound']
+['PART', 'VERB', 'obj']	['元', '兑', 'obj']
+['VERB', 'VERB', 'ccomp']	['升值', '让', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '让', 'punct']
+['VERB', 'VERB', 'advcl']	['以', '遏制', 'advcl']
+['DET', 'NOUN', 'det']	['每年', '速度', 'det']
+['NUM', 'NOUN', 'nummod']	['18%', '速度', 'nummod']
+['PART', 'NUM', 'mark:rel']	['的', '18%', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['速度', '以', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '以', 'punct']
+['ADV', 'VERB', 'mark']	['来', '遏制', 'mark']
+['VERB', 'VERB', 'xcomp']	['遏制', '试图', 'xcomp']
+['NOUN', 'VERB', 'nsubj']	['通货', '膨胀', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['膨胀', '遏制', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '遏制', 'punct']
+----------------------------------------------------------------------
+但这促使投资者押注未来升值，加剧资本流入。
+
+(ROOT (IP (ADVP (RB 但)) (NP (PRD 这)) (VP (VV 促使) (NP (VV 投资) (SFN 者)) (IP (VP (VP (VV 押注) (NP (NN 未来) (VV 升值))) (, ，) (VP (VV 加剧) (NP (NN 资本) (VV 流入)))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'PRD': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'PRD': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['但', '促使', 'mark']
+['PRON', 'VERB', 'nsubj']	['这', '促使', 'nsubj']
+['VERB', 'ROOT', 'root']	['促使', 'NONE', 'root']
+['VERB', 'PART', 'compound']	['投资', '者', 'compound']
+['PART', 'VERB', 'nsubj']	['者', '加剧', 'nsubj']
+['VERB', 'VERB', 'advcl']	['押注', '加剧', 'advcl']
+['NOUN', 'VERB', 'obl']	['未来', '升值', 'obl']
+['VERB', 'VERB', 'ccomp']	['升值', '押注', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '押注', 'punct']
+['VERB', 'VERB', 'ccomp']	['加剧', '促使', 'ccomp']
+['NOUN', 'VERB', 'nsubj']	['资本', '流入', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['流入', '加剧', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '促使', 'punct']
+----------------------------------------------------------------------
+4 月以来，人民币升值的速度大大减缓，这是为了阻止投机者。
+
+(ROOT (IP (IP (LCP (NP (QP (CD 4)) (NP (NNB 月))) (IN 以来)) (, ，) (NP (CP (CP (IP (NP (NN 人民) (SFN 币)) (VP (VP (VV 升值)))) (DEC 的))) (NP (NN 速度))) (VP (ADVP (RB 大大)) (VP (VV 减缓)))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (PP (IN 为了) (IP (VP (VV 阻止) (NP (VV 投机) (SFN 者))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP18909': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP83821': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['NUM', 'NOUN', 'nummod']	['4', '月', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['月', '减缓', 'nmod:tmod']
+['ADP', 'NOUN', 'case']	['以来', '月', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '月', 'punct']
+['NOUN', 'PART', 'compound']	['人民', '币', 'compound']
+['PART', 'VERB', 'nsubj']	['币', '升值', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['升值', '速度', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '升值', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['速度', '减缓', 'nsubj']
+['ADV', 'VERB', 'advmod']	['大大', '减缓', 'advmod']
+['VERB', 'ROOT', 'root']	['减缓', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['PRON', 'VERB', 'nsubj']	['这', '是', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['是', '减缓', 'parataxis']
+['ADP', 'VERB', 'xcomp']	['为了', '是', 'xcomp']
+['VERB', 'ADP', 'xcomp']	['阻止', '为了', 'xcomp']
+['VERB', 'PART', 'compound']	['投机', '者', 'compound']
+['PART', 'VERB', 'obj']	['者', '阻止', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '减缓', 'punct']
+----------------------------------------------------------------------
+一些经济学家认为，热钱所造成的问题被夸大了。
+
+(ROOT (IP (NP (QP (JJ 一些)) (NP (NN 经济) (SFN 学) (SFN 家))) (VP (VV 认为) (, ，) (IP (NP (CP (CP (IP (NP (NN 热钱)) (VP (RB 所) (VP (VV 造成)))) (DEC 的))) (NP (NN 问题))) (VP (BB 被) (VP (VV 夸大) (UH 了))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['ADJ', 'PART', 'amod']	['一些', '家', 'amod']
+['NOUN', 'PART', 'compound']	['经济', '学', 'compound']
+['PART', 'PART', 'compound']	['学', '家', 'compound']
+['PART', 'VERB', 'nsubj']	['家', '为', 'nsubj']
+['VERB', 'ROOT', 'root']	['为', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '夸大', 'punct']
+['NOUN', 'VERB', 'nsubj']	['热钱', '造成', 'nsubj']
+['ADV', 'VERB', 'mark']	['所', '造成', 'mark']
+['VERB', 'NOUN', 'acl:relcl']	['造成', '问题', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '造成', 'mark:rel']
+['NOUN', 'VERB', 'nsubj:pass']	['问题', '夸大', 'nsubj:pass']
+['AUX', 'VERB', 'aux:pass']	['被', '夸大', 'aux:pass']
+['VERB', 'VERB', 'ccomp']	['夸大', '为', 'ccomp']
+['PART', 'VERB', 'discourse']	['了', '夸大', 'discourse']
+['PUNCT', 'VERB', 'punct']	['。', '为', 'punct']
+----------------------------------------------------------------------
+毕竟，人民银行迄今为止在对增加的储备进行灭菌方面取得了成功。
+
+(ROOT (IP (ADVP (IN 毕竟)) (, ，) (NP (NN 人民) (NN 银行)) (VP (IP (VP (PP (IN 迄) (NP (NN 今))) (VP (VC 为) (NP (NN 止))))) (PP (IN 在) (NP (IP (VP (PP (IN 对) (NP (CP (CP (IP (VP (VV 增加))) (DEC 的))) (NP (NN 储备)))) (VP (VV 进行) (NP (NN 灭菌))))) (NP (NN 方面)))) (VP (VV 取得) (AS 了) (NP (NN 成功)))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'IN': {}}, ',': {}, 'NP': {'NN': {}, 'NN66617': {}}, 'VP': {'IP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'IN': {}}, ',': {}, 'NP': {'NN': {}, 'NN': {}}, 'VP': {'IP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'IN': {}}}
+{'NP': {'NN': {}, 'NN': {}}}
+{'VP': {'IP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['毕竟', '止', 'case']
+['PUNCT', 'ADP', 'punct']	['，', '毕竟', 'punct']
+['NOUN', 'NOUN', 'nmod']	['人民', '银行', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['银行', '取得', 'nsubj']
+['ADP', 'NOUN', 'case']	['迄', '今', 'case']
+['NOUN', 'NOUN', 'nmod']	['今', '止', 'nmod']
+['AUX', 'NOUN', 'cop']	['为', '止', 'cop']
+['NOUN', 'VERB', 'advcl']	['止', '取得', 'advcl']
+['ADP', 'NOUN', 'case']	['在', '储备', 'case']
+['ADP', 'NOUN', 'case']	['对', '储备', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['增加', '储备', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '增加', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['储备', '进行', 'obl']
+['VERB', 'VERB', 'advcl']	['进行', '取得', 'advcl']
+['NOUN', 'NOUN', 'nmod']	['灭菌', '方面', 'nmod']
+['NOUN', 'VERB', 'obj']	['方面', '进行', 'obj']
+['VERB', 'ROOT', 'root']	['取得', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '取得', 'aux']
+['NOUN', 'VERB', 'obj']	['成功', '取得', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '取得', 'punct']
+----------------------------------------------------------------------
+5月份的年通货膨胀率为 7.7%，也开始下降，而上周柴油价格上涨的影响可能在未来几个月被食品价格下降所抵消。
+
+(ROOT (IP (IP (NP (DNP (NP (NP (QP (CD 5)) (NP (NNB 月))) (NP (NNB 份))) (DEC 的)) (ADJP (NNB 年)) (NP (NN 通货) (VV 膨胀) (SFN 率))) (VP (VP (VC 为) (QP (CD 7.7%))) (, ，) (VP (ADVP (RB 也)) (VP (VV 开始) (VP (VV 下降)))))) (, ，) (RB 而) (IP (NP (CP (IP (NP (ADJP (NN 上) (CLP (NN 周))) (NP (NN 柴油) (NN 价格))) (VP (VV 上涨))) (DEC 的)) (NP (NN 影响))) (VP (MD 可能) (VP (PP (IN 在) (NP (NP (NN 未来)) (QP (CD 几) (CLP (NNB 个))) (NP (NN 月)))) (VP (BB 被) (CP (IP (CP (IP (NP (NN 食品) (NN 价格)) (VP (VV 下降)))) (VP (RB 所) (VP (VV 抵消))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'RB': {}, 'IP79498': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'RB': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'RB': {}, 'IP36823': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'RB': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['NUM', 'NOUN', 'nummod']	['5', '月', 'nummod']
+['NOUN', 'NOUN', 'clf']	['月', '份', 'clf']
+['NOUN', 'PART', 'nmod']	['份', '率', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '份', 'mark:rel']
+['NOUN', 'PART', 'nmod']	['年', '率', 'nmod']
+['NOUN', 'PART', 'nmod']	['通货', '率', 'nmod']
+['VERB', 'PART', 'compound']	['膨胀', '率', 'compound']
+['PART', 'VERB', 'nsubj']	['率', '开始', 'nsubj']
+['AUX', 'NUM', 'cop']	['为', '7.7%', 'cop']
+['NUM', 'VERB', 'advcl']	['7.7%', '开始', 'advcl']
+['PUNCT', 'NUM', 'punct']	['，', '7.7%', 'punct']
+['ADV', 'VERB', 'mark']	['也', '开始', 'mark']
+['VERB', 'ROOT', 'root']	['开始', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['下降', '开始', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '抵消', 'punct']
+['ADV', 'VERB', 'mark']	['而', '抵消', 'mark']
+['NOUN', 'VERB', 'nmod:tmod']	['上', '上涨', 'nmod:tmod']
+['NOUN', 'NOUN', 'nmod']	['周', '价格', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['柴油', '价格', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['价格', '上涨', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['上涨', '影响', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '上涨', 'mark:rel']
+['NOUN', 'VERB', 'nsubj:pass']	['影响', '抵消', 'nsubj:pass']
+['AUX', 'VERB', 'aux']	['可能', '抵消', 'aux']
+['ADP', 'NOUN', 'case']	['在', '月', 'case']
+['NOUN', 'NOUN', 'nmod']	['未来', '月', 'nmod']
+['NUM', 'NOUN', 'nummod']	['几', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '月', 'clf']
+['NOUN', 'VERB', 'obl']	['月', '抵消', 'obl']
+['AUX', 'VERB', 'aux:pass']	['被', '抵消', 'aux:pass']
+['NOUN', 'NOUN', 'nmod']	['食品', '价格', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['价格', '下降', 'nsubj']
+['VERB', 'VERB', 'advcl']	['下降', '抵消', 'advcl']
+['ADV', 'VERB', 'mark']	['所', '抵消', 'mark']
+['VERB', 'VERB', 'parataxis']	['抵消', '开始', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '开始', 'punct']
+----------------------------------------------------------------------
+问题在于，如果不进行筛选，货币供应量的增长将会激增，而目前筛选的能力差不多到了极限。
+
+(ROOT (IP (NP (NN 问题)) (VP (VV 在于) (, ，) (IP (IP (IP (VP (ADVP (IN 如果)) (ADVP (RB 不)) (VP (VV 进行) (NP (NN 筛选))))) (, ，) (NP (DNP (NP (NN 货币) (VV 供应) (SFN 量)) (DEC 的)) (NP (NN 增长))) (VP (ADVP (RB 将)) (VP (MD 会) (VP (VV 激增))))) (, ，) (RB 而) (IP (NP (CP (CP (IP (VP (NP (NN 目前)) (VP (VV 筛选)))) (DEC 的))) (NP (NN 能力))) (VP (VP (VV 差) (ADVP (JJ 不多))) (VP (VV 到) (AS 了) (NP (NN 极限))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nsubj']	['问题', '在于', 'nsubj']
+['VERB', 'ROOT', 'root']	['在于', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '激增', 'punct']
+['ADP', 'VERB', 'case']	['如果', '进行', 'case']
+['ADV', 'VERB', 'advmod']	['不', '进行', 'advmod']
+['VERB', 'VERB', 'xcomp']	['进行', '激增', 'xcomp']
+['NOUN', 'VERB', 'obj']	['筛选', '进行', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '进行', 'punct']
+['NOUN', 'PART', 'nmod']	['货币', '量', 'nmod']
+['VERB', 'PART', 'compound']	['供应', '量', 'compound']
+['PART', 'NOUN', 'nmod']	['量', '增长', 'nmod']
+['PART', 'PART', 'case']	['的', '量', 'case']
+['NOUN', 'VERB', 'nsubj']	['增长', '激增', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '激增', 'advmod']
+['AUX', 'VERB', 'aux']	['会', '激增', 'aux']
+['VERB', 'VERB', 'ccomp']	['激增', '在于', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '差', 'punct']
+['ADV', 'VERB', 'mark']	['而', '差', 'mark']
+['NOUN', 'VERB', 'nmod:tmod']	['目前', '筛选', 'nmod:tmod']
+['VERB', 'NOUN', 'acl:relcl']	['筛选', '能力', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '筛选', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['能力', '差', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['差', '在于', 'ccomp']
+['ADJ', 'VERB', 'xcomp']	['不多', '差', 'xcomp']
+['VERB', 'VERB', 'mark']	['到', '差', 'mark']
+['AUX', 'VERB', 'aux']	['了', '差', 'aux']
+['NOUN', 'ADJ', 'obj']	['极限', '不多', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '在于', 'punct']
+----------------------------------------------------------------------
+由于清偿央行票据的成本越来越高，央行现在更多地依靠提高银行准备金要求（央行向银行支付的准备金利率仅为1.9%，而票据利率超过4%）来清偿流动性。
+
+(ROOT (IP (IP (PP (IN 由于) (IP (VP (VV 清偿) (IP (NP (DNP (NP (NP (NN 央行)) (NP (NN 票据))) (DEC 的)) (NP (NN 成本))) (VP (ADVP (RB 越来越)) (VP (JJ 高))))))) (, ，) (NP (NN 央行)) (VP (NP (NN 现在)) (DVP (VP (JJ 更多)) (DEV 地)) (VP (VV 依靠) (IP (VP (VV 提高) (NP (NP (NN 银行) (VV 准备) (SFN 金)) (NP (NN 要求))))))) (PRN (-LRB- （) (IP (NP (CP (CP (IP (NP (NN 央行)) (VP (PP (IN 向) (NP (NN 银行))) (VP (VV 支付)))) (DEC 的))) (NP (NN 准备) (VV 金利) (SFN 率))) (VP (ADVP (RB 仅)) (VP (VC 为) (QP (CD 1.9%))))) (, ，) (RB 而) (IP (NP (NN 票据) (NN 利率)) (VP (VV 超过) (QP (CD 4%)))) (-RRB- ）))) (VP (RB 来) (VP (VV 清偿) (NP (VV 流动) (SFN 性)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, 'PRN': {}}, 'VP': {'RB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, 'PRN': {}}, 'VP': {'RB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, 'PRN': {}}}
+{'VP': {'RB': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['由于', '清偿', 'case']
+['VERB', 'VERB', 'xcomp']	['清偿', '依靠', 'xcomp']
+['NOUN', 'NOUN', 'nmod']	['央行', '票据', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['票据', '成本', 'nmod']
+['PART', 'NOUN', 'case']	['的', '票据', 'case']
+['NOUN', 'ADJ', 'nsubj']	['成本', '高', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['越来越', '高', 'advmod']
+['ADJ', 'VERB', 'ccomp']	['高', '清偿', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '清偿', 'punct']
+['NOUN', 'VERB', 'nsubj']	['央行', '依靠', 'nsubj']
+['NOUN', 'VERB', 'nmod:tmod']	['现在', '依靠', 'nmod:tmod']
+['ADJ', 'VERB', 'advmod']	['更多', '依靠', 'advmod']
+['PART', 'ADJ', 'mark:adv']	['地', '更多', 'mark:adv']
+['VERB', 'ROOT', 'root']	['依靠', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['提高', '依靠', 'xcomp']
+['NOUN', 'PART', 'nmod']	['银行', '金', 'nmod']
+['VERB', 'PART', 'compound']	['准备', '金', 'compound']
+['PART', 'VERB', 'obj']	['金', '提高', 'obj']
+['NOUN', 'VERB', 'obj']	['要求', '依靠', 'obj']
+['PUNCT', 'NUM', 'punct']	['（', '1.9%', 'punct']
+['NOUN', 'VERB', 'nsubj']	['央行', '支付', 'nsubj']
+['ADP', 'NOUN', 'case']	['向', '银行', 'case']
+['NOUN', 'VERB', 'obl']	['银行', '支付', 'obl']
+['VERB', 'PART', 'acl:relcl']	['支付', '率', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '支付', 'mark:rel']
+['NOUN', 'PART', 'nmod']	['准备', '率', 'nmod']
+['VERB', 'PART', 'compound']	['金利', '率', 'compound']
+['PART', 'NUM', 'nsubj']	['率', '1.9%', 'nsubj']
+['ADV', 'NUM', 'advmod']	['仅', '1.9%', 'advmod']
+['AUX', 'NUM', 'cop']	['为', '1.9%', 'cop']
+['NUM', 'VERB', 'parataxis']	['1.9%', '依靠', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['，', '清偿', 'punct']
+['ADV', 'VERB', 'mark']	['而', '清偿', 'mark']
+['NOUN', 'NOUN', 'nmod']	['票据', '利率', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['利率', '超过', 'nsubj']
+['VERB', 'VERB', 'advcl']	['超过', '清偿', 'advcl']
+['NUM', 'VERB', 'obj']	['4%', '超过', 'obj']
+['PUNCT', 'VERB', 'punct']	['）', '超过', 'punct']
+['ADV', 'VERB', 'mark']	['来', '清偿', 'mark']
+['VERB', 'VERB', 'parataxis']	['清偿', '依靠', 'parataxis']
+['VERB', 'PART', 'compound']	['流动', '性', 'compound']
+['PART', 'VERB', 'obj']	['性', '清偿', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '依靠', 'punct']
+----------------------------------------------------------------------
+2007年1月以来，最低准备金率已经提高了16次，从9%提高到17.5%。
+
+(ROOT (IP (LCP (NP (CD 2007) (NNB 年) (CD 1) (NNB 月)) (IN 以来)) (, ，) (NP (ADJP (JJ 最低)) (NP (VV 准备) (SFN 金率))) (VP (VP (ADVP (RB 已经)) (VP (VV 提高) (AS 了) (QP (CD 16) (CLP (NNB 次))))) (, ，) (VP (PP (IN 从) (QP (CD 9%))) (VP (VRD (VV 提高) (VV 到)) (QP (CD 17.5%))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP75076': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'ADJP': {}, 'NP': {}}}
 {'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['NUM', 'NOUN', 'nummod']	['2007', '年', 'nummod']
+['NOUN', 'NOUN', 'clf']	['年', '月', 'clf']
+['NUM', 'NOUN', 'nummod']	['1', '月', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['月', '提高', 'nmod:tmod']
+['ADP', 'NOUN', 'case']	['以来', '月', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '月', 'punct']
+['ADJ', 'PART', 'amod']	['最低', '金率', 'amod']
+['VERB', 'PART', 'compound']	['准备', '金率', 'compound']
+['PART', 'VERB', 'nsubj']	['金率', '提高', 'nsubj']
+['ADV', 'VERB', 'advmod']	['已经', '提高', 'advmod']
+['VERB', 'VERB', 'advcl']	['提高', '提高', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '提高', 'aux']
+['NUM', 'NOUN', 'nummod']	['16', '次', 'nummod']
+['NOUN', 'VERB', 'obj']	['次', '提高', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '提高', 'punct']
+['ADP', 'NUM', 'case']	['从', '9%', 'case']
+['NUM', 'VERB', 'obl']	['9%', '提高', 'obl']
+['VERB', 'ROOT', 'root']	['提高', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['到', '提高', 'mark']
+['NUM', 'VERB', 'obj']	['17.5%', '提高', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '提高', 'punct']
+----------------------------------------------------------------------
+但是，如果不影响银行利润，它很难继续上涨。
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (IP (VP (ADVP (IN 如果)) (ADVP (RB 不)) (VP (VV 影响) (NP (NN 银行) (NN 利润))))) (, ，) (NP (PRP 它)) (VP (ADVP (RB 很难)) (VP (VV 继续) (VP (VV 上涨)))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',19272': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'VP': {}}, ',53290': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['但是', '继续', 'mark']
+['PUNCT', 'ADV', 'punct']	['，', '但是', 'punct']
+['ADP', 'VERB', 'case']	['如果', '影响', 'case']
+['ADV', 'VERB', 'advmod']	['不', '影响', 'advmod']
+['VERB', 'VERB', 'xcomp']	['影响', '继续', 'xcomp']
+['NOUN', 'NOUN', 'nmod']	['银行', '利润', 'nmod']
+['NOUN', 'VERB', 'obj']	['利润', '影响', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '影响', 'punct']
+['PRON', 'VERB', 'nsubj']	['它', '继续', 'nsubj']
+['ADV', 'VERB', 'advmod']	['很难', '继续', 'advmod']
+['VERB', 'ROOT', 'root']	['继续', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['上涨', '继续', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '继续', 'punct']
+----------------------------------------------------------------------
+因此，为了遏制未来的通货膨胀，中国需要遏制资本涌入。
+
+(ROOT (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (PP (IN 为了) (IP (VP (VV 遏制) (NP (DNP (NP (NN 未来)) (DEC 的)) (NP (NN 通货) (VV 膨胀)))))) (, ，) (NP (NNP 中国)) (VP (MD 需要) (VP (VV 遏制) (NP (NN 资本) (VV 涌入)))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'ADVP56568': {}, ',': {}, 'PP': {}, ',90668': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'IN': {}}, 'ADVP4551': {'PRD': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, ',11860': {}, 'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'IN': {}}, 'ADVP': {'PRD': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'IN': {}}}
+{'ADVP': {'PRD': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'PRON', 'case']	['因', '此', 'case']
+['PRON', 'VERB', 'obl']	['此', '遏制', 'obl']
+['PUNCT', 'PRON', 'punct']	['，', '此', 'punct']
+['ADP', 'VERB', 'case']	['为了', '遏制', 'case']
+['VERB', 'VERB', 'xcomp']	['遏制', '遏制', 'xcomp']
+['NOUN', 'VERB', 'nmod']	['未来', '膨胀', 'nmod']
+['PART', 'NOUN', 'case']	['的', '未来', 'case']
+['NOUN', 'VERB', 'nsubj']	['通货', '膨胀', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['膨胀', '遏制', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '遏制', 'punct']
+['PROPN', 'VERB', 'nsubj']	['中国', '遏制', 'nsubj']
+['AUX', 'VERB', 'aux']	['需要', '遏制', 'aux']
+['VERB', 'ROOT', 'root']	['遏制', 'NONE', 'root']
+['NOUN', 'VERB', 'nsubj']	['资本', '涌入', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['涌入', '遏制', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '遏制', 'punct']
+----------------------------------------------------------------------
+一种解决方案是大幅一次性升值人民币，这样投资者就不再认为人民币是一种单向投资了。
+
+(ROOT (IP (IP (NP (QP (CD 一) (CLP (NNB 种))) (NP (NN 解决) (NN 方案))) (VP (VC 是) (IP (VP (QP (ADVP (JJ 大幅)) (QP (CD 一) (CLP (NNB 次)))) (ADVP (NN 性)) (VP (VV 升值) (NP (NN 人民) (SFN 币))))))) (, ，) (IP (ADVP (RB 这样)) (NP (VV 投资) (SFN 者)) (VP (ADVP (RB 就)) (ADVP (RB 不)) (ADVP (RB 再)) (VP (VV 认为) (IP (NP (NN 人民) (SFN 币)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (ADJP (RB 单向)) (NP (VV 投资))))))) (UH 了)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP81670': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP60720': {'ADVP': {}, 'NP': {}, 'VP': {}, 'UH': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'UH': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'UH': {}}}
+Dependency Features:
+['NUM', 'NOUN', 'nummod']	['一', '种', 'nummod']
+['NOUN', 'NOUN', 'clf']	['种', '方案', 'clf']
+['NOUN', 'NOUN', 'nmod']	['解决', '方案', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['方案', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['ADJ', 'NOUN', 'amod']	['大幅', '性', 'amod']
+['NUM', 'NOUN', 'nummod']	['一', '次', 'nummod']
+['NOUN', 'NOUN', 'clf']	['次', '性', 'clf']
+['NOUN', 'VERB', 'nsubj']	['性', '升值', 'nsubj']
+['VERB', 'VERB', 'xcomp']	['升值', '是', 'xcomp']
+['NOUN', 'PART', 'compound']	['人民', '币', 'compound']
+['PART', 'VERB', 'obj']	['币', '升值', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '为', 'punct']
+['ADV', 'VERB', 'advmod']	['这样', '为', 'advmod']
+['VERB', 'PART', 'compound']	['投资', '者', 'compound']
+['PART', 'VERB', 'nsubj']	['者', '为', 'nsubj']
+['ADV', 'VERB', 'mark']	['就', '为', 'mark']
+['ADV', 'VERB', 'advmod']	['不', '为', 'advmod']
+['ADV', 'VERB', 'advmod']	['再', '为', 'advmod']
+['VERB', 'VERB', 'parataxis']	['为', '是', 'parataxis']
+['NOUN', 'PART', 'compound']	['人民', '币', 'compound']
+['PART', 'VERB', 'nsubj']	['币', '投资', 'nsubj']
+['AUX', 'VERB', 'cop']	['是', '投资', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '种', 'nummod']
+['NOUN', 'VERB', 'obl']	['种', '投资', 'obl']
+['ADV', 'VERB', 'advmod']	['单向', '投资', 'advmod']
+['VERB', 'VERB', 'ccomp']	['投资', '为', 'ccomp']
+['PART', 'VERB', 'discourse']	['了', '投资', 'discourse']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+这反过来又为人民银行提供了上调利率的空间。
+
+(ROOT (IP (NP (PRD 这)) (VP (IP (VP (VRD (VV 反) (VV 过来)))) (ADVP (RB 又)) (PP (IN 为) (NP (NN 人民) (NN 银行))) (VP (VV 提供) (AS 了) (NP (CP (IP (VP (VP (NN 上调) (NP (NN 利率))))) (DEC 的)) (NP (NN 空间))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'IP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'IP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'IP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['这', '提供', 'nsubj']
+['VERB', 'VERB', 'advcl']	['反', '提供', 'advcl']
+['VERB', 'VERB', 'mark']	['过来', '反', 'mark']
+['ADV', 'VERB', 'mark']	['又', '提供', 'mark']
+['ADP', 'NOUN', 'case']	['为', '银行', 'case']
+['NOUN', 'NOUN', 'nmod']	['人民', '银行', 'nmod']
+['NOUN', 'VERB', 'obl']	['银行', '提供', 'obl']
+['VERB', 'ROOT', 'root']	['提供', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '提供', 'aux']
+['NOUN', 'NOUN', 'nmod']	['上调', '空间', 'nmod']
+['NOUN', 'NOUN', 'conj']	['利率', '上调', 'conj']
+['PART', 'NOUN', 'case']	['的', '上调', 'case']
+['NOUN', 'VERB', 'obj']	['空间', '提供', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '提供', 'punct']
+----------------------------------------------------------------------
+问题在于，要改变投资者的预期，人民币可能需要上涨大约 20%，这对中国领导人来说是不可接受的，尤其是当全球需求放缓，一些出口商已经陷入困境。
+
+(ROOT (IP (NP (NN 问题)) (VP (VV 在) (PP (VV 于) (, ，) (IP (IP (IP (VP (MD 要) (VP (VV 改变) (NP (DNP (NP (VV 投资) (SFN 者)) (DEC 的)) (NP (NN 预期)))))) (, ，) (NP (NN 人民) (SFN 币)) (VP (MD 可能) (VP (MD 需要) (VP (VV 上涨) (QP (ADVP (RB 大约)) (QP (CD 20%))))))) (, ，) (IP (NP (PRD 这)) (VP (IP (VP (PP (IN 对) (NP (NP (NNP 中国)) (NP (VV 领导) (SFN 人)))) (VP (RB 来) (VP (VV 说))))) (VP (VC 是) (NP (CP (CP (IP (VP (MD 不可) (VP (VV 接受)))) (UH 的))))))) (, ，) (IP (ADVP (RB 尤其)) (ADVP (VC 是)) (PP (IN 当) (IP (NP (NN 全球) (NN 需求)) (VP (VV 放缓)))) (, ，) (NP (QP (JJ 一些)) (NP (VV 出口) (SFN 商))) (VP (ADVP (RB 已经)) (VP (VV 陷入) (NP (NN 困境)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VV': {}, 'PP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nsubj']	['问题', '在', 'nsubj']
+['VERB', 'ROOT', 'root']	['在', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['于', '在', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '上涨', 'punct']
+['AUX', 'VERB', 'aux']	['要', '改变', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['改变', '预期', 'acl:relcl']
+['VERB', 'PART', 'compound']	['投资', '者', 'compound']
+['PART', 'VERB', 'obj']	['者', '改变', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '改变', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['预期', '上涨', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '预期', 'punct']
+['NOUN', 'PART', 'compound']	['人民', '币', 'compound']
+['PART', 'VERB', 'nsubj']	['币', '上涨', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '上涨', 'aux']
+['AUX', 'VERB', 'aux']	['需要', '上涨', 'aux']
+['VERB', 'VERB', 'parataxis']	['上涨', '在', 'parataxis']
+['ADV', 'NUM', 'advmod']	['大约', '20%', 'advmod']
+['NUM', 'VERB', 'obj']	['20%', '上涨', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['PRON', 'VERB', 'nsubj']	['这', '是', 'nsubj']
+['ADP', 'PART', 'case']	['对', '人', 'case']
+['PROPN', 'PART', 'nmod']	['中国', '人', 'nmod']
+['VERB', 'PART', 'compound']	['领导', '人', 'compound']
+['PART', 'VERB', 'obl']	['人', '是', 'obl']
+['ADV', 'VERB', 'mark']	['来', '说', 'mark']
+['VERB', 'VERB', 'advcl']	['说', '是', 'advcl']
+['VERB', 'VERB', 'parataxis']	['是', '在', 'parataxis']
+['AUX', 'VERB', 'aux']	['可', '接受', 'aux']
+['VERB', 'VERB', 'xcomp']	['接受', '是', 'xcomp']
+['PART', 'VERB', 'discourse']	['的', '是', 'discourse']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['ADV', 'VERB', 'advmod']	['尤其', '是', 'advmod']
+['VERB', 'VERB', 'parataxis']	['是', '在', 'parataxis']
+['ADP', 'NOUN', 'case']	['当', '需求', 'case']
+['NOUN', 'NOUN', 'nmod']	['全球', '需求', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['需求', '放缓', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['放缓', '是', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '陷入', 'punct']
+['ADJ', 'PART', 'amod']	['一些', '商', 'amod']
+['VERB', 'PART', 'compound']	['出口', '商', 'compound']
+['PART', 'VERB', 'nsubj']	['商', '陷入', 'nsubj']
+['ADV', 'VERB', 'advmod']	['已经', '陷入', 'advmod']
+['VERB', 'VERB', 'parataxis']	['陷入', '在', 'parataxis']
+['NOUN', 'VERB', 'obj']	['困境', '陷入', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '在', 'punct']
+----------------------------------------------------------------------
+这意味着货币政策将保持过度宽松的状态。
+
+(ROOT (IP (NP (PRD 这)) (VP (VV 意味) (AS 着) (IP (NP (NN 货币) (NN 政策)) (VP (ADVP (RB 将)) (VP (VV 保持) (NP (CP (IP (VP (ADVP (JJ 过度)) (VP (JJ 宽松)))) (DEC 的)) (NP (NN 状态))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VV': {}, 'AS': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VV': {}, 'AS': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'IP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['这', '意味', 'nsubj']
+['VERB', 'ROOT', 'root']	['意味', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['着', '意味', 'aux']
+['NOUN', 'NOUN', 'nmod']	['货币', '政策', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['政策', '保持', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '保持', 'advmod']
+['VERB', 'VERB', 'ccomp']	['保持', '意味', 'ccomp']
+['ADJ', 'ADJ', 'advcl']	['过度', '宽松', 'advcl']
+['ADJ', 'NOUN', 'amod']	['宽松', '状态', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '宽松', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['状态', '保持', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '意味', 'punct']
+----------------------------------------------------------------------
+随着热钱的涌入持续时间越长，利率依然过低，潜在通胀的风险就越大。
+
+(ROOT (IP (PP (VV 随) (PP (AS 着) (IP (IP (NP (CP (IP (NP (DNP (NP (NN 热钱)) (DEC 的)) (NP (NN 涌入))) (VP (NN 持续)))) (NP (NN 时间))) (VP (JJ 越长))) (, ，) (IP (NP (NN 利率)) (VP (ADVP (RB 依然)) (VP (JJ 过低)))) (, ，) (IP (NP (CP (IP (VP (VV 潜在) (NP (NN 通胀)))) (DEC 的)) (NP (NN 风险))) (VP (ADVP (RB 就)) (VP (JJ 越大))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, '.': {}}}
+{'IP': {'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'PP': {}}}
+Dependency Features:
+['VERB', 'ADJ', 'advcl']	['随', '过低', 'advcl']
+['AUX', 'VERB', 'aux']	['着', '随', 'aux']
+['NOUN', 'NOUN', 'nmod']	['热钱', '涌入', 'nmod']
+['PART', 'NOUN', 'case']	['的', '热钱', 'case']
+['NOUN', 'NOUN', 'nmod']	['涌入', '时间', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['持续', '时间', 'nmod']
+['NOUN', 'ADJ', 'nsubj']	['时间', '越长', 'nsubj']
+['ADJ', 'VERB', 'ccomp']	['越长', '随', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '随', 'punct']
+['NOUN', 'ADJ', 'nsubj']	['利率', '过低', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['依然', '过低', 'advmod']
+['ADJ', 'ADJ', 'advcl']	['过低', '越大', 'advcl']
+['PUNCT', 'ADJ', 'punct']	['，', '过低', 'punct']
+['VERB', 'NOUN', 'acl:relcl']	['潜在', '风险', 'acl:relcl']
+['NOUN', 'VERB', 'obj']	['通胀', '潜在', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '潜在', 'mark:rel']
+['NOUN', 'ADJ', 'nsubj']	['风险', '越大', 'nsubj']
+['ADV', 'ADJ', 'mark']	['就', '越大', 'mark']
+['ADJ', 'ROOT', 'root']	['越大', 'NONE', 'root']
+['PUNCT', 'ADJ', 'punct']	['。', '越大', 'punct']
 ----------------------------------------------------------------------

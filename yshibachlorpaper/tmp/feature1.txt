@@ -1,268 +1,1291 @@
-美国国务卿希拉里·克林顿今天警告朝鲜，除非朝鲜立即采取措施放弃其核武器计划，否则将失去重要的经济援助。
+你最喜欢与谁一起玩儿呢?
 
-(ROOT (IP (NP (NP (NP (NNP 美国)) (NP (NN 国务) (SFN 卿))) (NP (NNP 希拉里) (/ ·) (NNP 克林顿))) (VP (NP (RB 今天)) (VP (VV 警告) (NP (NNP 朝鲜)) (, ，) (IP (CP (ADVP (IN 除非)) (IP (NP (NNP 朝鲜)) (VP (ADVP (RB 立即)) (VP (VP (VV 采取) (NP (NN 措施))) (VP (VV 放弃) (NP (NP (PRP 其)) (NP (NN 核) (NN 武器) (NN 计划)))))))) (, ，) (ADVP (VV 否则)) (VP (ADVP (RB 将)) (VP (VV 失去) (NP (CP (CP (IP (VP (JJ 重要))) (DEC 的))) (NP (NN 经济) (NN 援助)))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'NP': {}, 'VP': {}}}
+(ROOT (CP (IP (NP (PRP 你)) (VP (ADVP (RB 最)) (VP (VV 喜欢) (IP (VP (PP (IN 与) (NP (WP 谁))) (ADVP (NN 一起)) (VP (VV 玩儿))))))) (UH 呢) (. ?)))
+layer 2:
+{'CP': {'IP': {}, 'UH': {}, '.': {}}}
+{'CP': {'IP': {}, 'UH': {}, '.': {}}}
+layer 3:
+{'CP': {'IP': {'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'CP': {'IP': {'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['你', '喜欢', 'nsubj']
+['ADV', 'VERB', 'advmod']	['最', '喜欢', 'advmod']
+['VERB', 'ROOT', 'root']	['喜欢', 'NONE', 'root']
+['ADP', 'PRON', 'case']	['与', '谁', 'case']
+['PRON', 'VERB', 'obl']	['谁', '玩儿', 'obl']
+['NOUN', 'VERB', 'obl']	['一起', '玩儿', 'obl']
+['VERB', 'VERB', 'xcomp']	['玩儿', '喜欢', 'xcomp']
+['PART', 'VERB', 'discourse']	['呢', '喜欢', 'discourse']
+['PUNCT', 'VERB', 'punct']	['?', '喜欢', 'punct']
 ----------------------------------------------------------------------
-据报道，朝鲜正在准备测试一枚 Taepodong-2 弹道导弹，据信该导弹射程足以覆盖美国领土，这一举动可能会加剧两国之间的紧张关系。
+弗朗西斯·埃莱兹·霍夫曼，伊利诺伊州
 
-(ROOT (IP (IP (PP (IN 据) (NP (NN 报道))) (, ，) (NP (NNP 朝鲜)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 准备) (IP (VP (VV 测试) (NP (QP (CD 一) (CLP (NNB 枚))) (NP (FW Taepodong-2)) (NP (NN 弹道) (NN 导弹)))))))) (, ，) (IP (PP (IN 据) (NP (NNP 信))) (NP (DP (DT 该)) (NP (NN 导弹) (NN 射程))) (VP (VV 足) (VP (RB 以) (VP (VV 覆盖) (NP (NP (NNP 美国)) (NP (NN 领土))))))) (, ，) (IP (NP (DP (DT 这) (QP (CD 一))) (NP (NN 举动))) (VP (MD 可能) (VP (MD 会) (VP (VV 加剧) (NP (DNP (LCP (NP (QP (CD 两)) (NP (NN 国))) (IN 之间)) (DEC 的)) (ADJP (JJ 紧张)) (NP (NN 关系))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, 'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'PP': {}, 'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
+(ROOT (NP (NP (NNP 弗朗西斯) (/ ·) (NNP 埃莱兹) (/ ·) (NNP 霍夫曼)) (, ，) (NP (NNP 伊利诺伊) (SFN 州))))
+layer 2:
+{'NP': {'NP': {}, ',': {}, 'NP85472': {}}}
+{'NP': {'NP': {}, ',': {}, 'NP': {}}}
+layer 3:
+{'NP': {'NP': {'NNP': {}, '/': {}, 'NNP52828': {}, '/19106': {}, 'NNP78615': {}}, ',': {}, 'NP68412': {'NNP': {}, 'SFN': {}}}}
+{'NP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}, '/': {}, 'NNP': {}}, ',': {}, 'NP': {'NNP': {}, 'SFN': {}}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}, '/': {}, 'NNP': {}}}
+{'NP': {'NNP': {}, 'SFN': {}}}
+Dependency Features:
+['PROPN', 'ROOT', 'root']	['弗朗西斯', 'NONE', 'root']
+['PUNCT', 'PROPN', 'punct']	['·', '埃莱兹', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['埃莱兹', '弗朗西斯', 'flat:name']
+['PUNCT', 'PROPN', 'punct']	['·', '霍夫曼', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['霍夫曼', '弗朗西斯', 'flat:name']
+['PUNCT', 'PART', 'punct']	['，', '州', 'punct']
+['PROPN', 'PART', 'compound']	['伊利诺伊', '州', 'compound']
+['PART', 'PROPN', 'appos']	['州', '弗朗西斯', 'appos']
 ----------------------------------------------------------------------
-在东京作为国务卿首次出访时，克林顿警告朝鲜政权不要执行所威胁的发射，并表示这将损害朝鲜改善与美国和世界关系的前景。
+安德鲁·阿格雷是我在 90 年代的对手，我觉得随着年龄的增长，我们渐渐超越了这项运动。
 
-(ROOT (VP (PP (VV 在) (NP (NNP 东京))) (PP (VV 作) (PP (VC 为) (LCP (IP (NP (NN 国务) (SFN 卿)) (VP (ADVP (CD 首次)) (VP (VV 出访)))) (IN 时)))) (, ，) (NP (NNP 克林顿)) (VP (VP (VV 警告) (NP (NP (NNP 朝鲜)) (NP (NN 政权))) (IP (VP (MD 不要) (VP (VV 执行) (NP (DNP (NP (RB 所) (NP (VV 威胁))) (DEC 的)) (NP (NN 发射))))))) (, ，) (RB 并) (VP (VV 表示) (IP (NP (PRD 这)) (VP (ADVP (RB 将)) (VP (VV 损害) (NP (NP (NNP 朝鲜)) (CP (CP (IP (VP (VV 改善) (PP (IN 与) (NP (NP (NP (NNP 美国)) (CC 和) (NP (NN 世界))) (NP (NN 关系)))))) (DEC 的))) (NP (NN 前景)))))))) (. 。)))
-{'VP': {'PP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'VP': {'PP': {'VV': {}, 'NP': {}}, 'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
-{'PP': {'VV': {}, 'NP': {}}}
-{'PP': {'VV': {}, 'PP': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在与日本外相中野武共同举行的新闻发布会上，她没有被提醒，就告诉记者，据传的试验将损害奥巴马政府改善与平壤关系的意愿。
-
-(ROOT (IP (PP (IN 在) (LCP (NP (CP (CP (IP (VP (PP (IN 与) (NP (NP (NP (NNP 日本)) (NP (NN 外相))) (NP (NNP 中) (NNP 野武)))) (ADVP (RB 共同)) (VP (VV 举行)))) (DEC 的))) (NP (NN 新闻) (NN 发布))) (NN 会上))) (, ，) (NP (PRP 她)) (VP (VP (VV 没有) (VP (BB 被) (VP (VV 提醒)))) (, ，) (VP (ADVP (RB 就)) (VP (VV 告诉) (NP (NN 记者)) (, ，) (IP (NP (CP (CP (IP (VP (VV 据传))) (DEC 的))) (NP (NN 试验))) (VP (ADVP (RB 将)) (VP (VV 损害) (NP (NP (NP (NNP 奥巴马)) (NP (NN 政府))) (CP (IP (VP (VV 改善) (NP (PP (IN 与) (NP (NNP 平壤))) (NP (NN 关系))))) (DEC 的)) (NP (NN 意愿))))))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-她说：“北韩所谈论的可能发射导弹的行为，将会大大阻碍我们的关系发展。”
-
-(ROOT (IP (NP (PRP 她)) (VP (VV 说) (: ：) (IP (`` “) (NP (CP (CP (IP (NP (NN 北) (NNP 韩)) (VP (RB 所) (VP (VV 谈论)))) (DEC 的))) (CP (CP (IP (VP (MD 可能) (VP (VV 发射) (NP (NN 导弹))))) (DEC 的))) (NP (NN 行为))) (, ，) (VP (ADVP (RB 将)) (VP (MD 会) (VP (ADVP (RB 大大)) (VP (VV 阻碍) (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NN 关系) (NN 发展))))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, ':': {}, 'IP': {}}}
-----------------------------------------------------------------------
-她补充说，如果朝鲜想要结束其孤立状态，还必须履行在布什政府时期所作的无核化承诺。
-
-(ROOT (IP (NP (PRP 她)) (VP (VP (VV 补充)) (VP (VV 说) (, ，) (IP (CP (ADVP (IN 如果)) (IP (NP (NNP 朝鲜)) (VP (VV 想要) (IP (VP (VV 结束) (NP (NP (PRP 其)) (NP (JJ 孤立) (NN 状态)))))))) (, ，) (VP (ADVP (RB 还)) (VP (MD 必须) (VP (VV 履行) (NP (CP (CP (IP (VP (PP (IN 在) (NP (NP (NP (NNP 布什)) (NP (NN 政府))) (NP (NN 时期)))) (VP (RB 所) (VP (VV 作))))) (DEC 的))) (IP (VP (VV 无) (NP (NN 核化)))) (NP (NN 承诺))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-克林顿说：“北朝鲜是否会在六方会谈中合作，停止挑衅性言论和行动，这个决定由他们自己做，我们非常密切地关注着这一点。”
-
-(ROOT (IP (NP (NNP 克林顿)) (VP (VV 说) (: ：) (IP (`` “) (IP (NP (NN 北) (NNP 朝鲜)) (VP (ADVP (VC 是否)) (VP (MD 会) (VP (VP (PP (IN 在) (LCP (NP (NP (QP (CD 六)) (NP (NN 方))) (NP (NN 会谈))) (IN 中))) (VP (VV 合作))) (, ，) (VP (VV 停止) (IP (VP (VV 挑衅) (NP (NP (NN 性)) (NP (NN 言论) (CC 和) (NN 行动)))))))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 决定))) (VP (PP (VV 由) (NP (PRP 他们) (PRD 自己))) (VP (VV 做)))) (, ，) (IP (NP (PRP 我们)) (VP (DVP (VP (ADVP (RB 非常)) (VP (JJ 密切))) (DEV 地)) (VP (VV 关注) (AS 着) (DP (PRD 这) (ADVP (JJ 一点)))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, ':': {}, 'IP': {}}}
-----------------------------------------------------------------------
-“如果朝鲜遵守其已经承诺的义务，并可核查地完全消除其核计划，那么，美国肯定会作出对等回应。
-
-(ROOT (IP (`` “) (CP (ADVP (IN 如果)) (IP (NP (NNP 朝鲜)) (VP (VP (VV 遵守) (NP (CP (CP (IP (NP (PRP 其)) (VP (ADVP (RB 已经)) (VP (VV 承诺)))) (DEC 的))) (NP (NN 义务)))) (, ，) (RB 并) (VP (MD 可) (VP (DVP (VP (VV 核查)) (DEV 地)) (ADVP (RB 完全)) (VP (VV 消除) (NP (ADJP (NN 其核)) (NP (NN 计划))))))))) (, ，) (ADVP (RB 那么)) (, ，) (NP (NNP 美国)) (VP (ADVP (VV 肯定)) (VP (MD 会) (VP (VV 作出) (NP (NP (VV 对) (NN 等)) (NP (NN 回应)))))) (. 。)))
-{'IP': {'``': {}, 'CP': {}, ',': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'``': {}, 'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-真正的还是取决于朝鲜人民。”
-
-(ROOT (IP (NP (CP (CP (IP (VP (JJ 真正))) (DEC 的)))) (VP (ADVP (RB 还是)) (VP (VV 取决) (PP (VV 于) (NP (NP (NNP 朝鲜)) (NP (NN 人民)))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'CP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'NP': {'CP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-然而，她拒绝对布什政府进行批评，尽管已经将朝鲜从恐怖主义赞助国名单中删除，但它在核问题上仍然没有取得进展。
-
-(ROOT (IP (IP (ADVP (RB 然而)) (, ，) (NP (PRP 她)) (VP (VV 拒绝) (IP (VP (PP (IN 对) (NP (NP (NNP 布什)) (NP (NN 政府)))) (VP (VV 进行) (NP (NN 批评))))))) (, ，) (IP (IP (VP (ADVP (IN 尽管)) (ADVP (RB 已经)) (VP (BB 将) (IP (NP (NNP 朝鲜)) (VP (PP (IN 从) (LCP (NP (NP (NN 恐怖) (NN 主义) (VV 赞助) (SFN 国)) (NP (NN 名单))) (IN 中))) (VP (VV 删除))))))) (, ，) (ADVP (RB 但)) (NP (PRP 它)) (VP (PP (IN 在) (LCP (NP (NN 核) (NN 问题)) (IN 上))) (ADVP (RB 仍然)) (VP (VV 没有) (VP (VV 取得) (NP (NN 进展)))))) (. 。)))
+(ROOT (IP (IP (NP (NNP 安德鲁) (/ ·) (NNP 阿格雷)) (VP (VC 是) (NP (NP (PRP 我)) (DNP (PP (IN 在) (NP (QP (CD 90)) (NP (NNB 年代)))) (DEC 的)) (NP (NN 对手))))) (, ，) (IP (NP (PRP 我)) (VP (VV 觉得) (IP (PP (VV 随) (PP (AS 着) (NP (DNP (NP (NN 年龄)) (DEC 的)) (NP (NN 增长))))) (, ，) (NP (PRP 我们)) (VP (ADVP (RB 渐渐)) (VP (VV 超越) (AS 了) (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 运动)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP96017': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP47441': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nsubj']	['安德鲁', '对手', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['·', '阿格雷', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['阿格雷', '安德鲁', 'flat:name']
+['AUX', 'NOUN', 'cop']	['是', '对手', 'cop']
+['PRON', 'NOUN', 'nmod']	['我', '对手', 'nmod']
+['ADP', 'NOUN', 'case']	['在', '年代', 'case']
+['NUM', 'NOUN', 'nummod']	['90', '年代', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['年代', '对手', 'nmod']
+['PART', 'NOUN', 'case']	['的', '对手', 'case']
+['NOUN', 'ROOT', 'root']	['对手', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['，', '对手', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '觉得', 'nsubj']
+['VERB', 'NOUN', 'parataxis']	['觉得', '对手', 'parataxis']
+['VERB', 'VERB', 'advcl']	['随', '超越', 'advcl']
+['AUX', 'VERB', 'aux']	['着', '随', 'aux']
+['NOUN', 'NOUN', 'nmod']	['年龄', '增长', 'nmod']
+['PART', 'NOUN', 'case']	['的', '年龄', 'case']
+['NOUN', 'VERB', 'obj']	['增长', '随', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '随', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '超越', 'nsubj']
+['ADV', 'VERB', 'advmod']	['渐渐', '超越', 'advmod']
+['VERB', 'VERB', 'ccomp']	['超越', '觉得', 'ccomp']
+['AUX', 'VERB', 'aux']	['了', '超越', 'aux']
+['DET', 'NOUN', 'det']	['这', '项', 'det']
+['NOUN', 'NOUN', 'clf']	['项', '运动', 'clf']
+['NOUN', 'VERB', 'obj']	['运动', '超越', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '超越', 'punct']
 ----------------------------------------------------------------------
-她说：“我不会去分析过去。事实是，在过去的八年里，朝鲜已经获得了制造核武器的能力。
+他可能是我职业生涯中踢过的最好的球员。
 
-(ROOT (IP (NP (PRP 她)) (VP (VV 说) (: ：) (IP (`` “) (NP (PRP 我)) (VP (MD 不会) (VP (RB 去) (VP (VV 分析) (NP (NN 过去))))))) (. 。)))
+(ROOT (IP (NP (PRP 他)) (VP (MD 可能) (VP (VC 是) (NP (NP (PRP 我)) (CP (CP (IP (VP (LCP (NP (NN 职业) (NN 生涯)) (IN 中)) (VP (VV 踢) (AS 过)))) (DEC 的))) (CP (CP (IP (VP (JJ 最好))) (DEC 的))) (NP (NN 球员))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, ':': {}, 'IP': {}}}
-----------------------------------------------------------------------
-“如果我们能够把时间倒回去，我们不会让这种事情发生。
-
-(ROOT (IP (`` “) (CP (ADVP (IN 如果)) (IP (NP (PRP 我们)) (VP (MD 能够) (VP (BB 把) (IP (NP (NN 时间)) (VP (VRD (VV 倒回) (VV 去)))))))) (, ，) (NP (PRP 我们)) (VP (MD 不会) (VP (VV 让) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 事情))) (IP (VP (VV 发生))))) (. 。)))
-{'IP': {'``': {}, 'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'``': {}, 'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
 {'NP': {'PRP': {}}}
 {'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'nsubj']	['他', '球员', 'nsubj']
+['AUX', 'NOUN', 'aux']	['可能', '球员', 'aux']
+['AUX', 'NOUN', 'cop']	['是', '球员', 'cop']
+['PRON', 'NOUN', 'nmod']	['我', '生涯', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['职业', '生涯', 'nmod']
+['NOUN', 'VERB', 'obl']	['生涯', '踢', 'obl']
+['ADP', 'NOUN', 'case']	['中', '生涯', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['踢', '球员', 'acl:relcl']
+['AUX', 'VERB', 'aux']	['过', '踢', 'aux']
+['PART', 'VERB', 'mark:rel']	['的', '踢', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['最好', '球员', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '最好', 'mark:rel']
+['NOUN', 'ROOT', 'root']	['球员', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['。', '球员', 'punct']
 ----------------------------------------------------------------------
-但我们现在的位置就是这里。”
+有很多球员都很强壮，但安德烈，当然，他是最独特的。
 
-(ROOT (IP (ADVP (RB 但)) (NP (NP (PRP 我们)) (DNP (NP (NN 现在)) (DEC 的)) (NP (NN 位置))) (VP (VC 就是) (NP (PRD 这里))) (. 。) ('' ”)))
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'ADVP': {'RB': {}}, 'NP': {'NP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}, "''": {}}}
-{'ADVP': {'RB': {}}}
+(ROOT (IP (IP (VP (VV 有) (IP (NP (QP (CD 很多)) (NP (NN 球员))) (VP (ADVP (RB 都)) (ADVP (RB 很)) (VP (JJ 强壮)))))) (, ，) (IP (ADVP (RB 但)) (NP (NNP 安德烈)) (, ，) (ADVP (RB 当然)) (, ，) (NP (PRP 他)) (VP (VC 是) (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 独特)))) (UH 的)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP26912': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP43252': {'ADVP': {}, 'NP': {}, ',': {}, 'ADVP46300': {}, ',2978': {}, 'NP37398': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['NUM', 'NOUN', 'nummod']	['很多', '球员', 'nummod']
+['NOUN', 'ADJ', 'nsubj']	['球员', '强壮', 'nsubj']
+['ADV', 'ADJ', 'mark']	['都', '强壮', 'mark']
+['ADV', 'ADJ', 'advmod']	['很', '强壮', 'advmod']
+['ADJ', 'VERB', 'ccomp']	['强壮', '有', 'ccomp']
+['PUNCT', 'ADJ', 'punct']	['，', '独特', 'punct']
+['ADV', 'ADJ', 'mark']	['但', '独特', 'mark']
+['PROPN', 'ADJ', 'nsubj']	['安德烈', '独特', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['，', '安德烈', 'punct']
+['ADV', 'ADJ', 'advmod']	['当然', '独特', 'advmod']
+['PUNCT', 'ADJ', 'punct']	['，', '独特', 'punct']
+['PRON', 'ADJ', 'nsubj']	['他', '独特', 'nsubj']
+['AUX', 'ADJ', 'cop']	['是', '独特', 'cop']
+['ADV', 'ADJ', 'advmod']	['最', '独特', 'advmod']
+['ADJ', 'VERB', 'parataxis']	['独特', '有', 'parataxis']
+['PART', 'ADJ', 'discourse']	['的', '独特', 'discourse']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+你曾有过一个时期，觉得自己已经够厉害了，不想再继续打比赛了吗？
+
+(ROOT (CP (IP (NP (PRP 你)) (VP (VP (ADVP (RB 曾)) (VP (VV 有过) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 时期))))) (, ，) (VP (VV 觉得) (IP (NP (PRD 自己)) (VP (ADVP (RB 已经)) (VP (VV 够) (VP (JJ 厉害) (UH 了)))))) (, ，) (VP (VP (MD 不想) (IP (VP (ADVP (RB 再)) (VP (VV 继续) (VP (VV 打) (NP (NN 比赛))))))) (UH 了)))) (UH 吗) (. ？)))
+layer 2:
+{'CP': {'IP': {}, 'UH': {}, '.': {}}}
+{'CP': {'IP': {}, 'UH': {}, '.': {}}}
+layer 3:
+{'CP': {'IP': {'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'CP': {'IP': {'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['你', '继续', 'nsubj']
+['ADV', 'VERB', 'advmod']	['曾', '有过', 'advmod']
+['VERB', 'VERB', 'advcl']	['有过', '继续', 'advcl']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '时期', 'clf']
+['NOUN', 'VERB', 'obj']	['时期', '有过', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '有过', 'punct']
+['VERB', 'VERB', 'advcl']	['觉得', '继续', 'advcl']
+['PRON', 'VERB', 'nsubj']	['自己', '够', 'nsubj']
+['ADV', 'VERB', 'advmod']	['已经', '够', 'advmod']
+['VERB', 'VERB', 'ccomp']	['够', '觉得', 'ccomp']
+['ADJ', 'VERB', 'xcomp']	['厉害', '够', 'xcomp']
+['PART', 'VERB', 'discourse']	['了', '觉得', 'discourse']
+['PUNCT', 'VERB', 'punct']	['，', '觉得', 'punct']
+['AUX', 'VERB', 'aux']	['想', '继续', 'aux']
+['ADV', 'VERB', 'advmod']	['再', '继续', 'advmod']
+['VERB', 'ROOT', 'root']	['继续', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['打', '继续', 'xcomp']
+['NOUN', 'VERB', 'obj']	['比赛', '打', 'obj']
+['PART', 'VERB', 'discourse']	['了', '继续', 'discourse']
+['PART', 'VERB', 'discourse']	['吗', '继续', 'discourse']
+['PUNCT', 'VERB', 'punct']	['？', '继续', 'punct']
+----------------------------------------------------------------------
+尼科·尼特林 RUSTENBURG，南非
+
+(ROOT (NP (NP (NNP 尼科) (/ ·) (NNP 尼特林) (FW RUST) (FW ENBURG)) (, ，) (NP (NNP 南非))))
+layer 2:
+{'NP': {'NP': {}, ',': {}, 'NP14847': {}}}
+{'NP': {'NP': {}, ',': {}, 'NP': {}}}
+layer 3:
+{'NP': {'NP': {'NNP': {}, '/': {}, 'NNP18123': {}, 'FW': {}, 'FW87011': {}}, ',': {}, 'NP23572': {'NNP': {}}}}
+{'NP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}, 'FW': {}, 'FW': {}}, ',': {}, 'NP': {'NNP': {}}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}, 'FW': {}, 'FW': {}}}
+{'NP': {'NNP': {}}}
+Dependency Features:
+['PROPN', 'ROOT', 'root']	['尼科', 'NONE', 'root']
+['PUNCT', 'PROPN', 'punct']	['·', '尼特林', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['尼特林', '尼科', 'flat:name']
+['X', 'PROPN', 'appos']	['RUST', '尼科', 'appos']
+['X', 'X', 'flat:foreign']	['ENBURG', 'RUST', 'flat:foreign']
+['PUNCT', 'PROPN', 'punct']	['，', '南非', 'punct']
+['PROPN', 'X', 'appos']	['南非', 'RUST', 'appos']
+----------------------------------------------------------------------
+当我获得了那次最后一届美国公开赛冠军后，我花了接下来的六个月时间来想办法，寻找下一个目标。
+
+(ROOT (IP (PP (IN 当) (LCP (IP (NP (PRP 我)) (VP (VV 获得) (AS 了) (NP (DP (DT 那) (CLP (NNB 次))) (QP (ADJP (NN 最后)) (QP (CD 一) (CLP (NNB 届)))) (NP (NNP 美国) (JJ 公开) (SFN 赛)) (NP (NN 冠军))))) (IN 后))) (, ，) (NP (PRP 我)) (VP (VP (VV 花) (AS 了) (NP (CP (CP (IP (VP (VRD (VV 接) (VV 下来)))) (DEC 的))) (NP (QP (CD 六) (CLP (NNB 个))) (NP (NN 月))) (NP (NN 时间)))) (VP (RB 来) (VP (VP (VV 想) (NP (NN 办法))) (, ，) (VP (VV 寻找) (NP (DP (DT 下) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 目标))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP88990': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['当', '获得', 'case']
+['PRON', 'VERB', 'nsubj']	['我', '获得', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['获得', '寻找', 'ccomp']
+['AUX', 'VERB', 'aux']	['了', '获得', 'aux']
+['DET', 'NOUN', 'det']	['那', '次', 'det']
+['NOUN', 'NOUN', 'clf']	['次', '冠军', 'clf']
+['NOUN', 'NOUN', 'nmod']	['最后', '届', 'nmod']
+['NUM', 'NOUN', 'nummod']	['一', '届', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['届', '冠军', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['美国', '冠军', 'nmod']
+['ADJ', 'PART', 'compound']	['公开', '赛', 'compound']
+['PART', 'NOUN', 'nmod']	['赛', '冠军', 'nmod']
+['NOUN', 'VERB', 'obj']	['冠军', '获得', 'obj']
+['ADP', 'VERB', 'mark']	['后', '获得', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '获得', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '想', 'nsubj']
+['VERB', 'VERB', 'advcl']	['花', '想', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '花', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['接', '时间', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['下来', '接', 'mark']
+['PART', 'VERB', 'mark:rel']	['的', '接', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['六', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '时间', 'clf']
+['NOUN', 'NOUN', 'nmod']	['月', '时间', 'nmod']
+['NOUN', 'VERB', 'obj']	['时间', '花', 'obj']
+['ADV', 'VERB', 'mark']	['来', '想', 'mark']
+['VERB', 'VERB', 'advcl']	['想', '寻找', 'advcl']
+['NOUN', 'VERB', 'obj']	['办法', '想', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '想', 'punct']
+['VERB', 'ROOT', 'root']	['寻找', 'NONE', 'root']
+['DET', 'NOUN', 'det']	['下', '个', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['个', '目标', 'nmod']
+['NOUN', 'VERB', 'obj']	['目标', '寻找', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '寻找', 'punct']
+----------------------------------------------------------------------
+我对这项运动的热情慢慢消失了。
+
+(ROOT (IP (NP (NP (PRP 我)) (DNP (PP (IN 对) (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 运动)))) (DEC 的)) (NP (NN 热情))) (VP (ADVP (RB 慢慢)) (VP (VV 消失) (UH 了))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'DNP': {}, 'NP95931': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
 {'NP': {'NP': {}, 'DNP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'nmod']	['我', '热情', 'nmod']
+['ADP', 'NOUN', 'case']	['对', '热情', 'case']
+['DET', 'NOUN', 'det']	['这', '项', 'det']
+['NOUN', 'NOUN', 'clf']	['项', '运动', 'clf']
+['NOUN', 'NOUN', 'nmod']	['运动', '热情', 'nmod']
+['PART', 'NOUN', 'case']	['的', '热情', 'case']
+['NOUN', 'VERB', 'nsubj']	['热情', '消失', 'nsubj']
+['ADV', 'VERB', 'advmod']	['慢慢', '消失', 'advmod']
+['VERB', 'ROOT', 'root']	['消失', 'NONE', 'root']
+['PART', 'VERB', 'discourse']	['了', '消失', 'discourse']
+['PUNCT', 'VERB', 'punct']	['。', '消失', 'punct']
 ----------------------------------------------------------------------
-该地区的分析家和政府官员认为，平壤正在利用威胁发射导弹来推动其与核有关的要求成为奥巴马政府外交政策议程的首要议题。
+我已经没有什么需要证明的了。
 
-(ROOT (IP (NP (DNP (NP (DP (DT 该)) (NP (NN 地区))) (DEC 的)) (NP (VV 分析) (SFN 家) (CC 和) (NN 政府) (NN 官员))) (VP (VV 认为) (, ，) (IP (NP (NNP 平壤)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VP (VP (VV 利用) (IP (VP (VP (VV 威胁)) (VP (VV 发射) (NP (NN 导弹)))))) (VP (RB 来) (VP (VV 推动) (NP (NP (PRP 其)) (CP (CP (IP (VP (PP (IN 与) (NP (NN 核))) (VP (JJ 有关)))) (DEC 的))) (NP (NN 要求)))))) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (NP (NP (NNP 奥巴马)) (NP (NN 政府))) (NP (NN 外交) (NN 政策) (NN 议程))) (DEC 的)) (ADJP (JJ 首要)) (NP (NN 议题))))))))) (. 。)))
+(ROOT (IP (NP (PRP 我)) (VP (ADVP (RB 已经)) (VP (VV 没有) (NP (DP (WP 什么)) (CP (CP (IP (VP (MD 需要) (VP (VV 证明)))) (UH 的))) (UH 了)))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-它还威胁要与南朝鲜在两国之间争议的西部海岸边发生海上冲突。
-
-(ROOT (IP (NP (PRP 它)) (VP (ADVP (RB 还)) (VP (VV 威胁) (IP (VP (MD 要) (VP (LCP (NP (CP (CP (IP (VP (PP (IN 与) (NP (NP (NN 南)) (NP (NNP 朝鲜)))) (PP (VV 在) (LCP (NP (QP (CD 两)) (NP (NN 国))) (IN 之间))) (VP (NN 争议)))) (DEC 的))) (NP (NN 西部) (NN 海岸))) (SFN 边)) (VP (VV 发生) (NP (NN 海上) (NN 冲突)))))))) (. 。)))
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
 {'NP': {'PRP': {}}}
 {'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['我', '有', 'nsubj']
+['ADV', 'VERB', 'advmod']	['已经', '有', 'advmod']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['PRON', 'VERB', 'nsubj']	['什么', '证明', 'nsubj']
+['AUX', 'VERB', 'aux']	['需要', '证明', 'aux']
+['VERB', 'VERB', 'ccomp']	['证明', '有', 'ccomp']
+['PART', 'VERB', 'discourse']	['的', '有', 'discourse']
+['PART', 'VERB', 'discourse']	['了', '有', 'discourse']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
 ----------------------------------------------------------------------
-朝鲜国家通讯社 KCNA 表示：“我们将在以后知道将要发射的内容。”
+你怎么看，在同龄人正全身心投入工作的时候，自己就要退休了呢？
 
-(ROOT (IP (NP (NP (NNP 朝鲜) (NN 国家) (VV 通讯) (SFN 社)) (NP (FW KCNA))) (VP (VV 表示) (: ：) (IP (`` “) (NP (PRP 我们)) (VP (ADVP (RB 将)) (PP (IN 在) (NP (NN 以后))) (VP (VV 知道) (NP (CP (CP (IP (VP (ADVP (RB 将)) (VP (MD 要) (VP (VV 发射))))) (DEC 的))) (NP (NN 内容))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ':': {}, 'IP': {}}}
-----------------------------------------------------------------------
-克林顿在首次出访时选择访问亚洲，打破了新任国务卿首先访问欧洲或中东的长期传统。
-
-(ROOT (IP (NP (NNP 克林顿)) (VP (VP (PP (IN 在) (LCP (IP (VP (ADVP (CD 首次)) (VP (VV 出访)))) (IN 时))) (VP (VV 选择) (IP (VP (VV 访问) (NP (NNP 亚洲)))))) (, ，) (VP (VV 打破) (AS 了) (NP (CP (IP (NP (ADJP (DT 新任)) (NP (NN 国务) (SFN 卿))) (VP (ADVP (RB 首先)) (VP (VV 访问) (NP (NNP 欧洲) (CC 或) (NNP 中东))))) (DEC 的)) (ADJP (NN 长期)) (NP (NN 传统))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这一举动被视为中国日益崛起为经济和军事大国的认可。
-
-(ROOT (IP (NP (DP (DT 这) (QP (CD 一))) (NP (NN 举动))) (VP (BB 被) (VP (VCP (VV 视) (VC 为)) (NP (CP (IP (NP (NNP 中国)) (VP (ADVP (RB 日益)) (VP (VV 崛) (VV 起) (VC 为) (NP (NP (NN 经济) (CC 和) (NN 军事)) (NP (NN 大国)))))) (DEC 的)) (NP (NN 认可))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'BB': {}, 'VP': {}}}
-----------------------------------------------------------------------
-克林顿访问日本的部分目的是要向她的东道国表示，她们不会在贸易、环境和地区安全问题上被奥巴马政府政治排斥。
-
-(ROOT (IP (NP (CP (CP (IP (NP (NNP 克林顿)) (VP (VP (VV 访问) (NP (NNP 日本))))) (DEC 的))) (QP (NN 部分)) (NP (NN 目的))) (VP (VC 是) (VP (MD 要) (VP (PP (IN 向) (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NNP 东道) (SFN 国)))) (VP (VV 表示) (, ，) (IP (NP (PRP 她们)) (VP (MD 不会) (VP (PP (IN 在) (LCP (NP (NP (NP (NN 贸易) (EC 、) (NN 环境) (CC 和) (NN 地区)) (NP (NN 安全))) (NP (NN 问题))) (IN 上))) (VP (BB 被) (CP (IP (NP (NP (NP (NNP 奥巴马)) (NP (NN 政府))) (NP (NN 政治))) (VP (VV 排斥)))))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}, 'QP': {}, 'NP': {}}, 'VP': {'VC': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CP': {}, 'QP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'VP': {}}}
-----------------------------------------------------------------------
-克林顿原本应当会见几位被北朝鲜特工绑架的日本公民的家人，这个问题对东京来说比朝鲜的核野心还紧迫。
-
-(ROOT (IP (IP (NP (NNP 克林顿)) (VP (ADVP (RB 原本)) (VP (MD 应当) (VP (VV 会见) (NP (DNP (NP (QP (CD 几) (CLP (NNB 位))) (CP (CP (IP (VP (BB 被) (CP (IP (NP (NP (NP (NN 北)) (NP (NNP 朝鲜))) (NP (NN 特工))) (VP (VV 绑) (VP (SFN 架))))))) (DEC 的))) (NP (NNP 日本)) (NP (NN 公民))) (DEC 的)) (NP (NN 家人))))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 问题))) (VP (IP (VP (PP (IN 对) (NP (NNP 东京))) (VP (RB 来) (VP (VV 说))))) (PP (IN 比) (NP (DNP (NP (NNP 朝鲜)) (DEC 的)) (NP (NN 核) (NN 野心)))) (ADVP (RB 还)) (VP (JJ 紧迫)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+(ROOT (IP (IP (NP (PRP 你)) (VP (ADVP (RB 怎么)) (VP (VV 看)))) (, ，) (CP (IP (PP (IN 在) (NP (CP (CP (IP (NP (ADJP (VV 同龄)) (NP (SFN 人))) (VP (ADVP (RB 正)) (NP (NN 全身)) (NP (SFN 心)) (VP (VV 投入) (NP (VV 工作))))) (DEC 的))) (NP (NN 时候)))) (, ，) (NP (PRD 自己)) (VP (ADVP (RB 就)) (VP (MD 要) (VP (VV 退休) (UH 了))))) (UH 呢)) (. ？)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'CP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'CP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'CP': {'IP': {}, 'UH': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'CP': {'IP': {}, 'UH': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+{'CP': {'IP': {}, 'UH': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['你', '看', 'nsubj']
+['ADV', 'VERB', 'advmod']	['怎么', '看', 'advmod']
+['VERB', 'ROOT', 'root']	['看', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '看', 'punct']
+['ADP', 'NOUN', 'case']	['在', '时候', 'case']
+['VERB', 'PART', 'compound']	['同龄', '人', 'compound']
+['PART', 'VERB', 'nsubj']	['人', '投入', 'nsubj']
+['ADV', 'VERB', 'advmod']	['正', '投入', 'advmod']
+['NOUN', 'PART', 'compound']	['全身', '心', 'compound']
+['PART', 'VERB', 'nsubj']	['心', '投入', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['投入', '时候', 'acl:relcl']
+['VERB', 'VERB', 'xcomp']	['工作', '投入', 'xcomp']
+['PART', 'VERB', 'mark:rel']	['的', '投入', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['时候', '退休', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '时候', 'punct']
+['PRON', 'VERB', 'nsubj']	['自己', '退休', 'nsubj']
+['ADV', 'VERB', 'mark']	['就', '退休', 'mark']
+['AUX', 'VERB', 'aux']	['要', '退休', 'aux']
+['VERB', 'VERB', 'parataxis']	['退休', '看', 'parataxis']
+['PART', 'VERB', 'discourse']	['了', '退休', 'discourse']
+['PART', 'VERB', 'discourse:sp']	['呢', '退休', 'discourse:sp']
+['PUNCT', 'VERB', 'punct']	['？', '退休', 'punct']
 ----------------------------------------------------------------------
-“绑架问题是令人严重关切的问题之一，”克林顿说。
+Vince Jordan，洛杉矶 31 岁退役并不容易。
 
-(ROOT (IP (IP (IP (`` “) (NP (NP (VV 绑) (NN 架)) (NP (NN 问题))) (VP (VC 是) (NP (DNP (NP (CP (CP (IP (VP (VV 令) (NP (NN 人)) (IP (VP (ADVP (RB 严重)) (VP (VV 关切)))))) (DEC 的))) (NP (NN 问题))) (DEC 之)) (NP (CD 一))))) (, ，) ('' ”)) (NP (NNP 克林顿)) (VP (VV 说)) (. 。)))
-{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, "''": {}}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, "''": {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}}}
+(ROOT (IP (IP (NP (FW Vince) (FW Jordan)) (, ，) (NP (NNP 洛杉矶)) (VP (QP (CD 31) (CLP (NNB 岁))) (VP (VV 退役)))) (VP (ADVP (RB 并)) (ADVP (RB 不)) (VP (JJ 容易))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP15228': {}, 'VP': {}}, 'VP': {'ADVP': {}, 'ADVP43316': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['X', 'ADJ', 'nsubj']	['Vince', '容易', 'nsubj']
+['X', 'X', 'flat:foreign']	['Jordan', 'Vince', 'flat:foreign']
+['PUNCT', 'X', 'punct']	['，', 'Vince', 'punct']
+['PROPN', 'VERB', 'nsubj']	['洛杉矶', '退役', 'nsubj']
+['NUM', 'NOUN', 'nummod']	['31', '岁', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['岁', '退役', 'nmod:tmod']
+['VERB', 'ADJ', 'csubj']	['退役', '容易', 'csubj']
+['ADV', 'ADV', 'advmod']	['并', '不', 'advmod']
+['ADV', 'ADJ', 'advmod']	['不', '容易', 'advmod']
+['ADJ', 'ROOT', 'root']	['容易', 'NONE', 'root']
+['PUNCT', 'ADJ', 'punct']	['。', '容易', 'punct']
 ----------------------------------------------------------------------
-“这是一场人类悲剧。
+在某种意义上，我很高兴完成了这项工作。
 
-(ROOT (IP (`` “) (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 场))) (NP (NN 人类) (NN 悲剧)))) (. 。)))
-{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'``': {}, 'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'NP': {'PRD': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
-----------------------------------------------------------------------
-我们确实希望迫使朝鲜方面更加积极地提供信息。”
-
-(ROOT (IP (NP (PRP 我们)) (VP (ADVP (RB 确实)) (VP (VV 希望) (IP (VP (VV 迫使) (NP (NP (NNP 朝鲜)) (NP (NN 方面))) (IP (VP (DVP (VP (ADVP (RB 更加)) (VP (JJ 积极))) (DEV 地)) (VP (VV 提供) (NP (NN 信息))))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+(ROOT (IP (PP (IN 在) (LCP (NP (ADJP (DT 某种)) (NP (NN 意义))) (IN 上))) (, ，) (NP (PRP 我)) (VP (ADVP (RB 很)) (VP (JJ 高兴) (IP (VP (VV 完成) (AS 了) (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 工作))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
 {'NP': {'PRP': {}}}
 {'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['在', '意义', 'case']
+['DET', 'NOUN', 'det']	['某种', '意义', 'det']
+['NOUN', 'VERB', 'obl']	['意义', '完成', 'obl']
+['ADP', 'NOUN', 'case']	['上', '意义', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '意义', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '完成', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['很', '高兴', 'advmod']
+['ADJ', 'VERB', 'advcl']	['高兴', '完成', 'advcl']
+['VERB', 'ROOT', 'root']	['完成', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '完成', 'aux']
+['DET', 'NOUN', 'det']	['这', '项', 'det']
+['NOUN', 'NOUN', 'clf']	['项', '工作', 'clf']
+['NOUN', 'VERB', 'obj']	['工作', '完成', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '完成', 'punct']
 ----------------------------------------------------------------------
-她还将会见日本主要反对党领袖 Ichiro Ozawa，这一举动凸显了首相麻生太郎的快速衰落。
+但是，经过了几年的欢娱，我有点不安。
 
-(ROOT (IP (IP (NP (PRP 她)) (VP (ADVP (RB 还)) (ADVP (RB 将)) (VP (VV 会见) (NP (NP (NP (NNP 日本)) (ADJP (JJ 主要)) (NP (VV 反对) (SFN 党) (NN 领袖))) (NP (FW Ichiro) (FW Ozawa)))))) (, ，) (IP (NP (DP (DT 这) (QP (CD 一))) (NP (NN 举动))) (VP (VV 凸显) (AS 了) (NP (DNP (NP (NP (NN 首相)) (NP (NNP 麻生) (NN 太郎))) (DEC 的)) (ADJP (JJ 快速)) (NP (NN 衰落))))) (. 。)))
+(ROOT (IP (ADVP (RB 但是)) (, ，) (IP (VP (VV 经过) (AS 了) (NP (DNP (QP (CD 几) (CLP (NNB 年))) (DEC 的)) (NP (NN 欢娱))))) (, ，) (NP (PRP 我)) (VP (ADVP (VV 有点)) (VP (JJ 不安))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',13656': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'VP': {}}, ',54055': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['但是', '有点', 'mark']
+['PUNCT', 'ADV', 'punct']	['，', '但是', 'punct']
+['VERB', 'VERB', 'advcl']	['经过', '有点', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '经过', 'aux']
+['NUM', 'NOUN', 'nummod']	['几', '年', 'nummod']
+['NOUN', 'VERB', 'obj']	['年', '经过', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '经过', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['欢娱', '经过', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '经过', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '有点', 'nsubj']
+['VERB', 'ROOT', 'root']	['有点', 'NONE', 'root']
+['ADJ', 'VERB', 'xcomp']	['不安', '有点', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '有点', 'punct']
+----------------------------------------------------------------------
+33 岁、34 岁的时候，如果没有目标，你可能会迷失方向。
+
+(ROOT (IP (NP (DNP (QP (QP (CD 33) (CLP (NNB 岁))) (EC 、) (QP (CD 34) (CLP (NNB 岁)))) (DEC 的)) (NP (NN 时候))) (, ，) (IP (VP (ADVP (IN 如果)) (VP (VV 没有) (NP (NN 目标))))) (, ，) (NP (PRP 你)) (VP (MD 可能) (VP (MD 会) (VP (VV 迷失) (NP (NN 方向))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'IP': {}, ',95098': {}, 'NP71038': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, ',': {}, 'IP': {'VP': {}}, ',57089': {}, 'NP96856': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+['NUM', 'NOUN', 'nummod']	['33', '岁', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['岁', '时候', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['、', '岁', 'punct']
+['NUM', 'NOUN', 'nummod']	['34', '岁', 'nummod']
+['NOUN', 'NOUN', 'conj']	['岁', '岁', 'conj']
+['PART', 'NOUN', 'case']	['的', '岁', 'case']
+['NOUN', 'VERB', 'nmod:tmod']	['时候', '迷失', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '时候', 'punct']
+['ADP', 'VERB', 'case']	['如果', '有', 'case']
+['VERB', 'VERB', 'xcomp']	['有', '迷失', 'xcomp']
+['NOUN', 'VERB', 'obj']	['目标', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['PRON', 'VERB', 'nsubj']	['你', '迷失', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '迷失', 'aux']
+['AUX', 'VERB', 'aux']	['会', '迷失', 'aux']
+['VERB', 'ROOT', 'root']	['迷失', 'NONE', 'root']
+['NOUN', 'VERB', 'obj']	['方向', '迷失', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '迷失', 'punct']
+----------------------------------------------------------------------
+作为一个男人，你会感到一点点不够完整。
+
+(ROOT (IP (PP (VV 作) (PP (VC 为) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 男人))))) (, ，) (NP (PRP 你)) (VP (MD 会) (VP (VV 感到) (IP (QP (JJ 一点) (CLP (JJ 点))) (VP (ADVP (RB 不够)) (VP (JJ 完整)))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'PP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['作', '感到', 'advcl']
+['VERB', 'VERB', 'mark']	['为', '作', 'mark']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '男人', 'clf']
+['NOUN', 'VERB', 'obj']	['男人', '作', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '作', 'punct']
+['PRON', 'VERB', 'nsubj']	['你', '感到', 'nsubj']
+['AUX', 'VERB', 'aux']	['会', '感到', 'aux']
+['VERB', 'ROOT', 'root']	['感到', 'NONE', 'root']
+['ADJ', 'VERB', 'xcomp']	['一点', '感到', 'xcomp']
+['ADJ', 'VERB', 'xcomp']	['点', '感到', 'xcomp']
+['ADV', 'ADJ', 'advmod']	['不够', '完整', 'advmod']
+['ADJ', 'VERB', 'xcomp']	['完整', '感到', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '感到', 'punct']
+----------------------------------------------------------------------
+你认为，因为他们的场外表现，其他人获得了更多的关注，这是不公平的吗？
+
+(ROOT (IP (NP (PRP 你)) (VP (VV 认为) (, ，) (IP (IP (PP (IN 因为) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 场外) (NN 表现)))) (, ，) (NP (DP (DT 其他)) (NP (NN 人))) (VP (VV 获得) (AS 了) (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的))) (NP (NN 关注))))) (, ，) (CP (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (VP (ADVP (RB 不)) (VP (JJ 公平)))) (UH 的)))))) (UH 吗)))) (. ？)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['你', '为', 'nsubj']
+['VERB', 'ROOT', 'root']	['为', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '获得', 'punct']
+['ADP', 'NOUN', 'case']	['因为', '表现', 'case']
+['PRON', 'NOUN', 'det']	['他', '表现', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'NOUN', 'nmod']	['场外', '表现', 'nmod']
+['NOUN', 'VERB', 'obl']	['表现', '获得', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '表现', 'punct']
+['DET', 'NOUN', 'det']	['其他', '人', 'det']
+['NOUN', 'VERB', 'nsubj']	['人', '获得', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['获得', '为', 'ccomp']
+['AUX', 'VERB', 'aux']	['了', '获得', 'aux']
+['ADJ', 'NOUN', 'amod']	['更多', '关注', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '更多', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['关注', '获得', 'obj']
+['PUNCT', 'ADJ', 'punct']	['，', '公平', 'punct']
+['PRON', 'ADJ', 'nsubj']	['这', '公平', 'nsubj']
+['AUX', 'ADJ', 'cop']	['是', '公平', 'cop']
+['ADV', 'ADJ', 'advmod']	['不', '公平', 'advmod']
+['ADJ', 'VERB', 'parataxis']	['公平', '获得', 'parataxis']
+['PART', 'ADJ', 'discourse']	['的', '公平', 'discourse']
+['PART', 'ADJ', 'discourse']	['吗', '公平', 'discourse']
+['PUNCT', 'VERB', 'punct']	['？', '获得', 'punct']
+----------------------------------------------------------------------
+Matthew Dale，德克萨斯州奥斯汀，有些球员只是为了增加宣传而多做点事，我不是这样的。
+
+(ROOT (IP (NP (NP (FW Matthew) (FW Dale)) (, ，) (NP (NNP 德克萨斯) (SFN 州) (NNP 奥斯汀))) (, ，) (IP (NP (DP (VV 有些)) (NP (NN 球员))) (VP (ADVP (RB 只)) (VP (VC 是) (VP (PP (IN 为了) (IP (VP (VV 增加) (NP (NN 宣传))))) (VP (RB 而) (VP (ADVP (RB 多)) (VP (VV 做) (NP (NN 点事))))))))) (, ，) (IP (NP (PRP 我)) (VP (VC 不是) (DNP (NP (PRD 这样)) (UH 的)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'IP': {}, ',9908': {}, 'IP55163': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, ',': {}, 'NP74936': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',42852': {}, 'IP2728': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, ',': {}, 'NP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, ',': {}, 'NP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['X', 'VERB', 'nsubj']	['Matthew', '有些', 'nsubj']
+['X', 'X', 'flat:foreign']	['Dale', 'Matthew', 'flat:foreign']
+['PUNCT', 'PROPN', 'punct']	['，', '奥斯汀', 'punct']
+['PROPN', 'PART', 'compound']	['德克萨斯', '州', 'compound']
+['PART', 'PROPN', 'nmod']	['州', '奥斯汀', 'nmod']
+['PROPN', 'X', 'appos']	['奥斯汀', 'Matthew', 'appos']
+['PUNCT', 'VERB', 'punct']	['，', '有些', 'punct']
+['VERB', 'ROOT', 'root']	['有些', 'NONE', 'root']
+['NOUN', 'VERB', 'nsubj']	['球员', '是', 'nsubj']
+['ADV', 'VERB', 'advmod']	['只', '是', 'advmod']
+['VERB', 'VERB', 'ccomp']	['是', '有些', 'ccomp']
+['ADP', 'VERB', 'case']	['为了', '增加', 'case']
+['VERB', 'VERB', 'xcomp']	['增加', '做', 'xcomp']
+['NOUN', 'VERB', 'obj']	['宣传', '增加', 'obj']
+['ADV', 'VERB', 'mark']	['而', '做', 'mark']
+['ADV', 'VERB', 'advmod']	['多', '做', 'advmod']
+['VERB', 'VERB', 'xcomp']	['做', '是', 'xcomp']
+['NOUN', 'VERB', 'obj']	['点事', '做', 'obj']
+['PUNCT', 'PRON', 'punct']	['，', '这样', 'punct']
+['PRON', 'PRON', 'nsubj']	['我', '这样', 'nsubj']
+['AUX', 'PRON', 'cop']	['是', '这样', 'cop']
+['PRON', 'VERB', 'parataxis']	['这样', '有些', 'parataxis']
+['PART', 'PRON', 'discourse']	['的', '这样', 'discourse']
+['PUNCT', 'VERB', 'punct']	['。', '有些', 'punct']
+----------------------------------------------------------------------
+我的主要目标是在比赛结束时拿到奖杯，我不希望任何事情阻碍我的目标。
+
+(ROOT (IP (IP (NP (DNP (NP (PRP 我)) (DEC 的)) (ADJP (JJ 主要)) (NP (NN 目标))) (VP (VC 是) (VP (PP (IN 在) (LCP (IP (NP (VV 比赛)) (VP (VV 结束))) (IN 时))) (VP (VV 拿到) (NP (NN 奖杯)))))) (, ，) (IP (NP (PRP 我)) (VP (ADVP (RB 不)) (VP (VV 希望) (IP (NP (DP (DT 任何)) (NP (NN 事情))) (VP (VV 阻碍) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 目标)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP82806': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP88498': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'det']	['我', '目标', 'det']
+['PART', 'PRON', 'case']	['的', '我', 'case']
+['ADJ', 'NOUN', 'amod']	['主要', '目标', 'amod']
+['NOUN', 'VERB', 'nsubj']	['目标', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['ADP', 'VERB', 'case']	['在', '结束', 'case']
+['VERB', 'VERB', 'csubj']	['比赛', '结束', 'csubj']
+['VERB', 'VERB', 'xcomp']	['结束', '拿到', 'xcomp']
+['ADP', 'VERB', 'mark']	['时', '结束', 'mark']
+['VERB', 'VERB', 'xcomp']	['拿到', '是', 'xcomp']
+['NOUN', 'VERB', 'obj']	['奖杯', '拿到', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '希望', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '希望', 'nsubj']
+['ADV', 'VERB', 'advmod']	['不', '希望', 'advmod']
+['VERB', 'VERB', 'parataxis']	['希望', '是', 'parataxis']
+['DET', 'NOUN', 'det']	['任何', '事情', 'det']
+['NOUN', 'VERB', 'nsubj']	['事情', '阻碍', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['阻碍', '希望', 'ccomp']
+['PRON', 'VERB', 'obj']	['我', '阻碍', 'obj']
+['PART', 'PRON', 'case']	['的', '我', 'case']
+['NOUN', 'VERB', 'obj']	['目标', '阻碍', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
 ----------------------------------------------------------------------
-昨天，日本报告称，该国经济在上个季度缩水，这是 1974 年石油危机以来最快的缩水速度，并且正在陷入自战后以来最严重的衰退。
+我一直很低调。
 
-(ROOT (IP (NP (NN 昨天)) (, ，) (NP (NP (NNP 日本)) (NP (NN 报告))) (VP (VV 称) (, ，) (IP (IP (NP (NP (NN 该国)) (NP (NN 经济))) (VP (PP (IN 在) (NP (DP (DT 上) (CLP (NNB 个))) (NP (NN 季度)))) (VP (VV 缩水)))) (, ，) (IP (NP (PRD 这)) (VP (VP (VC 是) (VP (LCP (NP (NP (CD 1974) (NNB 年石油)) (NP (NN 危机))) (IN 以来)) (CP (CP (IP (VP (JJ 最快))) (DEC 的))) (NP (NN 缩水) (NN 速度)))) (, ，) (RB 并且) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 陷入) (NP (CP (CP (IP (VP (PP (IN 自) (LCP (NP (NN 战后)) (IN 以来))) (ADVP (RB 最)) (VP (JJ 严重)))) (DEC 的))) (NP (NN 衰退))))))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-克林顿呼吁协同努力应对全球经济危机。
-
-(ROOT (IP (NP (NNP 克林顿)) (VP (VV 呼吁) (IP (VP (VP (VV 协同)) (VP (ADVP (RB 努力)) (VP (VV 应对) (NP (NN 全球) (NN 经济) (NN 危机))))))) (. 。)))
+(ROOT (IP (NP (PRP 我)) (VP (ADVP (RB 一直)) (ADVP (RB 很)) (VP (JJ 低调))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-----------------------------------------------------------------------
-她说：“作为世界上第一大经济体和第二大经济体，我们理解这些责任，”并补充说，各国还应该“确保我们的经济为我们自己的公民服务”。
-
-(ROOT (IP (NP (PRP 她)) (VP (VV 说) (: ：) (IP (`` “) (PP (VV 作) (PP (VC 为) (NP (NP (LCP (NP (NN 世界)) (IN 上)) (ADJP (QP (CD 第一)) (ADJP (PFA 大))) (NP (NN 经济) (SFN 体))) (CC 和) (NP (QP (CD 第二)) (ADJP (PFA 大)) (NP (NN 经济) (SFN 体)))))) (, ，) (NP (PRP 我们)) (VP (VV 理解) (NP (DP (DT 这些)) (NP (NN 责任)))))) (, ，) ('' ”) (IP (VP (ADVP (RB 并)) (VP (VP (VV 补充)) (VP (VV 说) (, ，) (IP (NP (NN 各国)) (VP (ADVP (RB 还)) (VP (MD 应该) (VP (`` “) (VV 确保) (IP (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NN 经济))) (PP (IN 为) (NP (DNP (NP (PRP 我们) (PRD 自己)) (DEC 的)) (NP (NN 公民) (NN 服务))))) ('' ”))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, ',': {}, "''": {}, 'IP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, ',': {}, "''": {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'ADVP46012': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
 {'NP': {'PRP': {}}}
-{'VP': {'VV': {}, ':': {}, 'IP': {}}}
-{'IP': {'VP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'ADJ', 'nsubj']	['我', '低调', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['一直', '低调', 'advmod']
+['ADV', 'ADJ', 'advmod']	['很', '低调', 'advmod']
+['ADJ', 'ROOT', 'root']	['低调', 'NONE', 'root']
+['PUNCT', 'ADJ', 'punct']	['。', '低调', 'punct']
 ----------------------------------------------------------------------
-阿so 的支持率是日本领导人中第二低的，今天，他的财政大臣 Shoichi Nakagawa 在周末在罗马举行的记者招待会上宣布辞职，显然是因为他酒后发言。
+我保持简单。
 
-(ROOT (IP (IP (NP (DNP (NP (NNP 阿so)) (DEC 的)) (NP (VV 支持) (SFN 率))) (VP (VC 是) (NP (CP (CP (IP (QP (LCP (NP (NP (NNP 日本)) (NP (VV 领导) (SFN 人))) (IN 中)) (QP (CD 第二)) (VP (JJ 低)))) (UH 的)))))) (, ，) (IP (NP (NN 今天)) (, ，) (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 财政) (NN 大臣))) (NP (FW Shoichi) (FW Nakagawa))) (VP (PP (IN 在) (NP (NN 周末))) (PP (VV 在) (LCP (NP (CP (CP (IP (NP (NNP 罗马)) (VP (VV 举行))) (DEC 的))) (NP (NN 记者) (VV 招待) (SFN 会))) (IN 上))) (VP (VV 宣布) (NP (VV 辞职))))) (, ，) (IP (VP (ADVP (RB 显然)) (VP (VC 是) (PP (IN 因为) (IP (NP (PRP 他)) (VP (ADVP (VV 酒后)) (VP (VV 发言)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, 'VP': {}}, ',': {}, '.': {}}}
+(ROOT (IP (NP (PRP 我)) (VP (VV 保持) (NP (JJ 简单))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['我', '保持', 'nsubj']
+['VERB', 'ROOT', 'root']	['保持', 'NONE', 'root']
+['ADJ', 'VERB', 'xcomp']	['简单', '保持', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '保持', 'punct']
+----------------------------------------------------------------------
+您的职业生涯中，遇到过哪些最困难的情况？
+
+(ROOT (IP (LCP (NP (DNP (NP (PRP 您)) (DEC 的)) (NP (NN 职业) (NN 生涯))) (IN 中)) (, ，) (VP (VV 遇到) (AS 过) (NP (DP (JJ 哪些)) (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 困难)))) (DEC 的))) (NP (NN 情况)))) (. ？)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'det']	['您', '生涯', 'det']
+['PART', 'PRON', 'case']	['的', '您', 'case']
+['NOUN', 'NOUN', 'nmod']	['职业', '生涯', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['生涯', '遇到', 'nsubj']
+['ADP', 'NOUN', 'case']	['中', '生涯', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '生涯', 'punct']
+['VERB', 'ROOT', 'root']	['遇到', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['过', '遇到', 'aux']
+['ADJ', 'NOUN', 'amod']	['哪些', '情况', 'amod']
+['ADV', 'ADJ', 'advmod']	['最', '困难', 'advmod']
+['ADJ', 'NOUN', 'amod']	['困难', '情况', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '困难', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['情况', '遇到', 'obj']
+['PUNCT', 'VERB', 'punct']	['？', '遇到', 'punct']
+----------------------------------------------------------------------
+海蒂·塞罗纳，马尼拉
+
+(ROOT (NP (NNP 海蒂) (/ ·) (NNP 塞罗纳) (, ，) (NNP 马尼拉)))
+layer 2:
+{'NP': {'NNP': {}, '/': {}, 'NNP69745': {}, ',': {}, 'NNP97559': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}, ',': {}, 'NNP': {}}}
+layer 3:
+{'NP': {'NNP': {}, '/': {}, 'NNP60543': {}, ',': {}, 'NNP33536': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}, ',': {}, 'NNP': {}}}
+Dependency Features:
+['PROPN', 'ROOT', 'root']	['海蒂', 'NONE', 'root']
+['PUNCT', 'PROPN', 'punct']	['·', '塞罗纳', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['塞罗纳', '海蒂', 'flat:name']
+['PUNCT', 'PROPN', 'punct']	['，', '马尼拉', 'punct']
+['PROPN', 'PROPN', 'appos']	['马尼拉', '海蒂', 'appos']
+----------------------------------------------------------------------
+你可以随意攻击我，但不要把我的妻子带进来。
+
+(ROOT (IP (NP (PRP 你)) (VP (VP (MD 可以) (VP (ADVP (RB 随意)) (VP (VV 攻击) (NP (PRP 我))))) (, ，) (VP (ADVP (RB 但)) (VP (MD 不要) (VP (BB 把) (IP (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 妻子))) (VP (VRD (VV 带) (VV 进来)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP43289': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['你', '带', 'nsubj']
+['AUX', 'VERB', 'aux']	['可以', '攻击', 'aux']
+['ADV', 'VERB', 'advmod']	['随意', '攻击', 'advmod']
+['VERB', 'VERB', 'advcl']	['攻击', '带', 'advcl']
+['PRON', 'VERB', 'obj']	['我', '攻击', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '攻击', 'punct']
+['ADV', 'VERB', 'mark']	['但', '带', 'mark']
+['AUX', 'VERB', 'aux']	['要', '带', 'aux']
+['ADP', 'NOUN', 'case']	['把', '妻子', 'case']
+['PRON', 'NOUN', 'det']	['我', '妻子', 'det']
+['PART', 'PRON', 'case']	['的', '我', 'case']
+['NOUN', 'VERB', 'obl:patient']	['妻子', '带', 'obl:patient']
+['VERB', 'ROOT', 'root']	['带', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['进来', '带', 'mark']
+['PUNCT', 'VERB', 'punct']	['。', '带', 'punct']
+----------------------------------------------------------------------
+你考虑过成为评论员吗?
+
+(ROOT (CP (IP (NP (PRP 你)) (VP (VV 考虑) (AS 过) (IP (VP (VV 成) (VP (VC 为) (NP (VV 评论) (SFN 员))))))) (UH 吗) (. ?)))
+layer 2:
+{'CP': {'IP': {}, 'UH': {}, '.': {}}}
+{'CP': {'IP': {}, 'UH': {}, '.': {}}}
+layer 3:
+{'CP': {'IP': {'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'CP': {'IP': {'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['你', '考虑', 'nsubj']
+['VERB', 'ROOT', 'root']	['考虑', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['过', '考虑', 'aux']
+['VERB', 'VERB', 'xcomp']	['成', '考虑', 'xcomp']
+['VERB', 'VERB', 'mark']	['为', '成', 'mark']
+['VERB', 'PART', 'compound']	['评论', '员', 'compound']
+['PART', 'VERB', 'obj']	['员', '成', 'obj']
+['PART', 'VERB', 'discourse']	['吗', '考虑', 'discourse']
+['PUNCT', 'VERB', 'punct']	['?', '考虑', 'punct']
 ----------------------------------------------------------------------
-遭到议会谴责动议的中川表示，他的表现令人尴尬，他坚称自己服用了大量寒药和点酒之后才出现这种状况。
+我被要求做一点点评。
 
-(ROOT (IP (NP (CP (CP (IP (VP (VV 遭到) (NP (NN 议会) (NN 谴责) (NN 动议)))) (DEC 的))) (NP (NNP 中川))) (VP (VV 表示) (, ，) (IP (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 表现))) (VP (VV 令) (NP (NN 人)) (IP (VP (JJ 尴尬))))) (, ，) (IP (NP (PRP 他)) (VP (VV 坚称) (IP (NP (PRD 自己)) (VP (LCP (IP (VP (VV 服用) (AS 了) (NP (QP (JJ 大量)) (NP (NN 寒药) (CC 和) (NN 点酒))))) (IN 之后)) (ADVP (RB 才)) (VP (VV 出现) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 状况)))))))))) (. 。)))
+(ROOT (IP (NP (PRP 我)) (VP (BB 被) (VP (VV 要求) (IP (VP (VV 做) (NP (QP (JJ 一点)) (NP (NN 点评))))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'BB': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj:pass']	['我', '要求', 'nsubj:pass']
+['AUX', 'VERB', 'aux:pass']	['被', '要求', 'aux:pass']
+['VERB', 'ROOT', 'root']	['要求', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['做', '要求', 'xcomp']
+['ADJ', 'NOUN', 'amod']	['一点', '点评', 'amod']
+['NOUN', 'VERB', 'obj']	['点评', '做', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '要求', 'punct']
 ----------------------------------------------------------------------
-早些时候，克林顿与中泽约定，将驻扎在冲绳岛南部的8000名美国海军陆战队员，在2014年之前转移到美国太平洋领土关岛。
+这不是我血液中的东西。
 
-(ROOT (IP (NP (ADJP (JJ 早些)) (NP (NN 时候))) (, ，) (NP (NNP 克林顿) (IN 与) (NNP 中泽)) (VP (VP (VV 约定)) (, ，) (VP (BB 将) (IP (NP (CP (CP (IP (VP (VV 驻扎) (PP (VV 在) (NP (NP (NNP 冲绳) (SFN 岛)) (NP (NN 南部)))))) (DEC 的))) (QP (CD 8000) (CLP (NNB 名))) (NP (NNP 美国)) (NP (NN 海军) (NN 陆战) (NN 队员))) (, ，) (VP (PP (IN 在) (LCP (NP (CD 2014) (NNB 年)) (IN 之前))) (VP (VRD (VV 转移) (VV 到)) (NP (NP (NP (NNP 美国) (NNP 太平) (SFN 洋)) (NP (NN 领土))) (NP (NNP 关岛)))))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'ADJP': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}, 'IN': {}, 'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'ADJP': {}, 'NP': {}}}
-{'NP': {'NNP': {}, 'IN': {}, 'NNP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+(ROOT (IP (NP (PRD 这)) (VP (VC 不是) (NP (DNP (LCP (NP (NP (PRP 我)) (NP (NN 血液))) (IN 中)) (DEC 的)) (NP (NN 东西)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'nsubj']	['这', '东西', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '东西', 'cop']
+['PRON', 'NOUN', 'nmod']	['我', '血液', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['血液', '东西', 'nmod']
+['ADP', 'NOUN', 'case']	['中', '血液', 'case']
+['PART', 'NOUN', 'case']	['的', '血液', 'case']
+['NOUN', 'ROOT', 'root']	['东西', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['。', '东西', 'punct']
 ----------------------------------------------------------------------
-该协议旨在减少占据日本大部分美国基地的冲绳岛的军事足迹。
+约翰·麦肯罗做的很好，我认为他已经很成熟了。
 
-(ROOT (IP (NP (DP (DT 该)) (NP (NN 协议))) (NP (VV 旨)) (VP (VV 在) (IP (VP (VV 减少) (NP (DNP (NP (CP (CP (IP (VP (VV 占据) (NP (NP (NNP 日本)) (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (NNP 美国)) (NP (NN 基地))))) (DEC 的))) (NP (NNP 冲绳) (SFN 岛))) (DEC 的)) (NP (NN 军事) (NN 足迹)))))) (. 。)))
-{'IP': {'NP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'NP': {'VV': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'NP': {'VV': {}}}
+(ROOT (IP (IP (NP (CP (CP (IP (NP (NNP 约翰) (/ ·) (NNP 麦肯罗)) (VP (VV 做))) (DEC 的)))) (VP (JJ 很好))) (, ，) (IP (NP (PRP 我)) (VP (VV 认为) (IP (NP (PRP 他)) (VP (ADVP (RB 已经)) (ADVP (RB 很)) (VP (JJ 成熟) (UH 了)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP96048': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP51268': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['约翰', '做', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['·', '麦肯罗', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['麦肯罗', '约翰', 'flat:name']
+['VERB', 'ADJ', 'csubj']	['做', '很好', 'csubj']
+['PART', 'VERB', 'mark:rel']	['的', '做', 'mark:rel']
+['ADJ', 'ROOT', 'root']	['很好', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '为', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '为', 'nsubj']
+['VERB', 'ADJ', 'parataxis']	['为', '很好', 'parataxis']
+['PRON', 'ADJ', 'nsubj']	['他', '成熟', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['已经', '成熟', 'advmod']
+['ADV', 'ADJ', 'advmod']	['很', '成熟', 'advmod']
+['ADJ', 'VERB', 'ccomp']	['成熟', '为', 'ccomp']
+['PART', 'VERB', 'discourse']	['了', '为', 'discourse']
+['PUNCT', 'ADJ', 'punct']	['。', '很好', 'punct']
+----------------------------------------------------------------------
+我想过，但没有具体的计划。
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (MD 想) (AS 过))) (, ，) (IP (ADVP (RB 但)) (VP (VV 没有) (NP (CP (CP (IP (VP (JJ 具体))) (DEC 的))) (NP (NN 计划))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP64219': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP34127': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['我', '有', 'nsubj']
+['AUX', 'VERB', 'aux']	['想', '有', 'aux']
+['AUX', 'AUX', 'aux']	['过', '想', 'aux']
+['PUNCT', 'AUX', 'punct']	['，', '想', 'punct']
+['ADV', 'VERB', 'mark']	['但', '有', 'mark']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['ADJ', 'NOUN', 'amod']	['具体', '计划', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '具体', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['计划', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+你认为谁是下一个男子网球的超级明星?
+
+(ROOT (IP (NP (PRP 你)) (VP (VV 认为) (IP (VP (VC 谁是) (NP (DNP (NP (DP (DT 下) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 男子) (NN 网球))) (DEC 的)) (ADJP (JJ 超级)) (NP (NN 明星)))))) (. ?)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
 {'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['你', '为', 'nsubj']
+['VERB', 'ROOT', 'root']	['为', 'NONE', 'root']
+['AUX', 'NOUN', 'cop']	['是', '明星', 'cop']
+['DET', 'NOUN', 'det']	['下', '个', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['个', '网球', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['男子', '网球', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['网球', '明星', 'nmod']
+['PART', 'NOUN', 'case']	['的', '网球', 'case']
+['ADJ', 'NOUN', 'amod']	['超级', '明星', 'amod']
+['NOUN', 'VERB', 'ccomp']	['明星', '为', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['?', '为', 'punct']
 ----------------------------------------------------------------------
-克林顿将于明天飞往印尼，然后前往韩国和中国。
+当然，现在我们有罗杰·费德勒，他之后，你看看22岁的拉斐尔·纳达尔，21岁的诺瓦克·德约科维奇。
 
-(ROOT (IP (NP (NNP 克林顿)) (VP (VP (ADVP (RB 将)) (PP (IN 于) (NP (NN 明天))) (VP (VV 飞往) (NP (NNP 印尼)))) (, ，) (VP (ADVP (RB 然后)) (VP (VV 前往) (NP (NNP 韩国) (CC 和) (NNP 中国))))) (. 。)))
+(ROOT (IP (IP (ADVP (RB 当然)) (, ，) (NP (NN 现在)) (NP (PRP 我们)) (VP (VV 有) (NP (NNP 罗杰) (/ ·) (NNP 费德勒)))) (, ，) (IP (LCP (NP (PRP 他)) (IN 之后)) (, ，) (NP (PRP 你)) (VP (VV 看看) (NP (NP (DNP (QP (CD 22) (CLP (NNB 岁))) (DEC 的)) (NP (NNP 拉斐尔) (/ ·) (NNP 纳) (NNP 达尔))) (, ，) (NP (DNP (QP (CD 21) (CLP (NNB 岁))) (DEC 的)) (NP (NNP 诺瓦克) (/ ·) (NNP 德约科维奇)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP91929': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'NP31318': {}, 'VP': {}}, ',': {}, 'IP33559': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'advmod']	['当然', '有', 'advmod']
+['PUNCT', 'ADV', 'punct']	['，', '当然', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['现在', '有', 'nmod:tmod']
+['PRON', 'VERB', 'nsubj']	['我', '有', 'nsubj']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['PROPN', 'VERB', 'obj']	['罗杰', '有', 'obj']
+['PUNCT', 'PROPN', 'punct']	['·', '费德勒', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['费德勒', '罗杰', 'flat:name']
+['PUNCT', 'VERB', 'punct']	['，', '看看', 'punct']
+['PRON', 'VERB', 'obl']	['他', '看看', 'obl']
+['ADP', 'PRON', 'case']	['之后', '他', 'case']
+['PUNCT', 'PRON', 'punct']	['，', '他', 'punct']
+['PRON', 'VERB', 'nsubj']	['你', '看看', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['看看', '有', 'parataxis']
+['NUM', 'NOUN', 'nummod']	['22', '岁', 'nummod']
+['NOUN', 'PROPN', 'nmod']	['岁', '拉斐尔', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '岁', 'mark:rel']
+['PROPN', 'VERB', 'obj']	['拉斐尔', '看看', 'obj']
+['PUNCT', 'PROPN', 'punct']	['·', '纳', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['纳', '拉斐尔', 'flat:name']
+['PROPN', 'PROPN', 'flat:name']	['达尔', '拉斐尔', 'flat:name']
+['PUNCT', 'PROPN', 'punct']	['，', '诺瓦克', 'punct']
+['NUM', 'NOUN', 'nummod']	['21', '岁', 'nummod']
+['NOUN', 'PROPN', 'acl:relcl']	['岁', '诺瓦克', 'acl:relcl']
+['PART', 'NOUN', 'mark:rel']	['的', '岁', 'mark:rel']
+['PROPN', 'PROPN', 'appos']	['诺瓦克', '拉斐尔', 'appos']
+['PUNCT', 'PROPN', 'punct']	['·', '德约科维奇', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['德约科维奇', '诺瓦克', 'flat:name']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+当罗杰完成时，这两个人将把火炬接过来。
+
+(ROOT (IP (LCP (IP (NP (NNP 当罗杰)) (VP (VV 完成))) (IN 时)) (, ，) (NP (DP (DT 这) (QP (CD 两) (CLP (NNB 个)))) (NP (NN 人))) (VP (ADVP (RB 将)) (VP (BB 把) (IP (NP (NN 火炬)) (VP (VRD (VV 接) (VV 过来)))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'IP': {}, 'IN': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['当罗杰', '完成', 'nsubj']
+['VERB', 'ROOT', 'root']	['完成', 'NONE', 'root']
+['ADP', 'VERB', 'mark']	['时', '完成', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '接', 'punct']
+['DET', 'NOUN', 'det']	['这', '个', 'det']
+['NUM', 'NOUN', 'nummod']	['两', '个', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['个', '人', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['人', '接', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '接', 'advmod']
+['ADP', 'NOUN', 'case']	['把', '火炬', 'case']
+['NOUN', 'VERB', 'obl:patient']	['火炬', '接', 'obl:patient']
+['VERB', 'VERB', 'parataxis']	['接', '完成', 'parataxis']
+['VERB', 'VERB', 'mark']	['过来', '接', 'mark']
+['PUNCT', 'VERB', 'punct']	['。', '完成', 'punct']
+----------------------------------------------------------------------
+新型网带和绳带技术对现代网球有帮助还是危害？
+
+(ROOT (IP (NP (ADJP (NN 新型)) (NP (NN 网带) (CC 和) (NN 绳带)) (NP (NN 技术))) (VP (PP (IN 对) (NP (ADJP (NN 现代)) (NP (NN 网球)))) (VP (VP (VV 有) (NP (NN 帮助))) (VC 还是) (VP (VV 危害)))) (. ？)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'ADJP': {}, 'NP': {}, 'NP45539': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'ADJP': {}, 'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'ADJP': {}, 'NP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['新型', '网带', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['网带', '有', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '技术', 'cc']
+['NOUN', 'NOUN', 'nmod']	['绳带', '技术', 'nmod']
+['NOUN', 'NOUN', 'conj']	['技术', '网带', 'conj']
+['ADP', 'NOUN', 'case']	['对', '网球', 'case']
+['NOUN', 'NOUN', 'nmod']	['现代', '网球', 'nmod']
+['NOUN', 'VERB', 'obl']	['网球', '有', 'obl']
+['VERB', 'VERB', 'csubj']	['有', '危害', 'csubj']
+['NOUN', 'VERB', 'obj']	['帮助', '有', 'obj']
+['AUX', 'VERB', 'cop']	['是', '危害', 'cop']
+['VERB', 'ROOT', 'root']	['危害', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['？', '危害', 'punct']
+----------------------------------------------------------------------
+这种球拍显然比我用过的球拍更有助于球员击球，更有旋转，更有控制力。
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 球拍))) (VP (VP (ADVP (RB 显然)) (PP (IN 比) (NP (CP (CP (IP (NP (PRP 我)) (VP (VV 用过))) (DEC 的))) (NP (NN 球拍)))) (ADVP (RB 更)) (VP (VV 有助) (PP (VV 于) (NP (NN 球员) (VV 击球))))) (, ，) (VP (ADVP (RB 更)) (VP (VV 有) (NP (NN 旋转)))) (, ，) (VP (ADVP (RB 更)) (VP (VV 有) (NP (VV 控制) (SFN 力))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP18749': {}, ',60931': {}, 'VP45385': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '球拍', 'clf']
+['NOUN', 'VERB', 'nsubj']	['球拍', '有助', 'nsubj']
+['ADV', 'VERB', 'advmod']	['显然', '有助', 'advmod']
+['ADP', 'NOUN', 'case']	['比', '球拍', 'case']
+['PRON', 'VERB', 'nsubj']	['我', '用过', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['用过', '球拍', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '用过', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['球拍', '有助', 'obl']
+['ADV', 'VERB', 'advmod']	['更', '有助', 'advmod']
+['VERB', 'ROOT', 'root']	['有助', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['于', '有助', 'mark']
+['NOUN', 'VERB', 'nsubj']	['球员', '击球', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['击球', '有助', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '有助', 'punct']
+['ADV', 'VERB', 'advmod']	['更', '有', 'advmod']
+['VERB', 'VERB', 'advcl']	['有', '有', 'advcl']
+['NOUN', 'VERB', 'obj']	['旋转', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['ADV', 'VERB', 'advmod']	['更', '有', 'advmod']
+['VERB', 'VERB', 'parataxis']	['有', '有助', 'parataxis']
+['VERB', 'PART', 'compound']	['控制', '力', 'compound']
+['PART', 'VERB', 'obj']	['力', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+我们可能在比赛中失去了一些细腻的技巧。
+
+(ROOT (IP (NP (PRP 我们)) (VP (MD 可能) (VP (PP (IN 在) (LCP (NP (NN 比赛)) (IN 中))) (VP (VV 失去) (AS 了) (NP (QP (JJ 一些)) (CP (CP (IP (VP (JJ 细腻))) (DEC 的))) (NP (NN 技巧)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['我', '失去', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '失去', 'aux']
+['ADP', 'NOUN', 'case']	['在', '比赛', 'case']
+['NOUN', 'VERB', 'obl']	['比赛', '失去', 'obl']
+['ADP', 'NOUN', 'case']	['中', '比赛', 'case']
+['VERB', 'ROOT', 'root']	['失去', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '失去', 'aux']
+['ADJ', 'NOUN', 'amod']	['一些', '技巧', 'amod']
+['ADJ', 'NOUN', 'amod']	['细腻', '技巧', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '细腻', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['技巧', '失去', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '失去', 'punct']
+----------------------------------------------------------------------
+没有人想要进来发球。
+
+(ROOT (IP (VP (VV 没有) (IP (NP (NN 人)) (VP (MD 想) (IP (VP (MD 要) (IP (VP (VV 进来) (IP (VP (VV 发球)))))))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['NOUN', 'VERB', 'nsubj']	['人', '进来', 'nsubj']
+['AUX', 'VERB', 'aux']	['想', '进来', 'aux']
+['AUX', 'VERB', 'aux']	['要', '进来', 'aux']
+['VERB', 'VERB', 'ccomp']	['进来', '有', 'ccomp']
+['VERB', 'VERB', 'xcomp']	['发球', '进来', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+你在世界上最好的网球场上打过球吗？你最喜欢哪个网球场？
+
+(ROOT (CP (IP (NP (CP (CP (IP (NP (PRP 你)) (VP (PP (IN 在) (LCP (NP (NN 世界)) (IN 上))) (VP (JJ 最好)))) (DEC 的))) (NP (NN 网球) (SFN 场))) (VP (VV 上打) (NP (NN 过球)))) (UH 吗) (. ？)))
+layer 2:
+{'CP': {'IP': {}, 'UH': {}, '.': {}}}
+{'CP': {'IP': {}, 'UH': {}, '.': {}}}
+layer 3:
+{'CP': {'IP': {'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'CP': {'IP': {'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['你', '上打', 'nsubj']
+['ADP', 'PART', 'case']	['在', '场', 'case']
+['NOUN', 'PART', 'nmod']	['世界', '场', 'nmod']
+['ADP', 'NOUN', 'case']	['上', '世界', 'case']
+['ADJ', 'PART', 'amod']	['最好', '场', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '最好', 'mark:rel']
+['NOUN', 'PART', 'compound']	['网球', '场', 'compound']
+['PART', 'VERB', 'obl']	['场', '上打', 'obl']
+['VERB', 'ROOT', 'root']	['上打', 'NONE', 'root']
+['NOUN', 'VERB', 'obj']	['过球', '上打', 'obj']
+['PART', 'VERB', 'discourse']	['吗', '上打', 'discourse']
+['PUNCT', 'VERB', 'punct']	['？', '上打', 'punct']
+----------------------------------------------------------------------
+Jen Reinhard，旧金山，温布尔登中央球场。
+
+(ROOT (NP (NP (FW Jen) (FW Reinhard)) (, ，) (NP (NNP 旧金山)) (, ，) (NP (NNP 温) (NNP 布尔) (VV 登) (NN 中央) (NN 球场)) (. 。)))
+layer 2:
+{'NP': {'NP': {}, ',': {}, 'NP21504': {}, ',36831': {}, 'NP49539': {}, '.': {}}}
+{'NP': {'NP': {}, ',': {}, 'NP': {}, ',': {}, 'NP': {}, '.': {}}}
+layer 3:
+{'NP': {'NP': {'FW': {}, 'FW27847': {}}, ',': {}, 'NP43792': {'NNP': {}}, ',53090': {}, 'NP59250': {'NNP': {}, 'NNP98218': {}, 'VV': {}, 'NN': {}, 'NN16948': {}}, '.': {}}}
+{'NP': {'NP': {'FW': {}, 'FW': {}}, ',': {}, 'NP': {'NNP': {}}, ',': {}, 'NP': {'NNP': {}, 'NNP': {}, 'VV': {}, 'NN': {}, 'NN': {}}, '.': {}}}
+{'NP': {'FW': {}, 'FW': {}}}
 {'NP': {'NNP': {}}}
+{'NP': {'NNP': {}, 'NNP': {}, 'VV': {}, 'NN': {}, 'NN': {}}}
+Dependency Features:
+['X', 'VERB', 'nsubj']	['Jen', '登', 'nsubj']
+['X', 'X', 'flat:foreign']	['Reinhard', 'Jen', 'flat:foreign']
+['PUNCT', 'PROPN', 'punct']	['，', '旧金山', 'punct']
+['PROPN', 'X', 'appos']	['旧金山', 'Jen', 'appos']
+['PUNCT', 'X', 'punct']	['，', 'Jen', 'punct']
+['PROPN', 'VERB', 'nsubj']	['温', '登', 'nsubj']
+['PROPN', 'PROPN', 'flat:name']	['布尔', '温', 'flat:name']
+['VERB', 'ROOT', 'root']	['登', 'NONE', 'root']
+['NOUN', 'NOUN', 'nmod']	['中央', '球场', 'nmod']
+['NOUN', 'VERB', 'obj']	['球场', '登', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '登', 'punct']
+----------------------------------------------------------------------
+我只是喜欢这种氛围，喜欢这种亲密感。
+
+(ROOT (IP (NP (PRP 我)) (VP (VP (ADVP (RB 只)) (VP (VC 是) (VP (VV 喜欢) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 氛围)))))) (, ，) (VP (VV 喜欢) (NP (DP (DT 这) (CLP (NNB 种))) (NP (JJ 亲密) (SFN 感))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP55423': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
 {'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['我', '是', 'nsubj']
+['ADV', 'VERB', 'advmod']	['只', '是', 'advmod']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['喜欢', '是', 'xcomp']
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '氛围', 'clf']
+['NOUN', 'VERB', 'nsubj']	['氛围', '喜欢', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '氛围', 'punct']
+['VERB', 'VERB', 'ccomp']	['喜欢', '喜欢', 'ccomp']
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'PART', 'nmod']	['种', '感', 'nmod']
+['ADJ', 'PART', 'compound']	['亲密', '感', 'compound']
+['PART', 'VERB', 'obj']	['感', '喜欢', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+当年，我在电视上看到法庭的场景，对我来说很有影响。
+
+(ROOT (IP (IP (NP (NN 当年)) (, ，) (NP (PRP 我)) (VP (PP (IN 在) (LCP (NP (NN 电视)) (IN 上))) (VP (VV 看到) (NP (DNP (NP (NN 法庭)) (DEC 的)) (NP (NN 场景)))))) (, ，) (IP (VP (IP (VP (PP (IN 对) (NP (PRP 我))) (VP (RB 来) (VP (VV 说))))) (ADVP (RB 很)) (VP (VV 有) (NP (NN 影响))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP60571': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP29808': {}, 'VP': {}}, ',': {}, 'IP13840': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nmod:tmod']	['当年', '看到', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '当年', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '看到', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '电视', 'case']
+['NOUN', 'VERB', 'obl']	['电视', '看到', 'obl']
+['ADP', 'NOUN', 'case']	['上', '电视', 'case']
+['VERB', 'ROOT', 'root']	['看到', 'NONE', 'root']
+['NOUN', 'NOUN', 'nmod']	['法庭', '场景', 'nmod']
+['PART', 'NOUN', 'case']	['的', '法庭', 'case']
+['NOUN', 'VERB', 'nsubj']	['场景', '说', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '场景', 'punct']
+['ADP', 'PRON', 'case']	['对', '我', 'case']
+['PRON', 'VERB', 'obl']	['我', '说', 'obl']
+['ADV', 'VERB', 'mark']	['来', '说', 'mark']
+['VERB', 'VERB', 'ccomp']	['说', '看到', 'ccomp']
+['ADV', 'VERB', 'advmod']	['很', '有', 'advmod']
+['VERB', 'VERB', 'xcomp']	['有', '说', 'xcomp']
+['NOUN', 'VERB', 'obj']	['影响', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
+----------------------------------------------------------------------
+不是不尊重美国公开赛和法国公开赛，但这个比赛最独特。
+
+(ROOT (IP (IP (VP (VC 不是) (VP (ADVP (RB 不)) (VP (VV 尊重) (NP (NP (NNP 美国) (JJ 公开) (SFN 赛)) (CC 和) (NP (NNP 法国) (JJ 公开) (SFN 赛))))))) (, ，) (IP (ADVP (RB 但)) (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 比赛))) (VP (ADVP (RB 最)) (VP (JJ 独特)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP37810': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP75793': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['ADV', 'VERB', 'advmod']	['不', '尊重', 'advmod']
+['VERB', 'VERB', 'xcomp']	['尊重', '是', 'xcomp']
+['PROPN', 'PART', 'nmod']	['美国', '赛', 'nmod']
+['ADJ', 'PART', 'compound']	['公开', '赛', 'compound']
+['PART', 'VERB', 'obj']	['赛', '尊重', 'obj']
+['CCONJ', 'PART', 'cc']	['和', '赛', 'cc']
+['PROPN', 'PART', 'nmod']	['法国', '赛', 'nmod']
+['ADJ', 'PART', 'compound']	['公开', '赛', 'compound']
+['PART', 'PART', 'conj']	['赛', '赛', 'conj']
+['PUNCT', 'ADJ', 'punct']	['，', '独特', 'punct']
+['ADV', 'ADJ', 'mark']	['但', '独特', 'mark']
+['DET', 'NOUN', 'det']	['这', '个', 'det']
+['NOUN', 'NOUN', 'clf']	['个', '比赛', 'clf']
+['NOUN', 'ADJ', 'nsubj']	['比赛', '独特', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['最', '独特', 'advmod']
+['ADJ', 'VERB', 'parataxis']	['独特', '是', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+它一百年来没有改变。
+
+(ROOT (IP (NP (PRP 它)) (VP (LCP (QP (CD 一百) (CLP (NNB 年))) (IN 来)) (VP (VV 没有) (VP (VV 改变)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'LCP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'LCP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'LCP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['它', '有', 'nsubj']
+['NUM', 'NOUN', 'nummod']	['一百', '年', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['年', '有', 'nmod:tmod']
+['ADP', 'NOUN', 'case']	['来', '年', 'case']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['改变', '有', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+随着奥运圣火引发政治纷争，你认为运动员应该对世界重大问题表明立场吗？
+
+(ROOT (IP (PP (VV 随) (PP (AS 着) (IP (NP (NNP 奥运) (NN 圣火)) (VP (VV 引发) (NP (NN 政治) (NN 纷争)))))) (, ，) (NP (PRP 你)) (VP (VV 认为) (CP (IP (NP (VV 运动) (SFN 员)) (VP (MD 应该) (VP (PP (IN 对) (NP (NP (NN 世界)) (ADJP (JJ 重大)) (NP (NN 问题)))) (VP (VV 表明) (NP (NN 立场)))))) (UH 吗))) (. ？)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'CP': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'CP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'PP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'CP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['随', '为', 'advcl']
+['AUX', 'VERB', 'aux']	['着', '随', 'aux']
+['PROPN', 'NOUN', 'nmod']	['奥运', '圣火', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['圣火', '引发', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['引发', '随', 'ccomp']
+['NOUN', 'NOUN', 'nmod']	['政治', '纷争', 'nmod']
+['NOUN', 'VERB', 'obj']	['纷争', '引发', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '随', 'punct']
+['PRON', 'VERB', 'nsubj']	['你', '为', 'nsubj']
+['VERB', 'ROOT', 'root']	['为', 'NONE', 'root']
+['VERB', 'PART', 'compound']	['运动', '员', 'compound']
+['PART', 'VERB', 'nsubj']	['员', '表明', 'nsubj']
+['AUX', 'VERB', 'aux']	['应该', '表明', 'aux']
+['ADP', 'NOUN', 'case']	['对', '问题', 'case']
+['NOUN', 'NOUN', 'nmod']	['世界', '问题', 'nmod']
+['ADJ', 'NOUN', 'amod']	['重大', '问题', 'amod']
+['NOUN', 'VERB', 'obl']	['问题', '表明', 'obl']
+['VERB', 'VERB', 'ccomp']	['表明', '为', 'ccomp']
+['NOUN', 'VERB', 'obj']	['立场', '表明', 'obj']
+['PART', 'VERB', 'discourse']	['吗', '表明', 'discourse']
+['PUNCT', 'VERB', 'punct']	['？', '为', 'punct']
+----------------------------------------------------------------------
+我个人不这么认为。
+
+(ROOT (IP (NP (NP (PRP 我)) (NP (NN 个人))) (VP (ADVP (RB 不)) (ADVP (RB 这么)) (VP (VV 认为))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP76533': {}}, 'VP': {'ADVP': {}, 'ADVP64014': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['我', '为', 'nsubj']
+['NOUN', 'VERB', 'nsubj']	['个人', '为', 'nsubj']
+['ADV', 'VERB', 'advmod']	['不', '为', 'advmod']
+['ADV', 'VERB', 'advmod']	['这么', '为', 'advmod']
+['VERB', 'ROOT', 'root']	['为', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['。', '为', 'punct']
+----------------------------------------------------------------------
+我不该告诉你谁值得你投票，我不该采取任何政治立场，我不该告诉你要信奉什么宗教。我是一名运动员。
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (ADVP (MD 不该)) (VP (VV 告诉) (NP (PRP 你)) (IP (NP (WP 谁)) (VP (VV 值得) (IP (NP (PRP 你)) (VP (VV 投票)))))))) (, ，) (IP (NP (PRP 我)) (VP (MD 不该) (VP (VV 采取) (NP (DP (DT 任何)) (NP (NN 政治) (NN 立场)))))) (, ，) (IP (NP (PRP 我)) (VP (ADVP (MD 不该)) (VP (VV 告诉) (NP (PRP 你)) (IP (VP (MD 要) (VP (VV 信奉) (NP (DP (WP 什么)) (NP (NN 宗教))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP92916': {}, ',17662': {}, 'IP10761': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP77193': {'NP': {}, 'VP': {}}, ',80758': {}, 'IP35575': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['我', '告诉', 'nsubj']
+['AUX', 'VERB', 'aux']	['该', '告诉', 'aux']
+['VERB', 'ROOT', 'root']	['告诉', 'NONE', 'root']
+['PRON', 'VERB', 'nsubj']	['你', '值得', 'nsubj']
+['PRON', 'VERB', 'nsubj']	['谁', '值得', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['值得', '告诉', 'ccomp']
+['PRON', 'VERB', 'nsubj']	['你', '投票', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['投票', '值得', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '采取', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '采取', 'nsubj']
+['AUX', 'VERB', 'aux']	['该', '采取', 'aux']
+['VERB', 'VERB', 'parataxis']	['采取', '告诉', 'parataxis']
+['DET', 'NOUN', 'det']	['任何', '立场', 'det']
+['NOUN', 'NOUN', 'nmod']	['政治', '立场', 'nmod']
+['NOUN', 'VERB', 'obj']	['立场', '采取', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '告诉', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '告诉', 'nsubj']
+['AUX', 'VERB', 'aux']	['该', '告诉', 'aux']
+['VERB', 'VERB', 'parataxis']	['告诉', '告诉', 'parataxis']
+['PRON', 'VERB', 'nsubj']	['你', '信奉', 'nsubj']
+['AUX', 'VERB', 'aux']	['要', '信奉', 'aux']
+['VERB', 'VERB', 'ccomp']	['信奉', '告诉', 'ccomp']
+['PRON', 'NOUN', 'det']	['什么', '宗教', 'det']
+['NOUN', 'VERB', 'obj']	['宗教', '信奉', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '告诉', 'punct']
+----------------------------------------------------------------------
+我可以影响某些事情，但是当我看到其他运动员和名人告诉你谁要投票时，我实际上会有点冒犯。
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (MD 可以) (VP (VV 影响) (NP (DP (DT 某些)) (NP (NN 事情)))))) (, ，) (IP (ADVP (RB 但是)) (PP (IN 当) (LCP (IP (NP (PRP 我)) (VP (VV 看到) (IP (NP (DP (DT 其他)) (NP (VV 运动) (SFN 员) (CC 和) (NN 名人))) (VP (VV 告诉) (NP (PRP 你)) (IP (NP (WP 谁)) (VP (MD 要) (VP (VV 投票)))))))) (IN 时))) (, ，) (NP (PRP 我)) (VP (LCP (NP (NN 实际)) (IN 上)) (VP (MD 会) (VP (ADVP (RB 有点)) (VP (VV 冒) (NP (VV 犯))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP88097': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP65861': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['我', '影响', 'nsubj']
+['AUX', 'VERB', 'aux']	['可以', '影响', 'aux']
+['VERB', 'ROOT', 'root']	['影响', 'NONE', 'root']
+['DET', 'NOUN', 'det']	['某些', '事情', 'det']
+['NOUN', 'VERB', 'obj']	['事情', '影响', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '看到', 'punct']
+['ADV', 'VERB', 'mark']	['但是', '看到', 'mark']
+['ADP', 'VERB', 'case']	['当', '看到', 'case']
+['PRON', 'VERB', 'nsubj']	['我', '看到', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['看到', '影响', 'ccomp']
+['DET', 'PART', 'det']	['其他', '员', 'det']
+['VERB', 'PART', 'compound']	['运动', '员', 'compound']
+['PART', 'VERB', 'nsubj']	['员', '告诉', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '名人', 'cc']
+['NOUN', 'PART', 'conj']	['名人', '员', 'conj']
+['VERB', 'VERB', 'ccomp']	['告诉', '看到', 'ccomp']
+['PRON', 'VERB', 'nsubj']	['你', '投票', 'nsubj']
+['PRON', 'VERB', 'nsubj']	['谁', '投票', 'nsubj']
+['AUX', 'VERB', 'aux']	['要', '投票', 'aux']
+['VERB', 'VERB', 'ccomp']	['投票', '告诉', 'ccomp']
+['ADP', 'VERB', 'mark']	['时', '告诉', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '告诉', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '冒', 'nsubj']
+['NOUN', 'VERB', 'obl']	['实际', '冒', 'obl']
+['ADP', 'NOUN', 'case']	['上', '实际', 'case']
+['AUX', 'VERB', 'aux']	['会', '冒', 'aux']
+['ADV', 'VERB', 'advmod']	['有点', '冒', 'advmod']
+['VERB', 'VERB', 'parataxis']	['冒', '影响', 'parataxis']
+['VERB', 'VERB', 'xcomp']	['犯', '冒', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '影响', 'punct']
 ----------------------------------------------------------------------

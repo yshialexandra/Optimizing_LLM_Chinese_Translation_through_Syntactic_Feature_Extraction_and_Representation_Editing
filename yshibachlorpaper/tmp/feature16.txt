@@ -1,346 +1,864 @@
-不久前，伊朗对英国的看法却很低，简直就是“小恶魔”。
+联合国今天发布的一份报告称，除非投入数百亿美元用于改善灌溉系统，以便为人口不断增长的亚洲种植农作物，否则亚洲将面临前所未有的粮食危机和巨大的社会动荡。
 
-(ROOT (IP (IP (LCP (NP (NN 不久)) (IN 前)) (, ，) (NP (NP (NNP 伊朗)) (DNP (PP (IN 对) (NP (NNP 英国))) (DEC 的)) (NP (NN 看法))) (VP (ADVP (RB 却)) (VP (JJ 很低)))) (, ，) (IP (VP (ADVP (RB 简直)) (VP (VC 就是) (NP (`` “) (ADJP (PFA 小)) (NP (NN 恶魔)) ('' ”))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}}}
-----------------------------------------------------------------------
-就伊朗最高领袖而言，真正的敌人是美国，这个“大恶魔”，他们认为美国对自由和自由市场资本主义的热爱是伊斯兰革命生存的最严重威胁。
-
-(ROOT (IP (IP (IP (VP (PP (IN 就) (NP (NP (NNP 伊朗)) (ADJP (JJ 最高)) (NP (NN 领袖)))) (VP (RB 而) (VP (VV 言))))) (, ，) (NP (CP (CP (IP (VP (JJ 真正))) (DEC 的))) (NP (NN 敌人))) (VP (VC 是) (NP (NNP 美国)))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (`` “) (ADJP (PFA 大)) (NP (NN 恶魔)) ('' ”))) (, ，) (NP (PRP 他们)) (VP (VV 认为) (IP (NP (NP (NNP 美国)) (DNP (PP (IN 对) (NP (NP (NN 自由) (CC 和) (NN 自由) (NN 市场)) (NP (NN 资本) (NN 主义)))) (DEC 的)) (NP (NN 热爱))) (VP (VC 是) (NP (DNP (NP (NP (NP (NNP 伊斯兰)) (NP (NN 革命))) (NP (VV 生存))) (DEC 的)) (ADJP (ADVP (RB 最)) (ADJP (JJ 严重))) (NP (NN 威胁))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-正是出于这个原因，1979 年哈梅内伊取得政权后，革命卫队占领了位于德黑兰的美国大使馆，而不是英国大使馆，并将其 66 名工作人员扣为人质。
-
-(ROOT (IP (IP (VP (VC 正是) (VP (VV 出) (PP (VV 于) (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 原因))))))) (, ，) (LCP (IP (NP (CD 1979) (NNP 年哈梅内伊)) (VP (VV 取得) (NP (NN 政权)))) (IN 后)) (, ，) (NP (NN 革命) (NN 卫队)) (VP (VP (VV 占领) (AS 了) (NP (CP (CP (IP (VP (VV 位) (PP (VV 于) (NP (NNP 德黑兰))))) (DEC 的))) (NP (NNP 美国)) (NP (NN 大使) (SFN 馆)))) (, ，) (RB 而) (VP (VC 不是) (NP (NP (NNP 英国)) (NP (NN 大使) (SFN 馆)))) (, ，) (RB 并) (VP (BB 将) (IP (NP (NP (PRP 其)) (QP (CD 66) (CLP (NNB 名))) (NP (NN 工作) (NN 人员))) (VP (VRD (VV 扣) (VC 为)) (NP (NN 人质)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NN': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}, ',': {}, 'RB': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'LCP': {'IP': {}, 'IN': {}}}
-{'NP': {'NN': {}, 'NN': {}}}
-{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}, ',': {}, 'RB': {}}}
-----------------------------------------------------------------------
-1943 年在德黑兰会议上，温斯顿·丘吉尔 (Winston Churchill) 住在英国外交使团的宽敞大院里，但在伊朗革命期间，这里被伊朗卫队占领了一阵，但后来被撤离，因为穆尔达 (mullahs) 并不认为英国足够重要，可以用勒索来换取。
-
-(ROOT (IP (IP (LCP (NP (LCP (NP (CD 1943)) (NNB 年在)) (NP (NNP 德黑兰)) (NP (NN 会议))) (IN 上)) (, ，) (NP (NNP 温斯顿) (/ ·) (NNP 丘吉尔) (FW -LRB-Winston) (FW Churchill-RRB-)) (VP (VV 住) (PP (IN 在) (LCP (NP (DNP (NP (NP (NNP 英国)) (NP (NN 外交) (NN 使团))) (DEC 的)) (ADJP (JJ 宽敞)) (NP (NN 大院))) (NN 里))))) (, ，) (IP (ADVP (RB 但)) (PP (IN 在) (NP (NP (NP (NNP 伊朗)) (NP (NN 革命))) (NP (NN 期间)))) (, ，) (NP (PRD 这里)) (VP (BB 被) (IP (NP (NP (NNP 伊朗)) (NP (NN 卫队))) (VP (VV 占领) (AS 了) (QP (CD 一) (CLP (NN 阵))))))) (, ，) (IP (ADVP (RB 但)) (VP (ADVP (NN 后来)) (VP (BB 被) (VP (VV 撤离))))) (, ，) (PP (IN 因为) (IP (NP (NNP 穆尔达) (FW -LRB-mullahs-RRB-)) (VP (VP (ADVP (RB 并不)) (VP (VV 认为) (IP (NP (NNP 英国)) (VP (ADVP (RB 足够)) (VP (JJ 重要)))))) (, ，) (VP (MD 可以) (VP (VV 用) (NP (RB 勒索来)) (VP (VV 换取))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'PP': {}, '.': {}}}
-{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, 'ADVP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, 'ADVP': {}, 'VP': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
-----------------------------------------------------------------------
-但30年后，看起来一切都改变了，因为现在是英国，而不是美国，扮演着遭到阿亚图拉们愤怒的角色。
-
-(ROOT (IP (IP (ADVP (RB 但)) (LCP (QP (CD 30) (CLP (NNB 年))) (IN 后)) (, ，) (VP (VRD (VV 看) (VV 起来)) (IP (NP (DT 一切)) (VP (ADVP (RB 都)) (VP (VV 改变) (UH 了)))))) (, ，) (PP (IN 因为) (IP (IP (IP (NP (NN 现在)) (VP (VC 是) (NP (NNP 英国)))) (, ，) (RB 而) (VP (VC 不是) (NP (NNP 美国))) (, ，) (VP (VV 扮演) (AS 着) (NP (CP (CP (IP (VP (VV 遭到) (NP (NP (NNP 阿亚图拉) (SFN 们)) (NP (JJ 愤怒))))) (DEC 的))) (NP (NN 角色))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, 'LCP': {}, ',': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, 'LCP': {}, ',': {}, 'VP': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
-----------------------------------------------------------------------
-在上周发起对抗性外交驱逐之后，伊朗当局驱逐了两名英国中层外交官，指控他们煽动反政府示威游行，伊朗当局随后又逮捕了另外九名英国大使馆雇员。
-
-(ROOT (IP (IP (PP (IN 在) (LCP (IP (VP (NP (NN 上周)) (VP (VV 发起) (NP (VV 对抗) (SFN 性) (NN 外交) (NN 驱逐))))) (IN 之后))) (, ，) (NP (NP (NNP 伊朗)) (NP (NN 当局))) (VP (VP (VV 驱逐) (AS 了) (NP (QP (CD 两) (CLP (NNB 名))) (NP (NNP 英国)) (NP (ADJP (NNP 中)) (NP (SFN 层))) (NP (NN 外交) (SFN 官)))) (, ，) (VP (VV 指控) (NP (PRP 他们)) (IP (VP (VV 煽动) (NP (IP (VP (VV 反) (NP (NN 政府)))) (NP (NN 示威) (NN 游行)))))))) (, ，) (IP (NP (NP (NNP 伊朗)) (NP (NN 当局))) (VP (ADVP (RB 随后)) (ADVP (RB 又)) (VP (VV 逮捕) (AS 了) (NP (NP (QP (ADJP (DT 另外)) (QP (CD 九) (CLP (NNB 名)))) (NP (NNP 英国)) (NP (NN 大使) (SFN 馆))) (NP (NN 雇员)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-虽然一些工人已经获释，但政权对英国的抨击没有停止。
-
-(ROOT (IP (CP (ADVP (IN 虽然)) (IP (NP (QP (JJ 一些)) (NP (NN 工人))) (VP (ADVP (RB 已经)) (VP (VV 获释))))) (, ，) (ADVP (RB 但)) (NP (NP (NN 政权)) (DNP (PP (IN 对) (NP (NNP 英国))) (DEC 的)) (NP (NN 抨击))) (VP (VV 没有) (VP (VV 停止))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'NP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'NP': {}, 'DNP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'VP': {}}}
-----------------------------------------------------------------------
-伊朗最高领袖阿亚图拉·阿里·哈梅内伊发起了反英讲话，指责英国是该国敌人中最“背信弃义”的国家，此后，伊朗著名人士们纷纷站出来谴责“阴险”的英国。
-
-(ROOT (IP (IP (NP (NP (NP (NNP 伊朗)) (ADJP (JJ 最高)) (NP (NN 领袖))) (NP (NNP 阿亚图拉) (/ ·) (NNP 阿里) (/ ·) (NNP 哈梅内伊))) (VP (VP (VV 发起) (AS 了) (NP (ADJP (NN 反英)) (NP (NN 讲话)))) (, ，) (VP (VV 指责) (NP (NNP 英国)) (IP (VP (VC 是) (NP (CP (CP (IP (VP (LCP (NP (NP (NN 该国)) (NP (NN 敌人))) (IN 中)) (ADVP (RB 最)) (VP (`` “) (VCD (VV 背信) (VV 弃义)) ('' ”)))) (DEC 的))) (NP (NN 国家)))))))) (, ，) (NP (CP (CP (IP (ADVP (NN 此后)) (, ，) (NP (NP (NNP 伊朗)) (ADJP (JJ 著名)) (NP (NN 人士) (SFN 们))) (VP (ADVP (RB 纷纷)) (VP (VP (VRD (VV 站) (VV 出来))) (VP (VV 谴责) (NP (`` “) (JJ 阴险) ('' ”)))))) (DEC 的))) (NP (NNP 英国))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-----------------------------------------------------------------------
-这场争端的核心是德黑兰坚持认为，英国间谍是挑起伊朗自 1979 年以来最严重的街头抗议活动的罪魁祸首。
-
-(ROOT (IP (NP (DNP (NP (DP (DT 这) (CLP (NNB 场))) (NP (NN 争端))) (DEC 的)) (NP (NN 核心))) (VP (VC 是) (IP (NP (NNP 德黑兰)) (VP (VV 坚持) (IP (VP (VV 认为) (, ，) (IP (NP (NP (NNP 英国)) (NP (NN 间谍))) (VP (VC 是) (NP (CP (CP (IP (VP (VV 挑起) (NP (NP (NNP 伊朗)) (CP (CP (IP (VP (PP (IN 自) (LCP (NP (CD 1979)) (NNB 年以来))) (ADVP (RB 最)) (VP (JJ 严重)))) (DEC 的))) (NP (NN 街头) (NN 抗议) (NN 活动))))) (DEC 的))) (NP (VV 罪魁) (SFN 祸) (NN 首)))))))))) (. 。)))
+(ROOT (IP (NP (CP (CP (IP (NP (VV 联合) (SFN 国)) (VP (NP (NN 今天)) (VP (VV 发布)))) (DEC 的))) (QP (CD 一) (CLP (NNB 份))) (NP (NN 报告))) (VP (VV 称) (, ，) (IP (IP (CP (ADVP (IN 除非)) (IP (VP (VP (VV 投入) (QP (CD 数百亿) (CLP (NNP 美) (CLP (NNB 元))))) (VP (VV 用) (PP (VV 于) (IP (VP (VV 改善) (NP (NN 灌溉) (NN 系统))))))))) (, ，) (VP (RB 以) (VP (ADVP (VV 便)) (PP (IN 为) (NP (CP (CP (IP (NP (NN 人口)) (VP (ADVP (RB 不断)) (VP (VV 增长)))) (DEC 的))) (NP (NNP 亚洲)))) (VP (VV 种植) (NP (NN 农) (NN 作物)))))) (, ，) (ADVP (VV 否则)) (NP (NNP 亚洲)) (VP (ADVP (RB 将)) (VP (VV 面临) (NP (NP (CP (CP (IP (VP (ADVP (NN 前)) (VP (RB 所) (VP (VV 未有))))) (DEC 的))) (NP (NN 粮食) (NN 危机))) (CC 和) (NP (CP (CP (IP (VP (JJ 巨大))) (DEC 的))) (NP (NN 社会) (NN 动荡)))))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'IP': {}}}
-----------------------------------------------------------------------
-伊朗外交部长马努赫·莫塔基甚至指责英国派遣载有特工的飞机飞往伊朗，“有着特殊的情报和安全野心”。
-
-(ROOT (IP (NP (NP (NP (NNP 伊朗)) (NP (NN 外交) (NN 部长))) (NP (NNP 马努赫) (/ ·) (NNP 莫塔基))) (VP (ADVP (RB 甚至)) (VP (VV 指责) (NP (NNP 英国)) (IP (VP (VP (VV 派遣) (NP (CP (CP (IP (VP (VV 载有) (NP (NN 特工)))) (DEC 的))) (NP (NN 飞机))) (IP (VP (VV 飞往) (NP (NNP 伊朗))))) (, ，) (VP (`` “) (VV 有) (AS 着) (NP (CP (CP (IP (VP (JJ 特殊))) (DEC 的))) (NP (NN 情报) (CC 和) (NN 安全)) (NP (NN 野心))) ('' ”)))))) (. 。)))
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-以往，伊朗的洗劫和处决都是针对被指控为美国或以色列间谍的人。
-
-(ROOT (IP (NP (NN 以往)) (, ，) (NP (DNP (NP (NNP 伊朗)) (DEC 的)) (NP (NN 洗劫) (CC 和) (NN 处决))) (VP (VC 都是) (PP (VV 针对) (NP (CP (CP (IP (VP (BB 被) (VP (VCP (VV 指控) (VC 为)) (NP (NP (NP (NNP 美国)) (CC 或) (NP (NNP 以色列))) (NP (NN 间谍)))))) (DEC 的))) (NP (NN 人))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'PP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'PP': {}}}
-----------------------------------------------------------------------
-但是，英国成为穆尔拉党最新的黑暗之主，表明英伊关系即将经历另一个强烈紧张期。
-
-(ROOT (IP (ADVP (RB 但是)) (, ，) (NP (NNP 英国)) (VP (VP (VV 成) (VP (VC 为) (NP (NP (NNP 穆尔拉) (SFN 党)) (CP (CP (IP (VP (JJ 最新))) (DEC 的))) (DNP (NP (NN 黑暗)) (DEC 之)) (NP (NN 主))))) (, ，) (VP (VV 表明) (IP (NP (NP (NNP 英) (NNP 伊)) (NP (NN 关系))) (VP (ADVP (RB 即将)) (VP (VV 经历) (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 个)))) (ADJP (JJ 强烈)) (NP (JJ 紧张) (SFN 期)))))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在某种程度上，伊朗政权对英国发难的决定是奥巴马总统对国际舞台的影响的结果。
-
-(ROOT (IP (PP (IN 在) (LCP (NP (ADJP (DT 某种)) (NP (NN 程度))) (IN 上))) (, ，) (NP (CP (NP (NP (NP (NNP 伊朗)) (NP (NN 政权))) (VP (PP (IN 对) (NP (NNP 英国))) (VP (VV 发难)))) (DEC 的)) (NP (NN 决定))) (VP (VC 是) (NP (DNP (NP (NP (NNP 奥巴马) (NN 总统)) (DNP (PP (IN 对) (NP (NN 国际) (NN 舞台))) (DEC 的)) (NP (NN 影响))) (DEC 的)) (NP (NN 结果)))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
-----------------------------------------------------------------------
-在布什政府时期，华盛顿将伊朗视为“邪恶轴心”中的独裁国家，在此期间，德黑兰没有犹豫地谴责华盛顿试图破坏伊斯兰革命的企图。
-
-(ROOT (IP (IP (PP (IN 在) (NP (NP (NP (NNP 布什)) (NP (NN 政府))) (NP (NN 时期)))) (, ，) (NP (NNP 华盛顿)) (VP (BB 将) (IP (NP (NNP 伊朗)) (VP (VRD (VV 视) (VC 为)) (NP (DNP (LCP (NP (`` “) (ADJP (JJ 邪恶)) (NP (NN 轴心)) ('' ”)) (IN 中)) (DEC 的)) (NP (VV 独裁) (SFN 国) (SFN 家))))))) (, ，) (IP (PP (IN 在) (NP (DP (DT 此)) (NP (NN 期间)))) (, ，) (NP (NNP 德黑兰)) (VP (DVP (VP (VV 没有) (VP (JJ 犹豫))) (DEV 地)) (VP (VV 谴责) (NP (NNP 华盛顿)) (NP (CP (IP (VP (VV 试图) (IP (VP (VV 破坏) (NP (NP (NNP 伊斯兰)) (NP (NN 革命))))))) (DEC 的)) (NP (NN 企图)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-但奥巴马先生抵达白宫标志着华盛顿对伊朗的处理方式有了新的开端
-
-(ROOT (IP (ADVP (RB 但)) (IP (NP (NNP 奥巴马) (NN 先生)) (VP (VV 抵达) (NP (NNP 白宫)))) (VP (VV 标志) (AS 着) (IP (NP (NP (NNP 华盛顿)) (DNP (PP (IN 对) (NP (NNP 伊朗))) (DEC 的)) (NP (NN 处理) (NN 方式))) (VP (VV 有) (AS 了) (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 开端))))))))
-{'IP': {'ADVP': {}, 'IP': {}, 'VP': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'IP': {'NP': {}, 'VP': {}}, 'VP': {'VV': {}, 'AS': {}, 'IP': {}}}}
-{'ADVP': {'RB': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'IP': {}}}
-----------------------------------------------------------------------
-美国总统提议，如果伊朗政权同意“松开拳头”，愿意与德黑兰进行面对面的会谈。
-
-(ROOT (IP (NP (NP (NNP 美国)) (NP (NN 总统))) (VP (VV 提议) (, ，) (IP (CP (ADVP (IN 如果)) (IP (NP (NP (NNP 伊朗)) (NP (NN 政权))) (VP (VV 同意) (IP (VP (`` “) (VV 松开) (NP (NN 拳头)) ('' ”)))))) (, ，) (VP (MD 愿意) (IP (VP (PP (IN 与) (NP (NNP 德黑兰))) (VP (VV 进行) (NP (CP (CP (IP (VP (VV 面对) (NP (NN 面)))) (DEC 的))) (NP (NN 会谈))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'QP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'QP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'QP': {}, 'NP': {}}}
 {'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['VERB', 'PART', 'compound']	['联合', '国', 'compound']
+['PART', 'VERB', 'nsubj']	['国', '发布', 'nsubj']
+['NOUN', 'VERB', 'nmod:tmod']	['今天', '发布', 'nmod:tmod']
+['VERB', 'NOUN', 'acl:relcl']	['发布', '报告', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '发布', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['一', '份', 'nummod']
+['NOUN', 'NOUN', 'clf']	['份', '报告', 'clf']
+['NOUN', 'VERB', 'nsubj']	['报告', '称', 'nsubj']
+['VERB', 'ROOT', 'root']	['称', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '面临', 'punct']
+['ADP', 'VERB', 'case']	['除非', '投入', 'case']
+['VERB', 'VERB', 'xcomp']	['投入', '便', 'xcomp']
+['NUM', 'NOUN', 'nummod']	['数百亿', '元', 'nummod']
+['PROPN', 'NOUN', 'nmod']	['美', '元', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['元', '用', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['用', '投入', 'ccomp']
+['VERB', 'VERB', 'mark']	['于', '用', 'mark']
+['VERB', 'VERB', 'xcomp']	['改善', '用', 'xcomp']
+['NOUN', 'NOUN', 'nmod']	['灌溉', '系统', 'nmod']
+['NOUN', 'VERB', 'obj']	['系统', '改善', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '投入', 'punct']
+['ADV', 'VERB', 'mark']	['以', '便', 'mark']
+['VERB', 'VERB', 'advcl']	['便', '面临', 'advcl']
+['ADP', 'NOUN', 'case']	['为', '人口', 'case']
+['NOUN', 'VERB', 'obl']	['人口', '增长', 'obl']
+['ADV', 'VERB', 'advmod']	['不断', '增长', 'advmod']
+['VERB', 'NOUN', 'acl:relcl']	['增长', '作物', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '增长', 'mark:rel']
+['PROPN', 'VERB', 'obl']	['亚洲', '种植', 'obl']
+['VERB', 'VERB', 'xcomp']	['种植', '便', 'xcomp']
+['NOUN', 'NOUN', 'nmod']	['农', '作物', 'nmod']
+['NOUN', 'VERB', 'obj']	['作物', '种植', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '便', 'punct']
+['VERB', 'VERB', 'mark']	['否则', '面临', 'mark']
+['PROPN', 'VERB', 'nsubj']	['亚洲', '面临', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '面临', 'advmod']
+['VERB', 'VERB', 'ccomp']	['面临', '称', 'ccomp']
+['NOUN', 'VERB', 'obl']	['前', '有', 'obl']
+['ADV', 'VERB', 'mark']	['所', '有', 'mark']
+['VERB', 'NOUN', 'acl:relcl']	['有', '危机', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '有', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['粮食', '危机', 'nmod']
+['NOUN', 'VERB', 'obj']	['危机', '面临', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '动荡', 'cc']
+['ADJ', 'NOUN', 'amod']	['巨大', '动荡', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '巨大', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['社会', '动荡', 'nmod']
+['NOUN', 'NOUN', 'conj']	['动荡', '危机', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '称', 'punct']
 ----------------------------------------------------------------------
-同样，奥巴马先生本月早些时候在开罗的演讲，他在演讲中谈到美国与世界各地穆斯林之间的新开端，已经给中东留下深刻的印象。
+印度、中国、巴基斯坦等大国在 20 世纪 70 年代和 80 年代避免饥荒，只是因为他们建造了巨大的国家资助灌溉系统并引进了更好的种子和肥料。但是，预计到 2050 年，亚洲将再增加 15 亿人口，这将使亚洲对粮食的需求翻一番，这是联合国粮食及农业组织 (FAO) 和由世界银行资助的国际水管理研究所 (IWMI) 的报告说的。
 
-(ROOT (IP (ADVP (RB 同样)) (, ，) (NP (NP (NNP 奥巴马) (NN 先生)) (NP (NP (NN 本月)) (ADJP (NN 早些)) (NP (NN 时候))) (DNP (PP (VV 在) (NP (NNP 开罗))) (DEC 的)) (NP (NN 演讲))) (, ，) (NP (PRP 他)) (VP (VP (PP (IN 在) (NP (NN 演讲))) (VP (VRD (VV 中谈) (VV 到)) (NP (DNP (LCP (NP (NP (NNP 美国)) (CC 与) (NP (NP (NN 世界) (NN 各地)) (NP (NNP 穆斯林)))) (IN 之间)) (DEC 的)) (ADJP (JJ 新开)) (NP (SFN 端))))) (, ，) (VP (ADVP (RB 已经)) (PP (VV 给) (NP (NNP 中东))) (VP (VV 留下) (NP (CP (CP (IP (VP (JJ 深刻))) (DEC 的))) (NP (NN 印象)))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}, 'DNP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'NP': {}, 'NP': {}, 'DNP': {}}}
+(ROOT (IP (IP (NP (NP (NNP 印度) (EC 、) (NNP 中国) (EC 、) (NNP 巴基斯坦) (NN 等)) (NP (NN 大国))) (VP (PP (IN 在) (NP (NP (NP (QP (CD 20)) (NP (NNB 世纪))) (QP (CD 70)) (NP (NNB 年代))) (CC 和) (NP (QP (CD 80)) (NP (NNB 年代))))) (VP (VV 避免) (NP (NN 饥荒))))) (, ，) (IP (ADVP (VC 只是)) (PP (IN 因为) (IP (NP (PRP 他们)) (VP (VV 建造) (AS 了) (NP (CP (CP (IP (VP (JJ 巨大))) (DEC 的))) (NP (NN 国家))) (IP (VP (VP (VV 资助) (NP (NN 灌溉) (NN 系统))) (RB 并) (VP (VV 引进) (AS 了) (NP (CP (CP (IP (VP (JJ 更好))) (DEC 的))) (NP (NN 种子) (CC 和) (NN 肥料)))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP70437': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP47103': {'ADVP': {}, 'PP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'PP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'PP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['印度', '是', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['、', '中国', 'punct']
+['PROPN', 'PROPN', 'conj']	['中国', '印度', 'conj']
+['PUNCT', 'PROPN', 'punct']	['、', '巴基斯坦', 'punct']
+['PROPN', 'PROPN', 'conj']	['巴基斯坦', '印度', 'conj']
+['NOUN', 'PROPN', 'acl']	['等', '印度', 'acl']
+['NOUN', 'PROPN', 'appos']	['大国', '印度', 'appos']
+['ADP', 'NOUN', 'case']	['在', '年代', 'case']
+['NUM', 'NOUN', 'nummod']	['20', '世纪', 'nummod']
+['NOUN', 'NOUN', 'clf']	['世纪', '年代', 'clf']
+['NUM', 'NOUN', 'nummod']	['70', '年代', 'nummod']
+['NOUN', 'VERB', 'obl']	['年代', '避免', 'obl']
+['CCONJ', 'NOUN', 'cc']	['和', '年代', 'cc']
+['NUM', 'NOUN', 'nummod']	['80', '年代', 'nummod']
+['NOUN', 'NOUN', 'conj']	['年代', '年代', 'conj']
+['VERB', 'VERB', 'csubj']	['避免', '是', 'csubj']
+['NOUN', 'VERB', 'obj']	['饥荒', '避免', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '避免', 'punct']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['ADP', 'VERB', 'xcomp']	['因为', '是', 'xcomp']
+['PRON', 'VERB', 'nsubj']	['他', '建造', 'nsubj']
+['VERB', 'VERB', 'advcl']	['建造', '引进', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '建造', 'aux']
+['ADJ', 'NOUN', 'amod']	['巨大', '国家', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '巨大', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['国家', '资助', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['资助', '建造', 'ccomp']
+['NOUN', 'NOUN', 'nmod']	['灌溉', '系统', 'nmod']
+['NOUN', 'VERB', 'obj']	['系统', '资助', 'obj']
+['ADV', 'VERB', 'mark']	['并', '引进', 'mark']
+['VERB', 'ADP', 'ccomp']	['引进', '因为', 'ccomp']
+['AUX', 'VERB', 'aux']	['了', '引进', 'aux']
+['ADJ', 'NOUN', 'amod']	['更好', '种子', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '更好', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['种子', '引进', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '肥料', 'cc']
+['NOUN', 'NOUN', 'conj']	['肥料', '种子', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+根据报告，由于新增耕地极少，气候变化日益不可预测，水源供应已经到了极限，未来唯一可行的办法是更好地管理现有的水源，用于养活人口。
+
+(ROOT (IP (IP (PP (IN 根据) (NP (NN 报告))) (, ，) (PP (IN 由于) (IP (IP (VP (NN 新增) (IP (NP (NN 耕地)) (VP (JJ 极少))))) (, ，) (IP (NP (NN 气候) (NN 变化)) (VP (ADVP (RB 日益)) (VP (MD 不可) (VP (VV 预测))))))) (, ，) (NP (NN 水源) (NN 供应)) (VP (ADVP (RB 已经)) (VP (VV 到) (AS 了) (NP (NN 极限))))) (, ，) (IP (NP (NN 未来)) (NP (ADJP (JJ 唯一)) (CP (CP (IP (VP (JJ 可行))) (DEC 的))) (NP (NN 办法))) (VP (VC 是) (VP (VP (DVP (VP (JJ 更好)) (DEV 地)) (VP (VV 管理) (NP (DNP (ADJP (VV 现有)) (DEC 的)) (NP (NN 水源))))) (, ，) (VP (VV 用) (PP (VV 于) (IP (VP (NN 养活) (NP (NN 人口))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP88550': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'PP74029': {}, ',93071': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP47350': {'NP': {}, 'NP20946': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['根据', '报告', 'case']
+['NOUN', 'VERB', 'obl']	['报告', '预测', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '报告', 'punct']
+['ADP', 'ADJ', 'case']	['由于', '极少', 'case']
+['NOUN', 'NOUN', 'nmod']	['新增', '耕地', 'nmod']
+['NOUN', 'ADJ', 'nsubj']	['耕地', '极少', 'nsubj']
+['ADJ', 'VERB', 'ccomp']	['极少', '预测', 'ccomp']
+['PUNCT', 'ADJ', 'punct']	['，', '极少', 'punct']
+['NOUN', 'NOUN', 'nmod']	['气候', '变化', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['变化', '预测', 'nsubj']
+['ADV', 'VERB', 'advmod']	['日益', '预测', 'advmod']
+['AUX', 'VERB', 'aux']	['可', '预测', 'aux']
+['VERB', 'ROOT', 'root']	['预测', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '到', 'punct']
+['NOUN', 'NOUN', 'nmod']	['水源', '供应', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['供应', '到', 'nsubj']
+['ADV', 'VERB', 'advmod']	['已经', '到', 'advmod']
+['VERB', 'VERB', 'parataxis']	['到', '预测', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '到', 'aux']
+['NOUN', 'VERB', 'obj']	['极限', '到', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['未来', '是', 'nmod:tmod']
+['ADJ', 'NOUN', 'amod']	['唯一', '办法', 'amod']
+['ADJ', 'NOUN', 'amod']	['可行', '办法', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '可行', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['办法', '是', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['是', '到', 'parataxis']
+['ADJ', 'VERB', 'advmod']	['更好', '管理', 'advmod']
+['PART', 'ADJ', 'mark:adv']	['地', '更好', 'mark:adv']
+['VERB', 'VERB', 'advcl']	['管理', '用', 'advcl']
+['VERB', 'NOUN', 'acl:relcl']	['现有', '水源', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '现有', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['水源', '管理', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '管理', 'punct']
+['VERB', 'VERB', 'xcomp']	['用', '是', 'xcomp']
+['VERB', 'VERB', 'mark']	['于', '用', 'mark']
+['NOUN', 'NOUN', 'nmod']	['养活', '人口', 'nmod']
+['NOUN', 'VERB', 'obj']	['人口', '用', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '预测', 'punct']
+----------------------------------------------------------------------
+“我们没有新的土地和水域可以开发，所以我们必须更好地利用现有资源。
+
+(ROOT (IP (`` “) (NP (PRP 我们)) (VP (VV 没有) (IP (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 土地) (CC 和) (NN 水域))) (VP (MD 可以) (VP (VV 开发))))) (, ，) (IP (ADVP (RB 所以)) (NP (PRP 我们)) (VP (MD 必须) (VP (DVP (VP (JJ 更好)) (DEV 地)) (VP (VV 利用) (NP (ADJP (NN 现有)) (NP (NN 资源))))))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
 {'NP': {'PRP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-黎巴嫩大选的结果，温和的、亲西方的政党击败了伊朗支持的激进的真主党伊斯兰组织，被归因为“奥巴马效应”。
-
-(ROOT (IP (IP (NP (DNP (NP (NP (NNP 黎巴) (NNP 嫩)) (NP (NN 大选))) (DEC 的)) (NP (NN 结果))) (, ，) (NP (NP (CP (CP (IP (VP (JJ 温和))) (DEC 的)))) (EC 、) (NP (CP (CP (IP (VP (VV 亲) (NP (NNP 西方)))) (DEC 的))) (NP (NN 政党)))) (VP (VV 击败) (AS 了) (NP (CP (CP (IP (NP (NNP 伊朗)) (VP (VV 支持))) (DEC 的))) (CP (CP (IP (VP (JJ 激进))) (DEC 的))) (NP (NNP 真主) (SFN 党)) (NP (NNP 伊斯兰) (NN 组织))))) (, ，) (IP (VP (BB 被) (VP (VV 归) (PP (IN 因为) (NP (`` “) (NP (NNP 奥巴马)) (NP (NN 效应)) ('' ”)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}}}
-----------------------------------------------------------------------
-尽管伊朗当局强硬的保守派不愿意承认，但特朗普政府对伊朗的压力也在日益增加，特别是在核计划方面。
-
-(ROOT (IP (IP (CP (ADVP (IN 尽管)) (IP (NP (NP (NP (NNP 伊朗)) (NP (NN 当局))) (CP (CP (IP (VP (JJ 强硬))) (DEC 的))) (NP (JJ 保守) (SFN 派))) (VP (ADVP (RB 不)) (VP (MD 愿意) (IP (VP (VV 承认))))))) (, ，) (ADVP (RB 但)) (NP (NP (NP (NNP 特朗普)) (NP (NN 政府))) (DNP (PP (IN 对) (NP (NNP 伊朗))) (DEC 的)) (NP (NN 压力))) (VP (ADVP (RB 也)) (ADVP (VV 在)) (ADVP (RB 日益)) (VP (VV 增加)))) (, ，) (VP (ADVP (RB 特别)) (ADVP (VC 是)) (VP (PP (IN 在) (NP (NP (NN 核) (NN 计划)) (NP (NN 方面)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-不久，华盛顿将寻求与伊朗建立对话，以解决核问题，伊朗政府很清楚，对奥巴马先生说“不”比对布什先生说“不”要难得多。
-
-(ROOT (IP (IP (NP (NN 不久)) (, ，) (NP (NNP 华盛顿)) (VP (ADVP (RB 将)) (VP (VP (VV 寻求) (IP (VP (PP (IN 与) (NP (NNP 伊朗))) (VP (VV 建立) (NP (NN 对话)))))) (, ，) (VP (RB 以) (VP (VV 解决) (NP (NN 核) (NN 问题))))))) (, ，) (IP (NP (NP (NNP 伊朗)) (NP (NN 政府))) (VP (VP (ADVP (RB 很)) (VP (JJ 清楚))) (, ，) (VP (VP (PP (IN 对) (NP (NNP 奥巴马) (NN 先生))) (VP (VV 说) (NP (`` “) (RB 不) ('' ”)))) (PP (IN 比) (IP (VP (PP (IN 对) (NP (NNP 布什) (NN 先生))) (VP (VV 说) (NP (`` “) (RB 不) ('' ”)))))) (VP (MD 要) (VP (ADVP (JJ 难得)) (VP (JJ 多))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-美国作为伊朗反西方言论的中心点被排除，使得仍然是美国在欧洲最亲密盟友的英国成为了一个颇为合适的替代者。
-
-(ROOT (IP (IP (NP (NNP 美国)) (DNP (PP (VV 作) (PP (VC 为) (NP (NP (NNP 伊朗)) (IP (VP (VV 反) (NP (NNP 西方)))) (NP (NN 言论))))) (DEC 的)) (NP (NN 中心) (SFN 点)) (VP (BB 被) (VP (VV 排除)))) (, ，) (IP (VP (VV 使得) (NP (CP (CP (IP (VP (ADVP (RB 仍然)) (VP (VC 是) (NP (NP (NNP 美国)) (PP (VV 在) (NP (NNP 欧洲))) (ADJP (ADVP (RB 最)) (ADJP (JJ 亲密))) (NP (NN 盟友)))))) (DEC 的))) (NP (NNP 英国))) (IP (VP (VV 成) (VP (VC 为) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 颇)) (ADVP (VC 为)) (VP (JJ 合适)))) (DEC 的))) (NP (VV 替代) (SFN 者)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'DNP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'DNP': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}}}
-----------------------------------------------------------------------
-伊朗和美国之间的敌意只有三十年的历史，准确地说是邦德革命的时候，而伦敦和德黑兰之间的相互怀疑、指责和仇恨的氛围却有几个世纪的历史。
-
-(ROOT (IP (IP (NP (DNP (LCP (NP (NNP 伊朗) (CC 和) (NNP 美国)) (IN 之间)) (DEC 的)) (NP (NN 敌意))) (VP (QP (ADVP (VV 只有)) (NP (DNP (QP (CD 三十) (CLP (NNB 年))) (DEC 的)) (NP (NN 历史)))))) (, ，) (VP (IP (VP (DVP (VP (JJ 准确)) (DEV 地)) (VP (VV 说)))) (VP (VC 是) (NP (DNP (NP (NP (NNP 邦德)) (NP (NN 革命))) (DEC 的)) (NP (NN 时候))))) (, ，) (IP (ADVP (RB 而)) (NP (DNP (LCP (NP (NNP 伦敦) (CC 和) (NNP 德黑兰)) (IN 之间)) (DEC 的)) (CP (IP (VP (ADVP (JJ 相互)) (VP (NN 怀疑))) (EC 、) (VP (NN 指责)) (CC 和) (VP (NN 仇恨))) (DEC 的)) (NP (NN 氛围))) (VP (ADVP (RB 却)) (VP (VV 有) (NP (DNP (NP (QP (CD 几) (CLP (NNB 个))) (NP (NN 世纪))) (DEC 的)) (NP (NN 历史)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'VP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'VP': {'IP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'VP': {'IP': {}, 'VP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
 {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PUNCT', 'VERB', 'punct']	['“', '有', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '有', 'nsubj']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['ADJ', 'NOUN', 'amod']	['新', '土地', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '新', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['土地', '开发', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '水域', 'cc']
+['NOUN', 'NOUN', 'conj']	['水域', '土地', 'conj']
+['AUX', 'VERB', 'aux']	['可以', '开发', 'aux']
+['VERB', 'VERB', 'ccomp']	['开发', '有', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['ADV', 'VERB', 'mark']	['所以', '利用', 'mark']
+['PRON', 'VERB', 'nsubj']	['我', '利用', 'nsubj']
+['AUX', 'VERB', 'aux']	['必须', '利用', 'aux']
+['ADJ', 'VERB', 'advmod']	['更好', '利用', 'advmod']
+['PART', 'ADJ', 'mark:adv']	['地', '更好', 'mark:adv']
+['VERB', 'VERB', 'parataxis']	['利用', '有', 'parataxis']
+['NOUN', 'NOUN', 'nmod']	['现有', '资源', 'nmod']
+['NOUN', 'VERB', 'obj']	['资源', '利用', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
 ----------------------------------------------------------------------
-17 世纪初，英国与波斯王国建立了贸易关系，但是，19 世纪初，伦敦与德黑兰的关系遭遇了第一次挫折，当时，波斯人被迫在英国外交官戈尔·奥斯利爵士谈判的条件下向俄罗斯让出领土。
+现有灌溉系统通常都有 50 至 70 年的历史。
 
-(ROOT (IP (IP (LCP (NP (QP (CD 17)) (NP (NNB 世纪))) (IN 初)) (, ，) (NP (NNP 英国)) (VP (PP (IN 与) (NP (NNP 波斯) (NN 王国))) (VP (VV 建立) (AS 了) (NP (NN 贸易) (NN 关系))))) (, ，) (IP (ADVP (RB 但是)) (, ，) (LCP (NP (QP (CD 19)) (NP (NNB 世纪))) (IN 初)) (, ，) (NP (DNP (NP (NNP 伦敦) (CC 与) (NNP 德黑兰)) (DEC 的)) (NP (NN 关系))) (VP (VV 遭遇) (AS 了) (NP (QP (CD 第一) (CLP (NNB 次))) (NP (NN 挫折))))) (, ，) (IP (NP (NN 当时)) (, ，) (NP (NP (NNP 波斯)) (NP (SFN 人))) (VP (BB 被) (VP (VV 迫) (IP (VP (LCP (NP (CP (IP (VP (PP (IN 在) (NP (NP (NP (NNP 英国)) (NP (NN 外交) (SFN 官))) (NP (NNP 戈尔) (/ ·) (NNP 奥斯利) (NN 爵士)))) (VP (VV 谈判)))) (DEC 的)) (NP (NN 条件))) (IN 下)) (PP (IN 向) (NP (NNP 俄罗斯))) (VP (VV 让出) (NP (NN 领土)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, ',': {}, 'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这被许多伊朗人视为一种侮辱，英国被认为是“狡猾的狐狸”，这种看法迅速在伊朗政治阶层中蔓延开来。
-
-(ROOT (IP (IP (NP (PRD 这)) (VP (BB 被) (IP (NP (QP (CD 许多)) (NP (NNP 伊朗)) (NP (SFN 人))) (VP (VRD (VV 视) (VC 为)) (NP (QP (CD 一) (CLP (NNB 种))) (NP (NN 侮辱))))))) (, ，) (IP (NP (NNP 英国)) (VP (BB 被) (VP (VCP (VV 认为) (VC 是)) (NP (`` “) (CP (CP (IP (VP (JJ 狡猾))) (DEC 的))) (NP (NN 狐狸)) ('' ”))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 看法))) (VP (ADVP (RB 迅速)) (PP (IN 在) (LCP (NP (NP (NNP 伊朗)) (NP (NN 政治) (NN 阶层))) (IN 中))) (VP (VRD (VV 蔓延) (VV 开来))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-19 世纪 60 年代，英国任意划定了伊朗与印度的边界，这使双方关系进一步恶化，但是，1872 年，当时的沙皇授予路透社创始人巴罗纳·朱利叶斯·冯·勒特尔 (Baron Paul Julius von Reuter) 对伊朗几乎所有经济和金融资源的垄断权，这一事件使局势雪上加霜。
-
-(ROOT (IP (IP (NP (NP (QP (CD 19)) (NP (NNB 世纪))) (QP (CD 60)) (NP (NNB 年代))) (, ，) (NP (NNP 英国)) (VP (ADVP (RB 任意)) (VP (VV 划定) (AS 了) (NP (DNP (NP (NNP 伊朗) (CC 与) (NNP 印度)) (DEC 的)) (NP (NN 边界)))))) (, ，) (IP (NP (PRD 这)) (VP (VV 使) (NP (NP (QP (CD 双)) (NP (NN 方))) (NP (NN 关系))) (IP (VP (VV 进) (NP (QP (CD 一) (CLP (NNB 步))) (NP (VV 恶化))))))) (, ，) (IP (ADVP (RB 但是)) (, ，) (NP (CD 1872) (NNB 年)) (, ，) (NP (DNP (NP (NN 当时)) (DEC 的)) (NP (NN 沙皇))) (VP (VV 授予) (NP (NP (NP (NNP 路透) (SFN 社)) (NP (VV 创始) (SFN 人))) (NP (NNP 巴罗纳) (/ ·) (NNP 朱) (NNP 利叶斯) (/ ·) (NNP 冯) (/ ·) (NNP 勒特尔) (FW -LRB-Baron) (FW Paul) (FW Julius) (FW von) (FW Reuter-RRB-))) (NP (DNP (PP (IN 对) (NP (NP (NNP 伊朗)) (DP (ADVP (RB 几乎)) (DP (DT 所有))) (NP (NN 经济) (CC 和) (NN 金融)) (NP (NN 资源)))) (DEC 的)) (NP (VV 垄断) (SFN 权))))) (, ，) (IP (NP (DP (DT 这) (QP (CD 一))) (NP (NN 事件))) (VP (VV 使) (NP (NN 局势)) (IP (VP (JJ 雪上加霜))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'ADVP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'ADVP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-当时的英国外交大臣卡松勋爵称这一“莱特尔特许权”为
-
-(ROOT (IP (NP (NP (DNP (NP (NN 当时)) (DEC 的)) (NP (NNP 英国)) (NP (NN 外交) (NN 大臣))) (NP (NNP 卡松) (NN 勋爵))) (VP (VV 称) (NP (DP (DT 这) (QP (CD 一))) (NP (`` “) (NNP 莱特尔特许) (SFN 权) ('' ”))) (IP (VP (VC 为))))))
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
-----------------------------------------------------------------------
-这是“历史上可能曾经梦想过，更不用说实现过，将一个王国的全部工业资源交给外国人手中的最完整和最惊人的妥协”。
-
-(ROOT (IP (NP (PRD 这)) (VP (VC 是) (IP (`` “) (VP (LCP (NP (NN 历史)) (IN 上)) (VP (MD 可能) (VP (ADVP (RB 曾经)) (VP (VV 梦想) (AS 过))))) (, ，) (VP (ADVP (RB 更)) (VP (VV 不用) (VP (VV 说) (IP (VP (VP (VV 实现) (AS 过)) (, ，) (VP (BB 将) (IP (NP (DNP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 王国))) (DEC 的)) (DP (DT 全部)) (NP (NN 工业) (NN 资源))) (VP (VV 交给) (NP (DNP (LCP (NP (NN 外国) (NN 人手)) (IN 中)) (DEC 的)) (CP (CP (IP (VP (VP (ADVP (RB 最)) (VP (JJ 完整))) (CC 和) (VP (ADVP (RB 最)) (VP (JJ 惊人))))) (DEC 的))) (NP (NN 妥协))))))))))) ('' ”))) (. 。)))
+(ROOT (IP (NP (ADJP (NN 现有)) (NP (NN 灌溉) (NN 系统))) (VP (ADVP (RB 通常)) (ADVP (RB 都)) (VP (VV 有) (NP (DNP (QP (QP (CD 50)) (CC 至) (QP (CD 70) (CLP (NNB 年)))) (DEC 的)) (NP (NN 历史))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
-{'NP': {'PRD': {}}}
-{'VP': {'VC': {}, 'IP': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP69554': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'ADJP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['现有', '系统', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['灌溉', '系统', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['系统', '有', 'nsubj']
+['ADV', 'VERB', 'advmod']	['通常', '有', 'advmod']
+['ADV', 'VERB', 'mark']	['都', '有', 'mark']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['NUM', 'NOUN', 'nummod']	['50', '年', 'nummod']
+['CCONJ', 'NUM', 'cc']	['至', '70', 'cc']
+['NUM', 'NUM', 'conj']	['70', '50', 'conj']
+['NOUN', 'NOUN', 'nmod']	['年', '历史', 'nmod']
+['PART', 'NOUN', 'case']	['的', '年', 'case']
+['NOUN', 'VERB', 'obj']	['历史', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
 ----------------------------------------------------------------------
-最终，公众对这项协议的愤怒导致 20 世纪初宪法革命，伊朗采用了民主政府的原则。
+他们漏水了，水蒸发了。
 
-(ROOT (IP (IP (ADVP (NN 最终)) (, ，) (NP (NP (NN 公众)) (DNP (PP (IN 对) (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 协议)))) (DEC 的)) (NP (NN 愤怒))) (VP (VV 导致) (NP (LCP (NP (QP (CD 20)) (NP (NNB 世纪))) (IN 初)) (NP (NN 宪法) (NN 革命))))) (, ，) (IP (NP (NNP 伊朗)) (VP (VV 采用) (AS 了) (NP (DNP (NP (NN 民主) (NN 政府)) (DEC 的)) (NP (NN 原则))))) (. 。)))
+(ROOT (IP (IP (NP (PRP 他们)) (VP (VV 漏水) (UH 了))) (, ，) (IP (NP (NN 水)) (VP (VV 蒸发) (UH 了))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP19055': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-但是，1950 年代，英国情报官员帮助了谁，英国的阴险劣迹声誉进一步提高。
-
-(ROOT (IP (IP (ADVP (RB 但是)) (, ，) (NP (CD 1950) (NNB 年代)) (, ，) (NP (NP (NNP 英国)) (NP (NN 情报) (NN 官员))) (VP (VV 帮助) (AS 了) (NP (WP 谁)))) (, ，) (IP (NP (NP (DNP (NP (NNP 英国)) (DEC 的)) (ADJP (JJ 阴险)) (NP (NN 劣迹))) (NP (NN 声誉))) (VP (VP (VV 进) (QP (CD 一) (CLP (NNB 步)))) (VP (VV 提高)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-卡芒特·罗斯福特 (Kermit Roosevelt) 是中央情报局在德黑兰的站长，他于 1953 年策划推翻民选政府穆罕默德·穆萨迪克 (Mohammed Mossadeq) 的政府。
-
-(ROOT (IP (IP (NP (NNP 卡芒特) (/ ·) (NNP 罗斯福特) (FW -LRB-Kermit) (FW Roosevelt-RRB-)) (VP (VC 是) (NP (NP (NN 中央) (NN 情报) (SFN 局)) (DNP (PP (VV 在) (NP (NNP 德黑兰))) (DEC 的)) (NP (NN 站长))))) (, ，) (IP (NP (PRP 他)) (VP (PP (IN 于) (NP (CD 1953) (NNB 年))) (VP (VV 策划) (NP (CP (CP (IP (VP (VV 推翻) (NP (NP (ADJP (NN 民选)) (NP (NN 政府))) (NP (NNP 穆罕默德) (/ ·) (NNP 穆萨) (NNP 迪克) (FW -LRB-Mohammed) (FW Mossadeq-RRB-))))) (DEC 的))) (NP (NN 政府)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP23614': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['他', '漏水', 'nsubj']
+['VERB', 'ROOT', 'root']	['漏水', 'NONE', 'root']
+['PART', 'VERB', 'discourse']	['了', '漏水', 'discourse']
+['PUNCT', 'VERB', 'punct']	['，', '蒸发', 'punct']
+['NOUN', 'VERB', 'nsubj']	['水', '蒸发', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['蒸发', '漏水', 'parataxis']
+['PART', 'VERB', 'discourse']	['了', '蒸发', 'discourse']
+['PUNCT', 'VERB', 'punct']	['。', '漏水', 'punct']
 ----------------------------------------------------------------------
-与许多伊朗人一样，莫萨德希望伊朗新的石油财富更加公平地分配，这些财富仍然由英国控制的 Anglo-Iranian Oil Company 监管。
+我们迫切需要新一代灌溉技术。
 
-(ROOT (IP (IP (IP (VP (PP (IN 与) (NP (QP (CD 许多)) (NP (NNP 伊朗)) (NP (SFN 人)))) (VP (JJ 一样)))) (, ，) (NP (NNP 莫萨德)) (VP (VV 希望) (IP (NP (NP (NNP 伊朗)) (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 石油) (NN 财富))) (VP (DVP (VP (ADVP (RB 更加)) (VP (JJ 公平))) (DEV 地)) (VP (VV 分配)))))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 财富))) (VP (ADVP (RB 仍然)) (PP (VV 由) (NP (CP (CP (IP (NP (NNP 英国)) (VP (VV 控制))) (DEC 的))) (NP (FW Anglo-) (FW Iranian) (FW Oil) (FW Company)))) (VP (NN 监管)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-但是，当莫萨德试图国有化石油业并推翻沙皇时，英国和美国政府授权对沙皇进行反政变，恢复了沙皇的权力。
-
-(ROOT (IP (ADVP (RB 但是)) (, ，) (PP (IN 当) (LCP (IP (NP (NNP 莫) (NNP 萨德)) (VP (VV 试图) (NP (NNP 国)) (IP (VP (VP (VV 有) (NP (NN 化石) (NN 油业))) (RB 并) (VP (VV 推翻) (NP (NN 沙皇))))))) (IN 时))) (, ，) (NP (NP (NNP 英国) (CC 和) (NNP 美国)) (NP (NN 政府))) (VP (VV 授权) (IP (VP (VP (PP (IN 对) (NP (NN 沙皇))) (VP (VV 进行) (NP (ADJP (VV 反)) (NP (NN 政变))))) (, ，) (VP (VV 恢复) (AS 了) (NP (DNP (NP (NN 沙皇)) (DEC 的)) (NP (NN 权力))))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-----------------------------------------------------------------------
-在英国所犯的所有帝国暴行中，推翻穆萨·德格政府的行为对伊朗人的心理影响最深远，伊朗政权在指责英国煽动最近的总统大选骚乱时，没有什么难度就能说服人们相信英国参与了这一阴谋。
-
-(ROOT (IP (IP (PP (IN 在) (LCP (NP (CP (CP (IP (NP (NNP 英国)) (VP (RB 所) (VP (VV 犯)))) (DEC 的))) (DP (DT 所有)) (NP (NN 帝国) (NN 暴行))) (IN 中))) (, ，) (NP (NP (CP (IP (VP (VV 推翻) (NP (NP (NNP 穆萨) (/ ·) (NNP 德格)) (NP (NN 政府))))) (DEC 的)) (NP (NN 行为))) (DNP (PP (IN 对) (NP (NP (NNP 伊朗)) (NP (SFN 人)))) (DEC 的)) (NP (NN 心理) (NN 影响))) (VP (ADVP (RB 最)) (VP (JJ 深远)))) (, ，) (IP (NP (NP (NNP 伊朗)) (NP (NN 政权))) (VP (PP (IN 在) (LCP (IP (VP (VV 指责) (NP (NNP 英国)) (IP (VP (VV 煽动) (NP (DNP (NP (NN 最近)) (DEC 的)) (NP (NN 总统) (NN 大选)) (NP (NN 骚乱))))))) (IN 时))) (, ，) (VP (VP (VV 没有) (NP (DP (WP 什么)) (NP (NN 难度)))) (VP (ADVP (RB 就)) (VP (MD 能) (VP (VV 说服) (NP (NN 人们)) (IP (VP (VV 相信) (IP (NP (NNP 英国)) (VP (VV 参与) (AS 了) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 阴谋))))))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-英国也并非完全无辜，因为它被指控积极支持推翻伊朗政府的企图。
-
-(ROOT (IP (IP (NP (NNP 英国)) (VP (ADVP (RB 也)) (VP (VC 并非) (VP (ADVP (RB 完全)) (VP (JJ 无辜)))))) (, ，) (PP (IN 因为) (IP (NP (PRP 它)) (VP (BB 被) (VP (VV 指控) (IP (VP (ADVP (RB 积极)) (VP (VV 支持) (NP (CP (IP (VP (VV 推翻) (NP (NP (NNP 伊朗)) (NP (NN 政府))))) (DEC 的)) (NP (NN 企图)))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
-----------------------------------------------------------------------
-最近，英国外交部资助的 BBC 波斯语频道扩大了，并新增了电视频道，以补充其广播节目。
-
-(ROOT (IP (NP (NN 最近)) (, ，) (NP (CP (CP (IP (NP (NNP 英国) (NN 外交) (SFN 部)) (VP (VV 资助))) (DEC 的))) (NP (FW BBC)) (NP (NNP 波斯) (SFN 语) (NN 频道))) (VP (VP (VV 扩大) (AS 了)) (, ，) (RB 并) (VP (VV 新增) (AS 了) (NP (NN 电视) (NN 频道))) (, ，) (VP (RB 以) (VP (VV 补充) (NP (NP (PRP 其)) (NP (NN 广播) (NN 节目)))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}, ',': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'NP': {'CP': {}, 'NP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}, ',': {}}}
-----------------------------------------------------------------------
-这引发了德黑兰的怀疑，认为英国政府正在策划破坏伊斯兰共和国的阴谋。
-
-(ROOT (IP (NP (PRD 这)) (VP (VP (VV 引发) (AS 了) (NP (DNP (NP (NNP 德黑兰)) (DEC 的)) (NP (NN 怀疑)))) (, ，) (VP (VV 认为) (IP (NP (NP (NNP 英国)) (NP (NN 政府))) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 策划) (NP (CP (IP (VP (VV 破坏) (NP (NNP 伊斯兰) (NN 共和) (SFN 国)))) (DEC 的)) (NP (NN 阴谋)))))))) (. 。)))
+(ROOT (IP (NP (PRP 我们)) (VP (ADVP (RB 迫切)) (VP (VV 需要) (NP (QP (ADJP (PFA 新)) (QP (CD 一) (CLP (NNB 代)))) (NP (NN 灌溉) (NN 技术))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRD': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRD': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-英国广播公司坚称，它只是向国际受众提供公共服务广播，但是，英国广播公司最近被指控播放了代码信息，这些信息间接导致 30 年前沙皇被推翻，这对于缓解怀疑似乎起不到什么作用。
-
-(ROOT (IP (NP (NNP 英国) (NN 广播) (NN 公司)) (VP (VV 坚称) (, ，) (IP (IP (NP (PRP 它)) (VP (ADVP (RB 只)) (VP (VC 是) (VP (PP (IN 向) (NP (NN 国际) (NN 受众))) (VP (VV 提供) (NP (ADJP (JJ 公共)) (NP (NN 服务) (NN 广播)))))))) (, ，) (IP (ADVP (RB 但是)) (, ，) (NP (NNP 英国) (NN 广播) (NN 公司)) (VP (NP (NN 最近)) (VP (BB 被) (VP (VV 指控) (IP (VP (VV 播放) (AS 了) (NP (NN 代码) (NN 信息)))))))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 信息))) (VP (ADVP (RB 间接)) (VP (VV 导致) (IP (LCP (QP (CD 30)) (NNB 年前)) (NP (NN 沙皇)) (VP (BB 被) (VP (VV 推翻))))))) (, ，) (IP (NP (PRD 这)) (VP (PP (IN 对于) (IP (VP (VV 缓解) (NP (NN 怀疑))))) (ADVP (RB 似乎)) (VP (VRD (VV 起) (VV 不到)) (NP (DP (WP 什么)) (NP (NN 作用)))))))) (. 。)))
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}, 'NN': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NNP': {}, 'NN': {}, 'NN': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-伊朗的主要反对派组织人民聖戰組織（People's Mujahideen Organisation）也在伦敦，该组织经常对伊朗发动袭击，这也加剧了德黑兰的恐惧。
-
-(ROOT (IP (IP (NP (DNP (NP (NNP 伊朗)) (DEC 的)) (ADJP (JJ 主要)) (NP (VV 反对) (SFN 派) (NN 组织)) (NP (NN 人民) (NNP 聖) (SFN 戰組織)) (PRN (-LRB- （) (NP (FW People's) (FW Mujahideen) (FW Organisation)) (-RRB- ）))) (VP (ADVP (RB 也)) (VP (PP (VV 在) (NP (NNP 伦敦)))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 组织))) (VP (ADVP (RB 经常)) (PP (IN 对) (NP (NNP 伊朗))) (VP (VV 发动) (NP (NN 袭击))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 也)) (VP (VV 加剧) (AS 了) (NP (DNP (NP (NNP 德黑兰)) (DEC 的)) (NP (NN 恐惧)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-某一时刻，英国试图通过将异见人士列入其禁止的恐怖组织名单来安抚伊朗，但这一举措在布鲁塞尔成功上诉后失败了。
-
-(ROOT (IP (IP (NP (DP (DT 某) (QP (CD 一))) (NP (NN 时刻))) (, ，) (NP (NNP 英国)) (VP (VV 试图) (IP (VP (PP (IN 通过) (IP (VP (BB 将) (IP (NP (NN 异见) (NN 人士)) (VP (VV 列入) (NP (NP (PRP 其)) (CP (CP (IP (VP (VV 禁止))) (DEC 的))) (NP (JJ 恐怖) (NN 组织) (NN 名单)))))))) (VP (RB 来) (VP (VV 安抚) (NP (NNP 伊朗)))))))) (, ，) (IP (ADVP (RB 但)) (NP (DP (DT 这)) (NP (NN 一举) (SFN 措))) (VP (PP (VV 在) (LCP (IP (NP (NNP 布鲁塞尔)) (VP (ADVP (RB 成功)) (VP (VV 上诉)))) (IN 后))) (VP (VV 失败) (UH 了)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-再加上英国在执行联合国对伊朗的经济制裁方面发挥的主导作用——据说伦敦已经扣押了数十亿美元的伊朗资产——就很容易理解为什么穆尔达的领导人迅速将英国作为自己困境的罪魁祸首。
-
-(ROOT (IP (IP (VP (ADVP (RB 再)) (VP (VV 加上) (NP (CP (CP (IP (NP (NNP 英国)) (VP (PP (IN 在) (NP (IP (VP (VV 执行) (NP (NP (VV 联合) (SFN 国)) (DNP (PP (IN 对) (NP (NNP 伊朗))) (DEC 的)) (NP (NN 经济) (NN 制裁))))) (NP (NN 方面)))) (VP (VV 发挥)))) (DEC 的))) (NP (NN 主导) (NN 作用)))))) (HYPH —) (HYPH —) (ADVP (VV 据说)) (NP (NNP 伦敦)) (VP (ADVP (RB 已经)) (VP (VV 扣押) (AS 了) (NP (DNP (QP (CD 数十亿) (CLP (NNP 美) (CLP (NNB 元)))) (DEC 的)) (NP (NNP 伊朗)) (NP (NN 资产))))) (PRN (HYPH —) (HYPH —) (IP (VP (ADVP (RB 就)) (ADVP (RB 很)) (VP (RB 容易) (IP (VP (VV 理解) (IP (NP (CP (CP (IP (VP (IN 为) (NP (WP 什么) (NNP 穆尔达)))) (DEC 的))) (NP (VV 领导) (SFN 人))) (VP (ADVP (RB 迅速)) (VP (BB 将) (IP (NP (NNP 英国)) (DNP (PP (VV 作) (PP (VC 为) (NP (NP (PRD 自己)) (NP (NN 困境))))) (DEC 的)) (NP (VV 罪魁) (SFN 祸) (NN 首)))))))))))) (. 。)))
-{'IP': {'IP': {}, 'HYPH': {}, 'HYPH': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, 'PRN': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, 'HYPH': {}, 'HYPH': {}, 'ADVP': {'VV': {}}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, 'PRN': {'HYPH': {}, 'HYPH': {}, 'IP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'ADVP': {'VV': {}}}
-{'NP': {'NNP': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
 {'VP': {'ADVP': {}, 'VP': {}}}
-{'PRN': {'HYPH': {}, 'HYPH': {}, 'IP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['我', '需要', 'nsubj']
+['ADV', 'VERB', 'advmod']	['迫切', '需要', 'advmod']
+['VERB', 'ROOT', 'root']	['需要', 'NONE', 'root']
+['PART', 'NOUN', 'case']	['新', '代', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '代', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['代', '技术', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['灌溉', '技术', 'nmod']
+['NOUN', 'VERB', 'obj']	['技术', '需要', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '需要', 'punct']
 ----------------------------------------------------------------------
-而伊朗新当选总统马哈茂德·艾哈迈迪-内贾德坚持不会改变其核问题立场，英伊关系在未来几个月可能会进一步恶化。
+这是我们养活所有人的唯一途径，”国际农业水利研究所总干事科林·查特斯说。
 
-(ROOT (IP (IP (ADVP (RB 而)) (NP (NP (NP (NNP 伊朗)) (CP (IP (VP (ADVP (PFA 新)) (VP (NN 当选))))) (NP (NN 总统))) (NP (NNP 马哈茂德) (/ ·) (NNP 艾哈迈迪-内) (NNP 贾) (NNP 德))) (VP (VV 坚持) (IP (VP (MD 不会) (VP (VV 改变) (NP (NP (NN 其核) (NN 问题)) (NP (NN 立场)))))))) (, ，) (IP (NP (NP (NNP 英) (NNP 伊)) (NP (NN 关系))) (VP (PP (IN 在) (NP (NP (NN 未来)) (QP (CD 几) (CLP (NNB 个))) (NP (NN 月)))) (VP (MD 可能) (VP (MD 会) (VP (VP (VV 进) (QP (CD 一) (CLP (NNB 步)))) (VP (VV 恶化))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+(ROOT (IP (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (NP (PRP 我们)) (VP (VV 养活) (NP (CP (IP (VP (RB 所) (VP (VV 有))))) (NP (NN 人))))) (DEC 的))) (ADJP (JJ 唯一)) (NP (NN 途径))))) (, ，) ('' ”) (NP (NP (NP (NN 国际) (NN 农业) (NN 水利) (VV 研究) (SFN 所)) (ADJP (PFA 总)) (NP (NN 干事))) (NP (NNP 科林) (/ ·) (NNP 查特斯))) (VP (VV 说)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NP': {}, 'NP11284': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'nsubj']	['这', '途径', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '途径', 'cop']
+['PRON', 'VERB', 'nsubj']	['我', '养活', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['养活', '途径', 'acl:relcl']
+['ADV', 'VERB', 'mark']	['所', '有', 'mark']
+['VERB', 'NOUN', 'amod']	['有', '人', 'amod']
+['NOUN', 'VERB', 'obj']	['人', '养活', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '养活', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['唯一', '途径', 'amod']
+['NOUN', 'ROOT', 'root']	['途径', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '说', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '说', 'punct']
+['NOUN', 'NOUN', 'nmod']	['国际', '干事', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['农业', '干事', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['水利', '干事', 'nmod']
+['VERB', 'PART', 'compound']	['研究', '所', 'compound']
+['PART', 'NOUN', 'nmod']	['所', '干事', 'nmod']
+['PART', 'NOUN', 'case']	['总', '干事', 'case']
+['NOUN', 'VERB', 'nsubj']	['干事', '说', 'nsubj']
+['PROPN', 'NOUN', 'appos']	['科林', '干事', 'appos']
+['PUNCT', 'PROPN', 'punct']	['·', '查特斯', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['查特斯', '科林', 'flat:name']
+['VERB', 'NOUN', 'parataxis']	['说', '途径', 'parataxis']
+['PUNCT', 'NOUN', 'punct']	['。', '途径', 'punct']
+----------------------------------------------------------------------
+如果我们不投资，我们将会看到像 2007 年那样的粮食危机一次又一次地重演。
+
+(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 我们)) (VP (ADVP (RB 不)) (VP (VV 投资))))) (, ，) (NP (PRP 我们)) (VP (ADVP (RB 将)) (VP (MD 会) (VP (VV 看到) (IP (NP (DNP (PP (IN 像) (LCP (NP (CD 2007)) (NNB 年那样))) (DEC 的)) (NP (NN 粮食) (NN 危机))) (VP (DVP (QP (QP (CD 一) (CLP (NNB 次))) (ADVP (RB 又)) (QP (CD 一) (CLP (NNB 次)))) (DEV 地)) (VP (VV 重演))))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['如果', '投资', 'case']
+['PRON', 'VERB', 'nsubj']	['我', '投资', 'nsubj']
+['ADV', 'VERB', 'advmod']	['不', '投资', 'advmod']
+['VERB', 'VERB', 'ccomp']	['投资', '看到', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '投资', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '看到', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '看到', 'advmod']
+['AUX', 'VERB', 'aux']	['会', '看到', 'aux']
+['VERB', 'ROOT', 'root']	['看到', 'NONE', 'root']
+['ADP', 'NOUN', 'case']	['像', '危机', 'case']
+['NUM', 'NOUN', 'nummod']	['2007', '年那样', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['年那样', '危机', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '年那样', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['粮食', '危机', 'nmod']
+['NOUN', 'VERB', 'obl']	['危机', '重演', 'obl']
+['NUM', 'NOUN', 'nummod']	['一', '次', 'nummod']
+['NOUN', 'VERB', 'obl']	['次', '重演', 'obl']
+['ADV', 'VERB', 'mark']	['又', '重演', 'mark']
+['NUM', 'NOUN', 'nummod']	['一', '次', 'nummod']
+['NOUN', 'VERB', 'obl']	['次', '重演', 'obl']
+['PART', 'NOUN', 'mark:adv']	['地', '次', 'mark:adv']
+['VERB', 'VERB', 'xcomp']	['重演', '看到', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '看到', 'punct']
+----------------------------------------------------------------------
+这是一个预警。
+
+(ROOT (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 预警)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'nsubj']	['这', '预警', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '预警', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '预警', 'clf']
+['NOUN', 'ROOT', 'root']	['预警', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['。', '预警', 'punct']
+----------------------------------------------------------------------
+如果不采取行动，社会动荡、移民和恐怖主义的滋生地将会越来越多”，他说。
+
+(ROOT (IP (IP (IP (VP (ADVP (IN 如果)) (ADVP (RB 不)) (VP (VV 采取) (NP (NN 行动))))) (, ，) (NP (DNP (NP (NN 社会) (NN 动荡) (EC 、) (NN 移民) (CC 和) (NN 恐怖) (NN 主义)) (DEC 的)) (NP (NN 滋生) (SFN 地))) (VP (ADVP (RB 将)) (VP (MD 会) (VP (ADVP (RB 越来越)) (VP (JJ 多))))) ('' ”)) (, ，) (IP (NP (PRP 他)) (VP (VV 说))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP57874': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, "''": {}}, ',': {}, 'IP40324': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, "''": {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['如果', '采取', 'case']
+['ADV', 'VERB', 'advmod']	['不', '采取', 'advmod']
+['VERB', 'ADJ', 'xcomp']	['采取', '多', 'xcomp']
+['NOUN', 'VERB', 'obj']	['行动', '采取', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '采取', 'punct']
+['NOUN', 'NOUN', 'nmod']	['社会', '动荡', 'nmod']
+['NOUN', 'PART', 'nmod']	['动荡', '地', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['、', '移民', 'punct']
+['NOUN', 'NOUN', 'conj']	['移民', '动荡', 'conj']
+['CCONJ', 'NOUN', 'cc']	['和', '主义', 'cc']
+['NOUN', 'NOUN', 'nmod']	['恐怖', '主义', 'nmod']
+['NOUN', 'NOUN', 'conj']	['主义', '动荡', 'conj']
+['PART', 'NOUN', 'case']	['的', '动荡', 'case']
+['NOUN', 'PART', 'compound']	['滋生', '地', 'compound']
+['PART', 'ADJ', 'nsubj']	['地', '多', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['将', '多', 'advmod']
+['AUX', 'ADJ', 'aux']	['会', '多', 'aux']
+['ADV', 'ADJ', 'advmod']	['越来越', '多', 'advmod']
+['ADJ', 'ROOT', 'root']	['多', 'NONE', 'root']
+['PUNCT', 'ADJ', 'punct']	['”', '多', 'punct']
+['PUNCT', 'VERB', 'punct']	['，', '说', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '说', 'nsubj']
+['VERB', 'ADJ', 'parataxis']	['说', '多', 'parataxis']
+['PUNCT', 'ADJ', 'punct']	['。', '多', 'punct']
+----------------------------------------------------------------------
+自从共产主义灭亡和自由市场兴起以来，农民越来越多地选择自己动手进行灌溉，主要使用便宜的中国制造的泵。
+
+(ROOT (IP (PP (IN 自从) (LCP (NP (NP (NN 共产) (NN 主义) (NN 灭亡)) (CC 和) (IP (NP (ADJP (NN 自由)) (NP (NN 市场))) (VP (VV 兴起)))) (IN 以来))) (, ，) (NP (NN 农民)) (VP (VP (DVP (VP (ADVP (RB 越来越)) (VP (JJ 多))) (DEV 地)) (VP (VV 选择) (IP (NP (PRD 自己)) (VP (VP (VV 动手)) (VP (VV 进行) (NP (NN 灌溉))))))) (, ，) (VP (ADVP (RB 主要)) (VP (VV 使用) (NP (CP (CP (IP (VP (JJ 便宜))) (DEC 的))) (CP (CP (IP (NP (NNP 中国)) (VP (VV 制造))) (DEC 的))) (NP (NN 泵)))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP80543': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['自从', '兴起', 'case']
+['NOUN', 'NOUN', 'nmod']	['共产', '主义', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['主义', '灭亡', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['灭亡', '兴起', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '市场', 'cc']
+['NOUN', 'NOUN', 'nmod']	['自由', '市场', 'nmod']
+['NOUN', 'NOUN', 'conj']	['市场', '灭亡', 'conj']
+['VERB', 'VERB', 'ccomp']	['兴起', '选择', 'ccomp']
+['ADP', 'VERB', 'mark']	['以来', '兴起', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '兴起', 'punct']
+['NOUN', 'VERB', 'nsubj']	['农民', '选择', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['越来越', '多', 'advmod']
+['ADJ', 'VERB', 'advmod']	['多', '选择', 'advmod']
+['PART', 'ADJ', 'mark:adv']	['地', '多', 'mark:adv']
+['VERB', 'VERB', 'advcl']	['选择', '使用', 'advcl']
+['PRON', 'VERB', 'nsubj']	['自己', '进行', 'nsubj']
+['VERB', 'VERB', 'advcl']	['动手', '进行', 'advcl']
+['VERB', 'VERB', 'ccomp']	['进行', '选择', 'ccomp']
+['NOUN', 'VERB', 'obj']	['灌溉', '进行', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '选择', 'punct']
+['ADV', 'VERB', 'advmod']	['主要', '使用', 'advmod']
+['VERB', 'ROOT', 'root']	['使用', 'NONE', 'root']
+['ADJ', 'NOUN', 'amod']	['便宜', '泵', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '便宜', 'mark:rel']
+['PROPN', 'VERB', 'nsubj']	['中国', '制造', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['制造', '泵', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '制造', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['泵', '使用', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '使用', 'punct']
+----------------------------------------------------------------------
+数以百万的小农户投资了自己的泵，这样他们就可以随时从浅层地下水中提取水。
+
+(ROOT (IP (IP (NP (DNP (QP (CD 数) (QP (CD 以百万))) (DEC 的)) (ADJP (PFA 小)) (NP (NN 农户))) (VP (VV 投资) (AS 了) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 泵))))) (, ，) (IP (ADVP (PRD 这样)) (NP (PRP 他们)) (VP (ADVP (RB 就)) (VP (MD 可以) (VP (ADVP (RB 随时)) (PP (IN 从) (LCP (NP (NP (ADJP (PFA 浅)) (NP (NN 层))) (NP (NN 地下) (SFN 水))) (NN 中))) (VP (VV 提取) (NP (NN 水))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP68880': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP64854': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['NUM', 'NUM', 'nummod']	['数', '以百万', 'nummod']
+['NUM', 'NOUN', 'amod']	['以百万', '农户', 'amod']
+['PART', 'NUM', 'mark:rel']	['的', '以百万', 'mark:rel']
+['PART', 'NOUN', 'case']	['小', '农户', 'case']
+['NOUN', 'VERB', 'nsubj']	['农户', '投资', 'nsubj']
+['VERB', 'ROOT', 'root']	['投资', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '投资', 'aux']
+['PRON', 'NOUN', 'det']	['自己', '泵', 'det']
+['PART', 'PRON', 'case']	['的', '自己', 'case']
+['NOUN', 'VERB', 'obj']	['泵', '投资', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '提取', 'punct']
+['PRON', 'VERB', 'obl']	['这样', '提取', 'obl']
+['PRON', 'VERB', 'nsubj']	['他', '提取', 'nsubj']
+['ADV', 'VERB', 'mark']	['就', '提取', 'mark']
+['AUX', 'VERB', 'aux']	['可以', '提取', 'aux']
+['ADV', 'VERB', 'advmod']	['随时', '提取', 'advmod']
+['ADP', 'PART', 'case']	['从', '水', 'case']
+['PART', 'NOUN', 'case']	['浅', '层', 'case']
+['NOUN', 'PART', 'nmod']	['层', '水', 'nmod']
+['NOUN', 'PART', 'compound']	['地下', '水', 'compound']
+['PART', 'VERB', 'obl']	['水', '提取', 'obl']
+['NOUN', 'PART', 'acl']	['中', '水', 'acl']
+['VERB', 'VERB', 'parataxis']	['提取', '投资', 'parataxis']
+['NOUN', 'VERB', 'obj']	['水', '提取', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '投资', 'punct']
+----------------------------------------------------------------------
+由于政府无法管制这种做法，导致水资源遭到严重掠夺。
+
+(ROOT (IP (PP (IN 由于) (IP (NP (NN 政府)) (VP (ADVP (VV 无法)) (VP (VV 管制) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 做法))))))) (, ，) (VP (VV 导致) (IP (NP (NN 水) (NN 资源)) (VP (VV 遭到) (NP (ADJP (RB 严重)) (NP (VV 掠夺)))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['由于', '无法', 'case']
+['NOUN', 'VERB', 'nsubj']	['政府', '无法', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['无法', '导致', 'ccomp']
+['VERB', 'VERB', 'xcomp']	['管制', '无法', 'xcomp']
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '做法', 'clf']
+['NOUN', 'VERB', 'obj']	['做法', '管制', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '无法', 'punct']
+['VERB', 'ROOT', 'root']	['导致', 'NONE', 'root']
+['NOUN', 'NOUN', 'nmod']	['水', '资源', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['资源', '遭到', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['遭到', '导致', 'ccomp']
+['ADV', 'VERB', 'advmod']	['严重', '掠夺', 'advmod']
+['VERB', 'VERB', 'xcomp']	['掠夺', '遭到', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '导致', 'punct']
+----------------------------------------------------------------------
+近几年，印度和中国部分地区的地下水位猛跌。
+
+(ROOT (IP (QP (ADVP (RB 近)) (QP (CD 几) (CLP (NNB 年)))) (, ，) (NP (DNP (NP (NP (NNP 印度) (CC 和) (NNP 中国)) (QP (NN 部分)) (NP (NN 地区))) (DEC 的)) (ADJP (NN 地下)) (NP (SFN 水) (SFN 位))) (VP (VV 猛跌)) (. 。)))
+layer 2:
+{'IP': {'QP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'QP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'QP': {'ADVP': {}, 'QP': {}}, ',': {}, 'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'QP': {'ADVP': {}, 'QP': {}}, ',': {}, 'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'QP': {'ADVP': {}, 'QP': {}}}
+{'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+['ADV', 'NOUN', 'advmod']	['近', '年', 'advmod']
+['NUM', 'NOUN', 'nummod']	['几', '年', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['年', '猛跌', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '年', 'punct']
+['PROPN', 'NOUN', 'nmod']	['印度', '地区', 'nmod']
+['CCONJ', 'PROPN', 'cc']	['和', '中国', 'cc']
+['PROPN', 'PROPN', 'conj']	['中国', '印度', 'conj']
+['NOUN', 'NOUN', 'nmod']	['部分', '地区', 'nmod']
+['NOUN', 'PART', 'nmod']	['地区', '位', 'nmod']
+['PART', 'NOUN', 'case']	['的', '地区', 'case']
+['NOUN', 'PART', 'compound']	['地下', '水', 'compound']
+['PART', 'PART', 'compound']	['水', '位', 'compound']
+['PART', 'VERB', 'nsubj']	['位', '猛跌', 'nsubj']
+['VERB', 'ROOT', 'root']	['猛跌', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['。', '猛跌', 'punct']
+----------------------------------------------------------------------
+“这是一种趋势，将变得越来越普遍。
+
+(ROOT (IP (`` “) (IP (NP (PRD 这)) (VP (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (NP (NN 趋势)))) (, ，) (VP (ADVP (RB 将)) (VP (VV 变得) (VP (ADVP (RB 越来越)) (VP (JJ 普遍))))))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'IP': {}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PUNCT', 'VERB', 'punct']	['“', '变得', 'punct']
+['PRON', 'VERB', 'nsubj']	['这', '变得', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '趋势', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '种', 'nummod']
+['NOUN', 'NOUN', 'clf']	['种', '趋势', 'clf']
+['NOUN', 'VERB', 'advcl']	['趋势', '变得', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['，', '趋势', 'punct']
+['ADV', 'VERB', 'advmod']	['将', '变得', 'advmod']
+['VERB', 'ROOT', 'root']	['变得', 'NONE', 'root']
+['ADV', 'ADJ', 'advmod']	['越来越', '普遍', 'advmod']
+['ADJ', 'VERB', 'xcomp']	['普遍', '变得', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '变得', 'punct']
+----------------------------------------------------------------------
+Chartres 说：“这将导致更多农民自杀，生活困难，企业倒闭。”
+
+(ROOT (IP (NP (FW Chartres)) (VP (VV 说) (: ：) (IP (`` “) (IP (NP (PRD 这)) (VP (ADVP (RB 将)) (VP (VV 导致) (IP (IP (NP (ADJP (JJ 更多)) (NP (NN 农民))) (VP (VV 自杀))) (, ，) (IP (NP (NN 生活)) (VP (JJ 困难))) (, ，) (IP (NP (NN 企业)) (VP (VV 倒闭))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'FW': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+['X', 'VERB', 'nsubj']	['Chartres', '说', 'nsubj']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['：', '导致', 'punct']
+['PUNCT', 'VERB', 'punct']	['“', '导致', 'punct']
+['PRON', 'VERB', 'nsubj']	['这', '导致', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '导致', 'advmod']
+['VERB', 'VERB', 'ccomp']	['导致', '说', 'ccomp']
+['ADJ', 'NOUN', 'amod']	['更多', '农民', 'amod']
+['NOUN', 'VERB', 'nsubj']	['农民', '自杀', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['自杀', '导致', 'ccomp']
+['PUNCT', 'ADJ', 'punct']	['，', '困难', 'punct']
+['NOUN', 'ADJ', 'nsubj']	['生活', '困难', 'nsubj']
+['ADJ', 'VERB', 'parataxis']	['困难', '说', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['，', '倒闭', 'punct']
+['NOUN', 'VERB', 'nsubj']	['企业', '倒闭', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['倒闭', '说', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '倒闭', 'punct']
+['PUNCT', 'ADJ', 'punct']	['”', '困难', 'punct']
+----------------------------------------------------------------------
+该报告称，发展中国家有数以百万计的富裕人群不再吃以大米和谷物为基础的传统饮食，而转而吃需要更多水的西方乳制品和肉类食品，这加剧了粮食危机。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 报告))) (VP (VV 称) (, ，) (IP (IP (NP (NP (NN 发展)) (NP (NNP 中国)) (NP (SFN 家))) (VP (VV 有) (IP (NP (CP (CP (IP (QP (CD 数)) (VP (PP (NNB 以) (QP (CD 百万))) (VP (VV 计)))) (DEC 的))) (ADJP (JJ 富裕)) (NP (NN 人群))) (VP (VP (ADVP (RB 不)) (ADVP (RB 再)) (VP (VV 吃) (NP (CP (CP (IP (VP (PP (VV 以) (NP (NN 大米) (CC 和) (NN 谷物))) (VP (VC 为) (NP (NN 基础))))) (DEC 的))) (ADJP (NN 传统)) (NP (NN 饮食))))) (, ，) (VP (RB 而) (VP (VP (VV 转)) (VP (RB 而) (VP (VV 吃) (NP (CP (CP (IP (VP (VV 需要) (NP (ADJP (JJ 更多)) (NP (NN 水))))) (DEC 的))) (NP (NNP 西方)) (NP (VV 乳制) (SFN 品) (CC 和) (NN 肉类) (NN 食品))))))))))) (, ，) (IP (NP (PRD 这)) (VP (VV 加剧) (AS 了) (NP (NN 粮食) (NN 危机)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['该', '报告', 'det']
+['NOUN', 'VERB', 'nsubj']	['报告', '称', 'nsubj']
+['VERB', 'ROOT', 'root']	['称', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '吃', 'punct']
+['NOUN', 'PART', 'nmod']	['发展', '家', 'nmod']
+['PROPN', 'PART', 'compound']	['中国', '家', 'compound']
+['PART', 'VERB', 'nsubj']	['家', '有', 'nsubj']
+['VERB', 'VERB', 'advcl']	['有', '吃', 'advcl']
+['NUM', 'NOUN', 'nummod']	['数', '以', 'nummod']
+['NOUN', 'NUM', 'clf']	['以', '百万', 'clf']
+['NUM', 'VERB', 'obl']	['百万', '计', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['计', '人群', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '计', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['富裕', '人群', 'amod']
+['NOUN', 'VERB', 'nsubj']	['人群', '吃', 'nsubj']
+['ADV', 'VERB', 'advmod']	['不', '吃', 'advmod']
+['ADV', 'VERB', 'advmod']	['再', '吃', 'advmod']
+['VERB', 'VERB', 'ccomp']	['吃', '有', 'ccomp']
+['VERB', 'VERB', 'mark']	['以', '吃', 'mark']
+['NOUN', 'NOUN', 'nsubj']	['大米', '基础', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '谷物', 'cc']
+['NOUN', 'NOUN', 'conj']	['谷物', '大米', 'conj']
+['AUX', 'NOUN', 'cop']	['为', '基础', 'cop']
+['NOUN', 'VERB', 'ccomp']	['基础', '以', 'ccomp']
+['PART', 'VERB', 'mark:rel']	['的', '以', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['传统', '饮食', 'nmod']
+['NOUN', 'VERB', 'obj']	['饮食', '吃', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['ADV', 'VERB', 'mark']	['而', '吃', 'mark']
+['VERB', 'VERB', 'advcl']	['转', '吃', 'advcl']
+['ADV', 'VERB', 'mark']	['而', '吃', 'mark']
+['VERB', 'VERB', 'ccomp']	['吃', '称', 'ccomp']
+['VERB', 'PART', 'acl:relcl']	['需要', '品', 'acl:relcl']
+['ADJ', 'NOUN', 'amod']	['更多', '水', 'amod']
+['NOUN', 'VERB', 'obj']	['水', '需要', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '需要', 'mark:rel']
+['PROPN', 'PART', 'nmod']	['西方', '品', 'nmod']
+['VERB', 'PART', 'compound']	['乳制', '品', 'compound']
+['PART', 'VERB', 'obj']	['品', '吃', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '食品', 'cc']
+['NOUN', 'NOUN', 'nmod']	['肉类', '食品', 'nmod']
+['NOUN', 'PART', 'conj']	['食品', '品', 'conj']
+['PUNCT', 'VERB', 'punct']	['，', '加剧', 'punct']
+['PRON', 'VERB', 'nsubj']	['这', '加剧', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['加剧', '称', 'ccomp']
+['AUX', 'VERB', 'aux']	['了', '加剧', 'aux']
+['NOUN', 'NOUN', 'nmod']	['粮食', '危机', 'nmod']
+['NOUN', 'VERB', 'obj']	['危机', '加剧', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '称', 'punct']
+----------------------------------------------------------------------
+“未来农业将需要更多的水。
+
+(ROOT (IP (`` “) (NP (NN 未来)) (NP (NN 农业)) (VP (ADVP (RB 将)) (VP (VV 需要) (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的))) (NP (NN 水))))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'NP92172': {}, 'VP': {}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'NN': {}}, 'NP34734': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {'NN': {}}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PUNCT', 'VERB', 'punct']	['“', '需要', 'punct']
+['NOUN', 'NOUN', 'nmod']	['未来', '农业', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['农业', '需要', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '需要', 'advmod']
+['VERB', 'ROOT', 'root']	['需要', 'NONE', 'root']
+['ADJ', 'NOUN', 'amod']	['更多', '水', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '更多', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['水', '需要', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '需要', 'punct']
+----------------------------------------------------------------------
+鉴于一升水可以生产一卡路里的食物，为了养活每天 2500 卡路里的额外 25 亿人，世界每年将需要多生产 6000 立方公里的水。
+
+(ROOT (IP (VP (VV 鉴) (PP (VV 于) (IP (NP (QP (CD 一) (CLP (NNB 升))) (NP (NN 水))) (VP (MD 可以) (VP (VV 生产) (NP (DNP (LCP (NP (QP (CD 一) (CLP (NNB 卡))) (NP (NN 路))) (NN 里)) (DEC 的)) (NP (NN 食物)))))))) (, ，) (PP (IN 为了) (IP (VP (VV 养活) (NP (DNP (NP (NP (DT 每天)) (QP (CD 2500)) (NP (NNB 卡路里))) (DEC 的)) (ADJP (JJ 额外)) (QP (CD 25) (QP (CD 亿))) (NP (NN 人)))))) (, ，) (NP (NN 世界)) (VP (NP (DT 每年)) (ADVP (RB 将)) (VP (MD 需要) (VP (ADVP (RB 多)) (VP (VV 生产) (NP (DNP (QP (CD 6000) (CLP (NNB 立方公里))) (DEC 的)) (NP (NN 水))))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, ',': {}, 'PP': {}, ',65881': {}, 'NP': {}, 'VP70750': {}, '.': {}}}
+{'IP': {'VP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VV': {}, 'PP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, ',48672': {}, 'NP': {'NN': {}}, 'VP91572': {'NP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {'VV': {}, 'PP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'VP': {'VV': {}, 'PP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'ROOT', 'root']	['鉴', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['于', '鉴', 'mark']
+['NUM', 'NOUN', 'nummod']	['一', '升', 'nummod']
+['NOUN', 'NOUN', 'clf']	['升', '水', 'clf']
+['NOUN', 'VERB', 'nsubj']	['水', '生产', 'nsubj']
+['AUX', 'VERB', 'aux']	['可以', '生产', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['生产', '食物', 'acl:relcl']
+['NUM', 'NOUN', 'nummod']	['一', '卡', 'nummod']
+['NOUN', 'NOUN', 'clf']	['卡', '路', 'clf']
+['NOUN', 'VERB', 'obj']	['路', '生产', 'obj']
+['NOUN', 'NOUN', 'acl']	['里', '路', 'acl']
+['PART', 'VERB', 'mark:rel']	['的', '生产', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['食物', '鉴', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '生产', 'punct']
+['ADP', 'VERB', 'case']	['为了', '养活', 'case']
+['VERB', 'NOUN', 'xcomp']	['养活', '人', 'xcomp']
+['DET', 'NOUN', 'det']	['每天', '卡路里', 'det']
+['NUM', 'NOUN', 'nummod']	['2500', '卡路里', 'nummod']
+['NOUN', 'VERB', 'obj']	['卡路里', '养活', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '养活', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['额外', '人', 'amod']
+['NUM', 'NUM', 'nummod']	['25', '亿', 'nummod']
+['NUM', 'NOUN', 'nummod']	['亿', '人', 'nummod']
+['NOUN', 'VERB', 'obl']	['人', '生产', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '人', 'punct']
+['NOUN', 'VERB', 'nsubj']	['世界', '生产', 'nsubj']
+['DET', 'VERB', 'nmod:tmod']	['每年', '生产', 'nmod:tmod']
+['ADV', 'VERB', 'advmod']	['将', '生产', 'advmod']
+['AUX', 'VERB', 'aux']	['需要', '生产', 'aux']
+['ADV', 'VERB', 'advmod']	['多', '生产', 'advmod']
+['VERB', 'VERB', 'parataxis']	['生产', '鉴', 'parataxis']
+['NUM', 'NOUN', 'nummod']	['6000', '立方公里', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['立方公里', '水', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '立方公里', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['水', '生产', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '鉴', 'punct']
+----------------------------------------------------------------------
+Chartres 说：“这几乎是我们目前使用的两倍，而且不可持续。”
+
+(ROOT (IP (NP (FW Chartres)) (VP (VV 说) (: ：) (IP (`` “) (NP (PRD 这)) (VP (VP (ADVP (RB 几乎)) (VP (VC 是) (QP (CP (CP (IP (NP (PRP 我们)) (VP (NP (NN 目前)) (VP (VV 使用)))) (DEC 的))) (QP (CD 两) (CLP (NNB 倍)))))) (, ，) (RB 而且) (VP (MD 不可) (VP (VV 持续)))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'FW': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+['X', 'VERB', 'nsubj']	['Chartres', '说', 'nsubj']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['：', '持续', 'punct']
+['PUNCT', 'VERB', 'punct']	['“', '持续', 'punct']
+['PRON', 'VERB', 'nsubj']	['这', '持续', 'nsubj']
+['ADV', 'NOUN', 'advmod']	['几乎', '倍', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '倍', 'cop']
+['PRON', 'VERB', 'nsubj']	['我', '使用', 'nsubj']
+['NOUN', 'VERB', 'nmod:tmod']	['目前', '使用', 'nmod:tmod']
+['VERB', 'NOUN', 'acl:relcl']	['使用', '倍', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '使用', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['两', '倍', 'nummod']
+['NOUN', 'VERB', 'advcl']	['倍', '持续', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['，', '倍', 'punct']
+['ADV', 'VERB', 'mark']	['而且', '持续', 'mark']
+['AUX', 'VERB', 'aux']	['可', '持续', 'aux']
+['VERB', 'VERB', 'ccomp']	['持续', '说', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '持续', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '持续', 'punct']
+----------------------------------------------------------------------
+报告敦促各国修复和现代化灌溉系统，并使用更好的滴灌农业。
+
+(ROOT (IP (NP (NN 报告)) (VP (VV 敦促) (NP (NN 各国)) (IP (VP (VP (VP (VV 修复)) (CC 和) (NP (ADJP (NN 现代)) (NP (SFV 化) (VV 灌) (SFN 溉) (NN 系统)))) (, ，) (RB 并) (VP (VV 使用) (NP (CP (CP (IP (VP (JJ 更好))) (DEC 的))) (NP (NN 滴灌) (NN 农业))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nsubj']	['报告', '使用', 'nsubj']
+['VERB', 'VERB', 'advcl']	['敦促', '使用', 'advcl']
+['NOUN', 'VERB', 'nsubj']	['各国', '修复', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['修复', '敦促', 'ccomp']
+['CCONJ', 'NOUN', 'cc']	['和', '系统', 'cc']
+['NOUN', 'PART', 'compound']	['现代', '化', 'compound']
+['PART', 'NOUN', 'amod']	['化', '系统', 'amod']
+['VERB', 'PART', 'compound']	['灌', '溉', 'compound']
+['PART', 'NOUN', 'nmod']	['溉', '系统', 'nmod']
+['NOUN', 'VERB', 'obj']	['系统', '修复', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '敦促', 'punct']
+['ADV', 'VERB', 'mark']	['并', '使用', 'mark']
+['VERB', 'ROOT', 'root']	['使用', 'NONE', 'root']
+['ADJ', 'NOUN', 'amod']	['更好', '农业', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '更好', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['滴灌', '农业', 'nmod']
+['NOUN', 'VERB', 'obj']	['农业', '使用', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '使用', 'punct']
+----------------------------------------------------------------------
+联合国预计，未来 40 年，全球将增加 25 亿人口，其中大部分人口将集中在发展中国家。
+
+(ROOT (IP (NP (VV 联合) (SFN 国)) (VP (VV 预计) (, ，) (IP (IP (QP (NP (NN 未来)) (QP (CD 40) (CLP (NNB 年)))) (, ，) (NP (NN 全球)) (VP (ADVP (RB 将)) (VP (VV 增加) (NP (QP (CD 25) (QP (NNB 亿))) (NP (NN 人口)))))) (, ，) (IP (NP (NN 其中)) (NP (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (NN 人口))) (VP (ADVP (RB 将)) (VP (VV 集中) (PP (IN 在) (NP (VV 发展) (NP (NNP 中国)) (NP (SFN 家))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'VV': {}, 'SFN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'VV': {}, 'SFN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'VV': {}, 'SFN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['VERB', 'PART', 'compound']	['联合', '国', 'compound']
+['PART', 'VERB', 'nsubj']	['国', '预计', 'nsubj']
+['VERB', 'ROOT', 'root']	['预计', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '增加', 'punct']
+['NOUN', 'NOUN', 'nmod']	['未来', '年', 'nmod']
+['NUM', 'NOUN', 'nummod']	['40', '年', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['年', '增加', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '年', 'punct']
+['NOUN', 'VERB', 'nsubj']	['全球', '增加', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '增加', 'advmod']
+['VERB', 'VERB', 'ccomp']	['增加', '预计', 'ccomp']
+['NUM', 'NOUN', 'nummod']	['25', '亿', 'nummod']
+['NOUN', 'NOUN', 'clf']	['亿', '人口', 'clf']
+['NOUN', 'VERB', 'obj']	['人口', '增加', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '集中', 'punct']
+['NOUN', 'VERB', 'obl']	['其中', '集中', 'obl']
+['PART', 'NOUN', 'case']	['大', '部分', 'case']
+['NOUN', 'NOUN', 'nmod']	['部分', '人口', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['人口', '集中', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '集中', 'advmod']
+['VERB', 'VERB', 'parataxis']	['集中', '预计', 'parataxis']
+['ADP', 'PART', 'case']	['在', '家', 'case']
+['VERB', 'PART', 'amod']	['发展', '家', 'amod']
+['PROPN', 'PART', 'compound']	['中国', '家', 'compound']
+['PART', 'VERB', 'obl']	['家', '集中', 'obl']
+['PUNCT', 'VERB', 'punct']	['。', '预计', 'punct']
+----------------------------------------------------------------------
+非洲人口可能会翻一番，亚洲人口可能增长近30%，巴基斯坦人口可能增长85%。
+
+(ROOT (IP (IP (NP (NP (NNP 非洲)) (NP (NN 人口))) (VP (MD 可能) (VP (MD 会) (QP (CD 翻一) (CLP (NN 番)))))) (, ，) (IP (NP (NP (NNP 亚洲)) (NP (NN 人口))) (VP (MD 可能) (VP (VV 增长) (QP (ADVP (RB 近)) (QP (CD 30%)))))) (, ，) (IP (NP (NP (NNP 巴基斯坦)) (NP (NN 人口))) (VP (MD 可能) (VP (VV 增长) (QP (CD 85%))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP88547': {}, ',35156': {}, 'IP39648': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP44789': {'NP': {}, 'VP': {}}, ',80769': {}, 'IP70991': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['非洲', '人口', 'nmod']
+['NOUN', 'NUM', 'nsubj']	['人口', '翻一', 'nsubj']
+['AUX', 'NUM', 'aux']	['可能', '翻一', 'aux']
+['AUX', 'NUM', 'aux']	['会', '翻一', 'aux']
+['NUM', 'ROOT', 'root']	['翻一', 'NONE', 'root']
+['NOUN', 'NUM', 'obj']	['番', '翻一', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '增长', 'punct']
+['PROPN', 'NOUN', 'nmod']	['亚洲', '人口', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['人口', '增长', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '增长', 'aux']
+['VERB', 'NUM', 'parataxis']	['增长', '翻一', 'parataxis']
+['ADV', 'NUM', 'advmod']	['近', '30%', 'advmod']
+['NUM', 'VERB', 'obj']	['30%', '增长', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '增长', 'punct']
+['PROPN', 'NOUN', 'nmod']	['巴基斯坦', '人口', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['人口', '增长', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '增长', 'aux']
+['VERB', 'NUM', 'parataxis']	['增长', '翻一', 'parataxis']
+['NUM', 'VERB', 'obj']	['85%', '增长', 'obj']
+['PUNCT', 'NUM', 'punct']	['。', '翻一', 'punct']
 ----------------------------------------------------------------------

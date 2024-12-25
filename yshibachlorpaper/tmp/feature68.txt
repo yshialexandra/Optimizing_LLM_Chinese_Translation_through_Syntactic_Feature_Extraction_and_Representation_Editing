@@ -1,401 +1,265 @@
-我们能否拯救地球，同时保持自由？
-
-(ROOT (IP (NP (PRP 我们)) (VP (MD 能否) (VP (VP (VV 拯救) (NP (NN 地球))) (, ，) (VP (ADVP (NN 同时)) (VP (VV 保持) (NP (NN 自由)))))) (. ？)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
+.
+(ROOT (. .))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+.	ROOT	root
 ----------------------------------------------------------------------
-英国图书馆的新年系列讨论会第一次讨论的题目是“我们能否拯救地球，同时保持自由？”，但对“英国争取自由和权利的斗争”却没有多少赞赏。
-
-(ROOT (IP (IP (NP (CP (CP (NP (NP (DNP (NP (NNP 英国) (NN 图书) (SFN 馆)) (DEC 的)) (NP (NN 新年) (NN 系列) (NN 讨论) (SFN 会))) (VP (QP (CD 第一) (CLP (NNB 次))) (VP (VV 讨论)))) (DEC 的))) (NP (NN 题目))) (VP (VC 是) (IP (`` “) (IP (NP (PRP 我们)) (VP (MD 能否) (VP (VV 拯救) (NP (NNP 地球))))) (, ，) (IP (VP (ADVP (NN 同时)) (VP (VV 保持) (NP (NN 自由))))) (. ？) ('' ”)))) (, ，) (IP (ADVP (RB 但)) (VP (PP (IN 对) (NP (`` “) (NP (NNP 英国)) (CP (CP (IP (VP (VV 争取) (NP (NN 自由) (CC 和) (NN 权利)))) (DEC 的))) (NP (NN 斗争)) ('' ”))) (ADVP (RB 却)) (VP (VV 没有) (NP (QP (CD 多少)) (NP (NN 赞赏)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'VP': {}}}
+/
+(ROOT (. /))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+/	ROOT	root
 ----------------------------------------------------------------------
-不像迈克·赫姆在《 Taking Liberties 》展览的评论中（1）所观察到的，人们自由权的进步过程正在逆转，而是，讨论反映了积极主张限制人们自由权的个人。
-
-(ROOT (IP (IP (NP (CP (CP (IP (ADVP (VV 不像)) (NP (NNP 迈克) (/ ·) (NNP 赫姆)) (VP (PP (IN 在) (LCP (NP (DNP (NP (NP (-LRB- 《) (FW Taking) (FW Liberties) (-RRB- 》)) (NP (NN 展览))) (DEC 的)) (NP (NN 评论))) (IN 中))) (LST (-LRB- （) (CD 1) (-RRB- ）)) (VP (RB 所) (VP (VRD (VV 观察) (VV 到)))))) (UH 的)))) (, ，) (NP (DNP (NP (NN 人们) (NN 自由) (SFN 权)) (DEC 的)) (NP (NN 进步) (NN 过程))) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 逆转)))) (, ，) (RB 而是) (, ，) (IP (NP (NN 讨论)) (VP (VV 反映) (AS 了) (NP (CP (CP (IP (VP (ADVP (RB 积极)) (VP (VV 主张) (IP (VP (VV 限制) (NP (NN 人们) (NN 自由) (SFN 权))))))) (DEC 的))) (NP (NN 个人))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'RB': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'RB': {}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+i
+(ROOT (FW i))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+i	ROOT	root
 ----------------------------------------------------------------------
-在有争议的地方，争议的不是如何保护自由，而是如何最好地剥夺自由。
-
-(ROOT (IP (PP (IN 在) (NP (CP (CP (IP (VP (VV 有) (NP (NN 争议)))) (DEC 的))) (NP (NN 地方)))) (, ，) (NP (CP (CP (IP (VP (NN 争议))) (DEC 的)))) (VP (VP (VC 不是) (IP (VP (ADVP (RB 如何)) (VP (VV 保护) (NP (NN 自由)))))) (, ，) (VP (RB 而是) (VP (ADVP (RB 如何)) (DVP (VP (JJ 最好)) (DEV 地)) (VP (VV 剥夺) (NP (NN 自由)))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'CP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'NP': {}}}
-{'NP': {'CP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+n
+(ROOT (FW n))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+n	ROOT	root
 ----------------------------------------------------------------------
-当然，你不会真的说“限制自由”，正如专题讨论小组成员肯·利文斯通在他作为伦敦市长时提到的拥堵收费时所指出的，——在介绍时，你需要以不同的方式来描述，比如说“我们将引入定价机制”。
-
-(ROOT (IP (IP (ADVP (RB 当然)) (, ，) (NP (PRP 你)) (VP (MD 不会) (VP (ADVP (RB 真的)) (VP (VV 说) (IP (VP (`` “) (VV 限制) (NP (NN 自由)) ('' ”))))))) (, ，) (IP (PP (ADVP (RB 正)) (PP (VV 如) (NP (CP (CP (IP (NP (NP (NP (NN 专题) (NN 讨论) (NN 小组)) (NP (NN 成员))) (NP (NNP 肯) (/ ·) (NNP 利文斯) (VV 通))) (VP (PP (IN 在) (LCP (NP (CP (CP (IP (NP (PRP 他)) (VP (PP (VV 作) (PP (VC 为) (LCP (NP (NP (NNP 伦敦)) (NP (NN 市长))) (IN 时)))) (VP (VV 提到)))) (DEC 的))) (NP (NN 拥堵) (NN 收费))) (IN 时))) (VP (RB 所) (VP (VV 指出))))) (UH 的)))))) (, ，) (HYPH —) (HYPH —) (PP (IN 在) (LCP (NP (VV 介绍)) (IN 时))) (, ，) (NP (PRP 你)) (VP (VP (MD 需要) (VP (PP (IN 以) (NP (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (NN 方式)))) (VP (RB 来) (VP (VV 描述))))) (, ，) (VP (ADVP (VV 比如)) (VP (VV 说) (IP (`` “) (NP (PRP 我们)) (VP (ADVP (RB 将)) (VP (VV 引入) (NP (NN 定价) (NN 机制)))) ('' ”)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'HYPH': {}, 'HYPH': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'PP': {}, ',': {}, 'HYPH': {}, 'HYPH': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这样你就能让像米尔顿·弗里德曼这样的人同意你的提议。
-
-(ROOT (IP (ADVP (PRD 这样)) (NP (PRP 你)) (VP (ADVP (RB 就)) (VP (MD 能) (VP (VV 让) (NP (CP (CP (IP (VP (PP (IN 像) (NP (NNP 米尔顿) (/ ·) (NNP 弗里德曼))) (VP (PRD 这样)))) (DEC 的))) (NP (NN 人))) (IP (VP (VV 同意) (NP (DNP (NP (PRP 你)) (DEC 的)) (NP (NN 提议)))))))) (. 。)))
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'PRD': {}}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'PRD': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-从一开始就很明显，这不是所谓的“自由与环境主义”的辩论：已经决定，自由必须消失。
-
-(ROOT (IP (IP (VP (PP (IN 从) (IP (VP (QP (CD 一)) (VP (NNB 开始))))) (ADVP (RB 就)) (ADVP (RB 很)) (VP (JJ 明显)))) (, ，) (IP (NP (PRD 这)) (VP (VC 不是) (NP (CP (CP (IP (VP (RB 所) (ADJP (VV 谓)))) (DEC 的))) (DNP (NP (`` “) (NN 自由) (CC 与) (NN 环境) (NN 主义) ('' ”)) (DEC 的)) (NP (NN 辩论))))) (: ：) (IP (VP (ADVP (RB 已经)) (VP (VV 决定) (, ，) (IP (NP (NN 自由)) (VP (MD 必须) (VP (VV 消失))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ':': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'VP': {}}, ':': {}, '.': {}}}
-{'IP': {'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-主持人、作家和广播员加布里埃尔·沃克博士从一开始就把自己的立场郑重宣布了出来。沃克博士告诉我们，过去，环保主义者总是说“我们需要回到石器时代，毁灭资本主义”，这种说法曾经很流行。
-
-(ROOT (IP (NP (NP (VV 主持) (SFN 人) (EC 、) (NN 作家) (CC 和) (VV 广播) (SFN 员)) (NP (NNP 加布里埃尔) (/ ·) (NNP 沃克) (NN 博士))) (VP (PP (IN 从) (IP (VP (ADVP (CD 一)) (VP (VV 开始))))) (ADVP (RB 就)) (VP (BB 把) (IP (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 立场))) (VP (ADVP (NNP 郑)) (ADVP (RB 重)) (VP (VV 宣布) (AS 了) (VV 出来)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-然而现在，人们更愿意期待新技术让我们“保持现状”。
-
-(ROOT (IP (ADVP (RB 然而)) (NP (NN 现在)) (, ，) (NP (NN 人们)) (VP (ADVP (RB 更)) (VP (MD 愿意) (IP (VP (VV 期待) (IP (NP (ADJP (PFA 新)) (NP (NN 技术))) (VP (VV 让) (NP (PRP 我们)) (IP (VP (`` “) (VV 保持) (NP (NN 现状)) ('' ”))))))))) (. 。)))
-{'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'NP': {'NN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'NN': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-沃克在介绍演讲嘉宾之前，告诉我们“真相”在“某个中间”。
-
-(ROOT (IP (NP (NNP 沃克)) (VP (PP (IN 在) (LCP (IP (VP (VV 介绍) (NP (NN 演讲) (NN 嘉宾)))) (IN 之前))) (, ，) (VP (VV 告诉) (NP (PRP 我们)) (NP (`` “) (NN 真相) ('' ”)) (PP (IN 在) (NP (`` “) (ADJP (DT 某个)) (NP (NN 中间)) ('' ”))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'PP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-也许是回归中世纪的一种小小的回忆吧?
-
-(ROOT (CP (IP (VP (ADVP (RB 也许)) (VP (VC 是) (NP (CP (CP (IP (VP (VV 回归) (NP (ADJP (NN 中)) (NP (NN 世纪))))) (DEC 的))) (QP (CD 一) (CLP (NNB 种))) (CP (CP (IP (VP (JJ 小小))) (DEC 的))) (NP (NN 回忆)))))) (UH 吧) (. ?)))
-{'CP': {'IP': {}, 'UH': {}, '.': {}}}
-{'CP': {'IP': {'VP': {}}, 'UH': {}, '.': {}}}
-{'IP': {'VP': {}}}
-----------------------------------------------------------------------
-李文杰并非唯一一个对自己不再享受无尽媒体关注感到沮丧的人。
-
-(ROOT (IP (NP (NNP 李) (NNP 文杰)) (VP (VC 并非) (NP (QP (ADJP (JJ 唯一)) (QP (CD 一) (CLP (NNB 个)))) (CP (CP (IP (VP (VP (PP (IN 对) (NP (PRD 自己))) (ADVP (RB 不)) (ADVP (RB 再)) (VP (VV 享受) (NP (NP (ADJP (JJ 无尽)) (NP (NN 媒体))) (NP (NN 关注))))) (VP (VV 感到) (NP (JJ 沮丧))))) (DEC 的))) (NP (NN 人)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}, 'NNP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'NP': {'NNP': {}, 'NNP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
-----------------------------------------------------------------------
-正如沃克博士所指出的，在去年九月信贷危机开始吞噬它们之前，气候变化一直是头条新闻。
-
-(ROOT (IP (NP (CP (CP (IP (NP (NNP 正如沃克) (NN 博士)) (VP (RB 所) (VP (VV 指出)))) (UH 的)))) (, ，) (PP (IN 在) (LCP (IP (NP (NN 去年) (CD 九) (NNB 月)) (NP (NN 信) (NN 贷) (NN 危机)) (VP (VV 开始) (VP (VV 吞噬) (NP (PRP 它们))))) (IN 之前))) (, ，) (NP (NN 气候) (VV 变化)) (VP (ADVP (RB 一直)) (VP (VC 是) (NP (QP (CD 头) (CLP (NNB 条))) (NP (NN 新闻))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}}, ',': {}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NN': {}, 'VV': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CP': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'NN': {}, 'VV': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-她很想指出，气候变化不是一场小小的炒作。
-
-(ROOT (IP (NP (PRP 她)) (VP (ADVP (RB 很)) (VP (MD 想) (IP (VP (VV 指出) (, ，) (IP (NP (NN 气候) (VV 变化)) (VP (VC 不是) (NP (QP (CD 一) (CLP (NNB 场))) (CP (CP (IP (VP (JJ 小小))) (DEC 的))) (NP (NN 炒作))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-与 Y2K 漏洞不同，它“不会消失”。
-
-(ROOT (IP (IP (VP (PP (IN 与) (NP (NP (FW Y2K)) (NP (NN 漏洞)))) (VP (JJ 不同)))) (, ，) (NP (PRP 它)) (VP (`` “) (MD 不会) (VP (VV 消失)) ('' ”)) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'``': {}, 'MD': {}, 'VP': {}, "''": {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'``': {}, 'MD': {}, 'VP': {}, "''": {}}}
-----------------------------------------------------------------------
-如果你认为信贷紧缩是一件坏事，那么就等着看即将到来的“气候紧缩”。
-
-(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 你)) (VP (VV 认为) (IP (NP (NN 信贷) (VV 紧缩)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 件))) (NP (NN 坏事)))))))) (, ，) (ADVP (RB 那么)) (VP (ADVP (RB 就)) (VP (VV 等) (AS 着) (IP (VP (VV 看) (NP (CP (CP (IP (VP (ADVP (RB 即将)) (VP (VV 到来)))) (DEC 的))) (NP (`` “) (NP (NN 气候)) (VP (VV 紧缩)) ('' ”))))))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'ADVP': {'RB': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-利文斯通称，“紧急情况”如此严重，如果我们不采取行动，到本世纪末，只剩下几百万人“微薄地生存”。
-
-(ROOT (IP (NP (NNP 利文斯)) (VP (VV 通称) (, ，) (IP (IP (NP (`` “) (ADJP (JJ 紧急)) (NP (NN 情况)) ('' ”)) (VP (ADVP (VV 如此)) (VP (JJ 严重)))) (, ，) (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 我们)) (VP (ADVP (RB 不)) (VP (VV 采取) (NP (NN 行动)))))) (, ，) (LCP (NP (DP (DT 到本)) (NP (NNB 世纪))) (IN 末)) (, ，) (VP (ADVP (RB 只)) (VP (VV 剩下) (NP (QP (CD 几百万)) (NP (NN 人))) (IP (VP (`` “) (DVP (VP (JJ 微薄)) (DEV 地)) (VP (VV 生存)) ('' ”)))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-对于一些专家而言，各国政府对当前经济危机的反应是一个乐观的来源。
-
-(ROOT (IP (IP (VP (PP (IN 对于) (NP (QP (JJ 一些)) (NP (NN 专家)))) (VP (RB 而) (VP (VV 言))))) (, ，) (NP (NP (NP (NN 各国)) (NP (NN 政府))) (DNP (PP (IN 对) (NP (NN 当前) (NN 经济) (NN 危机))) (DEC 的)) (NP (NN 反应))) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 乐观))) (DEC 的))) (NP (NN 来源)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'NP': {}, 'DNP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
-----------------------------------------------------------------------
-英国公共政策研究所副所长兼气候变化小组组长西蒙·雷塔拉克克 (Simon Retallack) 指出，如果政府能够向金融市场投入万亿美元，那么在气候危机来临时，他们也能够这样做。
-
-(ROOT (IP (NP (NP (NP (NP (NNP 英国)) (NP (ADJP (JJ 公共)) (NP (NN 政策))) (NP (VV 研究) (SFN 所))) (NP (NP (ADJP (PFA 副)) (NP (NN 所长))) (CC 兼) (NP (NP (NN 气候) (NN 变化) (NN 小组)) (NP (NN 组长))))) (NP (NNP 西蒙) (/ ·) (NNP 雷塔拉克克) (FW -LRB-Simon) (FW Retallack-RRB-))) (VP (VV 指出) (, ，) (IP (CP (ADVP (IN 如果)) (IP (NP (NN 政府)) (VP (MD 能够) (VP (PP (IN 向) (NP (NN 金融) (NN 市场))) (VP (VV 投入) (QP (CD 万亿) (CLP (NNP 美) (CLP (NNB 元))))))))) (, ，) (ADVP (RB 那么)) (PP (IN 在) (LCP (IP (NP (NN 气候) (NN 危机)) (VP (VV 来临))) (IN 时))) (, ，) (NP (PRP 他们)) (VP (ADVP (RB 也)) (VP (MD 能够) (VP (ADVP (RB 这样)) (VP (VV 做))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-Retallack 告诉我们，这是为了确保地球仍然适合居住。
-
-(ROOT (IP (NP (FW Retallack)) (VP (VV 告诉) (NP (PRP 我们)) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (PP (IN 为了) (IP (VP (VV 确保) (IP (NP (NNP 地球)) (VP (ADVP (RB 仍然)) (VP (VV 适合) (IP (VP (VV 居住)))))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}, '.': {}}}
+s
+(ROOT (NP (FW s)))
+layer 2:
 {'NP': {'FW': {}}}
-{'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}}
+{'NP': {'FW': {}}}
+layer 3:
+{'NP': {'FW': {}}}
+{'NP': {'FW': {}}}
+Dependency Features:
+s	ROOT	root
 ----------------------------------------------------------------------
-因此，“如果有必要限制自由，那么这种情况就是限制自由的理由，以确保人类的生存”。
-
-(ROOT (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (IP (`` “) (IP (VP (ADVP (IN 如果)) (VP (VP (VV 有) (NP (NN 必要))) (VP (VV 限制) (NP (NN 自由)))))) (, ，) (ADVP (RB 那么)) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 情况))) (VP (VP (VC 就是) (NP (CP (IP (VP (VV 限制) (NP (NN 自由)))) (DEC 的)) (NP (NN 理由)))) (, ，) (VP (RB 以) (VP (VV 确保) (NP (DNP (NP (NN 人类)) (DEC 的)) (NP (NN 生存)))))) ('' ”)) (. 。)))
-{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'ADVP': {'IN': {}}, 'ADVP': {'PRD': {}}, ',': {}, 'IP': {'``': {}, 'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, "''": {}}, '.': {}}}
-{'ADVP': {'IN': {}}}
-{'ADVP': {'PRD': {}}}
-{'IP': {'``': {}, 'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, "''": {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-我们并不是想要破坏罗斯福的四项基本自由——言论自由、宗教自由、免于匮乏和恐惧的自由。
-
-(ROOT (IP (NP (PRP 我们)) (VP (ADVP (RB 并)) (VP (VC 不是) (VP (MD 想) (IP (VP (MD 要) (VP (VV 破坏) (NP (NP (DNP (NP (NNP 罗斯) (NNP 福)) (DEC 的)) (QP (CD 四) (CLP (NNB 项))) (ADJP (JJ 基本)) (NP (NN 自由))) (HYPH —) (HYPH —) (NP (NN 言论) (NN 自由) (EC 、) (NN 宗教) (NN 自由)) (EC 、) (NP (CP (IP (VP (VV 免于) (NP (JJ 匮乏) (CC 和) (NN 恐惧)))) (DEC 的)) (NP (NN 自由)))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+r
+(ROOT (FW r))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+r	ROOT	root
 ----------------------------------------------------------------------
-而罗斯福强调的是“摆脱渴望”，而不是我们应该拥有我们想要的一切。
-
-(ROOT (IP (IP (ADVP (RB 而)) (NP (CP (CP (IP (NP (NNP 罗斯) (NNP 福)) (VP (VV 强调))) (DEC 的)))) (VP (VC 是) (IP (VP (`` “) (VV 摆脱) (NP (NN 渴望)) ('' ”))))) (, ，) (IP (ADVP (RB 而)) (ADVP (VC 不是)) (NP (PRP 我们)) (VP (MD 应该) (VP (VV 拥有) (NP (CP (CP (IP (NP (PRP 我们)) (VP (VV 想要))) (DEC 的))) (NP (NN 一切)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+u
+(ROOT (FW u))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+u	ROOT	root
 ----------------------------------------------------------------------
-地球之友执行主任安迪·阿特金斯 (Andy Atkins) 表示，我们需要质疑生活方式的选择是否真的是自由。
-
-(ROOT (IP (NP (NP (NP (NNP 地球) (NN 之友)) (NP (NN 执行) (NN 主任))) (NP (NNP 安迪) (/ ·) (NNP 阿特金斯) (FW -LRB-Andy) (FW Atkins-RRB-))) (VP (VV 表示) (, ，) (IP (NP (CP (CP (IP (NP (PRP 我们)) (VP (MD 需要) (VP (VV 质疑) (NP (NN 生活) (NN 方式))))) (DEC 的))) (NP (NN 选择))) (VP (ADVP (VC 是否)) (ADVP (RB 真的)) (VP (VC 是) (NP (NN 自由)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+c
+(ROOT (FW c))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+c	ROOT	root
 ----------------------------------------------------------------------
-与生命权、免受酷刑权和言论自由权不同，“个人生活方式的选择并不是基本权利”。
-
-(ROOT (IP (IP (VP (PP (IN 与) (NP (NP (NN 生命) (SFN 权)) (EC 、) (IP (VP (VV 免受) (NP (NN 酷刑) (SFN 权) (CC 和) (NN 言论) (NN 自由) (SFN 权)))))) (VP (JJ 不同)))) (, ，) (NP (`` “) (DNP (NP (NN 个人) (NN 生活) (NN 方式)) (DEC 的)) (NP (NN 选择)) (VP (ADVP (RB 并)) (VP (VC 不是) (NP (ADJP (NN 基本)) (NP (NN 权利))))) ('' ”)) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'``': {}, 'DNP': {}, 'NP': {}, 'VP': {}, "''": {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'``': {}, 'DNP': {}, 'NP': {}, 'VP': {}, "''": {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-此外，西方的消费不仅造成气候变化，还侵犯了其他人的基本自由，例如住在森林中的亚马逊原住民。
-
-(ROOT (IP (ADVP (NN 此外)) (, ，) (NP (DNP (NP (NNP 西方)) (DEC 的)) (NP (NN 消费))) (VP (IN 不仅) (VP (VV 造成) (NP (NN 气候) (NN 变化))) (, ，) (RB 还) (VP (VV 侵犯) (AS 了) (NP (NP (DNP (NP (DP (DT 其他)) (NP (NN 人))) (DEC 的)) (ADJP (NN 基本)) (NP (NN 自由))) (, ，) (NP (ADVP (VV 例如)) (NP (CP (CP (IP (VP (VV 住) (PP (IN 在) (LCP (NP (NN 森林)) (IN 中))))) (DEC 的))) (NP (NNP 亚马逊)) (ADJP (PFA 原)) (NP (NN 住民))))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'IN': {}, 'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'NN': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'IN': {}, 'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
 ----------------------------------------------------------------------
-在讨论如何应对生活方式选择时，小组成员提出减少肉类食用是当月最热门的话题，除了通常的限制航班、关闭灯光和电脑以及减少供暖之外。利文斯通宣布，“没有权利遵循阿特金斯饮食法”，并消耗“过量的肉类”。
-
-(ROOT (IP (PP (IN 在) (LCP (IP (VP (VV 讨论) (IP (VP (ADVP (RB 如何)) (VP (VV 应对) (NP (NN 生活) (NN 方式) (NN 选择))))))) (IN 时))) (, ，) (NP (NN 小组) (NN 成员)) (VP (VV 提出) (IP (IP (IP (VP (VV 减少) (NP (NN 肉类) (VV 食用)))) (VP (VC 是) (NP (CP (CP (IP (VP (NP (NN 当月)) (ADVP (RB 最)) (VP (JJ 热门)))) (DEC 的))) (NP (NN 话) (SFN 题))))) (, ，) (PP (VV 除) (PP (AS 了) (NP (DNP (ADJP (JJ 通常)) (DEC 的)) (LCP (IP (VP (VP (NN 限制) (NP (NN 航班))) (EC 、) (VP (VV 关闭) (NP (NN 灯光) (CC 和) (NN 电脑))) (CC 以及) (VP (VV 减少) (NP (NN 供暖))))) (IN 之外))))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NN': {}, 'NN': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'NN': {}, 'NN': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-他说，这就像是当伦敦引入排污管道时，人们为“把粪便桶扔到街上”而争论的权利。
-
-(ROOT (IP (NP (PRP 他)) (VP (VV 说) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 就)) (VP (VC 像是) (NP (CP (CP (IP (PP (IN 当) (LCP (IP (NP (NNP 伦敦)) (VP (VV 引入) (NP (NN 排污) (NN 管道)))) (IN 时))) (, ，) (NP (NN 人们)) (VP (PP (IN 为) (IP (`` “) (VP (BB 把) (IP (NP (NN 粪) (NN 便) (SFN 桶)) (VP (VV 扔到) (NP (NN 街上))))) ('' ”))) (VP (RB 而) (VP (VV 争论))))) (DEC 的))) (NP (NN 权利))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+x
+(ROOT (FW x))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+x	ROOT	root
 ----------------------------------------------------------------------
-利文斯通继续重复他的“如果是黄色，让它发酵”的口号，以节约水资源，但这些水资源需要大量二氧化碳来清洁，最终流入我们的厕所并填满了我们的垃圾桶。
-
-(ROOT (IP (IP (NP (NNP 利文斯) (SFN 通)) (VP (VV 继续) (VP (VP (VV 重复) (NP (DNP (NP (PRP 他)) (DEC 的)) (CP (IP (`` “) (VP (VP (ADVP (IN 如果)) (VP (VC 是) (NP (NN 黄色)))) (, ，) (VP (VV 让) (NP (PRP 它)) (IP (VP (VV 发酵))))) ('' ”)) (DEC 的)) (NP (NN 口号)))) (, ，) (VP (RB 以) (VP (VV 节约) (NP (NN 水) (NN 资源))))))) (, ，) (IP (ADVP (RB 但)) (NP (DP (DT 这些)) (NP (NN 水) (NN 资源))) (VP (VV 需要) (NP (QP (JJ 大量)) (QP (CD 二)) (NP (NN 氧化))) (IP (VP (NN 碳来) (VP (VV 清洁)))))) (, ，) (IP (VP (ADVP (NN 最终)) (VP (VP (VV 流入) (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NN 厕) (SFN 所)))) (RB 并) (VP (VV 填满) (AS 了) (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (VV 垃圾) (SFN 桶))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'VP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-如果你听了利宾斯泰恩胡萝多谈论他在伦敦市长办公室里花费大量时间与荷兰公司讨论如何用灯泡拯救地球的话，你会感到救赎，因为他把去年自己败选市长选举的事称为“伟大的悲剧”。
-
-(ROOT (IP (IP (CP (ADVP (IN 如果)) (CP (IP (NP (PRP 你)) (VP (VP (VV 听) (AS 了) (NP (NNP 利宾斯泰恩) (NNP 胡) (NNP 萝) (RB 多))) (VP (VV 谈论) (IP (NP (PRP 他)) (VP (PP (VV 在) (LCP (NP (NP (NNP 伦敦)) (NP (NN 市长) (VV 办公) (SFN 室))) (IN 里))) (VP (VP (VV 花费) (NP (QP (JJ 大量)) (NP (NN 时间)))) (VP (PP (IN 与) (NP (NNP 荷兰) (NN 公司))) (VP (VV 讨论) (IP (VP (ADVP (RB 如何)) (PP (VV 用) (NP (NN 灯泡))) (VP (VV 拯救) (NP (NNP 地球))))))))))))) (UH 的话))) (, ，) (NP (PRP 你)) (VP (MD 会) (VP (VV 感到) (NP (NN 救赎))))) (, ，) (PP (IN 因为) (IP (NP (PRP 他)) (VP (BB 把) (IP (NP (DNP (NP (CP (IP (NP (NN 去年) (PRD 自己)) (VP (NN 败选)))) (NP (NN 市长) (NN 选举))) (DEC 的)) (NP (NN 事称))) (VP (VC 为) (NP (`` “) (CP (CP (IP (VP (JJ 伟大))) (DEC 的))) (NP (NN 悲剧)) ('' ”))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
-{'IP': {'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
-{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
+/
+(ROOT (. /))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+/	ROOT	root
 ----------------------------------------------------------------------
-然而，鉴于鲍里斯最近的计划，即重新培训伦敦失业人员，使之成为“能源效率顾问”，显然绿旗仍然高高飘扬，在市政厅（2）上方。
-
-(ROOT (IP (IP (ADVP (RB 然而)) (, ，) (PP (VV 鉴) (PP (VV 于) (NP (NP (NNP 鲍里斯)) (DNP (NP (NN 最近)) (DEC 的)) (NP (NN 计划))))) (, ，) (VP (ADVP (VC 即)) (VP (VP (ADVP (RB 重新)) (VP (VV 培训) (NP (NP (NNP 伦敦)) (NP (NN 失业) (NN 人员))))) (, ，) (VP (VV 使) (NP (PRD 之)) (IP (VP (VV 成) (VP (VC 为) (NP (`` “) (NN 能源) (NN 效率) (NN 顾问) ('' ”))))))))) (, ，) (IP (ADVP (RB 显然)) (NP (NN 绿旗)) (VP (ADVP (RB 仍然)) (VP (VP (VSB (JJ 高高) (VV 飘扬))) (, ，) (VP (PP (VV 在) (NP (NP (NN 市政) (SFN 厅) (PRN (-LRB- （) (QP (CD 2)) (-RRB- ）))) (NP (NN 上方)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+A
+(ROOT (FW A))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+A	ROOT	root
 ----------------------------------------------------------------------
-还有一位参加讨论的人是 Tesco 的政府和社区总监戴维·诺斯，他似乎被 Marks & Spencer 首席执行官史都华·罗斯 (Sir Stuart 'Plan A') 的病毒所困扰，似乎认为他的使命是拯救地球，而不是一名超市连锁店的高级执行官。
-
-(ROOT (IP (IP (VP (ADVP (RB 还)) (VP (VV 有) (IP (NP (QP (CD 一) (CLP (NNB 位))) (CP (CP (IP (VP (VV 参加) (NP (VV 讨论)))) (DEC 的))) (NP (NN 人))) (VP (VC 是) (NP (NP (DNP (NP (FW Tesco)) (DEC 的)) (NP (NN 政府) (CC 和) (NN 社区)) (NP (NN 总监))) (NP (NNP 戴维) (/ ·) (NNP 诺斯)))))))) (, ，) (IP (NP (PRP 他)) (VP (VP (ADVP (RB 似乎)) (VP (BB 被) (CP (IP (NP (DNP (NP (NP (NP (NP (FW Marks) (FW &) (FW Spencer)) (NP (NN 首席) (VV 执行))) (NP (SFN 官史) (NNP 都) (NNP 华) (/ ·) (NNP 罗斯)) (NP (FW -LRB-Sir) (FW Stuart) (FW 'Plan) (FW A'))) (-RRB- -RRB-)) (DEC 的)) (NP (NN 病毒))) (VP (RB 所) (VP (VV 困扰))))))) (, ，) (VP (ADVP (RB 似乎)) (VP (VV 认为) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 使命))) (VP (VC 是) (IP (VP (VP (VV 拯救) (NP (NNP 地球))) (, ，) (RB 而) (VP (VC 不是) (NP (DNP (NP (QP (CD 一) (CLP (NNB 名))) (NP (NN 超市) (NN 连锁) (SFN 店))) (DEC 的)) (ADJP (JJ 高级)) (NP (VV 执行) (SFN 官)))))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+2
+(ROOT (LS 2))
+layer 2:
+{'LS': {}}
+layer 3:
+{'LS': {}}
+Dependency Features:
+2	ROOT	root
 ----------------------------------------------------------------------
-即使肯也指出，他有可能会被竞争对手忽略他的“比你们更环保”的做法，而是开始打击 Tesco 的价格，这肯定会让股东们不高兴。
-
-(ROOT (CP (ADVP (IN 即使)) (IP (NP (NNP 肯)) (VP (ADVP (RB 也)) (VP (VV 指出) (, ，) (IP (IP (NP (PRP 他)) (VP (VP (VP (VV 有) (NP (MD 可能))) (VP (MD 会) (VP (BB 被) (IP (NP (NN 竞争) (NN 对手)) (VP (VV 忽略) (NP (DNP (NP (PRP 他)) (DEC 的)) (CP (IP (`` “) (NP (NN 比你) (SFN 们)) (VP (ADVP (RB 更)) (VP (JJ 环保))) ('' ”)) (DEC 的)) (NP (NN 做法)))))))) (, ，) (VP (RB 而是) (VP (VV 开始) (VP (VV 打击) (NP (DNP (NP (FW Tesco)) (DEC 的)) (NP (NN 价格)))))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (VV 肯定)) (VP (MD 会) (VP (VV 让) (NP (NN 股东) (SFN 们)) (IP (VP (ADVP (RB 不)) (VP (JJ 高兴)))))))))))) (. 。)))
-{'CP': {'ADVP': {}, 'IP': {}, '.': {}}}
-{'CP': {'ADVP': {'IN': {}}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'IN': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+1
+(ROOT (CD 1))
+layer 2:
+{'CD': {}}
+layer 3:
+{'CD': {}}
+Dependency Features:
+1	ROOT	root
 ----------------------------------------------------------------------
-解决这个问题（以及许多其他问题）的常用方法是税收。
-
-(ROOT (IP (NP (CP (CP (IP (VP (VV 解决) (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 问题)) (PRN (-LRB- （) (CC 以及) (NP (QP (CD 许多)) (DP (DT 其他)) (NP (NN 问题))) (-RRB- ）))))) (DEC 的))) (ADJP (JJ 常用)) (NP (NN 方法))) (VP (VC 是) (NP (NN 税收))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'NP': {'CP': {}, 'ADJP': {}, 'NP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
+B
+(ROOT (FW B))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+B	ROOT	root
 ----------------------------------------------------------------------
-对碳排放量大的商品征税，使其成本与正常商品相同。
-
-(ROOT (IP (IP (VP (PP (IN 对) (NP (CP (CP (IP (NP (NN 碳) (VV 排放) (SFN 量)) (VP (JJ 大))) (DEC 的))) (NP (NN 商品)))) (VP (NN 征税)))) (, ，) (VP (VV 使) (NP (NP (PRP 其)) (NP (NN 成本))) (IP (VP (PP (IN 与) (NP (ADJP (JJ 正常)) (NP (NN 商品)))) (VP (JJ 相同))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
 ----------------------------------------------------------------------
-对电子产品征收税收，购买新的电子产品要比修理电子产品贵。
-
-(ROOT (IP (IP (VP (PP (IN 对) (NP (NN 电子) (NN 产品))) (VP (VV 征收) (NP (NN 税收))))) (, ，) (IP (VP (VV 购买) (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 电子) (NN 产品))))) (VP (MD 要) (VP (PP (IN 比) (IP (VP (VV 修理) (NP (NN 电子) (NN 产品))))) (VP (JJ 贵)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'VP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'IP': {'VP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
+e
+(ROOT (NP (ADD e)))
+layer 2:
+{'NP': {'ADD': {}}}
+{'NP': {'ADD': {}}}
+layer 3:
+{'NP': {'ADD': {}}}
+{'NP': {'ADD': {}}}
+Dependency Features:
+e	ROOT	root
 ----------------------------------------------------------------------
-征税人们的生活方式选择。
-
-(ROOT (IP (VP (NN 征税) (NP (DNP (NP (NN 人们)) (DEC 的)) (NP (NN 生活) (NN 方式) (VV 选择)))) (. 。)))
-{'IP': {'VP': {}, '.': {}}}
-{'IP': {'VP': {'NN': {}, 'NP': {}}, '.': {}}}
-{'VP': {'NN': {}, 'NP': {}}}
+n
+(ROOT (FW n))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+n	ROOT	root
 ----------------------------------------------------------------------
-如果这种方式不行，那么——正如一位年轻的女孩反复宣称的那样，我们需要“强制”人们要如何过生活。
-
-(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 方式))) (VP (VV 不行)))) (, ，) (ADVP (RB 那么)) (HYPH —) (HYPH —) (PP (ADVP (RB 正)) (PP (VV 如) (NP (CP (CP (IP (NP (QP (CD 一) (CLP (NNB 位))) (CP (CP (IP (VP (JJ 年轻))) (DEC 的))) (NP (NN 女孩))) (VP (ADVP (RB 反复)) (VP (VV 宣称)))) (DEC 的))) (NP (PRD 那样))))) (, ，) (NP (PRP 我们)) (VP (VP (MD 需要) (VP (`` “) (VV 强制) ('' ”))) (NP (NN 人们)) (VP (MD 要) (VP (ADVP (RB 如何)) (VP (VV 过) (NP (NN 生活)))))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'HYPH': {}, 'HYPH': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'HYPH': {}, 'HYPH': {}, 'PP': {'ADVP': {}, 'PP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'ADVP': {'RB': {}}}
-{'PP': {'ADVP': {}, 'PP': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, 'NP': {}, 'VP': {}}}
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
 ----------------------------------------------------------------------
-或许令人惊讶的是，在一群游说者和政客中，最能理解这些人们称之为“大众”的人们的真实想法的人，其实是 Tesco 的大卫·诺斯。
-
-(ROOT (IP (NP (CP (CP (IP (VP (ADVP (RB 或)) (VP (VV 许令) (NP (NN 人)) (IP (VP (JJ 惊讶)))))) (DEC 的)))) (VP (VC 是) (, ，) (IP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 群))) (NP (VV 游说) (SFN 者) (CC 和) (NN 政客))) (IN 中))) (, ，) (NP (CP (CP (IP (VP (MD 最能) (VP (VV 理解) (NP (DNP (NP (CP (CP (IP (NP (DP (DT 这些)) (NP (NN 人们))) (VP (VV 称) (NP (PRD 之)) (IP (VP (VC 为) (NP (`` “) (NN 大众) ('' ”)))))) (DEC 的))) (NP (NN 人们))) (DEC 的)) (ADJP (JJ 真实)) (NP (NN 想法)))))) (DEC 的))) (NP (NN 人))) (, ，) (VP (ADVP (RB 其实)) (VP (VC 是) (NP (DNP (NP (FW Tesco)) (DEC 的)) (NP (NNP 大卫) (/ ·) (NNP 诺斯))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'CP': {}}}
-{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+z
+(ROOT (FW z))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+z	ROOT	root
 ----------------------------------------------------------------------
-应该是所有的研讨会。
-
-(ROOT (IP (VP (MD 应该) (VP (VC 是) (NP (DNP (DP (DT 所有)) (DEC 的)) (NP (VV 研讨) (SFN 会))))) (. 。)))
-{'IP': {'VP': {}, '.': {}}}
-{'IP': {'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
+h
+(ROOT (FW h))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+h	ROOT	root
 ----------------------------------------------------------------------
-北方在一个大部分事物都被认为是“不可持续的”的晚上，提出了唯一可信的描述，即“诱惑，认为可以在人民头上完成行动。”
-
-(ROOT (IP (NP (NN 北方)) (VP (VP (PP (IN 在) (NP (QP (CD 一) (CLP (NNB 个))) (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (NN 事物)))) (ADVP (RB 都)) (VP (BB 被) (VP (VCP (VV 认为) (VC 是)) (NP (DNP (NP (`` “) (CP (CP (IP (VP (MD 不可) (VP (VV 持续)))) (UH 的))) ('' ”)) (DEC 的)) (NP (NN 晚上)))))) (, ，) (VP (VV 提出) (AS 了) (NP (ADJP (JJ 唯一)) (CP (CP (IP (VP (JJ 可信))) (DEC 的))) (NP (NN 描述)))) (, ，) (VP (VC 即) (NP (`` “) (NP (NN 诱惑)) (, ，) (VP (VV 认为) (IP (VP (MD 可以) (VP (PP (IN 在) (LCP (NP (NN 人民)) (NN 头上))) (VP (VV 完成) (NP (NN 行动)))))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}}, '.': {}, "''": {}}}
-{'NP': {'NN': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}}}
+.
+(ROOT (. .))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+.	ROOT	root
 ----------------------------------------------------------------------
-他继续警告说：“如果你跨过他们的头顶，人们会忘记你……你不能跨过人民的头顶，而赢得胜利。”
-
-(ROOT (IP (NP (PRP 他)) (VP (VV 继续) (VP (VP (VV 警告)) (VP (VV 说) (: ：) (IP (`` “) (CP (ADVP (IN 如果)) (IP (NP (PRP 你)) (VP (VV 跨过) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 头顶)))))) (, ，) (NP (NN 人们)) (VP (MD 会) (VP (VV 忘记) (NP (PRP 你…)))) (, …) (IP (NP (PRP 你)) (VP (MD 不能) (VP (VP (VV 跨过) (NP (DNP (NP (NN 人民)) (DEC 的)) (NP (NN 头顶)))) (, ，) (VP (RB 而) (VP (VV 赢得) (NP (NN 胜利))))))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, 'VP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-这个房间里的所有证据都指向这样一个事实，即绝大多数环保主义者将继续无视这一警告。
-
-(ROOT (IP (IP (NP (DNP (LCP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 房间))) (IN 里)) (DEC 的)) (DP (DT 所有)) (NP (NN 证据))) (VP (ADVP (RB 都)) (VP (VV 指) (PP (IN 向) (NP (QP (ADVP (PRD 这样)) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 事实))))))) (, ，) (IP (ADVP (VC 即)) (NP (QP (ADJP (RB 绝大)) (QP (JJ 多数))) (NP (NN 环保) (NN 主义) (SFN 者))) (VP (ADVP (RB 将)) (VP (VV 继续) (VP (VV 无视) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 警告))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+x
+(ROOT (FW x))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+x	ROOT	root
 ----------------------------------------------------------------------
-正如安迪·阿特金斯所说的那样，“人们的利益太高了，他们不能做自己想做的事”。
-
-(ROOT (IP (NP (CP (CP (IP (NP (NNP 正如安迪) (/ ·) (NNP 阿特金斯)) (VP (RB 所) (VP (VV 说)))) (DEC 的)))) (ADVP (JJ 那样)) (, ，) (IP (`` “) (IP (NP (DNP (NP (NN 人们)) (DEC 的)) (NP (NN 利益))) (VP (JJ 太高) (UH 了))) (, ，) (IP (NP (PRP 他们)) (VP (MD 不能) (VP (VV 做) (NP (CP (CP (IP (NP (PRD 自己)) (VP (MD 想) (IP (VP (VV 做))))) (DEC 的))) (NP (NN 事)))))) ('' ”)) (. 。)))
-{'IP': {'NP': {}, 'ADVP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}}, 'ADVP': {'JJ': {}}, ',': {}, 'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, "''": {}}, '.': {}}}
-{'NP': {'CP': {}}}
-{'ADVP': {'JJ': {}}}
-{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, "''": {}}}
-----------------------------------------------------------------------
-无论如何，他们怎么把它装作“生态紧急状态”，基本自由都受到了威胁。
-
-(ROOT (IP (IP (IP (VP (ADVP (IN 无论)) (VP (WP 如何)))) (, ，) (NP (PRP 他们)) (VP (ADVP (RB 怎么)) (VP (BB 把) (IP (NP (PRP 它)) (VP (VV 装作) (NP (`` “) (NP (NN 生态)) (ADJP (JJ 紧急)) (NP (NN 状态)) ('' ”))))))) (, ，) (IP (NP (ADJP (NN 基本)) (NP (NN 自由))) (VP (ADVP (RB 都)) (VP (VV 受到) (AS 了) (NP (NN 威胁))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-只是因为迄今为止没有人需要为吃肉的权利而战，但这并不减损这项权利的可贵。
-
-(ROOT (IP (ADVP (RB 只是)) (PP (IN 因为) (IP (VP (IP (VP (ADVP (IN 迄)) (NP (NN 今)) (VP (VC 为) (ADVP (NN 止))))) (VP (VV 没有) (IP (NP (NN 人)) (VP (MD 需要) (VP (PP (IN 为) (NP (DNP (NP (VV 吃肉)) (DEC 的)) (NP (NN 权利)))) (VP (RB 而) (VP (VV 战)))))))))) (, ，) (ADVP (RB 但)) (NP (PRD 这)) (VP (ADVP (RB 并)) (ADVP (RB 不)) (VP (VV 减损) (NP (DNP (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 权利))) (DEC 的)) (NP (NN 可贵))))) (. 。)))
-{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'PP': {'IN': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'PRD': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-正是在这个时候，你会被邻居的展览所感动，这个展览记录了英国人民为了权利和自由而进行的长期努力。
-
-(ROOT (IP (IP (ADVP (VC 正是)) (PP (IN 在) (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 时候)))) (, ，) (NP (PRP 你)) (VP (MD 会) (VP (BB 被) (CP (IP (NP (DNP (NP (NN 邻居)) (DEC 的)) (NP (NN 展览))) (VP (RB 所) (VP (VV 感动)))))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 展览))) (VP (VV 记录) (AS 了) (NP (CP (CP (IP (NP (NP (NNP 英国)) (NP (NN 人民))) (VP (PP (IN 为了) (NP (NN 权利) (CC 和) (NN 自由))) (VP (RB 而) (VP (VV 进行))))) (DEC 的))) (ADJP (NN 长期)) (NP (NN 努力))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-但是，我们现在必须同那些试图剥夺我们自由的人进行斗争，这场斗争也不会比以前更容易。
-
-(ROOT (IP (IP (ADVP (RB 但是)) (, ，) (NP (PRP 我们)) (VP (NP (NN 现在)) (VP (MD 必须) (VP (PP (IN 同) (NP (DP (DT 那些)) (CP (CP (IP (VP (VV 试图) (IP (VP (VV 剥夺) (NP (NP (PRP 我们)) (NP (NN 自由))))))) (DEC 的))) (NP (NN 人)))) (VP (VV 进行) (NP (NN 斗争))))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 场))) (NP (NN 斗争))) (VP (ADVP (RB 也)) (VP (MD 不会) (VP (PP (IN 比) (NP (NN 以前))) (ADVP (RB 更)) (VP (JJ 容易)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------

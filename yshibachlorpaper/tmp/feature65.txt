@@ -1,274 +1,265 @@
-历史学家阿瑟·舒曼二世 (Arthur Schlesinger Jr.) 几年前指出，总统的声誉会呈周期性波动，随着时间的推移，我们会用新的眼光回顾历史，从而看到其升降浮沉。
-
-(ROOT (IP (NP (NP (NP (NN 历史) (SFN 学) (SFN 家)) (NP (NNP 阿瑟) (/ ·) (NNP 舒曼) (NNP 二世))) (NP (FW -LRB-Arthur) (FW Schlesinger) (FW Jr.-RRB-))) (VP (LCP (QP (CD 几) (CLP (NNB 年))) (IN 前)) (VP (VV 指出) (, ，) (IP (IP (NP (DNP (NP (NN 总统)) (DEC 的)) (NP (NN 声誉))) (VP (MD 会) (VP (VV 呈) (NP (VV 周期) (SFN 性) (NN 波动))))) (, ，) (IP (PP (VV 随) (PP (AS 着) (NP (DNP (NP (NN 时间)) (DEC 的)) (NP (NN 推移))))) (, ，) (NP (PRP 我们)) (VP (VP (MD 会) (IP (NP (CP (CP (IP (VP (JJ 用新))) (DEC 的))) (NP (NN 眼光))) (VP (VV 回顾) (NP (NN 历史))))) (, ，) (VP (ADVP (RB 从而)) (VP (VV 看到) (IP (NP (PRP 其)) (VP (VCD (VV 升降) (VV 浮沉))))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'LCP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'LCP': {}, 'VP': {}}}
+.
+(ROOT (. .))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+.	ROOT	root
 ----------------------------------------------------------------------
-由于现代的 DNA 测试，托马斯·杰佛逊已经从他的雕像上掉下来了，而约翰·亚当斯则由大卫·麦克卡洛依靠而升起了。
-
-(ROOT (IP (IP (PP (IN 由于) (NP (DNP (NP (NN 现代)) (DEC 的)) (NP (FW DNA) (NN 测试)))) (, ，) (NP (NNP 托马斯) (/ ·) (NNP 杰佛逊)) (VP (ADVP (RB 已经)) (PP (IN 从) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 雕像)))) (VP (VRD (VV 上掉) (VV 下来)) (UH 了)))) (, ，) (RB 而) (IP (NP (NNP 约翰) (/ ·) (NNP 亚当斯)) (VP (ADVP (RB 则)) (PP (VV 由) (NP (NNP 大卫) (/ ·) (NNP 麦克卡洛))) (VP (VP (VV 依靠)) (VP (RB 而) (VP (VV 升起) (UH 了)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'RB': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'RB': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+/
+(ROOT (. /))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+/	ROOT	root
 ----------------------------------------------------------------------
-约翰·肯尼迪 (John F. Kennedy) 在公众中的受欢迎度依然不减，但在历史学家中的受欢迎度却下降了，而罗纳德·里根 (Ronald Reagan) 在两者中都在不断上升。
-
-(ROOT (IP (IP (NP (NP (NNP 约翰) (/ ·) (NNP 肯尼迪) (FW -LRB-John) (FW F.) (FW Kennedy-RRB-)) (DNP (PP (IN 在) (LCP (NP (NN 公众)) (IN 中))) (DEC 的)) (CP (IP (VP (VV 受) (NP (VV 欢迎))))) (NP (SFN 度))) (VP (ADVP (RB 依然)) (VP (JJ 不减)))) (, ，) (IP (ADVP (RB 但)) (NP (DNP (PP (IN 在) (LCP (NP (NN 历史) (NN 学家)) (IN 中))) (DEC 的)) (IP (VP (VV 受) (NP (VV 欢迎)))) (NP (SFN 度))) (VP (ADVP (RB 却)) (VP (VV 下降) (UH 了)))) (, ，) (RB 而) (IP (NP (NNP 罗纳德) (/ ·) (NNP 里根) (FW -LRB-Ronald) (FW Reagan-RRB-)) (VP (PP (IN 在) (LCP (NP (QP (CD 两)) (NP (NN 者))) (IN 中))) (ADVP (RB 都)) (ADVP (RB 在)) (ADVP (RB 不断)) (VP (VV 上升)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'RB': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'RB': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
+i
+(ROOT (FW i))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+i	ROOT	root
 ----------------------------------------------------------------------
-但如果有一个声誉完全转变的人，那一定是杰拉尔德·福特。
-
-(ROOT (IP (ADVP (RB 但)) (IP (VP (ADVP (IN 如果)) (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (NP (NN 声誉)) (VP (ADVP (RB 完全)) (VP (VV 转变)))) (DEC 的))) (NP (NN 人)))))) (, ，) (NP (RB 那)) (VP (ADVP (RB 一定)) (VP (VC 是) (NP (NNP 杰拉尔德) (/ ·) (NNP 福特)))) (. 。)))
-{'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'IP': {'VP': {}}, ',': {}, 'NP': {'RB': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'RB': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+n
+(ROOT (FW n))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+n	ROOT	root
 ----------------------------------------------------------------------
-他在上任一个月后赦免了理查德·尼克松，不仅引发了一场大火，而且让他成为了批评和毫无情感的嘲笑的目标。
-
-(ROOT (IP (IP (NP (PRP 他)) (VP (PP (IN 在) (LCP (IP (VP (VV 上任) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 月))))) (IN 后))) (VP (VV 赦) (VP (VV 免) (AS 了) (NP (NNP 理查德) (/ ·) (NNP 尼克松)))))) (, ，) (IP (VP (IN 不仅) (VP (VV 引发) (AS 了) (NP (QP (CD 一) (CLP (NNB 场))) (NP (NN 大火)))) (, ，) (RB 而且) (VP (VV 让) (NP (PRP 他)) (IP (VP (VV 成) (VP (VC 为) (AS 了) (NP (DNP (NP (CP (CP (IP (VP (VP (NN 批评)) (CC 和) (VP (VV 毫无) (NP (NN 情感))))) (DEC 的))) (NP (NN 嘲笑))) (DEC 的)) (NP (NN 目标))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}}}
+s
+(ROOT (NP (FW s)))
+layer 2:
+{'NP': {'FW': {}}}
+{'NP': {'FW': {}}}
+layer 3:
+{'NP': {'FW': {}}}
+{'NP': {'FW': {}}}
+Dependency Features:
+s	ROOT	root
 ----------------------------------------------------------------------
-例如，《纽约》杂志在封面上刊登了一张假照片，描绘了波佐大叔坐在奥巴马办公室里的场景，标题是“女士们、先生们，美国总统”。
-
-(ROOT (IP (IP (ADVP (VV 例如)) (, ，) (NP (NP (-LRB- 《) (NNP 纽约) (-RRB- 》)) (NP (NN 杂志))) (VP (VP (PP (IN 在) (LCP (NP (NN 封面)) (IN 上))) (VP (VV 刊登) (AS 了) (NP (QP (CD 一) (CLP (NNB 张))) (ADJP (JJ 假)) (NP (NN 照片))))) (, ，) (VP (VV 描绘) (AS 了) (NP (CP (IP (NP (NNP 波佐) (NN 大叔)) (VP (VV 坐) (PP (VV 在) (LCP (NP (NP (NNP 奥巴马)) (NP (VV 办公) (SFN 室))) (NN 里))))) (DEC 的)) (NP (NN 场景)))))) (, ，) (IP (NP (NN 标题)) (VP (VC 是) (NP (`` “) (NP (NN 女士) (SFN 们) (EC 、) (NN 先生) (SFN 们)) (, ，) (NP (NP (NNP 美国)) (NP (NN 总统))) ('' ”)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-《泰晤士报》的记者理查德·里弗斯 (Richard Reeves) 在文中写道：“这不是说皇帝裸体了，而是要问皇帝还有没有。”
-
-(ROOT (IP (NP (NP (DNP (NP (-LRB- 《) (NNP 泰晤士报) (-RRB- 》)) (DEC 的)) (NP (NN 记者))) (NP (NNP 理) (NNP 查德) (/ ·) (NNP 里弗斯) (FW -LRB-Richard) (FW Reeves-RRB-))) (VP (PP (IN 在) (NP (NN 文中))) (VP (VV 写道) (: ：) (IP (`` “) (IP (NP (PRD 这)) (VP (VP (VC 不是) (VP (VV 说) (IP (NP (NN 皇帝)) (VP (VV 裸体) (UH 了))))) (, ，) (VP (RB 而是) (VP (VV 要问) (NP (NN 皇帝)) (IP (VP (ADVP (RB 还)) (VP (VV 有) (NP (VV 没有)))))))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
+r
+(ROOT (FW r))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+r	ROOT	root
 ----------------------------------------------------------------------
-一年后，雷夫斯写了一本书，书中论证说“福特慢，他也没有想象力，并且不是很有说服力。”
-
-(ROOT (IP (IP (LCP (QP (CD 一) (CLP (NNB 年))) (IN 后)) (, ，) (NP (NNP 雷夫斯)) (VP (VV 写) (AS 了) (NP (QP (CD 一) (CLP (NNB 本))) (NP (NN 书))))) (, ，) (IP (NP (NN 书中)) (VP (VP (VV 论) (NP (NNP 证))) (VP (VV 说) (IP (`` “) (IP (NP (NNP 福)) (VP (JJ 特慢))) (, ，) (IP (NP (PRP 他)) (VP (VP (ADVP (RB 也)) (VP (VV 没有) (VP (VV 想) (NP (NN 象力))))) (, ，) (RB 并且) (VP (VC 不是) (VP (ADVP (RB 很)) (VP (VV 有) (NP (VV 说服) (SFN 力))))))))))) (. 。) ('' ”)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
-{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+u
+(ROOT (FW u))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+u	ROOT	root
 ----------------------------------------------------------------------
-在《周六夜现场》中，雪佛兰·查斯 (Chevy Chase) 以描绘福特为无望的笑柄而为自己打了一个名号。
-
-(ROOT (IP (PP (IN 在) (LCP (NP (-LRB- 《) (NP (NP (NNP 周) (CD 六)) (NP (NN 夜))) (NP (NN 现场)) (-RRB- 》)) (IN 中))) (, ，) (NP (NNP 雪佛兰) (/ ·) (NNP 查斯) (FW -LRB-Chevy) (FW Chase-RRB-)) (VP (PP (IN 以) (NP (CP (IP (VP (VP (VV 描绘) (NP (NNP 福特))) (VP (VC 为) (NP (JJ 无望))))) (DEC 的)) (NP (NN 笑柄)))) (VP (RB 而) (VP (PP (IN 为) (NP (PRD 自己))) (VP (VV 打) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 名号))))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}, '/': {}, 'NNP': {}, 'FW': {}, 'FW': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'NNP': {}, '/': {}, 'NNP': {}, 'FW': {}, 'FW': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
+c
+(ROOT (FW c))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+c	ROOT	root
 ----------------------------------------------------------------------
-然而，即便是在他去世和全国开始哀悼之前，福特公司已经开始了一场早该来的复兴。
-
-(ROOT (IP (ADVP (RB 然而)) (, ，) (IP (VP (ADVP (RB 即)) (VP (VC 便是) (PP (IN 在) (LCP (IP (IP (NP (PRP 他)) (VP (VV 去世))) (CC 和) (IP (NP (NN 全国)) (VP (VV 开始) (VP (VV 哀悼))))) (IN 之前)))))) (, ，) (NP (NNP 福特) (NN 公司)) (VP (ADVP (RB 已经)) (VP (VV 开始) (AS 了) (NP (QP (CD 一) (CLP (NNB 场))) (CP (CP (IP (VP (JJ 早) (JJ 该来))) (DEC 的))) (NP (NN 复兴))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'NNP': {}, 'NN': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-根据福特所珍视的决定，肯尼迪图书馆为他的赦免授予了勇气篇纪念奖。
-
-(ROOT (IP (PP (IN 根据) (NP (CP (CP (IP (NP (NNP 福特)) (VP (RB 所) (VP (VV 珍视)))) (DEC 的))) (NP (NN 决定)))) (, ，) (NP (NNP 肯尼迪) (NN 图书) (SFN 馆)) (VP (PP (IN 为) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 赦免)))) (VP (VV 授予) (AS 了) (NP (NN 勇气) (SFN 篇) (NN 纪念) (SFN 奖)))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}, 'NN': {}, 'SFN': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'NP': {}}}
-{'NP': {'NNP': {}, 'NN': {}, 'SFN': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
 ----------------------------------------------------------------------
-理查德·里弗斯勇敢地道歉，写了一篇题为《尊敬的总统，我很抱歉》的文章，发表在《美国遗产》上。
-
-(ROOT (IP (NP (NNP 理查德) (/ ·) (NNP 里弗斯)) (VP (VP (VP (JJ 勇敢)) (VP (VSB (NN 地道) (VV 歉)))) (, ，) (VP (VV 写) (AS 了) (NP (QP (CD 一) (CLP (NNB 篇))) (CP (CP (IP (NP (NN 题)) (VP (VC 为) (IP (-LRB- 《) (NP (CP (CP (IP (VP (VV 尊敬))) (DEC 的))) (NP (NN 总统))) (, ，) (NP (PRP 我)) (VP (ADVP (RB 很)) (VP (JJ 抱歉))) (-RRB- 》)))) (DEC 的))) (NP (NN 文章)))) (, ，) (VP (VV 发表) (PP (IN 在) (LCP (NP (-LRB- 《) (NP (NNP 美国)) (NP (NN 遗产)) (-RRB- 》)) (IN 上))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}}, '.': {}}}
-{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-历史学家埃德蒙德·莫里斯 (Edmund Morris) 的结论是：“杰拉尔德·福特是我们最被低估的总统。”
-
-(ROOT (IP (NP (DNP (NP (NP (NN 历史) (SFN 学) (SFN 家)) (NP (NNP 埃德蒙德) (/ ·) (NNP 莫里斯) (FW -LRB-Edmund) (FW Morris-RRB-))) (DEC 的)) (NP (NN 结论))) (VP (VC 是) (: ：) (IP (`` “) (NP (NNP 杰拉尔德) (/ ·) (NNP 福特)) (VP (VC 是) (NP (NP (PRP 我们)) (CP (CP (IP (VP (ADVP (RB 最)) (VP (BB 被) (VP (VV 低估))))) (DEC 的))) (NP (NN 总统)))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VC': {}, ':': {}, 'IP': {}}}
+x
+(ROOT (FW x))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+x	ROOT	root
 ----------------------------------------------------------------------
-为什么福特在后视镜中看起来更好？我猜测，主要是因为他在公共生活中带来的个人品质在今天看来很稀缺。
-
-(ROOT (IP (PP (IN 为) (NP (WP 什么))) (NP (NNP 福特)) (VP (PP (IN 在) (LCP (NP (VV 后视) (SFN 镜)) (IN 中))) (VP (VRD (VV 看) (VV 起来)) (IP (VP (JJ 更好))))) (. ？)))
-{'IP': {'PP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'NP': {}}, 'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'NP': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-他的葬礼简朴，再次让我们意识到福特首先是一个中西部的谦卑人。
-
-(ROOT (IP (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 葬礼))) (VP (JJ 简朴))) (, ，) (IP (VP (ADVP (RB 再次)) (VP (VV 让) (NP (PRP 我们)) (IP (VP (VRD (VV 意识) (VV 到)) (IP (NP (NNP 福特)) (VP (ADVP (RB 首先)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (NP (NN 中西) (SFN 部)) (DEC 的)) (ADJP (NN 谦卑)) (NP (SFN 人))))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}}}
+/
+(ROOT (. /))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+/	ROOT	root
 ----------------------------------------------------------------------
-在尼克松担任总统期间，总统办公室内的每把椅子高度都一样，只有尼克松的椅子背部高出其他椅子 3 英寸。
-
-(ROOT (IP (IP (PP (IN 在) (NP (CP (IP (NP (NNP 尼克松)) (VP (VV 担任) (NP (NN 总统))))) (NP (NN 期间)))) (, ，) (NP (NP (DNP (LCP (NP (NN 总统) (NN 办公)) (NN 室内)) (DEC 的)) (DP (DT 每) (CLP (NNB 把))) (NP (NN 椅子))) (NP (NN 高度))) (VP (ADVP (RB 都)) (VP (JJ 一样)))) (, ，) (IP (VP (ADVP (RB 只)) (VP (VV 有) (IP (NP (DNP (NP (NNP 尼克松)) (DEC 的)) (NP (NN 椅子) (NN 背部))) (VP (VV 高出) (NP (DP (DT 其他)) (NP (NN 椅子))) (QP (CD 3) (CLP (NNB 英寸)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}}}
+A
+(ROOT (FW A))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+A	ROOT	root
 ----------------------------------------------------------------------
-福特就职当天，我悄悄进入内阁办公室，发现每一张椅子，包括总统的椅子，都是一样的高度。
-
-(ROOT (IP (IP (CP (IP (NP (NNP 福特)) (VP (VV 就职))) (NP (NN 当天))) (, ，) (NP (PRP 我)) (VP (VP (ADVP (RB 悄)) (ADVP (VV 悄)) (VP (VV 进入) (NP (NN 内阁) (VV 办公) (SFN 室)))) (, ，) (VP (VV 发现) (NP (DP (DT 每) (QP (CD 一) (CLP (NNB 张)))) (NP (NN 椅子)))))) (, ，) (IP (IP (VP (VV 包括) (NP (DNP (NP (NN 总统)) (DEC 的)) (NP (NN 椅子))))) (, ，) (VP (VC 都是) (NP (CP (CP (IP (VP (JJ 一样))) (DEC 的))) (NP (NN 高度))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'IP': {}, ',': {}, 'VP': {}}}
+3
+(ROOT (LS 3))
+layer 2:
+{'LS': {}}
+layer 3:
+{'LS': {}}
+Dependency Features:
+3	ROOT	root
 ----------------------------------------------------------------------
-他不会像我们这些年所见的那样，表现出权力的高傲。
-
-(ROOT (IP (NP (PRP 他)) (VP (MD 不会) (VP (PP (IN 像) (NP (CP (CP (NP (NP (PRP 我们)) (VP (DP (DT 这些) (CLP (NNB 年))) (VP (RB 所) (VP (VV 见))))) (DEC 的))) (NP (PRD 那样)))) (, ，) (VP (VRD (VV 表现) (VV 出)) (NP (DNP (NP (NN 权力)) (DEC 的)) (NP (JJ 高傲)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
+6
+(ROOT (CD 6))
+layer 2:
+{'CD': {}}
+layer 3:
+{'CD': {}}
+Dependency Features:
+6	ROOT	root
 ----------------------------------------------------------------------
-福特还寻找了最好的人来帮助他，并且坚持他们给他真实的意见。
-
-(ROOT (IP (NP (NNP 福特)) (VP (VP (ADVP (RB 还)) (VP (VP (VV 寻找) (AS 了) (NP (CP (CP (IP (VP (JJ 最好))) (DEC 的))) (NP (NN 人)))) (VP (RB 来) (VP (VV 帮助) (NP (PRP 他)))))) (, ，) (RB 并且) (VP (VV 坚持) (NP (CP (CP (IP (NP (PRP 他们)) (VP (PP (VV 给) (NP (PRP 他))) (VP (JJ 真实)))) (DEC 的))) (NP (NN 意见))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+A
+(ROOT (FW A))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+A	ROOT	root
 ----------------------------------------------------------------------
-随着时间的推移，他建立了当代史上最优秀的内阁之一，在他们在他面前辩论时，福特在他做决策之前进行了沃伦·贝尼斯称之为“深度倾听”的活动。
-
-(ROOT (IP (IP (PP (VV 随) (PP (AS 着) (NP (DNP (NP (NN 时间)) (DEC 的)) (NP (NN 推移))))) (, ，) (NP (PRP 他)) (VP (VV 建立) (AS 了) (NP (DNP (NP (CP (CP (IP (VP (LCP (NP (NN 当代)) (NN 史上)) (ADVP (RB 最)) (VP (JJ 优秀)))) (DEC 的))) (NP (NN 内阁))) (DEC 之)) (NP (CD 一))))) (, ，) (IP (PP (IN 在) (LCP (IP (NP (PRP 他们)) (VP (PP (IN 在) (NP (NP (PRP 他)) (NP (RB 面前)))) (VP (VV 辩论)))) (IN 时))) (, ，) (NP (NNP 福特)) (VP (PP (IN 在) (LCP (IP (NP (PRP 他)) (VP (VV 做) (NP (NN 决策)))) (IN 之前))) (VP (VV 进行) (AS 了) (NP (CP (IP (NP (NNP 沃伦) (/ ·) (NNP 贝尼斯)) (VP (VV 称) (NP (PRD 之)) (IP (VP (VC 为) (NP (`` “) (ADJP (NN 深度)) (NP (VV 倾听)) ('' ”)))))) (DEC 的)) (NP (NN 活动)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
 ----------------------------------------------------------------------
-虽然福特本性上是个保守派，但他的行动往往是以实际为出发点，而不是以理念为出发点，他觉得最适合国家的是什么，就会做什么。
-
-(ROOT (IP (IP (CP (ADVP (IN 虽然)) (IP (NP (NNP 福特)) (VP (LCP (NP (NN 本性)) (IN 上)) (VP (VC 是) (NP (QP (CLP (NNB 个))) (ADJP (JJ 保守)) (NP (SFN 派))))))) (, ，) (ADVP (RB 但)) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 行动))) (VP (ADVP (RB 往往)) (VP (VC 是) (VP (VP (PP (VV 以) (NP (NN 实际))) (VP (VC 为) (NP (VV 出发) (SFN 点)))) (, ，) (RB 而) (VP (VC 不是) (VP (PP (VV 以) (NP (NN 理念))) (VP (VC 为) (NP (VV 出发) (SFN 点))))))))) (, ，) (IP (NP (PRP 他)) (VP (VV 觉得) (IP (IP (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (VV 适合) (NP (NN 国家))))) (DEC 的)))) (VP (VC 是) (NP (WP 什么)))) (, ，) (VP (ADVP (RB 就)) (VP (MD 会) (VP (VV 做) (NP (WP 什么)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+e
+(ROOT (NP (ADD e)))
+layer 2:
+{'NP': {'ADD': {}}}
+{'NP': {'ADD': {}}}
+layer 3:
+{'NP': {'ADD': {}}}
+{'NP': {'ADD': {}}}
+Dependency Features:
+e	ROOT	root
 ----------------------------------------------------------------------
-他否决了大量花费巨资的财政预算案，但他也赦免了拒服兵役者，并谋求与莫斯科的和解。
-
-(ROOT (IP (IP (NP (PRP 他)) (VP (VV 否决) (AS 了) (NP (QP (JJ 大量)) (CP (CP (IP (VP (VV 花费) (NP (NN 巨资)))) (DEC 的))) (NP (NN 财政) (NN 预算) (SFN 案))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 他)) (VP (VP (ADVP (RB 也)) (VP (VV 赦免) (AS 了) (NP (CP (IP (VP (VV 拒服) (NP (NN 兵役))))) (NP (SFN 者))))) (, ，) (RB 并) (VP (VV 谋求) (NP (DNP (PP (IN 与) (NP (NNP 莫斯科))) (DEC 的)) (NP (NN 和解)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+n
+(ROOT (FW n))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+n	ROOT	root
 ----------------------------------------------------------------------
-现在我们知道他反对入侵伊拉克的行为，这并不令人意外。
-
-(ROOT (IP (IP (NP (NN 现在)) (NP (PRP 我们)) (VP (VV 知道) (NP (CP (IP (NP (PRP 他)) (VP (VV 反对) (IP (VP (VV 入侵) (NP (NNP 伊拉克)))))) (DEC 的)) (NP (NN 行为))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 并)) (VP (VV 不令) (NP (NN 人)) (IP (VP (JJ 意外)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
 ----------------------------------------------------------------------
-这是一个身体和精神都健康的人。
-
-(ROOT (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (NP (NN 身体) (CC 和) (NN 精神)) (VP (ADVP (RB 都)) (VP (JJ 健康)))) (DEC 的))) (NP (NN 人)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'NP': {'PRD': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
+z
+(ROOT (FW z))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+z	ROOT	root
 ----------------------------------------------------------------------
-值得信任的人。但最重要的是，福特在政治上带来了坦率的诚信。
-
-(ROOT (NP (CP (CP (IP (VP (VV 值得) (NP (VV 信任)))) (DEC 的))) (NP (NN 人)) (. 。)))
-{'NP': {'CP': {}, 'NP': {}, '.': {}}}
-{'NP': {'CP': {'CP': {}}, 'NP': {'NN': {}}, '.': {}}}
-{'CP': {'CP': {}}}
-{'NP': {'NN': {}}}
+h
+(ROOT (FW h))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+h	ROOT	root
 ----------------------------------------------------------------------
-在他参加国会的二十多年里，他在两党之间建立了信任，所以当尼克松要求约翰·康奈利接替斯皮罗·阿格新出任副总统时，民主党领袖迈克·曼斯菲尔德和卡尔·阿尔伯特说服他，选择福特——他们信任的人。
-
-(ROOT (IP (IP (PP (IN 在) (LCP (QP (CP (CP (IP (NP (PRP 他)) (VP (VV 参加) (NP (NN 国会)))) (DEC 的))) (QP (CD 二十多) (CLP (NNB 年)))) (IN 里))) (, ，) (NP (PRP 他)) (VP (PP (IN 在) (LCP (NP (QP (CD 两)) (NP (NN 党))) (IN 之间))) (VP (VV 建立) (AS 了) (NP (NN 信任))))) (, ，) (IP (ADVP (RB 所以)) (PP (IN 当) (LCP (IP (NP (NNP 尼克松)) (VP (VV 要求) (NP (NNP 约翰) (/ ·) (NNP 康奈利)) (IP (VP (VP (VV 接替) (NP (NNP 斯皮罗) (/ ·) (NNP 阿格) (RB 新))) (VP (VV 出任) (NP (ADJP (PFA 副)) (NP (NN 总统)))))))) (IN 时))) (, ，) (NP (NP (NP (NN 民主) (SFN 党)) (NP (NN 领袖))) (NP (NNP 迈克) (/ ·) (NNP 曼斯菲尔德) (CC 和) (NNP 卡尔) (/ ·) (NNP 阿尔伯特))) (VP (VV 说服) (NP (PRP 他)) (, ，) (IP (VP (VV 选择) (NP (NP (NNP 福特)) (HYPH —) (HYPH —) (NP (CP (CP (IP (NP (PRP 他们)) (VP (VV 信任))) (DEC 的))) (NP (NN 人)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+.
+(ROOT (. .))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+.	ROOT	root
 ----------------------------------------------------------------------
-福特在就职前向国会作证时表示，“真理是把政府、甚至整个文明紧密地联系在一起的胶水。”
-
-(ROOT (IP (NP (NNP 福特)) (VP (LCP (IP (VP (PP (IN 在) (LCP (NP (VV 就职)) (IN 前))) (PP (IN 向) (NP (NN 国会))) (VP (VV 作证)))) (IN 时)) (VP (VV 表示) (, ，) (IP (`` “) (NP (NN 真理)) (VP (VC 是) (VP (BB 把) (IP (NP (NP (NN 政府)) (EC 、) (NP (ADVP (CC 甚至)) (NP (DP (DT 整个)) (NP (NN 文明))))) (VP (DVP (VP (JJ 紧密)) (DEV 地)) (VP (VV 联系) (PP (VV 在) (NP (DNP (ADJP (NN 一起)) (DEC 的)) (NP (NN 胶水)))))))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'LCP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'LCP': {}, 'VP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-多年来，在国会山服务于福特的鲍布·哈特曼 (Bob Hartmann) 记得，在他就职仪式后几个小时，他们一起去内阁室参加了一项重要仪式：选择三位前总统的肖像画放在墙上。
-
-(ROOT (IP (LCP (QP (CD 多) (CLP (NNB 年))) (IN 来)) (, ，) (NP (CP (CP (IP (VP (PP (VV 在) (NP (NN 国会) (SFN 山))) (VP (VV 服务) (PP (VV 于) (NP (NNP 福特)))))) (DEC 的))) (NP (NNP 鲍布) (/ ·) (NNP 哈特曼) (FW -LRB-Bob) (FW Hartmann-RRB-))) (VP (VV 记得) (, ，) (IP (PP (IN 在) (NP (LCP (NP (NP (PRP 他)) (NP (NN 就职) (NN 仪式))) (IN 后)) (QP (CD 几) (CLP (NNB 个))) (NP (NN 小时)))) (, ，) (NP (PRP 他们)) (VP (ADVP (NN 一起)) (VP (VP (VV 去) (NP (NN 内阁) (SFN 室))) (VP (VV 参加) (AS 了) (NP (QP (CD 一) (CLP (NNB 项))) (ADJP (JJ 重要)) (NP (NN 仪式)))))))) (: ：)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, ':': {}}}
-{'IP': {'LCP': {'QP': {}, 'IN': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, ':': {}}}
-{'LCP': {'QP': {}, 'IN': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+x
+(ROOT (FW x))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+x	ROOT	root
 ----------------------------------------------------------------------
-尼克松选择了泰德·罗斯福、伍德罗·威尔逊和德怀特·艾森豪威尔——他自己的梦想灵感来源。
-
-(ROOT (IP (NP (NNP 尼克松)) (VP (VV 选择) (AS 了) (NP (NP (NNP 泰德) (/ ·) (NNP 罗斯福)) (EC 、) (NP (NNP 伍德罗) (/ ·) (NNP 威尔逊)) (CC 和) (NP (NNP 德怀特) (/ ·) (NNP 艾森豪威尔—)) (HYPH —) (NP (DNP (NP (PRP 他) (PRD 自己)) (DEC 的)) (NP (NN 梦想) (NN 灵感) (NN 来源))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
-----------------------------------------------------------------------
-沉思片刻，福特决定保留 Ike，并用林肯代替 TR。
-
-(ROOT (IP (NP (NN 沉思) (NN 片刻)) (, ，) (NP (NNP 福特)) (VP (VV 决定) (IP (VP (VP (VV 保留) (NP (FW Ike))) (, ，) (RB 并) (VP (PP (VV 用) (NP (NNP 林))) (VP (VV 肯代替) (NP (FW TR))))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}, 'NN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NN': {}, 'NN': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-----------------------------------------------------------------------
-哈特曼建议道：“另一个可能是民主党人，”“哈里·杰克逊（Andy Jackson）？”福特回答说：“不，哈里·杜鲁门（Harry Truman）。”福特回忆起杜鲁门也是命运带着他来到白宫，他的命运如何。
-
-(ROOT (IP (NP (NNP 哈特曼)) (VP (VV 建议) (IP (VP (VV 道) (: ：) (IP (`` “) (DP (DT 另) (QP (CD 一) (CLP (NNB 个)))) (VP (MD 可能) (VP (VC 是) (NP (NN 民主) (SFN 党) (SFN 人)))))))) (, ，) ('' ”) (NP (`` “) (NNP 哈里) (/ ·) (NNP 杰克逊) (PRN (-LRB- （) (NP (FW Andy) (FW Jackson)) (-RRB- ）))) (. ？) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, ',': {}, "''": {}, 'NP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, 'IP': {}}, ',': {}, "''": {}, 'NP': {'``': {}, 'NNP': {}, '/': {}, 'NNP': {}, 'PRN': {}}, '.': {}, "''": {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-{'NP': {'``': {}, 'NNP': {}, '/': {}, 'NNP': {}, 'PRN': {}}}
-----------------------------------------------------------------------
-哈特曼找不到话说，就对朋友说：“你会成为一个伟大的总统。”福特回答说：“谢谢，博比，”“不过，我不知道。但我想成为一个好总统。”
-
-(ROOT (IP (NP (NNP 哈特曼)) (VP (IP (VP (VP (VRD (VV 找) (VV 不到)) (NP (NN 话))) (VP (VV 说)))) (, ，) (ADVP (RB 就)) (PP (IN 对) (NP (NN 朋友))) (VP (VV 说) (: ：) (IP (`` “) (NP (PRP 你)) (VP (MD 会) (VP (VV 成) (VP (VC 为) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 伟大))) (DEC 的))) (NP (NN 总统))))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'IP': {}, ',': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'IP': {}, ',': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-因此，他是一个好人，在这个词的最好的含义上。
-
-(ROOT (IP (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (PRP 他)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 好人))))) (, ，) (IP (PP (IN 在) (LCP (NP (DNP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 词))) (DEC 的)) (CP (CP (IP (VP (JJ 最好))) (DEC 的))) (NP (NN 含义))) (IN 上))) (. 。))))
-{'IP': {'IP': {}, ',': {}, 'IP': {}}}
-{'IP': {'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, '.': {}}}}
-{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'PP': {}, '.': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------

@@ -1,407 +1,265 @@
-爱尔兰人有一句谚语，叫“做穷人”，意思是夸大自己的困难来获得同情、慈善和可能的宽容。
-
-(ROOT (IP (IP (NP (NP (NNP 爱尔兰)) (NP (SFN 人))) (VP (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 句))) (NP (NN 谚语)))) (, ，) (VP (VV 叫) (NP (`` “) (ADJP (VV 做穷)) (NP (SFN 人)) ('' ”))))) (, ，) (IP (NP (NN 意思)) (VP (VC 是) (IP (VP (VP (VV 夸大) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 困难)))) (VP (RB 来) (VP (VV 获得) (NP (NP (NN 同情)) (EC 、) (NP (NN 慈善)) (CC 和) (NP (CP (CP (IP (VP (MD 可能))) (DEC 的))) (NP (NN 宽容)))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+.
+(ROOT (. .))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+.	ROOT	root
 ----------------------------------------------------------------------
-2007 年爆发爱尔兰建筑泡沫后，爱尔兰采取了这一措施，并从欧盟和国际货币基金组织 (IMF) 获得了一揽子贷款，贷款将持续到 2014 年。
-
-(ROOT (IP (IP (LCP (IP (VP (NP (CD 2007)) (VP (NNB 年爆发) (NP (NP (NNP 爱尔兰)) (NP (NN 建筑) (NN 泡沫)))))) (IN 后)) (, ，) (NP (NNP 爱尔兰)) (VP (VP (VV 采取) (AS 了) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 措施)))) (, ，) (RB 并) (VP (PP (IN 从) (NP (NP (NNP 欧盟) (CC 和) (NN 国际) (NN 货币) (NN 基金) (NN 组织)) (NP (FW -LRB-IMF-RRB-)))) (VP (VV 获得) (AS 了) (NP (QP (CD 一)) (CLP (NNB 揽子)) (NP (VV 贷) (SFN 款))))))) (, ，) (IP (NP (VV 贷) (SFN 款)) (VP (ADVP (RB 将)) (VP (VRD (VV 持续) (VV 到)) (NP (CD 2014) (NNB 年))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+/
+(ROOT (. /))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+/	ROOT	root
 ----------------------------------------------------------------------
-多年来，都柏林一直试图赢得欧洲当局的好感，私下表示，如果不能就过去几届政府积累的 640 亿欧元银行债务达成协议，它将无法偿还贷款。
-
-(ROOT (IP (LCP (QP (CD 多) (CLP (NNB 年))) (IN 来)) (, ，) (NP (NNP 都柏林)) (VP (VP (ADVP (RB 一直)) (VP (VV 试图) (IP (VP (VV 赢得) (NP (DNP (NP (NP (NNP 欧洲)) (NP (NN 当局))) (DEC 的)) (NP (NN 好感))))))) (, ，) (VP (ADVP (RB 私下)) (VP (VV 表示) (, ，) (IP (IP (VP (ADVP (IN 如果)) (VP (MD 不能) (VP (PP (IN 就) (NP (CP (CP (IP (NP (QP (NP (NN 过去)) (QP (CD 几) (CLP (NNB 届)))) (NP (NN 政府))) (VP (VV 积累))) (DEC 的))) (NP (QP (CD 640) (QP (NNB 亿) (CLP (NNP 欧) (CLP (NNB 元))))) (NP (NN 银行))) (NP (NN 债务)))) (VP (VV 达成) (NP (NN 协议))))))) (, ，) (NP (PRP 它)) (VP (ADVP (RB 将)) (VP (VV 无) (NP (VV 法偿) (RB 还) (VV 贷) (SFN 款)))))))) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'QP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'LCP': {'QP': {}, 'IN': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+i
+(ROOT (FW i))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+i	ROOT	root
 ----------------------------------------------------------------------
-终于，爱尔兰开始超越“嘴上说穷”的层面。
-
-(ROOT (IP (ADVP (RB 终于)) (, ，) (NP (NNP 爱尔兰)) (VP (VV 开始) (VP (VV 超越) (NP (CP (IP (`` “) (LCP (NP (NN 嘴)) (VV 上)) (VP (VV 说) (NP (NN 穷))) ('' ”)) (DEC 的)) (NP (NN 层面))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, 'VP': {}}}
+n
+(ROOT (FW n))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+n	ROOT	root
 ----------------------------------------------------------------------
-爱尔兰总理恩达·肯尼 (Enda Kenny) 最近登上《时代周刊》封面，标题为“凯尔特复兴”，《金融时报》称爱尔兰财政部长是欧洲最佳之一。
-
-(ROOT (IP (IP (NP (NP (NP (NNP 爱尔兰)) (NP (NN 总理))) (NP (NNP 恩达) (/ ·) (NNP 肯尼) (FW -LRB-Enda) (FW Kenny-RRB-))) (VP (NP (NN 最近)) (VP (VV 登上) (NP (NP (-LRB- 《) (NN 时代) (NN 周刊) (-RRB- 》)) (NP (NN 封面)))))) (, ，) (IP (NP (NN 标题)) (VP (VC 为) (NP (`` “) (NP (NNP 凯尔特)) (VP (VV 复兴)) ('' ”)))) (, ，) (IP (NP (-LRB- 《) (NN 金融) (NN 时报) (-RRB- 》)) (VP (VV 称) (IP (NP (NP (NNP 爱尔兰)) (NP (NN 财政) (NN 部长))) (VP (VC 是) (NP (NP (NNP 欧洲)) (DNP (ADJP (JJ 最佳)) (DEC 之)) (NP (CD 一))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
+s
+(ROOT (NP (FW s)))
+layer 2:
+{'NP': {'FW': {}}}
+{'NP': {'FW': {}}}
+layer 3:
+{'NP': {'FW': {}}}
+{'NP': {'FW': {}}}
+Dependency Features:
+s	ROOT	root
 ----------------------------------------------------------------------
-该国最大的银行可以再次在公开市场借贷。
-
-(ROOT (IP (NP (CP (CP (IP (VP (NP (NN 该国)) (VP (JJ 最大)))) (DEC 的))) (NP (NN 银行))) (VP (MD 可以) (VP (ADVP (RB 再次)) (PP (IN 在) (NP (ADJP (JJ 公开)) (NP (NN 市场)))) (VP (VV 借贷)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-爱尔兰主权债券的利率——被视为违约可能性的关键指标——正在迅速下降。
-
-(ROOT (IP (NP (DNP (NP (NP (NNP 爱尔兰)) (NP (NN 主权) (NN 债券))) (DEC 的)) (NP (NN 利率))) (HYPH ——) (VP (VP (BB 被) (VP (VCP (VV 视) (VC 为)) (NP (DNP (NP (NN 违约) (NN 可能) (SFN 性)) (DEC 的)) (NP (NN 关键) (NN 指标))))) (HYPH —) (HYPH —) (VP (ADVP (RB 正)) (ADVP (RB 在)) (ADVP (RB 迅速)) (VP (VV 下降)))) (. 。)))
-{'IP': {'NP': {}, 'HYPH': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'HYPH': {}, 'VP': {'VP': {}, 'HYPH': {}, 'HYPH': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VP': {}, 'HYPH': {}, 'HYPH': {}, 'VP': {}}}
+r
+(ROOT (FW r))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+r	ROOT	root
 ----------------------------------------------------------------------
-评级机构如穆迪和惠誉等已经上调了对该国及其部分银行的展望。
-
-(ROOT (IP (NP (NP (NN 评级) (NN 机构)) (NP (ADVP (VV 如)) (NP (NNP 穆迪) (CC 和) (NNP 惠誉) (NN 等)))) (VP (ADVP (RB 已经)) (VP (VV 上调) (AS 了) (NP (DNP (PP (IN 对) (NP (NP (NN 该国)) (CC 及) (NP (NP (PRP 其)) (QP (NN 部分)) (NP (NN 银行))))) (DEC 的)) (NP (NN 展望))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+u
+(ROOT (FW u))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+u	ROOT	root
 ----------------------------------------------------------------------
-去年夏天，政府举行了两次成功的主权债券拍卖，并计划在下一年举行更多拍卖，这似乎差不多完成了转变。
-
-(ROOT (IP (IP (NP (NN 去年) (NN 夏天)) (, ，) (NP (NN 政府)) (VP (VP (VV 举行) (AS 了) (NP (QP (CD 两) (CLP (NNB 次))) (CP (CP (IP (VP (JJ 成功))) (DEC 的))) (NP (NN 主权) (NN 债券) (NN 拍卖)))) (, ，) (RB 并) (VP (VV 计划) (IP (VP (PP (IN 在) (DP (DT 下) (QP (CD 一) (CLP (NNB 年))))) (VP (VV 举行) (NP (ADJP (JJ 更多)) (NP (NN 拍卖))))))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 似乎)) (ADVP (VV 差)) (ADVP (RB 不多)) (VP (VV 完成) (AS 了) (NP (NN 转变))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+c
+(ROOT (FW c))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+c	ROOT	root
 ----------------------------------------------------------------------
-2013年底或2014年初，爱尔兰应该不再需要欧盟和国际货币基金组织的援助。
-
-(ROOT (IP (LCP (LCP (NP (CD 2013) (NNB 年)) (IN 底)) (CC 或) (LCP (NP (CD 2014) (NNB 年)) (IN 初))) (, ，) (NP (NNP 爱尔兰)) (VP (MD 应该) (VP (ADVP (RB 不再)) (VP (VV 需要) (NP (DNP (NP (NP (NNP 欧盟)) (CC 和) (NP (NN 国际) (NN 货币) (NN 基金) (NN 组织))) (DEC 的)) (NP (NN 援助)))))) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'LCP': {}, 'CC': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'LCP': {'LCP': {}, 'CC': {}, 'LCP': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-从国内生产总值来看，经济仍然增速缓慢，但远未崩溃。
-
-(ROOT (IP (IP (VP (PP (IN 从) (NP (NN 国内) (NN 生产) (NN 总值))) (VP (RB 来) (VP (VV 看))))) (, ，) (NP (NN 经济)) (VP (VP (ADVP (RB 仍然)) (NP (VV 增速)) (VP (JJ 缓慢))) (, ，) (VP (ADVP (RB 但)) (ADVP (RB 远)) (ADVP (RB 未)) (VP (VV 崩溃)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
 ----------------------------------------------------------------------
-由于单位劳动成本比任何其他欧洲国家都要低，出口已经成为大部分增长的主要驱动力。
-
-(ROOT (PP (IN 由于) (IP (IP (NP (NN 单位) (NN 劳动) (NN 成本)) (VP (PP (IN 比) (NP (DP (DT 任何)) (DP (DT 其他)) (NP (NNP 欧洲)) (NP (NN 国家)))) (ADVP (RB 都)) (ADVP (MD 要)) (VP (JJ 低)))) (, ，) (IP (NP (NN 出口)) (VP (ADVP (RB 已经)) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (VV 增长))) (DEC 的)) (ADJP (JJ 主要)) (NP (VV 驱动) (SFN 力)))))))) (. 。)))
-{'PP': {'IN': {}, 'IP': {}, '.': {}}}
-{'PP': {'IN': {}, 'IP': {'IP': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'IP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-爱尔兰银行正在进行债务脱困，即抛售坏账，以缩小其资产负债表规模，使其更易于管理。
-
-(ROOT (IP (NP (NNP 爱尔兰) (NN 银行)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VP (VV 进行) (NP (NN 债务) (NN 脱困))) (, ，) (VP (ADVP (RB 即)) (VP (VV 抛售) (NP (NN 坏账)))) (, ，) (VP (RB 以) (VP (VV 缩小) (NP (NP (PRP 其)) (NP (NN 资产) (NN 负债表) (NN 规模))))) (, ，) (VP (VV 使) (NP (PRP 其)) (IP (VP (ADVP (RB 更)) (VP (VV 易) (PP (VV 于) (NP (VV 管理))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}, 'NN': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+x
+(ROOT (FW x))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+x	ROOT	root
 ----------------------------------------------------------------------
-爱尔兰仍然是跨国公司寻求低税和灵活、年轻、技术熟练的劳动力的天堂。
-
-(ROOT (IP (NP (NNP 爱尔兰)) (VP (ADVP (RB 仍然)) (VP (VC 是) (NP (CP (IP (NP (ADJP (NN 跨国)) (NP (NN 公司))) (VP (VV 寻求) (NP (CP (CP (IP (NP (NN 低税) (CC 和) (JJ 灵活) (EC 、) (JJ 年轻) (EC 、) (NN 技术)) (VP (JJ 熟练))) (DEC 的))) (NP (VV 劳动) (SFN 力))))) (DEC 的)) (NP (NN 天堂))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-一旦彻底偿还债务的威胁消失，房价开始下跌，国际投资者开始在那里购买房产。
-
-(ROOT (IP (IP (CP (ADVP (IN 一旦)) (IP (VP (VP (ADVP (RB 彻底)) (VP (VV 偿) (VP (VV 还) (NP (DNP (NP (NN 债务)) (DEC 的)) (NP (NN 威胁)))))) (VP (VV 消失))))) (, ，) (NP (NN 房价)) (VP (VV 开始) (VP (VV 下跌)))) (, ，) (IP (NP (NN 国际) (VV 投资) (SFN 者)) (VP (VV 开始) (VP (PP (VV 在) (NP (PRD 那里))) (VP (VV 购买) (NP (NN 房产)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+/
+(ROOT (. /))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+/	ROOT	root
 ----------------------------------------------------------------------
-与希腊不同，没有发生大规模的公众抗议或社会动荡。
-
-(ROOT (IP (IP (VP (PP (IN 与) (NP (NNP 希腊))) (VP (JJ 不同)))) (, ，) (VP (VV 没有) (VP (VV 发生) (NP (DNP (NP (ADJP (PFA 大)) (NP (NN 规模))) (DEC 的)) (NP (NN 公众) (NN 抗议) (CC 或) (NN 社会) (JJ 动荡))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'VP': {'VV': {}, 'VP': {}}}
+A
+(ROOT (FW A))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+A	ROOT	root
 ----------------------------------------------------------------------
-紧缩派把爱尔兰当作他们的政策的标杆。
-
-(ROOT (IP (NP (VV 紧缩) (SFN 派)) (VP (BB 把) (IP (NP (NNP 爱尔兰)) (VP (VV 当作) (NP (DNP (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 政策))) (DEC 的)) (NP (NN 标杆)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'VV': {}, 'SFN': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
-{'NP': {'VV': {}, 'SFN': {}}}
-{'VP': {'BB': {}, 'IP': {}}}
+2
+(ROOT (LS 2))
+layer 2:
+{'LS': {}}
+layer 3:
+{'LS': {}}
+Dependency Features:
+2	ROOT	root
 ----------------------------------------------------------------------
-事实上，该国通过增税减支，让财政状况大为改善。
-
-(ROOT (IP (LCP (NP (NN 事实)) (IN 上)) (, ，) (NP (NN 该国)) (VP (PP (IN 通过) (NP (NN 增税) (NN 减支))) (, ，) (VP (VV 让) (NP (NN 财政) (NN 状况)) (IP (VP (ADVP (RB 大)) (ADVP (VC 为)) (VP (VV 改善)))))) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'LCP': {'NP': {}, 'IN': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'PP': {}, ',': {}, 'VP': {}}}
+4
+(ROOT (CD 4))
+layer 2:
+{'CD': {}}
+layer 3:
+{'CD': {}}
+Dependency Features:
+4	ROOT	root
 ----------------------------------------------------------------------
-在预算纪律方面，前欧洲中央银行行长让-克洛德·特里谢于5月说过，“希腊有一个榜样，而这个榜样就是爱尔兰。”
-
-(ROOT (IP (PP (IN 在) (NP (NN 预算) (NN 纪律) (NN 方面))) (, ，) (NP (ADJP (PFA 前)) (NP (NNP 欧洲) (NN 中央) (NN 银行)) (NP (NN 行长))) (VP (VV 让) (NP (NNP -克洛德) (/ ·) (NNP 特里谢)) (IP (VP (PP (IN 于) (NP (QP (CD 5)) (NP (NNB 月)))) (VP (VV 说) (AS 过) (, ，) (IP (`` “) (IP (NP (NNP 希腊)) (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 榜样))))) (, ，) (RB 而) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 榜样))) (VP (VC 就是) (NP (NNP 爱尔兰))))))))) (. 。) ('' ”)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'ADJP': {}, 'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'PP': {'IN': {}, 'NP': {}}}
-{'NP': {'ADJP': {}, 'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
+C
+(ROOT (FW C))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+C	ROOT	root
 ----------------------------------------------------------------------
-然而，国内需求仍然处于低迷状态，政府在下一个三年预算中仍需要再削减 180 亿欧元。
-
-(ROOT (IP (IP (ADVP (RB 然而)) (, ，) (NP (NN 国内) (NN 需求)) (VP (ADVP (RB 仍然)) (VP (VV 处) (PP (VV 于) (NP (ADJP (JJ 低迷)) (NP (NN 状态))))))) (, ，) (IP (NP (NN 政府)) (VP (PP (IN 在) (LCP (NP (DP (DT 下) (QP (CD 一) (CLP (NNB 个)))) (QP (CD 三) (CLP (NNB 年))) (NP (NN 预算))) (IN 中))) (ADVP (RB 仍)) (VP (MD 需要) (VP (ADVP (RB 再)) (VP (VV 削减) (QP (QP (CD 180)) (QP (CD 亿) (CLP (NNP 欧) (CLP (NNB 元)))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
 ----------------------------------------------------------------------
-该国的总产出约为1600亿欧元，只占美国总产出的1.5%。
-
-(ROOT (IP (NP (DNP (NP (NN 该国)) (DEC 的)) (ADJP (PFA 总)) (NP (NN 产出))) (VP (VP (ADVP (RB 约)) (VP (VC 为) (QP (CD 1600亿) (CLP (NNP 欧) (CLP (NNB 元)))))) (, ，) (VP (ADVP (RB 只)) (VP (VV 占) (QP (DNP (NP (NP (NNP 美国)) (ADJP (PFA 总)) (NP (NN 产出))) (DEC 的)) (QP (CD 1.5%)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+e
+(ROOT (NP (ADD e)))
+layer 2:
+{'NP': {'ADD': {}}}
+{'NP': {'ADD': {}}}
+layer 3:
+{'NP': {'ADD': {}}}
+{'NP': {'ADD': {}}}
+Dependency Features:
+e	ROOT	root
 ----------------------------------------------------------------------
-爱尔兰的国内生产总值与债务之比已达到令人震惊的 108%，预计到 2014 年将上升到 122%，这使爱尔兰面临着违约的可能性。
-
-(ROOT (IP (IP (NP (DNP (NP (DNP (NP (NNP 爱尔兰)) (DEC 的)) (NP (NN 国内) (NN 生产) (NN 总值) (CC 与) (NN 债务))) (DEC 之)) (NP (NN 比))) (VP (ADVP (RB 已)) (VP (VV 达到) (QP (CP (CP (IP (VP (VV 令) (NP (NN 人)) (IP (VP (JJ 震惊))))) (DEC 的))) (QP (CD 108%)))))) (, ，) (IP (VP (VV 预计) (IP (VP (PP (IN 到) (NP (CD 2014))) (ADVP (NNB 年将)) (VP (VRD (VV 上升) (VV 到)) (QP (CD 122%))))))) (, ，) (IP (NP (PRD 这)) (VP (VV 使) (NP (NNP 爱尔兰)) (IP (VP (VV 面临) (AS 着) (NP (DNP (NP (VV 违约)) (DEC 的)) (NP (NN 可能) (SFN 性))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}, 'NP': {}, 'VP': {}}}
+n
+(ROOT (FW n))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+n	ROOT	root
 ----------------------------------------------------------------------
-家庭债务与可支配收入的比率达到 210％，远高于其他任何发达国家。
-
-(ROOT (IP (NP (DNP (NP (NP (NN 家庭) (NN 债务)) (CC 与) (NP (CP (IP (VP (MD 可) (VP (VV 支配))))) (NP (NN 收入)))) (DEC 的)) (NP (NN 比率))) (VP (VP (VV 达到) (QP (CD 210) (CLP (NNB ％)))) (, ，) (VP (ADVP (RB 远)) (VP (JJ 高) (PP (VV 于) (NP (DP (DT 其他)) (DP (DT 任何)) (ADJP (JJ 发达)) (NP (NN 国家))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
 ----------------------------------------------------------------------
-约有 15% 的爱尔兰公民失业，其中一半以上的人已失业超过一年。
-
-(ROOT (IP (IP (NP (DNP (QP (ADVP (VV 约有)) (QP (CD 15%))) (DEC 的)) (NP (NNP 爱尔兰)) (NP (NN 公民))) (VP (VV 失业))) (, ，) (IP (NP (NN 其中)) (NP (DNP (LCP (QP (CD 一半)) (IN 以上)) (DEC 的)) (NP (NN 人))) (VP (ADVP (RB 已)) (VP (VV 失业) (VP (VV 超过) (QP (CD 一) (CLP (NNB 年))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
+z
+(ROOT (FW z))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+z	ROOT	root
 ----------------------------------------------------------------------
-德国政府向这些不顾一切的银行注入了超过 640 亿欧元，但这些银行仍然拒绝放贷。
-
-(ROOT (IP (IP (NP (NP (NNP 德国)) (NP (NN 政府))) (VP (PP (IN 向) (NP (DP (DT 这些)) (CP (CP (IP (VP (VV 不顾) (NP (DT 一切)))) (DEC 的))) (NP (NN 银行)))) (VP (VV 注入) (AS 了) (QP (ADVP (VV 超过)) (QP (CD 640) (QP (NNB 亿) (CLP (NNP 欧) (CLP (NNB 元))))))))) (, ，) (IP (ADVP (RB 但)) (NP (DP (DT 这些)) (NP (NN 银行))) (VP (ADVP (RB 仍然)) (VP (VV 拒绝) (IP (VP (VV 放贷)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+h
+(ROOT (FW h))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+h	ROOT	root
 ----------------------------------------------------------------------
-所有这些都表明，强劲复苏的前景似乎不大乐观。
-
-(ROOT (IP (NP (DP (DT 所有)) (NP (DT 这些))) (VP (ADVP (RB 都)) (VP (VV 表明) (, ，) (IP (NP (CP (IP (VP (ADVP (JJ 强劲)) (VP (VV 复苏)))) (DEC 的)) (NP (NN 前景))) (VP (ADVP (RB 似乎)) (ADVP (RB 不大)) (VP (JJ 乐观)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+.
+(ROOT (. .))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+.	ROOT	root
 ----------------------------------------------------------------------
-即使昨天的需求某种程度上回升了，爱尔兰仍然要偿还巨额债务，这将阻碍其近期的增长。
-
-(ROOT (IP (IP (CP (ADVP (IN 即使)) (IP (NP (DNP (NP (NN 昨天)) (DEC 的)) (NP (NN 需求))) (VP (LCP (NP (ADJP (DT 某种)) (NP (NN 程度))) (IN 上)) (VP (VV 回升) (UH 了))))) (, ，) (NP (NNP 爱尔兰)) (VP (ADVP (RB 仍然)) (VP (VV 要偿) (NP (ADVP (RB 还)) (ADJP (JJ 巨额)) (NP (NN 债务)))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 将)) (VP (VV 阻碍) (NP (NP (PRP 其)) (DNP (NP (NN 近期)) (DEC 的)) (NP (NN 增长)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-换句话说，爱尔兰可能只是走到了失落的十年的中途站。
-
-(ROOT (IP (IP (VP (VP (VV 换) (NP (QP (CLP (NNB 句))) (NP (NN 话)))) (VP (VV 说)))) (, ，) (NP (NNP 爱尔兰)) (VP (MD 可能) (VP (ADVP (RB 只)) (VP (VC 是) (VP (VV 走到) (AS 了) (NP (DNP (QP (CP (CP (IP (VP (VV 失落))) (DEC 的))) (QP (CD 十) (CLP (NNB 年)))) (DEC 的)) (NP (NN 中途) (SFN 站))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
+x
+(ROOT (FW x))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+x	ROOT	root
 ----------------------------------------------------------------------
-那么为什么市场仍然相信爱尔兰呢?
-
-(ROOT (CP (IP (ADVP (RB 那么)) (VP (PP (IN 为) (NP (DP (WP 什么)) (NP (NN 市场)))) (ADVP (RB 仍然)) (VP (VV 相信) (NP (NNP 爱尔兰))))) (UH 呢) (. ?)))
-{'CP': {'IP': {}, 'UH': {}, '.': {}}}
-{'CP': {'IP': {'ADVP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
-{'IP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-首先，在债务和违约方面，爱尔兰往往被混同在欧洲边缘的受援国之中，如匈牙利、希腊、拉脱维亚、立陶宛和葡萄牙。
-
-(ROOT (IP (IP (ADVP (RB 首先)) (, ，) (PP (IN 在) (NP (NP (NN 债务) (CC 和) (NN 违约)) (NP (NN 方面)))) (, ，) (NP (NNP 爱尔兰)) (VP (ADVP (RB 往往)) (VP (BB 被) (VP (VV 混同) (PP (VV 在) (LCP (NP (DNP (NP (NP (NNP 欧洲)) (NP (NN 边缘))) (DEC 的)) (NP (VV 受援) (SFN 国))) (IN 之中))))))) (, ，) (NP (ADVP (VV 如)) (NP (NNP 匈牙利) (EC 、) (NNP 希腊) (EC 、) (NNP 拉脱维亚) (EC 、) (NNP 立陶宛) (CC 和) (NNP 葡萄牙))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'NP': {'ADVP': {}, 'NP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'NP': {'ADVP': {}, 'NP': {}}}
-----------------------------------------------------------------------
-相比这些糟糕的国家，爱尔兰是一个完全不同的类别。
-
-(ROOT (IP (PP (VV 相比) (NP (DP (DT 这些)) (CP (CP (IP (VP (JJ 糟糕))) (DEC 的))) (NP (NN 国家)))) (, ，) (NP (NNP 爱尔兰)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 完全)) (VP (JJ 不同)))) (DEC 的))) (NP (NN 类别)))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'PP': {'VV': {}, 'NP': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
-----------------------------------------------------------------------
-这并不是说一切都很美好，但在盲人的国度，一只眼睛看清路的人就是王。
-
-(ROOT (IP (IP (NP (PRD 这)) (VP (ADVP (RB 并)) (VP (VC 不是) (VP (VV 说) (IP (NP (DT 一切)) (VP (ADVP (RB 都)) (ADVP (RB 很)) (VP (JJ 美好)))))))) (, ，) (IP (NP (CP (CP (IP (ADVP (RB 但)) (PP (VV 在) (NP (DNP (NP (ADJP (VV 盲)) (NP (NN 人))) (DEC 的)) (NP (NN 国度)))) (, ，) (NP (QP (CD 一) (CLP (NNB 只))) (NP (NN 眼睛))) (VP (VV 看) (NP (ADJP (NNP 清)) (NP (SFN 路))))) (DEC 的))) (NP (NN 人))) (VP (VC 就是) (NP (NN 王)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-其次，爱尔兰债券的利率要高于强劲的欧洲经济体，这主要是因为爱尔兰银行回归国内偏好投资，购买政府债券。
-
-(ROOT (IP (IP (ADVP (NN 其次)) (, ，) (NP (DNP (NP (NP (NNP 爱尔兰)) (NP (NN 债券))) (DEC 的)) (NP (NN 利率))) (VP (MD 要) (VP (JJ 高) (PP (VV 于) (NP (CP (CP (IP (VP (JJ 强劲))) (DEC 的))) (NP (NNP 欧洲)) (NP (NN 经济) (SFN 体))))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 主要)) (VP (VC 是) (PP (IN 因为) (IP (NP (NNP 爱尔兰) (NN 银行)) (VP (VP (VV 回归) (NP (NN 国内) (VV 偏好) (NN 投资))) (, ，) (VP (VV 购买) (NP (NN 政府) (NN 债券))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-换句话说，欧洲银行不再全球投资，而是将资金引向本国市场，推动本国债券的需求。
-
-(ROOT (IP (IP (VP (VP (VV 换) (NP (QP (CLP (NNB 句))) (NP (NN 话)))) (VP (VV 说)))) (, ，) (NP (NNP 欧洲) (NN 银行)) (VP (VP (ADVP (RB 不)) (ADVP (RB 再)) (NP (NN 全球)) (VP (VV 投资))) (, ，) (VP (RB 而是) (VP (VP (BB 将) (IP (NP (NN 资金)) (VP (VV 引向) (NP (NN 本国) (NN 市场))))) (, ，) (VP (VV 推动) (NP (DNP (NP (NN 本国) (NN 债券)) (DEC 的)) (NP (NN 需求))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'NNP': {}, 'NN': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-最后，市场假设爱尔兰民众会接受毒药般的紧缩措施，像过去五年一样安静地忍受痛苦。
-
-(ROOT (IP (ADVP (NN 最后)) (, ，) (NP (NN 市场)) (VP (VV 假设) (IP (NP (NP (NNP 爱尔兰)) (NP (NN 民众))) (VP (VP (MD 会) (VP (VV 接受) (NP (CP (CP (IP (NP (NN 毒药)) (VP (JJ 般))) (DEC 的))) (NP (NN 紧缩) (NN 措施))))) (, ，) (VP (IP (VP (PP (IN 像) (QP (NP (NN 过去)) (QP (CD 五) (CLP (NNB 年))))) (VP (JJ 一样)))) (DVP (VP (JJ 安静)) (DEV 地)) (VP (VV 忍受) (NP (NN 痛苦))))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'ADVP': {'NN': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-----------------------------------------------------------------------
-即使是在 2009 年 9 月，当数十亿欧元的有担保和无担保债券利用未来纳税人收入偿还时，爱尔兰人并没有上街抗议。
-
-(ROOT (IP (IP (VP (ADVP (IN 即使)) (VP (VC 是) (PP (IN 在) (NP (CD 2009) (NNB 年 9) (NNB 月)))))) (, ，) (PP (IN 当) (LCP (IP (NP (DNP (QP (CD 数十亿) (CLP (NNP 欧) (CLP (NNB 元)))) (DEC 的)) (CP (IP (VP (VP (VV 有) (NP (NN 担保))) (CC 和) (VP (VV 无) (NP (NN 担保)))))) (NP (NN 债券))) (VP (VV 利用) (NP (NN 未来) (VV 纳税) (SFN 人) (NN 收入)))) (IN 偿还时))) (, ，) (NP (NP (NNP 爱尔兰)) (NP (SFN 人))) (VP (ADVP (RB 并)) (VP (VV 没有) (VP (VSB (VV 上街) (VV 抗议))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-即使不堪，当局也通过紧缩政策来避免大规模的公众抗议，最糟糕的情况已经过去了。
-
-(ROOT (IP (IP (IP (VP (ADVP (IN 即使)) (VP (VV 不堪)))) (, ，) (NP (NN 当局)) (VP (ADVP (RB 也)) (PP (IN 通过) (NP (NN 紧缩) (NN 政策))) (VP (RB 来) (VP (VV 避免) (NP (DNP (NP (ADJP (PFA 大)) (NP (NN 规模))) (DEC 的)) (NP (NN 公众) (NN 抗议))))))) (, ，) (IP (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 糟糕)))) (DEC 的))) (NP (NN 情况))) (VP (ADVP (RB 已经)) (VP (VV 过去) (UH 了)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-预计未来两年将实施的 81 亿欧元的支出削减和税收增加将与该国已经经历的 251 亿欧元的削减和税收增加相比，显得微不足道。
-
-(ROOT (IP (VP (VV 预计) (IP (NP (NP (CP (CP (IP (VP (QP (NP (NN 未来)) (QP (CD 两) (CLP (NNB 年)))) (ADVP (RB 将)) (VP (VV 实施)))) (DEC 的))) (DNP (QP (CD 81 亿) (CLP (NNP 欧) (CLP (NNB 元)))) (DEC 的)) (NP (NN 支出) (NN 削减))) (CC 和) (NP (NN 税收) (VV 增加))) (VP (VP (ADVP (RB 将)) (PP (IN 与) (NP (NP (NP (NN 该国)) (CP (CP (IP (VP (ADVP (RB 已经)) (VP (VV 经历)))) (DEC 的))) (DNP (QP (CD 251 亿) (CLP (NNP 欧) (CLP (NNB 元)))) (DEC 的)) (NP (NN 削减) (CC 和) (NN 税收))) (NP (VV 增加)))) (VP (VV 相比))) (, ，) (VP (VV 显得) (VP (ADVP (JJ 微)) (VP (JJ 不足) (NP (SFV 道)))))))) (. 。)))
-{'IP': {'VP': {}, '.': {}}}
-{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-----------------------------------------------------------------------
-主权债务的讽刺之处在于，一个国家的债务水平在短期内并不重要，只要有人愿意向它贷款。
-
-(ROOT (IP (NP (DNP (NP (DNP (NP (NN 主权) (NN 债务)) (DEC 的)) (NP (VV 讽刺))) (DEC 之)) (NP (NN 处))) (VP (VV 在) (PP (VV 于) (, ，) (IP (IP (NP (DNP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 国家))) (DEC 的)) (NP (NN 债务) (NN 水平))) (VP (PP (IN 在) (LCP (NP (NN 短期)) (IN 内))) (ADVP (RB 并)) (ADVP (RB 不)) (VP (JJ 重要)))) (, ，) (IP (VP (ADVP (IN 只要)) (VP (VV 有) (IP (NP (NN 人)) (VP (MD 愿意) (IP (VP (PP (IN 向) (NP (PRP 它))) (VP (VV 贷) (NP (SFN 款))))))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'PP': {}}}
-----------------------------------------------------------------------
-感觉就是一切。
-
-(ROOT (IP (NP (NN 感觉)) (VP (VC 就是) (NP (NN 一切))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
-----------------------------------------------------------------------
-因此，爱尔兰讨好欧洲当局，努力说服投资者认为其债券安全的策略可能是明智的。
-
-(ROOT (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (NNP 爱尔兰)) (VP (VP (VV 讨好) (NP (NP (NNP 欧洲)) (NP (NN 当局)))) (, ，) (VP (ADVP (RB 努力)) (VP (VV 说服) (NP (VV 投资) (SFN 者)) (IP (VP (VV 认为) (IP (NP (DNP (NP (NP (NP (PRP 其)) (NP (NN 债券))) (NP (NN 安全))) (DEC 的)) (NP (NN 策略))) (VP (MD 可能) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 明智))) (UH 的)))))))))))) (. 。)))
-{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'IN': {}}, 'ADVP': {'PRD': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'IN': {}}}
-{'ADVP': {'PRD': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-爱尔兰几乎肯定会在 2014 年后需要一些类型的进一步援助，包括重组前几届政府欠下的与银行有关的债务。
-
-(ROOT (IP (IP (NP (NNP 爱尔兰)) (VP (ADVP (RB 几乎)) (VP (VV 肯定) (IP (VP (MD 会) (VP (PP (IN 在) (LCP (NP (CD 2014)) (NNB 年后))) (VP (VV 需要) (NP (DNP (NP (QP (JJ 一些)) (NP (NN 类型))) (DEC 的)) (ADJP (ADJP (VV 进)) (QP (CD 一) (CLP (NNB 步)))) (NP (NN 援助)))))))))) (, ，) (IP (VP (VV 包括) (IP (VP (VV 重组) (NP (CP (CP (IP (NP (DP (DT 前) (QP (CD 几) (CLP (NNB 届)))) (NP (NN 政府))) (VP (VV 欠下))) (DEC 的))) (CP (CP (IP (VP (PP (IN 与) (NP (NN 银行))) (VP (JJ 有关)))) (DEC 的))) (NP (NN 债务))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}}}
-----------------------------------------------------------------------
-但这一事实某种程度上并没有让市场感到担忧。
-
-(ROOT (IP (ADVP (RB 但)) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 事实))) (VP (LCP (NP (ADJP (DT 某种)) (NP (NN 程度))) (IN 上)) (ADVP (RB 并)) (VP (VV 没有) (VP (VV 让) (NP (NN 市场)) (IP (VP (VV 感到) (NP (JJ 担忧))))))) (. 。)))
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'LCP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'LCP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-爱尔兰可能看似是推行欧洲各地紧缩政策的最新典范，但欧洲各国政府应该小心，不要将爱尔兰的经验教训拿来应用到下一个违纪国家。
-
-(ROOT (IP (IP (NP (NNP 爱尔兰)) (VP (MD 可能) (VP (VV 看似) (IP (VP (VC 是) (NP (CP (IP (VP (VV 推行) (NP (NP (NNP 欧洲)) (NP (NN 各地)) (NP (NN 紧缩)) (NP (NN 政策))))) (DEC 的)) (ADJP (JJ 最新)) (NP (NN 典范)))))))) (, ，) (IP (ADVP (RB 但)) (NP (NP (NNP 欧洲) (NN 各国)) (NP (NN 政府))) (VP (VP (MD 应该) (VP (JJ 小心))) (, ，) (VP (MD 不要) (VP (BB 将) (IP (NP (DNP (NP (NNP 爱尔兰)) (DEC 的)) (NP (NN 经验) (NN 教训))) (VP (VV 拿来) (IP (VP (VRD (VV 应用) (VV 到)) (NP (DP (DT 下) (QP (CD 一) (CLP (NNB 个)))) (ADJP (NN 违纪)) (NP (NN 国家))))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-爱尔兰很小，政府和人民很软弱，其房地产泡沫的规模前所未有。
-
-(ROOT (IP (IP (NP (NNP 爱尔兰)) (VP (JJ 很小))) (, ，) (IP (NP (NN 政府) (CC 和) (NN 人民)) (VP (ADVP (RB 很)) (VP (JJ 软弱)))) (, ，) (IP (NP (DNP (NP (NP (PRP 其)) (NP (NN 房地产) (NN 泡沫))) (DEC 的)) (NP (NN 规模))) (VP (ADVP (VV 前)) (VP (RB 所) (VP (VV 未有))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-市场对爱尔兰的看法与其他国家不同，更愿意相信爱尔兰。
-
-(ROOT (IP (NP (NP (NN 市场)) (DNP (PP (IN 对) (NP (NNP 爱尔兰))) (DEC 的)) (NP (NN 看法))) (VP (VP (PP (IN 与) (NP (DP (DT 其他)) (NP (NN 国家)))) (VP (JJ 不同))) (, ，) (VP (ADVP (RB 更)) (VP (MD 愿意) (IP (VP (VV 相信) (NP (NNP 爱尔兰))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'DNP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-因此，爱尔兰向其欧洲邻国提供的先例并不是典范，而是警示。
-
-(ROOT (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (CP (CP (IP (NP (NNP 爱尔兰)) (VP (PP (IN 向) (NP (NP (PRP 其)) (NP (NNP 欧洲)) (NP (NN 邻国)))) (VP (VV 提供)))) (DEC 的))) (NP (NN 先例))) (VP (VP (ADVP (RB 并)) (VP (VC 不是) (NP (NN 典范)))) (, ，) (VP (VC 而是) (NP (NN 警示)))) (. 。)))
-{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'IN': {}}, 'ADVP': {'PRD': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'IN': {}}}
-{'ADVP': {'PRD': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-鉴于市场对爱尔兰的态度，欧洲其他国家可能会更加谨慎，即使接受援助对他们来说是明智的选择，也不会主动要求。
-
-(ROOT (IP (IP (PP (VV 鉴) (PP (VV 于) (NP (NP (NN 市场)) (DNP (PP (IN 对) (NP (NNP 爱尔兰))) (DEC 的)) (NP (NN 态度))))) (, ，) (NP (NP (NNP 欧洲)) (DP (DT 其他)) (NP (NN 国家))) (VP (MD 可能) (VP (MD 会) (VP (ADVP (RB 更加)) (VP (JJ 谨慎)))))) (, ，) (IP (IP (VP (ADVP (IN 即使)) (VP (VV 接受) (NP (NN 援助))))) (IP (VP (PP (IN 对) (NP (PRP 他们))) (VP (RB 来) (VP (VV 说))))) (VP (VP (VC 是) (NP (CP (CP (IP (VP (JJ 明智))) (DEC 的))) (NP (NN 选择)))) (, ，) (VP (ADVP (RB 也)) (VP (MD 不会) (VP (ADVP (RB 主动)) (VP (VV 要求))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'IP': {}, 'IP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'IP': {}, 'IP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-也许，爱尔兰可以通过拒绝哭苦，挽救自己；其他欧洲国家在做同样的事情之前，应该好好想想。
-
-(ROOT (IP (ADVP (RB 也许)) (, ，) (NP (NNP 爱尔兰)) (VP (MD 可以) (VP (PP (IN 通过) (IP (VP (VP (VV 拒绝) (NP (VV 哭苦))) (, ，) (VP (VV 挽救) (NP (PRD 自己)))))) (: ；) (NP (DP (DT 其他)) (NP (NNP 欧洲)) (NP (NN 国家))) (VP (PP (IN 在) (LCP (IP (VP (VV 做) (NP (DNP (ADJP (JJ 同样)) (DEC 的)) (NP (NN 事情))))) (IN 之前))) (, ，) (VP (MD 应该) (VP (ADVP (RB 好好)) (VP (VV 想想))))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------

@@ -1,179 +1,1975 @@
-约翰·霍普金斯医学中心宣布，医生们在一名捐献者的阴道内取出了一个健康的肾脏，这被称为“有史以来的第一例手术”。
+国家美术馆推出的莱昂纳多达芬奇展于上周开幕。
 
-(ROOT (IP (NP (NNP 约翰) (/ ·) (NNP 霍普金斯) (NN 医学) (NN 中心)) (VP (VV 宣布) (, ，) (IP (IP (NP (NN 医生) (SFN 们)) (VP (PP (IN 在) (LCP (NP (DNP (NP (QP (CD 一) (CLP (NNB 名))) (NP (VV 捐献) (SFN 者))) (DEC 的)) (NP (NN 阴道))) (IN 内))) (VP (VV 取出) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 健康))) (DEC 的))) (NP (NN 肾) (NN 脏)))))) (, ，) (IP (NP (PRD 这)) (VP (BB 被) (VP (VCP (VV 称) (VC 为)) (NP (`` “) (DNP (LCP (NP (NN 有史)) (IN 以来)) (DEC 的)) (QP (CD 第一) (CLP (NNB 例))) (NP (NN 手术)) ('' ”))))))) (. 。)))
+(ROOT (IP (NP (CP (CP (IP (NP (NN 国家) (NN 美术) (SFN 馆)) (VP (VV 推出))) (DEC 的))) (NP (NNP 莱昂纳) (NNP 多达) (NNP 芬奇)) (NP (SFN 展))) (VP (PP (IN 于) (NP (NN 上周))) (VP (VV 开幕))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}, 'NN': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NNP': {}, '/': {}, 'NNP': {}, 'NN': {}, 'NN': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-Jennifer Gilbert 在中间，右边穿绿色衣服的是她的肾源 Kimberly Johnson。
-
-(ROOT (IP (IP (NP (FW Jennifer) (FW Gilbert)) (VP (PP (VV 在) (NP (NN 中间))))) (, ，) (IP (NP (CP (CP (IP (NP (NN 右) (SFN 边)) (VP (VV 穿) (NP (ADJP (NN 绿色)) (NP (NN 衣服))))) (DEC 的)))) (VP (VC 是) (NP (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 肾源))) (NP (FW Kimberly) (FW Johnson))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-虽然此前曾有过将危及患者健康的癌症和无功能肾脏移除的手术，但这次的手术是首次为捐赠目的进行的，该中心在周一发布的新闻稿中表示。
-
-(ROOT (IP (IP (IP (VP (ADVP (IN 虽然)) (ADVP (NN 此前)) (ADVP (RB 曾)) (VP (VV 有) (AS 过) (NP (CP (IP (VP (BB 将) (IP (NP (NP (NP (NN 危)) (CC 及) (NP (NP (NN 患者)) (CP (CP (IP (VP (JJ 健康))) (DEC 的))) (NP (NN 癌症)))) (CC 和) (NP (CP (IP (VP (VV 无) (NP (NN 功能))))) (NP (NN 肾) (NN 脏)))) (VP (VV 移除))))) (DEC 的)) (NP (NN 手术)))))) (, ，) (ADVP (RB 但)) (NP (DNP (DP (DT 这) (CLP (NNB 次))) (DEC 的)) (NP (NN 手术))) (VP (VC 是) (NP (CP (CP (IP (VP (ADVP (CD 首次)) (PP (IN 为) (NP (DNP (NP (VV 捐赠) (SFN 目)) (DEC 的)))) (VP (VV 进行)))) (UH 的)))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 中心))) (VP (PP (IN 在) (LCP (NP (CP (CP (IP (VP (NP (NNP 周) (CD 一)) (VP (VV 发布)))) (DEC 的))) (NP (NN 新闻) (SFN 稿))) (IN 中))) (VP (VV 表示)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-约翰·霍普金斯大学移植外科主任罗伯特·蒙哥马利博士在新闻稿中表示：“肾脏成功移除并植入到捐赠者的侄女体内，两位患者都情况良好。”
-
-(ROOT (IP (NP (NP (NP (NNP 约翰) (/ ·) (NNP 霍普金斯) (NN 大学)) (NP (NN 移植) (NN 外科) (NN 主任))) (NP (NNP 罗伯特) (/ ·) (NNP 蒙哥马利) (NN 博士))) (VP (PP (IN 在) (LCP (NP (NN 新闻) (SFN 稿)) (IN 中))) (VP (VV 表示) (: ：) (IP (`` “) (IP (NP (NN 肾脏)) (VP (VP (ADVP (RB 成功)) (VP (VV 移除))) (CC 并) (VP (VRD (VV 植入) (VV 到)) (NP (NP (DNP (NP (VV 捐赠) (SFN 者)) (DEC 的)) (NP (NN 侄女))) (NP (NN 体内)))))) (, ，) (IP (NP (QP (CD 两) (CLP (NNB 位))) (NP (NN 患者))) (ADVP (RB 都)) (NP (NN 情况)) (VP (JJ 良好)))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'NP': {'NP': {}, 'NP': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}, 'NP74589': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'NP': {}, 'NP': {}}}
 {'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+国家	馆	nmod
+美术	馆	compound
+馆	推出	nsubj
+推出	展	acl:relcl
+的	推出	mark:rel
+莱昂纳	展	nmod
+多达	展	nmod
+芬奇	展	compound
+展	开幕	nsubj
+于	上周	case
+上周	开幕	obl
+开幕	ROOT	root
+。	开幕	punct
 ----------------------------------------------------------------------
-它补充说，这种手术被认为是不那么侵入性的，可能会为增加器官捐赠铺平道路。
+达·芬奇已经来到国家美术馆了!
 
-(ROOT (IP (NP (PRP 它)) (VP (VP (VV 补充)) (VP (VV 说) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 手术))) (VP (VP (BB 被) (VP (VCP (VV 认为) (VC 是)) (NP (CP (CP (IP (VP (ADVP (RB 不)) (ADVP (RB 那么)) (VP (VV 侵入) (NP (SFN 性))))) (UH 的)))))) (, ，) (VP (MD 可能) (VP (MD 会) (VP (PP (IN 为) (IP (VP (VV 增加) (NP (NN 器官) (NN 捐赠))))) (VP (VV 铺平) (NP (NN 道路)))))))))) (. 。)))
+(ROOT (IP (NP (NNP 达) (/ ·) (NNP 芬奇)) (VP (ADVP (RB 已经)) (VP (VV 来到) (NP (NN 国家) (NN 美术) (SFN 馆)))) (UH 了) (. !)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, 'UH': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, 'UH': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP19381': {}}, 'VP': {'ADVP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+达	来到	nsubj
+·	芬奇	punct
+芬奇	达	flat:name
+已经	来到	advmod
+来到	ROOT	root
+国家	馆	nmod
+美术	馆	compound
+馆	来到	obj
+了	来到	discourse
+!	来到	punct
+----------------------------------------------------------------------
+“米兰圣凯瑟琳大殿”的“达芬奇：米兰宫廷画家”展被称为“近代以来最受期待的伦敦展览”，也是“当地最热门的门票”。
+
+(ROOT (IP (NP (DNP (NP (`` “) (NP (NNP 米兰)) (NP (ADJP (NNP 圣)) (NP (NNP 凯瑟琳))) (NP (NN 大殿)) ('' ”)) (DEC 的)) (NP (`` “) (NNP 达芬奇) (: ：) (NP (NNP 米兰) (NN 宫廷) (NN 画家)) ('' ”)) (NP (SFN 展))) (VP (VP (BB 被) (VP (VCP (VV 称) (VC 为)) (NP (`` “) (CP (CP (IP (VP (LCP (NP (NN 近代)) (IN 以来)) (VP (VV 最受) (NP (VV 期待))))) (DEC 的))) (NP (NNP 伦敦)) (NP (NN 展览)) ('' ”)))) (, ，) (VP (VC 也是) (NP (`` “) (CP (CP (IP (VP (NP (NN 当地)) (ADVP (RB 最)) (VP (JJ 热门)))) (DEC 的))) (NP (NN 门票)) ('' ”)))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-蒙哥马利表示，通过自然开口去除肾脏应该加快患者的康复，并提供更好的美容效果。
-
-(ROOT (IP (NP (NNP 蒙哥马利)) (VP (VV 表示) (, ，) (IP (VP (PP (IN 通过) (IP (VP (VP (ADVP (NN 自然)) (VP (VV 开口))) (VP (VV 去除) (NP (NN 肾) (NN 脏)))))) (VP (MD 应该) (VP (VP (VV 加快) (NP (DNP (NP (NN 患者)) (DEC 的)) (NP (NN 康复)))) (, ，) (CC 并) (VP (VV 提供) (NP (CP (CP (IP (VP (JJ 更好))) (DEC 的))) (NP (NN 美容) (NN 效果))))))))) (. 。)))
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-周二，他告诉美国有线电视新闻网 (CNN)，“我们想让人们捐献血液变得更加简单，对他们的生活影响更小，在医院住的时间更短，回归生活更快。”
-
-(ROOT (IP (NP (NN 周二)) (, ，) (NP (PRP 他)) (VP (VV 告诉) (NP (NP (NP (NP (NNP 美国)) (NP (ADJP (NN 有线)) (NP (NN 电视))) (NP (NN 新闻) (SFN 网))) (NP (FW -LRB-CNN))) (-RRB- -RRB-)) (, ，) (IP (`` “) (IP (NP (PRP 我们)) (VP (VP (MD 想) (IP (VP (VV 让) (NP (NN 人们)) (IP (VP (VV 捐献) (NP (NN 血液))))))) (VP (VV 变得) (VP (ADVP (RB 更加)) (VP (JJ 简单)))))) (, ，) (IP (PP (IN 对) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 生活)))) (NP (VV 影响)) (VP (JJ 更小))) (, ，) (IP (VP (PP (VV 在) (NP (CP (CP (IP (NP (NN 医院)) (VP (VV 住))) (DEC 的))) (NP (NN 时间)))) (VP (JJ 更短)))) (, ，) (IP (NP (VV 回归) (NN 生活)) (VP (JJ 更快))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'NP': {'NN': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-他补充说，这名女性被选中成为首个接受这项手术的捐献者，因为之前的子宫切除术使医生能够在没有子宫阻碍的情况下进行手术。
-
-(ROOT (IP (NP (PRP 他)) (VP (VP (VV 补充)) (VP (VV 说) (, ，) (IP (IP (NP (DP (DT 这) (CLP (NNB 名))) (NP (NN 女性))) (VP (BB 被) (VP (VV 选中) (IP (VP (VV 成) (VP (VC 为) (NP (QP (CD 首个)) (CP (CP (IP (VP (VV 接受) (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 手术))))) (DEC 的))) (NP (VV 捐献) (SFN 者))))))))) (, ，) (PP (IN 因为) (IP (NP (DNP (ADJP (IN 之前)) (DEC 的)) (NP (NN 子) (NN 宫切) (NN 除术))) (VP (VV 使) (NP (NN 医生)) (IP (VP (MD 能够) (VP (PP (IN 在) (LCP (NP (CP (IP (VP (VV 没有) (IP (NP (NN 子宫)) (VP (VV 阻碍))))) (DEC 的)) (NP (NN 情况))) (IN 下))) (VP (VV 进行) (NP (NN 手术)))))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-通常，三小时的手术可以让捐献者在 24 小时内回家。
-
-(ROOT (IP (ADVP (JJ 通常)) (, ，) (NP (DNP (NP (QP (CD 三)) (NP (NN 小时))) (DEC 的)) (NP (NN 手术))) (VP (MD 可以) (VP (VV 让) (NP (VV 捐献) (SFN 者)) (IP (VP (PP (IN 在) (LCP (NP (QP (CD 24)) (NP (NN 小时))) (IN 内))) (VP (VV 回家)))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'JJ': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'JJ': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
-----------------------------------------------------------------------
-传统手术需要在腹壁上做 5 英寸到 6 英寸的切口，通常需要住院两天或三天。
-
-(ROOT (IP (NP (ADJP (NN 传统)) (NP (NN 手术))) (VP (VP (MD 需要) (VP (PP (VV 在) (LCP (NP (NN 腹壁)) (NN 上))) (VP (VV 做) (NP (DNP (QP (QP (CD 5) (CLP (NNB 英寸))) (CC 到) (QP (CD 6) (CLP (NNB 英寸)))) (DEC 的)) (NP (NN 切口)))))) (, ，) (VP (ADVP (RB 通常)) (VP (MD 需要) (VP (VV 住院) (QP (QP (CD 两) (CLP (NNB 天))) (CC 或) (QP (CD 三) (CLP (NNB 天)))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'ADJP': {}, 'NP': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}, 'NP7938': {}}, 'VP': {'VP': {}, ',': {}, 'VP11708': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}, 'NP': {}}}
 {'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+“	大殿	punct
+米兰	大殿	nmod
+圣	大殿	nmod
+凯瑟琳	大殿	nmod
+大殿	达芬奇	nmod
+”	大殿	punct
+的	大殿	case
+“	达芬奇	punct
+达芬奇	展	nmod
+：	画家	punct
+米兰	画家	nmod
+宫廷	画家	nmod
+画家	称	nsubj:pass
+”	画家	punct
+展	画家	appos
+被	称	aux:pass
+称	门票	acl
+为	称	mark
+“	展览	punct
+近代	最受	nmod:tmod
+以来	近代	case
+最受	展览	acl:relcl
+期待	最受	xcomp
+的	最受	mark:rel
+伦敦	展览	nmod
+展览	称	obj
+”	展览	punct
+，	称	punct
+是	门票	cop
+“	门票	punct
+当地	门票	nmod
+最	热门	advmod
+热门	门票	amod
+的	热门	mark:rel
+门票	ROOT	root
+”	门票	punct
+。	门票	punct
 ----------------------------------------------------------------------
-“如果你问我的病人，她会说这就像拔牙一样。
+这是艺术的等价物，就像是迈克尔·杰克逊和埃尔维斯从死里复活，在 O2 唱响圣诞颂歌。
 
-(ROOT (IP (`` “) (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 你)) (VP (VV 问) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 病人)))))) (, ，) (NP (PRP 她)) (VP (MD 会) (VP (VV 说) (IP (NP (PRD 这)) (VP (ADVP (RB 就)) (PP (VV 像) (NP (VV 拔牙))) (VP (JJ 一样))))))) (. 。)))
-{'IP': {'``': {}, 'IP': {}, '.': {}}}
-{'IP': {'``': {}, 'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-蒙哥马利说:“那天晚上她在走，第二天就走了。”
-
-(ROOT (IP (NP (NNP 蒙哥马利)) (VP (VV 说) (: :) (IP (`` “) (NP (DP (DT 那) (CLP (NNB 天))) (NP (NN 晚上))) (NP (PRP 她)) (VP (VP (ADVP (VV 在)) (VP (VV 走))) (, ，) (VP (QP (CD 第二) (CLP (NNB 天))) (ADVP (RB 就)) (VP (VV 走) (UH 了)))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, ':': {}, 'IP': {}}}
-----------------------------------------------------------------------
-这项手术通过在腹部和肚皮上留下小口子，把“棒状的相机和工具”插入体内来完成。
-
-(ROOT (IP (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 手术))) (VP (PP (VV 通过) (IP (VP (PP (IN 在) (LCP (NP (NN 腹部) (CC 和) (NN 肚皮)) (NN 上))) (VP (VV 留下) (NP (ADJP (PFA 小)) (NP (NN 口子))))))) (, ，) (VP (BB 把) (IP (NP (`` “) (DNP (ADJP (NN 棒状)) (DEC 的)) (NP (NN 相机) (CC 和) (NN 工具)) ('' ”)) (VP (VP (VV 插入) (NP (NN 体内))) (VP (RB 来) (VP (VV 完成))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'PP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-然后医生会通过阴道把一根空管插入体内，管尽头有一个袋子。
-
-(ROOT (IP (IP (ADVP (RB 然后)) (NP (NN 医生)) (VP (MD 会) (VP (PP (IN 通过) (NP (NN 阴道))) (VP (BB 把) (IP (NP (QP (CD 一) (CLP (NNB 根))) (NP (NN 空管))) (VP (VV 插入) (NP (NN 体内)))))))) (, ，) (IP (NP (VV 管) (NN 尽头)) (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 袋子))))) (. 。)))
+(ROOT (IP (IP (NP (PRD 这)) (VP (VC 是) (NP (DNP (NP (NN 艺术)) (DEC 的)) (NP (NN 等)) (NP (NN 价物))))) (, ，) (IP (VP (ADVP (RB 就)) (VP (VC 像是) (IP (NP (NNP 迈克尔) (/ ·) (NNP 杰克逊) (CC 和) (NNP 埃尔维斯)) (VP (VP (PP (IN 从) (NP (NN 死里))) (VP (VV 复活))) (, ，) (VP (PP (VV 在) (NP (FW O2))) (VP (VV 唱响) (NP (NNP 圣诞) (NN 颂歌))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP16576': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-Montgomery 说，一旦肾脏被切开，外科医生会使用相机拍摄的视频来指导他们将袋子推进到器官周围，然后把它放进肾管中，并通过阴道口把它拽出来。
-
-(ROOT (IP (NP (FW Montgomery)) (VP (VV 说) (, ，) (IP (CP (ADVP (IN 一旦)) (IP (NP (NN 肾) (NN 脏)) (VP (BB 被) (VP (VV 切开))))) (, ，) (NP (NN 外科) (NN 医生)) (VP (VP (MD 会) (VP (VP (VV 使用) (NP (CP (CP (IP (NP (NN 相机)) (VP (VV 拍摄))) (DEC 的))) (NP (NN 视频)))) (VP (RB 来) (VP (VV 指导) (NP (PRP 他们)) (IP (VP (BB 将) (IP (NP (NN 袋子)) (VP (VRD (VV 推进) (VV 到)) (NP (NN 器官) (NN 周围)))))))))) (, ，) (VP (ADVP (RB 然后)) (VP (VP (BB 把) (IP (NP (PRP 它)) (VP (VRD (VV 放) (VV 进)) (LCP (NP (NN 肾)) (NN 管中))))) (, ，) (RB 并) (VP (PP (IN 通过) (NP (NN 阴道) (SFN 口))) (VP (BB 把) (IP (NP (PRP 它)) (VP (VRD (VV 拽) (VV 出来))))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'FW': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-肾脏重约 454 克，大约是拇指抓拳时的大小。
-
-(ROOT (IP (IP (NP (NN 肾脏)) (VP (JJ 重约) (QP (CD 454) (CLP (NNB 克))))) (, ，) (IP (VP (ADVP (RB 大约)) (VP (VC 是) (NP (NP (NN 拇) (VV 指)) (DNP (LCP (IP (VP (VV 抓拳))) (IN 时)) (DEC 的)) (NP (NN 大小)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP59770': {'VP': {}}, '.': {}}}
 {'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'VP': {}}}
+Dependency Features:
+这	是	nsubj
+是	价物	cop
+艺术	价物	nmod
+的	艺术	case
+等	艺术	acl
+价物	是	advcl
+，	价物	punct
+就	是	mark
+是	ROOT	root
+迈克尔	复活	nsubj
+·	杰克逊	punct
+杰克逊	迈克尔	flat:name
+和	埃尔维斯	cc
+埃尔维斯	迈克尔	conj
+从	死里	case
+死里	复活	obl
+复活	是	ccomp
+，	是	punct
+在	唱响	advcl
+O2	在	obj
+唱响	是	ccomp
+圣诞	颂歌	nmod
+颂歌	唱响	obj
+。	唱响	punct
 ----------------------------------------------------------------------
-为了确保手术更干净，她的阴道被涂上一种名为 Betadine 的消毒溶剂，这是一种在手术中通常使用的消毒剂。
+大家都想去。
 
-(ROOT (IP (IP (PP (IN 为了) (IP (VP (VV 确保) (IP (NP (NN 手术)) (VP (ADVP (RB 更)) (VP (JJ 干净))))))) (, ，) (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 阴道))) (VP (BB 被) (VP (VRD (VV 涂) (VV 上)) (IP (QP (CD 一) (CLP (NNB 种名))) (CP (CP (IP (VP (VC 为) (NP (FW Betadine)))) (DEC 的))) (NP (NN 消毒) (NN 溶剂)))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (CP (CP (IP (VP (PP (IN 在) (LCP (NP (NN 手术)) (IN 中))) (ADVP (RB 通常)) (VP (VV 使用)))) (DEC 的))) (NP (VV 消毒) (SFN 剂))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-但是一些医生不禁要问，这个过程到底有多干净。
-
-(ROOT (IP (ADVP (RB 但是)) (NP (QP (JJ 一些)) (NP (NN 医生))) (VP (ADVP (RB 不)) (VP (VV 禁要) (IP (VP (VV 问) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 过程))) (VP (ADVP (RB 到底)) (VP (VV 有) (VP (ADVP (RB 多)) (VP (JJ 干净)))))))))) (. 。)))
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'QP': {}, 'NP': {}}}
+(ROOT (IP (NP (PRD 大家)) (VP (ADVP (RB 都)) (VP (MD 想) (IP (VP (VV 去))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
 {'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+大家	去	nsubj
+都	去	mark
+想	去	aux
+去	ROOT	root
+。	去	punct
 ----------------------------------------------------------------------
-克利夫兰诊所腹腔镜和机器人手术主管 Jihad Kaouk 医生说：“采取这种（灭菌）措施是好的，但管子触及阴道，袋子触及管子，袋子又触及肾脏”。
+这就是问题所在。假设您能够买到门票，即使国家美术馆限制每半小时只允许 180 人入内，但您可以拭目以待，他们都会聚集在同一个地方。
 
-(ROOT (IP (NP (NP (NP (NNP 克利夫) (NN 兰诊) (SFN 所)) (NP (NN 腹腔) (SFN 镜) (CC 和) (NN 机器) (SFN 人) (NN 手术) (NN 主管))) (NP (FW Jihad) (FW Kaouk) (NN 医生))) (VP (VV 说) (: ：) (IP (`` “) (IP (IP (VP (VV 采取) (NP (DP (DT 这) (CLP (NNB 种))) (PRN (-LRB- （) (NP (NN 灭菌)) (-RRB- ）)) (NP (NN 措施))))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 好))) (UH 的)))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 管子)) (VP (SFN 触) (CC 及) (NP (NN 阴道)))) (, ，) (IP (NP (NN 袋子)) (VP (SFN 触) (CC 及) (NN 管子))) (, ，) (IP (NP (NN 袋子)) (VP (ADVP (CC 又)) (VP (VV 触) (CC 及) (NP (NN 肾) (JJ 脏))))) ('' ”))) (. 。)))
+(ROOT (IP (NP (PRD 这)) (VP (VC 就是) (IP (NP (NN 问题)) (VP (RB 所) (VP (VV 在))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VC': {}, 'IP': {}}}
+Dependency Features:
+这	在	nsubj
+是	在	cop
+问题	在	nsubj
+所	在	mark
+在	ROOT	root
+。	在	punct
 ----------------------------------------------------------------------
-他补充说：“从阴道抽取肾脏，这是不受污染的，这是一种潜在风险还是真正的风险？现在我们就能知道了。”
+展览以 15 世纪末莱昂纳多在米兰时所留下的九幅画为中心。这意味着每幅画前至少会有 20 个人挤在一起，而我身材不高，想要从 20 个人的腿间瞅一眼这幅昏暗的杰作，就像从上层圈 Z 席上听到安静夜的声音一样令人难堪。
 
-(ROOT (IP (NP (PRP 他)) (VP (VP (VV 补充)) (VP (VV 说) (: ：) (IP (`` “) (IP (VP (PP (IN 从) (NP (NN 阴道))) (VP (VV 抽取) (NP (NN 肾) (NN 脏))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (VP (VV 不受) (NP (NN 污染)))) (UH 的)))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (NP (NP (ADJP (JJ 潜在)) (NP (NN 风险))) (VC 还是) (NP (CP (CP (IP (VP (JJ 真正))) (DEC 的))) (NP (NN 风险)))))))))) (. ？)))
+(ROOT (IP (NP (NN 展览)) (VP (PP (VV 以) (NP (CP (CP (IP (LCP (NP (QP (CD 15)) (NP (NNB 世纪))) (IN 末)) (NP (NNP 莱昂纳多)) (VP (PP (VV 在) (LCP (NP (NNP 米兰)) (IN 时))) (VP (RB 所) (VP (VV 留下))))) (DEC 的))) (QP (CD 九) (CLP (NNB 幅))) (NP (NN 画)))) (VP (VC 为) (NP (NN 中心)))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-Kaouk 还对肾脏被挤压成管状后的质量表示了担忧。
-
-(ROOT (IP (NP (FW Kaouk)) (VP (PP (IN 还对) (NP (DNP (LCP (IP (NP (NN 肾脏)) (VP (BB 被) (VP (VCD (VV 挤压) (NN 成管))))) (NN 状后)) (DEC 的)) (NP (NN 质量)))) (VP (VV 表示) (AS 了) (NP (NN 担忧)))) (. 。)))
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'FW': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'FW': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
 {'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+展览	以	nsubj
+以	ROOT	root
+15	世纪	nummod
+世纪	留下	nmod:tmod
+末	世纪	case
+莱昂纳多	留下	nsubj
+在	留下	advcl
+米兰	在	obj
+时	在	mark
+所	留下	mark
+留下	画	acl:relcl
+的	留下	mark:rel
+九	幅	nummod
+幅	画	clf
+画	中心	nsubj
+为	中心	cop
+中心	以	ccomp
+。	中心	punct
 ----------------------------------------------------------------------
-“尽量减少手术切口和减轻手术疼痛，这个理念是好的，但是我们应该看看付出的代价是什么”，他说道。
+我知道，这些墙上的画很难一见难忘，它们几乎挨着挨着。
 
-(ROOT (IP (IP (`` “) (IP (VP (ADVP (RB 尽量)) (VP (VP (VV 减少) (NP (NN 手术) (NN 切口))) (CC 和) (VP (VV 减轻) (NP (NN 手术) (NN 疼痛)))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 理念))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 好))) (UH 的)))))) (, ，) (IP (ADVP (RB 但是)) (NP (PRP 我们)) (VP (MD 应该) (VP (VV 看看) (IP (NP (CP (CP (IP (VP (VV 付出))) (DEC 的))) (NP (NN 代价))) (VP (VC 是) (NP (WP 什么))))))) ('' ”)) (, ，) (NP (PRP 他)) (VP (VV 说道)) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, "''": {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}}, '.': {}}}
-{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, "''": {}}}
+(ROOT (IP (NP (PRP 我)) (VP (VV 知道) (, ，) (IP (IP (NP (DP (DT 这些)) (DNP (NP (NN 墙上)) (DEC 的)) (NP (NN 画))) (VP (ADVP (RB 很难)) (VP (VP (ADVP (CD 一)) (VP (VV 见))) (VP (ADVP (RB 难)) (VP (VV 忘)))))) (, ，) (IP (NP (PRP 它们)) (VP (VP (ADVP (RB 几乎)) (VP (VV 挨) (AS 着))) (VP (VV 挨) (AS 着)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
 {'NP': {'PRP': {}}}
-{'VP': {'VV': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+我	知道	nsubj
+知道	ROOT	root
+，	挨	punct
+这些	墙上	det
+墙上	画	nmod
+的	墙上	case
+画	见	nsubj
+很难	见	advmod
+一	见	obl
+见	挨	advcl
+难	见	advmod
+忘	见	xcomp
+，	见	punct
+它	挨	nsubj
+几乎	挨	advmod
+挨	知道	ccomp
+着	挨	aux
+挨	挨	xcomp
+着	挨	aux
+。	知道	punct
+----------------------------------------------------------------------
+但是，由于这些热播剧的性质，这种可能性是没有的。
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (PP (IN 由于) (NP (DNP (NP (DP (DT 这些)) (NP (VV 热播) (SFN 剧))) (DEC 的)) (NP (NN 性质)))) (, ，) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 可能) (SFN 性))) (VP (VC 是) (NP (CP (CP (IP (VP (VV 没有))) (UH 的))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',67765': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'PP': {'IN': {}, 'NP': {}}, ',96054': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+但是	是	mark
+，	但是	punct
+由于	性质	case
+这些	剧	det
+热播	剧	compound
+剧	性质	nmod
+的	剧	case
+性质	是	obl
+，	性质	punct
+这	种	det
+种	性	nmod
+可能	性	compound
+性	是	nsubj
+是	ROOT	root
+有	是	xcomp
+的	是	discourse
+。	是	punct
+----------------------------------------------------------------------
+艺术需要你花点时间，思考、想想，离开，回来。
+
+(ROOT (IP (NP (NN 艺术)) (VP (VV 需要) (NP (PRP 你)) (IP (VP (VP (VV 花) (NP (QP (CLP (JJ 点))) (NP (NN 时间)))) (, ，) (VP (VV 思考)) (EC 、) (VP (VV 想想)) (, ，) (VP (VV 离开)) (, ，) (VP (VV 回来))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
+Dependency Features:
+艺术	回来	nsubj
+需要	思考	advcl
+你	花	nsubj
+花	思考	advcl
+点	时间	amod
+时间	花	obj
+，	花	punct
+思考	回来	advcl
+、	想想	punct
+想想	思考	conj
+，	想想	punct
+离开	回来	advcl
+，	离开	punct
+回来	ROOT	root
+。	回来	punct
+----------------------------------------------------------------------
+但是这种类型的节目根本就不可能这样做。
+
+(ROOT (IP (ADVP (RB 但是)) (NP (DNP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 类型))) (DEC 的)) (NP (NN 节目))) (VP (ADVP (RB 根本)) (ADVP (RB 就)) (ADVP (RB 不)) (VP (MD 可能) (VP (ADVP (RB 这样)) (VP (VV 做))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP44281': {}, 'ADVP97821': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+但是	做	mark
+这	种	det
+种	类型	clf
+类型	节目	nmod
+的	类型	case
+节目	做	nsubj
+根本	做	advmod
+就	做	mark
+不	做	advmod
+可能	做	aux
+这样	做	advmod
+做	ROOT	root
+。	做	punct
+----------------------------------------------------------------------
+查尔斯·索马雷兹·史密斯，皇家艺术学院秘书兼首席执行官
+
+(ROOT (NP (NP (NNP 查尔斯) (/ ·) (NNP 索马雷兹) (/ ·) (NNP 史密斯)) (, ，) (NP (NP (ADJP (NN 皇家)) (NP (NN 艺术) (NN 学院))) (NP (NN 秘书) (CC 兼) (JJ 首席) (VV 执行) (SFN 官)))))
+layer 2:
+{'NP': {'NP': {}, ',': {}, 'NP14541': {}}}
+{'NP': {'NP': {}, ',': {}, 'NP': {}}}
+layer 3:
+{'NP': {'NP': {'NNP': {}, '/': {}, 'NNP84679': {}, '/43356': {}, 'NNP76925': {}}, ',': {}, 'NP29145': {'NP': {}, 'NP28004': {}}}}
+{'NP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}, '/': {}, 'NNP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}, '/': {}, 'NNP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+Dependency Features:
+查尔斯	ROOT	root
+·	索马雷兹	punct
+索马雷兹	查尔斯	flat:name
+·	史密斯	punct
+史密斯	查尔斯	flat:name
+，	秘书	punct
+皇家	秘书	nmod
+艺术	秘书	nmod
+学院	秘书	nmod
+秘书	查尔斯	appos
+兼	官	cc
+首席	官	amod
+执行	官	compound
+官	查尔斯	appos
+----------------------------------------------------------------------
+我从书上了解到，国家美术馆对游客人数有一定的限制，每半小时只允许 180 人进馆。
+
+(ROOT (IP (NP (PRP 我)) (VP (PP (IN 从) (NP (NN 书上))) (VP (VRD (VV 了解) (VV 到)) (, ，) (IP (NP (NN 国家) (NN 美术) (SFN 馆)) (VP (VP (PP (IN 对) (NP (NN 游客) (NN 人数))) (VP (VV 有) (NP (DNP (ADJP (JJ 一定)) (DEC 的)) (NP (NN 限制))))) (, ，) (VP (NP (DP (DT 每) (QP (CD 半))) (NP (NNB 小时))) (ADVP (RB 只)) (VP (VV 允许) (QP (CD 180)) (IP (VP (NN 人进) (NP (SFN 馆)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+我	了解	nsubj
+从	书上	case
+书上	了解	obl
+了解	ROOT	root
+到	了解	mark
+，	允许	punct
+国家	馆	nmod
+美术	馆	compound
+馆	有	nsubj
+对	人数	case
+游客	人数	nmod
+人数	有	obl
+有	允许	advcl
+一定	限制	amod
+的	一定	mark:rel
+限制	有	obj
+，	有	punct
+每	小时	det
+半	小时	nummod
+小时	允许	nmod:tmod
+只	允许	advmod
+允许	了解	ccomp
+180	人进	nummod
+人进	馆	compound
+馆	允许	obj
+。	允许	punct
+----------------------------------------------------------------------
+这个数字听起来很高，当然是这样的。但这只是整个展览会期间的访客数量，而且是经过很认真计算的，这样才能让展览会又热闹又不会觉得人满为患。
+
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 数字))) (VP (VP (VRD (VV 听) (VV 起来))) (VP (JJ 很高)))) (, ，) (IP (VP (ADVP (RB 当然)) (VP (VC 是) (DNP (NP (PRD 这样)) (UH 的))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP62907': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP92080': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+这	个	det
+个	数字	clf
+数字	是	nsubj
+听	是	advcl
+起来	听	mark
+很高	听	xcomp
+，	听	punct
+当然	是	advmod
+是	ROOT	root
+这样	是	obj
+的	是	discourse
+。	是	punct
+----------------------------------------------------------------------
+我还没有去过，但我很确定，人们会在展览开始时涌入阅读信息，围着主要作品，特别是两幅版本的《岩石上的童贞》，但几乎没有人关注绘画。
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (ADVP (RB 还)) (VP (VV 没有) (VP (VV 去过))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 我)) (VP (ADVP (RB 很)) (VP (VV 确定) (, ，) (IP (IP (NP (NN 人们)) (VP (MD 会) (VP (PP (IN 在) (LCP (IP (NP (NN 展览)) (VP (VV 开始))) (IN 时))) (VP (VP (VV 涌入) (NP (NN 阅读) (NN 信息))) (, ，) (VP (VV 围) (AS 着) (NP (ADJP (JJ 主要)) (NP (NN 作品)))))))) (, ，) (IP (VP (ADVP (RB 特别)) (VP (VC 是) (NP (DNP (NP (QP (CD 两) (CLP (NNB 幅))) (NP (NN 版本))) (DEC 的)) (NP (-LRB- 《) (DNP (LCP (NP (NN 岩石)) (NN 上)) (DEC 的)) (NP (NN 童贞)) (-RRB- 》)))))) (, ，) (IP (ADVP (RB 但)) (VP (ADVP (RB 几乎)) (VP (VV 没有) (IP (NP (NN 人)) (VP (VV 关注) (NP (VV 绘画))))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP26103': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP92063': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+我	有	nsubj
+还	有	mark
+有	ROOT	root
+去过	有	xcomp
+，	确定	punct
+但	确定	mark
+我	确定	nsubj
+很	确定	advmod
+确定	有	parataxis
+，	有	punct
+人	围	nsubj
+会	涌入	aux
+在	开始	case
+展览	开始	nsubj
+开始	涌入	ccomp
+时	开始	mark
+涌入	围	advcl
+阅读	信息	nmod
+信息	涌入	obj
+，	涌入	punct
+围	有	advcl
+着	围	aux
+主要	作品	amod
+作品	围	obj
+，	围	punct
+特别	童贞	advmod
+是	童贞	cop
+两	幅	nummod
+幅	版本	clf
+版本	童贞	nmod
+的	版本	mark:rel
+《	童贞	punct
+岩石	童贞	nmod
+上	岩石	acl
+的	岩石	case
+童贞	有	advcl
+》	童贞	punct
+，	童贞	punct
+但	有	mark
+几乎	有	advmod
+有	确定	ccomp
+人	关注	nsubj
+关注	有	ccomp
+绘画	关注	obj
+。	确定	punct
+----------------------------------------------------------------------
+你只需要调整自己的节奏。
+
+(ROOT (IP (NP (PRP 你)) (VP (ADVP (RB 只)) (VP (MD 需要) (VP (VV 调整) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 节奏)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+你	调整	nsubj
+只	调整	advmod
+需要	调整	aux
+调整	ROOT	root
+自己	节奏	det
+的	自己	case
+节奏	调整	obj
+。	调整	punct
+----------------------------------------------------------------------
+现在，你已经告诉我了看电影的技巧，我就赶紧去看绘画了，但是因为绘画不是这个展览的重点（画作才是重点），所以这有点可笑。
+
+(ROOT (IP (IP (NP (NN 现在)) (, ，) (NP (PRP 你)) (VP (ADVP (RB 已经)) (VP (VV 告诉) (NP (PRP 我)) (AS 了) (IP (VP (VV 看) (NP (DNP (NP (NN 电影)) (DEC 的)) (NP (NN 技巧)))))))) (, ，) (IP (NP (PRP 我)) (VP (ADVP (RB 就)) (ADVP (RB 赶紧)) (VP (VV 去看) (VP (VV 绘画) (UH 了))))) (, ，) (IP (ADVP (RB 但是)) (PP (IN 因为) (IP (NP (VV 绘画)) (VP (VC 不是) (NP (DNP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 展览))) (DEC 的)) (NP (NN 重点)) (PRN (-LRB- （) (IP (NP (NN 画作)) (VP (VC 才是) (NP (NN 重点)))) (-RRB- ）)))))) (, ，) (ADVP (RB 所以)) (NP (PRD 这)) (VP (ADVP (VV 有点)) (VP (JJ 可笑)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP16687': {}, ',70263': {}, 'IP38769': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP5285': {}, 'VP': {}}, ',': {}, 'IP13555': {'NP': {}, 'VP': {}}, ',33758': {}, 'IP50540': {'ADVP': {}, 'PP': {}, ',': {}, 'ADVP72761': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+现在	告诉	nmod:tmod
+，	现在	punct
+你	告诉	nsubj
+已经	告诉	advmod
+告诉	ROOT	root
+我	告诉	obj
+了	告诉	aux
+看	技巧	acl:relcl
+电影	看	obj
+的	看	mark:rel
+技巧	告诉	obj
+，	去看	punct
+我	去看	nsubj
+就	去看	mark
+赶紧	去看	advmod
+去看	告诉	parataxis
+绘画	去看	xcomp
+了	去看	discourse
+，	去看	punct
+但是	重点	mark
+因为	重点	case
+绘画	重点	nsubj
+是	重点	cop
+这	个	det
+个	展览	clf
+展览	重点	nmod
+的	展览	mark:rel
+重点	有点	ccomp
+（	重点	punct
+画作	重点	nsubj
+是	重点	cop
+重点	重点	parataxis
+）	重点	punct
+，	有点	punct
+所以	有点	mark
+这	有点	nsubj
+有点	告诉	parataxis
+可笑	有点	xcomp
+。	告诉	punct
+----------------------------------------------------------------------
+我觉得难的是大型演出，不是艺术本身，也不是人群本身，而是两者的结合。
+
+(ROOT (IP (NP (PRP 我)) (VP (VV 觉得) (IP (IP (NP (CP (CP (IP (VP (JJ 难))) (DEC 的)))) (VP (VC 是) (NP (ADJP (NN 大型)) (NP (NN 演出))))) (, ，) (IP (VP (VP (VC 不是) (NP (NN 艺术) (PRD 本身))) (, ，) (VP (ADVP (RB 也)) (VP (VC 不是) (NP (NP (NN 人群)) (NP (PRD 本身))))) (, ，) (VP (VC 而是) (NP (DNP (NP (QP (CD 两)) (NP (NN 者))) (DEC 的)) (NP (NN 结合)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+我	觉得	nsubj
+觉得	是	csubj
+难	是	csubj
+的	难	mark:rel
+是	ROOT	root
+大型	演出	nmod
+演出	艺术	nsubj
+，	演出	punct
+是	艺术	cop
+艺术	结合	acl
+本身	艺术	appos
+，	艺术	punct
+也	人群	mark
+是	人群	cop
+人群	结合	acl
+本身	人群	appos
+，	人群	punct
+是	结合	cop
+两	者	nummod
+者	结合	nmod
+的	者	case
+结合	是	ccomp
+。	是	punct
+----------------------------------------------------------------------
+我喜欢在摇滚音乐节或者（在那个年代）在夜总会里成为一名大众，因为在那里，人群是最重要的。共同体验才是你来的原因。
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (VV 喜欢) (IP (VP (PP (IN 在) (NP (NP (NN 摇滚) (NN 音乐) (SFN 节)) (CC 或者) (PRN (-LRB- （) (PP (IN 在) (NP (DP (DT 那) (CLP (NNB 个))) (NP (NN 年代)))) (-RRB- ）)))) (PP (VV 在) (LCP (NP (NN 夜) (NN 总会)) (IN 里))) (VP (VV 成) (VP (VC 为) (NP (QP (CD 一) (CLP (NNB 名))) (NP (NN 大众))))))))) (, ，) (PP (IN 因为) (IP (PP (VV 在) (NP (PRD 那里))) (, ，) (NP (NN 人群)) (VP (VC 是) (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 重要)))) (UH 的))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+Dependency Features:
+我	成	nsubj
+喜欢	成	advcl
+在	节	case
+摇滚	节	nmod
+音乐	节	compound
+节	成	obl
+或者	年代	cc
+（	年代	punct
+在	年代	case
+那	个	det
+个	年代	clf
+年代	节	conj
+）	年代	punct
+在	成	advcl
+夜	总会	nmod
+总会	在	obj
+里	总会	case
+成	ROOT	root
+为	成	mark
+一	名	nummod
+名	大众	clf
+大众	成	obj
+，	重要	punct
+因为	重要	case
+在	重要	advcl
+那里	在	obj
+，	在	punct
+人群	重要	nsubj
+是	重要	cop
+最	重要	advmod
+重要	成	parataxis
+的	重要	discourse
+。	成	punct
+----------------------------------------------------------------------
+音乐加上人民，才是艺术的本质。
+
+(ROOT (IP (IP (NP (NN 音乐)) (VP (VV 加上) (NP (NN 人民)))) (, ，) (VP (VC 才是) (NP (DNP (NP (NN 艺术)) (DEC 的)) (NP (NN 本质)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+音乐	加上	nsubj
+加上	本质	csubj
+人民	加上	obj
+，	加上	punct
+是	本质	cop
+艺术	本质	nmod
+的	艺术	case
+本质	ROOT	root
+。	本质	punct
+----------------------------------------------------------------------
+但是，在绘画方面，人群会损坏艺术品。
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (PP (IN 在) (NP (NN 绘画) (NN 方面))) (, ，) (NP (NN 人群)) (VP (MD 会) (VP (VV 损坏) (NP (NN 艺术) (SFN 品)))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',84800': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'PP': {'IN': {}, 'NP': {}}, ',13199': {}, 'NP': {'NN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+但是	损坏	mark
+，	但是	punct
+在	方面	case
+绘画	方面	nmod
+方面	损坏	obl
+，	方面	punct
+人群	损坏	nsubj
+会	损坏	aux
+损坏	ROOT	root
+艺术	品	compound
+品	损坏	obj
+。	损坏	punct
+----------------------------------------------------------------------
+一幅画应该是单独看，或者和其他一两个人一起看。
+
+(ROOT (IP (NP (QP (CD 一)) (NP (NN 幅画))) (VP (MD 应该) (VP (VC 是) (VP (VP (ADVP (RB 单独)) (VP (VV 看))) (, ，) (CC 或者) (VP (PP (IN 和) (NP (DP (DT 其他) (QP (CD 一) (QP (CD 两) (CLP (NNB 个))))) (NP (NN 人)))) (ADVP (RB 一起)) (VP (VV 看)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+一	幅画	nummod
+幅画	是	nsubj
+应该	是	aux
+是	ROOT	root
+单独	看	advmod
+看	是	xcomp
+，	看	punct
+或者	看	cc
+和	人	case
+其他	人	det
+一	个	nummod
+两	个	nummod
+个	人	nmod
+人	看	obl
+一起	看	advmod
+看	看	conj
+。	是	punct
+----------------------------------------------------------------------
+然后，如果你幸运，你就能从这种经历中得到什么东西，这时艺术就会发生。
+
+(ROOT (IP (IP (ADVP (RB 然后)) (, ，) (CP (ADVP (IN 如果)) (IP (NP (PRP 你)) (VP (JJ 幸运)))) (, ，) (NP (PRP 你)) (VP (ADVP (RB 就)) (VP (MD 能) (VP (PP (IN 从) (LCP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 经历))) (IN 中))) (VP (VV 得到) (NP (DP (WP 什么)) (NP (NN 东西)))))))) (, ，) (IP (ADVP (NN 这时)) (NP (NN 艺术)) (VP (ADVP (RB 就)) (VP (MD 会) (VP (VV 发生))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP70256': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'CP': {}, ',576': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP32548': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'CP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+然后	得到	advmod
+，	然后	punct
+如果	幸运	case
+你	幸运	nsubj
+幸运	得到	ccomp
+，	幸运	punct
+你	得到	nsubj
+就	得到	mark
+能	得到	aux
+从	经历	case
+这	种	det
+种	经历	clf
+经历	得到	obl
+中	经历	case
+得到	ROOT	root
+什么	东西	det
+东西	得到	obj
+，	发生	punct
+这时	发生	nmod:tmod
+艺术	发生	nsubj
+就	发生	mark
+会	发生	aux
+发生	得到	parataxis
+。	得到	punct
+----------------------------------------------------------------------
+CSS 和您一样，我也有过参加展会的不良经历。
+
+(ROOT (IP (IP (NP (FW CSS)) (VP (ADVP (RB 和您)) (VP (JJ 一样)))) (, ，) (NP (PRP 我)) (VP (ADVP (RB 也)) (VP (VV 有) (AS 过) (NP (CP (IP (VP (VV 参加) (NP (NN 展会)))) (DEC 的)) (ADJP (JJ 不良)) (NP (NN 经历))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+CSS	有	nsubj
+和您	一样	advmod
+一样	有	advcl
+，	一样	punct
+我	有	nsubj
+也	有	mark
+有	ROOT	root
+过	有	aux
+参加	经历	acl:relcl
+展会	参加	obj
+的	参加	mark:rel
+不良	经历	amod
+经历	有	obj
+。	有	punct
+----------------------------------------------------------------------
+但是，想想那些巨大的展览为世界带来的极大享受。
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (VP (MD 想) (IP (VP (VV 想) (NP (CP (CP (IP (NP (DP (DT 那些)) (CP (CP (IP (VP (JJ 巨大))) (DEC 的))) (NP (NN 展览))) (VP (PP (IN 为) (NP (NN 世界))) (VP (VV 带来)))) (DEC 的))) (ADJP (JJ 极大)) (NP (NN 享受)))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'VP': {'MD': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'VP': {'MD': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'VP': {'MD': {}, 'IP': {}}}
+Dependency Features:
+但是	想	mark
+，	但是	punct
+想	想	aux
+想	ROOT	root
+那些	展览	det
+巨大	展览	amod
+的	巨大	mark:rel
+展览	带来	nsubj
+为	世界	case
+世界	带来	obl
+带来	享受	acl:relcl
+的	带来	mark:rel
+极大	享受	amod
+享受	想	obj
+。	想	punct
+----------------------------------------------------------------------
+与永久收藏品不同，永久收藏品只能看到一位艺术家的少量作品：你可以看到、享受和研究一位艺术家的演变，或者看到一个特定时期的作品充满的房间。
+
+(ROOT (IP (IP (IP (VP (PP (IN 与) (NP (ADJP (JJ 永久)) (NP (VV 收藏) (SFN 品)))) (VP (JJ 不同)))) (, ，) (NP (ADJP (JJ 永久)) (NP (VV 收藏) (SFN 品))) (VP (MD 只能) (VP (VV 看到) (NP (DNP (NP (QP (CD 一) (CLP (NNB 位))) (NP (NN 艺术) (SFN 家))) (DEC 的)) (QP (JJ 少量)) (NP (NN 作品)))))) (: ：) (IP (NP (PRP 你)) (VP (MD 可以) (VP (VP (VV 看到)) (EC 、) (VP (VP (VV 享受)) (CC 和) (VP (VV 研究) (NP (DNP (NP (QP (CD 一) (CLP (NNB 位))) (NP (NN 艺术) (SFN 家))) (DEC 的)) (NP (NN 演变))))) (, ，) (CC 或者) (VP (VV 看到) (NP (CP (CP (IP (NP (QP (CD 一) (CLP (NNB 个))) (DNP (NP (ADJP (JJ 特定)) (NP (NN 时期))) (DEC 的)) (NP (NN 作品))) (VP (VV 充满))) (DEC 的))) (NP (NN 房间))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP84585': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP91001': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+与	品	case
+永久	品	amod
+收藏	品	compound
+品	不同	nmod
+不同	看到	advcl
+，	不同	punct
+永久	品	amod
+收藏	品	compound
+品	看到	nsubj
+只能	看到	aux
+看到	ROOT	root
+一	位	nummod
+位	家	nmod
+艺术	家	compound
+家	作品	nmod
+的	家	mark:rel
+少量	作品	amod
+作品	看到	obj
+：	看到	punct
+你	看到	nsubj
+可以	看到	aux
+看到	看到	parataxis
+、	享受	punct
+享受	看到	conj
+和	研究	cc
+研究	看到	conj
+一	位	nummod
+位	家	nmod
+艺术	家	compound
+家	演变	nmod
+的	家	case
+演变	研究	obj
+，	看到	punct
+或者	看到	cc
+看到	看到	conj
+一	个	nummod
+个	房间	clf
+特定	时期	amod
+时期	作品	nmod
+的	时期	case
+作品	充满	nsubj
+充满	房间	acl:relcl
+的	充满	mark:rel
+房间	看到	obj
+。	看到	punct
+----------------------------------------------------------------------
+去年，在皇家艺术学院 (Royal Academy) ，我们可以一边欣赏梵高的绘画作品，一边阅读他的书信，这真是太棒了（尽管人山人海）。
+
+(ROOT (IP (IP (NP (NN 去年)) (, ，) (PP (IN 在) (NP (NP (NN 皇家) (NN 艺术) (NN 学院)) (NP (FW -LRB-Royal) (FW Academy-RRB-)))) (, ，) (NP (PRP 我们)) (VP (MD 可以) (VP (VP (ADVP (RB 一边)) (VP (VV 欣赏) (NP (DNP (NP (NNP 梵高)) (DEC 的)) (NP (NN 绘画) (NN 作品))))) (, ，) (VP (ADVP (RB 一边)) (VP (VV 阅读) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 书信)))))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 真)) (VP (VC 是) (VP (JJ 太棒) (UH 了) (PRN (-LRB- （) (NP (ADVP (IN 尽管)) (NP (NNP 人山) (SFN 人) (SFN 海))) (-RRB- ）)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP87347': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'PP': {}, ',33243': {}, 'NP59024': {}, 'VP': {}}, ',': {}, 'IP41151': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+去年	阅读	nmod:tmod
+，	去年	punct
+在	学院	case
+皇家	学院	nmod
+艺术	学院	nmod
+学院	阅读	obl
+(Royal	学院	appos
+Academy)	(Royal	flat:foreign
+，	学院	punct
+我	阅读	nsubj
+可以	欣赏	aux
+一边	欣赏	advmod
+欣赏	阅读	advcl
+梵高	作品	nmod
+的	梵高	case
+绘画	作品	nmod
+作品	欣赏	obj
+，	欣赏	punct
+一边	阅读	advmod
+阅读	ROOT	root
+他	书信	det
+的	他	mark:rel
+书信	阅读	obj
+，	太棒	punct
+这	太棒	nsubj
+真	太棒	advmod
+是	太棒	cop
+太棒	阅读	parataxis
+了	太棒	discourse
+（	海	punct
+尽管	海	case
+人山	人	compound
+人	海	compound
+海	太棒	nmod
+）	海	punct
+。	太棒	punct
+----------------------------------------------------------------------
+别忘了，我们还有一个戴高乐展览，您可以在那里看到一系列从未同时展出过的戴高乐作品，也永远不会再有这样的展览了。
+
+(ROOT (IP (IP (IP (VP (VV 别忘) (AS 了))) (, ，) (NP (PRP 我们)) (VP (ADVP (RB 还)) (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 个))) (IP (VP (VV 戴) (NP (NN 高乐)))) (NP (NN 展览)))))) (, ，) (IP (NP (PRP 您)) (VP (VP (MD 可以) (VP (PP (VV 在) (NP (PRD 那里))) (VP (VV 看到) (NP (QP (CD 一) (CLP (NN 系列))) (CP (CP (IP (VP (ADVP (IN 从)) (ADVP (RB 未)) (ADVP (NN 同时)) (VP (VV 展出) (AS 过)))) (DEC 的))) (IP (VP (VV 戴) (NP (NNP 高乐)))) (NP (NN 作品)))))) (, ，) (VP (ADVP (RB 也)) (ADVP (RB 永远)) (VP (MD 不会) (VP (ADVP (RB 再)) (VP (VV 有) (NP (DNP (NP (PRD 这样)) (DEC 的)) (NP (NN 展览))))))))) (UH 了) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP77731': {}, 'UH': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, 'UH': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP17509': {'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+别忘	有	advcl
+了	别忘	aux
+，	别忘	punct
+我	有	nsubj
+还	有	mark
+有	ROOT	root
+一	个	nummod
+个	展览	clf
+戴	展览	amod
+高乐	戴	obj
+展览	有	obj
+，	看到	punct
+您	看到	nsubj
+可以	看到	aux
+在	看到	advcl
+那里	在	obj
+看到	有	parataxis
+一	系列	nummod
+系列	作品	nmod
+从	同时	case
+未	展出	advmod
+同时	展出	nmod:tmod
+展出	作品	acl:relcl
+过	展出	aux
+的	展出	mark:rel
+戴	作品	amod
+高乐	戴	obj
+作品	看到	obj
+，	看到	punct
+也	有	mark
+永远	有	advmod
+会	有	aux
+再	有	advmod
+有	有	parataxis
+这样	展览	det
+的	这样	case
+展览	有	obj
+了	有	discourse
+。	有	punct
+----------------------------------------------------------------------
+我去看了德加的作品，很愉快，这是因为我有记者票，所以比一般人先进入展览厅
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (VV 去看) (AS 了) (NP (DNP (NP (NNP 德加)) (DEC 的)) (NP (NN 作品))))) (, ，) (IP (VP (ADVP (RB 很)) (VP (JJ 愉快)))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (PP (IN 因为) (IP (NP (PRP 我)) (VP (VV 有) (NP (NN 记者) (SFN 票))))))) (, ，) (IP (ADVP (RB 所以)) (VP (PP (IN 比) (NP (ADJP (JJ 一般)) (NP (NN 人)))) (ADVP (RB 先)) (VP (VV 进入) (NP (NN 展览) (SFN 厅)))))))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP79074': {}, ',78231': {}, 'IP62112': {}, ',64209': {}, 'IP19280': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP91607': {'VP': {}}, ',74989': {}, 'IP96827': {'NP': {}, 'VP': {}}, ',29789': {}, 'IP20630': {'ADVP': {}, 'VP': {}}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'VP': {}}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+我	去看	nsubj
+去看	ROOT	root
+了	去看	aux
+德加	作品	nmod
+的	德加	case
+作品	去看	obj
+，	去看	punct
+很	愉快	advmod
+愉快	去看	parataxis
+，	是	punct
+这	是	nsubj
+是	去看	parataxis
+因为	是	xcomp
+我	有	nsubj
+有	因为	ccomp
+记者	票	compound
+票	有	obj
+，	有	punct
+所以	进入	mark
+比	人	case
+一般	人	amod
+人	进入	obl
+先	进入	advmod
+进入	因为	ccomp
+展览	厅	compound
+厅	进入	obj
+----------------------------------------------------------------------
+我觉得很讨厌梵高展览，因为人太多了，（我相信你也会同意我的观点，如果你能承担得起，成为艺术机构的会员是一个不错的选择，因为那样你就可以随时随地参观展览，甚至是大热门展览）。我明白大热门展览是我们新文化体验的一部分：在这个人们很难掏钱的时代，只有备受关注的大型明星展才能让观众拿出钱来。
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (VV 觉得) (IP (VP (ADVP (RB 很)) (VP (VV 讨厌梵) (NP (ADJP (PFA 高)) (NP (NN 展览)))))))) (, ，) (IP (PP (IN 因为) (IP (NP (NN 人)) (VP (JJ 太多) (UH 了)))) (, ，) (PRN (-LRB- （) (IP (NP (PRP 我)) (VP (VV 相信) (IP (NP (PRP 你)) (VP (ADVP (RB 也)) (VP (MD 会) (VP (VV 同意) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 观点))))))))) (, ，) (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 你)) (VP (MD 能) (VP (VRD (VV 承担) (VV 得起)))))) (, ，) (NP (CP (CP (IP (VP (VV 成) (VP (VC 为) (NP (NN 艺术) (NN 机构))))) (DEC 的))) (NP (NN 会员))) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 不错))) (DEC 的))) (NP (NN 选择))))) (, ，) (PP (IN 因为) (IP (IP (ADVP (PRD 那样)) (NP (PRP 你)) (VP (ADVP (RB 就)) (VP (MD 可以) (VP (ADVP (RB 随时)) (ADVP (RB 随地)) (VP (VV 参观) (NP (NN 展览))))))) (, ，) (NP (ADVP (VC 甚至是)) (NP (NP (ADJP (JJ 大热)) (NP (SFN 门))) (NP (VV 展览)))) (-RRB- ）))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP47267': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP89277': {'PP': {}, ',': {}, 'PRN': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'PRN': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'PRN': {}}}
+Dependency Features:
+我	觉得	nsubj
+觉得	ROOT	root
+很	讨厌梵	advmod
+讨厌梵	觉得	xcomp
+高	展览	case
+展览	讨厌梵	obj
+，	相信	punct
+因为	太多	case
+人	太多	nsubj
+太多	相信	ccomp
+了	太多	discourse
+，	太多	punct
+（	太多	punct
+我	相信	nsubj
+相信	觉得	ccomp
+你	同意	nsubj
+也	同意	mark
+会	同意	aux
+同意	相信	ccomp
+我	观点	det
+的	我	case
+观点	同意	obj
+，	相信	punct
+如果	承担	case
+你	承担	nsubj
+能	承担	aux
+承担	选择	ccomp
+得起	承担	mark
+，	承担	punct
+成	会员	acl:relcl
+为	成	mark
+艺术	机构	nmod
+机构	成	obj
+的	成	mark:rel
+会员	选择	nsubj
+是	选择	cop
+一	个	nummod
+个	选择	clf
+不错	选择	amod
+的	不错	mark:rel
+选择	相信	ccomp
+，	展览	punct
+因为	参观	case
+那样	参观	obl
+你	参观	nsubj
+就	参观	mark
+可以	参观	aux
+随时	参观	advmod
+随地	参观	advmod
+参观	展览	advcl
+展览	参观	obj
+，	参观	punct
+甚至是	展览	cop
+大热	门	compound
+门	展览	obl
+展览	觉得	parataxis
+）	展览	punct
+。	觉得	punct
+----------------------------------------------------------------------
+它们对我们的艺术机构来说是经济上必要的，它们是——看起来是——令人兴奋的事件。
+
+(ROOT (IP (IP (NP (PRP 它们)) (VP (IP (VP (PP (IN 对) (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NN 艺术) (NN 机构)))) (VP (RB 来) (VP (VV 说))))) (VP (VC 是) (NP (CP (CP (IP (VP (LCP (NP (NN 经济)) (IN 上)) (VP (JJ 必要)))) (UH 的))))))) (, ，) (IP (NP (PRP 它们)) (VP (VC 是) (PRN (HYPH —) (HYPH —) (IP (VP (VRD (VV 看) (VV 起来)) (NP (CP (CP (IP (VP (VC 是) (HYPH —) (HYPH —) (VP (VV 令) (NP (NN 人)) (IP (VP (JJ 兴奋)))))) (DEC 的))) (NP (NN 事件)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP72198': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP78903': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+它	是	nsubj
+对	机构	case
+我	机构	det
+的	我	case
+艺术	机构	nmod
+机构	说	obl
+来	说	mark
+说	是	csubj
+是	ROOT	root
+经济	必要	obl
+上	经济	case
+必要	是	xcomp
+的	是	discourse
+，	事件	punct
+它	事件	nsubj
+是	事件	cop
+—	看	punct
+—	看	punct
+看	事件	acl:relcl
+起来	看	mark
+是	事件	cop
+—	令	punct
+—	令	punct
+令	事件	acl:relcl
+人	兴奋	nsubj
+兴奋	令	ccomp
+的	令	mark:rel
+事件	是	parataxis
+。	是	punct
+----------------------------------------------------------------------
+这就像电影一样：贵重的、夸张的好莱坞大片赚钱。由于成本低，小成本独立电影也能赚钱，但是，中等规模的电影已经不复存在了。
+
+(ROOT (IP (NP (PRD 这)) (VP (VP (ADVP (RB 就)) (PP (IN 像) (NP (NN 电影))) (VP (JJ 一样))) (: ：) (VP (NP (CP (CP (IP (VP (JJ 贵重))) (DEC 的))) (EC 、) (CP (CP (IP (VP (JJ 夸张))) (DEC 的))) (NP (NNP 好莱) (SFN 坞)) (NP (NN 大片))) (VP (VV 赚钱)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VP': {}, ':': {}, 'VP55362': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VP': {}, ':': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VP': {}, ':': {}, 'VP': {}}}
+Dependency Features:
+这	一样	nsubj
+就	一样	mark
+像	电影	case
+电影	一样	nmod
+一样	ROOT	root
+：	一样	punct
+贵重	大片	amod
+的	贵重	mark:rel
+、	夸张	punct
+夸张	大片	amod
+的	夸张	mark:rel
+好莱	坞	compound
+坞	大片	nmod
+大片	赚钱	nsubj
+赚钱	一样	parataxis
+。	赚钱	punct
+----------------------------------------------------------------------
+它很大，也很小，没有中间的宽度。
+
+(ROOT (IP (NP (PRP 它)) (VP (VP (JJ 很大)) (, ，) (VP (ADVP (RB 也)) (VP (JJ 很小))) (, ，) (VP (VV 没有) (NP (DNP (NP (NN 中间)) (DEC 的)) (NP (NN 宽度))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP26475': {}, ',93812': {}, 'VP10071': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+它	有	nsubj
+很大	很小	advcl
+，	很大	punct
+也	很小	mark
+很小	有	advcl
+，	很小	punct
+有	ROOT	root
+中间	宽度	nmod
+的	中间	case
+宽度	有	obj
+。	有	punct
+----------------------------------------------------------------------
+艺术也是一样的。这真是可惜。
+
+(ROOT (IP (NP (NN 艺术)) (VP (VC 也是) (NP (CP (CP (IP (VP (JJ 一样))) (UH 的))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+艺术	一样	nsubj
+是	一样	cop
+一样	ROOT	root
+的	一样	discourse
+。	一样	punct
+----------------------------------------------------------------------
+我个人发现，欣赏大师级作品有着更简单的方式。
+
+(ROOT (IP (NP (NP (PRP 我)) (NP (PRD 个人))) (VP (VV 发现) (, ，) (IP (IP (VP (VV 欣赏) (NP (NP (NN 大师)) (ADJP (SFN 级)) (NP (NN 作品))))) (VP (VV 有) (AS 着) (NP (CP (CP (IP (VP (ADVP (RB 更)) (VP (JJ 简单)))) (DEC 的))) (NP (NN 方式)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP52333': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+我	发现	nsubj
+个人	我	appos
+发现	ROOT	root
+，	有	punct
+欣赏	有	advcl
+大师	级	compound
+级	作品	nmod
+作品	欣赏	obj
+有	发现	ccomp
+着	有	aux
+更	简单	advmod
+简单	方式	amod
+的	简单	mark:rel
+方式	有	obj
+。	有	punct
+----------------------------------------------------------------------
+几个月前，我去了 Tate Britain，在永久收藏室里漫步，在 Francis Bacon 的《基督被钉十字架时的三幅人物研究》前，孤独地站了一会儿。
+
+(ROOT (IP (LCP (NP (QP (CD 几) (CLP (NNB 个))) (NP (NN 月))) (IN 前)) (, ，) (NP (PRP 我)) (VP (VP (VV 去) (AS 了) (NP (FW Tate) (FW Britain))) (, ，) (VP (PP (IN 在) (LCP (NP (ADJP (JJ 永久)) (NP (VV 收藏) (SFN 室))) (NN 里))) (VP (VV 漫步))) (, ，) (VP (PP (IN 在) (LCP (NP (DNP (NP (FW Francis) (FW Bacon)) (DEC 的)) (NP (-LRB- 《) (DNP (LCP (IP (NP (NNP 基督)) (VP (BB 被) (VP (VV 钉) (NP (NN 十字) (SFN 架))))) (IN 时)) (DEC 的)) (QP (CD 三) (CLP (NNB 幅))) (NP (NN 人物) (NN 研究)) (-RRB- 》))) (IN 前))) (, ，) (VP (VP (VV 孤独)) (VP (VV 地站) (AS 了) (QP (CD 一) (CLP (NN 会儿))))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP78215': {}, ',40362': {}, 'VP5371': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+几	个	nummod
+个	月	clf
+月	地站	nmod:tmod
+前	月	case
+，	月	punct
+我	地站	nsubj
+去	地站	advcl
+了	去	aux
+Tate	去	obj
+Britain	Tate	flat:foreign
+，	去	punct
+在	室	case
+永久	室	amod
+收藏	室	compound
+室	漫步	obl
+里	室	acl
+漫步	地站	advcl
+，	漫步	punct
+在	研究	case
+Francis	研究	nmod
+Bacon	Francis	flat:foreign
+的	Francis	case
+《	钉	punct
+基督	钉	nsubj
+被	钉	aux:pass
+钉	研究	acl:relcl
+十字	架	compound
+架	钉	obj
+时	钉	mark
+的	钉	mark:rel
+三	幅	nummod
+幅	研究	clf
+人物	研究	nmod
+研究	地站	obl
+》	研究	punct
+前	研究	case
+，	研究	punct
+孤独	地站	advcl
+地站	ROOT	root
+了	地站	aux
+一	会儿	nummod
+会儿	地站	obj
+。	地站	punct
+----------------------------------------------------------------------
+我也曾是莫奈水仙花画的唯一观众，因为我在它被拍卖前去克里斯蒂博物馆看过它。
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (ADVP (RB 也)) (ADVP (RB 曾)) (VP (VC 是) (NP (DNP (NP (NP (NNP 莫奈水) (NNP 仙)) (NP (NN 花画))) (DEC 的)) (ADJP (JJ 唯一)) (NP (NN 观众)))))) (, ，) (PP (IN 因为) (IP (NP (PRP 我)) (VP (PP (IN 在) (NP (PRP 它))) (VP (BB 被) (VP (VP (VV 拍卖)) (VP (VV 前去) (NP (NNP 克里斯蒂) (NN 博物) (SFN 馆))) (VP (VV 看过) (NP (PRP 它)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+Dependency Features:
+我	观众	nsubj
+也	观众	mark
+曾	观众	advmod
+是	观众	cop
+莫奈水	花画	nmod
+仙	花画	nmod
+花画	观众	nmod
+的	花画	mark:rel
+唯一	观众	amod
+观众	ROOT	root
+，	看过	punct
+因为	看过	case
+我	看过	nsubj
+在	拍卖	case
+它	拍卖	nsubj:pass
+被	拍卖	aux:pass
+拍卖	看过	ccomp
+前去	看过	advcl
+克里斯蒂	馆	nmod
+博物	馆	compound
+馆	前去	obj
+看过	观众	parataxis
+它	看过	obj
+。	观众	punct
+----------------------------------------------------------------------
+我从这些经历中学到了很多东西，远远超过了我从任何热播剧中学到的东西。
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (PP (IN 从) (NP (DP (DT 这些)) (NP (NN 经历)))) (VP (VRD (NN 中学) (VV 到)) (AS 了) (NP (QP (CD 很多)) (NP (NN 东西)))))) (, ，) (IP (VP (ADVP (RB 远远)) (VP (VV 超过) (AS 了) (NP (CP (CP (IP (NP (PRP 我)) (VP (PP (IN 从) (LCP (NP (DP (DT 任何)) (NP (NN 热播))) (NN 剧中))) (VP (VV 学到)))) (DEC 的))) (NP (NN 东西)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP26691': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP65779': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+我	超过	nsubj
+从	中学	case
+这些	中学	det
+经历	中学	nmod
+中学	到	obl
+到	超过	advcl
+了	到	aux
+很多	东西	nummod
+东西	到	obj
+，	到	punct
+远远	超过	advmod
+超过	ROOT	root
+了	超过	aux
+我	学到	nsubj
+从	剧中	case
+任何	剧中	det
+热播	剧中	nmod
+剧中	学到	obl
+学到	东西	acl:relcl
+的	学到	mark:rel
+东西	超过	obj
+。	超过	punct
+----------------------------------------------------------------------
+CSS 当然，你说得很对，当你独自面对一件艺术品时，经历的顺序往往会不一样。
+
+(ROOT (IP (IP (NP (FW CSS)) (ADVP (RB 当然)) (, ，) (NP (PRP 你)) (VP (VV 说) (DEV 得) (VP (JJ 很对)))) (, ，) (IP (PP (IN 当) (LCP (IP (NP (PRP 你)) (VP (ADVP (RB 独自)) (VP (VV 面对) (NP (QP (CD 一) (CLP (NNB 件))) (NP (NN 艺术) (SFN 品)))))) (IN 时))) (, ，) (NP (CP (CP (IP (VP (NN 经历))) (DEC 的))) (NP (NN 顺序))) (VP (ADVP (RB 往往)) (VP (MD 会) (VP (ADVP (RB 不)) (VP (JJ 一样)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP70499': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'ADVP': {}, ',': {}, 'NP79954': {}, 'VP': {}}, ',': {}, 'IP37785': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+CSS	说	nsubj
+当然	说	advmod
+，	当然	punct
+你	说	nsubj
+说	ROOT	root
+得	说	compound:ext
+很对	说	xcomp
+，	一样	punct
+当	面对	case
+你	面对	nsubj
+独自	面对	advmod
+面对	一样	ccomp
+一	件	nummod
+件	品	nmod
+艺术	品	compound
+品	面对	obj
+时	面对	mark
+，	面对	punct
+经历	顺序	nmod
+的	经历	case
+顺序	一样	nsubj
+往往	一样	advmod
+会	一样	aux
+不	一样	advmod
+一样	说	parataxis
+。	说	punct
+----------------------------------------------------------------------
+但这不应该削弱大型展览提供的乐趣和机会，人们为此而争相前往参观。
+
+(ROOT (IP (IP (ADVP (RB 但)) (NP (PRD 这)) (VP (ADVP (RB 不)) (VP (MD 应该) (VP (VV 削弱) (NP (CP (CP (IP (NP (ADJP (NN 大型)) (NP (NN 展览))) (VP (VV 提供))) (DEC 的))) (NP (NN 乐趣) (CC 和) (NN 机会))))))) (, ，) (IP (NP (NN 人们)) (VP (PP (IN 为) (NP (PRD 此))) (VP (RB 而) (VP (ADVP (VV 争相)) (VP (VSB (VV 前往) (VV 参观))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP46091': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP66582': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+但	削弱	mark
+这	削弱	nsubj
+不	削弱	advmod
+应该	削弱	aux
+削弱	ROOT	root
+大型	展览	nmod
+展览	提供	nsubj
+提供	乐趣	acl:relcl
+的	提供	mark:rel
+乐趣	削弱	obj
+和	机会	cc
+机会	乐趣	conj
+，	争相	punct
+人	争相	nsubj
+为	此	case
+此	争相	obl
+而	争相	mark
+争相	削弱	parataxis
+前往	争相	xcomp
+参观	前往	xcomp
+。	削弱	punct
+----------------------------------------------------------------------
+事实上，我们的梵高展览人满为患，但人满为患的原因就在于，人们在面对一幅画时，却难以产生这样的震撼。
+
+(ROOT (IP (IP (LCP (NP (NN 事实)) (IN 上)) (, ，) (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NNP 梵高)) (NP (NN 展览) (SFN 人))) (VP (ADVP (VV 满)) (VP (VC 为) (NP (NN 患))))) (, ，) (IP (ADVP (RB 但)) (NP (CP (CP (IP (NP (NN 人)) (VP (ADVP (NNP 满)) (VP (VC 为) (NP (VV 患))))) (DEC 的))) (NP (NN 原因))) (VP (ADVP (RB 就)) (VP (VV 在于) (, ，) (IP (NP (NN 人们)) (VP (PP (IN 在) (LCP (IP (VP (VV 面对) (NP (QP (CD 一) (CLP (NNB 幅))) (NP (NN 画))))) (IN 时))) (, ，) (ADVP (RB 却)) (ADVP (JJ 难)) (VP (RB 以) (VP (VV 产生) (NP (DNP (NP (PRD 这样)) (DEC 的)) (NP (NN 震撼)))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP55429': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP9831': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+事实	满	obl
+上	事实	case
+，	事实	punct
+我	人	det
+的	我	case
+梵高	人	nmod
+展览	人	compound
+人	满	nsubj
+满	ROOT	root
+为	满	mark
+患	满	obj
+，	在于	punct
+但	在于	mark
+人	满	nmod
+满	患	nsubj
+为	患	cop
+患	原因	acl:relcl
+的	患	mark:rel
+原因	在于	nsubj
+就	在于	mark
+在于	满	parataxis
+，	产生	punct
+人	产生	nsubj
+在	面对	case
+面对	产生	xcomp
+一	幅	nummod
+幅	画	clf
+画	面对	obj
+时	面对	mark
+，	面对	punct
+却	产生	mark
+难	产生	advmod
+以	产生	mark
+产生	在于	ccomp
+这样	震撼	det
+的	这样	case
+震撼	产生	obj
+。	满	punct
+----------------------------------------------------------------------
+往往，建议人们更好地与照片自己交流的人，是那些不喜欢战后艺术体验被大规模民主化的人，他们认为，很多人更喜欢一起看艺术，并且在展览中获得补充信息。
+
+(ROOT (IP (IP (ADVP (RB 往往)) (, ，) (NP (CP (CP (IP (VP (VV 建议) (NP (NN 人们)) (IP (VP (DVP (VP (JJ 更好)) (DEV 地)) (PP (IN 与) (NP (NN 照片) (PRD 自己))) (VP (VV 交流)))))) (DEC 的))) (NP (NN 人))) (, ，) (VP (VC 是) (NP (DP (DT 那些)) (CP (CP (VP (VP (ADVP (RB 不)) (VP (VV 喜欢) (NP (NN 战后) (NN 艺术) (VV 体验)))) (VP (BB 被) (VP (NP (ADJP (PFA 大)) (NP (NN 规模))) (VP (VSB (NN 民主) (SFV 化)))))) (DEC 的))) (NP (NN 人))))) (, ，) (IP (NP (PRP 他们)) (VP (VV 认为) (, ，) (IP (NP (QP (CD 很多)) (NP (NN 人))) (VP (ADVP (RB 更)) (VP (VV 喜欢) (IP (VP (VP (ADVP (NN 一起)) (VP (VV 看) (NP (NN 艺术)))) (, ，) (RB 并且) (VP (PP (IN 在) (LCP (NP (NN 展览)) (IN 中))) (VP (VV 获得) (NP (NN 补充) (NN 信息))))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP36605': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, ',57263': {}, 'VP': {}}, ',': {}, 'IP40921': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+往往	建议	advmod
+，	往往	punct
+建议	ROOT	root
+人	更好	nsubj
+更好	交流	advmod
+地	更好	mark:adv
+与	照片	case
+照片	交流	obl
+自己	照片	appos
+交流	人	acl:relcl
+的	交流	mark:rel
+人	建议	obj
+，	人	punct
+是	人	cop
+那些	人	det
+不	喜欢	advmod
+喜欢	人	acl:relcl
+战后	艺术	nmod
+艺术	喜欢	obj
+体验	喜欢	ccomp
+被	化	aux
+大	规模	case
+规模	化	nmod
+民主	化	compound
+化	体验	ccomp
+的	喜欢	mark:rel
+人	建议	ccomp
+，	为	punct
+他	为	nsubj
+为	建议	parataxis
+，	获得	punct
+很多	人	nummod
+人	获得	nsubj
+更	喜欢	advmod
+喜欢	获得	advcl
+一起	看	obl
+看	喜欢	xcomp
+艺术	看	obj
+，	喜欢	punct
+并且	获得	mark
+在	展览	case
+展览	获得	obl
+中	展览	case
+获得	为	ccomp
+补充	信息	nmod
+信息	获得	obj
+。	建议	punct
+----------------------------------------------------------------------
+如果这样说不成真，那么展览也不会那么拥挤。
+
+(ROOT (IP (IP (IP (VP (ADVP (IN 如果)) (ADVP (PRD 这样)) (VP (VV 说)))) (VP (ADVP (RB 不)) (VP (VV 成真)))) (, ，) (IP (ADVP (RB 那么)) (NP (NN 展览)) (VP (ADVP (RB 也)) (VP (MD 不会) (VP (ADVP (RB 那么)) (VP (JJ 拥挤)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP45863': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, 'VP': {}}, ',': {}, 'IP88278': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+如果	说	case
+这样	说	nsubj
+说	拥挤	ccomp
+不	成真	advmod
+成真	说	xcomp
+，	说	punct
+那么	拥挤	advmod
+展览	拥挤	nsubj
+也	拥挤	mark
+会	拥挤	aux
+那么	拥挤	advmod
+拥挤	ROOT	root
+。	拥挤	punct
+----------------------------------------------------------------------
+我完全赞成艺术的民主化，我也赞成所有文化的民主化。
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (ADVP (RB 完全)) (VP (VV 赞成) (NP (DNP (NP (NN 艺术)) (DEC 的)) (NP (NN 民主) (SFV 化)))))) (, ，) (IP (NP (PRP 我)) (VP (ADVP (RB 也)) (VP (VV 赞成) (NP (DNP (NP (DP (DT 所有)) (NP (NN 文化))) (DEC 的)) (NP (NN 民主) (SFV 化)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP73290': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP78135': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+我	赞成	nsubj
+完全	赞成	advmod
+赞成	ROOT	root
+艺术	化	nmod
+的	艺术	case
+民主	化	compound
+化	赞成	obj
+，	赞成	punct
+我	赞成	nsubj
+也	赞成	mark
+赞成	赞成	parataxis
+所有	文化	det
+文化	化	nmod
+的	文化	case
+民主	化	compound
+化	赞成	obj
+。	赞成	punct
+----------------------------------------------------------------------
+我喜欢把信息放在图片旁边，否则你怎么学呢？
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (VV 喜欢) (IP (VP (BB 把) (IP (NP (NN 信息)) (VP (VV 放) (PP (VV 在) (NP (NN 图片) (NN 旁边))))))))) (, ，) (CP (IP (ADVP (VV 否则)) (NP (PRP 你)) (VP (ADVP (RB 怎么)) (VP (VV 学)))) (UH 呢)) (. ？)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'CP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'CP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'CP': {'IP': {}, 'UH': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'CP': {'IP': {}, 'UH': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'CP': {'IP': {}, 'UH': {}}}
+Dependency Features:
+我	喜欢	nsubj
+喜欢	ROOT	root
+把	信息	case
+信息	放	obl:patient
+放	喜欢	xcomp
+在	放	mark
+图片	旁边	nmod
+旁边	放	obj
+，	否则	punct
+否则	喜欢	parataxis
+你	学	nsubj
+怎么	学	advmod
+学	否则	ccomp
+呢	学	discourse
+？	否则	punct
+----------------------------------------------------------------------
+我认为，唯一能证明大型展览是观赏艺术的好方式的论据是，人群是体验的一部分。
+
+(ROOT (IP (NP (PRP 我)) (VP (VV 认为) (, ，) (IP (NP (ADJP (JJ 唯一)) (CP (CP (IP (VP (MD 能) (VP (VV 证明) (IP (NP (ADJP (NN 大型)) (NP (NN 展览))) (VP (VC 是) (NP (CP (IP (VP (VP (NN 观赏) (NP (NN 艺术))))) (DEC 的)) (ADJP (JJ 好)) (NP (NN 方式)))))))) (DEC 的))) (NP (NN 论据))) (VP (VC 是) (, ，) (IP (NP (NN 人群)) (VP (VC 是) (NP (DNP (NP (NN 体验)) (DEC 的)) (QP (CD 一)) (NP (NN 部分)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+我	为	nsubj
+为	ROOT	root
+，	部分	punct
+唯一	证明	advmod
+能	证明	aux
+证明	论据	acl:relcl
+大型	展览	nmod
+展览	方式	nsubj
+是	方式	cop
+观赏	艺术	nmod
+艺术	方式	nmod
+的	艺术	mark:rel
+好	方式	amod
+方式	证明	ccomp
+的	证明	mark:rel
+论据	部分	nsubj
+是	部分	cop
+，	论据	punct
+人群	部分	nsubj
+是	部分	cop
+体验	部分	acl:relcl
+的	体验	mark:rel
+一	部分	nummod
+部分	为	ccomp
+。	为	punct
+----------------------------------------------------------------------
+如果你能说服人们，他们在购买艺术品的时候，他们不仅仅是为了拥有艺术品，还要和很多其他人一起欣赏艺术品，这也是体验艺术的乐趣之一，那么你就没有问题了。
+
+(ROOT (IP (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 你)) (VP (MD 能) (VP (VV 说服) (NP (NN 人们)) (, ，) (IP (NP (PRP 他们)) (PP (IN 在) (NP (CP (CP (IP (VP (VP (VV 购买) (NP (NN 艺术) (SFN 品))))) (DEC 的))) (NP (NN 时候)))) (, ，) (NP (PRP 他们)) (VP (VP (ADVP (RB 不)) (ADVP (RB 仅仅)) (VP (VC 是) (PP (IN 为了) (IP (VP (VV 拥有) (NP (NN 艺术) (SFN 品))))))) (, ，) (VP (ADVP (RB 还)) (VP (MD 要) (VP (PP (IN 和) (NP (QP (CD 很多)) (DP (DT 其他)) (NP (NN 人)))) (ADVP (NN 一起)) (VP (VV 欣赏) (NP (NN 艺术) (SFN 品)))))))))))) (, ，) (NP (PRD 这)) (VP (VC 也是) (NP (DNP (NP (CP (IP (VP (NN 体验) (NP (NN 艺术)))) (DEC 的)) (NP (NN 乐趣))) (DEC 之)) (NP (CD 一))))) (, ，) (IP (ADVP (RB 那么)) (NP (PRP 你)) (VP (ADVP (RB 就)) (VP (VV 没有) (NP (NN 问题)))) (UH 了)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP99971': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP94439': {'ADVP': {}, 'NP': {}, 'VP': {}, 'UH': {}}, '.': {}}}
+{'IP': {'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'UH': {}}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, 'UH': {}}}
+Dependency Features:
+如果	说服	case
+你	说服	nsubj
+能	说服	aux
+说服	欣赏	ccomp
+人	说服	obj
+，	说服	punct
+他	时候	nmod
+在	时候	case
+购买	时候	acl:relcl
+艺术	品	compound
+品	购买	obj
+的	购买	mark:rel
+时候	欣赏	obl
+，	时候	punct
+他	欣赏	nsubj
+不	是	advmod
+仅仅	是	advmod
+是	欣赏	advcl
+为了	是	xcomp
+拥有	为了	xcomp
+艺术	品	compound
+品	拥有	obj
+，	是	punct
+还	欣赏	mark
+要	欣赏	aux
+和	人	case
+很多	人	nummod
+其他	人	det
+人	欣赏	obl
+一起	欣赏	obl
+欣赏	ROOT	root
+艺术	品	compound
+品	欣赏	obj
+，	一	punct
+这	一	nsubj
+是	一	cop
+体验	艺术	nmod
+艺术	乐趣	nmod
+的	艺术	case
+乐趣	一	acl:relcl
+之	乐趣	mark:rel
+一	有	advcl
+，	一	punct
+那么	有	advmod
+你	有	nsubj
+就	有	mark
+有	欣赏	parataxis
+问题	有	obj
+了	有	discourse
+。	欣赏	punct
+----------------------------------------------------------------------
+但我不认为这是让购票者相信的。
+
+(ROOT (IP (ADVP (RB 但)) (NP (PRP 我)) (VP (ADVP (RB 不)) (VP (VV 认为) (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (VP (VV 让) (NP (VV 购票) (SFN 者)) (IP (VP (VV 相信))))) (UH 的)))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+但	为	mark
+我	为	nsubj
+不	为	advmod
+为	ROOT	root
+这	是	nsubj
+是	为	ccomp
+让	是	xcomp
+购票	者	compound
+者	相信	nsubj
+相信	让	ccomp
+的	是	discourse
+。	为	punct
+----------------------------------------------------------------------
+我认为他们希望能够亲身体验展出的艺术，但他们往往会失望。
+
+(ROOT (IP (NP (PRP 我)) (VP (VV 认为) (IP (IP (NP (PRP 他们)) (VP (VV 希望) (NP (CP (CP (IP (VP (MD 能够) (VP (ADVP (RB 亲身)) (VP (VCD (VV 体验) (VV 展出)))))) (DEC 的))) (NP (NN 艺术))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 他们)) (VP (ADVP (RB 往往)) (VP (MD 会) (VP (JJ 失望))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+我	为	nsubj
+为	ROOT	root
+他	希望	nsubj
+希望	为	ccomp
+能够	体验	aux
+亲身	体验	advmod
+体验	希望	xcomp
+展出	艺术	acl:relcl
+的	展出	mark:rel
+艺术	体验	obj
+，	失望	punct
+但	失望	mark
+他	失望	nsubj
+往往	失望	advmod
+会	失望	aux
+失望	为	parataxis
+。	为	punct
+----------------------------------------------------------------------
+CSS 好的，我来给大家讲最后一个例子。
+
+(ROOT (IP (NP (CP (CP (IP (NP (FW CSS)) (VP (JJ 好))) (UH 的)))) (, ，) (VP (RB 我来) (VP (PP (VV 给) (NP (PRD 大家))) (VP (VV 讲) (NP (QP (ADJP (NN 最后)) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 例子)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}}, ',': {}, 'VP': {'RB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}}, ',': {}, 'VP': {'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CP': {}}}
+{'VP': {'RB': {}, 'VP': {}}}
+Dependency Features:
+CSS	好	nsubj
+好	讲	advcl
+的	好	discourse
+，	好	punct
+我来	讲	advmod
+给	讲	advcl
+大家	给	obj
+讲	ROOT	root
+最后	例子	nmod
+一	个	nummod
+个	例子	clf
+例子	讲	obj
+。	讲	punct
+----------------------------------------------------------------------
+1月21日，我们将举办大型展览，展示大卫·霍克尼的作品。
+
+(ROOT (IP (NP (CD 1) (NNB 月) (CD 21) (NNB 日)) (, ，) (NP (PRP 我们)) (VP (ADVP (RB 将)) (VP (VP (VV 举办) (NP (ADJP (NN 大型)) (NP (NN 展览)))) (, ，) (VP (VV 展示) (NP (DNP (NP (NNP 大卫) (/ ·) (NNP 霍克尼)) (DEC 的)) (NP (NN 作品)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP72539': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD71737': {}, 'NNB988': {}}, ',': {}, 'NP78229': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+1	月	nummod
+月	日	clf
+21	日	nummod
+日	展示	nmod:tmod
+，	日	punct
+我	展示	nsubj
+将	举办	advmod
+举办	展示	advcl
+大型	展览	nmod
+展览	举办	obj
+，	举办	punct
+展示	ROOT	root
+大卫	作品	nmod
+·	霍克尼	punct
+霍克尼	大卫	flat:name
+的	大卫	case
+作品	展示	obj
+。	展示	punct
+----------------------------------------------------------------------
+展览将包括 193 幅画作、素描和绘画稿本，以及一部由 18 块屏幕组成的电影。
+
+(ROOT (IP (NP (NN 展览)) (VP (ADVP (RB 将)) (VP (VV 包括) (NP (NP (QP (CD 193) (CLP (NNB 幅))) (NP (NN 画作) (EC 、) (NN 素描) (CC 和) (NN 绘画) (NN 稿本))) (, ，) (CC 以及) (NP (QP (CD 一) (CLP (NNB 部))) (CP (CP (IP (VP (PP (VV 由) (NP (QP (CD 18)) (NP (NN 块屏幕)))) (VP (VV 组成)))) (DEC 的))) (NP (NN 电影)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+展览	包括	nsubj
+将	包括	advmod
+包括	ROOT	root
+193	幅	nummod
+幅	画作	clf
+画作	包括	obj
+、	素描	punct
+素描	画作	conj
+和	稿本	cc
+绘画	稿本	nmod
+稿本	画作	conj
+，	电影	punct
+以及	电影	cc
+一	部	nummod
+部	电影	clf
+由	电影	acl:relcl
+18	块屏幕	nummod
+块屏幕	组成	nsubj
+组成	由	ccomp
+的	由	mark:rel
+电影	画作	conj
+。	包括	punct
+----------------------------------------------------------------------
+这将为观众带来与单独观赏一幅画完全不同的体验。
+
+(ROOT (IP (NP (PRD 这)) (VP (ADVP (RB 将)) (PP (IN 为) (NP (NN 观众))) (VP (VV 带来) (NP (PP (IN 与) (IP (VP (ADVP (RB 单独)) (VP (VV 观赏))))) (QP (CD 一) (CLP (NN 幅画))) (CP (CP (IP (VP (ADVP (RB 完全)) (VP (JJ 不同)))) (DEC 的))) (NP (NN 体验))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+这	带来	nsubj
+将	带来	advmod
+为	观众	case
+观众	带来	obl
+带来	ROOT	root
+与	观赏	case
+单独	观赏	advmod
+观赏	体验	xcomp
+一	幅画	nummod
+幅画	不同	obl
+完全	不同	advmod
+不同	体验	amod
+的	不同	mark:rel
+体验	带来	obj
+。	带来	punct
+----------------------------------------------------------------------
+这将是令人兴奋、吸引人且体验感强的，将完全改变你对他作为艺术家的理解。
+
+(ROOT (IP (NP (PRD 这)) (VP (VP (ADVP (RB 将)) (VP (VC 是) (NP (CP (CP (IP (IP (VP (VP (VV 令) (NP (NN 人)) (IP (VP (JJ 兴奋)))) (EC 、) (VP (VV 吸引) (NP (NN 人))))) (CC 且) (IP (NP (VV 体验)) (VP (SFN 感) (VP (JJ 强))))) (UH 的)))))) (, ，) (VP (ADVP (RB 将)) (ADVP (RB 完全)) (VP (VV 改变) (NP (CP (CP (IP (NP (PRP 你)) (VP (PP (IN 对) (NP (PRP 他))) (VP (VV 作) (PP (VC 为) (NP (NN 艺术) (SFN 家)))))) (DEC 的))) (NP (NN 理解)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VP': {}, ',': {}, 'VP54106': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+这	改变	nsubj
+将	是	advmod
+是	改变	advcl
+令	是	xcomp
+人	兴奋	nsubj
+兴奋	令	ccomp
+、	吸引	punct
+吸引	令	conj
+人	吸引	obj
+且	感	cc
+体验	感	compound
+感	人	conj
+强	令	ccomp
+的	是	discourse
+，	是	punct
+将	改变	advmod
+完全	改变	advmod
+改变	ROOT	root
+你	理解	nmod
+对	他	case
+他	作	obl
+作	理解	acl:relcl
+为	作	mark
+艺术	家	compound
+家	作	obj
+的	作	mark:rel
+理解	改变	obj
+。	改变	punct
+----------------------------------------------------------------------
+是的，会有人群。
+
+(ROOT (IP (NP (CP (CP (IP (VP (VC 是))) (UH 的)))) (, ，) (VP (MD 会) (VP (VV 有) (NP (NN 人群)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}}, ',': {}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}}, ',': {}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+是	有	advcl
+的	是	discourse
+，	是	punct
+会	有	aux
+有	ROOT	root
+人群	有	obj
+。	有	punct
+----------------------------------------------------------------------
+但我相信你能够在人群中享受这些画作。
+
+(ROOT (IP (ADVP (RB 但)) (NP (PRP 我)) (VP (VV 相信) (IP (NP (PRP 你)) (VP (MD 能够) (VP (PP (IN 在) (LCP (NP (NN 人群)) (IN 中))) (VP (VV 享受) (NP (DP (DT 这些)) (NP (NN 画作)))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+但	相信	mark
+我	相信	nsubj
+相信	ROOT	root
+你	享受	nsubj
+能够	享受	aux
+在	人群	case
+人群	享受	obl
+中	人群	case
+享受	相信	ccomp
+这些	画作	det
+画作	享受	obj
+。	相信	punct
 ----------------------------------------------------------------------

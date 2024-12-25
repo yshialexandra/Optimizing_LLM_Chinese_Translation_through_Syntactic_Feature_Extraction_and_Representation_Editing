@@ -1,0 +1,2727 @@
+[
+    {
+        "en":"This section briefly presents the Gújjolaay Eegimaa  , its speakers and its varieties .",
+        "zh":"本文简要介绍了格鲁伊霍拉伊埃吉马,其发言者及其品种。",
+        "fvec":[]
+    },
+    {
+        "en":"We also discuss aspects of the contact situation of the Eegimaa language .",
+        "zh":"我们还讨论了爱吉马语的接触情况的方面。",
+        "fvec":[]
+    },
+    {
+        "en":"This is important , because as we will show in § 6 below , some of the Eegimaa death prevention names and child - bearing names are given to Eegimaa people from other communities .",
+        "zh":"这是很重要的,因为正如我们将在下文第6段中显示的那样,一些爱吉马的预防死亡的名称和带有孩子的名称都给来自其他社区的爱吉马人。",
+        "fvec":[]
+    },
+    {
+        "en":"Eegimaa is a Jóola language spoken in the Basse Casamance area of Southern Senegal by a population estimated to be between 7,000  and 11,200 speakers  .",
+        "zh":"Eegimaa是塞內加爾南部的巴斯卡薩曼斯地區所使用的Yoola語言,估計人口為7,000至11,200人。",
+        "fvec":[]
+    },
+    {
+        "en":"Jóola languages are classified as members of Sapir ’s  BAK group of Atlantic languages of the Niger Congo language phylum .",
+        "zh":"Yoola语言被归类为萨皮尔的BAK语言集团的成员,属尼日尔-刚果语言(Niger Congo language phylum)。",
+        "fvec":[]
+    },
+    {
+        "en":"Speakers of these languages are found in the Gambia , in the former Casamance region of Southern Senegal and in Guinea Bissau .",
+        "zh":"这些语言的使用者在冈比亚,南塞内加尔的卡萨曼斯地区和几内亚比绍。",
+        "fvec":[]
+    },
+    {
+        "en":"The map in Figure 1 , taken from Ethnologue , presents the languages of Senegal .",
+        "zh":"图1中的地图,是来自Ethnologue,介绍塞内加尔的语言。",
+        "fvec":[]
+    },
+    {
+        "en":"The arrow on the map points to the Eegimaa speaking area  .",
+        "zh":"地图上的箭头指向Eegimaa语言区。",
+        "fvec":[]
+    },
+    {
+        "en":"Eegimaa is mainly spoken in Mof-Ávvi , a former kingdom of 10 villages located to the west of Ziguinchor , the capital city of the former administrative region of Casamance in the south of Senegal .",
+        "zh":"Eegimaa主要在Mof-Ávvi,一个位于西南部塞内加尔前行政区卡萨曼斯的首都Ziguinchor的10个村庄的前王国。",
+        "fvec":[]
+    },
+    {
+        "en":"Mof-Ávvi is a peninsula bordered by the Casamance River to the north , which separates it from the Jóola Búluf and Jóola Fogny areas , and to the east by the villages Brin and Djibonker , where the speakers of Kujireray and Baïnounk Gubëeher live .",
+        "zh":"莫夫-阿夫维(Mof-Ávvi)是一座半岛,北面与卡萨曼斯河(Casamance River)相邻,它与约拉布鲁夫(Joola Búluf)和约拉福尼(Joola Fogny)区分开,东面与布林(Brin)和吉博尼克(Djibonker)村(Brin and Djibonker)相邻,库吉雷雷(Kujireray)和巴伊诺恩克(Baïnounk Gubëeher)的居民居住。",
+        "fvec":[]
+    },
+    {
+        "en":"In the south , the river known as Kamobeul Bolon separates Mof-Ávvi from the Bayot speaking area , while the west side of Mof-Ávvi coincides with the homeland of the Jóola Kaasa Húluf and Jóola Kaasa Ésuulaaluʔ .",
+        "zh":"在南部,被称为卡莫贝乌尔博伦的河流将莫夫-阿夫维分离于贝奥特语区,而莫夫-阿夫维的西侧与约瓦卡萨赫鲁夫和约瓦卡萨埃苏拉阿鲁夫(Yoola Kaasa Ésuulaaluʔ)的家乡相符。",
+        "fvec":[]
+    },
+    {
+        "en":"The map in Figure 2 below , adapted from Palmeri and Gazio  , shows a very approximate location of Mof-Ávvi in relation to other neighbouring speech communities .",
+        "zh":"下图2的地图,是从帕尔默里和加西奥 adapted,显示莫夫-阿维与其他邻近的语言社区相对的非常接近的位置。",
+        "fvec":[]
+    },
+    {
+        "en":"Some of these communities will be referred to in our discussion of death prevention names in § 6 .",
+        "zh":"在讨论预防死亡的名称中,我们将提到这些社区中的某些在第6条中。",
+        "fvec":[]
+    },
+    {
+        "en":"The Eegimaa spoken in Mof-Ávvi is known by several names given by speakers of neighbouring languages .",
+        "zh":"在Mof-Ávvi中使用的Eegimaa是被一些邻国语言的使用者所命名的。",
+        "fvec":[]
+    },
+    {
+        "en":"For example , the name Kusiilay 1 ‘ the language of Essil ’ , is the name given by speakers of Kujireray to the Eegimaa language , because Essil , of which Bajjat was a district , is the village which has a border with their village .",
+        "zh":"例如,Kusiilay1(英语:Kusiilay1(英语:Kusiilay))是Essil的语言,是Kujireray的使用者给Eegimaa语言的名称,因为Essil(英语:Essil),其中Bajjat是地区,是与他们的村庄有边界的村庄。",
+        "fvec":[]
+    },
+    {
+        "en":"Endungo is the name given by Bayot speakers , but its meaning is not known .",
+        "zh":"Endungo是贝奥特语使用者所给出的名称,但其含义尚不清楚。",
+        "fvec":[]
+    },
+    {
+        "en":"Kúlaakiay , ‘ the language of village of Seleki / Sállagi ’ , is the name given by Jóola Kaasa speakers who are more familiar with the village of Seleki / Sállagi ’ than all other villages of Mof-Ávvi .",
+        "zh":"Kúlaakiay(英语:Kúlaakiay)是塞勒基/萨拉格里村的语言,是塞勒基/萨拉格里村比其他莫夫-阿夫维村更熟悉的约拉卡萨语人所命名的。",
+        "fvec":[]
+    },
+    {
+        "en":"Finally , Banjal / Bandial ‘ the language of the village of Banjal ’ , the most popular of all those names , is the name given by the Jóola Búluf and Jóola Fogny speakers to Eegimaa people and their language , because people from the village of Banjal were the first to be in contact with them .",
+        "zh":"最后,巴尼亚尔/巴尼亚尔“巴尼亚尔村的语言”,是所有这些名字中最受欢迎的,是约拉·布鲁夫和约拉·福尼对埃吉马亚人及其语言的说法,因为来自巴尼亚尔村的人们是第一个与他们接触的。",
+        "fvec":[]
+    },
+    {
+        "en":"Village names are written using their usual spelling .",
+        "zh":"村庄的名字是用他们通常的拼写写写的。",
+        "fvec":[]
+    },
+    {
+        "en":"The Ethnologue language codes are provided for language varieties that have them .",
+        "zh":"Ethnologue语言代码为有它们的语言种类提供。",
+        "fvec":[]
+    },
+    {
+        "en":"Language names are written following the recommendation for the transcription of national languages of Senegal , Decree 2005-981 .",
+        "zh":"语言名称是根据《2005-981号法令》对塞内加尔国家语言的转录的建议编写的。",
+        "fvec":[]
+    },
+    {
+        "en":"Names of the villages of Mof-Ávvi are written using the Eegimaa orthography and following the pronunciation of village names by native speakers .",
+        "zh":"莫夫-阿夫维村庄的名称是用埃吉马语法编写的,并根据当地人所发音的村庄名称。",
+        "fvec":[]
+    },
+    {
+        "en":"Jóola language varieties which are closely related to Eegimaa include Kujireray / Kuluunaay  and Gufiñamay  ) .",
+        "zh":"与Eegimaa密切相关的Yoola语言品种包括Kujireray / Kuluunaay和Gufiñamay)。",
+        "fvec":[]
+    },
+    {
+        "en":"Gútaamay  , Gulapaoray  and Gusiilay  from the village of Thionk Essil are also other languages related to Eegimaa .",
+        "zh":"Gútaamay 、 Gulapaoray 和 Gusiilay 来自 Thionk Essil 的村庄也是与Eegimaa 有关的其他语言。",
+        "fvec":[]
+    },
+    {
+        "en":"They are located north of the Casamance River in the Jóola Búluf area .",
+        "zh":"它们位于卡萨曼斯河以北约拉布鲁夫地区。",
+        "fvec":[]
+    },
+    {
+        "en":"There are also small migrant Eegimaa communities in villages like Djifanghor  and in Bourofaye  , where they cohabit with speakers of Baïnounk languages .",
+        "zh":"还有少数移民的埃吉马亚社区在诸如吉芳霍尔和博罗法耶的村庄,他们与巴恩努克语的使用者共同生活。",
+        "fvec":[]
+    },
+    {
+        "en":"Nowadays most Eegimaa speakers from Mof-Ávvi live outside their homeland , generally in urban areas like Ziguinchor and Dakar .",
+        "zh":"如今,大多数来自莫夫-阿夫维的埃吉马语 speakers live outside their homeland, generally in urban areas like Ziguinchor and Dakar 。",
+        "fvec":[]
+    },
+    {
+        "en":"Speakers of Eegimaa use the term Gújjolaay  to refer to their language when they speak to each other , but Eegimaa to distinguish their Jóola variety from that of other Jóola peoples .",
+        "zh":"埃吉马亚语的使用者使用Gújjolaay这个词来表示他们彼此说话时的语言,但埃吉马亚语用来区分他们的Yoola不同于其他Yoola民族的语言。",
+        "fvec":[]
+    },
+    {
+        "en":"Eegimaa is an endangered language whose transmission to new generations has been declining significantly in the last decades .",
+        "zh":"埃吉马亚语是一种濒临灭绝的语言,其传染给新代的数量在过去几十年中已大幅下降。",
+        "fvec":[]
+    },
+    {
+        "en":"It is important to understand the contact situation of Eegimaa , because some of the ritual names analysed in this paper come from other languages or from neighbouring communities .",
+        "zh":"重要的是了解爱吉马的接触情况,因为本文分析的某些仪式名称来自其他语言或邻近社区。",
+        "fvec":[]
+    },
+    {
+        "en":"These names are given either in Eegimaa or in a different language .",
+        "zh":"这些名字是以埃吉马语或另一种语言给出的。",
+        "fvec":[]
+    },
+    {
+        "en":"A fundamental tenet of linguistic science is that the sound of a word has a purely arbitrary connection to the word 's meaning  ,  .",
+        "zh":"语言科学的一个基本原则是,单词的音声与单词的含义有着完全任意的联系。",
+        "fvec":[]
+    },
+    {
+        "en":"Thus , the sound of the word dog in English is connected to the concept ‘ dog ’ by historical accident and not by any natural connection ; roughly the same concept is just as well denoted in French by chien , in German by hund , and in Japanese by inu .",
+        "zh":"因此,英文“狗”这个词的音源与“狗”这个概念是由于历史意外而联系的,而不是任何自然的联系;在法语中“狗”这个概念,在德语中“狗”这个概念,在日语中“犬”这个概念,也是同样的。",
+        "fvec":[]
+    },
+    {
+        "en":"But it is not that a word can have just any vocal sound .",
+        "zh":"但并不是单单词能产生任何声响。",
+        "fvec":[]
+    },
+    {
+        "en":"While the possibility space for sound systems of the world 's language is enormous , any given language makes use of only a restricted portion of the possible sounds  ,  .",
+        "zh":"虽然世界语言的音频系统空间是巨大的,但任何语言只使用有限的可能的音频部分。",
+        "fvec":[]
+    },
+    {
+        "en":"It follows from these two basic principles – the ‘ arbitrariness of the sign ’ , and the ‘ selectiveness of particular sound systems ’ – that the words that exist in the world 's languages should sound quite different from each other , and that the likelihood that there are universal words is extremely small .",
+        "zh":"从这两个基本原则 — — “ 标志的任意性 ” 和 “ 特定声音系统的选择性 ” — — 得出的结论是,在世界语言中存在的词汇应该听起来非常不同,而且存在普遍词汇的可能性非常小。",
+        "fvec":[]
+    },
+    {
+        "en":"But in this study we present a striking exception to this otherwise robust rule .",
+        "zh":"但在这项研究中,我们提出了一个引人注目的例外。",
+        "fvec":[]
+    },
+    {
+        "en":"From a systematic comparison of 10 spoken languages from 5 continents we find evidence suggesting that a word like ‘ Huh ? ’ – used as a ‘ repair initiator ’ when , for example , one has not clearly heard what someone just said  ,  – is a universal word .",
+        "zh":"通过对5个大陆的10种语言进行系统比较,我们发现有证据表明,像“哈?”这样的单词 — — 被用作“修补启动者 ” — — 例如,人们还没有清楚地听到某人刚才所说的, — — 是通用的单词。",
+        "fvec":[]
+    },
+    {
+        "en":"There are two distinct claims being made here : 1. that Huh ? is universal , and 2. that Huh ? is a word .",
+        "zh":"这里有两种不同的说法: 1. 是 是 普遍的, 2. 是 单词的 。",
+        "fvec":[]
+    },
+    {
+        "en":"In support of the first claim , we show that the similarities in form and function of an interjection with the specific function of repair initiation are very much greater across languages than chance coincidence would admit .",
+        "zh":"为了支持第一个说法,我们证明了干涉与修补启动的具体功能形式和功能的相似性在语言中比偶然的巧合所承认的要大得多。",
+        "fvec":[]
+    },
+    {
+        "en":"In fact the variation in form in unrelated languages across the globe is about the same as the variation we find in the way any regular word  is pronounced across dialects of English .",
+        "zh":"事实上,世界各地的无关语言形式的变异与我们发现在任何普通单词在英语方言中发音的方式的变异大致相同。",
+        "fvec":[]
+    },
+    {
+        "en":"In support of the second claim , we show that Huh ? meets the criteria of a word in the sense of being a conventional lexical sign which must be learnt .",
+        "zh":"为了支持第二个说法,我们证明: 哈? 符合一个词的标准,即是一个必须学会的传统词汇符号。",
+        "fvec":[]
+    },
+    {
+        "en":"Thus , in contrast to what has been presumed for interjections in general  ,  and for huh ? in particular  ,  , we find that this item is linguistic in nature rather than being a mere grunt or non-lexical sound .",
+        "zh":"因此, 与 一般 的 插词 、 特别是 的 胡 、 相比, 我们 发现 这个 项目 的 性质 是 语言性 的, 而不是 仅仅 是 口音 或 非 语言性 的 声音 。",
+        "fvec":[]
+    },
+    {
+        "en":"We show that the form is locally calibrated in ways that show it fitting within different language systems .",
+        "zh":"我们证明该形式是局部校正的方式显示它适合于不同的语言系统。",
+        "fvec":[]
+    },
+    {
+        "en":"Huh ? may be a non-prototypical word , but it is a word .",
+        "zh":"也许是一个不典型词,但它是一个词。",
+        "fvec":[]
+    },
+    {
+        "en":"Finally , we address the question of why all languages should have such a word and why its form should be so similar across languages .",
+        "zh":"最后,我们讨论了为什么所有语言都应该有一个这样的词,为什么它的形式在各个语言中都应该如此相似。",
+        "fvec":[]
+    },
+    {
+        "en":"We observe that this item fulfils a crucial need shared by all languages – the efficient signalling of problems of hearing and understanding – and we propose that its form is constrained by selective pressures in a conversational environment that is essentially the same in all languages .",
+        "zh":"我们注意到这一项目满足了所有语言共同关心的一个关键的需要 — — 有效信号听力和理解问题 — — 并建议在所有语言基本相同的对话环境中,其形式受到选择性压力的限制。",
+        "fvec":[]
+    },
+    {
+        "en":"Consider a case from English  :",
+        "zh":"以英语为例:",
+        "fvec":[]
+    },
+    {
+        "en":"After speaker G makes a statement , speaker E utters the interjection huh ? .",
+        "zh":"在 G 发言后, E 发言者发出插嘴 huh? 。",
+        "fvec":[]
+    },
+    {
+        "en":"This is followed by a repetition of the original statement by G .",
+        "zh":"接着,G重复了原文的陈述。",
+        "fvec":[]
+    },
+    {
+        "en":"The technical term for this type of sequence is “ open other - initiated repair ” :",
+        "zh":"这种类型的序列的术语是“ 开放的 其他 开始的修补 ” :",
+        "fvec":[]
+    },
+    {
+        "en":"repair is initiated not by the speaker of the first turn but by the other participant  , and the repair initiator signals that there is a problem , but it leaves open what the problem is   .",
+        "zh":"修补不是由第一轮的发言者启动的,而是由另一位参与者启动的,而修补启动器信号表示存在问题,但它仍不透露问题是什么。",
+        "fvec":[]
+    },
+    {
+        "en":"The actual repair operation in response to this interjection is usually simply repetition , sometimes with slight modification .",
+        "zh":"实际的修补操作通常是简单地重复,有时有轻微的修改。",
+        "fvec":[]
+    },
+    {
+        "en":"Extracts 2 and 3 show structurally identical sequences in two other languages : Siwu , a Kwa language spoken in Ghana , and Lao , a Tai - Kadai language spoken in Laos .",
+        "zh":"摘录2和3显示其他两个语言的结构相同序列: 西乌语, 是加纳的夸语, 拉奥语, 是老挝的泰卡迪语.",
+        "fvec":[]
+    },
+    {
+        "en":"These examples show that it is possible to identify the same conversational structure in unrelated languages .",
+        "zh":"这些例子表明,在没有关联的语言中,可以识别相同的对话结构。",
+        "fvec":[]
+    },
+    {
+        "en":"Essentially , this method gives us a natural control over conversational data , making possible systematic comparison across languages  ,  .",
+        "zh":"基本上,这种方法使我们能够自然地控制对话数据,使语言间的系统比较成为可能。",
+        "fvec":[]
+    },
+    {
+        "en":"Sequences of other - initiated repair have been identified in every spoken language investigated so far  ,  , and as the examples show , the interjection in the pivotal turn can be remarkably similar .",
+        "zh":"在所有迄今研究的语言中,已经确定了其他启动的修补的序列,并且正如例子所显示的那样, pivotal转动中的插射可以非常相似。",
+        "fvec":[]
+    },
+    {
+        "en":"This leads to the question driving our study :",
+        "zh":"这导致了我们研究的主要问题:",
+        "fvec":[]
+    },
+    {
+        "en":"is huh ? in this context a universal word ?",
+        "zh":"在这个上下文中,是普遍的吗?",
+        "fvec":[]
+    },
+    {
+        "en":"By compiling data from published literature we found that in thirty - one languages around the world , the interjection for other - initiated repair appears to be strongly similar  .",
+        "zh":"通过从出版文献中收集数据,我们发现,在全世界的31种语言中, 其他开始的修补的干预似乎非常相似.",
+        "fvec":[]
+    },
+    {
+        "en":"However , written sources are rarely explicit about the precise form , meaning , and use of interjections .",
+        "zh":"然而,书面来源很少明确了插头的准确形式、意义和使用。",
+        "fvec":[]
+    },
+    {
+        "en":"The most reliable way to study a conversational interjection is by examining cases of actual use .",
+        "zh":"研究口语插嘴的最可靠方法是通过研究实际使用的情况。",
+        "fvec":[]
+    },
+    {
+        "en":"Therefore we collected data from recordings of naturally occurring informal conversations in a sample of 10 languages from 5 continents , varying fundamentally in terms of phonology , word structure , and grammar  .",
+        "zh":"因此,我们从5个大陆的10种语言的样本中收集了自然发生的非正式对话的记录数据,这些数据在语音、词汇结构和语法方面基本不同。",
+        "fvec":[]
+    },
+    {
+        "en":"For optimal comparability , we studied the exact same conversational environment across languages : that of other - initiated repair  , in which one participant produces a turn at talk , the other then signals some trouble with this turn , and finally the first produces a next turn which aims to solve the trouble , usually by means of repetition and / or modification .",
+        "zh":"为了达到最佳的可比较性,我们研究了语言间的对话环境: 即其他启动的修补环境,其中一个参与者在谈话中产生转折,另一个则与这个转折产生一些问题,最后第一个产生下一轮,目的是解决问题,通常通过重复和/或修改。",
+        "fvec":[]
+    },
+    {
+        "en":"In some languages the interjection , or an item similar to it , was also found in other sequential environments , for instance to mark surprise or to pursue a response .",
+        "zh":"在某些语言中,插头,或类似的物品,也出现在其他序列环境中,例如标记惊喜或追寻响应。",
+        "fvec":[]
+    },
+    {
+        "en":"Such alternative  uses provide insight in possible paths of semantic change , but we exclude them here to make sure we are comparing like with like .",
+        "zh":"这种替代用途提供了可能的语义变化路径的洞察力,但我们在这里排除它们,以确保我们与同类进行比较。",
+        "fvec":[]
+    },
+    {
+        "en":"Today ’s generation will not survive a day without the help of lighting .",
+        "zh":"当今的一代没有灯光就能生存一天。",
+        "fvec":[]
+    },
+    {
+        "en":"In fact , someone ’s productivity , particularly at night , depends on the presence of a good lighting and it seems that it is a daily necessity .",
+        "zh":"事实上,一个人的生产力,特别是在夜间,取决于有好的照明,这似乎是日常生活必需品。",
+        "fvec":[]
+    },
+    {
+        "en":"Lighting takes a large part on the consumption of household electrical energy particularly in the Philippines .",
+        "zh":"灯光在家庭电能消费中占很大比例,特别是在菲律宾。",
+        "fvec":[]
+    },
+    {
+        "en":"There are different type of lighting bulbs used at home can affect the overall lighting consumption .",
+        "zh":"家庭使用的不同类型的灯泡会影响照明的整体消费。",
+        "fvec":[]
+    },
+    {
+        "en":"Nowadays , most commonly and widely used bulb in the household is the Compact Fluorescent Light  .",
+        "zh":"如今, 家庭用最常用的灯泡是小型荧光灯.",
+        "fvec":[]
+    },
+    {
+        "en":"However , the main problem of CFL is the mercury they contain .",
+        "zh":"然而,CFL的主要问题是它们含有的汞。",
+        "fvec":[]
+    },
+    {
+        "en":"In addition to this is the harmful effect of mercury such as Emission of UV Radiation .",
+        "zh":"除此之外,还有汞的有害影响,如紫外辐射的排放。",
+        "fvec":[]
+    },
+    {
+        "en":"In response to the said problem , this project study gives solution to the problem of the society concerning environment , health and safety as well energy conservation , by developing a segmented compact light - emitting diode  bulb from busted CFL that are efficient , economical , and does not contain toxic chemicals .",
+        "zh":"针对上述问题,本文通过开发一种高效、经济、不含有毒化学物质的分段小型光发射二极管灯,为社会环境、健康、安全及节能问题提供解决方案。",
+        "fvec":[]
+    },
+    {
+        "en":"Based on the results of the 2011 Household Energy Consumption Survey  , electricity remains as the most common source of energy used by households particularly in the Philippines .",
+        "zh":"根据2011年家庭能源消费调查的结果,电力仍然是家庭使用的最常见的能源来源,特别是在菲律宾。",
+        "fvec":[]
+    },
+    {
+        "en":"About 87 percent of 21.0 million households used electricity from March to August 2011 .",
+        "zh":"从2011年3月到8月,约87%的21.0百万家庭使用了电力。",
+        "fvec":[]
+    },
+    {
+        "en":"As of 2016 , the demand for electricity in the residential is leading among the different sectors .",
+        "zh":"截至2016年,住宅电力需求在不同行业中领先。",
+        "fvec":[]
+    },
+    {
+        "en":"It is often grouped depending on its uses that are distributed for heating and cooling , lighting , operating appliances etc",
+        "zh":"它通常按其用于供暖和冷却、照明、操作设备等用途分类",
+        "fvec":[]
+    },
+    {
+        "en":"Now that the world is in the age where lighting seems to be a daily necessity , typical homes as shown in figure 1 , consume nearly 27 percent of the energy used today : making lighting as the major source of electricity consumption .",
+        "zh":"如今,世界上灯光似乎是日常必需品的年代,像图1所示,典型的家庭消耗了近27%的能源:使灯光成为电力消费的主要来源。",
+        "fvec":[]
+    },
+    {
+        "en":"Lighting plays a large part on the consumption of household electrical energy ; it consumes about 18 % of the total generated electricity of total energy consumption in residential sectors as shown in figure 2  .",
+        "zh":"灯具在家庭电能消费中起着重要的作用;如图2所示,灯具在住宅部门的总能源消费中占总发电量约18 % 。",
+        "fvec":[]
+    },
+    {
+        "en":"One of the main factors in lighting energy consumption is the light bulb .",
+        "zh":"照明能源消耗的主要因素之一是灯泡。",
+        "fvec":[]
+    },
+    {
+        "en":"The use of correct and appropriate type of light bulb improves the efficiency of energy usage .",
+        "zh":"使用正确的和合适的类型的灯泡能提高能源使用效率。",
+        "fvec":[]
+    },
+    {
+        "en":"There are three general types of lighting that are widely used in the household nowadays : the  LED bulb ,  CFL bulb and the incandescent bulb .",
+        "zh":"有三种一般类型的照明在家庭广泛使用:LED灯泡、CFL灯泡和candescent灯泡。",
+        "fvec":[]
+    },
+    {
+        "en":"But each of them has their perks and perils  .",
+        "zh":"但他们每个人都有自己的优势和危险。",
+        "fvec":[]
+    },
+    {
+        "en":"Unfortunately , most of the time , people in the residential end up choosing a lamp based on it is price rather than its efficiency and this cause us to pay for our lighting more than necessary .",
+        "zh":"不幸的是,大多数时候,人们在住宅最终选择一种基于它的价格而不是它的效率的灯光,这导致我们花更多的钱购买我们的灯光。",
+        "fvec":[]
+    },
+    {
+        "en":"Today , CFLs are the most used lighting sources in the household .",
+        "zh":"如今,CFL是家庭最常用的照明源。",
+        "fvec":[]
+    },
+    {
+        "en":"Using CFLs will allow people to decrease their energy consumption ; also it is a good start to decrease greenhouse emissions .",
+        "zh":"使用CFL将使人们减少能源消耗,同时也是减少温室气体排放的良好开始。",
+        "fvec":[]
+    },
+    {
+        "en":"However , the main problem of CFLs is the mercury they contain .",
+        "zh":"然而,CFL的主要问题是它们含有的汞。",
+        "fvec":[]
+    },
+    {
+        "en":"When products and wastes containing mercury are improperly disposed of , mercury is released into the air , ground or water .",
+        "zh":"当含有汞的产品和废物被不适当地处置时,汞会释放到空气、地下或水中。",
+        "fvec":[]
+    },
+    {
+        "en":"It is persistent in the environment ; it never breaks down nor goes away .",
+        "zh":"它在环境中是持久的; 它永远不会崩溃或消失.",
+        "fvec":[]
+    },
+    {
+        "en":"In addition to the harmful effects of mercury is that it emits Ultraviolet  Radiation .",
+        "zh":"汞除有害影响外,还会产生紫外辐射。",
+        "fvec":[]
+    },
+    {
+        "en":"This UV radiation interacts with the chemicals on the inside of the bulb to generate light .",
+        "zh":"这种紫外线辐射与灯泡内部的化学物质相互作用,产生光。",
+        "fvec":[]
+    },
+    {
+        "en":"The acute and chronic effects are the normal responses of the skin to UVR ; acute reactions considered will be erythema  and vitamin D production .",
+        "zh":"急性及慢性反应是皮肤对UVR的正常反应; 急性反应将是白血病和维生素D的产生。",
+        "fvec":[]
+    },
+    {
+        "en":"Skin aging and skin cancer will be discussed as those reactions produced by prolonged or repeated UVR exposure  .",
+        "zh":"皮肤老化和皮肤癌将被讨论为 prolonged or repeated UVR暴露所产生的反应。",
+        "fvec":[]
+    },
+    {
+        "en":"In response to the aforementioned situation where the three types of lights are compared by their efficiency and effectiveness as light sources , the proponents conducted this study .",
+        "zh":"针对上述三种灯具的效率和光源效率的比较,提出者进行了这项研究。",
+        "fvec":[]
+    },
+    {
+        "en":"Since the CFLs are the most commonly used light bulbs in the residential and has a great compatibility to LED in terms of design and materials , the proponents conducted a study about innovating and recycling CFL into a more efficient and environment friendly LED light bulb .",
+        "zh":"由于CFL是住宅中最常用的灯泡,在设计和材料方面对LED具有极大的兼容性,提案者对创新和回收CFL成为更高效、更环保的LED灯泡进行了研究。",
+        "fvec":[]
+    },
+    {
+        "en":"We have shown that the addition of an artificial tail during ontogeny can produce postural and locomotory changes in chickens , consistent with the posture and kinematics inferred for non-avian dinosaurs  ,  ,  .",
+        "zh":"我们已经证明,在生化过程中添加人工尾巴可以产生鸡的姿态和运动变化,符合非鸟类恐龙所推断的姿态和运动学。",
+        "fvec":[]
+    },
+    {
+        "en":"The posterior displacement of the CoM produced a more vertically oriented femur during standing  , and increased femoral retraction and decreased knee flexion during walking .",
+        "zh":"腰椎后位移使腰椎在站立时更垂直,腰椎收缩增加,腰椎在走路时的弯曲减少。",
+        "fvec":[]
+    },
+    {
+        "en":"These results indicate a shift from the standard bird , knee - driven bipedal locomotion to a more hip - driven locomotion , typical of crocodilians  , mammals , and hypothetically , bipedal non-avian dinosaurs .",
+        "zh":"这些结果表明,从标准的鸟类,双脚驱动的双脚运动转变为更强的臀部驱动的双脚运动,这是典型的鳄鱼, 哺乳动物, 以及假设的, 双脚非鸟类恐龙.",
+        "fvec":[]
+    },
+    {
+        "en":"These postural and kinematics changes can not be attributed to an increased weight as subjects of the control - weight group did not show the same changes as the experimental group .",
+        "zh":"这些姿态和运动变化不能归因于体重增加,因为控制体重组的实验组没有表现出与实验组相同的变化。",
+        "fvec":[]
+    },
+    {
+        "en":"In fact , the control - weight subjects showed a more horizontally oriented femur during walking with respect to the control group , similar to that observed in Carrano and Biewener 's experimental subjects  .",
+        "zh":"事实上, 控制体重的实验对象在走路时显示了较水平的腿部,与卡拉诺和比维斯纳的实验对象相似.",
+        "fvec":[]
+    },
+    {
+        "en":"Therefore , we conclude that the location of the CoM can be a key factor in defining limb posture and kinematics .",
+        "zh":"因此,我们认为坐标定位是确定肢体姿态和运动学的关键因素。",
+        "fvec":[]
+    },
+    {
+        "en":"It has been proposed that the relative mass of the CFL can be used as a proxy to estimate the relative importance of femoral retraction during locomotion in extinct bipedal dinosaurs  .",
+        "zh":"研究表明,CFL的相对质量可以作为代数来估计灭绝双脚恐龙在运动过程中的肢体退缩的相对重要性。",
+        "fvec":[]
+    },
+    {
+        "en":"Our data show that for a given CFL mass , femoral retraction can be greatly affected by the location of the CoM and limb postures .",
+        "zh":"我们的数据表明,对于一个特定的CFL质量,腰椎收缩可能受到CoM位置和肢体姿态的影响很大。",
+        "fvec":[]
+    },
+    {
+        "en":"Furthermore , limb retraction can be markedly modulated with speed  , suggesting caution when using simple morphological parameters to estimate functional relationships .",
+        "zh":"此外,肢体收缩可以随着速度显著地调制,提示使用简单的形态参数来估计功能关系时要小心。",
+        "fvec":[]
+    },
+    {
+        "en":"Differences in limb orientation can produce substantial differences in loading regimes on limb bones .",
+        "zh":"肢体定位的差异可能导致肢体骨头的负载方式发生重大差异。",
+        "fvec":[]
+    },
+    {
+        "en":"The orientation of each limb element to the ground reaction force  indicates the relative contribution of axial and bending forces to external bone loading : a bone perpendicular to the GRF is expected experience greater bending forces than one parallel to the GRF .",
+        "zh":"每个肢体元素向地面反应力的方向表明轴向和弯曲力对外骨负荷的相对贡献:对GRF垂直的骨体应经历比GRF平行的骨体更大的弯曲力。",
+        "fvec":[]
+    },
+    {
+        "en":"Because bone adapts to its loading environment  ,  ,  , geometric information from limb bones , such as lengths and cross-sectional geometry , are expected to reflect differences in loading regimes and consequently in behavior and locomotor patterns  ,  .",
+        "zh":"由于骨头适应其载荷环境,所以从肢体骨头的几何信息,如长度和截面几何,预计会反映载荷方式的差异,从而反映行为和运动模式的差异。",
+        "fvec":[]
+    },
+    {
+        "en":"In this framework , scaling differences in femoral geometry between non-avian theropods and birds have been suggested to be the result of postural differences between these groups  ,  .",
+        "zh":"在这一框架中,非鸟类恐龙和鸟类的足形几何上的尺度差异被认为是这些群体的姿态差异的结果。",
+        "fvec":[]
+    },
+    {
+        "en":"Birds have relatively shorter , stouter femora than non-avian theropods , presumed to be associated with more horizontal orientation .",
+        "zh":"鸟类的雌性比非鸟类的雌性较短,雌性比非鸟类的雌性较长,被认为是具有较水平的定位。",
+        "fvec":[]
+    },
+    {
+        "en":"Experimental manipulations of femoral orientation in chickens suggest that torsional loads increase as the femur becomes more horizontal  supporting the idea that postural differences could be reflected in differences in limb cross-sectional geometry .",
+        "zh":"实验研究表明,在鸡身上的股骨定位上,随着股骨的水平化,扭曲负荷增加,从而支持 postural differences could be reflected in differences in limb cross-sectional geometry 。",
+        "fvec":[]
+    },
+    {
+        "en":"To test if the postural differences observed in this study produced changes in limb morphology , we measured the length and mid-shaft cross-sectional properties of the femur in all our individuals .",
+        "zh":"为了测试本研究所观察的姿态差异是否产生肢体形态的变化,我们测量了所有个体的股骨的长度和中轴横断特性。",
+        "fvec":[]
+    },
+    {
+        "en":"However , we found no differences in cross-sectional femoral geometry among groups .",
+        "zh":"然而,我们没有发现群体间断裂性股骨几何的差异。",
+        "fvec":[]
+    },
+    {
+        "en":"Maybe this is not surprising considering that a recent study analyzing the relationship between posture and femur cross-sectional properties failed to find differences between birds and non-avian theropods  , suggesting that simple morphological correlates of limb posture should be used with caution .",
+        "zh":"也许这并不令人惊讶,因为最近的一项分析姿态与股骨横断特性的关系研究未能发现鸟类和非鸟类恐龙之间的差异,这表明肢体姿态的简单形态相关性应谨慎地使用。",
+        "fvec":[]
+    },
+    {
+        "en":"Interestingly , femur length tended to be greater in the experimental group than in both the control - weight and the control group  , although not signifcant .",
+        "zh":"有趣的是, 实验组的阴茎长度比控制组和控制组的长度大, 虽然并不显著.",
+        "fvec":[]
+    },
+    {
+        "en":"Longer limbs are expected to experience larger bending and torsional moments , so the fact that experimental animals had longer femora suggests that limb verticalization reduces these moments by orienting the bone more parallel to the GRF line of action .",
+        "zh":"较长的肢体预计会经历较大的弯曲和扭矩,因此实验动物具有较长的股骨的事实表明,肢体垂直化通过将骨头更平行地定位于GRF行动线,减少了弯曲和扭矩。",
+        "fvec":[]
+    },
+    {
+        "en":"If this were the case , it would support the idea that non-avian theropods have relatively thinner femora than extant birds because of postural differences  .",
+        "zh":"如果这样的话,这将支持非鸟类恐龙由于其姿态不同而比现存的鸟类有相对较薄的雌性。",
+        "fvec":[]
+    },
+    {
+        "en":"The present study was inspired by Carrano &amp; Biewener  but our results differed markedly from theirs .",
+        "zh":"本研究是由卡拉诺和比维耶纳(Carrano&Biewener)的启发,但我们的结果与他们的结果有很大的不同。",
+        "fvec":[]
+    },
+    {
+        "en":"We suggest that the different outcomes are due to the distinct rearing and exercising conditions used in each study , in addition to the different artificial tails used .",
+        "zh":"我们建议,不同的结果是由于在每次研究中使用的不同养育和运动条件,以及不同的人工尾巴。",
+        "fvec":[]
+    },
+    {
+        "en":"First , our experimental subjects lived in a large enclosure under conditions that allowed them to exercise all day long .",
+        "zh":"首先,我们的实验对象生活在一个大屋子里,在 conditions that allowed them to exercise all day long。",
+        "fvec":[]
+    },
+    {
+        "en":"In Carrano &amp; Biewener 's study , experimental chickens were housed individually in smaller cages and were only allowed to exercise 20 minutes per day , 3 days per week , from the 6th to the 12th week .",
+        "zh":"在卡拉诺和比维耶纳的研究中,实验鸡被单独安置在较小的笼子里,只允许每天锻炼20分钟,每周3天,从第六到十二周。",
+        "fvec":[]
+    },
+    {
+        "en":"Second , in their study , a lead mass was attached at the distal end of the experimental tail , probably generating excessive displacement of the CoM .",
+        "zh":"其次,在他们的研究中,在实验尾巴的远端安装了铅质,可能造成了CoM的过度位移。",
+        "fvec":[]
+    },
+    {
+        "en":"During avian evolution , the loss of the CFL and reorganization of the pelvic musculature  ,  could have made birds unable to properly carry a postacetabular mass equivalent to that carried by non-avian theropods  ,  .",
+        "zh":"在鸟类进化过程中,CFL的损耗和骨盆肌肉的重组,可能使鸟类无法正确地携带与非鸟类特罗波德所携带的同等的邮筒体质量。",
+        "fvec":[]
+    },
+    {
+        "en":"In our experimental setup , we attempted to more closely mimic non-avian theropod tail morphology , in which mass is distributed through a distally tapering tail .",
+        "zh":"在我们的实验装置中,我们试图更密切地模仿非鸟类恐龙尾巴形态学,在这种形态学中,物体通过不稳定的尾巴分布。",
+        "fvec":[]
+    },
+    {
+        "en":"In addition , we reduced the total tail mass to 15 % body mass from the 20 % body mass used by Carrano and Biewener .",
+        "zh":"此外, 我们从卡拉诺和比维耶纳所使用的20%的尾巴质量中降低了尾巴总质量到15%的体质.",
+        "fvec":[]
+    },
+    {
+        "en":"Thus , our study seems to have generated a more gradual and less pronounced change in the moment of inertia produced by the artificial tail , allowing experimental subjects to adjust to the posterior mass by adopting a more vertical position of the femur while standing .",
+        "zh":"因此,我们的研究似乎在人工尾巴产生的惯性时产生更渐进和更不明显的变化,使实验对象通过在站立时采取更垂直的腿部位置来适应后部质量。",
+        "fvec":[]
+    },
+    {
+        "en":"Interestingly , the femur kinematics during walking in our control - weight group resembles the results reported in the experimental subjects of Carrano and Biewener .",
+        "zh":"有趣的是, 在我们的控制体重组中走路时的腿部运动与卡拉诺和比维斯纳的实验对象报告的结果相似。",
+        "fvec":[]
+    },
+    {
+        "en":"This suggests that their results could be partially explained as a response to the increased loading rather than to the displacement of the CoM .",
+        "zh":"这表明,它们的结果可以部分解释为对加载增加的反应,而不是对M组的转移。",
+        "fvec":[]
+    },
+    {
+        "en":"Due to the phylogenetic relatedness , extant birds have been used to inform functional aspects of non-avian dinosaur locomotion .",
+        "zh":"由于生物学相关性,现存的鸟类被用于 inform非鸟类恐龙运动的功能方面。",
+        "fvec":[]
+    },
+    {
+        "en":"However , substantial differences in hindlimb morphology between these groups make difficult to assess the validity of inferences obtained from such studies .",
+        "zh":"然而,这些群组间的后肢形态的显著差异使得很难评估从这些研究中得出的结论的有效性。",
+        "fvec":[]
+    },
+    {
+        "en":"It has even been proposed that , due to functional convergence , mammals might be a better system to study bipedal dinosaur locomotion  ,  , but the results reported here show that important aspects of non-avian theropod locomotion can be experimentally recreated in modern birds .",
+        "zh":"甚至有人提出,由于功能收敛,哺乳动物可能是研究双脚恐龙运动的更好的系统,但报告的结果表明,非鸟类恐龙运动的重要方面可以在现代鸟类中进行实验重建。",
+        "fvec":[]
+    },
+    {
+        "en":"One caveat , however , is that our approach uses tail reduction as the mechanism for CoM displacement despite it has been recently shown that the evolutionary change in CoM position was driven instead by forelimb enlargement  .",
+        "zh":"然而,我们的方法采用尾部减小作为COM位移的机制,尽管最近已经表明,CoM位置的进化变化是由前肢的扩大所驱动。",
+        "fvec":[]
+    },
+    {
+        "en":"Nonetheless , this does not mean that tail reduction had no effect on CoM displacement , but that it was not the most important factor .",
+        "zh":"尽管如此,这并不意味着尾部减少对COM迁移没有影响,但并不是最重要的因素。",
+        "fvec":[]
+    },
+    {
+        "en":"Ideally we would have increased tail mass and reduced pectoral limb mass but , unfortunately , this is not experimentally feasible .",
+        "zh":"理想情况下,我们将增加尾巴质量和减少颈部肢体质量,但不幸的是,这在实验上是不可能的。",
+        "fvec":[]
+    },
+    {
+        "en":"We argue that our experimental approach , although not perfect , was effective in displacing the CoM and recreating locomotor patterns expected in non-avian theropods .",
+        "zh":"我们认为我们的实验方法虽然并不完美,但能够有效地取代CoM并 recreating locomotor patterns expected in non-avian theropods。",
+        "fvec":[]
+    },
+    {
+        "en":"Thus , we expect that careful phenotypic manipulation of extant birds can open new avenues of experimental investigation into unexplored facets of dinosaur locomotor mechanics and energetics , providing a more nuanced understanding of the relationship between form and function in dinosaur evolution .",
+        "zh":"因此,我们期望对现存的鸟类进行仔细的 fenotypic 操纵,能开辟新的实验研究途径,对恐龙运动力学和动力学的未知方面进行探索,为恐龙进化中形式与功能之间的关系提供更精细的理解。",
+        "fvec":[]
+    },
+    {
+        "en":"Replication studies are considered by many to play a fundamental role in any scientific endeavor .",
+        "zh":"复制研究被许多人认为在任何科学努力中起着根本作用。",
+        "fvec":[]
+    },
+    {
+        "en":"When using the same materials and procedures as a previous study , replication studies serve to test the reliability of the previous study ’s findings .",
+        "zh":"当使用与前一项研究相同的材料和程序时,复制研究有助于测试前一项研究结果的可靠性。",
+        "fvec":[]
+    },
+    {
+        "en":"When altering specific methodological or participant characteristics of a previous study , they serve to test generalizability of the earlier findings under different conditions .",
+        "zh":"在改变以前研究的特定方法学特征或参与者特征时,它们有助于在不同的条件下测试早期发现的普遍性。",
+        "fvec":[]
+    },
+    {
+        "en":"One indication of the importance of replication is found in the 50 or more calls for replication research in the field of second language  research alone  : from Santos  through Polio and Gass 1997 to very recent proposals for specific replication studies , such as Vandergrift and Cross 2017 and even a book - length treatment  .",
+        "zh":"从桑托斯到波利奥和加斯1997年到最近对具体的复制研究的提议,例如范德格里夫特和克罗斯2017年,甚至还有一本书长处理。",
+        "fvec":[]
+    },
+    {
+        "en":"Beyond these calls , efforts to actively promote and facilitate replication studies have also emerged .",
+        "zh":"除了这些呼吁外,还出现了积极促进和促进复制研究的努力。",
+        "fvec":[]
+    },
+    {
+        "en":"For example , the Instruments for Research into Second Languages  repository  was established in 2011 and holds , at the time of writing , over 3,800 materials that can be used for replication , among other purposes , in L2 research  .",
+        "zh":"例如,第二语言研究工具库于2011年成立,在编写时拥有超过3,800件可以用于复制的材料,除其他目的外,用于L2研究。",
+        "fvec":[]
+    },
+    {
+        "en":"The Open Science Framework  , also established in 2011 , provides a web infrastructure to facilitate collaboration and has been used for large replication efforts in psychology  , which continue to make waves in academia  and the general media  .",
+        "zh":"开放科学框架(Open Science Framework)也于2011年成立,提供了一个网络基础设施,以促进协作,并用于心理学领域的大规模复制工作,继续在学术界和大众媒体中产生波浪。",
+        "fvec":[]
+    },
+    {
+        "en":"In some fields , a flourishing metascience , that is , the scientific study of science  , has included syntheses assessing the quantity and nature of replication efforts , for example , in education  .",
+        "zh":"在某些领域,一个繁荣的元科学,即科学的科学研究,包括评价复制努力数量和性质的综合研究,例如在教育领域。",
+        "fvec":[]
+    },
+    {
+        "en":"The driving force behind this battery of calls , commentaries , infrastructure , and metascience is a perceived crisis in the state of replication research .",
+        "zh":"这种电话 、 评论 、 基础建设和元科学的驱动力是复制研究状况中一种被理解的危机。",
+        "fvec":[]
+    },
+    {
+        "en":"The severe concerns underpinning the alleged crisis have several dimensions relating to :  the  amount of published replication research ;  the  quality of replication research ; and  the  reproducibility , which refers to the extent to which findings can  be reproduced in replication attempts that have been undertaken .",
+        "zh":"所谓危机背后的严重关切有几个方面: 出版的复制研究的数量; 复制研究的质量; 以及可复制性,这指在已进行的复制尝试中能够复制出哪些结果的程度。",
+        "fvec":[]
+    },
+    {
+        "en":"These concerns speak to the very core of science , raising fundamental questions about the validity and reliability of our work .",
+        "zh":"这些关切关系到科学的核心,引发了关于我们工作的有效性和可靠性的根本问题。",
+        "fvec":[]
+    },
+    {
+        "en":"Indeed , some commentators have called replication the “ gold standard ” of research evidence  and a “ linchpin of the scientific process ”  .",
+        "zh":"事实上, 一些评论家称复制是研究证据的“ 金标准 ” 和“ 科学过程的支柱 ” 。",
+        "fvec":[]
+    },
+    {
+        "en":"In the field of L2 research , given the importance of replication and the 50 calls for replication in L2 research that we identified , one might expect a substantial number of published replication studies by now .",
+        "zh":"在L2研究领域,考虑到复制的重要性和我们确定的50个要求在L2研究中复制,人们可以预期到目前已有大量发表的复制研究。",
+        "fvec":[]
+    },
+    {
+        "en":"However , a perceived lack of prestige , excitement , and originality of replication plagues L2 research  , as it does other disciplines  , and these perceptions are thought to have caused , at least in part  , alleged low rates and a poor quality of published replication studies .",
+        "zh":"然而,对复制病的缺乏信誉、兴奋和独创性感 L2研究,正如其他学科一样,这些认识被认为是导致的,至少部分,声称的低率和出版的复制研究质量差。",
+        "fvec":[]
+    },
+    {
+        "en":"However , a systematic metascience on replication research has not yet been established in the field of L2 research , leaving a poor understanding of the actual number and nature of replication studies that have been published .",
+        "zh":"然而,在L2研究领域还没有建立一种系统地复制研究的元科学,因此人们对已经发表的复制研究的实际数量和性质的理解还很差。",
+        "fvec":[]
+    },
+    {
+        "en":"The current study begins to address this gap through narrative and systematic reviews .",
+        "zh":"目前的研究开始通过叙述和系统性审查来解决这一差距。",
+        "fvec":[]
+    },
+    {
+        "en":"The narrative review considers challenges in replication research and is largely informed by commentaries and metascience from psychology , given that the cognitive and social subdomains of psychology are highly influential in L2 research , and also from education , another key sister discipline .",
+        "zh":"叙事综述了复制研究中的挑战,并主要从心理学的评论和元科学中获得信息,因为心理学的认知和社会分域在L2研究中具有很高的影响,同时也从教育中获得信息,另一个关键的姐妹学科。",
+        "fvec":[]
+    },
+    {
+        "en":"The narrative review is organized around four broad themes :  the quantity of replication research ,  the nature of replication research ,  the relationship between initial and replication studies , and  the interpretation and extent of reproducibility of the findings of initial studies .",
+        "zh":"叙事回顾围绕四个广泛主题进行:复制研究的数量、复制研究的性质、初始研究与复制研究之间的关系、初始研究结果的解释和可复制程度。",
+        "fvec":[]
+    },
+    {
+        "en":"To gain insight into these issues in the context of L2 research , the systematic review provides a synthesis of L2 studies in journal articles that self - labeled as replications .",
+        "zh":"为了在L2研究中获得对这些问题的洞察,系统性综述提供了在期刊文章中自标为复制品的L2研究的综合。",
+        "fvec":[]
+    },
+    {
+        "en":"The research questions and methods of the systematic review were largely determined by the narrative review but also emerged through the design and piloting of the coding instrument .",
+        "zh":"系统性检讨的研究问题和方法主要由叙事性检讨决定,同时也通过编码器的设计和试验产生。",
+        "fvec":[]
+    },
+    {
+        "en":"Finally , we offer further discussion and 16 recommendations for future replication work that draw on our narrative and systematic reviews and on our experience of carrying out multisite  1 and single site  replications .",
+        "zh":"最后,我们提出了进一步的讨论和16项建议,以便今后的复制工作,这些建议是基于我们的叙事性和系统性审查以及我们进行多点1和单点复制的经验。",
+        "fvec":[]
+    },
+    {
+        "en":"We start from the widely agreed premise that testing the reproducibility of findings should have an essential role in the testing and refinement of theory , at least for hypothesis - testing epistemologies that seek to ascertain generalizability and for other epistemologies in which constructs are deemed to be definable and observable .",
+        "zh":"我们从广泛一致的前提出发,认为测试发现的可复制性应在理论的测试和改进中起着至关重要的作用,至少对于假设的测试--旨在确定可推广性的认识学和其他认识学,其中构造被认为是可定义和可观察的。",
+        "fvec":[]
+    },
+    {
+        "en":"Thus , our overall aim is to provide conceptual clarification and an empirical base for future discussion and production of replication studies , with a view to improving the amount and quality of L2 replication research .",
+        "zh":"因此,我们总的目的是为今后的复制研究提供概念澄清和实证基础,以提高L2复制研究的数量和质量。",
+        "fvec":[]
+    },
+    {
+        "en":"How do people look at and experience art ?",
+        "zh":"人们如何看待和体验艺术?",
+        "fvec":[]
+    },
+    {
+        "en":"Which elements of specific artworks do they focus on ?",
+        "zh":"他们关注哪些特定艺术作品的元素?",
+        "fvec":[]
+    },
+    {
+        "en":"Do museum labels have an impact on how people look at artworks ?",
+        "zh":"博物馆标签对人们如何看待艺术作品有影响 吗?",
+        "fvec":[]
+    },
+    {
+        "en":"The viewing experience of art is a complex one , involving issues of perception , attention , memory , decision - making , affect , and emotion .",
+        "zh":"艺术的观赏体验是复杂的, 涉及感知 、 注意力 、 记忆 、 决策 、 情感和情感问题.",
+        "fvec":[]
+    },
+    {
+        "en":"Thus , the time it takes and the ways of visually exploring an artwork can inform about its relevance , interestingness , and even its aesthetic appeal .",
+        "zh":"因此,它所花费的时间和视觉探索艺术作品的方式可以说明其相关性、有趣性,甚至其审美吸引力。",
+        "fvec":[]
+    },
+    {
+        "en":"This paper describes a collaborative pilot project focusing on a unique collection of 17th Century Zurbarán paintings .",
+        "zh":"本文描述了一项专著17世纪苏尔巴兰画的专著收藏的协作试点项目。",
+        "fvec":[]
+    },
+    {
+        "en":"The Jacob cycle at Auckland Castle is the only UK example of a continental collection preserved in situ in purpose - built surroundings .",
+        "zh":"奥克兰城堡的雅各布自行车是英国唯一保存在目的建筑周围的大陆收藏的例子.",
+        "fvec":[]
+    },
+    {
+        "en":"While studies of the psychology of art have focused on individual works and distinctions between representative / non-representative topics , no work has been completed on the aesthetic appreciation of collections or of devotional themes .",
+        "zh":"虽然艺术心理学的研究集中在个人作品和代表性/非代表性主题的区分上,没有完成关于收藏品或献身主题的审美评价的工作。",
+        "fvec":[]
+    },
+    {
+        "en":"In this paper , we report upon the novel insights eye - tracking techniques have provided into the unconscious processes of viewing the unique collection of Zurbarán artworks .",
+        "zh":"本文报道了观察朱尔巴兰独特的艺术品收藏的无意识过程的眼光追踪技术的新发现。",
+        "fvec":[]
+    },
+    {
+        "en":"The purpose of this pilot study was to assess the effects of different written interpretation on the visual exploration of artworks .",
+        "zh":"实验研究的目的是评估不同的书面解释对艺术作品的视觉探索的影响。",
+        "fvec":[]
+    },
+    {
+        "en":"We will discuss the potential implications of these techniques and our understanding of visual behaviours on museum and gallery practice .",
+        "zh":"我们将讨论这些技术对博物馆和画廊实践的潜在影响以及我们对视觉行为的理解。",
+        "fvec":[]
+    },
+    {
+        "en":"The project brings together established research strengths in Spanish art history , experimental psychology , digital humanities , and museum studies to explore , using eye - tracking techniques , aesthetic reactions to digital representations of the individual Zurbarán artworks as well as the significance of the collection as a whole .",
+        "zh":"该项目结合了西班牙艺术史 、 实验心理学 、 数字人文科学和博物馆研究的既定研究力量,以眼光追踪技术 、 对个别祖巴兰艺术作品的数字表现的审美反应以及整个收藏的意义进行探索.",
+        "fvec":[]
+    },
+    {
+        "en":"Our experience of art develops from the interaction of several cognitive and affective processes ; the beginning of which is a visual scan of the artwork .",
+        "zh":"我们的艺术经验从几个认知和情感过程的相互作用中发展,其开始是艺术作品的视觉扫描。",
+        "fvec":[]
+    },
+    {
+        "en":"When regarding an artwork , a viewer gathers information through a series fixations , interspersed by rapid movements of the eye called saccades .",
+        "zh":"关于艺术作品时,观众通过一系列的固定来收集信息,由眼球快速运动所散布,称为萨卡德(saccades)。",
+        "fvec":[]
+    },
+    {
+        "en":"The direction of saccades is determined by an interaction between the goals of the observer and the physical properties of the different elements of the scene  .",
+        "zh":"萨卡德的方向是由观察者的目标与场景不同元素的物理特性之间的相互作用决定的。",
+        "fvec":[]
+    },
+    {
+        "en":"Importantly , studying eye movements offers an insight that does not depend on the participants ’ beliefs , memories or subjective impressions of the artwork .",
+        "zh":"重要的是,研究眼球运动提供了一个不依赖参与者的信念、记忆或艺术作品的主观印象的洞察力。",
+        "fvec":[]
+    },
+    {
+        "en":"Previous eye tracking research has highlighted the potential to transform the ways we understand visual processing in the arts  and at the same time offers a direct way of studying several important factors of a museum visit  .",
+        "zh":"以往的眼光追踪研究突出了改变我们对艺术中的视觉处理方法的潜力,同时也提供了直接研究博物馆参观的重要因素的途径。",
+        "fvec":[]
+    },
+    {
+        "en":"Zurbarán ’s cycle of Jacob and his Sons has been on display in the Long Room at Auckland Castle for over 250 years .",
+        "zh":"苏巴兰的雅各布和他的儿子的循环已经在奥克兰城堡的长厅展出了超过250年。",
+        "fvec":[]
+    },
+    {
+        "en":"It is the only cycle to be preserved in purpose - built surroundings in the UK , and one of very few of its kind in the world .",
+        "zh":"它是英国唯一能保存在有目的建筑环境中的循环,也是世界上很少有这样的循环之一。",
+        "fvec":[]
+    },
+    {
+        "en":"It has a long history in scholarship  , but many key aspects of its production and significance have not yet been fully understood .",
+        "zh":"它在学术上有着悠久的历史,但其生产和意义的许多关键方面尚未得到充分理解。",
+        "fvec":[]
+    },
+    {
+        "en":"In this study we used eye - tracking in the first stage of exploring audience experience of the extensive Spanish art collections of County Durham , of which the 13 Zurbarán artworks  are a key part of , to investigate the ways in which audiences look at Spanish art , how aesthetic experience is evaluated and whether audiences can be encouraged to approach art in different ways .",
+        "zh":"在这项研究中,我们用眼光追踪在探索达拉姆县广泛的西班牙艺术收藏的听众体验的第一阶段,其中13幅苏尔巴兰艺术作品是关键的一部分,以研究听众如何看待西班牙艺术,如何评价审美体验,以及是否可以鼓励听众以不同的方式接触艺术。",
+        "fvec":[]
+    },
+    {
+        "en":"This pilot project primarily investigated how participants visually explore artworks and provides new insights into the potential eye - tracking has to transform the ways we understand visual processing in arts and culture and at the same time offer a direct way of studying several important factors of a museum visit , namely to assess the effects of label characteristics on visitor visual behaviour .",
+        "zh":"该试点项目主要研究了参与者如何以视觉的方式探索艺术作品,并提供新的洞察力,了解眼光跟踪对我们理解艺术和文化视觉处理的方式有何影响,同时提供一个直接的方法研究博物馆参观的几个重要因素,即评估标签特征对参观者的视觉行为的影响。",
+        "fvec":[]
+    },
+    {
+        "en":"Agents can rationally choose between experts only if the criteria that distinguish genuine experts from charlatans are common sense or widely known :",
+        "zh":"代理人可以理性地选择专家,只有在确定真正专家与骗子区别的标准是明智的或众所周知的:",
+        "fvec":[]
+    },
+    {
+        "en":"if agents are to satisfy the epistemic conditions on responsibility , they must know what kinds of knowledge they must utilize to guide their selection of sources  .",
+        "zh":"如果代理人要满足对责任的认知条件,他们必须知道他们必须利用哪些知识来指导他们选择来源。",
+        "fvec":[]
+    },
+    {
+        "en":"In fact , many , if not all , the markers of expertise identified by philosophers enjoy widespread recognition .",
+        "zh":"事实上,许多,如果不是所有,哲学家所确定的专门知识的标记都得到了广泛的认可。",
+        "fvec":[]
+    },
+    {
+        "en":"The fact that these criteria are widely known , however , offers an opportunity to those who would use them for deception , witting or unwitting .",
+        "zh":"然而,这些标准广为人知的事实,给那些将用它们作欺骗、蓄意或无知的人提供了一个机会。",
+        "fvec":[]
+    },
+    {
+        "en":"Since expertise must be assessed through indirect markers , to mimic the markers of expertise is to mimic expertise  .",
+        "zh":"由于专门知识必须通过间接标记来评估,模仿专门知识标记就是模仿专门知识标记。",
+        "fvec":[]
+    },
+    {
+        "en":"We live in an epistemic environment that is heavily and deliberately polluted by agents who use mimicry and other methods as a means of inflating their pretense to expertise .",
+        "zh":"我们生活在一个以模仿和其它方法为手段将他们的借口推向专业知识的代理人严重和蓄意污染的pistemic环境中。",
+        "fvec":[]
+    },
+    {
+        "en":"This fact , together with the fact that such deception is widely known to occur , reduces ordinary people ’s trust in expert authority and diminishes their capacity to distinguish reliable from unreliable sources .",
+        "zh":"这一事实,加上人们普遍知道这种欺骗行为会发生,降低了普通民众对专家权威的信心,也降低了他们辨别可靠与不可靠的来源的能力。",
+        "fvec":[]
+    },
+    {
+        "en":"For instance , those with an interest in deceiving the general public may set up parallel institutions that ostensibly guarantee expertise , taking advantage of the ways in which these parallel institutions mimic legitimate institutions to ensure that people are taken in .",
+        "zh":"例如,有兴趣欺骗公众的机构可以设立类似机构,以明显保证专业知识,利用这些类似机构模仿合法机构的方式来确保人们接受。",
+        "fvec":[]
+    },
+    {
+        "en":"There are some egregious examples of this practice in the field of health care .",
+        "zh":"在医疗领域,这种做法有一些令人难以置信的例子。",
+        "fvec":[]
+    },
+    {
+        "en":"For example , a small number of doctors set up the American College of Pediatricians  to advocate socially conservative viewpoints related to child health care .",
+        "zh":"例如,少数医生成立了美国小儿科学院,以提倡与儿童保健有关的社会保守观点。",
+        "fvec":[]
+    },
+    {
+        "en":"Such an organization is surely permissible , but it has had the unfortunate  effect of muddying debates in the public forum by misleading people into thinking that the college speaks for the pediatric profession at large .",
+        "zh":"这种组织当然是允许的,但它不幸地使公众场合的争论变得混乱,使人们误以为该学院代表整个儿科专业。",
+        "fvec":[]
+    },
+    {
+        "en":"Thus , when ACPeds issued a statement condemning gender reassignment surgery in 2016  , many people mistook the organization ’s political beliefs for the consensus view among United States pediatricians — although the peak body for pediatric workers , the American Academy of Pediatrics , has a much more positive view of gender dysphoria  .",
+        "zh":"因此,当ACPeds在2016年发表声明谴责性别重新分配手术时,许多人误解了该组织的政治信念,认为美国小儿科医生的共识 — — 尽管小儿科工作者的最高机构,美国小儿科学院(American Academy of Pediatrics)对性别歧视的看法更为积极。",
+        "fvec":[]
+    },
+    {
+        "en":"Insofar as the larger organization , with a broader membership base , can be expected to reflect a wider range of expert opinions and a higher degree of expertise , it is reasonable to give its views greater weight than those of the smaller organization .",
+        "zh":"如 larger 组织 具有 更广泛 的 成员 基础, 可以 预期 会 反映 更 广泛 的 专家 意见 和 更 高度 的 专门知识, 就 合理 地 给予 其 意见 比 smaller 组织 的 意见 更大 的  weight 。",
+        "fvec":[]
+    },
+    {
+        "en":"When ACPeds allows or encourages the impression that it speaks for the profession , it introduces an epistemic pollutant .",
+        "zh":"当ACPeds允许或鼓励一种印象,即它代表这个职业,则它将引入一种pistemic污染物。",
+        "fvec":[]
+    },
+    {
+        "en":"A yet more egregious example of such pollution involved collaborative efforts by pharmaceutical companies and the publishing giant Elsevier to produce publications mimicking peer - reviewed journals in the interest of promoting the companies ’ commercial products  .",
+        "zh":"更令人惊奇的例子是,药品公司和出版巨头埃尔塞维尔共同努力制作模仿同行评审的期刊的出版物,以促进这些公司的商业产品。",
+        "fvec":[]
+    },
+    {
+        "en":"The companies hoped to leverage the prestige of Elsevier with these fake journals to endow their promotional “ research ” with an air of reliability .",
+        "zh":"这些公司希望通过这些伪造的期刊来利用埃尔塞维尔的名声,为其宣传“ 研究 ” 提供一种可靠的气氛。",
+        "fvec":[]
+    },
+    {
+        "en":"When the deceit was uncovered , however , the effect was just the opposite :",
+        "zh":"然而,当欺骗被揭开时,其效果恰恰相反:",
+        "fvec":[]
+    },
+    {
+        "en":"the legitimacy of the published findings was not enhanced through their publication by Elsevier , but rather the legitimacy of Elsevier ’s publications — and , by extension , all academic journals — was diminished through their dissemination of deceptive and commercially interested research .",
+        "zh":"出版结果的合法性不是通过其由埃尔塞维尔出版而增强的,而是通过其传播欺骗性和具有商业利益的研究而减少了埃尔塞维尔出版物的合法性 — — 以及所有学术期刊的合法性。",
+        "fvec":[]
+    },
+    {
+        "en":"More recently , institutions of academic expertise have been subject to a large and growing outbreak of so - called predatory journals — journals that will publish almost anything for a fee .",
+        "zh":"近年来, 学术专业机构正面临着所谓的掠夺性期刊的大规模和日益扩大的爆发 — — 这些期刊几乎可以以报酬出版任何东西.",
+        "fvec":[]
+    },
+    {
+        "en":"Once again , this phenomenon has the effect of making peer - reviewed journals appear less legitimate .",
+        "zh":"再次, 这种现象使同行评审的期刊显得不合法.",
+        "fvec":[]
+    },
+    {
+        "en":"At times , even those who work in academia may be unsure of a particular journal ’s legitimacy , and there are genuine borderline cases .",
+        "zh":"有时,甚至那些在学术界工作的人也无法确定某一期刊的合法性,并且有真正的边界案例。",
+        "fvec":[]
+    },
+    {
+        "en":"For example , the Frontiers contingent of journals appears legitimate — at least to me — despite the fact that authors are expected to pay a publication fee . 8",
+        "zh":"例如,《边境》杂志队似乎合法 — — 至少在我看来 — — 尽管作者应该支付出版费。",
+        "fvec":[]
+    },
+    {
+        "en":"Yet some Frontiers journals appear to have engaged in bad behavior , whether for profit or for some other motive .",
+        "zh":"尽管如此,一些《边界》杂志似乎从事了不良行为,不管是为了盈利还是为了其他目的。",
+        "fvec":[]
+    },
+    {
+        "en":"Frontiers in Public Health controversially published articles linking vaccines and autism  and questioning the link between HIV and AIDS  .",
+        "zh":"公共卫生界界 有争议地发表了有关疫苗和自闭症的文章,并质疑艾滋病和艾滋病之间的联系。",
+        "fvec":[]
+    },
+    {
+        "en":"Whether due to this behavior or not , Jeffrey Beall decided to add the publisher to his influential  list of questionable journals  .",
+        "zh":"杰弗里·贝尔(Jeffrey Beall)决定将出版商添加到其影响深远的问题期刊名单中。",
+        "fvec":[]
+    },
+    {
+        "en":"The controversy surrounding Beall ’s decision indicates how difficult it is to make such judgments — even for professionals .",
+        "zh":"关于贝尔的决定的争议表明,做出这样的判断是多么困难 — — 甚至对专业人士也是如此。",
+        "fvec":[]
+    },
+    {
+        "en":"If academics with expertise in relevant fields have difficulty assessing whether particular journals or particular publishers are legitimate , one can not reasonably expect ordinary people to make such judgments .",
+        "zh":"如果在相关领域有专门知识的学者难以评估某一期刊或某一出版商是否合法,就不能合理地期望普通人作出这样的判断。",
+        "fvec":[]
+    },
+    {
+        "en":"If their confidence in scientific findings is lowered across the board as the result of such epistemic pollution , one can hardly blame them .",
+        "zh":"如果他们对科学发现的信心由于这种意识形态的污染而普遍下降,就很难责怪他们。",
+        "fvec":[]
+    },
+    {
+        "en":"Since conflicts of interest are a reason to discount expertise , it is incumbent on me to note that I have published in Frontiers journals on several occasions .",
+        "zh":"由于利益冲突是低估专业知识的理由,我不得不指出,我曾多次在《边界》杂志上发表文章。",
+        "fvec":[]
+    },
+    {
+        "en":"Epistemic pollution may stem not only from counterfeit institutions of knowledge production but also from bad behavior by legitimate institutions . 9",
+        "zh":"认识污染不仅来自知识生产的伪造机构,而且来自合法机构的不良行为",
+        "fvec":[]
+    },
+    {
+        "en":"For example , pollution may result from attempts to game the systems put in place to track expertise .",
+        "zh":"例如,污染可能来自试图操纵建立的专家跟踪系统。",
+        "fvec":[]
+    },
+    {
+        "en":"Consider institutions with a credentialing function , such as universities , bar associations , or peer review bodies .",
+        "zh":"考虑具有授权功能的机构,例如大学、律师协会或同行评审机构。",
+        "fvec":[]
+    },
+    {
+        "en":"These institutions do not exist solely to credential experts .",
+        "zh":"这些机构并不只供授权专家使用。",
+        "fvec":[]
+    },
+    {
+        "en":"They have other functions , and these functions may come into conflict , creating pressures to inflate credentials .",
+        "zh":"它们有其他功能,这些功能可能发生冲突,造成压力来膨胀职权。",
+        "fvec":[]
+    },
+    {
+        "en":"For example , universities have a financial incentive to inflate the expertise of their academic staff , thereby increasing their rankings , bringing in grant money , and attracting students .",
+        "zh":"例如,大学有财政奖励,以提高其学术人员的专门知识,从而提高其排名,吸引助学金,吸引学生。",
+        "fvec":[]
+    },
+    {
+        "en":"Systems that assess expertise can be manipulated , and many cases of such manipulation exist — take the recent example by the University of Malaysia , which attempted to boost metrics by urging its faculty to cite one another  .",
+        "zh":"评估专业知识的系统可以被操纵,许多此类操纵的案例存在 — — 举个最近的例子,马来西亚大学试图通过敦促其教职人员互相引用来提高指标。",
+        "fvec":[]
+    },
+    {
+        "en":"For this reason , institutions may also be slow to investigate accusations of fraud , and they may try to keep their discoveries in - house to protect their reputations .",
+        "zh":"因此, 机构也可能很慢地调查欺诈指控, 他们可能设法把发现保持在家里,以保护自己的声誉.",
+        "fvec":[]
+    },
+    {
+        "en":"Throughout the second half of the 20th century , we have witnessed the return of institutions to economic analysis .",
+        "zh":"整个20世纪的第二半期,我们都目睹了机构回归经济分析。",
+        "fvec":[]
+    },
+    {
+        "en":"The awarding of the Nobel Prize in Economics to its main representatives  has contributed to its greater recognition .",
+        "zh":"诺贝尔经济学奖给其主要代表的颁奖,为其更广泛的认可做出了贡献。",
+        "fvec":[]
+    },
+    {
+        "en":"The two main notions of this economic approach are the concepts of transaction costs and institutions , analyzed by Coase and North , respectively .",
+        "zh":"这一经济方法的两个主要概念是交易成本和机构的概念,分别由科西斯和诺斯分析。",
+        "fvec":[]
+    },
+    {
+        "en":"Coase  argues that economic transactions involve costs , and where these costs outweigh the gains , the exchange will not take place .",
+        "zh":"Coase认为,经济交易涉及成本,如果这些成本超过收益,交易将不会进行。",
+        "fvec":[]
+    },
+    {
+        "en":"For its part , North defined the institutions as the “ rules of the game ” : they determine the structure of the economy , establish incentives for economic behavior , and affect social interaction  .",
+        "zh":"北欧则把制度定义为“游戏规则 ”:它们决定经济结构,建立经济行为的激励,影响社会互动。",
+        "fvec":[]
+    },
+    {
+        "en":"Thus , institutions also determine the level of uncertainty to which individuals are subject , stimulating or discouraging transactions .",
+        "zh":"因此, 机构也决定个人所受的不确定性程度,刺激或阻碍交易。",
+        "fvec":[]
+    },
+    {
+        "en":"A viable economy requires an institutional structure that reduces existing uncertainty and guarantees property rights .",
+        "zh":"可行的经济需要减少现有的不确定性和保障财产权的体制结构。",
+        "fvec":[]
+    },
+    {
+        "en":"In other words , it is critical that economic agents believe that their property rights will not be taken away by other public or private actors  .",
+        "zh":"换句话说,重要的是经济代理人相信他们的财产权不会被其他公共或私人行动者剥夺。",
+        "fvec":[]
+    },
+    {
+        "en":"Achieving these objectives requires the creation of inclusive institutions , which guarantee the right to private property , incorporate an impartial legal system , and promote a society based on equality of conditions  .",
+        "zh":"实现这些目标需要建立包容性机构,保障私有财产权,建立公正的法律制度,促进以平等条件为基础的社会。",
+        "fvec":[]
+    },
+    {
+        "en":"Of course , the state takes a lead role in promoting this type of institution .",
+        "zh":"当然,国家在促进这类机构方面发挥了领导作用。",
+        "fvec":[]
+    },
+    {
+        "en":"The state must protect property rights , provide public services , and ensure a sound judiciary .",
+        "zh":"国家必须保护财产权,提供公共服务,确保健全的司法制度。",
+        "fvec":[]
+    },
+    {
+        "en":"It is responsible also for imposing order and promoting a climate of cooperation among agents , penalizing all violators of contracts  .",
+        "zh":"它还负责执行秩序,促进代理人间的合作气氛,惩处所有违反合同的人。",
+        "fvec":[]
+    },
+    {
+        "en":"The path to a prosperous society is not an easy one .",
+        "zh":"通往一个繁荣的社会之路不是容易的。",
+        "fvec":[]
+    },
+    {
+        "en":"It is society that establishes , through political processes , the type of economic institutions that are adopted .",
+        "zh":"正是社会通过政治进程建立所采用的经济制度的类型。",
+        "fvec":[]
+    },
+    {
+        "en":"If there are disagreements about the policies to be implemented , then the group that wins the political game will make the final decision .",
+        "zh":"如果在执行政策方面存在分歧,那么赢得政治比赛的小组将作出最后决定。",
+        "fvec":[]
+    },
+    {
+        "en":"On the one hand , a society that adopts policies promoting inclusive political institutions will develop pluralist and centralized institutions .",
+        "zh":"一方面,采取促进包容性政治机构的政策社会将发展多元化和集中的制度。",
+        "fvec":[]
+    },
+    {
+        "en":"Inclusive institutions guarantee the right to private property , to an impartial legal system and promote a society based on equal conditions .",
+        "zh":"包容性机构保障私有财产权、公正的法律制度,促进以平等条件为基础的社会。",
+        "fvec":[]
+    },
+    {
+        "en":"These institutions benefit not only the elites , but society as a whole .",
+        "zh":"这些机构不仅有利于精英,也有利于整个社会。",
+        "fvec":[]
+    },
+    {
+        "en":"The consequences of implementing inclusive institutions are reflected in increased activity , productivity , and economic growth .",
+        "zh":"实施包容性机构的后果反映在增加活动、生产力和经济增长中。",
+        "fvec":[]
+    },
+    {
+        "en":"On the other hand , if extractive political institutions are implemented , then power will be consolidated within a small number of groups .",
+        "zh":"另一方面,如果实施出产政治机构,那么权力将会在少数群体中巩固。",
+        "fvec":[]
+    },
+    {
+        "en":"In governments with extractive policies , the group in power usually extracts resources from the rest of the population for its own enrichment and well - being .",
+        "zh":"在具有抽取政策的政府中, 权力集团通常从其他人口中抽取资源,以获得自身财富和福利.",
+        "fvec":[]
+    },
+    {
+        "en":"Another feature of this type of government is that powerful interest groups oppose increased pluralism because it typically results in the loss of their privileges .",
+        "zh":"这种政府的另一个特点是,强大的利益集团反对增加多元主义,因为这通常会导致他们失去特权。",
+        "fvec":[]
+    },
+    {
+        "en":"Those in power have little interest in their power devolving to a greater number of agents , as would occur under political institutions that were more pluralistic  .",
+        "zh":"那些掌权者对权力转移给更多的代理人几乎没有兴趣,就像在更多元化的政治机构下那样。",
+        "fvec":[]
+    },
+    {
+        "en":"It follows that the role of the state is essential .",
+        "zh":"因此,国家的作用是至关重要的。",
+        "fvec":[]
+    },
+    {
+        "en":"The institutional structure of a state and its constitution are responsible for restricting predatory action — even by the state itself — and for creating rules that benefit the community  .",
+        "zh":"国家制度结构及其宪法负责限制掠食行为 — — 甚至由国家本身 — — 并创造有利于社区的规则。",
+        "fvec":[]
+    },
+    {
+        "en":"Moreover , compliance mechanisms must reflect ex ante and ex post standards  .",
+        "zh":"此外,遵守机制必须反映前后标准。",
+        "fvec":[]
+    },
+    {
+        "en":"But what happens when property rights are not respected ?",
+        "zh":"但当财产权不受到尊重时会发生什么事?",
+        "fvec":[]
+    },
+    {
+        "en":"What if it is the state itself that exhibits predatory behavior ?",
+        "zh":"要是它本身表现出掠食行为 呢?",
+        "fvec":[]
+    },
+    {
+        "en":"All these questions have a place in this case analysis .",
+        "zh":"所有这些问题在本文的案例分析中都有其意义。",
+        "fvec":[]
+    },
+    {
+        "en":"The expropriation of YPF is a case in which the Argentine State presents predatory behavior , encouraged by an extractive institutional framework .",
+        "zh":"YPF的剥夺是阿根廷国家采取掠夺行为的案例,这种行为是由一种剥削性的制度框架所鼓励的。",
+        "fvec":[]
+    },
+    {
+        "en":"If the decisions taken by the state are not based on the general interest and , in their execution , do not respect property rights , the number of transactions will be reduced , which will result in unfavorable economic performance .",
+        "zh":"如果国家作出的决定不基于公共利益,在执行中不尊重财产权,将减少交易的数量,导致经济表现不利。",
+        "fvec":[]
+    },
+    {
+        "en":"In a scenario with insecure property rights , asymmetric information , and a judicial system that acts as a lax enforcement mechanism , as discussed in the following sections , the FDI is difficult to attract .",
+        "zh":"在不稳定的财产权、信息不对称和司法系统作为宽松的执法机制的情况下,外国直接投资难以吸引。",
+        "fvec":[]
+    },
+    {
+        "en":"In order to understand policymaking and its effects , one must have adequate knowledge of the focal country ’s institutional framework .",
+        "zh":"要了解决策及其影响,必须有充分的了解焦点国家的体制框架。",
+        "fvec":[]
+    },
+    {
+        "en":"Most of Argentina ’s governments have been of the predatory type .",
+        "zh":"大多数阿根廷政府都是掠夺性的。",
+        "fvec":[]
+    },
+    {
+        "en":"The country ’s unequal economic growth originated in the colonial era and reflects how the Spanish metropolis influenced the establishment of extractive institutions  .",
+        "zh":"该国不平等的经济增长起源于殖民时代,反映了西班牙首都如何影响了建立采矿机构。",
+        "fvec":[]
+    },
+    {
+        "en":"Argentine politics are therefore highly unstable .",
+        "zh":"因此,阿根廷的政治非常不稳定。",
+        "fvec":[]
+    },
+    {
+        "en":"Achieving political order would require the government to limit its actions and guarantee the rights of citizens — neither of which has yet occurred in Argentina .",
+        "zh":"实现政治秩序需要政府限制其行动并保障公民的权利 — — 这在阿根廷还没有发生过。",
+        "fvec":[]
+    },
+    {
+        "en":"Research on adult - learned second language  has provided considerable insight into the neurocognitive mechanisms underlying the learning and processing of L2 grammar  –  .",
+        "zh":"对成人学习的第二语言的研究对L2语法学习和处理的神经认知机制提供了相当的洞察力。",
+        "fvec":[]
+    },
+    {
+        "en":"Of interest here , studies suggest that , despite the difficulties in acquiring L2 grammar , adult learners can approximate native - like levels of use and neurocognitive processing  –  .",
+        "zh":"研究表明,尽管在学习L2语法方面有困难,但成人学习者能够接近母语使用水平和神经认知处理水平。",
+        "fvec":[]
+    },
+    {
+        "en":"However , it is not enough to have attained such native - like levels .",
+        "zh":"但是, 已经达到这样的本土水平还不够.",
+        "fvec":[]
+    },
+    {
+        "en":"Crucially , it is also desirable to retain them , even in the absence of continued practice or exposure to the L2 .",
+        "zh":"重要的是,即使没有持续的练习或暴露于L2,也应该保留它们。",
+        "fvec":[]
+    },
+    {
+        "en":"In fact , substantial periods  of limited or no exposure following L2 training are not uncommon , and may even be the norm  .",
+        "zh":"事实上,L2训练后有限或无暴露的实质性时间并不罕见,甚至可能是标准。",
+        "fvec":[]
+    },
+    {
+        "en":"Such a scenario may be found in different situations , including when one studies a language in a classroom and then stops taking classes  ,  and when one is immersed in a foreign language setting and then moves away  .",
+        "zh":"这种情形可能出现在不同的情况下,包括一个人在教室里学习语言,然后停止上课,以及一个人被卷入外语环境,然后离开。",
+        "fvec":[]
+    },
+    {
+        "en":"In the present study , we examine the outcomes of such a period of no exposure on the neurocognition of L2 grammar : that is , whether a substantial period of no exposure leads to decreased proficiency and / or less native - like neural processes  , no such changes , or perhaps whether even higher proficiency and / or more native - like processing may be observed .",
+        "zh":"本文研究了L2语法神经认知中这种无暴露期的结果:即,有否有实质性无暴露期导致认知能力下降和/或较少的本土神经过程,没有这样的变化,或者甚至有否观察到更高程度的认知能力和/或更本土的处理。",
+        "fvec":[]
+    },
+    {
+        "en":"Additionally , we test whether any such outcomes might vary as a function of the type of L2 training , in particular between classroom - like and immersion - like contexts .",
+        "zh":"此外,我们测试这些结果是否可能因L2培训类型的不同而有所不同,特别是在课堂型和浸泡型上下文之间。",
+        "fvec":[]
+    },
+    {
+        "en":"We are aware of six studies designed to investigate the effects of a substantial period of limited exposure following adult L2 training  ,  ,  –  , all of which were restricted to the examination of behavioral  outcomes .",
+        "zh":"我们知道有六项旨在研究成人L2训练后有限暴露时间的实质性影响的研究,这些研究都仅限于对行为结果的调查。",
+        "fvec":[]
+    },
+    {
+        "en":".",
+        "zh":"是的。",
+        "fvec":[]
+    },
+    {
+        "en":"The six studies tested L2 learners after periods of 1 month to 50 years of limited L2 exposure , mainly on general language skills  ,  ,  ,  ,  , though also on more specific paradigms meant to target aspects of grammatical abilities  ,  or lexical abilities  ,  .",
+        "zh":"六项研究测试了L2学习者在1个月到50年有限的L2暴露后,主要对一般语言技能进行测试,虽然还对更具体的范式进行测试,目的是针对语法能力或词汇能力的方面。",
+        "fvec":[]
+    },
+    {
+        "en":"These language measures were compared in most studies to the same measures in a different set of subjects who had not experienced a period of limited exposure  ,  ,  ,  , or to retrospective ratings of the same subjects  , with only one longitudinal study testing the same subjects before and after a period of limited exposure  .",
+        "zh":"在大多数研究中,这些语言措施与没有经历有限暴露期的不同组对象的相同措施,或同组对象的回顾性评级相比,只有一个纵向研究在有限暴露期前后测试同组对象。",
+        "fvec":[]
+    },
+    {
+        "en":"Across the studies , the periods of limited exposure followed either classroom training  ,  ,  ,  or mixed classroom and immersion training  ,  ,  .",
+        "zh":"在整个研究中,有限的曝光时间要么是课堂训练,要么是混合的课堂训练和沉浸训练。",
+        "fvec":[]
+    },
+    {
+        "en":"The training lasted varying lengths of time , apparently usually in the range of a few years , and resulted in seemingly varying proficiency levels  prior to the period of limited exposure .",
+        "zh":"训练持续了不同时间,显然通常在几年的范围内,并导致在有限暴露期间的技能水平明显不同。",
+        "fvec":[]
+    },
+    {
+        "en":"Overall , the results of the six studies have been taken to suggest the following .",
+        "zh":"总的来说, 六项研究的结果表明:",
+        "fvec":[]
+    },
+    {
+        "en":"A period of limited exposure generally leads to attrition  of L2 performance or knowledge  ,  ,  ,  .",
+        "zh":"有限的暴露期一般会导致L2性能或知识的衰减。",
+        "fvec":[]
+    },
+    {
+        "en":"Such loss has been observed after as little as a few months of limited exposure , e.g. , after a 1 - 7 month  or 6 month delay  , as well as after 2 years  , though in one case it was observed only by 3 - 5 years , and not earlier  .",
+        "zh":"这种损失是在有限的暴露数月后,例如1至7个月或6个月的延迟之后,以及2年后出现的,但在一个情况下,它只在3至5年后出现,而不是以前。",
+        "fvec":[]
+    },
+    {
+        "en":"Although attrition may take place within the first few years , some studies suggest that it then appears to level off , with no further losses occurring  ,  .",
+        "zh":"尽管衰变可能发生在头几年内,但一些研究表明,它会逐渐平息,不会再发生损失。",
+        "fvec":[]
+    },
+    {
+        "en":"Higher levels of proficiency  may be associated with less attrition  ,  ,  ,  or even with no observed losses  .",
+        "zh":"较高的技能水平可能与较少的衰减有关,甚至没有观察到的损失。",
+        "fvec":[]
+    },
+    {
+        "en":"Moreover , one study found no changes at all in performance , across proficiency levels , after either 2 or 4 years of limited exposure  .",
+        "zh":"此外,一项研究发现,在两年或四年的有限暴露后,在技能水平之间,业绩没有发生任何变化。",
+        "fvec":[]
+    },
+    {
+        "en":"Finally , in some cases a gain in performance has been observed : after 1.5 years of limited exposure in one study , particularly for L2 learners with immersion as well as classroom training  , and in another study after 2 years , though only for some abilities , such as listening and reading comprehension  .",
+        "zh":"最后,在某些情况下,观察到性能的提高:在1个研究中1.5年的有限暴露后,特别是在L2学习者具有沉浸性以及课堂训练,在2年之后的另一项研究中,虽然只有某些能力,如听力和阅读理解。",
+        "fvec":[]
+    },
+    {
+        "en":"It remains unclear what might explain such gains , which have been attributed to motivation and to L2 experience during the period of ostensibly limited exposure  , or to factors related to general maturation , cognitive development , or continued academic training  .",
+        "zh":"目前还不清楚为何可能解释这些收益,这些收益被归因于在明显有限的暴露期间的动机和L2经验,或者与一般成熟、认知发展或持续的学术训练有关的因素。",
+        "fvec":[]
+    },
+    {
+        "en":"Leading Dutch Librarians into DH",
+        "zh":"领导荷兰图书馆员进入DH",
+        "fvec":[]
+    },
+    {
+        "en":"In 2015 , an initiative was started to set up a Dutch speaking DH+Lib community in the Netherlands and Belgium , based on the example of the American communal space of librarians , archivists , LIS graduate students , and information specialists to discuss topics ‘ Where the Digital Humanities and Libraries meet ’ .",
+        "zh":"2015年, 在 荷兰 和 比利时 建立 一 个 荷兰语 DH+Lib 社区 的 倡议, 以 美国 图书馆员 、 档案学家 、 LIS 研究生 、 信息 专家 的 共同空间 为 基础, 讨论 “ 数字 人文 和 图书馆 在哪里 会面 ” 的 主题 。",
+        "fvec":[]
+    },
+    {
+        "en":"At the initial meeting it became apparent that most participants were there to learn more about digital humanities and were not  in the situation where they were able to offer expertise on the subject .",
+        "zh":"在最初的会议上,很明显,大多数参与者是为了了解数字人道主义,而没有能够提供关于这个主题的专门知识的情况。",
+        "fvec":[]
+    },
+    {
+        "en":"On the administrative level , the directors of the libraries participating in the consortium of Dutch academic libraries  also expressed the wish that librarians become more fluent in DH .",
+        "zh":"在行政方面,参加荷兰学术图书馆联合会的图书馆的董事们也表示,希望图书馆员能更精通汉字。",
+        "fvec":[]
+    },
+    {
+        "en":"A year later , the National Library of the Netherlands  , and the University Library of the Vrije Universiteit Amsterdam again concluded that librarians at their institutes who wanted to get involved in DH needed more training to adequately support researchers and students in this field .",
+        "zh":"一年后,荷兰国家图书馆和阿姆斯特丹自由大学大学大学图书馆再次得出结论,希望参与 DH 的图书馆员需要更多的培训,以充分支持这一领域的研究人员和学生。",
+        "fvec":[]
+    },
+    {
+        "en":"Therefore both institutes joined forces to develop a set of clinics on DH for librarians .",
+        "zh":"因此,两个研究所联合起来,为图书馆员开发一套有关卫生保健的诊所。",
+        "fvec":[]
+    },
+    {
+        "en":"The two institutes were later joined by the Leiden University Libraries .",
+        "zh":"两所学院后来被莱登大学图书馆合并。",
+        "fvec":[]
+    },
+    {
+        "en":"We see this as the ideal opportunity to provide these educative sessions not only to our own librarians , but also to the academic librarians of other Dutch research libraries .",
+        "zh":"我们 认为, 这 是 提供 这些 教育 会议 的 理想 机会, 不仅 对 我们 自己 的 图书馆员, 而且 对 其他 荷兰 研究 图书馆 的 学术 图书馆员 。",
+        "fvec":[]
+    },
+    {
+        "en":"In essence , we want to teach our country ’s librarians the ins and outs of DH in order for them to take up their natural role of facilitating and supporting research and ideally become the research partner needed in DH projects .",
+        "zh":"实质上,我们希望向我国的图书馆员们教导卫生防护知识,使他们能发挥促进和支持研究的自然作用,成为卫生防护项目所需要的研究伙伴。",
+        "fvec":[]
+    },
+    {
+        "en":"The aim of these clinics is to provide basic methodological competencies and technical skills in DH , for a diverse group of librarians , consisting of both subject and technical librarians with basic technical skills .",
+        "zh":"这些诊所的目的是为不同类型的图书馆员提供基本的教学方法和技术技能,包括具有基本技术技能的学科和技术图书馆员。",
+        "fvec":[]
+    },
+    {
+        "en":"The content of these sessions should enable them to provide services to researchers and students , identify remaining gaps in knowledge or skills that they could address by self - directed learning and  to automate their daily library work .",
+        "zh":"这些讨论会的内容应使他们能够向研究人员和学生提供服务,查明他们可以通过自发学习解决的知识或技能的剩余缺口,并使他们日常的图书馆工作自动化。",
+        "fvec":[]
+    },
+    {
+        "en":"We are not setting out to turn them into programmers or data crunchers , but want to boost their knowledge level to where they feel comfortable providing information about DH projects , follow the literature and research , follow online tutorials and hopefully take up the challenge of finishing this professional development by engaging with the DH community .",
+        "zh":"我们并不打算把他们转变为程序员或数据处理员,而是想提高他们的知识水平,使他们感到舒适地提供关于 DH项目的信息,遵循文献和研究,遵循在线教程,并希望通过与 DH社区合作完成这一专业发展的挑战。",
+        "fvec":[]
+    },
+    {
+        "en":"In order to design this curriculum we follow a four step approach with a Working Out Loud - principle  :",
+        "zh":"为了设计这个课程,我们采用了四个步骤的方法:",
+        "fvec":[]
+    },
+    {
+        "en":"Identify possible subjects , based on experience , a comparison of existing teaching material related to DH  and the TaDiRAH taxonomy of research activities ;",
+        "zh":"以经验为依据,确定可能的课题,比较现有教科文资料和研究活动的TaDiRAH分类法;",
+        "fvec":[]
+    },
+    {
+        "en":"Get feedback from researchers on possible subjects , based on the knowledge and skills they feel librarians need ;",
+        "zh":"根据图书馆员所需要的知识和技能,从研究人员中获得有关可能的主题的反馈;",
+        "fvec":[]
+    },
+    {
+        "en":"Get feedback from librarians on possible subjects , based on already known gaps in their knowledge and skills .",
+        "zh":"获取图书馆员关于可能的主题的反馈,根据他们的知识和技能的既知缺口。",
+        "fvec":[]
+    },
+    {
+        "en":"With these in hand , we will design the curriculum of clinics , based on the method of ' constructive alignment '  , to make sure that the intended learning objectives and the teaching / learning activities stay aligned .",
+        "zh":"在这些方面,我们将根据“建设性整合”的方法设计临床课程,以确保预期的学习目标和教学/学习活动保持一致。",
+        "fvec":[]
+    },
+    {
+        "en":"Our plan is to organize a maximum of 6 clinics , each one full day .",
+        "zh":"我们的计划是组织最多6个诊所,每个一个整天。",
+        "fvec":[]
+    },
+    {
+        "en":"Each day starts with one or more lectures by researchers , that address the conceptual knowledge needed .",
+        "zh":"每天开始由研究人员的一次或多个讲座,以解决需要的概念知识。",
+        "fvec":[]
+    },
+    {
+        "en":"The afternoon sessions will be devoted to the hands - on training of skills , following the Library Carpentry model as closely as possible .",
+        "zh":"下午的讨论会将以图书馆 Carpentry 模式进行技术培训,尽可能密切地进行技术培训.",
+        "fvec":[]
+    },
+    {
+        "en":"By having researchers provide the lecture sessions , we hope to fuel the enthusiasm of the librarians with the inspiration of direct contact with researchers and to provide access to a network within and across universities .",
+        "zh":"通过让研究人员提供讲座,我们希望通过直接接触与研究人员的启发,激发图书馆员的热情,并提供大学内部和大学间的网络。",
+        "fvec":[]
+    },
+    {
+        "en":"With these clinics , we hope to initiate a stream of DH activities in Dutch universities , making access to support easier for new digital scholars .",
+        "zh":"通过这些诊所,我们希望在荷兰大学开展一系列卫生保健活动,让新的数字学者更容易获得支持。",
+        "fvec":[]
+    },
+    {
+        "en":"The poster at DH2017 will present the curriculum , its position in the international context and offer the lessons learned from both the design process and the first clinics .",
+        "zh":"DH2017的海报将展示课程,其在国际范围内的地位,并从设计过程和第一所诊所中吸取的教训。",
+        "fvec":[]
+    },
+    {
+        "en":"We welcome discussion about our efforts and the possibilities of applying this in other contexts .",
+        "zh":"我们欢迎讨论我们的努力和在其他方面应用这一方法的可能性。",
+        "fvec":[]
+    },
+    {
+        "en":"It is no exaggeration to say that HBO ’s Game of Thrones is more than just a television series or a successful brand :",
+        "zh":"说HBO的“王位游戏”不仅仅是一个电视系列或成功的品牌是夸张的:",
+        "fvec":[]
+    },
+    {
+        "en":"it is a transmedia system in the sense first used by Marsha Kinder  and popularized by Henry Jenkins  , in which media - hopping networks of intertextualities extend the “ storyworld ” of an original production .",
+        "zh":"它是马莎·基恩特首次使用并由亨利·詹金斯 popularized的跨媒体系统,其中媒体跳跃网络的跨文本性扩展了原产物的“故事世界 ”。",
+        "fvec":[]
+    },
+    {
+        "en":"Now spanning six seasons and 60 episodes , with an average global viewership  of 25.1 million viewers per episode  , it has spawned five video games , a graphic novel adaptation , several companion books , two rap albums , a 28 - city orchestral tour , a wide variety of tabletop games , toys , merchandise and mobile apps , and countless podcasts , fanfics and other fan - based creations .",
+        "zh":"现在 spanning six seasons and 60 episodes, with an average global viewership of 25.1 million viewers per episode, it has spawned five video games, a graphic novel adaptation, several companion books, two rap albums, a 28 - city orchestral tour, a wide variety of tabletop games, toys, merchandise and mobile apps, and countless podcasts, fanfics and other fan - based creations 。",
+        "fvec":[]
+    },
+    {
+        "en":"Given the volume of content this represents , it is easy to forget that the television series itself is an adaptation of a book series with a pre-existing fandom .",
+        "zh":"考虑到这个内容的数量,很容易忘记电视连续剧本身是一部带有原先的狂热的书系列的adaptation。",
+        "fvec":[]
+    },
+    {
+        "en":"As such , the Game of Thrones storyworld represents a remarkably rich and challenging environment for fans old and new , who must negotiate an increasingly complex network of paratexts and intertexts in order to fully engage with its narratives .",
+        "zh":"因此,《王位游戏》的故事世界对于老和新迷来说是一个非常丰富而充满挑战的环境,他们必须谈判一个日益复杂的参数和语境网络,以便充分参与其叙事。",
+        "fvec":[]
+    },
+    {
+        "en":"In this sense , fans of the series represent an emerging model for cultural consumption that should be carefully explored .",
+        "zh":"在这方面,系列的粉丝代表了一个新兴的文化消费模式,应该仔细研究。",
+        "fvec":[]
+    },
+    {
+        "en":"Transmedia systems , like that exemplified by Game of Thrones , are becoming increasingly prevalent  ; these systems demonstrate , in microcosm , the global challenge of managing the fire - hose flow of information in contemporary postdigital society .",
+        "zh":"跨媒体系统,如《王位游戏》的例子,正日益普遍; 这些系统在微观空间中显示了管理现代后数字社会信息的消防管流动的全球挑战.",
+        "fvec":[]
+    },
+    {
+        "en":"The study of how people , as fans , access and manage information within a transmedia system provides valuable insight that contributes not only to practitioners and scholars of the media industry , but to the wider context of cultural studies , by offering findings on this new model of the fan as consumer and information - user .",
+        "zh":"研究人们作为粉丝如何在跨媒体系统中获取和管理信息提供了宝贵的洞察力,不仅对媒体业的实践者和学者作出了贡献,而且对文化研究的更广泛范围作出了贡献,通过提供关于 fan 作为消费者和信息使用者的新模式的发现。",
+        "fvec":[]
+    },
+    {
+        "en":"For us , as digital humanists , defining the “ transmedia fan ” is of particular relevance as we seek to understand contemporary social and cultural transformations engendered by digital technologies .",
+        "zh":"对于我们,作为数字人文主义者,定义“跨媒体爱好者”具有特殊意义,因为我们试图理解数字技术所产生的当代社会和文化转变。",
+        "fvec":[]
+    },
+    {
+        "en":"As a first step in defining the “ transmedia fan ” , the current project undertakes a comparative discourse analysis of online conversations of Game of Thrones fans .",
+        "zh":"作为定义“跨媒体粉丝”的第一步,本项目对“王位游戏”粉丝的在线对话进行比较性讨论分析。",
+        "fvec":[]
+    },
+    {
+        "en":"One of the most dramatic plot developments in the source material  was adapted to the screen in the penultimate episode of the third season , “ The Rains of Castamere ”  .",
+        "zh":"剧本中最戏剧性的情节之一在第三季的最后一集《卡斯塔米尔的雨》中被 adapted to the screen.",
+        "fvec":[]
+    },
+    {
+        "en":"Readers of the book series had long anticipated and dreaded the events of the “ Red Wedding ” , while fans of the show unfamiliar with Martin ’s narrative were largely taken unawares by the pivotal episode .",
+        "zh":"本书系列的读者早已预料到和害怕“红婚礼”的事件,而对马丁的叙事不熟悉节目的粉丝则大体上没有意识到这一关键事件。",
+        "fvec":[]
+    },
+    {
+        "en":"Since the television series ’ inception , writers at The AV Club have written two critical reviews for each episode :",
+        "zh":"自电视系列开始以来,AV俱乐部的编剧们对每一集都写了两个评论:",
+        "fvec":[]
+    },
+    {
+        "en":"What results are two completely separate reviews of “ The Rains of Castamere ” which in turn document the fans ’ reactions to the episode in the form of user comment threads :",
+        "zh":"结果是“卡斯塔米尔的雨”的两个完全独立的评论,这反过来以用户评论线程的形式记录了粉丝对该集的反应:",
+        "fvec":[]
+    },
+    {
+        "en":"As a pilot project , the current work takes the content of both comment threads — a corpus of approximately 5,600 comments — and analyzes each thread separately using a qualitative coding method aligned with constructivist grounded theory  .",
+        "zh":"作为一个试点项目,目前的工作将两个注释线程的内容 — — 约5,600个注释库 — — 分开分析每个线程,使用与建设主义基础理论一致的定性编码方法。",
+        "fvec":[]
+    },
+    {
+        "en":"Through this analysis , a categorization of themes emerges illustrating tactics for negotiating intertexts and paratexts unique to each group of fans .",
+        "zh":"通过这一分析,提出一种主题分类,说明了对每个 Fan 群体独特的相互语文和副语文进行谈判的策略。",
+        "fvec":[]
+    },
+    {
+        "en":"These themes fall under two broad categories :",
+        "zh":"这些主题属于两个广泛的范畴:",
+        "fvec":[]
+    },
+    {
+        "en":"A comparison of categories and sub-categories between both groups provides preliminary findings to support an emergent model , or models , of the “ transmedia fan ” .",
+        "zh":"两组类别和分类别的比较为支持“跨媒体迷”的新兴模型提供了初步的发现。",
+        "fvec":[]
+    },
+    {
+        "en":"The present research represents a first step in exploring the impact of transmedia systems , as exemplified by Game of Thrones , through the study of fans .",
+        "zh":"本研究是探索跨媒体系统的影响的第一步,以《王位游戏》为例,通过对粉丝的研究。",
+        "fvec":[]
+    },
+    {
+        "en":"The question posed by this research is , fundamentally , an examination of how the problem of “ access ” is framed in postdigital society from the perspective of the consumer .",
+        "zh":"本文提出的问题是, 从消费者的角度来看,如何在后数字社会构造“访问”问题。",
+        "fvec":[]
+    },
+    {
+        "en":"Future research should explore the negotiation tactics observed in transmedia fans using the principles of De Certeau ’s  everyday life practice , in order to extend its application to the broader context of modern - day consumers .",
+        "zh":"未来研究应探讨在跨媒体粉丝中观察到的谈判策略,使用德·塞特奥的日常生活实践原则,以便将其应用于现代消费者的更广泛的范围。",
+        "fvec":[]
+    },
+    {
+        "en":"The current study will contribute to the development of further qualitative and quantitative research that will more clearly define the information behaviors of the transmedia fan .",
+        "zh":"本研究将有助于进一步的质量和定量研究,以更明确地界定跨媒体风扇的信息行为。",
+        "fvec":[]
+    },
+    {
+        "en":"This project is of relevance to researchers in media studies , fan studies , information studies and digital humanities .",
+        "zh":"该项目对媒体研究 、 粉丝研究 、 信息研究和数字人文科学的研究者具有重要意义.",
+        "fvec":[]
+    },
+    {
+        "en":"Salinity is one of the most important marine parameters , which controls many processes such as physical circulations , biogeochemistry dynamics from regional to global ocean  .",
+        "zh":"盐度是海洋中最重要的参数之一,它控制许多过程,如物理循环、区域到全球海洋生物化学动力学。",
+        "fvec":[]
+    },
+    {
+        "en":"Although drifters and buoys , together with cruises , have accumulated large amount in - situ water salinity data in different regions , it is still difficult to monitor global ocean salinity with high temporal - spatial resolution by the in situ measurements .",
+        "zh":"虽然漂流船和浮游船和巡航船在不同地区积累了大量 实地 水盐度数据,但仍难以通过实地测量以高时空分辨率监测全球海洋盐度。",
+        "fvec":[]
+    },
+    {
+        "en":"In the past decade , with the successful launch of the soil moisture and ocean salinity  satellite by the European Space Agency   , the Aquarius / SAC-D satellite  , and the soil moisture active passive  satellite  by the National Aeronautics and Space Administration  , global sea surface salinity  observations from space have become possible and a significant improvement has been made to understand the ocean dynamics and climate change .",
+        "zh":"在过去十年中,随着欧洲空间局成功发射的土壤湿度和海洋盐度卫星,以及国家航空航天局发射的土壤湿度主动消极卫星,全球海洋表面盐度的空间观测成为可能,为了解海洋动态和气候变化作出了重大改进。",
+        "fvec":[]
+    },
+    {
+        "en":"The early concept of remote sensing of SSS has been demonstrated in the late 1970s with observations by Skylab  and two airborne L - band radiometry experiments  .",
+        "zh":"SSS遥感的早期概念在70年代晚期通过Skylab的观测和两个空中L带无线电测量实验证明了.",
+        "fvec":[]
+    },
+    {
+        "en":"At the end of 1990 , two airborne microwave interferometers , the electronically scanned thinned array radiometer  and the scanning low - frequency microwave radiometer  , successfully produced SSS maps in coastal areas in agreement with in - situ measurements with an accuracy of about 1 psu .",
+        "zh":"1990年底, 两台 空中 微波干涉仪 、 电子扫描薄型阵列雷达仪和扫描低频微波雷达仪, 成功地在沿岸地区与现场测量的配合下,制作了大约1 psu的SSS地图.",
+        "fvec":[]
+    },
+    {
+        "en":"Based on many experiments , the L - band is evidenced as the optimal frequency for remote sensing of SSS , which has been adopted by SMOS , Aquarius / SAC-D and SMAP .",
+        "zh":"基于许多实验, L - 带被证明为SSS遥感的最佳频率, SMOS 、 Aquarius / SAC-D 和 SMAP采用.",
+        "fvec":[]
+    },
+    {
+        "en":"However , the sensitivity of satellite measured brightness temperature to SSS is quite low .",
+        "zh":"然而, 卫星测量的亮度温度对SSS的敏感度相当低.",
+        "fvec":[]
+    },
+    {
+        "en":"For example , the sensitivity of vertically polarized brightness temperature to SSS variation is 0.4 to 0.8 K/psu for different observing angles and sea surface temperatures  , and it is only 0.2 to 0.6 K/psu for the horizontal polarization brightness temperature  .",
+        "zh":"例如,垂直偏振的亮度温度对SSS变异的敏感度为不同观测角度和海面温度0.4至0.8K/psu,水平偏振的亮度温度只有0.2至0.6K/psu。",
+        "fvec":[]
+    },
+    {
+        "en":"Thus , remote sensing of SSS requires a highly accurate retrieval model .",
+        "zh":"因此, SSS遥感需要一种高精度的检索模型。",
+        "fvec":[]
+    },
+    {
+        "en":"It is widely accepted that the corrections of the sea surface and atmospheric effects are essential for remote sensing of SSS , since these effects could alter the value of sensor - measured brightness temperature and introduce errors into the SSS retrieval process .",
+        "zh":"人们普遍认为海洋表面和大气效应的修正对于遥感SSS至关重要,因为这些效应可能改变传感器测定的亮度温度值,并使SSS检索过程产生误差。",
+        "fvec":[]
+    },
+    {
+        "en":"Besides the atmospheric effects , the increasing of sea surface emissivity due to the sea surface roughness and foam effects is the main source of error , which could significantly hamper the accuracy of SSS retrieval  .",
+        "zh":"除大气效应外,由于海面粗糙度和泡沫效应导致海面发射率的增加是误差的主要原因,这可能严重阻碍了SSS检索的准确性。",
+        "fvec":[]
+    },
+    {
+        "en":"Over the past decades , the correction for sea surface roughness effects were studied based on the in - situ and airborne measurements ; for example , the experiments made from a tower  , wind and salinity experiments   , airborne Passive - Active L - band Sensor  campaign  and Combined Airborne Radio instruments for Ocean and Land Studies  campaigns  .",
+        "zh":"过去几十年来, 对海面粗糙度的影响进行了基于现场和空中测量的修正研究; 例如, 从塔上进行的实验, 风和盐度实验, 空中进行的 passive - active L - band 传感器运动和海洋和陆地研究联合空中无线电仪器运动.",
+        "fvec":[]
+    },
+    {
+        "en":"Many rough surface emission models have also been developed based on the theoretical and empirical methods .",
+        "zh":"基于理论和实证方法,开发了许多粗糙表面排放模型。",
+        "fvec":[]
+    },
+    {
+        "en":"Among these models , the small - slope approximation / small perturbation model   , two scale model   and empirical / semi-empirical models  have been widely used by the research community and implemented in different satellite data processing systems .",
+        "zh":"在这些模型中,小坡近似/小扰动模型、二维尺度模型和实证/半实证模型被研究界广泛应用,并在不同卫星数据处理系统中实现。",
+        "fvec":[]
+    },
+    {
+        "en":"As the foam effect is significant at high wind speed conditions  due to strong wave breaking , it has been corrected by numerous models ; for example , the semi-empirical models  and radiative transfer equation  based models  , which were developed to estimate the foam covered sea surface emissivity .",
+        "zh":"由于泡沫效应在高风速条件下由于强波破坏而显著,已经通过数种模型加以修正;例如,半empirical模型和放射性转移方程的模型,是用来估计泡沫覆盖海面发射率的。",
+        "fvec":[]
+    },
+    {
+        "en":"Although many theoretical and empirical models have been developed , some problems are still unsolved .",
+        "zh":"虽然有许多理论和实证模型已经开发,但一些问题仍未解决。",
+        "fvec":[]
+    },
+    {
+        "en":"For example , the TSM originally proposed to estimate brightness temperature at higher frequencies , uses the sea surface wave spectrum by multiplying a factor of 2 .",
+        "zh":"例如,TSM最初提议在较高频率估计亮度温度,利用海面波谱乘法2。",
+        "fvec":[]
+    },
+    {
+        "en":"However , whether this modification can be applied to L - band is still unclear , and the choice of cutoff wavenumber is arbitrary and needs to be clarified in the L - band .",
+        "zh":"然而, 该修改是否适用于L - 带仍然不清楚, 切断电阻的选择是任意的,需要在L - 带中澄清.",
+        "fvec":[]
+    },
+    {
+        "en":"Moreover , the sea surface reflection of downwelling atmospheric emission is another contribution to satellite - observed brightness temperature  , thus the determination of the cutoff wavenumber is required not only for sea surface emission but also for reflection .",
+        "zh":"此外, 下游大气排放的海面反射是卫星观测的亮度温度的另一个贡献,因此对海面排放的断层波谱的测定不仅是海面辐射的测定,也是反射的测定。",
+        "fvec":[]
+    },
+    {
+        "en":"In addition , the widely used empirical models decouple the wind effect from SSS and SST effects , which means that the surface emission is due to a perfectly flat sea surface and the wind - roughened sea surface .",
+        "zh":"此外, 广泛应用的实证模型将风力效应与SSS和SST效应分开,这意味着表面排放是完全平坦的海面和风力粗糙的海面造成的.",
+        "fvec":[]
+    },
+    {
+        "en":"The wind - roughened sea surface is associated with the increased brightness temperature  , which induces regional biases when applied to different areas  .",
+        "zh":"风变的海面与提高亮度温度有关, 在不同地区应用时会引起区域偏差。",
+        "fvec":[]
+    },
+    {
+        "en":"Furthermore , the satellite measurements of SSS are hampered by the effect of radio frequency interference  in offshore areas of China  , which causes a large amount of data to be discarded  .",
+        "zh":"此外,卫星测定的SSS受到中国海滨地区无线电频干扰的影响,造成大量数据被丢弃。",
+        "fvec":[]
+    },
+    {
+        "en":"Thus , the compatibility of these models in coastal area of China needs to be assessed and tested in order to achieve higher accuracies of SSS from the space - borne observations .",
+        "zh":"因此, 在我国沿海地区对这些模型的相容性需要评估和测试,以提高空间载体观测的SSS精度。",
+        "fvec":[]
+    },
+    {
+        "en":"Cognitive games involve a number of different games working aspects of human cognition , while proposing the intersection between the sets of concepts , fun and cognition , for the improvement of cognitive functions .",
+        "zh":"认知游戏涉及人类认知的若干不同的游戏工作方面,同时提出了概念、娱乐和认知的交叉点,以改善认知功能。",
+        "fvec":[]
+    },
+    {
+        "en":"The attention is the main point made in this study , since it is fundamental to the learning process and be recurring complaint among parents and teachers in schools .",
+        "zh":"注意是本研究的重点,因为它对学习过程具有根本性意义,是学校家长和教师的不断抱怨。",
+        "fvec":[]
+    },
+    {
+        "en":"With respect to the contributions of digital games to improvement of cognitive processes , researchers suggest that regular practice has a significant influence on improving the performance related to basic visual skills  ; on the ability to perceive objects simultaneously  ; and on the ability to do more than one task at the same time  .",
+        "zh":"关于数字游戏对认知过程的改善的贡献,研究人员认为常规实践对提高基本视觉技能的性能、同时感知对象的能力以及同时完成多个任务的能力有重要影响。",
+        "fvec":[]
+    },
+    {
+        "en":"Other studies specifically investigate the use of digital games in the school context and suggest potential for digital game use to improve of student 's attention span at preschool age  , to improve overall intelligence capacity of elementary school children  , and to better performance of working memory ability  .",
+        "zh":"其他研究具体研究了数字游戏在学校环境中的应用,并提出数字游戏在学龄前提高学生的注意力 span 、 提高小学儿童的整体智力能力以及提高工作记忆能力的潜力。",
+        "fvec":[]
+    },
+    {
+        "en":"Considering the importance of the proper functioning of attention , because of its involvement in the regulation of thoughts and emotions , maintaining the performance of this process is very important , especially in school , where the child must acquire content in an environment full of countless distractors .",
+        "zh":"考虑到注意力的适当运作的重要性,由于它参与了思想和情绪的调节,保持这一过程的执行是十分重要的,特别是在学校,儿童必须在充满无数的干扰因素的环境中获得内容。",
+        "fvec":[]
+    },
+    {
+        "en":"The study in question focuses on the attention , proposing and evaluation in the context of the classroom .",
+        "zh":"研究的重点是课堂上的注意 、 建议和评价.",
+        "fvec":[]
+    },
+    {
+        "en":"Thus , it suggests the use of digital games in an integrated way the school activities in the classroom .",
+        "zh":"因此,它建议将数字游戏应用于学校的课堂活动。",
+        "fvec":[]
+    },
+    {
+        "en":"The games have features like increasing challenges , rules that establish what can and can not be done , and involvement of the player in the quest to gain skills and win the game  .",
+        "zh":"游戏具有增加挑战的特性,确定可以和不能做的事的规则,以及玩家参与获取技能和赢得游戏的探索。",
+        "fvec":[]
+    },
+    {
+        "en":"We aim to investigate the contributions of the use of a system that integrates cognitive digital games to a database , of the Escola do Cérebro , for monitoring and improvement of cognitive skills , highlighting the attention .",
+        "zh":"我们的目标是研究一种将认知数字游戏集成到数据库的系统,用于监测和提高认知技能的贡献,突出注意。",
+        "fvec":[]
+    },
+    {
+        "en":"The games involve challenges and rules involving the exercise of cognitive functions , especially the working memory , attention and capacity of solving problems .",
+        "zh":"游戏涉及认知功能的挑战和规则,特别是工作记忆、注意力和解决问题的能力。",
+        "fvec":[]
+    },
+    {
+        "en":"The study combines qualitative and quantitative approaches .",
+        "zh":"该研究结合了质量和数量的方法。",
+        "fvec":[]
+    },
+    {
+        "en":"It collects the data based on the observation of the proposed interventions as well as interviews conducted with participating teachers and students to identify their perceptions of digital games ’ contributions to the learning process .",
+        "zh":"它收集了基于对拟议的干预措施的观察以及与参与教师和学生进行的访谈的数据,以确定他们对数字游戏对学习过程的贡献的认知。",
+        "fvec":[]
+    },
+    {
+        "en":"Furthermore , before and after the implementation of the intervention , we performed a D2 Test of attention that measures selective and sustained attention , as well as visual scanning accuracy and speed .",
+        "zh":"此外,在介入的实施前和之后,我们进行了对注意力的D2测试,以测定选择性和持续注意力,以及视觉扫描的准确性和速度。",
+        "fvec":[]
+    },
+    {
+        "en":"The intervention consisted in the use of the Escola do Cérebro , using tablets in the classroom , daily for a period of five weeks .",
+        "zh":"这项干预包括在教室里每天使用小板,为期5周。",
+        "fvec":[]
+    },
+    {
+        "en":"The sample consisted of 71 students of the Application School of Basic Education , Federal University of Santa Catarina , aged 7 and 9 years old  , which were divided into two groups : participant and control .",
+        "zh":"该样本由圣卡塔里纳联邦大学基础教育应用学校的71名7岁和9岁学生组成,他们分成两个组:参与者和控制者。",
+        "fvec":[]
+    },
+    {
+        "en":"The first  participated in the intervention , the control group  was only evaluated using the test before and after the same time interval of interventions .",
+        "zh":"首先参与了干预,控制组只在干预的时间间隔前后进行测试。",
+        "fvec":[]
+    },
+    {
+        "en":"The Escola do Cérebro is a platform that integrates seven digital games into a database .",
+        "zh":"Escola do Cérebro是一个集成七个数字游戏到数据库的平台。",
+        "fvec":[]
+    },
+    {
+        "en":"The application allows visualization of the player 's performance and offers the possibility of monitoring by teachers .",
+        "zh":"该应用程序允许可视化玩家的表现,并提供教师监测的可能性。",
+        "fvec":[]
+    },
+    {
+        "en":"Students have their scores measured by four variables : time , speed , stability and accuracy .",
+        "zh":"学生们的分数由四个变量测定:时间、速度、稳定性和准确性。",
+        "fvec":[]
+    },
+    {
+        "en":"A statistical analysis was performed based on the application of the paired t - test on the difference of the overall score obtained in the test before and after the intervention in the two groups .",
+        "zh":"通过对两组的干预前后综合评分的差异,对两组的干预前和后综合评分进行了统计分析。",
+        "fvec":[]
+    },
+    {
+        "en":"The difference in the results obtained from the application of D2 Test of attention before and after was statistically significant  , the participant group had mean and standard deviation 60.23  respectively , while the control group was 20.00  .",
+        "zh":"应用D2注意测试前后的结果差异是统计上显著的,参与者组平均和标准偏差分别为60.23,控制组为20.00。",
+        "fvec":[]
+    },
+    {
+        "en":"The result indicates significant improvement in the performance of the sustained attention in the test , as well as a high dispersion , which reveals a variation in relation to the performance .",
+        "zh":"结果表明,在测试中持续注意的性能显著提高,并表现出高分散性,这显示了与性能的差异。",
+        "fvec":[]
+    },
+    {
+        "en":"In addition , students participating in the interview reported a preference for games that involve problem solving , recognize the need to plan actions in relation to their importance for the game and for daily activities , and realize improvements in the ability to sustain attention .",
+        "zh":"此外,参加面试的学生对涉及解决问题的游戏有偏好,认识到需要在游戏和日常活动方面规划行动,并认识到保持注意力的能力有所改善。",
+        "fvec":[]
+    },
+    {
+        "en":"The teachers observed changes after the intervention , emphasizing the greater persistence and involvement in school activities , and in some students , improvement in the ability to sustain attention .",
+        "zh":"教师们观察了干预后的变化,强调在学校活动中的持续性和参与程度的提高,在一些学生中,注意持续能力的提高。",
+        "fvec":[]
+    },
+    {
+        "en":"From this , we conclude that an intervention based on cognitive digital games offers contributions to the learning process and improvement of sustained attention .",
+        "zh":"由此得出,基于认知数字游戏的干预对学习过程和持续注意力的提高有贡献。",
+        "fvec":[]
+    },
+    {
+        "en":"Tenured and tenure - track university faculty play a special role in determining the speed and direction of scientific progress , both directly through their research and indirectly through their training of new researchers .",
+        "zh":"长期和长期的大学教师在确定科学进步的速度和方向方面发挥了特殊作用,既直接通过研究,又间接地通过培训新研究者。",
+        "fvec":[]
+    },
+    {
+        "en":"Past studies establish that each of these efforts is strongly and positively influenced through various forms of faculty diversity , including ethnic , racial , and gender diversity .",
+        "zh":"过去的研究表明,这些努力都通过各种形式的教师多样性,包括种族、种族和性别多样性,产生强烈和积极的影响。",
+        "fvec":[]
+    },
+    {
+        "en":"As an example , research shows that greater diversity within a community or group can lead to improved critical thinking  and more creative solutions to complex tasks  by pairing together individuals with unique skillsets and perspectives that complement and often augment the abilities of their peers .",
+        "zh":"例如,研究表明,社区或群体内部的更大多样性可以导致改进的批判性思维和更创造性的解决复杂任务,通过结合个人具有独特的技能和视角来补充和经常增强同龄人的能力。",
+        "fvec":[]
+    },
+    {
+        "en":"Additionally , diversity has been shown to produce more supportive social climates and effective learning environments  , which can facilitate the mentoring of young scientists .",
+        "zh":"此外, 多样性 已经 证明 能够 产生 更 支持性 的 社会 气候 和 有效 的 学习环境, 可以 促进 年轻 科学家 的 指导 。",
+        "fvec":[]
+    },
+    {
+        "en":"Despite these positive effects , however , quantifying the impact of diversity in science remains exceedingly difficult , due in large part to a lack of comprehensive data about the scientific workforce .",
+        "zh":"尽管有这些积极影响,但对科学多样性的影响的定量仍然非常困难,这主要是由于缺乏关于科学劳动力的全面数据。",
+        "fvec":[]
+    },
+    {
+        "en":"Measuring the composition and dynamics of a scientific workforce , particularly in a rapidly expanding field like computer science , is a crucial first step toward understanding how scholarly research is conducted and how it might be enhanced .",
+        "zh":"测定科研人员的组成和动态,特别是在计算机科学等迅速发展的领域中,是理解如何进行学术研究和如何加强学术研究的首要步骤。",
+        "fvec":[]
+    },
+    {
+        "en":"For many scientific fields , however , there is no central listing of all tenure - track faculty , making it difficult to define a rigorous sample frame for analysis .",
+        "zh":"然而, 对于许多科学领域, 没有中央列出所有任教教师的名单, 因此很难确定一个严格的样本框架来进行分析.",
+        "fvec":[]
+    },
+    {
+        "en":"Further , rates of adoption of services like GoogleScholar and ResearchGate vary within , and across disciplines .",
+        "zh":"此外, GoogleScholar 和 ResearchGate 等服务的采用率在不同学科中有所不同。",
+        "fvec":[]
+    },
+    {
+        "en":"For instance , gender representation in computing is an important issue with broad implications  , but without a full census of computing faculty , the degree of inequality and its possible sources are difficult to establish  .",
+        "zh":"例如,计算机中的性别代表性是一个具有广泛影响的重要问题,但没有全面统计计算机学院的人数,就很难确定不平等程度及其可能来源。",
+        "fvec":[]
+    },
+    {
+        "en":"Some disciplines , like political science , are organized around a single professional society , whose membership roll approximates a full census  .",
+        "zh":"一些学科,如政治学,是围绕一个专业社会组织起来的,其成员名单接近一个完整的人口普查。",
+        "fvec":[]
+    },
+    {
+        "en":"Most fields , on the other hand , including computer science , lack a single all - encompassing organization and membership information is instead distributed across many disjoint lists , such as web - based faculty directories for individual departments .",
+        "zh":"大多数领域, 另一方面, 包括计算机科学, 缺乏一个整体的组织,而成员信息却被分配到许多不同的名单上, 例如基于网络的个别部门的教师目录.",
+        "fvec":[]
+    },
+    {
+        "en":"Because assembling such a full census is difficult , past studies have tended to avoid this task and have instead used samples of researchers  , usually specific to a particular field  , and often focused on the scientific elite  .",
+        "zh":"由于汇编这样一个完整的人口普查是困难的,过去的研究往往避免了这一任务,而是使用了研究者的样本,通常是针对特定领域的样本,而且往往集中于科学精英。",
+        "fvec":[]
+    },
+    {
+        "en":"Although useful , such samples are not representative of the scientific workforce as a whole and thus have limited generalizability .",
+        "zh":"这些样品虽然有用,但并不代表整个科研人员,因而具有有限的推广性。",
+        "fvec":[]
+    },
+    {
+        "en":"One of the largest census efforts to date assembled , by hand , a nearly complete record of three academic fields : computer science , history , and business  .",
+        "zh":"这是迄今为止最大规模的人口普查工作之一,由手编制,几乎完整记录了三个学术领域:计算机科学、历史和商业。",
+        "fvec":[]
+    },
+    {
+        "en":"This data set has shed considerable light on dramatic inequalities in faculty training , placement , and scholarly productivity  .",
+        "zh":"这些数据对教师培训、配置和学术生产率的巨大不平等性进行了显著的启示。",
+        "fvec":[]
+    },
+    {
+        "en":"But , this data set is only a single snapshot of an evolving and expanding system and hence offers few insights into the changing composition and diversity trends within these academic fields .",
+        "zh":"但是,这个数据集只是一个不断演变和扩大的系统 snapshot,因此对这些学术领域中变化的组成和多样性趋势提供很少的洞察。",
+        "fvec":[]
+    },
+    {
+        "en":"In some fields , yearly data on faculty numbers and composition are available in aggregate .",
+        "zh":"在某些领域,每年的教师人数和组成数据是综合的。",
+        "fvec":[]
+    },
+    {
+        "en":"In computer science , the Computing Research Association  documents trends in the employment of PhD recipients through the annual Taulbee survey of computing departments in North America  .",
+        "zh":"在计算机科学领域,计算机研究协会通过每年北美洲计算机部门的Taulbee调查记录了博士学位获得者就业趋势。",
+        "fvec":[]
+    },
+    {
+        "en":"Such surveys can provide valuable insight into trends and summary statistics on the scientific workforce but suffer from two key weaknesses .",
+        "zh":"这些调查可以提供对科学劳动力的趋势和总结统计的宝贵洞察,但存在两个关键的弱点。",
+        "fvec":[]
+    },
+    {
+        "en":"First , surveys are subject to variable response rates and the misinterpretation of questions or sample frames , which can inject bias into fine - grained analyses  .",
+        "zh":"首先, 调查的响应率是变的,问题或样本框架的误解可能使偏见注入细粒分析.",
+        "fvec":[]
+    },
+    {
+        "en":"Second , aggregate information provides only a high - level view of a field , which can make it difficult to investigate causality  .",
+        "zh":"其次, 综合信息只能提供一个高层次的视角, 从而使研究因果关系变得困难.",
+        "fvec":[]
+    },
+    {
+        "en":"For example , differences in recruitment and retention strategies across departments will be washed out by averaging , thereby masking any insights into the efficacy of individual strategies and policies .",
+        "zh":"例如,各部门的招聘和留任策略的差异将通过平均化消除,从而掩盖任何对个别战略和政策的有效性的认识。",
+        "fvec":[]
+    },
+    {
+        "en":"Here , we present a novel system , based on a topical web crawler , that can quickly and automatically assemble a full census of an academic field using digital data available on the public World Wide Web .",
+        "zh":"这里,我们提出了一种基于主题的网络爬行器的新系统,它可以快速和自动建立一个学术领域完整的人口普查,使用在公开的互联网上可用的数字数据。",
+        "fvec":[]
+    },
+    {
+        "en":"This system is efficient and accurate , and it can be adapted to any academic discipline and used for continuous collection .",
+        "zh":"该系统是高效、准确的,可适应任何学科,并用于连续收集。",
+        "fvec":[]
+    },
+    {
+        "en":"The system is capable of collecting census data for an entire academic field in just a few hours using off - the - shelf computing hardware , a vast improvement over the roughly 1600 hours required to do this task by hand  .",
+        "zh":"该系统能够在几小时内为整个学术领域收集人口普查数据,使用离货柜的计算机硬件,比手工完成这项任务所需的大约1600小时要大得多。",
+        "fvec":[]
+    },
+    {
+        "en":"By assembling an accurate census of an entire field from online information alone , this system will facilitate new research on the composition of academic fields by providing access to complete faculty listings , without having to rely on surveys or professional societies .",
+        "zh":"通过由网上资料收集整个学科的准确人口普查,通过提供完整的教职人员名单,而无需依靠调查或专业协会,将有助于对学术领域的组成进行新的研究。",
+        "fvec":[]
+    },
+    {
+        "en":"This system can also be used longitudinally to study how the workforce ’s composition changes over time , which is particularly valuable for evaluating the effectiveness of policies meant to broaden participation or improve retention of faculty .",
+        "zh":"该系统也可以长期地用于研究劳动力组成的随时间变化,这对于评估旨在扩大参与或改善教师留任的政策的有效性尤为有价值。",
+        "fvec":[]
+    },
+    {
+        "en":"Finally , applied to many academic fields in parallel , the system can elucidate scientists ’ movement between different disciplines and relate those labor flows to scientific advances .",
+        "zh":"最后,应用于许多学术领域并行,该系统可以解释科学家在不同学科间的运动,并将这些劳动力流动与科学进步联系起来。",
+        "fvec":[]
+    },
+    {
+        "en":"In short , many important research questions will benefit from the availability of accurate and frequently - recollected census data .",
+        "zh":"简言之, 许多重要的研究问题将受益于准确而经常记载的人口普查数据的可用性.",
+        "fvec":[]
+    },
+    {
+        "en":"Our study is organized as follows .",
+        "zh":"我们的研究内容如下:",
+        "fvec":[]
+    },
+    {
+        "en":"We begin by detailing the design and implementation of our web crawler framework .",
+        "zh":"我们首先详细地设计和实现我们的网页 crawler框架。",
+        "fvec":[]
+    },
+    {
+        "en":"Next , we present the results of our work in two sections .",
+        "zh":"接下来,我们将我们的工作成果分两部分介绍。",
+        "fvec":[]
+    },
+    {
+        "en":"The first demonstrates the validity and utility of the crawler by collecting census data for the field of computer science and comparing it to a hand - curated census , collected in 2011  .",
+        "zh":"首先,通过对计算机科学领域人口普查数据的收集和与2011年收集的手编人口普查进行比较,证明了该工具的有效性和实用性。",
+        "fvec":[]
+    },
+    {
+        "en":"The second provides an example of the type of research enabled by our system and uses the 2011 and 2017 censuses to investigate the “ leaky pipeline ” problem in faculty retention .",
+        "zh":"第二部分提供了我们系统所提供的研究类型的例子,并利用2011年和2017年的人口普查调查调查了“漏水管道”问题在教职人员的留置。",
+        "fvec":[]
+    },
+    {
+        "en":"Suilen H. Alvarado Laboratorio de Bases de Datos Campus de Elviña , Centro de investigación CITIC , Universidade da Coruña , 15071 A Coruña , Spain ; s.hernandez@udc.es",
+        "zh":"Suilen H. Alvarado Laboratorio de Bases de Datos Campus de Elviña, Centro de investigación CITIC, Universidade da Coruña, 15071 A Coruña, 西班牙 ; s.hernandez@udc.es",
+        "fvec":[]
+    },
+    {
+        "en":"Presented at the 2nd XoveTIC Congress , A Coruña , Spain , 5 – 6 September 2019 .",
+        "zh":"于2019年9月5日至6日在西班牙阿科鲁纳举行的第二届 XoveTIC大会上展出。",
+        "fvec":[]
+    },
+    {
+        "en":"In this article , we propose the definition of specific mutation operators for testing Geographic Information Systems .",
+        "zh":"本文提出了对地理信息系统测试的特定变异演算符的定义。",
+        "fvec":[]
+    },
+    {
+        "en":"We describe the process for applying the operators and generating mutants , and present a case study where these mutation operators are applied to two real - world applications .",
+        "zh":"本文描述了应用变异器和生成变异器的过程, 并提出一种应用变异器的实例研究.",
+        "fvec":[]
+    },
+    {
+        "en":"Keywords : mutation operators ; geographic information systems ; mutation testing",
+        "zh":"关键字:突变操作器;地理信息系统;突变测试",
+        "fvec":[]
+    },
+    {
+        "en":"Mutation - based testing  is a test technique that involves artificially introducing errors into a System Under Test  .",
+        "zh":"变换式测试是一种测试技术,它涉及人工将错误引入测试中的系统.",
+        "fvec":[]
+    },
+    {
+        "en":"A mutant is a copy of the system in which a change has been done that , in most cases , will lead to a behaviour different than expected .",
+        "zh":"变种是发生变化的系统复制品,在大多数情况下会导致不同于预期的行为。",
+        "fvec":[]
+    },
+    {
+        "en":"The different mutants are generated automatically by the application of mutation operators .",
+        "zh":"不同的变异体通过变异运算子的应用自动生成。",
+        "fvec":[]
+    },
+    {
+        "en":"In the state of the art , we have found mutation operators , both general purpose and specific to different technologies , languages and paradigms  .",
+        "zh":"在现代技术中,我们已经发现变异演算器,它们既具有一般目的,又具有不同技术、语言和范式的特点。",
+        "fvec":[]
+    },
+    {
+        "en":"However , these operators are not adequate when trying to test software features associated with specific domains .",
+        "zh":"然而,在尝试测试与特定领域相关的软件功能时,这些操作器并不足够。",
+        "fvec":[]
+    },
+    {
+        "en":"In this article , we propose mutation operators specific to the domain of Geographic Information Systems  applications .",
+        "zh":"本文提出了地理信息系统应用领域特异的变异演算子。",
+        "fvec":[]
+    },
+    {
+        "en":"These operators reproduce programming errors that are litely to occur during the development of this type of applications .",
+        "zh":"这些操作器复制在开发这类应用程序时会发生的一些编程错误。",
+        "fvec":[]
+    },
+    {
+        "en":"In addition , we present the implementation of these operators and as proof of concept we apply these operators to two real - world GIS applications and we generate the mutants .",
+        "zh":"此外, 介绍了这些操作器的实现,作为概念的证明,我们将这些操作器应用到两个实世界地理信息系统应用中,并生成 mutants。",
+        "fvec":[]
+    },
+    {
+        "en":"As a previous step to designing the mutation operators , we analyzed the main technologies used specifically in the development of GIS , and we identified typical errors a programmer can introduce during the development .",
+        "zh":"作为设计变异操作器的先决步骤,我们分析了GIS开发中特别使用的主要技术,并确定了程序员在开发过程中可能出现的典型错误。",
+        "fvec":[]
+    },
+    {
+        "en":"These errors were formalized into mutation operators .",
+        "zh":"这些错误被正式化为突变操作器。",
+        "fvec":[]
+    },
+    {
+        "en":"In order to apply these operators to a SUT , we rely on Java reflection and aspect - oriented programming .",
+        "zh":"为了应用这些操作器在SUT中, 我们依靠Java反射和面向视角的编程.",
+        "fvec":[]
+    },
+    {
+        "en":"Reflection allows us to obtain the list of classes and methods of the SUT , so the user can decide the methods to wish the operators will be applied .",
+        "zh":"反射允许我们获取SUT的类和方法列表,这样用户可以决定要应用的操作符的方法。",
+        "fvec":[]
+    },
+    {
+        "en":"Later , we capture information about the methods of the SUT to be mutated , together with the information of the mutation operators that were already defined .",
+        "zh":"之后,我们收集了关于应变的UT方法的资料,以及已经定义的变换操作者的信息。",
+        "fvec":[]
+    },
+    {
+        "en":"From these data , we generate the mutation operator , in the form of on aspect , which will then be possible to interweave with the SUT which generates a mutant of the SUT .",
+        "zh":"从这些数据中,我们生成了变异运算子,以上维形式,然后可以与SUT产生变异的SUT进行交织。",
+        "fvec":[]
+    },
+    {
+        "en":"Next , we describe the definition of two operators and two cases of application on real - world GIS applications .",
+        "zh":"其次, 叙述了两个操作员的定义和实时 地理信息系统应用的两个例子.",
+        "fvec":[]
+    },
+    {
+        "en":"It exchanges the coordinate system of a geometry , so it does not match the coordinate system that is being used in the user interface .",
+        "zh":"它交换了几何坐标系统,所以它不匹配在用户界面中使用的坐标系统。",
+        "fvec":[]
+    },
+    {
+        "en":"It simulates the error of not checking that the coordinate system is correct .",
+        "zh":"它模拟了不检查坐标系统是否正确的错误。",
+        "fvec":[]
+    },
+    {
+        "en":"The error is introduced by directly modifying the coordinate system of geometry when recovering the wrapping of the figure .",
+        "zh":"该误差是通过直接修改几何坐标系统来恢复图形的包装。",
+        "fvec":[]
+    },
+    {
+        "en":"Listing 1 : A simplified definition of the ChangeCoordSys Operator .",
+        "zh":"清单1: 简化了ChangeCoordSys操作符的定义.",
+        "fvec":[]
+    },
+    {
+        "en":"This operator was applied to a mobile technology GIS application .",
+        "zh":"该操作器应用于一种移动技术GIS应用。",
+        "fvec":[]
+    },
+    {
+        "en":"This application allows registering places of interest for the user .",
+        "zh":"这个应用程序允许用户注册感兴趣的地方。",
+        "fvec":[]
+    },
+    {
+        "en":"These areas of interest are called Geofences .",
+        "zh":"这些感兴趣的领域称为地质学。",
+        "fvec":[]
+    },
+    {
+        "en":"A Geofence is determined by a geographical location expressed in terms of latitude , longitude , and a radius around that location .",
+        "zh":"地理防护是由地理的位置决定的,以纬度 、 长度 、 和周围的半径表示。",
+        "fvec":[]
+    },
+    {
+        "en":"By creating a Geofence with an erroneous location from its central location , the device will receive incorrect location notifications .",
+        "zh":"通过从其中央位置创建一个具有错误位置的地球防御器,该设备将收到错误位置通知。",
+        "fvec":[]
+    },
+    {
+        "en":"As a result , the user will see in the application ’s map viewer the Geofences drawn in erroneous zones  .",
+        "zh":"结果,用户将在应用程序的地图查看器中看到在错误区域绘制的地标。",
+        "fvec":[]
+    },
+    {
+        "en":"Figure 1 . Original and mutant application .",
+        "zh":"图1.原型和变种应用。",
+        "fvec":[]
+    },
+    {
+        "en":"It introduces errors in the processing of geometries , manipulating the result of the operations that carry out the verification of different topological restrictions between geometries , such as intersects , covers or overlap .",
+        "zh":"它引入了处理几何的误差,操纵了进行几何间不同拓扑限制的验证操作的结果,例如截面、覆盖或重叠。",
+        "fvec":[]
+    },
+    {
+        "en":"Listing 2 : A simplified definition of the BooleanPolygonConstraint Operator .",
+        "zh":"清单2: 简化了BooleanPolygonConstraint Operator的定义.",
+        "fvec":[]
+    },
+    {
+        "en":"To test this operator it was applied to a land reparcelling system .",
+        "zh":"为了测试这个操作者,它被应用于陆地再整装系统。",
+        "fvec":[]
+    },
+    {
+        "en":"The objective of the land reparcelling is to reunify the lands of an owner to facilitate their exploitation .",
+        "zh":"土地再分配的目的是统一所有者土地,以便利土地的开发。",
+        "fvec":[]
+    },
+    {
+        "en":"In this application , the result of the operation between two polygons has been affected .",
+        "zh":"在这一应用中,影响了两个多边形之间的操作结果。",
+        "fvec":[]
+    },
+    {
+        "en":"This error causes the incorrect display of the resulting geometry that should be drawn in the user interface after the operation applied to the two initial geometries  .",
+        "zh":"这个错误导致在对两个初始几何进行操作后在用户界面中应绘制的结果几何的错误显示。",
+        "fvec":[]
+    },
+    {
+        "en":"Figure 2 . Original and mutant application .",
+        "zh":"图2. 原型和变种应用.",
+        "fvec":[]
+    },
+    {
+        "en":"In existing proposals , we can find both generic and specific mutation operators .",
+        "zh":"在现有的建议中,我们可以找到通用的和特定的突变演算子。",
+        "fvec":[]
+    },
+    {
+        "en":"However , these are not adequate to cover errors in particular domains .",
+        "zh":"然而,这些不足以覆盖某些领域中的错误。",
+        "fvec":[]
+    },
+    {
+        "en":"We have defined new operators specific to the GIS domain and a way to apply them to a SUT .",
+        "zh":"我们已经定义了新的特定于GIS域的操作者和一种应用它们于UT的方法。",
+        "fvec":[]
+    },
+    {
+        "en":"In addition , we have tested the operators defined in two GIS applications .",
+        "zh":"此外,我们测试了两个GIS应用中定义的操作者。",
+        "fvec":[]
+    },
+    {
+        "en":"As future work , we intend to extend this approach to other domains , as well as to use the developed operators for the automatic improvement of sets of test cases .",
+        "zh":"作为今后的工作,我们打算将这一方法扩展到其他领域,并利用已开发的操作员来自动改进测试案例。",
+        "fvec":[]
+    },
+    {
+        "en":"We hypothesized that the children , who were over the age of six at the time of collection , would have adult - like SI interpretations .",
+        "zh":"我们假设在收集时年龄超过六岁的孩子, 会得到像成人一样的 SI 解释.",
+        "fvec":[]
+    },
+    {
+        "en":"We expected that the use of a training session and then the format of the question would guide participants towards evaluating pragmatic felicity over providing truth value judgments , and would result in adult - like interpretations .",
+        "zh":"我们预计,使用一个培训会议,然后用问题的形式引导参加者对提供真理价值判断的实用幸福进行评价,并产生像成年人一样的解释。",
+        "fvec":[]
+    },
+    {
+        "en":"Further , we posited that if our initial hypothesis was not supported , and in fact there was some non - adult - like performance , that there would be significant variability among the conditions , with cardinal numbers having the highest performance and some the weakest .",
+        "zh":"此外,我们认为如果我们最初的假设没有得到支持,并且事实上存在一些非成人的性能,那么在条件之间将存在显著的变异,其中枢机数具有最高性能和一些最弱的性能。",
+        "fvec":[]
+    },
+    {
+        "en":"On the surface , it does seem as if there is variability and perhaps a larger sample size or more items could lead to a significant finding  , but at least for this study , the only significant finding was the difference between cardinal numbers and some .",
+        "zh":"在表面上,似乎存在着变异性,也许更大的样品大小或更多的物品可以导致一个重要的发现,但至少在这项研究中,唯一的显著发现是基数和某些之间的差异。",
+        "fvec":[]
+    },
+    {
+        "en":"Significant differences were not observed between all and cardinal numbers or all and some .",
+        "zh":"在所有和基数之间或所有和某些之间没有明显差异。",
+        "fvec":[]
+    },
+    {
+        "en":"This study is limited in its power and generalizability .",
+        "zh":"这项研究的威力和广义性有限。",
+        "fvec":[]
+    },
+    {
+        "en":"It serves as a reminder of the work that needs to be completed for the cross-linguistic study of SI in particular and acquisition more generally .",
+        "zh":"它提醒人们需要完成对特别语言学的跨语言学研究和更普遍的习得的工作。",
+        "fvec":[]
+    },
+    {
+        "en":"Bantu languages are not included in studies of acquisition often enough despite the numerous languages in this linguistic grouping and the millions of people using them .",
+        "zh":"尽管这一语言群体中有许多语言,而且有数百万人使用这些语言,但班图语仍未被纳入学习研究中。",
+        "fvec":[]
+    },
+    {
+        "en":"Future studies need to include more participants and more items to increase power .",
+        "zh":"未来研究需要更多的参与者和更多的项目来增加功率。",
+        "fvec":[]
+    },
+    {
+        "en":"Future studies should also include a larger age range of children to document the age at which adult - like performance emerges .",
+        "zh":"今后的研究还应包括更广泛的儿童年龄范围,以记录成人表现的年龄。",
+        "fvec":[]
+    },
+    {
+        "en":"Related cross-cultural studies have resulted in insufficient statistical power , but interesting trends  .",
+        "zh":"相关跨文化研究的结果是统计力不足,但有有趣的趋势。",
+        "fvec":[]
+    },
+    {
+        "en":"Follow - up studies with increased stimuli and participants are needed .",
+        "zh":"需要增加刺激和参与者的后续研究.",
+        "fvec":[]
+    },
+    {
+        "en":"In a future study , it is also important to consider if additional training in the difference between reporting on felicity and truth value judgments would impact results , or if more naturalistic experimental conditions  would be beneficial .",
+        "zh":"在今后的研究中,还必须考虑是否在报告幸福与真理价值判断之间的差异方面进行额外的训练会影响结果,或者是否更自然的实验条件会有益。",
+        "fvec":[]
+    },
+    {
+        "en":"Previous studies in this region of sub-Saharan Africa have found evidence of cultural differences in testing behavior  .",
+        "zh":"在撒哈拉以南非洲的这一地区以前的研究发现,测试行为的文化差异有证据。",
+        "fvec":[]
+    },
+    {
+        "en":"The current study is too small to make strong conclusions with regard to cultural differences and experimental methods ;",
+        "zh":"目前的研究规模太小,不能就文化差异和实验方法作出有力的结论;",
+        "fvec":[]
+    },
+    {
+        "en":"however , in the study by Hein and colleagues it was found that children responded more or less frequently based on factors such as stimuli type .",
+        "zh":"然而,海因和同事的研究发现,儿童的反应多或少是基于刺激类型等因素的。",
+        "fvec":[]
+    },
+    {
+        "en":"In the current study , the responses from two children were not included because they responded the same way to every item through the training and all test items .",
+        "zh":"在目前的研究中,两个儿童的答复不包括,因为他们在训练和所有测试项目中对每个项目都作出同样的反应。",
+        "fvec":[]
+    },
+    {
+        "en":"More specifically , they answered “ yes ” that the puppet described the pictures well .",
+        "zh":"更具体地说,他们回答说“ 是的 ”,那只傀儡很好地描述了这些图片。",
+        "fvec":[]
+    },
+    {
+        "en":"It is possible that these two children understood the task and really did believe that the puppet did not produce any poor descriptions , and in this regard , are not yet adult - like in their SI interpretations .",
+        "zh":"可能是这两个孩子明白了任务,并且真的相信小ppet没有产生任何不良的描述,在这方面,还没有成年 — — 就像他们的SI解释一样。",
+        "fvec":[]
+    },
+    {
+        "en":"This is unlikely as they said that even the first training item was said well .",
+        "zh":"这是不太可能的,因为他们说,即使第一个训练项目也说得很好。",
+        "fvec":[]
+    },
+    {
+        "en":"It is also possible though that these two children were attempting to please the data collectors , or be polite , and that “ yes ” was in some ways a default answer to be provided when having to respond verbally in a test context .",
+        "zh":"也有可能是这两个孩子试图讨好数据收集者,或者表现礼貌,而且“是”在某种程度上是在考试中必须用口头回答时提供的默认答案。",
+        "fvec":[]
+    },
+    {
+        "en":"Additional training with the methodology could improve outcomes .",
+        "zh":"与方法学相结合的进一步培训可以提高成果。",
+        "fvec":[]
+    },
+    {
+        "en":"The puppets used were picked specifically for this task with careful attention to their appearance .",
+        "zh":"使用的傀儡是专为这个任务而挑选的,注意它们的外观。",
+        "fvec":[]
+    },
+    {
+        "en":"Upon arrival at the school , however , it became clear that the children were not accustomed to playing with puppets and that the data collection would be a novel experience for them .",
+        "zh":"然而,到了学校后,人们发现孩子们并不习惯玩偶,而且收集数据对于他们来说是一个新颖的经历。",
+        "fvec":[]
+    },
+    {
+        "en":"Further exploration with greater cardinal number ranges could also prove interesting .",
+        "zh":"更广泛的基数范围的进一步探索也可能是很有意思的。",
+        "fvec":[]
+    },
+    {
+        "en":"Numbers through five in the participating communities are most often expressed with native Chitonga words while numbers greater than five are typically indicated using English borrowings .",
+        "zh":"在参与社区中,数字从五到最多都是用土著的Chitonga词表示的,而数字超过五通常是用英语借用表示的。",
+        "fvec":[]
+    },
+    {
+        "en":"The cardinal numbers included in this study were only one through five in order to avoid additional item variability , but larger numbers should be included in future research .",
+        "zh":"本文所列的基数仅为一至五,以避免额外的项目变异,但较大的数目应在今后的研究中列入。",
+        "fvec":[]
+    },
+    {
+        "en":"Albeit limited , these results provide valuable insight into SI interpretation by Chitonga - speaking children and demonstrate that pragmatic inference acquisition likely follows the order identified in previous research , but appears to be completed at a later age in this language .",
+        "zh":"尽管有限,但这些结果提供了 Chitonga 语文儿童对 SI 的解释的宝贵洞察,并表明,实际推断的获得可能遵循先前的研究确定的顺序,但似乎在这一语言的晚年完成。",
+        "fvec":[]
+    },
+    {
+        "en":"This interesting combination of findings – expected hierarchy of difficulty , but differing age of acquisition – is an important addition to our growing cross-linguistic knowledge of SI and could be the result of language - specific differences in the use of SI lexical items or methodological differences .",
+        "zh":"这种有趣的发现组合 — — 期望的困难层次结构,但不同年龄的习得 — — 是我们日益增长的跨语言知识的一个重要补充,并且可能是语言 — — 使用SI词汇项目的具体差异或方法学差异的结果。",
+        "fvec":[]
+    },
+    {
+        "en":"Personal experiences of discrimination and bias have been the focus of much social science research .",
+        "zh":"对歧视和偏见的个人经历一直是社会科学研究的焦点。",
+        "fvec":[]
+    },
+    {
+        "en":"Sociologists have explored the adverse consequences of discrimination  ;",
+        "zh":"社会学家研究了歧视的不利后果;",
+        "fvec":[]
+    },
+    {
+        "en":"psychologists have examined the mental processes that underpin conscious and unconscious biases  ;",
+        "zh":"心理学家研究了意识和无意识偏见的基础心理过程;",
+        "fvec":[]
+    },
+    {
+        "en":"neuroscientists have examined the neurobiological underpinnings of discrimination  ;",
+        "zh":"神经科学家对歧视的神经生物学基础进行了研究;",
+        "fvec":[]
+    },
+    {
+        "en":"and evolutionary theorists have explored the various ways that in - group / out - group biases emerged across the history of our species .",
+        "zh":"进化理论家们已经探索了在群体 、 群体外的偏见在人类历史上出现的各种方式.",
+        "fvec":[]
+    },
+    {
+        "en":"In many respects , researchers already possess a wealth of knowledge concerning the origins and consequences of discrimination and bias .",
+        "zh":"在许多方面,研究人员已经掌握了大量关于歧视和偏见的起源和后果的知识。",
+        "fvec":[]
+    },
+    {
+        "en":"What also should not be lost in discussion of discrimination is the growing push to implement social policy aimed at reducing the occurrence of discriminatory practices .",
+        "zh":"在讨论歧视时,不应该失去的还有日益推动实施旨在减少歧视行为的社会政策。",
+        "fvec":[]
+    },
+    {
+        "en":"Mandatory diversity trainings in professional settings , for example , are intended to reduce bias in the workplace by increasing the awareness of employees regarding the challenges facing minority group members .",
+        "zh":"例如,在职业环境下强制性多样性培训的目的是通过提高雇员对少数群体成员所面临的挑战的认识来减少工作场所的偏见。",
+        "fvec":[]
+    },
+    {
+        "en":"Indeed , the implementation of certain policies is rooted in the assumption that discrimination and biases are , at least to some appreciable amount , present in modern society .",
+        "zh":"事实上,某些政策的实施根源在于假设歧视和偏见至少在相当程度上存在于现代社会。",
+        "fvec":[]
+    },
+    {
+        "en":"Even so , estimates of the prevalence of perceived discrimination remains rare  .",
+        "zh":"尽管如此, 人们对被视为歧视的普遍程度的估计仍然很罕见.",
+        "fvec":[]
+    },
+    {
+        "en":"At least one prior study by Kessler and colleagues  , however , using measures of perceived discrimination in a large American sample , reported that approximately 33 % of respondents reported some form of discrimination  .",
+        "zh":"然而,至少一个凯斯勒和同事的先前研究,在大量美国样本中,利用感知歧视的措施,报告了约33%的受访者报告了某种形式的歧视。",
+        "fvec":[]
+    },
+    {
+        "en":"The current study seeks to build on this research by estimating the prevalence of discrimination experiences among a large , nationally representative sample of adults from the United States .",
+        "zh":"本研究旨在利用这一研究,估计美国成人的大规模全国代表性样本中歧视经验的普遍性。",
+        "fvec":[]
+    },
+    {
+        "en":"Additionally , the analysis address the perceived reasons for reported discrimination experiences .",
+        "zh":"此外, 分析分析了报告的歧视经验所受到的理解原因.",
+        "fvec":[]
+    },
+    {
+        "en":"All respondents who indicated they were discriminated against — specifically , those who responded with sometimes or often to the perceived discrimination measure described above — were asked the following question :",
+        "zh":"所有表示受到歧视的受访者--特别是那些对上述被认为的歧视措施时常或经常作出回应的受访者--被问到以下问题:",
+        "fvec":[]
+    },
+    {
+        "en":"“ What do you think was the main reason for these experiences ? ”",
+        "zh":"“ 你认为这些经历的主要原因是什么? ”",
+        "fvec":[]
+    },
+    {
+        "en":"Respondents were allowed to choose one response from 11 categories .",
+        "zh":"回答者可以从11个类别中选择一个答案。",
+        "fvec":[]
+    },
+    {
+        "en":"For the present analysis , these responses were recoded into nine mutually exclusive categories capturing the following options :",
+        "zh":"针对本分析,这些答复被归纳为九个相互排斥的类别,包括以下选项:",
+        "fvec":[]
+    },
+    {
+        "en":"The following categories from the original questionnaire were collapsed into one category for the analysis : race ; ancestry or national origin ; and shade of skin color .",
+        "zh":"本文从最初的问卷中将下列类别归纳为一个类别: 种族; 祖先或民族来源; 以及皮肤颜色的阴影.",
+        "fvec":[]
+    },
+    {
+        "en":"Additionally , because this question was only asked of respondents who reported prior discrimination experiences , the built - in skip pattern resulted in a large number of cases scored as missing  .",
+        "zh":"此外, 由于 这项问题只针对报告过往歧视经验的受访者提出, 因此 内置 省略模式导致大量案件被评为 缺席 。",
+        "fvec":[]
+    },
+    {
+        "en":"Because a race variable is not available from the Wave 4 interviews , we use the racial category reported by the respondent during the Wave 1 interview .",
+        "zh":"由于Wave4访谈中没有种族变量,我们使用回答者在Wave1访谈中报告的种族类别。",
+        "fvec":[]
+    },
+    {
+        "en":"Wave 1 race — rather than , say , Wave 3 race — was used to preserve case counts .",
+        "zh":"波1竞赛 — — 而不是, 比如,波3竞赛 — — 用来保存案例数目。",
+        "fvec":[]
+    },
+    {
+        "en":"The logic is that  all Wave 4 respondents appeared in the Wave 1 sample , but not all would have been interviewed at Wave 3 due to differential patterns of temporary attrition .",
+        "zh":"逻辑是,所有4号波的受访者出现在1号波的样本中,但由于暂时衰减的差异模式,并非所有在3号波的受访者都会被采访。",
+        "fvec":[]
+    },
+    {
+        "en":"Respondents were asked to indicate their race from among the following categories : White ; Black or African American ; Hispanic ; American Indian or Native American ; and Asian or Pacific Islander .",
+        "zh":"答复者被要求在下列类别中标明他们的种族:白人;黑人或非洲裔美国人;西班牙人;印第安人或土著美国人;以及亚洲或太平洋岛民。",
+        "fvec":[]
+    },
+    {
+        "en":"Respondents were provided the opportunity to select more than one race , and those who did were asked a follow - up question regarding which category best described their racial background .",
+        "zh":"答复者有机会选择一个以上的种族,而答复者则被问到哪些类别最好描述他们的种族背景。",
+        "fvec":[]
+    },
+    {
+        "en":"In the current study , those respondents who indicated more than one race were coded as “ mixed race ” .",
+        "zh":"在目前的研究中,那些表示超过一个种族的受访者被编码为“混合种族 ” 。",
+        "fvec":[]
+    },
+    {
+        "en":"To provide information on the analytical sample as a whole , two additional demographic variables are included .",
+        "zh":"为了提供整个分析样本的信息,包括两个额外的人口变量。",
+        "fvec":[]
+    },
+    {
+        "en":"First , age is a continuous measure created by subtracting the year of the respondents ' birth  from the year of the interview at Wave 4 .",
+        "zh":"首先,年龄是通过将 respondents'出生年从 wave 4 的采访年中减去的一种连续的测量。",
+        "fvec":[]
+    },
+    {
+        "en":"Second , sex was dichotomously coded based on the self - reported sex of the respondent at Wave 4  .",
+        "zh":"其次, 基于第四波 respondent 自我 报告的性别进行双重编码.",
+        "fvec":[]
+    },
+    {
+        "en":"Our exploratory study included three basic steps .",
+        "zh":"我们的探索性研究包括三个基本步骤。",
+        "fvec":[]
+    },
+    {
+        "en":"First , summary statistics of the study variables and racial categories were produced .",
+        "zh":"首先对研究变量和种族分类进行了总结统计。",
+        "fvec":[]
+    },
+    {
+        "en":"Second , we examined the relative proportions of the two discrimination experience measures across each racial category .",
+        "zh":"其次,对两项种族歧视经验措施的相对比例进行了研究。",
+        "fvec":[]
+    },
+    {
+        "en":"Finally , we assessed the distribution of reported reasons for discrimination across the racial categories .",
+        "zh":"最后,我们评估了报告的种族歧视原因分布情况。",
+        "fvec":[]
+    },
+    {
+        "en":"In order to examine potential bivariate associations , the adjusted F statistic  was employed as it corrects for a complex sample design such as that used in the Add Health .",
+        "zh":"为了研究潜在的双变量关联,采用了调整的F统计,它对复杂的样品设计进行修正,例如在添加健康中使用的样品设计。",
+        "fvec":[]
+    },
+    {
+        "en":"More specifically , when analyzing weighted sample data employing the svy suite of commands in Stata the conventional Pearson χ2 statistic test of independence is converted into “ an F statistic with noninteger degrees of freedom by using a second - order Rao and Scott  correction ” .",
+        "zh":"更具体地说, 当分析使用斯塔塔的随机命令套的权重样本数据时,传统的皮尔森 χ2 独立性统计测试被转换为“ 非 整数自由度的F统计,使用第二阶拉奥和斯科特校正 ” 。",
+        "fvec":[]
+    },
+    {
+        "en":"The p - value associated with the design - based F is thus more accurate  given the adjustments and calculations take into account the weighted nature of the data .",
+        "zh":"因此,由于调整和计算考虑到数据的权重性质,与基于设计的F相关的p值更加准确。",
+        "fvec":[]
+    },
+    {
+        "en":"This final step also included an examination of the relative distribution of racial categories across the various reported reasons for discrimination .",
+        "zh":"最后的步骤还包括审查不同报告的歧视理由中种族类别的相对分布。",
+        "fvec":[]
+    },
+    {
+        "en":"As noted earlier , all analyses were weighted according to the survey weight provided by the Add Health research staff and standard errors were corrected for the clustering and stratification that defined the sampling strategy .",
+        "zh":"如上文所述,所有分析均按添加健康研究人员提供的调查权重进行权重计算,并对确定抽样策略的聚类和分层的标准误差进行了修正。",
+        "fvec":[]
+    },
+    {
+        "en":"Thus , all estimates reported here can be considered nationally representative of the United States .",
+        "zh":"因此, 所有 报告 的 估计 都 可以 认为 是 美国 的 国家 代表 。",
+        "fvec":[]
+    },
+    {
+        "en":"Enjambment takes place when a syntactic unit is broken up across two lines of poetry  , giving rise to different stylistic effects  , or creating double interpretations for the enjambed lines  .",
+        "zh":"插曲发生在一个语法单元在诗歌两行之间被分割时,产生不同的风格效果,或为插曲线创造双重解释。",
+        "fvec":[]
+    },
+    {
+        "en":"In Spanish poetry , the syntactic configurations under which enjambment takes place have been described extensively , and detailed studies on the use of enjambment by individual authors exist  including , among others Quilis  , Domínguez Caparrós ,  , Paraíso ,  , Spang  for a description of enjambment , and Alarcos  , Senabre  , Luján  , Martínez Fernández  for case - studies on a single author .",
+        "zh":"在西班牙诗歌中, 插入的语法配置已经被广泛描述, 并且关于单独作者使用插入的详细研究已经存在,包括, 例如Quilis,Domínguez Caparrós,,Paraíso,,Spang为插入的描述,和Alarcos,Senabre,Luján,Martinez Fernández为单一作者的案例研究.",
+        "fvec":[]
+    },
+    {
+        "en":"However , a larger - scale study to identify enjambment across hundreds of authors spanning several centuries , enabling distant reading  , was not previously available .",
+        "zh":"然而, 对几个世纪的数百名作者的封锁进行更大规模的调查, 使他们能够远程阅读, 以前还无法获得.",
+        "fvec":[]
+    },
+    {
+        "en":"Given that need , we have developed software , based on Natural Language Processing , that automatically identifies enjambment in Spanish , and applied it to a corpus of approx. 3750 sonnets by ca. 1000 authors , from the 15th to the 19th century .",
+        "zh":"鉴于这一需要,我们开发了基于自然语言处理的软件,能够自动识别西班牙语的嵌入,并将其应用于大约3750个音节的文体,由约1000名作者编写,从15世纪到19世纪。",
+        "fvec":[]
+    },
+    {
+        "en":"What is the interest of such large - scale automatic analyses of enjambment ?",
+        "zh":"这种大规模 自动 埋葬分析有什么意义 呢?",
+        "fvec":[]
+    },
+    {
+        "en":"First , the literature shows a debate about which specific syntactic units can be considered to trigger enjambment , if split across two lines , and whether lexical and syntactic criteria are sufficient to identify enjambment .",
+        "zh":"首先,文献显示了关于哪些特定语法单元可以被视为触发内嵌的争论,如果分开两条线,以及词汇和语法标准是否足以识别内嵌。",
+        "fvec":[]
+    },
+    {
+        "en":"Second , the stylistic effects that enjambment permits are also an object of current research  .",
+        "zh":"其次, 内嵌允许的风格效应也是当前研究的对象.",
+        "fvec":[]
+    },
+    {
+        "en":"Systematically collecting large amounts of enjambment examples provides helpful evidence to assess scholars ’ current claims , and may stimulate novel analyses .",
+        "zh":"系统地收集大量埋葬实例,为评估学者目前的主张提供有益的证据,并可能刺激新的分析。",
+        "fvec":[]
+    },
+    {
+        "en":"Finally , our study complements Navarro ’s  automatic metrical analyses of Spanish Golden Age sonnets , by covering a wider period and focusing on enjambment .",
+        "zh":"最后,我们的研究补充了纳瓦罗的西班牙黄金时代索纳特的自动统计分析,它涵盖了更广泛的时期,并着重于插曲。",
+        "fvec":[]
+    },
+    {
+        "en":"The abstract is structured thus :",
+        "zh":"抽象结构如下:",
+        "fvec":[]
+    },
+    {
+        "en":"First we provide the definition of enjambment adopted .",
+        "zh":"首先我们给出了通过的封锁定义。",
+        "fvec":[]
+    },
+    {
+        "en":"Then , our corpus and system are described , followed by an evaluation of the system .",
+        "zh":"然后描述了我们的体积和系统,然后对系统进行了评价。",
+        "fvec":[]
+    },
+    {
+        "en":"Finally , findings on enjambment in our diachronic sonnet corpus are discussed .",
+        "zh":"最后, 讨论了我国超时声波体内嵌的发现.",
+        "fvec":[]
+    },
+    {
+        "en":"The project ’s website provides details omitted here for space reasons , including samples for the corpus , results , and other details .",
+        "zh":"该项目网站提供了由于空间原因省略的细节,包括样本、结果和其他细节。",
+        "fvec":[]
+    },
+    {
+        "en":"Syntactic and metrical units often match in poetry .",
+        "zh":"语法和度量单位在诗歌中经常相符。",
+        "fvec":[]
+    },
+    {
+        "en":"However , this trend has been broken since antiquity for various reasons  on Homer , or Flores Gómez  on early classical poetry ) .",
+        "zh":"然而, 这个趋势从古以来由于各种原因在霍默上被打破,或佛罗里斯·戈梅斯在早期古典诗歌上被打破.",
+        "fvec":[]
+    },
+    {
+        "en":"In Spanish tradition , enjambment  is considered to take place when a pause suggested by poetic form  occurs between strongly connected lexical or syntactic units , triggering an unnatural cut between those units .",
+        "zh":"在西班牙传统中,在词汇或语法单元之间出现由诗歌形式所暗示的停顿时,被认为会发生封锁,触发这些单元之间的不自然切断。",
+        "fvec":[]
+    },
+    {
+        "en":"Quilis  performed poetry reading experiments , proposing that the following strongly connected elements give rise to enjambment , should a poetic - form pause break them up :",
+        "zh":"奎利斯进行了诗歌阅读实验,提议下列紧密相连的元素会引起封锁, 如果诗歌形式的停顿会使它们断裂:",
+        "fvec":[]
+    },
+    {
+        "en":"Lexical enjambment : Breaking up a word .",
+        "zh":"词汇编译: 把一个单词弄碎.",
+        "fvec":[]
+    },
+    {
+        "en":"We translated \" lexical enjambment \" from Quilis ’s terms \" encabalgamiento léxico \" or \" tmesis \" .",
+        "zh":"我们从奎利斯的术语 “ encabalgamiento léxico ” 或 “ tmesis ” 中翻译了 “ 词汇封锁 ” 。",
+        "fvec":[]
+    },
+    {
+        "en":"Phrase - bounded enjambment : Within a phrase , breaking up sequences like \" noun + adjective \" , \" verb + adverb \" , \" auxiliary verb + main verb \" , among others .",
+        "zh":"在句子中, 除“ 名词 + 形容词 ” 、 “ 动词 + 形容词 ” 、 “ 辅助动词 + 主要动词 ” 等序列, 除其他外.",
+        "fvec":[]
+    },
+    {
+        "en":"We translated \" phrase - bounded enjambment \" from \" encabalgamiento sirremático \" .",
+        "zh":"我们从 “ 封锁 封锁 ” 中翻译了 “ 封锁 封锁 ”.",
+        "fvec":[]
+    },
+    {
+        "en":"We translated \" cross-clause enjambment \" from Quilis ’s \" encabalgamiento oracional \" .",
+        "zh":"我们从Quilis的\" encabalgamiento oracional \"中翻译了\" cross-clause enjambment \" 。",
+        "fvec":[]
+    },
+    {
+        "en":"The project site includes Quilis ’s complete list of syntactic environments that can trigger enjambment , as well as the types identified by our system .",
+        "zh":"该项目网站包括Quilis的完整清单,包括能够触发内嵌的语法环境,以及我们系统所识别的类型。",
+        "fvec":[]
+    },
+    {
+        "en":"Besides the enjambment types above , Spang  noted that if a subject or direct object and their related verbs occur in two different lines of poetry , this can also feel unusual for a reader , even if the effect is less pronounced than in the environments identified by Quilis .",
+        "zh":"除了上面的插入类型之外,斯潘格指出,如果一个主体或直接对象及其相关的动词在诗歌的两个不同行中出现,这对于读者来说也是罕见的,即使效果比奎利斯所确定的环境更少。",
+        "fvec":[]
+    },
+    {
+        "en":"To differentiate these cases from enjambment proper , Spang calls these cases \" enlace \" , translated here as \" expansion \" .",
+        "zh":"为了区分这些案例与实际的埋葬, 斯潘格称这些案例为“ 链接 ”, 在这里翻译为“ 扩展 ” 。",
+        "fvec":[]
+    },
+    {
+        "en":"Quilis  was the only author so far to gather recitation - based experimental evidence on enjambment .",
+        "zh":"奎利斯是迄今为止唯一收集引述 - 基础的实验证据的作者.",
+        "fvec":[]
+    },
+    {
+        "en":"His typology is still considered current , and was adopted by later authors , although complementary enjambment typologies have been proposed , as Martínez Cantón  reviews .",
+        "zh":"他的类型仍然被认为是当前的,并被后来的作者采纳,尽管已经提议了补充的内嵌类型,正如马丁内斯·坎托纳的评论。",
+        "fvec":[]
+    },
+    {
+        "en":"Our system identifies Quilis ’ types , besides Spang ’s expansion cases .",
+        "zh":"我们的系统除了Spang的扩展案例之外,也识别了Quilis的类型。",
+        "fvec":[]
+    }
+]

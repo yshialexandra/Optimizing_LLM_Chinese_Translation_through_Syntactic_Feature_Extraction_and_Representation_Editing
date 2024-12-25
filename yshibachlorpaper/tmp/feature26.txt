@@ -1,185 +1,2547 @@
-Robonaut 2 是美国航空航天局 (NASA) 与通用汽车公司共同开发的，它将使用为宇航员开发的同样的工具，在国际空间站上充当人类的助手。
+在两位伊丽莎白时代和雅各布时代最伟大的作家去世几十年后，诗人兼评论家约翰·德里登对他们的感情表达了自己的真实感受。
 
-(ROOT (IP (IP (NP (FW Robonaut) (CD 2)) (VP (VC 是) (NP (CP (CP (IP (NP (NP (NP (NNP 美国) (NN 航空) (NN 航天) (SFN 局)) (NP (FW -LRB-NASA-RRB-))) (CC 与) (NP (NNP 通用) (NN 汽车) (NN 公司))) (VP (ADVP (RB 共同)) (VP (VV 开发)))) (UH 的)))))) (, ，) (IP (NP (PRP 它)) (VP (ADVP (RB 将)) (VP (VP (VV 使用) (NP (CP (CP (IP (VP (PP (IN 为) (NP (NN 宇航) (SFN 员))) (VP (VV 开发)))) (DEC 的))) (DNP (ADJP (JJ 同样)) (DEC 的)) (NP (NN 工具)))) (, ，) (VP (PP (IN 在) (LCP (NP (NN 国际) (NN 空间)) (VV 站上))) (VP (VV 充当) (NP (DNP (NP (NN 人类)) (DEC 的)) (NP (NN 助手)))))))) (. 。)))
+(ROOT (IP (PP (IN 在) (LCP (IP (NP (CP (CP (IP (VP (NP (QP (CD 两) (CLP (NNB 位))) (NP (NP (NP (NNP 伊丽莎白)) (NP (NN 时代))) (CC 和) (NP (NP (NNP 雅各布)) (NP (NN 时代))))) (ADVP (RB 最)) (VP (JJ 伟大)))) (DEC 的))) (NP (NN 作家))) (VP (VV 去世) (QP (CD 几十) (CLP (NNB 年))))) (IN 后))) (, ，) (NP (NP (NN 诗人) (CC 兼) (VV 评论) (SFN 家)) (NP (NNP 约翰) (/ ·) (NNP 德里登))) (VP (PP (IN 对) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 感情)))) (VP (VV 表达) (AS 了) (NP (DNP (NP (PRD 自己)) (DEC 的)) (ADJP (JJ 真实)) (NP (NN 感受))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'NP50429': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+在	去世	case
+两	位	nummod
+位	时代	clf
+伊丽莎白	时代	nmod
+时代	去世	obl
+和	时代	cc
+雅各布	时代	nmod
+时代	伟大	nmod
+最	伟大	advmod
+伟大	作家	amod
+的	伟大	mark:rel
+作家	时代	conj
+去世	表达	ccomp
+几十	年	nummod
+年	去世	obl
+后	去世	mark
+，	去世	punct
+诗人	表达	nsubj
+兼	家	cc
+评论	家	compound
+家	诗人	conj
+约翰	诗人	appos
+·	德里登	punct
+德里登	约翰	flat:name
+对	感情	case
+他	感情	det
+的	他	case
+感情	表达	obl
+表达	ROOT	root
+了	表达	aux
+自己	感受	det
+的	自己	case
+真实	感受	amod
+感受	表达	obj
+。	表达	punct
+----------------------------------------------------------------------
+他写道：“我敬佩他，”他说的是本·约翰逊，“但我爱莎士比亚。”
+
+(ROOT (IP (IP (NP (PRP 他)) (VP (VV 写道) (: ：) (IP (`` “) (NP (PRP 我)) (VP (VV 敬佩) (NP (PRP 他)))))) (, ，) ('' ”) (IP (NP (CP (CP (IP (NP (PRP 他)) (VP (VV 说))) (DEC 的)))) (VP (VC 是) (NP (NNP 本) (/ ·) (NNP 约翰) (NNP 逊)))) (, ，) (IP (`` “) (ADVP (RB 但)) (NP (PRP 我)) (VP (VV 爱莎士比亚))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP34330': {}, ',58242': {}, 'IP5104': {}, '.': {}, "''67448": {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP18968': {'NP': {}, 'VP': {}}, ',48278': {}, 'IP15036': {'``': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}, "''18093": {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'``': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'``': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+他	写道	nsubj
+写道	ROOT	root
+：	本	punct
+“	本	punct
+我	敬佩	nsubj
+敬佩	本	advcl
+他	敬佩	obj
+，	敬佩	punct
+”	敬佩	punct
+他	说	nsubj
+说	本	csubj
+的	说	mark:rel
+是	本	cop
+本	写道	ccomp
+·	约翰	punct
+约翰	本	flat:name
+逊	本	flat:name
+，	爱莎士比亚	punct
+“	爱莎士比亚	punct
+但	爱莎士比亚	mark
+我	爱莎士比亚	nsubj
+爱莎士比亚	写道	parataxis
+。	爱莎士比亚	punct
+”	爱莎士比亚	punct
+----------------------------------------------------------------------
+如果在文学史的背景下，赞美可以说涉及持续的学术兴趣，而爱可以说是几个世纪以来学者和普通民众都普遍感兴趣的主题，德里登似乎已经为后人说了话。
+
+(ROOT (IP (CP (ADVP (IN 如果)) (IP (PP (IN 在) (LCP (NP (DNP (NP (NN 文学) (SFN 史)) (DEC 的)) (NP (NN 背景))) (IN 下))) (, ，) (NP (NN 赞美)) (VP (MD 可以) (VP (VV 说) (IP (VP (VV 涉及) (NP (CP (CP (IP (VP (JJ 持续))) (DEC 的))) (NP (NN 学术) (NN 兴趣))))))))) (, ，) (RB 而) (NP (CP (IP (NP (MD 爱)) (VP (MD 可以) (VP (VV 说))))) (CP (CP (IP (VP (VC 是) (IP (LCP (NP (QP (CD 几) (CLP (NNB 个))) (NP (NN 世纪))) (IN 以来)) (NP (NP (NN 学者)) (CC 和) (NP (ADJP (JJ 普通)) (NP (NN 民众)))) (VP (ADVP (RB 都)) (ADVP (RB 普遍)) (VP (VV 感) (NP (NN 兴趣))))))) (DEC 的))) (NP (NN 主题))) (, ，) (NP (NNP 德里登)) (VP (ADVP (RB 似乎)) (ADVP (RB 已经)) (PP (IN 为) (NP (NN 后人))) (VP (VV 说) (AS 了) (NP (NN 话)))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'RB': {}, 'NP': {}, ',8234': {}, 'NP35659': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'RB': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'RB': {}, 'NP': {'CP': {}, 'CP48908': {}, 'NP': {}}, ',74782': {}, 'NP61142': {'NNP': {}}, 'VP': {'ADVP': {}, 'ADVP79708': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'RB': {}, 'NP': {'CP': {}, 'CP': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'NP': {'CP': {}, 'CP': {}, 'NP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+如果	背景	case
+在	背景	case
+文学	史	compound
+史	背景	nmod
+的	史	case
+背景	说	obl
+下	背景	case
+，	背景	punct
+赞美	说	nsubj
+可以	说	aux
+说	爱	advcl
+涉及	说	xcomp
+持续	兴趣	amod
+的	持续	mark:rel
+学术	兴趣	nmod
+兴趣	涉及	obj
+，	说	punct
+而	爱	mark
+爱	ROOT	root
+可以	说	aux
+说	爱	xcomp
+是	主题	cop
+几	个	nummod
+个	世纪	clf
+世纪	感	nmod:tmod
+以来	世纪	case
+学者	感	nsubj
+和	民众	cc
+普通	民众	amod
+民众	学者	conj
+都	感	mark
+普遍	感	advmod
+感	主题	acl:relcl
+兴趣	感	obj
+的	感	mark:rel
+主题	说	ccomp
+，	说	punct
+德里登	说	nsubj
+似乎	说	advmod
+已经	说	advmod
+为	后人	case
+后人	说	obl
+说	爱	parataxis
+了	说	aux
+话	说	obj
+。	主题	punct
+----------------------------------------------------------------------
+约翰生是他时代最著名的人物，也是他死后（1637 年）几年内最成就的人物，但是今天，他的剧作相对罕见，只有“瓦尔波尼”和“炼金术士”广为人知，他的诗歌更是凤毛麟角。
+
+(ROOT (IP (NP (NNP 约翰) (VV 生)) (VP (VP (VC 是) (NP (CP (CP (IP (VP (NP (NP (PRP 他)) (NP (NN 时代))) (ADVP (RB 最)) (VP (JJ 著名)))) (DEC 的))) (NP (NN 人物)))) (, ，) (VP (VC 也是) (LCP (NP (PRP 他)) (VV 死后) (PRN (-LRB- （) (NP (CP (CP (IP (VP (LCP (QP (NP (QP (CD 1637)) (NP (NNB 年）))) (QP (CD 几) (CLP (NNB 年)))) (IN 内)) (ADVP (RB 最)) (VP (JJ 成就)))) (DEC 的))) (NP (NN 人物))) (, ，) (IP (ADVP (RB 但是)) (NP (NN 今天)) (, ，) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 剧作))) (VP (ADVP (RB 相对)) (VP (JJ 罕见)))) (, ，) (IP (NP (ADVP (VV 只有)) (NP (NP (`` “) (NNP 瓦尔波尼) ('' ”)) (CC 和) (NP (`` “) (NN 炼金) (NN 术士) ('' ”)))) (VP (ADVP (RB 广)) (VP (BB 为) (CP (IP (NP (NN 人)) (VP (VV 知))))))) (, ，) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 诗歌))) (VP (VC 更是) (NP (NNP 凤) (NNP 毛) (NNP 麟角)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, 'VV': {}}, 'VP': {'VP': {}, ',': {}, 'VP54921': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, 'VV': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}, 'VV': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+约翰	生	nsubj
+生	人物	csubj
+是	人物	cop
+他	时代	nmod
+时代	人物	nmod
+最	著名	advmod
+著名	人物	amod
+的	著名	mark:rel
+人物	人物	acl
+，	人物	punct
+是	人物	cop
+他	死后	nsubj
+死后	人物	acl:relcl
+（	年	punct
+1637	年）	nummod
+年）	年	clf
+几	年	nummod
+年	成就	nmod:tmod
+内	年	case
+最	成就	advmod
+成就	人物	acl:relcl
+的	成就	mark:rel
+人物	ROOT	root
+，	只有	punct
+但是	罕见	mark
+今天	罕见	nmod:tmod
+，	今天	punct
+他	剧作	det
+的	他	case
+剧作	罕见	nsubj
+相对	罕见	advmod
+罕见	只有	advcl
+，	只有	punct
+只有	人物	parataxis
+“	瓦尔波尼	punct
+瓦尔波尼	知	nsubj
+”	瓦尔波尼	punct
+和	术士	cc
+“	术士	punct
+炼金	术士	nmod
+术士	瓦尔波尼	conj
+”	术士	punct
+广	知	advmod
+为	知	cop
+人	知	nsubj
+知	凤	advcl
+，	知	punct
+他	诗歌	det
+的	他	case
+诗歌	凤	nsubj
+是	凤	cop
+凤	只有	ccomp
+毛	凤	appos
+麟角	毛	flat:name
+。	生	punct
+----------------------------------------------------------------------
+莎士比亚已经成为这个时代的伟大天才，他的剧作将永远占据舞台，而他的一系列 sonnets 也几乎同样受到推崇。
+
+(ROOT (IP (IP (NP (NNP 莎士比亚)) (VP (ADVP (RB 已经)) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 时代))) (DEC 的)) (ADJP (JJ 伟大)) (NP (NN 天才))))))) (, ，) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 剧作))) (VP (ADVP (RB 将)) (ADVP (RB 永远)) (VP (VV 占据) (NP (NN 舞台))))) (, ，) (RB 而) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (QP (CD 一) (CLP (NN 系列))) (NP (FW sonnets))) (VP (ADVP (RB 也)) (ADVP (RB 几乎)) (ADVP (RB 同样)) (VP (VV 受到) (NP (NN 推崇))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP62955': {}, ',76003': {}, 'RB': {}, 'IP66096': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'RB': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP46168': {'NP': {}, 'VP': {}}, ',60376': {}, 'RB': {}, 'IP64397': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'RB': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+莎士比亚	成	nsubj
+已经	成	advmod
+成	ROOT	root
+为	成	mark
+这	个	det
+个	时代	clf
+时代	天才	nmod
+的	时代	case
+伟大	天才	amod
+天才	成	obj
+，	占据	punct
+他	剧作	det
+的	他	case
+剧作	占据	nsubj
+将	占据	advmod
+永远	占据	advmod
+占据	成	parataxis
+舞台	占据	obj
+，	受到	punct
+而	受到	mark
+他	sonnets	det
+的	他	case
+一	系列	nummod
+系列	sonnets	nmod
+sonnets	受到	nsubj
+也	受到	mark
+几乎	受到	advmod
+同样	受到	advmod
+受到	成	parataxis
+推崇	受到	obj
+。	成	punct
+----------------------------------------------------------------------
+约翰逊和莎士比亚的生活和死后命运的对比，是伊恩·唐纳森在《约翰逊:一生》这部深入研究但又易于阅读的新传记中，经常出现的一个次要主题。
+
+(ROOT (IP (NP (DNP (NP (NP (DNP (NP (NNP 约翰逊) (CC 和) (NNP 莎士比亚)) (DEC 的)) (NP (NN 生活))) (CC 和) (NP (ADJP (NN 死后)) (NP (NN 命运)))) (DEC 的)) (NP (NN 对比))) (, ，) (VP (VC 是) (NP (CP (CP (IP (NP (NNP 伊恩) (/ ·) (NNP 唐纳森)) (VP (PP (IN 在) (LCP (NP (NP (-LRB- 《) (NNP 约翰逊:) (QP (CD 一)) (NP (NN 生)) (-RRB- 》)) (DP (DT 这) (CLP (NNB 部))) (CP (CP (IP (VP (VP (ADVP (RB 深入)) (VP (VV 研究))) (RB 但) (VP (ADVP (RB 又)) (VP (VV 易) (PP (VV 于) (IP (VP (VV 阅读)))))))) (DEC 的))) (ADJP (PFA 新)) (NP (NN 传记))) (IN 中))) (, ，) (ADVP (RB 经常)) (VP (VV 出现)))) (DEC 的))) (QP (CD 一) (CLP (NNB 个))) (ADJP (JJ 次要)) (NP (NN 主题)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, ',': {}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, ',': {}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+约翰逊	生活	nmod
+和	莎士比亚	cc
+莎士比亚	约翰逊	conj
+的	约翰逊	case
+生活	对比	nmod
+和	命运	cc
+死后	命运	nmod
+命运	生活	conj
+的	生活	case
+对比	主题	nsubj
+，	对比	punct
+是	主题	cop
+伊恩	生	nmod
+·	唐纳森	punct
+唐纳森	伊恩	flat:name
+在	生	case
+《	生	punct
+约翰逊:	生	nmod
+一	生	nummod
+生	易	obl
+》	生	punct
+这	部	det
+部	传记	clf
+深入	研究	advmod
+研究	易	ccomp
+但	易	mark
+又	易	mark
+易	传记	acl:relcl
+于	易	mark
+阅读	易	xcomp
+的	易	mark:rel
+新	传记	case
+传记	主题	nmod
+中	传记	case
+，	传记	punct
+经常	出现	advmod
+出现	主题	acl:relcl
+的	出现	mark:rel
+一	个	nummod
+个	主题	clf
+次要	主题	amod
+主题	ROOT	root
+。	主题	punct
+----------------------------------------------------------------------
+作为即将出版的七卷《贝内迪克·琼森作品剑桥版》的总编，唐纳森认为，尽管莎士比亚的作品被淡忘，但琼森对英国剧场的发展同样重要，甚至在某些方面可能更重要，至少在他们的戏剧首次上演的那些年里，琼森的作品更受欢迎。
+
+(ROOT (IP (PP (VV 作) (PP (VC 为) (NP (DNP (NP (CP (CP (IP (VP (ADVP (RB 即将)) (VP (VV 出版)))) (DEC 的))) (QP (CD 七) (CLP (NNB 卷))) (NP (-LRB- 《) (NP (NP (NNP 贝内迪克) (/ ·) (NNP 琼森)) (NP (NN 作品))) (NP (NNP 剑桥) (SFN 版)) (-RRB- 》))) (DEC 的)) (NP (NN 总编))))) (, ，) (NP (NNP 唐纳森)) (VP (VV 认为) (, ，) (IP (IP (CP (ADVP (IN 尽管)) (IP (NP (DNP (NP (NNP 莎士比亚)) (DEC 的)) (NP (NN 作品))) (VP (BB 被) (VP (VV 淡忘))))) (, ，) (ADVP (RB 但)) (NP (NNP 琼森)) (DNP (PP (IN 对) (NP (NP (NNP 英国)) (NP (NN 剧场)))) (DEC 的)) (NP (NN 发展)) (VP (VP (ADVP (RB 同样)) (VP (JJ 重要))) (, ，) (VP (ADVP (RB 甚至)) (PP (IN 在) (NP (DP (DT 某些)) (NP (NN 方面)))) (VP (MD 可能) (VP (ADVP (RB 更)) (VP (JJ 重要))))))) (, ，) (IP (PP (ADVP (RB 至少)) (PP (IN 在) (LCP (NP (CP (CP (IP (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 戏剧))) (VP (ADVP (CD 首次)) (VP (VV 上演)))) (DEC 的))) (DP (DT 那些) (CLP (NNB 年)))) (IN 里)))) (, ，) (NP (DNP (NP (NNP 琼森)) (DEC 的)) (NP (NN 作品))) (VP (ADVP (RB 更)) (VP (VV 受) (NP (VV 欢迎))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'PP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+作	ROOT	root
+为	作	mark
+即将	出版	advmod
+出版	总编	acl:relcl
+的	出版	mark:rel
+七	卷	nummod
+卷	总编	clf
+《	版	punct
+贝内迪克	版	nmod
+·	贝内迪克	punct
+琼森	版	nmod
+作品	版	nmod
+剑桥	版	compound
+版	总编	nmod
+》	版	punct
+的	版	case
+总编	作	obj
+，	为	punct
+唐纳森	为	nsubj
+为	作	parataxis
+，	重要	punct
+尽管	淡忘	case
+莎士比亚	作品	nmod
+的	莎士比亚	case
+作品	淡忘	nsubj:pass
+被	淡忘	aux:pass
+淡忘	重要	ccomp
+，	淡忘	punct
+但	重要	mark
+琼森	发展	nmod
+对	发展	case
+英国	剧场	nmod
+剧场	发展	nmod
+的	发展	case
+发展	重要	nsubj
+同样	重要	advmod
+重要	重要	advcl
+，	重要	punct
+甚至	重要	mark
+在	方面	case
+某些	方面	det
+方面	重要	nmod
+可能	重要	aux
+更	重要	advmod
+重要	为	ccomp
+，	受	punct
+至少	上演	advmod
+在	首次	case
+他	首次	det
+的	他	mark:rel
+戏剧	首次	nmod
+首次	上演	obl
+上演	年	acl:relcl
+的	上演	mark:rel
+那些	年	det
+年	受	obl
+里	年	case
+，	年	punct
+琼森	作品	nmod
+的	琼森	case
+作品	受	nsubj
+更	受	advmod
+受	作	parataxis
+欢迎	受	xcomp
+。	作	punct
+----------------------------------------------------------------------
+唐纳森写道：“约翰逊“为了改变早期现代英格兰戏剧作者的地位，大胆宣称他的道德尊严、批评权和准法律权利，即文本所有权”。
+
+(ROOT (IP (NP (NNP 唐纳森)) (VP (VV 写道) (: ：) (IP (`` “) (NP (NNP 约翰逊)) (VP (`` “) (PP (IN 为了) (IP (VP (VV 改变) (NP (DNP (NP (NP (NN 早期)) (ADJP (NN 现代)) (NP (NNP 英格兰)) (NP (NN 戏剧) (NN 作者))) (DEC 的)) (NP (NN 地位)))))) (, ，) (ADVP (RB 大胆)) (VP (VV 宣称) (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NP (NN 道德) (NN 尊严)) (EC 、) (NP (VV 批评) (SFN 权)) (CC 和) (NP (ADJP (PFA 准)) (NP (NN 法律) (NN 权利))))) (, ，) (NP (ADVP (VC 即)) (NP (NN 文本) (VV 所有) (SFN 权))))) ('' ”)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+唐纳森	写道	nsubj
+写道	ROOT	root
+：	宣称	punct
+“	宣称	punct
+约翰逊	宣称	nsubj
+“	宣称	punct
+为了	改变	case
+改变	宣称	xcomp
+早期	作者	nmod
+现代	作者	nmod
+英格兰	作者	nmod
+戏剧	作者	nmod
+作者	改变	obj
+的	改变	mark:rel
+地位	改变	obj
+，	改变	punct
+大胆	宣称	advmod
+宣称	写道	ccomp
+他	尊严	det
+的	他	case
+道德	尊严	nmod
+尊严	宣称	obj
+、	权	punct
+批评	权	compound
+权	尊严	conj
+和	权利	cc
+准	权利	case
+法律	权利	nmod
+权利	尊严	conj
+，	尊严	punct
+即	宣称	ccomp
+文本	权	nmod
+所有	权	compound
+权	即	xcomp
+”	即	punct
+。	写道	punct
+----------------------------------------------------------------------
+“首先，他会让剧作家成为一个可见的人物，— — 在他作品的书名页面上名义上可见，通过他自己的剧作创作的语言可以想象到他的存在。”
+
+(ROOT (IP (-LRB- “) (IP (ADVP (RB 首先)) (, ，) (NP (PRP 他)) (VP (MD 会) (VP (VV 让) (NP (NN 剧作家)) (IP (VP (VV 成) (VP (VC 为) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 可见))) (DEC 的))) (NP (NN 人物))))))))) (, ，) (HYPH —) (HYPH —) (IP (VP (PP (IN 在) (LCP (NP (DNP (NP (NP (PRP 他)) (NP (NN 作品))) (DEC 的)) (NP (NN 书名) (NN 页面))) (IN 上))) (LCP (NP (NN 名义)) (IN 上)) (VP (MD 可) (VP (VV 见))))) (, ，) (IP (VP (PP (IN 通过) (NP (DNP (NP (DNP (NP (PRP 他) (PRD 自己)) (DEC 的)) (NP (NN 剧作) (VV 创作))) (DEC 的)) (NP (NN 语言)))) (VP (MD 可以) (VP (VRD (VV 想象) (VV 到)) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 存在))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'-LRB-': {}, 'IP': {}, ',': {}, 'HYPH': {}, 'HYPH55698': {}, 'IP34477': {}, ',46722': {}, 'IP13727': {}, '.': {}, "''": {}}}
+{'IP': {'-LRB-': {}, 'IP': {}, ',': {}, 'HYPH': {}, 'HYPH': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'-LRB-': {}, 'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'HYPH': {}, 'HYPH20127': {}, 'IP77198': {'VP': {}}, ',62119': {}, 'IP87231': {'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'-LRB-': {}, 'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'HYPH': {}, 'HYPH': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+“	见	punct
+首先	让	advmod
+，	首先	punct
+他	见	nsubj
+会	让	aux
+让	见	advcl
+剧作家	成	nsubj
+成	让	ccomp
+为	成	mark
+一	个	nummod
+个	人物	clf
+可见	人物	acl:relcl
+的	可见	mark:rel
+人物	成	obj
+，	让	punct
+—	见	punct
+—	见	punct
+在	页面	case
+他	作品	nmod
+作品	页面	nmod
+的	作品	case
+书名	页面	nmod
+页面	见	obl
+上	页面	case
+名义	见	obl
+上	名义	case
+可	见	aux
+见	ROOT	root
+，	想象	punct
+通过	语言	case
+他	剧作	nmod
+自己	剧作	det
+的	自己	case
+剧作	创作	obl
+创作	语言	acl:relcl
+的	创作	mark:rel
+语言	想象	obl
+可以	想象	aux
+想象	见	parataxis
+到	想象	mark
+他	存在	det
+的	他	case
+存在	想象	obj
+。	想象	punct
+”	想象	punct
+----------------------------------------------------------------------
+莎士比亚在他一生中的相对隐形，肯定会在他死后的几个世纪中造成无法解决的问题，这也证明了对他剧作的作者权问题的永恒和烦人的争论。
+
+(ROOT (IP (IP (NP (NP (NNP 莎士比亚)) (DNP (PP (IN 在) (LCP (NP (NP (PRP 他)) (QP (CD 一) (CLP (NN 生)))) (IN 中))) (DEC 的)) (ADJP (JJ 相对)) (NP (NN 隐形))) (, ，) (VP (ADVP (VV 肯定)) (VP (MD 会) (VP (PP (IN 在) (LCP (NP (DNP (LCP (NP (PRP 他)) (VV 死后)) (DEC 的)) (QP (CD 几) (CLP (NNB 个))) (NP (NN 世纪))) (IN 中))) (VP (VV 造成) (NP (CP (CP (IP (VP (ADVP (VV 无法)) (VP (VV 解决)))) (DEC 的))) (NP (NN 问题)))))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 也)) (VP (VV 证明) (AS 了) (NP (DNP (NP (DNP (PP (IN 对) (NP (NP (PRP 他)) (NP (NN 剧作)))) (DEC 的)) (NP (NN 作者) (SFN 权) (NN 问题))) (DEC 的)) (CP (CP (IP (NP (NP (NN 永恒)) (CC 和) (JJ 烦人))) (DEC 的))) (NP (NN 争论)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP51159': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP28632': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+莎士比亚	肯定	nsubj
+在	隐形	case
+他	生	nmod
+一	生	nummod
+生	隐形	nmod
+中	生	case
+的	生	case
+相对	隐形	amod
+隐形	肯定	obl
+，	隐形	punct
+肯定	ROOT	root
+会	造成	aux
+在	世纪	case
+他	死后	nsubj
+死后	世纪	acl:relcl
+的	死后	mark:rel
+几	个	nummod
+个	世纪	clf
+世纪	造成	obl
+中	世纪	case
+造成	肯定	xcomp
+无法	问题	acl:relcl
+解决	无法	xcomp
+的	无法	mark:rel
+问题	造成	obj
+，	证明	punct
+这	证明	nsubj
+也	证明	mark
+证明	肯定	parataxis
+了	证明	aux
+对	问题	case
+他	剧作	nmod
+剧作	问题	nmod
+的	问题	case
+作者	权	compound
+权	问题	nmod
+问题	永恒	nmod
+的	问题	case
+永恒	争论	nmod
+和	烦人	cc
+烦人	永恒	amod
+的	永恒	case
+争论	证明	obj
+。	肯定	punct
+----------------------------------------------------------------------
+如果他有远见，能够让自己成为像约翰逊那样的多姿多彩和具有斗志的公众人物（被监禁了几次，因酗酒而闻名，有时是他时代强大名人的朋友，有时是他们的敌人），那么我们就不会受到盛行的牛津派理论的困扰，这些理论仍在今天大呼小叫。
+
+(ROOT (IP (IP (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 他)) (VP (VV 有) (NP (NN 远见))))) (, ，) (VP (MD 能够) (VP (VV 让) (NP (PRD 自己)) (IP (VP (VV 成) (VP (VC 为) (NP (CP (CP (IP (VP (PP (IN 像) (NP (NNP 约翰) (NNP 逊))) (VP (PRD 那样)))) (DEC 的))) (CP (CP (IP (VP (VP (NP (QP (CD 多)) (NP (NN 姿))) (VP (NP (ADVP (CD 多)) (NP (NN 彩))))) (CC 和) (VP (VV 具有) (NP (NN 斗志))))) (DEC 的))) (NP (NN 公众) (NN 人物)) (PRN (-LRB- （) (IP (VP (BB 被) (VP (VV 监禁) (AS 了) (QP (CD 几) (CLP (NNB 次)))))) (, ，) (IP (VP (PP (IN 因) (NP (VV 酗酒))) (VP (RB 而) (VP (VV 闻名))))) (, ，) (IP (VP (ADVP (RB 有时)) (VP (VC 是) (NP (DNP (NP (NP (NP (PRP 他)) (NP (NN 时代))) (ADJP (JJ 强大)) (NP (NN 名人))) (DEC 的)) (NP (NN 朋友)))))) (, ，) (IP (VP (ADVP (RB 有时)) (VP (VC 是) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 敌人)))))) (-RRB- ）))))))))) (, ，) (ADVP (RB 那么)) (NP (PRP 我们)) (VP (ADVP (RB 就)) (VP (MD 不会) (VP (VV 受到) (NP (DNP (NP (CP (CP (IP (VP (VV 盛行))) (DEC 的))) (NP (NNP 牛津) (SFN 派)) (NP (NN 理论))) (DEC 的)) (NP (NN 困扰))))))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 理论))) (VP (ADVP (RB 仍)) (PP (IN 在) (NP (NN 今天))) (VP (VV 大呼) (VV 小叫)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP28613': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP31323': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+如果	有	case
+他	有	nsubj
+有	闻名	ccomp
+远见	有	obj
+，	有	punct
+能够	让	aux
+让	闻名	xcomp
+自己	成	nsubj
+成	让	ccomp
+为	成	mark
+像	彩	case
+约翰	彩	nmod
+逊	约翰	flat:name
+那样	约翰	appos
+的	约翰	case
+多	姿	nummod
+姿	彩	nmod
+多	彩	nummod
+彩	成	obj
+和	人物	cc
+具有	人物	acl:relcl
+斗志	具有	obj
+的	具有	mark:rel
+公众	人物	nmod
+人物	彩	conj
+（	监禁	punct
+被	监禁	aux:pass
+监禁	闻名	ccomp
+了	监禁	aux
+几	次	nummod
+次	监禁	obl
+，	让	punct
+因	酗酒	case
+酗酒	闻名	xcomp
+而	闻名	mark
+闻名	ROOT	root
+，	朋友	punct
+有时	朋友	advmod
+是	朋友	cop
+他	时代	nmod
+时代	强大	obl
+强大	朋友	amod
+名人	强大	obj
+的	强大	mark:rel
+朋友	闻名	parataxis
+，	敌人	punct
+有时	敌人	advmod
+是	敌人	cop
+他	敌人	det
+的	他	mark:rel
+敌人	闻名	parataxis
+）	敌人	punct
+，	小叫	punct
+那么	受到	advmod
+我	受到	nsubj
+就	受到	mark
+会	受到	aux
+受到	小叫	advcl
+盛行	困扰	acl:relcl
+的	盛行	mark:rel
+牛津	派	compound
+派	理论	nmod
+理论	盛行	obj
+的	盛行	mark:rel
+困扰	受到	obj
+，	小叫	punct
+这些	理论	det
+理论	小叫	nsubj
+仍	小叫	advmod
+在	今天	case
+今天	小叫	obl
+大呼	小叫	advcl
+小叫	闻名	parataxis
+。	闻名	punct
+----------------------------------------------------------------------
+在一个似乎有点多余的前言中，唐纳森反对大众的一般观点，即约翰逊的传记作者面临着与写莎士比亚作品的作家相同的“谜题和兴奋”。唐纳森开始他的书，几乎是字面意思，约翰逊从伦敦出发，开始了一次完全是徒步的苏格兰之旅。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (RB 似乎) (VP (ADVP (VV 有点)) (VP (JJ 多余))))) (DEC 的))) (NP (NN 前言))) (IN 中))) (, ，) (NP (NNP 唐) (NNP 纳森)) (VP (VV 反对) (NP (DNP (NP (NN 大众)) (DEC 的)) (ADJP (JJ 一般)) (NP (NN 观点))))) (, ，) (IP (ADVP (VC 即)) (NP (DNP (NP (NNP 约翰逊)) (DEC 的)) (NP (NN 传记) (NN 作者))) (VP (VV 面临) (AS 着) (NP (CP (CP (IP (VP (PP (IN 与) (NP (CP (CP (IP (VP (VV 写) (NP (NP (NNP 莎士比亚)) (NP (NN 作品))))) (DEC 的))) (NP (NN 作家)))) (VP (JJ 相同)))) (DEC 的))) (NP (`` “) (NN 谜题) (CC 和) (NN 兴奋) ('' ”))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP23818': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP28052': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+在	前言	case
+一	个	nummod
+个	前言	clf
+似乎	有点	advmod
+有点	前言	acl:relcl
+多余	有点	xcomp
+的	有点	mark:rel
+前言	即	obl
+中	前言	case
+，	前言	punct
+唐	反对	nsubj
+纳森	唐	flat:name
+反对	观点	acl:relcl
+大众	反对	obj
+的	反对	mark:rel
+一般	观点	amod
+观点	即	xcomp
+，	观点	punct
+即	ROOT	root
+约翰逊	作者	nmod
+的	约翰逊	case
+传记	作者	nmod
+作者	面临	nsubj
+面临	即	ccomp
+着	面临	aux
+与	作家	case
+写	作家	acl:relcl
+莎士比亚	作品	nmod
+作品	写	obj
+的	相同	mark:rel
+作家	相同	nmod
+相同	谜题	amod
+的	相同	mark:rel
+“	谜题	punct
+谜题	面临	obj
+和	兴奋	cc
+兴奋	谜题	conj
+”	谜题	punct
+。	即	punct
+----------------------------------------------------------------------
+那是 1618 年，他 46 岁了，已经是一个名声显赫的文学人物，“在路上，当地官员、大家族的使者、年轻人和老人都跑出来欢迎他。”
+
+(ROOT (IP (IP (NP (PRD 那)) (VP (VC 是) (QP (CD 1618) (CLP (NNB 年))))) (, ，) (IP (NP (PRP 他)) (VP (QP (CD 46)) (VP (NNB 岁了)))) (, ，) (IP (VP (ADVP (RB 已经)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (NP (NN 名声)) (VP (JJ 显赫))) (DEC 的))) (NP (NN 文学) (NN 人物)))))) (, ，) (IP (`` “) (PP (VV 在) (NP (NN 路上))) (, ，) (NP (NP (NN 当地) (NN 官员)) (EC 、) (NP (DNP (NP (ADJP (PFA 大)) (NP (NN 家族))) (DEC 的)) (NP (NN 使者))) (EC 、) (NP (ADJP (JJ 年轻)) (NP (SFN 人))) (CC 和) (NP (NN 老人))) (VP (ADVP (RB 都)) (VP (VP (VRD (VV 跑) (VV 出))) (VP (RB 来) (VP (VV 欢迎) (NP (PRP 他))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP16423': {}, ',82187': {}, 'IP22846': {}, ',56148': {}, 'IP26009': {}, '.': {}, "''": {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP20256': {'NP': {}, 'VP': {}}, ',51139': {}, 'IP20605': {'VP': {}}, ',67779': {}, 'IP26584': {'``': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'``': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'``': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+那	人物	nsubj
+是	年	cop
+1618	年	nummod
+年	人物	nmod
+，	年	punct
+他	岁了	nsubj
+46	岁了	nummod
+岁了	人物	csubj
+，	岁了	punct
+已经	人物	advmod
+是	人物	cop
+一	个	nummod
+个	人物	clf
+名声	显赫	nsubj
+显赫	人物	amod
+的	显赫	mark:rel
+文学	人物	nmod
+人物	ROOT	root
+，	欢迎	punct
+“	欢迎	punct
+在	欢迎	advcl
+路上	在	obj
+，	在	punct
+当地	官员	nmod
+官员	使者	nmod
+、	家族	punct
+大	家族	case
+家族	官员	conj
+的	官员	case
+使者	欢迎	nsubj
+、	人	punct
+年轻	人	compound
+人	使者	conj
+和	老人	cc
+老人	使者	conj
+都	跑	mark
+跑	欢迎	advcl
+出	跑	mark
+来	欢迎	mark
+欢迎	人物	parataxis
+他	欢迎	obj
+。	欢迎	punct
+”	欢迎	punct
+----------------------------------------------------------------------
+尽管他还有很多工作和更大的名声在前面，但约翰逊“已经成为英国第一个文学名人”。
+
+(ROOT (IP (CP (ADVP (IN 尽管)) (IP (NP (PRP 他)) (VP (ADVP (RB 还)) (VP (VV 有) (IP (NP (NP (QP (CD 很多)) (NP (NN 工作))) (CC 和) (NP (CP (CP (IP (VP (JJ 更大))) (DEC 的))) (NP (NN 名声)))) (PP (VV 在) (NP (NN 前面)))))))) (, ，) (ADVP (RB 但)) (NP (NNP 约翰逊)) (VP (`` “) (ADVP (RB 已经)) (VP (VV 成) (VP (VC 为) (NP (NP (NNP 英国)) (QP (CD 第一) (CLP (NNB 个))) (NP (NN 文学) (NN 名人))))) ('' ”)) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'NNP': {}}, 'VP': {'``': {}, 'ADVP': {}, 'VP': {}, "''": {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'NNP': {}}, 'VP': {'``': {}, 'ADVP': {}, 'VP': {}, "''": {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'``': {}, 'ADVP': {}, 'VP': {}, "''": {}}}
+Dependency Features:
+尽管	有	case
+他	有	nsubj
+还	有	mark
+有	成	ccomp
+很多	工作	nummod
+工作	在	nsubj
+和	名声	cc
+更大	名声	amod
+的	更大	mark:rel
+名声	工作	conj
+在	有	ccomp
+前面	在	obj
+，	有	punct
+但	成	mark
+约翰逊	成	nsubj
+“	成	punct
+已经	成	advmod
+成	ROOT	root
+为	成	mark
+英国	名人	nmod
+第一	个	nummod
+个	名人	clf
+文学	名人	nmod
+名人	成	obj
+”	名人	punct
+。	成	punct
+----------------------------------------------------------------------
+约翰逊的苏格兰之旅还因为他与威廉·德拉蒙德的决战而闻名，德拉蒙德在他们的对话中的笔记是学者的主要资源，但从某些方面来说，它是一个令人怀疑和误导的资源，唐纳森充分论证了这一点。
+
+(ROOT (IP (IP (NP (DNP (NP (NNP 约翰) (NNP 逊)) (DEC 的)) (DNP (NP (NNP 苏格兰)) (DEC 之)) (NP (NN 旅))) (VP (ADVP (RB 还)) (PP (IN 因为) (NP (NP (PRP 他)) (DNP (PP (IN 与) (NP (NNP 威廉) (/ ·) (NNP 德拉蒙德))) (DEC 的)) (NP (NN 决战)))) (VP (RB 而) (VP (VV 闻名))))) (, ，) (IP (NP (NP (NNP 德拉蒙德)) (DNP (PP (IN 在) (LCP (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 对话))) (IN 中))) (DEC 的)) (NP (NN 笔记))) (VP (VC 是) (NP (DNP (NP (NN 学者)) (DEC 的)) (ADJP (JJ 主要)) (NP (NN 资源))))) (, ，) (IP (ADVP (RB 但)) (IP (VP (PP (IN 从) (NP (DP (DT 某些)) (NP (NN 方面)))) (VP (RB 来) (VP (VV 说))))) (, ，) (NP (PRP 它)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 令) (NP (NN 人)) (IP (VP (VP (VV 怀疑)) (CC 和) (VP (VV 误导)))))) (DEC 的))) (NP (NN 资源))))) (, ，) (IP (NP (NNP 唐) (NNP 纳森)) (VP (ADVP (RB 充分)) (VP (VV 论证) (AS 了) (DP (DT 这) (QP (CD 一) (CLP (NN 点))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP28882': {}, ',18708': {}, 'IP24830': {}, ',76178': {}, 'IP36994': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP23834': {'NP': {}, 'VP': {}}, ',89165': {}, 'IP74189': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',49707': {}, 'IP34820': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+约翰	苏格兰	nmod
+逊	约翰	flat:name
+的	约翰	case
+苏格兰	旅	nmod
+之	苏格兰	case
+旅	闻名	nsubj
+还	闻名	mark
+因为	决战	case
+他	决战	nmod
+与	决战	case
+威廉	决战	nmod
+·	德拉蒙德	punct
+德拉蒙德	威廉	flat:name
+的	威廉	case
+决战	闻名	obl
+而	闻名	mark
+闻名	ROOT	root
+，	资源	punct
+德拉蒙德	笔记	nmod
+在	对话	case
+他	对话	det
+的	他	mark:rel
+对话	笔记	nmod
+中	对话	case
+的	对话	case
+笔记	资源	nsubj
+是	资源	cop
+学者	资源	nmod
+的	学者	mark:rel
+主要	资源	amod
+资源	闻名	parataxis
+，	说	punct
+但	说	mark
+从	方面	case
+某些	方面	det
+方面	说	obl
+来	说	mark
+说	闻名	parataxis
+，	资源	punct
+它	资源	nsubj
+是	资源	cop
+一	个	nummod
+个	资源	clf
+令	资源	acl:relcl
+人	怀疑	nsubj
+怀疑	令	ccomp
+和	误导	cc
+误导	令	conj
+的	令	mark:rel
+资源	说	ccomp
+，	论证	punct
+唐	论证	nsubj
+纳森	唐	flat:name
+充分	论证	advmod
+论证	闻名	parataxis
+了	论证	aux
+这	点	det
+一	点	nummod
+点	论证	obj
+。	闻名	punct
+----------------------------------------------------------------------
+例如，就是从这些简略的笔记中，我们可以看到约翰逊的形象，他被认为是文学伦敦的第一个讽刺家？他认为伟大的诗人约翰·东恩（约翰逊的同时代人和朋友）“应该被绞死”，因为“不懂拿什么样的口音来说”。
+
+(ROOT (IP (IP (ADVP (VV 例如)) (, ，) (VP (VC 就是) (IP (PP (IN 从) (LCP (NP (DP (DT 这些)) (CP (CP (IP (VP (JJ 简略))) (DEC 的))) (NP (NN 笔记))) (IN 中))) (, ，) (NP (PRP 我们)) (VP (MD 可以) (VP (VV 看到) (NP (DNP (NP (NNP 约翰逊)) (DEC 的)) (NP (NN 形象)))))))) (, ，) (IP (NP (PRP 他)) (VP (BB 被) (VP (VCP (VV 认为) (VC 是)) (NP (DNP (NP (NP (NN 文学)) (NP (NNP 伦敦))) (DEC 的)) (QP (CD 第一) (CLP (NNB 个))) (NP (VV 讽刺) (SFN 家)))))) (. ？)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP98631': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP38569': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+例如	ROOT	root
+，	是	punct
+是	例如	xcomp
+从	笔记	case
+这些	笔记	det
+简略	笔记	amod
+的	简略	mark:rel
+笔记	看到	obl
+中	笔记	case
+，	是	punct
+我	看到	nsubj
+可以	看到	aux
+看到	例如	ccomp
+约翰逊	形象	nmod
+的	约翰逊	case
+形象	看到	obj
+，	为	punct
+他	为	nsubj:pass
+被	为	aux:pass
+为	例如	parataxis
+是	家	cop
+文学	伦敦	nmod
+伦敦	家	nmod
+的	伦敦	case
+第一	个	nummod
+个	家	nmod
+讽刺	家	compound
+家	为	xcomp
+？	为	punct
+----------------------------------------------------------------------
+更臭名昭著的是，指责莎士比亚“想要艺术”。
+
+(ROOT (IP (NP (CP (CP (IP (NP (JJ 更臭) (NN 名)) (VP (JJ 昭著))) (DEC 的)))) (VP (VC 是) (, ，) (IP (VP (VV 指责) (NP (NNP 莎士比亚)) (IP (VP (`` “) (VV 想要) (NP (NN 艺术)) ('' ”)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+更臭	名	amod
+名	昭著	nsubj
+昭著	是	csubj
+的	昭著	mark:rel
+是	ROOT	root
+，	指责	punct
+指责	是	xcomp
+莎士比亚	想要	nsubj
+“	想要	punct
+想要	指责	ccomp
+艺术	想要	obj
+”	想要	punct
+。	是	punct
+----------------------------------------------------------------------
+尽管约翰生和莎士比亚都来自相对贫寒的家庭，但约翰生的文学修养显然要高一些。
+
+(ROOT (IP (CP (ADVP (IN 尽管)) (IP (NP (NNP 约翰) (SFN 生) (CC 和) (NNP 莎士比亚)) (VP (ADVP (RB 都)) (VP (VV 来) (PP (VV 自) (NP (CP (CP (IP (VP (ADVP (RB 相对)) (VP (JJ 贫寒)))) (DEC 的))) (NP (NN 家庭)))))))) (, ，) (ADVP (RB 但)) (NP (DNP (NP (NNP 约翰) (SFN 生)) (DEC 的)) (NP (NN 文学) (NN 修养))) (VP (ADVP (RB 显然)) (VP (MD 要) (VP (JJ 高) (ADVP (JJ 一些))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+尽管	来	case
+约翰	生	compound
+生	来	nsubj
+和	莎士比亚	cc
+莎士比亚	生	conj
+都	来	mark
+来	高	ccomp
+自	来	mark
+相对	贫寒	advmod
+贫寒	家庭	amod
+的	贫寒	mark:rel
+家庭	来	obj
+，	来	punct
+但	高	mark
+约翰	生	compound
+生	修养	nmod
+的	生	case
+文学	修养	nmod
+修养	高	nsubj
+显然	高	advmod
+要	高	aux
+高	ROOT	root
+一些	高	xcomp
+。	高	punct
+----------------------------------------------------------------------
+他是苏格兰人，因此他的旅行也是路旅，他的出生有一些猜测，尽管大概是 1572 年。
+
+(ROOT (IP (IP (NP (PRP 他)) (VP (VC 是) (NP (NP (NNP 苏格兰)) (NP (SFN 人))))) (, ，) (IP (ADVP (IN 因)) (ADVP (PRD 此)) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 旅行))) (VP (VC 也是) (NP (NN 路旅)))) (, ，) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 出生))) (VP (VV 有) (NP (QP (JJ 一些)) (NP (NN 猜测))))) (, ，) (IP (VP (ADVP (IN 尽管)) (ADVP (RB 大概)) (VP (VC 是) (QP (CD 1572) (CLP (NNB 年)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP24871': {}, ',98535': {}, 'IP98869': {}, ',57722': {}, 'IP21802': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP60455': {'ADVP': {}, 'ADVP93685': {}, 'NP': {}, 'VP': {}}, ',28514': {}, 'IP10761': {'NP': {}, 'VP': {}}, ',34856': {}, 'IP75067': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+他	人	nsubj
+是	人	cop
+苏格兰	人	compound
+人	ROOT	root
+，	路旅	punct
+因	此	case
+此	路旅	nmod
+他	旅行	det
+的	他	case
+旅行	路旅	nsubj
+是	路旅	cop
+路旅	人	parataxis
+，	有	punct
+他	出生	det
+的	他	case
+出生	有	nsubj
+有	人	parataxis
+一些	猜测	amod
+猜测	有	obj
+，	年	punct
+尽管	年	case
+大概	年	advmod
+是	年	cop
+1572	年	nummod
+年	人	parataxis
+。	人	punct
+----------------------------------------------------------------------
+（唐纳森在一篇关于占星术的巨大偏离中花费了太长时间来搜集一个确切的夏季日期。)
+
+(ROOT (IP (-LRB- （) (NP (NNP 唐纳森)) (VP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 篇))) (DNP (PP (IN 关于) (NP (VV 占星) (SFN 术))) (DEC 的)) (ADJP (JJ 巨大)) (NP (NN 偏离))) (IN 中))) (VP (VP (VV 花费) (AS 了) (NP (ADJP (JJ 太长)) (NP (NN 时间)))) (VP (RB 来) (VP (VV 搜集) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 确切))) (DEC 的))) (NP (NN 夏季) (NN 日期))))))) (. 。)))
+layer 2:
+{'IP': {'-LRB-': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'-LRB-': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'-LRB-': {}, 'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'-LRB-': {}, 'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+（	搜集	punct
+唐纳森	搜集	nsubj
+在	偏离	case
+一	篇	nummod
+篇	偏离	clf
+关于	偏离	case
+占星	术	compound
+术	偏离	nmod
+的	偏离	case
+巨大	偏离	amod
+偏离	搜集	obl
+中	偏离	case
+花费	搜集	advcl
+了	花费	aux
+太长	时间	amod
+时间	花费	obj
+来	搜集	mark
+搜集	ROOT	root
+一	个	nummod
+个	日期	clf
+确切	日期	amod
+的	确切	mark:rel
+夏季	日期	nmod
+日期	搜集	obj
+。	搜集	punct
+----------------------------------------------------------------------
+他的父亲在他出生前一个月就去世了，琼森在伦敦长大，成长为一名砖匠的继子，即使在开始写作后，他也会自己从事这项职业。
+
+(ROOT (IP (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 父亲))) (VP (PP (IN 在) (NP (LCP (IP (NP (PRP 他)) (VP (VV 出生))) (IN 前)) (QP (CD 一) (CLP (NNB 个))) (NP (NN 月)))) (ADVP (RB 就)) (VP (VV 去世) (UH 了)))) (, ，) (IP (NP (NNP 琼森)) (VP (VP (PP (VV 在) (NP (NNP 伦敦))) (VP (VV 长大))) (, ，) (VP (VRD (VV 成长) (VC 为)) (NP (DNP (NP (QP (CD 一) (CLP (NNB 名))) (NP (NN 砖匠))) (DEC 的)) (NP (NN 继子)))))) (, ，) (VP (ADVP (IN 即使)) (PP (IN 在) (LCP (IP (VP (VV 开始) (VP (VV 写作)))) (IN 后))) (, ，) (NP (PRP 他)) (VP (ADVP (RB 也)) (VP (MD 会) (VP (NP (PRD 自己)) (VP (VV 从事) (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 职业)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP29357': {}, ',97997': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP58672': {'NP': {}, 'VP': {}}, ',4257': {}, 'VP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'VP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+他	父亲	det
+的	他	case
+父亲	去世	nsubj
+在	月	case
+他	出生	nsubj
+出生	月	amod
+前	出生	mark
+一	个	nummod
+个	月	clf
+月	去世	obl
+就	去世	mark
+去世	ROOT	root
+了	去世	discourse
+，	从事	punct
+琼森	长大	nsubj
+在	长大	advcl
+伦敦	在	obj
+长大	从事	advcl
+，	长大	punct
+成长	继子	acl:relcl
+为	成长	mark
+一	名	nummod
+名	砖匠	clf
+砖匠	成长	obj
+的	成长	mark:rel
+继子	去世	obj
+，	从事	punct
+即使	开始	case
+在	开始	case
+开始	从事	xcomp
+写作	开始	xcomp
+后	开始	mark
+，	开始	punct
+他	从事	nsubj
+也	从事	mark
+会	从事	aux
+自己	从事	nsubj
+从事	去世	parataxis
+这	项	det
+项	职业	clf
+职业	从事	obj
+。	去世	punct
+----------------------------------------------------------------------
+但是，他的智力让他得以进入一所好学校，他精通拉丁语，在整个职业生涯中，他一直以古典作家（他特别崇拜奥德赛）为榜样。
+
+(ROOT (IP (IP (ADVP (RB 但是)) (, ，) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 智力))) (VP (VV 让) (NP (PRP 他)) (IP (VP (VV 得) (VP (RB 以) (VP (VV 进入) (NP (QP (CD 一) (CLP (NNB 所))) (ADJP (JJ 好)) (NP (NN 学校))))))))) (, ，) (IP (NP (PRP 他)) (VP (VV 精通) (NP (NP (NNP 拉丁)) (NP (SFN 语))))) (, ，) (IP (PP (IN 在) (LCP (NP (DP (DT 整个)) (NP (NN 职业) (NN 生涯))) (IN 中))) (, ，) (NP (PRP 他)) (VP (ADVP (RB 一直)) (PP (VV 以) (NP (ADJP (JJ 古典)) (NP (NN 作家)) (PRN (-LRB- （) (IP (NP (PRP 他)) (VP (ADVP (RB 特别)) (VP (VV 崇拜) (NP (NNP 奥德赛))))) (-RRB- ）)))) (VP (VC 为) (NP (NN 榜样))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP34748': {}, ',39245': {}, 'IP72849': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP45943': {'NP': {}, 'VP': {}}, ',37333': {}, 'IP97639': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+但是	让	mark
+，	但是	punct
+他	智力	det
+的	他	case
+智力	让	nsubj
+让	ROOT	root
+他	进入	nsubj
+得	进入	advcl
+以	进入	mark
+进入	让	ccomp
+一	所	nummod
+所	学校	clf
+好	学校	amod
+学校	进入	obj
+，	精通	punct
+他	精通	nsubj
+精通	让	parataxis
+拉丁	语	compound
+语	精通	obj
+，	以	punct
+在	生涯	case
+整个	生涯	det
+职业	生涯	nmod
+生涯	以	obl
+中	生涯	case
+，	生涯	punct
+他	以	nsubj
+一直	以	advmod
+以	让	parataxis
+古典	作家	amod
+作家	崇拜	nsubj
+（	崇拜	punct
+他	崇拜	nsubj
+特别	崇拜	advmod
+崇拜	榜样	acl
+奥德赛	崇拜	obj
+）	崇拜	punct
+为	榜样	cop
+榜样	以	ccomp
+。	让	punct
+----------------------------------------------------------------------
+他的戏剧生涯起步于揭短隐的早期合作，约翰逊后来蔑视了这些作品，并将其排除在 1616 年出版的《第一集》中。
+
+(ROOT (IP (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 戏剧) (NN 生涯))) (VP (VV 起) (VP (VV 步) (PP (VV 于) (NP (DNP (NP (JJ 揭短隐)) (DEC 的)) (NP (NN 早期) (NN 合作))))))) (, ，) (IP (NP (NNP 约翰逊)) (VP (VP (ADVP (NN 后来)) (VP (VV 蔑视) (AS 了) (NP (DP (DT 这些)) (NP (NN 作品))))) (, ，) (RB 并) (VP (BB 将) (IP (NP (PRP 其)) (VP (VV 排除) (PP (IN 在) (LCP (NP (DNP (NP (CD 1616) (NNB 年出版)) (DEC 的)) (QP (-LRB- 《) (QP (CD 第一) (CLP (NNB 集))) (-RRB- 》))) (IN 中)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP22211': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP75097': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+他	生涯	det
+的	他	case
+戏剧	生涯	nmod
+生涯	起	nsubj
+起	ROOT	root
+步	起	xcomp
+于	步	mark
+揭短隐	合作	amod
+的	揭短隐	mark:rel
+早期	合作	nmod
+合作	步	obj
+，	排除	punct
+约翰逊	排除	nsubj
+后来	蔑视	nmod:tmod
+蔑视	排除	advcl
+了	蔑视	aux
+这些	作品	det
+作品	蔑视	obj
+，	蔑视	punct
+并	排除	mark
+将	其	case
+其	排除	obl:patient
+排除	起	parataxis
+在	集	case
+1616	年出版	nummod
+年出版	集	nmod
+的	年出版	mark:rel
+《	集	punct
+第一	集	nummod
+集	排除	obl
+》	集	punct
+中	集	case
+。	起	punct
 ----------------------------------------------------------------------
-虽然像火星凤凰号登陆器这样的普通机器人是美国航空航天局的主要作业部分，但人形机器人却是另一回事。
+其中一部作品《狗屎岛》被遗失，导致他因煽动叛乱而入狱。
 
-(ROOT (IP (CP (ADVP (IN 虽然)) (IP (NP (CP (CP (IP (VP (PP (VV 像) (NP (NP (NNP 火星)) (NP (NNP 凤凰) (SFN 号)) (NP (VV 登陆) (SFN 器)))) (VP (PRD 这样)))) (DEC 的))) (ADJP (JJ 普通)) (NP (NN 机器) (SFN 人))) (VP (VC 是) (NP (DNP (NP (NNP 美国) (NN 航空) (NN 航天) (SFN 局)) (DEC 的)) (ADJP (JJ 主要)) (NP (NN 作业) (NN 部分)))))) (, ，) (ADVP (RB 但)) (NP (NN 人形) (NN 机器) (SFN 人)) (VP (VC 却是) (NP (DP (DT 另) (QP (CD 一))) (NP (NN 回事)))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'NN': {}, 'NN': {}, 'SFN': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'NN': {}, 'NN': {}, 'SFN': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
-----------------------------------------------------------------------
-人们对于人形机器人帮助人类的想法有着强烈的科幻吸引力，但这个想法是否有更多的寓意？迈克耳孙·肯尼迪太空中心的航天专家、前宇航员杰弗里·霍夫曼表示，是的。
-
-(ROOT (IP (IP (NP (NN 人们)) (VP (PP (IN 对于) (NP (CP (IP (NP (NN 人形) (NN 机器) (SFN 人)) (VP (VV 帮助) (NP (NN 人类)))) (DEC 的)) (NP (NN 想法)))) (VP (VV 有) (AS 着) (NP (CP (CP (IP (VP (JJ 强烈))) (DEC 的))) (NP (NN 科幻) (VV 吸引) (SFN 力)))))) (, ，) (IP (ADVP (RB 但)) (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 想法))) (VP (ADVP (VC 是否)) (VP (VV 有) (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的))) (NP (NN 寓意)))))) (. ？)))
+(ROOT (IP (IP (NP (NP (NP (NN 其中)) (QP (CD 一) (CLP (NNB 部))) (NP (NN 作品))) (NP (-LRB- 《) (NN 狗) (SFN 屎) (SFN 岛) (-RRB- 》))) (VP (BB 被) (VP (VV 遗失)))) (, ，) (IP (VP (VV 导致) (IP (NP (PRP 他)) (VP (PP (IN 因) (IP (VP (VV 煽动) (NP (NN 叛乱))))) (VP (RB 而) (VP (VV 入狱))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP37057': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP78958': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+其中	作品	nmod
+一	部	nummod
+部	作品	clf
+作品	遗失	nsubj:pass
+《	岛	punct
+狗	屎	compound
+屎	岛	compound
+岛	作品	appos
+》	岛	punct
+被	遗失	aux:pass
+遗失	导致	csubj
+，	遗失	punct
+导致	ROOT	root
+他	入狱	nsubj
+因	煽动	case
+煽动	入狱	xcomp
+叛乱	煽动	obj
+而	入狱	mark
+入狱	导致	ccomp
+。	导致	punct
 ----------------------------------------------------------------------
-“我非常相信人机互动。
+讽刺，这在莎士比亚的作品中从未出现过，但成为了约翰逊的专长，在伊丽莎白时代，这是一项危险的业务。
 
-(ROOT (IP (`` “) (NP (PRP 我)) (VP (ADVP (RB 非常)) (VP (VV 相信) (NP (NN 人机) (VV 互动)))) (. 。)))
-{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+(ROOT (IP (IP (VP (VV 讽刺))) (, ，) (IP (NP (PRD 这)) (VP (VP (PP (IN 在) (LCP (NP (DNP (NP (NNP 莎士比亚)) (DEC 的)) (NP (NN 作品))) (IN 中))) (ADVP (IN 从)) (ADVP (RB 未)) (VP (VV 出现) (AS 过))) (, ，) (VP (ADVP (RB 但)) (VP (VV 成) (VP (VC 为) (AS 了) (NP (DNP (NP (NNP 约翰逊)) (DEC 的)) (NP (NN 专长)))))))) (, ，) (IP (PP (IN 在) (NP (NP (NNP 伊丽莎白)) (NP (NN 时代)))) (, ，) (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 项))) (CP (CP (IP (VP (JJ 危险))) (DEC 的))) (NP (NN 业务))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP55173': {}, ',56019': {}, 'IP38113': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP40124': {'NP': {}, 'VP': {}}, ',35397': {}, 'IP15295': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+讽刺	ROOT	root
+，	讽刺	punct
+这	作品	nmod
+在	作品	case
+莎士比亚	作品	nmod
+的	莎士比亚	case
+作品	出现	obl
+中	作品	case
+从	出现	case
+未	出现	advmod
+出现	成	xcomp
+过	出现	aux
+，	出现	punct
+但	成	mark
+成	讽刺	parataxis
+为	成	mark
+了	成	aux
+约翰逊	专长	nmod
+的	约翰逊	case
+专长	成	obj
+，	业务	punct
+在	时代	case
+伊丽莎白	时代	nmod
+时代	业务	nmod
+，	时代	punct
+这	业务	nsubj
+是	业务	cop
+一	项	nummod
+项	业务	clf
+危险	业务	amod
+的	危险	mark:rel
+业务	讽刺	parataxis
+。	讽刺	punct
 ----------------------------------------------------------------------
-“你可以建立协同作用，以完成人类和机器人单独无法完成的任务，”霍夫曼说。 “这就是 Robonaut 诞生的灵感。”
+也有詹姆士一世统治时期的英格兰：约翰逊在詹姆斯统治时期也因为写作而惹恼王室，他与他的合作者一起被关押了起来，他们的剧作《向东去！》（Eastward Ho!）也因此遭到禁演。
 
-(ROOT (IP (IP (IP (`` “) (NP (PRP 你)) (VP (MD 可以) (VP (VP (VV 建立) (NP (JJ 协同) (NN 作用))) (, ，) (PP (RB 以) (VP (VV 完成) (NP (CP (CP (IP (NP (NN 人类) (CC 和) (NN 机器) (SFN 人)) (VP (ADVP (RB 单独)) (ADVP (VV 无法)) (VP (VV 完成)))) (DEC 的))) (NP (NN 任务)))))))) (, ，) ('' ”)) (NP (NNP 霍夫曼)) (VP (VV 说)) (. 。)))
-{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, "''": {}}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, "''": {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}}}
+(ROOT (IP (IP (VP (ADVP (RB 也)) (VP (VV 有) (NP (DNP (IP (NP (NNP 詹姆士) (NNP 一世)) (NP (VV 统治) (NN 时期))) (DEC 的)) (NP (NNP 英格兰)))))) (: ：) (IP (NP (NNP 约翰逊)) (VP (PP (IN 在) (NP (NP (NP (NNP 詹姆斯)) (NP (NN 统治))) (NP (NN 时期)))) (ADVP (RB 也)) (PP (IN 因为) (NP (VV 写作))) (VP (RB 而) (VP (VV 惹恼) (NP (NN 王室)))))) (, ，) (IP (NP (PRP 他)) (VP (PP (IN 与) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (VV 合作) (SFN 者)))) (ADVP (NN 一起)) (VP (BB 被) (VP (VV 关押) (AS 了) (VV 起来))))) (, ，) (IP (NP (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 剧作))) (NP (-LRB- 《) (IN 向) (VV 东去) (-RRB- ！) (-RRB- 》) (PRN (-LRB- （) (NP (FW Eastward) (FW Ho!)) (-RRB- ）)))) (VP (ADVP (RB 也)) (PP (IN 因) (NP (PRD 此))) (VP (VV 遭到) (NP (NN 禁演))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP93976': {}, ',': {}, 'IP34718': {}, ',70911': {}, 'IP53795': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ':': {}, 'IP37026': {'NP': {}, 'VP': {}}, ',': {}, 'IP83887': {'NP': {}, 'VP': {}}, ',75441': {}, 'IP61083': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+也	有	mark
+有	ROOT	root
+詹姆士	统治	nsubj
+一世	詹姆士	flat:name
+统治	英格兰	acl:relcl
+时期	统治	obj
+的	统治	mark:rel
+英格兰	有	obj
+：	惹恼	punct
+约翰逊	惹恼	nsubj
+在	时期	case
+詹姆斯	时期	nmod
+统治	时期	nmod
+时期	惹恼	obl
+也	惹恼	mark
+因为	写作	case
+写作	惹恼	xcomp
+而	惹恼	mark
+惹恼	有	parataxis
+王室	惹恼	obj
+，	关押	punct
+他	关押	nsubj:pass
+与	者	case
+他	者	det
+的	他	mark:rel
+合作	者	compound
+者	关押	obl
+一起	关押	obl
+被	关押	aux:pass
+关押	有	parataxis
+了	关押	aux
+起来	关押	mark
+，	遭到	punct
+他	剧作	det
+的	他	case
+剧作	遭到	nsubj
+《	东去	punct
+向	东去	case
+东去	遭到	xcomp
+！	东去	punct
+》	东去	punct
+（	Eastward	punct
+Eastward	东去	appos
+Ho!	Eastward	flat:foreign
+）	Eastward	punct
+也	遭到	mark
+因	此	case
+此	遭到	obl
+遭到	有	parataxis
+禁演	遭到	obj
+。	有	punct
 ----------------------------------------------------------------------
-许多成功的机器人，比如 Kiva 的产品配送机器人或军方的小助手，看起来与人类完全不同。
+唐纳森指出，现存的文本几乎没有提到哪些行为特别激怒了君主，除非这些行为是对现在占据宫廷的苏格兰骑士的一般性挖苦。
 
-(ROOT (IP (NP (NP (QP (CD 许多)) (CP (CP (IP (VP (JJ 成功))) (DEC 的))) (NP (NN 机器) (SFN 人))) (, ，) (NP (ADVP (VV 比如)) (NP (NP (DNP (NP (FW Kiva)) (DEC 的)) (NP (NN 产品) (VV 配送) (NN 机器) (SFN 人))) (CC 或) (NP (DNP (NP (NN 军方)) (DEC 的)) (ADJP (SFA 小)) (NP (NN 助手)))))) (, ，) (VP (VRD (VV 看) (VV 起来)) (IP (VP (PP (IN 与) (NP (NN 人类))) (ADVP (RB 完全)) (VP (JJ 不同))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, ',': {}, 'NP': {}}, ',': {}, 'VP': {'VRD': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NP': {}, ',': {}, 'NP': {}}}
-{'VP': {'VRD': {}, 'IP': {}}}
-----------------------------------------------------------------------
-而一些空间研究人员，比如麻省理工学院历史学家兼政策分析师戴维·明德尔并不认为人形机器人是个好主意。
-
-(ROOT (IP (ADVP (RB 而)) (NP (NP (QP (JJ 一些)) (NP (NN 空间) (NN 研究) (NN 人员))) (, ，) (NP (ADVP (VV 比如)) (NP (NP (NP (NNP 麻省) (NN 理工) (NN 学院)) (NP (NN 历史) (NN 学家) (CC 兼) (NN 政策) (VV 分析) (SFN 师))) (NP (NNP 戴维) (/ ·) (NNP 明德尔))))) (VP (ADVP (RB 并)) (ADVP (RB 不)) (VP (VV 认为) (IP (NP (ADJP (NN 人形)) (NP (NN 机器) (SFN 人))) (VP (VC 是) (NP (ADJP (JJ 个好)) (NP (NN 主意))))))) (. 。)))
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'NP': {'NP': {}, ',': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'NP': {}, ',': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-但国际空间站可能是一个人形机器人的完美之地。
-
-(ROOT (IP (ADVP (RB 但)) (NP (NN 国际) (NN 空间) (SFN 站)) (VP (MD 可能) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (NP (NN 人) (SFN 形) (NN 机器) (SFN 人)) (DEC 的)) (CP (CP (IP (VP (JJ 完美))) (DEC 之))) (NP (NN 地))))) (. 。)))
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'NP': {'NN': {}, 'NN': {}, 'SFN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'NN': {}, 'NN': {}, 'SFN': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
-----------------------------------------------------------------------
-“Robonaut 的人形外形至关重要，因为它将被送入太空，而太空探索费用极其昂贵，它必须偿还自己的成本，”前机器人专家丹尼尔·威尔逊 (《如何建造机器人军团》作者) 说道，“它必须能够拿起宇航员可以使用的任何工具，并外出执行任务。”
-
-(ROOT (IP (IP (`` “) (IP (NP (DNP (NP (FW Robonaut)) (DEC 的)) (NP (NN 人形) (NN 外形))) (VP (JJ 至关重要))) (, ，) (IP (PP (IN 因为) (IP (NP (PRP 它)) (VP (BB 将) (VP (BB 被) (VP (VV 送入) (NP (NN 太空))))))) (, ，) (RB 而) (NP (NN 太空) (NN 探索) (NN 费用)) (VP (ADVP (RB 极)) (ADVP (PRP 其)) (VP (JJ 昂贵)))) (, ，) (IP (NP (PRP 它)) (VP (MD 必须) (VP (VV 偿) (VP (VV 还) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 成本))))))) (, ，) ('' ”) (NP (NP (NP (NP (ADJP (PFA 前)) (NP (NN 机器) (SFN 人) (NN 专家))) (NP (NNP 丹尼尔) (/ ·) (NNP 威尔逊))) (PP (-LRB- -LRB-《) (IP (VP (ADVP (RB 如何)) (VP (VV 建造) (NP (NN 机器) (SFN 人) (NN 军团)))))) (-RRB- 》)) (NP (NN 作者))) (-RRB- -RRB-)) (VP (VV 说道) (, ，) (IP (`` “) (NP (PRP 它)) (VP (MD 必须) (VP (MD 能够) (VP (VP (VV 拿起) (NP (CP (CP (IP (NP (VV 宇航) (SFN 员)) (VP (MD 可以) (VP (VV 使用)))) (DEC 的))) (DP (DT 任何)) (NP (NN 工具)))) (, ，) (RB 并) (VP (VV 外出) (IP (VP (VV 执行) (NP (NN 任务)))))))))) (. 。) ('' ”)))
-{'IP': {'IP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, "''": {}, 'NP': {}, '-RRB-': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, "''": {}, 'NP': {}, '-RRB-': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-威尔逊认为，太空是展示人类多才多艺和通用人形机器人的独特环境。
-
-(ROOT (IP (NP (NNP 威尔逊)) (VP (VV 认为) (, ，) (IP (NP (NN 太空)) (VP (VC 是) (VP (VV 展示) (NP (CP (NP (NP (NN 人类)) (VP (ADVP (CD 多) (NNB 才) (JJ 多艺)) (CC 和) (VP (JJ 通用) (NP (NP (NN 人) (SFN 形)) (NP (NN 机器) (SFN 人)))))) (DEC 的)) (ADJP (JJ 独特)) (NP (NN 环境))))))) (. 。)))
+(ROOT (IP (NP (NNP 唐纳森)) (VP (VV 指出) (, ，) (IP (IP (NP (DNP (ADJP (VV 现存)) (DEC 的)) (NP (NN 文本))) (VP (ADVP (RB 几乎)) (VP (VV 没有) (VP (VV 提到) (IP (NP (DP (DT 哪些)) (NP (NN 行为))) (VP (ADVP (RB 特别)) (VP (VV 激怒) (AS 了) (NP (NN 君主))))))))) (, ，) (CP (ADVP (IN 除非)) (IP (NP (DP (DT 这些)) (NP (NN 行为))) (VP (VC 是) (NP (DNP (PP (IN 对) (NP (CP (CP (IP (VP (NP (NN 现在)) (VP (VV 占据) (NP (NN 宫廷))))) (DEC 的))) (NP (NNP 苏格兰)) (NP (NN 骑士)))) (DEC 的)) (ADJP (JJ 一般)) (ADJP (SFN 性)) (NP (NN 挖苦)))))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
 {'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
 {'NP': {'NNP': {}}}
 {'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+唐纳森	指出	nsubj
+指出	ROOT	root
+，	有	punct
+现存	文本	acl:relcl
+的	现存	mark:rel
+文本	有	nsubj
+几乎	有	advmod
+有	指出	ccomp
+提到	有	xcomp
+哪些	行为	det
+行为	激怒	nsubj
+特别	激怒	advmod
+激怒	提到	ccomp
+了	激怒	aux
+君主	激怒	obj
+，	挖苦	punct
+除非	挖苦	case
+这些	行为	det
+行为	挖苦	nsubj
+是	挖苦	cop
+对	现在	case
+现在	占据	obl
+占据	骑士	acl:relcl
+宫廷	占据	obj
+的	占据	mark:rel
+苏格兰	骑士	nmod
+骑士	挖苦	nmod
+的	占据	mark:rel
+一般	性	compound
+性	挖苦	nmod
+挖苦	指出	ccomp
+。	指出	punct
 ----------------------------------------------------------------------
-“你不能把一个工具带上太空去解决每一个问题。这根本不可能。宇航员扛不了那么多东西。就像这样，‘我有一把螺丝刀和我的大脑，我需要解决这个问题，但我不知道我离开地球之前该怎么做。’”威尔逊说。“你可以利用这个人形机器人来解决所有这些问题。”
+国王和女王很容易生气。
 
-(ROOT (IP (`` “) (NP (PRP 你)) (VP (MD 不能) (VP (BB 把) (IP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 工具))) (VP (VP (VV 带上) (NP (NN 太空))) (VP (RB 去) (VP (VV 解决) (NP (DP (DT 每) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 问题))))))))) (. 。)))
-{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
+(ROOT (IP (NP (NN 国王) (CC 和) (NN 女王)) (VP (ADVP (RB 很)) (VP (RB 容易) (IP (VP (JJ 生气))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'CC': {}, 'NN56016': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'CC': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'CC': {}, 'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+国王	生气	nsubj
+和	女王	cc
+女王	国王	conj
+很	生气	advmod
+容易	生气	advmod
+生气	ROOT	root
+。	生气	punct
 ----------------------------------------------------------------------
-蒙特利尔大学 (Trinity University) 的詹姆斯·休斯 (James Hughes) 研究新兴技术，他认为，人形机器人可以在硬派的宇航员和喜欢看机器人飞行任务的人之间找到一个好的中间点。
+尽管有这些令人费解的失误，但鉴于他的野心和他距离权力中心的近距离，约翰生一生在英国宫廷中取得了长足的进步，这是一项令人印象深刻的成就，考虑到他面临的诸多困难。
 
-(ROOT (IP (IP (NP (DNP (NP (NP (NP (NNP 蒙特利尔) (NN 大学)) (NP (FW -LRB-Trinity) (FW University))) (-RRB- -RRB-)) (DEC 的)) (NP (NNP 詹姆斯) (/ ·) (NNP 休斯) (FW -LRB-James) (FW Hughes-RRB-))) (VP (VV 研究) (NP (ADJP (NN 新兴)) (NP (NN 技术))))) (, ，) (IP (NP (PRP 他)) (VP (VV 认为) (, ，) (IP (NP (NN 人形) (NN 机器) (SFN 人)) (VP (MD 可以) (VP (PP (IN 在) (LCP (NP (NP (DNP (NP (NN 硬派)) (DEC 的)) (NP (VV 宇航) (SFN 员))) (CC 和) (NP (CP (CP (IP (VP (VV 喜欢) (IP (VP (VV 看) (NP (NP (NN 机器) (SFN 人)) (NP (NN 飞行) (NN 任务))))))) (DEC 的))) (NP (NN 人)))) (IN 之间))) (VP (VV 找到) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 好))) (DEC 的))) (NP (NN 中间) (SFN 点))))))))) (. 。)))
+(ROOT (IP (IP (IP (VP (ADVP (IN 尽管)) (VP (VV 有) (NP (DP (DT 这些)) (CP (CP (IP (VP (VV 令) (NP (NN 人)) (IP (VP (VV 费解))))) (DEC 的))) (NP (NN 失误)))))) (, ，) (ADVP (RB 但)) (PP (VV 鉴) (PP (VV 于) (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 野心))) (CC 和) (NP (NP (PRP 他)) (CP (IP (VP (IN 距离) (NP (NN 权力) (NN 中心)))) (DEC 的)) (ADJP (PFA 近)) (NP (NN 距离)))))) (, ，) (NP (NP (NNP 约翰) (VV 生)) (QP (CD 一) (CLP (NN 生)))) (VP (PP (IN 在) (LCP (NP (NP (NNP 英国)) (NP (NN 宫廷))) (IN 中))) (VP (VV 取得) (AS 了) (NP (CP (CP (IP (VP (JJ 长足))) (DEC 的))) (NP (NN 进步)))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 项))) (CP (CP (IP (VP (VV 令) (NP (NN 人)) (IP (NP (NN 印象)) (VP (JJ 深刻))))) (DEC 的))) (NP (NN 成就))))) (, ，) (IP (VP (VRD (VV 考虑) (VV 到)) (NP (CP (CP (IP (NP (PRP 他)) (VP (VV 面临))) (DEC 的))) (QP (JJ 诸多)) (NP (NN 困难))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP29419': {}, ',14477': {}, 'IP44235': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'PP': {}, ',67923': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP55931': {'NP': {}, 'VP': {}}, ',69673': {}, 'IP74217': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+尽管	有	case
+有	取得	xcomp
+这些	失误	det
+令	失误	acl:relcl
+人	费解	nsubj
+费解	令	ccomp
+的	令	mark:rel
+失误	有	obj
+，	有	punct
+但	取得	mark
+鉴	取得	advcl
+于	鉴	mark
+他	野心	det
+的	他	case
+野心	鉴	obj
+和	距离	cc
+他	距离	nmod
+距离	中心	case
+权力	中心	nmod
+中心	距离	nmod
+的	鉴	mark:rel
+近	距离	case
+距离	野心	conj
+，	鉴	punct
+约翰	生	nsubj
+生	取得	advcl
+一	生	nummod
+生	取得	obl
+在	宫廷	case
+英国	宫廷	nmod
+宫廷	取得	obl
+中	宫廷	case
+取得	ROOT	root
+了	取得	aux
+长足	进步	amod
+的	长足	mark:rel
+进步	取得	obj
+，	考虑	punct
+这	考虑	nsubj
+是	成就	cop
+一	项	nummod
+项	成就	clf
+令	成就	acl:relcl
+人	深刻	nsubj
+印象	深刻	nsubj
+深刻	令	ccomp
+的	令	mark:rel
+成就	考虑	advcl
+，	成就	punct
+考虑	取得	parataxis
+到	考虑	mark
+他	面临	nsubj
+面临	困难	acl:relcl
+的	面临	mark:rel
+诸多	困难	amod
+困难	考虑	obj
+。	取得	punct
+----------------------------------------------------------------------
+唐纳森写道：“他是一个难以接近、易冲动、自恋、学术派、喜欢喝酒的人，信仰错误，有犯罪前科，” 他还是一个“讽刺宫廷习俗”的人，被指控叛国。
+
+(ROOT (IP (IP (NP (NNP 唐纳森)) (VP (VV 写道) (: ：) (IP (`` “) (NP (PRP 他)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VP (ADVP (JJ 难)) (ADVP (RB 以)) (VP (VV 接近))) (EC 、) (VP (ADVP (VV 易)) (VP (JJ 冲动))) (EC 、) (VP (JJ 自恋)) (EC 、) (NP (VV 学术) (SFN 派)) (EC 、) (VP (VV 喜欢) (IP (VP (VV 喝) (NP (NN 酒))))))) (DEC 的))) (NP (NN 人)))) (, ，) (IP (NP (NN 信仰)) (VP (JJ 错误))) (, ，) (IP (VP (VV 有) (NP (NP (NN 犯罪)) (ADJP (PFA 前)) (NP (SFN 科)))))))) (, ，) ('' ”) (IP (NP (PRP 他)) (VP (VP (VC 还是) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (NP (`` “) (ADJP (JJ 讽刺)) (NP (NN 宫廷) (NN 习俗)) ('' ”)) (DEC 的)) (NP (NN 人)))) (, ，) (VP (BB 被) (VP (VV 指控) (IP (VP (VV 叛国))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP70628': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP65116': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+唐纳森	写道	nsubj
+写道	ROOT	root
+：	错误	punct
+“	错误	punct
+他	错误	nsubj
+是	人	cop
+一	个	nummod
+个	人	clf
+难	接近	advmod
+以	接近	mark
+接近	人	acl:relcl
+、	易	punct
+易	接近	conj
+冲动	接近	conj
+、	自恋	punct
+自恋	接近	conj
+、	派	punct
+学术	派	compound
+派	接近	conj
+、	喜欢	punct
+喜欢	接近	conj
+喝	喜欢	xcomp
+酒	喝	obj
+的	接近	mark:rel
+人	错误	advcl
+，	人	punct
+信仰	错误	nsubj
+错误	写道	ccomp
+，	指控	punct
+有	指控	advcl
+犯罪	科	nmod
+前	科	case
+科	有	obj
+，	有	punct
+”	有	punct
+他	指控	nsubj:pass
+是	人	cop
+一	个	nummod
+个	人	clf
+“	习俗	punct
+讽刺	习俗	amod
+宫廷	习俗	nmod
+习俗	人	acl:relcl
+”	习俗	punct
+的	习俗	case
+人	指控	advcl
+，	人	punct
+被	指控	aux:pass
+指控	写道	ccomp
+叛国	指控	xcomp
+。	写道	punct
+----------------------------------------------------------------------
+尽管如此，他仍然成为了最受欢迎的戏剧作家之一，他的作品是为国王和王后以及各种有钱人在特殊场合和节日组织的复杂的娱乐活动，这些活动结合了诗歌、音乐和舞蹈。
+
+(ROOT (IP (IP (IP (VP (ADVP (IN 尽管)) (VP (VV 如此)))) (, ，) (NP (PRP 他)) (VP (ADVP (RB 仍然)) (VP (VV 成) (VP (VC 为) (AS 了) (NP (DNP (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (VV 受) (NP (VV 欢迎))))) (DEC 的))) (NP (NN 戏剧) (NN 作家))) (DEC 之)) (NP (CD 一))))))) (, ，) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 作品))) (VP (VC 是) (NP (CP (CP (IP (VP (PP (IN 为) (NP (NP (NN 国王) (CC 和) (NN 王后)) (CC 以及) (NP (ADJP (DT 各种)) (ADJP (JJ 有钱)) (NP (SFN 人))))) (PP (IN 在) (NP (NP (ADJP (JJ 特殊)) (NP (NN 场合))) (CC 和) (NP (NN 节日)))) (VP (VV 组织)))) (DEC 的))) (CP (CP (IP (VP (JJ 复杂))) (DEC 的))) (NP (NN 娱乐) (NN 活动))))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 活动))) (VP (VV 结合) (AS 了) (NP (NN 诗歌) (EC 、) (NN 音乐) (CC 和) (NN 舞蹈)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP54422': {}, ',9616': {}, 'IP10619': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP51242': {'NP': {}, 'VP': {}}, ',73012': {}, 'IP35369': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+尽管	如此	case
+如此	成	xcomp
+，	如此	punct
+他	成	nsubj
+仍然	成	advmod
+成	ROOT	root
+为	成	mark
+了	成	aux
+最	受	advmod
+受	作家	acl:relcl
+欢迎	受	xcomp
+的	受	mark:rel
+戏剧	作家	nmod
+作家	一	nmod
+之	受	mark:rel
+一	成	obj
+，	是	punct
+他	作品	det
+的	他	case
+作品	是	nsubj
+是	成	parataxis
+为	国王	case
+国王	活动	nmod
+和	王后	cc
+王后	国王	conj
+以及	人	cc
+各种	人	det
+有钱	人	compound
+人	国王	conj
+在	场合	case
+特殊	场合	amod
+场合	组织	obl
+和	节日	cc
+节日	场合	conj
+组织	活动	acl:relcl
+的	组织	mark:rel
+复杂	活动	amod
+的	复杂	mark:rel
+娱乐	活动	nmod
+活动	是	obl
+，	结合	punct
+这些	活动	det
+活动	结合	nsubj
+结合	成	parataxis
+了	结合	aux
+诗歌	结合	obj
+、	音乐	punct
+音乐	诗歌	conj
+和	舞蹈	cc
+舞蹈	诗歌	conj
+。	成	punct
+----------------------------------------------------------------------
+他的天赋让他得到了很多宽恕。
+
+(ROOT (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 天赋))) (VP (VV 让) (NP (PRP 他)) (IP (VP (VV 得到) (AS 了) (NP (QP (CD 很多)) (NP (NN 宽恕)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
+Dependency Features:
+他	天赋	det
+的	他	case
+天赋	让	nsubj
+让	ROOT	root
+他	得到	nsubj
+得到	让	ccomp
+了	得到	aux
+很多	宽恕	amod
+宽恕	得到	obj
+。	让	punct
+----------------------------------------------------------------------
+约翰逊结过多次矛盾缠身的婚姻（还有一位妻子，她几乎在这本传记中没有任何描述，也没有任何作用），唐纳森对这些都进行了彻底的挖掘。
+
+(ROOT (IP (IP (NP (NNP 约翰逊)) (VP (VV 结) (AS 过) (NP (QP (CD 多) (CLP (NNB 次))) (CP (CP (IP (NP (NN 矛盾)) (VP (VV 缠身))) (DEC 的))) (NP (NN 婚姻)) (PRN (-LRB- （) (IP (VP (ADVP (RB 还)) (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 位))) (NP (NN 妻子)))))) (, ，) (IP (NP (PRP 她)) (VP (VP (ADVP (RB 几乎)) (PP (IN 在) (LCP (NP (DP (DT 这) (CLP (NNB 本))) (NP (NN 传记))) (IN 中))) (VP (VV 没有) (NP (DP (DT 任何)) (NP (NN 描述))))) (, ，) (VP (ADVP (RB 也)) (VP (VV 没有) (NP (DP (DT 任何)) (NP (NN 作用))))))) (-RRB- ）))))) (, ，) (IP (NP (NNP 唐纳森)) (VP (PP (IN 对) (NP (DT 这些))) (ADVP (RB 都)) (VP (VV 进行) (AS 了) (NP (CP (CP (IP (VP (JJ 彻底))) (DEC 的))) (NP (NN 挖掘)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP16329': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP58255': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+约翰逊	结	nsubj
+结	ROOT	root
+过	结	aux
+多	次	nummod
+次	矛盾	clf
+矛盾	缠身	nsubj
+缠身	婚姻	acl:relcl
+的	缠身	mark:rel
+婚姻	结	obj
+（	有	punct
+还	有	mark
+有	结	parataxis
+一	位	nummod
+位	妻子	clf
+妻子	有	obj
+，	有	punct
+她	有	nsubj
+几乎	有	advmod
+在	传记	case
+这	本	det
+本	传记	clf
+传记	有	obl
+中	传记	case
+有	结	parataxis
+任何	描述	det
+描述	有	obj
+，	有	punct
+也	有	mark
+有	有	ccomp
+任何	作用	det
+作用	有	obj
+）	有	punct
+，	进行	punct
+唐纳森	进行	nsubj
+对	这些	case
+这些	进行	obl
+都	进行	mark
+进行	结	parataxis
+了	进行	aux
+彻底	挖掘	amod
+的	彻底	mark:rel
+挖掘	进行	obj
+。	结	punct
 ----------------------------------------------------------------------
-大多数空间观察者认为，人类计划是推动人们对探索的兴趣和资金投入的动力，而科学调查则将由机器人来推动。
+他在论述最近的学术成果时，大多数是在讨论小细节，他对其他约翰逊专家的评价也很客气，甚至有些过分。
 
-(ROOT (IP (NP (QP (ADJP (RB 大)) (QP (JJ 多数))) (NP (NN 空间) (VV 观察) (SFN 者))) (VP (VV 认为) (, ，) (IP (IP (NP (NN 人类) (NN 计划)) (VP (VC 是) (NP (CP (IP (VP (VV 推动) (NP (NP (NN 人们)) (DNP (PP (IN 对) (NP (NN 探索))) (DEC 的)) (NP (NN 兴趣) (CC 和) (NN 资金) (VV 投入))))) (DEC 的)) (NP (NN 动力))))) (, ，) (IP (ADVP (RB 而)) (NP (NN 科学) (NN 调查)) (VP (ADVP (RB 则)) (ADVP (RB 将)) (PP (VV 由) (NP (NN 机器))) (VP (SFN 人来) (VP (VV 推动))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'QP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-“你可以得到两者的一些优势，希望这能够成为两者之间的一个好妥协，”休斯说道。“但它可能不会让任何一方满意。”
-
-(ROOT (IP (IP (`` “) (NP (PRP 你)) (VP (VP (MD 可以) (VP (VV 得到) (NP (DNP (NP (QP (CD 两)) (NP (NN 者))) (DEC 的)) (QP (JJ 一些)) (NP (NN 优势))))) (, ，) (VP (VV 希望) (IP (NP (PRD 这)) (VP (MD 能够) (VP (VV 成) (VP (VC 为) (NP (DNP (LCP (NP (QP (CD 两)) (NP (NN 者))) (IN 之间)) (DEC 的)) (QP (CD 一) (CLP (NNB 个))) (ADJP (JJ 好)) (NP (NN 妥协)))))))))) (, ，) ('' ”) (NP (NNP 休斯)) (VP (VV 说道)) (. 。)))
-{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
-{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}}}
-----------------------------------------------------------------------
-Robonaut 项目始于 1996 年，2000 年，第一个版本的机器人问世。
-
-(ROOT (IP (IP (NP (FW Robonaut) (NN 项目)) (VP (VV 始) (PP (VV 于) (NP (CD 1996) (NNB 年))))) (, ，) (IP (QP (CD 2000) (CLP (NNB 年))) (, ，) (NP (DNP (NP (QP (CD 第一) (CLP (NNB 个))) (NP (NN 版本))) (DEC 的)) (NP (NN 机器) (SFN 人))) (VP (VV 问世))) (. 。)))
+(ROOT (IP (IP (NP (PRP 他)) (PP (IN 在) (LCP (IP (VP (VV 论述) (NP (DNP (NP (NN 最近)) (DEC 的)) (NP (NN 学术) (NN 成果))))) (IN 时))) (, ，) (QP (ADVP (RB 大)) (QP (RB 多数))) (VP (VC 是) (VP (ADVP (IN 在)) (VP (VV 讨论) (NP (ADJP (PFA 小)) (NP (NN 细节))))))) (, ，) (IP (NP (PRP 他)) (DNP (PP (IN 对) (NP (DP (DT 其他)) (NP (NNP 约翰逊)) (NP (NN 专家)))) (DEC 的)) (NP (NN 评价)) (VP (VP (ADVP (RB 也)) (ADVP (RB 很)) (VP (JJ 客气))) (, ，) (VP (ADVP (RB 甚至)) (ADVP (VV 有些)) (VP (JJ 过分))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP99382': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'QP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'QP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'PP': {}, ',': {}, 'QP': {}, 'VP': {}}, ',': {}, 'IP5624': {'NP': {}, 'DNP': {}, 'NP38712': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'PP': {}, ',': {}, 'QP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'DNP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'PP': {}, ',': {}, 'QP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'DNP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+他	是	nsubj
+在	成果	case
+论述	成果	acl:relcl
+最近	论述	obj
+的	论述	mark:rel
+学术	成果	nmod
+成果	是	obl
+时	成果	case
+，	成果	punct
+大	多数	advmod
+多数	是	advmod
+是	ROOT	root
+在	讨论	case
+讨论	是	xcomp
+小	细节	case
+细节	讨论	obj
+，	有些	punct
+他	评价	nmod
+对	评价	case
+其他	专家	det
+约翰逊	专家	nmod
+专家	评价	nmod
+的	评价	case
+评价	客气	nmod
+也	客气	mark
+很	客气	advmod
+客气	有些	advcl
+，	客气	punct
+甚至	有些	mark
+有些	是	parataxis
+过分	有些	xcomp
+。	是	punct
 ----------------------------------------------------------------------
-2006 年，美国航空航天局约翰逊太空中心的 Dexterous Robotics Laboratory 与 GM 合作设计了这款新机器人。
+尽管书中有丰富的脚注，但经常出现类似“Barbara Mowat 巧妙地论证了”和“Fredson Bowers 令人信服地提出了”这样的短语。
 
-(ROOT (IP (NP (CD 2006) (NNB 年)) (, ，) (NP (DNP (NP (NP (NNP 美国) (NN 航空) (NN 航天) (SFN 局)) (NP (NNP 约翰逊) (NN 太空) (NN 中心))) (DEC 的)) (NP (FW Dexterous) (FW Robotics) (FW Laboratory))) (VP (VP (PP (IN 与) (NP (FW GM))) (VP (VV 合作))) (VP (VV 设计) (AS 了) (NP (DP (DT 这) (CLP (NNB 款))) (ADJP (PFA 新)) (NP (NN 机器) (SFN 人))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}}}
+(ROOT (IP (CP (ADVP (IN 尽管)) (IP (NP (NN 书中)) (VP (VV 有) (NP (CP (CP (IP (VP (JJ 丰富))) (DEC 的))) (NP (NN 脚) (SFN 注)))))) (, ，) (ADVP (RB 但)) (VP (ADVP (RB 经常)) (VP (VV 出现) (NP (VP (VP (VV 类似) (NP (`` “) (NP (FW Barbara) (FW Mowat)) (NP (ADJP (JJ 巧妙)) (NP (NN 地论))) (NP (SFN 证)) (UH 了) ('' ”))) (CC 和) (NP (`` “) (NP (FW Fredson) (FW Bowers)) (VP (DVP (VP (ADVP (RB 令人)) (VP (JJ 信服))) (DEV 地)) (VP (VV 提出) (UH 了))) ('' ”))) (DNP (NP (PRD 这样)) (DEC 的)) (NP (NN 短语))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+尽管	有	case
+书中	有	nsubj
+有	出现	ccomp
+丰富	注	amod
+的	丰富	mark:rel
+脚	注	compound
+注	有	obj
+，	有	punct
+但	出现	mark
+经常	出现	advmod
+出现	ROOT	root
+类似	出现	xcomp
+“	证	punct
+Barbara	证	nmod
+Mowat	Barbara	flat:foreign
+巧妙	地论	amod
+地论	证	compound
+证	类似	obj
+了	证	discourse
+”	证	punct
+和	提出	cc
+“	提出	punct
+Fredson	提出	nsubj
+Bowers	Fredson	flat:foreign
+令人	信服	advmod
+信服	提出	advmod
+地	信服	mark:adv
+提出	类似	conj
+了	提出	discourse
+”	提出	punct
+这样	短语	det
+的	这样	case
+短语	证	conj
+。	出现	punct
+----------------------------------------------------------------------
+因为它的主题不断变化，“Jonson 就像他自己的作品 Volpone 一样，像一名演员一样灵活地从一个角色走到另一个角色，”唐纳森 (Donaldson) 这样说 ，尽管有时会过度地游离在法庭政治和宗教问题的边缘，但这本书仍然很活泼，这些问题一直是 Jonson 一生中的动荡话题。
+
+(ROOT (IP (IP (PP (IN 因为) (IP (NP (DNP (NP (PRP 它)) (DEC 的)) (NP (NN 主题))) (VP (ADVP (RB 不断)) (VP (VV 变化))))) (, ，) (`` “) (NP (FW Jonson)) (VP (IP (VP (PP (IN 就像) (NP (NP (DNP (NP (PRP 他) (PRD 自己)) (DEC 的)) (NP (NN 作品))) (NP (FW Volpone)))) (VP (JJ 一样)))) (, ，) (PP (IN 像) (NP (QP (CD 一) (CLP (NNB 名))) (NP (NN 演员)))) (VP (JJ 一样)) (DVP (VP (JJ 灵活)) (DEV 地)) (PP (IN 从) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 角色)))) (VP (VV 走到) (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 角色)))))) (, ，) ('' ”) (IP (NP (NNP 唐纳森) (FW -LRB-Donaldson-RRB-)) (VP (ADVP (RB 这样)) (VP (VV 说)))) (, ，) (IP (IP (VP (ADVP (IN 尽管)) (ADVP (RB 有时)) (VP (MD 会) (VP (DVP (VP (JJ 过度)) (DEV 地)) (VP (VV 游离) (PP (IN 在) (NP (DNP (NP (NP (NN 法庭) (NN 政治) (CC 和) (NN 宗教)) (NP (NN 问题))) (DEC 的)) (NP (NN 边缘))))))))) (, ，) (ADVP (RB 但)) (NP (DP (DT 这)) (NP (NN 本书))) (VP (ADVP (RB 仍然)) (ADVP (RB 很)) (VP (JJ 活泼)))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 问题))) (VP (ADVP (RB 一直)) (VP (VC 是) (NP (NP (FW Jonson)) (DNP (LCP (NP (NN 一生)) (IN 中)) (DEC 的)) (ADJP (JJ 动荡)) (NP (NN 话题)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP9976': {}, ',46077': {}, 'IP72772': {}, ',1162': {}, 'IP65005': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, '``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP8008': {'NP': {}, 'VP': {}}, ',24534': {}, 'IP19162': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',66233': {}, 'IP83570': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, '``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, '``': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+因为	变化	case
+它	主题	det
+的	它	case
+主题	变化	nsubj
+不断	变化	advmod
+变化	说	ccomp
+，	变化	punct
+“	说	punct
+Jonson	走到	nsubj
+就像	Volpone	case
+他	Volpone	nmod
+自己	Volpone	det
+的	自己	case
+作品	Volpone	nmod
+Volpone	一样	nmod
+一样	说	advcl
+，	一样	punct
+像	演员	case
+一	名	nummod
+名	演员	clf
+演员	走到	obl
+一样	走到	advcl
+灵活	走到	advmod
+地	灵活	mark:adv
+从	角色	case
+一	个	nummod
+个	角色	clf
+角色	走到	obl
+走到	说	advcl
+另	个	det
+一	个	nummod
+个	角色	nmod
+角色	走到	obj
+，	走到	punct
+”	走到	punct
+唐纳森	说	nsubj
+(Donaldson)	唐纳森	flat:name
+这样	说	advmod
+说	ROOT	root
+，	话题	punct
+尽管	游离	case
+有时	游离	advmod
+会	游离	aux
+过度	游离	advmod
+地	过度	mark:adv
+游离	边缘	acl:relcl
+在	政治	case
+法庭	政治	nmod
+政治	边缘	nmod
+和	问题	cc
+宗教	问题	nmod
+问题	政治	conj
+的	游离	mark:rel
+边缘	说	obj
+，	游离	punct
+但	活泼	mark
+这	本书	det
+本书	活泼	nsubj
+仍然	活泼	advmod
+很	活泼	advmod
+活泼	话题	acl
+，	话题	punct
+这些	问题	det
+问题	话题	nsubj
+一直	话题	advmod
+是	话题	cop
+Jonson	一生	nmod
+一生	话题	nmod
+中	一生	case
+的	一生	case
+动荡	话题	amod
+话题	说	parataxis
+。	说	punct
+----------------------------------------------------------------------
+(约翰逊在伊丽莎白女王统治期间皈依天主教，并因拒绝接受天主教而被带到法庭，与他的妻子一起，但他后来回到了英国国教，在这两次事件中，政治机会主义似乎没有发挥任何作用。)
+
+(ROOT (IP (IP (NP (NNP -LRB-约翰逊)) (VP (VP (PP (IN 在) (NP (IP (NP (NNP 伊丽莎白) (NN 女王)) (VP (VV 统治))) (NP (NN 期间)))) (VP (VV 皈依) (NP (NNP 天主) (SFN 教)))) (, ，) (RB 并) (VP (PP (IN 因) (IP (VP (VV 拒绝) (IP (VP (VV 接受) (NP (NNP 天主) (SFN 教))))))) (VP (RB 而) (VP (VP (BB 被) (VP (VV 带到) (NP (NN 法庭)))) (, ，) (VP (PP (IN 与) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 妻子)))) (VP (NN 一起)))))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 他)) (VP (ADVP (NN 后来)) (VP (VV 回到) (AS 了) (NP (NP (NNP 英国)) (NP (NN 国教)))))) (, ，) (IP (PP (IN 在) (LCP (NP (DP (DT 这) (QP (CD 两) (CLP (NNB 次)))) (NP (NN 事件))) (IN 中))) (, ，) (NP (NN 政治) (NN 机会) (NN 主义)) (VP (ADVP (RB 似乎)) (VP (VV 没有) (VP (VV 发挥) (NP (DP (DT 任何)) (NP (NN 作用))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP6332': {}, ',76966': {}, 'IP79794': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP77706': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',86092': {}, 'IP38138': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+(约翰逊	带到	nsubj:pass
+在	期间	case
+伊丽莎白	女王	nmod
+女王	统治	nsubj
+统治	期间	amod
+期间	皈依	obl
+皈依	带到	advcl
+天主	教	compound
+教	皈依	obj
+，	皈依	punct
+并	带到	mark
+因	拒绝	case
+拒绝	带到	xcomp
+接受	拒绝	xcomp
+天主	教	compound
+教	接受	obj
+而	带到	mark
+被	带到	aux:pass
+带到	ROOT	root
+法庭	带到	obj
+，	带到	punct
+与	妻子	case
+他	妻子	det
+的	他	mark:rel
+妻子	一起	nmod
+一起	回到	obl
+，	一起	punct
+但	回到	mark
+他	回到	nsubj
+后来	回到	nmod:tmod
+回到	带到	parataxis
+了	回到	aux
+英国	国教	nmod
+国教	回到	obj
+，	有	punct
+在	事件	case
+这	次	det
+两	次	nummod
+次	事件	nmod
+事件	有	obl
+中	事件	case
+，	事件	punct
+政治	主义	nmod
+机会	主义	nmod
+主义	有	nsubj
+似乎	有	advmod
+有	回到	parataxis
+发挥	有	xcomp
+任何	作用	det
+作用	发挥	obj
+。	回到	punct
+----------------------------------------------------------------------
+考虑到约翰逊的作品数量巨大，唐纳森对其作品的分析必然要简化，但他为当代伦敦生活的大型喜剧提出了鲜明的论点，并对现在几乎已经陌生的历史剧《塞凯纳斯的覆辙》（Sejanus His Fall）和《卡蒂利涅的阴谋》（Catiline His Conspiracy）给予了同样的重视。
+
+(ROOT (IP (IP (IP (VP (VRD (VV 考虑) (VV 到)) (IP (NP (NP (DNP (NP (NNP 约翰逊)) (DEC 的)) (NP (NN 作品))) (NP (NN 数量))) (VP (JJ 巨大))))) (, ，) (NP (NP (NNP 唐纳森)) (DNP (PP (IN 对) (NP (NP (PRP 其)) (NP (NN 作品)))) (DEC 的)) (NP (NN 分析))) (VP (ADVP (RB 必然)) (VP (MD 要) (VP (VV 简化))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 他)) (VP (VP (PP (IN 为) (NP (DNP (NP (NP (NN 当代)) (NP (NNP 伦敦)) (NP (NN 生活))) (DEC 的)) (ADJP (JJ 大型)) (NP (NN 喜剧)))) (VP (VV 提出) (AS 了) (NP (CP (CP (IP (VP (JJ 鲜明))) (DEC 的))) (NP (NN 论点))))) (, ，) (RB 并) (VP (PP (IN 对) (NP (NP (NP (CP (CP (IP (VP (NP (NN 现在)) (ADVP (RB 几乎)) (ADVP (RB 已经)) (VP (JJ 陌生)))) (DEC 的))) (NP (NN 历史) (SFN 剧))) (NP (-LRB- 《) (DNP (NP (NNP 塞凯纳斯)) (DEC 的)) (NP (NN 覆辙)) (-RRB- 》) (PRN (-LRB- （) (NP (FW Sejanus) (FW His) (FW Fall)) (-RRB- ）)))) (CC 和) (NP (-LRB- 《) (DNP (NP (NNP 卡蒂利涅)) (DEC 的)) (NP (NN 阴谋)) (-RRB- 》) (PRN (-LRB- （) (NP (FW Catiline) (FW His) (FW Conspiracy)) (-RRB- ）))))) (VP (VV 给予) (AS 了) (NP (DNP (ADJP (JJ 同样)) (DEC 的)) (NP (NN 重视))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP93678': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP1683': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+考虑	简化	advcl
+到	考虑	mark
+约翰逊	数量	nmod
+的	约翰逊	case
+作品	数量	nmod
+数量	巨大	nsubj
+巨大	考虑	ccomp
+，	考虑	punct
+唐纳森	分析	nmod
+对	分析	case
+其	作品	nmod
+作品	分析	nmod
+的	分析	case
+分析	简化	nsubj
+必然	简化	advmod
+要	简化	aux
+简化	ROOT	root
+，	给予	punct
+但	提出	mark
+他	喜剧	nmod
+为	喜剧	case
+当代	生活	nmod
+伦敦	生活	nmod
+生活	喜剧	nmod
+的	生活	mark:rel
+大型	喜剧	amod
+喜剧	提出	obl
+提出	给予	advcl
+了	提出	aux
+鲜明	论点	amod
+的	鲜明	mark:rel
+论点	提出	obj
+，	提出	punct
+并	给予	mark
+对	剧	case
+现在	剧	nmod
+几乎	陌生	advmod
+已经	陌生	advmod
+陌生	剧	amod
+的	陌生	mark:rel
+历史	剧	compound
+剧	给予	obl
+《	覆辙	punct
+塞凯纳斯	覆辙	nmod
+的	塞凯纳斯	case
+覆辙	剧	appos
+》	覆辙	punct
+（	Sejanus	punct
+Sejanus	覆辙	appos
+His	Sejanus	flat:foreign
+Fall	Sejanus	flat:foreign
+）	Sejanus	punct
+和	阴谋	cc
+《	阴谋	punct
+卡蒂利涅	阴谋	nmod
+的	卡蒂利涅	case
+阴谋	剧	conj
+》	阴谋	punct
+（	Catiline	punct
+Catiline	阴谋	appos
+His	Catiline	flat:foreign
+Conspiracy	Catiline	flat:foreign
+）	Catiline	punct
+给予	简化	parataxis
+了	给予	aux
+同样	重视	amod
+的	同样	mark:rel
+重视	给予	obj
+。	简化	punct
+----------------------------------------------------------------------
+他的诗歌也有很多，大多写给赞美顾客的人士，还有他与建筑师和设计师伊尼戈·琼斯合作（并争吵）的面具的描述。
+
+(ROOT (IP (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 诗歌))) (VP (ADVP (RB 也)) (VP (VV 有) (QP (CD 很多))))) (, ，) (IP (NP (CP (CP (IP (VP (ADVP (RB 大多)) (VP (VV 写给) (NP (ADJP (NN 赞美)) (NP (NN 顾客)))))) (DEC 的))) (NP (NN 人士))) (, ，) (VP (ADVP (RB 还)) (VP (VV 有) (NP (DNP (NP (CP (IP (NP (PRP 他)) (VP (VP (PP (IN 与) (NP (NP (VV 建筑) (SFN 师) (CC 和) (VV 设计) (SFN 师)) (NP (NNP 伊尼戈) (/ ·) (NNP 琼斯)))) (VP (VV 合作))) (PRN (-LRB- （) (RB 并) (VP (VV 争吵)) (-RRB- ）)))) (DEC 的)) (NP (NN 面具))) (DEC 的)) (NP (NN 描述)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP92131': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP27559': {'NP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+他	诗歌	det
+的	他	case
+诗歌	有	nsubj
+也	有	mark
+有	ROOT	root
+很多	人士	nummod
+，	有	punct
+大多	写给	advmod
+写给	人士	acl:relcl
+赞美	顾客	nmod
+顾客	写给	obj
+的	写给	mark:rel
+人士	有	nsubj
+，	人士	punct
+还	有	mark
+有	有	ccomp
+他	争吵	nsubj
+与	师	case
+建筑	师	compound
+师	合作	obl
+和	师	cc
+设计	师	compound
+师	师	conj
+伊尼戈	合作	nsubj
+·	琼斯	punct
+琼斯	伊尼戈	flat:name
+合作	争吵	advcl
+（	争吵	punct
+并	争吵	mark
+争吵	面具	acl:relcl
+）	争吵	punct
+的	争吵	mark:rel
+面具	描述	nmod
+的	争吵	mark:rel
+描述	有	obj
+。	有	punct
+----------------------------------------------------------------------
+约翰生的作品中有一些可以引用的段落，比如“只为你用眼神倾倒”，但是由于他最出色的才华是野蛮的讽刺，因此他的戏剧缺乏莎士比亚即使是最微不足道的喜剧都具有的普遍吸引力。
+
+(ROOT (IP (IP (LCP (NP (DNP (NP (NNP 约翰) (VV 生)) (DEC 的)) (NP (NN 作品))) (IN 中)) (VP (VV 有) (NP (QP (JJ 一些)) (CP (CP (IP (VP (MD 可以) (VP (VV 引用)))) (DEC 的))) (NP (NN 段落))))) (, ，) (IP (ADVP (VV 比如)) (VP (`` “) (ADVP (RB 只)) (PP (IN 为) (NP (PRP 你))) (PP (VV 用) (NP (NN 眼神))) (VP (VV 倾倒)) ('' ”))) (, ，) (IP (ADVP (RB 但是)) (PP (IN 由于) (IP (NP (NP (PRP 他)) (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 出色)))) (DEC 的))) (NP (RB 才) (NNP 华))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 野蛮))) (DEC 的))) (NP (NN 讽刺)))))) (, ，) (ADVP (IN 因)) (ADVP (PRD 此)) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 戏剧))) (VP (VV 缺乏) (IP (NP (NNP 莎士比亚)) (VP (ADVP (IN 即使)) (VP (VC 是) (NP (CP (CP (IP (NP (CP (CP (IP (VP (VCD (JJ 最微) (JJ 不足道)))) (DEC 的))) (NP (NN 喜剧))) (VP (ADVP (RB 都)) (VP (VV 具有)))) (DEC 的))) (ADJP (JJ 普遍)) (NP (VV 吸引) (SFN 力)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP16171': {}, ',25685': {}, 'IP88068': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, 'VP': {}}, ',': {}, 'IP3421': {'ADVP': {}, 'VP': {}}, ',46542': {}, 'IP20781': {'ADVP': {}, 'PP': {}, ',': {}, 'ADVP60964': {}, 'ADVP34092': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'LCP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+约翰	生	nsubj
+生	作品	acl:relcl
+的	生	mark:rel
+作品	有	nsubj
+中	作品	case
+有	ROOT	root
+一些	段落	amod
+可以	引用	aux
+引用	段落	acl:relcl
+的	引用	mark:rel
+段落	有	obj
+，	比如	punct
+比如	有	parataxis
+“	用	punct
+只	用	advmod
+为	你	case
+你	用	obl
+用	比如	ccomp
+眼神	倾倒	obl
+倾倒	用	xcomp
+”	用	punct
+，	讽刺	punct
+但是	讽刺	mark
+由于	讽刺	case
+他	出色	nsubj
+最	出色	advmod
+出色	讽刺	acl:relcl
+的	出色	mark:rel
+才	讽刺	mark
+华	才	obj
+是	讽刺	cop
+野蛮	讽刺	amod
+的	野蛮	mark:rel
+讽刺	缺乏	ccomp
+，	讽刺	punct
+因	此	case
+此	缺乏	obl
+他	戏剧	det
+的	他	case
+戏剧	缺乏	nsubj
+缺乏	有	parataxis
+莎士比亚	缺乏	obj
+即使	喜剧	case
+是	喜剧	cop
+最微	不足道	advcl
+不足道	喜剧	amod
+的	不足道	mark:rel
+喜剧	具有	obl
+都	具有	mark
+具有	力	acl:relcl
+的	具有	mark:rel
+普遍	力	amod
+吸引	力	compound
+力	缺乏	obj
+。	有	punct
+----------------------------------------------------------------------
+(托马斯·斯坦利·汤姆森的拜师，爱伦·坡写道，他的是“幽默漫画艺术”，尽管“幽默漫画艺术”很棒，就像马洛的那样。)
+
+(ROOT (IP (-LRB- -LRB-) (NP (DNP (NP (NNP 托马斯) (/ ·) (NNP 斯坦利) (/ ·) (NNP 汤姆) (NNP 森)) (DEC 的)) (NP (NN 拜师))) (, ，) (NP (NNP 爱伦) (/ ·) (NNP 坡)) (VP (VV 写道)) (, ，) (IP (NP (DNP (NP (PRP 他)) (DEC 的))) (VP (VC 是) (NP (`` “) (ADJP (JJ 幽默)) (NP (NN 漫画) (NN 艺术)) ('' ”)))) (, ，) (IP (CP (ADVP (IN 尽管)) (IP (NP (`` “) (ADJP (JJ 幽默)) (NP (NN 漫画) (NN 艺术)) ('' ”)) (VP (VV 很棒)))) (, ，) (VP (ADVP (RB 就)) (PP (IN 像) (NP (DNP (NP (NNP 马洛)) (DEC 的)))) (VP (JJ 那样)))) (. 。)))
+layer 2:
+{'IP': {'-LRB-': {}, 'NP': {}, ',': {}, 'NP14527': {}, 'VP': {}, ',67223': {}, 'IP': {}, ',33214': {}, 'IP62130': {}, '.': {}}}
+{'IP': {'-LRB-': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'-LRB-': {}, 'NP': {'DNP': {}, 'NP': {}}, ',': {}, 'NP40820': {'NNP': {}, '/': {}, 'NNP88958': {}}, 'VP': {'VV': {}}, ',27041': {}, 'IP': {'NP': {}, 'VP': {}}, ',41716': {}, 'IP60672': {'CP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'-LRB-': {}, 'NP': {'DNP': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'VV': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'CP': {}, ',': {}, 'VP': {}}, '.': {}}}
 {'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-“可以非常安全地说，美国和美国航空航天局拥有机器人灵巧性的最先进水平，” Nic Radford 说，“Robonaut 副项目经理。“想法是无限的。”
-
-(ROOT (IP (`` “) (IP (VP (MD 可以) (VP (DVP (VP (ADVP (RB 非常)) (VP (JJ 安全))) (DEV 地)) (VP (VV 说))))) (, ，) (IP (NP (NNP 美国) (CC 和) (NNP 美国) (NN 航空) (NN 航天) (SFN 局)) (VP (VV 拥有) (NP (DNP (NP (NP (NN 机器) (SFN 人)) (NP (JJ 灵巧) (SFN 性))) (DEC 的)) (ADJP (ADVP (RB 最)) (ADJP (JJ 先进))) (NP (NN 水平))))) (, ，) ('' ”) (IP (NP (FW Nic) (FW Radford)) (VP (VV 说) (, ，) (NP (`` “) (NP (FW Robonaut)) (NP (ADJP (PFA 副)) (NP (NN 项目))) (NP (NN 经理))))) (. 。)))
-{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, "''": {}, '.': {}}}
-{'IP': {'``': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, '.': {}}}
-{'IP': {'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-机器人将分三个阶段逐步投入运行，首先，它只能在国际空间站内部的固定位置运行，然后，它将被允许在空间站内部移动，最后几年，它将被允许进行载人航天活动。
-
-(ROOT (IP (IP (NP (NN 机器) (SFN 人)) (VP (ADVP (RB 将)) (VP (VP (VV 分) (NP (QP (CD 三) (CLP (NNB 个))) (NP (NN 阶段)))) (VP (ADVP (RB 逐步)) (VP (VV 投入) (NP (NN 运行))))))) (, ，) (IP (ADVP (RB 首先)) (, ，) (NP (PRP 它)) (VP (MD 只能) (VP (PP (IN 在) (NP (DNP (NP (NP (NN 国际) (NN 空间) (SFN 站)) (NP (NN 内部))) (DEC 的)) (ADJP (JJ 固定)) (NP (NN 位置)))) (VP (VV 运行))))) (, ，) (IP (ADVP (RB 然后)) (, ，) (NP (PRP 它)) (VP (ADVP (RB 将)) (VP (BB 被) (VP (VV 允许) (IP (VP (PP (VV 在) (NP (NN 空间) (SFN 站) (NN 内部))) (VP (VV 移动)))))))) (, ，) (IP (QP (ADJP (NN 最后)) (QP (CD 几) (CLP (NNB 年)))) (, ，) (NP (PRP 它)) (VP (ADVP (RB 将)) (VP (BB 被) (VP (VV 允许) (IP (VP (VV 进行) (NP (NP (ADJP (NN 载人)) (NP (NN 航天))) (NP (NN 活动))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, 'QP': {}}, ',': {}, '.': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
+{'VP': {'VV': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, 'QP': {}}}
+{'IP': {'CP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+(	拜师	punct
+托马斯	拜师	nmod
+·	斯坦利	punct
+斯坦利	托马斯	flat:name
+·	汤姆	punct
+汤姆	托马斯	appos
+森	汤姆	flat:name
+的	托马斯	case
+拜师	写道	nsubj
+，	写道	punct
+爱伦	拜师	appos
+·	坡	punct
+坡	爱伦	flat:name
+写道	ROOT	root
+，	艺术	punct
+他	艺术	nsubj
+的	他	mark:rel
+是	艺术	cop
+“	艺术	punct
+幽默	艺术	amod
+漫画	艺术	nmod
+艺术	写道	parataxis
+”	艺术	punct
+，	那样	punct
+尽管	很棒	case
+“	艺术	punct
+幽默	艺术	amod
+漫画	艺术	nmod
+艺术	很棒	obl
+”	艺术	punct
+很棒	那样	advcl
+，	很棒	punct
+就	那样	mark
+像	马洛	case
+马洛	那样	nmod
+的	马洛	mark:adv
+那样	写道	parataxis
+。	写道	punct
 ----------------------------------------------------------------------
-“它正在变成一个更自主的系统，”拉德福德说。 “目前，它是一个基于任务的系统，由行为组成。
+约翰生曾对戏剧作品抱怨，他一生从戏剧作品中获得的收入不到 200 英镑。
 
-(ROOT (IP (IP (`` “) (NP (PRP 它)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 变成) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 更)) (VP (JJ 自主)))) (DEC 的))) (NP (NN 系统)))))) (, ，) ('' ”) (NP (NNP 拉德福德)) (VP (VV 说)) (. 。)))
-{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
-{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}}}
+(ROOT (IP (IP (NP (NNP 约翰) (NNP 生)) (VP (ADVP (RB 曾)) (PP (IN 对) (NP (NN 戏剧) (NN 作品))) (VP (VV 抱怨)))) (, ，) (IP (NP (CP (CP (IP (NP (PRP 他)) (VP (QP (CD 一) (CLP (NN 生))) (PP (IN 从) (LCP (NP (NN 戏剧) (NN 作品)) (IN 中))) (VP (VV 获得)))) (DEC 的))) (NP (NN 收入))) (VP (QP (ADVP (VV 不到)) (QP (CD 200) (CLP (NNB 英镑)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP92467': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP51376': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+约翰	抱怨	nsubj
+生	约翰	flat:name
+曾	抱怨	advmod
+对	作品	case
+戏剧	作品	nmod
+作品	抱怨	obl
+抱怨	ROOT	root
+，	到	punct
+他	到	nsubj
+一	生	nummod
+生	到	obl
+从	作品	case
+戏剧	作品	nmod
+作品	获得	obl
+中	作品	case
+获得	收入	acl:relcl
+的	获得	mark:rel
+收入	到	nsubj
+到	抱怨	ccomp
+200	英镑	nummod
+英镑	到	obj
+。	抱怨	punct
 ----------------------------------------------------------------------
-我们在编程时，根据它接收到的感官信息，它就能够决定下一步要做什么。”
+他经常陷入贫困，甚至落到了向他的灵感之源求钱的低谷，他用诗歌呼吁他们。
 
-(ROOT (IP (NP (PRP 我们)) (VP (PP (IN 在) (LCP (NP (VV 编程)) (IN 时))) (, ，) (PP (IN 根据) (NP (CP (CP (IP (NP (PRP 它)) (VP (VRD (VV 接收) (VV 到)))) (DEC 的))) (NP (NN 感官) (NN 信息)))) (, ，) (NP (PRP 它)) (VP (ADVP (RB 就)) (VP (MD 能够) (VP (VV 决定) (IP (VP (DP (DT 下) (QP (CD 一) (CLP (NNB 步)))) (VP (MD 要) (VP (VV 做) (NP (WP 什么)))))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'PP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+(ROOT (IP (IP (NP (PRP 他)) (VP (VP (ADVP (RB 经常)) (VP (VV 陷入) (NP (NN 贫困)))) (, ，) (VP (ADVP (RB 甚至)) (VP (VV 落到) (AS 了) (NP (CP (IP (VP (PP (IN 向) (NP (DNP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 灵感))) (DEC 之)) (NP (NN 源)))) (VP (VV 求钱)))) (DEC 的)) (NP (NN 低谷))))))) (, ，) (IP (NP (PRP 他)) (VP (PP (VV 用) (NP (NN 诗歌))) (VP (VV 呼吁) (NP (PRP 他们))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP5636': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP23137': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+他	落到	nsubj
+经常	陷入	advmod
+陷入	落到	advcl
+贫困	陷入	obj
+，	陷入	punct
+甚至	落到	mark
+落到	ROOT	root
+了	落到	aux
+向	源	case
+他	灵感	det
+的	他	mark:rel
+灵感	源	nmod
+之	灵感	case
+源	求钱	obl
+求钱	低谷	acl:relcl
+的	求钱	mark:rel
+低谷	落到	obj
+，	呼吁	punct
+他	呼吁	nsubj
+用	呼吁	advcl
+诗歌	用	obj
+呼吁	落到	parataxis
+他	呼吁	obj
+。	落到	punct
+----------------------------------------------------------------------
+虽然这并不是一项赚钱的行业，但他坚信出版自己的作品很重要，并且还帮助出版了莎士比亚的《第一部分集》。
+
+(ROOT (IP (CP (ADVP (IN 虽然)) (IP (NP (PRD 这)) (VP (ADVP (RB 并)) (VP (VC 不是) (NP (QP (CD 一) (CLP (NNB 项))) (CP (CP (IP (VP (VV 赚钱))) (DEC 的))) (NP (NN 行业))))))) (, ，) (ADVP (RB 但)) (NP (PRP 他)) (VP (VP (VV 坚信) (IP (IP (VP (VV 出版) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 作品))))) (VP (ADVP (RB 很)) (VP (JJ 重要))))) (, ，) (RB 并且) (VP (ADVP (RB 还)) (VP (VV 帮助) (IP (VP (VV 出版) (AS 了) (NP (DNP (NP (NNP 莎士比亚)) (DEC 的)) (NP (-LRB- 《) (QP (CD 第一)) (NP (NN 部分)) (NP (SFN 集)) (-RRB- 》)))))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP26355': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
 {'NP': {'PRP': {}}}
-{'VP': {'PP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+虽然	行业	case
+这	行业	nsubj
+并	行业	mark
+是	行业	cop
+一	项	nummod
+项	行业	clf
+赚钱	行业	acl:relcl
+的	赚钱	mark:rel
+行业	帮助	ccomp
+，	行业	punct
+但	帮助	mark
+他	帮助	nsubj
+坚信	帮助	advcl
+出版	作品	acl:relcl
+自己	出版	obj
+的	出版	mark:rel
+作品	重要	nsubj
+很	重要	advmod
+重要	坚信	ccomp
+，	坚信	punct
+并且	帮助	mark
+还	帮助	mark
+帮助	ROOT	root
+出版	帮助	xcomp
+了	出版	aux
+莎士比亚	集	nmod
+的	莎士比亚	case
+《	集	punct
+第一	部分	nummod
+部分	集	compound
+集	出版	obj
+》	集	punct
+。	帮助	punct
 ----------------------------------------------------------------------
-Radford、Wilson 和 Hoffman 对在轨测试机器人感到兴奋。
+他在《福禄》上发表的赞美诗以一句著名的赞美结束：“他不是属于某个时代，而是属于所有时代！”
 
-(ROOT (IP (NP (FW Radford) (EC 、) (FW Wilson) (CC 和) (FW Hoffman)) (VP (VP (IN 对在轨) (NP (VV 测试) (NN 机器) (SFN 人))) (VP (VV 感到) (NP (JJ 兴奋)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'FW': {}, 'EC': {}, 'FW': {}, 'CC': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'FW': {}, 'EC': {}, 'FW': {}, 'CC': {}}}
-{'VP': {'VP': {}, 'VP': {}}}
+(ROOT (IP (NP (CP (CP (IP (NP (PRP 他)) (VP (PP (IN 在) (LCP (NP (-LRB- 《) (NNP 福禄) (-RRB- 》)) (IN 上))) (VP (VV 发表)))) (DEC 的))) (NP (VV 赞美) (SFN 诗))) (VP (PP (VV 以) (NP (QP (CD 一) (CLP (NNB 句))) (CP (CP (IP (VP (JJ 著名))) (DEC 的))) (NP (NN 赞美)))) (VP (VV 结束) (: ：) (IP (`` “) (NP (PRP 他)) (VP (VP (VC 不是) (VP (VV 属) (PP (VV 于) (NP (DP (DT 某个)) (NP (NN 时代)))))) (, ，) (VP (VC 而是) (VP (VV 属) (PP (VV 于) (NP (DP (DT 所有)) (NP (NN 时代)))))))))) (. ！) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+他	发表	nsubj
+在	福禄	case
+《	福禄	punct
+福禄	发表	obl
+》	福禄	punct
+上	福禄	case
+发表	诗	acl:relcl
+的	发表	mark:rel
+赞美	诗	compound
+诗	以	nsubj
+以	ROOT	root
+一	句	nummod
+句	赞美	clf
+著名	赞美	amod
+的	著名	mark:rel
+赞美	结束	nsubj
+结束	以	ccomp
+：	是	punct
+“	是	punct
+他	是	nsubj
+是	是	advcl
+属	是	xcomp
+于	属	mark
+某个	时代	det
+时代	属	obj
+，	是	punct
+是	结束	ccomp
+属	是	xcomp
+于	属	mark
+所有	时代	det
+时代	属	obj
+！	是	punct
+”	是	punct
 ----------------------------------------------------------------------
-“这是我们团队一直以来的梦想，”拉德福德说道。
+历史证明了这句感叹的真实性，显然，但是随后，其作者的声誉下降，这里有一种微妙的反差。
 
-(ROOT (IP (IP (`` “) (NP (PRD 这)) (VP (VC 是) (NP (NP (NP (PRP 我们)) (NP (NN 团队))) (DNP (LCP (ADVP (RB 一直)) (IN 以来)) (DEC 的)) (NP (NN 梦想))))) (, ，) ('' ”) (NP (NNP 拉德福德)) (VP (VV 说道)) (. 。)))
-{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
-{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+(ROOT (IP (IP (NP (NN 历史)) (VP (VV 证明) (AS 了) (NP (DNP (NP (DP (DT 这) (CLP (NNB 句))) (NP (VV 感叹))) (DEC 的)) (NP (JJ 真实) (SFN 性))))) (, ，) (IP (ADVP (JJ 显然)) (, ，) (ADVP (RB 但是)) (ADVP (RB 随后)) (, ，) (NP (DNP (NP (NP (PRP 其)) (NP (NN 作者))) (DEC 的)) (NP (NN 声誉))) (VP (VV 下降))) (, ，) (IP (NP (PRD 这里)) (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 种))) (CP (CP (IP (VP (JJ 微妙))) (DEC 的))) (NP (NN 反差))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP52566': {}, ',12926': {}, 'IP56780': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP46529': {'ADVP': {}, ',': {}, 'ADVP43433': {}, 'ADVP50983': {}, ',2401': {}, 'NP': {}, 'VP': {}}, ',16951': {}, 'IP49921': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+历史	证明	nsubj
+证明	ROOT	root
+了	证明	aux
+这	句	det
+句	性	nmod
+感叹	性	acl:relcl
+的	感叹	mark:rel
+真实	性	compound
+性	证明	obj
+，	有	punct
+显然	有	advcl
+，	显然	punct
+但是	有	mark
+随后	有	advmod
+，	随后	punct
+其	作者	nmod
+作者	声誉	nmod
+的	作者	case
+声誉	下降	nsubj
+下降	有	advcl
+，	下降	punct
+这里	有	nsubj
+有	证明	parataxis
+一	种	nummod
+种	反差	clf
+微妙	反差	amod
+的	微妙	mark:rel
+反差	有	obj
+。	证明	punct
+----------------------------------------------------------------------
+约翰生作为一位戏剧家、诗人和文学界的杰出人物，热衷于在当时的公众舞台上发挥重大作用，他希望后人能够为他带来更加辉煌的成就。
+
+(ROOT (IP (IP (NP (NNP 约翰) (SFN 生)) (VP (PP (VV 作) (PP (VC 为) (NP (QP (CD 一) (CLP (NNB 位))) (DNP (NP (NN 戏剧) (SFN 家) (EC 、) (NN 诗人) (CC 和) (NN 文学) (SFN 界)) (DEC 的)) (ADJP (JJ 杰出)) (NP (NN 人物))))) (, ，) (VP (VV 热衷) (PP (VV 于) (IP (VP (PP (IN 在) (LCP (NP (DNP (NP (NN 当时)) (DEC 的)) (NP (NN 公众) (NN 舞台))) (IN 上))) (VP (VV 发挥) (NP (ADJP (JJ 重大)) (NP (NN 作用)))))))))) (, ，) (IP (NP (PRP 他)) (VP (VV 希望) (IP (NP (NN 后人)) (VP (MD 能够) (VP (PP (IN 为) (NP (PRP 他))) (VP (VV 带来) (NP (CP (CP (IP (VP (ADVP (RB 更加)) (VP (JJ 辉煌)))) (DEC 的))) (NP (NN 成就))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP69740': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP60079': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+约翰	生	compound
+生	发挥	nsubj
+作	发挥	advcl
+为	作	mark
+一	位	nummod
+位	家	nmod
+戏剧	家	compound
+家	作	obj
+、	诗人	punct
+诗人	家	conj
+和	界	cc
+文学	界	compound
+界	家	conj
+的	作	mark:rel
+杰出	人物	amod
+人物	作	obj
+，	作	punct
+热衷	发挥	advcl
+于	热衷	mark
+在	舞台	case
+当时	舞台	nmod
+的	当时	case
+公众	舞台	nmod
+舞台	发挥	obl
+上	舞台	case
+发挥	ROOT	root
+重大	作用	amod
+作用	发挥	obj
+，	希望	punct
+他	希望	nsubj
+希望	发挥	parataxis
+后人	带来	nsubj
+能够	带来	aux
+为	他	case
+他	带来	obl
+带来	希望	ccomp
+更加	辉煌	advmod
+辉煌	成就	amod
+的	辉煌	mark:rel
+成就	带来	obj
+。	发挥	punct
+----------------------------------------------------------------------
+但到了 18 世纪，莎士比亚的想象力极强的作品征服了英语世界。
+
+(ROOT (IP (ADVP (RB 但)) (IP (VP (VV 到) (AS 了) (NP (QP (CD 18)) (NP (NNB 世纪))))) (, ，) (NP (DNP (NP (NNP 莎士比亚)) (DEC 的)) (CP (CP (IP (NP (VV 想象) (SFN 力)) (VP (ADVP (RB 极)) (VP (JJ 强)))) (DEC 的))) (NP (NN 作品))) (VP (VV 征服) (AS 了) (NP (NNP 英) (SFN 语) (NN 世界))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'IP': {'VP': {}}, ',': {}, 'NP': {'DNP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'IP': {'VP': {}}, ',': {}, 'NP': {'DNP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'DNP': {}, 'CP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+但	征服	mark
+到	征服	advcl
+了	到	aux
+18	世纪	nummod
+世纪	到	obj
+，	到	punct
+莎士比亚	力	nmod
+的	莎士比亚	case
+想象	力	compound
+力	强	nsubj
+极	强	advmod
+强	作品	acl:relcl
+的	强	mark:rel
+作品	征服	nsubj
+征服	ROOT	root
+了	征服	aux
+英	语	compound
+语	世界	nmod
+世界	征服	obj
+。	征服	punct
+----------------------------------------------------------------------
+唐纳森幽默地说：“詹森总是认识到名声的不确定性，但事实证明名声是一个不稳定的朋友。”
+
+(ROOT (IP (NP (NNP 唐纳森)) (VP (DVP (VP (JJ 幽默)) (DEV 地)) (VP (VV 说) (: ：) (IP (`` “) (NP (NNP 詹森)) (VP (ADVP (RB 总)) (VP (VC 是) (VP (VRD (VV 认识) (VV 到)) (NP (DNP (NP (NN 名声)) (DEC 的)) (CP (IP (VP (ADVP (RB 不)) (VP (JJ 确定))))) (NP (SFN 性)))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 事实)) (VP (VV 证明) (IP (NP (NN 名声)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 不)) (VP (JJ 稳定)))) (DEC 的))) (NP (NN 朋友)))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'DVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'DVP': {}, 'VP': {}}, '.': {}, "''": {}}}
 {'NP': {'NNP': {}}}
-{'VP': {'VV': {}}}
+{'VP': {'DVP': {}, 'VP': {}}}
+Dependency Features:
+唐纳森	说	nsubj
+幽默	说	advmod
+地	幽默	mark:adv
+说	ROOT	root
+：	证明	punct
+“	证明	punct
+詹森	是	nsubj
+总	是	advmod
+是	证明	advcl
+认识	是	xcomp
+到	认识	mark
+名声	认识	obj
+的	认识	mark:rel
+不	确定	advmod
+确定	性	compound
+性	认识	obj
+，	是	punct
+但	证明	mark
+事实	证明	nsubj
+证明	说	ccomp
+名声	朋友	nsubj
+是	朋友	cop
+一	个	nummod
+个	朋友	clf
+不	稳定	advmod
+稳定	朋友	amod
+的	稳定	mark:rel
+朋友	证明	ccomp
+。	证明	punct
+”	证明	punct
 ----------------------------------------------------------------------

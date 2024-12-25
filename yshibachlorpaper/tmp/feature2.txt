@@ -1,199 +1,1687 @@
-联合国今天发布的一份报告称，除非投入数百亿美元用于改善灌溉系统，以便为人口不断增长的亚洲种植农作物，否则亚洲将面临前所未有的粮食危机和巨大的社会动荡。
+如果没有互联网，Murong Xuecun可能还在中国南方的成都一家汽车公司当销售经理。
 
-(ROOT (IP (NP (CP (CP (IP (NP (VV 联合) (SFN 国)) (VP (NP (NN 今天)) (VP (VV 发布)))) (DEC 的))) (QP (CD 一) (CLP (NNB 份))) (NP (NN 报告))) (VP (VV 称) (, ，) (IP (IP (CP (ADVP (IN 除非)) (IP (VP (VP (VV 投入) (QP (CD 数百亿) (CLP (NNP 美) (CLP (NNB 元))))) (VP (VV 用) (PP (VV 于) (IP (VP (VV 改善) (NP (NN 灌溉) (NN 系统))))))))) (, ，) (VP (RB 以) (VP (ADVP (VV 便)) (PP (IN 为) (NP (CP (CP (IP (NP (NN 人口)) (VP (ADVP (RB 不断)) (VP (VV 增长)))) (DEC 的))) (NP (NNP 亚洲)))) (VP (VV 种植) (NP (NN 农) (NN 作物)))))) (, ，) (ADVP (VV 否则)) (NP (NNP 亚洲)) (VP (ADVP (RB 将)) (VP (VV 面临) (NP (NP (CP (CP (IP (VP (ADVP (NN 前)) (VP (RB 所) (VP (VV 未有))))) (DEC 的))) (NP (NN 粮食) (NN 危机))) (CC 和) (NP (CP (CP (IP (VP (JJ 巨大))) (DEC 的))) (NP (NN 社会) (NN 动荡)))))))) (. 。)))
+(ROOT (IP (IP (VP (ADVP (IN 如果)) (VP (VV 没有) (NP (JJ 互联) (SFN 网))))) (, ，) (NP (FW Murong) (FW Xuecun)) (VP (MD 可能) (VP (ADVP (RB 还)) (PP (VV 在) (NP (DNP (NP (NP (NNP 中国)) (NP (NN 南方))) (DEC 的)) (NP (NNP 成都)) (QP (CD 一) (CLP (NNB 家))) (NP (NN 汽车) (NN 公司)))) (VP (VV 当) (NP (NN 销售) (NN 经理))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'FW': {}, 'FW29567': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'FW': {}, 'FW': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'FW': {}, 'FW': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['如果', '有', 'case']
+['VERB', 'VERB', 'xcomp']	['有', '当', 'xcomp']
+['ADJ', 'PART', 'compound']	['互联', '网', 'compound']
+['PART', 'VERB', 'obj']	['网', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['X', 'VERB', 'nsubj']	['Murong', '当', 'nsubj']
+['X', 'X', 'flat:foreign']	['Xuecun', 'Murong', 'flat:foreign']
+['AUX', 'VERB', 'aux']	['可能', '当', 'aux']
+['ADV', 'VERB', 'mark']	['还', '当', 'mark']
+['VERB', 'VERB', 'advcl']	['在', '当', 'advcl']
+['PROPN', 'NOUN', 'nmod']	['中国', '南方', 'nmod']
+['NOUN', 'VERB', 'obj']	['南方', '在', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '在', 'mark:rel']
+['PROPN', 'NOUN', 'nmod']	['成都', '公司', 'nmod']
+['NUM', 'NOUN', 'nummod']	['一', '家', 'nummod']
+['NOUN', 'NOUN', 'clf']	['家', '公司', 'clf']
+['NOUN', 'NOUN', 'nmod']	['汽车', '公司', 'nmod']
+['NOUN', 'VERB', 'obj']	['公司', '在', 'obj']
+['VERB', 'ROOT', 'root']	['当', 'NONE', 'root']
+['NOUN', 'NOUN', 'nmod']	['销售', '经理', 'nmod']
+['NOUN', 'VERB', 'obj']	['经理', '当', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '当', 'punct']
+----------------------------------------------------------------------
+这就是他在 2001 年开始写他的第一部小说时所做的事。
+
+(ROOT (IP (NP (PRD 这)) (VP (VC 就是) (NP (CP (CP (IP (VP (LCP (IP (NP (PRP 他)) (VP (PP (IN 在) (NP (CD 2001) (NNB 年))) (VP (VV 开始) (VP (VV 写) (NP (DNP (NP (PRP 他)) (DEC 的)) (QP (CD 第一) (CLP (NNB 部))) (NP (NN 小说))))))) (IN 时)) (VP (RB 所) (VP (VV 做))))) (DEC 的))) (NP (NN 事)))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CP': {}, 'QP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'CP': {}, 'QP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-印度、中国、巴基斯坦等大国在 20 世纪 70 年代和 80 年代避免饥荒，只是因为他们建造了巨大的国家资助灌溉系统并引进了更好的种子和肥料。但是，预计到 2050 年，亚洲将再增加 15 亿人口，这将使亚洲对粮食的需求翻一番，这是联合国粮食及农业组织 (FAO) 和由世界银行资助的国际水管理研究所 (IWMI) 的报告说的。
-
-(ROOT (IP (IP (NP (NP (NNP 印度) (EC 、) (NNP 中国) (EC 、) (NNP 巴基斯坦) (NN 等)) (NP (NN 大国))) (VP (PP (IN 在) (NP (NP (NP (QP (CD 20)) (NP (NNB 世纪))) (QP (CD 70)) (NP (NNB 年代))) (CC 和) (NP (QP (CD 80)) (NP (NNB 年代))))) (VP (VV 避免) (NP (NN 饥荒))))) (, ，) (IP (ADVP (VC 只是)) (PP (IN 因为) (IP (NP (PRP 他们)) (VP (VV 建造) (AS 了) (NP (CP (CP (IP (VP (JJ 巨大))) (DEC 的))) (NP (NN 国家))) (IP (VP (VP (VV 资助) (NP (NN 灌溉) (NN 系统))) (RB 并) (VP (VV 引进) (AS 了) (NP (CP (CP (IP (VP (JJ 更好))) (DEC 的))) (NP (NN 种子) (CC 和) (NN 肥料)))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'PP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'PP': {}}}
-----------------------------------------------------------------------
-根据报告，由于新增耕地极少，气候变化日益不可预测，水源供应已经到了极限，未来唯一可行的办法是更好地管理现有的水源，用于养活人口。
-
-(ROOT (IP (IP (PP (IN 根据) (NP (NN 报告))) (, ，) (PP (IN 由于) (IP (IP (VP (NN 新增) (IP (NP (NN 耕地)) (VP (JJ 极少))))) (, ，) (IP (NP (NN 气候) (NN 变化)) (VP (ADVP (RB 日益)) (VP (MD 不可) (VP (VV 预测))))))) (, ，) (NP (NN 水源) (NN 供应)) (VP (ADVP (RB 已经)) (VP (VV 到) (AS 了) (NP (NN 极限))))) (, ，) (IP (NP (NN 未来)) (NP (ADJP (JJ 唯一)) (CP (CP (IP (VP (JJ 可行))) (DEC 的))) (NP (NN 办法))) (VP (VC 是) (VP (VP (DVP (VP (JJ 更好)) (DEV 地)) (VP (VV 管理) (NP (DNP (ADJP (VV 现有)) (DEC 的)) (NP (NN 水源))))) (, ，) (VP (VV 用) (PP (VV 于) (IP (VP (NN 养活) (NP (NN 人口))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-“我们没有新的土地和水域可以开发，所以我们必须更好地利用现有资源。
-
-(ROOT (IP (`` “) (NP (PRP 我们)) (VP (VV 没有) (IP (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 土地) (CC 和) (NN 水域))) (VP (MD 可以) (VP (VV 开发))))) (, ，) (IP (ADVP (RB 所以)) (NP (PRP 我们)) (VP (MD 必须) (VP (DVP (VP (JJ 更好)) (DEV 地)) (VP (VV 利用) (NP (ADJP (NN 现有)) (NP (NN 资源))))))) (. 。)))
-{'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-现有灌溉系统通常都有 50 至 70 年的历史。
-
-(ROOT (IP (NP (ADJP (NN 现有)) (NP (NN 灌溉) (NN 系统))) (VP (ADVP (RB 通常)) (ADVP (RB 都)) (VP (VV 有) (NP (DNP (QP (QP (CD 50)) (CC 至) (QP (CD 70) (CLP (NNB 年)))) (DEC 的)) (NP (NN 历史))))) (. 。)))
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'ADJP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-他们漏水了，水蒸发了。
-
-(ROOT (IP (IP (NP (PRP 他们)) (VP (VV 漏水) (UH 了))) (, ，) (IP (NP (NN 水)) (VP (VV 蒸发) (UH 了))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-我们迫切需要新一代灌溉技术。
-
-(ROOT (IP (NP (PRP 我们)) (VP (ADVP (RB 迫切)) (VP (VV 需要) (NP (QP (ADJP (PFA 新)) (QP (CD 一) (CLP (NNB 代)))) (NP (NN 灌溉) (NN 技术))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这是我们养活所有人的唯一途径，”国际农业水利研究所总干事科林·查特斯说。
-
-(ROOT (IP (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (NP (PRP 我们)) (VP (VV 养活) (NP (CP (IP (VP (RB 所) (VP (VV 有))))) (NP (NN 人))))) (DEC 的))) (ADJP (JJ 唯一)) (NP (NN 途径))))) (, ，) ('' ”) (NP (NP (NP (NN 国际) (NN 农业) (NN 水利) (VV 研究) (SFN 所)) (ADJP (PFA 总)) (NP (NN 干事))) (NP (NNP 科林) (/ ·) (NNP 查特斯))) (VP (VV 说)) (. 。)))
-{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}}}
-----------------------------------------------------------------------
-如果我们不投资，我们将会看到像 2007 年那样的粮食危机一次又一次地重演。
-
-(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 我们)) (VP (ADVP (RB 不)) (VP (VV 投资))))) (, ，) (NP (PRP 我们)) (VP (ADVP (RB 将)) (VP (MD 会) (VP (VV 看到) (IP (NP (DNP (PP (IN 像) (LCP (NP (CD 2007)) (NNB 年那样))) (DEC 的)) (NP (NN 粮食) (NN 危机))) (VP (DVP (QP (QP (CD 一) (CLP (NNB 次))) (ADVP (RB 又)) (QP (CD 一) (CLP (NNB 次)))) (DEV 地)) (VP (VV 重演))))))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这是一个预警。
-
-(ROOT (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 预警)))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
 {'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
 {'NP': {'PRD': {}}}
 {'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['这', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['PRON', 'VERB', 'nsubj']	['他', '做', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '年', 'case']
+['NUM', 'NOUN', 'nummod']	['2001', '年', 'nummod']
+['NOUN', 'VERB', 'obl']	['年', '开始', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['开始', '事', 'acl:relcl']
+['VERB', 'VERB', 'xcomp']	['写', '开始', 'xcomp']
+['PRON', 'VERB', 'obj']	['他', '写', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '开始', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['第一', '部', 'nummod']
+['NOUN', 'NOUN', 'clf']	['部', '小说', 'clf']
+['NOUN', 'VERB', 'obj']	['小说', '开始', 'obj']
+['ADP', 'VERB', 'mark']	['时', '开始', 'mark']
+['ADV', 'VERB', 'mark']	['所', '做', 'mark']
+['VERB', 'NOUN', 'acl:relcl']	['做', '事', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '做', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['事', '是', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
 ----------------------------------------------------------------------
-如果不采取行动，社会动荡、移民和恐怖主义的滋生地将会越来越多”，他说。
+每周，穆朗从工作岗位回家后，都会发布新的文章，描绘了他所居住城市现代都市生活的沉闷却又诚实的画面。
 
-(ROOT (IP (IP (IP (VP (ADVP (IN 如果)) (ADVP (RB 不)) (VP (VV 采取) (NP (NN 行动))))) (, ，) (NP (DNP (NP (NN 社会) (NN 动荡) (EC 、) (NN 移民) (CC 和) (NN 恐怖) (NN 主义)) (DEC 的)) (NP (NN 滋生) (SFN 地))) (VP (ADVP (RB 将)) (VP (MD 会) (VP (ADVP (RB 越来越)) (VP (JJ 多))))) ('' ”)) (, ，) (IP (NP (PRP 他)) (VP (VV 说))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, "''": {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, "''": {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+(ROOT (IP (NP (DT 每周)) (, ，) (VP (PP (NNP 穆朗从) (LCP (IP (NP (VV 工作) (SFN 岗) (NN 位)) (VP (VV 回家))) (IN 后))) (, ，) (VP (RB 都会) (VP (VP (VV 发布) (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 文章)))) (, ，) (VP (VV 描绘) (AS 了) (NP (DNP (NP (NP (NP (CP (IP (NP (PRP 他)) (VP (RB 所) (VP (VV 居住))))) (NP (NN 城市))) (ADJP (NN 现代)) (NP (NN 都市))) (NP (VV 生活))) (DEC 的)) (CP (CP (IP (VP (JJ 沉闷) (CC 却) (CC 又) (JJ 诚实))) (DEC 的))) (NP (NN 画面))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DT': {}}, ',': {}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DT': {}}, ',': {}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DT': {}}}
+{'VP': {'PP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'VERB', 'obl']	['每周', '回家', 'obl']
+['PUNCT', 'DET', 'punct']	['，', '每周', 'punct']
+['PROPN', 'NOUN', 'nmod']	['穆朗从', '位', 'nmod']
+['VERB', 'PART', 'compound']	['工作', '岗', 'compound']
+['PART', 'NOUN', 'nmod']	['岗', '位', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['位', '回家', 'nsubj']
+['VERB', 'VERB', 'advcl']	['回家', '描绘', 'advcl']
+['ADP', 'VERB', 'mark']	['后', '回家', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '回家', 'punct']
+['ADV', 'VERB', 'advmod']	['都会', '发布', 'advmod']
+['VERB', 'VERB', 'advcl']	['发布', '描绘', 'advcl']
+['ADJ', 'NOUN', 'amod']	['新', '文章', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '新', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['文章', '发布', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '发布', 'punct']
+['VERB', 'ROOT', 'root']	['描绘', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '描绘', 'aux']
+['PRON', 'VERB', 'nsubj']	['他', '居住', 'nsubj']
+['ADV', 'VERB', 'mark']	['所', '居住', 'mark']
+['VERB', 'ADJ', 'advcl']	['居住', '沉闷', 'advcl']
+['NOUN', 'NOUN', 'nmod']	['城市', '都市', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['现代', '都市', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['都市', '生活', 'nsubj']
+['VERB', 'VERB', 'obj']	['生活', '居住', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '居住', 'mark:rel']
+['ADJ', 'VERB', 'obj']	['沉闷', '描绘', 'obj']
+['CCONJ', 'NOUN', 'cc']	['却', '画面', 'cc']
+['CCONJ', 'NOUN', 'cc']	['又', '画面', 'cc']
+['ADJ', 'NOUN', 'amod']	['诚实', '画面', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '诚实', 'mark:rel']
+['NOUN', 'ADJ', 'conj']	['画面', '沉闷', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '描绘', 'punct']
 ----------------------------------------------------------------------
-自从共产主义灭亡和自由市场兴起以来，农民越来越多地选择自己动手进行灌溉，主要使用便宜的中国制造的泵。
+它包含了关于性、爱情、赌博和毒品的故事，很快就在许多其他在线论坛上流行起来。
 
-(ROOT (IP (PP (IN 自从) (LCP (NP (NP (NN 共产) (NN 主义) (NN 灭亡)) (CC 和) (IP (NP (ADJP (NN 自由)) (NP (NN 市场))) (VP (VV 兴起)))) (IN 以来))) (, ，) (NP (NN 农民)) (VP (VP (DVP (VP (ADVP (RB 越来越)) (VP (JJ 多))) (DEV 地)) (VP (VV 选择) (IP (NP (PRD 自己)) (VP (VP (VV 动手)) (VP (VV 进行) (NP (NN 灌溉))))))) (, ，) (VP (ADVP (RB 主要)) (VP (VV 使用) (NP (CP (CP (IP (VP (JJ 便宜))) (DEC 的))) (CP (CP (IP (NP (NNP 中国)) (VP (VV 制造))) (DEC 的))) (NP (NN 泵)))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'NN': {}}}
+(ROOT (IP (NP (PRP 它)) (VP (VP (VV 包含) (AS 了) (NP (DNP (PP (IN 关于) (NP (NN 性) (EC 、) (NN 爱情) (EC 、) (NN 赌博) (CC 和) (NN 毒品))) (DEC 的)) (NP (NN 故事)))) (, ，) (VP (ADVP (JJ 很快)) (ADVP (RB 就)) (PP (IN 在) (LCP (NP (QP (CD 许多)) (DP (DT 其他)) (NP (IN 在) (NN 线)) (NP (NN 论坛))) (IN 上))) (VP (VRD (VV 流行) (VV 起来))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP80483': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
 {'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['它', '包含', 'nsubj']
+['VERB', 'ROOT', 'root']	['包含', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '包含', 'aux']
+['ADP', 'NOUN', 'case']	['关于', '故事', 'case']
+['NOUN', 'NOUN', 'nmod']	['性', '故事', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['、', '爱情', 'punct']
+['NOUN', 'NOUN', 'conj']	['爱情', '性', 'conj']
+['PUNCT', 'NOUN', 'punct']	['、', '赌博', 'punct']
+['NOUN', 'NOUN', 'conj']	['赌博', '性', 'conj']
+['CCONJ', 'NOUN', 'cc']	['和', '毒品', 'cc']
+['NOUN', 'NOUN', 'conj']	['毒品', '性', 'conj']
+['PART', 'ADP', 'mark:rel']	['的', '关于', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['故事', '包含', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '流行', 'punct']
+['ADJ', 'VERB', 'advmod']	['很快', '流行', 'advmod']
+['ADV', 'VERB', 'mark']	['就', '流行', 'mark']
+['ADP', 'NOUN', 'case']	['在', '论坛', 'case']
+['NUM', 'NOUN', 'nummod']	['许多', '论坛', 'nummod']
+['DET', 'NOUN', 'det']	['其他', '论坛', 'det']
+['ADP', 'NOUN', 'case']	['在', '论坛', 'case']
+['NOUN', 'NOUN', 'nmod']	['线', '论坛', 'nmod']
+['NOUN', 'VERB', 'obl']	['论坛', '流行', 'obl']
+['ADP', 'NOUN', 'case']	['上', '论坛', 'case']
+['VERB', 'VERB', 'parataxis']	['流行', '包含', 'parataxis']
+['VERB', 'VERB', 'mark']	['起来', '流行', 'mark']
+['PUNCT', 'VERB', 'punct']	['。', '包含', 'punct']
 ----------------------------------------------------------------------
-数以百万的小农户投资了自己的泵，这样他们就可以随时从浅层地下水中提取水。
+如今，这位 35 岁的作家被认为是当代中国出现的最著名的作家之一。
 
-(ROOT (IP (IP (NP (DNP (QP (CD 数) (QP (CD 以百万))) (DEC 的)) (ADJP (PFA 小)) (NP (NN 农户))) (VP (VV 投资) (AS 了) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 泵))))) (, ，) (IP (ADVP (PRD 这样)) (NP (PRP 他们)) (VP (ADVP (RB 就)) (VP (MD 可以) (VP (ADVP (RB 随时)) (PP (IN 从) (LCP (NP (NP (ADJP (PFA 浅)) (NP (NN 层))) (NP (NN 地下) (SFN 水))) (NN 中))) (VP (VV 提取) (NP (NN 水))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+(ROOT (IP (NP (NN 如今)) (, ，) (NP (DP (DT 这) (CLP (NNB 位))) (DNP (QP (CD 35) (CLP (NNB 岁))) (DEC 的)) (NP (NN 作家))) (VP (BB 被) (VP (VCP (VV 认为) (VC 是)) (NP (DNP (NP (CP (CP (IP (VP (NP (ADJP (NN 当代)) (NP (NNP 中国))) (VP (VV 出现)))) (DEC 的))) (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 著名)))) (DEC 的))) (NP (NN 作家))) (DEC 之)) (NP (CD 一))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP58970': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP58062': {'DP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'DP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'NP': {'DP': {}, 'DNP': {}, 'NP': {}}}
+{'VP': {'BB': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nmod:tmod']	['如今', '为', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '如今', 'punct']
+['DET', 'NOUN', 'det']	['这', '位', 'det']
+['NOUN', 'NOUN', 'clf']	['位', '作家', 'clf']
+['NUM', 'NOUN', 'nummod']	['35', '岁', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['岁', '作家', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '岁', 'mark:rel']
+['NOUN', 'VERB', 'nsubj:pass']	['作家', '为', 'nsubj:pass']
+['AUX', 'VERB', 'aux:pass']	['被', '为', 'aux:pass']
+['VERB', 'ROOT', 'root']	['为', 'NONE', 'root']
+['AUX', 'NUM', 'cop']	['是', '一', 'cop']
+['NOUN', 'PROPN', 'nmod']	['当代', '中国', 'nmod']
+['PROPN', 'VERB', 'obl']	['中国', '出现', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['出现', '作家', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '出现', 'mark:rel']
+['ADV', 'ADJ', 'advmod']	['最', '著名', 'advmod']
+['ADJ', 'NOUN', 'amod']	['著名', '作家', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '著名', 'mark:rel']
+['NOUN', 'NUM', 'nmod']	['作家', '一', 'nmod']
+['PART', 'NOUN', 'case']	['之', '作家', 'case']
+['NUM', 'VERB', 'xcomp']	['一', '为', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '为', 'punct']
 ----------------------------------------------------------------------
-由于政府无法管制这种做法，导致水资源遭到严重掠夺。
+他的首部作品《独自呆：成都小说》已经被数以百万计的中国“网民”阅读，并被拍成电影和电视剧并翻译成德语、法语和英语。
 
-(ROOT (IP (PP (IN 由于) (IP (NP (NN 政府)) (VP (ADVP (VV 无法)) (VP (VV 管制) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 做法))))))) (, ，) (VP (VV 导致) (IP (NP (NN 水) (NN 资源)) (VP (VV 遭到) (NP (ADJP (RB 严重)) (NP (VV 掠夺)))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-----------------------------------------------------------------------
-近几年，印度和中国部分地区的地下水位猛跌。
-
-(ROOT (IP (QP (ADVP (RB 近)) (QP (CD 几) (CLP (NNB 年)))) (, ，) (NP (DNP (NP (NP (NNP 印度) (CC 和) (NNP 中国)) (QP (NN 部分)) (NP (NN 地区))) (DEC 的)) (ADJP (NN 地下)) (NP (SFN 水) (SFN 位))) (VP (VV 猛跌)) (. 。)))
-{'IP': {'QP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'QP': {'ADVP': {}, 'QP': {}}, ',': {}, 'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VV': {}}, '.': {}}}
-{'QP': {'ADVP': {}, 'QP': {}}}
+(ROOT (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (ADJP (JJ 首部)) (NP (NN 作品))) (IP (-LRB- 《) (VP (ADVP (NN 独自)) (VP (VV 呆))) (: ：) (NP (NP (NNP 成都)) (NP (NN 小说))) (-RRB- 》)) (VP (VP (ADVP (RB 已经)) (VP (BB 被) (CP (IP (NP (CP (CP (IP (QP (CD 数)) (VP (PP (NNB 以) (QP (CD 百万))) (VP (VV 计)))) (DEC 的))) (NP (NNP 中国)) (NP (`` “) (NN 网民) ('' ”))) (VP (VV 阅读)))))) (, ，) (RB 并) (VP (BB 被) (VP (VV 拍成) (NP (NN 电影) (CC 和) (NN 电视) (SFN 剧)))) (RB 并) (VP (VRD (VV 翻译) (VV 成)) (NP (NNP 德) (SFN 语) (EC 、) (NNP 法) (SFN 语) (CC 和) (NNP 英) (SFN 语)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'IP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'IP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, 'IP': {'-LRB-': {}, 'VP': {}, ':': {}, 'NP': {}, '-RRB-': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP16694': {}, 'RB58727': {}, 'VP39778': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, 'IP': {'-LRB-': {}, 'VP': {}, ':': {}, 'NP': {}, '-RRB-': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}, 'RB': {}, 'VP': {}}, '.': {}}}
 {'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}}
+{'IP': {'-LRB-': {}, 'VP': {}, ':': {}, 'NP': {}, '-RRB-': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'det']	['他', '作品', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['ADJ', 'NOUN', 'amod']	['首部', '作品', 'amod']
+['NOUN', 'VERB', 'nsubj']	['作品', '翻译', 'nsubj']
+['PUNCT', 'VERB', 'punct']	['《', '呆', 'punct']
+['NOUN', 'VERB', 'nsubj']	['独自', '呆', 'nsubj']
+['VERB', 'NOUN', 'appos']	['呆', '作品', 'appos']
+['PUNCT', 'VERB', 'punct']	['：', '呆', 'punct']
+['PROPN', 'NOUN', 'nmod']	['成都', '小说', 'nmod']
+['NOUN', 'NOUN', 'appos']	['小说', '作品', 'appos']
+['PUNCT', 'NOUN', 'punct']	['》', '小说', 'punct']
+['ADV', 'VERB', 'advmod']	['已经', '阅读', 'advmod']
+['AUX', 'VERB', 'aux:pass']	['被', '阅读', 'aux:pass']
+['NUM', 'NOUN', 'nummod']	['数', '以', 'nummod']
+['NOUN', 'VERB', 'aux:pass']	['以', '计', 'aux:pass']
+['NUM', 'VERB', 'obl']	['百万', '计', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['计', '网民', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '计', 'mark:rel']
+['PROPN', 'NOUN', 'nmod']	['中国', '网民', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['“', '网民', 'punct']
+['NOUN', 'VERB', 'nsubj']	['网民', '阅读', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['”', '网民', 'punct']
+['VERB', 'VERB', 'advcl']	['阅读', '翻译', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '阅读', 'punct']
+['ADV', 'VERB', 'mark']	['并', '翻译', 'mark']
+['AUX', 'VERB', 'aux:pass']	['被', '拍成', 'aux:pass']
+['VERB', 'VERB', 'advcl']	['拍成', '翻译', 'advcl']
+['NOUN', 'VERB', 'obj']	['电影', '拍成', 'obj']
+['CCONJ', 'PART', 'cc']	['和', '剧', 'cc']
+['NOUN', 'PART', 'compound']	['电视', '剧', 'compound']
+['PART', 'NOUN', 'conj']	['剧', '电影', 'conj']
+['ADV', 'VERB', 'mark']	['并', '翻译', 'mark']
+['VERB', 'ROOT', 'root']	['翻译', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['成', '翻译', 'mark']
+['PROPN', 'PART', 'compound']	['德', '语', 'compound']
+['PART', 'VERB', 'obj']	['语', '翻译', 'obj']
+['PUNCT', 'PART', 'punct']	['、', '语', 'punct']
+['PROPN', 'PART', 'compound']	['法', '语', 'compound']
+['PART', 'PART', 'conj']	['语', '语', 'conj']
+['CCONJ', 'PART', 'cc']	['和', '语', 'cc']
+['PROPN', 'PART', 'compound']	['英', '语', 'compound']
+['PART', 'PART', 'conj']	['语', '语', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '翻译', 'punct']
+----------------------------------------------------------------------
+他也被视为在中国，尤其是在年轻中国作家中，互联网上文学复兴的先锋。
+
+(ROOT (IP (NP (PRP 他)) (VP (VP (ADVP (RB 也)) (VP (BB 被) (VP (VCP (VV 视) (VC 为)) (PP (VV 在) (NP (NNP 中国)))))) (, ，) (VP (ADVP (RB 尤其)) (VP (VC 是) (NP (DNP (VP (PP (IN 在) (LCP (NP (ADJP (JJ 年轻)) (NP (NNP 中国)) (NP (NN 作家))) (IN 中))) (, ，) (NP (NN 互联) (NN 网上) (NN 文学) (VV 复兴))) (DEC 的)) (NP (NN 先锋)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP55495': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'nsubj']	['他', '先锋', 'nsubj']
+['ADV', 'VERB', 'mark']	['也', '视', 'mark']
+['AUX', 'VERB', 'aux:pass']	['被', '视', 'aux:pass']
+['VERB', 'NOUN', 'acl']	['视', '先锋', 'acl']
+['VERB', 'VERB', 'mark']	['为', '视', 'mark']
+['VERB', 'VERB', 'xcomp']	['在', '视', 'xcomp']
+['PROPN', 'VERB', 'obj']	['中国', '在', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '视', 'punct']
+['ADV', 'NOUN', 'advmod']	['尤其', '先锋', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '先锋', 'cop']
+['ADP', 'NOUN', 'case']	['在', '作家', 'case']
+['ADJ', 'NOUN', 'amod']	['年轻', '作家', 'amod']
+['PROPN', 'NOUN', 'nmod']	['中国', '作家', 'nmod']
+['NOUN', 'VERB', 'obl']	['作家', '复兴', 'obl']
+['ADP', 'NOUN', 'case']	['中', '作家', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '作家', 'punct']
+['NOUN', 'NOUN', 'nmod']	['互联', '文学', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['网上', '文学', 'nmod']
+['NOUN', 'VERB', 'obl']	['文学', '复兴', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['复兴', '先锋', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '复兴', 'mark:rel']
+['NOUN', 'ROOT', 'root']	['先锋', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['。', '先锋', 'punct']
+----------------------------------------------------------------------
+这是一个困难重重，在被视为保守的出版业中寻找工作平台的选区。因为它经常面临国家审查。
+
+(ROOT (IP (NP (PRD 这)) (VP (VP (VC 是) (IP (NP (QP (CD 一) (CLP (NNB 个))) (NP (JJ 困难))) (VP (JJ 重重)))) (, ，) (VP (PP (IN 在) (NP (CP (CP (IP (VP (BB 被) (VP (VP (VCP (VV 视) (VC 为)) (LCP (NP (CP (CP (IP (VP (JJ 保守))) (DEC 的))) (NP (VV 出版) (SFN 业))) (IN 中))) (VP (VV 寻找) (NP (NN 工作) (NN 平台)))))) (DEC 的))) (NP (NN 选区)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VP': {}, ',': {}, 'VP66314': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'nsubj']	['这', '选区', 'nsubj']
+['AUX', 'ADJ', 'cop']	['是', '重重', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'ADJ', 'clf']	['个', '重重', 'clf']
+['ADJ', 'ADJ', 'advcl']	['困难', '重重', 'advcl']
+['ADJ', 'NOUN', 'acl']	['重重', '选区', 'acl']
+['PUNCT', 'ADJ', 'punct']	['，', '重重', 'punct']
+['ADP', 'PART', 'case']	['在', '业', 'case']
+['AUX', 'VERB', 'aux:pass']	['被', '视', 'aux:pass']
+['VERB', 'VERB', 'xcomp']	['视', '寻找', 'xcomp']
+['VERB', 'VERB', 'mark']	['为', '视', 'mark']
+['ADJ', 'PART', 'amod']	['保守', '业', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '保守', 'mark:rel']
+['VERB', 'PART', 'compound']	['出版', '业', 'compound']
+['PART', 'VERB', 'obj']	['业', '视', 'obj']
+['ADP', 'PART', 'case']	['中', '业', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['寻找', '选区', 'acl:relcl']
+['NOUN', 'NOUN', 'nmod']	['工作', '平台', 'nmod']
+['NOUN', 'VERB', 'obj']	['平台', '寻找', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '寻找', 'mark:rel']
+['NOUN', 'ROOT', 'root']	['选区', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['。', '选区', 'punct']
+----------------------------------------------------------------------
+相比之下，新一代的作家们在网络上发出了自己的声音。
+
+(ROOT (IP (LCP (VP (VV 相比)) (IN 之下)) (, ，) (NP (DNP (NP (ADJP (PFA 新)) (NP (NN 一代))) (DEC 的)) (NP (NN 作家) (SFN 们))) (VP (PP (IN 在) (LCP (NP (NN 网络)) (IN 上))) (VP (VV 发出) (AS 了) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 声音))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'VP': {}, 'IN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {'VP': {}, 'IN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'VP': {}, 'IN': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['相比', '发出', 'advcl']
+['ADP', 'VERB', 'mark']	['之下', '相比', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '相比', 'punct']
+['PART', 'NOUN', 'case']	['新', '一代', 'case']
+['NOUN', 'PART', 'nmod']	['一代', '们', 'nmod']
+['PART', 'NOUN', 'case']	['的', '一代', 'case']
+['NOUN', 'PART', 'compound']	['作家', '们', 'compound']
+['PART', 'VERB', 'nsubj']	['们', '发出', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '网络', 'case']
+['NOUN', 'VERB', 'obl']	['网络', '发出', 'obl']
+['ADP', 'NOUN', 'case']	['上', '网络', 'case']
+['VERB', 'ROOT', 'root']	['发出', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '发出', 'aux']
+['PRON', 'NOUN', 'det']	['自己', '声音', 'det']
+['PART', 'PRON', 'case']	['的', '自己', 'case']
+['NOUN', 'VERB', 'obj']	['声音', '发出', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '发出', 'punct']
+----------------------------------------------------------------------
+“这是一场非常大的革命，”政治间谍小说家杨恒军说，他的第一部作品是在网上发表的。“当你在互联网上写一些你在现实生活中不能做的事，并且你的行为产生了改变，那么这就是革命。”
+
+(ROOT (IP (IP (IP (`` “) (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 场))) (CP (CP (IP (VP (ADVP (RB 非常)) (VP (JJ 大)))) (DEC 的))) (NP (NN 革命))))) (, ，) ('' ”) (NP (NP (NN 政治) (NN 间谍) (NN 小说) (SFN 家)) (NP (NNP 杨) (NNP 恒军))) (VP (VV 说))) (, ，) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (QP (CD 第一) (CLP (NNB 部))) (NP (NN 作品))) (VP (VC 是) (NP (CP (CP (IP (VP (PP (IN 在) (NP (NN 网上))) (VP (VV 发表)))) (UH 的)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP37925': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP28634': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PUNCT', 'NOUN', 'punct']	['“', '革命', 'punct']
+['PRON', 'VERB', 'nsubj']	['这', '说', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '革命', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '场', 'nummod']
+['NOUN', 'NOUN', 'clf']	['场', '革命', 'clf']
+['ADV', 'ADJ', 'advmod']	['非常', '大', 'advmod']
+['ADJ', 'NOUN', 'amod']	['大', '革命', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '大', 'mark:rel']
+['NOUN', 'VERB', 'advcl']	['革命', '说', 'advcl']
+['PUNCT', 'PART', 'punct']	['，', '家', 'punct']
+['PUNCT', 'NOUN', 'punct']	['”', '革命', 'punct']
+['NOUN', 'PART', 'nmod']	['政治', '家', 'nmod']
+['NOUN', 'PART', 'nmod']	['间谍', '家', 'nmod']
+['NOUN', 'PART', 'compound']	['小说', '家', 'compound']
+['PART', 'VERB', 'nsubj']	['家', '说', 'nsubj']
+['PROPN', 'PART', 'appos']	['杨', '家', 'appos']
+['PROPN', 'PROPN', 'flat:name']	['恒军', '杨', 'flat:name']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['PRON', 'NOUN', 'det']	['他', '作品', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NUM', 'NOUN', 'nummod']	['第一', '部', 'nummod']
+['NOUN', 'NOUN', 'clf']	['部', '作品', 'clf']
+['NOUN', 'VERB', 'nsubj']	['作品', '是', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['是', '说', 'ccomp']
+['ADP', 'NOUN', 'case']	['在', '网上', 'case']
+['NOUN', 'VERB', 'obl']	['网上', '发表', 'obl']
+['VERB', 'VERB', 'xcomp']	['发表', '是', 'xcomp']
+['PART', 'VERB', 'discourse']	['的', '是', 'discourse']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
+----------------------------------------------------------------------
+过去十年，无数文学网站和在线论坛蓬勃发展，成千上万的初生牛犊充斥着这些网站和论坛。
+
+(ROOT (IP (IP (QP (NP (NN 过去)) (QP (CD 十) (CLP (NNB 年)))) (, ，) (NP (NP (QP (CD 无数)) (NP (NN 文学) (NN 网站))) (CC 和) (NP (NP (DP (IN 在)) (NP (NN 线))) (NP (NN 论坛)))) (VP (ADVP (RB 蓬勃)) (VP (VV 发展)))) (, ，) (IP (NP (DNP (QP (CD 成千上万)) (DEC 的)) (ADJP (JJ 初生)) (NP (SFN 牛))) (VP (ADVP (, 犊)) (VP (VV 充斥) (AS 着) (NP (DP (DT 这些)) (NP (NN 网站) (CC 和) (NN 论坛)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP69411': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'QP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP73563': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'QP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'QP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['过去', '年', 'nmod']
+['NUM', 'NOUN', 'nummod']	['十', '年', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['年', '发展', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '年', 'punct']
+['NUM', 'NOUN', 'nmod']	['无数', '网站', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['文学', '网站', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['网站', '发展', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '论坛', 'cc']
+['ADP', 'NOUN', 'case']	['在', '线', 'case']
+['NOUN', 'NOUN', 'nmod']	['线', '论坛', 'nmod']
+['NOUN', 'NOUN', 'conj']	['论坛', '网站', 'conj']
+['ADV', 'VERB', 'advmod']	['蓬勃', '发展', 'advmod']
+['VERB', 'VERB', 'advcl']	['发展', '充斥', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '发展', 'punct']
+['NUM', 'PART', 'nummod']	['成千上万', '牛', 'nummod']
+['PART', 'NUM', 'mark:rel']	['的', '成千上万', 'mark:rel']
+['ADJ', 'PART', 'compound']	['初生', '牛', 'compound']
+['PART', 'VERB', 'nsubj']	['牛', '充斥', 'nsubj']
+['PUNCT', 'PART', 'punct']	['犊', '牛', 'punct']
+['VERB', 'ROOT', 'root']	['充斥', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['着', '充斥', 'aux']
+['DET', 'NOUN', 'det']	['这些', '网站', 'det']
+['NOUN', 'VERB', 'obj']	['网站', '充斥', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '论坛', 'cc']
+['NOUN', 'NOUN', 'conj']	['论坛', '网站', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '充斥', 'punct']
+----------------------------------------------------------------------
+他们的作品被数以百万计的互联网用户阅读，有些人甚至认为，未来中国的所有写作，甚至阅读，都将在网络空间进行。
+
+(ROOT (IP (IP (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 作品))) (VP (BB 被) (CP (IP (NP (CP (CP (IP (NP (CD 数)) (VP (PP (VV 以) (QP (CD 百万))) (VP (VV 计)))) (DEC 的))) (NP (VV 互联) (SFN 网) (NN 用户))) (VP (VV 阅读)))))) (, ，) (IP (NP (DP (VV 有些)) (NP (NN 人))) (VP (ADVP (RB 甚至)) (VP (VV 认为) (, ，) (IP (NP (NP (NP (NN 未来)) (DNP (NP (NNP 中国)) (DEC 的)) (DP (DT 所有)) (NP (NN 写作))) (, ，) (NP (ADVP (RB 甚至)) (NP (VV 阅读)))) (, ，) (VP (ADVP (RB 都)) (ADVP (RB 将)) (PP (IN 在) (NP (NN 网络) (NN 空间))) (VP (VV 进行))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP58023': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP75389': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'det']	['他', '作品', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'VERB', 'nsubj']	['作品', '有些', 'nsubj']
+['AUX', 'VERB', 'aux:pass']	['被', '阅读', 'aux:pass']
+['NUM', 'VERB', 'advmod']	['数', '以', 'advmod']
+['VERB', 'NOUN', 'acl:relcl']	['以', '用户', 'acl:relcl']
+['NUM', 'VERB', 'obl']	['百万', '计', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['计', '用户', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '计', 'mark:rel']
+['VERB', 'PART', 'compound']	['互联', '网', 'compound']
+['PART', 'NOUN', 'nmod']	['网', '用户', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['用户', '阅读', 'nsubj']
+['VERB', 'VERB', 'csubj']	['阅读', '有些', 'csubj']
+['PUNCT', 'VERB', 'punct']	['，', '阅读', 'punct']
+['VERB', 'ROOT', 'root']	['有些', 'NONE', 'root']
+['NOUN', 'VERB', 'nsubj']	['人', '为', 'nsubj']
+['ADV', 'VERB', 'mark']	['甚至', '为', 'mark']
+['VERB', 'VERB', 'ccomp']	['为', '有些', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '进行', 'punct']
+['NOUN', 'PROPN', 'nmod']	['未来', '中国', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['中国', '写作', 'nmod']
+['PART', 'PROPN', 'case']	['的', '中国', 'case']
+['DET', 'NOUN', 'det']	['所有', '写作', 'det']
+['NOUN', 'VERB', 'nsubj']	['写作', '进行', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '写作', 'punct']
+['ADV', 'VERB', 'mark']	['甚至', '阅读', 'mark']
+['VERB', 'VERB', 'advcl']	['阅读', '进行', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '阅读', 'punct']
+['ADV', 'VERB', 'mark']	['都', '进行', 'mark']
+['ADV', 'VERB', 'advmod']	['将', '进行', 'advmod']
+['ADP', 'NOUN', 'case']	['在', '空间', 'case']
+['NOUN', 'NOUN', 'nmod']	['网络', '空间', 'nmod']
+['NOUN', 'VERB', 'obl']	['空间', '进行', 'obl']
+['VERB', 'VERB', 'ccomp']	['进行', '为', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '有些', 'punct']
+----------------------------------------------------------------------
+“这是因为互联网的快速发展和人们的概念变化，是一种必然趋势，”上海盛大互动娱乐集团有限公司（中国最大的在线娱乐服务提供商）下属的盛大文学的负责人侯晓强说。
+
+(ROOT (IP (IP (IP (`` “) (NP (PRD 这)) (VP (VP (VC 是) (PP (IN 因为) (NP (NP (DNP (NP (NN 互联) (SFN 网)) (DEC 的)) (ADJP (JJ 快速)) (NP (NN 发展))) (CC 和) (NP (DNP (NP (NN 人们)) (DEC 的)) (NP (NN 概念) (NN 变化)))))) (, ，) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (ADJP (JJ 必然)) (NP (NN 趋势)))))) (, ，) ('' ”)) (NP (NP (DNP (NP (CP (CP (IP (NP (NP (NNP 上海)) (ADJP (NNP 盛大)) (NP (NP (ADJP (NN 互动)) (NP (NN 娱乐))) (NP (NN 集团)) (ADJP (JJ 有限)) (NP (NN 公司)) (PRN (-LRB- （) (NP (CP (CP (IP (VP (NP (NNP 中国)) (VP (JJ 最大)))) (DEC 的))) (NP (PP (VV 在) (NP (SFN 线))) (NP (NN 娱乐) (NN 服务))) (NP (VV 提供) (SFN 商))) (-RRB- ）)))) (VP (VV 下属))) (DEC 的))) (ADJP (JJ 盛大)) (NP (NN 文学))) (DEC 的)) (NP (VV 负责) (SFN 人))) (NP (NNP 侯) (NNP 晓强))) (VP (VV 说)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, "''": {}}, 'NP': {'NP': {}, 'NP73581': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, "''": {}}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}}}
+{'NP': {'NP': {}, 'NP': {}}}
 {'VP': {'VV': {}}}
+Dependency Features:
+['PUNCT', 'NOUN', 'punct']	['“', '趋势', 'punct']
+['PRON', 'NOUN', 'nsubj']	['这', '趋势', 'nsubj']
+['VERB', 'NOUN', 'acl']	['是', '趋势', 'acl']
+['ADP', 'VERB', 'xcomp']	['因为', '是', 'xcomp']
+['NOUN', 'PART', 'compound']	['互联', '网', 'compound']
+['PART', 'NOUN', 'nmod']	['网', '发展', 'nmod']
+['PART', 'PART', 'case']	['的', '网', 'case']
+['ADJ', 'NOUN', 'amod']	['快速', '发展', 'amod']
+['NOUN', 'NOUN', 'nsubj']	['发展', '趋势', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '变化', 'cc']
+['NOUN', 'NOUN', 'nmod']	['人', '变化', 'nmod']
+['PART', 'NOUN', 'case']	['的', '人', 'case']
+['NOUN', 'NOUN', 'nmod']	['概念', '变化', 'nmod']
+['NOUN', 'NOUN', 'conj']	['变化', '发展', 'conj']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['AUX', 'NOUN', 'cop']	['是', '趋势', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '种', 'nummod']
+['NOUN', 'NOUN', 'clf']	['种', '趋势', 'clf']
+['ADJ', 'NOUN', 'amod']	['必然', '趋势', 'amod']
+['NOUN', 'VERB', 'ccomp']	['趋势', '说', 'ccomp']
+['PUNCT', 'NOUN', 'punct']	['，', '趋势', 'punct']
+['PUNCT', 'NOUN', 'punct']	['”', '趋势', 'punct']
+['PROPN', 'NOUN', 'nmod']	['上海', '公司', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['盛大', '公司', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['互动', '公司', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['娱乐', '公司', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['集团', '公司', 'nmod']
+['ADJ', 'NOUN', 'amod']	['有限', '公司', 'amod']
+['NOUN', 'PART', 'nmod']	['公司', '人', 'nmod']
+['PUNCT', 'PART', 'punct']	['（', '商', 'punct']
+['PROPN', 'ADJ', 'obl']	['中国', '最大', 'obl']
+['ADJ', 'PART', 'amod']	['最大', '商', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '最大', 'mark:rel']
+['VERB', 'PART', 'compound']	['在', '线', 'compound']
+['PART', 'PART', 'nmod']	['线', '商', 'nmod']
+['NOUN', 'PART', 'nmod']	['娱乐', '商', 'nmod']
+['NOUN', 'PART', 'nmod']	['服务', '商', 'nmod']
+['VERB', 'PART', 'compound']	['提供', '商', 'compound']
+['PART', 'NOUN', 'appos']	['商', '公司', 'appos']
+['PUNCT', 'PART', 'punct']	['）', '商', 'punct']
+['VERB', 'PART', 'acl:relcl']	['下属', '人', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '下属', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['盛大', '文学', 'amod']
+['NOUN', 'VERB', 'obj']	['文学', '下属', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '下属', 'mark:rel']
+['VERB', 'PART', 'compound']	['负责', '人', 'compound']
+['PART', 'VERB', 'nsubj']	['人', '说', 'nsubj']
+['PROPN', 'PART', 'appos']	['侯', '人', 'appos']
+['PROPN', 'PROPN', 'flat:name']	['晓强', '侯', 'flat:name']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
 ----------------------------------------------------------------------
-“这是一种趋势，将变得越来越普遍。
+“普通人开始意识到，世界不应该由某些媒体或精英统治，而是由他们统治，”侯小凡补充道，“在线作者正在打破规则，使用全新的概念。”
 
-(ROOT (IP (`` “) (IP (NP (PRD 这)) (VP (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (NP (NN 趋势)))) (, ，) (VP (ADVP (RB 将)) (VP (VV 变得) (VP (ADVP (RB 越来越)) (VP (JJ 普遍))))))) (. 。)))
-{'IP': {'``': {}, 'IP': {}, '.': {}}}
-{'IP': {'``': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+(ROOT (IP (IP (`` “) (NP (ADJP (JJ 普通)) (NP (SFN 人))) (VP (VV 开始) (VP (VRD (VV 意识) (VV 到)) (, ，) (IP (NP (NN 世界)) (VP (VP (ADVP (RB 不)) (VP (MD 应该) (VP (PP (VV 由) (NP (DP (DT 某些)) (NP (NN 媒体) (CC 或) (NN 精英)))) (VP (VV 统治))))) (, ，) (VP (VC 而是) (VP (PP (VV 由) (NP (PRP 他们))) (VP (VV 统治))))))))) (, ，) ('' ”) (IP (NP (NNP 侯) (NNP 小) (NNP 凡)) (VP (VP (VV 补充)) (VP (VV 道) (, ，) (IP (`` “) (PP (IN 在) (NP (NN 线) (NN 作者))) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VP (VV 打破) (NP (NN 规则))) (, ，) (VP (VV 使用) (NP (CP (CP (IP (VP (JJ 全新))) (DEC 的))) (NP (NN 概念)))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP77037': {}, '.': {}, "''13724": {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP44803': {'NP': {}, 'VP': {}}, '.': {}, "''13393": {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PUNCT', 'VERB', 'punct']	['“', '开始', 'punct']
+['ADJ', 'PART', 'compound']	['普通', '人', 'compound']
+['PART', 'VERB', 'nsubj']	['人', '开始', 'nsubj']
+['VERB', 'VERB', 'advcl']	['开始', '补充', 'advcl']
+['VERB', 'VERB', 'xcomp']	['意识', '开始', 'xcomp']
+['VERB', 'VERB', 'mark']	['到', '意识', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '开始', 'punct']
+['NOUN', 'VERB', 'nsubj']	['世界', '由', 'nsubj']
+['ADV', 'VERB', 'advmod']	['不', '由', 'advmod']
+['AUX', 'VERB', 'aux']	['应该', '由', 'aux']
+['VERB', 'VERB', 'csubj']	['由', '是', 'csubj']
+['DET', 'NOUN', 'det']	['某些', '媒体', 'det']
+['NOUN', 'VERB', 'nsubj']	['媒体', '统治', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['或', '精英', 'cc']
+['NOUN', 'NOUN', 'conj']	['精英', '媒体', 'conj']
+['VERB', 'VERB', 'ccomp']	['统治', '由', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '由', 'punct']
+['VERB', 'VERB', 'advcl']	['是', '补充', 'advcl']
+['VERB', 'VERB', 'xcomp']	['由', '是', 'xcomp']
+['PRON', 'VERB', 'nsubj']	['他', '统治', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['统治', '由', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '是', 'punct']
+['PROPN', 'VERB', 'nsubj']	['侯', '补充', 'nsubj']
+['PROPN', 'PROPN', 'appos']	['小', '侯', 'appos']
+['PROPN', 'PROPN', 'flat:name']	['凡', '小', 'flat:name']
+['VERB', 'ROOT', 'root']	['补充', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['道', '补充', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '使用', 'punct']
+['PUNCT', 'VERB', 'punct']	['“', '使用', 'punct']
+['ADP', 'NOUN', 'case']	['在', '作者', 'case']
+['NOUN', 'NOUN', 'nmod']	['线', '作者', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['作者', '打破', 'nsubj']
+['ADV', 'VERB', 'advmod']	['正', '打破', 'advmod']
+['ADV', 'VERB', 'advmod']	['在', '打破', 'advmod']
+['VERB', 'VERB', 'advcl']	['打破', '使用', 'advcl']
+['NOUN', 'VERB', 'obj']	['规则', '打破', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '打破', 'punct']
+['VERB', 'VERB', 'ccomp']	['使用', '道', 'ccomp']
+['ADJ', 'NOUN', 'amod']	['全新', '概念', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '全新', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['概念', '使用', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '使用', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '使用', 'punct']
 ----------------------------------------------------------------------
-Chartres 说：“这将导致更多农民自杀，生活困难，企业倒闭。”
+Shanda Literature 运营着中国最大的三家文学门户网站，其中 Qidian 是最受欢迎的一家。
 
-(ROOT (IP (NP (FW Chartres)) (VP (VV 说) (: ：) (IP (`` “) (IP (NP (PRD 这)) (VP (ADVP (RB 将)) (VP (VV 导致) (IP (IP (NP (ADJP (JJ 更多)) (NP (NN 农民))) (VP (VV 自杀))) (, ，) (IP (NP (NN 生活)) (VP (JJ 困难))) (, ，) (IP (NP (NN 企业)) (VP (VV 倒闭))))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'NP': {'FW': {}}}
-{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+(ROOT (IP (IP (NP (FW Shanda) (FW Literature)) (VP (VV 运营) (AS 着) (NP (CP (CP (IP (VP (NP (NNP 中国)) (VP (JJ 最大)))) (DEC 的))) (QP (CD 三) (CLP (NNB 家))) (NP (NN 文学) (NN 门户) (NN 网站))))) (, ，) (IP (NP (NN 其中)) (NP (FW Qidian)) (VP (VC 是) (QP (CP (CP (IP (VP (VV 最受) (NP (VV 欢迎)))) (DEC 的))) (QP (CD 一) (CLP (NNB 家)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP53024': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP89696': {'NP': {}, 'NP56124': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['X', 'VERB', 'nsubj']	['Shanda', '运营', 'nsubj']
+['X', 'X', 'flat:foreign']	['Literature', 'Shanda', 'flat:foreign']
+['VERB', 'ROOT', 'root']	['运营', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['着', '运营', 'aux']
+['PROPN', 'ADJ', 'obl']	['中国', '最大', 'obl']
+['ADJ', 'NOUN', 'acl:relcl']	['最大', '网站', 'acl:relcl']
+['PART', 'ADJ', 'mark:rel']	['的', '最大', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['三', '家', 'nummod']
+['NOUN', 'NOUN', 'clf']	['家', '网站', 'clf']
+['NOUN', 'NOUN', 'nmod']	['文学', '网站', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['门户', '网站', 'nmod']
+['NOUN', 'VERB', 'obj']	['网站', '运营', 'obj']
+['PUNCT', 'NOUN', 'punct']	['，', '家', 'punct']
+['NOUN', 'NOUN', 'obl']	['其中', '家', 'obl']
+['X', 'NOUN', 'nsubj']	['Qidian', '家', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '家', 'cop']
+['VERB', 'NOUN', 'acl:relcl']	['最受', '家', 'acl:relcl']
+['VERB', 'VERB', 'xcomp']	['欢迎', '最受', 'xcomp']
+['PART', 'VERB', 'mark:rel']	['的', '最受', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['一', '家', 'nummod']
+['NOUN', 'VERB', 'parataxis']	['家', '运营', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '运营', 'punct']
 ----------------------------------------------------------------------
-该报告称，发展中国家有数以百万计的富裕人群不再吃以大米和谷物为基础的传统饮食，而转而吃需要更多水的西方乳制品和肉类食品，这加剧了粮食危机。
+根据盛大文学的公司数据，这些网站每天的页面浏览量超过 2 亿，发表了近 300 亿个中文字符。
 
-(ROOT (IP (NP (DP (DT 该)) (NP (NN 报告))) (VP (VV 称) (, ，) (IP (IP (NP (NP (NN 发展)) (NP (NNP 中国)) (NP (SFN 家))) (VP (VV 有) (IP (NP (CP (CP (IP (QP (CD 数)) (VP (PP (NNB 以) (QP (CD 百万))) (VP (VV 计)))) (DEC 的))) (ADJP (JJ 富裕)) (NP (NN 人群))) (VP (VP (ADVP (RB 不)) (ADVP (RB 再)) (VP (VV 吃) (NP (CP (CP (IP (VP (PP (VV 以) (NP (NN 大米) (CC 和) (NN 谷物))) (VP (VC 为) (NP (NN 基础))))) (DEC 的))) (ADJP (NN 传统)) (NP (NN 饮食))))) (, ，) (VP (RB 而) (VP (VP (VV 转)) (VP (RB 而) (VP (VV 吃) (NP (CP (CP (IP (VP (VV 需要) (NP (ADJP (JJ 更多)) (NP (NN 水))))) (DEC 的))) (NP (NNP 西方)) (NP (VV 乳制) (SFN 品) (CC 和) (NN 肉类) (NN 食品))))))))))) (, ，) (IP (NP (PRD 这)) (VP (VV 加剧) (AS 了) (NP (NN 粮食) (NN 危机)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+(ROOT (IP (IP (PP (IN 根据) (NP (DNP (NP (ADJP (JJ 盛大)) (NP (NN 文学))) (DEC 的)) (NP (NN 公司) (NN 数据)))) (, ，) (NP (DP (DT 这些)) (NP (NN 网站))) (NP (DNP (NP (DT 每天)) (DEC 的)) (NP (NN 页面) (VV 浏览) (SFN 量))) (VP (VV 超过) (QP (CD 2 亿)))) (, ，) (IP (VP (VV 发表) (AS 了) (NP (QP (ADVP (RB 近)) (QP (CD 300) (QP (CD 亿) (CLP (NNB 个))))) (ADJP (NNP 中)) (NP (NN 文字) (SFN 符))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP76064': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'NP43558': {}, 'VP': {}}, ',': {}, 'IP78180': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['根据', '数据', 'case']
+['ADJ', 'NOUN', 'amod']	['盛大', '文学', 'amod']
+['NOUN', 'NOUN', 'nmod']	['文学', '数据', 'nmod']
+['PART', 'NOUN', 'case']	['的', '文学', 'case']
+['NOUN', 'NOUN', 'nmod']	['公司', '数据', 'nmod']
+['NOUN', 'VERB', 'obl']	['数据', '发表', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '数据', 'punct']
+['DET', 'NOUN', 'det']	['这些', '网站', 'det']
+['NOUN', 'PART', 'nmod']	['网站', '量', 'nmod']
+['DET', 'PART', 'det']	['每天', '量', 'det']
+['PART', 'DET', 'case']	['的', '每天', 'case']
+['NOUN', 'PART', 'nmod']	['页面', '量', 'nmod']
+['VERB', 'PART', 'compound']	['浏览', '量', 'compound']
+['PART', 'VERB', 'nsubj']	['量', '发表', 'nsubj']
+['VERB', 'VERB', 'advcl']	['超过', '发表', 'advcl']
+['NUM', 'VERB', 'obj']	['2 亿', '超过', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '超过', 'punct']
+['VERB', 'ROOT', 'root']	['发表', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '发表', 'aux']
+['ADV', 'NOUN', 'advmod']	['近', '个', 'advmod']
+['NUM', 'NOUN', 'nummod']	['300', '个', 'nummod']
+['NUM', 'NOUN', 'nummod']	['亿', '个', 'nummod']
+['NOUN', 'PART', 'nmod']	['个', '符', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['中', '文字', 'nmod']
+['NOUN', 'PART', 'compound']	['文字', '符', 'compound']
+['PART', 'VERB', 'obj']	['符', '发表', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '发表', 'punct']
+----------------------------------------------------------------------
+盛大通过在线广告和收取读者少量费用来访问盛大签约的著名作家的热门故事或作品来产生收入。
+
+(ROOT (IP (VP (ADVP (RB 盛大)) (PP (IN 通过) (NP (CP (CP (IP (VP (VP (PP (IN 在) (NP (NN 线) (NN 广告))) (CC 和) (VP (VV 收取) (NP (NP (NN 读者)) (QP (JJ 少量)) (NP (NN 费用))))) (VP (RB 来) (VP (VV 访问) (NP (CP (CP (IP (VP (ADVP (JJ 盛大)) (VP (VV 签约)))) (DEC 的))) (ADJP (JJ 著名)) (NP (NN 作家))))))) (DEC 的))) (ADJP (JJ 热门)) (NP (NN 故事) (CC 或) (NN 作品)))) (VP (RB 来) (VP (VV 产生) (NP (NN 收入))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'advmod']	['盛大', '产生', 'advmod']
+['ADP', 'NOUN', 'case']	['通过', '广告', 'case']
+['ADP', 'NOUN', 'case']	['在', '广告', 'case']
+['NOUN', 'NOUN', 'nmod']	['线', '广告', 'nmod']
+['NOUN', 'VERB', 'obl']	['广告', '访问', 'obl']
+['CCONJ', 'VERB', 'cc']	['和', '收取', 'cc']
+['VERB', 'VERB', 'conj']	['收取', '访问', 'conj']
+['NOUN', 'NOUN', 'nmod']	['读者', '费用', 'nmod']
+['ADJ', 'NOUN', 'amod']	['少量', '费用', 'amod']
+['NOUN', 'VERB', 'obj']	['费用', '收取', 'obj']
+['ADV', 'VERB', 'mark']	['来', '访问', 'mark']
+['VERB', 'VERB', 'advcl']	['访问', '产生', 'advcl']
+['ADJ', 'VERB', 'advcl']	['盛大', '签约', 'advcl']
+['VERB', 'NOUN', 'acl:relcl']	['签约', '作家', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '签约', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['著名', '作家', 'amod']
+['NOUN', 'VERB', 'obj']	['作家', '访问', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '签约', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['热门', '故事', 'amod']
+['NOUN', 'VERB', 'nsubj']	['故事', '产生', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['或', '作品', 'cc']
+['NOUN', 'NOUN', 'conj']	['作品', '故事', 'conj']
+['ADV', 'VERB', 'mark']	['来', '产生', 'mark']
+['VERB', 'ROOT', 'root']	['产生', 'NONE', 'root']
+['NOUN', 'VERB', 'obj']	['收入', '产生', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '产生', 'punct']
+----------------------------------------------------------------------
+但该公司越来越多地通过向电影制片厂、音乐制作人、游戏开发商和书籍出版商授权在线小说来赚钱，同时保护作者的知识产权。
+
+(ROOT (IP (ADVP (RB 但)) (NP (DP (DT 该)) (NP (NN 公司))) (VP (DVP (VP (ADVP (RB 越来越)) (VP (JJ 多))) (DEV 地)) (PP (IN 通过) (IP (VP (PP (IN 向) (NP (NN 电影) (VV 制片) (SFN 厂) (EC 、) (NN 音乐) (VV 制作) (SFN 人) (EC 、) (NN 游戏) (VV 开发) (SFN 商) (CC 和) (NN 书籍) (VV 出版) (SFN 商))) (VP (VV 授权) (IP (VP (PP (IN 在) (NP (NN 线) (NN 小说))) (VP (RB 来) (VP (VV 赚钱))))))))) (, ，) (ADVP (NN 同时)) (VP (VV 保护) (NP (DNP (NP (NN 作者)) (DEC 的)) (NP (NN 知识) (NN 产权))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'DVP': {}, 'PP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'DVP': {}, 'PP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
 {'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+{'VP': {'DVP': {}, 'PP': {}, ',': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['但', '保护', 'mark']
+['DET', 'NOUN', 'det']	['该', '公司', 'det']
+['NOUN', 'VERB', 'nsubj']	['公司', '保护', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['越来越', '多', 'advmod']
+['ADJ', 'VERB', 'advmod']	['多', '保护', 'advmod']
+['PART', 'ADJ', 'mark:adv']	['地', '多', 'mark:adv']
+['ADP', 'PART', 'case']	['通过', '厂', 'case']
+['ADP', 'PART', 'case']	['向', '厂', 'case']
+['NOUN', 'PART', 'nmod']	['电影', '厂', 'nmod']
+['VERB', 'PART', 'compound']	['制片', '厂', 'compound']
+['PART', 'VERB', 'obl']	['厂', '授权', 'obl']
+['PUNCT', 'PART', 'punct']	['、', '人', 'punct']
+['NOUN', 'PART', 'nmod']	['音乐', '人', 'nmod']
+['VERB', 'PART', 'compound']	['制作', '人', 'compound']
+['PART', 'PART', 'conj']	['人', '厂', 'conj']
+['PUNCT', 'PART', 'punct']	['、', '商', 'punct']
+['NOUN', 'PART', 'nmod']	['游戏', '商', 'nmod']
+['VERB', 'PART', 'compound']	['开发', '商', 'compound']
+['PART', 'PART', 'conj']	['商', '厂', 'conj']
+['CCONJ', 'PART', 'cc']	['和', '商', 'cc']
+['NOUN', 'PART', 'nmod']	['书籍', '商', 'nmod']
+['VERB', 'PART', 'compound']	['出版', '商', 'compound']
+['PART', 'PART', 'conj']	['商', '厂', 'conj']
+['VERB', 'VERB', 'advcl']	['授权', '保护', 'advcl']
+['ADP', 'NOUN', 'case']	['在', '小说', 'case']
+['NOUN', 'NOUN', 'nmod']	['线', '小说', 'nmod']
+['NOUN', 'VERB', 'obl']	['小说', '赚钱', 'obl']
+['ADV', 'VERB', 'mark']	['来', '赚钱', 'mark']
+['VERB', 'VERB', 'xcomp']	['赚钱', '授权', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '授权', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['同时', '保护', 'nmod:tmod']
+['VERB', 'ROOT', 'root']	['保护', 'NONE', 'root']
+['NOUN', 'NOUN', 'nmod']	['作者', '产权', 'nmod']
+['PART', 'NOUN', 'case']	['的', '作者', 'case']
+['NOUN', 'NOUN', 'nmod']	['知识', '产权', 'nmod']
+['NOUN', 'VERB', 'obj']	['产权', '保护', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '保护', 'punct']
 ----------------------------------------------------------------------
-“未来农业将需要更多的水。
+盛大拥有 20 多万部作品的版权，并已向其他娱乐公司出售了一些许可证，包括香港导演佟梦莹正在改编的热门小说《古墓丽影》。
 
-(ROOT (IP (`` “) (NP (NN 未来)) (NP (NN 农业)) (VP (ADVP (RB 将)) (VP (VV 需要) (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的))) (NP (NN 水))))) (. 。)))
-{'IP': {'``': {}, 'NP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'``': {}, 'NP': {'NN': {}}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+(ROOT (IP (IP (VP (VP (ADVP (NNP 盛大)) (VP (VV 拥有) (NP (DNP (NP (QP (CD 20) (QP (NNB 多万) (CLP (NNB 部)))) (NP (NN 作品))) (DEC 的)) (NP (NN 版权))))) (, ，) (RB 并) (VP (ADVP (RB 已)) (PP (IN 向) (NP (DP (DT 其他)) (NP (NN 娱乐) (NN 公司)))) (VP (VV 出售) (AS 了) (NP (QP (JJ 一些)) (NP (VV 许可) (SFN 证))))))) (, ，) (IP (VP (VV 包括) (NP (NP (CP (CP (IP (NP (NP (NP (NNP 香港)) (NP (NN 导演))) (NP (NNP 佟) (NNP 梦莹))) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 改编)))) (DEC 的))) (ADJP (JJ 热门)) (NP (NN 小说))) (NP (-LRB- 《) (NN 古墓) (NN 丽影) (-RRB- 》))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP64926': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP25418': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['盛大', '拥有', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['拥有', '版权', 'acl:relcl']
+['NUM', 'NOUN', 'nummod']	['20', '部', 'nummod']
+['NOUN', 'NOUN', 'nummod']	['多万', '部', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['部', '作品', 'nmod']
+['NOUN', 'VERB', 'obj']	['作品', '拥有', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '拥有', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['版权', '出售', 'nsubj']
+['PUNCT', 'VERB', 'punct']	['，', '拥有', 'punct']
+['ADV', 'VERB', 'mark']	['并', '出售', 'mark']
+['ADV', 'VERB', 'advmod']	['已', '出售', 'advmod']
+['ADP', 'NOUN', 'case']	['向', '公司', 'case']
+['DET', 'NOUN', 'det']	['其他', '公司', 'det']
+['NOUN', 'NOUN', 'nmod']	['娱乐', '公司', 'nmod']
+['NOUN', 'VERB', 'obl']	['公司', '出售', 'obl']
+['VERB', 'ROOT', 'root']	['出售', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '出售', 'aux']
+['ADJ', 'PART', 'amod']	['一些', '证', 'amod']
+['VERB', 'PART', 'compound']	['许可', '证', 'compound']
+['PART', 'VERB', 'nsubj']	['证', '包括', 'nsubj']
+['PUNCT', 'PART', 'punct']	['，', '证', 'punct']
+['VERB', 'VERB', 'ccomp']	['包括', '出售', 'ccomp']
+['PROPN', 'NOUN', 'nmod']	['香港', '导演', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['导演', '改编', 'nsubj']
+['PROPN', 'NOUN', 'appos']	['佟', '导演', 'appos']
+['PROPN', 'PROPN', 'flat:name']	['梦莹', '佟', 'flat:name']
+['ADV', 'VERB', 'advmod']	['正', '改编', 'advmod']
+['ADV', 'VERB', 'advmod']	['在', '改编', 'advmod']
+['VERB', 'NOUN', 'acl:relcl']	['改编', '小说', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '改编', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['热门', '小说', 'amod']
+['NOUN', 'VERB', 'obj']	['小说', '包括', 'obj']
+['PUNCT', 'NOUN', 'punct']	['《', '丽影', 'punct']
+['NOUN', 'NOUN', 'nmod']	['古墓', '丽影', 'nmod']
+['NOUN', 'NOUN', 'appos']	['丽影', '小说', 'appos']
+['PUNCT', 'NOUN', 'punct']	['》', '丽影', 'punct']
+['PUNCT', 'VERB', 'punct']	['。', '出售', 'punct']
 ----------------------------------------------------------------------
-鉴于一升水可以生产一卡路里的食物，为了养活每天 2500 卡路里的额外 25 亿人，世界每年将需要多生产 6000 立方公里的水。
+“文学是所有娱乐形式的起点，”侯鸿亮告诉美国有线电视新闻网 (CNN) 。“它可以为游戏、音乐、电影和剧集提供无数蓝图。
 
-(ROOT (IP (VP (VV 鉴) (PP (VV 于) (IP (NP (QP (CD 一) (CLP (NNB 升))) (NP (NN 水))) (VP (MD 可以) (VP (VV 生产) (NP (DNP (LCP (NP (QP (CD 一) (CLP (NNB 卡))) (NP (NN 路))) (NN 里)) (DEC 的)) (NP (NN 食物)))))))) (, ，) (PP (IN 为了) (IP (VP (VV 养活) (NP (DNP (NP (NP (DT 每天)) (QP (CD 2500)) (NP (NNB 卡路里))) (DEC 的)) (ADJP (JJ 额外)) (QP (CD 25) (QP (CD 亿))) (NP (NN 人)))))) (, ，) (NP (NN 世界)) (VP (NP (DT 每年)) (ADVP (RB 将)) (VP (MD 需要) (VP (ADVP (RB 多)) (VP (VV 生产) (NP (DNP (QP (CD 6000) (CLP (NNB 立方公里))) (DEC 的)) (NP (NN 水))))))) (. 。)))
-{'IP': {'VP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'VP': {'VV': {}, 'PP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'VP': {'VV': {}, 'PP': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}}
+(ROOT (IP (IP (`` “) (NP (NN 文学)) (VP (VC 是) (NP (DNP (NP (DP (DT 所有)) (NP (NN 娱乐) (NN 形式))) (DEC 的)) (NP (NN 起点))))) (, ，) ('' ”) (NP (NNP 侯) (NNP 鸿亮)) (VP (VV 告诉) (NP (NP (NP (NNP 美国)) (NP (ADJP (NN 有线)) (NP (NN 电视))) (NP (NN 新闻) (SFN 网))) (NP (FW -LRB-CNN)))) (-RRB- -RRB-) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '-RRB-': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '-RRB-': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}, 'NNP75643': {}}, 'VP': {'VV': {}, 'NP': {}}, '-RRB-': {}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}, 'NNP': {}}, 'VP': {'VV': {}, 'NP': {}}, '-RRB-': {}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'NNP': {}, 'NNP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+['PUNCT', 'NOUN', 'punct']	['“', '起点', 'punct']
+['NOUN', 'NOUN', 'nsubj']	['文学', '起点', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '起点', 'cop']
+['DET', 'NOUN', 'det']	['所有', '形式', 'det']
+['NOUN', 'NOUN', 'nmod']	['娱乐', '形式', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['形式', '起点', 'nmod']
+['PART', 'NOUN', 'case']	['的', '形式', 'case']
+['NOUN', 'VERB', 'advcl']	['起点', '告诉', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['，', '起点', 'punct']
+['PUNCT', 'NOUN', 'punct']	['”', '起点', 'punct']
+['PROPN', 'VERB', 'nsubj']	['侯', '告诉', 'nsubj']
+['PROPN', 'PROPN', 'flat:name']	['鸿亮', '侯', 'flat:name']
+['VERB', 'ROOT', 'root']	['告诉', 'NONE', 'root']
+['PROPN', 'X', 'nmod']	['美国', '(CNN', 'nmod']
+['NOUN', 'X', 'nmod']	['有线', '(CNN', 'nmod']
+['NOUN', 'PART', 'nmod']	['电视', '网', 'nmod']
+['NOUN', 'PART', 'compound']	['新闻', '网', 'compound']
+['PART', 'X', 'nmod']	['网', '(CNN', 'nmod']
+['X', 'VERB', 'obj']	['(CNN', '告诉', 'obj']
+['PUNCT', 'X', 'punct']	[')', '(CNN', 'punct']
+['PUNCT', 'VERB', 'punct']	['。', '告诉', 'punct']
 ----------------------------------------------------------------------
-Chartres 说：“这几乎是我们目前使用的两倍，而且不可持续。”
+缺乏好故事是中国娱乐业发展不足的主要原因。”
 
-(ROOT (IP (NP (FW Chartres)) (VP (VV 说) (: ：) (IP (`` “) (NP (PRD 这)) (VP (VP (ADVP (RB 几乎)) (VP (VC 是) (QP (CP (CP (IP (NP (PRP 我们)) (VP (NP (NN 目前)) (VP (VV 使用)))) (DEC 的))) (QP (CD 两) (CLP (NNB 倍)))))) (, ，) (RB 而且) (VP (MD 不可) (VP (VV 持续)))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'NP': {'FW': {}}}
-{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+(ROOT (IP (IP (VP (VV 缺乏) (NP (ADJP (PFA 好)) (NP (NN 故事))))) (VP (VC 是) (NP (CP (CP (IP (NP (NP (NNP 中国)) (NP (NN 娱乐) (SFN 业))) (NP (VV 发展)) (VP (JJ 不足))) (DEC 的))) (ADJP (JJ 主要)) (NP (NN 原因)))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'IP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}, "''": {}}}
+{'IP': {'IP': {'VP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}, "''": {}}}
+{'IP': {'VP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+['VERB', 'NOUN', 'csubj']	['缺乏', '原因', 'csubj']
+['PART', 'NOUN', 'case']	['好', '故事', 'case']
+['NOUN', 'VERB', 'obj']	['故事', '缺乏', 'obj']
+['AUX', 'NOUN', 'cop']	['是', '原因', 'cop']
+['PROPN', 'PART', 'nmod']	['中国', '业', 'nmod']
+['NOUN', 'PART', 'compound']	['娱乐', '业', 'compound']
+['PART', 'VERB', 'nsubj']	['业', '发展', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['发展', '原因', 'acl:relcl']
+['ADJ', 'VERB', 'xcomp']	['不足', '发展', 'xcomp']
+['PART', 'VERB', 'mark:rel']	['的', '发展', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['主要', '原因', 'amod']
+['NOUN', 'ROOT', 'root']	['原因', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['。', '原因', 'punct']
+['PUNCT', 'NOUN', 'punct']	['”', '原因', 'punct']
 ----------------------------------------------------------------------
-报告敦促各国修复和现代化灌溉系统，并使用更好的滴灌农业。
+中国的网络作家通常年轻，很多是女性，他们希望自己的作品能像穆树人的小说一样，被数以百万计的人阅读，最终成为书籍或电影，并使作者成为名人。
 
-(ROOT (IP (NP (NN 报告)) (VP (VV 敦促) (NP (NN 各国)) (IP (VP (VP (VP (VV 修复)) (CC 和) (NP (ADJP (NN 现代)) (NP (SFV 化) (VV 灌) (SFN 溉) (NN 系统)))) (, ，) (RB 并) (VP (VV 使用) (NP (CP (CP (IP (VP (JJ 更好))) (DEC 的))) (NP (NN 滴灌) (NN 农业))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
-----------------------------------------------------------------------
-联合国预计，未来 40 年，全球将增加 25 亿人口，其中大部分人口将集中在发展中国家。
-
-(ROOT (IP (NP (VV 联合) (SFN 国)) (VP (VV 预计) (, ，) (IP (IP (QP (NP (NN 未来)) (QP (CD 40) (CLP (NNB 年)))) (, ，) (NP (NN 全球)) (VP (ADVP (RB 将)) (VP (VV 增加) (NP (QP (CD 25) (QP (NNB 亿))) (NP (NN 人口)))))) (, ，) (IP (NP (NN 其中)) (NP (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (NN 人口))) (VP (ADVP (RB 将)) (VP (VV 集中) (PP (IN 在) (NP (VV 发展) (NP (NNP 中国)) (NP (SFN 家))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'VV': {}, 'SFN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'VV': {}, 'SFN': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-非洲人口可能会翻一番，亚洲人口可能增长近30%，巴基斯坦人口可能增长85%。
-
-(ROOT (IP (IP (NP (NP (NNP 非洲)) (NP (NN 人口))) (VP (MD 可能) (VP (MD 会) (QP (CD 翻一) (CLP (NN 番)))))) (, ，) (IP (NP (NP (NNP 亚洲)) (NP (NN 人口))) (VP (MD 可能) (VP (VV 增长) (QP (ADVP (RB 近)) (QP (CD 30%)))))) (, ，) (IP (NP (NP (NNP 巴基斯坦)) (NP (NN 人口))) (VP (MD 可能) (VP (VV 增长) (QP (CD 85%))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
+(ROOT (IP (IP (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NN 网络) (NN 作家))) (VP (ADVP (RB 通常)) (VP (JJ 年轻)))) (, ，) (IP (QP (CD 很多)) (VP (VC 是) (NP (NN 女性)))) (, ，) (IP (NP (PRP 他们)) (VP (VP (VV 希望) (IP (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 作品))) (VP (VP (MD 能) (VP (PP (IN 像) (NP (DNP (NP (NNP 穆树) (SFN 人)) (DEC 的)) (NP (NN 小说)))) (VP (JJ 一样)))) (, ，) (VP (BB 被) (CP (IP (NP (CP (CP (IP (NP (CD 数)) (VP (PP (NNB 以) (QP (CD 百万))) (VP (VV 计)))) (DEC 的))) (NP (NN 人))) (VP (VV 阅读)))))))) (, ，) (VP (ADVP (NN 最终)) (VP (VV 成) (VP (VC 为) (NP (NN 书籍) (CC 或) (NN 电影))))) (, ，) (RB 并) (VP (VV 使) (NP (NN 作者)) (IP (VP (VV 成) (VP (VC 为) (NP (NN 名人)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP21171': {}, ',58650': {}, 'IP15286': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP6797': {'QP': {}, 'VP': {}}, ',73505': {}, 'IP80900': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'QP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'QP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['中国', '作家', 'nmod']
+['PART', 'PROPN', 'case']	['的', '中国', 'case']
+['NOUN', 'NOUN', 'nmod']	['网络', '作家', 'nmod']
+['NOUN', 'ADJ', 'nsubj']	['作家', '年轻', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['通常', '年轻', 'advmod']
+['ADJ', 'ROOT', 'root']	['年轻', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['，', '女性', 'punct']
+['NUM', 'NOUN', 'nsubj']	['很多', '女性', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '女性', 'cop']
+['NOUN', 'ADJ', 'parataxis']	['女性', '年轻', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['，', '希望', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '希望', 'nsubj']
+['VERB', 'ADJ', 'parataxis']	['希望', '年轻', 'parataxis']
+['PRON', 'NOUN', 'det']	['自己', '作品', 'det']
+['PART', 'PRON', 'case']	['的', '自己', 'case']
+['NOUN', 'ADJ', 'nsubj']	['作品', '一样', 'nsubj']
+['AUX', 'ADJ', 'aux']	['能', '一样', 'aux']
+['ADP', 'NOUN', 'case']	['像', '小说', 'case']
+['PROPN', 'PART', 'compound']	['穆树', '人', 'compound']
+['PART', 'NOUN', 'nmod']	['人', '小说', 'nmod']
+['PART', 'PART', 'mark:rel']	['的', '人', 'mark:rel']
+['NOUN', 'ADJ', 'nmod']	['小说', '一样', 'nmod']
+['ADJ', 'VERB', 'ccomp']	['一样', '希望', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '希望', 'punct']
+['AUX', 'VERB', 'aux:pass']	['被', '阅读', 'aux:pass']
+['NUM', 'NOUN', 'nummod']	['数', '以', 'nummod']
+['NOUN', 'VERB', 'aux:pass']	['以', '计', 'aux:pass']
+['NUM', 'VERB', 'obl']	['百万', '计', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['计', '人', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '计', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['人', '阅读', 'nsubj']
+['VERB', 'VERB', 'advcl']	['阅读', '使', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '阅读', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['最终', '成', 'nmod:tmod']
+['VERB', 'VERB', 'advcl']	['成', '使', 'advcl']
+['VERB', 'VERB', 'mark']	['为', '成', 'mark']
+['NOUN', 'VERB', 'obj']	['书籍', '成', 'obj']
+['CCONJ', 'NOUN', 'cc']	['或', '电影', 'cc']
+['NOUN', 'NOUN', 'conj']	['电影', '书籍', 'conj']
+['PUNCT', 'VERB', 'punct']	['，', '成', 'punct']
+['ADV', 'VERB', 'mark']	['并', '使', 'mark']
+['VERB', 'ADJ', 'parataxis']	['使', '年轻', 'parataxis']
+['NOUN', 'VERB', 'nsubj']	['作者', '成', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['成', '使', 'ccomp']
+['VERB', 'VERB', 'mark']	['为', '成', 'mark']
+['NOUN', 'VERB', 'obj']	['名人', '成', 'obj']
+['PUNCT', 'ADJ', 'punct']	['。', '年轻', 'punct']
+----------------------------------------------------------------------
+在一定程度上，网络文学的风气，就像一档电视真人秀节目。
+
+(ROOT (IP (PP (IN 在) (LCP (NP (ADJP (JJ 一定)) (NP (NN 程度))) (IN 上))) (, ，) (NP (DNP (NP (NN 网络) (NN 文学)) (DEC 的)) (NP (NN 风气))) (, ，) (VP (ADVP (RB 就)) (VP (PP (VV 像) (NP (QP (CD 一) (CLP (NNB 档))) (NP (NN 电视) (NN 真人) (SFN 秀) (NN 节目)))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, ',2531': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, ',96268': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['在', '程度', 'case']
+['ADJ', 'NOUN', 'amod']	['一定', '程度', 'amod']
+['NOUN', 'VERB', 'obl']	['程度', '像', 'obl']
+['ADP', 'NOUN', 'case']	['上', '程度', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '程度', 'punct']
+['NOUN', 'NOUN', 'nmod']	['网络', '文学', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['文学', '风气', 'nmod']
+['PART', 'NOUN', 'case']	['的', '文学', 'case']
+['NOUN', 'VERB', 'nsubj']	['风气', '像', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '风气', 'punct']
+['ADV', 'VERB', 'mark']	['就', '像', 'mark']
+['VERB', 'ROOT', 'root']	['像', 'NONE', 'root']
+['NUM', 'NOUN', 'nummod']	['一', '档', 'nummod']
+['NOUN', 'NOUN', 'clf']	['档', '节目', 'clf']
+['NOUN', 'NOUN', 'nmod']	['电视', '节目', 'nmod']
+['NOUN', 'PART', 'compound']	['真人', '秀', 'compound']
+['PART', 'NOUN', 'nmod']	['秀', '节目', 'nmod']
+['NOUN', 'VERB', 'obj']	['节目', '像', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '像', 'punct']
+----------------------------------------------------------------------
+书店现在有专门的书架放着印成精装书的网络小说，而多年来，网络上出现了许多其他有影响力的作家，包括 Annie Baobei，她的书讲述了中国城市里的爱情和孤独，已经卖出了一百多万册。
+
+(ROOT (IP (IP (NP (NN 书店)) (VP (NP (NN 现在)) (VP (VV 有) (IP (NP (DNP (ADJP (JJ 专门)) (DEC 的)) (NP (NN 书) (SFN 架))) (VP (VV 放) (AS 着) (NP (CP (CP (IP (VP (VV 印成) (NP (NN 精装) (SFN 书)))) (DEC 的))) (NP (NN 网络) (NN 小说)))))))) (, ，) (IP (ADVP (RB 而)) (LCP (QP (CD 多) (CLP (NNB 年))) (IN 来)) (, ，) (LCP (NP (NN 网络)) (IN 上)) (VP (VV 出现) (AS 了) (NP (QP (CD 许多)) (DP (DT 其他)) (CP (CP (IP (VP (VV 有) (NP (VV 影响) (SFN 力)))) (DEC 的))) (NP (NN 作家))))) (, ，) (IP (VP (VV 包括) (NP (FW Annie) (FW Baobei)))) (, ，) (IP (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 书))) (VP (VP (VV 讲述) (AS 了) (NP (DNP (LCP (NP (NP (NNP 中国)) (NP (NN 城市))) (IN 里)) (DEC 的)) (NP (NN 爱情) (CC 和) (NN 孤独)))) (, ，) (VP (ADVP (RB 已经)) (VP (VV 卖出) (AS 了) (QP (CD 一百多万) (CLP (NNB 册))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP80991': {}, ',468': {}, 'IP27828': {}, ',5548': {}, 'IP83514': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP99869': {'ADVP': {}, 'LCP': {}, ',': {}, 'LCP52917': {}, 'VP': {}}, ',35858': {}, 'IP38875': {'VP': {}}, ',15392': {}, 'IP57331': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'LCP': {}, ',': {}, 'LCP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'LCP': {}, ',': {}, 'LCP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nsubj']	['书店', '有', 'nsubj']
+['NOUN', 'VERB', 'nmod:tmod']	['现在', '有', 'nmod:tmod']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['ADJ', 'PART', 'amod']	['专门', '架', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '专门', 'mark:rel']
+['NOUN', 'PART', 'compound']	['书', '架', 'compound']
+['PART', 'VERB', 'nsubj']	['架', '放', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['放', '有', 'ccomp']
+['AUX', 'VERB', 'aux']	['着', '放', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['印成', '小说', 'acl:relcl']
+['NOUN', 'PART', 'compound']	['精装', '书', 'compound']
+['PART', 'VERB', 'obj']	['书', '印成', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '印成', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['网络', '小说', 'nmod']
+['NOUN', 'VERB', 'obj']	['小说', '放', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '出现', 'punct']
+['ADV', 'VERB', 'mark']	['而', '出现', 'mark']
+['NUM', 'NOUN', 'nummod']	['多', '年', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['年', '出现', 'nmod:tmod']
+['ADP', 'NOUN', 'case']	['来', '年', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '年', 'punct']
+['NOUN', 'VERB', 'nsubj']	['网络', '出现', 'nsubj']
+['ADP', 'NOUN', 'case']	['上', '网络', 'case']
+['VERB', 'VERB', 'parataxis']	['出现', '有', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '出现', 'aux']
+['NUM', 'NOUN', 'nummod']	['许多', '作家', 'nummod']
+['DET', 'NOUN', 'det']	['其他', '作家', 'det']
+['VERB', 'NOUN', 'acl:relcl']	['有', '作家', 'acl:relcl']
+['VERB', 'PART', 'compound']	['影响', '力', 'compound']
+['PART', 'VERB', 'obj']	['力', '有', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '有', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['作家', '包括', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '作家', 'punct']
+['VERB', 'VERB', 'ccomp']	['包括', '出现', 'ccomp']
+['X', 'VERB', 'obj']	['Annie', '包括', 'obj']
+['X', 'X', 'flat:foreign']	['Baobei', 'Annie', 'flat:foreign']
+['PUNCT', 'VERB', 'punct']	['，', '卖出', 'punct']
+['PRON', 'NOUN', 'det']	['她', '书', 'det']
+['PART', 'PRON', 'case']	['的', '她', 'case']
+['NOUN', 'VERB', 'nsubj']	['书', '卖出', 'nsubj']
+['VERB', 'VERB', 'advcl']	['讲述', '卖出', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '讲述', 'aux']
+['PROPN', 'NOUN', 'nmod']	['中国', '城市', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['城市', '爱情', 'nmod']
+['ADP', 'NOUN', 'case']	['里', '城市', 'case']
+['PART', 'NOUN', 'case']	['的', '城市', 'case']
+['NOUN', 'VERB', 'obj']	['爱情', '讲述', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '孤独', 'cc']
+['NOUN', 'NOUN', 'conj']	['孤独', '爱情', 'conj']
+['PUNCT', 'VERB', 'punct']	['，', '讲述', 'punct']
+['ADV', 'VERB', 'advmod']	['已经', '卖出', 'advmod']
+['VERB', 'VERB', 'parataxis']	['卖出', '有', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '卖出', 'aux']
+['NUM', 'NOUN', 'nummod']	['一百多万', '册', 'nummod']
+['NOUN', 'VERB', 'obj']	['册', '卖出', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+“在美国，人们有美国梦。
+
+(ROOT (IP (`` “) (PP (VV 在) (NP (NNP 美国))) (, ，) (NP (NN 人们)) (VP (VV 有) (NP (NP (NNP 美国)) (NP (NN 梦)))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'``': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'IP': {'``': {}, 'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'NP': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+['PUNCT', 'VERB', 'punct']	['“', '有', 'punct']
+['VERB', 'VERB', 'advcl']	['在', '有', 'advcl']
+['PROPN', 'VERB', 'obj']	['美国', '在', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '在', 'punct']
+['NOUN', 'VERB', 'nsubj']	['人', '有', 'nsubj']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['PROPN', 'NOUN', 'nmod']	['美国', '梦', 'nmod']
+['NOUN', 'VERB', 'obj']	['梦', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+在中国，人们有网络梦想，”大一女生戴颖娜说，她几乎所有的朋友都在阅读关于时间旅行、浪漫或两者混合的网络奇幻小说。
+
+(ROOT (IP (IP (PP (VV 在) (NP (NNP 中国))) (, ，) (NP (NN 人们)) (VP (VV 有) (NP (NN 网络) (NN 梦想)))) (, ，) ('' ”) (NP (NP (QP (ADJP (PFA 大)) (QP (CD 一))) (NP (NN 女生))) (NP (NNP 戴颖娜))) (VP (VV 说) (, ，) (IP (NP (NP (PRP 她)) (DNP (DP (ADVP (RB 几乎)) (DP (DT 所有))) (DEC 的)) (NP (NN 朋友))) (VP (ADVP (RB 都)) (ADVP (RB 在)) (VP (VV 阅读) (NP (DNP (PP (IN 关于) (NP (NP (NP (NN 时间)) (NP (NN 旅行))) (EC 、) (NP (JJ 浪漫)) (CC 或) (IP (NP (QP (CD 两)) (NP (NN 者))) (VP (VV 混合))))) (DEC 的)) (NP (NN 网络)) (ADJP (JJ 奇幻)) (NP (NN 小说))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NP': {}, 'NP59289': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['在', '有', 'advcl']
+['PROPN', 'VERB', 'obj']	['中国', '在', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '在', 'punct']
+['NOUN', 'VERB', 'nsubj']	['人', '有', 'nsubj']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['NOUN', 'NOUN', 'nmod']	['网络', '梦想', 'nmod']
+['NOUN', 'VERB', 'obj']	['梦想', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '说', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '说', 'punct']
+['PART', 'NUM', 'case']	['大', '一', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '女生', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['女生', '说', 'nsubj']
+['PROPN', 'NOUN', 'appos']	['戴颖娜', '女生', 'appos']
+['VERB', 'VERB', 'parataxis']	['说', '有', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['，', '阅读', 'punct']
+['PRON', 'NOUN', 'nmod']	['她', '朋友', 'nmod']
+['ADV', 'DET', 'advmod']	['几乎', '所有', 'advmod']
+['DET', 'NOUN', 'det']	['所有', '朋友', 'det']
+['PART', 'DET', 'case']	['的', '所有', 'case']
+['NOUN', 'VERB', 'nsubj']	['朋友', '阅读', 'nsubj']
+['ADV', 'VERB', 'mark']	['都', '阅读', 'mark']
+['ADV', 'VERB', 'advmod']	['在', '阅读', 'advmod']
+['VERB', 'VERB', 'ccomp']	['阅读', '说', 'ccomp']
+['ADP', 'NOUN', 'case']	['关于', '旅行', 'case']
+['NOUN', 'NOUN', 'nmod']	['时间', '旅行', 'nmod']
+['NOUN', 'VERB', 'obl']	['旅行', '混合', 'obl']
+['PUNCT', 'ADJ', 'punct']	['、', '浪漫', 'punct']
+['ADJ', 'VERB', 'advcl']	['浪漫', '混合', 'advcl']
+['CCONJ', 'NOUN', 'cc']	['或', '者', 'cc']
+['NUM', 'NOUN', 'nummod']	['两', '者', 'nummod']
+['NOUN', 'VERB', 'obl']	['者', '混合', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['混合', '小说', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '混合', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['网络', '小说', 'nmod']
+['ADJ', 'NOUN', 'amod']	['奇幻', '小说', 'amod']
+['NOUN', 'VERB', 'obj']	['小说', '阅读', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+这些类型的小说大多是被生活枯燥无味的普通女孩阅读的，戴晨说，她的室友特别喜欢一本来自齐阁网的小说《小美传奇》。
+
+(ROOT (IP (IP (NP (DNP (NP (DP (DT 这些)) (NP (NN 类型))) (DEC 的)) (NP (NN 小说))) (VP (ADVP (RB 大多)) (VP (VC 是) (NP (CP (CP (IP (NP (CP (CP (IP (VP (BB 被) (VP (NP (VV 生活)) (VP (VCD (JJ 枯燥) (JJ 无味)))))) (DEC 的))) (ADJP (JJ 普通)) (NP (NN 女孩))) (VP (VV 阅读))) (UH 的))))))) (, ，) (IP (NP (NNP 戴晨)) (VP (VV 说) (, ，) (IP (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 室友))) (VP (ADVP (RB 特别)) (VP (VV 喜欢) (NP (NP (QP (CD 一) (CLP (NNB 本))) (CP (CP (IP (VP (VV 来) (PP (VV 自) (NP (NNP 齐阁) (SFN 网))))) (DEC 的))) (NP (NN 小说))) (NP (-LRB- 《) (NP (ADJP (PFA 小)) (NP (NNP 美))) (NP (NN 传奇)) (-RRB- 》)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP83251': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP75526': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这些', '类型', 'det']
+['NOUN', 'NOUN', 'nmod']	['类型', '小说', 'nmod']
+['PART', 'NOUN', 'case']	['的', '类型', 'case']
+['NOUN', 'VERB', 'nsubj']	['小说', '是', 'nsubj']
+['ADV', 'VERB', 'advmod']	['大多', '是', 'advmod']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['被', '生活', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['生活', '女孩', 'acl:relcl']
+['ADJ', 'ADJ', 'advcl']	['枯燥', '无味', 'advcl']
+['ADJ', 'VERB', 'xcomp']	['无味', '生活', 'xcomp']
+['PART', 'VERB', 'mark:rel']	['的', '生活', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['普通', '女孩', 'amod']
+['NOUN', 'VERB', 'nsubj']	['女孩', '阅读', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['阅读', '是', 'ccomp']
+['PART', 'VERB', 'discourse']	['的', '是', 'discourse']
+['PUNCT', 'VERB', 'punct']	['，', '说', 'punct']
+['PROPN', 'VERB', 'nsubj']	['戴晨', '说', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['说', '是', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['，', '喜欢', 'punct']
+['PRON', 'NOUN', 'det']	['她', '室友', 'det']
+['PART', 'PRON', 'case']	['的', '她', 'case']
+['NOUN', 'VERB', 'nsubj']	['室友', '喜欢', 'nsubj']
+['ADV', 'VERB', 'advmod']	['特别', '喜欢', 'advmod']
+['VERB', 'VERB', 'ccomp']	['喜欢', '说', 'ccomp']
+['NUM', 'NOUN', 'nummod']	['一', '本', 'nummod']
+['NOUN', 'NOUN', 'clf']	['本', '小说', 'clf']
+['VERB', 'NOUN', 'acl:relcl']	['来', '小说', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['自', '来', 'mark']
+['PROPN', 'PART', 'compound']	['齐阁', '网', 'compound']
+['PART', 'VERB', 'obj']	['网', '来', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '来', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['小说', '喜欢', 'obj']
+['PUNCT', 'NOUN', 'punct']	['《', '传奇', 'punct']
+['PART', 'PROPN', 'case']	['小', '美', 'case']
+['PROPN', 'NOUN', 'nmod']	['美', '传奇', 'nmod']
+['NOUN', 'NOUN', 'appos']	['传奇', '小说', 'appos']
+['PUNCT', 'NOUN', 'punct']	['》', '传奇', 'punct']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+20 岁的他补充道：“我喜欢真实的文学作品，而不是想象中的作品。”
+
+(ROOT (IP (NP (DNP (QP (CD 20) (CLP (NNB 岁))) (DEC 的)) (NP (PRP 他))) (VP (VP (VV 补充)) (VP (VV 道) (: ：) (IP (`` “) (NP (PRP 我)) (VP (VP (VV 喜欢) (NP (CP (CP (IP (VP (JJ 真实))) (DEC 的))) (NP (NN 文学) (NN 作品)))) (, ，) (VP (ADVP (RB 而)) (VP (VC 不是) (NP (DNP (LCP (NP (NN 想象)) (IN 中)) (DEC 的)) (NP (NN 作品))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP23169': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+['NUM', 'NOUN', 'nummod']	['20', '岁', 'nummod']
+['NOUN', 'PRON', 'acl:relcl']	['岁', '他', 'acl:relcl']
+['PART', 'NOUN', 'mark:rel']	['的', '岁', 'mark:rel']
+['PRON', 'VERB', 'nsubj']	['他', '补充', 'nsubj']
+['VERB', 'ROOT', 'root']	['补充', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['道', '补充', 'xcomp']
+['PUNCT', 'NOUN', 'punct']	['：', '作品', 'punct']
+['PUNCT', 'NOUN', 'punct']	['“', '作品', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '喜欢', 'nsubj']
+['VERB', 'NOUN', 'acl']	['喜欢', '作品', 'acl']
+['ADJ', 'NOUN', 'amod']	['真实', '作品', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '真实', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['文学', '作品', 'nmod']
+['NOUN', 'VERB', 'obj']	['作品', '喜欢', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '喜欢', 'punct']
+['ADV', 'NOUN', 'mark']	['而', '作品', 'mark']
+['AUX', 'NOUN', 'cop']	['是', '作品', 'cop']
+['NOUN', 'NOUN', 'nmod']	['想象', '作品', 'nmod']
+['ADP', 'NOUN', 'case']	['中', '想象', 'case']
+['PART', 'NOUN', 'case']	['的', '想象', 'case']
+['NOUN', 'VERB', 'ccomp']	['作品', '道', 'ccomp']
+['PUNCT', 'NOUN', 'punct']	['。', '作品', 'punct']
+['PUNCT', 'NOUN', 'punct']	['”', '作品', 'punct']
+----------------------------------------------------------------------
+接着，她介绍了她计划写的网络小说，故事讲述了一位生活在清朝的公主。
+
+(ROOT (IP (IP (IP (VP (VV 接) (AS 着))) (, ，) (NP (PRP 她)) (VP (VV 介绍) (AS 了) (NP (CP (CP (IP (NP (PRP 她)) (VP (VV 计划) (IP (VP (VV 写))))) (DEC 的))) (NP (NN 网络) (NN 小说))))) (, ，) (IP (NP (NN 故事)) (VP (VV 讲述) (AS 了) (NP (QP (CD 一) (CLP (NNB 位))) (CP (CP (IP (VP (VV 生活) (PP (IN 在) (NP (NNP 清朝))))) (DEC 的))) (NP (NN 公主))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP24778': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP39635': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['接', '介绍', 'advcl']
+['AUX', 'VERB', 'aux']	['着', '接', 'aux']
+['PUNCT', 'VERB', 'punct']	['，', '接', 'punct']
+['PRON', 'VERB', 'nsubj']	['她', '介绍', 'nsubj']
+['VERB', 'ROOT', 'root']	['介绍', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '介绍', 'aux']
+['PRON', 'VERB', 'nsubj']	['她', '计划', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['计划', '小说', 'acl:relcl']
+['VERB', 'VERB', 'xcomp']	['写', '计划', 'xcomp']
+['PART', 'VERB', 'mark:rel']	['的', '计划', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['网络', '小说', 'nmod']
+['NOUN', 'VERB', 'obj']	['小说', '介绍', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '讲述', 'punct']
+['NOUN', 'VERB', 'nsubj']	['故事', '讲述', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['讲述', '介绍', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '讲述', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '位', 'nummod']
+['NOUN', 'NOUN', 'clf']	['位', '公主', 'clf']
+['VERB', 'NOUN', 'acl:relcl']	['生活', '公主', 'acl:relcl']
+['ADP', 'PROPN', 'case']	['在', '清朝', 'case']
+['PROPN', 'VERB', 'obl']	['清朝', '生活', 'obl']
+['PART', 'VERB', 'mark:rel']	['的', '生活', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['公主', '讲述', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '介绍', 'punct']
+----------------------------------------------------------------------
+离开北京的家时，公主回来发现自己不认识自己的家人，也不认识几年前生活在这里的社会。
+
+(ROOT (IP (LCP (NP (CP (CP (IP (VP (VV 离开) (NP (NNP 北京)))) (DEC 的))) (NP (NN 家))) (IN 时)) (, ，) (NP (NN 公主)) (VP (VP (VV 回来)) (VP (VV 发现) (IP (NP (PRD 自己)) (VP (VP (ADVP (RB 不)) (VP (VV 认识) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 家人))))) (, ，) (VP (ADVP (RB 也)) (ADVP (RB 不)) (VP (VV 认识) (NP (CP (CP (IP (VP (LCP (QP (CD 几) (CLP (NNB 年))) (IN 前)) (VP (VV 生活) (PP (VV 在) (NP (PRD 这里)))))) (DEC 的))) (NP (NN 社会))))))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VP': {}, 'VP13056': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'NOUN', 'acl:relcl']	['离开', '家', 'acl:relcl']
+['PROPN', 'VERB', 'obj']	['北京', '离开', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '离开', 'mark:rel']
+['NOUN', 'VERB', 'nmod:tmod']	['家', '认识', 'nmod:tmod']
+['ADP', 'NOUN', 'case']	['时', '家', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '家', 'punct']
+['NOUN', 'VERB', 'nsubj']	['公主', '认识', 'nsubj']
+['VERB', 'VERB', 'advcl']	['回来', '认识', 'advcl']
+['VERB', 'VERB', 'advcl']	['发现', '认识', 'advcl']
+['PRON', 'VERB', 'nsubj']	['自己', '认识', 'nsubj']
+['ADV', 'VERB', 'advmod']	['不', '认识', 'advmod']
+['VERB', 'NOUN', 'acl:relcl']	['认识', '家人', 'acl:relcl']
+['PRON', 'VERB', 'obj']	['自己', '认识', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '认识', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['家人', '发现', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '发现', 'punct']
+['ADV', 'VERB', 'mark']	['也', '认识', 'mark']
+['ADV', 'VERB', 'advmod']	['不', '认识', 'advmod']
+['VERB', 'ROOT', 'root']	['认识', 'NONE', 'root']
+['NUM', 'NOUN', 'nummod']	['几', '年', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['年', '生活', 'nmod:tmod']
+['ADP', 'NOUN', 'case']	['前', '年', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['生活', '社会', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['在', '生活', 'mark']
+['PRON', 'VERB', 'obj']	['这里', '生活', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '生活', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['社会', '认识', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '认识', 'punct']
+----------------------------------------------------------------------
+“我只是想对当今生活说几句，”戴志远说，“有时候柔软的语言更有力量。”
+
+(ROOT (IP (IP (`` “) (NP (PRP 我)) (VP (ADVP (RB 只)) (VP (VC 是) (VP (MD 想) (IP (VP (PP (IN 对) (NP (NN 当今) (NN 生活))) (VP (VV 说) (QP (CD 几) (CLP (NNB 句)))))))))) (, ，) ('' ”) (NP (NNP 戴) (NNP 志) (RB 远)) (VP (VV 说) (, ，) (IP (`` “) (IP (IP (VP (VV 有) (NP (NN 时候)))) (NP (CP (CP (IP (VP (JJ 柔软))) (DEC 的))) (NP (NN 语言))) (VP (ADVP (RB 更)) (VP (VV 有) (NP (NN 力量))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}, "''54703": {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}, 'NNP65165': {}, 'RB': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''73424": {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}, 'NNP': {}, 'RB': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'NNP': {}, 'NNP': {}, 'RB': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['PUNCT', 'VERB', 'punct']	['“', '是', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '是', 'nsubj']
+['ADV', 'VERB', 'advmod']	['只', '是', 'advmod']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['想', '说', 'aux']
+['ADP', 'NOUN', 'case']	['对', '生活', 'case']
+['NOUN', 'NOUN', 'nmod']	['当今', '生活', 'nmod']
+['NOUN', 'VERB', 'obl']	['生活', '说', 'obl']
+['VERB', 'VERB', 'xcomp']	['说', '是', 'xcomp']
+['NUM', 'NOUN', 'nummod']	['几', '句', 'nummod']
+['NOUN', 'VERB', 'obl']	['句', '说', 'obl']
+['PUNCT', 'VERB', 'punct']	['，', '说', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '说', 'punct']
+['PROPN', 'VERB', 'nsubj']	['戴', '说', 'nsubj']
+['PROPN', 'PROPN', 'flat:name']	['志', '戴', 'flat:name']
+['ADV', 'VERB', 'advmod']	['远', '说', 'advmod']
+['VERB', 'VERB', 'parataxis']	['说', '是', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['PUNCT', 'VERB', 'punct']	['“', '有', 'punct']
+['VERB', 'VERB', 'advcl']	['有', '有', 'advcl']
+['NOUN', 'ADJ', 'obl']	['时候', '柔软', 'obl']
+['ADJ', 'NOUN', 'amod']	['柔软', '语言', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '柔软', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['语言', '有', 'obj']
+['ADV', 'VERB', 'advmod']	['更', '有', 'advmod']
+['VERB', 'VERB', 'ccomp']	['有', '说', 'ccomp']
+['NOUN', 'VERB', 'obj']	['力量', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '有', 'punct']
+----------------------------------------------------------------------
+如今，中国出版商更愿意承担风险，发表网上新兴声音，许多出版商现在都会印刷十年前根本不可能出现的故事。
+
+(ROOT (IP (IP (NP (NN 如今)) (, ，) (NP (NP (NNP 中国)) (NP (VV 出版) (SFN 商))) (VP (ADVP (RB 更)) (VP (MD 愿意) (IP (VP (VP (VV 承担) (NP (NN 风险))) (, ，) (VP (VV 发表) (NP (NP (NN 网上)) (ADJP (NN 新兴)) (NP (NN 声音))))))))) (, ，) (IP (NP (QP (CD 许多)) (NP (VV 出版) (SFN 商))) (VP (NP (NN 现在)) (ADVP (RB 都)) (VP (MD 会) (VP (VV 印刷) (NP (CP (CP (IP (VP (LCP (QP (CD 十) (CLP (NNB 年))) (IN 前)) (ADVP (RB 根本)) (ADVP (RB 不)) (VP (MD 可能) (VP (VV 出现))))) (DEC 的))) (NP (NN 故事))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP88884': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP71223': {}, 'VP': {}}, ',': {}, 'IP59363': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nmod:tmod']	['如今', '承担', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '如今', 'punct']
+['PROPN', 'PART', 'nmod']	['中国', '商', 'nmod']
+['VERB', 'PART', 'compound']	['出版', '商', 'compound']
+['PART', 'VERB', 'nsubj']	['商', '承担', 'nsubj']
+['ADV', 'VERB', 'advmod']	['更', '承担', 'advmod']
+['AUX', 'VERB', 'aux']	['愿意', '承担', 'aux']
+['VERB', 'ROOT', 'root']	['承担', 'NONE', 'root']
+['NOUN', 'VERB', 'obj']	['风险', '承担', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '发表', 'punct']
+['VERB', 'VERB', 'parataxis']	['发表', '承担', 'parataxis']
+['NOUN', 'NOUN', 'nmod']	['网上', '声音', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['新兴', '声音', 'nmod']
+['NOUN', 'VERB', 'obj']	['声音', '发表', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '印刷', 'punct']
+['NUM', 'PART', 'nummod']	['许多', '商', 'nummod']
+['VERB', 'PART', 'compound']	['出版', '商', 'compound']
+['PART', 'VERB', 'nsubj']	['商', '印刷', 'nsubj']
+['NOUN', 'VERB', 'nmod:tmod']	['现在', '印刷', 'nmod:tmod']
+['ADV', 'VERB', 'mark']	['都', '印刷', 'mark']
+['AUX', 'VERB', 'aux']	['会', '印刷', 'aux']
+['VERB', 'VERB', 'parataxis']	['印刷', '承担', 'parataxis']
+['NUM', 'NOUN', 'nummod']	['十', '年', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['年', '出现', 'nmod:tmod']
+['ADP', 'NOUN', 'case']	['前', '年', 'case']
+['ADV', 'VERB', 'advmod']	['根本', '出现', 'advmod']
+['ADV', 'VERB', 'advmod']	['不', '出现', 'advmod']
+['AUX', 'VERB', 'aux']	['可能', '出现', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['出现', '故事', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '出现', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['故事', '印刷', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '承担', 'punct']
+----------------------------------------------------------------------
+出版社经常在网站上寻找能够把自己的文章带给未登录的读者的人才。
+
+(ROOT (IP (NP (VV 出版) (SFN 社)) (VP (ADVP (RB 经常)) (PP (IN 在) (LCP (NP (NN 网站)) (IN 上))) (VP (VV 寻找) (IP (VP (MD 能够) (VP (BB 把) (IP (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 文章))) (VP (VV 带给) (NP (DNP (NP (CP (CP (IP (VP (ADVP (RB 未)) (VP (VV 登录)))) (DEC 的))) (NP (NN 读者))) (DEC 的)) (NP (NN 人才)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'VV': {}, 'SFN': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'VV': {}, 'SFN': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'VV': {}, 'SFN': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'PART', 'compound']	['出版', '社', 'compound']
+['PART', 'VERB', 'nsubj']	['社', '寻找', 'nsubj']
+['ADV', 'VERB', 'advmod']	['经常', '寻找', 'advmod']
+['ADP', 'NOUN', 'case']	['在', '网站', 'case']
+['NOUN', 'VERB', 'obl']	['网站', '寻找', 'obl']
+['ADP', 'NOUN', 'case']	['上', '网站', 'case']
+['VERB', 'ROOT', 'root']	['寻找', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['能够', '带给', 'aux']
+['ADP', 'NOUN', 'case']	['把', '文章', 'case']
+['PRON', 'NOUN', 'det']	['自己', '文章', 'det']
+['PART', 'PRON', 'case']	['的', '自己', 'case']
+['NOUN', 'VERB', 'obl:patient']	['文章', '带给', 'obl:patient']
+['VERB', 'VERB', 'xcomp']	['带给', '寻找', 'xcomp']
+['ADV', 'VERB', 'advmod']	['未', '登录', 'advmod']
+['VERB', 'NOUN', 'acl:relcl']	['登录', '读者', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '登录', 'mark:rel']
+['NOUN', 'VERB', 'iobj']	['读者', '带给', 'iobj']
+['PART', 'VERB', 'mark:rel']	['的', '登录', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['人才', '带给', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '寻找', 'punct']
+----------------------------------------------------------------------
+“出版商可以进来说，这个书有读者，这是我们的目标受众，如果我们想要吸引年轻人，那么这是一个很好的声音，”潘金书中国经理琼·吕斯比说。 “[文学网站]现在已经成为中国出版界的一个非常自然的组成部分。
+
+(ROOT (IP (IP (`` “) (IP (NP (VV 出版) (SFN 商)) (VP (MD 可以) (VP (VP (VV 进来)) (VP (VV 说))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 书))) (VP (VV 有) (NP (NN 读者)))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (IP (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NN 目标))) (VP (NN 受众))))) (, ，) (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 我们)) (VP (MD 想) (IP (VP (MD 要) (VP (VV 吸引) (NP (ADJP (JJ 年轻)) (NP (SFN 人))))))))) (, ，) (ADVP (RB 那么)) (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 很好))) (DEC 的))) (NP (NN 声音)))))) (, ，) ('' ”) (NP (NP (NP (NP (NNP 潘) (NNP 金)) (NP (SFN 书))) (NP (NNP 中国)) (NP (NN 经理))) (NP (NNP 琼) (/ ·) (NNP 吕斯))) (VP (VV 比说)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'IP64080': {}, ',46105': {}, 'IP27966': {}, ',98169': {}, 'IP28859': {}}, ',': {}, "''": {}, 'NP': {'NP': {}, 'NP63461': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}}, ',': {}, "''": {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+['PUNCT', 'PART', 'punct']	['“', '商', 'punct']
+['VERB', 'PART', 'compound']	['出版', '商', 'compound']
+['PART', 'VERB', 'nsubj']	['商', '说', 'nsubj']
+['AUX', 'VERB', 'aux']	['可以', '说', 'aux']
+['VERB', 'VERB', 'advcl']	['进来', '说', 'advcl']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['，', '受众', 'punct']
+['DET', 'NOUN', 'det']	['这', '个', 'det']
+['NOUN', 'NOUN', 'clf']	['个', '书', 'clf']
+['NOUN', 'VERB', 'nsubj']	['书', '有', 'nsubj']
+['VERB', 'NOUN', 'acl']	['有', '受众', 'acl']
+['NOUN', 'VERB', 'obj']	['读者', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['PRON', 'NOUN', 'nsubj']	['这', '受众', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '受众', 'cop']
+['PRON', 'NOUN', 'det']	['我', '受众', 'det']
+['PART', 'PRON', 'mark:rel']	['的', '我', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['目标', '受众', 'nmod']
+['NOUN', 'VERB', 'ccomp']	['受众', '说', 'ccomp']
+['PUNCT', 'NOUN', 'punct']	['，', '声音', 'punct']
+['ADP', 'VERB', 'case']	['如果', '吸引', 'case']
+['PRON', 'VERB', 'nsubj']	['我', '吸引', 'nsubj']
+['AUX', 'VERB', 'aux']	['想', '吸引', 'aux']
+['AUX', 'VERB', 'aux']	['要', '吸引', 'aux']
+['VERB', 'NOUN', 'ccomp']	['吸引', '声音', 'ccomp']
+['ADJ', 'PART', 'compound']	['年轻', '人', 'compound']
+['PART', 'VERB', 'obj']	['人', '吸引', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '吸引', 'punct']
+['ADV', 'NOUN', 'advmod']	['那么', '声音', 'advmod']
+['PRON', 'NOUN', 'nsubj']	['这', '声音', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '声音', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '声音', 'clf']
+['ADJ', 'NOUN', 'amod']	['很好', '声音', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '很好', 'mark:rel']
+['NOUN', 'VERB', 'ccomp']	['声音', '说', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '比说', 'punct']
+['PUNCT', 'NOUN', 'punct']	['”', '声音', 'punct']
+['PROPN', 'PART', 'compound']	['潘', '书', 'compound']
+['PROPN', 'PROPN', 'flat:name']	['金', '潘', 'flat:name']
+['PART', 'NOUN', 'nmod']	['书', '经理', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['中国', '经理', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['经理', '比说', 'nsubj']
+['PROPN', 'NOUN', 'appos']	['琼', '经理', 'appos']
+['PUNCT', 'PROPN', 'punct']	['·', '吕斯', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['吕斯', '琼', 'flat:name']
+['VERB', 'VERB', 'parataxis']	['比说', '说', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
+----------------------------------------------------------------------
+这真的是印刷和网络写作的融合。”
+
+(ROOT (IP (NP (PRD 这)) (VP (ADVP (RB 真的)) (VP (VC 是) (NP (DNP (NP (NP (NN 印刷) (CC 和) (NN 网络)) (NP (NN 写作))) (DEC 的)) (NP (NN 融合))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'nsubj']	['这', '融合', 'nsubj']
+['ADV', 'NOUN', 'advmod']	['真的', '融合', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '融合', 'cop']
+['NOUN', 'NOUN', 'nmod']	['印刷', '融合', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['和', '写作', 'cc']
+['NOUN', 'NOUN', 'nmod']	['网络', '写作', 'nmod']
+['NOUN', 'NOUN', 'conj']	['写作', '印刷', 'conj']
+['PART', 'NOUN', 'case']	['的', '印刷', 'case']
+['NOUN', 'ROOT', 'root']	['融合', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['。', '融合', 'punct']
+['PUNCT', 'NOUN', 'punct']	['”', '融合', 'punct']
+----------------------------------------------------------------------
+尽管过去几年中，中国出版业逐步商业化，随后开放，但许多能够自由自行出版的作家发现，他们的作品在被改编后仍然会面临很大的审查。
+
+(ROOT (IP (CP (ADVP (IN 尽管)) (IP (LCP (QP (NP (NN 过去)) (QP (CD 几) (CLP (NNB 年)))) (IN 中)) (, ，) (NP (NP (NNP 中国)) (NP (VV 出版) (SFN 业))) (VP (VP (ADVP (RB 逐步)) (VP (JJ 商业) (SFV 化))) (, ，) (VP (ADVP (RB 随后)) (VP (VV 开放)))))) (, ，) (ADVP (RB 但)) (NP (QP (CD 许多)) (CP (CP (IP (VP (MD 能够) (VP (ADVP (RB 自由)) (ADVP (RB 自行)) (VP (VV 出版))))) (DEC 的))) (NP (NN 作家))) (VP (VV 发现) (, ，) (IP (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 作品))) (VP (PP (IN 在) (LCP (IP (VP (BB 被) (VP (VV 改编)))) (IN 后))) (ADVP (RB 仍然)) (VP (MD 会) (VP (VV 面临) (NP (CP (CP (IP (VP (JJ 很大))) (DEC 的))) (NP (NN 审查)))))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'QP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'QP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'QP': {}, 'CP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['尽管', '年', 'case']
+['NOUN', 'NOUN', 'nmod']	['过去', '年', 'nmod']
+['NUM', 'NOUN', 'nummod']	['几', '年', 'nummod']
+['NOUN', 'VERB', 'obl']	['年', '开放', 'obl']
+['ADP', 'NOUN', 'case']	['中', '年', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '年', 'punct']
+['PROPN', 'PART', 'nmod']	['中国', '业', 'nmod']
+['VERB', 'PART', 'compound']	['出版', '业', 'compound']
+['PART', 'PART', 'nsubj']	['业', '化', 'nsubj']
+['ADV', 'PART', 'advmod']	['逐步', '化', 'advmod']
+['ADJ', 'PART', 'compound']	['商业', '化', 'compound']
+['PART', 'VERB', 'advcl']	['化', '开放', 'advcl']
+['PUNCT', 'PART', 'punct']	['，', '化', 'punct']
+['ADV', 'VERB', 'advmod']	['随后', '开放', 'advmod']
+['VERB', 'ROOT', 'root']	['开放', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '发现', 'punct']
+['ADV', 'VERB', 'mark']	['但', '发现', 'mark']
+['NUM', 'NOUN', 'nummod']	['许多', '作家', 'nummod']
+['AUX', 'VERB', 'aux']	['能够', '出版', 'aux']
+['ADV', 'VERB', 'advmod']	['自由', '出版', 'advmod']
+['ADV', 'VERB', 'advmod']	['自行', '出版', 'advmod']
+['VERB', 'NOUN', 'acl:relcl']	['出版', '作家', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '出版', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['作家', '发现', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['发现', '开放', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['，', '面临', 'punct']
+['PRON', 'NOUN', 'det']	['他', '作品', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'VERB', 'nsubj']	['作品', '面临', 'nsubj']
+['ADP', 'VERB', 'case']	['在', '改编', 'case']
+['AUX', 'VERB', 'aux:pass']	['被', '改编', 'aux:pass']
+['VERB', 'VERB', 'ccomp']	['改编', '面临', 'ccomp']
+['ADP', 'VERB', 'mark']	['后', '改编', 'mark']
+['ADV', 'VERB', 'advmod']	['仍然', '面临', 'advmod']
+['AUX', 'VERB', 'aux']	['会', '面临', 'aux']
+['VERB', 'VERB', 'ccomp']	['面临', '发现', 'ccomp']
+['ADJ', 'NOUN', 'amod']	['很大', '审查', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '很大', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['审查', '面临', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '开放', 'punct']
+----------------------------------------------------------------------
+“离线出版仍然受到严格控制，改变不容易，”杨恒军说，他的间谍小说在该国被禁。
+
+(ROOT (IP (IP (`` “) (NP (NN 离线) (VV 出版)) (VP (ADVP (RB 仍然)) (VP (VV 受到) (NP (ADJP (JJ 严格)) (NP (NN 控制))))) (, ，) (IP (NP (VV 改变)) (VP (ADVP (RB 不)) (VP (JJ 容易))))) (, ，) ('' ”) (NP (NNP 杨) (NNP 恒军)) (VP (VV 说) (, ，) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 间谍) (NN 小说))) (VP (PP (VV 在) (NP (NN 该国))) (VP (BB 被) (VP (VV 禁)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}, 'NNP80997': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}, 'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}}}
+{'NP': {'NNP': {}, 'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['PUNCT', 'VERB', 'punct']	['“', '出版', 'punct']
+['NOUN', 'VERB', 'nsubj']	['离线', '出版', 'nsubj']
+['VERB', 'VERB', 'csubj']	['出版', '受到', 'csubj']
+['ADV', 'VERB', 'advmod']	['仍然', '受到', 'advmod']
+['VERB', 'VERB', 'advcl']	['受到', '改变', 'advcl']
+['ADJ', 'NOUN', 'amod']	['严格', '控制', 'amod']
+['NOUN', 'VERB', 'obj']	['控制', '受到', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '受到', 'punct']
+['VERB', 'VERB', 'advcl']	['改变', '说', 'advcl']
+['ADV', 'ADJ', 'advmod']	['不', '容易', 'advmod']
+['ADJ', 'VERB', 'xcomp']	['容易', '改变', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '改变', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '改变', 'punct']
+['PROPN', 'VERB', 'nsubj']	['杨', '说', 'nsubj']
+['PROPN', 'PROPN', 'flat:name']	['恒军', '杨', 'flat:name']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '禁', 'punct']
+['PRON', 'NOUN', 'det']	['他', '小说', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'NOUN', 'nmod']	['间谍', '小说', 'nmod']
+['NOUN', 'VERB', 'nsubj:pass']	['小说', '禁', 'nsubj:pass']
+['VERB', 'VERB', 'advcl']	['在', '禁', 'advcl']
+['NOUN', 'VERB', 'obj']	['该国', '在', 'obj']
+['AUX', 'VERB', 'aux:pass']	['被', '禁', 'aux:pass']
+['VERB', 'VERB', 'ccomp']	['禁', '说', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
+----------------------------------------------------------------------
+“网络小说出版前，大部分都会进行很大程度的编辑。”
+
+(ROOT (IP (-LRB- “) (LCP (IP (NP (NN 网络) (NN 小说)) (VP (VV 出版))) (IN 前)) (, ，) (QP (ADJP (PFA 大)) (QP (NN 部分))) (VP (RB 都会) (VP (VV 进行) (NP (DNP (NP (ADJP (JJ 很大)) (NP (NN 程度))) (DEC 的)) (NP (NN 编辑))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'-LRB-': {}, 'LCP': {}, ',': {}, 'QP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'-LRB-': {}, 'LCP': {}, ',': {}, 'QP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'-LRB-': {}, 'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'QP': {'ADJP': {}, 'QP': {}}, 'VP': {'RB': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'-LRB-': {}, 'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'QP': {'ADJP': {}, 'QP': {}}, 'VP': {'RB': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'LCP': {'IP': {}, 'IN': {}}}
+{'QP': {'ADJP': {}, 'QP': {}}}
+{'VP': {'RB': {}, 'VP': {}}}
+Dependency Features:
+['PUNCT', 'VERB', 'punct']	['“', '出版', 'punct']
+['NOUN', 'NOUN', 'nmod']	['网络', '小说', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['小说', '出版', 'nsubj']
+['VERB', 'VERB', 'advcl']	['出版', '进行', 'advcl']
+['ADP', 'VERB', 'mark']	['前', '出版', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '出版', 'punct']
+['PART', 'NOUN', 'case']	['大', '部分', 'case']
+['NOUN', 'VERB', 'nsubj']	['部分', '进行', 'nsubj']
+['ADV', 'VERB', 'advmod']	['都会', '进行', 'advmod']
+['VERB', 'ROOT', 'root']	['进行', 'NONE', 'root']
+['ADJ', 'NOUN', 'amod']	['很大', '程度', 'amod']
+['NOUN', 'NOUN', 'nmod']	['程度', '编辑', 'nmod']
+['PART', 'NOUN', 'case']	['的', '程度', 'case']
+['NOUN', 'VERB', 'obj']	['编辑', '进行', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '进行', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '进行', 'punct']
+----------------------------------------------------------------------
+但是，杨彬表示，从长远来看，互联网文学的自由表达将会推动中国出版业的进一步自由化。
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (NP (NNP 杨彬)) (VP (VV 表示) (, ，) (IP (IP (VP (PP (IN 从) (NP (JJ 长远))) (VP (RB 来) (VP (VV 看))))) (, ，) (NP (DNP (NP (VV 互联) (SFN 网) (NN 文学)) (DEC 的)) (ADJP (NN 自由)) (NP (NN 表达))) (VP (ADVP (RB 将)) (VP (MD 会) (VP (VV 推动) (NP (DNP (NP (NP (NNP 中国)) (NP (VV 出版) (SFN 业))) (DEC 的)) (DP (VV 进) (QP (CD 一) (CLP (NNB 步)))) (NP (NN 自由) (SFV 化)))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['但是', '表示', 'mark']
+['PUNCT', 'ADV', 'punct']	['，', '但是', 'punct']
+['PROPN', 'VERB', 'nsubj']	['杨彬', '表示', 'nsubj']
+['VERB', 'ROOT', 'root']	['表示', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '推动', 'punct']
+['ADP', 'VERB', 'case']	['从', '看', 'case']
+['ADJ', 'VERB', 'advmod']	['长远', '看', 'advmod']
+['ADV', 'VERB', 'mark']	['来', '看', 'mark']
+['VERB', 'VERB', 'xcomp']	['看', '推动', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '看', 'punct']
+['VERB', 'PART', 'compound']	['互联', '网', 'compound']
+['PART', 'NOUN', 'nmod']	['网', '文学', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['文学', '表达', 'nmod']
+['PART', 'NOUN', 'case']	['的', '文学', 'case']
+['NOUN', 'NOUN', 'nmod']	['自由', '表达', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['表达', '推动', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '推动', 'advmod']
+['AUX', 'VERB', 'aux']	['会', '推动', 'aux']
+['VERB', 'VERB', 'ccomp']	['推动', '表示', 'ccomp']
+['PROPN', 'PART', 'nmod']	['中国', '业', 'nmod']
+['VERB', 'PART', 'compound']	['出版', '业', 'compound']
+['PART', 'PART', 'nmod']	['业', '化', 'nmod']
+['PART', 'PART', 'case']	['的', '业', 'case']
+['VERB', 'PART', 'amod']	['进', '化', 'amod']
+['NUM', 'NOUN', 'nummod']	['一', '步', 'nummod']
+['NOUN', 'VERB', 'obj']	['步', '进', 'obj']
+['NOUN', 'PART', 'compound']	['自由', '化', 'compound']
+['PART', 'VERB', 'obj']	['化', '推动', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '表示', 'punct']
+----------------------------------------------------------------------
+杨志勇说：“这是一件好事，也是一件可期待的事。如今，越来越多的人如果想表达自己，都可以上网。”
+
+(ROOT (IP (NP (NNP 杨) (NNP 志勇)) (VP (VV 说) (: ：) (IP (`` “) (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 件))) (NP (NN 好事))))) (, ，) (IP (VP (VC 也是) (NP (QP (CD 一) (CLP (NNB 件))) (CP (CP (IP (VP (MD 可) (VP (VV 期待)))) (DEC 的))) (NP (NN 事))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, 'NNP98888': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, 'NNP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}, 'NNP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['杨', '说', 'nsubj']
+['PROPN', 'PROPN', 'flat:name']	['志勇', '杨', 'flat:name']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['：', '事', 'punct']
+['PUNCT', 'NOUN', 'punct']	['“', '事', 'punct']
+['PRON', 'NOUN', 'nsubj']	['这', '事', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '好事', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '件', 'nummod']
+['NOUN', 'NOUN', 'clf']	['件', '好事', 'clf']
+['NOUN', 'NOUN', 'acl']	['好事', '事', 'acl']
+['PUNCT', 'NOUN', 'punct']	['，', '好事', 'punct']
+['AUX', 'NOUN', 'cop']	['是', '事', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '件', 'nummod']
+['NOUN', 'NOUN', 'clf']	['件', '事', 'clf']
+['AUX', 'VERB', 'aux']	['可', '期待', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['期待', '事', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '期待', 'mark:rel']
+['NOUN', 'VERB', 'ccomp']	['事', '说', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
 ----------------------------------------------------------------------

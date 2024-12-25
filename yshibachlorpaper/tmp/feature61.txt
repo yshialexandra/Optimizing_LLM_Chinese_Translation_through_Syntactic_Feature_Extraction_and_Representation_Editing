@@ -1,209 +1,265 @@
-据一名前英国潜艇指挥官透露，法国海军的一名官员部分证实了他的说法，英国核潜艇载有多枚核弹头，与法国核潜艇武装的核弹头类似，两艘核潜艇相撞可能是法国和北约国家之间缺乏沟通的结果。
-
-(ROOT (IP (IP (PP (IN 据) (IP (NP (QP (CD 一) (CLP (NNB 名))) (NP (ADJP (PFA 前)) (NP (NNP 英国)) (NP (NN 潜艇) (VV 指挥) (SFN 官)))) (VP (VV 透露)))) (, ，) (NP (DNP (NP (NP (NNP 法国)) (NP (NN 海军))) (DEC 的)) (QP (CD 一) (CLP (NNB 名))) (NP (NN 官员))) (VP (NP (NN 部分)) (VP (VV 证实) (AS 了) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 说法)))))) (, ，) (IP (NP (NP (NNP 英国)) (NP (NN 核) (NN 潜艇))) (VP (VP (VV 载有) (NP (QP (CD 多) (CLP (NNB 枚))) (NP (NN 核弹) (SFN 头)))) (, ，) (VP (PP (IN 与) (NP (DNP (NP (NP (NP (NNP 法国)) (NP (NN 核) (NN 潜艇))) (NP (NN 武装))) (DEC 的)) (NP (NN 核弹) (SFN 头)))) (VP (VV 类似))))) (, ，) (IP (IP (NP (QP (CD 两) (CLP (NNB 艘))) (NP (NN 核) (NN 潜艇))) (VP (VV 相撞))) (VP (MD 可能) (VP (VC 是) (NP (CP (IP (LCP (NP (NP (NNP 法国) (CC 和) (NNP 北约)) (NP (NN 国家))) (IN 之间)) (VP (VV 缺乏) (NP (NN 沟通)))) (DEC 的)) (NP (NN 结果)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'IP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'IP': {}, 'VP': {}}}
+.
+(ROOT (. .))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+.	ROOT	root
 ----------------------------------------------------------------------
-2月3日或4日，英国的 HMS Vanguard 和法国的 Le Triomphant 在大西洋中部发生碰撞。
-
-(ROOT (IP (NP (CD 2) (NNB 月) (CD 3) (NNB 日) (CC 或) (CD 4) (NNB 日)) (, ，) (NP (NP (DNP (NP (NNP 英国)) (DEC 的)) (NP (FW HMS) (FW Vanguard))) (CC 和) (NP (DNP (NP (NNP 法国)) (DEC 的)) (NP (FW Le) (FW Triomphant)))) (VP (PP (VV 在) (NP (NP (NNP 大西) (SFN 洋)) (NP (NN 中部)))) (VP (VV 发生) (NP (NN 碰撞)))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}, 'CC': {}}, ',': {}, 'NP': {'NP': {}, 'CC': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}, 'CC': {}}}
-{'NP': {'NP': {}, 'CC': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
+/
+(ROOT (. /))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+/	ROOT	root
 ----------------------------------------------------------------------
-事故可能是因为两艘潜艇都不知道对方在哪里。
-
-(ROOT (IP (NP (NN 事故)) (VP (MD 可能) (VP (VC 是) (PP (IN 因为) (IP (NP (QP (CD 两) (CLP (NNB 艘))) (NP (NN 潜艇))) (VP (ADVP (RB 都)) (ADVP (RB 不)) (VP (VV 知道) (IP (NP (NN 对方)) (VP (VV 在) (NP (WP 哪里)))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
+i
+(ROOT (FW i))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+i	ROOT	root
 ----------------------------------------------------------------------
-北约运行一个交通控制系统，警告盟国注意友军潜艇的部署区域。
-
-(ROOT (IP (NP (NNP 北约)) (VP (VP (VV 运行) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 交通) (NN 控制) (NN 系统)))) (, ，) (VP (VV 警告) (NP (NN 盟国)) (IP (VP (VV 注意) (NP (DNP (NP (NN 友军) (NN 潜艇)) (DEC 的)) (NP (NN 部署) (NN 区域))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+n
+(ROOT (FW n))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+n	ROOT	root
 ----------------------------------------------------------------------
-该系统旨在避免碰撞。
-
-(ROOT (IP (NP (DP (DT 该)) (NP (NN 系统))) (NP (VV 旨)) (VP (VV 在) (IP (VP (VV 避免) (NP (VV 碰撞))))) (. 。)))
-{'IP': {'NP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'NP': {'VV': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'NP': {'VV': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
+s
+(ROOT (NP (FW s)))
+layer 2:
+{'NP': {'FW': {}}}
+{'NP': {'FW': {}}}
+layer 3:
+{'NP': {'FW': {}}}
+{'NP': {'FW': {}}}
+Dependency Features:
+s	ROOT	root
 ----------------------------------------------------------------------
-但是，由于法国不是北约的军事指挥结构的一部分，因此，法国不会向该系统提供其移动核武器的位置信息，据朱利安·弗格森 (Julian Ferguson) 称，他曾指挥英国的四艘 V 级核潜艇，直到 2006 年退休。
-
-(ROOT (IP (IP (ADVP (RB 但是)) (, ，) (PP (IN 由于) (IP (NP (NNP 法国)) (VP (VC 不是) (NP (DNP (NP (DNP (NP (NNP 北约)) (DEC 的)) (NP (NN 军事) (NN 指挥) (NN 结构))) (DEC 的)) (QP (CD 一)) (NP (NN 部分)))))) (, ，) (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (NNP 法国)) (VP (MD 不会) (VP (PP (IN 向) (NP (DP (DT 该)) (NP (NN 系统)))) (VP (VV 提供) (NP (DNP (NP (NP (PRP 其)) (NP (NN 移动) (NN 核) (NN 武器))) (DEC 的)) (NP (NN 位置) (NN 信息))))))) (, ，) (IP (PP (IN 据) (IP (NP (NNP 朱) (NNP 利安) (/ ·) (NNP 弗格森) (FW -LRB-Julian) (FW Ferguson-RRB-)) (VP (VV 称)))) (, ，) (NP (PRP 他)) (VP (ADVP (RB 曾)) (VP (VV 指挥) (NP (DNP (NP (NNP 英国)) (DEC 的)) (QP (CD 四) (CLP (NNB 艘))) (NP (FW V) (NN 级核)) (NP (NN 潜艇)))))) (, ，) (PP (IN 直到) (NP (CD 2006) (NNB 年退休))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'PP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'NP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'PP': {'IN': {}, 'NP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-“对于美国、英国、挪威、荷兰和加拿大的社区，有一套操作规定，如果你想进入别人的影响范围，你必须告诉他们你在做什么，但如果你不属于北约军事结构，你就不用这么做，”弗格森说。
-
-(ROOT (IP (IP (`` “) (PP (IN 对于) (NP (DNP (NP (NNP 美国) (EC 、) (NNP 英国) (EC 、) (NNP 挪威) (EC 、) (NNP 荷兰) (CC 和) (NNP 加拿大)) (DEC 的)) (NP (NN 社区)))) (, ，) (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 套))) (NP (NN 操作) (NN 规定)))) (, ，) (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 你)) (VP (MD 想) (IP (VP (VV 进入) (NP (DNP (NP (NN 别人)) (DEC 的)) (NP (NN 影响) (NN 范围)))))))) (, ，) (NP (PRP 你)) (VP (MD 必须) (VP (VV 告诉) (NP (PRP 他们)) (NP (PRP 你)) (IP (VP (ADVP (RB 在)) (VP (VV 做) (NP (WP 什么)))))))) (, ，) (IP (ADVP (RB 但)) (CP (ADVP (IN 如果)) (IP (NP (PRP 你)) (VP (ADVP (RB 不)) (VP (VV 属) (PP (VV 于) (NP (NP (NNP 北约)) (NP (NN 军事) (NN 结构)))))))) (, ，) (NP (PRP 你)) (VP (ADVP (RB 就)) (VP (VV 不用) (VP (ADVP (RB 这么)) (VP (VV 做))))))) (, ，) ('' ”) (NP (NNP 弗格森)) (VP (VV 说)) (. 。)))
-{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'``': {}, 'PP': {}, ',': {}, 'VP': {}, ',': {}, 'IP': {}, 'IP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
-{'IP': {'``': {}, 'PP': {}, ',': {}, 'VP': {}, ',': {}, 'IP': {}, 'IP': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}}}
+r
+(ROOT (FW r))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+r	ROOT	root
 ----------------------------------------------------------------------
-法国海军向《时代》证实，法国不会向北约部队提供其核武装潜艇的位置：“法国不会提供任何有关其核武器或携带核武器的潜艇位置的信息，因为法国认为其核武库是其国防能力中最重要的组成部分，”法国海军发言人奥鲁林 (JЁ¦rome Erulin) 说。
-
-(ROOT (IP (IP (IP (NP (NP (NNP 法国)) (NP (NN 海军))) (VP (PP (IN 向) (NP (-LRB- 《) (NN 时代) (-RRB- 》))) (VP (VV 证实) (, ，) (IP (IP (NP (NNP 法国)) (VP (MD 不会) (VP (PP (IN 向) (NP (NP (NNP 北约)) (NP (NN 部队)))) (VP (VV 提供) (NP (DNP (NP (NP (PRP 其)) (NP (NN 核) (NN 武装) (NN 潜艇))) (DEC 的)) (NP (NN 位置))))))) (: ：) (IP (`` “) (NP (NNP 法国)) (VP (MD 不会) (VP (VV 提供) (NP (DP (DT 任何)) (DNP (PP (PP (IN 有关) (NP (NP (PRP 其)) (NP (NN 核) (NN 武器)))) (CC 或) (NP (CP (CP (IP (VP (VV 携带) (NP (NN 核) (NN 武器)))) (DEC 的))) (NP (NN 潜艇) (NN 位置)))) (DEC 的)) (NP (NN 信息))))) (, ，) (PP (IN 因为) (IP (NP (NNP 法国)) (VP (VV 认为) (IP (NP (NP (PRP 其)) (NP (NN 核) (NN 武库))) (VP (VC 是) (NP (CP (CP (IP (VP (LCP (NP (NP (PRP 其)) (NP (NN 国防) (NN 能力))) (IN 中)) (ADVP (RB 最)) (VP (JJ 重要)))) (DEC 的))) (NP (NN 组成) (NN 部分))))))))))))) (, ，) ('' ”)) (NP (NP (NP (NNP 法国)) (NP (NN 海军) (VV 发言) (SFN 人))) (NP (NNP 奥鲁林) (FW -LRB-J) (FW Ё¦rome) (FW Erulin-RRB-))) (VP (VV 说)) (. 。)))
-{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, "''": {}}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, "''": {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}}}
+u
+(ROOT (FW u))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+u	ROOT	root
 ----------------------------------------------------------------------
-北约消息人士告诉《时代》杂志，法国并非唯一拒绝透露核潜艇信息的国家，英国和美国也不愿透露其战略威慑的位置。
-
-(ROOT (IP (NP (NP (NNP 北约)) (NP (NN 消息) (NN 人士))) (VP (VV 告诉) (NP (NP (-LRB- 《) (NN 时代) (-RRB- 》)) (NP (NN 杂志))) (, ，) (IP (IP (NP (NNP 法国)) (VP (VC 并非) (NP (ADJP (RB 唯一)) (CP (CP (IP (VP (VV 拒绝) (IP (VP (VV 透露) (NP (NN 核) (NN 潜艇) (NN 信息)))))) (DEC 的))) (NP (NN 国家))))) (, ，) (IP (NP (NNP 英国) (CC 和) (NNP 美国)) (VP (ADVP (RB 也)) (VP (MD 不愿) (VP (VV 透露) (NP (DNP (NP (NP (PRP 其)) (NP (NN 战略) (NN 威慑))) (DEC 的)) (NP (NN 位置))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}}
+c
+(ROOT (FW c))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+c	ROOT	root
 ----------------------------------------------------------------------
-北约发言人在一份声明中表示：“法国在其潜艇舰队方面采用与其他盟国相同的程序。”
-
-(ROOT (IP (NP (NP (NNP 北约)) (NP (VV 发言) (SFN 人))) (VP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 份))) (NP (NN 声明))) (IN 中))) (VP (VV 表示) (: ：) (IP (`` “) (NP (NNP 法国)) (VP (PP (IN 在) (NP (NP (NP (PRP 其)) (NP (NN 潜艇) (NN 舰队))) (NP (NN 方面)))) (VP (VV 采用) (NP (CP (CP (IP (VP (PP (IN 与) (NP (DP (DT 其他)) (NP (NN 盟国)))) (VP (JJ 相同)))) (DEC 的))) (NP (NN 程序)))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-但费格森说，法国人特别保守，这是因为法国在北约的指挥结构中处于外部。
-
-(ROOT (IP (NP (NNP 但费格森)) (VP (VV 说) (, ，) (IP (IP (NP (NP (NNP 法国)) (NP (SFN 人))) (VP (ADVP (RB 特别)) (VP (JJ 保守)))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (PP (IN 因为) (IP (NP (NNP 法国)) (VP (PP (IN 在) (LCP (NP (DNP (NP (NNP 北约)) (DEC 的)) (NP (NN 指挥) (NN 结构))) (IN 中))) (VP (VV 处) (PP (VV 于) (NP (NN 外部))))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
 ----------------------------------------------------------------------
-以往的政策级讨论表明，人们对沟通不足表示关注。
-
-(ROOT (IP (NP (DNP (NP (NN 以往)) (DEC 的)) (NP (NN 政策) (SFN 级) (NN 讨论))) (VP (VV 表明) (, ，) (IP (NP (NN 人们)) (VP (PP (IN 对) (IP (NP (NN 沟通)) (VP (JJ 不足)))) (VP (VV 表示) (NP (NN 关注)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-1994 年，英国和法国讨论了两国海军之间更加紧密的合作，以及可能的部署区域分割，以便两国核潜艇巡逻。
-
-(ROOT (IP (NP (CD 1994) (NNB 年)) (, ，) (NP (NNP 英国) (CC 和) (NNP 法国)) (VP (VP (VV 讨论) (AS 了) (NP (NP (LCP (NP (NP (QP (CD 两)) (NP (NN 国))) (NP (NN 海军))) (IN 之间)) (CP (CP (IP (VP (ADVP (RB 更加)) (VP (JJ 紧密)))) (DEC 的))) (NP (NN 合作))) (, ，) (CC 以及) (NP (CP (CP (IP (VP (MD 可能))) (DEC 的))) (NP (NN 部署) (NN 区域) (NN 分割))))) (, ，) (VP (RB 以) (VP (VV 便) (IP (NP (NP (QP (CD 两)) (NP (NN 国))) (NP (NN 核) (NN 潜艇))) (VP (VV 巡逻)))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'NNP': {}, 'CC': {}, 'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}}}
-{'NP': {'NNP': {}, 'CC': {}, 'NNP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+x
+(ROOT (FW x))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+x	ROOT	root
 ----------------------------------------------------------------------
-直到 2000 年 9 月，英国和法国才在《英法双边防务合作协议》中正式确定了这一安排。
-
-(ROOT (IP (PP (IN 直到) (NP (CD 2000) (NNB 年 9) (NNB 月))) (, ，) (NP (NNP 英国) (CC 和) (NNP 法国)) (VP (ADVP (RB 才)) (PP (IN 在) (NP (NP (-LRB- 《) (NP (NP (NNP 英) (NNP 法)) (QP (CD 双) (CLP (NN 边))) (NP (NN 防务) (NN 合作))) (NP (NN 协议)) (-RRB- 》)) (ADJP (NN 中正)) (NP (SFN 式)))) (VP (VV 确定) (AS 了) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 安排))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}, 'CC': {}, 'NNP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'NP': {}}}
-{'NP': {'NNP': {}, 'CC': {}, 'NNP': {}}}
-{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------
-该协议要求英国和法国核潜艇进行港口访问，并定期就核政策进行交流。
-
-(ROOT (IP (NP (DP (DT 该)) (NP (NN 协议))) (VP (VP (VV 要求) (NP (NP (NNP 英国) (CC 和) (NNP 法国)) (NP (NN 核) (NN 潜艇))) (IP (VP (VV 进行) (NP (NN 港口) (NN 访问))))) (, ，) (RB 并) (VP (ADVP (RB 定期)) (PP (IN 就) (NP (NN 核) (NN 政策))) (VP (VV 进行) (NP (NN 交流))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+/
+(ROOT (. /))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+/	ROOT	root
 ----------------------------------------------------------------------
-但是，尚不清楚是否包括交换有关核武装潜艇定位的信息，许多军火专家表示很可能没有。
-
-(ROOT (IP (IP (ADVP (RB 但是)) (, ，) (VP (ADVP (RB 尚)) (ADVP (RB 不)) (VP (VV 清楚) (IP (VP (ADVP (VC 是否)) (VP (VV 包括) (NP (CP (CP (IP (VP (VV 交换) (NP (NP (ADJP (IN 有关)) (NP (NN 核) (NN 武装) (NN 潜艇))) (NP (NN 定位))))) (DEC 的))) (NP (NN 信息))))))))) (, ，) (IP (NP (QP (CD 许多)) (NP (NN 军火) (NN 专家))) (VP (VV 表示) (IP (VP (ADVP (RB 很)) (VP (MD 可能) (VP (VV 没有))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+B
+(ROOT (FW B))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+B	ROOT	root
 ----------------------------------------------------------------------
-美国科学家联合会的代表汉斯·克里斯滕森 (Hans Kristensen) 表示：“这起碰撞事件的发生本身就表明，这两个盟国需要多交流。”
-
-(ROOT (IP (NP (NP (DNP (NP (NNP 美国) (NN 科学) (SFN 家) (VV 联合) (SFN 会)) (DEC 的)) (NP (NN 代表))) (NP (NNP 汉斯) (/ ·) (NNP 克里斯滕森) (FW -LRB-Hans) (FW Kristensen-RRB-))) (VP (VV 表示) (: ：) (IP (`` “) (IP (NP (NP (DNP (NP (DP (DT 这) (CLP (NNB 起))) (NP (NN 碰撞) (NN 事件))) (DEC 的)) (NP (NN 发生))) (NP (PRD 本身))) (VP (ADVP (RB 就)) (VP (VV 表明) (, ，) (IP (NP (DP (DT 这) (QP (CD 两) (CLP (NNB 个)))) (NP (NN 盟国))) (VP (MD 需要) (VP (ADVP (RB 多)) (VP (VV 交流)))))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+0
+(ROOT (LS 0))
+layer 2:
+{'LS': {}}
+layer 3:
+{'LS': {}}
+Dependency Features:
+0	ROOT	root
 ----------------------------------------------------------------------
-弗格森表示，即使在没有通讯的情况下，两艘配备声呐的核潜艇在大海中相遇也是一件不太可能的事，但大西洋有环境异常，这可能会导致两艘潜艇相撞。
-
-(ROOT (IP (NP (NNP 弗格森)) (VP (VV 表示) (, ，) (IP (IP (IP (CP (ADVP (IN 即使)) (IP (PP (IN 在) (LCP (NP (CP (IP (VP (VV 没有) (NP (NN 通讯)))) (DEC 的)) (NP (NN 情况))) (IN 下))) (, ，) (NP (QP (CD 两) (CLP (NNB 艘))) (CP (CP (IP (VP (VV 配备) (NP (NN 声呐)))) (DEC 的))) (NP (NN 核) (NN 潜艇))) (VP (PP (VV 在) (LCP (NP (NN 大海)) (NN 中))) (VP (VV 相遇))))) (VP (VC 也是) (NP (QP (CD 一) (CLP (NNB 件))) (CP (CP (IP (VP (ADVP (RB 不)) (ADVP (RB 太)) (VP (MD 可能)))) (DEC 的))) (NP (NN 事))))) (, ，) (ADVP (RB 但)) (NP (NNP 大西) (SFN 洋)) (VP (VV 有) (IP (NP (NN 环境)) (VP (JJ 异常))))) (, ，) (IP (NP (PRD 这)) (VP (MD 可能) (VP (MD 会) (VP (VV 导致) (IP (NP (QP (CD 两) (CLP (NNB 艘))) (NP (NN 潜艇))) (VP (VV 相撞))))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+6
+(ROOT (CD 6))
+layer 2:
+{'CD': {}}
+layer 3:
+{'CD': {}}
+Dependency Features:
+6	ROOT	root
 ----------------------------------------------------------------------
-例如，潜艇在执行威慑任务时，往往聚集在其他潜艇和间谍飞机不太可能发现的地方。
-
-(ROOT (IP (ADVP (VV 例如)) (, ，) (NP (NN 潜艇)) (VP (PP (IN 在) (LCP (IP (VP (VV 执行) (NP (NN 威慑) (NN 任务)))) (IN 时))) (, ，) (ADVP (RB 往往)) (VP (VV 聚集) (PP (IN 在) (NP (CP (CP (IP (NP (DP (DT 其他)) (NP (NN 潜艇) (CC 和) (NN 间谍) (NN 飞机))) (VP (ADVP (RB 不)) (ADVP (RB 太)) (VP (MD 可能) (VP (VV 发现))))) (DEC 的))) (NP (NN 地方)))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'VV': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'PP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'VV': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'PP': {}, ',': {}, 'ADVP': {}, 'VP': {}}}
+B
+(ROOT (FW B))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+B	ROOT	root
 ----------------------------------------------------------------------
-“海洋学上有一些因素，你可以在海洋边上的任何一边，气温会稍微不同，但对面会稍微冷一些。大西洋上的热带涛动就是一个典型例子。有时这些障碍会很难以逾越，声音根本无法穿透。如果你的业务是隐藏的，那么你就会隐藏在这个地方。这里面还有一个附加风险，即鉴于环境因素，你可能无法及时听到另一艘潜艇的声音，无法及时采取行动。”
-
-(ROOT (IP (`` “) (IP (LCP (NP (NN 海洋) (SFN 学)) (IN 上)) (VP (VV 有) (NP (QP (JJ 一些)) (NP (NN 因素))))) (, ，) (IP (NP (PRP 你)) (VP (MD 可以) (VP (PP (VV 在) (NP (DNP (LCP (NP (NN 海洋)) (NN 边上)) (DEC 的)) (DP (DT 任何)) (NP (NN 一边))))))) (, ，) (IP (NP (NN 气温)) (VP (MD 会) (VP (ADVP (RB 稍微)) (VP (JJ 不同))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 对面)) (VP (MD 会) (VP (ADVP (RB 稍)) (ADVP (JJ 微)) (VP (JJ 冷) (ADVP (JJ 一些)))))) (. 。)))
-{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'``': {}, 'IP': {'LCP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}, 'ADVP': {}}, ',': {}, '.': {}}}
-{'IP': {'LCP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}, 'ADVP': {}}}
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
 ----------------------------------------------------------------------
-法国和英国潜艇上的多枚城市毁灭性的核弹头不会因碰撞而引爆，弗格森说。
-
-(ROOT (IP (IP (NP (NP (DNP (LCP (NP (NP (NNP 法国) (CC 和) (NNP 英国)) (NP (NN 潜艇))) (NN 上)) (DEC 的)) (QP (CD 多) (CLP (NNB 枚))) (NP (NN 城市))) (DNP (NP (VV 毁灭) (SFN 性)) (DEC 的)) (NP (NN 核弹) (SFN 头))) (VP (MD 不会) (VP (PP (IN 因) (NP (VV 碰撞))) (VP (RB 而) (VP (VV 引爆)))))) (, ，) (IP (NP (NNP 弗格森)) (VP (VV 说))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+e
+(ROOT (NP (ADD e)))
+layer 2:
+{'NP': {'ADD': {}}}
+{'NP': {'ADD': {}}}
+layer 3:
+{'NP': {'ADD': {}}}
+{'NP': {'ADD': {}}}
+Dependency Features:
+e	ROOT	root
 ----------------------------------------------------------------------
-但是，如果某艘船上的核反应堆受损，就可能会把船员中毒，并且会在大西洋上几英里范围内扩散放射性废物。
-
-(ROOT (IP (ADVP (RB 但是)) (, ，) (CP (ADVP (IN 如果)) (IP (NP (DNP (LCP (NP (DT 某艘)) (NN 船上)) (DEC 的)) (NP (NN 核) (VV 反应) (SFN 堆))) (VP (VV 受损)))) (, ，) (VP (ADVP (RB 就)) (VP (MD 可能) (VP (MD 会) (VP (VP (BB 把) (IP (NP (NN 船员)) (VP (VV 中毒)))) (, ，) (RB 并且) (VP (MD 会) (VP (PP (VV 在) (LCP (NP (LCP (NP (NNP 大西) (SFN 洋)) (NN 上)) (QP (CD 几) (CLP (NNB 英里))) (NP (NN 范围))) (NN 内))) (VP (VV 扩散) (NP (ADJP (VV 放射)) (ADJP (SFN 性)) (NP (NN 废物)))))))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'CP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+n
+(ROOT (FW n))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+n	ROOT	root
 ----------------------------------------------------------------------
-如果事实上这起坠机事件可以通过法国与北约之间更好的沟通预防的话，这一披露的时机很不合适：法国将于4月重新加入北约的军事基础设施。
-
-(ROOT (CP (ADVP (IN 如果)) (IP (LCP (NP (NN 事实)) (IN 上)) (NP (DP (DT 这) (CLP (NNB 起))) (NP (NN 坠机) (NN 事件))) (VP (MD 可以) (VP (PP (IN 通过) (NP (NP (LCP (NP (NNP 法国) (CC 与) (NNP 北约)) (IN 之间)) (CP (CP (IP (VP (JJ 更好))) (DEC 的))) (NP (NN 沟通) (NN 预防))) (UH 的话))) (, ，) (NP (DP (DT 这) (QP (CD 一))) (CP (CP (IP (VP (VP (VV 披露)))) (DEC 的))) (NP (NN 时机))) (VP (ADVP (RB 很)) (ADVP (RB 不)) (VP (JJ 合适)))))) (: ：)))
-{'CP': {'ADVP': {}, 'IP': {}, ':': {}}}
-{'CP': {'ADVP': {'IN': {}}, 'IP': {'LCP': {}, 'NP': {}, 'VP': {}}, ':': {}}}
-{'ADVP': {'IN': {}}}
-{'IP': {'LCP': {}, 'NP': {}, 'VP': {}}}
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
 ----------------------------------------------------------------------
-在此之前，法国方面表示不会就此问题妥协，因此，法国的核潜艇位置保密政策可能会受到批评。
-
-(ROOT (IP (IP (LCP (NP (VV 在此)) (IN 之前)) (, ，) (NP (NP (NNP 法国)) (NP (NN 方面))) (VP (VV 表示) (IP (VP (MD 不会) (VP (PP (VV 就此) (NP (NN 问题))) (VP (VV 妥协))))))) (, ，) (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (DNP (NP (NNP 法国)) (DEC 的)) (NP (NN 核) (NN 潜艇) (NN 位置)) (NP (NN 保密) (NN 政策))) (VP (MD 可能) (VP (MD 会) (VP (VV 受到) (NP (NN 批评)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+z
+(ROOT (FW z))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+z	ROOT	root
 ----------------------------------------------------------------------
-法国海军的埃鲁林解释说：“这对于法国的战略防御利益来说非常重要，即使法国完全重新融入北约的军事指挥结构，这也是一项将会得到维持的事情。”
-
-(ROOT (IP (NP (DNP (NP (NP (NNP 法国)) (NP (NN 海军))) (DEC 的)) (NP (NNP 埃鲁林))) (VP (VP (VV 解释)) (VP (VV 说) (: ：) (IP (`` “) (IP (NP (PRD 这)) (VP (IP (VP (PP (IN 对于) (NP (DNP (NP (NNP 法国)) (DEC 的)) (NP (NN 战略) (NN 防御) (NN 利益)))) (VP (RB 来) (VP (VV 说))))) (ADVP (RB 非常)) (VP (JJ 重要)))) (, ，) (IP (CP (ADVP (IN 即使)) (IP (NP (NNP 法国)) (VP (ADVP (RB 完全)) (ADVP (RB 重新)) (VP (VV 融入) (NP (DNP (NP (NNP 北约)) (DEC 的)) (NP (NN 军事) (NN 指挥) (NN 结构))))))) (, ，) (NP (PRD 这)) (VP (VC 也是) (NP (QP (CD 一) (CLP (NNB 项))) (CP (CP (IP (VP (ADVP (RB 将)) (VP (MD 会) (VP (VV 得到) (NP (VV 维持)))))) (DEC 的))) (NP (NN 事情)))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VP': {}, 'VP': {}}}
+h
+(ROOT (FW h))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+h	ROOT	root
+----------------------------------------------------------------------
+.
+(ROOT (. .))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+.	ROOT	root
+----------------------------------------------------------------------
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
+----------------------------------------------------------------------
+x
+(ROOT (FW x))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+x	ROOT	root
+----------------------------------------------------------------------
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
 ----------------------------------------------------------------------

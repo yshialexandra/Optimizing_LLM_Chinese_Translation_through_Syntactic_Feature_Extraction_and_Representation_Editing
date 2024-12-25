@@ -1,328 +1,735 @@
-2012 年巡回赛进入最后一周，在比赛最后一天，队伍将在巴黎香榭丽舍大道上进行圈位赛，此前还有一些艰难的登山路段和决定性的个人竞速赛。
+亚太各国领导人表示，他们将采取“具体步骤”，以建立一个“全面”的区域自由贸易协定，但没有为实现这一目标设定目标。
 
-(ROOT (IP (IP (NP (NP (CD 2012) (NNB 年)) (NP (VV 巡回) (SFN 赛))) (VP (VV 进入) (QP (ADJP (NN 最后)) (QP (CD 一) (CLP (NNB 周)))))) (, ，) (IP (PP (IN 在) (QP (NP (NN 比赛)) (ADJP (NN 最后)) (QP (CD 一) (CLP (NNB 天))))) (, ，) (NP (NN 队伍)) (VP (ADVP (RB 将)) (PP (IN 在) (LCP (NP (NNP 巴黎) (NNP 香榭丽舍) (NN 大道)) (NN 上))) (VP (VV 进行) (NP (NN 圈) (SFN 位) (SFN 赛))))) (, ，) (IP (VP (ADVP (NN 此前)) (ADVP (RB 还)) (VP (VV 有) (NP (NP (QP (JJ 一些)) (CP (CP (IP (VP (JJ 艰难))) (DEC 的))) (NP (NN 登山) (NN 路段))) (CC 和) (NP (DNP (NP (VV 决定) (SFN 性)) (DEC 的)) (NP (JJ 个人) (NN 竞速) (SFN 赛))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, 'VP': {}}}
+(ROOT (IP (NP (NP (NNP 亚太) (NN 各国)) (NP (VV 领导) (SFN 人))) (VP (VV 表示) (, ，) (IP (NP (PRP 他们)) (VP (VP (ADVP (RB 将)) (VP (VP (VV 采取) (NP (`` “) (ADJP (JJ 具体)) (NP (NN 步骤)) ('' ”))) (, ，) (VP (RB 以) (VP (VV 建立) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (ADJP (`` “) (JJ 全面) ('' ”)) (DEC 的)) (NP (NN 区域) (NN 自由) (NN 贸易)) (NP (NN 协定))))))) (, ，) (VP (ADVP (RB 但)) (VP (VV 没有) (VP (PP (IN 为) (IP (VP (VV 实现) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 目标)))))) (VP (VV 设定) (NP (NN 目标))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP43920': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+亚太	人	nmod
+各国	人	nmod
+领导	人	compound
+人	表示	nsubj
+表示	ROOT	root
+，	有	punct
+他	有	nsubj
+将	采取	advmod
+采取	建立	advcl
+“	步骤	punct
+具体	步骤	amod
+步骤	采取	obj
+”	步骤	punct
+，	采取	punct
+以	建立	mark
+建立	有	advcl
+一	个	nummod
+个	协定	clf
+“	全面	punct
+全面	协定	amod
+”	全面	punct
+的	全面	mark:rel
+区域	协定	nmod
+自由	协定	nmod
+贸易	协定	nmod
+协定	建立	obj
+，	建立	punct
+但	有	mark
+有	表示	ccomp
+为	实现	case
+实现	设定	xcomp
+这	目标	det
+一	目标	nummod
+目标	实现	obj
+设定	有	xcomp
+目标	设定	obj
+。	表示	punct
 ----------------------------------------------------------------------
-除非出现意外，否则领先的布拉德利·威金斯将成为迄今为止在 99 届巡回赛中第一个获得巡回赛冠军的英国选手。
+“我们重申，我们坚定不移地致力于实现本地区的自由和开放的贸易和投资，”亚太经济合作组织 21 个成员国的领导人今天在日本横滨发表的声明中说到。
 
-(ROOT (IP (IP (VP (ADVP (IN 除非)) (VP (VV 出现) (NP (NN 意外))))) (, ，) (ADVP (VV 否则)) (NP (CP (CP (IP (VP (VV 领先))) (DEC 的))) (NP (NNP 布拉德利) (/ ·) (NNP 威金斯))) (VP (ADVP (RB 将)) (VP (VV 成) (VP (VC 为) (NP (CP (IP (VP (NP (IN 迄) (NN 今)) (VP (VC 为) (VP (NN 止)))))) (PP (IN 在) (LCP (NP (QP (CD 99) (CLP (NNB 届))) (NP (NN 巡回) (SFN 赛))) (IN 中))) (QP (CD 第一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 获得) (NP (NN 巡回) (SFN 赛) (NN 冠军)))) (DEC 的))) (NP (NNP 英国)) (NP (NN 选手)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'ADVP': {'VV': {}}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+(ROOT (IP (`` “) (NP (PRP 我们)) (VP (VV 重申) (, ，) (IP (VP (LCP (NP (CP (CP (IP (IP (NP (NP (PRP 我们)) (CP (CP (VP (VP (ADVP (JJ 坚定)) (ADVP (RB 不)) (VP (VV 移地))) (VP (VV 致力) (PP (VV 于) (IP (VP (VV 实现) (NP (DNP (NP (DP (DT 本)) (NP (NN 地区))) (DEC 的)) (NP (NN 自由) (CC 和) (VV 开放)))))))) (DEC 的))) (NP (NN 贸易) (CC 和) (NN 投资))) (, ，) ('' ”)) (NP (DNP (NP (NP (NNP 亚太) (NN 经济) (NN 合作) (NN 组织)) (QP (CD 21) (CLP (NNB 个))) (NP (NN 成员) (SFN 国))) (DEC 的)) (NP (VV 领导) (SFN 人))) (VP (NP (RB 今天)) (PP (VV 在) (NP (NNP 日本) (NNP 横滨))) (VP (VV 发表)))) (DEC 的))) (NP (NN 声明))) (IN 中)) (VP (VV 说到))))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+“	重申	punct
+我	重申	nsubj
+重申	ROOT	root
+，	致力	punct
+我	致力	nsubj
+坚定	移地	advmod
+不	移地	advmod
+移地	致力	advcl
+致力	说到	advcl
+于	致力	mark
+实现	致力	xcomp
+本	地区	det
+地区	自由	nmod
+的	地区	case
+自由	贸易	nmod
+和	开放	cc
+开放	自由	conj
+的	自由	case
+贸易	实现	obj
+和	投资	cc
+投资	贸易	conj
+，	致力	punct
+”	贸易	punct
+亚太	国	nmod
+经济	组织	nmod
+合作	组织	nmod
+组织	国	nmod
+21	个	nummod
+个	国	nmod
+成员	国	compound
+国	人	nmod
+的	国	case
+领导	人	compound
+人	说到	nsubj
+今天	发表	advmod
+在	发表	advcl
+日本	横滨	nmod
+横滨	在	obj
+发表	声明	acl:relcl
+的	发表	mark:rel
+声明	说到	obl
+中	声明	case
+说到	重申	ccomp
+。	重申	punct
+----------------------------------------------------------------------
+“我们将努力解决贸易中的非关税壁垒，包括通过加强监管合作。”
+
+(ROOT (IP (`` “) (NP (PRP 我们)) (VP (ADVP (RB 将)) (ADVP (VV 努力)) (VP (VV 解决) (NP (DNP (LCP (NP (NN 贸易)) (IN 中)) (DEC 的)) (NP (ADJP (JJ 非关)) (NP (SFN 税))) (NP (NN 壁垒))))) (, ，) (IP (VP (VV 包括) (PP (IN 通过) (IP (VP (VV 加强) (NP (NN 监管) (VV 合作))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'ADVP78109': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
 {'IP': {'VP': {}}}
-{'ADVP': {'VV': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+“	包括	punct
+我	包括	nsubj
+将	努力	advmod
+努力	包括	advcl
+解决	努力	xcomp
+贸易	壁垒	nmod
+中	贸易	case
+的	贸易	case
+非关	税	compound
+税	壁垒	nmod
+壁垒	解决	obj
+，	努力	punct
+包括	ROOT	root
+通过	加强	case
+加强	包括	xcomp
+监管	合作	obl
+合作	加强	xcomp
+。	包括	punct
+”	包括	punct
 ----------------------------------------------------------------------
-他的主要对手克里斯托弗·霍恩 (Christopher Froome) 甚至没有尝试击败他，因为他们在同一支球队。
+这次峰会由美国、中国、日本和俄罗斯领导人出席，标志着四天的峰会谈判结束，峰会谈判突出了全球失衡问题上的分歧。
 
-(ROOT (IP (IP (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (ADJP (JJ 主要)) (NP (NN 对手))) (NP (NNP 克里斯托弗) (/ ·) (NNP 霍恩) (FW -LRB-Christopher) (FW Froome-RRB-))) (VP (ADVP (RB 甚至)) (VP (VV 没有) (VP (VV 尝试) (IP (VP (VV 击败) (NP (PRP 他)))))))) (, ，) (PP (IN 因为) (IP (NP (PRP 他们)) (VP (VV 在) (NP (DP (DT 同) (QP (CD 一) (CLP (NNB 支)))) (NP (NN 球队)))))) (. 。)))
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 次))) (NP (NNP 峰) (SFN 会))) (VP (PP (VV 由) (NP (NP (NNP 美国) (EC 、) (NNP 中国) (EC 、) (NNP 日本) (CC 和) (NNP 俄罗斯)) (NP (VV 领导) (SFN 人)))) (VP (VV 出席)))) (, ，) (IP (VP (VV 标志) (AS 着) (IP (NP (DNP (QP (CD 四) (CLP (NNB 天))) (DEC 的)) (NP (NN 峰会) (NN 谈判))) (VP (VV 结束))))) (, ，) (IP (NP (NN 峰会) (NN 谈判)) (VP (VV 突出) (AS 了) (NP (DNP (LCP (NP (NN 全球) (NN 失衡) (NN 问题)) (IN 上)) (DEC 的)) (NP (NN 分歧))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP60428': {}, ',16666': {}, 'IP71875': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP56819': {'VP': {}}, ',82665': {}, 'IP93439': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+这	次	det
+次	会	nmod
+峰	会	compound
+会	标志	nsubj
+由	标志	advcl
+美国	出席	nsubj
+、	中国	punct
+中国	美国	conj
+、	日本	punct
+日本	美国	conj
+和	人	cc
+俄罗斯	人	nmod
+领导	人	compound
+人	美国	conj
+出席	由	ccomp
+，	由	punct
+标志	ROOT	root
+着	标志	aux
+四	天	nummod
+天	谈判	nmod
+的	天	case
+峰会	谈判	nmod
+谈判	结束	nsubj
+结束	标志	ccomp
+，	突出	punct
+峰会	谈判	nmod
+谈判	突出	nsubj
+突出	标志	parataxis
+了	突出	aux
+全球	问题	nmod
+失衡	问题	nmod
+问题	分歧	nmod
+上	问题	case
+的	问题	case
+分歧	突出	obj
+。	标志	punct
+----------------------------------------------------------------------
+二十国集团十一月十二号在首尔承诺“反对贸易保护主义行动”，但未能就贸易和投资扭曲行为达成协议。
+
+(ROOT (NP (NP (NP (QP (CD 二十)) (NP (NN 国))) (NP (NN 集团))) (VP (VP (QP (QP (CD 十一) (CLP (NNB 月))) (QP (CD 十二) (CLP (NN 号)))) (PP (VV 在) (NP (NNP 首尔))) (VP (VV 承诺) (NP (`` “) (VV 反对) (NP (NN 贸易) (NN 保护) (NN 主义)) (NP (NN 行动)) ('' ”)))) (, ，) (VP (ADVP (RB 但)) (ADVP (MD 未能)) (PP (IN 就) (NP (NP (NN 贸易) (CC 和) (NN 投资)) (NP (NN 扭曲)) (NP (NN 行为)))) (VP (VV 达成) (NP (NN 协议))))) (. 。)))
+layer 2:
+{'NP': {'NP': {}, 'VP': {}, '.': {}}}
+{'NP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'NP': {'NP': {'NP': {}, 'NP57728': {}}, 'VP': {'VP': {}, ',': {}, 'VP9314': {}}, '.': {}}}
+{'NP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+二十	国	nummod
+国	集团	nmod
+集团	号	nmod
+十一	月	nummod
+月	号	clf
+十二	号	nummod
+号	达成	nsubj
+在	承诺	advcl
+首尔	在	obj
+承诺	达成	advcl
+“	反对	punct
+反对	行动	amod
+贸易	主义	nmod
+保护	主义	nmod
+主义	反对	obj
+行动	承诺	obj
+”	行动	punct
+，	承诺	punct
+但	达成	mark
+能	达成	aux
+就	行为	case
+贸易	行为	nmod
+和	投资	cc
+投资	贸易	conj
+扭曲	行为	nmod
+行为	达成	obl
+达成	ROOT	root
+协议	达成	obj
+。	达成	punct
+----------------------------------------------------------------------
+日本首相鸠山由纪夫表示，APEC占全球经济总量的50%以上，占全球贸易的近45%，“将推动建立亚太自由贸易区”。
+
+(ROOT (IP (NP (NP (NP (NNP 日本)) (NP (NN 首相))) (NP (NNP 鸠山) (NNP 由) (NNP 纪夫))) (VP (VV 表示) (, ，) (IP (IP (NP (FW APEC)) (VP (VP (VV 占) (LCP (DNP (NP (NN 全球) (NN 经济) (NN 总量)) (DEC 的)) (LCP (QP (CD 50%)) (IN 以上)))) (, ，) (VP (VV 占) (QP (DNP (NP (NN 全球) (NN 贸易)) (DEC 的)) (QP (ADVP (RB 近)) (QP (CD 45%))))))) (, ，) (VP (`` “) (ADVP (RB 将)) (VP (VV 推动) (IP (VP (VV 建立) (NP (NP (NNP 亚太)) (NP (ADJP (NN 自由)) (NP (VV 贸易))) (NP (SFN 区)))))) ('' ”)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP3337': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+日本	首相	nmod
+首相	表示	nsubj
+鸠山	首相	appos
+由	鸠山	flat:name
+纪夫	鸠山	flat:name
+表示	ROOT	root
+，	占	punct
+APEC	占	nsubj
+占	占	advcl
+全球	总量	nmod
+经济	总量	nmod
+总量	50%	nmod
+的	占	mark:rel
+50%	占	obj
+以上	50%	case
+，	占	punct
+占	表示	ccomp
+全球	贸易	nmod
+贸易	45%	nmod
+的	贸易	case
+近	45%	advmod
+45%	占	obj
+，	推动	punct
+“	推动	punct
+将	推动	advmod
+推动	表示	parataxis
+建立	推动	xcomp
+亚太	区	nmod
+自由	区	nmod
+贸易	区	compound
+区	建立	obj
+”	区	punct
+。	表示	punct
+----------------------------------------------------------------------
+分歧仍然存在
+
+(ROOT (IP (NP (NN 分歧)) (VP (ADVP (RB 仍然)) (VP (VV 存在)))))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}}}
+{'NP': {'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+分歧	存在	nsubj
+仍然	存在	advmod
+存在	ROOT	root
+----------------------------------------------------------------------
+但成员国之间的分歧仍然存在。
+
+(ROOT (IP (ADVP (RB 但)) (NP (DNP (LCP (NP (NN 成员) (SFN 国)) (IN 之间)) (DEC 的)) (NP (NN 分歧))) (VP (ADVP (RB 仍然)) (VP (VV 存在))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+但	存在	mark
+成员	国	compound
+国	分歧	nmod
+之间	国	case
+的	国	case
+分歧	存在	nsubj
+仍然	存在	advmod
+存在	ROOT	root
+。	存在	punct
+----------------------------------------------------------------------
+中国国家主席胡锦涛在美国总统奥巴马在首尔呼吁人民币“卖低”一天后，表示中国的货币政策没有改变。昨天，坎在会见胡锦涛和俄罗斯总统梅德韦杰夫时，就两国分别存在的领土争端进行了会谈，尽管三方都同意改善关系，但没有取得任何让步。
+
+(ROOT (IP (NP (NP (NP (NNP 中国)) (NP (NN 国家) (NN 主席))) (NP (NNP 胡) (NNP 锦) (NNP 涛))) (VP (LCP (IP (VP (PP (VV 在) (NP (NP (NP (NNP 美国)) (NP (NN 总统))) (NP (NNP 奥巴马)))) (PP (VV 在) (NP (NNP 首尔))) (VP (VV 呼吁) (NP (NNP 人民) (SFN 币)) (IP (VP (`` “) (VV 卖低) ('' ”) (QP (CD 一) (CLP (NNB 天)))))))) (IN 后)) (, ，) (VP (VV 表示) (IP (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NN 货币) (NN 政策))) (VP (VV 没有) (VP (NN 改变)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP47353': {}}, 'VP': {'LCP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'LCP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'LCP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+中国	主席	nmod
+国家	主席	nmod
+主席	表示	nsubj
+胡	主席	appos
+锦	胡	flat:name
+涛	胡	flat:name
+在	呼吁	advcl
+美国	总统	nmod
+总统	在	obj
+奥巴马	总统	appos
+在	呼吁	advcl
+首尔	在	obj
+呼吁	表示	advcl
+人民	币	compound
+币	卖低	nsubj
+“	卖低	punct
+卖低	呼吁	ccomp
+”	卖低	punct
+一	天	nummod
+天	卖低	obl
+后	呼吁	mark
+，	呼吁	punct
+表示	ROOT	root
+中国	政策	nmod
+的	中国	case
+货币	政策	nmod
+政策	有	nsubj
+有	表示	ccomp
+改变	有	obj
+。	表示	punct
+----------------------------------------------------------------------
+APEC 领导人表示，该地区“正在从最近的经济和金融危机中恢复，但不确定性仍然存在。”
+
+(ROOT (IP (NP (NP (FW APEC)) (NP (VV 领导) (SFN 人))) (VP (VV 表示) (, ，) (IP (IP (NP (DP (DT 该)) (NP (NN 地区))) (VP (`` “) (ADVP (RB 正)) (ADVP (RB 在)) (PP (IN 从) (LCP (NP (DNP (NP (NN 最近)) (DEC 的)) (NP (NN 经济) (CC 和) (NN 金融)) (NP (NN 危机))) (IN 中))) (VP (VV 恢复)))) (, ，) (IP (ADVP (RB 但)) (NP (CP (IP (VP (ADVP (RB 不)) (VP (JJ 确定))))) (NP (SFN 性))) (VP (ADVP (RB 仍然)) (VP (VV 存在)))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP80926': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+APEC	人	nmod
+领导	人	compound
+人	表示	nsubj
+表示	ROOT	root
+，	存在	punct
+该	地区	det
+地区	存在	nsubj
+“	恢复	punct
+正	恢复	advmod
+在	恢复	advmod
+从	危机	case
+最近	经济	nmod
+的	最近	case
+经济	危机	nmod
+和	金融	cc
+金融	经济	conj
+危机	恢复	obl
+中	危机	case
+恢复	存在	advcl
+，	恢复	punct
+但	存在	mark
+不	确定	advmod
+确定	性	compound
+性	存在	nsubj
+仍然	存在	advmod
+存在	表示	ccomp
+。	存在	punct
+”	存在	punct
+----------------------------------------------------------------------
+该集团在呼应 G20 声明时呼吁加强货币灵活性，并警告外汇市场动荡波动可能会扰乱经济增长。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 集团))) (VP (VP (PP (IN 在) (LCP (IP (VP (VV 呼应) (NP (NP (FW G20)) (NP (NN 声明))))) (IN 时))) (VP (VV 呼吁) (IP (VP (VV 加强) (NP (NP (NN 货币)) (NP (JJ 灵活) (SFN 性))))))) (, ，) (RB 并) (VP (VV 警告) (IP (IP (NP (NN 外汇) (NN 市场)) (VP (VCD (JJ 动荡) (NN 波动)))) (VP (MD 可能) (VP (MD 会) (VP (VV 扰乱) (NP (NN 经济) (NN 增长)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP93179': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+该	集团	det
+集团	警告	nsubj
+在	呼应	case
+呼应	呼吁	xcomp
+G20	声明	nmod
+声明	呼应	obj
+时	呼应	mark
+呼吁	警告	advcl
+加强	呼吁	xcomp
+货币	性	nmod
+灵活	性	compound
+性	加强	obj
+，	呼吁	punct
+并	警告	mark
+警告	ROOT	root
+外汇	波动	nmod
+市场	波动	nmod
+动荡	波动	amod
+波动	扰乱	nsubj
+可能	扰乱	aux
+会	扰乱	aux
+扰乱	警告	ccomp
+经济	增长	nmod
+增长	扰乱	obj
+。	警告	punct
+----------------------------------------------------------------------
+“市场决定”
+
+(ROOT (NP (`` “) (NN 市场) (VV 决定) ('' ”)))
+layer 2:
+{'NP': {'``': {}, 'NN': {}, 'VV': {}, "''": {}}}
+{'NP': {'``': {}, 'NN': {}, 'VV': {}, "''": {}}}
+layer 3:
+{'NP': {'``': {}, 'NN': {}, 'VV': {}, "''": {}}}
+{'NP': {'``': {}, 'NN': {}, 'VV': {}, "''": {}}}
+Dependency Features:
+“	决定	punct
+市场	决定	nsubj
+决定	ROOT	root
+”	决定	punct
+----------------------------------------------------------------------
+声明称，“我们将迈向更具市场决定性的汇率体系”，“避免货币竞争性贬值”。
+
+(ROOT (IP (NP (NN 声明)) (VP (VV 称) (, ，) (IP (IP (`` “) (NP (PRP 我们)) (VP (ADVP (RB 将)) (VP (VV 迈向) (NP (CP (CP (IP (VP (ADVP (RB 更)) (VP (VV 具) (NP (NN 市场) (VV 决定) (SFN 性))))) (DEC 的))) (NP (NN 汇率) (NN 体系))))) ('' ”)) (, ，) (VP (`` “) (VP (VV 避免) (NP (NP (NN 货币) (VV 竞争)) (VP (ADVP (SFN 性)) (VP (VV 贬值))))) ('' ”)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+声明	称	nsubj
+称	ROOT	root
+，	避免	punct
+“	避免	punct
+我	避免	nsubj
+将	迈向	advmod
+迈向	避免	advcl
+更	具	advmod
+具	体系	acl:relcl
+市场	性	nmod
+决定	性	compound
+性	具	obj
+的	具	mark:rel
+汇率	体系	nmod
+体系	迈向	obj
+”	体系	punct
+，	迈向	punct
+“	避免	punct
+避免	称	ccomp
+货币	性	nmod
+竞争	性	compound
+性	贬值	nsubj
+贬值	避免	ccomp
+”	避免	punct
+。	称	punct
+----------------------------------------------------------------------
+发达国家将保持警惕，“帮助缓解一些新兴市场经济体面临的资本流动过度波动的风险”。
+
+(ROOT (IP (NP (ADJP (JJ 发达)) (NP (NN 国家))) (VP (ADVP (RB 将)) (VP (VP (VV 保持) (NP (NN 警惕))) (, ，) (VP (`` “) (VV 帮助) (IP (VP (VV 缓解) (NP (QP (JJ 一些)) (CP (CP (IP (NP (NP (ADJP (JJ 新兴)) (NP (NN 市场))) (NP (NN 经济) (SFN 体))) (VP (VV 面临))) (DEC 的))) (CP (IP (NP (NN 资本) (NN 流动)) (VP (ADVP (JJ 过度)) (VP (NN 波动)))) (DEC 的)) (NP (NN 风险))))) ('' ”)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'ADJP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+发达	国家	amod
+国家	保持	nsubj
+将	保持	advmod
+保持	ROOT	root
+警惕	保持	obj
+，	帮助	punct
+“	帮助	punct
+帮助	保持	parataxis
+缓解	帮助	xcomp
+一些	体	amod
+新兴	体	amod
+市场	体	nmod
+经济	体	compound
+体	面临	nsubj
+面临	风险	acl:relcl
+的	面临	mark:rel
+资本	波动	nmod
+流动	波动	nmod
+过度	波动	amod
+波动	风险	nmod
+的	波动	case
+风险	缓解	obj
+”	风险	punct
+。	保持	punct
+----------------------------------------------------------------------
+该集团同意通过区域集团，包括东南亚国家联盟和美国主导的跨太平洋伙伴关系等谈判，建立贸易。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 集团))) (VP (VV 同意) (IP (VP (PP (IN 通过) (NP (NP (NN 区域) (NN 集团)) (, ，) (NP (ADVP (VV 包括)) (NP (NP (NP (NP (NP (NN 东南)) (NP (NNP 亚)) (NP (NN 国家))) (NP (NN 联盟))) (CC 和) (NP (CP (CP (IP (NP (NNP 美国)) (VP (VV 主导))) (DEC 的))) (IP (VP (VV 跨) (NP (NNP 太平) (SFN 洋)))) (NP (NN 伙伴) (NN 关系))) (NN 等)) (NP (NN 谈判)))))) (, ，) (VP (VV 建立) (NP (NN 贸易)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+该	集团	det
+集团	同意	nsubj
+同意	ROOT	root
+通过	集团	case
+区域	集团	nmod
+集团	建立	obl
+，	集团	punct
+包括	建立	advcl
+东南	亚	compound
+亚	联盟	nmod
+国家	联盟	nmod
+联盟	包括	obj
+和	关系	cc
+美国	主导	nsubj
+主导	关系	acl:relcl
+的	主导	mark:rel
+跨	关系	amod
+太平	洋	compound
+洋	关系	nmod
+伙伴	关系	nmod
+关系	联盟	conj
+等	联盟	acl
+谈判	联盟	appos
+，	包括	punct
+建立	同意	xcomp
+贸易	建立	obj
+。	同意	punct
+----------------------------------------------------------------------
+坚持加入TPP谈判的加茂雄面临着自己党内的阻力，因为日本的农民因关税保护而受益。
+
+(ROOT (IP (IP (NP (CP (CP (IP (VP (VV 坚持) (IP (VP (VP (VV 加入) (NP (FW TPP))) (VP (NN 谈判)))))) (DEC 的))) (NP (NNP 加) (NNP 茂雄))) (VP (VV 面临) (AS 着) (NP (DNP (LCP (NP (NP (PRD 自己)) (NP (SFN 党))) (IN 内)) (DEC 的)) (NP (NN 阻力))))) (, ，) (PP (IN 因为) (IP (NP (DNP (NP (NNP 日本)) (DEC 的)) (NP (NN 农民))) (VP (PP (IN 因) (NP (NN 关税) (NN 保护))) (VP (RB 而) (VP (VV 受益)))))) (. 。)))
+layer 2:
 {'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
 {'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'PP': {'IN': {}, 'IP': {}}}
+Dependency Features:
+坚持	加	acl:relcl
+加入	坚持	xcomp
+TPP	谈判	nmod
+谈判	加入	obj
+的	坚持	mark:rel
+加	面临	nsubj
+茂雄	加	flat:name
+面临	ROOT	root
+着	面临	aux
+自己	党	nmod
+党	阻力	nmod
+内	党	case
+的	党	case
+阻力	面临	obj
+，	受益	punct
+因为	受益	case
+日本	农民	nmod
+的	日本	case
+农民	受益	nsubj
+因	保护	case
+关税	保护	nmod
+保护	受益	obl
+而	受益	mark
+受益	面临	parataxis
+。	面临	punct
 ----------------------------------------------------------------------
-澳大利亚队的队长卡德尔·埃文斯（Cadel Evans）是去年的冠军，他努力保持冠军地位，但是戴维斯在时间赛车上的高超技艺和队伍在山地上的强大表现让他落后了几分钟。
+上周，他的内阁只同意就谈判进行初步讨论，奥巴马告诉加茂，他“非常欢迎”这一举动。
 
-(ROOT (IP (IP (NP (NP (DNP (NP (NP (NNP 澳大利亚)) (NP (SFN 队))) (DEC 的)) (NP (NN 队长))) (NP (NNP 卡) (NNP 德尔) (/ ·) (NNP 埃文斯) (PRN (-LRB- （) (NP (FW Cadel) (FW Evans)) (-RRB- ）)))) (VP (VC 是) (NP (DNP (NP (NN 去年)) (DEC 的)) (NP (NN 冠军))))) (, ，) (IP (NP (PRP 他)) (VP (ADVP (RB 努力)) (VP (VV 保持) (NP (NN 冠军) (NN 地位))))) (, ，) (IP (ADVP (RB 但是)) (NP (NP (NNP 戴维斯)) (DNP (PP (IN 在) (LCP (NP (NN 时间) (NN 赛车)) (IN 上))) (DEC 的)) (NP (NP (ADJP (JJ 高超)) (NP (NN 技艺))) (CC 和) (NP (NP (NN 队伍)) (DNP (PP (IN 在) (LCP (NP (NN 山地)) (IN 上))) (DEC 的)) (ADJP (JJ 强大)) (NP (NN 表现))))) (VP (VV 让) (NP (PRP 他)) (IP (VP (VV 落后) (AS 了) (QP (CD 几) (CLP (NNB 分钟))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在穆尔德佩盖尔山顶，一场可怕而危险的破坏行为袭击了车队，身份不明的袭击者在沥青上撒了几颗沙发钉，致使埃文斯和其他约 30 名骑手在山顶或陡坡上摔倒。
-
-(ROOT (IP (IP (PP (VV 在) (NP (NNP 穆尔德佩盖尔) (NN 山顶))) (, ，) (NP (QP (CD 一) (CLP (NNB 场))) (CP (CP (IP (VP (JJ 可怕) (CC 而) (JJ 危险))) (DEC 的))) (NP (NN 破坏) (NN 行为))) (VP (VV 袭击) (AS 了) (NP (NN 车队)))) (, ，) (IP (NP (CP (CP (IP (NP (NN 身份)) (VP (JJ 不明))) (DEC 的))) (NP (VV 袭击) (SFN 者))) (VP (PP (VV 在) (NP (NNP 沥青))) (VP (VV 上撒) (AS 了) (NP (QP (CD 几) (CLP (NNB 颗))) (NP (NN 沙发) (NN 钉)))))) (, ，) (IP (VP (VV 致使) (NP (NP (NNP 埃文斯)) (CC 和) (NP (DP (DT 其他)) (QP (ADVP (RB 约)) (QP (CD 30))) (NP (NNB 名骑手)))) (IP (VP (PP (VV 在) (LCP (NP (NN 山顶) (CC 或) (NN 陡坡)) (NN 上))) (VP (VV 摔倒)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-7 月 22 日，在 2173 英里（约 3525 公里）的赛程后，圣洛朗赛（ Tour de France）在巴黎落幕。——莱恩·特纳（共 31 张照片）
-
-(ROOT (IP (NP (CD 7) (NNB 月) (CD 22) (NNB 日)) (, ，) (PP (IN 在) (LCP (NP (DNP (QP (CD 2173) (CLP (NNB 英里)) (PRN (-LRB- （) (QP (ADVP (RB 约)) (QP (CD 3525) (CLP (NNB 公里)))) (-RRB- ）))) (DEC 的)) (NP (NN 赛程))) (IN 后))) (, ，) (NP (NNP 圣洛朗) (SFN 赛) (PRN (-LRB- （) (NP (FW Tour) (FW de) (FW France)) (-RRB- ）))) (VP (PP (VV 在) (NP (NNP 巴黎))) (VP (VV 落幕))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}, 'SFN': {}, 'PRN': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'NNP': {}, 'SFN': {}, 'PRN': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 12 日，英国队的布拉德利·威廉姆斯（Bradley Wiggins）身披黄色总冠军服，在第 11 赛段的圣巴泰勒米山脉上爬升克鲁瓦德费尔（Croix de Fer）隘口时，速度惊人。（Christophe Ena/Associated Press）
-
-(ROOT (IP (LCP (IP (NP (CD 2012) (NNB 年 7) (CD 月 12) (NNB 日)) (, ，) (NP (DNP (NP (NP (NNP 英国)) (NP (SFN 队))) (DEC 的)) (NP (NNP 布拉德利) (/ ·) (NNP 威廉姆斯) (PRN (-LRB- （) (NP (FW Bradley) (FW Wiggins)) (-RRB- ）)))) (VP (VP (ADVP (VV 身)) (VP (VV 披) (NP (ADJP (NN 黄色)) (ADJP (NN 总冠)) (NP (NN 军服))))) (, ，) (VP (PP (IN 在) (LCP (NP (DNP (NP (QP (CD 第) (QP (CD 11))) (NP (NN 赛段))) (DEC 的)) (NP (NNP 圣巴泰勒) (SFN 米) (NN 山脉))) (NN 上))) (VP (VV 爬升) (NP (NP (NNP 克鲁瓦德费尔) (PRN (-LRB- （) (NP (FW Croix) (FW de) (FW Fer)) (-RRB- ）))) (NP (NN 隘口))))))) (IN 时)) (, ，) (NP (NN 速度)) (VP (JJ 惊人)) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'JJ': {}}, '.': {}}}
-{'LCP': {'IP': {}, 'IN': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'JJ': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 9 日，英国的克里斯托弗·弗洛姆 (Christopher Froome) 在第 9 赛段（41.5 公里个人计时赛）的最后几米时，身形硬朗。
-
-(ROOT (IP (NP (CD 2012) (NNB 年 7) (CD 月 9) (NNB 日)) (, ，) (NP (DNP (NP (NNP 英国)) (DEC 的)) (NP (NNP 克里斯托弗) (/ ·) (NNP 弗洛姆) (FW -LRB-Christopher) (FW Froome-RRB-))) (PP (VV 在第) (LCP (QP (DNP (NP (QP (CD 9)) (NP (NN 赛段)) (PRN (-LRB- （) (IP (NP (QP (CD 41.5) (CLP (NNB 公里))) (QP (CD 个)) (NP (NN 人))) (VP (VV 计) (NP (NN 时赛)))) (-RRB- ）))) (DEC 的)) (ADJP (NN 最后)) (QP (CD 几) (CLP (NNB 米)))) (IN 时))) (, ，) (NP (NN 身形)) (VP (JJ 硬朗)) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'PP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}, 'NN': {}}, 'PP': {'VV': {}, 'LCP': {}}, ',': {}, 'VP': {'JJ': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}}
-{'NP': {'DNP': {}, 'NP': {}, 'NN': {}}}
-{'PP': {'VV': {}, 'LCP': {}}}
-{'VP': {'JJ': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 9 日，三名球迷在个人计时赛中为黄衫争夺者布雷德利·威金斯 (Bradley Wiggins) 加油助威。 (Joel Saget/AFP/GettyImages) #
-
-(ROOT (IP (NP (CD 2012) (NNB 年 7) (CD 月 9) (NNB 日)) (, ，) (NP (QP (CD 三) (CLP (NNB 名))) (NP (NN 球迷))) (VP (PP (IN 在) (LCP (NP (NN 个人) (VV 计) (SFN 时赛)) (IN 中))) (PP (IN 为) (NP (NP (NP (NNP 黄) (NNP 衫)) (NP (VV 争夺) (SFN 者))) (NP (NNP 布雷德利) (/ ·) (NNP 威金斯) (FW -LRB-Bradley) (FW Wiggins-RRB-)))) (VP (VSB (VV 加油) (VV 助威)))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'PP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}}
-{'NP': {'QP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-4 在 2012 年 7 月 11 日，在法国拉萨佩特，车队在第 10 赛段从莫尔孔到贝勒加尔德-圣瓦尔塞里内之间的上坡上行。（杜格·佩恩西нг/盖蒂图片社）#
-
-(ROOT (IP (IP (LST (CD 4)) (VP (PP (IN 在) (NP (CD 2012) (NNB 年 7) (CD 月 11) (NNB 日))) (, ，) (VP (PP (IN 在) (NP (NNP 法国) (NNP 拉萨佩特)))))) (, ，) (IP (NP (NN 车队)) (VP (PP (IN 在) (NP (QP (CD 第) (QP (CD 10))) (NP (NN 赛段)))) (PP (PP (IN 从) (NP (NNP 莫尔) (SFN 孔))) (PP (VV 到) (NP (DNP (LCP (NP (NNP 贝勒加尔德) (HYPH -) (NNP 圣瓦尔塞里内)) (NN 之间)) (DEC 的)) (NP (NN 上坡))))) (VP (VV 上行)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'LST': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'LST': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 11 日，第十赛段即将开始，建筑物的外墙上展示着装饰品。（Joel Saget/AFP/GettyImages）#
-
-(ROOT (IP (IP (NP (CD 2012) (NNB 年 7) (CD 月 11) (NNB 日)) (, ，) (NP (QP (CD 第十)) (NP (NN 赛段))) (VP (ADVP (RB 即将)) (VP (VV 开始)))) (, ，) (IP (LCP (NP (DNP (NP (VV 建筑) (SFN 物)) (DEC 的)) (NP (NN 外墙))) (NN 上)) (VP (VV 展示) (AS 着) (NP (VV 装饰) (SFN 品)))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'LCP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'LCP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 11 日，第十赛段即将开始，在出发村，一名男子搭档仿制的阿诺德·施瓦辛格和乔治·布什木偶表演。（Joel Saget/AFP/GettyImages）
-
-(ROOT (IP (IP (NP (CD 2012) (NNB 年 7) (CD 月 11) (NNB 日)) (, ，) (NP (QP (CD 第十)) (NP (NN 赛段))) (VP (ADVP (RB 即将)) (VP (VV 开始)))) (, ，) (IP (NP (CP (CP (IP (PP (VV 在) (NP (VV 出发) (SFN 村))) (, ，) (NP (QP (CD 一) (CLP (NNB 名))) (NP (NN 男子) (VV 搭档))) (VP (VV 仿制))) (DEC 的))) (NP (NNP 阿诺德) (/ ·) (NNP 施瓦辛格) (CC 和) (NNP 乔治) (/ ·) (NNP 布什木偶))) (VP (VV 表演))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+(ROOT (IP (IP (NP (NN 上周)) (, ，) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 内阁))) (VP (ADVP (RB 只)) (VP (VV 同意) (IP (VP (PP (IN 就) (NP (NN 谈判))) (VP (VV 进行) (NP (ADJP (JJ 初步)) (NP (NN 讨论))))))))) (, ，) (IP (NP (NNP 奥巴马)) (VP (VV 告诉) (NP (NNP 加) (NNP 茂)))) (, ，) (IP (IP (NP (PRP 他)) (VP (`` “) (ADVP (RB 非常)) (VP (VV 欢迎)) ('' ”))) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 举动)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP91282': {}, ',41841': {}, 'IP45634': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP71597': {}, 'VP': {}}, ',': {}, 'IP36247': {'NP': {}, 'VP': {}}, ',57886': {}, 'IP93054': {'IP': {}, 'NP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'IP': {}, 'NP': {}}, '.': {}}}
 {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'IP': {}, 'NP': {}}}
+Dependency Features:
+上周	同意	nmod:tmod
+，	上周	punct
+他	内阁	det
+的	他	case
+内阁	同意	nsubj
+只	同意	advmod
+同意	ROOT	root
+就	谈判	case
+谈判	进行	obl
+进行	同意	xcomp
+初步	讨论	amod
+讨论	进行	obj
+，	告诉	punct
+奥巴马	告诉	nsubj
+告诉	同意	parataxis
+加	告诉	obj
+茂	加	flat:name
+，	欢迎	punct
+他	欢迎	nsubj
+“	欢迎	punct
+非常	欢迎	advmod
+欢迎	告诉	ccomp
+”	欢迎	punct
+这	举动	det
+一	举动	nummod
+举动	欢迎	obj
+。	同意	punct
 ----------------------------------------------------------------------
-2012 年 7 月 11 日，托马斯·弗埃克勒 (Thomas Voeckler) 在第十赛段中率先突破 (Joel Saget/AFP/GettyImages) #
+奥巴马今天回国，但他在 10 天的亚洲之行中未能实现部分目标。
 
-(ROOT (IP (NP (CD 2012) (CD 年 7) (NNB 月) (CD 11) (NNB 日)) (, ，) (NP (NNP 托马斯) (/ ·) (NNP 弗埃克勒) (FW -LRB-Thomas) (FW Voeckler-RRB-)) (VP (PP (IN 在) (LCP (NP (QP (CD 第十)) (NP (NN 赛段))) (IN 中))) (ADVP (VV 率)) (ADVP (RB 先)) (VP (VV 突破) (NP (FW -LRB-Joel) (FW Saget) (/ /) (FW AFP) (/ /) (FW Getty) (FW Im) (FW ages-RRB-)))) (-RRB- #)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '-RRB-': {}}}
-{'IP': {'NP': {'CD': {}, 'CD': {}, 'NNB': {}, 'NNB': {}}, ',': {}, 'NP': {'NNP': {}, '/': {}, 'NNP': {}, 'FW': {}, 'FW': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}, '-RRB-': {}}}
-{'NP': {'CD': {}, 'CD': {}, 'NNB': {}, 'NNB': {}}}
-{'NP': {'NNP': {}, '/': {}, 'NNP': {}, 'FW': {}, 'FW': {}}}
-{'VP': {'PP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 12 日，第 11 赛段在阿尔贝维尔开始，一位娱乐圈人士在爱丽舍山脉背景下，将自己的自行车挂在一根灯柱上。
-
-(ROOT (IP (IP (NP (CD 2012) (NNB 年 7) (NNB 月) (CD 12) (NNB 日)) (, ，) (NP (DP (CD 第) (QP (CD 11))) (NP (NN 赛段))) (VP (PP (VV 在) (NP (NNP 阿尔贝维尔))) (VP (VV 开始)))) (, ，) (IP (NP (QP (CD 一) (CLP (NNB 位))) (NP (VV 娱乐) (SFN 圈) (NN 人士))) (VP (PP (VV 在) (LCP (NP (NP (NNP 爱丽舍) (NN 山脉)) (NP (NN 背景))) (IN 下))) (, ，) (VP (BB 将) (IP (NP (DNP (NP (PRD 自己)) (DEC 的)) (ADJP (VV 自行)) (NP (SFN 车))) (VP (VV 挂) (PP (VV 在) (LCP (NP (QP (CD 一) (CLP (NNB 根))) (NP (NN 灯柱))) (NN 上)))))))) (. 。)))
+(ROOT (IP (IP (NP (NNP 奥巴马)) (VP (NP (NN 今天)) (VP (VV 回国)))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 他)) (VP (PP (IN 在) (LCP (NP (DNP (QP (CD 10) (CLP (NNB 天))) (DEC 的)) (DNP (NP (NNP 亚洲)) (DEC 之)) (NP (NN 行))) (IN 中))) (VP (MD 未能) (VP (VV 实现) (NP (QP (NN 部分)) (NP (NN 目标))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP7402': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP90906': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+奥巴马	回国	nsubj
+今天	回国	nmod:tmod
+回国	ROOT	root
+，	实现	punct
+但	实现	mark
+他	行	nmod
+在	行	case
+10	天	nummod
+天	亚洲	nmod
+的	天	case
+亚洲	行	nmod
+之	亚洲	case
+行	实现	obl
+中	行	case
+能	实现	aux
+实现	回国	parataxis
+部分	目标	nmod
+目标	实现	obj
+。	回国	punct
 ----------------------------------------------------------------------
-2012 年 7 月 12 日，在第 11 赛段阿尔贝维尔至拉图斯塞里埃尔莱西贝尔赛段，澳大利亚球迷们挥舞着国旗，陪伴着车队前行。（Joel Saget/AFP/GettyImages）#
+他未能确保 G20 峰会就重新平衡全球经济采取具体措施达成协议，并且不得不延长谈判，以确保南韩贸易协议，这对于他旨在刺激美国出口的目标而言至关重要。
 
-(ROOT (IP (NP (CD 2012) (NNB 年 7) (NNB 月) (CD 12) (NNB 日)) (, ，) (PP (IN 在) (NP (NP (QP (CD 第) (QP (CD 11))) (NP (NN 赛段))) (NP (NNP 阿尔贝维尔) (CC 至) (NNP 拉图斯塞里) (NNP 埃尔莱西贝尔)) (NP (NN 赛段)))) (, ，) (NP (NP (NNP 澳大利亚)) (NP (NN 球迷) (SFN 们))) (VP (VP (VV 挥舞) (AS 着) (NP (NN 国旗))) (, ，) (VP (VP (VV 陪伴) (AS 着) (NP (NN 车队))) (VP (VV 前行)))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'NNB': {}, 'CD': {}}, ',': {}, 'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'NNB': {}, 'CD': {}}}
-{'PP': {'IN': {}, 'NP': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 12 日，第 11 赛段，布拉德利·威格洛斯 (Bradley Wiggins) 和队友克里斯托弗·弗罗莫 (Christopher Froome) 得到戴着滑雪服的球迷的鼓励。（Joel Saget/AFP/GettyImages）
-
-(ROOT (IP (NP (CD 2012) (CD 年 7) (NNB 月) (CD 12) (NNB 日)) (, ，) (NP (DP (CD 第) (QP (CD 11))) (NP (NN 赛段))) (, ，) (NP (NP (NNP 布拉德利) (/ ·) (NNP 威格洛斯) (FW -LRB-Bradley) (FW Wiggins-RRB-)) (CC 和) (NP (NP (NN 队友)) (NP (NNP 克里斯托弗) (/ ·) (NNP 弗罗莫) (FW -LRB-Christopher) (FW Froome-RRB-)))) (VP (VV 得到) (NP (DNP (NP (CP (CP (IP (VP (VV 戴) (AS 着) (NP (VV 滑雪) (SFN 服)))) (DEC 的))) (NP (NN 球迷))) (DEC 的)) (NP (NN 鼓励)))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'CD': {}, 'NNB': {}, 'NNB': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}, 'NP': {}, 'CC': {}}, ',': {}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'CD': {}, 'NNB': {}, 'NNB': {}}}
-{'NP': {'DP': {}, 'NP': {}, 'NP': {}, 'CC': {}}}
-{'VP': {'VV': {}, 'NP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 12 日，第 11 赛段，一名挥舞比利时国旗的球迷与比利时选手朱伦·范登布鲁克 (右二) 并肩前行，一群人在爬坡过程中向 La Toussuire 靠拢。（Christophe Ena/Associated Press）#
-
-(ROOT (IP (IP (NP (CD 2012) (NNB 年 7) (NNB 月) (CD 12) (NNB 日)) (, ，) (NP (DP (CD 第) (QP (CD 11))) (NP (NN 赛段))) (, ，) (NP (QP (CD 一) (CLP (NNB 名))) (CP (CP (IP (VP (VV 挥舞) (NP (NP (NNP 比利时)) (NP (NN 国旗))))) (DEC 的))) (NP (NN 球迷))) (VP (PP (IN 与) (NP (NP (NP (NNP 比利时)) (NP (NN 选手))) (NP (NNP 朱) (NNP 伦) (/ ·) (NNP 范登布鲁克) (NNP -LRB-右二-RRB-)))) (VP (VSB (VV 并肩) (VV 前行))))) (, ，) (IP (NP (QP (CD 一) (CLP (NNB 群))) (NP (NN 人))) (VP (PP (IN 在) (LCP (NP (NN 爬坡) (NN 过程)) (IN 中))) (PP (IN 向) (NP (FW La) (FW Toussuire))) (VP (VV 靠拢)))) (. 。)))
+(ROOT (IP (IP (NP (PRP 他)) (VP (MD 未能) (VP (VV 确保) (IP (NP (FW G20) (NN 峰会)) (VP (VP (PP (IN 就) (IP (VP (ADVP (RB 重新)) (VP (VV 平衡) (NP (NN 全球) (NN 经济)))))) (VP (VP (VV 采取) (NP (ADJP (JJ 具体)) (NP (NN 措施)))) (VP (VV 达成) (NP (NN 协议))))) (, ，) (RB 并且) (VP (MD 不得) (VP (ADVP (RB 不)) (VP (VV 延长) (NP (NN 谈判))))) (, ，) (VP (RB 以) (VP (VV 确保) (NP (NP (NNP 南韩)) (NP (NN 贸易) (NN 协议)))))))))) (, ，) (IP (NP (PRD 这)) (VP (IP (VP (PP (IN 对于) (IP (NP (PRP 他)) (CP (IP (NP (MD 旨)) (VP (VV 在) (IP (VP (VV 刺激) (NP (NP (NNP 美国)) (NP (NN 出口))))))) (DEC 的)) (NP (NN 目标)))) (VP (RB 而) (VP (VV 言))))) (VP (JJ 至关重要)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP28407': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP36000': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 13 日，英国的 Team Sky 在圣让德莫里尼厄至阿尼翁的第 12 赛段中，艾德瓦尔德·博塞松·哈根 (Edvald Boasson Hagen) 在格兰纳山口 (Granier pass) 后方飞驰。（Laurent Cipriani/Associated Press）#
-
-(ROOT (IP (IP (NP (CD 2012) (NNB 年 7) (CD 月 13) (NNB 日)) (, ，) (NP (DNP (NP (NNP 英国)) (DEC 的)) (NP (FW Team) (FW Sky))) (VP (VV 在圣) (VP (VV 让) (LCP (NP (DNP (NP (NNP 德莫里尼厄) (CC 至) (NNP 阿尼翁)) (DEC 的)) (DP (CD 第) (QP (CD 12))) (NP (NN 赛段))) (IN 中))))) (, ，) (IP (NP (NNP 艾德瓦尔德) (/ ·) (NNP 博塞松) (/ ·) (NNP 哈根) (FW -LRB-Edvald) (FW Boasson) (FW Hagen-RRB-)) (NP (NNP 在格兰纳) (NN 山口) (FW -LRB-Granier) (FW pass-RRB-)) (NP (NN 后方)) (VP (VV 飞驰))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 13 日，第 12 赛段在圣让德莫里恩和昂热泽伊的隧道中，脱队车手在隧道中穿行。（Joel Saget/AFP/GettyImages）#
-
-(ROOT (IP (NP (CD 2012) (NNB 年 7) (CD 月 13) (NNB 日)) (, ，) (NP (DP (CD 第) (QP (CD 12))) (NP (NN 赛段))) (VP (PP (VV 在) (LCP (NP (DNP (NP (NNP 圣) (NNP 让德莫里恩) (CC 和) (NNP 昂热泽伊)) (DEC 的)) (NP (NN 隧道))) (NN 中))) (, ，) (NP (NN 脱队) (NN 车手)) (VP (PP (VV 在) (LCP (NP (NN 隧道)) (NN 中))) (VP (VV 穿行)))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 13 日，第 12 赛段的观众在等候骑手。（Joel Saget/AFP/GettyImages）#
-
-(ROOT (IP (NP (CD 2012) (NNB 年 7) (NNB 月) (CD 13) (NNB 日)) (, ，) (NP (DNP (NP (DP (CD 第) (QP (CD 12))) (NP (NN 赛段))) (DEC 的)) (NP (NN 观众))) (VP (ADVP (RB 在)) (VP (VV 等候) (NP (NN 骑手)))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'NNB': {}, 'CD': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'NNB': {}, 'CD': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 13 日，一名骑着 1912 年生产的自行车的球迷在第 12 赛段为车队加油。（Joel Saget/AFP/GettyImages）#
-
-(ROOT (IP (NP (CD 2012) (NNB 年 7) (CD 月 13) (NNB 日)) (, ，) (NP (DNP (NP (QP (CD 一) (CLP (NNB 名))) (CP (CP (IP (VP (VV 骑着) (VP (NP (CD 1912)) (VP (NNB 年生产))))) (DEC 的))) (NP (VV 自行) (SFN 车))) (DEC 的)) (NP (NN 球迷))) (VP (PP (IN 在) (NP (DP (CD 第) (QP (CD 12))) (NP (NN 赛段)))) (PP (IN 为) (NP (NN 车队))) (VP (VV 加油))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 13 日，队伍中的队长大卫·米拉 (David Millar) 在第 12 赛段中率先突破，并获得第 16 赛段冠军。 (Lionel Bonaventure/AFP/GettyImages) #
-
-(ROOT (IP (NP (CD 2012) (NNB 年 7) (CD 月 13) (NNB 日)) (, ，) (NP (NP (DNP (LCP (NP (NN 队伍)) (IN 中)) (DEC 的)) (NP (NN 队长))) (NP (NNP 大卫) (/ ·) (NNP 米拉) (FW -LRB-David) (FW Millar-RRB-))) (VP (VP (PP (IN 在) (LCP (NP (DP (CD 第) (QP (CD 12))) (NP (NN 赛段))) (IN 中))) (ADVP (RB 率先)) (VP (VV 突破))) (, ，) (RB 并) (VP (VV 获得) (NP (NP (QP (CD 第) (QP (CD 16))) (NP (NN 赛段))) (NP (NN 冠军))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 13 日，在圣让德莫里恩和昂罗纳-达维泽伊的第 12 赛段，队伍经过葡萄园。（Bogdan Cristel/Reuters）#
-
-(ROOT (VP (NP (CD 2012) (NNB 年 7) (CD 月 13) (NNB 日)) (, ，) (PP (IN 在) (NP (DNP (NP (NNP 圣让) (NNP 德莫里恩) (CC 和) (NNP 昂罗纳-达维泽伊)) (DEC 的)) (DP (CD 第) (QP (CD 12))) (NP (NN 赛段)))) (, ，) (NP (NN 队伍)) (VP (VV 经过) (NP (NN 葡萄) (SFN 园))) (. 。)))
-{'VP': {'NP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'VP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}}
-{'PP': {'IN': {}, 'NP': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'VV': {}, 'NP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 13 日，第 12 赛段的脱颖而出的骑手得到了观众的鼓励。（Joel Saget/AFP/GettyImages）#
-
-(ROOT (IP (NP (CD 2012) (NNB 年 7) (NNB 月) (CD 13) (NNB 日)) (, ，) (NP (DNP (NP (DP (CD 第) (QP (CD 12))) (NP (NN 赛段))) (DEC 的)) (CP (CP (IP (VP (VP (VV 脱颖)) (VP (RB 而) (VP (VV 出))))) (DEC 的))) (NP (NN 骑手))) (VP (VV 得到) (AS 了) (NP (DNP (NP (NN 观众)) (DEC 的)) (NP (NN 鼓励)))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'NNB': {}, 'CD': {}}, ',': {}, 'NP': {'DNP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'NNB': {}, 'CD': {}}}
-{'NP': {'DNP': {}, 'CP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 13 日，第 12 赛段，离岸反射在路边的镜子上。（Lionel Bonaventure/AFP/GettyImages）#
-
-(ROOT (IP (NP (CD 2012) (NNB 年 7) (NNB 月) (CD 13) (NNB 日)) (, ，) (NP (DP (CD 第) (QP (CD 12))) (NP (NN 赛段))) (, ，) (NP (NN 离岸)) (VP (VV 反射) (PP (VV 在) (LCP (NP (DNP (NP (NN 路边)) (DEC 的)) (NP (NN 镜子))) (NN 上)))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'NNB': {}, 'CD': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}, 'NN': {}}, ',': {}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'NNB': {}, 'CD': {}}}
-{'NP': {'DP': {}, 'NP': {}, 'NN': {}}}
-{'VP': {'VV': {}, 'PP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 13 日，英国的大卫·米拉尔在跨过终点线后倒地，以 140 英里的速度赢得了安纳诺伊的第 12 赛段。（彼得·德容/美联社）#
-
-(ROOT (IP (NP (CD 2012) (NNB 年 7) (CD 月 13) (NNB 日)) (, ，) (NP (DNP (NP (NNP 英国)) (DEC 的)) (NP (NNP 大卫) (/ ·) (NNP 米拉尔))) (VP (VP (PP (IN 在) (LCP (IP (VP (VV 跨过) (NP (NN 终点) (SFN 线)))) (IN 后))) (VP (VV 倒地))) (, ，) (VP (PP (IN 以) (NP (DNP (QP (CD 140) (CLP (NNB 英里))) (DEC 的)) (NP (NN 速度)))) (VP (VV 赢得) (AS 了) (NP (DNP (NP (NNP 安纳) (NNP 诺伊)) (DEC 的)) (QP (CD 第) (QP (CD 12))) (NP (NN 赛段)))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 14 日，法国的安东尼·卢 (Anthony Roux) 在圣波尔图斯特鲁瓦至阿格德半岛 (Cap d'Agde) 之间的第 13 赛段骑行时，由于身体不适，需要医疗救助。 (Bogdan Cristel / 路透社) #
-
-(ROOT (IP (LCP (IP (NP (CD 2012) (NNB 年 7) (CD 月 14) (NNB 日)) (, ，) (NP (DNP (NP (NNP 法国)) (DEC 的)) (NP (NNP 安东尼) (/ ·) (NNP 卢) (PRN (/ -LRB-) (NP (DNP (LCP (NP (NP (FW Anthony) (FW Roux-RRB-)) (NP (VV 在圣波尔图斯特鲁瓦) (CC 至) (NNP 阿格德) (NN 半岛)) (FW -LRB-Cap) (FW d') (FW Agde-RRB-)) (IN 之间)) (DEC 的)) (DP (CD 第) (QP (CD 13))) (NP (NN 赛段)))))) (VP (VV 骑行))) (IN 时)) (, ，) (VP (PP (IN 由于) (IP (NP (NN 身体)) (VP (JJ 不适)))) (, ，) (VP (VV 需要) (NP (NN 医疗) (NN 救助)))) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'LCP': {'IP': {}, 'IN': {}}}
-{'VP': {'PP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 14 日，第 13 赛段的队伍在行进过程中经过一片葵花。（Stephane Mahe/Reuters）#
-
-(ROOT (IP (NP (CD 2012) (NNB 年 7) (NNB 月) (CD 14) (NNB 日)) (, ，) (NP (DNP (NP (DP (CD 第) (QP (CD 13))) (NP (NN 赛段))) (DEC 的)) (NP (NN 队伍))) (VP (PP (IN 在) (LCP (NP (NN 行进) (NN 过程)) (IN 中))) (VP (VV 经过) (NP (QP (CD 一) (CLP (NNB 片))) (NP (NN 葵花))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'NNB': {}, 'CD': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'NNB': {}, 'CD': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-23 2012 年 7 月 14 日，在第 13 赛段，队伍经过于兹 (Uzes)。 (克里斯托弗·埃纳/美联社)
-
-(ROOT (IP (NP (CD 23) (CD 2012) (NNB 年 7) (CD 月 14) (NNB 日)) (, ，) (PP (IN 在) (NP (DP (CD 第) (QP (CD 13))) (NP (NN 赛段)))) (, ，) (NP (NN 队伍)) (VP (VV 经过) (PP (VV 于) (NP (NNP 兹) (FW -LRB-Uzes-RRB-)))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'CD': {}, 'NNB': {}, 'NNB': {}}, ',': {}, 'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'CD': {}, 'NNB': {}, 'NNB': {}}}
-{'PP': {'IN': {}, 'NP': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'VV': {}, 'PP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 14 日，第 13 赛段，欧车队 24 名骑手在 Bastille Day 期间驶过一名挥舞法国国旗的女子。（劳伦特·西普里亚尼/美联社）#
-
-(ROOT (IP (NP (CD 2012) (CD 年 7) (NNB 月) (CD 14) (NNB 日)) (, ，) (NP (DP (CD 第) (QP (CD 13))) (NP (NN 赛段))) (, ，) (NP (NP (NNP 欧) (NN 车队)) (QP (CD 24)) (NP (NNB 名骑手))) (VP (PP (VV 在) (NP (NP (FW Bastille) (FW Day)) (NP (NN 期间)))) (VP (VV 驶过) (NP (QP (CD 一) (CLP (NNB 名))) (CP (CP (IP (VP (VV 挥舞) (NP (NP (NNP 法国)) (NP (NN 国旗))))) (DEC 的))) (NP (NN 女子))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'CD': {}, 'NNB': {}, 'NNB': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}, 'NP': {}, 'QP': {}}, ',': {}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'CD': {}, 'NNB': {}, 'NNB': {}}}
-{'NP': {'DP': {}, 'NP': {}, 'NP': {}, 'QP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 14 日，第 13 赛段，队伍经过一名骑马的女子。（Stephane Mahe/Reuters）#
-
-(ROOT (IP (NP (CD 2012) (CD 年 7) (NNB 月) (CD 14) (NNB 日)) (, ，) (NP (DP (CD 第) (QP (CD 13))) (NP (NN 赛段))) (, ，) (NP (NN 队伍)) (VP (VV 经过) (NP (QP (CD 一) (CLP (NNB 名))) (CP (CP (IP (VP (VV 骑马))) (DEC 的))) (NP (NN 女子)))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'CD': {}, 'NNB': {}, 'NNB': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}, 'NN': {}}, ',': {}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'CD': {}, 'NNB': {}, 'NNB': {}}}
-{'NP': {'DP': {}, 'NP': {}, 'NN': {}}}
-{'VP': {'VV': {}, 'NP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 14 日，第 13 赛段的车队在葡萄园里行驶。（Stephane Mahe/Reuters）#
-
-(ROOT (IP (NP (CD 2012) (CD 年 7) (NNB 月) (CD 14) (NNB 日)) (, ，) (NP (DNP (NP (DP (CD 第) (QP (CD 13))) (NP (NN 赛段))) (DEC 的)) (NP (NN 车队))) (VP (PP (VV 在) (LCP (NP (NN 葡萄) (SFN 园)) (NN 里))) (VP (VV 行驶))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'CD': {}, 'NNB': {}, 'NNB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'CD': {}, 'NNB': {}, 'NNB': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 15 日，来自佩皮尼昂的美国橄榄球队 27 名 cheerleader 在利穆和福伊之间的第 14 赛段鼓励骑行者。 (克里斯托弗·埃纳/美联社)
-
-(ROOT (IP (NP (CD 2012) (NNB 年 7) (CD 月 15) (NNB 日)) (, ，) (NP (DNP (LCP (NP (NP (DNP (NP (NNP 来自佩皮尼昂)) (DEC 的)) (NP (NNP 美国) (NN 橄榄) (NN 球队))) (QP (CD 27) (CLP (NNB 名))) (NP (FW cheerleader) (NNP 在利穆) (CC 和) (NNP 福伊))) (IN 之间)) (DEC 的)) (DP (CD 第) (QP (CD 14))) (NP (NN 赛段))) (VP (VV 鼓励) (NP (VV 骑行) (SFN 者))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'DNP': {}, 'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}}
-{'NP': {'DNP': {}, 'DP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'NP': {}}}
-----------------------------------------------------------------------
-28 美国的克里斯蒂安·范德韦尔德 (中间) 在 2012 年 7 月 15 日的第 14 赛段时，在塔拉松-圣日尔曼 (Tarascon-sur-Ariege) 过境。 (劳伦特·西普里亚尼/美联社)
-
-(ROOT (IP (NP (DNP (NP (CD 28) (NNP 美国)) (DEC 的)) (NP (NNP 克里斯蒂安) (/ ·) (NNP 范德韦尔德) (FW -LRB-中间)) (-RRB- -RRB-)) (VP (PP (IN 在) (NP (CD 2012) (CD 年 7) (NNB 月) (CD 15))) (PP (NNB 日的) (LCP (NP (DP (CD 第) (QP (CD 14))) (NP (NN 赛段))) (IN 时))) (, ，) (PP (VV 在) (NP (NNP 塔拉松) (HYPH -) (NNP 圣日尔曼) (FW -LRB-Tarascon-sur-) (FW Ariege-RRB-))) (VP (VV 过境))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}, '-RRB-': {}}, 'VP': {'PP': {}, 'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}, '-RRB-': {}}}
-{'VP': {'PP': {}, 'PP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 15 日，彼得·萨干（左）、戈尔卡·伊萨盖鲁（右）、菲利普·吉尔贝特（中）和桑迪·卡萨（右）在福伊耶赛道 14 号阶段的终点线上竞逐（Jean-Paul Pelissier/Reuters）#
-
-(ROOT (IP (NP (CD 2012) (NNB 年 7) (CD 月 15) (NNB 日)) (, ，) (NP (NP (NNP 彼得) (/ ·) (NNP 萨干) (PRN (-LRB- （) (NP (NNP 左)) (-RRB- ）))) (EC 、) (NP (NNP 戈尔卡) (/ ·) (NNP 伊萨盖鲁) (PRN (-LRB- （) (NP (NN 右)) (-RRB- ）))) (EC 、) (NP (NNP 菲利普) (/ ·) (NNP 吉尔贝特) (PRN (-LRB- （) (NP (NNP 中)) (-RRB- ）))) (CC 和) (NP (NNP 桑迪) (/ ·) (NNP 卡萨) (PRN (-LRB- （) (NP (NN 右)) (-RRB- ）)))) (VP (PP (IN 在) (LCP (NP (DNP (NP (NP (NNP 福伊耶) (NN 赛道)) (QP (CD 14) (CLP (NN 号))) (NP (NN 阶段))) (DEC 的)) (NP (NN 终点))) (NN 线上))) (VP (VV 竞逐))) (PRN (-LRB- （) (NP (FW Jean) (FW -Paul) (FW Pelissier/) (FW Reuters)) (-RRB- ）)) (... #)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, 'PRN': {}, '...': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'NP': {}, 'EC': {}, 'NP': {}, 'EC': {}, 'CC': {}}, 'VP': {'PP': {}, 'VP': {}}, 'PRN': {'-LRB-': {}, 'NP': {}, '-RRB-': {}}, '...': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}}
-{'NP': {'NP': {}, 'EC': {}, 'NP': {}, 'EC': {}, 'CC': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-{'PRN': {'-LRB-': {}, 'NP': {}, '-RRB-': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 15 日，意大利的文森佐·尼巴利（左中）在第 14 赛段上爬上皮盖雷山时，领先英国的布拉德利·威格林（身穿黄色总冠军衫）。（Christophe Ena/Associated Press）#
-
-(ROOT (IP (NP (CD 2012) (NNB 年 7) (CD 月 15) (NNB 日)) (, ，) (NP (DNP (NP (NNP 意大利)) (DEC 的)) (NP (NNP 文森佐) (/ ·) (NNP 尼巴利)) (PRN (-LRB- （) (NP (NNP 左中)) (-RRB- ）))) (VP (LCP (IP (VP (PP (IN 在) (LCP (NP (DP (CD 第) (QP (CD 14))) (NP (NN 赛段))) (IN 上))) (VP (VV 爬上) (NP (NNP 皮盖雷) (SFN 山))))) (IN 时)) (, ，) (VP (VV 领先) (NP (DNP (NP (NNP 英国)) (DEC 的)) (NP (NNP 布拉德利) (/ ·) (NNP 威格林)) (PRN (-LRB- （) (VP (VV 身穿) (NP (ADJP (NN 黄色)) (ADJP (PFA 总)) (NP (NN 冠军) (SFN 衫)))) (-RRB- ）))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}, 'PRN': {}}, 'VP': {'LCP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}}
-{'NP': {'DNP': {}, 'NP': {}, 'PRN': {}}}
-{'VP': {'LCP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-2012 年 7 月 15 日，第 14 赛段，西班牙的 Joan Horrach 在爬上 Peguere 壁时被一名球迷推动。（Christophe Ena/Associated Press）#
-
-(ROOT (IP (NP (CD 2012) (NNB 年 7) (CD 月 15) (NNB 日)) (, ，) (NP (DP (CD 第) (QP (CD 14))) (NP (NN 赛段))) (, ，) (NP (DNP (NP (NNP 西班牙)) (DEC 的)) (NP (FW Joan) (FW Horrach))) (VP (PP (IN 在) (LCP (IP (VP (VV 爬上) (NP (FW Peguere)))) (NN 壁时))) (VP (BB 被) (CP (IP (NP (QP (CD 一) (CLP (NNB 名))) (NP (NN 球迷))) (VP (VV 推动)))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}, 'DNP': {}, 'NP': {}}, ',': {}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}}
-{'NP': {'DP': {}, 'NP': {}, 'DNP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+他	确保	nsubj
+能	确保	aux
+确保	确保	advcl
+G20	峰会	nmod
+峰会	达成	nsubj
+就	平衡	case
+重新	平衡	advmod
+平衡	达成	xcomp
+全球	经济	nmod
+经济	采取	obj
+采取	达成	advcl
+具体	措施	amod
+措施	采取	obj
+达成	确保	ccomp
+协议	达成	obj
+，	达成	punct
+并且	延长	mark
+得	延长	aux
+不	延长	advmod
+延长	确保	advcl
+谈判	延长	obj
+，	延长	punct
+以	确保	mark
+确保	ROOT	root
+南韩	协议	nmod
+贸易	协议	nmod
+协议	确保	obj
+，	言	punct
+这	言	nsubj
+对于	他	case
+他	在	nsubj
+旨	在	aux
+在	言	advcl
+刺激	在	xcomp
+美国	出口	nmod
+出口	刺激	obj
+的	在	mark:rel
+目标	在	obj
+而	言	mark
+言	确保	parataxis
+至关重要	言	xcomp
+。	确保	punct
 ----------------------------------------------------------------------

@@ -1,352 +1,2116 @@
-四个男人坐在一张桌子前喝啤酒——这是世界上最被拍照的啤酒。
+在今年难以预测的奥斯卡奖角逐中，一个趋势已经显现：在平平无奇的电影中演出出色。
 
-(ROOT (IP (IP (NP (QP (CD 四) (CLP (NNB 个))) (NP (NN 男人))) (VP (VP (VV 坐在) (LCP (NP (QP (CD 一) (CLP (NNB 张))) (NP (NN 桌子))) (IN 前))) (VP (VV 喝) (NP (NN 啤酒))))) (HYPH —) (HYPH —) (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (VP (LCP (NP (NN 世界)) (IN 上)) (ADVP (RB 最)) (VP (BB 被) (VP (VV 拍照))))) (DEC 的))) (NP (NN 啤酒))))) (. 。)))
-{'IP': {'IP': {}, 'HYPH': {}, 'HYPH': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, 'HYPH': {}, 'HYPH': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+(ROOT (IP (IP (PP (IN 在) (LCP (NP (CP (CP (IP (VP (NP (NN 今年)) (ADVP (JJ 难)) (VP (RB 以) (VP (VV 预测))))) (DEC 的))) (NP (NNP 奥斯卡) (SFN 奖)) (NP (NN 角逐))) (IN 中))) (, ，) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 趋势))) (VP (ADVP (RB 已经)) (VP (VV 显现)))) (: ：) (VP (PP (IN 在) (LCP (NP (CP (CP (IP (VP (VCD (JJ 平平) (JJ 无奇)))) (DEC 的))) (NP (NN 电影))) (IN 中))) (NP (VV 演出)) (VP (JJ 出色))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ':': {}, 'VP': {'PP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ':': {}, 'VP': {'PP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'VP': {'PP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['在', '角逐', 'case']
+['NOUN', 'NOUN', 'nmod']	['今年', '角逐', 'nmod']
+['ADJ', 'VERB', 'advmod']	['难', '预测', 'advmod']
+['ADV', 'VERB', 'mark']	['以', '预测', 'mark']
+['VERB', 'NOUN', 'acl:relcl']	['预测', '角逐', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '预测', 'mark:rel']
+['PROPN', 'PART', 'compound']	['奥斯卡', '奖', 'compound']
+['PART', 'NOUN', 'nmod']	['奖', '角逐', 'nmod']
+['NOUN', 'VERB', 'obl']	['角逐', '显现', 'obl']
+['ADP', 'NOUN', 'case']	['中', '角逐', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '角逐', 'punct']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '趋势', 'clf']
+['NOUN', 'VERB', 'nsubj']	['趋势', '显现', 'nsubj']
+['ADV', 'VERB', 'advmod']	['已经', '显现', 'advmod']
+['VERB', 'ROOT', 'root']	['显现', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['：', '演出', 'punct']
+['ADP', 'NOUN', 'case']	['在', '电影', 'case']
+['ADJ', 'ADJ', 'advcl']	['平平', '无奇', 'advcl']
+['ADJ', 'NOUN', 'acl:relcl']	['无奇', '电影', 'acl:relcl']
+['PART', 'ADJ', 'mark:rel']	['的', '无奇', 'mark:rel']
+['NOUN', 'ADJ', 'nmod']	['电影', '出色', 'nmod']
+['ADP', 'NOUN', 'case']	['中', '电影', 'case']
+['VERB', 'VERB', 'parataxis']	['演出', '显现', 'parataxis']
+['ADJ', 'VERB', 'xcomp']	['出色', '演出', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '显现', 'punct']
 ----------------------------------------------------------------------
-这就是有关这一事件的所有内容，这也正是巴拉克·奥巴马总统所希望的。
+理查德·拉什菲尔德已经忍无可忍了。
 
-(ROOT (IP (IP (NP (PRD 这)) (VP (VC 就是) (NP (DNP (PP (IN 有关) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 事件)))) (DEC 的)) (DP (DT 所有)) (NP (NN 内容))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 也)) (VP (VC 正是) (NP (CP (CP (IP (NP (NNP 巴拉克) (/ ·) (NNP 奥巴马) (NN 总统)) (VP (RB 所) (VP (VV 希望)))) (UH 的))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在罗斯花园草坪上，在总统办公室外的一个小台阶上，白宫发言人罗伯特·吉布斯和副总统发言人杰伊·卡尼站在那里，笑得合不拢嘴，就像猫咪在窗台上，看着数十名摄影师和记者们为了记录这一视觉装置而疯狂奔跑几秒钟。
-
-(ROOT (IP (IP (PP (VV 在) (LCP (NP (NP (NNP 罗斯) (NN 花园)) (NP (NN 草坪))) (NN 上))) (, ，) (PP (IN 在) (LCP (NP (DNP (LCP (NP (NN 总统) (VV 办公)) (SFN 室外)) (DEC 的)) (QP (CD 一) (CLP (NNB 个))) (NP (NN 小台阶))) (IN 上))) (, ，) (NP (NP (NP (NP (NNP 白宫)) (NP (VV 发言) (SFN 人))) (NP (NNP 罗伯特) (/ ·) (NNP 吉布斯))) (CC 和) (NP (NP (NP (NP (ADJP (PFA 副)) (NP (NN 总统))) (NP (VV 发言) (SFN 人))) (NP (NNP 杰伊) (/ ·) (NNP 卡尼))) (NP (SFN 站)))) (VP (PP (VV 在) (NP (PRD 那里))) (, ，) (VP (VV 笑得) (VP (ADVP (RB 合不)) (VP (VV 拢) (NP (NN 嘴))))))) (, ，) (IP (VP (ADVP (RB 就)) (PP (VV 像) (IP (NP (NN 猫咪)) (VP (PP (VV 在) (LCP (NP (NN 窗台)) (NN 上)))))) (, ，) (VP (VV 看) (AS 着) (IP (NP (QP (CD 数十) (CLP (NNB 名))) (NP (VV 摄影) (SFN 师) (CC 和) (NN 记者) (SFN 们))) (VP (PP (IN 为了) (IP (VP (VV 记录) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 视觉) (NN 装置)))))) (VP (RB 而) (VP (ADVP (RB 疯狂)) (VP (VV 奔跑) (QP (CD 几) (CLP (NNB 秒钟))))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}}}
-----------------------------------------------------------------------
-历史将记住，这是一场公关大战，一张拍照的绝佳机会。
-
-(ROOT (IP (IP (NP (NN 历史)) (VP (ADVP (RB 将)) (VP (VV 记住)))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (NP (QP (CD 一) (CLP (NNB 场))) (NP (NN 公关) (NN 大战))) (, ，) (NP (DNP (NP (QP (CD 一) (CLP (NNB 张))) (NP (VV 拍照))) (DEC 的)) (ADJP (JJ 绝佳)) (NP (NN 机会)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这场引发全国震动的对峙，激发了种族、阶级和警察权力等未决问题，两名交锋者与国家政治领袖一起坐在了一起。
-
-(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 场))) (CP (CP (IP (VP (VV 引发) (NP (NN 全国) (VV 震动)))) (DEC 的))) (NP (NN 对峙))) (, ，) (VP (VV 激发) (AS 了) (NP (NP (NN 种族) (EC 、) (NN 阶级) (CC 和) (NN 警察) (NN 权力) (NN 等)) (ADJP (JJ 未决)) (NP (NN 问题))))) (, ，) (IP (NP (NP (QP (CD 两) (CLP (NNB 名))) (NP (VV 交锋) (SFN 者))) (CC 与) (NP (NN 国家) (NN 政治) (NN 领袖))) (VP (ADVP (NN 一起)) (VP (VV 坐在) (AS 了) (ADVP (NN 一起))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, ',': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-哈佛大学教授亨利·卢伊斯·盖茨（Henry Louis Gates Jr.）、剑桥警局警长詹姆斯·克劳利（James Crowley）、副总统乔·拜登（Joe Biden）、奥巴马和四杯啤酒。
-
-(ROOT (NP (NP (NP (NP (NNP 哈佛) (NN 大学)) (NP (NN 教授))) (NP (NNP 亨利) (/ ·) (NNP 卢伊斯) (/ ·) (NNP 盖茨)) (PRN (-LRB- （) (NP (FW Henry) (FW Louis) (FW Gates) (FW Jr.)) (-RRB- ）))) (EC 、) (NP (NP (NNP 剑桥) (NN 警局) (NN 警长)) (NP (NNP 詹姆斯) (/ ·) (NNP 克劳利) (PRN (-LRB- （) (NP (FW James) (FW Crowley)) (-RRB- ）)))) (EC 、) (NP (ADJP (PFA 副)) (NP (NNP 总统乔) (/ ·) (NNP 拜登) (PRN (-LRB- （) (NP (FW Joe) (FW Biden)) (-RRB- ）)))) (EC 、) (NP (NNP 奥巴马)) (CC 和) (NP (QP (CD 四) (CLP (NN 杯))) (NP (NN 啤酒))) (. 。)))
-{'NP': {'NP': {}, 'EC': {}, 'NP': {}, 'EC': {}, 'CC': {}, '.': {}}}
-{'NP': {'NP': {'NP': {}, 'NP': {}, 'PRN': {}}, 'EC': {}, 'NP': {'NP': {}, 'NP': {}, 'ADJP': {}, 'NNP': {}, 'QP': {}}, 'EC': {}, 'CC': {}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}, 'PRN': {}}}
-{'NP': {'NP': {}, 'NP': {}, 'ADJP': {}, 'NNP': {}, 'QP': {}}}
-----------------------------------------------------------------------
-除了一些花生，其余都没有了。
-
-(ROOT (IP (PP (VV 除) (PP (AS 了) (NP (QP (JJ 一些)) (NP (NN 花生))))) (, ，) (NP (DT 其余)) (VP (ADVP (RB 都)) (VP (VV 没有) (UH 了))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'DT': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'PP': {'VV': {}, 'PP': {}}}
-{'NP': {'DT': {}}}
+(ROOT (IP (NP (NNP 理查德) (/ ·) (NNP 拉什菲尔德)) (VP (ADVP (RB 已经)) (VP (VV 忍无可忍) (UH 了))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP73394': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
 {'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['理查德', '忍无可忍', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['·', '拉什菲尔德', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['拉什菲尔德', '理查德', 'flat:name']
+['ADV', 'VERB', 'advmod']	['已经', '忍无可忍', 'advmod']
+['VERB', 'ROOT', 'root']	['忍无可忍', 'NONE', 'root']
+['PART', 'VERB', 'discourse']	['了', '忍无可忍', 'discourse']
+['PUNCT', 'VERB', 'punct']	['。', '忍无可忍', 'punct']
 ----------------------------------------------------------------------
-不管问题复杂，不管解决方案，不管他们说了什么。
+这一年对于这个国家的两大比赛而言，却是一个很奇怪的一年：我们总统的选举和明年奥斯卡颁奖典礼上评选最佳影片。
 
-(ROOT (IP (CP (ADVP (IN 不管)) (IP (NP (NN 问题)) (VP (JJ 复杂)))) (, ，) (NP (ADVP (IN 不管)) (NP (NN 解决) (NN 方案))) (, ，) (CP (ADVP (IN 不管)) (IP (NP (PRP 他们)) (VP (VV 说) (AS 了) (NP (WP 什么))))) (. 。)))
-{'IP': {'CP': {}, ',': {}, 'NP': {}, ',': {}, 'CP': {}, '.': {}}}
-{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'ADVP': {}, 'NP': {}}, ',': {}, 'CP': {'ADVP': {}, 'IP': {}}, '.': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
-{'NP': {'ADVP': {}, 'NP': {}}}
-{'CP': {'ADVP': {}, 'IP': {}}}
+(ROOT (IP (IP (DP (DT 这) (QP (CD 一) (CLP (NNB 年)))) (IP (VP (PP (IN 对于) (NP (DNP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 国家))) (DEC 的)) (QP (CD 两)) (ADJP (PFA 大)) (NP (NN 比赛)))) (VP (RB 而) (VP (VV 言))))) (, ，) (VP (VC 却是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 很)) (VP (JJ 奇怪)))) (DEC 的))) (QP (CD 一) (CLP (NNB 年)))))) (: ：) (NP (NP (DNP (NP (NP (PRP 我们)) (NP (NN 总统))) (DEC 的)) (NP (NN 选举))) (CC 和) (NP (NP (NN 明年)) (VP (LCP (NP (NP (NNP 奥斯卡)) (NP (NN 颁奖) (NN 典礼))) (IN 上)) (VP (VV 评选) (NP (ADJP (JJ 最佳)) (NP (NN 影片))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'NP': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'NP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'DP': {}, 'IP': {}, ',': {}, 'VP': {}}, ':': {}, 'NP': {'NP': {}, 'CC': {}, 'NP10485': {}}, '.': {}}}
+{'IP': {'IP': {'DP': {}, 'IP': {}, ',': {}, 'VP': {}}, ':': {}, 'NP': {'NP': {}, 'CC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'DP': {}, 'IP': {}, ',': {}, 'VP': {}}}
+{'NP': {'NP': {}, 'CC': {}, 'NP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这', '年', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '年', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['年', '言', 'nmod:tmod']
+['ADP', 'NOUN', 'case']	['对于', '比赛', 'case']
+['DET', 'NOUN', 'det']	['这', '个', 'det']
+['NOUN', 'NOUN', 'clf']	['个', '国家', 'clf']
+['NOUN', 'NOUN', 'nmod']	['国家', '比赛', 'nmod']
+['PART', 'NOUN', 'case']	['的', '国家', 'case']
+['NUM', 'NOUN', 'nummod']	['两', '比赛', 'nummod']
+['PART', 'NOUN', 'case']	['大', '比赛', 'case']
+['NOUN', 'VERB', 'obl']	['比赛', '言', 'obl']
+['ADV', 'VERB', 'mark']	['而', '言', 'mark']
+['VERB', 'NOUN', 'acl']	['言', '年', 'acl']
+['PUNCT', 'VERB', 'punct']	['，', '言', 'punct']
+['AUX', 'NOUN', 'cop']	['是', '年', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '年', 'clf']
+['ADV', 'ADJ', 'advmod']	['很', '奇怪', 'advmod']
+['ADJ', 'NOUN', 'amod']	['奇怪', '年', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '奇怪', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['一', '年', 'nummod']
+['NOUN', 'ROOT', 'root']	['年', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['：', '评选', 'punct']
+['PRON', 'NOUN', 'nmod']	['我', '总统', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['总统', '选举', 'nmod']
+['PART', 'NOUN', 'case']	['的', '总统', 'case']
+['NOUN', 'VERB', 'nsubj']	['选举', '评选', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '典礼', 'cc']
+['NOUN', 'NOUN', 'nmod']	['明年', '典礼', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['奥斯卡', '典礼', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['颁奖', '典礼', 'nmod']
+['NOUN', 'NOUN', 'conj']	['典礼', '选举', 'conj']
+['ADP', 'NOUN', 'case']	['上', '选举', 'case']
+['VERB', 'NOUN', 'parataxis']	['评选', '年', 'parataxis']
+['ADJ', 'NOUN', 'amod']	['最佳', '影片', 'amod']
+['NOUN', 'VERB', 'obj']	['影片', '评选', 'obj']
+['PUNCT', 'NOUN', 'punct']	['。', '年', 'punct']
 ----------------------------------------------------------------------
-媒体被警告不要期待任何实质内容。它们被灌输了吞下自己的骄傲的做法。
+结果发现，这两个种族看起来很相似。
 
-(ROOT (IP (NP (NN 媒体)) (VP (BB 被) (VP (VV 警告) (IP (VP (MD 不要) (VP (VV 期待) (NP (DP (DT 任何)) (ADJP (JJ 实质)) (NP (NN 内容)))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'BB': {}, 'VP': {}}}
+(ROOT (IP (ADVP (NN 结果)) (VP (VV 发现) (, ，) (IP (NP (DP (DT 这) (QP (CD 两) (CLP (NNB 个)))) (NP (NN 种族))) (VP (VRD (VV 看) (VV 起来)) (VP (ADVP (RB 很)) (VP (JJ 相似)))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'NN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nsubj']	['结果', '发现', 'nsubj']
+['VERB', 'ROOT', 'root']	['发现', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '看', 'punct']
+['DET', 'NOUN', 'det']	['这', '个', 'det']
+['NUM', 'NOUN', 'nummod']	['两', '个', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['个', '种族', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['种族', '看', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['看', '发现', 'ccomp']
+['VERB', 'VERB', 'mark']	['起来', '看', 'mark']
+['ADV', 'ADJ', 'advmod']	['很', '相似', 'advmod']
+['ADJ', 'VERB', 'xcomp']	['相似', '看', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '发现', 'punct']
 ----------------------------------------------------------------------
-媒体被告知，在这一天的某一时刻，距离为 40 英尺，持续 40 秒。
+在整个年度的共和党总统竞选中，一系列候选人纷纷出现，但没有一个人能够让人满意。
 
-(ROOT (IP (NP (NN 媒体)) (VP (BB 被) (VP (VV 告知) (, ，) (IP (PP (IN 在) (NP (DNP (DP (DT 这) (QP (CD 一) (CLP (NNB 天)))) (DEC 的)) (DP (DT 某) (QP (CD 一))) (NP (NN 时刻)))) (, ，) (NP (NN 距离)) (VP (VP (VC 为) (QP (CD 40) (CLP (NNB 英尺)))) (, ，) (VP (VV 持续) (QP (CD 40) (CLP (NNB 秒)))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'BB': {}, 'VP': {}}}
-----------------------------------------------------------------------
-后来改成了 50 英尺远，持续 30 秒，这太远了，无法大声问候，也无法听到那些假装自己不被监视的人们悠闲地嗡嗡叫着的声音，就好像在动物园的企鹅池里一样。
-
-(ROOT (IP (IP (VP (VP (ADVP (NN 后来)) (VP (VV 改成) (AS 了) (NP (QP (CD 50) (CLP (NNB 英尺))) (NP (JJ 远))))) (, ，) (VP (VV 持续) (QP (CD 30) (CLP (NNB 秒)))))) (, ，) (IP (NP (PRD 这)) (VP (VP (JJ 太远) (UH 了)) (, ，) (VP (ADVP (VV 无法)) (ADVP (RB 大声)) (VP (VV 问候))) (, ，) (VP (ADVP (RB 也)) (ADVP (VV 无法)) (VP (VV 听到) (NP (CP (CP (IP (NP (DP (DT 那些)) (CP (CP (IP (VP (VV 假装) (IP (NP (PRD 自己)) (VP (ADVP (RB 不)) (VP (BB 被) (VP (VV 监视))))))) (DEC 的))) (NP (NN 人们))) (VP (VCD (JJ 悠闲) (JJ 地嗡)) (, 嗡) (VP (VV 叫) (AS 着)))) (DEC 的))) (NP (NN 声音))))) (, ，) (VP (ADVP (RB 就)) (ADVP (RB 好)) (PP (VV 像) (IP (VP (PP (VV 在) (LCP (NP (DNP (NP (NN 动物) (SFN 园)) (DEC 的)) (NP (NN 企鹅) (SFN 池))) (NN 里))) (VP (JJ 一样)))))))) (. 。)))
+(ROOT (IP (IP (PP (IN 在) (LCP (NP (DNP (NP (DP (DT 整个)) (NP (NN 年度))) (DEC 的)) (NP (NN 共和) (SFN 党)) (NP (NN 总统) (NN 竞选))) (IN 中))) (, ，) (NP (QP (CD 一) (CLP (NN 系列))) (NP (VV 候选) (SFN 人))) (VP (ADVP (RB 纷纷)) (VP (VV 出现)))) (, ，) (IP (ADVP (RB 但)) (VP (VV 没有) (IP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 人))) (VP (MD 能够) (VP (VV 让) (NP (NN 人)) (IP (VP (JJ 满意)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP48427': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP65698': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['在', '竞选', 'case']
+['DET', 'NOUN', 'det']	['整个', '年度', 'det']
+['NOUN', 'NOUN', 'nmod']	['年度', '竞选', 'nmod']
+['PART', 'NOUN', 'case']	['的', '年度', 'case']
+['NOUN', 'PART', 'compound']	['共和', '党', 'compound']
+['PART', 'NOUN', 'nmod']	['党', '竞选', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['总统', '竞选', 'nmod']
+['NOUN', 'VERB', 'obl']	['竞选', '出现', 'obl']
+['ADP', 'NOUN', 'case']	['中', '竞选', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '竞选', 'punct']
+['NUM', 'NOUN', 'nummod']	['一', '系列', 'nummod']
+['NOUN', 'PART', 'nmod']	['系列', '人', 'nmod']
+['VERB', 'PART', 'compound']	['候选', '人', 'compound']
+['PART', 'VERB', 'nsubj']	['人', '出现', 'nsubj']
+['ADV', 'VERB', 'advmod']	['纷纷', '出现', 'advmod']
+['VERB', 'ROOT', 'root']	['出现', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['ADV', 'VERB', 'mark']	['但', '有', 'mark']
+['VERB', 'VERB', 'parataxis']	['有', '出现', 'parataxis']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '人', 'clf']
+['NOUN', 'VERB', 'nsubj']	['人', '让', 'nsubj']
+['AUX', 'VERB', 'aux']	['能够', '让', 'aux']
+['VERB', 'VERB', 'ccomp']	['让', '有', 'ccomp']
+['NOUN', 'ADJ', 'nsubj']	['人', '满意', 'nsubj']
+['ADJ', 'VERB', 'ccomp']	['满意', '让', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '出现', 'punct']
+----------------------------------------------------------------------
+与此同时，在奥斯卡角逐中，一群电影（主要是《艺术家》、《后裔》和《战马》），没有一部看起来像是任何人的最佳影片获奖希望，它们将在 2 月份成为最后一匹马。
+
+(ROOT (IP (IP (NP (PP (IN 与) (NP (PRD 此))) (NP (NN 同时))) (, ，) (LCP (IP (VP (PP (IN 在) (NP (NNP 奥斯卡))) (VP (VV 角逐)))) (IN 中)) (, ，) (NP (QP (CD 一) (CLP (NNB 群))) (NP (NN 电影)) (PRN (-LRB- （) (IP (VP (ADVP (RB 主要)) (VP (VC 是) (NP (NP (-LRB- 《) (NN 艺术) (SFN 家) (-RRB- 》)) (EC 、) (NP (-LRB- 《) (NN 后裔) (-RRB- 》)) (CC 和) (NP (-LRB- 《) (NN 战马) (-RRB- 》)))))) (-RRB- ）))) (, ，) (VP (VV 没有) (IP (QP (CD 一) (CLP (NNB 部))) (VP (VRD (VV 看) (VV 起来)) (NP (IP (VP (PP (VC 像是) (NP (DNP (NP (DP (DT 任何)) (NP (NN 人))) (DEC 的)) (ADJP (JJ 最佳)) (NP (NN 影片)))) (VP (NN 获奖)))) (NP (NN 希望))))))) (, ，) (IP (NP (PRP 它们)) (VP (ADVP (RB 将)) (PP (IN 在) (NP (QP (CD 2)) (NP (NNB 月份)))) (VP (VV 成) (VP (VC 为) (NP (QP (ADJP (NN 最后)) (QP (CD 一))) (NP (NN 匹马))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP34882': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'LCP': {}, ',92276': {}, 'NP96024': {}, ',15108': {}, 'VP': {}}, ',': {}, 'IP32794': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'LCP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'LCP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'PRON', 'case']	['与', '此', 'case']
+['PRON', 'VERB', 'obl']	['此', '有', 'obl']
+['NOUN', 'VERB', 'nmod:tmod']	['同时', '有', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '同时', 'punct']
+['ADP', 'VERB', 'case']	['在', '角逐', 'case']
+['PROPN', 'VERB', 'nsubj']	['奥斯卡', '角逐', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['角逐', '有', 'ccomp']
+['ADP', 'VERB', 'mark']	['中', '角逐', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '角逐', 'punct']
+['NUM', 'NOUN', 'nummod']	['一', '群', 'nummod']
+['NOUN', 'NOUN', 'clf']	['群', '电影', 'clf']
+['NOUN', 'PART', 'nsubj']	['电影', '家', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['（', '电影', 'punct']
+['ADV', 'PART', 'advmod']	['主要', '家', 'advmod']
+['AUX', 'PART', 'cop']	['是', '家', 'cop']
+['PUNCT', 'PART', 'punct']	['《', '家', 'punct']
+['NOUN', 'PART', 'compound']	['艺术', '家', 'compound']
+['PART', 'VERB', 'ccomp']	['家', '有', 'ccomp']
+['PUNCT', 'PART', 'punct']	['》', '家', 'punct']
+['PUNCT', 'NOUN', 'punct']	['、', '后裔', 'punct']
+['PUNCT', 'NOUN', 'punct']	['《', '后裔', 'punct']
+['NOUN', 'PART', 'conj']	['后裔', '家', 'conj']
+['PUNCT', 'NOUN', 'punct']	['》', '后裔', 'punct']
+['CCONJ', 'NOUN', 'cc']	['和', '战马', 'cc']
+['PUNCT', 'NOUN', 'punct']	['《', '战马', 'punct']
+['NOUN', 'PART', 'conj']	['战马', '家', 'conj']
+['PUNCT', 'NOUN', 'punct']	['》', '战马', 'punct']
+['PUNCT', 'NOUN', 'punct']	['）', '战马', 'punct']
+['PUNCT', 'PART', 'punct']	['，', '家', 'punct']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['NUM', 'NOUN', 'nummod']	['一', '部', 'nummod']
+['NOUN', 'NOUN', 'clf']	['部', '希望', 'clf']
+['VERB', 'NOUN', 'acl:relcl']	['看', '希望', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['起来', '看', 'mark']
+['VERB', 'VERB', 'xcomp']	['是', '看', 'xcomp']
+['DET', 'NOUN', 'det']	['任何', '人', 'det']
+['NOUN', 'VERB', 'obj']	['人', '是', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '是', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['最佳', '影片', 'amod']
+['NOUN', 'NOUN', 'nmod']	['影片', '希望', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['获奖', '希望', 'nmod']
+['NOUN', 'VERB', 'obj']	['希望', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '成', 'punct']
+['PRON', 'VERB', 'nsubj']	['它', '成', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '成', 'advmod']
+['ADP', 'NOUN', 'case']	['在', '月份', 'case']
+['NUM', 'NOUN', 'nummod']	['2', '月份', 'nummod']
+['NOUN', 'VERB', 'obl']	['月份', '成', 'obl']
+['VERB', 'VERB', 'parataxis']	['成', '有', 'parataxis']
+['VERB', 'VERB', 'mark']	['为', '成', 'mark']
+['NOUN', 'NOUN', 'nmod']	['最后', '匹马', 'nmod']
+['NUM', 'NOUN', 'nummod']	['一', '匹马', 'nummod']
+['NOUN', 'VERB', 'obj']	['匹马', '成', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+最终，奖杯必须送给其中一人。
+
+(ROOT (IP (ADVP (NN 最终)) (, ，) (NP (NN 奖杯)) (VP (MD 必须) (VP (VV 送给) (NP (NN 其中)) (NP (QP (CD 一)) (NP (NN 人))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'NN': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nmod:tmod']	['最终', '送给', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '最终', 'punct']
+['NOUN', 'VERB', 'nsubj']	['奖杯', '送给', 'nsubj']
+['AUX', 'VERB', 'aux']	['必须', '送给', 'aux']
+['VERB', 'ROOT', 'root']	['送给', 'NONE', 'root']
+['NOUN', 'NOUN', 'nmod']	['其中', '人', 'nmod']
+['NUM', 'NOUN', 'nummod']	['一', '人', 'nummod']
+['NOUN', 'VERB', 'obj']	['人', '送给', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '送给', 'punct']
+----------------------------------------------------------------------
+就像最佳影片角逐奇怪一样，主演类别的竞选也很奇怪：在最佳男主角/女主角奖的决选中，有一半以上的领先者都在拍摄的电影大多被认为最多只是平庸，甚至可以说是糟糕的。
+
+(ROOT (IP (PP (IN 就像) (IP (NP (ADJP (JJ 最佳)) (NP (NN 影片))) (VP (VP (VV 角逐) (NP (JJ 奇怪))) (VP (JJ 一样))))) (, ，) (NP (DNP (NP (VV 主演) (NN 类别)) (DEC 的)) (NP (NN 竞选))) (VP (ADVP (RB 也)) (ADVP (RB 很)) (VP (JJ 奇怪))) (: ：)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, ':': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, ':': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP80058': {}, 'VP': {}}, ':': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, ':': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'ADJ', 'case']	['就像', '一样', 'case']
+['ADJ', 'NOUN', 'amod']	['最佳', '影片', 'amod']
+['NOUN', 'VERB', 'nsubj']	['影片', '角逐', 'nsubj']
+['VERB', 'ADJ', 'advcl']	['角逐', '一样', 'advcl']
+['ADJ', 'VERB', 'xcomp']	['奇怪', '角逐', 'xcomp']
+['ADJ', 'ADJ', 'advcl']	['一样', '奇怪', 'advcl']
+['PUNCT', 'ADJ', 'punct']	['，', '一样', 'punct']
+['VERB', 'NOUN', 'acl:relcl']	['主演', '竞选', 'acl:relcl']
+['NOUN', 'VERB', 'obj']	['类别', '主演', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '主演', 'mark:rel']
+['NOUN', 'ADJ', 'nsubj']	['竞选', '奇怪', 'nsubj']
+['ADV', 'ADJ', 'mark']	['也', '奇怪', 'mark']
+['ADV', 'ADJ', 'advmod']	['很', '奇怪', 'advmod']
+['ADJ', 'ROOT', 'root']	['奇怪', 'NONE', 'root']
+['PUNCT', 'ADJ', 'punct']	['：', '奇怪', 'punct']
+----------------------------------------------------------------------
+尽管这些电影在各自的发行中心都获得了好评，但至少有三部电影（《铁娘子》由梅里尔·斯特里普饰演玛格丽特·撒切尔，《 J. 艾德加》由莱昂纳多·迪卡普里奥主演，《我和马林尼的一周》由米歇尔·威廉姆斯主演）几乎没有获得最佳影片提名，更不用说获奖了。
+
+(ROOT (IP (CP (ADVP (IN 尽管)) (IP (NP (DP (DT 这些)) (NP (NN 电影))) (VP (PP (IN 在) (NP (DNP (NP (PRD 各自)) (DEC 的)) (NP (NN 发行) (NN 中心)))) (ADVP (RB 都)) (VP (VV 获得) (AS 了) (NP (NN 好评)))))) (, ，) (ADVP (RB 但)) (VP (VP (ADVP (RB 至少)) (VP (VV 有) (IP (NP (QP (CD 三) (CLP (NNB 部))) (NP (NN 电影)) (PRN (-LRB- （) (IP (NP (-LRB- 《) (ADJP (NN 铁)) (NP (NN 娘子)) (-RRB- 》)) (VP (PP (VV 由) (NP (NNP 梅里尔) (/ ·) (NNP 斯特里普))) (VP (VV 饰演) (NP (NNP 玛格丽特) (/ ·) (NNP 撒切尔))))) (, ，) (IP (NP (-LRB- 《) (FW J.) (NNP 艾德加) (-RRB- 》)) (VP (PP (VV 由) (NP (NNP 莱昂纳多) (/ ·) (NNP 迪卡普里奥))) (VP (VV 主演)))) (, ，) (IP (IP (-LRB- 《) (DNP (NP (PRP 我) (CC 和) (NNP 马林尼)) (DEC 的)) (QP (CD 一) (CLP (NNB 周))) (-RRB- 》)) (VP (PP (VV 由) (NP (NNP 米歇尔) (/ ·) (NNP 威廉) (NNP 姆斯))) (VP (VV 主演)))) (-RRB- ）))) (VP (ADVP (RB 几乎)) (VP (VV 没有) (VP (VV 获得) (NP (NP (ADJP (JJ 最佳)) (NP (NN 影片))) (NP (NN 提名))))))))) (, ，) (VP (ADVP (RB 更)) (VP (VV 不用) (VP (VV 说) (IP (VP (VV 获奖) (UH 了))))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'VP': {'VP': {}, ',': {}, 'VP85683': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['尽管', '获得', 'case']
+['DET', 'NOUN', 'det']	['这些', '电影', 'det']
+['NOUN', 'VERB', 'nsubj']	['电影', '获得', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '中心', 'case']
+['PRON', 'NOUN', 'det']	['各自', '中心', 'det']
+['PART', 'PRON', 'case']	['的', '各自', 'case']
+['NOUN', 'NOUN', 'nmod']	['发行', '中心', 'nmod']
+['NOUN', 'VERB', 'obl']	['中心', '获得', 'obl']
+['ADV', 'VERB', 'mark']	['都', '获得', 'mark']
+['VERB', 'VERB', 'ccomp']	['获得', '有', 'ccomp']
+['AUX', 'VERB', 'aux']	['了', '获得', 'aux']
+['NOUN', 'VERB', 'obj']	['好评', '获得', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '获得', 'punct']
+['ADV', 'VERB', 'mark']	['但', '有', 'mark']
+['ADV', 'VERB', 'advmod']	['至少', '有', 'advmod']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['NUM', 'NOUN', 'nummod']	['三', '部', 'nummod']
+['NOUN', 'NOUN', 'clf']	['部', '电影', 'clf']
+['NOUN', 'VERB', 'nsubj']	['电影', '由', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['（', '娘子', 'punct']
+['PUNCT', 'NOUN', 'punct']	['《', '娘子', 'punct']
+['NOUN', 'NOUN', 'nmod']	['铁', '娘子', 'nmod']
+['NOUN', 'NOUN', 'appos']	['娘子', '电影', 'appos']
+['PUNCT', 'NOUN', 'punct']	['》', '娘子', 'punct']
+['VERB', 'VERB', 'ccomp']	['由', '有', 'ccomp']
+['PROPN', 'VERB', 'nsubj']	['梅里尔', '饰演', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['·', '斯特里普', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['斯特里普', '梅里尔', 'flat:name']
+['VERB', 'VERB', 'ccomp']	['饰演', '由', 'ccomp']
+['PROPN', 'VERB', 'obj']	['玛格丽特', '饰演', 'obj']
+['PUNCT', 'PROPN', 'punct']	['·', '迪卡普里奥', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['撒切尔', '玛格丽特', 'flat:name']
+['PUNCT', 'VERB', 'punct']	['，', '由', 'punct']
+['PUNCT', 'X', 'punct']	['《', 'J.', 'punct']
+['X', 'VERB', 'nsubj']	['J.', '由', 'nsubj']
+['PROPN', 'X', 'flat:name']	['艾德加', 'J.', 'flat:name']
+['PUNCT', 'X', 'punct']	['》', 'J.', 'punct']
+['VERB', 'VERB', 'parataxis']	['由', '有', 'parataxis']
+['PROPN', 'VERB', 'nsubj']	['莱昂纳多', '主演', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['·', '迪卡普里奥', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['迪卡普里奥', '莱昂纳多', 'flat:name']
+['VERB', 'VERB', 'ccomp']	['主演', '由', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '用', 'punct']
+['PUNCT', 'NOUN', 'punct']	['《', '周', 'punct']
+['PRON', 'NOUN', 'nmod']	['我', '周', 'nmod']
+['CCONJ', 'PROPN', 'cc']	['和', '马林尼', 'cc']
+['PROPN', 'PRON', 'conj']	['马林尼', '我', 'conj']
+['PART', 'PRON', 'case']	['的', '我', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '周', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['周', '用', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['》', '周', 'punct']
+['VERB', 'VERB', 'advcl']	['由', '用', 'advcl']
+['PROPN', 'VERB', 'nsubj']	['米歇尔', '主演', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['·', '威廉', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['威廉', '米歇尔', 'flat:name']
+['PROPN', 'PROPN', 'flat:name']	['姆斯', '米歇尔', 'flat:name']
+['VERB', 'VERB', 'ccomp']	['主演', '由', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['）', '由', 'punct']
+['ADV', 'VERB', 'advmod']	['几乎', '有', 'advmod']
+['VERB', 'VERB', 'advcl']	['有', '用', 'advcl']
+['VERB', 'VERB', 'xcomp']	['获得', '有', 'xcomp']
+['ADJ', 'NOUN', 'amod']	['最佳', '提名', 'amod']
+['NOUN', 'NOUN', 'nmod']	['影片', '提名', 'nmod']
+['NOUN', 'VERB', 'obj']	['提名', '获得', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['ADV', 'VERB', 'advmod']	['更', '用', 'advmod']
+['VERB', 'VERB', 'parataxis']	['用', '有', 'parataxis']
+['VERB', 'VERB', 'xcomp']	['说', '用', 'xcomp']
+['VERB', 'VERB', 'xcomp']	['获奖', '用', 'xcomp']
+['PART', 'VERB', 'discourse']	['了', '用', 'discourse']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+这种在平庸电影中表演出色的现象，如今已经成为奥斯卡的一大常见现象。
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 种))) (CP (IP (VP (PP (IN 在) (LCP (NP (ADJP (JJ 平庸)) (NP (NN 电影))) (IN 中))) (VP (VP (VV 表演)) (VP (JJ 出色))))) (DEC 的)) (NP (NN 现象))) (, ，) (VP (NP (NN 如今)) (ADVP (RB 已经)) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (NNP 奥斯卡)) (DEC 的)) (QP (CD 一)) (ADJP (PFA 大)) (ADJP (JJ 常见)) (NP (NN 现象)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'CP': {}, 'NP': {}}, ',': {}, 'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'CP': {}, 'NP': {}}, ',': {}, 'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'CP': {}, 'NP': {}}}
+{'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '现象', 'clf']
+['ADP', 'NOUN', 'case']	['在', '电影', 'case']
+['ADJ', 'NOUN', 'amod']	['平庸', '电影', 'amod']
+['NOUN', 'VERB', 'obl']	['电影', '表演', 'obl']
+['ADP', 'NOUN', 'case']	['中', '电影', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['表演', '现象', 'acl:relcl']
+['ADJ', 'NOUN', 'amod']	['出色', '现象', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '出色', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['现象', '成', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '现象', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['如今', '成', 'nmod:tmod']
+['ADV', 'VERB', 'advmod']	['已经', '成', 'advmod']
+['VERB', 'ROOT', 'root']	['成', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['为', '成', 'mark']
+['PROPN', 'NOUN', 'nmod']	['奥斯卡', '现象', 'nmod']
+['PART', 'PROPN', 'case']	['的', '奥斯卡', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '现象', 'nummod']
+['PART', 'NOUN', 'case']	['大', '现象', 'case']
+['ADJ', 'NOUN', 'amod']	['常见', '现象', 'amod']
+['NOUN', 'VERB', 'obj']	['现象', '成', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '成', 'punct']
+----------------------------------------------------------------------
+在好莱坞黄金时代，当时著名的电影通常是大型明星剧情片和泪腾腾的电影，让主演们可以尽情表演，直到屋檐塌陷。
+
+(ROOT (IP (PP (IN 在) (NP (NP (NNP 好莱坞)) (NP (NN 黄金) (NN 时代)))) (, ，) (NP (NN 当时)) (NP (CP (CP (IP (VP (JJ 著名))) (DEC 的))) (NP (NN 电影))) (VP (VP (ADVP (RB 通常)) (VP (VC 是) (NP (NP (NP (ADJP (NN 大型)) (NP (NN 明星))) (NP (NN 剧情) (SFN 片))) (CC 和) (NP (CP (CP (IP (NP (NN 泪)) (VP (JJ 腾腾))) (DEC 的))) (NP (NN 电影)))))) (, ，) (VP (VV 让) (NP (VV 主演) (SFN 们)) (IP (VP (MD 可以) (VP (ADVP (RB 尽情)) (VP (VV 表演)))))) (, ，) (PP (IN 直到) (IP (NP (NN 屋檐)) (VP (VV 塌陷))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'NP94781': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}}, 'NP59487': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP52835': {}, ',39771': {}, 'PP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'PP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'NN': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'PP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['在', '时代', 'case']
+['PROPN', 'NOUN', 'nmod']	['好莱坞', '时代', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['黄金', '时代', 'nmod']
+['NOUN', 'VERB', 'obl']	['时代', '让', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '时代', 'punct']
+['NOUN', 'NOUN', 'nmod']	['当时', '电影', 'nmod']
+['ADJ', 'NOUN', 'amod']	['著名', '电影', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '著名', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['电影', '让', 'nsubj']
+['ADV', 'NOUN', 'advmod']	['通常', '电影', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '电影', 'cop']
+['NOUN', 'PART', 'nmod']	['大型', '片', 'nmod']
+['NOUN', 'PART', 'nmod']	['明星', '片', 'nmod']
+['NOUN', 'PART', 'compound']	['剧情', '片', 'compound']
+['PART', 'NOUN', 'nmod']	['片', '电影', 'nmod']
+['CCONJ', 'ADJ', 'cc']	['和', '腾腾', 'cc']
+['NOUN', 'ADJ', 'nsubj']	['泪', '腾腾', 'nsubj']
+['ADJ', 'PART', 'conj']	['腾腾', '片', 'conj']
+['PART', 'ADJ', 'mark:rel']	['的', '腾腾', 'mark:rel']
+['NOUN', 'VERB', 'advcl']	['电影', '让', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['，', '电影', 'punct']
+['VERB', 'ROOT', 'root']	['让', 'NONE', 'root']
+['VERB', 'PART', 'compound']	['主演', '们', 'compound']
+['PART', 'VERB', 'nsubj']	['们', '表演', 'nsubj']
+['AUX', 'VERB', 'aux']	['可以', '表演', 'aux']
+['ADV', 'VERB', 'advmod']	['尽情', '表演', 'advmod']
+['VERB', 'VERB', 'ccomp']	['表演', '让', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '塌陷', 'punct']
+['ADP', 'VERB', 'case']	['直到', '塌陷', 'case']
+['NOUN', 'VERB', 'nsubj']	['屋檐', '塌陷', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['塌陷', '让', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '让', 'punct']
+----------------------------------------------------------------------
+但是，随着大预算的声望剧几乎消失，成年演员被迫远走高飞寻找展示场所。
+
+(ROOT (IP (IP (ADVP (RB 但是)) (, ，) (NP (DNP (PP (VV 随) (PP (AS 着) (NP (ADJP (PFA 大)) (NP (NN 预算))))) (DEC 的)) (NP (NN 声望) (SFN 剧))) (VP (ADVP (RB 几乎)) (VP (VV 消失)))) (, ，) (IP (NP (ADJP (NN 成年)) (NP (NN 演员))) (VP (BB 被) (VP (ADVP (RB 迫远)) (VP (VP (VV 走) (NP (VV 高飞))) (VP (VV 寻找) (NP (NN 展示) (NN 场所))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP10227': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP94544': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['但是', '寻找', 'mark']
+['PUNCT', 'ADV', 'punct']	['，', '但是', 'punct']
+['VERB', 'PART', 'acl:relcl']	['随', '剧', 'acl:relcl']
+['AUX', 'VERB', 'aux']	['着', '随', 'aux']
+['PART', 'NOUN', 'case']	['大', '预算', 'case']
+['NOUN', 'PART', 'nmod']	['预算', '剧', 'nmod']
+['PART', 'VERB', 'mark:rel']	['的', '随', 'mark:rel']
+['NOUN', 'PART', 'compound']	['声望', '剧', 'compound']
+['PART', 'VERB', 'nsubj']	['剧', '消失', 'nsubj']
+['ADV', 'VERB', 'advmod']	['几乎', '消失', 'advmod']
+['VERB', 'VERB', 'ccomp']	['消失', '寻找', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '随', 'punct']
+['NOUN', 'NOUN', 'nmod']	['成年', '演员', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['演员', '寻找', 'nsubj']
+['AUX', 'VERB', 'aux']	['被', '寻找', 'aux']
+['ADV', 'VERB', 'advmod']	['迫远', '寻找', 'advmod']
+['VERB', 'VERB', 'advcl']	['走', '寻找', 'advcl']
+['VERB', 'VERB', 'advcl']	['高飞', '寻找', 'advcl']
+['VERB', 'ROOT', 'root']	['寻找', 'NONE', 'root']
+['NOUN', 'NOUN', 'nmod']	['展示', '场所', 'nmod']
+['NOUN', 'VERB', 'obj']	['场所', '寻找', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '寻找', 'punct']
+----------------------------------------------------------------------
+在这些隐蔽角落里，他们找到了展示自己才华的机会，但可惜的是，他们并不一定能够在运用自己水平的赛车上展现自己的才华。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (NP (DP (DT 这些)) (ADJP (JJ 隐蔽)) (NP (NN 角落))) (IN 里))) (, ，) (NP (PRP 他们)) (VP (VV 找到) (AS 了) (IP (VP (VV 展示) (NP (CP (IP (NP (PRD 自己)) (VP (RB 才) (NP (NNP 华)))) (DEC 的)) (NP (NN 机会))))))) (, ，) (IP (ADVP (RB 但)) (NP (CP (CP (IP (VP (JJ 可惜))) (DEC 的)))) (VP (VC 是) (, ，) (IP (NP (PRP 他们)) (VP (ADVP (RB 并)) (ADVP (RB 不)) (ADVP (RB 一定)) (VP (MD 能够) (VP (PP (IN 在) (LCP (NP (CP (CP (IP (VP (VV 运用) (NP (NP (PRD 自己)) (NP (NN 水平))))) (DEC 的))) (NP (NN 赛车))) (IN 上))) (VP (VV 展现) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 才华)))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP85198': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP41501': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['在', '角落', 'case']
+['DET', 'NOUN', 'det']	['这些', '角落', 'det']
+['ADJ', 'NOUN', 'amod']	['隐蔽', '角落', 'amod']
+['NOUN', 'VERB', 'obl']	['角落', '找到', 'obl']
+['ADP', 'NOUN', 'case']	['里', '角落', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '角落', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '找到', 'nsubj']
+['VERB', 'ROOT', 'root']	['找到', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '找到', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['展示', '机会', 'acl:relcl']
+['PRON', 'VERB', 'obj']	['自己', '展示', 'obj']
+['ADV', 'VERB', 'mark']	['才', '展示', 'mark']
+['PROPN', 'VERB', 'obj']	['华', '展示', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '展示', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['机会', '找到', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['ADV', 'VERB', 'mark']	['但', '是', 'mark']
+['ADJ', 'VERB', 'csubj']	['可惜', '是', 'csubj']
+['PART', 'ADJ', 'mark:rel']	['的', '可惜', 'mark:rel']
+['VERB', 'VERB', 'parataxis']	['是', '找到', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['，', '展现', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '展现', 'nsubj']
+['ADV', 'VERB', 'mark']	['并', '展现', 'mark']
+['ADV', 'VERB', 'advmod']	['不', '展现', 'advmod']
+['ADV', 'VERB', 'advmod']	['一定', '展现', 'advmod']
+['AUX', 'VERB', 'aux']	['能够', '展现', 'aux']
+['ADP', 'NOUN', 'case']	['在', '赛车', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['运用', '赛车', 'acl:relcl']
+['PRON', 'NOUN', 'nmod']	['自己', '水平', 'nmod']
+['NOUN', 'VERB', 'obj']	['水平', '运用', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '运用', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['赛车', '展现', 'obl']
+['ADP', 'NOUN', 'case']	['上', '赛车', 'case']
+['VERB', 'VERB', 'ccomp']	['展现', '是', 'ccomp']
+['PRON', 'NOUN', 'det']	['自己', '才华', 'det']
+['PART', 'PRON', 'case']	['的', '自己', 'case']
+['NOUN', 'VERB', 'obj']	['才华', '展现', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '找到', 'punct']
+----------------------------------------------------------------------
+这种对立表明了学院在咬scenery （吃景）之外，是否还接受了其他电影技巧。
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (IN 对) (VV 立))) (VP (VV 表明) (AS 了) (IP (NP (NN 学院)) (VP (PP (IN 在) (LCP (NP (FW 咬scenery) (PRN (-LRB- （) (NP (VV 吃景)) (-RRB- ）))) (IN 之外))) (, ，) (ADVP (VC 是否)) (ADVP (RB 还)) (VP (VV 接受) (AS 了) (NP (DP (DT 其他)) (NP (NN 电影) (NN 技巧))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'IP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'VERB', 'obl']	['种', '表明', 'obl']
+['ADP', 'VERB', 'case']	['对', '立', 'case']
+['VERB', 'VERB', 'xcomp']	['立', '表明', 'xcomp']
+['VERB', 'VERB', 'advcl']	['表明', '接受', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '表明', 'aux']
+['NOUN', 'X', 'nmod']	['学院', '咬scenery', 'nmod']
+['ADP', 'X', 'case']	['在', '咬scenery', 'case']
+['X', 'VERB', 'obl']	['咬scenery', '表明', 'obl']
+['PUNCT', 'VERB', 'punct']	['（', '吃景', 'punct']
+['VERB', 'X', 'appos']	['吃景', '咬scenery', 'appos']
+['PUNCT', 'VERB', 'punct']	['）', '吃景', 'punct']
+['ADP', 'VERB', 'mark']	['之外', '表明', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '表明', 'punct']
+['VERB', 'VERB', 'advcl']	['是', '接受', 'advcl']
+['ADV', 'VERB', 'mark']	['还', '接受', 'mark']
+['VERB', 'ROOT', 'root']	['接受', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '接受', 'aux']
+['DET', 'NOUN', 'det']	['其他', '技巧', 'det']
+['NOUN', 'NOUN', 'nmod']	['电影', '技巧', 'nmod']
+['NOUN', 'VERB', 'obj']	['技巧', '接受', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '接受', 'punct']
+----------------------------------------------------------------------
+近年来，最佳影片奖的走势是以《摔跤吧！爸爸》《伤逝》和《没有国度》等导演驱动的项目，而非明星主演的作品。
+
+(ROOT (IP (LCP (NP (NN 近年)) (IN 来)) (, ，) (NP (DNP (NP (NP (ADJP (JJ 最佳)) (NP (NN 影片))) (NP (SFN 奖))) (DEC 的)) (NP (NN 走势))) (VP (VC 是) (VP (PP (IN 以) (NP (CP (CP (IP (NP (NP (NP (NP (-LRB- 《) (VP (VV 摔) (NN 跤吧)) (. ！) (NP (NN 爸爸)) (-RRB- 》)) (NP (-LRB- 《) (VV 伤逝) (-RRB- 》))) (CC 和) (IP (-LRB- 《) (VP (VV 没有) (NP (NN 国度))) (-RRB- 》)) (NN 等)) (NP (NN 导演))) (VP (VV 驱动))) (DEC 的))) (NP (NN 项目)))) (, ，) (VP (VC 而非) (NP (CP (CP (IP (NP (NN 明星)) (VP (VV 主演))) (DEC 的))) (NP (NN 作品)))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nmod:tmod']	['近年', '是', 'nmod:tmod']
+['ADP', 'NOUN', 'case']	['来', '近年', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '近年', 'punct']
+['ADJ', 'PART', 'amod']	['最佳', '奖', 'amod']
+['NOUN', 'PART', 'compound']	['影片', '奖', 'compound']
+['PART', 'NOUN', 'nmod']	['奖', '走势', 'nmod']
+['PART', 'PART', 'case']	['的', '奖', 'case']
+['NOUN', 'VERB', 'nsubj']	['走势', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['ADP', 'NOUN', 'case']	['以', '爸爸', 'case']
+['PUNCT', 'NOUN', 'punct']	['《', '爸爸', 'punct']
+['VERB', 'NOUN', 'amod']	['摔', '爸爸', 'amod']
+['NOUN', 'VERB', 'obj']	['跤吧', '摔', 'obj']
+['PUNCT', 'NOUN', 'punct']	['！', '爸爸', 'punct']
+['NOUN', 'VERB', 'obl']	['爸爸', '驱动', 'obl']
+['PUNCT', 'NOUN', 'punct']	['》', '爸爸', 'punct']
+['PUNCT', 'VERB', 'punct']	['《', '伤逝', 'punct']
+['VERB', 'NOUN', 'appos']	['伤逝', '爸爸', 'appos']
+['PUNCT', 'VERB', 'punct']	['》', '伤逝', 'punct']
+['CCONJ', 'NOUN', 'cc']	['和', '国度', 'cc']
+['PUNCT', 'VERB', 'punct']	['《', '有', 'punct']
+['VERB', 'VERB', 'conj']	['有', '伤逝', 'conj']
+['NOUN', 'VERB', 'obj']	['国度', '有', 'obj']
+['PUNCT', 'NOUN', 'punct']	['》', '国度', 'punct']
+['NOUN', 'VERB', 'obl']	['等', '伤逝', 'obl']
+['NOUN', 'VERB', 'appos']	['导演', '伤逝', 'appos']
+['VERB', 'NOUN', 'acl:relcl']	['驱动', '项目', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '驱动', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['项目', '是', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '而非', 'punct']
+['VERB', 'NOUN', 'cop']	['而非', '作品', 'cop']
+['NOUN', 'VERB', 'nsubj']	['明星', '主演', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['主演', '作品', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '主演', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['作品', '是', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+近来，奥斯卡奖愈发像一个文明的电影社会，这对传统演员的展示并不是一件好事。
+
+(ROOT (IP (IP (ADVP (NN 近来)) (, ，) (NP (NNP 奥斯卡) (SFN 奖)) (VP (ADVP (RB 愈)) (VP (VV 发像) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (NN 文明))) (DEC 的))) (NP (NN 电影) (NN 社会)))))) (, ，) (IP (NP (DNP (DP (PRD 这) (PP (IN 对) (NP (ADJP (NN 传统)) (NP (NN 演员))))) (DEC 的)) (NP (NN 展示))) (VP (ADVP (RB 并)) (VP (VC 不是) (NP (QP (CD 一) (CLP (NNB 件))) (NP (NN 好事)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP10930': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP32055': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nmod:tmod']	['近来', '发像', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '近来', 'punct']
+['PROPN', 'PART', 'compound']	['奥斯卡', '奖', 'compound']
+['PART', 'VERB', 'nsubj']	['奖', '发像', 'nsubj']
+['ADV', 'VERB', 'advmod']	['愈', '发像', 'advmod']
+['VERB', 'ROOT', 'root']	['发像', 'NONE', 'root']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '社会', 'clf']
+['NOUN', 'NOUN', 'nmod']	['文明', '社会', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '文明', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['电影', '社会', 'nmod']
+['NOUN', 'VERB', 'obj']	['社会', '发像', 'obj']
+['PUNCT', 'NOUN', 'punct']	['，', '好事', 'punct']
+['PRON', 'NOUN', 'nmod']	['这', '展示', 'nmod']
+['ADP', 'NOUN', 'case']	['对', '展示', 'case']
+['NOUN', 'NOUN', 'nmod']	['传统', '演员', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['演员', '展示', 'nmod']
+['PART', 'NOUN', 'case']	['的', '展示', 'case']
+['NOUN', 'NOUN', 'nsubj']	['展示', '好事', 'nsubj']
+['ADV', 'NOUN', 'mark']	['并', '好事', 'mark']
+['AUX', 'NOUN', 'cop']	['是', '好事', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '件', 'nummod']
+['NOUN', 'NOUN', 'clf']	['件', '好事', 'clf']
+['NOUN', 'VERB', 'parataxis']	['好事', '发像', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '发像', 'punct']
+----------------------------------------------------------------------
+但是，这一点的反面引出了一个有趣的问题：如果这部电影还是差的，这些表演有多么出色？
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (NP (DNP (DP (DT 这) (CLP (NN 一点))) (DEC 的)) (NP (NN 反面))) (VP (VV 引出) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 有趣))) (DEC 的))) (NP (NN 问题)))) (: ：)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, ':': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, ':': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, ':': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, ':': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['但是', '引出', 'mark']
+['PUNCT', 'ADV', 'punct']	['，', '但是', 'punct']
+['DET', 'NOUN', 'det']	['这', '一点', 'det']
+['NOUN', 'NOUN', 'nmod']	['一点', '反面', 'nmod']
+['PART', 'NOUN', 'case']	['的', '一点', 'case']
+['NOUN', 'VERB', 'nsubj']	['反面', '引出', 'nsubj']
+['VERB', 'ROOT', 'root']	['引出', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '引出', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '问题', 'clf']
+['ADJ', 'NOUN', 'amod']	['有趣', '问题', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '有趣', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['问题', '引出', 'obj']
+['PUNCT', 'VERB', 'punct']	['：', '引出', 'punct']
+----------------------------------------------------------------------
+《J. 艾德加》里的莱昂纳多·迪卡普里奥，《我和马林妮的一周》里的米歇尔·威廉姆斯。
+
+(ROOT (NP (NP (DNP (NP (-LRB- 《) (FW J.) (NNP 艾德加》) (IN 里)) (DEC 的)) (NP (NNP 莱昂纳多) (/ ·) (NNP 迪卡普里奥))) (, ，) (NP (DNP (LCP (NP (-LRB- 《) (NP (PRP 我)) (CC 和) (QP (DNP (NP (NNP 马林妮)) (DEC 的)) (QP (CD 一) (CLP (NN 周)))) (-RRB- 》)) (IN 里)) (DEC 的)) (NP (NNP 米歇尔) (/ ·) (NNP 威廉) (NNP 姆斯))) (. 。)))
+layer 2:
+{'NP': {'NP': {}, ',': {}, 'NP1305': {}, '.': {}}}
+{'NP': {'NP': {}, ',': {}, 'NP': {}, '.': {}}}
+layer 3:
+{'NP': {'NP': {'DNP': {}, 'NP': {}}, ',': {}, 'NP76753': {'DNP': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NP': {'DNP': {}, 'NP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+Dependency Features:
+['PUNCT', 'X', 'punct']	['《', 'J.', 'punct']
+['X', 'PROPN', 'nmod']	['J.', '莱昂纳多', 'nmod']
+['PROPN', 'X', 'appos']	['艾德加》', 'J.', 'appos']
+['ADP', 'PROPN', 'case']	['里', '艾德加》', 'case']
+['PART', 'X', 'case']	['的', 'J.', 'case']
+['PROPN', 'PROPN', 'nmod']	['莱昂纳多', '米歇尔', 'nmod']
+['PUNCT', 'PROPN', 'punct']	['·', '迪卡普里奥', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['迪卡普里奥', '莱昂纳多', 'flat:name']
+['PUNCT', 'NOUN', 'punct']	['，', '周', 'punct']
+['PUNCT', 'NOUN', 'punct']	['《', '周', 'punct']
+['PRON', 'NOUN', 'nmod']	['我', '周', 'nmod']
+['CCONJ', 'PROPN', 'cc']	['和', '马林妮', 'cc']
+['PROPN', 'PRON', 'conj']	['马林妮', '我', 'conj']
+['PART', 'PRON', 'case']	['的', '我', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '周', 'nummod']
+['NOUN', 'PROPN', 'conj']	['周', '莱昂纳多', 'conj']
+['PUNCT', 'NOUN', 'punct']	['》', '周', 'punct']
+['ADP', 'NOUN', 'case']	['里', '周', 'case']
+['PART', 'NOUN', 'case']	['的', '周', 'case']
+['PROPN', 'ROOT', 'root']	['米歇尔', 'NONE', 'root']
+['PUNCT', 'PROPN', 'punct']	['·', '威廉', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['威廉', '米歇尔', 'flat:name']
+['PROPN', 'PROPN', 'flat:name']	['姆斯', '威廉', 'flat:name']
+['PUNCT', 'PROPN', 'punct']	['。', '米歇尔', 'punct']
+----------------------------------------------------------------------
+《我与马林娜的一周》就是一个很好的例子。
+
+(ROOT (IP (NP (-LRB- 《) (DNP (NP (PRP 我) (CC 与) (NNP 马林娜)) (DEC 的)) (QP (CD 一) (CLP (NN 周))) (-RRB- 》)) (VP (VC 就是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 很好))) (DEC 的))) (NP (NN 例子)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'-LRB-': {}, 'DNP': {}, 'QP': {}, '-RRB-': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'-LRB-': {}, 'DNP': {}, 'QP': {}, '-RRB-': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'-LRB-': {}, 'DNP': {}, 'QP': {}, '-RRB-': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+['PUNCT', 'NOUN', 'punct']	['《', '周', 'punct']
+['PRON', 'NOUN', 'nmod']	['我', '周', 'nmod']
+['CCONJ', 'PROPN', 'cc']	['与', '马林娜', 'cc']
+['PROPN', 'PRON', 'conj']	['马林娜', '我', 'conj']
+['PART', 'PRON', 'case']	['的', '我', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '周', 'nummod']
+['NOUN', 'NOUN', 'nsubj']	['周', '例子', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['》', '周', 'punct']
+['AUX', 'NOUN', 'cop']	['是', '例子', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '例子', 'clf']
+['ADJ', 'NOUN', 'amod']	['很好', '例子', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '很好', 'mark:rel']
+['NOUN', 'ROOT', 'root']	['例子', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['。', '例子', 'punct']
+----------------------------------------------------------------------
+这部电影是一部友好但无章法的英国 50 年代电影剧组剧情。
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 部))) (NP (NN 电影))) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 部))) (CP (CP (IP (VP (VP (JJ 友好)) (RB 但) (VP (VV 无) (NP (NN 章法))))) (DEC 的))) (NP (NNP 英国)) (NP (QP (CD 50)) (NP (NNB 年代))) (NP (NN 电影) (NN 剧组) (NN 剧情)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这', '部', 'det']
+['NOUN', 'NOUN', 'clf']	['部', '电影', 'clf']
+['NOUN', 'NOUN', 'nsubj']	['电影', '剧情', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '剧情', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '部', 'nummod']
+['NOUN', 'NOUN', 'clf']	['部', '剧情', 'clf']
+['ADJ', 'VERB', 'advcl']	['友好', '无', 'advcl']
+['ADV', 'VERB', 'mark']	['但', '无', 'mark']
+['VERB', 'NOUN', 'acl:relcl']	['无', '剧情', 'acl:relcl']
+['NOUN', 'VERB', 'obj']	['章法', '无', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '无', 'mark:rel']
+['PROPN', 'NOUN', 'nmod']	['英国', '剧情', 'nmod']
+['NUM', 'NOUN', 'nummod']	['50', '年代', 'nummod']
+['NOUN', 'NOUN', 'clf']	['年代', '剧情', 'clf']
+['NOUN', 'NOUN', 'nmod']	['电影', '剧情', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['剧组', '剧情', 'nmod']
+['NOUN', 'ROOT', 'root']	['剧情', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['。', '剧情', 'punct']
+----------------------------------------------------------------------
+这部电影是一部善意的但不是特别周密的时代片——艺术设计重于剧情构造——这些都是现在 HBO 电影的典型特征。
+
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 部))) (NP (NN 电影))) (VP (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 部))) (CP (CP (IP (VP (JJ 善意))) (DEC 的))))) (VP (ADVP (RB 但)) (VP (VC 不是) (NP (CP (CP (IP (VP (ADVP (RB 特别)) (VP (JJ 周密)))) (DEC 的))) (NP (NN 时代) (SFN 片))))))) (HYPH —) (HYPH —) (IP (NP (NN 艺术) (NN 设计)) (VP (VV 重于) (NP (NN 剧情) (NN 构造)))) (HYPH —) (HYPH —) (IP (NP (DT 这些)) (VP (VC 都是) (NP (DNP (NP (NP (NN 现在)) (NP (FW HBO)) (NP (NN 电影))) (DEC 的)) (ADJP (JJ 典型)) (NP (NN 特征))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, 'HYPH': {}, 'HYPH96066': {}, 'IP88455': {}, 'HYPH50060': {}, 'HYPH56443': {}, 'IP72379': {}, '.': {}}}
+{'IP': {'IP': {}, 'HYPH': {}, 'HYPH': {}, 'IP': {}, 'HYPH': {}, 'HYPH': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, 'HYPH': {}, 'HYPH82804': {}, 'IP8446': {'NP': {}, 'VP': {}}, 'HYPH89914': {}, 'HYPH80573': {}, 'IP34847': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, 'HYPH': {}, 'HYPH': {}, 'IP': {'NP': {}, 'VP': {}}, 'HYPH': {}, 'HYPH': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这', '部', 'det']
+['NOUN', 'NOUN', 'clf']	['部', '电影', 'clf']
+['NOUN', 'PART', 'nsubj']	['电影', '片', 'nsubj']
+['AUX', 'PART', 'cop']	['是', '片', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '部', 'nummod']
+['NOUN', 'PART', 'nmod']	['部', '片', 'nmod']
+['ADJ', 'PART', 'amod']	['善意', '片', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '善意', 'mark:rel']
+['ADV', 'PART', 'mark']	['但', '片', 'mark']
+['AUX', 'PART', 'cop']	['是', '片', 'cop']
+['ADV', 'ADJ', 'advmod']	['特别', '周密', 'advmod']
+['ADJ', 'PART', 'amod']	['周密', '片', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '周密', 'mark:rel']
+['NOUN', 'PART', 'compound']	['时代', '片', 'compound']
+['PART', 'ROOT', 'root']	['片', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['—', '重于', 'punct']
+['PUNCT', 'VERB', 'punct']	['—', '重于', 'punct']
+['NOUN', 'NOUN', 'nmod']	['艺术', '设计', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['设计', '重于', 'nsubj']
+['VERB', 'PART', 'parataxis']	['重于', '片', 'parataxis']
+['NOUN', 'NOUN', 'nmod']	['剧情', '构造', 'nmod']
+['NOUN', 'VERB', 'obj']	['构造', '重于', 'obj']
+['PUNCT', 'NOUN', 'punct']	['—', '特征', 'punct']
+['PUNCT', 'NOUN', 'punct']	['—', '特征', 'punct']
+['DET', 'NOUN', 'nsubj']	['这些', '特征', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '特征', 'cop']
+['NOUN', 'NOUN', 'nmod']	['现在', '电影', 'nmod']
+['X', 'NOUN', 'nmod']	['HBO', '电影', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['电影', '特征', 'nmod']
+['PART', 'NOUN', 'case']	['的', '电影', 'case']
+['ADJ', 'NOUN', 'amod']	['典型', '特征', 'amod']
+['NOUN', 'PART', 'parataxis']	['特征', '片', 'parataxis']
+['PUNCT', 'PART', 'punct']	['。', '片', 'punct']
+----------------------------------------------------------------------
+这部电影失败了，剧情杂乱无章，其中，米歇尔·威廉姆斯身着铂金发饰和纹身，扮演着玛丽莲·梦露。
+
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 部))) (NP (NN 电影))) (VP (VV 失败) (AS 了))) (, ，) (IP (NP (NN 剧情)) (VP (VCD (JJ 杂乱) (JJ 无章)))) (, ，) (IP (NP (NN 其中)) (, ，) (NP (NNP 米歇尔) (/ ·) (NNP 威廉) (NNP 姆斯)) (VP (VP (VV 身着) (NP (NN 铂金) (NN 发饰) (CC 和) (NN 纹身))) (, ，) (VP (VV 扮演) (AS 着) (NP (NNP 玛丽莲) (/ ·) (NNP 梦露))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP60700': {}, ',90690': {}, 'IP87689': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP81107': {'NP': {}, 'VP': {}}, ',94298': {}, 'IP77952': {'NP': {}, ',': {}, 'NP62013': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这', '部', 'det']
+['NOUN', 'NOUN', 'clf']	['部', '电影', 'clf']
+['NOUN', 'VERB', 'nsubj']	['电影', '失败', 'nsubj']
+['VERB', 'ROOT', 'root']	['失败', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '失败', 'aux']
+['PUNCT', 'ADJ', 'punct']	['，', '无章', 'punct']
+['NOUN', 'ADJ', 'nsubj']	['剧情', '杂乱', 'nsubj']
+['ADJ', 'ADJ', 'advcl']	['杂乱', '无章', 'advcl']
+['ADJ', 'VERB', 'parataxis']	['无章', '失败', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['，', '扮演', 'punct']
+['NOUN', 'VERB', 'obl']	['其中', '扮演', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '其中', 'punct']
+['PROPN', 'VERB', 'nsubj']	['米歇尔', '扮演', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['·', '威廉', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['威廉', '米歇尔', 'flat:name']
+['PROPN', 'PROPN', 'flat:name']	['姆斯', '米歇尔', 'flat:name']
+['VERB', 'VERB', 'advcl']	['身着', '扮演', 'advcl']
+['NOUN', 'NOUN', 'nmod']	['铂金', '发饰', 'nmod']
+['NOUN', 'VERB', 'obj']	['发饰', '身着', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '纹身', 'cc']
+['NOUN', 'NOUN', 'conj']	['纹身', '发饰', 'conj']
+['PUNCT', 'VERB', 'punct']	['，', '身着', 'punct']
+['VERB', 'VERB', 'parataxis']	['扮演', '失败', 'parataxis']
+['AUX', 'VERB', 'aux']	['着', '扮演', 'aux']
+['PROPN', 'VERB', 'obj']	['玛丽莲', '扮演', 'obj']
+['PUNCT', 'PROPN', 'punct']	['·', '梦露', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['梦露', '玛丽莲', 'flat:name']
+['PUNCT', 'VERB', 'punct']	['。', '失败', 'punct']
+----------------------------------------------------------------------
+在最佳影片奖的类别中，《与玛丽莲共度的一周》没有人把它列为奥斯卡竞争者。
+
+(ROOT (IP (PP (IN 在) (LCP (NP (DNP (NP (ADJP (JJ 最佳)) (NP (NN 影片) (SFN 奖))) (DEC 的)) (NP (NN 类别))) (IN 中))) (, ，) (NP (-LRB- 《) (CP (CP (IP (VP (PP (CC 与) (NP (NNP 玛丽) (NNP 莲))) (VP (VV 共度)))) (DEC 的))) (QP (CD 一) (CLP (NNB 周))) (-RRB- 》)) (VP (VV 没有) (IP (NP (NN 人)) (VP (BB 把) (IP (NP (PRP 它)) (VP (VV 列为) (NP (NP (NNP 奥斯卡)) (NP (VV 竞争) (SFN 者)))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'-LRB-': {}, 'CP': {}, 'QP': {}, '-RRB-': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'-LRB-': {}, 'CP': {}, 'QP': {}, '-RRB-': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'-LRB-': {}, 'CP': {}, 'QP': {}, '-RRB-': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['在', '类别', 'case']
+['ADJ', 'PART', 'amod']	['最佳', '奖', 'amod']
+['NOUN', 'PART', 'compound']	['影片', '奖', 'compound']
+['PART', 'NOUN', 'nmod']	['奖', '类别', 'nmod']
+['PART', 'PART', 'case']	['的', '奖', 'case']
+['NOUN', 'VERB', 'obl']	['类别', '有', 'obl']
+['ADP', 'NOUN', 'case']	['中', '类别', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '类别', 'punct']
+['PUNCT', 'NOUN', 'punct']	['《', '周', 'punct']
+['CCONJ', 'PROPN', 'cc']	['与', '玛丽', 'cc']
+['PROPN', 'VERB', 'nsubj']	['玛丽', '共度', 'nsubj']
+['PROPN', 'PROPN', 'conj']	['莲', '玛丽', 'conj']
+['VERB', 'NOUN', 'acl:relcl']	['共度', '周', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '共度', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['一', '周', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['周', '有', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['》', '周', 'punct']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['NOUN', 'VERB', 'nsubj']	['人', '为', 'nsubj']
+['ADP', 'PRON', 'case']	['把', '它', 'case']
+['PRON', 'VERB', 'obl:patient']	['它', '为', 'obl:patient']
+['VERB', 'VERB', 'ccomp']	['为', '有', 'ccomp']
+['PROPN', 'PART', 'nmod']	['奥斯卡', '者', 'nmod']
+['VERB', 'PART', 'compound']	['竞争', '者', 'compound']
+['PART', 'VERB', 'iobj']	['者', '为', 'iobj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+这项表演属于每个人。
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 表演))) (VP (VV 属) (PP (VV 于) (NP (DP (DT 每个)) (NP (NN 人))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'PP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这', '项', 'det']
+['NOUN', 'NOUN', 'clf']	['项', '表演', 'clf']
+['NOUN', 'VERB', 'nsubj']	['表演', '属', 'nsubj']
+['VERB', 'ROOT', 'root']	['属', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['于', '属', 'mark']
+['DET', 'NOUN', 'det']	['每个', '人', 'det']
+['NOUN', 'VERB', 'obj']	['人', '属', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '属', 'punct']
+----------------------------------------------------------------------
+评论家们注意到，怀尔德以令人信服的玛丽莲·梦露的方式，呵护和低语。
+
+(ROOT (IP (NP (VV 评论) (SFN 家) (SFN 们)) (VP (VRD (VV 注意) (VV 到)) (, ，) (IP (NP (NNP 怀尔德)) (VP (PP (IN 以) (NP (DNP (NP (CP (CP (IP (VP (VV 令) (NP (NN 人)) (IP (VP (VV 信服))))) (DEC 的))) (NP (NNP 玛丽) (NNP 莲) (/ ·) (NNP 梦露))) (DEC 的)) (NP (NN 方式)))) (, ，) (VP (VV 呵护) (CC 和) (NN 低语))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'VV': {}, 'SFN': {}, 'SFN62138': {}}, 'VP': {'VRD': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'VV': {}, 'SFN': {}, 'SFN': {}}, 'VP': {'VRD': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'VV': {}, 'SFN': {}, 'SFN': {}}}
+{'VP': {'VRD': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['VERB', 'PART', 'compound']	['评论', '家', 'compound']
+['PART', 'PART', 'compound']	['家', '们', 'compound']
+['PART', 'VERB', 'nsubj']	['们', '注意', 'nsubj']
+['VERB', 'ROOT', 'root']	['注意', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['到', '注意', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '呵护', 'punct']
+['PROPN', 'VERB', 'nsubj']	['怀尔德', '呵护', 'nsubj']
+['ADP', 'NOUN', 'case']	['以', '方式', 'case']
+['VERB', 'PROPN', 'acl:relcl']	['令', '玛丽', 'acl:relcl']
+['NOUN', 'VERB', 'nsubj']	['人', '信服', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['信服', '令', 'ccomp']
+['PART', 'VERB', 'mark:rel']	['的', '令', 'mark:rel']
+['PROPN', 'NOUN', 'nmod']	['玛丽', '方式', 'nmod']
+['PROPN', 'PROPN', 'appos']	['莲', '玛丽', 'appos']
+['PUNCT', 'PROPN', 'punct']	['·', '梦露', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['梦露', '莲', 'flat:name']
+['PART', 'VERB', 'mark:rel']	['的', '令', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['方式', '呵护', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '方式', 'punct']
+['VERB', 'VERB', 'ccomp']	['呵护', '注意', 'ccomp']
+['CCONJ', 'NOUN', 'cc']	['和', '低语', 'cc']
+['NOUN', 'VERB', 'conj']	['低语', '呵护', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '注意', 'punct']
+----------------------------------------------------------------------
+正如许多人所说，她在宣传她的奥斯卡机会时，捕捉了在气泡冲上来之前的悲伤。
+
+(ROOT (IP (PP (IN 正如) (IP (NP (QP (CD 许多)) (NP (NN 人))) (VP (RB 所) (VP (VV 说))))) (, ，) (NP (PRP 她)) (VP (PP (IN 在) (LCP (IP (VP (VV 宣传) (NP (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NNP 奥斯卡))) (NP (NN 机会))))) (IN 时))) (, ，) (VP (VV 捕捉) (AS 了) (NP (DNP (PP (IN 在) (LCP (IP (NP (NN 气泡)) (VP (VV 冲上) (VP (RB 来)))) (IN 之前))) (DEC 的)) (NP (NN 悲伤))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'PP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['正如', '说', 'case']
+['NUM', 'NOUN', 'nummod']	['许多', '人', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['人', '说', 'nsubj']
+['ADV', 'VERB', 'mark']	['所', '说', 'mark']
+['VERB', 'VERB', 'ccomp']	['说', '捕捉', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '说', 'punct']
+['PRON', 'VERB', 'nsubj']	['她', '捕捉', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '机会', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['宣传', '机会', 'acl:relcl']
+['PRON', 'VERB', 'obj']	['她', '宣传', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '宣传', 'mark:rel']
+['PROPN', 'NOUN', 'nmod']	['奥斯卡', '机会', 'nmod']
+['NOUN', 'VERB', 'obl']	['机会', '捕捉', 'obl']
+['ADP', 'NOUN', 'case']	['时', '机会', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '机会', 'punct']
+['VERB', 'ROOT', 'root']	['捕捉', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '捕捉', 'aux']
+['ADP', 'NOUN', 'case']	['在', '气泡', 'case']
+['NOUN', 'VERB', 'obl']	['气泡', '冲上', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['冲上', '悲伤', 'acl:relcl']
+['ADV', 'VERB', 'mark']	['来', '冲上', 'mark']
+['ADP', 'VERB', 'mark']	['之前', '冲上', 'mark']
+['PART', 'VERB', 'mark:rel']	['的', '冲上', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['悲伤', '捕捉', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '捕捉', 'punct']
+----------------------------------------------------------------------
+但演出中表现出来的严肃性似乎与其他欢快的表演格格不入，尽管表演中展现了玛丽莲心中藏匿的困惑，但却似乎对困惑一无所知，也不知道该如何对待它（除了在卡车那样粗暴的方式提到她的爱情缺失的童年）。
+
+(ROOT (IP (IP (ADVP (RB 但)) (LCP (NP (NN 演出)) (IN 中)) (NP (CP (CP (IP (VP (VRD (VV 表现) (VV 出来)))) (DEC 的))) (NP (JJ 严肃) (SFN 性))) (VP (ADVP (RB 似乎)) (PP (IN 与) (NP (DP (DT 其他)) (CP (CP (IP (VP (JJ 欢快))) (DEC 的))) (NP (NN 表演) (NN 格格)))) (VP (VV 不入)))) (, ，) (IP (CP (ADVP (IN 尽管)) (IP (LCP (NP (NN 表演)) (IN 中)) (VP (VV 展现) (AS 了) (NP (NP (NNP 玛丽) (NNP 莲)) (CP (IP (VP (NP (NN 心中)) (VP (VV 藏) (NP (VV 匿))))) (DEC 的)) (NP (NN 困惑)))))) (, ，) (ADVP (RB 但)) (VP (VP (ADVP (RB 却)) (ADVP (RB 似乎)) (PP (IN 对) (NP (NN 困惑))) (ADVP (CD 一)) (VP (VV 无) (NP (RB 所) (NP (VV 知))))) (, ，) (VP (ADVP (RB 也)) (ADVP (RB 不)) (VP (VV 知道) (IP (IP (VP (DT 该) (VP (ADVP (RB 如何)) (VP (VV 对待) (NP (PRP 它)))))) (PRN (-LRB- （) (IP (VP (PP (VV 除) (PP (AS 了) (NP (CP (IP (VP (PP (IN 在) (NP (NN 卡车))) (ADVP (PRD 那样)) (VP (JJ 粗暴)))) (DEC 的)) (NP (NN 方式))))) (VP (VV 提到) (NP (DNP (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 爱情) (NN 缺失))) (DEC 的)) (NP (NN 童年)))))) (-RRB- ）))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP97604': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'LCP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP24537': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'LCP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'LCP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['但', '不入', 'mark']
+['NOUN', 'VERB', 'nsubj']	['演出', '表现', 'nsubj']
+['ADP', 'NOUN', 'case']	['中', '演出', 'case']
+['VERB', 'PART', 'acl:relcl']	['表现', '性', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['出来', '表现', 'mark']
+['PART', 'VERB', 'mark:rel']	['的', '表现', 'mark:rel']
+['ADJ', 'PART', 'compound']	['严肃', '性', 'compound']
+['PART', 'VERB', 'nsubj']	['性', '不入', 'nsubj']
+['ADV', 'VERB', 'advmod']	['似乎', '不入', 'advmod']
+['ADP', 'NOUN', 'case']	['与', '格格', 'case']
+['DET', 'NOUN', 'det']	['其他', '表演', 'det']
+['ADJ', 'NOUN', 'amod']	['欢快', '表演', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '欢快', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['表演', '不入', 'obl']
+['NOUN', 'VERB', 'obl']	['格格', '不入', 'obl']
+['VERB', 'VERB', 'advcl']	['不入', '展现', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '不入', 'punct']
+['ADP', 'NOUN', 'case']	['尽管', '表演', 'case']
+['NOUN', 'VERB', 'obl']	['表演', '展现', 'obl']
+['ADP', 'NOUN', 'case']	['中', '表演', 'case']
+['VERB', 'VERB', 'advcl']	['展现', '知道', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '展现', 'aux']
+['PROPN', 'VERB', 'nsubj']	['玛丽', '藏', 'nsubj']
+['PROPN', 'PROPN', 'flat:name']	['莲', '玛丽', 'flat:name']
+['NOUN', 'VERB', 'nmod:tmod']	['心中', '藏', 'nmod:tmod']
+['VERB', 'NOUN', 'acl:relcl']	['藏', '困惑', 'acl:relcl']
+['VERB', 'VERB', 'xcomp']	['匿', '藏', 'xcomp']
+['PART', 'VERB', 'mark:rel']	['的', '藏', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['困惑', '展现', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '展现', 'punct']
+['ADV', 'VERB', 'mark']	['但', '知道', 'mark']
+['ADV', 'VERB', 'mark']	['却', '知道', 'mark']
+['ADV', 'VERB', 'advmod']	['似乎', '知道', 'advmod']
+['ADP', 'NOUN', 'case']	['对', '困惑', 'case']
+['NOUN', 'VERB', 'obl']	['困惑', '无', 'obl']
+['NUM', 'VERB', 'obl']	['一', '无', 'obl']
+['VERB', 'VERB', 'xcomp']	['无', '知道', 'xcomp']
+['ADV', 'VERB', 'mark']	['所', '知', 'mark']
+['VERB', 'VERB', 'xcomp']	['知', '无', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '无', 'punct']
+['ADV', 'VERB', 'mark']	['也', '知道', 'mark']
+['ADV', 'VERB', 'advmod']	['不', '知道', 'advmod']
+['VERB', 'ROOT', 'root']	['知道', 'NONE', 'root']
+['DET', 'VERB', 'nsubj']	['该', '对待', 'nsubj']
+['ADV', 'VERB', 'advmod']	['如何', '对待', 'advmod']
+['VERB', 'VERB', 'advcl']	['对待', '提到', 'advcl']
+['PRON', 'VERB', 'obj']	['它', '对待', 'obj']
+['PUNCT', 'VERB', 'punct']	['（', '对待', 'punct']
+['VERB', 'VERB', 'advcl']	['除', '提到', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '除', 'aux']
+['ADP', 'NOUN', 'case']	['在', '方式', 'case']
+['NOUN', 'NOUN', 'nmod']	['卡车', '方式', 'nmod']
+['PRON', 'NOUN', 'nmod']	['那样', '方式', 'nmod']
+['ADJ', 'NOUN', 'amod']	['粗暴', '方式', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '粗暴', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['方式', '除', 'obj']
+['VERB', 'VERB', 'ccomp']	['提到', '知道', 'ccomp']
+['PRON', 'NOUN', 'det']	['她', '缺失', 'det']
+['PART', 'PRON', 'mark:rel']	['的', '她', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['爱情', '缺失', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['缺失', '童年', 'nmod']
+['PART', 'VERB', 'mark:rel']	['的', '提到', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['童年', '提到', 'obj']
+['PUNCT', 'VERB', 'punct']	['）', '提到', 'punct']
+['PUNCT', 'VERB', 'punct']	['。', '知道', 'punct']
+----------------------------------------------------------------------
+威廉姆斯被困在一个剧本未能做到的角色上，这不是她的错，但你可能会离开影院时感觉自己对主角了解的更少，比进影院时还要少。
+
+(ROOT (IP (IP (NP (NNP 威廉) (NNP 姆斯)) (VP (BB 被) (VP (VV 困) (PP (VV 在) (LCP (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (NP (NN 剧本)) (VP (MD 未能) (VP (VV 做到)))) (DEC 的))) (NP (NN 角色))) (IN 上)))))) (, ，) (IP (NP (PRD 这)) (VP (VC 不是) (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 错))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 你)) (VP (VP (LCP (IP (VP (MD 可能) (VP (MD 会) (VP (VV 离开) (NP (NN 影院)))))) (IN 时)) (VP (VV 感觉) (IP (NP (PRD 自己)) (VP (VP (PP (IN 对) (NP (NN 主角))) (VP (VV 了解))) (DEC 的) (VP (JJ 更少)))))) (, ，) (VP (LCP (IP (VP (VV 比进) (NP (NN 影院)))) (IN 时)) (ADVP (RB 还)) (VP (JJ 要少))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP56258': {}, ',74682': {}, 'IP71647': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP41376': {'NP': {}, 'VP': {}}, ',67018': {}, 'IP88380': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj:pass']	['威廉', '困', 'nsubj:pass']
+['PROPN', 'PROPN', 'flat:name']	['姆斯', '威廉', 'flat:name']
+['AUX', 'VERB', 'aux:pass']	['被', '困', 'aux:pass']
+['VERB', 'ROOT', 'root']	['困', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['在', '困', 'mark']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '剧本', 'clf']
+['NOUN', 'VERB', 'nsubj']	['剧本', '做到', 'nsubj']
+['AUX', 'VERB', 'aux']	['能', '做到', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['做到', '角色', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '做到', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['角色', '困', 'obj']
+['ADP', 'NOUN', 'case']	['上', '角色', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '错', 'punct']
+['PRON', 'NOUN', 'nsubj']	['这', '错', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '错', 'cop']
+['PRON', 'NOUN', 'det']	['她', '错', 'det']
+['PART', 'PRON', 'mark:rel']	['的', '她', 'mark:rel']
+['NOUN', 'VERB', 'parataxis']	['错', '困', 'parataxis']
+['PUNCT', 'ADJ', 'punct']	['，', '要少', 'punct']
+['ADV', 'VERB', 'mark']	['但', '感觉', 'mark']
+['PRON', 'ADJ', 'nsubj']	['你', '要少', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '感觉', 'aux']
+['AUX', 'VERB', 'aux']	['会', '离开', 'aux']
+['VERB', 'VERB', 'advcl']	['离开', '感觉', 'advcl']
+['NOUN', 'VERB', 'obj']	['影院', '离开', 'obj']
+['ADP', 'VERB', 'mark']	['时', '离开', 'mark']
+['VERB', 'ADJ', 'advcl']	['感觉', '要少', 'advcl']
+['PRON', 'VERB', 'nsubj']	['自己', '了解', 'nsubj']
+['ADP', 'NOUN', 'case']	['对', '主角', 'case']
+['NOUN', 'VERB', 'obl']	['主角', '了解', 'obl']
+['VERB', 'ADJ', 'csubj']	['了解', '更少', 'csubj']
+['PART', 'VERB', 'mark:rel']	['的', '了解', 'mark:rel']
+['ADJ', 'VERB', 'xcomp']	['更少', '感觉', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '感觉', 'punct']
+['VERB', 'ADJ', 'advcl']	['比进', '要少', 'advcl']
+['NOUN', 'VERB', 'obj']	['影院', '比进', 'obj']
+['ADP', 'VERB', 'mark']	['时', '比进', 'mark']
+['ADV', 'ADJ', 'mark']	['还', '要少', 'mark']
+['ADJ', 'VERB', 'parataxis']	['要少', '困', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '困', 'punct']
+----------------------------------------------------------------------
+玛丽莲满足了奥斯卡最大的柔软点——演员模仿著名历史人物。
+
+(ROOT (IP (NP (NNP 玛丽) (NNP 莲)) (VP (VV 满足) (AS 了) (NP (NP (NP (NNP 奥斯卡)) (CP (CP (IP (VP (JJ 最大))) (DEC 的))) (NP (JJ 柔软) (SFN 点))) (PRN (HYPH —) (HYPH —) (NP (NP (NP (NN 演员)) (VV 模仿)) (ADJP (JJ 著名)) (NP (NN 历史) (NN 人物)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, 'NNP48316': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, 'NNP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NNP': {}, 'NNP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['玛丽', '满足', 'nsubj']
+['PROPN', 'PROPN', 'flat:name']	['莲', '玛丽', 'flat:name']
+['VERB', 'ROOT', 'root']	['满足', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '满足', 'aux']
+['PROPN', 'PART', 'nmod']	['奥斯卡', '点', 'nmod']
+['ADJ', 'PART', 'amod']	['最大', '点', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '最大', 'mark:rel']
+['ADJ', 'PART', 'compound']	['柔软', '点', 'compound']
+['PART', 'VERB', 'obj']	['点', '满足', 'obj']
+['PUNCT', 'NOUN', 'punct']	['—', '演员', 'punct']
+['PUNCT', 'NOUN', 'punct']	['—', '演员', 'punct']
+['NOUN', 'PART', 'appos']	['演员', '点', 'appos']
+['VERB', 'VERB', 'parataxis']	['模仿', '满足', 'parataxis']
+['ADJ', 'NOUN', 'amod']	['著名', '人物', 'amod']
+['NOUN', 'NOUN', 'nmod']	['历史', '人物', 'nmod']
+['NOUN', 'VERB', 'obj']	['人物', '模仿', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '满足', 'punct']
+----------------------------------------------------------------------
+在过去十年里，这个类型中的演员在表演从琼·卡特·卡什（里斯·韦斯布鲁克）到伊迪·阿敏（伍德沃德）等人时，获得了至少九个最佳男女主角奖。
+
+(ROOT (IP (PP (IN 在) (LCP (QP (NP (NN 过去)) (QP (CD 十) (CLP (NNB 年)))) (IN 里))) (, ，) (NP (DNP (LCP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 类型))) (IN 中)) (DEC 的)) (NP (NN 演员))) (VP (LCP (VP (PP (IN 在) (NP (NN 表演))) (PP (PP (IN 从) (NP (NNP 琼) (/ ·) (NNP 卡特) (/ ·) (NNP 卡什) (PRN (-LRB- （) (NP (NNP 里斯) (/ ·) (NNP 韦斯布鲁克)) (-RRB- ）)))) (PP (VV 到) (NP (NP (NP (NNP 伊迪) (/ ·) (NNP 阿敏) (PRN (-LRB- （) (NP (NNP 伍德沃德)) (-RRB- ）))) (NN 等)) (NP (NN 人)))))) (IN 时)) (, ，) (VP (VV 获得) (AS 了) (NP (QP (ADVP (RB 至少)) (QP (CD 九) (CLP (NNB 个)))) (NP (ADJP (JJ 最佳)) (NP (NN 男女) (NN 主角))) (NP (SFN 奖))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'LCP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'LCP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'LCP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['在', '年', 'case']
+['NOUN', 'NOUN', 'nmod']	['过去', '年', 'nmod']
+['NUM', 'NOUN', 'nummod']	['十', '年', 'nummod']
+['NOUN', 'VERB', 'obl']	['年', '获得', 'obl']
+['ADP', 'NOUN', 'case']	['里', '年', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '年', 'punct']
+['DET', 'NOUN', 'det']	['这', '个', 'det']
+['NOUN', 'NOUN', 'clf']	['个', '类型', 'clf']
+['NOUN', 'NOUN', 'nmod']	['类型', '演员', 'nmod']
+['ADP', 'NOUN', 'case']	['中', '类型', 'case']
+['PART', 'NOUN', 'case']	['的', '类型', 'case']
+['NOUN', 'VERB', 'nsubj']	['演员', '获得', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '表演', 'case']
+['NOUN', 'VERB', 'obl']	['表演', '到', 'obl']
+['ADP', 'PROPN', 'case']	['从', '琼', 'case']
+['PROPN', 'VERB', 'obl']	['琼', '到', 'obl']
+['PUNCT', 'PROPN', 'punct']	['·', '卡特', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['卡特', '琼', 'flat:name']
+['PUNCT', 'PROPN', 'punct']	['·', '卡特', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['卡什', '琼', 'flat:name']
+['PUNCT', 'PROPN', 'punct']	['（', '里斯', 'punct']
+['PROPN', 'PROPN', 'appos']	['里斯', '卡什', 'appos']
+['PUNCT', 'PROPN', 'punct']	['·', '韦斯布鲁克', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['韦斯布鲁克', '里斯', 'flat:name']
+['PUNCT', 'PROPN', 'punct']	['）', '里斯', 'punct']
+['VERB', 'VERB', 'advcl']	['到', '获得', 'advcl']
+['PROPN', 'VERB', 'obj']	['伊迪', '到', 'obj']
+['PUNCT', 'PROPN', 'punct']	['·', '阿敏', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['阿敏', '伊迪', 'flat:name']
+['PUNCT', 'PROPN', 'punct']	['（', '伍德沃德', 'punct']
+['PROPN', 'PROPN', 'appos']	['伍德沃德', '伊迪', 'appos']
+['PUNCT', 'PROPN', 'punct']	['）', '伍德沃德', 'punct']
+['NOUN', 'PROPN', 'acl']	['等', '伊迪', 'acl']
+['NOUN', 'PROPN', 'appos']	['人', '伊迪', 'appos']
+['ADP', 'VERB', 'mark']	['时', '到', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '到', 'punct']
+['VERB', 'ROOT', 'root']	['获得', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '获得', 'aux']
+['ADV', 'NOUN', 'advmod']	['至少', '个', 'advmod']
+['NUM', 'NOUN', 'nummod']	['九', '个', 'nummod']
+['NOUN', 'PART', 'nmod']	['个', '奖', 'nmod']
+['ADJ', 'PART', 'amod']	['最佳', '奖', 'amod']
+['NOUN', 'PART', 'nmod']	['男女', '奖', 'nmod']
+['NOUN', 'PART', 'compound']	['主角', '奖', 'compound']
+['PART', 'VERB', 'obj']	['奖', '获得', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '获得', 'punct']
+----------------------------------------------------------------------
+该类别为演员提供了机会，可以做出引人注目的角色，进入预先制作好的角色。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 类别))) (VP (VP (PP (IN 为) (NP (NN 演员))) (VP (VV 提供) (AS 了) (NP (NN 机会)))) (, ，) (VP (MD 可以) (VP (VP (VV 做出) (NP (CP (CP (IP (VP (JJ 引人) (VP (NN 注目)))) (DEC 的))) (NP (NN 角色)))) (, ，) (VP (VV 进入) (NP (CP (CP (IP (VP (ADVP (RB 预先)) (VP (VV 制作) (IP (VP (JJ 好)))))) (DEC 的))) (NP (NN 角色))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP18295': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['该', '类别', 'det']
+['NOUN', 'VERB', 'nsubj']	['类别', '进入', 'nsubj']
+['ADP', 'NOUN', 'case']	['为', '演员', 'case']
+['NOUN', 'VERB', 'obl']	['演员', '提供', 'obl']
+['VERB', 'VERB', 'advcl']	['提供', '进入', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '提供', 'aux']
+['NOUN', 'VERB', 'obj']	['机会', '提供', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '提供', 'punct']
+['AUX', 'VERB', 'aux']	['可以', '做出', 'aux']
+['VERB', 'VERB', 'advcl']	['做出', '进入', 'advcl']
+['ADJ', 'NOUN', 'amod']	['引人', '注目', 'amod']
+['NOUN', 'NOUN', 'nmod']	['注目', '角色', 'nmod']
+['PART', 'NOUN', 'case']	['的', '注目', 'case']
+['NOUN', 'VERB', 'obj']	['角色', '做出', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '做出', 'punct']
+['VERB', 'ROOT', 'root']	['进入', 'NONE', 'root']
+['ADV', 'VERB', 'advmod']	['预先', '制作', 'advmod']
+['VERB', 'NOUN', 'acl:relcl']	['制作', '角色', 'acl:relcl']
+['ADJ', 'NOUN', 'amod']	['好', '角色', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '好', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['角色', '进入', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '进入', 'punct']
+----------------------------------------------------------------------
+但如果奥斯卡评委们愿意停止为威廉姆斯“就像玛丽莲一样”的歌喉而欢呼，那么这一比较并不一定有利于她，这也说明了好表演/差电影的二元对立。
+
+(ROOT (IP (IP (ADVP (RB 但)) (CP (ADVP (IN 如果)) (IP (NP (NNP 奥斯卡) (NN 评委) (SFN 们)) (VP (MD 愿意) (IP (VP (VV 停止) (IP (VP (VP (PP (IN 为) (NP (NNP 威廉) (NNP 姆斯))) (CP (CP (IP (VP (`` “) (ADVP (RB 就)) (PP (IN 像) (NP (NNP 玛丽) (NNP 莲))) (VP (JJ 一样)) ('' ”))) (DEC 的))) (NP (NN 歌喉))) (VP (RB 而) (VP (VV 欢呼)))))))))) (, ，) (ADVP (RB 那么)) (DP (DT 这) (QP (CD 一))) (VP (ADVP (RB 比较)) (ADVP (RB 并)) (ADVP (RB 不)) (ADVP (RB 一定)) (VP (JJ 有利) (PP (VV 于) (NP (PRP 她)))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 也)) (VP (VV 说明) (AS 了) (NP (NP (ADJP (RB 好)) (NP (NN 表演))) (/ /) (NP (CP (CP (IP (VP (NN 差) (NP (NN 电影)))) (DEC 的))) (QP (CD 二) (CLP (NNB 元))) (NP (NN 对立))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP8114': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'CP': {}, ',': {}, 'ADVP61017': {}, 'DP': {}, 'VP': {}}, ',': {}, 'IP79856': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'CP': {}, ',': {}, 'ADVP': {}, 'DP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'CP': {}, ',': {}, 'ADVP': {}, 'DP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'ADJ', 'mark']	['但', '有利', 'mark']
+['ADP', 'VERB', 'case']	['如果', '停止', 'case']
+['PROPN', 'PART', 'nmod']	['奥斯卡', '们', 'nmod']
+['NOUN', 'PART', 'compound']	['评委', '们', 'compound']
+['PART', 'VERB', 'nsubj']	['们', '停止', 'nsubj']
+['AUX', 'VERB', 'aux']	['愿意', '停止', 'aux']
+['VERB', 'VERB', 'ccomp']	['停止', '欢呼', 'ccomp']
+['ADP', 'PROPN', 'case']	['为', '威廉', 'case']
+['PROPN', 'ADJ', 'nmod']	['威廉', '一样', 'nmod']
+['PROPN', 'PROPN', 'flat:name']	['姆斯', '威廉', 'flat:name']
+['PUNCT', 'ADJ', 'punct']	['“', '一样', 'punct']
+['ADV', 'ADJ', 'mark']	['就', '一样', 'mark']
+['ADP', 'PROPN', 'case']	['像', '玛丽', 'case']
+['PROPN', 'ADJ', 'nmod']	['玛丽', '一样', 'nmod']
+['PROPN', 'PROPN', 'flat:name']	['莲', '玛丽', 'flat:name']
+['ADJ', 'NOUN', 'acl:relcl']	['一样', '歌喉', 'acl:relcl']
+['PUNCT', 'ADJ', 'punct']	['”', '一样', 'punct']
+['PART', 'ADJ', 'mark:rel']	['的', '一样', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['歌喉', '停止', 'obj']
+['ADV', 'VERB', 'mark']	['而', '欢呼', 'mark']
+['VERB', 'ADJ', 'ccomp']	['欢呼', '有利', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '停止', 'punct']
+['ADV', 'ADJ', 'advmod']	['那么', '有利', 'advmod']
+['DET', 'NUM', 'det']	['这', '一', 'det']
+['NUM', 'ADJ', 'nsubj']	['一', '有利', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['比较', '有利', 'advmod']
+['ADV', 'ADJ', 'mark']	['并', '有利', 'mark']
+['ADV', 'ADJ', 'advmod']	['不', '有利', 'advmod']
+['ADV', 'ADJ', 'advmod']	['一定', '有利', 'advmod']
+['ADJ', 'ROOT', 'root']	['有利', 'NONE', 'root']
+['VERB', 'ADJ', 'mark']	['于', '有利', 'mark']
+['PRON', 'ADJ', 'obj']	['她', '有利', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '说明', 'punct']
+['PRON', 'VERB', 'nsubj']	['这', '说明', 'nsubj']
+['ADV', 'VERB', 'mark']	['也', '说明', 'mark']
+['VERB', 'ADJ', 'parataxis']	['说明', '有利', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '说明', 'aux']
+['ADV', 'NOUN', 'advmod']	['好', '表演', 'advmod']
+['NOUN', 'NOUN', 'nmod']	['表演', '对立', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['/', '电影', 'punct']
+['NOUN', 'NOUN', 'nmod']	['差', '电影', 'nmod']
+['NOUN', 'NOUN', 'conj']	['电影', '表演', 'conj']
+['PART', 'NOUN', 'case']	['的', '表演', 'case']
+['NUM', 'NOUN', 'nummod']	['二', '元', 'nummod']
+['NOUN', 'NOUN', 'clf']	['元', '对立', 'clf']
+['NOUN', 'VERB', 'obj']	['对立', '说明', 'obj']
+['PUNCT', 'ADJ', 'punct']	['。', '有利', 'punct']
+----------------------------------------------------------------------
+事实上，马里莱·莫纳一直都没有拍过一部坏的电影，因为所有的电影都是由她主演的。
+
+(ROOT (IP (IP (LCP (NP (NN 事实)) (IN 上)) (, ，) (NP (NNP 马里莱) (/ ·) (NNP 莫纳)) (VP (ADVP (RB 一直)) (ADVP (RB 都)) (VP (VV 没有) (VP (VV 拍过) (NP (DNP (NP (QP (CD 一)) (NP (JJ 部坏))) (DEC 的)) (NP (NN 电影))))))) (, ，) (PP (IN 因为) (IP (NP (DNP (DP (DT 所有)) (DEC 的)) (NP (NN 电影))) (VP (VC 都是) (NP (CP (CP (IP (VP (PP (VV 由) (NP (PRP 她))) (VP (VV 主演)))) (UH 的))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'obl']	['事实', '有', 'obl']
+['ADP', 'NOUN', 'case']	['上', '事实', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '事实', 'punct']
+['PROPN', 'VERB', 'nsubj']	['马里莱', '有', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['·', '莫纳', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['莫纳', '马里莱', 'flat:name']
+['ADV', 'VERB', 'advmod']	['一直', '有', 'advmod']
+['ADV', 'VERB', 'mark']	['都', '有', 'mark']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['拍过', '有', 'xcomp']
+['NUM', 'ADJ', 'nummod']	['一', '部坏', 'nummod']
+['ADJ', 'NOUN', 'amod']	['部坏', '电影', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '部坏', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['电影', '拍过', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['ADP', 'VERB', 'case']	['因为', '是', 'case']
+['DET', 'NOUN', 'det']	['所有', '电影', 'det']
+['PART', 'DET', 'case']	['的', '所有', 'case']
+['NOUN', 'VERB', 'nsubj']	['电影', '是', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['是', '有', 'ccomp']
+['VERB', 'VERB', 'xcomp']	['由', '是', 'xcomp']
+['PRON', 'VERB', 'nsubj']	['她', '主演', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['主演', '由', 'ccomp']
+['PART', 'VERB', 'discourse']	['的', '是', 'discourse']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+即使最糟糕的电影——例如《摇滚芭比》，其中的演员马里莲的表演令人印象深刻，半个世纪后仍然令人欣赏，因为马里莲的表演让每一帧都充满核能。
+
+(ROOT (IP (IP (NP (NP (CP (CP (IP (VP (ADVP (IN 即使)) (ADVP (RB 最)) (VP (JJ 糟糕)))) (DEC 的))) (NP (NN 电影))) (HYPH —) (PRN (HYPH —) (NP (ADVP (VV 例如)) (NP (-LRB- 《) (NN 摇滚) (NNP 芭比) (-RRB- 》))))) (, ，) (NP (DNP (NP (NP (DNP (NP (NN 其中)) (DEC 的)) (NP (NN 演员))) (NP (NNP 马里莲))) (DEC 的)) (NP (NN 表演))) (VP (VV 令) (NP (NN 人)) (NP (NN 印象)) (IP (VP (JJ 深刻))))) (, ，) (IP (VP (LCP (NP (QP (CD 半) (CLP (NNB 个))) (NP (NN 世纪))) (IN 后)) (ADVP (RB 仍然)) (VP (VV 令) (NP (NN 人)) (IP (VP (VV 欣赏)))))) (, ，) (PP (IN 因为) (IP (NP (DNP (NP (NNP 马里莲)) (DEC 的)) (NP (NN 表演))) (VP (VV 让) (DP (DT 每) (QP (CD 一) (CLP (NNB 帧)))) (IP (VP (ADVP (RB 都)) (VP (VV 充满) (NP (NN 核能)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP746': {}, ',60873': {}, 'PP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP25663': {}, 'VP': {}}, ',': {}, 'IP59180': {'VP': {}}, ',80475': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['即使', '例如', 'case']
+['ADV', 'ADJ', 'advmod']	['最', '糟糕', 'advmod']
+['ADJ', 'NOUN', 'amod']	['糟糕', '电影', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '糟糕', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['电影', '例如', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['—', '电影', 'punct']
+['PUNCT', 'NOUN', 'punct']	['—', '电影', 'punct']
+['VERB', 'VERB', 'ccomp']	['例如', '令', 'ccomp']
+['PUNCT', 'PROPN', 'punct']	['《', '芭比', 'punct']
+['NOUN', 'PROPN', 'nmod']	['摇滚', '芭比', 'nmod']
+['PROPN', 'VERB', 'obj']	['芭比', '例如', 'obj']
+['PUNCT', 'PROPN', 'punct']	['》', '芭比', 'punct']
+['PUNCT', 'VERB', 'punct']	['，', '例如', 'punct']
+['NOUN', 'NOUN', 'nmod']	['其中', '演员', 'nmod']
+['PART', 'NOUN', 'case']	['的', '其中', 'case']
+['NOUN', 'NOUN', 'nmod']	['演员', '表演', 'nmod']
+['PROPN', 'NOUN', 'appos']	['马里莲', '演员', 'appos']
+['PART', 'NOUN', 'case']	['的', '演员', 'case']
+['NOUN', 'VERB', 'nsubj']	['表演', '令', 'nsubj']
+['VERB', 'VERB', 'advcl']	['令', '令', 'advcl']
+['NOUN', 'NOUN', 'nmod']	['人', '印象', 'nmod']
+['NOUN', 'ADJ', 'nsubj']	['印象', '深刻', 'nsubj']
+['ADJ', 'VERB', 'ccomp']	['深刻', '令', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '令', 'punct']
+['NUM', 'NOUN', 'nummod']	['半', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '世纪', 'clf']
+['NOUN', 'VERB', 'nmod:tmod']	['世纪', '令', 'nmod:tmod']
+['ADP', 'NOUN', 'case']	['后', '世纪', 'case']
+['ADV', 'VERB', 'advmod']	['仍然', '令', 'advmod']
+['VERB', 'ROOT', 'root']	['令', 'NONE', 'root']
+['NOUN', 'VERB', 'nsubj']	['人', '欣赏', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['欣赏', '令', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '充满', 'punct']
+['ADP', 'VERB', 'case']	['因为', '让', 'case']
+['PROPN', 'NOUN', 'nmod']	['马里莲', '表演', 'nmod']
+['PART', 'PROPN', 'case']	['的', '马里莲', 'case']
+['NOUN', 'VERB', 'nsubj']	['表演', '让', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['让', '充满', 'ccomp']
+['DET', 'NOUN', 'det']	['每', '帧', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '帧', 'nummod']
+['NOUN', 'VERB', 'obj']	['帧', '让', 'obj']
+['ADV', 'VERB', 'mark']	['都', '充满', 'mark']
+['VERB', 'VERB', 'ccomp']	['充满', '令', 'ccomp']
+['NOUN', 'VERB', 'obj']	['核能', '充满', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '令', 'punct']
+----------------------------------------------------------------------
+哪怕汤姆·威廉姆斯的演技再出色，也不能说《与玛丽莲有约》是一部好电影。
+
+(ROOT (IP (VP (VP (ADVP (WP 哪)) (VP (VV 怕) (IP (NP (DNP (NP (NNP 汤姆) (/ ·) (NNP 威廉) (NNP 姆斯)) (DEC 的)) (NP (NN 演技))) (VP (ADVP (RB 再)) (VP (JJ 出色)))))) (, ，) (VP (ADVP (RB 也)) (VP (MD 不能) (VP (VV 说) (IP (IP (-LRB- 《) (VP (PP (IN 与) (NP (NNP 玛丽) (NNP 莲))) (VP (VV 有) (NP (SFN 约)))) (-RRB- 》)) (VP (VC 是) (NP (QP (CD 一)) (ADJP (NNB 部好)) (NP (NN 电影))))))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VP': {}, ',': {}, 'VP46834': {}}, '.': {}}}
+{'IP': {'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['哪', '说', 'nsubj']
+['VERB', 'VERB', 'advcl']	['怕', '说', 'advcl']
+['PROPN', 'NOUN', 'nmod']	['汤姆', '演技', 'nmod']
+['PUNCT', 'PROPN', 'punct']	['·', '威廉', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['威廉', '汤姆', 'flat:name']
+['PROPN', 'PROPN', 'flat:name']	['姆斯', '汤姆', 'flat:name']
+['PART', 'PROPN', 'case']	['的', '汤姆', 'case']
+['NOUN', 'ADJ', 'nsubj']	['演技', '出色', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['再', '出色', 'advmod']
+['ADJ', 'VERB', 'ccomp']	['出色', '怕', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '怕', 'punct']
+['ADV', 'VERB', 'mark']	['也', '说', 'mark']
+['AUX', 'VERB', 'aux']	['能', '说', 'aux']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'PART', 'punct']	['《', '约', 'punct']
+['ADP', 'PART', 'case']	['与', '约', 'case']
+['PROPN', 'PART', 'nmod']	['玛丽', '约', 'nmod']
+['PROPN', 'VERB', 'nsubj']	['莲', '有', 'nsubj']
+['VERB', 'PART', 'compound']	['有', '约', 'compound']
+['PART', 'NOUN', 'nmod']	['约', '电影', 'nmod']
+['PUNCT', 'PART', 'punct']	['》', '约', 'punct']
+['AUX', 'NOUN', 'cop']	['是', '电影', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '部好', 'nummod']
+['NOUN', 'NOUN', 'clf']	['部好', '电影', 'clf']
+['NOUN', 'VERB', 'ccomp']	['电影', '说', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
+----------------------------------------------------------------------
+在演员类别的对手席位上，现在已经是奥斯卡老手的利奥·迪卡普里奥 (Leo DiCaprio) 坐在那里，他已经获得三次提名，目前正在寻找第一次获奖的机会。
+
+(ROOT (IP (IP (VP (PP (IN 在) (LCP (NP (DNP (NP (NN 演员) (NN 类别)) (DEC 的)) (NP (NN 对手) (NN 席位))) (IN 上))) (, ，) (NP (NN 现在)) (ADVP (RB 已经)) (VP (VC 是) (IP (NP (DNP (NP (NP (NNP 奥斯卡)) (NP (NN 老手))) (DEC 的)) (NP (NNP 利奥) (/ ·) (NNP 迪卡普里奥) (FW -LRB-Leo) (FW Di) (FW Caprio-RRB-))) (VP (VV 坐在) (NP (PRD 那里))))))) (, ，) (IP (NP (PRP 他)) (VP (VP (ADVP (RB 已经)) (VP (VV 获得) (NP (QP (CD 三) (CLP (NNB 次))) (NP (NN 提名))))) (, ，) (VP (NP (NN 目前)) (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 寻找) (NP (CP (IP (VP (QP (CD 第一) (CLP (NNB 次))) (VP (VV 获奖)))) (DEC 的)) (NP (NN 机会))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP7201': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP33898': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['在', '席位', 'case']
+['NOUN', 'NOUN', 'nmod']	['演员', '席位', 'nmod']
+['NOUN', 'NOUN', 'appos']	['类别', '演员', 'appos']
+['PART', 'NOUN', 'case']	['的', '类别', 'case']
+['NOUN', 'NOUN', 'nmod']	['对手', '席位', 'nmod']
+['NOUN', 'VERB', 'obl']	['席位', '坐在', 'obl']
+['ADP', 'NOUN', 'case']	['上', '席位', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '席位', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['现在', '坐在', 'nmod:tmod']
+['ADV', 'NOUN', 'advmod']	['已经', '老手', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '老手', 'cop']
+['PROPN', 'NOUN', 'nmod']	['奥斯卡', '老手', 'nmod']
+['NOUN', 'PROPN', 'acl:relcl']	['老手', '利奥', 'acl:relcl']
+['PART', 'NOUN', 'mark:rel']	['的', '老手', 'mark:rel']
+['PROPN', 'X', 'nmod']	['利奥', '(Leo', 'nmod']
+['PUNCT', 'PROPN', 'punct']	['·', '迪卡普里奥', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['迪卡普里奥', '利奥', 'flat:name']
+['X', 'VERB', 'nsubj']	['(Leo', '坐在', 'nsubj']
+['X', 'X', 'flat:foreign']	['Di', '(Leo', 'flat:foreign']
+['X', 'X', 'flat:foreign']	['Caprio)', '(Leo', 'flat:foreign']
+['VERB', 'ROOT', 'root']	['坐在', 'NONE', 'root']
+['PRON', 'VERB', 'obj']	['那里', '坐在', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '获得', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '获得', 'nsubj']
+['ADV', 'VERB', 'advmod']	['已经', '获得', 'advmod']
+['VERB', 'VERB', 'parataxis']	['获得', '坐在', 'parataxis']
+['NUM', 'NOUN', 'nummod']	['三', '次', 'nummod']
+['NOUN', 'NOUN', 'clf']	['次', '提名', 'clf']
+['NOUN', 'VERB', 'obj']	['提名', '获得', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '寻找', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['目前', '寻找', 'nmod:tmod']
+['ADV', 'VERB', 'advmod']	['正', '寻找', 'advmod']
+['ADV', 'VERB', 'advmod']	['在', '寻找', 'advmod']
+['VERB', 'VERB', 'parataxis']	['寻找', '坐在', 'parataxis']
+['NUM', 'NOUN', 'nummod']	['第一', '次', 'nummod']
+['NOUN', 'VERB', 'obl']	['次', '获奖', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['获奖', '机会', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '获奖', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['机会', '寻找', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '坐在', 'punct']
 ----------------------------------------------------------------------
-盖茨和克劳利是否会解决他们被捕事件的事实争议？
+他的电影《 J. 埃德加》一直位列大多数排行榜的前列，直到专家们看完电影时，电影的噪音骤然下降，消失在人们的视线之中。
 
-(ROOT (IP (NP (NNP 盖茨和克劳利)) (VP (ADVP (VC 是否)) (VP (MD 会) (VP (VV 解决) (NP (DNP (NP (IP (NP (PRP 他们)) (VP (BB 被) (VP (VV 捕)))) (NP (NN 事件))) (DEC 的)) (NP (NN 事实) (NN 争议)))))) (. ？)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-克劳利会不会如盖茨所要求的那样道歉？
-
-(ROOT (IP (NP (NNP 克劳利)) (VP (MD 会) (VP (MD 不会) (IP (NP (CP (CP (IP (NP (NNP 如盖茨)) (VP (RB 所) (VP (VV 要求)))) (DEC 的)))) (VP (ADVP (RB 那样)) (VP (VV 道歉)))))) (. ？)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
-----------------------------------------------------------------------
-总统会不会以某种方式，做出他所说的“可以教育人的时刻”？
-
-(ROOT (IP (NP (NN 总统)) (VP (MD 会) (VP (MD 不会) (VP (PP (IN 以) (NP (ADJP (DT 某种)) (NP (NN 方式)))) (, ，) (VP (VV 做出) (NP (CP (CP (IP (NP (PRP 他)) (VP (RB 所) (VP (VV 说)))) (DEC 的))) (NP (`` “) (CP (CP (IP (VP (MD 可以) (VP (VV 教育) (NP (NN 人))))) (DEC 的))) (NP (NN 时刻)) ('' ”))))))) (. ？)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
-----------------------------------------------------------------------
-盖茨和克劳利计划在未来几周再次会面，以解决实际争端。
-
-(ROOT (IP (NP (NNP 盖茨和克劳利)) (VP (VV 计划) (IP (VP (VP (PP (IN 在) (QP (NP (NN 未来)) (QP (CD 几) (CLP (NNB 周))))) (ADVP (RB 再次)) (VP (VV 会面))) (, ，) (VP (RB 以) (VP (VV 解决) (NP (ADJP (NN 实际)) (NP (NN 争端)))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-----------------------------------------------------------------------
-同时，这张照片只是政治的一部分，是四个人坐在一张桌子前喝啤酒的一幅形象，而不是真实的东西。啤酒很重要，因为它代表了内容。
-
-(ROOT (IP (ADVP (NN 同时)) (, ，) (NP (DP (DT 这) (CLP (NNB 张))) (NP (NN 照片))) (VP (VP (ADVP (RB 只)) (VP (VC 是) (NP (DNP (NP (NN 政治)) (DEC 的)) (QP (CD 一)) (NP (NN 部分))))) (, ，) (VP (VC 是) (NP (CP (IP (NP (QP (CD 四) (CLP (NNB 个))) (NP (NN 人))) (VP (VP (VV 坐在) (LCP (NP (QP (CD 一) (CLP (NNB 张))) (NP (NN 桌子))) (IN 前))) (VP (VV 喝) (NP (NN 啤酒))))) (DEC 的)) (QP (CD 一) (CLP (NNB 幅))) (NP (NN 形象)))) (, ，) (VP (ADVP (RB 而)) (VP (VC 不是) (NP (CP (CP (IP (VP (JJ 真实))) (DEC 的))) (NP (NN 东西)))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}}, '.': {}}}
-{'ADVP': {'NN': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}}}
-----------------------------------------------------------------------
-你的同事会问：“发生了什么？”你会回答：“他们喝了啤酒。”
-
-(ROOT (IP (NP (DNP (NP (PRP 你)) (DEC 的)) (NP (NN 同事))) (VP (MD 会) (VP (VV 问) (: ：) (IP (`` “) (VP (VV 发生) (AS 了) (NP (WP 什么)))))) (. ？)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
-----------------------------------------------------------------------
-喜剧演员史蒂芬·科尔伯特在上一任总统任期的最黑暗时期发表评论称：“无论美国发生什么，她都会恢复——她总会搭上世界上最具震撼力的摄影师的顺风车。”
-
-(ROOT (IP (NP (NP (NN 喜剧) (NN 演员)) (NP (NNP 史蒂芬) (/ ·) (NNP 科尔伯特))) (VP (PP (IN 在) (NP (DNP (NP (NP (DP (DT 上) (QP (CD 一) (CLP (NNB 任)))) (NP (NN 总统))) (NP (NN 任期))) (DEC 的)) (ADJP (ADVP (RB 最)) (ADJP (JJ 黑暗))) (NP (NN 时期)))) (VP (VP (VV 发表) (NP (NN 评论))) (VP (VV 称) (: ：) (IP (`` “) (CP (ADVP (IN 无论)) (IP (NP (NNP 美国)) (VP (VV 发生) (NP (WP 什么))))) (, ，) (NP (PRP 她)) (VP (MD 都会) (VP (VV 恢复))) ('' —) (HYPH —) (IP (NP (PRP 她)) (VP (MD 总会) (VP (VV 搭上) (NP (DNP (NP (CP (CP (IP (VP (LCP (NP (NN 世界)) (IN 上)) (ADVP (RB 最)) (VP (JJ 具震) (NP (NN 撼力))))) (DEC 的))) (NP (VV 摄影) (SFN 师))) (DEC 的)) (NP (VV 顺风) (SFN 车)))))))))) (. 。) ('' ”)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这就是事实。
-
-(ROOT (IP (NP (PRD 这)) (VP (VC 就是) (NP (NN 事实))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'NP': {'PRD': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
-----------------------------------------------------------------------
-在健康的民主国家，问题应该通过辩论和透明度得到解决，因此，合影可能是一种特别邪恶的东西。
-
-(ROOT (IP (IP (PP (IN 在) (NP (CP (CP (IP (VP (JJ 健康))) (DEC 的))) (NP (NN 民主) (NN 国家)))) (, ，) (NP (NN 问题)) (VP (MD 应该) (VP (PP (IN 通过) (NP (NN 辩论) (CC 和) (JJ 透明) (SFN 度))) (VP (VV 得到) (NP (NN 解决)))))) (, ，) (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (VV 合影)) (VP (MD 可能) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (CP (CP (IP (VP (ADVP (RB 特别)) (VP (JJ 邪恶)))) (DEC 的))) (NP (NN 东西)))))) (. 。)))
+(ROOT (IP (IP (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 电影))) (NP (-LRB- 《) (FW J.) (NNP 埃德加) (-RRB- 》))) (VP (ADVP (RB 一直)) (VP (VV 位列) (NP (DNP (NP (QP (ADVP (RB 大)) (QP (JJ 多数))) (NP (VV 排行) (SFN 榜))) (DEC 的)) (NP (NN 前列)))))) (, ，) (IP (PP (IN 直到) (LCP (IP (NP (NN 专家) (SFN 们)) (VP (VV 看完) (NP (NN 电影)))) (IN 时))) (, ，) (NP (DNP (NP (NN 电影)) (DEC 的)) (NP (NN 噪音))) (VP (VP (ADVP (RB 骤然)) (VP (VV 下降))) (, ，) (VP (VV 消失) (PP (IN 在) (LCP (NP (DNP (NP (NN 人们)) (DEC 的)) (NP (NN 视线))) (IN 之中)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP60346': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP17590': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'det']	['他', '电影', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'VERB', 'nsubj']	['电影', '位列', 'nsubj']
+['PUNCT', 'X', 'punct']	['《', 'J.', 'punct']
+['X', 'NOUN', 'appos']	['J.', '电影', 'appos']
+['PROPN', 'X', 'appos']	['埃德加', 'J.', 'appos']
+['PUNCT', 'X', 'punct']	['》', 'J.', 'punct']
+['ADV', 'VERB', 'advmod']	['一直', '位列', 'advmod']
+['VERB', 'ROOT', 'root']	['位列', 'NONE', 'root']
+['ADV', 'ADJ', 'advmod']	['大', '多数', 'advmod']
+['ADJ', 'PART', 'amod']	['多数', '榜', 'amod']
+['VERB', 'PART', 'compound']	['排行', '榜', 'compound']
+['PART', 'NOUN', 'nmod']	['榜', '前列', 'nmod']
+['PART', 'PART', 'case']	['的', '榜', 'case']
+['NOUN', 'VERB', 'obj']	['前列', '位列', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '消失', 'punct']
+['ADP', 'VERB', 'case']	['直到', '看完', 'case']
+['NOUN', 'PART', 'compound']	['专家', '们', 'compound']
+['PART', 'VERB', 'nsubj']	['们', '看完', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['看完', '消失', 'ccomp']
+['NOUN', 'VERB', 'obj']	['电影', '看完', 'obj']
+['ADP', 'VERB', 'mark']	['时', '看完', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '看完', 'punct']
+['NOUN', 'NOUN', 'nmod']	['电影', '噪音', 'nmod']
+['PART', 'NOUN', 'case']	['的', '电影', 'case']
+['NOUN', 'VERB', 'nsubj']	['噪音', '下降', 'nsubj']
+['ADV', 'VERB', 'advmod']	['骤然', '下降', 'advmod']
+['VERB', 'VERB', 'advcl']	['下降', '消失', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '下降', 'punct']
+['VERB', 'VERB', 'parataxis']	['消失', '位列', 'parataxis']
+['ADP', 'NOUN', 'case']	['在', '视线', 'case']
+['NOUN', 'NOUN', 'nmod']	['人', '视线', 'nmod']
+['PART', 'NOUN', 'case']	['的', '人', 'case']
+['NOUN', 'VERB', 'obl']	['视线', '消失', 'obl']
+['ADP', 'NOUN', 'case']	['之中', '视线', 'case']
+['PUNCT', 'VERB', 'punct']	['。', '位列', 'punct']
 ----------------------------------------------------------------------
-它无可避免地讲述了一个虚构的故事，不是完全虚假的——他们确实坐在一张桌子前喝啤酒——但它完全是为了看起来不精心打扮而设计的。
+然而，评论家对电影中的利奥表现十分满意，他扮演了一个疯狂的联邦调查局局长。
 
-(ROOT (IP (IP (NP (PRP 它)) (VP (VP (VV 无) (VP (DVP (VP (MD 可) (VP (VV 避免))) (DEV 地)) (VP (VV 讲述) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 虚构))) (DEC 的))) (NP (NN 故事)))))) (, ，) (VP (VC 不是) (NP (CP (CP (IP (VP (ADVP (RB 完全)) (VP (JJ 虚假)))) (UH 的))))))) (HYPH —) (HYPH —) (IP (NP (PRP 他们)) (VP (ADVP (RB 确实)) (VP (VP (VV 坐在) (LCP (NP (QP (CD 一) (CLP (NNB 张))) (NP (NN 桌子))) (IN 前))) (VP (VV 喝) (NP (NN 啤酒)))))) (HYPH —) (HYPH —) (IP (ADVP (RB 但)) (NP (PRP 它)) (VP (ADVP (RB 完全)) (VP (VC 是) (NP (CP (CP (IP (VP (PP (IN 为了) (IP (VP (VRD (VV 看) (VV 起来))))) (ADVP (RB 不)) (ADVP (JJ 精心)) (VP (RB 打扮而) (VP (VV 设计))))) (UH 的))))))) (. 。)))
-{'IP': {'IP': {}, 'HYPH': {}, 'HYPH': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, 'HYPH': {}, 'HYPH': {}, 'IP': {'NP': {}, 'VP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-考虑到几十名记者聚集在几十英尺之外，他们的助手将他们圈养成牲畜。
-
-(ROOT (IP (IP (VP (VRD (VV 考虑) (VV 到)) (IP (NP (QP (CD 几十) (CLP (NNB 名))) (NP (NN 记者))) (VP (VV 聚集) (PP (IN 在) (LCP (QP (CD 几十) (CLP (NNB 英尺))) (IN 之外))))))) (, ，) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 助手))) (VP (BB 将) (IP (NP (PRP 他们)) (VP (VRD (VV 圈) (VV 养成)) (NP (NN 牲畜))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'BB': {}, 'IP': {}}}
-----------------------------------------------------------------------
-这四个人伪装得很好，奥巴马拿着几个花生干，拜登笑了，克劳利调整着衬衫领带，盖茨发言，没有人做出明显的事情来承认假装不被监视的荒谬，没有人打破第四墙的幻觉。
-
-(ROOT (IP (IP (NP (DP (DT 这) (QP (CD 四) (CLP (NNB 个)))) (NP (NN 人))) (VP (VV 伪装) (DEV 得) (VP (JJ 很好)))) (, ，) (IP (VP (VP (NNP 奥巴马拿) (AS 着) (NP (QP (CD 几) (CLP (NNB 个))) (NP (NN 花) (NN 生干)))) (, ，) (VP (VV 拜登笑) (AS 了)))) (, ，) (IP (NP (NNP 克劳利)) (VP (VV 调整) (AS 着) (NP (VV 衬) (NN 衫领带)))) (, ，) (IP (NP (NNP 盖茨)) (VP (VV 发言))) (, ，) (IP (VP (VV 没有) (IP (NP (NN 人)) (VP (VP (VV 做出) (NP (CP (CP (IP (VP (JJ 明显))) (DEC 的))) (NP (NN 事情)))) (VP (RB 来) (VP (VV 承认) (NP (CP (VP (VP (VV 假装)) (VP (ADVP (RB 不)) (VP (BB 被) (VP (VV 监视))))) (DEC 的)) (NP (NN 荒谬))))))))) (, ，) (IP (VP (VV 没有) (IP (NP (NN 人)) (VP (VV 打破) (NP (DNP (NP (QP (CD 第四)) (NP (NN 墙))) (DEC 的)) (NP (NN 幻觉))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}, 'NP': {}, 'VP': {}, 'NP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}, 'NP': {}, 'VP': {}, 'NP': {}}}
-----------------------------------------------------------------------
-考虑到他们喝的啤酒是因为它的象征意义而选择的。奥巴马尝试了百威啤酒，根据行业数据，百威啤酒是美国销量最高的啤酒，占零售、药房和便利店销售额的 22%。
-
-(ROOT (IP (VP (VRD (VV 考虑) (VV 到)) (IP (NP (CP (CP (IP (NP (PRP 他们)) (VP (VV 喝))) (DEC 的))) (NP (NN 啤酒))) (VP (VC 是) (NP (CP (CP (IP (VP (PP (IN 因为) (NP (DNP (NP (PRP 它)) (DEC 的)) (NP (NN 象征) (NN 意义)))) (VP (RB 而) (VP (VV 选择))))) (UH 的))))))) (. 。)))
-{'IP': {'VP': {}, '.': {}}}
-{'IP': {'VP': {'VRD': {}, 'IP': {}}, '.': {}}}
-{'VP': {'VRD': {}, 'IP': {}}}
-----------------------------------------------------------------------
-这款啤酒如此淡而不浓，其广告甚至宣称“饮用方便”，这实际上是说它和水几乎无差别。
-
-(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 款))) (NP (NN 啤酒))) (VP (ADVP (VV 如此)) (VP (JJ 淡) (RB 而) (JJ 不浓)))) (, ，) (IP (NP (NP (PRP 其)) (NP (NN 广告))) (VP (ADVP (RB 甚至)) (VP (VV 宣称) (IP (`` “) (NP (VV 饮用)) (VP (JJ 方便)) ('' ”))))) (, ，) (IP (NP (PRD 这)) (VP (LCP (NP (NN 实际)) (IN 上)) (VP (VC 是) (VP (VV 说) (IP (NP (PRP 它)) (VP (PP (CC 和) (NP (NN 水))) (ADVP (RB 几乎)) (VP (VV 无) (NP (NN 差别))))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这是总统可能会选择的最安全的啤酒，这是民意测验和专题小组的主题。
-
-(ROOT (IP (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (NP (NN 总统)) (VP (MD 可能) (VP (MD 会) (VP (VV 选择))))) (DEC 的))) (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 安全)))) (DEC 的))) (NP (NN 啤酒))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (DNP (NP (NN 民意) (NN 测验) (CC 和) (NN 专题) (NN 小组)) (DEC 的)) (NP (NN 主题))))) (. 。)))
+(ROOT (IP (IP (ADVP (RB 然而)) (, ，) (NP (NP (NP (VV 评论) (SFN 家)) (DNP (PP (IN 对) (LCP (NP (NN 电影)) (IN 中))) (DEC 的)) (NP (NNP 利奥))) (NP (NN 表现))) (VP (ADVP (RB 十分)) (VP (JJ 满意)))) (, ，) (IP (NP (PRP 他)) (VP (VV 扮演) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 疯狂))) (DEC 的))) (NP (NN 联邦) (NN 调查) (SFN 局)) (NP (NN 局长))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP8573': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP36168': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'ADJ', 'mark']	['然而', '满意', 'mark']
+['PUNCT', 'ADV', 'punct']	['，', '然而', 'punct']
+['VERB', 'PART', 'compound']	['评论', '家', 'compound']
+['PART', 'NOUN', 'nmod']	['家', '表现', 'nmod']
+['ADP', 'NOUN', 'case']	['对', '表现', 'case']
+['NOUN', 'NOUN', 'nmod']	['电影', '表现', 'nmod']
+['ADP', 'NOUN', 'case']	['中', '电影', 'case']
+['PART', 'NOUN', 'case']	['的', '电影', 'case']
+['PROPN', 'NOUN', 'nmod']	['利奥', '表现', 'nmod']
+['NOUN', 'ADJ', 'nmod']	['表现', '满意', 'nmod']
+['ADV', 'ADJ', 'advmod']	['十分', '满意', 'advmod']
+['ADJ', 'ROOT', 'root']	['满意', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '扮演', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '扮演', 'nsubj']
+['VERB', 'ADJ', 'parataxis']	['扮演', '满意', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '扮演', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '局长', 'clf']
+['ADJ', 'NOUN', 'amod']	['疯狂', '局长', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '疯狂', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['联邦', '局长', 'nmod']
+['NOUN', 'PART', 'compound']	['调查', '局', 'compound']
+['PART', 'NOUN', 'nmod']	['局', '局长', 'nmod']
+['NOUN', 'VERB', 'obj']	['局长', '扮演', 'obj']
+['PUNCT', 'ADJ', 'punct']	['。', '满意', 'punct']
 ----------------------------------------------------------------------
-Crowley喝了苏打面包啤酒 Blue Moon，这是一种对甜食爱好者的无害选择，他不怕带上柠檬片的啤酒。
+鉴于他在电影中呼吸困难，敲打桌子，他的表演肯定是今年最活跃的潜在最佳男主角名单（这份名单包括乔治·克鲁尼在《后裔》中的抑郁表演和法国演员让·杜蒙在《艺术家》中的沉默表演）。
 
-(ROOT (IP (IP (NP (FW Crowley)) (VP (VV 喝) (AS 了) (NP (NP (NNP 苏) (NN 打面) (SFN 包) (NN 啤酒)) (NP (FW Blue) (FW Moon))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (DNP (PP (IN 对) (NP (NN 甜食) (NN 爱好) (SFN 者))) (DEC 的)) (ADJP (JJ 无害)) (NP (NN 选择))))) (, ，) (IP (NP (PRP 他)) (VP (VV 不怕) (NP (CP (CP (IP (VP (VV 带上) (NP (NN 柠檬) (SFN 片)))) (DEC 的))) (NP (NN 啤酒))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}, ',': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}, 'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-Gates 曾经推销过 Red Stripe 和 Beck's，最终选择代表他的家乡马萨诸塞州，用当地酿造的 Samuel Adams Light 来代表。
-
-(ROOT (IP (NP (FW Gates)) (VP (VP (ADVP (RB 曾经)) (VP (VV 推销) (AS 过) (NP (FW Red) (FW Stripe) (CC 和) (FW Beck's)))) (, ，) (VP (ADVP (NN 最终)) (VP (VV 选择) (NP (CP (CP (IP (VP (VP (VV 代表) (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 家乡))) (NP (NNP 马萨诸塞) (SFN 州)))) (, ，) (VP (PP (VV 用) (NP (NN 当地))) (VP (VV 酿造))))) (DEC 的))) (NP (FW Samuel) (FW Adams) (FW Light))) (IP (VP (VV 来代表)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'FW': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'FW': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-这位不喝酒的副总统向孩子们发送了一条消息，喝着一杯不含酒精的 Buckler。
-
-(ROOT (IP (NP (DP (DT 这) (CLP (NNB 位))) (CP (CP (IP (VP (ADVP (RB 不)) (VP (VV 喝) (NP (NN 酒))))) (DEC 的))) (ADJP (PFA 副)) (NP (NN 总统))) (VP (VP (PP (IN 向) (NP (NN 孩子) (SFN 们))) (VP (VV 发送) (AS 了) (NP (QP (CD 一) (CLP (NNB 条))) (NP (NN 消息))))) (, ，) (VP (VV 喝) (AS 着) (NP (QP (CD 一) (CLP (NNB 杯))) (CP (CP (IP (VP (VV 不含) (NP (NN 酒精)))) (DEC 的))) (NP (FW Buckler))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'CP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'CP': {}, 'ADJP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-----------------------------------------------------------------------
-但是，这就是拍照的本质。
-
-(ROOT (IP (ADVP (RB 但是)) (, ，) (NP (PRD 这)) (VP (VC 就是) (NP (DNP (NP (VV 拍照)) (DEC 的)) (NP (NN 本质)))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'PRD': {}}}
-{'VP': {'VC': {}, 'NP': {}}}
-----------------------------------------------------------------------
-什么都不是可以替代什么。
-
-(ROOT (IP (NP (WP 什么)) (VP (ADVP (RB 都)) (VP (VC 不是) (VP (MD 可以) (VP (VV 替代) (NP (WP 什么)))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'WP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'WP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-啤酒成为了一种东西。
-
-(ROOT (IP (NP (NN 啤酒)) (VP (VV 成) (VP (VC 为) (AS 了) (NP (QP (CD 一) (CLP (NNB 种))) (NP (NN 东西))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'VV': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在记者被带到草坪之前，在简报室里，记者们谈论着自己被操控的能力和专业灵魂的命运，他们自己都惊叹于自己的能力。
-
-(ROOT (IP (IP (PP (IN 在) (LCP (IP (NP (NN 记者)) (VP (BB 被) (VP (VV 带到) (NP (NN 草坪))))) (IN 之前))) (, ，) (PP (IN 在) (LCP (NP (VV 简报) (SFN 室)) (IN 里))) (, ，) (NP (NN 记者) (SFN 们)) (VP (VV 谈论) (AS 着) (NP (NP (CP (IP (NP (PRD 自己)) (VP (BB 被) (VP (VV 操控)))) (DEC 的)) (NP (NN 能力))) (CC 和) (NP (DNP (NP (NN 专业) (NN 灵魂)) (DEC 的)) (NP (NN 命运)))))) (, ，) (IP (NP (PRP 他们) (PRD 自己)) (VP (ADVP (RB 都)) (VP (VV 惊叹) (PP (VV 于) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 能力))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-MSNBC 和 CNN 都在啤酒照片上放了倒计时计时器（或者说是啤酒照片的计划播出时间），好像这是一件值得倒计时的事。
-
-(ROOT (IP (IP (NP (FW MSNBC) (FW 和 CNN)) (VP (PP (IN 都在) (NP (NN 啤酒) (NN 照片))) (VP (VV 上放) (AS 了) (NP (ADJP (VV 倒计)) (NP (NN 时计) (NN 时器)) (PRN (-LRB- （) (RB 或者) (VP (VV 说) (IP (VP (VC 是) (NP (DNP (NP (NN 啤酒) (NN 照片)) (DEC 的)) (NP (NN 计划) (NN 播出) (NN 时间)))))) (-RRB- ）)))))) (, ，) (VP (ADVP (RB 好)) (VP (VV 像) (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 件))) (DNP (LCP (IP (VP (VV 值得) (NP (VV 倒计)))) (IN 时)) (DEC 的)) (NP (NN 事))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-白宫每天的发布会都被啤酒问题占据了几天，这已经让人尴尬了。所以记者开玩笑了，哈哈，这是一场荒谬的戏剧。
-
-(ROOT (IP (IP (NP (NP (NNP 白宫)) (DNP (NP (DT 每天)) (DEC 的)) (NP (VV 发布) (SFN 会))) (VP (ADVP (RB 都)) (VP (BB 被) (IP (NP (NN 啤酒) (NN 问题)) (VP (VV 占据) (AS 了) (QP (CD 几) (CLP (NNB 天)))))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 已经)) (VP (VV 让) (NP (NN 人)) (IP (VP (JJ 尴尬) (UH 了)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-一会儿之后，人们很难记得照相活动的目的是什么。盖茨的逮捕是一件事，这是剑桥一个漂亮的家庭里的一场混乱和对抗的结果。然后，第一位黑人总统奥巴马站在了克劳利一方，说他“行为蠢”。这是对奥巴马在民族分裂问题上精心打造的姿态的一次惊人的违背。
-
-(ROOT (IP (LCP (NP (QP (CD 一)) (NP (NN 会儿))) (IN 之后)) (, ，) (NP (NN 人们)) (VP (ADVP (RB 很难)) (VP (VV 记得) (IP (NP (DNP (NP (NN 照相) (NN 活动)) (DEC 的)) (NP (NN 目的))) (VP (VC 是) (NP (WP 什么)))))) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'LCP': {'NP': {}, 'IN': {}}}
-{'NP': {'NN': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-奥巴马的习惯是，在争议中站得高，调解，寻找共同点，展现一个拥有白人母亲和黑人父亲的美国和自己的后部落时代的愿景。
-
-(ROOT (IP (NP (DNP (NP (NNP 奥巴马)) (DEC 的)) (NP (NN 习惯))) (VP (VC 是) (, ，) (IP (VP (PP (IN 在) (LCP (NP (NN 争议)) (IN 中))) (VP (VP (VV 站) (NP (JJ 得高))) (, ，) (VP (VV 调解)) (, ，) (VP (VV 寻找) (NP (ADJP (JJ 共同)) (NP (SFN 点)))) (, ，) (VP (VV 展现) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 拥有) (NP (NN 白人) (NN 母亲) (CC 和) (NN 黑人) (NN 父亲)))) (DEC 的))) (DNP (NP (NP (NNP 美国)) (CC 和) (NP (PRD 自己))) (DEC 的)) (DNP (NP (NP (ADJP (PFA 后)) (NP (NN 部落))) (NP (NN 时代))) (DEC 的)) (NP (NN 愿景)))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VC': {}, ',': {}, 'IP': {}}}
-----------------------------------------------------------------------
-在上周的一次新闻发布会上，他却与一方同流合污，称黑人哈佛大学的学生为“朋友”，并称“我可能有点偏见”。他将此事称为“种族定性”的可能案例。
-
-(ROOT (IP (PP (IN 在) (LCP (NP (DNP (NP (NN 上周)) (DEC 的)) (QP (CD 一) (CLP (NNB 次))) (NP (NN 新闻) (VV 发布) (SFN 会))) (IN 上))) (, ，) (NP (PRP 他)) (VP (VP (ADVP (RB 却)) (PP (IN 与) (NP (QP (CD 一)) (NP (NN 方)))) (VP (VCD (VV 同流) (VV 合污)))) (, ，) (VP (VV 称) (NP (DNP (NP (NP (NN 黑人)) (NP (NNP 哈佛) (NN 大学))) (DEC 的)) (NP (NN 学生))) (IP (VP (VC 为) (NP (`` “) (NN 朋友) ('' ”))))) (, ，) (RB 并) (VP (VV 称) (IP (`` “) (NP (PRP 我)) (VP (MD 可能) (VP (ADVP (VV 有点)) (VP (NN 偏见)))) ('' ”)))) (. 。)))
+(ROOT (IP (PP (IN 鉴于) (IP (NP (PRP 他)) (VP (VP (PP (IN 在) (LCP (NP (NN 电影)) (IN 中))) (NP (VV 呼吸)) (VP (JJ 困难))) (, ，) (VP (VV 敲打) (NP (NN 桌子)))))) (, ，) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 表演))) (VP (ADVP (NN 肯定)) (VP (VC 是) (NP (CP (CP (IP (VP (NP (NN 今年)) (ADVP (RB 最)) (VP (JJ 活跃)))) (DEC 的))) (ADJP (NN 潜在)) (ADJP (JJ 最佳)) (ADJP (NN 男)) (NP (NN 主角)) (NP (NN 名单)) (PRN (-LRB- （) (IP (NP (DP (DT 这) (CLP (NNB 份))) (NP (NN 名单))) (VP (VV 包括) (NP (NP (NP (NNP 乔治) (/ ·) (NNP 克鲁尼)) (DNP (PP (IN 在) (LCP (NP (-LRB- 《) (NN 后裔) (-RRB- 》)) (IN 中))) (DEC 的)) (ADJP (NN 抑郁)) (NP (NN 表演))) (CC 和) (NP (NP (NP (NP (NNP 法国)) (NP (NN 演员))) (NP (NNP 让) (/ ·) (NNP 杜蒙))) (DNP (PP (IN 在) (LCP (NP (-LRB- 《) (NN 艺术) (SFN 家) (-RRB- 》)) (IN 中))) (DEC 的)) (NP (NN 沉默) (NN 表演)))))) (-RRB- ）))))) (. 。)))
+layer 2:
 {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}}, '.': {}}}
-{'PP': {'IN': {}, 'LCP': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}}}
-----------------------------------------------------------------------
-他谈到黑人和西班牙裔人被警察“无故”拘捕的问题。总统在谈到种族问题时违反了他自己的第一条规则，参与了旧的分类，而不是超越它们。
-
-(ROOT (IP (VP (VRD (PRP 他谈) (VV 到)) (NP (CP (IP (NP (NP (NN 黑人)) (CC 和) (NP (NP (NNP 西班牙)) (ADJP (SFN 裔)) (NP (SFN 人)))) (VP (BB 被) (IP (NP (NN 警察)) (VP (VP (`` “) (VV 无故) ('' ”)) (VP (VV 拘捕)))))) (DEC 的)) (NP (NN 问题)))) (. 。)))
-{'IP': {'VP': {}, '.': {}}}
-{'IP': {'VP': {'VRD': {}, 'NP': {}}, '.': {}}}
-{'VP': {'VRD': {}, 'NP': {}}}
-----------------------------------------------------------------------
-除了几天后几乎道歉之外，解决这一失误的办法是举行一场拍照会，这将再次将总统定位为调解人，站在种族和阶级之外，架起桥梁。
-
-(ROOT (IP (IP (PP (VV 除) (PP (AS 了) (LCP (IP (VP (LCP (QP (CD 几) (CLP (NNB 天))) (IN 后)) (ADVP (RB 几乎)) (VP (VV 道歉)))) (IN 之外)))) (, ，) (NP (CP (CP (IP (VP (VV 解决) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 失误))))) (DEC 的))) (NP (NN 办法))) (VP (VC 是) (VP (VV 举行) (NP (QP (CD 一) (CLP (NNB 场))) (NP (VV 拍照) (SFN 会)))))) (, ，) (IP (NP (PRD 这)) (VP (VP (ADVP (RB 将)) (ADVP (RB 再次)) (VP (BB 将) (IP (NP (NN 总统)) (VP (VRD (VV 定位) (VC 为)) (NP (VV 调解) (SFN 人)))))) (, ，) (VP (VV 站) (PP (IN 在) (LCP (NP (NN 种族) (CC 和) (NN 阶级)) (IN 之外)))) (, ，) (VP (VV 架起) (NP (NN 桥梁))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-啤酒被搬走后，奥巴马的工作人员发表了一份以总统名义的声明。“我一直相信，将我们带在一起的是更强大的东西，”声明中写道。
-
-(ROOT (IP (LCP (IP (NP (NN 啤酒)) (VP (BB 被) (VP (VV 搬走)))) (IN 后)) (, ，) (NP (DNP (NP (NNP 奥巴马)) (DEC 的)) (NP (NN 工作) (NN 人员))) (VP (VV 发表) (AS 了) (NP (QP (CD 一) (CLP (NNB 份))) (DNP (PP (IN 以) (NP (NN 总统) (NN 名义))) (DEC 的)) (NP (NN 声明)))) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
-{'LCP': {'IP': {}, 'IN': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
 {'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
-----------------------------------------------------------------------
-“我相信这一点在今天晚上发生了，我希望我们都能从这件事中吸取到这样一个正面的教训。”总统似乎在表示这两个人已经找到了共同点。
-
-(ROOT (IP (`` “) (NP (PRP 我)) (VP (VV 相信) (IP (DP (PRD 这) (CLP (RB 一点))) (VP (PP (IN 在) (NP (NN 今天) (NN 晚上))) (VP (VV 发生) (UH 了))))) (, ，) (IP (NP (PRP 我)) (VP (VV 希望) (IP (NP (PRP 我们)) (VP (ADVP (RB 都)) (VP (MD 能) (VP (PP (IN 从) (LCP (DP (DT 这) (CLP (NNB 件))) (NN 事中))) (VP (VRD (VV 吸取) (VV 到)) (NP (ADJP (PRD 这样)) (QP (CD 一) (CLP (NNB 个))) (DNP (ADJP (JJ 正面)) (DEC 的)) (NP (NN 教训)))))))))) (. 。) ('' ”)))
-{'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
-{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-但这种情况几乎没有证据。（在随后的记者招待会上，克劳利表示，双方“同意不同意”，但没有道歉。）四个人坐在一张桌子前喝啤酒的情景显得更加冷酷无情。当真正的对话很难进行，当调解争端的辛苦工作几乎没有政治利益时，所有参与者都宁愿为镜头拍照，一起喝酒。
-
-(ROOT (IP (ADVP (RB 但)) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 情况))) (VP (ADVP (RB 几乎)) (VP (VV 没有) (NP (NN 证据)))) (. 。)))
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
 {'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['鉴于', '敲打', 'case']
+['PRON', 'VERB', 'nsubj']	['他', '敲打', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '电影', 'case']
+['NOUN', 'ADJ', 'nmod']	['电影', '困难', 'nmod']
+['ADP', 'NOUN', 'case']	['中', '电影', 'case']
+['VERB', 'VERB', 'advcl']	['呼吸', '敲打', 'advcl']
+['ADJ', 'VERB', 'advcl']	['困难', '敲打', 'advcl']
+['PUNCT', 'ADJ', 'punct']	['，', '困难', 'punct']
+['VERB', 'NOUN', 'ccomp']	['敲打', '名单', 'ccomp']
+['NOUN', 'VERB', 'obj']	['桌子', '敲打', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '敲打', 'punct']
+['PRON', 'NOUN', 'det']	['他', '肯定', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'NOUN', 'nmod']	['表演', '肯定', 'nmod']
+['NOUN', 'NOUN', 'nsubj']	['肯定', '名单', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '名单', 'cop']
+['NOUN', 'ADJ', 'nmod:tmod']	['今年', '活跃', 'nmod:tmod']
+['ADV', 'ADJ', 'advmod']	['最', '活跃', 'advmod']
+['ADJ', 'NOUN', 'acl:relcl']	['活跃', '名单', 'acl:relcl']
+['PART', 'ADJ', 'mark:rel']	['的', '活跃', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['潜在', '名单', 'nmod']
+['ADJ', 'NOUN', 'amod']	['最佳', '名单', 'amod']
+['NOUN', 'NOUN', 'nmod']	['男', '名单', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['主角', '名单', 'nmod']
+['NOUN', 'ROOT', 'root']	['名单', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['（', '包括', 'punct']
+['DET', 'NOUN', 'det']	['这', '份', 'det']
+['NOUN', 'NOUN', 'clf']	['份', '名单', 'clf']
+['NOUN', 'VERB', 'nsubj']	['名单', '包括', 'nsubj']
+['VERB', 'NOUN', 'parataxis']	['包括', '名单', 'parataxis']
+['PROPN', 'VERB', 'obj']	['乔治', '包括', 'obj']
+['PUNCT', 'PROPN', 'punct']	['·', '克鲁尼', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['克鲁尼', '乔治', 'flat:name']
+['ADP', 'NOUN', 'case']	['在', '表演', 'case']
+['PUNCT', 'NOUN', 'punct']	['《', '后裔', 'punct']
+['NOUN', 'NOUN', 'nmod']	['后裔', '表演', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['》', '后裔', 'punct']
+['ADP', 'NOUN', 'case']	['中', '后裔', 'case']
+['PART', 'NOUN', 'case']	['的', '后裔', 'case']
+['NOUN', 'NOUN', 'nmod']	['抑郁', '表演', 'nmod']
+['NOUN', 'VERB', 'obj']	['表演', '包括', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '表演', 'cc']
+['PROPN', 'NOUN', 'nmod']	['法国', '演员', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['演员', '表演', 'nmod']
+['PROPN', 'NOUN', 'appos']	['让', '表演', 'appos']
+['PUNCT', 'PROPN', 'punct']	['·', '杜蒙', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['杜蒙', '让', 'flat:name']
+['ADP', 'NOUN', 'case']	['在', '表演', 'case']
+['PUNCT', 'PART', 'punct']	['《', '家', 'punct']
+['NOUN', 'PART', 'compound']	['艺术', '家', 'compound']
+['PART', 'NOUN', 'nmod']	['家', '表演', 'nmod']
+['PUNCT', 'PART', 'punct']	['》', '家', 'punct']
+['ADP', 'PART', 'case']	['中', '家', 'case']
+['PART', 'PART', 'case']	['的', '家', 'case']
+['NOUN', 'NOUN', 'nmod']	['沉默', '表演', 'nmod']
+['NOUN', 'NOUN', 'conj']	['表演', '表演', 'conj']
+['PUNCT', 'VERB', 'punct']	['）', '包括', 'punct']
+['PUNCT', 'NOUN', 'punct']	['。', '名单', 'punct']
+----------------------------------------------------------------------
+它令人印象深刻，难以忘怀，但令人遗憾的是，这与李奥纳多·迪卡普里奥的微妙表达方式完全不相符。
+
+(ROOT (IP (IP (NP (PRP 它)) (VP (VV 令) (NP (NN 人)) (IP (IP (NP (NN 印象)) (VP (JJ 深刻))) (, ，) (IP (VP (ADVP (JJ 难)) (VP (RB 以) (VP (VV 忘) (NP (JJ 怀))))))))) (, ，) (IP (ADVP (RB 但)) (NP (CP (CP (IP (VP (VV 令) (NP (NN 人)) (IP (VP (JJ 遗憾))))) (DEC 的)))) (VP (VC 是) (, ，) (IP (NP (PRD 这)) (VP (PP (IN 与) (NP (DNP (NP (NNP 李) (NNP 奥纳多) (/ ·) (NNP 迪卡普里奥)) (DEC 的)) (ADJP (JJ 微妙)) (NP (NN 表达) (NN 方式)))) (ADVP (RB 完全)) (ADVP (RB 不)) (VP (JJ 相符)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP38548': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP71872': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['它', '令', 'nsubj']
+['VERB', 'ROOT', 'root']	['令', 'NONE', 'root']
+['NOUN', 'NOUN', 'nmod']	['人', '印象', 'nmod']
+['NOUN', 'ADJ', 'nsubj']	['印象', '深刻', 'nsubj']
+['ADJ', 'VERB', 'ccomp']	['深刻', '令', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '忘', 'punct']
+['ADJ', 'VERB', 'advmod']	['难', '忘', 'advmod']
+['ADV', 'VERB', 'mark']	['以', '忘', 'mark']
+['VERB', 'VERB', 'parataxis']	['忘', '令', 'parataxis']
+['ADJ', 'VERB', 'xcomp']	['怀', '忘', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['ADV', 'VERB', 'mark']	['但', '是', 'mark']
+['VERB', 'VERB', 'csubj']	['令', '是', 'csubj']
+['NOUN', 'ADJ', 'nsubj']	['人', '遗憾', 'nsubj']
+['ADJ', 'VERB', 'ccomp']	['遗憾', '令', 'ccomp']
+['PART', 'VERB', 'mark:rel']	['的', '令', 'mark:rel']
+['VERB', 'VERB', 'parataxis']	['是', '令', 'parataxis']
+['PUNCT', 'ADJ', 'punct']	['，', '相符', 'punct']
+['PRON', 'ADJ', 'nsubj']	['这', '相符', 'nsubj']
+['ADP', 'NOUN', 'case']	['与', '方式', 'case']
+['PROPN', 'NOUN', 'nmod']	['李', '方式', 'nmod']
+['PROPN', 'PROPN', 'appos']	['奥纳多', '李', 'appos']
+['PUNCT', 'PROPN', 'punct']	['·', '迪卡普里奥', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['迪卡普里奥', '奥纳多', 'flat:name']
+['PART', 'PROPN', 'case']	['的', '李', 'case']
+['ADJ', 'NOUN', 'amod']	['微妙', '表达', 'amod']
+['NOUN', 'NOUN', 'nmod']	['表达', '方式', 'nmod']
+['NOUN', 'ADJ', 'nmod']	['方式', '相符', 'nmod']
+['ADV', 'ADJ', 'advmod']	['完全', '相符', 'advmod']
+['ADV', 'ADJ', 'advmod']	['不', '相符', 'advmod']
+['ADJ', 'VERB', 'ccomp']	['相符', '是', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '令', 'punct']
+----------------------------------------------------------------------
+回顾一下，这样一个简约风格的作品，选择如此疯狂的主题，似乎是一个不幸的结合。
+
+(ROOT (IP (IP (IP (VP (VV 回顾) (QP (CD 一) (NNB 下)))) (, ，) (NP (ADVP (PRD 这样)) (QP (CD 一) (CLP (NNB 个))) (DNP (NP (ADJP (JJ 简约)) (NP (NN 风格))) (DEC 的)) (NP (NN 作品))) (, ，) (VP (VV 选择) (NP (CP (CP (IP (VP (ADVP (VV 如此)) (VP (JJ 疯狂)))) (DEC 的))) (NP (NN 主题))))) (, ，) (IP (VP (ADVP (RB 似乎)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 不幸))) (DEC 的))) (NP (NN 结合)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP35048': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, ',97283': {}, 'VP': {}}, ',': {}, 'IP85172': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['回顾', '选择', 'advcl']
+['NUM', 'NOUN', 'nummod']	['一', '下', 'nummod']
+['NOUN', 'VERB', 'obl']	['下', '回顾', 'obl']
+['PUNCT', 'VERB', 'punct']	['，', '回顾', 'punct']
+['PRON', 'NOUN', 'det']	['这样', '作品', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '风格', 'clf']
+['ADJ', 'NOUN', 'amod']	['简约', '风格', 'amod']
+['NOUN', 'NOUN', 'nmod']	['风格', '作品', 'nmod']
+['PART', 'NOUN', 'case']	['的', '风格', 'case']
+['NOUN', 'VERB', 'nsubj']	['作品', '选择', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '作品', 'punct']
+['VERB', 'NOUN', 'acl']	['选择', '结合', 'acl']
+['VERB', 'ADJ', 'advcl']	['如此', '疯狂', 'advcl']
+['ADJ', 'NOUN', 'amod']	['疯狂', '主题', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '疯狂', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['主题', '选择', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '选择', 'punct']
+['ADV', 'NOUN', 'advmod']	['似乎', '结合', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '结合', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '结合', 'clf']
+['ADJ', 'NOUN', 'amod']	['不幸', '结合', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '不幸', 'mark:rel']
+['NOUN', 'ROOT', 'root']	['结合', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['。', '结合', 'punct']
+----------------------------------------------------------------------
+这就提出了一个问题：如果表演与电影的其他部分完全脱节，它能否称得上是伟大的表演？
+
+(ROOT (IP (IP (NP (PRD 这)) (VP (ADVP (RB 就)) (VP (VV 提出) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 问题)))))) (: ：) (IP (CP (ADVP (IN 如果)) (IP (NP (DNP (NP (NN 表演) (CC 与) (NN 电影)) (DEC 的)) (DP (DT 其他)) (NP (NN 部分))) (VP (ADVP (RB 完全)) (VP (VV 脱节))))) (, ，) (NP (PRP 它)) (VP (MD 能否) (VP (VRD (VV 称得) (IN 上)) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 伟大))) (DEC 的))) (NP (NN 表演))))))) (. ？)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP95978': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP16507': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['这', '提出', 'nsubj']
+['ADV', 'VERB', 'mark']	['就', '提出', 'mark']
+['VERB', 'ROOT', 'root']	['提出', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '提出', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '问题', 'clf']
+['NOUN', 'VERB', 'obj']	['问题', '提出', 'obj']
+['PUNCT', 'NOUN', 'punct']	['：', '表演', 'punct']
+['ADP', 'VERB', 'case']	['如果', '脱节', 'case']
+['NOUN', 'NOUN', 'nmod']	['表演', '部分', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['与', '电影', 'cc']
+['NOUN', 'NOUN', 'conj']	['电影', '表演', 'conj']
+['PART', 'NOUN', 'case']	['的', '表演', 'case']
+['DET', 'NOUN', 'det']	['其他', '部分', 'det']
+['NOUN', 'VERB', 'nsubj']	['部分', '脱节', 'nsubj']
+['ADV', 'VERB', 'advmod']	['完全', '脱节', 'advmod']
+['VERB', 'NOUN', 'ccomp']	['脱节', '表演', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '脱节', 'punct']
+['PRON', 'NOUN', 'nsubj']	['它', '表演', 'nsubj']
+['AUX', 'NOUN', 'aux']	['能否', '表演', 'aux']
+['VERB', 'NOUN', 'acl']	['称得', '表演', 'acl']
+['ADP', 'VERB', 'mark']	['上', '称得', 'mark']
+['AUX', 'NOUN', 'cop']	['是', '表演', 'cop']
+['ADJ', 'NOUN', 'amod']	['伟大', '表演', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '伟大', 'mark:rel']
+['NOUN', 'VERB', 'ccomp']	['表演', '提出', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['？', '提出', 'punct']
+----------------------------------------------------------------------
+演员是否有责任保持自己与整个剧组的关键一致？
+
+(ROOT (IP (NP (NN 演员)) (VP (ADVP (VC 是否)) (VP (VP (VP (VV 有) (NP (NN 责任))) (VP (VV 保持) (NP (DNP (NP (NP (PRD 自己)) (IN 与) (NP (DP (DT 整个)) (NP (NN 剧组)))) (DEC 的)) (NP (NN 关键))))) (VP (JJ 一致)))) (. ？)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nsubj']	['演员', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['VERB', 'VERB', 'advcl']	['有', '保持', 'advcl']
+['NOUN', 'VERB', 'obj']	['责任', '有', 'obj']
+['VERB', 'VERB', 'xcomp']	['保持', '是', 'xcomp']
+['PRON', 'NOUN', 'nmod']	['自己', '关键', 'nmod']
+['ADP', 'NOUN', 'case']	['与', '关键', 'case']
+['DET', 'NOUN', 'det']	['整个', '剧组', 'det']
+['NOUN', 'ADJ', 'nmod']	['剧组', '一致', 'nmod']
+['PART', 'VERB', 'mark:rel']	['的', '保持', 'mark:rel']
+['NOUN', 'ADJ', 'nmod']	['关键', '一致', 'nmod']
+['ADJ', 'VERB', 'ccomp']	['一致', '保持', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['？', '保持', 'punct']
+----------------------------------------------------------------------
+最终，演技大赛不在于演技本身，而在于创造出令人难忘的伟大人物。
+
+(ROOT (IP (ADVP (NN 最终)) (, ，) (NP (NN 演技) (NN 大赛)) (VP (VP (ADVP (RB 不)) (VP (VV 在) (PP (VV 于) (NP (NP (NN 演技)) (NP (PRD 本身)))))) (, ，) (RB 而) (VP (VV 在) (PP (VV 于) (IP (VP (VRD (VV 创造) (VV 出)) (NP (CP (CP (IP (VP (VV 令) (NP (NN 人)) (IP (VP (ADVP (RB 难)) (VP (VV 忘)))))) (DEC 的))) (ADJP (JJ 伟大)) (NP (NN 人物)))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'NN': {}, 'NN7438': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP78155': {}}, '.': {}}}
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'NN': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'NN': {}}}
+{'NP': {'NN': {}, 'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nmod:tmod']	['最终', '在', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '最终', 'punct']
+['NOUN', 'NOUN', 'nmod']	['演技', '大赛', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['大赛', '在', 'nsubj']
+['ADV', 'VERB', 'advmod']	['不', '在', 'advmod']
+['VERB', 'VERB', 'advcl']	['在', '在', 'advcl']
+['VERB', 'VERB', 'mark']	['于', '在', 'mark']
+['NOUN', 'VERB', 'obj']	['演技', '在', 'obj']
+['PRON', 'NOUN', 'appos']	['本身', '演技', 'appos']
+['PUNCT', 'VERB', 'punct']	['，', '在', 'punct']
+['ADV', 'VERB', 'mark']	['而', '在', 'mark']
+['VERB', 'ROOT', 'root']	['在', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['于', '在', 'mark']
+['VERB', 'VERB', 'xcomp']	['创造', '在', 'xcomp']
+['VERB', 'VERB', 'mark']	['出', '创造', 'mark']
+['VERB', 'NOUN', 'acl:relcl']	['令', '人物', 'acl:relcl']
+['NOUN', 'VERB', 'nsubj']	['人', '忘', 'nsubj']
+['ADV', 'VERB', 'advmod']	['难', '忘', 'advmod']
+['VERB', 'VERB', 'ccomp']	['忘', '令', 'ccomp']
+['PART', 'VERB', 'mark:rel']	['的', '令', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['伟大', '人物', 'amod']
+['NOUN', 'VERB', 'obj']	['人物', '创造', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '在', 'punct']
+----------------------------------------------------------------------
+如果一部电影有一个伟大、富有、难忘的角色，观众就会原谅它一切。
+
+(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (QP (CD 一) (CLP (NNB 部))) (NP (NN 电影))) (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 伟大) (EC 、) (JJ 富有) (EC 、) (JJ 难忘))) (DEC 的))) (NP (NN 角色)))))) (, ，) (NP (NN 观众)) (VP (ADVP (RB 就)) (VP (MD 会) (VP (VV 原谅) (NP (PRP 它)) (NP (NN 一切))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['如果', '有', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '部', 'nummod']
+['NOUN', 'NOUN', 'clf']	['部', '电影', 'clf']
+['NOUN', 'VERB', 'nsubj']	['电影', '有', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['有', '原谅', 'ccomp']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '角色', 'clf']
+['ADJ', 'NOUN', 'amod']	['伟大', '角色', 'amod']
+['PUNCT', 'ADJ', 'punct']	['、', '富有', 'punct']
+['ADJ', 'ADJ', 'conj']	['富有', '伟大', 'conj']
+['PUNCT', 'ADJ', 'punct']	['、', '难忘', 'punct']
+['ADJ', 'ADJ', 'conj']	['难忘', '伟大', 'conj']
+['PART', 'ADJ', 'mark:rel']	['的', '伟大', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['角色', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['NOUN', 'VERB', 'nsubj']	['观众', '原谅', 'nsubj']
+['ADV', 'VERB', 'mark']	['就', '原谅', 'mark']
+['AUX', 'VERB', 'aux']	['会', '原谅', 'aux']
+['VERB', 'ROOT', 'root']	['原谅', 'NONE', 'root']
+['PRON', 'NOUN', 'nmod']	['它', '一切', 'nmod']
+['NOUN', 'VERB', 'obj']	['一切', '原谅', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '原谅', 'punct']
+----------------------------------------------------------------------
+但如果这部电影是可以忘掉的，那么演员的表演又有什么可忘掉的呢？
+
+(ROOT (CP (IP (ADVP (RB 但)) (CP (ADVP (IN 如果)) (IP (NP (DP (DT 这) (CLP (NNB 部))) (NP (NN 电影))) (VP (VC 是) (NP (CP (CP (IP (VP (MD 可以) (VP (VV 忘掉)))) (UH 的))))))) (, ，) (ADVP (RB 那么)) (NP (DNP (NP (NN 演员)) (DEC 的)) (NP (NN 表演))) (VP (ADVP (RB 又)) (VP (VV 有) (NP (DP (WP 什么)) (CP (CP (IP (VP (MD 可) (VP (VRD (VV 忘) (VV 掉))))) (UH 的))))))) (UH 呢) (. ？)))
+layer 2:
+{'CP': {'IP': {}, 'UH': {}, '.': {}}}
+{'CP': {'IP': {}, 'UH': {}, '.': {}}}
+layer 3:
+{'CP': {'IP': {'ADVP': {}, 'CP': {}, ',': {}, 'ADVP23117': {}, 'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'CP': {'IP': {'ADVP': {}, 'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['但', '有', 'mark']
+['ADP', 'VERB', 'case']	['如果', '是', 'case']
+['DET', 'NOUN', 'det']	['这', '部', 'det']
+['NOUN', 'NOUN', 'clf']	['部', '电影', 'clf']
+['NOUN', 'VERB', 'nsubj']	['电影', '是', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['是', '有', 'ccomp']
+['AUX', 'VERB', 'aux']	['可以', '忘掉', 'aux']
+['VERB', 'VERB', 'xcomp']	['忘掉', '是', 'xcomp']
+['PART', 'VERB', 'discourse']	['的', '是', 'discourse']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['ADV', 'VERB', 'advmod']	['那么', '有', 'advmod']
+['NOUN', 'NOUN', 'nmod']	['演员', '表演', 'nmod']
+['PART', 'NOUN', 'case']	['的', '演员', 'case']
+['NOUN', 'VERB', 'nsubj']	['表演', '有', 'nsubj']
+['ADV', 'VERB', 'mark']	['又', '有', 'mark']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['PRON', 'VERB', 'nsubj']	['什么', '忘', 'nsubj']
+['AUX', 'VERB', 'aux']	['可', '忘', 'aux']
+['VERB', 'VERB', 'ccomp']	['忘', '有', 'ccomp']
+['VERB', 'VERB', 'mark']	['掉', '忘', 'mark']
+['PART', 'VERB', 'discourse']	['的', '有', 'discourse']
+['PART', 'VERB', 'discourse']	['呢', '有', 'discourse']
+['PUNCT', 'VERB', 'punct']	['？', '有', 'punct']
+----------------------------------------------------------------------
+近年来，奥斯卡为各种原因（一些政治性，一些艺术性）的表演，授予了各种奖项，这些电影几乎在观众眼中消失了，但它们还在屏幕上：《读者》（The Reader）、《玫瑰生命》（La Vie en Rose）、《走进》（Walk the Line）、《疯狂的心》（Crazy Heart）和《柯普》（Capote）。
+
+(ROOT (IP (IP (LCP (NP (NN 近年)) (IN 来)) (, ，) (NP (NNP 奥斯卡)) (VP (PP (IN 为) (NP (DNP (NP (ADJP (DT 各种)) (NP (NN 原因)) (PRN (-LRB- （) (NP (QP (JJ 一些)) (NP (NN 政治) (SFN 性))) (, ，) (NP (QP (JJ 一些)) (NP (NN 艺术) (SFN 性))) (-RRB- ）))) (DEC 的)) (NP (NN 表演)))) (, ，) (VP (VV 授予) (AS 了) (NP (ADJP (DT 各种)) (NP (NN 奖项)))))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 电影))) (VP (ADVP (RB 几乎)) (PP (IN 在) (LCP (NP (NN 观众)) (NN 眼中))) (VP (VV 消失) (UH 了)))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 它们)) (VP (ADVP (RB 还)) (VP (PP (IN 在) (LCP (NP (NN 屏幕)) (IN 上)))))) (: ：) (NP (NP (-LRB- 《) (NN 读者) (-RRB- 》) (PRN (-LRB- （) (NP (DP (FW The)) (NP (FW Reader))) (-RRB- ）))) (EC 、) (NP (-LRB- 《) (NN 玫瑰) (NN 生命) (-RRB- 》) (PRN (-LRB- （) (NP (NP (ADJP (FW La)) (NP (FW Vie))) (PP (FW en) (NP (FW Rose)))) (-RRB- ）))) (EC 、) (NP (-LRB- 《) (VV 走进) (-RRB- 》) (PRN (-LRB- （) (NP (FW Walk) (DP (FW the)) (NP (FW Line))) (-RRB- ）))) (EC 、) (NP (-LRB- 《) (CP (CP (IP (VP (JJ 疯狂))) (DEC 的))) (NP (NN 心)) (-RRB- 》) (PRN (-LRB- （) (NP (FW Crazy) (FW Heart)) (-RRB- ）))) (CC 和) (NP (-LRB- 《) (NNP 柯普) (-RRB- 》) (PRN (-LRB- （) (NP (FW Capote)) (-RRB- ）)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP39534': {}, ',12452': {}, 'IP57450': {}, ':': {}, 'NP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ':': {}, 'NP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP54434': {'NP': {}, 'VP': {}}, ',17080': {}, 'IP75378': {'ADVP': {}, 'NP': {}, 'VP': {}}, ':': {}, 'NP': {'NP': {}, 'EC': {}, 'NP22799': {}, 'EC69611': {}, 'NP53937': {}, 'EC35159': {}, 'NP63898': {}, 'CC': {}, 'NP37609': {}}, '.': {}}}
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ':': {}, 'NP': {'NP': {}, 'EC': {}, 'NP': {}, 'EC': {}, 'NP': {}, 'EC': {}, 'NP': {}, 'CC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'NP': {}, 'EC': {}, 'NP': {}, 'EC': {}, 'NP': {}, 'EC': {}, 'NP': {}, 'CC': {}, 'NP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nmod:tmod']	['近年', '授予', 'nmod:tmod']
+['ADP', 'NOUN', 'case']	['来', '近年', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '近年', 'punct']
+['PROPN', 'VERB', 'nsubj']	['奥斯卡', '授予', 'nsubj']
+['ADP', 'NOUN', 'case']	['为', '原因', 'case']
+['DET', 'NOUN', 'det']	['各种', '原因', 'det']
+['NOUN', 'VERB', 'obl']	['原因', '授予', 'obl']
+['PUNCT', 'PART', 'punct']	['（', '性', 'punct']
+['ADJ', 'PART', 'amod']	['一些', '性', 'amod']
+['NOUN', 'PART', 'compound']	['政治', '性', 'compound']
+['PART', 'NOUN', 'appos']	['性', '原因', 'appos']
+['PUNCT', 'PART', 'punct']	['，', '性', 'punct']
+['ADJ', 'PART', 'amod']	['一些', '性', 'amod']
+['NOUN', 'PART', 'compound']	['艺术', '性', 'compound']
+['PART', 'PART', 'appos']	['性', '性', 'appos']
+['PUNCT', 'PART', 'punct']	['）', '性', 'punct']
+['PART', 'PART', 'case']	['的', '性', 'case']
+['NOUN', 'VERB', 'nsubj']	['表演', '授予', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '表演', 'punct']
+['VERB', 'ROOT', 'root']	['授予', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '授予', 'aux']
+['DET', 'NOUN', 'det']	['各种', '奖项', 'det']
+['NOUN', 'VERB', 'obj']	['奖项', '授予', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '消失', 'punct']
+['DET', 'NOUN', 'det']	['这些', '电影', 'det']
+['NOUN', 'VERB', 'nsubj']	['电影', '消失', 'nsubj']
+['ADV', 'VERB', 'advmod']	['几乎', '消失', 'advmod']
+['ADP', 'NOUN', 'case']	['在', '观众', 'case']
+['NOUN', 'VERB', 'obl']	['观众', '消失', 'obl']
+['NOUN', 'VERB', 'obl']	['眼中', '消失', 'obl']
+['VERB', 'VERB', 'parataxis']	['消失', '授予', 'parataxis']
+['PART', 'VERB', 'discourse']	['了', '消失', 'discourse']
+['PUNCT', 'VERB', 'punct']	['，', '授予', 'punct']
+['ADV', 'NOUN', 'mark']	['但', '读者', 'mark']
+['PRON', 'NOUN', 'nsubj']	['它', '读者', 'nsubj']
+['ADV', 'NOUN', 'mark']	['还', '读者', 'mark']
+['ADP', 'NOUN', 'case']	['在', '屏幕', 'case']
+['NOUN', 'NOUN', 'nmod']	['屏幕', '读者', 'nmod']
+['ADP', 'NOUN', 'case']	['上', '屏幕', 'case']
+['PUNCT', 'NOUN', 'punct']	['：', '读者', 'punct']
+['PUNCT', 'NOUN', 'punct']	['《', '读者', 'punct']
+['NOUN', 'VERB', 'obl']	['读者', '消失', 'obl']
+['PUNCT', 'NOUN', 'punct']	['》', '读者', 'punct']
+['PUNCT', 'X', 'punct']	['（', 'The', 'punct']
+['X', 'NOUN', 'appos']	['The', '读者', 'appos']
+['X', 'X', 'flat:foreign']	['Reader', 'The', 'flat:foreign']
+['PUNCT', 'X', 'punct']	['）', 'The', 'punct']
+['PUNCT', 'NOUN', 'punct']	['、', '生命', 'punct']
+['PUNCT', 'NOUN', 'punct']	['《', '生命', 'punct']
+['NOUN', 'NOUN', 'nmod']	['玫瑰', '生命', 'nmod']
+['NOUN', 'NOUN', 'conj']	['生命', '读者', 'conj']
+['PUNCT', 'NOUN', 'punct']	['》', '生命', 'punct']
+['PUNCT', 'X', 'punct']	['（', 'La', 'punct']
+['X', 'NOUN', 'appos']	['La', '生命', 'appos']
+['X', 'X', 'flat:foreign']	['Vie', 'La', 'flat:foreign']
+['X', 'X', 'flat:foreign']	['en', 'La', 'flat:foreign']
+['X', 'X', 'flat:foreign']	['Rose', 'La', 'flat:foreign']
+['PUNCT', 'X', 'punct']	['）', 'La', 'punct']
+['PUNCT', 'VERB', 'punct']	['、', '走进', 'punct']
+['PUNCT', 'VERB', 'punct']	['《', '走进', 'punct']
+['VERB', 'NOUN', 'conj']	['走进', '读者', 'conj']
+['PUNCT', 'VERB', 'punct']	['》', '走进', 'punct']
+['PUNCT', 'X', 'punct']	['（', 'Walk', 'punct']
+['X', 'VERB', 'appos']	['Walk', '走进', 'appos']
+['X', 'X', 'flat:foreign']	['the', 'Walk', 'flat:foreign']
+['X', 'X', 'flat:foreign']	['Line', 'Walk', 'flat:foreign']
+['PUNCT', 'X', 'punct']	['）', 'Walk', 'punct']
+['PUNCT', 'NOUN', 'punct']	['、', '心', 'punct']
+['PUNCT', 'NOUN', 'punct']	['《', '心', 'punct']
+['ADJ', 'NOUN', 'amod']	['疯狂', '心', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '疯狂', 'mark:rel']
+['NOUN', 'NOUN', 'conj']	['心', '读者', 'conj']
+['PUNCT', 'NOUN', 'punct']	['》', '心', 'punct']
+['PUNCT', 'X', 'punct']	['（', 'Crazy', 'punct']
+['X', 'NOUN', 'appos']	['Crazy', '心', 'appos']
+['X', 'X', 'flat:foreign']	['Heart', 'Crazy', 'flat:foreign']
+['PUNCT', 'X', 'punct']	['）', 'Crazy', 'punct']
+['CCONJ', 'PROPN', 'cc']	['和', '柯普', 'cc']
+['PUNCT', 'PROPN', 'punct']	['《', '柯普', 'punct']
+['PROPN', 'NOUN', 'conj']	['柯普', '读者', 'conj']
+['PUNCT', 'PROPN', 'punct']	['》', '柯普', 'punct']
+['PUNCT', 'X', 'punct']	['（', 'Capote', 'punct']
+['X', 'PROPN', 'appos']	['Capote', '柯普', 'appos']
+['PUNCT', 'X', 'punct']	['）', 'Capote', 'punct']
+['PUNCT', 'VERB', 'punct']	['。', '授予', 'punct']
+----------------------------------------------------------------------
+尽管这些电影在内容上堪称精彩，但却被遗忘在了历史的长河之中。
+
+(ROOT (IP (CP (ADVP (IN 尽管)) (IP (NP (DP (DT 这些)) (NP (NN 电影))) (VP (PP (IN 在) (LCP (NP (NN 内容)) (IN 上))) (VP (VV 堪称) (NP (JJ 精彩)))))) (, ，) (ADVP (RB 但)) (VP (ADVP (RB 却)) (VP (BB 被) (VP (VV 遗忘) (PP (VV 在) (AS 了) (LCP (NP (DNP (NP (NN 历史)) (DEC 的)) (NP (NN 长河))) (NN 之中)))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['尽管', '堪称', 'case']
+['DET', 'NOUN', 'det']	['这些', '电影', 'det']
+['NOUN', 'VERB', 'nsubj']	['电影', '堪称', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '内容', 'case']
+['NOUN', 'VERB', 'obl']	['内容', '堪称', 'obl']
+['ADP', 'NOUN', 'case']	['上', '内容', 'case']
+['VERB', 'VERB', 'ccomp']	['堪称', '遗忘', 'ccomp']
+['ADJ', 'VERB', 'xcomp']	['精彩', '堪称', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '堪称', 'punct']
+['ADV', 'VERB', 'mark']	['但', '遗忘', 'mark']
+['ADV', 'VERB', 'mark']	['却', '遗忘', 'mark']
+['AUX', 'VERB', 'aux:pass']	['被', '遗忘', 'aux:pass']
+['VERB', 'ROOT', 'root']	['遗忘', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['在', '遗忘', 'mark']
+['AUX', 'VERB', 'aux']	['了', '遗忘', 'aux']
+['NOUN', 'NOUN', 'nmod']	['历史', '长河', 'nmod']
+['PART', 'NOUN', 'case']	['的', '历史', 'case']
+['NOUN', 'VERB', 'obj']	['长河', '遗忘', 'obj']
+['NOUN', 'NOUN', 'acl']	['之中', '长河', 'acl']
+['PUNCT', 'VERB', 'punct']	['。', '遗忘', 'punct']
+----------------------------------------------------------------------
+也许这是奥斯卡奖委员会应该考虑的，下次颁发奖项时，应该考虑对失败项目中的出色工作进行奖励。
+
+(ROOT (IP (IP (ADVP (RB 也许)) (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (NP (NNP 奥斯卡) (SFN 奖) (NN 委员) (SFN 会)) (VP (MD 应该) (VP (VV 考虑)))) (UH 的)))))) (, ，) (VP (LCP (IP (VP (ADVP (DT 下次)) (VP (NN 颁发) (NP (NN 奖项))))) (IN 时)) (, ，) (VP (MD 应该) (VP (VV 考虑) (IP (VP (PP (IN 对) (NP (DNP (LCP (NP (NN 失败) (NN 项目)) (IN 中)) (DEC 的)) (ADJP (JJ 出色)) (NP (NN 工作)))) (VP (VV 进行) (NP (NN 奖励)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'VP': {'LCP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'VP': {'LCP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'VP': {'LCP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'advmod']	['也许', '是', 'advmod']
+['PRON', 'VERB', 'nsubj']	['这', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['PROPN', 'PART', 'compound']	['奥斯卡', '奖', 'compound']
+['PART', 'PART', 'nmod']	['奖', '会', 'nmod']
+['NOUN', 'PART', 'compound']	['委员', '会', 'compound']
+['PART', 'VERB', 'nsubj']	['会', '考虑', 'nsubj']
+['AUX', 'VERB', 'aux']	['应该', '考虑', 'aux']
+['VERB', 'VERB', 'ccomp']	['考虑', '是', 'ccomp']
+['PART', 'VERB', 'discourse']	['的', '是', 'discourse']
+['PUNCT', 'VERB', 'punct']	['，', '考虑', 'punct']
+['DET', 'NOUN', 'det']	['下次', '奖项', 'det']
+['NOUN', 'NOUN', 'nmod']	['颁发', '奖项', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['奖项', '考虑', 'nsubj']
+['ADP', 'NOUN', 'case']	['时', '奖项', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '奖项', 'punct']
+['AUX', 'VERB', 'aux']	['应该', '考虑', 'aux']
+['VERB', 'VERB', 'parataxis']	['考虑', '是', 'parataxis']
+['ADP', 'NOUN', 'case']	['对', '工作', 'case']
+['NOUN', 'NOUN', 'nmod']	['失败', '项目', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['项目', '工作', 'nmod']
+['ADP', 'NOUN', 'case']	['中', '项目', 'case']
+['PART', 'NOUN', 'case']	['的', '项目', 'case']
+['ADJ', 'NOUN', 'amod']	['出色', '工作', 'amod']
+['NOUN', 'VERB', 'obl']	['工作', '进行', 'obl']
+['VERB', 'VERB', 'xcomp']	['进行', '考虑', 'xcomp']
+['NOUN', 'VERB', 'obj']	['奖励', '进行', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
 ----------------------------------------------------------------------

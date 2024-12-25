@@ -1,143 +1,2161 @@
-2008 年终于过去了，全球数以百万计的中国人在 1 月 26 日星期一迎来了中国新年。
+上一年一月，世界如何：希拉里·罗德姆·克林顿（Hillary Rodham Clinton）几乎肯定会获得民主党总统提名，很可能还会赢得大选。
 
-(ROOT (IP (IP (NP (CD 2008)) (VP (ADVP (NNB 年终于)) (VP (NN 过去) (UH 了)))) (, ，) (NP (NP (NN 全球)) (CP (CP (IP (NP (CD 数)) (VP (PP (VV 以) (QP (CD 百万))) (VP (VV 计)))) (DEC 的))) (NP (NNP 中国)) (NP (SFN 人))) (VP (PP (IN 在) (QP (CD 1) (NNB 月) (CD 26) (NNB 日星期))) (ADVP (CD 一)) (VP (VV 迎) (VP (VV 来) (AS 了) (NP (NP (NNP 中国)) (NP (NN 新年)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'NP': {'NP': {}, 'CP': {}, 'NP': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+(ROOT (IP (IP (NP (QP (CD 上一) (CLP (NNB 年))) (QP (CD 一)) (NP (NNB 月))) (, ，) (NP (NN 世界)) (VP (RB 如何))) (: ：) (IP (NP (NNP 希拉里) (/ ·) (NNP 罗德姆) (/ ·) (NNP 克林顿) (PRN (-LRB- （) (NP (FW Hillary) (FW Rodham) (FW Clinton)) (-RRB- ）))) (VP (ADVP (RB 几乎)) (ADVP (VV 肯定)) (VP (MD 会) (VP (VV 获得) (NP (NP (NN 民主) (SFN 党)) (NP (NN 总统) (NN 提名))))))) (, ，) (IP (VP (ADVP (RB 很)) (VP (MD 可能) (VP (ADVP (RB 还)) (VP (MD 会) (VP (VV 赢得) (NP (NN 大选)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP31737': {}, ',': {}, 'IP37223': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP46420': {}, 'VP': {}}, ':': {}, 'IP92637': {'NP': {}, 'VP': {}}, ',': {}, 'IP13286': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-{'NP': {'NP': {}, 'CP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+上一	年	nummod
+年	月	clf
+一	月	nummod
+月	赢得	nmod:tmod
+，	月	punct
+世界	如何	nsubj
+如何	赢得	advmod
+：	希拉里	punct
+希拉里	如何	nsubj
+·	罗德姆	punct
+罗德姆	希拉里	flat:name
+·	克林顿	punct
+克林顿	希拉里	flat:name
+（	Hillary	punct
+Hillary	希拉里	appos
+Rodham	Hillary	flat:foreign
+Clinton	Hillary	flat:foreign
+）	Hillary	punct
+几乎	肯定	advmod
+肯定	赢得	advcl
+会	获得	aux
+获得	肯定	xcomp
+民主	党	compound
+党	提名	nmod
+总统	提名	nmod
+提名	获得	obj
+，	肯定	punct
+很	赢得	advmod
+可能	赢得	aux
+还	赢得	mark
+会	赢得	aux
+赢得	ROOT	root
+大选	赢得	obj
+。	赢得	punct
 ----------------------------------------------------------------------
-在我们对鼠年挥手告别的同时，牛年以传统的方式迎来，烟花、派对和宴会一应俱全。
+经济不是很好，但也不是很糟，许多专家认为我们将避免全球衰退。
 
-(ROOT (IP (IP (PP (IN 在) (NP (CP (IP (NP (PRP 我们)) (VP (PP (IN 对) (NP (NN 鼠年))) (VP (VCD (VV 挥手) (VV 告别))))) (DEC 的)) (NP (NN 同时)))) (, ，) (NP (NNP 牛) (NNB 年)) (VP (PP (IN 以) (NP (DNP (ADJP (NN 传统)) (DEC 的)) (NP (NN 方式)))) (VP (VV 迎来)))) (, ，) (IP (NP (NN 烟花) (EC 、) (NN 派对) (CC 和) (NN 宴会)) (VP (QP (CD 一)) (NP (NN 应)) (VP (JJ 俱全)))) (. 。)))
+(ROOT (IP (IP (NP (NN 经济)) (VP (VP (VC 不是) (VP (JJ 很好))) (, ，) (VP (ADVP (RB 但)) (ADVP (RB 也)) (VP (VC 不是) (VP (JJ 很糟)))))) (, ，) (IP (NP (QP (CD 许多)) (NP (NN 专家))) (VP (VV 认为) (IP (NP (PRP 我们)) (VP (ADVP (RB 将)) (VP (VV 避免) (IP (NP (NN 全球)) (VP (VV 衰退)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP60494': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-中文牛的发音与英文“new”（新的）相近，但又有“牛”的意思，这个巧合被解读为一个吉祥的开年之礼。
-
-(ROOT (IP (IP (NP (DNP (NP (NN 中文牛)) (DEC 的)) (NP (NN 发音))) (VP (VP (PP (IN 与) (NP (NP (NNP 英) (SFN 文)) (NP (`` “) (FW new) ('' ”)) (PRN (-LRB- （) (CP (CP (IP (VP (JJ 新))) (DEC 的))) (-RRB- ）)))) (VP (JJ 相近))) (, ，) (VP (ADVP (RB 但)) (ADVP (RB 又)) (VP (VV 有) (NP (DNP (NP (`` “) (NN 牛) ('' ”)) (DEC 的)) (NP (NN 意思))))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 巧合))) (VP (BB 被) (VP (VRD (VV 解读) (VC 为)) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 吉祥))) (DEC 的))) (DNP (NP (NN 开年)) (DEC 之)) (NP (NN 礼)))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP758': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+经济	很糟	nsubj
+是	很好	cop
+很好	很糟	advcl
+，	很好	punct
+但	很糟	mark
+也	很糟	mark
+是	很糟	cop
+很糟	ROOT	root
+，	为	punct
+许多	专家	nummod
+专家	为	nsubj
+为	很糟	parataxis
+我	避免	nsubj
+将	避免	advmod
+避免	为	ccomp
+全球	衰退	obl
+衰退	避免	xcomp
+。	很糟	punct
 ----------------------------------------------------------------------
-根据中国占星术，牛年出生的人耐心、勤奋，能够赢得他人信任。
+同时，在美国入侵伊拉克五年之后，伊拉克似乎已经成为一个不可救药的案例。
 
-(ROOT (IP (PP (IN 根据) (NP (NP (NNP 中国)) (NP (VV 占星) (SFN 术)))) (, ，) (NP (CP (CP (IP (VP (NP (NN 牛年)) (VP (VV 出生)))) (DEC 的))) (NP (NN 人))) (VP (VP (JJ 耐心) (EC 、) (JJ 勤奋)) (, ，) (VP (MD 能够) (VP (VV 赢得) (NP (NN 他人) (NN 信任))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'NP': {}}}
-{'NP': {'CP': {}, 'NP': {}}}
+(ROOT (IP (ADVP (NN 同时)) (, ，) (PP (IN 在) (LCP (IP (NP (NNP 美国)) (VP (VV 入侵) (NP (NNP 伊拉克)) (QP (CD 五) (CLP (NNB 年))))) (IN 之后))) (, ，) (NP (NNP 伊拉克)) (VP (ADVP (RB 似乎)) (ADVP (RB 已经)) (VP (VV 成) (VP (VC 为) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (MD 不可) (VP (VV 救药)))) (DEC 的))) (NP (NN 案例)))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',37013': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'PP': {'IN': {}, 'LCP': {}}, ',84426': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'ADVP7573': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'NN': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+同时	成	nmod:tmod
+，	同时	punct
+在	入侵	case
+美国	入侵	nsubj
+入侵	成	ccomp
+伊拉克	入侵	obj
+五	年	nummod
+年	入侵	obl
+之后	入侵	mark
+，	入侵	punct
+伊拉克	成	nsubj
+似乎	成	advmod
+已经	成	advmod
+成	ROOT	root
+为	成	mark
+一	个	nummod
+个	案例	clf
+可	救药	aux
+救药	案例	acl:relcl
+的	救药	mark:rel
+案例	成	obj
+。	成	punct
+----------------------------------------------------------------------
+再说一下汽油的价格吧。哦哦，它已经超过了每加仑 3 美元，而且仍在不断上涨，没有减速的迹象。
+
+(ROOT (IP (ADVP (VV 再说)) (NP (QP (CD 一) (CLP (NNB 下))) (DNP (NP (NN 汽油)) (DEC 的)) (NP (NN 价格))) (UH 吧) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'UH': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'UH': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'VV': {}}, 'NP': {'QP': {}, 'DNP': {}, 'NP': {}}, 'UH': {}, '.': {}}}
+{'IP': {'ADVP': {'VV': {}}, 'NP': {'QP': {}, 'DNP': {}, 'NP': {}}, 'UH': {}, '.': {}}}
+{'ADVP': {'VV': {}}}
+{'NP': {'QP': {}, 'DNP': {}, 'NP': {}}}
+Dependency Features:
+再说	ROOT	root
+一	下	nummod
+下	汽油	clf
+汽油	价格	nmod
+的	汽油	case
+价格	再说	obj
+吧	再说	discourse
+。	再说	punct
+----------------------------------------------------------------------
+在过去的几个月里，发生了很多事情，对吗？2008 年证明了常识并非总是明智的。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (NP (DNP (NP (NN 过去)) (DEC 的)) (QP (CD 几) (CLP (NNB 个))) (NP (NN 月))) (IN 里))) (, ，) (VP (VV 发生) (AS 了) (NP (QP (CD 很多)) (NP (NN 事情))))) (, ，) (CP (IP (VP (JJ 对))) (UH 吗)) (. ？)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'CP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'CP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'VP': {}}, ',': {}, 'CP': {'IP': {}, 'UH': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'VP': {}}, ',': {}, 'CP': {'IP': {}, 'UH': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'VP': {}}}
+{'CP': {'IP': {}, 'UH': {}}}
+Dependency Features:
+在	月	case
+过去	月	nmod
+的	过去	case
+几	个	nummod
+个	月	clf
+月	发生	obl
+里	月	case
+，	月	punct
+发生	ROOT	root
+了	发生	aux
+很多	事情	nummod
+事情	发生	obj
+，	对	punct
+对	发生	parataxis
+吗	对	discourse
+？	对	punct
+----------------------------------------------------------------------
+一年之前，人们曾认为这将是一个重要的年份，但却发生了一系列历史性事件，美国选出了第一位非裔总统，发达国家陷入了可怕的金融危机，这让中国和其他新兴大国对美国式资本主义本身的真理性产生了怀疑。
+
+(ROOT (IP (LCP (QP (CD 一) (CLP (NNB 年))) (IN 之前)) (, ，) (NP (NN 人们)) (VP (ADVP (RB 曾)) (VP (VV 认为) (IP (IP (NP (PRD 这)) (VP (ADVP (RB 将)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 重要))) (DEC 的))) (NP (NN 年份)))))) (, ，) (IP (ADVP (RB 但)) (VP (ADVP (RB 却)) (VP (VV 发生) (AS 了) (NP (QP (CD 一) (CLP (NN 系列))) (NP (NN 历史)) (ADJP (SFN 性)) (NP (NN 事件)))))) (, ，) (IP (NP (NNP 美国)) (VP (VV 选出) (AS 了) (NP (QP (CD 第一) (CLP (NNB 位))) (ADJP (NNP 非裔)) (NP (NN 总统))))) (, ，) (IP (NP (ADJP (JJ 发达)) (NP (NN 国家))) (VP (VV 陷入) (AS 了) (NP (CP (CP (IP (VP (JJ 可怕))) (DEC 的))) (NP (NN 金融) (NN 危机))))) (, ，) (IP (NP (PRD 这)) (VP (VV 让) (NP (NP (NNP 中国)) (CC 和) (NP (DP (DT 其他)) (ADJP (JJ 新兴)) (NP (NN 大国)))) (IP (VP (PP (IN 对) (NP (DNP (NP (NP (NP (NNP 美国)) (ADJP (SFN 式)) (NP (NN 资本) (NN 主义))) (NP (PRD 本身))) (DEC 的)) (NP (NN 真理) (SFN 性)))) (VP (VV 产生) (AS 了) (NP (NN 怀疑)))))))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'QP': {}, 'IN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {'QP': {}, 'IN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'QP': {}, 'IN': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+一	年	nummod
+年	为	nmod:tmod
+之前	年	case
+，	年	punct
+人	为	nsubj
+曾	为	advmod
+为	ROOT	root
+这	年份	nsubj
+将	年份	advmod
+是	年份	cop
+一	个	nummod
+个	年份	clf
+重要	年份	amod
+的	重要	mark:rel
+年份	为	ccomp
+，	发生	punct
+但	发生	mark
+却	发生	mark
+发生	为	parataxis
+了	发生	aux
+一	系列	nummod
+系列	事件	clf
+历史	性	compound
+性	事件	nmod
+事件	发生	obj
+，	选出	punct
+美国	选出	nsubj
+选出	为	parataxis
+了	选出	aux
+第一	位	nummod
+位	总统	clf
+非裔	总统	nmod
+总统	选出	obj
+，	陷入	punct
+发达	国家	amod
+国家	陷入	nsubj
+陷入	为	parataxis
+了	陷入	aux
+可怕	危机	amod
+的	可怕	mark:rel
+金融	危机	nmod
+危机	陷入	obj
+，	让	punct
+这	让	nsubj
+让	陷入	advcl
+中国	性	nmod
+和	大国	cc
+其他	大国	det
+新兴	大国	amod
+大国	中国	conj
+对	性	case
+美国	式	compound
+式	主义	nmod
+资本	主义	nmod
+主义	性	nmod
+本身	主义	appos
+的	主义	case
+真理	性	compound
+性	产生	obl
+产生	让	ccomp
+了	产生	aux
+怀疑	产生	obj
+。	为	punct
+----------------------------------------------------------------------
+伊拉克情况好了，阿富汗情况差了。
+
+(ROOT (IP (IP (NP (NP (NNP 伊拉克)) (NP (NN 情况))) (VP (JJ 好) (UH 了))) (, ，) (IP (NP (NP (NNP 阿富汗)) (NP (NN 情况))) (VP (JJ 差) (UH 了))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP66126': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP79532': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+伊拉克	情况	nmod
+情况	好	nsubj
+好	ROOT	root
+了	好	discourse
+，	差	punct
+阿富汗	情况	nmod
+情况	差	nsubj
+差	好	parataxis
+了	差	discourse
+。	好	punct
+----------------------------------------------------------------------
+气价上涨了，然后下跌了。
+
+(ROOT (IP (NP (NN 气价)) (VP (VP (VV 上涨) (UH 了)) (, ，) (VP (ADVP (RB 然后)) (VP (VV 下跌) (UH 了)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP87078': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
 {'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+气价	上涨	nsubj
+上涨	下跌	advcl
+了	上涨	discourse
+，	上涨	punct
+然后	下跌	advmod
+下跌	ROOT	root
+了	下跌	discourse
+。	下跌	punct
 ----------------------------------------------------------------------
-然而，有时他们会变得极其激烈，极其顽固。
+菲德尔·卡斯特罗逝世。
 
-(ROOT (IP (ADVP (RB 然而)) (, ，) (ADVP (RB 有时)) (NP (PRP 他们)) (VP (MD 会) (VP (VV 变得) (VP (VP (ADVP (RB 极)) (ADVP (PRP 其)) (VP (JJ 激烈))) (, ，) (VP (ADVP (RB 极)) (ADVP (PRP 其)) (VP (JJ 顽固)))))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+(ROOT (IP (NP (NNP 菲德尔) (/ ·) (NNP 卡斯特罗)) (VP (VV 逝世)) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP26065': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+菲德尔	逝世	nsubj
+·	卡斯特罗	punct
+卡斯特罗	菲德尔	flat:name
+逝世	ROOT	root
+。	逝世	punct
+----------------------------------------------------------------------
+迈克尔·菲尔普斯在奥运会上获得的金牌数量是历史最高纪录。
+
+(ROOT (IP (NP (NP (CP (CP (IP (NP (NNP 迈克尔) (/ ·) (NNP 菲尔普斯)) (VP (PP (IN 在) (LCP (NP (NNP 奥运)) (NN 会上))) (VP (VV 获得)))) (DEC 的))) (NP (NN 金牌))) (NP (NN 数量))) (VP (VC 是) (NP (NP (NN 历史)) (ADJP (JJ 最高)) (NP (NN 纪录)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP78770': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+迈克尔	获得	nsubj
+·	菲尔普斯	punct
+菲尔普斯	迈克尔	flat:name
+在	会上	case
+奥运	会上	nmod
+会上	获得	obl
+获得	数量	acl:relcl
+的	获得	mark:rel
+金牌	数量	nmod
+数量	纪录	nsubj
+是	纪录	cop
+历史	纪录	nmod
+最高	纪录	amod
+纪录	ROOT	root
+。	纪录	punct
+----------------------------------------------------------------------
+首先，这一年，从东京到华盛顿，各国政府向国有企业注入了大量纳税人的钱。
+
+(ROOT (IP (ADVP (RB 首先)) (, ，) (DP (DT 这) (QP (CD 一) (CLP (NNB 年)))) (, ，) (PP (PP (IN 从) (NP (NNP 东京))) (PP (VV 到) (NP (NNP 华盛顿)))) (, ，) (NP (NP (NNP 各国)) (NP (NN 政府))) (VP (PP (IN 向) (NP (ADJP (NN 国有)) (NP (NN 企业)))) (VP (VV 注入) (AS 了) (NP (QP (JJ 大量)) (DNP (NP (VV 纳税) (SFN 人)) (DEC 的)) (NP (NN 钱))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'DP': {}, ',43880': {}, 'PP': {}, ',7126': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'DP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'DP': {'DT': {}, 'QP': {}}, ',17184': {}, 'PP': {'PP': {}, 'PP26488': {}}, ',12746': {}, 'NP': {'NP': {}, 'NP26466': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'DP': {'DT': {}, 'QP': {}}, ',': {}, 'PP': {'PP': {}, 'PP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
 {'ADVP': {'RB': {}}}
+{'DP': {'DT': {}, 'QP': {}}}
+{'PP': {'PP': {}, 'PP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+首先	到	advmod
+，	首先	punct
+这	年	det
+一	年	nummod
+年	到	nmod:tmod
+，	年	punct
+从	东京	case
+东京	到	obl
+到	注入	advcl
+华盛顿	到	obj
+，	到	punct
+各国	政府	nmod
+政府	注入	nsubj
+向	企业	case
+国有	企业	nmod
+企业	注入	obl
+注入	ROOT	root
+了	注入	aux
+大量	人	amod
+纳税	人	compound
+人	钱	nmod
+的	大量	mark:rel
+钱	注入	obj
+。	注入	punct
+----------------------------------------------------------------------
+法国总统尼古拉·萨科齐 (Nicolas Sarkozy) 声称，自由放任政策可能还没有结束。
+
+(ROOT (IP (NP (NP (NP (NP (NNP 法国)) (NP (NN 总统))) (NP (NNP 尼古拉) (/ ·) (NNP 萨科齐))) (NP (FW -LRB-Nicolas) (FW Sarkozy-RRB-))) (VP (VV 声称) (, ，) (IP (NP (NP (NNP 自由) (NN 放任)) (NP (NN 政策))) (VP (MD 可能) (VP (ADVP (RB 还)) (VP (VV 没有) (VP (VV 结束))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP64437': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+法国	总统	nmod
+总统	声称	nsubj
+尼古拉	总统	appos
+·	萨科齐	punct
+萨科齐	尼古拉	flat:name
+(Nicolas	总统	appos
+Sarkozy)	(Nicolas	flat:foreign
+声称	ROOT	root
+，	有	punct
+自由	政策	nmod
+放任	政策	nmod
+政策	有	nsubj
+可能	有	aux
+还	有	mark
+有	声称	ccomp
+结束	有	xcomp
+。	声称	punct
+----------------------------------------------------------------------
+但随着世界领导人逐步走向衰退后的时代，他们可能会对经济意识形态的局限性以及全球贸易和金融流动的危害和好处有了新的认识。
+
+(ROOT (IP (ADVP (RB 但)) (PP (VV 随) (PP (AS 着) (IP (NP (NN 世界) (VV 领导) (SFN 人)) (VP (ADVP (RB 逐步)) (VP (VV 走) (PP (VV 向) (NP (DNP (LCP (NP (NN 衰退)) (IN 后)) (DEC 的)) (NP (NN 时代))))))))) (, ，) (NP (PRP 他们)) (VP (MD 可能) (VP (MD 会) (VP (PP (IN 对) (NP (NP (DNP (NP (NN 经济) (NN 意识) (NN 形态)) (DEC 的)) (NP (NN 局限) (SFN 性))) (CC 以及) (NP (NP (NP (DNP (NP (NN 全球) (NN 贸易) (CC 和) (NN 金融) (NN 流动)) (DEC 的)) (NP (NN 危害))) (JJ 和好)) (NP (SFN 处))))) (VP (VV 有) (AS 了) (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 认识))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
 {'ADVP': {'RB': {}}}
+{'PP': {'VV': {}, 'PP': {}}}
 {'NP': {'PRP': {}}}
 {'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+但	有	mark
+随	有	advcl
+着	随	aux
+世界	人	nmod
+领导	人	compound
+人	走	nsubj
+逐步	走	advmod
+走	时代	acl:relcl
+向	走	mark
+衰退	走	obj
+后	走	mark
+的	走	mark:rel
+时代	随	obj
+，	随	punct
+他	有	nsubj
+可能	有	aux
+会	有	aux
+对	性	case
+经济	形态	nmod
+意识	形态	nmod
+形态	性	nmod
+的	形态	case
+局限	性	compound
+性	有	obl
+以及	流动	cc
+全球	贸易	nmod
+贸易	危害	nmod
+和	流动	cc
+金融	流动	nmod
+流动	贸易	conj
+的	贸易	case
+危害	处	nmod
+和好	处	compound
+处	性	conj
+有	ROOT	root
+了	有	aux
+新	认识	amod
+的	新	mark:rel
+认识	有	obj
+。	有	punct
 ----------------------------------------------------------------------
-传统上，伦敦的中国新年庆祝活动在元旦后的第一个星期天举行。
+“命运赋予了一个困境：现代化多边主义和市场。
 
-(ROOT (IP (LCP (NP (NN 传统)) (IN 上)) (, ，) (NP (DNP (NP (NNP 伦敦)) (DEC 的)) (NP (NNP 中国)) (NP (NN 新年) (NN 庆祝) (NN 活动))) (VP (PP (IN 在) (NP (DNP (LCP (NP (NN 元旦)) (IN 后)) (DEC 的)) (QP (CD 第一) (CLP (NNB 个))) (NP (NN 星期) (CD 天)))) (VP (VV 举行))) (. 。)))
-{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'LCP': {'NP': {}, 'IN': {}}}
-{'NP': {'DNP': {}, 'NP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-今年，伦敦市长向观众承诺，在著名地标特拉法尔加广场，将为观众呈现丰富多彩的现场表演、五彩缤纷的游行和美食盛宴。
-
-(ROOT (IP (NP (NN 今年)) (, ，) (NP (NP (NNP 伦敦)) (NP (NN 市长))) (VP (PP (IN 向) (NP (NN 观众))) (VP (VV 承诺) (, ，) (IP (VP (PP (IN 在) (NP (NP (ADJP (JJ 著名)) (NP (NN 地标))) (NP (NNP 特拉法尔加) (NN 广场)))) (, ，) (ADVP (RB 将)) (PP (IN 为) (NP (NN 观众))) (VP (VV 呈现) (NP (CP (CP (IP (VP (VCD (JJ 丰富) (JJ 多彩)))) (DEC 的))) (DNP (NP (NP (NN 现场) (NN 表演)) (EC 、) (NP (NN 五彩缤纷))) (DEC 的)) (NP (NN 游行) (CC 和) (NN 美食)) (NP (NN 盛宴)))))))) (. 。)))
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-在北爱尔兰德里，庆祝活动提前到来。
-
-(ROOT (IP (PP (VV 在) (NP (NN 北) (NNP 爱尔兰德里))) (, ，) (NP (NN 庆祝) (NN 活动)) (VP (ADVP (RB 提前)) (VP (VV 到来))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'PP': {'VV': {}, 'NP': {}}}
-{'NP': {'NN': {}, 'NN': {}}}
-{'VP': {'ADVP': {}, 'VP': {}}}
-----------------------------------------------------------------------
-当地人们可以观看书法演示、品尝正宗的中国茶和中国宴席。
-
-(ROOT (IP (NP (NN 当地) (NN 人们)) (VP (MD 可以) (VP (VP (VV 观看) (NP (NN 书法) (NN 演示))) (EC 、) (VP (VV 品尝) (NP (NP (DNP (ADJP (NN 正宗)) (DEC 的)) (NP (NNP 中国)) (NP (SFN 茶))) (CC 和) (NP (NP (NNP 中国)) (NP (NN 宴席))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NN': {}, 'NN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NN': {}, 'NN': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
-----------------------------------------------------------------------
-德里市长杰拉德·迪维 (Gerard Diver) 认为这些活动非常重要，不仅对华人社区而言，对德里的所有人而言都是如此。
-
-(ROOT (IP (NP (NP (NP (NNP 德里)) (NP (NN 市长))) (NP (NNP 杰拉德) (/ ·) (NNP 迪维) (FW -LRB-Gerard) (FW Diver-RRB-))) (VP (VV 认为) (IP (IP (NP (DP (DT 这些)) (NP (NN 活动))) (VP (ADVP (RB 非常)) (VP (JJ 重要)))) (, ，) (VP (IN 不仅) (VP (PP (IN 对) (NP (NNP 华) (SFN 人) (NN 社区))) (VP (RB 而) (VP (VV 言)))) (, ，) (VP (IP (VP (PP (IN 对) (NP (DNP (NP (NNP 德里)) (DEC 的)) (DP (DT 所有)) (NP (NN 人)))) (VP (RB 而) (VP (VV 言))))) (VP (VC 都是) (NP (VV 如此))))))) (. 。)))
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
-----------------------------------------------------------------------
-“我们生活在一个岛上，有时我觉得我们可能没有像应该的那样接触到不同的文化或不同的做事方式。
-
-(ROOT (IP (`` “) (IP (NP (PRP 我们)) (VP (VV 生活) (PP (IN 在) (LCP (QP (CD 一) (CLP (NNB 个))) (NN 岛上))))) (, ，) (IP (ADVP (RB 有时)) (NP (PRP 我)) (VP (VV 觉得) (IP (NP (PRP 我们)) (VP (MD 可能) (VP (VV 没有) (VP (PP (IN 像) (NP (CP (CP (IP (VP (MD 应该))) (DEV 的))))) (ADVP (RB 那样)) (VP (VRD (VV 接触) (VV 到)) (NP (NP (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (NN 文化))) (CC 或) (NP (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (NN 做事) (NN 方式))))))))))) (. 。)))
-{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-{'IP': {'``': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+(ROOT (IP (`` “) (IP (NP (NN 命运)) (VP (VV 赋予) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 困境))))) (: ：) (NP (NP (NP (NN 现代) (SFV 化)) (QP (CD 多) (CLP (NN 边))) (NP (NN 主义))) (CC 和) (NP (NN 市场))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'IP': {}, ':': {}, 'NP': {}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, ':': {}, 'NP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'IP': {'NP': {}, 'VP': {}}, ':': {}, 'NP': {'NP': {}, 'CC': {}, 'NP36181': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {'NP': {}, 'VP': {}}, ':': {}, 'NP': {'NP': {}, 'CC': {}, 'NP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'NP': {}, 'CC': {}, 'NP': {}}}
+Dependency Features:
+“	命运	punct
+命运	赋予	nsubj
+赋予	ROOT	root
+了	赋予	aux
+一	个	nummod
+个	困境	clf
+困境	赋予	obj
+：	化	punct
+现代	化	compound
+化	主义	amod
+多	边	nummod
+边	主义	nmod
+主义	困境	appos
+和	市场	cc
+市场	主义	conj
+。	赋予	punct
 ----------------------------------------------------------------------
-“这是一个了解中国文化和传统的宝贵机会，也是一个进步的重要标志，”迪弗先生说。
+我们必须抓住它，”世界银行行长罗伯特·佐利克在今年秋天的致辞中说到。
 
-(ROOT (IP (IP (`` “) (NP (PRD 这)) (VP (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (IP (VP (VV 了解) (NP (NP (NNP 中国)) (NP (NN 文化) (CC 和) (NN 传统))))) (DEC 的)) (ADJP (JJ 宝贵)) (NP (NN 机会)))) (, ，) (VP (VC 也是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 进步))) (DEC 的))) (ADJP (JJ 重要)) (NP (NN 标志)))))) (, ，) ('' ”) (NP (NNP 迪弗) (NN 先生)) (VP (VV 说)) (. 。)))
-{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}}, '.': {}}}
-{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
-{'NP': {'NNP': {}, 'NN': {}}}
-{'VP': {'VV': {}}}
+(ROOT (IP (IP (IP (NP (PRP 我们)) (VP (MD 必须) (VP (VV 抓住) (NP (PRP 它))))) (, ，) ('' ”)) (IP (NP (NP (NP (NN 世界) (NN 银行)) (NP (NN 行长))) (NP (NNP 罗伯特) (/ ·) (NNP 佐利克))) (VP (PP (IN 在) (LCP (NP (DNP (NP (NN 今年) (NN 秋天)) (DEC 的)) (NP (NN 致辞))) (IN 中))) (VP (VRD (VV 说) (VV 到))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, 'IP80250': {}, '.': {}}}
+{'IP': {'IP': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, "''": {}}, 'IP94935': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, "''": {}}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+我	抓住	nsubj
+必须	抓住	aux
+抓住	ROOT	root
+它	抓住	obj
+，	说	punct
+”	说	punct
+世界	行长	nmod
+银行	行长	nmod
+行长	说	nsubj
+罗伯特	行长	appos
+·	佐利克	punct
+佐利克	罗伯特	flat:name
+在	致辞	case
+今年	秋天	nmod
+秋天	致辞	nmod
+的	秋天	case
+致辞	说	obl
+中	致辞	case
+说	抓住	parataxis
+到	说	mark
+。	抓住	punct
 ----------------------------------------------------------------------
-然而，全球金融危机影响了该国其他地方的庆祝活动。
+也许年初曝光的欺诈行为本应该是一个警告。
 
-(ROOT (IP (ADVP (RB 然而)) (, ，) (NP (NN 全球) (NN 金融) (NN 危机)) (VP (VV 影响) (AS 了) (NP (DNP (NP (NP (NN 该国)) (DP (DT 其他)) (NP (NN 地方))) (DEC 的)) (NP (NN 庆祝) (NN 活动)))) (. 。)))
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NN': {}, 'NN': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+(ROOT (IP (ADVP (RB 也许)) (NP (CP (CP (IP (VP (NP (NN 年初)) (VP (VV 曝光)))) (DEC 的))) (NP (NN 欺诈) (NN 行为))) (VP (ADVP (RB 本)) (VP (MD 应该) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 警告)))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
 {'ADVP': {'RB': {}}}
-{'NP': {'NN': {}, 'NN': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+也许	曝光	advmod
+年初	曝光	nmod:tmod
+曝光	行为	acl:relcl
+的	曝光	mark:rel
+欺诈	行为	nmod
+行为	警告	nsubj
+本	警告	advmod
+应该	警告	aux
+是	警告	cop
+一	个	nummod
+个	警告	clf
+警告	ROOT	root
+。	警告	punct
 ----------------------------------------------------------------------
-由于缺乏资金，考文垂社区华人协会被迫取消了新年的计划。
+1 月 19 日，法国银行 Société Générale 发现并开始揭露其后称为“大规模欺诈性方向头寸”的一系列交易。
 
-(ROOT (IP (PP (IN 由于) (IP (VP (VV 缺乏) (NP (NN 资金))))) (, ，) (NP (NP (NP (NN 考文) (SFN 垂)) (NP (NN 社区))) (NP (NNP 华) (SFN 人) (NN 协会))) (VP (BB 被) (VP (VV 迫) (IP (VP (VV 取消) (AS 了) (NP (DNP (NP (ADJP (PFA 新)) (NP (NNB 年))) (DEC 的)) (NP (NN 计划))))))) (. 。)))
-{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
+(ROOT (IP (NP (CD 1) (NNB 月) (CD 19) (NNB 日)) (, ，) (NP (NP (NNP 法国) (NN 银行)) (NP (FW Société) (FW Générale))) (VP (VP (VV 发现)) (RB 并) (VP (VV 开始) (VP (VV 揭露) (NP (CP (CP (IP (VP (ADVP (NN 其后)) (VP (VCP (VV 称) (VC 为)) (NP (`` “) (NP (ADJP (PFA 大)) (NP (NN 规模))) (NP (VV 欺诈) (SFN 性) (NN 方向) (NN 头寸)) ('' ”))))) (DEC 的))) (QP (CD 一) (CLP (NN 系列))) (NP (NN 交易)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP19299': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD81349': {}, 'NNB65371': {}}, ',': {}, 'NP62138': {'NP': {}, 'NP73717': {}}, 'VP': {'VP': {}, 'RB': {}, 'VP13087': {}}, '.': {}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}}}
 {'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'BB': {}, 'VP': {}}}
+{'VP': {'VP': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+1	月	nummod
+月	日	clf
+19	日	nummod
+日	开始	nmod:tmod
+，	日	punct
+法国	银行	nmod
+银行	Société	nmod
+Société	开始	nsubj
+Générale	Société	flat:foreign
+发现	开始	advcl
+并	开始	mark
+开始	ROOT	root
+揭露	开始	xcomp
+其后	称	nmod:tmod
+称	交易	acl:relcl
+为	称	mark
+“	头寸	punct
+大	规模	case
+规模	头寸	nmod
+欺诈	性	compound
+性	头寸	nmod
+方向	头寸	nmod
+头寸	称	obj
+”	头寸	punct
+的	称	mark:rel
+一	系列	nummod
+系列	交易	nmod
+交易	揭露	obj
+。	开始	punct
 ----------------------------------------------------------------------
-同样在该国西南部，由于一些赞助商被迫减少资金支持，因此决定减少庆祝活动。
+一周后，法国警方逮捕了一名名叫杰罗姆·凯维耶的初级交易员，指控他通过未经授权的金融活动损失了 70 亿美元。
 
-(ROOT (IP (IP (VP (ADVP (RB 同样)) (VP (PP (VV 在) (NP (NP (NN 该国)) (NP (NN 西南) (SFN 部))))))) (, ，) (PP (IN 由于) (IP (NP (QP (JJ 一些)) (NP (VV 赞助) (SFN 商))) (VP (BB 被) (VP (VV 迫) (IP (VP (VV 减少) (NP (NN 资金) (NN 支持)))))))) (, ，) (ADVP (IN 因)) (ADVP (PRD 此)) (VP (VV 决定) (IP (VP (VV 减少) (NP (NN 庆祝) (NN 活动))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'PP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, ',': {}, 'ADVP': {'IN': {}}, 'ADVP': {'PRD': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'PP': {'IN': {}, 'IP': {}}}
-{'ADVP': {'IN': {}}}
-{'ADVP': {'PRD': {}}}
-{'VP': {'VV': {}, 'IP': {}}}
+(ROOT (IP (LCP (QP (CD 一) (CLP (NNB 周))) (IN 后)) (, ，) (NP (NP (NNP 法国)) (NP (NN 警方))) (VP (VP (VV 逮捕) (AS 了) (NP (QP (CD 一) (CLP (NNB 名))) (CP (CP (IP (NP (NN 名)) (VP (VV 叫) (NP (NNP 杰罗姆) (/ ·) (NNP 凯维耶)))) (DEC 的))) (ADJP (JJ 初级)) (NP (VV 交易) (SFN 员)))) (, ，) (VP (VV 指控) (NP (PRP 他)) (IP (VP (PP (IN 通过) (NP (DNP (PP (IN 未经) (NP (VV 授权))) (DEC 的)) (NP (NN 金融) (NN 活动)))) (VP (VV 损失) (AS 了) (QP (CD 70) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元)))))))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'QP': {}, 'IN': {}}, ',': {}, 'NP': {'NP': {}, 'NP22575': {}}, 'VP': {'VP': {}, ',': {}, 'VP27066': {}}, '.': {}}}
+{'IP': {'LCP': {'QP': {}, 'IN': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'QP': {}, 'IN': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+一	周	nummod
+周	逮捕	nmod:tmod
+后	周	case
+，	周	punct
+法国	警方	nmod
+警方	指控	nsubj
+逮捕	指控	advcl
+了	逮捕	aux
+一	名	nummod
+名	员	nmod
+名	叫	nsubj
+叫	员	acl:relcl
+杰罗姆	叫	obj
+·	凯维耶	punct
+凯维耶	杰罗姆	flat:name
+的	叫	mark:rel
+初级	员	amod
+交易	员	compound
+员	逮捕	obj
+，	逮捕	punct
+指控	ROOT	root
+他	损失	nsubj
+通过	活动	case
+未经	授权	case
+授权	活动	acl:relcl
+的	授权	mark:rel
+金融	活动	nmod
+活动	损失	obl
+损失	指控	ccomp
+了	损失	aux
+70	亿	nummod
+亿	元	nummod
+美	元	nmod
+元	损失	obj
+。	指控	punct
 ----------------------------------------------------------------------
-尽管遭遇挫折，但人们仍决心以盛大的方式迎接牛年，并希望牛年能够带来通过坚韧和辛勤劳动而获得的繁荣。
+这笔损失超过该银行的总市值，是历史上最大的此类欺诈案件。
 
-(ROOT (IP (IP (VP (ADVP (IN 尽管)) (VP (VV 遭遇) (NP (NN 挫折))))) (, ，) (ADVP (RB 但)) (NP (NN 人们)) (VP (VP (ADVP (RB 仍)) (VP (VV 决心) (IP (VP (PP (IN 以) (NP (CP (CP (IP (VP (JJ 盛大))) (DEC 的))) (NP (NN 方式)))) (VP (VV 迎接) (NP (NNP 牛) (SFN 年))))))) (, ，) (RB 并) (VP (VV 希望) (IP (NP (NNP 牛) (NNB 年)) (VP (MD 能够) (VP (VV 带来) (NP (CP (CP (IP (VP (PP (VV 通过) (NP (NP (JJ 坚韧)) (CC 和) (NP (ADJP (JJ 辛勤)) (NP (NN 劳动))))) (VP (RB 而) (VP (VV 获得))))) (DEC 的))) (NP (NN 繁荣)))))))) (. 。)))
-{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {'VP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'NN': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
-{'IP': {'VP': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'NN': {}}}
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 笔))) (NP (NN 损失))) (VP (VP (VV 超过) (NP (DNP (NP (DP (DT 该)) (NP (NN 银行))) (DEC 的)) (ADJP (PFA 总)) (NP (NN 市值)))) (, ，) (VP (VC 是) (NP (CP (CP (IP (VP (LCP (NP (NN 历史)) (IN 上)) (VP (JJ 最大)))) (DEC 的))) (ADJP (DT 此类)) (NP (NN 欺诈) (NN 案件))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP89425': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+这	笔	det
+笔	损失	clf
+损失	案件	nsubj
+超过	案件	acl
+该	银行	det
+银行	超过	obj
+的	超过	mark:rel
+总	市值	case
+市值	超过	obj
+，	超过	punct
+是	案件	cop
+历史	最大	obl
+上	历史	case
+最大	案件	amod
+的	最大	mark:rel
+此类	案件	det
+欺诈	案件	nmod
+案件	ROOT	root
+。	案件	punct
+----------------------------------------------------------------------
+但到了年底，这一数字又轻松突破了这一记录，因为美国金融家伯纳德·马多夫于 12 月 11 日被捕，被指控操纵 500 亿美元的庞兹犯罪，这种犯罪的特点是，早期投资者用后期投资者的钱偿还自己的投资。
+
+(ROOT (IP (IP (ADVP (RB 但)) (IP (VP (VV 到) (AS 了) (NP (NN 年底)))) (, ，) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 数字))) (VP (ADVP (RB 又)) (ADVP (RB 轻松)) (VP (VV 突破) (AS 了) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 记录)))))) (, ，) (IP (PP (IN 因为) (IP (NP (NP (NP (NNP 美国)) (NP (NN 金融) (SFN 家))) (NP (NNP 伯纳德) (/ ·) (NNP 马多夫))) (VP (VP (PP (IN 于) (NP (CD 12) (NNB 月 11))) (VP (BB 日被) (VP (VV 捕)))) (, ，) (VP (BB 被) (VP (VV 指控) (IP (VP (VV 操纵) (NP (DNP (QP (CD 500) (QP (NNB 亿) (CLP (NNP 美) (CLP (NNB 元))))) (DEC 的)) (NP (NNP 庞兹)) (NP (NN 犯罪)))))))))) (, ，) (NP (DNP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 犯罪))) (DEC 的)) (NP (NN 特点))) (VP (VC 是) (, ，) (IP (NP (NN 早期) (VV 投资) (SFN 者)) (VP (VP (VV 用) (NP (DNP (NP (NN 后期) (VV 投资) (SFN 者)) (DEC 的)) (NP (NN 钱偿)))) (VP (RB 还) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 投资)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP24764': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP23542': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+但	突破	mark
+到	突破	advcl
+了	到	aux
+年底	到	obj
+，	到	punct
+这	数字	det
+一	数字	nummod
+数字	突破	nsubj
+又	突破	mark
+轻松	突破	advmod
+突破	ROOT	root
+了	突破	aux
+这	记录	det
+一	记录	nummod
+记录	突破	obj
+，	是	punct
+因为	是	case
+美国	家	nmod
+金融	家	compound
+家	捕	nsubj:pass
+伯纳德	家	appos
+·	马多夫	punct
+马多夫	伯纳德	flat:name
+于	月 11	case
+12	月 11	nummod
+月 11	捕	obl
+日被	捕	aux:pass
+捕	指控	advcl
+，	捕	punct
+被	指控	aux:pass
+指控	是	ccomp
+操纵	犯罪	acl:relcl
+500	亿	nummod
+亿	元	clf
+美	元	nmod
+元	操纵	obj
+的	操纵	mark:rel
+庞兹	犯罪	nmod
+犯罪	指控	obj
+，	指控	punct
+这	种	det
+种	犯罪	clf
+犯罪	特点	nmod
+的	犯罪	case
+特点	是	nsubj
+是	突破	parataxis
+，	投资	punct
+早期	者	nmod
+投资	者	compound
+者	用	nsubj
+用	钱偿	acl:relcl
+后期	者	nmod
+投资	者	compound
+者	用	obj
+的	用	mark:rel
+钱偿	投资	nmod
+还	投资	mark
+自己	投资	det
+的	自己	case
+投资	是	obj
+。	突破	punct
+----------------------------------------------------------------------
+据称的马多夫欺诈案可能不仅仅是最大的银行欺诈案，而且是有史以来最昂贵的个人犯罪行为之一。
+
+(ROOT (IP (NP (DNP (ADVP (VV 据称)) (DEC 的)) (NP (NNP 马多夫)) (NP (VV 欺诈) (SFN 案))) (VP (VP (MD 可能) (VP (ADVP (RB 不)) (ADVP (RB 仅仅)) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 最大))) (DEC 的))) (NP (NN 银行) (VV 欺诈) (SFN 案)))))) (, ，) (RB 而且) (VP (VC 是) (NP (DNP (NP (CP (CP (IP (VP (LCP (IP (VP (VV 有) (NP (NN 史)))) (IN 以来)) (ADVP (RB 最)) (VP (JJ 昂贵)))) (DEC 的))) (NP (JJ 个人) (NN 犯罪) (NN 行为))) (DEC 之)) (NP (CD 一))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}, 'NP64788': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP33287': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}, 'NP': {}}}
 {'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+据称	案	acl:relcl
+的	据称	mark:rel
+马多夫	案	nmod
+欺诈	案	compound
+案	案	nsubj
+可能	案	aux
+不	案	advmod
+仅仅	案	advmod
+是	案	cop
+最大	案	amod
+的	最大	mark:rel
+银行	案	nmod
+欺诈	案	compound
+案	一	acl
+，	案	punct
+而且	一	mark
+是	一	cop
+有	昂贵	advcl
+史	有	obj
+以来	史	case
+最	昂贵	advmod
+昂贵	行为	acl:relcl
+的	昂贵	mark:rel
+个人	行为	amod
+犯罪	行为	nmod
+行为	一	nmod
+之	行为	case
+一	ROOT	root
+。	一	punct
+----------------------------------------------------------------------
+但是，事实上，2008 年最大的事件并不是一次性的行动，而是多年来不断积累的趋势的高潮。
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (LCP (NP (NN 事实)) (IN 上)) (, ，) (NP (CP (CP (IP (VP (NP (CD 2008)) (VP (NNB 年最大)))) (DEC 的))) (NP (NN 事件))) (VP (VP (ADVP (RB 并)) (VP (VC 不是) (NP (DNP (NP (QP (CD 一) (CLP (NNB 次))) (NP (NN 性))) (DEC 的)) (NP (NN 行动))))) (, ，) (VP (VC 而是) (NP (DNP (NP (CP (CP (IP (VP (LCP (QP (CD 多) (CLP (NNB 年))) (IN 来)) (ADVP (RB 不断)) (VP (VV 积累)))) (DEC 的))) (NP (NN 趋势))) (DEC 的)) (NP (NN 高潮))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'LCP': {}, ',75824': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'LCP': {'NP': {}, 'IN': {}}, ',54359': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP46918': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+但是	高潮	mark
+，	但是	punct
+事实	高潮	obl
+上	事实	case
+，	事实	punct
+2008	年最大	nummod
+年最大	事件	nmod
+的	年最大	case
+事件	行动	nsubj
+并	行动	mark
+是	行动	cop
+一	次	nummod
+次	行动	clf
+性	行动	nmod
+的	性	mark:rel
+行动	高潮	acl
+，	行动	punct
+是	高潮	cop
+多	年	nummod
+年	积累	nmod:tmod
+来	年	case
+不断	积累	advmod
+积累	趋势	acl:relcl
+的	积累	mark:rel
+趋势	高潮	nmod
+的	积累	mark:rel
+高潮	ROOT	root
+。	高潮	punct
+----------------------------------------------------------------------
+即使是奥巴马的当选也是长期过程的结果。
+
+(ROOT (IP (VP (ADVP (IN 即使)) (VP (VC 是) (IP (NP (DNP (NP (NNP 奥巴马)) (DEC 的)) (NP (NN 当选))) (VP (VC 也是) (NP (DNP (NP (NN 长期) (NN 过程)) (DEC 的)) (NP (NN 结果))))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+即使	是	case
+是	结果	xcomp
+奥巴马	当选	nmod
+的	奥巴马	case
+当选	结果	nsubj
+是	结果	cop
+长期	过程	nmod
+过程	结果	acl:relcl
+的	过程	mark:rel
+结果	ROOT	root
+。	结果	punct
+----------------------------------------------------------------------
+由于伊拉克战争的拖累，美国对布什总统的表现长期以来一直不满。
+
+(ROOT (IP (PP (IN 由于) (NP (DNP (NP (NP (NNP 伊拉克)) (NP (NN 战争))) (DEC 的)) (NP (NN 拖累)))) (, ，) (NP (NNP 美国)) (VP (PP (IN 对) (NP (DNP (NP (NNP 布什) (NN 总统)) (DEC 的)) (NP (NN 表现)))) (LCP (ADVP (NN 长期)) (IN 以来)) (ADVP (RB 一直)) (VP (JJ 不满))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'PP': {}, 'LCP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'PP': {}, 'LCP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'PP': {}, 'LCP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+由于	拖累	case
+伊拉克	战争	nmod
+战争	拖累	nmod
+的	战争	case
+拖累	不满	nmod
+，	拖累	punct
+美国	表现	nmod
+对	表现	case
+布什	总统	nmod
+总统	表现	nmod
+的	表现	case
+表现	不满	nsubj
+长期	不满	obl
+以来	长期	case
+一直	不满	advmod
+不满	ROOT	root
+。	不满	punct
+----------------------------------------------------------------------
+根据美国民意调查机构戈尔普民意调查的数据，布什的民意支持率在 9·11 袭击事件后的爱国热潮中达到了 90%。
+
+(ROOT (IP (PP (IN 根据) (NP (DNP (NP (NP (NP (NNP 美国)) (NP (NN 民意) (NN 调查) (NN 机构))) (NP (NNP 戈尔普)) (NP (NN 民意) (NN 调查))) (DEC 的)) (NP (NN 数据)))) (, ，) (NP (DNP (NP (NNP 布什)) (DEC 的)) (NP (NN 民意) (VV 支持) (SFN 率))) (VP (PP (IN 在) (LCP (NP (DNP (LCP (NP (QP (CD 9) (/ ·) (CD 11)) (NP (NN 袭击) (NN 事件))) (IN 后)) (DEC 的)) (ADJP (NN 爱国)) (NP (NN 热潮))) (IN 中))) (VP (VV 达到) (AS 了) (QP (CD 90%)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+根据	数据	case
+美国	机构	nmod
+民意	机构	nmod
+调查	机构	nmod
+机构	数据	nmod
+戈尔普	调查	nmod
+民意	调查	nmod
+调查	机构	appos
+的	机构	case
+数据	达到	obl
+，	数据	punct
+布什	率	nmod
+的	布什	case
+民意	率	nmod
+支持	率	compound
+率	达到	nsubj
+在	热潮	case
+9	事件	nummod
+·	9	punct
+11	事件	nummod
+袭击	事件	nmod
+事件	热潮	nmod
+后	事件	case
+的	事件	case
+爱国	热潮	nmod
+热潮	达到	obl
+中	热潮	case
+达到	ROOT	root
+了	达到	aux
+90%	达到	obj
+。	达到	punct
+----------------------------------------------------------------------
+此后，民调一直在稳步下滑，在大选前，民调支持率降至 25%。
+
+(ROOT (IP (IP (ADVP (NN 此后)) (, ，) (NP (NN 民调)) (VP (ADVP (RB 一直)) (ADVP (RB 在)) (ADVP (RB 稳步)) (VP (VV 下滑)))) (, ，) (IP (PP (IN 在) (LCP (NP (NN 大选)) (IN 前))) (, ，) (NP (NN 民调) (VV 支持) (SFN 率)) (VP (VRD (VV 降) (VV 至)) (QP (CD 25%)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP1124': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP12828': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+此后	下滑	nmod:tmod
+，	此后	punct
+民调	下滑	nsubj
+一直	下滑	advmod
+在	下滑	advmod
+稳步	下滑	advmod
+下滑	ROOT	root
+，	降	punct
+在	大选	case
+大选	降	obl
+前	大选	case
+，	大选	punct
+民调	率	nmod
+支持	率	compound
+率	降	nsubj
+降	下滑	parataxis
+至	降	mark
+25%	降	obj
+。	下滑	punct
+----------------------------------------------------------------------
+选民准备大变革 美国人似乎准备好换党执政白宫。
+
+(ROOT (IP (NP (NN 选民)) (VP (VV 准备) (NP (NP (ADJP (PFA 大)) (NP (NN 变革))) (NP (NNP 美国)) (NP (SFN 人))) (IP (VP (ADVP (RB 似乎)) (VP (VV 准备) (IP (VP (VP (VV 好换) (NP (NN 党))) (VP (VV 执政) (NP (NNP 白宫))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
+Dependency Features:
+选民	准备	nsubj
+准备	ROOT	root
+大	变革	case
+变革	人	nmod
+美国	人	compound
+人	准备	nsubj
+似乎	准备	advmod
+准备	准备	ccomp
+好换	准备	xcomp
+党	执政	nsubj
+执政	好换	ccomp
+白宫	执政	obj
+。	准备	punct
+----------------------------------------------------------------------
+不是说共和党没有尝试过——记得朱利安尼吗，他坚持认为自己会在 1 月 29 日的佛罗里达州共和党初选中获胜，因为佛罗里达州有很多退休的纽约人吗？
+
+(ROOT (IP (CP (IP (VP (VC 不是) (VP (VV 说) (IP (NP (NN 共和) (SFN 党)) (VP (VV 没有) (VP (VV 尝试) (VV 过—) (HYPH —) (VP (VV 记得) (NP (NNP 朱) (NNP 利安尼))))))))) (UH 吗)) (, ，) (IP (NP (PRP 他)) (VP (ADVP (VV 坚持)) (VP (VV 认为) (IP (NP (PRD 自己)) (VP (MD 会) (VP (PP (IN 在) (LCP (NP (NP (DNP (NP (CD 1) (NNB 月) (CD 29) (NNB 日)) (DEC 的)) (NP (NNP 佛罗里达) (SFN 州) (NN 共和) (SFN 党))) (NP (IN 初))) (VV 选中))) (VP (VV 获胜)))))))) (, ，) (CP (PP (IN 因为) (IP (NP (NNP 佛罗里达) (SFN 州)) (VP (VV 有) (NP (QP (CD 很多)) (CP (CP (IP (VP (VV 退休))) (DEC 的))) (NP (NNP 纽约)) (NP (SFN 人)))))) (UH 吗)) (. ？)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'IP': {}, ',38165': {}, 'CP73095': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'IP': {}, ',': {}, 'CP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'IP': {}, 'UH': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',38157': {}, 'CP49025': {'PP': {}, 'UH': {}}, '.': {}}}
+{'IP': {'CP': {'IP': {}, 'UH': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'CP': {'PP': {}, 'UH': {}}, '.': {}}}
+{'CP': {'IP': {}, 'UH': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'CP': {'PP': {}, 'UH': {}}}
+Dependency Features:
+是	ROOT	root
+说	是	xcomp
+共和	党	compound
+党	有	nsubj
+有	说	ccomp
+尝试	有	xcomp
+过—	尝试	obj
+—	记得	punct
+记得	尝试	xcomp
+朱	记得	obj
+利安尼	朱	flat:name
+吗	有	discourse
+，	坚持	punct
+他	坚持	nsubj
+坚持	是	parataxis
+为	坚持	xcomp
+自己	选中	nsubj
+会	选中	aux
+在	党	case
+1	月	nummod
+月	日	clf
+29	日	nummod
+日	党	nmod
+的	日	mark:rel
+佛罗里达	州	compound
+州	党	nmod
+共和	党	compound
+党	选中	obl
+初	党	case
+选中	为	ccomp
+获胜	选中	xcomp
+，	有	punct
+因为	有	case
+佛罗里达	州	compound
+州	有	nsubj
+有	为	ccomp
+很多	人	nummod
+退休	人	acl:relcl
+的	退休	mark:rel
+纽约	人	compound
+人	有	obj
+吗	有	discourse
+？	是	punct
+----------------------------------------------------------------------
+他被折腾了。
+
+(ROOT (IP (NP (PRP 他)) (VP (BB 被) (VP (VV 折腾) (UH 了))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'BB': {}, 'VP': {}}}
+Dependency Features:
+他	折腾	nsubj:pass
+被	折腾	aux:pass
+折腾	ROOT	root
+了	折腾	discourse
+。	折腾	punct
+----------------------------------------------------------------------
+而米特·罗姆尼有钱有头发，但最终没有足够的支持者。
+
+(ROOT (IP (NP (NNP 而米特) (/ ·) (NNP 罗姆尼)) (VP (VP (VP (VV 有) (NP (NN 钱))) (VP (VV 有) (NP (NN 头发)))) (, ，) (VP (ADVP (RB 但)) (ADVP (NN 最终)) (VP (VV 没有) (NP (CP (CP (IP (VP (JJ 足够))) (DEC 的))) (NP (VV 支持) (SFN 者)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP63818': {}}, 'VP': {'VP': {}, ',': {}, 'VP80420': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+而米特	有	nsubj
+·	罗姆尼	punct
+罗姆尼	而米特	flat:name
+有	有	advcl
+钱	有	nsubj
+有	有	ccomp
+头发	有	obj
+，	有	punct
+但	有	mark
+最终	有	nmod:tmod
+有	ROOT	root
+足够	者	amod
+的	足够	mark:rel
+支持	者	compound
+者	有	obj
+。	有	punct
+----------------------------------------------------------------------
+希拉里·克林顿努力拼搏，但最终她未能战胜奥巴马在议会选区的强大组织，也未能战胜民主党按比例分配代表的无情算计。
+
+(ROOT (IP (IP (NP (NNP 希拉里) (/ ·) (NNP 克林顿)) (VP (ADVP (VV 努力)) (VP (VV 拼搏)))) (, ，) (IP (ADVP (RB 但)) (ADVP (NN 最终)) (NP (PRP 她)) (VP (VP (MD 未能) (VP (VV 战胜) (NP (NP (NNP 奥巴马)) (DNP (PP (VV 在) (NP (NN 议会) (NN 选区))) (DEC 的)) (ADJP (JJ 强大)) (NP (NN 组织))))) (, ，) (VP (ADVP (RB 也)) (VP (MD 未能) (VP (VV 战胜) (NP (CP (IP (NP (NN 民主) (SFN 党)) (VP (PP (IN 按) (NP (NN 比例))) (VP (VV 分配) (NP (NN 代表))))) (DEC 的)) (ADJP (JJ 无情)) (NP (NN 算计)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP73249': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP9699': {'ADVP': {}, 'ADVP66217': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+希拉里	努力	nsubj
+·	克林顿	punct
+克林顿	希拉里	flat:name
+努力	ROOT	root
+拼搏	努力	xcomp
+，	战胜	punct
+但	战胜	mark
+最终	战胜	nmod:tmod
+她	战胜	nsubj
+能	战胜	aux
+战胜	战胜	advcl
+奥巴马	在	nsubj
+在	组织	acl:relcl
+议会	选区	nmod
+选区	在	obj
+的	在	mark:rel
+强大	组织	amod
+组织	战胜	obj
+，	战胜	punct
+也	战胜	mark
+能	战胜	aux
+战胜	努力	parataxis
+民主	党	compound
+党	分配	nsubj
+按	比例	case
+比例	分配	obl
+分配	算计	acl:relcl
+代表	分配	obj
+的	分配	mark:rel
+无情	算计	amod
+算计	战胜	obj
+。	努力	punct
+----------------------------------------------------------------------
+尽管候选人的承诺和选民的希望，选举之夜却充满了政治的激烈气氛。
+
+(ROOT (CP (ADVP (IN 尽管)) (IP (NP (NP (DNP (NP (VV 候选) (SFN 人)) (DEC 的)) (NP (NN 承诺))) (CC 和) (NP (DNP (NP (NN 选民)) (DEC 的)) (NP (NN 希望)))) (, ，) (NP (DNP (NP (NN 选举)) (DEC 之)) (NP (NN 夜))) (VP (ADVP (RB 却)) (VP (VV 充满) (AS 了) (NP (DNP (NP (NN 政治)) (DEC 的)) (ADJP (JJ 激烈)) (NP (NN 气氛)))))) (. 。)))
+layer 2:
+{'CP': {'ADVP': {}, 'IP': {}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'CP': {'ADVP': {'IN': {}}, 'IP': {'NP': {}, ',': {}, 'NP52473': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {'IN': {}}, 'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'IN': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+尽管	承诺	case
+候选	人	compound
+人	承诺	nmod
+的	人	case
+承诺	充满	obl
+和	希望	cc
+选民	希望	nmod
+的	选民	case
+希望	承诺	conj
+，	承诺	punct
+选举	夜	nmod
+之	选举	case
+夜	充满	nsubj
+却	充满	mark
+充满	ROOT	root
+了	充满	aux
+政治	气氛	nmod
+的	政治	case
+激烈	气氛	amod
+气氛	充满	obj
+。	充满	punct
+----------------------------------------------------------------------
+作为一个人民党人，候选人约翰·麦凯恩 (John McCain) 的败选讲话很有礼貌，他承认了当时的历史。
+
+(ROOT (IP (IP (PP (VV 作) (PP (VC 为) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 人民) (SFN 党) (SFN 人))))) (, ，) (NP (DNP (NP (NP (VV 候选) (SFN 人)) (NP (NNP 约翰) (/ ·) (NNP 麦凯恩) (FW -LRB-John) (FW Mc) (FW Cain-RRB-))) (DEC 的)) (NP (NN 败选) (NN 讲话))) (VP (ADVP (RB 很)) (VP (VV 有) (NP (NN 礼貌))))) (, ，) (IP (NP (PRP 他)) (VP (VV 承认) (AS 了) (NP (DNP (NP (NN 当时)) (DEC 的)) (NP (NN 历史))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP93843': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP36722': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+作	有	advcl
+为	作	mark
+一	个	nummod
+个	人	nmod
+人民	党	compound
+党	人	compound
+人	作	obj
+，	作	punct
+候选	人	compound
+人	讲话	nmod
+约翰	人	appos
+·	麦凯恩	punct
+麦凯恩	约翰	flat:name
+(John	约翰	appos
+Mc	(John	flat:foreign
+Cain)	(John	flat:foreign
+的	(John	case
+败选	讲话	nmod
+讲话	有	nsubj
+很	有	advmod
+有	ROOT	root
+礼貌	有	obj
+，	承认	punct
+他	承认	nsubj
+承认	有	parataxis
+了	承认	aux
+当时	历史	nmod
+的	当时	case
+历史	承认	obj
+。	有	punct
+----------------------------------------------------------------------
+巧合的是，伊拉克在选举之后变得更好。
+
+(ROOT (IP (NP (CP (CP (IP (VP (JJ 巧合))) (DEC 的)))) (VP (VC 是) (, ，) (IP (NP (NNP 伊拉克)) (VP (PP (IN 在) (LCP (NP (NN 选举)) (IN 之后))) (VP (VV 变得) (VP (JJ 更好)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+巧合	是	csubj
+的	巧合	mark:rel
+是	ROOT	root
+，	变得	punct
+伊拉克	变得	nsubj
+在	选举	case
+选举	更好	nmod
+之后	选举	case
+变得	是	ccomp
+更好	变得	xcomp
+。	是	punct
+----------------------------------------------------------------------
+布什总统的部队增援加上前苏丹叛乱分子加入美国赞助的伊拉克之子民兵组织，大大减少了该国的暴力事件。
+
+(ROOT (IP (NP (NP (DNP (NP (NNP 布什) (NN 总统)) (DEC 的)) (NP (NN 部队))) (NP (VV 增援))) (VP (VP (VV 加上) (IP (NP (ADJP (PFA 前)) (NP (NNP 苏丹)) (NP (NN 叛乱) (NN 分子))) (VP (VV 加入) (NP (CP (CP (IP (NP (NNP 美国)) (VP (VV 赞助))) (DEC 的))) (NP (NP (NNP 伊拉克)) (NP (NN 之子))) (NP (NN 民兵) (NN 组织)))))) (, ，) (VP (ADVP (RB 大大)) (VP (VV 减少) (AS 了) (NP (DNP (NP (NN 该国)) (DEC 的)) (NP (NN 暴力) (NN 事件)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP60342': {}}, 'VP': {'VP': {}, ',': {}, 'VP7785': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+布什	总统	nmod
+总统	部队	nmod
+的	总统	case
+部队	减少	nsubj
+增援	减少	advcl
+加上	增援	xcomp
+前	分子	case
+苏丹	分子	nmod
+叛乱	分子	nmod
+分子	加入	nsubj
+加入	加上	ccomp
+美国	赞助	nsubj
+赞助	加入	ccomp
+的	加入	mark:rel
+伊拉克	组织	nmod
+之子	组织	nmod
+民兵	组织	nmod
+组织	增援	obj
+，	增援	punct
+大大	减少	advmod
+减少	ROOT	root
+了	减少	aux
+该国	事件	nmod
+的	该国	case
+暴力	事件	nmod
+事件	减少	obj
+。	减少	punct
+----------------------------------------------------------------------
+11 月，布什政府与伊拉克政府达成了一项具有里程碑意义的协议，规定到 2011 年美国部队将撤离伊拉克。
+
+(ROOT (IP (IP (NP (CD 11) (NNB 月)) (, ，) (NP (NP (NP (NNP 布什)) (NP (NN 政府))) (IN 与) (NP (NP (NNP 伊拉克)) (NP (NN 政府)))) (VP (VV 达成) (AS 了) (NP (QP (CD 一) (CLP (NNB 项))) (CP (CP (IP (VP (VV 具有) (NP (NN 里程) (SFN 碑) (NN 意义)))) (DEC 的))) (NP (NN 协议))))) (, ，) (IP (VP (VV 规定) (IP (PP (IN 到) (NP (CD 2011) (NNB 年))) (NP (NP (NNP 美国)) (NP (NN 部队))) (VP (ADVP (RB 将)) (VP (VV 撤离) (NP (NNP 伊拉克))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP73178': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP64116': {}, 'VP': {}}, ',': {}, 'IP50741': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+11	月	nummod
+月	达成	nmod:tmod
+，	月	punct
+布什	政府	nmod
+政府	达成	nsubj
+与	政府	case
+伊拉克	政府	nmod
+政府	达成	obl
+达成	规定	advcl
+了	达成	aux
+一	项	nummod
+项	协议	clf
+具有	协议	acl:relcl
+里程	碑	compound
+碑	意义	nmod
+意义	具有	obj
+的	具有	mark:rel
+协议	达成	obj
+，	达成	punct
+规定	ROOT	root
+到	年	case
+2011	年	nummod
+年	撤离	obl
+美国	部队	nmod
+部队	撤离	nsubj
+将	撤离	advmod
+撤离	规定	ccomp
+伊拉克	撤离	obj
+。	规定	punct
+----------------------------------------------------------------------
+从 2009 年 1 月 1 日起，伊拉克人将控制绿区，这是巴格达的一个扩张区，美国自 2003 年入侵伊拉克以来一直在这里运作。
+
+(ROOT (IP (IP (PP (IN 从) (LCP (NP (CD 2009) (NNB 年 1) (CD 月 1)) (NNB 日起))) (, ，) (NP (NP (NNP 伊拉克)) (NP (SFN 人))) (VP (ADVP (RB 将)) (VP (VV 控制) (NP (NN 绿区))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (DNP (NP (NNP 巴格达)) (DEC 的)) (QP (CD 一) (CLP (NNB 个))) (NP (VV 扩张) (SFN 区))))) (, ，) (IP (NP (NNP 美国)) (VP (PP (IN 自) (LCP (IP (VP (NP (CD 2003)) (VP (NNB 年入侵) (NP (NNP 伊拉克))))) (IN 以来))) (ADVP (RB 一直)) (PP (VV 在) (NP (PRD 这里))) (VP (VV 运作)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP77852': {}, ',20214': {}, 'IP86828': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP68670': {'NP': {}, 'VP': {}}, ',70902': {}, 'IP6719': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+从	日起	case
+2009	年 1	nummod
+年 1	日起	clf
+月 1	日起	nummod
+日起	控制	obl
+，	日起	punct
+伊拉克	人	compound
+人	控制	nsubj
+将	控制	advmod
+控制	ROOT	root
+绿区	控制	obj
+，	区	punct
+这	区	nsubj
+是	区	cop
+巴格达	区	nmod
+的	巴格达	case
+一	个	nummod
+个	区	nmod
+扩张	区	compound
+区	控制	parataxis
+，	运作	punct
+美国	运作	nsubj
+自	年入侵	case
+2003	年入侵	nummod
+年入侵	运作	obl
+伊拉克	年入侵	appos
+以来	年入侵	case
+一直	运作	advmod
+在	运作	advcl
+这里	在	obj
+运作	控制	parataxis
+。	控制	punct
+----------------------------------------------------------------------
+对美国选民来说，对经济的担忧已经超过对伊拉克稳定的担忧。
+
+(ROOT (IP (IP (VP (PP (IN 对) (NP (NP (NNP 美国)) (NP (NN 选民)))) (VP (RB 来) (VP (VV 说))))) (, ，) (NP (DNP (PP (IN 对) (NP (NN 经济))) (DEC 的)) (NP (NN 担忧))) (VP (ADVP (RB 已经)) (VP (VV 超过) (NP (DNP (NP (PP (IN 对) (NP (NNP 伊拉克))) (NP (JJ 稳定))) (DEC 的)) (NP (NN 担忧))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+对	选民	case
+美国	选民	nmod
+选民	说	obl
+来	说	mark
+说	ROOT	root
+，	超过	punct
+对	担忧	case
+经济	担忧	nmod
+的	担忧	case
+担忧	超过	nsubj
+已经	超过	advmod
+超过	说	ccomp
+对	伊拉克	case
+伊拉克	稳定	nmod
+稳定	担忧	acl:relcl
+的	稳定	mark:rel
+担忧	超过	obj
+。	说	punct
+----------------------------------------------------------------------
+在十二月底，77% 的哈撒韦民意调查的受访者表示他们对经济状况持负面看法。
+
+(ROOT (IP (PP (IN 在) (LCP (NP (CD 十二) (NNB 月)) (IN 底))) (, ，) (NP (DNP (NP (DNP (QP (CD 77%)) (DEC 的)) (NP (NNP 哈撒韦)) (NP (NN 民意) (NN 调查))) (DEC 的)) (NP (VV 受访) (SFN 者))) (VP (VV 表示) (IP (NP (PRP 他们)) (VP (PP (IN 对) (NP (NN 经济) (NN 状况))) (VP (VV 持) (NP (ADJP (JJ 负面)) (NP (NN 看法))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+在	月	case
+十二	月	nummod
+月	表示	obl
+底	月	case
+，	月	punct
+77%	调查	nummod
+的	77%	mark:rel
+哈撒韦	调查	nmod
+民意	调查	nmod
+调查	者	nmod
+的	调查	case
+受访	者	compound
+者	表示	nsubj
+表示	ROOT	root
+他	持	nsubj
+对	状况	case
+经济	状况	nmod
+状况	持	obl
+持	表示	ccomp
+负面	看法	amod
+看法	持	obj
+。	表示	punct
+----------------------------------------------------------------------
+对于那些对经济持积极态度的人来说，这一数字是多少？
+
+(ROOT (IP (IP (VP (PP (IN 对于) (NP (DP (DT 那些)) (CP (CP (IP (VP (PP (IN 对) (NP (NN 经济))) (VP (VV 持) (NP (ADJP (JJ 积极)) (NP (NN 态度)))))) (DEC 的))) (NP (NN 人)))) (VP (RB 来) (VP (VV 说))))) (, ，) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 数字))) (VP (VC 是) (QP (CD 多少))) (. ？)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'QP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'QP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'QP': {}}}
+Dependency Features:
+对于	人	case
+那些	人	det
+对	经济	case
+经济	持	obl
+持	人	acl:relcl
+积极	态度	amod
+态度	持	obj
+的	持	mark:rel
+人	说	obl
+来	说	mark
+说	ROOT	root
+，	多少	punct
+这	数字	det
+一	数字	nummod
+数字	多少	nsubj
+是	多少	cop
+多少	说	ccomp
+？	多少	punct
+----------------------------------------------------------------------
+三个百分点。低于一位数。
+
+(ROOT (NP (QP (CD 三) (CLP (NNB 个))) (QP (CD 百)) (NP (NN 分点)) (. 。)))
+layer 2:
+{'NP': {'QP': {}, 'QP65655': {}, 'NP': {}, '.': {}}}
+{'NP': {'QP': {}, 'QP': {}, 'NP': {}, '.': {}}}
+layer 3:
+{'NP': {'QP': {'CD': {}, 'CLP': {}}, 'QP51198': {'CD': {}}, 'NP': {'NN': {}}, '.': {}}}
+{'NP': {'QP': {'CD': {}, 'CLP': {}}, 'QP': {'CD': {}}, 'NP': {'NN': {}}, '.': {}}}
+{'QP': {'CD': {}, 'CLP': {}}}
+{'QP': {'CD': {}}}
+{'NP': {'NN': {}}}
+Dependency Features:
+三	个	nummod
+个	分点	clf
+百	分点	nummod
+分点	ROOT	root
+。	分点	punct
+----------------------------------------------------------------------
+回顾当下的困境，其原因似乎很明显。
+
+(ROOT (IP (IP (VP (VV 回顾) (NP (DNP (NP (NN 当下)) (DEC 的)) (NP (NN 困境))))) (, ，) (NP (NP (PRP 其)) (NP (NN 原因))) (VP (ADVP (RB 似乎)) (ADVP (RB 很)) (VP (JJ 明显))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NP': {}, 'NP73032': {}}, 'VP': {'ADVP': {}, 'ADVP27897': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+回顾	困境	acl:relcl
+当下	回顾	obj
+的	回顾	mark:rel
+困境	明显	nmod
+，	困境	punct
+其	原因	nmod
+原因	明显	nsubj
+似乎	明显	advmod
+很	明显	advmod
+明显	ROOT	root
+。	明显	punct
+----------------------------------------------------------------------
+由于放贷和借贷行为失职，房价上涨过高。
+
+(ROOT (IP (PP (IN 由于) (IP (NP (NP (NN 放贷) (CC 和) (NN 借贷)) (NP (NN 行为))) (VP (JJ 失职)))) (, ，) (NP (NN 房价) (VV 上涨)) (VP (JJ 过高)) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'NN': {}, 'VV': {}}, 'VP': {'JJ': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'NN': {}, 'VV': {}}, 'VP': {'JJ': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'NN': {}, 'VV': {}}}
+{'VP': {'JJ': {}}}
+Dependency Features:
+由于	失职	case
+放贷	失职	nsubj
+和	行为	cc
+借贷	行为	nmod
+行为	放贷	conj
+失职	过高	ccomp
+，	失职	punct
+房价	上涨	nsubj
+上涨	过高	csubj
+过高	ROOT	root
+。	过高	punct
+----------------------------------------------------------------------
+泡沫破灭，拖累了全球消费者支出和经济。
+
+(ROOT (IP (IP (NP (NN 泡沫)) (VP (VV 破灭))) (, ，) (VP (VV 拖累) (AS 了) (NP (NP (NN 全球) (VV 消费) (SFN 者)) (NP (NN 支出) (CC 和) (NN 经济)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+泡沫	破灭	nsubj
+破灭	拖累	csubj
+，	破灭	punct
+拖累	ROOT	root
+了	拖累	aux
+全球	支出	nmod
+消费	者	compound
+者	支出	nmod
+支出	拖累	obj
+和	经济	cc
+经济	支出	conj
+。	拖累	punct
+----------------------------------------------------------------------
+崇尚自由市场魔力的人们正在退却。
+
+(ROOT (IP (NP (CP (CP (IP (VP (VV 崇尚) (NP (NP (NN 自由) (NN 市场)) (NP (NN 魔力))))) (DEC 的))) (NP (NN 人们))) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 退却))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP94933': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+崇尚	人	acl:relcl
+自由	市场	nmod
+市场	魔力	nmod
+魔力	崇尚	obj
+的	崇尚	mark:rel
+人	退却	nsubj
+正	退却	advmod
+在	退却	advmod
+退却	ROOT	root
+。	退却	punct
+----------------------------------------------------------------------
+前美联储主席亚历山大·格林斯潘于十月向国会承认，他发现自己的理念有“漏洞”，对于放贷机构未能防范破产可能性，他“震惊不已”。
+
+(ROOT (IP (NP (NP (ADJP (PFA 前)) (NP (NNP 美联) (SFN 储)) (NP (NN 主席))) (NP (NNP 亚历山大) (/ ·) (NNP 格林斯) (NNP 潘))) (VP (PP (IN 于) (NP (QP (CD 十)) (NP (NNB 月)))) (PP (IN 向) (NP (NN 国会))) (VP (VV 承认) (, ，) (IP (IP (NP (PRP 他)) (VP (VP (VV 发现) (IP (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 理念))) (VP (VV 有) (NP (`` “) (NN 漏洞) ('' ”))))) (, ，) (VP (PP (IN 对于) (IP (NP (NN 放贷) (NN 机构)) (VP (MD 未能) (VP (VV 防范) (NP (NN 破产)))))) (VP (MD 可能) (NP (SFN 性)))))) (, ，) (IP (NP (PRP 他)) (VP (`` “) (VV 震惊) (ADVP (JJ 不已)) ('' ”)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP2739': {}}, 'VP': {'PP': {}, 'PP65645': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+前	主席	case
+美联	储	compound
+储	主席	nmod
+主席	承认	nsubj
+亚历山大	主席	appos
+·	格林斯	punct
+格林斯	亚历山大	flat:name
+潘	主席	appos
+于	月	case
+十	月	nummod
+月	承认	obl
+向	国会	case
+国会	承认	obl
+承认	ROOT	root
+，	防范	punct
+他	发现	nsubj
+发现	防范	advcl
+自己	理念	det
+的	自己	case
+理念	有	nsubj
+有	发现	ccomp
+“	漏洞	punct
+漏洞	有	obj
+”	漏洞	punct
+，	发现	punct
+对于	机构	case
+放贷	机构	nmod
+机构	防范	obl
+能	防范	aux
+防范	震惊	advcl
+破产	性	nmod
+可能	性	aux
+性	防范	obj
+，	防范	punct
+他	震惊	nsubj
+“	震惊	punct
+震惊	承认	ccomp
+不已	震惊	xcomp
+”	震惊	punct
+。	承认	punct
+----------------------------------------------------------------------
+在美国，金融危机的转折点似乎是九月份的雷曼兄弟破产事件，银行贷款受到冻结，银行机构因为害怕下一个会是谁而退缩。
+
+(ROOT (IP (IP (PP (VV 在) (NP (NNP 美国))) (, ，) (NP (DNP (NP (NN 金融) (NN 危机)) (DEC 的)) (NP (VV 转折) (SFN 点))) (VP (ADVP (RB 似乎)) (VP (VC 是) (NP (DNP (NP (NP (QP (CD 九)) (NP (NNB 月))) (NP (NNB 份))) (DEC 的)) (NP (NNP 雷曼) (NN 兄弟)) (NP (NN 破产) (NN 事件)))))) (, ，) (IP (NP (NN 银行) (VV 贷) (SFN 款)) (VP (VV 受到) (NP (NN 冻结)))) (, ，) (IP (NP (NN 银行) (NN 机构)) (VP (PP (IN 因为) (IP (VP (VV 害怕) (IP (DP (DT 下) (QP (CD 一) (CLP (NNB 个)))) (VP (MD 会) (VP (VP (VC 是) (NP (WP 谁))) (VP (RB 而) (VP (VV 退缩))))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP19303': {}, ',48533': {}, 'IP58238': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP55383': {'NP': {}, 'VP': {}}, ',15486': {}, 'IP73217': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+在	事件	acl
+美国	在	obj
+，	在	punct
+金融	危机	nmod
+危机	点	nmod
+的	危机	case
+转折	点	compound
+点	事件	nsubj
+似乎	事件	advmod
+是	事件	cop
+九	月	nummod
+月	份	clf
+份	事件	nmod
+的	份	mark:rel
+雷曼	事件	nmod
+兄弟	事件	nmod
+破产	事件	nmod
+事件	ROOT	root
+，	受到	punct
+银行	款	nmod
+贷	款	compound
+款	受到	nsubj
+受到	事件	parataxis
+冻结	受到	obj
+，	退缩	punct
+银行	机构	nmod
+机构	退缩	nsubj
+因为	害怕	case
+害怕	退缩	xcomp
+下	个	det
+一	个	nummod
+个	谁	nmod
+会	退缩	aux
+是	谁	cop
+谁	害怕	ccomp
+而	退缩	mark
+退缩	事件	parataxis
+。	事件	punct
+----------------------------------------------------------------------
+但在美国之外，其他国家可能会指向冰岛，这个整个国家都被过度扩张的银行业毁掉的国家。
+
+(ROOT (IP (ADVP (RB 但)) (PP (IN 在) (LCP (NP (NNP 美国)) (IN 之外))) (, ，) (NP (DP (DT 其他)) (NP (NN 国家))) (VP (MD 可能) (VP (MD 会) (VP (VV 指) (NP (CP (CP (IP (NP (CP (CP (IP (PP (IN 向) (NP (NNP 冰岛))) (, ，) (NP (DP (DT 这) (CLP (NNB 个))) (DP (DT 整个)) (NP (NN 国家))) (VP (ADVP (RB 都)) (VP (BB 被) (VP (ADVP (RB 过度)) (VP (VV 扩张)))))) (DEC 的))) (NP (NN 银行) (SFN 业))) (VP (VV 毁掉))) (DEC 的))) (NP (NN 国家)))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+但	指	mark
+在	美国	case
+美国	指	obl
+之外	美国	case
+，	美国	punct
+其他	国家	det
+国家	指	nsubj
+可能	指	aux
+会	指	aux
+指	ROOT	root
+向	冰岛	case
+冰岛	毁掉	obl
+，	冰岛	punct
+这	个	det
+个	国家	clf
+整个	国家	det
+国家	毁掉	nsubj
+都	扩张	mark
+被	扩张	aux:pass
+过度	扩张	advmod
+扩张	业	acl:relcl
+的	扩张	mark:rel
+银行	业	compound
+业	毁掉	nsubj
+毁掉	国家	acl:relcl
+的	毁掉	mark:rel
+国家	指	obj
+。	指	punct
+----------------------------------------------------------------------
+世界经济增长整体水平现在看来肯定会低于 3%，这一水平是世界银行将全球技术性衰退的评级。
+
+(ROOT (IP (IP (NP (NP (NN 世界) (NN 经济) (NN 增长)) (NP (NN 整体) (NN 水平))) (VP (NP (NN 现在)) (VP (VV 看来) (VP (ADVP (RB 肯定)) (VP (MD 会) (VP (JJ 低) (PP (VV 于) (QP (CD 3%))))))))) (, ，) (IP (NP (DP (DT 这) (QP (CD 一))) (NP (NN 水平))) (VP (VC 是) (NP (CP (CP (IP (NP (NN 世界) (NN 银行)) (VP (BB 将) (IP (NP (NN 全球) (NN 技术) (SFN 性)) (VP (VV 衰退))))) (DEC 的))) (NP (NN 评级))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP79846': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP16871': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+世界	水平	nmod
+经济	水平	nmod
+增长	水平	nmod
+整体	水平	nmod
+水平	看来	nsubj
+现在	看来	nmod:tmod
+看来	低	csubj
+肯定	低	advmod
+会	低	aux
+低	ROOT	root
+于	低	mark
+3%	低	obj
+，	评级	punct
+这	水平	det
+一	水平	nummod
+水平	评级	nsubj
+是	评级	cop
+世界	银行	nmod
+银行	衰退	nsubj
+将	性	case
+全球	性	nmod
+技术	性	compound
+性	衰退	obl:patient
+衰退	评级	acl:relcl
+的	衰退	mark:rel
+评级	低	parataxis
+。	低	punct
+----------------------------------------------------------------------
+然而，一些新兴国家认为，发达国家的困难是机遇。
+
+(ROOT (IP (ADVP (RB 然而)) (, ，) (NP (QP (JJ 一些)) (ADJP (NN 新兴)) (NP (NN 国家))) (VP (VV 认为) (, ，) (IP (NP (DNP (NP (ADJP (JJ 发达)) (NP (NN 国家))) (DEC 的)) (NP (NN 困难))) (VP (VC 是) (NP (NN 机遇))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'QP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'QP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'QP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+然而	为	mark
+，	然而	punct
+一些	国家	amod
+新兴	国家	nmod
+国家	为	nsubj
+为	ROOT	root
+，	机遇	punct
+发达	国家	amod
+国家	困难	nmod
+的	国家	case
+困难	机遇	nsubj
+是	机遇	cop
+机遇	为	ccomp
+。	为	punct
+----------------------------------------------------------------------
+中国进入超级大国行列
+
+(ROOT (IP (NP (NNP 中国)) (VP (VV 进入) (NP (NP (ADJP (JJ 超级)) (NP (NN 大国))) (NP (NN 行列))))))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, 'NP': {}}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, 'NP': {}}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+中国	进入	nsubj
+进入	ROOT	root
+超级	行列	amod
+大国	行列	nmod
+行列	进入	obj
+----------------------------------------------------------------------
+但鉴于当前美国式自由市场的声誉不佳，加上中国拥有大量的美元储备，北京的崛起可能会因为 2008 年的金融危机而加速。
+
+(ROOT (IP (ADVP (RB 但)) (VP (VV 鉴) (PP (VV 于) (IP (IP (NP (NN 当前)) (NP (DNP (NP (NP (NNP 美国)) (ADJP (SFN 式)) (NP (NN 自由) (NN 市场))) (DEC 的)) (NP (NN 声誉))) (VP (JJ 不佳))) (, ，) (IP (VP (VV 加上) (IP (NP (NNP 中国)) (VP (VV 拥有) (NP (DNP (QP (JJ 大量)) (DEC 的)) (NP (NN 美元) (NN 储备))))))) (, ，) (NP (DNP (NP (NNP 北京)) (DEC 的)) (NP (NN 崛起))) (VP (MD 可能) (VP (MD 会) (VP (PP (IN 因为) (NP (DNP (NP (CD 2008) (NNB 年)) (DEC 的)) (NP (NN 金融) (NN 危机)))) (VP (RB 而) (VP (VV 加速))))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'VP': {'VV': {}, 'PP': {}}}
+Dependency Features:
+但	加上	mark
+鉴	加上	csubj
+于	鉴	mark
+当前	市场	nmod
+美国	式	compound
+式	市场	nmod
+自由	市场	nmod
+市场	不佳	nsubj
+的	市场	case
+声誉	不佳	nsubj
+不佳	鉴	ccomp
+，	鉴	punct
+加上	ROOT	root
+中国	拥有	nsubj
+拥有	加上	ccomp
+大量	储备	amod
+的	大量	mark:rel
+美元	储备	nmod
+储备	拥有	obj
+，	拥有	punct
+北京	崛起	nmod
+的	北京	case
+崛起	加速	nsubj
+可能	加速	aux
+会	加速	aux
+因为	危机	case
+2008	年	nummod
+年	危机	nmod
+的	年	case
+金融	危机	nmod
+危机	加速	obl
+而	加速	mark
+加速	加上	ccomp
+。	加速	punct
+----------------------------------------------------------------------
+同时，中国奥运会展示了三十年的国家发展 — — 以及中国对不同意见的残酷压制。
+
+(ROOT (IP (ADVP (NN 同时)) (, ，) (NP (NNP 中国) (NNP 奥运) (SFN 会)) (VP (VV 展示) (AS 了) (NP (NP (DNP (QP (CD 三十) (CLP (NNB 年))) (DEC 的)) (NP (NN 国家) (NN 发展))) (EC — —) (CC 以及) (NP (NP (NNP 中国)) (DNP (PP (IN 对) (NP (ADJP (JJ 不同)) (NP (NN 意见)))) (DEC 的)) (ADJP (JJ 残酷)) (NP (NN 压制))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'NNP': {}, 'NNP28465': {}, 'SFN': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'NNP': {}, 'NNP': {}, 'SFN': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'ADVP': {'NN': {}}}
+{'NP': {'NNP': {}, 'NNP': {}, 'SFN': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+同时	展示	nmod:tmod
+，	同时	punct
+中国	会	nmod
+奥运	会	compound
+会	展示	nsubj
+展示	ROOT	root
+了	展示	aux
+三十	年	nummod
+年	发展	nmod
+的	年	mark:rel
+国家	发展	nmod
+发展	展示	obj
+— —	压制	punct
+以及	压制	cc
+中国	压制	nmod
+对	压制	case
+不同	意见	amod
+意见	压制	nmod
+的	压制	case
+残酷	压制	amod
+压制	发展	conj
+。	展示	punct
+----------------------------------------------------------------------
+世界其他地方，纽约爱乐乐团在朝鲜演出（二月）。
+
+(ROOT (IP (NP (NP (NN 世界)) (DP (DT 其他)) (NP (NN 地方))) (, ，) (NP (NNP 纽约) (NN 爱乐) (NN 乐团)) (VP (PP (VV 在) (NP (NNP 朝鲜))) (VP (VV 演出))) (PRN (-LRB- （) (NP (QP (CD 二)) (NP (NNB 月))) (-RRB- ）)) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP32290': {}, 'VP': {}, 'PRN': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, 'PRN': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'DP': {}, 'NP78266': {}}, ',': {}, 'NP25061': {'NNP': {}, 'NN': {}, 'NN62581': {}}, 'VP': {'PP': {}, 'VP': {}}, 'PRN': {'-LRB-': {}, 'NP': {}, '-RRB-': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'DP': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}, 'NN': {}, 'NN': {}}, 'VP': {'PP': {}, 'VP': {}}, 'PRN': {'-LRB-': {}, 'NP': {}, '-RRB-': {}}, '.': {}}}
+{'NP': {'NP': {}, 'DP': {}, 'NP': {}}}
+{'NP': {'NNP': {}, 'NN': {}, 'NN': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+{'PRN': {'-LRB-': {}, 'NP': {}, '-RRB-': {}}}
+Dependency Features:
+世界	地方	nmod
+其他	地方	det
+地方	演出	obl
+，	地方	punct
+纽约	乐团	nmod
+爱乐	乐团	nmod
+乐团	演出	nsubj
+在	演出	advcl
+朝鲜	在	obj
+演出	ROOT	root
+（	月	punct
+二	月	nummod
+月	演出	parataxis
+）	月	punct
+。	演出	punct
+----------------------------------------------------------------------
+伊朗试射远程弹道导弹（7 月）。
+
+(ROOT (IP (NP (NNP 伊朗)) (VP (VV 试射) (NP (ADJP (NN 远程)) (NP (NN 弹道) (NN 导弹)) (PRN (-LRB- （) (NP (QP (CD 7)) (NP (NNB 月))) (-RRB- ）)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+伊朗	试射	nsubj
+试射	ROOT	root
+远程	导弹	nmod
+弹道	导弹	nmod
+导弹	试射	obj
+（	月	punct
+7	月	nummod
+月	导弹	appos
+）	月	punct
+。	试射	punct
+----------------------------------------------------------------------
+巴基斯坦皮维兹·穆沙拉夫辞去总统职务（八月）。
+
+(ROOT (IP (NP (NNP 巴基斯坦皮维兹) (/ ·) (NNP 穆沙拉夫)) (VP (VV 辞去) (NP (NN 总统) (NN 职务))) (PRN (-LRB- （) (NP (QP (CD 八)) (NP (NNB 月))) (-RRB- ）)) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, 'PRN': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, 'PRN': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP73391': {}}, 'VP': {'VV': {}, 'NP': {}}, 'PRN': {'-LRB-': {}, 'NP': {}, '-RRB-': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'VV': {}, 'NP': {}}, 'PRN': {'-LRB-': {}, 'NP': {}, '-RRB-': {}}, '.': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+{'PRN': {'-LRB-': {}, 'NP': {}, '-RRB-': {}}}
+Dependency Features:
+巴基斯坦皮维兹	辞去	nsubj
+·	穆沙拉夫	punct
+穆沙拉夫	巴基斯坦皮维兹	flat:name
+辞去	ROOT	root
+总统	职务	nmod
+职务	辞去	obj
+（	月	punct
+八	月	nummod
+月	职务	appos
+）	月	punct
+。	辞去	punct
+----------------------------------------------------------------------
+俄罗斯和格鲁吉亚之间因南奥塞梯发生短暂但激烈的战争（八月）。
+
+(ROOT (IP (LCP (NP (NNP 俄罗斯) (CC 和) (NNP 格鲁吉亚)) (IN 之间)) (VP (PP (IN 因) (NP (NNP 南奥塞梯))) (VP (VV 发生) (NP (CP (CP (IP (VP (JJ 短暂) (RB 但) (JJ 激烈))) (DEC 的))) (NP (NN 战争)) (PRN (-LRB- （) (NP (QP (CD 八)) (NP (NNB 月))) (-RRB- ）))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+俄罗斯	发生	nsubj
+和	格鲁吉亚	cc
+格鲁吉亚	俄罗斯	conj
+之间	俄罗斯	case
+因	发生	case
+南奥塞梯	发生	nsubj
+发生	ROOT	root
+短暂	激烈	advcl
+但	激烈	mark
+激烈	战争	amod
+的	激烈	mark:rel
+战争	发生	obj
+（	月	punct
+八	月	nummod
+月	战争	appos
+）	月	punct
+。	发生	punct
+----------------------------------------------------------------------
+在体育领域，世界见证了一位新冠军的崛起，他怀揣着渴望和友好的心态。
+
+(ROOT (IP (IP (PP (IN 在) (NP (NN 体育) (NN 领域))) (, ，) (NP (NN 世界)) (VP (VV 见证) (AS 了) (NP (DNP (NP (QP (CD 一) (CLP (NNB 位))) (ADJP (PFA 新)) (NP (NN 冠军))) (DEC 的)) (NP (NN 崛起))))) (, ，) (IP (NP (PRP 他)) (VP (VV 怀揣) (AS 着) (NP (DNP (NP (JJ 渴望) (CC 和) (JJ 友好)) (DEC 的)) (NP (NN 心态))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP20562': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP69662': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+在	领域	case
+体育	领域	nmod
+领域	见证	obl
+，	领域	punct
+世界	见证	nsubj
+见证	ROOT	root
+了	见证	aux
+一	位	nummod
+位	冠军	clf
+新	冠军	case
+冠军	见证	obj
+的	见证	mark:rel
+崛起	见证	obj
+，	怀揣	punct
+他	怀揣	nsubj
+怀揣	见证	parataxis
+着	怀揣	aux
+渴望	心态	amod
+和	友好	cc
+友好	渴望	conj
+的	渴望	mark:rel
+心态	怀揣	obj
+。	见证	punct
+----------------------------------------------------------------------
+不是迈克尔·菲尔普斯，尽管他的金牌数量令人印象深刻，更不用说他的早餐大小了。
+
+(ROOT (IP (IP (VP (VC 不是) (NP (NNP 迈克尔) (/ ·) (NNP 菲尔普斯)))) (, ，) (CP (ADVP (IN 尽管)) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 金牌) (NN 数量))) (VP (VV 令) (NP (NN 人)) (IP (NP (NN 印象)) (VP (JJ 深刻)))))) (, ，) (VP (ADVP (RB 更)) (VP (VV 不用) (VP (VV 说) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 早餐) (NN 大小)))))) (UH 了) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'CP': {}, ',7672': {}, 'VP': {}, 'UH': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'CP': {}, ',': {}, 'VP': {}, 'UH': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'CP': {'ADVP': {}, 'IP': {}}, ',53912': {}, 'VP': {'ADVP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'IP': {'VP': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+是	迈克尔	cop
+迈克尔	ROOT	root
+·	菲尔普斯	punct
+菲尔普斯	迈克尔	flat:name
+，	用	punct
+尽管	令	case
+他	数量	det
+的	他	case
+金牌	数量	nmod
+数量	令	nsubj
+令	用	ccomp
+人	印象	nmod
+印象	深刻	nsubj
+深刻	令	ccomp
+，	令	punct
+更	用	advmod
+用	迈克尔	parataxis
+说	用	xcomp
+他	大小	det
+的	他	case
+早餐	大小	nmod
+大小	说	obj
+了	用	discourse
+。	用	punct
+----------------------------------------------------------------------
+2008 年，犬类奥运会的犬类版本西明寺猎犬节上，Uno 成为了首只赢得该奖项的西明寺猎犬。
+
+(ROOT (IP (NP (CD 2008) (NNB 年)) (, ，) (LCP (NP (NP (DNP (NP (NN 犬类) (NN 奥运) (SFN 会)) (DEC 的)) (NP (NN 犬类) (NN 版本))) (NP (NN 西明寺猎犬) (SFN 节))) (IN 上)) (, ，) (NP (FW Uno)) (VP (VV 成) (PP (VC 为了) (NP (CP (CP (IP (VP (NP (NN 首只)) (VP (VV 赢得) (NP (DP (DT 该)) (NP (NN 奖项)))))) (DEC 的))) (NP (NNP 西明寺) (NN 猎犬))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'LCP': {}, ',23358': {}, 'NP83703': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'LCP': {'NP': {}, 'IN': {}}, ',86072': {}, 'NP74448': {'FW': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'FW': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'VV': {}, 'PP': {}}}
+Dependency Features:
+2008	年	nummod
+年	节	nmod
+，	年	punct
+犬类	会	nmod
+奥运	会	compound
+会	节	nmod
+的	会	mark:rel
+犬类	节	nmod
+版本	节	nmod
+西明寺猎犬	节	compound
+节	成	nmod:tmod
+上	节	case
+，	节	punct
+Uno	成	nsubj
+成	ROOT	root
+为了	成	mark
+首只	赢得	obl
+赢得	猎犬	acl:relcl
+该	奖项	det
+奖项	赢得	obj
+的	赢得	mark:rel
+西明寺	猎犬	nmod
+猎犬	成	obj
+。	成	punct
+----------------------------------------------------------------------
+根据所有的资料，他是有史以来最受欢迎的犬类明星，他的公开活动一直持续到 2009 年。
+
+(ROOT (IP (IP (PP (IN 根据) (NP (DNP (DP (DT 所有)) (DEC 的)) (NP (NN 资料)))) (, ，) (NP (PRP 他)) (VP (VC 是) (NP (CP (CP (IP (VP (LCP (IP (VP (VV 有) (NP (NN 史)))) (IN 以来)) (ADVP (RB 最)) (VP (VV 受) (NP (VV 欢迎))))) (DEC 的))) (ADJP (NN 犬类)) (NP (NN 明星))))) (, ，) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (ADJP (JJ 公开)) (NP (NN 活动))) (VP (ADVP (RB 一直)) (VP (VV 持续) (PP (VV 到) (NP (CD 2009) (NNB 年)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP8667': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP13155': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+根据	资料	case
+所有	资料	det
+的	所有	case
+资料	明星	nmod
+，	资料	punct
+他	明星	nsubj
+是	明星	cop
+有	受	advcl
+史	有	obj
+以来	有	mark
+最	受	advmod
+受	明星	acl:relcl
+欢迎	受	xcomp
+的	受	mark:rel
+犬类	明星	nmod
+明星	ROOT	root
+，	持续	punct
+他	活动	det
+的	他	case
+公开	活动	amod
+活动	持续	nsubj
+一直	持续	advmod
+持续	明星	parataxis
+到	持续	mark
+2009	年	nummod
+年	持续	obj
+。	明星	punct
 ----------------------------------------------------------------------
