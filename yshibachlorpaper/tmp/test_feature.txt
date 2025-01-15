@@ -1,0 +1,1390 @@
+距离奥巴马政府刚刚成立三周，希拉里·克林顿的亚洲之行将会发出许多信号，但实质性内容不多。
+(ROOT (IP (IP (PP (IN 距离) (IP (NP (NP (NNP 奥巴马)) (NP (NN 政府))) (VP (ADVP (RB 刚刚)) (VP (VV 成立) (QP (CD 三) (CLP (NNB 周))))))) (, ，) (NP (DNP (NP (DNP (NP (NNP 希拉里) (/ ·) (NNP 克林顿)) (DEC 的)) (NP (NNP 亚洲))) (DEC 之)) (NP (RB 行将))) (VP (MD 会) (VP (VV 发出) (NP (QP (CD 许多)) (NP (NN 信号)))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 实质) (SFN 性) (NN 内容)) (VP (JJ 不多))) (. 。)))
+ADP/VERB/case 距离/成立/case
+PROPN/NOUN/nmod 奥巴马/政府/nmod
+NOUN/VERB/nsubj 政府/成立/nsubj
+ADV/VERB/advmod 刚刚/成立/advmod
+VERB/VERB/ccomp 成立/发出/ccomp
+NUM/NOUN/nummod 三/周/nummod
+NOUN/VERB/obl 周/成立/obl
+PUNCT/VERB/punct ，/成立/punct
+PROPN/PROPN/nmod 希拉里/亚洲/nmod
+PUNCT/PROPN/punct ·/克林顿/punct
+PROPN/PROPN/flat:name 克林顿/希拉里/flat:name
+PART/PROPN/case 的/希拉里/case
+PROPN/VERB/nsubj 亚洲/发出/nsubj
+PART/PROPN/case 之/亚洲/case
+ADV/VERB/advmod 行将/发出/advmod
+AUX/VERB/aux 会/发出/aux
+VERB/ROOT/root 发出/ROOT/root
+NUM/NOUN/nummod 许多/信号/nummod
+NOUN/VERB/obj 信号/发出/obj
+PUNCT/ADJ/punct ，/不多/punct
+ADV/ADJ/mark 但/不多/mark
+NOUN/PART/compound 实质/性/compound
+PART/NOUN/nmod 性/内容/nmod
+NOUN/ADJ/nsubj 内容/不多/nsubj
+ADJ/VERB/parataxis 不多/发出/parataxis
+PUNCT/VERB/punct 。/发出/punct
+----------------------------------------------------------------------
+这并不一定是坏事，尤其是它向日本和韩国这两个盟友发出了几个至关重要的信息。
+(ROOT (IP (IP (NP (PRD 这)) (VP (ADVP (RB 并)) (ADVP (RB 不)) (ADVP (RB 一定)) (VP (VC 是) (NP (NN 坏事))))) (, ，) (IP (ADVP (RB 尤其)) (ADVP (VC 是)) (NP (PRP 它)) (VP (PP (IN 向) (NP (NP (NNP 日本) (CC 和) (NNP 韩国)) (DP (DT 这) (QP (CD 两) (CLP (NNB 个)))) (NP (NN 盟友)))) (VP (VV 发出) (AS 了) (NP (QP (CD 几) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 至关重要))) (DEC 的))) (NP (NN 信息)))))) (. 。)))
+PRON/VERB/nsubj 这/是/nsubj
+ADV/NOUN/mark 并/坏事/mark
+ADV/NOUN/advmod 不/坏事/advmod
+ADV/NOUN/advmod 一定/坏事/advmod
+AUX/NOUN/cop 是/坏事/cop
+NOUN/VERB/advcl 坏事/是/advcl
+PUNCT/NOUN/punct ，/坏事/punct
+ADV/VERB/advmod 尤其/是/advmod
+VERB/ROOT/root 是/ROOT/root
+PRON/VERB/nsubj 它/发出/nsubj
+ADP/PROPN/case 向/日本/case
+PROPN/VERB/obl 日本/发出/obl
+CCONJ/PROPN/cc 和/韩国/cc
+PROPN/PROPN/conj 韩国/日本/conj
+DET/NOUN/det 这/个/det
+NUM/NOUN/nummod 两/个/nummod
+NOUN/NOUN/nmod 个/盟友/nmod
+NOUN/VERB/obl 盟友/发出/obl
+VERB/VERB/ccomp 发出/是/ccomp
+AUX/VERB/aux 了/发出/aux
+NUM/NOUN/nummod 几/个/nummod
+NOUN/NOUN/clf 个/信息/clf
+ADJ/NOUN/amod 至关重要/信息/amod
+PART/ADJ/mark:rel 的/至关重要/mark:rel
+NOUN/VERB/obj 信息/发出/obj
+PUNCT/VERB/punct 。/是/punct
+----------------------------------------------------------------------
+她的这次访问表明，亚洲对美国来说很重要，华盛顿致力于在该地区长期发挥主导作用。
+(ROOT (IP (NP (DNP (NP (PRP 她)) (DEC 的)) (DP (DT 这) (CLP (NNB 次))) (NP (NN 访问))) (VP (VV 表明) (, ，) (IP (IP (NP (NNP 亚洲)) (VP (IP (VP (PP (IN 对) (NP (NNP 美国))) (VP (RB 来) (VP (VV 说))))) (ADVP (RB 很)) (VP (JJ 重要)))) (, ，) (IP (NP (NNP 华盛顿)) (VP (VV 致力) (PP (VV 于) (IP (VP (PP (IN 在) (NP (DP (DT 该)) (NP (NN 地区)))) (ADVP (NN 长期)) (VP (VV 发挥) (NP (JJ 主导) (NN 作用)))))))))) (. 。)))
+PRON/NOUN/det 她/访问/det
+PART/PRON/case 的/她/case
+DET/NOUN/det 这/次/det
+NOUN/NOUN/clf 次/访问/clf
+NOUN/VERB/nsubj 访问/表明/nsubj
+VERB/ROOT/root 表明/ROOT/root
+PUNCT/VERB/punct ，/说/punct
+PROPN/VERB/nsubj 亚洲/说/nsubj
+ADP/PROPN/case 对/美国/case
+PROPN/VERB/obl 美国/说/obl
+ADV/VERB/mark 来/说/mark
+VERB/VERB/ccomp 说/表明/ccomp
+ADV/ADJ/advmod 很/重要/advmod
+ADJ/VERB/xcomp 重要/说/xcomp
+PUNCT/VERB/punct ，/致力/punct
+PROPN/VERB/nsubj 华盛顿/致力/nsubj
+VERB/VERB/ccomp 致力/表明/ccomp
+VERB/VERB/mark 于/致力/mark
+ADP/NOUN/case 在/地区/case
+DET/NOUN/det 该/地区/det
+NOUN/VERB/obl 地区/发挥/obl
+NOUN/VERB/obl 长期/发挥/obl
+VERB/VERB/xcomp 发挥/致力/xcomp
+ADJ/NOUN/amod 主导/作用/amod
+NOUN/VERB/obj 作用/发挥/obj
+PUNCT/VERB/punct 。/表明/punct
+----------------------------------------------------------------------
+前往东京和首尔之前，北京的意义体现了我们的盟友的重要性，也是直接的努力缓解“日本过境”的担忧。
+(ROOT (IP (LCP (IP (VP (VV 前往) (NP (NNP 东京) (CC 和) (NNP 首尔)))) (IN 之前)) (, ，) (NP (DNP (NP (NNP 北京)) (DEC 的)) (NP (NN 意义))) (VP (VP (VV 体现) (AS 了) (NP (DNP (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NN 盟友))) (DEC 的)) (NP (JJ 重要) (SFN 性)))) (, ，) (VP (VC 也是) (IP (NP (DNP (ADJP (JJ 直接)) (DEC 的)) (NP (NN 努力))) (VP (VV 缓解) (NP (CP (IP (`` “) (NP (NNP 日本)) (VP (VV 过境)) ('' ”)) (DEC 的)) (NP (NN 担忧))))))) (. 。)))
+VERB/VERB/advcl 前往/缓解/advcl
+PROPN/VERB/obj 东京/前往/obj
+CCONJ/PROPN/cc 和/首尔/cc
+PROPN/PROPN/conj 首尔/东京/conj
+ADP/VERB/mark 之前/前往/mark
+PUNCT/VERB/punct ，/前往/punct
+PROPN/NOUN/nmod 北京/意义/nmod
+PART/PROPN/case 的/北京/case
+NOUN/VERB/nsubj 意义/体现/nsubj
+VERB/VERB/advcl 体现/缓解/advcl
+AUX/VERB/aux 了/体现/aux
+PRON/NOUN/det 我们/盟友/det
+PART/PRON/case 的/我们/case
+NOUN/PART/nmod 盟友/性/nmod
+PART/NOUN/case 的/盟友/case
+ADJ/PART/compound 重要/性/compound
+PART/VERB/obj 性/体现/obj
+PUNCT/VERB/punct ，/体现/punct
+AUX/VERB/cop 也是/缓解/cop
+ADJ/NOUN/amod 直接/努力/amod
+PART/ADJ/mark:rel 的/直接/mark:rel
+NOUN/VERB/obl 努力/缓解/obl
+VERB/ROOT/root 缓解/ROOT/root
+PUNCT/VERB/punct “/过境/punct
+PROPN/VERB/nsubj 日本/过境/nsubj
+VERB/NOUN/acl:relcl 过境/担忧/acl:relcl
+PUNCT/VERB/punct ”/过境/punct
+PART/VERB/mark:rel 的/缓解/mark:rel
+NOUN/VERB/obj 担忧/缓解/obj
+PUNCT/VERB/punct 。/缓解/punct
+----------------------------------------------------------------------
+作为参议员，希拉里·克林顿撰写了一篇《外交事务》文章，她在文中表示美中关系是亚洲最重要的关系，这再次引发了日本人对于克林顿总统访问中国而未访问日本时所遭受的伤害的担忧。
+(ROOT (IP (IP (PP (VV 作) (PP (VC 为) (NP (VV 参议) (SFN 员)))) (, ，) (NP (NNP 希拉里) (/ ·) (NNP 克林顿)) (VP (VV 撰写) (AS 了) (NP (QP (CD 一) (CLP (NNB 篇))) (NP (-LRB- 《) (NN 外交) (NN 事务) (-RRB- 》)) (NP (NN 文章))))) (, ，) (IP (NP (PRP 她)) (VP (PP (IN 在) (NP (NN 文中))) (VP (VV 表示) (IP (IP (NP (NP (NNP 美中)) (NP (NN 关系))) (VP (VC 是) (NP (NP (NNP 亚洲)) (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 重要)))) (DEC 的))) (NP (NN 关系))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 再次)) (VP (VV 引发) (AS 了) (NP (DNP (NP (CP (CP (IP (NP (NP (NNP 日本)) (NP (SFN 人))) (VP (LCP (IP (VP (PP (IN 对于) (IP (NP (NNP 克林顿) (NN 总统)) (VP (VV 访问) (NP (NNP 中国))))) (VP (RB 而) (VP (ADVP (RB 未)) (VP (VV 访问) (NP (NNP 日本))))))) (IN 时)) (VP (RB 所) (VP (VV 遭受))))) (DEC 的))) (NP (NN 伤害))) (DEC 的)) (NP (NN 担忧)))))))))) (. 。)))
+VERB/VERB/advcl 作/撰写/advcl
+VERB/VERB/mark 为/作/mark
+VERB/PART/compound 参议/员/compound
+PART/VERB/obj 员/作/obj
+PUNCT/VERB/punct ，/作/punct
+PROPN/VERB/nsubj 希拉里/撰写/nsubj
+PUNCT/PROPN/punct ·/克林顿/punct
+PROPN/PROPN/flat:name 克林顿/希拉里/flat:name
+VERB/ROOT/root 撰写/ROOT/root
+AUX/VERB/aux 了/撰写/aux
+NUM/NOUN/nummod 一/篇/nummod
+NOUN/NOUN/clf 篇/文章/clf
+PUNCT/NOUN/punct 《/事务/punct
+NOUN/NOUN/nmod 外交/事务/nmod
+NOUN/NOUN/nmod 事务/文章/nmod
+PUNCT/NOUN/punct 》/事务/punct
+NOUN/VERB/obj 文章/撰写/obj
+PUNCT/VERB/punct ，/表示/punct
+PRON/VERB/nsubj 她/表示/nsubj
+ADP/NOUN/case 在/文中/case
+NOUN/VERB/obl 文中/表示/obl
+VERB/VERB/parataxis 表示/撰写/parataxis
+PROPN/NOUN/nmod 美中/关系/nmod
+NOUN/NOUN/nsubj 关系/关系/nsubj
+AUX/NOUN/cop 是/关系/cop
+PROPN/NOUN/nmod 亚洲/关系/nmod
+ADV/ADJ/advmod 最/重要/advmod
+ADJ/NOUN/amod 重要/关系/amod
+PART/ADJ/mark:rel 的/重要/mark:rel
+NOUN/VERB/ccomp 关系/表示/ccomp
+PUNCT/VERB/punct ，/引发/punct
+PRON/VERB/nsubj 这/引发/nsubj
+ADV/VERB/advmod 再次/引发/advmod
+VERB/VERB/parataxis 引发/撰写/parataxis
+AUX/VERB/aux 了/引发/aux
+PROPN/PART/compound 日本/人/compound
+PART/VERB/nsubj 人/遭受/nsubj
+ADP/NOUN/case 对于/总统/case
+PROPN/NOUN/nmod 克林顿/总统/nmod
+NOUN/VERB/nsubj 总统/访问/nsubj
+VERB/VERB/advcl 访问/访问/advcl
+PROPN/VERB/obj 中国/访问/obj
+ADV/VERB/mark 而/访问/mark
+ADV/VERB/advmod 未/访问/advmod
+VERB/VERB/advcl 访问/遭受/advcl
+PROPN/VERB/obj 日本/访问/obj
+ADP/VERB/mark 时/访问/mark
+ADV/VERB/mark 所/遭受/mark
+VERB/NOUN/acl:relcl 遭受/担忧/acl:relcl
+PART/VERB/mark:rel 的/遭受/mark:rel
+NOUN/NOUN/nmod 伤害/担忧/nmod
+PART/VERB/mark:rel 的/遭受/mark:rel
+NOUN/VERB/obj 担忧/引发/obj
+PUNCT/VERB/punct 。/撰写/punct
+----------------------------------------------------------------------
+克林顿表示，她此行是在奥巴马政府宣布其亚洲小组成员名单或最终确定其亚洲政策之前，她希望与美国的亚洲盟友建立开放对话和透明的氛围。
+(ROOT (IP (NP (NNP 克林顿)) (VP (VV 表示) (, ，) (IP (NP (PRP 她)) (VP (VC 此行是) (PP (IN 在) (LCP (IP (NP (NP (NNP 奥巴马)) (NP (NN 政府))) (VP (VP (VV 宣布) (NP (NP (NP (NP (PRP 其)) (NP (NNP 亚洲)) (NP (NN 小组))) (NP (NN 成员))) (NP (NN 名单)))) (CC 或) (VP (ADVP (NN 最终)) (VP (VV 确定) (NP (NP (PRP 其)) (NP (NNP 亚洲)) (NP (NN 政策))))))) (IN 之前)))) (, ，) (NP (PRP 她)) (VP (VV 希望) (IP (VP (PP (IN 与) (NP (DNP (NP (NNP 美国)) (DEC 的)) (NP (NNP 亚洲)) (NP (NN 盟友)))) (VP (VV 建立) (NP (NP (VV 开放) (NN 对话)) (CC 和) (NP (CP (IP (VP (JJ 透明))) (DEC 的)) (NP (NN 氛围)))))))))) (. 。)))
+PROPN/VERB/nsubj 克林顿/表示/nsubj
+VERB/ROOT/root 表示/ROOT/root
+PUNCT/VERB/punct ，/希望/punct
+PRON/VERB/nsubj 她/此行是/nsubj
+VERB/VERB/advcl 此行是/希望/advcl
+ADP/NOUN/case 在/政府/case
+PROPN/NOUN/nmod 奥巴马/政府/nmod
+NOUN/VERB/nsubj 政府/宣布/nsubj
+VERB/VERB/ccomp 宣布/希望/ccomp
+PRON/NOUN/nmod 其/名单/nmod
+PROPN/NOUN/nmod 亚洲/名单/nmod
+NOUN/NOUN/nmod 小组/名单/nmod
+NOUN/NOUN/nmod 成员/名单/nmod
+NOUN/VERB/obj 名单/宣布/obj
+CCONJ/VERB/cc 或/确定/cc
+NOUN/VERB/nmod:tmod 最终/确定/nmod:tmod
+VERB/VERB/conj 确定/宣布/conj
+PRON/NOUN/nmod 其/政策/nmod
+PROPN/NOUN/nmod 亚洲/政策/nmod
+NOUN/VERB/obj 政策/确定/obj
+ADP/VERB/mark 之前/宣布/mark
+PUNCT/VERB/punct ，/宣布/punct
+PRON/VERB/nsubj 她/希望/nsubj
+VERB/VERB/ccomp 希望/表示/ccomp
+ADP/NOUN/case 与/盟友/case
+PROPN/NOUN/nmod 美国/盟友/nmod
+PART/PROPN/case 的/美国/case
+PROPN/NOUN/nmod 亚洲/盟友/nmod
+NOUN/VERB/obl 盟友/建立/obl
+VERB/VERB/xcomp 建立/希望/xcomp
+VERB/VERB/xcomp 开放/建立/xcomp
+NOUN/VERB/obj 对话/开放/obj
+CCONJ/ADJ/cc 和/透明/cc
+ADJ/NOUN/amod 透明/氛围/amod
+PART/ADJ/mark:rel 的/透明/mark:rel
+NOUN/NOUN/conj 氛围/对话/conj
+PUNCT/VERB/punct 。/表示/punct
+----------------------------------------------------------------------
+但是，当然，谈判并不能保证达成协议，而且在这次访问期间还可能出现一些有争议的问题。
+(ROOT (IP (ADVP (RB 但是)) (, ，) (ADVP (RB 当然)) (, ，) (NP (VV 谈判)) (VP (VP (ADVP (RB 并)) (VP (MD 不能) (VP (VV 保证) (IP (VP (VV 达成) (NP (NN 协议))))))) (, ，) (RB 而且) (VP (PP (IN 在) (NP (NP (DP (DT 这) (CLP (NNB 次))) (NP (NN 访问))) (NP (NN 期间)))) (ADVP (RB 还)) (VP (MD 可能) (VP (VV 出现) (NP (QP (JJ 一些)) (CP (CP (IP (VP (VV 有) (NP (NN 争议)))) (DEC 的))) (NP (NN 问题))))))) (. 。)))
+ADV/VERB/mark 但是/保证/mark
+PUNCT/ADV/punct ，/但是/punct
+ADV/VERB/advmod 当然/保证/advmod
+PUNCT/ADV/punct ，/但是/punct
+VERB/VERB/csubj 谈判/保证/csubj
+ADV/VERB/mark 并/保证/mark
+AUX/VERB/aux 不能/保证/aux
+VERB/ROOT/root 保证/ROOT/root
+VERB/VERB/xcomp 达成/保证/xcomp
+NOUN/VERB/obj 协议/达成/obj
+PUNCT/VERB/punct ，/出现/punct
+ADV/VERB/mark 而且/出现/mark
+ADP/NOUN/case 在/期间/case
+DET/NOUN/det 这/次/det
+NOUN/NOUN/clf 次/期间/clf
+NOUN/NOUN/nmod 访问/期间/nmod
+NOUN/VERB/obl 期间/出现/obl
+ADV/VERB/mark 还/出现/mark
+AUX/VERB/aux 可能/出现/aux
+VERB/VERB/parataxis 出现/保证/parataxis
+ADJ/NOUN/amod 一些/问题/amod
+VERB/NOUN/acl:relcl 有/问题/acl:relcl
+NOUN/VERB/obj 争议/有/obj
+PART/VERB/mark:rel 的/有/mark:rel
+NOUN/VERB/obj 问题/出现/obj
+PUNCT/VERB/punct 。/保证/punct
+----------------------------------------------------------------------
+克林顿必须向受到布什政府放弃实现朝鲜无核化的热情所致重要原则遭到放弃的盟友们作出安抚。
+(ROOT (IP (NP (NNP 克林顿)) (VP (MD 必须) (VP (VP (PP (IN 向) (IP (NP (CP (IP (VP (VV 受到) (NP (NP (NNP 布什)) (NP (NN 政府))) (IP (VP (VV 放弃) (IP (VP (VV 实现) (NP (NP (NNP 朝鲜)) (ADJP (VV 无)) (NP (NN 核化))))))))) (DEC 的)) (NP (NN 热情))) (VP (VV 所致) (NP (ADJP (JJ 重要)) (NP (NN 原则)))))) (VP (VV 遭到) (NP (CP (CP (IP (VP (VV 放弃))) (DEC 的))) (NP (NN 盟友) (SFN 们))))) (VP (VV 作出) (NP (NN 安抚))))) (. 。)))
+PROPN/VERB/nsubj 克林顿/作出/nsubj
+AUX/VERB/aux 必须/作出/aux
+ADP/NOUN/case 向/热情/case
+VERB/NOUN/acl:relcl 受到/热情/acl:relcl
+PROPN/NOUN/nmod 布什/政府/nmod
+NOUN/VERB/nsubj 政府/放弃/nsubj
+VERB/VERB/ccomp 放弃/受到/ccomp
+VERB/VERB/xcomp 实现/放弃/xcomp
+PROPN/VERB/nsubj 朝鲜/无/nsubj
+VERB/NOUN/acl:relcl 无/热情/acl:relcl
+NOUN/VERB/obj 核化/无/obj
+PART/VERB/mark:rel 的/受到/mark:rel
+NOUN/VERB/obl 热情/所致/obl
+VERB/VERB/advcl 所致/遭到/advcl
+ADJ/NOUN/amod 重要/原则/amod
+NOUN/VERB/obj 原则/所致/obj
+VERB/PART/acl:relcl 遭到/们/acl:relcl
+VERB/VERB/xcomp 放弃/遭到/xcomp
+PART/VERB/mark:rel 的/遭到/mark:rel
+NOUN/PART/compound 盟友/们/compound
+PART/VERB/obl 们/作出/obl
+VERB/ROOT/root 作出/ROOT/root
+NOUN/VERB/obj 安抚/作出/obj
+PUNCT/VERB/punct 。/作出/punct
+----------------------------------------------------------------------
+此外，她应该更明确地阐述奥巴马政府的六方会谈战略以及美国—韩国自由贸易协定的立场。
+(ROOT (IP (ADVP (NN 此外)) (, ，) (NP (PRP 她)) (VP (MD 应该) (VP (DVP (VP (ADVP (RB 更)) (VP (JJ 明确))) (DEV 地)) (VP (VV 阐述) (NP (NP (DNP (NP (NP (NNP 奥巴马)) (NP (NN 政府))) (DEC 的)) (NP (NP (QP (CD 六)) (NP (NN 方))) (NP (NN 会谈))) (NP (NN 战略))) (CC 以及) (NP (DNP (NP (NP (NNP 美国) (HYPH —) (NNP 韩国)) (NP (ADJP (NN 自由)) (NP (NN 贸易))) (NP (NN 协定))) (DEC 的)) (NP (NN 立场))))))) (. 。)))
+NOUN/VERB/obl 此外/阐述/obl
+PUNCT/NOUN/punct ，/此外/punct
+PRON/VERB/nsubj 她/阐述/nsubj
+AUX/VERB/aux 应该/阐述/aux
+ADV/VERB/advmod 更/阐述/advmod
+ADJ/VERB/advmod 明确/阐述/advmod
+PART/ADJ/mark:adv 地/明确/mark:adv
+VERB/ROOT/root 阐述/ROOT/root
+PROPN/NOUN/nmod 奥巴马/政府/nmod
+NOUN/NOUN/nmod 政府/战略/nmod
+PART/NOUN/case 的/政府/case
+NUM/NOUN/nummod 六/方/nummod
+NOUN/NOUN/nmod 方/战略/nmod
+NOUN/NOUN/nmod 会谈/战略/nmod
+NOUN/NOUN/nmod 战略/立场/nmod
+CCONJ/NOUN/cc 以及/协定/cc
+PROPN/NOUN/nmod 美国/协定/nmod
+PUNCT/PROPN/punct —/美国/punct
+PROPN/NOUN/nmod 韩国/协定/nmod
+NOUN/NOUN/nmod 自由/协定/nmod
+NOUN/NOUN/nmod 贸易/协定/nmod
+NOUN/NOUN/conj 协定/战略/conj
+PART/NOUN/case 的/战略/case
+NOUN/VERB/obj 立场/阐述/obj
+PUNCT/VERB/punct 。/阐述/punct
+----------------------------------------------------------------------
+政治格局的变化
+(ROOT (NP (DNP (NP (NN 政治) (NN 格局)) (DEC 的)) (NP (NN 变化))))
+NOUN/NOUN/nmod 政治/格局/nmod
+NOUN/NOUN/nmod 格局/变化/nmod
+PART/NOUN/case 的/格局/case
+NOUN/ROOT/root 变化/ROOT/root
+----------------------------------------------------------------------
+克林顿此行正值全球经济动荡之际，将转移对传统双边和地区安全问题的关注，如将现有的军事关系转化为战略联盟，实现朝鲜无核化。
+(ROOT (IP (IP (NP (NNP 克林顿)) (VP (NP (NN 此行)) (VP (VP (VV 正值) (NP (DNP (NP (NN 全球) (NN 经济) (JJ 动荡)) (DEC 之)) (NP (NN 际)))) (, ，) (VP (ADVP (RB 将)) (VP (VV 转移) (NP (DNP (PP (IN 对) (NP (NP (ADJP (NN 传统)) (NP (QP (CD 双) (CLP (NN 边))) (CC 和) (NP (NN 地区))) (NP (NN 安全))) (NP (NN 问题)))) (DEC 的)) (NP (NN 关注)))))))) (, ，) (IP (ADVP (VV 如)) (VP (VP (BB 将) (IP (NP (DNP (ADJP (VV 现有)) (DEC 的)) (NP (NN 军事) (NN 关系))) (VP (VRD (VV 转化) (VC 为)) (NP (NN 战略) (NN 联盟))))) (, ，) (VP (VV 实现) (IP (NP (NNP 朝鲜)) (VP (VV 无) (NP (NN 核化))))))) (. 。)))
+PROPN/NOUN/nmod 克林顿/此行/nmod
+NOUN/VERB/nsubj 此行/实现/nsubj
+VERB/VERB/advcl 正值/实现/advcl
+NOUN/NOUN/nmod 全球/际/nmod
+NOUN/ADJ/nsubj 经济/动荡/nsubj
+ADJ/NOUN/acl:relcl 动荡/际/acl:relcl
+PART/ADJ/mark:rel 之/动荡/mark:rel
+NOUN/VERB/obj 际/正值/obj
+PUNCT/VERB/punct ，/正值/punct
+ADV/VERB/advmod 将/转移/advmod
+VERB/NOUN/acl:relcl 转移/关注/acl:relcl
+ADP/NOUN/case 对/关注/case
+NOUN/NOUN/nmod 传统/边/nmod
+NUM/NOUN/nummod 双/边/nummod
+NOUN/NOUN/nmod 边/问题/nmod
+CCONJ/NOUN/cc 和/地区/cc
+NOUN/NOUN/conj 地区/边/conj
+NOUN/NOUN/nmod 安全/问题/nmod
+NOUN/NOUN/nmod 问题/关注/nmod
+PART/VERB/mark:rel 的/转移/mark:rel
+NOUN/VERB/obj 关注/正值/obj
+PUNCT/VERB/punct ，/转移/punct
+VERB/VERB/advcl 如/实现/advcl
+ADP/NOUN/case 将/关系/case
+VERB/NOUN/acl:relcl 现有/关系/acl:relcl
+PART/VERB/mark:rel 的/现有/mark:rel
+NOUN/NOUN/nmod 军事/关系/nmod
+NOUN/VERB/obl:patient 关系/转化/obl:patient
+VERB/VERB/xcomp 转化/如/xcomp
+VERB/VERB/mark 为/转化/mark
+NOUN/NOUN/nmod 战略/联盟/nmod
+NOUN/VERB/obj 联盟/转化/obj
+PUNCT/VERB/punct ，/如/punct
+VERB/ROOT/root 实现/ROOT/root
+PROPN/VERB/nsubj 朝鲜/无/nsubj
+VERB/VERB/ccomp 无/实现/ccomp
+NOUN/VERB/obj 核化/无/obj
+PUNCT/VERB/punct 。/实现/punct
+----------------------------------------------------------------------
+此外，美国的盟友将拥有更少的资源来实现这些目标，包括华盛顿要求首尔和东京在阿富汗承担更大的全球安全作用。
+(ROOT (IP (IP (ADVP (NN 此外)) (, ，) (NP (DNP (NP (NNP 美国)) (DEC 的)) (NP (NN 盟友))) (VP (ADVP (RB 将)) (VP (VP (VV 拥有) (NP (CP (CP (IP (VP (JJ 更少))) (DEC 的))) (NP (NN 资源)))) (VP (RB 来) (VP (VV 实现) (NP (DP (DT 这些)) (NP (NN 目标)))))))) (, ，) (IP (VP (VV 包括) (IP (NP (NNP 华盛顿)) (VP (VV 要求) (NP (NNP 首尔) (CC 和) (NNP 东京)) (IP (VP (PP (VV 在) (NP (NNP 阿富汗))) (VP (VV 承担) (NP (CP (CP (IP (VP (JJ 更大))) (DEC 的))) (NP (NN 全球) (NN 安全) (NN 作用)))))))))) (. 。)))
+NOUN/VERB/obl 此外/实现/obl
+PUNCT/NOUN/punct ，/此外/punct
+PROPN/NOUN/nmod 美国/盟友/nmod
+PART/PROPN/case 的/美国/case
+NOUN/VERB/nsubj 盟友/实现/nsubj
+ADV/VERB/advmod 将/拥有/advmod
+VERB/VERB/advcl 拥有/实现/advcl
+ADJ/NOUN/amod 更少/资源/amod
+PART/ADJ/mark:rel 的/更少/mark:rel
+NOUN/VERB/obj 资源/拥有/obj
+ADV/VERB/mark 来/实现/mark
+VERB/ROOT/root 实现/ROOT/root
+DET/NOUN/det 这些/目标/det
+NOUN/VERB/nsubj 目标/包括/nsubj
+PUNCT/NOUN/punct ，/目标/punct
+VERB/VERB/ccomp 包括/实现/ccomp
+PROPN/VERB/nsubj 华盛顿/要求/nsubj
+VERB/VERB/ccomp 要求/包括/ccomp
+PROPN/VERB/nsubj 首尔/承担/nsubj
+CCONJ/PROPN/cc 和/东京/cc
+PROPN/PROPN/conj 东京/首尔/conj
+VERB/VERB/advcl 在/承担/advcl
+PROPN/VERB/obj 阿富汗/在/obj
+VERB/VERB/ccomp 承担/要求/ccomp
+ADJ/NOUN/amod 更大/作用/amod
+PART/ADJ/mark:rel 的/更大/mark:rel
+NOUN/NOUN/nmod 全球/作用/nmod
+NOUN/NOUN/nmod 安全/作用/nmod
+NOUN/VERB/obj 作用/承担/obj
+PUNCT/VERB/punct 。/实现/punct
+----------------------------------------------------------------------
+预计克林顿此行将重点协调应对经济危机的政策，而不是讨论这些更传统的问题。
+(ROOT (IP (VP (VV 预计) (IP (NP (NNP 克林顿)) (VP (VP (DP (DT 此)) (ADVP (RB 行将)) (ADVP (RB 重点)) (VP (VCD (VV 协调) (VV 应对)) (NP (DNP (NP (NN 经济) (NN 危机)) (DEC 的)) (NP (NN 政策))))) (, ，) (RB 而) (VP (VC 不是) (VP (VV 讨论) (NP (DP (DT 这些)) (CP (CP (IP (VP (ADVP (RB 更)) (VP (JJ 传统)))) (DEC 的))) (NP (NN 问题)))))))) (. 。)))
+VERB/ROOT/root 预计/ROOT/root
+PROPN/VERB/nsubj 克林顿/协调/nsubj
+DET/VERB/nsubj 此/协调/nsubj
+ADV/VERB/advmod 行将/协调/advmod
+ADV/VERB/advmod 重点/协调/advmod
+VERB/VERB/ccomp 协调/预计/ccomp
+VERB/NOUN/acl:relcl 应对/政策/acl:relcl
+NOUN/NOUN/nmod 经济/危机/nmod
+NOUN/VERB/obj 危机/应对/obj
+PART/VERB/mark:rel 的/应对/mark:rel
+NOUN/VERB/obj 政策/协调/obj
+PUNCT/VERB/punct ，/协调/punct
+ADV/VERB/mark 而/讨论/mark
+AUX/VERB/aux 不是/讨论/aux
+VERB/VERB/ccomp 讨论/预计/ccomp
+DET/NOUN/det 这些/问题/det
+ADV/ADJ/advmod 更/传统/advmod
+ADJ/NOUN/amod 传统/问题/amod
+PART/ADJ/mark:rel 的/传统/mark:rel
+NOUN/VERB/obj 问题/讨论/obj
+PUNCT/VERB/punct 。/讨论/punct
+----------------------------------------------------------------------
+美国总统选举出现一位民意支持率极高的总统，改变了美国与东京和首尔的双边关系以及韩国国内政治的政治格局。
+(ROOT (IP (NP (NP (NP (NNP 美国)) (NP (NN 总统))) (NP (NN 选举))) (VP (VP (VV 出现) (NP (QP (CD 一) (CLP (NNB 位))) (CP (CP (IP (NP (NN 民意) (VV 支持) (SFN 率)) (VP (JJ 极高))) (DEC 的))) (NP (NN 总统)))) (, ，) (VP (VV 改变) (AS 了) (NP (NP (DNP (NP (NNP 美国) (CC 与) (NNP 东京) (CC 和) (NNP 首尔)) (DEC 的)) (QP (CD 双) (CLP (NN 边))) (NP (NN 关系))) (CC 以及) (NP (DNP (NP (NP (NNP 韩国)) (NP (NN 国内) (NN 政治))) (DEC 的)) (NP (NN 政治) (NN 格局)))))) (. 。)))
+PROPN/NOUN/nmod 美国/选举/nmod
+NOUN/NOUN/nmod 总统/选举/nmod
+NOUN/VERB/nsubj 选举/改变/nsubj
+VERB/VERB/advcl 出现/改变/advcl
+NUM/NOUN/nummod 一/位/nummod
+NOUN/NOUN/clf 位/总统/clf
+NOUN/PART/nmod 民意/率/nmod
+VERB/PART/compound 支持/率/compound
+PART/ADJ/nsubj 率/极高/nsubj
+ADJ/NOUN/acl:relcl 极高/总统/acl:relcl
+PART/ADJ/mark:rel 的/极高/mark:rel
+NOUN/VERB/obj 总统/出现/obj
+PUNCT/VERB/punct ，/出现/punct
+VERB/ROOT/root 改变/ROOT/root
+AUX/VERB/aux 了/改变/aux
+PROPN/NOUN/nmod 美国/关系/nmod
+CCONJ/PROPN/cc 与/东京/cc
+PROPN/PROPN/conj 东京/美国/conj
+CCONJ/PROPN/cc 和/首尔/cc
+PROPN/PROPN/conj 首尔/美国/conj
+PART/PROPN/case 的/美国/case
+NUM/NOUN/nummod 双/边/nummod
+NOUN/NOUN/nmod 边/关系/nmod
+NOUN/VERB/obj 关系/改变/obj
+CCONJ/NOUN/cc 以及/格局/cc
+PROPN/NOUN/nmod 韩国/政治/nmod
+NOUN/NOUN/nmod 国内/政治/nmod
+NOUN/NOUN/nmod 政治/格局/nmod
+PART/NOUN/case 的/政治/case
+NOUN/NOUN/nmod 政治/格局/nmod
+NOUN/NOUN/conj 格局/关系/conj
+PUNCT/VERB/punct 。/改变/punct
+----------------------------------------------------------------------
+奥巴马在双边关系上将拥有更多话语权，因为他从零开始。
+(ROOT (IP (IP (NP (NNP 奥巴马)) (VP (PP (VV 在) (LCP (NP (QP (CD 双) (CLP (NN 边))) (NP (NN 关系))) (IN 上将))) (VP (VV 拥有) (NP (ADJP (JJ 更多)) (NP (NN 话语) (SFN 权)))))) (, ，) (PP (IN 因为) (IP (NP (PRP 他)) (VP (PP (IN 从) (NP (CD 零))) (VP (VV 开始))))) (. 。)))
+PROPN/VERB/nsubj 奥巴马/拥有/nsubj
+VERB/NOUN/amod 在/关系/amod
+NUM/NOUN/nummod 双/边/nummod
+NOUN/NOUN/nmod 边/关系/nmod
+NOUN/VERB/obl 关系/拥有/obl
+ADP/NOUN/case 上将/关系/case
+VERB/ROOT/root 拥有/ROOT/root
+ADJ/PART/amod 更多/权/amod
+NOUN/PART/compound 话语/权/compound
+PART/VERB/obj 权/拥有/obj
+PUNCT/VERB/punct ，/开始/punct
+ADP/VERB/case 因为/开始/case
+PRON/VERB/nsubj 他/开始/nsubj
+ADP/NUM/case 从/零/case
+NUM/VERB/obl 零/开始/obl
+VERB/VERB/ccomp 开始/拥有/ccomp
+PUNCT/VERB/punct 。/拥有/punct
+----------------------------------------------------------------------
+例如，奥巴马通过消除南朝鲜政治专家、媒体和反美团体所隐藏的政治掩护，损害了南朝鲜对北朝鲜问题的进步。
+(ROOT (IP (ADVP (VV 例如)) (, ，) (NP (NNP 奥巴马)) (VP (PP (IN 通过) (IP (VP (VV 消除) (NP (CP (CP (IP (NP (NP (NP (NN 南)) (NP (NNP 朝鲜))) (NP (NP (NN 政治) (NN 专家)) (EC 、) (NP (NN 媒体)) (CC 和) (NP (ADJP (NN 反美)) (NP (NN 团体))))) (VP (RB 所) (VP (VV 隐藏)))) (DEC 的))) (NP (NN 政治) (NN 掩护)))))) (, ，) (VP (VV 损害) (AS 了) (NP (DNP (NP (NP (NP (NN 南)) (NP (NNP 朝鲜))) (NP (ADJP (VV 对北)) (NP (NNP 朝鲜))) (NP (NN 问题))) (DEC 的)) (NP (NN 进步))))) (. 。)))
+VERB/ROOT/root 例如/ROOT/root
+PUNCT/VERB/punct ，/损害/punct
+PROPN/VERB/nsubj 奥巴马/损害/nsubj
+ADP/VERB/case 通过/消除/case
+VERB/VERB/xcomp 消除/损害/xcomp
+NOUN/PROPN/nmod 南/朝鲜/nmod
+PROPN/NOUN/nmod 朝鲜/专家/nmod
+NOUN/NOUN/nmod 政治/专家/nmod
+NOUN/VERB/obj 专家/消除/obj
+PUNCT/NOUN/punct 、/媒体/punct
+NOUN/NOUN/conj 媒体/专家/conj
+CCONJ/NOUN/cc 和/团体/cc
+NOUN/NOUN/nmod 反美/团体/nmod
+NOUN/NOUN/conj 团体/专家/conj
+ADV/VERB/mark 所/隐藏/mark
+VERB/NOUN/acl:relcl 隐藏/掩护/acl:relcl
+PART/VERB/mark:rel 的/隐藏/mark:rel
+NOUN/NOUN/nmod 政治/掩护/nmod
+NOUN/VERB/obj 掩护/消除/obj
+PUNCT/VERB/punct ，/消除/punct
+VERB/VERB/ccomp 损害/例如/ccomp
+AUX/VERB/aux 了/损害/aux
+NOUN/PROPN/nmod 南/朝鲜/nmod
+PROPN/VERB/nsubj 朝鲜/对北/nsubj
+VERB/NOUN/acl:relcl 对北/进步/acl:relcl
+PROPN/NOUN/nmod 朝鲜/问题/nmod
+NOUN/VERB/obj 问题/对北/obj
+PART/VERB/mark:rel 的/对北/mark:rel
+NOUN/VERB/obj 进步/损害/obj
+PUNCT/VERB/punct 。/例如/punct
+----------------------------------------------------------------------
+反美行动和言论不能再只是反布什，美国坚持朝鲜无核化不能再是“新保守主义阴谋”。
+(ROOT (IP (IP (NP (IP (VP (VV 反) (NP (NNP 美)))) (NP (NN 行动) (CC 和) (NN 言论))) (VP (MD 不能) (VP (ADVP (RB 再)) (ADVP (RB 只)) (VP (VC 是) (VP (VV 反) (NP (NNP 布什))))))) (, ，) (IP (NP (NNP 美国)) (VP (VV 坚持) (IP (NP (NNP 朝鲜) (NN 无核) (SFV 化)) (VP (MD 不能) (VP (VC 再是) (NP (`` “) (NP (ADJP (PFA 新)) (NP (JJ 保守)) (NP (NN 主义))) (NP (NN 阴谋)) ('' ”))))))) (. 。)))
+VERB/NOUN/amod 反/行动/amod
+PROPN/VERB/obj 美/反/obj
+NOUN/VERB/nsubj 行动/是/nsubj
+CCONJ/NOUN/cc 和/言论/cc
+NOUN/NOUN/conj 言论/行动/conj
+AUX/VERB/aux 不能/是/aux
+ADV/VERB/advmod 再/是/advmod
+ADV/VERB/advmod 只/是/advmod
+VERB/ROOT/root 是/ROOT/root
+VERB/VERB/xcomp 反/是/xcomp
+PROPN/VERB/obj 布什/反/obj
+PUNCT/VERB/punct ，/坚持/punct
+PROPN/VERB/nsubj 美国/坚持/nsubj
+VERB/VERB/parataxis 坚持/是/parataxis
+PROPN/PART/nmod 朝鲜/化/nmod
+NOUN/PART/compound 无核/化/compound
+PART/NOUN/nsubj 化/阴谋/nsubj
+AUX/NOUN/aux 不能/阴谋/aux
+AUX/NOUN/cop 再是/阴谋/cop
+PUNCT/NOUN/punct “/阴谋/punct
+PART/NOUN/case 新/主义/case
+ADJ/NOUN/amod 保守/主义/amod
+NOUN/NOUN/nmod 主义/阴谋/nmod
+NOUN/VERB/ccomp 阴谋/坚持/ccomp
+PUNCT/NOUN/punct ”/阴谋/punct
+PUNCT/VERB/punct 。/是/punct
+----------------------------------------------------------------------
+韩国左派也不能再把六方会谈的僵局怪罪到美国“灵活性”的缺乏上，也就是说，美国的让步。
+(ROOT (IP (NP (NP (NNP 韩国)) (NP (NN 左派))) (VP (VP (ADVP (RB 也)) (VP (MD 不能) (VP (ADVP (RB 再)) (VP (BB 把) (IP (NP (DNP (NP (NP (QP (CD 六)) (NP (NN 方))) (NP (NN 会谈))) (DEC 的)) (NP (NN 僵局))) (VP (VRD (VV 怪罪) (VV 到)) (LCP (NP (DNP (NP (NP (NNP 美国)) (NP (`` “) (NN 灵) (NN 活性) ('' ”))) (DEC 的)) (NP (NN 缺乏))) (IN 上)))))))) (, ，) (VP (ADVP (RB 也)) (VP (VC 就是) (VP (VV 说) (, ，) (NP (DNP (NP (NNP 美国)) (DEC 的)) (NP (NN 让步))))))) (. 。)))
+PROPN/NOUN/nmod 韩国/左派/nmod
+NOUN/VERB/nsubj 左派/就是/nsubj
+ADV/VERB/mark 也/怪罪/mark
+AUX/VERB/aux 不能/怪罪/aux
+ADV/VERB/advmod 再/怪罪/advmod
+ADP/NOUN/case 把/僵局/case
+NUM/NOUN/nummod 六/方/nummod
+NOUN/NOUN/nmod 方/会谈/nmod
+NOUN/NOUN/nmod 会谈/僵局/nmod
+PART/NOUN/case 的/会谈/case
+NOUN/VERB/obl:patient 僵局/怪罪/obl:patient
+VERB/VERB/advcl 怪罪/就是/advcl
+VERB/VERB/mark 到/怪罪/mark
+PROPN/NOUN/nmod 美国/活性/nmod
+PUNCT/NOUN/punct “/活性/punct
+NOUN/NOUN/nmod 灵/活性/nmod
+NOUN/NOUN/nmod 活性/缺乏/nmod
+PUNCT/NOUN/punct ”/活性/punct
+PART/NOUN/mark:rel 的/活性/mark:rel
+NOUN/VERB/obj 缺乏/怪罪/obj
+ADP/NOUN/case 上/缺乏/case
+PUNCT/VERB/punct ，/怪罪/punct
+ADV/VERB/mark 也/就是/mark
+VERB/ROOT/root 就是/ROOT/root
+VERB/VERB/xcomp 说/就是/xcomp
+PUNCT/NOUN/punct ，/让步/punct
+PROPN/NOUN/nmod 美国/让步/nmod
+PART/PROPN/case 的/美国/case
+NOUN/VERB/obj 让步/说/obj
+PUNCT/VERB/punct 。/就是/punct
+----------------------------------------------------------------------
+它将越来越明显地显示出，问题的根源，就是一如既往，朝鲜的顽固。
+(ROOT (IP (NP (PRP 它)) (VP (ADVP (RB 将)) (DVP (VP (ADVP (RB 越来越)) (VP (JJ 明显))) (DEV 地)) (VP (VRD (VV 显示) (VV 出)) (, ，) (IP (NP (DNP (NP (NN 问题)) (DEC 的)) (NP (NN 根源))) (, ，) (VP (VC 就是) (NP (PP (ADVP (CD 一)) (PP (VV 如) (NP (JJ 既往)))) (, ，) (NP (DNP (NP (NNP 朝鲜)) (DEC 的)) (NP (JJ 顽固)))))))) (. 。)))
+PRON/VERB/nsubj 它/显示/nsubj
+ADV/VERB/advmod 将/显示/advmod
+ADV/ADJ/advmod 越来越/明显/advmod
+ADJ/VERB/advmod 明显/显示/advmod
+PART/ADJ/mark:adv 地/明显/mark:adv
+VERB/ROOT/root 显示/ROOT/root
+VERB/VERB/mark 出/显示/mark
+PUNCT/NOUN/punct ，/根源/punct
+NOUN/NOUN/nmod 问题/根源/nmod
+PART/NOUN/case 的/问题/case
+NOUN/ADJ/nsubj 根源/顽固/nsubj
+PUNCT/NOUN/punct ，/根源/punct
+AUX/ADJ/cop 就是/顽固/cop
+NUM/VERB/obl 一/如/obl
+VERB/ADJ/advcl 如/顽固/advcl
+ADJ/VERB/xcomp 既往/如/xcomp
+PUNCT/VERB/punct ，/如/punct
+PROPN/ADJ/nmod 朝鲜/顽固/nmod
+PART/PROPN/case 的/朝鲜/case
+ADJ/VERB/ccomp 顽固/显示/ccomp
+PUNCT/VERB/punct 。/显示/punct
+----------------------------------------------------------------------
+克林顿的这次访问发生在日本和韩国领导人因支持率惨淡而受到削弱，并因立法方面的盲目而受到阻碍。
+(ROOT (IP (NP (DNP (NP (NNP 克林顿)) (DEC 的)) (DP (DT 这) (CLP (NNB 次))) (NP (NN 访问))) (VP (VV 发生) (PP (IN 在) (IP (NP (NP (NNP 日本) (CC 和) (NNP 韩国)) (NP (VV 领导) (SFN 人))) (VP (VP (PP (IN 因) (IP (NP (VV 支持) (SFN 率)) (VP (JJ 惨淡)))) (VP (RB 而) (VP (VV 受到) (NP (NN 削弱))))) (, ，) (RB 并) (VP (PP (IN 因) (NP (DNP (NP (NN 立法) (NN 方面)) (DEC 的)) (NP (JJ 盲目)))) (VP (RB 而) (VP (VV 受到) (NP (NN 阻碍))))))))) (. 。)))
+PROPN/NOUN/nmod 克林顿/访问/nmod
+PART/PROPN/case 的/克林顿/case
+DET/NOUN/det 这/次/det
+NOUN/NOUN/clf 次/访问/clf
+NOUN/VERB/nsubj 访问/受到/nsubj
+VERB/VERB/advcl 发生/受到/advcl
+ADP/PART/case 在/人/case
+PROPN/PART/nmod 日本/人/nmod
+CCONJ/PART/cc 和/人/cc
+PROPN/PART/nmod 韩国/人/nmod
+VERB/PART/compound 领导/人/compound
+PART/VERB/obl 人/发生/obl
+ADP/PART/case 因/率/case
+VERB/PART/compound 支持/率/compound
+PART/ADJ/nmod 率/惨淡/nmod
+ADJ/VERB/advcl 惨淡/受到/advcl
+ADV/VERB/mark 而/受到/mark
+VERB/VERB/advcl 受到/受到/advcl
+NOUN/VERB/obj 削弱/受到/obj
+PUNCT/VERB/punct ，/受到/punct
+ADV/VERB/mark 并/受到/mark
+ADP/ADJ/case 因/盲目/case
+NOUN/NOUN/nmod 立法/方面/nmod
+NOUN/ADJ/nmod 方面/盲目/nmod
+PART/NOUN/case 的/方面/case
+ADJ/VERB/xcomp 盲目/受到/xcomp
+ADV/VERB/mark 而/受到/mark
+VERB/ROOT/root 受到/ROOT/root
+NOUN/VERB/obj 阻碍/受到/obj
+PUNCT/VERB/punct 。/受到/punct
+----------------------------------------------------------------------
+日本的议会受到“扭曲”，执政党和反对党在双方国会中各占一半，后者会采取阻挠措施，导致首相下台。
+(ROOT (IP (IP (NP (DNP (NP (NNP 日本)) (DEC 的)) (NP (NN 议会))) (VP (VV 受到) (NP (`` “) (NN 扭曲) ('' ”)))) (, ，) (IP (NP (VV 执政) (SFN 党) (CC 和) (VV 反对) (SFN 党)) (VP (PP (IN 在) (LCP (NP (NP (QP (CD 双)) (NP (NN 方))) (NP (NN 国会))) (IN 中))) (ADVP (DT 各)) (VP (VV 占) (QP (CD 一半))))) (, ，) (IP (NP (NN 后者)) (VP (MD 会) (VP (VP (VV 采取) (NP (NN 阻挠) (NN 措施))) (, ，) (VP (VV 导致) (IP (NP (NN 首相)) (VP (VV 下台))))))) (. 。)))
+PROPN/NOUN/nmod 日本/议会/nmod
+PART/PROPN/case 的/日本/case
+NOUN/VERB/nsubj 议会/受到/nsubj
+VERB/ROOT/root 受到/ROOT/root
+PUNCT/NOUN/punct “/扭曲/punct
+NOUN/VERB/obj 扭曲/受到/obj
+PUNCT/NOUN/punct ”/扭曲/punct
+PUNCT/VERB/punct ，/受到/punct
+VERB/PART/compound 执政/党/compound
+PART/VERB/nsubj 党/占/nsubj
+CCONJ/PART/cc 和/党/cc
+VERB/PART/compound 反对/党/compound
+PART/PART/conj 党/党/conj
+ADP/NOUN/case 在/国会/case
+NUM/NOUN/nummod 双/方/nummod
+NOUN/NOUN/nmod 方/国会/nmod
+NOUN/VERB/obl 国会/占/obl
+ADP/NOUN/case 中/国会/case
+DET/VERB/obl 各/占/obl
+VERB/VERB/advcl 占/导致/advcl
+NUM/VERB/obj 一半/占/obj
+PUNCT/VERB/punct ，/占/punct
+NOUN/VERB/nsubj 后者/采取/nsubj
+AUX/VERB/aux 会/采取/aux
+VERB/VERB/advcl 采取/导致/advcl
+NOUN/NOUN/nmod 阻挠/措施/nmod
+NOUN/VERB/obj 措施/采取/obj
+PUNCT/VERB/punct ，/采取/punct
+VERB/VERB/parataxis 导致/受到/parataxis
+NOUN/VERB/nsubj 首相/下台/nsubj
+VERB/VERB/ccomp 下台/导致/ccomp
+PUNCT/VERB/punct 。/导致/punct
+----------------------------------------------------------------------
+韩国执政的国民大会党因为派系纷争而陷于动荡，尽管在一院制国民议会中拥有近三分之二的控制权，但其行事如同少数派一样。
+(ROOT (IP (IP (NP (CP (CP (IP (NP (NNP 韩国)) (VP (VV 执政))) (DEC 的))) (NP (NN 国民) (NN 大会) (SFN 党))) (VP (PP (IN 因为) (NP (NN 派系) (NN 纷争))) (VP (RB 而) (VP (VV 陷) (PP (VV 于) (NP (NN 动荡))))))) (, ，) (IP (IP (VP (ADVP (IN 尽管)) (PP (IN 在) (LCP (NP (NP (NP (QP (CD 一)) (NP (NN 院))) (NP (SFN 制))) (NP (NN 国民) (NN 议会))) (IN 中))) (VP (VV 拥有) (NP (DNP (NP (DNP (QP (ADVP (RB 近)) (QP (CD 三) (CLP (NNB 分)))) (DEC 之)) (NP (CD 二))) (DEC 的)) (NP (VV 控制) (SFN 权)))))) (, ，) (ADVP (RB 但)) (NP (NP (PRP 其)) (NP (NN 行事))) (VP (PP (VV 如同) (NP (QP (JJ 少数)) (NP (SFN 派)))) (VP (JJ 一样)))) (. 。)))
+PROPN/VERB/nsubj 韩国/执政/nsubj
+VERB/PART/acl:relcl 执政/党/acl:relcl
+PART/VERB/mark:rel 的/执政/mark:rel
+NOUN/PART/nmod 国民/党/nmod
+NOUN/PART/compound 大会/党/compound
+PART/VERB/nsubj 党/陷/nsubj
+ADP/NOUN/case 因为/纷争/case
+NOUN/NOUN/nmod 派系/纷争/nmod
+NOUN/VERB/obl 纷争/陷/obl
+ADV/VERB/mark 而/陷/mark
+VERB/ROOT/root 陷/ROOT/root
+VERB/VERB/mark 于/陷/mark
+NOUN/VERB/obj 动荡/陷/obj
+PUNCT/VERB/punct ，/拥有/punct
+ADP/VERB/case 尽管/拥有/case
+ADP/NOUN/case 在/议会/case
+NUM/NOUN/nummod 一/院/nummod
+NOUN/PART/compound 院/制/compound
+PART/NOUN/nmod 制/议会/nmod
+NOUN/NOUN/nmod 国民/议会/nmod
+NOUN/VERB/obl 议会/拥有/obl
+ADP/NOUN/case 中/议会/case
+VERB/VERB/parataxis 拥有/陷/parataxis
+ADV/NOUN/advmod 近/分/advmod
+NUM/NOUN/nummod 三/分/nummod
+NOUN/NUM/nmod 分/二/nmod
+PART/NOUN/case 之/分/case
+NUM/PART/nummod 二/权/nummod
+PART/NUM/case 的/二/case
+VERB/PART/compound 控制/权/compound
+PART/VERB/obj 权/拥有/obj
+PUNCT/VERB/punct ，/如同/punct
+ADV/VERB/mark 但/如同/mark
+PRON/NOUN/nmod 其/行事/nmod
+NOUN/VERB/nsubj 行事/如同/nsubj
+VERB/VERB/parataxis 如同/陷/parataxis
+ADJ/PART/compound 少数/派/compound
+PART/ADJ/nsubj 派/一样/nsubj
+ADJ/VERB/ccomp 一样/如同/ccomp
+PUNCT/VERB/punct 。/陷/punct
+----------------------------------------------------------------------
+太郎麻生首相和李明博总统都没有在扩大军事同盟方面取得进展，两人可能都会抵制奥巴马政府在阿富汗的军事援助要求。
+(ROOT (IP (IP (NP (NP (NP (NN 太郎)) (NP (NNP 麻生) (NN 首相))) (CC 和) (NP (NNP 李) (NNP 明博) (NN 总统))) (VP (ADVP (RB 都)) (VP (VV 没有) (VP (PP (IN 在) (NP (IP (VP (VV 扩大) (NP (NN 军事) (NN 同盟)))) (NP (NN 方面)))) (VP (VV 取得) (NP (NN 进展))))))) (, ，) (IP (NP (QP (CD 两)) (NP (NN 人))) (VP (MD 可能) (VP (RB 都会) (VP (VV 抵制) (NP (NP (NP (NNP 奥巴马)) (NP (NN 政府))) (DNP (PP (VV 在) (NP (NNP 阿富汗))) (DEC 的)) (NP (NN 军事) (NN 援助)) (NP (NN 要求))))))) (. 。)))
+NOUN/NOUN/nmod 太郎/首相/nmod
+PROPN/NOUN/nmod 麻生/首相/nmod
+NOUN/VERB/nsubj 首相/没有/nsubj
+CCONJ/NOUN/cc 和/总统/cc
+PROPN/NOUN/nmod 李/总统/nmod
+PROPN/NOUN/nmod 明博/总统/nmod
+NOUN/NOUN/conj 总统/首相/conj
+ADV/VERB/mark 都/没有/mark
+VERB/ROOT/root 没有/ROOT/root
+ADP/NOUN/case 在/方面/case
+VERB/NOUN/amod 扩大/方面/amod
+NOUN/NOUN/nmod 军事/同盟/nmod
+NOUN/VERB/obj 同盟/扩大/obj
+NOUN/VERB/obl 方面/取得/obl
+VERB/VERB/xcomp 取得/没有/xcomp
+NOUN/VERB/obj 进展/取得/obj
+PUNCT/VERB/punct ，/抵制/punct
+NUM/NOUN/nummod 两/人/nummod
+NOUN/VERB/nsubj 人/抵制/nsubj
+AUX/VERB/aux 可能/抵制/aux
+ADV/VERB/advmod 都会/抵制/advmod
+VERB/VERB/parataxis 抵制/没有/parataxis
+PROPN/NOUN/nmod 奥巴马/政府/nmod
+NOUN/VERB/nsubj 政府/在/nsubj
+VERB/NOUN/acl:relcl 在/要求/acl:relcl
+PROPN/VERB/obj 阿富汗/在/obj
+PART/VERB/mark:rel 的/在/mark:rel
+NOUN/NOUN/nmod 军事/要求/nmod
+NOUN/NOUN/nmod 援助/要求/nmod
+NOUN/VERB/obj 要求/抵制/obj
+PUNCT/VERB/punct 。/没有/punct
+----------------------------------------------------------------------
+日益嚣张的朝鲜
+(ROOT (NP (CP (CP (IP (VP (ADVP (RB 日益)) (VP (RB 嚣) (NP (NNP 张))))) (DEC 的))) (NP (NNP 朝鲜))))
+ADV/ADV/advmod 日益/嚣/advmod
+ADV/PROPN/advmod 嚣/张/advmod
+PROPN/PROPN/nmod 张/朝鲜/nmod
+PART/PROPN/mark:rel 的/张/mark:rel
+PROPN/ROOT/root 朝鲜/ROOT/root
+----------------------------------------------------------------------
+克林顿此行将因朝鲜日益增长的敌对态度和潜在的远程导弹发射而受到影响。
+(ROOT (IP (NP (NNP 克林顿)) (VP (DP (DT 此)) (ADVP (RB 行将)) (PP (IN 因) (NP (NP (CP (CP (IP (NP (NNP 朝鲜)) (VP (ADVP (RB 日益)) (VP (VV 增长)))) (DEC 的))) (ADJP (NN 敌对)) (NP (NN 态度))) (CC 和) (NP (NP (DNP (ADJP (JJ 潜在)) (DEC 的)) (ADJP (NN 远程)) (NP (NN 导弹))) (NP (NN 发射))))) (VP (RB 而) (VP (VV 受到) (NP (NN 影响))))) (. 。)))
+PROPN/VERB/nsubj 克林顿/受到/nsubj
+DET/VERB/nsubj 此/受到/nsubj
+ADV/VERB/advmod 行将/受到/advmod
+ADP/NOUN/case 因/态度/case
+PROPN/VERB/nsubj 朝鲜/增长/nsubj
+ADV/VERB/advmod 日益/增长/advmod
+VERB/NOUN/acl:relcl 增长/态度/acl:relcl
+PART/VERB/mark:rel 的/增长/mark:rel
+NOUN/NOUN/nmod 敌对/态度/nmod
+NOUN/VERB/obl 态度/受到/obl
+CCONJ/NOUN/cc 和/发射/cc
+ADJ/NOUN/amod 潜在/发射/amod
+PART/ADJ/mark:rel 的/潜在/mark:rel
+NOUN/NOUN/nmod 远程/发射/nmod
+NOUN/NOUN/nmod 导弹/发射/nmod
+NOUN/NOUN/conj 发射/态度/conj
+ADV/VERB/mark 而/受到/mark
+VERB/ROOT/root 受到/ROOT/root
+NOUN/VERB/obj 影响/受到/obj
+PUNCT/VERB/punct 。/受到/punct
+----------------------------------------------------------------------
+为了迫使李明博总统放弃要求朝韩关系以条件、互惠和透明为前提的原则性政策，平壤加紧了口头攻击，并威胁要对韩国采取军事行动。
+(ROOT (IP (PP (IN 为了) (IP (VP (VV 迫使) (NP (NNP 李) (NNP 明博) (NN 总统)) (IP (VP (VV 放弃) (NP (CP (IP (VP (VV 要求) (NP (NP (NNP 朝) (NNP 韩)) (NP (NN 关系))) (IP (VP (PP (IN 以) (NP (NN 条件) (EC 、) (VV 互惠) (CC 和) (JJ 透明))) (VP (VC 为) (NP (NN 前提))))))) (DEC 的)) (NP (VV 原则) (SFN 性) (NN 政策)))))))) (, ，) (NP (NNP 平壤)) (VP (VP (VV 加紧) (AS 了) (NP (ADJP (NN 口头)) (NP (NN 攻击)))) (, ，) (RB 并) (VP (VV 威胁) (IP (VP (MD 要) (VP (PP (IN 对) (NP (NNP 韩国))) (VP (VV 采取) (NP (NN 军事) (NN 行动)))))))) (. 。)))
+ADP/VERB/case 为了/迫使/case
+VERB/VERB/xcomp 迫使/威胁/xcomp
+PROPN/NOUN/nmod 李/总统/nmod
+PROPN/NOUN/nmod 明博/总统/nmod
+NOUN/VERB/nsubj 总统/放弃/nsubj
+VERB/VERB/ccomp 放弃/迫使/ccomp
+VERB/VERB/xcomp 要求/放弃/xcomp
+PROPN/NOUN/nmod 朝/关系/nmod
+PROPN/NOUN/nmod 韩/关系/nmod
+NOUN/VERB/nsubj 关系/为/nsubj
+ADP/NOUN/case 以/条件/case
+NOUN/VERB/obl 条件/为/obl
+PUNCT/VERB/punct 、/互惠/punct
+VERB/NOUN/conj 互惠/条件/conj
+CCONJ/ADJ/cc 和/透明/cc
+ADJ/NOUN/conj 透明/条件/conj
+VERB/NOUN/acl:relcl 为/政策/acl:relcl
+NOUN/VERB/obj 前提/为/obj
+PART/VERB/mark:rel 的/为/mark:rel
+VERB/PART/compound 原则/性/compound
+PART/NOUN/nmod 性/政策/nmod
+NOUN/VERB/obj 政策/要求/obj
+PUNCT/VERB/punct ，/迫使/punct
+PROPN/VERB/nsubj 平壤/威胁/nsubj
+VERB/VERB/advcl 加紧/威胁/advcl
+AUX/VERB/aux 了/加紧/aux
+NOUN/NOUN/nmod 口头/攻击/nmod
+NOUN/VERB/obj 攻击/加紧/obj
+PUNCT/VERB/punct ，/加紧/punct
+ADV/VERB/mark 并/威胁/mark
+VERB/ROOT/root 威胁/ROOT/root
+AUX/VERB/aux 要/采取/aux
+ADP/PROPN/case 对/韩国/case
+PROPN/VERB/obl 韩国/采取/obl
+VERB/VERB/xcomp 采取/威胁/xcomp
+NOUN/NOUN/nmod 军事/行动/nmod
+NOUN/VERB/obj 行动/采取/obj
+PUNCT/VERB/punct 。/威胁/punct
+----------------------------------------------------------------------
+朝鲜的言论也是对奥巴马政府的一记警钟。
+(ROOT (IP (NP (DNP (NP (NNP 朝鲜)) (DEC 的)) (NP (NN 言论))) (VP (VC 也是) (NP (DNP (PP (IN 对) (NP (NP (NNP 奥巴马)) (NP (NN 政府)))) (DEC 的)) (QP (CD 一) (CLP (NNB 记))) (NP (NN 警钟)))) (. 。)))
+PROPN/NOUN/nmod 朝鲜/言论/nmod
+PART/PROPN/case 的/朝鲜/case
+NOUN/NOUN/nsubj 言论/警钟/nsubj
+AUX/NOUN/cop 也是/警钟/cop
+ADP/NOUN/case 对/警钟/case
+PROPN/NOUN/nmod 奥巴马/政府/nmod
+NOUN/NOUN/nmod 政府/警钟/nmod
+PART/NOUN/case 的/警钟/case
+NUM/NOUN/nummod 一/记/nummod
+NOUN/NOUN/clf 记/警钟/clf
+NOUN/ROOT/root 警钟/ROOT/root
+PUNCT/NOUN/punct 。/警钟/punct
+----------------------------------------------------------------------
+1 月中旬，朝鲜拒绝了现有的六方协议，声称只有在与美国建立正式外交关系、华盛顿停止“敌对政策”、取消对韩国的核保护伞之后，才会实现无核化。
+(ROOT (IP (NP (CD 1) (NNB 月) (NN 中旬)) (, ，) (NP (NNP 朝鲜)) (VP (VP (VV 拒绝) (AS 了) (NP (DNP (ADJP (VV 现有)) (DEC 的)) (NP (QP (CD 六)) (NP (NN 方))) (NP (NN 协议)))) (, ，) (VP (VV 声称) (IP (VP (ADVP (IN 只有)) (PP (IN 在) (LCP (IP (IP (VP (PP (IN 与) (NP (NNP 美国))) (VP (VV 建立) (NP (ADJP (JJ 正式)) (NP (NN 外交) (NN 关系)))))) (EC 、) (IP (NP (NNP 华盛顿)) (VP (VP (VV 停止) (NP (`` “) (ADJP (VV 敌对)) (NP (NN 政策)) ('' ”))) (EC 、) (VP (VV 取消) (NP (DNP (PP (IN 对) (NP (NNP 韩国))) (DEC 的)) (NP (NN 核) (VV 保护) (SFN 伞))))))) (IN 之后))) (, ，) (ADVP (RB 才)) (VP (MD 会) (VP (VV 实现) (NP (ADJP (VV 无)) (NP (NN 核化))))))))) (. 。)))
+NUM/NOUN/nummod 1/月/nummod
+NOUN/NOUN/clf 月/中旬/clf
+NOUN/VERB/nmod:tmod 中旬/声称/nmod:tmod
+PUNCT/NOUN/punct ，/中旬/punct
+PROPN/VERB/nsubj 朝鲜/声称/nsubj
+VERB/VERB/advcl 拒绝/实现/advcl
+AUX/VERB/aux 了/拒绝/aux
+VERB/NOUN/acl:relcl 现有/协议/acl:relcl
+PART/VERB/mark:rel 的/现有/mark:rel
+NUM/NOUN/nummod 六/方/nummod
+NOUN/NOUN/nmod 方/协议/nmod
+NOUN/VERB/obj 协议/拒绝/obj
+PUNCT/VERB/punct ，/拒绝/punct
+VERB/ROOT/root 声称/ROOT/root
+ADP/VERB/xcomp 只有/声称/xcomp
+ADP/PROPN/case 在/美国/case
+ADP/PROPN/case 与/美国/case
+PROPN/VERB/obl 美国/建立/obl
+VERB/VERB/xcomp 建立/声称/xcomp
+ADJ/NOUN/amod 正式/关系/amod
+NOUN/NOUN/nmod 外交/关系/nmod
+NOUN/VERB/obj 关系/建立/obj
+PUNCT/VERB/punct 、/停止/punct
+PROPN/VERB/nsubj 华盛顿/停止/nsubj
+VERB/VERB/conj 停止/建立/conj
+PUNCT/NOUN/punct “/政策/punct
+VERB/NOUN/amod 敌对/政策/amod
+NOUN/VERB/obj 政策/停止/obj
+PUNCT/NOUN/punct ”/政策/punct
+PUNCT/VERB/punct 、/取消/punct
+VERB/VERB/conj 取消/停止/conj
+ADP/PART/case 对/伞/case
+PROPN/ADP/nmod 韩国/对/nmod
+PART/VERB/mark:rel 的/取消/mark:rel
+NOUN/PART/nmod 核/伞/nmod
+VERB/PART/compound 保护/伞/compound
+PART/VERB/obl 伞/取消/obl
+ADP/VERB/mark 之后/取消/mark
+PUNCT/VERB/punct ，/取消/punct
+ADV/VERB/mark 才/实现/mark
+AUX/VERB/aux 会/实现/aux
+VERB/VERB/xcomp 实现/声称/xcomp
+VERB/VERB/xcomp 无/实现/xcomp
+NOUN/VERB/obj 核化/无/obj
+PUNCT/VERB/punct 。/实现/punct
+----------------------------------------------------------------------
+平壤可能也在准备试射一枚 Taepo Dong-2 导弹，理论上，这种导弹可以携带核弹头，覆盖整个美国大陆。
+(ROOT (IP (IP (NP (NNP 平壤)) (VP (MD 可能) (VP (ADVP (RB 也)) (ADVP (RB 在)) (VP (VV 准备) (IP (VP (VV 试射) (NP (QP (CD 一) (CLP (NNB 枚))) (NP (NP (FW Taepo)) (FW Dong-2)) (NP (NN 导弹))))))))) (, ，) (IP (LCP (NP (NN 理论)) (IN 上)) (, ，) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 导弹))) (VP (MD 可以) (VP (VP (VV 携带) (NP (NN 核弹) (SFN 头))) (, ，) (VP (VV 覆盖) (NP (DP (DT 整个)) (NP (NNP 美国)) (NP (NN 大陆))))))) (. 。)))
+PROPN/VERB/nsubj 平壤/准备/nsubj
+AUX/VERB/aux 可能/准备/aux
+ADV/VERB/mark 也/准备/mark
+ADV/VERB/advmod 在/准备/advmod
+VERB/ROOT/root 准备/ROOT/root
+VERB/VERB/xcomp 试射/准备/xcomp
+NUM/NOUN/nummod 一/枚/nummod
+NOUN/NOUN/clf 枚/导弹/clf
+X/NOUN/nmod Taepo/导弹/nmod
+X/X/flat:foreign Dong-2/Taepo/flat:foreign
+NOUN/VERB/obj 导弹/试射/obj
+PUNCT/VERB/punct ，/覆盖/punct
+NOUN/VERB/obl 理论/覆盖/obl
+ADP/NOUN/case 上/理论/case
+PUNCT/NOUN/punct ，/理论/punct
+DET/NOUN/det 这/种/det
+NOUN/NOUN/clf 种/导弹/clf
+NOUN/VERB/nsubj 导弹/覆盖/nsubj
+AUX/VERB/aux 可以/携带/aux
+VERB/VERB/advcl 携带/覆盖/advcl
+NOUN/PART/compound 核弹/头/compound
+PART/VERB/obj 头/携带/obj
+PUNCT/VERB/punct ，/携带/punct
+VERB/VERB/parataxis 覆盖/准备/parataxis
+DET/NOUN/det 整个/大陆/det
+PROPN/NOUN/nmod 美国/大陆/nmod
+NOUN/VERB/obj 大陆/覆盖/obj
+PUNCT/VERB/punct 。/准备/punct
+----------------------------------------------------------------------
+朝鲜的行动是一个明确的信号，即尽管美国领导层发生变化，但它仍不会采取更加妥协的立场。
+(ROOT (IP (IP (NP (DNP (NP (NNP 朝鲜)) (DEC 的)) (NP (NN 行动))) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 明确))) (DEC 的))) (NP (NN 信号))))) (, ，) (IP (ADVP (VC 即)) (CP (ADVP (IN 尽管)) (IP (NP (NP (NNP 美国)) (NP (VV 领导) (SFN 层))) (VP (VV 发生) (NP (NN 变化))))) (, ，) (ADVP (RB 但)) (NP (PRP 它)) (VP (ADVP (RB 仍)) (VP (MD 不会) (VP (VV 采取) (NP (CP (CP (IP (VP (ADVP (RB 更加)) (VP (JJ 妥协)))) (DEC 的))) (NP (NN 立场))))))) (. 。)))
+PROPN/NOUN/nmod 朝鲜/行动/nmod
+PART/PROPN/case 的/朝鲜/case
+NOUN/VERB/nsubj 行动/即/nsubj
+AUX/NOUN/cop 是/信号/cop
+NUM/NOUN/nummod 一/个/nummod
+NOUN/NOUN/clf 个/信号/clf
+ADJ/NOUN/amod 明确/信号/amod
+PART/ADJ/mark:rel 的/明确/mark:rel
+NOUN/VERB/advcl 信号/即/advcl
+PUNCT/NOUN/punct ，/信号/punct
+VERB/ROOT/root 即/ROOT/root
+ADP/VERB/case 尽管/发生/case
+PROPN/PART/nmod 美国/层/nmod
+VERB/PART/compound 领导/层/compound
+PART/VERB/nsubj 层/发生/nsubj
+VERB/VERB/ccomp 发生/即/ccomp
+NOUN/VERB/obj 变化/发生/obj
+PUNCT/VERB/punct ，/发生/punct
+ADV/VERB/mark 但/采取/mark
+PRON/VERB/nsubj 它/采取/nsubj
+ADV/VERB/advmod 仍/采取/advmod
+AUX/VERB/aux 不会/采取/aux
+VERB/VERB/ccomp 采取/即/ccomp
+ADV/ADJ/advmod 更加/妥协/advmod
+ADJ/NOUN/amod 妥协/立场/amod
+PART/ADJ/mark:rel 的/妥协/mark:rel
+NOUN/VERB/obj 立场/采取/obj
+PUNCT/VERB/punct 。/即/punct
+----------------------------------------------------------------------
+这种行为是朝鲜标准的谈判策略，目的是提高赌注，把自己违规行为的批评归咎于美国的行为，坚持在不平等的违规行为面前要求条件的平等，并促使重新谈判现有的协议。
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 行为))) (VP (VC 是) (NP (DNP (NP (NP (NNP 朝鲜)) (NP (NN 标准))) (DEC 的)) (NP (NN 谈判) (NN 策略))))) (, ，) (IP (NP (NN 目的)) (VP (VC 是) (IP (VP (VP (VV 提高) (NP (NN 赌注))) (, ，) (VP (BB 把) (IP (NP (DNP (NP (NP (PRD 自己)) (ADJP (NN 违规)) (NP (NN 行为))) (DEC 的)) (NP (NN 批评))) (VP (VV 归咎) (PP (VV 于) (NP (DNP (NP (NNP 美国)) (DEC 的)) (NP (NN 行为))))))) (, ，) (VP (VV 坚持) (IP (VP (PP (IN 在) (NP (CP (CP (IP (VP (ADVP (RB 不)) (VP (JJ 平等)))) (DEC 的))) (ADJP (NN 违规)) (NP (NN 行为)))) (ADVP (RB 面前)) (VP (VV 要求) (NP (DNP (NP (NN 条件)) (DEC 的)) (NP (NN 平等))))))) (, ，) (RB 并) (VP (VV 促使) (IP (VP (ADVP (RB 重新)) (VP (VV 谈判) (NP (DNP (ADJP (VV 现有)) (DEC 的)) (NP (NN 协议))))))))))) (. 。)))
+DET/NOUN/det 这/种/det
+NOUN/NOUN/clf 种/行为/clf
+NOUN/NOUN/nsubj 行为/策略/nsubj
+AUX/NOUN/cop 是/策略/cop
+PROPN/NOUN/nmod 朝鲜/标准/nmod
+NOUN/NOUN/nmod 标准/策略/nmod
+PART/NOUN/mark:rel 的/标准/mark:rel
+NOUN/NOUN/nmod 谈判/策略/nmod
+NOUN/ROOT/root 策略/ROOT/root
+PUNCT/VERB/punct ，/是/punct
+NOUN/VERB/nsubj 目的/是/nsubj
+VERB/NOUN/parataxis 是/策略/parataxis
+VERB/VERB/xcomp 提高/是/xcomp
+NOUN/VERB/obj 赌注/提高/obj
+PUNCT/VERB/punct ，/是/punct
+ADP/NOUN/case 把/批评/case
+PRON/NOUN/nmod 自己/行为/nmod
+NOUN/NOUN/nmod 违规/行为/nmod
+NOUN/NOUN/nmod 行为/批评/nmod
+PART/NOUN/case 的/行为/case
+NOUN/VERB/obl:patient 批评/归咎/obl:patient
+VERB/VERB/advcl 归咎/促使/advcl
+VERB/VERB/mark 于/归咎/mark
+PROPN/NOUN/nmod 美国/行为/nmod
+PART/PROPN/case 的/美国/case
+NOUN/VERB/obj 行为/归咎/obj
+PUNCT/VERB/punct ，/归咎/punct
+VERB/VERB/advcl 坚持/促使/advcl
+ADP/NOUN/case 在/行为/case
+ADV/ADJ/advmod 不/平等/advmod
+ADJ/NOUN/amod 平等/行为/amod
+PART/ADJ/mark:rel 的/平等/mark:rel
+NOUN/NOUN/nmod 违规/行为/nmod
+NOUN/VERB/obl 行为/要求/obl
+ADV/VERB/advmod 面前/要求/advmod
+VERB/NOUN/acl:relcl 要求/平等/acl:relcl
+NOUN/VERB/obj 条件/要求/obj
+PART/VERB/mark:rel 的/要求/mark:rel
+NOUN/VERB/obj 平等/坚持/obj
+PUNCT/VERB/punct ，/坚持/punct
+ADV/VERB/mark 并/促使/mark
+VERB/NOUN/parataxis 促使/策略/parataxis
+ADV/VERB/advmod 重新/谈判/advmod
+VERB/VERB/xcomp 谈判/促使/xcomp
+VERB/NOUN/acl:relcl 现有/协议/acl:relcl
+PART/VERB/mark:rel 的/现有/mark:rel
+NOUN/VERB/obj 协议/谈判/obj
+PUNCT/NOUN/punct 。/策略/punct
+----------------------------------------------------------------------
+然而，在西海，韩国海军之间的战术对抗风险日益增大，有可能导致误判和升级。
+(ROOT (IP (IP (ADVP (RB 然而)) (, ，) (PP (VV 在) (NP (NNP 西海))) (, ，) (NP (DNP (LCP (NP (NP (NNP 韩国)) (NP (NN 海军))) (IN 之间)) (DEC 的)) (NP (NN 战术) (NN 对抗)) (NP (NN 风险))) (VP (ADVP (RB 日益)) (VP (VV 增大)))) (, ，) (IP (VP (VP (VV 有) (NP (MD 可能))) (VP (VV 导致) (NP (NN 误判) (CC 和) (VV 升级))))) (. 。)))
+ADV/VERB/mark 然而/有/mark
+PUNCT/ADV/punct ，/然而/punct
+VERB/VERB/advcl 在/增大/advcl
+PROPN/VERB/obj 西海/在/obj
+PUNCT/VERB/punct ，/在/punct
+PROPN/NOUN/nmod 韩国/海军/nmod
+NOUN/NOUN/nmod 海军/风险/nmod
+ADP/NOUN/case 之间/海军/case
+PART/NOUN/case 的/海军/case
+NOUN/NOUN/nmod 战术/风险/nmod
+NOUN/NOUN/nmod 对抗/风险/nmod
+NOUN/VERB/nsubj 风险/增大/nsubj
+ADV/VERB/advmod 日益/增大/advmod
+VERB/VERB/advcl 增大/有/advcl
+PUNCT/VERB/punct ，/增大/punct
+VERB/ROOT/root 有/ROOT/root
+AUX/VERB/aux 可能/导致/aux
+VERB/VERB/xcomp 导致/有/xcomp
+NOUN/VERB/obj 误判/导致/obj
+CCONJ/VERB/cc 和/升级/cc
+VERB/NOUN/conj 升级/误判/conj
+PUNCT/VERB/punct 。/有/punct
+----------------------------------------------------------------------
+应该怎么做
+(ROOT (IP (VP (MD 应该) (VP (ADVP (RB 怎么)) (VP (VV 做))))))
+AUX/VERB/aux 应该/做/aux
+ADV/VERB/advmod 怎么/做/advmod
+VERB/ROOT/root 做/ROOT/root
+----------------------------------------------------------------------
+克林顿在此次访问中必须在满足盟国关切的同时，还要坚持美国的强硬立场。
+(ROOT (IP (NP (NNP 克林顿)) (VP (PP (IN 在) (LCP (NP (ADJP (DT 此次)) (NP (NN 访问))) (IN 中))) (VP (MD 必须) (VP (PP (IN 在) (NP (CP (CP (IP (VP (VV 满足) (NP (NN 盟国) (NN 关切)))) (DEC 的))) (NP (NN 同时)))) (, ，) (ADVP (RB 还)) (VP (MD 要) (VP (VV 坚持) (NP (DNP (NP (NNP 美国)) (DEC 的)) (ADJP (JJ 强硬)) (NP (NN 立场)))))))) (. 。)))
+PROPN/VERB/nsubj 克林顿/坚持/nsubj
+ADP/NOUN/case 在/访问/case
+DET/NOUN/det 此次/访问/det
+NOUN/VERB/obl 访问/坚持/obl
+ADP/NOUN/case 中/访问/case
+AUX/NOUN/aux 必须/同时/aux
+ADP/NOUN/case 在/同时/case
+VERB/NOUN/acl:relcl 满足/同时/acl:relcl
+NOUN/NOUN/nmod 盟国/关切/nmod
+NOUN/VERB/obj 关切/满足/obj
+PART/VERB/mark:rel 的/满足/mark:rel
+NOUN/VERB/obl 同时/坚持/obl
+PUNCT/NOUN/punct ，/同时/punct
+ADV/VERB/mark 还/坚持/mark
+AUX/VERB/aux 要/坚持/aux
+VERB/ROOT/root 坚持/ROOT/root
+PROPN/NOUN/nmod 美国/立场/nmod
+PART/PROPN/case 的/美国/case
+ADJ/NOUN/amod 强硬/立场/amod
+NOUN/VERB/obj 立场/坚持/obj
+PUNCT/VERB/punct 。/坚持/punct
+----------------------------------------------------------------------
+尽管首尔和东京都同意扩大各自的双边联盟的范围，但执行工作一直落后。
+(ROOT (IP (CP (ADVP (IN 尽管)) (IP (NP (NNP 首尔) (CC 和) (NNP 东京)) (VP (ADVP (RB 都)) (VP (VV 同意) (IP (VP (VV 扩大) (NP (DNP (NP (DNP (NP (DT 各自)) (DEC 的)) (QP (CD 双) (CLP (NN 边))) (NP (NN 联盟))) (DEC 的)) (NP (NN 范围))))))))) (, ，) (ADVP (RB 但)) (NP (NN 执行) (NN 工作)) (VP (ADVP (RB 一直)) (VP (JJ 落后))) (. 。)))
+ADP/VERB/case 尽管/同意/case
+PROPN/VERB/nsubj 首尔/同意/nsubj
+CCONJ/PROPN/cc 和/东京/cc
+PROPN/PROPN/conj 东京/首尔/conj
+ADV/VERB/mark 都/同意/mark
+VERB/ROOT/root 同意/ROOT/root
+VERB/VERB/xcomp 扩大/同意/xcomp
+DET/NOUN/det 各自/联盟/det
+PART/DET/case 的/各自/case
+NUM/NOUN/nummod 双/边/nummod
+NOUN/NOUN/nmod 边/联盟/nmod
+NOUN/VERB/obj 联盟/扩大/obj
+PART/VERB/mark:rel 的/扩大/mark:rel
+NOUN/VERB/obj 范围/扩大/obj
+PUNCT/ADJ/punct ，/落后/punct
+ADV/ADJ/mark 但/落后/mark
+NOUN/NOUN/nmod 执行/工作/nmod
+NOUN/ADJ/nsubj 工作/落后/nsubj
+ADV/ADJ/advmod 一直/落后/advmod
+ADJ/VERB/parataxis 落后/同意/parataxis
+PUNCT/VERB/punct 。/同意/punct
+----------------------------------------------------------------------
+克林顿应该欢迎韩国与美国的双边关系改善，以及自罗纲免担任政府卸任以来军事应急规划的复苏。
+(ROOT (IP (NP (NNP 克林顿)) (VP (MD 应该) (VP (VP (VV 欢迎) (NP (DNP (NP (NNP 韩国) (CC 与) (NNP 美国)) (DEC 的)) (QP (CD 双) (CLP (NN 边))) (NP (NN 关系))) (IP (VP (NN 改善)))) (, ，) (CC 以及) (VP (NP (NNP 自罗) (VV 纲免)) (VP (VV 担任) (NP (LCP (IP (NP (NN 政府)) (VP (NN 卸任))) (IN 以来)) (DNP (NP (NN 军事) (NN 应急) (NN 规划)) (DEC 的)) (NP (NN 复苏))))))) (. 。)))
+PROPN/VERB/nsubj 克林顿/欢迎/nsubj
+AUX/VERB/aux 应该/欢迎/aux
+VERB/ROOT/root 欢迎/ROOT/root
+PROPN/NOUN/nmod 韩国/改善/nmod
+CCONJ/PROPN/cc 与/美国/cc
+PROPN/PROPN/conj 美国/韩国/conj
+PART/PROPN/case 的/韩国/case
+NUM/NOUN/nummod 双/边/nummod
+NOUN/NOUN/nmod 边/关系/nmod
+NOUN/NOUN/nmod 关系/改善/nmod
+NOUN/VERB/obj 改善/欢迎/obj
+PUNCT/VERB/punct ，/纲免/punct
+CCONJ/VERB/cc 以及/纲免/cc
+PROPN/VERB/nsubj 自罗/纲免/nsubj
+VERB/VERB/conj 纲免/欢迎/conj
+VERB/VERB/xcomp 担任/纲免/xcomp
+NOUN/NOUN/nmod 政府/卸任/nmod
+NOUN/NOUN/nmod 卸任/规划/nmod
+ADP/NOUN/case 以来/卸任/case
+NOUN/NOUN/nmod 军事/规划/nmod
+NOUN/NOUN/nmod 应急/规划/nmod
+NOUN/NOUN/nmod 规划/复苏/nmod
+PART/NOUN/case 的/规划/case
+NOUN/VERB/obj 复苏/担任/obj
+PUNCT/VERB/punct 。/欢迎/punct
+----------------------------------------------------------------------
+美国应该继续推动与韩国扩大联盟结构，但也应该认识到国内政治格局的不稳定性。
+(ROOT (IP (NP (NNP 美国)) (VP (VP (MD 应该) (VP (VV 继续) (VP (VV 推动) (IP (VP (PP (IN 与) (NP (NNP 韩国))) (VP (VV 扩大) (NP (NN 联盟) (NN 结构)))))))) (, ，) (VP (ADVP (RB 但)) (ADVP (RB 也)) (VP (MD 应该) (VP (VRD (VV 认识) (VV 到)) (NP (DNP (NP (NN 国内) (NN 政治) (NN 格局)) (DEC 的)) (NP (ADJP (RB 不)) (NP (JJ 稳定))) (NP (SFN 性))))))) (. 。)))
+PROPN/VERB/nsubj 美国/认识/nsubj
+AUX/VERB/aux 应该/继续/aux
+VERB/VERB/advcl 继续/认识/advcl
+VERB/VERB/xcomp 推动/继续/xcomp
+ADP/PROPN/case 与/韩国/case
+PROPN/VERB/obl 韩国/扩大/obl
+VERB/VERB/xcomp 扩大/推动/xcomp
+NOUN/NOUN/nmod 联盟/结构/nmod
+NOUN/VERB/obj 结构/扩大/obj
+PUNCT/VERB/punct ，/继续/punct
+ADV/VERB/mark 但/认识/mark
+ADV/VERB/mark 也/认识/mark
+AUX/VERB/aux 应该/认识/aux
+VERB/ROOT/root 认识/ROOT/root
+VERB/VERB/mark 到/认识/mark
+NOUN/NOUN/nmod 国内/格局/nmod
+NOUN/NOUN/nmod 政治/格局/nmod
+NOUN/PART/nmod 格局/性/nmod
+PART/NOUN/case 的/格局/case
+ADV/ADJ/advmod 不/稳定/advmod
+ADJ/PART/compound 稳定/性/compound
+PART/VERB/obj 性/认识/obj
+PUNCT/VERB/punct 。/认识/punct
+----------------------------------------------------------------------
+任何美国政府要求韩国陆军支持阿富汗联军行动的请求都将尤其具有争议性，并且需要大力开展公共外交工作来减轻公众示威的可能性。
+(ROOT (IP (NP (DP (DT 任何)) (CP (IP (NP (NP (NNP 美国)) (NP (NN 政府))) (VP (VV 要求) (NP (NP (NNP 韩国)) (NP (NN 陆军))) (IP (VP (VV 支持) (NP (NP (NP (NNP 阿富汗)) (NP (NN 联军))) (NP (NN 行动))))))) (DEC 的)) (NP (NN 请求))) (VP (VP (ADVP (RB 都)) (ADVP (RB 将)) (ADVP (RB 尤其)) (VP (VV 具有) (NP (NN 争议) (SFN 性)))) (, ，) (RB 并且) (VP (MD 需要) (VP (VP (ADVP (RB 大力)) (VP (VV 开展) (NP (NP (ADJP (JJ 公共)) (NP (NN 外交))) (NP (NN 工作))))) (VP (RB 来) (VP (VV 减轻) (NP (DNP (NP (NN 公众) (VV 示威)) (DEC 的)) (NP (NN 可能) (SFN 性)))))))) (. 。)))
+DET/NOUN/det 任何/政府/det
+PROPN/NOUN/nmod 美国/政府/nmod
+NOUN/VERB/nsubj 政府/要求/nsubj
+VERB/NOUN/acl:relcl 要求/请求/acl:relcl
+PROPN/NOUN/nmod 韩国/陆军/nmod
+NOUN/VERB/nsubj 陆军/支持/nsubj
+VERB/VERB/ccomp 支持/要求/ccomp
+PROPN/NOUN/nmod 阿富汗/行动/nmod
+NOUN/NOUN/nmod 联军/行动/nmod
+NOUN/VERB/obj 行动/支持/obj
+PART/VERB/mark:rel 的/要求/mark:rel
+NOUN/VERB/nsubj 请求/具有/nsubj
+ADV/VERB/mark 都/具有/mark
+ADV/VERB/advmod 将/具有/advmod
+ADV/VERB/advmod 尤其/具有/advmod
+VERB/VERB/advcl 具有/减轻/advcl
+NOUN/PART/compound 争议/性/compound
+PART/VERB/obj 性/具有/obj
+PUNCT/VERB/punct ，/具有/punct
+ADV/VERB/mark 并且/减轻/mark
+AUX/VERB/aux 需要/减轻/aux
+ADV/VERB/advmod 大力/开展/advmod
+VERB/VERB/advcl 开展/减轻/advcl
+ADJ/NOUN/amod 公共/工作/amod
+NOUN/NOUN/nmod 外交/工作/nmod
+NOUN/VERB/obj 工作/开展/obj
+ADV/VERB/mark 来/减轻/mark
+VERB/ROOT/root 减轻/ROOT/root
+NOUN/VERB/nsubj 公众/示威/nsubj
+VERB/PART/acl:relcl 示威/性/acl:relcl
+PART/VERB/mark:rel 的/示威/mark:rel
+NOUN/PART/compound 可能/性/compound
+PART/VERB/obj 性/减轻/obj
+PUNCT/VERB/punct 。/减轻/punct
+----------------------------------------------------------------------
+由于日本宪法、法律、财政和社会制约以及东京的大规模拖延，与日本的军事关系一直很困难。
+(ROOT (IP (PP (IN 由于) (NP (NP (NP (NNP 日本)) (NP (NN 宪法) (EC 、) (NN 法律) (EC 、) (NN 财政) (CC 和) (NN 社会)) (NP (NN 制约))) (CC 以及) (NP (DNP (NP (NNP 东京)) (DEC 的)) (NP (ADJP (PFA 大)) (NP (NN 规模))) (NP (NN 拖延))))) (, ，) (NP (DNP (PP (IN 与) (NP (NNP 日本))) (DEC 的)) (NP (NN 军事) (NN 关系))) (VP (ADVP (RB 一直)) (ADVP (RB 很)) (VP (JJ 困难))) (. 。)))
+ADP/NOUN/case 由于/宪法/case
+PROPN/NOUN/nmod 日本/宪法/nmod
+NOUN/ADJ/nsubj 宪法/困难/nsubj
+PUNCT/NOUN/punct 、/法律/punct
+NOUN/NOUN/conj 法律/宪法/conj
+PUNCT/NOUN/punct 、/财政/punct
+NOUN/NOUN/conj 财政/宪法/conj
+CCONJ/NOUN/cc 和/制约/cc
+NOUN/NOUN/nmod 社会/制约/nmod
+NOUN/NOUN/conj 制约/宪法/conj
+CCONJ/NOUN/cc 以及/拖延/cc
+PROPN/NOUN/nmod 东京/拖延/nmod
+PART/PROPN/case 的/东京/case
+PART/NOUN/case 大/规模/case
+NOUN/NOUN/nmod 规模/拖延/nmod
+NOUN/NOUN/conj 拖延/宪法/conj
+PUNCT/NOUN/punct ，/宪法/punct
+ADP/NOUN/case 与/关系/case
+PROPN/NOUN/nmod 日本/关系/nmod
+PART/PROPN/case 的/日本/case
+NOUN/NOUN/nmod 军事/关系/nmod
+NOUN/ADJ/nmod 关系/困难/nmod
+ADV/ADJ/advmod 一直/困难/advmod
+ADV/ADJ/advmod 很/困难/advmod
+ADJ/ROOT/root 困难/ROOT/root
+PUNCT/ADJ/punct 。/困难/punct
+----------------------------------------------------------------------
+目前还不清楚日本愿意多大程度上改变现有的舒适的同盟现状。
+(ROOT (IP (VP (NP (NN 目前)) (ADVP (RB 还)) (ADVP (RB 不)) (VP (VV 清楚) (IP (NP (NNP 日本)) (VP (MD 愿意) (IP (VP (LCP (NP (ADJP (ADVP (JJ 多)) (ADJP (PFA 大))) (NP (NN 程度))) (IN 上)) (VP (VV 改变) (NP (DNP (ADJP (JJ 现有)) (DEC 的)) (CP (CP (IP (VP (JJ 舒适))) (DEC 的))) (NP (NN 同盟) (NN 现状)))))))))) (. 。)))
+NOUN/VERB/nmod:tmod 目前/清楚/nmod:tmod
+ADV/VERB/mark 还/清楚/mark
+ADV/VERB/advmod 不/清楚/advmod
+VERB/ROOT/root 清楚/ROOT/root
+PROPN/VERB/nsubj 日本/改变/nsubj
+AUX/VERB/aux 愿意/改变/aux
+ADJ/NOUN/amod 多/程度/amod
+PART/NOUN/case 大/程度/case
+NOUN/VERB/obl 程度/改变/obl
+ADP/NOUN/case 上/程度/case
+VERB/VERB/ccomp 改变/清楚/ccomp
+ADJ/NOUN/amod 现有/现状/amod
+PART/ADJ/mark:rel 的/现有/mark:rel
+ADJ/NOUN/amod 舒适/现状/amod
+PART/ADJ/mark:rel 的/舒适/mark:rel
+NOUN/NOUN/nmod 同盟/现状/nmod
+NOUN/VERB/obj 现状/改变/obj
+PUNCT/VERB/punct 。/清楚/punct
+----------------------------------------------------------------------
+日本不作为会带来严重后果。
+(ROOT (IP (NP (NNP 日本)) (VP (ADVP (RB 不)) (VP (VV 作) (PP (VC 为) (NP (MD 会)))) (VP (VV 带来) (NP (ADJP (JJ 严重)) (NP (NN 后果))))) (. 。)))
+PROPN/VERB/nsubj 日本/作/nsubj
+ADV/VERB/advmod 不/作/advmod
+VERB/ROOT/root 作/ROOT/root
+VERB/VERB/mark 为/作/mark
+AUX/VERB/aux 会/带来/aux
+VERB/VERB/xcomp 带来/作/xcomp
+ADJ/NOUN/amod 严重/后果/amod
+NOUN/VERB/obj 后果/带来/obj
+PUNCT/VERB/punct 。/带来/punct
+----------------------------------------------------------------------
+日本长期政策停滞不前，不符合华盛顿的战略利益，并且有可能加剧美国对盟友的沮丧。
+(ROOT (IP (IP (NP (NNP 日本)) (ADJP (NN 长期)) (NP (NN 政策)) (VP (VP (VV 停滞) (VV 不前)))) (, ，) (IP (VP (VP (ADVP (RB 不)) (VP (VV 符合) (NP (DNP (NP (NNP 华盛顿)) (DEC 的)) (NP (NN 战略) (NN 利益))))) (, ，) (RB 并且) (VP (VP (VV 有) (NP (MD 可能))) (VP (VV 加剧) (NP (NP (NNP 美国)) (DNP (PP (IN 对) (NP (NN 盟友))) (DEC 的)) (NP (NN 沮丧))))))) (. 。)))
+PROPN/NOUN/nmod 日本/政策/nmod
+NOUN/NOUN/nmod 长期/政策/nmod
+NOUN/VERB/nsubj 政策/停滞/nsubj
+VERB/VERB/advcl 停滞/加剧/advcl
+VERB/VERB/mark 不前/停滞/mark
+PUNCT/VERB/punct ，/停滞/punct
+ADV/VERB/advmod 不/符合/advmod
+VERB/VERB/advcl 符合/加剧/advcl
+PROPN/NOUN/nmod 华盛顿/利益/nmod
+PART/PROPN/case 的/华盛顿/case
+NOUN/NOUN/nmod 战略/利益/nmod
+NOUN/VERB/obj 利益/符合/obj
+PUNCT/VERB/punct ，/符合/punct
+ADV/VERB/mark 并且/加剧/mark
+VERB/VERB/advcl 有/加剧/advcl
+AUX/VERB/aux 可能/加剧/aux
+VERB/ROOT/root 加剧/ROOT/root
+PROPN/NOUN/nmod 美国/沮丧/nmod
+ADP/NOUN/case 对/沮丧/case
+NOUN/NOUN/nmod 盟友/沮丧/nmod
+PART/NOUN/case 的/沮丧/case
+NOUN/VERB/obj 沮丧/加剧/obj
+PUNCT/VERB/punct 。/加剧/punct
+----------------------------------------------------------------------
+东京不愿意或者无法做出坚定的决策，有可能会导致日本在日益崛起的中国的主导下，失去影响力甚至相关性。
+(ROOT (IP (IP (NP (NNP 东京)) (VP (VP (ADVP (RB 不)) (VP (MD 愿意))) (CC 或者) (VP (ADVP (VV 无法)) (VP (VV 做出) (NP (CP (CP (IP (VP (JJ 坚定))) (DEC 的))) (NP (NN 决策))))))) (, ，) (VP (VP (VV 有) (NP (MD 可能))) (VP (MD 会) (VP (VV 导致) (IP (NP (NNP 日本)) (VP (PP (IN 在) (LCP (NP (DNP (NP (CP (CP (IP (VP (ADVP (RB 日益)) (VP (VV 崛起)))) (DEC 的))) (NP (NNP 中国))) (DEC 的)) (NP (NN 主导))) (IN 下))) (, ，) (VP (VP (VV 失去) (NP (VV 影响) (SFN 力))) (NP (ADVP (RB 甚至)) (NP (JJ 相关) (SFN 性))))))))) (. 。)))
+PROPN/VERB/nsubj 东京/无法/nsubj
+ADV/VERB/advmod 不/无法/advmod
+AUX/VERB/aux 愿意/无法/aux
+CCONJ/VERB/cc 或者/无法/cc
+VERB/VERB/xcomp 无法/有/xcomp
+VERB/VERB/xcomp 做出/无法/xcomp
+ADJ/NOUN/amod 坚定/决策/amod
+PART/ADJ/mark:rel 的/坚定/mark:rel
+NOUN/VERB/obj 决策/做出/obj
+PUNCT/VERB/punct ，/无法/punct
+VERB/ROOT/root 有/ROOT/root
+AUX/VERB/aux 可能/导致/aux
+AUX/VERB/aux 会/导致/aux
+VERB/VERB/xcomp 导致/有/xcomp
+PROPN/NOUN/nmod 日本/主导/nmod
+ADP/NOUN/case 在/主导/case
+ADV/VERB/advmod 日益/崛起/advmod
+VERB/PROPN/acl:relcl 崛起/中国/acl:relcl
+PART/VERB/mark:rel 的/崛起/mark:rel
+PROPN/NOUN/nmod 中国/主导/nmod
+PART/PROPN/case 的/中国/case
+NOUN/VERB/obj 主导/导致/obj
+ADP/NOUN/case 下/主导/case
+PUNCT/VERB/punct ，/导致/punct
+VERB/VERB/xcomp 失去/有/xcomp
+VERB/PART/compound 影响/力/compound
+PART/VERB/obj 力/失去/obj
+ADV/VERB/mark 甚至/失去/mark
+ADJ/PART/compound 相关/性/compound
+PART/VERB/obj 性/失去/obj
+PUNCT/VERB/punct 。/失去/punct
+----------------------------------------------------------------------
+克林顿应该明确美国的关切，同时探讨日本的目标，为随后与国防部长协调的工作做好准备。
+(ROOT (IP (NP (NNP 克林顿)) (VP (VP (MD 应该) (VP (VV 明确) (NP (DNP (NP (NNP 美国)) (DEC 的)) (NP (NN 关切))))) (, ，) (VP (ADVP (NN 同时)) (VP (VP (VV 探讨) (NP (DNP (NP (NNP 日本)) (DEC 的)) (NP (NN 目标)))) (, ，) (VP (PP (IN 为) (NP (CP (IP (VP (ADVP (RB 随后)) (PP (IN 与) (NP (NN 国防) (NN 部长))) (VP (VV 协调)))) (DEC 的)) (NP (NN 工作)))) (VP (VV 做好) (NP (NN 准备))))))) (. 。)))
+PROPN/VERB/nsubj 克林顿/做好/nsubj
+AUX/VERB/aux 应该/明确/aux
+VERB/VERB/advcl 明确/做好/advcl
+PROPN/NOUN/nmod 美国/关切/nmod
+PART/PROPN/case 的/美国/case
+NOUN/VERB/obj 关切/明确/obj
+PUNCT/VERB/punct ，/明确/punct
+NOUN/VERB/nmod:tmod 同时/探讨/nmod:tmod
+VERB/VERB/advcl 探讨/做好/advcl
+PROPN/NOUN/nmod 日本/目标/nmod
+PART/PROPN/case 的/日本/case
+NOUN/VERB/obj 目标/探讨/obj
+PUNCT/VERB/punct ，/探讨/punct
+ADP/NOUN/case 为/工作/case
+ADV/VERB/advmod 随后/协调/advmod
+ADP/NOUN/case 与/部长/case
+NOUN/NOUN/nmod 国防/部长/nmod
+NOUN/VERB/obl 部长/协调/obl
+VERB/NOUN/acl:relcl 协调/工作/acl:relcl
+PART/VERB/mark:rel 的/协调/mark:rel
+NOUN/VERB/obl 工作/做好/obl
+VERB/ROOT/root 做好/ROOT/root
+NOUN/VERB/obj 准备/做好/obj
+PUNCT/VERB/punct 。/做好/punct
+----------------------------------------------------------------------
+克林顿应该向盟国保证，美国仍致力于实现朝鲜的全面和可核查的无核化，并明确表示，华盛顿不会接受朝鲜成为核武器国家的局面。
+(ROOT (IP (NP (NNP 克林顿)) (VP (MD 应该) (VP (PP (IN 向) (NP (NN 盟国))) (VP (VV 保证) (, ，) (IP (NP (NNP 美国)) (VP (VP (ADVP (RB 仍)) (VP (VV 致力) (PP (VV 于) (IP (VP (VV 实现) (NP (NP (DNP (NP (NNP 朝鲜)) (DEC 的)) (ADJP (JJ 全面))) (CC 和) (NP (CP (CP (IP (VP (MD 可) (VP (VV 核查)))) (DEC 的))) (ADJP (VV 无)) (NP (NN 核化))))))))) (, ，) (RB 并) (VP (ADVP (RB 明确)) (VP (VV 表示) (, ，) (IP (NP (NNP 华盛顿)) (VP (MD 不会) (VP (VV 接受) (NP (CP (IP (NP (NNP 朝鲜)) (VP (VV 成) (VP (VC 为) (NP (NP (NN 核) (NN 武器)) (NP (NN 国家)))))) (DEC 的)) (NP (NN 局面))))))))))))) (. 。)))
+PROPN/VERB/nsubj 克林顿/保证/nsubj
+AUX/VERB/aux 应该/保证/aux
+ADP/NOUN/case 向/盟国/case
+NOUN/VERB/obl 盟国/保证/obl
+VERB/ROOT/root 保证/ROOT/root
+PUNCT/VERB/punct ，/表示/punct
+PROPN/VERB/nsubj 美国/表示/nsubj
+ADV/VERB/advmod 仍/致力/advmod
+VERB/VERB/advcl 致力/表示/advcl
+VERB/VERB/mark 于/致力/mark
+VERB/VERB/xcomp 实现/致力/xcomp
+PROPN/ADJ/nsubj 朝鲜/全面/nsubj
+PART/PROPN/case 的/朝鲜/case
+ADJ/VERB/acl:relcl 全面/无/acl:relcl
+CCONJ/VERB/cc 和/核查/cc
+AUX/VERB/aux 可/核查/aux
+VERB/ADJ/conj 核查/全面/conj
+PART/ADJ/mark:rel 的/全面/mark:rel
+VERB/VERB/conj 无/实现/conj
+NOUN/VERB/obj 核化/无/obj
+PUNCT/VERB/punct ，/致力/punct
+ADV/VERB/mark 并/表示/mark
+ADV/VERB/advmod 明确/表示/advmod
+VERB/VERB/ccomp 表示/保证/ccomp
+PUNCT/VERB/punct ，/接受/punct
+PROPN/VERB/nsubj 华盛顿/接受/nsubj
+AUX/VERB/aux 不会/接受/aux
+VERB/VERB/ccomp 接受/表示/ccomp
+PROPN/VERB/nsubj 朝鲜/成/nsubj
+VERB/NOUN/acl:relcl 成/局面/acl:relcl
+VERB/VERB/mark 为/成/mark
+NOUN/NOUN/nmod 核/国家/nmod
+NOUN/NOUN/nmod 武器/国家/nmod
+NOUN/VERB/obj 国家/成/obj
+PART/VERB/mark:rel 的/成/mark:rel
+NOUN/VERB/obj 局面/接受/obj
+PUNCT/VERB/punct 。/保证/punct
+----------------------------------------------------------------------
+美国官员的言论在韩国和日本被错误地理解为表明美国政策已经从朝鲜无核化转向仅仅限制现有核武库并防止扩散。
+(ROOT (IP (NP (DNP (NP (NP (NNP 美国)) (NP (NN 官员))) (DEC 的)) (NP (NN 言论))) (VP (PP (VV 在) (NP (NNP 韩国) (CC 和) (NNP 日本))) (VP (BB 被) (VP (DVP (VP (JJ 错误)) (DEV 地)) (VP (VRD (VV 理解) (VC 为)) (IP (VP (VV 表明) (IP (NP (NP (NNP 美国)) (NP (NN 政策))) (VP (VP (ADVP (RB 已经)) (PP (IN 从) (NP (NP (NNP 朝鲜)) (VP (VP (VV 无) (NP (NN 核化))) (VP (VV 转向))))) (ADVP (RB 仅仅)) (VP (VV 限制) (NP (ADJP (VV 现有)) (NP (NN 核) (NN 武库))))) (RB 并) (VP (VV 防止) (NP (VV 扩散))))))))))) (. 。)))
+PROPN/NOUN/nmod 美国/官员/nmod
+NOUN/NOUN/nmod 官员/言论/nmod
+PART/NOUN/case 的/官员/case
+NOUN/VERB/nsubj:pass 言论/理解/nsubj:pass
+VERB/VERB/advcl 在/理解/advcl
+PROPN/VERB/obj 韩国/在/obj
+CCONJ/PROPN/cc 和/日本/cc
+PROPN/PROPN/conj 日本/韩国/conj
+AUX/VERB/aux:pass 被/理解/aux:pass
+ADJ/VERB/advmod 错误/理解/advmod
+PART/ADJ/mark:adv 地/错误/mark:adv
+VERB/ROOT/root 理解/ROOT/root
+VERB/VERB/mark 为/理解/mark
+VERB/VERB/xcomp 表明/理解/xcomp
+PROPN/NOUN/nmod 美国/政策/nmod
+NOUN/VERB/nsubj 政策/防止/nsubj
+ADV/VERB/advmod 已经/防止/advmod
+ADP/VERB/case 从/转向/case
+PROPN/VERB/nsubj 朝鲜/无/nsubj
+VERB/VERB/advcl 无/转向/advcl
+NOUN/VERB/obj 核化/无/obj
+VERB/VERB/ccomp 转向/防止/ccomp
+ADV/VERB/advmod 仅仅/限制/advmod
+VERB/VERB/xcomp 限制/转向/xcomp
+VERB/VERB/xcomp 现有/限制/xcomp
+NOUN/NOUN/nmod 核/武库/nmod
+NOUN/VERB/obj 武库/现有/obj
+ADV/VERB/mark 并/防止/mark
+VERB/VERB/ccomp 防止/表明/ccomp
+VERB/VERB/xcomp 扩散/防止/xcomp
+PUNCT/VERB/punct 。/理解/punct
+----------------------------------------------------------------------
+克林顿还应该阐述奥巴马政府的朝鲜六方会谈战略以及确保朝鲜遵守现有承诺的手段。
+(ROOT (IP (NP (NNP 克林顿)) (VP (ADVP (RB 还)) (VP (MD 应该) (VP (VP (VV 阐述) (NP (DNP (NP (NP (NNP 奥巴马)) (NP (NN 政府))) (DEC 的)) (NP (NNP 朝鲜)) (NP (NP (QP (CD 六)) (NP (NN 方))) (NP (NN 会谈))) (NP (NN 战略)))) (CC 以及) (VP (VV 确保) (NP (CP (CP (IP (NP (NNP 朝鲜)) (VP (VV 遵守) (NP (ADJP (NN 现有)) (NP (NN 承诺))))) (DEC 的))) (NP (NN 手段))))))) (. 。)))
+PROPN/VERB/nsubj 克林顿/阐述/nsubj
+ADV/VERB/mark 还/阐述/mark
+AUX/VERB/aux 应该/阐述/aux
+VERB/ROOT/root 阐述/ROOT/root
+PROPN/NOUN/nmod 奥巴马/政府/nmod
+NOUN/NOUN/nmod 政府/战略/nmod
+PART/NOUN/case 的/政府/case
+PROPN/NOUN/nmod 朝鲜/战略/nmod
+NUM/NOUN/nummod 六/方/nummod
+NOUN/NOUN/nmod 方/战略/nmod
+NOUN/NOUN/nmod 会谈/战略/nmod
+NOUN/VERB/obj 战略/阐述/obj
+CCONJ/NOUN/cc 以及/手段/cc
+VERB/NOUN/acl:relcl 确保/手段/acl:relcl
+PROPN/VERB/nsubj 朝鲜/遵守/nsubj
+VERB/NOUN/acl:relcl 遵守/手段/acl:relcl
+NOUN/NOUN/nmod 现有/承诺/nmod
+NOUN/VERB/obj 承诺/遵守/obj
+PART/VERB/mark:rel 的/确保/mark:rel
+NOUN/NOUN/conj 手段/战略/conj
+PUNCT/VERB/punct 。/阐述/punct
+----------------------------------------------------------------------
