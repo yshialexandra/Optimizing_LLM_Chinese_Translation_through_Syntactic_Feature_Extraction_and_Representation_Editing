@@ -1,0 +1,2220 @@
+他们是一对不可思议的组合：来自努力的黑人家庭的高智商学霸和一位候选总统的儿子，在竞选期间，他不能说出巴基斯坦的军事统治者是谁。
+
+(ROOT (IP (IP (NP (PRP 他们)) (VP (VC 是) (NP (QP (CD 一) (CLP (IN 对))) (CP (CP (IP (VP (MD 不可) (VP (VV 思议)))) (DEC 的))) (NP (NN 组合))))) (: ：) (IP (NP (NP (DNP (NP (CP (CP (IP (VP (VV 来) (VP (VV 自) (VP (VV 努力))))) (DEC 的))) (NP (NN 黑人) (NN 家庭))) (DEC 的)) (NP (NNP 高智) (SFN 商) (NN 学霸))) (CC 和) (NP (DNP (NP (QP (CD 一) (CLP (NNB 位))) (NP (NN 候选) (NN 总统))) (DEC 的)) (NP (NN 儿子)))) (, ，) (PP (IN 在) (NP (NN 竞选) (NN 期间))) (, ，) (NP (PRP 他)) (VP (MD 不能) (VP (VV 说出) (IP (NP (DNP (NP (NNP 巴基斯坦)) (DEC 的)) (NP (NN 军事) (VV 统治) (SFN 者))) (VP (VC 是) (NP (WP 谁))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP33636': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP546': {'NP': {}, ',': {}, 'PP': {}, ',42610': {}, 'NP46120': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+他	组合	nsubj
+是	组合	cop
+一	组合	nummod
+对	组合	case
+可	思议	aux
+思议	组合	acl:relcl
+的	思议	mark:rel
+组合	ROOT	root
+：	儿子	punct
+来	学霸	acl:relcl
+自	来	mark
+努力	家庭	acl:relcl
+的	努力	mark:rel
+黑人	家庭	nmod
+家庭	来	obj
+的	来	mark:rel
+高智	商	compound
+商	学霸	nmod
+学霸	儿子	nmod
+和	总统	cc
+一	位	nummod
+位	总统	clf
+候选	总统	nmod
+总统	学霸	conj
+的	来	mark:rel
+儿子	组合	conj
+，	说出	punct
+在	期间	case
+竞选	期间	nmod
+期间	说出	obl
+，	期间	punct
+他	说出	nsubj
+能	说出	aux
+说出	组合	parataxis
+巴基斯坦	者	nmod
+的	巴基斯坦	case
+军事	者	nmod
+统治	者	compound
+者	谁	nsubj
+是	谁	cop
+谁	说出	ccomp
+。	组合	punct
+----------------------------------------------------------------------
+但他们共同构筑了一个雄心勃勃的美国愿景，即美国要独自出击。
+
+(ROOT (IP (IP (ADVP (RB 但)) (NP (PRP 他们)) (VP (ADVP (RB 共同)) (VP (VV 构筑) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (NP (JJ 雄心)) (VP (JJ 勃勃))) (DEC 的))) (NP (NNP 美国)) (NP (NN 愿景)))))) (, ，) (IP (ADVP (VC 即)) (NP (NNP 美国)) (VP (MD 要) (VP (ADVP (RB 独自)) (VP (VV 出击))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP17886': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP82243': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+但	即	mark
+他	即	nsubj
+共同	构筑	advmod
+构筑	即	csubj
+了	构筑	aux
+一	个	nummod
+个	愿景	clf
+雄心	勃勃	advcl
+勃勃	愿景	amod
+的	勃勃	mark:rel
+美国	愿景	nmod
+愿景	构筑	obj
+，	构筑	punct
+即	ROOT	root
+美国	出击	nsubj
+要	出击	aux
+独自	出击	advmod
+出击	即	xcomp
+。	即	punct
+----------------------------------------------------------------------
+在《没有比这更高的荣耀》一书中，康多莉扎·赖斯写下了一份详尽的报告，以在历史的法庭上彰显自己的清白，她希望历史的法庭会比现在的评判更有容忍之心。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (NP (NP (-LRB- 《) (CP (CP (IP (VP (VV 没有) (VP (PP (IN 比) (NP (PRD 这))) (VP (JJ 更高))))) (DEC 的))) (NP (NN 荣耀)) (-RRB- 》)) (QP (CD 一)) (NP (NN 书))) (IN 中))) (, ，) (NP (NNP 康多莉扎) (/ ·) (NNP 赖斯)) (VP (VP (VV 写下) (AS 了) (NP (QP (CD 一) (CLP (NNB 份))) (CP (CP (IP (VP (JJ 详尽))) (DEC 的))) (NP (NN 报告)))) (, ，) (VP (RB 以) (PP (IN 在) (LCP (NP (DNP (NP (NN 历史)) (DEC 的)) (NP (NN 法庭))) (IN 上))) (VP (VV 彰显) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 清白))))))) (, ，) (IP (NP (PRP 她)) (VP (VV 希望) (IP (NP (DNP (NP (NN 历史)) (DEC 的)) (NP (NN 法庭))) (VP (MD 会) (VP (PP (IN 比) (NP (DNP (NP (NN 现在)) (DEC 的)) (NP (NN 评判)))) (ADVP (RB 更)) (VP (VV 有) (NP (DNP (NP (VV 容忍)) (DEC 之)) (NP (NN 心))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP44238': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP30526': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+在	有	case
+《	荣耀	punct
+有	写下	xcomp
+比	荣耀	case
+这	更高	nmod
+更高	荣耀	amod
+的	更高	mark:rel
+荣耀	有	obl
+》	荣耀	punct
+一	书	nummod
+书	荣耀	appos
+中	荣耀	case
+，	有	punct
+康多莉扎	写下	nsubj
+·	赖斯	punct
+赖斯	康多莉扎	flat:name
+写下	ROOT	root
+了	写下	aux
+一	份	nummod
+份	报告	clf
+详尽	报告	amod
+的	详尽	mark:rel
+报告	写下	obj
+，	彰显	punct
+以	彰显	mark
+在	法庭	case
+历史	法庭	nmod
+的	历史	case
+法庭	彰显	obl
+上	法庭	case
+彰显	写下	parataxis
+自己	清白	det
+的	自己	case
+清白	彰显	obj
+，	彰显	punct
+她	希望	nsubj
+希望	彰显	parataxis
+历史	法庭	nmod
+的	历史	case
+法庭	有	nsubj
+会	有	aux
+比	评判	case
+现在	评判	nmod
+的	现在	case
+评判	有	obl
+更	有	advmod
+有	希望	ccomp
+容忍	心	acl:relcl
+之	容忍	mark:rel
+心	有	obj
+。	写下	punct
+----------------------------------------------------------------------
+她的权力来自她的书中贯穿始终的纽带：与乔治·W·布什的亲密关系，甚至是崇拜的关系，这让唐纳德·拉姆斯菲尔德和理查德·切尼感到嫉妒和嘲笑。
+
+(ROOT (IP (IP (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 权力))) (VP (VV 来) (PP (VV 自) (IP (NP (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 书中))) (VP (VV 贯穿) (NP (DNP (ADJP (JJ 始终)) (DEC 的)) (NP (NN 纽带))))) (: ：) (IP (NP (DNP (PP (IN 与) (NP (NNP 乔治) (/ ·) (FW W) (/ ·) (NNP 布什))) (DEC 的)) (ADJP (JJ 亲密)) (NP (NN 关系))) (, ，) (VP (VC 甚至是) (NP (DNP (NP (VV 崇拜)) (DEC 的)) (NP (NN 关系))))))))) (, ，) (IP (NP (PRD 这)) (VP (VV 让) (NP (NNP 唐纳德) (/ ·) (NNP 拉姆斯菲尔德) (CC 和) (NNP 理查德) (/ ·) (NNP 切尼)) (IP (VP (VV 感到) (NP (JJ 嫉妒) (CC 和) (VV 嘲笑)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP53295': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP71353': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+她	权力	det
+的	她	case
+权力	来	nsubj
+来	ROOT	root
+自	来	mark
+她	书中	det
+的	她	mark:rel
+书中	贯穿	nsubj
+贯穿	纽带	acl:relcl
+始终	纽带	amod
+的	始终	mark:rel
+纽带	来	obj
+：	让	punct
+与	关系	case
+乔治	关系	nmod
+·	W	punct
+W	乔治	flat:name
+·	布什	punct
+布什	乔治	flat:name
+的	乔治	case
+亲密	关系	amod
+关系	让	obl
+，	关系	punct
+甚至是	关系	cop
+崇拜	关系	acl:relcl
+的	崇拜	mark:rel
+关系	让	advcl
+，	关系	punct
+这	让	nsubj
+让	来	parataxis
+唐纳德	感到	nsubj
+·	拉姆斯菲尔德	punct
+拉姆斯菲尔德	唐纳德	flat:name
+和	理查德	cc
+理查德	唐纳德	conj
+·	切尼	punct
+切尼	理查德	flat:name
+感到	让	ccomp
+嫉妒	感到	xcomp
+和	嘲笑	cc
+嘲笑	嫉妒	conj
+。	来	punct
+----------------------------------------------------------------------
+赖斯对她为什么喜欢布什的原因保持沉默：“我喜欢他。
+
+(ROOT (IP (IP (NP (NNP 赖斯)) (VP (PP (IN 对) (NP (CP (CP (IP (NP (PRP 她)) (VP (PP (IN 为) (DP (WP 什么))) (VP (VV 喜欢) (NP (NNP 布什))))) (DEC 的))) (NP (NN 原因)))) (VP (VV 保持) (NP (JJ 沉默))))) (: ：) (IP (`` “) (NP (PRP 我)) (VP (VV 喜欢) (NP (PRP 他)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP91496': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP4565': {'``': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'``': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+赖斯	保持	nsubj
+对	原因	case
+她	原因	nmod
+为	什么	case
+什么	喜欢	obl
+喜欢	原因	acl:relcl
+布什	喜欢	obj
+的	喜欢	mark:rel
+原因	沉默	nmod
+保持	ROOT	root
+沉默	保持	xcomp
+：	喜欢	punct
+“	喜欢	punct
+我	喜欢	nsubj
+喜欢	保持	parataxis
+他	喜欢	obj
+。	保持	punct
+----------------------------------------------------------------------
+他很有趣，很不拘小节，但对政策非常认真。”
+
+(ROOT (IP (NP (PRP 他)) (VP (VP (ADVP (RB 很)) (VP (JJ 有趣))) (, ，) (VP (ADVP (RB 很)) (VP (VV 不拘) (NP (NN 小节)))) (, ，) (VP (ADVP (RB 但)) (PP (IN 对) (NP (NN 政策))) (ADVP (RB 非常)) (VP (JJ 认真)))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP99562': {}, ',23810': {}, 'VP95649': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+他	拘	nsubj
+很	有趣	advmod
+有趣	拘	advcl
+，	有趣	punct
+很	拘	advmod
+拘	ROOT	root
+小节	拘	obj
+，	认真	punct
+但	认真	mark
+对	政策	case
+政策	认真	nmod
+非常	认真	advmod
+认真	拘	parataxis
+。	认真	punct
+”	认真	punct
+----------------------------------------------------------------------
+他的吸引力在于他的道德自信。
+
+(ROOT (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (VV 吸引) (SFN 力))) (VP (VV 在) (PP (VV 于) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 道德) (NN 自信))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'PP': {}}}
+Dependency Features:
+他	力	det
+的	他	case
+吸引	力	compound
+力	在	nsubj
+在	ROOT	root
+于	在	mark
+他	自信	det
+的	他	case
+道德	自信	nmod
+自信	在	obj
+。	在	punct
+----------------------------------------------------------------------
+知识分子和佛吉尼亚山裤腰带队可能会嘲笑他对细节的不耐烦，但她认为这是站在原则立场上的表现。
+
+(ROOT (IP (IP (IP (NP (NP (NN 知识) (NN 分子)) (CC 和) (NP (NNP 佛吉尼亚) (SFN 山) (SFN 裤) (SFN 腰))) (VP (VV 带队))) (VP (MD 可能) (VP (MD 会) (VP (VV 嘲笑) (NP (NP (PRP 他)) (DNP (PP (IN 对) (NP (NN 细节))) (DEC 的)) (ADJP (RB 不)) (NP (JJ 耐烦))))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 她)) (VP (VV 认为) (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (VP (VV 站) (PP (IN 在) (LCP (NP (NN 原则) (NN 立场)) (IN 上))))) (DEC 的))) (NP (NN 表现))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP10059': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, 'VP': {}}, ',': {}, 'IP83238': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+知识	分子	nmod
+分子	嘲笑	nsubj
+和	腰	cc
+佛吉尼亚	山	compound
+山	裤	compound
+裤	腰	compound
+腰	分子	conj
+带队	嘲笑	advcl
+可能	嘲笑	aux
+会	嘲笑	aux
+嘲笑	ROOT	root
+他	耐烦	nsubj
+对	细节	case
+细节	耐烦	nmod
+的	耐烦	mark:rel
+不	耐烦	advmod
+耐烦	嘲笑	ccomp
+，	为	punct
+但	为	mark
+她	为	nsubj
+为	嘲笑	parataxis
+这	是	nsubj
+是	为	ccomp
+站	是	xcomp
+在	表现	case
+原则	立场	nmod
+立场	表现	nmod
+上	立场	case
+的	站	mark:rel
+表现	是	obj
+。	嘲笑	punct
+----------------------------------------------------------------------
+她写道：“这就是我喜欢乔治·W·布什担任总统的原因。”
+
+(ROOT (IP (NP (PRP 她)) (VP (VV 写道) (: ：) (IP (`` “) (NP (PRD 这)) (VP (VC 就是) (NP (CP (CP (IP (NP (PRP 我)) (VP (VV 喜欢) (NP (NNP 乔治) (/ ·) (FW W) (/ ·) (NNP 布什)) (IP (VP (VV 担任) (NP (NN 总统)))))) (DEC 的))) (NP (NN 原因)))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+她	写道	nsubj
+写道	ROOT	root
+：	原因	punct
+“	原因	punct
+这	原因	nsubj
+是	原因	cop
+我	喜欢	nsubj
+喜欢	原因	acl:relcl
+乔治	布什	nmod
+·	W	punct
+W	乔治	flat:name
+·	W	punct
+布什	担任	nsubj
+担任	原因	acl:relcl
+总统	担任	obj
+的	担任	mark:rel
+原因	写道	ccomp
+。	原因	punct
+”	原因	punct
+----------------------------------------------------------------------
+“正确的事情就是对的。”
+
+(ROOT (IP (`` “) (NP (CP (CP (IP (VP (JJ 正确))) (DEC 的))) (NP (NN 事情))) (VP (VC 就是) (NP (CP (CP (IP (VP (JJ 对))) (UH 的))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}, "''": {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+“	事情	punct
+正确	事情	amod
+的	正确	mark:rel
+事情	对	nsubj
+是	对	cop
+对	ROOT	root
+的	对	discourse
+。	对	punct
+”	对	punct
+----------------------------------------------------------------------
+然而，这种明确和不耐烦的心态为政府的最受诟病的决定做了准备，这也是她写这本书为何要为政府的决定辩护的原因。
+
+(ROOT (IP (IP (ADVP (RB 然而)) (, ，) (NP (DP (DT 这) (CLP (NNB 种))) (CP (CP (IP (VP (VP (JJ 明确)) (CC 和) (VP (ADVP (RB 不)) (VP (JJ 耐烦))))) (DEC 的))) (NP (NN 心态))) (VP (PP (IN 为) (NP (DNP (NP (NN 政府)) (DEC 的)) (CP (CP (IP (VP (VV 最受) (NP (VV 诟病)))) (DEC 的))) (NP (NN 决定)))) (VP (VV 做) (AS 了) (NP (NN 准备))))) (, ，) (IP (NP (PRD 这)) (VP (VC 也是) (NP (CP (CP (IP (NP (PRP 她)) (VP (VP (VV 写) (IP (NP (DP (DT 这) (CLP (NNB 本))) (NP (NN 书))) (PP (IN 为) (IP (ADVP (PRD 何)) (VP (MD 要) (VP (PP (IN 为) (NP (DNP (NP (NN 政府)) (DEC 的)) (NP (NN 决定)))) (VP (VV 辩护)))))))))) (DEC 的))) (NP (NN 原因))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP85659': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP10030': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+然而	做	mark
+，	然而	punct
+这	种	det
+种	心态	clf
+明确	心态	amod
+和	耐烦	cc
+不	耐烦	advmod
+耐烦	明确	conj
+的	明确	mark:rel
+心态	做	nsubj
+为	决定	case
+政府	决定	nmod
+的	最受	mark:rel
+最受	决定	acl:relcl
+诟病	最受	xcomp
+的	最受	mark:rel
+决定	做	obl
+做	ROOT	root
+了	做	aux
+准备	做	obj
+，	是	punct
+这	是	nsubj
+是	做	parataxis
+她	写	nsubj
+写	是	ccomp
+这	本	det
+本	书	clf
+书	写	obj
+为	何	case
+何	辩护	obl
+要	辩护	aux
+为	决定	case
+政府	辩护	obl
+的	辩护	mark:rel
+决定	辩护	obl
+辩护	原因	acl:relcl
+的	辩护	mark:rel
+原因	写	obj
+。	做	punct
+----------------------------------------------------------------------
+为了在大选前为布什总统的新政策做好准备，她组建了一个叫做“沃尔卡斯”的小组。
+
+(ROOT (IP (PP (IN 为了) (IP (VP (PP (IN 在) (LCP (NP (NN 大选)) (IN 前))) (PP (IN 为) (NP (DNP (NP (NNP 布什) (NN 总统)) (DEC 的)) (ADJP (PFA 新)) (NP (NN 政策)))) (VP (VV 做好) (NP (NN 准备)))))) (, ，) (NP (PRP 她)) (VP (VV 组建) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 叫做) (NP (`` “) (NNP 沃尔卡斯) ('' ”)))) (DEC 的))) (NP (NN 小组)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+为了	做好	case
+在	大选	case
+大选	做好	obl
+前	大选	case
+为	政策	case
+布什	总统	nmod
+总统	政策	nmod
+的	总统	case
+新	政策	case
+政策	做好	obl
+做好	组建	ccomp
+准备	做好	obj
+，	做好	punct
+她	组建	nsubj
+组建	ROOT	root
+了	组建	aux
+一	个	nummod
+个	小组	clf
+叫做	小组	acl:relcl
+“	沃尔卡斯	punct
+沃尔卡斯	叫做	obj
+”	沃尔卡斯	punct
+的	叫做	mark:rel
+小组	组建	obj
+。	组建	punct
+----------------------------------------------------------------------
+他们大多来自于前布什政府的同事，并且目睹了冷战的结束。
+
+(ROOT (IP (NP (PRP 他们)) (VP (VP (ADVP (RB 大多)) (VP (VV 来) (VP (VV 自) (PP (VV 于) (NP (DNP (NP (ADJP (PFA 前)) (NP (NNP 布什)) (NP (NN 政府))) (DEC 的)) (NP (NN 同事))))))) (, ，) (RB 并且) (VP (VV 目睹) (AS 了) (NP (DNP (NP (NN 冷战)) (DEC 的)) (NP (NN 结束))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP95476': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+他	目睹	nsubj
+大多	来	advmod
+来	目睹	advcl
+自	来	mark
+于	来	mark
+前	政府	case
+布什	政府	nmod
+政府	来	obj
+的	来	mark:rel
+同事	来	obj
+，	来	punct
+并且	目睹	mark
+目睹	ROOT	root
+了	目睹	aux
+冷战	结束	nmod
+的	冷战	case
+结束	目睹	obj
+。	目睹	punct
+----------------------------------------------------------------------
+但这种镜头 — — 欧洲中心主义，受俄罗斯专业知识的影响，并受到美国单一超级大国的胜利主义的驱使 — — 可能会让她对第二任布什总统面临的问题视而不见，比如阿拉伯世界的截然不同的动态和帝国主义的超越成本。
+
+(ROOT (IP (IP (ADVP (RB 但)) (NP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 镜头))) (HYPH —) (HYPH —) (NP (NP (NNP 欧洲)) (NP (NN 中心) (NN 主义)))) (, ，) (VP (VP (VP (VV 受) (NP (DNP (NP (NP (NNP 俄罗斯)) (NP (NN 专业) (NN 知识))) (DEC 的)) (NP (NN 影响)))) (, ，) (RB 并) (VP (VV 受到) (NP (DNP (NP (DNP (NP (NP (NNP 美国)) (ADJP (JJ 单一)) (ADJP (JJ 超级)) (NP (NN 大国))) (DEC 的)) (NP (NN 胜利) (NN 主义))) (DEC 的)) (NP (NN 驱使))))) (HYPH —) (HYPH —) (VP (MD 可能) (VP (MD 会) (VP (VV 让) (NP (PRP 她)) (IP (VP (PP (IN 对) (NP (CP (CP (IP (NP (QP (CD 第二) (CLP (NNB 任))) (NP (NNP 布什)) (NP (NN 总统))) (VP (VV 面临))) (DEC 的))) (NP (NN 问题)))) (VP (VP (VV 视)) (VP (RB 而) (VP (VV 不见))))))))))) (, ，) (NP (ADVP (VV 比如)) (NP (NP (DNP (NP (NP (NNP 阿拉伯)) (NP (NN 世界))) (DEC 的)) (CP (CP (IP (VP (JJ 截然不同))) (DEC 的))) (NP (NN 动态))) (CC 和) (NP (DNP (NP (NN 帝国) (NN 主义)) (DEC 的)) (NP (NN 超越) (NN 成本))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'NP': {'ADVP': {}, 'NP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'NP': {'ADVP': {}, 'NP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'VP': {}}}
+{'NP': {'ADVP': {}, 'NP': {}}}
+Dependency Features:
+但	受到	mark
+这	种	det
+种	镜头	clf
+镜头	受到	nsubj
+—	主义	punct
+—	主义	punct
+欧洲	主义	nmod
+中心	主义	nmod
+主义	镜头	appos
+，	镜头	punct
+受	受到	advcl
+俄罗斯	知识	nmod
+专业	知识	nmod
+知识	影响	nmod
+的	知识	case
+影响	受	obj
+，	受	punct
+并	受到	mark
+受到	ROOT	root
+美国	大国	nmod
+单一	大国	amod
+超级	大国	amod
+大国	主义	nmod
+的	大国	case
+胜利	主义	nmod
+主义	驱使	nmod
+的	主义	case
+驱使	受到	obj
+—	让	punct
+—	让	punct
+可能	让	aux
+会	让	aux
+让	受到	conj
+她	面临	nsubj
+对	问题	case
+第二	任	nummod
+任	总统	clf
+布什	总统	nmod
+总统	面临	nsubj
+面临	问题	acl:relcl
+的	面临	mark:rel
+问题	视	obl
+视	让	ccomp
+而	见	mark
+见	视	xcomp
+，	比如	punct
+比如	受到	conj
+阿拉伯	世界	nmod
+世界	动态	nmod
+的	世界	case
+截然不同	动态	amod
+的	截然不同	mark:rel
+动态	比如	obj
+和	成本	cc
+帝国	主义	nmod
+主义	动态	conj
+的	截然不同	mark:rel
+超越	成本	nmod
+成本	动态	conj
+。	受到	punct
+----------------------------------------------------------------------
+新政府的出发点是单边主义，其新政策的证据在第一个任期早期就出现了，当时白宫以鲁斯认为太粗暴和冲动的方式拒绝了《京都议定书》。
+
+(ROOT (IP (IP (NP (DNP (NP (ADJP (PFA 新)) (NP (NN 政府))) (DEC 的)) (NP (VV 出发) (SFN 点))) (VP (VC 是) (NP (NP (QP (CD 单)) (NP (NN 边))) (NP (NN 主义))))) (, ，) (IP (NP (DNP (NP (NP (PRP 其)) (ADJP (PFA 新)) (NP (NN 政策))) (DEC 的)) (NP (NN 证据))) (VP (PP (IN 在) (NP (NP (QP (CD 第一) (CLP (NNB 个))) (NP (NN 任期))) (NP (NN 早期)))) (ADVP (RB 就)) (VP (VV 出现) (UH 了)))) (, ，) (IP (NP (NN 当时)) (NP (NNP 白宫)) (VP (PP (IN 以) (NP (CP (IP (NP (NNP 鲁斯)) (VP (VV 认为) (NP (JJ 太粗) (JJ 暴) (CC 和) (VV 冲动)))) (DEC 的)) (NP (NN 方式)))) (VP (VV 拒绝) (AS 了) (NP (-LRB- 《) (NP (NNP 京都)) (NP (VV 议定) (SFN 书)) (-RRB- 》))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP10365': {}, ',14554': {}, 'IP22166': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP12356': {'NP': {}, 'VP': {}}, ',86551': {}, 'IP85895': {'NP': {}, 'NP3584': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+新	政府	case
+政府	点	nmod
+的	政府	case
+出发	点	compound
+点	主义	nsubj
+是	主义	cop
+单	边	nummod
+边	主义	nmod
+主义	ROOT	root
+，	出现	punct
+其	政策	nmod
+新	政策	case
+政策	证据	nmod
+的	政策	case
+证据	出现	nsubj
+在	早期	case
+第一	个	nummod
+个	任期	clf
+任期	早期	nmod
+早期	出现	obl
+就	出现	mark
+出现	主义	parataxis
+了	出现	discourse
+，	拒绝	punct
+当时	拒绝	nmod:tmod
+白宫	拒绝	nsubj
+以	方式	case
+鲁斯	为	nsubj
+为	方式	acl:relcl
+太粗	暴	advcl
+暴	方式	acl:relcl
+和	冲动	cc
+冲动	暴	conj
+的	暴	mark:rel
+方式	拒绝	obl
+拒绝	主义	parataxis
+了	拒绝	aux
+《	书	punct
+京都	书	nmod
+议定	书	compound
+书	拒绝	obj
+》	书	punct
+。	主义	punct
+----------------------------------------------------------------------
+她说：“总统先生，这将从一开始就影响到你的外交政策，这是个问题。”
+
+(ROOT (IP (NP (PRP 她)) (VP (VV 说) (: ：) (IP (`` “) (NP (NN 总统) (NN 先生)) (, ，) (NP (PRD 这)) (VP (ADVP (RB 将)) (PP (IN 从) (IP (VP (QP (CD 一)) (VP (VV 开始))))) (ADVP (RB 就)) (VP (VRD (VV 影响) (VV 到)) (NP (DNP (NP (PRP 你)) (DEC 的)) (NP (NN 外交) (NN 政策))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CLP (NNB 个))) (NP (NN 问题))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+她	说	nsubj
+说	ROOT	root
+：	问题	punct
+“	问题	punct
+总统	先生	nmod
+先生	影响	nsubj
+，	先生	punct
+这	影响	nsubj
+将	影响	advmod
+从	开始	case
+一	开始	obl
+开始	影响	xcomp
+就	影响	mark
+影响	问题	advcl
+到	影响	mark
+你	政策	det
+的	你	case
+外交	政策	nmod
+政策	影响	obj
+，	影响	punct
+这	问题	nsubj
+是	问题	cop
+个	问题	case
+问题	说	ccomp
+。	问题	punct
+”	问题	punct
+----------------------------------------------------------------------
+在 9 11 袭击事件发生后的紧急情况下，美国不能等待缓慢的联盟建设的信念，转变为预防性行动。
+
+(ROOT (IP (PP (IN 在) (LCP (NP (DNP (LCP (IP (NP (NP (CD 9) (CD 11)) (NP (NN 袭击) (NN 事件))) (VP (VV 发生))) (IN 后)) (DEC 的)) (ADJP (JJ 紧急)) (NP (NN 情况))) (IN 下))) (, ，) (NP (NNP 美国)) (VP (VP (MD 不能) (VP (VV 等待) (NP (DNP (NP (CP (CP (IP (VP (JJ 缓慢))) (DEC 的))) (NP (NN 联盟) (NN 建设))) (DEC 的)) (NP (NN 信念))))) (, ，) (VP (VRD (VV 转变) (VC 为)) (NP (VV 预防) (ADJP (SFN 性)) (NP (NN 行动))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP25168': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+在	情况	case
+9	事件	nmod
+11	事件	nmod
+袭击	事件	nmod
+事件	发生	nsubj
+发生	情况	acl:relcl
+后	发生	mark
+的	发生	mark:rel
+紧急	情况	amod
+情况	转变	obl
+下	情况	case
+，	情况	punct
+美国	转变	nsubj
+能	等待	aux
+等待	转变	advcl
+缓慢	建设	amod
+的	缓慢	mark:rel
+联盟	建设	nmod
+建设	等待	obj
+的	缓慢	mark:rel
+信念	等待	obj
+，	等待	punct
+转变	ROOT	root
+为	转变	mark
+预防	性	compound
+性	行动	nmod
+行动	转变	obj
+。	转变	punct
+----------------------------------------------------------------------
+这本书的几个生动场景大多是那些早期的恐惧日子：赖斯在镜子前看着自己，问自己 9 11 事件之前她错过了什么，或者在等待看看高级官员是否感染了致命的肉毒杆菌。
+
+(ROOT (IP (NP (DNP (NP (DP (DT 这)) (NP (NN 本书))) (DEC 的)) (QP (CD 几) (CLP (NNB 个))) (ADJP (JJ 生动)) (NP (NN 场景))) (VP (ADVP (RB 大多)) (VP (VC 是) (NP (DP (DT 那些)) (DNP (NP (NN 早期)) (DEC 的)) (NP (NN 恐惧) (NN 日子))))) (: ：)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, ':': {}}}
+{'IP': {'NP': {}, 'VP': {}, ':': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'QP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, ':': {}}}
+{'IP': {'NP': {'DNP': {}, 'QP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, ':': {}}}
+{'NP': {'DNP': {}, 'QP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+这	本书	det
+本书	场景	nmod
+的	本书	case
+几	个	nummod
+个	场景	clf
+生动	场景	amod
+场景	日子	nsubj
+大多	日子	advmod
+是	日子	cop
+那些	日子	det
+早期	日子	nmod
+的	早期	case
+恐惧	日子	nmod
+日子	ROOT	root
+：	日子	punct
+----------------------------------------------------------------------
+她写道：“我的内心深处被震撼了。”
+
+(ROOT (IP (NP (PRP 她)) (VP (VV 写道) (: ：) (IP (`` “) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 内心) (NN 深处))) (VP (BB 被) (VP (JJ 震撼) (UH 了))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+她	写道	nsubj
+写道	ROOT	root
+：	震撼	punct
+“	震撼	punct
+我	深处	det
+的	我	case
+内心	深处	nmod
+深处	震撼	nsubj
+被	震撼	aux:pass
+震撼	写道	ccomp
+了	震撼	discourse
+。	震撼	punct
+”	震撼	punct
+----------------------------------------------------------------------
+她说，她唯一一次对布什动了怒，是因为她告诉他不安全地返回华盛顿。
+
+(ROOT (IP (NP (PRP 她)) (VP (VV 说) (, ，) (IP (NP (PRP 她)) (VP (VP (QP (ADJP (JJ 唯一)) (QP (CD 一) (CLP (NNB 次)))) (NP (NNP 对布)) (VP (VV 什动) (AS 了) (NP (NN 怒)))) (, ，) (VP (VC 是) (PP (IN 因为) (IP (NP (PRP 她)) (VP (VV 告诉) (NP (PRP 他)) (IP (VP (ADVP (RB 不)) (DVP (VP (JJ 安全)) (DEV 地)) (VP (VV 返回) (NP (NNP 华盛顿)))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+她	说	nsubj
+说	ROOT	root
+，	是	punct
+她	是	nsubj
+唯一	对布	amod
+一	次	nummod
+次	对布	clf
+对布	什动	nsubj
+什动	是	csubj
+了	什动	aux
+怒	什动	obj
+，	什动	punct
+是	说	ccomp
+因为	是	xcomp
+她	告诉	nsubj
+告诉	因为	ccomp
+他	返回	nsubj
+不	返回	advmod
+安全	返回	advmod
+地	安全	mark:adv
+返回	告诉	ccomp
+华盛顿	返回	obj
+。	说	punct
+----------------------------------------------------------------------
+这种氛围，如今难以再次出现，决定了拘留、“强化审讯”和入侵伊拉克的决策。
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 氛围))) (, ，) (VP (VP (NP (NN 如今)) (ADVP (JJ 难)) (VP (RB 以) (VP (ADVP (RB 再次)) (VP (VV 出现))))) (, ，) (VP (VV 决定) (AS 了) (NP (NP (NN 拘留)) (EC 、) (NP (`` “) (VV 强化) (NP (NN 审讯)) ('' ”)) (CC 和) (NP (CP (IP (VP (VV 入侵) (NP (NNP 伊拉克)))) (DEC 的)) (NP (NN 决策)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, ',': {}, 'VP': {'VP': {}, ',': {}, 'VP17533': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, ',': {}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+这	种	det
+种	氛围	clf
+氛围	决定	nsubj
+，	氛围	punct
+如今	出现	nmod:tmod
+难	出现	advmod
+以	出现	mark
+再次	出现	advmod
+出现	决定	advcl
+，	出现	punct
+决定	ROOT	root
+了	决定	aux
+拘留	决策	nmod
+、	强化	punct
+“	强化	punct
+强化	拘留	conj
+审讯	强化	obj
+”	强化	punct
+和	入侵	cc
+入侵	拘留	conj
+伊拉克	入侵	obj
+的	拘留	case
+决策	决定	obj
+。	决定	punct
+----------------------------------------------------------------------
+尽管如此，她对拘留和审讯的辩护并不令人信服；她没有考虑到侵犯公民自由的行为或对美国价值观的打击，她只钻住在法律技术性问题和这些措施挽救了生命的说法上。
+
+(ROOT (IP (IP (IP (VP (ADVP (IN 尽管)) (VP (VV 如此)))) (, ，) (NP (NP (PRP 她)) (DNP (PP (IN 对) (NP (NN 拘留) (CC 和) (NN 审讯))) (DEC 的)) (NP (NN 辩护))) (VP (ADVP (RB 并)) (VP (VV 不令) (NP (NN 人)) (IP (VP (VV 信服)))))) (: ；) (IP (NP (PRP 她)) (VP (VV 没有) (VP (VRD (VV 考虑) (VV 到)) (NP (NP (CP (IP (VP (VV 侵犯) (NP (NN 公民) (NN 自由)))) (DEC 的)) (NP (NN 行为))) (CC 或) (NP (DNP (PP (IN 对) (NP (NP (NNP 美国)) (NP (NN 价值) (SFN 观)))) (DEC 的)) (NP (NN 打击))))))) (, ，) (IP (NP (PRP 她)) (VP (ADVP (RB 只)) (VP (VV 钻住) (LCP (NP (CP (IP (VP (PP (IN 在) (NP (NP (NN 法律) (NN 技术) (SFN 性) (NN 问题)) (CC 和) (NP (DP (DT 这些)) (NP (NN 措施))))) (VP (VV 挽救) (AS 了) (NP (NN 生命))))) (DEC 的)) (NP (NN 说法))) (IN 上))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP70016': {}, ',': {}, 'IP59713': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP52091': {'NP': {}, 'VP': {}}, ',': {}, 'IP23714': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+尽管	如此	case
+如此	令	xcomp
+，	如此	punct
+她	辩护	nmod
+对	辩护	case
+拘留	辩护	nmod
+和	审讯	cc
+审讯	拘留	conj
+的	辩护	case
+辩护	令	nsubj
+并	令	mark
+令	ROOT	root
+人	信服	nsubj
+信服	令	ccomp
+；	有	punct
+她	有	nsubj
+有	令	parataxis
+考虑	有	xcomp
+到	考虑	mark
+侵犯	行为	acl:relcl
+公民	自由	nmod
+自由	侵犯	obj
+的	侵犯	mark:rel
+行为	考虑	obj
+或	打击	cc
+对	打击	case
+美国	观	nmod
+价值	观	compound
+观	打击	nmod
+的	打击	case
+打击	行为	conj
+，	钻住	punct
+她	钻住	nsubj
+只	钻住	advmod
+钻住	令	parataxis
+在	问题	case
+法律	问题	nmod
+技术	性	compound
+性	问题	nmod
+问题	挽救	obl
+和	措施	cc
+这些	措施	det
+措施	问题	conj
+挽救	说法	acl:relcl
+了	挽救	aux
+生命	挽救	obj
+的	挽救	mark:rel
+说法	钻住	obj
+上	说法	case
+。	令	punct
+----------------------------------------------------------------------
+她坚称，她和其他高级国家安全官员没有看到总统签署的授权令。
+
+(ROOT (IP (NP (PRP 她)) (VP (VV 坚称) (, ，) (IP (NP (NP (PRP 她)) (CC 和) (NP (DP (DT 其他)) (NP (ADJP (JJ 高级)) (NP (NN 国家))) (NP (NN 安全) (NN 官员)))) (VP (VV 没有) (VP (VV 看到) (NP (CP (CP (IP (NP (NN 总统)) (VP (VV 签署))) (DEC 的))) (NP (VV 授权) (SFN 令))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+她	坚称	nsubj
+坚称	ROOT	root
+，	有	punct
+她	有	nsubj
+和	官员	cc
+其他	官员	det
+高级	官员	amod
+国家	官员	nmod
+安全	官员	nmod
+官员	她	conj
+有	坚称	ccomp
+看到	有	xcomp
+总统	签署	nsubj
+签署	令	acl:relcl
+的	签署	mark:rel
+授权	令	compound
+令	看到	obj
+。	坚称	punct
+----------------------------------------------------------------------
+“在那之后，我告诉总统，白宫律师和副总统办公室没有对他提供很好的服务。”
+
+(ROOT (IP (`` “) (IP (PP (IN 在) (LCP (NP (PRD 那)) (IN 之后))) (, ，) (NP (PRP 我)) (VP (VV 告诉) (NP (NN 总统)) (, ，) (IP (NP (NP (NP (NNP 白宫)) (NP (NN 律师))) (CC 和) (NP (NP (ADJP (PFA 副)) (NP (NN 总统))) (NP (VV 办公) (SFN 室)))) (VP (VV 没有) (IP (NP (RB 对他)) (VP (VV 提供) (NP (CP (CP (IP (VP (JJ 很好))) (DEC 的))) (NP (NN 服务))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'``': {}, 'IP': {}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'``': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+“	告诉	punct
+在	那	case
+那	告诉	obl
+之后	那	case
+，	那	punct
+我	告诉	nsubj
+告诉	ROOT	root
+总统	告诉	obj
+，	告诉	punct
+白宫	律师	nmod
+律师	有	nsubj
+和	室	cc
+副	总统	case
+总统	室	nmod
+办公	室	compound
+室	律师	conj
+有	告诉	parataxis
+对他	提供	advmod
+提供	有	xcomp
+很好	服务	amod
+的	很好	mark:rel
+服务	提供	obj
+。	有	punct
+”	有	punct
+----------------------------------------------------------------------
+2006 年，最高法院裁定这些法庭违宪。
+
+(ROOT (IP (NP (CD 2006) (NNB 年)) (, ，) (NP (ADJP (JJ 最高)) (NP (NN 法院))) (VP (VV 裁定) (IP (NP (DP (DT 这些)) (NP (NN 法庭))) (VP (VV 违宪)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP18143': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP8920': {'ADJP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'NP': {'ADJP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+2006	年	nummod
+年	裁定	nmod:tmod
+，	年	punct
+最高	法院	amod
+法院	裁定	nsubj
+裁定	ROOT	root
+这些	法庭	det
+法庭	违宪	nsubj
+违宪	裁定	ccomp
+。	裁定	punct
+----------------------------------------------------------------------
+首先，赖斯与伊拉克对抗。
+
+(ROOT (IP (ADVP (RB 首先)) (, ，) (NP (NNP 赖斯)) (VP (PP (IN 与) (NP (NNP 伊拉克))) (VP (VV 对抗))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+首先	对抗	advmod
+，	首先	punct
+赖斯	对抗	nsubj
+与	伊拉克	case
+伊拉克	对抗	obl
+对抗	ROOT	root
+。	对抗	punct
+----------------------------------------------------------------------
+她说，鉴于政府曾经对萨达姆·侯赛因拥有大规模毁灭性武器的说法泼了冷水，“现在，许多人都很难理解当时对萨达姆的情报案件有多么令人信服。”
+
+(ROOT (IP (NP (PRP 她)) (VP (VV 说) (, ，) (IP (PP (VV 鉴) (PP (VV 于) (IP (NP (NN 政府)) (VP (ADVP (RB 曾经)) (PP (IN 对) (IP (NP (NNP 萨达姆) (/ ·) (NNP 侯赛)) (DNP (PP (IN 因) (IP (VP (VV 拥有) (NP (NP (ADJP (PFA 大)) (NP (NN 规模))) (ADJP (VV 毁灭)) (ADJP (SFN 性)) (NP (NN 武器)))))) (DEC 的)) (NP (NN 说法)))) (VP (VV 泼) (AS 了) (NP (NN 冷水))))))) (, ，) (`` “) (NP (NN 现在)) (, ，) (NP (QP (CD 许多)) (NP (NN 人))) (VP (ADVP (RB 都)) (VP (RB 很难) (IP (VP (VV 理解) (VP (NP (NN 当时)) (DNP (PP (IN 对) (NP (NNP 萨达姆))) (DEC 的)) (NP (NN 情报) (NN 案件)) (VP (VV 有) (VP (ADVP (RB 多么)) (VP (VV 令) (NP (NN 人)) (IP (VP (VV 信服))))))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+她	说	nsubj
+说	ROOT	root
+，	理解	punct
+鉴	说	xcomp
+于	鉴	mark
+政府	泼	nsubj
+曾经	泼	advmod
+对	说法	case
+萨达姆	泼	obl
+·	侯赛	punct
+侯赛	萨达姆	flat:name
+因	说法	case
+拥有	说法	acl:relcl
+大	规模	case
+规模	武器	nmod
+毁灭	性	compound
+性	武器	nmod
+武器	拥有	obj
+的	拥有	mark:rel
+说法	泼	obl
+泼	鉴	ccomp
+了	泼	aux
+冷水	泼	obj
+，	鉴	punct
+“	理解	punct
+现在	理解	nmod:tmod
+，	现在	punct
+许多	人	nummod
+人	理解	nsubj
+都	理解	mark
+很难	理解	advmod
+理解	说	ccomp
+当时	案件	nmod
+对	案件	case
+萨达姆	案件	nmod
+的	案件	case
+情报	案件	nmod
+案件	有	nsubj
+有	理解	ccomp
+多么	令	advmod
+令	有	xcomp
+人	信服	nsubj
+信服	令	ccomp
+。	理解	punct
+”	理解	punct
+----------------------------------------------------------------------
+她还努力重现布什政府官员对美国安全所面临的严重威胁的低估的恐惧。
+
+(ROOT (IP (NP (PRP 她)) (VP (ADVP (RB 还)) (ADVP (RB 努力)) (VP (VV 重现) (NP (DNP (NP (DNP (NP (CP (CP (IP (NP (NP (NNP 布什)) (NP (NN 政府) (NN 官员))) (VP (PP (IN 对) (NP (NP (NNP 美国)) (NP (NN 安全)))) (VP (RB 所) (VP (VV 面临))))) (DEC 的))) (ADJP (JJ 严重)) (NP (NN 威胁))) (DEC 的)) (NP (NN 低估))) (DEC 的)) (NP (NN 恐惧))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'ADVP60257': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+她	重现	nsubj
+还	重现	mark
+努力	重现	advmod
+重现	ROOT	root
+布什	官员	nmod
+政府	官员	nmod
+官员	面临	nsubj
+对	安全	case
+美国	安全	nmod
+安全	面临	obl
+所	面临	mark
+面临	低估	acl:relcl
+的	面临	mark:rel
+严重	威胁	amod
+威胁	面临	obj
+的	面临	mark:rel
+低估	恐惧	nmod
+的	低估	case
+恐惧	重现	obj
+。	重现	punct
+----------------------------------------------------------------------
+然而，她在周日谈话节目中的一句话“我们不希望战争的确凿证据变成蘑菇云”，如今仍然被人们视为布什时期最夸张的言论之一。
+
+(ROOT (IP (ADVP (RB 然而)) (, ，) (NP (NP (PRP 她)) (DNP (PP (IN 在) (LCP (NP (NN 周日) (NN 谈话) (NN 节目)) (IN 中))) (DEC 的)) (QP (CD 一) (CLP (NNB 句))) (NP (NN 话))) (IP (IP (`` “) (NP (PRP 我们)) (VP (ADVP (RB 不)) (VP (VV 希望) (IP (NP (DNP (NP (NN 战争)) (DEC 的)) (ADJP (JJ 确凿)) (NP (NN 证据))) (VP (VV 变成) (NP (`` 蘑) (NNP 菇云)))))) ('' ”)) (, ，) (IP (VP (NP (NN 如今)) (ADVP (RB 仍然)) (VP (BB 被) (IP (NP (NN 人们)) (VP (VCP (VV 视) (VC 为)) (NP (DNP (NP (CP (CP (IP (VP (NP (NP (NNP 布什)) (NP (NN 时期))) (ADVP (RB 最)) (VP (JJ 夸张)))) (DEC 的))) (NP (NN 言论))) (DEC 之)) (NP (CD 一))))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'IP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NP': {}, 'DNP': {}, 'QP': {}, 'NP62500': {}}, 'IP': {'IP': {}, ',': {}, 'IP46776': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NP': {}, 'DNP': {}, 'QP': {}, 'NP': {}}, 'IP': {'IP': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NP': {}, 'DNP': {}, 'QP': {}, 'NP': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+然而	视	mark
+，	然而	punct
+她	话	nmod
+在	话	case
+周日	节目	nmod
+谈话	节目	nmod
+节目	话	nmod
+中	节目	case
+的	节目	case
+一	句	nummod
+句	话	clf
+话	视	obl
+“	变成	punct
+我	希望	nsubj
+不	希望	advmod
+希望	证据	acl:relcl
+战争	希望	obj
+的	希望	mark:rel
+确凿	证据	amod
+证据	变成	nsubj
+变成	话	appos
+蘑	菇云	punct
+菇云	变成	obj
+”	菇云	punct
+，	话	punct
+如今	视	nmod:tmod
+仍然	视	advmod
+被	视	aux:pass
+人	视	nsubj
+视	ROOT	root
+为	视	mark
+布什	时期	nmod
+时期	夸张	nmod:tmod
+最	夸张	advmod
+夸张	言论	acl:relcl
+的	夸张	mark:rel
+言论	一	nmod
+之	言论	case
+一	视	obj
+。	视	punct
+----------------------------------------------------------------------
+赖斯最令人困惑的论点是，政府错误地向公众透露了个别情报，因此战争的理由似乎依赖于后来被证明是错误的具体说法：总统演讲中指控伊拉克试图从尼日尔购买铀的“ 16 个字” 就是一个例子。
+
+(ROOT (IP (NP (CP (CP (IP (NP (NNP 赖斯)) (VP (VV 最令) (NP (NN 人)) (IP (VP (JJ 困惑))))) (DEC 的))) (NP (NN 论点))) (VP (VC 是) (, ，) (IP (IP (NP (NN 政府)) (VP (DVP (VP (JJ 错误)) (DEV 地)) (PP (IN 向) (NP (NN 公众))) (VP (VV 透露) (AS 了) (NP (ADJP (JJ 个别)) (NP (NN 情报)))))) (, ，) (IP (ADVP (IN 因)) (ADVP (PRD 此)) (NP (DNP (NP (NN 战争)) (DEC 的)) (NP (NN 理由))) (VP (RB 似乎) (VP (VV 依赖) (PP (VV 于) (NP (CP (CP (IP (VP (ADVP (NN 后来)) (VP (BB 被) (VP (VV 证明) (IP (VP (VC 是) (VP (JJ 错误)))))))) (DEC 的))) (ADJP (JJ 具体)) (NP (NN 说法))))))))) (: ：)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, ':': {}}}
+{'IP': {'NP': {}, 'VP': {}, ':': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, ':': {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, ':': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+赖斯	最令	nsubj
+最令	论点	acl:relcl
+人	困惑	nsubj
+困惑	最令	ccomp
+的	最令	mark:rel
+论点	是	nsubj
+是	ROOT	root
+，	透露	punct
+政府	透露	nsubj
+错误	透露	advmod
+地	错误	mark:adv
+向	公众	case
+公众	透露	obl
+透露	是	ccomp
+了	透露	aux
+个别	情报	amod
+情报	透露	obj
+，	依赖	punct
+因	此	case
+此	依赖	obl
+战争	理由	nmod
+的	战争	case
+理由	依赖	nsubj
+似乎	依赖	advmod
+依赖	是	parataxis
+于	依赖	mark
+后来	证明	nmod:tmod
+被	证明	aux:pass
+证明	说法	acl:relcl
+是	错误	cop
+错误	证明	xcomp
+的	证明	mark:rel
+具体	说法	amod
+说法	依赖	obj
+：	是	punct
+----------------------------------------------------------------------
+但如果这些关于胡森大规模毁灭性武器威胁的说法是空洞的，那么这场战争的理由是什么？
+
+(ROOT (IP (ADVP (RB 但)) (CP (ADVP (IN 如果)) (IP (NP (DP (DT 这些)) (DNP (PP (IN 关于) (NP (NP (NP (NNP 胡) (NNP 森)) (NP (ADJP (PFA 大)) (NP (NN 规模))) (NP (VV 毁灭)) (ADJP (SFN 性)) (NP (NN 武器))) (NP (NN 威胁)))) (DEC 的)) (NP (NN 说法))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 空洞))) (UH 的))))))) (, ，) (ADVP (RB 那么)) (NP (DNP (NP (DP (DT 这) (CLP (NNB 场))) (NP (NN 战争))) (DEC 的)) (NP (NN 理由))) (VP (VC 是) (NP (WP 什么))) (. ？)))
+layer 2:
+{'IP': {'ADVP': {}, 'CP': {}, ',': {}, 'ADVP32797': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP43813': {'RB': {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+但	什么	mark
+如果	空洞	case
+这些	说法	det
+关于	说法	case
+胡	说法	nmod
+森	胡	flat:name
+大	规模	case
+规模	威胁	nmod
+毁灭	性	compound
+性	威胁	nmod
+武器	威胁	nmod
+威胁	关于	nmod
+的	关于	mark:rel
+说法	空洞	nsubj
+是	空洞	cop
+空洞	什么	ccomp
+的	空洞	discourse
+，	空洞	punct
+那么	什么	advmod
+这	场	det
+场	战争	clf
+战争	理由	nmod
+的	战争	case
+理由	什么	nsubj
+是	什么	cop
+什么	ROOT	root
+？	什么	punct
+----------------------------------------------------------------------
+赖斯坚称，战争中最糟糕的错误，大多数都是由彭德尔顿犯下的：部署的士兵太少，无法维持秩序；解散了伊拉克军队；官方简报脱离了外国记者实地观察到的现实。
+
+(ROOT (IP (NP (NNP 赖斯)) (VP (VV 坚称) (, ，) (IP (IP (NP (CP (CP (IP (VP (LCP (NP (NN 战争)) (IN 中)) (ADVP (RB 最)) (VP (JJ 糟糕)))) (DEC 的))) (NP (NN 错误))) (, ，) (QP (ADVP (RB 大)) (QP (RB 多数))) (VP (VC 都是) (NP (CP (CP (IP (VP (PP (VV 由) (NP (NNP 彭) (NNP 德尔顿))) (VP (VV 犯下)))) (UH 的)))))) (: ：) (IP (NP (CP (CP (IP (VP (VV 部署))) (DEC 的))) (NP (NN 士兵))) (VP (JJ 太少))) (, ，) (IP (VP (VP (ADVP (VV 无法)) (VP (VV 维持) (NP (NN 秩序)))) (: ；) (VP (VV 解散) (AS 了) (NP (NP (NNP 伊拉克)) (NP (NN 军队)))))) (: ；) (IP (NP (NN 官方) (NN 简报)) (VP (VV 脱离) (AS 了) (NP (CP (CP (IP (NP (NN 外国) (NN 记者)) (VP (ADVP (RB 实地)) (VP (VRD (VV 观察) (VV 到))))) (DEC 的))) (NP (NN 现实))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+赖斯	坚称	nsubj
+坚称	ROOT	root
+，	解散	punct
+战争	糟糕	obl
+中	战争	case
+最	糟糕	advmod
+糟糕	错误	acl:relcl
+的	糟糕	mark:rel
+错误	解散	nsubj
+，	错误	punct
+大	是	advmod
+多数	是	advmod
+是	解散	advcl
+由	是	xcomp
+彭	犯下	nsubj
+德尔顿	彭	flat:name
+犯下	由	ccomp
+的	由	discourse
+：	太少	punct
+部署	士兵	acl:relcl
+的	部署	mark:rel
+士兵	太少	nsubj
+太少	是	ccomp
+，	太少	punct
+无法	解散	advcl
+维持	无法	xcomp
+秩序	维持	obj
+；	无法	punct
+解散	坚称	ccomp
+了	解散	aux
+伊拉克	军队	nmod
+军队	解散	obj
+；	脱离	punct
+官方	简报	nmod
+简报	脱离	nsubj
+脱离	坚称	parataxis
+了	脱离	aux
+外国	记者	nmod
+记者	观察	nsubj
+实地	观察	advmod
+观察	现实	acl:relcl
+到	观察	mark
+的	观察	mark:rel
+现实	脱离	obj
+。	坚称	punct
+----------------------------------------------------------------------
+我每天都会和采访者交谈，他们冒着生命危险去采访。
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (NP (DT 每天)) (ADVP (RB 都)) (VP (MD 会) (VP (PP (IN 和) (NP (VV 采访) (SFN 者))) (VP (VV 交谈)))))) (, ，) (IP (NP (PRP 他们)) (VP (VP (VV 冒) (AS 着) (NP (NN 生命) (VV 危险))) (VP (RB 去) (VP (VV 采访))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP89557': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP77889': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+我	交谈	nsubj
+每天	交谈	nmod:tmod
+都	交谈	mark
+会	交谈	aux
+和	者	case
+采访	者	compound
+者	交谈	obl
+交谈	ROOT	root
+，	采访	punct
+他	采访	nsubj
+冒	采访	advcl
+着	冒	aux
+生命	危险	nsubj
+危险	冒	ccomp
+去	采访	mark
+采访	交谈	parataxis
+。	交谈	punct
+----------------------------------------------------------------------
+事实上，她说，到 2006 年时，她拒绝引用夸大了成功的误导性军事统计数据。
+
+(ROOT (IP (LCP (NP (NN 事实)) (IN 上)) (, ，) (NP (PRP 她)) (VP (VV 说) (, ，) (IP (PP (IN 到) (LCP (NP (CD 2006)) (NNB 年时))) (, ，) (NP (PRP 她)) (VP (VV 拒绝) (IP (VP (VV 引用) (IP (VP (VV 夸大) (AS 了) (NP (CP (CP (IP (VP (JJ 成功))) (DEC 的))) (NP (VV 误导) (SFN 性) (NN 军事) (NN 统计) (NN 数据)))))))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+事实	说	obl
+上	事实	case
+，	事实	punct
+她	说	nsubj
+说	ROOT	root
+，	拒绝	punct
+到	年时	case
+2006	年时	nummod
+年时	拒绝	obl
+，	年时	punct
+她	拒绝	nsubj
+拒绝	说	ccomp
+引用	拒绝	xcomp
+夸大	引用	xcomp
+了	夸大	aux
+成功	数据	amod
+的	成功	mark:rel
+误导	性	compound
+性	数据	nmod
+军事	数据	nmod
+统计	数据	nmod
+数据	夸大	obj
+。	说	punct
+----------------------------------------------------------------------
+她告诉了自己的办公室主任：“我自己也不相信他们。”
+
+(ROOT (IP (IP (NP (PRP 她)) (VP (VV 告诉) (AS 了) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (VV 办公) (SFN 室) (NN 主任))))) (: ：) (IP (`` “) (NP (PRP 我) (PRD 自己)) (VP (ADVP (RB 也)) (ADVP (RB 不)) (VP (VV 相信) (NP (PRP 他们))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP17174': {}, '.': {}, "''": {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP52559': {'``': {}, 'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'``': {}, 'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+她	告诉	nsubj
+告诉	ROOT	root
+了	告诉	aux
+自己	主任	det
+的	自己	case
+办公	室	compound
+室	主任	nmod
+主任	告诉	obj
+：	相信	punct
+“	相信	punct
+我	相信	nsubj
+自己	我	appos
+也	相信	mark
+不	相信	advmod
+相信	告诉	parataxis
+他	相信	obj
+。	相信	punct
+”	相信	punct
+----------------------------------------------------------------------
+最后，她对战争进程的日益痛苦在布什与她的一次紧张对峙中达到高潮，她直言不讳地告诉他：“它失败了。”
+
+(ROOT (IP (IP (ADVP (NN 最后)) (, ，) (NP (NP (PRP 她)) (DNP (PP (IN 对) (NP (NN 战争) (NN 进程))) (DEC 的)) (ADJP (JJ 日益)) (NP (NN 痛苦))) (VP (PP (IN 在) (LCP (NP (NP (NNP 布什)) (CC 与) (NP (DNP (NP (PRP 她)) (DEC 的)) (QP (CD 一) (CLP (NNB 次))) (ADJP (JJ 紧张)) (NP (NN 对峙)))) (IN 中))) (VP (VV 达到) (NP (NN 高潮))))) (, ，) (IP (NP (PRP 她)) (VP (VV 直言) (VP (DVP (VP (ADVP (RB 不)) (VP (JJ 讳))) (DEV 地)) (VP (VV 告诉) (NP (PRP 他)) (: ：) (IP (`` “) (NP (PRP 它)) (VP (VV 失败) (UH 了))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP62644': {}, '.': {}, "''": {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP95961': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+最后	达到	nmod:tmod
+，	最后	punct
+她	痛苦	nmod
+对	痛苦	case
+战争	进程	nmod
+进程	痛苦	nmod
+的	痛苦	case
+日益	痛苦	amod
+痛苦	达到	obl
+在	对峙	case
+布什	对峙	nmod
+与	她	cc
+她	布什	conj
+的	布什	case
+一	次	nummod
+次	对峙	clf
+紧张	对峙	amod
+对峙	达到	obl
+中	对峙	case
+达到	ROOT	root
+高潮	达到	obj
+，	直言	punct
+她	告诉	nsubj
+直言	达到	parataxis
+不	讳	advmod
+讳	告诉	advmod
+地	讳	mark:adv
+告诉	直言	xcomp
+他	告诉	obj
+：	失败	punct
+“	失败	punct
+它	失败	nsubj
+失败	达到	parataxis
+了	失败	discourse
+。	失败	punct
+”	失败	punct
+----------------------------------------------------------------------
+他的回应是问她她认为哪项政策会起作用。
+
+(ROOT (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 回应))) (VP (VC 是) (IP (VP (VV 问) (NP (PRP 她)) (IP (NP (PRP 她)) (VP (VV 认为) (IP (NP (DP (DT 哪) (CLP (NNB 项))) (NP (NN 政策))) (VP (MD 会) (VP (VV 起) (NP (NN 作用)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'IP': {}}}
+Dependency Features:
+他	回应	det
+的	他	case
+回应	是	nsubj
+是	ROOT	root
+问	是	xcomp
+她	为	nsubj
+她	为	nsubj
+为	问	ccomp
+哪	项	det
+项	政策	clf
+政策	起	nsubj
+会	起	aux
+起	为	ccomp
+作用	起	obj
+。	是	punct
+----------------------------------------------------------------------
+她写道：“那是我对伊拉克最深的绝望之时。”
+
+(ROOT (IP (NP (PRP 她)) (VP (VV 写道) (: ：) (IP (`` “) (NP (PRD 那)) (VP (VC 是) (LCP (NP (NP (PRP 我)) (PP (IN 对) (NP (NNP 伊拉克))) (CP (CP (IP (VP (JJ 最深))) (DEC 的))) (NP (NN 绝望))) (IN 之时))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+她	写道	nsubj
+写道	ROOT	root
+：	绝望	punct
+“	绝望	punct
+那	绝望	nsubj
+是	绝望	cop
+我	绝望	nmod
+对	绝望	case
+伊拉克	绝望	nmod
+最深	绝望	amod
+的	最深	mark:rel
+绝望	写道	ccomp
+之时	绝望	case
+。	绝望	punct
+”	绝望	punct
+----------------------------------------------------------------------
+“我不确定是否有答案可以回答总统的问题。”
+
+(ROOT (IP (`` “) (IP (NP (PRP 我)) (VP (ADVP (RB 不)) (VP (VV 确定) (IP (IP (VP (ADVP (VC 是否)) (VP (VV 有) (NP (NN 答案))))) (VP (MD 可以) (VP (VV 回答) (NP (DNP (NP (NN 总统)) (DEC 的)) (NP (NN 问题))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'``': {}, 'IP': {}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'``': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+“	确定	punct
+我	确定	nsubj
+不	确定	advmod
+确定	ROOT	root
+是	确定	xcomp
+有	回答	advcl
+答案	有	obj
+可以	回答	aux
+回答	是	ccomp
+总统	问题	nmod
+的	总统	case
+问题	回答	obj
+。	回答	punct
+”	确定	punct
+----------------------------------------------------------------------
+在他们自己的书中，拉姆斯菲尔德和切尼谴责赖斯。
+
+(ROOT (IP (PP (IN 在) (LCP (DNP (NP (PRP 他们) (PRD 自己)) (DEC 的)) (NN 书中))) (, ，) (NP (NNP 拉姆斯菲尔德) (CC 和) (NNP 切尼) (VV 谴责赖斯)) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}, 'CC': {}, 'NNP19427': {}, 'VV': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}, 'CC': {}, 'NNP': {}, 'VV': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NNP': {}, 'CC': {}, 'NNP': {}, 'VV': {}}}
+Dependency Features:
+在	书中	case
+他	书中	det
+自己	他	appos
+的	他	case
+书中	谴责赖斯	obl
+，	书中	punct
+拉姆斯菲尔德	谴责赖斯	nsubj
+和	切尼	cc
+切尼	拉姆斯菲尔德	conj
+谴责赖斯	ROOT	root
+。	谴责赖斯	punct
+----------------------------------------------------------------------
+现在是她的回合了。
+
+(ROOT (IP (VP (NP (NN 现在)) (VP (VC 是) (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 回合))))) (UH 了) (. 。)))
+layer 2:
+{'IP': {'VP': {}, 'UH': {}, '.': {}}}
+{'IP': {'VP': {}, 'UH': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'IP': {'VP': {'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'VP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+现在	回合	nmod:tmod
+是	回合	cop
+她	回合	det
+的	她	mark:rel
+回合	ROOT	root
+了	回合	discourse
+。	回合	punct
+----------------------------------------------------------------------
+她比他们更有礼貌，一直坚持说他们的分歧是在政策上，而非人格上。
+
+(ROOT (IP (NP (PRP 她)) (VP (VP (PP (IN 比) (NP (PRP 他们))) (ADVP (RB 更)) (VP (VV 有) (NP (NN 礼貌)))) (, ，) (VP (ADVP (RB 一直)) (VP (VV 坚持) (IP (VP (VV 说) (IP (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 分歧))) (VP (VC 是) (VP (PP (IN 在) (LCP (NP (NN 政策)) (IN 上))) (, ，) (VP (VC 而非) (LCP (NP (NN 人格)) (IN 上))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP34400': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+她	坚持	nsubj
+比	他	case
+他	有	obl
+更	有	advmod
+有	坚持	advcl
+礼貌	有	obj
+，	有	punct
+一直	坚持	advmod
+坚持	ROOT	root
+说	坚持	xcomp
+他	分歧	det
+的	他	case
+分歧	是	nsubj
+是	说	ccomp
+在	政策	case
+政策	而非	obl
+上	政策	case
+，	政策	punct
+而非	是	xcomp
+人格	而非	xcomp
+上	人格	case
+。	坚持	punct
+----------------------------------------------------------------------
+但她将拉姆斯菲尔德描绘成一个自大的人，他对一个曾经是他的下属而现在已经崭露头角的女性攀上权力的历程感到不安。
+
+(ROOT (IP (IP (ADVP (RB 但)) (NP (PRP 她)) (VP (BB 将) (IP (NP (NNP 拉姆斯菲尔德)) (VP (VRD (VV 描绘) (VV 成)) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 自大))) (DEC 的))) (NP (NN 人))))))) (, ，) (IP (NP (PRP 他)) (VP (PP (IN 对) (NP (CP (IP (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VP (ADVP (RB 曾经)) (VP (VC 是) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 下属))))) (RB 而) (VP (NP (NN 现在)) (ADVP (RB 已经)) (VP (VV 崭) (NP (VV 露头) (SFN 角)))))) (DEC 的))) (NP (NN 女性))) (VP (VV 攀上) (NP (NN 权力)))) (DEC 的)) (NP (NN 历程)))) (VP (VV 感到) (NP (JJ 不安))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP99318': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP11322': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+但	描绘	mark
+她	描绘	nsubj
+将	拉姆斯菲尔德	case
+拉姆斯菲尔德	描绘	obl:patient
+描绘	感到	advcl
+成	描绘	mark
+一	个	nummod
+个	人	clf
+自大	人	amod
+的	自大	mark:rel
+人	描绘	obj
+，	描绘	punct
+他	感到	nsubj
+对	历程	case
+一	个	nummod
+个	下属	clf
+曾经	是	advmod
+是	女性	acl:relcl
+他	是	obj
+的	是	mark:rel
+下属	是	obj
+而	感到	mark
+现在	崭	nmod:tmod
+已经	崭	advmod
+崭	女性	acl:relcl
+露头	角	compound
+角	崭	obj
+的	崭	mark:rel
+女性	攀上	nsubj
+攀上	历程	acl:relcl
+权力	攀上	obj
+的	攀上	mark:rel
+历程	感到	obl
+感到	ROOT	root
+不安	感到	xcomp
+。	感到	punct
+----------------------------------------------------------------------
+她还描述了陈晓在 2003 年庆祝伊拉克解放时排斥她和科林·鲍威尔的场面，从而抓住了陈晓的傲慢。
+
+(ROOT (IP (NP (PRP 她)) (VP (VP (ADVP (RB 还)) (VP (VV 描述) (AS 了) (NP (CP (IP (NP (NNP 陈) (NNP 晓)) (VP (LCP (IP (VP (PP (IN 在) (NP (CD 2003))) (VP (NNB 年庆祝) (NP (NP (NNP 伊拉克)) (NP (VV 解放)))))) (IN 时)) (VP (VV 排斥) (NP (NP (PRP 她)) (CC 和) (NP (NNP 科林) (/ ·) (NNP 鲍威尔)))))) (DEC 的)) (NP (NN 场面))))) (, ，) (VP (ADVP (RB 从而)) (VP (VV 抓住) (AS 了) (NP (DNP (NP (NNP 陈) (NNP 晓)) (DEC 的)) (NP (NN 傲慢)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP61588': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+她	描述	nsubj
+还	描述	mark
+描述	抓住	advcl
+了	描述	aux
+陈	排斥	nsubj
+晓	陈	flat:name
+在	解放	case
+2003	年庆祝	nummod
+年庆祝	解放	nmod:tmod
+伊拉克	解放	nsubj
+解放	排斥	ccomp
+时	解放	mark
+排斥	场面	acl:relcl
+她	排斥	obj
+和	科林	cc
+科林	她	conj
+·	鲍威尔	punct
+鲍威尔	科林	flat:name
+的	排斥	mark:rel
+场面	描述	obj
+，	描述	punct
+从而	抓住	mark
+抓住	ROOT	root
+了	抓住	aux
+陈	傲慢	nmod
+晓	陈	flat:name
+的	陈	case
+傲慢	抓住	obj
+。	抓住	punct
+----------------------------------------------------------------------
+然而，她自身的盲点也很明显。
+
+(ROOT (IP (ADVP (RB 然而)) (, ，) (NP (DNP (NP (PRP 她) (PRD 自身)) (DEC 的)) (NP (NN 盲点))) (VP (ADVP (RB 也)) (ADVP (RB 很)) (VP (JJ 明显))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP41882': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+然而	明显	mark
+，	然而	punct
+她	盲点	det
+自身	她	appos
+的	她	case
+盲点	明显	nsubj
+也	明显	mark
+很	明显	advmod
+明显	ROOT	root
+。	明显	punct
+----------------------------------------------------------------------
+她承认，例如，她没有想到伊拉克人会把美国视为占领者，忽略了伊拉克在 20 世纪 20 年代抵抗英国的历史以及阿拉伯人对任何殖民主义色彩的敏感。
+
+(ROOT (IP (NP (PRP 她)) (VP (VV 承认) (, ，) (IP (ADVP (VV 例如)) (, ，) (NP (PRP 她)) (VP (VV 没有) (VP (VV 想到) (IP (NP (NP (NNP 伊拉克)) (NP (SFN 人))) (VP (VP (MD 会) (VP (BB 把) (IP (NP (NNP 美国)) (VP (VRD (VV 视) (VC 为)) (NP (VV 占领) (SFN 者)))))) (, ，) (VP (VV 忽略) (AS 了) (NP (NP (CP (IP (NP (NNP 伊拉克)) (VP (PP (IN 在) (NP (NP (QP (CD 20)) (NP (NNB 世纪))) (QP (CD 20)) (NP (NNB 年代)))) (VP (VV 抵抗) (NP (NNP 英国))))) (DEC 的)) (NP (NN 历史))) (CC 以及) (NP (NP (NP (NNP 阿拉伯)) (NP (SFN 人))) (DNP (PP (IN 对) (NP (DP (DT 任何)) (NP (NN 殖民) (NN 主义) (NN 色彩)))) (DEC 的)) (NP (NN 敏感))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+她	承认	nsubj
+承认	ROOT	root
+，	例如	punct
+例如	承认	xcomp
+，	有	punct
+她	有	nsubj
+有	例如	ccomp
+想到	有	xcomp
+伊拉克	人	compound
+人	忽略	nsubj
+会	视	aux
+把	美国	case
+美国	视	obl:patient
+视	忽略	advcl
+为	视	mark
+占领	者	compound
+者	视	obj
+，	视	punct
+忽略	想到	ccomp
+了	忽略	aux
+伊拉克	抵抗	nsubj
+在	年代	case
+20	世纪	nummod
+世纪	年代	clf
+20	年代	nummod
+年代	抵抗	obl
+抵抗	历史	acl:relcl
+英国	抵抗	obj
+的	抵抗	mark:rel
+历史	忽略	obj
+以及	敏感	cc
+阿拉伯	人	compound
+人	敏感	nmod
+对	色彩	case
+任何	主义	det
+殖民	主义	nmod
+主义	色彩	nmod
+色彩	敏感	nmod
+的	敏感	case
+敏感	历史	conj
+。	承认	punct
+----------------------------------------------------------------------
+她的欧洲中心论是一个明显的缺陷。
+
+(ROOT (IP (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NNP 欧洲)) (NP (NN 中心) (SFN 论))) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 明显))) (DEC 的))) (NP (NN 缺陷)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}, 'NP1316': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+她	论	det
+的	她	case
+欧洲	论	nmod
+中心	论	compound
+论	缺陷	nsubj
+是	缺陷	cop
+一	个	nummod
+个	缺陷	clf
+明显	缺陷	amod
+的	明显	mark:rel
+缺陷	ROOT	root
+。	缺陷	punct
+----------------------------------------------------------------------
+她在一本 766 页的书中，似乎把她所有旅行都写进去了，但却很少提到阿富汗的快速恶化。
+
+(ROOT (IP (NP (PRP 她)) (VP (VP (PP (IN 在) (LCP (NP (QP (QP (NN 一本)) (QP (CD 766))) (NP (NNB 页的))) (NN 书中))) (, ，) (VP (RB 似乎) (VP (BB 把) (IP (NP (NP (PRP 她)) (DP (DT 所有)) (NP (NN 旅行))) (VP (ADVP (RB 都)) (VP (VRD (VV 写进) (VV 去)) (UH 了))))))) (, ，) (VP (ADVP (RB 但)) (ADVP (RB 却)) (ADVP (RB 很少)) (VP (VV 提到) (NP (DNP (NP (NNP 阿富汗)) (DEC 的)) (ADJP (RB 快速)) (NP (VV 恶化)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP23344': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+她	写进	nsubj
+在	书中	case
+一本	书中	nmod
+766	页的	nummod
+页的	书中	clf
+书中	写进	obl
+，	书中	punct
+似乎	写进	advmod
+把	旅行	case
+她	旅行	nmod
+所有	旅行	det
+旅行	写进	obl:patient
+都	写进	mark
+写进	提到	advcl
+去	写进	mark
+了	写进	discourse
+，	写进	punct
+但	提到	mark
+却	提到	mark
+很少	提到	advmod
+提到	ROOT	root
+阿富汗	恶化	nmod
+的	阿富汗	case
+快速	恶化	advmod
+恶化	提到	obj
+。	提到	punct
+----------------------------------------------------------------------
+她指出哈米德·卡尔扎伊总统往往不现实，甚至有些妄想，但没有提到腐败和功能失调问题，这些问题导致阿富汗人民与塔利班脱节，加剧了塔利班的势力。
+
+(ROOT (IP (NP (PRP 她)) (VP (VV 指出) (IP (IP (NP (NNP 哈米德) (/ ·) (NNP 卡尔扎伊) (NN 总统)) (VP (VP (VP (ADVP (RB 往往)) (ADVP (RB 不)) (VP (JJ 现实))) (, ，) (VP (ADVP (RB 甚至)) (DP (VV 有些)) (NP (NN 妄想)))) (, ，) (VP (ADVP (RB 但)) (VP (VV 没有) (VP (VV 提到) (NP (NP (NN 腐败) (CC 和) (NN 功能) (NN 失调)) (NP (NN 问题)))))))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 问题))) (VP (VP (VV 导致) (IP (NP (NP (NNP 阿富汗)) (NP (NN 人民))) (VP (PP (IN 与) (NP (NNP 塔利班))) (VP (VV 脱节))))) (, ，) (VP (VV 加剧) (AS 了) (NP (DNP (NP (NNP 塔利班)) (DEC 的)) (NP (NN 势力)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+她	指出	nsubj
+指出	ROOT	root
+哈米德	总统	nmod
+·	卡尔扎伊	punct
+卡尔扎伊	哈米德	flat:name
+总统	现实	nsubj
+往往	现实	advmod
+不	现实	advmod
+现实	有	advcl
+，	现实	punct
+甚至	有些	mark
+有些	有	advcl
+妄想	有些	obj
+，	有些	punct
+但	有	mark
+有	指出	ccomp
+提到	有	xcomp
+腐败	问题	nmod
+和	失调	cc
+功能	失调	nmod
+失调	腐败	conj
+问题	提到	obj
+，	加剧	punct
+这些	问题	det
+问题	加剧	nsubj
+导致	加剧	advcl
+阿富汗	人民	nmod
+人民	脱节	nsubj
+与	塔利班	case
+塔利班	脱节	obl
+脱节	导致	ccomp
+，	导致	punct
+加剧	指出	parataxis
+了	加剧	aux
+塔利班	势力	nmod
+的	塔利班	case
+势力	加剧	obj
+。	指出	punct
+----------------------------------------------------------------------
+同样，她也指责美国对巴基斯坦的双重标准，即允许巴基斯坦接受数十亿美元的美国援助，同时其安全部门成员支持反美的武装分子。
+
+(ROOT (IP (IP (ADVP (RB 同样)) (, ，) (NP (PRP 她)) (VP (ADVP (RB 也)) (VP (VV 指责) (NP (NP (NNP 美国)) (DNP (PP (IN 对) (NP (NNP 巴基斯坦))) (DEC 的)) (QP (CD 双) (CLP (NNB 重))) (NP (NN 标准))) (, ，) (IP (VP (ADVP (VC 即)) (VP (VV 允许) (NP (NNP 巴基斯坦)) (IP (VP (VV 接受) (NP (DNP (QP (CD 数十亿) (CLP (NNP 美) (CLP (NNB 元)))) (DEC 的)) (NP (NNP 美国)) (NP (NN 援助))))))))))) (, ，) (IP (ADVP (NN 同时)) (NP (NP (PRP 其)) (NP (NN 安全) (NN 部门) (NN 成员))) (VP (VV 支持) (NP (DNP (ADJP (NNP 反美)) (DEC 的)) (NP (NN 武装) (NN 分子))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP51484': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP1378': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+同样	即	advmod
+，	同样	punct
+她	即	nsubj
+也	指责	mark
+指责	即	advcl
+美国	标准	nmod
+对	标准	case
+巴基斯坦	标准	nmod
+的	标准	case
+双	重	nummod
+重	标准	clf
+标准	指责	obj
+，	指责	punct
+即	ROOT	root
+允许	即	xcomp
+巴基斯坦	接受	nsubj
+接受	允许	ccomp
+数十亿	元	nummod
+美	元	nmod
+元	援助	nmod
+的	元	mark:rel
+美国	援助	nmod
+援助	接受	obj
+，	支持	punct
+同时	支持	nmod:tmod
+其	成员	nmod
+安全	成员	nmod
+部门	成员	nmod
+成员	支持	nsubj
+支持	即	parataxis
+反美	分子	nmod
+的	反美	case
+武装	分子	nmod
+分子	支持	obj
+。	即	punct
+----------------------------------------------------------------------
+有成功的事例：对非洲的热情承诺，制定了防治艾滋病的方案；发展赠款和压力以减少达尔富尔的杀戮；解除卡扎菲的武装（她正确地指出，这剥夺了他可能在阿拉伯之春发动的大规模毁灭性武器）；与印度达成的核协议。
+
+(ROOT (IP (IP (NP (CP (CP (IP (VP (VV 有) (NP (JJ 成功)))) (DEC 的))) (NP (NN 事例))) (: ：) (NP (DNP (PP (IN 对) (NP (NNP 非洲))) (DEC 的)) (NP (JJ 热情) (NN 承诺))) (, ，) (VP (VV 制定) (AS 了) (NP (CP (IP (VP (VV 防治) (NP (NN 艾滋) (SFN 病)))) (DEC 的)) (NP (NN 方案))))) (: ；) (VP (NP (NN 发展) (NP (NN 赠款) (CC 和) (NN 压力))) (VP (RB 以) (VP (VV 减少) (NP (DNP (NP (NNP 达尔) (NNP 富尔)) (DEC 的)) (NP (NN 杀戮)))))) (: ；) (IP (VP (VV 解除) (NP (DNP (NP (NNP 卡扎菲)) (DEC 的)) (NP (NN 武装))))) (PRN (-LRB- （) (IP (NP (PRP 她)) (VP (DVP (VP (JJ 正确)) (DEV 地)) (VP (VV 指出) (, ，) (IP (IP (IP (NP (PRD 这)) (VP (VV 剥夺) (AS 了) (NP (CP (CP (IP (NP (PRP 他)) (VP (MD 可能) (VP (PP (IN 在) (LCP (NP (NNP 阿拉伯)) (NN 之春))) (VP (VV 发动))))) (DEC 的))) (NP (ADJP (PFA 大)) (NP (NN 规模))) (ADJP (VV 毁灭)) (ADJP (SFN 性)) (NP (NN 武器))))) (-RRB- ）)) (: ；) (NP (CP (CP (IP (VP (PP (IN 与) (NP (NNP 印度))) (VP (VV 达成)))) (DEC 的))) (NP (NN 核) (NN 协议)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'VP': {}, ':76017': {}, 'IP85574': {}, 'PRN': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'VP': {}, ':': {}, 'IP': {}, 'PRN': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ':': {}, 'NP2866': {}, ',': {}, 'VP': {}}, ':': {}, 'VP': {'NP': {}, 'VP': {}}, ':71555': {}, 'IP96377': {'VP': {}}, 'PRN': {'-LRB-': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ':': {}, 'NP': {}, ',': {}, 'VP': {}}, ':': {}, 'VP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'VP': {}}, 'PRN': {'-LRB-': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, ':': {}, 'NP': {}, ',': {}, 'VP': {}}}
+{'VP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'PRN': {'-LRB-': {}, 'IP': {}}}
+Dependency Features:
+有	事例	acl:relcl
+成功	事例	amod
+的	成功	mark:rel
+事例	制定	nsubj
+：	事例	punct
+对	承诺	case
+非洲	承诺	nmod
+的	非洲	case
+热情	承诺	amod
+承诺	制定	obl
+，	承诺	punct
+制定	ROOT	root
+了	制定	aux
+防治	方案	acl:relcl
+艾滋	病	compound
+病	防治	obj
+的	防治	mark:rel
+方案	制定	obj
+；	减少	punct
+发展	赠款	nmod
+赠款	减少	nsubj
+和	压力	cc
+压力	赠款	conj
+以	减少	mark
+减少	制定	parataxis
+达尔	富尔	nmod
+富尔	杀戮	nmod
+的	富尔	case
+杀戮	减少	obj
+；	减少	punct
+解除	减少	conj
+卡扎菲	解除	obj
+的	解除	mark:rel
+武装	解除	obj
+（	指出	punct
+她	指出	nsubj
+正确	指出	advmod
+地	正确	mark:adv
+指出	制定	parataxis
+，	剥夺	punct
+这	剥夺	nsubj
+剥夺	指出	ccomp
+了	剥夺	aux
+他	武器	nmod
+可能	发动	aux
+在	之春	case
+阿拉伯	之春	nmod
+之春	发动	obl
+发动	武器	acl:relcl
+的	发动	mark:rel
+大	规模	case
+规模	武器	nmod
+毁灭	性	compound
+性	武器	nmod
+武器	剥夺	obj
+）	武器	punct
+；	协议	punct
+与	印度	case
+印度	达成	obl
+达成	协议	acl:relcl
+的	达成	mark:rel
+核	协议	nmod
+协议	剥夺	obj
+。	制定	punct
+----------------------------------------------------------------------
+Rice 似乎也渴望为播下阿拉伯之春种子而获得赞誉，除其他外，她帮助建立“伊拉克脆弱的民主道路”，并鼓励黎巴嫩实行民主。
+
+(ROOT (IP (IP (NP (FW Rice)) (VP (ADVP (RB 似乎)) (ADVP (RB 也)) (VP (VV 渴望) (IP (VP (PP (IN 为) (IP (VP (VV 播下) (NP (NP (NNP 阿拉伯)) (NP (NN 之春)) (NP (NN 种子)))))) (VP (RB 而) (VP (VV 获得) (NP (NN 赞誉))))))))) (, ，) (IP (PP (VV 除) (NP (DP (DT 其他)) (NP (IN 外)))) (, ，) (NP (PRP 她)) (VP (VV 帮助) (IP (VP (VP (VV 建立) (NP (`` “) (NP (NNP 伊拉克)) (CP (CP (IP (VP (JJ 脆弱))) (DEC 的))) (NP (NN 民主) (NN 道路)) ('' ”))) (, ，) (RB 并) (VP (VV 鼓励) (NP (NNP 黎巴嫩)) (IP (VP (VV 实行) (NP (NN 民主))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP85799': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP77286': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+Rice	获得	nsubj
+似乎	渴望	advmod
+也	渴望	mark
+渴望	除	advcl
+为	播下	case
+播下	获得	xcomp
+阿拉伯	种子	nmod
+之春	种子	nmod
+种子	播下	obj
+而	获得	mark
+获得	渴望	xcomp
+赞誉	获得	obj
+，	除	punct
+除	ROOT	root
+其他	除	obj
+外	除	mark
+，	鼓励	punct
+她	鼓励	nsubj
+帮助	鼓励	advcl
+建立	帮助	xcomp
+“	道路	punct
+伊拉克	道路	nmod
+脆弱	道路	amod
+的	脆弱	mark:rel
+民主	道路	nmod
+道路	建立	obj
+”	道路	punct
+，	帮助	punct
+并	鼓励	mark
+鼓励	除	parataxis
+黎巴嫩	实行	nsubj
+实行	鼓励	ccomp
+民主	实行	obj
+。	鼓励	punct
+----------------------------------------------------------------------
+《没有比这更高荣的事》真正展现了两个康多莉扎·赖斯：一个是耿直的单边主义者，她曾担任国家安全顾问；另一个是重新崭露头角的外交官，她担任国务卿，努力修复美国因单边主义而带来的部分声誉损害。
+
+(ROOT (IP (IP (NP (-LRB- 《) (VP (VV 没有) (NP (DNP (PP (IN 比) (NP (DP (DT 这)) (ADJP (JJ 更高)) (NP (NN 荣)))) (DEC 的)) (NP (NN 事)))) (-RRB- 》)) (VP (ADVP (RB 真正)) (VP (VV 展现) (AS 了) (NP (NP (QP (CD 两) (CLP (NNB 个))) (NP (NNP 康多莉扎) (/ ·) (NNP 赖斯))) (: ：) (IP (QP (CD 一) (CLP (NNB 个))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 耿直))) (DEC 的))) (NP (QP (CD 单)) (NP (NN 边))) (NP (NN 主义) (SFN 者))))))))) (, ，) (IP (NP (PRP 她)) (VP (ADVP (RB 曾)) (VP (VV 担任) (NP (NN 国家) (NN 安全) (NN 顾问))))) (: ；) (IP (DP (DT 另) (QP (CD 一) (CLP (NNB 个)))) (VP (VC 是) (NP (CP (CP (IP (VP (ADVP (RB 重新)) (VP (VV 崭露) (NP (NN 头角))))) (DEC 的))) (NP (NN 外交) (SFN 官))))) (, ，) (IP (NP (PRP 她)) (VP (VP (VV 担任) (NP (NN 国务) (SFN 卿))) (, ，) (VP (ADVP (RB 努力)) (VP (VV 修复) (NP (CP (CP (IP (NP (NNP 美国)) (VP (PP (IN 因) (NP (QP (CD 单) (CLP (NN 边))) (NP (NN 主义)))) (VP (RB 而) (VP (VV 带来))))) (DEC 的))) (QP (NN 部分)) (NP (NN 声誉) (NN 损害))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP98079': {}, ':': {}, 'IP83060': {}, ',63727': {}, 'IP46241': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ':': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP36596': {'NP': {}, 'VP': {}}, ':': {}, 'IP69560': {'DP': {}, 'VP': {}}, ',89990': {}, 'IP65702': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'DP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'DP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+《	事	punct
+有	事	acl:relcl
+比	事	case
+这	荣	det
+更高	荣	amod
+荣	事	nmod
+的	有	mark:rel
+事	展现	xcomp
+》	事	punct
+真正	展现	advmod
+展现	ROOT	root
+了	展现	aux
+两	个	nummod
+个	康多莉扎	clf
+康多莉扎	展现	obj
+·	赖斯	punct
+赖斯	康多莉扎	flat:name
+：	者	punct
+一	个	nummod
+个	者	nmod
+是	者	cop
+耿直	者	amod
+的	耿直	mark:rel
+单	边	nummod
+边	主义	nmod
+主义	者	compound
+者	展现	ccomp
+，	担任	punct
+她	担任	nsubj
+曾	担任	advmod
+担任	展现	parataxis
+国家	顾问	nmod
+安全	顾问	nmod
+顾问	担任	obj
+；	官	punct
+另	个	det
+一	个	nummod
+个	官	nsubj
+是	官	cop
+重新	崭露	advmod
+崭露	官	acl:relcl
+头角	崭露	obj
+的	崭露	mark:rel
+外交	官	compound
+官	修复	advcl
+，	修复	punct
+她	修复	nsubj
+担任	修复	advcl
+国务	卿	compound
+卿	担任	obj
+，	担任	punct
+努力	修复	advmod
+修复	展现	parataxis
+美国	带来	nsubj
+因	主义	case
+单	边	nummod
+边	主义	nmod
+主义	带来	obl
+而	带来	mark
+带来	损害	acl:relcl
+的	带来	mark:rel
+部分	损害	nmod
+声誉	损害	nmod
+损害	修复	obj
+。	展现	punct
+----------------------------------------------------------------------
+几个月前，她在他们离任前向总统表示：“人们对我们已经厌倦了。”
+
+(ROOT (IP (LCP (NP (QP (CD 几) (CLP (NNB 个))) (NP (NN 月))) (IN 前)) (, ，) (NP (PRP 她)) (VP (PP (IN 在) (LCP (IP (NP (PRP 他们)) (VP (VV 离任))) (IN 前))) (PP (IN 向) (NP (NN 总统))) (VP (VV 表示) (: ：) (IP (`` “) (NP (NN 人们)) (VP (PP (IN 对) (NP (PRP 我们))) (ADVP (RB 已经)) (VP (VV 厌倦) (UH 了)))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'PP': {}, 'PP16800': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'PP': {}, 'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'PP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+几	个	nummod
+个	月	clf
+月	表示	nmod:tmod
+前	月	case
+，	月	punct
+她	表示	nsubj
+在	离任	case
+他	离任	nsubj
+离任	表示	ccomp
+前	离任	mark
+向	总统	case
+总统	表示	obl
+表示	ROOT	root
+：	厌倦	punct
+“	厌倦	punct
+人	厌倦	nsubj
+对	我	case
+我	厌倦	obl
+已经	厌倦	advmod
+厌倦	表示	ccomp
+了	厌倦	discourse
+。	厌倦	punct
+”	厌倦	punct
+----------------------------------------------------------------------
+历史的判断让人感到有些沮丧。
+
+(ROOT (IP (NP (DNP (NP (NN 历史)) (DEC 的)) (NP (NN 判断))) (VP (VV 让) (NP (NN 人)) (IP (VP (VV 感到) (IP (VP (ADVP (VV 有些)) (VP (JJ 沮丧))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
+Dependency Features:
+历史	判断	nmod
+的	历史	case
+判断	让	nsubj
+让	ROOT	root
+人	感到	nsubj
+感到	让	ccomp
+有些	感到	xcomp
+沮丧	有些	xcomp
+。	让	punct
+----------------------------------------------------------------------

@@ -1,0 +1,749 @@
+奥巴马周二表示，他将在今年春季和夏季向阿富汗增派 17,000 名美军，这将使他对这场战争的印记深深印在了这场战争上，他早就对这场战争的方向表示了不满。
+
+(ROOT (IP (NP (NNP 奥巴马)) (VP (NP (NNP 周) (CD 二)) (VP (VV 表示) (, ，) (IP (IP (NP (PRP 他)) (VP (ADVP (RB 将)) (PP (IN 在) (NP (NN 今年) (NN 春季) (CC 和) (NN 夏季))) (PP (IN 向) (NP (NNP 阿富汗))) (VP (VV 增派) (NP (QP (CD 17,000)) (NP (NNP 名美)) (NP (NN 军)))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 将)) (VP (VV 使) (NP (NP (PRP 他)) (DNP (PP (IN 对) (NP (DP (DT 这) (CLP (NNB 场))) (NP (NN 战争)))) (DEC 的)) (NP (NN 印记))) (IP (VP (ADVP (RB 深深)) (VP (VV 印) (PP (VV 在) (AS 了) (LCP (NP (DP (DT 这) (CLP (NNB 场))) (NP (NN 战争))) (IN 上))))))))) (, ，) (IP (NP (PRP 他)) (VP (ADVP (RB 早)) (ADVP (RB 就)) (PP (IN 对) (NP (DNP (NP (DP (DT 这) (CLP (NNB 场))) (NP (NN 战争))) (DEC 的)) (NP (NN 方向)))) (VP (VV 表示) (AS 了) (NP (JJ 不满)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+奥巴马	表示	nsubj
+周	表示	nsubj
+二	表示	obl
+表示	ROOT	root
+，	使	punct
+他	增派	nsubj
+将	增派	advmod
+在	春季	case
+今年	春季	nmod
+春季	增派	obl
+和	夏季	cc
+夏季	春季	conj
+向	阿富汗	case
+阿富汗	增派	obl
+增派	使	ccomp
+17,000	军	nummod
+名美	军	compound
+军	增派	obj
+，	使	punct
+这	使	nsubj
+将	使	advmod
+使	表示	ccomp
+他	印记	nmod
+对	印记	case
+这	场	det
+场	战争	clf
+战争	印记	nmod
+的	印记	case
+印记	印	nsubj
+深深	印	advmod
+印	使	ccomp
+在	印	mark
+了	印	aux
+这	场	det
+场	战争	clf
+战争	印	obj
+上	战争	case
+，	印	punct
+他	表示	nsubj
+早	表示	advmod
+就	表示	mark
+对	方向	case
+这	场	det
+场	战争	clf
+战争	方向	nmod
+的	战争	case
+方向	表示	obl
+表示	表示	ccomp
+了	表示	aux
+不满	表示	xcomp
+。	表示	punct
+----------------------------------------------------------------------
+这项命令将增加已经部署在伊拉克的 36,000 名美军人数，增加近 50%。
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 命令))) (VP (ADVP (RB 将)) (VP (VP (VV 增加) (NP (NP (CP (CP (IP (VP (ADVP (RB 已经)) (VP (VV 部署) (PP (VV 在) (NP (NNP 伊拉克)))))) (DEC 的))) (QP (CD 36,000)) (NP (NNP 名美)) (NP (NN 军))) (NP (NN 人数)))) (, ，) (VP (VV 增加) (QP (ADVP (RB 近)) (QP (CD 50%)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+这	项	det
+项	命令	clf
+命令	增加	nsubj
+将	增加	advmod
+增加	增加	advcl
+已经	部署	advmod
+部署	人数	acl:relcl
+在	部署	mark
+伊拉克	在	obj
+的	部署	mark:rel
+36,000	军	nummod
+名美	军	compound
+军	人数	nmod
+人数	增加	obj
+，	增加	punct
+增加	ROOT	root
+近	50%	advmod
+50%	增加	obj
+。	增加	punct
+----------------------------------------------------------------------
+白宫官员表示，在行政部门完成对阿富汗政策的更广泛审查后，将再作出是否派遣更多部队的决定。
+
+(ROOT (IP (NP (NP (NNP 白宫)) (NP (NN 官员))) (VP (VV 表示) (, ，) (IP (VP (PP (IN 在) (LCP (IP (NP (NN 行政) (NN 部门)) (VP (VV 完成) (NP (DNP (PP (IN 对) (NP (NP (NNP 阿富汗)) (NP (NN 政策)))) (DEC 的)) (ADJP (ADVP (RB 更)) (ADJP (JJ 广泛))) (NP (NN 审查))))) (IN 后))) (, ，) (ADVP (RB 将)) (ADVP (RB 再)) (VP (VV 作出) (NP (CP (IP (VP (ADVP (VV 是否)) (VP (VV 派遣) (NP (ADJP (JJ 更多)) (NP (NN 部队)))))) (DEC 的)) (NP (NN 决定))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP19243': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+白宫	官员	nmod
+官员	表示	nsubj
+表示	ROOT	root
+，	作出	punct
+在	部门	case
+行政	部门	nmod
+部门	完成	nsubj
+完成	审查	acl:relcl
+对	政策	case
+阿富汗	政策	nmod
+政策	完成	obl
+的	完成	mark:rel
+更	广泛	advmod
+广泛	审查	amod
+审查	作出	obl
+后	完成	mark
+，	审查	punct
+将	作出	advmod
+再	作出	advmod
+作出	表示	ccomp
+是	作出	xcomp
+派遣	决定	acl:relcl
+更多	部队	amod
+部队	派遣	obj
+的	派遣	mark:rel
+决定	作出	obj
+。	表示	punct
+----------------------------------------------------------------------
+奥巴马在一份书面声明中表示，增兵“是为了稳定不断恶化的阿富汗局势，但该国仍然缺乏紧急需要的战略关注、领导和资源。”
+
+(ROOT (IP (NP (NNP 奥巴马)) (VP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 份))) (ADJP (NN 书面)) (NP (NN 声明))) (IN 中))) (VP (VV 表示) (, ，) (IP (NP (NN 增兵)) (VP (`` “) (VC 是) (PP (IN 为了) (IP (VP (VV 稳定) (NP (CP (CP (IP (VP (ADVP (RB 不断)) (VP (VV 恶化)))) (DEC 的))) (NP (NNP 阿富汗)) (NP (NN 局势)))))) (, ，) (ADVP (RB 但)) (NP (NN 该国)) (VP (ADVP (RB 仍然)) (VP (VV 缺乏) (NP (DNP (NP (ADJP (JJ 紧急)) (NP (NN 需要))) (DEC 的)) (NP (NN 战略) (NN 关注) (EC 、) (NN 领导) (CC 和) (NN 资源))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+奥巴马	表示	nsubj
+在	声明	case
+一	份	nummod
+份	声明	clf
+书面	声明	nmod
+声明	表示	obl
+中	声明	case
+表示	ROOT	root
+，	缺乏	punct
+增兵	是	nsubj
+“	是	punct
+是	缺乏	advcl
+为了	是	xcomp
+稳定	是	xcomp
+不断	恶化	advmod
+恶化	局势	acl:relcl
+的	恶化	mark:rel
+阿富汗	局势	nmod
+局势	稳定	obj
+，	是	punct
+但	缺乏	mark
+该国	缺乏	nsubj
+仍然	缺乏	advmod
+缺乏	表示	ccomp
+紧急	需要	amod
+需要	关注	nmod
+的	需要	case
+战略	关注	nmod
+关注	缺乏	obj
+、	领导	punct
+领导	关注	conj
+和	资源	cc
+资源	关注	conj
+。	缺乏	punct
+”	缺乏	punct
+----------------------------------------------------------------------
+至少目前，奥巴马的决定让美国驻阿富汗的指挥官得到了他们要求的大部分，但并非全部的部队。
+
+(ROOT (IP (ADVP (RB 至少)) (NP (NN 目前)) (, ，) (NP (DNP (NP (NNP 奥巴马)) (DEC 的)) (NP (NN 决定))) (VP (VP (VV 让) (NP (NP (NNP 美国)) (CP (CP (IP (VP (VV 驻) (NP (NNP 阿) (NNP 富汗)))) (DEC 的))) (NP (VV 指挥) (SFN 官))) (IP (VP (VV 得到) (AS 了) (NP (CP (CP (IP (NP (PRP 他们)) (VP (VV 要求))) (DEC 的))) (ADJP (PFA 大)) (NP (NN 部分)))))) (, ，) (VP (ADVP (RB 但)) (VP (VC 并非) (NP (DNP (DP (DT 全部)) (DEC 的)) (NP (NN 部队)))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'NP13095': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NN': {}}, ',': {}, 'NP93909': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP56134': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NN': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+至少	目前	advmod
+目前	让	nmod:tmod
+，	目前	punct
+奥巴马	决定	nmod
+的	奥巴马	case
+决定	并非	nsubj
+让	并非	advcl
+美国	官	nmod
+驻	官	amod
+阿	驻	obj
+富汗	驻	obj
+的	驻	mark:rel
+指挥	官	compound
+官	得到	nsubj
+得到	让	ccomp
+了	得到	aux
+他	要求	nsubj
+要求	部分	acl:relcl
+的	要求	mark:rel
+大	部分	case
+部分	得到	obj
+，	得到	punct
+但	并非	mark
+并非	ROOT	root
+全部	部队	det
+的	全部	case
+部队	并非	xcomp
+。	并非	punct
+----------------------------------------------------------------------
+但这一决定也会给总统带来政治风险，因为他将在承诺迅速从伊拉克撤军之前，向阿富汗派遣更多的部队。
+
+(ROOT (IP (IP (ADVP (RB 但)) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 决定))) (VP (ADVP (RB 也)) (VP (MD 会) (VP (PP (VV 给) (NP (NN 总统))) (VP (VV 带来) (NP (NN 政治) (NN 风险))))))) (, ，) (PP (IN 因为) (IP (NP (PRP 他)) (VP (ADVP (RB 将)) (PP (IN 在) (LCP (IP (VP (VV 承诺) (IP (VP (ADVP (RB 迅速)) (PP (IN 从) (NP (NNP 伊拉克))) (VP (VV 撤军)))))) (IN 之前))) (, ，) (PP (IN 向) (NP (NNP 阿富汗))) (VP (VV 派遣) (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的))) (NP (NN 部队))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+Dependency Features:
+但	给	mark
+这	决定	det
+一	决定	nummod
+决定	给	nsubj
+也	给	mark
+会	给	aux
+给	ROOT	root
+总统	带来	nsubj
+带来	给	ccomp
+政治	风险	nmod
+风险	带来	obj
+，	派遣	punct
+因为	派遣	case
+他	派遣	nsubj
+将	派遣	advmod
+在	承诺	case
+承诺	派遣	xcomp
+迅速	撤军	advmod
+从	伊拉克	case
+伊拉克	撤军	obl
+撤军	承诺	xcomp
+之前	撤军	mark
+，	承诺	punct
+向	阿富汗	case
+阿富汗	派遣	obl
+派遣	给	ccomp
+更多	部队	amod
+的	更多	mark:rel
+部队	派遣	obj
+。	给	punct
+----------------------------------------------------------------------
+许多专家担心阿富汗对美国来说比伊拉克更为具有挑战性，特别是邻国巴基斯坦为塔利班和基地组织的叛乱分子提供了避难所。
+
+(ROOT (IP (NP (QP (CD 许多)) (NP (NN 专家))) (VP (VV 担心) (IP (IP (NP (NNP 阿富汗)) (VP (IP (VP (PP (IN 对) (NP (NNP 美国))) (VP (RB 来) (VP (VV 说))))) (PP (IN 比) (NP (NNP 伊拉克))) (ADVP (RB 更为)) (VP (VV 具有) (NP (VV 挑战) (SFN 性))))) (, ，) (IP (ADVP (RB 特别)) (ADVP (VC 是)) (NP (NP (NN 邻国)) (NP (NNP 巴基斯坦))) (VP (PP (IN 为) (NP (DNP (NP (NNP 塔利班) (CC 和) (NN 基地) (NN 组织)) (DEC 的)) (NP (NN 叛乱) (NN 分子)))) (VP (VV 提供) (AS 了) (NP (VV 避难) (SFN 所))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+许多	专家	nummod
+专家	担心	nsubj
+担心	ROOT	root
+阿富汗	说	nsubj
+对	美国	case
+美国	说	obl
+来	说	mark
+说	担心	ccomp
+比	伊拉克	case
+伊拉克	具有	obl
+更为	具有	advmod
+具有	说	xcomp
+挑战	性	compound
+性	具有	obj
+，	提供	punct
+特别	提供	advmod
+是	分子	cop
+邻国	分子	nmod
+巴基斯坦	邻国	appos
+为	分子	case
+塔利班	分子	nmod
+和	组织	cc
+基地	组织	nmod
+组织	塔利班	conj
+的	塔利班	case
+叛乱	分子	nmod
+分子	提供	obl
+提供	担心	parataxis
+了	提供	aux
+避难	所	compound
+所	提供	obj
+。	担心	punct
+----------------------------------------------------------------------
+根据奥巴马先生的计划，北卡罗莱纳州莱约纳营的一个 8000 人的海军陆战队部队将在未来几周部署，目标是在今年晚春前抵达阿富汗，政府官员表示，华盛顿州刘易斯堡的一个由 4000 名士兵组成的陆军旅将在夏天抵达。
+
+(ROOT (IP (IP (PP (IN 根据) (NP (DNP (NP (NNP 奥巴马) (NN 先生)) (DEC 的)) (NP (NN 计划)))) (, ，) (NP (DNP (NP (NN 北) (NNP 卡罗莱纳) (SFN 州) (NNP 莱约纳营)) (DEC 的)) (QP (CD 一) (CLP (NNB 个))) (DNP (NP (QP (CD 8000)) (NP (NN 人))) (DEC 的)) (NP (NN 海军) (VV 陆战) (SFN 队) (NN 部队))) (VP (ADVP (RB 将)) (PP (IN 在) (QP (NP (NN 未来)) (QP (CD 几) (CLP (NNB 周))))) (VP (VV 部署)))) (, ，) (IP (NP (NN 目标)) (VP (VC 是) (VP (PP (IN 在) (LCP (NP (NN 今年) (NN 晚春)) (IN 前))) (VP (VV 抵达) (NP (NNP 阿富汗)))))) (, ，) (IP (NP (NN 政府) (NN 官员)) (VP (VV 表示) (, ，) (IP (NP (DNP (NP (NNP 华盛顿) (SFN 州) (NNP 刘) (NNP 易斯) (SFN 堡)) (DEC 的)) (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (PP (VV 由) (NP (QP (CD 4000)) (NP (NN 名士兵)))) (VP (VV 组成)))) (DEC 的))) (NP (NN 陆军) (NN 旅将))) (VP (PP (IN 在) (NP (NN 夏天))) (VP (VV 抵达)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP13620': {}, ',47027': {}, 'IP69339': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP69830': {'NP': {}, 'VP': {}}, ',52947': {}, 'IP36328': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+根据	计划	case
+奥巴马	先生	nmod
+先生	计划	nmod
+的	先生	case
+计划	部署	obl
+，	计划	punct
+北	莱约纳营	nmod
+卡罗莱纳	州	compound
+州	莱约纳营	nmod
+莱约纳营	部队	nmod
+的	莱约纳营	case
+一	个	nummod
+个	人	clf
+8000	人	nummod
+人	部队	nmod
+的	人	mark:rel
+海军	部队	nmod
+陆战	队	compound
+队	部队	nmod
+部队	部署	nsubj
+将	部署	advmod
+在	周	case
+未来	周	nmod
+几	周	nummod
+周	部署	obl
+部署	ROOT	root
+，	是	punct
+目标	是	nsubj
+是	部署	parataxis
+在	晚春	case
+今年	晚春	nmod
+晚春	抵达	obl
+前	晚春	case
+抵达	是	xcomp
+阿富汗	抵达	obj
+，	表示	punct
+政府	官员	nmod
+官员	表示	nsubj
+表示	部署	parataxis
+，	抵达	punct
+华盛顿	州	compound
+州	堡	nmod
+刘	堡	nmod
+易斯	堡	compound
+堡	由	obj
+的	，	mark:rel
+一	个	nummod
+个	旅将	clf
+由	旅将	acl:relcl
+4000	名士兵	nummod
+名士兵	组成	nsubj
+组成	由	ccomp
+的	由	mark:rel
+陆军	旅将	nmod
+旅将	抵达	nsubj
+在	夏天	case
+夏天	抵达	obl
+抵达	表示	ccomp
+。	部署	punct
+----------------------------------------------------------------------
+还将在今年夏天部署 5,000 名陆军支援部队。
+
+(ROOT (IP (VP (ADVP (RB 还)) (ADVP (RB 将)) (PP (IN 在) (NP (NN 今年) (NN 夏天))) (VP (VV 部署) (NP (NP (QP (CD 5,000)) (NP (NNB 名陆军))) (NP (NN 支援) (NN 部队))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'ADVP': {}, 'ADVP5751': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+还	部署	mark
+将	部署	advmod
+在	夏天	case
+今年	夏天	nmod
+夏天	部署	obl
+部署	ROOT	root
+5,000	名陆军	nummod
+名陆军	部队	clf
+支援	部队	nmod
+部队	部署	obj
+。	部署	punct
+----------------------------------------------------------------------
+即使在白宫尚未宣布这一决定之前，反战团体就已经对奥巴马先生的决定进行了批评。
+
+(ROOT (IP (PP (ADVP (IN 即使)) (PP (IN 在) (LCP (IP (NP (NNP 白宫)) (VP (ADVP (RB 尚)) (ADVP (RB 未)) (VP (VV 宣布) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 决定)))))) (IN 之前)))) (, ，) (NP (ADJP (NN 反战)) (NP (NN 团体))) (VP (ADVP (RB 就)) (ADVP (RB 已经)) (PP (IN 对) (NP (DNP (NP (NNP 奥巴马) (NN 先生)) (DEC 的)) (NP (NN 决定)))) (VP (VV 进行) (AS 了) (NP (NN 批评)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'ADVP': {}, 'PP': {}}, ',': {}, 'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP95928': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'ADVP': {}, 'PP': {}}, ',': {}, 'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'ADVP': {}, 'PP': {}}}
+{'NP': {'ADJP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+即使	宣布	case
+在	宣布	case
+白宫	宣布	nsubj
+尚	未	advmod
+未	宣布	advmod
+宣布	进行	ccomp
+这	决定	det
+一	决定	nummod
+决定	宣布	obj
+之前	宣布	mark
+，	宣布	punct
+反战	团体	nmod
+团体	进行	nsubj
+就	进行	mark
+已经	进行	advmod
+对	决定	case
+奥巴马	先生	nmod
+先生	决定	nmod
+的	决定	case
+决定	进行	obl
+进行	ROOT	root
+了	进行	aux
+批评	进行	obj
+。	进行	punct
+----------------------------------------------------------------------
+“总统在决定任务之前就投入了这些部队，”美国反战联盟组织负责人汤姆·安德鲁斯说。
+
+(ROOT (IP (IP (`` “) (IP (NP (NN 总统)) (VP (PP (IN 在) (LCP (IP (VP (VV 决定) (NP (NN 任务)))) (IN 之前))) (ADVP (RB 就)) (VP (VV 投入) (AS 了) (NP (DP (DT 这些)) (NP (NN 部队)))))) (, ，) ('' ”)) (NP (NP (NP (NP (NNP 美国)) (ADJP (NN 反战)) (NP (NN 联盟)) (NP (NN 组织))) (NP (VV 负责) (SFN 人))) (NP (NNP 汤姆) (/ ·))) (VP (NNP 安德鲁斯说)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, "''": {}}, 'NP': {'NP': {}, 'NP81648': {}}, 'VP': {'NNP': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, "''": {}}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'NNP': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, ',': {}, "''": {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'NNP': {}}}
+Dependency Features:
+“	投入	punct
+总统	投入	nsubj
+在	决定	case
+决定	投入	xcomp
+任务	决定	obj
+之前	决定	mark
+就	投入	mark
+投入	ROOT	root
+了	投入	aux
+这些	部队	det
+部队	投入	obj
+，	人	punct
+”	人	punct
+美国	人	nmod
+反战	人	nmod
+联盟	人	nmod
+组织	人	nmod
+负责	人	compound
+人	投入	parataxis
+汤姆	人	appos
+·	安德鲁斯说	punct
+安德鲁斯说	汤姆	flat:name
+。	投入	punct
+----------------------------------------------------------------------
+“我们需要避免军事升级的滑坡。”
+
+(ROOT (IP (`` “) (NP (PRP 我们)) (VP (MD 需要) (VP (VV 避免) (NP (DNP (NP (NN 军事) (VV 升级)) (DEC 的)) (NP (NN 滑坡))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+“	避免	punct
+我	避免	nsubj
+需要	避免	aux
+避免	ROOT	root
+军事	升级	obl
+升级	滑坡	acl:relcl
+的	升级	mark:rel
+滑坡	避免	obj
+。	避免	punct
+”	避免	punct
+----------------------------------------------------------------------
+奥巴马在声明中说：“我们有责任在伊拉克削减军力，这样我们就有了增加阿富汗派驻人数的灵活性。”
+
+(ROOT (IP (NP (NNP 奥巴马)) (VP (PP (IN 在) (LCP (NP (NN 声明)) (IN 中))) (VP (VV 说) (: ：) (IP (`` “) (IP (NP (PRP 我们)) (VP (VP (VV 有) (NP (NN 责任))) (VP (PP (VV 在) (NP (NNP 伊拉克))) (VP (VV 削减) (NP (NN 军力)))))) (, ，) (IP (ADVP (PRD 这样)) (NP (PRP 我们)) (VP (ADVP (RB 就)) (VP (VV 有) (AS 了) (NP (CP (IP (VP (VV 增加) (NP (NP (NNP 阿富汗)) (ADJP (NN 派驻)) (NP (NN 人数))))) (DEC 的)) (NP (JJ 灵活) (SFN 性))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+奥巴马	说	nsubj
+在	声明	case
+声明	说	obl
+中	声明	case
+说	ROOT	root
+：	有	punct
+“	有	punct
+我	有	nsubj
+有	有	advcl
+责任	在	obj
+在	削减	advcl
+伊拉克	在	obj
+削减	有	ccomp
+军力	削减	obj
+，	有	punct
+这样	有	obl
+我	有	nsubj
+就	有	mark
+有	说	ccomp
+了	有	aux
+增加	性	acl:relcl
+阿富汗	人数	nmod
+派驻	人数	nmod
+人数	增加	obj
+的	增加	mark:rel
+灵活	性	compound
+性	有	obj
+。	有	punct
+”	有	punct
+----------------------------------------------------------------------
+美国驻阿富汗的将领一直在敦促在今年春季晚些时候或者早些时候部署更多的部队，以帮助应对该国日益严重的暴力和混乱。
+
+(ROOT (IP (NP (NP (NNP 美国)) (CP (CP (IP (VP (VV 驻) (NP (NNP 阿) (NNP 富汗)))) (DEC 的))) (NP (NN 将领))) (VP (ADVP (RB 一直)) (ADVP (RB 在)) (VP (VV 敦促) (IP (VP (VP (PP (PP (IN 在) (NP (NP (NN 今年) (NN 春季)) (ADJP (NN 晚些)) (NP (NN 时候)))) (CC 或者) (NP (ADJP (JJ 早些)) (NP (NN 时候)))) (VP (VV 部署) (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的))) (NP (NN 部队))))) (, ，) (VP (RB 以) (VP (VV 帮助) (IP (VP (VV 应对) (NP (NP (NN 该国)) (CP (CP (IP (VP (ADVP (RB 日益)) (VP (JJ 严重)))) (DEC 的))) (NP (NN 暴力) (CC 和) (NN 混乱))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'CP': {}, 'NP34314': {}}, 'VP': {'ADVP': {}, 'ADVP29775': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'CP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+美国	将领	nmod
+驻	将领	acl:relcl
+阿	驻	obj
+富汗	驻	obj
+的	驻	mark:rel
+将领	帮助	nsubj
+一直	敦促	advmod
+在	敦促	advmod
+敦促	帮助	advcl
+在	时候	case
+今年	时候	nmod
+春季	时候	nmod
+晚些	时候	nmod
+时候	部署	obl
+或者	时候	cc
+早些	时候	amod
+时候	时候	conj
+部署	帮助	advcl
+更多	部队	amod
+的	更多	mark:rel
+部队	部署	obj
+，	部署	punct
+以	帮助	mark
+帮助	ROOT	root
+应对	帮助	xcomp
+该国	暴力	nmod
+日益	严重	advmod
+严重	暴力	amod
+的	严重	mark:rel
+暴力	应对	obj
+和	混乱	cc
+混乱	暴力	conj
+。	帮助	punct
+----------------------------------------------------------------------
+在指挥官最初要求的30,000 名额外部队中，约有 6,000 人在布什总统的授权下于 1 月份抵达。
+
+(ROOT (IP (PP (IN 在) (LCP (NP (CP (CP (IP (NP (VV 指挥) (SFN 官)) (VP (ADVP (NN 最初)) (VP (VV 要求)))) (DEC 的))) (NP (QP (CD 30,000)) (NP (NN 名额))) (NP (NN 外部) (SFN 队))) (IN 中))) (, ，) (VP (ADVP (RB 约)) (VP (VV 有) (IP (LCP (NP (DNP (NP (QP (CD 6,000)) (NP (NNP 人在布什)) (NP (NN 总统))) (DEC 的)) (NP (NN 授权))) (IN 下)) (VP (PP (IN 于) (NP (QP (CD 1)) (NP (NNB 月份)))) (VP (VV 抵达)))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+在	队	case
+指挥	官	compound
+官	要求	nsubj
+最初	要求	nmod:tmod
+要求	队	acl:relcl
+的	要求	mark:rel
+30,000	名额	nummod
+名额	队	nmod
+外部	队	compound
+队	抵达	obl
+中	队	case
+，	队	punct
+约	有	advmod
+有	抵达	advcl
+6,000	总统	nummod
+人在布什	总统	nmod
+总统	授权	nmod
+的	总统	case
+授权	抵达	obl
+下	授权	case
+于	月份	case
+1	月份	nummod
+月份	抵达	obl
+抵达	ROOT	root
+。	抵达	punct
+----------------------------------------------------------------------
+政府对阿富汗政策的审查应该在奥巴马先生四月初前往欧洲参加北约峰会之前完成，在那次峰会上，他将呼吁美国盟国在阿富汗派遣更多的军队和人员。
+
+(ROOT (IP (IP (NP (NP (NN 政府)) (DNP (PP (IN 对) (NP (NP (NNP 阿富汗)) (NP (NN 政策)))) (DEC 的)) (NP (NN 审查))) (VP (MD 应该) (VP (PP (IN 在) (LCP (IP (NP (NNP 奥巴马) (NN 先生)) (VP (LCP (NP (QP (CD 四)) (NP (NNB 月))) (IN 初)) (VP (VP (VV 前往) (NP (NNP 欧洲))) (VP (VV 参加) (NP (NNP 北约) (SFN 峰) (SFN 会)))))) (IN 之前))) (VP (VV 完成))))) (, ，) (IP (PP (IN 在) (LCP (NP (DP (DT 那) (CLP (NNB 次))) (NP (NN 峰) (SFN 会))) (IN 上))) (, ，) (NP (PRP 他)) (VP (ADVP (RB 将)) (VP (VV 呼吁) (NP (NP (NNP 美国)) (NP (NN 盟国))) (IP (VP (PP (VV 在) (NP (NNP 阿富汗))) (VP (VV 派遣) (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的))) (NP (NN 军队) (CC 和) (NN 人员))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP89439': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP33511': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+政府	审查	nmod
+对	审查	case
+阿富汗	政策	nmod
+政策	审查	nmod
+的	审查	case
+审查	完成	nsubj
+应该	完成	aux
+在	月	case
+奥巴马	月	nmod
+先生	月	nmod
+四	月	nummod
+月	参加	obl
+初	月	case
+前往	参加	advcl
+欧洲	前往	obj
+参加	完成	advcl
+北约	峰	compound
+峰	会	compound
+会	参加	obj
+之前	参加	mark
+完成	ROOT	root
+，	呼吁	punct
+在	会	case
+那	次	det
+次	会	nmod
+峰	会	compound
+会	呼吁	obl
+上	会	case
+，	会	punct
+他	呼吁	nsubj
+将	呼吁	advmod
+呼吁	完成	parataxis
+美国	盟国	nmod
+盟国	派遣	nsubj
+在	派遣	advcl
+阿富汗	在	obj
+派遣	呼吁	ccomp
+更多	军队	amod
+的	更多	mark:rel
+军队	派遣	obj
+和	人员	cc
+人员	军队	conj
+。	完成	punct
+----------------------------------------------------------------------
+在周二接受加拿大广播公司采访时，奥巴马表示，“我完全相信，你不能只靠军事手段，来解决阿富汗问题，解决塔利班问题，解决该地区极端主义蔓延的问题。”
+
+(ROOT (IP (LCP (IP (VP (PP (IN 在) (NP (NNP 周) (NNP 二))) (VP (VV 接受) (IP (NP (NNP 加拿大) (NN 广播) (NN 公司)) (VP (VV 采访)))))) (IN 时)) (, ，) (NP (NNP 奥巴马)) (VP (VV 表示) (, ，) (IP (`` “) (NP (PRP 我)) (VP (ADVP (RB 完全)) (VP (VV 相信) (, ，) (IP (NP (PRP 你)) (VP (MD 不能) (VP (ADVP (RB 只)) (PP (IN 靠) (NP (NN 军事) (NN 手段))) (, ，) (VP (RB 来) (VP (VP (VV 解决) (NP (NP (NNP 阿富汗)) (NP (NN 问题)))) (, ，) (VP (VV 解决) (NP (NP (NNP 塔利班)) (NP (NN 问题)))) (, ，) (VP (VV 解决) (NP (CP (IP (NP (NP (DP (DT 该)) (NP (NN 地区))) (ADJP (JJ 极端)) (NP (NN 主义))) (VP (VV 蔓延))) (DEC 的)) (NP (NN 问题))))))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'LCP': {'IP': {}, 'IN': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+在	周	case
+周	接受	nsubj
+二	周	flat:name
+接受	采访	advcl
+加拿大	公司	nmod
+广播	公司	nmod
+公司	接受	obj
+采访	表示	ccomp
+时	采访	mark
+，	采访	punct
+奥巴马	表示	nsubj
+表示	ROOT	root
+，	解决	punct
+“	解决	punct
+我	相信	nsubj
+完全	相信	advmod
+相信	解决	advcl
+，	相信	punct
+你	解决	nsubj
+能	解决	aux
+只	解决	advmod
+靠	手段	case
+军事	手段	nmod
+手段	解决	obl
+，	手段	punct
+来	解决	mark
+解决	解决	advcl
+阿富汗	问题	nmod
+问题	解决	obj
+，	解决	punct
+解决	解决	advcl
+塔利班	问题	nmod
+问题	解决	obj
+，	解决	punct
+解决	表示	ccomp
+该	主义	det
+地区	主义	nmod
+极端	主义	amod
+主义	蔓延	nsubj
+蔓延	问题	acl:relcl
+的	蔓延	mark:rel
+问题	解决	obj
+。	解决	punct
+”	解决	punct
+----------------------------------------------------------------------

@@ -1,0 +1,1387 @@
+中国天津 - 一个装有危险货物的仓库周三晚间发生巨大爆炸，巨大的爆炸声震惊了这座东北港口城市，造成至少 17 人死亡，至少 400 人受伤，数十栋高楼的玻璃被炸碎，并造成其他广泛的破坏。
+
+(ROOT (IP (IP (NP (NP (NNP 中国) (NNP 天津)) (HYPH - ) (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 装有) (NP (ADJP (JJ 危险)) (NP (NN 货物))))) (DEC 的))) (NP (NN 仓库))) (VP (NP (NP (SFN 周) (CD 三)) (NP (NN 晚间))) (VP (VV 发生) (NP (ADJP (JJ 巨大)) (NP (NN 爆炸)))))) (, ，) (IP (NP (CP (CP (IP (VP (JJ 巨大))) (DEC 的))) (NP (VV 爆炸) (SFN 声))) (VP (VP (VV 震惊) (AS 了) (NP (DP (DT 这) (CLP (NNB 座))) (NP (NN 东北) (NN 港口) (NN 城市)))) (, ，) (VP (VV 造成) (IP (IP (NP (QP (ADVP (RB 至少)) (QP (CD 17))) (NP (NN 人))) (VP (VV 死亡))) (, ，) (IP (NP (ADVP (RB 至少)) (NP (QP (CD 400)) (NP (NN 人)))) (VP (VV 受伤))))))) (, ，) (IP (NP (DNP (NP (QP (CD 数十) (CLP (NNB 栋))) (NP (NN 高楼))) (DEC 的)) (NP (NN 玻璃))) (VP (VP (BB 被) (VP (VV 炸碎))) (, ，) (RB 并) (VP (VV 造成) (NP (DP (DT 其他)) (CP (CP (IP (VP (JJ 广泛))) (DEC 的))) (NP (NN 破坏)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP97222': {}, ',81870': {}, 'IP21778': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP89543': {'NP': {}, 'VP': {}}, ',77891': {}, 'IP88268': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+中国	天津	nmod
+天津	晚间	nmod
+- 	天津	punct
+一	个	nummod
+个	晚间	clf
+装有	晚间	acl:relcl
+危险	货物	amod
+货物	装有	obj
+的	装有	mark:rel
+仓库	周	compound
+周	晚间	nmod
+三	晚间	nummod
+晚间	发生	nmod:tmod
+发生	ROOT	root
+巨大	爆炸	amod
+爆炸	发生	obj
+，	造成	punct
+巨大	声	amod
+的	巨大	mark:rel
+爆炸	声	compound
+声	震惊	nsubj
+震惊	造成	csubj
+了	震惊	aux
+这	座	det
+座	城市	clf
+东北	城市	nmod
+港口	城市	nmod
+城市	震惊	obj
+，	震惊	punct
+造成	造成	advcl
+至少	死亡	advmod
+17	人	nummod
+人	死亡	nsubj
+死亡	受伤	advcl
+，	死亡	punct
+至少	400	advmod
+400	人	nummod
+人	受伤	nsubj
+受伤	炸碎	advcl
+，	受伤	punct
+数十	栋	nummod
+栋	高楼	clf
+高楼	玻璃	nmod
+的	高楼	case
+玻璃	炸碎	nsubj:pass
+被	炸碎	aux:pass
+炸碎	造成	ccomp
+，	造成	punct
+并	造成	mark
+造成	发生	parataxis
+其他	破坏	det
+广泛	破坏	amod
+的	广泛	mark:rel
+破坏	造成	obj
+。	发生	punct
+----------------------------------------------------------------------
+爆炸的威力在地震烈度计上都有记录，并且在数英里之外都能感受到。
+
+(ROOT (IP (NP (DNP (NP (VV 爆炸)) (DEC 的)) (NP (NN 威力))) (VP (VP (PP (IN 在) (LCP (NP (NN 地震) (SFN 烈) (SFN 度) (VV 计)) (IN 上))) (ADVP (RB 都)) (VP (VV 有) (NP (NN 记录)))) (, ，) (RB 并且) (VP (PP (VV 在) (LCP (QP (CD 数) (CLP (NNB 英里))) (IN 之外))) (ADVP (RB 都)) (VP (MD 能) (VP (VRD (VV 感受) (VV 到)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP64153': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+爆炸	威力	acl:relcl
+的	爆炸	mark:rel
+威力	有	nsubj
+在	度	case
+地震	烈	compound
+烈	度	compound
+度	计	obl
+计	有	advcl
+上	计	mark
+都	有	mark
+有	ROOT	root
+记录	有	obj
+，	感受	punct
+并且	感受	mark
+在	感受	advcl
+数	英里	nummod
+英里	在	obj
+之外	在	mark
+都	感受	mark
+能	感受	aux
+感受	有	parataxis
+到	感受	mark
+。	感受	punct
+----------------------------------------------------------------------
+星期四早上，天津警察部门在一份声明中表示，拥有残骸中仍然无法确定的人数，32 名受伤者中有 6 名消防员伤势严重。
+
+(ROOT (IP (LCP (NP (NP (NN 星期) (CD 四)) (NP (NNB 早))) (IN 上)) (, ，) (NP (NP (NNP 天津)) (NP (NN 警察) (NN 部门))) (VP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 份))) (NP (NN 声明))) (IN 中))) (VP (VV 表示) (, ，) (IP (IP (VP (VV 拥有) (NP (LCP (NP (NN 残骸)) (IN 中)) (CP (CP (IP (VP (ADVP (RB 仍然)) (ADVP (VV 无法)) (VP (VV 确定)))) (DEC 的))) (NP (NN 人数))))) (, ，) (IP (LCP (NP (QP (CD 32) (CLP (NNB 名))) (NP (VV 受伤) (SFN 者))) (IN 中)) (VP (VV 有) (IP (NP (QP (CD 6)) (NP (NNB 名消) (NN 防员))) (NP (NN 伤势)) (VP (JJ 严重)))))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'NP': {}, 'NP26304': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+星期	早	nmod
+四	早	nummod
+早	表示	nmod:tmod
+上	早	case
+，	早	punct
+天津	部门	nmod
+警察	部门	nmod
+部门	表示	nsubj
+在	声明	case
+一	份	nummod
+份	声明	clf
+声明	表示	obl
+中	声明	case
+表示	ROOT	root
+，	有	punct
+拥有	无法	advcl
+残骸	拥有	obj
+中	残骸	case
+仍然	无法	advmod
+无法	人数	acl:relcl
+确定	无法	xcomp
+的	无法	mark:rel
+人数	有	nsubj
+，	人数	punct
+32	名	nummod
+名	者	nmod
+受伤	者	compound
+者	有	nsubj
+中	者	case
+有	表示	ccomp
+6	名消	nummod
+名消	防员	clf
+防员	严重	nsubj
+伤势	严重	nsubj
+严重	有	ccomp
+。	表示	punct
+----------------------------------------------------------------------
+预计死亡人数还会上升。
+
+(ROOT (IP (VP (VV 预计) (IP (NP (NN 死亡) (NN 人数)) (VP (ADVP (RB 还)) (VP (MD 会) (VP (VV 上升)))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+预计	人数	amod
+死亡	人数	nmod
+人数	上升	nsubj
+还	上升	mark
+会	上升	aux
+上升	ROOT	root
+。	上升	punct
+----------------------------------------------------------------------
+新华社和其他国有媒体发布了爆炸现场的视频，视频中显示火势很大，照亮天津黑夜的一团火球看起来像蘑菇云，这座拥有 1400 万人口的城市是中国最重要的商业贸易中心之一。
+
+(ROOT (IP (IP (NP (NP (NNP 新华) (SFN 社)) (CC 和) (NP (DP (DT 其他)) (ADJP (NN 国有)) (NP (NN 媒体)))) (VP (VV 发布) (AS 了) (NP (DNP (NP (NN 爆炸) (NN 现场)) (DEC 的)) (NP (NN 视频))))) (, ，) (IP (LCP (NP (NN 视频)) (IN 中)) (VP (VV 显示) (IP (NP (NN 火势)) (VP (JJ 很大))))) (, ，) (IP (NP (CP (CP (IP (VP (VV 照亮) (NP (NP (NNP 天津)) (NP (NN 黑夜))))) (DEC 的))) (QP (CD 一) (CLP (NN 团))) (NP (NN 火球))) (VP (VRD (VV 看) (VV 起来)) (PP (VV 像) (NP (NNP 蘑) (NN 菇云))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 座))) (CP (CP (IP (VP (VV 拥有) (NP (QP (CD 1400) (QP (NNB 万))) (NP (NN 人口))))) (DEC 的))) (NP (NN 城市))) (VP (VC 是) (NP (DNP (NP (NP (NNP 中国)) (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 重要)))) (DEC 的))) (NP (NN 商业) (NN 贸易) (NN 中心))) (DEC 之)) (NP (CD 一))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP5268': {}, ',94011': {}, 'IP86823': {}, ',12582': {}, 'IP39092': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP78160': {'LCP': {}, 'VP': {}}, ',88487': {}, 'IP65278': {'NP': {}, 'VP': {}}, ',16072': {}, 'IP30467': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'LCP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'LCP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+新华	社	compound
+社	发布	nsubj
+和	媒体	cc
+其他	媒体	det
+国有	媒体	nmod
+媒体	社	conj
+发布	ROOT	root
+了	发布	aux
+爆炸	现场	nmod
+现场	视频	nmod
+的	现场	case
+视频	发布	obj
+，	显示	punct
+视频	显示	nsubj
+中	视频	case
+显示	发布	parataxis
+火势	很大	nsubj
+很大	显示	ccomp
+，	显示	punct
+照亮	火球	acl:relcl
+天津	黑夜	nmod
+黑夜	照亮	obj
+的	照亮	mark:rel
+一	团	nummod
+团	火球	clf
+火球	看	nsubj
+看	发布	parataxis
+起来	看	mark
+像	看	xcomp
+蘑	菇云	nmod
+菇云	像	obj
+，	一	punct
+这	座	det
+座	城市	clf
+拥有	城市	acl:relcl
+1400	万	nummod
+万	人口	clf
+人口	拥有	obj
+的	拥有	mark:rel
+城市	一	nsubj
+是	一	cop
+中国	中心	nmod
+最	重要	advmod
+重要	中心	amod
+的	重要	mark:rel
+商业	中心	nmod
+贸易	中心	nmod
+中心	一	nmod
+之	中心	case
+一	发布	parataxis
+。	发布	punct
+----------------------------------------------------------------------
+国家级报纸《人民日报》发布的另一段视频显示，有人被玻璃碎片冲击墙壁所冲击而倒地。
+
+(ROOT (IP (NP (CP (CP (IP (NP (NP (NP (NN 国家)) (ADJP (SFN 级)) (NP (NN 报纸))) (NP (-LRB- 《) (NN 人民) (NN 日报) (-RRB- 》))) (VP (VV 发布))) (DEC 的))) (DP (DT 另) (QP (CD 一) (CLP (NNB 段)))) (NP (NN 视频))) (VP (VV 显示) (, ，) (IP (VP (VV 有) (IP (NP (NN 人)) (VP (VP (BB 被) (CP (IP (CP (IP (NP (NN 玻璃) (NN 碎片)) (VP (VV 冲击) (NP (NN 墙壁))))) (VP (RB 所) (VP (VV 冲击)))))) (VP (RB 而) (VP (VV 倒地)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+国家	级	compound
+级	报纸	nmod
+报纸	发布	nsubj
+《	日报	punct
+人民	日报	nmod
+日报	报纸	appos
+》	日报	punct
+发布	视频	acl:relcl
+的	发布	mark:rel
+另	段	det
+一	段	nummod
+段	视频	nmod
+视频	显示	nsubj
+显示	ROOT	root
+，	有	punct
+有	显示	xcomp
+人	倒地	nsubj
+被	冲击	aux:pass
+玻璃	碎片	nmod
+碎片	冲击	nsubj
+冲击	冲击	advcl
+墙壁	冲击	obj
+所	冲击	mark
+冲击	有	ccomp
+而	倒地	mark
+倒地	有	ccomp
+。	显示	punct
+----------------------------------------------------------------------
+汉涛 (30 岁) 是一位卡车司机，他住在爆炸现场大约 1.6 英里（2.6 公里）以外的一栋建筑的 13 楼，他说：“爆炸造成的气压如此之强，就连我也被它一下子把倒了。”
+
+(ROOT (IP (IP (NP (NNP 汉) (NNP 涛) (QP (CD -LRB-30) (CLP (NNB 岁-RRB-)))) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 位))) (NP (NN 卡车) (NN 司机))))) (, ，) (IP (NP (PRP 他)) (VP (VV 住) (PP (VV 在) (QP (DNP (NP (NP (NN 爆炸) (NN 现场)) (DNP (LCP (QP (ADVP (RB 大约)) (QP (CD 1.6) (CLP (NNB 英里))) (PRN (-LRB- （) (QP (CD 2.6) (CLP (NNB 公里))) (-RRB- ）))) (IN 以外)) (DEC 的)) (QP (CD 一) (CLP (NNB 栋))) (NP (NN 建筑))) (DEC 的)) (QP (CD 13) (CLP (NN 楼))))))) (, ，) (IP (NP (PRP 他)) (VP (VV 说) (: ：) (IP (`` “) (IP (NP (CP (CP (IP (NP (VV 爆炸)) (VP (VV 造成))) (DEC 的))) (NP (NN 气压))) (VP (DVP (ADVP (VV 如此)) (DEV 之)) (VP (JJ 强)))) (, ，) (IP (ADVP (RB 就)) (ADVP (RB 连)) (NP (PRP 我)) (VP (ADVP (RB 也)) (VP (BB 被) (IP (NP (PRP 它)) (VP (QP (CD 一) (CLP (NNB 下子))) (VP (VRD (BB 把) (VV 倒了))))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP67462': {}, ',55966': {}, 'IP57503': {}, '.': {}, "''": {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP86856': {'NP': {}, 'VP': {}}, ',36882': {}, 'IP87663': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+汉	岁)	nmod
+涛	汉	flat:name
+(30	岁)	nummod
+岁)	司机	nsubj
+是	司机	cop
+一	位	nummod
+位	司机	clf
+卡车	司机	nmod
+司机	ROOT	root
+，	说	punct
+他	住	nsubj
+住	楼	acl:relcl
+在	住	mark
+爆炸	现场	nmod
+现场	英里	nmod
+大约	英里	advmod
+1.6	英里	nummod
+英里	建筑	nmod
+（	公里	punct
+2.6	公里	nummod
+公里	英里	appos
+）	公里	punct
+以外	英里	case
+的	住	mark:rel
+一	栋	nummod
+栋	建筑	clf
+建筑	住	obj
+的	住	mark:rel
+13	楼	nummod
+楼	司机	parataxis
+，	说	punct
+他	说	nsubj
+说	司机	parataxis
+：	倒了	punct
+“	倒了	punct
+爆炸	造成	advcl
+造成	气压	acl:relcl
+的	造成	mark:rel
+气压	强	nsubj
+如此	强	advcl
+之	如此	mark:adv
+强	倒了	ccomp
+，	强	punct
+就	倒了	mark
+连	倒了	advmod
+我	倒了	nsubj
+也	倒了	mark
+被	倒了	aux:pass
+它	倒了	nsubj
+一	下子	nummod
+下子	倒了	obl
+把	倒了	case
+倒了	说	ccomp
+。	倒了	punct
+”	倒了	punct
+----------------------------------------------------------------------
+另一位居民汪东 (55 岁) 说，爆炸似乎是从下水道传来的。
+
+(ROOT (IP (NP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 位)))) (NP (NN 居民))) (NP (NNP 汪东)) (QP (CD -LRB-55) (CLP (NNB 岁-RRB-)))) (VP (VV 说) (, ，) (IP (NP (NN 爆炸)) (VP (ADVP (RB 似乎)) (VP (VC 是) (NP (CP (CP (IP (VP (PP (IN 从) (NP (ADJP (NN 下)) (NP (NN 水道)))) (VP (VV 传来)))) (UH 的)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP3533': {}, 'QP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}, 'QP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}, 'QP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+另	位	det
+一	位	nummod
+位	居民	nmod
+居民	说	nsubj
+汪东	居民	appos
+(55	岁)	nummod
+岁)	说	obl
+说	ROOT	root
+，	是	punct
+爆炸	是	nsubj
+似乎	是	advmod
+是	说	ccomp
+从	水道	case
+下	水道	nmod
+水道	传来	obl
+传来	是	xcomp
+的	是	discourse
+。	说	punct
+----------------------------------------------------------------------
+他说：“整个天空亮起来就像白天一样。”
+
+(ROOT (IP (NP (PRP 他)) (VP (VV 说) (: ：) (IP (`` “) (NP (DP (DT 整个)) (NP (NN 天空))) (VP (IP (VP (VRD (VV 亮) (VV 起来)))) (ADVP (RB 就)) (PP (IN 像) (NP (NN 白天))) (VP (JJ 一样))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+他	说	nsubj
+说	ROOT	root
+：	一样	punct
+“	一样	punct
+整个	天空	det
+天空	亮	nsubj
+亮	一样	advcl
+起来	亮	mark
+就	一样	mark
+像	白天	case
+白天	一样	nmod
+一样	说	ccomp
+。	一样	punct
+”	一样	punct
+----------------------------------------------------------------------
+新华社称，最初的爆炸发生在天津滨海区的一个仓库，时间大约是晚上 11:30，30 分钟后又发生了更强大的爆炸，据当局称，爆炸的威力大约相当于 21 吨的炸药。
+
+(ROOT (IP (NP (NNP 新华)) (VP (NN 社称) (, ，) (IP (IP (NP (DNP (ADJP (NN 最初)) (DEC 的)) (NP (NN 爆炸))) (VP (VV 发生) (PP (VV 在) (NP (DNP (NP (NNP 天津) (NNP 滨海) (SFN 区)) (DEC 的)) (QP (CD 一) (CLP (NNB 个))) (NP (NN 仓库)))))) (, ，) (IP (NP (NN 时间)) (VP (ADVP (RB 大约)) (VP (VC 是) (NP (NN 晚上) (CD 11:30))))) (, ，) (IP (VP (LCP (QP (CD 30) (CLP (NNB 分钟))) (IN 后)) (ADVP (RB 又)) (VP (VV 发生) (AS 了) (NP (CP (CP (IP (VP (ADVP (RB 更)) (VP (JJ 强大)))) (DEC 的))) (NP (NN 爆炸)))))) (, ，) (PP (IN 据) (IP (NP (NN 当局)) (VP (VV 称) (, ，) (IP (NP (DNP (NP (VV 爆炸)) (DEC 的)) (NP (NN 威力))) (VP (ADVP (RB 大约)) (VP (VV 相当) (PP (VV 于) (NP (DNP (QP (CD 21) (CLP (NNB 吨))) (DEC 的)) (NP (NN 炸药)))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'NN': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'NN': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'NN': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+新华	社称	nmod
+社称	发生	obl
+，	社称	punct
+最初	爆炸	nmod
+的	最初	case
+爆炸	发生	nsubj
+发生	仓库	acl:relcl
+在	发生	mark
+天津	区	nmod
+滨海	区	compound
+区	仓库	nmod
+的	发生	mark:rel
+一	个	nummod
+个	仓库	clf
+仓库	是	obj
+，	是	punct
+时间	是	nsubj
+大约	是	advmod
+是	ROOT	root
+晚上	11:30	nmod
+11:30	是	obj
+，	发生	punct
+30	分钟	nummod
+分钟	发生	nmod:tmod
+后	分钟	case
+又	发生	mark
+发生	是	parataxis
+了	发生	aux
+更	强大	advmod
+强大	爆炸	amod
+的	强大	mark:rel
+爆炸	发生	obj
+，	称	punct
+据	称	case
+当局	称	nsubj
+称	发生	ccomp
+，	称	punct
+爆炸	威力	acl:relcl
+的	爆炸	mark:rel
+威力	相当	nsubj
+大约	相当	advmod
+相当	称	ccomp
+于	相当	mark
+21	吨	nummod
+吨	炸药	nmod
+的	相当	mark:rel
+炸药	相当	obj
+。	是	punct
+----------------------------------------------------------------------
+天津警方称，爆炸发生在一家私人公司——瑞海国际物流公司的仓库内，该公司曾获得许可，可以处理危险货物。
+
+(ROOT (IP (NP (NP (NNP 天津)) (NP (NN 警方))) (VP (VV 称) (, ，) (IP (IP (NP (NN 爆炸)) (VP (VV 发生) (PP (IN 在) (NP (NP (QP (CD 一) (CLP (NNB 家))) (ADJP (JJ 私人)) (NP (NN 公司))) (HYPH —) (HYPH —) (LCP (NP (DNP (NP (NNP 瑞海) (NN 国际) (NN 物流) (NN 公司)) (DEC 的)) (NP (NN 仓库))) (NN 内)))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 公司))) (VP (VP (ADVP (RB 曾)) (VP (VV 获得) (NP (NN 许可)))) (, ，) (VP (MD 可以) (VP (VV 处理) (NP (ADJP (JJ 危险)) (NP (NN 货物))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP85686': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+天津	警方	nmod
+警方	称	nsubj
+称	ROOT	root
+，	发生	punct
+爆炸	发生	nsubj
+发生	称	ccomp
+在	仓库	case
+一	家	nummod
+家	公司	clf
+私人	公司	amod
+公司	仓库	nmod
+—	公司	punct
+—	公司	punct
+瑞海	公司	nmod
+国际	公司	nmod
+物流	公司	nmod
+公司	仓库	nmod
+的	公司	case
+仓库	发生	obl
+内	仓库	acl
+，	处理	punct
+该	公司	det
+公司	处理	nsubj
+曾	获得	advmod
+获得	处理	advcl
+许可	获得	obj
+，	获得	punct
+可以	处理	aux
+处理	称	ccomp
+危险	货物	amod
+货物	处理	obj
+。	称	punct
+----------------------------------------------------------------------
+据人民日报报道，该公司的高层官员被扣留审讯。
+
+(ROOT (IP (PP (IN 据) (IP (NP (NN 人民) (NN 日报)) (VP (VV 报道)))) (, ，) (NP (DNP (NP (DP (DT 该)) (NP (NN 公司))) (DEC 的)) (NP (NN 高层) (NN 官员))) (VP (BB 被) (VP (VCD (VV 扣留) (VV 审讯)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'BB': {}, 'VP': {}}}
+Dependency Features:
+据	报道	case
+人民	日报	nmod
+日报	报道	nsubj
+报道	扣留	ccomp
+，	报道	punct
+该	公司	det
+公司	官员	nmod
+的	公司	case
+高层	官员	nmod
+官员	扣留	nsubj:pass
+被	扣留	aux:pass
+扣留	ROOT	root
+审讯	扣留	xcomp
+。	审讯	punct
+----------------------------------------------------------------------
+星期四早些时候，公司官员无法立即联系上。
+
+(ROOT (IP (NP (NP (NN 星期) (CD 四)) (ADJP (JJ 早些)) (NP (NN 时候))) (, ，) (NP (NN 公司) (NN 官员)) (VP (ADVP (VV 无法)) (ADVP (RB 立即)) (VP (VRD (VV 联系) (IN 上)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP91827': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'ADJP': {}, 'NP77466': {}}, ',': {}, 'NP32306': {'NN': {}, 'NN53146': {}}, 'VP': {'ADVP': {}, 'ADVP16126': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'ADJP': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'ADJP': {}, 'NP': {}}}
+{'NP': {'NN': {}, 'NN': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+星期	时候	nmod
+四	星期	nummod
+早些	时候	amod
+时候	无法	nmod:tmod
+，	时候	punct
+公司	官员	nmod
+官员	无法	nsubj
+无法	ROOT	root
+立即	联系	advmod
+联系	无法	xcomp
+上	联系	mark
+。	无法	punct
+----------------------------------------------------------------------
+至少有 17 人死亡，包括几名消防员，数百人受伤，震惊各地的爆炸声可以在数英里外听到。有多人失踪，尚不明确。
+
+(ROOT (IP (IP (VP (ADVP (RB 至少)) (VP (VV 有) (IP (NP (QP (CD 17)) (NP (NN 人))) (VP (VV 死亡)))))) (, ，) (IP (VP (VV 包括) (NP (QP (CD 几) (CLP (NNB 名))) (NP (VV 消防) (SFN 员))))) (, ，) (IP (NP (QP (CD 数百)) (NP (NN 人))) (VP (VV 受伤))) (, ，) (IP (NP (CP (CP (IP (VP (VV 震惊) (NP (NN 各地)))) (DEC 的))) (NP (VV 爆炸) (SFN 声))) (VP (MD 可以) (VP (PP (VV 在) (LCP (QP (CD 数) (CLP (NNB 英里))) (IN 外))) (VP (VV 听到))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP4450': {}, ',99255': {}, 'IP86821': {}, ',58163': {}, 'IP19407': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP74401': {'VP': {}}, ',10167': {}, 'IP95870': {'NP': {}, 'VP': {}}, ',73306': {}, 'IP34491': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+至少	有	advmod
+有	ROOT	root
+17	人	nummod
+人	包括	nsubj
+死亡	包括	advcl
+，	死亡	punct
+包括	有	ccomp
+几	名	nummod
+名	员	nmod
+消防	员	compound
+员	受伤	nsubj
+，	员	punct
+数百	人	nummod
+人	受伤	nsubj
+受伤	包括	ccomp
+，	受伤	punct
+震惊	声	acl:relcl
+各地	震惊	obj
+的	震惊	mark:rel
+爆炸	声	compound
+声	听到	nsubj
+可以	听到	aux
+在	听到	advcl
+数	英里	nummod
+英里	在	obj
+外	英里	case
+听到	包括	ccomp
+。	有	punct
+----------------------------------------------------------------------
+尚不清楚爆炸物的准确性质，也没有表明爆炸是否是意外爆炸。
+
+(ROOT (IP (VP (VP (ADVP (RB 尚)) (ADVP (RB 不)) (VP (VV 清楚) (NP (DNP (NP (VV 爆炸) (SFN 物)) (DEC 的)) (ADJP (JJ 准确)) (NP (NN 性质))))) (, ，) (VP (ADVP (RB 也)) (VP (VV 没有) (VP (VV 表明) (IP (NP (NN 爆炸)) (VP (VC 是否是) (NP (NP (NN 意外)) (NP (VV 爆炸))))))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VP': {}, ',': {}, 'VP82536': {}}, '.': {}}}
+{'IP': {'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+尚	清楚	advmod
+不	清楚	advmod
+清楚	ROOT	root
+爆炸	物	compound
+物	性质	nmod
+的	清楚	mark:rel
+准确	性质	amod
+性质	有	nsubj
+，	性质	punct
+也	有	mark
+有	清楚	ccomp
+表明	有	xcomp
+爆炸	是	nsubj
+是	表明	ccomp
+意外	爆炸	obl
+爆炸	是	xcomp
+。	有	punct
+----------------------------------------------------------------------
+早期报道称，消防队员在第一次爆炸前约 40 分钟就已经对火势作出反应；据北京日报报道，至少有三名死者是消防队员，六辆消防车被毁。
+
+(ROOT (IP (NP (NN 早期) (NN 报道)) (VP (VV 称) (, ，) (IP (IP (NP (NN 消防) (NN 队员)) (VP (PP (IN 在) (NP (NP (QP (CD 第一) (CLP (NNB 次))) (NP (VV 爆炸))) (QP (ADVP (IN 前约)) (QP (CD 40) (CLP (NNB 分钟)))))) (ADVP (RB 就)) (ADVP (RB 已经)) (PP (IN 对) (NP (NN 火势))) (VP (VV 作出) (NP (NN 反应))))) (: ；) (IP (PP (IN 据) (IP (NP (NNP 北京) (NN 日报)) (VP (VV 报道)))) (, ，) (VP (ADVP (RB 至少)) (VP (VV 有) (IP (NP (QP (CD 三) (CLP (NNB 名))) (NP (NN 死者))) (VP (VC 是) (NP (NN 消防) (NN 队员))))))) (, ，) (IP (NP (QP (CD 六) (CLP (NNB 辆))) (NP (NN 消防) (SFN 车))) (VP (BB 被) (VP (VV 毁)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'NN36568': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'NN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+早期	称	nmod:tmod
+报道	称	nsubj
+称	ROOT	root
+，	作出	punct
+消防	队员	nmod
+队员	作出	nsubj
+在	分钟	case
+第一	次	nummod
+次	爆炸	obl
+爆炸	分钟	amod
+前约	爆炸	mark
+40	分钟	nummod
+分钟	作出	obl
+就	作出	mark
+已经	作出	advmod
+对	火势	case
+火势	作出	obl
+作出	称	ccomp
+反应	作出	obj
+；	有	punct
+据	报道	case
+北京	日报	nmod
+日报	报道	nsubj
+报道	有	ccomp
+，	报道	punct
+至少	有	advmod
+有	称	ccomp
+三	名	nummod
+名	死者	clf
+死者	队员	nsubj
+是	队员	cop
+消防	队员	nmod
+队员	毁	ccomp
+，	队员	punct
+六	辆	nummod
+辆	车	nmod
+消防	车	compound
+车	毁	nsubj:pass
+被	毁	aux:pass
+毁	有	ccomp
+。	称	punct
+----------------------------------------------------------------------
+但是星期四，人民日报报道称，有 11 名消防员被杀，但尚不清楚这 11 人是否在 17 人中。
+
+(ROOT (IP (ADVP (RB 但是)) (NP (NN 星期) (CD 四)) (, ，) (NP (NP (NNP 人民) (NN 日报)) (NP (NN 报道))) (VP (VV 称) (, ，) (IP (IP (VP (VV 有) (IP (NP (QP (CD 11)) (NP (NNB 名消) (NN 防员))) (VP (BB 被) (VP (VV 杀)))))) (, ，) (IP (ADVP (RB 但)) (VP (ADVP (RB 尚)) (ADVP (RB 不)) (VP (VV 清楚) (IP (DP (DT 这) (QP (CD 11))) (VP (ADVP (NN 人是否)) (VP (PP (IN 在) (LCP (QP (CD 17)) (NN 人中))))))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'NP97265': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NN': {}, 'CD': {}}, ',': {}, 'NP39316': {'NP': {}, 'NP1454': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NN': {}, 'CD': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NN': {}, 'CD': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+但是	称	mark
+星期	称	nmod:tmod
+四	称	nmod:tmod
+，	星期	punct
+人民	报道	nmod
+日报	报道	nmod
+报道	称	nsubj
+称	ROOT	root
+，	清楚	punct
+有	清楚	advcl
+11	名消	nummod
+名消	防员	clf
+防员	杀	nsubj:pass
+被	杀	aux:pass
+杀	有	ccomp
+，	有	punct
+但	清楚	mark
+尚	不	advmod
+不	清楚	advmod
+清楚	称	ccomp
+这	人是否	det
+11	人是否	nummod
+人是否	人中	nsubj
+在	人中	case
+17	人中	nummod
+人中	清楚	obl
+。	称	punct
+----------------------------------------------------------------------
+中国社交媒体上发布的照片显示，建筑骨架尽显，排列成排的大众小汽车被焚毁。
+
+(ROOT (IP (NP (CP (CP (IP (LCP (NP (NP (NNP 中国)) (NP (NN 社交) (NN 媒体))) (IN 上)) (VP (VV 发布))) (DEC 的))) (NP (NN 照片))) (VP (VV 显示) (, ，) (IP (IP (NP (NN 建筑) (NN 骨架)) (VP (VV 尽显))) (, ，) (IP (NP (CP (CP (IP (VP (VCD (VV 排列) (VV 成排)))) (DEC 的))) (NP (NN 大众)) (ADJP (PFA 小)) (NP (NN 汽车))) (VP (BB 被) (VP (VV 焚) (VV 毁)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+中国	媒体	nmod
+社交	媒体	nmod
+媒体	发布	nsubj
+上	媒体	case
+发布	照片	acl:relcl
+的	发布	mark:rel
+照片	显示	nsubj
+显示	ROOT	root
+，	毁	punct
+建筑	骨架	nmod
+骨架	尽显	nsubj
+尽显	毁	advcl
+，	尽显	punct
+排列	成排	advcl
+成排	汽车	acl:relcl
+的	成排	mark:rel
+大众	汽车	nmod
+小	汽车	case
+汽车	毁	nsubj:pass
+被	毁	aux:pass
+焚	毁	advcl
+毁	显示	ccomp
+。	显示	punct
+----------------------------------------------------------------------
+伤者涌入当地医院，其中许多人受伤后满身是伤，碎片飞溅，医院里人满为患；在最近的一家医院，泰达医疗中心，急救人员在停车场设了帐篷，为伤者治疗，同时数十名焦急的人们在等待有关伤者亲人的消息。
+
+(ROOT (IP (IP (NP (NN 伤者)) (VP (VV 涌入) (NP (NN 当地) (NN 医院)))) (, ，) (IP (NP (NN 其中)) (LCP (IP (NP (QP (CD 许多)) (NP (NN 人))) (VP (VV 受伤))) (IN 后)) (IP (IP (NP (NN 满身)) (VP (VC 是) (NP (NN 伤)))) (, ，) (IP (NP (NN 碎片)) (VP (VV 飞溅))))) (, ，) (IP (LCP (NP (NN 医院)) (NN 里)) (NP (NN 人)) (VP (ADVP (VV 满)) (VP (VC 为) (NP (VV 患))))) (: ；) (IP (PP (IN 在) (NP (NP (CP (CP (IP (VP (JJ 最近))) (DEC 的))) (QP (CD 一) (CLP (NNB 家))) (NP (NN 医院))) (, ，) (NP (NNP 泰达) (NN 医疗) (NN 中心)))) (, ，) (NP (NN 急救) (NN 人员)) (VP (VP (PP (VV 在) (NP (VV 停车) (SFN 场))) (VP (VV 设) (AS 了) (NP (NN 帐篷)))) (, ，) (VP (PP (IN 为) (NP (NN 伤者))) (VP (VV 治疗))))) (, ，) (IP (ADVP (NN 同时)) (NP (QP (CD 数十) (CLP (NNB 名))) (CP (CP (IP (VP (JJ 焦急))) (DEC 的))) (NP (NN 人们))) (VP (ADVP (IN 在)) (VP (VV 等待) (NP (DNP (NP (ADJP (JJ 有关)) (NP (NN 伤者) (NN 亲人))) (DEC 的)) (NP (NN 消息)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP13760': {}, ',20750': {}, 'IP36213': {}, ':': {}, 'IP62887': {}, ',98109': {}, 'IP76051': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ':': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP9047': {'NP': {}, 'LCP': {}, 'IP': {}}, ',95060': {}, 'IP16884': {'LCP': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP66900': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',42788': {}, 'IP40251': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'LCP': {}, 'IP': {}}, ',': {}, 'IP': {'LCP': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'LCP': {}, 'IP': {}}}
+{'IP': {'LCP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+伤者	涌入	nsubj
+涌入	ROOT	root
+当地	医院	nmod
+医院	涌入	obj
+，	伤	punct
+其中	人	nmod
+许多	人	nummod
+人	伤	nsubj
+受伤	伤	advcl
+后	受伤	mark
+满身	伤	nsubj
+是	伤	cop
+伤	涌入	parataxis
+，	飞溅	punct
+碎片	飞溅	nsubj
+飞溅	涌入	parataxis
+，	满	punct
+医院	人	nmod
+里	医院	acl
+人	满	nsubj
+满	涌入	parataxis
+为	满	mark
+患	满	xcomp
+；	设	punct
+在	医院	case
+最近	医院	amod
+的	最近	mark:rel
+一	家	nummod
+家	医院	clf
+医院	设	obl
+，	医院	punct
+泰达	中心	nmod
+医疗	中心	nmod
+中心	医院	conj
+，	中心	punct
+急救	人员	nmod
+人员	设	nsubj
+在	设	advcl
+停车	场	compound
+场	在	obj
+设	涌入	parataxis
+了	设	aux
+帐篷	设	obj
+，	治疗	punct
+为	伤者	case
+伤者	治疗	obl
+治疗	涌入	parataxis
+，	消息	punct
+同时	消息	nmod:tmod
+数十	名	nummod
+名	人	clf
+焦急	人	amod
+的	焦急	mark:rel
+人	消息	nsubj
+在	消息	case
+等待	消息	acl:relcl
+有关	伤者	amod
+伤者	亲人	nmod
+亲人	等待	obj
+的	等待	mark:rel
+消息	治疗	obl
+。	涌入	punct
+----------------------------------------------------------------------
+有一刻，一个人被告知他刚刚失去了儿子，他开始哭喊，人群静默。
+
+(ROOT (IP (IP (IP (VP (VV 有) (QP (CD 一) (CLP (NNB 刻))))) (, ，) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 人))) (VP (BB 被) (VP (VV 告知) (IP (NP (PRP 他)) (VP (ADVP (RB 刚刚)) (VP (VV 失去) (AS 了) (NP (NN 儿子)))))))) (, ，) (IP (NP (PRP 他)) (VP (VV 开始) (VP (VV 哭喊)))) (, ，) (IP (NP (NN 人群)) (VP (JJ 静默))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP18472': {}, ',30355': {}, 'IP94468': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP78393': {'NP': {}, 'VP': {}}, ',71552': {}, 'IP75865': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+有	ROOT	root
+一	刻	nummod
+刻	告知	nmod:tmod
+，	刻	punct
+一	个	nummod
+个	人	clf
+人	告知	nsubj:pass
+被	告知	aux:pass
+告知	有	ccomp
+他	失去	nsubj
+刚刚	失去	advmod
+失去	告知	ccomp
+了	失去	aux
+儿子	失去	obj
+，	开始	punct
+他	开始	nsubj
+开始	告知	parataxis
+哭喊	开始	xcomp
+，	静默	punct
+人群	静默	nsubj
+静默	有	parataxis
+。	有	punct
+----------------------------------------------------------------------
+他大叫道：“上帝，你为什么这么残忍？”“儿子，我想和你一起去。”
+
+(ROOT (IP (IP (NP (PRP 他)) (VP (ADVP (RB 大)) (VP (VV 叫道) (: ：) (IP (`` “) (NP (NNP 上帝)) (, ，) (NP (PRP 你)) (VP (PP (IN 为) (NP (WP 什么))) (ADVP (RB 这么)) (VP (JJ 残忍))))))) (. ？) ('' ”) (IP (`` “) (NP (NN 儿子)) (, ，) (NP (PRP 我)) (VP (MD 想) (IP (VP (PP (IN 和) (NP (PRP 你))) (ADVP (RB 一起)) (VP (VV 去)))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, '.': {}, "''": {}, 'IP91717': {}, '.89501': {}, "''93622": {}}}
+{'IP': {'IP': {}, '.': {}, "''": {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}, 'IP1314': {'``': {}, 'NP': {}, ',': {}, 'NP93874': {}, 'VP': {}}, '.45504': {}, "''19011": {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}, 'IP': {'``': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'``': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+他	叫道	nsubj
+大	叫道	advmod
+叫道	ROOT	root
+：	去	punct
+“	去	punct
+上帝	残忍	nsubj
+，	上帝	punct
+你	残忍	nsubj
+为	什么	case
+什么	残忍	nmod
+这么	残忍	advmod
+残忍	去	advcl
+？	残忍	punct
+”	残忍	punct
+“	儿子	punct
+儿子	去	nsubj
+，	儿子	punct
+我	去	nsubj
+想	去	aux
+和	你	case
+你	去	obl
+一起	去	advmod
+去	叫道	ccomp
+。	去	punct
+”	去	punct
+----------------------------------------------------------------------
+星期四日出时，一大团黑烟升起，横亘在地平线上。
+
+(ROOT (IP (LCP (IP (VP (NP (NP (NN 星期)) (QP (CD 四) (CLP (NNB 日)))) (VP (VV 出)))) (IN 时)) (, ，) (NP (NP (QP (CD 一)) (ADJP (PFA 大)) (NP (NN 团))) (NP (NN 黑烟))) (VP (VP (VV 升起)) (, ，) (VP (VV 横亘) (PP (IN 在) (LCP (NP (NN 地平)) (NN 线上))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NP': {}, 'NP51808': {}}, 'VP': {'VP': {}, ',': {}, 'VP13901': {}}, '.': {}}}
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'IP': {}, 'IN': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+星期	日	nmod
+四	日	nummod
+日	出	nmod:tmod
+出	横亘	advcl
+时	出	mark
+，	出	punct
+一	团	nummod
+大	团	case
+团	黑烟	nmod
+黑烟	升起	nsubj
+升起	横亘	advcl
+，	升起	punct
+横亘	ROOT	root
+在	线上	case
+地平	线上	nmod
+线上	横亘	obl
+。	横亘	punct
+----------------------------------------------------------------------
+距离港口不远的一个新建公寓楼的居民都戴着一次性口罩，受伤的人从医院出来后，拄着拐杖，疑惑地走在街上。
+
+(ROOT (IP (IP (NP (DNP (NP (CP (CP (IP (VP (PP (IN 距离) (NP (NN 港口))) (VP (JJ 不远)))) (DEC 的))) (QP (CD 一) (CLP (NNB 个))) (ADJP (JJ 新建)) (NP (NN 公寓) (SFN 楼))) (DEC 的)) (NP (NN 居民))) (VP (VV 都戴) (AS 着) (NP (QP (CD 一) (CLP (NNB 次))) (NP (NN 性口) (SFN 罩))))) (, ，) (IP (NP (CP (CP (IP (VP (VV 受伤))) (DEC 的))) (NP (NN 人))) (VP (LCP (IP (VP (PP (IN 从) (NP (NN 医院))) (VP (VV 出来)))) (IN 后)) (, ，) (VP (VP (VV 拄) (AS 着) (NP (NN 拐杖))) (, ，) (VP (DVP (VP (JJ 疑惑)) (DEV 地)) (VP (VV 走) (PP (VV 在) (NP (NN 街上)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP31062': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP13446': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+距离	港口	case
+港口	不远	nmod
+不远	楼	acl:relcl
+的	不远	mark:rel
+一	个	nummod
+个	楼	nmod
+新建	楼	amod
+公寓	楼	compound
+楼	居民	nmod
+的	楼	case
+居民	都戴	nsubj
+都戴	ROOT	root
+着	都戴	aux
+一	次	nummod
+次	罩	nmod
+性口	罩	compound
+罩	都戴	obj
+，	走	punct
+受伤	人	acl:relcl
+的	受伤	mark:rel
+人	走	nsubj
+从	医院	case
+医院	出来	obl
+出来	走	advcl
+后	出来	mark
+，	出来	punct
+拄	走	advcl
+着	拄	aux
+拐杖	拄	obj
+，	拄	punct
+疑惑	走	advmod
+地	疑惑	mark:adv
+走	都戴	parataxis
+在	走	mark
+街上	走	obj
+。	都戴	punct
+----------------------------------------------------------------------
+马路上铺满了玻璃片；在上面，这座由 33 层楼组成的建筑群的每一个窗户都被吹破了，风吹进去，窗户上的窗帘在刺眼的缝隙中飘扬着。
+
+(ROOT (IP (IP (LCP (NP (NN 马路)) (NN 上)) (VP (VV 铺满) (AS 了) (NP (NN 玻璃) (SFN 片)))) (: ；) (IP (PP (IN 在) (NP (NN 上面))) (, ，) (NP (DNP (NP (DP (DT 这) (CLP (NNB 座))) (CP (CP (IP (VP (PP (VV 由) (QP (CD 33) (CLP (NN 层楼)))) (VP (VV 组成)))) (DEC 的))) (NP (VV 建筑) (SFN 群))) (DEC 的)) (DP (DT 每) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 窗户))) (VP (ADVP (RB 都)) (VP (BB 被) (VP (VV 吹破) (AS 了))))) (, ，) (IP (VP (VRD (VV 风吹) (VV 进去)))) (, ，) (IP (NP (DNP (LCP (NP (NN 窗户)) (NN 上)) (DEC 的)) (NP (NN 窗帘))) (VP (PP (VV 在) (LCP (NP (CP (CP (IP (VP (NN 刺眼))) (DEC 的))) (NP (NN 缝隙))) (NN 中))) (VP (VCD (VV 飘) (VV 扬着))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP3025': {}, ',': {}, 'IP28476': {}, ',41643': {}, 'IP35396': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, 'VP': {}}, ':': {}, 'IP91185': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP97083': {'VP': {}}, ',88483': {}, 'IP92846': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'LCP': {}, 'VP': {}}, ':': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+马路	铺满	nsubj
+上	马路	acl
+铺满	ROOT	root
+了	铺满	aux
+玻璃	片	compound
+片	铺满	obj
+；	吹破	punct
+在	上面	case
+上面	吹破	obl
+，	上面	punct
+这	座	det
+座	窗户	clf
+由	窗户	acl:relcl
+33	层楼	nummod
+层楼	组成	nsubj
+组成	由	ccomp
+的	由	mark:rel
+建筑	群	compound
+群	由	obj
+的	由	mark:rel
+每	个	det
+一	个	nummod
+个	窗户	nmod
+窗户	吹破	nsubj:pass
+都	吹破	mark
+被	吹破	aux:pass
+吹破	铺满	parataxis
+了	吹破	aux
+，	风吹	punct
+风吹	窗帘	acl:relcl
+进去	风吹	mark
+，	风吹	punct
+窗户	窗帘	nmod
+上	窗户	acl
+的	窗户	case
+窗帘	飘	nsubj
+在	飘	advcl
+刺眼	在	obj
+的	在	mark:rel
+缝隙	在	obj
+中	缝隙	acl
+飘	扬着	advcl
+扬着	吹破	parataxis
+。	铺满	punct
+----------------------------------------------------------------------
+街上的汽车轮胎都爆胎了，一个集装箱的侧面被挤压得像是巨人用手掌一样推着的样子。
+
+(ROOT (IP (IP (NP (DNP (NP (NN 街上)) (DEC 的)) (NP (NN 汽车) (SFN 轮) (SFN 胎))) (VP (ADVP (RB 都)) (VP (VV 爆胎) (UH 了)))) (, ，) (IP (NP (DNP (NP (QP (CD 一) (CLP (NNB 个))) (NP (VV 集装) (SFN 箱))) (DEC 的)) (NP (NN 侧面))) (VP (BB 被) (VP (VV 挤压) (DEV 得) (VP (VC 像是) (NP (CP (IP (IP (NP (NN 巨人) (VV 用手) (VV 掌)) (VP (JJ 一样))) (VP (VV 推着))) (DEC 的)) (NP (NN 样子))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP50786': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP47825': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+街上	胎	nmod
+的	街上	case
+汽车	轮	compound
+轮	胎	compound
+胎	爆胎	nsubj
+都	爆胎	mark
+爆胎	ROOT	root
+了	爆胎	discourse
+，	挤压	punct
+一	个	nummod
+个	箱	nmod
+集装	箱	compound
+箱	侧面	nmod
+的	箱	case
+侧面	挤压	nsubj:pass
+被	挤压	aux:pass
+挤压	爆胎	parataxis
+得	挤压	compound:ext
+是	推着	advcl
+巨人	掌	nsubj
+用手	掌	advcl
+掌	是	ccomp
+一样	是	ccomp
+推着	样子	acl:relcl
+的	推着	mark:rel
+样子	挤压	obj
+。	爆胎	punct
+----------------------------------------------------------------------
+对面的街道上，一排通常在中国施工现场使用的临时预制结构被拆除。
+
+(ROOT (IP (LCP (NP (DNP (NP (NN 对面)) (DEC 的)) (NP (NN 街道))) (NN 上)) (, ，) (NP (QP (CD 一) (CLP (NNB 排))) (CP (CP (IP (VP (ADVP (RB 通常)) (PP (VV 在) (NP (NP (NNP 中国)) (NP (NN 施工) (NN 现场)))) (VP (VV 使用)))) (DEC 的))) (ADJP (JJ 临时)) (ADJP (NN 预制)) (NP (NN 结构))) (VP (BB 被) (VP (VV 拆除))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'NN': {}}, ',': {}, 'NP': {'QP': {}, 'CP': {}, 'ADJP': {}, 'ADJP70888': {}, 'NP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'NN': {}}, ',': {}, 'NP': {'QP': {}, 'CP': {}, 'ADJP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'NN': {}}}
+{'NP': {'QP': {}, 'CP': {}, 'ADJP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'BB': {}, 'VP': {}}}
+Dependency Features:
+对面	街道	nmod
+的	对面	case
+街道	拆除	nsubj:pass
+上	街道	acl
+，	街道	punct
+一	排	nummod
+排	结构	clf
+通常	使用	advmod
+在	使用	advcl
+中国	现场	nmod
+施工	现场	nmod
+现场	在	obj
+使用	结构	acl:relcl
+的	使用	mark:rel
+临时	结构	amod
+预制	结构	nmod
+结构	拆除	nsubj:pass
+被	拆除	aux:pass
+拆除	ROOT	root
+。	拆除	punct
+----------------------------------------------------------------------
+65 岁的建筑工 Su Zhaoqing 说，他当时正在床铺的下层睡觉，整栋楼倒塌，造成 2000 多名被压在建筑物内的男子中的数十人受伤。
+
+(ROOT (IP (NP (NP (DNP (QP (CD 65) (CLP (NNB 岁))) (DEC 的)) (NP (VV 建筑) (SFN 工))) (NP (FW Su) (FW Zhaoqing))) (VP (VV 说) (, ，) (IP (IP (NP (PRP 他)) (VP (NP (NN 当时)) (ADVP (RB 正)) (PP (VV 在) (NP (DNP (NP (NN 床铺)) (DEC 的)) (NP (NN 下层)))) (VP (VV 睡觉)))) (, ，) (IP (NP (NN 整栋)) (VP (ADVP (NN 楼倒)) (VP (VV 塌)))) (, ，) (IP (VP (VV 造成) (IP (NP (DNP (LCP (NP (QP (CD 2000) (CLP (CD 多名))) (CP (CP (IP (VP (BB 被) (VP (VV 压) (PP (VV 在) (LCP (NP (VV 建筑) (SFN 物)) (NN 内)))))) (DEC 的))) (NP (NN 男子))) (IN 中)) (DEC 的)) (QP (CD 数十)) (NP (NN 人))) (VP (VV 受伤))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP5183': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+65	岁	nummod
+岁	工	nmod
+的	岁	mark:rel
+建筑	工	compound
+工	说	nsubj
+Su	工	appos
+Zhaoqing	Su	flat:foreign
+说	ROOT	root
+，	造成	punct
+他	睡觉	nsubj
+当时	睡觉	nmod:tmod
+正	在	advmod
+在	下层	acl:relcl
+床铺	在	obj
+的	在	mark:rel
+下层	睡觉	obl
+睡觉	造成	advcl
+，	睡觉	punct
+整栋	楼倒	nmod
+楼倒	塌	nsubj
+塌	造成	advcl
+，	塌	punct
+造成	说	ccomp
+2000	多名	nummod
+多名	男子	clf
+被	压	aux:pass
+压	男子	acl:relcl
+在	压	mark
+建筑	物	compound
+物	压	obj
+内	物	acl
+的	压	mark:rel
+男子	人	nmod
+中	男子	case
+的	男子	case
+数十	人	nummod
+人	受伤	nsubj
+受伤	造成	ccomp
+。	说	punct
+----------------------------------------------------------------------
+“一切都落在我的脸上，但我还是挺了过来，”苏先生说，他的头上裹着一块血淋淋的敷衍带。
+
+(ROOT (IP (IP (`` “) (NP (DT 一切)) (VP (ADVP (RB 都)) (VP (VV 落) (PP (VV 在) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 脸上)))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 我)) (VP (ADVP (RB 还是)) (VP (VV 挺) (AS 了) (VV 过来))))) (, ，) ('' ”) (NP (NNP 苏) (NNP 先生)) (VP (VV 说) (, ，) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 头上))) (VP (VV 裹) (AS 着) (NP (QP (CD 一) (CLP (NNB 块))) (CP (CP (IP (VP (VCD (VV 血淋) (JJ 淋)))) (DEC 的))) (NP (NN 敷) (NN 衍带)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}, 'NNP25915': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}, 'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}}}
+{'NP': {'NNP': {}, 'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+“	落	punct
+一切	落	nsubj
+都	落	mark
+落	挺	advcl
+在	落	mark
+我	落	obj
+的	落	mark:rel
+脸上	落	obj
+，	落	punct
+但	挺	mark
+我	挺	nsubj
+还是	挺	mark
+挺	说	advcl
+了	挺	aux
+过来	挺	mark
+，	挺	punct
+”	挺	punct
+苏	说	nsubj
+先生	苏	flat:name
+说	ROOT	root
+，	裹	punct
+他	头上	det
+的	他	case
+头上	裹	nsubj
+裹	说	ccomp
+着	裹	aux
+一	块	nummod
+块	衍带	clf
+血淋	淋	advcl
+淋	衍带	acl:relcl
+的	淋	mark:rel
+敷	衍带	nmod
+衍带	裹	obj
+。	说	punct
+----------------------------------------------------------------------
+警察封锁了爆炸现场的入口，保安阻止了居民回家。
+
+(ROOT (IP (IP (NP (NN 警察)) (VP (VV 封锁) (AS 了) (NP (DNP (NP (NN 爆炸) (NN 现场)) (DEC 的)) (NP (NN 入口))))) (, ，) (IP (NP (NN 保安)) (VP (VV 阻止) (AS 了) (NP (NN 居民)) (IP (VP (VV 回家))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP65954': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP36220': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+警察	封锁	nsubj
+封锁	ROOT	root
+了	封锁	aux
+爆炸	现场	nmod
+现场	入口	nmod
+的	现场	case
+入口	封锁	obj
+，	阻止	punct
+保安	阻止	nsubj
+阻止	封锁	parataxis
+了	阻止	aux
+居民	回家	nsubj
+回家	阻止	ccomp
+。	封锁	punct
+----------------------------------------------------------------------
+据北京日报报道，有400多名天津市民在第五医院排队捐血。
+
+(ROOT (IP (PP (IN 据) (IP (NP (NNP 北京) (NN 日报)) (VP (VV 报道)))) (, ，) (VP (VV 有) (IP (NP (QP (CD 400多) (CLP (NNB 名))) (NP (NNP 天津)) (NP (NN 市民))) (VP (PP (VV 在) (NP (QP (CD 第五)) (NP (NN 医院)))) (VP (VCD (VV 排队) (VV 捐血)))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+据	报道	case
+北京	日报	nmod
+日报	报道	nsubj
+报道	有	ccomp
+，	报道	punct
+有	ROOT	root
+400多	名	nummod
+名	市民	clf
+天津	市民	nmod
+市民	捐血	nsubj
+在	捐血	advcl
+第五	医院	nummod
+医院	在	obj
+排队	捐血	advcl
+捐血	有	ccomp
+。	有	punct
+----------------------------------------------------------------------
+一位出租车司机在后视镜上贴了一封信，表示愿意为受害者家属提供送行服务。
+
+(ROOT (IP (NP (QP (CD 一) (CLP (NNB 位))) (NP (VV 出租) (SFN 车) (NN 司机))) (VP (VP (PP (IN 在) (NP (VV 后视) (SFN 镜))) (VP (VV 上贴) (AS 了) (NP (QP (CD 一) (CLP (NNB 封))) (NP (NN 信))))) (, ，) (VP (VV 表示) (IP (VP (MD 愿意) (IP (VP (PP (IN 为) (NP (VV 受害) (SFN 者) (NN 家属))) (VP (VV 提供) (NP (NN 送行) (NN 服务))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP32651': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+一	位	nummod
+位	司机	clf
+出租	车	compound
+车	司机	nmod
+司机	表示	nsubj
+在	镜	case
+后视	镜	compound
+镜	上贴	obl
+上贴	表示	advcl
+了	上贴	aux
+一	封	nummod
+封	信	clf
+信	上贴	obj
+，	上贴	punct
+表示	ROOT	root
+愿意	提供	aux
+为	家属	case
+受害	者	compound
+者	家属	nmod
+家属	提供	obl
+提供	表示	xcomp
+送行	服务	nmod
+服务	提供	obj
+。	表示	punct
+----------------------------------------------------------------------
+据中国地震局官方微博称，第一次爆炸的地震级别为 2.3 级。
+
+(ROOT (IP (PP (IN 据) (IP (NP (NP (NNP 中国) (NN 地震) (SFN 局)) (NP (NN 官方) (NN 微博))) (VP (VV 称)))) (, ，) (NP (DNP (NP (QP (CD 第一) (CLP (NNB 次))) (NP (VV 爆炸))) (DEC 的)) (NP (NN 地震) (NN 级别))) (VP (VC 为) (QP (CD 2.3) (CLP (NN 级)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'QP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'QP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'QP': {}}}
+Dependency Features:
+据	称	case
+中国	微博	nmod
+地震	局	compound
+局	微博	nmod
+官方	微博	nmod
+微博	称	nsubj
+称	级	ccomp
+，	称	punct
+第一	次	nummod
+次	爆炸	obl
+爆炸	级别	acl:relcl
+的	爆炸	mark:rel
+地震	级别	nmod
+级别	级	nsubj
+为	级	cop
+2.3	级	nummod
+级	ROOT	root
+。	级	punct
+----------------------------------------------------------------------
+据悉，第二次爆炸的地震烈度为 2.9 级。
+
+(ROOT (IP (ADVP (VV 据悉)) (, ，) (NP (DNP (NP (QP (CD 第二) (CLP (NNB 次))) (NP (VV 爆炸))) (DEC 的)) (NP (NN 地震) (NN 烈度))) (VP (VC 为) (QP (CD 2.9) (CLP (NN 级)))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'VV': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'QP': {}}, '.': {}}}
+{'IP': {'ADVP': {'VV': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'QP': {}}, '.': {}}}
+{'ADVP': {'VV': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'QP': {}}}
+Dependency Features:
+据悉	ROOT	root
+，	级	punct
+第二	次	nummod
+次	爆炸	obl
+爆炸	烈度	acl:relcl
+的	爆炸	mark:rel
+地震	烈度	nmod
+烈度	级	nsubj
+为	级	cop
+2.9	级	nummod
+级	据悉	ccomp
+。	据悉	punct
+----------------------------------------------------------------------

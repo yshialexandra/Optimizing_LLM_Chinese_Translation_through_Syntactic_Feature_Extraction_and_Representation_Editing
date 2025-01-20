@@ -1,0 +1,265 @@
+.
+(ROOT (. .))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+.	ROOT	root
+----------------------------------------------------------------------
+/
+(ROOT (. /))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+/	ROOT	root
+----------------------------------------------------------------------
+i
+(ROOT (FW i))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+i	ROOT	root
+----------------------------------------------------------------------
+n
+(ROOT (FW n))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+n	ROOT	root
+----------------------------------------------------------------------
+s
+(ROOT (NP (FW s)))
+layer 2:
+{'NP': {'FW': {}}}
+{'NP': {'FW': {}}}
+layer 3:
+{'NP': {'FW': {}}}
+{'NP': {'FW': {}}}
+Dependency Features:
+s	ROOT	root
+----------------------------------------------------------------------
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
+----------------------------------------------------------------------
+r
+(ROOT (FW r))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+r	ROOT	root
+----------------------------------------------------------------------
+u
+(ROOT (FW u))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+u	ROOT	root
+----------------------------------------------------------------------
+c
+(ROOT (FW c))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+c	ROOT	root
+----------------------------------------------------------------------
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
+----------------------------------------------------------------------
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
+----------------------------------------------------------------------
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
+----------------------------------------------------------------------
+x
+(ROOT (FW x))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+x	ROOT	root
+----------------------------------------------------------------------
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
+----------------------------------------------------------------------
+/
+(ROOT (. /))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+/	ROOT	root
+----------------------------------------------------------------------
+A
+(ROOT (FW A))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+A	ROOT	root
+----------------------------------------------------------------------
+1
+(ROOT (CD 1))
+layer 2:
+{'CD': {}}
+layer 3:
+{'CD': {}}
+Dependency Features:
+1	ROOT	root
+----------------------------------------------------------------------
+0
+(ROOT (LS 0))
+layer 2:
+{'LS': {}}
+layer 3:
+{'LS': {}}
+Dependency Features:
+0	ROOT	root
+----------------------------------------------------------------------
+A
+(ROOT (FW A))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+A	ROOT	root
+----------------------------------------------------------------------
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
+----------------------------------------------------------------------
+e
+(ROOT (NP (ADD e)))
+layer 2:
+{'NP': {'ADD': {}}}
+{'NP': {'ADD': {}}}
+layer 3:
+{'NP': {'ADD': {}}}
+{'NP': {'ADD': {}}}
+Dependency Features:
+e	ROOT	root
+----------------------------------------------------------------------
+n
+(ROOT (FW n))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+n	ROOT	root
+----------------------------------------------------------------------
+_
+(ROOT (FW _))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+_	ROOT	root
+----------------------------------------------------------------------
+z
+(ROOT (FW z))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+z	ROOT	root
+----------------------------------------------------------------------
+h
+(ROOT (FW h))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+h	ROOT	root
+----------------------------------------------------------------------
+.
+(ROOT (. .))
+layer 2:
+{'.': {}}
+layer 3:
+{'.': {}}
+Dependency Features:
+.	ROOT	root
+----------------------------------------------------------------------
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
+----------------------------------------------------------------------
+x
+(ROOT (FW x))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+x	ROOT	root
+----------------------------------------------------------------------
+t
+(ROOT (FW t))
+layer 2:
+{'FW': {}}
+layer 3:
+{'FW': {}}
+Dependency Features:
+t	ROOT	root
+----------------------------------------------------------------------

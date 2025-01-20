@@ -1,0 +1,998 @@
+再加上一份报告，这份报告证明了女性在公司董事会中的重要性。
+
+(ROOT (IP (IP (VP (ADVP (RB 再)) (VP (VV 加上) (NP (QP (CD 一) (CLP (NNB 份))) (NP (NN 报告)))))) (, ，) (NP (DP (DT 这) (CLP (NNB 份))) (NP (NN 报告))) (VP (VV 证明) (AS 了) (NP (NP (NN 女性)) (DNP (PP (IN 在) (LCP (NP (NN 公司) (NN 董事) (SFN 会)) (IN 中))) (DEC 的)) (NP (JJ 重要) (SFN 性)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'advmod']	['再', '加上', 'advmod']
+['VERB', 'ROOT', 'root']	['加上', 'NONE', 'root']
+['NUM', 'NOUN', 'nummod']	['一', '份', 'nummod']
+['NOUN', 'NOUN', 'clf']	['份', '报告', 'clf']
+['NOUN', 'VERB', 'obj']	['报告', '加上', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '证明', 'punct']
+['DET', 'NOUN', 'det']	['这', '份', 'det']
+['NOUN', 'NOUN', 'clf']	['份', '报告', 'clf']
+['NOUN', 'VERB', 'nsubj']	['报告', '证明', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['证明', '加上', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '证明', 'aux']
+['NOUN', 'PART', 'nmod']	['女性', '性', 'nmod']
+['ADP', 'PART', 'case']	['在', '性', 'case']
+['NOUN', 'PART', 'nmod']	['公司', '会', 'nmod']
+['NOUN', 'PART', 'compound']	['董事', '会', 'compound']
+['PART', 'PART', 'nmod']	['会', '性', 'nmod']
+['ADP', 'PART', 'case']	['中', '会', 'case']
+['PART', 'PART', 'case']	['的', '性', 'case']
+['ADJ', 'PART', 'compound']	['重要', '性', 'compound']
+['PART', 'VERB', 'obj']	['性', '证明', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '加上', 'punct']
+----------------------------------------------------------------------
+全球市场指数提供商 MSCI 对 4200 多家公司进行的一项新研究表明，“具有强有力女性领导力”的公司在 5 年半的时间里，股东权益回报率比没有具备足够数量的女性领导者的公司高出 36.4%。
+
+(ROOT (IP (NP (CP (CP (IP (NP (NP (NP (NN 全球) (NN 市场) (NN 指数) (VV 提供) (SFN 商)) (NP (FW MSCI))) (QP (CD 对 4200)) (ADJP (NN 多家)) (NP (NN 公司))) (VP (VV 进行))) (DEC 的))) (QP (CD 一) (CLP (NNB 项))) (ADJP (PFA 新)) (NP (NN 研究))) (VP (VV 表明) (, ，) (IP (NP (CP (CP (NP (`` “) (VP (VV 具有) (NP (NP (ADJP (PFA 强) (JJ 有力)) (NP (NN 女性))) (NP (VV 领导) (SFN 力)))) ('' ”)) (DEC 的))) (NP (NN 公司))) (PP (IN 在) (LCP (NP (DNP (QP (CD 5) (CLP (NNB 年半))) (DEC 的)) (NP (NN 时间))) (IN 里))) (, ，) (NP (NN 股东) (NN 权益) (VV 回报) (SFN 率)) (VP (PP (IN 比) (NP (CP (CP (IP (VP (VV 没有) (NP (CP (CP (IP (VP (VV 具备) (NP (ADJP (JJ 足够)) (NP (NN 数量))))) (DEC 的))) (NP (NN 女性) (VV 领导) (SFN 者))))) (DEC 的))) (NP (NN 公司)))) (VP (VV 高出) (QP (CD 36.4%)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'QP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'QP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'QP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['NOUN', 'PART', 'nmod']	['全球', '商', 'nmod']
+['NOUN', 'PART', 'nmod']	['市场', '商', 'nmod']
+['NOUN', 'PART', 'nmod']	['指数', '商', 'nmod']
+['VERB', 'PART', 'compound']	['提供', '商', 'compound']
+['PART', 'VERB', 'nsubj']	['商', '进行', 'nsubj']
+['X', 'PART', 'appos']	['MSCI', '商', 'appos']
+['NUM', 'NOUN', 'nummod']	['对 4200', '公司', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['多家', '公司', 'nmod']
+['NOUN', 'X', 'appos']	['公司', 'MSCI', 'appos']
+['VERB', 'NOUN', 'acl:relcl']	['进行', '研究', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '进行', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['一', '项', 'nummod']
+['NOUN', 'NOUN', 'clf']	['项', '研究', 'clf']
+['PART', 'NOUN', 'case']	['新', '研究', 'case']
+['NOUN', 'VERB', 'nsubj']	['研究', '表明', 'nsubj']
+['VERB', 'ROOT', 'root']	['表明', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '高出', 'punct']
+['PUNCT', 'NOUN', 'punct']	['“', '公司', 'punct']
+['VERB', 'NOUN', 'acl:relcl']	['具有', '公司', 'acl:relcl']
+['PART', 'NOUN', 'case']	['强', '女性', 'case']
+['ADJ', 'NOUN', 'amod']	['有力', '女性', 'amod']
+['NOUN', 'PART', 'nmod']	['女性', '力', 'nmod']
+['VERB', 'PART', 'compound']	['领导', '力', 'compound']
+['PART', 'VERB', 'obj']	['力', '具有', 'obj']
+['PUNCT', 'PART', 'punct']	['”', '力', 'punct']
+['PART', 'VERB', 'mark:rel']	['的', '具有', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['公司', '时间', 'nmod']
+['ADP', 'NOUN', 'case']	['在', '时间', 'case']
+['NUM', 'NOUN', 'nummod']	['5', '年半', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['年半', '时间', 'nmod']
+['PART', 'NOUN', 'case']	['的', '年半', 'case']
+['NOUN', 'VERB', 'obl']	['时间', '高出', 'obl']
+['ADP', 'NOUN', 'case']	['里', '时间', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '时间', 'punct']
+['NOUN', 'PART', 'nmod']	['股东', '率', 'nmod']
+['NOUN', 'PART', 'nmod']	['权益', '率', 'nmod']
+['VERB', 'PART', 'compound']	['回报', '率', 'compound']
+['PART', 'VERB', 'nsubj']	['率', '高出', 'nsubj']
+['ADP', 'NOUN', 'case']	['比', '公司', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['有', '公司', 'acl:relcl']
+['VERB', 'VERB', 'xcomp']	['具备', '有', 'xcomp']
+['ADJ', 'NOUN', 'amod']	['足够', '数量', 'amod']
+['NOUN', 'VERB', 'obj']	['数量', '具备', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '具备', 'mark:rel']
+['NOUN', 'PART', 'nmod']	['女性', '者', 'nmod']
+['VERB', 'PART', 'compound']	['领导', '者', 'compound']
+['PART', 'VERB', 'obj']	['者', '有', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '有', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['公司', '高出', 'obl']
+['VERB', 'VERB', 'ccomp']	['高出', '表明', 'ccomp']
+['NUM', 'VERB', 'obj']	['36.4%', '高出', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '表明', 'punct']
+----------------------------------------------------------------------
+为研究的目的，MSCI 将强有力的女性领导力定义为董事会至少有三名女性，研究表明，这是决策影响力的关键数量，或者是公司所在国家的女性比例高于公司平均水平。
+
+(ROOT (IP (IP (NP (DNP (PP (IN 为) (NP (VV 研究))) (DEC 的)) (NP (NN 目的))) (, ，) (NP (NP (FW MSCI)) (CP (CP (IP (VP (VV 将强) (VP (JJ 有力)))) (DEC 的))) (NP (NN 女性) (VV 领导) (SFN 力))) (VP (VRD (VV 定义) (VC 为)) (IP (NP (NN 董事) (SFN 会)) (VP (ADVP (RB 至少)) (VP (VV 有) (NP (QP (CD 三) (CLP (NNB 名))) (NP (NN 女性)))))))) (, ，) (IP (NP (NN 研究)) (VP (VV 表明) (, ，) (IP (NP (CP (CP (IP (NP (PRD 这)) (VP (VP (VC 是) (NP (DNP (NP (NN 决策) (VV 影响) (SFN 力)) (DEC 的)) (NP (NN 关键) (NN 数量)))) (, ，) (CC 或者) (VP (VC 是) (NP (CP (IP (NP (NN 公司)) (VP (RB 所) (VP (VV 在))))) (NP (NN 国家)))))) (DEC 的))) (NP (NN 女性) (NN 比例))) (VP (JJ 高) (PP (VV 于) (NP (NP (NN 公司)) (ADJP (JJ 平均)) (NP (NN 水平)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP46640': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP67925': {}, 'VP': {}}, ',': {}, 'IP53049': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['为', '目的', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['研究', '目的', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '研究', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['目的', '定义', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '目的', 'punct']
+['X', 'PART', 'nmod']	['MSCI', '力', 'nmod']
+['VERB', 'PART', 'acl:relcl']	['将强', '力', 'acl:relcl']
+['ADJ', 'VERB', 'xcomp']	['有力', '将强', 'xcomp']
+['PART', 'VERB', 'mark:rel']	['的', '将强', 'mark:rel']
+['NOUN', 'PART', 'nmod']	['女性', '力', 'nmod']
+['VERB', 'PART', 'compound']	['领导', '力', 'compound']
+['PART', 'VERB', 'nsubj']	['力', '定义', 'nsubj']
+['VERB', 'ROOT', 'root']	['定义', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['为', '定义', 'mark']
+['NOUN', 'PART', 'compound']	['董事', '会', 'compound']
+['PART', 'VERB', 'nsubj']	['会', '有', 'nsubj']
+['ADV', 'VERB', 'advmod']	['至少', '有', 'advmod']
+['VERB', 'VERB', 'ccomp']	['有', '定义', 'ccomp']
+['NUM', 'NOUN', 'nummod']	['三', '名', 'nummod']
+['NOUN', 'NOUN', 'clf']	['名', '女性', 'clf']
+['NOUN', 'VERB', 'obj']	['女性', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '表明', 'punct']
+['NOUN', 'VERB', 'nsubj']	['研究', '表明', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['表明', '定义', 'parataxis']
+['PUNCT', 'NOUN', 'punct']	['，', '数量', 'punct']
+['PRON', 'NOUN', 'nsubj']	['这', '数量', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '数量', 'cop']
+['NOUN', 'PART', 'nmod']	['决策', '力', 'nmod']
+['VERB', 'PART', 'compound']	['影响', '力', 'compound']
+['PART', 'NOUN', 'nmod']	['力', '数量', 'nmod']
+['PART', 'VERB', 'mark:rel']	['的', '将强', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['关键', '数量', 'nmod']
+['NOUN', 'VERB', 'ccomp']	['数量', '表明', 'ccomp']
+['PUNCT', 'ADJ', 'punct']	['，', '高', 'punct']
+['CCONJ', 'ADJ', 'cc']	['或者', '高', 'cc']
+['AUX', 'NOUN', 'cop']	['是', '比例', 'cop']
+['NOUN', 'VERB', 'nsubj']	['公司', '在', 'nsubj']
+['ADV', 'VERB', 'mark']	['所', '在', 'mark']
+['VERB', 'NOUN', 'acl:relcl']	['在', '比例', 'acl:relcl']
+['NOUN', 'VERB', 'obj']	['国家', '在', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '在', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['女性', '比例', 'nmod']
+['NOUN', 'ADJ', 'nsubj']	['比例', '高', 'nsubj']
+['ADJ', 'NOUN', 'conj']	['高', '数量', 'conj']
+['VERB', 'ADJ', 'mark']	['于', '高', 'mark']
+['NOUN', 'NOUN', 'nmod']	['公司', '水平', 'nmod']
+['ADJ', 'NOUN', 'amod']	['平均', '水平', 'amod']
+['NOUN', 'ADJ', 'obj']	['水平', '高', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '定义', 'punct']
+----------------------------------------------------------------------
+如今，强有力的女性领导力并不是企业界的普遍特征：
+
+(ROOT (IP (NP (NN 如今)) (, ，) (NP (CP (CP (IP (VP (VCD (RB 强) (JJ 有力)))) (DEC 的))) (NP (NN 女性) (VV 领导) (SFN 力))) (VP (ADVP (RB 并)) (VP (VC 不是) (NP (DNP (NP (NN 企业) (SFN 界)) (DEC 的)) (ADJP (JJ 普遍)) (NP (NN 特征))))) (: ：)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP42934': {}, 'VP': {}, ':': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, ':': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP54723': {'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, ':': {}}}
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, ':': {}}}
+{'NP': {'NN': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod:tmod']	['如今', '特征', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '如今', 'punct']
+['ADV', 'ADJ', 'advmod']	['强', '有力', 'advmod']
+['ADJ', 'PART', 'amod']	['有力', '力', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '有力', 'mark:rel']
+['NOUN', 'PART', 'nmod']	['女性', '力', 'nmod']
+['VERB', 'PART', 'compound']	['领导', '力', 'compound']
+['PART', 'NOUN', 'nsubj']	['力', '特征', 'nsubj']
+['ADV', 'NOUN', 'mark']	['并', '特征', 'mark']
+['AUX', 'NOUN', 'cop']	['是', '特征', 'cop']
+['NOUN', 'PART', 'compound']	['企业', '界', 'compound']
+['PART', 'NOUN', 'nmod']	['界', '特征', 'nmod']
+['PART', 'PART', 'case']	['的', '界', 'case']
+['ADJ', 'NOUN', 'amod']	['普遍', '特征', 'amod']
+['NOUN', 'ROOT', 'root']	['特征', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['：', '特征', 'punct']
+----------------------------------------------------------------------
+2 月份，安永会计师事务所发现，在标普 1500 强公司董事会中，女性所占席位只有 16%，低于名为约翰、罗伯特、詹姆斯和威廉的男性所占席位。
+
+(ROOT (IP (NP (QP (CD 2)) (NP (NNB 月份))) (, ，) (NP (NNP 安永) (NN 会计) (SFN 师) (NN 事务) (SFN 所)) (VP (VV 发现) (, ，) (IP (PP (IN 在) (LCP (NP (NP (NP (NNP 标普)) (QP (CD 1500)) (NP (NN 强公司))) (NP (NN 董事) (SFN 会))) (IN 中))) (, ，) (NP (CP (IP (NP (NN 女性)) (VP (RB 所) (VP (VV 占))))) (NP (NN 席位))) (VP (VP (QP (ADVP (VV 只有)) (QP (CD 16%)))) (, ，) (VP (JJ 低) (PP (VV 于) (NP (CP (IP (NP (CP (CP (IP (NP (NN 名)) (VP (VC 为) (NP (NNP 约翰) (EC 、) (NNP 罗伯特) (EC 、) (NNP 詹姆斯) (CC 和) (NNP 威廉)))) (DEC 的))) (NP (NN 男性))) (VP (RB 所) (VP (VV 占))))) (NP (NN 席位)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP36358': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, ',': {}, 'NP30815': {'NNP': {}, 'NN': {}, 'SFN': {}, 'NN31506': {}, 'SFN67386': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}, 'NN': {}, 'SFN': {}, 'NN': {}, 'SFN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'NP': {'NNP': {}, 'NN': {}, 'SFN': {}, 'NN': {}, 'SFN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['NUM', 'NOUN', 'nummod']	['2', '月份', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['月份', '发现', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '月份', 'punct']
+['PROPN', 'PART', 'nmod']	['安永', '所', 'nmod']
+['NOUN', 'PART', 'compound']	['会计', '师', 'compound']
+['PART', 'PART', 'nmod']	['师', '所', 'nmod']
+['NOUN', 'PART', 'compound']	['事务', '所', 'compound']
+['PART', 'VERB', 'nsubj']	['所', '发现', 'nsubj']
+['VERB', 'ROOT', 'root']	['发现', 'NONE', 'root']
+['PUNCT', 'ADJ', 'punct']	['，', '低', 'punct']
+['ADP', 'PART', 'case']	['在', '会', 'case']
+['PROPN', 'PART', 'nmod']	['标普', '会', 'nmod']
+['NUM', 'PART', 'nmod']	['1500', '会', 'nmod']
+['NOUN', 'PART', 'nmod']	['强公司', '会', 'nmod']
+['NOUN', 'PART', 'compound']	['董事', '会', 'compound']
+['PART', 'ADJ', 'obl']	['会', '低', 'obl']
+['ADP', 'PART', 'case']	['中', '会', 'case']
+['PUNCT', 'PART', 'punct']	['，', '会', 'punct']
+['NOUN', 'VERB', 'nsubj']	['女性', '占', 'nsubj']
+['ADV', 'VERB', 'mark']	['所', '占', 'mark']
+['VERB', 'NOUN', 'amod']	['占', '席位', 'amod']
+['NOUN', 'VERB', 'nsubj']	['席位', '只有', 'nsubj']
+['VERB', 'ADJ', 'advcl']	['只有', '低', 'advcl']
+['NUM', 'VERB', 'obj']	['16%', '只有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '只有', 'punct']
+['ADJ', 'VERB', 'ccomp']	['低', '发现', 'ccomp']
+['VERB', 'ADJ', 'mark']	['于', '低', 'mark']
+['NOUN', 'PROPN', 'nsubj']	['名', '约翰', 'nsubj']
+['AUX', 'PROPN', 'cop']	['为', '约翰', 'cop']
+['PROPN', 'NOUN', 'nmod']	['约翰', '男性', 'nmod']
+['PUNCT', 'PROPN', 'punct']	['、', '罗伯特', 'punct']
+['PROPN', 'PROPN', 'conj']	['罗伯特', '约翰', 'conj']
+['PUNCT', 'PROPN', 'punct']	['、', '詹姆斯', 'punct']
+['PROPN', 'PROPN', 'conj']	['詹姆斯', '约翰', 'conj']
+['CCONJ', 'PROPN', 'cc']	['和', '威廉', 'cc']
+['PROPN', 'PROPN', 'conj']	['威廉', '约翰', 'conj']
+['PART', 'PROPN', 'case']	['的', '约翰', 'case']
+['NOUN', 'VERB', 'nsubj']	['男性', '占', 'nsubj']
+['ADV', 'VERB', 'mark']	['所', '占', 'mark']
+['VERB', 'ADJ', 'ccomp']	['占', '低', 'ccomp']
+['NOUN', 'VERB', 'obj']	['席位', '占', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '发现', 'punct']
+----------------------------------------------------------------------
+MSCI 调查的仅有 20.1% 的公司董事会至少有三名女性。
+
+(ROOT (IP (NP (CP (CP (IP (NP (FW MSCI)) (VP (VV 调查))) (DEC 的)))) (VP (ADVP (RB 仅)) (VP (VV 有) (IP (NP (DNP (QP (CD 20.1%)) (DEC 的)) (NP (NN 公司) (NN 董事) (SFN 会))) (VP (ADVP (RB 至少)) (VP (VV 有) (NP (QP (CD 三) (CLP (NNB 名))) (NP (NN 女性)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['X', 'VERB', 'nsubj']	['MSCI', '调查', 'nsubj']
+['VERB', 'VERB', 'csubj']	['调查', '有', 'csubj']
+['PART', 'VERB', 'mark:rel']	['的', '调查', 'mark:rel']
+['ADV', 'VERB', 'advmod']	['仅', '有', 'advmod']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['NUM', 'PART', 'nummod']	['20.1%', '会', 'nummod']
+['PART', 'NUM', 'mark:rel']	['的', '20.1%', 'mark:rel']
+['NOUN', 'PART', 'nmod']	['公司', '会', 'nmod']
+['NOUN', 'PART', 'compound']	['董事', '会', 'compound']
+['PART', 'VERB', 'nsubj']	['会', '有', 'nsubj']
+['ADV', 'VERB', 'advmod']	['至少', '有', 'advmod']
+['VERB', 'VERB', 'ccomp']	['有', '有', 'ccomp']
+['NUM', 'NOUN', 'nummod']	['三', '名', 'nummod']
+['NOUN', 'NOUN', 'clf']	['名', '女性', 'clf']
+['NOUN', 'VERB', 'obj']	['女性', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+2009 年 12 月至 2015 年 8 月，MSCI 发现，公司董事会性别均衡的公司平均回报率为 10.1%，而男性占主导地位的公司平均回报率为 7.4%。
+
+(ROOT (IP (NP (CD 2009) (CD 年 12) (NNB 月至) (CD 2015) (NNB 年 8) (NNB 月)) (, ，) (NP (FW MSCI)) (VP (VV 发现) (, ，) (IP (IP (NP (NP (NP (NN 公司) (NN 董事) (SFN 会)) (CP (CP (IP (NP (NN 性别)) (VP (JJ 均衡))) (DEC 的))) (NP (NN 公司))) (ADJP (JJ 平均)) (NP (VV 回报) (SFN 率))) (VP (VC 为) (QP (CD 10.1%)))) (, ，) (RB 而) (IP (NP (NP (CP (CP (IP (NP (NN 男性)) (VP (VV 占) (NP (ADJP (NN 主导)) (NP (NN 地位))))) (DEC 的))) (NP (NN 公司))) (ADJP (JJ 平均)) (NP (VV 回报) (SFN 率))) (VP (VC 为) (QP (CD 7.4%)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP3399': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'CD91913': {}, 'NNB': {}, 'CD53342': {}, 'NNB5833': {}, 'NNB23659': {}}, ',': {}, 'NP69589': {'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CD': {}, 'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}, 'NNB': {}}, ',': {}, 'NP': {'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}, 'NNB': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['NUM', 'NOUN', 'nummod']	['2009', '月至', 'nummod']
+['NUM', 'NOUN', 'nummod']	['年 12', '月至', 'nummod']
+['NOUN', 'NOUN', 'clf']	['月至', '月', 'clf']
+['NUM', 'NOUN', 'nummod']	['2015', '年 8', 'nummod']
+['NOUN', 'NOUN', 'nummod']	['年 8', '月', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['月', '发现', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '月', 'punct']
+['X', 'VERB', 'nsubj']	['MSCI', '发现', 'nsubj']
+['VERB', 'ROOT', 'root']	['发现', 'NONE', 'root']
+['PUNCT', 'NUM', 'punct']	['，', '10.1%', 'punct']
+['NOUN', 'NOUN', 'nmod']	['公司', '性别', 'nmod']
+['NOUN', 'PART', 'compound']	['董事', '会', 'compound']
+['PART', 'NOUN', 'nmod']	['会', '性别', 'nmod']
+['NOUN', 'ADJ', 'nsubj']	['性别', '均衡', 'nsubj']
+['ADJ', 'PART', 'acl:relcl']	['均衡', '率', 'acl:relcl']
+['PART', 'ADJ', 'mark:rel']	['的', '均衡', 'mark:rel']
+['NOUN', 'PART', 'nmod']	['公司', '率', 'nmod']
+['ADJ', 'PART', 'amod']	['平均', '率', 'amod']
+['VERB', 'PART', 'compound']	['回报', '率', 'compound']
+['PART', 'NUM', 'nsubj']	['率', '10.1%', 'nsubj']
+['AUX', 'NUM', 'cop']	['为', '10.1%', 'cop']
+['NUM', 'VERB', 'parataxis']	['10.1%', '发现', 'parataxis']
+['PUNCT', 'NUM', 'punct']	['，', '7.4%', 'punct']
+['ADV', 'NUM', 'mark']	['而', '7.4%', 'mark']
+['NOUN', 'VERB', 'nsubj']	['男性', '占', 'nsubj']
+['VERB', 'PART', 'acl:relcl']	['占', '率', 'acl:relcl']
+['NOUN', 'NOUN', 'nmod']	['主导', '地位', 'nmod']
+['NOUN', 'VERB', 'obj']	['地位', '占', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '占', 'mark:rel']
+['NOUN', 'PART', 'nmod']	['公司', '率', 'nmod']
+['ADJ', 'PART', 'amod']	['平均', '率', 'amod']
+['VERB', 'PART', 'compound']	['回报', '率', 'compound']
+['PART', 'NUM', 'nsubj']	['率', '7.4%', 'nsubj']
+['AUX', 'NUM', 'cop']	['为', '7.4%', 'cop']
+['NUM', 'NUM', 'parataxis']	['7.4%', '10.1%', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '发现', 'punct']
+----------------------------------------------------------------------
+这项研究并没有证明强有力的女性领导力会导致更好的财务回报——一个拥有更多女性的董事会可能是一家努力工作并拥抱进步变革的公司的一个症状，这种情况会以自己的方式影响回报。
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 研究))) (VP (ADVP (RB 并)) (VP (VV 没有) (VP (VV 证明) (IP (NP (CP (CP (IP (VP (VCD (PFA 强) (JJ 有力)))) (DEC 的))) (NP (NN 女性) (VV 领导) (SFN 力))) (VP (MD 会) (VP (VV 导致) (NP (CP (CP (IP (VP (JJ 更好))) (DEC 的))) (NP (NN 财务) (NN 回报))))))))) (HYPH —)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, 'HYPH': {}}}
+{'IP': {'NP': {}, 'VP': {}, 'HYPH': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, 'HYPH': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, 'HYPH': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这', '项', 'det']
+['NOUN', 'NOUN', 'clf']	['项', '研究', 'clf']
+['NOUN', 'VERB', 'nsubj']	['研究', '有', 'nsubj']
+['ADV', 'VERB', 'mark']	['并', '有', 'mark']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['证明', '有', 'xcomp']
+['PART', 'ADJ', 'case']	['强', '有力', 'case']
+['ADJ', 'PART', 'amod']	['有力', '力', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '有力', 'mark:rel']
+['NOUN', 'PART', 'nmod']	['女性', '力', 'nmod']
+['VERB', 'PART', 'compound']	['领导', '力', 'compound']
+['PART', 'VERB', 'nsubj']	['力', '导致', 'nsubj']
+['AUX', 'VERB', 'aux']	['会', '导致', 'aux']
+['VERB', 'VERB', 'ccomp']	['导致', '证明', 'ccomp']
+['ADJ', 'NOUN', 'amod']	['更好', '回报', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '更好', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['财务', '回报', 'nmod']
+['NOUN', 'VERB', 'obj']	['回报', '导致', 'obj']
+['PUNCT', 'VERB', 'punct']	['—', '导致', 'punct']
+----------------------------------------------------------------------
+“不过”，这项研究指出，“管理学和社会心理学的学术研究长期以来已经表明，组成更加多元化的团队往往更具创新性，并能做出更好的决策。”
+
+(ROOT (IP (NP (`` “) (RB 不过) ('' ”)) (, ，) (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 研究))) (VP (VV 指出) (, ，) (IP (`` “) (IP (NP (DNP (NP (NN 管理) (SFN 学) (CC 和) (NN 社会) (NN 心理) (SFN 学)) (DEC 的)) (NP (NN 学术) (NN 研究))) (VP (LCP (NP (NN 长期)) (IN 以来)) (ADVP (RB 已经)) (VP (VV 表明)))) (, ，) (IP (IP (VP (VV 组成) (NP (CP (CP (IP (VP (ADVP (RB 更加)) (VP (JJ 多元) (SFV 化)))) (DEC 的))) (NP (NN 团队))))) (VP (ADVP (RB 往往)) (VP (VV 更具) (NP (JJ 创新) (SFN 性))))) (, ，) (IP (VP (ADVP (RB 并)) (VP (MD 能) (VP (VV 做出) (NP (CP (CP (IP (VP (JJ 更好))) (DEC 的))) (NP (NN 决策))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP26997': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'``': {}, 'RB': {}, "''": {}}, ',': {}, 'NP85246': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'``': {}, 'RB': {}, "''": {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'``': {}, 'RB': {}, "''": {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['PUNCT', 'ADV', 'punct']	['“', '不过', 'punct']
+['ADV', 'VERB', 'mark']	['不过', '指出', 'mark']
+['PUNCT', 'ADV', 'punct']	['”', '不过', 'punct']
+['PUNCT', 'ADV', 'punct']	['，', '不过', 'punct']
+['DET', 'NOUN', 'det']	['这', '项', 'det']
+['NOUN', 'NOUN', 'clf']	['项', '研究', 'clf']
+['NOUN', 'VERB', 'nsubj']	['研究', '指出', 'nsubj']
+['VERB', 'ROOT', 'root']	['指出', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '表明', 'punct']
+['PUNCT', 'PART', 'punct']	['“', '学', 'punct']
+['NOUN', 'PART', 'compound']	['管理', '学', 'compound']
+['PART', 'NOUN', 'nmod']	['学', '研究', 'nmod']
+['CCONJ', 'PART', 'cc']	['和', '学', 'cc']
+['NOUN', 'PART', 'nmod']	['社会', '学', 'nmod']
+['NOUN', 'PART', 'compound']	['心理', '学', 'compound']
+['PART', 'PART', 'conj']	['学', '学', 'conj']
+['PART', 'PART', 'case']	['的', '学', 'case']
+['NOUN', 'NOUN', 'nmod']	['学术', '研究', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['研究', '表明', 'nsubj']
+['NOUN', 'VERB', 'obl']	['长期', '表明', 'obl']
+['ADP', 'NOUN', 'case']	['以来', '长期', 'case']
+['ADV', 'VERB', 'advmod']	['已经', '表明', 'advmod']
+['VERB', 'VERB', 'advcl']	['表明', '做出', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '表明', 'punct']
+['VERB', 'NOUN', 'acl:relcl']	['组成', '团队', 'acl:relcl']
+['ADV', 'ADJ', 'advmod']	['更加', '多元', 'advmod']
+['ADJ', 'PART', 'compound']	['多元', '化', 'compound']
+['PART', 'VERB', 'xcomp']	['化', '组成', 'xcomp']
+['PART', 'VERB', 'mark:rel']	['的', '组成', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['团队', '更具', 'nsubj']
+['ADV', 'VERB', 'advmod']	['往往', '更具', 'advmod']
+['VERB', 'VERB', 'advcl']	['更具', '做出', 'advcl']
+['ADJ', 'PART', 'compound']	['创新', '性', 'compound']
+['PART', 'VERB', 'obj']	['性', '更具', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '更具', 'punct']
+['ADV', 'VERB', 'mark']	['并', '做出', 'mark']
+['AUX', 'VERB', 'aux']	['能', '做出', 'aux']
+['VERB', 'VERB', 'ccomp']	['做出', '指出', 'ccomp']
+['ADJ', 'NOUN', 'amod']	['更好', '决策', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '更好', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['决策', '做出', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '做出', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '做出', 'punct']
+----------------------------------------------------------------------
+MSCI 还发现，性别多样化程度较低的公司更有可能遭遇贿赂、腐败和欺诈等“治理相关争议”的困扰。
+
+(ROOT (IP (NP (FW MSCI)) (VP (ADVP (RB 还)) (VP (VV 发现) (, ，) (IP (NP (CP (CP (IP (NP (NN 性别)) (VP (JJ 多样) (SFV 化) (NN 程度)) (VP (JJ 较低))) (DEC 的))) (NP (NN 公司))) (VP (VP (VV 更有) (NP (MD 可能))) (VP (VV 遭遇) (NP (DNP (NP (NP (NN 贿赂) (EC 、) (NN 腐败) (CC 和) (NN 欺诈) (NN 等)) (NP (`` “) (NP (NN 治理)) (ADJP (JJ 相关)) (NP (NN 争议)) ('' ”))) (DEC 的)) (NP (NN 困扰)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'FW': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'FW': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['X', 'VERB', 'nsubj']	['MSCI', '发现', 'nsubj']
+['ADV', 'VERB', 'mark']	['还', '发现', 'mark']
+['VERB', 'ROOT', 'root']	['发现', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '更有', 'punct']
+['NOUN', 'NOUN', 'nmod']	['性别', '程度', 'nmod']
+['ADJ', 'PART', 'compound']	['多样', '化', 'compound']
+['PART', 'NOUN', 'nmod']	['化', '程度', 'nmod']
+['NOUN', 'ADJ', 'nsubj']	['程度', '较低', 'nsubj']
+['ADJ', 'NOUN', 'acl:relcl']	['较低', '公司', 'acl:relcl']
+['PART', 'ADJ', 'mark:rel']	['的', '较低', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['公司', '更有', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['更有', '发现', 'ccomp']
+['AUX', 'VERB', 'aux']	['可能', '遭遇', 'aux']
+['VERB', 'VERB', 'xcomp']	['遭遇', '更有', 'xcomp']
+['NOUN', 'VERB', 'obj']	['贿赂', '遭遇', 'obj']
+['PUNCT', 'NOUN', 'punct']	['、', '腐败', 'punct']
+['NOUN', 'NOUN', 'conj']	['腐败', '贿赂', 'conj']
+['CCONJ', 'NOUN', 'cc']	['和', '欺诈', 'cc']
+['NOUN', 'NOUN', 'conj']	['欺诈', '贿赂', 'conj']
+['NOUN', 'NOUN', 'acl']	['等', '贿赂', 'acl']
+['PUNCT', 'NOUN', 'punct']	['“', '争议', 'punct']
+['NOUN', 'NOUN', 'nmod']	['治理', '争议', 'nmod']
+['ADJ', 'NOUN', 'amod']	['相关', '争议', 'amod']
+['NOUN', 'NOUN', 'appos']	['争议', '贿赂', 'appos']
+['PUNCT', 'NOUN', 'punct']	['”', '争议', 'punct']
+['PART', 'VERB', 'mark:rel']	['的', '遭遇', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['困扰', '更有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '发现', 'punct']
+----------------------------------------------------------------------
+尽管有越来越多的证据表明，公司花费额外的努力来实现董事会多样化，可以获得很大的收益，但这一信息却迟迟没有被接受。
+
+(ROOT (IP (VP (ADVP (IN 尽管)) (VP (VV 有) (IP (NP (CP (CP (IP (VP (ADVP (RB 越来越)) (VP (JJ 多)))) (DEC 的))) (NP (NN 证据))) (VP (VV 表明) (, ，) (IP (IP (NP (NN 公司)) (VP (VP (VP (VV 花费) (NP (DNP (ADJP (JJ 额外)) (DEC 的)) (NP (NN 努力)))) (VP (RB 来) (VP (VV 实现) (IP (NP (NN 董事) (SFN 会)) (VP (ADVP (JJ 多样)) (VP (SFV 化))))))) (, ，) (VP (MD 可以) (VP (VV 获得) (NP (CP (CP (IP (VP (JJ 很大))) (DEC 的))) (NP (NN 收益))))))) (, ，) (IP (ADVP (RB 但)) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 信息))) (VP (ADVP (RB 却)) (ADVP (RB 迟迟)) (VP (VV 没有) (VP (BB 被) (VP (VV 接受))))))))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['尽管', '有', 'case']
+['VERB', 'VERB', 'xcomp']	['有', '获得', 'xcomp']
+['ADV', 'ADJ', 'advmod']	['越来越', '多', 'advmod']
+['ADJ', 'NOUN', 'amod']	['多', '证据', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '多', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['证据', '表明', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['表明', '有', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['NOUN', 'VERB', 'nsubj']	['公司', '实现', 'nsubj']
+['VERB', 'VERB', 'advcl']	['花费', '实现', 'advcl']
+['ADJ', 'NOUN', 'amod']	['额外', '努力', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '额外', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['努力', '花费', 'obj']
+['ADV', 'VERB', 'mark']	['来', '实现', 'mark']
+['VERB', 'VERB', 'advcl']	['实现', '获得', 'advcl']
+['NOUN', 'PART', 'compound']	['董事', '会', 'compound']
+['PART', 'PART', 'nsubj']	['会', '化', 'nsubj']
+['ADJ', 'PART', 'compound']	['多样', '化', 'compound']
+['PART', 'VERB', 'ccomp']	['化', '实现', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '实现', 'punct']
+['AUX', 'VERB', 'aux']	['可以', '获得', 'aux']
+['VERB', 'ROOT', 'root']	['获得', 'NONE', 'root']
+['ADJ', 'NOUN', 'amod']	['很大', '收益', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '很大', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['收益', '获得', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['ADV', 'VERB', 'mark']	['但', '有', 'mark']
+['DET', 'NOUN', 'det']	['这', '信息', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '信息', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['信息', '有', 'nsubj']
+['ADV', 'VERB', 'mark']	['却', '有', 'mark']
+['ADV', 'VERB', 'advmod']	['迟迟', '有', 'advmod']
+['VERB', 'VERB', 'parataxis']	['有', '获得', 'parataxis']
+['AUX', 'VERB', 'aux:pass']	['被', '接受', 'aux:pass']
+['VERB', 'VERB', 'xcomp']	['接受', '有', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '获得', 'punct']
+----------------------------------------------------------------------
+据《财富》杂志去年报道，过去十年，《财富》500强企业中女性董事比例仅上升了3.3%。
+
+(ROOT (IP (PP (IN 据) (IP (NP (NP (-LRB- 《) (NN 财富) (-RRB- 》)) (NP (NN 杂志))) (VP (NP (NN 去年)) (VP (VV 报道))))) (, ，) (QP (NP (NN 过去)) (QP (CD 十) (CLP (NNB 年)))) (, ，) (LCP (NP (NP (-LRB- 《) (NN 财富) (-RRB- 》)) (QP (CD 500)) (NP (NN 强)) (NP (NN 企业))) (IN 中)) (NP (NN 女性) (NN 董事) (NN 比例)) (VP (ADVP (RB 仅)) (VP (VV 上升) (AS 了) (QP (CD 3.3%)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'QP': {}, ',95588': {}, 'LCP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'QP': {}, ',': {}, 'LCP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'QP': {'NP': {}, 'QP': {}}, ',18518': {}, 'LCP': {'NP': {}, 'IN': {}}, 'NP': {'NN': {}, 'NN34112': {}, 'NN14578': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'QP': {'NP': {}, 'QP': {}}, ',': {}, 'LCP': {'NP': {}, 'IN': {}}, 'NP': {'NN': {}, 'NN': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'QP': {'NP': {}, 'QP': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'NN': {}, 'NN': {}, 'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['据', '报道', 'case']
+['PUNCT', 'NOUN', 'punct']	['《', '财富', 'punct']
+['NOUN', 'VERB', 'nsubj']	['财富', '报道', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['》', '财富', 'punct']
+['NOUN', 'NOUN', 'appos']	['杂志', '财富', 'appos']
+['NOUN', 'VERB', 'nmod:tmod']	['去年', '报道', 'nmod:tmod']
+['VERB', 'VERB', 'ccomp']	['报道', '上升', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '报道', 'punct']
+['NOUN', 'NOUN', 'nmod']	['过去', '年', 'nmod']
+['NUM', 'NOUN', 'nummod']	['十', '年', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['年', '上升', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '年', 'punct']
+['PUNCT', 'NOUN', 'punct']	['《', '财富', 'punct']
+['NOUN', 'NOUN', 'nmod']	['财富', '企业', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['》', '财富', 'punct']
+['NUM', 'NOUN', 'nummod']	['500', '强', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['强', '企业', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['企业', '比例', 'nmod']
+['ADP', 'NOUN', 'case']	['中', '企业', 'case']
+['NOUN', 'NOUN', 'nmod']	['女性', '比例', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['董事', '比例', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['比例', '上升', 'nsubj']
+['ADV', 'VERB', 'advmod']	['仅', '上升', 'advmod']
+['VERB', 'ROOT', 'root']	['上升', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '上升', 'aux']
+['NUM', 'VERB', 'obj']	['3.3%', '上升', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '上升', 'punct']
+----------------------------------------------------------------------
+这种企业心理阻滞可能与消息传递有关。
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 企业) (NN 心理) (NN 阻滞))) (VP (MD 可能) (VP (PP (IN 与) (NP (NN 消息) (NN 传递))) (VP (JJ 有关)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '阻滞', 'clf']
+['NOUN', 'NOUN', 'nmod']	['企业', '阻滞', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['心理', '阻滞', 'nmod']
+['NOUN', 'ADJ', 'nsubj']	['阻滞', '有关', 'nsubj']
+['AUX', 'ADJ', 'aux']	['可能', '有关', 'aux']
+['ADP', 'NOUN', 'case']	['与', '传递', 'case']
+['NOUN', 'NOUN', 'nmod']	['消息', '传递', 'nmod']
+['NOUN', 'ADJ', 'nmod']	['传递', '有关', 'nmod']
+['ADJ', 'ROOT', 'root']	['有关', 'NONE', 'root']
+['PUNCT', 'ADJ', 'punct']	['。', '有关', 'punct']
+----------------------------------------------------------------------
+今天，《纽约时报》介绍了 TSG Consumer Partners 的案例研究，这是一家私募股权公司，2004 年只有一名女性投资者。
+
+(ROOT (IP (IP (NP (NN 今天)) (, ，) (NP (-LRB- 《) (NNP 纽约) (NN 时报) (-RRB- 》)) (VP (VV 介绍) (AS 了) (NP (DNP (NP (FW TSG) (FW Consumer) (FW Partners)) (DEC 的)) (NP (NN 案例) (NN 研究))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 家))) (NP (NN 私募) (NN 股权) (NN 公司))))) (, ，) (IP (VP (NP (CD 2004) (NNB 年)) (VP (VV 只有) (NP (QP (CD 一) (CLP (NNB 名))) (NP (NN 女性) (VV 投资) (SFN 者)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP28542': {}, ',16698': {}, 'IP69832': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP92459': {}, 'VP': {}}, ',': {}, 'IP85870': {'NP': {}, 'VP': {}}, ',7111': {}, 'IP32023': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nmod:tmod']	['今天', '介绍', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '今天', 'punct']
+['PUNCT', 'NOUN', 'punct']	['《', '时报', 'punct']
+['PROPN', 'NOUN', 'nmod']	['纽约', '时报', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['时报', '介绍', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['》', '时报', 'punct']
+['VERB', 'ROOT', 'root']	['介绍', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '介绍', 'aux']
+['DET', 'NOUN', 'det']	['TSG', '研究', 'det']
+['DET', 'DET', 'flat:foreign']	['Consumer', 'TSG', 'flat:foreign']
+['DET', 'DET', 'flat:foreign']	['Partners', 'TSG', 'flat:foreign']
+['PART', 'DET', 'case']	['的', 'TSG', 'case']
+['NOUN', 'NOUN', 'nmod']	['案例', '研究', 'nmod']
+['NOUN', 'VERB', 'obj']	['研究', '介绍', 'obj']
+['PUNCT', 'NOUN', 'punct']	['，', '公司', 'punct']
+['PRON', 'NOUN', 'nsubj']	['这', '公司', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '公司', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '家', 'nummod']
+['NOUN', 'NOUN', 'clf']	['家', '公司', 'clf']
+['NOUN', 'NOUN', 'nmod']	['私募', '公司', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['股权', '公司', 'nmod']
+['NOUN', 'VERB', 'parataxis']	['公司', '介绍', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['，', '只有', 'punct']
+['NUM', 'NOUN', 'nummod']	['2004', '年', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['年', '只有', 'nmod:tmod']
+['VERB', 'VERB', 'parataxis']	['只有', '介绍', 'parataxis']
+['NUM', 'NOUN', 'nummod']	['一', '名', 'nummod']
+['NOUN', 'PART', 'nmod']	['名', '者', 'nmod']
+['NOUN', 'PART', 'nmod']	['女性', '者', 'nmod']
+['VERB', 'PART', 'compound']	['投资', '者', 'compound']
+['PART', 'VERB', 'obj']	['者', '只有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '介绍', 'punct']
+----------------------------------------------------------------------
+如今，公司员工的一半以上是女性，远远高于北美私募股权公司的平均水平，北美私募股权公司的女性员工只占 13.7%。
+
+(ROOT (IP (IP (NP (NN 如今)) (, ，) (LCP (QP (DNP (NP (NN 公司) (NN 员工)) (DEC 的)) (QP (CD 一半))) (IN 以上)) (VP (VP (VC 是) (NP (NN 女性))) (, ，) (VP (ADVP (RB 远远)) (VP (JJ 高) (PP (VV 于) (NP (DNP (NP (NP (NN 北) (NNP 美)) (NP (NN 私募) (NN 股权) (NN 公司))) (DEC 的)) (ADJP (JJ 平均)) (NP (NN 水平)))))))) (, ，) (IP (NP (DNP (NP (NP (NN 北) (NNP 美)) (NP (NN 私募) (NN 股权) (NN 公司))) (DEC 的)) (NP (NN 女性) (NN 员工))) (VP (ADVP (RB 只)) (VP (VV 占) (QP (CD 13.7%))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP17157': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'LCP': {}, 'VP': {}}, ',': {}, 'IP74533': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'LCP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'LCP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod:tmod']	['如今', '女性', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '如今', 'punct']
+['NOUN', 'NOUN', 'nmod']	['公司', '员工', 'nmod']
+['NOUN', 'NUM', 'nmod']	['员工', '一半', 'nmod']
+['PART', 'NOUN', 'case']	['的', '员工', 'case']
+['NUM', 'NOUN', 'nummod']	['一半', '女性', 'nummod']
+['ADP', 'NUM', 'case']	['以上', '一半', 'case']
+['AUX', 'NOUN', 'cop']	['是', '女性', 'cop']
+['NOUN', 'VERB', 'advcl']	['女性', '占', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['，', '女性', 'punct']
+['ADV', 'ADJ', 'advmod']	['远远', '高', 'advmod']
+['ADJ', 'NOUN', 'acl:relcl']	['高', '水平', 'acl:relcl']
+['VERB', 'ADJ', 'mark']	['于', '高', 'mark']
+['NOUN', 'NOUN', 'nmod']	['北', '公司', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['美', '公司', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['私募', '公司', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['股权', '公司', 'nmod']
+['NOUN', 'ADJ', 'obj']	['公司', '高', 'obj']
+['PART', 'ADJ', 'mark:rel']	['的', '高', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['平均', '水平', 'amod']
+['NOUN', 'VERB', 'nsubj']	['水平', '占', 'nsubj']
+['PUNCT', 'VERB', 'punct']	['，', '占', 'punct']
+['NOUN', 'NOUN', 'nmod']	['北', '公司', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['美', '公司', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['私募', '公司', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['股权', '公司', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['公司', '员工', 'nmod']
+['PART', 'NOUN', 'case']	['的', '公司', 'case']
+['NOUN', 'NOUN', 'nmod']	['女性', '员工', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['员工', '占', 'nsubj']
+['ADV', 'VERB', 'advmod']	['只', '占', 'advmod']
+['VERB', 'ROOT', 'root']	['占', 'NONE', 'root']
+['NUM', 'VERB', 'obj']	['13.7%', '占', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '占', 'punct']
+----------------------------------------------------------------------
+Leslie Picker 写道：对于公司的联合创始人兼首席执行官查克·埃斯瑟曼 (Chuck Esserman) 和公司总裁杰米·奥赫拉 (Jamie O’Hara) 来说，追求性别均衡不仅是一种符合政治正确的做法，也是一种竞争优势。
+
+(ROOT (IP (NP (FW Leslie) (FW Picker)) (VP (VV 写道) (: ：) (IP (IP (VP (PP (IN 对于) (NP (NP (NP (DNP (NP (NN 公司)) (DEC 的)) (ADJP (NN 联合)) (NP (VV 创始) (SFN 人) (CC 兼) (NN 首席) (VV 执行) (SFN 官))) (NP (NNP 查克) (/ ·) (NNP 埃斯瑟曼) (FW -LRB-Chuck) (FW Esserman-RRB-))) (CC 和) (NP (NP (NN 公司) (NN 总裁)) (NP (NNP 杰) (NNP 米) (/ ·) (NNP 奥赫拉) (FW -LRB-Jamie) (FW O’) (FW Hara-RRB-))))) (VP (VV 来说)))) (, ，) (IP (VP (VV 追求) (NP (NN 性别) (JJ 均衡)))) (VP (RB 不仅) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (CP (CP (IP (VP (VV 符合) (IP (NP (NN 政治)) (VP (JJ 正确))))) (DEC 的))) (NP (NN 做法)))) (, ，) (VP (VC 也是) (NP (QP (CD 一) (CLP (NNB 种))) (NP (NN 竞争) (NN 优势))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'FW': {}, 'FW23692': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'FW': {}, 'FW': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}}}
+{'NP': {'FW': {}, 'FW': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+['X', 'VERB', 'nsubj']	['Leslie', '写道', 'nsubj']
+['X', 'X', 'flat:foreign']	['Picker', 'Leslie', 'flat:foreign']
+['VERB', 'ROOT', 'root']	['写道', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['：', '优势', 'punct']
+['ADP', 'PART', 'case']	['对于', '人', 'case']
+['NOUN', 'PART', 'nmod']	['公司', '人', 'nmod']
+['PART', 'NOUN', 'case']	['的', '公司', 'case']
+['NOUN', 'PART', 'nmod']	['联合', '人', 'nmod']
+['VERB', 'PART', 'compound']	['创始', '人', 'compound']
+['PART', 'VERB', 'obl']	['人', '来说', 'obl']
+['CCONJ', 'PART', 'cc']	['兼', '官', 'cc']
+['NOUN', 'PART', 'nmod']	['首席', '官', 'nmod']
+['VERB', 'PART', 'compound']	['执行', '官', 'compound']
+['PART', 'PART', 'conj']	['官', '人', 'conj']
+['PROPN', 'X', 'nmod']	['查克', '(Chuck', 'nmod']
+['PUNCT', 'PROPN', 'punct']	['·', '埃斯瑟曼', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['埃斯瑟曼', '查克', 'flat:name']
+['X', 'PART', 'appos']	['(Chuck', '人', 'appos']
+['X', 'X', 'flat:foreign']	['Esserman)', '(Chuck', 'flat:foreign']
+['CCONJ', 'NOUN', 'cc']	['和', '总裁', 'cc']
+['NOUN', 'NOUN', 'nmod']	['公司', '总裁', 'nmod']
+['NOUN', 'X', 'conj']	['总裁', '(Chuck', 'conj']
+['PROPN', 'NOUN', 'appos']	['杰', '总裁', 'appos']
+['PROPN', 'PROPN', 'flat:name']	['米', '杰', 'flat:name']
+['PUNCT', 'PROPN', 'punct']	['·', '奥赫拉', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['奥赫拉', '米', 'flat:name']
+['X', 'PROPN', 'appos']	['(Jamie', '杰', 'appos']
+['X', 'X', 'flat:foreign']	['O’', '(Jamie', 'flat:foreign']
+['X', 'X', 'flat:foreign']	['Hara)', 'O’', 'flat:foreign']
+['VERB', 'VERB', 'csubj']	['来说', '追求', 'csubj']
+['PUNCT', 'VERB', 'punct']	['，', '来说', 'punct']
+['VERB', 'NOUN', 'csubj']	['追求', '优势', 'csubj']
+['NOUN', 'ADJ', 'nsubj']	['性别', '均衡', 'nsubj']
+['ADJ', 'VERB', 'ccomp']	['均衡', '追求', 'ccomp']
+['ADV', 'NOUN', 'advmod']	['不仅', '做法', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '做法', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '种', 'nummod']
+['NOUN', 'NOUN', 'clf']	['种', '做法', 'clf']
+['VERB', 'NOUN', 'acl:relcl']	['符合', '做法', 'acl:relcl']
+['NOUN', 'ADJ', 'nsubj']	['政治', '正确', 'nsubj']
+['ADJ', 'VERB', 'ccomp']	['正确', '符合', 'ccomp']
+['PART', 'VERB', 'mark:rel']	['的', '符合', 'mark:rel']
+['NOUN', 'NOUN', 'acl']	['做法', '优势', 'acl']
+['PUNCT', 'VERB', 'punct']	['，', '追求', 'punct']
+['AUX', 'NOUN', 'cop']	['是', '优势', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '种', 'nummod']
+['NOUN', 'NOUN', 'clf']	['种', '优势', 'clf']
+['NOUN', 'NOUN', 'nmod']	['竞争', '优势', 'nmod']
+['NOUN', 'VERB', 'ccomp']	['优势', '写道', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '写道', 'punct']
+----------------------------------------------------------------------
+这家 28 岁的公司专门为生产消费品的公司提供服务，比如 Glaceau Vitaminwater 和 Pureology（生产洗发水和护发素）。
+
+(ROOT (IP (NP (DP (DT 这家)) (DNP (QP (CD 28) (CLP (NNB 岁))) (DEC 的)) (NP (NN 公司))) (VP (ADVP (RB 专门)) (PP (IN 为) (NP (CP (CP (IP (VP (VV 生产) (NP (VV 消费) (SFN 品)))) (DEC 的))) (NP (NN 公司)))) (VP (VV 提供) (NP (NP (NN 服务)) (, ，) (NP (ADVP (VV 比如)) (NP (FW Glaceau) (FW Vitaminwater) (CC 和) (FW Pureology) (PRN (-LRB- （) (VP (VV 生产) (NP (VV 洗) (NN 发水) (CC 和) (VV 护发) (SFN 素))) (-RRB- ）))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这家', '岁', 'det']
+['NUM', 'NOUN', 'nummod']	['28', '岁', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['岁', '公司', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '岁', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['公司', '提供', 'nsubj']
+['ADV', 'VERB', 'advmod']	['专门', '提供', 'advmod']
+['ADP', 'NOUN', 'case']	['为', '公司', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['生产', '公司', 'acl:relcl']
+['VERB', 'PART', 'compound']	['消费', '品', 'compound']
+['PART', 'VERB', 'obj']	['品', '生产', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '生产', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['公司', '提供', 'obl']
+['VERB', 'ROOT', 'root']	['提供', 'NONE', 'root']
+['NOUN', 'VERB', 'nsubj']	['服务', '比如', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '服务', 'punct']
+['VERB', 'VERB', 'ccomp']	['比如', '提供', 'ccomp']
+['X', 'VERB', 'obj']	['Glaceau', '比如', 'obj']
+['X', 'X', 'flat:foreign']	['Vitaminwater', 'Glaceau', 'flat:foreign']
+['CCONJ', 'X', 'cc']	['和', 'Pureology', 'cc']
+['X', 'X', 'conj']	['Pureology', 'Glaceau', 'conj']
+['PUNCT', 'VERB', 'punct']	['（', '生产', 'punct']
+['VERB', 'VERB', 'conj']	['生产', '比如', 'conj']
+['VERB', 'VERB', 'xcomp']	['洗', '生产', 'xcomp']
+['NOUN', 'VERB', 'obj']	['发水', '洗', 'obj']
+['CCONJ', 'PART', 'cc']	['和', '素', 'cc']
+['VERB', 'PART', 'compound']	['护发', '素', 'compound']
+['PART', 'NOUN', 'conj']	['素', '发水', 'conj']
+['PUNCT', 'VERB', 'punct']	['）', '生产', 'punct']
+['PUNCT', 'VERB', 'punct']	['。', '提供', 'punct']
+----------------------------------------------------------------------
+由于妇女在家庭中做出大部分购买决策，TSG希望她们能够参与到讨论中来。
+
+(ROOT (IP (PP (IN 由于) (IP (NP (NN 妇女)) (VP (PP (IN 在) (LCP (NP (NN 家庭)) (IN 中))) (VP (VV 做出) (NP (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (NN 购买) (NN 决策))))))) (, ，) (NP (FW TSG)) (VP (VV 希望) (IP (NP (PRP 她们)) (VP (MD 能够) (VP (VRD (VV 参与) (VV 到)) (NP (NN 讨论) (NN 中来)))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'FW': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'FW': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['由于', '做出', 'case']
+['NOUN', 'VERB', 'nsubj']	['妇女', '做出', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '家庭', 'case']
+['NOUN', 'VERB', 'obl']	['家庭', '做出', 'obl']
+['ADP', 'NOUN', 'case']	['中', '家庭', 'case']
+['VERB', 'VERB', 'ccomp']	['做出', '希望', 'ccomp']
+['PART', 'NOUN', 'case']	['大', '部分', 'case']
+['NOUN', 'NOUN', 'nmod']	['部分', '决策', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['购买', '决策', 'nmod']
+['NOUN', 'VERB', 'obj']	['决策', '做出', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '做出', 'punct']
+['X', 'VERB', 'nsubj']	['TSG', '希望', 'nsubj']
+['VERB', 'ROOT', 'root']	['希望', 'NONE', 'root']
+['PRON', 'VERB', 'nsubj']	['她', '参与', 'nsubj']
+['AUX', 'VERB', 'aux']	['能够', '参与', 'aux']
+['VERB', 'VERB', 'ccomp']	['参与', '希望', 'ccomp']
+['VERB', 'VERB', 'mark']	['到', '参与', 'mark']
+['NOUN', 'NOUN', 'nmod']	['讨论', '中来', 'nmod']
+['NOUN', 'VERB', 'obj']	['中来', '参与', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '希望', 'punct']
+----------------------------------------------------------------------
+文章最后一段，一家与 TSG 合作的公司的董事长称赞 TSG 努力将更多女性带入决策层。“这是他们进入市场的重要方法——他们能够与一个专注于化妆品、美容、时尚的管理团队交流，这些女性拥有巨大的洞察力。”
+
+(ROOT (IP (NP (NP (NN 文章)) (QP (ADJP (NN 最后)) (QP (CD 一) (CLP (NNB 段))))) (, ，) (NP (DNP (NP (QP (CD 一) (CLP (NNB 家))) (CP (CP (IP (VP (PP (IN 与) (NP (FW TSG))) (VP (VV 合作)))) (DEC 的))) (NP (NN 公司))) (DEC 的)) (NP (NN 董事) (SFN 长))) (VP (VV 称赞) (NP (FW TSG)) (IP (VP (ADVP (RB 努力)) (VP (BB 将) (IP (NP (ADJP (JJ 更多)) (NP (NN 女性))) (VP (VV 带入) (NP (VV 决策) (SFN 层)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP97437': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'QP': {}}, ',': {}, 'NP67431': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'QP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'QP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['文章', '段', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['最后', '段', 'nmod']
+['NUM', 'NOUN', 'nummod']	['一', '段', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['段', '称赞', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '段', 'punct']
+['NUM', 'NOUN', 'nummod']	['一', '家', 'nummod']
+['NOUN', 'PART', 'nmod']	['家', '长', 'nmod']
+['ADP', 'X', 'case']	['与', 'TSG', 'case']
+['X', 'VERB', 'obl']	['TSG', '合作', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['合作', '公司', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '合作', 'mark:rel']
+['NOUN', 'PART', 'nmod']	['公司', '长', 'nmod']
+['PART', 'NOUN', 'case']	['的', '公司', 'case']
+['NOUN', 'PART', 'compound']	['董事', '长', 'compound']
+['PART', 'VERB', 'nsubj']	['长', '称赞', 'nsubj']
+['VERB', 'ROOT', 'root']	['称赞', 'NONE', 'root']
+['X', 'VERB', 'nsubj']	['TSG', '带入', 'nsubj']
+['ADV', 'VERB', 'advmod']	['努力', '带入', 'advmod']
+['ADP', 'NOUN', 'case']	['将', '女性', 'case']
+['ADJ', 'NOUN', 'amod']	['更多', '女性', 'amod']
+['NOUN', 'VERB', 'obl:patient']	['女性', '带入', 'obl:patient']
+['VERB', 'VERB', 'ccomp']	['带入', '称赞', 'ccomp']
+['VERB', 'PART', 'compound']	['决策', '层', 'compound']
+['PART', 'VERB', 'iobj']	['层', '带入', 'iobj']
+['PUNCT', 'VERB', 'punct']	['。', '称赞', 'punct']
+----------------------------------------------------------------------
+令人失望的是，在 2015 年，企业仍然必须为增加女性担任领导职务的人数而辩解，只是强调女性专业知识的一个因素：她们的个人性别特征经验。
+
+(ROOT (IP (NP (CP (CP (IP (VP (VV 令) (NP (NN 人)) (IP (VP (JJ 失望))))) (DEC 的)))) (VP (VC 是) (, ，) (IP (IP (PP (IN 在) (NP (CD 2015) (NNB 年))) (, ，) (NP (NN 企业)) (VP (ADVP (RB 仍然)) (VP (MD 必须) (VP (PP (IN 为) (IP (VP (VV 增加) (NP (CP (CP (IP (NP (NN 女性)) (VP (VV 担任) (NP (NN 领导) (NN 职务)))) (DEC 的))) (NP (NN 人数)))))) (VP (RB 而) (VP (VV 辩解))))))) (, ，) (IP (VP (ADVP (RB 只)) (VP (VC 是) (NP (CP (CP (IP (VP (VV 强调) (NP (NN 女性) (NN 专业) (NN 知识)))) (DEC 的))) (QP (CD 一) (CLP (NNB 个))) (NP (NN 因素)))))))) (: ：)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, ':': {}}}
+{'IP': {'NP': {}, 'VP': {}, ':': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, ':': {}}}
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, ':': {}}}
+{'NP': {'CP': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'csubj']	['令', '是', 'csubj']
+['NOUN', 'ADJ', 'nsubj']	['人', '失望', 'nsubj']
+['ADJ', 'VERB', 'ccomp']	['失望', '令', 'ccomp']
+['PART', 'VERB', 'mark:rel']	['的', '令', 'mark:rel']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['，', '因素', 'punct']
+['ADP', 'NOUN', 'case']	['在', '年', 'case']
+['NUM', 'NOUN', 'nummod']	['2015', '年', 'nummod']
+['NOUN', 'VERB', 'obl']	['年', '辩解', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '年', 'punct']
+['NOUN', 'VERB', 'nsubj']	['企业', '辩解', 'nsubj']
+['ADV', 'VERB', 'advmod']	['仍然', '辩解', 'advmod']
+['AUX', 'VERB', 'aux']	['必须', '辩解', 'aux']
+['ADP', 'NOUN', 'case']	['为', '人数', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['增加', '人数', 'acl:relcl']
+['NOUN', 'VERB', 'nsubj']	['女性', '担任', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['担任', '增加', 'ccomp']
+['NOUN', 'NOUN', 'nmod']	['领导', '职务', 'nmod']
+['NOUN', 'VERB', 'obj']	['职务', '担任', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '增加', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['人数', '辩解', 'obl']
+['ADV', 'VERB', 'mark']	['而', '辩解', 'mark']
+['VERB', 'NOUN', 'acl']	['辩解', '因素', 'acl']
+['PUNCT', 'VERB', 'punct']	['，', '辩解', 'punct']
+['ADV', 'NOUN', 'advmod']	['只', '因素', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '因素', 'cop']
+['VERB', 'NOUN', 'acl:relcl']	['强调', '因素', 'acl:relcl']
+['NOUN', 'NOUN', 'nmod']	['女性', '知识', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['专业', '知识', 'nmod']
+['NOUN', 'VERB', 'obj']	['知识', '强调', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '强调', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '因素', 'clf']
+['NOUN', 'VERB', 'ccomp']	['因素', '是', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['：', '是', 'punct']
+----------------------------------------------------------------------
+如果企业推动性别多样性，他们更有可能推荐和任命那些有资格的女性，即那些在工作上非常出色，但可能会被排斥在常规人选之外的女性。
+
+(ROOT (IP (IP (CP (ADVP (IN 如果)) (IP (NP (NN 企业)) (VP (VV 推动) (NP (NN 性别) (JJ 多样) (SFN 性))))) (, ，) (NP (PRP 他们)) (VP (ADVP (RB 更)) (VP (VP (VV 有) (NP (MD 可能))) (VP (VP (VV 推荐)) (CC 和) (VP (VV 任命) (NP (DP (DT 那些)) (CP (CP (IP (VP (VV 有) (NP (NN 资格)))) (DEC 的))) (NP (NN 女性)))))))) (, ，) (IP (ADVP (VC 即)) (DP (DT 那些)) (VP (PP (IN 在) (LCP (NP (NN 工作)) (IN 上))) (ADVP (RB 非常)) (VP (JJ 出色)))) (, ，) (IP (ADVP (RB 但)) (NP (CP (CP (IP (VP (MD 可能) (VP (MD 会) (VP (BB 被) (VP (VV 排斥) (PP (VV 在) (LCP (NP (ADJP (NN 常规)) (NP (NN 人选))) (IN 之外)))))))) (DEC 的))) (NP (NN 女性)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP24819': {}, ',89312': {}, 'IP2202': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP93320': {'ADVP': {}, 'DP': {}, 'VP': {}}, ',37125': {}, 'IP98512': {'ADVP': {}, 'NP': {}}, '.': {}}}
+{'IP': {'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'DP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'DP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['如果', '推动', 'case']
+['NOUN', 'VERB', 'nsubj']	['企业', '推动', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['推动', '有', 'ccomp']
+['NOUN', 'PART', 'nmod']	['性别', '性', 'nmod']
+['ADJ', 'PART', 'compound']	['多样', '性', 'compound']
+['PART', 'VERB', 'obj']	['性', '推动', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '推动', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '有', 'nsubj']
+['ADV', 'VERB', 'advmod']	['更', '有', 'advmod']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['可能', '推荐', 'aux']
+['VERB', 'VERB', 'xcomp']	['推荐', '有', 'xcomp']
+['CCONJ', 'VERB', 'cc']	['和', '任命', 'cc']
+['VERB', 'VERB', 'conj']	['任命', '推荐', 'conj']
+['DET', 'NOUN', 'det']	['那些', '女性', 'det']
+['VERB', 'NOUN', 'acl:relcl']	['有', '女性', 'acl:relcl']
+['NOUN', 'VERB', 'obj']	['资格', '有', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '有', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['女性', '即', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '女性', 'punct']
+['VERB', 'VERB', 'ccomp']	['即', '有', 'ccomp']
+['DET', 'ADJ', 'nsubj']	['那些', '出色', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '工作', 'case']
+['NOUN', 'ADJ', 'nmod']	['工作', '出色', 'nmod']
+['ADP', 'NOUN', 'case']	['上', '工作', 'case']
+['ADV', 'ADJ', 'advmod']	['非常', '出色', 'advmod']
+['ADJ', 'VERB', 'xcomp']	['出色', '即', 'xcomp']
+['PUNCT', 'NOUN', 'punct']	['，', '女性', 'punct']
+['ADV', 'NOUN', 'mark']	['但', '女性', 'mark']
+['AUX', 'VERB', 'aux']	['可能', '排斥', 'aux']
+['AUX', 'VERB', 'aux']	['会', '排斥', 'aux']
+['AUX', 'VERB', 'aux:pass']	['被', '排斥', 'aux:pass']
+['VERB', 'NOUN', 'acl:relcl']	['排斥', '女性', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['在', '排斥', 'mark']
+['NOUN', 'NOUN', 'nmod']	['常规', '人选', 'nmod']
+['NOUN', 'VERB', 'obj']	['人选', '排斥', 'obj']
+['ADP', 'VERB', 'mark']	['之外', '排斥', 'mark']
+['PART', 'VERB', 'mark:rel']	['的', '排斥', 'mark:rel']
+['NOUN', 'VERB', 'parataxis']	['女性', '即', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '即', 'punct']
+----------------------------------------------------------------------
+委员会认为，公司董事会中有女性的公司会做出更好的决策，因为女性会从业务的各个方面出发，而不仅仅是因为她们使用公司销售的产品。
+
+(ROOT (IP (NP (NN 委员) (SFN 会)) (VP (VV 认为) (, ，) (IP (IP (LCP (NP (NN 公司) (NN 董事) (SFN 会)) (IN 中)) (VP (VV 有) (IP (NP (DNP (NP (NN 女性)) (DEC 的)) (NP (NN 公司))) (VP (MD 会) (VP (VV 做出) (NP (CP (CP (IP (VP (JJ 更好))) (DEC 的))) (NP (NN 决策)))))))) (, ，) (PP (IN 因为) (IP (NP (NN 女性)) (VP (VP (MD 会) (VP (PP (IN 从) (NP (DNP (NP (NN 业务)) (DEC 的)) (DP (DT 各个)) (NP (NN 方面)))) (VP (VV 出发)))) (, ，) (RB 而) (VP (ADVP (RB 不)) (ADVP (RB 仅仅)) (VP (VC 是) (PP (IN 因为) (IP (NP (PRP 她们)) (VP (VV 使用) (NP (CP (CP (IP (NP (NN 公司)) (VP (VV 销售))) (DEC 的))) (NP (NN 产品))))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'SFN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'SFN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'SFN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['NOUN', 'PART', 'compound']	['委员', '会', 'compound']
+['PART', 'VERB', 'nsubj']	['会', '为', 'nsubj']
+['VERB', 'ROOT', 'root']	['为', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['NOUN', 'PART', 'nmod']	['公司', '会', 'nmod']
+['NOUN', 'PART', 'compound']	['董事', '会', 'compound']
+['PART', 'NOUN', 'nmod']	['会', '公司', 'nmod']
+['ADP', 'PART', 'case']	['中', '会', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['有', '公司', 'acl:relcl']
+['NOUN', 'VERB', 'obj']	['女性', '有', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '有', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['公司', '做出', 'nsubj']
+['AUX', 'VERB', 'aux']	['会', '做出', 'aux']
+['VERB', 'VERB', 'advcl']	['做出', '是', 'advcl']
+['ADJ', 'NOUN', 'amod']	['更好', '决策', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '更好', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['决策', '做出', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '做出', 'punct']
+['ADP', 'VERB', 'case']	['因为', '出发', 'case']
+['NOUN', 'VERB', 'nsubj']	['女性', '出发', 'nsubj']
+['AUX', 'VERB', 'aux']	['会', '出发', 'aux']
+['ADP', 'NOUN', 'case']	['从', '方面', 'case']
+['NOUN', 'NOUN', 'nmod']	['业务', '方面', 'nmod']
+['PART', 'NOUN', 'case']	['的', '业务', 'case']
+['DET', 'NOUN', 'det']	['各个', '方面', 'det']
+['NOUN', 'VERB', 'obl']	['方面', '出发', 'obl']
+['VERB', 'VERB', 'advcl']	['出发', '是', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '出发', 'punct']
+['ADV', 'VERB', 'mark']	['而', '是', 'mark']
+['ADV', 'VERB', 'advmod']	['不', '是', 'advmod']
+['ADV', 'VERB', 'advmod']	['仅仅', '是', 'advmod']
+['VERB', 'VERB', 'ccomp']	['是', '为', 'ccomp']
+['ADP', 'VERB', 'xcomp']	['因为', '是', 'xcomp']
+['PRON', 'VERB', 'nsubj']	['她', '使用', 'nsubj']
+['VERB', 'ADP', 'ccomp']	['使用', '因为', 'ccomp']
+['NOUN', 'VERB', 'nsubj']	['公司', '销售', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['销售', '产品', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '销售', 'mark:rel']
+['NOUN', 'ADP', 'obj']	['产品', '因为', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '为', 'punct']
+----------------------------------------------------------------------

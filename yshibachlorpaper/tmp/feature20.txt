@@ -1,0 +1,767 @@
+周四上午，乘坐飞机的乘客在伦敦希斯罗机场的跑道上一定会好奇，究竟发生了什么问题。
+
+(ROOT (IP (IP (NP (NN 周四) (NN 上午)) (, ，) (NP (CP (CP (IP (VP (VV 乘坐) (NP (ADJP (VV 飞)) (NP (SFN 机))))) (DEC 的))) (NP (NN 乘客))) (VP (PP (VV 在) (LCP (NP (DNP (NP (NNP 伦敦) (NNP 希斯罗) (NN 机场)) (DEC 的)) (NP (NN 跑道))) (NN 上))) (ADVP (RB 一定)) (VP (MD 会) (VP (JJ 好奇))))) (, ，) (IP (VP (ADVP (RB 究竟)) (VP (VV 发生) (AS 了) (NP (DP (WP 什么)) (NP (NN 问题)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP65874': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP38522': {}, 'VP': {}}, ',': {}, 'IP47380': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['周四', '上午', 'nmod']
+['NOUN', 'ADJ', 'nmod:tmod']	['上午', '好奇', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '上午', 'punct']
+['VERB', 'NOUN', 'acl:relcl']	['乘坐', '乘客', 'acl:relcl']
+['VERB', 'PART', 'compound']	['飞', '机', 'compound']
+['PART', 'VERB', 'obj']	['机', '乘坐', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '乘坐', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['乘客', '跑道', 'nmod']
+['VERB', 'NOUN', 'acl:relcl']	['在', '跑道', 'acl:relcl']
+['PROPN', 'NOUN', 'nmod']	['伦敦', '机场', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['希斯罗', '机场', 'nmod']
+['NOUN', 'VERB', 'obj']	['机场', '在', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '在', 'mark:rel']
+['NOUN', 'ADJ', 'nmod']	['跑道', '好奇', 'nmod']
+['NOUN', 'NOUN', 'acl']	['上', '跑道', 'acl']
+['ADV', 'ADJ', 'advmod']	['一定', '好奇', 'advmod']
+['AUX', 'ADJ', 'aux']	['会', '好奇', 'aux']
+['ADJ', 'ROOT', 'root']	['好奇', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '发生', 'punct']
+['ADV', 'VERB', 'advmod']	['究竟', '发生', 'advmod']
+['VERB', 'ADJ', 'parataxis']	['发生', '好奇', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '发生', 'aux']
+['PRON', 'NOUN', 'det']	['什么', '问题', 'det']
+['NOUN', 'VERB', 'obj']	['问题', '发生', 'obj']
+['PUNCT', 'ADJ', 'punct']	['。', '好奇', 'punct']
+----------------------------------------------------------------------
+天空上的天空是干净的蓝色，但英国政府却关闭了整个领空，在五个机场停飞所有航班，扰乱了数十万旅客的行程，包括那些旅程起点在欧洲、北美以外地区，只经停希思罗机场（欧洲最繁忙的机场，也是一个每天处理 1200 多个航班和 18 万余名乘客的主要国际枢纽）的旅客。
+
+(ROOT (IP (IP (NP (DNP (LCP (NP (NN 天空)) (NN 上)) (DEC 的)) (NP (NN 天空))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 干净))) (DEC 的))) (NP (NN 蓝色))))) (, ，) (IP (ADVP (RB 但)) (NP (NP (NNP 英国)) (NP (NN 政府))) (VP (ADVP (RB 却)) (VP (VV 关闭) (AS 了) (NP (DP (DT 整个)) (NP (NN 领空)))))) (, ，) (IP (VP (VP (PP (VV 在) (NP (QP (CD 五) (CLP (NNB 个))) (NP (NN 机场)))) (VP (VV 停飞) (NP (DP (DT 所有)) (NP (NN 航班))))) (, ，) (VP (VV 扰乱) (AS 了) (NP (DNP (NP (QP (CD 数十万)) (NP (NN 旅客))) (DEC 的)) (NP (NN 行程)))))) (, ，) (IP (VP (VV 包括) (NP (NP (DP (DT 那些)) (NP (NN 旅程) (NN 起点))) (CP (CP (IP (VP (PP (VV 在) (NP (LCP (NP (NNP 欧洲) (EC 、) (NN 北) (NNP 美)) (IN 以外)) (NP (NN 地区)))) (, ，) (VP (ADVP (RB 只)) (VP (VV 经停) (NP (NNP 希思罗) (NN 机场)))) (PRN (-LRB- （) (NP (CP (CP (IP (VP (NP (NNP 欧洲)) (ADVP (RB 最)) (VP (JJ 繁忙)))) (DEC 的))) (NP (NN 机场))) (, ，) (VP (VC 也是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (NP (DT 每天)) (VP (VV 处理) (NP (NP (QP (CD 1200) (QP (CD 多) (CLP (NNB 个)))) (NP (NN 航班))) (CC 和) (NP (QP (QP (CD 18)) (QP (CD 万余) (CLP (NNB 名)))) (NP (NN 乘客))))))) (DEC 的))) (ADJP (JJ 主要)) (NP (NN 国际) (NN 枢纽)))) (-RRB- ）)))) (DEC 的))) (NP (NN 旅客))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP56893': {}, ',19044': {}, 'IP34019': {}, ',37649': {}, 'IP48594': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP65767': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',31514': {}, 'IP21450': {'VP': {}}, ',69646': {}, 'IP46319': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['天空', '天空', 'nmod']
+['NOUN', 'NOUN', 'acl']	['上', '天空', 'acl']
+['PART', 'NOUN', 'case']	['的', '天空', 'case']
+['NOUN', 'NOUN', 'nsubj']	['天空', '蓝色', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '蓝色', 'cop']
+['ADJ', 'NOUN', 'amod']	['干净', '蓝色', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '干净', 'mark:rel']
+['NOUN', 'ROOT', 'root']	['蓝色', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '关闭', 'punct']
+['ADV', 'VERB', 'mark']	['但', '关闭', 'mark']
+['PROPN', 'NOUN', 'nmod']	['英国', '政府', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['政府', '关闭', 'nsubj']
+['ADV', 'VERB', 'mark']	['却', '关闭', 'mark']
+['VERB', 'NOUN', 'parataxis']	['关闭', '蓝色', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '关闭', 'aux']
+['DET', 'NOUN', 'det']	['整个', '领空', 'det']
+['NOUN', 'VERB', 'obj']	['领空', '关闭', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '关闭', 'punct']
+['VERB', 'VERB', 'advcl']	['在', '停飞', 'advcl']
+['NUM', 'NOUN', 'nummod']	['五', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '机场', 'clf']
+['NOUN', 'VERB', 'obj']	['机场', '在', 'obj']
+['VERB', 'VERB', 'advcl']	['停飞', '扰乱', 'advcl']
+['DET', 'NOUN', 'det']	['所有', '航班', 'det']
+['NOUN', 'VERB', 'obj']	['航班', '停飞', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '停飞', 'punct']
+['VERB', 'NOUN', 'csubj']	['扰乱', '旅客', 'csubj']
+['AUX', 'VERB', 'aux']	['了', '扰乱', 'aux']
+['NUM', 'NOUN', 'nummod']	['数十万', '旅客', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['旅客', '行程', 'nmod']
+['PART', 'NOUN', 'case']	['的', '旅客', 'case']
+['NOUN', 'VERB', 'nsubj']	['行程', '包括', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '行程', 'punct']
+['VERB', 'NOUN', 'acl']	['包括', '旅客', 'acl']
+['DET', 'NOUN', 'det']	['那些', '起点', 'det']
+['NOUN', 'NOUN', 'nmod']	['旅程', '起点', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['起点', '在', 'nsubj']
+['VERB', 'VERB', 'advcl']	['在', '经停', 'advcl']
+['PROPN', 'VERB', 'obj']	['欧洲', '在', 'obj']
+['PUNCT', 'PROPN', 'punct']	['、', '美', 'punct']
+['NOUN', 'PROPN', 'nmod']	['北', '美', 'nmod']
+['PROPN', 'PROPN', 'conj']	['美', '欧洲', 'conj']
+['ADP', 'PROPN', 'case']	['以外', '欧洲', 'case']
+['NOUN', 'VERB', 'obj']	['地区', '在', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '包括', 'punct']
+['ADV', 'VERB', 'advmod']	['只', '经停', 'advmod']
+['VERB', 'NOUN', 'csubj']	['经停', '旅客', 'csubj']
+['PROPN', 'NOUN', 'nmod']	['希思罗', '机场', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['机场', '机场', 'nmod']
+['PUNCT', 'ADJ', 'punct']	['（', '繁忙', 'punct']
+['PROPN', 'ADJ', 'nsubj']	['欧洲', '繁忙', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['最', '繁忙', 'advmod']
+['ADJ', 'NOUN', 'appos']	['繁忙', '机场', 'appos']
+['PART', 'ADJ', 'mark:rel']	['的', '繁忙', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['机场', '经停', 'obj']
+['PUNCT', 'NOUN', 'punct']	['，', '机场', 'punct']
+['AUX', 'NOUN', 'cop']	['是', '旅客', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '旅客', 'clf']
+['DET', 'VERB', 'nmod:tmod']	['每天', '处理', 'nmod:tmod']
+['VERB', 'NOUN', 'acl:relcl']	['处理', '旅客', 'acl:relcl']
+['NUM', 'NOUN', 'nummod']	['1200', '个', 'nummod']
+['NUM', 'NOUN', 'nummod']	['多', '个', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['个', '航班', 'nmod']
+['NOUN', 'VERB', 'obj']	['航班', '处理', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '乘客', 'cc']
+['NUM', 'NOUN', 'nummod']	['18', '名', 'nummod']
+['NUM', 'NOUN', 'nummod']	['万余', '名', 'nummod']
+['NOUN', 'NOUN', 'clf']	['名', '乘客', 'clf']
+['NOUN', 'NOUN', 'conj']	['乘客', '航班', 'conj']
+['PART', 'VERB', 'mark:rel']	['的', '处理', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['主要', '枢纽', 'amod']
+['NOUN', 'NOUN', 'nmod']	['国际', '枢纽', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['枢纽', '旅客', 'nmod']
+['PUNCT', 'PART', 'punct']	['）', '的', 'punct']
+['PART', 'VERB', 'mark:rel']	['的', '处理', 'mark:rel']
+['NOUN', 'NOUN', 'parataxis']	['旅客', '蓝色', 'parataxis']
+['PUNCT', 'NOUN', 'punct']	['。', '蓝色', 'punct']
+----------------------------------------------------------------------
+西欧和斯堪的纳维亚大部分地区的机场也关闭。
+
+(ROOT (IP (NP (DNP (NP (NP (NNP 西欧) (CC 和) (NNP 斯堪) (DEC 的) (NNP 纳维亚)) (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (NN 地区))) (DEC 的)) (NP (NN 机场))) (VP (ADVP (RB 也)) (VP (VV 关闭))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['西欧', '地区', 'nmod']
+['CCONJ', 'PROPN', 'cc']	['和', '斯堪', 'cc']
+['PROPN', 'PROPN', 'conj']	['斯堪', '西欧', 'conj']
+['PART', 'PROPN', 'case']	['的', '西欧', 'case']
+['PROPN', 'NOUN', 'nmod']	['纳维亚', '地区', 'nmod']
+['PART', 'NOUN', 'case']	['大', '部分', 'case']
+['NOUN', 'NOUN', 'nmod']	['部分', '地区', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['地区', '机场', 'nmod']
+['PART', 'NOUN', 'case']	['的', '地区', 'case']
+['NOUN', 'VERB', 'nsubj']	['机场', '关闭', 'nsubj']
+['ADV', 'VERB', 'mark']	['也', '关闭', 'mark']
+['VERB', 'ROOT', 'root']	['关闭', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['。', '关闭', 'punct']
+----------------------------------------------------------------------
+“当时太阳正在升起，天空看起来正常，”纽约市的莱哈·希弗顿说，她从约翰·甘迺迪国际机场飞往希思罗机场的航班是在天空关闭前最后一架降落的航班。“从地面上看，你根本看不出什么问题。”
+
+(ROOT (IP (IP (`` “) (IP (NP (NN 当时)) (NP (NN 太阳)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 升起)))) (, ，) (IP (NP (NN 天空)) (VP (VP (VRD (VV 看) (VV 起来))) (VP (JJ 正常)))) (, ，) ('' ”)) (NP (DNP (NP (NNP 纽约) (SFN 市)) (DEC 的)) (NP (NNP 莱哈) (/ ·) (NNP 希弗顿))) (VP (VV 说) (, ，) (IP (NP (CP (CP (IP (NP (PRP 她)) (VP (PP (IN 从) (NP (NNP 约翰) (/ ·) (NNP 甘迺迪) (NN 国际) (NN 机场))) (VP (VV 飞往) (NP (NNP 希思罗) (NN 机场))))) (DEC 的))) (NP (NN 航班))) (VP (VC 是) (NP (PP (VV 在) (LCP (IP (NP (NN 天空)) (VP (VV 关闭))) (IN 前))) (QP (ADJP (NN 最后)) (QP (CD 一) (CLP (NNB 架)))) (CP (CP (IP (VP (VV 降落))) (DEC 的))) (NP (NN 航班)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'IP50028': {}, ',63287': {}, "''": {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, "''": {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, "''": {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['PUNCT', 'VERB', 'punct']	['“', '升起', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['当时', '升起', 'nmod:tmod']
+['NOUN', 'VERB', 'nsubj']	['太阳', '升起', 'nsubj']
+['ADV', 'VERB', 'advmod']	['正', '升起', 'advmod']
+['ADV', 'VERB', 'advmod']	['在', '升起', 'advmod']
+['VERB', 'VERB', 'advcl']	['升起', '说', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '升起', 'punct']
+['NOUN', 'VERB', 'nsubj']	['天空', '看', 'nsubj']
+['VERB', 'PROPN', 'acl:relcl']	['看', '莱哈', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['起来', '看', 'mark']
+['ADJ', 'VERB', 'xcomp']	['正常', '看', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '看', 'punct']
+['PUNCT', 'ADJ', 'punct']	['”', '正常', 'punct']
+['PROPN', 'PART', 'compound']	['纽约', '市', 'compound']
+['PART', 'PROPN', 'acl:relcl']	['市', '莱哈', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '看', 'mark:rel']
+['PROPN', 'VERB', 'nsubj']	['莱哈', '说', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['·', '希弗顿', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['希弗顿', '莱哈', 'flat:name']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['，', '航班', 'punct']
+['PRON', 'NOUN', 'nmod']	['她', '航班', 'nmod']
+['ADP', 'NOUN', 'case']	['从', '机场', 'case']
+['PROPN', 'NOUN', 'nmod']	['约翰', '机场', 'nmod']
+['PUNCT', 'PROPN', 'punct']	['·', '约翰', 'punct']
+['PROPN', 'NOUN', 'nmod']	['甘迺迪', '机场', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['国际', '机场', 'nmod']
+['NOUN', 'VERB', 'obl']	['机场', '飞往', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['飞往', '航班', 'acl:relcl']
+['PROPN', 'NOUN', 'nmod']	['希思罗', '机场', 'nmod']
+['NOUN', 'VERB', 'obj']	['机场', '飞往', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '飞往', 'mark:rel']
+['NOUN', 'NOUN', 'nsubj']	['航班', '航班', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '航班', 'cop']
+['VERB', 'VERB', 'advcl']	['在', '关闭', 'advcl']
+['NOUN', 'VERB', 'nsubj']	['天空', '关闭', 'nsubj']
+['VERB', 'NOUN', 'advcl']	['关闭', '航班', 'advcl']
+['ADP', 'VERB', 'mark']	['前', '关闭', 'mark']
+['NOUN', 'NOUN', 'nmod']	['最后', '架', 'nmod']
+['NUM', 'NOUN', 'nummod']	['一', '架', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['架', '降落', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['降落', '航班', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '降落', 'mark:rel']
+['NOUN', 'VERB', 'ccomp']	['航班', '说', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
+----------------------------------------------------------------------
+乘客们看不到的是冰岛埃亚菲亚特拉峰会火山喷发，这座火山距离英国有 621 英里（1000 公里）的距离，周二晚上喷发出一股有毒的灰尘浓烟。
+
+(ROOT (IP (IP (NP (CP (CP (IP (NP (NN 乘客) (SFN 们)) (VP (VRD (VV 看) (VV 不到)))) (DEC 的)))) (VP (VC 是) (IP (NP (NNP 冰岛) (NNP 埃亚菲亚特拉峰)) (VP (SFN 会) (NP (NN 火山)) (VP (VV 喷发)))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 座))) (NP (NN 火山))) (VP (IN 距离) (NP (NNP 英国)) (VP (VV 有) (NP (DNP (QP (CD 621) (CLP (NNB 英里)) (PRN (-LRB- （) (QP (CD 1000) (CLP (NNB 公里))) (-RRB- ）))) (DEC 的)) (NP (NN 距离)))))) (, ，) (IP (VP (NP (NN 周) (QP (CD 二)) (NP (NN 晚上))) (VP (VRD (VV 喷发) (VV 出)) (NP (QP (CD 一) (CLP (NNB 股))) (CP (CP (IP (VP (JJ 有毒))) (DEC 的))) (NP (NN 灰尘) (NN 浓烟)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP92084': {}, ',29320': {}, 'IP9028': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP14953': {'NP': {}, 'VP': {}}, ',91146': {}, 'IP79041': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+['NOUN', 'PART', 'compound']	['乘客', '们', 'compound']
+['PART', 'VERB', 'nsubj']	['们', '看', 'nsubj']
+['VERB', 'VERB', 'advcl']	['看', '喷发', 'advcl']
+['VERB', 'VERB', 'mark']	['到', '看', 'mark']
+['PART', 'VERB', 'mark:rel']	['的', '看', 'mark:rel']
+['AUX', 'VERB', 'cop']	['是', '喷发', 'cop']
+['PROPN', 'NOUN', 'nmod']	['冰岛', '火山', 'nmod']
+['PROPN', 'PART', 'compound']	['埃亚菲亚特拉峰', '会', 'compound']
+['PART', 'NOUN', 'nmod']	['会', '火山', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['火山', '喷发', 'nsubj']
+['VERB', 'ROOT', 'root']	['喷发', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '喷发', 'punct']
+['DET', 'NOUN', 'det']	['这', '座', 'det']
+['NOUN', 'NOUN', 'clf']	['座', '火山', 'clf']
+['NOUN', 'VERB', 'nsubj']	['火山', '有', 'nsubj']
+['ADP', 'PROPN', 'case']	['距离', '英国', 'case']
+['PROPN', 'VERB', 'obl']	['英国', '有', 'obl']
+['VERB', 'VERB', 'parataxis']	['有', '喷发', 'parataxis']
+['NUM', 'NOUN', 'nummod']	['621', '英里', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['英里', '距离', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['（', '公里', 'punct']
+['NUM', 'NOUN', 'nummod']	['1000', '公里', 'nummod']
+['NOUN', 'NOUN', 'appos']	['公里', '英里', 'appos']
+['PUNCT', 'NOUN', 'punct']	['）', '公里', 'punct']
+['PART', 'NOUN', 'case']	['的', '英里', 'case']
+['NOUN', 'VERB', 'obj']	['距离', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['NOUN', 'NOUN', 'nmod']	['周', '晚上', 'nmod']
+['NUM', 'NOUN', 'nummod']	['二', '晚上', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['晚上', '喷发', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['喷发', '喷发', 'parataxis']
+['VERB', 'VERB', 'mark']	['出', '喷发', 'mark']
+['NUM', 'NOUN', 'nummod']	['一', '股', 'nummod']
+['NOUN', 'NOUN', 'clf']	['股', '浓烟', 'clf']
+['ADJ', 'NOUN', 'amod']	['有毒', '浓烟', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '有毒', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['灰尘', '浓烟', 'nmod']
+['NOUN', 'VERB', 'obj']	['浓烟', '喷发', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '喷发', 'punct']
+----------------------------------------------------------------------
+周三，主要风向将灰烬吹到欧洲大部分地区，尽管灰烬高度（高达 36000 英尺）和分散程度太高，不易见到，但仍对航空旅行造成严重威胁。
+
+(ROOT (IP (IP (NP (NN 周三)) (, ，) (NP (ADJP (JJ 主要)) (NP (SFN 风) (VV 向))) (VP (BB 将) (IP (NP (NN 灰烬)) (VP (VV 吹到) (NP (NP (NNP 欧洲)) (ADJP (PFA 大)) (QP (NN 部分)) (NP (NN 地区))))))) (, ，) (IP (CP (ADVP (IN 尽管)) (IP (NP (NP (NN 灰烬) (NN 高度) (PRN (-LRB- （) (VP (VV 高达) (QP (CD 36000) (CLP (NNB 英尺)))) (-RRB- ）))) (CC 和) (NP (JJ 分散) (NN 程度))) (VP (JJ 太高)))) (, ，) (VP (ADVP (RB 不易)) (VP (VV 见到))) (, ，) (ADVP (RB 但)) (VP (ADVP (RB 仍)) (PP (IN 对) (NP (NN 航空) (NN 旅行))) (VP (VV 造成) (NP (ADJP (JJ 严重)) (NP (NN 威胁)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP28696': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP9496': {}, 'VP': {}}, ',': {}, 'IP89942': {'CP': {}, ',': {}, 'VP': {}, ',31730': {}, 'ADVP': {}, 'VP28126': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'CP': {}, ',': {}, 'VP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'CP': {}, ',': {}, 'VP': {}, ',': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nmod:tmod']	['周三', '吹到', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '周三', 'punct']
+['ADJ', 'PART', 'amod']	['主要', '风', 'amod']
+['PART', 'VERB', 'nsubj']	['风', '吹到', 'nsubj']
+['VERB', 'VERB', 'advcl']	['向', '吹到', 'advcl']
+['ADP', 'NOUN', 'case']	['将', '灰烬', 'case']
+['NOUN', 'VERB', 'obl:patient']	['灰烬', '吹到', 'obl:patient']
+['VERB', 'ROOT', 'root']	['吹到', 'NONE', 'root']
+['PROPN', 'NOUN', 'nmod']	['欧洲', '地区', 'nmod']
+['PART', 'NOUN', 'case']	['大', '部分', 'case']
+['NOUN', 'NOUN', 'nmod']	['部分', '地区', 'nmod']
+['NOUN', 'VERB', 'iobj']	['地区', '吹到', 'iobj']
+['PUNCT', 'VERB', 'punct']	['，', '造成', 'punct']
+['ADP', 'VERB', 'case']	['尽管', '高达', 'case']
+['NOUN', 'NOUN', 'nmod']	['灰烬', '高度', 'nmod']
+['NOUN', 'ADJ', 'nsubj']	['高度', '太高', 'nsubj']
+['PUNCT', 'VERB', 'punct']	['（', '高达', 'punct']
+['VERB', 'VERB', 'ccomp']	['高达', '造成', 'ccomp']
+['NUM', 'NOUN', 'nummod']	['36000', '英尺', 'nummod']
+['NOUN', 'VERB', 'obj']	['英尺', '高达', 'obj']
+['PUNCT', 'VERB', 'punct']	['）', '高达', 'punct']
+['CCONJ', 'NOUN', 'cc']	['和', '程度', 'cc']
+['ADJ', 'NOUN', 'amod']	['分散', '程度', 'amod']
+['NOUN', 'VERB', 'conj']	['程度', '高达', 'conj']
+['ADJ', 'VERB', 'conj']	['太高', '高达', 'conj']
+['PUNCT', 'VERB', 'punct']	['，', '高达', 'punct']
+['ADV', 'VERB', 'advmod']	['不易', '见到', 'advmod']
+['VERB', 'VERB', 'advcl']	['见到', '造成', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '见到', 'punct']
+['ADV', 'VERB', 'mark']	['但', '造成', 'mark']
+['ADV', 'VERB', 'advmod']	['仍', '造成', 'advmod']
+['ADP', 'NOUN', 'case']	['对', '旅行', 'case']
+['NOUN', 'NOUN', 'nmod']	['航空', '旅行', 'nmod']
+['NOUN', 'VERB', 'obl']	['旅行', '造成', 'obl']
+['VERB', 'VERB', 'parataxis']	['造成', '吹到', 'parataxis']
+['ADJ', 'NOUN', 'amod']	['严重', '威胁', 'amod']
+['NOUN', 'VERB', 'obj']	['威胁', '造成', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '吹到', 'punct']
+----------------------------------------------------------------------
+火山灰由二氧化硫、二氧化碳和氟化氢等组成，还有细小的二氧化硅颗粒，可能不会阻挡飞行员的视线，但其中的化学物质可能会损坏机舱内的敏感航空发动机。它还可能会堵塞飞机的通风孔，导致发动机停止运行。
+
+(ROOT (IP (IP (NP (NN 火山) (SFN 灰)) (VP (VP (PP (IN 由) (NP (NP (QP (CD 二)) (NP (VV 氧化)) (NP (SFN 硫))) (EC 、) (NP (NP (QP (CD 二)) (NP (VV 氧化))) (NP (SFN 碳))) (CC 和) (NP (NN 氟) (SFN 化) (SFN 氢)) (NN 等))) (VP (VV 组成))) (, ，) (VP (ADVP (RB 还)) (VP (VV 有) (NP (CP (CP (IP (VP (JJ 细小))) (DEC 的))) (NP (QP (CD 二)) (NP (VV 氧化))) (NP (SFN 硅) (SFN 颗) (NN 粒))))))) (, ，) (IP (VP (MD 可能) (VP (MD 不会) (VP (VV 阻挡) (NP (DNP (NP (VV 飞行) (SFN 员)) (DEC 的)) (NP (NN 视线))))))) (, ，) (IP (ADVP (RB 但)) (NP (DNP (NP (NN 其中)) (DEC 的)) (NP (NN 化学) (NN 物质))) (VP (MD 可能) (VP (MD 会) (VP (VV 损坏) (NP (DNP (LCP (NP (NN 机) (SFN 舱)) (NN 内)) (DEC 的)) (ADJP (JJ 敏感)) (NP (NN 航空) (VV 发动) (SFN 机))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP54108': {}, ',19761': {}, 'IP11193': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP53866': {'VP': {}}, ',71613': {}, 'IP84442': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'PART', 'compound']	['火山', '灰', 'compound']
+['PART', 'VERB', 'nsubj']	['灰', '阻挡', 'nsubj']
+['ADP', 'VERB', 'advcl']	['由', '有', 'advcl']
+['NUM', 'PART', 'nummod']	['二', '硫', 'nummod']
+['VERB', 'PART', 'compound']	['氧化', '硫', 'compound']
+['PART', 'VERB', 'nsubj']	['硫', '组成', 'nsubj']
+['PUNCT', 'PART', 'punct']	['、', '碳', 'punct']
+['NUM', 'PART', 'nummod']	['二', '碳', 'nummod']
+['VERB', 'PART', 'compound']	['氧化', '碳', 'compound']
+['PART', 'PART', 'conj']	['碳', '硫', 'conj']
+['CCONJ', 'PART', 'cc']	['和', '氢', 'cc']
+['NOUN', 'PART', 'compound']	['氟', '化', 'compound']
+['PART', 'PART', 'compound']	['化', '氢', 'compound']
+['PART', 'PART', 'conj']	['氢', '硫', 'conj']
+['NOUN', 'PART', 'acl']	['等', '硫', 'acl']
+['VERB', 'ADP', 'ccomp']	['组成', '由', 'ccomp']
+['PUNCT', 'ADP', 'punct']	['，', '由', 'punct']
+['ADV', 'VERB', 'mark']	['还', '有', 'mark']
+['VERB', 'VERB', 'advcl']	['有', '阻挡', 'advcl']
+['ADJ', 'NOUN', 'amod']	['细小', '粒', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '细小', 'mark:rel']
+['NUM', 'PART', 'nummod']	['二', '硅', 'nummod']
+['VERB', 'PART', 'compound']	['氧化', '硅', 'compound']
+['PART', 'PART', 'compound']	['硅', '颗', 'compound']
+['PART', 'NOUN', 'nmod']	['颗', '粒', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['粒', '阻挡', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '粒', 'punct']
+['AUX', 'VERB', 'aux']	['可能', '阻挡', 'aux']
+['AUX', 'VERB', 'aux']	['会', '阻挡', 'aux']
+['VERB', 'ROOT', 'root']	['阻挡', 'NONE', 'root']
+['VERB', 'PART', 'compound']	['飞行', '员', 'compound']
+['PART', 'NOUN', 'nmod']	['员', '视线', 'nmod']
+['PART', 'PART', 'case']	['的', '员', 'case']
+['NOUN', 'VERB', 'obj']	['视线', '阻挡', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '损坏', 'punct']
+['ADV', 'VERB', 'mark']	['但', '损坏', 'mark']
+['NOUN', 'NOUN', 'nmod']	['其中', '物质', 'nmod']
+['PART', 'NOUN', 'case']	['的', '其中', 'case']
+['NOUN', 'NOUN', 'nmod']	['化学', '物质', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['物质', '损坏', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '损坏', 'aux']
+['AUX', 'VERB', 'aux']	['会', '损坏', 'aux']
+['VERB', 'VERB', 'parataxis']	['损坏', '阻挡', 'parataxis']
+['NOUN', 'PART', 'compound']	['机', '舱', 'compound']
+['PART', 'PART', 'nmod']	['舱', '机', 'nmod']
+['NOUN', 'PART', 'acl']	['内', '舱', 'acl']
+['PART', 'PART', 'case']	['的', '舱', 'case']
+['ADJ', 'PART', 'amod']	['敏感', '机', 'amod']
+['NOUN', 'PART', 'nmod']	['航空', '机', 'nmod']
+['VERB', 'PART', 'compound']	['发动', '机', 'compound']
+['PART', 'VERB', 'obj']	['机', '损坏', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '阻挡', 'punct']
+----------------------------------------------------------------------
+这种威胁有多严重？它可能会致命：
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 威胁))) (VP (VV 有) (VP (ADVP (RB 多)) (VP (JJ 严重)))) (. ？)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '威胁', 'clf']
+['NOUN', 'VERB', 'nsubj']	['威胁', '有', 'nsubj']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['ADV', 'ADJ', 'advmod']	['多', '严重', 'advmod']
+['ADJ', 'VERB', 'xcomp']	['严重', '有', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['？', '有', 'punct']
+----------------------------------------------------------------------
+1982 年，一架英国航空公司从吉隆坡飞往澳大利亚珀斯的航班，飞过刚喷出的印尼火山灰云。飞机的每个发动机都一个个关闭，飞机开始向地面掉头。
+
+(ROOT (IP (NP (CD 1982) (NNB 年)) (, ，) (NP (QP (CD 一) (CLP (NNB 架))) (NP (NNP 英国) (NN 航空) (NN 公司))) (VP (VP (PP (IN 从) (NP (NNP 吉隆坡))) (VP (VV 飞往) (NP (DNP (NP (NNP 澳大利亚) (NNP 珀斯)) (DEC 的)) (NP (NN 航班))))) (, ，) (VP (VV 飞过) (NP (CP (CP (IP (VP (ADVP (RB 刚)) (VP (VV 喷出)))) (DEC 的))) (NP (NNP 印尼)) (NP (NN 火山)) (NP (NN 灰云))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP63233': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP13378': {'QP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP60312': {}}, '.': {}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['NUM', 'NOUN', 'nummod']	['1982', '年', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['年', '飞过', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '年', 'punct']
+['NUM', 'NOUN', 'nummod']	['一', '架', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['架', '公司', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['英国', '公司', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['航空', '公司', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['公司', '飞过', 'nsubj']
+['ADP', 'PROPN', 'case']	['从', '吉隆坡', 'case']
+['PROPN', 'VERB', 'obl']	['吉隆坡', '飞往', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['飞往', '航班', 'acl:relcl']
+['PROPN', 'PROPN', 'nmod']	['澳大利亚', '珀斯', 'nmod']
+['PROPN', 'VERB', 'obj']	['珀斯', '飞往', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '飞往', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['航班', '飞过', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '航班', 'punct']
+['VERB', 'ROOT', 'root']	['飞过', 'NONE', 'root']
+['ADV', 'VERB', 'advmod']	['刚', '喷出', 'advmod']
+['VERB', 'NOUN', 'acl:relcl']	['喷出', '灰云', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '喷出', 'mark:rel']
+['PROPN', 'NOUN', 'nmod']	['印尼', '灰云', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['火山', '灰云', 'nmod']
+['NOUN', 'VERB', 'obj']	['灰云', '飞过', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '飞过', 'punct']
+----------------------------------------------------------------------
+只有飞行员成功降低飞机的高度，避开熔岩云，发动机才能清除灰尘，飞机才能在雅加达紧急着陆。
+
+(ROOT (IP (NP (ADVP (IN 只有)) (IP (IP (NP (VV 飞行) (SFN 员)) (VP (VP (ADVP (RB 成功)) (VP (VV 降低) (NP (DNP (NP (NN 飞机)) (DEC 的)) (NP (NN 高度))))) (, ，) (VP (VV 避开) (NP (NN 熔岩) (SFN 云))))) (, ，) (IP (NP (VV 发动) (SFN 机)) (VP (MD 才能) (VP (VV 清) (VP (VV 除) (NP (NN 灰尘)))))))) (, ，) (NP (NN 飞机)) (VP (MD 才能) (VP (PP (VV 在) (NP (NNP 雅加达))) (ADVP (RB 紧急)) (VP (VV 着陆)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP87661': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP85049': {'NN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'ADVP': {}, 'IP': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['只有', '降低', 'case']
+['VERB', 'PART', 'compound']	['飞行', '员', 'compound']
+['PART', 'VERB', 'nsubj']	['员', '降低', 'nsubj']
+['ADV', 'VERB', 'advmod']	['成功', '降低', 'advmod']
+['VERB', 'VERB', 'advcl']	['降低', '避开', 'advcl']
+['NOUN', 'NOUN', 'nmod']	['飞机', '高度', 'nmod']
+['PART', 'NOUN', 'case']	['的', '飞机', 'case']
+['NOUN', 'VERB', 'obj']	['高度', '降低', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '降低', 'punct']
+['VERB', 'VERB', 'ccomp']	['避开', '清', 'ccomp']
+['NOUN', 'PART', 'compound']	['熔岩', '云', 'compound']
+['PART', 'VERB', 'obj']	['云', '避开', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '避开', 'punct']
+['VERB', 'PART', 'compound']	['发动', '机', 'compound']
+['PART', 'VERB', 'nsubj']	['机', '清', 'nsubj']
+['AUX', 'VERB', 'aux']	['才能', '清', 'aux']
+['VERB', 'ROOT', 'root']	['清', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['除', '清', 'xcomp']
+['NOUN', 'VERB', 'obj']	['灰尘', '除', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '着陆', 'punct']
+['NOUN', 'VERB', 'nsubj']	['飞机', '着陆', 'nsubj']
+['AUX', 'VERB', 'aux']	['才能', '着陆', 'aux']
+['VERB', 'VERB', 'advcl']	['在', '着陆', 'advcl']
+['PROPN', 'VERB', 'obj']	['雅加达', '在', 'obj']
+['ADV', 'VERB', 'advmod']	['紧急', '着陆', 'advmod']
+['VERB', 'VERB', 'parataxis']	['着陆', '清', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '清', 'punct']
+----------------------------------------------------------------------
+英国空域将于周五早上 7 点至少关闭所有非紧急航班，当时，当局希望灰烬烟囱将被主要风向吹走。
+
+(ROOT (IP (IP (NP (NP (NNP 英国)) (NP (NN 空域))) (VP (ADVP (RB 将)) (PP (IN 于) (QP (NP (NN 周) (CD 五) (NN 早上)) (QP (CD 7) (CLP (NNB 点))))) (ADVP (RB 至少)) (VP (VV 关闭) (NP (DP (DT 所有)) (ADJP (VC 非)) (ADJP (JJ 紧急)) (NP (NN 航班)))))) (, ，) (IP (NP (NN 当时)) (, ，) (NP (NN 当局)) (VP (VV 希望) (IP (NP (NN 灰烬) (NN 烟囱)) (VP (ADVP (RB 将)) (VP (BB 被) (CP (IP (NP (ADJP (JJ 主要)) (NP (SFN 风) (VV 向))) (VP (VV 吹走))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP35717': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP3642': {'NP': {}, ',': {}, 'NP37545': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['英国', '空域', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['空域', '关闭', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '关闭', 'advmod']
+['ADP', 'NOUN', 'case']	['于', '点', 'case']
+['NOUN', 'NOUN', 'nmod']	['周', '点', 'nmod']
+['NUM', 'NOUN', 'nummod']	['五', '点', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['早上', '点', 'nmod']
+['NUM', 'NOUN', 'nummod']	['7', '点', 'nummod']
+['NOUN', 'VERB', 'obl']	['点', '关闭', 'obl']
+['ADV', 'VERB', 'advmod']	['至少', '关闭', 'advmod']
+['VERB', 'ROOT', 'root']	['关闭', 'NONE', 'root']
+['DET', 'NOUN', 'det']	['所有', '航班', 'det']
+['VERB', 'NOUN', 'amod']	['非', '航班', 'amod']
+['ADJ', 'NOUN', 'amod']	['紧急', '航班', 'amod']
+['NOUN', 'VERB', 'obj']	['航班', '关闭', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '希望', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['当时', '希望', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '当时', 'punct']
+['NOUN', 'VERB', 'nsubj']	['当局', '希望', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['希望', '关闭', 'parataxis']
+['NOUN', 'NOUN', 'nmod']	['灰烬', '烟囱', 'nmod']
+['NOUN', 'VERB', 'nsubj:pass']	['烟囱', '吹走', 'nsubj:pass']
+['ADV', 'VERB', 'advmod']	['将', '吹走', 'advmod']
+['AUX', 'VERB', 'aux:pass']	['被', '吹走', 'aux:pass']
+['ADJ', 'PART', 'amod']	['主要', '风', 'amod']
+['PART', 'VERB', 'nsubj']	['风', '吹走', 'nsubj']
+['VERB', 'VERB', 'advcl']	['向', '吹走', 'advcl']
+['VERB', 'VERB', 'ccomp']	['吹走', '希望', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '关闭', 'punct']
+----------------------------------------------------------------------
+但是如果冰岛的火山持续喷发（过去曾发生过这种情况），新的云层可能会产生，进一步破坏整个北大西洋地区的航空旅行。
+
+(ROOT (IP (ADVP (RB 但是)) (CP (ADVP (IN 如果)) (IP (NP (DNP (NP (NNP 冰岛)) (DEC 的)) (NP (NN 火山))) (VP (VV 持续) (VP (VV 喷发))) (PRN (-LRB- （) (IP (VP (NP (NN 过去)) (ADVP (RB 曾)) (VP (VV 发生) (AS 过) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 情况)))))) (-RRB- ）)))) (, ，) (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 云层))) (VP (VP (MD 可能) (VP (MD 会) (VP (VV 产生)))) (, ，) (VP (VV 进) (QP (CD 一) (CLP (NN 步))) (VP (VV 破坏) (NP (DNP (NP (DP (DT 整个)) (NP (NN 北) (NNP 大西) (SFN 洋)) (NP (NN 地区))) (DEC 的)) (NP (NN 航空) (NN 旅行)))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP12265': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['但是', '破坏', 'mark']
+['ADP', 'VERB', 'case']	['如果', '发生', 'case']
+['PROPN', 'NOUN', 'nmod']	['冰岛', '火山', 'nmod']
+['PART', 'PROPN', 'case']	['的', '冰岛', 'case']
+['NOUN', 'VERB', 'nsubj']	['火山', '持续', 'nsubj']
+['VERB', 'VERB', 'advcl']	['持续', '发生', 'advcl']
+['VERB', 'VERB', 'xcomp']	['喷发', '持续', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['（', '持续', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['过去', '发生', 'nmod:tmod']
+['ADV', 'VERB', 'advmod']	['曾', '发生', 'advmod']
+['VERB', 'VERB', 'ccomp']	['发生', '破坏', 'ccomp']
+['AUX', 'VERB', 'aux']	['过', '发生', 'aux']
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '情况', 'clf']
+['NOUN', 'VERB', 'obj']	['情况', '发生', 'obj']
+['PUNCT', 'VERB', 'punct']	['）', '发生', 'punct']
+['PUNCT', 'VERB', 'punct']	['，', '发生', 'punct']
+['ADJ', 'NOUN', 'amod']	['新', '云层', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '新', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['云层', '破坏', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '产生', 'aux']
+['AUX', 'VERB', 'aux']	['会', '产生', 'aux']
+['VERB', 'VERB', 'advcl']	['产生', '破坏', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '产生', 'punct']
+['VERB', 'VERB', 'advcl']	['进', '破坏', 'advcl']
+['NUM', 'NOUN', 'nummod']	['一', '步', 'nummod']
+['NOUN', 'VERB', 'obj']	['步', '进', 'obj']
+['VERB', 'ROOT', 'root']	['破坏', 'NONE', 'root']
+['DET', 'NOUN', 'det']	['整个', '地区', 'det']
+['NOUN', 'NOUN', 'nmod']	['北', '地区', 'nmod']
+['PROPN', 'PART', 'compound']	['大西', '洋', 'compound']
+['PART', 'NOUN', 'nmod']	['洋', '地区', 'nmod']
+['NOUN', 'VERB', 'obj']	['地区', '破坏', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '破坏', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['航空', '旅行', 'nmod']
+['NOUN', 'VERB', 'obj']	['旅行', '破坏', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '破坏', 'punct']
+----------------------------------------------------------------------
+1821 年埃亚夫雅勒火山上一次喷发时，它持续活跃了一整年。
+
+(ROOT (IP (LCP (IP (NP (CD 1821)) (NP (NP (NNP 年埃亚夫雅勒)) (NP (NN 火山))) (VP (DP (NN 上) (QP (CD 一) (CLP (NNB 次)))) (VP (VV 喷发)))) (IN 时)) (, ，) (NP (PRP 它)) (VP (RB 持续) (VP (VV 活跃) (AS 了) (QP (CD 一) (CLP (ADJP (NNB 整)) (CLP (NNB 年)))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'RB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'RB': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'IP': {}, 'IN': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'RB': {}, 'VP': {}}}
+Dependency Features:
+['NUM', 'NOUN', 'nmod']	['1821', '火山', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['年埃亚夫雅勒', '火山', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['火山', '喷发', 'nsubj']
+['NOUN', 'NOUN', 'acl']	['上', '火山', 'acl']
+['NUM', 'NOUN', 'nummod']	['一', '次', 'nummod']
+['NOUN', 'VERB', 'obl']	['次', '喷发', 'obl']
+['VERB', 'VERB', 'advcl']	['喷发', '活跃', 'advcl']
+['ADP', 'VERB', 'mark']	['时', '喷发', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '喷发', 'punct']
+['PRON', 'VERB', 'nsubj']	['它', '活跃', 'nsubj']
+['ADV', 'VERB', 'advmod']	['持续', '活跃', 'advmod']
+['VERB', 'ROOT', 'root']	['活跃', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '活跃', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '整', 'nummod']
+['NOUN', 'NOUN', 'nummod']	['整', '年', 'nummod']
+['NOUN', 'VERB', 'obj']	['年', '活跃', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '活跃', 'punct']
+----------------------------------------------------------------------
+更可怕的是，这次事件可能会引发附近的卡特拉火山喷发，这个火山的威力更大。
+
+(ROOT (IP (NP (CP (CP (IP (VP (ADVP (RB 更)) (VP (JJ 可怕)))) (DEC 的)))) (VP (VC 是) (, ，) (IP (IP (NP (DP (DT 这) (CLP (NNB 次))) (NP (NN 事件))) (VP (MD 可能) (VP (MD 会) (VP (VV 引发) (IP (NP (DNP (NP (NN 附近)) (DEC 的)) (NP (NNP 卡特拉) (NN 火山))) (VP (VV 喷发))))))) (, ，) (IP (NP (DNP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 火山))) (DEC 的)) (NP (NN 威力))) (VP (JJ 更大))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['ADV', 'ADJ', 'advmod']	['更', '可怕', 'advmod']
+['ADJ', 'VERB', 'csubj']	['可怕', '是', 'csubj']
+['PART', 'ADJ', 'mark:rel']	['的', '可怕', 'mark:rel']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '引发', 'punct']
+['DET', 'NOUN', 'det']	['这', '次', 'det']
+['NOUN', 'NOUN', 'clf']	['次', '事件', 'clf']
+['NOUN', 'VERB', 'nsubj']	['事件', '引发', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '引发', 'aux']
+['AUX', 'VERB', 'aux']	['会', '引发', 'aux']
+['VERB', 'VERB', 'ccomp']	['引发', '是', 'ccomp']
+['NOUN', 'NOUN', 'nmod']	['附近', '火山', 'nmod']
+['PART', 'NOUN', 'case']	['的', '附近', 'case']
+['PROPN', 'NOUN', 'nmod']	['卡特拉', '火山', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['火山', '喷发', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['喷发', '引发', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '引发', 'punct']
+['DET', 'NOUN', 'det']	['这', '个', 'det']
+['NOUN', 'NOUN', 'clf']	['个', '火山', 'clf']
+['NOUN', 'NOUN', 'nmod']	['火山', '威力', 'nmod']
+['PART', 'NOUN', 'case']	['的', '火山', 'case']
+['NOUN', 'ADJ', 'nsubj']	['威力', '更大', 'nsubj']
+['ADJ', 'VERB', 'ccomp']	['更大', '引发', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+如果卡特拉爆发，北大西洋航空空域可能会受到影响数月。
+
+(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (NNP 卡特拉)) (VP (VV 爆发)))) (, ，) (NP (NN 北) (NNP 大西) (SFN 洋) (NN 航空) (NN 空域)) (VP (MD 可能) (VP (MD 会) (VP (VV 受到) (NP (NP (VV 影响)) (QP (CD 数)) (NP (NNB 月)))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'NN': {}, 'NNP': {}, 'SFN': {}, 'NN42136': {}, 'NN90369': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'NN': {}, 'NNP': {}, 'SFN': {}, 'NN': {}, 'NN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'NP': {'NN': {}, 'NNP': {}, 'SFN': {}, 'NN': {}, 'NN': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['如果', '爆发', 'case']
+['PROPN', 'VERB', 'nsubj']	['卡特拉', '爆发', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['爆发', '受到', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '爆发', 'punct']
+['NOUN', 'NOUN', 'nmod']	['北', '空域', 'nmod']
+['PROPN', 'PART', 'compound']	['大西', '洋', 'compound']
+['PART', 'NOUN', 'nmod']	['洋', '空域', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['航空', '空域', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['空域', '受到', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '受到', 'aux']
+['AUX', 'VERB', 'aux']	['会', '受到', 'aux']
+['VERB', 'ROOT', 'root']	['受到', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['影响', '受到', 'xcomp']
+['NUM', 'NOUN', 'nummod']	['数', '月', 'nummod']
+['NOUN', 'VERB', 'obj']	['月', '影响', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '受到', 'punct']
+----------------------------------------------------------------------
+它甚至可能会影响气候：1991 年菲律宾宾塔布乌火山喷发，将大量灰尘喷入大气，导致地球接收到的太阳光减少，在接下来的两年里，地球的温度降低了约 0.5°C。
+
+(ROOT (IP (IP (NP (PRP 它)) (VP (ADVP (RB 甚至)) (VP (MD 可能) (VP (MD 会) (VP (VV 影响) (NP (NN 气候))))))) (: ：) (IP (NP (CD 1991)) (NP (NP (NNB 年菲律宾)) (NP (NNP 宾塔布乌) (NN 火山))) (VP (VP (VV 喷发)) (, ，) (VP (BB 将) (IP (NP (QP (JJ 大量)) (NP (NN 灰尘))) (VP (VV 喷入) (NP (NN 大气))))))) (, ，) (IP (VP (VV 导致) (IP (NP (CP (CP (IP (NP (NNP 地球)) (VP (VRD (VV 接收) (VV 到)))) (DEC 的))) (NP (NN 太阳) (SFN 光))) (VP (VV 减少))))) (, ，) (IP (PP (VV 在) (LCP (QP (CP (CP (IP (VP (VRD (VV 接) (VV 下来)))) (DEC 的))) (QP (CD 两) (CLP (NNB 年)))) (IN 里))) (, ，) (NP (DNP (NP (NNP 地球)) (DEC 的)) (NP (NN 温度))) (VP (VV 降低) (AS 了) (QP (ADVP (RB 约)) (QP (CD 0.5) (CLP (FW °C)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP44158': {}, ',': {}, 'IP22657': {}, ',80459': {}, 'IP10160': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP50199': {'NP': {}, 'NP67500': {}, 'VP': {}}, ',': {}, 'IP17479': {'VP': {}}, ',95550': {}, 'IP30958': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['它', '影响', 'nsubj']
+['ADV', 'VERB', 'mark']	['甚至', '影响', 'mark']
+['AUX', 'VERB', 'aux']	['可能', '影响', 'aux']
+['AUX', 'VERB', 'aux']	['会', '影响', 'aux']
+['VERB', 'ROOT', 'root']	['影响', 'NONE', 'root']
+['NOUN', 'VERB', 'obj']	['气候', '影响', 'obj']
+['PUNCT', 'VERB', 'punct']	['：', '导致', 'punct']
+['NUM', 'NOUN', 'nummod']	['1991', '年菲律宾', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['年菲律宾', '喷发', 'nmod:tmod']
+['PROPN', 'NOUN', 'nmod']	['宾塔布乌', '火山', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['火山', '喷发', 'nsubj']
+['VERB', 'VERB', 'advcl']	['喷发', '导致', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '喷发', 'punct']
+['ADP', 'NOUN', 'case']	['将', '灰尘', 'case']
+['ADJ', 'NOUN', 'amod']	['大量', '灰尘', 'amod']
+['NOUN', 'VERB', 'obl:patient']	['灰尘', '喷入', 'obl:patient']
+['VERB', 'VERB', 'advcl']	['喷入', '导致', 'advcl']
+['NOUN', 'VERB', 'iobj']	['大气', '喷入', 'iobj']
+['PUNCT', 'VERB', 'punct']	['，', '喷入', 'punct']
+['VERB', 'VERB', 'parataxis']	['导致', '影响', 'parataxis']
+['PROPN', 'VERB', 'nsubj']	['地球', '接收', 'nsubj']
+['VERB', 'PART', 'acl:relcl']	['接收', '光', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['到', '接收', 'mark']
+['PART', 'VERB', 'mark:rel']	['的', '接收', 'mark:rel']
+['NOUN', 'PART', 'compound']	['太阳', '光', 'compound']
+['PART', 'VERB', 'nsubj']	['光', '减少', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['减少', '导致', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '降低', 'punct']
+['VERB', 'VERB', 'advcl']	['在', '降低', 'advcl']
+['VERB', 'NOUN', 'acl:relcl']	['接', '年', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['下来', '接', 'mark']
+['PART', 'VERB', 'mark:rel']	['的', '接', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['两', '年', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['年', '降低', 'nmod:tmod']
+['ADP', 'NOUN', 'case']	['里', '年', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '年', 'punct']
+['PROPN', 'NOUN', 'nmod']	['地球', '温度', 'nmod']
+['PART', 'PROPN', 'case']	['的', '地球', 'case']
+['NOUN', 'VERB', 'nsubj']	['温度', '降低', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['降低', '影响', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '降低', 'aux']
+['ADV', 'X', 'advmod']	['约', '°C', 'advmod']
+['NUM', 'X', 'nummod']	['0.5', '°C', 'nummod']
+['X', 'VERB', 'obj']	['°C', '降低', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '影响', 'punct']
+----------------------------------------------------------------------
+这是每个人都能够注意到的，即使是在一个晴天。
+
+(ROOT (IP (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (NP (DP (DT 每个)) (NP (NN 人))) (VP (ADVP (RB 都)) (VP (MD 能够) (VP (VRD (VV 注意) (VV 到)))))) (UH 的)))))) (, ，) (VP (IP (VP (ADVP (IN 即使)) (VP (VC 是) (PP (VV 在) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 晴天))))))) (. 。))))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'VP': {}}}
+{'IP': {'IP': {}, ',': {}, 'VP': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'VP': {'IP': {}, '.': {}}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'VP': {'IP': {}, '.': {}}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'VP': {'IP': {}, '.': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['这', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['DET', 'NOUN', 'det']	['每个', '人', 'det']
+['NOUN', 'VERB', 'nsubj']	['人', '注意', 'nsubj']
+['ADV', 'VERB', 'mark']	['都', '注意', 'mark']
+['AUX', 'VERB', 'aux']	['能够', '注意', 'aux']
+['VERB', 'VERB', 'ccomp']	['注意', '是', 'ccomp']
+['VERB', 'VERB', 'mark']	['到', '注意', 'mark']
+['PART', 'VERB', 'discourse']	['的', '注意', 'discourse']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['ADP', 'VERB', 'case']	['即使', '是', 'case']
+['VERB', 'VERB', 'xcomp']	['是', '是', 'xcomp']
+['VERB', 'VERB', 'xcomp']	['在', '是', 'xcomp']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '晴天', 'clf']
+['NOUN', 'VERB', 'obj']	['晴天', '在', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------

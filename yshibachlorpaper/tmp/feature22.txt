@@ -1,0 +1,63 @@
+加拿大作家爱丽丝·门罗获得了2013年诺贝尔文学奖。
+
+(ROOT (IP (NP (NP (NP (NNP 加拿大)) (NP (NN 作家))) (NP (NNP 爱丽丝) (/ ·) (NNP 门罗))) (VP (VV 获得) (AS 了) (NP (NP (CD 2013) (NNB 年)) (NP (NNP 诺贝尔)) (NP (NN 文学) (SFN 奖)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP67199': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['加拿大', '作家', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['作家', '获得', 'nsubj']
+['PROPN', 'NOUN', 'appos']	['爱丽丝', '作家', 'appos']
+['PUNCT', 'PROPN', 'punct']	['·', '门罗', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['门罗', '爱丽丝', 'flat:name']
+['VERB', 'ROOT', 'root']	['获得', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '获得', 'aux']
+['NUM', 'NOUN', 'nummod']	['2013', '年', 'nummod']
+['NOUN', 'PART', 'nmod']	['年', '奖', 'nmod']
+['PROPN', 'PART', 'nmod']	['诺贝尔', '奖', 'nmod']
+['NOUN', 'PART', 'compound']	['文学', '奖', 'compound']
+['PART', 'VERB', 'obj']	['奖', '获得', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '获得', 'punct']
+----------------------------------------------------------------------
+在宣布她获奖时，瑞典学院常务秘书彼得·恩格伦德称她是“当代短篇小说大师”。
+
+(ROOT (IP (PP (IN 在) (LCP (IP (VP (VV 宣布) (IP (NP (PRP 她)) (VP (VV 获奖))))) (IN 时))) (, ，) (NP (NP (NP (NNP 瑞典) (NN 学院)) (ADJP (NN 常务)) (NP (NN 秘书))) (NP (NNP 彼得) (/ ·) (NNP 恩格伦德))) (VP (VV 称) (NP (PRP 她)) (IP (VP (VC 是) (NP (`` “) (ADJP (NN 当代)) (NP (NN 短篇) (NN 小说) (NN 大师)) ('' ”))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'NP53915': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['在', '宣布', 'case']
+['VERB', 'VERB', 'xcomp']	['宣布', '称', 'xcomp']
+['PRON', 'VERB', 'nsubj']	['她', '获奖', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['获奖', '宣布', 'ccomp']
+['ADP', 'VERB', 'mark']	['时', '宣布', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '宣布', 'punct']
+['PROPN', 'NOUN', 'nmod']	['瑞典', '秘书', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['学院', '秘书', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['常务', '秘书', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['秘书', '称', 'nsubj']
+['PROPN', 'NOUN', 'appos']	['彼得', '秘书', 'appos']
+['PUNCT', 'PROPN', 'punct']	['·', '恩格伦德', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['恩格伦德', '彼得', 'flat:name']
+['VERB', 'ROOT', 'root']	['称', 'NONE', 'root']
+['PRON', 'NOUN', 'nsubj']	['她', '大师', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '大师', 'cop']
+['PUNCT', 'NOUN', 'punct']	['“', '大师', 'punct']
+['NOUN', 'NOUN', 'nmod']	['当代', '大师', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['短篇', '大师', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['小说', '大师', 'nmod']
+['NOUN', 'VERB', 'ccomp']	['大师', '称', 'ccomp']
+['PUNCT', 'NOUN', 'punct']	['”', '大师', 'punct']
+['PUNCT', 'VERB', 'punct']	['。', '称', 'punct']
+----------------------------------------------------------------------

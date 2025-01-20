@@ -1,0 +1,1199 @@
+PIXAR 角色——无论是《玩具总动员》中英雄玩具，《寻找狮子王》中父子鱼，《蚁族大叔》中昆虫，还是《蜗居》中老鼠厨师，——都充满了向往；向往玩耍的孩子，向往失落的家庭成员，向往似乎遥不可及的东西。
+
+(ROOT (IP (NP (NP (FW PIXAR) (NN 角色)) (PRN (HYPH —) (HYPH —) (VP (VP (ADVP (IN 无论)) (VP (VC 是) (NP (LCP (NP (-LRB- 《) (NN 玩具) (VV 总动) (SFN 员) (-RRB- 》)) (IN 中)) (NP (NN 英雄) (NN 玩具))))) (, ，) (NP (LCP (VP (-LRB- 《) (VV 寻找) (NP (NN 狮子) (SFN 王)) (-RRB- 》)) (IN 中)) (NP (NN 父子) (SFN 鱼))) (, ，) (NP (LCP (NP (-LRB- 《) (NN 蚁族) (NN 大叔) (-RRB- 》)) (IN 中)) (NP (NN 昆虫))) (, ，) (VC 还是) (NP (LCP (NP (-LRB- 《) (NN 蜗居) (-RRB- 》)) (IN 中)) (NP (NN 老鼠) (NN 厨师)))))) (, ，) (HYPH —) (HYPH —) (VP (ADVP (RB 都)) (VP (VV 充满) (AS 了) (NP (VV 向往)))) (: ；) (IP (NP (CP (CP (IP (VP (VV 向往) (IP (VP (VV 玩耍))))) (DEC 的))) (NP (NN 孩子))) (, ，) (VP (VP (VV 向往) (NP (CP (CP (IP (VP (VV 失落))) (DEC 的))) (NP (NN 家庭) (NN 成员)))) (, ，) (VP (VV 向往) (NP (CP (CP (IP (VP (ADVP (RB 似乎)) (VP (VV 遥) (IP (VP (MD 不可) (VP (VV 及))))))) (DEC 的))) (NP (NN 东西)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'HYPH': {}, 'HYPH79564': {}, 'VP': {}, ':': {}, 'IP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'HYPH': {}, 'HYPH': {}, 'VP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'PRN': {}}, ',': {}, 'HYPH': {}, 'HYPH67580': {}, 'VP': {'ADVP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'PRN': {}}, ',': {}, 'HYPH': {}, 'HYPH': {}, 'VP': {'ADVP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'PRN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+PIXAR	角色	nmod
+角色	玩具	nsubj
+—	玩具	punct
+—	玩具	punct
+无论	玩具	case
+是	玩具	cop
+《	员	punct
+玩具	员	nmod
+总动	员	compound
+员	玩具	nmod
+》	员	punct
+中	员	case
+英雄	玩具	nmod
+玩具	ROOT	root
+，	寻找	punct
+《	寻找	punct
+寻找	鱼	amod
+狮子	王	compound
+王	寻找	obj
+》	王	punct
+中	王	case
+父子	鱼	compound
+鱼	昆虫	nmod
+，	大叔	punct
+《	大叔	punct
+蚁族	大叔	nmod
+大叔	鱼	appos
+》	大叔	punct
+中	大叔	case
+昆虫	玩具	conj
+，	寻找	punct
+是	厨师	cop
+《	蜗居	punct
+蜗居	厨师	nmod
+》	蜗居	punct
+中	蜗居	case
+老鼠	厨师	nmod
+厨师	向往	advcl
+，	厨师	punct
+—	厨师	punct
+—	充满	punct
+都	充满	mark
+充满	向往	advcl
+了	充满	aux
+向往	充满	xcomp
+；	充满	punct
+向往	向往	advcl
+玩耍	孩子	acl:relcl
+的	玩耍	mark:rel
+孩子	向往	obj
+，	向往	punct
+向往	向往	advcl
+失落	成员	acl:relcl
+的	失落	mark:rel
+家庭	成员	nmod
+成员	向往	obj
+，	向往	punct
+向往	玩具	parataxis
+似乎	遥	advmod
+遥	东西	acl:relcl
+可	及	aux
+及	遥	xcomp
+的	遥	mark:rel
+东西	向往	obj
+。	玩具	punct
+----------------------------------------------------------------------
+设想这些的小公司也一样。
+
+(ROOT (IP (IP (VP (VV 设想) (NP (DNP (DP (DT 这些)) (DEC 的)) (ADJP (PFA 小)) (NP (NN 公司))))) (VP (ADVP (RB 也)) (VP (JJ 一样))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+设想	公司	acl:relcl
+这些	公司	det
+的	设想	mark:rel
+小	公司	case
+公司	一样	nsubj
+也	一样	mark
+一样	ROOT	root
+。	一样	punct
+----------------------------------------------------------------------
+从一开始，正式是一家电脑硬件公司的 Pixar 内心里就潜藏着制作电影的更加创意的生活梦。
+
+(ROOT (IP (IP (VP (PP (IN 从) (QP (CD 一))) (VP (NNB 开始)))) (, ，) (LCP (NP (NP (CP (CP (IP (VP (ADVP (RB 正式)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 家))) (NP (NN 电脑) (NN 硬件)) (NP (NN 公司)))))) (DEC 的))) (NP (FW Pixar))) (NP (NN 内心))) (IN 里)) (VP (ADVP (RB 就)) (VP (VV 潜藏) (AS 着) (NP (CP (CP (IP (VP (VV 制作) (NP (NN 电影)))) (DEC 的))) (CP (CP (IP (VP (ADVP (RB 更加)) (VP (JJ 创意)))) (DEC 的))) (NP (NN 生活) (NN 梦))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'LCP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'LCP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'LCP': {'NP': {}, 'IN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'LCP': {'NP': {}, 'IN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+从	开始	case
+一	开始	nummod
+开始	潜藏	obl
+，	开始	punct
+正式	内心	advmod
+是	内心	cop
+一	家	nummod
+家	公司	clf
+电脑	公司	nmod
+硬件	公司	nmod
+公司	内心	nmod
+的	公司	mark:rel
+Pixar	内心	nmod
+内心	潜藏	obl
+里	内心	case
+就	潜藏	mark
+潜藏	ROOT	root
+着	潜藏	aux
+制作	梦	acl:relcl
+电影	制作	obj
+的	制作	mark:rel
+更加	创意	advmod
+创意	梦	amod
+的	创意	mark:rel
+生活	梦	nmod
+梦	潜藏	obj
+。	潜藏	punct
+----------------------------------------------------------------------
+爱德华·卡特梅尔在学校时的志向是成为迪斯尼公司的动画师，但是他放弃了这个目标，因为他不会画画。
+
+(ROOT (IP (IP (NP (NP (NNP 爱德华) (/ ·) (NNP 卡特梅尔)) (DNP (LCP (PP (VV 在) (NP (NN 学校))) (IN 时)) (DEC 的)) (NP (NN 志向))) (VP (VC 是) (IP (VP (VV 成) (VP (VC 为) (NP (DNP (NP (NNP 迪斯尼) (NN 公司)) (DEC 的)) (NP (NN 动画) (SFN 师)))))))) (, ，) (IP (ADVP (RB 但是)) (NP (PRP 他)) (VP (VV 放弃) (AS 了) (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 目标))))) (, ，) (PP (IN 因为) (IP (NP (PRP 他)) (VP (MD 不会) (VP (VV 画画))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP7123': {}, ',31794': {}, 'PP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP36789': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',59315': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+Dependency Features:
+爱德华	志向	nmod
+·	卡特梅尔	punct
+卡特梅尔	爱德华	flat:name
+在	志向	acl:relcl
+学校	在	obj
+时	在	mark
+的	在	mark:rel
+志向	是	nsubj
+是	ROOT	root
+成	是	xcomp
+为	成	mark
+迪斯尼	公司	nmod
+公司	成	obj
+的	成	mark:rel
+动画	师	compound
+师	成	obj
+，	放弃	punct
+但是	放弃	mark
+他	放弃	nsubj
+放弃	是	parataxis
+了	放弃	aux
+这	个	det
+个	目标	clf
+目标	放弃	obj
+，	画画	punct
+因为	画画	case
+他	画画	nsubj
+会	画画	aux
+画画	放弃	ccomp
+。	是	punct
+----------------------------------------------------------------------
+他毕业于计算机科学和物理学，意识到计算机动画可以成为克服这一障碍的一种方式。
+
+(ROOT (IP (NP (PRP 他)) (VP (VP (VV 毕业) (PP (IN 于) (NP (VV 计算) (SFN 机) (NN 科学) (CC 和) (NN 物理) (SFN 学)))) (, ，) (VP (VRD (VV 意识) (VV 到)) (IP (NP (VV 计算) (SFN 机) (NN 动画)) (VP (MD 可以) (VP (VV 成) (VP (VC 为) (NP (CP (CP (IP (VP (VP (VV 克服) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 障碍)))))) (DEC 的))) (QP (CD 一) (CLP (NNB 种))) (NP (NN 方式))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP68862': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+他	意识	nsubj
+毕业	意识	advcl
+于	科学	case
+计算	机	compound
+机	科学	nmod
+科学	毕业	obl
+和	学	cc
+物理	学	compound
+学	科学	conj
+，	毕业	punct
+意识	ROOT	root
+到	意识	mark
+计算	机	compound
+机	动画	nmod
+动画	成	nsubj
+可以	成	aux
+成	意识	ccomp
+为	成	mark
+克服	方式	acl:relcl
+这	障碍	det
+一	障碍	nummod
+障碍	克服	obj
+的	克服	mark:rel
+一	种	nummod
+种	方式	clf
+方式	成	obj
+。	意识	punct
+----------------------------------------------------------------------
+于是卡特默召集了一小群人组建了一个计算机图形学组，这个组后来成为了PIXAR。
+
+(ROOT (IP (IP (ADVP (RB 于是)) (NP (NNP 卡特默)) (VP (VV 召集) (AS 了) (NP (QP (CD 一) (CLP (ADJP (PFA 小)) (CLP (NNB 群)))) (NP (NN 人))) (IP (VP (VV 组建) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (NP (VV 计算) (SFN 机) (NN 图形) (SFN 学) (SFN 组))))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 组))) (VP (ADVP (NN 后来)) (VP (VV 成) (VP (VC 为) (AS 了) (NP (FW PIXAR)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP34844': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP89917': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+于是	组建	mark
+卡特默	组建	nsubj
+召集	组建	advcl
+了	召集	aux
+一	群	nummod
+小	群	case
+群	人	nmod
+人	召集	obj
+组建	ROOT	root
+了	组建	aux
+一	个	nummod
+个	组	nmod
+计算	机	compound
+机	组	nmod
+图形	学	compound
+学	组	compound
+组	组建	obj
+，	成	punct
+这	个	det
+个	组	clf
+组	成	nsubj
+后来	成	nmod:tmod
+成	组建	parataxis
+为	成	mark
+了	成	aux
+PIXAR	成	obj
+。	组建	punct
+----------------------------------------------------------------------
+然而，他们的早期尝试并不令人振奋。
+
+(ROOT (IP (ADVP (RB 然而)) (, ，) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 早期) (NN 尝试))) (VP (ADVP (RB 并)) (VP (VV 不令) (NP (NN 人)) (IP (VP (JJ 振奋))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+然而	令	mark
+，	然而	punct
+他	尝试	det
+的	他	case
+早期	尝试	nmod
+尝试	令	nsubj
+并	令	mark
+令	ROOT	root
+人	振奋	nsubj
+振奋	令	ccomp
+。	令	punct
+----------------------------------------------------------------------
+卡特默先生和他的同事们很快意识到，尽管技术很重要，但讲故事同样重要，对电脑动画和手绘动画而言都是如此。
+
+(ROOT (IP (NP (NP (NNP 卡特默) (NN 先生)) (CC 和) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 同事) (SFN 们)))) (VP (ADVP (RB 很快)) (VP (VRD (VV 意识) (VV 到)) (, ，) (IP (IP (CP (ADVP (IN 尽管)) (IP (NP (NN 技术)) (VP (ADVP (RB 很)) (VP (JJ 重要))))) (, ，) (ADVP (RB 但)) (IP (VP (VV 讲) (NP (NN 故事)))) (VP (ADVP (RB 同样)) (VP (JJ 重要)))) (, ，) (IP (VP (IP (VP (PP (IN 对) (NP (NN 电脑) (NN 动画) (CC 和) (NN 手绘) (NN 动画))) (VP (RB 而) (VP (VV 言))))) (VP (VC 都是) (NP (VV 如此)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'CC': {}, 'NP80463': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'CC': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'CC': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+卡特默	先生	nmod
+先生	意识	nsubj
+和	们	cc
+他	们	det
+的	他	case
+同事	们	compound
+们	先生	conj
+很快	意识	advmod
+意识	ROOT	root
+到	意识	mark
+，	言	punct
+尽管	重要	case
+技术	重要	nsubj
+很	重要	advmod
+重要	言	ccomp
+，	重要	punct
+但	重要	mark
+讲	重要	csubj
+故事	讲	obj
+同样	重要	advmod
+重要	言	advcl
+，	重要	punct
+对	动画	case
+电脑	动画	nmod
+动画	言	obl
+和	动画	cc
+手绘	动画	nmod
+动画	动画	conj
+而	言	mark
+言	意识	ccomp
+是	如此	cop
+如此	言	xcomp
+。	意识	punct
+----------------------------------------------------------------------
+在年轻动画师约翰·拉ссе特的带领下，被迪士尼拒绝的 Pixar 开始开发一种新的卡通形式，这种卡通不再围绕童话故事展开，可以吸引成年人和儿童的喜爱。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (NP (DNP (NP (NP (ADJP (JJ 年轻)) (NP (NN 动画) (SFN 师))) (NP (NNP 约翰) (/ ·) (NNP 拉ссе特))) (DEC 的)) (NP (NN 带领))) (IN 下))) (, ，) (NP (CP (CP (IP (VP (BB 被) (CP (IP (NP (NNP 迪士尼)) (VP (VV 拒绝)))))) (DEC 的))) (NP (FW Pixar))) (VP (VV 开始) (VP (VV 开发) (NP (QP (CD 一) (CLP (NNB 种))) (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 卡通) (NN 形式)))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 卡通))) (VP (VP (ADVP (RB 不)) (ADVP (RB 再)) (VP (VP (VV 围绕) (NP (NN 童话) (NN 故事))) (VP (VV 展开)))) (, ，) (VP (MD 可以) (VP (VV 吸引) (NP (DNP (NP (NP (ADJP (NN 成年)) (NP (SFN 人))) (CC 和) (NP (NN 儿童))) (DEC 的)) (NP (NN 喜爱))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP22531': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP17949': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+在	带领	case
+年轻	师	amod
+动画	师	compound
+师	带领	nmod
+约翰	师	appos
+·	拉ссе特	punct
+拉ссе特	约翰	flat:name
+的	约翰	case
+带领	开始	obl
+下	带领	case
+，	带领	punct
+被	拒绝	aux:pass
+迪士尼	拒绝	nsubj
+拒绝	Pixar	acl:relcl
+的	拒绝	mark:rel
+Pixar	开始	nsubj
+开始	ROOT	root
+开发	开始	xcomp
+一	种	nummod
+种	形式	clf
+新	形式	amod
+的	新	mark:rel
+卡通	形式	nmod
+形式	开发	obj
+，	吸引	punct
+这	种	det
+种	卡通	clf
+卡通	吸引	nsubj
+不	围绕	advmod
+再	围绕	advmod
+围绕	展开	advcl
+童话	故事	nmod
+故事	围绕	obj
+展开	吸引	advcl
+，	展开	punct
+可以	吸引	aux
+吸引	开始	parataxis
+成年	人	compound
+人	喜爱	nmod
+和	儿童	cc
+儿童	人	conj
+的	人	case
+喜爱	吸引	obj
+。	开始	punct
+----------------------------------------------------------------------
+皮克斯很快吸引了“星球大战”系列电影导演乔治·卢卡斯的注意，其前景似乎十分可靠。
+
+(ROOT (IP (IP (NP (NNP 皮克斯)) (VP (ADVP (RB 很快)) (VP (VV 吸引) (AS 了) (NP (DNP (NP (NP (NP (`` “) (NN 星球) (NN 大战) ('' ”)) (NP (NN 系列) (NN 电影) (NN 导演))) (NP (NNP 乔治) (/ ·) (NNP 卢卡斯))) (DEC 的)) (NP (NN 注意)))))) (, ，) (IP (NP (NP (PRP 其)) (NP (NN 前景))) (VP (RB 似乎) (VP (ADVP (RB 十分)) (VP (JJ 可靠))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP64411': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP81991': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+皮克斯	吸引	nsubj
+很快	吸引	advmod
+吸引	ROOT	root
+了	吸引	aux
+“	大战	punct
+星球	大战	nmod
+大战	导演	nmod
+”	大战	punct
+系列	导演	nmod
+电影	导演	nmod
+导演	注意	nmod
+乔治	导演	appos
+·	卢卡斯	punct
+卢卡斯	乔治	flat:name
+的	乔治	case
+注意	吸引	obj
+，	可靠	punct
+其	前景	nmod
+前景	可靠	nsubj
+似乎	可靠	advmod
+十分	可靠	advmod
+可靠	吸引	parataxis
+。	吸引	punct
+----------------------------------------------------------------------
+但罗杰·盖里·卢卡斯先生真正想要的只是让这家小公司为罗杰·盖里·卢卡斯影业的电影制作闪亮的特效，而不是制作自己的费用昂贵的电脑动画电影。
+
+(ROOT (IP (ADVP (RB 但)) (NP (CP (CP (IP (NP (NNP 罗杰) (/ ·) (NNP 盖里) (/ ·) (NNP 卢卡斯) (NN 先生)) (VP (ADVP (RB 真正)) (VP (VV 想要)))) (DEC 的)))) (VP (ADVP (RB 只)) (VP (VC 是) (VP (VP (VV 让) (NP (DP (DT 这) (CLP (NNB 家))) (ADJP (PFA 小)) (NP (NN 公司))) (IP (VP (PP (IN 为) (NP (DNP (NP (NP (NNP 罗杰) (/ ·) (NNP 盖里) (/ ·) (NNP 卢卡斯)) (NP (NN 影业))) (DEC 的)) (NP (NN 电影)))) (VP (VV 制作) (NP (CP (CP (IP (VP (JJ 闪亮))) (DEC 的))) (NP (NN 特效))))))) (, ，) (VP (ADVP (RB 而)) (VP (VC 不是) (VP (VV 制作) (NP (CP (CP (NP (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 费用))) (VP (JJ 昂贵))) (DEC 的))) (NP (NN 电脑) (NN 动画) (NN 电影))))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'CP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'CP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'CP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+但	是	mark
+罗杰	先生	nmod
+·	盖里	punct
+盖里	罗杰	flat:name
+·	卢卡斯	punct
+卢卡斯	罗杰	flat:name
+先生	想要	nsubj
+真正	想要	advmod
+想要	是	csubj
+的	想要	mark:rel
+只	是	advmod
+是	是	advcl
+让	是	xcomp
+这	家	det
+家	公司	clf
+小	公司	case
+公司	制作	nsubj
+为	电影	case
+罗杰	影业	nmod
+·	盖里	punct
+盖里	罗杰	flat:name
+·	卢卡斯	punct
+卢卡斯	影业	nmod
+影业	电影	nmod
+的	影业	mark:rel
+电影	制作	obl
+制作	让	ccomp
+闪亮	特效	amod
+的	闪亮	mark:rel
+特效	制作	obj
+，	是	punct
+而	是	mark
+是	ROOT	root
+制作	是	xcomp
+自己	电影	det
+的	自己	case
+费用	昂贵	nsubj
+昂贵	电影	amod
+的	昂贵	mark:rel
+电脑	电影	nmod
+动画	电影	nmod
+电影	制作	obj
+。	是	punct
+----------------------------------------------------------------------
+1985 年，PIXAR 亏损严重，几乎被通用汽车和飞利浦电子公司收购，后者希望利用 PIXAR 的计算机图形模拟工具来帮助设计汽车和将医学扫描变成三维图像。
+
+(ROOT (IP (IP (NP (CD 1985) (NNB 年)) (, ，) (NP (FW PIXAR)) (NP (NN 亏损)) (VP (JJ 严重))) (, ，) (IP (VP (ADVP (RB 几乎)) (VP (BB 被) (CP (IP (NP (NNP 通用) (NN 汽车) (CC 和) (NNP 飞利) (NNP 浦) (NN 电子) (NN 公司)) (VP (VV 收购))))))) (, ，) (IP (NP (NN 后者)) (VP (VV 希望) (IP (VP (VP (VV 利用) (NP (DNP (NP (FW PIXAR)) (DEC 的)) (NP (VV 计算) (SFN 机) (NN 图形) (NN 模拟) (NN 工具)))) (VP (RB 来) (VP (VV 帮助) (IP (VP (VP (VV 设计) (NP (NN 汽车))) (CC 和) (VP (BB 将) (IP (NP (NN 医学) (VV 扫描)) (VP (VV 变成) (NP (QP (CD 三) (CLP (NN 维))) (NP (NN 图像)))))))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP52369': {}, ',63034': {}, 'IP23950': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP60187': {}, 'NP84553': {}, 'VP': {}}, ',': {}, 'IP96475': {'VP': {}}, ',2781': {}, 'IP44444': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+1985	年	nummod
+年	严重	nmod:tmod
+，	年	punct
+PIXAR	亏损	nmod
+亏损	严重	nsubj
+严重	收购	advcl
+，	严重	punct
+几乎	收购	advmod
+被	收购	aux:pass
+通用	汽车	nmod
+汽车	收购	nsubj
+和	公司	cc
+飞利	公司	nmod
+浦	公司	nmod
+电子	公司	nmod
+公司	汽车	conj
+收购	ROOT	root
+，	希望	punct
+后者	希望	nsubj
+希望	收购	parataxis
+利用	帮助	advcl
+PIXAR	机	det
+的	PIXAR	mark:rel
+计算	机	compound
+机	工具	nmod
+图形	工具	nmod
+模拟	工具	nmod
+工具	利用	obj
+来	帮助	mark
+帮助	希望	xcomp
+设计	帮助	xcomp
+汽车	设计	obj
+和	扫描	cc
+将	医学	case
+医学	扫描	obl:patient
+扫描	变成	advcl
+变成	设计	ccomp
+三	维	nummod
+维	图像	nmod
+图像	变成	obj
+。	收购	punct
+----------------------------------------------------------------------
+即使苹果公司的联合创始人史蒂夫·乔布斯 (Steve Jobs) 亲自前来救场，但是 Pixar 仍然处于危险之中。
+
+(ROOT (IP (CP (ADVP (IN 即使)) (IP (NP (NP (DNP (NP (NNP 苹果) (NN 公司)) (DEC 的)) (ADJP (NN 联合)) (NP (VV 创始) (SFN 人))) (NP (NNP 史蒂夫) (/ ·) (NNP 乔布斯) (FW -LRB-Steve) (FW Jobs-RRB-))) (VP (ADVP (RB 亲自)) (VP (VSB (VV 前来) (VV 救场)))))) (, ，) (ADVP (RB 但是)) (NP (FW Pixar)) (VP (ADVP (RB 仍然)) (VP (VV 处) (PP (VV 于) (LCP (NP (NN 危险)) (IN 之中))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'FW': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'FW': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+即使	前来	case
+苹果	公司	nmod
+公司	人	nmod
+的	公司	case
+联合	人	nmod
+创始	人	compound
+人	前来	nsubj
+史蒂夫	人	appos
+·	乔布斯	punct
+乔布斯	史蒂夫	flat:name
+(Steve	人	appos
+Jobs)	(Steve	flat:foreign
+亲自	前来	advmod
+前来	处	ccomp
+救场	前来	xcomp
+，	前来	punct
+但是	处	mark
+Pixar	处	nsubj
+仍然	处	advmod
+处	ROOT	root
+于	处	mark
+危险	处	obj
+之中	危险	case
+。	处	punct
+----------------------------------------------------------------------
+它假惺惺地做电脑公司的做法并不成功：Pixar 图像计算机的销售很缓慢。
+
+(ROOT (IP (IP (NP (PRP 它)) (VP (VP (DVP (VP (VV 假惺) (JJ 惺)) (DEV 地)) (VP (VV 做) (NP (DNP (NP (NN 电脑) (NN 公司)) (DEC 的)) (NP (NN 做法))))) (VP (ADVP (RB 并)) (ADVP (RB 不)) (VP (JJ 成功))))) (: ：) (IP (NP (DNP (NP (NP (FW Pixar)) (NP (NN 图像) (VV 计算) (SFN 机))) (DEC 的)) (NP (NN 销售))) (VP (ADVP (RB 很)) (VP (JJ 缓慢)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP32305': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP84526': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+它	做法	nmod
+假惺	做法	acl:relcl
+惺	做	xcomp
+地	惺	mark:adv
+做	做法	acl:relcl
+电脑	公司	nmod
+公司	做	obj
+的	做	mark:rel
+做法	成功	nsubj
+并	不	advmod
+不	成功	advmod
+成功	ROOT	root
+：	缓慢	punct
+Pixar	销售	nmod
+图像	机	nmod
+计算	机	compound
+机	Pixar	appos
+的	Pixar	case
+销售	缓慢	nsubj
+很	缓慢	advmod
+缓慢	成功	parataxis
+。	成功	punct
+----------------------------------------------------------------------
+该公司唯一的重要收入来源是制作卡通广告，卖别的公司的产品。
+
+(ROOT (IP (NP (NP (DP (DT 该)) (NP (NN 公司))) (DNP (ADJP (JJ 唯一)) (DEC 的)) (ADJP (JJ 重要)) (NP (NN 收入) (NN 来源))) (VP (VC 是) (NP (CP (CP (IP (VP (VV 制作) (NP (NP (NN 卡通) (NN 广告)) (, ，) (NP (CP (CP (IP (VP (VV 卖别))) (DEC 的))) (NP (NN 公司)))))) (DEC 的))) (NP (NN 产品)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'DNP': {}, 'ADJP': {}, 'NP10018': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'DNP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'DNP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+该	公司	det
+公司	来源	nmod
+唯一	来源	amod
+的	唯一	mark:rel
+重要	来源	amod
+收入	来源	nmod
+来源	是	nsubj
+是	ROOT	root
+制作	是	xcomp
+卡通	广告	nmod
+广告	制作	obj
+，	卖别	punct
+卖别	公司	acl:relcl
+的	卖别	mark:rel
+公司	产品	nmod
+的	卖别	mark:rel
+产品	制作	obj
+。	是	punct
+----------------------------------------------------------------------
+但是，还是有一丝希望。
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (VP (ADVP (RB 还是)) (VP (VV 有) (NP (QP (JJ 一丝)) (NP (NN 希望))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+但是	有	mark
+，	但是	punct
+还是	有	mark
+有	ROOT	root
+一丝	希望	amod
+希望	有	obj
+。	有	punct
+----------------------------------------------------------------------
+1988 年，一部名为《锡金玩具》的短片获得奥斯卡奖，这足以让 Pixar 生存下去，更重要的是，这让迪斯尼对其产生了兴趣。
+
+(ROOT (IP (IP (NP (CD 1988) (NNB 年)) (, ，) (NP (QP (CD 一) (CLP (NNB 部))) (CP (CP (IP (NP (NN 名)) (VP (VC 为) (NP (-LRB- 《) (NNP 锡金) (NN 玩具) (-RRB- 》)))) (DEC 的))) (NP (NN 短片))) (VP (VV 获得) (NP (NNP 奥斯卡) (SFN 奖)))) (, ，) (IP (DP (DT 这)) (VP (NN 足) (IP (VP (RB 以) (VP (VV 让) (NP (FW Pixar)) (IP (VP (VRD (VV 生存) (VV 下去))))))))) (, ，) (IP (NP (CP (CP (IP (VP (ADVP (RB 更)) (VP (JJ 重要)))) (DEC 的)))) (VP (VC 是) (, ，) (IP (NP (PRD 这)) (VP (VV 让) (NP (NNP 迪斯尼)) (IP (VP (PP (IN 对) (NP (PRP 其))) (VP (VV 产生) (AS 了) (NP (NN 兴趣))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP29791': {}, ',92686': {}, 'IP41958': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP23647': {}, 'VP': {}}, ',': {}, 'IP83786': {'DP': {}, 'VP': {}}, ',54529': {}, 'IP29628': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'DP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'DP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+1988	年	nummod
+年	获得	nmod:tmod
+，	年	punct
+一	部	nummod
+部	名	clf
+名	玩具	nsubj
+为	玩具	cop
+《	玩具	punct
+锡金	玩具	nmod
+玩具	短片	nmod
+》	玩具	punct
+的	玩具	case
+短片	获得	nsubj
+获得	ROOT	root
+奥斯卡	奖	compound
+奖	获得	obj
+，	让	punct
+这	足	det
+足	让	nsubj
+以	让	mark
+让	获得	parataxis
+Pixar	生存	nsubj
+生存	让	ccomp
+下去	生存	mark
+，	是	punct
+更	重要	advmod
+重要	是	csubj
+的	重要	mark:rel
+是	获得	parataxis
+，	让	punct
+这	让	nsubj
+让	是	ccomp
+迪斯尼	产生	nsubj
+对	其	case
+其	产生	obl
+产生	让	ccomp
+了	产生	aux
+兴趣	产生	obj
+。	获得	punct
+----------------------------------------------------------------------
+两家工作室合作制作了《玩具总动员》，该片获得了好评和商业成功。
+
+(ROOT (IP (IP (NP (QP (CD 两) (CLP (NNB 家))) (NP (VV 工作) (SFN 室))) (VP (VP (VV 合作)) (VP (VV 制作) (AS 了) (NP (-LRB- 《) (NN 玩具) (NN 总动) (SFN 员) (-RRB- 》))))) (, ，) (IP (NP (NN 该片)) (VP (VV 获得) (AS 了) (NP (NN 好评) (CC 和) (NN 商业) (NN 成功)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP31259': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP75928': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+两	家	nummod
+家	室	nmod
+工作	室	compound
+室	制作	nsubj
+合作	制作	advcl
+制作	ROOT	root
+了	制作	aux
+《	员	punct
+玩具	员	nmod
+总动	员	compound
+员	制作	obj
+》	员	punct
+，	获得	punct
+该片	获得	nsubj
+获得	制作	parataxis
+了	获得	aux
+好评	获得	obj
+和	成功	cc
+商业	成功	nmod
+成功	好评	conj
+。	制作	punct
+----------------------------------------------------------------------
+随后又有几部电影取得了成功，PIXAR 让好莱坞惊叹不已。
+
+(ROOT (IP (IP (VP (ADVP (RB 随后)) (ADVP (RB 又)) (VP (VV 有) (IP (NP (QP (CD 几) (CLP (NNB 部))) (NP (NN 电影))) (VP (VV 取得) (AS 了) (NP (JJ 成功))))))) (, ，) (IP (NP (FW PIXAR)) (VP (VV 让好) (NP (NNP 莱坞)) (IP (VP (VV 惊叹) (ADVP (JJ 不已)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP94840': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP54797': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+随后	有	advmod
+又	有	mark
+有	ROOT	root
+几	部	nummod
+部	电影	clf
+电影	取得	nsubj
+取得	有	ccomp
+了	取得	aux
+成功	取得	xcomp
+，	让好	punct
+PIXAR	让好	nsubj
+让好	有	parataxis
+莱坞	惊叹	nsubj
+惊叹	让好	ccomp
+不已	惊叹	xcomp
+。	有	punct
+----------------------------------------------------------------------
+该工作室因其创意文化和坚持原创而广受赞誉。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (VV 工作) (SFN 室))) (VP (PP (IN 因) (NP (NP (NP (PRP 其)) (NP (NN 创意) (NN 文化))) (CC 和) (IP (VP (VV 坚持) (NP (NN 原创)))))) (VP (RB 而) (VP (VV 广受) (NP (NN 赞誉))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+该	室	det
+工作	室	compound
+室	广受	nsubj
+因	文化	case
+其	文化	nmod
+创意	文化	nmod
+文化	广受	obl
+和	坚持	cc
+坚持	文化	conj
+原创	坚持	obj
+而	广受	mark
+广受	ROOT	root
+赞誉	广受	obj
+。	广受	punct
+----------------------------------------------------------------------
+在美国，能够有这么圣洁的声誉的公司很少。
+
+(ROOT (IP (PP (VV 在) (NP (NNP 美国))) (, ，) (NP (CP (CP (IP (VP (MD 能够) (VP (VV 有) (NP (CP (CP (IP (VP (ADVP (RB 这么)) (VP (JJ 圣洁)))) (DEC 的))) (NP (NN 声誉)))))) (DEC 的))) (NP (NN 公司))) (VP (JJ 很少)) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'JJ': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'JJ': {}}, '.': {}}}
+{'PP': {'VV': {}, 'NP': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'JJ': {}}}
+Dependency Features:
+在	有	advcl
+美国	在	obj
+，	在	punct
+能够	有	aux
+有	公司	acl:relcl
+这么	圣洁	advmod
+圣洁	声誉	amod
+的	圣洁	mark:rel
+声誉	有	obj
+的	有	mark:rel
+公司	很少	nsubj
+很少	ROOT	root
+。	很少	punct
+----------------------------------------------------------------------
+2006 年，迪士尼以 74 亿美元收购了 Pixar，并立即将 Catmull 和 Lasseter 任命为迪士尼自己的动画部门负责人。
+
+(ROOT (IP (NP (CD 2006) (NNB 年)) (, ，) (NP (NNP 迪士尼)) (VP (VP (PP (IN 以) (QP (CD 74) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元)))))) (VP (VV 收购) (AS 了) (NP (FW Pixar)))) (, ，) (RB 并) (VP (VV 立) (NP (ADVP (RB 即将)) (NP (FW Catmull) (CC 和) (FW Lasseter))) (VP (VRD (VV 任命) (VC 为)) (NP (DNP (NP (NNP 迪士尼) (PRD 自己)) (DEC 的)) (NP (NN 动画) (NN 部门)) (NP (VV 负责) (SFN 人)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP35133': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP93095': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP87862': {}}, '.': {}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+2006	年	nummod
+年	收购	nmod:tmod
+，	年	punct
+迪士尼	收购	nsubj
+以	元	case
+74	元	nummod
+亿	元	nummod
+美	元	nmod
+元	收购	obl
+收购	任命	advcl
+了	收购	aux
+Pixar	收购	obj
+，	收购	punct
+并	立	mark
+立	任命	advcl
+即将	任命	advmod
+Catmull	立	obj
+和	Lasseter	cc
+Lasseter	Catmull	conj
+任命	ROOT	root
+为	任命	mark
+迪士尼	部门	nmod
+自己	迪士尼	appos
+的	迪士尼	case
+动画	部门	nmod
+部门	人	nmod
+负责	人	compound
+人	任命	obj
+。	任命	punct
+----------------------------------------------------------------------
+在这部关于 Pixar 早年的出色而易读的书中，有许多关于迪斯尼的有趣事情。
+
+(ROOT (IP (VP (PP (IN 在) (NP (DP (DT 这) (CLP (NNB 部))) (DNP (PP (IN 关于) (NP (NP (FW Pixar)) (NP (NN 早年)))) (DEC 的)) (CP (CP (IP (VP (JJ 出色) (RB 而) (VV 易读))) (DEC 的))) (NP (NN 书中)))) (, ，) (VP (VV 有) (NP (QP (CD 许多)) (DNP (PP (IN 关于) (NP (NNP 迪斯尼))) (DEC 的)) (ADJP (JJ 有趣)) (NP (NN 事情))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'VP': {'PP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+在	书中	case
+这	部	det
+部	书中	clf
+关于	书中	case
+Pixar	早年	nmod
+早年	出色	nmod
+的	早年	case
+出色	易读	xcomp
+而	易读	mark
+易读	书中	acl:relcl
+的	易读	mark:rel
+书中	有	obl
+，	书中	punct
+有	ROOT	root
+许多	事情	nummod
+关于	事情	case
+迪斯尼	事情	nmod
+的	事情	case
+有趣	事情	amod
+事情	有	obj
+。	有	punct
+----------------------------------------------------------------------
+例如，大卫·普雷斯声称，迪士尼的首席执行官迈克尔·艾斯纳在 1984 年接任首席执行官后考虑关闭公司的动画部门，这一点令人震惊，因为之后出品的卡通片如《狮子王》等都取得了巨大的成功。
+
+(ROOT (IP (ADVP (RB 例如)) (, ，) (NP (NNP 大卫) (/ ·) (NNP 普雷斯)) (VP (VV 声称) (, ，) (IP (IP (NP (NP (DNP (NP (NNP 迪士尼)) (DEC 的)) (NP (JJ 首席) (VV 执行) (SFN 官))) (NP (NNP 迈克尔) (/ ·) (NNP 艾斯纳))) (VP (LCP (IP (VP (PP (IN 在) (NP (CD 1984))) (VP (NNB 年接任) (NP (JJ 首席) (VV 执行))))) (NN 官后)) (VP (VV 考虑) (IP (VP (VV 关闭) (NP (DNP (NP (NN 公司)) (DEC 的)) (NP (NN 动画) (NN 部门)))))))) (, ，) (VP (DP (DT 这) (CLP (RB 一点))) (VP (VV 令) (NP (NN 人)) (IP (VP (JJ 震惊))))) (, ，) (PP (IN 因为) (IP (NP (NP (NP (CP (CP (IP (VP (ADVP (NN 之后)) (VP (VV 出品)))) (DEC 的))) (NP (NN 卡通) (SFN 片))) (NP (ADVP (RB 如)) (NP (-LRB- 《) (NN 狮子) (SFN 王) (-RRB- 》)))) (NN 等)) (VP (ADVP (RB 都)) (VP (VV 取得) (AS 了) (NP (CP (CP (IP (VP (JJ 巨大))) (DEC 的))) (NP (NN 成功))))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NNP': {}, '/': {}, 'NNP34366': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+例如	ROOT	root
+，	声称	punct
+大卫	声称	nsubj
+·	普雷斯	punct
+普雷斯	大卫	flat:name
+声称	例如	ccomp
+，	考虑	punct
+迪士尼	官	nmod
+的	迪士尼	case
+首席	官	amod
+执行	官	compound
+官	考虑	nsubj
+迈克尔	官	appos
+·	艾斯纳	punct
+艾斯纳	迈克尔	flat:name
+在	官后	case
+1984	年接任	nummod
+年接任	官后	clf
+首席	官后	amod
+执行	官后	compound
+官后	考虑	obl
+考虑	令	advcl
+关闭	部门	acl:relcl
+公司	关闭	obj
+的	关闭	mark:rel
+动画	部门	nmod
+部门	考虑	obj
+，	令	punct
+这	令	nsubj
+一点	令	advmod
+令	例如	parataxis
+人	震惊	nsubj
+震惊	令	ccomp
+，	取得	punct
+因为	取得	case
+之后	出品	nmod:tmod
+出品	片	acl:relcl
+的	出品	mark:rel
+卡通	片	compound
+片	取得	nsubj
+如	取得	advcl
+《	王	punct
+狮子	王	compound
+王	如	obj
+》	王	punct
+等	王	acl
+都	取得	mark
+取得	例如	ccomp
+了	取得	aux
+巨大	成功	amod
+的	巨大	mark:rel
+成功	取得	obj
+。	例如	punct
+----------------------------------------------------------------------
+米斯先生还明确表示，皮克斯怎么可能不感谢迪斯尼：例如，迪斯尼为《玩具总动员》的营销，给了乔布斯足够的信心，于 2005 年推出皮克斯的首次公开募股。
+
+(ROOT (IP (NP (NNP 米斯) (NN 先生)) (VP (ADVP (RB 还)) (ADVP (RB 明确)) (VP (VV 表示) (, ，) (IP (NP (NNP 皮克斯)) (VP (ADVP (RB 怎么)) (VP (MD 可能) (VP (ADVP (RB 不)) (VP (VV 感谢) (NP (NNP 迪斯尼))))))))) (: ：)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, ':': {}}}
+{'IP': {'NP': {}, 'VP': {}, ':': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'ADVP31343': {}, 'VP': {}}, ':': {}}}
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, ':': {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+米斯	先生	nmod
+先生	表示	nsubj
+还	表示	mark
+明确	表示	advmod
+表示	ROOT	root
+，	感谢	punct
+皮克斯	感谢	nsubj
+怎么	感谢	advmod
+可能	感谢	aux
+不	感谢	advmod
+感谢	表示	ccomp
+迪斯尼	感谢	obj
+：	表示	punct
+----------------------------------------------------------------------
+普莱斯离开了 Pixar 和动画师，让米老鼠和朋友们来照顾他们，他认为一切都会好起来的。
+
+(ROOT (IP (IP (NP (NNP 普莱斯)) (VP (VP (VV 离开) (AS 了) (NP (FW Pixar) (CC 和) (NN 动画) (SFN 师))) (, ，) (VP (VV 让) (NP (NNP 米) (NN 老鼠) (CC 和) (NN 朋友) (SFN 们)) (IP (VP (RB 来) (VP (VV 照顾) (NP (PRP 他们)))))))) (, ，) (IP (NP (PRP 他)) (VP (VV 认为) (CP (IP (NP (DT 一切)) (VP (ADVP (RB 都)) (VP (MD 会) (VP (VRD (RB 好) (VV 起来)))))) (UH 的)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP55938': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP46652': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+普莱斯	离开	nsubj
+离开	ROOT	root
+了	离开	aux
+Pixar	离开	obj
+和	师	cc
+动画	师	compound
+师	Pixar	conj
+，	离开	punct
+让	照顾	advcl
+米	老鼠	nmod
+老鼠	照顾	nsubj
+和	们	cc
+朋友	们	compound
+们	老鼠	conj
+来	照顾	mark
+照顾	为	advcl
+他	照顾	obj
+，	为	punct
+他	为	nsubj
+为	离开	parataxis
+一切	起来	nsubj
+都	起来	mark
+会	起来	aux
+好	起来	advmod
+起来	为	ccomp
+的	为	discourse
+。	离开	punct
+----------------------------------------------------------------------
+迄今为止，收购无疑为迪士尼带来了好处。
+
+(ROOT (IP (IP (VP (PP (IN 迄) (NP (NN 今))) (VP (VC 为) (NP (NN 止))))) (, ，) (NP (VV 收购)) (VP (ADVP (RB 无疑)) (PP (IN 为) (NP (NNP 迪士尼))) (VP (VV 带来) (AS 了) (NP (NN 好处)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'VV': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'VV': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'VV': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+迄	今	case
+今	止	nmod
+为	止	cop
+止	带来	advcl
+，	止	punct
+收购	带来	csubj
+无疑	带来	advmod
+为	迪士尼	case
+迪士尼	带来	obl
+带来	ROOT	root
+了	带来	aux
+好处	带来	obj
+。	带来	punct
+----------------------------------------------------------------------
+近年来离开动画巨头的创意人员开始重返，而在皮克斯准备明年推出第九部长片《Wall-E》（讲述2700年的机器人故事）之际，公司的士气正旺。
+
+(ROOT (IP (IP (LCP (NP (NN 近年)) (IN 来)) (NP (CP (CP (IP (VP (VV 离开) (NP (NN 动画) (NN 巨头)))) (DEC 的))) (NP (NN 创意) (NN 人员))) (VP (VV 开始) (VP (VV 重返)))) (, ，) (IP (ADVP (RB 而)) (IP (VP (PP (IN 在) (NP (NNP 皮克斯))) (VP (VV 准备) (IP (VP (NP (NN 明年)) (VP (VV 推出) (NP (DNP (NP (NP (NP (QP (CD 第九)) (NP (NN 部长))) (NP (SFN 片))) (NP (-LRB- 《) (FW Wall-E) (-RRB- 》)) (PRN (-LRB- （) (VP (VV 讲述) (NP (DNP (NP (CD 2700) (NNB 年)) (DEC 的)) (NP (NN 机器) (SFN 人) (NN 故事)))) (-RRB- ）))) (DEC 之)) (NP (NN 际))))))))) (, ，) (NP (DNP (NP (NN 公司)) (DEC 的)) (NP (NN 士气))) (VP (JJ 正旺))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP60406': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP11038': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'LCP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+近年	开始	nmod:tmod
+来	近年	case
+离开	人员	acl:relcl
+动画	巨头	nmod
+巨头	离开	obj
+的	离开	mark:rel
+创意	人员	nmod
+人员	开始	nsubj
+开始	ROOT	root
+重返	开始	xcomp
+，	准备	punct
+而	准备	mark
+在	皮克斯	case
+皮克斯	准备	obl
+准备	开始	parataxis
+明年	推出	nmod:tmod
+推出	准备	xcomp
+第九	部长	nummod
+部长	片	compound
+片	推出	obj
+《	Wall-E	punct
+Wall-E	片	appos
+》	Wall-E	punct
+（	讲述	punct
+讲述	际	acl:relcl
+2700	年	nummod
+年	故事	nmod
+的	讲述	mark:rel
+机器	人	compound
+人	故事	nmod
+故事	讲述	obj
+）	之	punct
+之	讲述	mark:rel
+际	正旺	nmod
+，	际	punct
+公司	士气	nmod
+的	公司	case
+士气	正旺	nsubj
+正旺	开始	parataxis
+。	开始	punct
+----------------------------------------------------------------------
+但是，公司将来是否还会有同样的活力，当拉塞特先生与迪士尼再次发生“创意”上的争执时，皮克斯的前途将会如何？皮克斯从此以后，安全地躲在强大的公司里，可能会变得不那么显眼。
+
+(ROOT (IP (IP (ADVP (RB 但是)) (, ，) (NP (NN 公司)) (VP (NP (NN 将来)) (ADVP (VC 是否)) (ADVP (RB 还)) (VP (MD 会) (VP (VV 有) (NP (DNP (ADJP (JJ 同样)) (DEC 的)) (NP (NN 活力))))))) (, ，) (IP (PP (IN 当) (LCP (IP (NP (NP (NNP 拉塞特) (NN 先生)) (CC 与) (NP (NNP 迪士尼))) (VP (ADVP (RB 再次)) (VP (VV 发生) (NP (DNP (LCP (NP (`` “) (NN 创意) ('' ”)) (IN 上)) (DEC 的)) (NP (NN 争执)))))) (IN 时))) (, ，) (NP (DNP (NP (NNP 皮克斯)) (DEC 的)) (NP (NN 前途))) (VP (ADVP (RB 将)) (VP (MD 会) (VP (JJ 如何))))) (. ？)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP76595': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP45752': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+但是	是	mark
+，	但是	punct
+公司	是	nsubj
+将来	是	nmod:tmod
+是	ROOT	root
+还	有	mark
+会	有	aux
+有	是	xcomp
+同样	活力	amod
+的	同样	mark:rel
+活力	有	obj
+，	如何	punct
+当	发生	case
+拉塞特	先生	nmod
+先生	发生	nsubj
+与	迪士尼	cc
+迪士尼	先生	conj
+再次	发生	advmod
+发生	争执	acl:relcl
+“	创意	punct
+创意	发生	obj
+”	创意	punct
+上	创意	case
+的	发生	mark:rel
+争执	如何	nmod
+时	发生	mark
+，	发生	punct
+皮克斯	前途	nmod
+的	皮克斯	case
+前途	如何	nsubj
+将	如何	advmod
+会	如何	aux
+如何	是	parataxis
+？	如何	punct
+----------------------------------------------------------------------
+但这并不意味着它会变得不那么有趣。
+
+(ROOT (IP (ADVP (RB 但)) (NP (PRD 这)) (VP (ADVP (RB 并)) (ADVP (RB 不)) (VP (VV 意味) (AS 着) (IP (NP (PRP 它)) (VP (MD 会) (VP (VV 变得) (VP (ADVP (RB 不)) (ADVP (RB 那么)) (VP (JJ 有趣)))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'ADVP58060': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+但	意味	mark
+这	意味	nsubj
+并	不	advmod
+不	意味	advmod
+意味	ROOT	root
+着	意味	aux
+它	变得	nsubj
+会	变得	aux
+变得	意味	ccomp
+不	有趣	advmod
+那么	有趣	advmod
+有趣	变得	xcomp
+。	意味	punct
+----------------------------------------------------------------------

@@ -1,0 +1,457 @@
+东京（路透社） - 任天堂公司（7974.OS: 报价、简介、研究、股价动态）的 Wii 游戏机在 6 月再次在日本的销量超过索尼公司（6758.T: 报价、简介、研究、股价动态）的 PlayStation 3，但其领先优势正在消失，一家游戏杂志出版商称。
+
+(ROOT (IP (IP (NP (DNP (NP (NP (NNP 东京)) (PRN (-LRB- （) (NP (NNP 路透) (SFN 社)) (-RRB- ）)) (HYPH -) (NP (NNP 任天堂) (NN 公司)) (PRN (-LRB- （) (NP (FW 7974.OS:) (NP (NN 报价) (EC 、) (NN 简介) (EC 、) (NN 研究) (EC 、) (NN 股价) (NN 动态))) (-RRB- ）))) (DEC 的)) (NP (FW Wii) (NN 游戏) (SFN 机))) (VP (PP (IN 在) (QP (CD 6) (NNB 月))) (ADVP (RB 再次)) (NP (DNP (PP (VV 在) (NP (NNP 日本))) (DEC 的)) (NP (NN 销量))) (VP (VV 超过) (NP (DNP (NP (NNP 索尼) (NN 公司) (PRN (-LRB- （) (NP (CD 6758.T:) (NP (NN 报价) (EC 、) (NN 简介) (EC 、) (NN 研究) (EC 、) (NN 股价) (NN 动态))) (-RRB- ）))) (DEC 的)) (NP (FW Play) (FW Station) (CD 3)))))) (, ，) (IP (ADVP (RB 但)) (NP (NP (PRP 其)) (NP (JJ 领先) (NN 优势))) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 消失)))) (, ，) (IP (NP (NP (QP (CD 一) (CLP (NNB 家))) (NP (NN 游戏) (NN 杂志))) (NP (VV 出版))) (VP (VV 商称))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP93518': {}, ',56102': {}, 'IP46737': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP40971': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',17190': {}, 'IP21370': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['东京', '公司', 'nmod']
+['PUNCT', 'PART', 'punct']	['（', '社', 'punct']
+['PROPN', 'PART', 'compound']	['路透', '社', 'compound']
+['PART', 'PROPN', 'appos']	['社', '东京', 'appos']
+['PUNCT', 'PART', 'punct']	['）', '社', 'punct']
+['PUNCT', 'PART', 'punct']	['-', '社', 'punct']
+['PROPN', 'NOUN', 'nmod']	['任天堂', '公司', 'nmod']
+['NOUN', 'PART', 'nmod']	['公司', '机', 'nmod']
+['PUNCT', 'X', 'punct']	['（', '7974.OS:', 'punct']
+['X', 'NOUN', 'nmod']	['7974.OS:', '报价', 'nmod']
+['NOUN', 'NOUN', 'appos']	['报价', '公司', 'appos']
+['PUNCT', 'NOUN', 'punct']	['、', '简介', 'punct']
+['NOUN', 'NOUN', 'conj']	['简介', '报价', 'conj']
+['PUNCT', 'NOUN', 'punct']	['、', '研究', 'punct']
+['NOUN', 'NOUN', 'conj']	['研究', '报价', 'conj']
+['PUNCT', 'NOUN', 'punct']	['、', '动态', 'punct']
+['NOUN', 'NOUN', 'nmod']	['股价', '动态', 'nmod']
+['NOUN', 'NOUN', 'conj']	['动态', '报价', 'conj']
+['PUNCT', 'PART', 'punct']	['）', '的', 'punct']
+['PART', 'X', 'mark:rel']	['的', '7974.OS:', 'mark:rel']
+['X', 'PART', 'nmod']	['Wii', '机', 'nmod']
+['NOUN', 'PART', 'compound']	['游戏', '机', 'compound']
+['PART', 'VERB', 'nsubj']	['机', '超过', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '月', 'case']
+['NUM', 'NOUN', 'nummod']	['6', '月', 'nummod']
+['NOUN', 'VERB', 'obl']	['月', '超过', 'obl']
+['ADV', 'VERB', 'advmod']	['再次', '在', 'advmod']
+['VERB', 'NOUN', 'acl:relcl']	['在', '销量', 'acl:relcl']
+['PROPN', 'VERB', 'obj']	['日本', '在', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '在', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['销量', '超过', 'nsubj']
+['VERB', 'ROOT', 'root']	['超过', 'NONE', 'root']
+['PROPN', 'NOUN', 'nmod']	['索尼', '公司', 'nmod']
+['NOUN', 'VERB', 'obj']	['公司', '超过', 'obj']
+['PUNCT', 'NOUN', 'punct']	['（', '报价', 'punct']
+['NUM', 'NOUN', 'nmod']	['6758.T:', '报价', 'nmod']
+['NOUN', 'NOUN', 'appos']	['报价', '公司', 'appos']
+['PUNCT', 'NOUN', 'punct']	['、', '简介', 'punct']
+['NOUN', 'NOUN', 'conj']	['简介', '报价', 'conj']
+['PUNCT', 'NOUN', 'punct']	['、', '研究', 'punct']
+['NOUN', 'NOUN', 'conj']	['研究', '报价', 'conj']
+['PUNCT', 'NOUN', 'punct']	['、', '动态', 'punct']
+['NOUN', 'NOUN', 'nmod']	['股价', '动态', 'nmod']
+['NOUN', 'NOUN', 'conj']	['动态', '报价', 'conj']
+['PUNCT', 'NOUN', 'punct']	['）', '动态', 'punct']
+['PART', 'NOUN', 'case']	['的', '报价', 'case']
+['X', 'NOUN', 'conj']	['Play', '公司', 'conj']
+['X', 'X', 'flat:foreign']	['Station', 'Play', 'flat:foreign']
+['NUM', 'X', 'flat:foreign']	['3', 'Play', 'flat:foreign']
+['PUNCT', 'VERB', 'punct']	['，', '消失', 'punct']
+['ADV', 'VERB', 'mark']	['但', '消失', 'mark']
+['PRON', 'NOUN', 'nmod']	['其', '优势', 'nmod']
+['ADJ', 'NOUN', 'amod']	['领先', '优势', 'amod']
+['NOUN', 'VERB', 'nsubj']	['优势', '消失', 'nsubj']
+['ADV', 'VERB', 'advmod']	['正', '消失', 'advmod']
+['ADV', 'VERB', 'advmod']	['在', '消失', 'advmod']
+['VERB', 'VERB', 'parataxis']	['消失', '超过', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['，', '商称', 'punct']
+['NUM', 'NOUN', 'nummod']	['一', '家', 'nummod']
+['NOUN', 'NOUN', 'clf']	['家', '杂志', 'clf']
+['NOUN', 'NOUN', 'nmod']	['游戏', '杂志', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['杂志', '商称', 'nsubj']
+['VERB', 'VERB', 'advcl']	['出版', '商称', 'advcl']
+['VERB', 'VERB', 'parataxis']	['商称', '超过', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '超过', 'punct']
+----------------------------------------------------------------------
+Enterbrain 表示，Wii 的销量比竞争对手高出 1.7 倍，成为第七个月的第一款游戏主机，但这一数字远远低于 Wii 在 5 月份的 6 倍领先。
+
+(ROOT (IP (NP (FW Enterbrain)) (VP (VV 表示) (, ，) (IP (IP (NP (DNP (NP (FW Wii)) (DEC 的)) (NP (NN 销量))) (VP (VP (PP (IN 比) (NP (NN 竞争) (NN 对手))) (VP (VV 高出) (QP (CD 1.7) (CLP (NNB 倍))))) (, ，) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (QP (CD 第七) (CLP (NNB 个))) (NP (NN 月))) (DEC 的)) (QP (CD 第一) (CLP (NNB 款))) (NP (NN 游戏) (NN 主机))))))) (, ，) (IP (ADVP (RB 但)) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 数字))) (VP (ADVP (RB 远远)) (VP (JJ 低) (PP (VV 于) (NP (NP (FW Wii)) (DNP (PP (IN 在) (NP (QP (CD 5)) (NP (NN 月份)))) (DEC 的)) (QP (CD 6) (CLP (NNB 倍))) (NP (NN 领先))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['X', 'VERB', 'nsubj']	['Enterbrain', '表示', 'nsubj']
+['VERB', 'ROOT', 'root']	['表示', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '成', 'punct']
+['DET', 'NOUN', 'det']	['Wii', '销量', 'det']
+['PART', 'DET', 'case']	['的', 'Wii', 'case']
+['NOUN', 'VERB', 'nsubj']	['销量', '成', 'nsubj']
+['ADP', 'NOUN', 'case']	['比', '对手', 'case']
+['NOUN', 'NOUN', 'nmod']	['竞争', '对手', 'nmod']
+['NOUN', 'VERB', 'obl']	['对手', '高出', 'obl']
+['VERB', 'VERB', 'advcl']	['高出', '成', 'advcl']
+['NUM', 'NOUN', 'nummod']	['1.7', '倍', 'nummod']
+['NOUN', 'VERB', 'obj']	['倍', '高出', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '高出', 'punct']
+['VERB', 'VERB', 'ccomp']	['成', '表示', 'ccomp']
+['VERB', 'VERB', 'mark']	['为', '成', 'mark']
+['NUM', 'NOUN', 'nummod']	['第七', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '月', 'clf']
+['NOUN', 'NOUN', 'nmod']	['月', '主机', 'nmod']
+['PART', 'NOUN', 'case']	['的', '月', 'case']
+['NUM', 'NOUN', 'nummod']	['第一', '款', 'nummod']
+['NOUN', 'NOUN', 'clf']	['款', '主机', 'clf']
+['NOUN', 'NOUN', 'nmod']	['游戏', '主机', 'nmod']
+['NOUN', 'VERB', 'obj']	['主机', '成', 'obj']
+['PUNCT', 'ADJ', 'punct']	['，', '低', 'punct']
+['ADV', 'ADJ', 'mark']	['但', '低', 'mark']
+['DET', 'NOUN', 'det']	['这', '数字', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '数字', 'nummod']
+['NOUN', 'ADJ', 'nsubj']	['数字', '低', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['远远', '低', 'advmod']
+['ADJ', 'VERB', 'parataxis']	['低', '表示', 'parataxis']
+['VERB', 'ADJ', 'mark']	['于', '低', 'mark']
+['X', 'NOUN', 'nmod']	['Wii', '领先', 'nmod']
+['ADP', 'NOUN', 'case']	['在', '月份', 'case']
+['NUM', 'NOUN', 'nummod']	['5', '月份', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['月份', '领先', 'nmod']
+['PART', 'NOUN', 'case']	['的', '领先', 'case']
+['NUM', 'NOUN', 'nummod']	['6', '倍', 'nummod']
+['NOUN', 'NOUN', 'clf']	['倍', '领先', 'clf']
+['NOUN', 'ADJ', 'obj']	['领先', '低', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '表示', 'punct']
+----------------------------------------------------------------------
+该杂志称，科乐美公司（9766.T: 价格、简介、研究、股价）于六月份推出了高度期待的《Metal Gear Solid 4》，为索尼机器带来了需求。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 杂志))) (VP (VV 称) (, ，) (IP (NP (NP (NNP 科乐) (NNP 美) (NN 公司)) (PRN (-LRB- （) (NP (NP (CD 9766.T:)) (NP (NN 价格) (EC 、) (NN 简介) (EC 、) (NN 研究) (EC 、) (NN 股价))) (-RRB- ）))) (VP (VP (PP (IN 于) (NP (QP (CD 六) (CLP (NNB 月))) (NP (NNB 份)))) (VP (VV 推出) (AS 了) (NP (CP (CP (IP (NP (ADJP (NN 高度)) (NP (VV 期待)))) (DEC 的))) (NP (-LRB- 《) (NP (FW Metal) (FW Gear) (FW Solid)) (QP (CD 4)) (-RRB- 》))))) (, ，) (VP (PP (IN 为) (NP (NNP 索尼) (NN 机器))) (VP (VV 带来) (AS 了) (NP (NN 需求))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['该', '杂志', 'det']
+['NOUN', 'VERB', 'nsubj']	['杂志', '称', 'nsubj']
+['VERB', 'ROOT', 'root']	['称', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '带来', 'punct']
+['PROPN', 'NOUN', 'nmod']	['科乐', '公司', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['美', '公司', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['公司', '推出', 'nsubj']
+['PUNCT', 'NUM', 'punct']	['（', '9766.T:', 'punct']
+['NUM', 'NOUN', 'appos']	['9766.T:', '公司', 'appos']
+['NOUN', 'NUM', 'obj']	['价格', '9766.T:', 'obj']
+['PUNCT', 'NOUN', 'punct']	['、', '简介', 'punct']
+['NOUN', 'NOUN', 'conj']	['简介', '价格', 'conj']
+['PUNCT', 'NOUN', 'punct']	['、', '研究', 'punct']
+['NOUN', 'NOUN', 'conj']	['研究', '价格', 'conj']
+['PUNCT', 'NOUN', 'punct']	['、', '股价', 'punct']
+['NOUN', 'NOUN', 'conj']	['股价', '价格', 'conj']
+['PUNCT', 'NOUN', 'punct']	['）', '价格', 'punct']
+['ADP', 'NOUN', 'case']	['于', '份', 'case']
+['NUM', 'NOUN', 'nummod']	['六', '月', 'nummod']
+['NOUN', 'NOUN', 'clf']	['月', '份', 'clf']
+['NOUN', 'VERB', 'obl']	['份', '推出', 'obl']
+['VERB', 'VERB', 'advcl']	['推出', '带来', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '推出', 'aux']
+['NOUN', 'VERB', 'obl']	['高度', '期待', 'obl']
+['VERB', 'X', 'acl:relcl']	['期待', 'Metal', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '期待', 'mark:rel']
+['PUNCT', 'X', 'punct']	['《', 'Metal', 'punct']
+['X', 'VERB', 'obj']	['Metal', '推出', 'obj']
+['X', 'X', 'flat:foreign']	['Gear', 'Metal', 'flat:foreign']
+['X', 'X', 'flat:foreign']	['Solid', 'Metal', 'flat:foreign']
+['NUM', 'X', 'flat:foreign']	['4', 'Metal', 'flat:foreign']
+['PUNCT', 'X', 'punct']	['》', 'Metal', 'punct']
+['PUNCT', 'VERB', 'punct']	['，', '推出', 'punct']
+['ADP', 'NOUN', 'case']	['为', '机器', 'case']
+['PROPN', 'NOUN', 'nmod']	['索尼', '机器', 'nmod']
+['NOUN', 'VERB', 'obl']	['机器', '带来', 'obl']
+['VERB', 'VERB', 'ccomp']	['带来', '称', 'ccomp']
+['AUX', 'VERB', 'aux']	['了', '带来', 'aux']
+['NOUN', 'VERB', 'obj']	['需求', '带来', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '称', 'punct']
+----------------------------------------------------------------------
+Enterbrain 表示，在 6 月 29 日结束的五周内，任天堂 Wii 游戏机的销量为 235,990 台，而 PS3 的销量为 139,494 台。
+
+(ROOT (IP (NP (FW Enterbrain)) (VP (VV 表示) (, ，) (IP (IP (LCP (NP (CP (CP (IP (VP (PP (IN 在) (NP (CD 6) (NNB 月 29) (NNB 日))) (VP (VV 结束)))) (DEC 的))) (QP (CD 五) (CLP (NNB 周)))) (IN 内)) (, ，) (NP (DNP (NP (NP (NNP 任天堂)) (NP (FW Wii) (NN 游戏) (SFN 机))) (DEC 的)) (NP (NN 销量))) (VP (VC 为) (QP (CD 235,990) (CLP (NNB 台))))) (, ，) (RB 而) (IP (NP (DNP (NP (FW PS3)) (DEC 的)) (NP (NN 销量))) (VP (VC 为) (QP (CD 139,494) (CLP (NNB 台))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['X', 'VERB', 'nsubj']	['Enterbrain', '表示', 'nsubj']
+['VERB', 'ROOT', 'root']	['表示', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['，', '台', 'punct']
+['ADP', 'NOUN', 'case']	['在', '周', 'case']
+['NUM', 'NOUN', 'nummod']	['6', '月 29', 'nummod']
+['NOUN', 'NOUN', 'clf']	['月 29', '日', 'clf']
+['NOUN', 'VERB', 'obl']	['日', '结束', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['结束', '周', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '结束', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['五', '周', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['周', '台', 'nmod']
+['ADP', 'NOUN', 'case']	['内', '周', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '周', 'punct']
+['PROPN', 'PART', 'nmod']	['任天堂', '机', 'nmod']
+['X', 'PART', 'nmod']	['Wii', '机', 'nmod']
+['NOUN', 'PART', 'compound']	['游戏', '机', 'compound']
+['PART', 'NOUN', 'nmod']	['机', '销量', 'nmod']
+['PART', 'PART', 'case']	['的', '机', 'case']
+['NOUN', 'NOUN', 'nsubj']	['销量', '台', 'nsubj']
+['AUX', 'NOUN', 'cop']	['为', '台', 'cop']
+['NUM', 'NOUN', 'nummod']	['235,990', '台', 'nummod']
+['NOUN', 'VERB', 'ccomp']	['台', '表示', 'ccomp']
+['PUNCT', 'NOUN', 'punct']	['，', '台', 'punct']
+['ADV', 'NOUN', 'mark']	['而', '台', 'mark']
+['X', 'NOUN', 'nmod']	['PS3', '销量', 'nmod']
+['PART', 'X', 'case']	['的', 'PS3', 'case']
+['NOUN', 'NOUN', 'nsubj']	['销量', '台', 'nsubj']
+['AUX', 'NOUN', 'cop']	['为', '台', 'cop']
+['NUM', 'NOUN', 'nummod']	['139,494', '台', 'nummod']
+['NOUN', 'VERB', 'parataxis']	['台', '表示', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '表示', 'punct']
+----------------------------------------------------------------------
+微软公司 (MSFT.O: 报价、公司简介、研究报告、股票动态) Xbox 360 的销量为 10,964 台，位居第三。
+
+(ROOT (IP (NP (DNP (NP (NP (NP (NNP 微软) (NN 公司)) (FW -LRB-MSFT.O:) (NP (NP (NN 报价)) (EC 、) (NP (NN 公司) (NN 简介)) (EC 、) (NP (NN 研究) (NN 报告)) (EC 、) (NP (NN 股票) (NN 动态)) (-RRB- -RRB-))) (NP (FW Xbox) (FW 360))) (DEC 的)) (NP (NN 销量))) (VP (VP (VC 为) (QP (CD 10,964) (CLP (NNB 台)))) (, ，) (VP (VV 位居) (QP (CD 第三)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP58910': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['微软', '公司', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['公司', '销量', 'nmod']
+['X', 'NOUN', 'punct']	['(MSFT.O:', '报价', 'punct']
+['NOUN', 'NOUN', 'appos']	['报价', '公司', 'appos']
+['PUNCT', 'NOUN', 'punct']	['、', '简介', 'punct']
+['NOUN', 'NOUN', 'nmod']	['公司', '简介', 'nmod']
+['NOUN', 'NOUN', 'conj']	['简介', '报价', 'conj']
+['PUNCT', 'NOUN', 'punct']	['、', '报告', 'punct']
+['NOUN', 'NOUN', 'nmod']	['研究', '报告', 'nmod']
+['NOUN', 'NOUN', 'conj']	['报告', '报价', 'conj']
+['PUNCT', 'NOUN', 'punct']	['、', '动态', 'punct']
+['NOUN', 'NOUN', 'nmod']	['股票', '动态', 'nmod']
+['NOUN', 'NOUN', 'conj']	['动态', '报价', 'conj']
+['PUNCT', 'NOUN', 'punct']	[')', '动态', 'punct']
+['X', 'X', 'nmod']	['Xbox', '360', 'nmod']
+['X', 'NOUN', 'appos']	['360', '报价', 'appos']
+['PART', 'NOUN', 'case']	['的', '报价', 'case']
+['NOUN', 'VERB', 'nsubj']	['销量', '位居', 'nsubj']
+['AUX', 'NOUN', 'cop']	['为', '台', 'cop']
+['NUM', 'NOUN', 'nummod']	['10,964', '台', 'nummod']
+['NOUN', 'VERB', 'csubj']	['台', '位居', 'csubj']
+['PUNCT', 'NOUN', 'punct']	['，', '台', 'punct']
+['VERB', 'ROOT', 'root']	['位居', 'NONE', 'root']
+['NUM', 'VERB', 'obj']	['第三', '位居', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '位居', 'punct']
+----------------------------------------------------------------------
+尽管在六月份表现强劲，但PS3在全球销量方面还有很大的追赶空间。
+
+(ROOT (IP (VP (ADVP (IN 尽管)) (PP (IN 在) (NP (NP (QP (CD 六)) (NP (NNB 月))) (NP (IN 份)))) (NP (VV 表现)) (VP (JJ 强劲))) (, ，) (ADVP (RB 但)) (NP (FW PS3)) (VP (PP (IN 在) (NP (NN 全球) (NN 销量) (NN 方面))) (ADVP (RB 还)) (VP (VV 有) (NP (CP (CP (IP (VP (JJ 很大))) (DEC 的))) (NP (NN 追赶) (NN 空间))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP59406': {}, '.': {}}}
+{'IP': {'VP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'ADVP': {}, 'PP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'FW': {}}, 'VP41840': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {'ADVP': {}, 'PP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'FW': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'NP': {}, 'VP': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['尽管', '表现', 'case']
+['ADP', 'NOUN', 'case']	['在', '月', 'case']
+['NUM', 'NOUN', 'nummod']	['六', '月', 'nummod']
+['NOUN', 'VERB', 'obl']	['月', '表现', 'obl']
+['ADP', 'NOUN', 'case']	['份', '月', 'case']
+['VERB', 'VERB', 'xcomp']	['表现', '有', 'xcomp']
+['ADJ', 'VERB', 'xcomp']	['强劲', '表现', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '表现', 'punct']
+['ADV', 'VERB', 'mark']	['但', '有', 'mark']
+['X', 'VERB', 'nsubj']	['PS3', '有', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '方面', 'case']
+['NOUN', 'NOUN', 'nmod']	['全球', '方面', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['销量', '方面', 'nmod']
+['NOUN', 'VERB', 'obl']	['方面', '有', 'obl']
+['ADV', 'VERB', 'mark']	['还', '有', 'mark']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['ADJ', 'NOUN', 'amod']	['很大', '空间', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '很大', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['追赶', '空间', 'nmod']
+['NOUN', 'VERB', 'obj']	['空间', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+截至 3 月底，索尼最新游戏机全球销量为 1285 万台，仅为竞争对手两家公司 2006 年下半年推出的游戏机销量的一半。
+
+(ROOT (IP (PP (IN 截至) (NP (CD 3) (NN 月底))) (, ，) (NP (NP (NP (NNP 索尼)) (ADJP (JJ 最新)) (NP (NN 游戏) (SFN 机))) (NP (NN 全球) (NN 销量))) (VP (VP (VC 为) (QP (CD 1285) (CLP (NNB 万台)))) (, ，) (VP (ADVP (RB 仅)) (VP (VC 为) (QP (DNP (NP (NP (CP (CP (IP (NP (NP (NN 竞争) (NN 对手)) (QP (CD 两) (CLP (NNB 家))) (NP (NN 公司))) (VP (NP (CD 2006)) (DP (NNB 年下半) (CLP (NNB 年))) (VP (VV 推出)))) (DEC 的))) (NP (NN 游戏) (SFN 机))) (NP (NN 销量))) (DEC 的)) (QP (CD 一半)))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NP': {}, 'NP17566': {}}, 'VP': {'VP': {}, ',': {}, 'VP80220': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['截至', '月底', 'case']
+['NUM', 'NOUN', 'nummod']	['3', '月底', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['月底', '万台', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['，', '月底', 'punct']
+['PROPN', 'PART', 'nmod']	['索尼', '机', 'nmod']
+['ADJ', 'PART', 'amod']	['最新', '机', 'amod']
+['NOUN', 'PART', 'compound']	['游戏', '机', 'compound']
+['PART', 'NOUN', 'nmod']	['机', '销量', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['全球', '销量', 'nmod']
+['NOUN', 'NOUN', 'nsubj']	['销量', '万台', 'nsubj']
+['AUX', 'NOUN', 'cop']	['为', '万台', 'cop']
+['NUM', 'NOUN', 'nummod']	['1285', '万台', 'nummod']
+['NOUN', 'ROOT', 'root']	['万台', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['，', '万台', 'punct']
+['ADV', 'NUM', 'advmod']	['仅', '一半', 'advmod']
+['AUX', 'NUM', 'cop']	['为', '一半', 'cop']
+['NOUN', 'NOUN', 'nmod']	['竞争', '对手', 'nmod']
+['NOUN', 'NUM', 'nmod']	['对手', '一半', 'nmod']
+['NUM', 'NOUN', 'nummod']	['两', '家', 'nummod']
+['NOUN', 'NOUN', 'clf']	['家', '公司', 'clf']
+['NOUN', 'VERB', 'nsubj']	['公司', '推出', 'nsubj']
+['NUM', 'NOUN', 'nummod']	['2006', '年下半', 'nummod']
+['NOUN', 'NOUN', 'clf']	['年下半', '年', 'clf']
+['NOUN', 'VERB', 'nmod:tmod']	['年', '推出', 'nmod:tmod']
+['VERB', 'NOUN', 'acl:relcl']	['推出', '销量', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '推出', 'mark:rel']
+['NOUN', 'PART', 'compound']	['游戏', '机', 'compound']
+['PART', 'NOUN', 'nmod']	['机', '销量', 'nmod']
+['NOUN', 'NUM', 'nmod']	['销量', '一半', 'nmod']
+['PART', 'VERB', 'mark:rel']	['的', '推出', 'mark:rel']
+['NUM', 'NOUN', 'parataxis']	['一半', '万台', 'parataxis']
+['PUNCT', 'NUM', 'punct']	['。', '一半', 'punct']
+----------------------------------------------------------------------
+据出版商称，在这五周期间，索尼手持游戏机 PlayStation Portable 的销量为 274,131 台，超过了任天堂的 DS 设备销量 195,714 台。
+
+(ROOT (IP (PP (IN 据) (IP (NP (VV 出版) (SFN 商)) (VP (VV 称)))) (, ，) (PP (IN 在) (LCP (NP (DP (DT 这) (QP (CD 五))) (NP (NNB 周期))) (IN 间))) (, ，) (NP (DNP (NP (NP (NP (NNP 索尼)) (VP (VV 手持) (NP (NN 游戏) (SFN 机)))) (NP (FW Play) (FW Station) (FW Portable))) (DEC 的)) (NP (NN 销量))) (VP (VP (VC 为) (QP (CD 274,131) (CLP (NNB 台)))) (, ，) (VP (VV 超过) (AS 了) (NP (DNP (NP (NNP 任天堂)) (DEC 的)) (NP (FW DS) (NN 设备) (NN 销量))) (QP (CD 195,714) (CLP (NNB 台))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'PP11076': {}, ',98473': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'PP21913': {'IN': {}, 'LCP': {}}, ',63544': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP91016': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['据', '称', 'case']
+['VERB', 'PART', 'compound']	['出版', '商', 'compound']
+['PART', 'VERB', 'nsubj']	['商', '称', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['称', '超过', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '称', 'punct']
+['ADP', 'NOUN', 'case']	['在', '周期', 'case']
+['DET', 'NOUN', 'det']	['这', '周期', 'det']
+['NUM', 'NOUN', 'nummod']	['五', '周期', 'nummod']
+['NOUN', 'VERB', 'obl']	['周期', '超过', 'obl']
+['ADP', 'NOUN', 'case']	['间', '周期', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '周期', 'punct']
+['PROPN', 'VERB', 'nsubj']	['索尼', '手持', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['手持', '销量', 'acl:relcl']
+['NOUN', 'PART', 'compound']	['游戏', '机', 'compound']
+['PART', 'VERB', 'obj']	['机', '手持', 'obj']
+['X', 'PART', 'appos']	['Play', '机', 'appos']
+['X', 'X', 'flat:foreign']	['Station', 'Play', 'flat:foreign']
+['X', 'X', 'flat:foreign']	['Portable', 'Play', 'flat:foreign']
+['PART', 'VERB', 'mark:rel']	['的', '手持', 'mark:rel']
+['NOUN', 'NOUN', 'nsubj']	['销量', '台', 'nsubj']
+['AUX', 'NOUN', 'cop']	['为', '台', 'cop']
+['NUM', 'NOUN', 'nummod']	['274,131', '台', 'nummod']
+['NOUN', 'VERB', 'advcl']	['台', '超过', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['，', '台', 'punct']
+['VERB', 'ROOT', 'root']	['超过', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '超过', 'aux']
+['PROPN', 'NOUN', 'nmod']	['任天堂', '销量', 'nmod']
+['PART', 'PROPN', 'case']	['的', '任天堂', 'case']
+['X', 'NOUN', 'nmod']	['DS', '销量', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['设备', '销量', 'nmod']
+['NOUN', 'NOUN', 'nsubj']	['销量', '台', 'nsubj']
+['NUM', 'NOUN', 'nummod']	['195,714', '台', 'nummod']
+['NOUN', 'VERB', 'obj']	['台', '超过', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '超过', 'punct']
+----------------------------------------------------------------------
+宣布前，索尼股价上涨了 0.9%，收于 4600 日元，任天堂股价上涨了 0.2%，收于 60900 日元。
+
+(ROOT (IP (IP (LCP (IP (VP (VV 宣布))) (IN 前)) (, ，) (NP (NP (NNP 索尼)) (NP (NN 股价))) (VP (VP (VV 上涨) (AS 了) (QP (CD 0.9%))) (, ，) (VP (VV 收) (PP (VV 于) (QP (CD 4600) (CLP (NNB 日元))))))) (, ，) (IP (NP (NP (NNP 任天堂)) (NP (NN 股价))) (VP (VP (VV 上涨) (AS 了) (QP (CD 0.2%))) (, ，) (VP (VV 收) (PP (VV 于) (QP (CD 60900) (CLP (NNB 日元))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP99965': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP45951': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['宣布', '收', 'advcl']
+['ADP', 'VERB', 'mark']	['前', '宣布', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '宣布', 'punct']
+['PROPN', 'NOUN', 'nmod']	['索尼', '股价', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['股价', '收', 'nsubj']
+['VERB', 'VERB', 'advcl']	['上涨', '收', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '上涨', 'aux']
+['NUM', 'VERB', 'obj']	['0.9%', '上涨', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '上涨', 'punct']
+['VERB', 'VERB', 'advcl']	['收', '收', 'advcl']
+['VERB', 'VERB', 'mark']	['于', '收', 'mark']
+['NUM', 'NOUN', 'nummod']	['4600', '日元', 'nummod']
+['NOUN', 'VERB', 'obj']	['日元', '收', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '收', 'punct']
+['PROPN', 'NOUN', 'nmod']	['任天堂', '股价', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['股价', '上涨', 'nsubj']
+['VERB', 'VERB', 'advcl']	['上涨', '收', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '上涨', 'aux']
+['NUM', 'VERB', 'obj']	['0.2%', '上涨', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '上涨', 'punct']
+['VERB', 'ROOT', 'root']	['收', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['于', '收', 'mark']
+['NUM', 'NOUN', 'nummod']	['60900', '日元', 'nummod']
+['NOUN', 'VERB', 'obj']	['日元', '收', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '收', 'punct']
+----------------------------------------------------------------------
+日经平均指数.N225 下跌 0.2%。
+
+(ROOT (IP (NP (NP (NNP 日经)) (ADJP (JJ 平均)) (NP (NN 指数))) (NP (FW .N225)) (VP (VV 下跌) (QP (CD 0.2%))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'NP42079': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'ADJP': {}, 'NP2754': {}}, 'NP44536': {'FW': {}}, 'VP': {'VV': {}, 'QP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'ADJP': {}, 'NP': {}}, 'NP': {'FW': {}}, 'VP': {'VV': {}, 'QP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'ADJP': {}, 'NP': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'VV': {}, 'QP': {}}}
+Dependency Features:
+['PROPN', 'X', 'nmod']	['日经', '.N225', 'nmod']
+['ADJ', 'X', 'amod']	['平均', '.N225', 'amod']
+['NOUN', 'X', 'nmod']	['指数', '.N225', 'nmod']
+['X', 'VERB', 'nsubj']	['.N225', '下跌', 'nsubj']
+['VERB', 'ROOT', 'root']	['下跌', 'NONE', 'root']
+['NUM', 'VERB', 'obj']	['0.2%', '下跌', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '下跌', 'punct']
+----------------------------------------------------------------------

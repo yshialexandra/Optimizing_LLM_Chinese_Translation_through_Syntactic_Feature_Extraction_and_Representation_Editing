@@ -1,0 +1,1821 @@
+距离奥巴马政府刚刚成立三周，希拉里·克林顿的亚洲之行将会发出许多信号，但实质性内容不多。
+(ROOT (IP (IP (PP (IN 距离) (IP (NP (NP (NNP 奥巴马)) (NP (NN 政府))) (VP (ADVP (RB 刚刚)) (VP (VV 成立) (QP (CD 三) (CLP (NNB 周))))))) (, ，) (NP (DNP (NP (DNP (NP (NNP 希拉里) (/ ·) (NNP 克林顿)) (DEC 的)) (NP (NNP 亚洲))) (DEC 之)) (NP (RB 行将))) (VP (MD 会) (VP (VV 发出) (NP (QP (CD 许多)) (NP (NN 信号)))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 实质) (SFN 性) (NN 内容)) (VP (JJ 不多))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP24120': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP92100': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+距离	成立	case
+奥巴马	政府	nmod
+政府	成立	nsubj
+刚刚	成立	advmod
+成立	发出	ccomp
+三	周	nummod
+周	成立	obl
+，	成立	punct
+希拉里	亚洲	nmod
+·	克林顿	punct
+克林顿	希拉里	flat:name
+的	希拉里	case
+亚洲	发出	nsubj
+之	亚洲	case
+行将	发出	advmod
+会	发出	aux
+发出	ROOT	root
+许多	信号	nummod
+信号	发出	obj
+，	不多	punct
+但	不多	mark
+实质	性	compound
+性	内容	nmod
+内容	不多	nsubj
+不多	发出	parataxis
+。	发出	punct
+----------------------------------------------------------------------
+这并不一定是坏事，尤其是它向日本和韩国这两个盟友发出了几个至关重要的信息。
+(ROOT (IP (IP (NP (PRD 这)) (VP (ADVP (RB 并)) (ADVP (RB 不)) (ADVP (RB 一定)) (VP (VC 是) (NP (NN 坏事))))) (, ，) (IP (ADVP (RB 尤其)) (ADVP (VC 是)) (NP (PRP 它)) (VP (PP (IN 向) (NP (NP (NNP 日本) (CC 和) (NNP 韩国)) (DP (DT 这) (QP (CD 两) (CLP (NNB 个)))) (NP (NN 盟友)))) (VP (VV 发出) (AS 了) (NP (QP (CD 几) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 至关重要))) (DEC 的))) (NP (NN 信息)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP72310': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP38341': {'ADVP': {}, 'ADVP43107': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+这	是	nsubj
+并	坏事	mark
+不	坏事	advmod
+一定	坏事	advmod
+是	坏事	cop
+坏事	是	advcl
+，	坏事	punct
+尤其	是	advmod
+是	ROOT	root
+它	发出	nsubj
+向	日本	case
+日本	发出	obl
+和	韩国	cc
+韩国	日本	conj
+这	个	det
+两	个	nummod
+个	盟友	nmod
+盟友	发出	obl
+发出	是	ccomp
+了	发出	aux
+几	个	nummod
+个	信息	clf
+至关重要	信息	amod
+的	至关重要	mark:rel
+信息	发出	obj
+。	是	punct
+----------------------------------------------------------------------
+她的这次访问表明，亚洲对美国来说很重要，华盛顿致力于在该地区长期发挥主导作用。
+(ROOT (IP (NP (DNP (NP (PRP 她)) (DEC 的)) (DP (DT 这) (CLP (NNB 次))) (NP (NN 访问))) (VP (VV 表明) (, ，) (IP (IP (NP (NNP 亚洲)) (VP (IP (VP (PP (IN 对) (NP (NNP 美国))) (VP (RB 来) (VP (VV 说))))) (ADVP (RB 很)) (VP (JJ 重要)))) (, ，) (IP (NP (NNP 华盛顿)) (VP (VV 致力) (PP (VV 于) (IP (VP (PP (IN 在) (NP (DP (DT 该)) (NP (NN 地区)))) (ADVP (NN 长期)) (VP (VV 发挥) (NP (JJ 主导) (NN 作用)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+她	访问	det
+的	她	case
+这	次	det
+次	访问	clf
+访问	表明	nsubj
+表明	ROOT	root
+，	说	punct
+亚洲	说	nsubj
+对	美国	case
+美国	说	obl
+来	说	mark
+说	表明	ccomp
+很	重要	advmod
+重要	说	xcomp
+，	致力	punct
+华盛顿	致力	nsubj
+致力	表明	ccomp
+于	致力	mark
+在	地区	case
+该	地区	det
+地区	发挥	obl
+长期	发挥	obl
+发挥	致力	xcomp
+主导	作用	amod
+作用	发挥	obj
+。	表明	punct
+----------------------------------------------------------------------
+前往东京和首尔之前，北京的意义体现了我们的盟友的重要性，也是直接的努力缓解“日本过境”的担忧。
+(ROOT (IP (LCP (IP (VP (VV 前往) (NP (NNP 东京) (CC 和) (NNP 首尔)))) (IN 之前)) (, ，) (NP (DNP (NP (NNP 北京)) (DEC 的)) (NP (NN 意义))) (VP (VP (VV 体现) (AS 了) (NP (DNP (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NN 盟友))) (DEC 的)) (NP (JJ 重要) (SFN 性)))) (, ，) (VP (VC 也是) (IP (NP (DNP (ADJP (JJ 直接)) (DEC 的)) (NP (NN 努力))) (VP (VV 缓解) (NP (CP (IP (`` “) (NP (NNP 日本)) (VP (VV 过境)) ('' ”)) (DEC 的)) (NP (NN 担忧))))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP90906': {}}, '.': {}}}
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'IP': {}, 'IN': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+前往	缓解	advcl
+东京	前往	obj
+和	首尔	cc
+首尔	东京	conj
+之前	前往	mark
+，	前往	punct
+北京	意义	nmod
+的	北京	case
+意义	体现	nsubj
+体现	缓解	advcl
+了	体现	aux
+我	盟友	det
+的	我	case
+盟友	性	nmod
+的	盟友	case
+重要	性	compound
+性	体现	obj
+，	体现	punct
+是	缓解	cop
+直接	努力	amod
+的	直接	mark:rel
+努力	缓解	obl
+缓解	ROOT	root
+“	过境	punct
+日本	过境	nsubj
+过境	担忧	acl:relcl
+”	过境	punct
+的	缓解	mark:rel
+担忧	缓解	obj
+。	缓解	punct
+----------------------------------------------------------------------
+作为参议员，希拉里·克林顿撰写了一篇《外交事务》文章，她在文中表示美中关系是亚洲最重要的关系，这再次引发了日本人对于克林顿总统访问中国而未访问日本时所遭受的伤害的担忧。
+(ROOT (IP (IP (PP (VV 作) (PP (VC 为) (NP (VV 参议) (SFN 员)))) (, ，) (NP (NNP 希拉里) (/ ·) (NNP 克林顿)) (VP (VV 撰写) (AS 了) (NP (QP (CD 一) (CLP (NNB 篇))) (NP (-LRB- 《) (NN 外交) (NN 事务) (-RRB- 》)) (NP (NN 文章))))) (, ，) (IP (NP (PRP 她)) (VP (PP (IN 在) (NP (NN 文中))) (VP (VV 表示) (IP (IP (NP (NP (NNP 美中)) (NP (NN 关系))) (VP (VC 是) (NP (NP (NNP 亚洲)) (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 重要)))) (DEC 的))) (NP (NN 关系))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 再次)) (VP (VV 引发) (AS 了) (NP (DNP (NP (CP (CP (IP (NP (NP (NNP 日本)) (NP (SFN 人))) (VP (LCP (IP (VP (PP (IN 对于) (IP (NP (NNP 克林顿) (NN 总统)) (VP (VV 访问) (NP (NNP 中国))))) (VP (RB 而) (VP (ADVP (RB 未)) (VP (VV 访问) (NP (NNP 日本))))))) (IN 时)) (VP (RB 所) (VP (VV 遭受))))) (DEC 的))) (NP (NN 伤害))) (DEC 的)) (NP (NN 担忧)))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP60591': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP96086': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+作	撰写	advcl
+为	作	mark
+参议	员	compound
+员	作	obj
+，	作	punct
+希拉里	撰写	nsubj
+·	克林顿	punct
+克林顿	希拉里	flat:name
+撰写	ROOT	root
+了	撰写	aux
+一	篇	nummod
+篇	文章	clf
+《	事务	punct
+外交	事务	nmod
+事务	文章	nmod
+》	事务	punct
+文章	撰写	obj
+，	表示	punct
+她	表示	nsubj
+在	文中	case
+文中	表示	obl
+表示	撰写	parataxis
+美中	关系	nmod
+关系	关系	nsubj
+是	关系	cop
+亚洲	关系	nmod
+最	重要	advmod
+重要	关系	amod
+的	重要	mark:rel
+关系	表示	ccomp
+，	引发	punct
+这	引发	nsubj
+再次	引发	advmod
+引发	撰写	parataxis
+了	引发	aux
+日本	人	compound
+人	遭受	nsubj
+对于	总统	case
+克林顿	总统	nmod
+总统	访问	nsubj
+访问	访问	advcl
+中国	访问	obj
+而	访问	mark
+未	访问	advmod
+访问	遭受	advcl
+日本	访问	obj
+时	访问	mark
+所	遭受	mark
+遭受	担忧	acl:relcl
+的	遭受	mark:rel
+伤害	担忧	nmod
+的	遭受	mark:rel
+担忧	引发	obj
+。	撰写	punct
+----------------------------------------------------------------------
+克林顿表示，她此行是在奥巴马政府宣布其亚洲小组成员名单或最终确定其亚洲政策之前，她希望与美国的亚洲盟友建立开放对话和透明的氛围。
+(ROOT (IP (NP (NNP 克林顿)) (VP (VV 表示) (, ，) (IP (NP (PRP 她)) (VP (VC 此行是) (PP (IN 在) (LCP (IP (NP (NP (NNP 奥巴马)) (NP (NN 政府))) (VP (VP (VV 宣布) (NP (NP (NP (NP (PRP 其)) (NP (NNP 亚洲)) (NP (NN 小组))) (NP (NN 成员))) (NP (NN 名单)))) (CC 或) (VP (ADVP (NN 最终)) (VP (VV 确定) (NP (NP (PRP 其)) (NP (NNP 亚洲)) (NP (NN 政策))))))) (IN 之前)))) (, ，) (NP (PRP 她)) (VP (VV 希望) (IP (VP (PP (IN 与) (NP (DNP (NP (NNP 美国)) (DEC 的)) (NP (NNP 亚洲)) (NP (NN 盟友)))) (VP (VV 建立) (NP (NP (VV 开放) (NN 对话)) (CC 和) (NP (CP (IP (VP (JJ 透明))) (DEC 的)) (NP (NN 氛围)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+克林顿	表示	nsubj
+表示	ROOT	root
+，	希望	punct
+她	是	nsubj
+是	希望	advcl
+在	政府	case
+奥巴马	政府	nmod
+政府	宣布	nsubj
+宣布	希望	ccomp
+其	名单	nmod
+亚洲	名单	nmod
+小组	名单	nmod
+成员	名单	nmod
+名单	宣布	obj
+或	确定	cc
+最终	确定	nmod:tmod
+确定	宣布	conj
+其	政策	nmod
+亚洲	政策	nmod
+政策	确定	obj
+之前	宣布	mark
+，	宣布	punct
+她	希望	nsubj
+希望	表示	ccomp
+与	盟友	case
+美国	盟友	nmod
+的	美国	case
+亚洲	盟友	nmod
+盟友	建立	obl
+建立	希望	xcomp
+开放	建立	xcomp
+对话	开放	obj
+和	透明	cc
+透明	氛围	amod
+的	透明	mark:rel
+氛围	对话	conj
+。	表示	punct
+----------------------------------------------------------------------
+但是，当然，谈判并不能保证达成协议，而且在这次访问期间还可能出现一些有争议的问题。
+(ROOT (IP (ADVP (RB 但是)) (, ，) (ADVP (RB 当然)) (, ，) (NP (VV 谈判)) (VP (VP (ADVP (RB 并)) (VP (MD 不能) (VP (VV 保证) (IP (VP (VV 达成) (NP (NN 协议))))))) (, ，) (RB 而且) (VP (PP (IN 在) (NP (NP (DP (DT 这) (CLP (NNB 次))) (NP (NN 访问))) (NP (NN 期间)))) (ADVP (RB 还)) (VP (MD 可能) (VP (VV 出现) (NP (QP (JJ 一些)) (CP (CP (IP (VP (VV 有) (NP (NN 争议)))) (DEC 的))) (NP (NN 问题))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'ADVP5740': {}, ',72306': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'ADVP13857': {'RB': {}}, ',8545': {}, 'NP': {'VV': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP64156': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'ADVP': {'RB': {}}, ',': {}, 'NP': {'VV': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'VV': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+但是	保证	mark
+，	但是	punct
+当然	保证	advmod
+，	但是	punct
+谈判	保证	csubj
+并	保证	mark
+能	保证	aux
+保证	ROOT	root
+达成	保证	xcomp
+协议	达成	obj
+，	出现	punct
+而且	出现	mark
+在	期间	case
+这	次	det
+次	期间	clf
+访问	期间	nmod
+期间	出现	obl
+还	出现	mark
+可能	出现	aux
+出现	保证	parataxis
+一些	问题	amod
+有	问题	acl:relcl
+争议	有	obj
+的	有	mark:rel
+问题	出现	obj
+。	保证	punct
+----------------------------------------------------------------------
+克林顿必须向受到布什政府放弃实现朝鲜无核化的热情所致重要原则遭到放弃的盟友们作出安抚。
+(ROOT (IP (NP (NNP 克林顿)) (VP (MD 必须) (VP (VP (PP (IN 向) (IP (NP (CP (IP (VP (VV 受到) (NP (NP (NNP 布什)) (NP (NN 政府))) (IP (VP (VV 放弃) (IP (VP (VV 实现) (NP (NP (NNP 朝鲜)) (ADJP (VV 无)) (NP (NN 核化))))))))) (DEC 的)) (NP (NN 热情))) (VP (VV 所致) (NP (ADJP (JJ 重要)) (NP (NN 原则)))))) (VP (VV 遭到) (NP (CP (CP (IP (VP (VV 放弃))) (DEC 的))) (NP (NN 盟友) (SFN 们))))) (VP (VV 作出) (NP (NN 安抚))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+克林顿	作出	nsubj
+必须	作出	aux
+向	热情	case
+受到	热情	acl:relcl
+布什	政府	nmod
+政府	放弃	nsubj
+放弃	受到	ccomp
+实现	放弃	xcomp
+朝鲜	无	nsubj
+无	热情	acl:relcl
+核化	无	obj
+的	受到	mark:rel
+热情	所致	obl
+所致	遭到	advcl
+重要	原则	amod
+原则	所致	obj
+遭到	们	acl:relcl
+放弃	遭到	xcomp
+的	遭到	mark:rel
+盟友	们	compound
+们	作出	obl
+作出	ROOT	root
+安抚	作出	obj
+。	作出	punct
+----------------------------------------------------------------------
+此外，她应该更明确地阐述奥巴马政府的六方会谈战略以及美国—韩国自由贸易协定的立场。
+(ROOT (IP (ADVP (NN 此外)) (, ，) (NP (PRP 她)) (VP (MD 应该) (VP (DVP (VP (ADVP (RB 更)) (VP (JJ 明确))) (DEV 地)) (VP (VV 阐述) (NP (NP (DNP (NP (NP (NNP 奥巴马)) (NP (NN 政府))) (DEC 的)) (NP (NP (QP (CD 六)) (NP (NN 方))) (NP (NN 会谈))) (NP (NN 战略))) (CC 以及) (NP (DNP (NP (NP (NNP 美国) (HYPH —) (NNP 韩国)) (NP (ADJP (NN 自由)) (NP (NN 贸易))) (NP (NN 协定))) (DEC 的)) (NP (NN 立场))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'NN': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+此外	阐述	obl
+，	此外	punct
+她	阐述	nsubj
+应该	阐述	aux
+更	阐述	advmod
+明确	阐述	advmod
+地	明确	mark:adv
+阐述	ROOT	root
+奥巴马	政府	nmod
+政府	战略	nmod
+的	政府	case
+六	方	nummod
+方	战略	nmod
+会谈	战略	nmod
+战略	立场	nmod
+以及	协定	cc
+美国	协定	nmod
+—	美国	punct
+韩国	协定	nmod
+自由	协定	nmod
+贸易	协定	nmod
+协定	战略	conj
+的	战略	case
+立场	阐述	obj
+。	阐述	punct
+----------------------------------------------------------------------
+政治格局的变化
+(ROOT (NP (DNP (NP (NN 政治) (NN 格局)) (DEC 的)) (NP (NN 变化))))
+layer 2:
+{'NP': {'DNP': {}, 'NP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+layer 3:
+{'NP': {'DNP': {'NP': {}, 'DEC': {}}, 'NP': {'NN': {}}}}
+{'NP': {'DNP': {'NP': {}, 'DEC': {}}, 'NP': {'NN': {}}}}
+{'DNP': {'NP': {}, 'DEC': {}}}
+{'NP': {'NN': {}}}
+Dependency Features:
+政治	格局	nmod
+格局	变化	nmod
+的	格局	case
+变化	ROOT	root
+----------------------------------------------------------------------
+克林顿此行正值全球经济动荡之际，将转移对传统双边和地区安全问题的关注，如将现有的军事关系转化为战略联盟，实现朝鲜无核化。
+(ROOT (IP (IP (NP (NNP 克林顿)) (VP (NP (NN 此行)) (VP (VP (VV 正值) (NP (DNP (NP (NN 全球) (NN 经济) (JJ 动荡)) (DEC 之)) (NP (NN 际)))) (, ，) (VP (ADVP (RB 将)) (VP (VV 转移) (NP (DNP (PP (IN 对) (NP (NP (ADJP (NN 传统)) (NP (QP (CD 双) (CLP (NN 边))) (CC 和) (NP (NN 地区))) (NP (NN 安全))) (NP (NN 问题)))) (DEC 的)) (NP (NN 关注)))))))) (, ，) (IP (ADVP (VV 如)) (VP (VP (BB 将) (IP (NP (DNP (ADJP (VV 现有)) (DEC 的)) (NP (NN 军事) (NN 关系))) (VP (VRD (VV 转化) (VC 为)) (NP (NN 战略) (NN 联盟))))) (, ，) (VP (VV 实现) (IP (NP (NNP 朝鲜)) (VP (VV 无) (NP (NN 核化))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP89979': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP35750': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+克林顿	此行	nmod
+此行	实现	nsubj
+正值	实现	advcl
+全球	际	nmod
+经济	动荡	nsubj
+动荡	际	acl:relcl
+之	动荡	mark:rel
+际	正值	obj
+，	正值	punct
+将	转移	advmod
+转移	关注	acl:relcl
+对	关注	case
+传统	边	nmod
+双	边	nummod
+边	问题	nmod
+和	地区	cc
+地区	边	conj
+安全	问题	nmod
+问题	关注	nmod
+的	转移	mark:rel
+关注	正值	obj
+，	转移	punct
+如	实现	advcl
+将	关系	case
+现有	关系	acl:relcl
+的	现有	mark:rel
+军事	关系	nmod
+关系	转化	obl:patient
+转化	如	xcomp
+为	转化	mark
+战略	联盟	nmod
+联盟	转化	obj
+，	如	punct
+实现	ROOT	root
+朝鲜	无	nsubj
+无	实现	ccomp
+核化	无	obj
+。	实现	punct
+----------------------------------------------------------------------
+此外，美国的盟友将拥有更少的资源来实现这些目标，包括华盛顿要求首尔和东京在阿富汗承担更大的全球安全作用。
+(ROOT (IP (IP (ADVP (NN 此外)) (, ，) (NP (DNP (NP (NNP 美国)) (DEC 的)) (NP (NN 盟友))) (VP (ADVP (RB 将)) (VP (VP (VV 拥有) (NP (CP (CP (IP (VP (JJ 更少))) (DEC 的))) (NP (NN 资源)))) (VP (RB 来) (VP (VV 实现) (NP (DP (DT 这些)) (NP (NN 目标)))))))) (, ，) (IP (VP (VV 包括) (IP (NP (NNP 华盛顿)) (VP (VV 要求) (NP (NNP 首尔) (CC 和) (NNP 东京)) (IP (VP (PP (VV 在) (NP (NNP 阿富汗))) (VP (VV 承担) (NP (CP (CP (IP (VP (JJ 更大))) (DEC 的))) (NP (NN 全球) (NN 安全) (NN 作用)))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP38804': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP95440': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+此外	实现	obl
+，	此外	punct
+美国	盟友	nmod
+的	美国	case
+盟友	实现	nsubj
+将	拥有	advmod
+拥有	实现	advcl
+更少	资源	amod
+的	更少	mark:rel
+资源	拥有	obj
+来	实现	mark
+实现	ROOT	root
+这些	目标	det
+目标	包括	nsubj
+，	目标	punct
+包括	实现	ccomp
+华盛顿	要求	nsubj
+要求	包括	ccomp
+首尔	承担	nsubj
+和	东京	cc
+东京	首尔	conj
+在	承担	advcl
+阿富汗	在	obj
+承担	要求	ccomp
+更大	作用	amod
+的	更大	mark:rel
+全球	作用	nmod
+安全	作用	nmod
+作用	承担	obj
+。	实现	punct
+----------------------------------------------------------------------
+预计克林顿此行将重点协调应对经济危机的政策，而不是讨论这些更传统的问题。
+(ROOT (IP (VP (VV 预计) (IP (NP (NNP 克林顿)) (VP (VP (DP (DT 此)) (ADVP (RB 行将)) (ADVP (RB 重点)) (VP (VCD (VV 协调) (VV 应对)) (NP (DNP (NP (NN 经济) (NN 危机)) (DEC 的)) (NP (NN 政策))))) (, ，) (RB 而) (VP (VC 不是) (VP (VV 讨论) (NP (DP (DT 这些)) (CP (CP (IP (VP (ADVP (RB 更)) (VP (JJ 传统)))) (DEC 的))) (NP (NN 问题)))))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+预计	ROOT	root
+克林顿	协调	nsubj
+此	协调	nsubj
+行将	协调	advmod
+重点	协调	advmod
+协调	预计	ccomp
+应对	政策	acl:relcl
+经济	危机	nmod
+危机	应对	obj
+的	应对	mark:rel
+政策	协调	obj
+，	协调	punct
+而	讨论	mark
+是	讨论	aux
+讨论	预计	ccomp
+这些	问题	det
+更	传统	advmod
+传统	问题	amod
+的	传统	mark:rel
+问题	讨论	obj
+。	讨论	punct
+----------------------------------------------------------------------
+美国总统选举出现一位民意支持率极高的总统，改变了美国与东京和首尔的双边关系以及韩国国内政治的政治格局。
+(ROOT (IP (NP (NP (NP (NNP 美国)) (NP (NN 总统))) (NP (NN 选举))) (VP (VP (VV 出现) (NP (QP (CD 一) (CLP (NNB 位))) (CP (CP (IP (NP (NN 民意) (VV 支持) (SFN 率)) (VP (JJ 极高))) (DEC 的))) (NP (NN 总统)))) (, ，) (VP (VV 改变) (AS 了) (NP (NP (DNP (NP (NNP 美国) (CC 与) (NNP 东京) (CC 和) (NNP 首尔)) (DEC 的)) (QP (CD 双) (CLP (NN 边))) (NP (NN 关系))) (CC 以及) (NP (DNP (NP (NP (NNP 韩国)) (NP (NN 国内) (NN 政治))) (DEC 的)) (NP (NN 政治) (NN 格局)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP25881': {}}, 'VP': {'VP': {}, ',': {}, 'VP72372': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+美国	选举	nmod
+总统	选举	nmod
+选举	改变	nsubj
+出现	改变	advcl
+一	位	nummod
+位	总统	clf
+民意	率	nmod
+支持	率	compound
+率	极高	nsubj
+极高	总统	acl:relcl
+的	极高	mark:rel
+总统	出现	obj
+，	出现	punct
+改变	ROOT	root
+了	改变	aux
+美国	关系	nmod
+与	东京	cc
+东京	美国	conj
+和	首尔	cc
+首尔	美国	conj
+的	美国	case
+双	边	nummod
+边	关系	nmod
+关系	改变	obj
+以及	格局	cc
+韩国	政治	nmod
+国内	政治	nmod
+政治	格局	nmod
+的	政治	case
+政治	格局	nmod
+格局	关系	conj
+。	改变	punct
+----------------------------------------------------------------------
+奥巴马在双边关系上将拥有更多话语权，因为他从零开始。
+(ROOT (IP (IP (NP (NNP 奥巴马)) (VP (PP (VV 在) (LCP (NP (QP (CD 双) (CLP (NN 边))) (NP (NN 关系))) (IN 上将))) (VP (VV 拥有) (NP (ADJP (JJ 更多)) (NP (NN 话语) (SFN 权)))))) (, ，) (PP (IN 因为) (IP (NP (PRP 他)) (VP (PP (IN 从) (NP (CD 零))) (VP (VV 开始))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+Dependency Features:
+奥巴马	拥有	nsubj
+在	关系	amod
+双	边	nummod
+边	关系	nmod
+关系	拥有	obl
+上将	关系	case
+拥有	ROOT	root
+更多	权	amod
+话语	权	compound
+权	拥有	obj
+，	开始	punct
+因为	开始	case
+他	开始	nsubj
+从	零	case
+零	开始	obl
+开始	拥有	ccomp
+。	拥有	punct
+----------------------------------------------------------------------
+例如，奥巴马通过消除南朝鲜政治专家、媒体和反美团体所隐藏的政治掩护，损害了南朝鲜对北朝鲜问题的进步。
+(ROOT (IP (ADVP (VV 例如)) (, ，) (NP (NNP 奥巴马)) (VP (PP (IN 通过) (IP (VP (VV 消除) (NP (CP (CP (IP (NP (NP (NP (NN 南)) (NP (NNP 朝鲜))) (NP (NP (NN 政治) (NN 专家)) (EC 、) (NP (NN 媒体)) (CC 和) (NP (ADJP (NN 反美)) (NP (NN 团体))))) (VP (RB 所) (VP (VV 隐藏)))) (DEC 的))) (NP (NN 政治) (NN 掩护)))))) (, ，) (VP (VV 损害) (AS 了) (NP (DNP (NP (NP (NP (NN 南)) (NP (NNP 朝鲜))) (NP (ADJP (VV 对北)) (NP (NNP 朝鲜))) (NP (NN 问题))) (DEC 的)) (NP (NN 进步))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'VV': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'VV': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'VV': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'PP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+例如	ROOT	root
+，	损害	punct
+奥巴马	损害	nsubj
+通过	消除	case
+消除	损害	xcomp
+南	朝鲜	nmod
+朝鲜	专家	nmod
+政治	专家	nmod
+专家	消除	obj
+、	媒体	punct
+媒体	专家	conj
+和	团体	cc
+反美	团体	nmod
+团体	专家	conj
+所	隐藏	mark
+隐藏	掩护	acl:relcl
+的	隐藏	mark:rel
+政治	掩护	nmod
+掩护	消除	obj
+，	消除	punct
+损害	例如	ccomp
+了	损害	aux
+南	朝鲜	nmod
+朝鲜	对北	nsubj
+对北	进步	acl:relcl
+朝鲜	问题	nmod
+问题	对北	obj
+的	对北	mark:rel
+进步	损害	obj
+。	例如	punct
+----------------------------------------------------------------------
+反美行动和言论不能再只是反布什，美国坚持朝鲜无核化不能再是“新保守主义阴谋”。
+(ROOT (IP (IP (NP (IP (VP (VV 反) (NP (NNP 美)))) (NP (NN 行动) (CC 和) (NN 言论))) (VP (MD 不能) (VP (ADVP (RB 再)) (ADVP (RB 只)) (VP (VC 是) (VP (VV 反) (NP (NNP 布什))))))) (, ，) (IP (NP (NNP 美国)) (VP (VV 坚持) (IP (NP (NNP 朝鲜) (NN 无核) (SFV 化)) (VP (MD 不能) (VP (VC 再是) (NP (`` “) (NP (ADJP (PFA 新)) (NP (JJ 保守)) (NP (NN 主义))) (NP (NN 阴谋)) ('' ”))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP56048': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP25424': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+反	行动	amod
+美	反	obj
+行动	是	nsubj
+和	言论	cc
+言论	行动	conj
+能	是	aux
+再	是	advmod
+只	是	advmod
+是	ROOT	root
+反	是	xcomp
+布什	反	obj
+，	坚持	punct
+美国	坚持	nsubj
+坚持	是	parataxis
+朝鲜	化	nmod
+无核	化	compound
+化	阴谋	nsubj
+能	阴谋	aux
+是	阴谋	cop
+“	阴谋	punct
+新	主义	case
+保守	主义	amod
+主义	阴谋	nmod
+阴谋	坚持	ccomp
+”	阴谋	punct
+。	是	punct
+----------------------------------------------------------------------
+韩国左派也不能再把六方会谈的僵局怪罪到美国“灵活性”的缺乏上，也就是说，美国的让步。
+(ROOT (IP (NP (NP (NNP 韩国)) (NP (NN 左派))) (VP (VP (ADVP (RB 也)) (VP (MD 不能) (VP (ADVP (RB 再)) (VP (BB 把) (IP (NP (DNP (NP (NP (QP (CD 六)) (NP (NN 方))) (NP (NN 会谈))) (DEC 的)) (NP (NN 僵局))) (VP (VRD (VV 怪罪) (VV 到)) (LCP (NP (DNP (NP (NP (NNP 美国)) (NP (`` “) (NN 灵) (NN 活性) ('' ”))) (DEC 的)) (NP (NN 缺乏))) (IN 上)))))))) (, ，) (VP (ADVP (RB 也)) (VP (VC 就是) (VP (VV 说) (, ，) (NP (DNP (NP (NNP 美国)) (DEC 的)) (NP (NN 让步))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP328': {}}, 'VP': {'VP': {}, ',': {}, 'VP83423': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+韩国	左派	nmod
+左派	是	nsubj
+也	怪罪	mark
+能	怪罪	aux
+再	怪罪	advmod
+把	僵局	case
+六	方	nummod
+方	会谈	nmod
+会谈	僵局	nmod
+的	会谈	case
+僵局	怪罪	obl:patient
+怪罪	是	advcl
+到	怪罪	mark
+美国	活性	nmod
+“	活性	punct
+灵	活性	nmod
+活性	缺乏	nmod
+”	活性	punct
+的	活性	mark:rel
+缺乏	怪罪	obj
+上	缺乏	case
+，	怪罪	punct
+也	是	mark
+是	ROOT	root
+说	是	xcomp
+，	让步	punct
+美国	让步	nmod
+的	美国	case
+让步	说	obj
+。	是	punct
+----------------------------------------------------------------------
+它将越来越明显地显示出，问题的根源，就是一如既往，朝鲜的顽固。
+(ROOT (IP (NP (PRP 它)) (VP (ADVP (RB 将)) (DVP (VP (ADVP (RB 越来越)) (VP (JJ 明显))) (DEV 地)) (VP (VRD (VV 显示) (VV 出)) (, ，) (IP (NP (DNP (NP (NN 问题)) (DEC 的)) (NP (NN 根源))) (, ，) (VP (VC 就是) (NP (PP (ADVP (CD 一)) (PP (VV 如) (NP (JJ 既往)))) (, ，) (NP (DNP (NP (NNP 朝鲜)) (DEC 的)) (NP (JJ 顽固)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'DVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'DVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'DVP': {}, 'VP': {}}}
+Dependency Features:
+它	显示	nsubj
+将	显示	advmod
+越来越	明显	advmod
+明显	显示	advmod
+地	明显	mark:adv
+显示	ROOT	root
+出	显示	mark
+，	根源	punct
+问题	根源	nmod
+的	问题	case
+根源	顽固	nsubj
+，	根源	punct
+是	顽固	cop
+一	如	obl
+如	顽固	advcl
+既往	如	xcomp
+，	如	punct
+朝鲜	顽固	nmod
+的	朝鲜	case
+顽固	显示	ccomp
+。	显示	punct
+----------------------------------------------------------------------
+克林顿的这次访问发生在日本和韩国领导人因支持率惨淡而受到削弱，并因立法方面的盲目而受到阻碍。
+(ROOT (IP (NP (DNP (NP (NNP 克林顿)) (DEC 的)) (DP (DT 这) (CLP (NNB 次))) (NP (NN 访问))) (VP (VV 发生) (PP (IN 在) (IP (NP (NP (NNP 日本) (CC 和) (NNP 韩国)) (NP (VV 领导) (SFN 人))) (VP (VP (PP (IN 因) (IP (NP (VV 支持) (SFN 率)) (VP (JJ 惨淡)))) (VP (RB 而) (VP (VV 受到) (NP (NN 削弱))))) (, ，) (RB 并) (VP (PP (IN 因) (NP (DNP (NP (NN 立法) (NN 方面)) (DEC 的)) (NP (JJ 盲目)))) (VP (RB 而) (VP (VV 受到) (NP (NN 阻碍))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'PP': {}}}
+Dependency Features:
+克林顿	访问	nmod
+的	克林顿	case
+这	次	det
+次	访问	clf
+访问	受到	nsubj
+发生	受到	advcl
+在	人	case
+日本	人	nmod
+和	人	cc
+韩国	人	nmod
+领导	人	compound
+人	发生	obl
+因	率	case
+支持	率	compound
+率	惨淡	nmod
+惨淡	受到	advcl
+而	受到	mark
+受到	受到	advcl
+削弱	受到	obj
+，	受到	punct
+并	受到	mark
+因	盲目	case
+立法	方面	nmod
+方面	盲目	nmod
+的	方面	case
+盲目	受到	xcomp
+而	受到	mark
+受到	ROOT	root
+阻碍	受到	obj
+。	受到	punct
+----------------------------------------------------------------------
+日本的议会受到“扭曲”，执政党和反对党在双方国会中各占一半，后者会采取阻挠措施，导致首相下台。
+(ROOT (IP (IP (NP (DNP (NP (NNP 日本)) (DEC 的)) (NP (NN 议会))) (VP (VV 受到) (NP (`` “) (NN 扭曲) ('' ”)))) (, ，) (IP (NP (VV 执政) (SFN 党) (CC 和) (VV 反对) (SFN 党)) (VP (PP (IN 在) (LCP (NP (NP (QP (CD 双)) (NP (NN 方))) (NP (NN 国会))) (IN 中))) (ADVP (DT 各)) (VP (VV 占) (QP (CD 一半))))) (, ，) (IP (NP (NN 后者)) (VP (MD 会) (VP (VP (VV 采取) (NP (NN 阻挠) (NN 措施))) (, ，) (VP (VV 导致) (IP (NP (NN 首相)) (VP (VV 下台))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP82818': {}, ',51437': {}, 'IP45288': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP79326': {'NP': {}, 'VP': {}}, ',44112': {}, 'IP92828': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+日本	议会	nmod
+的	日本	case
+议会	受到	nsubj
+受到	ROOT	root
+“	扭曲	punct
+扭曲	受到	obj
+”	扭曲	punct
+，	受到	punct
+执政	党	compound
+党	占	nsubj
+和	党	cc
+反对	党	compound
+党	党	conj
+在	国会	case
+双	方	nummod
+方	国会	nmod
+国会	占	obl
+中	国会	case
+各	占	obl
+占	导致	advcl
+一半	占	obj
+，	占	punct
+后者	采取	nsubj
+会	采取	aux
+采取	导致	advcl
+阻挠	措施	nmod
+措施	采取	obj
+，	采取	punct
+导致	受到	parataxis
+首相	下台	nsubj
+下台	导致	ccomp
+。	导致	punct
+----------------------------------------------------------------------
+韩国执政的国民大会党因为派系纷争而陷于动荡，尽管在一院制国民议会中拥有近三分之二的控制权，但其行事如同少数派一样。
+(ROOT (IP (IP (NP (CP (CP (IP (NP (NNP 韩国)) (VP (VV 执政))) (DEC 的))) (NP (NN 国民) (NN 大会) (SFN 党))) (VP (PP (IN 因为) (NP (NN 派系) (NN 纷争))) (VP (RB 而) (VP (VV 陷) (PP (VV 于) (NP (NN 动荡))))))) (, ，) (IP (IP (VP (ADVP (IN 尽管)) (PP (IN 在) (LCP (NP (NP (NP (QP (CD 一)) (NP (NN 院))) (NP (SFN 制))) (NP (NN 国民) (NN 议会))) (IN 中))) (VP (VV 拥有) (NP (DNP (NP (DNP (QP (ADVP (RB 近)) (QP (CD 三) (CLP (NNB 分)))) (DEC 之)) (NP (CD 二))) (DEC 的)) (NP (VV 控制) (SFN 权)))))) (, ，) (ADVP (RB 但)) (NP (NP (PRP 其)) (NP (NN 行事))) (VP (PP (VV 如同) (NP (QP (JJ 少数)) (NP (SFN 派)))) (VP (JJ 一样)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP41325': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP23752': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+韩国	执政	nsubj
+执政	党	acl:relcl
+的	执政	mark:rel
+国民	党	nmod
+大会	党	compound
+党	陷	nsubj
+因为	纷争	case
+派系	纷争	nmod
+纷争	陷	obl
+而	陷	mark
+陷	ROOT	root
+于	陷	mark
+动荡	陷	obj
+，	拥有	punct
+尽管	拥有	case
+在	议会	case
+一	院	nummod
+院	制	compound
+制	议会	nmod
+国民	议会	nmod
+议会	拥有	obl
+中	议会	case
+拥有	陷	parataxis
+近	分	advmod
+三	分	nummod
+分	二	nmod
+之	分	case
+二	权	nummod
+的	二	case
+控制	权	compound
+权	拥有	obj
+，	如同	punct
+但	如同	mark
+其	行事	nmod
+行事	如同	nsubj
+如同	陷	parataxis
+少数	派	compound
+派	一样	nsubj
+一样	如同	ccomp
+。	陷	punct
+----------------------------------------------------------------------
+太郎麻生首相和李明博总统都没有在扩大军事同盟方面取得进展，两人可能都会抵制奥巴马政府在阿富汗的军事援助要求。
+(ROOT (IP (IP (NP (NP (NP (NN 太郎)) (NP (NNP 麻生) (NN 首相))) (CC 和) (NP (NNP 李) (NNP 明博) (NN 总统))) (VP (ADVP (RB 都)) (VP (VV 没有) (VP (PP (IN 在) (NP (IP (VP (VV 扩大) (NP (NN 军事) (NN 同盟)))) (NP (NN 方面)))) (VP (VV 取得) (NP (NN 进展))))))) (, ，) (IP (NP (QP (CD 两)) (NP (NN 人))) (VP (MD 可能) (VP (RB 都会) (VP (VV 抵制) (NP (NP (NP (NNP 奥巴马)) (NP (NN 政府))) (DNP (PP (VV 在) (NP (NNP 阿富汗))) (DEC 的)) (NP (NN 军事) (NN 援助)) (NP (NN 要求))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP66732': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP71843': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+太郎	首相	nmod
+麻生	首相	nmod
+首相	有	nsubj
+和	总统	cc
+李	总统	nmod
+明博	总统	nmod
+总统	首相	conj
+都	有	mark
+有	ROOT	root
+在	方面	case
+扩大	方面	amod
+军事	同盟	nmod
+同盟	扩大	obj
+方面	取得	obl
+取得	有	xcomp
+进展	取得	obj
+，	抵制	punct
+两	人	nummod
+人	抵制	nsubj
+可能	抵制	aux
+都会	抵制	advmod
+抵制	有	parataxis
+奥巴马	政府	nmod
+政府	在	nsubj
+在	要求	acl:relcl
+阿富汗	在	obj
+的	在	mark:rel
+军事	要求	nmod
+援助	要求	nmod
+要求	抵制	obj
+。	有	punct
+----------------------------------------------------------------------
+日益嚣张的朝鲜
+(ROOT (NP (CP (CP (IP (VP (ADVP (RB 日益)) (VP (RB 嚣) (NP (NNP 张))))) (DEC 的))) (NP (NNP 朝鲜))))
+layer 2:
+{'NP': {'CP': {}, 'NP': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+layer 3:
+{'NP': {'CP': {'CP': {}}, 'NP': {'NNP': {}}}}
+{'NP': {'CP': {'CP': {}}, 'NP': {'NNP': {}}}}
+{'CP': {'CP': {}}}
+{'NP': {'NNP': {}}}
+Dependency Features:
+日益	嚣	advmod
+嚣	张	advmod
+张	朝鲜	nmod
+的	张	mark:rel
+朝鲜	ROOT	root
+----------------------------------------------------------------------
+克林顿此行将因朝鲜日益增长的敌对态度和潜在的远程导弹发射而受到影响。
+(ROOT (IP (NP (NNP 克林顿)) (VP (DP (DT 此)) (ADVP (RB 行将)) (PP (IN 因) (NP (NP (CP (CP (IP (NP (NNP 朝鲜)) (VP (ADVP (RB 日益)) (VP (VV 增长)))) (DEC 的))) (ADJP (NN 敌对)) (NP (NN 态度))) (CC 和) (NP (NP (DNP (ADJP (JJ 潜在)) (DEC 的)) (ADJP (NN 远程)) (NP (NN 导弹))) (NP (NN 发射))))) (VP (RB 而) (VP (VV 受到) (NP (NN 影响))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'DP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'DP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'DP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+克林顿	受到	nsubj
+此	受到	nsubj
+行将	受到	advmod
+因	态度	case
+朝鲜	增长	nsubj
+日益	增长	advmod
+增长	态度	acl:relcl
+的	增长	mark:rel
+敌对	态度	nmod
+态度	受到	obl
+和	发射	cc
+潜在	发射	amod
+的	潜在	mark:rel
+远程	发射	nmod
+导弹	发射	nmod
+发射	态度	conj
+而	受到	mark
+受到	ROOT	root
+影响	受到	obj
+。	受到	punct
+----------------------------------------------------------------------
+为了迫使李明博总统放弃要求朝韩关系以条件、互惠和透明为前提的原则性政策，平壤加紧了口头攻击，并威胁要对韩国采取军事行动。
+(ROOT (IP (PP (IN 为了) (IP (VP (VV 迫使) (NP (NNP 李) (NNP 明博) (NN 总统)) (IP (VP (VV 放弃) (NP (CP (IP (VP (VV 要求) (NP (NP (NNP 朝) (NNP 韩)) (NP (NN 关系))) (IP (VP (PP (IN 以) (NP (NN 条件) (EC 、) (VV 互惠) (CC 和) (JJ 透明))) (VP (VC 为) (NP (NN 前提))))))) (DEC 的)) (NP (VV 原则) (SFN 性) (NN 政策)))))))) (, ，) (NP (NNP 平壤)) (VP (VP (VV 加紧) (AS 了) (NP (ADJP (NN 口头)) (NP (NN 攻击)))) (, ，) (RB 并) (VP (VV 威胁) (IP (VP (MD 要) (VP (PP (IN 对) (NP (NNP 韩国))) (VP (VV 采取) (NP (NN 军事) (NN 行动)))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP90199': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+为了	迫使	case
+迫使	威胁	xcomp
+李	总统	nmod
+明博	总统	nmod
+总统	放弃	nsubj
+放弃	迫使	ccomp
+要求	放弃	xcomp
+朝	关系	nmod
+韩	关系	nmod
+关系	为	nsubj
+以	条件	case
+条件	为	obl
+、	互惠	punct
+互惠	条件	conj
+和	透明	cc
+透明	条件	conj
+为	政策	acl:relcl
+前提	为	obj
+的	为	mark:rel
+原则	性	compound
+性	政策	nmod
+政策	要求	obj
+，	迫使	punct
+平壤	威胁	nsubj
+加紧	威胁	advcl
+了	加紧	aux
+口头	攻击	nmod
+攻击	加紧	obj
+，	加紧	punct
+并	威胁	mark
+威胁	ROOT	root
+要	采取	aux
+对	韩国	case
+韩国	采取	obl
+采取	威胁	xcomp
+军事	行动	nmod
+行动	采取	obj
+。	威胁	punct
+----------------------------------------------------------------------
+朝鲜的言论也是对奥巴马政府的一记警钟。
+(ROOT (IP (NP (DNP (NP (NNP 朝鲜)) (DEC 的)) (NP (NN 言论))) (VP (VC 也是) (NP (DNP (PP (IN 对) (NP (NP (NNP 奥巴马)) (NP (NN 政府)))) (DEC 的)) (QP (CD 一) (CLP (NNB 记))) (NP (NN 警钟)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+朝鲜	言论	nmod
+的	朝鲜	case
+言论	警钟	nsubj
+是	警钟	cop
+对	警钟	case
+奥巴马	政府	nmod
+政府	警钟	nmod
+的	警钟	case
+一	记	nummod
+记	警钟	clf
+警钟	ROOT	root
+。	警钟	punct
+----------------------------------------------------------------------
+1 月中旬，朝鲜拒绝了现有的六方协议，声称只有在与美国建立正式外交关系、华盛顿停止“敌对政策”、取消对韩国的核保护伞之后，才会实现无核化。
+(ROOT (IP (NP (CD 1) (NNB 月) (NN 中旬)) (, ，) (NP (NNP 朝鲜)) (VP (VP (VV 拒绝) (AS 了) (NP (DNP (ADJP (VV 现有)) (DEC 的)) (NP (QP (CD 六)) (NP (NN 方))) (NP (NN 协议)))) (, ，) (VP (VV 声称) (IP (VP (ADVP (IN 只有)) (PP (IN 在) (LCP (IP (IP (VP (PP (IN 与) (NP (NNP 美国))) (VP (VV 建立) (NP (ADJP (JJ 正式)) (NP (NN 外交) (NN 关系)))))) (EC 、) (IP (NP (NNP 华盛顿)) (VP (VP (VV 停止) (NP (`` “) (ADJP (VV 敌对)) (NP (NN 政策)) ('' ”))) (EC 、) (VP (VV 取消) (NP (DNP (PP (IN 对) (NP (NNP 韩国))) (DEC 的)) (NP (NN 核) (VV 保护) (SFN 伞))))))) (IN 之后))) (, ，) (ADVP (RB 才)) (VP (MD 会) (VP (VV 实现) (NP (ADJP (VV 无)) (NP (NN 核化))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP37881': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}, 'NN': {}}, ',': {}, 'NP25827': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP64218': {}}, '.': {}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}, 'NN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}, 'NN': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+1	月	nummod
+月	中旬	clf
+中旬	声称	nmod:tmod
+，	中旬	punct
+朝鲜	声称	nsubj
+拒绝	实现	advcl
+了	拒绝	aux
+现有	协议	acl:relcl
+的	现有	mark:rel
+六	方	nummod
+方	协议	nmod
+协议	拒绝	obj
+，	拒绝	punct
+声称	ROOT	root
+只有	声称	xcomp
+在	美国	case
+与	美国	case
+美国	建立	obl
+建立	声称	xcomp
+正式	关系	amod
+外交	关系	nmod
+关系	建立	obj
+、	停止	punct
+华盛顿	停止	nsubj
+停止	建立	conj
+“	政策	punct
+敌对	政策	amod
+政策	停止	obj
+”	政策	punct
+、	取消	punct
+取消	停止	conj
+对	伞	case
+韩国	对	nmod
+的	取消	mark:rel
+核	伞	nmod
+保护	伞	compound
+伞	取消	obl
+之后	取消	mark
+，	取消	punct
+才	实现	mark
+会	实现	aux
+实现	声称	xcomp
+无	实现	xcomp
+核化	无	obj
+。	实现	punct
+----------------------------------------------------------------------
+平壤可能也在准备试射一枚 Taepo Dong-2 导弹，理论上，这种导弹可以携带核弹头，覆盖整个美国大陆。
+(ROOT (IP (IP (NP (NNP 平壤)) (VP (MD 可能) (VP (ADVP (RB 也)) (ADVP (RB 在)) (VP (VV 准备) (IP (VP (VV 试射) (NP (QP (CD 一) (CLP (NNB 枚))) (NP (NP (FW Taepo)) (FW Dong-2)) (NP (NN 导弹))))))))) (, ，) (IP (LCP (NP (NN 理论)) (IN 上)) (, ，) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 导弹))) (VP (MD 可以) (VP (VP (VV 携带) (NP (NN 核弹) (SFN 头))) (, ，) (VP (VV 覆盖) (NP (DP (DT 整个)) (NP (NNP 美国)) (NP (NN 大陆))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP4201': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP59659': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+平壤	准备	nsubj
+可能	准备	aux
+也	准备	mark
+在	准备	advmod
+准备	ROOT	root
+试射	准备	xcomp
+一	枚	nummod
+枚	导弹	clf
+Taepo	导弹	nmod
+Dong-2	Taepo	flat:foreign
+导弹	试射	obj
+，	覆盖	punct
+理论	覆盖	obl
+上	理论	case
+，	理论	punct
+这	种	det
+种	导弹	clf
+导弹	覆盖	nsubj
+可以	携带	aux
+携带	覆盖	advcl
+核弹	头	compound
+头	携带	obj
+，	携带	punct
+覆盖	准备	parataxis
+整个	大陆	det
+美国	大陆	nmod
+大陆	覆盖	obj
+。	准备	punct
+----------------------------------------------------------------------
+朝鲜的行动是一个明确的信号，即尽管美国领导层发生变化，但它仍不会采取更加妥协的立场。
+(ROOT (IP (IP (NP (DNP (NP (NNP 朝鲜)) (DEC 的)) (NP (NN 行动))) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 明确))) (DEC 的))) (NP (NN 信号))))) (, ，) (IP (ADVP (VC 即)) (CP (ADVP (IN 尽管)) (IP (NP (NP (NNP 美国)) (NP (VV 领导) (SFN 层))) (VP (VV 发生) (NP (NN 变化))))) (, ，) (ADVP (RB 但)) (NP (PRP 它)) (VP (ADVP (RB 仍)) (VP (MD 不会) (VP (VV 采取) (NP (CP (CP (IP (VP (ADVP (RB 更加)) (VP (JJ 妥协)))) (DEC 的))) (NP (NN 立场))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP46003': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP15092': {'ADVP': {}, 'CP': {}, ',': {}, 'ADVP31821': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+朝鲜	行动	nmod
+的	朝鲜	case
+行动	即	nsubj
+是	信号	cop
+一	个	nummod
+个	信号	clf
+明确	信号	amod
+的	明确	mark:rel
+信号	即	advcl
+，	信号	punct
+即	ROOT	root
+尽管	发生	case
+美国	层	nmod
+领导	层	compound
+层	发生	nsubj
+发生	即	ccomp
+变化	发生	obj
+，	发生	punct
+但	采取	mark
+它	采取	nsubj
+仍	采取	advmod
+会	采取	aux
+采取	即	ccomp
+更加	妥协	advmod
+妥协	立场	amod
+的	妥协	mark:rel
+立场	采取	obj
+。	即	punct
+----------------------------------------------------------------------
+这种行为是朝鲜标准的谈判策略，目的是提高赌注，把自己违规行为的批评归咎于美国的行为，坚持在不平等的违规行为面前要求条件的平等，并促使重新谈判现有的协议。
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 行为))) (VP (VC 是) (NP (DNP (NP (NP (NNP 朝鲜)) (NP (NN 标准))) (DEC 的)) (NP (NN 谈判) (NN 策略))))) (, ，) (IP (NP (NN 目的)) (VP (VC 是) (IP (VP (VP (VV 提高) (NP (NN 赌注))) (, ，) (VP (BB 把) (IP (NP (DNP (NP (NP (PRD 自己)) (ADJP (NN 违规)) (NP (NN 行为))) (DEC 的)) (NP (NN 批评))) (VP (VV 归咎) (PP (VV 于) (NP (DNP (NP (NNP 美国)) (DEC 的)) (NP (NN 行为))))))) (, ，) (VP (VV 坚持) (IP (VP (PP (IN 在) (NP (CP (CP (IP (VP (ADVP (RB 不)) (VP (JJ 平等)))) (DEC 的))) (ADJP (NN 违规)) (NP (NN 行为)))) (ADVP (RB 面前)) (VP (VV 要求) (NP (DNP (NP (NN 条件)) (DEC 的)) (NP (NN 平等))))))) (, ，) (RB 并) (VP (VV 促使) (IP (VP (ADVP (RB 重新)) (VP (VV 谈判) (NP (DNP (ADJP (VV 现有)) (DEC 的)) (NP (NN 协议))))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP59353': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP18239': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+这	种	det
+种	行为	clf
+行为	策略	nsubj
+是	策略	cop
+朝鲜	标准	nmod
+标准	策略	nmod
+的	标准	mark:rel
+谈判	策略	nmod
+策略	ROOT	root
+，	是	punct
+目的	是	nsubj
+是	策略	parataxis
+提高	是	xcomp
+赌注	提高	obj
+，	是	punct
+把	批评	case
+自己	行为	nmod
+违规	行为	nmod
+行为	批评	nmod
+的	行为	case
+批评	归咎	obl:patient
+归咎	促使	advcl
+于	归咎	mark
+美国	行为	nmod
+的	美国	case
+行为	归咎	obj
+，	归咎	punct
+坚持	促使	advcl
+在	行为	case
+不	平等	advmod
+平等	行为	amod
+的	平等	mark:rel
+违规	行为	nmod
+行为	要求	obl
+面前	要求	advmod
+要求	平等	acl:relcl
+条件	要求	obj
+的	要求	mark:rel
+平等	坚持	obj
+，	坚持	punct
+并	促使	mark
+促使	策略	parataxis
+重新	谈判	advmod
+谈判	促使	xcomp
+现有	协议	acl:relcl
+的	现有	mark:rel
+协议	谈判	obj
+。	策略	punct
+----------------------------------------------------------------------
+然而，在西海，韩国海军之间的战术对抗风险日益增大，有可能导致误判和升级。
+(ROOT (IP (IP (ADVP (RB 然而)) (, ，) (PP (VV 在) (NP (NNP 西海))) (, ，) (NP (DNP (LCP (NP (NP (NNP 韩国)) (NP (NN 海军))) (IN 之间)) (DEC 的)) (NP (NN 战术) (NN 对抗)) (NP (NN 风险))) (VP (ADVP (RB 日益)) (VP (VV 增大)))) (, ，) (IP (VP (VP (VV 有) (NP (MD 可能))) (VP (VV 导致) (NP (NN 误判) (CC 和) (VV 升级))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP5802': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',92700': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP75176': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+然而	有	mark
+，	然而	punct
+在	增大	advcl
+西海	在	obj
+，	在	punct
+韩国	海军	nmod
+海军	风险	nmod
+之间	海军	case
+的	海军	case
+战术	风险	nmod
+对抗	风险	nmod
+风险	增大	nsubj
+日益	增大	advmod
+增大	有	advcl
+，	增大	punct
+有	ROOT	root
+可能	导致	aux
+导致	有	xcomp
+误判	导致	obj
+和	升级	cc
+升级	误判	conj
+。	有	punct
+----------------------------------------------------------------------
+应该怎么做
+(ROOT (IP (VP (MD 应该) (VP (ADVP (RB 怎么)) (VP (VV 做))))))
+layer 2:
+{'IP': {'VP': {}}}
+{'IP': {'VP': {}}}
+layer 3:
+{'IP': {'VP': {'MD': {}, 'VP': {}}}}
+{'IP': {'VP': {'MD': {}, 'VP': {}}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+应该	做	aux
+怎么	做	advmod
+做	ROOT	root
+----------------------------------------------------------------------
+克林顿在此次访问中必须在满足盟国关切的同时，还要坚持美国的强硬立场。
+(ROOT (IP (NP (NNP 克林顿)) (VP (PP (IN 在) (LCP (NP (ADJP (DT 此次)) (NP (NN 访问))) (IN 中))) (VP (MD 必须) (VP (PP (IN 在) (NP (CP (CP (IP (VP (VV 满足) (NP (NN 盟国) (NN 关切)))) (DEC 的))) (NP (NN 同时)))) (, ，) (ADVP (RB 还)) (VP (MD 要) (VP (VV 坚持) (NP (DNP (NP (NNP 美国)) (DEC 的)) (ADJP (JJ 强硬)) (NP (NN 立场)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+克林顿	坚持	nsubj
+在	访问	case
+此次	访问	det
+访问	坚持	obl
+中	访问	case
+必须	同时	aux
+在	同时	case
+满足	同时	acl:relcl
+盟国	关切	nmod
+关切	满足	obj
+的	满足	mark:rel
+同时	坚持	obl
+，	同时	punct
+还	坚持	mark
+要	坚持	aux
+坚持	ROOT	root
+美国	立场	nmod
+的	美国	case
+强硬	立场	amod
+立场	坚持	obj
+。	坚持	punct
+----------------------------------------------------------------------
+尽管首尔和东京都同意扩大各自的双边联盟的范围，但执行工作一直落后。
+(ROOT (IP (CP (ADVP (IN 尽管)) (IP (NP (NNP 首尔) (CC 和) (NNP 东京)) (VP (ADVP (RB 都)) (VP (VV 同意) (IP (VP (VV 扩大) (NP (DNP (NP (DNP (NP (DT 各自)) (DEC 的)) (QP (CD 双) (CLP (NN 边))) (NP (NN 联盟))) (DEC 的)) (NP (NN 范围))))))))) (, ，) (ADVP (RB 但)) (NP (NN 执行) (NN 工作)) (VP (ADVP (RB 一直)) (VP (JJ 落后))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'NN': {}, 'NN41351': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'NN': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NN': {}, 'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+尽管	同意	case
+首尔	同意	nsubj
+和	东京	cc
+东京	首尔	conj
+都	同意	mark
+同意	ROOT	root
+扩大	同意	xcomp
+各自	联盟	det
+的	各自	case
+双	边	nummod
+边	联盟	nmod
+联盟	扩大	obj
+的	扩大	mark:rel
+范围	扩大	obj
+，	落后	punct
+但	落后	mark
+执行	工作	nmod
+工作	落后	nsubj
+一直	落后	advmod
+落后	同意	parataxis
+。	同意	punct
+----------------------------------------------------------------------
+克林顿应该欢迎韩国与美国的双边关系改善，以及自罗纲免担任政府卸任以来军事应急规划的复苏。
+(ROOT (IP (NP (NNP 克林顿)) (VP (MD 应该) (VP (VP (VV 欢迎) (NP (DNP (NP (NNP 韩国) (CC 与) (NNP 美国)) (DEC 的)) (QP (CD 双) (CLP (NN 边))) (NP (NN 关系))) (IP (VP (NN 改善)))) (, ，) (CC 以及) (VP (NP (NNP 自罗) (VV 纲免)) (VP (VV 担任) (NP (LCP (IP (NP (NN 政府)) (VP (NN 卸任))) (IN 以来)) (DNP (NP (NN 军事) (NN 应急) (NN 规划)) (DEC 的)) (NP (NN 复苏))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+克林顿	欢迎	nsubj
+应该	欢迎	aux
+欢迎	ROOT	root
+韩国	改善	nmod
+与	美国	cc
+美国	韩国	conj
+的	韩国	case
+双	边	nummod
+边	关系	nmod
+关系	改善	nmod
+改善	欢迎	obj
+，	纲免	punct
+以及	纲免	cc
+自罗	纲免	nsubj
+纲免	欢迎	conj
+担任	纲免	xcomp
+政府	卸任	nmod
+卸任	规划	nmod
+以来	卸任	case
+军事	规划	nmod
+应急	规划	nmod
+规划	复苏	nmod
+的	规划	case
+复苏	担任	obj
+。	欢迎	punct
+----------------------------------------------------------------------
+美国应该继续推动与韩国扩大联盟结构，但也应该认识到国内政治格局的不稳定性。
+(ROOT (IP (NP (NNP 美国)) (VP (VP (MD 应该) (VP (VV 继续) (VP (VV 推动) (IP (VP (PP (IN 与) (NP (NNP 韩国))) (VP (VV 扩大) (NP (NN 联盟) (NN 结构)))))))) (, ，) (VP (ADVP (RB 但)) (ADVP (RB 也)) (VP (MD 应该) (VP (VRD (VV 认识) (VV 到)) (NP (DNP (NP (NN 国内) (NN 政治) (NN 格局)) (DEC 的)) (NP (ADJP (RB 不)) (NP (JJ 稳定))) (NP (SFN 性))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP12975': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+美国	认识	nsubj
+应该	继续	aux
+继续	认识	advcl
+推动	继续	xcomp
+与	韩国	case
+韩国	扩大	obl
+扩大	推动	xcomp
+联盟	结构	nmod
+结构	扩大	obj
+，	继续	punct
+但	认识	mark
+也	认识	mark
+应该	认识	aux
+认识	ROOT	root
+到	认识	mark
+国内	格局	nmod
+政治	格局	nmod
+格局	性	nmod
+的	格局	case
+不	稳定	advmod
+稳定	性	compound
+性	认识	obj
+。	认识	punct
+----------------------------------------------------------------------
+任何美国政府要求韩国陆军支持阿富汗联军行动的请求都将尤其具有争议性，并且需要大力开展公共外交工作来减轻公众示威的可能性。
+(ROOT (IP (NP (DP (DT 任何)) (CP (IP (NP (NP (NNP 美国)) (NP (NN 政府))) (VP (VV 要求) (NP (NP (NNP 韩国)) (NP (NN 陆军))) (IP (VP (VV 支持) (NP (NP (NP (NNP 阿富汗)) (NP (NN 联军))) (NP (NN 行动))))))) (DEC 的)) (NP (NN 请求))) (VP (VP (ADVP (RB 都)) (ADVP (RB 将)) (ADVP (RB 尤其)) (VP (VV 具有) (NP (NN 争议) (SFN 性)))) (, ，) (RB 并且) (VP (MD 需要) (VP (VP (ADVP (RB 大力)) (VP (VV 开展) (NP (NP (ADJP (JJ 公共)) (NP (NN 外交))) (NP (NN 工作))))) (VP (RB 来) (VP (VV 减轻) (NP (DNP (NP (NN 公众) (VV 示威)) (DEC 的)) (NP (NN 可能) (SFN 性)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP54379': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'CP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+任何	政府	det
+美国	政府	nmod
+政府	要求	nsubj
+要求	请求	acl:relcl
+韩国	陆军	nmod
+陆军	支持	nsubj
+支持	要求	ccomp
+阿富汗	行动	nmod
+联军	行动	nmod
+行动	支持	obj
+的	要求	mark:rel
+请求	具有	nsubj
+都	具有	mark
+将	具有	advmod
+尤其	具有	advmod
+具有	减轻	advcl
+争议	性	compound
+性	具有	obj
+，	具有	punct
+并且	减轻	mark
+需要	减轻	aux
+大力	开展	advmod
+开展	减轻	advcl
+公共	工作	amod
+外交	工作	nmod
+工作	开展	obj
+来	减轻	mark
+减轻	ROOT	root
+公众	示威	nsubj
+示威	性	acl:relcl
+的	示威	mark:rel
+可能	性	compound
+性	减轻	obj
+。	减轻	punct
+----------------------------------------------------------------------
+由于日本宪法、法律、财政和社会制约以及东京的大规模拖延，与日本的军事关系一直很困难。
+(ROOT (IP (PP (IN 由于) (NP (NP (NP (NNP 日本)) (NP (NN 宪法) (EC 、) (NN 法律) (EC 、) (NN 财政) (CC 和) (NN 社会)) (NP (NN 制约))) (CC 以及) (NP (DNP (NP (NNP 东京)) (DEC 的)) (NP (ADJP (PFA 大)) (NP (NN 规模))) (NP (NN 拖延))))) (, ，) (NP (DNP (PP (IN 与) (NP (NNP 日本))) (DEC 的)) (NP (NN 军事) (NN 关系))) (VP (ADVP (RB 一直)) (ADVP (RB 很)) (VP (JJ 困难))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP74132': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+由于	宪法	case
+日本	宪法	nmod
+宪法	困难	nsubj
+、	法律	punct
+法律	宪法	conj
+、	财政	punct
+财政	宪法	conj
+和	制约	cc
+社会	制约	nmod
+制约	宪法	conj
+以及	拖延	cc
+东京	拖延	nmod
+的	东京	case
+大	规模	case
+规模	拖延	nmod
+拖延	宪法	conj
+，	宪法	punct
+与	关系	case
+日本	关系	nmod
+的	日本	case
+军事	关系	nmod
+关系	困难	nmod
+一直	困难	advmod
+很	困难	advmod
+困难	ROOT	root
+。	困难	punct
+----------------------------------------------------------------------
+目前还不清楚日本愿意多大程度上改变现有的舒适的同盟现状。
+(ROOT (IP (VP (NP (NN 目前)) (ADVP (RB 还)) (ADVP (RB 不)) (VP (VV 清楚) (IP (NP (NNP 日本)) (VP (MD 愿意) (IP (VP (LCP (NP (ADJP (ADVP (JJ 多)) (ADJP (PFA 大))) (NP (NN 程度))) (IN 上)) (VP (VV 改变) (NP (DNP (ADJP (JJ 现有)) (DEC 的)) (CP (CP (IP (VP (JJ 舒适))) (DEC 的))) (NP (NN 同盟) (NN 现状)))))))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'NP': {}, 'ADVP': {}, 'ADVP92312': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {'NP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'VP': {'NP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+目前	清楚	nmod:tmod
+还	清楚	mark
+不	清楚	advmod
+清楚	ROOT	root
+日本	改变	nsubj
+愿意	改变	aux
+多	程度	amod
+大	程度	case
+程度	改变	obl
+上	程度	case
+改变	清楚	ccomp
+现有	现状	amod
+的	现有	mark:rel
+舒适	现状	amod
+的	舒适	mark:rel
+同盟	现状	nmod
+现状	改变	obj
+。	清楚	punct
+----------------------------------------------------------------------
+日本不作为会带来严重后果。
+(ROOT (IP (NP (NNP 日本)) (VP (ADVP (RB 不)) (VP (VV 作) (PP (VC 为) (NP (MD 会)))) (VP (VV 带来) (NP (ADJP (JJ 严重)) (NP (NN 后果))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}, 'VP73560': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}, 'VP': {}}}
+Dependency Features:
+日本	作	nsubj
+不	作	advmod
+作	ROOT	root
+为	作	mark
+会	带来	aux
+带来	作	xcomp
+严重	后果	amod
+后果	带来	obj
+。	带来	punct
+----------------------------------------------------------------------
+日本长期政策停滞不前，不符合华盛顿的战略利益，并且有可能加剧美国对盟友的沮丧。
+(ROOT (IP (IP (NP (NNP 日本)) (ADJP (NN 长期)) (NP (NN 政策)) (VP (VP (VV 停滞) (VV 不前)))) (, ，) (IP (VP (VP (ADVP (RB 不)) (VP (VV 符合) (NP (DNP (NP (NNP 华盛顿)) (DEC 的)) (NP (NN 战略) (NN 利益))))) (, ，) (RB 并且) (VP (VP (VV 有) (NP (MD 可能))) (VP (VV 加剧) (NP (NP (NNP 美国)) (DNP (PP (IN 对) (NP (NN 盟友))) (DEC 的)) (NP (NN 沮丧))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP37357': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'ADJP': {}, 'NP54571': {}, 'VP': {}}, ',': {}, 'IP2594': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'ADJP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'ADJP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+日本	政策	nmod
+长期	政策	nmod
+政策	停滞	nsubj
+停滞	加剧	advcl
+前	停滞	mark
+，	停滞	punct
+不	符合	advmod
+符合	加剧	advcl
+华盛顿	利益	nmod
+的	华盛顿	case
+战略	利益	nmod
+利益	符合	obj
+，	符合	punct
+并且	加剧	mark
+有	加剧	advcl
+可能	加剧	aux
+加剧	ROOT	root
+美国	沮丧	nmod
+对	沮丧	case
+盟友	沮丧	nmod
+的	沮丧	case
+沮丧	加剧	obj
+。	加剧	punct
+----------------------------------------------------------------------
+东京不愿意或者无法做出坚定的决策，有可能会导致日本在日益崛起的中国的主导下，失去影响力甚至相关性。
+(ROOT (IP (IP (NP (NNP 东京)) (VP (VP (ADVP (RB 不)) (VP (MD 愿意))) (CC 或者) (VP (ADVP (VV 无法)) (VP (VV 做出) (NP (CP (CP (IP (VP (JJ 坚定))) (DEC 的))) (NP (NN 决策))))))) (, ，) (VP (VP (VV 有) (NP (MD 可能))) (VP (MD 会) (VP (VV 导致) (IP (NP (NNP 日本)) (VP (PP (IN 在) (LCP (NP (DNP (NP (CP (CP (IP (VP (ADVP (RB 日益)) (VP (VV 崛起)))) (DEC 的))) (NP (NNP 中国))) (DEC 的)) (NP (NN 主导))) (IN 下))) (, ，) (VP (VP (VV 失去) (NP (VV 影响) (SFN 力))) (NP (ADVP (RB 甚至)) (NP (JJ 相关) (SFN 性))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'VP': {'VP': {}, 'VP74624': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+东京	无法	nsubj
+不	无法	advmod
+愿意	无法	aux
+或者	无法	cc
+无法	有	xcomp
+做出	无法	xcomp
+坚定	决策	amod
+的	坚定	mark:rel
+决策	做出	obj
+，	无法	punct
+有	ROOT	root
+可能	导致	aux
+会	导致	aux
+导致	有	xcomp
+日本	主导	nmod
+在	主导	case
+日益	崛起	advmod
+崛起	中国	acl:relcl
+的	崛起	mark:rel
+中国	主导	nmod
+的	中国	case
+主导	导致	obj
+下	主导	case
+，	导致	punct
+失去	有	xcomp
+影响	力	compound
+力	失去	obj
+甚至	失去	mark
+相关	性	compound
+性	失去	obj
+。	失去	punct
+----------------------------------------------------------------------
+克林顿应该明确美国的关切，同时探讨日本的目标，为随后与国防部长协调的工作做好准备。
+(ROOT (IP (NP (NNP 克林顿)) (VP (VP (MD 应该) (VP (VV 明确) (NP (DNP (NP (NNP 美国)) (DEC 的)) (NP (NN 关切))))) (, ，) (VP (ADVP (NN 同时)) (VP (VP (VV 探讨) (NP (DNP (NP (NNP 日本)) (DEC 的)) (NP (NN 目标)))) (, ，) (VP (PP (IN 为) (NP (CP (IP (VP (ADVP (RB 随后)) (PP (IN 与) (NP (NN 国防) (NN 部长))) (VP (VV 协调)))) (DEC 的)) (NP (NN 工作)))) (VP (VV 做好) (NP (NN 准备))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP27811': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+克林顿	做好	nsubj
+应该	明确	aux
+明确	做好	advcl
+美国	关切	nmod
+的	美国	case
+关切	明确	obj
+，	明确	punct
+同时	探讨	nmod:tmod
+探讨	做好	advcl
+日本	目标	nmod
+的	日本	case
+目标	探讨	obj
+，	探讨	punct
+为	工作	case
+随后	协调	advmod
+与	部长	case
+国防	部长	nmod
+部长	协调	obl
+协调	工作	acl:relcl
+的	协调	mark:rel
+工作	做好	obl
+做好	ROOT	root
+准备	做好	obj
+。	做好	punct
+----------------------------------------------------------------------
+克林顿应该向盟国保证，美国仍致力于实现朝鲜的全面和可核查的无核化，并明确表示，华盛顿不会接受朝鲜成为核武器国家的局面。
+(ROOT (IP (NP (NNP 克林顿)) (VP (MD 应该) (VP (PP (IN 向) (NP (NN 盟国))) (VP (VV 保证) (, ，) (IP (NP (NNP 美国)) (VP (VP (ADVP (RB 仍)) (VP (VV 致力) (PP (VV 于) (IP (VP (VV 实现) (NP (NP (DNP (NP (NNP 朝鲜)) (DEC 的)) (ADJP (JJ 全面))) (CC 和) (NP (CP (CP (IP (VP (MD 可) (VP (VV 核查)))) (DEC 的))) (ADJP (VV 无)) (NP (NN 核化))))))))) (, ，) (RB 并) (VP (ADVP (RB 明确)) (VP (VV 表示) (, ，) (IP (NP (NNP 华盛顿)) (VP (MD 不会) (VP (VV 接受) (NP (CP (IP (NP (NNP 朝鲜)) (VP (VV 成) (VP (VC 为) (NP (NP (NN 核) (NN 武器)) (NP (NN 国家)))))) (DEC 的)) (NP (NN 局面))))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+克林顿	保证	nsubj
+应该	保证	aux
+向	盟国	case
+盟国	保证	obl
+保证	ROOT	root
+，	表示	punct
+美国	表示	nsubj
+仍	致力	advmod
+致力	表示	advcl
+于	致力	mark
+实现	致力	xcomp
+朝鲜	全面	nsubj
+的	朝鲜	case
+全面	无	acl:relcl
+和	核查	cc
+可	核查	aux
+核查	全面	conj
+的	全面	mark:rel
+无	实现	conj
+核化	无	obj
+，	致力	punct
+并	表示	mark
+明确	表示	advmod
+表示	保证	ccomp
+，	接受	punct
+华盛顿	接受	nsubj
+会	接受	aux
+接受	表示	ccomp
+朝鲜	成	nsubj
+成	局面	acl:relcl
+为	成	mark
+核	国家	nmod
+武器	国家	nmod
+国家	成	obj
+的	成	mark:rel
+局面	接受	obj
+。	保证	punct
+----------------------------------------------------------------------
+美国官员的言论在韩国和日本被错误地理解为表明美国政策已经从朝鲜无核化转向仅仅限制现有核武库并防止扩散。
+(ROOT (IP (NP (DNP (NP (NP (NNP 美国)) (NP (NN 官员))) (DEC 的)) (NP (NN 言论))) (VP (PP (VV 在) (NP (NNP 韩国) (CC 和) (NNP 日本))) (VP (BB 被) (VP (DVP (VP (JJ 错误)) (DEV 地)) (VP (VRD (VV 理解) (VC 为)) (IP (VP (VV 表明) (IP (NP (NP (NNP 美国)) (NP (NN 政策))) (VP (VP (ADVP (RB 已经)) (PP (IN 从) (NP (NP (NNP 朝鲜)) (VP (VP (VV 无) (NP (NN 核化))) (VP (VV 转向))))) (ADVP (RB 仅仅)) (VP (VV 限制) (NP (ADJP (VV 现有)) (NP (NN 核) (NN 武库))))) (RB 并) (VP (VV 防止) (NP (VV 扩散))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+美国	官员	nmod
+官员	言论	nmod
+的	官员	case
+言论	理解	nsubj:pass
+在	理解	advcl
+韩国	在	obj
+和	日本	cc
+日本	韩国	conj
+被	理解	aux:pass
+错误	理解	advmod
+地	错误	mark:adv
+理解	ROOT	root
+为	理解	mark
+表明	理解	xcomp
+美国	政策	nmod
+政策	防止	nsubj
+已经	防止	advmod
+从	转向	case
+朝鲜	无	nsubj
+无	转向	advcl
+核化	无	obj
+转向	防止	ccomp
+仅仅	限制	advmod
+限制	转向	xcomp
+现有	限制	xcomp
+核	武库	nmod
+武库	现有	obj
+并	防止	mark
+防止	表明	ccomp
+扩散	防止	xcomp
+。	理解	punct
+----------------------------------------------------------------------
+克林顿还应该阐述奥巴马政府的朝鲜六方会谈战略以及确保朝鲜遵守现有承诺的手段。
+(ROOT (IP (NP (NNP 克林顿)) (VP (ADVP (RB 还)) (VP (MD 应该) (VP (VP (VV 阐述) (NP (DNP (NP (NP (NNP 奥巴马)) (NP (NN 政府))) (DEC 的)) (NP (NNP 朝鲜)) (NP (NP (QP (CD 六)) (NP (NN 方))) (NP (NN 会谈))) (NP (NN 战略)))) (CC 以及) (VP (VV 确保) (NP (CP (CP (IP (NP (NNP 朝鲜)) (VP (VV 遵守) (NP (ADJP (NN 现有)) (NP (NN 承诺))))) (DEC 的))) (NP (NN 手段))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+克林顿	阐述	nsubj
+还	阐述	mark
+应该	阐述	aux
+阐述	ROOT	root
+奥巴马	政府	nmod
+政府	战略	nmod
+的	政府	case
+朝鲜	战略	nmod
+六	方	nummod
+方	战略	nmod
+会谈	战略	nmod
+战略	阐述	obj
+以及	手段	cc
+确保	手段	acl:relcl
+朝鲜	遵守	nsubj
+遵守	手段	acl:relcl
+现有	承诺	nmod
+承诺	遵守	obj
+的	确保	mark:rel
+手段	战略	conj
+。	阐述	punct
+----------------------------------------------------------------------

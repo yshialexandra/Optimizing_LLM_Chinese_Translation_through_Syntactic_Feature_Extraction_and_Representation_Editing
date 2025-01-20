@@ -1,0 +1,724 @@
+随着苹果公司预计将于周一推出新版iPhone，“智能手机”市场的争夺将进入一个新的阶段。
+
+(ROOT (IP (PP (VV 随) (PP (AS 着) (IP (NP (NNP 苹果) (NN 公司)) (VP (VV 预计) (IP (VP (ADVP (RB 将)) (PP (IN 于) (NP (NNB 周) (CD 一))) (VP (VV 推出) (NP (ADJP (NN 新版)) (NP (FW iPhone)))))))))) (, ，) (NP (DNP (NP (NP (`` “) (NN 智能) (NN 手机) ('' ”)) (NP (NN 市场))) (DEC 的)) (NP (NN 争夺))) (VP (ADVP (RB 将)) (VP (VV 进入) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 阶段))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'PP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+随	预计	advcl
+着	随	aux
+苹果	公司	nmod
+公司	预计	nsubj
+预计	ROOT	root
+将	推出	advmod
+于	一	case
+周	一	nmod
+一	推出	obl
+推出	预计	xcomp
+新版	iPhone	nmod
+iPhone	推出	obj
+，	进入	punct
+“	手机	punct
+智能	手机	nmod
+手机	市场	nmod
+”	手机	punct
+市场	争夺	nmod
+的	手机	case
+争夺	进入	nsubj
+将	进入	advmod
+进入	预计	parataxis
+一	个	nummod
+个	阶段	clf
+新	阶段	amod
+的	新	mark:rel
+阶段	进入	obj
+。	进入	punct
+----------------------------------------------------------------------
+自 2007 年推出以来，苹果已在 80 个国家销售超过 2100 万部 iPhone。
+
+(ROOT (IP (LCP (IP (VP (PP (IN 自) (NP (CD 2007))) (VP (NNB 年推出)))) (IN 以来)) (, ，) (NP (NNP 苹果)) (VP (ADVP (RB 已)) (PP (VV 在) (NP (QP (CD 80) (CLP (NNB 个))) (NP (NN 国家)))) (VP (VV 销售) (NP (QP (ADVP (VV 超过)) (QP (CD 2100) (CLP (NNB 万部)))) (NP (FW iPhone))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'IP': {}, 'IN': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+自	年推出	case
+2007	年推出	nummod
+年推出	销售	obl
+以来	年推出	case
+，	年推出	punct
+苹果	销售	nsubj
+已	销售	advmod
+在	销售	advcl
+80	个	nummod
+个	国家	clf
+国家	在	obj
+销售	ROOT	root
+超过	销售	xcomp
+2100	万部	nummod
+万部	iPhone	clf
+iPhone	超过	obj
+。	销售	punct
+----------------------------------------------------------------------
+新款iPhone对苹果公司来说如此重要，苹果公司首席执行官史蒂夫·乔布斯 (Steve Jobs) 预计将从病假回来出席在旧金山举行的苹果全球开发者大会 (WWDC) 上发布会。
+
+(ROOT (IP (IP (NP (FW 新款iPhone)) (VP (IP (VP (PP (IN 对) (NP (NNP 苹果) (NN 公司))) (VP (RB 来) (VP (VV 说))))) (ADVP (VV 如此)) (VP (JJ 重要)))) (, ，) (IP (NP (NP (NP (NNP 苹果) (NN 公司)) (NP (JJ 首席) (VV 执行))) (NP (NNP 官史蒂夫) (/ ·) (NNP 乔布斯) (FW -LRB-Steve) (FW Jobs-RRB-))) (VP (VV 预计) (VP (LCP (IP (IP (VP (ADVP (RB 将)) (PP (IN 从) (NP (NN 病假))) (VP (VV 回来) (VP (VV 出席) (NP (CP (CP (IP (VP (PP (VV 在) (NP (NNP 旧金山))) (VP (VV 举行)))) (DEC 的))) (NP (NNP 苹果) (NN 全球) (VV 开发) (SFN 者) (NN 大会)) (NP (FW -LRB-WWDC))))))) (-RRB- -RRB-)) (IN 上)) (VP (VV 发布) (NP (SFN 会)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP78615': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP45624': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+新款iPhone	说	nsubj
+对	公司	case
+苹果	公司	nmod
+公司	说	obl
+来	说	mark
+说	预计	advcl
+如此	重要	advcl
+重要	说	xcomp
+，	说	punct
+苹果	执行	nmod
+公司	执行	nmod
+首席	执行	amod
+执行	预计	nsubj
+官史蒂夫	执行	appos
+·	乔布斯	punct
+乔布斯	官史蒂夫	flat:name
+(Steve	执行	appos
+Jobs)	(Steve	flat:foreign
+预计	ROOT	root
+将	出席	advmod
+从	病假	case
+病假	回来	obl
+回来	出席	advcl
+出席	预计	xcomp
+在	举行	advcl
+旧金山	在	obj
+举行	大会	acl:relcl
+的	举行	mark:rel
+苹果	大会	nmod
+全球	大会	nmod
+开发	者	compound
+者	大会	nmod
+大会	会	nmod
+(WWDC	大会	appos
+)	大会	acl
+上	大会	case
+发布	会	compound
+会	出席	obj
+。	预计	punct
+----------------------------------------------------------------------
+Jobs 先生曾抗击胰腺癌，1 月份因为激素失调而休医。
+
+(ROOT (IP (NP (FW Jobs) (NN 先生)) (VP (VP (ADVP (RB 曾)) (VP (VV 抗击) (NP (NN 胰腺癌)))) (, ，) (VP (NP (QP (CD 1)) (NP (NNB 月份))) (PP (IN 因为) (IP (NP (NN 激素)) (VP (VV 失调)))) (VP (RB 而) (VP (VV 休医))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'FW': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP68360': {}}, '.': {}}}
+{'IP': {'NP': {'FW': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'FW': {}, 'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+Jobs	先生	nmod
+先生	休医	nsubj
+曾	抗击	advmod
+抗击	休医	advcl
+胰腺癌	抗击	obj
+，	抗击	punct
+1	月份	nummod
+月份	休医	nmod:tmod
+因为	失调	case
+激素	失调	nsubj
+失调	休医	ccomp
+而	休医	mark
+休医	ROOT	root
+。	休医	punct
+----------------------------------------------------------------------
+该公司拒绝证实或否认乔布斯是否会出席会议，但表示他将在本月底回到工作岗位。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 公司))) (VP (VP (VV 拒绝) (IP (VP (VP (VV 证实)) (CC 或) (VP (VV 否认) (IP (NP (NNP 乔布斯)) (VP (ADVP (VC 是否)) (VP (MD 会) (VP (VV 出席) (NP (NN 会议)))))))))) (, ，) (VP (ADVP (RB 但)) (VP (VV 表示) (IP (NP (PRP 他)) (VP (ADVP (RB 将)) (PP (IN 在) (LCP (NP (NN 本月)) (IN 底))) (VP (VV 回到) (NP (NN 工作) (NN 岗位)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP53557': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+该	公司	det
+公司	表示	nsubj
+拒绝	表示	advcl
+证实	拒绝	xcomp
+或	否认	cc
+否认	证实	conj
+乔布斯	是	nsubj
+是	否认	ccomp
+会	出席	aux
+出席	是	xcomp
+会议	出席	obj
+，	拒绝	punct
+但	表示	mark
+表示	ROOT	root
+他	回到	nsubj
+将	回到	advmod
+在	本月	case
+本月	回到	obl
+底	本月	case
+回到	表示	ccomp
+工作	岗位	nmod
+岗位	回到	obj
+。	表示	punct
+----------------------------------------------------------------------
+苹果公司表示，其首席营销官菲利普·席勒将发表主旨演讲。
+
+(ROOT (IP (NP (NNP 苹果) (NN 公司)) (VP (VV 表示) (, ，) (IP (NP (NP (NP (PRP 其)) (NP (JJ 首席) (VV 营销) (SFN 官))) (NP (NNP 菲利普) (/ ·) (NNP 席勒))) (VP (ADVP (RB 将)) (VP (VV 发表) (NP (NN 主旨) (NN 演讲)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+苹果	公司	nmod
+公司	表示	nsubj
+表示	ROOT	root
+，	发表	punct
+其	官	nmod
+首席	官	amod
+营销	官	compound
+官	发表	nsubj
+菲利普	官	appos
+·	席勒	punct
+席勒	菲利普	flat:name
+将	发表	advmod
+发表	表示	ccomp
+主旨	演讲	nmod
+演讲	发表	obj
+。	表示	punct
+----------------------------------------------------------------------
+周末，网上流传了一组疑似新款iPhone的照片。
+
+(ROOT (IP (NP (NN 周末)) (, ，) (NP (NN 网上)) (VP (VV 流传) (AS 了) (NP (QP (CD 一) (CLP (NNB 组))) (CP (CP (IP (VP (JJ 疑似) (NP (NP (ADJP (PFA 新)) (NP (NNB 款))) (NP (FW iPhone))))) (DEC 的))) (NP (NN 照片)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP4521': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP17936': {'NN': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+周末	流传	nmod:tmod
+，	周末	punct
+网上	流传	nsubj
+流传	ROOT	root
+了	流传	aux
+一	组	nummod
+组	照片	clf
+疑似	iPhone	amod
+新	款	case
+款	iPhone	clf
+iPhone	照片	det
+的	iPhone	mark:rel
+照片	流传	obj
+。	流传	punct
+----------------------------------------------------------------------
+预计该手机将配备 320 万像素摄影头，而目前的摄影头为 200 万像素；内置指南针和橡胶背衬。
+
+(ROOT (IP (VP (VV 预计) (IP (IP (NP (DP (DT 该)) (NP (NN 手机))) (VP (ADVP (RB 将)) (VP (VV 配备) (NP (QP (CD 320)) (NP (NN 万像)) (NP (SFN 素) (VV 摄影) (SFN 头)))))) (, ，) (RB 而) (IP (NP (DNP (NP (NN 目前)) (DEC 的)) (NP (VV 摄影) (SFN 头))) (VP (VC 为) (NP (QP (CD 200)) (NP (NN 万像)) (NP (SFN 素))))) (: ；) (IP (VP (VV 内置) (NP (VV 指南) (SFN 针) (CC 和) (NN 橡胶) (NN 背衬)))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+预计	ROOT	root
+该	手机	det
+手机	配备	nsubj
+将	配备	advmod
+配备	预计	ccomp
+320	头	nummod
+万像	素	compound
+素	头	nmod
+摄影	头	compound
+头	配备	obj
+，	素	punct
+而	素	mark
+目前	头	nmod
+的	目前	case
+摄影	头	compound
+头	素	nsubj
+为	素	cop
+200	素	nummod
+万像	素	compound
+素	预计	parataxis
+；	内置	punct
+内置	预计	parataxis
+指南	针	compound
+针	内置	obj
+和	背衬	cc
+橡胶	背衬	nmod
+背衬	针	conj
+。	预计	punct
+----------------------------------------------------------------------
+其他照片显示该设备配有前置摄像头，可以让客户进行双向视频对话。
+
+(ROOT (IP (NP (DP (DT 其他)) (NP (NN 照片))) (VP (VV 显示) (IP (IP (NP (DP (DT 该)) (NP (NN 设备))) (VP (VV 配有) (NP (ADJP (VV 前置)) (NP (VV 摄像) (SFN 头))))) (, ，) (IP (VP (MD 可以) (VP (VV 让) (NP (NN 客户)) (IP (VP (VV 进行) (NP (QP (CD 双) (CLP (VV 向))) (NP (NN 视频) (NN 对话)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+其他	照片	det
+照片	显示	nsubj
+显示	ROOT	root
+该	设备	det
+设备	让	nsubj
+配有	让	advcl
+前置	头	compound
+摄像	头	compound
+头	配有	obj
+，	配有	punct
+可以	让	aux
+让	显示	ccomp
+客户	进行	nsubj
+进行	让	ccomp
+双	向	nummod
+向	进行	xcomp
+视频	对话	nmod
+对话	向	obj
+。	显示	punct
+----------------------------------------------------------------------
+博客还表示，苹果公司还可能会推出一款更便宜的低端版本手机，以吸引那些对高昂的价格不满的客户。
+
+(ROOT (IP (NP (NN 博客)) (VP (ADVP (RB 还)) (VP (VV 表示) (, ，) (IP (NP (NNP 苹果) (NN 公司)) (VP (ADVP (RB 还)) (VP (MD 可能) (VP (MD 会) (VP (VP (VV 推出) (NP (QP (CD 一) (CLP (NNB 款))) (CP (CP (IP (VP (ADVP (RB 更)) (VP (JJ 便宜)))) (DEC 的))) (NP (ADJP (NN 低端)) (NP (NN 版本))) (NP (NN 手机)))) (, ，) (VP (RB 以) (VP (VV 吸引) (NP (DP (DT 那些)) (CP (CP (IP (VP (PP (IN 对) (NP (CP (CP (IP (VP (JJ 高昂))) (DEC 的))) (NP (NN 价格)))) (VP (JJ 不满)))) (DEC 的))) (NP (NN 客户)))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+博客	表示	nsubj
+还	表示	mark
+表示	ROOT	root
+，	吸引	punct
+苹果	公司	nmod
+公司	吸引	nsubj
+还	推出	mark
+可能	推出	aux
+会	推出	aux
+推出	吸引	advcl
+一	款	nummod
+款	手机	clf
+更	便宜	advmod
+便宜	手机	amod
+的	便宜	mark:rel
+低端	手机	nmod
+版本	手机	nmod
+手机	推出	obj
+，	推出	punct
+以	吸引	mark
+吸引	表示	ccomp
+那些	客户	det
+对	客户	case
+高昂	客户	amod
+的	高昂	mark:rel
+价格	不满	nmod
+不满	客户	acl:relcl
+的	不满	mark:rel
+客户	吸引	obj
+。	表示	punct
+----------------------------------------------------------------------
+美国投资银行 Piper Jaffrey 的分析师 Gene Munster 是最受尊重的“苹果迷”，他表示，苹果公司将发布新的操作系统，但不会发布新的手机，因此可能会引发广泛的失望。
+
+(ROOT (IP (IP (NP (NP (DNP (NP (NP (NNP 美国) (NN 投资) (NN 银行)) (NP (FW Piper) (FW Jaffrey))) (DEC 的)) (NP (VV 分析) (SFN 师))) (NP (FW Gene) (FW Munster))) (VP (VC 是) (NP (CP (CP (IP (VP (VV 最受) (NP (VV 尊重)))) (DEC 的))) (NP (`` “) (NNP 苹果) (SFN 迷) ('' ”))))) (, ，) (IP (NP (PRP 他)) (VP (VV 表示) (, ，) (IP (IP (NP (NNP 苹果) (NN 公司)) (VP (VP (ADVP (RB 将)) (VP (VV 发布) (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 操作) (NN 系统))))) (, ，) (VP (ADVP (RB 但)) (VP (MD 不会) (VP (VV 发布) (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 手机)))))))) (, ，) (IP (ADVP (IN 因)) (ADVP (PRD 此)) (VP (MD 可能) (VP (MD 会) (VP (VV 引发) (NP (CP (CP (IP (VP (JJ 广泛))) (DEC 的))) (NP (NN 失望)))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP91186': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP93196': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+美国	银行	nmod
+投资	银行	nmod
+银行	师	nmod
+Piper	师	det
+Jaffrey	Piper	flat:foreign
+的	Piper	case
+分析	师	compound
+师	迷	nsubj
+Gene	师	appos
+Munster	Gene	flat:foreign
+是	迷	cop
+最受	迷	acl:relcl
+尊重	最受	xcomp
+的	最受	mark:rel
+“	迷	punct
+苹果	迷	compound
+迷	ROOT	root
+”	迷	punct
+，	表示	punct
+他	表示	nsubj
+表示	迷	parataxis
+，	引发	punct
+苹果	公司	nmod
+公司	发布	nsubj
+将	发布	advmod
+发布	引发	advcl
+新	系统	amod
+的	新	mark:rel
+操作	系统	nmod
+系统	发布	obj
+，	发布	punct
+但	发布	mark
+会	发布	aux
+发布	引发	advcl
+新	手机	amod
+的	新	mark:rel
+手机	发布	obj
+，	发布	punct
+因	此	case
+此	引发	obl
+可能	引发	aux
+会	引发	aux
+引发	表示	ccomp
+广泛	失望	amod
+的	广泛	mark:rel
+失望	引发	obj
+。	迷	punct
+----------------------------------------------------------------------
+他表示，新的“iPhone 系列”可能要到七月才会发布。
+
+(ROOT (IP (NP (PRP 他)) (VP (VV 表示) (, ，) (IP (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (`` “) (FW iPhone) (NN 系列) ('' ”))) (VP (MD 可能) (VP (MD 要) (VP (VP (IN 到) (NP (CD 七) (NNB 月))) (ADVP (RB 才)) (VP (MD 会) (VP (VV 发布)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+他	表示	nsubj
+表示	ROOT	root
+，	发布	punct
+新	系列	amod
+的	新	mark:rel
+“	系列	punct
+iPhone	系列	nmod
+系列	发布	nsubj
+”	系列	punct
+可能	发布	aux
+要	发布	aux
+到	月	case
+七	月	nummod
+月	发布	obl
+才	发布	mark
+会	发布	aux
+发布	表示	ccomp
+。	表示	punct
+----------------------------------------------------------------------
+自 2007 年推出以来，苹果已在 80 个国家销售超过 2100 万部 iPhone。
+
+(ROOT (IP (LCP (IP (VP (PP (IN 自) (NP (CD 2007))) (VP (NNB 年推出)))) (IN 以来)) (, ，) (NP (NNP 苹果)) (VP (ADVP (RB 已)) (PP (VV 在) (NP (QP (CD 80) (CLP (NNB 个))) (NP (NN 国家)))) (VP (VV 销售) (NP (QP (ADVP (VV 超过)) (QP (CD 2100) (CLP (NNB 万部)))) (NP (FW iPhone))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'IP': {}, 'IN': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+自	年推出	case
+2007	年推出	nummod
+年推出	销售	obl
+以来	年推出	case
+，	年推出	punct
+苹果	销售	nsubj
+已	销售	advmod
+在	销售	advcl
+80	个	nummod
+个	国家	clf
+国家	在	obj
+销售	ROOT	root
+超过	销售	xcomp
+2100	万部	nummod
+万部	iPhone	clf
+iPhone	超过	obj
+。	销售	punct
+----------------------------------------------------------------------
+根据加特纳的数据，该公司在全球智能手机市场的份额约为 10%。
+
+(ROOT (IP (PP (IN 根据) (NP (DNP (NP (NNP 加特纳)) (DEC 的)) (NP (NN 数据)))) (, ，) (NP (NP (DP (DT 该)) (NP (NN 公司))) (DNP (PP (IN 在) (NP (NP (NN 全球)) (NP (NN 智能) (NN 手机) (NN 市场)))) (DEC 的)) (NP (NN 份额))) (VP (ADVP (RB 约)) (VP (VC 为) (QP (CD 10%)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NP': {}, 'DNP': {}, 'NP38196': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'NP': {}, 'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+根据	数据	case
+加特纳	数据	nmod
+的	加特纳	case
+数据	10%	nmod
+，	数据	punct
+该	公司	det
+公司	份额	nmod
+在	份额	case
+全球	市场	nmod
+智能	市场	nmod
+手机	市场	nmod
+市场	份额	nmod
+的	份额	case
+份额	10%	nsubj
+约	10%	advmod
+为	10%	cop
+10%	ROOT	root
+。	10%	punct
+----------------------------------------------------------------------
+苹果公司的这一重大宣布距离棕榈手机重新进入智能手机市场并获得好评仅过了几天。
+
+(ROOT (IP (NP (DNP (NP (NNP 苹果) (NN 公司)) (DEC 的)) (DP (DT 这) (QP (CD 一))) (ADJP (JJ 重大)) (NP (NN 宣布))) (VP (VP (VP (PP (IN 距离) (NP (NN 棕榈) (NN 手机))) (ADVP (RB 重新)) (VP (VV 进入) (NP (NP (NN 智) (SFN 能) (NN 手机)) (NP (NN 市场))))) (RB 并) (VP (VV 获得) (NP (NN 好评)))) (VP (ADVP (RB 仅)) (VP (VV 过) (AS 了) (QP (CD 几) (CLP (NNB 天)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'DP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP4219': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'DP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'DP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+苹果	公司	nmod
+公司	宣布	nmod
+的	公司	case
+这	一	det
+一	宣布	nummod
+重大	宣布	amod
+宣布	获得	nsubj
+距离	手机	case
+棕榈	手机	nmod
+手机	进入	obl
+重新	进入	advmod
+进入	获得	advcl
+智	能	compound
+能	市场	nmod
+手机	市场	nmod
+市场	进入	obj
+并	获得	mark
+获得	过	advcl
+好评	获得	obj
+仅	过	advmod
+过	ROOT	root
+了	过	aux
+几	天	nummod
+天	过	obj
+。	过	punct
+----------------------------------------------------------------------
+被称为“iPhone的最佳竞争对手”的 Pre 周末在美国上市。
+
+(ROOT (IP (NP (CP (CP (IP (VP (BB 被) (VP (VCP (VV 称) (VC 为)) (NP (`` “) (DNP (NP (FW iPhone)) (DEC 的)) (ADJP (JJ 最佳)) (NP (NN 竞争) (NN 对手)) ('' ”))))) (DEC 的))) (NP (FW Pre) (NN 周末))) (VP (PP (VV 在) (NP (NNP 美国))) (VP (VV 上市))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+被	称	aux:pass
+称	周末	acl:relcl
+为	称	mark
+“	对手	punct
+iPhone	对手	det
+的	iPhone	mark:rel
+最佳	对手	amod
+竞争	对手	nmod
+对手	称	obj
+”	对手	punct
+的	称	mark:rel
+Pre	周末	nmod
+周末	上市	nmod:tmod
+在	上市	advcl
+美国	在	obj
+上市	ROOT	root
+。	上市	punct
+----------------------------------------------------------------------
+Pre 拥有触摸屏和滑出键盘，预计将于今年晚些时候在英国上市。
+
+(ROOT (IP (IP (NP (FW Pre)) (VP (VV 拥有) (NP (NN 触摸屏) (CC 和) (NN 滑出) (NN 键盘)))) (, ，) (IP (VP (VV 预计) (IP (VP (ADVP (RB 将)) (PP (IN 于) (NP (NP (NN 今年)) (ADJP (NN 晚些)) (NP (NN 时候)))) (PP (VV 在) (NP (NNP 英国))) (VP (VV 上市)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP75115': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP24350': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+Pre	预计	nsubj
+拥有	预计	advcl
+触摸屏	拥有	obj
+和	键盘	cc
+滑出	键盘	nmod
+键盘	触摸屏	conj
+，	拥有	punct
+预计	ROOT	root
+将	上市	advmod
+于	时候	case
+今年	时候	nmod
+晚些	时候	nmod
+时候	上市	obl
+在	上市	advcl
+英国	在	obj
+上市	预计	xcomp
+。	预计	punct
+----------------------------------------------------------------------
+Pre 的成功可能会给 U2 前卫乐队主唱博纳 (Bono) 带来巨大的好处，博纳 的私募股权公司 Elevation Partners 拥有该公司 41% 的股份。
+
+(ROOT (IP (IP (NP (DNP (NP (FW Pre)) (DEC 的)) (NP (NN 成功))) (VP (MD 可能) (VP (MD 会) (VP (PP (VV 给) (NP (NP (NP (FW U2)) (ADJP (JJ 前卫)) (NP (NN 乐队))) (NP (NNP 主唱博纳) (FW -LRB-Bono-RRB-)))) (VP (VV 带来) (NP (CP (CP (IP (VP (JJ 巨大))) (DEC 的))) (NP (NN 好处)))))))) (, ，) (IP (NP (NP (DNP (NP (NNP 博纳)) (DEC 的)) (NP (NN 私募) (NN 股权) (NN 公司))) (NP (FW Elevation) (FW Partners))) (VP (VV 拥有) (NP (NP (DP (DT 该)) (NP (NN 公司))) (DNP (QP (CD 41%)) (DEC 的)) (NP (NN 股份))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP99320': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP56992': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+Pre	成功	det
+的	Pre	case
+成功	带来	nsubj
+可能	带来	aux
+会	带来	aux
+给	带来	advcl
+U2	乐队	nmod
+前卫	乐队	amod
+乐队	主唱博纳	nmod
+主唱博纳	给	obj
+(Bono)	主唱博纳	flat:foreign
+带来	ROOT	root
+巨大	好处	amod
+的	巨大	mark:rel
+好处	带来	obj
+，	拥有	punct
+博纳	公司	nmod
+的	博纳	case
+私募	公司	nmod
+股权	公司	nmod
+公司	拥有	nsubj
+Elevation	公司	appos
+Partners	Elevation	flat:foreign
+拥有	带来	parataxis
+该	公司	det
+公司	股份	nmod
+41%	股份	nummod
+的	41%	mark:rel
+股份	拥有	obj
+。	带来	punct
+----------------------------------------------------------------------
+去年十二月，Elevation 公司增持了其持股，以每股 3.24 美元的价格买入价值 1 亿美元（6200 万英镑）的股票。
+
+(ROOT (IP (NP (NN 去年) (CD 十二) (NNB 月)) (, ，) (NP (FW Elevation) (NN 公司)) (VP (VP (VV 增持) (AS 了) (NP (NP (PRP 其)) (NP (NN 持股)))) (, ，) (VP (PP (IN 以) (NP (CP (CP (IP (NP (NN 每股)) (VP (QP (CD 3.24) (CLP (NNB 美元))))) (DEC 的))) (NP (NN 价格)))) (VP (VV 买入) (NP (CP (CP (IP (VP (NN 价值) (QP (CD 1 亿) (CLP (NNP 美) (CLP (NNB 元))) (PRN (-LRB- （) (QP (CD 6200) (QP (CD 万) (CLP (NNP 英) (CLP (NNB 镑))))) (-RRB- ）))))) (DEC 的))) (NP (NN 股票)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP40067': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'NP26849': {'FW': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP27102': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'FW': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'CD': {}, 'NNB': {}}}
+{'NP': {'FW': {}, 'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+去年	月	nmod
+十二	月	nummod
+月	增持	nmod:tmod
+，	月	punct
+Elevation	公司	nmod
+公司	增持	nsubj
+增持	买入	advcl
+了	增持	aux
+其	持股	nmod
+持股	增持	obj
+，	增持	punct
+以	价格	case
+每股	美元	nmod
+3.24	美元	nummod
+美元	价格	acl:relcl
+的	美元	mark:rel
+价格	买入	obl
+买入	ROOT	root
+价值	股票	nmod
+1 亿	元	nummod
+美	元	nmod
+元	价值	acl
+（	镑	punct
+6200	镑	nummod
+万	镑	nummod
+英	镑	nmod
+镑	元	appos
+）	镑	punct
+的	价值	case
+股票	买入	obj
+。	买入	punct
+----------------------------------------------------------------------
+该公司的股价周五收盘为 13 美元。
+
+(ROOT (IP (NP (DNP (NP (DP (DT 该)) (NP (NN 公司))) (DEC 的)) (NP (NN 股价))) (VP (NP (NNP 周) (CD 五)) (VP (VRD (NN 收盘) (VC 为)) (QP (CD 13) (CLP (NNB 美元))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+该	公司	det
+公司	股价	nmod
+的	公司	case
+股价	收盘	nmod
+周	收盘	nmod
+五	收盘	nmod
+收盘	美元	nsubj
+为	美元	cop
+13	美元	nummod
+美元	ROOT	root
+。	美元	punct
+----------------------------------------------------------------------

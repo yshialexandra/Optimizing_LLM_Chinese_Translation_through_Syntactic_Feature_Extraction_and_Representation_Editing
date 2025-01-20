@@ -1,0 +1,1841 @@
+在2003年出版的《帝国》一书中，英国著名历史学家尼尔·弗格森在美国领导的入侵伊拉克之后不久，就认为美国“不承认自己是帝国”，并且“能够在当今世界发挥帝国作用”，这与19世纪的英国情况很相似。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (NP (CP (CP (IP (VP (NP (CD 2003) (NNB 年)) (VP (VV 出版)))) (DEC 的))) (NP (-LRB- 《) (NN 帝国) (-RRB- 》)) (QP (CD 一)) (NP (NN 书))) (IN 中))) (, ，) (NP (NP (NP (NNP 英国)) (ADJP (JJ 著名)) (NP (NN 历史) (SFN 学) (SFN 家))) (NP (NNP 尼尔) (/ ·) (NNP 弗格森))) (VP (PP (IN 在) (NP (CP (CP (IP (NP (NNP 美国)) (VP (VV 领导))) (DEC 的))) (LCP (IP (VP (VV 入侵) (NP (NNP 伊拉克)))) (IN 之后)) (NP (NN 不久)))) (, ，) (ADVP (RB 就)) (VP (VV 认为) (IP (NP (NNP 美国)) (VP (VP (`` “) (VP (ADVP (RB 不)) (VP (VV 承认) (IP (NP (PRD 自己)) (VP (VC 是) (NP (NN 帝国)))))) ('' ”)) (, ，) (RB 并且) (VP (`` “) (MD 能够) (VP (PP (IN 在) (NP (NN 当今) (NN 世界))) (VP (VV 发挥) (NP (NN 帝国) (NN 作用)))) ('' ”))))))) (, ，) (IP (NP (PRD 这)) (VP (PP (IN 与) (NP (DNP (NP (QP (CD 19)) (NP (NNB 世纪))) (DEC 的)) (NP (NNP 英国)) (NP (NN 情况)))) (ADVP (RB 很)) (VP (JJ 相似)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP56850': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP68719': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+在	年	case
+2003	年	nummod
+年	出版	obl
+出版	帝国	acl:relcl
+的	出版	mark:rel
+《	帝国	punct
+帝国	为	nsubj
+》	帝国	punct
+一	书	nummod
+书	帝国	appos
+中	帝国	case
+，	帝国	punct
+英国	家	nmod
+著名	家	amod
+历史	学	compound
+学	家	compound
+家	为	nsubj
+尼尔	家	appos
+·	弗格森	punct
+弗格森	尼尔	flat:name
+在	不久	case
+美国	领导	nsubj
+领导	入侵	acl:relcl
+的	领导	mark:rel
+入侵	不久	amod
+伊拉克	入侵	obj
+之后	入侵	mark
+不久	为	obl
+，	不久	punct
+就	为	mark
+为	ROOT	root
+美国	承认	nsubj
+“	承认	punct
+不	承认	advmod
+承认	为	ccomp
+自己	帝国	nsubj
+是	帝国	cop
+帝国	承认	ccomp
+”	帝国	punct
+，	承认	punct
+并且	相似	mark
+“	发挥	punct
+能够	发挥	aux
+在	世界	case
+当今	世界	nmod
+世界	发挥	obl
+发挥	相似	advcl
+帝国	作用	nmod
+作用	发挥	obj
+”	发挥	punct
+，	发挥	punct
+这	相似	nsubj
+与	情况	case
+19	世纪	nummod
+世纪	情况	nmod
+的	世纪	case
+英国	情况	nmod
+情况	相似	nmod
+很	相似	advmod
+相似	为	parataxis
+。	为	punct
+----------------------------------------------------------------------
+时隔八年，弗格森写了一本新书《文明》，其中声称，我们正在经历“西方霸权 500 年的终结”，尽管中国正在崛起，但问题不是东西方会发生冲突，而是“弱者”（即美国和欧洲）“会从弱势走向彻底崩溃”。
+
+(ROOT (IP (IP (IP (NP (NN 时)) (VP (VV 隔) (QP (CD 八) (CLP (NNB 年))))) (, ，) (NP (NNP 弗格森)) (VP (VV 写) (AS 了) (NP (NP (QP (CD 一) (CLP (NNB 本))) (ADJP (PFA 新)) (NP (NN 书))) (NP (-LRB- 《) (NN 文明) (-RRB- 》))))) (, ，) (IP (NP (NN 其中)) (VP (VV 声称) (, ，) (IP (IP (NP (PRP 我们)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 经历) (NP (`` “) (NP (NNP 西方) (NN 霸权)) (DNP (QP (CD 500) (CLP (NNB 年))) (DEC 的)) (NP (NN 终结)) ('' ”))))) (, ，) (IP (CP (ADVP (IN 尽管)) (IP (NP (NNP 中国)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 崛起))))) (, ，) (ADVP (RB 但)) (NP (NN 问题)) (VP (VC 不是) (IP (NP (NN 东西) (RB 方)) (VP (MD 会) (VP (VV 发生) (NP (NN 冲突))))))) (, ，) (IP (VP (VC 而是) (IP (NP (`` “) (NN 弱者) ('' ”) (PRN (-LRB- （) (NP (ADVP (VC 即)) (NP (NNP 美国) (CC 和) (NNP 欧洲))) (-RRB- ）))) (VP (`` “) (MD 会) (VP (PP (IN 从) (NP (NN 弱势))) (VP (VV 走) (PP (IN 向) (IP (VP (ADVP (RB 彻底)) (VP (VV 崩溃))))))) ('' ”)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP88229': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP36084': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+时	隔	nsubj
+隔	写	advcl
+八	年	nummod
+年	隔	obj
+，	隔	punct
+弗格森	写	nsubj
+写	ROOT	root
+了	写	aux
+一	本	nummod
+本	书	clf
+新	书	case
+书	写	obj
+《	文明	punct
+文明	书	appos
+》	文明	punct
+，	声称	punct
+其中	声称	nsubj
+声称	写	parataxis
+，	经历	punct
+我	经历	nsubj
+正	经历	advmod
+在	经历	advmod
+经历	声称	ccomp
+“	终结	punct
+西方	年	nmod
+霸权	年	nmod
+500	年	nummod
+年	终结	nmod
+的	年	mark:rel
+终结	经历	obj
+”	终结	punct
+，	经历	punct
+尽管	崛起	case
+中国	崛起	nsubj
+正	崛起	advmod
+在	崛起	advmod
+崛起	发生	ccomp
+，	崛起	punct
+但	发生	mark
+问题	发生	nsubj
+是	东西	cop
+东西	发生	obl
+方	发生	mark
+会	发生	aux
+发生	即	csubj
+冲突	发生	obj
+，	发生	punct
+是	弱者	cop
+“	弱者	punct
+弱者	即	advcl
+”	弱者	punct
+（	弱者	punct
+即	声称	ccomp
+美国	即	xcomp
+和	欧洲	cc
+欧洲	美国	conj
+）	即	punct
+“	走	punct
+会	走	aux
+从	弱势	case
+弱势	走	obl
+走	即	ccomp
+向	崩溃	case
+彻底	崩溃	advmod
+崩溃	走	xcomp
+”	走	punct
+。	写	punct
+----------------------------------------------------------------------
+弗格森先生认为，2007 年夏天开始的金融危机“应该被理解为加速了西方国家已经确立的相对衰落趋势的加速器，而这一趋势已经严重影响了西方国家的债务问题。
+
+(ROOT (IP (NP (NNP 弗格森) (NN 先生)) (VP (VV 认为) (, ，) (IP (IP (NP (CP (CP (IP (VP (NP (CD 2007) (NNB 年夏天)) (VP (VV 开始)))) (DEC 的))) (NP (NN 金融) (NN 危机))) (VP (-RRB- “) (MD 应该) (VP (BB 被) (VP (VRD (VV 理解) (VC 为)) (IP (VP (VV 加速) (AS 了) (NP (DNP (NP (CP (CP (IP (NP (NNP 西方) (NN 国家)) (VP (ADVP (RB 已经)) (VP (VV 确立)))) (DEC 的))) (IP (VP (ADVP (JJ 相对)) (VP (NN 衰落)))) (NP (NN 趋势))) (DEC 的)) (NP (VV 加速) (SFN 器))))))))) (, ，) (RB 而) (IP (NP (DP (DT 这) (QP (CD 一))) (NP (NN 趋势))) (VP (ADVP (RB 已经)) (ADVP (RB 严重)) (VP (VV 影响) (AS 了) (NP (DNP (NP (NNP 西方) (NN 国家)) (DEC 的)) (NP (NN 债务) (NN 问题)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+弗格森	先生	nmod
+先生	为	nsubj
+为	ROOT	root
+，	理解	punct
+2007	年夏天	nummod
+年夏天	开始	nmod:tmod
+开始	危机	acl:relcl
+的	开始	mark:rel
+金融	危机	nmod
+危机	理解	nsubj:pass
+“	危机	punct
+应该	理解	aux
+被	理解	aux:pass
+理解	为	ccomp
+为	理解	mark
+加速	理解	xcomp
+了	加速	aux
+西方	国家	nmod
+国家	确立	nsubj
+已经	确立	advmod
+确立	器	acl:relcl
+的	确立	mark:rel
+相对	趋势	amod
+衰落	趋势	nmod
+趋势	器	nmod
+的	确立	mark:rel
+加速	器	compound
+器	加速	obj
+，	理解	punct
+而	影响	mark
+这	趋势	det
+一	趋势	nummod
+趋势	影响	nsubj
+已经	影响	advmod
+严重	影响	advmod
+影响	为	ccomp
+了	影响	aux
+西方	国家	nmod
+国家	问题	nmod
+的	国家	case
+债务	问题	nmod
+问题	影响	obj
+。	为	punct
+----------------------------------------------------------------------
+他继续说道：“从 2001 年起，仅仅 10 年时间，美国联邦债务在公众手中的份额就翻了一倍，从占国内生产总值的 32% 增长到预计 2011 年的 66%；” 当我们考虑到医疗保健和社会保障体系的未来负债、不断增长的州级赤字和公务员养老基金，他坚称，“2009 年美国的财政状况比希腊更糟，”而希腊目前正在走向破产边缘，急需欧盟的援助。
+
+(ROOT (IP (NP (PRP 他)) (VP (VV 继续) (VP (VV 说道) (: ：) (IP (`` “) (IP (PP (IN 从) (LCP (NP (CD 2001)) (NNB 年起))) (, ，) (LCP (QP (ADVP (RB 仅仅)) (QP (CD 10))) (NNB 年时间)) (, ，) (NP (NP (NP (NP (NNP 美国)) (NP (NN 联邦))) (NP (NN 债务))) (DNP (PP (VV 在) (LCP (NP (NN 公众)) (NN 手中))) (DEC 的)) (NP (NN 份额))) (VP (VP (ADVP (RB 就)) (VP (VV 翻) (AS 了) (QP (CD 一) (CLP (NNB 倍))))) (, ，) (VP (PP (IN 从) (IP (VP (VV 占) (QP (DNP (NP (NN 国内) (NN 生产) (NN 总值)) (DEC 的)) (QP (CD 32%)))))) (VP (VRD (VV 增长) (VV 到)) (IP (VP (VV 预计) (QP (LCP (NP (CD 2011)) (NNB 年的)) (QP (CD 66%))))))))) (: ；) ('' ”) (IP (PP (IN 当) (IP (NP (PRP 我们)) (VP (VRD (VV 考虑) (VV 到)) (NP (NP (DNP (NP (NN 医疗) (NN 保健) (CC 和) (NN 社会) (NN 保障) (NN 体系)) (DEC 的)) (NP (NN 未来) (NN 负债))) (EC 、) (NP (CP (CP (IP (VP (ADVP (RB 不断)) (VP (VV 增长)))) (DEC 的))) (ADJP (NN 州级)) (NP (NN 赤字))) (CC 和) (NP (NP (NN 公务) (SFN 员)) (VP (VV 养) (NP (ADJP (PFA 老)) (NP (NN 基金))))))))) (, ，) (NP (PRP 他)) (VP (VV 坚称) (, ，) (IP (IP (`` “) (IP (NP (CD 2009)) (NP (DNP (NP (NNB 年美国)) (DEC 的)) (NP (NN 财政) (NN 状况))) (VP (PP (IN 比) (NP (NNP 希腊))) (VP (JJ 更糟)))) (, ，) ('' ”)) (RB 而) (IP (NP (NNP 希腊)) (VP (VP (NP (NN 目前)) (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 走) (PP (IN 向) (NP (NN 破产) (NN 边缘))))) (, ，) (VP (VV 急需) (NP (DNP (NP (NNP 欧盟)) (DEC 的)) (NP (NN 援助)))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'VP': {}}}
+Dependency Features:
+他	继续	nsubj
+继续	ROOT	root
+说道	继续	xcomp
+：	坚称	punct
+“	坚称	punct
+从	年起	case
+2001	年起	nummod
+年起	增长	obl
+，	年起	punct
+仅仅	年时间	advmod
+10	年时间	nummod
+年时间	增长	nmod:tmod
+，	年时间	punct
+美国	债务	nmod
+联邦	债务	nmod
+债务	在	nsubj
+在	份额	acl:relcl
+公众	手中	nmod
+手中	在	obj
+的	在	mark:rel
+份额	翻	nsubj
+就	翻	mark
+翻	增长	advcl
+了	翻	aux
+一	倍	nummod
+倍	翻	obj
+，	翻	punct
+从	32%	case
+占	32%	acl:relcl
+国内	总值	nmod
+生产	总值	nmod
+总值	占	obj
+的	占	mark:rel
+32%	增长	obl
+增长	坚称	advcl
+到	增长	mark
+预计	增长	xcomp
+2011	年的	nummod
+年的	66%	clf
+66%	预计	obj
+；	增长	punct
+”	增长	punct
+当	考虑	case
+我	考虑	nsubj
+考虑	坚称	ccomp
+到	考虑	mark
+医疗	保健	nmod
+保健	负债	nmod
+和	体系	cc
+社会	体系	nmod
+保障	体系	nmod
+体系	保健	conj
+的	保健	case
+未来	负债	nmod
+负债	考虑	obj
+、	赤字	punct
+不断	增长	advmod
+增长	赤字	acl:relcl
+的	增长	mark:rel
+州级	赤字	nmod
+赤字	负债	conj
+和	养	cc
+公务	员	compound
+员	养	nsubj
+养	赤字	acl:relcl
+老	基金	case
+基金	养	obj
+，	考虑	punct
+他	坚称	nsubj
+坚称	说道	ccomp
+，	急需	punct
+“	更糟	punct
+2009	年美国	nummod
+年美国	状况	nmod
+的	年美国	case
+财政	状况	nmod
+状况	更糟	nsubj
+比	希腊	case
+希腊	更糟	nmod
+更糟	坚称	ccomp
+，	更糟	punct
+”	更糟	punct
+而	走	mark
+希腊	走	nsubj
+目前	走	nmod:tmod
+正	走	advmod
+在	走	advmod
+走	急需	advcl
+向	边缘	case
+破产	边缘	nmod
+边缘	走	obl
+，	走	punct
+急需	坚称	ccomp
+欧盟	援助	nmod
+的	欧盟	case
+援助	急需	obj
+。	继续	punct
+----------------------------------------------------------------------
+正如往常一样，哈佛大学历史系和商学院的教授费格逊先生在这本书中运用他强大的叙事技巧，给读者带来一种高度的历史感。
+
+(ROOT (IP (CP (ADVP (IN 正如)) (IP (VP (NP (NN 往常)) (VP (JJ 一样))))) (, ，) (NP (NP (DNP (NP (NP (NNP 哈佛) (NN 大学)) (NP (NN 历史) (SFN 系) (CC 和) (NN 商) (NN 学院))) (DEC 的)) (NP (NN 教授))) (NP (NNP 费格逊) (NN 先生))) (VP (VP (PP (IN 在) (LCP (DP (DT 这) (CLP (NNB 本))) (NN 书中))) (VP (VV 运用) (NP (NP (PRP 他)) (CP (CP (IP (VP (JJ 强大))) (DEC 的))) (NP (NN 叙事) (NN 技巧))))) (, ，) (VP (PP (VV 给) (NP (NN 读者))) (VP (VV 带来) (NP (QP (CD 一) (CLP (NNB 种))) (DNP (ADJP (JJ 高度)) (DEC 的)) (NP (NN 历史) (SFN 感)))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'NP': {}, 'NP17720': {}}, 'VP': {'VP': {}, ',': {}, 'VP90417': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+正如	往常	case
+往常	一样	nmod
+一样	带来	advcl
+，	一样	punct
+哈佛	系	nmod
+大学	系	nmod
+历史	系	compound
+系	教授	nmod
+和	学院	cc
+商	学院	nmod
+学院	系	conj
+的	系	case
+教授	带来	nsubj
+费格逊	先生	nmod
+先生	教授	appos
+在	书中	case
+这	本	det
+本	书中	clf
+书中	运用	obl
+运用	带来	advcl
+他	技巧	nmod
+强大	技巧	amod
+的	强大	mark:rel
+叙事	技巧	nmod
+技巧	运用	obj
+，	运用	punct
+给	带来	advcl
+读者	给	obj
+带来	ROOT	root
+一	种	nummod
+种	感	nmod
+高度	感	amod
+的	高度	mark:rel
+历史	感	compound
+感	带来	obj
+。	带来	punct
+----------------------------------------------------------------------
+但总体而言，这本书有一种着急、随意的感觉，这强化了它作为一本名为《文明：西方是历史？》的英国电视剧的辅助剧本的起源。
+
+(ROOT (IP (IP (ADVP (RB 但)) (IP (VP (NP (NN 总体)) (VP (RB 而) (VP (VV 言))))) (, ，) (NP (DP (DT 这)) (NP (NN 本书))) (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 种))) (CP (CP (IP (VP (JJ 着急) (EC 、) (JJ 随意))) (DEC 的))) (NP (NN 感觉))))) (, ，) (IP (NP (PRD 这)) (VP (VV 强化) (AS 了) (NP (NP (PRP 它)) (VP (NP (VV 作) (VC 为) (NP (QP (CD 一)) (NP (NN 本名)))) (VP (VC 为) (IP (-LRB- 《) (NP (NN 文明)) (: ：) (IP (NP (NNP 西方)) (VP (VC 是) (NP (NN 历史)))))))))) (. ？)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP99931': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP33921': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+但	言	mark
+总体	言	obl
+而	言	mark
+言	有	advcl
+，	言	punct
+这	本书	det
+本书	有	nsubj
+有	ROOT	root
+一	种	nummod
+种	感觉	clf
+着急	感觉	amod
+、	随意	punct
+随意	着急	conj
+的	着急	mark:rel
+感觉	有	obj
+，	强化	punct
+这	强化	nsubj
+强化	有	parataxis
+了	强化	aux
+它	作	nsubj
+作	强化	ccomp
+为	作	mark
+一	本名	nummod
+本名	文明	nsubj
+为	文明	cop
+《	文明	punct
+文明	历史	acl
+：	文明	punct
+西方	历史	nsubj
+是	历史	cop
+历史	作	ccomp
+？	作	punct
+----------------------------------------------------------------------
+这本书的更有说服力的论点不仅欠债纽约时报评论员托马斯·弗里德曼和有线电视新闻网评论员费里德·扎卡里亚的论点，而且其更原创的假设也往往变成了可疑的普遍化（“今天的欧洲人是世界上的懒汉”），矛盾的断言和刻意做到相关和时尚的蠢的幻灯片模式。
+
+(ROOT (IP (IP (NP (DNP (NP (DP (DT 这)) (NP (NN 本书))) (DEC 的)) (CP (CP (IP (VP (ADVP (RB 更)) (VP (VV 有) (NP (VV 说服) (SFN 力))))) (DEC 的))) (NP (NN 论点))) (VP (IN 不仅) (VP (VV 欠债) (NP (DNP (NP (NP (NP (NP (NNP 纽约) (NN 时报)) (NP (VV 评论) (SFN 员))) (NP (NNP 托马斯) (/ ·) (NNP 弗里德曼))) (CC 和) (NP (NP (NP (ADJP (NN 有线)) (NP (NN 电视) (NN 新闻) (SFN 网))) (NP (VV 评论) (SFN 员))) (NP (NNP 费里德) (/ ·) (NNP 扎卡里亚)))) (DEC 的)) (NP (NN 论点)))))) (, ，) (RB 而且) (IP (NP (NP (PRP 其)) (CP (CP (IP (VP (ADVP (RB 更)) (VP (JJ 原创)))) (DEC 的))) (NP (NN 假设))) (VP (ADVP (RB 也)) (ADVP (RB 往往)) (VP (VV 变成) (AS 了) (NP (CP (CP (IP (VP (JJ 可疑))) (DEC 的))) (ADJP (JJ 普遍)) (NP (SFV 化)) (PRN (-LRB- （) (IP (`` “) (NP (DNP (NP (NN 今天)) (DEC 的)) (NP (NNP 欧洲)) (NP (SFN 人))) (VP (VC 是) (NP (DNP (LCP (NP (NN 世界)) (IN 上)) (DEC 的)) (NP (NN 懒汉)))) ('' ”)) (-RRB- ）)))))) (, ，) (NP (NP (CP (CP (IP (VP (JJ 矛盾))) (DEC 的))) (NP (NN 断言))) (CC 和) (IP (VP (ADVP (RB 刻意)) (VP (VV 做到) (NP (DNP (ADJP (JJ 相关) (CC 和) (NN 时尚)) (DEC 的)) (CP (CP (IP (VP (JJ 蠢))) (DEC 的))) (NP (NN 幻灯) (SFN 片) (NN 模式))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'RB': {}, 'IP71397': {}, ',88010': {}, 'NP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'RB': {}, 'IP': {}, ',': {}, 'NP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'RB': {}, 'IP20919': {'NP': {}, 'VP': {}}, ',48998': {}, 'NP': {'NP': {}, 'CC': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'RB': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'NP': {'NP': {}, 'CC': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'NP': {'NP': {}, 'CC': {}, 'IP': {}}}
+Dependency Features:
+这	本书	det
+本书	论点	nmod
+的	本书	case
+更	有	advmod
+有	论点	acl:relcl
+说服	力	compound
+力	有	obj
+的	有	mark:rel
+论点	欠债	nsubj
+不仅	欠债	case
+欠债	ROOT	root
+纽约	员	nmod
+时报	员	nmod
+评论	员	compound
+员	论点	nmod
+托马斯	员	appos
+·	弗里德曼	punct
+弗里德曼	托马斯	flat:name
+和	员	cc
+有线	员	nmod
+电视	员	nmod
+新闻	网	compound
+网	员	nmod
+评论	员	compound
+员	托马斯	conj
+费里德	员	appos
+·	扎卡里亚	punct
+扎卡里亚	费里德	flat:name
+的	托马斯	case
+论点	欠债	obj
+，	变成	punct
+而且	变成	mark
+其	假设	nmod
+更	原创	advmod
+原创	假设	amod
+的	原创	mark:rel
+假设	变成	nsubj
+也	变成	mark
+往往	变成	advmod
+变成	欠债	parataxis
+了	变成	aux
+可疑	化	amod
+的	可疑	mark:rel
+普遍	化	compound
+化	变成	obj
+（	懒汉	punct
+“	懒汉	punct
+今天	人	nmod
+的	今天	mark:rel
+欧洲	人	compound
+人	懒汉	nsubj
+是	懒汉	cop
+世界	懒汉	nmod
+上	世界	case
+的	世界	case
+懒汉	化	parataxis
+”	懒汉	punct
+）	懒汉	punct
+，	断言	punct
+矛盾	断言	amod
+的	矛盾	mark:rel
+断言	化	conj
+和	做到	cc
+刻意	做到	advmod
+做到	模式	acl:relcl
+相关	模式	amod
+和	时尚	cc
+时尚	相关	conj
+的	相关	mark:rel
+蠢	模式	amod
+的	蠢	mark:rel
+幻灯	片	compound
+片	模式	nmod
+模式	化	conj
+。	不仅	punct
+----------------------------------------------------------------------
+的确，《文明》的中心论点是，六个“杀手级应用程序”（连同“西方竞争对手的幸运软肋”）使西方“在 500 年中占领世界的大部分时间”。
+
+(ROOT (IP (ADVP (RB 的确)) (, ，) (NP (DNP (NP (-LRB- 《) (NN 文明) (-RRB- 》)) (DEC 的)) (NP (NN 中心) (SFN 论) (SFN 点))) (VP (VC 是) (, ，) (IP (NP (QP (CD 六) (CLP (NNB 个))) (NP (`` “) (NP (NN 杀手) (SFN 级)) (NP (NN 应用) (NN 程序)) ('' ”)) (PRN (-LRB- （) (PP (IN 连同) (NP (`` “) (DNP (NP (NNP 西方) (NN 竞争) (NN 对手)) (DEC 的)) (ADJP (JJ 幸运)) (NP (NN 软肋)) ('' ”))) (-RRB- ）))) (VP (VV 使) (NP (NNP 西方)) (NP (CP (CP (IP (VP (`` “) (PP (IN 在) (LCP (NP (CD 500)) (NNB 年中))) (VP (VV 占领) (NP (NN 世界))))) (DEC 的))) (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (NN 时间)))))) ('' ”) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, "''": {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, "''": {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, "''": {}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, "''": {}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+的确	是	advmod
+，	的确	punct
+《	文明	punct
+文明	点	nmod
+》	文明	punct
+的	文明	case
+中心	论	compound
+论	点	compound
+点	是	nsubj
+是	ROOT	root
+，	使	punct
+六	个	nummod
+个	程序	clf
+“	程序	punct
+杀手	级	compound
+级	程序	nmod
+应用	程序	nmod
+程序	使	nsubj
+”	程序	punct
+（	程序	punct
+连同	软肋	case
+“	对手	punct
+西方	对手	nmod
+竞争	对手	nmod
+对手	软肋	nmod
+的	对手	mark:rel
+幸运	软肋	amod
+软肋	使	obl
+”	软肋	punct
+）	软肋	punct
+使	是	ccomp
+西方	时间	nmod
+“	时间	punct
+在	年中	case
+500	年中	nummod
+年中	占领	obl
+占领	时间	acl:relcl
+世界	占领	obj
+的	占领	mark:rel
+大	部分	case
+部分	时间	nmod
+时间	使	obj
+”	时间	punct
+。	是	punct
+----------------------------------------------------------------------
+这些“应用”是竞争、科学、财产权、医药、“消费社会”（“没有它，工业革命就不可持续”）和“工作态度”（弗格森先生根据马克斯·韦伯的观点，将其与新教基督教联系起来）。
+
+(ROOT (IP (NP (DP (DT 这些)) (NP (`` “) (NN 应用) ('' ”))) (VP (VC 是) (NP (NP (NN 竞争) (EC 、) (NN 科学) (EC 、) (NN 财产) (SFN 权) (EC 、) (NN 医药) (EC 、) (`` “) (NN 消费) (NN 社会) ('' ”) (PRN (-LRB- （) (IP (`` “) (IP (VP (VV 没有) (NP (PRP 它)))) (, ，) (NP (NN 工业) (NN 革命)) (VP (ADVP (RB 就)) (VP (MD 不可) (VP (VV 持续)))) ('' ”)) (-RRB- ）))) (CC 和) (NP (`` “) (NN 工作) (NN 态度) ('' ”)) (PRN (-LRB- （) (IP (NP (NNP 弗格森) (NN 先生)) (VP (PP (IN 根据) (NP (DNP (NP (NNP 马克斯) (/ ·) (NNP 韦伯)) (DEC 的)) (NP (NN 观点)))) (, ，) (VP (BB 将) (IP (NP (PRP 其)) (VP (PP (IN 与) (NP (NNP 新教) (NNP 基督) (SFN 教))) (VP (VRD (VV 联系) (VV 起来)))))))) (-RRB- ）)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+这些	应用	det
+“	应用	punct
+应用	联系	nsubj
+”	应用	punct
+是	竞争	cop
+竞争	联系	advcl
+、	科学	punct
+科学	竞争	conj
+、	权	punct
+财产	权	compound
+权	竞争	conj
+、	医药	punct
+医药	竞争	conj
+、	社会	punct
+“	社会	punct
+消费	社会	nmod
+社会	竞争	conj
+”	社会	punct
+（	有	punct
+“	有	punct
+有	持续	advcl
+它	有	obj
+，	有	punct
+工业	革命	nmod
+革命	持续	nsubj
+就	持续	mark
+可	持续	aux
+持续	竞争	parataxis
+”	持续	punct
+）	持续	punct
+和	态度	cc
+“	态度	punct
+工作	态度	nmod
+态度	竞争	conj
+”	态度	punct
+（	联系	punct
+弗格森	先生	nmod
+先生	联系	nsubj
+根据	观点	case
+马克斯	观点	nmod
+·	韦伯	punct
+韦伯	马克斯	flat:name
+的	马克斯	case
+观点	联系	obl
+，	观点	punct
+将	其	case
+其	联系	obl:patient
+与	教	case
+新教	教	nmod
+基督	教	compound
+教	联系	obl
+联系	ROOT	root
+起来	联系	mark
+）	联系	punct
+。	联系	punct
+----------------------------------------------------------------------
+正如萨卡里亚在《美国后时代》 (2008 年) 中所做的那样，佛格森指出，近几十年来，世界上其他大部分地区越来越熟练地下载这些西方概念。
+
+(ROOT (IP (NP (CP (CP (IP (NP (NNP 正如萨卡里亚)) (VP (PP (IN 在) (LCP (NP (NP (-LRB- 《) (NP (NNP 美国)) (ADJP (NN 后)) (NP (NN 时代)) (-RRB- 》)) (NP (CD -LRB-2008))) (NNB 年-RRB-))) (VP (IN 中所) (VP (VV 做))))) (DEC 的))) (NP (JJ 那样))) (, ，) (NP (NNP 佛格森)) (VP (VV 指出) (, ，) (IP (LCP (QP (ADVP (RB 近)) (QP (CD 几十) (CLP (NNB 年)))) (IN 来)) (, ，) (NP (LCP (NP (NN 世界)) (IN 上)) (DP (DT 其他)) (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (NN 地区))) (VP (DVP (VP (ADVP (RB 越来越)) (VP (JJ 熟练))) (NN 地下)) (VP (VV 载) (NP (DP (DT 这些)) (NP (NNP 西方) (NN 概念))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP49161': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, ',': {}, 'NP87092': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+正如萨卡里亚	做	nsubj
+在	年)	case
+《	时代	punct
+美国	时代	nmod
+后	时代	nmod
+时代	年)	nmod
+》	时代	punct
+(2008	年)	nummod
+年)	做	obl
+中所	年)	case
+做	那样	acl:relcl
+的	做	mark:rel
+那样	ROOT	root
+，	指出	punct
+佛格森	指出	nsubj
+指出	那样	parataxis
+，	载	punct
+近	年	advmod
+几十	年	nummod
+年	载	nmod:tmod
+来	年	case
+，	年	punct
+世界	地区	nmod
+上	世界	case
+其他	地区	det
+大	部分	case
+部分	地区	nmod
+地区	载	nsubj
+越来越	熟练	advmod
+熟练	载	advcl
+地下	熟练	nsubj
+载	指出	ccomp
+这些	概念	det
+西方	概念	nmod
+概念	载	obj
+。	那样	punct
+----------------------------------------------------------------------
+费格森写道，日本开始“复制西方的衣着和发型，以及殖民外国人的欧洲做法”，20 世纪 50 年代，“日本在模仿西方的工业模式方面逐渐成为东亚国家的榜样，从纺织品和钢铁开始，逐步向价值链的上游发展。”
+
+(ROOT (IP (NP (NNP 费格森)) (VP (VV 写道) (, ，) (IP (IP (NP (NNP 日本)) (VP (VV 开始) (VP (`` “) (VP (VV 复制) (NP (NP (DNP (NP (NNP 西方)) (DEC 的)) (NP (NN 衣) (AS 着) (CC 和) (NN 发型))) (, ，) (CC 以及) (NP (CP (CP (IP (VP (VV 殖民) (NP (NN 外国) (SFN 人)))) (DEC 的))) (NP (NNP 欧洲)) (NP (NN 做法))))) ('' ”)))) (, ，) (IP (NP (NP (QP (CD 20)) (NP (NNB 世纪))) (QP (CD 50)) (NP (NNB 年代))) (, ，) (`` “) (NP (NNP 日本)) (VP (VP (PP (IN 在) (NP (NP (CP (CP (IP (VP (VV 模仿) (NP (NNP 西方)))) (DEC 的))) (NP (NN 工业) (NN 模式))) (NP (NN 方面)))) (ADVP (RB 逐渐)) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (NP (NN 东) (NNP 亚)) (NP (NN 国家))) (DEC 的)) (NP (NN 榜样)))))) (, ，) (VP (PP (IN 从) (NP (NN 纺织) (SFN 品) (CC 和) (NN 钢铁))) (VP (VV 开始))) (, ，) (VP (ADVP (RB 逐步)) (PP (IN 向) (NP (DNP (NP (NN 价值) (SFN 链)) (DEC 的)) (NP (NN 上游)))) (VP (VV 发展))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+费格森	写道	nsubj
+写道	ROOT	root
+，	开始	punct
+日本	开始	nsubj
+开始	写道	ccomp
+“	衣	punct
+复制	衣	acl:relcl
+西方	复制	obj
+的	复制	mark:rel
+衣	开始	obj
+着	衣	appos
+和	发型	cc
+发型	衣	conj
+，	做法	punct
+以及	做法	cc
+殖民	人	compound
+外国	人	compound
+人	做法	nmod
+的	殖民	mark:rel
+欧洲	做法	nmod
+做法	衣	conj
+”	做法	punct
+，	开始	punct
+20	世纪	nummod
+世纪	年代	clf
+50	年代	nummod
+年代	发展	nmod:tmod
+，	年代	punct
+“	成	punct
+日本	成	nsubj
+在	方面	case
+模仿	方面	acl:relcl
+西方	模仿	obj
+的	模仿	mark:rel
+工业	方面	nmod
+模式	方面	nmod
+方面	成	obl
+逐渐	成	advmod
+成	发展	advcl
+为	成	mark
+东	国家	nmod
+亚	国家	nmod
+国家	榜样	nmod
+的	国家	case
+榜样	成	obj
+，	成	punct
+从	品	case
+纺织	品	compound
+品	开始	obl
+和	钢铁	cc
+钢铁	品	conj
+开始	发展	advcl
+，	开始	punct
+逐步	发展	advmod
+向	上游	case
+价值	链	compound
+链	上游	nmod
+的	链	case
+上游	发展	obl
+发展	写道	ccomp
+。	发展	punct
+”	发展	punct
+----------------------------------------------------------------------
+当然，中国不仅已经成为一个充满活力的市场社会，拥有世界上人口最多的国家，而且也是一个经济巨人，持有超过 1 万亿美元的美国债务。
+
+(ROOT (IP (ADVP (RB 当然)) (, ，) (NP (NNP 中国)) (VP (IN 不仅) (VP (ADVP (RB 已经)) (VP (VV 成) (VP (VC 为) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 充满) (NP (NN 活力)))) (DEC 的))) (NP (NN 市场) (NN 社会)))))) (, ，) (VP (VV 拥有) (NP (CP (CP (IP (LCP (NP (NN 世界)) (IN 上)) (NP (NN 人口)) (VP (JJ 最多))) (DEC 的))) (NP (NN 国家)))) (, ，) (RB 而且) (VP (VC 也是) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 经济) (NN 巨人)))) (, ，) (VP (VV 持有) (NP (DNP (QP (ADVP (VV 超过)) (QP (CD 1) (QP (CD 万亿) (CLP (NNP 美) (CLP (NNB 元)))))) (DEC 的)) (NP (NNP 美国)) (NP (NN 债务))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'IN': {}, 'VP': {}, ',': {}, 'VP18945': {}, ',39511': {}, 'RB': {}, 'VP86315': {}, ',48996': {}, 'VP60641': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'IN': {}, 'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}, 'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'IN': {}, 'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}, 'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+当然	持有	advmod
+，	当然	punct
+中国	持有	nsubj
+不仅	成	case
+已经	成	advmod
+成	持有	xcomp
+为	成	mark
+一	个	nummod
+个	社会	clf
+充满	社会	acl:relcl
+活力	充满	obj
+的	充满	mark:rel
+市场	社会	nmod
+社会	成	obj
+，	成	punct
+拥有	持有	advcl
+世界	最多	obl
+上	世界	case
+人口	最多	nsubj
+最多	国家	acl:relcl
+的	最多	mark:rel
+国家	拥有	obj
+，	拥有	punct
+而且	巨人	mark
+是	巨人	cop
+一	个	nummod
+个	巨人	clf
+经济	巨人	nmod
+巨人	持有	advcl
+，	巨人	punct
+持有	ROOT	root
+超过	债务	acl:relcl
+1	元	nummod
+万亿	元	nummod
+美	元	nmod
+元	超过	obj
+的	超过	mark:rel
+美国	债务	nmod
+债务	持有	obj
+。	持有	punct
+----------------------------------------------------------------------
+“从人口学角度来看，”费加罗先生说，“西方社会的人口长期以来只占世界人口的少数，但如今显然已经成为少数。
+
+(ROOT (IP (`` “) (IP (VP (PP (IN 从) (NP (NN 人口) (SFN 学) (SFN 角) (SFN 度))) (VP (RB 来) (VP (VV 看))))) (, ，) ('' ”) (NP (NNP 费加罗) (NN 先生)) (VP (VV 说) (, ，) (IP (`` “) (IP (NP (DNP (NP (NNP 西方) (NN 社会)) (DEC 的)) (NP (NN 人口))) (VP (LCP (NP (NN 长期)) (IN 以来)) (ADVP (RB 只)) (VP (VV 占) (QP (DNP (NP (NN 世界) (NN 人口)) (DEC 的)) (QP (JJ 少数)))))) (, ，) (IP (ADVP (RB 但)) (VP (NP (NN 如今)) (ADVP (RB 显然)) (ADVP (RB 已经)) (VP (VV 成) (VP (VC 为) (NP (JJ 少数)))))))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'IP': {'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+“	看	punct
+从	度	case
+人口	学	compound
+学	角	compound
+角	度	compound
+度	看	obl
+来	看	mark
+看	说	advcl
+，	看	punct
+”	看	punct
+费加罗	先生	nmod
+先生	说	nsubj
+说	ROOT	root
+，	成	punct
+“	成	punct
+西方	社会	nmod
+社会	人口	nmod
+的	社会	case
+人口	占	nsubj
+长期	占	nmod:tmod
+以来	长期	case
+只	占	advmod
+占	成	advcl
+世界	人口	nmod
+人口	少数	nmod
+的	人口	case
+少数	占	obj
+，	占	punct
+但	成	mark
+如今	成	nmod:tmod
+显然	成	advmod
+已经	成	advmod
+成	说	ccomp
+为	成	mark
+少数	成	xcomp
+。	说	punct
+----------------------------------------------------------------------
+美国和欧洲经济体曾经如此强大，现在面临着在 20 年甚至 10 年内被中国超越的现实前景，巴西和印度并不远。
+
+(ROOT (IP (IP (NP (NP (NNP 美国) (CC 和) (NNP 欧洲)) (NP (NN 经济) (SFN 体))) (VP (VP (ADVP (RB 曾经)) (ADVP (VV 如此)) (VP (JJ 强大))) (, ，) (VP (NP (NN 现在)) (VP (VV 面临) (AS 着) (NP (CP (IP (VP (PP (IN 在) (LCP (QP (QP (CD 20)) (NNB 年甚至) (CD 10)) (NNB 年内))) (VP (BB 被) (CP (IP (NP (NNP 中国)) (VP (VV 超越))))))) (DEC 的)) (ADJP (NN 现实)) (NP (NN 前景))))))) (, ，) (IP (NP (NNP 巴西) (CC 和) (NNP 印度)) (VP (ADVP (RB 并)) (VP (JJ 不远)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP29056': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP4256': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+美国	体	nmod
+和	欧洲	cc
+欧洲	美国	conj
+经济	体	compound
+体	强大	nsubj
+曾经	强大	advmod
+如此	强大	advcl
+强大	ROOT	root
+，	面临	punct
+现在	面临	nmod:tmod
+面临	强大	parataxis
+着	面临	aux
+在	年内	case
+20	年甚至	nummod
+年甚至	年内	clf
+10	年内	nummod
+年内	超越	obl
+被	超越	aux:pass
+中国	超越	nsubj
+超越	前景	acl:relcl
+的	超越	mark:rel
+现实	前景	nmod
+前景	面临	obj
+，	面临	punct
+巴西	不远	nsubj
+和	印度	cc
+印度	巴西	conj
+并	不远	mark
+不远	强大	parataxis
+。	强大	punct
+----------------------------------------------------------------------
+从伊拉克到阿富汗，西方“硬实力”在大中东似乎在努力，正如自由市场经济政策的“华盛顿共识”在解体。”
+
+(ROOT (IP (IP (PP (PP (IN 从) (NP (NNP 伊拉克))) (PP (VV 到) (NP (NNP 阿富汗)))) (, ，) (NP (NP (NNP 西方)) (NP (`` “) (ADJP (PFA 硬)) (NP (NN 实力)) ('' ”))) (VP (PP (IN 在) (NP (ADJP (PFA 大)) (NP (NNP 中东)))) (ADVP (RB 似乎)) (ADVP (RB 在)) (VP (VV 努力)))) (, ，) (PP (ADVP (RB 正)) (PP (IN 如) (IP (NP (DNP (NP (NP (ADJP (NN 自由)) (NP (NN 市场))) (NP (NN 经济) (NN 政策))) (DEC 的)) (NP (`` “) (NP (NNP 华盛顿)) (NP (NN 共识)) ('' ”))) (VP (ADVP (RB 在)) (VP (VV 解体)))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}, "''": {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'PP': {'ADVP': {}, 'PP': {}}, '.': {}, "''": {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'PP': {'ADVP': {}, 'PP': {}}, '.': {}, "''": {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'PP': {'ADVP': {}, 'PP': {}}}
+Dependency Features:
+从	伊拉克	case
+伊拉克	到	obl
+到	努力	advcl
+阿富汗	到	obj
+，	到	punct
+西方	实力	nmod
+“	实力	punct
+硬	实力	case
+实力	努力	nsubj
+”	实力	punct
+在	中东	case
+大	中东	case
+中东	努力	obl
+似乎	努力	advmod
+在	努力	advmod
+努力	ROOT	root
+，	解体	punct
+正	如	advmod
+如	共识	acl:relcl
+自由	政策	nmod
+市场	政策	nmod
+经济	政策	nmod
+政策	如	obj
+的	如	mark:rel
+“	共识	punct
+华盛顿	共识	nmod
+共识	解体	nsubj
+”	共识	punct
+在	解体	advmod
+解体	努力	ccomp
+。	解体	punct
+”	解体	punct
+----------------------------------------------------------------------
+费格森先生决定以他的六个“杀手级应用程序”为主线来构建本书，这一决定无疑是基于英国 Channel 4 系列的六部分结构，结果奇怪地是，这本书同时又是逻辑清晰又杂乱无章：在题为“医学”的章节中，出现了一个延伸讨论法国大革命的部分，同样出现了一个大量借鉴了作者早期文章的关于帝国主义的论述。
+
+(ROOT (IP (IP (NP (NNP 费格森) (NN 先生)) (VP (VV 决定) (IP (VP (VP (PP (VV 以) (NP (DNP (NP (PRP 他)) (DEC 的)) (QP (CD 六) (CLP (NNB 个))) (NP (`` “) (NP (NN 杀手) (SFN 级)) (NP (NN 应用) (NN 程序)) ('' ”)))) (VP (VC 为) (NP (NN 主线)))) (VP (RB 来) (VP (VV 构建) (NP (NN 本书)))))))) (, ，) (IP (NP (DP (DT 这) (QP (CD 一))) (NP (NN 决定))) (VP (ADVP (RB 无疑)) (VP (VC 是) (NP (CP (CP (IP (VP (VV 基) (PP (VV 于) (NP (NP (NNP 英国)) (NP (FW Channel)) (QP (CD 4) (CLP (NN 系列))))))) (DEC 的))) (NP (QP (CD 六)) (NP (NN 部分))) (NP (NN 结构)))))) (, ，) (IP (NP (NN 结果)) (VP (DVP (VP (JJ 奇怪)) (DEV 地)) (VP (VC 是) (, ，) (IP (NP (DP (DT 这)) (NP (NN 本书))) (VP (ADVP (NN 同时)) (ADVP (VC 又是)) (NP (NN 逻辑)) (VP (VP (JJ 清晰) (CC 又) (JJ 杂乱) (JJ 无章)))))))) (: ：)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP59504': {}, ',3202': {}, 'IP87708': {}, ':': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ':': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP86859': {'NP': {}, 'VP': {}}, ',80278': {}, 'IP9237': {'NP': {}, 'VP': {}}, ':': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ':': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+费格森	先生	nmod
+先生	决定	nsubj
+决定	ROOT	root
+以	构建	advcl
+他	程序	det
+的	他	mark:rel
+六	个	nummod
+个	程序	clf
+“	程序	punct
+杀手	级	compound
+级	程序	nmod
+应用	程序	nmod
+程序	主线	nsubj
+”	程序	punct
+为	主线	cop
+主线	以	ccomp
+来	构建	mark
+构建	决定	xcomp
+本书	构建	obj
+，	是	punct
+这	一	det
+一	决定	nummod
+决定	是	nsubj
+无疑	是	advmod
+是	是	advcl
+基	是	xcomp
+于	基	mark
+英国	系列	nmod
+Channel	系列	nmod
+4	Channel	nummod
+系列	基	obj
+的	基	mark:rel
+六	部分	nummod
+部分	结构	nmod
+结构	基	obj
+，	是	punct
+结果	是	obl
+奇怪	是	advmod
+地	奇怪	mark:adv
+是	决定	parataxis
+，	是	punct
+这	本书	det
+本书	是	nsubj
+同时	是	nmod:tmod
+是	是	ccomp
+逻辑	清晰	nsubj
+清晰	是	ccomp
+又	无章	cc
+杂乱	无章	advcl
+无章	是	xcomp
+：	决定	punct
+----------------------------------------------------------------------
+与他以前的书一样，Ferguson 很少抑制自己强烈的意识形态观点：他谴责马克思是“一个可憎的人”；蔑视他所谓的“糜烂无赖”，比如喝鸡尾酒和参与街头斗殴；他强调他所看到的殖民主义的积极方面。
+
+(ROOT (IP (IP (VP (PP (IN 与) (NP (NP (PRP 他)) (DNP (NP (NN 以前)) (DEC 的)) (NP (NN 书)))) (VP (JJ 一样)))) (, ，) (NP (FW Ferguson)) (VP (ADVP (RB 很少)) (VP (VV 抑制) (NP (NP (PRD 自己)) (CP (CP (IP (VP (JJ 强烈))) (DEC 的))) (NP (NN 意识) (NN 形态) (NN 观点))))) (: ：)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, ':': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, ':': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'FW': {}}, 'VP': {'ADVP': {}, 'VP': {}}, ':': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'FW': {}}, 'VP': {'ADVP': {}, 'VP': {}}, ':': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+与	书	case
+他	书	nmod
+以前	他	acl
+的	他	case
+书	一样	nmod
+一样	抑制	advcl
+，	一样	punct
+Ferguson	抑制	nsubj
+很少	抑制	advmod
+抑制	ROOT	root
+自己	观点	nmod
+强烈	观点	amod
+的	强烈	mark:rel
+意识	观点	nmod
+形态	观点	nmod
+观点	抑制	obj
+：	抑制	punct
+----------------------------------------------------------------------
+读者为什么会一直往“文明”这本书里面阅读？这是因为，作者擅长把早年的事件做成如今晚间新闻那样生动、直观，擅长将小故事和细节与广阔的回顾视角结合在一起。
+
+(ROOT (IP (NP (NN 读者)) (VP (PP (IN 为) (NP (WP 什么))) (VP (MD 会) (VP (ADVP (RB 一直)) (PP (IN 往) (NP (NP (NP (`` “) (NN 文明) ('' ”)) (DP (DT 这)) (NP (NN 本书))) (NP (NN 里面)))) (VP (VV 阅读))))) (. ？)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+读者	阅读	nsubj
+为	什么	case
+什么	阅读	obl
+会	阅读	aux
+一直	阅读	advmod
+往	里面	case
+“	文明	punct
+文明	里面	nmod
+”	文明	punct
+这	本书	det
+本书	里面	nmod
+里面	阅读	obl
+阅读	ROOT	root
+？	阅读	punct
+----------------------------------------------------------------------
+比如，Ferguson 先生为我们提供了一个简明扼要但又引人入胜的分析，说明美国和拉丁美洲为何会有如此不同的结果。
+
+(ROOT (IP (ADVP (VV 比如)) (, ，) (NP (FW Ferguson) (NN 先生)) (VP (VP (PP (IN 为) (NP (PRP 我们))) (VP (VV 提供) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VCD (JJ 简明) (JJ 扼要)) (VP (ADVP (RB 但)) (ADVP (RB 又)) (VP (VCD (VV 引人) (JJ 入胜)))))) (DEC 的))) (NP (NN 分析))))) (, ，) (VP (VV 说明) (IP (NP (NNP 美国) (CC 和) (NNP 拉丁) (NNP 美洲)) (VP (PP (IN 为) (NP (PRD 何))) (VP (MD 会) (VP (VV 有) (NP (CP (CP (IP (VP (ADVP (VV 如此)) (VP (JJ 不同)))) (DEC 的))) (NP (NN 结果))))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'VV': {}}, ',': {}, 'NP': {'FW': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP59956': {}}, '.': {}}}
+{'IP': {'ADVP': {'VV': {}}, ',': {}, 'NP': {'FW': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'VV': {}}}
+{'NP': {'FW': {}, 'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+比如	说明	advcl
+，	比如	punct
+Ferguson	先生	nmod
+先生	说明	nsubj
+为	我	case
+我	提供	obl
+提供	说明	advcl
+了	提供	aux
+一	个	nummod
+个	分析	clf
+简明	扼要	advcl
+扼要	引人	advcl
+但	引人	mark
+又	引人	mark
+引人	分析	acl:relcl
+入胜	引人	xcomp
+的	引人	mark:rel
+分析	提供	obj
+，	提供	punct
+说明	ROOT	root
+美国	有	nsubj
+和	美洲	cc
+拉丁	美洲	nmod
+美洲	美国	conj
+为	何	case
+何	有	obl
+会	有	aux
+有	说明	ccomp
+如此	不同	advcl
+不同	结果	amod
+的	不同	mark:rel
+结果	有	obj
+。	说明	punct
+----------------------------------------------------------------------
+总结而言，他认为，“北美纯粹是因为英国的广泛分布的私有财产权和民主模式比西班牙的集中财富和专制模式更适合，所以北美比南美更好。”
+
+(ROOT (IP (IP (VP (VP (VV 总结)) (VP (RB 而) (VP (VV 言))))) (, ，) (NP (PRP 他)) (VP (VV 认为) (, ，) (IP (`` “) (NP (NN 北) (NNP 美)) (VP (ADVP (RB 纯粹)) (VP (VC 是) (PP (IN 因为) (IP (NP (DNP (NP (NNP 英国)) (DEC 的)) (CP (CP (IP (VP (ADVP (RB 广泛)) (VP (VV 分布)))) (DEC 的))) (ADJP (JJ 私有)) (NP (NN 财产) (SFN 权) (CC 和) (NN 民主) (NN 模式))) (VP (PP (IN 比) (NP (DNP (NP (NNP 西班牙)) (DEC 的)) (ADJP (JJ 集中)) (NP (NN 财富) (CC 和) (NN 专制)) (NP (NN 模式)))) (ADVP (RB 更)) (VP (VV 适合))))))) (, ，) (IP (ADVP (RB 所以)) (NP (NN 北) (NNP 美)) (VP (PP (IN 比) (NP (NNP 南美))) (VP (JJ 更好)))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'VP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+总结	言	advcl
+而	言	mark
+言	ROOT	root
+，	为	punct
+他	为	nsubj
+为	言	ccomp
+，	更好	punct
+“	更好	punct
+北	美	nmod
+美	是	nsubj
+纯粹	是	advmod
+是	更好	advcl
+因为	是	xcomp
+英国	分布	nsubj
+的	英国	case
+广泛	分布	advmod
+分布	权	acl:relcl
+的	分布	mark:rel
+私有	权	amod
+财产	权	compound
+权	适合	nsubj
+和	模式	cc
+民主	模式	nmod
+模式	权	conj
+比	财富	case
+西班牙	财富	nmod
+的	西班牙	case
+集中	财富	amod
+财富	适合	obl
+和	模式	cc
+专制	模式	nmod
+模式	财富	conj
+更	适合	advmod
+适合	因为	ccomp
+，	是	punct
+所以	更好	mark
+北	美	nmod
+美	更好	nsubj
+比	南美	case
+南美	更好	nmod
+更好	为	ccomp
+。	更好	punct
+”	更好	punct
+----------------------------------------------------------------------
+在另一章中，他讨论了 Singer 缝纫机（“完成了衣物生产机械化的过程”）如何帮助推动世界各地的服装标准化，甚至帮助提高了美国的制造业生产率。
+
+(ROOT (IP (PP (IN 在) (LCP (DP (DT 另) (QP (CD 一) (CLP (NNB 章)))) (IN 中))) (, ，) (NP (PRP 他)) (VP (VV 讨论) (AS 了) (IP (NP (FW Singer) (VV 缝纫) (SFN 机) (PRN (-LRB- （) (IP (`` “) (VP (VV 完成) (AS 了) (NP (DNP (NP (NN 衣物) (NN 生产) (NN 机械) (SFV 化)) (DEC 的)) (NP (NN 过程)))) ('' ”)) (-RRB- ）))) (VP (VP (ADVP (RB 如何)) (VP (VV 帮助) (IP (VP (VV 推动) (NP (DNP (NP (NN 世界) (NN 各地)) (DEC 的)) (NP (NN 服装) (NN 标准) (SFV 化))))))) (, ，) (VP (ADVP (RB 甚至)) (VP (VV 帮助) (IP (VP (VV 提高) (AS 了) (NP (DNP (NP (NNP 美国)) (DEC 的)) (NP (VV 制造) (SFN 业) (VV 生产) (SFN 率)))))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'AS': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'AS': {}, 'IP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'IP': {}}}
+Dependency Features:
+在	章	case
+另	章	det
+一	章	nummod
+章	讨论	obl
+中	章	case
+，	章	punct
+他	讨论	nsubj
+讨论	ROOT	root
+了	讨论	aux
+Singer	机	nmod
+缝纫	机	compound
+机	讨论	obj
+（	完成	punct
+“	完成	punct
+完成	帮助	advcl
+了	完成	aux
+衣物	化	nmod
+生产	化	nmod
+机械	化	compound
+化	过程	acl:relcl
+的	化	mark:rel
+过程	完成	obj
+”	过程	punct
+）	完成	punct
+如何	帮助	advmod
+帮助	帮助	advcl
+推动	帮助	xcomp
+世界	各地	nmod
+各地	化	nmod
+的	各地	case
+服装	标准	nmod
+标准	化	compound
+化	推动	obj
+，	帮助	punct
+甚至	帮助	mark
+帮助	讨论	ccomp
+提高	帮助	xcomp
+了	提高	aux
+美国	率	nmod
+的	美国	case
+制造	业	compound
+业	率	nmod
+生产	率	compound
+率	提高	obj
+。	讨论	punct
+----------------------------------------------------------------------
+更重要的是，弗格森巧妙地运用了他对经济史的了解，他在 2008 年 5 月出版的《金钱的崛起》一书，精准预测了 2008 年财政崩溃的许多方面，他用这些知识来分析西方目前所面临的悲观的金融情况。
+
+(ROOT (IP (NP (CP (CP (IP (VP (ADVP (RB 更)) (VP (JJ 重要)))) (DEC 的)))) (VP (VC 是) (, ，) (IP (IP (NP (NNP 弗格森)) (VP (DVP (VP (JJ 巧妙)) (DEV 地)) (VP (VV 运用) (AS 了) (NP (NP (PRP 他)) (DNP (PP (IN 对) (NP (NN 经济) (SFN 史))) (DEC 的)) (NP (NN 了解)))))) (, ，) (IP (NP (CP (CP (IP (NP (PRP 他)) (VP (PP (IN 在) (NP (CD 2008) (NNB 年 5) (NNB 月))) (VP (VV 出版)))) (DEC 的))) (NP (-LRB- 《) (DNP (NP (NN 金钱)) (DEC 的)) (NP (NN 崛起)) (-RRB- 》)) (QP (CD 一)) (NP (NN 书))) (, ，) (VP (ADVP (RB 精准)) (VP (VV 预测) (AS 了) (NP (CP (NP (NP (CD 2008)) (NP (NN 年财政)) (VP (NN 崩溃))) (DEC 的)) (QP (CD 许多)) (NP (NN 方面)))))) (, ，) (IP (NP (PRP 他)) (VP (PP (VV 用) (NP (DP (DT 这些)) (NP (NN 知识)))) (VP (RB 来) (VP (VV 分析) (NP (CP (CP (IP (NP (NNP 西方)) (VP (NP (NN 目前)) (VP (RB 所) (VP (VV 面临))))) (DEC 的))) (CP (CP (IP (VP (JJ 悲观))) (DEC 的))) (NP (NN 金融) (NN 情况))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+更	重要	advmod
+重要	是	csubj
+的	重要	mark:rel
+是	ROOT	root
+，	运用	punct
+弗格森	运用	nsubj
+巧妙	运用	advmod
+地	巧妙	mark:adv
+运用	是	ccomp
+了	运用	aux
+他	了解	nmod
+对	了解	case
+经济	史	compound
+史	了解	nmod
+的	了解	case
+了解	运用	obj
+，	预测	punct
+他	预测	nsubj
+在	月	case
+2008	年 5	nummod
+年 5	月	clf
+月	出版	obl
+出版	崛起	acl:relcl
+的	出版	mark:rel
+《	崛起	punct
+金钱	崛起	nmod
+的	金钱	case
+崛起	预测	obl
+》	崛起	punct
+一	书	nummod
+书	崛起	appos
+，	崛起	punct
+精准	预测	advmod
+预测	是	ccomp
+了	预测	aux
+2008	年财政	nummod
+年财政	崩溃	nmod
+崩溃	方面	nmod
+的	崩溃	case
+许多	方面	nummod
+方面	预测	obj
+，	分析	punct
+他	分析	nsubj
+用	分析	advcl
+这些	知识	det
+知识	用	obj
+来	分析	mark
+分析	是	ccomp
+西方	面临	obl
+目前	面临	nmod:tmod
+所	面临	mark
+面临	情况	acl:relcl
+的	面临	mark:rel
+悲观	情况	amod
+的	悲观	mark:rel
+金融	情况	nmod
+情况	分析	obj
+。	是	punct
+----------------------------------------------------------------------
+他写道：“即使在 20 世纪 90 年代末，西方仍然是世界上占主导地位的文明。”
+
+(ROOT (IP (NP (PRP 他)) (VP (VV 写道) (: ：) (IP (`` “) (PP (ADVP (IN 即使)) (PP (IN 在) (LCP (NP (NP (QP (CD 20)) (NP (NNB 世纪))) (QP (CD 90)) (NP (NNB 年代))) (IN 末)))) (, ，) (NP (NNP 西方)) (VP (ADVP (RB 仍然)) (VP (VC 是) (NP (CP (CP (IP (VP (LCP (NP (NN 世界)) (IN 上)) (VP (VV 占) (NP (ADJP (NN 主导)) (NP (NN 地位)))))) (DEC 的))) (NP (NN 文明))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+他	写道	nsubj
+写道	ROOT	root
+：	文明	punct
+“	文明	punct
+即使	年代	case
+在	年代	case
+20	世纪	nummod
+世纪	年代	clf
+90	年代	nummod
+年代	文明	nmod
+末	年代	case
+，	年代	punct
+西方	文明	nsubj
+仍然	文明	advmod
+是	文明	cop
+世界	占	obl
+上	世界	case
+占	文明	acl:relcl
+主导	地位	nmod
+地位	占	obj
+的	占	mark:rel
+文明	写道	ccomp
+。	文明	punct
+”	文明	punct
+----------------------------------------------------------------------
+“五个主要的西方大国——美国、德国、英国、法国和加拿大，在全球制造业总量中占据了 44%。”
+
+(ROOT (IP (`` “) (NP (NP (QP (CD 五) (CLP (NNB 个))) (DNP (ADJP (JJ 主要)) (DEC 的)) (NP (NNP 西方) (NN 大国))) (HYPH —) (HYPH —) (NP (NNP 美国) (EC 、) (NNP 德国) (EC 、) (NNP 英国) (EC 、) (NNP 法国) (CC 和) (NNP 加拿大))) (, ，) (VP (PP (IN 在) (LCP (NP (NN 全球) (VV 制造) (SFN 业) (NN 总量)) (IN 中))) (VP (VV 占据) (AS 了) (QP (CD 44%)))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, ',': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {}, ',': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'NP': {}, 'HYPH': {}, 'HYPH11540': {}, 'NP79388': {}}, ',': {}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {'NP': {}, 'HYPH': {}, 'HYPH': {}, 'NP': {}}, ',': {}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'NP': {}, 'HYPH': {}, 'HYPH': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+“	大国	punct
+五	个	nummod
+个	大国	clf
+主要	大国	amod
+的	主要	mark:rel
+西方	大国	nmod
+大国	占据	nsubj
+—	美国	punct
+—	美国	punct
+美国	大国	appos
+、	德国	punct
+德国	美国	conj
+、	英国	punct
+英国	美国	conj
+、	法国	punct
+法国	美国	conj
+和	加拿大	cc
+加拿大	美国	conj
+，	大国	punct
+在	总量	case
+全球	总量	nmod
+制造	业	compound
+业	总量	nmod
+总量	占据	obl
+中	总量	case
+占据	ROOT	root
+了	占据	aux
+44%	占据	obj
+。	占据	punct
+”	占据	punct
+----------------------------------------------------------------------
+西方大学占据了科学界的主导地位；苏联解体；世界上正在涌起民主浪潮；一些学者宣布了自由资本主义的胜利，并将美国称为“霸主”。
+
+(ROOT (IP (IP (NP (NNP 西方) (NN 大学)) (VP (VV 占据) (AS 了) (NP (DNP (NP (NN 科学) (SFN 界)) (DEC 的)) (NP (NN 主导) (NN 地位))))) (: ；) (IP (NP (NNP 苏联)) (VP (VV 解体))) (: ；) (IP (LCP (NP (NN 世界)) (IN 上)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 涌起) (NP (NN 民主) (NN 浪潮))))) (: ；) (IP (NP (QP (JJ 一些)) (NP (NN 学者))) (VP (VP (VV 宣布) (AS 了) (NP (DNP (NP (NN 自由) (NN 资本) (NN 主义)) (DEC 的)) (NP (NN 胜利)))) (, ，) (RB 并) (VP (BB 将) (IP (NP (NNP 美国)) (VP (VCP (VV 称) (VC 为)) (NP (`` “) (NN 霸主) ('' ”))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP58164': {}, ':16052': {}, 'IP59446': {}, ':19358': {}, 'IP3126': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, ':': {}, 'IP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP80650': {'NP': {}, 'VP': {}}, ':54159': {}, 'IP91617': {'LCP': {}, 'VP': {}}, ':166': {}, 'IP98084': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'LCP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'LCP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+西方	大学	nmod
+大学	占据	nsubj
+占据	ROOT	root
+了	占据	aux
+科学	界	compound
+界	地位	nmod
+的	界	case
+主导	地位	nmod
+地位	占据	obj
+；	解体	punct
+苏联	解体	nsubj
+解体	占据	parataxis
+；	涌起	punct
+世界	涌起	obl
+上	世界	case
+正	涌起	advmod
+在	涌起	advmod
+涌起	占据	parataxis
+民主	浪潮	nmod
+浪潮	涌起	obj
+；	称	punct
+一些	学者	amod
+学者	称	nsubj
+宣布	称	advcl
+了	宣布	aux
+自由	主义	nmod
+资本	主义	nmod
+主义	胜利	nmod
+的	主义	case
+胜利	宣布	obj
+，	宣布	punct
+并	称	mark
+将	美国	case
+美国	称	obl:patient
+称	占据	parataxis
+为	称	mark
+“	霸主	punct
+霸主	称	obj
+”	霸主	punct
+。	占据	punct
+----------------------------------------------------------------------
+2008 年的金融危机及其持续的影响；面对严峻问题，政治派别和僵局；美国和欧盟内部的分裂；在伊拉克和阿富汗费用高昂的战争之后，美国军事力量的过度扩张；中国的崛起：西方是否正在朝着古罗马的衰落走？
+
+(ROOT (IP (NP (NP (DNP (NP (CD 2008) (NNB 年)) (DEC 的)) (NP (NN 金融) (NN 危机))) (CC 及) (NP (NP (PRP 其)) (CP (CP (IP (VP (JJ 持续))) (DEC 的))) (NP (NN 影响))) (: ；) (IP (VP (VV 面对) (NP (NP (ADJP (JJ 严峻)) (NP (NN 问题))) (, ，) (NP (NN 政治) (NN 派别) (CC 和) (NN 僵局))))) (: ；) (NP (DNP (NP (NP (NNP 美国) (CC 和) (NNP 欧盟)) (NP (NN 内部))) (DEC 的)) (NP (NN 分裂))) (: ；) (PP (VV 在) (LCP (NP (CP (CP (IP (NP (NNP 伊拉克) (CC 和) (NNP 阿富汗)) (NP (NN 费用)) (VP (JJ 高昂))) (DEC 的))) (NP (NN 战争))) (IN 之后))) (, ，) (NP (DNP (NP (NP (NNP 美国)) (NP (NN 军事) (NN 力量))) (DEC 的)) (ADJP (JJ 过度)) (NP (VV 扩张))) (: ；) (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NN 崛起))) (: ：) (NP (NNP 西方)) (VP (ADVP (VC 是否)) (ADVP (RB 正)) (ADVP (VV 在)) (VP (VP (VV 朝) (AS 着) (NP (DNP (NP (ADJP (PFA 古)) (NP (NNP 罗马))) (DEC 的)) (NP (NN 衰落)))) (VP (VV 走))))) (. ？)))
+layer 2:
+{'IP': {'NP': {}, '.': {}}}
+{'IP': {'NP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'CC': {}, 'NP90789': {}, ':': {}, 'IP': {}, ':63224': {}, 'NP47588': {}, ':28495': {}, 'PP': {}, ',': {}, 'NP87743': {}, ':4823': {}, 'NP25103': {}, ':63521': {}, 'NP81089': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'CC': {}, 'NP': {}, ':': {}, 'IP': {}, ':': {}, 'NP': {}, ':': {}, 'PP': {}, ',': {}, 'NP': {}, ':': {}, 'NP': {}, ':': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'CC': {}, 'NP': {}, ':': {}, 'IP': {}, ':': {}, 'NP': {}, ':': {}, 'PP': {}, ',': {}, 'NP': {}, ':': {}, 'NP': {}, ':': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+2008	年	nummod
+年	危机	nmod
+的	年	case
+金融	危机	nmod
+危机	面对	nsubj
+及	影响	cc
+其	持续	nsubj
+持续	影响	amod
+的	持续	mark:rel
+影响	危机	conj
+；	危机	punct
+面对	ROOT	root
+严峻	问题	amod
+问题	面对	obj
+，	派别	punct
+政治	派别	nmod
+派别	问题	conj
+和	僵局	cc
+僵局	问题	conj
+；	分裂	punct
+美国	分裂	nmod
+和	内部	cc
+欧盟	内部	nmod
+内部	美国	conj
+的	美国	case
+分裂	面对	nsubj
+；	分裂	punct
+在	扩张	advcl
+伊拉克	费用	nmod
+和	阿富汗	cc
+阿富汗	伊拉克	conj
+费用	高昂	nsubj
+高昂	战争	acl:relcl
+的	高昂	mark:rel
+战争	扩张	obl
+之后	战争	case
+，	战争	punct
+美国	力量	nmod
+军事	力量	nmod
+力量	扩张	obj
+的	力量	case
+过度	扩张	amod
+扩张	是	advcl
+；	扩张	punct
+中国	崛起	nmod
+的	中国	case
+崛起	是	nsubj
+：	崛起	punct
+西方	是	nsubj
+是	面对	parataxis
+正	在	advmod
+在	是	xcomp
+朝	衰落	acl:relcl
+着	朝	aux
+古	罗马	case
+罗马	朝	obj
+的	朝	mark:rel
+衰落	走	obl
+走	在	xcomp
+？	是	punct
+----------------------------------------------------------------------
+“这种担忧看起来并不完全是幻想，”弗格森沉默地说，指出财政危机、战争和政治派别在推翻其他强大国家时所起的作用。
+
+(ROOT (IP (IP (`` “) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 担忧))) (VP (VP (VRD (VV 看) (VV 起来))) (VP (ADVP (RB 并)) (ADVP (RB 不)) (ADVP (RB 完全)) (VP (VC 是) (NP (NN 幻想)))))) (, ，) ('' ”) (NP (NNP 弗格森)) (VP (VP (DVP (VP (JJ 沉默)) (DEV 地)) (VP (VV 说))) (, ，) (VP (VV 指出) (NP (CP (CP (IP (NP (NP (NN 财政) (NN 危机) (EC 、) (NN 战争) (CC 和) (NN 政治)) (NP (NN 派别))) (VP (PP (VV 在) (LCP (IP (VP (VV 推翻) (NP (DP (DT 其他)) (ADJP (JJ 强大)) (NP (NN 国家))))) (IN 时))) (VP (RB 所) (VP (VV 起))))) (DEC 的))) (NP (NN 作用))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP12299': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+“	幻想	punct
+这	种	det
+种	担忧	clf
+担忧	幻想	nsubj
+看	幻想	acl
+起来	看	mark
+并	幻想	mark
+不	幻想	advmod
+完全	幻想	advmod
+是	幻想	cop
+幻想	ROOT	root
+，	幻想	punct
+”	幻想	punct
+弗格森	说	nsubj
+沉默	说	advmod
+地	沉默	mark:adv
+说	幻想	parataxis
+，	指出	punct
+指出	说	xcomp
+财政	危机	nmod
+危机	在	nsubj
+、	战争	punct
+战争	危机	conj
+和	派别	cc
+政治	派别	nmod
+派别	危机	conj
+在	起	advcl
+推翻	在	xcomp
+其他	国家	det
+强大	国家	amod
+国家	推翻	obj
+时	在	mark
+所	起	mark
+起	作用	acl:relcl
+的	起	mark:rel
+作用	指出	obj
+。	幻想	punct
+----------------------------------------------------------------------
+更令人担忧的是，他认为，巨大文明的崩溃往往会很快到来。
+
+(ROOT (IP (NP (CP (CP (IP (VP (ADVP (RB 更)) (VP (VV 令) (NP (NN 人)) (IP (VP (JJ 担忧)))))) (DEC 的)))) (VP (VC 是) (, ，) (IP (NP (PRP 他)) (VP (VV 认为) (, ，) (IP (NP (DNP (NP (ADJP (JJ 巨大)) (NP (NN 文明))) (DEC 的)) (NP (NN 崩溃))) (VP (ADVP (RB 往往)) (VP (MD 会) (VP (ADVP (RB 很快)) (VP (VV 到来))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+更	令	advmod
+令	是	csubj
+人	担忧	nsubj
+担忧	令	ccomp
+的	令	mark:rel
+是	ROOT	root
+，	为	punct
+他	为	nsubj
+为	是	ccomp
+，	到来	punct
+巨大	文明	amod
+文明	崩溃	nmod
+的	文明	case
+崩溃	到来	nsubj
+往往	到来	advmod
+会	到来	aux
+很快	到来	advmod
+到来	为	ccomp
+。	是	punct
+----------------------------------------------------------------------
+他写道，罗马在“一代人的时间”内“崩溃”；明朝时期，“儒家的平衡与动荡的急剧转变”“仅仅用了十几年”；苏联“不是渐渐衰落，而是直接坠下悬崖”。
+
+(ROOT (IP (NP (PRP 他)) (VP (VV 写道) (, ，) (IP (IP (NP (NNP 罗马)) (VP (PP (IN 在) (LCP (NP (`` “) (DNP (NP (QP (CD 一) (CLP (NNB 代))) (NP (NN 人))) (DEC 的)) (NP (NN 时间)) ('' ”)) (IN 内))) (VP (`` “) (VV 崩溃) ('' ”)))) (: ；) (IP (NP (NP (NNP 明朝)) (NP (NN 时期))) (, ，) (NP (`` “) (DNP (NP (DNP (NP (NNP 儒) (SFN 家)) (DEC 的)) (NP (NN 平衡) (CC 与) (JJ 动荡))) (DEC 的)) (ADJP (JJ 急剧)) (NP (NN 转变)) ('' ”)) (VP (`` “) (VP (ADVP (RB 仅仅)) (VP (VV 用) (AS 了) (QP (QP (CD 十)) (QP (CD 几) (CLP (NNB 年)))))) ('' ”))) (: ；) (IP (NP (NNP 苏联)) (VP (`` “) (VC 不是) (VP (ADVP (RB 渐渐)) (VP (VV 衰落))) (, ，) (VP (VC 而是) (VP (ADVP (RB 直接)) (VP (VV 坠下) (NP (NN 悬崖))))) ('' ”))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+他	写道	nsubj
+写道	ROOT	root
+，	是	punct
+罗马	崩溃	nsubj
+在	时间	case
+“	时间	punct
+一	代	nummod
+代	人	clf
+人	时间	nmod
+的	人	case
+时间	崩溃	obl
+”	时间	punct
+内	时间	case
+“	崩溃	punct
+崩溃	是	xcomp
+”	崩溃	punct
+；	崩溃	punct
+明朝	时期	nmod
+时期	用	nmod:tmod
+，	时期	punct
+“	平衡	punct
+儒	家	compound
+家	平衡	nmod
+的	家	case
+平衡	用	nsubj
+与	转变	cc
+动荡	转变	amod
+的	动荡	mark:rel
+急剧	转变	amod
+转变	平衡	conj
+”	转变	punct
+“	用	punct
+仅仅	用	advmod
+用	是	advcl
+了	用	aux
+十	年	nummod
+几	年	nummod
+年	用	obj
+”	用	punct
+；	用	punct
+苏联	是	nsubj
+“	衰落	punct
+是	衰落	cop
+渐渐	衰落	advmod
+衰落	是	advcl
+，	衰落	punct
+是	写道	ccomp
+直接	坠下	advmod
+坠下	是	xcomp
+悬崖	坠下	obj
+”	是	punct
+。	写道	punct
+----------------------------------------------------------------------
+他得出的结论是，“文明是一种高度复杂的系统，由非对称组织的很多相互作用的组成部分组成，因此，它们的构建更像纳米比亚蚁巢，而不像埃及金字塔。”
+
+(ROOT (IP (NP (CP (CP (IP (NP (PRP 他)) (VP (VV 得出))) (DEC 的))) (NP (NN 结论))) (VP (VC 是) (, ，) (IP (`` “) (IP (NP (NN 文明)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (CP (CP (IP (VP (ADVP (NN 高度)) (VP (JJ 复杂)))) (DEC 的))) (NP (NN 系统))))) (, ，) (IP (VP (PP (IN 由) (NP (DNP (NP (DNP (NP (ADJP (VC 非)) (ADJP (JJ 对称)) (NP (NN 组织))) (DEC 的)) (QP (CD 很多)) (ADJP (JJ 相互)) (NP (NN 作用))) (DEC 的)) (NP (NN 组成) (NN 部分)))) (VP (VV 组成)))) (, ，) (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (DNP (NP (PRP 它们)) (DEC 的)) (NP (NN 构建))) (VP (VP (ADVP (RB 更)) (VP (VV 像纳米比亚蚁) (NP (NN 巢)))) (, ，) (RB 而) (VP (PP (VV 不像) (NP (NP (NNP 埃及)) (NP (NN 金字) (SFN 塔))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+他	得出	nsubj
+得出	结论	acl:relcl
+的	得出	mark:rel
+结论	是	nsubj
+是	ROOT	root
+，	像	punct
+“	像	punct
+文明	系统	nsubj
+是	系统	cop
+一	种	nummod
+种	系统	clf
+高度	复杂	obl
+复杂	系统	amod
+的	复杂	mark:rel
+系统	像	advcl
+，	系统	punct
+由	部分	case
+非	部分	acl:relcl
+对称	组织	amod
+组织	非	obj
+的	非	mark:rel
+很多	作用	nummod
+相互	作用	amod
+作用	非	obj
+的	非	mark:rel
+组成	部分	nmod
+部分	组成	obl
+组成	像纳米比亚蚁	ccomp
+，	由	punct
+因	此	case
+此	像纳米比亚蚁	obl
+，	此	punct
+它	构建	det
+的	它	case
+构建	像纳米比亚蚁	nsubj
+更	像纳米比亚蚁	advmod
+像纳米比亚蚁	像	advcl
+巢	像纳米比亚蚁	obj
+，	像纳米比亚蚁	punct
+而	像	mark
+像	是	ccomp
+埃及	塔	nmod
+金字	塔	compound
+塔	像	obj
+。	像	punct
+”	像	punct
+----------------------------------------------------------------------
+他继续说道：“这样的系统可能会在一段时间内看起来运行相当稳定，似乎处于平衡，但实际上是不断适应。
+
+(ROOT (IP (NP (PRP 他)) (VP (VV 继续) (VP (VV 说道) (: ：) (IP (`` “) (IP (NP (DNP (NP (PRD 这样)) (DEC 的)) (NP (NN 系统))) (VP (MD 可能) (VP (VP (MD 会) (VP (IP (VP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 段))) (NP (NN 时间))) (IN 内))) (VP (VRD (VV 看) (VV 起来))))) (NP (NN 运行)) (VP (ADVP (RB 相当)) (VP (JJ 稳定))))) (, ，) (VP (ADVP (RB 似乎)) (VP (VV 处) (PP (VV 于) (NP (NN 平衡)))))))) (, ，) (IP (ADVP (RB 但)) (VP (LCP (NP (NN 实际)) (IN 上)) (VP (VC 是) (VP (ADVP (RB 不断)) (VP (VV 适应))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'VP': {}}}
+Dependency Features:
+他	继续	nsubj
+继续	ROOT	root
+说道	继续	xcomp
+：	是	punct
+“	是	punct
+这样	系统	det
+的	这样	case
+系统	是	nsubj
+可能	看	aux
+会	看	aux
+在	时间	case
+一	段	nummod
+段	时间	clf
+时间	看	obl
+内	时间	case
+看	处	advcl
+起来	看	mark
+运行	稳定	nsubj
+相当	稳定	advmod
+稳定	看	ccomp
+，	看	punct
+似乎	处	advmod
+处	是	advcl
+于	处	mark
+平衡	处	obj
+，	处	punct
+但	是	mark
+实际	是	obl
+上	实际	case
+是	说道	ccomp
+不断	适应	advmod
+适应	是	xcomp
+。	继续	punct
+----------------------------------------------------------------------
+但是，有一个时刻，它们“会变得危险”。
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (IP (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 时刻))))) (, ，) (NP (PRP 它们)) (VP (`` “) (MD 会) (VP (VV 变得) (VP (JJ 危险))) ('' ”)) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',65534': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'VP': {}}, ',56584': {}, 'NP': {'PRP': {}}, 'VP': {'``': {}, 'MD': {}, 'VP': {}, "''": {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'``': {}, 'MD': {}, 'VP': {}, "''": {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'``': {}, 'MD': {}, 'VP': {}, "''": {}}}
+Dependency Features:
+但是	有	mark
+，	但是	punct
+有	ROOT	root
+一	个	nummod
+个	时刻	clf
+时刻	有	obj
+，	变得	punct
+它	变得	nsubj
+“	变得	punct
+会	变得	aux
+变得	有	parataxis
+危险	变得	xcomp
+”	变得	punct
+。	有	punct
+----------------------------------------------------------------------
+一点小扰动就可能会引发一种从良性平衡到危机的“相变”——一块孤立的沙粒就会让看似稳固的沙堡倒塌。”
+
+(ROOT (IP (NP (QP (JJ 一点)) (ADJP (PFA 小)) (NP (NN 扰动))) (VP (VP (ADVP (RB 就)) (VP (MD 可能) (VP (MD 会) (VP (VV 引发) (NP (NP (QP (CD 一) (CLP (NNB 种))) (DNP (PP (PP (IN 从) (NP (ADJP (NN 良性)) (NP (VV 平衡)))) (PP (VV 到) (NP (NN 危机)))) (DEC 的)) (NP (`` “) (NN 相变) ('' ”))) (HYPH —) (HYPH —) (NP (QP (CD 一) (CLP (NNB 块))) (CP (CP (IP (VP (JJ 孤立))) (DEC 的))) (NP (NN 沙粒)))))))) (VP (ADVP (RB 就)) (VP (MD 会) (VP (VV 让) (NP (CP (CP (IP (VP (VV 看似) (IP (VP (JJ 稳固))))) (DEC 的))) (NP (NN 沙堡))) (IP (VP (VV 倒塌))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP84400': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'QP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'QP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+一点	扰动	amod
+小	扰动	case
+扰动	引发	nsubj
+就	引发	mark
+可能	引发	aux
+会	引发	aux
+引发	ROOT	root
+一	种	nummod
+种	相变	clf
+从	良性	case
+良性	平衡	obl
+平衡	相变	acl:relcl
+到	平衡	mark
+危机	平衡	obj
+的	平衡	mark:rel
+“	相变	punct
+相变	引发	obj
+”	相变	punct
+—	沙粒	punct
+—	沙粒	punct
+一	块	nummod
+块	沙粒	clf
+孤立	沙粒	amod
+的	孤立	mark:rel
+沙粒	让	nsubj
+就	让	mark
+会	让	aux
+让	引发	parataxis
+看似	沙堡	acl:relcl
+稳固	看似	xcomp
+的	看似	mark:rel
+沙堡	倒塌	nsubj
+倒塌	让	ccomp
+。	让	punct
+”	让	punct
+----------------------------------------------------------------------

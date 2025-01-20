@@ -1,0 +1,2329 @@
+从历史上看，美国和英国国王詹姆斯版圣经几乎是双胞胎。
+
+(ROOT (IP (IP (VP (PP (IN 从) (LCP (NP (NN 历史)) (IN 上))) (VP (VV 看)))) (, ，) (NP (NP (NP (NNP 美国) (CC 和) (NNP 英国)) (NP (NN 国王))) (NP (NNP 詹姆斯) (SFN 版) (NNP 圣经))) (VP (ADVP (RB 几乎)) (VP (VC 是) (NP (QP (CD 双) (CLP (NN 胞))) (NP (SFN 胎))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NP': {}, 'NP6929': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['从', '历史', 'case']
+['NOUN', 'VERB', 'obl']	['历史', '看', 'obl']
+['ADP', 'NOUN', 'case']	['上', '历史', 'case']
+['VERB', 'PART', 'acl']	['看', '胎', 'acl']
+['PUNCT', 'VERB', 'punct']	['，', '看', 'punct']
+['PROPN', 'PROPN', 'nmod']	['美国', '圣经', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['和', '国王', 'cc']
+['PROPN', 'NOUN', 'nmod']	['英国', '国王', 'nmod']
+['NOUN', 'PROPN', 'conj']	['国王', '美国', 'conj']
+['PROPN', 'PART', 'compound']	['詹姆斯', '版', 'compound']
+['PART', 'PROPN', 'nmod']	['版', '圣经', 'nmod']
+['PROPN', 'PART', 'nsubj']	['圣经', '胎', 'nsubj']
+['ADV', 'PART', 'advmod']	['几乎', '胎', 'advmod']
+['AUX', 'PART', 'cop']	['是', '胎', 'cop']
+['NUM', 'NOUN', 'nummod']	['双', '胞', 'nummod']
+['NOUN', 'PART', 'compound']	['胞', '胎', 'compound']
+['PART', 'ROOT', 'root']	['胎', 'NONE', 'root']
+['PUNCT', 'PART', 'punct']	['。', '胎', 'punct']
+----------------------------------------------------------------------
+1607 年，英国在弗吉尼亚州的詹姆斯敦建立了第一个北美殖民地；四年后，英国国教会完成了《圣经授权版》的翻译工作，这部《圣经》与殖民地一样，以当时的君主的名字命名。
+
+(ROOT (IP (IP (QP (CD 1607) (CLP (NNB 年))) (, ，) (NP (NNP 英国)) (VP (PP (VV 在) (NP (DNP (NP (NNP 弗吉尼亚) (SFN 州)) (DEC 的)) (NP (NNP 詹姆斯) (NNP 敦)))) (VP (VV 建立) (AS 了) (NP (QP (CD 第一) (CLP (NNB 个))) (NP (NNP 北美)) (NP (VV 殖民) (SFN 地)))))) (: ；) (IP (LCP (QP (CD 四) (CLP (NNB 年))) (IN 后)) (, ，) (NP (NNP 英国) (SFN 国) (NN 教会)) (VP (VV 完成) (AS 了) (NP (DNP (NP (-LRB- 《) (NNP 圣经) (VV 授权) (SFN 版) (-RRB- 》)) (DEC 的)) (NP (NN 翻译) (NN 工作))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 部))) (NP (-LRB- 《) (NNP 圣经) (-RRB- 》))) (VP (VP (PP (CC 与) (NP (VV 殖民) (SFN 地))) (VP (JJ 一样))) (, ，) (VP (PP (IN 以) (NP (DNP (NP (DNP (NP (NN 当时)) (DEC 的)) (NP (NN 君主))) (DEC 的)) (NP (NN 名字)))) (VP (VV 命名))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP44662': {}, ',': {}, 'IP46211': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'QP': {}, ',': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP62559': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP15636': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'QP': {}, ',': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'QP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['NUM', 'NOUN', 'nummod']	['1607', '年', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['年', '建立', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '年', 'punct']
+['PROPN', 'PROPN', 'nmod']	['英国', '詹姆斯', 'nmod']
+['VERB', 'PROPN', 'acl:relcl']	['在', '詹姆斯', 'acl:relcl']
+['PROPN', 'PART', 'compound']	['弗吉尼亚', '州', 'compound']
+['PART', 'VERB', 'obj']	['州', '在', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '在', 'mark:rel']
+['PROPN', 'VERB', 'nsubj']	['詹姆斯', '建立', 'nsubj']
+['PROPN', 'PROPN', 'flat:name']	['敦', '詹姆斯', 'flat:name']
+['VERB', 'ROOT', 'root']	['建立', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '建立', 'aux']
+['NUM', 'NOUN', 'nummod']	['第一', '个', 'nummod']
+['NOUN', 'PART', 'nmod']	['个', '地', 'nmod']
+['PROPN', 'PART', 'nmod']	['北美', '地', 'nmod']
+['VERB', 'PART', 'compound']	['殖民', '地', 'compound']
+['PART', 'VERB', 'obj']	['地', '建立', 'obj']
+['PUNCT', 'VERB', 'punct']	['；', '完成', 'punct']
+['NUM', 'NOUN', 'nummod']	['四', '年', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['年', '完成', 'nmod:tmod']
+['ADP', 'NOUN', 'case']	['后', '年', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '年', 'punct']
+['PROPN', 'PART', 'compound']	['英国', '国', 'compound']
+['PART', 'NOUN', 'nmod']	['国', '教会', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['教会', '完成', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['完成', '建立', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '完成', 'aux']
+['PUNCT', 'PART', 'punct']	['《', '版', 'punct']
+['PROPN', 'PART', 'nmod']	['圣经', '版', 'nmod']
+['VERB', 'PART', 'compound']	['授权', '版', 'compound']
+['PART', 'NOUN', 'nmod']	['版', '工作', 'nmod']
+['PUNCT', 'PART', 'punct']	['》', '版', 'punct']
+['PART', 'PART', 'case']	['的', '版', 'case']
+['NOUN', 'NOUN', 'nmod']	['翻译', '工作', 'nmod']
+['NOUN', 'VERB', 'obj']	['工作', '完成', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '命名', 'punct']
+['DET', 'NOUN', 'det']	['这', '部', 'det']
+['NOUN', 'PROPN', 'clf']	['部', '圣经', 'clf']
+['PUNCT', 'PROPN', 'punct']	['《', '圣经', 'punct']
+['PROPN', 'VERB', 'nsubj']	['圣经', '命名', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['》', '圣经', 'punct']
+['CCONJ', 'PART', 'cc']	['与', '地', 'cc']
+['VERB', 'PART', 'compound']	['殖民', '地', 'compound']
+['PART', 'PROPN', 'conj']	['地', '圣经', 'conj']
+['ADJ', 'VERB', 'advcl']	['一样', '命名', 'advcl']
+['PUNCT', 'ADJ', 'punct']	['，', '一样', 'punct']
+['ADP', 'NOUN', 'case']	['以', '名字', 'case']
+['NOUN', 'NOUN', 'nmod']	['当时', '名字', 'nmod']
+['PART', 'NOUN', 'case']	['的', '当时', 'case']
+['NOUN', 'NOUN', 'nmod']	['君主', '名字', 'nmod']
+['PART', 'NOUN', 'case']	['的', '君主', 'case']
+['NOUN', 'VERB', 'obl']	['名字', '命名', 'obl']
+['VERB', 'VERB', 'parataxis']	['命名', '建立', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '建立', 'punct']
+----------------------------------------------------------------------
+可以肯定的是，至少在接下来的三百年里，几乎所有英语讲的美国人都会比任何其他书都更熟悉《金王牌圣经》。
+
+(ROOT (IP (NP (CP (CP (IP (VP (MD 可以) (VP (VV 肯定)))) (DEC 的)))) (VP (VC 是) (, ，) (IP (PP (ADVP (RB 至少)) (PP (IN 在) (LCP (QP (CP (CP (IP (VP (VRD (VV 接) (VV 下来)))) (DEC 的))) (QP (CD 三百) (CLP (NNB 年)))) (IN 里)))) (, ，) (NP (DNP (NP (DP (ADVP (RB 几乎)) (DP (DT 所有))) (NP (NNP 英) (SFN 语) (VV 讲))) (DEC 的)) (NP (NNP 美国)) (NP (SFN 人))) (VP (ADVP (RB 都)) (VP (MD 会) (VP (PP (IN 比) (NP (DP (DT 任何)) (DP (DT 其他)) (NP (NN 书)))) (ADVP (RB 都)) (ADVP (RB 更)) (VP (VV 熟悉) (NP (-LRB- 《) (NP (NN 金王) (SFN 牌)) (NP (NN 圣经)) (-RRB- 》)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['AUX', 'VERB', 'aux']	['可以', '肯定', 'aux']
+['VERB', 'VERB', 'csubj']	['肯定', '是', 'csubj']
+['PART', 'VERB', 'mark:rel']	['的', '肯定', 'mark:rel']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '熟悉', 'punct']
+['ADV', 'NOUN', 'advmod']	['至少', '年', 'advmod']
+['ADP', 'NOUN', 'case']	['在', '年', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['接', '年', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['下来', '接', 'mark']
+['PART', 'VERB', 'mark:rel']	['的', '接', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['三百', '年', 'nummod']
+['NOUN', 'VERB', 'obl']	['年', '熟悉', 'obl']
+['ADP', 'NOUN', 'case']	['里', '年', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '年', 'punct']
+['ADV', 'DET', 'advmod']	['几乎', '所有', 'advmod']
+['DET', 'PART', 'det']	['所有', '语', 'det']
+['PROPN', 'PART', 'compound']	['英', '语', 'compound']
+['PART', 'VERB', 'nsubj']	['语', '讲', 'nsubj']
+['VERB', 'PART', 'acl:relcl']	['讲', '人', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '讲', 'mark:rel']
+['PROPN', 'PART', 'compound']	['美国', '人', 'compound']
+['PART', 'VERB', 'nsubj']	['人', '熟悉', 'nsubj']
+['ADV', 'VERB', 'mark']	['都', '熟悉', 'mark']
+['AUX', 'VERB', 'aux']	['会', '熟悉', 'aux']
+['ADP', 'NOUN', 'case']	['比', '书', 'case']
+['DET', 'NOUN', 'det']	['任何', '书', 'det']
+['DET', 'NOUN', 'det']	['其他', '书', 'det']
+['NOUN', 'VERB', 'obl']	['书', '熟悉', 'obl']
+['ADV', 'VERB', 'mark']	['都', '熟悉', 'mark']
+['ADV', 'VERB', 'advmod']	['更', '熟悉', 'advmod']
+['VERB', 'VERB', 'ccomp']	['熟悉', '是', 'ccomp']
+['PUNCT', 'NOUN', 'punct']	['《', '圣经', 'punct']
+['NOUN', 'PART', 'compound']	['金王', '牌', 'compound']
+['PART', 'NOUN', 'nmod']	['牌', '圣经', 'nmod']
+['NOUN', 'VERB', 'obj']	['圣经', '熟悉', 'obj']
+['PUNCT', 'NOUN', 'punct']	['》', '圣经', 'punct']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+Robert Alter 在他的新著《铁笔：美国白金汉王朝时期的文学与《圣经》》中这样说：“美国，甚至比英格兰本身更受‘圣经化的冲动’影响：“美国是 1611 年译本决定整个文化基础语言和符号形象的潜力最充分地实现的地方。”
+
+(ROOT (IP (NP (FW Robert) (FW Alter)) (VP (PP (IN 在) (LCP (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 新著))) (NP (-LRB- 《) (NP (NN 铁笔)) (: ：) (NP (DNP (NP (NP (NP (NNP 美国)) (NP (NNP 白金汉) (NN 王朝))) (NP (NN 时期))) (DEC 的)) (NP (NN 文学))) (CC 与) (NP (-LRB- 《) (NN 圣经) (-RRB- 》)) (-RRB- 》))) (IN 中))) (ADVP (RB 这样)) (VP (VV 说) (: ：) (IP (`` “) (NP (NNP 美国)) (, ，) (VP (ADVP (RB 甚至)) (PP (IN 比) (NP (NP (NNP 英格兰)) (NP (PRD 本身)))) (ADVP (RB 更)) (VP (VV 受) (CP (IP (NP (`` ‘) (DNP (NP (NN 圣经) (SFV 化)) (DEC 的)) (NP (NN 冲动)) ('' ’)) (VP (VV 影响))))))))) (: ：)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, ':': {}}}
+{'IP': {'NP': {}, 'VP': {}, ':': {}}}
+layer 3:
+{'IP': {'NP': {'FW': {}, 'FW50700': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, ':': {}}}
+{'IP': {'NP': {'FW': {}, 'FW': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, ':': {}}}
+{'NP': {'FW': {}, 'FW': {}}}
+{'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['X', 'VERB', 'nsubj']	['Robert', '说', 'nsubj']
+['X', 'X', 'flat:foreign']	['Alter', 'Robert', 'flat:foreign']
+['ADP', 'NOUN', 'case']	['在', '新著', 'case']
+['PRON', 'NOUN', 'det']	['他', '新著', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'NOUN', 'nmod']	['新著', '文学', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['《', '铁笔', 'punct']
+['NOUN', 'NOUN', 'nmod']	['铁笔', '时期', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['：', '铁笔', 'punct']
+['PROPN', 'NOUN', 'nmod']	['美国', '时期', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['白金汉', '时期', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['王朝', '时期', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['时期', '文学', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '时期', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['文学', '说', 'obl']
+['CCONJ', 'NOUN', 'cc']	['与', '圣经', 'cc']
+['PUNCT', 'NOUN', 'punct']	['《', '圣经', 'punct']
+['NOUN', 'NOUN', 'conj']	['圣经', '文学', 'conj']
+['PUNCT', 'NOUN', 'punct']	['》', '圣经', 'punct']
+['PUNCT', 'NOUN', 'punct']	['》', '圣经', 'punct']
+['ADP', 'NOUN', 'case']	['中', '文学', 'case']
+['ADV', 'VERB', 'advmod']	['这样', '说', 'advmod']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['：', '受', 'punct']
+['PUNCT', 'VERB', 'punct']	['“', '受', 'punct']
+['PROPN', 'VERB', 'nsubj']	['美国', '受', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['，', '美国', 'punct']
+['ADV', 'VERB', 'mark']	['甚至', '受', 'mark']
+['ADP', 'PROPN', 'case']	['比', '英格兰', 'case']
+['PROPN', 'VERB', 'obl']	['英格兰', '受', 'obl']
+['PRON', 'PROPN', 'appos']	['本身', '英格兰', 'appos']
+['ADV', 'VERB', 'advmod']	['更', '受', 'advmod']
+['VERB', 'VERB', 'ccomp']	['受', '说', 'ccomp']
+['PUNCT', 'NOUN', 'punct']	['‘', '冲动', 'punct']
+['NOUN', 'PART', 'compound']	['圣经', '化', 'compound']
+['PART', 'NOUN', 'acl:relcl']	['化', '冲动', 'acl:relcl']
+['PART', 'PART', 'mark:rel']	['的', '化', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['冲动', '影响', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['’', '冲动', 'punct']
+['VERB', 'VERB', 'ccomp']	['影响', '受', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['：', '说', 'punct']
+----------------------------------------------------------------------
+当然，英国人是基督徒，但是他们更多地是从旧约而非新约中获得启发，并且他们的经历也与旧约相关。
+
+(ROOT (IP (IP (ADVP (RB 当然)) (, ，) (NP (NP (NNP 英国)) (NP (SFN 人))) (VP (VC 是) (NP (NNP 基督) (SFN 徒)))) (, ，) (IP (ADVP (RB 但是)) (NP (PRP 他们)) (VP (DVP (VP (JJ 更多)) (DEV 地)) (VP (VC 是) (VP (PP (IN 从) (LCP (NP (PFA 旧) (RB 约) (IN 而非) (NN 新约)) (IN 中))) (VP (VV 获得) (NP (NN 启发))))))) (, ，) (RB 并且) (IP (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 经历))) (VP (ADVP (RB 也)) (PP (IN 与) (NP (NNP 旧约))) (VP (JJ 相关)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP91184': {}, ',36591': {}, 'RB': {}, 'IP46415': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'RB': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP32123': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',18121': {}, 'RB': {}, 'IP40883': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'RB': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'PART', 'advmod']	['当然', '徒', 'advmod']
+['PUNCT', 'ADV', 'punct']	['，', '当然', 'punct']
+['PROPN', 'PART', 'compound']	['英国', '人', 'compound']
+['PART', 'PART', 'nsubj']	['人', '徒', 'nsubj']
+['AUX', 'PART', 'cop']	['是', '徒', 'cop']
+['PROPN', 'PART', 'compound']	['基督', '徒', 'compound']
+['PART', 'ROOT', 'root']	['徒', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['ADV', 'VERB', 'mark']	['但是', '是', 'mark']
+['PRON', 'VERB', 'nsubj']	['他', '是', 'nsubj']
+['ADJ', 'VERB', 'advmod']	['更多', '是', 'advmod']
+['PART', 'ADJ', 'mark:adv']	['地', '更多', 'mark:adv']
+['VERB', 'PART', 'parataxis']	['是', '徒', 'parataxis']
+['ADP', 'NOUN', 'case']	['从', '新约', 'case']
+['PART', 'NOUN', 'case']	['旧', '新约', 'case']
+['ADV', 'VERB', 'advmod']	['约', '获得', 'advmod']
+['ADP', 'NOUN', 'case']	['而非', '新约', 'case']
+['NOUN', 'VERB', 'obl']	['新约', '获得', 'obl']
+['ADP', 'NOUN', 'case']	['中', '新约', 'case']
+['VERB', 'VERB', 'xcomp']	['获得', '是', 'xcomp']
+['NOUN', 'VERB', 'obj']	['启发', '获得', 'obj']
+['PUNCT', 'ADJ', 'punct']	['，', '相关', 'punct']
+['ADV', 'ADJ', 'mark']	['并且', '相关', 'mark']
+['PRON', 'NOUN', 'det']	['他', '经历', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'ADJ', 'nsubj']	['经历', '相关', 'nsubj']
+['ADV', 'ADJ', 'mark']	['也', '相关', 'mark']
+['ADP', 'PROPN', 'case']	['与', '旧约', 'case']
+['PROPN', 'ADJ', 'nmod']	['旧约', '相关', 'nmod']
+['ADJ', 'PART', 'parataxis']	['相关', '徒', 'parataxis']
+['PUNCT', 'PART', 'punct']	['。', '徒', 'punct']
+----------------------------------------------------------------------
+在以色列人从埃及走出和占领承诺之地的故事中，纯化主义者发现了自己跨大西洋旅行和在新世界的斗争中的明显对应。
+
+(ROOT (IP (PP (IN 在) (LCP (NP (DNP (NP (CP (CP (IP (NP (NP (NNP 以色列)) (NP (SFN 人))) (VP (PP (IN 从) (NP (NNP 埃及))) (VP (VP (VV 走出)) (CC 和) (VP (VV 占领) (NP (VV 承诺)))))) (DEC 之))) (NP (NN 地))) (DEC 的)) (NP (NN 故事))) (IN 中))) (, ，) (NP (NN 纯化) (NN 主义) (SFN 者)) (VP (VV 发现) (AS 了) (NP (DNP (LCP (NP (NP (NP (PRD 自己)) (VP (VP (VV 跨) (NP (NNP 大西) (SFN 洋))) (NP (NN 旅行)))) (CC 和) (NP (DNP (PP (IN 在) (NP (ADJP (PFA 新)) (NP (NN 世界)))) (DEC 的)) (NP (NN 斗争)))) (IN 中)) (DEC 的)) (ADJP (JJ 明显)) (NP (NN 对应)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NN': {}, 'NN82150': {}, 'SFN': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NN': {}, 'NN': {}, 'SFN': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NN': {}, 'NN': {}, 'SFN': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['在', '故事', 'case']
+['PROPN', 'PART', 'compound']	['以色列', '人', 'compound']
+['PART', 'NOUN', 'nmod']	['人', '故事', 'nmod']
+['ADP', 'PROPN', 'case']	['从', '埃及', 'case']
+['PROPN', 'VERB', 'obl']	['埃及', '走出', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['走出', '故事', 'acl:relcl']
+['CCONJ', 'VERB', 'cc']	['和', '占领', 'cc']
+['VERB', 'VERB', 'conj']	['占领', '走出', 'conj']
+['VERB', 'VERB', 'xcomp']	['承诺', '占领', 'xcomp']
+['PART', 'VERB', 'mark:rel']	['之', '走出', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['地', '走出', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '走出', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['故事', '发现', 'obl']
+['ADP', 'NOUN', 'case']	['中', '故事', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '故事', 'punct']
+['NOUN', 'NOUN', 'nmod']	['纯化', '主义', 'nmod']
+['NOUN', 'PART', 'compound']	['主义', '者', 'compound']
+['PART', 'VERB', 'nsubj']	['者', '发现', 'nsubj']
+['VERB', 'ROOT', 'root']	['发现', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '发现', 'aux']
+['PRON', 'VERB', 'nsubj']	['自己', '跨', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['跨', '对应', 'acl:relcl']
+['PROPN', 'PART', 'compound']	['大西', '洋', 'compound']
+['PART', 'NOUN', 'nmod']	['洋', '旅行', 'nmod']
+['NOUN', 'VERB', 'obj']	['旅行', '跨', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '斗争', 'cc']
+['ADP', 'NOUN', 'case']	['在', '世界', 'case']
+['PART', 'NOUN', 'case']	['新', '世界', 'case']
+['NOUN', 'NOUN', 'conj']	['世界', '旅行', 'conj']
+['PART', 'VERB', 'mark:rel']	['的', '跨', 'mark:rel']
+['NOUN', 'NOUN', 'conj']	['斗争', '旅行', 'conj']
+['ADP', 'NOUN', 'case']	['中', '斗争', 'case']
+['PART', 'NOUN', 'case']	['的', '对应', 'case']
+['ADJ', 'NOUN', 'amod']	['明显', '对应', 'amod']
+['NOUN', 'VERB', 'obj']	['对应', '发现', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '发现', 'punct']
+----------------------------------------------------------------------
+(正如阿尔特所说，以色列人的地名遍布美国的大地，从塞勒姆到希伯伦。)因此，英王詹姆斯 Version 不仅是美国语言的母版，也是传递犹太历史和《希伯来圣经》道德观的手段。
+
+(ROOT (IP (ADVP (RB -LRB-正)) (PP (VV 如) (IP (NP (NNP 阿尔特)) (VP (RB 所) (VP (VV 说))))) (, ，) (NP (DNP (NP (NP (NNP 以色列)) (NP (SFN 人))) (DEC 的)) (NP (NN 地名))) (VP (VP (VV 遍布) (NP (DNP (NP (NNP 美国)) (DEC 的)) (NP (NN 大地)))) (, ，) (PP (PP (IN 从) (NP (NNP 塞勒姆))) (PP (VV 到) (NP (NNP 希伯伦))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'PP': {'VV': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'PP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'PP': {'VV': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'PP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'PP': {'VV': {}, 'IP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'PP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'advmod']	['(正', '如', 'advmod']
+['VERB', 'VERB', 'advcl']	['如', '到', 'advcl']
+['PROPN', 'VERB', 'nsubj']	['阿尔特', '说', 'nsubj']
+['ADV', 'VERB', 'mark']	['所', '说', 'mark']
+['VERB', 'VERB', 'ccomp']	['说', '如', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '如', 'punct']
+['PROPN', 'PART', 'compound']	['以色列', '人', 'compound']
+['PART', 'NOUN', 'nmod']	['人', '地名', 'nmod']
+['PART', 'PART', 'case']	['的', '人', 'case']
+['NOUN', 'VERB', 'nsubj']	['地名', '遍布', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['遍布', '大地', 'acl:relcl']
+['PROPN', 'VERB', 'obj']	['美国', '遍布', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '遍布', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['大地', '到', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '大地', 'punct']
+['ADP', 'PROPN', 'case']	['从', '塞勒姆', 'case']
+['PROPN', 'VERB', 'obl']	['塞勒姆', '到', 'obl']
+['VERB', 'ROOT', 'root']	['到', 'NONE', 'root']
+['PROPN', 'VERB', 'obj']	['希伯伦', '到', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '到', 'punct']
+----------------------------------------------------------------------
+作为一位著名的圣经学者和翻译家，同时对美国文学也有深入的了解，罗伯特·阿尔特是研究这一复杂遗产的理想人选。
+
+(ROOT (IP (IP (VP (PP (VV 作) (PP (VC 为) (NP (QP (CD 一) (CLP (NNB 位))) (CP (CP (IP (VP (JJ 著名))) (DEC 的))) (NP (NN 圣经) (NN 学者) (CC 和) (VV 翻译) (SFN 家))))) (, ，) (ADVP (NN 同时)) (PP (IN 对) (NP (NP (NNP 美国)) (NP (NN 文学)))) (ADVP (RB 也)) (VP (VV 有) (NP (CP (CP (IP (VP (JJ 深入))) (DEC 的))) (NP (NN 了解)))))) (, ，) (IP (NP (NNP 罗伯特) (/ ·) (NNP 阿尔特)) (VP (VC 是) (NP (CP (CP (IP (VP (VV 研究) (NP (DP (DT 这) (QP (CD 一))) (ADJP (JJ 复杂)) (NP (NN 遗产))))) (DEC 的))) (ADJP (JJ 理想)) (NP (NN 人选))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP11695': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP5242': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['作', '有', 'advcl']
+['VERB', 'VERB', 'mark']	['为', '作', 'mark']
+['NUM', 'NOUN', 'nummod']	['一', '位', 'nummod']
+['NOUN', 'NOUN', 'clf']	['位', '学者', 'clf']
+['ADJ', 'NOUN', 'amod']	['著名', '学者', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '著名', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['圣经', '学者', 'nmod']
+['NOUN', 'VERB', 'obj']	['学者', '作', 'obj']
+['CCONJ', 'PART', 'cc']	['和', '家', 'cc']
+['VERB', 'PART', 'compound']	['翻译', '家', 'compound']
+['PART', 'NOUN', 'conj']	['家', '学者', 'conj']
+['PUNCT', 'VERB', 'punct']	['，', '作', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['同时', '有', 'nmod:tmod']
+['ADP', 'NOUN', 'case']	['对', '文学', 'case']
+['PROPN', 'NOUN', 'nmod']	['美国', '文学', 'nmod']
+['NOUN', 'VERB', 'obl']	['文学', '有', 'obl']
+['ADV', 'VERB', 'mark']	['也', '有', 'mark']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['ADJ', 'NOUN', 'amod']	['深入', '了解', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '深入', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['了解', '有', 'obj']
+['PUNCT', 'NOUN', 'punct']	['，', '人选', 'punct']
+['PROPN', 'NOUN', 'nsubj']	['罗伯特', '人选', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['·', '阿尔特', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['阿尔特', '罗伯特', 'flat:name']
+['AUX', 'NOUN', 'cop']	['是', '人选', 'cop']
+['VERB', 'NOUN', 'acl:relcl']	['研究', '人选', 'acl:relcl']
+['DET', 'NOUN', 'det']	['这', '遗产', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '遗产', 'nummod']
+['ADJ', 'NOUN', 'amod']	['复杂', '遗产', 'amod']
+['NOUN', 'VERB', 'obj']	['遗产', '研究', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '研究', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['理想', '人选', 'amod']
+['NOUN', 'VERB', 'parataxis']	['人选', '有', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+最近，艾尔特翻译的《诗篇》被无可避免地与《圣经》《诗篇》的习惯语气进行了比较，可以说部分地是试图批判或取代这部标准文本。
+
+(ROOT (IP (IP (NP (NN 最近)) (, ，) (NP (CP (CP (IP (NP (NNP 艾尔特)) (VP (VV 翻译))) (DEC 的))) (NP (-LRB- 《) (NN 诗篇) (-RRB- 》))) (VP (BB 被) (VP (DVP (VP (VV 无) (VP (MD 可) (VP (VV 避免)))) (DEV 地)) (PP (IN 与) (NP (DNP (NP (NP (-LRB- 《) (NN 圣经) (-RRB- 》)) (NP (-LRB- 《) (NN 诗篇) (-RRB- 》))) (DEC 的)) (NP (NN 习惯) (NN 语气)))) (VP (VV 进行) (AS 了) (NP (NN 比较)))))) (, ，) (IP (VP (DVP (VP (MD 可以) (VP (VV 说) (QP (NN 部分)))) (DEV 地)) (VP (VC 是) (VP (VV 试图) (IP (VP (VP (VV 批判)) (CC 或) (VP (VV 取代) (NP (DP (DT 这) (CLP (NNB 部))) (NP (JJ 标准) (NN 文本)))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP18081': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP49070': {}, 'VP': {}}, ',': {}, 'IP43828': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nmod:tmod']	['最近', '进行', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '最近', 'punct']
+['PROPN', 'VERB', 'nsubj']	['艾尔特', '翻译', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['翻译', '诗篇', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '翻译', 'mark:rel']
+['PUNCT', 'NOUN', 'punct']	['《', '诗篇', 'punct']
+['NOUN', 'VERB', 'nsubj']	['诗篇', '进行', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['》', '诗篇', 'punct']
+['AUX', 'VERB', 'aux']	['被', '进行', 'aux']
+['VERB', 'VERB', 'advcl']	['无', '进行', 'advcl']
+['AUX', 'VERB', 'aux']	['可', '避免', 'aux']
+['VERB', 'VERB', 'xcomp']	['避免', '无', 'xcomp']
+['PART', 'VERB', 'mark:adv']	['地', '避免', 'mark:adv']
+['ADP', 'NOUN', 'case']	['与', '语气', 'case']
+['PUNCT', 'NOUN', 'punct']	['《', '圣经', 'punct']
+['NOUN', 'NOUN', 'nmod']	['圣经', '语气', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['》', '圣经', 'punct']
+['PUNCT', 'NOUN', 'punct']	['《', '诗篇', 'punct']
+['NOUN', 'NOUN', 'appos']	['诗篇', '圣经', 'appos']
+['PUNCT', 'NOUN', 'punct']	['》', '诗篇', 'punct']
+['PART', 'NOUN', 'case']	['的', '圣经', 'case']
+['NOUN', 'NOUN', 'nmod']	['习惯', '语气', 'nmod']
+['NOUN', 'VERB', 'obl']	['语气', '进行', 'obl']
+['VERB', 'ROOT', 'root']	['进行', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '进行', 'aux']
+['NOUN', 'VERB', 'obj']	['比较', '进行', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '说', 'punct']
+['AUX', 'VERB', 'aux']	['可以', '说', 'aux']
+['VERB', 'VERB', 'parataxis']	['说', '进行', 'parataxis']
+['NOUN', 'VERB', 'nsubj']	['部分', '是', 'nsubj']
+['PART', 'VERB', 'mark:adv']	['地', '是', 'mark:adv']
+['VERB', 'VERB', 'parataxis']	['是', '进行', 'parataxis']
+['VERB', 'VERB', 'xcomp']	['试图', '是', 'xcomp']
+['VERB', 'VERB', 'xcomp']	['批判', '试图', 'xcomp']
+['CCONJ', 'VERB', 'cc']	['或', '取代', 'cc']
+['VERB', 'VERB', 'conj']	['取代', '批判', 'conj']
+['DET', 'NOUN', 'det']	['这', '部', 'det']
+['NOUN', 'NOUN', 'clf']	['部', '文本', 'clf']
+['ADJ', 'NOUN', 'amod']	['标准', '文本', 'amod']
+['NOUN', 'VERB', 'obj']	['文本', '批判', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '进行', 'punct']
+----------------------------------------------------------------------
+但是，从文学角度来看，奥特认为，哥林道书版尽管“经常不准确”，但却是圣经的正典，不可替代。
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (IP (VP (PP (IN 从) (NP (NN 文学) (NN 角度))) (VP (RB 来) (VP (VV 看))))) (, ，) (NP (NNP 奥特)) (VP (VV 认为) (, ，) (IP (NP (NNP 哥林道) (NN 书版)) (VP (VP (IP (VP (ADVP (IN 尽管)) (VP (`` “) (ADVP (RB 经常)) (ADVP (RB 不)) (VP (JJ 准确)) ('' ”)))) (, ，) (ADVP (RB 但)) (VP (VC 却是) (NP (DNP (NP (NNP 圣经)) (DEC 的)) (NP (NN 正典))))) (, ，) (VP (MD 不可) (VP (VV 替代)))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',37986': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'VP': {}}, ',50071': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['但是', '为', 'mark']
+['PUNCT', 'ADV', 'punct']	['，', '但是', 'punct']
+['ADP', 'NOUN', 'case']	['从', '角度', 'case']
+['NOUN', 'NOUN', 'nmod']	['文学', '角度', 'nmod']
+['NOUN', 'VERB', 'obl']	['角度', '看', 'obl']
+['ADV', 'VERB', 'mark']	['来', '看', 'mark']
+['VERB', 'VERB', 'advcl']	['看', '为', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '看', 'punct']
+['PROPN', 'VERB', 'nsubj']	['奥特', '为', 'nsubj']
+['VERB', 'ROOT', 'root']	['为', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '替代', 'punct']
+['PROPN', 'NOUN', 'nmod']	['哥林道', '书版', 'nmod']
+['NOUN', 'ADJ', 'nsubj']	['书版', '准确', 'nsubj']
+['ADP', 'ADJ', 'case']	['尽管', '准确', 'case']
+['PUNCT', 'ADJ', 'punct']	['“', '准确', 'punct']
+['ADV', 'ADJ', 'advmod']	['经常', '准确', 'advmod']
+['ADV', 'ADJ', 'advmod']	['不', '准确', 'advmod']
+['ADJ', 'VERB', 'ccomp']	['准确', '替代', 'ccomp']
+['PUNCT', 'ADJ', 'punct']	['”', '准确', 'punct']
+['PUNCT', 'ADJ', 'punct']	['，', '准确', 'punct']
+['ADV', 'NOUN', 'mark']	['但', '正典', 'mark']
+['AUX', 'NOUN', 'cop']	['是', '正典', 'cop']
+['PROPN', 'NOUN', 'nmod']	['圣经', '正典', 'nmod']
+['PART', 'PROPN', 'case']	['的', '圣经', 'case']
+['NOUN', 'VERB', 'advcl']	['正典', '替代', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['，', '正典', 'punct']
+['AUX', 'VERB', 'aux']	['可', '替代', 'aux']
+['VERB', 'VERB', 'ccomp']	['替代', '为', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '为', 'punct']
+----------------------------------------------------------------------
+从某种意义上来说，英文圣经已经不再是一部翻译作品，而成了一部原著。
+
+(ROOT (IP (IP (VP (PP (IN 从) (LCP (NP (ADJP (DT 某种)) (NP (NN 意义))) (IN 上))) (VP (RB 来) (VP (VV 说))))) (, ，) (NP (NNP 英) (SFN 文) (NNP 圣经)) (VP (VP (ADVP (RB 已经)) (ADVP (RB 不再)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 部))) (NP (NN 翻译) (NN 作品))))) (, ，) (RB 而) (VP (VV 成) (AS 了) (NP (QP (CD 一) (CLP (NNB 部))) (NP (NN 原著))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NNP': {}, 'SFN': {}, 'NNP91100': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP56033': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NNP': {}, 'SFN': {}, 'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'NNP': {}, 'SFN': {}, 'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['从', '意义', 'case']
+['DET', 'NOUN', 'det']	['某种', '意义', 'det']
+['NOUN', 'VERB', 'obl']	['意义', '说', 'obl']
+['ADP', 'NOUN', 'case']	['上', '意义', 'case']
+['ADV', 'VERB', 'mark']	['来', '说', 'mark']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '成', 'punct']
+['PROPN', 'PART', 'compound']	['英', '文', 'compound']
+['PART', 'PROPN', 'nmod']	['文', '圣经', 'nmod']
+['PROPN', 'VERB', 'nsubj']	['圣经', '成', 'nsubj']
+['ADV', 'NOUN', 'advmod']	['已经', '作品', 'advmod']
+['ADV', 'NOUN', 'advmod']	['不再', '作品', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '作品', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '部', 'nummod']
+['NOUN', 'NOUN', 'clf']	['部', '作品', 'clf']
+['NOUN', 'NOUN', 'nmod']	['翻译', '作品', 'nmod']
+['NOUN', 'VERB', 'advcl']	['作品', '成', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['，', '作品', 'punct']
+['ADV', 'VERB', 'mark']	['而', '成', 'mark']
+['VERB', 'VERB', 'ccomp']	['成', '说', 'ccomp']
+['AUX', 'VERB', 'aux']	['了', '成', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '部', 'nummod']
+['NOUN', 'NOUN', 'clf']	['部', '原著', 'clf']
+['NOUN', 'VERB', 'obj']	['原著', '成', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '成', 'punct']
+----------------------------------------------------------------------
+如果你比 Alter 更偏向神秘主义，你可以把它视为瓦尔特·本雅明的翻译理论的一个例子，他认为每一个真正的翻译都会完成一篇文本在上帝心中所呈现的意思。
+
+(ROOT (IP (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 你)) (VP (PP (IN 比) (NP (FW Alter))) (ADVP (RB 更)) (VP (VV 偏向) (NP (ADJP (JJ 神秘)) (NP (NN 主义))))))) (, ，) (NP (PRP 你)) (VP (MD 可以) (VP (BB 把) (IP (NP (PRP 它)) (VP (VRD (VV 视) (VC 为)) (NP (DNP (NP (DNP (NP (NNP 瓦尔特) (/ ·) (NNP 本) (NNP 雅明)) (DEC 的)) (NP (NN 翻译) (NN 理论))) (DEC 的)) (QP (CD 一) (CLP (NNB 个))) (NP (NN 例子)))))))) (, ，) (IP (NP (PRP 他)) (VP (VV 认为) (IP (NP (DP (DT 每) (QP (CD 一) (CLP (NNB 个)))) (CP (CP (IP (VP (JJ 真正))) (DEC 的))) (NP (NN 翻译))) (VP (RB 都会) (VP (VV 完成) (NP (CP (CP (IP (NP (QP (CD 一) (CLP (NNB 篇))) (NP (NN 文本))) (VP (PP (IN 在) (LCP (NP (NNP 上帝)) (NN 心中))) (VP (RB 所) (VP (VV 呈现))))) (DEC 的))) (NP (NN 意思)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP90713': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP90576': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['如果', '偏向', 'case']
+['PRON', 'VERB', 'nsubj']	['你', '偏向', 'nsubj']
+['ADP', 'X', 'case']	['比', 'Alter', 'case']
+['X', 'VERB', 'obl']	['Alter', '偏向', 'obl']
+['ADV', 'VERB', 'advmod']	['更', '偏向', 'advmod']
+['VERB', 'VERB', 'ccomp']	['偏向', '视', 'ccomp']
+['ADJ', 'NOUN', 'amod']	['神秘', '主义', 'amod']
+['NOUN', 'VERB', 'obj']	['主义', '偏向', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '偏向', 'punct']
+['PRON', 'VERB', 'nsubj']	['你', '视', 'nsubj']
+['AUX', 'VERB', 'aux']	['可以', '视', 'aux']
+['ADP', 'PRON', 'case']	['把', '它', 'case']
+['PRON', 'VERB', 'obl:patient']	['它', '视', 'obl:patient']
+['VERB', 'ROOT', 'root']	['视', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['为', '视', 'mark']
+['PROPN', 'NOUN', 'nmod']	['瓦尔特', '理论', 'nmod']
+['PUNCT', 'PROPN', 'punct']	['·', '本', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['本', '瓦尔特', 'flat:name']
+['PROPN', 'NOUN', 'nmod']	['雅明', '理论', 'nmod']
+['PART', 'PROPN', 'case']	['的', '雅明', 'case']
+['NOUN', 'NOUN', 'nmod']	['翻译', '理论', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['理论', '例子', 'nmod']
+['PART', 'NOUN', 'case']	['的', '理论', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '例子', 'clf']
+['NOUN', 'VERB', 'obj']	['例子', '视', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '为', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '为', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['为', '视', 'parataxis']
+['DET', 'NOUN', 'det']	['每', '个', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['个', '翻译', 'nmod']
+['ADJ', 'NOUN', 'amod']	['真正', '翻译', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '真正', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['翻译', '完成', 'nsubj']
+['ADV', 'VERB', 'advmod']	['都会', '完成', 'advmod']
+['VERB', 'VERB', 'ccomp']	['完成', '为', 'ccomp']
+['NUM', 'NOUN', 'nummod']	['一', '篇', 'nummod']
+['NOUN', 'NOUN', 'clf']	['篇', '文本', 'clf']
+['NOUN', 'VERB', 'nsubj']	['文本', '呈现', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '心中', 'case']
+['PROPN', 'NOUN', 'nmod']	['上帝', '心中', 'nmod']
+['NOUN', 'VERB', 'obl']	['心中', '呈现', 'obl']
+['ADV', 'VERB', 'mark']	['所', '呈现', 'mark']
+['VERB', 'NOUN', 'acl:relcl']	['呈现', '意思', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '呈现', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['意思', '完成', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '视', 'punct']
+----------------------------------------------------------------------
+《金丝雀版》的用语在我们的文学作品中具有如此普遍的影响，我们往往会视之为常见。“葛底斯堡演说”提供了一个小但说明问题的例子。
+
+(ROOT (IP (IP (NP (DNP (NP (-LRB- 《) (NN 金丝) (SFN 雀) (SFN 版) (-RRB- 》)) (DEC 的)) (NP (VV 用) (SFN 语))) (VP (PP (IN 在) (LCP (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NN 文学) (NN 作品))) (IN 中))) (VP (VV 具有) (NP (CP (CP (IP (VP (ADVP (VV 如此)) (VP (JJ 普遍)))) (DEC 的))) (NP (NN 影响)))))) (, ，) (IP (NP (PRP 我们)) (VP (ADVP (RB 往往)) (VP (MD 会) (VP (VV 视) (NP (PRD 之)) (IP (VP (VC 为) (NP (JJ 常见)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP31016': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP94583': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PUNCT', 'PART', 'punct']	['《', '版', 'punct']
+['NOUN', 'PART', 'compound']	['金丝', '雀', 'compound']
+['PART', 'PART', 'compound']	['雀', '版', 'compound']
+['PART', 'PART', 'nmod']	['版', '语', 'nmod']
+['PUNCT', 'PART', 'punct']	['》', '版', 'punct']
+['PART', 'PART', 'case']	['的', '版', 'case']
+['VERB', 'PART', 'compound']	['用', '语', 'compound']
+['PART', 'VERB', 'nsubj']	['语', '具有', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '作品', 'case']
+['PRON', 'NOUN', 'det']	['我', '作品', 'det']
+['PART', 'PRON', 'case']	['的', '我', 'case']
+['NOUN', 'NOUN', 'nmod']	['文学', '作品', 'nmod']
+['NOUN', 'VERB', 'obl']	['作品', '具有', 'obl']
+['ADP', 'NOUN', 'case']	['中', '作品', 'case']
+['VERB', 'ROOT', 'root']	['具有', 'NONE', 'root']
+['VERB', 'ADJ', 'advcl']	['如此', '普遍', 'advcl']
+['ADJ', 'NOUN', 'amod']	['普遍', '影响', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '普遍', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['影响', '具有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '视', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '视', 'nsubj']
+['ADV', 'VERB', 'advmod']	['往往', '视', 'advmod']
+['AUX', 'VERB', 'aux']	['会', '视', 'aux']
+['VERB', 'VERB', 'parataxis']	['视', '具有', 'parataxis']
+['PRON', 'ADJ', 'nsubj']	['之', '常见', 'nsubj']
+['AUX', 'ADJ', 'cop']	['为', '常见', 'cop']
+['ADJ', 'VERB', 'ccomp']	['常见', '视', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '具有', 'punct']
+----------------------------------------------------------------------
+为什么林肯先说“四分之四个世纪以前”，而不是说“八十七年前”？阿尔特问道。
+
+(ROOT (IP (PP (IN 为) (NP (WP 什么))) (NP (NNP 林) (NNP 肯)) (VP (VP (ADVP (RB 先)) (VP (VV 说) (IP (`` “) (NP (CP (CP (IP (VP (QP (CD 四)) (VP (NNB 分)))) (DEC 之))) (QP (CD 四) (CLP (NNB 个))) (NP (NN 世纪))) (VP (NP (IN 以前))) ('' ”)))) (, ，) (RB 而) (VP (VC 不是) (VP (VV 说) (NP (`` “) (QP (CD 八十七) (CLP (NNB 年))) (IN 前) ('' ”))))) (. ？)))
+layer 2:
+{'IP': {'PP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, 'NP': {'NNP': {}, 'NNP80763': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP55588': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, 'NP': {'NNP': {}, 'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'NNP': {}, 'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'PRON', 'case']	['为', '什么', 'case']
+['PRON', 'VERB', 'obl']	['什么', '说', 'obl']
+['PROPN', 'VERB', 'nsubj']	['林', '说', 'nsubj']
+['PROPN', 'PROPN', 'flat:name']	['肯', '林', 'flat:name']
+['ADV', 'VERB', 'advmod']	['先', '说', 'advmod']
+['VERB', 'VERB', 'advcl']	['说', '是', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['“', '世纪', 'punct']
+['NUM', 'NOUN', 'nummod']	['四', '分', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['分', '世纪', 'nmod']
+['PART', 'NOUN', 'case']	['之', '分', 'case']
+['NUM', 'NOUN', 'nummod']	['四', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '世纪', 'clf']
+['NOUN', 'VERB', 'obj']	['世纪', '说', 'obj']
+['ADP', 'NOUN', 'case']	['以前', '世纪', 'case']
+['PUNCT', 'NOUN', 'punct']	['”', '世纪', 'punct']
+['PUNCT', 'VERB', 'punct']	['，', '说', 'punct']
+['ADV', 'VERB', 'mark']	['而', '是', 'mark']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['说', '是', 'xcomp']
+['PUNCT', 'NOUN', 'punct']	['“', '年', 'punct']
+['NUM', 'NOUN', 'nummod']	['八十七', '年', 'nummod']
+['NOUN', 'VERB', 'obj']	['年', '说', 'obj']
+['ADP', 'NOUN', 'case']	['前', '年', 'case']
+['PUNCT', 'NOUN', 'punct']	['”', '年', 'punct']
+['PUNCT', 'VERB', 'punct']	['？', '是', 'punct']
+----------------------------------------------------------------------
+答案是，他可能无意中借用了《圣经·金丝雀版》中出现 111 次的“三十又七”一句话。
+
+(ROOT (IP (NP (NN 答案)) (VP (VC 是) (, ，) (IP (NP (PRP 他)) (VP (MD 可能) (VP (LCP (ADVP (VV 无意)) (IN 中)) (VP (VV 借用) (AS 了) (NP (CP (CP (IP (VP (LCP (NP (-LRB- 《) (NP (NNP 圣经) (/ ·) (NN 金丝) (SFN 雀)) (NP (SFN 版)) (-RRB- 》)) (IN 中)) (VP (VV 出现) (QP (CD 111) (CLP (NNB 次)))))) (DEC 的))) (NP (`` “) (CD 三十) (NNB 又) (CD 七) ('' ”)) (QP (CD 一) (CLP (NNB 句))) (NP (NN 话)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nsubj']	['答案', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '借用', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '借用', 'nsubj']
+['AUX', 'VERB', 'aux']	['可能', '借用', 'aux']
+['VERB', 'VERB', 'advcl']	['无意', '借用', 'advcl']
+['ADP', 'VERB', 'mark']	['中', '无意', 'mark']
+['VERB', 'VERB', 'ccomp']	['借用', '是', 'ccomp']
+['AUX', 'VERB', 'aux']	['了', '借用', 'aux']
+['PUNCT', 'PART', 'punct']	['《', '版', 'punct']
+['PROPN', 'PART', 'nmod']	['圣经', '版', 'nmod']
+['PUNCT', 'PROPN', 'punct']	['·', '圣经', 'punct']
+['NOUN', 'PART', 'compound']	['金丝', '雀', 'compound']
+['PART', 'PART', 'compound']	['雀', '版', 'compound']
+['PART', 'VERB', 'nsubj']	['版', '出现', 'nsubj']
+['PUNCT', 'PART', 'punct']	['》', '版', 'punct']
+['ADP', 'PART', 'case']	['中', '版', 'case']
+['VERB', 'VERB', 'ccomp']	['出现', '借用', 'ccomp']
+['NUM', 'NOUN', 'nummod']	['111', '次', 'nummod']
+['NOUN', 'NUM', 'clf']	['次', '七', 'clf']
+['PART', 'NOUN', 'mark:rel']	['的', '次', 'mark:rel']
+['PUNCT', 'NUM', 'punct']	['“', '七', 'punct']
+['NUM', 'NOUN', 'nummod']	['三十', '又', 'nummod']
+['NOUN', 'NUM', 'clf']	['又', '七', 'clf']
+['NUM', 'VERB', 'obj']	['七', '出现', 'obj']
+['PUNCT', 'NUM', 'punct']	['”', '七', 'punct']
+['NUM', 'NOUN', 'nummod']	['一', '句', 'nummod']
+['NOUN', 'NOUN', 'clf']	['句', '话', 'clf']
+['NOUN', 'NUM', 'appos']	['话', '七', 'appos']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+林肯以这种正式、古板的方式衡量时间，将美国历史提升到了与神圣历史同等的地位。
+
+(ROOT (IP (NP (NNP 林肯)) (VP (VP (PP (IN 以) (NP (DP (DT 这) (CLP (NNB 种))) (CP (CP (IP (ADJP (JJ 正式) (EC 、) (JJ 古板))) (DEC 的))) (NP (NN 方式)))) (VP (VV 衡量) (NP (NN 时间)))) (, ，) (VP (BB 将) (IP (NP (NP (NNP 美国)) (NP (NN 历史))) (VP (VRD (VV 提升) (VV 到)) (AS 了) (NP (CP (CP (IP (VP (PP (IN 与) (NP (ADJP (JJ 神圣)) (NP (NN 历史)))) (VP (JJ 同等)))) (DEC 的))) (NP (NN 地位))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP84400': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['林肯', '提升', 'nsubj']
+['ADP', 'NOUN', 'case']	['以', '方式', 'case']
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '方式', 'clf']
+['ADJ', 'NOUN', 'amod']	['正式', '方式', 'amod']
+['PUNCT', 'ADJ', 'punct']	['、', '古板', 'punct']
+['ADJ', 'ADJ', 'conj']	['古板', '正式', 'conj']
+['PART', 'ADJ', 'mark:rel']	['的', '正式', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['方式', '衡量', 'obl']
+['VERB', 'VERB', 'advcl']	['衡量', '提升', 'advcl']
+['NOUN', 'VERB', 'obj']	['时间', '衡量', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '衡量', 'punct']
+['ADP', 'NOUN', 'case']	['将', '历史', 'case']
+['PROPN', 'NOUN', 'nmod']	['美国', '历史', 'nmod']
+['NOUN', 'VERB', 'obl:patient']	['历史', '提升', 'obl:patient']
+['VERB', 'ROOT', 'root']	['提升', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['到', '提升', 'mark']
+['AUX', 'VERB', 'aux']	['了', '提升', 'aux']
+['ADP', 'NOUN', 'case']	['与', '历史', 'case']
+['ADJ', 'NOUN', 'amod']	['神圣', '历史', 'amod']
+['NOUN', 'ADJ', 'nmod']	['历史', '同等', 'nmod']
+['ADJ', 'NOUN', 'amod']	['同等', '地位', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '同等', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['地位', '提升', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '提升', 'punct']
+----------------------------------------------------------------------
+在讲话结束时，林肯再次援引圣经：当他承诺美国的民主“不会从地球上消失”时，他正在重复依撒俄、耶利米的一句话。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (IP (NP (NN 讲话)) (VP (VV 结束))) (IN 时))) (, ，) (NP (NNP 林肯)) (VP (ADVP (RB 再次)) (VP (VV 援引) (NP (NNP 圣经))))) (: ：) (IP (PP (IN 当) (LCP (IP (NP (PRP 他)) (VP (VV 承诺) (IP (NP (DNP (NP (NNP 美国)) (DEC 的)) (NP (NN 民主))) (VP (`` “) (MD 不会) (VP (PP (IN 从) (LCP (NP (NN 地球)) (IN 上))) (VP (VV 消失))) ('' ”))))) (IN 时))) (, ，) (NP (PRP 他)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 重复) (NP (DNP (NP (VV 依撒) (NNP 俄) (EC 、) (NNP 耶利) (NNP 米)) (DEC 的)) (QP (CD 一) (CLP (NNB 句))) (NP (NN 话)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP68862': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP77609': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['在', '结束', 'case']
+['NOUN', 'VERB', 'nsubj']	['讲话', '结束', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['结束', '援引', 'ccomp']
+['ADP', 'VERB', 'mark']	['时', '结束', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '结束', 'punct']
+['PROPN', 'VERB', 'nsubj']	['林肯', '援引', 'nsubj']
+['ADV', 'VERB', 'advmod']	['再次', '援引', 'advmod']
+['VERB', 'ROOT', 'root']	['援引', 'NONE', 'root']
+['PROPN', 'VERB', 'obj']	['圣经', '援引', 'obj']
+['PUNCT', 'VERB', 'punct']	['：', '重复', 'punct']
+['ADP', 'VERB', 'case']	['当', '承诺', 'case']
+['PRON', 'VERB', 'nsubj']	['他', '承诺', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['承诺', '重复', 'ccomp']
+['PROPN', 'NOUN', 'nmod']	['美国', '民主', 'nmod']
+['PART', 'PROPN', 'case']	['的', '美国', 'case']
+['NOUN', 'VERB', 'nsubj']	['民主', '消失', 'nsubj']
+['PUNCT', 'VERB', 'punct']	['“', '消失', 'punct']
+['AUX', 'VERB', 'aux']	['会', '消失', 'aux']
+['ADP', 'NOUN', 'case']	['从', '地球', 'case']
+['NOUN', 'VERB', 'obl']	['地球', '消失', 'obl']
+['ADP', 'NOUN', 'case']	['上', '地球', 'case']
+['VERB', 'VERB', 'ccomp']	['消失', '承诺', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['”', '消失', 'punct']
+['ADP', 'VERB', 'mark']	['时', '承诺', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '承诺', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '重复', 'nsubj']
+['ADV', 'VERB', 'advmod']	['正', '重复', 'advmod']
+['ADV', 'VERB', 'advmod']	['在', '重复', 'advmod']
+['VERB', 'VERB', 'parataxis']	['重复', '援引', 'parataxis']
+['VERB', 'NOUN', 'acl:relcl']	['依撒', '话', 'acl:relcl']
+['PROPN', 'VERB', 'obj']	['俄', '依撒', 'obj']
+['PUNCT', 'PROPN', 'punct']	['、', '耶利', 'punct']
+['PROPN', 'PROPN', 'conj']	['耶利', '俄', 'conj']
+['PROPN', 'PROPN', 'conj']	['米', '俄', 'conj']
+['PART', 'VERB', 'mark:rel']	['的', '依撒', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['一', '句', 'nummod']
+['NOUN', 'NOUN', 'clf']	['句', '话', 'clf']
+['NOUN', 'VERB', 'obj']	['话', '重复', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '援引', 'punct']
+----------------------------------------------------------------------
+《钢笔》这本书的主题当然是一个圣经隐喻（“犹大的罪孽用钢笔写在纸上，用钻石锋刺”（耶利米书 17:1）），其核心是 Alter 对圣经对三部美国伟大小说（《麦哲伦》、《阿巴桑》和《把握一天》）的影响的分析。
+
+(ROOT (IP (IP (NP (DNP (NP (NP (-LRB- 《) (NN 钢笔) (-RRB- 》)) (DP (DT 这)) (NP (NN 本书))) (DEC 的)) (NP (NN 主题))) (VP (ADVP (RB 当然)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NNP 圣经) (VV 隐喻)) (PRN (-LRB- （) (IP (`` “) (NP (DNP (NP (NNP 犹大)) (DEC 的)) (NP (NN 罪孽))) (VP (VP (PP (VV 用) (NP (NN 钢) (SFN 笔))) (VP (VV 写) (PP (VV 在) (NP (NN 纸上))))) (, ，) (PP (VV 用) (NP (NN 钻石) (NN 锋刺)))) ('' ”) (PRN (-LRB- （) (IP (NP (NNP 耶利米) (SFN 书)) (VP (QP (CD 17:1)))) (-RRB- ）))) (-RRB- ）)))))) (, ，) (IP (NP (NP (PRP 其)) (NP (NN 核心))) (VP (VC 是) (NP (DNP (NP (NP (FW Alter) (VV 对圣经)) (DNP (PP (IN 对) (NP (QP (CD 三) (CLP (NNB 部))) (NP (NNP 美国)) (ADJP (JJ 伟大)) (NP (NN 小说)) (PRN (-LRB- （) (NP (NP (-LRB- 《) (NNP 麦哲伦) (-RRB- 》)) (EC 、) (NP (-LRB- 《) (NNP 阿巴桑) (-RRB- 》)) (CC 和) (IP (-LRB- 《) (VP (VV 把) (VP (VV 握) (QP (CD 一) (CLP (NNB 天))))) (-RRB- 》))) (-RRB- ）)))) (DEC 的)) (NP (NN 影响))) (DEC 的)) (NP (NN 分析))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP57875': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP79114': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PUNCT', 'NOUN', 'punct']	['《', '钢笔', 'punct']
+['NOUN', 'NOUN', 'nmod']	['钢笔', '主题', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['》', '钢笔', 'punct']
+['DET', 'NOUN', 'det']	['这', '本书', 'det']
+['NOUN', 'NOUN', 'appos']	['本书', '钢笔', 'appos']
+['PART', 'NOUN', 'case']	['的', '钢笔', 'case']
+['NOUN', 'VERB', 'nsubj']	['主题', '隐喻', 'nsubj']
+['ADV', 'VERB', 'advmod']	['当然', '隐喻', 'advmod']
+['AUX', 'VERB', 'cop']	['是', '隐喻', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'PROPN', 'clf']	['个', '圣经', 'clf']
+['PROPN', 'VERB', 'nsubj']	['圣经', '隐喻', 'nsubj']
+['VERB', 'ROOT', 'root']	['隐喻', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['（', '写', 'punct']
+['PUNCT', 'VERB', 'punct']	['“', '写', 'punct']
+['PROPN', 'NOUN', 'amod']	['犹大', '罪孽', 'amod']
+['PART', 'PROPN', 'mark:rel']	['的', '犹大', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['罪孽', '用', 'nsubj']
+['VERB', 'PART', 'amod']	['用', '笔', 'amod']
+['NOUN', 'VERB', 'obj']	['钢', '用', 'obj']
+['PART', 'VERB', 'nsubj']	['笔', '写', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['写', '隐喻', 'parataxis']
+['VERB', 'VERB', 'mark']	['在', '写', 'mark']
+['NOUN', 'VERB', 'obj']	['纸上', '写', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '用', 'punct']
+['VERB', 'NOUN', 'parataxis']	['用', '纸上', 'parataxis']
+['NOUN', 'NOUN', 'nmod']	['钻石', '锋刺', 'nmod']
+['NOUN', 'VERB', 'obj']	['锋刺', '用', 'obj']
+['PUNCT', 'NOUN', 'punct']	['”', '锋刺', 'punct']
+['PUNCT', 'PART', 'punct']	['（', '书', 'punct']
+['PROPN', 'PART', 'compound']	['耶利米', '书', 'compound']
+['PART', 'NOUN', 'appos']	['书', '锋刺', 'appos']
+['NUM', 'PART', 'appos']	['17:1', '书', 'appos']
+['PUNCT', 'PART', 'punct']	['）', '书', 'punct']
+['PUNCT', 'X', 'punct']	['）', 'Alter', 'punct']
+['PUNCT', 'X', 'punct']	['，', 'Alter', 'punct']
+['PRON', 'NOUN', 'nmod']	['其', '核心', 'nmod']
+['NOUN', 'X', 'nsubj']	['核心', 'Alter', 'nsubj']
+['AUX', 'X', 'cop']	['是', 'Alter', 'cop']
+['X', 'VERB', 'parataxis']	['Alter', '隐喻', 'parataxis']
+['VERB', 'X', 'mark']	['对圣经', 'Alter', 'mark']
+['ADP', 'NOUN', 'case']	['对', '小说', 'case']
+['NUM', 'NOUN', 'nummod']	['三', '部', 'nummod']
+['NOUN', 'NOUN', 'clf']	['部', '小说', 'clf']
+['PROPN', 'NOUN', 'nmod']	['美国', '小说', 'nmod']
+['ADJ', 'NOUN', 'amod']	['伟大', '小说', 'amod']
+['NOUN', 'VERB', 'obl']	['小说', '对圣经', 'obl']
+['PUNCT', 'PROPN', 'punct']	['（', '麦哲伦', 'punct']
+['PUNCT', 'PROPN', 'punct']	['《', '麦哲伦', 'punct']
+['PROPN', 'NOUN', 'appos']	['麦哲伦', '小说', 'appos']
+['PUNCT', 'PROPN', 'punct']	['》', '麦哲伦', 'punct']
+['PUNCT', 'PROPN', 'punct']	['、', '阿巴桑', 'punct']
+['PUNCT', 'PROPN', 'punct']	['《', '阿巴桑', 'punct']
+['PROPN', 'PROPN', 'conj']	['阿巴桑', '麦哲伦', 'conj']
+['PUNCT', 'PROPN', 'punct']	['》', '阿巴桑', 'punct']
+['CCONJ', 'VERB', 'cc']	['和', '握', 'cc']
+['PUNCT', 'VERB', 'punct']	['《', '握', 'punct']
+['DET', 'VERB', 'nsubj']	['把', '握', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['握', '影响', 'acl:relcl']
+['NUM', 'NOUN', 'nummod']	['一', '天', 'nummod']
+['NOUN', 'VERB', 'obj']	['天', '握', 'obj']
+['PUNCT', 'NOUN', 'punct']	['》', '天', 'punct']
+['PUNCT', 'PART', 'punct']	['）', '的', 'punct']
+['PART', 'PROPN', 'case']	['的', '麦哲伦', 'case']
+['NOUN', 'NOUN', 'conj']	['影响', '小说', 'conj']
+['PART', 'PROPN', 'case']	['的', '麦哲伦', 'case']
+['NOUN', 'NOUN', 'conj']	['分析', '小说', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '隐喻', 'punct']
+----------------------------------------------------------------------
+在讨论这些书籍时，艾尔特表明，这种影响不能仅仅通过引用或语言回响来严格衡量。
+
+(ROOT (IP (PP (IN 在) (LCP (IP (VP (VV 讨论) (NP (DP (DT 这些)) (NP (NN 书籍))))) (IN 时))) (, ，) (NP (NNP 艾尔特)) (VP (VV 表明) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 影响))) (VP (MD 不能) (VP (ADVP (RB 仅仅)) (PP (IN 通过) (NP (NN 引用) (CC 或) (NN 语言) (NN 回响))) (VP (RB 来) (VP (ADVP (RB 严格)) (VP (VV 衡量)))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['在', '讨论', 'case']
+['VERB', 'VERB', 'xcomp']	['讨论', '表明', 'xcomp']
+['DET', 'NOUN', 'det']	['这些', '书籍', 'det']
+['NOUN', 'VERB', 'obj']	['书籍', '讨论', 'obj']
+['ADP', 'VERB', 'mark']	['时', '讨论', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '讨论', 'punct']
+['PROPN', 'VERB', 'nsubj']	['艾尔特', '表明', 'nsubj']
+['VERB', 'ROOT', 'root']	['表明', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '衡量', 'punct']
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '影响', 'clf']
+['NOUN', 'VERB', 'nsubj']	['影响', '衡量', 'nsubj']
+['AUX', 'VERB', 'aux']	['能', '衡量', 'aux']
+['ADV', 'VERB', 'advmod']	['仅仅', '衡量', 'advmod']
+['ADP', 'NOUN', 'case']	['通过', '引用', 'case']
+['NOUN', 'VERB', 'obl']	['引用', '衡量', 'obl']
+['CCONJ', 'NOUN', 'cc']	['或', '回响', 'cc']
+['NOUN', 'NOUN', 'nmod']	['语言', '回响', 'nmod']
+['NOUN', 'NOUN', 'conj']	['回响', '引用', 'conj']
+['ADV', 'VERB', 'mark']	['来', '衡量', 'mark']
+['ADV', 'VERB', 'advmod']	['严格', '衡量', 'advmod']
+['VERB', 'VERB', 'ccomp']	['衡量', '表明', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '表明', 'punct']
+----------------------------------------------------------------------
+梅尔维尔、福克纳和贝洛 (Bellow) 不仅仅使用圣经语言，他们还以圣经的思维方式思考 — — 尤其是在他们质疑圣经教导的信仰和道德时。
+
+(ROOT (IP (IP (NP (NNP 梅尔维尔) (EC 、) (NNP 福克纳) (CC 和) (NNP 贝洛) (FW -LRB-Bellow-RRB-)) (VP (IN 不仅) (VP (ADVP (RB 仅)) (VP (VV 使用) (NP (NNP 圣经) (NN 语言)))))) (, ，) (IP (NP (PRP 他们)) (VP (VP (ADVP (RB 还)) (PP (IN 以) (NP (DNP (NP (NNP 圣经)) (DEC 的)) (NP (NN 思维) (NN 方式)))) (VP (VV 思考))) (HYPH — —) (VP (ADVP (RB 尤其)) (VP (VC 是) (PP (IN 在) (LCP (IP (NP (PRP 他们)) (VP (VV 质疑) (NP (DNP (NP (NNP 圣经) (NN 教导)) (DEC 的)) (NP (NN 信仰) (CC 和) (NN 道德))))) (IN 时))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP51920': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP54806': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['梅尔维尔', '使用', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['、', '福克纳', 'punct']
+['PROPN', 'PROPN', 'conj']	['福克纳', '梅尔维尔', 'conj']
+['CCONJ', 'PROPN', 'cc']	['和', '贝洛', 'cc']
+['PROPN', 'PROPN', 'conj']	['贝洛', '梅尔维尔', 'conj']
+['X', 'PROPN', 'flat:name']	['(Bellow)', '贝洛', 'flat:name']
+['ADP', 'VERB', 'case']	['不仅', '使用', 'case']
+['ADV', 'VERB', 'advmod']	['仅', '使用', 'advmod']
+['VERB', 'VERB', 'xcomp']	['使用', '思考', 'xcomp']
+['PROPN', 'NOUN', 'nmod']	['圣经', '语言', 'nmod']
+['NOUN', 'VERB', 'obj']	['语言', '使用', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '使用', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '思考', 'nsubj']
+['ADV', 'VERB', 'mark']	['还', '思考', 'mark']
+['ADP', 'NOUN', 'case']	['以', '方式', 'case']
+['PROPN', 'NOUN', 'nmod']	['圣经', '方式', 'nmod']
+['PART', 'PROPN', 'mark:rel']	['的', '圣经', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['思维', '方式', 'nmod']
+['NOUN', 'VERB', 'obl']	['方式', '思考', 'obl']
+['VERB', 'ROOT', 'root']	['思考', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['— —', '是', 'punct']
+['ADV', 'VERB', 'advmod']	['尤其', '是', 'advmod']
+['VERB', 'VERB', 'parataxis']	['是', '思考', 'parataxis']
+['ADP', 'VERB', 'xcomp']	['在', '是', 'xcomp']
+['PRON', 'VERB', 'nsubj']	['他', '质疑', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['质疑', '信仰', 'acl:relcl']
+['PROPN', 'NOUN', 'nmod']	['圣经', '教导', 'nmod']
+['NOUN', 'VERB', 'obj']	['教导', '质疑', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '质疑', 'mark:rel']
+['NOUN', 'ADP', 'nmod']	['信仰', '在', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['和', '道德', 'cc']
+['NOUN', 'NOUN', 'conj']	['道德', '信仰', 'conj']
+['ADP', 'NOUN', 'case']	['时', '信仰', 'case']
+['PUNCT', 'VERB', 'punct']	['。', '思考', 'punct']
+----------------------------------------------------------------------
+《鲸鱼的泪》就是一个很好的例子。
+
+(ROOT (IP (NP (-LRB- 《) (DNP (NP (NN 鲸鱼)) (DEC 的)) (NP (NN 泪)) (-RRB- 》)) (VP (VC 就是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 很好))) (DEC 的))) (NP (NN 例子)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'-LRB-': {}, 'DNP': {}, 'NP': {}, '-RRB-': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'-LRB-': {}, 'DNP': {}, 'NP': {}, '-RRB-': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'-LRB-': {}, 'DNP': {}, 'NP': {}, '-RRB-': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+['PUNCT', 'NOUN', 'punct']	['《', '泪', 'punct']
+['NOUN', 'NOUN', 'nmod']	['鲸鱼', '泪', 'nmod']
+['PART', 'NOUN', 'case']	['的', '鲸鱼', 'case']
+['NOUN', 'NOUN', 'nsubj']	['泪', '例子', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['》', '泪', 'punct']
+['AUX', 'NOUN', 'cop']	['是', '例子', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '例子', 'clf']
+['ADJ', 'NOUN', 'amod']	['很好', '例子', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '很好', 'mark:rel']
+['NOUN', 'ROOT', 'root']	['例子', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['。', '例子', 'punct']
+----------------------------------------------------------------------
+《莫勒的小说是一部语言盛宴，其丰富的言辞风格借鉴了莎士比亚、米尔顿和其他十七世纪作家的作品。
+
+(ROOT (IP (-LRB- 《) (IP (NP (DNP (NP (NNP 莫勒)) (DEC 的)) (NP (NN 小说))) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 部))) (NP (NN 语言) (NN 盛宴))))) (, ，) (IP (NP (NP (PRP 其)) (CP (CP (IP (VP (JJ 丰富))) (DEC 的))) (NP (NN 言辞) (NN 风格))) (VP (VV 借鉴) (AS 了) (NP (DNP (NP (NP (NNP 莎士比亚)) (EC 、) (NP (NNP 米尔顿)) (CC 和) (NP (DP (DT 其他)) (NP (QP (CD 十七)) (NP (NNB 世纪))) (NP (NN 作家)))) (DEC 的)) (NP (NN 作品))))) (. 。)))
+layer 2:
+{'IP': {'-LRB-': {}, 'IP': {}, ',': {}, 'IP86658': {}, '.': {}}}
+{'IP': {'-LRB-': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'-LRB-': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP5586': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'-LRB-': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PUNCT', 'PROPN', 'punct']	['《', '莫勒', 'punct']
+['PROPN', 'NOUN', 'nmod']	['莫勒', '小说', 'nmod']
+['PART', 'PROPN', 'case']	['的', '莫勒', 'case']
+['NOUN', 'NOUN', 'nsubj']	['小说', '盛宴', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '盛宴', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '部', 'nummod']
+['NOUN', 'NOUN', 'clf']	['部', '盛宴', 'clf']
+['NOUN', 'NOUN', 'nmod']	['语言', '盛宴', 'nmod']
+['NOUN', 'ROOT', 'root']	['盛宴', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '借鉴', 'punct']
+['PRON', 'NOUN', 'nmod']	['其', '风格', 'nmod']
+['ADJ', 'NOUN', 'amod']	['丰富', '风格', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '丰富', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['言辞', '风格', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['风格', '借鉴', 'nsubj']
+['VERB', 'NOUN', 'parataxis']	['借鉴', '盛宴', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '借鉴', 'aux']
+['PROPN', 'NOUN', 'nmod']	['莎士比亚', '作品', 'nmod']
+['PUNCT', 'PROPN', 'punct']	['、', '米尔顿', 'punct']
+['PROPN', 'PROPN', 'conj']	['米尔顿', '莎士比亚', 'conj']
+['CCONJ', 'NOUN', 'cc']	['和', '作家', 'cc']
+['DET', 'NOUN', 'det']	['其他', '作家', 'det']
+['NUM', 'NOUN', 'nummod']	['十七', '世纪', 'nummod']
+['NOUN', 'NOUN', 'clf']	['世纪', '作家', 'clf']
+['NOUN', 'PROPN', 'conj']	['作家', '莎士比亚', 'conj']
+['PART', 'PROPN', 'case']	['的', '莎士比亚', 'case']
+['NOUN', 'VERB', 'obj']	['作品', '借鉴', 'obj']
+['PUNCT', 'NOUN', 'punct']	['。', '盛宴', 'punct']
+----------------------------------------------------------------------
+但是，这部小说的元素力量和超自然范围，都源于它对圣经的复杂反应。
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (NP (NP (DNP (NP (DP (DT 这) (CLP (NNB 部))) (NP (NN 小说))) (DEC 的)) (NP (NN 元素) (NN 力量))) (CC 和) (NP (NP (ADJP (PFA 超)) (NP (NN 自然))) (NP (NN 范围)))) (, ，) (VP (ADVP (RB 都)) (VP (VV 源) (PP (VV 于) (NP (NP (PRP 它)) (DNP (PP (IN 对) (NP (NN 圣经))) (DEC 的)) (ADJP (JJ 复杂)) (NP (NN 反应)))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, ',62018': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NP': {}, 'CC': {}, 'NP66780': {}}, ',89176': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NP': {}, 'CC': {}, 'NP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NP': {}, 'CC': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['但是', '源', 'mark']
+['PUNCT', 'ADV', 'punct']	['，', '但是', 'punct']
+['DET', 'NOUN', 'det']	['这', '部', 'det']
+['NOUN', 'NOUN', 'clf']	['部', '小说', 'clf']
+['NOUN', 'NOUN', 'nmod']	['小说', '力量', 'nmod']
+['PART', 'NOUN', 'case']	['的', '小说', 'case']
+['NOUN', 'NOUN', 'nmod']	['元素', '力量', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['力量', '源', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '范围', 'cc']
+['PART', 'NOUN', 'case']	['超', '自然', 'case']
+['NOUN', 'NOUN', 'nmod']	['自然', '范围', 'nmod']
+['NOUN', 'NOUN', 'conj']	['范围', '力量', 'conj']
+['PUNCT', 'NOUN', 'punct']	['，', '力量', 'punct']
+['ADV', 'VERB', 'mark']	['都', '源', 'mark']
+['VERB', 'ROOT', 'root']	['源', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['于', '源', 'mark']
+['PRON', 'NOUN', 'nmod']	['它', '反应', 'nmod']
+['ADP', 'NOUN', 'case']	['对', '反应', 'case']
+['NOUN', 'NOUN', 'nmod']	['圣经', '反应', 'nmod']
+['PART', 'NOUN', 'case']	['的', '反应', 'case']
+['ADJ', 'NOUN', 'amod']	['复杂', '反应', 'amod']
+['NOUN', 'VERB', 'obj']	['反应', '源', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '源', 'punct']
+----------------------------------------------------------------------
+例如，在《白鲸号》出海时，梅尔维尔写道：“时常会发生，当这艘老船在绿色海洋中潜入深处，带来霜飞溅，风呼啸，绳索响起声音……”
+
+(ROOT (IP (ADVP (VV 例如)) (, ，) (PP (IN 在) (LCP (IP (NP (-LRB- 《) (NN 白鲸) (SFN 号) (-RRB- 》)) (VP (VV 出海))) (IN 时))) (, ，) (NP (NNP 梅尔维尔)) (VP (VV 写道) (: ：) (IP (`` “) (IP (VP (ADVP (RB 时常)) (VP (MD 会) (VP (VV 发生))))) (, ，) (PP (IN 当) (IP (IP (NP (DP (DT 这) (CLP (NNB 艘))) (NP (NN 老船))) (VP (VP (PP (VV 在) (LCP (NP (ADJP (NN 绿色)) (NP (NN 海洋))) (IN 中))) (VP (VV 潜入) (NP (NN 深处)))) (, ，) (VP (VV 带来) (NP (NN 霜飞) (SFN 溅))))) (, ，) (IP (NP (NN 风)) (VP (VV 呼) (NP (NN 啸)))) (, ，) (IP (NP (VV 绳)) (VP (VRD (VV 索响) (VV 起)) (NP (NN 声音)))))) (. ……) ('' ”)))))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',59931': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'ADVP': {'VV': {}}, ',': {}, 'PP': {'IN': {}, 'LCP': {}}, ',93996': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}}}
+{'IP': {'ADVP': {'VV': {}}, ',': {}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}}}
+{'ADVP': {'VV': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+['VERB', 'ROOT', 'root']	['例如', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '写道', 'punct']
+['ADP', 'PART', 'case']	['在', '号', 'case']
+['PUNCT', 'PART', 'punct']	['《', '号', 'punct']
+['NOUN', 'PART', 'compound']	['白鲸', '号', 'compound']
+['PART', 'VERB', 'obl']	['号', '出海', 'obl']
+['PUNCT', 'PART', 'punct']	['》', '号', 'punct']
+['VERB', 'VERB', 'advcl']	['出海', '写道', 'advcl']
+['ADP', 'VERB', 'mark']	['时', '出海', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '出海', 'punct']
+['PROPN', 'VERB', 'nsubj']	['梅尔维尔', '写道', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['写道', '例如', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['：', '索响', 'punct']
+['PUNCT', 'VERB', 'punct']	['“', '索响', 'punct']
+['ADV', 'VERB', 'advmod']	['时常', '发生', 'advmod']
+['AUX', 'VERB', 'aux']	['会', '发生', 'aux']
+['VERB', 'VERB', 'advcl']	['发生', '索响', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '发生', 'punct']
+['ADP', 'VERB', 'case']	['当', '潜入', 'case']
+['DET', 'NOUN', 'det']	['这', '艘', 'det']
+['NOUN', 'NOUN', 'clf']	['艘', '老船', 'clf']
+['NOUN', 'VERB', 'nsubj']	['老船', '潜入', 'nsubj']
+['VERB', 'VERB', 'advcl']	['在', '潜入', 'advcl']
+['NOUN', 'NOUN', 'nmod']	['绿色', '海洋', 'nmod']
+['NOUN', 'VERB', 'obj']	['海洋', '在', 'obj']
+['ADP', 'NOUN', 'case']	['中', '海洋', 'case']
+['VERB', 'VERB', 'advcl']	['潜入', '索响', 'advcl']
+['NOUN', 'VERB', 'obj']	['深处', '潜入', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '潜入', 'punct']
+['VERB', 'VERB', 'advcl']	['带来', '索响', 'advcl']
+['NOUN', 'PART', 'compound']	['霜飞', '溅', 'compound']
+['PART', 'VERB', 'obj']	['溅', '带来', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '带来', 'punct']
+['NOUN', 'VERB', 'nsubj']	['风', '呼', 'nsubj']
+['VERB', 'VERB', 'advcl']	['呼', '索响', 'advcl']
+['NOUN', 'VERB', 'obj']	['啸', '呼', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '呼', 'punct']
+['VERB', 'VERB', 'advcl']	['绳', '索响', 'advcl']
+['VERB', 'VERB', 'ccomp']	['索响', '写道', 'ccomp']
+['VERB', 'VERB', 'mark']	['起', '索响', 'mark']
+['NOUN', 'VERB', 'obj']	['声音', '索响', 'obj']
+['PUNCT', 'VERB', 'punct']	['……', '索响', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '索响', 'punct']
+----------------------------------------------------------------------
+这种事件只用“和”连接起来的简单叙述方式，被称为“间接关系”，它是圣经最喜欢的技巧：“雅各给以推食物和饮料，然后起来走了，因此以推轻蔑了他的生命权。”（正如阿尔特指出的，希伯来语中的“间接关系”更为明显：“然后”和“因此”实际上是翻译了希伯来语中的“和”。）圣经的对偶句也被用来增强梅尔维尔的风格。
+
+(ROOT (IP (IP (NP (CP (CP (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 事件))) (VP (ADVP (RB 只)) (VP (VP (VV 用) (NP (`` “) (NN 和) ('' ”))) (VP (VRD (VV 连接) (VV 起来)))))) (DEC 的))) (ADJP (JJ 简单)) (NP (NN 叙述) (NN 方式))) (, ，) (VP (BB 被) (VP (VCP (VV 称) (VC 为)) (NP (`` “) (ADJP (JJ 间接)) (NP (NN 关系)) ('' ”))))) (, ，) (IP (NP (PRP 它)) (VP (VC 是) (NP (CP (CP (IP (NP (NNP 圣经)) (VP (ADVP (RB 最)) (VP (JJ 喜欢)))) (DEC 的))) (NP (NN 技巧))))) (: ：) (IP (`` “) (NP (NNP 雅各)) (VP (VP (VV 给) (IP (VP (IN 以) (VP (VV 推) (NP (NN 食物) (CC 和) (NN 饮料)))))) (, ，) (VP (ADVP (RB 然后)) (ADVP (VV 起来)) (VP (VV 走) (UH 了))) (, ，) (VP (ADVP (IN 因)) (ADVP (PRD 此)) (VP (RB 以) (VP (VV 推轻蔑) (AS 了) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 生命) (SFN 权)))))))) (. 。) ('' ”) (PRN (-LRB- （) (IP (VP (ADVP (RB 正)) (PP (VV 如) (NP (CP (CP (IP (NP (NNP 阿尔特)) (VP (VV 指出))) (UH 的)))))) (, ，) (NP (DNP (LCP (NP (NP (NNP 希伯来)) (NP (SFN 语))) (IN 中)) (DEC 的)) (NP (`` “) (ADJP (JJ 间接)) (NP (NN 关系)) ('' ”))) (VP (ADVP (RB 更为)) (VP (JJ 明显)))) (: ：) (IP (NP (NP (`` “) (RB 然后) ('' ”)) (CC 和) (NP (`` “) (IN 因) (PRD 此) ('' ”))) (VP (LCP (NP (NN 实际)) (IN 上)) (VP (VC 是) (VP (VV 翻译) (AS 了) (NP (DNP (LCP (NP (NP (NNP 希伯来)) (NP (SFN 语))) (IN 中)) (DEC 的)) (NP (`` “) (NN 和) ('' ”)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP32641': {}, ':': {}, 'IP7534': {}, '.': {}, "''": {}, 'PRN': {}, '.97951': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ':': {}, 'IP': {}, '.': {}, "''": {}, 'PRN': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP94804': {'NP': {}, 'VP': {}}, ':': {}, 'IP68919': {'``': {}, 'NP': {}, 'VP': {}}, '.': {}, "''": {}, 'PRN': {'-LRB-': {}, 'IP': {}, ':': {}, 'IP78863': {}}, '.76285': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'``': {}, 'NP': {}, 'VP': {}}, '.': {}, "''": {}, 'PRN': {'-LRB-': {}, 'IP': {}, ':': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+{'PRN': {'-LRB-': {}, 'IP': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '事件', 'clf']
+['NOUN', 'VERB', 'nsubj:pass']	['事件', '称', 'nsubj:pass']
+['ADV', 'VERB', 'advmod']	['只', '称', 'advmod']
+['VERB', 'VERB', 'advcl']	['用', '称', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['“', '和', 'punct']
+['NOUN', 'VERB', 'nsubj']	['和', '连接', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['”', '和', 'punct']
+['VERB', 'NOUN', 'acl:relcl']	['连接', '方式', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['起来', '连接', 'mark']
+['PART', 'VERB', 'mark:rel']	['的', '连接', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['简单', '方式', 'amod']
+['NOUN', 'NOUN', 'nmod']	['叙述', '方式', 'nmod']
+['NOUN', 'VERB', 'nsubj:pass']	['方式', '称', 'nsubj:pass']
+['PUNCT', 'NOUN', 'punct']	['，', '方式', 'punct']
+['AUX', 'VERB', 'aux:pass']	['被', '称', 'aux:pass']
+['VERB', 'ROOT', 'root']	['称', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['为', '称', 'mark']
+['PUNCT', 'NOUN', 'punct']	['“', '关系', 'punct']
+['ADJ', 'NOUN', 'amod']	['间接', '关系', 'amod']
+['NOUN', 'VERB', 'obj']	['关系', '称', 'obj']
+['PUNCT', 'NOUN', 'punct']	['”', '关系', 'punct']
+['PUNCT', 'NOUN', 'punct']	['，', '技巧', 'punct']
+['PRON', 'NOUN', 'nsubj']	['它', '技巧', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '技巧', 'cop']
+['PROPN', 'ADJ', 'nsubj']	['圣经', '喜欢', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['最', '喜欢', 'advmod']
+['ADJ', 'NOUN', 'amod']	['喜欢', '技巧', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '喜欢', 'mark:rel']
+['NOUN', 'VERB', 'parataxis']	['技巧', '称', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['：', '推轻蔑', 'punct']
+['PUNCT', 'VERB', 'punct']	['“', '推轻蔑', 'punct']
+['PROPN', 'VERB', 'nsubj']	['雅各', '推轻蔑', 'nsubj']
+['VERB', 'VERB', 'advcl']	['给', '推轻蔑', 'advcl']
+['ADP', 'VERB', 'case']	['以', '推', 'case']
+['VERB', 'VERB', 'xcomp']	['推', '给', 'xcomp']
+['NOUN', 'VERB', 'obj']	['食物', '推', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '饮料', 'cc']
+['NOUN', 'NOUN', 'conj']	['饮料', '食物', 'conj']
+['PUNCT', 'VERB', 'punct']	['，', '给', 'punct']
+['ADV', 'VERB', 'advmod']	['然后', '走', 'advmod']
+['VERB', 'VERB', 'mark']	['起来', '走', 'mark']
+['VERB', 'VERB', 'advcl']	['走', '推轻蔑', 'advcl']
+['PART', 'VERB', 'discourse']	['了', '走', 'discourse']
+['PUNCT', 'VERB', 'punct']	['，', '走', 'punct']
+['ADP', 'PRON', 'case']	['因', '此', 'case']
+['PRON', 'VERB', 'obl']	['此', '推轻蔑', 'obl']
+['ADV', 'VERB', 'mark']	['以', '推轻蔑', 'mark']
+['VERB', 'NOUN', 'parataxis']	['推轻蔑', '技巧', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '推轻蔑', 'aux']
+['PRON', 'PART', 'det']	['他', '权', 'det']
+['PART', 'PRON', 'mark:rel']	['的', '他', 'mark:rel']
+['NOUN', 'PART', 'compound']	['生命', '权', 'compound']
+['PART', 'VERB', 'obj']	['权', '推轻蔑', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '推轻蔑', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '推轻蔑', 'punct']
+['PUNCT', 'VERB', 'punct']	['（', '如', 'punct']
+['ADV', 'VERB', 'advmod']	['正', '如', 'advmod']
+['VERB', 'VERB', 'parataxis']	['如', '推轻蔑', 'parataxis']
+['PROPN', 'VERB', 'nsubj']	['阿尔特', '指出', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['指出', '如', 'ccomp']
+['PART', 'VERB', 'discourse']	['的', '如', 'discourse']
+['PUNCT', 'VERB', 'punct']	['，', '如', 'punct']
+['PROPN', 'PART', 'compound']	['希伯来', '语', 'compound']
+['PART', 'NOUN', 'nmod']	['语', '关系', 'nmod']
+['ADP', 'PART', 'case']	['中', '语', 'case']
+['PART', 'PART', 'case']	['的', '语', 'case']
+['PUNCT', 'NOUN', 'punct']	['“', '关系', 'punct']
+['ADJ', 'NOUN', 'amod']	['间接', '关系', 'amod']
+['NOUN', 'ADJ', 'nsubj']	['关系', '明显', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['”', '关系', 'punct']
+['ADV', 'ADJ', 'advmod']	['更为', '明显', 'advmod']
+['ADJ', 'VERB', 'parataxis']	['明显', '称', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['：', '是', 'punct']
+['PUNCT', 'ADV', 'punct']	['“', '然后', 'punct']
+['ADV', 'VERB', 'advmod']	['然后', '是', 'advmod']
+['PUNCT', 'ADV', 'punct']	['”', '然后', 'punct']
+['CCONJ', 'PRON', 'cc']	['和', '此', 'cc']
+['PUNCT', 'PRON', 'punct']	['“', '此', 'punct']
+['ADP', 'PRON', 'case']	['因', '此', 'case']
+['PRON', 'VERB', 'obl']	['此', '是', 'obl']
+['PUNCT', 'PRON', 'punct']	['”', '此', 'punct']
+['NOUN', 'VERB', 'obl']	['实际', '是', 'obl']
+['ADP', 'NOUN', 'case']	['上', '实际', 'case']
+['VERB', 'VERB', 'parataxis']	['是', '称', 'parataxis']
+['VERB', 'VERB', 'xcomp']	['翻译', '是', 'xcomp']
+['AUX', 'VERB', 'aux']	['了', '翻译', 'aux']
+['PROPN', 'PART', 'compound']	['希伯来', '语', 'compound']
+['PART', 'NOUN', 'nmod']	['语', '和', 'nmod']
+['ADP', 'PART', 'case']	['中', '语', 'case']
+['PART', 'PART', 'case']	['的', '语', 'case']
+['PUNCT', 'NOUN', 'punct']	['“', '和', 'punct']
+['NOUN', 'VERB', 'obj']	['和', '翻译', 'obj']
+['PUNCT', 'NOUN', 'punct']	['”', '和', 'punct']
+['PUNCT', 'VERB', 'punct']	['。', '称', 'punct']
+----------------------------------------------------------------------
+当他写到“海洋比波斯人害死自己的客人还糟糕；现在却不杀害它自己产生的生物”时，阿尔特指出“这两个很长的句子。。。
+
+(ROOT (IP (PP (IN 当) (LCP (IP (NP (PRP 他)) (VP (VRD (VV 写) (VV 到)) (IP (`` “) (NP (NN 海洋)) (VP (VP (PP (IN 比) (NP (NNP 波斯))) (VP (NN 人害) (NP (CP (CP (IP (VP (VV 死) (NP (PRD 自己)))) (DEC 的))) (NP (NN 客人))))) (VP (ADVP (RB 还)) (VP (JJ 糟糕)))) (: ；) (IP (VP (NP (NN 现在)) (ADVP (RB 却)) (ADVP (RB 不)) (VP (VV 杀害) (NP (CP (CP (IP (NP (PRP 它) (PRD 自己)) (VP (VV 产生))) (DEC 的))) (NP (NN 生物)))))) ('' ”)))) (IN 时))) (, ，) (NP (NNP 阿尔特)) (VP (VV 指出) (IP (`` “) (NP (DP (DT 这) (QP (CD 两) (CLP (NNB 个)))) (CP (CP (IP (VP (JJ 很长))) (DEC 的))) (NP (NN 句子))))) (. 。) (. 。) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, '.14306': {}, '.59990': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, '.': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}, '.93994': {}, '.77194': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}, '.': {}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['当', '写', 'case']
+['PRON', 'VERB', 'nsubj']	['他', '写', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['写', '指出', 'ccomp']
+['VERB', 'VERB', 'mark']	['到', '写', 'mark']
+['PUNCT', 'VERB', 'punct']	['“', '死', 'punct']
+['NOUN', 'VERB', 'nsubj']	['海洋', '死', 'nsubj']
+['ADP', 'NOUN', 'case']	['比', '人害', 'case']
+['PROPN', 'NOUN', 'nmod']	['波斯', '人害', 'nmod']
+['NOUN', 'VERB', 'obl']	['人害', '死', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['死', '客人', 'acl:relcl']
+['PRON', 'VERB', 'obj']	['自己', '死', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '死', 'mark:rel']
+['NOUN', 'ADJ', 'nsubj']	['客人', '糟糕', 'nsubj']
+['ADV', 'ADJ', 'mark']	['还', '糟糕', 'mark']
+['ADJ', 'VERB', 'ccomp']	['糟糕', '写', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['；', '写', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['现在', '杀害', 'nmod:tmod']
+['ADV', 'VERB', 'mark']	['却', '杀害', 'mark']
+['ADV', 'VERB', 'advmod']	['不', '杀害', 'advmod']
+['VERB', 'VERB', 'advcl']	['杀害', '指出', 'advcl']
+['PRON', 'NOUN', 'nmod']	['它', '生物', 'nmod']
+['PRON', 'VERB', 'nsubj']	['自己', '产生', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['产生', '生物', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '产生', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['生物', '杀害', 'obj']
+['PUNCT', 'NOUN', 'punct']	['”', '生物', 'punct']
+['ADP', 'VERB', 'mark']	['时', '杀害', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '杀害', 'punct']
+['PROPN', 'VERB', 'nsubj']	['阿尔特', '指出', 'nsubj']
+['VERB', 'ROOT', 'root']	['指出', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['“', '句子', 'punct']
+['DET', 'NOUN', 'det']	['这', '个', 'det']
+['NUM', 'NOUN', 'nummod']	['两', '个', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['个', '句子', 'nmod']
+['ADJ', 'NOUN', 'amod']	['很长', '句子', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '很长', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['句子', '指出', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '指出', 'punct']
+['PUNCT', 'VERB', 'punct']	['。', '指出', 'punct']
+['PUNCT', 'VERB', 'punct']	['。', '指出', 'punct']
+----------------------------------------------------------------------
+几乎可以被看作是两行圣经诗。”
+
+(ROOT (IP (VP (ADVP (RB 几乎)) (VP (MD 可以) (VP (BB 被) (VP (VCP (VV 看作) (VC 是)) (NP (NP (QP (CD 两)) (NP (NNB 行))) (NP (NN 圣经) (SFN 诗))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'VP': {}, '.': {}, "''": {}}}
+{'IP': {'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'VP': {'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'VP': {'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'advmod']	['几乎', '看作', 'advmod']
+['AUX', 'VERB', 'aux']	['可以', '看作', 'aux']
+['AUX', 'VERB', 'aux:pass']	['被', '看作', 'aux:pass']
+['VERB', 'ROOT', 'root']	['看作', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['是', '看作', 'xcomp']
+['NUM', 'NOUN', 'nummod']	['两', '行', 'nummod']
+['NOUN', 'PART', 'nmod']	['行', '诗', 'nmod']
+['NOUN', 'PART', 'compound']	['圣经', '诗', 'compound']
+['PART', 'VERB', 'obj']	['诗', '是', 'obj']
+['PUNCT', 'PART', 'punct']	['。', '诗', 'punct']
+['PUNCT', 'PART', 'punct']	['”', '诗', 'punct']
+----------------------------------------------------------------------
+巧合的是，梅尔维尔在构建这部反圣经的书籍时，使用了圣经中的这些词语，这部书籍是一部反对上帝存在和创造万物的好的书籍。
+
+(ROOT (IP (NP (CP (CP (IP (VP (JJ 巧合))) (DEC 的)))) (VP (VC 是) (, ，) (IP (IP (NP (NNP 梅尔维尔)) (VP (PP (IN 在) (LCP (IP (VP (VV 构建) (NP (DP (DT 这) (CLP (NNB 部))) (CP (CP (IP (VP (VV 反) (NP (NN 圣经)))) (DEC 的))) (NP (NN 书籍))))) (IN 时))) (, ，) (VP (VV 使用) (AS 了) (NP (DNP (LCP (NP (NN 圣经)) (IN 中)) (DEC 的)) (DP (DT 这些)) (NP (NN 词语)))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 部))) (NP (NN 书籍))) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 部))) (CP (CP (IP (VP (VV 反对) (IP (NP (NNP 上帝)) (VP (VP (VV 存在)) (CC 和) (VP (VV 创造) (NP (QP (CD 万)) (NP (NN 物)))))))) (DEC 的))) (CP (CP (IP (VP (JJ 好))) (DEC 的))) (NP (NN 书籍))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['ADJ', 'VERB', 'csubj']	['巧合', '是', 'csubj']
+['PART', 'ADJ', 'mark:rel']	['的', '巧合', 'mark:rel']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '使用', 'punct']
+['PROPN', 'VERB', 'nsubj']	['梅尔维尔', '使用', 'nsubj']
+['ADP', 'VERB', 'case']	['在', '构建', 'case']
+['VERB', 'VERB', 'xcomp']	['构建', '使用', 'xcomp']
+['DET', 'NOUN', 'det']	['这', '部', 'det']
+['NOUN', 'NOUN', 'clf']	['部', '书籍', 'clf']
+['VERB', 'NOUN', 'acl:relcl']	['反', '书籍', 'acl:relcl']
+['NOUN', 'VERB', 'obj']	['圣经', '反', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '反', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['书籍', '构建', 'obj']
+['ADP', 'VERB', 'mark']	['时', '构建', 'mark']
+['PUNCT', 'NOUN', 'punct']	['，', '书籍', 'punct']
+['VERB', 'VERB', 'ccomp']	['使用', '是', 'ccomp']
+['AUX', 'VERB', 'aux']	['了', '使用', 'aux']
+['NOUN', 'NOUN', 'nmod']	['圣经', '词语', 'nmod']
+['ADP', 'NOUN', 'case']	['中', '圣经', 'case']
+['PART', 'NOUN', 'case']	['的', '圣经', 'case']
+['DET', 'NOUN', 'det']	['这些', '词语', 'det']
+['NOUN', 'VERB', 'obj']	['词语', '使用', 'obj']
+['PUNCT', 'NOUN', 'punct']	['，', '书籍', 'punct']
+['DET', 'NOUN', 'det']	['这', '部', 'det']
+['NOUN', 'NOUN', 'clf']	['部', '书籍', 'clf']
+['NOUN', 'NOUN', 'nsubj']	['书籍', '书籍', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '书籍', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '部', 'nummod']
+['NOUN', 'NOUN', 'clf']	['部', '书籍', 'clf']
+['VERB', 'NOUN', 'acl:relcl']	['反对', '书籍', 'acl:relcl']
+['PROPN', 'VERB', 'nsubj']	['上帝', '存在', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['存在', '反对', 'ccomp']
+['CCONJ', 'VERB', 'cc']	['和', '创造', 'cc']
+['VERB', 'VERB', 'conj']	['创造', '存在', 'conj']
+['NUM', 'NOUN', 'nummod']	['万', '物', 'nummod']
+['NOUN', 'VERB', 'obj']	['物', '创造', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '反对', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['好', '书籍', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '好', 'mark:rel']
+['NOUN', 'VERB', 'ccomp']	['书籍', '是', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+在《钢笔》中最好的一部分中，艾尔特侧重于梅尔维尔利用《圣经》中的海洋怪物利维坦，将《圣经》反噬自己。
+
+(ROOT (IP (LCP (VP (PP (IN 在) (LCP (NP (-LRB- 《) (NN 钢笔) (-RRB- 》)) (IN 中))) (CP (CP (IP (VP (JJ 最好))) (DEC 的))) (QP (CD 一)) (NP (NN 部分))) (IN 中)) (, ，) (NP (NNP 艾尔特) (SFN 侧)) (VP (VV 重) (PP (VV 于) (IP (NP (NNP 梅尔维尔)) (VP (VP (VV 利用) (NP (DNP (LCP (NP (-LRB- 《) (NNP 圣经) (-RRB- 》)) (IN 中)) (DEC 的)) (NP (NN 海洋) (NN 怪物)) (NP (NNP 利维坦)))) (, ，) (VP (BB 将) (IP (NP (-LRB- 《) (NNP 圣经) (-RRB- 》)) (VP (VV 反噬) (NP (PRD 自己))))))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'VP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}, 'SFN': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'IP': {'LCP': {'VP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}, 'SFN': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'LCP': {'VP': {}, 'IN': {}}}
+{'NP': {'NNP': {}, 'SFN': {}}}
+{'VP': {'VV': {}, 'PP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['在', '部分', 'case']
+['PUNCT', 'NOUN', 'punct']	['《', '钢笔', 'punct']
+['NOUN', 'ADJ', 'nmod']	['钢笔', '最好', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['》', '钢笔', 'punct']
+['ADP', 'NOUN', 'case']	['中', '钢笔', 'case']
+['ADJ', 'NOUN', 'amod']	['最好', '部分', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '最好', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['一', '部分', 'nummod']
+['NOUN', 'VERB', 'obl']	['部分', '重', 'obl']
+['ADP', 'NOUN', 'case']	['中', '部分', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '部分', 'punct']
+['PROPN', 'PART', 'compound']	['艾尔特', '侧', 'compound']
+['PART', 'VERB', 'nsubj']	['侧', '重', 'nsubj']
+['VERB', 'ROOT', 'root']	['重', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['于', '重', 'mark']
+['PROPN', 'VERB', 'nsubj']	['梅尔维尔', '反噬', 'nsubj']
+['VERB', 'VERB', 'advcl']	['利用', '反噬', 'advcl']
+['PUNCT', 'PROPN', 'punct']	['《', '圣经', 'punct']
+['PROPN', 'NOUN', 'nmod']	['圣经', '怪物', 'nmod']
+['PUNCT', 'PROPN', 'punct']	['》', '圣经', 'punct']
+['ADP', 'PROPN', 'case']	['中', '圣经', 'case']
+['PART', 'PROPN', 'case']	['的', '圣经', 'case']
+['NOUN', 'NOUN', 'nmod']	['海洋', '怪物', 'nmod']
+['NOUN', 'VERB', 'obj']	['怪物', '利用', 'obj']
+['PROPN', 'NOUN', 'appos']	['利维坦', '怪物', 'appos']
+['PUNCT', 'VERB', 'punct']	['，', '利用', 'punct']
+['ADP', 'PROPN', 'case']	['将', '圣经', 'case']
+['PUNCT', 'PROPN', 'punct']	['《', '圣经', 'punct']
+['PROPN', 'VERB', 'obl:patient']	['圣经', '反噬', 'obl:patient']
+['PUNCT', 'PROPN', 'punct']	['》', '圣经', 'punct']
+['VERB', 'VERB', 'parataxis']	['反噬', '重', 'parataxis']
+['PRON', 'VERB', 'iobj']	['自己', '反噬', 'iobj']
+['PUNCT', 'VERB', 'punct']	['。', '反噬', 'punct']
+----------------------------------------------------------------------
+《莱维坦》当然是《麦哲伦》中的原型，但它似乎打破了圣经自身的年代：
+
+(ROOT (IP (IP (NP (-LRB- 《) (NNP 莱维坦) (-RRB- 》)) (VP (ADVP (RB 当然)) (VP (VC 是) (NP (DNP (LCP (NP (-LRB- 《) (NNP 麦哲伦) (-RRB- 》)) (IN 中)) (DEC 的)) (NP (NN 原型)))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 它)) (VP (ADVP (RB 似乎)) (VP (VV 打破) (AS 了) (NP (DNP (NP (NNP 圣经) (PRD 自身)) (DEC 的)) (NP (NN 年代)))))) (: ：)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP86701': {}, ':': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ':': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP45461': {'ADVP': {}, 'NP': {}, 'VP': {}}, ':': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ':': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PUNCT', 'PROPN', 'punct']	['《', '莱维坦', 'punct']
+['PROPN', 'NOUN', 'nsubj']	['莱维坦', '原型', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['》', '莱维坦', 'punct']
+['ADV', 'NOUN', 'advmod']	['当然', '原型', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '原型', 'cop']
+['PUNCT', 'PROPN', 'punct']	['《', '麦哲伦', 'punct']
+['PROPN', 'NOUN', 'nmod']	['麦哲伦', '原型', 'nmod']
+['PUNCT', 'PROPN', 'punct']	['》', '麦哲伦', 'punct']
+['ADP', 'PROPN', 'case']	['中', '麦哲伦', 'case']
+['PART', 'PROPN', 'case']	['的', '麦哲伦', 'case']
+['NOUN', 'ROOT', 'root']	['原型', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '打破', 'punct']
+['ADV', 'VERB', 'mark']	['但', '打破', 'mark']
+['PRON', 'VERB', 'nsubj']	['它', '打破', 'nsubj']
+['ADV', 'VERB', 'advmod']	['似乎', '打破', 'advmod']
+['VERB', 'NOUN', 'parataxis']	['打破', '原型', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '打破', 'aux']
+['PROPN', 'NOUN', 'nmod']	['圣经', '年代', 'nmod']
+['PRON', 'PROPN', 'appos']	['自身', '圣经', 'appos']
+['PART', 'PROPN', 'case']	['的', '圣经', 'case']
+['NOUN', 'VERB', 'obj']	['年代', '打破', 'obj']
+['PUNCT', 'NOUN', 'punct']	['：', '原型', 'punct']
+----------------------------------------------------------------------
+谁能像 Левиафан一样展现出自己的血统呢？
+
+(ROOT (CP (IP (NP (WP 谁)) (VP (MD 能) (VP (IP (VP (PP (IN 像) (NP (NN Левиаф) (NNP а) (NNP н))) (VP (JJ 一样)))) (VP (VRD (VV 展现) (VV 出)) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 血统))))))) (UH 呢) (. ？)))
+layer 2:
+{'CP': {'IP': {}, 'UH': {}, '.': {}}}
+{'CP': {'IP': {}, 'UH': {}, '.': {}}}
+layer 3:
+{'CP': {'IP': {'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'CP': {'IP': {'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['谁', '展现', 'nsubj']
+['AUX', 'VERB', 'aux']	['能', '展现', 'aux']
+['ADP', 'NOUN', 'case']	['像', 'Левиаф', 'case']
+['NOUN', 'ADJ', 'nmod']	['Левиаф', '一样', 'nmod']
+['PROPN', 'NOUN', 'appos']	['а', 'Левиаф', 'appos']
+['PROPN', 'PROPN', 'flat:name']	['н', 'а', 'flat:name']
+['ADJ', 'VERB', 'advcl']	['一样', '展现', 'advcl']
+['VERB', 'ROOT', 'root']	['展现', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['出', '展现', 'mark']
+['PRON', 'NOUN', 'det']	['自己', '血统', 'det']
+['PART', 'PRON', 'case']	['的', '自己', 'case']
+['NOUN', 'VERB', 'obj']	['血统', '展现', 'obj']
+['PART', 'VERB', 'discourse:sp']	['呢', '展现', 'discourse:sp']
+['PUNCT', 'VERB', 'punct']	['？', '展现', 'punct']
+----------------------------------------------------------------------
+亚哈的鱼叉流了比法老还要古老的血。以赛亚觉得自己像个小学生。
+
+(ROOT (IP (NP (DNP (NP (NNP 亚哈)) (DEC 的)) (NP (NN 鱼))) (VP (VV 叉流) (AS 了) (NP (CP (CP (IP (VP (PP (IN 比) (NP (NN 法老))) (ADVP (RB 还)) (ADVP (MD 要)) (VP (JJ 古老)))) (DEC 的))) (NP (NN 血)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['亚哈', '鱼', 'nmod']
+['PART', 'PROPN', 'case']	['的', '亚哈', 'case']
+['NOUN', 'VERB', 'nsubj']	['鱼', '叉流', 'nsubj']
+['VERB', 'ROOT', 'root']	['叉流', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '叉流', 'aux']
+['ADP', 'NOUN', 'case']	['比', '法老', 'case']
+['NOUN', 'ADJ', 'nmod']	['法老', '古老', 'nmod']
+['ADV', 'ADJ', 'mark']	['还', '古老', 'mark']
+['AUX', 'ADJ', 'aux']	['要', '古老', 'aux']
+['ADJ', 'NOUN', 'amod']	['古老', '血', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '古老', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['血', '叉流', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '叉流', 'punct']
+----------------------------------------------------------------------
+我抬头看了看，伸出手来握住谢姆的手。
+
+(ROOT (IP (NP (PRP 我)) (VP (VP (VP (VV 抬头)) (VP (VV 看) (AS 了) (NP (VV 看)))) (, ，) (VP (VP (VV 伸出) (NP (NN 手))) (VP (RB 来) (VP (VV 握住) (NP (DNP (NP (NNP 谢姆)) (DEC 的)) (NP (NN 手))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP85484': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['我', '握住', 'nsubj']
+['VERB', 'VERB', 'advcl']	['抬头', '握住', 'advcl']
+['VERB', 'VERB', 'advcl']	['看', '握住', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '看', 'aux']
+['VERB', 'VERB', 'xcomp']	['看', '看', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '看', 'punct']
+['VERB', 'VERB', 'advcl']	['伸出', '握住', 'advcl']
+['NOUN', 'VERB', 'obj']	['手', '伸出', 'obj']
+['ADV', 'VERB', 'mark']	['来', '握住', 'mark']
+['VERB', 'ROOT', 'root']	['握住', 'NONE', 'root']
+['PROPN', 'NOUN', 'nmod']	['谢姆', '手', 'nmod']
+['PART', 'PROPN', 'case']	['的', '谢姆', 'case']
+['NOUN', 'VERB', 'obj']	['手', '握住', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '握住', 'punct']
+----------------------------------------------------------------------
+我对这种无源可追的恐怖存在感到恐惧，这种恐怖来自鲸鱼，它在所有时间之前就存在，在所有人类时代结束之后仍然必然存在。
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (PP (IN 对) (NP (DP (DT 这) (CLP (NNB 种))) (CP (CP (IP (VP (VCD (JJ 无源) (JJ 可追)))) (DEC 的))) (NP (JJ 恐怖) (NN 存在)))) (VP (VV 感到) (NP (JJ 恐惧))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (JJ 恐怖))) (VP (VV 来) (VP (VV 自) (NP (NN 鲸鱼))))) (, ，) (IP (NP (PRP 它)) (VP (VP (PP (IN 在) (LCP (NP (DP (DT 所有)) (NP (NN 时间))) (IN 之前))) (ADVP (RB 就)) (VP (VV 存在))) (, ，) (VP (PP (IN 在) (LCP (IP (NP (DP (DT 所有)) (NP (NN 人类) (NN 时代))) (VP (VV 结束))) (IN 之后))) (ADVP (RB 仍然)) (ADVP (RB 必然)) (VP (VV 存在))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP44472': {}, ',78157': {}, 'IP21499': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP38174': {'NP': {}, 'VP': {}}, ',23455': {}, 'IP86017': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['我', '感到', 'nsubj']
+['ADP', 'NOUN', 'case']	['对', '存在', 'case']
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '存在', 'clf']
+['ADJ', 'ADJ', 'advcl']	['无源', '可追', 'advcl']
+['ADJ', 'NOUN', 'acl:relcl']	['可追', '存在', 'acl:relcl']
+['PART', 'ADJ', 'mark:rel']	['的', '可追', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['恐怖', '存在', 'amod']
+['NOUN', 'VERB', 'obl']	['存在', '感到', 'obl']
+['VERB', 'ROOT', 'root']	['感到', 'NONE', 'root']
+['ADJ', 'VERB', 'xcomp']	['恐惧', '感到', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '来', 'punct']
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'ADJ', 'clf']	['种', '恐怖', 'clf']
+['ADJ', 'VERB', 'csubj']	['恐怖', '来', 'csubj']
+['VERB', 'VERB', 'parataxis']	['来', '感到', 'parataxis']
+['VERB', 'VERB', 'mark']	['自', '来', 'mark']
+['NOUN', 'VERB', 'obj']	['鲸鱼', '来', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '存在', 'punct']
+['PRON', 'VERB', 'nsubj']	['它', '存在', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '时间', 'case']
+['DET', 'NOUN', 'det']	['所有', '时间', 'det']
+['NOUN', 'VERB', 'obl']	['时间', '存在', 'obl']
+['ADP', 'NOUN', 'case']	['之前', '时间', 'case']
+['ADV', 'VERB', 'mark']	['就', '存在', 'mark']
+['VERB', 'VERB', 'advcl']	['存在', '存在', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '存在', 'punct']
+['ADP', 'VERB', 'case']	['在', '结束', 'case']
+['DET', 'NOUN', 'det']	['所有', '时代', 'det']
+['NOUN', 'NOUN', 'nmod']	['人类', '时代', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['时代', '结束', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['结束', '存在', 'ccomp']
+['ADP', 'VERB', 'mark']	['之后', '结束', 'mark']
+['ADV', 'VERB', 'advmod']	['仍然', '存在', 'advmod']
+['ADV', 'VERB', 'advmod']	['必然', '存在', 'advmod']
+['VERB', 'VERB', 'parataxis']	['存在', '感到', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '感到', 'punct']
+----------------------------------------------------------------------
+“利维坦”作为野蛮暴力和邪恶的原则，比圣经圣洁时代（“旧约时代”）早，并且将会存活下来。
+
+(ROOT (IP (NP (`` “) (NNP 利维坦) ('' ”)) (VP (VP (PP (VV 作) (PP (VC 为) (NP (NP (ADJP (JJ 野蛮)) (NP (NN 暴力))) (CC 和) (NP (DNP (NP (NN 邪恶)) (DEC 的)) (NP (NN 原则)))))) (, ，) (PP (IN 比) (NP (NP (NNP 圣经)) (ADJP (JJ 圣洁)) (NP (NN 时代)) (PRN (-LRB- （) (NP (`` “) (ADJP (PFA 旧)) (ADJP (NNP 约)) (NP (NN 时代)) ('' ”)) (-RRB- ）)))) (VP (JJ 早))) (, ，) (RB 并且) (VP (ADVP (RB 将)) (VP (MD 会) (VP (VRD (VV 存活) (VV 下来)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'``': {}, 'NNP': {}, "''": {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP9657': {}}, '.': {}}}
+{'IP': {'NP': {'``': {}, 'NNP': {}, "''": {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'``': {}, 'NNP': {}, "''": {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+['PUNCT', 'PROPN', 'punct']	['“', '利维坦', 'punct']
+['PROPN', 'VERB', 'nsubj']	['利维坦', '存活', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['”', '利维坦', 'punct']
+['VERB', 'VERB', 'advcl']	['作', '存活', 'advcl']
+['VERB', 'VERB', 'mark']	['为', '作', 'mark']
+['ADJ', 'NOUN', 'amod']	['野蛮', '暴力', 'amod']
+['NOUN', 'NOUN', 'nmod']	['暴力', '原则', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['和', '邪恶', 'cc']
+['NOUN', 'NOUN', 'conj']	['邪恶', '暴力', 'conj']
+['PART', 'NOUN', 'case']	['的', '暴力', 'case']
+['NOUN', 'VERB', 'obj']	['原则', '作', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '作', 'punct']
+['ADP', 'NOUN', 'case']	['比', '时代', 'case']
+['PROPN', 'NOUN', 'nmod']	['圣经', '时代', 'nmod']
+['ADJ', 'NOUN', 'amod']	['圣洁', '时代', 'amod']
+['NOUN', 'ADJ', 'nmod']	['时代', '早', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['（', '时代', 'punct']
+['PUNCT', 'NOUN', 'punct']	['“', '时代', 'punct']
+['PART', 'NOUN', 'case']	['旧', '时代', 'case']
+['PROPN', 'NOUN', 'nmod']	['约', '时代', 'nmod']
+['NOUN', 'NOUN', 'appos']	['时代', '时代', 'appos']
+['PUNCT', 'NOUN', 'punct']	['”', '时代', 'punct']
+['PUNCT', 'NOUN', 'punct']	['）', '时代', 'punct']
+['ADJ', 'VERB', 'advcl']	['早', '存活', 'advcl']
+['PUNCT', 'ADJ', 'punct']	['，', '早', 'punct']
+['ADV', 'VERB', 'mark']	['并且', '存活', 'mark']
+['ADV', 'VERB', 'advmod']	['将', '存活', 'advmod']
+['AUX', 'VERB', 'aux']	['会', '存活', 'aux']
+['VERB', 'ROOT', 'root']	['存活', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['下来', '存活', 'mark']
+['PUNCT', 'VERB', 'punct']	['。', '存活', 'punct']
+----------------------------------------------------------------------
+正如阿尔特所写的那样，这头鲸“把历史的底部掀开，将人类置于一场气象能量的游戏中，这场游戏早在人类出现之前就已经存在，而且也肯定会在人类灭亡之后继续存在下去。”
+
+(ROOT (IP (IP (PP (VV 正如) (NP (CP (CP (IP (NP (NNP 阿尔特)) (VP (RB 所) (VP (VV 写)))) (DEC 的))) (NP (PRD 那样)))) (, ，) (NP (DP (DT 这) (CLP (NNB 头))) (NP (NN 鲸))) (VP (`` “) (VP (BB 把) (IP (NP (DNP (NP (NN 历史)) (DEC 的)) (NP (NN 底部))) (VP (VV 掀开)))) (, ，) (VP (BB 将) (IP (NP (NN 人类)) (VP (VV 置) (PP (VV 于) (LCP (NP (QP (CD 一) (CLP (NNB 场))) (DNP (NP (NN 气象) (NN 能量)) (DEC 的)) (NP (NN 游戏))) (IN 中)))))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 场))) (NP (NN 游戏))) (VP (VP (ADVP (RB 早)) (PP (IN 在) (LCP (IP (NP (NN 人类)) (VP (VV 出现))) (IN 之前))) (ADVP (RB 就)) (ADVP (RB 已经)) (VP (VV 存在))) (, ，) (RB 而且) (VP (ADVP (RB 也)) (ADVP (VV 肯定)) (VP (MD 会) (VP (PP (IN 在) (LCP (IP (NP (NN 人类)) (VP (VV 灭亡))) (IN 之后))) (VP (VV 继续) (VP (VRD (VV 存在) (VV 下去))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP59364': {}, '.': {}, "''": {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP51512': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'PRON', 'acl:relcl']	['正如', '那样', 'acl:relcl']
+['PROPN', 'VERB', 'nsubj']	['阿尔特', '写', 'nsubj']
+['ADV', 'VERB', 'mark']	['所', '写', 'mark']
+['VERB', 'PRON', 'acl:relcl']	['写', '那样', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '正如', 'mark:rel']
+['PRON', 'VERB', 'obl']	['那样', '置', 'obl']
+['PUNCT', 'PRON', 'punct']	['，', '那样', 'punct']
+['DET', 'NOUN', 'det']	['这', '头', 'det']
+['NOUN', 'NOUN', 'clf']	['头', '鲸', 'clf']
+['NOUN', 'VERB', 'nsubj']	['鲸', '置', 'nsubj']
+['PUNCT', 'VERB', 'punct']	['“', '置', 'punct']
+['ADP', 'NOUN', 'case']	['把', '底部', 'case']
+['NOUN', 'NOUN', 'nmod']	['历史', '底部', 'nmod']
+['PART', 'NOUN', 'case']	['的', '历史', 'case']
+['NOUN', 'VERB', 'obl:patient']	['底部', '掀开', 'obl:patient']
+['VERB', 'VERB', 'advcl']	['掀开', '置', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '掀开', 'punct']
+['ADP', 'NOUN', 'case']	['将', '人类', 'case']
+['NOUN', 'VERB', 'obl:patient']	['人类', '置', 'obl:patient']
+['VERB', 'ROOT', 'root']	['置', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['于', '置', 'mark']
+['NUM', 'NOUN', 'nummod']	['一', '场', 'nummod']
+['NOUN', 'NOUN', 'clf']	['场', '能量', 'clf']
+['NOUN', 'NOUN', 'nmod']	['气象', '能量', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['能量', '游戏', 'nmod']
+['PART', 'NOUN', 'case']	['的', '能量', 'case']
+['NOUN', 'VERB', 'obj']	['游戏', '置', 'obj']
+['ADP', 'NOUN', 'case']	['中', '游戏', 'case']
+['PUNCT', 'VERB', 'punct']	['，', '置', 'punct']
+['DET', 'NOUN', 'det']	['这', '场', 'det']
+['NOUN', 'NOUN', 'clf']	['场', '游戏', 'clf']
+['NOUN', 'VERB', 'nsubj']	['游戏', '存在', 'nsubj']
+['ADV', 'VERB', 'advmod']	['早', '存在', 'advmod']
+['ADP', 'VERB', 'case']	['在', '出现', 'case']
+['NOUN', 'VERB', 'nsubj']	['人类', '出现', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['出现', '存在', 'ccomp']
+['ADP', 'VERB', 'mark']	['之前', '出现', 'mark']
+['ADV', 'VERB', 'mark']	['就', '存在', 'mark']
+['ADV', 'VERB', 'advmod']	['已经', '存在', 'advmod']
+['VERB', 'VERB', 'advcl']	['存在', '肯定', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '存在', 'punct']
+['ADV', 'VERB', 'mark']	['而且', '肯定', 'mark']
+['ADV', 'VERB', 'mark']	['也', '肯定', 'mark']
+['VERB', 'VERB', 'advcl']	['肯定', '继续', 'advcl']
+['AUX', 'VERB', 'aux']	['会', '继续', 'aux']
+['ADP', 'VERB', 'case']	['在', '灭亡', 'case']
+['NOUN', 'VERB', 'nsubj']	['人类', '灭亡', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['灭亡', '继续', 'ccomp']
+['ADP', 'VERB', 'mark']	['之后', '灭亡', 'mark']
+['VERB', 'VERB', 'parataxis']	['继续', '置', 'parataxis']
+['VERB', 'VERB', 'xcomp']	['存在', '继续', 'xcomp']
+['VERB', 'VERB', 'mark']	['下去', '继续', 'mark']
+['PUNCT', 'VERB', 'punct']	['。', '继续', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '继续', 'punct']
+----------------------------------------------------------------------
+这样，梅尔维尔用圣经宣告了一个新的，即圣经后的世界观，这也是他对《金王纪》的回响如此强烈的原因。
+
+(ROOT (IP (IP (ADVP (PRD 这样)) (, ，) (NP (NNP 梅尔维尔)) (VP (PP (VV 用) (NP (NNP 圣经))) (VP (VV 宣告) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 新))) (UH 的))) (, ，) (NP (ADVP (VC 即)) (NP (DNP (LCP (NP (NNP 圣经)) (IN 后)) (DEC 的)) (NP (NN 世界) (SFN 观)))))))) (, ，) (IP (NP (PRD 这)) (VP (VC 也是) (NP (CP (CP (IP (NP (NP (PRP 他)) (DNP (PP (IN 对) (NP (-LRB- 《) (ADJP (NN 金)) (NP (NNP 王纪)) (-RRB- 》))) (DEC 的)) (NP (NN 回响))) (VP (ADVP (VV 如此)) (VP (JJ 强烈)))) (DEC 的))) (NP (NN 原因))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP58545': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP76726': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'obl']	['这样', '宣告', 'obl']
+['PUNCT', 'PRON', 'punct']	['，', '这样', 'punct']
+['PROPN', 'VERB', 'nsubj']	['梅尔维尔', '宣告', 'nsubj']
+['VERB', 'VERB', 'advcl']	['用', '宣告', 'advcl']
+['PROPN', 'VERB', 'obj']	['圣经', '用', 'obj']
+['VERB', 'ROOT', 'root']	['宣告', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '宣告', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'PART', 'nmod']	['个', '观', 'nmod']
+['ADJ', 'VERB', 'csubj']	['新', '即', 'csubj']
+['PART', 'ADJ', 'discourse']	['的', '新', 'discourse']
+['PUNCT', 'VERB', 'punct']	['，', '即', 'punct']
+['VERB', 'VERB', 'ccomp']	['即', '宣告', 'ccomp']
+['PROPN', 'PART', 'nmod']	['圣经', '观', 'nmod']
+['ADP', 'PROPN', 'case']	['后', '圣经', 'case']
+['PART', 'PROPN', 'case']	['的', '圣经', 'case']
+['NOUN', 'PART', 'compound']	['世界', '观', 'compound']
+['PART', 'VERB', 'xcomp']	['观', '即', 'xcomp']
+['PUNCT', 'NOUN', 'punct']	['，', '原因', 'punct']
+['PRON', 'NOUN', 'nsubj']	['这', '原因', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '原因', 'cop']
+['PRON', 'NOUN', 'nmod']	['他', '回响', 'nmod']
+['ADP', 'NOUN', 'case']	['对', '回响', 'case']
+['PUNCT', 'PROPN', 'punct']	['《', '王纪', 'punct']
+['NOUN', 'PROPN', 'nmod']	['金', '王纪', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['王纪', '回响', 'nmod']
+['PUNCT', 'PROPN', 'punct']	['》', '王纪', 'punct']
+['PART', 'NOUN', 'case']	['的', '回响', 'case']
+['NOUN', 'NOUN', 'nmod']	['回响', '原因', 'nmod']
+['VERB', 'ADJ', 'advcl']	['如此', '强烈', 'advcl']
+['ADJ', 'NOUN', 'acl:relcl']	['强烈', '原因', 'acl:relcl']
+['PART', 'ADJ', 'mark:rel']	['的', '强烈', 'mark:rel']
+['NOUN', 'VERB', 'parataxis']	['原因', '宣告', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '宣告', 'punct']
+----------------------------------------------------------------------
+艾尔特的其他主题，福尔摩斯和贝洛，也是强大的散文风格作家，但他们对英语圣经的直接债务较少。
+
+(ROOT (IP (IP (NP (NP (DNP (NP (NNP 艾尔特)) (DEC 的)) (DP (DT 其他)) (NP (NN 主题))) (, ，) (NP (NNP 福尔摩斯) (CC 和) (NNP 贝洛))) (, ，) (VP (VC 也是) (NP (CP (CP (IP (VP (JJ 强大))) (DEC 的))) (NP (NN 散文) (NN 风格) (NN 作家))))) (, ，) (IP (ADVP (RB 但)) (NP (NP (PRP 他们)) (DNP (PP (IN 对) (NP (NNP 英) (SFN 语) (NNP 圣经))) (DEC 的)) (ADJP (JJ 直接)) (NP (NN 债务))) (VP (JJ 较少))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP36200': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP85531': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['艾尔特', '主题', 'nmod']
+['PART', 'PROPN', 'case']	['的', '艾尔特', 'case']
+['DET', 'NOUN', 'det']	['其他', '主题', 'det']
+['NOUN', 'NOUN', 'nsubj']	['主题', '作家', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['，', '福尔摩斯', 'punct']
+['PROPN', 'NOUN', 'appos']	['福尔摩斯', '主题', 'appos']
+['CCONJ', 'PROPN', 'cc']	['和', '贝洛', 'cc']
+['PROPN', 'PROPN', 'conj']	['贝洛', '福尔摩斯', 'conj']
+['PUNCT', 'NOUN', 'punct']	['，', '主题', 'punct']
+['AUX', 'NOUN', 'cop']	['是', '作家', 'cop']
+['ADJ', 'NOUN', 'amod']	['强大', '作家', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '强大', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['散文', '作家', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['风格', '作家', 'nmod']
+['NOUN', 'ROOT', 'root']	['作家', 'NONE', 'root']
+['PUNCT', 'ADJ', 'punct']	['，', '较少', 'punct']
+['ADV', 'ADJ', 'mark']	['但', '较少', 'mark']
+['PRON', 'NOUN', 'nmod']	['他', '债务', 'nmod']
+['ADP', 'NOUN', 'case']	['对', '债务', 'case']
+['PROPN', 'PART', 'compound']	['英', '语', 'compound']
+['PART', 'PROPN', 'nmod']	['语', '圣经', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['圣经', '债务', 'nmod']
+['PART', 'PROPN', 'case']	['的', '圣经', 'case']
+['ADJ', 'NOUN', 'amod']	['直接', '债务', 'amod']
+['NOUN', 'ADJ', 'nmod']	['债务', '较少', 'nmod']
+['ADJ', 'NOUN', 'parataxis']	['较少', '作家', 'parataxis']
+['PUNCT', 'NOUN', 'punct']	['。', '作家', 'punct']
+----------------------------------------------------------------------
+《阿布泽洛姆》的风格，带有其特有的非词语、拉丁语、复杂的语法结构和普遍的奇异之处，与英国的《圣经》版本相比，它的简洁性是截然不同的。
+
+(ROOT (IP (NP (DNP (NP (-LRB- 《) (NNP 阿布泽洛姆) (-RRB- 》)) (DEC 的)) (NP (NN 风格))) (, ，) (VP (VP (VV 带有) (NP (NP (PRP 其)) (CP (CP (IP (VP (JJ 特有))) (DEC 的))) (NP (NP (ADJP (PFA 非)) (NP (NN 词语))) (EC 、) (NP (NNP 拉丁) (SFN 语)) (EC 、) (NP (CP (CP (IP (VP (JJ 复杂))) (DEC 的))) (NP (NN 语法) (NN 结构))) (CC 和) (NP (CP (CP (IP (VP (JJ 普遍))) (DEC 的))) (CP (CP (IP (VP (JJ 奇异))) (DEC 之))) (NP (NN 处)))))) (, ，) (IP (IP (VP (PP (IN 与) (NP (DNP (NP (NNP 英国)) (DEC 的)) (NP (-LRB- 《) (NN 圣经) (-RRB- 》)) (NP (NN 版本)))) (VP (VV 相比)))) (, ，) (NP (DNP (NP (PRP 它)) (DEC 的)) (NP (JJ 简洁) (SFN 性))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 截然不同))) (UH 的))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, ',': {}, 'VP': {'VP': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, ',': {}, 'VP': {'VP': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['PUNCT', 'PROPN', 'punct']	['《', '阿布泽洛姆', 'punct']
+['PROPN', 'NOUN', 'nmod']	['阿布泽洛姆', '风格', 'nmod']
+['PUNCT', 'PROPN', 'punct']	['》', '阿布泽洛姆', 'punct']
+['PART', 'PROPN', 'case']	['的', '阿布泽洛姆', 'case']
+['NOUN', 'ADJ', 'nsubj']	['风格', '截然不同', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '风格', 'punct']
+['VERB', 'ADJ', 'advcl']	['带有', '截然不同', 'advcl']
+['PRON', 'NOUN', 'nmod']	['其', '词语', 'nmod']
+['ADJ', 'NOUN', 'amod']	['特有', '词语', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '特有', 'mark:rel']
+['PART', 'NOUN', 'case']	['非', '词语', 'case']
+['NOUN', 'VERB', 'obj']	['词语', '带有', 'obj']
+['PUNCT', 'PART', 'punct']	['、', '语', 'punct']
+['PROPN', 'PART', 'compound']	['拉丁', '语', 'compound']
+['PART', 'NOUN', 'conj']	['语', '词语', 'conj']
+['PUNCT', 'NOUN', 'punct']	['、', '结构', 'punct']
+['ADJ', 'NOUN', 'amod']	['复杂', '结构', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '复杂', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['语法', '结构', 'nmod']
+['NOUN', 'NOUN', 'conj']	['结构', '词语', 'conj']
+['CCONJ', 'NOUN', 'cc']	['和', '处', 'cc']
+['ADJ', 'NOUN', 'amod']	['普遍', '处', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '普遍', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['奇异', '处', 'amod']
+['PART', 'ADJ', 'mark:rel']	['之', '奇异', 'mark:rel']
+['NOUN', 'NOUN', 'conj']	['处', '词语', 'conj']
+['PUNCT', 'VERB', 'punct']	['，', '带有', 'punct']
+['ADP', 'NOUN', 'case']	['与', '版本', 'case']
+['PROPN', 'NOUN', 'nmod']	['英国', '圣经', 'nmod']
+['PART', 'PROPN', 'case']	['的', '英国', 'case']
+['PUNCT', 'NOUN', 'punct']	['《', '圣经', 'punct']
+['NOUN', 'NOUN', 'nmod']	['圣经', '版本', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['》', '圣经', 'punct']
+['NOUN', 'VERB', 'obl']	['版本', '相比', 'obl']
+['VERB', 'ADJ', 'advcl']	['相比', '截然不同', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '相比', 'punct']
+['PRON', 'PART', 'det']	['它', '性', 'det']
+['PART', 'PRON', 'case']	['的', '它', 'case']
+['ADJ', 'PART', 'compound']	['简洁', '性', 'compound']
+['PART', 'ADJ', 'nsubj']	['性', '截然不同', 'nsubj']
+['AUX', 'ADJ', 'cop']	['是', '截然不同', 'cop']
+['ADJ', 'ROOT', 'root']	['截然不同', 'NONE', 'root']
+['PART', 'ADJ', 'discourse']	['的', '截然不同', 'discourse']
+['PUNCT', 'ADJ', 'punct']	['。', '截然不同', 'punct']
+----------------------------------------------------------------------
+然而，正如福克纳的标题所宣告的那样，这部小说的情节是基于大卫王生活中的事件：塔玛被强奸，安非恩被谋杀，阿布撒勒姆叛乱。
+
+(ROOT (IP (ADVP (RB 然而)) (, ，) (PP (IN 正如) (NP (CP (CP (IP (NP (DNP (NP (NNP 福克纳)) (DEC 的)) (NP (NN 标题))) (VP (RB 所) (VP (VV 宣告)))) (DEC 的))) (NP (PRD 那样)))) (, ，) (NP (DNP (NP (DP (DT 这) (CLP (NNB 部))) (NP (NN 小说))) (DEC 的)) (NP (NN 情节))) (VP (VC 是) (NP (CP (CP (IP (VP (VV 基) (PP (VV 于) (LCP (NP (NP (NNP 大卫) (SFN 王)) (NP (NN 生活))) (IN 中))))) (DEC 的))) (NP (NN 事件)))) (: ：)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',93742': {}, 'NP': {}, 'VP': {}, ':': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, ':': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'PP': {'IN': {}, 'NP': {}}, ',80564': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, ':': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, ':': {}}}
+{'ADVP': {'RB': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['然而', '是', 'mark']
+['PUNCT', 'ADV', 'punct']	['，', '然而', 'punct']
+['ADP', 'PRON', 'case']	['正如', '那样', 'case']
+['PROPN', 'NOUN', 'nmod']	['福克纳', '标题', 'nmod']
+['PART', 'PROPN', 'case']	['的', '福克纳', 'case']
+['NOUN', 'VERB', 'nsubj']	['标题', '宣告', 'nsubj']
+['ADV', 'VERB', 'mark']	['所', '宣告', 'mark']
+['VERB', 'PRON', 'acl:relcl']	['宣告', '那样', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '宣告', 'mark:rel']
+['PRON', 'VERB', 'obl']	['那样', '是', 'obl']
+['PUNCT', 'PRON', 'punct']	['，', '那样', 'punct']
+['DET', 'NOUN', 'det']	['这', '部', 'det']
+['NOUN', 'NOUN', 'clf']	['部', '小说', 'clf']
+['NOUN', 'NOUN', 'nmod']	['小说', '情节', 'nmod']
+['PART', 'NOUN', 'case']	['的', '小说', 'case']
+['NOUN', 'VERB', 'nsubj']	['情节', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['基', '是', 'xcomp']
+['VERB', 'VERB', 'mark']	['于', '基', 'mark']
+['PROPN', 'PART', 'compound']	['大卫', '王', 'compound']
+['PART', 'NOUN', 'nmod']	['王', '生活', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['生活', '事件', 'nmod']
+['ADP', 'NOUN', 'case']	['中', '生活', 'case']
+['PART', 'VERB', 'mark:rel']	['的', '基', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['事件', '基', 'obj']
+['PUNCT', 'VERB', 'punct']	['：', '是', 'punct']
+----------------------------------------------------------------------
+福尔克在书中，围绕着来自《金丝雀版》圣经的某些原始单词构建了这部书：“先天权利、诅咒、土地或大地、名字和家族……种子、出生地、遗产、房屋、血脉……灰尘和陶土。”
+
+(ROOT (IP (NP (NNP 福尔克)) (VP (PP (IN 在) (NP (NN 书中))) (, ，) (VP (VP (VV 围绕) (AS 着) (NP (CP (CP (IP (VP (VV 来) (PP (IN 自) (NP (NP (-LRB- 《) (NN 金丝) (SFN 雀) (SFN 版) (-RRB- 》)) (NP (NNP 圣经)))))) (DEC 的))) (DP (DT 某些)) (ADJP (JJ 原始)) (ADJP (CD 单)) (NP (NN 词)))) (VP (VV 构建) (AS 了) (NP (NP (DP (DT 这) (CLP (NNB 部))) (NP (NN 书))) (: ：) (NP (`` “) (NP (ADJP (NN 先天)) (NP (NN 权利))) (EC 、) (NP (NN 诅咒)) (EC 、) (NP (NN 土地)) (CC 或) (NP (NN 大地)) (EC 、) (NP (NN 名字)) (CC 和) (NP (NN 家族) (NN ……) (NN 种子)) (EC 、) (NP (NN 出生) (SFN 地)) (EC 、) (NP (NN 遗产)) (EC 、) (NP (NN 房屋)) (EC 、) (NP (NN 血脉)) (NP (EC ……) (NP (NN 灰尘))) (CC 和) (NP (NN 陶土))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'PP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['福尔克', '构建', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '书中', 'case']
+['NOUN', 'VERB', 'obl']	['书中', '围绕', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '书中', 'punct']
+['VERB', 'VERB', 'advcl']	['围绕', '构建', 'advcl']
+['AUX', 'VERB', 'aux']	['着', '围绕', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['来', '词', 'acl:relcl']
+['ADP', 'PART', 'case']	['自', '版', 'case']
+['PUNCT', 'PART', 'punct']	['《', '版', 'punct']
+['NOUN', 'PART', 'compound']	['金丝', '雀', 'compound']
+['PART', 'PART', 'compound']	['雀', '版', 'compound']
+['PART', 'PROPN', 'nmod']	['版', '圣经', 'nmod']
+['PUNCT', 'PART', 'punct']	['》', '版', 'punct']
+['PROPN', 'VERB', 'obl']	['圣经', '来', 'obl']
+['PART', 'VERB', 'mark:rel']	['的', '来', 'mark:rel']
+['DET', 'NOUN', 'det']	['某些', '词', 'det']
+['ADJ', 'NOUN', 'amod']	['原始', '词', 'amod']
+['NUM', 'NOUN', 'nummod']	['单', '词', 'nummod']
+['NOUN', 'VERB', 'obj']	['词', '围绕', 'obj']
+['VERB', 'ROOT', 'root']	['构建', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '构建', 'aux']
+['DET', 'NOUN', 'det']	['这', '部', 'det']
+['NOUN', 'NOUN', 'clf']	['部', '书', 'clf']
+['NOUN', 'VERB', 'obj']	['书', '构建', 'obj']
+['PUNCT', 'NOUN', 'punct']	['：', '权利', 'punct']
+['PUNCT', 'NOUN', 'punct']	['“', '权利', 'punct']
+['NOUN', 'NOUN', 'nmod']	['先天', '权利', 'nmod']
+['NOUN', 'VERB', 'obj']	['权利', '构建', 'obj']
+['PUNCT', 'NOUN', 'punct']	['、', '诅咒', 'punct']
+['NOUN', 'NOUN', 'conj']	['诅咒', '权利', 'conj']
+['PUNCT', 'NOUN', 'punct']	['、', '土地', 'punct']
+['NOUN', 'NOUN', 'conj']	['土地', '权利', 'conj']
+['CCONJ', 'NOUN', 'cc']	['或', '大地', 'cc']
+['NOUN', 'NOUN', 'conj']	['大地', '权利', 'conj']
+['PUNCT', 'NOUN', 'punct']	['、', '名字', 'punct']
+['NOUN', 'NOUN', 'conj']	['名字', '权利', 'conj']
+['CCONJ', 'NOUN', 'cc']	['和', '种子', 'cc']
+['NOUN', 'NOUN', 'nmod']	['家族', '种子', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['……', '种子', 'nmod']
+['NOUN', 'NOUN', 'conj']	['种子', '权利', 'conj']
+['PUNCT', 'PART', 'punct']	['、', '地', 'punct']
+['NOUN', 'PART', 'compound']	['出生', '地', 'compound']
+['PART', 'NOUN', 'conj']	['地', '权利', 'conj']
+['PUNCT', 'NOUN', 'punct']	['、', '遗产', 'punct']
+['NOUN', 'NOUN', 'conj']	['遗产', '权利', 'conj']
+['PUNCT', 'NOUN', 'punct']	['、', '房屋', 'punct']
+['NOUN', 'NOUN', 'conj']	['房屋', '权利', 'conj']
+['PUNCT', 'NOUN', 'punct']	['、', '血脉', 'punct']
+['NOUN', 'NOUN', 'conj']	['血脉', '权利', 'conj']
+['PUNCT', 'NOUN', 'punct']	['……', '灰尘', 'punct']
+['NOUN', 'NOUN', 'conj']	['灰尘', '权利', 'conj']
+['CCONJ', 'NOUN', 'cc']	['和', '陶土', 'cc']
+['NOUN', 'NOUN', 'conj']	['陶土', '权利', 'conj']
+['PUNCT', 'NOUN', 'punct']	['。', '权利', 'punct']
+['PUNCT', 'NOUN', 'punct']	['”', '权利', 'punct']
+----------------------------------------------------------------------
+贝洛的《金伯利圣经》的影响更为渺茫，奥特为了证明他的选择，尽力找出理由，他写道：“我选择的短篇小说《抓住一天》……可能会让人觉得有点奇怪。”与梅尔维尔和弗考尔不同，贝洛并没有来自充满英语圣经节奏和形象的文化。
+
+(ROOT (IP (IP (NP (DNP (NP (DNP (NP (NNP 贝洛)) (DEC 的)) (NP (-LRB- 《) (NNP 金伯利) (NN 圣经) (-RRB- 》))) (DEC 的)) (NP (NN 影响))) (VP (ADVP (RB 更为)) (VP (JJ 渺茫)))) (, ，) (IP (NP (NNP 奥特)) (VP (PP (IN 为了) (IP (VP (VV 证明) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 选择)))))) (, ，) (ADVP (RB 尽力)) (VP (VV 找出) (NP (NN 理由))))) (, ，) (IP (NP (PRP 他)) (VP (VV 写道) (: ：) (IP (`` “) (IP (NP (CP (CP (IP (NP (PRP 我)) (VP (VV 选择))) (DEC 的))) (NP (NN 短篇) (NN 小说))) (IP (-LRB- 《) (VP (VV 抓住) (QP (CD 一) (CLP (NNB 天)))) (-RRB- 》))) (, ……) (VP (MD 可能) (VP (MD 会) (VP (VV 让) (NP (NN 人)) (IP (VP (VV 觉得) (IP (VP (ADVP (VV 有点)) (VP (JJ 奇怪)))))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP49998': {}, ',2181': {}, 'IP63485': {}, '.': {}, "''": {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP41639': {'NP': {}, 'VP': {}}, ',61681': {}, 'IP64434': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['贝洛', '圣经', 'nmod']
+['PART', 'PROPN', 'case']	['的', '贝洛', 'case']
+['PUNCT', 'NOUN', 'punct']	['《', '圣经', 'punct']
+['PROPN', 'NOUN', 'nmod']	['金伯利', '圣经', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['圣经', '影响', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['》', '圣经', 'punct']
+['PART', 'NOUN', 'case']	['的', '圣经', 'case']
+['NOUN', 'ADJ', 'nsubj']	['影响', '渺茫', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['更为', '渺茫', 'advmod']
+['ADJ', 'ROOT', 'root']	['渺茫', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '写道', 'punct']
+['PROPN', 'VERB', 'nsubj']	['奥特', '找出', 'nsubj']
+['ADP', 'VERB', 'case']	['为了', '证明', 'case']
+['VERB', 'VERB', 'xcomp']	['证明', '找出', 'xcomp']
+['PRON', 'NOUN', 'det']	['他', '选择', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'VERB', 'obj']	['选择', '证明', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '证明', 'punct']
+['ADV', 'VERB', 'advmod']	['尽力', '找出', 'advmod']
+['VERB', 'VERB', 'ccomp']	['找出', '写道', 'ccomp']
+['NOUN', 'VERB', 'obj']	['理由', '找出', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '写道', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '写道', 'nsubj']
+['VERB', 'ADJ', 'parataxis']	['写道', '渺茫', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['：', '让', 'punct']
+['PUNCT', 'VERB', 'punct']	['“', '让', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '选择', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['选择', '小说', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '选择', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['短篇', '小说', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['小说', '让', 'nsubj']
+['PUNCT', 'VERB', 'punct']	['《', '抓住', 'punct']
+['VERB', 'NOUN', 'appos']	['抓住', '小说', 'appos']
+['NUM', 'NOUN', 'nummod']	['一', '天', 'nummod']
+['NOUN', 'VERB', 'obj']	['天', '抓住', 'obj']
+['PUNCT', 'VERB', 'punct']	['》', '抓住', 'punct']
+['PUNCT', 'NOUN', 'punct']	['……', '小说', 'punct']
+['AUX', 'VERB', 'aux']	['可能', '让', 'aux']
+['AUX', 'VERB', 'aux']	['会', '让', 'aux']
+['VERB', 'VERB', 'ccomp']	['让', '写道', 'ccomp']
+['NOUN', 'VERB', 'nsubj']	['人', '觉得', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['觉得', '让', 'ccomp']
+['VERB', 'VERB', 'xcomp']	['有点', '觉得', 'xcomp']
+['ADJ', 'VERB', 'xcomp']	['奇怪', '有点', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '让', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '让', 'punct']
+----------------------------------------------------------------------
+他在青少年时期既会说英语，也会说法语（在魁北克）和意第绪语，是埃尔特讨论的唯一一位熟悉原始希伯来圣经的作家，他在传统的犹太学校学习过希伯来语。
+
+(ROOT (IP (IP (NP (PRP 他)) (VP (PP (IN 在) (NP (NP (ADJP (NNP 青)) (NP (NN 少年))) (NP (NN 时期)))) (VP (VP (CC 既) (VP (MD 会) (VP (VV 说) (NP (NNP 英) (SFN 语)))) (, ，) (RB 也) (VP (MD 会) (VP (VP (VP (VV 说法) (NP (SFN 语))) (PRN (-LRB- （) (PP (VV 在) (NP (NNP 魁北克))) (-RRB- ）))) (CC 和) (NP (NP (NN 意) (NNP 第绪)) (NP (SFN 语)))))) (, ，) (VP (VC 是) (NP (CP (CP (IP (NP (NNP 埃尔特)) (VP (VV 讨论))) (DEC 的))) (QP (ADJP (JJ 唯一)) (QP (CD 一) (CLP (NNB 位)))) (CP (CP (IP (VP (VV 熟悉) (NP (ADJP (JJ 原始)) (NP (NNP 希伯来) (NN 圣经))))) (DEC 的))) (NP (NN 作家))))))) (, ，) (IP (NP (PRP 他)) (VP (PP (VV 在) (NP (DNP (ADJP (NN 传统)) (DEC 的)) (NP (NNP 犹太) (NN 学校)))) (VP (VV 学习) (AS 过) (NP (NP (NNP 希伯来)) (NP (SFN 语)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP70857': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP6304': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'nsubj']	['他', '作家', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '时期', 'case']
+['PROPN', 'NOUN', 'nmod']	['青', '时期', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['少年', '时期', 'nmod']
+['NOUN', 'VERB', 'obl']	['时期', '说', 'obl']
+['CCONJ', 'VERB', 'cc']	['既', '说', 'cc']
+['AUX', 'VERB', 'aux']	['会', '说', 'aux']
+['VERB', 'PART', 'conj']	['说', '语', 'conj']
+['PROPN', 'PART', 'compound']	['英', '语', 'compound']
+['PART', 'VERB', 'obj']	['语', '说', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '说', 'punct']
+['ADV', 'PART', 'mark']	['也', '语', 'mark']
+['AUX', 'PART', 'aux']	['会', '语', 'aux']
+['VERB', 'PART', 'compound']	['说法', '语', 'compound']
+['PART', 'NOUN', 'nmod']	['语', '作家', 'nmod']
+['PUNCT', 'VERB', 'punct']	['（', '在', 'punct']
+['VERB', 'PART', 'parataxis']	['在', '语', 'parataxis']
+['PROPN', 'VERB', 'obj']	['魁北克', '在', 'obj']
+['PUNCT', 'VERB', 'punct']	['）', '在', 'punct']
+['CCONJ', 'NOUN', 'cc']	['和', '意', 'cc']
+['NOUN', 'PART', 'conj']	['意', '语', 'conj']
+['PROPN', 'PART', 'compound']	['第绪', '语', 'compound']
+['PART', 'PART', 'conj']	['语', '语', 'conj']
+['PUNCT', 'PART', 'punct']	['，', '语', 'punct']
+['AUX', 'NOUN', 'cop']	['是', '作家', 'cop']
+['PROPN', 'VERB', 'nsubj']	['埃尔特', '讨论', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['讨论', '作家', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '讨论', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['唯一', '作家', 'amod']
+['NUM', 'NOUN', 'nummod']	['一', '位', 'nummod']
+['NOUN', 'NOUN', 'clf']	['位', '作家', 'clf']
+['VERB', 'NOUN', 'acl:relcl']	['熟悉', '作家', 'acl:relcl']
+['ADJ', 'NOUN', 'amod']	['原始', '圣经', 'amod']
+['PROPN', 'NOUN', 'nmod']	['希伯来', '圣经', 'nmod']
+['NOUN', 'VERB', 'obj']	['圣经', '熟悉', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '熟悉', 'mark:rel']
+['NOUN', 'ROOT', 'root']	['作家', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '学习', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '学习', 'nsubj']
+['VERB', 'VERB', 'advcl']	['在', '学习', 'advcl']
+['NOUN', 'NOUN', 'nmod']	['传统', '学校', 'nmod']
+['PART', 'NOUN', 'case']	['的', '传统', 'case']
+['PROPN', 'NOUN', 'nmod']	['犹太', '学校', 'nmod']
+['NOUN', 'VERB', 'obj']	['学校', '在', 'obj']
+['VERB', 'NOUN', 'parataxis']	['学习', '作家', 'parataxis']
+['AUX', 'VERB', 'aux']	['过', '学习', 'aux']
+['PROPN', 'PART', 'compound']	['希伯来', '语', 'compound']
+['PART', 'VERB', 'obj']	['语', '学习', 'obj']
+['PUNCT', 'NOUN', 'punct']	['。', '作家', 'punct']
+----------------------------------------------------------------------
+这意味着“金丝雀版本对贝洛是一种逐渐形成的嗜好；”更多的是，“宣称圣经英文版本是…………是一种意识形态的美国特色。”然而，艾尔特发现，除了贝洛用来描述汤米·维尔海姆被敌人包围的感觉的《诗篇》的引用之外，《把握一天》中几乎没有找到圣经的具体痕迹。
+
+(ROOT (IP (IP (NP (PRD 这)) (VP (VV 意味) (AS 着) (IP (`` “) (NP (NN 金丝) (SFN 雀) (NN 版本)) (VP (PP (IN 对) (NP (NNP 贝洛))) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (CP (CP (IP (VP (ADVP (RB 逐渐)) (VP (VV 形成)))) (DEC 的))) (NP (NN 嗜好)))))))) (: ；) ('' ”) (IP (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的)))) (VP (VC 是) (, ，) (IP (`` “) (VP (VV 宣称) (IP (NP (NP (NNP 圣经)) (NP (NNP 英) (SFN 文) (NN 版本))) (VP (VC 是) (IP (NP (NN …………)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (DNP (NP (NN 意识) (NN 形态)) (DEC 的)) (NP (NNP 美国)) (NP (NN 特色))))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, "''": {}, 'IP42692': {}, '.': {}, "''35045": {}}}
+{'IP': {'IP': {}, ':': {}, "''": {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, "''": {}, 'IP44995': {'NP': {}, 'VP': {}}, '.': {}, "''66573": {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, "''": {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['这', '意味', 'nsubj']
+['VERB', 'ROOT', 'root']	['意味', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['着', '意味', 'aux']
+['PUNCT', 'NOUN', 'punct']	['“', '版本', 'punct']
+['NOUN', 'PART', 'compound']	['金丝', '雀', 'compound']
+['PART', 'NOUN', 'nmod']	['雀', '版本', 'nmod']
+['NOUN', 'NOUN', 'nsubj']	['版本', '嗜好', 'nsubj']
+['ADP', 'PROPN', 'case']	['对', '贝洛', 'case']
+['PROPN', 'NOUN', 'nmod']	['贝洛', '嗜好', 'nmod']
+['AUX', 'NOUN', 'cop']	['是', '嗜好', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '种', 'nummod']
+['NOUN', 'NOUN', 'clf']	['种', '嗜好', 'clf']
+['ADV', 'VERB', 'advmod']	['逐渐', '形成', 'advmod']
+['VERB', 'NOUN', 'acl:relcl']	['形成', '嗜好', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '形成', 'mark:rel']
+['NOUN', 'VERB', 'ccomp']	['嗜好', '是', 'ccomp']
+['PUNCT', 'NOUN', 'punct']	['；', '嗜好', 'punct']
+['PUNCT', 'NOUN', 'punct']	['”', '嗜好', 'punct']
+['ADJ', 'VERB', 'csubj']	['更多', '是', 'csubj']
+['PART', 'ADJ', 'mark:rel']	['的', '更多', 'mark:rel']
+['VERB', 'VERB', 'ccomp']	['是', '意味', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '宣称', 'punct']
+['PUNCT', 'VERB', 'punct']	['“', '宣称', 'punct']
+['VERB', 'VERB', 'xcomp']	['宣称', '是', 'xcomp']
+['PROPN', 'NOUN', 'nmod']	['圣经', '版本', 'nmod']
+['PROPN', 'PART', 'compound']	['英', '文', 'compound']
+['PART', 'NOUN', 'nmod']	['文', '版本', 'nmod']
+['NOUN', 'NOUN', 'nsubj']	['版本', '特色', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '特色', 'cop']
+['NOUN', 'NOUN', 'nsubj']	['…………', '形态', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '形态', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '种', 'nummod']
+['NOUN', 'NOUN', 'clf']	['种', '形态', 'clf']
+['NOUN', 'NOUN', 'nmod']	['意识', '形态', 'nmod']
+['NOUN', 'NOUN', 'acl:relcl']	['形态', '特色', 'acl:relcl']
+['PART', 'NOUN', 'mark:rel']	['的', '形态', 'mark:rel']
+['PROPN', 'NOUN', 'nmod']	['美国', '特色', 'nmod']
+['NOUN', 'VERB', 'ccomp']	['特色', '宣称', 'ccomp']
+['PUNCT', 'NOUN', 'punct']	['。', '特色', 'punct']
+['PUNCT', 'NOUN', 'punct']	['”', '特色', 'punct']
+----------------------------------------------------------------------
+事实上，圣经曾经提供过一种典范、普遍的语言，这种语言的消失，正是贝洛的小说的主题之一：“每个人都说着完全属于自己的语言，他们是通过私人思考才掌握的，”维尔纳抱怨着。
+
+(ROOT (IP (IP (LCP (NP (NN 事实)) (IN 上)) (, ，) (NP (NNP 圣经)) (VP (ADVP (RB 曾经)) (VP (VV 提供) (AS 过) (NP (QP (CD 一) (CLP (NNB 种))) (NP (NP (NN 典范)) (EC 、) (NP (CP (CP (IP (VP (JJ 普遍))) (DEC 的))) (NP (NN 语言)))))))) (, ，) (IP (NP (DNP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 语言))) (DEC 的)) (NP (NN 消失))) (, ，) (VP (VC 正是) (NP (DNP (NP (DNP (NP (DNP (NP (NNP 贝洛)) (DEC 的)) (NP (NN 小说))) (DEC 的)) (NP (NN 主题))) (DEC 之)) (NP (CD 一))))) (: ：)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP28111': {}, ':': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ':': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP42612': {'NP': {}, ',': {}, 'VP': {}}, ':': {}}}
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'VP': {}}, ':': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'obl']	['事实', '提供', 'obl']
+['ADP', 'NOUN', 'case']	['上', '事实', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '事实', 'punct']
+['PROPN', 'VERB', 'nsubj']	['圣经', '提供', 'nsubj']
+['ADV', 'VERB', 'advmod']	['曾经', '提供', 'advmod']
+['VERB', 'ROOT', 'root']	['提供', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['过', '提供', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '种', 'nummod']
+['NOUN', 'NOUN', 'clf']	['种', '典范', 'clf']
+['NOUN', 'VERB', 'obj']	['典范', '提供', 'obj']
+['PUNCT', 'NOUN', 'punct']	['、', '语言', 'punct']
+['ADJ', 'NOUN', 'amod']	['普遍', '语言', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '普遍', 'mark:rel']
+['NOUN', 'NOUN', 'conj']	['语言', '典范', 'conj']
+['PUNCT', 'NUM', 'punct']	['，', '一', 'punct']
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '语言', 'clf']
+['NOUN', 'NOUN', 'nmod']	['语言', '消失', 'nmod']
+['PART', 'NOUN', 'case']	['的', '语言', 'case']
+['NOUN', 'NUM', 'nsubj']	['消失', '一', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '消失', 'punct']
+['AUX', 'NUM', 'cop']	['是', '一', 'cop']
+['PROPN', 'NOUN', 'nmod']	['贝洛', '小说', 'nmod']
+['PART', 'PROPN', 'case']	['的', '贝洛', 'case']
+['NOUN', 'NOUN', 'nmod']	['小说', '主题', 'nmod']
+['PART', 'NOUN', 'case']	['的', '小说', 'case']
+['NOUN', 'NUM', 'nmod']	['主题', '一', 'nmod']
+['PART', 'NOUN', 'case']	['之', '主题', 'case']
+['NUM', 'VERB', 'parataxis']	['一', '提供', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['：', '提供', 'punct']
+----------------------------------------------------------------------
+《铁笔》很有说服力地论证，如果不了解《金王纪百科全书》，就不可能充分理解美国文学——事实上，如果不知道它，就像美国几代人曾经知道它一样，几乎是天生就知道的。
+
+(ROOT (IP (IP (NP (-LRB- 《) (NN 铁笔) (-RRB- 》)) (VP (DVP (VP (ADVP (RB 很)) (VP (VV 有) (NP (VV 说服) (SFN 力)))) (DEV 地)) (VP (VV 论证)))) (, ，) (IP (VP (IP (VP (ADVP (IN 如果)) (ADVP (RB 不)) (VP (VV 了解) (NP (-LRB- 《) (NP (NN 金) (NNP 王纪)) (NP (QP (CD 百)) (NP (NN 科))) (NP (NN 全书)) (-RRB- 》))))) (, ，) (ADVP (RB 就)) (ADVP (RB 不)) (VP (MD 可能) (VP (ADVP (RB 充分)) (VP (VV 理解) (NP (NP (NNP 美国)) (NP (NN 文学)))))))) (HYPH —)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP87009': {}, 'HYPH': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, 'HYPH': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP81222': {'VP': {}}, 'HYPH': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, 'HYPH': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+['PUNCT', 'NOUN', 'punct']	['《', '铁笔', 'punct']
+['NOUN', 'VERB', 'nsubj']	['铁笔', '论证', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['》', '铁笔', 'punct']
+['ADV', 'VERB', 'advmod']	['很', '有', 'advmod']
+['VERB', 'VERB', 'advcl']	['有', '论证', 'advcl']
+['VERB', 'PART', 'compound']	['说服', '力', 'compound']
+['PART', 'VERB', 'obj']	['力', '有', 'obj']
+['PART', 'VERB', 'mark:adv']	['地', '论证', 'mark:adv']
+['VERB', 'ROOT', 'root']	['论证', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '理解', 'punct']
+['ADP', 'VERB', 'case']	['如果', '了解', 'case']
+['ADV', 'VERB', 'advmod']	['不', '了解', 'advmod']
+['VERB', 'VERB', 'xcomp']	['了解', '理解', 'xcomp']
+['PUNCT', 'NOUN', 'punct']	['《', '全书', 'punct']
+['NOUN', 'NOUN', 'nmod']	['金', '全书', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['王纪', '全书', 'nmod']
+['NUM', 'NOUN', 'nummod']	['百', '科', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['科', '全书', 'nmod']
+['NOUN', 'VERB', 'obj']	['全书', '了解', 'obj']
+['PUNCT', 'NOUN', 'punct']	['》', '全书', 'punct']
+['PUNCT', 'VERB', 'punct']	['，', '了解', 'punct']
+['ADV', 'VERB', 'mark']	['就', '理解', 'mark']
+['ADV', 'VERB', 'advmod']	['不', '理解', 'advmod']
+['AUX', 'VERB', 'aux']	['可能', '理解', 'aux']
+['ADV', 'VERB', 'advmod']	['充分', '理解', 'advmod']
+['VERB', 'VERB', 'ccomp']	['理解', '论证', 'ccomp']
+['PROPN', 'NOUN', 'nmod']	['美国', '文学', 'nmod']
+['NOUN', 'VERB', 'obj']	['文学', '理解', 'obj']
+['PUNCT', 'VERB', 'punct']	['—', '理解', 'punct']
+----------------------------------------------------------------------
+问题是，在过去的一个世纪里，圣经的阅读量大幅下降，尽管圣经的翻译和版本层出不穷（有几个免费的应用程序可以把整个 King James 圣经以及许多其他版本放在您的 iPhone 上）。通过 Alter 的镜头来阅读最近的美国小说可能很有趣：你能在大卫·福斯特·沃尔科特的文学中听到圣经的声音吗？或者 Lyndia Davis 的呢？
+
+(ROOT (IP (NP (NN 问题)) (VP (VC 是) (, ，) (IP (IP (PP (IN 在) (LCP (NP (DNP (NP (NN 过去)) (DEC 的)) (QP (CD 一) (CLP (NNB 个))) (NP (NN 世纪))) (IN 里))) (, ，) (NP (DNP (NP (NNP 圣经)) (DEC 的)) (NP (VV 阅读) (SFN 量))) (VP (ADVP (RB 大幅)) (VP (VV 下降)))) (, ，) (IP (CP (ADVP (IN 尽管)) (IP (NP (DNP (NP (NN 圣经)) (DEC 的)) (NP (NN 翻译) (CC 和) (NN 版本))) (VP (VCD (VV 层出) (JJ 不穷))))) (PRN (-LRB- （) (IP (VP (VV 有) (IP (NP (QP (CD 几) (CLP (NNB 个))) (DNP (ADJP (JJ 免费)) (DEC 的)) (NP (NN 应用) (NN 程序))) (VP (MD 可以) (VP (BB 把) (IP (NP (NP (DP (DT 整个)) (NP (FW King) (FW James) (NN 圣经))) (CC 以及) (NP (QP (CD 许多)) (DP (DT 其他)) (NP (NN 版本)))) (VP (VV 放) (PP (VV 在) (LCP (NP (DNP (NP (PRP 您)) (DEC 的)) (NP (FW iPhone))) (NN 上）)))))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nsubj']	['问题', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '下降', 'punct']
+['ADP', 'NOUN', 'case']	['在', '世纪', 'case']
+['NOUN', 'NOUN', 'nmod']	['过去', '世纪', 'nmod']
+['PART', 'NOUN', 'case']	['的', '过去', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '世纪', 'clf']
+['NOUN', 'VERB', 'obl']	['世纪', '下降', 'obl']
+['ADP', 'NOUN', 'case']	['里', '世纪', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '世纪', 'punct']
+['PROPN', 'PART', 'nmod']	['圣经', '量', 'nmod']
+['PART', 'PROPN', 'case']	['的', '圣经', 'case']
+['VERB', 'PART', 'compound']	['阅读', '量', 'compound']
+['PART', 'VERB', 'nsubj']	['量', '下降', 'nsubj']
+['ADV', 'VERB', 'advmod']	['大幅', '下降', 'advmod']
+['VERB', 'VERB', 'advcl']	['下降', '有', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '下降', 'punct']
+['ADP', 'VERB', 'case']	['尽管', '层出', 'case']
+['NOUN', 'NOUN', 'nmod']	['圣经', '翻译', 'nmod']
+['PART', 'NOUN', 'case']	['的', '圣经', 'case']
+['NOUN', 'VERB', 'nsubj']	['翻译', '层出', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '版本', 'cc']
+['NOUN', 'NOUN', 'conj']	['版本', '翻译', 'conj']
+['VERB', 'VERB', 'ccomp']	['层出', '有', 'ccomp']
+['ADJ', 'VERB', 'xcomp']	['不穷', '层出', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['（', '层出', 'punct']
+['VERB', 'VERB', 'ccomp']	['有', '是', 'ccomp']
+['NUM', 'NOUN', 'nummod']	['几', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '程序', 'clf']
+['ADJ', 'NOUN', 'amod']	['免费', '程序', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '免费', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['应用', '程序', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['程序', '放', 'nsubj']
+['AUX', 'VERB', 'aux']	['可以', '放', 'aux']
+['ADP', 'NOUN', 'case']	['把', '圣经', 'case']
+['DET', 'NOUN', 'det']	['整个', '圣经', 'det']
+['X', 'NOUN', 'nmod']	['King', '圣经', 'nmod']
+['X', 'X', 'flat:foreign']	['James', 'King', 'flat:foreign']
+['NOUN', 'VERB', 'obl:patient']	['圣经', '放', 'obl:patient']
+['CCONJ', 'NOUN', 'cc']	['以及', '版本', 'cc']
+['NUM', 'NOUN', 'nummod']	['许多', '版本', 'nummod']
+['DET', 'NOUN', 'det']	['其他', '版本', 'det']
+['NOUN', 'NOUN', 'conj']	['版本', '圣经', 'conj']
+['VERB', 'VERB', 'ccomp']	['放', '有', 'ccomp']
+['VERB', 'VERB', 'mark']	['在', '放', 'mark']
+['PRON', 'NOUN', 'det']	['您', '上）', 'det']
+['PART', 'PRON', 'mark:rel']	['的', '您', 'mark:rel']
+['X', 'NOUN', 'nmod']	['iPhone', '上）', 'nmod']
+['NOUN', 'VERB', 'obj']	['上）', '放', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+“这对我们文学史而言，是一个重要的观点。”阿尔特在《钢笔》的结尾写道，“无论它有多么过时，经典文本中那种具有共鸣力的语言和令人印象深刻的视觉效果，在文化记忆中仍然响彻扬声。”
+
+(ROOT (IP (`` “) (NP (PRD 这)) (VP (IP (VP (PP (IN 对) (NP (NP (PRP 我们)) (NP (NN 文学) (SFN 史)))) (VP (RB 而) (VP (VV 言))))) (, ，) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 重要))) (DEC 的))) (NP (NN 观点))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'PRD': {}}, 'VP': {'IP': {}, ',': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {'PRD': {}}, 'VP': {'IP': {}, ',': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'IP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PUNCT', 'NOUN', 'punct']	['“', '观点', 'punct']
+['PRON', 'NOUN', 'nsubj']	['这', '观点', 'nsubj']
+['ADP', 'PART', 'case']	['对', '史', 'case']
+['PRON', 'PART', 'nmod']	['我', '史', 'nmod']
+['NOUN', 'PART', 'compound']	['文学', '史', 'compound']
+['PART', 'VERB', 'obl']	['史', '言', 'obl']
+['ADV', 'VERB', 'mark']	['而', '言', 'mark']
+['VERB', 'NOUN', 'acl']	['言', '观点', 'acl']
+['PUNCT', 'VERB', 'punct']	['，', '言', 'punct']
+['AUX', 'NOUN', 'cop']	['是', '观点', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '观点', 'clf']
+['ADJ', 'NOUN', 'amod']	['重要', '观点', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '重要', 'mark:rel']
+['NOUN', 'ROOT', 'root']	['观点', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['。', '观点', 'punct']
+['PUNCT', 'NOUN', 'punct']	['”', '观点', 'punct']
+----------------------------------------------------------------------
+我想知道，环形耳机的音量到底要怎样才能变得很轻，我们才会完全停止听到它的声音。
+
+(ROOT (IP (NP (PRP 我)) (VP (MD 想) (IP (VP (VV 知道) (, ，) (IP (IP (NP (DNP (NP (NP (ADJP (NN 环形)) (NP (SFN 耳))) (NP (SFN 机))) (DEC 的)) (NP (NN 音量))) (VP (ADVP (RB 到底)) (VP (VP (MD 要) (VP (RB 怎样))) (VP (MD 才能) (VP (VV 变得) (VP (JJ 很轻))))))) (, ，) (IP (NP (PRP 我们)) (VP (ADVP (RB 才)) (VP (MD 会) (VP (ADVP (RB 完全)) (VP (VV 停止) (IP (VP (VV 听到) (NP (DNP (NP (PRP 它)) (DEC 的)) (NP (NN 声音)))))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'MD': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'MD': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'MD': {}, 'IP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['我', '知道', 'nsubj']
+['AUX', 'VERB', 'aux']	['想', '知道', 'aux']
+['VERB', 'ROOT', 'root']	['知道', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '变得', 'punct']
+['NOUN', 'PART', 'compound']	['环形', '耳', 'compound']
+['PART', 'PART', 'compound']	['耳', '机', 'compound']
+['PART', 'NOUN', 'nmod']	['机', '音量', 'nmod']
+['PART', 'PART', 'case']	['的', '机', 'case']
+['NOUN', 'VERB', 'nsubj']	['音量', '变得', 'nsubj']
+['ADV', 'VERB', 'advmod']	['到底', '变得', 'advmod']
+['AUX', 'VERB', 'aux']	['要', '变得', 'aux']
+['ADV', 'VERB', 'advmod']	['怎样', '变得', 'advmod']
+['AUX', 'VERB', 'aux']	['才能', '变得', 'aux']
+['VERB', 'VERB', 'advcl']	['变得', '停止', 'advcl']
+['ADJ', 'VERB', 'xcomp']	['很轻', '变得', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '变得', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '停止', 'nsubj']
+['ADV', 'VERB', 'mark']	['才', '停止', 'mark']
+['AUX', 'VERB', 'aux']	['会', '停止', 'aux']
+['ADV', 'VERB', 'advmod']	['完全', '停止', 'advmod']
+['VERB', 'VERB', 'ccomp']	['停止', '知道', 'ccomp']
+['VERB', 'VERB', 'xcomp']	['听到', '停止', 'xcomp']
+['PRON', 'VERB', 'obj']	['它', '听到', 'obj']
+['PART', 'PRON', 'case']	['的', '它', 'case']
+['NOUN', 'VERB', 'obj']	['声音', '听到', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '知道', 'punct']
+----------------------------------------------------------------------

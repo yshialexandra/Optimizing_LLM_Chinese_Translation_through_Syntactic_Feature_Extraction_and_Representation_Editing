@@ -1,0 +1,2498 @@
+这三位作曲家海顿、莫扎特和贝多芬被认为是古典风格音乐的三位作曲家。
+
+(ROOT (IP (NP (NP (DP (DT 这) (QP (CD 三) (CLP (NNB 位)))) (NP (NN 作曲))) (NP (NNP 家海顿) (EC 、) (NNP 莫扎特) (CC 和) (NNP 贝多芬))) (VP (BB 被) (VP (VCP (VV 认为) (VC 是)) (NP (DNP (NP (NP (ADJP (JJ 古典)) (NP (NN 风格))) (NP (NN 音乐))) (DEC 的)) (QP (CD 三) (CLP (NNB 位))) (NP (VV 作曲) (SFN 家))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP24387': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'BB': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这', '位', 'det']
+['NUM', 'NOUN', 'nummod']	['三', '位', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['位', '作曲', 'nmod']
+['NOUN', 'VERB', 'nsubj:pass']	['作曲', '为', 'nsubj:pass']
+['PROPN', 'NOUN', 'appos']	['家海顿', '作曲', 'appos']
+['PUNCT', 'PROPN', 'punct']	['、', '莫扎特', 'punct']
+['PROPN', 'PROPN', 'conj']	['莫扎特', '家海顿', 'conj']
+['CCONJ', 'PROPN', 'cc']	['和', '贝多芬', 'cc']
+['PROPN', 'PROPN', 'conj']	['贝多芬', '家海顿', 'conj']
+['AUX', 'VERB', 'aux:pass']	['被', '为', 'aux:pass']
+['VERB', 'ROOT', 'root']	['为', 'NONE', 'root']
+['AUX', 'PART', 'cop']	['是', '家', 'cop']
+['ADJ', 'NOUN', 'amod']	['古典', '音乐', 'amod']
+['NOUN', 'NOUN', 'nmod']	['风格', '音乐', 'nmod']
+['NOUN', 'PART', 'nmod']	['音乐', '家', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '音乐', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['三', '位', 'nummod']
+['NOUN', 'PART', 'nmod']	['位', '家', 'nmod']
+['VERB', 'PART', 'compound']	['作曲', '家', 'compound']
+['PART', 'VERB', 'xcomp']	['家', '为', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '为', 'punct']
+----------------------------------------------------------------------
+的确，这三位音乐家给了我们他们时代最伟大的音乐。
+
+(ROOT (IP (ADVP (JJ 的确)) (, ，) (NP (DP (DT 这) (QP (CD 三) (CLP (NNB 位)))) (NP (NN 音乐) (SFN 家))) (VP (VV 给) (AS 了) (NP (NP (PRP 我们)) (CP (CP (IP (VP (NP (NP (PRP 他们)) (NP (NN 时代))) (ADVP (RB 最)) (VP (JJ 伟大)))) (DEC 的))) (NP (NN 音乐)))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'JJ': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'ADVP': {'JJ': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'ADVP': {'JJ': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+['ADJ', 'VERB', 'advmod']	['的确', '给', 'advmod']
+['PUNCT', 'ADJ', 'punct']	['，', '的确', 'punct']
+['DET', 'NOUN', 'det']	['这', '位', 'det']
+['NUM', 'NOUN', 'nummod']	['三', '位', 'nummod']
+['NOUN', 'PART', 'nmod']	['位', '家', 'nmod']
+['NOUN', 'PART', 'compound']	['音乐', '家', 'compound']
+['PART', 'VERB', 'nsubj']	['家', '给', 'nsubj']
+['VERB', 'ROOT', 'root']	['给', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '给', 'aux']
+['PRON', 'NOUN', 'nmod']	['我', '音乐', 'nmod']
+['PRON', 'NOUN', 'nmod']	['他', '音乐', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['时代', '音乐', 'nmod']
+['ADV', 'ADJ', 'advmod']	['最', '伟大', 'advmod']
+['ADJ', 'NOUN', 'amod']	['伟大', '音乐', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '伟大', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['音乐', '给', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '给', 'punct']
+----------------------------------------------------------------------
+虽然有时会把舒伯特加进这三个人的名字里，但由于以下几个原因，我不会在这里讨论他。
+
+(ROOT (IP (IP (VP (ADVP (IN 虽然)) (ADVP (RB 有时)) (VP (MD 会) (VP (BB 把) (LCP (NP (DNP (NP (VRD (NNP 舒伯特加) (VV 进)) (DP (DT 这) (QP (CD 三) (CLP (NNB 个)))) (NP (NN 人))) (DEC 的)) (NP (NN 名字))) (IN 里)))))) (, ，) (ADVP (RB 但)) (PP (IN 由于) (NP (ADJP (DT 以下)) (QP (CD 几) (CLP (NNB 个))) (NP (NN 原因)))) (, ，) (NP (PRP 我)) (VP (MD 不会) (VP (PP (IN 在) (NP (PRD 这里))) (VP (VV 讨论) (NP (PRP 他))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'PP': {}, ',33655': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'PP': {'IN': {}, 'NP': {}}, ',84200': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'ADVP': {'RB': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['虽然', '进', 'case']
+['ADV', 'VERB', 'advmod']	['有时', '进', 'advmod']
+['AUX', 'VERB', 'aux']	['会', '进', 'aux']
+['ADP', 'PROPN', 'case']	['把', '舒伯特加', 'case']
+['PROPN', 'VERB', 'obl:patient']	['舒伯特加', '进', 'obl:patient']
+['VERB', 'VERB', 'ccomp']	['进', '讨论', 'ccomp']
+['DET', 'NOUN', 'det']	['这', '个', 'det']
+['NUM', 'NOUN', 'nummod']	['三', '个', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['个', '人', 'nmod']
+['NOUN', 'VERB', 'obj']	['人', '进', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '进', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['名字', '进', 'obj']
+['ADP', 'NOUN', 'case']	['里', '名字', 'case']
+['PUNCT', 'VERB', 'punct']	['，', '进', 'punct']
+['ADV', 'VERB', 'mark']	['但', '讨论', 'mark']
+['ADP', 'NOUN', 'case']	['由于', '原因', 'case']
+['DET', 'NOUN', 'det']	['以下', '个', 'det']
+['NUM', 'NOUN', 'nummod']	['几', '个', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['个', '原因', 'nmod']
+['NOUN', 'VERB', 'obl']	['原因', '讨论', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '原因', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '讨论', 'nsubj']
+['AUX', 'VERB', 'aux']	['会', '讨论', 'aux']
+['ADP', 'PRON', 'case']	['在', '这里', 'case']
+['PRON', 'VERB', 'obl']	['这里', '讨论', 'obl']
+['VERB', 'ROOT', 'root']	['讨论', 'NONE', 'root']
+['PRON', 'VERB', 'obj']	['他', '讨论', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '讨论', 'punct']
+----------------------------------------------------------------------
+舒伯特在短暂的生命中的最后几年，大多数时间都是以新的浪漫主义风格来创作的，而非古典风格。
+
+(ROOT (IP (NP (NNP 舒伯特)) (PP (IN 在) (QP (DNP (LCP (NP (CP (CP (IP (VP (JJ 短暂))) (DEC 的))) (NP (NN 生命))) (IN 中)) (DEC 的)) (ADJP (NN 最后)) (QP (CD 几) (CLP (NNB 年))))) (, ，) (NP (QP (ADVP (RB 大)) (QP (JJ 多数))) (NP (NN 时间))) (VP (VP (VC 都是) (NP (CP (CP (IP (VP (PP (IN 以) (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (JJ 浪漫) (NN 主义)) (NP (NN 风格)))) (VP (RB 来) (VP (VV 创作))))) (UH 的))))) (, ，) (VP (VC 而非) (NP (ADJP (JJ 古典)) (NP (NN 风格))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'PP': {}, ',': {}, 'NP46579': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'PP': {'IN': {}, 'QP': {}}, ',': {}, 'NP49774': {'QP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP70929': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'PP': {'IN': {}, 'QP': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'PP': {'IN': {}, 'QP': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['舒伯特', '是', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '年', 'case']
+['ADJ', 'NOUN', 'amod']	['短暂', '生命', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '短暂', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['生命', '年', 'nmod']
+['ADP', 'NOUN', 'case']	['中', '生命', 'case']
+['PART', 'ADJ', 'mark:rel']	['的', '短暂', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['最后', '年', 'nmod']
+['NUM', 'NOUN', 'nummod']	['几', '年', 'nummod']
+['NOUN', 'VERB', 'obl']	['年', '是', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '年', 'punct']
+['ADV', 'ADJ', 'advmod']	['大', '多数', 'advmod']
+['ADJ', 'NOUN', 'amod']	['多数', '时间', 'amod']
+['NOUN', 'VERB', 'nsubj']	['时间', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['ADP', 'NOUN', 'case']	['以', '风格', 'case']
+['ADJ', 'NOUN', 'amod']	['新', '风格', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '新', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['浪漫', '主义', 'amod']
+['NOUN', 'NOUN', 'nmod']	['主义', '风格', 'nmod']
+['NOUN', 'VERB', 'obl']	['风格', '创作', 'obl']
+['ADV', 'VERB', 'mark']	['来', '创作', 'mark']
+['VERB', 'VERB', 'xcomp']	['创作', '是', 'xcomp']
+['PART', 'VERB', 'discourse']	['的', '是', 'discourse']
+['PUNCT', 'NOUN', 'punct']	['，', '风格', 'punct']
+['AUX', 'NOUN', 'cc']	['而非', '风格', 'cc']
+['ADJ', 'NOUN', 'amod']	['古典', '风格', 'amod']
+['NOUN', 'VERB', 'parataxis']	['风格', '是', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+他留给我们的大型杰作很多，但不及上面提到的其他三位作曲家。
+
+(ROOT (IP (IP (NP (PRP 他)) (VP (VRD (VV 留) (VV 给)) (NP (DNP (NP (PRP 我们)) (DEC 的)) (ADJP (NN 大型)) (NP (NN 杰作))) (ADVP (CD 很多)))) (, ，) (IP (ADVP (RB 但)) (VP (VV 不及) (NP (CP (CP (IP (VP (NP (NN 上面)) (VP (VV 提到)))) (DEC 的))) (DP (DT 其他) (QP (CD 三) (CLP (NNB 位)))) (NP (VV 作曲) (SFN 家))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP77706': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP59415': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['他', '留', 'nsubj']
+['VERB', 'ROOT', 'root']	['留', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['给', '留', 'mark']
+['PRON', 'NUM', 'det']	['我', '很多', 'det']
+['PART', 'PRON', 'mark:rel']	['的', '我', 'mark:rel']
+['NOUN', 'NUM', 'nmod']	['大型', '很多', 'nmod']
+['NOUN', 'NUM', 'nmod']	['杰作', '很多', 'nmod']
+['NUM', 'VERB', 'obj']	['很多', '留', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '及', 'punct']
+['ADV', 'VERB', 'mark']	['但', '及', 'mark']
+['VERB', 'VERB', 'parataxis']	['及', '留', 'parataxis']
+['NOUN', 'VERB', 'obl']	['上面', '提到', 'obl']
+['VERB', 'PART', 'acl:relcl']	['提到', '家', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '提到', 'mark:rel']
+['DET', 'NOUN', 'det']	['其他', '位', 'det']
+['NUM', 'NOUN', 'nummod']	['三', '位', 'nummod']
+['NOUN', 'PART', 'nmod']	['位', '家', 'nmod']
+['VERB', 'PART', 'compound']	['作曲', '家', 'compound']
+['PART', 'VERB', 'obj']	['家', '及', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '留', 'punct']
+----------------------------------------------------------------------
+我想主要谈谈三位作曲家之间的差异，但先简单谈谈它们之间的相似之处。
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (MD 想) (IP (VP (ADVP (RB 主要)) (VP (VV 谈谈) (NP (DNP (LCP (NP (QP (CD 三) (CLP (NNB 位))) (NP (VV 作曲) (SFN 家))) (IN 之间)) (DEC 的)) (NP (NN 差异)))))))) (, ，) (IP (ADVP (RB 但)) (VP (ADVP (RB 先)) (ADVP (RB 简单)) (VP (VV 谈谈) (NP (DNP (LCP (NP (PRP 它们)) (IN 之间)) (DEC 的)) (CP (CP (IP (VP (JJ 相似))) (DEC 之))) (NP (NN 处)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP4708': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP73295': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['我', '谈谈', 'nsubj']
+['AUX', 'VERB', 'aux']	['想', '谈谈', 'aux']
+['ADV', 'VERB', 'advmod']	['主要', '谈谈', 'advmod']
+['VERB', 'VERB', 'advcl']	['谈谈', '谈谈', 'advcl']
+['NUM', 'NOUN', 'nummod']	['三', '位', 'nummod']
+['NOUN', 'PART', 'nmod']	['位', '家', 'nmod']
+['VERB', 'PART', 'compound']	['作曲', '家', 'compound']
+['PART', 'NOUN', 'nmod']	['家', '差异', 'nmod']
+['ADP', 'PART', 'case']	['之间', '家', 'case']
+['PART', 'PART', 'case']	['的', '家', 'case']
+['NOUN', 'VERB', 'obj']	['差异', '谈谈', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '谈谈', 'punct']
+['ADV', 'VERB', 'mark']	['但', '谈谈', 'mark']
+['ADV', 'VERB', 'advmod']	['先', '谈谈', 'advmod']
+['ADV', 'VERB', 'advmod']	['简单', '谈谈', 'advmod']
+['VERB', 'ROOT', 'root']	['谈谈', 'NONE', 'root']
+['PRON', 'NOUN', 'det']	['它', '处', 'det']
+['ADP', 'PRON', 'case']	['之间', '它', 'case']
+['PART', 'ADJ', 'mark:rel']	['的', '相似', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['相似', '处', 'amod']
+['PART', 'ADJ', 'mark:rel']	['之', '相似', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['处', '谈谈', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '谈谈', 'punct']
+----------------------------------------------------------------------
+古典风格是一种形式在其中起着更重要的作用，而不是早期或晚期风格。奏鸣曲形式的使用几乎是这种风格的决定性特征。（请参阅我关于奏鸣曲形式的博客）。
+
+(ROOT (IP (NP (ADJP (NN 古典)) (NP (NN 风格))) (VP (VC 是) (IP (NP (QP (CD 一) (CLP (NNB 种))) (NP (NN 形式))) (VP (VP (PP (IN 在) (NP (NN 其中))) (VP (VV 起) (AS 着) (NP (CP (CP (IP (VP (ADVP (RB 更)) (VP (JJ 重要)))) (DEC 的))) (NP (NN 作用))))) (, ，) (RB 而) (VP (VC 不是) (NP (NP (NN 早期) (CC 或) (NN 晚期)) (NP (NN 风格))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'NP': {'ADJP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'IP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['古典', '风格', 'nmod']
+['NOUN', 'NOUN', 'nsubj']	['风格', '风格', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '形式', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '种', 'nummod']
+['NOUN', 'NOUN', 'clf']	['种', '形式', 'clf']
+['NOUN', 'VERB', 'nsubj']	['形式', '起', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '其中', 'case']
+['NOUN', 'VERB', 'obl']	['其中', '起', 'obl']
+['VERB', 'NOUN', 'acl']	['起', '风格', 'acl']
+['AUX', 'VERB', 'aux']	['着', '起', 'aux']
+['ADV', 'ADJ', 'advmod']	['更', '重要', 'advmod']
+['ADJ', 'NOUN', 'amod']	['重要', '作用', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '重要', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['作用', '起', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '起', 'punct']
+['ADV', 'NOUN', 'mark']	['而', '风格', 'mark']
+['AUX', 'NOUN', 'cop']	['是', '风格', 'cop']
+['NOUN', 'NOUN', 'nmod']	['早期', '风格', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['或', '晚期', 'cc']
+['NOUN', 'NOUN', 'conj']	['晚期', '早期', 'conj']
+['NOUN', 'ROOT', 'root']	['风格', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['。', '风格', 'punct']
+----------------------------------------------------------------------
+奏鸣曲形式如此普遍，甚至占领了当时的每一种音乐类型，甚至包括歌剧和教堂音乐。
+
+(ROOT (IP (NP (VV 奏鸣) (SFN 曲) (NN 形式)) (VP (VP (ADVP (VV 如此)) (VP (JJ 普遍))) (, ，) (VP (ADVP (RB 甚至)) (VP (VV 占领) (AS 了) (NP (DNP (NP (NN 当时)) (DEC 的)) (DP (DT 每) (QP (CD 一) (CLP (NNB 种)))) (NP (NN 音乐) (NN 类型))))) (, ，) (VP (ADVP (RB 甚至)) (VP (VV 包括) (NP (NN 歌剧) (CC 和) (NN 教堂) (NN 音乐))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'VV': {}, 'SFN': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP21887': {}, ',44355': {}, 'VP47801': {}}, '.': {}}}
+{'IP': {'NP': {'VV': {}, 'SFN': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'VV': {}, 'SFN': {}, 'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'PART', 'compound']	['奏鸣', '曲', 'compound']
+['PART', 'NOUN', 'nmod']	['曲', '形式', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['形式', '占领', 'nsubj']
+['VERB', 'ADJ', 'advcl']	['如此', '普遍', 'advcl']
+['ADJ', 'VERB', 'advcl']	['普遍', '占领', 'advcl']
+['PUNCT', 'ADJ', 'punct']	['，', '普遍', 'punct']
+['ADV', 'VERB', 'mark']	['甚至', '占领', 'mark']
+['VERB', 'ROOT', 'root']	['占领', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '占领', 'aux']
+['NOUN', 'NOUN', 'nmod']	['当时', '类型', 'nmod']
+['PART', 'NOUN', 'case']	['的', '当时', 'case']
+['DET', 'NOUN', 'det']	['每', '种', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '种', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['种', '类型', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['音乐', '类型', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['类型', '包括', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '类型', 'punct']
+['ADV', 'VERB', 'mark']	['甚至', '包括', 'mark']
+['VERB', 'VERB', 'ccomp']	['包括', '占领', 'ccomp']
+['NOUN', 'VERB', 'obj']	['歌剧', '包括', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '音乐', 'cc']
+['NOUN', 'NOUN', 'nmod']	['教堂', '音乐', 'nmod']
+['NOUN', 'NOUN', 'conj']	['音乐', '歌剧', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '占领', 'punct']
+----------------------------------------------------------------------
+在这里讨论的三位作曲家各自创作了一些混合了其他形式和奏鸣曲形式的作品。
+
+(ROOT (IP (NP (CP (CP (IP (VP (PP (VV 在) (NP (PRD 这里))) (VP (VV 讨论)))) (DEC 的))) (QP (CD 三) (CLP (NNB 位))) (NP (VV 作曲) (SFN 家))) (VP (NP (PRD 各自)) (VP (VV 创作) (AS 了) (NP (QP (JJ 一些)) (CP (CP (IP (VP (VV 混合) (AS 了) (NP (NP (DP (DT 其他)) (NP (NN 形式) (CC 和) (NN 奏鸣) (SFN 曲))) (NP (NN 形式))))) (DEC 的))) (NP (NN 作品))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'QP': {}, 'NP': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'QP': {}, 'NP': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'QP': {}, 'NP': {}}}
+{'VP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['在', '讨论', 'advcl']
+['PRON', 'VERB', 'obj']	['这里', '在', 'obj']
+['VERB', 'PART', 'acl:relcl']	['讨论', '家', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '讨论', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['三', '位', 'nummod']
+['NOUN', 'PART', 'nmod']	['位', '家', 'nmod']
+['VERB', 'PART', 'compound']	['作曲', '家', 'compound']
+['PART', 'VERB', 'nsubj']	['家', '创作', 'nsubj']
+['PRON', 'PART', 'appos']	['各自', '家', 'appos']
+['VERB', 'ROOT', 'root']	['创作', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '创作', 'aux']
+['ADJ', 'NOUN', 'amod']	['一些', '作品', 'amod']
+['VERB', 'NOUN', 'acl:relcl']	['混合', '作品', 'acl:relcl']
+['AUX', 'VERB', 'aux']	['了', '混合', 'aux']
+['DET', 'NOUN', 'det']	['其他', '形式', 'det']
+['NOUN', 'VERB', 'obj']	['形式', '混合', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '形式', 'cc']
+['NOUN', 'PART', 'compound']	['奏鸣', '曲', 'compound']
+['PART', 'NOUN', 'nmod']	['曲', '形式', 'nmod']
+['NOUN', 'NOUN', 'conj']	['形式', '形式', 'conj']
+['PART', 'VERB', 'mark:rel']	['的', '混合', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['作品', '创作', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '创作', 'punct']
+----------------------------------------------------------------------
+倍合曲形式和变奏曲形式经常与奏鸣曲形式混合使用。
+
+(ROOT (IP (NP (NP (NNP 倍) (SFN 合) (SFN 曲)) (NP (NN 形式) (CC 和) (VV 变奏) (SFN 曲) (NN 形式))) (VP (ADVP (RB 经常)) (PP (IN 与) (NP (VV 奏鸣) (SFN 曲) (NN 形式))) (ADVP (RB 混合)) (VP (VV 使用))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP25108': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'ADVP35084': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'PART', 'compound']	['倍', '合', 'compound']
+['PART', 'PART', 'compound']	['合', '曲', 'compound']
+['PART', 'NOUN', 'nmod']	['曲', '形式', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['形式', '形式', 'nmod']
+['CCONJ', 'PART', 'cc']	['和', '曲', 'cc']
+['VERB', 'PART', 'compound']	['变奏', '曲', 'compound']
+['PART', 'NOUN', 'conj']	['曲', '形式', 'conj']
+['NOUN', 'VERB', 'nsubj']	['形式', '使用', 'nsubj']
+['ADV', 'VERB', 'advmod']	['经常', '使用', 'advmod']
+['ADP', 'NOUN', 'case']	['与', '形式', 'case']
+['VERB', 'PART', 'compound']	['奏鸣', '曲', 'compound']
+['PART', 'NOUN', 'nmod']	['曲', '形式', 'nmod']
+['NOUN', 'VERB', 'obl']	['形式', '使用', 'obl']
+['ADV', 'VERB', 'advmod']	['混合', '使用', 'advmod']
+['VERB', 'ROOT', 'root']	['使用', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['。', '使用', 'punct']
+----------------------------------------------------------------------
+简单来说，奏鸣曲形式从简单和音阶稳定开始，然后在中间部分积聚张力，最后一部分减少复杂性和张力。
+
+(ROOT (IP (IP (VP (VP (JJ 简单)) (VP (RB 来) (VP (VV 说))))) (, ，) (NP (VV 奏鸣) (SFN 曲) (NN 形式)) (VP (VP (VP (PP (IN 从) (NP (JJ 简单) (CC 和) (NN 音阶))) (VP (JJ 稳定))) (VP (VV 开始))) (, ，) (VP (ADVP (RB 然后)) (PP (IN 在) (NP (NN 中间) (NN 部分))) (VP (VV 积聚) (NP (NN 张力)))) (, ，) (VP (QP (ADJP (NN 最后)) (QP (CD 一)) (CLP (NN 部分))) (VP (VV 减少) (NP (JJ 复杂) (SFN 性) (CC 和) (NN 张力))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'VV': {}, 'SFN': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP86291': {}, ',28662': {}, 'VP43762': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'VV': {}, 'SFN': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'VV': {}, 'SFN': {}, 'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['ADJ', 'VERB', 'advmod']	['简单', '说', 'advmod']
+['ADV', 'VERB', 'mark']	['来', '说', 'mark']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '积聚', 'punct']
+['VERB', 'PART', 'compound']	['奏鸣', '曲', 'compound']
+['PART', 'NOUN', 'nmod']	['曲', '形式', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['形式', '开始', 'nsubj']
+['ADP', 'ADJ', 'case']	['从', '稳定', 'case']
+['ADJ', 'ADJ', 'advcl']	['简单', '稳定', 'advcl']
+['CCONJ', 'NOUN', 'cc']	['和', '音阶', 'cc']
+['NOUN', 'ADJ', 'conj']	['音阶', '简单', 'conj']
+['ADJ', 'VERB', 'advcl']	['稳定', '开始', 'advcl']
+['VERB', 'VERB', 'advcl']	['开始', '积聚', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '开始', 'punct']
+['ADV', 'VERB', 'advmod']	['然后', '积聚', 'advmod']
+['ADP', 'NOUN', 'case']	['在', '部分', 'case']
+['NOUN', 'NOUN', 'nmod']	['中间', '部分', 'nmod']
+['NOUN', 'VERB', 'obl']	['部分', '积聚', 'obl']
+['VERB', 'VERB', 'ccomp']	['积聚', '说', 'ccomp']
+['NOUN', 'VERB', 'obj']	['张力', '积聚', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '减少', 'punct']
+['NOUN', 'NOUN', 'nmod']	['最后', '部分', 'nmod']
+['NUM', 'NOUN', 'nummod']	['一', '部分', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['部分', '减少', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['减少', '说', 'parataxis']
+['ADJ', 'PART', 'compound']	['复杂', '性', 'compound']
+['PART', 'VERB', 'obj']	['性', '减少', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '张力', 'cc']
+['NOUN', 'PART', 'conj']	['张力', '性', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
+----------------------------------------------------------------------
+高潮总是在中间。
+
+(ROOT (IP (NP (NN 高潮)) (VP (ADVP (RB 总)) (VP (VC 是) (PP (VV 在) (NP (NN 中间))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nsubj']	['高潮', '是', 'nsubj']
+['ADV', 'VERB', 'advmod']	['总', '是', 'advmod']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['在', '是', 'xcomp']
+['NOUN', 'VERB', 'obj']	['中间', '在', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+这里通常是最复杂的纹理，以及最广泛的主要变化，和最激烈的节奏模式。
+
+(ROOT (IP (NP (PRD 这里)) (VP (ADVP (RB 通常)) (VP (VC 是) (NP (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 复杂)))) (DEC 的))) (NP (NN 纹理))) (, ，) (CC 以及) (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 广泛)))) (DEC 的))) (ADJP (JJ 主要)) (NP (NN 变化))) (, ，) (CC 和) (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 激烈)))) (DEC 的))) (NP (NN 节奏) (NN 模式)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'nsubj']	['这里', '纹理', 'nsubj']
+['ADV', 'NOUN', 'advmod']	['通常', '纹理', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '纹理', 'cop']
+['ADV', 'ADJ', 'advmod']	['最', '复杂', 'advmod']
+['ADJ', 'NOUN', 'amod']	['复杂', '纹理', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '复杂', 'mark:rel']
+['NOUN', 'ROOT', 'root']	['纹理', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['，', '变化', 'punct']
+['CCONJ', 'NOUN', 'cc']	['以及', '变化', 'cc']
+['ADV', 'ADJ', 'advmod']	['最', '广泛', 'advmod']
+['ADJ', 'NOUN', 'amod']	['广泛', '变化', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '广泛', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['主要', '变化', 'amod']
+['NOUN', 'NOUN', 'conj']	['变化', '纹理', 'conj']
+['PUNCT', 'NOUN', 'punct']	['，', '模式', 'punct']
+['CCONJ', 'NOUN', 'cc']	['和', '模式', 'cc']
+['ADV', 'ADJ', 'advmod']	['最', '激烈', 'advmod']
+['ADJ', 'NOUN', 'amod']	['激烈', '模式', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '激烈', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['节奏', '模式', 'nmod']
+['NOUN', 'NOUN', 'conj']	['模式', '纹理', 'conj']
+['PUNCT', 'NOUN', 'punct']	['。', '纹理', 'punct']
+----------------------------------------------------------------------
+海顿并没有创造奏鸣曲形式，但他是她的大师。
+
+(ROOT (IP (IP (NP (NNP 海顿)) (VP (ADVP (RB 并)) (VP (VV 没有) (VP (VV 创造) (NP (NN 奏鸣) (SFN 曲) (NN 形式)))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 他)) (VP (VC 是) (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 大师))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP6107': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP34924': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['海顿', '有', 'nsubj']
+['ADV', 'VERB', 'mark']	['并', '有', 'mark']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['创造', '有', 'xcomp']
+['NOUN', 'PART', 'compound']	['奏鸣', '曲', 'compound']
+['PART', 'NOUN', 'nmod']	['曲', '形式', 'nmod']
+['NOUN', 'VERB', 'obj']	['形式', '创造', 'obj']
+['PUNCT', 'NOUN', 'punct']	['，', '大师', 'punct']
+['ADV', 'NOUN', 'mark']	['但', '大师', 'mark']
+['PRON', 'NOUN', 'nsubj']	['他', '大师', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '大师', 'cop']
+['PRON', 'NOUN', 'det']	['她', '大师', 'det']
+['PART', 'PRON', 'mark:rel']	['的', '她', 'mark:rel']
+['NOUN', 'VERB', 'parataxis']	['大师', '有', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+他对形式的把握非常好，同时，他对形式的概念也有自己的理解。
+
+(ROOT (IP (IP (NP (NP (PRP 他)) (DNP (PP (IN 对) (NP (NN 形式))) (DEC 的)) (NP (BB 把) (VV 握))) (VP (ADVP (RB 非常)) (VP (JJ 好)))) (, ，) (IP (ADVP (NN 同时)) (, ，) (NP (NP (PRP 他)) (VP (PP (IN 对) (NP (DNP (NP (NN 形式)) (DEC 的)) (NP (NN 概念)))) (VP (VV 也有) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 理解))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP93868': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP22148': {'ADVP': {}, ',': {}, 'NP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, ',': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['他', '握', 'nsubj']
+['ADP', 'NOUN', 'case']	['对', '形式', 'case']
+['NOUN', 'VERB', 'obl']	['形式', '握', 'obl']
+['PART', 'VERB', 'mark:rel']	['的', '握', 'mark:rel']
+['ADP', 'VERB', 'case']	['把', '握', 'case']
+['VERB', 'VERB', 'xcomp']	['握', '也有', 'xcomp']
+['ADV', 'ADJ', 'advmod']	['非常', '好', 'advmod']
+['ADJ', 'VERB', 'xcomp']	['好', '握', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '握', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['同时', '也有', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '同时', 'punct']
+['PRON', 'NOUN', 'nmod']	['他', '概念', 'nmod']
+['ADP', 'NOUN', 'case']	['对', '概念', 'case']
+['NOUN', 'NOUN', 'nmod']	['形式', '概念', 'nmod']
+['PART', 'NOUN', 'case']	['的', '概念', 'case']
+['NOUN', 'VERB', 'nsubj']	['概念', '也有', 'nsubj']
+['VERB', 'ROOT', 'root']	['也有', 'NONE', 'root']
+['PRON', 'NOUN', 'det']	['自己', '理解', 'det']
+['PART', 'PRON', 'case']	['的', '自己', 'case']
+['NOUN', 'VERB', 'obj']	['理解', '也有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '也有', 'punct']
+----------------------------------------------------------------------
+海顿喜欢假重复。假重复是一种可以在奏鸣曲形式的发展部分结尾附近使用的装置，它可以让听众误以为重复部分已经开始，但实际上它还没有开始，音乐仍然处于发展部分的和弦上稳定区域。
+
+(ROOT (IP (NP (NNP 海顿)) (VP (VV 喜欢) (IP (VP (ADVP (RB 假)) (VP (VV 重复))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['海顿', '喜欢', 'nsubj']
+['VERB', 'ROOT', 'root']	['喜欢', 'NONE', 'root']
+['ADV', 'VERB', 'advmod']	['假', '重复', 'advmod']
+['VERB', 'VERB', 'xcomp']	['重复', '喜欢', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '喜欢', 'punct']
+----------------------------------------------------------------------
+当然，这种假重复必须简短，才能有效。很快，音乐就会进入实际重复。
+
+(ROOT (IP (ADVP (RB 当然)) (, ，) (NP (DP (DT 这) (CLP (NNB 种))) (ADJP (JJ 假)) (NP (NN 重复))) (VP (VP (MD 必须) (VP (JJ 简短))) (, ，) (VP (MD 才能) (VP (JJ 有效)))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP49847': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'ADJ', 'advmod']	['当然', '有效', 'advmod']
+['PUNCT', 'ADV', 'punct']	['，', '当然', 'punct']
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '重复', 'clf']
+['ADJ', 'NOUN', 'amod']	['假', '重复', 'amod']
+['NOUN', 'ADJ', 'nsubj']	['重复', '有效', 'nsubj']
+['AUX', 'ADJ', 'aux']	['必须', '简短', 'aux']
+['ADJ', 'ADJ', 'advcl']	['简短', '有效', 'advcl']
+['PUNCT', 'ADJ', 'punct']	['，', '简短', 'punct']
+['AUX', 'ADJ', 'aux']	['才能', '有效', 'aux']
+['ADJ', 'ROOT', 'root']	['有效', 'NONE', 'root']
+['PUNCT', 'ADJ', 'punct']	['。', '有效', 'punct']
+----------------------------------------------------------------------
+除了假借回顾，海顿喜欢用许多意想不到的转折和拐点来惊艳听众。
+
+(ROOT (IP (PP (VV 除) (PP (AS 了) (IP (VP (VV 假借) (NP (NN 回顾)))))) (, ，) (NP (NNP 海顿)) (VP (VV 喜欢) (IP (VP (PP (VV 用) (NP (QP (CD 许多)) (CP (CP (IP (NP (NN 意想)) (VP (VV 不到))) (DEC 的))) (NP (NN 转折) (CC 和) (NN 拐点)))) (VP (RB 来) (VP (VV 惊艳) (NP (NN 听众))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'PP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['除', '惊艳', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '除', 'aux']
+['VERB', 'VERB', 'xcomp']	['假借', '除', 'xcomp']
+['NOUN', 'VERB', 'obj']	['回顾', '假借', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '除', 'punct']
+['PROPN', 'VERB', 'nsubj']	['海顿', '惊艳', 'nsubj']
+['VERB', 'VERB', 'advcl']	['喜欢', '惊艳', 'advcl']
+['VERB', 'VERB', 'xcomp']	['用', '喜欢', 'xcomp']
+['NUM', 'NOUN', 'nummod']	['许多', '意想', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['意想', '到', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['到', '转折', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '到', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['转折', '用', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '拐点', 'cc']
+['NOUN', 'NOUN', 'conj']	['拐点', '转折', 'conj']
+['ADV', 'VERB', 'mark']	['来', '惊艳', 'mark']
+['VERB', 'ROOT', 'root']	['惊艳', 'NONE', 'root']
+['NOUN', 'VERB', 'obj']	['听众', '惊艳', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '惊艳', 'punct']
+----------------------------------------------------------------------
+突然的键位变化、意外的节奏或和声转换、一个引导音乐进入完全不同于预期的音乐段落，这些都是海顿手中的一些小诡计。
+
+(ROOT (IP (NP (CP (CP (IP (VP (JJ 突然))) (DEC 的))) (NP (NP (NN 键) (NN 位) (NN 变化)) (EC 、) (NP (CP (CP (IP (VP (NN 意外))) (DEC 的))) (NP (NN 节奏))) (CC 或) (NP (NN 和声) (NN 转换)) (EC 、) (NP (QP (CD 一) (CLP (NNB 个))) (VP (VP (VV 引导) (NP (NN 音乐))) (VP (VV 进入) (NP (CP (CP (IP (VP (ADVP (RB 完全)) (VP (JJ 不同) (PP (VV 于) (NP (NN 预期)))))) (DEC 的))) (NP (NN 音乐) (NN 段落)))))))) (, ，) (NP (DT 这些)) (VP (VC 都是) (NP (DNP (LCP (NP (NNP 海顿)) (NN 手中)) (DEC 的)) (QP (JJ 一些)) (ADJP (PFA 小)) (NP (NN 诡计)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP52151': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, ',': {}, 'NP10091': {'DT': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}}, ',': {}, 'NP': {'DT': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'NP': {'DT': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+['ADJ', 'NOUN', 'amod']	['突然', '变化', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '突然', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['键', '位', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['位', '变化', 'nmod']
+['NOUN', 'NOUN', 'nsubj']	['变化', '诡计', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['、', '节奏', 'punct']
+['NOUN', 'NOUN', 'nmod']	['意外', '节奏', 'nmod']
+['PART', 'NOUN', 'case']	['的', '意外', 'case']
+['NOUN', 'NOUN', 'conj']	['节奏', '变化', 'conj']
+['CCONJ', 'NOUN', 'cc']	['或', '转换', 'cc']
+['NOUN', 'NOUN', 'nmod']	['和声', '转换', 'nmod']
+['NOUN', 'NOUN', 'conj']	['转换', '变化', 'conj']
+['PUNCT', 'VERB', 'punct']	['、', '进入', 'punct']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '音乐', 'clf']
+['VERB', 'VERB', 'advcl']	['引导', '进入', 'advcl']
+['NOUN', 'VERB', 'obj']	['音乐', '引导', 'obj']
+['VERB', 'NOUN', 'conj']	['进入', '变化', 'conj']
+['ADV', 'ADJ', 'advmod']	['完全', '不同', 'advmod']
+['ADJ', 'NOUN', 'acl:relcl']	['不同', '段落', 'acl:relcl']
+['VERB', 'ADJ', 'mark']	['于', '不同', 'mark']
+['NOUN', 'ADJ', 'obj']	['预期', '不同', 'obj']
+['PART', 'ADJ', 'mark:rel']	['的', '不同', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['音乐', '段落', 'nmod']
+['NOUN', 'VERB', 'obj']	['段落', '进入', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '进入', 'punct']
+['DET', 'NOUN', 'nsubj']	['这些', '诡计', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '诡计', 'cop']
+['PROPN', 'NOUN', 'nmod']	['海顿', '手中', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['手中', '诡计', 'nmod']
+['PART', 'NOUN', 'case']	['的', '手中', 'case']
+['ADJ', 'NOUN', 'amod']	['一些', '诡计', 'amod']
+['PART', 'NOUN', 'case']	['小', '诡计', 'case']
+['NOUN', 'ROOT', 'root']	['诡计', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['。', '诡计', 'punct']
+----------------------------------------------------------------------
+他是一个天才，能够让听众惊讶于意料之外的事情，但仍然坚持奏出奏鸣曲形式。
+
+(ROOT (IP (NP (PRP 他)) (VP (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 天才)))) (, ，) (VP (MD 能够) (VP (VV 让) (NP (NN 听众)) (IP (VP (JJ 惊讶) (PP (VV 于) (NP (DNP (LCP (NP (NN 意料)) (IN 之外)) (DEC 的)) (NP (NN 事情)))))))) (, ，) (VP (ADVP (RB 但)) (ADVP (RB 仍然)) (VP (VV 坚持) (IP (VP (VV 奏出) (NP (VV 奏鸣) (SFN 曲) (NN 形式))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP63217': {}, ',43028': {}, 'VP26364': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['他', '坚持', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '天才', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '天才', 'clf']
+['NOUN', 'VERB', 'advcl']	['天才', '坚持', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['，', '天才', 'punct']
+['AUX', 'VERB', 'aux']	['能够', '让', 'aux']
+['VERB', 'VERB', 'advcl']	['让', '坚持', 'advcl']
+['NOUN', 'ADJ', 'nsubj']	['听众', '惊讶', 'nsubj']
+['ADJ', 'NOUN', 'acl:relcl']	['惊讶', '事情', 'acl:relcl']
+['VERB', 'ADJ', 'mark']	['于', '惊讶', 'mark']
+['NOUN', 'ADJ', 'obj']	['意料', '惊讶', 'obj']
+['ADP', 'NOUN', 'case']	['之外', '意料', 'case']
+['PART', 'ADJ', 'mark:rel']	['的', '惊讶', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['事情', '让', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '让', 'punct']
+['ADV', 'VERB', 'mark']	['但', '坚持', 'mark']
+['ADV', 'VERB', 'advmod']	['仍然', '坚持', 'advmod']
+['VERB', 'ROOT', 'root']	['坚持', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['奏出', '坚持', 'xcomp']
+['VERB', 'PART', 'compound']	['奏鸣', '曲', 'compound']
+['PART', 'NOUN', 'nmod']	['曲', '形式', 'nmod']
+['NOUN', 'VERB', 'obj']	['形式', '奏出', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '坚持', 'punct']
+----------------------------------------------------------------------
+他的音乐充满了异端观点和异端想法，他不断尝试新的方式来惊艳听众。
+
+(ROOT (IP (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 音乐))) (VP (VV 充满) (AS 了) (NP (NN 异端) (NN 观点) (CC 和) (NN 异端) (NN 想法)))) (, ，) (IP (NP (PRP 他)) (VP (ADVP (RB 不断)) (VP (VP (VV 尝试) (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 方式)))) (VP (RB 来) (VP (VV 惊艳) (NP (NN 听众))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP28495': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP74754': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'det']	['他', '音乐', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'VERB', 'nsubj']	['音乐', '充满', 'nsubj']
+['VERB', 'ROOT', 'root']	['充满', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '充满', 'aux']
+['NOUN', 'NOUN', 'nmod']	['异端', '观点', 'nmod']
+['NOUN', 'VERB', 'obj']	['观点', '充满', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '想法', 'cc']
+['NOUN', 'NOUN', 'nmod']	['异端', '想法', 'nmod']
+['NOUN', 'NOUN', 'conj']	['想法', '观点', 'conj']
+['PUNCT', 'VERB', 'punct']	['，', '惊艳', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '惊艳', 'nsubj']
+['ADV', 'VERB', 'advmod']	['不断', '尝试', 'advmod']
+['VERB', 'VERB', 'advcl']	['尝试', '惊艳', 'advcl']
+['ADJ', 'NOUN', 'amod']	['新', '方式', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '新', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['方式', '尝试', 'obj']
+['ADV', 'VERB', 'mark']	['来', '惊艳', 'mark']
+['VERB', 'VERB', 'parataxis']	['惊艳', '充满', 'parataxis']
+['NOUN', 'VERB', 'obj']	['听众', '惊艳', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '充满', 'punct']
+----------------------------------------------------------------------
+他喜欢用一个突然而意外的休止符，或者一个意外打断行动的 fermata 来吓唬听众。他喜欢把远离的键盘密切地排列在一起，突然从一个键盘转到一个远离的键盘，没有准备。
+
+(ROOT (IP (NP (PRP 他)) (VP (VV 喜欢) (IP (VP (VP (VV 用) (NP (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 突然) (CC 而) (JJ 意外))) (DEC 的))) (NP (VV 休止) (SFN 符))) (, ，) (CC 或者) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (NN 意外)) (VP (VV 打断) (NP (VV 行动))))) (DEC 的))) (NP (FW fermata))))) (VP (VV 来吓) (VP (VV 唬) (NP (NN 听众))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['他', '喜欢', 'nsubj']
+['VERB', 'ROOT', 'root']	['喜欢', 'NONE', 'root']
+['VERB', 'VERB', 'advcl']	['用', '来吓', 'advcl']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'PART', 'nmod']	['个', '符', 'nmod']
+['ADJ', 'PART', 'amod']	['突然', '符', 'amod']
+['CCONJ', 'ADJ', 'cc']	['而', '意外', 'cc']
+['ADJ', 'ADJ', 'conj']	['意外', '突然', 'conj']
+['PART', 'ADJ', 'mark:rel']	['的', '突然', 'mark:rel']
+['VERB', 'PART', 'compound']	['休止', '符', 'compound']
+['PART', 'VERB', 'obj']	['符', '用', 'obj']
+['PUNCT', 'X', 'punct']	['，', 'fermata', 'punct']
+['CCONJ', 'X', 'cc']	['或者', 'fermata', 'cc']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'X', 'clf']	['个', 'fermata', 'clf']
+['NOUN', 'VERB', 'obl']	['意外', '打断', 'obl']
+['VERB', 'X', 'acl:relcl']	['打断', 'fermata', 'acl:relcl']
+['VERB', 'VERB', 'xcomp']	['行动', '打断', 'xcomp']
+['PART', 'VERB', 'mark:rel']	['的', '打断', 'mark:rel']
+['X', 'PART', 'conj']	['fermata', '符', 'conj']
+['VERB', 'VERB', 'xcomp']	['来吓', '喜欢', 'xcomp']
+['VERB', 'VERB', 'mark']	['唬', '来吓', 'mark']
+['NOUN', 'VERB', 'obj']	['听众', '来吓', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '喜欢', 'punct']
+----------------------------------------------------------------------
+莫扎特更愿意通过逐渐引入它，为听众做好准备，以免受到远离的主题的侵害。
+
+(ROOT (IP (NP (NNP 莫扎特)) (VP (ADVP (RB 更)) (VP (MD 愿意) (IP (VP (PP (IN 通过) (IP (VP (VP (ADVP (RB 逐渐)) (VP (VV 引入) (NP (PRP 它)))) (, ，) (VP (PP (IN 为) (NP (NN 听众))) (VP (VV 做好) (NP (NN 准备))))))) (, ，) (VP (RB 以) (VP (VV 免) (IP (VP (VV 受到) (NP (DNP (NP (DNP (NP (VV 远离)) (DEC 的)) (NP (NN 主题))) (DEC 的)) (NP (NN 侵害))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['莫扎特', '免', 'nsubj']
+['ADV', 'VERB', 'advmod']	['更', '做好', 'advmod']
+['AUX', 'VERB', 'aux']	['愿意', '做好', 'aux']
+['ADP', 'VERB', 'case']	['通过', '引入', 'case']
+['ADV', 'VERB', 'advmod']	['逐渐', '引入', 'advmod']
+['VERB', 'VERB', 'advcl']	['引入', '做好', 'advcl']
+['PRON', 'VERB', 'obj']	['它', '引入', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '引入', 'punct']
+['ADP', 'NOUN', 'case']	['为', '听众', 'case']
+['NOUN', 'VERB', 'obl']	['听众', '做好', 'obl']
+['VERB', 'VERB', 'advcl']	['做好', '免', 'advcl']
+['NOUN', 'VERB', 'obj']	['准备', '做好', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '做好', 'punct']
+['ADV', 'VERB', 'mark']	['以', '免', 'mark']
+['VERB', 'ROOT', 'root']	['免', 'NONE', 'root']
+['VERB', 'NOUN', 'acl:relcl']	['受到', '侵害', 'acl:relcl']
+['VERB', 'NOUN', 'acl:relcl']	['远离', '主题', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '远离', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['主题', '受到', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '受到', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['侵害', '免', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '免', 'punct']
+----------------------------------------------------------------------
+海顿喜欢把一个乐章中的主题中的一个简单的主题或者萌芽用作一种启发，在整个乐章中它会激发出许多不同的音乐想法。
+
+(ROOT (IP (IP (NP (NNP 海顿)) (VP (VV 喜欢) (IP (VP (BB 把) (IP (NP (DNP (LCP (NP (DNP (LCP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 乐章))) (IN 中)) (DEC 的)) (NP (NN 主题))) (IN 中)) (DEC 的)) (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 简单))) (DEC 的))) (NP (NN 主题) (CC 或者) (NN 萌芽))) (VP (VV 用作) (NP (QP (CD 一) (CLP (NNB 种))) (NP (NN 启发))))))))) (, ，) (IP (PP (IN 在) (LCP (NP (DP (DT 整个)) (NP (NN 乐章))) (IN 中))) (NP (PRP 它)) (VP (MD 会) (VP (VRD (VV 激发) (VV 出)) (NP (QP (CD 许多)) (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (NN 音乐) (NN 想法)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP88194': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP13591': {'PP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['海顿', '喜欢', 'nsubj']
+['VERB', 'ROOT', 'root']	['喜欢', 'NONE', 'root']
+['ADP', 'NOUN', 'case']	['把', '主题', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '乐章', 'clf']
+['NOUN', 'NOUN', 'nmod']	['乐章', '主题', 'nmod']
+['ADP', 'NOUN', 'case']	['中', '乐章', 'case']
+['PART', 'NOUN', 'case']	['的', '乐章', 'case']
+['NOUN', 'NOUN', 'nmod']	['主题', '主题', 'nmod']
+['ADP', 'NOUN', 'case']	['中', '主题', 'case']
+['PART', 'ADJ', 'mark:rel']	['的', '简单', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '主题', 'clf']
+['ADJ', 'NOUN', 'amod']	['简单', '主题', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '简单', 'mark:rel']
+['NOUN', 'VERB', 'obl:patient']	['主题', '用作', 'obl:patient']
+['CCONJ', 'NOUN', 'cc']	['或者', '萌芽', 'cc']
+['NOUN', 'NOUN', 'conj']	['萌芽', '主题', 'conj']
+['VERB', 'VERB', 'xcomp']	['用作', '喜欢', 'xcomp']
+['NUM', 'NOUN', 'nummod']	['一', '种', 'nummod']
+['NOUN', 'NOUN', 'clf']	['种', '启发', 'clf']
+['NOUN', 'VERB', 'iobj']	['启发', '用作', 'iobj']
+['PUNCT', 'VERB', 'punct']	['，', '激发', 'punct']
+['ADP', 'NOUN', 'case']	['在', '乐章', 'case']
+['DET', 'NOUN', 'det']	['整个', '乐章', 'det']
+['NOUN', 'VERB', 'obl']	['乐章', '激发', 'obl']
+['ADP', 'NOUN', 'case']	['中', '乐章', 'case']
+['PRON', 'VERB', 'nsubj']	['它', '激发', 'nsubj']
+['AUX', 'VERB', 'aux']	['会', '激发', 'aux']
+['VERB', 'VERB', 'parataxis']	['激发', '喜欢', 'parataxis']
+['VERB', 'VERB', 'mark']	['出', '激发', 'mark']
+['NUM', 'NOUN', 'nummod']	['许多', '想法', 'nummod']
+['ADJ', 'NOUN', 'amod']	['不同', '想法', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '不同', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['音乐', '想法', 'nmod']
+['NOUN', 'VERB', 'obj']	['想法', '激发', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '喜欢', 'punct']
+----------------------------------------------------------------------
+他的许多作品都是单一主题的。
+
+(ROOT (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (QP (CD 许多)) (NP (NN 作品))) (VP (VC 都是) (NP (DNP (NP (ADJP (JJ 单一)) (NP (NN 主题))) (UH 的)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'QP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'QP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'QP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'det']	['他', '作品', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NUM', 'NOUN', 'nummod']	['许多', '作品', 'nummod']
+['NOUN', 'NOUN', 'nsubj']	['作品', '主题', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '主题', 'cop']
+['ADJ', 'NOUN', 'amod']	['单一', '主题', 'amod']
+['NOUN', 'ROOT', 'root']	['主题', 'NONE', 'root']
+['PART', 'NOUN', 'discourse']	['的', '主题', 'discourse']
+['PUNCT', 'NOUN', 'punct']	['。', '主题', 'punct']
+----------------------------------------------------------------------
+事实上，一位法国评论家写道，海顿只需要一个主题就能创作出一个交响乐段落，而其他作曲家则需要几个。
+
+(ROOT (IP (LCP (NP (NN 事实)) (IN 上)) (, ，) (NP (QP (CD 一) (CLP (NNB 位))) (NP (NNP 法国)) (NP (VV 评论) (SFN 家))) (VP (VV 写道) (, ，) (IP (NP (NNP 海顿)) (VP (VP (ADVP (RB 只)) (VP (VV 需要) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 主题))))) (VP (ADVP (RB 就)) (VP (MD 能) (VP (VRD (VV 创作) (VV 出)) (NP (QP (CD 一) (CLP (NNB 个))) (IP (IP (NP (NN 交响) (SFN 乐) (SFN 段)) (VP (VV 落))) (, ，) (RB 而) (IP (NP (DP (DT 其他)) (NP (VV 作曲) (SFN 家))) (VP (ADVP (RB 则)) (VP (VV 需要) (QP (CD 几) (CLP (NNB 个)))))))))))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}, 'NP2111': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'QP': {}, 'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'obl']	['事实', '写道', 'obl']
+['ADP', 'NOUN', 'case']	['上', '事实', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '事实', 'punct']
+['NUM', 'NOUN', 'nummod']	['一', '位', 'nummod']
+['NOUN', 'PART', 'nmod']	['位', '家', 'nmod']
+['PROPN', 'PART', 'nmod']	['法国', '家', 'nmod']
+['VERB', 'PART', 'compound']	['评论', '家', 'compound']
+['PART', 'VERB', 'nsubj']	['家', '写道', 'nsubj']
+['VERB', 'ROOT', 'root']	['写道', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '需要', 'punct']
+['PROPN', 'VERB', 'nsubj']	['海顿', '需要', 'nsubj']
+['ADV', 'VERB', 'advmod']	['只', '需要', 'advmod']
+['VERB', 'VERB', 'ccomp']	['需要', '写道', 'ccomp']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '主题', 'clf']
+['NOUN', 'VERB', 'obj']	['主题', '需要', 'obj']
+['ADV', 'VERB', 'mark']	['就', '创作', 'mark']
+['AUX', 'VERB', 'aux']	['能', '创作', 'aux']
+['VERB', 'VERB', 'ccomp']	['创作', '需要', 'ccomp']
+['VERB', 'VERB', 'mark']	['出', '创作', 'mark']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'PART', 'nmod']	['个', '段', 'nmod']
+['NOUN', 'PART', 'compound']	['交响', '乐', 'compound']
+['PART', 'PART', 'compound']	['乐', '段', 'compound']
+['PART', 'VERB', 'nsubj']	['段', '落', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['落', '创作', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '创作', 'punct']
+['ADV', 'VERB', 'mark']	['而', '需要', 'mark']
+['DET', 'PART', 'det']	['其他', '家', 'det']
+['VERB', 'PART', 'compound']	['作曲', '家', 'compound']
+['PART', 'VERB', 'nsubj']	['家', '需要', 'nsubj']
+['ADV', 'VERB', 'mark']	['则', '需要', 'mark']
+['VERB', 'VERB', 'ccomp']	['需要', '写道', 'ccomp']
+['NUM', 'NOUN', 'nummod']	['几', '个', 'nummod']
+['NOUN', 'VERB', 'obj']	['个', '需要', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '写道', 'punct']
+----------------------------------------------------------------------
+莫扎特肯定不是“次要作曲家”，但他喜欢在一个乐章中使用一个或两个以上的主题。
+
+(ROOT (IP (IP (NP (NNP 莫扎特)) (VP (ADVP (VV 肯定)) (VP (VC 不是) (NP (`` “) (ADJP (JJ 次要)) (NP (VV 作曲) (SFN 家)) ('' ”))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 他)) (VP (VV 喜欢) (IP (VP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 乐章))) (IN 中))) (VP (VV 使用) (NP (DNP (LCP (QP (QP (CD 一) (CLP (NNB 个))) (CC 或) (QP (CD 两) (CLP (NNB 个)))) (IN 以上)) (DEC 的)) (NP (NN 主题)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP97554': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP99748': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['莫扎特', '肯定', 'nsubj']
+['VERB', 'ROOT', 'root']	['肯定', 'NONE', 'root']
+['AUX', 'PART', 'cop']	['是', '家', 'cop']
+['PUNCT', 'PART', 'punct']	['“', '家', 'punct']
+['ADJ', 'PART', 'amod']	['次要', '家', 'amod']
+['VERB', 'PART', 'compound']	['作曲', '家', 'compound']
+['PART', 'VERB', 'xcomp']	['家', '肯定', 'xcomp']
+['PUNCT', 'PART', 'punct']	['”', '家', 'punct']
+['PUNCT', 'VERB', 'punct']	['，', '喜欢', 'punct']
+['ADV', 'VERB', 'mark']	['但', '喜欢', 'mark']
+['PRON', 'VERB', 'nsubj']	['他', '喜欢', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['喜欢', '肯定', 'parataxis']
+['ADP', 'NOUN', 'case']	['在', '乐章', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '乐章', 'clf']
+['NOUN', 'VERB', 'obl']	['乐章', '使用', 'obl']
+['ADP', 'NOUN', 'case']	['中', '乐章', 'case']
+['VERB', 'VERB', 'xcomp']	['使用', '喜欢', 'xcomp']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['个', '主题', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['或', '个', 'cc']
+['NUM', 'NOUN', 'nummod']	['两', '个', 'nummod']
+['NOUN', 'NOUN', 'conj']	['个', '个', 'conj']
+['ADP', 'NOUN', 'case']	['以上', '个', 'case']
+['PART', 'NOUN', 'case']	['的', '个', 'case']
+['NOUN', 'VERB', 'obj']	['主题', '使用', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '肯定', 'punct']
+----------------------------------------------------------------------
+莫扎特在一个乐章中使用多个主题的技巧，同时，他创造出一个乐章，绝不缺乏统一性。
+
+(ROOT (IP (IP (NP (NNP 莫扎特)) (VP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 乐章))) (IN 中))) (VP (VV 使用) (NP (DNP (NP (QP (CD 多) (CLP (NNB 个))) (NP (NN 主题))) (DEC 的)) (NP (NN 技巧)))))) (, ，) (IP (ADVP (NN 同时)) (, ，) (NP (PRP 他)) (VP (VP (VRD (VV 创造) (VV 出)) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 乐章)))) (, ，) (VP (ADVP (RB 绝)) (ADVP (RB 不)) (VP (VV 缺乏) (NP (JJ 统一) (SFN 性)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP88686': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP70291': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['莫扎特', '使用', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '乐章', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '乐章', 'clf']
+['NOUN', 'VERB', 'obl']	['乐章', '使用', 'obl']
+['ADP', 'NOUN', 'case']	['中', '乐章', 'case']
+['VERB', 'ROOT', 'root']	['使用', 'NONE', 'root']
+['NUM', 'NOUN', 'nummod']	['多', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '主题', 'clf']
+['NOUN', 'NOUN', 'nmod']	['主题', '技巧', 'nmod']
+['PART', 'NOUN', 'case']	['的', '主题', 'case']
+['NOUN', 'VERB', 'obj']	['技巧', '使用', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '使用', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['同时', '创造', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '同时', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '创造', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['创造', '使用', 'parataxis']
+['VERB', 'VERB', 'mark']	['出', '创造', 'mark']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '乐章', 'clf']
+['NOUN', 'VERB', 'obj']	['乐章', '创造', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '缺乏', 'punct']
+['ADV', 'VERB', 'advmod']	['绝', '缺乏', 'advmod']
+['ADV', 'VERB', 'advmod']	['不', '缺乏', 'advmod']
+['VERB', 'VERB', 'parataxis']	['缺乏', '创造', 'parataxis']
+['ADJ', 'PART', 'compound']	['统一', '性', 'compound']
+['PART', 'VERB', 'obj']	['性', '缺乏', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '创造', 'punct']
+----------------------------------------------------------------------
+他所谓的《巴黎交响曲》（第 32 号）的第一乐章，充满主题，却从未觉得杂乱无章或缺乏统一。
+
+(ROOT (IP (NP (DNP (NP (CP (CP (IP (NP (PRP 他)) (VP (RB 所) (VP (VV 谓)))) (DEC 的))) (NP (-LRB- 《) (NP (NNP 巴黎)) (NP (VV 交响) (SFN 曲)) (-RRB- 》)) (PRN (-LRB- （) (QP (ADVP (CD 第)) (QP (CD 32) (CLP (NN 号)))) (-RRB- ）))) (DEC 的)) (QP (CD 第一)) (NP (NN 乐章))) (, ，) (VP (VP (VV 充满) (NP (NN 主题))) (, ，) (VP (ADVP (RB 却)) (ADVP (IN 从)) (ADVP (RB 未)) (VP (VV 觉得) (IP (VP (VP (VCD (JJ 杂乱) (JJ 无章))) (CC 或) (VP (VV 缺乏) (NP (JJ 统一)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'QP': {}, 'NP': {}}, ',': {}, 'VP': {'VP': {}, ',': {}, 'VP61488': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'QP': {}, 'NP': {}}, ',': {}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'QP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['他', '谓', 'nsubj']
+['ADV', 'VERB', 'mark']	['所', '谓', 'mark']
+['VERB', 'PART', 'acl:relcl']	['谓', '曲', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '谓', 'mark:rel']
+['PUNCT', 'PART', 'punct']	['《', '曲', 'punct']
+['PROPN', 'PART', 'nmod']	['巴黎', '曲', 'nmod']
+['VERB', 'PART', 'compound']	['交响', '曲', 'compound']
+['PART', 'NOUN', 'nmod']	['曲', '乐章', 'nmod']
+['PUNCT', 'PART', 'punct']	['》', '曲', 'punct']
+['PUNCT', 'NOUN', 'punct']	['（', '号', 'punct']
+['NUM', 'NOUN', 'nmod']	['第', '号', 'nmod']
+['NUM', 'NOUN', 'nummod']	['32', '号', 'nummod']
+['NOUN', 'PART', 'appos']	['号', '曲', 'appos']
+['PUNCT', 'NOUN', 'punct']	['）', '号', 'punct']
+['PART', 'PART', 'case']	['的', '曲', 'case']
+['NUM', 'NOUN', 'nummod']	['第一', '乐章', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['乐章', '充满', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '乐章', 'punct']
+['VERB', 'ROOT', 'root']	['充满', 'NONE', 'root']
+['NOUN', 'VERB', 'obj']	['主题', '充满', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '觉得', 'punct']
+['ADV', 'VERB', 'mark']	['却', '觉得', 'mark']
+['ADP', 'VERB', 'case']	['从', '觉得', 'case']
+['ADV', 'VERB', 'advmod']	['未', '觉得', 'advmod']
+['VERB', 'VERB', 'xcomp']	['觉得', '充满', 'xcomp']
+['ADJ', 'ADJ', 'advcl']	['杂乱', '无章', 'advcl']
+['ADJ', 'VERB', 'xcomp']	['无章', '觉得', 'xcomp']
+['CCONJ', 'VERB', 'cc']	['或', '缺乏', 'cc']
+['VERB', 'ADJ', 'conj']	['缺乏', '无章', 'conj']
+['ADJ', 'VERB', 'xcomp']	['统一', '缺乏', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '觉得', 'punct']
+----------------------------------------------------------------------
+许多书都指出，贝多芬喜欢将海顿的单主题技巧与莫扎特的多主题技巧相结合，他实现这一点的方法是，创作一个与第一主题类似的变奏或延伸，成为第二主题。
+
+(ROOT (IP (NP (QP (CD 许多)) (NP (NN 书))) (VP (ADVP (RB 都)) (VP (VV 指出) (, ，) (IP (IP (NP (NNP 贝多芬)) (VP (VV 喜欢) (IP (VP (BB 将) (IP (NP (DNP (NP (NNP 海顿)) (DEC 的)) (NP (ADJP (CD 单)) (NP (NN 主题))) (NP (NN 技巧))) (VP (PP (IN 与) (NP (DNP (NP (NNP 莫扎特)) (DEC 的)) (QP (CD 多)) (NP (NN 主题)) (NP (NN 技巧)))) (ADVP (RB 相)) (VP (VV 结合)))))))) (, ，) (IP (NP (PRP 他)) (VP (VP (VV 实现) (NP (DNP (DP (DT 这) (QP (CD 一) (CLP (NN 点)))) (DEC 的)) (NP (NN 方法)))) (VP (VC 是) (, ，) (IP (VP (VP (VV 创作) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (PP (IN 与) (NP (QP (CD 第一)) (NP (NN 主题)))) (VP (JJ 类似)))) (DEC 的))) (NP (NN 变奏) (CC 或) (NN 延伸)))) (, ，) (VP (VV 成) (VP (VC 为) (NP (QP (CD 第二)) (NP (NN 主题))))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['NUM', 'NOUN', 'nummod']	['许多', '书', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['书', '指出', 'nsubj']
+['ADV', 'VERB', 'mark']	['都', '指出', 'mark']
+['VERB', 'ROOT', 'root']	['指出', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '成', 'punct']
+['PROPN', 'VERB', 'nsubj']	['贝多芬', '喜欢', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['喜欢', '指出', 'ccomp']
+['ADP', 'NOUN', 'case']	['将', '技巧', 'case']
+['PROPN', 'NOUN', 'nmod']	['海顿', '技巧', 'nmod']
+['PART', 'PROPN', 'case']	['的', '海顿', 'case']
+['NUM', 'NOUN', 'nummod']	['单', '主题', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['主题', '技巧', 'nmod']
+['NOUN', 'VERB', 'obl:patient']	['技巧', '结合', 'obl:patient']
+['ADP', 'NOUN', 'case']	['与', '技巧', 'case']
+['PROPN', 'NOUN', 'nmod']	['莫扎特', '技巧', 'nmod']
+['PART', 'PROPN', 'case']	['的', '莫扎特', 'case']
+['NUM', 'NOUN', 'nummod']	['多', '主题', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['主题', '技巧', 'nmod']
+['NOUN', 'VERB', 'obl']	['技巧', '结合', 'obl']
+['ADV', 'VERB', 'advmod']	['相', '结合', 'advmod']
+['VERB', 'VERB', 'xcomp']	['结合', '喜欢', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '喜欢', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '实现', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['实现', '方法', 'acl:relcl']
+['DET', 'NOUN', 'det']	['这', '点', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '点', 'nummod']
+['NOUN', 'VERB', 'obj']	['点', '实现', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '实现', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['方法', '是', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['是', '喜欢', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '成', 'punct']
+['VERB', 'VERB', 'advcl']	['创作', '成', 'advcl']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '变奏', 'clf']
+['ADP', 'NOUN', 'case']	['与', '变奏', 'case']
+['NUM', 'NOUN', 'nummod']	['第一', '主题', 'nummod']
+['NOUN', 'ADJ', 'nmod']	['主题', '类似', 'nmod']
+['ADJ', 'NOUN', 'amod']	['类似', '变奏', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '类似', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['变奏', '创作', 'obj']
+['CCONJ', 'NOUN', 'cc']	['或', '延伸', 'cc']
+['NOUN', 'NOUN', 'conj']	['延伸', '变奏', 'conj']
+['PUNCT', 'VERB', 'punct']	['，', '创作', 'punct']
+['VERB', 'VERB', 'xcomp']	['成', '是', 'xcomp']
+['VERB', 'VERB', 'mark']	['为', '成', 'mark']
+['NUM', 'NOUN', 'nummod']	['第二', '主题', 'nummod']
+['NOUN', 'VERB', 'obj']	['主题', '成', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '指出', 'punct']
+----------------------------------------------------------------------
+这句话的一些内容是有道理的，但是像所有的笼统说法一样，这句话也不够准确。
+
+(ROOT (IP (IP (NP (DNP (NP (DP (DT 这) (CLP (NNB 句))) (NP (NN 话))) (DEC 的)) (QP (JJ 一些)) (NP (NN 内容))) (VP (VC 是) (NP (CP (CP (IP (VP (VV 有) (NP (NN 道理)))) (UH 的)))))) (, ，) (IP (ADVP (RB 但是)) (IP (VP (PP (IN 像) (NP (DNP (DP (DT 所有)) (DEC 的)) (ADJP (JJ 笼统)) (NP (NN 说法)))) (VP (JJ 一样)))) (, ，) (NP (DP (DT 这) (CLP (NNB 句))) (NP (NN 话))) (VP (ADVP (RB 也)) (ADVP (RB 不够)) (VP (JJ 准确)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP63025': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP31313': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这', '句', 'det']
+['NOUN', 'NOUN', 'clf']	['句', '话', 'clf']
+['NOUN', 'NOUN', 'nmod']	['话', '内容', 'nmod']
+['PART', 'NOUN', 'case']	['的', '话', 'case']
+['ADJ', 'NOUN', 'amod']	['一些', '内容', 'amod']
+['NOUN', 'VERB', 'nsubj']	['内容', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['有', '是', 'xcomp']
+['NOUN', 'VERB', 'obj']	['道理', '有', 'obj']
+['PART', 'VERB', 'discourse']	['的', '是', 'discourse']
+['PUNCT', 'ADJ', 'punct']	['，', '准确', 'punct']
+['ADV', 'ADJ', 'mark']	['但是', '一样', 'mark']
+['ADP', 'NOUN', 'case']	['像', '说法', 'case']
+['DET', 'NOUN', 'det']	['所有', '说法', 'det']
+['PART', 'DET', 'case']	['的', '所有', 'case']
+['ADJ', 'NOUN', 'amod']	['笼统', '说法', 'amod']
+['NOUN', 'ADJ', 'nmod']	['说法', '一样', 'nmod']
+['ADJ', 'ADJ', 'advcl']	['一样', '准确', 'advcl']
+['PUNCT', 'ADJ', 'punct']	['，', '一样', 'punct']
+['DET', 'NOUN', 'det']	['这', '句', 'det']
+['NOUN', 'NOUN', 'clf']	['句', '话', 'clf']
+['NOUN', 'ADJ', 'nsubj']	['话', '准确', 'nsubj']
+['ADV', 'ADJ', 'mark']	['也', '准确', 'mark']
+['ADV', 'ADJ', 'advmod']	['不够', '准确', 'advmod']
+['ADJ', 'VERB', 'parataxis']	['准确', '是', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+可以这样分析贝多芬的一些乐章，比如《第五交响曲》的序曲，但贝多芬的方法却很多种。
+
+(ROOT (IP (IP (VP (MD 可以) (VP (ADVP (RB 这样)) (VP (VV 分析) (NP (NP (DNP (NP (NNP 贝多芬)) (DEC 的)) (QP (JJ 一些)) (NP (NN 乐章))) (, ，) (NP (ADVP (VV 比如)) (NP (DNP (NP (-LRB- 《) (QP (CD 第五)) (NP (VV 交响) (SFN 曲)) (-RRB- 》)) (DEC 的)) (NP (NN 序曲))))))))) (, ，) (IP (ADVP (RB 但)) (NP (DNP (NP (NNP 贝多芬)) (DEC 的)) (NP (NN 方法))) (VP (ADVP (RB 却)) (VP (QP (CD 很多) (CLP (NNB 种)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP31737': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP58975': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['AUX', 'VERB', 'aux']	['可以', '分析', 'aux']
+['ADV', 'VERB', 'advmod']	['这样', '分析', 'advmod']
+['VERB', 'ROOT', 'root']	['分析', 'NONE', 'root']
+['PROPN', 'NOUN', 'nmod']	['贝多芬', '乐章', 'nmod']
+['PART', 'PROPN', 'case']	['的', '贝多芬', 'case']
+['ADJ', 'NOUN', 'amod']	['一些', '乐章', 'amod']
+['NOUN', 'VERB', 'obj']	['乐章', '分析', 'obj']
+['PUNCT', 'NOUN', 'punct']	['，', '乐章', 'punct']
+['VERB', 'VERB', 'ccomp']	['比如', '分析', 'ccomp']
+['PUNCT', 'PART', 'punct']	['《', '曲', 'punct']
+['NUM', 'PART', 'nummod']	['第五', '曲', 'nummod']
+['VERB', 'PART', 'compound']	['交响', '曲', 'compound']
+['PART', 'NOUN', 'nmod']	['曲', '序曲', 'nmod']
+['PUNCT', 'PART', 'punct']	['》', '曲', 'punct']
+['PART', 'PART', 'case']	['的', '曲', 'case']
+['NOUN', 'VERB', 'obj']	['序曲', '比如', 'obj']
+['PUNCT', 'NOUN', 'punct']	['，', '种', 'punct']
+['ADV', 'NOUN', 'mark']	['但', '种', 'mark']
+['PROPN', 'NOUN', 'nmod']	['贝多芬', '方法', 'nmod']
+['PART', 'PROPN', 'case']	['的', '贝多芬', 'case']
+['NOUN', 'NOUN', 'nsubj']	['方法', '种', 'nsubj']
+['ADV', 'NOUN', 'mark']	['却', '种', 'mark']
+['NUM', 'NOUN', 'nummod']	['很多', '种', 'nummod']
+['NOUN', 'VERB', 'parataxis']	['种', '分析', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '分析', 'punct']
+----------------------------------------------------------------------
+莫扎特是一个矛盾的人，他比海顿更保守，更遵守“规则”，但他的音乐却无与伦比。
+
+(ROOT (IP (IP (NP (NNP 莫扎特)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 矛盾))) (DEC 的))) (NP (NN 人))))) (, ，) (IP (NP (PRP 他)) (VP (VP (NP (NNP 比海顿)) (ADVP (RB 更)) (VP (JJ 保守))) (, ，) (VP (ADVP (RB 更)) (VP (VV 遵守) (NP (`` “) (NN 规则) ('' ”)))))) (, ，) (IP (ADVP (RB 但)) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 音乐))) (VP (ADVP (RB 却)) (VP (VV 无与伦比)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP75499': {}, ',88723': {}, 'IP60124': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP37031': {'NP': {}, 'VP': {}}, ',61469': {}, 'IP54735': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nsubj']	['莫扎特', '人', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '人', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '人', 'clf']
+['ADJ', 'NOUN', 'amod']	['矛盾', '人', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '矛盾', 'mark:rel']
+['NOUN', 'ROOT', 'root']	['人', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '遵守', 'punct']
+['PRON', 'PROPN', 'nmod']	['他', '比海顿', 'nmod']
+['PROPN', 'ADJ', 'nsubj']	['比海顿', '保守', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['更', '保守', 'advmod']
+['ADJ', 'VERB', 'advcl']	['保守', '遵守', 'advcl']
+['PUNCT', 'ADJ', 'punct']	['，', '保守', 'punct']
+['ADV', 'VERB', 'advmod']	['更', '遵守', 'advmod']
+['VERB', 'NOUN', 'parataxis']	['遵守', '人', 'parataxis']
+['PUNCT', 'NOUN', 'punct']	['“', '规则', 'punct']
+['NOUN', 'VERB', 'obj']	['规则', '遵守', 'obj']
+['PUNCT', 'NOUN', 'punct']	['”', '规则', 'punct']
+['PUNCT', 'VERB', 'punct']	['，', '无与伦比', 'punct']
+['ADV', 'VERB', 'mark']	['但', '无与伦比', 'mark']
+['PRON', 'NOUN', 'det']	['他', '音乐', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'VERB', 'nsubj']	['音乐', '无与伦比', 'nsubj']
+['ADV', 'VERB', 'mark']	['却', '无与伦比', 'mark']
+['VERB', 'NOUN', 'parataxis']	['无与伦比', '人', 'parataxis']
+['PUNCT', 'NOUN', 'punct']	['。', '人', 'punct']
+----------------------------------------------------------------------
+海顿喜欢惊艳听众，甚至惊吓听众，莫扎特却很少这样做。
+
+(ROOT (IP (IP (NP (NNP 海顿)) (VP (VP (VV 喜欢) (NP (CP (IP (VP (JJ 惊艳)))) (NP (NN 听众)))) (, ，) (VP (ADVP (RB 甚至)) (VP (VV 惊吓) (NP (NN 听众)))))) (, ，) (IP (NP (NNP 莫扎特)) (VP (ADVP (RB 却)) (ADVP (RB 很少)) (ADVP (RB 这样)) (VP (VV 做)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP83568': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP53306': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['海顿', '惊吓', 'nsubj']
+['VERB', 'VERB', 'advcl']	['喜欢', '惊吓', 'advcl']
+['ADJ', 'NOUN', 'amod']	['惊艳', '听众', 'amod']
+['NOUN', 'VERB', 'obj']	['听众', '喜欢', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '喜欢', 'punct']
+['ADV', 'VERB', 'mark']	['甚至', '惊吓', 'mark']
+['VERB', 'ROOT', 'root']	['惊吓', 'NONE', 'root']
+['NOUN', 'VERB', 'obj']	['听众', '惊吓', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '做', 'punct']
+['PROPN', 'VERB', 'nsubj']	['莫扎特', '做', 'nsubj']
+['ADV', 'VERB', 'mark']	['却', '做', 'mark']
+['ADV', 'VERB', 'advmod']	['很少', '做', 'advmod']
+['ADV', 'VERB', 'advmod']	['这样', '做', 'advmod']
+['VERB', 'VERB', 'parataxis']	['做', '惊吓', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '惊吓', 'punct']
+----------------------------------------------------------------------
+他的音乐更为规范，表现得更为文雅，尽管他似乎对自己设置了许多限制，但莫扎特还是给我们留下了许多无与伦比的杰作。
+
+(ROOT (IP (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 音乐))) (VP (VP (ADVP (RB 更为)) (VP (JJ 规范))) (, ，) (VP (VV 表现) (DEV 得) (VP (ADVP (RB 更为)) (VP (JJ 文雅)))))) (, ，) (IP (CP (ADVP (IN 尽管)) (IP (NP (PRP 他)) (VP (RB 似乎) (VP (PP (IN 对) (NP (PRD 自己))) (VP (VV 设置) (AS 了) (NP (QP (CD 许多)) (NP (NN 限制)))))))) (, ，) (ADVP (RB 但)) (NP (NNP 莫扎特)) (VP (ADVP (RB 还是)) (PP (VV 给) (NP (PRP 我们))) (VP (VV 留下) (AS 了) (NP (QP (CD 许多)) (CP (CP (IP (VP (JJ 无与伦比))) (DEC 的))) (NP (NN 杰作)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP52974': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP65480': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'det']	['他', '音乐', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'VERB', 'nsubj']	['音乐', '表现', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['更为', '规范', 'advmod']
+['ADJ', 'VERB', 'advcl']	['规范', '表现', 'advcl']
+['PUNCT', 'ADJ', 'punct']	['，', '规范', 'punct']
+['VERB', 'ROOT', 'root']	['表现', 'NONE', 'root']
+['PART', 'VERB', 'compound:ext']	['得', '表现', 'compound:ext']
+['ADV', 'ADJ', 'advmod']	['更为', '文雅', 'advmod']
+['ADJ', 'VERB', 'xcomp']	['文雅', '表现', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '留下', 'punct']
+['ADP', 'VERB', 'case']	['尽管', '设置', 'case']
+['PRON', 'VERB', 'nsubj']	['他', '设置', 'nsubj']
+['ADV', 'VERB', 'advmod']	['似乎', '设置', 'advmod']
+['ADP', 'PRON', 'case']	['对', '自己', 'case']
+['PRON', 'VERB', 'obl']	['自己', '设置', 'obl']
+['VERB', 'VERB', 'ccomp']	['设置', '留下', 'ccomp']
+['AUX', 'VERB', 'aux']	['了', '设置', 'aux']
+['NUM', 'NOUN', 'nummod']	['许多', '限制', 'nummod']
+['NOUN', 'VERB', 'obj']	['限制', '设置', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '设置', 'punct']
+['ADV', 'VERB', 'mark']	['但', '留下', 'mark']
+['PROPN', 'VERB', 'nsubj']	['莫扎特', '留下', 'nsubj']
+['ADV', 'VERB', 'mark']	['还是', '留下', 'mark']
+['VERB', 'VERB', 'advcl']	['给', '留下', 'advcl']
+['PRON', 'VERB', 'obj']	['我', '给', 'obj']
+['VERB', 'VERB', 'parataxis']	['留下', '表现', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '留下', 'aux']
+['NUM', 'NOUN', 'nummod']	['许多', '杰作', 'nummod']
+['ADJ', 'NOUN', 'amod']	['无与伦比', '杰作', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '无与伦比', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['杰作', '留下', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '表现', 'punct']
+----------------------------------------------------------------------
+海顿喜欢在复调中以不同的顺序呈现他的主题，有时甚至在复调中不严格按照排列顺序呈现他的主题。
+
+(ROOT (IP (NP (NNP 海顿)) (VP (VP (VV 喜欢) (IP (VP (PP (IN 在) (LCP (NP (NN 复调)) (IN 中))) (PP (IN 以) (NP (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (NN 顺序)))) (VP (VV 呈现) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 主题))))))) (, ，) (VP (ADVP (RB 有时)) (ADVP (RB 甚至)) (PP (IN 在) (LCP (NP (NN 复调)) (IN 中))) (ADVP (RB 不)) (ADVP (RB 严格)) (PP (IN 按照) (NP (NN 排列) (NN 顺序))) (VP (VV 呈现) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 主题)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP99128': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['海顿', '喜欢', 'nsubj']
+['VERB', 'ROOT', 'root']	['喜欢', 'NONE', 'root']
+['ADP', 'NOUN', 'case']	['在', '复调', 'case']
+['NOUN', 'VERB', 'obl']	['复调', '呈现', 'obl']
+['ADP', 'NOUN', 'case']	['中', '复调', 'case']
+['ADP', 'NOUN', 'case']	['以', '顺序', 'case']
+['ADJ', 'NOUN', 'amod']	['不同', '顺序', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '不同', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['顺序', '呈现', 'obl']
+['VERB', 'VERB', 'xcomp']	['呈现', '喜欢', 'xcomp']
+['PRON', 'NOUN', 'det']	['他', '主题', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'VERB', 'obj']	['主题', '呈现', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '呈现', 'punct']
+['ADV', 'VERB', 'advmod']	['有时', '呈现', 'advmod']
+['ADV', 'VERB', 'mark']	['甚至', '呈现', 'mark']
+['ADP', 'NOUN', 'case']	['在', '复调', 'case']
+['NOUN', 'VERB', 'obl']	['复调', '呈现', 'obl']
+['ADP', 'NOUN', 'case']	['中', '复调', 'case']
+['ADV', 'VERB', 'advmod']	['不', '呈现', 'advmod']
+['ADV', 'VERB', 'advmod']	['严格', '呈现', 'advmod']
+['ADP', 'NOUN', 'case']	['按照', '顺序', 'case']
+['NOUN', 'NOUN', 'nmod']	['排列', '顺序', 'nmod']
+['NOUN', 'VERB', 'obl']	['顺序', '呈现', 'obl']
+['VERB', 'VERB', 'parataxis']	['呈现', '喜欢', 'parataxis']
+['PRON', 'NOUN', 'det']	['他', '主题', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'VERB', 'obj']	['主题', '呈现', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '喜欢', 'punct']
+----------------------------------------------------------------------
+莫扎特很少重新排列他的主题，几乎总是字即句地重复。
+
+(ROOT (IP (IP (NP (NNP 莫扎特)) (VP (ADVP (RB 很少)) (ADVP (RB 重新)) (VP (VV 排列) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 主题)))))) (, ，) (IP (VP (ADVP (RB 几乎)) (ADVP (RB 总)) (VP (VC 是) (IP (NP (NN 字)) (VP (ADVP (RB 即)) (VP (VV 句地) (VV 重复))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP79661': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP59335': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['莫扎特', '排列', 'nsubj']
+['ADV', 'VERB', 'advmod']	['很少', '排列', 'advmod']
+['ADV', 'VERB', 'advmod']	['重新', '排列', 'advmod']
+['VERB', 'ROOT', 'root']	['排列', 'NONE', 'root']
+['PRON', 'NOUN', 'det']	['他', '主题', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'VERB', 'obj']	['主题', '排列', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['ADV', 'VERB', 'advmod']	['几乎', '是', 'advmod']
+['ADV', 'VERB', 'advmod']	['总', '是', 'advmod']
+['VERB', 'VERB', 'parataxis']	['是', '排列', 'parataxis']
+['NOUN', 'VERB', 'nsubj']	['字', '重复', 'nsubj']
+['ADV', 'VERB', 'mark']	['即', '重复', 'mark']
+['VERB', 'VERB', 'advcl']	['句地', '重复', 'advcl']
+['VERB', 'VERB', 'ccomp']	['重复', '是', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------
+莫扎特的主题往往是完整的抒情旋律，因此他可以不加改动地重复他的主题。
+
+(ROOT (IP (IP (NP (DNP (NP (NNP 莫扎特)) (DEC 的)) (NP (NN 主题))) (VP (ADVP (RB 往往)) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 完整))) (DEC 的))) (NP (JJ 抒情) (NN 旋律)))))) (, ，) (IP (ADVP (IN 因)) (ADVP (PRD 此)) (NP (PRP 他)) (VP (MD 可以) (VP (DVP (VP (ADVP (RB 不)) (VP (VV 加改))) (NN 动地)) (VP (VV 重复) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 主题))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP92025': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP53722': {'ADVP': {}, 'ADVP77047': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['莫扎特', '主题', 'nmod']
+['PART', 'PROPN', 'case']	['的', '莫扎特', 'case']
+['NOUN', 'NOUN', 'nsubj']	['主题', '旋律', 'nsubj']
+['ADV', 'NOUN', 'advmod']	['往往', '旋律', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '旋律', 'cop']
+['ADJ', 'NOUN', 'amod']	['完整', '旋律', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '完整', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['抒情', '旋律', 'amod']
+['NOUN', 'ROOT', 'root']	['旋律', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '重复', 'punct']
+['ADP', 'PRON', 'case']	['因', '此', 'case']
+['PRON', 'VERB', 'obl']	['此', '重复', 'obl']
+['PRON', 'VERB', 'nsubj']	['他', '重复', 'nsubj']
+['AUX', 'VERB', 'aux']	['可以', '重复', 'aux']
+['ADV', 'VERB', 'advmod']	['不', '加改', 'advmod']
+['VERB', 'VERB', 'advcl']	['加改', '重复', 'advcl']
+['NOUN', 'VERB', 'obj']	['动地', '加改', 'obj']
+['VERB', 'NOUN', 'parataxis']	['重复', '旋律', 'parataxis']
+['PRON', 'NOUN', 'det']	['他', '主题', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'VERB', 'obj']	['主题', '重复', 'obj']
+['PUNCT', 'NOUN', 'punct']	['。', '旋律', 'punct']
+----------------------------------------------------------------------
+至于三重奏、四重奏和交响曲，海顿留给我们的杰作比莫扎特多，尽管莫扎特的最后三首交响曲是精美的杰作，与海顿的任何一首交响曲都相当或超过了。当然，不公平地将一个在三十六岁生日前就去世的人的作品与一个活到七十七岁的人的作品相比。
+
+(ROOT (IP (IP (PP (IN 至于) (NP (NP (QP (CD 三) (CLP (NNB 重))) (NP (SFN 奏))) (EC 、) (NP (QP (CD 四) (CLP (NN 重))) (NP (SFN 奏))) (CC 和) (NP (VV 交响) (SFN 曲)))) (, ，) (NP (NNP 海顿)) (VP (VP (VV 留) (PP (VV 给) (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NN 杰作))))) (VP (PP (IN 比) (NP (NNP 莫扎特))) (VP (JJ 多))))) (, ，) (IP (CP (ADVP (IN 尽管)) (IP (NP (DNP (NP (NNP 莫扎特)) (DEC 的)) (ADJP (NN 最后)) (QP (CD 三) (CLP (NNB 首))) (NP (VV 交响) (SFN 曲))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 精美))) (DEC 的))) (NP (NN 杰作)))))) (, ，) (VP (PP (IN 与) (NP (DNP (NP (NNP 海顿)) (DEC 的)) (DP (DT 任何) (QP (CD 一) (CLP (NNB 首)))) (NP (VV 交响) (SFN 曲)))) (ADVP (RB 都)) (VP (ADVP (RB 相当) (CC 或) (VV 超过)) (UH 了)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP84920': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP17071': {'CP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'CP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'CP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'PART', 'case']	['至于', '奏', 'case']
+['NUM', 'NOUN', 'nummod']	['三', '重', 'nummod']
+['NOUN', 'PART', 'compound']	['重', '奏', 'compound']
+['PART', 'ADJ', 'nmod']	['奏', '多', 'nmod']
+['PUNCT', 'PART', 'punct']	['、', '奏', 'punct']
+['NUM', 'NOUN', 'nummod']	['四', '重', 'nummod']
+['NOUN', 'PART', 'compound']	['重', '奏', 'compound']
+['PART', 'PART', 'conj']	['奏', '奏', 'conj']
+['CCONJ', 'PART', 'cc']	['和', '曲', 'cc']
+['VERB', 'PART', 'compound']	['交响', '曲', 'compound']
+['PART', 'PART', 'conj']	['曲', '奏', 'conj']
+['PUNCT', 'PART', 'punct']	['，', '奏', 'punct']
+['PROPN', 'VERB', 'nsubj']	['海顿', '留', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['留', '杰作', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['给', '留', 'mark']
+['PRON', 'VERB', 'obj']	['我', '留', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '留', 'mark:rel']
+['NOUN', 'ADJ', 'nsubj']	['杰作', '多', 'nsubj']
+['ADP', 'PROPN', 'case']	['比', '莫扎特', 'case']
+['PROPN', 'ADJ', 'nmod']	['莫扎特', '多', 'nmod']
+['ADJ', 'ROOT', 'root']	['多', 'NONE', 'root']
+['PUNCT', 'ADV', 'punct']	['，', '相当', 'punct']
+['ADP', 'NOUN', 'case']	['尽管', '杰作', 'case']
+['PROPN', 'PART', 'nmod']	['莫扎特', '曲', 'nmod']
+['PART', 'PROPN', 'case']	['的', '莫扎特', 'case']
+['NOUN', 'PART', 'nmod']	['最后', '曲', 'nmod']
+['NUM', 'NOUN', 'nummod']	['三', '首', 'nummod']
+['NOUN', 'PART', 'nmod']	['首', '曲', 'nmod']
+['VERB', 'PART', 'compound']	['交响', '曲', 'compound']
+['PART', 'NOUN', 'nsubj']	['曲', '杰作', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '杰作', 'cop']
+['ADJ', 'NOUN', 'amod']	['精美', '杰作', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '精美', 'mark:rel']
+['NOUN', 'ADV', 'advcl']	['杰作', '相当', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['，', '杰作', 'punct']
+['ADP', 'PART', 'case']	['与', '曲', 'case']
+['PROPN', 'PART', 'nmod']	['海顿', '曲', 'nmod']
+['PART', 'PROPN', 'case']	['的', '海顿', 'case']
+['DET', 'NOUN', 'det']	['任何', '首', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '首', 'nummod']
+['NOUN', 'PART', 'nmod']	['首', '曲', 'nmod']
+['VERB', 'PART', 'compound']	['交响', '曲', 'compound']
+['PART', 'ADV', 'nmod']	['曲', '相当', 'nmod']
+['ADV', 'VERB', 'mark']	['都', '超过', 'mark']
+['ADV', 'VERB', 'advmod']	['相当', '超过', 'advmod']
+['CCONJ', 'VERB', 'cc']	['或', '超过', 'cc']
+['VERB', 'ADJ', 'conj']	['超过', '多', 'conj']
+['PART', 'VERB', 'discourse']	['了', '超过', 'discourse']
+['PUNCT', 'ADJ', 'punct']	['。', '多', 'punct']
+----------------------------------------------------------------------
+在歌剧方面，莫扎特无人能及。
+
+(ROOT (IP (PP (IN 在) (NP (NN 歌剧) (NN 方面))) (, ，) (NP (NNP 莫扎特)) (VP (NP (RB 无人)) (VP (VV 能及))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['在', '方面', 'case']
+['NOUN', 'NOUN', 'nmod']	['歌剧', '方面', 'nmod']
+['NOUN', 'VERB', 'obl']	['方面', '能及', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '方面', 'punct']
+['PROPN', 'VERB', 'nsubj']	['莫扎特', '能及', 'nsubj']
+['ADV', 'VERB', 'advmod']	['无人', '能及', 'advmod']
+['VERB', 'ROOT', 'root']	['能及', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['。', '能及', 'punct']
+----------------------------------------------------------------------
+海顿公开承认莫扎特的歌剧远胜于自己的作品。
+
+(ROOT (IP (NP (NNP 海顿)) (VP (ADVP (VV 公开)) (VP (VV 承认) (IP (NP (DNP (NP (NNP 莫扎特)) (DEC 的)) (NP (NN 歌剧))) (VP (VV 远胜) (PP (VV 于) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 作品)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['海顿', '公开', 'nsubj']
+['VERB', 'ROOT', 'root']	['公开', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['承认', '公开', 'xcomp']
+['PROPN', 'NOUN', 'nmod']	['莫扎特', '歌剧', 'nmod']
+['PART', 'PROPN', 'case']	['的', '莫扎特', 'case']
+['NOUN', 'VERB', 'nsubj']	['歌剧', '远胜', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['远胜', '作品', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['于', '远胜', 'mark']
+['PRON', 'VERB', 'obj']	['自己', '远胜', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '远胜', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['作品', '承认', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '公开', 'punct']
+----------------------------------------------------------------------
+由于古典协奏曲的风格与古典歌剧非常相近，因此成功的作曲家通常在两者中都能取得成功。
+
+(ROOT (IP (PP (IN 由于) (IP (NP (DNP (NP (ADJP (NN 古典)) (NP (NN 协奏) (SFN 曲))) (DEC 的)) (NP (NN 风格))) (VP (PP (IN 与) (NP (ADJP (NN 古典)) (NP (NN 歌剧)))) (ADVP (RB 非常)) (VP (JJ 相近))))) (, ，) (ADVP (IN 因)) (ADVP (PRD 此)) (NP (CP (CP (IP (VP (JJ 成功))) (DEC 的))) (NP (VV 作曲) (SFN 家))) (VP (ADVP (RB 通常)) (PP (IN 在) (LCP (NP (QP (CD 两)) (NP (NN 者))) (IN 中))) (ADVP (RB 都)) (VP (MD 能) (VP (VV 取得) (NP (JJ 成功))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'ADVP': {}, 'ADVP53540': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'ADVP': {'IN': {}}, 'ADVP78862': {'PRD': {}}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'ADVP74136': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'ADVP': {'IN': {}}, 'ADVP': {'PRD': {}}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'ADVP': {'IN': {}}}
+{'ADVP': {'PRD': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'ADJ', 'case']	['由于', '相近', 'case']
+['NOUN', 'PART', 'nmod']	['古典', '曲', 'nmod']
+['NOUN', 'PART', 'compound']	['协奏', '曲', 'compound']
+['PART', 'NOUN', 'nmod']	['曲', '风格', 'nmod']
+['PART', 'PART', 'case']	['的', '曲', 'case']
+['NOUN', 'ADJ', 'nsubj']	['风格', '相近', 'nsubj']
+['ADP', 'NOUN', 'case']	['与', '歌剧', 'case']
+['NOUN', 'NOUN', 'nmod']	['古典', '歌剧', 'nmod']
+['NOUN', 'ADJ', 'nmod']	['歌剧', '相近', 'nmod']
+['ADV', 'ADJ', 'advmod']	['非常', '相近', 'advmod']
+['ADJ', 'VERB', 'ccomp']	['相近', '取得', 'ccomp']
+['PUNCT', 'ADJ', 'punct']	['，', '相近', 'punct']
+['ADP', 'PRON', 'case']	['因', '此', 'case']
+['PRON', 'VERB', 'obl']	['此', '取得', 'obl']
+['ADJ', 'PART', 'amod']	['成功', '家', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '成功', 'mark:rel']
+['VERB', 'PART', 'compound']	['作曲', '家', 'compound']
+['PART', 'VERB', 'nsubj']	['家', '取得', 'nsubj']
+['ADV', 'VERB', 'advmod']	['通常', '取得', 'advmod']
+['ADP', 'NOUN', 'case']	['在', '者', 'case']
+['NUM', 'NOUN', 'nummod']	['两', '者', 'nummod']
+['NOUN', 'VERB', 'obl']	['者', '取得', 'obl']
+['ADP', 'NOUN', 'case']	['中', '者', 'case']
+['ADV', 'VERB', 'mark']	['都', '取得', 'mark']
+['AUX', 'VERB', 'aux']	['能', '取得', 'aux']
+['VERB', 'ROOT', 'root']	['取得', 'NONE', 'root']
+['ADJ', 'VERB', 'xcomp']	['成功', '取得', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '取得', 'punct']
+----------------------------------------------------------------------
+这在很大程度上解释了莫扎特为什么能创作出如此伟大的协奏曲，而海顿的协奏曲大多数都是他的歌剧一样的中规中矩的作品。
+
+(ROOT (IP (IP (NP (PRD 这)) (VP (PP (IN 在) (LCP (NP (ADJP (JJ 很大)) (NP (NN 程度))) (IN 上))) (VP (VV 解释) (AS 了) (IP (NP (NNP 莫扎特)) (VP (PP (IN 为) (NP (WP 什么))) (VP (MD 能) (VP (VRD (VV 创作) (VV 出)) (NP (CP (CP (IP (VP (ADVP (VV 如此)) (VP (JJ 伟大)))) (DEC 的))) (NP (VV 协奏) (SFN 曲)))))))))) (, ，) (IP (ADVP (RB 而)) (NP (DNP (NP (NNP 海顿)) (DEC 的)) (NP (VV 协奏) (SFN 曲))) (QP (ADVP (RB 大)) (QP (RB 多数))) (VP (VC 都是) (NP (CP (CP (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 歌剧))) (VP (JJ 一样))) (DEC 的))) (DNP (NP (JJ 中规) (NN 中矩)) (DEC 的)) (NP (NN 作品))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP98950': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP79982': {'ADVP': {}, 'NP': {}, 'QP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'QP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'QP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['这', '解释', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '程度', 'case']
+['ADJ', 'NOUN', 'amod']	['很大', '程度', 'amod']
+['NOUN', 'VERB', 'obl']	['程度', '解释', 'obl']
+['ADP', 'NOUN', 'case']	['上', '程度', 'case']
+['VERB', 'ROOT', 'root']	['解释', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '解释', 'aux']
+['PROPN', 'VERB', 'nsubj']	['莫扎特', '创作', 'nsubj']
+['ADP', 'PRON', 'case']	['为', '什么', 'case']
+['PRON', 'VERB', 'obl']	['什么', '创作', 'obl']
+['AUX', 'VERB', 'aux']	['能', '创作', 'aux']
+['VERB', 'NOUN', 'advcl']	['创作', '作品', 'advcl']
+['VERB', 'VERB', 'mark']	['出', '创作', 'mark']
+['VERB', 'ADJ', 'advcl']	['如此', '伟大', 'advcl']
+['ADJ', 'PART', 'amod']	['伟大', '曲', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '伟大', 'mark:rel']
+['VERB', 'PART', 'compound']	['协奏', '曲', 'compound']
+['PART', 'VERB', 'obj']	['曲', '创作', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '创作', 'punct']
+['ADV', 'NOUN', 'mark']	['而', '作品', 'mark']
+['PROPN', 'PART', 'nmod']	['海顿', '曲', 'nmod']
+['PART', 'PROPN', 'case']	['的', '海顿', 'case']
+['VERB', 'PART', 'compound']	['协奏', '曲', 'compound']
+['PART', 'NOUN', 'nsubj']	['曲', '作品', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['大', '一样', 'advmod']
+['ADV', 'NOUN', 'advmod']	['多数', '作品', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '作品', 'cop']
+['PRON', 'NOUN', 'det']	['他', '歌剧', 'det']
+['PART', 'PRON', 'mark:rel']	['的', '他', 'mark:rel']
+['NOUN', 'ADJ', 'nmod']	['歌剧', '一样', 'nmod']
+['ADJ', 'NOUN', 'acl:relcl']	['一样', '作品', 'acl:relcl']
+['PART', 'ADJ', 'mark:rel']	['的', '一样', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['中规', '中矩', 'amod']
+['NOUN', 'NOUN', 'acl:relcl']	['中矩', '作品', 'acl:relcl']
+['PART', 'NOUN', 'mark:rel']	['的', '中矩', 'mark:rel']
+['NOUN', 'VERB', 'ccomp']	['作品', '解释', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '解释', 'punct']
+----------------------------------------------------------------------
+不过，我认为海顿的另一首协奏曲是一个伟大的杰作，那就是他的号角协奏曲。尽管这首作品比海顿的其他作品更保守，但海顿的号角协奏曲是一部杰作，它可以轻松与胡梅尔的大号角协奏曲并驾齐驱。
+
+(ROOT (IP (ADVP (RB 不过)) (, ，) (NP (PRP 我)) (VP (VV 认为) (IP (IP (NP (DNP (NP (NNP 海顿)) (DEC 的)) (DP (DT 另) (QP (CD 一) (CLP (NNB 首)))) (NP (VV 协奏) (SFN 曲))) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 伟大))) (DEC 的))) (NP (NN 杰作))))) (, ，) (IP (NP (RB 那)) (VP (VC 就是) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 号) (SFN 角) (VV 协奏) (SFN 曲))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['不过', '为', 'mark']
+['PUNCT', 'ADV', 'punct']	['，', '不过', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '为', 'nsubj']
+['VERB', 'ROOT', 'root']	['为', 'NONE', 'root']
+['PROPN', 'PART', 'nmod']	['海顿', '曲', 'nmod']
+['PART', 'PROPN', 'case']	['的', '海顿', 'case']
+['DET', 'NOUN', 'det']	['另', '首', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '首', 'nummod']
+['NOUN', 'PART', 'nmod']	['首', '曲', 'nmod']
+['VERB', 'PART', 'compound']	['协奏', '曲', 'compound']
+['PART', 'NOUN', 'nsubj']	['曲', '杰作', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '杰作', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '杰作', 'clf']
+['ADJ', 'NOUN', 'amod']	['伟大', '杰作', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '伟大', 'mark:rel']
+['NOUN', 'PART', 'advcl']	['杰作', '曲', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['，', '杰作', 'punct']
+['ADV', 'PART', 'advmod']	['那', '曲', 'advmod']
+['AUX', 'PART', 'cop']	['是', '曲', 'cop']
+['PRON', 'PART', 'det']	['他', '曲', 'det']
+['PART', 'PRON', 'mark:rel']	['的', '他', 'mark:rel']
+['NOUN', 'PART', 'compound']	['号', '角', 'compound']
+['PART', 'PART', 'nmod']	['角', '曲', 'nmod']
+['VERB', 'PART', 'compound']	['协奏', '曲', 'compound']
+['PART', 'VERB', 'ccomp']	['曲', '为', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '为', 'punct']
+----------------------------------------------------------------------
+在教会音乐方面，莫扎特远远超过了约瑟夫·海顿。
+
+(ROOT (IP (PP (IN 在) (NP (NP (NN 教会) (NN 音乐)) (NP (NN 方面)))) (, ，) (NP (NNP 莫扎特)) (VP (ADVP (RB 远远)) (VP (VV 超过) (AS 了) (NP (NNP 约瑟夫) (/ ·) (NNP 海顿)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['在', '方面', 'case']
+['NOUN', 'NOUN', 'nmod']	['教会', '方面', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['音乐', '方面', 'nmod']
+['NOUN', 'VERB', 'obl']	['方面', '超过', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '方面', 'punct']
+['PROPN', 'VERB', 'nsubj']	['莫扎特', '超过', 'nsubj']
+['ADV', 'VERB', 'advmod']	['远远', '超过', 'advmod']
+['VERB', 'ROOT', 'root']	['超过', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '超过', 'aux']
+['PROPN', 'VERB', 'obj']	['约瑟夫', '超过', 'obj']
+['PUNCT', 'PROPN', 'punct']	['·', '海顿', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['海顿', '约瑟夫', 'flat:name']
+['PUNCT', 'VERB', 'punct']	['。', '超过', 'punct']
+----------------------------------------------------------------------
+海顿曾说过，他的哥哥迈克尔是一个更好的教堂音乐作曲家。
+
+(ROOT (IP (NP (NNP 海顿)) (VP (ADVP (RB 曾)) (VP (VV 说) (AS 过) (, ，) (IP (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 哥哥))) (NP (NNP 迈克) (NNP 尔))) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 更好))) (DEC 的))) (NP (NN 教堂) (NN 音乐) (VV 作曲) (SFN 家))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['海顿', '说', 'nsubj']
+['ADV', 'VERB', 'advmod']	['曾', '说', 'advmod']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['过', '说', 'aux']
+['PUNCT', 'PART', 'punct']	['，', '家', 'punct']
+['PRON', 'NOUN', 'det']	['他', '哥哥', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'PART', 'nsubj']	['哥哥', '家', 'nsubj']
+['PROPN', 'NOUN', 'appos']	['迈克', '哥哥', 'appos']
+['PROPN', 'PROPN', 'flat:name']	['尔', '迈克', 'flat:name']
+['AUX', 'PART', 'cop']	['是', '家', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'PART', 'nmod']	['个', '家', 'nmod']
+['ADJ', 'PART', 'amod']	['更好', '家', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '更好', 'mark:rel']
+['NOUN', 'PART', 'nmod']	['教堂', '家', 'nmod']
+['NOUN', 'PART', 'nmod']	['音乐', '家', 'nmod']
+['VERB', 'PART', 'compound']	['作曲', '家', 'compound']
+['PART', 'VERB', 'ccomp']	['家', '说', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
+----------------------------------------------------------------------
+如果你听过海顿为天主教会创作的弥撒曲，你会发现它们实际上是带有合唱的交响曲。
+
+(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 你)) (VP (VV 听) (NP (CP (CP (IP (NP (NNP 过海) (SFN 顿)) (VP (PP (IN 为) (NP (NNP 天主) (NN 教会))) (VP (VV 创作)))) (DEC 的))) (NP (NN 弥撒) (SFN 曲)))))) (, ，) (NP (PRP 你)) (VP (MD 会) (VP (VV 发现) (IP (NP (PRP 它们)) (VP (LCP (NP (NN 实际)) (IN 上)) (VP (VC 是) (NP (CP (CP (IP (VP (VV 带有) (NP (VV 合唱)))) (DEC 的))) (NP (VV 交响) (SFN 曲)))))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['如果', '听', 'case']
+['PRON', 'VERB', 'nsubj']	['你', '听', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['听', '发现', 'ccomp']
+['PROPN', 'PART', 'compound']	['过海', '顿', 'compound']
+['PART', 'VERB', 'nsubj']	['顿', '创作', 'nsubj']
+['ADP', 'NOUN', 'case']	['为', '教会', 'case']
+['PROPN', 'NOUN', 'nmod']	['天主', '教会', 'nmod']
+['NOUN', 'VERB', 'obl']	['教会', '创作', 'obl']
+['VERB', 'PART', 'acl:relcl']	['创作', '曲', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '创作', 'mark:rel']
+['NOUN', 'PART', 'compound']	['弥撒', '曲', 'compound']
+['PART', 'VERB', 'obj']	['曲', '听', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '听', 'punct']
+['PRON', 'VERB', 'nsubj']	['你', '发现', 'nsubj']
+['AUX', 'VERB', 'aux']	['会', '发现', 'aux']
+['VERB', 'ROOT', 'root']	['发现', 'NONE', 'root']
+['PRON', 'VERB', 'nsubj']	['它', '是', 'nsubj']
+['NOUN', 'VERB', 'obl']	['实际', '是', 'obl']
+['ADP', 'NOUN', 'case']	['上', '实际', 'case']
+['VERB', 'VERB', 'ccomp']	['是', '发现', 'ccomp']
+['VERB', 'VERB', 'xcomp']	['带有', '是', 'xcomp']
+['VERB', 'PART', 'acl:relcl']	['合唱', '曲', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '合唱', 'mark:rel']
+['VERB', 'PART', 'compound']	['交响', '曲', 'compound']
+['PART', 'VERB', 'obj']	['曲', '带有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '发现', 'punct']
+----------------------------------------------------------------------
+他的《弥撒》和《交响曲》在风格上没有差别。
+
+(ROOT (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NP (-LRB- 《) (NN 弥撒) (-RRB- 》)) (CC 和) (NP (-LRB- 《) (VV 交响) (SFN 曲) (-RRB- 》)))) (VP (PP (IN 在) (LCP (NP (NN 风格)) (IN 上))) (VP (VV 没有) (NP (NN 差别)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'det']	['他', '弥撒', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['PUNCT', 'NOUN', 'punct']	['《', '弥撒', 'punct']
+['NOUN', 'VERB', 'nsubj']	['弥撒', '有', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['》', '弥撒', 'punct']
+['CCONJ', 'PART', 'cc']	['和', '曲', 'cc']
+['PUNCT', 'PART', 'punct']	['《', '曲', 'punct']
+['VERB', 'PART', 'compound']	['交响', '曲', 'compound']
+['PART', 'NOUN', 'conj']	['曲', '弥撒', 'conj']
+['PUNCT', 'PART', 'punct']	['》', '曲', 'punct']
+['ADP', 'NOUN', 'case']	['在', '风格', 'case']
+['NOUN', 'VERB', 'obl']	['风格', '有', 'obl']
+['ADP', 'NOUN', 'case']	['上', '风格', 'case']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['NOUN', 'VERB', 'obj']	['差别', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+虽然莫扎特对巴赫、哈恩德尔等巴洛克时期教会音乐大师有着深刻的理解，但他对巴洛克教会风格并没有深入的把握。
+
+(ROOT (IP (CP (ADVP (IN 虽然)) (IP (NP (NNP 莫扎特)) (VP (PP (IN 对) (NP (NP (NNP 巴赫) (EC 、) (NNP 哈恩) (NNP 德尔) (NN 等)) (NP (NP (NNP 巴洛克)) (NP (NN 时期))) (NP (NN 教会) (NN 音乐) (NN 大师)))) (VP (VV 有) (AS 着) (NP (CP (CP (IP (VP (JJ 深刻))) (DEC 的))) (NP (NN 理解))))))) (, ，) (ADVP (RB 但)) (NP (PRP 他)) (VP (PP (IN 对) (NP (NP (NNP 巴洛克)) (NP (NN 教会) (NN 风格)))) (ADVP (RB 并)) (VP (VV 没有) (NP (CP (CP (IP (VP (JJ 深入))) (DEV 的))) (NP (PFA 把) (NN 握))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['虽然', '有', 'case']
+['PROPN', 'VERB', 'nsubj']	['莫扎特', '有', 'nsubj']
+['ADP', 'NOUN', 'case']	['对', '大师', 'case']
+['PROPN', 'NOUN', 'nmod']	['巴赫', '大师', 'nmod']
+['PUNCT', 'PROPN', 'punct']	['、', '哈恩', 'punct']
+['PROPN', 'PROPN', 'conj']	['哈恩', '巴赫', 'conj']
+['PROPN', 'PROPN', 'conj']	['德尔', '巴赫', 'conj']
+['NOUN', 'PROPN', 'acl']	['等', '巴赫', 'acl']
+['PROPN', 'NOUN', 'nmod']	['巴洛克', '大师', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['时期', '大师', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['教会', '大师', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['音乐', '大师', 'nmod']
+['NOUN', 'VERB', 'obl']	['大师', '有', 'obl']
+['VERB', 'VERB', 'ccomp']	['有', '有', 'ccomp']
+['AUX', 'VERB', 'aux']	['着', '有', 'aux']
+['ADJ', 'NOUN', 'amod']	['深刻', '理解', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '深刻', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['理解', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['ADV', 'VERB', 'mark']	['但', '有', 'mark']
+['PRON', 'VERB', 'nsubj']	['他', '有', 'nsubj']
+['ADP', 'NOUN', 'case']	['对', '风格', 'case']
+['PROPN', 'NOUN', 'nmod']	['巴洛克', '风格', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['教会', '风格', 'nmod']
+['NOUN', 'VERB', 'obl']	['风格', '有', 'obl']
+['ADV', 'VERB', 'mark']	['并', '有', 'mark']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['ADJ', 'NOUN', 'amod']	['深入', '握', 'amod']
+['PART', 'ADJ', 'mark:adv']	['的', '深入', 'mark:adv']
+['PART', 'NOUN', 'case']	['把', '握', 'case']
+['NOUN', 'VERB', 'obj']	['握', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+退休后，海顿两次访问伦敦，在那里，他认识了哈韦兹的大型套曲。在了解到哈韦兹的作品后，海顿创作了两部大型套曲，分别是《创世纪》和《四季》。我认为，这两部作品远远超过了他的《弥撒》，尽管在他最后一部《弥撒》中，他终于做到了将交响乐和合唱的风格巧妙地结合起来。
+
+(ROOT (IP (IP (LCP (NP (VV 退休)) (IN 后)) (, ，) (NP (NNP 海顿)) (VP (QP (CD 两) (CLP (NNB 次))) (VP (VV 访问) (NP (NNP 伦敦))))) (, ，) (IP (PP (VV 在) (NP (PRD 那里))) (, ，) (NP (PRP 他)) (VP (VV 认识) (AS 了) (NP (DNP (NP (NNP 哈韦兹)) (DEC 的)) (ADJP (JJ 大型)) (NP (NN 套曲))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP462': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP12184': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['退休', '访问', 'advcl']
+['ADP', 'VERB', 'mark']	['后', '退休', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '退休', 'punct']
+['PROPN', 'VERB', 'nsubj']	['海顿', '访问', 'nsubj']
+['NUM', 'NOUN', 'nummod']	['两', '次', 'nummod']
+['NOUN', 'VERB', 'obl']	['次', '访问', 'obl']
+['VERB', 'ROOT', 'root']	['访问', 'NONE', 'root']
+['PROPN', 'VERB', 'obj']	['伦敦', '访问', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '认识', 'punct']
+['VERB', 'VERB', 'advcl']	['在', '认识', 'advcl']
+['PRON', 'VERB', 'obj']	['那里', '在', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '在', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '认识', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['认识', '访问', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '认识', 'aux']
+['PROPN', 'NOUN', 'nmod']	['哈韦兹', '套曲', 'nmod']
+['PART', 'PROPN', 'case']	['的', '哈韦兹', 'case']
+['ADJ', 'NOUN', 'amod']	['大型', '套曲', 'amod']
+['NOUN', 'VERB', 'obj']	['套曲', '认识', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '访问', 'punct']
+----------------------------------------------------------------------
+贝多芬受到海顿和莫扎特的很大影响，他从他们身上学到了一些东西，并将自己独特的个性融入到了自己的音乐中。
+
+(ROOT (IP (IP (NP (NNP 贝多芬)) (VP (VV 受到) (NP (DNP (NP (NNP 海顿) (CC 和) (NNP 莫扎特)) (DEC 的)) (ADJP (JJ 很大)) (NP (NN 影响))))) (, ，) (IP (NP (PRP 他)) (VP (VP (PP (IN 从) (LCP (NP (PRP 他们)) (NN 身上))) (VP (VV 学到) (AS 了) (NP (QP (JJ 一些)) (NP (NN 东西))))) (, ，) (RB 并) (VP (BB 将) (IP (NP (NP (PRD 自己)) (CP (CP (IP (VP (JJ 独特))) (DEC 的))) (NP (NN 个性))) (VP (VRD (VV 融入) (VV 到)) (AS 了) (LCP (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 音乐))) (IN 中))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP48961': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP27288': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['贝多芬', '受到', 'nsubj']
+['VERB', 'ROOT', 'root']	['受到', 'NONE', 'root']
+['PROPN', 'NOUN', 'nmod']	['海顿', '影响', 'nmod']
+['CCONJ', 'PROPN', 'cc']	['和', '莫扎特', 'cc']
+['PROPN', 'PROPN', 'conj']	['莫扎特', '海顿', 'conj']
+['PART', 'PROPN', 'case']	['的', '海顿', 'case']
+['ADJ', 'NOUN', 'amod']	['很大', '影响', 'amod']
+['NOUN', 'VERB', 'obj']	['影响', '受到', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '融入', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '融入', 'nsubj']
+['ADP', 'NOUN', 'case']	['从', '身上', 'case']
+['PRON', 'NOUN', 'nmod']	['他', '身上', 'nmod']
+['NOUN', 'VERB', 'obl']	['身上', '学到', 'obl']
+['VERB', 'VERB', 'advcl']	['学到', '融入', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '学到', 'aux']
+['ADJ', 'NOUN', 'amod']	['一些', '东西', 'amod']
+['NOUN', 'VERB', 'obj']	['东西', '学到', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '学到', 'punct']
+['ADV', 'VERB', 'mark']	['并', '融入', 'mark']
+['ADP', 'NOUN', 'case']	['将', '个性', 'case']
+['PRON', 'NOUN', 'nmod']	['自己', '个性', 'nmod']
+['ADJ', 'NOUN', 'amod']	['独特', '个性', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '独特', 'mark:rel']
+['NOUN', 'VERB', 'obl:patient']	['个性', '融入', 'obl:patient']
+['VERB', 'VERB', 'parataxis']	['融入', '受到', 'parataxis']
+['VERB', 'VERB', 'mark']	['到', '融入', 'mark']
+['AUX', 'VERB', 'aux']	['了', '融入', 'aux']
+['PRON', 'NOUN', 'det']	['自己', '音乐', 'det']
+['PART', 'ADJ', 'mark:rel']	['的', '独特', 'mark:rel']
+['NOUN', 'VERB', 'iobj']	['音乐', '融入', 'iobj']
+['ADP', 'NOUN', 'case']	['中', '音乐', 'case']
+['PUNCT', 'VERB', 'punct']	['。', '受到', 'punct']
+----------------------------------------------------------------------
+从我的角度来看，贝多芬受莫扎特的影响要比受海顿的影响大，尽管他的早期作品有几首显然模仿了莫扎特的作品。
+
+(ROOT (IP (IP (IP (VP (PP (IN 从) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 角度)))) (VP (RB 来) (VP (VV 看))))) (, ，) (IP (NP (NNP 贝多芬)) (VP (VV 受) (NP (DNP (NP (NNP 莫扎特)) (DEC 的)) (NP (NN 影响))))) (VP (MD 要) (VP (PP (IN 比) (NP (DNP (NP (NN 受海顿)) (DEC 的)) (NP (NN 影响)))) (VP (JJ 大))))) (, ，) (CP (ADVP (IN 尽管)) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 早期) (NN 作品))) (VP (VV 有) (IP (QP (CD 几) (CLP (NNB 首))) (VP (ADVP (RB 显然)) (VP (VV 模仿) (AS 了) (NP (DNP (NP (NNP 莫扎特)) (DEC 的)) (NP (NN 作品))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'CP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'CP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'IP24844': {}, 'VP': {}}, ',': {}, 'CP': {'ADVP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'IP': {}, 'VP': {}}, ',': {}, 'CP': {'ADVP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, 'VP': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['从', '角度', 'case']
+['PRON', 'NOUN', 'det']	['我', '角度', 'det']
+['PART', 'PRON', 'case']	['的', '我', 'case']
+['NOUN', 'VERB', 'obl']	['角度', '看', 'obl']
+['ADV', 'VERB', 'mark']	['来', '看', 'mark']
+['VERB', 'ADJ', 'advcl']	['看', '大', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '看', 'punct']
+['PROPN', 'VERB', 'nsubj']	['贝多芬', '受', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['受', '影响', 'acl:relcl']
+['PROPN', 'VERB', 'obj']	['莫扎特', '受', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '受', 'mark:rel']
+['NOUN', 'ADJ', 'nsubj']	['影响', '大', 'nsubj']
+['AUX', 'ADJ', 'aux']	['要', '大', 'aux']
+['ADP', 'NOUN', 'case']	['比', '影响', 'case']
+['NOUN', 'NOUN', 'nmod']	['受海顿', '影响', 'nmod']
+['PART', 'NOUN', 'case']	['的', '受海顿', 'case']
+['NOUN', 'ADJ', 'nmod']	['影响', '大', 'nmod']
+['ADJ', 'ROOT', 'root']	['大', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['ADP', 'VERB', 'case']	['尽管', '有', 'case']
+['PRON', 'NOUN', 'det']	['他', '作品', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'NOUN', 'nmod']	['早期', '作品', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['作品', '有', 'nsubj']
+['VERB', 'ADJ', 'ccomp']	['有', '大', 'ccomp']
+['NUM', 'NOUN', 'nummod']	['几', '首', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['首', '模仿', 'nsubj']
+['ADV', 'VERB', 'advmod']	['显然', '模仿', 'advmod']
+['VERB', 'VERB', 'ccomp']	['模仿', '有', 'ccomp']
+['AUX', 'VERB', 'aux']	['了', '模仿', 'aux']
+['PROPN', 'NOUN', 'nmod']	['莫扎特', '作品', 'nmod']
+['PART', 'PROPN', 'case']	['的', '莫扎特', 'case']
+['NOUN', 'VERB', 'obj']	['作品', '模仿', 'obj']
+['PUNCT', 'ADJ', 'punct']	['。', '大', 'punct']
+----------------------------------------------------------------------
+贝多芬从海顿那里得到了对假重复的热爱。贝多芬还从海顿那里得到了对突然和意外暂停以及意外停顿的热爱。贝多芬对突然惊喜甚至比海顿还爱。
+
+(ROOT (IP (NP (NNP 贝多芬)) (VP (PP (IN 从) (NP (NP (NNP 海顿)) (NP (PRD 那里)))) (VP (VV 得到) (AS 了) (NP (CP (IP (VP (VV 对假) (NN 重复))) (DEC 的)) (NP (NN 热爱))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['贝多芬', '得到', 'nsubj']
+['ADP', 'PRON', 'case']	['从', '那里', 'case']
+['PROPN', 'PRON', 'nmod']	['海顿', '那里', 'nmod']
+['PRON', 'VERB', 'obl']	['那里', '得到', 'obl']
+['VERB', 'ROOT', 'root']	['得到', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '得到', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['对假', '热爱', 'acl:relcl']
+['NOUN', 'VERB', 'obj']	['重复', '对假', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '对假', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['热爱', '得到', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '得到', 'punct']
+----------------------------------------------------------------------
+贺因曼的高昂精神绝对让贝多芬受到感染。贝多芬的几乎所有的音乐风格都带有贺因曼的音乐幽默，从钢琴奏鸣曲到弦乐四重奏和交响曲，他有时是极其严肃，有时则是明显幽默。
+
+(ROOT (IP (NP (DNP (NP (NNP 贺因曼)) (DEC 的)) (ADJP (JJ 高昂)) (NP (NN 精神))) (VP (ADVP (RB 绝对)) (VP (VV 让) (NP (NNP 贝多芬)) (IP (VP (VV 受到) (NP (NN 感染)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['贺因曼', '精神', 'nmod']
+['PART', 'PROPN', 'case']	['的', '贺因曼', 'case']
+['ADJ', 'NOUN', 'amod']	['高昂', '精神', 'amod']
+['NOUN', 'VERB', 'nsubj']	['精神', '让', 'nsubj']
+['ADV', 'VERB', 'advmod']	['绝对', '让', 'advmod']
+['VERB', 'ROOT', 'root']	['让', 'NONE', 'root']
+['PROPN', 'VERB', 'nsubj']	['贝多芬', '受到', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['受到', '让', 'ccomp']
+['NOUN', 'VERB', 'obj']	['感染', '受到', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '让', 'punct']
+----------------------------------------------------------------------
+他的第四交响曲和第八交响曲充满海顿式的幽默和趣味性。
+
+(ROOT (IP (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (QP (CD 第四)) (NP (VV 交响) (SFN 曲))) (CC 和) (NP (QP (CD 第八)) (NP (VV 交响) (SFN 曲)))) (VP (VV 充满) (NP (DNP (NP (NNP 海顿) (SFN 式)) (DEC 的)) (NP (NN 幽默) (CC 和) (NN 趣味) (SFN 性)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'CC': {}, 'NP2941': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'CC': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'CC': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+['PRON', 'PART', 'det']	['他', '曲', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NUM', 'PART', 'nummod']	['第四', '曲', 'nummod']
+['VERB', 'PART', 'compound']	['交响', '曲', 'compound']
+['PART', 'VERB', 'nsubj']	['曲', '充满', 'nsubj']
+['CCONJ', 'PART', 'cc']	['和', '曲', 'cc']
+['NUM', 'PART', 'nummod']	['第八', '曲', 'nummod']
+['VERB', 'PART', 'compound']	['交响', '曲', 'compound']
+['PART', 'PART', 'conj']	['曲', '曲', 'conj']
+['VERB', 'ROOT', 'root']	['充满', 'NONE', 'root']
+['PROPN', 'PART', 'compound']	['海顿', '式', 'compound']
+['PART', 'NOUN', 'acl:relcl']	['式', '幽默', 'acl:relcl']
+['PART', 'PART', 'mark:rel']	['的', '式', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['幽默', '充满', 'obj']
+['CCONJ', 'PART', 'cc']	['和', '性', 'cc']
+['NOUN', 'PART', 'compound']	['趣味', '性', 'compound']
+['PART', 'NOUN', 'conj']	['性', '幽默', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '充满', 'punct']
+----------------------------------------------------------------------
+利用一个小的细节或主题来产生整个乐章的音乐能量，这是贝多芬从海顿那里学到的。
+
+(ROOT (IP (IP (VP (VP (VV 利用) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 小))) (DEC 的))) (NP (NN 细节) (CC 或) (NN 主题)))) (VP (RB 来) (VP (VV 产生) (NP (DNP (NP (DP (DT 整个)) (NP (NN 乐章))) (DEC 的)) (NP (NN 音乐) (NN 能量))))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (NP (NNP 贝多芬)) (VP (PP (IN 从) (NP (NP (NNP 海顿)) (NP (PRD 那里)))) (VP (VV 学到)))) (UH 的)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP74880': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP70877': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['利用', '产生', 'advcl']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '细节', 'clf']
+['ADJ', 'NOUN', 'amod']	['小', '细节', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '小', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['细节', '利用', 'obj']
+['CCONJ', 'NOUN', 'cc']	['或', '主题', 'cc']
+['NOUN', 'NOUN', 'conj']	['主题', '细节', 'conj']
+['ADV', 'VERB', 'mark']	['来', '产生', 'mark']
+['VERB', 'ROOT', 'root']	['产生', 'NONE', 'root']
+['DET', 'NOUN', 'det']	['整个', '乐章', 'det']
+['NOUN', 'NOUN', 'nmod']	['乐章', '能量', 'nmod']
+['PART', 'NOUN', 'case']	['的', '乐章', 'case']
+['NOUN', 'NOUN', 'nmod']	['音乐', '能量', 'nmod']
+['NOUN', 'VERB', 'obj']	['能量', '产生', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['PRON', 'VERB', 'nsubj']	['这', '是', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['是', '产生', 'parataxis']
+['PROPN', 'VERB', 'nsubj']	['贝多芬', '学到', 'nsubj']
+['ADP', 'PRON', 'case']	['从', '那里', 'case']
+['PROPN', 'PRON', 'nmod']	['海顿', '那里', 'nmod']
+['PRON', 'VERB', 'obl']	['那里', '学到', 'obl']
+['VERB', 'VERB', 'ccomp']	['学到', '是', 'ccomp']
+['PART', 'VERB', 'discourse']	['的', '是', 'discourse']
+['PUNCT', 'VERB', 'punct']	['。', '产生', 'punct']
+----------------------------------------------------------------------
+第五交响曲的开场动机就是一个很好的例子，但是他的晚期作品中也有很多这样的例子。
+
+(ROOT (IP (IP (NP (DNP (NP (QP (CD 第五)) (NP (VV 交响) (SFN 曲))) (DEC 的)) (NP (NN 开场) (NN 动机))) (VP (VC 就是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 很好))) (DEC 的))) (NP (NN 例子))))) (, ，) (IP (ADVP (RB 但是)) (LCP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 晚期) (NN 作品))) (IN 中)) (VP (ADVP (RB 也)) (VP (VV 有) (NP (QP (CD 很多)) (DNP (NP (PRD 这样)) (DEC 的)) (NP (NN 例子)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP40941': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP99223': {'ADVP': {}, 'LCP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'LCP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'LCP': {}, 'VP': {}}}
+Dependency Features:
+['NUM', 'PART', 'nummod']	['第五', '曲', 'nummod']
+['VERB', 'PART', 'compound']	['交响', '曲', 'compound']
+['PART', 'NOUN', 'nmod']	['曲', '动机', 'nmod']
+['PART', 'PART', 'case']	['的', '曲', 'case']
+['NOUN', 'NOUN', 'nmod']	['开场', '动机', 'nmod']
+['NOUN', 'NOUN', 'nsubj']	['动机', '例子', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '例子', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '例子', 'clf']
+['ADJ', 'NOUN', 'amod']	['很好', '例子', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '很好', 'mark:rel']
+['NOUN', 'ROOT', 'root']	['例子', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['ADV', 'VERB', 'mark']	['但是', '有', 'mark']
+['PRON', 'NOUN', 'det']	['他', '作品', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'NOUN', 'nmod']	['晚期', '作品', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['作品', '有', 'nsubj']
+['ADP', 'NOUN', 'case']	['中', '作品', 'case']
+['ADV', 'VERB', 'mark']	['也', '有', 'mark']
+['VERB', 'NOUN', 'parataxis']	['有', '例子', 'parataxis']
+['NUM', 'NOUN', 'nummod']	['很多', '例子', 'nummod']
+['PRON', 'NOUN', 'det']	['这样', '例子', 'det']
+['PART', 'PRON', 'case']	['的', '这样', 'case']
+['NOUN', 'VERB', 'obj']	['例子', '有', 'obj']
+['PUNCT', 'NOUN', 'punct']	['。', '例子', 'punct']
+----------------------------------------------------------------------
+实际上，贝多芬使用了他从海顿和莫扎特那里继承下来的形式，即奏鸣曲形式、圆舞曲形式、变奏曲形式，并且扩展了这些形式。
+
+(ROOT (IP (LCP (NP (NN 实际)) (IN 上)) (, ，) (NP (NNP 贝多芬)) (VP (VP (VV 使用) (AS 了) (NP (NP (NP (PRP 他)) (CP (CP (VP (NP (NP (NNP 从海顿) (CC 和) (NNP 莫扎特)) (NP (PRD 那里))) (VP (VRD (VV 继承) (VV 下来)))) (DEC 的))) (NP (NN 形式))) (, ，) (NP (ADVP (VC 即)) (NP (NP (NN 奏鸣) (SFN 曲) (NN 形式)) (EC 、) (NP (NN 圆舞) (SFN 曲) (NN 形式)) (EC 、) (NP (VV 变奏) (SFN 曲) (NN 形式)))))) (, ，) (RB 并且) (VP (VV 扩展) (AS 了) (NP (DP (DT 这些)) (NP (NN 形式))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP69453': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'obl']	['实际', '扩展', 'obl']
+['ADP', 'NOUN', 'case']	['上', '实际', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '实际', 'punct']
+['PROPN', 'VERB', 'nsubj']	['贝多芬', '扩展', 'nsubj']
+['VERB', 'VERB', 'advcl']	['使用', '扩展', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '使用', 'aux']
+['PRON', 'VERB', 'nsubj']	['他', '继承', 'nsubj']
+['PROPN', 'PRON', 'appos']	['从海顿', '他', 'appos']
+['CCONJ', 'PRON', 'cc']	['和', '那里', 'cc']
+['PROPN', 'PRON', 'nmod']	['莫扎特', '那里', 'nmod']
+['PRON', 'PROPN', 'conj']	['那里', '从海顿', 'conj']
+['VERB', 'NOUN', 'acl:relcl']	['继承', '形式', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['下来', '继承', 'mark']
+['PART', 'VERB', 'mark:rel']	['的', '继承', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['形式', '使用', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '使用', 'punct']
+['VERB', 'VERB', 'csubj']	['即', '扩展', 'csubj']
+['NOUN', 'PART', 'compound']	['奏鸣', '曲', 'compound']
+['PART', 'NOUN', 'nmod']	['曲', '形式', 'nmod']
+['NOUN', 'VERB', 'xcomp']	['形式', '即', 'xcomp']
+['PUNCT', 'NOUN', 'punct']	['、', '形式', 'punct']
+['NOUN', 'PART', 'compound']	['圆舞', '曲', 'compound']
+['PART', 'NOUN', 'nmod']	['曲', '形式', 'nmod']
+['NOUN', 'NOUN', 'conj']	['形式', '形式', 'conj']
+['PUNCT', 'NOUN', 'punct']	['、', '形式', 'punct']
+['VERB', 'PART', 'compound']	['变奏', '曲', 'compound']
+['PART', 'NOUN', 'nmod']	['曲', '形式', 'nmod']
+['NOUN', 'NOUN', 'conj']	['形式', '形式', 'conj']
+['PUNCT', 'VERB', 'punct']	['，', '即', 'punct']
+['ADV', 'VERB', 'mark']	['并且', '扩展', 'mark']
+['VERB', 'ROOT', 'root']	['扩展', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '扩展', 'aux']
+['DET', 'NOUN', 'det']	['这些', '形式', 'det']
+['NOUN', 'VERB', 'obj']	['形式', '扩展', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '扩展', 'punct']
+----------------------------------------------------------------------
+他增加了发展部分的长度和强度。
+
+(ROOT (IP (NP (PRP 他)) (VP (VV 增加) (AS 了) (NP (DNP (NP (VV 发展) (NN 部分)) (DEC 的)) (NP (NN 长度) (CC 和) (NN 强度)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['他', '增加', 'nsubj']
+['VERB', 'ROOT', 'root']	['增加', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '增加', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['发展', '长度', 'acl:relcl']
+['NOUN', 'VERB', 'obj']	['部分', '发展', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '发展', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['长度', '增加', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '强度', 'cc']
+['NOUN', 'NOUN', 'conj']	['强度', '长度', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '增加', 'punct']
+----------------------------------------------------------------------
+贝多芬创作奏鸣曲时有着各种各样的方式。有时他会很简明扼要，从第一主题快速进入第二主题，然后在介绍第二主题后很快结束展开部分。
+
+(ROOT (IP (NP (NNP 贝多芬)) (VP (LCP (IP (VP (VV 创作) (NP (NN 奏鸣) (SFN 曲)))) (IN 时)) (VP (VV 有) (AS 着) (NP (CP (CP (IP (VP (JJ 各种各样))) (DEC 的))) (NP (NN 方式))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'LCP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'LCP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'LCP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['贝多芬', '创作', 'nsubj']
+['VERB', 'VERB', 'advcl']	['创作', '有', 'advcl']
+['NOUN', 'PART', 'compound']	['奏鸣', '曲', 'compound']
+['PART', 'VERB', 'obj']	['曲', '创作', 'obj']
+['ADP', 'VERB', 'mark']	['时', '创作', 'mark']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['着', '有', 'aux']
+['ADJ', 'NOUN', 'amod']	['各种各样', '方式', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '各种各样', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['方式', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+有时，像莫扎特一样，他会在主音调中使用一组首个主题，然后再出现一组另一个键的主题，通常是主调。
+
+(ROOT (IP (IP (ADVP (RB 有时)) (, ，) (IP (VP (PP (IN 像) (NP (NNP 莫扎特))) (VP (JJ 一样)))) (, ，) (NP (PRP 他)) (VP (MD 会) (VP (PP (IN 在) (LCP (NP (NN 主音调)) (IN 中))) (VP (VV 使用) (NP (QP (CD 一) (CLP (NNB 组))) (CLP (CD 首个)) (NP (NN 主题))))))) (, ，) (IP (VP (ADVP (RB 然后)) (ADVP (RB 再)) (VP (VV 出现) (NP (DNP (NP (QP (CD 一) (CLP (NNB 组))) (QP (ADVP (DT 另)) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 键))) (DEC 的)) (NP (NN 主题)))))) (, ，) (IP (VP (ADVP (RB 通常)) (VP (VC 是) (NP (NN 主调))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP52965': {}, ',26291': {}, 'IP4117': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',59589': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP24543': {'VP': {}}, ',92869': {}, 'IP26303': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'advmod']	['有时', '使用', 'advmod']
+['PUNCT', 'ADV', 'punct']	['，', '有时', 'punct']
+['ADP', 'PROPN', 'case']	['像', '莫扎特', 'case']
+['PROPN', 'ADJ', 'nmod']	['莫扎特', '一样', 'nmod']
+['ADJ', 'VERB', 'advcl']	['一样', '使用', 'advcl']
+['PUNCT', 'ADJ', 'punct']	['，', '一样', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '使用', 'nsubj']
+['AUX', 'VERB', 'aux']	['会', '使用', 'aux']
+['ADP', 'NOUN', 'case']	['在', '主音调', 'case']
+['NOUN', 'VERB', 'obl']	['主音调', '使用', 'obl']
+['ADP', 'NOUN', 'case']	['中', '主音调', 'case']
+['VERB', 'VERB', 'advcl']	['使用', '出现', 'advcl']
+['NUM', 'NOUN', 'nummod']	['一', '组', 'nummod']
+['NOUN', 'NOUN', 'clf']	['组', '主题', 'clf']
+['NUM', 'NOUN', 'nmod']	['首个', '主题', 'nmod']
+['NOUN', 'VERB', 'obj']	['主题', '使用', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '使用', 'punct']
+['ADV', 'VERB', 'advmod']	['然后', '出现', 'advmod']
+['ADV', 'VERB', 'advmod']	['再', '出现', 'advmod']
+['VERB', 'ROOT', 'root']	['出现', 'NONE', 'root']
+['NUM', 'NOUN', 'nummod']	['一', '组', 'nummod']
+['NOUN', 'NOUN', 'clf']	['组', '主题', 'clf']
+['DET', 'NOUN', 'det']	['另', '个', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['个', '键', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['键', '主题', 'nmod']
+['PART', 'NOUN', 'case']	['的', '键', 'case']
+['NOUN', 'NOUN', 'nsubj']	['主题', '主调', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '主题', 'punct']
+['ADV', 'NOUN', 'advmod']	['通常', '主调', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '主调', 'cop']
+['NOUN', 'VERB', 'ccomp']	['主调', '出现', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '出现', 'punct']
+----------------------------------------------------------------------
+有时他的奏鸣曲式运用非常严谨，有时则略显松散。
+
+(ROOT (IP (IP (ADVP (RB 有时)) (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (VV 奏鸣) (SFN 曲) (SFN 式))) (NP (NN 运用))) (VP (ADVP (RB 非常)) (VP (JJ 严谨)))) (, ，) (IP (VP (ADVP (RB 有时)) (ADVP (RB 则)) (ADVP (RB 略显)) (VP (JJ 松散)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP70181': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP56738': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+['ADV', 'ADJ', 'advmod']	['有时', '严谨', 'advmod']
+['PRON', 'NOUN', 'det']	['他', '运用', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['VERB', 'PART', 'compound']	['奏鸣', '曲', 'compound']
+['PART', 'PART', 'compound']	['曲', '式', 'compound']
+['PART', 'NOUN', 'nmod']	['式', '运用', 'nmod']
+['NOUN', 'ADJ', 'nsubj']	['运用', '严谨', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['非常', '严谨', 'advmod']
+['ADJ', 'ROOT', 'root']	['严谨', 'NONE', 'root']
+['PUNCT', 'ADJ', 'punct']	['，', '松散', 'punct']
+['ADV', 'ADJ', 'advmod']	['有时', '松散', 'advmod']
+['ADV', 'ADJ', 'mark']	['则', '松散', 'mark']
+['ADV', 'ADJ', 'advmod']	['略显', '松散', 'advmod']
+['ADJ', 'ADJ', 'parataxis']	['松散', '严谨', 'parataxis']
+['PUNCT', 'ADJ', 'punct']	['。', '严谨', 'punct']
+----------------------------------------------------------------------
+贝多芬在奏鸣曲形式下创造出来的变化之多令人叹为观止！
+
+(ROOT (IP (NP (CP (CP (IP (NP (NNP 贝多芬)) (VP (PP (IN 在) (LCP (NP (VV 奏鸣) (SFN 曲) (NN 形式)) (IN 下))) (VP (VRD (VV 创造) (VV 出来))))) (DEC 的))) (DNP (NP (NN 变化)) (DEC 之)) (NP (RB 多))) (VP (VV 令) (NP (NN 人)) (IP (VP (VRD (VV 叹) (VC 为)) (IP (VP (VV 观止)))))) (. ！)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'NP': {}, 'IP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['贝多芬', '创造', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '形式', 'case']
+['VERB', 'PART', 'compound']	['奏鸣', '曲', 'compound']
+['PART', 'NOUN', 'nmod']	['曲', '形式', 'nmod']
+['NOUN', 'VERB', 'obl']	['形式', '创造', 'obl']
+['ADP', 'NOUN', 'case']	['下', '形式', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['创造', '变化', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['出来', '创造', 'mark']
+['PART', 'VERB', 'mark:rel']	['的', '创造', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['变化', '令', 'nsubj']
+['PART', 'VERB', 'mark:rel']	['之', '创造', 'mark:rel']
+['ADV', 'VERB', 'advmod']	['多', '令', 'advmod']
+['VERB', 'ROOT', 'root']	['令', 'NONE', 'root']
+['NOUN', 'VERB', 'nsubj']	['人', '叹', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['叹', '令', 'ccomp']
+['VERB', 'VERB', 'mark']	['为', '叹', 'mark']
+['VERB', 'VERB', 'xcomp']	['观止', '叹', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['！', '令', 'punct']
+----------------------------------------------------------------------
+在他的晚年，贝多芬对对位音乐愈加感兴趣，他特别对 fugue 音乐感兴趣，他也对变奏形式愈加感兴趣，有时在钢琴奏鸣曲和弦乐四重奏的各个乐章中使用它。
+
+(ROOT (IP (IP (PP (IN 在) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 晚年)))) (, ，) (NP (NNP 贝多芬)) (PP (IN 对) (IP (VP (PP (IN 对) (NP (ADJP (NN 位)) (NP (NN 音乐)))) (ADVP (RB 愈加)) (VP (VV 感) (NP (NN 兴趣)))))) (, ，) (NP (PRP 他)) (VP (ADVP (RB 特别)) (PP (IN 对) (NP (FW fugue) (NN 音乐))) (VP (SFN 感) (NP (NN 兴趣))))) (, ，) (IP (NP (PRP 他)) (VP (VP (ADVP (RB 也)) (PP (IN 对) (NP (NN 变奏) (NN 形式))) (ADVP (RB 愈加)) (VP (VV 感) (NP (NN 兴趣)))) (, ，) (VP (ADVP (RB 有时)) (PP (IN 在) (LCP (NP (DNP (NP (NP (NN 钢琴) (NN 奏鸣) (SFN 曲)) (CC 和) (NP (NP (NN 弦乐)) (QP (CD 四)) (NP (NN 重奏)))) (DEC 的)) (DP (DT 各个)) (NP (NN 乐章))) (IN 中))) (VP (VV 使用) (NP (PRP 它)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP67113': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'PP10754': {}, ',88292': {}, 'NP23598': {}, 'VP': {}}, ',': {}, 'IP76173': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['在', '晚年', 'case']
+['PRON', 'NOUN', 'det']	['他', '晚年', 'det']
+['PART', 'PRON', 'mark:rel']	['的', '他', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['晚年', '感', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '晚年', 'punct']
+['PROPN', 'VERB', 'nsubj']	['贝多芬', '感', 'nsubj']
+['ADP', 'NOUN', 'case']	['对', '音乐', 'case']
+['ADP', 'NOUN', 'case']	['对', '音乐', 'case']
+['NOUN', 'NOUN', 'nmod']	['位', '音乐', 'nmod']
+['NOUN', 'VERB', 'obl']	['音乐', '感', 'obl']
+['ADV', 'VERB', 'advmod']	['愈加', '感', 'advmod']
+['VERB', 'ROOT', 'root']	['感', 'NONE', 'root']
+['NOUN', 'VERB', 'obj']	['兴趣', '感', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '感', 'punct']
+['PRON', 'NOUN', 'nsubj']	['他', '兴趣', 'nsubj']
+['ADV', 'NOUN', 'advmod']	['特别', '兴趣', 'advmod']
+['ADP', 'NOUN', 'case']	['对', '兴趣', 'case']
+['X', 'PART', 'nmod']	['fugue', '感', 'nmod']
+['NOUN', 'PART', 'compound']	['音乐', '感', 'compound']
+['PART', 'NOUN', 'nmod']	['感', '兴趣', 'nmod']
+['NOUN', 'VERB', 'obl']	['兴趣', '感', 'obl']
+['PUNCT', 'VERB', 'punct']	['，', '感', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '感', 'nsubj']
+['ADV', 'VERB', 'mark']	['也', '感', 'mark']
+['ADP', 'NOUN', 'case']	['对', '形式', 'case']
+['NOUN', 'NOUN', 'nmod']	['变奏', '形式', 'nmod']
+['NOUN', 'VERB', 'obl']	['形式', '感', 'obl']
+['ADV', 'VERB', 'advmod']	['愈加', '感', 'advmod']
+['VERB', 'VERB', 'parataxis']	['感', '感', 'parataxis']
+['NOUN', 'VERB', 'obj']	['兴趣', '感', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '使用', 'punct']
+['ADV', 'VERB', 'advmod']	['有时', '使用', 'advmod']
+['ADP', 'NOUN', 'case']	['在', '乐章', 'case']
+['NOUN', 'PART', 'nmod']	['钢琴', '曲', 'nmod']
+['NOUN', 'PART', 'compound']	['奏鸣', '曲', 'compound']
+['PART', 'NOUN', 'nmod']	['曲', '乐章', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['和', '重奏', 'cc']
+['NOUN', 'NOUN', 'nmod']	['弦乐', '重奏', 'nmod']
+['NUM', 'NOUN', 'nummod']	['四', '重奏', 'nummod']
+['NOUN', 'PART', 'conj']	['重奏', '曲', 'conj']
+['PART', 'PART', 'case']	['的', '曲', 'case']
+['DET', 'NOUN', 'det']	['各个', '乐章', 'det']
+['NOUN', 'VERB', 'obl']	['乐章', '使用', 'obl']
+['ADP', 'NOUN', 'case']	['中', '乐章', 'case']
+['VERB', 'VERB', 'parataxis']	['使用', '感', 'parataxis']
+['PRON', 'VERB', 'obj']	['它', '使用', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '感', 'punct']
+----------------------------------------------------------------------
+事实上，他的《第九交响曲》的结局可以被视为奏鸣曲形式和主题与变奏的某种结合。
+
+(ROOT (IP (LCP (NP (NN 事实)) (IN 上)) (, ，) (NP (DNP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (-LRB- 《) (QP (CD 第九)) (NP (VV 交响) (SFN 曲)) (-RRB- 》))) (DEC 的)) (NP (NN 结局))) (VP (MD 可以) (VP (BB 被) (VP (VCP (VV 视) (VC 为)) (NP (DNP (NP (VV 奏鸣) (SFN 曲) (NN 形式) (CC 和) (NN 主题) (CC 与) (NN 变奏)) (DEC 的)) (ADJP (DT 某种)) (NP (NN 结合)))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'obl']	['事实', '视', 'obl']
+['ADP', 'NOUN', 'case']	['上', '事实', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '事实', 'punct']
+['PRON', 'PART', 'det']	['他', '曲', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['PUNCT', 'PART', 'punct']	['《', '曲', 'punct']
+['NUM', 'PART', 'nummod']	['第九', '曲', 'nummod']
+['VERB', 'PART', 'compound']	['交响', '曲', 'compound']
+['PART', 'NOUN', 'nmod']	['曲', '结局', 'nmod']
+['PUNCT', 'PART', 'punct']	['》', '曲', 'punct']
+['PART', 'PART', 'case']	['的', '曲', 'case']
+['NOUN', 'VERB', 'nsubj:pass']	['结局', '视', 'nsubj:pass']
+['AUX', 'VERB', 'aux']	['可以', '视', 'aux']
+['AUX', 'VERB', 'aux:pass']	['被', '视', 'aux:pass']
+['VERB', 'ROOT', 'root']	['视', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['为', '视', 'mark']
+['VERB', 'PART', 'compound']	['奏鸣', '曲', 'compound']
+['PART', 'NOUN', 'nmod']	['曲', '形式', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['形式', '结合', 'nmod']
+['CCONJ', 'NOUN', 'cc']	['和', '主题', 'cc']
+['NOUN', 'NOUN', 'conj']	['主题', '形式', 'conj']
+['CCONJ', 'NOUN', 'cc']	['与', '变奏', 'cc']
+['NOUN', 'NOUN', 'conj']	['变奏', '形式', 'conj']
+['PART', 'NOUN', 'case']	['的', '形式', 'case']
+['DET', 'NOUN', 'det']	['某种', '结合', 'det']
+['NOUN', 'VERB', 'obj']	['结合', '视', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '视', 'punct']
+----------------------------------------------------------------------
+说说贝多芬的音乐很难。
+
+(ROOT (IP (VP (VV 说说) (IP (NP (DNP (NP (NNP 贝多芬)) (DEC 的)) (NP (NN 音乐))) (VP (JJ 很难)))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+['VERB', 'ROOT', 'root']	['说说', 'NONE', 'root']
+['PROPN', 'NOUN', 'nmod']	['贝多芬', '音乐', 'nmod']
+['PART', 'PROPN', 'case']	['的', '贝多芬', 'case']
+['NOUN', 'ADJ', 'nsubj']	['音乐', '很难', 'nsubj']
+['ADJ', 'VERB', 'ccomp']	['很难', '说说', 'ccomp']
+['PUNCT', 'ADJ', 'punct']	['。', '很难', 'punct']
+----------------------------------------------------------------------
+对我来说，他有三种主要表达方式。一种是游戏和幽默的一面。一种是戏剧性的一面。他的音乐有时候很戏剧化，很有力量，让人觉得皮肤发麻。还有一种是梦幻和内省的一面。
+
+(ROOT (IP (IP (VP (PP (IN 对) (NP (PRP 我))) (VP (RB 来) (VP (VV 说))))) (, ，) (NP (PRP 他)) (VP (VV 有) (NP (QP (CD 三) (CLP (NNB 种))) (ADJP (JJ 主要)) (NP (NN 表达) (NN 方式)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+['ADP', 'PRON', 'case']	['对', '我', 'case']
+['PRON', 'VERB', 'obl']	['我', '说', 'obl']
+['ADV', 'VERB', 'mark']	['来', '说', 'mark']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '有', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['有', '说', 'ccomp']
+['NUM', 'NOUN', 'nummod']	['三', '种', 'nummod']
+['NOUN', 'NOUN', 'clf']	['种', '方式', 'clf']
+['ADJ', 'NOUN', 'amod']	['主要', '方式', 'amod']
+['NOUN', 'NOUN', 'nmod']	['表达', '方式', 'nmod']
+['NOUN', 'VERB', 'obj']	['方式', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
+----------------------------------------------------------------------
+我意识到将贝多芬的表达方式分为三类是有些简单，甚至是错误的，但我还是无法做出另外的选择。
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (VRD (VV 意识) (VV 到)) (IP (IP (VP (BB 将) (IP (NP (DNP (NP (NNP 贝多芬)) (DEC 的)) (NP (NN 表达) (NN 方式))) (VP (VRD (VV 分) (VC 为)) (QP (CD 三) (CLP (NNB 类))))))) (VP (VC 是) (NP (CP (CP (IP (VP (VP (ADVP (VV 有些)) (VP (JJ 简单))) (, ，) (VP (ADVP (VC 甚至是)) (VP (JJ 错误))))) (UH 的)))))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 我)) (VP (ADVP (RB 还是)) (ADVP (VV 无法)) (VP (VV 做出) (NP (DNP (ADJP (JJ 另外)) (DEC 的)) (NP (NN 选择)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP96544': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP78861': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['我', '意识', 'nsubj']
+['VERB', 'ROOT', 'root']	['意识', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['到', '意识', 'mark']
+['ADP', 'NOUN', 'case']	['将', '方式', 'case']
+['PROPN', 'NOUN', 'nmod']	['贝多芬', '方式', 'nmod']
+['PART', 'PROPN', 'case']	['的', '贝多芬', 'case']
+['NOUN', 'NOUN', 'nmod']	['表达', '方式', 'nmod']
+['NOUN', 'VERB', 'obl:patient']	['方式', '分', 'obl:patient']
+['VERB', 'VERB', 'advcl']	['分', '是', 'advcl']
+['VERB', 'VERB', 'mark']	['为', '分', 'mark']
+['NUM', 'NOUN', 'nummod']	['三', '类', 'nummod']
+['NOUN', 'VERB', 'obj']	['类', '分', 'obj']
+['VERB', 'VERB', 'ccomp']	['是', '意识', 'ccomp']
+['VERB', 'VERB', 'xcomp']	['有些', '是', 'xcomp']
+['ADJ', 'VERB', 'xcomp']	['简单', '有些', 'xcomp']
+['PUNCT', 'ADJ', 'punct']	['，', '错误', 'punct']
+['AUX', 'ADJ', 'cop']	['甚至是', '错误', 'cop']
+['ADJ', 'VERB', 'xcomp']	['错误', '无法', 'xcomp']
+['PART', 'ADJ', 'discourse']	['的', '错误', 'discourse']
+['PUNCT', 'ADJ', 'punct']	['，', '错误', 'punct']
+['ADV', 'VERB', 'mark']	['但', '无法', 'mark']
+['PRON', 'VERB', 'nsubj']	['我', '无法', 'nsubj']
+['ADV', 'VERB', 'mark']	['还是', '无法', 'mark']
+['VERB', 'VERB', 'parataxis']	['无法', '意识', 'parataxis']
+['VERB', 'VERB', 'xcomp']	['做出', '无法', 'xcomp']
+['ADJ', 'NOUN', 'amod']	['另外', '选择', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '另外', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['选择', '做出', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '无法', 'punct']
+----------------------------------------------------------------------
+对不起。
+
+(ROOT (IP (VP (VRD (VV 对) (VV 不起))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VRD': {}}, '.': {}}}
+{'IP': {'VP': {'VRD': {}}, '.': {}}}
+{'VP': {'VRD': {}}}
+Dependency Features:
+['VERB', 'ROOT', 'root']	['对', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['起', '对', 'mark']
+['PUNCT', 'VERB', 'punct']	['。', '对', 'punct']
+----------------------------------------------------------------------

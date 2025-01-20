@@ -1,0 +1,860 @@
+奥巴马开始大规模拆除乔治·布什的反恐战争，关闭了中央情报局的秘密监狱网络，禁止酷刑和引渡，并呼吁制定一套新的被拘留者规则。
+
+(ROOT (IP (NP (NNP 奥巴马)) (VP (VP (VV 开始) (VP (NP (ADJP (PFA 大)) (NP (NN 规模))) (VP (VV 拆除) (NP (DNP (NP (NNP 乔治) (/ ·) (NNP 布什)) (DEC 的)) (ADJP (NN 反恐)) (NP (NN 战争)))))) (, ，) (VP (VV 关闭) (AS 了) (NP (DNP (NP (NN 中央) (NN 情报) (SFN 局)) (DEC 的)) (ADJP (NN 秘密)) (NP (NN 监狱) (NN 网络)))) (, ，) (VP (VV 禁止) (NP (NN 酷刑) (CC 和) (NN 引渡))) (, ，) (RB 并) (VP (VV 呼吁) (IP (VP (VV 制定) (NP (QP (CD 一) (CLP (NNB 套))) (CP (CP (IP (VP (JJ 新))) (DEC 的))) (CP (IP (VP (BB 被) (VP (VV 拘留))))) (NP (SFN 者) (NN 规则))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP93747': {}, ',58808': {}, 'VP23860': {}, ',17032': {}, 'RB': {}, 'VP13720': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['奥巴马', '呼吁', 'nsubj']
+['VERB', 'VERB', 'advcl']	['开始', '呼吁', 'advcl']
+['PART', 'NOUN', 'case']	['大', '规模', 'case']
+['NOUN', 'VERB', 'obl']	['规模', '拆除', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['拆除', '战争', 'acl:relcl']
+['PROPN', 'VERB', 'obj']	['乔治', '拆除', 'obj']
+['PUNCT', 'PROPN', 'punct']	['·', '布什', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['布什', '乔治', 'flat:name']
+['PART', 'VERB', 'mark:rel']	['的', '拆除', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['反恐', '战争', 'nmod']
+['NOUN', 'VERB', 'obj']	['战争', '开始', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '开始', 'punct']
+['VERB', 'VERB', 'advcl']	['关闭', '呼吁', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '关闭', 'aux']
+['NOUN', 'PART', 'nmod']	['中央', '局', 'nmod']
+['NOUN', 'PART', 'compound']	['情报', '局', 'compound']
+['PART', 'VERB', 'obj']	['局', '关闭', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '关闭', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['秘密', '网络', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['监狱', '网络', 'nmod']
+['NOUN', 'VERB', 'obj']	['网络', '关闭', 'obj']
+['PUNCT', 'NOUN', 'punct']	['，', '网络', 'punct']
+['VERB', 'VERB', 'conj']	['禁止', '关闭', 'conj']
+['NOUN', 'VERB', 'obj']	['酷刑', '禁止', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '引渡', 'cc']
+['NOUN', 'NOUN', 'conj']	['引渡', '酷刑', 'conj']
+['PUNCT', 'VERB', 'punct']	['，', '禁止', 'punct']
+['ADV', 'VERB', 'mark']	['并', '呼吁', 'mark']
+['VERB', 'ROOT', 'root']	['呼吁', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['制定', '呼吁', 'xcomp']
+['NUM', 'NOUN', 'nummod']	['一', '套', 'nummod']
+['NOUN', 'NOUN', 'clf']	['套', '规则', 'clf']
+['ADJ', 'NOUN', 'amod']	['新', '规则', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '新', 'mark:rel']
+['AUX', 'VERB', 'aux:pass']	['被', '拘留', 'aux:pass']
+['VERB', 'PART', 'compound']	['拘留', '者', 'compound']
+['PART', 'NOUN', 'nmod']	['者', '规则', 'nmod']
+['NOUN', 'VERB', 'obj']	['规则', '制定', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '呼吁', 'punct']
+----------------------------------------------------------------------
+昨日，美国政府对布什的国家安全观予以否认，同时还任命了一位具有强大权威的驻中东特使。
+
+(ROOT (IP (NP (NN 昨日)) (, ，) (NP (NP (NNP 美国)) (NP (NN 政府))) (VP (VP (PP (IN 对) (NP (DNP (NP (NNP 布什)) (DEC 的)) (NP (NN 国家) (NN 安全)))) (VP (NN 观予) (PP (VV 以) (NP (NN 否认))))) (, ，) (VP (ADVP (NN 同时)) (ADVP (RB 还)) (VP (VV 任命) (AS 了) (NP (QP (CD 一) (CLP (NNB 位))) (CP (CP (IP (VP (VV 具有) (NP (ADJP (JJ 强大)) (NP (NN 权威))))) (DEC 的))) (CP (IP (VP (VV 驻) (NP (NNP 中东))))) (NP (NN 特使)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP11136': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP18369': {'NP': {}, 'NP39185': {}}, 'VP': {'VP': {}, ',': {}, 'VP6478': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nmod:tmod']	['昨日', '任命', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '昨日', 'punct']
+['PROPN', 'NOUN', 'nmod']	['美国', '政府', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['政府', '观予', 'nmod']
+['ADP', 'NOUN', 'case']	['对', '观予', 'case']
+['PROPN', 'NOUN', 'nmod']	['布什', '观予', 'nmod']
+['PART', 'PROPN', 'case']	['的', '布什', 'case']
+['NOUN', 'NOUN', 'nmod']	['国家', '观予', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['安全', '观予', 'nmod']
+['NOUN', 'VERB', 'obl']	['观予', '以', 'obl']
+['VERB', 'VERB', 'advcl']	['以', '任命', 'advcl']
+['NOUN', 'VERB', 'obj']	['否认', '以', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '以', 'punct']
+['NOUN', 'VERB', 'nmod:tmod']	['同时', '任命', 'nmod:tmod']
+['ADV', 'VERB', 'mark']	['还', '任命', 'mark']
+['VERB', 'ROOT', 'root']	['任命', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '任命', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '位', 'nummod']
+['NOUN', 'NOUN', 'clf']	['位', '特使', 'clf']
+['VERB', 'NOUN', 'acl:relcl']	['具有', '特使', 'acl:relcl']
+['ADJ', 'NOUN', 'amod']	['强大', '权威', 'amod']
+['NOUN', 'VERB', 'obj']	['权威', '具有', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '具有', 'mark:rel']
+['VERB', 'NOUN', 'amod']	['驻', '特使', 'amod']
+['PROPN', 'VERB', 'obj']	['中东', '驻', 'obj']
+['NOUN', 'VERB', 'obj']	['特使', '任命', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '任命', 'punct']
+----------------------------------------------------------------------
+奥巴马关闭中央情报局隐蔽审讯中心的决定远远超出了大家预期的，在一年内关闭关塔那摩湾拘留中心的举措。
+
+(ROOT (IP (NP (CP (IP (NP (NNP 奥巴马)) (VP (VV 关闭) (NP (NP (NN 中央) (NN 情报) (SFN 局)) (ADJP (NN 隐蔽)) (NP (NN 审讯) (NN 中心))))) (DEC 的)) (NP (NN 决定))) (VP (VP (ADVP (RB 远远)) (VP (VV 超出) (AS 了) (NP (CP (CP (IP (NP (PRD 大家)) (VP (VV 预期))) (UH 的)))))) (, ，) (VP (PP (IN 在) (LCP (QP (CD 一) (CLP (NNB 年))) (IN 内))) (VP (VV 关闭) (NP (DNP (NP (NP (NNP 关塔) (NNP 那) (NNP 摩湾)) (NP (NN 拘留) (NN 中心))) (DEC 的)) (NP (NN 举措)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP10454': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['奥巴马', '关闭', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['关闭', '决定', 'acl:relcl']
+['NOUN', 'NOUN', 'nmod']	['中央', '中心', 'nmod']
+['NOUN', 'PART', 'compound']	['情报', '局', 'compound']
+['PART', 'NOUN', 'nmod']	['局', '中心', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['隐蔽', '中心', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['审讯', '中心', 'nmod']
+['NOUN', 'VERB', 'obj']	['中心', '关闭', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '关闭', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['决定', '超出', 'nsubj']
+['ADV', 'VERB', 'advmod']	['远远', '超出', 'advmod']
+['VERB', 'ROOT', 'root']	['超出', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '超出', 'aux']
+['PRON', 'VERB', 'nsubj']	['大家', '预期', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['预期', '超出', 'ccomp']
+['PART', 'VERB', 'discourse']	['的', '超出', 'discourse']
+['PUNCT', 'NOUN', 'punct']	['，', '举措', 'punct']
+['ADP', 'NOUN', 'case']	['在', '年', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '年', 'nummod']
+['NOUN', 'VERB', 'obl']	['年', '关闭', 'obl']
+['ADP', 'NOUN', 'case']	['内', '年', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['关闭', '举措', 'acl:relcl']
+['PROPN', 'NOUN', 'nmod']	['关塔', '中心', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['那', '中心', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['摩湾', '中心', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['拘留', '中心', 'nmod']
+['NOUN', 'VERB', 'obj']	['中心', '关闭', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '关闭', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['举措', '超出', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '超出', 'punct']
+----------------------------------------------------------------------
+他将撤销布什建立的法律机构抛在了一边，将其视为美国在与基地组织的斗争中重新夺回道德高地的途径。
+
+(ROOT (IP (NP (PRP 他)) (VP (VP (BB 将) (IP (IP (VP (VV 撤销) (NP (CP (CP (IP (NP (NNP 布什)) (VP (VV 建立))) (DEC 的))) (NP (NN 法律) (NN 机构))))) (VP (VV 抛在) (AS 了) (QP (CD 一) (CLP (NN 边)))))) (, ，) (VP (BB 将) (IP (NP (PRP 其)) (VP (VRD (VV 视) (VC 为)) (NP (CP (IP (NP (NNP 美国)) (VP (PP (IN 在) (LCP (NP (DNP (PP (IN 与) (NP (NN 基地) (NN 组织))) (DEC 的)) (NP (NN 斗争))) (IN 中))) (ADVP (RB 重新)) (VP (VV 夺回) (NP (NN 道德) (NN 高地))))) (DEC 的)) (NP (NN 途径))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP43692': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['他', '视', 'nsubj']
+['ADP', 'NOUN', 'case']	['将', '机构', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['撤销', '机构', 'acl:relcl']
+['PROPN', 'VERB', 'nsubj']	['布什', '建立', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['建立', '机构', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '建立', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['法律', '机构', 'nmod']
+['NOUN', 'VERB', 'obl:patient']	['机构', '抛在', 'obl:patient']
+['VERB', 'VERB', 'advcl']	['抛在', '视', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '抛在', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '边', 'nummod']
+['NOUN', 'VERB', 'obj']	['边', '抛在', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '抛在', 'punct']
+['ADP', 'PRON', 'case']	['将', '其', 'case']
+['PRON', 'VERB', 'obl:patient']	['其', '视', 'obl:patient']
+['VERB', 'ROOT', 'root']	['视', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['为', '视', 'mark']
+['PROPN', 'NOUN', 'nmod']	['美国', '斗争', 'nmod']
+['ADP', 'NOUN', 'case']	['在', '斗争', 'case']
+['ADP', 'NOUN', 'case']	['与', '组织', 'case']
+['NOUN', 'NOUN', 'nmod']	['基地', '组织', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['组织', '斗争', 'nmod']
+['PART', 'VERB', 'mark:rel']	['的', '夺回', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['斗争', '夺回', 'obl']
+['ADP', 'NOUN', 'case']	['中', '斗争', 'case']
+['ADV', 'VERB', 'advmod']	['重新', '夺回', 'advmod']
+['VERB', 'NOUN', 'acl:relcl']	['夺回', '途径', 'acl:relcl']
+['NOUN', 'NOUN', 'nmod']	['道德', '高地', 'nmod']
+['NOUN', 'VERB', 'obj']	['高地', '夺回', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '夺回', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['途径', '视', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '视', 'punct']
+----------------------------------------------------------------------
+奥巴马在签署仪式上说：“我在就职典礼上说过，我们不会继续在安全和理想之间做出错误的选择。”“我们打算赢得这场战斗。我们会按照我们自己的方式赢得它。”
+
+(ROOT (IP (NP (NNP 奥巴马)) (VP (PP (IN 在) (LCP (NP (VV 签署) (NN 仪式)) (IN 上))) (VP (VV 说) (: ：) (IP (`` “) (NP (PRP 我)) (VP (PP (IN 在) (LCP (NP (NN 就职) (NN 典礼)) (IN 上))) (VP (VV 说) (AS 过))) (, ，) (IP (NP (PRP 我们)) (VP (MD 不会) (VP (VV 继续) (VP (PP (IN 在) (LCP (NP (NN 安全) (CC 和) (NN 理想)) (IN 之间))) (VP (VV 做出) (NP (CP (CP (IP (VP (JJ 错误))) (DEC 的))) (NP (NN 选择)))))))) (. 。) ('' ”) (IP (`` “) (NP (PRP 我们)) (VP (VV 打算) (IP (VP (VV 赢得) (NP (DP (DT 这) (CLP (NNB 场))) (NP (NN 战斗)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['奥巴马', '说', 'nsubj']
+['ADP', 'VERB', 'case']	['在', '签署', 'case']
+['VERB', 'VERB', 'xcomp']	['签署', '说', 'xcomp']
+['NOUN', 'VERB', 'obj']	['仪式', '签署', 'obj']
+['ADP', 'VERB', 'mark']	['上', '签署', 'mark']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['：', '说', 'punct']
+['PUNCT', 'VERB', 'punct']	['“', '说', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '说', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '典礼', 'case']
+['NOUN', 'NOUN', 'nmod']	['就职', '典礼', 'nmod']
+['NOUN', 'VERB', 'obl']	['典礼', '说', 'obl']
+['ADP', 'NOUN', 'case']	['上', '典礼', 'case']
+['VERB', 'VERB', 'ccomp']	['说', '说', 'ccomp']
+['AUX', 'VERB', 'aux']	['过', '说', 'aux']
+['PUNCT', 'VERB', 'punct']	['，', '说', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '做出', 'nsubj']
+['AUX', 'VERB', 'aux']	['会', '继续', 'aux']
+['VERB', 'VERB', 'advcl']	['继续', '做出', 'advcl']
+['ADP', 'NOUN', 'case']	['在', '安全', 'case']
+['NOUN', 'VERB', 'obl']	['安全', '做出', 'obl']
+['CCONJ', 'NOUN', 'cc']	['和', '理想', 'cc']
+['NOUN', 'NOUN', 'conj']	['理想', '安全', 'conj']
+['ADP', 'NOUN', 'case']	['之间', '安全', 'case']
+['VERB', 'VERB', 'advcl']	['做出', '打算', 'advcl']
+['ADJ', 'NOUN', 'amod']	['错误', '选择', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '错误', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['选择', '做出', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '做出', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '做出', 'punct']
+['PUNCT', 'VERB', 'punct']	['“', '打算', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '打算', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['打算', '说', 'ccomp']
+['VERB', 'VERB', 'xcomp']	['赢得', '打算', 'xcomp']
+['DET', 'NOUN', 'det']	['这', '场', 'det']
+['NOUN', 'NOUN', 'clf']	['场', '战斗', 'clf']
+['NOUN', 'VERB', 'obj']	['战斗', '赢得', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
+----------------------------------------------------------------------
+这是对布什所设定的法律标准的彻底否定的一种表现。 白宫官员昨天在向记者介绍情况时表示，新政府不会受到2001年9月11日后司法部就酷刑和被拘留者问题发布的任何意见的影响。
+
+(ROOT (IP (NP (PRD 这)) (VP (VC 是) (NP (DNP (NP (DNP (PP (IN 对) (NP (CP (CP (IP (NP (NNP 布什)) (VP (RB 所) (VP (VV 设定)))) (DEC 的))) (NP (NN 法律) (NN 标准)))) (DEC 的)) (ADJP (JJ 彻底)) (NP (NN 否定))) (DEC 的)) (QP (CD 一) (CLP (NNB 种))) (NP (NN 表现)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+['PRON', 'NOUN', 'nsubj']	['这', '表现', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '表现', 'cop']
+['ADP', 'PROPN', 'case']	['对', '布什', 'case']
+['PROPN', 'VERB', 'obl']	['布什', '设定', 'obl']
+['ADV', 'VERB', 'mark']	['所', '设定', 'mark']
+['VERB', 'NOUN', 'acl:relcl']	['设定', '标准', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '设定', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['法律', '标准', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['标准', '否定', 'nmod']
+['PART', 'NOUN', 'case']	['的', '标准', 'case']
+['ADJ', 'NOUN', 'amod']	['彻底', '否定', 'amod']
+['NOUN', 'NOUN', 'nmod']	['否定', '表现', 'nmod']
+['PART', 'NOUN', 'case']	['的', '否定', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '种', 'nummod']
+['NOUN', 'NOUN', 'clf']	['种', '表现', 'clf']
+['NOUN', 'ROOT', 'root']	['表现', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['。', '表现', 'punct']
+----------------------------------------------------------------------
+相反，奥巴马在三项行政命令中重申了美国对日内瓦被拘留者待遇公约的承诺。
+
+(ROOT (IP (ADVP (VV 相反)) (, ，) (NP (NNP 奥巴马)) (VP (PP (IN 在) (LCP (NP (QP (CD 三) (CLP (NNB 项))) (NP (NN 行政) (NN 命令))) (IN 中))) (VP (VV 重申) (AS 了) (NP (NP (NNP 美国)) (DNP (PP (IN 对) (NP (NP (CP (IP (NP (NNP 日内瓦)) (VP (BB 被) (VP (VV 拘留))))) (NP (SFN 者))) (NP (NN 待遇) (NN 公约)))) (DEC 的)) (NP (NN 承诺))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'VV': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'VV': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'VV': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['相反', '重申', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '相反', 'punct']
+['PROPN', 'VERB', 'nsubj']	['奥巴马', '重申', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '命令', 'case']
+['NUM', 'NOUN', 'nummod']	['三', '项', 'nummod']
+['NOUN', 'NOUN', 'clf']	['项', '命令', 'clf']
+['NOUN', 'NOUN', 'nmod']	['行政', '命令', 'nmod']
+['NOUN', 'VERB', 'obl']	['命令', '重申', 'obl']
+['ADP', 'NOUN', 'case']	['中', '命令', 'case']
+['VERB', 'ROOT', 'root']	['重申', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '重申', 'aux']
+['PROPN', 'NOUN', 'nmod']	['美国', '承诺', 'nmod']
+['ADP', 'NOUN', 'case']	['对', '承诺', 'case']
+['PROPN', 'NOUN', 'nmod']	['日内瓦', '公约', 'nmod']
+['AUX', 'VERB', 'aux']	['被', '拘留', 'aux']
+['VERB', 'PART', 'compound']	['拘留', '者', 'compound']
+['PART', 'NOUN', 'nmod']	['者', '公约', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['待遇', '公约', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['公约', '承诺', 'nmod']
+['PART', 'NOUN', 'case']	['的', '承诺', 'case']
+['NOUN', 'VERB', 'obj']	['承诺', '重申', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '重申', 'punct']
+----------------------------------------------------------------------
+所有被拘留者都将由红十字国际委员会登记，这是与布什政府时期的惯例不同的。
+
+(ROOT (IP (IP (NP (DP (DT 所有)) (CP (IP (VP (BB 被) (VP (VV 拘留))))) (NP (SFN 者))) (VP (ADVP (RB 都)) (ADVP (RB 将)) (PP (VV 由) (NP (NP (ADJP (NN 红)) (NP (NN 十字))) (NP (NN 国际) (NN 委员) (SFN 会)))) (VP (VV 登记)))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (NP (DNP (PP (IN 与) (NP (NP (NP (NNP 布什)) (NP (NN 政府))) (NP (NN 时期)))) (DEC 的)) (NP (NN 惯例))) (VP (JJ 不同))) (UH 的)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP38222': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP40753': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'PART', 'det']	['所有', '者', 'det']
+['AUX', 'VERB', 'aux:pass']	['被', '拘留', 'aux:pass']
+['VERB', 'PART', 'compound']	['拘留', '者', 'compound']
+['PART', 'VERB', 'nsubj']	['者', '由', 'nsubj']
+['ADV', 'VERB', 'mark']	['都', '由', 'mark']
+['ADV', 'VERB', 'advmod']	['将', '由', 'advmod']
+['VERB', 'ROOT', 'root']	['由', 'NONE', 'root']
+['NOUN', 'PART', 'nmod']	['红', '会', 'nmod']
+['NOUN', 'PART', 'nmod']	['十字', '会', 'nmod']
+['NOUN', 'PART', 'nmod']	['国际', '会', 'nmod']
+['NOUN', 'PART', 'compound']	['委员', '会', 'compound']
+['PART', 'VERB', 'nsubj']	['会', '登记', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['登记', '由', 'ccomp']
+['PUNCT', 'ADJ', 'punct']	['，', '不同', 'punct']
+['PRON', 'ADJ', 'nsubj']	['这', '不同', 'nsubj']
+['AUX', 'ADJ', 'cop']	['是', '不同', 'cop']
+['ADP', 'NOUN', 'case']	['与', '惯例', 'case']
+['PROPN', 'NOUN', 'nmod']	['布什', '时期', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['政府', '时期', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['时期', '惯例', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '时期', 'mark:rel']
+['NOUN', 'ADJ', 'nmod']	['惯例', '不同', 'nmod']
+['ADJ', 'VERB', 'parataxis']	['不同', '由', 'parataxis']
+['PART', 'ADJ', 'discourse']	['的', '不同', 'discourse']
+['PUNCT', 'VERB', 'punct']	['。', '由', 'punct']
+----------------------------------------------------------------------
+一群 16 名退役海军上将和将军在人权第一组织举办的一次会议上表示，这一举措将恢复美国在世界上的道德权威，并加强美国的国家安全。“奥巴马总统拒绝接受国家安全和我们理想之间的恶意选择，”他们说。
+
+(ROOT (IP (NP (QP (JJ 一群)) (QP (CD 16) (CLP (NNB 名))) (ADJP (NN 退役)) (NP (NN 海军) (NN 上将) (CC 和) (NN 将军))) (VP (PP (IN 在) (LCP (NP (CP (CP (IP (NP (NP (NN 人权)) (QP (CD 第一)) (NP (NN 组织))) (VP (VV 举办))) (DEC 的))) (QP (CD 一) (CLP (NNB 次))) (NP (NN 会议))) (IN 上))) (VP (VV 表示) (, ，) (IP (NP (DP (DT 这)) (NP (NNB 一举))) (VP (NN 措将) (VP (VP (VV 恢复) (NP (NP (NNP 美国)) (DNP (PP (IN 在) (LCP (NP (NN 世界)) (IN 上))) (DEC 的)) (NP (NN 道德) (NN 权威)))) (, ，) (RB 并) (VP (VV 加强) (NP (DNP (NP (NNP 美国)) (DEC 的)) (NP (NN 国家) (NN 安全))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'QP13465': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'QP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'QP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+['ADJ', 'NOUN', 'amod']	['一群', '上将', 'amod']
+['NUM', 'NOUN', 'nummod']	['16', '名', 'nummod']
+['NOUN', 'NOUN', 'clf']	['名', '上将', 'clf']
+['NOUN', 'NOUN', 'nmod']	['退役', '上将', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['海军', '上将', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['上将', '表示', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '将军', 'cc']
+['NOUN', 'NOUN', 'conj']	['将军', '上将', 'conj']
+['ADP', 'NOUN', 'case']	['在', '会议', 'case']
+['NOUN', 'NOUN', 'nmod']	['人权', '组织', 'nmod']
+['NUM', 'NOUN', 'nmod']	['第一', '组织', 'nmod']
+['NOUN', 'VERB', 'obl']	['组织', '举办', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['举办', '会议', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '举办', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['一', '次', 'nummod']
+['NOUN', 'NOUN', 'clf']	['次', '会议', 'clf']
+['NOUN', 'VERB', 'obl']	['会议', '表示', 'obl']
+['ADP', 'NOUN', 'case']	['上', '会议', 'case']
+['VERB', 'ROOT', 'root']	['表示', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '加强', 'punct']
+['DET', 'NOUN', 'det']	['这', '一举', 'det']
+['NOUN', 'NOUN', 'clf']	['一举', '措将', 'clf']
+['NOUN', 'VERB', 'nsubj']	['措将', '加强', 'nsubj']
+['VERB', 'VERB', 'advcl']	['恢复', '加强', 'advcl']
+['PROPN', 'NOUN', 'nmod']	['美国', '权威', 'nmod']
+['ADP', 'NOUN', 'case']	['在', '权威', 'case']
+['NOUN', 'NOUN', 'nmod']	['世界', '权威', 'nmod']
+['ADP', 'NOUN', 'case']	['上', '世界', 'case']
+['PART', 'NOUN', 'case']	['的', '世界', 'case']
+['NOUN', 'NOUN', 'nmod']	['道德', '权威', 'nmod']
+['NOUN', 'VERB', 'obj']	['权威', '恢复', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '恢复', 'punct']
+['ADV', 'VERB', 'mark']	['并', '加强', 'mark']
+['VERB', 'VERB', 'ccomp']	['加强', '表示', 'ccomp']
+['PROPN', 'NOUN', 'nmod']	['美国', '安全', 'nmod']
+['PART', 'PROPN', 'case']	['的', '美国', 'case']
+['NOUN', 'NOUN', 'nmod']	['国家', '安全', 'nmod']
+['NOUN', 'VERB', 'obj']	['安全', '加强', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '表示', 'punct']
+----------------------------------------------------------------------
+正如预期的那样，奥巴马兑现了关闭关塔那摩监狱的竞选承诺，发布了关闭该营地的行政命令，并将其限定在一年内。
+
+(ROOT (IP (PP (IN 正如) (NP (CP (CP (IP (VP (VV 预期))) (DEC 的))) (NP (PRD 那样)))) (, ，) (NP (NNP 奥巴马)) (VP (VP (VV 兑现) (AS 了) (NP (CP (IP (VP (VV 关闭) (NP (NP (NNP 关塔) (NNP 那摩)) (NP (NN 监狱))))) (DEC 的)) (NP (NN 竞选) (NN 承诺)))) (, ，) (VP (VV 发布) (AS 了) (NP (CP (CP (IP (VP (VV 关闭) (NP (DP (DT 该)) (NP (NN 营地))))) (DEC 的))) (NP (NN 行政) (NN 命令)))) (, ，) (RB 并) (VP (BB 将) (IP (NP (PRP 其)) (VP (VV 限定) (PP (VV 在) (LCP (QP (CD 一) (CLP (NNB 年))) (IN 内))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP57112': {}, ',11327': {}, 'RB': {}, 'VP39513': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'PRON', 'case']	['正如', '那样', 'case']
+['VERB', 'PRON', 'acl:relcl']	['预期', '那样', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '预期', 'mark:rel']
+['PRON', 'VERB', 'obl']	['那样', '限定', 'obl']
+['PUNCT', 'PRON', 'punct']	['，', '那样', 'punct']
+['PROPN', 'VERB', 'nsubj']	['奥巴马', '限定', 'nsubj']
+['VERB', 'VERB', 'advcl']	['兑现', '限定', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '兑现', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['关闭', '承诺', 'acl:relcl']
+['PROPN', 'NOUN', 'nmod']	['关塔', '监狱', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['那摩', '监狱', 'nmod']
+['NOUN', 'VERB', 'obj']	['监狱', '关闭', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '关闭', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['竞选', '承诺', 'nmod']
+['NOUN', 'VERB', 'obj']	['承诺', '兑现', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '兑现', 'punct']
+['VERB', 'VERB', 'advcl']	['发布', '限定', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '发布', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['关闭', '命令', 'acl:relcl']
+['DET', 'NOUN', 'det']	['该', '营地', 'det']
+['NOUN', 'VERB', 'obj']	['营地', '关闭', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '关闭', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['行政', '命令', 'nmod']
+['NOUN', 'VERB', 'obj']	['命令', '发布', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '发布', 'punct']
+['ADV', 'VERB', 'mark']	['并', '限定', 'mark']
+['ADP', 'PRON', 'case']	['将', '其', 'case']
+['PRON', 'VERB', 'obl:patient']	['其', '限定', 'obl:patient']
+['VERB', 'ROOT', 'root']	['限定', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['在', '限定', 'mark']
+['NUM', 'NOUN', 'nummod']	['一', '年', 'nummod']
+['NOUN', 'VERB', 'obl']	['年', '限定', 'obl']
+['ADP', 'NOUN', 'case']	['内', '年', 'case']
+['PUNCT', 'VERB', 'punct']	['。', '限定', 'punct']
+----------------------------------------------------------------------
+他还下令由司法部长和国防部长、国家安全部长和国土安全部长率领的工作组审查每一名被拘留者的情报和信息，并确定他们是否可以获释或接受审判。
+
+(ROOT (IP (NP (PRP 他)) (VP (ADVP (RB 还)) (VP (VV 下令) (NP (CP (CP (IP (VP (PP (VV 由) (NP (NN 司法) (NN 部长) (CC 和) (NN 国防) (NN 部长) (EC 、) (NN 国家) (NN 安全) (NN 部长) (CC 和) (NN 国土) (NN 安全) (NN 部长))) (VP (VV 率领)))) (DEC 的))) (NP (VV 工作) (SFN 组))) (IP (VP (VP (VV 审查) (NP (DNP (NP (DP (DT 每) (QP (CD 一) (CLP (NNB 名)))) (CP (IP (VP (BB 被) (VP (VV 拘留))))) (NP (SFN 者))) (DEC 的)) (NP (NN 情报) (CC 和) (NN 信息)))) (, ，) (RB 并) (VP (VV 确定) (IP (NP (PRP 他们)) (VP (ADVP (VC 是否)) (VP (MD 可以) (VP (VP (VV 获释)) (CC 或) (VP (VV 接受) (NP (NN 审判)))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['他', '确定', 'nsubj']
+['ADV', 'VERB', 'mark']	['还', '下令', 'mark']
+['VERB', 'VERB', 'advcl']	['下令', '确定', 'advcl']
+['VERB', 'PART', 'acl:relcl']	['由', '组', 'acl:relcl']
+['NOUN', 'NOUN', 'nmod']	['司法', '部长', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['部长', '率领', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '部长', 'cc']
+['NOUN', 'NOUN', 'nmod']	['国防', '部长', 'nmod']
+['NOUN', 'NOUN', 'conj']	['部长', '部长', 'conj']
+['PUNCT', 'NOUN', 'punct']	['、', '部长', 'punct']
+['NOUN', 'NOUN', 'nmod']	['国家', '安全', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['安全', '部长', 'nmod']
+['NOUN', 'NOUN', 'conj']	['部长', '部长', 'conj']
+['CCONJ', 'NOUN', 'cc']	['和', '部长', 'cc']
+['NOUN', 'NOUN', 'compound']	['国土', '安全', 'compound']
+['NOUN', 'NOUN', 'nmod']	['安全', '部长', 'nmod']
+['NOUN', 'NOUN', 'conj']	['部长', '部长', 'conj']
+['VERB', 'VERB', 'ccomp']	['率领', '由', 'ccomp']
+['PART', 'VERB', 'mark:rel']	['的', '由', 'mark:rel']
+['VERB', 'PART', 'compound']	['工作', '组', 'compound']
+['PART', 'VERB', 'nsubj']	['组', '审查', 'nsubj']
+['VERB', 'VERB', 'advcl']	['审查', '确定', 'advcl']
+['DET', 'NOUN', 'det']	['每', '名', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '名', 'nummod']
+['NOUN', 'PART', 'nmod']	['名', '者', 'nmod']
+['AUX', 'VERB', 'aux']	['被', '拘留', 'aux']
+['VERB', 'PART', 'compound']	['拘留', '者', 'compound']
+['PART', 'NOUN', 'acl:relcl']	['者', '情报', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '率领', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['情报', '审查', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '信息', 'cc']
+['NOUN', 'NOUN', 'conj']	['信息', '情报', 'conj']
+['PUNCT', 'VERB', 'punct']	['，', '审查', 'punct']
+['ADV', 'VERB', 'mark']	['并', '确定', 'mark']
+['VERB', 'ROOT', 'root']	['确定', 'NONE', 'root']
+['PRON', 'VERB', 'nsubj']	['他', '是', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['是', '确定', 'ccomp']
+['AUX', 'VERB', 'aux']	['可以', '获释', 'aux']
+['VERB', 'VERB', 'xcomp']	['获释', '是', 'xcomp']
+['CCONJ', 'VERB', 'cc']	['或', '接受', 'cc']
+['VERB', 'VERB', 'conj']	['接受', '获释', 'conj']
+['NOUN', 'VERB', 'obj']	['审判', '接受', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '确定', 'punct']
+----------------------------------------------------------------------
+他呼吁在 30 天内完成对关塔那摩湾监狱囚犯待遇的审查。
+
+(ROOT (IP (NP (PRP 他)) (VP (VV 呼吁) (IP (VP (PP (IN 在) (LCP (QP (CD 30)) (NNB 天内))) (VP (VV 完成) (NP (DNP (PP (IN 对) (NP (NP (NP (NNP 关塔) (DT 那) (NNP 摩湾)) (NP (NN 监狱))) (NP (NN 囚犯) (NN 待遇)))) (DEC 的)) (NP (NN 审查))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['他', '呼吁', 'nsubj']
+['VERB', 'ROOT', 'root']	['呼吁', 'NONE', 'root']
+['ADP', 'NOUN', 'case']	['在', '天内', 'case']
+['NUM', 'NOUN', 'nummod']	['30', '天内', 'nummod']
+['NOUN', 'VERB', 'obl']	['天内', '完成', 'obl']
+['VERB', 'VERB', 'xcomp']	['完成', '呼吁', 'xcomp']
+['ADP', 'NOUN', 'case']	['对', '审查', 'case']
+['PROPN', 'NOUN', 'nmod']	['关塔', '待遇', 'nmod']
+['DET', 'NOUN', 'det']	['那', '待遇', 'det']
+['PROPN', 'NOUN', 'nmod']	['摩湾', '待遇', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['监狱', '待遇', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['囚犯', '待遇', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['待遇', '审查', 'nmod']
+['PART', 'NOUN', 'case']	['的', '审查', 'case']
+['NOUN', 'VERB', 'obj']	['审查', '完成', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '呼吁', 'punct']
+----------------------------------------------------------------------
+另一项命令要求中央情报局遵循美国陆军关于审讯的实地手册，该手册禁止使用水肺等手段。
+
+(ROOT (IP (IP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 项)))) (NP (NN 命令))) (VP (VV 要求) (NP (NN 中央) (NN 情报) (SFN 局)) (IP (VP (VV 遵循) (NP (NP (NP (NNP 美国)) (NP (NN 陆军))) (DNP (PP (IN 关于) (NP (VV 审讯))) (DEC 的)) (ADJP (NN 实地)) (NP (NN 手册))))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 手册))) (VP (VV 禁止) (IP (VP (VV 使用) (NP (NN 水) (NN 肺等) (NN 手段)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP42578': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP64518': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['另', '项', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '项', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['项', '命令', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['命令', '要求', 'nsubj']
+['VERB', 'ROOT', 'root']	['要求', 'NONE', 'root']
+['NOUN', 'PART', 'nmod']	['中央', '局', 'nmod']
+['NOUN', 'PART', 'compound']	['情报', '局', 'compound']
+['PART', 'VERB', 'nsubj']	['局', '遵循', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['遵循', '要求', 'ccomp']
+['PROPN', 'NOUN', 'nmod']	['美国', '陆军', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['陆军', '手册', 'nmod']
+['ADP', 'NOUN', 'case']	['关于', '手册', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['审讯', '手册', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '审讯', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['实地', '手册', 'nmod']
+['NOUN', 'VERB', 'obj']	['手册', '遵循', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '禁止', 'punct']
+['DET', 'NOUN', 'det']	['该', '手册', 'det']
+['NOUN', 'VERB', 'nsubj']	['手册', '禁止', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['禁止', '要求', 'parataxis']
+['VERB', 'VERB', 'xcomp']	['使用', '禁止', 'xcomp']
+['NOUN', 'NOUN', 'nmod']	['水', '手段', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['肺等', '手段', 'nmod']
+['NOUN', 'VERB', 'obj']	['手段', '使用', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '要求', 'punct']
+----------------------------------------------------------------------
+奥巴马还指示一个工作组研究，并在 180 天内报告，是否需要为情报官员制定新的准则，超出军方规定的范围。
+
+(ROOT (IP (NP (NNP 奥巴马)) (VP (VP (ADVP (RB 还)) (VP (VV 指示) (NP (QP (CD 一) (CLP (NNB 个))) (NP (VV 工作) (SFN 组))) (IP (VP (VV 研究))))) (, ，) (RB 并) (VP (PP (IN 在) (LCP (QP (CD 180)) (NNB 天内))) (VP (VV 报告) (, ，) (IP (VP (VP (ADVP (VC 是否)) (VP (MD 需要) (VP (PP (IN 为) (NP (NN 情报) (NN 官员))) (VP (VV 制定) (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 准则))))))) (, ，) (VP (VV 超出) (NP (DNP (NP (NN 军方) (NN 规定)) (DEC 的)) (NP (NN 范围))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP53421': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['奥巴马', '指示', 'nsubj']
+['ADV', 'VERB', 'mark']	['还', '指示', 'mark']
+['VERB', 'ROOT', 'root']	['指示', 'NONE', 'root']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'PART', 'nmod']	['个', '组', 'nmod']
+['VERB', 'PART', 'compound']	['工作', '组', 'compound']
+['PART', 'VERB', 'nsubj']	['组', '研究', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['研究', '指示', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '研究', 'punct']
+['ADV', 'VERB', 'mark']	['并', '报告', 'mark']
+['ADP', 'NOUN', 'case']	['在', '天内', 'case']
+['NUM', 'NOUN', 'nummod']	['180', '天内', 'nummod']
+['NOUN', 'VERB', 'obl']	['天内', '报告', 'obl']
+['VERB', 'VERB', 'advcl']	['报告', '是', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['VERB', 'VERB', 'parataxis']	['是', '指示', 'parataxis']
+['AUX', 'VERB', 'aux']	['需要', '制定', 'aux']
+['ADP', 'NOUN', 'case']	['为', '官员', 'case']
+['NOUN', 'NOUN', 'nmod']	['情报', '官员', 'nmod']
+['NOUN', 'VERB', 'obl']	['官员', '制定', 'obl']
+['VERB', 'VERB', 'advcl']	['制定', '超出', 'advcl']
+['ADJ', 'NOUN', 'amod']	['新', '准则', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '新', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['准则', '制定', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '制定', 'punct']
+['VERB', 'VERB', 'xcomp']	['超出', '是', 'xcomp']
+['NOUN', 'NOUN', 'nmod']	['军方', '规定', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['规定', '范围', 'nmod']
+['PART', 'NOUN', 'case']	['的', '规定', 'case']
+['NOUN', 'VERB', 'obj']	['范围', '超出', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '指示', 'punct']
+----------------------------------------------------------------------
+美国政府官员坚称，此次审查并不是想通过后门恢复酷刑。“我们没有一个秘密附件，允许我们重新使用强化审讯手段，”一名官员说。
+
+(ROOT (IP (NP (NP (NNP 美国)) (NP (NN 政府) (NN 官员))) (VP (VV 坚称) (, ，) (IP (NP (DP (DT 此次)) (NP (NN 审查))) (VP (ADVP (RB 并)) (VP (VC 不是) (VP (MD 想) (IP (VP (PP (IN 通过) (NP (NN 后门))) (VP (VV 恢复) (NP (NN 酷刑)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP45350': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['美国', '官员', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['政府', '官员', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['官员', '坚称', 'nsubj']
+['VERB', 'ROOT', 'root']	['坚称', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['DET', 'NOUN', 'det']	['此次', '审查', 'det']
+['NOUN', 'VERB', 'nsubj']	['审查', '是', 'nsubj']
+['ADV', 'VERB', 'mark']	['并', '是', 'mark']
+['VERB', 'VERB', 'ccomp']	['是', '坚称', 'ccomp']
+['AUX', 'VERB', 'aux']	['想', '恢复', 'aux']
+['ADP', 'NOUN', 'case']	['通过', '后门', 'case']
+['NOUN', 'VERB', 'obl']	['后门', '恢复', 'obl']
+['VERB', 'VERB', 'xcomp']	['恢复', '是', 'xcomp']
+['NOUN', 'VERB', 'obj']	['酷刑', '恢复', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '坚称', 'punct']
+----------------------------------------------------------------------
+最终命令要求对美国境内最后一名敌对战斗人员阿里·萨利赫·哈拉·穆里 (Ali Saleh Khalah al-Marri) 的案件进行审查，他是一名卡塔尔人，被关押在南卡罗莱纳州查尔斯顿的海军拘留所。
+
+(ROOT (IP (IP (ADVP (NN 最终)) (NP (NN 命令)) (VP (VV 要求) (IP (VP (PP (IN 对) (NP (DNP (NP (NP (NP (NP (NNP 美国)) (NP (NN 境内))) (QP (ADJP (NN 最后)) (QP (CD 一) (CLP (NNB 名)))) (NP (ADJP (NN 敌对)) (NP (NN 战斗))) (NP (NN 人员))) (NP (NNP 阿里) (/ ·) (NNP 萨利赫) (/ ·) (NNP 哈拉) (/ ·) (NNP 穆里) (FW -LRB-Ali) (FW Saleh) (FW Khalah) (FW al-) (FW Marri-RRB-))) (DEC 的)) (NP (NN 案件)))) (VP (VV 进行) (NP (NN 审查))))))) (, ，) (IP (NP (PRP 他)) (VP (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 名))) (NP (NNP 卡塔尔)) (NP (SFN 人)))) (, ，) (VP (BB 被) (VP (VV 关押) (PP (VV 在) (NP (DNP (NP (NNP 南卡罗莱纳) (SFN 州) (NNP 查尔斯) (SFN 顿)) (DEC 的)) (NP (NN 海军) (VV 拘留) (SFN 所)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP87910': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP94560': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nmod:tmod']	['最终', '要求', 'nmod:tmod']
+['NOUN', 'VERB', 'nsubj']	['命令', '要求', 'nsubj']
+['VERB', 'ROOT', 'root']	['要求', 'NONE', 'root']
+['ADP', 'NOUN', 'case']	['对', '案件', 'case']
+['PROPN', 'NOUN', 'nmod']	['美国', '境内', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['境内', '人员', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['最后', '人员', 'nmod']
+['NUM', 'NOUN', 'nummod']	['一', '名', 'nummod']
+['NOUN', 'NOUN', 'clf']	['名', '人员', 'clf']
+['NOUN', 'NOUN', 'nmod']	['敌对', '人员', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['战斗', '人员', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['人员', '案件', 'nmod']
+['PROPN', 'NOUN', 'appos']	['阿里', '人员', 'appos']
+['PUNCT', 'PROPN', 'punct']	['·', '萨利赫', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['萨利赫', '阿里', 'flat:name']
+['PUNCT', 'PROPN', 'punct']	['·', '哈拉', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['哈拉', '阿里', 'flat:name']
+['PUNCT', 'PROPN', 'punct']	['·', '穆里', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['穆里', '哈拉', 'flat:name']
+['X', 'X', 'flat:foreign']	['(Ali', 'Saleh', 'flat:foreign']
+['X', 'PROPN', 'flat:foreign']	['Saleh', '哈拉', 'flat:foreign']
+['X', 'X', 'flat:foreign']	['Khalah', 'Saleh', 'flat:foreign']
+['X', 'X', 'flat:foreign']	['al-', 'Saleh', 'flat:foreign']
+['X', 'X', 'flat:foreign']	['Marri)', 'Saleh', 'flat:foreign']
+['PART', 'PROPN', 'case']	['的', '阿里', 'case']
+['NOUN', 'VERB', 'obl']	['案件', '进行', 'obl']
+['VERB', 'VERB', 'ccomp']	['进行', '要求', 'ccomp']
+['NOUN', 'VERB', 'obj']	['审查', '进行', 'obj']
+['PUNCT', 'PART', 'punct']	['，', '人', 'punct']
+['PRON', 'PART', 'nsubj']	['他', '人', 'nsubj']
+['AUX', 'PART', 'cop']	['是', '人', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '名', 'nummod']
+['NOUN', 'PART', 'nmod']	['名', '人', 'nmod']
+['PROPN', 'PART', 'compound']	['卡塔尔', '人', 'compound']
+['PART', 'VERB', 'parataxis']	['人', '要求', 'parataxis']
+['PUNCT', 'PART', 'punct']	['，', '人', 'punct']
+['AUX', 'VERB', 'aux:pass']	['被', '关押', 'aux:pass']
+['VERB', 'VERB', 'parataxis']	['关押', '要求', 'parataxis']
+['VERB', 'VERB', 'mark']	['在', '关押', 'mark']
+['PROPN', 'PART', 'compound']	['南卡罗莱纳', '州', 'compound']
+['PART', 'PART', 'nmod']	['州', '顿', 'nmod']
+['PROPN', 'PART', 'compound']	['查尔斯', '顿', 'compound']
+['PART', 'VERB', 'obj']	['顿', '关押', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '关押', 'mark:rel']
+['NOUN', 'PART', 'nmod']	['海军', '所', 'nmod']
+['VERB', 'PART', 'compound']	['拘留', '所', 'compound']
+['PART', 'VERB', 'obj']	['所', '关押', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '要求', 'punct']
+----------------------------------------------------------------------
+奥巴马在拘留政策突然爆发活动后宣布，他的政府将把解决以巴冲突放在议程的首位，“积极、主动”地寻求全面和平协议。
+
+(ROOT (IP (NP (NNP 奥巴马)) (VP (PP (IN 在) (LCP (NP (IP (NP (NN 拘留) (NN 政策)) (VP (ADVP (RB 突然)) (VP (VV 爆发)))) (NP (NN 活动))) (IN 后))) (VP (VV 宣布) (, ，) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 政府))) (VP (ADVP (RB 将)) (VP (VP (BB 把) (IP (IP (VP (VV 解决) (NP (NP (NNP 以巴)) (NP (NN 冲突))))) (VP (VV 放) (PP (VV 在) (NP (DNP (NP (NN 议程)) (DEC 的)) (NP (NN 首位))))))) (, ，) (VP (DVP (VP (`` “) (JJ 积极) (EC 、) (JJ 主动) ('' ”)) (DEV 地)) (VP (VV 寻求) (NP (ADJP (JJ 全面)) (NP (NN 和平) (NN 协议)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['奥巴马', '宣布', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '政策', 'case']
+['NOUN', 'NOUN', 'nmod']	['拘留', '政策', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['政策', '爆发', 'nsubj']
+['ADV', 'VERB', 'advmod']	['突然', '爆发', 'advmod']
+['VERB', 'VERB', 'ccomp']	['爆发', '宣布', 'ccomp']
+['NOUN', 'VERB', 'obj']	['活动', '爆发', 'obj']
+['ADP', 'VERB', 'mark']	['后', '爆发', 'mark']
+['VERB', 'ROOT', 'root']	['宣布', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '寻求', 'punct']
+['PRON', 'NOUN', 'det']	['他', '政府', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'VERB', 'nsubj']	['政府', '寻求', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '寻求', 'advmod']
+['ADP', 'VERB', 'case']	['把', '解决', 'case']
+['VERB', 'VERB', 'xcomp']	['解决', '放', 'xcomp']
+['PROPN', 'NOUN', 'nmod']	['以巴', '冲突', 'nmod']
+['NOUN', 'VERB', 'obj']	['冲突', '解决', 'obj']
+['VERB', 'NOUN', 'acl:relcl']	['放', '首位', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['在', '放', 'mark']
+['NOUN', 'VERB', 'obj']	['议程', '放', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '放', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['首位', '寻求', 'obl']
+['PUNCT', 'VERB', 'punct']	['，', '放', 'punct']
+['PUNCT', 'VERB', 'punct']	['“', '寻求', 'punct']
+['ADJ', 'VERB', 'advmod']	['积极', '寻求', 'advmod']
+['PUNCT', 'ADJ', 'punct']	['、', '主动', 'punct']
+['ADJ', 'ADJ', 'conj']	['主动', '积极', 'conj']
+['PUNCT', 'ADJ', 'punct']	['”', '积极', 'punct']
+['PART', 'ADJ', 'mark:adv']	['地', '积极', 'mark:adv']
+['VERB', 'VERB', 'ccomp']	['寻求', '宣布', 'ccomp']
+['ADJ', 'NOUN', 'amod']	['全面', '协议', 'amod']
+['NOUN', 'NOUN', 'nmod']	['和平', '协议', 'nmod']
+['NOUN', 'VERB', 'obj']	['协议', '寻求', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '宣布', 'punct']
+----------------------------------------------------------------------
+作为这一意图的标志，他证实，美国资深调解人，前参议员乔治·米切尔将成为他的中东特使。
+
+(ROOT (IP (PP (IN 作为) (NP (DNP (NP (DP (DT 这) (QP (CD 一))) (NP (NN 意图))) (DEC 的)) (NP (NN 标志)))) (, ，) (NP (PRP 他)) (VP (VV 证实) (, ，) (IP (NP (NP (NP (NNP 美国)) (ADJP (JJ 资深)) (NP (VV 调解) (SFN 人))) (, ，) (NP (NP (ADJP (PFA 前)) (NP (VV 参议) (SFN 员))) (NP (NNP 乔治) (/ ·) (NNP 米切尔)))) (VP (ADVP (RB 将)) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NNP 中东)) (NP (NN 特使)))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['作为', '标志', 'case']
+['DET', 'NOUN', 'det']	['这', '意图', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '意图', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['意图', '标志', 'nmod']
+['PART', 'NOUN', 'case']	['的', '意图', 'case']
+['NOUN', 'VERB', 'obl']	['标志', '证实', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '标志', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '证实', 'nsubj']
+['VERB', 'ROOT', 'root']	['证实', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '成', 'punct']
+['PROPN', 'PART', 'nmod']	['美国', '人', 'nmod']
+['ADJ', 'PART', 'amod']	['资深', '人', 'amod']
+['VERB', 'PART', 'compound']	['调解', '人', 'compound']
+['PART', 'VERB', 'nsubj']	['人', '成', 'nsubj']
+['PUNCT', 'PART', 'punct']	['，', '员', 'punct']
+['PART', 'PART', 'case']	['前', '员', 'case']
+['VERB', 'PART', 'compound']	['参议', '员', 'compound']
+['PART', 'PART', 'appos']	['员', '人', 'appos']
+['PROPN', 'PART', 'appos']	['乔治', '员', 'appos']
+['PUNCT', 'PROPN', 'punct']	['·', '米切尔', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['米切尔', '乔治', 'flat:name']
+['ADV', 'VERB', 'advmod']	['将', '成', 'advmod']
+['VERB', 'VERB', 'ccomp']	['成', '证实', 'ccomp']
+['VERB', 'VERB', 'mark']	['为', '成', 'mark']
+['PRON', 'NOUN', 'det']	['他', '特使', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['PROPN', 'NOUN', 'nmod']	['中东', '特使', 'nmod']
+['NOUN', 'VERB', 'obj']	['特使', '成', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '证实', 'punct']
+----------------------------------------------------------------------
+奥巴马在以色列轰炸加沙期间一直饱受批评，他提出了一个新立场，尽管仍然倾向以色列，但比布什时期更加公正。
+
+(ROOT (IP (IP (NP (NNP 奥巴马)) (VP (PP (VV 在) (NP (IP (NP (NNP 以色列)) (VP (VV 轰炸) (NP (NNP 加沙)))) (NP (NN 期间)))) (ADVP (RB 一直)) (VP (VV 饱受) (NP (NN 批评))))) (, ，) (IP (NP (PRP 他)) (VP (VV 提出) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (ADJP (PFA 新)) (NP (NN 立场))))) (, ，) (IP (IP (VP (ADVP (IN 尽管)) (ADVP (RB 仍然)) (VP (VV 倾向) (NP (NNP 以色列))))) (, ，) (ADVP (RB 但)) (NP (NP (NNP 比布什)) (NP (NN 时期))) (VP (ADVP (RB 更加)) (VP (JJ 公正)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP76988': {}, ',32680': {}, 'IP24875': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP48726': {'NP': {}, 'VP': {}}, ',10603': {}, 'IP58588': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['奥巴马', '饱受', 'nsubj']
+['VERB', 'VERB', 'advcl']	['在', '轰炸', 'advcl']
+['PROPN', 'VERB', 'obj']	['以色列', '在', 'obj']
+['VERB', 'NOUN', 'amod']	['轰炸', '期间', 'amod']
+['PROPN', 'VERB', 'obj']	['加沙', '轰炸', 'obj']
+['NOUN', 'VERB', 'nmod:tmod']	['期间', '饱受', 'nmod:tmod']
+['ADV', 'VERB', 'advmod']	['一直', '饱受', 'advmod']
+['VERB', 'ROOT', 'root']	['饱受', 'NONE', 'root']
+['NOUN', 'VERB', 'obj']	['批评', '饱受', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '提出', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '提出', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['提出', '饱受', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '提出', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '立场', 'clf']
+['PART', 'NOUN', 'case']	['新', '立场', 'case']
+['NOUN', 'VERB', 'obj']	['立场', '提出', 'obj']
+['PUNCT', 'ADJ', 'punct']	['，', '公正', 'punct']
+['ADP', 'VERB', 'case']	['尽管', '倾向', 'case']
+['ADV', 'VERB', 'advmod']	['仍然', '倾向', 'advmod']
+['VERB', 'ADJ', 'xcomp']	['倾向', '公正', 'xcomp']
+['PROPN', 'VERB', 'obj']	['以色列', '倾向', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '倾向', 'punct']
+['ADV', 'ADJ', 'mark']	['但', '公正', 'mark']
+['PROPN', 'NOUN', 'nmod']	['比布什', '时期', 'nmod']
+['NOUN', 'ADJ', 'nmod:tmod']	['时期', '公正', 'nmod:tmod']
+['ADV', 'ADJ', 'advmod']	['更加', '公正', 'advmod']
+['ADJ', 'VERB', 'parataxis']	['公正', '饱受', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '饱受', 'punct']
+----------------------------------------------------------------------
+他呼吁哈马斯停止向以色列发射火箭，但也表示以色列必须“完成从加沙撤军”。
+
+(ROOT (IP (NP (PRP 他)) (VP (VP (VV 呼吁) (NP (NNP 哈马斯)) (IP (VP (VV 停止) (IP (VP (PP (IN 向) (NP (NNP 以色列))) (VP (VV 发射) (NP (NN 火箭)))))))) (, ，) (VP (ADVP (RB 但)) (ADVP (RB 也)) (VP (VV 表示) (IP (NP (NNP 以色列)) (VP (MD 必须) (VP (`` “) (VV 完成) (IP (VP (PP (IN 从) (NP (NNP 加沙))) (VP (VV 撤军)))) ('' ”))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP93623': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['他', '表示', 'nsubj']
+['VERB', 'VERB', 'advcl']	['呼吁', '表示', 'advcl']
+['PROPN', 'VERB', 'nsubj']	['哈马斯', '停止', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['停止', '呼吁', 'ccomp']
+['ADP', 'PROPN', 'case']	['向', '以色列', 'case']
+['PROPN', 'VERB', 'obl']	['以色列', '发射', 'obl']
+['VERB', 'VERB', 'xcomp']	['发射', '停止', 'xcomp']
+['NOUN', 'VERB', 'obj']	['火箭', '发射', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '呼吁', 'punct']
+['ADV', 'VERB', 'mark']	['但', '表示', 'mark']
+['ADV', 'VERB', 'mark']	['也', '表示', 'mark']
+['VERB', 'ROOT', 'root']	['表示', 'NONE', 'root']
+['PROPN', 'VERB', 'nsubj']	['以色列', '完成', 'nsubj']
+['AUX', 'VERB', 'aux']	['必须', '完成', 'aux']
+['PUNCT', 'VERB', 'punct']	['“', '完成', 'punct']
+['VERB', 'VERB', 'ccomp']	['完成', '表示', 'ccomp']
+['ADP', 'PROPN', 'case']	['从', '加沙', 'case']
+['PROPN', 'VERB', 'obl']	['加沙', '撤军', 'obl']
+['VERB', 'VERB', 'xcomp']	['撤军', '完成', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['”', '完成', 'punct']
+['PUNCT', 'VERB', 'punct']	['。', '表示', 'punct']
+----------------------------------------------------------------------

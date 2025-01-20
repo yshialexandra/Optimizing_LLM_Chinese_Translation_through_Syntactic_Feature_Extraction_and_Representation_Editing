@@ -50,5 +50,5 @@ if __name__ == '__main__':
     current_time = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
 
     # 保存翻译结果
-    with open(f'processed/01original_translation.json', 'w', encoding='utf-8') as file:
+    with open(f'processed/01_sorted_original_translation.json', 'w', encoding='utf-8') as file:
         json.dump(translated_sens, file, ensure_ascii=False, indent=4, separators=(',', ':'))

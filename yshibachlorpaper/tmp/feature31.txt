@@ -1,0 +1,4210 @@
+3 月份，阿富汗战争将成为美国历史上持续时间最长的军事冲突。
+
+(ROOT (IP (NP (QP (CD 3)) (NP (NNB 月份))) (, ，) (NP (NP (NNP 阿富汗)) (NP (NN 战争))) (VP (ADVP (RB 将)) (VP (VV 成) (VP (VC 为) (NP (CP (CP (IP (NP (VP (LCP (NP (NP (NNP 美国)) (NP (NN 历史))) (IN 上)) (VP (JJ 持续))) (NP (NN 时间))) (VP (JJ 最长))) (DEC 的))) (NP (NN 军事) (NN 冲突)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP23132': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, ',': {}, 'NP48457': {'NP': {}, 'NP99251': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+3	月份	nummod
+月份	成	nmod:tmod
+，	月份	punct
+阿富汗	战争	nmod
+战争	成	nsubj
+将	成	advmod
+成	ROOT	root
+为	成	mark
+美国	时间	nmod
+历史	最长	obl
+上	历史	case
+持续	时间	amod
+时间	最长	nsubj
+最长	冲突	acl:relcl
+的	最长	mark:rel
+军事	冲突	nmod
+冲突	成	obj
+。	成	punct
+----------------------------------------------------------------------
+随着我国的参与不断升级，我们请了 11 名摄影记者选择一张图片来总结他们报道战争的经历。
+
+(ROOT (IP (PP (VV 随) (PP (AS 着) (IP (NP (DNP (NP (NN 我国)) (DEC 的)) (NP (NN 参与))) (VP (ADVP (RB 不断)) (VP (VV 升级)))))) (, ，) (NP (PRP 我们)) (VP (VV 请) (AS 了) (NP (QP (CD 11) (CLP (NNB 名))) (NP (NN 摄影) (NN 记者))) (IP (VP (VP (VV 选择) (NP (QP (CD 一) (CLP (NNB 张))) (NP (NN 图片)))) (VP (RB 来) (VP (VV 总结) (NP (CP (IP (NP (PRP 他们)) (VP (VV 报道) (NP (NN 战争)))) (DEC 的)) (NP (NN 经历)))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}, 'IP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'PP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}, 'IP': {}}}
+Dependency Features:
+随	请	advcl
+着	随	aux
+我国	参与	nmod
+的	我国	case
+参与	升级	nsubj
+不断	升级	advmod
+升级	随	ccomp
+，	随	punct
+我	请	nsubj
+请	ROOT	root
+了	请	aux
+11	名	nummod
+名	记者	clf
+摄影	记者	nmod
+记者	选择	nsubj
+选择	总结	advcl
+一	张	nummod
+张	图片	clf
+图片	选择	obj
+来	总结	mark
+总结	请	ccomp
+他	报道	nsubj
+报道	经历	acl:relcl
+战争	报道	obj
+的	报道	mark:rel
+经历	总结	obj
+。	请	punct
+----------------------------------------------------------------------
+以下是他们所选图片及其原因
+
+(ROOT (IP (NP (DT 以下)) (VP (VC 是) (NP (NP (CP (IP (NP (PRP 他们)) (VP (NN 所选)))) (NP (NN 图片))) (CC 及) (NP (NP (PRP 其)) (NP (NN 原因)))))))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'NP': {'DT': {}}, 'VP': {'VC': {}, 'NP': {}}}}
+{'IP': {'NP': {'DT': {}}, 'VP': {'VC': {}, 'NP': {}}}}
+{'NP': {'DT': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+以下	图片	nsubj
+是	图片	cop
+他	图片	nmod
+所选	图片	nmod
+图片	ROOT	root
+及	原因	cc
+其	原因	nmod
+原因	图片	conj
+----------------------------------------------------------------------
+2009 年科伦加尔谷
+
+(ROOT (NP (NP (CD 2009)) (NP (NNP 年科伦加尔) (SFN 谷))))
+layer 2:
+{'NP': {'NP': {}, 'NP25289': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+layer 3:
+{'NP': {'NP': {'CD': {}}, 'NP49888': {'NNP': {}, 'SFN': {}}}}
+{'NP': {'NP': {'CD': {}}, 'NP': {'NNP': {}, 'SFN': {}}}}
+{'NP': {'CD': {}}}
+{'NP': {'NNP': {}, 'SFN': {}}}
+Dependency Features:
+2009	谷	nummod
+年科伦加尔	谷	compound
+谷	ROOT	root
+----------------------------------------------------------------------
+亚当·弗格森于 2008 年初首次访问阿富汗，此后又六次访问。
+
+(ROOT (IP (NP (NNP 亚当) (/ ·) (NNP 弗格森)) (VP (VP (PP (IN 于) (NP (CD 2008) (NN 年初))) (ADVP (CD 首次)) (VP (VV 访问) (NP (NNP 阿富汗)))) (, ，) (VP (ADVP (NN 此后)) (ADVP (RB 又)) (QP (CD 六) (CLP (NNB 次))) (VP (VV 访问)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP19040': {}}, 'VP': {'VP': {}, ',': {}, 'VP91334': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+亚当	访问	nsubj
+·	弗格森	punct
+弗格森	亚当	flat:name
+于	年初	case
+2008	年初	nummod
+年初	访问	obl
+首次	访问	obl
+访问	访问	advcl
+阿富汗	访问	obj
+，	访问	punct
+此后	访问	nmod:tmod
+又	访问	mark
+六	次	nummod
+次	访问	obl
+访问	ROOT	root
+。	访问	punct
+----------------------------------------------------------------------
+“那是我在科伦加尔的第一天。
+
+(ROOT (IP (`` “) (NP (PRD 那)) (VP (VC 是) (NP (NP (PRP 我)) (DNP (PP (VV 在) (NP (NNP 科伦加尔))) (DEC 的)) (QP (CD 第一) (CLP (NNB 天))))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+“	天	punct
+那	天	nsubj
+是	天	cop
+我	在	nsubj
+在	天	acl:relcl
+科伦加尔	在	obj
+的	在	mark:rel
+第一	天	nummod
+天	ROOT	root
+。	天	punct
+----------------------------------------------------------------------
+我走着爬上 600 米的坡路，到达瞭望哨，可以眺望那里的军事哨所。
+
+(ROOT (IP (NP (PRP 我)) (VP (VP (VV 走) (AS 着) (IP (VP (VP (VV 爬上) (NP (QP (CD 600)) (ADJP (NNB 米的)) (NP (NN 坡路)))) (, ，) (VP (VV 到达) (NP (NNP 瞭) (NN 望哨)))))) (, ，) (VP (MD 可以) (VP (VV 眺望) (NP (DNP (NP (PRD 那里)) (DEC 的)) (NP (NN 军事) (NN 哨所)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP77985': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+我	到达	nsubj
+走	到达	advcl
+着	走	aux
+爬上	走	xcomp
+600	米的	nummod
+米的	坡路	clf
+坡路	爬上	obj
+，	走	punct
+到达	ROOT	root
+瞭	望哨	nmod
+望哨	到达	obj
+，	眺望	punct
+可以	眺望	aux
+眺望	到达	ccomp
+那里	眺望	obj
+的	眺望	mark:rel
+军事	哨所	nmod
+哨所	眺望	obj
+。	眺望	punct
+----------------------------------------------------------------------
+这名士兵站在谷底的悬崖上，他有一点时间。
+
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 名))) (NP (NN 士兵))) (VP (VV 站) (PP (VV 在) (LCP (NP (DNP (NP (NN 谷底)) (DEC 的)) (NP (NN 悬崖))) (NN 上))))) (, ，) (IP (NP (PRP 他)) (VP (VV 有) (NP (QP (CD 一点)) (NP (NN 时间))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP83213': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP15665': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+这	名	det
+名	士兵	clf
+士兵	站	nsubj
+站	有	advcl
+在	站	mark
+谷底	站	obj
+的	站	mark:rel
+悬崖	站	obj
+上	悬崖	acl
+，	站	punct
+他	有	nsubj
+有	ROOT	root
+一点	时间	nummod
+时间	有	obj
+。	有	punct
+----------------------------------------------------------------------
+他面对着美丽的山景，双手捧着头。
+
+(ROOT (IP (IP (NP (PRP 他)) (VP (VV 面对) (AS 着) (NP (CP (CP (IP (VP (JJ 美丽))) (DEC 的))) (NP (NN 山景))))) (, ，) (IP (NP (QP (CD 双)) (NP (NN 手))) (VP (VV 捧) (AS 着) (NP (NN 头)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP22768': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP52522': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+他	捧	nsubj
+面对	捧	advcl
+着	面对	aux
+美丽	山景	amod
+的	美丽	mark:rel
+山景	面对	obj
+，	面对	punct
+双	手	nummod
+手	捧	nsubj
+捧	ROOT	root
+着	捧	aux
+头	捧	obj
+。	捧	punct
+----------------------------------------------------------------------
+这些人确实处于危险之中。
+
+(ROOT (IP (NP (DP (DT 这些)) (NP (NN 人))) (VP (ADVP (RB 确实)) (VP (VV 处) (PP (VV 于) (LCP (NP (NN 危险)) (IN 之中))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+这些	人	det
+人	处	nsubj
+确实	处	advmod
+处	ROOT	root
+于	处	mark
+危险	处	obj
+之中	危险	case
+。	处	punct
+----------------------------------------------------------------------
+他们生活在隔离墙内，在一片荒野中，与平民百姓隔离开来。
+
+(ROOT (IP (NP (PRP 他们)) (VP (VP (VV 生活) (PP (IN 在) (LCP (NP (NN 隔离)) (NN 墙内)))) (, ，) (VP (PP (VV 在) (LCP (NP (QP (JJ 一片)) (NP (NN 荒野))) (NN 中))) (, ，) (PP (IN 与) (NP (NN 平民) (NN 百姓))) (VP (VRD (VV 隔离) (VV 开来))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP59710': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+他	隔离	nsubj
+生活	隔离	advcl
+在	墙内	case
+隔离	墙内	nmod
+墙内	生活	obl
+，	生活	punct
+在	隔离	advcl
+一片	荒野	amod
+荒野	在	obj
+中	荒野	acl
+，	在	punct
+与	百姓	case
+平民	百姓	nmod
+百姓	隔离	obl
+隔离	ROOT	root
+开来	隔离	mark
+。	隔离	punct
+----------------------------------------------------------------------
+他们出去巡逻，几乎每天都会遭到枪击或袭击。
+
+(ROOT (IP (IP (NP (PRP 他们)) (VP (VSB (VV 出去) (VV 巡逻)))) (, ，) (IP (VP (ADVP (RB 几乎)) (NP (DT 每天)) (ADVP (RB 都)) (VP (MD 会) (VP (VV 遭到) (NP (NN 枪击) (CC 或) (NN 袭击)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP62774': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP40172': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+他	遭到	nsubj
+出去	遭到	advcl
+巡逻	出去	xcomp
+，	出去	punct
+几乎	遭到	advmod
+每天	遭到	nmod:tmod
+都	遭到	mark
+会	遭到	aux
+遭到	ROOT	root
+枪击	遭到	obj
+或	袭击	cc
+袭击	枪击	conj
+。	遭到	punct
+----------------------------------------------------------------------
+他们从来没有真正深入了解这片风景和这种文化。”
+
+(ROOT (IP (NP (PRP 他们)) (VP (ADVP (RB 从来)) (VP (VV 没有) (VP (ADVP (RB 真正)) (ADVP (VV 深入)) (VP (VV 了解) (NP (NP (DP (DT 这) (CLP (NNB 片))) (NP (NN 风景))) (CC 和) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 文化)))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+他	有	nsubj
+从来	有	advmod
+有	ROOT	root
+真正	了解	advmod
+深入	有	xcomp
+了解	有	xcomp
+这	片	det
+片	风景	clf
+风景	了解	obj
+和	文化	cc
+这	种	det
+种	文化	clf
+文化	风景	conj
+。	有	punct
+”	有	punct
+----------------------------------------------------------------------
+1996 年，阿富汗
+
+(ROOT (IP (NP (CD 1996) (NNB 年)) (, ，) (NP (NNP 阿富汗))))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP44586': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP13276': {'NNP': {}}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'NNP': {}}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'NP': {'NNP': {}}}
+Dependency Features:
+1996	年	nummod
+年	阿富汗	nmod:tmod
+，	年	punct
+阿富汗	ROOT	root
+----------------------------------------------------------------------
+自 1981 年以来，詹姆斯·纳赫特韦就一直在全球各地报道冲突事件，自 1988 年以来，他在阿富汗工作了十几次。
+
+(ROOT (IP (IP (PP (IN 自) (LCP (NP (CD 1981)) (NNB 年以来))) (, ，) (NP (NNP 詹姆斯) (/ ·) (NNP 纳赫特韦)) (VP (ADVP (RB 就)) (ADVP (RB 一直)) (PP (IN 在) (NP (NN 全球) (NN 各地))) (VP (VV 报道) (NP (NN 冲突) (NN 事件))))) (, ，) (IP (PP (IN 自) (LCP (NP (CD 1988)) (NNB 年以来))) (, ，) (NP (PRP 他)) (VP (PP (VV 在) (NP (NNP 阿富汗))) (VP (VV 工作) (AS 了) (QP (CD 十几) (CLP (NNB 次)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP61968': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP26509': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+自	年以来	case
+1981	年以来	nummod
+年以来	报道	obl
+，	年以来	punct
+詹姆斯	报道	nsubj
+·	纳赫特韦	punct
+纳赫特韦	詹姆斯	flat:name
+就	报道	mark
+一直	报道	advmod
+在	各地	case
+全球	各地	nmod
+各地	报道	obl
+报道	ROOT	root
+冲突	事件	nmod
+事件	报道	obj
+，	工作	punct
+自	年以来	case
+1988	年以来	nummod
+年以来	工作	obl
+，	年以来	punct
+他	工作	nsubj
+在	工作	advcl
+阿富汗	在	obj
+工作	报道	parataxis
+了	工作	aux
+十几	次	nummod
+次	工作	obl
+。	报道	punct
+----------------------------------------------------------------------
+“阿富汗很神奇。
+
+(ROOT (IP (`` “) (NP (NNP 阿富汗)) (VP (ADVP (RB 很)) (VP (JJ 神奇))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+“	神奇	punct
+阿富汗	神奇	nsubj
+很	神奇	advmod
+神奇	ROOT	root
+。	神奇	punct
+----------------------------------------------------------------------
+除了武器和日本卡车，就好像是 600 年前一样。
+
+(ROOT (IP (PP (VV 除) (PP (AS 了) (NP (NP (NN 武器)) (CC 和) (NP (NP (NNP 日本)) (NP (NN 卡车)))))) (, ，) (VP (ADVP (RB 就)) (ADVP (RB 好)) (PP (IN 像是) (LCP (NP (CD 600)) (NNB 年前))) (VP (JJ 一样))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'VP': {'ADVP': {}, 'ADVP86216': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'PP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+除	一样	advcl
+了	除	aux
+武器	除	obj
+和	卡车	cc
+日本	卡车	nmod
+卡车	武器	conj
+，	除	punct
+就	一样	mark
+好	一样	advmod
+像是	年前	case
+600	年前	nummod
+年前	一样	nmod
+一样	ROOT	root
+。	一样	punct
+----------------------------------------------------------------------
+这里曾是喀布尔的中心商业区，1989 年苏联撤离后，各派别开始对抗，该区遭到破坏。
+
+(ROOT (IP (IP (NP (PRD 这里)) (VP (ADVP (RB 曾)) (VP (VC 是) (NP (DNP (NP (NNP 喀布尔)) (DEC 的)) (NP (NN 中心) (NN 商业) (SFN 区)))))) (, ，) (IP (LCP (IP (NP (CD 1989)) (NP (NNB 年苏联)) (VP (VV 撤离))) (IN 后)) (, ，) (NP (DP (DT 各)) (NP (NN 派别))) (VP (VV 开始) (VP (VV 对抗)))) (, ，) (IP (NP (NN 该区)) (VP (VV 遭到) (NP (NN 破坏)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP17994': {}, ',69366': {}, 'IP42570': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP78045': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',50022': {}, 'IP10213': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+这里	区	nsubj
+曾	区	advmod
+是	区	cop
+喀布尔	区	nmod
+的	喀布尔	case
+中心	区	nmod
+商业	区	compound
+区	ROOT	root
+，	开始	punct
+1989	年苏联	nummod
+年苏联	撤离	nmod:tmod
+撤离	开始	advcl
+后	撤离	mark
+，	撤离	punct
+各	派别	det
+派别	开始	nsubj
+开始	区	parataxis
+对抗	开始	xcomp
+，	遭到	punct
+该区	遭到	nsubj
+遭到	区	parataxis
+破坏	遭到	obj
+。	区	punct
+----------------------------------------------------------------------
+当我拍摄这张照片时，塔利班正在袭击这座城市。
+
+(ROOT (IP (PP (IN 当) (LCP (IP (NP (PRP 我)) (VP (VV 拍摄) (NP (DP (DT 这) (CLP (NNB 张))) (NP (NN 照片))))) (IN 时))) (, ，) (NP (NNP 塔利班)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 袭击) (NP (DP (DT 这) (CLP (NNB 座))) (NP (NN 城市))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'ADVP73800': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+当	拍摄	case
+我	拍摄	nsubj
+拍摄	袭击	ccomp
+这	张	det
+张	照片	clf
+照片	拍摄	obj
+时	拍摄	mark
+，	拍摄	punct
+塔利班	袭击	nsubj
+正	袭击	advmod
+在	袭击	advmod
+袭击	ROOT	root
+这	座	det
+座	城市	clf
+城市	袭击	obj
+。	袭击	punct
+----------------------------------------------------------------------
+人们居住在这些遗址中。
+
+(ROOT (IP (NP (NN 人们)) (VP (VV 居住) (PP (IN 在) (LCP (NP (DP (DT 这些)) (NP (NN 遗址))) (IN 中)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VV': {}, 'PP': {}}}
+Dependency Features:
+人	居住	nsubj
+居住	ROOT	root
+在	遗址	case
+这些	遗址	det
+遗址	居住	obl
+中	遗址	case
+。	居住	punct
+----------------------------------------------------------------------
+一些人在寻找建筑材料和木柴时被地雷炸死。
+
+(ROOT (IP (NP (QP (JJ 一些)) (NP (NN 人))) (VP (PP (VV 在) (LCP (IP (VP (VV 寻找) (NP (NN 建筑) (NN 材料) (CC 和) (NN 木柴)))) (IN 时))) (VP (BB 被) (CP (IP (NP (NN 地雷)) (VP (VV 炸死)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+一些	人	amod
+人	炸死	nsubj:pass
+在	炸死	advcl
+寻找	在	xcomp
+建筑	材料	nmod
+材料	寻找	obj
+和	木柴	cc
+木柴	材料	conj
+时	在	mark
+被	炸死	aux:pass
+地雷	炸死	nsubj
+炸死	ROOT	root
+。	炸死	punct
+----------------------------------------------------------------------
+我认为这张照片的重要之处，特别是考虑到我们现在的情况，是我们对阿富汗的关注已经消失了。
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (VV 认为) (NP (DNP (NP (DP (DT 这) (CLP (NNB 张))) (NP (NN 照片))) (DEC 的)) (CP (CP (IP (VP (JJ 重要))) (DEC 之))) (NP (NN 处))))) (, ，) (IP (IP (VP (ADVP (RB 特别)) (VP (VC 是) (VP (VRD (VV 考虑) (VV 到)) (NP (NP (PRP 我们)) (DNP (NP (NN 现在)) (DEC 的)) (NP (NN 情况))))))) (, ，) (VP (VC 是) (IP (NP (NP (PRP 我们)) (DNP (PP (IN 对) (NP (NNP 阿富汗))) (DEC 的)) (NP (NN 关注))) (VP (ADVP (RB 已经)) (VP (VV 消失) (UH 了)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP56977': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP20789': {'IP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'IP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+我	为	nsubj
+为	ROOT	root
+这	张	det
+张	照片	clf
+照片	处	nmod
+的	照片	case
+重要	处	amod
+之	重要	mark:rel
+处	是	nsubj
+，	处	punct
+特别	是	advmod
+是	是	csubj
+考虑	是	xcomp
+到	考虑	mark
+我	情况	nmod
+现在	情况	nmod
+的	现在	case
+情况	考虑	obj
+，	是	punct
+是	为	parataxis
+我	关注	nmod
+对	关注	case
+阿富汗	关注	nmod
+的	关注	case
+关注	消失	nsubj
+已经	消失	advmod
+消失	是	ccomp
+了	是	discourse
+。	是	punct
+----------------------------------------------------------------------
+我们忘了它。
+
+(ROOT (IP (NP (PRP 我们)) (VP (VV 忘) (AS 了) (NP (PRP 它))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+我	忘	nsubj
+忘	ROOT	root
+了	忘	aux
+它	忘	obj
+。	忘	punct
+----------------------------------------------------------------------
+在这张照片中，她看起来几乎像一个在废墟中漂浮的幽灵。
+
+(ROOT (IP (PP (IN 在) (LCP (NP (DP (DT 这) (CLP (NNB 张))) (NP (NN 照片))) (IN 中))) (, ，) (NP (PRP 她)) (VP (VRD (VV 看) (VV 起来)) (IP (VP (ADVP (RB 几乎)) (VP (PP (VV 像) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (PP (IN 在) (LCP (NP (NN 废墟)) (NN 中))) (VP (VV 漂浮)))) (DEC 的))) (NP (NN 幽灵)))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VRD': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VRD': {}, 'IP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VRD': {}, 'IP': {}}}
+Dependency Features:
+在	照片	case
+这	张	det
+张	照片	clf
+照片	看	obl
+中	照片	case
+，	照片	punct
+她	看	nsubj
+看	ROOT	root
+起来	看	mark
+几乎	像	advmod
+像	幽灵	acl:relcl
+一	个	nummod
+个	幽灵	clf
+在	废墟	case
+废墟	漂浮	obl
+中	废墟	acl
+漂浮	幽灵	acl:relcl
+的	漂浮	mark:rel
+幽灵	看	obj
+。	看	punct
+----------------------------------------------------------------------
+现在，这片城市的部分已经重建。
+
+(ROOT (IP (NP (NN 现在)) (, ，) (NP (DNP (NP (DP (DT 这) (CLP (NNB 片))) (NP (NN 城市))) (DEC 的)) (NP (NN 部分))) (VP (ADVP (RB 已经)) (VP (VV 重建))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP88802': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP94981': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+现在	重建	nmod:tmod
+，	现在	punct
+这	片	det
+片	城市	clf
+城市	部分	nmod
+的	城市	case
+部分	重建	nsubj
+已经	重建	advmod
+重建	ROOT	root
+。	重建	punct
+----------------------------------------------------------------------
+它看起来不像是月球表面。”
+
+(ROOT (IP (NP (PRP 它)) (VP (VRD (VV 看) (VV 起来)) (IP (VP (ADVP (RB 不)) (VP (VC 像是) (NP (NN 月球) (NN 表面)))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VRD': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VRD': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VRD': {}, 'IP': {}}}
+Dependency Features:
+它	看	nsubj
+看	ROOT	root
+起来	看	mark
+不	是	advmod
+是	看	xcomp
+月球	表面	nmod
+表面	是	xcomp
+。	看	punct
+”	看	punct
+----------------------------------------------------------------------
+2002 年，阿富汗
+
+(ROOT (IP (NP (CD 2002) (NNB 年)) (, ，) (NP (NNP 阿富汗))))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP30530': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP5654': {'NNP': {}}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'NNP': {}}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'NP': {'NNP': {}}}
+Dependency Features:
+2002	年	nummod
+年	阿富汗	nmod:tmod
+，	年	punct
+阿富汗	ROOT	root
+----------------------------------------------------------------------
+艾什利·盖尔斯坦森曾在科索沃和伊拉克工作过。
+
+(ROOT (IP (NP (NNP 艾什利) (/ ·) (NNP 盖尔斯坦森)) (VP (ADVP (RB 曾)) (PP (VV 在) (NP (NNP 科索沃) (CC 和) (NNP 伊拉克))) (VP (VV 工作) (AS 过))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP66072': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+艾什利	工作	nsubj
+·	盖尔斯坦森	punct
+盖尔斯坦森	艾什利	flat:name
+曾	工作	advmod
+在	工作	advcl
+科索沃	在	obj
+和	伊拉克	cc
+伊拉克	科索沃	conj
+工作	ROOT	root
+过	工作	aux
+。	工作	punct
+----------------------------------------------------------------------
+他于 2002 年一次访问了阿富汗。
+
+(ROOT (IP (NP (PRP 他)) (VP (PP (IN 于) (NP (CD 2002))) (QP (NNB 年一) (CLP (NNB 次))) (VP (VV 访问) (AS 了) (NP (NNP 阿富汗)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'PP': {}, 'QP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'PP': {}, 'QP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'PP': {}, 'QP': {}, 'VP': {}}}
+Dependency Features:
+他	访问	nsubj
+于	次	case
+2002	次	nummod
+年一	次	nummod
+次	访问	obl
+访问	ROOT	root
+了	访问	aux
+阿富汗	访问	obj
+。	访问	punct
+----------------------------------------------------------------------
+“一个孩子从一架苏联直升机的残骸后面观看了一场足球比赛。
+
+(ROOT (IP (`` “) (IP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 孩子))) (VP (PP (IN 从) (NP (NP (DNP (NP (QP (CD 一) (CLP (NNB 架))) (NP (NNP 苏联)) (NP (VV 直升) (SFN 机))) (DEC 的)) (NP (NN 残骸))) (NP (NN 后面)))) (VP (VV 观看) (AS 了) (NP (QP (CD 一) (CLP (NNB 场))) (NP (NN 足球) (NN 比赛)))))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'IP': {}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+“	孩子	punct
+一	个	nummod
+个	孩子	clf
+孩子	观看	nsubj
+从	残骸	case
+一	架	nummod
+架	机	nmod
+苏联	机	nmod
+直升	机	compound
+机	残骸	nmod
+的	机	case
+残骸	观看	obl
+后面	残骸	acl
+观看	ROOT	root
+了	观看	aux
+一	场	nummod
+场	比赛	clf
+足球	比赛	nmod
+比赛	观看	obj
+。	观看	punct
+----------------------------------------------------------------------
+在那边，孩子们在废墟、坦克附近，在极其危险的地方玩耍。
+
+(ROOT (IP (PP (IN 在) (DP (DT 那) (CLP (NN 边)))) (, ，) (NP (NN 孩子) (SFN 们)) (VP (PP (VV 在) (NP (NP (NN 废墟) (EC 、) (NN 坦克)) (NP (NN 附近)))) (, ，) (PP (IN 在) (NP (CP (CP (IP (VP (ADVP (RB 极)) (ADVP (PRP 其)) (VP (JJ 危险)))) (DEC 的))) (NP (NN 地方)))) (VP (VV 玩耍))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'DP': {}}, ',': {}, 'NP': {'NN': {}, 'SFN': {}}, 'VP': {'PP': {}, ',': {}, 'PP70964': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'DP': {}}, ',': {}, 'NP': {'NN': {}, 'SFN': {}}, 'VP': {'PP': {}, ',': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'DP': {}}}
+{'NP': {'NN': {}, 'SFN': {}}}
+{'VP': {'PP': {}, ',': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+在	边	case
+那	边	det
+边	玩耍	obl
+，	边	punct
+孩子	们	compound
+们	玩耍	nsubj
+在	玩耍	advcl
+废墟	在	obj
+、	附近	punct
+坦克	附近	nmod
+附近	废墟	conj
+，	在	punct
+在	地方	case
+极	危险	advmod
+其	地方	nmod
+危险	地方	amod
+的	危险	mark:rel
+地方	玩耍	obl
+玩耍	ROOT	root
+。	玩耍	punct
+----------------------------------------------------------------------
+一个孩子，一个瞬间，可以深深地影响你。
+
+(ROOT (IP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 孩子))) (, ，) (VP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 瞬间))) (, ，) (VP (MD 可以) (VP (DVP (VP (JJ 深深)) (DEV 地)) (VP (VV 影响) (NP (PRP 你)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, ',': {}, 'VP': {'NP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, ',': {}, 'VP': {'NP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'NP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+一	个	nummod
+个	孩子	clf
+孩子	影响	nsubj
+，	孩子	punct
+一	个	nummod
+个	瞬间	clf
+瞬间	影响	obl
+，	瞬间	punct
+可以	影响	aux
+深深	影响	advmod
+地	深深	mark:adv
+影响	ROOT	root
+你	影响	obj
+。	影响	punct
+----------------------------------------------------------------------
+他有十岁左右的样子，他可以是来自任何地方的孩子。
+
+(ROOT (IP (IP (NP (PRP 他)) (VP (VV 有) (NP (DNP (LCP (QP (CD 十) (CLP (NNB 岁))) (IN 左右)) (DEC 的)) (NP (NN 样子))))) (, ，) (IP (NP (PRP 他)) (VP (MD 可以) (VP (VC 是) (NP (CP (CP (IP (VP (VV 来) (PP (VV 自) (NP (DP (DT 任何)) (NP (NN 地方)))))) (DEC 的))) (NP (NN 孩子)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP67733': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP37950': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+他	有	nsubj
+有	ROOT	root
+十	岁	nummod
+岁	样子	nmod
+左右	岁	case
+的	岁	case
+样子	有	obj
+，	是	punct
+他	是	nsubj
+可以	是	aux
+是	有	parataxis
+来	孩子	acl:relcl
+自	来	mark
+任何	地方	det
+地方	来	obj
+的	来	mark:rel
+孩子	是	obj
+。	有	punct
+----------------------------------------------------------------------
+但他被困在这个可怕的情况中，这是他每天的生活。
+
+(ROOT (IP (IP (ADVP (RB 但)) (NP (PRP 他)) (VP (BB 被) (VP (VV 困) (PP (IN 在) (LCP (NP (DP (DT 这) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 可怕))) (DEC 的))) (NP (NN 情况))) (IN 中)))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (NP (PRP 他)) (DNP (NP (DT 每天)) (DEC 的)) (NP (NN 生活))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP43728': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP57947': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+但	困	mark
+他	困	nsubj:pass
+被	困	aux:pass
+困	ROOT	root
+在	情况	case
+这	个	det
+个	情况	clf
+可怕	情况	amod
+的	可怕	mark:rel
+情况	困	obl
+中	情况	case
+，	生活	punct
+这	生活	nsubj
+是	生活	cop
+他	生活	nmod
+每天	生活	det
+的	每天	case
+生活	困	parataxis
+。	困	punct
+----------------------------------------------------------------------
+回去找他是不可能的。
+
+(ROOT (IP (IP (VP (VP (VV 回去)) (VP (VV 找) (NP (PRP 他))))) (VP (VC 是) (NP (CP (CP (IP (VP (ADVP (RB 不)) (VP (MD 可能)))) (UH 的))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+回去	找	advcl
+找	是	csubj
+他	找	obj
+是	ROOT	root
+不	可能	advmod
+可能	是	xcomp
+的	是	discourse
+。	是	punct
+----------------------------------------------------------------------
+我没有听清他的名字。
+
+(ROOT (IP (NP (PRP 我)) (VP (VV 没有) (VP (VRD (VV 听) (NNP 清)) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 名字))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'VP': {}}}
+Dependency Features:
+我	有	nsubj
+有	ROOT	root
+听	有	xcomp
+清	听	obj
+他	名字	det
+的	他	case
+名字	听	obj
+。	有	punct
+----------------------------------------------------------------------
+但我还是想到了他。
+
+(ROOT (IP (ADVP (RB 但)) (NP (PRP 我)) (VP (ADVP (RB 还是)) (VP (VV 想到) (AS 了) (NP (PRP 他)))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+但	想到	mark
+我	想到	nsubj
+还是	想到	mark
+想到	ROOT	root
+了	想到	aux
+他	想到	obj
+。	想到	punct
+----------------------------------------------------------------------
+我想到了几千个孩子。
+
+(ROOT (IP (NP (PRP 我)) (VP (VV 想到) (AS 了) (NP (QP (CD 几千) (CLP (NNB 个))) (NP (NN 孩子)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+我	想到	nsubj
+想到	ROOT	root
+了	想到	aux
+几千	个	nummod
+个	孩子	clf
+孩子	想到	obj
+。	想到	punct
+----------------------------------------------------------------------
+我的档案里还有谁还在世？”
+
+(ROOT (IP (LCP (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 档案))) (IN 里)) (VP (ADVP (RB 还)) (VP (VV 有) (IP (NP (WP 谁)) (VP (ADVP (RB 还)) (VP (VV 在) (NP (NN 世))))))) (. ？) ('' ”)))
+layer 2:
+{'IP': {'LCP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'LCP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+我	档案	det
+的	我	case
+档案	有	nsubj
+里	档案	case
+还	有	mark
+有	ROOT	root
+谁	在	nsubj
+还	在	mark
+在	有	ccomp
+世	在	obj
+？	在	punct
+”	在	punct
+----------------------------------------------------------------------
+2001 年，喀布尔
+
+(ROOT (IP (NP (CD 2001) (NNB 年)) (, ，) (VP (NP (NNP 喀布尔)))))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'VP': {'NP': {}}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'VP': {'NP': {}}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'VP': {'NP': {}}}
+Dependency Features:
+2001	年	nummod
+年	喀布尔	nmod:tmod
+，	年	punct
+喀布尔	ROOT	root
+----------------------------------------------------------------------
+约翰·斯坦梅尔 (John Stanmeyer) 在过去十年中花费了大部分时间记录印尼的政治和社会变化。
+
+(ROOT (IP (NP (NNP 约翰) (/ ·) (NNP 斯坦梅尔) (FW -LRB-John) (FW Stanmeyer-RRB-)) (VP (PP (IN 在) (LCP (QP (NP (NN 过去)) (QP (CD 十))) (NNB 年中))) (VP (VP (VV 花费) (AS 了) (NP (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (NN 时间)))) (VP (VV 记录) (NP (DNP (NP (NNP 印尼)) (DEC 的)) (NP (NN 政治) (CC 和) (NN 社会)) (NP (NN 变化)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP80949': {}, 'FW': {}, 'FW54362': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}, 'FW': {}, 'FW': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}, 'FW': {}, 'FW': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+约翰	(John	nmod
+·	斯坦梅尔	punct
+斯坦梅尔	约翰	flat:name
+(John	记录	nsubj
+Stanmeyer)	(John	flat:foreign
+在	年中	case
+过去	年中	nmod
+十	年中	nummod
+年中	记录	obl
+花费	记录	advcl
+了	花费	aux
+大	部分	case
+部分	时间	nmod
+时间	花费	obj
+记录	ROOT	root
+印尼	政治	nmod
+的	印尼	case
+政治	记录	obj
+和	社会	cc
+社会	政治	conj
+变化	记录	obj
+。	记录	punct
+----------------------------------------------------------------------
+2001 年，他前往阿富汗，回国后又回去了 5 到 6 次。
+
+(ROOT (IP (NP (CD 2001) (NNB 年)) (, ，) (NP (PRP 他)) (VP (VP (VV 前往) (NP (NNP 阿富汗))) (, ，) (VP (LCP (IP (VP (VV 回国))) (IN 后)) (ADVP (RB 又)) (VP (VV 回去) (AS 了) (QP (QP (CD 5)) (QP (CD 到 6) (CLP (NNB 次))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP2727': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP30632': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP29320': {}}, '.': {}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+2001	年	nummod
+年	回去	nmod:tmod
+，	年	punct
+他	回去	nsubj
+前往	回去	advcl
+阿富汗	前往	obj
+，	前往	punct
+回国	回去	advcl
+后	回国	mark
+又	回去	mark
+回去	ROOT	root
+了	回去	aux
+5	次	nummod
+到 6	次	nummod
+次	回去	obj
+。	回去	punct
+----------------------------------------------------------------------
+“这张照片是在塔利班撤离喀布尔后的第二天拍摄的。
+
+(ROOT (IP (`` “) (NP (DP (DT 这) (CLP (NNB 张))) (NP (NN 照片))) (VP (VC 是) (NP (CP (CP (IP (VP (PP (IN 在) (QP (CP (CP (IP (NP (NNP 塔利班)) (VP (VV 撤离) (NP (NNP 喀布尔后)))) (DEC 的))) (QP (CD 第二) (CLP (NNB 天))))) (VP (VV 拍摄)))) (UH 的))))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+“	是	punct
+这	张	det
+张	照片	clf
+照片	是	nsubj
+是	ROOT	root
+在	天	case
+塔利班	撤离	nsubj
+撤离	天	acl:relcl
+喀布尔后	撤离	obj
+的	撤离	mark:rel
+第二	天	nummod
+天	拍摄	obl
+拍摄	是	xcomp
+的	是	discourse
+。	是	punct
+----------------------------------------------------------------------
+我跟随北方联盟从北部的昆都士一路南下。
+
+(ROOT (IP (NP (PRP 我)) (VP (VP (VV 跟随) (NP (NNP 北方) (NN 联盟))) (VP (PP (IN 从) (NP (DNP (NP (NN 北部)) (DEC 的)) (NP (NNP 昆都) (SFN 士)))) (ADVP (RB 一路)) (VP (VV 南下)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP34476': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+我	南下	nsubj
+跟随	南下	advcl
+北方	联盟	nmod
+联盟	跟随	obj
+从	士	case
+北部	士	nmod
+的	北部	case
+昆都	士	compound
+士	跟随	obj
+一路	南下	advmod
+南下	ROOT	root
+。	南下	punct
+----------------------------------------------------------------------
+就像是驾驶在上帝的手指纹上一样。
+
+(ROOT (IP (VP (ADVP (RB 就)) (PP (IN 像是) (LCP (NP (CP (CP (IP (VP (VV 驾驶) (PP (IN 在) (NP (NN 上帝))))) (DEC 的))) (NP (NN 手指))) (NN 纹上))) (VP (JJ 一样))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+就	一样	mark
+像是	纹上	case
+驾驶	纹上	acl:relcl
+在	上帝	case
+上帝	驾驶	obl
+的	驾驶	mark:rel
+手指	纹上	nmod
+纹上	一样	nmod
+一样	ROOT	root
+。	一样	punct
+----------------------------------------------------------------------
+我在穿过那些山脉时感到自己很不起眼。
+
+(ROOT (IP (NP (PRP 我)) (VP (PP (IN 在) (LCP (IP (VP (VV 穿过) (NP (DP (DT 那些)) (NP (NN 山脉))))) (IN 时))) (VP (VV 感到) (IP (NP (PRD 自己)) (VP (ADVP (RB 很)) (ADVP (RB 不)) (VP (JJ 起眼)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+我	感到	nsubj
+在	穿过	case
+穿过	感到	xcomp
+那些	山脉	det
+山脉	穿过	obj
+时	穿过	mark
+感到	ROOT	root
+自己	起眼	nsubj
+很	起眼	advmod
+不	起眼	advmod
+起眼	感到	ccomp
+。	感到	punct
+----------------------------------------------------------------------
+我们来到了喀布尔，看到了这份清新之气。
+
+(ROOT (IP (NP (PRP 我们)) (VP (VP (VV 来到) (AS 了) (NP (NNP 喀) (NNP 布尔))) (, ，) (VP (VV 看到) (AS 了) (NP (DP (DT 这) (CLP (NNB 份))) (CP (CP (IP (VP (PFA 清) (JJ 新))) (DEC 之))) (NP (NN 气))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP3245': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+我	看到	nsubj
+来到	看到	advcl
+了	来到	aux
+喀	布尔	nmod
+布尔	来到	obj
+，	来到	punct
+看到	ROOT	root
+了	看到	aux
+这	份	det
+份	气	clf
+清	气	case
+新	气	amod
+之	新	mark:rel
+气	看到	obj
+。	看到	punct
+----------------------------------------------------------------------
+突然间，一群穿着各种颜色的人在四处走动，这与阿富汗各处的米黄色泥土和所有人都穿着米黄色服装形成了鲜明的对比。
+
+(ROOT (IP (IP (LCP (ADVP (RB 突然)) (NN 间)) (, ，) (NP (QP (CD 一) (CLP (NNB 群))) (CP (CP (IP (VP (VV 穿) (AS 着) (NP (ADJP (DT 各种)) (NP (NN 颜色))))) (DEC 的))) (NP (NN 人))) (VP (PP (VV 在) (QP (CD 四) (CLP (NN 处)))) (VP (VV 走动)))) (, ，) (NP (NP (PRD 这)) (VP (VP (PP (IN 与) (NP (DNP (NP (NP (NNP 阿富汗)) (NP (NN 各处))) (DEC 的)) (NP (NP (NP (NN 米)) (ADJP (NN 黄色)) (NP (NN 泥土))) (CC 和) (NP (DP (DT 所有)) (NP (NN 人)))))) (ADVP (RB 都)) (VP (VV 穿) (AS 着) (NP (NP (NNB 米) (NN 黄色)) (NP (NN 服装))))) (VP (VV 形成) (AS 了) (NP (CP (CP (IP (VP (JJ 鲜明))) (DEC 的))) (NP (NN 对比)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'NP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'NP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+突然	走动	advmod
+间	突然	mark:adv
+，	突然	punct
+一	群	nummod
+群	人	clf
+穿	人	acl:relcl
+着	穿	aux
+各种	颜色	det
+颜色	穿	obj
+的	穿	mark:rel
+人	走动	nsubj
+在	走动	advcl
+四	处	nummod
+处	在	obj
+走动	ROOT	root
+，	形成	punct
+这	泥土	nmod
+与	泥土	case
+阿富汗	各处	nmod
+各处	泥土	nmod
+的	各处	mark:rel
+米	泥土	nmod
+黄色	泥土	nmod
+泥土	形成	nsubj
+和	人	cc
+所有	人	det
+人	泥土	conj
+都	形成	mark
+穿	形成	advcl
+着	穿	aux
+米	服装	nmod
+黄色	服装	nmod
+服装	穿	obj
+形成	走动	parataxis
+了	形成	aux
+鲜明	对比	amod
+的	鲜明	mark:rel
+对比	形成	obj
+。	走动	punct
+----------------------------------------------------------------------
+她身上唯一的颜色就是那条布拉克的蓝色。
+
+(ROOT (IP (NP (LCP (NP (PRP 她)) (NN 身上)) (DNP (ADJP (JJ 唯一)) (DEC 的)) (NP (NN 颜色))) (VP (VC 就是) (NP (DP (DT 那) (CLP (NNB 条))) (DNP (NP (NNP 布拉克)) (DEC 的)) (NP (NN 蓝色)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'LCP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'LCP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'LCP': {}, 'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+她	颜色	nmod
+身上	颜色	nmod
+唯一	颜色	amod
+的	唯一	mark:rel
+颜色	蓝色	nsubj
+是	蓝色	cop
+那	条	det
+条	蓝色	clf
+布拉克	蓝色	nmod
+的	布拉克	case
+蓝色	ROOT	root
+。	蓝色	punct
+----------------------------------------------------------------------
+在塔利班政权统治下，没有风筝，没有气球，没有音乐，没有电视。
+
+(ROOT (IP (PP (IN 在) (LCP (IP (NP (NP (NNP 塔利班)) (NP (NN 政权))) (VP (NN 统治))) (IN 下))) (, ，) (VP (VP (VV 没有) (NP (NN 风筝))) (, ，) (VP (VV 没有) (NP (NN 气球))) (, ，) (VP (VV 没有) (NP (NN 音乐))) (, ，) (VP (VV 没有) (NP (NN 电视)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'VP': {'VP': {}, ',': {}, 'VP39389': {}, ',17164': {}, 'VP28686': {}, ',92650': {}, 'VP69449': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+在	统治	case
+塔利班	统治	nmod
+政权	统治	nmod
+统治	有	obl
+下	统治	case
+，	统治	punct
+有	有	advcl
+风筝	有	obj
+，	有	punct
+有	有	advcl
+气球	有	obj
+，	有	punct
+有	有	advcl
+音乐	有	obj
+，	有	punct
+有	ROOT	root
+电视	有	obj
+。	有	punct
+----------------------------------------------------------------------
+这幅画象征着希望、生命、庆祝人性。
+
+(ROOT (IP (NP (DP (DT 这)) (NP (NN 幅画))) (VP (VV 象征) (AS 着) (NP (NP (NN 希望)) (EC 、) (NP (NN 生命)) (EC 、) (IP (VP (VV 庆祝) (NP (NN 人性)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+这	幅画	det
+幅画	象征	nsubj
+象征	ROOT	root
+着	象征	aux
+希望	象征	obj
+、	生命	punct
+生命	希望	conj
+、	庆祝	punct
+庆祝	希望	conj
+人性	庆祝	obj
+。	象征	punct
+----------------------------------------------------------------------
+有了彩色、气球、风筝和音乐，这是一个巨大的转变。
+
+(ROOT (IP (IP (VP (VV 有) (AS 了) (ADJP (NN 彩色) (EC 、) (NN 气球) (EC 、) (NN 风筝) (CC 和) (NN 音乐)))) (, ，) (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 巨大))) (DEC 的))) (NP (NN 转变)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+有	ROOT	root
+了	有	aux
+彩色	有	obj
+、	气球	punct
+气球	彩色	conj
+、	风筝	punct
+风筝	彩色	conj
+和	音乐	cc
+音乐	彩色	conj
+，	转变	punct
+这	转变	nsubj
+是	转变	cop
+一	个	nummod
+个	转变	clf
+巨大	转变	amod
+的	巨大	mark:rel
+转变	有	parataxis
+。	有	punct
+----------------------------------------------------------------------
+这个人从哪里得到氦气？”
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 人))) (VP (PP (IN 从) (NP (WP 哪里))) (VP (VV 得到) (NP (NN 氦) (NN 气)))) (. ？) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+这	个	det
+个	人	clf
+人	得到	nsubj
+从	哪里	case
+哪里	得到	obl
+得到	ROOT	root
+氦	气	nmod
+气	得到	obj
+？	得到	punct
+”	得到	punct
+----------------------------------------------------------------------
+2001 年，喀布尔
+
+(ROOT (IP (NP (CD 2001) (NNB 年)) (, ，) (VP (NP (NNP 喀布尔)))))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'VP': {'NP': {}}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'VP': {'NP': {}}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'VP': {'NP': {}}}
+Dependency Features:
+2001	年	nummod
+年	喀布尔	nmod:tmod
+，	年	punct
+喀布尔	ROOT	root
+----------------------------------------------------------------------
+加里·奈特的职业生涯始于报道东南亚的军事冲突。
+
+(ROOT (IP (NP (DNP (NP (NNP 加里) (/ ·) (NNP 奈特)) (DEC 的)) (NP (NN 职业) (NN 生涯))) (VP (VV 始) (PP (VV 于) (IP (VP (VV 报道) (NP (DNP (NP (NN 东南) (NNP 亚)) (DEC 的)) (NP (NN 军事) (VV 冲突))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'PP': {}}}
+Dependency Features:
+加里	生涯	nmod
+·	奈特	punct
+奈特	加里	flat:name
+的	加里	case
+职业	生涯	nmod
+生涯	始	nsubj
+始	ROOT	root
+于	始	mark
+报道	冲突	acl:relcl
+东南	亚	nmod
+亚	报道	obj
+的	报道	mark:rel
+军事	冲突	nmod
+冲突	始	obj
+。	始	punct
+----------------------------------------------------------------------
+自 1988 年以来，他多次访问阿富汗。
+
+(ROOT (IP (PP (IN 自) (LCP (NP (CD 1988)) (NNB 年以来))) (, ，) (NP (PRP 他)) (VP (QP (CD 多) (CLP (NNB 次))) (VP (VV 访问) (NP (NNP 阿富汗)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'QP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'QP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'QP': {}, 'VP': {}}}
+Dependency Features:
+自	年以来	case
+1988	年以来	nummod
+年以来	访问	obl
+，	年以来	punct
+他	访问	nsubj
+多	次	nummod
+次	访问	obl
+访问	ROOT	root
+阿富汗	访问	obj
+。	访问	punct
+----------------------------------------------------------------------
+“2001 年，我在阿富汗工作了十几年。
+
+(ROOT (IP (-LRB- “) (NP (CD 2001) (NNB 年)) (, ，) (NP (PRP 我)) (VP (PP (VV 在) (NP (NNP 阿富汗))) (VP (VV 工作) (AS 了) (QP (CD 十几) (CLP (NNB 年))))) (. 。)))
+layer 2:
+{'IP': {'-LRB-': {}, 'NP': {}, ',': {}, 'NP92734': {}, 'VP': {}, '.': {}}}
+{'IP': {'-LRB-': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'-LRB-': {}, 'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP29160': {'PRP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'-LRB-': {}, 'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+“	年	punct
+2001	年	nummod
+年	工作	nmod:tmod
+，	年	punct
+我	工作	nsubj
+在	工作	advcl
+阿富汗	在	obj
+工作	ROOT	root
+了	工作	aux
+十几	年	nummod
+年	工作	obl
+。	工作	punct
+----------------------------------------------------------------------
+这张照片是在塔利班撤离后数百名阿富汗妇女走上街头时拍摄的。
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 张))) (NP (NN 照片))) (VP (VC 是) (NP (CP (CP (IP (PP (IN 在) (LCP (IP (NP (NNP 塔利班)) (VP (VV 撤离))) (IN 后))) (NP (QP (CD 数百) (CLP (NNB 名))) (NP (NNP 阿富汗)) (NP (NN 妇女))) (VP (LCP (IP (VP (VV 走上) (NP (NN 街头)))) (IN 时)) (VP (VV 拍摄)))) (UH 的))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+这	张	det
+张	照片	clf
+照片	是	nsubj
+是	ROOT	root
+在	撤离	case
+塔利班	撤离	nsubj
+撤离	拍摄	ccomp
+后	撤离	mark
+数百	名	nummod
+名	妇女	clf
+阿富汗	妇女	nmod
+妇女	走上	nsubj
+走上	拍摄	advcl
+街头	走上	obj
+时	走上	mark
+拍摄	是	xcomp
+的	是	discourse
+。	是	punct
+----------------------------------------------------------------------
+塔利班时期，女性就是消失了。
+
+(ROOT (IP (NP (NP (NNP 塔利班)) (NP (NN 时期))) (, ，) (NP (NN 女性)) (VP (VC 就是) (VP (VV 消失) (UH 了))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP4395': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP53308': {}}, ',': {}, 'NP84491': {'NN': {}}, 'VP': {'VC': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VC': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VC': {}, 'VP': {}}}
+Dependency Features:
+塔利班	时期	nmod
+时期	是	nmod:tmod
+，	时期	punct
+女性	是	nsubj
+是	ROOT	root
+消失	是	xcomp
+了	是	discourse
+。	是	punct
+----------------------------------------------------------------------
+现在，数百人同时摘下面纱，公开露面。
+
+(ROOT (IP (NP (NN 现在)) (, ，) (NP (QP (CD 数百)) (NP (NN 人))) (VP (ADVP (NN 同时)) (VP (VP (VV 摘下) (NP (NN 面) (SFN 纱))) (, ，) (VP (ADVP (RB 公开)) (VP (VV 露面))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP37264': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP42827': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+现在	露面	nmod:tmod
+，	现在	punct
+数百	人	nummod
+人	露面	nsubj
+同时	摘下	nmod:tmod
+摘下	露面	advcl
+面	纱	compound
+纱	摘下	obj
+，	摘下	punct
+公开	露面	advmod
+露面	ROOT	root
+。	露面	punct
+----------------------------------------------------------------------
+我喜欢它。
+
+(ROOT (IP (NP (PRP 我)) (VP (VV 喜欢) (NP (PRP 它))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+我	喜欢	nsubj
+喜欢	ROOT	root
+它	喜欢	obj
+。	喜欢	punct
+----------------------------------------------------------------------
+我和他们合影，然后发给我的孩子。
+
+(ROOT (IP (NP (PRP 我)) (VP (VP (PP (IN 和) (NP (PRP 他们))) (VP (VV 合影))) (, ，) (VP (ADVP (RB 然后)) (VP (VV 发给) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 孩子)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP61228': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+我	合影	nsubj
+和	他	case
+他	合影	obl
+合影	ROOT	root
+，	发给	punct
+然后	发给	advmod
+发给	合影	parataxis
+我	孩子	det
+的	我	case
+孩子	发给	obj
+。	合影	punct
+----------------------------------------------------------------------
+9/11 事件发生后不久，所以看到这样一部积极、甚至是肯定的作品，真是太好了。
+
+(ROOT (IP (NP (LCP (IP (NP (QP (CD 9) (NNB /11)) (NP (NN 事件))) (VP (VV 发生))) (IN 后)) (NP (NN 不久))) (, ，) (ADVP (RB 所以)) (IP (VP (VV 看到) (NP (QP (ADVP (PRD 这样)) (QP (CD 一) (CLP (NNB 部)))) (CP (CP (IP (VP (VP (JJ 积极)) (EC 、) (VP (ADVP (VC 甚至是)) (VP (JJ 肯定))))) (DEC 的))) (NP (NN 作品))))) (, ，) (VP (ADVP (RB 真)) (VP (VC 是) (VP (JJ 太好) (UH 了)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'ADVP': {}, 'IP': {}, ',86562': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'ADVP': {}, 'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'LCP': {}, 'NP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'IP': {'VP': {}}, ',91775': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'LCP': {}, 'NP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'IP': {'VP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'LCP': {}, 'NP': {}}}
+{'ADVP': {'RB': {}}}
+{'IP': {'VP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+9	/11	nummod
+/11	事件	clf
+事件	发生	nsubj
+发生	不久	amod
+后	发生	mark
+不久	看到	nmod:tmod
+，	不久	punct
+所以	看到	mark
+看到	ROOT	root
+这样	作品	nmod
+一	部	nummod
+部	作品	clf
+积极	作品	amod
+、	肯定	punct
+甚至是	肯定	cop
+肯定	积极	conj
+的	积极	mark:rel
+作品	看到	obj
+，	看到	punct
+真	太好	advmod
+是	太好	cop
+太好	看到	ccomp
+了	太好	discourse
+。	太好	punct
+----------------------------------------------------------------------
+回想起来，现在看来很可惜。
+
+(ROOT (IP (IP (VP (VRD (VV 回想) (VV 起来)))) (, ，) (VP (IP (VP (NP (NN 现在)) (VP (VV 看来)))) (ADVP (RB 很)) (VP (JJ 可惜))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'VP': {'IP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'VP': {'IP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'VP': {'IP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+回想	看来	advcl
+起来	回想	mark
+，	回想	punct
+现在	看来	nmod:tmod
+看来	ROOT	root
+很	可惜	advmod
+可惜	看来	xcomp
+。	看来	punct
+----------------------------------------------------------------------
+我想知道这些女性的命运如何，她们当时的梦想是否实现了。”
+
+(ROOT (IP (NP (PRP 我)) (VP (MD 想) (IP (VP (VV 知道) (IP (IP (NP (DNP (NP (DP (DT 这些)) (NP (NN 女性))) (DEC 的)) (NP (NN 命运))) (VP (WP 如何))) (, ，) (IP (NP (NP (PRP 她们)) (DNP (NP (NN 当时)) (DEC 的)) (NP (NN 梦想))) (VP (ADVP (MD 是否)) (VP (VV 实现) (UH 了)))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'MD': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'MD': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'MD': {}, 'IP': {}}}
+Dependency Features:
+我	知道	nsubj
+想	知道	aux
+知道	ROOT	root
+这些	女性	det
+女性	命运	nmod
+的	女性	case
+命运	如何	nmod
+如何	知道	obj
+，	实现	punct
+她	梦想	nmod
+当时	梦想	nmod
+的	当时	case
+梦想	实现	nsubj
+是	实现	aux
+实现	知道	parataxis
+了	实现	discourse
+。	实现	punct
+”	实现	punct
+----------------------------------------------------------------------
+2009 年，阿富汗
+
+(ROOT (IP (NP (CD 2009) (NNB 年)) (, ，) (NP (NNP 阿富汗))))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP97865': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP58601': {'NNP': {}}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'NNP': {}}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'NP': {'NNP': {}}}
+Dependency Features:
+2009	年	nummod
+年	阿富汗	nmod:tmod
+，	年	punct
+阿富汗	ROOT	root
+----------------------------------------------------------------------
+本杰明·洛威于 2003 年开始报道伊拉克战争。
+
+(ROOT (IP (NP (NNP 本杰明) (/ ·) (NNP 洛威)) (VP (PP (IN 于) (NP (CD 2003) (NNB 年))) (VP (VV 开始) (VP (VV 报道) (NP (NP (NNP 伊拉克)) (NP (NN 战争)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP43765': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+本杰明	开始	nsubj
+·	洛威	punct
+洛威	本杰明	flat:name
+于	年	case
+2003	年	nummod
+年	开始	obl
+开始	ROOT	root
+报道	开始	xcomp
+伊拉克	战争	nmod
+战争	报道	obj
+。	开始	punct
+----------------------------------------------------------------------
+2007 年，他访问了阿富汗，之后又三次回国。
+
+(ROOT (IP (NP (CD 2007) (NNB 年)) (, ，) (NP (PRP 他)) (VP (VP (VV 访问) (AS 了) (NP (NNP 阿) (NNP 富汗))) (, ，) (VP (ADVP (NN 之后)) (ADVP (RB 又)) (QP (CD 三) (CLP (NNB 次))) (VP (VV 回国)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP55987': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP91086': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP86507': {}}, '.': {}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+2007	年	nummod
+年	回国	nmod:tmod
+，	年	punct
+他	回国	nsubj
+访问	回国	advcl
+了	访问	aux
+阿	富汗	nmod
+富汗	访问	obj
+，	访问	punct
+之后	回国	nmod:tmod
+又	回国	mark
+三	次	nummod
+次	回国	obl
+回国	ROOT	root
+。	回国	punct
+----------------------------------------------------------------------
+“这张照片是在俄罗斯文化中心拍摄的，该中心已经完全被炸毁。
+
+(ROOT (IP (`` “) (IP (NP (DP (DT 这) (CLP (NNB 张))) (NP (NN 照片))) (VP (VC 是) (NP (CP (CP (IP (VP (PP (VV 在) (NP (NNP 俄罗斯) (NN 文化) (NN 中心))) (VP (VV 拍摄)))) (UH 的)))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 中心))) (VP (ADVP (RB 已经)) (ADVP (RB 完全)) (VP (BB 被) (VP (VV 炸毁))))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP14398': {}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP40843': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+“	是	punct
+这	张	det
+张	照片	clf
+照片	是	nsubj
+是	ROOT	root
+在	拍摄	advcl
+俄罗斯	中心	nmod
+文化	中心	nmod
+中心	在	obj
+拍摄	是	xcomp
+的	是	discourse
+，	炸毁	punct
+该	中心	det
+中心	炸毁	nsubj:pass
+已经	炸毁	advmod
+完全	炸毁	advmod
+被	炸毁	aux:pass
+炸毁	是	parataxis
+。	是	punct
+----------------------------------------------------------------------
+这里是该市鸦片和海洛因成瘾者的零点。
+
+(ROOT (IP (NP (PRD 这里)) (VP (VC 是) (NP (NP (NN 该市)) (NP (NN 鸦片) (CC 和) (NNP 海洛)) (DNP (PP (IN 因) (NP (VV 成瘾) (SFN 者))) (DEC 的)) (QP (CD 零) (CLP (NN 点))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+这里	点	nsubj
+是	点	cop
+该市	鸦片	nmod
+鸦片	点	nmod
+和	海洛	cc
+海洛	鸦片	conj
+因	者	case
+成瘾	者	compound
+者	鸦片	conj
+的	点	case
+零	点	nummod
+点	ROOT	root
+。	点	punct
+----------------------------------------------------------------------
+当天早上，几百人在地下室里睡在自己的污物中。
+
+(ROOT (IP (NP (NN 当天) (NN 早上)) (, ，) (NP (QP (CD 几百)) (NP (NN 人))) (VP (PP (VV 在) (NP (NN 地下) (SFN 室))) (VP (VV 里睡) (PP (VV 在) (LCP (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 污物))) (NN 中))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP26696': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'NN8354': {}}, ',': {}, 'NP25211': {'QP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'NN': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'NN': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+当天	早上	nmod
+早上	里睡	nmod:tmod
+，	早上	punct
+几百	人	nummod
+人	里睡	nsubj
+在	里睡	advcl
+地下	室	compound
+室	在	obj
+里睡	ROOT	root
+在	里睡	mark
+自己	污物	det
+的	自己	case
+污物	里睡	obj
+中	污物	acl
+。	里睡	punct
+----------------------------------------------------------------------
+好似在游过地狱。
+
+(ROOT (IP (VP (ADVP (VV 好似)) (ADVP (RB 在)) (VP (VV 游过) (NP (NN 地狱)))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'ADVP': {}, 'ADVP96278': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+好似	ROOT	root
+在	游过	advmod
+游过	好似	xcomp
+地狱	游过	obj
+。	游过	punct
+----------------------------------------------------------------------
+这是我见过的最可怕的痛苦和痛苦之一。
+
+(ROOT (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (NP (PRP 我)) (VP (VV 见过))) (DEC 的))) (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 可怕)))) (DEC 的))) (NP (NP (NN 痛苦)) (CC 和) (NP (DNP (NP (NN 痛苦)) (DEC 之)) (NP (CD 一)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+这	一	nsubj
+是	一	cop
+我	见过	nsubj
+见过	痛苦	acl:relcl
+的	见过	mark:rel
+最	可怕	advmod
+可怕	痛苦	amod
+的	可怕	mark:rel
+痛苦	一	nmod
+和	痛苦	cc
+痛苦	痛苦	conj
+之	痛苦	case
+一	ROOT	root
+。	一	punct
+----------------------------------------------------------------------
+我走过去拍照时，注射针头钉在了我的鞋子上。
+
+(ROOT (IP (LCP (IP (NP (PRP 我)) (VP (VP (VV 走) (NP (NN 过去))) (VP (VV 拍照)))) (IN 时)) (, ，) (VP (VP (NN 注射) (NP (NN 针头))) (VP (VV 钉) (PP (VV 在) (AS 了) (LCP (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 鞋子))) (NN 上))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'VP': {'VP': {}, 'VP54553': {}}, '.': {}}}
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'IP': {}, 'IN': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+我	走	nsubj
+走	ROOT	root
+过去	拍照	nmod:tmod
+拍照	走	xcomp
+时	拍照	mark
+，	钉	punct
+注射	针头	nmod
+针头	钉	nsubj
+钉	走	parataxis
+在	钉	mark
+了	钉	aux
+我	鞋子	det
+的	我	case
+鞋子	钉	obj
+上	鞋子	acl
+。	走	punct
+----------------------------------------------------------------------
+光线从一个迫击炮洞中透过来。
+
+(ROOT (IP (NP (NN 光线)) (VP (PP (IN 从) (LCP (NP (QP (CD 一) (CLP (NNB 个))) (ADJP (PFA 迫)) (NP (NN 击炮) (SFN 洞))) (IN 中))) (VP (VRD (VV 透过) (VV 来)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+光线	透过	nsubj
+从	洞	case
+一	个	nummod
+个	洞	nmod
+迫	洞	case
+击炮	洞	compound
+洞	透过	obl
+中	洞	case
+透过	ROOT	root
+来	透过	xcomp
+。	透过	punct
+----------------------------------------------------------------------
+这个人刚刚注射了海洛因。
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 人))) (VP (ADVP (RB 刚刚)) (VP (VV 注射) (AS 了) (NP (NN 海洛因)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+这	个	det
+个	人	clf
+人	注射	nsubj
+刚刚	注射	advmod
+注射	ROOT	root
+了	注射	aux
+海洛因	注射	obj
+。	注射	punct
+----------------------------------------------------------------------
+他抬起头，在一个极度快乐的时刻，望向了光线。
+
+(ROOT (IP (NP (PRP 他)) (VP (VP (VV 抬) (NP (VV 起头))) (, ，) (VP (PP (IN 在) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 极度)) (VP (JJ 快乐)))) (DEC 的))) (NP (NN 时刻)))) (, ，) (VP (VV 望向) (AS 了) (NP (NN 光线))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP28047': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+他	望向	nsubj
+抬	望向	advcl
+起头	抬	mark
+，	抬	punct
+在	时刻	case
+一	个	nummod
+个	时刻	clf
+极度	快乐	advmod
+快乐	时刻	acl:relcl
+的	快乐	mark:rel
+时刻	望向	obl
+，	时刻	punct
+望向	ROOT	root
+了	望向	aux
+光线	望向	obj
+。	望向	punct
+----------------------------------------------------------------------
+阿富汗是鸦片和海洛因的第一大出口国，这张照片就是一个国家出现问题的一个微观世界。
+
+(ROOT (IP (IP (NP (NNP 阿富汗)) (VP (VC 是) (NP (DNP (NP (NN 鸦片) (CC 和) (NN 海洛因)) (DEC 的)) (ADJP (QP (CD 第一)) (ADJP (PFA 大))) (NP (VV 出口) (SFN 国))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 张))) (NP (NN 照片))) (VP (VC 就是) (NP (CP (CP (IP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 国家))) (VP (VV 出现) (NP (NN 问题)))) (DEC 的))) (QP (CD 一) (CLP (NNB 个))) (ADJP (NN 微观)) (NP (NN 世界))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP30776': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP46878': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+阿富汗	国	nsubj
+是	国	cop
+鸦片	国	nmod
+和	海洛因	cc
+海洛因	鸦片	conj
+的	鸦片	case
+第一	国	nummod
+大	国	case
+出口	国	compound
+国	ROOT	root
+，	世界	punct
+这	张	det
+张	照片	clf
+照片	世界	nsubj
+是	世界	cop
+一	个	nummod
+个	国家	clf
+国家	出现	nsubj
+出现	世界	acl:relcl
+问题	出现	obj
+的	出现	mark:rel
+一	个	nummod
+个	世界	clf
+微观	世界	nmod
+世界	国	parataxis
+。	国	punct
+----------------------------------------------------------------------
+这是我所报道过的最可怕的故事。”
+
+(ROOT (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (NP (PRP 我)) (VP (RB 所) (VP (VV 报道) (AS 过)))) (DEC 的))) (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 可怕)))) (DEC 的))) (NP (NN 故事)))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+这	故事	nsubj
+是	故事	cop
+我	报道	nsubj
+所	报道	mark
+报道	故事	acl:relcl
+过	报道	aux
+的	报道	mark:rel
+最	可怕	advmod
+可怕	故事	amod
+的	可怕	mark:rel
+故事	ROOT	root
+。	故事	punct
+”	故事	punct
+----------------------------------------------------------------------
+科赫萨菲山，2002 年
+
+(ROOT (NP (NP (NNP 科赫萨菲) (SFN 山)) (, ，) (QP (CD 2002) (CLP (NNB 年)))))
+layer 2:
+{'NP': {'NP': {}, ',': {}, 'QP': {}}}
+{'NP': {'NP': {}, ',': {}, 'QP': {}}}
+layer 3:
+{'NP': {'NP': {'NNP': {}, 'SFN': {}}, ',': {}, 'QP': {'CD': {}, 'CLP': {}}}}
+{'NP': {'NP': {'NNP': {}, 'SFN': {}}, ',': {}, 'QP': {'CD': {}, 'CLP': {}}}}
+{'NP': {'NNP': {}, 'SFN': {}}}
+{'QP': {'CD': {}, 'CLP': {}}}
+Dependency Features:
+科赫萨菲	山	compound
+山	年	nsubj
+，	山	punct
+2002	年	nummod
+年	ROOT	root
+----------------------------------------------------------------------
+塞姆斯·穆尔菲的新书《可见的黑暗：阿富汗》记录了塔利班的崛起和美国入侵的影响。
+
+(ROOT (IP (NP (NP (DNP (NP (NNP 塞姆斯) (/ ·) (NNP 穆尔菲)) (DEC 的)) (NP (NN 新书))) (NP (-LRB- 《) (CP (CP (IP (VP (VV 可见))) (DEC 的))) (NP (JJ 黑暗)) (: ：) (NP (NNP 阿富汗)) (-RRB- 》))) (VP (VV 记录) (AS 了) (NP (NP (DNP (NP (NNP 塔利班)) (DEC 的)) (NP (NN 崛起))) (CC 和) (NP (DNP (NP (NP (NNP 美国)) (NP (NN 入侵))) (DEC 的)) (NP (NN 影响))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP22371': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+塞姆斯	新书	nmod
+·	穆尔菲	punct
+穆尔菲	塞姆斯	flat:name
+的	塞姆斯	case
+新书	记录	nsubj
+《	阿富汗	punct
+可见	阿富汗	acl:relcl
+的	可见	mark:rel
+黑暗	阿富汗	amod
+：	黑暗	punct
+阿富汗	新书	appos
+》	阿富汗	punct
+记录	ROOT	root
+了	记录	aux
+塔利班	崛起	nmod
+的	塔利班	case
+崛起	影响	nmod
+和	入侵	cc
+美国	入侵	nmod
+入侵	崛起	conj
+的	崛起	case
+影响	记录	obj
+。	记录	punct
+----------------------------------------------------------------------
+自 1994 年以来，他已经 13 次前往阿富汗。
+
+(ROOT (IP (PP (IN 自) (LCP (NP (CD 1994)) (NNB 年以来))) (, ，) (NP (PRP 他)) (VP (ADVP (RB 已经)) (QP (CD 13) (CLP (NNB 次))) (VP (VV 前往) (NP (NNP 阿富汗)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'QP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'QP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'QP': {}, 'VP': {}}}
+Dependency Features:
+自	年以来	case
+1994	年以来	nummod
+年以来	前往	obl
+，	年以来	punct
+他	前往	nsubj
+已经	前往	advmod
+13	次	nummod
+次	前往	obl
+前往	ROOT	root
+阿富汗	前往	obj
+。	前往	punct
+----------------------------------------------------------------------
+“塔利班垮台一年后，我跟随第82空降师参战。
+
+(ROOT (IP (`` “) (IP (LCP (IP (NP (NNP 塔利班)) (VP (VV 垮台) (QP (CD 一) (CLP (NNB 年))))) (IN 后)) (, ，) (NP (PRP 我)) (VP (VP (VV 跟随) (NP (QP (CD 第82)) (NP (VV 空降) (SFN 师)))) (VP (VV 参战)))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'IP': {}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+“	垮台	punct
+塔利班	垮台	nsubj
+垮台	参战	advcl
+一	年	nummod
+年	垮台	obl
+后	垮台	mark
+，	垮台	punct
+我	参战	nsubj
+跟随	参战	advcl
+第82	师	nummod
+空降	师	compound
+师	跟随	obj
+参战	ROOT	root
+。	参战	punct
+----------------------------------------------------------------------
+2002 年，我们有那么多的希望。
+
+(ROOT (IP (NP (CD 2002) (NNB 年)) (, ，) (NP (PRP 我们)) (VP (VV 有) (NP (CP (CP (IP (VP (ADVP (RB 那么)) (VP (JJ 多)))) (DEC 的))) (NP (NN 希望)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP79277': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP14526': {'PRP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+2002	年	nummod
+年	有	nmod:tmod
+，	年	punct
+我	有	nsubj
+有	ROOT	root
+那么	多	advmod
+多	希望	amod
+的	多	mark:rel
+希望	有	obj
+。	有	punct
+----------------------------------------------------------------------
+那是腐败之前，伊拉克战争之前的时候。
+
+(ROOT (IP (NP (PRD 那)) (VP (VC 是) (NP (LCP (NP (NN 腐败)) (IN 之前)) (, ，) (DNP (LCP (NP (NP (NNP 伊拉克)) (NP (NN 战争))) (IN 之前)) (DEC 的)) (NP (NN 时候)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+那	时候	nsubj
+是	时候	cop
+腐败	时候	nmod
+之前	腐败	case
+，	腐败	punct
+伊拉克	战争	nmod
+战争	时候	nmod
+之前	战争	case
+的	战争	case
+时候	ROOT	root
+。	时候	punct
+----------------------------------------------------------------------
+那时候，一切都有可能发生。
+
+(ROOT (IP (NP (DP (DT 那)) (NP (NN 时候))) (, ，) (NP (DT 一切)) (VP (ADVP (RB 都)) (VP (VP (VV 有) (NP (MD 可能))) (VP (VV 发生)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP18442': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, ',': {}, 'NP97803': {'DT': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, ',': {}, 'NP': {'DT': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'NP': {'DT': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+那	时候	det
+时候	发生	nmod:tmod
+，	时候	punct
+一切	发生	nsubj
+都	发生	mark
+有	发生	advcl
+可能	发生	aux
+发生	ROOT	root
+。	发生	punct
+----------------------------------------------------------------------
+人们正在重建他们的生活。
+
+(ROOT (IP (NP (NN 人们)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 重建) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 生活))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'ADVP50114': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+人	重建	nsubj
+正	重建	advmod
+在	重建	advmod
+重建	ROOT	root
+他	生活	det
+的	他	case
+生活	重建	obj
+。	重建	punct
+----------------------------------------------------------------------
+塔利班又回来了吗?
+
+(ROOT (CP (IP (NP (NNP 塔利班)) (VP (ADVP (RB 又)) (VP (VV 回来) (UH 了)))) (UH 吗) (. ?)))
+layer 2:
+{'CP': {'IP': {}, 'UH': {}, '.': {}}}
+{'CP': {'IP': {}, 'UH': {}, '.': {}}}
+layer 3:
+{'CP': {'IP': {'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'CP': {'IP': {'NP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+塔利班	回来	nsubj
+又	回来	mark
+回来	ROOT	root
+了	回来	discourse
+吗	回来	discourse
+?	回来	punct
+----------------------------------------------------------------------
+我想没有人会想到这个。
+
+(ROOT (IP (NP (PRP 我)) (VP (MD 想) (IP (VP (VV 没有) (IP (NP (NN 人)) (VP (MD 会) (VP (VV 想到) (DP (DT 这) (CLP (NNB 个))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'MD': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'MD': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'MD': {}, 'IP': {}}}
+Dependency Features:
+我	有	nsubj
+想	有	aux
+有	ROOT	root
+人	想到	nsubj
+会	想到	aux
+想到	有	ccomp
+这	个	det
+个	想到	obj
+。	有	punct
+----------------------------------------------------------------------
+那时候还是一个幼稚的时代。
+
+(ROOT (IP (NP (DP (DT 那)) (NP (NN 时候))) (VP (VC 还是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 幼稚))) (DEC 的))) (NP (NN 时代)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+那	时候	det
+时候	时代	nsubj
+是	时代	cop
+一	个	nummod
+个	时代	clf
+幼稚	时代	amod
+的	幼稚	mark:rel
+时代	ROOT	root
+。	时代	punct
+----------------------------------------------------------------------
+这些士兵在直升机后门外搜寻着什么；他们可能在寻找任何东西，既可能是奥萨马，也可能是塔利班，也可能是武器。
+
+(ROOT (IP (IP (NP (DP (DT 这些)) (NP (NN 士兵))) (VP (PP (IN 在) (LCP (LCP (NP (VV 直升) (SFN 机)) (IN 后)) (NP (NN 门外)))) (VP (VV 搜寻) (AS 着) (NP (WP 什么))))) (: ；) (IP (NP (PRP 他们)) (VP (MD 可能) (VP (ADVP (RB 在)) (VP (VV 寻找) (NP (DP (DT 任何)) (NP (NN 东西))))))) (, ，) (IP (VP (VP (IN 既) (VP (MD 可能) (VP (VC 是) (NP (NNP 奥) (NNP 萨马)))) (, ，) (RB 也) (VP (MD 可能) (VP (VC 是) (NP (NNP 塔利班))))) (, ，) (VP (ADVP (RB 也)) (VP (MD 可能) (VP (VC 是) (NP (NN 武器))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP78367': {}, ',': {}, 'IP33180': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP90586': {'NP': {}, 'VP': {}}, ',': {}, 'IP2544': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+这些	士兵	det
+士兵	搜寻	nsubj
+在	门外	case
+直升	机	compound
+机	搜寻	obl
+后	机	case
+门外	搜寻	obl
+搜寻	ROOT	root
+着	搜寻	aux
+什么	搜寻	obj
+；	武器	punct
+他	寻找	nsubj
+可能	寻找	aux
+在	寻找	advmod
+寻找	武器	advcl
+任何	东西	det
+东西	寻找	obj
+，	寻找	punct
+既	萨马	case
+可能	萨马	aux
+是	萨马	cop
+奥	萨马	nmod
+萨马	武器	acl
+，	萨马	punct
+也	武器	mark
+可能	塔利班	aux
+是	塔利班	cop
+塔利班	武器	acl
+，	塔利班	punct
+也	武器	mark
+可能	武器	aux
+是	武器	cop
+武器	搜寻	parataxis
+。	搜寻	punct
+----------------------------------------------------------------------
+他们希望在这片美丽、幽暗、宏大的风景中找到它。
+
+(ROOT (IP (NP (PRP 他们)) (VP (VV 希望) (IP (VP (PP (IN 在) (LCP (NP (DP (DT 这) (CLP (NNB 片))) (CP (CP (IP (VP (JJ 美丽) (EC 、) (JJ 幽暗) (EC 、) (JJ 宏大))) (DEC 的))) (NP (NN 风景))) (IN 中))) (VP (VV 找到) (NP (PRP 它)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+他	希望	nsubj
+希望	ROOT	root
+在	风景	case
+这	片	det
+片	风景	clf
+美丽	风景	amod
+、	幽暗	punct
+幽暗	美丽	conj
+、	宏大	punct
+宏大	美丽	conj
+的	美丽	mark:rel
+风景	找到	obl
+中	风景	case
+找到	希望	xcomp
+它	找到	obj
+。	希望	punct
+----------------------------------------------------------------------
+气氛很愉快，当时绝对没有任何简易爆炸装置的恐惧。
+
+(ROOT (IP (IP (NP (NN 气氛)) (VP (ADVP (RB 很)) (VP (JJ 愉快)))) (, ，) (IP (VP (NP (NN 当时)) (ADVP (RB 绝对)) (VP (VV 没有) (NP (DP (DT 任何)) (DNP (NP (ADJP (JJ 简易)) (NP (NN 爆炸) (NN 装置))) (DEC 的)) (NP (NN 恐惧)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP22989': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP28349': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+气氛	愉快	nsubj
+很	愉快	advmod
+愉快	有	advcl
+，	愉快	punct
+当时	有	nmod:tmod
+绝对	有	advmod
+有	ROOT	root
+任何	装置	det
+简易	装置	amod
+爆炸	装置	nmod
+装置	有	obj
+的	简易	mark:rel
+恐惧	有	obj
+。	有	punct
+----------------------------------------------------------------------
+现在情况很沉闷。
+
+(ROOT (IP (NP (NN 现在) (NN 情况)) (VP (ADVP (RB 很)) (VP (JJ 沉闷))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'NN18554': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+现在	沉闷	nmod:tmod
+情况	沉闷	nsubj
+很	沉闷	advmod
+沉闷	ROOT	root
+。	沉闷	punct
+----------------------------------------------------------------------
+我一直回去的原因是阿富汗人真的太棒了。
+
+(ROOT (IP (NP (CP (CP (IP (NP (PRP 我)) (VP (ADVP (RB 一直)) (VP (VV 回去)))) (DEC 的))) (NP (NN 原因))) (VP (VC 是) (IP (NP (NP (NNP 阿富汗)) (NP (SFN 人))) (VP (ADVP (RB 真的)) (VP (JJ 太棒) (UH 了))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'IP': {}}}
+Dependency Features:
+我	回去	nsubj
+一直	回去	advmod
+回去	原因	acl:relcl
+的	回去	mark:rel
+原因	是	nsubj
+是	ROOT	root
+阿富汗	人	compound
+人	太棒	nsubj
+真的	太棒	advmod
+太棒	是	ccomp
+了	是	discourse
+。	是	punct
+----------------------------------------------------------------------
+他们很有韧性，生活得如此之难，他们才能活到现在。”
+
+(ROOT (IP (IP (NP (PRP 他们)) (VP (VP (ADVP (RB 很)) (VP (VV 有) (NP (JJ 韧) (SFN 性)))) (, ，) (VP (VV 生活) (DEV 得) (VP (DVP (ADVP (VV 如此)) (DEV 之)) (VP (JJ 难)))))) (, ，) (IP (NP (PRP 他们)) (VP (MD 才能) (VP (VV 活到) (NP (NN 现在))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP52070': {}, '.': {}, "''": {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP66215': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+他	生活	nsubj
+很	有	advmod
+有	生活	advcl
+韧	性	compound
+性	有	obj
+，	有	punct
+生活	ROOT	root
+得	生活	compound:ext
+如此	难	advcl
+之	如此	mark:adv
+难	生活	xcomp
+，	活到	punct
+他	活到	nsubj
+才能	活到	aux
+活到	生活	parataxis
+现在	活到	obj
+。	活到	punct
+”	活到	punct
+----------------------------------------------------------------------
+《阿拉赛峡谷》，2009 年
+
+(ROOT (NP (NP (-LRB- 《) (NP (NNP 阿拉) (SFN 赛) (NN 峡谷)) (-RRB- 》)) (, ，) (NP (CD 2009) (NNB 年))))
+layer 2:
+{'NP': {'NP': {}, ',': {}, 'NP84325': {}}}
+{'NP': {'NP': {}, ',': {}, 'NP': {}}}
+layer 3:
+{'NP': {'NP': {'-LRB-': {}, 'NP': {}, '-RRB-': {}}, ',': {}, 'NP32712': {'CD': {}, 'NNB': {}}}}
+{'NP': {'NP': {'-LRB-': {}, 'NP': {}, '-RRB-': {}}, ',': {}, 'NP': {'CD': {}, 'NNB': {}}}}
+{'NP': {'-LRB-': {}, 'NP': {}, '-RRB-': {}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+Dependency Features:
+《	峡谷	punct
+阿拉	赛	compound
+赛	峡谷	nmod
+峡谷	年	nsubj
+》	峡谷	punct
+，	峡谷	punct
+2009	年	nummod
+年	ROOT	root
+----------------------------------------------------------------------
+埃里克·布维 (Eric Bouvet) 从 1986 年开始拍摄阿富汗，记录塔利班、基地组织、各种外国军队统治下的生活。
+
+(ROOT (IP (NP (NNP 埃里克) (/ ·) (NNP 布维) (FW -LRB-Eric) (FW Bouvet-RRB-)) (VP (PP (IN 从) (LCP (NP (CD 1986)) (NNB 年开始))) (VP (VP (VV 拍摄) (NP (NNP 阿富汗))) (, ，) (VP (VV 记录) (NP (DNP (LCP (NP (NP (NP (NNP 塔利班)) (EC 、) (NP (NN 基地) (NN 组织)) (EC 、) (NP (ADJP (DT 各种)) (NP (NN 外国) (NN 军队)))) (NP (VV 统治))) (IN 下)) (DEC 的)) (NP (NN 生活)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP32877': {}, 'FW': {}, 'FW28647': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}, 'FW': {}, 'FW': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}, 'FW': {}, 'FW': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+埃里克	(Eric	nmod
+·	布维	punct
+布维	埃里克	flat:name
+(Eric	记录	nsubj
+Bouvet)	(Eric	flat:foreign
+从	年开始	case
+1986	年开始	nummod
+年开始	拍摄	obl
+拍摄	记录	advcl
+阿富汗	拍摄	obj
+，	拍摄	punct
+记录	ROOT	root
+塔利班	生活	nmod
+、	组织	punct
+基地	组织	nmod
+组织	塔利班	conj
+、	统治	punct
+各种	军队	det
+外国	军队	nmod
+军队	统治	nsubj
+统治	塔利班	conj
+下	统治	mark
+的	塔利班	case
+生活	记录	obj
+。	记录	punct
+----------------------------------------------------------------------
+他已经来过这个国家十几次了。
+
+(ROOT (IP (NP (PRP 他)) (VP (ADVP (RB 已经)) (VP (VV 来) (AS 过) (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 国家))) (QP (CD 十几) (CLP (NNB 次))))) (UH 了) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, 'UH': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, 'UH': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, 'UH': {}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+他	来	nsubj
+已经	来	advmod
+来	ROOT	root
+过	来	aux
+这	个	det
+个	国家	clf
+国家	来	obj
+十几	次	nummod
+次	来	obl
+了	来	discourse
+。	来	punct
+----------------------------------------------------------------------
+“我从事这项工作已经 28 年了，我的客户遍布世界各地。
+
+(ROOT (IP (`` “) (IP (IP (NP (PRP 我)) (VP (VV 从事) (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 工作))))) (VP (ADVP (RB 已经)) (QP (CD 28)) (VP (NNB 年了)))) (, ，) (IP (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 客户))) (VP (VV 遍布) (NP (NN 世界) (NN 各地)))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP15838': {}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'IP': {'IP': {}, 'VP': {}}, ',': {}, 'IP53938': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {'IP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+“	遍布	punct
+我	从事	nsubj
+从事	年了	amod
+这	项	det
+项	工作	clf
+工作	从事	obj
+已经	年了	advmod
+28	年了	nummod
+年了	遍布	nmod:tmod
+，	年了	punct
+我	客户	det
+的	我	case
+客户	遍布	nsubj
+遍布	ROOT	root
+世界	各地	nmod
+各地	遍布	obj
+。	遍布	punct
+----------------------------------------------------------------------
+我从来没有见过这样的事。
+
+(ROOT (IP (NP (PRP 我)) (VP (ADVP (RB 从来)) (VP (VV 没有) (VP (VV 见过) (NP (DNP (NP (PRD 这样)) (DEC 的)) (NP (NN 事)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+我	有	nsubj
+从来	有	advmod
+有	ROOT	root
+见过	有	xcomp
+这样	事	det
+的	这样	case
+事	见过	obj
+。	有	punct
+----------------------------------------------------------------------
+这被称为沙盘演习，军队通过移动塑料人物来训练士兵。
+
+(ROOT (IP (IP (NP (PRD 这)) (VP (BB 被) (VP (VCP (VV 称) (VC 为)) (NP (NN 沙盘) (NN 演习))))) (, ，) (IP (NP (NN 军队)) (VP (PP (IN 通过) (IP (VP (VV 移动) (NP (NN 塑料) (NN 人物))))) (VP (RB 来) (VP (VV 训练) (NP (NN 士兵)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP60526': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP49622': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+这	称	nsubj:pass
+被	称	aux:pass
+称	ROOT	root
+为	称	mark
+沙盘	演习	nmod
+演习	称	obj
+，	训练	punct
+军队	训练	nsubj
+通过	移动	case
+移动	训练	xcomp
+塑料	人物	nmod
+人物	移动	obj
+来	训练	mark
+训练	称	parataxis
+士兵	训练	obj
+。	称	punct
+----------------------------------------------------------------------
+我觉得很有趣。
+
+(ROOT (IP (NP (PRP 我)) (VP (VV 觉得) (IP (VP (ADVP (RB 很)) (VP (JJ 有趣))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+我	觉得	nsubj
+觉得	ROOT	root
+很	有趣	advmod
+有趣	觉得	xcomp
+。	觉得	punct
+----------------------------------------------------------------------
+在这里，一名法国士兵正在教阿富汗人如何退让。
+
+(ROOT (IP (PP (IN 在) (NP (PRD 这里))) (, ，) (NP (QP (CD 一) (CLP (NNB 名))) (NP (NNP 法国)) (NP (NN 士兵))) (VP (ADVP (RB 正)) (PP (VV 在) (NP (NP (NNP 教阿) (NNP 富汗)) (NP (SFN 人)))) (ADVP (RB 如何)) (VP (VV 退让))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}, 'NP56946': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'ADVP74241': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'QP': {}, 'NP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+在	这里	case
+这里	退让	obl
+，	这里	punct
+一	名	nummod
+名	士兵	clf
+法国	士兵	nmod
+士兵	退让	nsubj
+正	退让	advmod
+在	退让	advcl
+教阿	人	nmod
+富汗	人	compound
+人	在	obj
+如何	退让	advmod
+退让	ROOT	root
+。	退让	punct
+----------------------------------------------------------------------
+阿富汗人勇敢。
+
+(ROOT (IP (NP (NP (NNP 阿富汗)) (NP (SFN 人))) (VP (JJ 勇敢)) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP44456': {}}, 'VP': {'JJ': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'JJ': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'JJ': {}}}
+Dependency Features:
+阿富汗	人	compound
+人	勇敢	nsubj
+勇敢	ROOT	root
+。	勇敢	punct
+----------------------------------------------------------------------
+他们可以跑步射击。
+
+(ROOT (IP (NP (PRP 他们)) (VP (MD 可以) (VP (VSB (VV 跑步) (VV 射击)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+他	射击	nsubj
+可以	射击	aux
+跑步	射击	advcl
+射击	ROOT	root
+。	射击	punct
+----------------------------------------------------------------------
+但他们不知道如何组织，如何站出来，如何捍卫，如何活着回来。
+
+(ROOT (IP (ADVP (RB 但)) (NP (PRP 他们)) (VP (ADVP (RB 不)) (VP (VV 知道) (IP (VP (VP (ADVP (RB 如何)) (VP (VV 组织))) (, ，) (VP (ADVP (RB 如何)) (VP (VRD (VV 站) (VV 出来)))) (, ，) (VP (ADVP (RB 如何)) (VP (VV 捍卫))) (, ，) (VP (ADVP (RB 如何)) (VP (VV 活) (AS 着) (VV 回来))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+但	知道	mark
+他	知道	nsubj
+不	知道	advmod
+知道	ROOT	root
+如何	组织	advmod
+组织	知道	xcomp
+，	站	punct
+如何	站	advmod
+站	活	advcl
+出来	站	mark
+，	站	punct
+如何	捍卫	advmod
+捍卫	活	advcl
+，	捍卫	punct
+如何	活	advmod
+活	知道	ccomp
+着	活	aux
+回来	活	xcomp
+。	活	punct
+----------------------------------------------------------------------
+他们不擅长退让。
+
+(ROOT (IP (NP (PRP 他们)) (VP (ADVP (RB 不)) (VP (VV 擅长) (NP (VV 退让)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+他	擅长	nsubj
+不	擅长	advmod
+擅长	ROOT	root
+退让	擅长	xcomp
+。	擅长	punct
+----------------------------------------------------------------------
+他们拿着步枪，指向任何方向，甚至是他们头顶上方。
+
+(ROOT (IP (IP (NP (PRP 他们)) (VP (VP (VV 拿) (AS 着) (NP (NN 步枪))) (, ，) (VP (VV 指) (PP (IN 向) (NP (DP (DT 任何)) (NP (NN 方向))))))) (, ，) (IP (VP (VC 甚至是) (NP (NP (PRP 他们)) (NP (NN 头顶) (NN 上方))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP86347': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP39264': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+他	指	nsubj
+拿	指	advcl
+着	拿	aux
+步枪	拿	obj
+，	拿	punct
+指	ROOT	root
+向	方向	case
+任何	方向	det
+方向	指	obl
+，	甚至是	punct
+甚至是	指	parataxis
+他	上方	nmod
+头顶	上方	nmod
+上方	甚至是	obj
+。	指	punct
+----------------------------------------------------------------------
+他们走的像在散步的长廊上。
+
+(ROOT (IP (NP (PRP 他们)) (VP (VV 走) (DEV 的) (PP (VV 像) (PP (VV 在) (LCP (NP (DNP (NP (VV 散步)) (DEC 的)) (NP (NN 长廊))) (NN 上))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'DEV': {}, 'PP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'DEV': {}, 'PP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'DEV': {}, 'PP': {}}}
+Dependency Features:
+他	像	nsubj
+走	像	advcl
+的	走	mark:adv
+像	ROOT	root
+在	像	mark
+散步	长廊	acl:relcl
+的	散步	mark:rel
+长廊	像	obj
+上	长廊	acl
+。	像	punct
+----------------------------------------------------------------------
+我小时候玩过这些塑料兵。
+
+(ROOT (IP (NP (PRP 我)) (VP (NP (ADJP (PFA 小)) (NP (NN 时候))) (VP (VV 玩) (AS 过) (NP (DP (DT 这些)) (NP (NN 塑料) (SFN 兵))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+我	玩	nsubj
+小	时候	case
+时候	玩	nmod:tmod
+玩	ROOT	root
+过	玩	aux
+这些	兵	det
+塑料	兵	compound
+兵	玩	obj
+。	玩	punct
+----------------------------------------------------------------------
+看到他们突然间在战争中，真是令人难以置信。
+
+(ROOT (IP (VP (VV 看到) (IP (NP (PRP 他们)) (VP (LCP (ADVP (RB 突然)) (IN 间)) (PP (IN 在) (LCP (NP (NN 战争)) (IN 中))) (, ，) (ADVP (RB 真)) (VP (VC 是) (VP (VV 令) (NP (NN 人)) (IP (VP (ADVP (JJ 难)) (VP (RB 以) (VP (VV 置信)))))))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+看到	ROOT	root
+他	是	nsubj
+突然	是	advmod
+间	突然	case
+在	战争	case
+战争	是	obl
+中	战争	case
+，	战争	punct
+真	是	advmod
+是	看到	ccomp
+令	是	xcomp
+人	置信	nsubj
+难	置信	advmod
+以	置信	mark
+置信	令	ccomp
+。	是	punct
+----------------------------------------------------------------------
+敌人四处可见，这是真实的生活，而不是游戏。”
+
+(ROOT (IP (IP (NP (NN 敌人)) (VP (NP (QP (CD 四)) (NP (NN 处))) (VP (MD 可) (VP (VV 见))))) (, ，) (IP (NP (PRD 这)) (VP (VP (VC 是) (NP (CP (CP (IP (VP (JJ 真实))) (DEC 的))) (NP (NN 生活)))) (, ，) (RB 而) (VP (VC 不是) (NP (NN 游戏))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP61372': {}, '.': {}, "''": {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP26565': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+敌人	见	nsubj
+四	处	nummod
+处	见	nsubj
+可	见	aux
+见	ROOT	root
+，	生活	punct
+这	生活	nsubj
+是	生活	cop
+真实	生活	amod
+的	真实	mark:rel
+生活	见	ccomp
+，	游戏	punct
+而	游戏	mark
+是	游戏	cop
+游戏	见	parataxis
+。	游戏	punct
+”	游戏	punct
+----------------------------------------------------------------------
+2007 年科伦加尔谷
+
+(ROOT (NP (NP (CD 2007)) (NP (NNP 年科伦加尔) (SFN 谷))))
+layer 2:
+{'NP': {'NP': {}, 'NP24436': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+layer 3:
+{'NP': {'NP': {'CD': {}}, 'NP16273': {'NNP': {}, 'SFN': {}}}}
+{'NP': {'NP': {'CD': {}}, 'NP': {'NNP': {}, 'SFN': {}}}}
+{'NP': {'CD': {}}}
+{'NP': {'NNP': {}, 'SFN': {}}}
+Dependency Features:
+2007	谷	nummod
+年科伦加尔	谷	compound
+谷	ROOT	root
+----------------------------------------------------------------------
+巴拉兹·加迪专注于捕捉那些陷入人道主义危机的人们的日常生活。
+
+(ROOT (IP (NP (NNP 巴拉兹) (/ ·) (NNP 加迪)) (VP (VV 专注) (PP (VV 于) (IP (VP (VV 捕捉) (NP (DNP (NP (DP (DT 那些)) (CP (CP (IP (VP (VV 陷入) (NP (NN 人道) (NN 主义) (NN 危机)))) (DEC 的))) (NP (NN 人们))) (DEC 的)) (ADJP (JJ 日常)) (NP (NN 生活))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP92402': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
+{'VP': {'VV': {}, 'PP': {}}}
+Dependency Features:
+巴拉兹	专注	nsubj
+·	加迪	punct
+加迪	巴拉兹	flat:name
+专注	ROOT	root
+于	专注	mark
+捕捉	专注	xcomp
+那些	人	det
+陷入	人	acl:relcl
+人道	危机	nmod
+主义	危机	nmod
+危机	陷入	obj
+的	陷入	mark:rel
+人	生活	nmod
+的	陷入	mark:rel
+日常	生活	amod
+生活	捕捉	obj
+。	专注	punct
+----------------------------------------------------------------------
+他于 2001 年首次访问阿富汗，此后回国十多次。
+
+(ROOT (IP (NP (PRP 他)) (VP (VP (PP (IN 于) (LCP (NP (CD 2001)) (NNB 年首次))) (VP (VV 访问) (NP (NNP 阿富汗)))) (, ，) (VP (ADVP (NN 此后)) (VP (VV 回国) (QP (CD 十多) (CLP (NNB 次)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP84241': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+他	回国	nsubj
+于	年首次	case
+2001	年首次	nummod
+年首次	访问	obl
+访问	回国	advcl
+阿富汗	访问	obj
+，	访问	punct
+此后	回国	nmod:tmod
+回国	ROOT	root
+十多	次	nummod
+次	回国	obl
+。	回国	punct
+----------------------------------------------------------------------
+“战争是非常残忍的。
+
+(ROOT (IP (`` “) (NP (NN 战争)) (VP (VC 是) (NP (CP (CP (IP (VP (ADVP (RB 非常)) (VP (JJ 残忍)))) (UH 的))))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'NN': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {'NN': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+“	残忍	punct
+战争	残忍	nsubj
+是	残忍	cop
+非常	残忍	advmod
+残忍	ROOT	root
+的	残忍	discourse
+。	残忍	punct
+----------------------------------------------------------------------
+作为摄影师，我的工作就是解释发生了什么，并引发感情。
+
+(ROOT (IP (PP (VV 作为) (NP (VV 摄影) (SFN 师))) (, ，) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 工作))) (VP (VC 就是) (VP (VP (VV 解释) (IP (VP (VV 发生) (AS 了) (NP (WP 什么))))) (, ，) (RB 并) (VP (VV 引发) (NP (NN 感情))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'VP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'NP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'VP': {}}}
+Dependency Features:
+作为	是	advcl
+摄影	师	compound
+师	作为	obj
+，	作为	punct
+我	工作	det
+的	我	case
+工作	是	nsubj
+是	ROOT	root
+解释	是	xcomp
+发生	解释	xcomp
+了	发生	aux
+什么	发生	obj
+，	解释	punct
+并	引发	mark
+引发	是	xcomp
+感情	引发	obj
+。	引发	punct
+----------------------------------------------------------------------
+当时我在科伦加尔谷地跟随一个排，当美军士兵在一栋房子里截获了一个无线电对话，表明敌人在那里活动。
+
+(ROOT (IP (IP (NP (NN 当时)) (NP (PRP 我)) (VP (PP (VV 在) (NP (NP (NNP 科伦加尔谷)) (SFN 地))) (VP (VV 跟随) (NP (QP (CD 一) (CLP (NNB 个))) (NP (VV 排)))))) (, ，) (PP (IN 当) (IP (NP (NP (NP (NNP 美)) (NP (SFN 军))) (NP (NN 士兵))) (VP (VP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 栋))) (NP (NN 房子))) (NN 里))) (VP (VV 截获) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (NP (ADJP (JJ 无线)) (NP (SFN 电))) (NP (NN 对话))))) (, ，) (VP (VV 表明) (IP (NP (NN 敌人)) (VP (PP (VV 在) (NP (PRD 那里))) (VP (VV 活动)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'NP11230': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+Dependency Features:
+当时	跟随	nmod:tmod
+我	跟随	nsubj
+在	跟随	advcl
+科伦加尔谷	地	compound
+地	在	obj
+跟随	ROOT	root
+一	个	nummod
+个	排	obl
+排	跟随	xcomp
+，	排	punct
+当	房子	case
+美	军	compound
+军	士兵	nmod
+士兵	截获	nsubj
+在	房子	case
+一	栋	nummod
+栋	房子	clf
+房子	截获	obl
+里	房子	acl
+截获	表明	advcl
+了	截获	aux
+一	个	nummod
+个	对话	clf
+无线	电	compound
+电	对话	nmod
+对话	截获	obj
+，	截获	punct
+表明	跟随	parataxis
+敌人	活动	nsubj
+在	活动	advcl
+那里	在	obj
+活动	表明	ccomp
+。	表明	punct
+----------------------------------------------------------------------
+他们决定用火箭袭击它。
+
+(ROOT (IP (NP (PRP 他们)) (VP (VV 决定) (IP (VP (PP (VV 用) (NP (NN 火箭))) (VP (VV 袭击) (NP (PRP 它)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+他	决定	nsubj
+决定	ROOT	root
+用	袭击	advcl
+火箭	用	obj
+袭击	决定	xcomp
+它	袭击	obj
+。	决定	punct
+----------------------------------------------------------------------
+这里很难说出谁是被杀的，因为通常情况下，另一方会带走他们的伤员和死者。
+
+(ROOT (IP (IP (NP (PRD 这里)) (VP (ADVP (RB 很难)) (VP (VV 说出) (IP (NP (WP 谁)) (VP (VC 是) (NP (CP (CP (IP (VP (BB 被) (VP (VV 杀)))) (UH 的))))))))) (, ，) (PP (IN 因为) (IP (LCP (NP (ADJP (JJ 通常)) (NP (NN 情况))) (IN 下)) (, ，) (DP (DT 另) (QP (CD 一) (CLP (NN 方)))) (VP (MD 会) (VP (VV 带走) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 伤员) (CC 和) (NN 死者))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+Dependency Features:
+这里	说出	nsubj
+很难	说出	advmod
+说出	ROOT	root
+谁	是	nsubj
+是	说出	ccomp
+被	杀	aux:pass
+杀	是	xcomp
+的	说出	discourse
+，	带走	punct
+因为	情况	case
+通常	情况	amod
+情况	带走	obl
+下	情况	case
+，	情况	punct
+另	方	det
+一	方	nummod
+方	带走	nsubj
+会	带走	aux
+带走	说出	parataxis
+他	伤员	det
+的	他	mark:rel
+伤员	带走	obj
+和	死者	cc
+死者	伤员	conj
+。	说出	punct
+----------------------------------------------------------------------
+村民们说有 5 人死亡，11 人受伤，都是妇女和儿童。
+
+(ROOT (IP (NP (NN 村民) (SFN 们)) (VP (VV 说) (IP (VP (VV 有) (IP (IP (NP (QP (CD 5)) (NP (NN 人))) (VP (VV 死亡))) (, ，) (IP (NP (QP (CD 11)) (NP (NN 人))) (VP (VV 受伤))) (, ，) (IP (VP (VC 都是) (NP (NN 妇女) (CC 和) (NN 儿童)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'SFN': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'SFN': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'SFN': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+村民	们	compound
+们	说	nsubj
+说	ROOT	root
+有	说	xcomp
+5	人	nummod
+人	死亡	nsubj
+死亡	妇女	advcl
+，	死亡	punct
+11	人	nummod
+人	受伤	nsubj
+受伤	妇女	acl
+，	受伤	punct
+是	妇女	cop
+妇女	有	ccomp
+和	儿童	cc
+儿童	妇女	conj
+。	说	punct
+----------------------------------------------------------------------
+他们把所有的人都放在一个房间里。
+
+(ROOT (IP (NP (PRP 他们)) (VP (BB 把) (IP (NP (DNP (DP (DT 所有)) (DEC 的)) (NP (NN 人))) (VP (ADVP (RB 都)) (VP (VV 放) (PP (VV 在) (LCP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 房间))) (NN 里))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'BB': {}, 'IP': {}}}
+Dependency Features:
+他	放	nsubj
+把	人	case
+所有	人	det
+的	所有	case
+人	放	obl:patient
+都	放	mark
+放	ROOT	root
+在	放	mark
+一	个	nummod
+个	房间	clf
+房间	放	obj
+里	房间	acl
+。	放	punct
+----------------------------------------------------------------------
+第二天早上美国人到达后，村民们请求允许他们埋葬死者。
+
+(ROOT (IP (LCP (IP (NP (QP (CD 第二) (CLP (NNB 天))) (NP (NN 早上))) (NP (NP (NNP 美国)) (NP (SFN 人))) (VP (VV 到达))) (IN 后)) (, ，) (NP (NN 村民) (SFN 们)) (VP (VV 请求) (IP (VP (VV 允许) (NP (PRP 他们)) (IP (VP (VV 埋葬) (NP (NN 死者))))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NN': {}, 'SFN': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NN': {}, 'SFN': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'LCP': {'IP': {}, 'IN': {}}}
+{'NP': {'NN': {}, 'SFN': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+第二	天	nummod
+天	到达	nmod:tmod
+早上	到达	nmod:tmod
+美国	人	compound
+人	到达	nsubj
+到达	ROOT	root
+后	到达	mark
+，	请求	punct
+村民	们	compound
+们	请求	nsubj
+请求	到达	parataxis
+允许	请求	xcomp
+他	埋葬	nsubj
+埋葬	允许	ccomp
+死者	埋葬	obj
+。	到达	punct
+----------------------------------------------------------------------
+然后，他们把受伤的孩子一个个抬出来，交给美国医生治疗。
+
+(ROOT (IP (ADVP (RB 然后)) (, ，) (NP (PRP 他们)) (VP (BB 把) (IP (NP (CP (CP (IP (VP (VV 受伤))) (DEC 的))) (NP (NN 孩子))) (VP (VP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NNB 个))) (VP (VRD (VV 抬) (VV 出来)))) (, ，) (VP (VV 交给) (NP (NP (NNP 美国)) (NP (NN 医生))) (IP (VP (VV 治疗))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'BB': {}, 'IP': {}}}
+Dependency Features:
+然后	交给	advmod
+，	然后	punct
+他	交给	nsubj
+把	孩子	case
+受伤	孩子	acl:relcl
+的	受伤	mark:rel
+孩子	抬	obl:patient
+一	个	nummod
+个	个	clf
+个	抬	obl:patient
+抬	交给	advcl
+出来	抬	mark
+，	抬	punct
+交给	ROOT	root
+美国	医生	nmod
+医生	治疗	nsubj
+治疗	交给	ccomp
+。	交给	punct
+----------------------------------------------------------------------
+这个男孩被炮弹碎片射伤，幸存了下来，但是伤势很严重。
+
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 男孩))) (VP (VP (BB 被) (CP (IP (NP (NN 炮弹) (NN 碎片)) (VP (VV 射伤))))) (, ，) (VP (VV 幸存) (AS 了) (VV 下来)))) (, ，) (IP (ADVP (RB 但是)) (NP (NN 伤势)) (VP (ADVP (RB 很)) (VP (JJ 严重)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP68460': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP96396': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+这	个	det
+个	男孩	clf
+男孩	幸存	nsubj
+被	射伤	aux:pass
+炮弹	碎片	nmod
+碎片	射伤	nsubj
+射伤	幸存	advcl
+，	射伤	punct
+幸存	ROOT	root
+了	幸存	aux
+下来	幸存	mark
+，	严重	punct
+但是	严重	mark
+伤势	严重	nsubj
+很	严重	advmod
+严重	幸存	parataxis
+。	幸存	punct
+----------------------------------------------------------------------
+这张照片没有任何语言障碍，让你感受到了战争的恐怖，它对阿富汗人带来了什么。”
+
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 张))) (NP (NN 照片))) (VP (VP (VV 没有) (NP (DP (DT 任何)) (NP (NN 语言) (NN 障碍)))) (, ，) (VP (VV 让) (NP (PRP 你)) (IP (VP (VRD (VV 感受) (VV 到)) (AS 了) (NP (DNP (NP (NN 战争)) (DEC 的)) (NP (NN 恐怖)))))))) (, ，) (IP (NP (PRP 它)) (VP (PP (IN 对) (NP (NP (NNP 阿富汗)) (NP (SFN 人)))) (VP (VV 带来) (AS 了) (NP (WP 什么))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP9143': {}, '.': {}, "''": {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP99475': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+这	张	det
+张	照片	clf
+照片	让	nsubj
+有	让	advcl
+任何	障碍	det
+语言	障碍	nmod
+障碍	有	obj
+，	有	punct
+让	ROOT	root
+你	感受	nsubj
+感受	让	ccomp
+到	感受	mark
+了	感受	aux
+战争	恐怖	nmod
+的	战争	mark:rel
+恐怖	感受	obj
+，	带来	punct
+它	带来	nsubj
+对	人	case
+阿富汗	人	compound
+人	带来	obl
+带来	让	ccomp
+了	带来	aux
+什么	带来	obj
+。	带来	punct
+”	带来	punct
+----------------------------------------------------------------------
+2008 年，阿富汗
+
+(ROOT (IP (NP (CD 2008) (NNB 年)) (, ，) (NP (NNP 阿富汗))))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP4703': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP67838': {'NNP': {}}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'NNP': {}}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'NP': {'NNP': {}}}
+Dependency Features:
+2008	年	nummod
+年	阿富汗	nmod:tmod
+，	年	punct
+阿富汗	ROOT	root
+----------------------------------------------------------------------
+自 2005 年以来，唐纳德·韦伯一直在记录苏联解体后的国家的日常生活。
+
+(ROOT (IP (PP (IN 自) (LCP (NP (CD 2005)) (NNB 年以来))) (, ，) (NP (NNP 唐纳德) (/ ·) (NNP 韦伯)) (VP (ADVP (RB 一直)) (ADVP (RB 在)) (VP (VV 记录) (NP (DNP (NP (DNP (LCP (IP (NP (NNP 苏联)) (VP (VV 解体))) (IN 后)) (DEC 的)) (NP (NN 国家))) (DEC 的)) (ADJP (JJ 日常)) (NP (NN 生活))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}, '/': {}, 'NNP17628': {}}, 'VP': {'ADVP': {}, 'ADVP33429': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+自	年以来	case
+2005	年以来	nummod
+年以来	记录	obl
+，	年以来	punct
+唐纳德	记录	nsubj
+·	韦伯	punct
+韦伯	唐纳德	flat:name
+一直	记录	advmod
+在	记录	advmod
+记录	ROOT	root
+苏联	解体	nsubj
+解体	国家	acl:relcl
+后	解体	mark
+的	解体	mark:rel
+国家	生活	nmod
+的	国家	case
+日常	生活	amod
+生活	记录	obj
+。	记录	punct
+----------------------------------------------------------------------
+他于 2008 年一次访问了阿富汗。
+
+(ROOT (IP (NP (PRP 他)) (VP (PP (IN 于) (NP (CD 2008))) (QP (NNB 年一) (CLP (NNB 次))) (VP (VV 访问) (AS 了) (NP (NNP 阿富汗)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'PP': {}, 'QP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'PP': {}, 'QP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'PP': {}, 'QP': {}, 'VP': {}}}
+Dependency Features:
+他	访问	nsubj
+于	次	case
+2008	年一	nummod
+年一	次	nummod
+次	访问	obl
+访问	ROOT	root
+了	访问	aux
+阿富汗	访问	obj
+。	访问	punct
+----------------------------------------------------------------------
+“我想要展现一个不同于我习以为常的阿富汗图片中所看到的东西——一个积极的东西。
+
+(ROOT (IP (`` “) (NP (PRP 我)) (VP (MD 想) (IP (VP (MD 要) (VP (VV 展现) (NP (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VP (JJ 不同) (PP (VV 于) (LCP (NP (CP (CP (IP (NP (PRP 我)) (VP (VV 习) (VV 以为) (JJ 常))) (DEC 的))) (NP (NNP 阿富汗)) (NP (NN 图片))) (IN 中)))) (VP (RB 所) (VP (VV 看到))))) (DEC 的))) (NP (NN 东西))) (HYPH —) (HYPH —) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 积极))) (DEC 的))) (NP (NN 东西)))))))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'IP': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'MD': {}, 'IP': {}}}
+Dependency Features:
+“	展现	punct
+我	想	nsubj
+想	ROOT	root
+要	展现	aux
+展现	想	xcomp
+一	个	nummod
+个	东西	clf
+不同	东西	amod
+于	不同	mark
+我	习	nsubj
+习	图片	acl:relcl
+为	习	mark
+常	习	xcomp
+的	习	mark:rel
+阿富汗	图片	nmod
+图片	看到	obl
+中	图片	case
+所	看到	mark
+看到	东西	acl:relcl
+的	看到	mark:rel
+东西	展现	obj
+—	东西	punct
+—	东西	punct
+一	个	nummod
+个	东西	clf
+积极	东西	amod
+的	积极	mark:rel
+东西	东西	appos
+。	想	punct
+----------------------------------------------------------------------
+当我在这间房间里时，我很震惊，因为我是个男人，我以为进入阿富汗妇女家里是不可能的。
+
+(ROOT (IP (IP (PP (IN 当) (LCP (IP (NP (PRP 我)) (VP (PP (VV 在) (LCP (NP (DP (DT 这间)) (NP (NN 房间))) (IN 里))))) (IN 时))) (, ，) (NP (PRP 我)) (VP (ADVP (RB 很)) (VP (JJ 震惊)))) (, ，) (IP (PP (IN 因为) (IP (DP (DT 我是) (NP (QP (CLP (NNB 个))) (NP (NN 男人)))))) (, ，) (NP (PRP 我)) (VP (VV 以为) (IP (IP (VP (VV 进入) (NP (NP (NP (NNP 阿富汗)) (NP (NN 妇女))) (NN 家里)))) (VP (VC 是) (NP (CP (CP (IP (VP (ADVP (RB 不)) (VP (MD 可能)))) (UH 的)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP89616': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP8674': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+当	在	case
+我	在	nsubj
+在	震惊	ccomp
+这间	房间	det
+房间	在	obj
+里	在	mark
+时	在	mark
+，	在	punct
+我	震惊	nsubj
+很	震惊	advmod
+震惊	ROOT	root
+，	为	punct
+因为	为	case
+我是	个	det
+个	男人	clf
+男人	为	obl
+，	男人	punct
+我	为	nsubj
+为	是	advcl
+进入	为	xcomp
+阿富汗	家里	nmod
+妇女	家里	nmod
+家里	进入	obj
+是	震惊	parataxis
+不	可能	advmod
+可能	是	xcomp
+的	是	discourse
+。	震惊	punct
+----------------------------------------------------------------------
+我很惊讶他们对我的温暖和款待。
+
+(ROOT (IP (NP (PRP 我)) (VP (ADVP (RB 很)) (VP (JJ 惊讶) (NP (NP (PRP 他们)) (DNP (PP (IN 对) (NP (PRP 我))) (DEC 的)) (NP (NN 温暖) (CC 和) (NN 款待))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+我	惊讶	nsubj
+很	惊讶	advmod
+惊讶	ROOT	root
+他	温暖	nmod
+对	温暖	case
+我	温暖	nmod
+的	温暖	case
+温暖	惊讶	obj
+和	款待	cc
+款待	温暖	conj
+。	惊讶	punct
+----------------------------------------------------------------------
+但是，她们与我所想象的阿富汗妇女或我所看到的图像截然不同。
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (IP (NP (PRP 她们)) (VP (PP (IN 与) (NP (NP (CP (CP (IP (NP (PRP 我)) (VP (RB 所) (VP (VV 想象)))) (DEC 的))) (NP (NNP 阿富汗)) (NP (NN 妇女))) (CC 或) (NP (CP (CP (IP (NP (PRP 我)) (VP (RB 所) (VP (VV 看到)))) (DEC 的))) (NP (NN 图像))))) (VP (JJ 截然不同)))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+但是	截然不同	mark
+，	但是	punct
+她	截然不同	nsubj
+与	妇女	case
+我	想象	nsubj
+所	想象	mark
+想象	妇女	acl:relcl
+的	想象	mark:rel
+阿富汗	妇女	nmod
+妇女	截然不同	nmod
+或	图像	cc
+我	看到	nsubj
+所	看到	mark
+看到	图像	acl:relcl
+的	看到	mark:rel
+图像	妇女	conj
+截然不同	ROOT	root
+。	截然不同	punct
+----------------------------------------------------------------------
+她们没有穿着面纱，立刻走上前来与我交谈。
+
+(ROOT (IP (NP (PRP 她们)) (VP (VP (VV 没有) (VP (VV 穿) (AS 着) (NP (NN 面纱)))) (, ，) (VP (ADVP (RB 立刻)) (VP (VV 走上) (IP (VP (VP (VV 前来)) (VP (PP (IN 与) (NP (PRP 我))) (VP (VV 交谈)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP18270': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+她	交谈	nsubj
+有	交谈	advcl
+穿	有	xcomp
+着	穿	aux
+面纱	穿	obj
+，	有	punct
+立刻	交谈	advmod
+走上	交谈	advcl
+前来	交谈	advcl
+与	我	case
+我	交谈	obl
+交谈	ROOT	root
+。	交谈	punct
+----------------------------------------------------------------------
+这张照片是两个女孩在刺绣机上工作的照片。
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 张))) (NP (NN 照片))) (VP (VC 是) (NP (CP (IP (NP (QP (CD 两) (CLP (NNB 个))) (NP (NN 女孩))) (VP (PP (IN 在) (LCP (NP (VV 刺) (NN 绣)) (NN 机上))) (VP (VV 工作)))) (DEC 的)) (NP (NN 照片)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+这	张	det
+张	照片	clf
+照片	照片	nsubj
+是	照片	cop
+两	个	nummod
+个	女孩	clf
+女孩	工作	nsubj
+在	机上	case
+刺	工作	xcomp
+绣	机上	nmod
+机上	刺	obj
+工作	照片	acl:relcl
+的	工作	mark:rel
+照片	ROOT	root
+。	照片	punct
+----------------------------------------------------------------------
+年轻人必须操作机器。
+
+(ROOT (IP (NP (ADJP (JJ 年轻)) (NP (SFN 人))) (VP (MD 必须) (VP (VV 操作) (NP (NN 机器)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'ADJP': {}, 'NP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+年轻	人	compound
+人	操作	nsubj
+必须	操作	aux
+操作	ROOT	root
+机器	操作	obj
+。	操作	punct
+----------------------------------------------------------------------
+他们上学回家，就开始骑行。
+
+(ROOT (IP (NP (PRP 他们)) (VP (IP (VP (VSB (VV 上学) (VV 回家)))) (, ，) (ADVP (RB 就)) (VP (VV 开始) (VP (VV 骑行)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'IP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'IP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'IP': {}, ',': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+他	开始	nsubj
+上学	回家	advcl
+回家	开始	advcl
+，	回家	punct
+就	开始	mark
+开始	ROOT	root
+骑行	开始	xcomp
+。	开始	punct
+----------------------------------------------------------------------
+没有鞋子。
+
+(ROOT (IP (VP (VV 没有) (NP (NN 鞋子))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'IP': {'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+有	ROOT	root
+鞋子	有	obj
+。	有	punct
+----------------------------------------------------------------------
+他们的母亲是一名企业家。
+
+(ROOT (IP (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 母亲))) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 名))) (NP (NN 企业) (SFN 家)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+他	母亲	det
+的	他	case
+母亲	家	nsubj
+是	家	cop
+一	名	nummod
+名	家	nmod
+企业	家	compound
+家	ROOT	root
+。	家	punct
+----------------------------------------------------------------------
+她的丈夫是酒鬼，她看到他不会为她做什么。
+
+(ROOT (IP (IP (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 丈夫))) (VP (VC 是) (NP (NN 酒鬼)))) (, ，) (IP (NP (PRP 她)) (VP (VV 看到) (IP (NP (PRP 他)) (VP (MD 不会) (VP (PP (IN 为) (NP (PRP 她))) (VP (VV 做) (NP (WP 什么)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP16296': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP2612': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+她	丈夫	det
+的	她	case
+丈夫	酒鬼	nsubj
+是	酒鬼	cop
+酒鬼	ROOT	root
+，	看到	punct
+她	看到	nsubj
+看到	酒鬼	parataxis
+他	做	nsubj
+会	做	aux
+为	她	case
+她	做	obl
+做	看到	ccomp
+什么	做	obj
+。	酒鬼	punct
+----------------------------------------------------------------------
+她通过一家非营利组织的小额贷款计划获得了 200 美元的贷款。
+
+(ROOT (IP (NP (PRP 她)) (VP (PP (IN 通过) (NP (DNP (NP (QP (CD 一) (CLP (NNB 家))) (NP (ADJP (PFA 非)) (NP (NN 营利))) (NP (NN 组织))) (DEC 的)) (ADJP (JJ 小额)) (NP (NN 贷) (SFN 款) (NN 计划)))) (VP (VV 获得) (AS 了) (NP (DNP (QP (CD 200) (CLP (NNB 美元))) (DEC 的)) (NP (NN 贷款))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+她	获得	nsubj
+通过	计划	case
+一	家	nummod
+家	组织	clf
+非	组织	case
+营利	组织	nmod
+组织	计划	nmod
+的	组织	case
+小额	款	amod
+贷	款	compound
+款	计划	nmod
+计划	获得	obl
+获得	ROOT	root
+了	获得	aux
+200	美元	nummod
+美元	贷款	nmod
+的	美元	case
+贷款	获得	obj
+。	获得	punct
+----------------------------------------------------------------------
+每个月，她都得向他们还款 5 美元或 10 美元。
+
+(ROOT (IP (NP (DP (DT 每个)) (NP (NN 月))) (, ，) (NP (PRP 她)) (VP (ADVP (RB 都)) (VP (MD 得) (VP (PP (IN 向) (NP (PRP 他们))) (VP (RB 还) (VP (VV 款) (QP (QP (CD 5) (CLP (NNB 美元))) (CC 或) (QP (CD 10) (CLP (NNB 美元))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP24593': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, ',': {}, 'NP91543': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+每个	月	det
+月	款	nmod:tmod
+，	月	punct
+她	款	nsubj
+都	款	mark
+得	款	aux
+向	他	case
+他	款	obl
+还	款	mark
+款	ROOT	root
+5	美元	nummod
+美元	款	obj
+或	美元	cc
+10	美元	nummod
+美元	美元	conj
+。	款	punct
+----------------------------------------------------------------------
+她先买了一台缝纫机，然后又买了一台刺绣机。
+
+(ROOT (IP (NP (PRP 她)) (VP (VP (VV 先买) (AS 了) (NP (QP (CD 一) (CLP (NNB 台))) (NP (VV 缝) (SFN 纫) (SFN 机)))) (, ，) (VP (ADVP (RB 然后)) (ADVP (RB 又)) (VP (VV 买) (AS 了) (NP (QP (CD 一) (CLP (NNB 台))) (NP (VV 刺) (VV 绣) (SFN 机)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP40648': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+她	买	nsubj
+先买	买	advcl
+了	先买	aux
+一	台	nummod
+台	机	nmod
+缝	纫	compound
+纫	机	compound
+机	先买	obj
+，	先买	punct
+然后	买	advmod
+又	买	mark
+买	ROOT	root
+了	买	aux
+一	台	nummod
+台	机	nmod
+刺	机	amod
+绣	机	compound
+机	买	obj
+。	买	punct
+----------------------------------------------------------------------
+她最终想买一头牛。”
+
+(ROOT (IP (NP (PRP 她)) (VP (ADVP (NN 最终)) (VP (MD 想) (IP (VP (VV 买) (NP (QP (CD 一) (CLP (NNB 头))) (NP (NN 牛))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+她	买	nsubj
+最终	买	nmod:tmod
+想	买	aux
+买	ROOT	root
+一	头	nummod
+头	牛	clf
+牛	买	obj
+。	买	punct
+”	买	punct
+----------------------------------------------------------------------
+2005 年，赫拉特
+
+(ROOT (IP (NP (CD 2005) (NNB 年)) (, ，) (VP (NP (NNP 赫拉特)))))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'VP': {'NP': {}}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'VP': {'NP': {}}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'VP': {'NP': {}}}
+Dependency Features:
+2005	年	nummod
+年	赫拉特	nmod:tmod
+，	年	punct
+赫拉特	ROOT	root
+----------------------------------------------------------------------
+2003 年，斯蒂芬妮·辛克莱第一次访问阿富汗，之后又四次回到那里。
+
+(ROOT (IP (NP (CD 2003) (NNB 年)) (, ，) (NP (NNP 斯蒂) (NNP 芬妮) (/ ·) (NNP 辛克莱)) (VP (VP (QP (CD 第一) (CLP (NNB 次))) (VP (VV 访问) (NP (NNP 阿富汗)))) (, ，) (VP (ADVP (NN 之后)) (ADVP (RB 又)) (QP (CD 四) (CLP (NNB 次))) (VP (VV 回到) (NP (PRD 那里))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP17905': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP67158': {'NNP': {}, 'NNP43002': {}, '/': {}, 'NNP25533': {}}, 'VP': {'VP': {}, ',': {}, 'VP93756': {}}, '.': {}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'NNP': {}, 'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'NP': {'NNP': {}, 'NNP': {}, '/': {}, 'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+2003	年	nummod
+年	回到	nmod:tmod
+，	年	punct
+斯蒂	回到	nsubj
+芬妮	斯蒂	appos
+·	辛克莱	punct
+辛克莱	芬妮	flat:name
+第一	次	nummod
+次	访问	obl
+访问	回到	advcl
+阿富汗	访问	obj
+，	访问	punct
+之后	回到	nmod:tmod
+又	回到	mark
+四	次	nummod
+次	回到	obl
+回到	ROOT	root
+那里	回到	obj
+。	回到	punct
+----------------------------------------------------------------------
+“这张照片展示了生活如何继续，无论如何。
+
+(ROOT (IP (`` “) (IP (NP (DP (DT 这) (CLP (NNB 张))) (NP (NN 照片))) (VP (VV 展示) (AS 了) (IP (NP (NN 生活)) (VP (ADVP (RB 如何)) (VP (VV 继续)))))) (, ，) (IP (VP (ADVP (IN 无论)) (VP (WP 如何)))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP12887': {}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP92429': {'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+“	展示	punct
+这	张	det
+张	照片	clf
+照片	展示	nsubj
+展示	ROOT	root
+了	展示	aux
+生活	继续	nsubj
+如何	继续	advmod
+继续	展示	ccomp
+，	展示	punct
+无论	如何	case
+如何	展示	obl
+。	展示	punct
+----------------------------------------------------------------------
+那是一个订婚派对，所有的孩子都试图看到里面发生的一切。
+
+(ROOT (IP (IP (NP (PRD 那)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 订婚) (NN 派对))))) (, ，) (IP (NP (DNP (DP (DT 所有)) (DEC 的)) (NP (NN 孩子))) (VP (ADVP (RB 都)) (VP (VV 试图) (IP (VP (VV 看到) (NP (CP (CP (IP (VP (NP (NN 里面)) (VP (VV 发生)))) (DEC 的))) (NP (NN 一切)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP55167': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP55575': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+那	派对	nsubj
+是	派对	cop
+一	个	nummod
+个	派对	clf
+订婚	派对	nmod
+派对	ROOT	root
+，	试图	punct
+所有	孩子	det
+的	所有	case
+孩子	试图	nsubj
+都	试图	mark
+试图	派对	parataxis
+看到	试图	xcomp
+里面	发生	obl
+发生	一切	acl:relcl
+的	发生	mark:rel
+一切	看到	obj
+。	派对	punct
+----------------------------------------------------------------------
+女人们正在唱歌，并且拍手叫好。
+
+(ROOT (IP (NP (NN 女人) (SFN 们)) (VP (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 唱歌))) (, ，) (RB 并且) (VP (VSB (VV 拍手) (VV 叫好)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'SFN': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP84535': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'SFN': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'SFN': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+女人	们	compound
+们	叫好	nsubj
+正	唱歌	advmod
+在	唱歌	advmod
+唱歌	叫好	advcl
+，	唱歌	punct
+并且	叫好	mark
+拍手	叫好	advcl
+叫好	ROOT	root
+。	叫好	punct
+----------------------------------------------------------------------
+大多数人已经摘下面纱。
+
+(ROOT (IP (NP (QP (ADJP (RB 大)) (QP (JJ 多数))) (NP (NN 人))) (VP (ADVP (RB 已经)) (VP (VV 摘下) (NP (NN 面) (SFN 纱)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+大	多数	advmod
+多数	人	amod
+人	摘下	nsubj
+已经	摘下	advmod
+摘下	ROOT	root
+面	纱	compound
+纱	摘下	obj
+。	摘下	punct
+----------------------------------------------------------------------
+这里是他们放松的地方。
+
+(ROOT (IP (NP (PRD 这里)) (VP (VC 是) (NP (CP (CP (IP (NP (PRP 他们)) (VP (VV 放松))) (DEC 的))) (NP (NN 地方)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+这里	地方	nsubj
+是	地方	cop
+他	放松	nsubj
+放松	地方	acl:relcl
+的	放松	mark:rel
+地方	ROOT	root
+。	地方	punct
+----------------------------------------------------------------------
+有些女孩走到我面前，拿着相机。
+
+(ROOT (IP (NP (DP (VV 有些)) (NP (NN 女孩))) (VP (VP (VV 走到) (NP (NP (PRP 我)) (NP (NN 面前)))) (, ，) (VP (VV 拿) (AS 着) (NP (NN 相机)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP92094': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+有些	ROOT	root
+女孩	拿	nsubj
+走到	拿	advcl
+我	面前	nmod
+面前	走到	obj
+，	走到	punct
+拿	有些	ccomp
+着	拿	aux
+相机	拿	obj
+。	拿	punct
+----------------------------------------------------------------------
+我的头巾掉了，所以我把它扯上来。
+
+(ROOT (IP (IP (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 头巾))) (VP (VV 掉) (UH 了))) (, ，) (IP (ADVP (RB 所以)) (NP (PRP 我)) (VP (BB 把) (IP (NP (PRP 它)) (VP (VRD (VV 扯) (VV 上来)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP29738': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP69078': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+我	头巾	det
+的	我	case
+头巾	掉	nsubj
+掉	ROOT	root
+了	掉	discourse
+，	扯	punct
+所以	扯	mark
+我	扯	nsubj
+把	它	case
+它	扯	obl:patient
+扯	掉	parataxis
+上来	扯	mark
+。	扯	punct
+----------------------------------------------------------------------
+他们笑了笑，再次将它拽下来。
+
+(ROOT (IP (NP (PRP 他们)) (VP (VP (IP (VP (VV 笑) (AS 了))) (VP (VV 笑))) (, ，) (VP (ADVP (RB 再次)) (VP (BB 将) (IP (NP (PRP 它)) (VP (VRD (VV 拽) (VV 下来))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP21791': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+他	拽	nsubj
+笑	拽	advcl
+了	笑	aux
+笑	笑	xcomp
+，	笑	punct
+再次	拽	advmod
+将	它	case
+它	拽	obl:patient
+拽	ROOT	root
+下来	拽	mark
+。	拽	punct
+----------------------------------------------------------------------
+他们想要的是我平时的模样。
+
+(ROOT (IP (NP (CP (CP (IP (NP (PRP 他们)) (VP (MD 想) (IP (VP (VV 要))))) (DEC 的)))) (VP (VC 是) (NP (NP (PRP 我)) (DNP (NP (NN 平时)) (DEC 的)) (NP (NN 模样)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'CP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+他	要	nsubj
+想	要	aux
+要	模样	csubj
+的	要	mark:rel
+是	模样	cop
+我	模样	nmod
+平时	模样	nmod
+的	平时	case
+模样	ROOT	root
+。	模样	punct
+----------------------------------------------------------------------
+我们之间唯一的区别是我出生的地方和我的机会。
+
+(ROOT (IP (NP (LCP (NP (PRP 我们)) (IN 之间)) (DNP (ADJP (JJ 唯一)) (DEC 的)) (NP (NN 区别))) (VP (VC 是) (NP (NP (CP (CP (IP (NP (PRP 我)) (VP (VV 出生))) (DEC 的))) (NP (NN 地方))) (CC 和) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 机会))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'LCP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'LCP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'LCP': {}, 'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+我	区别	nmod
+之间	我	case
+唯一	区别	amod
+的	唯一	mark:rel
+区别	地方	nsubj
+是	机会	cop
+我	出生	nsubj
+出生	地方	acl:relcl
+的	出生	mark:rel
+地方	ROOT	root
+和	我	cc
+我	地方	conj
+的	出生	mark:rel
+机会	地方	conj
+。	地方	punct
+----------------------------------------------------------------------
+我们必须互相帮助，互相照顾。
+
+(ROOT (IP (NP (PRP 我们)) (VP (MD 必须) (VP (VP (ADVP (RB 互相)) (VP (VV 帮助))) (, ，) (VP (ADVP (RB 互相)) (VP (VV 照顾))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+我	照顾	nsubj
+必须	帮助	aux
+互相	帮助	advmod
+帮助	照顾	advcl
+，	帮助	punct
+互相	照顾	advmod
+照顾	ROOT	root
+。	照顾	punct
+----------------------------------------------------------------------
+摄影是我知道该怎么做的方法。”
+
+(ROOT (IP (NP (NN 摄影)) (VP (VC 是) (NP (CP (CP (IP (NP (PRP 我)) (VP (VV 知道) (IP (VP (DT 该) (VP (ADVP (RB 怎么)) (VP (VV 做))))))) (DEC 的))) (NP (NN 方法)))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}, "''": {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+摄影	方法	nsubj
+是	方法	cop
+我	知道	nsubj
+知道	方法	acl:relcl
+该	做	nsubj
+怎么	做	advmod
+做	方法	acl:relcl
+的	做	mark:rel
+方法	ROOT	root
+。	方法	punct
+”	方法	punct
+----------------------------------------------------------------------

@@ -1,0 +1,2940 @@
+迈克尔·菲尔普斯掉入了一个充满麻烦的池塘。
+
+(ROOT (IP (NP (NNP 迈克尔) (/ ·) (NNP 菲尔普斯)) (VP (VV 掉入) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 充满) (NP (JJ 麻烦)))) (DEC 的))) (NP (NN 池塘)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP75648': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+迈克尔	掉入	nsubj
+·	菲尔普斯	punct
+菲尔普斯	迈克尔	flat:name
+掉入	ROOT	root
+了	掉入	aux
+一	个	nummod
+个	池塘	clf
+充满	池塘	acl:relcl
+麻烦	充满	xcomp
+的	充满	mark:rel
+池塘	掉入	obj
+。	掉入	punct
+----------------------------------------------------------------------
+这位美国游泳天才在北京夺冠，这将是他第七枚金牌，这样一来他将与马克·赛姆茨并列为单届奥运会上获得最多金牌的选手。
+
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 位))) (NP (NNP 美国)) (NP (NN 游泳) (NN 天才))) (VP (PP (VV 在) (NP (NNP 北京))) (VP (VV 夺冠)))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 将)) (VP (VC 是) (NP (NP (PRP 他)) (QP (CD 第七) (CLP (NNB 枚))) (NP (NN 金牌)))))) (, ，) (IP (QP (ADVP (PRD 这样)) (QP (CD 一) (CLP (RB 来)))) (NP (PRP 他)) (VP (ADVP (RB 将)) (PP (IN 与) (NP (NNP 马克) (/ ·) (NNP 赛姆茨))) (ADVP (RB 并)) (VP (VV 列为) (NP (CP (CP (IP (VP (LCP (NP (DP (NN 单届)) (NP (NNP 奥运) (SFN 会))) (IN 上)) (VP (VV 获得) (NP (ADJP (JJ 最多)) (NP (NN 金牌)))))) (DEC 的))) (NP (NN 选手)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP41326': {}, ',85221': {}, 'IP40435': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP15481': {'NP': {}, 'VP': {}}, ',14944': {}, 'IP81903': {'QP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'QP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'QP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+这	位	det
+位	天才	clf
+美国	天才	nmod
+游泳	天才	nmod
+天才	夺冠	nsubj
+在	夺冠	advcl
+北京	在	obj
+夺冠	ROOT	root
+，	夺冠	punct
+这	金牌	nsubj
+将	金牌	advmod
+是	金牌	cop
+他	金牌	nmod
+第七	枚	nummod
+枚	金牌	clf
+金牌	夺冠	parataxis
+，	为	punct
+这样	为	obl
+一	这样	nummod
+来	为	mark
+他	为	nsubj
+将	为	advmod
+与	马克	case
+马克	为	obl
+·	赛姆茨	punct
+赛姆茨	马克	flat:name
+并	为	mark
+为	获得	advcl
+单届	会	nmod
+奥运	会	compound
+会	获得	advmod
+上	会	case
+获得	选手	acl:relcl
+最多	金牌	amod
+金牌	获得	obj
+的	获得	mark:rel
+选手	金牌	parataxis
+。	夺冠	punct
+----------------------------------------------------------------------
+但在 100 米蝶泳决赛的中途，菲尔普斯被困在第七位。
+
+(ROOT (IP (ADVP (RB 但)) (PP (IN 在) (NP (DNP (NP (NP (QP (CD 100)) (NP (NN 米蝶))) (NP (SFN 泳) (NN 决赛))) (DEC 的)) (NP (NN 中途)))) (, ，) (NP (NNP 菲尔普斯)) (VP (BB 被) (VP (VV 困) (PP (VV 在) (QP (CD 第七) (CLP (NN 位)))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'BB': {}, 'VP': {}}}
+Dependency Features:
+但	困	mark
+在	中途	case
+100	决赛	nummod
+米蝶	泳	compound
+泳	决赛	nmod
+决赛	中途	nmod
+的	决赛	case
+中途	困	obl
+，	中途	punct
+菲尔普斯	困	nsubj:pass
+被	困	aux:pass
+困	ROOT	root
+在	困	mark
+第七	位	nummod
+位	困	obj
+。	困	punct
+----------------------------------------------------------------------
+即使他发起了疯狂的反击，但仍然看不出他能超越塞尔维亚选手米洛拉德·卡维奇，后者距离惊险逃脱只差几英寸。
+
+(ROOT (IP (IP (CP (ADVP (IN 即使)) (IP (NP (PRP 他)) (VP (VV 发起) (AS 了) (NP (CP (CP (IP (VP (JJ 疯狂))) (DEC 的))) (NP (NN 反击)))))) (, ，) (ADVP (RB 但)) (VP (ADVP (RB 仍然)) (VP (VRD (VV 看) (VV 不出)) (IP (NP (PRP 他)) (VP (MD 能) (VP (VV 超越) (NP (NP (NP (NNP 塞尔维亚)) (NP (NN 选手))) (NP (NNP 米洛拉德) (/ ·) (NNP 卡维奇))))))))) (, ，) (IP (NP (NN 后者)) (NP (NN 距离)) (VP (ADVP (JJ 惊险)) (VP (VV 逃脱) (QP (ADVP (RB 只差)) (QP (CD 几) (CLP (NNB 英寸))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP61375': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, ',': {}, 'IP59275': {'NP': {}, 'NP60214': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+即使	发起	case
+他	发起	nsubj
+发起	看	ccomp
+了	发起	aux
+疯狂	反击	amod
+的	疯狂	mark:rel
+反击	发起	obj
+，	发起	punct
+但	看	mark
+仍然	看	advmod
+看	ROOT	root
+出	看	mark
+他	超越	nsubj
+能	超越	aux
+超越	看	ccomp
+塞尔维亚	选手	nmod
+选手	超越	obj
+米洛拉德	选手	appos
+·	卡维奇	punct
+卡维奇	米洛拉德	flat:name
+，	看	punct
+后者	距离	nmod
+距离	逃脱	nsubj
+惊险	逃脱	advcl
+逃脱	看	parataxis
+只差	逃脱	advmod
+几	英寸	nummod
+英寸	逃脱	obl
+。	逃脱	punct
+----------------------------------------------------------------------
+然后卡维奇犯了一个致命的错误，在滑向终点时，菲尔普斯偷偷多游了一圈。
+
+(ROOT (IP (IP (ADVP (RB 然后)) (NP (NNP 卡维奇)) (VP (VV 犯) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 致命))) (DEC 的))) (NP (NN 错误))))) (, ，) (IP (PP (IN 在) (LCP (IP (VP (VV 滑向) (NP (NN 终点)))) (IN 时))) (, ，) (NP (NNP 菲尔) (NNP 普斯)) (VP (ADVP (RB 偷偷)) (ADVP (RB 多)) (VP (VV 游) (AS 了) (QP (CD 一) (CLP (NN 圈)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP44806': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP50460': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+然后	犯	advmod
+卡维奇	犯	nsubj
+犯	ROOT	root
+了	犯	aux
+一	个	nummod
+个	错误	clf
+致命	错误	amod
+的	致命	mark:rel
+错误	犯	obj
+，	游	punct
+在	滑向	case
+滑向	游	xcomp
+终点	滑向	obj
+时	滑向	mark
+，	滑向	punct
+菲尔	游	nsubj
+普斯	菲尔	flat:name
+偷偷	游	advmod
+多	游	advmod
+游	犯	parataxis
+了	游	aux
+一	圈	nummod
+圈	游	obj
+。	犯	punct
+----------------------------------------------------------------------
+这是一记历史性的踢球：菲尔普斯在凯维走到墙前 0.01 秒，从而获得了一场超现实的胜利。
+
+(ROOT (IP (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 记))) (DNP (NP (NN 历史) (SFN 性)) (DEC 的)) (NP (VV 踢) (SFN 球))))) (: ：) (IP (NP (NNP 菲尔普斯)) (VP (VP (PP (IN 在) (NP (NNP 凯维))) (VP (VV 走到) (QP (NP (NN 墙前)) (QP (CD 0.01) (CLP (NNB 秒)))))) (, ，) (VP (ADVP (RB 从而)) (VP (VV 获得) (AS 了) (NP (QP (CD 一) (CLP (NNB 场))) (CP (CP (IP (VP (PFA 超) (NP (JJ 现实)))) (DEC 的))) (NP (NN 胜利))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP1831': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP38999': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+这	球	nsubj
+是	球	cop
+一	记	nummod
+记	球	nmod
+历史	性	compound
+性	球	nmod
+的	性	case
+踢	球	compound
+球	ROOT	root
+：	获得	punct
+菲尔普斯	获得	nsubj
+在	凯维	case
+凯维	走到	obl
+走到	获得	advcl
+墙前	秒	nmod
+0.01	秒	nummod
+秒	走到	obl
+，	走到	punct
+从而	获得	advmod
+获得	球	parataxis
+了	获得	aux
+一	场	nummod
+场	胜利	clf
+超	现实	case
+现实	胜利	amod
+的	现实	mark:rel
+胜利	获得	obj
+。	球	punct
+----------------------------------------------------------------------
+塞尔维亚代表团提出了抗议，但最后一刻的帧帧照片证实了一件不容置疑的事实：菲尔普斯用一个惊人的伸出双臂冲向墙的动作超越了卡维奇。
+
+(ROOT (IP (IP (NP (NP (NNP 塞尔维亚)) (NP (VV 代表) (SFN 团))) (VP (VV 提出) (AS 了) (NP (NN 抗议)))) (, ，) (IP (ADVP (RB 但)) (NP (DNP (QP (ADJP (NN 最后)) (QP (CD 一) (CLP (NNB 刻)))) (DEC 的)) (NP (, 帧) (NNP 帧) (NN 照片))) (VP (VV 证实) (AS 了) (NP (QP (CD 一) (CLP (NNB 件))) (CP (CP (IP (VP (ADVP (RB 不)) (VP (VV 容置) (NP (VV 疑))))) (DEC 的))) (NP (NN 事实))))) (: ：)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP74205': {}, ':': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ':': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP87422': {'ADVP': {}, 'NP': {}, 'VP': {}}, ':': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ':': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+塞尔维亚	团	nmod
+代表	团	compound
+团	提出	nsubj
+提出	ROOT	root
+了	提出	aux
+抗议	提出	obj
+，	证实	punct
+但	证实	mark
+最后	刻	nmod
+一	刻	nummod
+刻	照片	nmod
+的	刻	mark:rel
+帧	照片	nmod
+帧	照片	nmod
+照片	证实	nsubj
+证实	提出	parataxis
+了	证实	aux
+一	件	nummod
+件	事实	clf
+不	容置	advmod
+容置	事实	acl:relcl
+疑	容置	xcomp
+的	容置	mark:rel
+事实	证实	obj
+：	提出	punct
+----------------------------------------------------------------------
+菲尔普斯 在第二天打破了斯皮茨的纪录，但是他在对决卡维奇时的最后一百分之一秒的胜利才是最令人难忘的。
+
+(ROOT (IP (IP (NP (NNP 菲尔普斯)) (VP (PP (IN 在) (QP (CD 第二) (CLP (NNB 天)))) (VP (VV 打破) (AS 了) (NP (DNP (NP (NNP 斯皮茨)) (DEC 的)) (NP (NN 纪录)))))) (, ，) (IP (ADVP (RB 但是)) (NP (NP (PRP 他)) (DNP (PP (IN 在) (NP (DNP (PP (IN 对) (LCP (NP (NNP 决卡维奇)) (IN 时))) (DEC 的)) (DNP (QP (ADJP (NN 最后)) (QP (CD 一百) (CLP (NNB 分)))) (DEC 之)) (QP (CD 一) (CLP (NNB 秒))))) (DEC 的)) (NP (NN 胜利))) (VP (VC 才是) (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (VV 令) (NP (NN 人)) (IP (VP (JJ 难忘)))))) (UH 的)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP54986': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP31497': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+菲尔普斯	打破	nsubj
+在	天	case
+第二	天	nummod
+天	打破	obl
+打破	ROOT	root
+了	打破	aux
+斯皮茨	纪录	nmod
+的	斯皮茨	case
+纪录	打破	obj
+，	是	punct
+但是	是	mark
+他	胜利	nmod
+在	胜利	case
+对	秒	case
+决卡维奇	对	nmod
+时	决卡维奇	case
+的	分	case
+最后	分	nmod
+一百	分	nummod
+分	秒	nmod
+之	分	case
+一	秒	nummod
+秒	胜利	nmod
+的	秒	mark:rel
+胜利	是	obl
+是	打破	parataxis
+最	令	advmod
+令	是	xcomp
+人	难忘	nsubj
+难忘	令	ccomp
+的	是	discourse
+。	打破	punct
+----------------------------------------------------------------------
+闪电迷你
+
+(ROOT (IP (NP (NNP 闪电)) (VP (SFN 迷) (NP (PRP 你)))))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'SFN': {}, 'NP': {}}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'SFN': {}, 'NP': {}}}}
+{'NP': {'NNP': {}}}
+{'VP': {'SFN': {}, 'NP': {}}}
+Dependency Features:
+闪电	迷	compound
+迷	ROOT	root
+你	迷	appos
+----------------------------------------------------------------------
+在牙买加奥运冠军尤塞恩·博尔特 (Usain Bolt) 跨过 100 米跑的终点线之前，他伸出双臂，拍打自己的胸口，许多惊讶的球迷都想到了同一个问题：“尤塞恩，你疯了吗？这么早的庆祝活动，让你失去了世界纪录。”
+
+(ROOT (IP (IP (PP (IN 在) (LCP (NP (CP (CP (IP (NP (NP (NP (NNP 牙买加)) (NP (NN 奥运) (NN 冠军))) (NP (NNP 尤塞恩) (/ ·) (NNP 博尔特) (FW -LRB-Usain) (FW Bolt-RRB-))) (VP (VP (VV 跨过) (NP (QP (CD 100)) (NP (NN 米跑)))))) (DEC 的))) (NP (NN 终点) (SFN 线))) (IN 之前))) (, ，) (NP (PRP 他)) (VP (VP (VV 伸出) (NP (QP (CD 双)) (NP (NN 臂)))) (, ，) (VP (VV 拍) (VP (VV 打) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 胸口))))))) (, ，) (IP (NP (QP (CD 许多)) (CP (CP (IP (VP (JJ 惊讶))) (DEC 的))) (NP (NN 球迷))) (VP (ADVP (RB 都)) (VP (VV 想到) (AS 了) (NP (DP (DT 同) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 问题)))))) (: ：) (IP (`` “) (NP (NNP 尤塞恩)) (, ，) (NP (PRP 你)) (VP (VV 疯) (UH 了)) (UH 吗)) (. ？)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP62240': {}, ':': {}, 'IP6610': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP2552': {'NP': {}, 'VP': {}}, ':': {}, 'IP18051': {'``': {}, 'NP': {}, ',': {}, 'NP85273': {}, 'VP': {}, 'UH': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'``': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}, 'UH': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'``': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}, 'UH': {}}}
+Dependency Features:
+在	线	case
+牙买加	冠军	nmod
+奥运	冠军	nmod
+冠军	跨过	nsubj
+尤塞恩	冠军	appos
+·	博尔特	punct
+博尔特	尤塞恩	flat:name
+(Usain	冠军	appos
+Bolt)	(Usain	flat:foreign
+跨过	线	acl:relcl
+100	米跑	nummod
+米跑	跨过	obj
+的	跨过	mark:rel
+终点	线	compound
+线	拍	obl
+之前	线	case
+，	线	punct
+他	拍	nsubj
+伸出	拍	advcl
+双	臂	nummod
+臂	伸出	obj
+，	伸出	punct
+拍	ROOT	root
+打	胸口	acl:relcl
+自己	打	obj
+的	打	mark:rel
+胸口	拍	obj
+，	想到	punct
+许多	球迷	nummod
+惊讶	球迷	amod
+的	惊讶	mark:rel
+球迷	想到	nsubj
+都	想到	mark
+想到	拍	parataxis
+了	想到	aux
+同	个	det
+一	个	nummod
+个	问题	nmod
+问题	想到	obj
+：	疯	punct
+“	疯	punct
+尤塞恩	疯	nsubj
+，	尤塞恩	punct
+你	疯	nsubj
+疯	拍	parataxis
+了	疯	discourse
+吗	疯	discourse
+？	疯	punct
+----------------------------------------------------------------------
+然后，数字在屏幕上闪过：9.69秒，这是人类历史上最快的冲刺。
+
+(ROOT (IP (IP (ADVP (RB 然后)) (, ，) (NP (NN 数字)) (VP (PP (IN 在) (LCP (NP (NN 屏幕)) (IN 上))) (VP (VV 闪过) (: ：) (QP (CD 9.69) (CLP (NNB 秒)))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (LCP (NP (NN 人类) (NN 历史)) (IN 上)) (CP (CP (IP (VP (JJ 最快))) (DEC 的))) (NP (NN 冲刺))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP43814': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP96093': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+然后	闪过	advmod
+，	然后	punct
+数字	闪过	nsubj
+在	屏幕	case
+屏幕	闪过	obl
+上	屏幕	case
+闪过	ROOT	root
+：	冲刺	punct
+9.69	秒	nummod
+秒	冲刺	nmod:tmod
+，	秒	punct
+这	冲刺	nsubj
+是	冲刺	cop
+人类	冲刺	nmod
+历史	最快	obl
+上	历史	case
+最快	冲刺	amod
+的	最快	mark:rel
+冲刺	闪过	parataxis
+。	闪过	punct
+----------------------------------------------------------------------
+观众的修改后反应是：“你在开玩笑吗？” 6 尺 5 英寸的博尔特（一个冠军短跑运动员的名字能比这个更合适吗？) 在 100 米比赛后，四天后打破了 200 米世界纪录，而且没有任何预先表演，两天后，他又赢得了 4X100 米接力赛金牌。
+
+(ROOT (IP (LCP (NP (DNP (NP (NN 观众)) (DEC 的)) (NP (NN 修改))) (IN 后)) (NP (NN 反应)) (VP (VC 是) (: ：) (CP (IP (`` “) (NP (PRP 你)) (VP (ADVP (RB 在)) (VP (VV 开) (NP (NN 玩笑))))) (UH 吗))) (. ？)))
+layer 2:
+{'IP': {'LCP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, 'NP': {'NN': {}}, 'VP': {'VC': {}, ':': {}, 'CP': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, 'NP': {'NN': {}}, 'VP': {'VC': {}, ':': {}, 'CP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VC': {}, ':': {}, 'CP': {}}}
+Dependency Features:
+观众	修改	nmod
+的	观众	case
+修改	是	nsubj
+后	修改	case
+反应	是	nsubj
+是	ROOT	root
+：	开	punct
+“	开	punct
+你	开	nsubj
+在	开	advmod
+开	是	ccomp
+玩笑	开	obj
+吗	开	discourse
+？	开	punct
+----------------------------------------------------------------------
+不是每个人都对他的惊人表现感到高兴。奥运会的纯粹派批评博尔特在比赛结束前庆祝，并且在这个过程中，他没有创造更好的成绩。
+
+(ROOT (IP (ADVP (VC 不是)) (NP (DP (DT 每个)) (NP (NN 人))) (VP (ADVP (RB 都)) (PP (IN 对) (NP (DNP (NP (PRP 他)) (DEC 的)) (ADJP (JJ 惊人)) (NP (NN 表现)))) (VP (VV 感到) (NP (JJ 高兴)))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'VC': {}}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'VC': {}}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'VC': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+是	感到	mark
+每个	人	det
+人	感到	nsubj
+都	感到	mark
+对	表现	case
+他	表现	det
+的	他	case
+惊人	表现	amod
+表现	高兴	nmod
+感到	ROOT	root
+高兴	感到	xcomp
+。	感到	punct
+----------------------------------------------------------------------
+除了跑步成绩（和行为）之外，跑得最快的人的赛前饮食更让人震惊，几乎全部是油腻的鸡块。
+
+(ROOT (IP (IP (PP (VV 除) (PP (AS 了) (LCP (NP (NN 跑步) (NN 成绩) (PRN (-LRB- （) (CC 和) (NP (NN 行为)) (-RRB- ）))) (IN 之外)))) (, ，) (NP (DNP (NP (CP (CP (IP (VP (VV 跑得) (VP (JJ 最快)))) (DEC 的))) (NP (NN 人))) (DEC 的)) (ADJP (NN 赛前)) (NP (NN 饮食))) (VP (ADVP (RB 更)) (VP (VV 让) (NP (NN 人)) (IP (VP (JJ 震惊)))))) (, ，) (IP (VP (ADVP (RB 几乎)) (ADVP (DT 全部)) (VP (VC 是) (NP (CP (CP (IP (VP (NN 油腻))) (DEC 的))) (NP (NN 鸡块)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP18832': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP10660': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+除	让	advcl
+了	除	aux
+跑步	成绩	nmod
+成绩	除	obj
+（	行为	punct
+和	行为	cc
+行为	成绩	conj
+）	行为	punct
+之外	除	mark
+，	除	punct
+跑得	人	acl:relcl
+最快	跑得	xcomp
+的	跑得	mark:rel
+人	饮食	nmod
+的	跑得	mark:rel
+赛前	饮食	nmod
+饮食	让	nsubj
+更	让	advmod
+让	ROOT	root
+人	震惊	nsubj
+震惊	让	ccomp
+，	鸡块	punct
+几乎	鸡块	advmod
+全部	鸡块	det
+是	鸡块	cop
+油腻	鸡块	nmod
+的	油腻	mark:rel
+鸡块	让	parataxis
+。	让	punct
+----------------------------------------------------------------------
+开业典礼
+
+(ROOT (NP (NN 开业) (NN 典礼)))
+layer 2:
+{'NP': {'NN': {}, 'NN75285': {}}}
+{'NP': {'NN': {}, 'NN': {}}}
+layer 3:
+{'NP': {'NN': {}, 'NN76769': {}}}
+{'NP': {'NN': {}, 'NN': {}}}
+Dependency Features:
+开业	典礼	nmod
+典礼	ROOT	root
+----------------------------------------------------------------------
+奥运会开幕式的庆典气氛通常不会与运动本身的戏剧性匹配，但北京的奥运会改变了这一点。
+
+(ROOT (IP (IP (NP (DNP (NP (NP (NNP 奥运) (SFN 会)) (NP (VV 开幕) (SFN 式))) (DEC 的)) (NP (NN 庆典) (NN 气氛))) (VP (ADVP (RB 通常)) (VP (MD 不会) (PP (IN 与) (NP (DNP (NP (NN 运动) (PRD 本身)) (DEC 的)) (NP (NN 戏剧) (SFN 性) (VV 匹配))))))) (, ，) (IP (ADVP (RB 但)) (NP (DNP (NP (NNP 北京)) (DEC 的)) (NP (NNP 奥运))) (VP (MD 会) (VP (VV 改变) (AS 了) (DP (DT 这) (QP (CD 一) (CLP (NN 点))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP33463': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP15856': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+奥运	会	compound
+会	式	nmod
+开幕	式	compound
+式	气氛	nmod
+的	式	mark:rel
+庆典	气氛	nmod
+气氛	匹配	nsubj
+通常	匹配	advmod
+会	匹配	aux
+与	性	case
+运动	性	nmod
+本身	运动	appos
+的	运动	case
+戏剧	性	compound
+性	匹配	obl
+匹配	ROOT	root
+，	改变	punct
+但	改变	mark
+北京	奥运	nmod
+的	北京	case
+奥运	改变	nsubj
+会	改变	aux
+改变	匹配	parataxis
+了	改变	aux
+这	点	det
+一	点	nummod
+点	改变	obj
+。	匹配	punct
+----------------------------------------------------------------------
+15,000 多名中国演员参加了仪式；表演中包括 2008 年鼓手在古代鼓上敲击，舞蹈演员在传统卷轴周围转动，以献上中国艺术，以及一个从体育馆中央升起的巨大地球。
+
+(ROOT (IP (IP (NP (QP (CD 15,000)) (ADJP (NNB 多名)) (NP (NNP 中国)) (NP (NN 演员))) (VP (VV 参加) (AS 了) (NP (NN 仪式)))) (: ；) (IP (LCP (NP (NN 表演)) (IN 中)) (VP (VV 包括) (IP (NP (CD 2008) (NN 年鼓手)) (VP (PP (IN 在) (LCP (NP (NN 古代)) (VV 鼓上))) (VP (VV 敲击)))))) (, ，) (IP (NP (NN 舞蹈) (NN 演员)) (VP (VP (PP (IN 在) (NP (NP (ADJP (NN 传统)) (NP (NN 卷轴))) (NP (NN 周围)))) (VP (VV 转动))) (, ，) (VP (RB 以) (VP (VV 献上) (NP (NP (NP (NNP 中国)) (NP (NN 艺术))) (, ，) (CC 以及) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (PP (IN 从) (NP (NP (NN 体育) (SFN 馆)) (NP (NN 中央)))) (VP (VV 升起)))) (DEC 的))) (ADJP (JJ 巨大)) (NP (NN 地球)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP38725': {}, ',': {}, 'IP30809': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP57787': {'LCP': {}, 'VP': {}}, ',': {}, 'IP35626': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'LCP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'LCP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+15,000	多名	nummod
+多名	演员	clf
+中国	演员	nmod
+演员	参加	nsubj
+参加	ROOT	root
+了	参加	aux
+仪式	参加	obj
+；	献上	punct
+表演	包括	nsubj
+中	表演	case
+包括	献上	advcl
+2008	年鼓手	nummod
+年鼓手	鼓上	nsubj
+在	古代	case
+古代	鼓上	obl
+鼓上	献上	advcl
+敲击	鼓上	xcomp
+，	鼓上	punct
+舞蹈	演员	nmod
+演员	转动	nsubj
+在	周围	case
+传统	周围	nmod
+卷轴	周围	nmod
+周围	转动	obl
+转动	献上	advcl
+，	转动	punct
+以	献上	mark
+献上	参加	parataxis
+中国	艺术	nmod
+艺术	献上	obj
+，	地球	punct
+以及	地球	cc
+一	个	nummod
+个	地球	clf
+从	中央	case
+体育	馆	compound
+馆	中央	nmod
+中央	升起	obl
+升起	地球	acl:relcl
+的	升起	mark:rel
+巨大	地球	amod
+地球	艺术	conj
+。	参加	punct
+----------------------------------------------------------------------
+在这场绚丽的表演结束时，中国体操传奇人物兼企业家李宁在北京鸟巢顶部“跑步”了一圈，然后点燃了奥运会的火炬。
+
+(ROOT (IP (PP (IN 在) (LCP (IP (NP (DP (DT 这) (CLP (NNB 场))) (CP (CP (IP (VP (JJ 绚丽))) (DEC 的))) (NP (NN 表演))) (VP (VV 结束))) (IN 时))) (, ，) (NP (NP (NP (NNP 中国)) (NP (NN 体操) (NN 传奇) (NN 人物) (CC 兼) (NN 企业) (SFN 家))) (NP (NNP 李) (NNP 宁))) (VP (VP (PP (VV 在) (NP (NP (NP (NNP 北京)) (NP (SFN 鸟) (SFN 巢))) (NP (NN 顶部)))) (VP (`` “) (VV 跑步) ('' ”) (AS 了) (QP (CD 一) (CLP (NNB 圈))))) (, ，) (VP (ADVP (RB 然后)) (VP (VV 点燃) (AS 了) (NP (DNP (NP (NNP 奥运) (SFN 会)) (DEC 的)) (NP (NN 火炬)))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'NP83624': {}}, 'VP': {'VP': {}, ',': {}, 'VP410': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+在	结束	case
+这	场	det
+场	表演	clf
+绚丽	表演	amod
+的	绚丽	mark:rel
+表演	结束	nsubj
+结束	点燃	ccomp
+时	结束	mark
+，	结束	punct
+中国	人物	nmod
+体操	人物	nmod
+传奇	人物	nmod
+人物	点燃	nsubj
+兼	家	cc
+企业	家	compound
+家	人物	conj
+李	人物	appos
+宁	李	flat:name
+在	跑步	advcl
+北京	鸟	compound
+鸟	巢	compound
+巢	顶部	nmod
+顶部	在	obj
+“	跑步	punct
+跑步	点燃	advcl
+”	跑步	punct
+了	跑步	aux
+一	圈	nummod
+圈	跑步	obl
+，	跑步	punct
+然后	点燃	advmod
+点燃	ROOT	root
+了	点燃	aux
+奥运	会	compound
+会	火炬	nmod
+的	会	mark:rel
+火炬	点燃	obj
+。	点燃	punct
+----------------------------------------------------------------------
+他手中的火焰在空中悬停，只有电脑控制的绳子绕在他的腰上才阻止他从高空栽落下来。
+
+(ROOT (IP (IP (NP (DNP (LCP (NP (PRP 他)) (NN 手中)) (DEC 的)) (NP (NN 火焰))) (VP (PP (IN 在) (NP (NN 空中))) (VP (VV 悬停)))) (, ，) (IP (NP (ADVP (VV 只有)) (NP (CP (CP (IP (NP (NN 电脑)) (VP (VV 控制))) (DEC 的))) (NP (NN 绳子)))) (VP (VP (VV 绕) (PP (IN 在) (LCP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 腰上))))) (VP (ADVP (RB 才)) (VP (VV 阻止) (NP (PRP 他)) (IP (VP (PP (IN 从) (NP (NN 高空))) (VP (VRD (VV 栽落) (VV 下来))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP30646': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP12863': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+他	火焰	nmod
+手中	火焰	nmod
+的	手中	case
+火焰	阻止	nsubj
+在	空中	case
+空中	悬停	obl
+悬停	阻止	advcl
+，	悬停	punct
+只有	阻止	advcl
+电脑	控制	nsubj
+控制	绳子	acl:relcl
+的	控制	mark:rel
+绳子	绕	nsubj
+绕	只有	ccomp
+在	腰上	case
+他	腰上	det
+的	他	mark:rel
+腰上	绕	obl
+才	阻止	mark
+阻止	ROOT	root
+他	栽落	nsubj
+从	高空	case
+高空	栽落	obl
+栽落	阻止	ccomp
+下来	栽落	mark
+。	阻止	punct
+----------------------------------------------------------------------
+这场惊险刺激的表演是中国向世界宣布迎接奥运的精彩绝伦的最后一幕，唯一的缺点是：组织者为电视节目加入了一些数码特效，命令一个七岁的孩子假唱另一个小女孩唱的歌，因为她的可爱程度不够，被认为不适合上电视。
+
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 场))) (CP (CP (IP (VP (VCD (JJ 惊险) (JJ 刺激)))) (DEC 的))) (NP (NN 表演))) (VP (VC 是) (NP (DNP (NP (CP (IP (NP (NNP 中国)) (VP (PP (IN 向) (NP (NN 世界))) (VP (VV 宣布) (IP (VP (VV 迎接) (NP (NN 奥运))))))) (DEC 的)) (ADJP (JJ 精彩) (NN 绝伦))) (DEC 的)) (QP (ADJP (NN 最后)) (QP (CD 一) (CLP (NN 幕))))))) (, ，) (IP (NP (DNP (ADJP (JJ 唯一)) (DEC 的)) (NP (NN 缺点))) (VP (VC 是) (: ：) (IP (IP (NP (VV 组织) (SFN 者)) (VP (VP (PP (IN 为) (NP (NN 电视) (NN 节目))) (VP (VV 加入) (AS 了) (NP (QP (JJ 一些)) (NP (NN 数码) (NN 特效))))) (, ，) (VP (VV 命令) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (QP (CD 七) (CLP (NNB 岁))) (DEC 的)) (NP (NN 孩子))) (IP (VP (VV 假唱) (NP (CP (CP (IP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 个)))) (ADJP (PFA 小)) (NP (NN 女孩))) (VP (VV 唱))) (DEC 的))) (NP (NN 歌)))))))) (, ，) (IP (PP (IN 因为) (IP (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (JJ 可爱) (NN 程度))) (VP (JJ 不够)))) (, ，) (VP (BB 被) (VP (VV 认为) (IP (VP (ADVP (RB 不)) (VP (VV 适合) (IP (VP (VV 上) (NP (NN 电视))))))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP18129': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP34220': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+这	场	det
+场	表演	clf
+惊险	刺激	advcl
+刺激	表演	amod
+的	刺激	mark:rel
+表演	是	nsubj
+是	ROOT	root
+中国	宣布	nsubj
+向	世界	case
+世界	宣布	obl
+宣布	幕	acl:relcl
+迎接	宣布	xcomp
+奥运	迎接	obj
+的	宣布	mark:rel
+精彩	绝伦	amod
+绝伦	幕	acl:relcl
+的	宣布	mark:rel
+最后	幕	nmod
+一	幕	nummod
+幕	是	obj
+，	是	punct
+唯一	缺点	amod
+的	唯一	mark:rel
+缺点	是	nsubj
+是	是	parataxis
+：	为	punct
+组织	者	compound
+者	命令	nsubj
+为	节目	case
+电视	节目	nmod
+节目	加入	obl
+加入	命令	advcl
+了	加入	aux
+一些	特效	amod
+数码	特效	nmod
+特效	加入	obj
+，	加入	punct
+命令	是	ccomp
+一	个	nummod
+个	孩子	clf
+七	岁	nummod
+岁	孩子	nmod
+的	岁	mark:rel
+孩子	假唱	nsubj
+假唱	命令	ccomp
+另	个	det
+一	个	nummod
+个	女孩	nmod
+小	女孩	case
+女孩	唱	nsubj
+唱	歌	acl:relcl
+的	唱	mark:rel
+歌	假唱	obj
+，	为	punct
+因为	不够	case
+她	程度	det
+的	她	case
+可爱	程度	amod
+程度	不够	nsubj
+不够	为	ccomp
+，	不够	punct
+被	为	aux:pass
+为	是	parataxis
+不	适合	advmod
+适合	为	xcomp
+上	适合	xcomp
+电视	上	obj
+。	是	punct
+----------------------------------------------------------------------
+在体操运动员郑菲在地板上翻腾并为热爱她的观众做出最后一个姿势之后，中国队的胜利就是板上钉钉的事了。
+
+(ROOT (IP (PP (IN 在) (LCP (IP (NP (NP (NN 体操) (VV 运动) (SFN 员)) (NP (NNP 郑) (NNP 菲))) (VP (VP (PP (IN 在) (LCP (NP (NN 地板)) (IN 上))) (VP (VV 翻腾))) (RB 并) (VP (PP (IN 为) (NP (CP (CP (IP (VP (VV 热爱) (NP (PRP 她)))) (DEC 的))) (NP (NN 观众)))) (VP (VV 做出) (NP (QP (ADJP (NN 最后)) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 姿势))))))) (IN 之后))) (, ，) (NP (DNP (NP (NP (NNP 中国)) (NP (SFN 队))) (DEC 的)) (NP (NN 胜利))) (VP (VC 就是) (NP (DNP (LCP (NP (NN 板上)) (VV 钉钉)) (DEC 的)) (NP (NN 事)))) (UH 了) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, 'UH': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, 'UH': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, 'UH': {}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, 'UH': {}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+在	员	case
+体操	员	nmod
+运动	员	compound
+员	翻腾	obl
+郑	员	appos
+菲	郑	flat:name
+在	地板	case
+地板	翻腾	obl
+上	地板	case
+翻腾	做出	advcl
+并	做出	mark
+为	观众	case
+热爱	观众	acl:relcl
+她	热爱	obj
+的	热爱	mark:rel
+观众	做出	obl
+做出	事	csubj
+最后	姿势	nmod
+一	个	nummod
+个	姿势	clf
+姿势	做出	obj
+之后	做出	mark
+，	做出	punct
+中国	队	compound
+队	胜利	nmod
+的	队	case
+胜利	事	nsubj
+是	事	cop
+板上	钉钉	nsubj
+钉钉	事	acl:relcl
+的	钉钉	mark:rel
+事	ROOT	root
+了	事	discourse
+。	事	punct
+----------------------------------------------------------------------
+在北京奥运会上，东道国获得的 51 枚金牌中，也许没有其他项目像女子体操队获得的金牌那样令人愉快，也许没有其他项目像女子体操队获得的金牌那样引发争议。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (NP (NNP 北京) (NNP 奥运) (SFN 会)) (IN 上))) (, ，) (LCP (NP (CP (CP (IP (NP (NNP 东道) (SFN 国)) (VP (VV 获得))) (DEC 的))) (QP (CD 51) (CLP (NNB 枚))) (NP (NN 金牌))) (IN 中)) (, ，) (VP (ADVP (RB 也许)) (VP (VV 没有) (IP (NP (CP (CP (IP (NP (DP (DT 其他)) (NP (NN 项目))) (VP (PP (IN 像) (NP (NN 女子) (NN 体操) (SFN 队))) (VP (VV 获得)))) (DEC 的))) (NP (NN 金牌))) (VP (ADVP (RB 那样)) (VP (VV 令) (NP (NN 人)) (IP (VP (JJ 愉快))))))))) (, ，) (IP (VP (ADVP (RB 也许)) (VP (VV 没有) (IP (NP (DP (DT 其他)) (NP (NN 项目))) (VP (PP (IN 像) (NP (CP (CP (IP (NP (NN 女子) (NN 体操) (SFN 队)) (VP (VV 获得))) (DEC 的))) (NP (NN 金牌)))) (ADVP (RB 那样)) (VP (VV 引发) (NP (NN 争议)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP4381': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'LCP': {}, ',98200': {}, 'VP': {}}, ',': {}, 'IP38313': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'LCP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'LCP': {}, ',': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+在	会	case
+北京	会	nmod
+奥运	会	compound
+会	有	obl
+上	会	case
+，	会	punct
+东道	国	compound
+国	获得	nsubj
+获得	金牌	acl:relcl
+的	获得	mark:rel
+51	枚	nummod
+枚	金牌	clf
+金牌	有	nsubj
+中	金牌	case
+，	金牌	punct
+也许	有	advmod
+有	ROOT	root
+其他	项目	det
+项目	令	nsubj
+像	队	case
+女子	队	nmod
+体操	队	compound
+队	获得	obl
+获得	金牌	acl:relcl
+的	获得	mark:rel
+金牌	令	nsubj
+那样	令	advmod
+令	有	ccomp
+人	愉快	nsubj
+愉快	令	ccomp
+，	有	punct
+也许	有	advmod
+有	有	parataxis
+其他	项目	det
+项目	引发	nsubj
+像	队	case
+女子	队	nmod
+体操	队	compound
+队	获得	obl
+获得	金牌	acl:relcl
+的	获得	mark:rel
+金牌	引发	nsubj
+那样	引发	advmod
+引发	有	ccomp
+争议	引发	obj
+。	有	punct
+----------------------------------------------------------------------
+中国在两年前获得了世界冠军，美国在 2007 年夺回了冠军。
+
+(ROOT (IP (IP (NP (NNP 中国)) (VP (PP (IN 在) (LCP (QP (CD 两) (CLP (NNB 年))) (IN 前))) (VP (VV 获得) (AS 了) (NP (NN 世界) (NN 冠军))))) (, ，) (IP (NP (NNP 美国)) (VP (PP (IN 在) (NP (CD 2007))) (VP (NNB 年夺回) (AS 了) (NP (NN 冠军))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP12906': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP40340': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+中国	获得	nsubj
+在	年	case
+两	年	nummod
+年	获得	obl
+前	年	case
+获得	ROOT	root
+了	获得	aux
+世界	冠军	nmod
+冠军	获得	obj
+，	年夺回	punct
+美国	年夺回	nsubj
+在	2007	case
+2007	年夺回	nummod
+年夺回	获得	parataxis
+了	年夺回	aux
+冠军	年夺回	obj
+。	获得	punct
+----------------------------------------------------------------------
+虽然美国队没有发挥出最佳水平，但这场高度期待的重新对决却如愿以偿。
+
+(ROOT (IP (CP (ADVP (IN 虽然)) (IP (NP (NP (NNP 美国)) (NP (SFN 队))) (VP (VV 没有) (VP (VRD (VV 发挥) (VV 出)) (NP (ADJP (JJ 最佳)) (NP (NN 水平))))))) (, ，) (ADVP (RB 但)) (NP (DP (DT 这) (CLP (NNB 场))) (CP (CP (IP (VP (ADVP (NN 高度)) (VP (VV 期待)))) (DEC 的))) (ADJP (JJ 重新)) (NP (NN 对决))) (VP (ADVP (RB 却)) (ADVP (VV 如愿)) (VP (VV 以偿))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'DP': {}, 'CP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP80775': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'DP': {}, 'CP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DP': {}, 'CP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+虽然	有	case
+美国	队	compound
+队	有	nsubj
+有	如愿	ccomp
+发挥	有	xcomp
+出	发挥	mark
+最佳	水平	amod
+水平	发挥	obj
+，	有	punct
+但	如愿	mark
+这	场	det
+场	对决	clf
+高度	期待	obl
+期待	对决	acl:relcl
+的	期待	mark:rel
+重新	对决	amod
+对决	如愿	nsubj
+却	如愿	mark
+如愿	ROOT	root
+以偿	如愿	xcomp
+。	如愿	punct
+----------------------------------------------------------------------
+艾丽西亚·萨克拉芒在地板操和平衡木上都犯了失误，尽管如此，她还是以非凡的优雅处理了失误。
+
+(ROOT (IP (IP (NP (NNP 艾丽西亚) (/ ·) (NNP 萨克拉) (NNP 芒)) (VP (PP (IN 在) (LCP (NP (NN 地板) (SFN 操) (CC 和) (NN 平衡)) (NN 木上))) (ADVP (RB 都)) (VP (VV 犯) (AS 了) (NP (NN 失误))))) (, ，) (IP (IP (VP (ADVP (IN 尽管)) (VP (NP (VV 如此))))) (, ，) (NP (PRP 她)) (VP (ADVP (RB 还是)) (PP (IN 以) (NP (CP (CP (IP (VP (JJ 非凡))) (DEC 的))) (NP (NN 优雅)))) (VP (VV 处理) (AS 了) (NP (NN 失误))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP13584': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP56262': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+艾丽西亚	芒	nmod
+·	萨克拉	punct
+萨克拉	艾丽西亚	flat:name
+芒	犯	nsubj
+在	操	case
+地板	操	compound
+操	犯	obl
+和	木上	cc
+平衡	木上	nmod
+木上	操	conj
+都	犯	mark
+犯	ROOT	root
+了	犯	aux
+失误	犯	obj
+，	处理	punct
+尽管	如此	case
+如此	处理	xcomp
+，	如此	punct
+她	处理	nsubj
+还是	处理	mark
+以	优雅	case
+非凡	优雅	amod
+的	非凡	mark:rel
+优雅	处理	obl
+处理	犯	parataxis
+了	处理	aux
+失误	处理	obj
+。	犯	punct
+----------------------------------------------------------------------
+但是，看到这些看起来刚刚进入青春期的中国体操运动员，人们怀疑他们使用了未成年体操运动员。
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (IP (VP (VV 看到) (NP (DP (DT 这些)) (CP (CP (IP (VP (VRD (VV 看) (VV 起来)) (VP (ADVP (RB 刚刚)) (VP (VV 进入) (NP (NN 青春) (SFN 期)))))) (DEC 的))) (NP (NNP 中国)) (NP (NN 体操) (VV 运动) (SFN 员))))) (, ，) (NP (NN 人们)) (VP (VV 怀疑) (IP (NP (PRP 他们)) (VP (VV 使用) (AS 了) (NP (ADJP (ADVP (RB 未)) (ADJP (NN 成年))) (NP (NN 体操) (VV 运动) (SFN 员)))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',601': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'VP': {}}, ',92191': {}, 'NP': {'NN': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+但是	看到	mark
+，	但是	punct
+看到	ROOT	root
+这些	员	det
+看	员	acl:relcl
+起来	看	mark
+刚刚	进入	advmod
+进入	看	xcomp
+青春	期	compound
+期	进入	obj
+的	看	mark:rel
+中国	员	nmod
+体操	员	nmod
+运动	员	compound
+员	看到	obj
+，	员	punct
+人	怀疑	nsubj
+怀疑	看到	parataxis
+他	使用	nsubj
+使用	怀疑	ccomp
+了	使用	aux
+未	员	advmod
+成年	员	nmod
+体操	员	nmod
+运动	员	compound
+员	使用	obj
+。	看到	punct
+----------------------------------------------------------------------
+曾在美国国家体操队任职的前教练贝拉·卡罗瑞 (Bela Karolyi) 在 NBC 工作时指责中国“使用半人”。
+
+(ROOT (IP (NP (NP (CP (CP (IP (VP (ADVP (RB 曾)) (PP (VV 在) (NP (NNP 美国) (NN 国家) (NN 体操) (SFN 队))) (VP (VV 任职)))) (DEC 的))) (ADJP (PFA 前)) (NP (NN 教练))) (NP (NNP 贝拉) (/ ·) (NNP 卡罗瑞) (FW -LRB-Bela) (FW Karolyi-RRB-))) (VP (LCP (IP (VP (PP (VV 在) (NP (FW NBC))) (VP (VV 工作)))) (IN 时)) (VP (VV 指责) (NP (NNP 中国)) (IP (VP (`` “) (VV 使用) (NP (QP (CD 半)) (NP (NN 人))) ('' ”))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP60249': {}}, 'VP': {'LCP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'LCP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'LCP': {}, 'VP': {}}}
+Dependency Features:
+曾	任职	advmod
+在	任职	advcl
+美国	队	nmod
+国家	队	nmod
+体操	队	compound
+队	在	obj
+任职	教练	acl:relcl
+的	任职	mark:rel
+前	教练	case
+教练	指责	nsubj
+贝拉	教练	appos
+·	卡罗瑞	punct
+卡罗瑞	贝拉	flat:name
+(Bela	教练	appos
+Karolyi)	(Bela	flat:foreign
+在	工作	advcl
+NBC	在	obj
+工作	指责	advcl
+时	工作	mark
+指责	ROOT	root
+中国	使用	nsubj
+“	使用	punct
+使用	指责	ccomp
+半	人	nummod
+人	使用	obj
+”	使用	punct
+。	指责	punct
+----------------------------------------------------------------------
+体操官员调查了这些指控，包括一些出生证明不一致的指控，但他们得出结论，这些女孩至少 16 岁，年龄够赛事参赛。
+
+(ROOT (IP (IP (NP (NN 体操) (NN 官员)) (VP (VV 调查) (AS 了) (NP (DP (DT 这些)) (NP (NN 指控))))) (, ，) (IP (VP (VV 包括) (NP (QP (JJ 一些)) (CP (CP (IP (NP (VV 出生) (VV 证明)) (VP (ADVP (RB 不)) (VP (JJ 一致)))) (DEC 的))) (NP (NN 指控))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 他们)) (VP (VV 得出) (NP (NN 结论)))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 女孩))) (VP (QP (ADVP (RB 至少)) (QP (CD 16) (CLP (NNB 岁)))))) (, ，) (IP (NP (NN 年龄)) (VP (VP (VV 够) (NP (NN 赛事))) (VP (VV 参赛)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP60271': {}, ',95983': {}, 'IP42086': {}, ',96667': {}, 'IP58519': {}, ',62615': {}, 'IP20583': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP11008': {'VP': {}}, ',95292': {}, 'IP51161': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',96227': {}, 'IP24989': {'NP': {}, 'VP': {}}, ',34196': {}, 'IP30524': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+体操	官员	nmod
+官员	调查	nsubj
+调查	ROOT	root
+了	调查	aux
+这些	指控	det
+指控	包括	nsubj
+，	指控	punct
+包括	调查	ccomp
+一些	指控	amod
+出生	指控	acl:relcl
+证明	出生	xcomp
+不	一致	advmod
+一致	证明	xcomp
+的	出生	mark:rel
+指控	包括	obj
+，	得出	punct
+但	得出	mark
+他	得出	nsubj
+得出	调查	parataxis
+结论	得出	obj
+，	够	punct
+这些	女孩	det
+女孩	够	nsubj
+至少	岁	advmod
+16	岁	nummod
+岁	够	nmod:tmod
+，	岁	punct
+年龄	够	nsubj
+够	调查	parataxis
+赛事	参赛	nsubj
+参赛	够	xcomp
+。	调查	punct
+----------------------------------------------------------------------
+在女子个人项目上，美国获得了一定程度的复仇，纳斯蒂亚·柳金在全能项目中获得了冠军，山尼·约翰逊在平衡木项目中获得了金牌。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (NP (NN 女子) (NN 个人) (NN 项目)) (IN 上))) (, ，) (NP (NNP 美国)) (VP (VV 获得) (AS 了) (NP (DNP (NP (ADJP (JJ 一定)) (NP (NN 程度))) (DEC 的)) (NP (NN 复仇))))) (, ，) (IP (NP (NNP 纳斯蒂亚) (/ ·) (NNP 柳金)) (VP (PP (IN 在) (LCP (NP (ADJP (JJ 全能)) (NP (NN 项目))) (IN 中))) (VP (VV 获得) (AS 了) (NP (NN 冠军))))) (, ，) (IP (NP (NNP 山尼) (/ ·) (NNP 约翰) (NNP 逊)) (VP (PP (IN 在) (LCP (NP (NN 平衡) (SFN 木) (NN 项目)) (IN 中))) (VP (VV 获得) (AS 了) (NP (NN 金牌))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP848': {}, ',64104': {}, 'IP97838': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP23554': {'NP': {}, 'VP': {}}, ',94474': {}, 'IP79377': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+在	项目	case
+女子	项目	nmod
+个人	项目	nmod
+项目	获得	obl
+上	项目	case
+，	项目	punct
+美国	获得	nsubj
+获得	ROOT	root
+了	获得	aux
+一定	程度	amod
+程度	复仇	nmod
+的	程度	case
+复仇	获得	obj
+，	获得	punct
+纳斯蒂亚	获得	nsubj
+·	柳金	punct
+柳金	纳斯蒂亚	flat:name
+在	项目	case
+全能	项目	nmod
+项目	获得	obl
+中	项目	case
+获得	获得	parataxis
+了	获得	aux
+冠军	获得	obj
+，	获得	punct
+山尼	获得	nsubj
+·	约翰	punct
+约翰	山尼	flat:name
+逊	山尼	flat:name
+在	项目	case
+平衡	木	compound
+木	项目	nmod
+项目	获得	obl
+中	项目	case
+获得	获得	parataxis
+了	获得	aux
+金牌	获得	obj
+。	获得	punct
+----------------------------------------------------------------------
+进入与西班牙的决赛，被称为“复仇队”的美国男篮实际上还没有受到考验。
+
+(ROOT (IP (IP (VP (VV 进入) (NP (DNP (PP (IN 与) (NP (NNP 西班牙))) (DEC 的)) (NP (NN 决赛))))) (, ，) (NP (CP (CP (IP (VP (BB 被) (VP (VCP (VV 称) (VC 为)) (NP (`` “) (VV 复仇) (SFN 队) ('' ”))))) (DEC 的))) (NP (NNP 美国)) (NP (NN 男篮))) (VP (LCP (NP (NN 实际)) (IN 上)) (ADVP (RB 还)) (VP (VV 没有) (VP (VV 受到) (NP (NN 考验))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}, 'NP61860': {}}, 'VP': {'LCP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}, 'NP': {}}, 'VP': {'LCP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'CP': {}, 'NP': {}, 'NP': {}}}
+{'VP': {'LCP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+进入	决赛	acl:relcl
+与	西班牙	case
+西班牙	进入	obl
+的	进入	mark:rel
+决赛	有	obl
+，	决赛	punct
+被	称	aux:pass
+称	男篮	acl:relcl
+为	称	mark
+“	队	punct
+复仇	队	compound
+队	称	obj
+”	队	punct
+的	称	mark:rel
+美国	男篮	nmod
+男篮	有	nsubj
+实际	有	obl
+上	实际	case
+还	有	mark
+有	ROOT	root
+受到	有	xcomp
+考验	受到	obj
+。	有	punct
+----------------------------------------------------------------------
+在前七场比赛中，科比·布莱恩特、莱布昂·詹姆斯和其他人平均以 29 分的优势击败对手，包括在半决赛中以大比分击败阿根廷队，而阿根廷队的明星球员曼努·吉诺比利因伤无法上场。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (NP (DP (DT 前) (QP (CD 七) (CLP (NNB 场)))) (NP (NN 比赛))) (IN 中))) (, ，) (NP (NP (NNP 科比) (/ ·) (NNP 布莱恩特)) (EC 、) (NP (NNP 莱布昂) (/ ·) (NNP 詹姆斯)) (CC 和) (NP (DP (DT 其他)) (NP (NN 人)))) (VP (ADVP (RB 平均)) (PP (IN 以) (NP (DNP (QP (CD 29) (CLP (NNB 分))) (DEC 的)) (NP (NN 优势)))) (VP (VV 击败) (NP (NN 对手))))) (, ，) (IP (VP (VV 包括) (IP (VP (PP (IN 在) (LCP (NP (ADJP (CD 半)) (NP (NN 决赛))) (IN 中))) (PP (IN 以) (NP (ADJP (PFA 大)) (NP (NN 比分)))) (VP (VV 击败) (NP (NNP 阿根廷) (SFN 队))))))) (, ，) (RB 而) (IP (NP (NP (DNP (NP (NNP 阿根廷) (SFN 队)) (DEC 的)) (NP (NN 明星) (NN 球员))) (NP (NNP 曼努) (/ ·) (NNP 吉诺) (NNP 比利))) (VP (VV 因伤) (IP (VP (ADVP (VV 无法)) (VP (VV 上场)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP72207': {}, ',74117': {}, 'RB': {}, 'IP21179': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'RB': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP88112': {'VP': {}}, ',15291': {}, 'RB': {}, 'IP2255': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'RB': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+在	比赛	case
+前	场	det
+七	场	nummod
+场	比赛	nmod
+比赛	包括	obl
+中	比赛	case
+，	比赛	punct
+科比	包括	nsubj
+·	布莱恩特	punct
+布莱恩特	科比	flat:name
+、	莱布昂	punct
+莱布昂	科比	conj
+·	詹姆斯	punct
+詹姆斯	莱布昂	flat:name
+和	人	cc
+其他	人	det
+人	科比	conj
+平均	击败	advmod
+以	优势	case
+29	分	nummod
+分	优势	nmod
+的	分	mark:rel
+优势	击败	obl
+击败	包括	advcl
+对手	击败	obj
+，	击败	punct
+包括	击败	advcl
+在	决赛	case
+半	决赛	nummod
+决赛	击败	obl
+中	决赛	case
+以	比分	case
+大	比分	case
+比分	击败	obl
+击败	无法	advcl
+阿根廷	队	compound
+队	击败	obj
+，	击败	punct
+而	击败	mark
+阿根廷	队	compound
+队	球员	nmod
+的	队	case
+明星	球员	nmod
+球员	无法	nsubj
+曼努	球员	appos
+·	吉诺	punct
+吉诺	曼努	flat:name
+比利	球员	appos
+因伤	无法	advcl
+无法	ROOT	root
+上场	无法	xcomp
+。	无法	punct
+----------------------------------------------------------------------
+美国已经曾经一次战胜了最后一个对手西班牙，而球队的首发控卫何塞·卡尔德龙因伤缺阵。
+
+(ROOT (IP (IP (NP (NNP 美国)) (VP (ADVP (RB 已经)) (ADVP (RB 曾经)) (QP (CD 一) (CLP (NNB 次))) (VP (VV 战胜) (AS 了) (NP (NP (QP (ADJP (NN 最后)) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 对手))) (NP (NNP 西班牙)))))) (, ，) (RB 而) (IP (NP (NP (DNP (NP (NN 球队)) (DEC 的)) (ADJP (NN 首发)) (NP (NN 控卫))) (NP (NNP 何塞) (/ ·) (NNP 卡尔德龙))) (VP (ADVP (VV 因伤)) (VP (VV 缺阵)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'RB': {}, 'IP55165': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'RB': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'RB': {}, 'IP51470': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'RB': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+美国	战胜	nsubj
+已经	战胜	advmod
+曾经	战胜	advmod
+一	次	nummod
+次	战胜	obl
+战胜	ROOT	root
+了	战胜	aux
+最后	对手	nmod
+一	个	nummod
+个	对手	clf
+对手	战胜	obj
+西班牙	对手	appos
+，	因伤	punct
+而	因伤	mark
+球队	控卫	nmod
+的	球队	case
+首发	控卫	nmod
+控卫	因伤	nsubj
+何塞	控卫	appos
+·	卡尔德龙	punct
+卡尔德龙	何塞	flat:name
+因伤	战胜	parataxis
+缺阵	因伤	xcomp
+。	战胜	punct
+----------------------------------------------------------------------
+大家都认为，金牌只是形式而已。
+
+(ROOT (IP (NP (NN 大家)) (VP (ADVP (RB 都)) (VP (VV 认为) (, ，) (IP (IP (NP (NN 金牌)) (VP (ADVP (RB 只)) (VP (VC 是) (NP (NN 形式))))) (VP (UH 而已))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+大家	为	nsubj
+都	为	mark
+为	ROOT	root
+，	形式	punct
+金牌	形式	nsubj
+只	形式	advmod
+是	形式	cop
+形式	为	ccomp
+而已	形式	discourse
+。	为	punct
+----------------------------------------------------------------------
+但要夺回世界杯的桂冠，显然不是一件容易的事。
+
+(ROOT (IP (ADVP (RB 但)) (NP (CP (CP (IP (VP (MD 要) (VP (VV 夺回) (NP (NN 世界) (SFN 杯))))) (DEC 的))) (NP (NN 桂冠))) (, ，) (VP (ADVP (RB 显然)) (VP (VC 不是) (NP (QP (CD 一) (CLP (NNB 件))) (CP (CP (IP (VP (JJ 容易))) (DEC 的))) (NP (NN 事))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'CP': {}, 'NP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'CP': {}, 'NP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+但	事	mark
+要	夺回	aux
+夺回	桂冠	acl:relcl
+世界	杯	compound
+杯	夺回	obj
+的	夺回	mark:rel
+桂冠	事	nsubj
+，	桂冠	punct
+显然	事	advmod
+是	事	cop
+一	件	nummod
+件	事	clf
+容易	事	amod
+的	容易	mark:rel
+事	ROOT	root
+。	事	punct
+----------------------------------------------------------------------
+西班牙队出场，在剩下 8 分钟时将美国队的领先优势缩小到两分，91-89。
+
+(ROOT (IP (NP (NP (NNP 西班牙)) (NP (SFN 队))) (VP (VP (VV 出场)) (, ，) (VP (PP (IN 在) (LCP (IP (VP (VV 剩下) (QP (CD 8) (CLP (NNB 分钟))))) (IN 时))) (VP (BB 将) (IP (NP (DNP (NP (NNP 美国) (SFN 队)) (DEC 的)) (NP (NN 领先) (NN 优势))) (VP (VRD (VV 缩小) (VV 到)) (QP (QP (CD 两) (CLP (NNB 分))) (, ，) (CD 91-89))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP19797': {}}, 'VP': {'VP': {}, ',': {}, 'VP66018': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+西班牙	队	compound
+队	缩小	nsubj
+出场	缩小	advcl
+，	出场	punct
+在	剩下	case
+剩下	缩小	xcomp
+8	分钟	nummod
+分钟	剩下	obl
+时	剩下	mark
+将	优势	case
+美国	队	compound
+队	优势	nmod
+的	队	case
+领先	优势	nmod
+优势	缩小	obl:patient
+缩小	ROOT	root
+到	缩小	mark
+两	分	nummod
+分	缩小	obj
+，	91-89	punct
+91-89	分	conj
+。	缩小	punct
+----------------------------------------------------------------------
+随后，布莱恩特开始爆发，他接连进了三个三分球，让美国队扩大了五分的领先优势。最后三分钟，他命中了一记三分球，让美国队有了充足的休息时间，并且在比赛中被犯规了。
+
+(ROOT (IP (IP (ADVP (RB 随后)) (, ，) (NP (NNP 布莱恩特)) (VP (VV 开始) (VP (VV 爆发)))) (, ，) (IP (NP (PRP 他)) (VP (VP (ADVP (RB 接连)) (VP (VV 进) (AS 了) (NP (QP (CD 三) (CLP (NNB 个))) (QP (CD 三) (CLP (NNB 分))) (NP (NN 球))))) (, ，) (VP (VV 让) (NP (NP (NNP 美国)) (NP (SFN 队))) (IP (VP (VV 扩大) (AS 了) (NP (DNP (QP (CD 五) (CLP (NNB 分))) (DEC 的)) (NP (NN 领先) (NN 优势)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP30491': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP6946': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+随后	开始	advmod
+，	随后	punct
+布莱恩特	开始	nsubj
+开始	ROOT	root
+爆发	开始	xcomp
+，	扩大	punct
+他	扩大	nsubj
+接连	进	advmod
+进	扩大	advcl
+了	进	aux
+三	个	nummod
+个	球	clf
+三	分	nummod
+分	球	clf
+球	进	obj
+，	进	punct
+让	扩大	advcl
+美国	队	compound
+队	让	obj
+扩大	开始	parataxis
+了	扩大	aux
+五	分	nummod
+分	优势	nmod
+的	分	mark:rel
+领先	优势	nmod
+优势	扩大	obj
+。	扩大	punct
+----------------------------------------------------------------------
+Bryant用手指把嘴做了个圈，试图把他的批评者嘴巴堵住，这通常被视为又一个带有美国式霸道的行为。
+
+(ROOT (IP (IP (NP (FW Bryant)) (VP (VP (PP (VV 用) (NP (NN 手指))) (VP (BB 把) (IP (NP (NN 嘴)) (VP (VV 做) (AS 了) (NP (QP (CLP (NNB 个))) (NP (NN 圈))))))) (, ，) (VP (VV 试图) (IP (VP (BB 把) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (VV 批评) (SFN 者) (NN 嘴))) (VP (VRD (NNP 巴堵) (VV 住))))))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 通常)) (VP (BB 被) (VP (VCP (VV 视) (VC 为)) (NP (QP (ADVP (RB 又)) (QP (CD 一) (CLP (NNB 个)))) (CP (CP (IP (VP (VV 带有) (NP (NP (NNP 美国)) (ADJP (SFN 式)) (NP (JJ 霸道))))) (DEC 的))) (NP (NN 行为))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP68522': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP82704': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+Bryant	试图	nsubj
+用	试图	advcl
+手指	用	obj
+把	嘴	case
+嘴	做	obl:patient
+做	试图	advcl
+了	做	aux
+个	圈	nmod
+圈	做	iobj
+，	做	punct
+试图	ROOT	root
+把	巴堵	case
+他	者	det
+的	他	case
+批评	者	compound
+者	巴堵	nmod
+嘴	巴堵	nmod
+巴堵	住	obl:patient
+住	试图	xcomp
+，	视	punct
+这	视	nsubj:pass
+通常	视	advmod
+被	视	aux:pass
+视	试图	parataxis
+为	视	mark
+又	带有	mark
+一	个	nummod
+个	行为	clf
+带有	行为	acl:relcl
+美国	式	compound
+式	霸道	nmod
+霸道	带有	xcomp
+的	带有	mark:rel
+行为	视	obj
+。	试图	punct
+----------------------------------------------------------------------
+但在一场拥有巨大赌注的经典比赛的炎热中，你可以理解，甚至可以理解，布莱恩特的原始情感。
+
+(ROOT (IP (ADVP (RB 但)) (PP (IN 在) (LCP (NP (DNP (NP (QP (CD 一) (CLP (NNB 场))) (CP (CP (IP (VP (VV 拥有) (NP (ADJP (JJ 巨大)) (NP (NN 赌注))))) (DEC 的))) (ADJP (NN 经典)) (NP (NN 比赛))) (DEC 的)) (NP (NN 炎热))) (IN 中))) (, ，) (NP (PRP 你)) (VP (VP (MD 可以) (VP (VV 理解))) (, ，) (VP (ADVP (RB 甚至)) (VP (MD 可以) (VP (VV 理解) (, ，) (NP (DNP (NP (NNP 布莱恩特)) (DEC 的)) (ADJP (JJ 原始)) (NP (NN 情感))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP45935': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+但	理解	mark
+在	炎热	case
+一	场	nummod
+场	炎热	clf
+拥有	比赛	acl:relcl
+巨大	赌注	amod
+赌注	拥有	obj
+的	拥有	mark:rel
+经典	比赛	nmod
+比赛	炎热	nmod
+的	拥有	mark:rel
+炎热	理解	obl
+中	炎热	case
+，	炎热	punct
+你	理解	nsubj
+可以	理解	aux
+理解	理解	advcl
+，	理解	punct
+甚至	理解	mark
+可以	理解	aux
+理解	ROOT	root
+，	情感	punct
+布莱恩特	情感	nmod
+的	布莱恩特	case
+原始	情感	amod
+情感	理解	obj
+。	理解	punct
+----------------------------------------------------------------------
+美国队以 118-107 的成绩获胜，重夺篮球金牌。
+
+(ROOT (IP (NP (NNP 美国)) (VP (VP (PP (CC 队以) (NP (DNP (QP (CD 118) (CD -107)) (DEC 的)) (NP (NN 成绩)))) (VP (VV 获胜))) (, ，) (VP (VV 重夺) (NP (NN 篮球) (NN 金牌)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP20728': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+美国	成绩	nmod
+队以	-107	cc
+118	-107	nummod
+-107	成绩	nmod
+的	-107	mark:rel
+成绩	重夺	nsubj
+获胜	重夺	advcl
+，	获胜	punct
+重夺	ROOT	root
+篮球	金牌	nmod
+金牌	重夺	obj
+。	重夺	punct
+----------------------------------------------------------------------
+在预赛中的一次失误之后，中国的跨栏选手刘翔像其他所有选手一样，走向了起跑区。
+
+(ROOT (IP (PP (IN 在) (LCP (NP (DNP (LCP (NP (NN 预赛)) (IN 中)) (DEC 的)) (QP (CD 一) (CLP (NNB 次))) (NP (NN 失误))) (IN 之后))) (, ，) (NP (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NN 跨栏) (NN 选手))) (NP (NNP 刘) (NNP 翔))) (VP (IP (VP (PP (IN 像) (NP (DP (DT 其他)) (DP (DT 所有)) (NP (NN 选手)))) (VP (JJ 一样)))) (, ，) (VP (VV 走) (PP (VV 向) (AS 了) (NP (VV 起跑) (SFN 区))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'NP21475': {}}, 'VP': {'IP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'IP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'IP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+在	失误	case
+预赛	失误	nmod
+中	预赛	case
+的	预赛	case
+一	次	nummod
+次	失误	clf
+失误	走	obl
+之后	失误	case
+，	失误	punct
+中国	选手	nmod
+的	中国	case
+跨栏	选手	nmod
+选手	走	nsubj
+刘	选手	appos
+翔	刘	flat:name
+像	选手	case
+其他	选手	det
+所有	选手	det
+选手	一样	nmod
+一样	走	advcl
+，	一样	punct
+走	ROOT	root
+向	走	mark
+了	走	aux
+起跑	区	compound
+区	走	obj
+。	走	punct
+----------------------------------------------------------------------
+但是，刘振宁并没有再次停在那里，他继续走向了远方，他的奥运奖牌梦想，以及整个国家的奥运梦想，消失在了体育馆的隧道中。
+
+(ROOT (IP (IP (ADVP (RB 但是)) (, ，) (NP (NNP 刘) (NNP 振宁)) (VP (ADVP (RB 并)) (VP (VV 没有) (VP (ADVP (RB 再次)) (VP (VV 停) (PP (VV 在) (NP (PRD 那里)))))))) (, ，) (IP (NP (PRP 他)) (VP (VV 继续) (VP (VV 走向) (AS 了) (NP (NN 远方))))) (, ，) (IP (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NNP 奥运) (NN 奖牌) (NN 梦想))) (, ，) (CC 以及) (NP (DNP (NP (DP (DT 整个)) (NP (NN 国家))) (DEC 的)) (NP (NNP 奥运) (NN 梦想)))) (, ，) (VP (VV 消失) (PP (VV 在) (AS 了) (LCP (NP (DNP (NP (NN 体育) (SFN 馆)) (DEC 的)) (NP (NN 隧道))) (NN 中))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP42353': {}, ',28135': {}, 'IP37887': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP78296': {'NP': {}, 'VP': {}}, ',9235': {}, 'IP97660': {'NP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+但是	有	mark
+，	但是	punct
+刘	有	nsubj
+振宁	刘	flat:name
+并	有	mark
+有	ROOT	root
+再次	停	advmod
+停	有	xcomp
+在	停	mark
+那里	停	obj
+，	继续	punct
+他	继续	nsubj
+继续	有	parataxis
+走向	继续	xcomp
+了	走向	aux
+远方	走向	obj
+，	消失	punct
+他	梦想	det
+的	他	case
+奥运	梦想	nmod
+奖牌	梦想	nmod
+梦想	消失	nsubj
+，	梦想	punct
+以及	梦想	cc
+整个	国家	det
+国家	梦想	nmod
+的	国家	case
+奥运	梦想	nmod
+梦想	梦想	conj
+，	梦想	punct
+消失	有	parataxis
+在	消失	mark
+了	消失	aux
+体育	馆	compound
+馆	隧道	nmod
+的	馆	case
+隧道	消失	obj
+中	隧道	acl
+。	有	punct
+----------------------------------------------------------------------
+在奥运会之前，刘翔已经受伤，在那场比赛中，他跑了一会儿后突然跑不动了，最终被确诊为脚踝受伤，他知道自己的运动生涯就此结束了。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (NP (NNP 奥运) (SFN 会)) (IN 之前))) (, ，) (NP (NNP 刘) (NNP 翔)) (VP (ADVP (RB 已经)) (VP (VV 受伤)))) (, ，) (IP (PP (IN 在) (LCP (NP (DP (DT 那) (CLP (NNB 场))) (NP (NN 比赛))) (IN 中))) (, ，) (NP (PRP 他)) (VP (VP (LCP (IP (VP (VV 跑) (AS 了) (QP (CD 一) (CLP (NN 会))))) (NN 儿后)) (ADVP (RB 突然)) (VP (VCD (VV 跑) (VV 不动)) (UH 了))) (, ，) (VP (ADVP (NN 最终)) (VP (BB 被) (VP (VRD (VV 确诊) (VC 为)) (IP (NP (NN 脚) (NN 踝)) (VP (VV 受伤)))))))) (, ，) (IP (NP (PRP 他)) (VP (VV 知道) (IP (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 运动) (NN 生涯))) (VP (ADVP (RB 就此)) (VP (VV 结束) (UH 了)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP19310': {}, ',36778': {}, 'IP63456': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP8189': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',55973': {}, 'IP23282': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+在	会	case
+奥运	会	compound
+会	受伤	obl
+之前	会	case
+，	会	punct
+刘	受伤	nsubj
+翔	刘	flat:name
+已经	受伤	advmod
+受伤	ROOT	root
+，	确诊	punct
+在	比赛	case
+那	场	det
+场	比赛	clf
+比赛	确诊	obl
+中	比赛	case
+，	比赛	punct
+他	确诊	nsubj:pass
+跑	动	advcl
+了	跑	aux
+一	会	nummod
+会	跑	obl
+儿后	跑	nmod:tmod
+突然	跑	advmod
+跑	动	advcl
+动	确诊	advcl
+了	动	discourse
+，	动	punct
+最终	确诊	nmod:tmod
+被	确诊	aux:pass
+确诊	受伤	parataxis
+为	确诊	mark
+脚	踝	nmod
+踝	受伤	nsubj
+受伤	确诊	ccomp
+，	知道	punct
+他	知道	nsubj
+知道	受伤	parataxis
+自己	生涯	det
+的	自己	case
+运动	生涯	nmod
+生涯	结束	nsubj
+就此	结束	advmod
+结束	知道	ccomp
+了	知道	discourse
+。	受伤	punct
+----------------------------------------------------------------------
+很难夸大对于刘翔这位雅典奥运会 110 米金牌得主的期望。
+
+(ROOT (IP (VP (ADVP (RB 很难)) (VP (VV 夸) (VP (RB 大) (NP (DNP (PP (IN 对于) (NP (NP (NNP 刘) (NNP 翔)) (DP (DT 这) (CLP (NNB 位))) (NP (NNP 雅典) (NNP 奥运) (SFN 会)) (QP (CD 110) (CLP (NN 米金牌))) (NP (NN 得主)))) (DEC 的)) (NP (NN 期望)))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+很难	夸	advmod
+夸	ROOT	root
+大	期望	advmod
+对于	期望	case
+刘	期望	nmod
+翔	刘	flat:name
+这	位	det
+位	得主	clf
+雅典	会	nmod
+奥运	会	compound
+会	得主	nmod
+110	米金牌	nummod
+米金牌	得主	nmod
+得主	期望	nmod
+的	期望	case
+期望	夸	obj
+。	夸	punct
+----------------------------------------------------------------------
+“官员告诉我们，如果刘璇在北京不能获得金牌，她以前所有的成就都会变得毫无意义，”刘璇的教练孙海平去年对媒体说。
+
+(ROOT (IP (IP (`` “) (NP (NN 官员)) (VP (VV 告诉) (NP (PRP 我们)) (, ，) (IP (CP (ADVP (IN 如果)) (IP (NP (NNP 刘) (NNP 璇)) (VP (PP (VV 在) (NP (NNP 北京))) (VP (MD 不能) (VP (VV 获得) (NP (NN 金牌))))))) (, ，) (NP (PRP 她)) (NP (NN 以前)) (NP (DNP (DP (DT 所有)) (DEC 的)) (NP (NN 成就))) (VP (ADVP (RB 都)) (VP (MD 会) (VP (VV 变得) (VP (VV 毫无) (NP (NN 意义))))))))) (, ，) ('' ”) (IP (NP (NP (DNP (NP (NNP 刘) (NNP 璇)) (DEC 的)) (NP (NN 教练))) (NP (NNP 孙) (NNP 海平))) (VP (NP (NN 去年)) (PP (IN 对) (NP (NN 媒体))) (VP (VV 说)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP31792': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP79625': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+“	告诉	punct
+官员	告诉	nsubj
+告诉	变得	advcl
+我	告诉	obj
+，	告诉	punct
+如果	获得	case
+刘	获得	nsubj
+璇	刘	flat:name
+在	获得	advcl
+北京	在	obj
+能	获得	aux
+获得	变得	ccomp
+金牌	获得	obj
+，	获得	punct
+她	成就	nmod
+以前	成就	nmod
+所有	成就	det
+的	所有	case
+成就	变得	nsubj
+都	变得	mark
+会	变得	aux
+变得	ROOT	root
+毫无	变得	xcomp
+意义	毫无	obj
+，	说	punct
+”	说	punct
+刘	教练	nmod
+璇	刘	flat:name
+的	刘	case
+教练	说	nsubj
+孙	教练	appos
+海平	孙	flat:name
+去年	说	nmod:tmod
+对	媒体	case
+媒体	说	obl
+说	变得	parataxis
+。	变得	punct
+----------------------------------------------------------------------
+这可以解释为什么大家对他的离开感到惊讶和沉默；鸟巢 91,000 名球迷为了欢呼他而来，但他们都沉默了。
+
+(ROOT (IP (IP (NP (PRD 这)) (VP (MD 可以) (VP (VV 解释) (IN 为) (IP (NP (WP 什么)) (NP (PRD 大家)) (VP (PP (IN 对) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 离开)))) (VP (VV 感到) (NP (JJ 惊讶) (CC 和) (JJ 沉默)))))))) (: ；) (IP (NP (NNP 鸟巢)) (QP (CD 91,000)) (NP (NN 名球迷)) (VP (PP (IN 为了) (IP (VP (VV 欢呼) (NP (PRP 他))))) (VP (VV 而来)))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 他们)) (VP (ADVP (RB 都)) (VP (JJ 沉默) (UH 了)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP87799': {}, ',': {}, 'IP74246': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP84130': {'NP': {}, 'QP': {}, 'NP65961': {}, 'VP': {}}, ',': {}, 'IP16274': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'QP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'QP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+这	解释	nsubj
+可以	解释	aux
+解释	ROOT	root
+为	什么	case
+什么	感到	obl
+大家	离开	nmod
+对	离开	case
+他	离开	det
+的	他	case
+离开	感到	obl
+感到	解释	ccomp
+惊讶	感到	xcomp
+和	沉默	cc
+沉默	感到	conj
+；	沉默	punct
+鸟巢	名球迷	nmod
+91,000	名球迷	nummod
+名球迷	沉默	nsubj
+为了	欢呼	case
+欢呼	沉默	xcomp
+他	而来	nsubj
+而来	欢呼	ccomp
+，	欢呼	punct
+但	沉默	mark
+他	沉默	nsubj
+都	沉默	mark
+沉默	解释	parataxis
+了	沉默	discourse
+。	解释	punct
+----------------------------------------------------------------------
+在比赛后的新闻发布会上，孙杨崩溃地哭了。他并不孤单。
+
+(ROOT (IP (PP (IN 在) (LCP (NP (DNP (LCP (NP (VV 比赛)) (IN 后)) (DEC 的)) (NP (NN 新闻) (VV 发布) (SFN 会))) (IN 上))) (, ，) (NP (NNP 孙) (NNP 杨)) (VP (DVP (VP (VV 崩溃)) (DEV 地)) (VP (VV 哭) (UH 了))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}, 'NNP50791': {}}, 'VP': {'DVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}, 'NNP': {}}, 'VP': {'DVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NNP': {}, 'NNP': {}}}
+{'VP': {'DVP': {}, 'VP': {}}}
+Dependency Features:
+在	会	case
+比赛	会	acl:relcl
+后	比赛	mark
+的	比赛	mark:rel
+新闻	会	nmod
+发布	会	compound
+会	哭	obl
+上	会	case
+，	会	punct
+孙	哭	nsubj
+杨	孙	flat:name
+崩溃	哭	advcl
+地	崩溃	mark:adv
+哭	ROOT	root
+了	哭	discourse
+。	哭	punct
+----------------------------------------------------------------------
+伊萨贝拉独享鸟巢。
+
+(ROOT (IP (NP (NNP 伊萨) (NNP 贝拉)) (VP (VV 独享) (NP (NN 鸟) (SFN 巢))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, 'NNP20023': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, 'NNP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NNP': {}, 'NNP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+伊萨	贝拉	nmod
+贝拉	独享	nsubj
+独享	ROOT	root
+鸟	巢	compound
+巢	独享	obj
+。	独享	punct
+----------------------------------------------------------------------
+当晚的田径赛事已经结束，除了女子撑杆跳高，这项运动很少被放在首要位置。
+
+(ROOT (IP (IP (NP (DNP (NP (NN 当晚)) (DEC 的)) (NP (NN 田径) (NN 赛事))) (VP (ADVP (RB 已经)) (VP (VV 结束)))) (, ，) (IP (PP (VV 除) (PP (AS 了) (NP (NP (NN 女子)) (ADJP (NN 撑杆)) (NP (VV 跳高))))) (, ，) (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 运动))) (VP (ADVP (RB 很少)) (VP (BB 被) (VP (VV 放) (PP (VV 在) (NP (ADJP (JJ 首要)) (NP (NN 位置)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP58642': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP54362': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+当晚	赛事	nmod
+的	当晚	case
+田径	赛事	nmod
+赛事	除	nsubj
+已经	结束	advmod
+结束	除	advcl
+，	结束	punct
+除	ROOT	root
+了	除	aux
+女子	撑杆	nmod
+撑杆	跳高	nsubj
+跳高	除	ccomp
+，	放	punct
+这	项	det
+项	运动	clf
+运动	放	nsubj:pass
+很少	放	advmod
+被	放	aux:pass
+放	除	parataxis
+在	放	mark
+首要	位置	amod
+位置	放	obj
+。	除	punct
+----------------------------------------------------------------------
+但是，伊辛巴耶娃在场，约有 8 万名球迷瞩目，因为她有一次机会打破自己的世界纪录。
+
+(ROOT (IP (IP (ADVP (RB 但是)) (, ，) (NP (NNP 伊辛巴耶娃)) (VP (VV 在场))) (, ，) (IP (VP (ADVP (RB 约)) (VP (VV 有) (IP (NP (QP (CD 8) (QP (CD 万) (CLP (NNB 名)))) (NP (NN 球迷))) (VP (NN 瞩目)))))) (, ，) (PP (IN 因为) (IP (NP (PRP 她)) (VP (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 次))) (NP (NN 机会)))) (VP (VV 打破) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 世界) (NN 纪录))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP18429': {}, ',74821': {}, 'PP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP82908': {'VP': {}}, ',85626': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+Dependency Features:
+但是	有	mark
+，	但是	punct
+伊辛巴耶娃	有	nsubj
+在场	有	advcl
+，	在场	punct
+约	有	advmod
+有	ROOT	root
+8	名	nummod
+万	名	nummod
+名	瞩目	nmod
+球迷	瞩目	nmod
+瞩目	有	obj
+，	有	punct
+因为	有	case
+她	有	nsubj
+有	有	ccomp
+一	次	nummod
+次	机会	clf
+机会	打破	nsubj
+打破	有	ccomp
+自己	纪录	det
+的	自己	case
+世界	纪录	nmod
+纪录	打破	obj
+。	有	punct
+----------------------------------------------------------------------
+高台 5.05 米高，比她前一个月创造的 5.04 米的世界纪录高了一点点。
+
+(ROOT (IP (NP (NN 高台)) (VP (VP (QP (CD 5.05) (CLP (FW 米高)))) (, ，) (VP (PP (IN 比) (NP (NP (PRP 她)) (CP (CP (IP (VP (NP (DP (DT 前) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 月))) (VP (VV 创造)))) (DEC 的))) (DNP (QP (CD 5.04) (CLP (NNB 米))) (DEC 的)) (NP (NN 世界) (NN 纪录)))) (VP (JJ 高) (AS 了) (QP (CD 一点) (CLP (NN 点)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP80517': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+高台	米高	nmod
+5.05	米高	nummod
+米高	高	nsubj
+，	米高	punct
+比	月	case
+她	月	nmod
+前	个	det
+一	个	nummod
+个	月	nmod
+月	创造	obl
+创造	纪录	acl:relcl
+的	创造	mark:rel
+5.04	米	nummod
+米	纪录	acl:relcl
+的	米	mark:rel
+世界	纪录	nmod
+纪录	高	nmod
+高	ROOT	root
+了	高	aux
+一点	点	nummod
+点	高	obl
+。	高	punct
+----------------------------------------------------------------------
+她冲向跑道，把自己的杆子放好，随着闪光灯的闪烁，伊辛巴耶娃飞起……创造了一个激动人心的新世界纪录。
+
+(ROOT (IP (NP (PRP 她)) (VP (VP (VV 冲) (PP (VV 向) (NP (NN 跑道)))) (, ，) (VP (BB 把) (IP (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 杆子))) (VP (VV 放好)))) (, ，) (VP (PP (VV 随) (AS 着) (NP (DNP (NP (ADJP (VV 闪)) (NP (NN 光灯))) (DEC 的)) (NP (NN 闪烁)))) (, ，) (NP (NNP 伊辛巴耶娃)) (VP (VP (VRD (VV 飞) (VV 起)) (NP (NNP ……))) (VP (VV 创造) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (NP (JJ 激动) (NN 人心)) (DEC 的)) (NP (ADJP (PFA 新)) (NP (NN 世界))) (NP (NN 纪录))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP32288': {}, ',25928': {}, 'VP59025': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+她	创造	nsubj
+冲	创造	advcl
+向	冲	mark
+跑道	冲	obj
+，	冲	punct
+把	杆子	case
+自己	杆子	det
+的	自己	case
+杆子	放好	obl:patient
+放好	创造	advcl
+，	放好	punct
+随	创造	advcl
+着	随	aux
+闪	闪烁	acl:relcl
+光灯	闪	obj
+的	闪	mark:rel
+闪烁	随	obj
+，	随	punct
+伊辛巴耶娃	创造	nsubj
+飞	创造	advcl
+起	飞	mark
+……	飞	obj
+创造	ROOT	root
+了	创造	aux
+一	个	nummod
+个	纪录	clf
+激动	人心	amod
+人心	纪录	nmod
+的	人心	case
+新	世界	case
+世界	纪录	nmod
+纪录	创造	obj
+。	创造	punct
+----------------------------------------------------------------------
+她兴奋地做了一个翻腾动作，进一步激起了人群的情绪。
+
+(ROOT (IP (NP (PRP 她)) (VP (VP (DVP (VP (JJ 兴奋)) (DEV 地)) (VP (VV 做) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 翻腾) (NN 动作))))) (, ，) (VP (QP (ADVP (VV 进)) (QP (CD 一) (CLP (NNB 步)))) (VP (VV 激起) (AS 了) (NP (DNP (NP (NN 人群)) (DEC 的)) (NP (NN 情绪)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP616': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+她	激起	nsubj
+兴奋	做	advmod
+地	兴奋	mark:adv
+做	激起	advcl
+了	做	aux
+一	个	nummod
+个	动作	clf
+翻腾	动作	nmod
+动作	做	obj
+，	做	punct
+进	激起	advcl
+一	步	nummod
+步	进	obj
+激起	ROOT	root
+了	激起	aux
+人群	情绪	nmod
+的	人群	case
+情绪	激起	obj
+。	激起	punct
+----------------------------------------------------------------------
+伊辛巴耶娃说：“我感觉自己像一个著名歌手一样，整个舞台只为我而设。这真是太酷了。”
+
+(ROOT (IP (NP (NNP 伊辛巴耶娃)) (VP (VV 说) (: ：) (IP (`` “) (NP (PRP 我)) (VP (VV 感觉) (IP (IP (NP (PRD 自己)) (VP (PP (IN 像) (NP (QP (CD 一) (CLP (NNB 个))) (ADJP (JJ 著名)) (NP (NN 歌手)))) (VP (JJ 一样)))) (, ，) (NP (DP (DT 整个)) (NP (NN 舞台))) (VP (ADVP (RB 只)) (PP (IN 为) (NP (PRP 我))) (VP (RB 而) (VP (VV 设)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+伊辛巴耶娃	说	nsubj
+说	ROOT	root
+：	设	punct
+“	设	punct
+我	感觉	nsubj
+感觉	设	advcl
+自己	一样	nsubj
+像	歌手	case
+一	个	nummod
+个	歌手	clf
+著名	歌手	amod
+歌手	一样	nmod
+一样	感觉	ccomp
+，	感觉	punct
+整个	舞台	det
+舞台	设	nsubj
+只	设	advmod
+为	我	case
+我	设	obl
+而	设	mark
+设	说	ccomp
+。	说	punct
+----------------------------------------------------------------------
+尽管中国采取了各种安保措施，但在首个比赛日，奥运会却发生了悲剧。
+
+(ROOT (IP (CP (ADVP (IN 尽管)) (IP (NP (NNP 中国)) (VP (VV 采取) (AS 了) (NP (ADJP (DT 各种)) (NP (NN 安保) (NN 措施)))))) (, ，) (ADVP (RB 但)) (PP (IN 在) (NP (QP (CD 首个)) (NP (NN 比赛) (NNP 日)))) (, ，) (NP (NNP 奥运) (SFN 会)) (VP (ADVP (RB 却)) (VP (VV 发生) (AS 了) (NP (NN 悲剧)))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'PP': {}, ',7100': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'PP': {'IN': {}, 'NP': {}}, ',88892': {}, 'NP': {'NNP': {}, 'SFN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}, 'SFN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'NNP': {}, 'SFN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+尽管	采取	case
+中国	采取	nsubj
+采取	发生	ccomp
+了	采取	aux
+各种	措施	det
+安保	措施	nmod
+措施	采取	obj
+，	采取	punct
+但	发生	mark
+在	比赛	case
+首个	比赛	nmod
+比赛	发生	obl
+日	比赛	appos
+，	比赛	punct
+奥运	会	compound
+会	发生	nsubj
+却	发生	mark
+发生	ROOT	root
+了	发生	aux
+悲剧	发生	obj
+。	发生	punct
+----------------------------------------------------------------------
+男子排球教练赫伊·麦克卡什顿的岳父在鼓楼，一个受欢迎的旅游景点，被杀害，麦克卡什顿的岳母受重伤；袭击者是一个精神失常的持刀男子，他随机挑选了受害者，然后跳下楼自杀。
+
+(ROOT (IP (IP (NP (DNP (NP (NP (NN 男子) (NN 排球) (NN 教练)) (NP (NNP 赫伊) (/ ·) (NNP 麦克卡什顿))) (DEC 的)) (NP (NN 岳父))) (VP (PP (VV 在) (NP (NNP 鼓楼))) (, ，) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 受) (NP (VV 欢迎)))) (DEC 的))) (NP (NN 旅游) (NN 景点))) (, ，) (VP (BB 被) (VP (VV 杀害))))) (, ，) (IP (NP (DNP (NP (NNP 麦克卡什顿)) (DEC 的)) (NP (NN 岳母))) (VP (VV 受) (NP (VV 重伤)))) (: ；) (IP (NP (VV 袭击) (SFN 者)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (NP (NN 精神)) (VP (JJ 失常))) (DEC 的))) (ADJP (NN 持刀)) (NP (NN 男子))))) (, ，) (IP (NP (PRP 他)) (VP (VP (ADVP (RB 随机)) (VP (VV 挑选) (AS 了) (NP (VV 受害) (SFN 者)))) (, ，) (VP (ADVP (RB 然后)) (VP (VRD (VV 跳) (VV 下楼)) (VP (VV 自杀)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP82427': {}, ':': {}, 'IP11860': {}, ',14403': {}, 'IP20049': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ':': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP12206': {'NP': {}, 'VP': {}}, ':': {}, 'IP42763': {'NP': {}, 'VP': {}}, ',39462': {}, 'IP8727': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+男子	教练	nmod
+排球	教练	nmod
+教练	岳父	nmod
+赫伊	教练	appos
+·	麦克卡什顿	punct
+麦克卡什顿	赫伊	flat:name
+的	赫伊	case
+岳父	杀害	nsubj:pass
+在	杀害	advcl
+鼓楼	在	obj
+，	在	punct
+一	个	nummod
+个	景点	clf
+受	景点	acl:relcl
+欢迎	受	xcomp
+的	受	mark:rel
+旅游	景点	nmod
+景点	在	obj
+，	在	punct
+被	杀害	aux:pass
+杀害	ROOT	root
+，	受	punct
+麦克卡什顿	岳母	nmod
+的	麦克卡什顿	case
+岳母	受	nsubj
+受	杀害	parataxis
+重伤	受	xcomp
+；	男子	punct
+袭击	者	compound
+者	男子	nsubj
+是	男子	cop
+一	个	nummod
+个	男子	clf
+精神	失常	nsubj
+失常	男子	acl:relcl
+的	失常	mark:rel
+持刀	男子	nmod
+男子	杀害	parataxis
+，	自杀	punct
+他	自杀	nsubj
+随机	挑选	advmod
+挑选	自杀	advcl
+了	挑选	aux
+受害	者	compound
+者	挑选	obj
+，	挑选	punct
+然后	自杀	advmod
+跳	自杀	advcl
+下楼	自杀	advcl
+自杀	杀害	parataxis
+。	杀害	punct
+----------------------------------------------------------------------
+麦克卡什花了一周时间照顾家人，他的夺奖努力突然变得不重要。
+
+(ROOT (IP (IP (VP (VP (NNP 麦克卡什花) (AS 了) (NP (QP (CD 一) (CLP (NNB 周))) (NP (NN 时间)))) (VP (VV 照顾) (NP (NN 家人))))) (, ，) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 夺奖) (NN 努力))) (VP (ADVP (RB 突然)) (VP (VV 变得) (VP (ADVP (RB 不)) (VP (JJ 重要))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+麦克卡什花	照顾	nsubj
+了	麦克卡什花	aux
+一	周	nummod
+周	时间	clf
+时间	照顾	obl
+照顾	ROOT	root
+家人	照顾	obj
+，	变得	punct
+他	努力	det
+的	他	case
+夺奖	努力	nmod
+努力	变得	nsubj
+突然	变得	advmod
+变得	照顾	parataxis
+不	变得	advmod
+重要	变得	xcomp
+。	照顾	punct
+----------------------------------------------------------------------
+他想回家飞，但他的妻子，前奥运体操运动员伊丽莎白，不让他错过他花了这么多年努力的机会。
+
+(ROOT (IP (IP (NP (PRP 他)) (VP (MD 想) (IP (VP (VP (VV 回家)) (VP (VV 飞)))))) (, ，) (IP (ADVP (RB 但)) (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 妻子))) (, ，) (NP (ADJP (PFA 前)) (NP (NNP 奥运) (NN 体操) (VV 运动) (SFN 员))) (NP (NNP 伊丽莎白))) (, ，) (VP (ADVP (RB 不)) (VP (VV 让) (NP (PRP 他)) (IP (VP (VV 错过) (NP (CP (IP (NP (PRP 他)) (VP (VV 花) (AS 了) (NP (ADJP (ADVP (RB 这么)) (QP (CD 多) (CLP (NNB 年)))) (NP (JJ 努力))))) (DEC 的)) (NP (NN 机会)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP44385': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP74916': {'ADVP': {}, 'NP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+他	飞	nsubj
+想	飞	aux
+回家	飞	advcl
+飞	ROOT	root
+，	让	punct
+但	让	mark
+他	妻子	det
+的	他	case
+妻子	让	nsubj
+，	员	punct
+前	员	case
+奥运	员	nmod
+体操	员	nmod
+运动	员	compound
+员	妻子	conj
+伊丽莎白	员	appos
+，	妻子	punct
+不	让	advmod
+让	飞	parataxis
+他	错过	nsubj
+错过	让	ccomp
+他	错过	obj
+花	错过	ccomp
+了	花	aux
+这么	年	advmod
+多	年	nummod
+年	努力	obl
+努力	机会	acl:relcl
+的	努力	mark:rel
+机会	花	obj
+。	飞	punct
+----------------------------------------------------------------------
+因此，麦克卡什重新出山，带领美国队获得了一块不可思议的金牌，这是美国队自 1984 年以来获得的第一块金牌。
+
+(ROOT (IP (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (NNP 麦克卡什)) (VP (VP (ADVP (RB 重新)) (VP (VV 出山))) (, ，) (VP (VV 带领) (NP (NP (NNP 美国)) (NP (SFN 队))) (IP (VP (VV 获得) (AS 了) (NP (QP (CD 一) (CLP (NNB 块))) (CP (CP (IP (VP (MD 不可) (VP (JJ 思议)))) (DEC 的))) (NP (NN 金牌)))))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (NP (NNP 美国) (SFN 队)) (VP (PP (IN 自) (LCP (NP (CD 1984)) (NNB 年以来))) (VP (VV 获得)))) (DEC 的))) (QP (CD 第一) (CLP (NNB 块))) (NP (NN 金牌))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP25827': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'ADVP93259': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP74661': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+因	此	case
+此	获得	obl
+，	此	punct
+麦克卡什	获得	nsubj
+重新	出山	advmod
+出山	获得	advcl
+，	出山	punct
+带领	获得	advcl
+美国	队	compound
+队	带领	obj
+获得	ROOT	root
+了	获得	aux
+一	块	nummod
+块	金牌	clf
+可	思议	aux
+思议	金牌	amod
+的	思议	mark:rel
+金牌	获得	obj
+，	金牌	punct
+这	金牌	nsubj
+是	金牌	cop
+美国	队	compound
+队	获得	nsubj
+自	年以来	case
+1984	年以来	nummod
+年以来	获得	obl
+获得	金牌	acl:relcl
+的	获得	mark:rel
+第一	块	nummod
+块	金牌	clf
+金牌	获得	parataxis
+。	获得	punct
+----------------------------------------------------------------------
+“回想起这件事，我只会想，‘真棒，真棒，真棒’，”麦克卡什在对阵巴西获胜后说道。“我还会为我的岳父而悲伤。我们可以这么做。
+
+(ROOT (IP (IP (`` “) (IP (VP (VRD (VV 回想) (VV 起)) (NP (DP (DT 这) (CLP (NNB 件))) (NP (NN 事))))) (, ，) (NP (PRP 我)) (VP (ADVP (RB 只)) (VP (MD 会) (VP (MD 想) (, ，) (IP (VP (`` ‘) (JJ 真棒) (, ，) (JJ 真棒) (, ，) (JJ 真棒) ('' ’))))))) (, ，) ('' ”) (IP (NP (NNP 麦克卡什)) (VP (PP (IN 在) (LCP (IP (VP (VP (VV 对阵) (NP (NNP 巴西))) (VP (VV 获胜)))) (IN 后))) (VP (VV 说道)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP64907': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP53473': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+“	回想	punct
+回想	说道	advcl
+起	回想	mark
+这	件	det
+件	事	clf
+事	回想	obj
+，	回想	punct
+我	说道	nsubj
+只	想	advmod
+会	想	aux
+想	说道	aux
+，	真棒	punct
+‘	真棒	punct
+真棒	想	xcomp
+，	真棒	punct
+真棒	真棒	conj
+，	真棒	punct
+真棒	真棒	conj
+’	真棒	punct
+，	想	punct
+”	说道	punct
+麦克卡什	说道	nsubj
+在	获胜	case
+对阵	获胜	advcl
+巴西	对阵	obj
+获胜	说道	ccomp
+后	获胜	mark
+说道	ROOT	root
+。	说道	punct
+----------------------------------------------------------------------
+我们也可以快乐，也可以感到一丝伤感。”
+
+(ROOT (IP (NP (PRP 我们)) (VP (VP (ADVP (RB 也)) (VP (MD 可以) (VP (JJ 快乐)))) (, ，) (VP (ADVP (RB 也)) (VP (MD 可以) (VP (VV 感到) (NP (QP (JJ 一丝)) (NP (JJ 伤感))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP93955': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+我	感到	nsubj
+也	快乐	mark
+可以	快乐	aux
+快乐	感到	advcl
+，	快乐	punct
+也	感到	mark
+可以	感到	aux
+感到	ROOT	root
+一丝	伤感	amod
+伤感	感到	xcomp
+。	感到	punct
+”	感到	punct
+----------------------------------------------------------------------
+在奥运会上，中国巩固了自己的体育强国地位，这是世界上人口第二多的国家，印度终于获得了第一个个人金牌，这是印度的荣耀。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (NP (NNP 奥运) (SFN 会)) (IN 上))) (, ，) (NP (NNP 中国)) (VP (VV 巩固) (AS 了) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 体育) (NN 强国) (NN 地位))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (LCP (NP (NN 世界)) (IN 上)) (NP (NN 人口)) (VP (QP (CD 第二)) (VP (JJ 多)))) (DEC 的))) (NP (NN 国家))))) (, ，) (IP (NP (NNP 印度)) (VP (ADVP (RB 终于)) (VP (VV 获得) (AS 了) (NP (QP (CD 第一) (CLP (NNB 个))) (NP (JJ 个人) (NN 金牌)))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (DNP (NP (NNP 印度)) (DEC 的)) (NP (NN 荣耀))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP36273': {}, ',18944': {}, 'IP87769': {}, ',62311': {}, 'IP83784': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP51609': {'NP': {}, 'VP': {}}, ',89857': {}, 'IP40609': {'NP': {}, 'VP': {}}, ',57518': {}, 'IP82228': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+在	会	case
+奥运	会	compound
+会	巩固	obl
+上	会	case
+，	会	punct
+中国	巩固	nsubj
+巩固	ROOT	root
+了	巩固	aux
+自己	地位	det
+的	自己	case
+体育	地位	nmod
+强国	地位	nmod
+地位	巩固	obj
+，	国家	punct
+这	国家	nsubj
+是	国家	cop
+世界	多	obl
+上	世界	case
+人口	多	nsubj
+第二	多	obl
+多	国家	acl:relcl
+的	多	mark:rel
+国家	巩固	parataxis
+，	获得	punct
+印度	获得	nsubj
+终于	获得	advmod
+获得	巩固	parataxis
+了	获得	aux
+第一	个	nummod
+个	金牌	clf
+个人	金牌	amod
+金牌	获得	obj
+，	荣耀	punct
+这	荣耀	nsubj
+是	荣耀	cop
+印度	荣耀	nmod
+的	印度	case
+荣耀	巩固	parataxis
+。	巩固	punct
+----------------------------------------------------------------------
+当阿比纳夫·宾德拉在最后一枪命中目标，获得 10 米空气步枪比赛金牌时，他的粉丝们就涌向了回家的街头。
+
+(ROOT (IP (PP (IN 当) (LCP (IP (NP (NNP 阿比纳夫) (/ ·) (NNP 宾德拉)) (VP (VP (PP (IN 在) (QP (ADJP (NN 最后)) (QP (CD 一) (CLP (NN 枪))))) (VP (VV 命) (NP (NN 中) (NN 目标)))) (, ，) (VP (VV 获得) (NP (NP (QP (CD 10) (CLP (NN 米空气))) (NP (NN 步枪))) (NP (NN 比赛) (NN 金牌)))))) (IN 时))) (, ，) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 粉丝) (SFN 们))) (VP (ADVP (RB 就)) (VP (VV 涌) (PP (VV 向) (AS 了) (NP (CP (CP (IP (VP (VV 回家))) (DEC 的))) (NP (NN 街头)))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+当	获得	case
+阿比纳夫	获得	nsubj
+·	宾德拉	punct
+宾德拉	阿比纳夫	flat:name
+在	命	case
+最后	枪	nmod
+一	枪	nummod
+枪	命	nsubj
+命	获得	advcl
+中	目标	nmod
+目标	命	obj
+，	命	punct
+获得	涌	ccomp
+10	米空气	nummod
+米空气	金牌	nmod
+步枪	金牌	nmod
+比赛	金牌	nmod
+金牌	获得	obj
+时	获得	mark
+，	获得	punct
+他	们	det
+的	他	case
+粉丝	们	compound
+们	涌	nsubj
+就	涌	mark
+涌	ROOT	root
+向	涌	mark
+了	涌	aux
+回家	街头	acl:relcl
+的	回家	mark:rel
+街头	涌	obj
+。	涌	punct
+----------------------------------------------------------------------
+世界排名第 17 位的狙击手Bindra 最后追平第四名，夺得冠军。
+
+(ROOT (IP (NP (CP (CP (IP (VP (NP (NN 世界)) (VP (NN 排名) (QP (QP (CD 第)) (QP (CD 17) (CLP (NN 位))))))) (DEC 的))) (NP (VV 狙击) (SFN 手)) (NP (FW Bindra))) (VP (VP (ADVP (NN 最后)) (VP (VV 追平) (QP (CD 第四) (CLP (NN 名))))) (, ，) (VP (VV 夺得) (NP (NN 冠军)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}, 'NP33382': {}}, 'VP': {'VP': {}, ',': {}, 'VP60395': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+世界	位	nmod
+排名	位	nmod
+第	位	nummod
+17	位	nummod
+位	手	acl:relcl
+的	位	mark:rel
+狙击	手	compound
+手	夺得	nsubj
+Bindra	手	appos
+最后	追平	nmod:tmod
+追平	夺得	advcl
+第四	名	nummod
+名	追平	obj
+，	追平	punct
+夺得	ROOT	root
+冠军	夺得	obj
+。	夺得	punct
+----------------------------------------------------------------------
+印度电视台一直播放着bindra 的奖牌颁发仪式，陌生人们因为这一成就而亲吻对方。
+
+(ROOT (IP (IP (NP (NNP 印度) (NN 电视) (SFN 台)) (VP (ADVP (RB 一直)) (VP (VV 播放) (AS 着) (NP (DNP (NP (FW bindra)) (DEC 的)) (NP (NN 奖牌) (NN 颁发) (NN 仪式)))))) (, ，) (IP (NP (ADJP (JJ 陌生)) (NP (NN 人们))) (VP (PP (IN 因为) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 成就)))) (VP (RB 而) (VP (ADVP (RB 亲)) (VP (VV 吻) (NP (PRD 对方))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP58426': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP40715': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+印度	台	nmod
+电视	台	compound
+台	播放	nsubj
+一直	播放	advmod
+播放	ROOT	root
+着	播放	aux
+bindra	仪式	det
+的	bindra	case
+奖牌	仪式	nmod
+颁发	仪式	nmod
+仪式	播放	obj
+，	吻	punct
+陌生	人	amod
+人	吻	nsubj
+因为	成就	case
+这	成就	det
+一	成就	nummod
+成就	吻	obl
+而	吻	mark
+亲	吻	advmod
+吻	播放	parataxis
+对方	吻	obj
+。	播放	punct
+----------------------------------------------------------------------
+“在奥运会上奏唱印度国歌，升起印度国旗时，我的眼泪就在眼眶里打转！”一位名为 Vijay 的网友在路透社网站上写道。“这是新闻！”
+
+(ROOT (IP (IP (`` “) (PP (IN 在) (IP (NP (NNP 奥运) (SFN 会)) (VP (VP (VV 上奏)) (VP (VV 唱) (NP (NP (NNP 印度)) (NP (NN 国歌))))))) (, ，) (LCP (IP (VP (VRD (VV 升) (VV 起)) (NP (NP (NNP 印度)) (NP (NN 国旗))))) (IN 时)) (, ，) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 眼泪))) (VP (ADVP (RB 就)) (PP (IN 在) (LCP (NP (NN 眼眶)) (IN 里))) (VP (VSB (VV 打) (VV 转))))) (, ！) ('' ”) (IP (NP (QP (CD 一) (CLP (NNB 位))) (CP (CP (IP (NP (NN 名)) (VP (VC 为) (NP (FW Vijay)))) (DEC 的))) (NP (NN 网友))) (VP (PP (IN 在) (LCP (NP (NP (NNP 路透) (SFN 社)) (NP (NN 网站))) (IN 上))) (VP (VV 写道)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP39542': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'PP': {}, ',': {}, 'LCP': {}, ',73376': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP98669': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'PP': {}, ',': {}, 'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'PP': {}, ',': {}, 'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+“	打	punct
+在	会	case
+奥运	会	compound
+会	唱	nsubj
+上奏	唱	advcl
+唱	升	advcl
+印度	国歌	nmod
+国歌	唱	obj
+，	国歌	punct
+升	打	ccomp
+起	升	mark
+印度	国旗	nmod
+国旗	升	obj
+时	升	mark
+，	升	punct
+我	眼泪	det
+的	我	mark:rel
+眼泪	打	nsubj
+就	打	mark
+在	眼眶	case
+眼眶	打	obl
+里	眼眶	case
+打	ROOT	root
+转	打	xcomp
+！	写道	punct
+”	写道	punct
+一	位	nummod
+位	网友	clf
+名	为	nsubj
+为	网友	acl:relcl
+Vijay	为	obj
+的	为	mark:rel
+网友	写道	nsubj
+在	网站	case
+路透	社	compound
+社	网站	nmod
+网站	写道	obl
+上	网站	case
+写道	转	parataxis
+。	转	punct
+----------------------------------------------------------------------
+亨利·塞胡多面临着太多的困难。
+
+(ROOT (IP (NP (NNP 亨利) (/ ·) (NNP 塞胡多)) (VP (VV 面临) (AS 着) (NP (CP (CP (IP (VP (JJ 太多))) (DEC 的))) (NP (NN 困难)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP51944': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+亨利	面临	nsubj
+·	塞胡多	punct
+塞胡多	亨利	flat:name
+面临	ROOT	root
+着	面临	aux
+太多	困难	amod
+的	太多	mark:rel
+困难	面临	obj
+。	面临	punct
+----------------------------------------------------------------------
+这位墨西哥非法移民的儿子在犯罪猖獗的公寓楼里长大。
+
+(ROOT (IP (NP (DNP (NP (DP (DT 这) (CLP (NNB 位))) (NP (NNP 墨西哥)) (ADJP (JJ 非法)) (NP (NN 移民))) (DEC 的)) (NP (NN 儿子))) (VP (PP (IN 在) (LCP (NP (CP (CP (IP (NP (NN 犯罪)) (VP (JJ 猖獗))) (DEC 的))) (NP (NN 公寓) (SFN 楼))) (NN 里))) (VP (VV 长大))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+这	位	det
+位	儿子	clf
+墨西哥	移民	nmod
+非法	移民	amod
+移民	儿子	nmod
+的	移民	case
+儿子	长大	nsubj
+在	楼	case
+犯罪	猖獗	nsubj
+猖獗	楼	acl:relcl
+的	猖獗	mark:rel
+公寓	楼	compound
+楼	长大	obl
+里	楼	acl
+长大	ROOT	root
+。	长大	punct
+----------------------------------------------------------------------
+在与他的哥哥安杰尔 (Angel) 多年来争吵不休之后，他跟随安杰尔进入了摔跤场。
+
+(ROOT (IP (PP (IN 在) (LCP (IP (VP (PP (IN 与) (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 哥哥))) (NP (NNP 安杰尔) (FW -LRB-Angel-RRB-)))) (LCP (QP (CD 多) (CLP (NNB 年))) (IN 来)) (VP (VV 争吵) (VV 不休)))) (IN 之后))) (, ，) (NP (PRP 他)) (VP (VP (VV 跟随) (NP (NNP 安杰尔))) (VP (VV 进入) (AS 了) (NP (VV 摔) (NN 跤场)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP67542': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+在	休	case
+与	哥哥	case
+他	哥哥	det
+的	他	case
+哥哥	休	nsubj
+安杰尔	哥哥	appos
+(Angel)	安杰尔	flat:name
+多	年	nummod
+年	休	obl
+来	年	case
+争吵	休	advcl
+休	进入	ccomp
+之后	休	mark
+，	休	punct
+他	进入	nsubj
+跟随	进入	advcl
+安杰尔	跟随	obj
+进入	ROOT	root
+了	进入	aux
+摔	进入	xcomp
+跤场	摔	obj
+。	进入	punct
+----------------------------------------------------------------------
+由于他决定全职训练备战奥运会，没有参加过大学摔跤，去年的世锦赛他排名第 31 位。
+
+(ROOT (IP (PP (IN 由于) (IP (NP (PRP 他)) (VP (VV 决定) (IP (VP (VP (ADVP (RB 全职)) (VP (VP (VV 训练)) (VP (VV 备战) (NP (NNP 奥运) (SFN 会))))) (, ，) (VP (VV 没有) (VP (VV 参加) (AS 过) (NP (NN 大学) (VV 摔) (SFN 跤))))))))) (, ，) (NP (DNP (NP (NN 去年)) (DEC 的)) (NP (NN 世锦) (SFN 赛))) (NP (PRP 他)) (VP (VV 排名) (QP (CD 第) (QP (CD 31) (CLP (NN 位))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'NP56193': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'NP40745': {'PRP': {}}, 'VP': {'VV': {}, 'QP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'QP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'QP': {}}}
+Dependency Features:
+由于	决定	case
+他	决定	nsubj
+决定	有	ccomp
+全职	训练	advmod
+训练	备战	advcl
+备战	决定	xcomp
+奥运	会	compound
+会	备战	obj
+，	决定	punct
+有	ROOT	root
+参加	有	xcomp
+过	参加	aux
+大学	跤	nmod
+摔	跤	compound
+跤	参加	obj
+，	有	punct
+去年	赛	nmod
+的	去年	case
+世锦	赛	compound
+赛	排名	nsubj
+他	排名	nsubj
+排名	有	parataxis
+第	位	nummod
+31	位	nummod
+位	排名	obj
+。	排名	punct
+----------------------------------------------------------------------
+Cejudo 只有 21 岁，2012 年他会争夺冠军，人们认为：这次去北京的旅行只是为了积累一点经验。
+
+(ROOT (IP (IP (NP (FW Cejudo)) (VP (QP (ADVP (VV 只有)) (QP (CD 21) (CLP (NNB 岁)))))) (, ，) (IP (NP (CD 2012)) (ADVP (NNB 年他)) (VP (MD 会) (VP (VV 争夺) (NP (NN 冠军))))) (, ，) (IP (NP (NN 人们)) (VP (VV 认为) (: ：) (IP (NP (CP (CP (IP (VP (DP (DT 这) (CLP (NNB 次))) (VP (VV 去) (NP (NNP 北京))))) (DEC 的))) (NP (NN 旅行))) (VP (ADVP (RB 只)) (VP (VC 是) (PP (IN 为了) (IP (VP (VV 积累) (NP (QP (JJ 一点)) (NP (NN 经验))))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP7867': {}, ',59534': {}, 'IP36184': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP15606': {'NP': {}, 'ADVP': {}, 'VP': {}}, ',43783': {}, 'IP35368': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'ADVP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'ADVP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+Cejudo	只有	nsubj
+只有	ROOT	root
+21	岁	nummod
+岁	只有	obj
+，	争夺	punct
+2012	年他	nummod
+年他	争夺	nmod:tmod
+会	争夺	aux
+争夺	只有	parataxis
+冠军	争夺	obj
+，	为	punct
+人	为	nsubj
+为	只有	parataxis
+：	是	punct
+这	次	det
+次	旅行	clf
+去	旅行	acl:relcl
+北京	去	obj
+的	去	mark:rel
+旅行	是	nsubj
+只	是	advmod
+是	为	ccomp
+为了	是	xcomp
+积累	为了	xcomp
+一点	经验	amod
+经验	积累	obj
+。	只有	punct
+----------------------------------------------------------------------
+但是，Cejudo 违抗了摔跤的常识，在第一轮就击败了 2006 年世锦赛冠军，并一路过关斩将，最终击败了日本选手 Tomohiro Matsunaga，夺得金牌，成为美国历史上最年轻的摔跤冠军。
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (NP (FW Cejudo)) (VP (VP (VV 违抗) (AS 了) (NP (DNP (NP (VV 摔跤)) (DEC 的)) (NP (NN 常识)))) (, ，) (VP (PP (IN 在) (QP (CD 第一) (CLP (NNB 轮)))) (ADVP (RB 就)) (VP (VV 击败) (AS 了) (NP (NP (CD 2006) (NN 年世锦) (SFN 赛)) (NP (NN 冠军))))) (, ，) (RB 并) (VP (ADVP (RB 一路)) (VP (VSB (VV 过关) (VV 斩将)))) (, ，) (VP (ADVP (NN 最终)) (VP (VV 击败) (AS 了) (NP (NP (NP (NNP 日本)) (NP (NN 选手))) (NP (FW Tomohiro) (FW Matsunaga))))) (, ，) (VP (VV 夺得) (NP (NN 金牌))) (, ，) (VP (VV 成) (VP (VC 为) (NP (NP (NNP 美国)) (CP (CP (IP (VP (LCP (NP (NN 历史)) (IN 上)) (ADVP (RB 最)) (VP (JJ 年轻)))) (DEC 的))) (NP (VV 摔) (SFN 跤) (NN 冠军)))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'FW': {}}, 'VP': {'VP': {}, ',': {}, 'VP53893': {}, ',95749': {}, 'RB': {}, 'VP60641': {}, ',12090': {}, 'VP58110': {}, ',58206': {}, 'VP57507': {}, ',16283': {}, 'VP52191': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'FW': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}, 'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}, 'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+但是	成	mark
+，	但是	punct
+Cejudo	违抗	nsubj
+违抗	成	advcl
+了	违抗	aux
+摔跤	常识	acl:relcl
+的	摔跤	mark:rel
+常识	违抗	obj
+，	违抗	punct
+在	轮	case
+第一	轮	nummod
+轮	击败	obl
+就	击败	mark
+击败	成	advcl
+了	击败	aux
+2006	赛	nummod
+年世锦	赛	compound
+赛	冠军	nmod
+冠军	击败	obj
+，	击败	punct
+并	过关	mark
+一路	过关	advmod
+过关	夺得	advcl
+斩将	夺得	advcl
+，	斩将	punct
+最终	夺得	nmod:tmod
+击败	夺得	advcl
+了	击败	aux
+日本	选手	nmod
+选手	击败	obj
+Tomohiro	选手	appos
+Matsunaga	Tomohiro	flat:foreign
+，	击败	punct
+夺得	成	advcl
+金牌	夺得	obj
+，	夺得	punct
+成	ROOT	root
+为	成	mark
+美国	历史	nmod
+历史	年轻	obl
+上	历史	case
+最	年轻	advmod
+年轻	冠军	amod
+的	年轻	mark:rel
+摔	跤	compound
+跤	冠军	nmod
+冠军	成	obj
+。	成	punct
+----------------------------------------------------------------------
+在比赛中，Cejudo 身披美国国旗，在场地上奔跑，哭了一场，这是游戏中最动人的庆祝活动之一。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (NP (NN 比赛)) (IN 中))) (, ，) (NP (FW Cejudo)) (VP (VP (VV 身披) (NP (NP (NNP 美国)) (NP (NN 国旗)))) (, ，) (VP (PP (IN 在) (LCP (NP (NN 场地)) (NN 上))) (VP (VV 奔跑))) (, ，) (VP (VV 哭) (AS 了) (QP (CD 一) (CLP (NNB 场)))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (DNP (NP (CP (CP (IP (VP (LCP (NP (NN 游戏)) (IN 中)) (ADVP (RB 最)) (VP (JJ 动人)))) (DEC 的))) (NP (NN 庆祝) (NN 活动))) (DEC 之)) (NP (CD 一))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP20407': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP14937': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+在	比赛	case
+比赛	哭	obl
+中	比赛	case
+，	比赛	punct
+Cejudo	哭	nsubj
+身披	哭	advcl
+美国	国旗	nmod
+国旗	身披	obj
+，	身披	punct
+在	场地	case
+场地	奔跑	obl
+上	场地	acl
+奔跑	哭	advcl
+，	奔跑	punct
+哭	ROOT	root
+了	哭	aux
+一	场	nummod
+场	哭	obj
+，	一	punct
+这	一	nsubj
+是	一	cop
+游戏	动人	obl
+中	游戏	case
+最	动人	advmod
+动人	活动	acl:relcl
+的	动人	mark:rel
+庆祝	活动	nmod
+活动	一	nmod
+之	活动	case
+一	哭	parataxis
+。	哭	punct
+----------------------------------------------------------------------
+“我现在睁着眼睛就在做梦，”他说。
+
+(ROOT (IP (IP (`` “) (NP (PRP 我)) (VP (NP (NN 现在)) (VP (VP (VV 睁) (AS 着) (NP (NN 眼睛))) (VP (ADVP (RB 就)) (ADVP (RB 在)) (VP (VV 做) (NP (NN 梦))))))) (, ，) ('' ”) (NP (PRP 他)) (VP (VV 说)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+“	做	punct
+我	做	nsubj
+现在	睁	nmod:tmod
+睁	做	advcl
+着	睁	aux
+眼睛	睁	obj
+就	做	mark
+在	做	advmod
+做	ROOT	root
+梦	做	obj
+，	说	punct
+”	说	punct
+他	说	nsubj
+说	做	parataxis
+。	做	punct
+----------------------------------------------------------------------

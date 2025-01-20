@@ -1,0 +1,903 @@
+约翰·霍普金斯医学中心宣布，医生们在一名捐献者的阴道内取出了一个健康的肾脏，这被称为“有史以来的第一例手术”。
+
+(ROOT (IP (NP (NNP 约翰) (/ ·) (NNP 霍普金斯) (NN 医学) (NN 中心)) (VP (VV 宣布) (, ，) (IP (IP (NP (NN 医生) (SFN 们)) (VP (PP (IN 在) (LCP (NP (DNP (NP (QP (CD 一) (CLP (NNB 名))) (NP (VV 捐献) (SFN 者))) (DEC 的)) (NP (NN 阴道))) (IN 内))) (VP (VV 取出) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 健康))) (DEC 的))) (NP (NN 肾) (NN 脏)))))) (, ，) (IP (NP (PRD 这)) (VP (BB 被) (VP (VCP (VV 称) (VC 为)) (NP (`` “) (DNP (LCP (NP (NN 有史)) (IN 以来)) (DEC 的)) (QP (CD 第一) (CLP (NNB 例))) (NP (NN 手术)) ('' ”))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP96287': {}, 'NN': {}, 'NN54685': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}, 'NN': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}, 'NN': {}, 'NN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+约翰	中心	nmod
+·	约翰	punct
+霍普金斯	中心	nmod
+医学	中心	nmod
+中心	宣布	nsubj
+宣布	ROOT	root
+，	取出	punct
+医生	们	compound
+们	取出	nsubj
+在	阴道	case
+一	名	nummod
+名	者	nmod
+捐献	者	compound
+者	阴道	nmod
+的	者	case
+阴道	取出	obl
+内	阴道	case
+取出	宣布	ccomp
+了	取出	aux
+一	个	nummod
+个	脏	clf
+健康	脏	amod
+的	健康	mark:rel
+肾	脏	nmod
+脏	取出	obj
+，	称	punct
+这	称	nsubj:pass
+被	称	aux:pass
+称	宣布	parataxis
+为	称	mark
+“	手术	punct
+有史	手术	nmod
+以来	有史	case
+的	有史	case
+第一	例	nummod
+例	手术	clf
+手术	称	obj
+”	手术	punct
+。	宣布	punct
+----------------------------------------------------------------------
+Jennifer Gilbert 在中间，右边穿绿色衣服的是她的肾源 Kimberly Johnson。
+
+(ROOT (IP (IP (NP (FW Jennifer) (FW Gilbert)) (VP (PP (VV 在) (NP (NN 中间))))) (, ，) (IP (NP (CP (CP (IP (NP (NN 右) (SFN 边)) (VP (VV 穿) (NP (ADJP (NN 绿色)) (NP (NN 衣服))))) (DEC 的)))) (VP (VC 是) (NP (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 肾源))) (NP (FW Kimberly) (FW Johnson))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP25102': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP33674': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+Jennifer	在	nsubj
+Gilbert	Jennifer	flat:foreign
+在	肾源	acl
+中间	在	obj
+，	在	punct
+右	边	compound
+边	穿	nsubj
+穿	肾源	acl:relcl
+绿色	衣服	nmod
+衣服	穿	obj
+的	穿	mark:rel
+是	肾源	cop
+她	肾源	amod
+的	她	mark:rel
+肾源	ROOT	root
+Kimberly	肾源	appos
+Johnson	Kimberly	flat:foreign
+。	肾源	punct
+----------------------------------------------------------------------
+虽然此前曾有过将危及患者健康的癌症和无功能肾脏移除的手术，但这次的手术是首次为捐赠目的进行的，该中心在周一发布的新闻稿中表示。
+
+(ROOT (IP (IP (IP (VP (ADVP (IN 虽然)) (ADVP (NN 此前)) (ADVP (RB 曾)) (VP (VV 有) (AS 过) (NP (CP (IP (VP (BB 将) (IP (NP (NP (NP (NN 危)) (CC 及) (NP (NP (NN 患者)) (CP (CP (IP (VP (JJ 健康))) (DEC 的))) (NP (NN 癌症)))) (CC 和) (NP (CP (IP (VP (VV 无) (NP (NN 功能))))) (NP (NN 肾) (NN 脏)))) (VP (VV 移除))))) (DEC 的)) (NP (NN 手术)))))) (, ，) (ADVP (RB 但)) (NP (DNP (DP (DT 这) (CLP (NNB 次))) (DEC 的)) (NP (NN 手术))) (VP (VC 是) (NP (CP (CP (IP (VP (ADVP (CD 首次)) (PP (IN 为) (NP (DNP (NP (VV 捐赠) (SFN 目)) (DEC 的)))) (VP (VV 进行)))) (UH 的)))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 中心))) (VP (PP (IN 在) (LCP (NP (CP (CP (IP (VP (NP (NNP 周) (CD 一)) (VP (VV 发布)))) (DEC 的))) (NP (NN 新闻) (SFN 稿))) (IN 中))) (VP (VV 表示)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP32944': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP93612': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+虽然	有	case
+此前	有	nmod:tmod
+曾	有	advmod
+有	是	xcomp
+过	有	aux
+将	癌症	case
+危	癌症	nmod
+及	健康	cc
+患者	健康	nsubj
+健康	危	conj
+的	危	case
+癌症	手术	nmod
+和	脏	cc
+无	脏	amod
+功能	脏	nmod
+肾	脏	nmod
+脏	移除	nsubj
+移除	癌症	acl:relcl
+的	移除	mark:rel
+手术	有	obj
+，	有	punct
+但	是	mark
+这	次	det
+次	手术	clf
+的	次	mark:rel
+手术	是	nsubj
+是	ROOT	root
+首次	进行	obl
+为	目	case
+捐赠	目	compound
+目	进行	obl
+的	进行	mark:adv
+进行	是	xcomp
+的	是	discourse
+，	表示	punct
+该	中心	det
+中心	表示	nsubj
+在	稿	case
+周	一	nmod
+一	发布	obl
+发布	稿	acl:relcl
+的	发布	mark:rel
+新闻	稿	compound
+稿	表示	obl
+中	稿	case
+表示	是	parataxis
+。	是	punct
+----------------------------------------------------------------------
+约翰·霍普金斯大学移植外科主任罗伯特·蒙哥马利博士在新闻稿中表示：“肾脏成功移除并植入到捐赠者的侄女体内，两位患者都情况良好。”
+
+(ROOT (IP (NP (NP (NP (NNP 约翰) (/ ·) (NNP 霍普金斯) (NN 大学)) (NP (NN 移植) (NN 外科) (NN 主任))) (NP (NNP 罗伯特) (/ ·) (NNP 蒙哥马利) (NN 博士))) (VP (PP (IN 在) (LCP (NP (NN 新闻) (SFN 稿)) (IN 中))) (VP (VV 表示) (: ：) (IP (`` “) (IP (NP (NN 肾脏)) (VP (VP (ADVP (RB 成功)) (VP (VV 移除))) (CC 并) (VP (VRD (VV 植入) (VV 到)) (NP (NP (DNP (NP (VV 捐赠) (SFN 者)) (DEC 的)) (NP (NN 侄女))) (NP (NN 体内)))))) (, ，) (IP (NP (QP (CD 两) (CLP (NNB 位))) (NP (NN 患者))) (ADVP (RB 都)) (NP (NN 情况)) (VP (JJ 良好)))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP46974': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+约翰	主任	nmod
+·	约翰	punct
+霍普金斯	主任	nmod
+大学	主任	nmod
+移植	主任	nmod
+外科	主任	nmod
+主任	博士	nmod
+罗伯特	博士	nmod
+·	蒙哥马利	punct
+蒙哥马利	罗伯特	flat:name
+博士	表示	nsubj
+在	稿	case
+新闻	稿	compound
+稿	表示	obl
+中	稿	case
+表示	ROOT	root
+：	良好	punct
+“	良好	punct
+肾脏	移除	nsubj
+成功	移除	advmod
+移除	体内	acl:relcl
+并	植入	cc
+植入	移除	conj
+到	植入	mark
+捐赠	者	compound
+者	植入	obj
+的	移除	mark:rel
+侄女	体内	nmod
+体内	良好	nmod
+，	体内	punct
+两	位	nummod
+位	患者	clf
+患者	良好	nsubj
+都	良好	mark
+情况	良好	obl
+良好	表示	ccomp
+。	良好	punct
+”	良好	punct
+----------------------------------------------------------------------
+它补充说，这种手术被认为是不那么侵入性的，可能会为增加器官捐赠铺平道路。
+
+(ROOT (IP (NP (PRP 它)) (VP (VP (VV 补充)) (VP (VV 说) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 手术))) (VP (VP (BB 被) (VP (VCP (VV 认为) (VC 是)) (NP (CP (CP (IP (VP (ADVP (RB 不)) (ADVP (RB 那么)) (VP (VV 侵入) (NP (SFN 性))))) (UH 的)))))) (, ，) (VP (MD 可能) (VP (MD 会) (VP (PP (IN 为) (IP (VP (VV 增加) (NP (NN 器官) (NN 捐赠))))) (VP (VV 铺平) (NP (NN 道路)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP40378': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+它	说	nsubj
+补充	说	advcl
+说	ROOT	root
+，	铺平	punct
+这	种	det
+种	手术	clf
+手术	铺平	nsubj
+被	为	aux:pass
+为	铺平	advcl
+是	性	cop
+不	那么	advmod
+那么	性	advmod
+侵入	性	compound
+性	为	xcomp
+的	为	discourse
+，	为	punct
+可能	铺平	aux
+会	铺平	aux
+为	增加	case
+增加	铺平	xcomp
+器官	捐赠	nmod
+捐赠	增加	obj
+铺平	说	ccomp
+道路	铺平	obj
+。	说	punct
+----------------------------------------------------------------------
+蒙哥马利表示，通过自然开口去除肾脏应该加快患者的康复，并提供更好的美容效果。
+
+(ROOT (IP (NP (NNP 蒙哥马利)) (VP (VV 表示) (, ，) (IP (VP (PP (IN 通过) (IP (VP (VP (ADVP (NN 自然)) (VP (VV 开口))) (VP (VV 去除) (NP (NN 肾) (NN 脏)))))) (VP (MD 应该) (VP (VP (VV 加快) (NP (DNP (NP (NN 患者)) (DEC 的)) (NP (NN 康复)))) (, ，) (CC 并) (VP (VV 提供) (NP (CP (CP (IP (VP (JJ 更好))) (DEC 的))) (NP (NN 美容) (NN 效果))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+蒙哥马利	表示	nsubj
+表示	ROOT	root
+，	提供	punct
+通过	自然	case
+自然	开口	obl
+开口	去除	advcl
+去除	加快	advcl
+肾	脏	nmod
+脏	去除	obj
+应该	加快	aux
+加快	提供	advcl
+患者	康复	nmod
+的	患者	case
+康复	加快	obj
+，	加快	punct
+并	提供	cc
+提供	表示	xcomp
+更好	效果	amod
+的	更好	mark:rel
+美容	效果	nmod
+效果	提供	obj
+。	表示	punct
+----------------------------------------------------------------------
+周二，他告诉美国有线电视新闻网 (CNN)，“我们想让人们捐献血液变得更加简单，对他们的生活影响更小，在医院住的时间更短，回归生活更快。”
+
+(ROOT (IP (NP (NN 周二)) (, ，) (NP (PRP 他)) (VP (VV 告诉) (NP (NP (NP (NP (NNP 美国)) (NP (ADJP (NN 有线)) (NP (NN 电视))) (NP (NN 新闻) (SFN 网))) (NP (FW -LRB-CNN))) (-RRB- -RRB-)) (, ，) (IP (`` “) (IP (NP (PRP 我们)) (VP (VP (MD 想) (IP (VP (VV 让) (NP (NN 人们)) (IP (VP (VV 捐献) (NP (NN 血液))))))) (VP (VV 变得) (VP (ADVP (RB 更加)) (VP (JJ 简单)))))) (, ，) (IP (PP (IN 对) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 生活)))) (NP (VV 影响)) (VP (JJ 更小))) (, ，) (IP (VP (PP (VV 在) (NP (CP (CP (IP (NP (NN 医院)) (VP (VV 住))) (DEC 的))) (NP (NN 时间)))) (VP (JJ 更短)))) (, ，) (IP (NP (VV 回归) (NN 生活)) (VP (JJ 更快))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP22154': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP46177': {'PRP': {}}, 'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'NN': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+周二	告诉	nmod:tmod
+，	周二	punct
+他	告诉	nsubj
+告诉	ROOT	root
+美国	网	nmod
+有线	网	nmod
+电视	网	nmod
+新闻	网	compound
+网	告诉	obj
+(CNN	网	appos
+)	网	punct
+，	更快	punct
+“	更快	punct
+我	影响	nsubj
+想	让	aux
+让	影响	advcl
+人	捐献	nsubj
+捐献	变得	advcl
+血液	捐献	obj
+变得	让	ccomp
+更加	变得	advmod
+简单	变得	xcomp
+，	让	punct
+对	生活	case
+他	生活	det
+的	他	mark:rel
+生活	更小	nmod
+影响	更快	advcl
+更小	影响	xcomp
+，	影响	punct
+在	住	advcl
+医院	在	obj
+住	时间	acl:relcl
+的	住	mark:rel
+时间	更短	nsubj
+更短	更快	advcl
+，	更短	punct
+回归	更快	advcl
+生活	更快	nsubj
+更快	告诉	parataxis
+。	告诉	punct
+”	更快	punct
+----------------------------------------------------------------------
+他补充说，这名女性被选中成为首个接受这项手术的捐献者，因为之前的子宫切除术使医生能够在没有子宫阻碍的情况下进行手术。
+
+(ROOT (IP (NP (PRP 他)) (VP (VP (VV 补充)) (VP (VV 说) (, ，) (IP (IP (NP (DP (DT 这) (CLP (NNB 名))) (NP (NN 女性))) (VP (BB 被) (VP (VV 选中) (IP (VP (VV 成) (VP (VC 为) (NP (QP (CD 首个)) (CP (CP (IP (VP (VV 接受) (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 手术))))) (DEC 的))) (NP (VV 捐献) (SFN 者))))))))) (, ，) (PP (IN 因为) (IP (NP (DNP (ADJP (IN 之前)) (DEC 的)) (NP (NN 子) (NN 宫切) (NN 除术))) (VP (VV 使) (NP (NN 医生)) (IP (VP (MD 能够) (VP (PP (IN 在) (LCP (NP (CP (IP (VP (VV 没有) (IP (NP (NN 子宫)) (VP (VV 阻碍))))) (DEC 的)) (NP (NN 情况))) (IN 下))) (VP (VV 进行) (NP (NN 手术)))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP7547': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+他	说	nsubj
+补充	说	advcl
+说	ROOT	root
+，	选中	punct
+这	名	det
+名	女性	clf
+女性	选中	nsubj:pass
+被	选中	aux:pass
+选中	说	ccomp
+成	选中	xcomp
+为	成	mark
+首个	接受	nsubj
+接受	者	acl:relcl
+这	项	det
+项	手术	clf
+手术	接受	obj
+的	接受	mark:rel
+捐献	者	compound
+者	成	obj
+，	使	punct
+因为	使	case
+之前	子	case
+的	之前	mark:rel
+子	除术	nmod
+宫切	除术	nmod
+除术	使	nsubj
+使	说	ccomp
+医生	进行	nsubj
+能够	进行	aux
+在	情况	case
+有	情况	acl:relcl
+子宫	阻碍	obl
+阻碍	有	xcomp
+的	有	mark:rel
+情况	进行	obl
+下	情况	case
+进行	使	ccomp
+手术	进行	obj
+。	说	punct
+----------------------------------------------------------------------
+通常，三小时的手术可以让捐献者在 24 小时内回家。
+
+(ROOT (IP (ADVP (JJ 通常)) (, ，) (NP (DNP (NP (QP (CD 三)) (NP (NN 小时))) (DEC 的)) (NP (NN 手术))) (VP (MD 可以) (VP (VV 让) (NP (VV 捐献) (SFN 者)) (IP (VP (PP (IN 在) (LCP (NP (QP (CD 24)) (NP (NN 小时))) (IN 内))) (VP (VV 回家)))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'JJ': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'JJ': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'JJ': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+通常	让	advmod
+，	通常	punct
+三	小时	nummod
+小时	手术	nmod
+的	小时	case
+手术	让	nsubj
+可以	让	aux
+让	ROOT	root
+捐献	者	compound
+者	回家	nsubj
+在	小时	case
+24	小时	nummod
+小时	回家	obl
+内	小时	case
+回家	让	ccomp
+。	让	punct
+----------------------------------------------------------------------
+传统手术需要在腹壁上做 5 英寸到 6 英寸的切口，通常需要住院两天或三天。
+
+(ROOT (IP (NP (ADJP (NN 传统)) (NP (NN 手术))) (VP (VP (MD 需要) (VP (PP (VV 在) (LCP (NP (NN 腹壁)) (NN 上))) (VP (VV 做) (NP (DNP (QP (QP (CD 5) (CLP (NNB 英寸))) (CC 到) (QP (CD 6) (CLP (NNB 英寸)))) (DEC 的)) (NP (NN 切口)))))) (, ，) (VP (ADVP (RB 通常)) (VP (MD 需要) (VP (VV 住院) (QP (QP (CD 两) (CLP (NNB 天))) (CC 或) (QP (CD 三) (CLP (NNB 天)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP60816': {}}, '.': {}}}
+{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'ADJP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+传统	手术	nmod
+手术	住院	nsubj
+需要	做	aux
+在	做	advcl
+腹壁	在	obj
+上	腹壁	acl
+做	住院	advcl
+5	英寸	nummod
+英寸	切口	nmod
+到	6	cc
+6	英寸	conj
+英寸	英寸	conj
+的	英寸	case
+切口	做	obj
+，	做	punct
+通常	住院	advmod
+需要	住院	aux
+住院	ROOT	root
+两	天	nummod
+天	住院	obj
+或	天	cc
+三	天	nummod
+天	天	conj
+。	住院	punct
+----------------------------------------------------------------------
+“如果你问我的病人，她会说这就像拔牙一样。
+
+(ROOT (IP (`` “) (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 你)) (VP (VV 问) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 病人)))))) (, ，) (NP (PRP 她)) (VP (MD 会) (VP (VV 说) (IP (NP (PRD 这)) (VP (ADVP (RB 就)) (PP (VV 像) (NP (VV 拔牙))) (VP (JJ 一样))))))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'IP': {}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+“	说	punct
+如果	问	case
+你	问	nsubj
+问	说	ccomp
+我	病人	det
+的	我	case
+病人	问	obj
+，	问	punct
+她	说	nsubj
+会	说	aux
+说	ROOT	root
+这	像	nsubj
+就	像	mark
+像	说	ccomp
+拔牙	像	xcomp
+一样	像	xcomp
+。	说	punct
+----------------------------------------------------------------------
+蒙哥马利说:“那天晚上她在走，第二天就走了。”
+
+(ROOT (IP (NP (NNP 蒙哥马利)) (VP (VV 说) (: :) (IP (`` “) (NP (DP (DT 那) (CLP (NNB 天))) (NP (NN 晚上))) (NP (PRP 她)) (VP (VP (ADVP (VV 在)) (VP (VV 走))) (, ，) (VP (QP (CD 第二) (CLP (NNB 天))) (ADVP (RB 就)) (VP (VV 走) (UH 了)))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+蒙哥马利	说	nsubj
+说	ROOT	root
+:	走	punct
+“	走	punct
+那	天	det
+天	晚上	clf
+晚上	走	nmod:tmod
+她	走	nsubj
+在	走	advcl
+走	在	xcomp
+，	在	punct
+第二	天	nummod
+天	走	nmod:tmod
+就	走	mark
+走	说	ccomp
+了	走	discourse
+。	走	punct
+”	走	punct
+----------------------------------------------------------------------
+这项手术通过在腹部和肚皮上留下小口子，把“棒状的相机和工具”插入体内来完成。
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 手术))) (VP (PP (VV 通过) (IP (VP (PP (IN 在) (LCP (NP (NN 腹部) (CC 和) (NN 肚皮)) (NN 上))) (VP (VV 留下) (NP (ADJP (PFA 小)) (NP (NN 口子))))))) (, ，) (VP (BB 把) (IP (NP (`` “) (DNP (ADJP (NN 棒状)) (DEC 的)) (NP (NN 相机) (CC 和) (NN 工具)) ('' ”)) (VP (VP (VV 插入) (NP (NN 体内))) (VP (RB 来) (VP (VV 完成))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'PP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+这	项	det
+项	手术	clf
+手术	完成	nsubj
+通过	留下	advcl
+在	腹部	case
+腹部	留下	obl
+和	肚皮	cc
+肚皮	腹部	conj
+上	腹部	acl
+留下	完成	advcl
+小	口子	case
+口子	留下	obj
+，	留下	punct
+把	相机	case
+“	相机	punct
+棒状	相机	nmod
+的	棒状	case
+相机	插入	obl:patient
+和	工具	cc
+工具	相机	conj
+”	相机	punct
+插入	完成	advcl
+体内	插入	iobj
+来	完成	mark
+完成	ROOT	root
+。	完成	punct
+----------------------------------------------------------------------
+然后医生会通过阴道把一根空管插入体内，管尽头有一个袋子。
+
+(ROOT (IP (IP (ADVP (RB 然后)) (NP (NN 医生)) (VP (MD 会) (VP (PP (IN 通过) (NP (NN 阴道))) (VP (BB 把) (IP (NP (QP (CD 一) (CLP (NNB 根))) (NP (NN 空管))) (VP (VV 插入) (NP (NN 体内)))))))) (, ，) (IP (NP (VV 管) (NN 尽头)) (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 袋子))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP94507': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP48600': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+然后	有	advmod
+医生	有	nsubj
+会	插入	aux
+通过	阴道	case
+阴道	插入	obl
+把	空管	case
+一	根	nummod
+根	空管	clf
+空管	插入	obl:patient
+插入	有	advcl
+体内	插入	iobj
+，	插入	punct
+管	有	advcl
+尽头	管	obj
+有	ROOT	root
+一	个	nummod
+个	袋子	clf
+袋子	有	obj
+。	有	punct
+----------------------------------------------------------------------
+Montgomery 说，一旦肾脏被切开，外科医生会使用相机拍摄的视频来指导他们将袋子推进到器官周围，然后把它放进肾管中，并通过阴道口把它拽出来。
+
+(ROOT (IP (NP (FW Montgomery)) (VP (VV 说) (, ，) (IP (CP (ADVP (IN 一旦)) (IP (NP (NN 肾) (NN 脏)) (VP (BB 被) (VP (VV 切开))))) (, ，) (NP (NN 外科) (NN 医生)) (VP (VP (MD 会) (VP (VP (VV 使用) (NP (CP (CP (IP (NP (NN 相机)) (VP (VV 拍摄))) (DEC 的))) (NP (NN 视频)))) (VP (RB 来) (VP (VV 指导) (NP (PRP 他们)) (IP (VP (BB 将) (IP (NP (NN 袋子)) (VP (VRD (VV 推进) (VV 到)) (NP (NN 器官) (NN 周围)))))))))) (, ，) (VP (ADVP (RB 然后)) (VP (VP (BB 把) (IP (NP (PRP 它)) (VP (VRD (VV 放) (VV 进)) (LCP (NP (NN 肾)) (NN 管中))))) (, ，) (RB 并) (VP (PP (IN 通过) (NP (NN 阴道) (SFN 口))) (VP (BB 把) (IP (NP (PRP 它)) (VP (VRD (VV 拽) (VV 出来))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+Montgomery	说	nsubj
+说	ROOT	root
+，	拽	punct
+一旦	切开	case
+肾	脏	nmod
+脏	切开	nsubj
+被	切开	aux:pass
+切开	指导	ccomp
+，	切开	punct
+外科	医生	nmod
+医生	拽	nsubj
+会	指导	aux
+使用	指导	advcl
+相机	拍摄	nsubj
+拍摄	视频	acl:relcl
+的	拍摄	mark:rel
+视频	使用	obj
+来	指导	mark
+指导	拽	advcl
+他	推进	nsubj
+将	袋子	case
+袋子	推进	obl:patient
+推进	指导	ccomp
+到	推进	mark
+器官	周围	nmod
+周围	推进	obj
+，	指导	punct
+然后	放	advmod
+把	它	case
+它	放	obl:patient
+放	拽	advcl
+进	放	mark
+肾	管中	nmod
+管中	放	obj
+，	放	punct
+并	拽	mark
+通过	口	case
+阴道	口	compound
+口	拽	obl
+把	它	case
+它	拽	obl:patient
+拽	说	ccomp
+出来	拽	mark
+。	说	punct
+----------------------------------------------------------------------
+肾脏重约 454 克，大约是拇指抓拳时的大小。
+
+(ROOT (IP (IP (NP (NN 肾脏)) (VP (JJ 重约) (QP (CD 454) (CLP (NNB 克))))) (, ，) (IP (VP (ADVP (RB 大约)) (VP (VC 是) (NP (NP (NN 拇) (VV 指)) (DNP (LCP (IP (VP (VV 抓拳))) (IN 时)) (DEC 的)) (NP (NN 大小)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP88155': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP98315': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+肾脏	大小	nsubj
+重约	大小	acl
+454	克	nummod
+克	重约	obl
+，	重约	punct
+大约	大小	advmod
+是	大小	cop
+拇	指	obl
+指	大小	acl:relcl
+抓拳	指	xcomp
+时	抓拳	mark
+的	指	mark:rel
+大小	ROOT	root
+。	大小	punct
+----------------------------------------------------------------------
+为了确保手术更干净，她的阴道被涂上一种名为 Betadine 的消毒溶剂，这是一种在手术中通常使用的消毒剂。
+
+(ROOT (IP (IP (PP (IN 为了) (IP (VP (VV 确保) (IP (NP (NN 手术)) (VP (ADVP (RB 更)) (VP (JJ 干净))))))) (, ，) (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 阴道))) (VP (BB 被) (VP (VRD (VV 涂) (VV 上)) (IP (QP (CD 一) (CLP (NNB 种名))) (CP (CP (IP (VP (VC 为) (NP (FW Betadine)))) (DEC 的))) (NP (NN 消毒) (NN 溶剂)))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (CP (CP (IP (VP (PP (IN 在) (LCP (NP (NN 手术)) (IN 中))) (ADVP (RB 通常)) (VP (VV 使用)))) (DEC 的))) (NP (VV 消毒) (SFN 剂))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP34976': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP40373': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+为了	确保	case
+确保	涂	xcomp
+手术	干净	nsubj
+更	干净	advmod
+干净	确保	ccomp
+，	确保	punct
+她	阴道	det
+的	她	mark:rel
+阴道	涂	nsubj:pass
+被	涂	aux:pass
+涂	ROOT	root
+上	涂	mark
+一	种名	nummod
+种名	溶剂	clf
+为	Betadine	cop
+Betadine	溶剂	acl:relcl
+的	Betadine	mark:rel
+消毒	溶剂	nmod
+溶剂	涂	obj
+，	剂	punct
+这	剂	nsubj
+是	剂	cop
+一	种	nummod
+种	剂	nmod
+在	手术	case
+手术	使用	obl
+中	手术	case
+通常	使用	advmod
+使用	剂	acl:relcl
+的	使用	mark:rel
+消毒	剂	compound
+剂	涂	parataxis
+。	涂	punct
+----------------------------------------------------------------------
+但是一些医生不禁要问，这个过程到底有多干净。
+
+(ROOT (IP (ADVP (RB 但是)) (NP (QP (JJ 一些)) (NP (NN 医生))) (VP (ADVP (RB 不)) (VP (VV 禁要) (IP (VP (VV 问) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 过程))) (VP (ADVP (RB 到底)) (VP (VV 有) (VP (ADVP (RB 多)) (VP (JJ 干净)))))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+但是	禁要	mark
+一些	医生	amod
+医生	禁要	nsubj
+不	禁要	advmod
+禁要	ROOT	root
+问	禁要	xcomp
+，	有	punct
+这	个	det
+个	过程	clf
+过程	有	nsubj
+到底	有	advmod
+有	禁要	parataxis
+多	有	advmod
+干净	有	xcomp
+。	禁要	punct
+----------------------------------------------------------------------
+克利夫兰诊所腹腔镜和机器人手术主管 Jihad Kaouk 医生说：“采取这种（灭菌）措施是好的，但管子触及阴道，袋子触及管子，袋子又触及肾脏”。
+
+(ROOT (IP (NP (NP (NP (NNP 克利夫) (NN 兰诊) (SFN 所)) (NP (NN 腹腔) (SFN 镜) (CC 和) (NN 机器) (SFN 人) (NN 手术) (NN 主管))) (NP (FW Jihad) (FW Kaouk) (NN 医生))) (VP (VV 说) (: ：) (IP (`` “) (IP (IP (VP (VV 采取) (NP (DP (DT 这) (CLP (NNB 种))) (PRN (-LRB- （) (NP (NN 灭菌)) (-RRB- ）)) (NP (NN 措施))))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 好))) (UH 的)))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 管子)) (VP (SFN 触) (CC 及) (NP (NN 阴道)))) (, ，) (IP (NP (NN 袋子)) (VP (SFN 触) (CC 及) (NN 管子))) (, ，) (IP (NP (NN 袋子)) (VP (ADVP (CC 又)) (VP (VV 触) (CC 及) (NP (NN 肾) (JJ 脏))))) ('' ”))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP86759': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+克利夫	镜	nmod
+兰诊	所	compound
+所	镜	nmod
+腹腔	镜	compound
+镜	说	nsubj
+和	主管	cc
+机器	人	compound
+人	主管	nmod
+手术	主管	nmod
+主管	镜	conj
+Jihad	主管	appos
+Kaouk	Jihad	flat:foreign
+医生	Jihad	appos
+说	ROOT	root
+：	好	punct
+“	好	punct
+采取	好	csubj
+这	种	det
+种	灭菌	clf
+（	灭菌	punct
+灭菌	采取	obj
+）	灭菌	punct
+措施	好	nsubj
+是	好	cop
+好	说	ccomp
+的	好	discourse
+，	好	punct
+但	袋子	mark
+管子	触	compound
+触	好	nsubj
+及	阴道	cc
+阴道	触	conj
+，	触	punct
+袋子	触	compound
+触	触	conj
+及	管子	cc
+管子	触	conj
+，	触	punct
+袋子	触	nsubj
+又	触	cc
+触	触	conj
+及	脏	cc
+肾	脏	nsubj
+脏	触	conj
+”	触	punct
+。	说	punct
+----------------------------------------------------------------------
+他补充说：“从阴道抽取肾脏，这是不受污染的，这是一种潜在风险还是真正的风险？现在我们就能知道了。”
+
+(ROOT (IP (NP (PRP 他)) (VP (VP (VV 补充)) (VP (VV 说) (: ：) (IP (`` “) (IP (VP (PP (IN 从) (NP (NN 阴道))) (VP (VV 抽取) (NP (NN 肾) (NN 脏))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (VP (VV 不受) (NP (NN 污染)))) (UH 的)))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (NP (NP (ADJP (JJ 潜在)) (NP (NN 风险))) (VC 还是) (NP (CP (CP (IP (VP (JJ 真正))) (DEC 的))) (NP (NN 风险)))))))))) (. ？)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP59171': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+他	说	nsubj
+补充	说	advcl
+说	ROOT	root
+：	风险	punct
+“	风险	punct
+从	阴道	case
+阴道	抽取	obl
+抽取	受	xcomp
+肾	脏	nmod
+脏	抽取	obj
+，	抽取	punct
+这	受	nsubj
+是	受	cop
+受	说	xcomp
+污染	受	obj
+的	受	discourse
+，	风险	punct
+这	风险	nsubj
+是	风险	cop
+一	种	nummod
+种	风险	clf
+潜在	风险	amod
+风险	风险	acl
+是	风险	cop
+真正	风险	amod
+的	真正	mark:rel
+风险	说	ccomp
+？	说	punct
+----------------------------------------------------------------------
+Kaouk 还对肾脏被挤压成管状后的质量表示了担忧。
+
+(ROOT (IP (NP (FW Kaouk)) (VP (PP (IN 还对) (NP (DNP (LCP (IP (NP (NN 肾脏)) (VP (BB 被) (VP (VCD (VV 挤压) (NN 成管))))) (NN 状后)) (DEC 的)) (NP (NN 质量)))) (VP (VV 表示) (AS 了) (NP (NN 担忧)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'FW': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'FW': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+Kaouk	表示	nsubj
+还对	质量	case
+肾脏	挤压	obl
+被	挤压	aux
+挤压	质量	acl:relcl
+成管	状后	nmod
+状后	挤压	obj
+的	挤压	mark:rel
+质量	表示	obl
+表示	ROOT	root
+了	表示	aux
+担忧	表示	obj
+。	表示	punct
+----------------------------------------------------------------------
+“尽量减少手术切口和减轻手术疼痛，这个理念是好的，但是我们应该看看付出的代价是什么”，他说道。
+
+(ROOT (IP (IP (`` “) (IP (VP (ADVP (RB 尽量)) (VP (VP (VV 减少) (NP (NN 手术) (NN 切口))) (CC 和) (VP (VV 减轻) (NP (NN 手术) (NN 疼痛)))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 理念))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 好))) (UH 的)))))) (, ，) (IP (ADVP (RB 但是)) (NP (PRP 我们)) (VP (MD 应该) (VP (VV 看看) (IP (NP (CP (CP (IP (VP (VV 付出))) (DEC 的))) (NP (NN 代价))) (VP (VC 是) (NP (WP 什么))))))) ('' ”)) (, ，) (NP (PRP 他)) (VP (VV 说道)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'IP7915': {}, ',5967': {}, 'IP93681': {}, "''": {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, "''": {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+“	减少	punct
+尽量	减少	advmod
+减少	好	csubj
+手术	切口	nmod
+切口	减少	obj
+和	减轻	cc
+减轻	减少	conj
+手术	疼痛	nmod
+疼痛	减轻	obj
+，	减少	punct
+这	个	det
+个	理念	clf
+理念	好	nsubj
+是	好	cop
+好	ROOT	root
+的	好	discourse
+，	好	punct
+但是	什么	mark
+我	什么	nsubj
+应该	看看	aux
+看看	什么	acl
+付出	代价	acl:relcl
+的	付出	mark:rel
+代价	看看	obj
+是	什么	cop
+什么	说道	advcl
+”	什么	punct
+，	说道	punct
+他	说道	nsubj
+说道	好	parataxis
+。	好	punct
+----------------------------------------------------------------------

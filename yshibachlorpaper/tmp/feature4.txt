@@ -1,0 +1,1855 @@
+他只有 52 岁，他即将离开，花更多时间指导全球最富有的慈善机构——比尔及梅琳达·盖茨基金会。
+
+(ROOT (IP (IP (NP (PRP 他)) (VP (QP (ADVP (IN 只有)) (QP (CD 52) (CLP (NNB 岁)))))) (, ，) (IP (NP (PRP 他)) (VP (VP (ADVP (RB 即将)) (VP (VV 离开))) (, ，) (VP (VP (VV 花) (NP (ADJP (JJ 更多)) (NP (NN 时间)))) (VP (VV 指导) (NP (NP (CP (CP (IP (VP (NP (NN 全球)) (ADVP (RB 最)) (VP (JJ 富有)))) (DEC 的))) (ADJP (NN 慈善)) (NP (NN 机构))) (HYPH —) (NP (NNP —比尔) (CC 及) (NNP 梅) (NNP 琳达) (/ ·) (NNP 盖茨) (NN 基金) (SFN 会))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP91733': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP98320': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['他', '指导', 'nsubj']
+['ADP', 'NOUN', 'case']	['只有', '岁', 'case']
+['NUM', 'NOUN', 'nummod']	['52', '岁', 'nummod']
+['NOUN', 'VERB', 'obl']	['岁', '指导', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '岁', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '指导', 'nsubj']
+['ADV', 'VERB', 'advmod']	['即将', '离开', 'advmod']
+['VERB', 'VERB', 'advcl']	['离开', '指导', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '离开', 'punct']
+['VERB', 'VERB', 'advcl']	['花', '指导', 'advcl']
+['ADJ', 'NOUN', 'amod']	['更多', '时间', 'amod']
+['NOUN', 'VERB', 'obj']	['时间', '花', 'obj']
+['VERB', 'ROOT', 'root']	['指导', 'NONE', 'root']
+['NOUN', 'NOUN', 'nmod']	['全球', '机构', 'nmod']
+['ADV', 'ADJ', 'advmod']	['最', '富有', 'advmod']
+['ADJ', 'NOUN', 'amod']	['富有', '机构', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '富有', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['慈善', '机构', 'nmod']
+['NOUN', 'VERB', 'obj']	['机构', '指导', 'obj']
+['PUNCT', 'PROPN', 'punct']	['—', '—比尔', 'punct']
+['PROPN', 'NOUN', 'appos']	['—比尔', '机构', 'appos']
+['CCONJ', 'PROPN', 'cc']	['及', '梅', 'cc']
+['PROPN', 'PROPN', 'conj']	['梅', '—比尔', 'conj']
+['PROPN', 'PART', 'nmod']	['琳达', '会', 'nmod']
+['PUNCT', 'PROPN', 'punct']	['·', '琳达', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['盖茨', '琳达', 'flat:name']
+['NOUN', 'PART', 'compound']	['基金', '会', 'compound']
+['PART', 'NOUN', 'conj']	['会', '机构', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '指导', 'punct']
+----------------------------------------------------------------------
+他将继续担任微软董事长兼最大股东，但星期五是他在软件巨头公司兼职的最后一天，这标志着他作为商业领袖的职业生涯的非正式结束。
+
+(ROOT (IP (IP (NP (PRP 他)) (VP (ADVP (RB 将)) (VP (VV 继续) (VP (VV 担任) (NP (NP (NP (NNP 微软)) (NP (NN 董事) (SFN 长))) (CC 兼) (NP (ADJP (JJ 最大)) (NP (NN 股东)))))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 星期) (CD 五)) (VP (VC 是) (QP (CP (CP (NP (NP (PRP 他)) (VP (PP (IN 在) (NP (NN 软件) (NN 巨头) (NN 公司))) (VP (VV 兼职)))) (DEC 的))) (ADJP (NN 最后)) (QP (CD 一) (CLP (NNB 天)))))) (, ，) (IP (NP (PRD 这)) (VP (VV 标志) (AS 着) (IP (NP (PRP 他)) (DNP (PP (VV 作) (PP (VC 为) (NP (DNP (NP (NN 商业) (NN 领袖)) (DEC 的)) (NP (NN 职业) (NN 生涯))))) (DEC 的)) (ADJP (ADVP (PFA 非)) (ADJP (JJ 正式))) (NP (NN 结束))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP89582': {}, ',97062': {}, 'IP11804': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP66282': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',50403': {}, 'IP25400': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['他', '继续', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '继续', 'advmod']
+['VERB', 'ROOT', 'root']	['继续', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['担任', '继续', 'xcomp']
+['PROPN', 'PART', 'nmod']	['微软', '长', 'nmod']
+['NOUN', 'PART', 'compound']	['董事', '长', 'compound']
+['PART', 'VERB', 'obj']	['长', '担任', 'obj']
+['CCONJ', 'NOUN', 'cc']	['兼', '股东', 'cc']
+['ADJ', 'NOUN', 'amod']	['最大', '股东', 'amod']
+['NOUN', 'PART', 'conj']	['股东', '长', 'conj']
+['PUNCT', 'VERB', 'punct']	['，', '标志', 'punct']
+['ADV', 'VERB', 'mark']	['但', '标志', 'mark']
+['NOUN', 'VERB', 'nsubj']	['星期', '标志', 'nsubj']
+['NUM', 'NOUN', 'appos']	['五', '星期', 'appos']
+['AUX', 'NOUN', 'cop']	['是', '天', 'cop']
+['PRON', 'NOUN', 'nmod']	['他', '天', 'nmod']
+['ADP', 'NOUN', 'case']	['在', '公司', 'case']
+['NOUN', 'NOUN', 'nmod']	['软件', '公司', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['巨头', '公司', 'nmod']
+['NOUN', 'VERB', 'obl']	['公司', '兼职', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['兼职', '天', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '兼职', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['最后', '天', 'nmod']
+['NUM', 'NOUN', 'nummod']	['一', '天', 'nummod']
+['NOUN', 'VERB', 'obl']	['天', '标志', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '天', 'punct']
+['PRON', 'VERB', 'nsubj']	['这', '标志', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['标志', '继续', 'parataxis']
+['AUX', 'VERB', 'aux']	['着', '标志', 'aux']
+['PRON', 'VERB', 'nsubj']	['他', '作', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['作', '结束', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['为', '作', 'mark']
+['NOUN', 'NOUN', 'nmod']	['商业', '领袖', 'nmod']
+['NOUN', 'VERB', 'obj']	['领袖', '作', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '作', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['职业', '生涯', 'nmod']
+['NOUN', 'VERB', 'obj']	['生涯', '作', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '作', 'mark:rel']
+['PART', 'NOUN', 'case']	['非', '结束', 'case']
+['ADJ', 'NOUN', 'amod']	['正式', '结束', 'amod']
+['NOUN', 'VERB', 'obj']	['结束', '标志', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '继续', 'punct']
+----------------------------------------------------------------------
+这一生的事业可谓壮丽。盖茨先生是个人电脑革命的推动者，帮助建立了一个庞大的全球性产业，并设计了Windows和Office这样的畅销产品，这些产品在全球各地的办公室和家庭中每天都在使用。
+
+(ROOT (IP (NP (DNP (DP (DT 这) (QP (CD 一) (CLP (NN 生)))) (DEC 的)) (NP (NN 事业))) (VP (MD 可) (VP (VV 谓) (NP (JJ 壮丽)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这', '生', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '生', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['生', '事业', 'nmod']
+['PART', 'NOUN', 'case']	['的', '生', 'case']
+['NOUN', 'VERB', 'nsubj']	['事业', '谓', 'nsubj']
+['AUX', 'VERB', 'aux']	['可', '谓', 'aux']
+['VERB', 'ROOT', 'root']	['谓', 'NONE', 'root']
+['ADJ', 'VERB', 'xcomp']	['壮丽', '谓', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '谓', 'punct']
+----------------------------------------------------------------------
+这位哈佛大学辍学生多年来一直是地球上最富有的人，1999 年的身家超过 1000 亿美元，尽管由于微软股价下跌和他持续向自己的基金会捐款，他的财富目前大约只有原来的一半，但他仍然是地球上最富有的人。该基金会的重点是全球卫生和教育。
+
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 位))) (NP (NNP 哈佛) (NN 大学)) (NP (VV 辍学) (SFN 生))) (VP (LCP (QP (CD 多) (CLP (NNB 年))) (IN 来)) (ADVP (RB 一直)) (VP (VC 是) (NP (CP (CP (IP (VP (LCP (NP (NNP 地球)) (IN 上)) (ADVP (RB 最)) (VP (JJ 富有)))) (DEC 的))) (NP (NN 人)))))) (, ，) (IP (DNP (NP (CD 1999)) (NNB 年的)) (NP (NN 身家)) (VP (QP (ADVP (VV 超过)) (QP (CD 1000) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元)))))))) (, ，) (IP (PP (ADVP (IN 尽管)) (PP (IN 由于) (IP (IP (NP (NP (NNP 微软)) (NP (NN 股价))) (VP (VV 下跌))) (CC 和) (IP (NP (PRP 他)) (VP (RB 持续) (VP (PP (IN 向) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 基金) (SFN 会)))) (VP (VV 捐款)))))))) (, ，) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 财富))) (VP (NP (NN 目前)) (ADVP (RB 大约)) (VP (VV 只有) (QP (DNP (ADJP (RB 原来)) (DEC 的)) (QP (CD 一半)))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 他)) (VP (ADVP (RB 仍然)) (VP (VC 是) (NP (CP (CP (IP (VP (LCP (NP (NNP 地球)) (IN 上)) (ADVP (RB 最)) (VP (JJ 富有)))) (DEC 的))) (NP (NN 人)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP18675': {}, ',18528': {}, 'IP85960': {}, ',1365': {}, 'IP66131': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP6082': {'DNP': {}, 'NP': {}, 'VP': {}}, ',60131': {}, 'IP11062': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',13481': {}, 'IP35772': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'DNP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'DNP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这', '位', 'det']
+['NOUN', 'PART', 'nmod']	['位', '生', 'nmod']
+['PROPN', 'PART', 'nmod']	['哈佛', '生', 'nmod']
+['NOUN', 'PART', 'nmod']	['大学', '生', 'nmod']
+['VERB', 'PART', 'compound']	['辍学', '生', 'compound']
+['PART', 'NOUN', 'nsubj']	['生', '人', 'nsubj']
+['NUM', 'NOUN', 'nummod']	['多', '年', 'nummod']
+['NOUN', 'NOUN', 'nmod:tmod']	['年', '人', 'nmod:tmod']
+['ADP', 'NOUN', 'case']	['来', '年', 'case']
+['ADV', 'NOUN', 'advmod']	['一直', '人', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '人', 'cop']
+['PROPN', 'ADJ', 'obl']	['地球', '富有', 'obl']
+['ADP', 'PROPN', 'case']	['上', '地球', 'case']
+['ADV', 'ADJ', 'advmod']	['最', '富有', 'advmod']
+['ADJ', 'NOUN', 'amod']	['富有', '人', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '富有', 'mark:rel']
+['NOUN', 'ROOT', 'root']	['人', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '超过', 'punct']
+['NUM', 'NOUN', 'nummod']	['1999', '年的', 'nummod']
+['NOUN', 'NOUN', 'clf']	['年的', '身家', 'clf']
+['NOUN', 'VERB', 'nsubj']	['身家', '超过', 'nsubj']
+['VERB', 'NOUN', 'parataxis']	['超过', '人', 'parataxis']
+['NUM', 'NOUN', 'nummod']	['1000', '元', 'nummod']
+['NUM', 'NOUN', 'nummod']	['亿', '元', 'nummod']
+['PROPN', 'NOUN', 'nmod']	['美', '元', 'nmod']
+['NOUN', 'VERB', 'obj']	['元', '超过', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '只有', 'punct']
+['ADP', 'VERB', 'case']	['尽管', '捐款', 'case']
+['ADP', 'VERB', 'case']	['由于', '下跌', 'case']
+['PROPN', 'NOUN', 'nmod']	['微软', '股价', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['股价', '下跌', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['下跌', '捐款', 'ccomp']
+['CCONJ', 'VERB', 'cc']	['和', '捐款', 'cc']
+['PRON', 'PART', 'nmod']	['他', '会', 'nmod']
+['ADV', 'VERB', 'advmod']	['持续', '捐款', 'advmod']
+['ADP', 'PART', 'case']	['向', '会', 'case']
+['PRON', 'PART', 'det']	['自己', '会', 'det']
+['PART', 'PRON', 'case']	['的', '自己', 'case']
+['NOUN', 'PART', 'compound']	['基金', '会', 'compound']
+['PART', 'VERB', 'obl']	['会', '捐款', 'obl']
+['VERB', 'VERB', 'ccomp']	['捐款', '只有', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '捐款', 'punct']
+['PRON', 'NOUN', 'det']	['他', '财富', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['NOUN', 'VERB', 'nsubj']	['财富', '只有', 'nsubj']
+['NOUN', 'VERB', 'nmod:tmod']	['目前', '只有', 'nmod:tmod']
+['ADV', 'VERB', 'advmod']	['大约', '只有', 'advmod']
+['VERB', 'NOUN', 'acl']	['只有', '人', 'acl']
+['ADV', 'NUM', 'amod']	['原来', '一半', 'amod']
+['PART', 'ADV', 'mark:rel']	['的', '原来', 'mark:rel']
+['NUM', 'VERB', 'obj']	['一半', '只有', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '只有', 'punct']
+['ADV', 'NOUN', 'mark']	['但', '人', 'mark']
+['PRON', 'NOUN', 'nsubj']	['他', '人', 'nsubj']
+['ADV', 'NOUN', 'advmod']	['仍然', '人', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '人', 'cop']
+['PROPN', 'ADJ', 'obl']	['地球', '富有', 'obl']
+['ADP', 'PROPN', 'case']	['上', '地球', 'case']
+['ADV', 'ADJ', 'advmod']	['最', '富有', 'advmod']
+['ADJ', 'NOUN', 'amod']	['富有', '人', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '富有', 'mark:rel']
+['NOUN', 'NOUN', 'parataxis']	['人', '人', 'parataxis']
+['PUNCT', 'NOUN', 'punct']	['。', '人', 'punct']
+----------------------------------------------------------------------
+尽管取得了成功，但盖茨先生正在离开这家他于 1975 年共同创立的公司，该公司正在努力寻找自己的方向。
+
+(ROOT (IP (IP (IP (VP (ADVP (IN 尽管)) (VP (VV 取得) (AS 了) (NP (JJ 成功))))) (, ，) (ADVP (RB 但)) (NP (NNP 盖茨) (NN 先生)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 离开) (NP (DP (DT 这) (CLP (NNB 家))) (CP (CP (IP (NP (PRP 他)) (VP (PP (IN 于) (NP (CD 1975))) (ADVP (NNB 年共同)) (VP (VV 创立)))) (DEC 的))) (NP (NN 公司)))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 公司))) (VP (ADVP (RB 正)) (ADVP (RB 在)) (ADVP (RB 努力)) (VP (VV 寻找) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 方向)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP32398': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP24790': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['尽管', '取得', 'case']
+['VERB', 'VERB', 'xcomp']	['取得', '离开', 'xcomp']
+['AUX', 'VERB', 'aux']	['了', '取得', 'aux']
+['ADJ', 'VERB', 'xcomp']	['成功', '取得', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '取得', 'punct']
+['ADV', 'VERB', 'mark']	['但', '离开', 'mark']
+['PROPN', 'NOUN', 'nmod']	['盖茨', '先生', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['先生', '离开', 'nsubj']
+['ADV', 'VERB', 'advmod']	['正', '离开', 'advmod']
+['ADV', 'VERB', 'advmod']	['在', '离开', 'advmod']
+['VERB', 'VERB', 'advcl']	['离开', '寻找', 'advcl']
+['DET', 'NOUN', 'det']	['这', '家', 'det']
+['NOUN', 'NOUN', 'clf']	['家', '公司', 'clf']
+['PRON', 'NOUN', 'nmod']	['他', '公司', 'nmod']
+['ADP', 'NOUN', 'case']	['于', '年共同', 'case']
+['NUM', 'NOUN', 'nummod']	['1975', '年共同', 'nummod']
+['NOUN', 'VERB', 'obl']	['年共同', '创立', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['创立', '公司', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '创立', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['公司', '离开', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '离开', 'punct']
+['DET', 'NOUN', 'det']	['该', '公司', 'det']
+['NOUN', 'VERB', 'nsubj']	['公司', '寻找', 'nsubj']
+['ADV', 'VERB', 'advmod']	['正', '寻找', 'advmod']
+['ADV', 'VERB', 'advmod']	['在', '寻找', 'advmod']
+['ADV', 'VERB', 'advmod']	['努力', '寻找', 'advmod']
+['VERB', 'ROOT', 'root']	['寻找', 'NONE', 'root']
+['PRON', 'NOUN', 'det']	['自己', '方向', 'det']
+['PART', 'PRON', 'case']	['的', '自己', 'case']
+['NOUN', 'VERB', 'obj']	['方向', '寻找', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '寻找', 'punct']
+----------------------------------------------------------------------
+技术的重心已从个人电脑转移到互联网，这改变了微软以前在竞争中掌握的旧规则。
+
+(ROOT (IP (IP (NP (DNP (NP (NN 技术)) (DEC 的)) (NP (NN 重心))) (VP (ADVP (RB 已)) (PP (IN 从) (NP (NN 个人) (NN 电脑))) (VP (VRD (VV 转移) (VV 到)) (NP (JJ 互联) (SFN 网))))) (, ，) (IP (NP (PRD 这)) (VP (VV 改变) (AS 了) (NP (CP (CP (IP (NP (NNP 微软)) (VP (NP (NN 以前)) (PP (IN 在) (LCP (NP (NN 竞争)) (IN 中))) (VP (VV 掌握)))) (DEC 的))) (ADJP (PFA 旧)) (NP (NN 规则))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP72174': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP12748': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['技术', '重心', 'nmod']
+['PART', 'NOUN', 'case']	['的', '技术', 'case']
+['NOUN', 'VERB', 'nsubj']	['重心', '转移', 'nsubj']
+['ADV', 'VERB', 'advmod']	['已', '转移', 'advmod']
+['ADP', 'NOUN', 'case']	['从', '电脑', 'case']
+['NOUN', 'NOUN', 'nmod']	['个人', '电脑', 'nmod']
+['NOUN', 'VERB', 'obl']	['电脑', '转移', 'obl']
+['VERB', 'ROOT', 'root']	['转移', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['到', '转移', 'mark']
+['ADJ', 'PART', 'compound']	['互联', '网', 'compound']
+['PART', 'VERB', 'obj']	['网', '转移', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '改变', 'punct']
+['PRON', 'VERB', 'nsubj']	['这', '改变', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['改变', '转移', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '改变', 'aux']
+['PROPN', 'VERB', 'obl']	['微软', '掌握', 'obl']
+['NOUN', 'VERB', 'nmod:tmod']	['以前', '掌握', 'nmod:tmod']
+['ADP', 'NOUN', 'case']	['在', '竞争', 'case']
+['NOUN', 'VERB', 'obl']	['竞争', '掌握', 'obl']
+['ADP', 'NOUN', 'case']	['中', '竞争', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['掌握', '规则', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '掌握', 'mark:rel']
+['PART', 'NOUN', 'case']	['旧', '规则', 'case']
+['NOUN', 'VERB', 'obj']	['规则', '改变', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '转移', 'punct']
+----------------------------------------------------------------------
+对于数以百万计的用户而言，手机等移动设备正在开始取代个人电脑，成为许多计算任务的首选工具。
+
+(ROOT (IP (IP (VP (PP (IN 对于) (NP (CP (CP (IP (NP (CD 数)) (VP (PP (NNB 以) (QP (CD 百万))) (VP (VV 计)))) (DEC 的))) (NP (NN 用户)))) (VP (RB 而) (VP (VV 言))))) (, ，) (NP (NP (NN 手机) (NN 等)) (NP (NN 移动) (NN 设备))) (VP (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 开始) (VP (VV 取代) (NP (NN 个人) (NN 电脑))))) (, ，) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (QP (CD 许多)) (NP (NN 计算) (NN 任务))) (DEC 的)) (ADJP (NN 首选)) (NP (NN 工具)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NP': {}, 'NP37082': {}}, 'VP': {'VP': {}, ',': {}, 'VP67203': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['对于', '用户', 'case']
+['NUM', 'NOUN', 'nummod']	['数', '以', 'nummod']
+['NOUN', 'NUM', 'clf']	['以', '百万', 'clf']
+['NUM', 'VERB', 'obl']	['百万', '计', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['计', '用户', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '计', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['用户', '言', 'obl']
+['ADV', 'VERB', 'mark']	['而', '言', 'mark']
+['VERB', 'VERB', 'advcl']	['言', '成', 'advcl']
+['PUNCT', 'VERB', 'punct']	['，', '言', 'punct']
+['NOUN', 'VERB', 'nsubj']	['手机', '成', 'nsubj']
+['NOUN', 'NOUN', 'acl']	['等', '手机', 'acl']
+['NOUN', 'NOUN', 'nmod']	['移动', '设备', 'nmod']
+['NOUN', 'NOUN', 'appos']	['设备', '手机', 'appos']
+['ADV', 'VERB', 'advmod']	['正', '开始', 'advmod']
+['ADV', 'VERB', 'advmod']	['在', '开始', 'advmod']
+['VERB', 'VERB', 'advcl']	['开始', '成', 'advcl']
+['VERB', 'VERB', 'xcomp']	['取代', '开始', 'xcomp']
+['NOUN', 'NOUN', 'nmod']	['个人', '电脑', 'nmod']
+['NOUN', 'VERB', 'obj']	['电脑', '取代', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '开始', 'punct']
+['VERB', 'ROOT', 'root']	['成', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['为', '成', 'mark']
+['NUM', 'NOUN', 'nummod']	['许多', '任务', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['计算', '任务', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['任务', '工具', 'nmod']
+['PART', 'NUM', 'mark:rel']	['的', '许多', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['首选', '工具', 'nmod']
+['NOUN', 'VERB', 'obj']	['工具', '成', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '成', 'punct']
+----------------------------------------------------------------------
+谷歌是当前互联网计算的领先者，它从微软手中夺走了高科技领导者的光环。
+
+(ROOT (IP (IP (NP (NNP 谷歌)) (VP (VC 是) (NP (NP (NN 当前)) (DNP (NP (NN 互联) (SFN 网) (NN 计算)) (DEC 的)) (NP (VV 领先) (SFN 者))))) (, ，) (IP (NP (PRP 它)) (VP (PP (IN 从) (LCP (NP (NNP 微软)) (NN 手中))) (VP (VV 夺走) (AS 了) (NP (DNP (NP (NP (ADJP (PFA 高)) (NP (NN 科技))) (NP (VV 领导) (SFN 者))) (DEC 的)) (NP (NN 光环)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP82827': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP14404': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'VERB', 'nsubj']	['谷歌', '夺走', 'nsubj']
+['AUX', 'PART', 'cop']	['是', '者', 'cop']
+['NOUN', 'NOUN', 'nmod']	['当前', '计算', 'nmod']
+['NOUN', 'PART', 'compound']	['互联', '网', 'compound']
+['PART', 'NOUN', 'nmod']	['网', '计算', 'nmod']
+['NOUN', 'PART', 'nmod']	['计算', '者', 'nmod']
+['PART', 'NOUN', 'case']	['的', '计算', 'case']
+['VERB', 'PART', 'compound']	['领先', '者', 'compound']
+['PART', 'VERB', 'advcl']	['者', '夺走', 'advcl']
+['PUNCT', 'PART', 'punct']	['，', '者', 'punct']
+['PRON', 'VERB', 'nsubj']	['它', '夺走', 'nsubj']
+['ADP', 'NOUN', 'case']	['从', '手中', 'case']
+['PROPN', 'NOUN', 'nmod']	['微软', '手中', 'nmod']
+['NOUN', 'VERB', 'obl']	['手中', '夺走', 'obl']
+['VERB', 'ROOT', 'root']	['夺走', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '夺走', 'aux']
+['PART', 'NOUN', 'case']	['高', '科技', 'case']
+['NOUN', 'PART', 'nmod']	['科技', '者', 'nmod']
+['VERB', 'PART', 'compound']	['领导', '者', 'compound']
+['PART', 'NOUN', 'nmod']	['者', '光环', 'nmod']
+['PART', 'PART', 'case']	['的', '者', 'case']
+['NOUN', 'VERB', 'obj']	['光环', '夺走', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '夺走', 'punct']
+----------------------------------------------------------------------
+尽管盖茨先生将在公司工作一天，但是由首席执行官史蒂文·巴尔默 (Steven A. Ballmer) 率领的继任者将面临互联网的挑战，否则微软的财富和行业地位将会稳步下降。
+
+(ROOT (IP (IP (CP (ADVP (IN 尽管)) (IP (NP (NNP 盖茨) (NN 先生)) (VP (ADVP (RB 将)) (PP (IN 在) (NP (NN 公司))) (VP (VV 工作) (QP (CD 一) (CLP (NNB 天))))))) (, ，) (ADVP (RB 但是)) (NP (CP (CP (IP (VP (PP (VV 由) (NP (NP (NN 首席) (VV 执行)) (NP (NNP 官史蒂文) (/ ·) (NNP 巴尔默) (FW -LRB-Steven) (FW A.) (FW Ballmer-RRB-)))) (VP (VV 率领)))) (DEC 的))) (NP (VV 继任) (SFN 者))) (VP (ADVP (RB 将)) (VP (VV 面临) (NP (DNP (NP (JJ 互联) (SFN 网)) (DEC 的)) (NP (NN 挑战)))))) (, ，) (IP (ADVP (VV 否则)) (NP (DNP (NP (NNP 微软)) (DEC 的)) (NP (NN 财富) (CC 和) (NN 行业) (NN 地位))) (VP (ADVP (RB 将)) (VP (MD 会) (VP (ADVP (RB 稳步)) (VP (VV 下降)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP79767': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP74523': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['尽管', '工作', 'case']
+['PROPN', 'NOUN', 'nmod']	['盖茨', '先生', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['先生', '工作', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '工作', 'advmod']
+['ADP', 'NOUN', 'case']	['在', '公司', 'case']
+['NOUN', 'VERB', 'obl']	['公司', '工作', 'obl']
+['VERB', 'VERB', 'ccomp']	['工作', '由', 'ccomp']
+['NUM', 'NOUN', 'nummod']	['一', '天', 'nummod']
+['NOUN', 'VERB', 'obl']	['天', '工作', 'obl']
+['PUNCT', 'VERB', 'punct']	['，', '工作', 'punct']
+['ADV', 'VERB', 'mark']	['但是', '由', 'mark']
+['VERB', 'ROOT', 'root']	['由', 'NONE', 'root']
+['NOUN', 'PROPN', 'nmod']	['首席', '官史蒂文', 'nmod']
+['VERB', 'PROPN', 'compound']	['执行', '官史蒂文', 'compound']
+['PROPN', 'VERB', 'nsubj']	['官史蒂文', '率领', 'nsubj']
+['PUNCT', 'PROPN', 'punct']	['·', '巴尔默', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['巴尔默', '官史蒂文', 'flat:name']
+['X', 'PROPN', 'appos']	['(Steven', '官史蒂文', 'appos']
+['X', 'X', 'flat:foreign']	['A.', '(Steven', 'flat:foreign']
+['X', 'X', 'flat:foreign']	['Ballmer)', '(Steven', 'flat:foreign']
+['VERB', 'PART', 'acl:relcl']	['率领', '者', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '率领', 'mark:rel']
+['VERB', 'PART', 'compound']	['继任', '者', 'compound']
+['PART', 'VERB', 'nsubj']	['者', '面临', 'nsubj']
+['ADV', 'VERB', 'advmod']	['将', '面临', 'advmod']
+['VERB', 'VERB', 'ccomp']	['面临', '由', 'ccomp']
+['ADJ', 'PART', 'compound']	['互联', '网', 'compound']
+['PART', 'NOUN', 'nmod']	['网', '挑战', 'nmod']
+['PART', 'PART', 'case']	['的', '网', 'case']
+['NOUN', 'VERB', 'obj']	['挑战', '面临', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '面临', 'punct']
+['VERB', 'VERB', 'advcl']	['否则', '下降', 'advcl']
+['PROPN', 'NOUN', 'nmod']	['微软', '财富', 'nmod']
+['PART', 'PROPN', 'case']	['的', '微软', 'case']
+['NOUN', 'VERB', 'nsubj']	['财富', '下降', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '地位', 'cc']
+['NOUN', 'NOUN', 'nmod']	['行业', '地位', 'nmod']
+['NOUN', 'NOUN', 'conj']	['地位', '财富', 'conj']
+['ADV', 'VERB', 'advmod']	['将', '下降', 'advmod']
+['AUX', 'VERB', 'aux']	['会', '下降', 'aux']
+['ADV', 'VERB', 'advmod']	['稳步', '下降', 'advmod']
+['VERB', 'VERB', 'ccomp']	['下降', '由', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '下降', 'punct']
+----------------------------------------------------------------------
+“Bill 的遗产是 Windows 和 Office，这将是未来几年的一个丰富的特许经营权，但这不是未来，”哈佛商学院的大卫·B·尤菲教授说道。
+
+(ROOT (IP (IP (`` “) (IP (NP (DNP (NP (FW Bill)) (DEC 的)) (NP (NN 遗产))) (VP (VC 是) (NP (FW Windows) (CC 和) (FW Office)))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 将)) (VP (VC 是) (NP (DNP (QP (NP (NN 未来)) (QP (CD 几) (CLP (NNB 年)))) (DEC 的)) (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 丰富))) (DEC 的))) (ADJP (JJ 特许)) (NP (VV 经营) (SFN 权)))))) (, ，) (IP (ADVP (RB 但)) (NP (PRD 这)) (VP (VC 不是) (NP (NN 未来))))) (, ，) ('' ”) (NP (DNP (NP (NNP 哈佛) (NN 商) (NN 学院)) (DEC 的)) (NP (NNP 大卫) (/ ·) (FW B) (/ ·) (NNP 尤菲) (NN 教授))) (VP (VV 说道)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'IP32003': {}, ',27754': {}, 'IP26730': {}}, ',': {}, "''": {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}}, ',': {}, "''": {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+['PUNCT', 'NOUN', 'punct']	['“', '遗产', 'punct']
+['DET', 'NOUN', 'det']	['Bill', '遗产', 'det']
+['PART', 'DET', 'case']	['的', 'Bill', 'case']
+['NOUN', 'X', 'nsubj']	['遗产', 'Windows', 'nsubj']
+['AUX', 'X', 'cop']	['是', 'Windows', 'cop']
+['X', 'ROOT', 'root']	['Windows', 'NONE', 'root']
+['CCONJ', 'X', 'cc']	['和', 'Office', 'cc']
+['X', 'X', 'conj']	['Office', 'Windows', 'conj']
+['PUNCT', 'PART', 'punct']	['，', '权', 'punct']
+['PRON', 'PART', 'nsubj']	['这', '权', 'nsubj']
+['ADV', 'PART', 'advmod']	['将', '权', 'advmod']
+['AUX', 'PART', 'cop']	['是', '权', 'cop']
+['NOUN', 'NOUN', 'nmod']	['未来', '年', 'nmod']
+['NUM', 'NOUN', 'nummod']	['几', '年', 'nummod']
+['NOUN', 'PART', 'nmod']	['年', '权', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '年', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'PART', 'nmod']	['个', '权', 'nmod']
+['ADJ', 'PART', 'amod']	['丰富', '权', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '丰富', 'mark:rel']
+['ADJ', 'PART', 'amod']	['特许', '权', 'amod']
+['VERB', 'PART', 'compound']	['经营', '权', 'compound']
+['PART', 'X', 'parataxis']	['权', 'Windows', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['，', '说道', 'punct']
+['ADV', 'VERB', 'mark']	['但', '说道', 'mark']
+['PRON', 'NOUN', 'nsubj']	['这', '未来', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '未来', 'cop']
+['NOUN', 'VERB', 'advcl']	['未来', '说道', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['，', '未来', 'punct']
+['PUNCT', 'NOUN', 'punct']	['”', '未来', 'punct']
+['PROPN', 'NOUN', 'nmod']	['哈佛', '学院', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['商', '学院', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['学院', '教授', 'nmod']
+['PART', 'NOUN', 'case']	['的', '学院', 'case']
+['PROPN', 'NOUN', 'nmod']	['大卫', '教授', 'nmod']
+['PUNCT', 'X', 'punct']	['·', 'B', 'punct']
+['X', 'PROPN', 'flat:name']	['B', '大卫', 'flat:name']
+['PUNCT', 'PROPN', 'punct']	['·', '尤菲', 'punct']
+['PROPN', 'NOUN', 'nmod']	['尤菲', '教授', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['教授', '说道', 'nsubj']
+['VERB', 'X', 'parataxis']	['说道', 'Windows', 'parataxis']
+['PUNCT', 'X', 'punct']	['。', 'Windows', 'punct']
+----------------------------------------------------------------------
+尽管如此，盖茨的遗产依然令人印象深刻。
+
+(ROOT (IP (IP (VP (ADVP (IN 尽管)) (VP (VV 如此)))) (, ，) (NP (DNP (NP (NNP 盖茨)) (DEC 的)) (NP (NN 遗产))) (VP (ADVP (RB 依然)) (VP (VV 令) (NP (NN 人)) (IP (NP (VV 印象)) (VP (JJ 深刻))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['尽管', '如此', 'case']
+['VERB', 'VERB', 'xcomp']	['如此', '令', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['，', '如此', 'punct']
+['PROPN', 'NOUN', 'nmod']	['盖茨', '遗产', 'nmod']
+['PART', 'PROPN', 'case']	['的', '盖茨', 'case']
+['NOUN', 'VERB', 'nsubj']	['遗产', '令', 'nsubj']
+['ADV', 'VERB', 'advmod']	['依然', '令', 'advmod']
+['VERB', 'ROOT', 'root']	['令', 'NONE', 'root']
+['NOUN', 'VERB', 'nsubj']	['人', '印象', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['印象', '令', 'ccomp']
+['ADJ', 'VERB', 'xcomp']	['深刻', '印象', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '令', 'punct']
+----------------------------------------------------------------------
+除了软件本身，盖茨先生和他的公司也在许多技术发挥核心作用的行业，根本改变了人们对竞争的思考。
+
+(ROOT (IP (PP (VV 除) (PP (AS 了) (NP (NN 软件) (PRD 本身)))) (, ，) (NP (NP (NNP 盖茨) (NN 先生)) (CC 和) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 公司)))) (VP (VP (ADVP (RB 也)) (PP (IN 在) (NP (QP (CD 许多)) (NP (NN 技术)))) (VP (VV 发挥) (NP (DNP (NP (NN 核心) (NN 作用)) (DEC 的)) (NP (NN 行业))))) (, ，) (VP (ADVP (RB 根本)) (VP (VV 改变) (AS 了) (NP (NP (NN 人们)) (DNP (PP (IN 对) (NP (NN 竞争))) (DEC 的)) (NP (NN 思考)))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'NP': {}, 'CC': {}, 'NP14276': {}}, 'VP': {'VP': {}, ',': {}, 'VP49795': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'NP': {}, 'CC': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'PP': {}}}
+{'NP': {'NP': {}, 'CC': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['除', '改变', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '除', 'aux']
+['NOUN', 'VERB', 'obj']	['软件', '除', 'obj']
+['PRON', 'NOUN', 'appos']	['本身', '软件', 'appos']
+['PUNCT', 'VERB', 'punct']	['，', '除', 'punct']
+['PROPN', 'NOUN', 'nmod']	['盖茨', '先生', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['先生', '改变', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '公司', 'cc']
+['PRON', 'NOUN', 'det']	['他', '公司', 'det']
+['PART', 'PRON', 'mark:rel']	['的', '他', 'mark:rel']
+['NOUN', 'NOUN', 'conj']	['公司', '先生', 'conj']
+['ADV', 'VERB', 'mark']	['也', '改变', 'mark']
+['ADP', 'NOUN', 'case']	['在', '行业', 'case']
+['NUM', 'NOUN', 'nummod']	['许多', '技术', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['技术', '发挥', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['发挥', '行业', 'acl:relcl']
+['NOUN', 'NOUN', 'nmod']	['核心', '作用', 'nmod']
+['NOUN', 'VERB', 'obj']	['作用', '发挥', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '发挥', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['行业', '改变', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '行业', 'punct']
+['ADV', 'VERB', 'advmod']	['根本', '改变', 'advmod']
+['VERB', 'ROOT', 'root']	['改变', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '改变', 'aux']
+['NOUN', 'NOUN', 'nmod']	['人', '思考', 'nmod']
+['ADP', 'NOUN', 'case']	['对', '思考', 'case']
+['NOUN', 'NOUN', 'nmod']	['竞争', '思考', 'nmod']
+['PART', 'NOUN', 'case']	['的', '思考', 'case']
+['NOUN', 'VERB', 'obj']	['思考', '改变', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '改变', 'punct']
+----------------------------------------------------------------------
+如今，全球 PC 上运行的 Windows 操作系统的副本已经超过了 10 亿。
+
+(ROOT (IP (NP (NN 如今)) (, ，) (NP (DNP (NP (NP (NN 全球)) (CP (CP (IP (VP (LCP (NP (FW PC)) (IN 上)) (VP (VV 运行)))) (DEC 的))) (NP (FW Windows) (NN 操作) (NN 系统))) (DEC 的)) (NP (NN 副本))) (VP (ADVP (RB 已经)) (VP (VV 超过) (AS 了) (QP (CD 10) (QP (NNB 亿))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP1097': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP68047': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nmod:tmod']	['如今', '超过', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '如今', 'punct']
+['NOUN', 'X', 'nmod']	['全球', 'PC', 'nmod']
+['X', 'VERB', 'obl']	['PC', '运行', 'obl']
+['ADP', 'X', 'case']	['上', 'PC', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['运行', '系统', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '运行', 'mark:rel']
+['X', 'NOUN', 'nmod']	['Windows', '系统', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['操作', '系统', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['系统', '副本', 'nmod']
+['PART', 'NOUN', 'case']	['的', '系统', 'case']
+['NOUN', 'VERB', 'nsubj']	['副本', '超过', 'nsubj']
+['ADV', 'VERB', 'advmod']	['已经', '超过', 'advmod']
+['VERB', 'ROOT', 'root']	['超过', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '超过', 'aux']
+['NUM', 'NOUN', 'nummod']	['10', '亿', 'nummod']
+['NOUN', 'VERB', 'obj']	['亿', '超过', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '超过', 'punct']
+----------------------------------------------------------------------
+业内专家和经济学家表示，Windows 并不一定是运行个人电脑基本操作的最好或最受欢迎的软件，Apple 的 Macintosh 可以声称拥有最忠诚的粉丝俱乐部。
+
+(ROOT (IP (NP (NN 业内) (NN 专家) (CC 和) (NN 经济) (SFN 学) (SFN 家)) (VP (VV 表示) (, ，) (IP (IP (NP (FW Windows)) (VP (ADVP (RB 并不)) (ADVP (RB 一定)) (VP (VC 是) (VP (VV 运行) (NP (CP (CP (NP (NP (NN 个人) (NN 电脑)) (VP (ADVP (NN 基本)) (VP (NN 操作)))) (DEC 的))) (CP (CP (IP (VP (VP (JJ 最好)) (CC 或) (VP (ADVP (RB 最)) (VP (VV 受) (NP (VV 欢迎)))))) (DEC 的))) (NP (NN 软件))))))) (, ，) (IP (NP (DNP (NP (FW Apple)) (DEC 的)) (NP (FW Macintosh))) (VP (MD 可以) (VP (VV 声称) (IP (VP (VV 拥有) (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 忠诚)))) (DEC 的))) (NP (NN 粉丝) (NN 俱乐部)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'NN59447': {}, 'CC': {}, 'NN91070': {}, 'SFN': {}, 'SFN12310': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'NN': {}, 'CC': {}, 'NN': {}, 'SFN': {}, 'SFN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'NN': {}, 'CC': {}, 'NN': {}, 'SFN': {}, 'SFN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['业内', '专家', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['专家', '表示', 'nsubj']
+['CCONJ', 'PART', 'cc']	['和', '家', 'cc']
+['NOUN', 'PART', 'compound']	['经济', '学', 'compound']
+['PART', 'PART', 'compound']	['学', '家', 'compound']
+['PART', 'NOUN', 'conj']	['家', '专家', 'conj']
+['VERB', 'ROOT', 'root']	['表示', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['，', '软件', 'punct']
+['X', 'NOUN', 'nsubj']	['Windows', '软件', 'nsubj']
+['ADV', 'NOUN', 'advmod']	['并不', '软件', 'advmod']
+['ADV', 'NOUN', 'advmod']	['一定', '软件', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '软件', 'cop']
+['VERB', 'NOUN', 'acl:relcl']	['运行', '软件', 'acl:relcl']
+['NOUN', 'NOUN', 'nmod']	['个人', '操作', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['电脑', '操作', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['基本', '操作', 'nmod']
+['NOUN', 'VERB', 'obj']	['操作', '运行', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '运行', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['最好', '软件', 'amod']
+['CCONJ', 'VERB', 'cc']	['或', '受', 'cc']
+['ADV', 'VERB', 'advmod']	['最', '受', 'advmod']
+['VERB', 'ADJ', 'conj']	['受', '最好', 'conj']
+['VERB', 'VERB', 'xcomp']	['欢迎', '受', 'xcomp']
+['PART', 'ADJ', 'mark:rel']	['的', '最好', 'mark:rel']
+['NOUN', 'VERB', 'ccomp']	['软件', '表示', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '声称', 'punct']
+['DET', 'X', 'det']	['Apple', 'Macintosh', 'det']
+['PART', 'DET', 'case']	['的', 'Apple', 'case']
+['X', 'VERB', 'nsubj']	['Macintosh', '声称', 'nsubj']
+['AUX', 'VERB', 'aux']	['可以', '声称', 'aux']
+['VERB', 'VERB', 'parataxis']	['声称', '表示', 'parataxis']
+['VERB', 'VERB', 'xcomp']	['拥有', '声称', 'xcomp']
+['ADV', 'ADJ', 'advmod']	['最', '忠诚', 'advmod']
+['ADJ', 'NOUN', 'amod']	['忠诚', '俱乐部', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '忠诚', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['粉丝', '俱乐部', 'nmod']
+['NOUN', 'VERB', 'obj']	['俱乐部', '拥有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '表示', 'punct']
+----------------------------------------------------------------------
+但是盖茨先生抓住并在以前没有人做过的规模上部署了两个相关概念：网络效应的力量和建立技术平台的价值。
+
+(ROOT (IP (ADVP (RB 但是)) (NP (NNP 盖茨) (NN 先生)) (VP (VP (VV 抓住)) (RB 并) (VP (PP (IN 在) (NP (CP (CP (IP (VP (NP (NN 以前)) (VP (VV 没有) (IP (NP (NN 人)) (VP (VV 做) (AS 过)))))) (DEC 的))) (NP (NN 规模) (NN 上部)))) (VP (VV 署) (AS 了) (NP (NP (QP (CD 两) (CLP (NNB 个))) (ADJP (JJ 相关)) (NP (NN 概念))) (: ：) (NP (DNP (NP (NN 网络) (NN 效应)) (DEC 的)) (NP (NN 力量))) (CC 和) (NP (CP (IP (VP (VV 建立) (NP (NN 技术) (NN 平台)))) (DEC 的)) (NP (NN 价值))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VP': {}, 'RB': {}, 'VP62366': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VP': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'VP': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['但是', '署', 'mark']
+['PROPN', 'NOUN', 'nmod']	['盖茨', '先生', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['先生', '署', 'nsubj']
+['VERB', 'VERB', 'advcl']	['抓住', '署', 'advcl']
+['ADV', 'VERB', 'mark']	['并', '有', 'mark']
+['ADP', 'NOUN', 'case']	['在', '以前', 'case']
+['NOUN', 'VERB', 'obl']	['以前', '有', 'obl']
+['VERB', 'VERB', 'advcl']	['有', '署', 'advcl']
+['NOUN', 'VERB', 'nsubj']	['人', '做', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['做', '上部', 'acl:relcl']
+['AUX', 'VERB', 'aux']	['过', '做', 'aux']
+['PART', 'VERB', 'mark:rel']	['的', '做', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['规模', '上部', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['上部', '署', 'nsubj']
+['VERB', 'ROOT', 'root']	['署', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '署', 'aux']
+['NUM', 'NOUN', 'nummod']	['两', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '概念', 'clf']
+['ADJ', 'NOUN', 'amod']	['相关', '概念', 'amod']
+['NOUN', 'VERB', 'obj']	['概念', '署', 'obj']
+['PUNCT', 'NOUN', 'punct']	['：', '力量', 'punct']
+['NOUN', 'NOUN', 'nmod']	['网络', '效应', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['效应', '力量', 'nmod']
+['PART', 'NOUN', 'case']	['的', '效应', 'case']
+['NOUN', 'NOUN', 'conj']	['力量', '概念', 'conj']
+['CCONJ', 'NOUN', 'cc']	['和', '价值', 'cc']
+['VERB', 'NOUN', 'acl:relcl']	['建立', '价值', 'acl:relcl']
+['NOUN', 'NOUN', 'nmod']	['技术', '平台', 'nmod']
+['NOUN', 'VERB', 'obj']	['平台', '建立', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '建立', 'mark:rel']
+['NOUN', 'NOUN', 'conj']	['价值', '概念', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '署', 'punct']
+----------------------------------------------------------------------
+简单来说，网络效应描述了一种现象，即产品的价值随着越来越多的人使用而上升。
+
+(ROOT (IP (IP (IP (VP (VP (JJ 简单)) (VP (RB 来) (VP (VV 说))))) (, ，) (NP (NN 网络) (NN 效应)) (VP (VV 描述) (AS 了) (NP (QP (CD 一) (CLP (NNB 种))) (NP (NN 现象))))) (, ，) (IP (ADVP (VC 即)) (NP (DNP (NP (NN 产品)) (DEC 的)) (NP (NN 价值))) (VP (PP (VV 随) (AS 着) (NP (NP (CP (CP (IP (VP (ADVP (RB 越来越)) (VP (JJ 多)))) (DEC 的))) (NP (NN 人))) (NP (VV 使用)))) (VP (RB 而) (VP (VV 上升))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP1171': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP72472': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADJ', 'VERB', 'advmod']	['简单', '说', 'advmod']
+['ADV', 'VERB', 'mark']	['来', '说', 'mark']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '描述', 'punct']
+['NOUN', 'NOUN', 'nmod']	['网络', '效应', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['效应', '描述', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['描述', '说', 'ccomp']
+['AUX', 'VERB', 'aux']	['了', '描述', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '种', 'nummod']
+['NOUN', 'NOUN', 'clf']	['种', '现象', 'clf']
+['NOUN', 'VERB', 'nsubj']	['现象', '即', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['，', '现象', 'punct']
+['VERB', 'VERB', 'ccomp']	['即', '描述', 'ccomp']
+['NOUN', 'NOUN', 'nmod']	['产品', '价值', 'nmod']
+['PART', 'NOUN', 'case']	['的', '产品', 'case']
+['NOUN', 'VERB', 'nsubj']	['价值', '上升', 'nsubj']
+['VERB', 'VERB', 'advcl']	['随', '上升', 'advcl']
+['AUX', 'VERB', 'aux']	['着', '随', 'aux']
+['ADV', 'ADJ', 'advmod']	['越来越', '多', 'advmod']
+['ADJ', 'NOUN', 'amod']	['多', '人', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '多', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['人', '使用', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['使用', '随', 'ccomp']
+['ADV', 'VERB', 'mark']	['而', '上升', 'mark']
+['VERB', 'VERB', 'ccomp']	['上升', '描述', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
+----------------------------------------------------------------------
+电子邮件和电话是典型的例子。
+
+(ROOT (IP (NP (NN 电子) (NN 邮件) (CC 和) (NN 电话)) (VP (VC 是) (NP (CP (CP (IP (VP (NN 典型))) (DEC 的))) (NP (NN 例子)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'NN32063': {}, 'CC': {}, 'NN2064': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'NN': {}, 'CC': {}, 'NN': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'NN': {}, 'CC': {}, 'NN': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['电子', '邮件', 'nmod']
+['NOUN', 'NOUN', 'nsubj']	['邮件', '例子', 'nsubj']
+['CCONJ', 'NOUN', 'cc']	['和', '电话', 'cc']
+['NOUN', 'NOUN', 'conj']	['电话', '邮件', 'conj']
+['AUX', 'NOUN', 'cop']	['是', '例子', 'cop']
+['NOUN', 'NOUN', 'nmod']	['典型', '例子', 'nmod']
+['PART', 'NOUN', 'case']	['的', '典型', 'case']
+['NOUN', 'ROOT', 'root']	['例子', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['。', '例子', 'punct']
+----------------------------------------------------------------------
+技术平台是一组可供其他人使用的工具或服务，用于构建自己的产品或服务。
+
+(ROOT (IP (NP (NN 技术) (NN 平台)) (VP (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 组))) (CP (CP (IP (VP (MD 可) (VP (VV 供) (NP (DP (DT 其他)) (NP (NN 人))) (IP (VP (VV 使用)))))) (DEC 的))) (NP (NN 工具) (CC 或) (NN 服务)))) (, ，) (VP (VV 用) (PP (VV 于) (IP (VP (VV 构建) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 产品) (CC 或) (NN 服务)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'NN86194': {}}, 'VP': {'VP': {}, ',': {}, 'VP22418': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['技术', '平台', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['平台', '用', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '工具', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '组', 'nummod']
+['NOUN', 'NOUN', 'clf']	['组', '工具', 'clf']
+['AUX', 'VERB', 'aux']	['可', '供', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['供', '工具', 'acl:relcl']
+['DET', 'NOUN', 'det']	['其他', '人', 'det']
+['NOUN', 'VERB', 'nsubj']	['人', '使用', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['使用', '供', 'ccomp']
+['PART', 'VERB', 'mark:rel']	['的', '供', 'mark:rel']
+['NOUN', 'VERB', 'advcl']	['工具', '用', 'advcl']
+['CCONJ', 'NOUN', 'cc']	['或', '服务', 'cc']
+['NOUN', 'NOUN', 'conj']	['服务', '工具', 'conj']
+['PUNCT', 'NOUN', 'punct']	['，', '工具', 'punct']
+['VERB', 'ROOT', 'root']	['用', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['于', '用', 'mark']
+['VERB', 'VERB', 'xcomp']	['构建', '用', 'xcomp']
+['PRON', 'NOUN', 'det']	['自己', '产品', 'det']
+['PART', 'PRON', 'case']	['的', '自己', 'case']
+['NOUN', 'VERB', 'obj']	['产品', '构建', 'obj']
+['CCONJ', 'NOUN', 'cc']	['或', '服务', 'cc']
+['NOUN', 'NOUN', 'conj']	['服务', '产品', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '用', 'punct']
+----------------------------------------------------------------------
+越多的人使用这些工具，平台就越受欢迎。
+
+(ROOT (IP (IP (NP (CP (CP (IP (VP (JJ 越多))) (DEC 的))) (NP (NN 人))) (VP (VV 使用) (NP (DP (DT 这些)) (NP (NN 工具))))) (, ，) (IP (NP (NN 平台)) (VP (ADVP (RB 就)) (ADVP (RB 越)) (VP (VV 受) (NP (VV 欢迎))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP41497': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP92838': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['ADJ', 'NOUN', 'amod']	['越多', '人', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '越多', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['人', '使用', 'nsubj']
+['VERB', 'VERB', 'advcl']	['使用', '受', 'advcl']
+['DET', 'NOUN', 'det']	['这些', '工具', 'det']
+['NOUN', 'VERB', 'obj']	['工具', '使用', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '使用', 'punct']
+['NOUN', 'VERB', 'nsubj']	['平台', '受', 'nsubj']
+['ADV', 'VERB', 'mark']	['就', '受', 'mark']
+['ADV', 'VERB', 'advmod']	['越', '受', 'advmod']
+['VERB', 'ROOT', 'root']	['受', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['欢迎', '受', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '受', 'punct']
+----------------------------------------------------------------------
+盖茨先生利用这两个概念，将它们结合起来，建立了微软在个人电脑领域的领导地位，并且通过电脑制造商和软件开发商扩大了微软的影响力。
+
+(ROOT (IP (NP (NNP 盖茨) (NN 先生)) (VP (VP (VV 利用) (NP (DP (DT 这) (QP (CD 两) (CLP (NNB 个)))) (NP (NN 概念)))) (, ，) (VP (BB 将) (IP (NP (PRP 它们)) (VP (VRD (VV 结合) (VV 起来))))) (, ，) (VP (VV 建立) (AS 了) (NP (NP (NNP 微软)) (DNP (PP (IN 在) (NP (JJ 个人) (NN 电脑) (NN 领域))) (DEC 的)) (NP (NN 领导) (NN 地位)))) (, ，) (RB 并且) (VP (PP (IN 通过) (NP (NN 电脑) (VV 制造) (SFN 商) (CC 和) (NN 软件) (VV 开发) (SFN 商))) (VP (VV 扩大) (AS 了) (NP (DNP (NP (NNP 微软)) (DEC 的)) (NP (VV 影响) (SFN 力)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP29085': {}, ',49769': {}, 'VP24429': {}, ',72991': {}, 'RB': {}, 'VP59496': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['盖茨', '先生', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['先生', '扩大', 'nsubj']
+['VERB', 'VERB', 'advcl']	['利用', '扩大', 'advcl']
+['DET', 'NOUN', 'det']	['这', '个', 'det']
+['NUM', 'NOUN', 'nummod']	['两', '个', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['个', '概念', 'nmod']
+['NOUN', 'VERB', 'obj']	['概念', '利用', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '利用', 'punct']
+['ADP', 'PRON', 'case']	['将', '它', 'case']
+['PRON', 'VERB', 'obl:patient']	['它', '结合', 'obl:patient']
+['VERB', 'VERB', 'advcl']	['结合', '扩大', 'advcl']
+['VERB', 'VERB', 'mark']	['起来', '结合', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '结合', 'punct']
+['VERB', 'VERB', 'advcl']	['建立', '扩大', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '建立', 'aux']
+['PROPN', 'NOUN', 'nmod']	['微软', '地位', 'nmod']
+['ADP', 'NOUN', 'case']	['在', '领域', 'case']
+['ADJ', 'NOUN', 'amod']	['个人', '领域', 'amod']
+['NOUN', 'NOUN', 'nmod']	['电脑', '领域', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['领域', '地位', 'nmod']
+['PART', 'NOUN', 'case']	['的', '地位', 'case']
+['NOUN', 'NOUN', 'nmod']	['领导', '地位', 'nmod']
+['NOUN', 'VERB', 'obj']	['地位', '建立', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '建立', 'punct']
+['ADV', 'VERB', 'mark']	['并且', '扩大', 'mark']
+['ADP', 'PART', 'case']	['通过', '商', 'case']
+['NOUN', 'PART', 'nmod']	['电脑', '商', 'nmod']
+['VERB', 'PART', 'compound']	['制造', '商', 'compound']
+['PART', 'VERB', 'obl']	['商', '扩大', 'obl']
+['CCONJ', 'PART', 'cc']	['和', '商', 'cc']
+['NOUN', 'PART', 'nmod']	['软件', '商', 'nmod']
+['VERB', 'PART', 'compound']	['开发', '商', 'compound']
+['PART', 'PART', 'conj']	['商', '商', 'conj']
+['VERB', 'ROOT', 'root']	['扩大', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '扩大', 'aux']
+['PROPN', 'PART', 'nmod']	['微软', '力', 'nmod']
+['PART', 'PROPN', 'case']	['的', '微软', 'case']
+['VERB', 'PART', 'compound']	['影响', '力', 'compound']
+['PART', 'VERB', 'obj']	['力', '扩大', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '扩大', 'punct']
+----------------------------------------------------------------------
+如今，Windows 平台上运行的软件应用数以千计，不仅仅是文字处理和电子表格，还有医生办公室、工厂车间和零售商店的专业软件——这是一个基于几乎普及的技术平台的广泛网络。
+
+(ROOT (IP (IP (NP (NN 如今)) (, ，) (NP (CP (CP (IP (VP (LCP (NP (FW Windows) (NN 平台)) (IN 上)) (VP (VV 运行)))) (DEC 的))) (NP (NN 软件) (NN 应用))) (VP (JJ 数以千计))) (, ，) (IP (VP (VP (ADVP (RB 不)) (ADVP (RB 仅仅)) (VP (VC 是) (NP (NN 文字) (NN 处理) (CC 和) (NN 电子) (NN 表格)))) (, ，) (VP (ADVP (RB 还)) (VP (VV 有) (NP (DNP (NP (NN 医生) (VV 办公) (SFN 室) (EC 、) (NN 工厂) (NN 车间) (CC 和) (NN 零售) (NN 商店)) (DEC 的)) (NP (JJ 专业) (NN 软件))))))) (HYPH —) (HYPH —)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP13332': {}, 'HYPH': {}, 'HYPH7924': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, 'HYPH': {}, 'HYPH': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP19331': {}, 'VP': {}}, ',': {}, 'IP92805': {'VP': {}}, 'HYPH': {}, 'HYPH7255': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, 'HYPH': {}, 'HYPH': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nmod:tmod']	['如今', '有', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '如今', 'punct']
+['X', 'NOUN', 'nmod']	['Windows', '平台', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['平台', '运行', 'nsubj']
+['ADP', 'NOUN', 'case']	['上', '平台', 'case']
+['VERB', 'NOUN', 'acl:relcl']	['运行', '应用', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '运行', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['软件', '应用', 'nmod']
+['NOUN', 'ADJ', 'nsubj']	['应用', '数以千计', 'nsubj']
+['ADJ', 'VERB', 'advcl']	['数以千计', '有', 'advcl']
+['PUNCT', 'ADJ', 'punct']	['，', '数以千计', 'punct']
+['ADV', 'NOUN', 'advmod']	['不', '处理', 'advmod']
+['ADV', 'NOUN', 'advmod']	['仅仅', '处理', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '处理', 'cop']
+['NOUN', 'NOUN', 'nmod']	['文字', '处理', 'nmod']
+['NOUN', 'VERB', 'advcl']	['处理', '有', 'advcl']
+['CCONJ', 'NOUN', 'cc']	['和', '表格', 'cc']
+['NOUN', 'NOUN', 'nmod']	['电子', '表格', 'nmod']
+['NOUN', 'NOUN', 'conj']	['表格', '处理', 'conj']
+['PUNCT', 'NOUN', 'punct']	['，', '处理', 'punct']
+['ADV', 'VERB', 'mark']	['还', '有', 'mark']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['NOUN', 'PART', 'nmod']	['医生', '室', 'nmod']
+['VERB', 'PART', 'compound']	['办公', '室', 'compound']
+['PART', 'NOUN', 'nmod']	['室', '软件', 'nmod']
+['PUNCT', 'NOUN', 'punct']	['、', '车间', 'punct']
+['NOUN', 'NOUN', 'nmod']	['工厂', '车间', 'nmod']
+['NOUN', 'PART', 'conj']	['车间', '室', 'conj']
+['CCONJ', 'NOUN', 'cc']	['和', '商店', 'cc']
+['NOUN', 'NOUN', 'nmod']	['零售', '商店', 'nmod']
+['NOUN', 'PART', 'conj']	['商店', '室', 'conj']
+['PART', 'PART', 'case']	['的', '室', 'case']
+['ADJ', 'NOUN', 'amod']	['专业', '软件', 'amod']
+['NOUN', 'VERB', 'obj']	['软件', '有', 'obj']
+['PUNCT', 'NOUN', 'punct']	['—', '软件', 'punct']
+['PUNCT', 'VERB', 'punct']	['—', '有', 'punct']
+----------------------------------------------------------------------
+“盖茨比其他人都早见到软件是硬件的独立市场，但他的巨大洞察力在于他认识到软件周围的网络效应的力量，”麻省理工学院斯隆管理学院的迈克尔·卡西莫诺教授说。
+
+(ROOT (IP (IP (`` “) (NP (NNP 盖茨)) (VP (PP (IN 比) (NP (DP (DT 其他)) (NP (NN 人)))) (ADVP (RB 都)) (ADVP (RB 早)) (VP (VV 见到) (IP (NP (NN 软件)) (VP (VC 是) (NP (DNP (NP (NN 硬件)) (DEC 的)) (ADJP (JJ 独立)) (NP (NN 市场))))))) (, ，) (IP (ADVP (RB 但)) (NP (DNP (NP (PRP 他)) (DEC 的)) (ADJP (JJ 巨大)) (NP (VV 洞察) (SFN 力))) (VP (VV 在) (PP (VV 于) (NP (CP (IP (NP (PRP 他)) (VP (VRD (VV 认识) (VV 到)) (NP (DNP (NP (NN 软件) (NN 周围)) (DEC 的)) (NP (NN 网络) (NN 效应))))) (DEC 的)) (NP (NN 力量)))))) (, ，) ('' ”)) (NP (DNP (NP (NP (NNP 麻省) (NN 理工) (NN 学院)) (NP (NNP 斯隆) (NN 管理) (NN 学院))) (DEC 的)) (NP (NNP 迈克尔) (/ ·) (NNP 卡西莫诺) (NN 教授))) (VP (VV 说)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}, ',88163': {}, "''": {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}, ',': {}, "''": {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}, ',': {}, "''": {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+['PUNCT', 'NOUN', 'punct']	['“', '市场', 'punct']
+['PROPN', 'VERB', 'nsubj']	['盖茨', '见到', 'nsubj']
+['ADP', 'NOUN', 'case']	['比', '人', 'case']
+['DET', 'NOUN', 'det']	['其他', '人', 'det']
+['NOUN', 'VERB', 'obl']	['人', '见到', 'obl']
+['ADV', 'VERB', 'mark']	['都', '见到', 'mark']
+['ADV', 'VERB', 'advmod']	['早', '见到', 'advmod']
+['VERB', 'NOUN', 'csubj']	['见到', '市场', 'csubj']
+['NOUN', 'VERB', 'obj']	['软件', '见到', 'obj']
+['AUX', 'NOUN', 'cop']	['是', '市场', 'cop']
+['NOUN', 'NOUN', 'nmod']	['硬件', '市场', 'nmod']
+['PART', 'NOUN', 'case']	['的', '硬件', 'case']
+['ADJ', 'NOUN', 'amod']	['独立', '市场', 'amod']
+['NOUN', 'VERB', 'advcl']	['市场', '在', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['，', '市场', 'punct']
+['ADV', 'VERB', 'mark']	['但', '在', 'mark']
+['PRON', 'PART', 'det']	['他', '力', 'det']
+['PART', 'PRON', 'case']	['的', '他', 'case']
+['ADJ', 'PART', 'amod']	['巨大', '力', 'amod']
+['VERB', 'PART', 'compound']	['洞察', '力', 'compound']
+['PART', 'VERB', 'nsubj']	['力', '在', 'nsubj']
+['VERB', 'ROOT', 'root']	['在', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['于', '在', 'mark']
+['PRON', 'VERB', 'nsubj']	['他', '认识', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['认识', '力量', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['到', '认识', 'mark']
+['NOUN', 'NOUN', 'nmod']	['软件', '周围', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['周围', '效应', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '周围', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['网络', '效应', 'nmod']
+['NOUN', 'VERB', 'obj']	['效应', '认识', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '认识', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['力量', '在', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '说', 'punct']
+['PUNCT', 'NOUN', 'punct']	['”', '学院', 'punct']
+['PROPN', 'NOUN', 'nmod']	['麻省', '学院', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['理工', '学院', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['学院', '学院', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['斯隆', '学院', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['管理', '学院', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['学院', '教授', 'nmod']
+['PART', 'NOUN', 'case']	['的', '学院', 'case']
+['PROPN', 'NOUN', 'nmod']	['迈克尔', '教授', 'nmod']
+['PUNCT', 'PROPN', 'punct']	['·', '卡西莫诺', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['卡西莫诺', '迈克尔', 'flat:name']
+['NOUN', 'VERB', 'nsubj']	['教授', '说', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['说', '在', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '在', 'punct']
+----------------------------------------------------------------------
+库萨马诺教授补充说，这就是微软和个人计算机领域的早期领导者苹果公司的不同之处。
+
+(ROOT (IP (NP (NN 库) (NNP 萨马) (NNP 诺) (NN 教授)) (VP (VP (VV 补充)) (VP (VV 说) (, ，) (IP (NP (PRD 这)) (VP (VC 就是) (NP (DNP (NP (DNP (NP (NP (NNP 微软)) (CC 和) (NP (NP (NN 个人) (VV 计算) (SFN 机)) (NP (NN 领域)))) (DEC 的)) (NP (NN 早期) (VV 领导) (SFN 者)) (NP (NNP 苹果) (NN 公司))) (DEC 的)) (CP (CP (IP (VP (JJ 不同))) (DEC 之))) (NP (NN 处))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'NNP': {}, 'NNP67755': {}, 'NN38191': {}}, 'VP': {'VP': {}, 'VP78664': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'NNP': {}, 'NNP': {}, 'NN': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'NNP': {}, 'NNP': {}, 'NN': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'NOUN', 'nmod']	['库', '教授', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['萨马', '教授', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['诺', '教授', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['教授', '说', 'nsubj']
+['VERB', 'VERB', 'advcl']	['补充', '说', 'advcl']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'NOUN', 'punct']	['，', '处', 'punct']
+['PRON', 'NOUN', 'nsubj']	['这', '处', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '处', 'cop']
+['PROPN', 'NOUN', 'nmod']	['微软', '领域', 'nmod']
+['CCONJ', 'PART', 'cc']	['和', '机', 'cc']
+['NOUN', 'PART', 'nmod']	['个人', '机', 'nmod']
+['VERB', 'PART', 'compound']	['计算', '机', 'compound']
+['PART', 'PROPN', 'conj']	['机', '微软', 'conj']
+['NOUN', 'NOUN', 'nmod']	['领域', '公司', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '领域', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['早期', '公司', 'nmod']
+['VERB', 'PART', 'compound']	['领导', '者', 'compound']
+['PART', 'NOUN', 'nmod']	['者', '公司', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['苹果', '公司', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['公司', '处', 'nmod']
+['PART', 'ADJ', 'mark:rel']	['的', '不同', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['不同', '处', 'amod']
+['PART', 'ADJ', 'mark:rel']	['之', '不同', 'mark:rel']
+['NOUN', 'VERB', 'ccomp']	['处', '说', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
+----------------------------------------------------------------------
+他说，苹果公司只专注于制作出色的产品，而微软则培育了一个日益壮大的外部软件开发者生态系统，这些开发者使用并依赖微软的技术。
+
+(ROOT (IP (NP (PRP 他)) (VP (VV 说) (, ，) (IP (IP (NP (NNP 苹果) (NN 公司)) (VP (ADVP (RB 只)) (VP (VV 专注) (PP (VV 于) (IP (VP (VV 制作) (NP (CP (CP (IP (VP (JJ 出色))) (DEC 的))) (NP (NN 产品))))))))) (, ，) (IP (ADVP (RB 而)) (NP (NNP 微软)) (VP (ADVP (RB 则)) (VP (VV 培育) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 日益)) (VP (JJ 壮大)))) (DEC 的))) (NP (NN 外部) (NN 软件) (VV 开发) (SFN 者)) (NP (NN 生态) (NN 系统)))))) (, ，) (IP (NP (DP (DT 这些)) (NP (VV 开发) (SFN 者))) (VP (VP (VV 使用)) (RB 并) (VP (VV 依赖) (NP (DNP (NP (NNP 微软)) (DEC 的)) (NP (NN 技术)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['他', '说', 'nsubj']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '培育', 'punct']
+['PROPN', 'NOUN', 'nmod']	['苹果', '公司', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['公司', '专注', 'nsubj']
+['ADV', 'VERB', 'advmod']	['只', '专注', 'advmod']
+['VERB', 'VERB', 'advcl']	['专注', '培育', 'advcl']
+['VERB', 'VERB', 'mark']	['于', '专注', 'mark']
+['VERB', 'VERB', 'xcomp']	['制作', '专注', 'xcomp']
+['ADJ', 'NOUN', 'amod']	['出色', '产品', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '出色', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['产品', '制作', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '专注', 'punct']
+['ADV', 'VERB', 'mark']	['而', '培育', 'mark']
+['PROPN', 'VERB', 'nsubj']	['微软', '培育', 'nsubj']
+['ADV', 'VERB', 'mark']	['则', '培育', 'mark']
+['VERB', 'VERB', 'ccomp']	['培育', '说', 'ccomp']
+['AUX', 'VERB', 'aux']	['了', '培育', 'aux']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '系统', 'clf']
+['ADV', 'ADJ', 'advmod']	['日益', '壮大', 'advmod']
+['ADJ', 'NOUN', 'amod']	['壮大', '系统', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '壮大', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['外部', '系统', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['软件', '系统', 'nmod']
+['VERB', 'PART', 'compound']	['开发', '者', 'compound']
+['PART', 'NOUN', 'nmod']	['者', '系统', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['生态', '系统', 'nmod']
+['NOUN', 'VERB', 'obj']	['系统', '培育', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '依赖', 'punct']
+['DET', 'PART', 'det']	['这些', '者', 'det']
+['VERB', 'PART', 'compound']	['开发', '者', 'compound']
+['PART', 'VERB', 'nsubj']	['者', '依赖', 'nsubj']
+['VERB', 'VERB', 'advcl']	['使用', '依赖', 'advcl']
+['ADV', 'VERB', 'mark']	['并', '依赖', 'mark']
+['VERB', 'VERB', 'parataxis']	['依赖', '说', 'parataxis']
+['PROPN', 'NOUN', 'nmod']	['微软', '技术', 'nmod']
+['PART', 'PROPN', 'case']	['的', '微软', 'case']
+['NOUN', 'VERB', 'obj']	['技术', '依赖', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
+----------------------------------------------------------------------
+他补充说，结果是，苹果公司继续生产出色的产品，但超过 90% 的个人电脑运行微软软件。
+
+(ROOT (IP (NP (PRP 他)) (VP (VP (VV 补充)) (VP (VV 说) (, ，) (IP (NP (NN 结果)) (VP (VC 是) (, ，) (IP (IP (NP (NNP 苹果) (NN 公司)) (VP (VV 继续) (VP (VV 生产) (NP (CP (CP (IP (VP (JJ 出色))) (DEC 的))) (NP (NN 产品)))))) (, ，) (IP (ADVP (RB 但)) (NP (DNP (QP (ADVP (VV 超过)) (QP (CD 90%))) (DEC 的)) (NP (JJ 个人) (NN 电脑))) (VP (VV 运行) (NP (NNP 微软) (NN 软件))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP38723': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['他', '说', 'nsubj']
+['VERB', 'VERB', 'advcl']	['补充', '说', 'advcl']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['NOUN', 'VERB', 'nsubj']	['结果', '是', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['是', '说', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '运行', 'punct']
+['PROPN', 'NOUN', 'nmod']	['苹果', '公司', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['公司', '继续', 'nsubj']
+['VERB', 'VERB', 'advcl']	['继续', '运行', 'advcl']
+['VERB', 'VERB', 'xcomp']	['生产', '继续', 'xcomp']
+['ADJ', 'NOUN', 'amod']	['出色', '产品', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '出色', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['产品', '生产', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '继续', 'punct']
+['ADV', 'VERB', 'mark']	['但', '运行', 'mark']
+['VERB', 'NOUN', 'acl:relcl']	['超过', '电脑', 'acl:relcl']
+['NUM', 'VERB', 'obj']	['90%', '超过', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '超过', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['个人', '电脑', 'amod']
+['NOUN', 'VERB', 'nsubj']	['电脑', '运行', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['运行', '是', 'ccomp']
+['PROPN', 'NOUN', 'nmod']	['微软', '软件', 'nmod']
+['NOUN', 'VERB', 'obj']	['软件', '运行', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
+----------------------------------------------------------------------
+在早年，人们不清楚盖茨先生是在每个机会出现时都会追逐它，还是他有一个大战略。
+
+(ROOT (IP (PP (IN 在) (NP (NN 早年))) (, ，) (NP (NN 人们)) (VP (ADVP (RB 不)) (VP (VV 清楚) (IP (IP (NP (NNP 盖茨) (NN 先生)) (VP (VC 是) (VP (PP (IN 在) (LCP (IP (NP (DP (DT 每个)) (NP (NN 机会))) (VP (VV 出现))) (IN 时))) (VP (RB 都会) (VP (VV 追逐) (NP (PRP 它))))))) (, ，) (VC 还是) (IP (NP (PRP 他)) (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 个))) (ADJP (PFA 大)) (NP (NN 战略)))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['在', '早年', 'case']
+['NOUN', 'VERB', 'obl']	['早年', '清楚', 'obl']
+['PUNCT', 'NOUN', 'punct']	['，', '早年', 'punct']
+['NOUN', 'VERB', 'nsubj']	['人', '清楚', 'nsubj']
+['ADV', 'VERB', 'advmod']	['不', '清楚', 'advmod']
+['VERB', 'ROOT', 'root']	['清楚', 'NONE', 'root']
+['PROPN', 'NOUN', 'nmod']	['盖茨', '先生', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['先生', '是', 'nsubj']
+['VERB', 'VERB', 'advcl']	['是', '追逐', 'advcl']
+['ADP', 'NOUN', 'case']	['在', '机会', 'case']
+['DET', 'NOUN', 'det']	['每个', '机会', 'det']
+['NOUN', 'VERB', 'obl']	['机会', '出现', 'obl']
+['VERB', 'VERB', 'ccomp']	['出现', '追逐', 'ccomp']
+['ADP', 'VERB', 'mark']	['时', '出现', 'mark']
+['ADV', 'VERB', 'advmod']	['都会', '追逐', 'advmod']
+['VERB', 'VERB', 'ccomp']	['追逐', '清楚', 'ccomp']
+['PRON', 'VERB', 'obj']	['它', '追逐', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['VERB', 'VERB', 'ccomp']	['还是', '清楚', 'ccomp']
+['PRON', 'VERB', 'nsubj']	['他', '有', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['有', '还是', 'ccomp']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'clf']	['个', '战略', 'clf']
+['PART', 'NOUN', 'case']	['大', '战略', 'case']
+['NOUN', 'VERB', 'obj']	['战略', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '还是', 'punct']
+----------------------------------------------------------------------
+他当时确实有很大的野心。
+
+(ROOT (IP (NP (PRP 他)) (VP (NP (NN 当时)) (ADVP (RB 确实)) (VP (VV 有) (NP (CP (CP (IP (VP (JJ 很大))) (DEC 的))) (NP (NN 野心))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['PRON', 'VERB', 'nsubj']	['他', '有', 'nsubj']
+['NOUN', 'VERB', 'nmod:tmod']	['当时', '有', 'nmod:tmod']
+['ADV', 'VERB', 'advmod']	['确实', '有', 'advmod']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['ADJ', 'NOUN', 'amod']	['很大', '野心', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '很大', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['野心', '有', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+在他是哈佛大学的本科生时，盖茨曾感叹，那么多同学都追求“成功的狭窄道路”，而不愿意“承担巨大风险去做大事”，哈佛大学当时的同学、现在是纽约大学教授的迈克尔·卡茨回忆道。
+
+(ROOT (IP (PP (IN 在) (LCP (IP (NP (PRP 他)) (VP (VC 是) (NP (DNP (NP (NNP 哈佛) (NN 大学)) (DEC 的)) (NP (NN 本科))))) (NN 生时))) (, ，) (NP (NNP 盖茨)) (VP (ADVP (RB 曾)) (VP (VV 感叹) (, ，) (IP (IP (NP (ADJP (ADVP (RB 那么)) (ADJP (JJ 多))) (NP (NN 同学))) (VP (VP (ADVP (RB 都)) (VP (VV 追求) (NP (`` “) (CP (CP (IP (VP (JJ 成功))) (DEC 的))) (ADJP (JJ 狭窄)) (NP (NN 道路)) ('' ”)))) (, ，) (RB 而) (VP (ADVP (RB 不)) (VP (MD 愿意) (IP (VP (`` “) (VP (VV 承担) (NP (ADJP (JJ 巨大)) (NP (NN 风险)))) (VP (RB 去) (VP (VV 做) (NP (NN 大事)))) ('' ”))))))) (, ，) (IP (NP (NP (NP (NNP 哈佛) (NN 大学)) (DNP (NP (NN 当时)) (DEC 的)) (NP (NN 同学))) (EC 、) (CP (CP (IP (VP (NP (NN 现在)) (VP (VC 是) (NP (NP (NNP 纽约) (NN 大学)) (NP (NN 教授)))))) (DEC 的))) (NP (NNP 迈克) (NNP 尔) (/ ·) (NNP 卡茨))) (VP (VV 回忆) (NP (VV 道))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['在', '生时', 'case']
+['PRON', 'NOUN', 'nsubj']	['他', '生时', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '生时', 'cop']
+['PROPN', 'NOUN', 'nmod']	['哈佛', '大学', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['大学', '生时', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '大学', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['本科', '生时', 'nmod']
+['NOUN', 'VERB', 'ccomp']	['生时', '感叹', 'ccomp']
+['PUNCT', 'NOUN', 'punct']	['，', '生时', 'punct']
+['PROPN', 'VERB', 'nsubj']	['盖茨', '感叹', 'nsubj']
+['ADV', 'VERB', 'advmod']	['曾', '感叹', 'advmod']
+['VERB', 'ROOT', 'root']	['感叹', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '做', 'punct']
+['ADV', 'ADJ', 'advmod']	['那么', '多', 'advmod']
+['ADJ', 'NOUN', 'amod']	['多', '同学', 'amod']
+['NOUN', 'VERB', 'nsubj']	['同学', '追求', 'nsubj']
+['ADV', 'VERB', 'mark']	['都', '追求', 'mark']
+['VERB', 'VERB', 'advcl']	['追求', '做', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['“', '道路', 'punct']
+['ADJ', 'NOUN', 'amod']	['成功', '道路', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '成功', 'mark:rel']
+['ADJ', 'NOUN', 'amod']	['狭窄', '道路', 'amod']
+['NOUN', 'VERB', 'obj']	['道路', '追求', 'obj']
+['PUNCT', 'NOUN', 'punct']	['”', '道路', 'punct']
+['PUNCT', 'VERB', 'punct']	['，', '追求', 'punct']
+['ADV', 'VERB', 'mark']	['而', '做', 'mark']
+['ADV', 'VERB', 'advmod']	['不', '承担', 'advmod']
+['AUX', 'VERB', 'aux']	['愿意', '做', 'aux']
+['PUNCT', 'VERB', 'punct']	['“', '承担', 'punct']
+['VERB', 'VERB', 'advcl']	['承担', '做', 'advcl']
+['ADJ', 'NOUN', 'amod']	['巨大', '风险', 'amod']
+['NOUN', 'VERB', 'obj']	['风险', '承担', 'obj']
+['ADV', 'VERB', 'mark']	['去', '做', 'mark']
+['VERB', 'VERB', 'ccomp']	['做', '感叹', 'ccomp']
+['NOUN', 'VERB', 'obj']	['大事', '做', 'obj']
+['PUNCT', 'VERB', 'punct']	['”', '做', 'punct']
+['PUNCT', 'VERB', 'punct']	['，', '回忆', 'punct']
+['PROPN', 'NOUN', 'nmod']	['哈佛', '大学', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['大学', '同学', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['当时', '同学', 'nmod']
+['PART', 'NOUN', 'case']	['的', '当时', 'case']
+['NOUN', 'VERB', 'nsubj']	['同学', '回忆', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['、', '教授', 'punct']
+['NOUN', 'NOUN', 'nmod']	['现在', '教授', 'nmod']
+['AUX', 'NOUN', 'cop']	['是', '教授', 'cop']
+['PROPN', 'NOUN', 'nmod']	['纽约', '教授', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['大学', '教授', 'nmod']
+['NOUN', 'NOUN', 'conj']	['教授', '同学', 'conj']
+['PART', 'NOUN', 'case']	['的', '同学', 'case']
+['PROPN', 'NOUN', 'conj']	['迈克', '同学', 'conj']
+['PROPN', 'PROPN', 'flat:name']	['尔', '迈克', 'flat:name']
+['PUNCT', 'PROPN', 'punct']	['·', '卡茨', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['卡茨', '尔', 'flat:name']
+['VERB', 'VERB', 'parataxis']	['回忆', '感叹', 'parataxis']
+['VERB', 'VERB', 'xcomp']	['道', '回忆', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '感叹', 'punct']
+----------------------------------------------------------------------
+在一篇1994年发表的哈佛商学院案例研究中，盖茨先生谈到了微软的战略，这种战略是以网络效应和技术标准为基础的，这两者相结合使得该公司能够控制市场。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 篇))) (CP (CP (IP (VP (NP (CD 1994) (NNB 年)) (VP (VV 发表)))) (DEC 的))) (NP (NNP 哈佛) (NN 商) (NN 学院)) (NP (NN 案例) (NN 研究))) (IN 中))) (, ，) (NP (NNP 盖茨) (NN 先生)) (VP (VV 谈到) (AS 了) (NP (DNP (NP (NNP 微软)) (DEC 的)) (NP (NN 战略))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 战略))) (VP (VC 是) (NP (CP (CP (IP (VP (PP (VV 以) (NP (NN 网络) (NN 效应) (CC 和) (NN 技术) (NN 标准))) (VP (VC 为) (NP (NN 基础))))) (UH 的)))))) (, ，) (IP (IP (NP (DP (DT 这) (QP (CD 两))) (NP (NN 者))) (VP (ADVP (RB 相)) (VP (VV 结合)))) (VP (VV 使得) (NP (DP (DT 该)) (NP (NN 公司))) (IP (VP (MD 能够) (VP (VV 控制) (NP (NN 市场))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP27999': {}, ',874': {}, 'IP72875': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP57862': {'NP': {}, 'VP': {}}, ',5437': {}, 'IP88635': {'IP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'IP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'IP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'NOUN', 'case']	['在', '研究', 'case']
+['NUM', 'NOUN', 'nummod']	['一', '篇', 'nummod']
+['NOUN', 'NOUN', 'clf']	['篇', '年', 'clf']
+['NUM', 'NOUN', 'nummod']	['1994', '年', 'nummod']
+['NOUN', 'VERB', 'nmod:tmod']	['年', '发表', 'nmod:tmod']
+['VERB', 'NOUN', 'acl:relcl']	['发表', '研究', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '发表', 'mark:rel']
+['PROPN', 'NOUN', 'nmod']	['哈佛', '研究', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['商', '研究', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['学院', '研究', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['案例', '研究', 'nmod']
+['NOUN', 'VERB', 'obl']	['研究', '谈到', 'obl']
+['ADP', 'NOUN', 'case']	['中', '研究', 'case']
+['PUNCT', 'NOUN', 'punct']	['，', '研究', 'punct']
+['PROPN', 'NOUN', 'nmod']	['盖茨', '先生', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['先生', '谈到', 'nsubj']
+['VERB', 'ROOT', 'root']	['谈到', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '谈到', 'aux']
+['PROPN', 'NOUN', 'nmod']	['微软', '战略', 'nmod']
+['PART', 'PROPN', 'case']	['的', '微软', 'case']
+['NOUN', 'VERB', 'obj']	['战略', '谈到', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '使得', 'punct']
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '战略', 'clf']
+['NOUN', 'NOUN', 'nsubj']	['战略', '基础', 'nsubj']
+['AUX', 'VERB', 'case']	['是', '以', 'case']
+['VERB', 'VERB', 'advcl']	['以', '使得', 'advcl']
+['NOUN', 'NOUN', 'nmod']	['网络', '效应', 'nmod']
+['NOUN', 'VERB', 'obj']	['效应', '以', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '标准', 'cc']
+['NOUN', 'NOUN', 'nmod']	['技术', '标准', 'nmod']
+['NOUN', 'NOUN', 'conj']	['标准', '效应', 'conj']
+['AUX', 'NOUN', 'cop']	['为', '基础', 'cop']
+['NOUN', 'VERB', 'ccomp']	['基础', '以', 'ccomp']
+['PART', 'NOUN', 'discourse']	['的', '基础', 'discourse']
+['PUNCT', 'VERB', 'punct']	['，', '使得', 'punct']
+['DET', 'NOUN', 'det']	['这', '者', 'det']
+['NUM', 'NOUN', 'nummod']	['两', '者', 'nummod']
+['NOUN', 'VERB', 'nsubj']	['者', '使得', 'nsubj']
+['ADV', 'VERB', 'advmod']	['相', '使得', 'advmod']
+['VERB', 'VERB', 'advcl']	['结合', '使得', 'advcl']
+['VERB', 'VERB', 'parataxis']	['使得', '谈到', 'parataxis']
+['DET', 'NOUN', 'det']	['该', '公司', 'det']
+['NOUN', 'VERB', 'nsubj']	['公司', '控制', 'nsubj']
+['AUX', 'VERB', 'aux']	['能够', '控制', 'aux']
+['VERB', 'VERB', 'ccomp']	['控制', '使得', 'ccomp']
+['NOUN', 'VERB', 'obj']	['市场', '控制', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '谈到', 'punct']
+----------------------------------------------------------------------
+“我们寻找那些能够获得大市场份额的企业，而不仅仅是 30% 或 35% 的企业，”他说道。
+
+(ROOT (IP (IP (`` “) (NP (PRP 我们)) (VP (VP (VV 寻找) (NP (DP (DT 那些)) (CP (CP (IP (VP (MD 能够) (VP (VV 获得) (NP (NP (ADJP (PFA 大)) (NP (NN 市场))) (NP (NN 份额)))))) (DEC 的))) (NP (NN 企业)))) (, ，) (RB 而) (VP (ADVP (RB 不)) (ADVP (RB 仅仅)) (VP (VC 是) (NP (DNP (QP (CD 30%) (CD 或 35%)) (DEC 的)) (NP (NN 企业))))))) (, ，) ('' ”) (NP (PRP 他)) (VP (VV 说道)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+['PUNCT', 'NOUN', 'punct']	['“', '企业', 'punct']
+['PRON', 'VERB', 'nsubj']	['我', '寻找', 'nsubj']
+['VERB', 'NOUN', 'acl']	['寻找', '企业', 'acl']
+['DET', 'NOUN', 'det']	['那些', '企业', 'det']
+['AUX', 'VERB', 'aux']	['能够', '获得', 'aux']
+['VERB', 'NOUN', 'acl:relcl']	['获得', '企业', 'acl:relcl']
+['PART', 'NOUN', 'case']	['大', '市场', 'case']
+['NOUN', 'NOUN', 'nmod']	['市场', '份额', 'nmod']
+['NOUN', 'VERB', 'obj']	['份额', '获得', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '获得', 'mark:rel']
+['NOUN', 'VERB', 'obj']	['企业', '寻找', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '寻找', 'punct']
+['ADV', 'NOUN', 'mark']	['而', '企业', 'mark']
+['ADV', 'NOUN', 'advmod']	['不', '企业', 'advmod']
+['ADV', 'NOUN', 'advmod']	['仅仅', '企业', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '企业', 'cop']
+['NUM', 'NOUN', 'nummod']	['30%', '企业', 'nummod']
+['NUM', 'NOUN', 'amod']	['或 35%', '企业', 'amod']
+['PART', 'NUM', 'mark:rel']	['的', '或 35%', 'mark:rel']
+['NOUN', 'ROOT', 'root']	['企业', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '说道', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '说道', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '说道', 'nsubj']
+['VERB', 'NOUN', 'parataxis']	['说道', '企业', 'parataxis']
+['PUNCT', 'NOUN', 'punct']	['。', '企业', 'punct']
+----------------------------------------------------------------------
+过去，即便是在第一波互联网技术浪潮中迟到市场，微软也曾击退挑战者，击败竞争对手。
+
+(ROOT (IP (IP (NP (NN 过去)) (, ，) (VP (ADVP (RB 即)) (VP (VC 便是) (IP (VP (PP (IN 在) (LCP (NP (QP (CD 第一) (CLP (NNB 波))) (NP (VV 互联) (SFN 网) (NN 技术) (NN 浪潮))) (IN 中))) (VP (VV 迟到) (NP (NN 市场)))))))) (, ，) (IP (NP (NNP 微软)) (VP (ADVP (RB 也)) (ADVP (RB 曾)) (VP (VP (VV 击退) (NP (VV 挑战) (SFN 者))) (, ，) (VP (VV 击败) (NP (NN 竞争) (NN 对手)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP65002': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP55694': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['NOUN', 'VERB', 'nmod:tmod']	['过去', '是', 'nmod:tmod']
+['PUNCT', 'NOUN', 'punct']	['，', '过去', 'punct']
+['ADV', 'VERB', 'mark']	['即', '是', 'mark']
+['VERB', 'VERB', 'advcl']	['是', '击败', 'advcl']
+['ADP', 'NOUN', 'case']	['在', '浪潮', 'case']
+['NUM', 'NOUN', 'nummod']	['第一', '波', 'nummod']
+['NOUN', 'NOUN', 'clf']	['波', '浪潮', 'clf']
+['VERB', 'PART', 'compound']	['互联', '网', 'compound']
+['PART', 'NOUN', 'nmod']	['网', '浪潮', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['技术', '浪潮', 'nmod']
+['NOUN', 'VERB', 'obl']	['浪潮', '迟到', 'obl']
+['ADP', 'NOUN', 'case']	['中', '浪潮', 'case']
+['VERB', 'VERB', 'xcomp']	['迟到', '是', 'xcomp']
+['NOUN', 'VERB', 'obj']	['市场', '迟到', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['PROPN', 'VERB', 'nsubj']	['微软', '击败', 'nsubj']
+['ADV', 'VERB', 'mark']	['也', '击退', 'mark']
+['ADV', 'VERB', 'advmod']	['曾', '击退', 'advmod']
+['VERB', 'VERB', 'advcl']	['击退', '击败', 'advcl']
+['VERB', 'PART', 'compound']	['挑战', '者', 'compound']
+['PART', 'VERB', 'obj']	['者', '击退', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '击退', 'punct']
+['VERB', 'ROOT', 'root']	['击败', 'NONE', 'root']
+['NOUN', 'NOUN', 'nmod']	['竞争', '对手', 'nmod']
+['NOUN', 'VERB', 'obj']	['对手', '击败', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '击败', 'punct']
+----------------------------------------------------------------------
+盖茨先生在 1995 年明智地决定接受互联网浏览技术并攻击早期的领导者尼斯卡克通讯公司，从而与政府展开了激烈的反垄断战。
+
+(ROOT (IP (NP (NNP 盖茨) (NN 先生)) (VP (VP (PP (IN 在) (NP (CD 1995))) (DVP (VP (NNB 年明智)) (DEV 地)) (VP (VV 决定) (IP (VP (VP (VV 接受) (NP (NP (JJ 互联) (SFN 网)) (NN 浏览) (NN 技术))) (RB 并) (VP (VV 攻击) (NP (NP (DNP (NP (NN 早期)) (DEC 的)) (NP (VV 领导) (SFN 者))) (NP (NNP 尼斯卡克) (NN 通讯) (NN 公司)))))))) (, ，) (VP (ADVP (RB 从而)) (PP (IN 与) (NP (NN 政府))) (VP (VV 展开) (AS 了) (NP (CP (CP (IP (VP (JJ 激烈))) (DEC 的))) (NP (NN 反垄) (NN 断战)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP74222': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['盖茨', '先生', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['先生', '展开', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '年明智', 'case']
+['NUM', 'NOUN', 'nummod']	['1995', '年明智', 'nummod']
+['NOUN', 'VERB', 'obl']	['年明智', '决定', 'obl']
+['PART', 'NOUN', 'mark:adv']	['地', '年明智', 'mark:adv']
+['VERB', 'VERB', 'advcl']	['决定', '展开', 'advcl']
+['VERB', 'VERB', 'advcl']	['接受', '攻击', 'advcl']
+['ADJ', 'PART', 'compound']	['互联', '网', 'compound']
+['PART', 'NOUN', 'nmod']	['网', '技术', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['浏览', '技术', 'nmod']
+['NOUN', 'VERB', 'obj']	['技术', '接受', 'obj']
+['ADV', 'VERB', 'mark']	['并', '攻击', 'mark']
+['VERB', 'VERB', 'advcl']	['攻击', '展开', 'advcl']
+['NOUN', 'PART', 'nmod']	['早期', '者', 'nmod']
+['PART', 'NOUN', 'case']	['的', '早期', 'case']
+['VERB', 'PART', 'compound']	['领导', '者', 'compound']
+['PART', 'NOUN', 'nmod']	['者', '公司', 'nmod']
+['PROPN', 'NOUN', 'nmod']	['尼斯卡克', '公司', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['通讯', '公司', 'nmod']
+['NOUN', 'VERB', 'obj']	['公司', '攻击', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '攻击', 'punct']
+['ADV', 'VERB', 'mark']	['从而', '展开', 'mark']
+['ADP', 'NOUN', 'case']	['与', '政府', 'case']
+['NOUN', 'VERB', 'obl']	['政府', '展开', 'obl']
+['VERB', 'ROOT', 'root']	['展开', 'NONE', 'root']
+['AUX', 'VERB', 'aux']	['了', '展开', 'aux']
+['ADJ', 'NOUN', 'amod']	['激烈', '断战', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '激烈', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['反垄', '断战', 'nmod']
+['NOUN', 'VERB', 'obj']	['断战', '展开', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '展开', 'punct']
+----------------------------------------------------------------------
+“但他将微软的霸权延续了十年，”长期的竞争对手米切尔·卡波说。
+
+(ROOT (IP (IP (`` “) (ADVP (RB 但)) (NP (PRP 他)) (VP (BB 将) (IP (NP (DNP (NP (NNP 微软)) (DEC 的)) (NP (NN 霸权))) (VP (VV 延续) (AS 了) (QP (CD 十) (CLP (NNB 年)))))) (, ，) ('' ”)) (NP (NP (DNP (NP (NN 长期)) (DEC 的)) (NP (NN 竞争) (NN 对手))) (NP (NNP 米切尔) (/ ·) (NNP 卡波))) (VP (VV 说)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, ',': {}, "''": {}}, 'NP': {'NP': {}, 'NP54946': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, ',': {}, "''": {}}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, ',': {}, "''": {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+['PUNCT', 'VERB', 'punct']	['“', '延续', 'punct']
+['ADV', 'VERB', 'mark']	['但', '延续', 'mark']
+['PRON', 'VERB', 'nsubj']	['他', '延续', 'nsubj']
+['ADP', 'NOUN', 'case']	['将', '霸权', 'case']
+['PROPN', 'NOUN', 'nmod']	['微软', '霸权', 'nmod']
+['PART', 'PROPN', 'case']	['的', '微软', 'case']
+['NOUN', 'VERB', 'obl:patient']	['霸权', '延续', 'obl:patient']
+['VERB', 'VERB', 'advcl']	['延续', '说', 'advcl']
+['AUX', 'VERB', 'aux']	['了', '延续', 'aux']
+['NUM', 'NOUN', 'nummod']	['十', '年', 'nummod']
+['NOUN', 'VERB', 'obl']	['年', '延续', 'obl']
+['PUNCT', 'VERB', 'punct']	['，', '延续', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '延续', 'punct']
+['NOUN', 'NOUN', 'nmod']	['长期', '对手', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '长期', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['竞争', '对手', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['对手', '说', 'nsubj']
+['PROPN', 'NOUN', 'appos']	['米切尔', '对手', 'appos']
+['PUNCT', 'PROPN', 'punct']	['·', '卡波', 'punct']
+['PROPN', 'PROPN', 'flat:name']	['卡波', '米切尔', 'flat:name']
+['VERB', 'ROOT', 'root']	['说', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['。', '说', 'punct']
+----------------------------------------------------------------------
+然而，微软在当前的互联网竞争中远远落后，分析人士表示，这一次面临的对手更加强大，特别是谷歌。
+
+(ROOT (IP (ADVP (RB 然而)) (, ，) (IP (NP (NP (NNP 微软)) (VP (PP (IN 在) (NP (DNP (NP (NN 当前)) (DEC 的)) (NP (VV 互联) (SFN 网) (NN 竞争)))) (ADVP (IN 中远远)) (VP (VV 落后)))) (, ，) (IP (NP (NN 分析) (NN 人士)) (VP (VV 表示) (, ，) (IP (IP (NP (CP (CP (IP (VP (DP (DT 这) (QP (CD 一) (CLP (NNB 次)))) (VP (VV 面临)))) (DEC 的))) (NP (NN 对手))) (VP (ADVP (RB 更加)) (VP (JJ 强大)))) (, ，) (IP (VP (ADVP (RB 特别)) (VP (VC 是) (NP (NNP 谷歌))))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'IP': {'NP': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['ADV', 'VERB', 'mark']	['然而', '落后', 'mark']
+['PUNCT', 'ADV', 'punct']	['，', '然而', 'punct']
+['PROPN', 'VERB', 'nsubj']	['微软', '落后', 'nsubj']
+['ADP', 'NOUN', 'case']	['在', '竞争', 'case']
+['NOUN', 'NOUN', 'nmod']	['当前', '竞争', 'nmod']
+['PART', 'NOUN', 'case']	['的', '当前', 'case']
+['VERB', 'PART', 'compound']	['互联', '网', 'compound']
+['PART', 'NOUN', 'nmod']	['网', '竞争', 'nmod']
+['NOUN', 'VERB', 'obl']	['竞争', '落后', 'obl']
+['ADP', 'NOUN', 'case']	['中远远', '竞争', 'case']
+['VERB', 'ROOT', 'root']	['落后', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '表示', 'punct']
+['NOUN', 'NOUN', 'nmod']	['分析', '人士', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['人士', '表示', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['表示', '落后', 'parataxis']
+['PUNCT', 'ADJ', 'punct']	['，', '强大', 'punct']
+['DET', 'NOUN', 'det']	['这', '次', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '次', 'nummod']
+['NOUN', 'VERB', 'obl']	['次', '面临', 'obl']
+['VERB', 'NOUN', 'acl:relcl']	['面临', '对手', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '面临', 'mark:rel']
+['NOUN', 'ADJ', 'nsubj']	['对手', '强大', 'nsubj']
+['ADV', 'ADJ', 'advmod']	['更加', '强大', 'advmod']
+['ADJ', 'VERB', 'ccomp']	['强大', '表示', 'ccomp']
+['PUNCT', 'PROPN', 'punct']	['，', '谷歌', 'punct']
+['ADV', 'PROPN', 'advmod']	['特别', '谷歌', 'advmod']
+['AUX', 'PROPN', 'cop']	['是', '谷歌', 'cop']
+['PROPN', 'VERB', 'parataxis']	['谷歌', '落后', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '落后', 'punct']
+----------------------------------------------------------------------
+在美国，微软的互联网搜索市场份额不到 10%，谷歌占据了超过 60%，雅虎约 20%。
+
+(ROOT (IP (PP (VV 在) (NP (NNP 美国))) (, ，) (IP (IP (NP (DNP (NP (NNP 微软)) (DEC 的)) (NP (VV 互联) (SFN 网) (NN 搜索) (NN 市场)) (NP (NN 份额))) (VP (QP (ADVP (VV 不到)) (QP (CD 10%))))) (, ，) (IP (NP (NNP 谷歌)) (VP (VV 占据) (AS 了) (QP (ADVP (VV 超过)) (QP (CD 60%))))) (, ，) (QP (NP (NNP 雅虎约)) (QP (CD 20%)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'IP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'IP51116': {}, ',39058': {}, 'QP': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'QP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'NP': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'QP': {}}}
+Dependency Features:
+['VERB', 'VERB', 'advcl']	['在', '到', 'advcl']
+['PROPN', 'VERB', 'obj']	['美国', '在', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '在', 'punct']
+['PROPN', 'NOUN', 'nmod']	['微软', '份额', 'nmod']
+['PART', 'PROPN', 'case']	['的', '微软', 'case']
+['VERB', 'PART', 'compound']	['互联', '网', 'compound']
+['PART', 'NOUN', 'nmod']	['网', '份额', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['搜索', '份额', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['市场', '份额', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['份额', '到', 'nsubj']
+['VERB', 'ROOT', 'root']	['到', 'NONE', 'root']
+['NUM', 'VERB', 'obj']	['10%', '到', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '占据', 'punct']
+['PROPN', 'VERB', 'nsubj']	['谷歌', '占据', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['占据', '到', 'parataxis']
+['AUX', 'VERB', 'aux']	['了', '占据', 'aux']
+['VERB', 'VERB', 'xcomp']	['超过', '占据', 'xcomp']
+['NUM', 'VERB', 'obj']	['60%', '超过', 'obj']
+['PUNCT', 'NUM', 'punct']	['，', '20%', 'punct']
+['PROPN', 'NUM', 'nmod']	['雅虎约', '20%', 'nmod']
+['NUM', 'VERB', 'obj']	['20%', '超过', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '到', 'punct']
+----------------------------------------------------------------------
+而搜索只是网络新平台的一部分，其中包括 Facebook 和 MySpace 这样的社交网络以及基于互联网的传统桌面软件替代品，包括电子邮件、文字处理和电子表格。
+
+(ROOT (IP (IP (ADVP (RB 而)) (NP (NN 搜索)) (VP (ADVP (RB 只)) (VP (VC 是) (NP (DNP (NP (NP (NN 网络)) (ADJP (PFA 新)) (NP (NN 平台))) (DEC 的)) (QP (CD 一)) (NP (NN 部分)))))) (, ，) (IP (NP (NN 其中)) (VP (VV 包括) (NP (NP (DNP (NP (NP (FW Facebook) (CC 和) (FW My) (FW Space)) (NP (PRD 这样))) (DEC 的)) (NP (NN 社交) (NN 网络))) (CC 以及) (NP (CP (CP (IP (VP (VV 基) (PP (VV 于) (NP (VV 互联) (SFN 网))))) (DEC 的))) (ADJP (NN 传统)) (NP (NN 桌面) (NN 软件) (VV 替代) (SFN 品)))))) (, ，) (IP (VP (VV 包括) (NP (NN 电子) (NN 邮件) (EC 、) (NN 文字) (NN 处理) (CC 和) (NN 电子) (NN 表格)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP70012': {}, ',85290': {}, 'IP37291': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP17851': {'NP': {}, 'VP': {}}, ',70730': {}, 'IP22081': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+['ADV', 'NOUN', 'mark']	['而', '部分', 'mark']
+['NOUN', 'NOUN', 'nsubj']	['搜索', '部分', 'nsubj']
+['ADV', 'NOUN', 'advmod']	['只', '部分', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '部分', 'cop']
+['NOUN', 'NOUN', 'nmod']	['网络', '平台', 'nmod']
+['PART', 'NOUN', 'case']	['新', '平台', 'case']
+['NOUN', 'NOUN', 'nmod']	['平台', '部分', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '平台', 'mark:rel']
+['NUM', 'NOUN', 'nummod']	['一', '部分', 'nummod']
+['NOUN', 'ROOT', 'root']	['部分', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '包括', 'punct']
+['NOUN', 'VERB', 'nsubj']	['其中', '包括', 'nsubj']
+['VERB', 'NOUN', 'parataxis']	['包括', '部分', 'parataxis']
+['X', 'NOUN', 'nmod']	['Facebook', '网络', 'nmod']
+['CCONJ', 'X', 'cc']	['和', 'My', 'cc']
+['X', 'X', 'conj']	['My', 'Facebook', 'conj']
+['X', 'X', 'flat:foreign']	['Space', 'My', 'flat:foreign']
+['PRON', 'X', 'flat:foreign']	['这样', 'Facebook', 'flat:foreign']
+['PART', 'PRON', 'mark:rel']	['的', '这样', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['社交', '网络', 'nmod']
+['NOUN', 'VERB', 'obj']	['网络', '包括', 'obj']
+['CCONJ', 'PART', 'cc']	['以及', '品', 'cc']
+['VERB', 'PART', 'acl:relcl']	['基', '品', 'acl:relcl']
+['VERB', 'VERB', 'mark']	['于', '基', 'mark']
+['VERB', 'PART', 'compound']	['互联', '网', 'compound']
+['PART', 'VERB', 'obj']	['网', '基', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '基', 'mark:rel']
+['NOUN', 'PART', 'nmod']	['传统', '品', 'nmod']
+['NOUN', 'PART', 'nmod']	['桌面', '品', 'nmod']
+['NOUN', 'PART', 'nmod']	['软件', '品', 'nmod']
+['VERB', 'PART', 'compound']	['替代', '品', 'compound']
+['PART', 'VERB', 'nsubj']	['品', '包括', 'nsubj']
+['PUNCT', 'PART', 'punct']	['，', '品', 'punct']
+['VERB', 'VERB', 'ccomp']	['包括', '包括', 'ccomp']
+['NOUN', 'NOUN', 'nmod']	['电子', '邮件', 'nmod']
+['NOUN', 'VERB', 'obj']	['邮件', '包括', 'obj']
+['PUNCT', 'NOUN', 'punct']	['、', '处理', 'punct']
+['NOUN', 'NOUN', 'nmod']	['文字', '处理', 'nmod']
+['NOUN', 'NOUN', 'conj']	['处理', '邮件', 'conj']
+['CCONJ', 'NOUN', 'cc']	['和', '表格', 'cc']
+['NOUN', 'NOUN', 'nmod']	['电子', '表格', 'nmod']
+['NOUN', 'NOUN', 'conj']	['表格', '邮件', 'conj']
+['PUNCT', 'NOUN', 'punct']	['。', '部分', 'punct']
+----------------------------------------------------------------------
+当越来越多的软件通过 Web 浏览器访问，并通过谷歌等公司运营的大型数据中心通过互联网传输时，传统桌面软件——以及微软控制的技术标准——就变得毫不重要。
+
+(ROOT (IP (PP (IN 当) (LCP (IP (NP (CP (CP (IP (VP (ADVP (RB 越来越)) (VP (JJ 多)))) (DEC 的))) (NP (NN 软件))) (VP (VP (PP (IN 通过) (NP (FW Web) (VV 浏览) (SFN 器))) (VP (VV 访问))) (, ，) (RB 并) (VP (PP (IN 通过) (NP (CP (CP (IP (NP (NP (NNP 谷歌) (NN 等)) (NP (NN 公司))) (VP (VV 运营))) (DEC 的))) (ADJP (NN 大型)) (NP (NN 数据) (NN 中心)))) (PP (IN 通过) (NP (VV 互联) (SFN 网))) (VP (VV 传输))))) (IN 时))) (, ，) (NP (NP (ADJP (NN 传统)) (NP (NN 桌面) (NN 软件))) (HYPH —) (HYPH —) (CC 以及) (NP (CP (CP (IP (NP (NNP 微软)) (VP (VV 控制))) (DEC 的))) (NP (NN 技术) (NN 标准))) (HYPH —) (HYPH —) (IP (VP (ADVP (RB 就)) (VP (VV 变得) (VP (ADVP (RB 毫不)) (VP (JJ 重要))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'HYPH': {}, 'HYPH53897': {}, 'CC': {}, 'NP2516': {}, 'HYPH75523': {}, 'HYPH6783': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'HYPH': {}, 'HYPH': {}, 'CC': {}, 'NP': {}, 'HYPH': {}, 'HYPH': {}, 'IP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NP': {}, 'HYPH': {}, 'HYPH': {}, 'CC': {}, 'NP': {}, 'HYPH': {}, 'HYPH': {}, 'IP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['当', '访问', 'case']
+['ADV', 'ADJ', 'advmod']	['越来越', '多', 'advmod']
+['ADJ', 'NOUN', 'amod']	['多', '软件', 'amod']
+['PART', 'ADJ', 'mark:rel']	['的', '多', 'mark:rel']
+['NOUN', 'VERB', 'nsubj']	['软件', '访问', 'nsubj']
+['ADP', 'PART', 'case']	['通过', '器', 'case']
+['X', 'PART', 'nmod']	['Web', '器', 'nmod']
+['VERB', 'PART', 'compound']	['浏览', '器', 'compound']
+['PART', 'VERB', 'obl']	['器', '访问', 'obl']
+['VERB', 'VERB', 'ccomp']	['访问', '变得', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['，', '访问', 'punct']
+['ADV', 'VERB', 'mark']	['并', '传输', 'mark']
+['ADP', 'NOUN', 'case']	['通过', '中心', 'case']
+['PROPN', 'NOUN', 'nmod']	['谷歌', '中心', 'nmod']
+['NOUN', 'PROPN', 'acl']	['等', '谷歌', 'acl']
+['NOUN', 'PROPN', 'appos']	['公司', '谷歌', 'appos']
+['VERB', 'NOUN', 'acl:relcl']	['运营', '中心', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '运营', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['大型', '中心', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['数据', '中心', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['中心', '传输', 'nsubj']
+['ADP', 'PART', 'case']	['通过', '网', 'case']
+['VERB', 'PART', 'compound']	['互联', '网', 'compound']
+['PART', 'VERB', 'obl']	['网', '传输', 'obl']
+['VERB', 'VERB', 'ccomp']	['传输', '变得', 'ccomp']
+['ADP', 'VERB', 'mark']	['时', '传输', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '传输', 'punct']
+['NOUN', 'NOUN', 'nmod']	['传统', '软件', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['桌面', '软件', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['软件', '变得', 'nsubj']
+['PUNCT', 'NOUN', 'punct']	['—', '标准', 'punct']
+['PUNCT', 'NOUN', 'punct']	['—', '标准', 'punct']
+['CCONJ', 'NOUN', 'cc']	['以及', '标准', 'cc']
+['PROPN', 'VERB', 'nsubj']	['微软', '控制', 'nsubj']
+['VERB', 'NOUN', 'acl:relcl']	['控制', '标准', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '控制', 'mark:rel']
+['NOUN', 'NOUN', 'nmod']	['技术', '标准', 'nmod']
+['NOUN', 'NOUN', 'conj']	['标准', '软件', 'conj']
+['PUNCT', 'NOUN', 'punct']	['—', '软件', 'punct']
+['PUNCT', 'NOUN', 'punct']	['—', '软件', 'punct']
+['ADV', 'VERB', 'mark']	['就', '变得', 'mark']
+['VERB', 'ROOT', 'root']	['变得', 'NONE', 'root']
+['ADV', 'VERB', 'advmod']	['毫不', '变得', 'advmod']
+['ADJ', 'VERB', 'xcomp']	['重要', '变得', 'xcomp']
+['PUNCT', 'VERB', 'punct']	['。', '变得', 'punct']
+----------------------------------------------------------------------
+这种新方法被称为“云计算”，其背后的商业模式通常是销售在线广告和软件服务。
+
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 种))) (ADJP (PFA 新)) (NP (NN 方法))) (VP (BB 被) (VP (VCP (VV 称) (VC 为)) (NP (`` “) (NNP 云) (VV 计算) ('' ”))))) (, ，) (IP (NP (DNP (NP (NP (PRP 其)) (NP (NN 背后))) (DEC 的)) (NP (NN 商业) (NN 模式))) (VP (ADVP (RB 通常)) (VP (VC 是) (VP (VV 销售) (PP (VV 在) (NP (NN 线) (NN 广告) (CC 和) (NN 软件) (NN 服务))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP99859': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP79047': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+['DET', 'NOUN', 'det']	['这', '种', 'det']
+['NOUN', 'NOUN', 'clf']	['种', '方法', 'clf']
+['PART', 'NOUN', 'case']	['新', '方法', 'case']
+['NOUN', 'VERB', 'nsubj:pass']	['方法', '称', 'nsubj:pass']
+['AUX', 'VERB', 'aux:pass']	['被', '称', 'aux:pass']
+['VERB', 'ROOT', 'root']	['称', 'NONE', 'root']
+['VERB', 'VERB', 'mark']	['为', '称', 'mark']
+['PUNCT', 'VERB', 'punct']	['“', '计算', 'punct']
+['PROPN', 'VERB', 'nsubj']	['云', '计算', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['计算', '称', 'ccomp']
+['PUNCT', 'VERB', 'punct']	['”', '计算', 'punct']
+['PUNCT', 'VERB', 'punct']	['，', '是', 'punct']
+['PRON', 'NOUN', 'nmod']	['其', '背后', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['背后', '模式', 'nmod']
+['PART', 'NOUN', 'case']	['的', '背后', 'case']
+['NOUN', 'NOUN', 'nmod']	['商业', '模式', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['模式', '是', 'nsubj']
+['ADV', 'VERB', 'advmod']	['通常', '是', 'advmod']
+['VERB', 'VERB', 'parataxis']	['是', '称', 'parataxis']
+['VERB', 'VERB', 'xcomp']	['销售', '是', 'xcomp']
+['VERB', 'VERB', 'mark']	['在', '销售', 'mark']
+['NOUN', 'NOUN', 'nmod']	['线', '广告', 'nmod']
+['NOUN', 'VERB', 'obj']	['广告', '销售', 'obj']
+['CCONJ', 'NOUN', 'cc']	['和', '服务', 'cc']
+['NOUN', 'NOUN', 'nmod']	['软件', '服务', 'nmod']
+['NOUN', 'NOUN', 'conj']	['服务', '广告', 'conj']
+['PUNCT', 'VERB', 'punct']	['。', '称', 'punct']
+----------------------------------------------------------------------
+尽管微软落后于谷歌，并且未能以 475 亿美元的价格收购雅虎以赶超对手，但该公司内部却没有出现恐慌情绪。
+
+(ROOT (IP (IP (CP (ADVP (IN 尽管)) (IP (NP (NNP 微软)) (VP (VV 落后) (PP (VV 于) (NP (NNP 谷歌)))))) (, ，) (RB 并且) (VP (MD 未能) (VP (VP (PP (IN 以) (NP (DNP (QP (CD 475) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元))))) (DEC 的)) (NP (NN 价格)))) (VP (VV 收购) (NP (NNP 雅虎)))) (VP (RB 以) (VP (VV 赶) (NP (ADJP (PFA 超)) (NP (NN 对手)))))))) (, ，) (ADVP (RB 但)) (NP (NP (DP (DT 该)) (NP (NN 公司))) (NP (NN 内部))) (VP (ADVP (RB 却)) (VP (VV 没有) (VP (VV 出现) (NP (NN 恐慌) (NN 情绪))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'CP': {}, ',': {}, 'RB': {}, 'VP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'NP': {}, 'NP75636': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'CP': {}, ',': {}, 'RB': {}, 'VP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+['ADP', 'VERB', 'case']	['尽管', '落后', 'case']
+['PROPN', 'VERB', 'nsubj']	['微软', '落后', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['落后', '赶', 'ccomp']
+['VERB', 'VERB', 'mark']	['于', '落后', 'mark']
+['PROPN', 'VERB', 'obj']	['谷歌', '落后', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '落后', 'punct']
+['ADV', 'VERB', 'mark']	['并且', '赶', 'mark']
+['AUX', 'VERB', 'aux']	['能', '赶', 'aux']
+['ADP', 'NOUN', 'case']	['以', '价格', 'case']
+['NUM', 'NOUN', 'nummod']	['475', '元', 'nummod']
+['NUM', 'NOUN', 'nummod']	['亿', '元', 'nummod']
+['PROPN', 'NOUN', 'nmod']	['美', '元', 'nmod']
+['NOUN', 'NOUN', 'nmod']	['元', '价格', 'nmod']
+['PART', 'NOUN', 'mark:rel']	['的', '元', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['价格', '收购', 'obl']
+['VERB', 'VERB', 'advcl']	['收购', '赶', 'advcl']
+['PROPN', 'VERB', 'obj']	['雅虎', '收购', 'obj']
+['ADV', 'VERB', 'mark']	['以', '赶', 'mark']
+['VERB', 'VERB', 'ccomp']	['赶', '有', 'ccomp']
+['PART', 'NOUN', 'case']	['超', '对手', 'case']
+['NOUN', 'VERB', 'obj']	['对手', '赶', 'obj']
+['PUNCT', 'VERB', 'punct']	['，', '赶', 'punct']
+['ADV', 'VERB', 'mark']	['但', '有', 'mark']
+['DET', 'NOUN', 'det']	['该', '内部', 'det']
+['NOUN', 'NOUN', 'nmod']	['公司', '内部', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['内部', '有', 'nsubj']
+['ADV', 'VERB', 'mark']	['却', '有', 'mark']
+['VERB', 'ROOT', 'root']	['有', 'NONE', 'root']
+['VERB', 'VERB', 'xcomp']	['出现', '有', 'xcomp']
+['NOUN', 'NOUN', 'nmod']	['恐慌', '情绪', 'nmod']
+['NOUN', 'VERB', 'obj']	['情绪', '出现', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '有', 'punct']
+----------------------------------------------------------------------
+微软首席研究和战略官 Craig Mundie 表示，微软认为计算机发展是一种演变，而非会危及公司的颠覆性革命。
+
+(ROOT (IP (NP (NP (NP (NNP 微软)) (NP (JJ 首席) (NN 研究) (CC 和) (NN 战略) (SFN 官))) (NP (FW Craig) (FW Mundie))) (VP (VV 表示) (, ，) (IP (NP (NNP 微软)) (VP (VV 认为) (IP (NP (VV 计算) (SFN 机) (NN 发展)) (VP (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (NP (NN 演变)))) (, ，) (VC 而非) (VP (MD 会) (VP (VV 危及) (NP (DNP (NP (NN 公司)) (DEC 的)) (NP (VV 颠覆) (SFN 性) (NN 革命)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP25800': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['微软', '研究', 'nmod']
+['ADJ', 'NOUN', 'amod']	['首席', '研究', 'amod']
+['NOUN', 'VERB', 'nsubj']	['研究', '表示', 'nsubj']
+['CCONJ', 'PART', 'cc']	['和', '官', 'cc']
+['NOUN', 'PART', 'compound']	['战略', '官', 'compound']
+['PART', 'NOUN', 'conj']	['官', '研究', 'conj']
+['X', 'NOUN', 'appos']	['Craig', '研究', 'appos']
+['X', 'X', 'flat:foreign']	['Mundie', 'Craig', 'flat:foreign']
+['VERB', 'ROOT', 'root']	['表示', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '为', 'punct']
+['PROPN', 'VERB', 'nsubj']	['微软', '为', 'nsubj']
+['VERB', 'VERB', 'ccomp']	['为', '表示', 'ccomp']
+['VERB', 'PART', 'compound']	['计算', '机', 'compound']
+['PART', 'NOUN', 'nmod']	['机', '发展', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['发展', '而非', 'nsubj']
+['AUX', 'NOUN', 'cop']	['是', '演变', 'cop']
+['NUM', 'NOUN', 'nummod']	['一', '种', 'nummod']
+['NOUN', 'NOUN', 'clf']	['种', '演变', 'clf']
+['NOUN', 'VERB', 'advcl']	['演变', '而非', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['，', '演变', 'punct']
+['VERB', 'VERB', 'ccomp']	['而非', '为', 'ccomp']
+['AUX', 'VERB', 'aux']	['会', '危及', 'aux']
+['VERB', 'VERB', 'xcomp']	['危及', '而非', 'xcomp']
+['NOUN', 'NOUN', 'nmod']	['公司', '革命', 'nmod']
+['PART', 'NOUN', 'case']	['的', '公司', 'case']
+['VERB', 'PART', 'compound']	['颠覆', '性', 'compound']
+['PART', 'NOUN', 'nmod']	['性', '革命', 'nmod']
+['NOUN', 'VERB', 'obj']	['革命', '危及', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '表示', 'punct']
+----------------------------------------------------------------------
+蒙迪先生表示，微软正在为云计算和“客户机”（不仅仅是个人电脑，还包括手机、汽车、游戏机和运行微软软件的电视机）这个日益扩大的世界做准备。
+
+(ROOT (IP (NP (NNP 蒙迪) (NN 先生)) (VP (VV 表示) (, ，) (IP (NP (PFA 微) (NN 软)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (PP (IN 为) (NP (NP (NN 云) (NN 计算) (CC 和) (NP (`` “) (NN 客户) (SFN 机) ('' ”)) (PRN (-LRB- （) (IP (VP (VP (ADVP (RB 不)) (ADVP (RB 仅仅)) (VP (VC 是) (NP (JJ 个人) (NN 电脑)))) (, ，) (VP (ADVP (RB 还)) (VP (VV 包括) (NP (NP (NN 手机)) (EC 、) (NP (NN 汽车)) (EC 、) (NP (NN 游戏) (SFN 机)) (CC 和) (NP (CP (CP (IP (VP (VV 运行) (NP (NP (NNP 微软)) (NP (NN 软件))))) (DEC 的))) (NP (NN 电视) (SFN 机)))))))) (-RRB- ）))) (DP (DT 这) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 日益)) (VP (VV 扩大)))) (DEC 的))) (NP (NN 世界)))) (VP (VV 做) (NP (NN 准备)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+['PROPN', 'NOUN', 'nmod']	['蒙迪', '先生', 'nmod']
+['NOUN', 'VERB', 'nsubj']	['先生', '表示', 'nsubj']
+['VERB', 'ROOT', 'root']	['表示', 'NONE', 'root']
+['PUNCT', 'VERB', 'punct']	['，', '包括', 'punct']
+['PART', 'NOUN', 'case']	['微', '软', 'case']
+['NOUN', 'VERB', 'nsubj']	['软', '包括', 'nsubj']
+['ADV', 'VERB', 'advmod']	['正', '包括', 'advmod']
+['ADV', 'ADV', 'advmod']	['在', '正', 'advmod']
+['ADP', 'NOUN', 'case']	['为', '计算', 'case']
+['NOUN', 'NOUN', 'nmod']	['云', '计算', 'nmod']
+['NOUN', 'VERB', 'obl']	['计算', '包括', 'obl']
+['CCONJ', 'PART', 'cc']	['和', '机', 'cc']
+['PUNCT', 'PART', 'punct']	['“', '机', 'punct']
+['NOUN', 'PART', 'compound']	['客户', '机', 'compound']
+['PART', 'NOUN', 'conj']	['机', '计算', 'conj']
+['PUNCT', 'PART', 'punct']	['”', '机', 'punct']
+['PUNCT', 'NOUN', 'punct']	['（', '计算', 'punct']
+['ADV', 'NOUN', 'advmod']	['不', '电脑', 'advmod']
+['ADV', 'NOUN', 'advmod']	['仅仅', '电脑', 'advmod']
+['AUX', 'NOUN', 'cop']	['是', '电脑', 'cop']
+['ADJ', 'NOUN', 'amod']	['个人', '电脑', 'amod']
+['NOUN', 'VERB', 'advcl']	['电脑', '包括', 'advcl']
+['PUNCT', 'NOUN', 'punct']	['，', '电脑', 'punct']
+['ADV', 'VERB', 'mark']	['还', '包括', 'mark']
+['VERB', 'VERB', 'ccomp']	['包括', '表示', 'ccomp']
+['NOUN', 'VERB', 'obj']	['手机', '包括', 'obj']
+['PUNCT', 'NOUN', 'punct']	['、', '汽车', 'punct']
+['NOUN', 'NOUN', 'conj']	['汽车', '手机', 'conj']
+['PUNCT', 'PART', 'punct']	['、', '机', 'punct']
+['NOUN', 'PART', 'compound']	['游戏', '机', 'compound']
+['PART', 'NOUN', 'conj']	['机', '手机', 'conj']
+['CCONJ', 'PART', 'cc']	['和', '机', 'cc']
+['VERB', 'PART', 'acl:relcl']	['运行', '机', 'acl:relcl']
+['PROPN', 'NOUN', 'nmod']	['微软', '软件', 'nmod']
+['NOUN', 'VERB', 'obj']	['软件', '运行', 'obj']
+['PART', 'VERB', 'mark:rel']	['的', '运行', 'mark:rel']
+['NOUN', 'PART', 'compound']	['电视', '机', 'compound']
+['PART', 'NOUN', 'conj']	['机', '手机', 'conj']
+['PUNCT', 'PART', 'punct']	['）', '机', 'punct']
+['DET', 'NOUN', 'det']	['这', '个', 'det']
+['NOUN', 'NOUN', 'clf']	['个', '世界', 'clf']
+['ADV', 'VERB', 'advmod']	['日益', '扩大', 'advmod']
+['VERB', 'NOUN', 'acl:relcl']	['扩大', '世界', 'acl:relcl']
+['PART', 'VERB', 'mark:rel']	['的', '扩大', 'mark:rel']
+['NOUN', 'VERB', 'obl']	['世界', '做', 'obl']
+['VERB', 'VERB', 'conj']	['做', '包括', 'conj']
+['NOUN', 'VERB', 'obj']	['准备', '做', 'obj']
+['PUNCT', 'VERB', 'punct']	['。', '表示', 'punct']
+----------------------------------------------------------------------
+“下一个大平台是将客户和云联合起来，”他说道。
+
+(ROOT (IP (IP (`` “) (NP (DP (DT 下) (QP (CD 一) (CLP (NNB 个)))) (ADJP (PFA 大)) (NP (NN 平台))) (VP (VC 是) (VP (BB 将) (IP (NP (NN 客户) (CC 和) (NNP 云)) (VP (VRD (VV 联合) (VV 起来))))))) (, ，) ('' ”) (NP (PRP 他)) (VP (VV 说道)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+['PUNCT', 'VERB', 'punct']	['“', '是', 'punct']
+['DET', 'NOUN', 'det']	['下', '个', 'det']
+['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
+['NOUN', 'NOUN', 'nmod']	['个', '平台', 'nmod']
+['PART', 'NOUN', 'case']	['大', '平台', 'case']
+['NOUN', 'VERB', 'nsubj']	['平台', '是', 'nsubj']
+['VERB', 'ROOT', 'root']	['是', 'NONE', 'root']
+['ADP', 'NOUN', 'case']	['将', '客户', 'case']
+['NOUN', 'VERB', 'obl:patient']	['客户', '联合', 'obl:patient']
+['CCONJ', 'PROPN', 'cc']	['和', '云', 'cc']
+['PROPN', 'NOUN', 'conj']	['云', '客户', 'conj']
+['VERB', 'VERB', 'xcomp']	['联合', '是', 'xcomp']
+['VERB', 'VERB', 'mark']	['起来', '联合', 'mark']
+['PUNCT', 'VERB', 'punct']	['，', '说道', 'punct']
+['PUNCT', 'VERB', 'punct']	['”', '说道', 'punct']
+['PRON', 'VERB', 'nsubj']	['他', '说道', 'nsubj']
+['VERB', 'VERB', 'parataxis']	['说道', '是', 'parataxis']
+['PUNCT', 'VERB', 'punct']	['。', '是', 'punct']
+----------------------------------------------------------------------

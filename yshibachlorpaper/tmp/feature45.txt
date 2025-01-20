@@ -1,0 +1,836 @@
+自美国海军救出一名被劫持的货轮船长以来，索马里海岸遭遇第五次袭击，海盗向一艘载有人道主义援助的美国船只发射火箭榴弹和自动武器。
+
+(ROOT (IP (IP (PP (IN 自) (LCP (IP (NP (NP (NNP 美国)) (NP (NN 海军))) (VP (VV 救出) (NP (QP (CD 一) (CLP (NNB 名))) (CP (CP (IP (VP (BB 被) (VP (VV 劫持)))) (DEC 的))) (NP (NN 货轮) (NN 船长))))) (IN 以来))) (, ，) (NP (NP (NNP 索马里)) (NP (NN 海岸))) (VP (VV 遭遇) (NP (QP (CD 第五) (CLP (NNB 次))) (NP (NN 袭击))))) (, ，) (IP (NP (NN 海盗)) (VP (PP (IN 向) (NP (QP (CD 一) (CLP (NNB 艘))) (CP (CP (IP (VP (VV 载) (VP (VV 有) (NP (NN 人道) (NN 主义) (NN 援助))))) (DEC 的))) (NP (NNP 美国)) (NP (NN 船只)))) (VP (VV 发射) (NP (NP (NN 火箭) (NN 榴弹)) (CC 和) (NP (ADJP (JJ 自动)) (NP (NN 武器))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP53154': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP4711': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+自	救出	case
+美国	海军	nmod
+海军	救出	nsubj
+救出	遭遇	ccomp
+一	名	nummod
+名	船长	clf
+被	劫持	nsubj
+劫持	船长	acl:relcl
+的	劫持	mark:rel
+货轮	船长	nmod
+船长	救出	obj
+以来	救出	mark
+，	救出	punct
+索马里	海岸	nmod
+海岸	遭遇	nsubj
+遭遇	ROOT	root
+第五	次	nummod
+次	袭击	clf
+袭击	遭遇	obj
+，	发射	punct
+海盗	发射	nsubj
+向	船只	case
+一	艘	nummod
+艘	船只	clf
+载	船只	acl:relcl
+有	载	xcomp
+人道	援助	nmod
+主义	援助	nmod
+援助	有	obj
+的	载	mark:rel
+美国	船只	nmod
+船只	发射	obl
+发射	遭遇	parataxis
+火箭	榴弹	nmod
+榴弹	发射	obj
+和	武器	cc
+自动	武器	amod
+武器	榴弹	conj
+。	遭遇	punct
+----------------------------------------------------------------------
+今天，MV Liberty Sun 在美国海军护航下，前往肯尼亚，虽然海盗未能成功劫持该货船及其 20 名美国船员，但没有人受伤。
+
+(ROOT (IP (IP (NP (NN 今天)) (, ，) (NP (FW MV) (FW Liberty) (FW Sun)) (VP (PP (VV 在) (LCP (IP (NP (NP (NNP 美国)) (NP (NN 海军))) (VP (VV 护航))) (IN 下))) (, ，) (VP (VV 前往) (NP (NNP 肯尼亚))))) (, ，) (IP (CP (ADVP (IN 虽然)) (IP (NP (NN 海盗)) (VP (MD 未能) (VP (ADVP (RB 成功)) (VP (VV 劫持) (NP (NP (DP (DT 该)) (NP (NN 货船))) (CC 及) (NP (NP (PRP 其)) (QP (CD 20) (CLP (NNB 名))) (NP (NNP 美国)) (NP (NN 船员))))))))) (, ，) (ADVP (RB 但)) (VP (VV 没有) (CP (IP (NP (NN 人)) (VP (VV 受伤)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP2429': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP39886': {}, 'VP': {}}, ',': {}, 'IP50781': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+今天	前往	nmod:tmod
+，	今天	punct
+MV	前往	nsubj
+Liberty	MV	flat:foreign
+Sun	MV	flat:foreign
+在	护航	advcl
+美国	海军	nmod
+海军	在	obj
+护航	前往	advcl
+下	护航	mark
+，	护航	punct
+前往	ROOT	root
+肯尼亚	前往	obj
+，	有	punct
+虽然	劫持	case
+海盗	劫持	nsubj
+能	劫持	aux
+成功	劫持	advmod
+劫持	有	ccomp
+该	货船	det
+货船	劫持	obj
+及	船员	cc
+其	船员	nmod
+20	名	nummod
+名	船员	clf
+美国	船员	nmod
+船员	货船	conj
+，	劫持	punct
+但	有	mark
+有	前往	parataxis
+人	受伤	nsubj
+受伤	有	ccomp
+。	前往	punct
+----------------------------------------------------------------------
+“我们正在遭到海盗袭击，我们正在遭到火箭弹和子弹的袭击，”26 岁的船员托马斯·乌尔比克在一封电子邮件中写道，“我们被困在发动机室，到目前为止没有人受伤。
+
+(ROOT (IP (`` “) (NP (PRP 我们)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 遭到) (NP (NN 海盗) (NN 袭击)))) (, ，) (IP (NP (PRP 我们)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 遭到) (NP (DNP (NP (NN 火箭) (SFN 弹) (CC 和) (NN 子弹)) (DEC 的)) (NP (NN 袭击)))))) (, ，) ('' ”) (IP (NP (NP (DNP (QP (CD 26) (CLP (NNB 岁))) (DEC 的)) (NP (NN 船员))) (NP (NNP 托马斯) (/ ·) (NNP 乌尔比克))) (VP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 封))) (NP (NN 电子) (NN 邮件))) (IN 中))) (VP (VV 写道) (, ，) (IP (`` “) (NP (PRP 我们)) (VP (BB 被) (VP (VV 困) (PP (VV 在) (NP (VV 发动) (SFN 机) (SFN 室))))) (, ，) (IP (VP (PP (IN 到) (NP (NN 目前))) (VP (VC 为) (ADVP (NN 止))) (VP (VV 没有) (IP (NP (NN 人)) (VP (VV 受伤)))))))))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}, ',65995': {}, "''": {}, 'IP87086': {}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}, ',': {}, "''": {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'ADVP13512': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',96227': {}, "''": {}, 'IP20779': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+“	遭到	punct
+我	遭到	nsubj
+正	遭到	advmod
+在	遭到	advmod
+遭到	ROOT	root
+海盗	袭击	nmod
+袭击	遭到	obj
+，	写道	punct
+我	遭到	nsubj
+正	遭到	advmod
+在	遭到	advmod
+遭到	船员	acl:relcl
+火箭	弹	compound
+弹	袭击	nmod
+和	子弹	cc
+子弹	弹	conj
+的	遭到	mark:rel
+袭击	遭到	obj
+，	写道	punct
+”	船员	punct
+26	岁	nummod
+岁	船员	acl:relcl
+的	岁	mark:rel
+船员	写道	nsubj
+托马斯	船员	appos
+·	乌尔比克	punct
+乌尔比克	托马斯	flat:name
+在	邮件	case
+一	封	nummod
+封	邮件	clf
+电子	邮件	nmod
+邮件	写道	obl
+中	邮件	case
+写道	遭到	parataxis
+，	有	punct
+“	有	punct
+我	困	nsubj:pass
+被	困	aux:pass
+困	有	advcl
+在	困	mark
+发动	机	compound
+机	室	compound
+室	困	obj
+，	困	punct
+到	目前	case
+目前	止	nmod
+为	止	cop
+止	有	advcl
+有	写道	ccomp
+人	受伤	nsubj
+受伤	有	ccomp
+。	遭到	punct
+----------------------------------------------------------------------
+一枚火箭穿过隔板，但孔径很小。
+
+(ROOT (IP (IP (NP (QP (CD 一) (CLP (NNB 枚))) (NP (NN 火箭))) (VP (VV 穿过) (NP (NN 隔板)))) (, ，) (IP (ADVP (RB 但)) (NP (NN 孔径)) (VP (JJ 很小))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP49572': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP33343': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+一	枚	nummod
+枚	火箭	clf
+火箭	穿过	nsubj
+穿过	ROOT	root
+隔板	穿过	obj
+，	很小	punct
+但	很小	mark
+孔径	很小	nsubj
+很小	穿过	parataxis
+。	穿过	punct
+----------------------------------------------------------------------
+小火也熄灭了。”
+
+(ROOT (IP (NP (NN 小火)) (VP (ADVP (RB 也)) (VP (VV 熄灭) (UH 了))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+小火	熄灭	nsubj
+也	熄灭	mark
+熄灭	ROOT	root
+了	熄灭	discourse
+。	熄灭	punct
+”	熄灭	punct
+----------------------------------------------------------------------
+美国海军发言人称，昨天事件中船只遭到了一些损坏，“进行了躲避动作”，以避开海盗，直至抵达应急呼叫的驱逐舰 USS Bainbridge 。
+
+(ROOT (IP (NP (NP (NNP 美国)) (NP (NN 海军) (VV 发言) (SFN 人))) (VP (VV 称) (, ，) (IP (IP (LCP (NP (NP (NN 昨天)) (NP (NN 事件))) (IN 中)) (NP (NN 船只)) (VP (VP (VV 遭到) (AS 了) (NP (QP (JJ 一些)) (NP (NN 损坏)))) (, ，) (VP (`` “) (VV 进行) (AS 了) (NP (VV 躲避) (NN 动作)) ('' ”)) (, ，) (VP (RB 以) (VP (VV 避开) (NP (NN 海盗)))))) (, ，) (PP (IN 直至) (NP (NP (CP (CP (IP (VP (VV 抵达) (NP (NN 应急) (VV 呼叫)))) (DEC 的))) (NP (VV 驱逐) (SFN 舰))) (NP (FW USS) (FW Bainbridge)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP37693': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+美国	人	nmod
+海军	人	nmod
+发言	人	compound
+人	称	nsubj
+称	ROOT	root
+，	避开	punct
+昨天	事件	nmod
+事件	遭到	obl
+中	事件	case
+船只	避开	nsubj
+遭到	避开	advcl
+了	遭到	aux
+一些	损坏	amod
+损坏	遭到	obj
+，	遭到	punct
+“	进行	punct
+进行	避开	advcl
+了	进行	aux
+躲避	动作	amod
+动作	进行	obj
+”	进行	punct
+，	进行	punct
+以	避开	mark
+避开	称	ccomp
+海盗	避开	obj
+，	避开	punct
+直至	抵达	case
+抵达	呼叫	xcomp
+应急	呼叫	obl
+呼叫	舰	acl:relcl
+的	呼叫	mark:rel
+驱逐	舰	compound
+舰	避开	obj
+USS	舰	appos
+Bainbridge	USS	flat:foreign
+。	称	punct
+----------------------------------------------------------------------
+海盗船在海军船只到达之前就逃跑了。
+
+(ROOT (IP (NP (NN 海盗) (SFN 船)) (VP (PP (IN 在) (LCP (IP (NP (NN 海军) (NN 船只)) (VP (VV 到达))) (IN 之前))) (ADVP (RB 就)) (VP (VV 逃跑) (UH 了))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'SFN': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'SFN': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'SFN': {}}}
+{'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+海盗	船	compound
+船	逃跑	nsubj
+在	到达	case
+海军	船只	nmod
+船只	到达	nsubj
+到达	逃跑	ccomp
+之前	到达	mark
+就	逃跑	mark
+逃跑	ROOT	root
+了	逃跑	discourse
+。	逃跑	punct
+----------------------------------------------------------------------
+美国海军狙击手从“ 假日号 ”邮轮上的船长理察·菲利普斯 (Richard Phillips) 手中劫持的救生艇上枪杀了三名海盗。
+
+(ROOT (IP (LCP (NP (CP (CP (IP (NP (NP (NNP 美国)) (NP (NN 海军) (VV 狙击) (SFN 手))) (VP (PP (IN 从) (LCP (NP (NP (DNP (LCP (NP (NP (`` “) (NP (ADJP (NNP 假)) (NP (SFN 日))) (NP (SFN 号)) ('' ”)) (NP (NN 邮轮))) (NN 上)) (DEC 的)) (NP (NN 船长))) (NP (NNP 理察) (/ ·) (NNP 菲利普斯) (FW -LRB-Richard) (FW Phillips-RRB-))) (NN 手中))) (VP (VV 劫持)))) (DEC 的))) (NP (VV 救生) (SFN 艇))) (NN 上)) (VP (VV 枪杀) (AS 了) (NP (QP (CD 三) (CLP (NNB 名))) (NP (NN 海盗)))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'NN': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'NN': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'NN': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+美国	手	nmod
+海军	手	nmod
+狙击	手	compound
+手	枪杀	nsubj
+从	船长	case
+“	号	punct
+假	日	compound
+日	号	compound
+号	邮轮	nmod
+”	号	punct
+邮轮	船长	nmod
+上	邮轮	acl
+的	邮轮	case
+船长	劫持	obl
+理察	(Richard	nmod
+·	菲利普斯	punct
+菲利普斯	理察	flat:name
+(Richard	船长	appos
+Phillips)	(Richard	flat:foreign
+手中	劫持	obl
+劫持	艇	acl:relcl
+的	劫持	mark:rel
+救生	艇	compound
+艇	枪杀	obl
+上	艇	acl
+枪杀	ROOT	root
+了	枪杀	aux
+三	名	nummod
+名	海盗	clf
+海盗	枪杀	obj
+。	枪杀	punct
+----------------------------------------------------------------------
+周日的行动中，第四名海盗被抓获。
+
+(ROOT (IP (LCP (NP (DNP (NP (NN 周日)) (DEC 的)) (NP (NN 行动))) (IN 中)) (, ，) (NP (QP (CD 第四) (CLP (NNB 名))) (NP (NN 海盗))) (VP (BB 被) (VP (VV 抓获))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'BB': {}, 'VP': {}}}
+Dependency Features:
+周日	行动	nmod
+的	周日	case
+行动	抓获	nmod:tmod
+中	行动	case
+，	行动	punct
+第四	名	nummod
+名	海盗	clf
+海盗	抓获	nsubj:pass
+被	抓获	aux:pass
+抓获	ROOT	root
+。	抓获	punct
+----------------------------------------------------------------------
+菲利普斯在换下自己以保护船员后被扣了 5 天。
+
+(ROOT (IP (NP (NNP 菲利普斯)) (VP (PP (IN 在) (LCP (IP (VP (VP (VV 换下) (NP (PRD 自己))) (VP (RB 以) (VP (VV 保护) (NP (NN 船员)))))) (IN 后))) (VP (BB 被) (VP (VV 扣) (AS 了) (QP (CD 5) (CLP (NNB 天)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+菲利普斯	扣	nsubj:pass
+在	换下	case
+换下	保护	advcl
+自己	换下	obj
+以	保护	mark
+保护	扣	xcomp
+船员	保护	obj
+后	保护	mark
+被	扣	aux:pass
+扣	ROOT	root
+了	扣	aux
+5	天	nummod
+天	扣	obl
+。	扣	punct
+----------------------------------------------------------------------
+现在应该要回美国的 Phillips 当时在 Bainbridge 号上，当时 Bainbridge 号抵达协助 Liberty Sun 号。
+
+(ROOT (IP (IP (NP (CP (CP (IP (VP (NP (NN 现在)) (VP (MD 应该) (VP (VV 要回) (NP (NNP 美国)))))) (DEC 的))) (NP (FW Phillips))) (VP (NP (NN 当时)) (VP (PP (VV 在) (LCP (NP (FW Bainbridge)) (NN 号上)))))) (, ，) (IP (NP (NN 当时)) (NP (FW Bainbridge) (SFN 号)) (VP (VP (VV 抵达)) (VP (VV 协助) (NP (FW Liberty) (FW Sun) (SFN 号))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP50294': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP23601': {'NP': {}, 'NP5360': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+现在	在	nmod:tmod
+应该	要回	aux
+要回	Phillips	acl:relcl
+美国	要回	obj
+的	要回	mark:rel
+Phillips	在	nsubj
+当时	在	nmod:tmod
+在	ROOT	root
+Bainbridge	号上	nmod
+号上	在	obj
+，	在	punct
+当时	抵达	nmod:tmod
+Bainbridge	号	compound
+号	抵达	nsubj
+抵达	在	parataxis
+协助	抵达	xcomp
+Liberty	号	nmod
+Sun	Liberty	conj
+号	协助	obj
+。	抵达	punct
+----------------------------------------------------------------------
+虽然巴拉克·奥巴马总统承诺要结束海盗在亚丁湾繁忙水域随意扣押船只的几乎无敌的能力，但自菲利普斯获救以来，他们的船只在该地区扣押了四艘船只和约60名人质。
+
+(ROOT (IP (CP (ADVP (IN 虽然)) (IP (NP (NNP 巴拉克) (/ ·) (NNP 奥巴马) (NN 总统)) (VP (VV 承诺) (IP (VP (MD 要) (VP (VV 结束) (NP (CP (CP (NP (NP (NN 海盗)) (VP (PP (VV 在) (NP (NP (NNP 亚丁) (SFN 湾)) (ADJP (JJ 繁忙)) (NP (NN 水域)))) (ADVP (RB 随意)) (VP (VV 扣押) (NP (NN 船只))))) (DEC 的))) (CP (IP (VP (ADVP (RB 几乎)) (VP (JJ 无敌)))) (DEC 的)) (NP (NN 能力))))))))) (, ，) (ADVP (RB 但)) (PP (IN 自) (LCP (IP (NP (NNP 菲利普斯)) (VP (VV 获救))) (IN 以来))) (, ，) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 船只))) (VP (PP (VV 在) (NP (DP (DT 该)) (NP (NN 地区)))) (VP (VV 扣押) (AS 了) (NP (NP (QP (CD 四) (CLP (NNB 艘))) (NP (NN 船只))) (QP (ADVP (RB 和约)) (QP (CD 60))) (NP (NN 名人质))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'PP': {}, ',95829': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'PP': {'IN': {}, 'LCP': {}}, ',30651': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+虽然	承诺	case
+巴拉克	总统	nmod
+·	奥巴马	punct
+奥巴马	巴拉克	flat:name
+总统	承诺	nsubj
+承诺	扣押	ccomp
+要	结束	aux
+结束	承诺	xcomp
+海盗	在	nsubj
+在	扣押	advcl
+亚丁	湾	compound
+湾	水域	nmod
+繁忙	水域	amod
+水域	在	obj
+随意	扣押	advmod
+扣押	能力	acl:relcl
+船只	扣押	obj
+的	扣押	mark:rel
+几乎	无敌	advmod
+无敌	能力	acl:relcl
+的	无敌	mark:rel
+能力	承诺	obj
+，	承诺	punct
+但	扣押	mark
+自	获救	case
+菲利普斯	获救	nsubj
+获救	扣押	ccomp
+以来	获救	mark
+，	获救	punct
+他	船只	det
+的	他	case
+船只	扣押	nsubj
+在	扣押	advcl
+该	地区	det
+地区	在	obj
+扣押	ROOT	root
+了	扣押	aux
+四	艘	nummod
+艘	船只	clf
+船只	扣押	obj
+和约	扣押	mark
+60	名人质	nummod
+名人质	和约	obj
+。	扣押	punct
+----------------------------------------------------------------------
+在一次罕见的夜间袭击中，海盗在昨天黎明前夕劫持了一艘由希腊管理的货船 MV Irene EM。
+
+(ROOT (IP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 次))) (CP (CP (IP (VP (JJ 罕见))) (DEC 的))) (NP (NN 夜间) (NN 袭击))) (IN 中))) (, ，) (NP (NN 海盗)) (VP (PP (IN 在) (NP (NP (NN 昨天)) (NP (NNP 黎明)) (NP (NN 前夕)))) (VP (VV 劫持) (AS 了) (NP (NP (NP (QP (CD 一) (CLP (NNB 艘))) (CP (CP (IP (VP (PP (VV 由) (NP (NNP 希腊))) (VP (VV 管理)))) (DEC 的))) (NP (NN 货船))) (NP (FW MV))) (NP (FW Irene) (FW EM))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+在	袭击	case
+一	次	nummod
+次	袭击	clf
+罕见	袭击	amod
+的	罕见	mark:rel
+夜间	袭击	nmod
+袭击	劫持	obl
+中	袭击	case
+，	袭击	punct
+海盗	劫持	nsubj
+在	前夕	case
+昨天	前夕	nmod
+黎明	前夕	nmod
+前夕	劫持	obl
+劫持	ROOT	root
+了	劫持	aux
+一	艘	nummod
+艘	货船	clf
+由	货船	acl:relcl
+希腊	管理	nsubj
+管理	由	ccomp
+的	由	mark:rel
+货船	劫持	obj
+MV	货船	appos
+Irene	MV	flat:foreign
+EM	MV	flat:foreign
+。	劫持	punct
+----------------------------------------------------------------------
+随后，他们登上一艘黎巴嫩拥有的货船 MV Sea Horse。
+
+(ROOT (IP (ADVP (RB 随后)) (, ，) (NP (PRP 他们)) (VP (VV 登上) (NP (NP (NP (QP (CD 一) (CLP (NNB 艘))) (CP (CP (IP (NP (NNP 黎巴嫩)) (VP (VV 拥有))) (DEC 的))) (NP (NN 货船))) (NP (FW MV))) (NP (FW Sea) (FW Horse)))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+随后	登上	advmod
+，	随后	punct
+他	登上	nsubj
+登上	ROOT	root
+一	艘	nummod
+艘	货船	clf
+黎巴嫩	拥有	nsubj
+拥有	货船	acl:relcl
+的	拥有	mark:rel
+货船	登上	obj
+MV	货船	appos
+Sea	货船	appos
+Horse	Sea	flat:foreign
+。	登上	punct
+----------------------------------------------------------------------
+在前两天，海盗已经劫持了两艘埃及渔船。
+
+(ROOT (IP (PP (IN 在) (DP (DT 前) (QP (CD 两) (CLP (NNB 天))))) (, ，) (NP (NN 海盗)) (VP (ADVP (RB 已经)) (VP (VV 劫持) (AS 了) (NP (QP (CD 两) (CLP (NNB 艘))) (NP (NNP 埃及)) (NP (NN 渔船))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'DP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'DP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'DP': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+在	天	case
+前	天	det
+两	天	nummod
+天	劫持	obl
+，	天	punct
+海盗	劫持	nsubj
+已经	劫持	advmod
+劫持	ROOT	root
+了	劫持	aux
+两	艘	nummod
+艘	渔船	clf
+埃及	渔船	nmod
+渔船	劫持	obj
+。	劫持	punct
+----------------------------------------------------------------------
+“我们最新的劫持事件旨在表明，我们从来不会被任何人阻止，因为我们相信为了我们的土地，我们愿意死去。”一名海盗奥马尔·达赫里尔告诉美联社，他所在的索马里沿海城镇哈拉代赫。
+
+(ROOT (IP (`` “) (NP (NP (PRP 我们)) (CP (CP (IP (VP (JJ 最新))) (DEC 的))) (NP (NN 劫持) (NN 事件))) (NP (VV 旨)) (VP (RB 在) (IP (VP (VV 表明) (, ，) (IP (IP (NP (PRP 我们)) (VP (ADVP (RB 从来)) (VP (MD 不会) (VP (BB 被) (CP (IP (NP (DP (DT 任何)) (NP (NN 人))) (VP (VV 阻止)))))))) (, ，) (PP (IN 因为) (IP (NP (PRP 我们)) (VP (VV 相信) (IP (PP (IN 为了) (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NN 土地)))) (, ，) (NP (PRP 我们)) (VP (MD 愿意) (IP (VP (VV 死去)))))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'NP34980': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'NP': {}, 'CP': {}, 'NP25948': {}}, 'NP91370': {'VV': {}}, 'VP': {'RB': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {'NP': {}, 'CP': {}, 'NP': {}}, 'NP': {'VV': {}}, 'VP': {'RB': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'NP': {}, 'CP': {}, 'NP': {}}}
+{'NP': {'VV': {}}}
+{'VP': {'RB': {}, 'IP': {}}}
+Dependency Features:
+“	表明	punct
+我	事件	nmod
+最新	事件	amod
+的	最新	mark:rel
+劫持	事件	nmod
+事件	表明	nsubj
+旨	表明	advcl
+在	表明	advmod
+表明	ROOT	root
+，	阻止	punct
+我	阻止	nsubj:pass
+从来	阻止	advmod
+会	阻止	aux
+被	阻止	aux:pass
+任何	人	det
+人	阻止	nsubj
+阻止	表明	ccomp
+，	相信	punct
+因为	相信	case
+我	相信	nsubj
+相信	死去	ccomp
+为了	相信	xcomp
+我	土地	det
+的	我	mark:rel
+土地	为了	nmod
+，	相信	punct
+我	死去	nsubj
+愿意	死去	aux
+死去	表明	ccomp
+。	死去	punct
+”	死去	punct
+----------------------------------------------------------------------
+来自休斯敦的 Liberty Sun 已经向苏丹的一个港口运送了数千吨粮食援助，并正在运送更多援助物资前往蒙巴萨。
+
+(ROOT (IP (NP (CP (CP (IP (VP (VV 来) (VP (VV 自) (NP (NNP 休斯) (SFN 敦))))) (DEC 的))) (NP (FW Liberty) (FW Sun))) (VP (VP (ADVP (RB 已经)) (PP (IN 向) (NP (DNP (NP (NNP 苏丹)) (DEC 的)) (QP (CD 一) (CLP (NNB 个))) (NP (NN 港口)))) (VP (VV 运送) (AS 了) (NP (QP (CD 数千) (CLP (NNB 吨))) (NP (NN 粮食) (NN 援助))))) (, ，) (RB 并) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VP (VV 运送) (NP (ADJP (JJ 更多)) (NP (NN 援助) (NN 物资)))) (VP (VV 前往) (NP (NNP 蒙巴萨)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP26727': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+来	Liberty	acl:relcl
+自	来	mark
+休斯	敦	compound
+敦	来	obj
+的	来	mark:rel
+Liberty	前往	nsubj
+Sun	Liberty	flat:foreign
+已经	运送	advmod
+向	港口	case
+苏丹	港口	nmod
+的	苏丹	case
+一	个	nummod
+个	港口	clf
+港口	运送	obl
+运送	前往	advcl
+了	运送	aux
+数千	吨	nummod
+吨	援助	clf
+粮食	援助	nmod
+援助	运送	obj
+，	运送	punct
+并	前往	mark
+正	前往	advmod
+在	前往	advmod
+运送	前往	advcl
+更多	物资	amod
+援助	物资	nmod
+物资	运送	obj
+前往	ROOT	root
+蒙巴萨	前往	obj
+。	前往	punct
+----------------------------------------------------------------------
+在年初海上风浪较大时，海盗对索马里海域的袭击相对停滞，但从二月底开始，海盗就对至少 78 艘船只进行了袭击，目前扣押了 16 艘船只，且扣押了 300 多名人质。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (IP (NP (NN 年初)) (NP (NN 海上) (NN 风浪)) (VP (JJ 较大))) (IN 时))) (, ，) (NP (NP (NN 海盗)) (DNP (PP (IN 对) (NP (NP (NNP 索马里)) (NP (NN 海域)))) (DEC 的)) (NP (NN 袭击))) (VP (ADVP (RB 相对)) (VP (VV 停滞)))) (, ，) (IP (ADVP (RB 但)) (IP (VP (PP (IN 从) (LCP (NP (CD 二) (NNB 月)) (IN 底))) (VP (VV 开始)))) (, ，) (NP (NN 海盗)) (VP (VP (ADVP (RB 就)) (PP (IN 对) (NP (QP (ADVP (RB 至少)) (QP (CD 78) (CLP (NNB 艘)))) (NP (NN 船只)))) (VP (VV 进行) (AS 了) (NP (NN 袭击)))) (, ，) (VP (NP (NN 目前)) (VP (VV 扣押) (AS 了) (NP (QP (CD 16) (CLP (NNB 艘))) (NP (NN 船只))))) (, ，) (RB 且) (VP (VV 扣押) (AS 了) (NP (QP (CD 300) (QP (CD 多))) (NP (NN 名人) (SFN 质)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP27895': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP75193': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+在	较大	case
+年初	较大	nmod:tmod
+海上	风浪	nmod
+风浪	较大	nsubj
+较大	停滞	ccomp
+时	较大	mark
+，	较大	punct
+海盗	袭击	nmod
+对	袭击	case
+索马里	海域	nmod
+海域	袭击	nmod
+的	袭击	case
+袭击	停滞	nsubj
+相对	停滞	advmod
+停滞	ROOT	root
+，	扣押	punct
+但	扣押	mark
+从	月	case
+二	月	nummod
+月	开始	obl
+底	月	case
+开始	扣押	advcl
+，	开始	punct
+海盗	进行	nsubj
+就	进行	mark
+对	船只	case
+至少	艘	advmod
+78	艘	nummod
+艘	船只	nmod
+船只	进行	obl
+进行	扣押	advcl
+了	进行	aux
+袭击	进行	obj
+，	进行	punct
+目前	扣押	nmod:tmod
+扣押	扣押	advcl
+了	扣押	aux
+16	艘	nummod
+艘	船只	clf
+船只	扣押	obj
+，	扣押	punct
+且	扣押	mark
+扣押	停滞	parataxis
+了	扣押	aux
+300	多	nummod
+多	质	nummod
+名人	质	compound
+质	扣押	obj
+。	停滞	punct
+----------------------------------------------------------------------
+赎金支付后，船员通常会获释。
+
+(ROOT (IP (LCP (IP (NP (NN 赎金)) (VP (VV 支付))) (IN 后)) (, ，) (NP (NN 船员)) (VP (ADVP (RB 通常)) (VP (MD 会) (VP (VV 获释)))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'IP': {}, 'IN': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+赎金	支付	nsubj
+支付	ROOT	root
+后	支付	mark
+，	获释	punct
+船员	获释	nsubj
+通常	获释	advmod
+会	获释	aux
+获释	支付	parataxis
+。	支付	punct
+----------------------------------------------------------------------
+虽然来自多个国家的海军舰艇正在巡逻该地区，但在亚丁湾周围有太多的商船，这些船只不足以成为有效的威慑。
+
+(ROOT (IP (CP (ADVP (IN 虽然)) (IP (NP (CP (CP (IP (VP (VV 来) (PP (VV 自) (NP (QP (CD 多) (CLP (NNB 个))) (NP (NN 国家)))))) (DEC 的))) (NP (NN 海军) (NN 舰艇))) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 巡逻) (NP (DP (DT 该)) (NP (NN 地区))))))) (, ，) (ADVP (RB 但)) (IP (VP (PP (VV 在) (NP (NP (NNP 亚丁) (SFN 湾)) (NP (NN 周围)))) (VP (VV 有) (NP (CP (CP (IP (VP (JJ 太多))) (DEC 的))) (NP (NN 商船)))))) (, ，) (NP (DP (DT 这些)) (NP (NN 船只))) (VP (VP (JJ 不足)) (VP (RB 以) (VP (VV 成) (VP (VC 为) (NP (CP (CP (IP (VP (JJ 有效))) (DEC 的))) (NP (NN 威慑))))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'IP': {}, ',15440': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'IP': {'VP': {}}, ',65525': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP64672': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'IP': {'VP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+虽然	巡逻	case
+来	舰艇	acl:relcl
+自	来	mark
+多	个	nummod
+个	国家	clf
+国家	来	obj
+的	来	mark:rel
+海军	舰艇	nmod
+舰艇	巡逻	nsubj
+正	巡逻	advmod
+在	巡逻	advmod
+巡逻	有	ccomp
+该	地区	det
+地区	巡逻	obj
+，	巡逻	punct
+但	有	mark
+在	有	advcl
+亚丁	湾	compound
+湾	周围	nmod
+周围	在	obj
+有	ROOT	root
+太多	商船	amod
+的	太多	mark:rel
+商船	有	obj
+，	成	punct
+这些	船只	det
+船只	不足	nsubj
+不足	成	advcl
+以	成	mark
+成	有	parataxis
+为	成	mark
+有效	威慑	amod
+的	有效	mark:rel
+威慑	成	obj
+。	有	punct
+----------------------------------------------------------------------
+它将苏伊士运河和红海与印度洋连接起来，是亚洲与欧洲之间最短的航线，也是世界上最繁忙的航运航道之一。
+
+(ROOT (IP (NP (PRP 它)) (VP (VP (BB 将) (IP (NP (NNP 苏伊士) (NN 运河) (CC 和) (NNP 红海)) (VP (PP (CC 与) (NP (NNP 印度) (SFN 洋))) (VP (VRD (VV 连接) (VV 起来)))))) (, ，) (VP (VC 是) (NP (LCP (NP (NNP 亚洲) (CC 与) (NNP 欧洲)) (IN 之间)) (CP (CP (IP (VP (JJ 最短))) (DEC 的))) (NP (NN 航线)))) (, ，) (VP (VC 也是) (NP (DNP (NP (CP (CP (IP (VP (LCP (NP (NN 世界)) (IN 上)) (ADVP (RB 最)) (VP (JJ 繁忙)))) (DEC 的))) (NP (NN 航运) (NN 航道))) (DEC 之)) (NP (CD 一))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP20539': {}, ',39854': {}, 'VP2246': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+它	一	nsubj
+将	运河	case
+苏伊士	运河	nmod
+运河	连接	obl:patient
+和	红海	cc
+红海	运河	conj
+与	洋	cc
+印度	洋	compound
+洋	运河	conj
+连接	一	acl
+起来	连接	mark
+，	连接	punct
+是	航线	cop
+亚洲	航线	nmod
+与	欧洲	cc
+欧洲	亚洲	conj
+之间	亚洲	case
+最短	航线	amod
+的	最短	mark:rel
+航线	一	acl
+，	航线	punct
+是	一	cop
+世界	繁忙	obl
+上	世界	case
+最	繁忙	advmod
+繁忙	航道	acl:relcl
+的	繁忙	mark:rel
+航运	航道	nmod
+航道	一	nmod
+之	航道	case
+一	ROOT	root
+。	一	punct
+----------------------------------------------------------------------

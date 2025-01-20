@@ -1,0 +1,1113 @@
+美国政府周五同意向陷入困境的汽车制造商提供 134 亿美元紧急贷款，以避免该行业崩溃，这可能会对经济造成严重打击。
+
+(ROOT (IP (IP (NP (NP (NNP 美国)) (NP (NN 政府))) (VP (NP (NNP 周) (CD 五)) (VP (VV 同意) (IP (VP (VP (PP (IN 向) (NP (CP (CP (IP (VP (VV 陷入) (NP (NN 困境)))) (DEC 的))) (NP (NN 汽车) (VV 制造) (SFN 商)))) (VP (VV 提供) (NP (QP (CD 134) (QP (NNB 亿) (CLP (NNP 美) (CLP (NNB 元))))) (ADJP (JJ 紧急)) (NP (SFN 贷) (SFN 款))))) (, ，) (VP (RB 以) (VP (VV 避免) (IP (NP (DP (DT 该)) (NP (NN 行业))) (VP (VV 崩溃)))))))))) (, ，) (IP (NP (PRD 这)) (VP (MD 可能) (VP (MD 会) (VP (PP (IN 对) (NP (NN 经济))) (VP (VV 造成) (NP (ADJP (JJ 严重)) (NP (NN 打击)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP80327': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP75328': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+美国	周	nmod
+政府	周	nmod
+周	同意	nsubj
+五	周	acl
+同意	ROOT	root
+向	商	case
+陷入	商	acl:relcl
+困境	陷入	obj
+的	陷入	mark:rel
+汽车	商	nmod
+制造	商	compound
+商	提供	obl
+提供	避免	advcl
+134	亿	nummod
+亿	款	nmod
+美	元	nmod
+元	款	nmod
+紧急	贷	compound
+贷	款	compound
+款	提供	obj
+，	提供	punct
+以	避免	mark
+避免	同意	xcomp
+该	行业	det
+行业	崩溃	nsubj
+崩溃	避免	ccomp
+，	避免	punct
+这	造成	nsubj
+可能	造成	aux
+会	造成	aux
+对	经济	case
+经济	造成	obl
+造成	同意	parataxis
+严重	打击	amod
+打击	造成	obj
+。	同意	punct
+----------------------------------------------------------------------
+救助总额可能会增加 40 亿美元，但需要国会批准。
+
+(ROOT (IP (IP (NP (NN 救助) (NN 总额)) (VP (MD 可能) (VP (MD 会) (VP (VV 增加) (QP (QP (CD 40)) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元))))))))) (, ，) (IP (ADVP (RB 但)) (VP (VV 需要) (NP (NN 国会)) (IP (VP (VV 批准))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP45932': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP23637': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+救助	总额	nmod
+总额	需要	nsubj
+可能	增加	aux
+会	增加	aux
+增加	需要	advcl
+40	亿	nummod
+亿	元	nummod
+美	元	nmod
+元	增加	obj
+，	增加	punct
+但	需要	mark
+需要	ROOT	root
+国会	批准	nsubj
+批准	需要	ccomp
+。	需要	punct
+----------------------------------------------------------------------
+预计通用汽车和克莱斯勒将立即动用这笔资金来避免破产，并将被要求实施新的紧缩措施并展现其长期可行性。
+
+(ROOT (IP (VP (VV 预计) (IP (NP (NNP 通用) (NN 汽车) (CC 和) (NNP 克莱斯勒)) (VP (VP (ADVP (RB 将)) (ADVP (RB 立即)) (VP (VP (VV 动用) (NP (DP (DT 这) (CLP (NNB 笔))) (NP (NN 资金)))) (VP (RB 来) (VP (VV 避免) (NP (VV 破产)))))) (, ，) (RB 并) (VP (ADVP (RB 将)) (VP (BB 被) (VP (VV 要求) (IP (VP (VP (VV 实施) (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 紧缩) (NN 措施)))) (RB 并) (VP (VV 展现) (NP (NP (PRP 其)) (ADJP (NN 长期)) (NP (VV 可行) (SFN 性)))))))))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+预计	ROOT	root
+通用	汽车	nmod
+汽车	避免	nsubj
+和	克莱斯勒	cc
+克莱斯勒	汽车	conj
+将	避免	advmod
+立即	动用	advmod
+动用	避免	advcl
+这	笔	det
+笔	资金	clf
+资金	动用	obj
+来	避免	mark
+避免	展现	advcl
+破产	避免	xcomp
+，	避免	punct
+并	要求	mark
+将	要求	advmod
+被	要求	aux:pass
+要求	展现	advcl
+实施	要求	xcomp
+新	措施	amod
+的	新	mark:rel
+紧缩	措施	nmod
+措施	实施	obj
+并	展现	mark
+展现	预计	ccomp
+其	性	nmod
+长期	性	nmod
+可行	性	compound
+性	展现	obj
+。	展现	punct
+----------------------------------------------------------------------
+布什总统在宣布提供援助时说：“这不是普通的情况。”
+
+(ROOT (IP (NP (NNP 布什) (NN 总统)) (VP (PP (IN 在) (LCP (IP (VP (VV 宣布) (IP (VP (VV 提供) (NP (NN 援助)))))) (IN 时))) (VP (VV 说) (: ：) (IP (`` “) (NP (PRD 这)) (VP (VC 不是) (NP (CP (CP (IP (VP (JJ 普通))) (DEC 的))) (NP (NN 情况))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+布什	总统	nmod
+总统	说	nsubj
+在	宣布	case
+宣布	说	xcomp
+提供	宣布	xcomp
+援助	提供	obj
+时	宣布	mark
+说	ROOT	root
+：	情况	punct
+“	情况	punct
+这	情况	nsubj
+是	情况	cop
+普通	情况	amod
+的	普通	mark:rel
+情况	说	ccomp
+。	情况	punct
+”	情况	punct
+----------------------------------------------------------------------
+“在危机和衰退中，允许美国汽车工业崩溃，这不是一个负责任的行为。”
+
+(ROOT (IP (`` “) (VP (PP (IN 在) (LCP (NP (NN 危机) (CC 和) (NN 衰退)) (IN 中))) (, ，) (VP (VV 允许) (NP (NP (NNP 美国)) (NP (NN 汽车) (NN 工业))) (IP (VP (VV 崩溃))))) (, ，) (IP (NP (PRD 这)) (VP (VC 不是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 负) (NP (NN 责任)))) (DEC 的))) (NP (NN 行为))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'``': {}, 'VP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'VP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'``': {}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'VP': {'PP': {}, ',': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+“	允许	punct
+在	危机	case
+危机	允许	obl
+和	衰退	cc
+衰退	危机	conj
+中	危机	case
+，	危机	punct
+允许	ROOT	root
+美国	工业	nmod
+汽车	工业	nmod
+工业	崩溃	nsubj
+崩溃	允许	ccomp
+，	行为	punct
+这	行为	nsubj
+是	行为	cop
+一	个	nummod
+个	行为	clf
+负	行为	amod
+责任	负	obj
+的	负	mark:rel
+行为	允许	parataxis
+。	行为	punct
+”	行为	punct
+----------------------------------------------------------------------
+这笔资金将从财政部的 7000 亿美元的困难资产救助计划（TARP）中提取。
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 笔))) (NP (NN 资金))) (VP (ADVP (RB 将)) (PP (IN 从) (LCP (NP (DNP (NP (NN 财政) (SFN 部)) (DEC 的)) (DNP (QP (CD 7000) (CLP (NNP 亿美) (CLP (NNB 元)))) (DEC 的)) (NP (NN 困难) (NN 资产) (NN 救助) (NN 计划)) (PRN (-LRB- （) (NP (FW TARP)) (-RRB- ）))) (IN 中))) (VP (VV 提取))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+这	笔	det
+笔	资金	clf
+资金	提取	nsubj
+将	提取	advmod
+从	计划	case
+财政	部	compound
+部	元	nmod
+的	部	case
+7000	元	nummod
+亿美	元	nmod
+元	计划	nmod
+的	元	mark:rel
+困难	计划	nmod
+资产	计划	nmod
+救助	计划	nmod
+计划	提取	obl
+（	TARP	punct
+TARP	计划	appos
+）	TARP	punct
+中	计划	case
+提取	ROOT	root
+。	提取	punct
+----------------------------------------------------------------------
+如果国会批准该计划的第二部分，另外四十亿美元的 TARP 资金将于二月份发放。
+
+(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (NN 国会)) (VP (VV 批准) (NP (DNP (NP (DP (DT 该)) (NP (NN 计划))) (DEC 的)) (QP (CD 第二)) (NP (NN 部分)))))) (, ，) (NP (ADVP (DT 另外)) (DNP (QP (CD 四十亿) (CLP (NNP 美) (CLP (NNB 元)))) (DEC 的)) (NP (FW TARP) (NN 资金))) (VP (ADVP (RB 将)) (PP (IN 于) (NP (NP (QP (CD 二)) (NP (NNB 月))) (NP (NNB 份)))) (VP (VV 发放))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'ADVP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'ADVP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'NP': {'ADVP': {}, 'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+如果	部分	case
+国会	批准	nsubj
+批准	部分	acl:relcl
+该	计划	det
+计划	批准	obj
+的	批准	mark:rel
+第二	部分	nummod
+部分	发放	obl
+，	部分	punct
+另外	元	det
+四十亿	元	nummod
+美	元	nmod
+元	资金	nmod
+的	元	mark:rel
+TARP	资金	nmod
+资金	发放	nsubj
+将	发放	advmod
+于	份	case
+二	月	nummod
+月	份	clf
+份	发放	obl
+发放	ROOT	root
+。	发放	punct
+----------------------------------------------------------------------
+汽车制造商必须在 3 月 31 日前采取措施来证明自己的可行性。
+
+(ROOT (IP (NP (NN 汽车) (VV 制造) (SFN 商)) (VP (MD 必须) (VP (PP (IN 在) (NP (NP (CD 3) (NNB 月) (CD 31)) (NP (NNB 日前)))) (VP (VP (VV 采取) (NP (NN 措施))) (VP (RB 来) (VP (VV 证明) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (VV 可行) (SFN 性)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'VV': {}, 'SFN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'VV': {}, 'SFN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'VV': {}, 'SFN': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+汽车	商	nmod
+制造	商	compound
+商	证明	nsubj
+必须	证明	aux
+在	日前	case
+3	月	nummod
+月	日前	clf
+31	日前	nummod
+日前	采取	obl
+采取	证明	advcl
+措施	采取	obj
+来	证明	mark
+证明	ROOT	root
+自己	性	det
+的	自己	case
+可行	性	compound
+性	证明	obj
+。	证明	punct
+----------------------------------------------------------------------
+布什说：“汽车制造商和工会必须理解危机的严重性，并做出改革所必需的艰难决策。”“我们打算向所有参与美国汽车制造商未来的人们发出明确信息。”
+
+(ROOT (IP (IP (NP (NNP 布什)) (VP (VV 说) (: ：) (IP (`` “) (NP (NN 汽车) (VV 制造) (SFN 商) (CC 和) (NN 工会)) (VP (MD 必须) (VP (VP (VV 理解) (NP (DNP (NP (NN 危机)) (DEC 的)) (NP (JJ 严重) (SFN 性)))) (, ，) (RB 并) (VP (VV 做出) (NP (CP (CP (IP (NP (NN 改革)) (VP (RB 所) (VP (VV 必需)))) (DEC 的))) (ADJP (JJ 艰难)) (NP (NN 决策))))))))) (. 。) ('' ”) (IP (`` “) (NP (PRP 我们)) (VP (VV 打算) (IP (VP (PP (IN 向) (NP (DP (DT 所有)) (CP (CP (IP (VP (VV 参与) (NP (NP (NP (NNP 美国)) (NP (NN 汽车) (VV 制造) (SFN 商))) (NP (NN 未来))))) (DEC 的))) (NP (NN 人们)))) (VP (VV 发出) (NP (ADJP (JJ 明确)) (NP (NN 信息)))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, '.': {}, "''": {}, 'IP70736': {}, '.49732': {}, "''27766": {}}}
+{'IP': {'IP': {}, '.': {}, "''": {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}, 'IP62223': {'``': {}, 'NP': {}, 'VP': {}}, '.72893': {}, "''52559": {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}, 'IP': {'``': {}, 'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+布什	说	nsubj
+说	ROOT	root
+：	做出	punct
+“	做出	punct
+汽车	商	nmod
+制造	商	compound
+商	做出	nsubj
+和	工会	cc
+工会	商	conj
+必须	理解	aux
+理解	做出	advcl
+危机	性	nmod
+的	危机	case
+严重	性	compound
+性	理解	obj
+，	理解	punct
+并	做出	mark
+做出	打算	xcomp
+改革	必需	nsubj
+所	必需	mark
+必需	决策	acl:relcl
+的	必需	mark:rel
+艰难	决策	amod
+决策	做出	obj
+。	做出	punct
+”	做出	punct
+“	打算	punct
+我	打算	nsubj
+打算	说	ccomp
+向	人	case
+所有	人	det
+参与	人	acl:relcl
+美国	商	nmod
+汽车	商	nmod
+制造	商	compound
+商	参与	obj
+未来	参与	obj
+的	参与	mark:rel
+人	发出	obl
+发出	打算	xcomp
+明确	信息	amod
+信息	发出	obj
+。	打算	punct
+”	打算	punct
+----------------------------------------------------------------------
+他补充说，重组汽车行业“需要汽车行业所有相关方做出有意义的让步。”
+
+(ROOT (IP (NP (PRP 他)) (VP (VP (VV 补充)) (VP (VV 说) (, ，) (IP (IP (VP (VV 重组) (NP (NN 汽车) (NN 行业)))) (VP (`` “) (VP (VV 需要) (NP (NP (NN 汽车) (NN 行业)) (DP (DT 所有)) (ADJP (JJ 相关)) (NP (NN 方))) (IP (VP (VV 做出) (NP (CP (CP (IP (VP (VV 有) (NP (NN 意义)))) (DEC 的))) (NP (NN 让步)))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP60891': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+他	说	nsubj
+补充	说	advcl
+说	ROOT	root
+，	重组	punct
+重组	行业	amod
+汽车	行业	nmod
+行业	做出	nsubj
+“	做出	punct
+需要	做出	advcl
+汽车	方	nmod
+行业	方	nmod
+所有	方	det
+相关	方	amod
+方	需要	obj
+做出	说	ccomp
+有	让步	acl:relcl
+意义	有	obj
+的	有	mark:rel
+让步	做出	obj
+。	做出	punct
+”	做出	punct
+----------------------------------------------------------------------
+贷款所确立的“目标”包括通过债务置换股权减少债务三分之二，更灵活的工作规则和减薪，使这些公司能够与在美国境内设立的外国制造商竞争。
+
+(ROOT (IP (NP (CP (CP (IP (NP (VV 贷) (SFN 款)) (VP (RB 所) (VP (VV 确立)))) (DEC 的))) (NP (`` “) (NN 目标) ('' ”))) (VP (VV 包括) (IP (VP (VP (PP (IN 通过) (NP (NN 债务))) (VP (VV 置) (NP (VV 换股) (SFN 权)))) (VP (VV 减少) (NP (NN 债务)) (NP (DNP (QP (CD 三) (CLP (NNB 分))) (DEC 之)) (QP (CD 二)))) (, ，) (VP (NP (CP (CP (IP (VP (ADVP (RB 更)) (VP (JJ 灵活)))) (DEC 的))) (NP (NN 工作) (NN 规则) (CC 和) (NN 减薪)))) (, ，) (VP (VV 使) (NP (DP (DT 这些)) (NP (NN 公司))) (IP (VP (MD 能够) (VP (PP (IN 与) (NP (CP (CP (IP (VP (PP (VV 在) (NP (NP (NNP 美国)) (NP (NN 境内)))) (VP (VV 设立)))) (DEC 的))) (NP (NN 外国) (VV 制造) (SFN 商)))) (VP (VV 竞争))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+贷	款	compound
+款	确立	nsubj
+所	确立	mark
+确立	目标	acl:relcl
+的	确立	mark:rel
+“	目标	punct
+目标	包括	nsubj
+”	目标	punct
+包括	ROOT	root
+通过	债务	case
+债务	减少	obl
+置	减少	advcl
+换股	权	compound
+权	置	obj
+减少	包括	xcomp
+债务	二	nmod
+三	分	nummod
+分	债务	acl
+之	分	case
+二	减少	obj
+，	使	punct
+更	灵活	advmod
+灵活	规则	amod
+的	灵活	mark:rel
+工作	规则	nmod
+规则	使	nsubj
+和	减薪	cc
+减薪	规则	conj
+，	规则	punct
+使	包括	parataxis
+这些	公司	det
+公司	竞争	nsubj
+能够	竞争	aux
+与	商	case
+在	设立	advcl
+美国	境内	nmod
+境内	设立	obl
+设立	商	acl:relcl
+的	设立	mark:rel
+外国	商	nmod
+制造	商	compound
+商	竞争	obl
+竞争	使	ccomp
+。	包括	punct
+----------------------------------------------------------------------
+一名高级政府官员表示，“如果某些条件在 3 月 31 日前不能得到满足，贷款将被政府自动召回，并将全额偿还”。
+
+(ROOT (IP (NP (QP (CD 一) (CLP (NNB 名))) (ADJP (JJ 高级)) (NP (NN 政府) (NN 官员))) (VP (VV 表示) (, ，) (IP (`` “) (CP (ADVP (IN 如果)) (IP (NP (DP (DT 某些)) (NP (NN 条件))) (VP (PP (IN 在) (NP (CD 3) (NNB 月) (CD 31))) (ADVP (NNB 日前)) (VP (MD 不能) (VP (VV 得到) (NP (NN 满足))))))) (, ，) (NP (VV 贷) (SFN 款)) (VP (VP (ADVP (RB 将)) (VP (BB 被) (CP (IP (NP (NN 政府)) (VP (ADVP (RB 自动)) (VP (VV 召回))))))) (, ，) (RB 并) (VP (ADVP (BB 将)) (ADVP (NN 全额)) (VP (VV 偿) (NP (VV 还))))) ('' ”))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+一	名	nummod
+名	官员	clf
+高级	官员	amod
+政府	官员	nmod
+官员	表示	nsubj
+表示	ROOT	root
+，	偿	punct
+“	偿	punct
+如果	得到	case
+某些	条件	det
+条件	得到	nsubj
+在	日前	case
+3	月	nummod
+月	日前	clf
+31	日前	nummod
+日前	得到	obl
+能	得到	aux
+得到	偿	ccomp
+满足	得到	obj
+，	得到	punct
+贷	款	compound
+款	召回	nsubj:pass
+将	召回	advmod
+被	召回	aux:pass
+政府	召回	nsubj
+自动	召回	advmod
+召回	偿	advcl
+，	召回	punct
+并	偿	mark
+将	全额	case
+全额	偿	obl:patient
+偿	表示	ccomp
+还	偿	mark
+”	偿	punct
+。	表示	punct
+----------------------------------------------------------------------
+“最重要的一点是，企业必须是可行的。”
+
+(ROOT (IP (`` “) (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 重要)))) (DEC 的))) (QP (CD 一) (CLP (NN 点)))) (VP (VC 是) (, ，) (IP (NP (NN 企业)) (VP (MD 必须) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 可行))) (UH 的)))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'CP': {}, 'QP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {'CP': {}, 'QP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'CP': {}, 'QP': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+“	是	punct
+最	重要	advmod
+重要	点	amod
+的	重要	mark:rel
+一	点	nummod
+点	是	nsubj
+是	ROOT	root
+，	可行	punct
+企业	可行	nsubj
+必须	可行	aux
+是	可行	cop
+可行	是	ccomp
+的	可行	discourse
+。	可行	punct
+”	可行	punct
+----------------------------------------------------------------------
+该官员补充说，“这并不意味着这些公司必须盈利，但显而易见的是，这些公司必须尽快盈利。”
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 官员))) (VP (VP (VV 补充)) (VP (VV 说) (, ，) (IP (`` “) (NP (PRD 这)) (VP (ADVP (RB 并)) (ADVP (RB 不)) (VP (VV 意味) (AS 着) (IP (NP (DP (DT 这些)) (NP (NN 公司))) (VP (MD 必须) (VP (VV 盈利)))))) (, ，) (IP (ADVP (RB 但)) (NP (CP (CP (IP (VP (ADVP (VV 显)) (VP (RB 而) (VP (JJ 易见))))) (DEC 的)))) (VP (VC 是) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 公司))) (VP (MD 必须) (VP (ADVP (RB 尽快)) (VP (VV 盈利)))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP91586': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+该	官员	det
+官员	说	nsubj
+补充	说	advcl
+说	ROOT	root
+，	是	punct
+“	是	punct
+这	意味	nsubj
+并	不	advmod
+不	意味	advmod
+意味	是	advcl
+着	意味	aux
+这些	公司	det
+公司	盈利	nsubj
+必须	盈利	aux
+盈利	意味	ccomp
+，	意味	punct
+但	是	mark
+显	易见	advcl
+而	易见	mark
+易见	是	csubj
+的	易见	mark:rel
+是	说	ccomp
+，	盈利	punct
+这些	公司	det
+公司	盈利	nsubj
+必须	盈利	aux
+尽快	盈利	advmod
+盈利	是	ccomp
+。	是	punct
+”	是	punct
+----------------------------------------------------------------------
+克莱斯勒公司董事长兼首席执行官博·纳德利表示，已经签署了贷款意向书。
+
+(ROOT (IP (NP (NP (NP (NNP 克莱斯勒) (NN 公司)) (NP (NN 董事) (SFN 长) (CC 兼) (JJ 首席) (VV 执行))) (NP (NNP 官博) (/ ·) (NNP 纳德利))) (VP (VV 表示) (, ，) (IP (VP (ADVP (RB 已经)) (VP (VV 签署) (AS 了) (NP (VV 贷) (SFN 款) (NN 意) (VV 向) (SFN 书)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP37167': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+克莱斯勒	长	nmod
+公司	长	nmod
+董事	长	compound
+长	表示	nsubj
+兼	执行	cc
+首席	执行	amod
+执行	官博	conj
+官博	长	appos
+·	纳德利	punct
+纳德利	官博	flat:name
+表示	ROOT	root
+，	签署	punct
+已经	签署	advmod
+签署	表示	ccomp
+了	签署	aux
+贷	款	compound
+款	书	nmod
+意	向	nsubj
+向	书	compound
+书	签署	obj
+。	表示	punct
+----------------------------------------------------------------------
+“这些要求需要所有成员考虑，首先需要在原则上作出承诺，然后在明年落实，”纳德利说。
+
+(ROOT (IP (IP (`` “) (NP (DP (DT 这些)) (NP (NN 要求))) (VP (VP (VV 需要) (NP (DP (DT 所有)) (NP (NN 成员))) (IP (VP (VV 考虑)))) (, ，) (VP (ADVP (RB 首先)) (VP (MD 需要) (VP (PP (IN 在) (LCP (NP (NN 原则)) (IN 上))) (VP (VV 作出) (NP (NN 承诺)))))) (, ，) (VP (ADVP (RB 然后)) (PP (IN 在) (NP (NN 明年))) (VP (VV 落实))))) (, ，) ('' ”) (NP (NNP 纳德利)) (VP (VV 说)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+“	要求	punct
+这些	要求	det
+要求	作出	nsubj
+需要	作出	advcl
+所有	成员	det
+成员	考虑	nsubj
+考虑	需要	ccomp
+，	需要	punct
+首先	作出	advmod
+需要	作出	aux
+在	原则	case
+原则	作出	obl
+上	原则	case
+作出	ROOT	root
+承诺	作出	obj
+，	落实	punct
+然后	落实	advmod
+在	明年	case
+明年	落实	obl
+落实	作出	parataxis
+，	说	punct
+”	说	punct
+纳德利	说	nsubj
+说	作出	parataxis
+。	作出	punct
+----------------------------------------------------------------------
+“克莱斯勒公司致力于满足这些要求。”
+
+(ROOT (IP (`` “) (NP (NNP 克莱斯勒) (NN 公司)) (VP (VV 致力) (PP (VV 于) (IP (VP (VV 满足) (NP (DP (DT 这些)) (NP (NN 要求))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}, "''": {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'VV': {}, 'PP': {}}}
+Dependency Features:
+“	公司	punct
+克莱斯勒	公司	nmod
+公司	致力	nsubj
+致力	ROOT	root
+于	致力	mark
+满足	致力	xcomp
+这些	要求	det
+要求	满足	obj
+。	致力	punct
+”	致力	punct
+----------------------------------------------------------------------
+通用汽车对此举表示赞赏，并在一份声明中说：“这一举措有助于保留许多工作岗位，并支持通用汽车的持续运营，以及依赖我们的全国各地许多供应商、经销商和小企业的持续运营。”
+
+(ROOT (IP (NP (NNP 通用) (NN 汽车)) (VP (VP (PP (IN 对) (NP (NN 此举))) (VP (VV 表示) (NP (NN 赞赏)))) (, ，) (RB 并) (VP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 份))) (NP (NN 声明))) (IN 中))) (VP (VV 说) (: ：) (IP (`` “) (NP (DP (DT 这)) (NP (VV 一举) (SFN 措))) (VP (VV 有助) (PP (VV 于) (IP (VP (VP (VV 保留) (NP (QP (CD 许多)) (NP (NN 工作) (NN 岗位)))) (, ，) (RB 并) (VP (VV 支持) (NP (DNP (NP (NNP 通用) (NN 汽车)) (DEC 的)) (ADJP (JJ 持续)) (NP (NN 运营)))) (, ，) (CC 以及) (VP (VV 依赖) (NP (DNP (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NN 全国) (NN 各地)) (QP (CD 许多)) (NP (NP (VV 供应) (SFN 商)) (EC 、) (NP (VV 经销) (SFN 商)) (CC 和) (NP (ADJP (PFA 小)) (NP (NN 企业))))) (DEC 的)) (ADJP (JJ 持续)) (NP (NN 运营)))))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP23388': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+通用	汽车	nmod
+汽车	说	nsubj
+对	此举	case
+此举	表示	obl
+表示	说	advcl
+赞赏	表示	obj
+，	表示	punct
+并	说	mark
+在	声明	case
+一	份	nummod
+份	声明	clf
+声明	说	obl
+中	声明	case
+说	ROOT	root
+：	支持	punct
+“	支持	punct
+这	措	det
+一举	措	compound
+措	支持	nsubj
+有助	支持	advcl
+于	有助	mark
+保留	有助	xcomp
+许多	岗位	nummod
+工作	岗位	nmod
+岗位	保留	obj
+，	有助	punct
+并	支持	mark
+支持	说	ccomp
+通用	汽车	nmod
+汽车	运营	nmod
+的	汽车	case
+持续	运营	amod
+运营	支持	obj
+，	依赖	punct
+以及	依赖	cc
+依赖	支持	conj
+我	商	det
+的	我	mark:rel
+全国	商	nmod
+各地	商	nmod
+许多	商	nummod
+供应	商	compound
+商	依赖	obj
+、	商	punct
+经销	商	compound
+商	商	conj
+和	企业	cc
+小	企业	case
+企业	商	conj
+的	依赖	mark:rel
+持续	运营	amod
+运营	运营	conj
+。	说	punct
+”	支持	punct
+----------------------------------------------------------------------
+通用汽车补充道：“这将使我们得以加快完成我们的积极重组计划，以实现长期、可持续的成功。”
+
+(ROOT (IP (NP (NNP 通用) (NN 汽车)) (VP (VP (VV 补充)) (VP (VV 道) (: ：) (IP (`` “) (IP (NP (PRD 这)) (VP (ADVP (RB 将)) (VP (VV 使) (NP (PRP 我们)) (IP (VP (VP (VV 得) (VP (RB 以) (VP (VV 加快) (IP (VP (VV 完成) (NP (DNP (NP (PRP 我们)) (DEC 的)) (ADJP (JJ 积极)) (NP (NN 重组) (NN 计划)))))))) (, ，) (VP (RB 以) (VP (VV 实现) (NP (CP (CP (UCP (ADJP (NN 长期)) (EC 、) (IP (VP (MD 可) (VP (VV 持续))))) (DEC 的))) (NP (NN 成功))))))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VP': {}, 'VP29156': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+通用	汽车	nmod
+汽车	道	nsubj
+补充	道	advcl
+道	ROOT	root
+：	实现	punct
+“	实现	punct
+这	使	nsubj
+将	使	advmod
+使	道	ccomp
+我	得	nsubj
+得	使	ccomp
+以	得	mark
+加快	实现	advcl
+完成	加快	xcomp
+我	计划	det
+的	我	case
+积极	计划	amod
+重组	计划	nmod
+计划	完成	obj
+，	加快	punct
+以	实现	mark
+实现	使	ccomp
+长期	成功	amod
+、	持续	punct
+可	持续	aux
+持续	成功	acl:relcl
+的	持续	mark:rel
+成功	实现	obj
+。	实现	punct
+”	实现	punct
+----------------------------------------------------------------------
+该政府官员表示，这笔贷款将由美国财政部管理，不会任命“汽车大臣”，但选举产生的巴拉克·奥巴马总统将在 2010 年 1 月 20 日就职后有权指定一名。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 政府) (NN 官员))) (VP (VV 表示) (, ，) (IP (IP (NP (DP (DT 这) (CLP (NNB 笔))) (NP (NN 贷款))) (VP (VP (ADVP (RB 将)) (PP (VV 由) (NP (NNP 美国) (NN 财政) (SFN 部))) (VP (VV 管理))) (, ，) (VP (MD 不会) (VP (VV 任命) (NP (`` “) (NN 汽车) (NN 大臣) ('' ”)))))) (, ，) (IP (ADVP (RB 但)) (NP (CP (CP (IP (VP (VSB (NN 选举) (VV 产生)))) (DEC 的))) (NP (NNP 巴拉克) (/ ·) (NNP 奥巴马)) (NP (NN 总统))) (VP (ADVP (RB 将)) (PP (IN 在) (NP (CD 2010) (CD 年 1) (NNB 月) (CD 20) (NNB 日))) (LCP (IP (VP (VV 就职))) (IN 后)) (VP (VV 有权) (IP (VP (VV 指定) (QP (CD 一) (CLP (NNB 名)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+该	官员	det
+政府	官员	nmod
+官员	表示	nsubj
+表示	ROOT	root
+，	任命	punct
+这	笔	det
+笔	贷款	clf
+贷款	任命	nsubj
+将	由	advmod
+由	任命	advcl
+美国	部	nmod
+财政	部	compound
+部	管理	nsubj
+管理	由	ccomp
+，	由	punct
+会	任命	aux
+任命	表示	ccomp
+“	大臣	punct
+汽车	大臣	nmod
+大臣	任命	obj
+”	大臣	punct
+，	有权	punct
+但	有权	mark
+选举	产生	nsubj
+产生	总统	acl:relcl
+的	产生	mark:rel
+巴拉克	总统	nmod
+·	奥巴马	punct
+奥巴马	巴拉克	flat:name
+总统	有权	nsubj
+将	有权	advmod
+在	日	case
+2010	日	nummod
+年 1	月	nummod
+月	日	clf
+20	日	nummod
+日	就职	obl
+就职	有权	advcl
+后	就职	mark
+有权	表示	ccomp
+指定	有权	xcomp
+一	名	nummod
+名	指定	obj
+。	表示	punct
+----------------------------------------------------------------------
+这位官员说：“我们在整个过程中一直向他们（奥巴马过渡团队）通报情况。”
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 位))) (NP (NN 官员))) (VP (VV 说) (: ：) (IP (`` “) (NP (PRP 我们)) (VP (PP (IN 在) (LCP (NP (DP (DT 整个)) (NP (NN 过程))) (IN 中))) (ADVP (RB 一直)) (PP (IN 向) (NP (PRP 他们) (PRN (-LRB- （) (NP (NP (NNP 奥巴马)) (ADJP (NN 过渡)) (NP (NN 团队))) (-RRB- ）)))) (VP (VV 通报) (NP (NN 情况)))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+这	位	det
+位	官员	clf
+官员	说	nsubj
+说	ROOT	root
+：	通报	punct
+“	通报	punct
+我	通报	nsubj
+在	过程	case
+整个	过程	det
+过程	通报	obl
+中	过程	case
+一直	通报	advmod
+向	他	case
+他	通报	obl
+（	团队	punct
+奥巴马	团队	nmod
+过渡	团队	nmod
+团队	他	appos
+）	团队	punct
+通报	说	ccomp
+情况	通报	obj
+。	通报	punct
+”	通报	punct
+----------------------------------------------------------------------
+该官员补充说，该计划并未涵盖汽车公司的金融部门，这些金融部门也正面临着信贷紧缩和经济衰退带来的困境。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 官员))) (VP (VP (VV 补充)) (VP (VV 说) (, ，) (IP (IP (NP (DP (DT 该)) (NP (NN 计划))) (VP (ADVP (RB 并)) (ADVP (RB 未)) (VP (VV 涵盖) (NP (DNP (NP (NN 汽车) (NN 公司)) (DEC 的)) (NP (NN 金融) (NN 部门)))))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 金融) (NN 部门))) (VP (ADVP (RB 也)) (ADVP (RB 正)) (VP (VV 面临) (AS 着) (NP (CP (CP (IP (NP (NN 信贷) (NN 紧缩) (CC 和) (NN 经济) (NN 衰退)) (VP (VV 带来))) (DEC 的))) (NP (NN 困境))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP43367': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+该	官员	det
+官员	补充	nsubj
+补充	ROOT	root
+说	补充	xcomp
+，	面临	punct
+该	计划	det
+计划	涵盖	nsubj
+并	涵盖	mark
+未	涵盖	advmod
+涵盖	说	ccomp
+汽车	公司	nmod
+公司	部门	nmod
+的	公司	case
+金融	部门	nmod
+部门	涵盖	obj
+，	面临	punct
+这些	部门	det
+金融	部门	nmod
+部门	面临	nsubj
+也	面临	mark
+正	面临	advmod
+面临	说	ccomp
+着	面临	aux
+信贷	紧缩	nmod
+紧缩	面临	obj
+和	困境	cc
+经济	衰退	nmod
+衰退	带来	nsubj
+带来	困境	acl:relcl
+的	带来	mark:rel
+困境	紧缩	conj
+。	补充	punct
+----------------------------------------------------------------------
+陷入了严重的亏损和巨额债务的三大汽车制造商早些时候曾要求政府救助，以帮助他们度过经济危机，因为国会拒绝了一项救助计划，而这是因为工会工资的争端。
+
+(ROOT (IP (IP (NP (CP (CP (IP (VP (VV 陷入) (AS 了) (NP (CP (CP (IP (VP (JJ 严重))) (DEC 的))) (NP (NP (NN 亏损)) (CC 和) (NP (ADJP (JJ 巨额)) (NP (NN 债务))))))) (DEC 的))) (QP (CD 三)) (ADJP (SFA 大)) (NP (NN 汽车) (VV 制造) (SFN 商))) (VP (NP (ADJP (JJ 早些)) (NP (NN 时候))) (ADVP (RB 曾)) (VP (VP (VV 要求) (NP (NN 政府)) (IP (VP (VV 救助)))) (, ，) (VP (RB 以) (VP (VV 帮助) (NP (PRP 他们)) (IP (VP (VV 度过) (NP (NN 经济) (NN 危机))))))))) (, ，) (IP (PP (IN 因为) (IP (NP (NN 国会)) (VP (VV 拒绝) (AS 了) (NP (QP (CD 一) (CLP (NNB 项))) (NP (NN 救助) (NN 计划)))))) (, ，) (RB 而) (NP (PRD 这)) (VP (VC 是) (PP (IN 因为) (NP (DNP (NP (NN 工会) (NN 工资)) (DEC 的)) (NP (NN 争端)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP64747': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP76671': {'PP': {}, ',': {}, 'RB': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'RB': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'RB': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+陷入	帮助	advcl
+了	陷入	aux
+严重	亏损	amod
+的	严重	mark:rel
+亏损	陷入	obj
+和	商	cc
+巨额	债务	amod
+债务	亏损	conj
+的	严重	mark:rel
+三	汽车	nummod
+大	汽车	case
+汽车	商	nmod
+制造	商	compound
+商	亏损	conj
+早些	时候	amod
+时候	帮助	nmod:tmod
+曾	要求	advmod
+要求	帮助	advcl
+政府	救助	nsubj
+救助	要求	ccomp
+，	要求	punct
+以	帮助	mark
+帮助	ROOT	root
+他	度过	nsubj
+度过	帮助	ccomp
+经济	危机	nmod
+危机	度过	obj
+，	拒绝	punct
+因为	拒绝	case
+国会	拒绝	nsubj
+拒绝	帮助	ccomp
+了	拒绝	aux
+一	项	nummod
+项	计划	clf
+救助	计划	nmod
+计划	拒绝	obj
+，	拒绝	punct
+而	争端	mark
+这	争端	nsubj
+是	争端	cop
+因为	争端	case
+工会	工资	nmod
+工资	争端	nmod
+的	工资	case
+争端	拒绝	obj
+。	帮助	punct
+----------------------------------------------------------------------
+这些公司一再警告称，如果没有一揽子贷款，数以百万计的工作岗位将面临失业，这将对国家已经陷入困境的经济造成灾难性影响。
+
+(ROOT (IP (NP (DP (DT 这些)) (NP (NN 公司))) (VP (VP (ADVP (CD 一)) (ADVP (RB 再)) (VP (VV 警告))) (VP (VV 称) (, ，) (IP (IP (IP (VP (ADVP (IN 如果)) (VP (VV 没有) (NP (NP (QP (CD 一)) (NP (NN 揽子))) (NP (VV 贷) (SFN 款)))))) (, ，) (NP (CP (CP (IP (NP (CD 数)) (VP (PP (RB 以) (QP (CD 百万))) (VP (VV 计)))) (DEC 的))) (NP (VV 工作) (SFN 岗) (SFN 位))) (VP (ADVP (RB 将)) (VP (VV 面临) (NP (NN 失业))))) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 将)) (PP (IN 对) (NP (CP (CP (IP (NP (NN 国家)) (VP (ADVP (RB 已经)) (VP (VV 陷入) (NP (NN 困境))))) (DEC 的))) (NP (NN 经济)))) (VP (VV 造成) (NP (NN 灾难) (SFN 性) (NN 影响)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP18580': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+这些	公司	det
+公司	称	nsubj
+一	称	obl
+再	称	advmod
+警告	称	advcl
+称	ROOT	root
+，	造成	punct
+如果	有	case
+有	面临	xcomp
+一	揽子	nummod
+揽子	款	nmod
+贷	款	compound
+款	有	obj
+，	有	punct
+数	计	advmod
+以	计	mark
+百万	计	obl
+计	位	acl:relcl
+的	计	mark:rel
+工作	岗	compound
+岗	位	compound
+位	面临	nsubj
+将	面临	advmod
+面临	造成	advcl
+失业	面临	obj
+，	面临	punct
+这	造成	nsubj
+将	造成	advmod
+对	经济	case
+国家	陷入	obl
+已经	陷入	advmod
+陷入	经济	acl:relcl
+困境	陷入	obj
+的	陷入	mark:rel
+经济	造成	obl
+造成	称	ccomp
+灾难	性	compound
+性	影响	nmod
+影响	造成	obj
+。	称	punct
+----------------------------------------------------------------------
+星期四，克莱斯勒表示，在通用汽车宣布将其北美生产的 30% 停产“以应对迅速恶化的市场情况”后，该公司将从星期五起关闭其美国工厂一个月。
+
+(ROOT (IP (NP (NN 星期) (CD 四)) (, ，) (NP (NNP 克莱斯勒)) (VP (VV 表示) (, ，) (IP (PP (IN 在) (LCP (IP (NP (NNP 通用) (NN 汽车)) (VP (VV 宣布) (VP (VP (BB 将) (IP (NP (CP (CP (IP (NP (PRP 其)) (VP (NP (NN 北) (NNP 美)) (VP (VV 生产)))) (DEC 的))) (QP (CD 30%))) (VP (VV 停产)))) (VP (`` “) (PP (IN 以) (VP (VV 应对) (NP (CP (CP (IP (VP (ADVP (RB 迅速)) (VP (VV 恶化)))) (DEC 的))) (NP (NN 市场) (NN 情况))))) ('' ”))))) (IN 后))) (, ，) (NP (DP (DT 该)) (NP (NN 公司))) (VP (ADVP (RB 将)) (PP (IN 从) (LCP (NP (NN 星期) (CD 五)) (NNB 起))) (VP (VV 关闭) (NP (NP (PRP 其)) (NP (NNP 美国)) (NP (NN 工厂))) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 月))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP83075': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'CD': {}}, ',': {}, 'NP178': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'CD': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'CD': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+星期	表示	nmod:tmod
+四	表示	nmod:tmod
+，	四	punct
+克莱斯勒	表示	nsubj
+表示	ROOT	root
+，	宣布	punct
+在	汽车	case
+通用	汽车	nmod
+汽车	宣布	nsubj
+宣布	表示	ccomp
+将	美	case
+其	美	nmod
+北	美	nmod
+美	生产	obl
+生产	30%	acl:relcl
+的	生产	mark:rel
+30%	停产	nsubj
+停产	宣布	xcomp
+“	情况	punct
+以	应对	case
+应对	停产	xcomp
+迅速	恶化	advmod
+恶化	情况	acl:relcl
+的	恶化	mark:rel
+市场	情况	nmod
+情况	停产	obj
+”	情况	punct
+后	停产	mark
+，	停产	punct
+该	公司	det
+公司	关闭	nsubj
+将	关闭	advmod
+从	起	case
+星期	起	nmod
+五	起	nummod
+起	关闭	obl
+关闭	表示	ccomp
+其	工厂	nmod
+美国	工厂	nmod
+工厂	关闭	obj
+一	个	nummod
+个	月	clf
+月	工厂	acl
+。	表示	punct
+----------------------------------------------------------------------
+布什在圣诞节和新年假期之前面临着采取行动的压力，白宫官员警告说破产是正在考虑的备选方案之一。
+
+(ROOT (IP (IP (NP (NNP 布什)) (VP (PP (IN 在) (LCP (NP (NNP 圣诞) (SFN 节) (CC 和) (NN 新年) (NN 假期)) (IN 之前))) (VP (VV 面临) (AS 着) (NP (CP (IP (VP (VV 采取) (NP (NN 行动)))) (DEC 的)) (NP (NN 压力)))))) (, ，) (IP (NP (NP (NNP 白宫)) (NP (NN 官员))) (VP (VV 警告) (IP (VP (VV 说) (IP (NP (NN 破产)) (VP (VC 是) (NP (DNP (NP (CP (CP (IP (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 考虑)))) (DEC 的))) (NP (NN 备选) (NN 方案))) (DEC 之)) (NP (CD 一))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP19525': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP47190': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+布什	面临	nsubj
+在	节	case
+圣诞	节	compound
+节	面临	obl
+和	假期	cc
+新年	假期	nmod
+假期	节	conj
+之前	节	case
+面临	ROOT	root
+着	面临	aux
+采取	压力	acl:relcl
+行动	采取	obj
+的	采取	mark:rel
+压力	面临	obj
+，	警告	punct
+白宫	官员	nmod
+官员	警告	nsubj
+警告	面临	parataxis
+说	警告	xcomp
+破产	一	nsubj
+是	一	cop
+正	考虑	advmod
+在	考虑	advmod
+考虑	方案	acl:relcl
+的	考虑	mark:rel
+备选	方案	nmod
+方案	一	nmod
+之	方案	case
+一	说	ccomp
+。	面临	punct
+----------------------------------------------------------------------

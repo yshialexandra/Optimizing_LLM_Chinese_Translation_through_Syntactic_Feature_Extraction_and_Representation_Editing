@@ -1,0 +1,1121 @@
+研究结果可以帮助确定哪些治疗对某些患者有益
+
+(ROOT (IP (NP (NN 研究) (NN 结果)) (VP (MD 可以) (VP (VV 帮助) (IP (VP (VV 确定) (IP (NP (ADJP (JJ 哪些)) (NP (NN 治疗))) (VP (PP (IN 对) (NP (DP (DT 某些)) (NP (NN 患者)))) (VP (VV 有) (NP (NN 益)))))))))))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'NN44843': {}}, 'VP': {'MD': {}, 'VP': {}}}}
+{'IP': {'NP': {'NN': {}, 'NN': {}}, 'VP': {'MD': {}, 'VP': {}}}}
+{'NP': {'NN': {}, 'NN': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+研究	结果	nmod
+结果	帮助	nsubj
+可以	帮助	aux
+帮助	ROOT	root
+确定	帮助	xcomp
+哪些	治疗	amod
+治疗	有	nsubj
+对	患者	case
+某些	患者	det
+患者	有	obl
+有	确定	ccomp
+益	有	obj
+----------------------------------------------------------------------
+星期三，四月三十日 -- -- 在对急性骨髓性白血病的极其细微的基因组有了新的理解，可能会让医生快速决定哪些现有疗法对患者最有益。
+
+(ROOT (NP (NP (NN 星期) (CD 三)) (, ，) (NP (QP (CD 四)) (NP (NNB 月))) (QP (CD 三十) (CLP (NNB 日))) (HYPH --) (HYPH --) (VP (VP (PP (IN 在) (NP (DNP (PP (IN 对) (NP (ADJP (NN 急)) (ADJP (SFN 性)) (NP (NN 骨髓)) (ADJP (SFN 性)) (NP (NN 白血) (SFN 病)))) (DEC 的)) (CP (CP (IP (VP (ADVP (RB 极)) (ADVP (PRP 其)) (VP (JJ 细微)))) (DEC 的))) (NP (NN 基因)))) (VP (VV 组有) (AS 了) (NP (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 理解))))) (, ，) (VP (MD 可能) (VP (MD 会) (VP (VV 让) (NP (NN 医生)) (IP (VP (ADVP (RB 快速)) (VP (VV 决定) (IP (NP (DP (JJ 哪些)) (ADJP (NN 现有)) (NP (NN 疗法))) (VP (PP (IN 对) (NP (NN 患者))) (ADVP (RB 最)) (VP (JJ 有益))))))))))) (. 。)))
+layer 2:
+{'NP': {'NP': {}, ',': {}, 'NP77553': {}, 'QP': {}, 'HYPH': {}, 'HYPH13485': {}, 'VP': {}, '.': {}}}
+{'NP': {'NP': {}, ',': {}, 'NP': {}, 'QP': {}, 'HYPH': {}, 'HYPH': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'NP': {'NP': {'NN': {}, 'CD': {}}, ',': {}, 'NP65845': {'QP': {}, 'NP': {}}, 'QP': {'CD': {}, 'CLP': {}}, 'HYPH': {}, 'HYPH91150': {}, 'VP': {'VP': {}, ',': {}, 'VP27314': {}}, '.': {}}}
+{'NP': {'NP': {'NN': {}, 'CD': {}}, ',': {}, 'NP': {'QP': {}, 'NP': {}}, 'QP': {'CD': {}, 'CLP': {}}, 'HYPH': {}, 'HYPH': {}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'CD': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'QP': {'CD': {}, 'CLP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+星期	日	nmod
+三	星期	nummod
+，	星期	punct
+四	月	nummod
+月	日	clf
+三十	日	nummod
+日	让	nmod:tmod
+--	日	punct
+--	组有	punct
+在	基因	case
+对	基因	case
+急	性	compound
+性	病	nmod
+骨髓	性	compound
+性	病	nmod
+白血	病	compound
+病	对	nmod
+的	对	mark:rel
+极	细微	advmod
+其	基因	nmod
+细微	基因	amod
+的	细微	mark:rel
+基因	组有	obl
+组有	让	advcl
+了	组有	aux
+新	理解	amod
+的	新	mark:rel
+理解	组有	obj
+，	组有	punct
+可能	让	aux
+会	让	aux
+让	ROOT	root
+医生	决定	nsubj
+快速	决定	advmod
+决定	让	ccomp
+哪些	疗法	amod
+现有	疗法	nmod
+疗法	有益	nsubj
+对	患者	case
+患者	有益	nmod
+最	有益	advmod
+有益	决定	ccomp
+。	让	punct
+----------------------------------------------------------------------
+“现在医生在病床边可以利用这些数据来选择治疗方案，”美国白血病和淋巴瘤协会首席医疗官巴顿·凯门博士说。
+
+(ROOT (IP (IP (`` “) (IP (NP (NN 现在)) (NP (NN 医生)) (VP (PP (VV 在) (LCP (NP (NN 病床)) (SFN 边))) (VP (MD 可以) (VP (VP (VV 利用) (NP (DP (DT 这些)) (NP (NN 数据)))) (VP (RB 来) (VP (VV 选择) (NP (NN 治疗) (NN 方案)))))))) (, ，) ('' ”)) (NP (NP (NP (NP (NNP 美国)) (NP (NN 白血) (SFN 病) (CC 和) (NN 淋巴) (SFN 瘤) (NN 协会))) (NP (NN 首席) (NN 医疗) (SFN 官))) (NP (NNP 巴顿) (/ ·) (NNP 凯门) (NN 博士))) (VP (VV 说)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, "''": {}}, 'NP': {'NP': {}, 'NP62914': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, "''": {}}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, ',': {}, "''": {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+“	选择	punct
+现在	选择	nmod:tmod
+医生	选择	nsubj
+在	选择	advcl
+病床	边	compound
+边	在	obj
+可以	选择	aux
+利用	选择	advcl
+这些	数据	det
+数据	利用	obj
+来	选择	mark
+选择	ROOT	root
+治疗	方案	nmod
+方案	选择	obj
+，	说	punct
+”	说	punct
+美国	病	nmod
+白血	病	compound
+病	官	nmod
+和	协会	cc
+淋巴	瘤	compound
+瘤	协会	nmod
+协会	病	conj
+首席	官	nmod
+医疗	官	compound
+官	说	nsubj
+巴顿	官	appos
+·	凯门	punct
+凯门	巴顿	flat:name
+博士	官	appos
+说	选择	parataxis
+。	选择	punct
+----------------------------------------------------------------------
+“它告诉我们，有了我们手中的工具，我们可以知道谁需要更多的[治疗]，以及在哪里风险值得承担。”
+
+(ROOT (IP (`` “) (NP (PRP 它)) (VP (VV 告诉) (NP (PRP 我们)) (, ，) (IP (IP (VP (VV 有) (AS 了) (NP (DNP (LCP (NP (PRP 我们)) (NN 手中)) (DEC 的)) (NP (NN 工具))))) (, ，) (NP (PRP 我们)) (VP (MD 可以) (VP (VV 知道) (IP (NP (WP 谁)) (VP (VP (VV 需要) (NP (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的))) (NP (JJ [) (NP (NN 治疗)))) ('' ]))) (, ，) (CC 以及) (NP (PP (IN 在) (NP (WP 哪里))) (NP (NN 风险))) (VP (VV 值得) (NP (VV 承担))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+“	告诉	punct
+它	告诉	nsubj
+告诉	ROOT	root
+我	告诉	obj
+，	有	punct
+有	知道	advcl
+了	有	aux
+我	工具	nmod
+手中	我	conj
+的	我	case
+工具	有	obj
+，	有	punct
+我	知道	nsubj
+可以	知道	aux
+知道	告诉	parataxis
+谁	需要	nsubj
+需要	知道	ccomp
+更多	治疗	amod
+的	更多	mark:rel
+[	治疗	amod
+治疗	需要	obj
+]	治疗	punct
+，	值得	punct
+以及	值得	cc
+在	风险	case
+哪里	风险	nmod
+风险	值得	obl
+值得	需要	conj
+承担	值得	xcomp
+。	值得	punct
+”	知道	punct
+----------------------------------------------------------------------
+最终，卡门说，药厂可能会生产专门针对这些基因突变的药物。
+
+(ROOT (IP (ADVP (NN 最终)) (, ，) (NP (NNP 卡门)) (VP (VV 说) (, ，) (IP (NP (NN 药厂)) (VP (MD 可能) (VP (MD 会) (VP (VV 生产) (NP (CP (CP (IP (VP (ADVP (RB 专门)) (PP (VV 针对) (NP (DP (DT 这些)) (NP (NN 基因)))) (VP (VV 突变)))) (DEC 的))) (NP (NN 药物)))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'NN': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+最终	说	nmod:tmod
+，	最终	punct
+卡门	说	nsubj
+说	ROOT	root
+，	生产	punct
+药厂	生产	nsubj
+可能	生产	aux
+会	生产	aux
+生产	说	ccomp
+专门	针对	advmod
+针对	药物	acl:relcl
+这些	基因	det
+基因	突变	nsubj
+突变	针对	ccomp
+的	针对	mark:rel
+药物	生产	obj
+。	说	punct
+----------------------------------------------------------------------
+急性骨髓瘤，又称急性 myelogenous 细胞性白血病，是一种年年在美国诊断出约 13,000 例的骨髓癌。
+
+(ROOT (IP (NP (ADJP (NN 急性)) (NP (NN 骨髓) (SFN 瘤))) (, ，) (VP (VP (ADVP (RB 又)) (VP (VV 称) (NP (ADJP (NN 急性)) (NP (FW myelogenous) (NN 细胞) (SFN 性) (NN 白血) (SFN 病))))) (, ，) (VP (VC 是) (NP (CP (CP (IP (VP (NP (QP (CD 一) (CLP (NNB 种))) (NP (NN 年) (NNB 年))) (PP (VV 在) (NP (NNP 美国))) (VP (VRD (VV 诊断) (VV 出约)) (QP (CD 13,000) (CLP (NNB 例)))))) (DEC 的))) (NP (NN 骨髓) (SFN 癌))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'ADJP': {}, 'NP': {}}, ',': {}, 'VP': {'VP': {}, ',': {}, 'VP73482': {}}, '.': {}}}
+{'IP': {'NP': {'ADJP': {}, 'NP': {}}, ',': {}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'ADJP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+急性	瘤	nmod
+骨髓	瘤	compound
+瘤	癌	nsubj
+，	瘤	punct
+又	称	mark
+称	癌	acl
+急性	myelogenous	nmod
+myelogenous	病	nmod
+细胞	性	compound
+性	病	nmod
+白血	病	compound
+病	称	obj
+，	称	punct
+是	癌	cop
+一	种	nummod
+种	年	clf
+年	年	compound
+年	诊断	nmod:tmod
+在	诊断	advcl
+美国	在	obj
+诊断	癌	acl:relcl
+出约	诊断	mark
+13,000	例	nummod
+例	诊断	obj
+的	诊断	mark:rel
+骨髓	癌	compound
+癌	ROOT	root
+。	癌	punct
+----------------------------------------------------------------------
+疾病发病率随年龄增长而增加，而存活率则随之降低。
+
+(ROOT (IP (IP (NP (NN 疾病) (VV 发病) (SFN 率)) (VP (PP (IN 随) (IP (NP (NN 年龄)) (VP (VV 增长)))) (VP (RB 而) (VP (VV 增加))))) (, ，) (RB 而) (IP (NP (VV 存活) (SFN 率)) (VP (ADVP (RB 则)) (PP (VV 随) (NP (PRD 之))) (VP (VV 降低)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'RB': {}, 'IP65664': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'RB': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'RB': {}, 'IP86083': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'RB': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+疾病	率	nmod
+发病	率	compound
+率	增加	nsubj
+随	增长	case
+年龄	增长	nsubj
+增长	增加	ccomp
+而	增加	mark
+增加	ROOT	root
+，	降低	punct
+而	降低	mark
+存活	率	compound
+率	降低	nsubj
+则	降低	mark
+随	降低	advcl
+之	随	obj
+降低	增加	parataxis
+。	增加	punct
+----------------------------------------------------------------------
+根据 Kamen 的说法，年龄在 60 岁以上的 AML 患者中，只有 10% 的人能活过两年。
+
+(ROOT (IP (PP (IN 根据) (NP (DNP (NP (FW Kamen)) (DEC 的)) (NP (NN 说法)))) (, ，) (LCP (NP (CP (CP (IP (NP (NN 年龄)) (VP (PP (VV 在) (LCP (QP (CD 60) (CLP (NNB 岁))) (IN 以上))))) (DEC 的))) (NP (FW AML) (NN 患者))) (IN 中)) (, ，) (QP (ADVP (VV 只有)) (QP (CD 10%))) (VP (MD 的人能) (VP (VV 活过) (QP (CD 两) (CLP (NNB 年))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'LCP': {}, ',78878': {}, 'QP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'LCP': {}, ',': {}, 'QP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'LCP': {'NP': {}, 'IN': {}}, ',54227': {}, 'QP': {'ADVP': {}, 'QP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'QP': {'ADVP': {}, 'QP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'QP': {'ADVP': {}, 'QP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+根据	说法	case
+Kamen	说法	det
+的	Kamen	case
+说法	只有	obl
+，	说法	punct
+年龄	在	nsubj
+在	患者	acl:relcl
+60	岁	nummod
+岁	在	obj
+以上	岁	case
+的	在	mark:rel
+AML	患者	nmod
+患者	只有	nsubj
+中	患者	case
+，	患者	punct
+只有	ROOT	root
+10%	活过	nsubj
+的人能	活过	aux
+活过	只有	ccomp
+两	年	nummod
+年	活过	obj
+。	只有	punct
+----------------------------------------------------------------------
+科学家以前在显微镜下看到了八种AML，但是随着遗传学知识的发展，他们现在意识到这种疾病的形式更多。
+
+(ROOT (IP (IP (NP (NN 科学) (SFN 家)) (VP (NP (NN 以前)) (PP (VV 在) (LCP (NP (NN 显微)) (NN 镜下))) (VP (VV 看到) (AS 了) (NP (QP (CD 八) (CLP (NNB 种))) (NP (FW AML)))))) (, ，) (IP (ADVP (RB 但是)) (PP (VV 随) (PP (AS 着) (NP (DNP (NP (NN 遗传) (SFN 学) (NN 知识)) (DEC 的)) (NP (NN 发展))))) (, ，) (NP (PRP 他们)) (VP (NP (NN 现在)) (VP (VRD (VV 意识) (VV 到)) (IP (NP (DNP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 疾病))) (DEC 的)) (NP (NN 形式))) (VP (JJ 更多)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP50579': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP95862': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+科学	家	compound
+家	看到	nsubj
+以前	看到	nmod:tmod
+在	看到	advcl
+显微	镜下	nmod
+镜下	在	obj
+看到	ROOT	root
+了	看到	aux
+八	种	nummod
+种	AML	clf
+AML	看到	obj
+，	意识	punct
+但是	意识	mark
+随	意识	advcl
+着	随	aux
+遗传	学	compound
+学	知识	nmod
+知识	发展	nmod
+的	知识	case
+发展	随	obj
+，	随	punct
+他	意识	nsubj
+现在	意识	nmod:tmod
+意识	看到	parataxis
+到	意识	mark
+这	种	det
+种	疾病	clf
+疾病	形式	nmod
+的	疾病	case
+形式	更多	nsubj
+更多	意识	ccomp
+。	看到	punct
+----------------------------------------------------------------------
+在约一半的 AML 患者中，染色体变异有助于指导医生选择特定的治疗方法。
+
+(ROOT (IP (PP (IN 在) (LCP (NP (DNP (QP (ADVP (RB 约)) (QP (CD 一半))) (DEC 的)) (NP (FW AML) (NN 患者))) (IN 中))) (, ，) (NP (VV 染色) (SFN 体) (NN 变异)) (VP (VV 有助) (PP (VV 于) (IP (VP (VV 指导) (NP (NN 医生)) (IP (VP (VV 选择) (NP (DNP (ADJP (JJ 特定)) (DEC 的)) (NP (NN 治疗) (NN 方法))))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'VV': {}, 'SFN': {}, 'NN': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'VV': {}, 'SFN': {}, 'NN': {}}, 'VP': {'VV': {}, 'PP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'VV': {}, 'SFN': {}, 'NN': {}}}
+{'VP': {'VV': {}, 'PP': {}}}
+Dependency Features:
+在	患者	case
+约	一半	advmod
+一半	患者	nummod
+的	一半	mark:rel
+AML	患者	nmod
+患者	有助	obl
+中	患者	case
+，	患者	punct
+染色	体	compound
+体	变异	nmod
+变异	有助	nsubj
+有助	ROOT	root
+于	有助	mark
+指导	有助	xcomp
+医生	选择	nsubj
+选择	指导	ccomp
+特定	方法	amod
+的	特定	mark:rel
+治疗	方法	nmod
+方法	选择	obj
+。	有助	punct
+----------------------------------------------------------------------
+决定哪些治疗最适合那些癌症未出现染色体异常的患者半数，仍然是一个难题。
+
+(ROOT (IP (IP (VP (VV 决定) (IP (NP (DP (JJ 哪些)) (NP (NN 治疗))) (VP (ADVP (RB 最)) (VP (VV 适合) (NP (DP (DT 那些)) (CP (CP (IP (NP (NN 癌症)) (VP (ADVP (RB 未)) (VP (VV 出现) (IP (NP (VV 染色) (SFN 体)) (VP (JJ 异常)))))) (DEC 的))) (NP (NN 患者))) (QP (CD 半数))))))) (, ，) (VP (ADVP (RB 仍然)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 难题))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+决定	ROOT	root
+哪些	治疗	amod
+治疗	适合	nsubj
+最	适合	advmod
+适合	患者	acl:relcl
+那些	癌症	det
+癌症	出现	nsubj
+未	出现	advmod
+出现	适合	xcomp
+染色	体	compound
+体	异常	nsubj
+异常	出现	ccomp
+的	出现	mark:rel
+患者	半数	nmod
+半数	难题	nsubj
+，	半数	punct
+仍然	难题	advmod
+是	难题	cop
+一	个	nummod
+个	难题	clf
+难题	决定	ccomp
+。	难题	punct
+----------------------------------------------------------------------
+“我们不知道他们目前的治疗是否有效，”俄亥俄州立大学综合癌症中心医学副教授、一项研究的主要作者古伊多·马库西博士说，“这就是为什么我们和其他团体正在研究基因突变或基因表达的变化，以预测没有染色体异常的患者的病情。”
+
+(ROOT (IP (IP (`` “) (NP (PRP 我们)) (VP (ADVP (RB 不)) (VP (VV 知道) (IP (NP (NP (PRP 他们)) (DNP (NP (NN 目前)) (DEC 的)) (NP (NN 治疗))) (VP (ADVP (VC 是否)) (VP (JJ 有效))))))) (, ，) ('' ”) (IP (NP (NP (NP (NP (NP (NNP 俄亥俄)) (NP (SFN 州)) (ADJP (VV 立)) (NP (NN 大学))) (ADJP (NN 综合)) (NP (NN 癌症) (NN 中心))) (NP (NN 医学)) (ADJP (PFA 副)) (NP (NN 教授))) (EC 、) (NP (DNP (NP (QP (CD 一) (CLP (NNB 项))) (NP (NN 研究))) (DEC 的)) (ADJP (JJ 主要)) (NP (NN 作者))) (NP (NNP 古伊多) (/ ·) (NNP 马库西) (NN 博士))) (VP (VV 说) (, ，) (IP (`` “) (NP (PRD 这)) (VP (VC 就是) (IP (PP (IN 为) (DP (WP 什么))) (NP (NP (PRP 我们)) (CC 和) (NP (DP (DT 其他)) (NP (NN 团体)))) (VP (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 研究) (NP (DNP (NP (NN 基因) (NN 突变) (CC 或) (NN 基因) (VV 表达)) (DEC 的)) (NP (NN 变化))))) (, ，) (VP (RB 以) (VP (VV 预测) (NP (DNP (NP (CP (CP (IP (VP (VV 没有) (IP (NP (VV 染色) (SFN 体)) (VP (JJ 异常))))) (DEC 的))) (NP (NN 患者))) (DEC 的)) (NP (NN 病情))))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP75223': {}, '.': {}, "''97791": {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP31292': {'NP': {}, 'VP': {}}, '.': {}, "''74627": {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+“	知道	punct
+我	知道	nsubj
+不	知道	advmod
+知道	ROOT	root
+他	治疗	nmod
+目前	治疗	nmod
+的	目前	case
+治疗	是	nsubj
+是	知道	ccomp
+有效	是	xcomp
+，	说	punct
+”	说	punct
+俄亥俄	州	compound
+州	立	nsubj
+立	教授	amod
+大学	教授	nmod
+综合	教授	nmod
+癌症	教授	nmod
+中心	教授	nmod
+医学	教授	nmod
+副	教授	case
+教授	博士	nmod
+、	研究	punct
+一	项	nummod
+项	研究	clf
+研究	教授	conj
+的	教授	case
+主要	作者	amod
+作者	教授	conj
+古伊多	作者	appos
+·	马库西	punct
+马库西	古伊多	flat:name
+博士	说	nsubj
+说	知道	parataxis
+，	预测	punct
+“	是	punct
+这	是	nsubj
+是	说	ccomp
+为	什么	case
+什么	预测	obl
+我	研究	nsubj
+和	团体	cc
+其他	团体	det
+团体	我	conj
+正	研究	advmod
+在	研究	advmod
+研究	预测	advcl
+基因	突变	nmod
+突变	研究	obj
+或	表达	cc
+基因	表达	nsubj
+表达	突变	conj
+的	表达	mark:rel
+变化	研究	obj
+，	是	punct
+以	预测	mark
+预测	是	xcomp
+有	病情	acl:relcl
+染色	体	compound
+体	异常	nsubj
+异常	有	conj
+的	有	mark:rel
+患者	有	obj
+的	有	mark:rel
+病情	预测	obj
+。	预测	punct
+”	预测	punct
+----------------------------------------------------------------------
+马鲁奇和他的团队分析了 64 例年龄在 60 岁以下的 AML 患者的骨髓和血液样本，这些患者的白血病细胞染色体结构看起来正常。
+
+(ROOT (IP (IP (NP (NP (NNP 马鲁奇)) (CC 和) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 团队)))) (VP (VV 分析) (AS 了) (NP (DNP (NP (NP (QP (CD 64)) (NP (NN 例年龄))) (DNP (PP (VV 在) (LCP (QP (CD 60) (CLP (NNB 岁))) (IN 以下))) (DEC 的)) (NP (FW AML)) (NP (NN 患者))) (DEC 的)) (NP (NN 骨髓) (CC 和) (NN 血液) (NN 样本))))) (, ，) (IP (NP (DNP (NP (DP (DT 这些)) (NP (NN 患者))) (DEC 的)) (NP (NN 白血) (SFN 病) (NN 细胞) (VV 染色) (SFN 体) (NN 结构))) (VP (VRD (VV 看) (VV 起来)) (VP (JJ 正常)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP62493': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP1565': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+马鲁奇	分析	nsubj
+和	团队	cc
+他	团队	det
+的	他	case
+团队	马鲁奇	conj
+分析	ROOT	root
+了	分析	aux
+64	例年龄	nummod
+例年龄	在	nsubj
+在	患者	acl:relcl
+60	岁	nummod
+岁	在	obj
+以下	岁	case
+的	在	mark:rel
+AML	患者	nmod
+患者	骨髓	nmod
+的	在	mark:rel
+骨髓	分析	obj
+和	样本	cc
+血液	样本	nmod
+样本	骨髓	conj
+，	看	punct
+这些	患者	det
+患者	结构	nmod
+的	患者	case
+白血	病	compound
+病	结构	nmod
+细胞	结构	nmod
+染色	体	compound
+体	结构	nmod
+结构	看	nsubj
+看	分析	parataxis
+起来	看	mark
+正常	看	xcomp
+。	分析	punct
+----------------------------------------------------------------------
+目标：研究微RNA的表达情况，看能否帮助确定哪些治疗方法最适合哪些患者，哪些患者最容易复发。
+
+(ROOT (IP (IP (NP (NN 目标)) (: ：) (VP (VP (VV 研究) (NP (DNP (NP (ADJP (PFA 微)) (NP (FW RNA))) (DEC 的)) (NP (NN 表达) (NN 情况)))) (, ，) (VP (VV 看) (IP (VP (MD 能否) (VP (VV 帮助) (IP (VP (VV 确定) (IP (NP (DP (DT 哪些)) (NP (NN 治疗) (NN 方法))) (VP (ADVP (RB 最)) (VP (VV 适合) (NP (DP (DT 哪些)) (NP (NN 患者)))))))))))))) (, ，) (IP (NP (DP (DT 哪些)) (NP (NN 患者))) (VP (ADVP (RB 最)) (VP (RB 容易) (IP (VP (VV 复发)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP65181': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ':': {}, 'VP': {}}, ',': {}, 'IP75136': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ':': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ':': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+目标	看	nsubj
+：	目标	punct
+研究	情况	acl:relcl
+微	RNA	case
+RNA	研究	obj
+的	研究	mark:rel
+表达	情况	nmod
+情况	看	nsubj
+，	情况	punct
+看	ROOT	root
+能否	看	xcomp
+帮助	能否	xcomp
+确定	帮助	xcomp
+哪些	方法	det
+治疗	方法	nmod
+方法	适合	nsubj
+最	适合	advmod
+适合	确定	ccomp
+哪些	患者	det
+患者	适合	obj
+，	复发	punct
+哪些	患者	det
+患者	复发	nsubj
+最	复发	advmod
+容易	复发	advmod
+复发	看	parataxis
+。	看	punct
+----------------------------------------------------------------------
+Marcucci 解释说，miRNA 是不会转化为蛋白质（不像编码 RNA）的 RNA，但它们会与编码 RNA 结合，关闭其调节蛋白质生产的能力。
+
+(ROOT (IP (NP (FW Marcucci)) (VP (VP (VV 解释)) (VP (VV 说) (, ，) (IP (IP (NP (FW miRNA)) (VP (VC 是) (VP (MD 不会) (VP (VRD (VV 转化) (VC 为)) (NP (DNP (NP (NN 蛋白质) (PRN (-LRB- （) (VP (ADVP (RB 不)) (PP (VV 像) (IP (VP (VV 编码) (NP (FW RNA)))))) (-RRB- ）))) (DEC 的)) (NP (FW RNA))))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 它们)) (VP (MD 会) (VP (VP (PP (IN 与) (NP (VV 编码) (FW RNA))) (VP (VV 结合))) (, ，) (VP (VV 关闭) (NP (CP (IP (NP (PRP 其)) (VP (VV 调节) (NP (NN 蛋白质) (VV 生产)))) (DEC 的)) (NP (NN 能力)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'FW': {}}, 'VP': {'VP': {}, 'VP24983': {}}, '.': {}}}
+{'IP': {'NP': {'FW': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+Marcucci	解释	nsubj
+解释	ROOT	root
+说	解释	xcomp
+，	是	punct
+miRNA	是	nsubj
+是	说	ccomp
+会	转化	aux
+转化	是	xcomp
+为	转化	mark
+蛋白质	像	nsubj
+（	蛋白质	punct
+不	像	advmod
+像	RNA	acl:relcl
+编码	像	xcomp
+RNA	编码	obj
+）	像	punct
+的	像	mark:rel
+RNA	转化	obj
+，	关闭	punct
+但	关闭	mark
+它	关闭	nsubj
+会	结合	aux
+与	RNA	case
+编码	RNA	compound
+RNA	结合	obl
+结合	关闭	advcl
+，	结合	punct
+关闭	说	ccomp
+其	生产	nsubj
+调节	生产	advcl
+蛋白质	生产	obl
+生产	能力	acl:relcl
+的	生产	mark:rel
+能力	关闭	obj
+。	解释	punct
+----------------------------------------------------------------------
+“我们推测，microRNA 如果表达过低或过高，都会对造血细胞（即产生不同类型血细胞的干细胞）的功能产生破坏性影响，”他说道。
+
+(ROOT (IP (IP (`` “) (NP (PRP 我们)) (VP (VV 推测) (, ，) (IP (NP (FW micro) (FW RNA)) (VP (IP (VP (ADVP (IN 如果)) (VP (VV 表达) (IP (VP (JJ 过低) (CC 或) (JJ 过高)))))) (, ，) (ADVP (RB 都)) (VP (MD 会) (VP (PP (IN 对) (NP (DNP (NP (NN 造血) (NN 细胞) (PRN (-LRB- （) (NP (ADVP (VC 即)) (IP (VP (VV 产生) (NP (DNP (NP (NP (ADJP (JJ 不同)) (NP (NN 类型))) (NP (NN 血) (NN 细胞))) (DEC 的)) (ADJP (NN 干)) (NP (NN 细胞)))))) (-RRB- ）))) (DEC 的)) (NP (NN 功能)))) (VP (VV 产生) (NP (NN 破坏) (SFN 性) (NN 影响))))))))) (, ，) ('' ”) (NP (PRP 他)) (VP (VV 说道)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+“	产生	punct
+我	推测	nsubj
+推测	产生	advcl
+，	推测	punct
+micro	RNA	nmod
+RNA	表达	nsubj
+如果	表达	case
+表达	产生	xcomp
+过低	表达	xcomp
+或	过高	cc
+过高	表达	conj
+，	表达	punct
+都	产生	mark
+会	产生	aux
+对	细胞	case
+造血	细胞	nmod
+细胞	即	nsubj
+（	细胞	punct
+即	功能	acl:relcl
+产生	即	xcomp
+不同	类型	amod
+类型	细胞	nmod
+血	细胞	nmod
+细胞	产生	obj
+的	产生	mark:rel
+干	细胞	nmod
+细胞	产生	obj
+）	的	punct
+的	即	mark:rel
+功能	产生	obl
+产生	ROOT	root
+破坏	性	compound
+性	影响	nmod
+影响	产生	obj
+，	说道	punct
+”	说道	punct
+他	说道	nsubj
+说道	产生	parataxis
+。	产生	punct
+----------------------------------------------------------------------
+事实上，俄亥俄州立大学的团队发现了 7 个 miRNA 的“家族”（或群组），其表达与结局的好坏（其中一个家族的结局好，其余 6 个家族的结局坏）有关。
+
+(ROOT (IP (IP (LCP (NP (NN 事实)) (IN 上)) (, ，) (NP (DNP (NP (NNP 俄亥俄) (SFN 州) (VV 立) (NN 大学)) (DEC 的)) (NP (NN 团队))) (VP (VV 发现) (AS 了) (NP (QP (CD 7) (CLP (NNB 个))) (DNP (NP (FW miRNA)) (DEC 的)) (NP (`` “) (NN 家族) ('' ”)) (PRN (-LRB- （) (CC 或) (NP (NN 群组)) (-RRB- ）))))) (, ，) (IP (NP (DNP (NP (NP (PRP 其)) (NP (VV 表达) (IN 与) (NN 结局))) (DEC 的)) (NP (NN 好坏)) (PRN (-LRB- （) (IP (NP (DNP (NP (NP (NN 其中)) (QP (CD 一) (CLP (NNB 个))) (NP (NN 家族))) (DEC 的)) (NP (NN 结局))) (VP (JJ 好))) (, ，) (IP (NP (DNP (NP (DP (DT 其余) (QP (CD 6) (CLP (NNB 个)))) (NP (NN 家族))) (DEC 的)) (NP (NN 结局))) (VP (JJ 坏))) (-RRB- ）))) (VP (JJ 有关))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP74747': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP67423': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+事实	发现	obl
+上	事实	case
+，	事实	punct
+俄亥俄	州	compound
+州	立	nsubj
+立	大学	amod
+大学	团队	nmod
+的	大学	case
+团队	发现	nsubj
+发现	ROOT	root
+了	发现	aux
+7	个	nummod
+个	家族	clf
+miRNA	家族	det
+的	miRNA	mark:rel
+“	家族	punct
+家族	发现	obj
+”	家族	punct
+（	群组	punct
+或	群组	cc
+群组	家族	conj
+）	群组	punct
+，	表达	punct
+其	表达	nsubj
+表达	发现	parataxis
+与	好坏	case
+结局	好坏	nmod
+的	结局	case
+好坏	表达	obj
+（	有关	punct
+其中	家族	nmod
+一	个	nummod
+个	家族	clf
+家族	结局	nmod
+的	家族	case
+结局	好	nsubj
+好	有关	advcl
+，	好	punct
+其余	个	det
+6	个	nummod
+个	家族	clf
+家族	结局	nmod
+的	家族	case
+结局	坏	nsubj
+坏	有关	advcl
+）	坏	punct
+有关	发现	parataxis
+。	发现	punct
+----------------------------------------------------------------------
+然后，这些结果在另一组患者中得到了验证。
+
+(ROOT (IP (ADVP (RB 然后)) (, ，) (NP (DP (DT 这些)) (NP (NN 结果))) (VP (PP (IN 在) (LCP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 组)))) (NP (NN 患者))) (IN 中))) (VP (VV 得到) (AS 了) (NP (NN 验证)))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+然后	得到	advmod
+，	然后	punct
+这些	结果	det
+结果	得到	nsubj
+在	患者	case
+另	组	det
+一	组	nummod
+组	患者	nmod
+患者	得到	obl
+中	患者	case
+得到	ROOT	root
+了	得到	aux
+验证	得到	obj
+。	得到	punct
+----------------------------------------------------------------------
+研究人员还确定了所涉及的 microRNA 参与调节免疫系统中的基因。
+
+(ROOT (IP (NP (NN 研究) (NN 人员)) (VP (ADVP (RB 还)) (VP (VV 确定) (AS 了) (IP (NP (CP (CP (IP (VP (RB 所) (VP (VV 涉及)))) (DEC 的))) (NP (FW micro) (FW RNA))) (VP (VV 参与) (NP (CP (CP (IP (VP (NN 调节) (LCP (NP (NN 免疫) (NN 系统)) (IN 中)))) (DEC 的))) (NP (NN 基因))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'NN25084': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+研究	人员	nmod
+人员	确定	nsubj
+还	确定	mark
+确定	ROOT	root
+了	确定	aux
+所	涉及	mark
+涉及	RNA	acl:relcl
+的	涉及	mark:rel
+micro	RNA	nmod
+RNA	参与	nsubj
+参与	基因	acl:relcl
+调节	系统	nmod
+免疫	系统	nmod
+系统	参与	obj
+中	系统	case
+的	参与	mark:rel
+基因	确定	obj
+。	确定	punct
+----------------------------------------------------------------------
+“这些miRNA可能会影响原有的免疫功能，”马库奇说。
+
+(ROOT (IP (IP (`` “) (NP (DP (DT 这些)) (NP (FW miRNA))) (VP (MD 可能) (VP (MD 会) (VP (VV 影响) (NP (DNP (ADJP (JJ 原有)) (DEC 的)) (NP (NN 免疫) (NN 功能))))))) (, ，) ('' ”) (NP (NNP 马库奇)) (VP (VV 说)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+“	影响	punct
+这些	miRNA	det
+miRNA	影响	nsubj
+可能	影响	aux
+会	影响	aux
+影响	ROOT	root
+原有	功能	amod
+的	原有	mark:rel
+免疫	功能	nmod
+功能	影响	obj
+，	说	punct
+”	说	punct
+马库奇	说	nsubj
+说	影响	parataxis
+。	影响	punct
+----------------------------------------------------------------------
+这就提出了一个非常有趣且具有现实意义的问题，即一些针对免疫系统的药物可能会对 AML 细胞产生影响。
+
+(ROOT (IP (IP (NP (PRD 这)) (VP (ADVP (RB 就)) (VP (VV 提出) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VP (ADVP (RB 非常)) (VP (JJ 有趣))) (CC 且) (VP (VV 具有) (NP (NN 现实) (NN 意义))))) (DEC 的))) (NP (NN 问题)))))) (, ，) (IP (ADVP (VC 即)) (NP (QP (JJ 一些)) (DNP (PP (VV 针对) (NP (NN 免疫) (NN 系统))) (DEC 的)) (NP (NN 药物))) (VP (MD 可能) (VP (MD 会) (VP (PP (IN 对) (NP (FW AML) (NN 细胞))) (VP (VV 产生) (NP (NN 影响))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP40675': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP98444': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+这	提出	nsubj
+就	提出	mark
+提出	ROOT	root
+了	提出	aux
+一	个	nummod
+个	问题	clf
+非常	有趣	advmod
+有趣	问题	amod
+且	具有	cc
+具有	有趣	conj
+现实	意义	nmod
+意义	具有	obj
+的	有趣	mark:rel
+问题	提出	obj
+，	即	punct
+即	提出	ccomp
+一些	药物	amod
+针对	药物	acl:relcl
+免疫	系统	nmod
+系统	针对	obj
+的	针对	mark:rel
+药物	产生	nsubj
+可能	产生	aux
+会	产生	aux
+对	细胞	case
+AML	细胞	nmod
+细胞	产生	obl
+产生	即	xcomp
+影响	产生	obj
+。	提出	punct
+----------------------------------------------------------------------
+德国-奥地利急性 myeloid 白血病研究小组进行的第二项研究，涉及 872 名 60 岁以下患有不同遗传特征的急性 myeloid 白血病的成年人。
+
+(ROOT (IP (NP (CP (CP (IP (NP (NP (NNP 德国) (HYPH -) (NNP 奥地利)) (ADJP (NN 急性)) (NP (FW myeloid) (NN 白血) (SFN 病) (NN 研究) (NN 小组))) (VP (VV 进行))) (DEC 的))) (QP (CD 第二) (CLP (NNB 项))) (NP (NN 研究))) (, ，) (VP (VV 涉及) (NP (DNP (NP (QP (CD 872) (LCP (QP (CD 名 60) (CLP (NNB 岁))) (IN 以下))) (CP (CP (IP (VP (VV 患有) (NP (ADJP (JJ 不同)) (NP (NN 遗传) (NN 特征))))) (DEC 的))) (ADJP (NN 急性)) (NP (FW myeloid) (NN 白血) (SFN 病))) (DEC 的)) (ADJP (VV 成年)) (NP (SFN 人)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'QP': {}, 'NP': {}}, ',': {}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'QP': {}, 'NP': {}}, ',': {}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'QP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+德国	小组	nmod
+-	德国	punct
+奥地利	小组	nmod
+急性	小组	nmod
+myeloid	小组	nmod
+白血	病	compound
+病	小组	nmod
+研究	小组	nmod
+小组	进行	nsubj
+进行	研究	acl:relcl
+的	进行	mark:rel
+第二	项	nummod
+项	研究	clf
+研究	涉及	nsubj
+，	研究	punct
+涉及	ROOT	root
+872	岁	nummod
+名 60	岁	nummod
+岁	病	nmod
+以下	岁	case
+患有	病	acl:relcl
+不同	特征	amod
+遗传	特征	nmod
+特征	患有	obj
+的	患有	mark:rel
+急性	病	nmod
+myeloid	病	nmod
+白血	病	compound
+病	人	nmod
+的	患有	mark:rel
+成年	人	compound
+人	涉及	obj
+。	人	punct
+----------------------------------------------------------------------
+参与者被分为四个不同的试验组，每个试验组都涉及干细胞移植。
+
+(ROOT (IP (IP (NP (VV 参与) (SFN 者)) (VP (BB 被) (VP (VRD (VV 分) (VC 为)) (NP (QP (CD 四) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (VV 试验) (SFN 组)))))) (, ，) (IP (NP (DP (DT 每个)) (NP (VV 试验) (SFN 组))) (VP (ADVP (RB 都)) (VP (VV 涉及) (NP (NP (ADJP (VV 干)) (NP (NN 细胞))) (NP (NN 移植)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP69462': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP13923': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+参与	者	compound
+者	分	nsubj:pass
+被	分	aux:pass
+分	ROOT	root
+为	分	mark
+四	个	nummod
+个	组	nmod
+不同	组	amod
+的	不同	mark:rel
+试验	组	compound
+组	分	obj
+，	涉及	punct
+每个	组	det
+试验	组	compound
+组	涉及	nsubj
+都	涉及	mark
+涉及	分	parataxis
+干	移植	amod
+细胞	移植	nmod
+移植	涉及	obj
+。	分	punct
+----------------------------------------------------------------------
+总体缓解率为 77%，但这一率会因癌症的基因组成而有所不同。
+
+(ROOT (IP (IP (NP (NN 总体) (VV 缓解) (SFN 率)) (VP (VC 为) (QP (CD 77%)))) (, ，) (IP (ADVP (RB 但)) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 率))) (VP (MD 会) (VP (PP (IN 因) (NP (DNP (NP (NN 癌症)) (DEC 的)) (NP (NN 基因) (NN 组成)))) (VP (RB 而) (VP (VV 有) (NP (RB 所) (NP (JJ 不同)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP84994': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP13610': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+总体	率	nmod
+缓解	率	compound
+率	77%	nsubj
+为	77%	cop
+77%	ROOT	root
+，	有	punct
+但	有	mark
+这	率	det
+一	率	nummod
+率	有	nsubj
+会	有	aux
+因	组成	case
+癌症	组成	nmod
+的	癌症	case
+基因	组成	nmod
+组成	有	obl
+而	有	mark
+有	77%	parataxis
+所	不同	mark
+不同	有	xcomp
+。	77%	punct
+----------------------------------------------------------------------
+两种不同的亚型的四年生存率分别为 60% 和 62%；在这两组中，干细胞移植并没有带来额外的好处。
+
+(ROOT (IP (IP (NP (DNP (NP (QP (CD 两) (CLP (NNB 种))) (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (NN 亚型))) (DEC 的)) (QP (CD 四) (CLP (NNB 年))) (NP (VV 生存) (SFN 率))) (VP (ADVP (RB 分别)) (VP (VC 为) (QP (QP (CD 60%)) (CC 和 62%))))) (: ；) (IP (PP (IN 在) (LCP (DP (DT 这) (QP (CD 两) (CLP (NNB 组)))) (IN 中))) (, ，) (NP (NP (ADJP (NN 干)) (NP (NN 细胞))) (NP (NN 移植))) (VP (ADVP (RB 并)) (VP (VV 没有) (VP (VV 带来) (NP (DNP (ADJP (JJ 额外)) (DEC 的)) (NP (NN 好处))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP32453': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP12550': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+两	种	nummod
+种	率	nmod
+不同	亚型	amod
+的	不同	mark:rel
+亚型	率	nmod
+的	亚型	case
+四	年	nummod
+年	率	nmod
+生存	率	compound
+率	60%	nsubj
+分别	60%	advmod
+为	60%	cop
+60%	ROOT	root
+和 62%	60%	mark
+；	有	punct
+在	组	case
+这	组	det
+两	组	nummod
+组	有	obl
+中	组	case
+，	组	punct
+干	移植	nmod
+细胞	移植	nmod
+移植	有	nsubj
+并	有	mark
+有	60%	parataxis
+带来	有	xcomp
+额外	好处	amod
+的	额外	mark:rel
+好处	带来	obj
+。	60%	punct
+----------------------------------------------------------------------
+另一方面，具有其他两种遗传型的患者预后要差得多，四年内未复发的生存率分别为 24% 和 25%，总体生存率分别为 24% 和 33%。
+
+(ROOT (IP (NP (DP (DT 另) (QP (CD 一))) (NP (NN 方面))) (, ，) (IP (IP (NP (CP (CP (IP (VP (VV 具有) (NP (DP (DT 其他) (QP (CD 两) (CLP (NNB 种)))) (NP (VV 遗传) (SFN 型))))) (DEC 的))) (NP (NN 患者))) (VP (ADVP (NN 预后)) (VP (MD 要) (VP (VV 差得) (VP (CD 多)))))) (, ，) (IP (NP (CP (CP (IP (VP (LCP (QP (CD 四) (CLP (NNB 年))) (IN 内)) (ADVP (RB 未)) (VP (VV 复发)))) (DEC 的))) (NP (VV 生存) (SFN 率))) (VP (ADVP (RB 分别)) (VP (VC 为) (LCP (QP (CD 24%)) (IN 和 25%))))) (, ，) (IP (NP (NN 总体) (VV 生存) (SFN 率)) (VP (ADVP (RB 分别)) (VP (VC 为) (QP (CD 24%) (CLP (CC 和 33%))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'IP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'IP29649': {}, ',62168': {}, 'IP21997': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+另	方面	det
+一	方面	nummod
+方面	差得	obl
+，	方面	punct
+具有	预后	acl:relcl
+其他	型	det
+两	种	nummod
+种	型	nmod
+遗传	型	compound
+型	具有	obj
+的	具有	mark:rel
+患者	预后	nmod
+预后	差得	nsubj
+要	差得	aux
+差得	ROOT	root
+多	差得	obj
+，	24%	punct
+四	年	nummod
+年	复发	nmod:tmod
+内	年	case
+未	复发	advmod
+复发	率	acl:relcl
+的	复发	mark:rel
+生存	率	compound
+率	24%	nsubj
+分别	24%	advmod
+为	24%	cop
+24%	差得	parataxis
+和 25%	24%	punct
+，	24%	punct
+总体	率	nmod
+生存	率	compound
+率	24%	nsubj
+分别	24%	advmod
+为	24%	cop
+24%	差得	parataxis
+和 33%	24%	cc
+。	差得	punct
+----------------------------------------------------------------------
+干细胞移植对一部分患者确实有帮助。
+
+(ROOT (IP (NP (IP (VP (NN 干) (NP (NN 细胞)))) (NP (NN 移植))) (VP (PP (IN 对) (NP (QP (CD 一) (CLP (NN 部分))) (NP (NN 患者)))) (ADVP (RB 确实)) (VP (VV 有) (NP (NN 帮助)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'IP': {}, 'NP': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'IP': {}, 'NP': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'IP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+干	移植	nmod
+细胞	移植	nmod
+移植	有	nsubj
+对	患者	case
+一	部分	nummod
+部分	患者	nmod
+患者	有	obl
+确实	有	advmod
+有	ROOT	root
+帮助	有	obj
+。	有	punct
+----------------------------------------------------------------------

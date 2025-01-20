@@ -1,0 +1,898 @@
+Robonaut 2 是美国航空航天局 (NASA) 与通用汽车公司共同开发的，它将使用为宇航员开发的同样的工具，在国际空间站上充当人类的助手。
+
+(ROOT (IP (IP (NP (FW Robonaut) (CD 2)) (VP (VC 是) (NP (CP (CP (IP (NP (NP (NP (NNP 美国) (NN 航空) (NN 航天) (SFN 局)) (NP (FW -LRB-NASA-RRB-))) (CC 与) (NP (NNP 通用) (NN 汽车) (NN 公司))) (VP (ADVP (RB 共同)) (VP (VV 开发)))) (UH 的)))))) (, ，) (IP (NP (PRP 它)) (VP (ADVP (RB 将)) (VP (VP (VV 使用) (NP (CP (CP (IP (VP (PP (IN 为) (NP (NN 宇航) (SFN 员))) (VP (VV 开发)))) (DEC 的))) (DNP (ADJP (JJ 同样)) (DEC 的)) (NP (NN 工具)))) (, ，) (VP (PP (IN 在) (LCP (NP (NN 国际) (NN 空间)) (VV 站上))) (VP (VV 充当) (NP (DNP (NP (NN 人类)) (DEC 的)) (NP (NN 助手)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP73832': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP1146': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+Robonaut	充当	nsubj
+2	Robonaut	flat:name
+是	开发	cop
+美国	(NASA)	nmod
+航空	(NASA)	nmod
+航天	局	compound
+局	(NASA)	nmod
+(NASA)	开发	nsubj
+与	公司	cc
+通用	公司	nmod
+汽车	公司	nmod
+公司	(NASA)	conj
+共同	开发	advmod
+开发	使用	ccomp
+的	开发	discourse
+，	充当	punct
+它	充当	nsubj
+将	使用	advmod
+使用	充当	advcl
+为	员	case
+宇航	员	compound
+员	开发	obl
+开发	工具	acl:relcl
+的	开发	mark:rel
+同样	工具	amod
+的	同样	mark:rel
+工具	使用	obj
+，	使用	punct
+在	空间	case
+国际	空间	nmod
+空间	充当	obl
+站上	充当	advcl
+充当	ROOT	root
+人类	助手	nmod
+的	人类	case
+助手	充当	obj
+。	充当	punct
+----------------------------------------------------------------------
+虽然像火星凤凰号登陆器这样的普通机器人是美国航空航天局的主要作业部分，但人形机器人却是另一回事。
+
+(ROOT (IP (CP (ADVP (IN 虽然)) (IP (NP (CP (CP (IP (VP (PP (VV 像) (NP (NP (NNP 火星)) (NP (NNP 凤凰) (SFN 号)) (NP (VV 登陆) (SFN 器)))) (VP (PRD 这样)))) (DEC 的))) (ADJP (JJ 普通)) (NP (NN 机器) (SFN 人))) (VP (VC 是) (NP (DNP (NP (NNP 美国) (NN 航空) (NN 航天) (SFN 局)) (DEC 的)) (ADJP (JJ 主要)) (NP (NN 作业) (NN 部分)))))) (, ，) (ADVP (RB 但)) (NP (NN 人形) (NN 机器) (SFN 人)) (VP (VC 却是) (NP (DP (DT 另) (QP (CD 一))) (NP (NN 回事)))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'NN': {}, 'NN90439': {}, 'SFN': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'NN': {}, 'NN': {}, 'SFN': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NN': {}, 'NN': {}, 'SFN': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+虽然	部分	case
+像	人	acl:relcl
+火星	器	nmod
+凤凰	号	compound
+号	器	nmod
+登陆	器	compound
+器	像	obj
+这样	器	appos
+的	像	mark:rel
+普通	人	amod
+机器	人	compound
+人	部分	nsubj
+是	部分	cop
+美国	局	nmod
+航空	局	nmod
+航天	局	compound
+局	部分	nmod
+的	局	case
+主要	部分	amod
+作业	部分	nmod
+部分	回事	ccomp
+，	部分	punct
+但	回事	mark
+人形	人	nmod
+机器	人	compound
+人	回事	nsubj
+是	回事	cop
+另	一	det
+一	回事	nummod
+回事	ROOT	root
+。	回事	punct
+----------------------------------------------------------------------
+人们对于人形机器人帮助人类的想法有着强烈的科幻吸引力，但这个想法是否有更多的寓意？迈克耳孙·肯尼迪太空中心的航天专家、前宇航员杰弗里·霍夫曼表示，是的。
+
+(ROOT (IP (IP (NP (NN 人们)) (VP (PP (IN 对于) (NP (CP (IP (NP (NN 人形) (NN 机器) (SFN 人)) (VP (VV 帮助) (NP (NN 人类)))) (DEC 的)) (NP (NN 想法)))) (VP (VV 有) (AS 着) (NP (CP (CP (IP (VP (JJ 强烈))) (DEC 的))) (NP (NN 科幻) (VV 吸引) (SFN 力)))))) (, ，) (IP (ADVP (RB 但)) (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 想法))) (VP (ADVP (VC 是否)) (VP (VV 有) (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的))) (NP (NN 寓意)))))) (. ？)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP83689': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP72704': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+人	有	nsubj
+对于	想法	case
+人形	人	nmod
+机器	人	compound
+人	帮助	obl
+帮助	想法	acl:relcl
+人类	帮助	obj
+的	帮助	mark:rel
+想法	有	obl
+有	ROOT	root
+着	有	aux
+强烈	力	amod
+的	强烈	mark:rel
+科幻	力	nmod
+吸引	力	compound
+力	有	obj
+，	有	punct
+但	有	mark
+这	个	det
+个	想法	clf
+想法	有	nsubj
+是	有	aux
+有	有	parataxis
+更多	寓意	amod
+的	更多	mark:rel
+寓意	有	obj
+？	有	punct
+----------------------------------------------------------------------
+“我非常相信人机互动。
+
+(ROOT (IP (`` “) (NP (PRP 我)) (VP (ADVP (RB 非常)) (VP (VV 相信) (NP (NN 人机) (VV 互动)))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+“	相信	punct
+我	相信	nsubj
+非常	相信	advmod
+相信	ROOT	root
+人机	互动	nsubj
+互动	相信	ccomp
+。	相信	punct
+----------------------------------------------------------------------
+“你可以建立协同作用，以完成人类和机器人单独无法完成的任务，”霍夫曼说。 “这就是 Robonaut 诞生的灵感。”
+
+(ROOT (IP (IP (IP (`` “) (NP (PRP 你)) (VP (MD 可以) (VP (VP (VV 建立) (NP (JJ 协同) (NN 作用))) (, ，) (PP (RB 以) (VP (VV 完成) (NP (CP (CP (IP (NP (NN 人类) (CC 和) (NN 机器) (SFN 人)) (VP (ADVP (RB 单独)) (ADVP (VV 无法)) (VP (VV 完成)))) (DEC 的))) (NP (NN 任务)))))))) (, ，) ('' ”)) (NP (NNP 霍夫曼)) (VP (VV 说)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, "''": {}}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, "''": {}}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+“	完成	punct
+你	完成	nsubj
+可以	建立	aux
+建立	完成	advcl
+协同	作用	amod
+作用	建立	obj
+，	建立	punct
+以	完成	mark
+完成	说	advcl
+人类	无法	nsubj
+和	人	cc
+机器	人	compound
+人	人类	conj
+单独	无法	advmod
+无法	任务	acl:relcl
+完成	无法	xcomp
+的	无法	mark:rel
+任务	完成	obj
+，	完成	punct
+”	说	punct
+霍夫曼	说	nsubj
+说	ROOT	root
+。	说	punct
+----------------------------------------------------------------------
+许多成功的机器人，比如 Kiva 的产品配送机器人或军方的小助手，看起来与人类完全不同。
+
+(ROOT (IP (NP (NP (QP (CD 许多)) (CP (CP (IP (VP (JJ 成功))) (DEC 的))) (NP (NN 机器) (SFN 人))) (, ，) (NP (ADVP (VV 比如)) (NP (NP (DNP (NP (FW Kiva)) (DEC 的)) (NP (NN 产品) (VV 配送) (NN 机器) (SFN 人))) (CC 或) (NP (DNP (NP (NN 军方)) (DEC 的)) (ADJP (SFA 小)) (NP (NN 助手)))))) (, ，) (VP (VRD (VV 看) (VV 起来)) (IP (VP (PP (IN 与) (NP (NN 人类))) (ADVP (RB 完全)) (VP (JJ 不同))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, ',': {}, 'NP54256': {}}, ',': {}, 'VP': {'VRD': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, ',': {}, 'NP': {}}, ',': {}, 'VP': {'VRD': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, ',': {}, 'NP': {}}}
+{'VP': {'VRD': {}, 'IP': {}}}
+Dependency Features:
+许多	人	nummod
+成功	人	amod
+的	成功	mark:rel
+机器	人	compound
+人	比如	nsubj
+，	人	punct
+比如	ROOT	root
+Kiva	产品	det
+的	Kiva	case
+产品	配送	nsubj
+配送	助手	acl:relcl
+机器	人	compound
+人	配送	obj
+或	军方	cc
+军方	人	conj
+的	配送	mark:rel
+小	助手	case
+助手	不同	nsubj
+，	助手	punct
+看	不同	advcl
+起来	看	mark
+与	人类	case
+人类	不同	nmod
+完全	不同	advmod
+不同	比如	ccomp
+。	不同	punct
+----------------------------------------------------------------------
+而一些空间研究人员，比如麻省理工学院历史学家兼政策分析师戴维·明德尔并不认为人形机器人是个好主意。
+
+(ROOT (IP (ADVP (RB 而)) (NP (NP (QP (JJ 一些)) (NP (NN 空间) (NN 研究) (NN 人员))) (, ，) (NP (ADVP (VV 比如)) (NP (NP (NP (NNP 麻省) (NN 理工) (NN 学院)) (NP (NN 历史) (NN 学家) (CC 兼) (NN 政策) (VV 分析) (SFN 师))) (NP (NNP 戴维) (/ ·) (NNP 明德尔))))) (VP (ADVP (RB 并)) (ADVP (RB 不)) (VP (VV 认为) (IP (NP (ADJP (NN 人形)) (NP (NN 机器) (SFN 人))) (VP (VC 是) (NP (ADJP (JJ 个好)) (NP (NN 主意))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NP': {}, ',': {}, 'NP58594': {}}, 'VP': {'ADVP': {}, 'ADVP3166': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NP': {}, ',': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NP': {}, ',': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+而	比如	mark
+一些	人员	amod
+空间	人员	nmod
+研究	人员	nmod
+人员	为	nsubj
+，	人员	punct
+比如	为	advcl
+麻省	学家	nmod
+理工	学家	nmod
+学院	学家	nmod
+历史	学家	nmod
+学家	比如	obj
+兼	师	cc
+政策	师	nmod
+分析	师	compound
+师	学家	conj
+戴维	师	appos
+·	明德尔	punct
+明德尔	戴维	flat:name
+并	不	advmod
+不	为	advmod
+为	ROOT	root
+人形	人	nmod
+机器	人	compound
+人	主意	nsubj
+是	主意	cop
+个好	主意	amod
+主意	为	ccomp
+。	为	punct
+----------------------------------------------------------------------
+但国际空间站可能是一个人形机器人的完美之地。
+
+(ROOT (IP (ADVP (RB 但)) (NP (NN 国际) (NN 空间) (SFN 站)) (VP (MD 可能) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (NP (NN 人) (SFN 形) (NN 机器) (SFN 人)) (DEC 的)) (CP (CP (IP (VP (JJ 完美))) (DEC 之))) (NP (NN 地))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NN': {}, 'NN34895': {}, 'SFN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NN': {}, 'NN': {}, 'SFN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NN': {}, 'NN': {}, 'SFN': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+但	地	mark
+国际	站	nmod
+空间	站	compound
+站	地	nsubj
+可能	地	aux
+是	地	cop
+一	个	nummod
+个	人	nmod
+人	形	compound
+形	人	nmod
+机器	人	compound
+人	地	nmod
+的	完美	mark:rel
+完美	地	amod
+之	完美	mark:rel
+地	ROOT	root
+。	地	punct
+----------------------------------------------------------------------
+“Robonaut 的人形外形至关重要，因为它将被送入太空，而太空探索费用极其昂贵，它必须偿还自己的成本，”前机器人专家丹尼尔·威尔逊 (《如何建造机器人军团》作者) 说道，“它必须能够拿起宇航员可以使用的任何工具，并外出执行任务。”
+
+(ROOT (IP (IP (`` “) (IP (NP (DNP (NP (FW Robonaut)) (DEC 的)) (NP (NN 人形) (NN 外形))) (VP (JJ 至关重要))) (, ，) (IP (PP (IN 因为) (IP (NP (PRP 它)) (VP (BB 将) (VP (BB 被) (VP (VV 送入) (NP (NN 太空))))))) (, ，) (RB 而) (NP (NN 太空) (NN 探索) (NN 费用)) (VP (ADVP (RB 极)) (ADVP (PRP 其)) (VP (JJ 昂贵)))) (, ，) (IP (NP (PRP 它)) (VP (MD 必须) (VP (VV 偿) (VP (VV 还) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 成本))))))) (, ，) ('' ”) (NP (NP (NP (NP (ADJP (PFA 前)) (NP (NN 机器) (SFN 人) (NN 专家))) (NP (NNP 丹尼尔) (/ ·) (NNP 威尔逊))) (PP (-LRB- -LRB-《) (IP (VP (ADVP (RB 如何)) (VP (VV 建造) (NP (NN 机器) (SFN 人) (NN 军团)))))) (-RRB- 》)) (NP (NN 作者))) (-RRB- -RRB-)) (VP (VV 说道) (, ，) (IP (`` “) (NP (PRP 它)) (VP (MD 必须) (VP (MD 能够) (VP (VP (VV 拿起) (NP (CP (CP (IP (NP (VV 宇航) (SFN 员)) (VP (MD 可以) (VP (VV 使用)))) (DEC 的))) (DP (DT 任何)) (NP (NN 工具)))) (, ，) (RB 并) (VP (VV 外出) (IP (VP (VV 执行) (NP (NN 任务)))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'IP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'IP37836': {}, ',95641': {}, 'IP42315': {}, ',93331': {}, "''": {}, 'NP': {}, '-RRB-': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, "''": {}, 'NP': {}, '-RRB-': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, "''": {}, 'NP': {}, '-RRB-': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+“	Robonaut	punct
+Robonaut	外形	det
+的	Robonaut	case
+人形	外形	nmod
+外形	至关重要	nsubj
+至关重要	ROOT	root
+，	昂贵	punct
+因为	送入	case
+它	送入	nsubj
+将	送入	case
+被	送入	aux:pass
+送入	昂贵	xcomp
+太空	送入	iobj
+，	送入	punct
+而	昂贵	mark
+太空	费用	nmod
+探索	费用	nmod
+费用	昂贵	nsubj
+极	昂贵	advmod
+其	昂贵	nsubj
+昂贵	至关重要	parataxis
+，	偿	punct
+它	偿	nsubj
+必须	偿	aux
+偿	至关重要	parataxis
+还	成本	acl:relcl
+自己	还	obj
+的	还	mark:rel
+成本	偿	obj
+，	说道	punct
+”	偿	punct
+前	人	case
+机器	人	compound
+人	专家	nmod
+专家	说道	nsubj
+丹尼尔	专家	appos
+·	威尔逊	punct
+威尔逊	丹尼尔	flat:name
+(《	建造	punct
+如何	建造	advmod
+建造	作者	amod
+机器	人	compound
+人	军团	nmod
+军团	建造	obj
+》	军团	punct
+作者	丹尼尔	appos
+)	建造	punct
+说道	至关重要	parataxis
+，	外出	punct
+“	外出	punct
+它	外出	nsubj
+必须	拿起	aux
+能够	拿起	aux
+拿起	外出	advcl
+宇航	员	compound
+员	使用	nsubj
+可以	使用	aux
+使用	工具	acl:relcl
+的	使用	mark:rel
+任何	工具	det
+工具	拿起	obj
+，	拿起	punct
+并	外出	mark
+外出	说道	ccomp
+执行	外出	xcomp
+任务	执行	obj
+。	至关重要	punct
+”	说道	punct
+----------------------------------------------------------------------
+威尔逊认为，太空是展示人类多才多艺和通用人形机器人的独特环境。
+
+(ROOT (IP (NP (NNP 威尔逊)) (VP (VV 认为) (, ，) (IP (NP (NN 太空)) (VP (VC 是) (VP (VV 展示) (NP (CP (NP (NP (NN 人类)) (VP (ADVP (CD 多) (NNB 才) (JJ 多艺)) (CC 和) (VP (JJ 通用) (NP (NP (NN 人) (SFN 形)) (NP (NN 机器) (SFN 人)))))) (DEC 的)) (ADJP (JJ 独特)) (NP (NN 环境))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+威尔逊	为	nsubj
+为	ROOT	root
+，	环境	punct
+太空	环境	nsubj
+是	环境	cop
+展示	环境	acl:relcl
+人类	展示	obj
+多	才	nummod
+才	多艺	obl
+多艺	环境	amod
+和	人	cc
+通用	人	amod
+人	形	compound
+形	人	nmod
+机器	人	compound
+人	多艺	conj
+的	多艺	mark:rel
+独特	环境	amod
+环境	为	ccomp
+。	为	punct
+----------------------------------------------------------------------
+“你不能把一个工具带上太空去解决每一个问题。这根本不可能。宇航员扛不了那么多东西。就像这样，‘我有一把螺丝刀和我的大脑，我需要解决这个问题，但我不知道我离开地球之前该怎么做。’”威尔逊说。“你可以利用这个人形机器人来解决所有这些问题。”
+
+(ROOT (IP (`` “) (NP (PRP 你)) (VP (MD 不能) (VP (BB 把) (IP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 工具))) (VP (VP (VV 带上) (NP (NN 太空))) (VP (RB 去) (VP (VV 解决) (NP (DP (DT 每) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 问题))))))))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+“	解决	punct
+你	解决	nsubj
+能	解决	aux
+把	工具	case
+一	个	nummod
+个	工具	clf
+工具	带上	obl:patient
+带上	解决	advcl
+太空	带上	iobj
+去	解决	mark
+解决	ROOT	root
+每	个	det
+一	个	nummod
+个	问题	nmod
+问题	解决	obj
+。	解决	punct
+----------------------------------------------------------------------
+蒙特利尔大学 (Trinity University) 的詹姆斯·休斯 (James Hughes) 研究新兴技术，他认为，人形机器人可以在硬派的宇航员和喜欢看机器人飞行任务的人之间找到一个好的中间点。
+
+(ROOT (IP (IP (NP (DNP (NP (NP (NP (NNP 蒙特利尔) (NN 大学)) (NP (FW -LRB-Trinity) (FW University))) (-RRB- -RRB-)) (DEC 的)) (NP (NNP 詹姆斯) (/ ·) (NNP 休斯) (FW -LRB-James) (FW Hughes-RRB-))) (VP (VV 研究) (NP (ADJP (NN 新兴)) (NP (NN 技术))))) (, ，) (IP (NP (PRP 他)) (VP (VV 认为) (, ，) (IP (NP (NN 人形) (NN 机器) (SFN 人)) (VP (MD 可以) (VP (PP (IN 在) (LCP (NP (NP (DNP (NP (NN 硬派)) (DEC 的)) (NP (VV 宇航) (SFN 员))) (CC 和) (NP (CP (CP (IP (VP (VV 喜欢) (IP (VP (VV 看) (NP (NP (NN 机器) (SFN 人)) (NP (NN 飞行) (NN 任务))))))) (DEC 的))) (NP (NN 人)))) (IN 之间))) (VP (VV 找到) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 好))) (DEC 的))) (NP (NN 中间) (SFN 点))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP7124': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP84054': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+蒙特利尔	大学	nmod
+大学	詹姆斯	nmod
+(Trinity	大学	appos
+University	(Trinity	flat:foreign
+)	(Trinity	punct
+的	(Trinity	case
+詹姆斯	研究	nsubj
+·	休斯	punct
+休斯	詹姆斯	flat:name
+(James	詹姆斯	appos
+Hughes)	(James	flat:foreign
+研究	ROOT	root
+新兴	技术	nmod
+技术	研究	obj
+，	为	punct
+他	为	nsubj
+为	研究	parataxis
+，	找到	punct
+人形	人	nmod
+机器	人	compound
+人	找到	nsubj
+可以	找到	aux
+在	员	case
+硬派	员	nmod
+的	硬派	case
+宇航	员	compound
+员	找到	obl
+和	人	cc
+喜欢	人	acl:relcl
+看	人	acl:relcl
+机器	人	compound
+人	任务	nmod
+飞行	任务	nmod
+任务	看	obj
+的	喜欢	mark:rel
+人	员	conj
+之间	员	case
+找到	为	ccomp
+一	个	nummod
+个	点	nmod
+好	点	amod
+的	好	mark:rel
+中间	点	compound
+点	找到	obj
+。	研究	punct
+----------------------------------------------------------------------
+大多数空间观察者认为，人类计划是推动人们对探索的兴趣和资金投入的动力，而科学调查则将由机器人来推动。
+
+(ROOT (IP (NP (QP (ADJP (RB 大)) (QP (JJ 多数))) (NP (NN 空间) (VV 观察) (SFN 者))) (VP (VV 认为) (, ，) (IP (IP (NP (NN 人类) (NN 计划)) (VP (VC 是) (NP (CP (IP (VP (VV 推动) (NP (NP (NN 人们)) (DNP (PP (IN 对) (NP (NN 探索))) (DEC 的)) (NP (NN 兴趣) (CC 和) (NN 资金) (VV 投入))))) (DEC 的)) (NP (NN 动力))))) (, ，) (IP (ADVP (RB 而)) (NP (NN 科学) (NN 调查)) (VP (ADVP (RB 则)) (ADVP (RB 将)) (PP (VV 由) (NP (NN 机器))) (VP (SFN 人来) (VP (VV 推动))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+大	多数	advmod
+多数	者	amod
+空间	者	nmod
+观察	者	compound
+者	为	nsubj
+为	ROOT	root
+，	由	punct
+人类	计划	nmod
+计划	动力	nsubj
+是	动力	cop
+推动	动力	acl:relcl
+人	兴趣	nmod
+对	兴趣	case
+探索	兴趣	nmod
+的	推动	mark:rel
+兴趣	动力	nmod
+和	投入	cc
+资金	投入	nsubj
+投入	动力	acl:relcl
+的	投入	mark:rel
+动力	由	advcl
+，	动力	punct
+而	由	mark
+科学	调查	nmod
+调查	由	nsubj
+则	由	mark
+将	由	advmod
+由	为	ccomp
+机器	人来	compound
+人来	推动	nsubj
+推动	由	ccomp
+。	为	punct
+----------------------------------------------------------------------
+“你可以得到两者的一些优势，希望这能够成为两者之间的一个好妥协，”休斯说道。“但它可能不会让任何一方满意。”
+
+(ROOT (IP (IP (`` “) (NP (PRP 你)) (VP (VP (MD 可以) (VP (VV 得到) (NP (DNP (NP (QP (CD 两)) (NP (NN 者))) (DEC 的)) (QP (JJ 一些)) (NP (NN 优势))))) (, ，) (VP (VV 希望) (IP (NP (PRD 这)) (VP (MD 能够) (VP (VV 成) (VP (VC 为) (NP (DNP (LCP (NP (QP (CD 两)) (NP (NN 者))) (IN 之间)) (DEC 的)) (QP (CD 一) (CLP (NNB 个))) (ADJP (JJ 好)) (NP (NN 妥协)))))))))) (, ，) ('' ”) (NP (NNP 休斯)) (VP (VV 说道)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+“	希望	punct
+你	得到	nsubj
+可以	得到	aux
+得到	希望	csubj
+两	者	nummod
+者	优势	nmod
+的	者	case
+一些	优势	amod
+优势	得到	obj
+，	得到	punct
+希望	ROOT	root
+这	成	nsubj
+能够	成	aux
+成	希望	ccomp
+为	成	mark
+两	者	nummod
+者	妥协	nmod
+之间	者	case
+的	者	case
+一	个	nummod
+个	妥协	clf
+好	妥协	amod
+妥协	成	obj
+，	说道	punct
+”	说道	punct
+休斯	说道	nsubj
+说道	希望	ccomp
+。	希望	punct
+----------------------------------------------------------------------
+Robonaut 项目始于 1996 年，2000 年，第一个版本的机器人问世。
+
+(ROOT (IP (IP (NP (FW Robonaut) (NN 项目)) (VP (VV 始) (PP (VV 于) (NP (CD 1996) (NNB 年))))) (, ，) (IP (QP (CD 2000) (CLP (NNB 年))) (, ，) (NP (DNP (NP (QP (CD 第一) (CLP (NNB 个))) (NP (NN 版本))) (DEC 的)) (NP (NN 机器) (SFN 人))) (VP (VV 问世))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP11535': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP83924': {'QP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'QP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'QP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+Robonaut	项目	nmod
+项目	始	nsubj
+始	ROOT	root
+于	始	mark
+1996	年	nummod
+年	始	obj
+，	问世	punct
+2000	年	nummod
+年	问世	nmod:tmod
+，	年	punct
+第一	个	nummod
+个	版本	clf
+版本	人	nmod
+的	版本	case
+机器	人	compound
+人	问世	nsubj
+问世	始	parataxis
+。	始	punct
+----------------------------------------------------------------------
+2006 年，美国航空航天局约翰逊太空中心的 Dexterous Robotics Laboratory 与 GM 合作设计了这款新机器人。
+
+(ROOT (IP (NP (CD 2006) (NNB 年)) (, ，) (NP (DNP (NP (NP (NNP 美国) (NN 航空) (NN 航天) (SFN 局)) (NP (NNP 约翰逊) (NN 太空) (NN 中心))) (DEC 的)) (NP (FW Dexterous) (FW Robotics) (FW Laboratory))) (VP (VP (PP (IN 与) (NP (FW GM))) (VP (VV 合作))) (VP (VV 设计) (AS 了) (NP (DP (DT 这) (CLP (NNB 款))) (ADJP (PFA 新)) (NP (NN 机器) (SFN 人))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP87443': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP71809': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP55988': {}}, '.': {}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+2006	年	nummod
+年	设计	nmod:tmod
+，	年	punct
+美国	中心	nmod
+航空	中心	nmod
+航天	局	compound
+局	中心	nmod
+约翰逊	中心	nmod
+太空	中心	nmod
+中心	Dexterous	nmod
+的	中心	case
+Dexterous	设计	nsubj
+Robotics	Dexterous	flat:foreign
+Laboratory	Dexterous	flat:foreign
+与	GM	case
+GM	设计	obl
+合作	设计	advcl
+设计	ROOT	root
+了	设计	aux
+这	款	det
+款	人	nmod
+新	人	case
+机器	人	compound
+人	设计	obj
+。	设计	punct
+----------------------------------------------------------------------
+“可以非常安全地说，美国和美国航空航天局拥有机器人灵巧性的最先进水平，” Nic Radford 说，“Robonaut 副项目经理。“想法是无限的。”
+
+(ROOT (IP (`` “) (IP (VP (MD 可以) (VP (DVP (VP (ADVP (RB 非常)) (VP (JJ 安全))) (DEV 地)) (VP (VV 说))))) (, ，) (IP (NP (NNP 美国) (CC 和) (NNP 美国) (NN 航空) (NN 航天) (SFN 局)) (VP (VV 拥有) (NP (DNP (NP (NP (NN 机器) (SFN 人)) (NP (JJ 灵巧) (SFN 性))) (DEC 的)) (ADJP (ADVP (RB 最)) (ADJP (JJ 先进))) (NP (NN 水平))))) (, ，) ('' ”) (IP (NP (FW Nic) (FW Radford)) (VP (VV 说) (, ，) (NP (`` “) (NP (FW Robonaut)) (NP (ADJP (PFA 副)) (NP (NN 项目))) (NP (NN 经理))))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP73723': {}, ',29944': {}, "''": {}, 'IP74904': {}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, "''": {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'IP': {'VP': {}}, ',': {}, 'IP89753': {'NP': {}, 'VP': {}}, ',64667': {}, "''": {}, 'IP57599': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+“	说	punct
+可以	说	aux
+非常	安全	advmod
+安全	说	advmod
+地	安全	mark:adv
+说	ROOT	root
+，	说	punct
+美国	拥有	nsubj
+和	局	cc
+美国	局	nmod
+航空	局	nmod
+航天	局	compound
+局	美国	conj
+拥有	水平	acl:relcl
+机器	人	compound
+人	性	nmod
+灵巧	性	compound
+性	拥有	obj
+的	拥有	mark:rel
+最	先进	advmod
+先进	水平	amod
+水平	说	nsubj
+，	水平	punct
+”	水平	punct
+Nic	水平	appos
+Radford	Nic	flat:foreign
+说	说	ccomp
+，	经理	punct
+“	经理	punct
+Robonaut	经理	nmod
+副	经理	case
+项目	经理	nmod
+经理	说	obj
+。	说	punct
+----------------------------------------------------------------------
+机器人将分三个阶段逐步投入运行，首先，它只能在国际空间站内部的固定位置运行，然后，它将被允许在空间站内部移动，最后几年，它将被允许进行载人航天活动。
+
+(ROOT (IP (IP (NP (NN 机器) (SFN 人)) (VP (ADVP (RB 将)) (VP (VP (VV 分) (NP (QP (CD 三) (CLP (NNB 个))) (NP (NN 阶段)))) (VP (ADVP (RB 逐步)) (VP (VV 投入) (NP (NN 运行))))))) (, ，) (IP (ADVP (RB 首先)) (, ，) (NP (PRP 它)) (VP (MD 只能) (VP (PP (IN 在) (NP (DNP (NP (NP (NN 国际) (NN 空间) (SFN 站)) (NP (NN 内部))) (DEC 的)) (ADJP (JJ 固定)) (NP (NN 位置)))) (VP (VV 运行))))) (, ，) (IP (ADVP (RB 然后)) (, ，) (NP (PRP 它)) (VP (ADVP (RB 将)) (VP (BB 被) (VP (VV 允许) (IP (VP (PP (VV 在) (NP (NN 空间) (SFN 站) (NN 内部))) (VP (VV 移动)))))))) (, ，) (IP (QP (ADJP (NN 最后)) (QP (CD 几) (CLP (NNB 年)))) (, ，) (NP (PRP 它)) (VP (ADVP (RB 将)) (VP (BB 被) (VP (VV 允许) (IP (VP (VV 进行) (NP (NP (ADJP (NN 载人)) (NP (NN 航天))) (NP (NN 活动))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP48345': {}, ',76588': {}, 'IP67074': {}, ',79392': {}, 'IP46264': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP31479': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',34011': {}, 'IP96340': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',79314': {}, 'IP87306': {'QP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'QP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'QP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+机器	人	compound
+人	投入	nsubj
+将	投入	advmod
+分	投入	advcl
+三	个	nummod
+个	阶段	clf
+阶段	分	obj
+逐步	投入	advmod
+投入	ROOT	root
+运行	投入	obj
+，	允许	punct
+首先	运行	advmod
+，	首先	punct
+它	运行	nsubj
+只能	运行	aux
+在	位置	case
+国际	内部	nmod
+空间	站	compound
+站	内部	nmod
+内部	位置	nmod
+的	内部	case
+固定	位置	amod
+位置	运行	obl
+运行	允许	advcl
+，	运行	punct
+然后	允许	advmod
+，	然后	punct
+它	允许	nsubj:pass
+将	允许	advmod
+被	允许	aux:pass
+允许	投入	parataxis
+在	移动	advcl
+空间	站	compound
+站	内部	nmod
+内部	在	obj
+移动	允许	xcomp
+，	允许	punct
+最后	年	nmod
+几	年	nummod
+年	允许	nmod:tmod
+，	年	punct
+它	允许	nsubj:pass
+将	允许	advmod
+被	允许	aux:pass
+允许	投入	parataxis
+进行	允许	xcomp
+载人	活动	nmod
+航天	活动	nmod
+活动	进行	obj
+。	投入	punct
+----------------------------------------------------------------------
+“它正在变成一个更自主的系统，”拉德福德说。 “目前，它是一个基于任务的系统，由行为组成。
+
+(ROOT (IP (IP (`` “) (NP (PRP 它)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (VP (VV 变成) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 更)) (VP (JJ 自主)))) (DEC 的))) (NP (NN 系统)))))) (, ，) ('' ”) (NP (NNP 拉德福德)) (VP (VV 说)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+“	变成	punct
+它	变成	nsubj
+正	变成	advmod
+在	变成	advmod
+变成	ROOT	root
+一	个	nummod
+个	系统	clf
+更	自主	advmod
+自主	系统	amod
+的	自主	mark:rel
+系统	变成	obj
+，	系统	punct
+”	系统	punct
+拉德福德	说	nsubj
+说	变成	ccomp
+。	说	punct
+----------------------------------------------------------------------
+我们在编程时，根据它接收到的感官信息，它就能够决定下一步要做什么。”
+
+(ROOT (IP (NP (PRP 我们)) (VP (PP (IN 在) (LCP (NP (VV 编程)) (IN 时))) (, ，) (PP (IN 根据) (NP (CP (CP (IP (NP (PRP 它)) (VP (VRD (VV 接收) (VV 到)))) (DEC 的))) (NP (NN 感官) (NN 信息)))) (, ，) (NP (PRP 它)) (VP (ADVP (RB 就)) (VP (MD 能够) (VP (VV 决定) (IP (VP (DP (DT 下) (QP (CD 一) (CLP (NNB 步)))) (VP (MD 要) (VP (VV 做) (NP (WP 什么)))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'PP': {}, ',': {}, 'PP54345': {}, ',4383': {}, 'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'PP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'PP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+我	决定	nsubj
+在	编程	case
+编程	决定	xcomp
+时	编程	mark
+，	编程	punct
+根据	信息	case
+它	接收	nsubj
+接收	信息	acl:relcl
+到	接收	mark
+的	接收	mark:rel
+感官	信息	nmod
+信息	决定	obl
+，	决定	punct
+它	决定	nsubj
+就	决定	mark
+能够	决定	aux
+决定	ROOT	root
+下	步	det
+一	步	nummod
+步	决定	obj
+要	做	aux
+做	决定	ccomp
+什么	做	obj
+。	做	punct
+”	做	punct
+----------------------------------------------------------------------
+Radford、Wilson 和 Hoffman 对在轨测试机器人感到兴奋。
+
+(ROOT (IP (NP (FW Radford) (EC 、) (FW Wilson) (CC 和) (FW Hoffman)) (VP (VP (IN 对在轨) (NP (VV 测试) (NN 机器) (SFN 人))) (VP (VV 感到) (NP (JJ 兴奋)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'FW': {}, 'EC': {}, 'FW77383': {}, 'CC': {}, 'FW58418': {}}, 'VP': {'VP': {}, 'VP6945': {}}, '.': {}}}
+{'IP': {'NP': {'FW': {}, 'EC': {}, 'FW': {}, 'CC': {}, 'FW': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'FW': {}, 'EC': {}, 'FW': {}, 'CC': {}, 'FW': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
+Dependency Features:
+Radford	感到	nsubj
+、	Wilson	punct
+Wilson	Radford	conj
+和	Hoffman	cc
+Hoffman	Radford	conj
+对在轨	人	case
+测试	人	amod
+机器	人	compound
+人	兴奋	nmod
+感到	ROOT	root
+兴奋	感到	xcomp
+。	感到	punct
+----------------------------------------------------------------------
+“这是我们团队一直以来的梦想，”拉德福德说道。
+
+(ROOT (IP (IP (`` “) (NP (PRD 这)) (VP (VC 是) (NP (NP (NP (PRP 我们)) (NP (NN 团队))) (DNP (LCP (ADVP (RB 一直)) (IN 以来)) (DEC 的)) (NP (NN 梦想))))) (, ，) ('' ”) (NP (NNP 拉德福德)) (VP (VV 说道)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+“	梦想	punct
+这	梦想	nsubj
+是	梦想	cop
+我	团队	nmod
+团队	梦想	nmod
+一直	梦想	advmod
+以来	一直	mark
+的	一直	mark:rel
+梦想	ROOT	root
+，	说道	punct
+”	说道	punct
+拉德福德	说道	nsubj
+说道	梦想	parataxis
+。	梦想	punct
+----------------------------------------------------------------------

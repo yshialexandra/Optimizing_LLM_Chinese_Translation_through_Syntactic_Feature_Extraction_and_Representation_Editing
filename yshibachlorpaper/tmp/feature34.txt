@@ -1,0 +1,1701 @@
+米特·罗姆尼最近的一番观点，就是关于文化在解释为什么有些国家富强而有些国家贫穷落后的问题上的作用，引起了很多评论。
+
+(ROOT (IP (NP (NP (NNP 米特) (/ ·) (NNP 罗姆尼)) (DNP (NP (NN 最近)) (DEC 的)) (QP (CD 一) (CLP (NNB 番))) (NP (NN 观点))) (, ，) (VP (VP (VC 就是) (PP (IN 关于) (IP (NP (NN 文化)) (DNP (PP (IN 在) (IP (VP (VV 解释) (LCP (NP (CP (IP (IP (PP (IN 为) (NP (WP 什么))) (NP (DP (VV 有些)) (NP (NN 国家))) (VP (VV 富强))) (RB 而) (IP (NP (DP (VV 有些)) (NP (NN 国家))) (VP (VCD (JJ 贫穷) (JJ 落后))))) (DEC 的)) (NP (NN 问题))) (IN 上))))) (DEC 的)) (NP (NN 作用))))) (, ，) (VP (VV 引起) (AS 了) (NP (QP (CD 很多)) (NP (NN 评论))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'DNP': {}, 'QP': {}, 'NP3108': {}}, ',': {}, 'VP': {'VP': {}, ',': {}, 'VP83792': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'DNP': {}, 'QP': {}, 'NP': {}}, ',': {}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'DNP': {}, 'QP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+米特	观点	nmod
+·	罗姆尼	punct
+罗姆尼	米特	flat:name
+最近	观点	nmod
+的	最近	case
+一	番	nummod
+番	观点	clf
+观点	是	nsubj
+，	观点	punct
+是	ROOT	root
+关于	文化	case
+文化	解释	obl
+在	解释	case
+解释	引起	xcomp
+为	什么	case
+什么	有些	obl
+有些	作用	acl:relcl
+国家	富强	nsubj
+富强	有些	ccomp
+而	有些	mark
+有些	问题	acl:relcl
+国家	落后	nsubj
+贫穷	落后	advcl
+落后	有些	ccomp
+的	有些	mark:rel
+问题	作用	nmod
+上	问题	case
+的	有些	mark:rel
+作用	解释	obj
+，	解释	punct
+引起	是	xcomp
+了	引起	aux
+很多	评论	nummod
+评论	引起	obj
+。	是	punct
+----------------------------------------------------------------------
+我尤其对他的言论感兴趣，因为他歪曲了我的观点，并且在与另一位学者的论点相对比时，对这个问题进行了过度简化。
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (ADVP (RB 尤其)) (PP (IN 对) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 言论)))) (VP (VV 感) (NP (NN 兴趣))))) (, ，) (PP (PP (IN 因为) (IP (NP (PRP 他)) (VP (VV 歪曲) (AS 了) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 观点)))))) (, ，) (RB 并且) (VP (LCP (IP (VP (PP (IN 在) (NP (DNP (PP (IN 与) (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 位)))) (NP (NN 学者)))) (DEC 的)) (NP (NN 论点)))) (ADVP (RB 相对)) (VP (IN 比)))) (IN 时)) (, ，) (PP (IN 对) (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 问题)))) (VP (VV 进行) (AS 了) (NP (ADJP (JJ 过度)) (NP (NN 简化)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'PP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'PP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'PP': {'PP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+我	感	nsubj
+尤其	感	advmod
+对	言论	case
+他	言论	det
+的	他	case
+言论	感	obl
+感	ROOT	root
+兴趣	感	obj
+，	进行	punct
+因为	歪曲	case
+他	歪曲	nsubj
+歪曲	进行	ccomp
+了	歪曲	aux
+我	观点	det
+的	我	case
+观点	歪曲	obj
+，	歪曲	punct
+并且	进行	mark
+在	论点	case
+与	学者	case
+另	位	det
+一	位	nummod
+位	学者	nmod
+学者	论点	nmod
+的	学者	case
+论点	进行	obl
+相对	进行	advmod
+比	问题	case
+时	进行	advcl
+，	时	punct
+对	问题	case
+这	个	det
+个	问题	clf
+问题	进行	obl
+进行	感	parataxis
+了	进行	aux
+过度	简化	amod
+简化	进行	obj
+。	感	punct
+----------------------------------------------------------------------
+我的《枪、病菌和钢》并非如罗姆尼先生在耶路撒冷的一次演讲中所说的“基本上说明土地的物理特征决定了生活在那里的人们的成功程度。
+
+(ROOT (IP (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (-LRB- 《) (NP (NN 枪) (EC 、) (NN 病菌) (CC 和) (NN 钢)) (-RRB- 》))) (VP (VC 并非) (VP (PP (VV 如) (NP (CP (CP (IP (NP (NNP 罗姆尼) (NN 先生)) (VP (PP (IN 在) (LCP (NP (DNP (NP (NNP 耶路撒冷)) (DEC 的)) (QP (CD 一) (CLP (NNB 次))) (NP (NN 演讲))) (IN 中))) (VP (RB 所) (VP (VV 说))))) (UH 的))))) (`` “) (LCP (NP (NN 基本)) (IN 上)) (VP (VV 说明) (IP (NP (DNP (NP (NN 土地)) (DEC 的)) (NP (NN 物理) (NN 特征))) (VP (VV 决定) (AS 了) (NP (DNP (NP (CP (CP (IP (VP (VV 生活) (PP (IN 在) (NP (PRD 那里))))) (DEC 的))) (NP (NN 人们))) (DEC 的)) (NP (JJ 成功) (NN 程度)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'VP': {}}}
+Dependency Features:
+我	枪	det
+的	我	case
+《	枪	punct
+枪	并非	nsubj
+、	病菌	punct
+病菌	枪	conj
+和	钢	cc
+钢	枪	conj
+》	枪	punct
+并非	ROOT	root
+如	并非	xcomp
+罗姆尼	先生	nmod
+先生	说	nsubj
+在	演讲	case
+耶路撒冷	演讲	nmod
+的	如	mark:rel
+一	次	nummod
+次	演讲	clf
+演讲	说	obl
+中	演讲	case
+所	说	mark
+说	如	ccomp
+的	并非	discourse
+“	决定	punct
+基本	说明	obl
+上	基本	case
+说明	特征	acl:relcl
+土地	说明	obj
+的	说明	mark:rel
+物理	特征	nmod
+特征	决定	nsubj
+决定	并非	parataxis
+了	决定	aux
+生活	人	acl:relcl
+在	那里	case
+那里	生活	obl
+的	生活	mark:rel
+人	程度	nmod
+的	生活	mark:rel
+成功	程度	amod
+程度	决定	obj
+。	并非	punct
+----------------------------------------------------------------------
+这里有铁矿，还有其他资源。”
+
+(ROOT (IP (NP (PRD 这里)) (VP (VP (VV 有) (NP (NN 铁矿))) (, ，) (VP (ADVP (RB 还)) (VP (VV 有) (NP (DP (DT 其他)) (NP (NN 资源)))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VP': {}, ',': {}, 'VP17175': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+这里	有	nsubj
+有	有	advcl
+铁矿	有	obj
+，	有	punct
+还	有	mark
+有	ROOT	root
+其他	资源	det
+资源	有	obj
+。	有	punct
+”	有	punct
+----------------------------------------------------------------------
+这与我的书实际上所说的内容截然不同，我不得不怀疑罗姆尼先生是否阅读过这本书。
+
+(ROOT (IP (IP (NP (PRD 这)) (VP (PP (IN 与) (NP (CP (CP (IP (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 书))) (VP (LCP (NP (NN 实际)) (IN 上)) (VP (RB 所) (VP (VV 说))))) (DEC 的))) (NP (NN 内容)))) (VP (JJ 截然不同)))) (, ，) (IP (NP (PRP 我)) (VP (MD 不得) (VP (ADVP (RB 不)) (VP (VV 怀疑) (IP (NP (NNP 罗姆尼) (NN 先生)) (VP (ADVP (VC 是否)) (VP (VV 阅读) (AS 过) (NP (DP (DT 这)) (NP (NN 本书)))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP18918': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP34748': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+这	截然不同	nsubj
+与	书	case
+我	书	det
+的	我	case
+书	说	obl
+实际	说	obl
+上	实际	case
+所	说	mark
+说	内容	acl:relcl
+的	说	mark:rel
+内容	截然不同	nmod
+截然不同	ROOT	root
+，	怀疑	punct
+我	怀疑	nsubj
+得	怀疑	aux
+不	怀疑	advmod
+怀疑	截然不同	parataxis
+罗姆尼	先生	nmod
+先生	是	nsubj
+是	怀疑	ccomp
+阅读	是	xcomp
+过	阅读	aux
+这	本书	det
+本书	阅读	obj
+。	截然不同	punct
+----------------------------------------------------------------------
+我的关注主要集中在生物特征上，比如植物和动物种类，在物理特征上，我提到的是大陆的大小和形状以及相对的孤立。
+
+(ROOT (IP (IP (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 关注))) (VP (ADVP (RB 主要)) (VP (VV 集中) (PP (IN 在) (NP (LCP (NP (NN 生物) (NN 特征)) (IN 上)) (, ，) (NP (ADVP (VV 比如)) (NP (NP (NN 植物) (CC 和) (NN 动物)) (NP (NN 种类))))))))) (, ，) (IP (PP (IN 在) (LCP (NP (NN 物理) (NN 特征)) (IN 上))) (, ，) (NP (CP (CP (IP (NP (PRP 我)) (VP (VV 提到))) (DEC 的)))) (VP (VC 是) (NP (NP (DNP (NP (NN 大陆)) (DEC 的)) (NP (NN 大小) (CC 和) (NN 形状))) (CC 以及) (NP (DNP (ADJP (JJ 相对)) (DEC 的)) (NP (NN 孤立)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP57491': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP61028': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+我	关注	det
+的	我	case
+关注	集中	nsubj
+主要	集中	advmod
+集中	ROOT	root
+在	比如	case
+生物	特征	nmod
+特征	比如	nsubj
+上	特征	case
+，	特征	punct
+比如	集中	ccomp
+植物	种类	nmod
+和	动物	cc
+动物	植物	conj
+种类	比如	obj
+，	大小	punct
+在	特征	case
+物理	特征	nmod
+特征	大小	nmod
+上	特征	case
+，	特征	punct
+我	提到	nsubj
+提到	大小	csubj
+的	提到	mark:rel
+是	大小	cop
+大陆	大小	nmod
+的	大陆	case
+大小	集中	parataxis
+和	形状	cc
+形状	大小	conj
+以及	孤立	cc
+相对	孤立	amod
+的	相对	mark:rel
+孤立	大小	conj
+。	集中	punct
+----------------------------------------------------------------------
+我没有提到铁矿石，它的分布如此广泛，它的分布对不同民族的成功没有什么影响。
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (VV 没有) (VP (VV 提到) (NP (NN 铁) (NN 矿石))))) (, ，) (IP (NP (DNP (NP (PRP 它)) (DEC 的)) (NP (NN 分布))) (VP (ADVP (VV 如此)) (VP (JJ 广泛)))) (, ，) (IP (NP (DNP (NP (PRP 它)) (DEC 的)) (NP (NN 分布))) (VP (PP (IN 对) (NP (DNP (NP (ADJP (JJ 不同)) (NP (NN 民族))) (DEC 的)) (NP (NN 成功)))) (VP (VV 没有) (NP (DP (WP 什么)) (NP (NN 影响)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP9514': {}, ',75753': {}, 'IP44234': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP8826': {'NP': {}, 'VP': {}}, ',65048': {}, 'IP36422': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+我	有	nsubj
+有	ROOT	root
+提到	有	xcomp
+铁	矿石	nmod
+矿石	提到	obj
+，	广泛	punct
+它	分布	det
+的	它	case
+分布	广泛	nsubj
+如此	广泛	advcl
+广泛	有	parataxis
+，	广泛	punct
+它	分布	det
+的	它	case
+分布	有	nsubj
+对	成功	case
+不同	民族	amod
+民族	成功	nmod
+的	民族	case
+成功	有	obl
+有	有	parataxis
+什么	影响	det
+影响	有	obj
+。	有	punct
+----------------------------------------------------------------------
+(我本周才知道，罗姆尼先生在他的回忆录《没有道歉：相信美国》中也曲解了我的书。)
+
+(ROOT (IP (-LRB- -LRB-) (NP (PRP 我)) (VP (NP (DP (DT 本)) (NP (NNB 周))) (ADVP (RB 才)) (VP (VV 知道) (, ，) (IP (NP (NNP 罗姆尼) (NN 先生)) (VP (PP (IN 在) (LCP (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (VV 回忆) (SFN 录))) (IP (-LRB- 《) (VP (VV 没有) (NP (NN 道歉))) (: ：) (VP (VV 相信) (NP (NNP 美国))) (-RRB- 》))) (IN 中))) (ADVP (RB 也)) (VP (VV 曲解) (AS 了) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 书)))))))) (. 。)))
+layer 2:
+{'IP': {'-LRB-': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'-LRB-': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'-LRB-': {}, 'NP': {'PRP': {}}, 'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'-LRB-': {}, 'NP': {'PRP': {}}, 'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+(	知道	punct
+我	知道	nsubj
+本	周	det
+周	知道	nmod:tmod
+才	知道	mark
+知道	ROOT	root
+，	曲解	punct
+罗姆尼	先生	nmod
+先生	曲解	nsubj
+在	录	case
+他	录	det
+的	他	case
+回忆	录	compound
+录	曲解	obl
+《	相信	punct
+有	相信	advcl
+道歉	有	obj
+：	有	punct
+相信	录	appos
+美国	相信	obj
+》	相信	punct
+中	相信	advcl
+也	曲解	mark
+曲解	知道	ccomp
+了	曲解	aux
+我	书	det
+的	我	case
+书	曲解	obj
+。	知道	punct
+----------------------------------------------------------------------
+这还不是最糟糕的部分。
+
+(ROOT (IP (NP (PRD 这)) (VP (ADVP (RB 还)) (VP (VC 不是) (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 糟糕)))) (DEC 的))) (NP (NN 部分))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+这	部分	nsubj
+还	部分	mark
+是	部分	cop
+最	糟糕	advmod
+糟糕	部分	acl:relcl
+的	糟糕	mark:rel
+部分	ROOT	root
+。	部分	punct
+----------------------------------------------------------------------
+即使是那些强调社会解释而非地理解释的学者，如哈佛大学的经济学家大卫·S·兰德斯，他的著作《民族的财富与贫穷》被罗姆尼先生亲热地提及，罗姆尼先生说“文化是一切的根本”，这一说法却危险地过时了。
+
+(ROOT (IP (IP (IP (VP (ADVP (IN 即使)) (VP (VC 是) (NP (NP (DP (DT 那些)) (CP (CP (IP (VP (VV 强调) (NP (NN 社会) (NN 解释) (CC 而非) (NN 地理) (NN 解释)))) (DEC 的))) (NP (NN 学者))) (, ，) (NP (ADVP (VV 如)) (NP (NP (DNP (NP (NNP 哈佛) (NN 大学)) (DEC 的)) (NP (NN 经济) (NN 学家))) (NP (NNP 大卫) (/ ·) (FW S) (/ ·) (NNP 兰德斯)))))))) (, ，) (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 著作))) (NP (-LRB- 《) (DNP (NP (NN 民族)) (DEC 的)) (NP (NN 财富) (CC 与) (NN 贫穷)) (-RRB- 》))) (VP (BB 被) (CP (IP (NP (NNP 罗姆尼) (NN 先生)) (VP (DVP (VP (JJ 亲热)) (DEV 地)) (VP (VV 提及))))))) (, ，) (IP (NP (NNP 罗姆尼) (NN 先生)) (VP (VV 说) (IP (`` “) (NP (NN 文化)) (VP (VC 是) (NP (DNP (DP (DT 一切)) (DEC 的)) (NP (NN 根本)))) ('' ”)))) (, ，) (IP (NP (DP (DT 这) (QP (CD 一))) (NP (NN 说法))) (VP (ADVP (RB 却)) (VP (JJ 危险) (DEV 地过) (IN 时))) (UH 了)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP80912': {}, ',95733': {}, 'IP47278': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP18606': {'NP': {}, 'VP': {}}, ',19483': {}, 'IP9978': {'NP': {}, 'VP': {}, 'UH': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'UH': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}, 'UH': {}}}
+Dependency Features:
+即使	是	case
+是	提及	xcomp
+那些	学者	det
+强调	学者	acl:relcl
+社会	解释	nmod
+解释	强调	obj
+而非	解释	cc
+地理	解释	nmod
+解释	解释	conj
+的	强调	mark:rel
+学者	是	obj
+，	是	punct
+如	学家	acl:relcl
+哈佛	大学	nmod
+大学	学家	nmod
+的	大学	case
+经济	学家	nmod
+学家	提及	nsubj:pass
+大卫	学家	appos
+·	S	punct
+S	大卫	flat:name
+·	兰德斯	punct
+兰德斯	大卫	flat:name
+，	著作	punct
+他	著作	det
+的	他	case
+著作	学家	appos
+《	财富	punct
+民族	财富	nmod
+的	民族	case
+财富	著作	appos
+与	贫穷	cc
+贫穷	财富	conj
+》	财富	punct
+被	提及	aux:pass
+罗姆尼	先生	nmod
+先生	提及	nsubj
+亲热	提及	advmod
+地	亲热	mark:adv
+提及	ROOT	root
+，	说	punct
+罗姆尼	先生	nmod
+先生	说	nsubj
+说	提及	parataxis
+“	根本	punct
+文化	根本	nsubj
+是	根本	cop
+一切	根本	det
+的	一切	mark:rel
+根本	说	ccomp
+”	根本	punct
+，	危险	punct
+这	一	det
+一	说法	clf
+说法	危险	nsubj
+却	危险	mark
+危险	说	parataxis
+地过	危险	compound:ext
+时	危险	mark
+了	危险	discourse
+。	提及	punct
+----------------------------------------------------------------------
+事实上，兰德斯先生分析了多个因素（包括气候），来解释为什么工业革命首先发生在欧洲而非其他地方。
+
+(ROOT (IP (LCP (NP (NN 事实)) (IN 上)) (, ，) (NP (NNP 兰德斯) (NN 先生)) (VP (VP (VV 分析) (AS 了) (NP (QP (CD 多) (CLP (NNB 个))) (NP (NN 因素)) (PRN (-LRB- （) (VP (VV 包括) (NP (NN 气候))) (-RRB- ）)))) (, ，) (VP (RB 来) (VP (VV 解释) (IP (VP (PP (IN 为) (NP (DP (WP 什么)) (NP (NN 工业) (NN 革命)))) (ADVP (RB 首先)) (VP (VP (VV 发生) (PP (IN 在) (NP (NNP 欧洲)))) (VP (VC 而非) (NP (DP (DT 其他)) (NP (NN 地方)))))))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP54523': {}}, '.': {}}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+事实	解释	obl
+上	事实	case
+，	事实	punct
+兰德斯	先生	nmod
+先生	解释	nsubj
+分析	解释	advcl
+了	分析	aux
+多	个	nummod
+个	因素	clf
+因素	包括	nsubj
+（	包括	punct
+包括	分析	ccomp
+气候	包括	obj
+）	包括	punct
+，	分析	punct
+来	解释	mark
+解释	ROOT	root
+为	什么	case
+什么	发生	obl
+工业	革命	nmod
+革命	发生	nsubj
+首先	发生	advmod
+发生	解释	ccomp
+在	欧洲	case
+欧洲	发生	obl
+而非	地方	cc
+其他	地方	det
+地方	发生	obl
+。	解释	punct
+----------------------------------------------------------------------
+正如幸福的婚姻需要许多不同的因素，国家的财富和权力也是如此。
+
+(ROOT (IP (PP (IN 正如) (IP (NP (CP (CP (IP (VP (JJ 幸福))) (DEC 的))) (NP (NN 婚姻))) (VP (VV 需要) (NP (QP (CD 许多)) (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (NN 因素)))))) (, ，) (NP (DNP (NP (NN 国家)) (DEC 的)) (NP (NN 财富) (CC 和) (NN 权力))) (VP (VC 也是) (NP (VV 如此))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+正如	婚姻	case
+幸福	婚姻	amod
+的	幸福	mark:rel
+婚姻	需要	obl
+需要	如此	ccomp
+许多	因素	nummod
+不同	因素	amod
+的	不同	mark:rel
+因素	需要	obj
+，	需要	punct
+国家	财富	nmod
+的	国家	case
+财富	如此	nsubj
+和	权力	cc
+权力	财富	conj
+是	如此	cop
+如此	ROOT	root
+。	如此	punct
+----------------------------------------------------------------------
+这并不是否认文化的重要性。
+
+(ROOT (IP (NP (PRD 这)) (VP (ADVP (RB 并)) (VP (VC 不是) (VP (VV 否认) (NP (DNP (NP (NN 文化)) (DEC 的)) (NP (JJ 重要) (SFN 性)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+这	性	nsubj
+并	性	mark
+是	性	cop
+否认	性	acl:relcl
+文化	否认	obj
+的	否认	mark:rel
+重要	性	compound
+性	ROOT	root
+。	性	punct
+----------------------------------------------------------------------
+一些国家有政治体制和文化习俗 — — 诚实的政府、法治、积累财富的机会 — — 奖励劳动。
+
+(ROOT (IP (NP (QP (JJ 一些)) (NP (NN 国家))) (VP (VV 有) (NP (NP (NN 政治) (NN 体制) (CC 和) (NN 文化) (NN 习俗)) (PRN (HYPH — —) (NP (NP (CP (CP (IP (VP (JJ 诚实))) (DEC 的))) (NP (NN 政府))) (EC 、) (NP (NN 法治)) (EC 、) (NP (CP (CP (IP (VP (VV 积累) (NP (NN 财富)))) (DEC 的))) (NP (NN 机会))) (HYPH —) (HYPH —) (NP (VV 奖励) (NN 劳动)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+一些	国家	amod
+国家	有	nsubj
+有	ROOT	root
+政治	体制	nmod
+体制	有	obj
+和	习俗	cc
+文化	习俗	nmod
+习俗	体制	conj
+— —	政府	punct
+诚实	政府	amod
+的	诚实	mark:rel
+政府	体制	conj
+、	法治	punct
+法治	政府	conj
+、	积累	punct
+积累	机会	acl:relcl
+财富	积累	obj
+的	积累	mark:rel
+机会	体制	conj
+—	奖励	punct
+—	奖励	punct
+奖励	机会	amod
+劳动	奖励	obj
+。	有	punct
+----------------------------------------------------------------------
+有些人不这样。
+
+(ROOT (IP (NP (DP (VV 有些)) (NP (NN 人))) (VP (ADVP (RB 不)) (VP (PRD 这样))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+有些	ROOT	root
+人	这样	nsubj
+不	这样	advmod
+这样	有些	ccomp
+。	有些	punct
+----------------------------------------------------------------------
+熟悉的例子是相邻国家，它们的环境相似，但制度却大不相同。
+
+(ROOT (IP (IP (NP (CP (CP (IP (VP (JJ 熟悉))) (DEC 的))) (NP (NN 例子))) (VP (VC 是) (NP (ADJP (NN 相邻)) (NP (NN 国家))))) (, ，) (IP (NP (DNP (NP (PRP 它们)) (DEC 的)) (NP (NN 环境))) (VP (JJ 相似))) (, ，) (IP (ADVP (RB 但)) (NP (NN 制度)) (VP (ADVP (RB 却)) (ADVP (RB 大)) (ADVP (RB 不)) (VP (JJ 相同)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP38931': {}, ',49473': {}, 'IP26725': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP97605': {'NP': {}, 'VP': {}}, ',97892': {}, 'IP93070': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+熟悉	例子	amod
+的	熟悉	mark:rel
+例子	相同	nsubj
+是	国家	cop
+相邻	国家	nmod
+国家	相同	advcl
+，	相似	punct
+它	环境	det
+的	它	case
+环境	相似	nsubj
+相似	相同	advcl
+，	相似	punct
+但	相同	mark
+制度	相同	nsubj
+却	相同	mark
+大	不	advmod
+不	相同	advmod
+相同	ROOT	root
+。	相同	punct
+----------------------------------------------------------------------
+(比如说韩国和朝鲜，还有海地和多米尼加共和国。)
+
+(ROOT (IP (-LRB- -LRB-) (VP (VP (ADVP (VV 比如)) (VP (VV 说) (NP (NNP 韩国) (CC 和) (NNP 朝鲜)))) (, ，) (VP (ADVP (RB 还)) (VP (VV 有) (NP (NNP 海地) (CC 和) (NNP 多米尼加) (NN 共和) (SFN 国))))) (. 。)))
+layer 2:
+{'IP': {'-LRB-': {}, 'VP': {}, '.': {}}}
+{'IP': {'-LRB-': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'-LRB-': {}, 'VP': {'VP': {}, ',': {}, 'VP7168': {}}, '.': {}}}
+{'IP': {'-LRB-': {}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+(	有	punct
+比如	有	advcl
+说	比如	xcomp
+韩国	说	obj
+和	朝鲜	cc
+朝鲜	韩国	conj
+，	比如	punct
+还	有	mark
+有	ROOT	root
+海地	有	obj
+和	国	cc
+多米尼加	国	nmod
+共和	国	compound
+国	海地	conj
+。	有	punct
+----------------------------------------------------------------------
+富有和强大的国家往往有良好的体制，奖励劳动。
+
+(ROOT (IP (NP (CP (CP (IP (VP (JJ 富有) (CC 和) (JJ 强大))) (DEC 的))) (NP (NN 国家))) (VP (ADVP (RB 往往)) (VP (VP (VV 有) (NP (CP (CP (IP (VP (JJ 良好))) (DEC 的))) (NP (NN 体制)))) (, ，) (VP (VV 奖励) (NP (NN 劳动))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+富有	国家	amod
+和	强大	cc
+强大	富有	conj
+的	富有	mark:rel
+国家	有	nsubj
+往往	有	advmod
+有	ROOT	root
+良好	体制	amod
+的	良好	mark:rel
+体制	有	obj
+，	劳动	punct
+奖励	劳动	amod
+劳动	体制	conj
+。	有	punct
+----------------------------------------------------------------------
+但机构和文化并不是答案的全部，因为一些机构不好的国家（如意大利和阿根廷）富有，而一些品德高尚的国家（如坦桑尼亚和不丹）却贫穷。
+
+(ROOT (IP (IP (ADVP (RB 但)) (NP (NN 机构) (CC 和) (NN 文化)) (VP (ADVP (RB 并)) (VP (VC 不是) (NP (DNP (NP (NN 答案)) (DEC 的)) (NP (DT 全部)))))) (, ，) (PP (IN 因为) (IP (NP (CP (CP (IP (NP (QP (JJ 一些)) (NP (NN 机构))) (VP (JJ 不好))) (DEC 的))) (NP (NN 国家)) (PRN (-LRB- （) (NP (ADVP (VV 如)) (NP (NNP 意大利) (CC 和) (NNP 阿根廷))) (-RRB- ）))) (VP (VV 富有)))) (, ，) (RB 而) (NP (QP (JJ 一些)) (DNP (NP (NNP 品) (NNP 德高尚)) (DEC 的)) (NP (NN 国家)) (PRN (-LRB- （) (NP (NNP 如坦桑尼亚) (CC 和) (NNP 不丹)) (-RRB- ）))) (VP (ADVP (RB 却)) (VP (JJ 贫穷))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, ',27677': {}, 'RB': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, ',': {}, 'RB': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, ',5170': {}, 'RB': {}, 'NP': {'QP': {}, 'DNP': {}, 'NP': {}, 'PRN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, ',': {}, 'RB': {}, 'NP': {'QP': {}, 'DNP': {}, 'NP': {}, 'PRN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'QP': {}, 'DNP': {}, 'NP': {}, 'PRN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+但	全部	mark
+机构	全部	nsubj
+和	文化	cc
+文化	机构	conj
+并	答案	mark
+是	答案	cop
+答案	全部	acl:relcl
+的	答案	mark:rel
+全部	ROOT	root
+，	贫穷	punct
+因为	如	case
+一些	机构	amod
+机构	不好	nsubj
+不好	国家	acl:relcl
+的	不好	mark:rel
+国家	富有	nsubj
+（	国家	punct
+如	富有	ccomp
+意大利	如	obj
+和	阿根廷	cc
+阿根廷	意大利	conj
+）	如	punct
+富有	全部	ccomp
+，	贫穷	punct
+而	贫穷	mark
+一些	国家	amod
+品	国家	nmod
+德高尚	品	conj
+的	品	case
+国家	贫穷	nsubj
+（	如坦桑尼亚	punct
+如坦桑尼亚	国家	appos
+和	不丹	cc
+不丹	如坦桑尼亚	conj
+）	如坦桑尼亚	punct
+却	贫穷	mark
+贫穷	全部	parataxis
+。	全部	punct
+----------------------------------------------------------------------
+另一组因素涉及地理，其中包含许多比罗姆尼混淆的物理特征更多的方面。
+
+(ROOT (IP (IP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 组)))) (NP (NN 因素))) (VP (VV 涉及) (NP (NN 地理)))) (, ，) (IP (NP (NN 其中)) (VP (VV 包含) (NP (QP (CD 许多)) (CP (CP (IP (VP (PP (IN 比) (NP (CP (CP (IP (VP (NNP 罗姆尼混淆))) (DEC 的))) (NP (NN 物理) (NN 特征)))) (VP (JJ 更多)))) (DEC 的))) (NP (NN 方面))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP49358': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP614': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+另	组	det
+一	组	nummod
+组	因素	nmod
+因素	涉及	nsubj
+涉及	ROOT	root
+地理	涉及	obj
+，	包含	punct
+其中	包含	nsubj
+包含	涉及	parataxis
+许多	方面	nummod
+比	特征	case
+罗姆尼混淆	特征	nmod
+的	罗姆尼混淆	mark:rel
+物理	特征	nmod
+特征	更多	nmod
+更多	方面	amod
+的	更多	mark:rel
+方面	包含	obj
+。	涉及	punct
+----------------------------------------------------------------------
+这种地理因素之一是纬度，它对财富和权力产生了巨大的影响：热带国家往往比温带国家贫穷。原因包括热带疾病对生命和工作的消耗性影响，以及热带地区的农业和土壤平均产出低于温带地区。
+
+(ROOT (IP (IP (NP (DNP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 地理) (NN 因素))) (DEC 之)) (NP (CD 一))) (VP (VC 是) (NP (NN 纬度)))) (, ，) (IP (NP (PRP 它)) (VP (PP (IN 对) (NP (NN 财富) (CC 和) (NN 权力))) (VP (VV 产生) (AS 了) (NP (CP (CP (IP (VP (JJ 巨大))) (DEC 的))) (NP (NN 影响)))))) (: ：)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP53348': {}, ':': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ':': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP96032': {'NP': {}, 'VP': {}}, ':': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ':': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+这	种	det
+种	因素	clf
+地理	因素	nmod
+因素	一	nmod
+之	因素	case
+一	纬度	nsubj
+是	纬度	cop
+纬度	ROOT	root
+，	产生	punct
+它	产生	nsubj
+对	财富	case
+财富	产生	obl
+和	权力	cc
+权力	财富	conj
+产生	纬度	parataxis
+了	产生	aux
+巨大	影响	amod
+的	巨大	mark:rel
+影响	产生	obj
+：	纬度	punct
+----------------------------------------------------------------------
+第二个因素是海上通道
+
+(ROOT (IP (NP (QP (CD 第二) (CLP (NNB 个))) (NP (NN 因素))) (VP (VC 是) (NP (NN 海上) (NN 通道)))))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+第二	个	nummod
+个	因素	clf
+因素	通道	nsubj
+是	通道	cop
+海上	通道	nmod
+通道	ROOT	root
+----------------------------------------------------------------------
+没有海岸或大型航运河流的国家往往贫穷，因为陆上或空中运输成本要比海上运输成本高得多。
+
+(ROOT (IP (IP (NP (CP (CP (IP (VP (VV 没有) (NP (NP (NN 海岸)) (CC 或) (NP (ADJP (NN 大型)) (NP (NN 航运) (NN 河流)))))) (DEC 的))) (NP (NN 国家))) (VP (ADVP (RB 往往)) (VP (JJ 贫穷)))) (, ，) (PP (IN 因为) (IP (NP (NP (NN 陆上) (CC 或) (NN 空中) (NN 运输)) (NP (NN 成本))) (VP (MD 要) (VP (PP (IN 比) (NP (NN 海上) (NN 运输) (NN 成本))) (VP (JJ 高) (ADVP (JJ 得多))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+Dependency Features:
+有	国家	acl:relcl
+海岸	有	obj
+或	河流	cc
+大型	河流	nmod
+航运	河流	nmod
+河流	海岸	conj
+的	有	mark:rel
+国家	贫穷	nsubj
+往往	贫穷	advmod
+贫穷	ROOT	root
+，	高	punct
+因为	高	case
+陆上	成本	nmod
+或	空中	cc
+空中	成本	nmod
+运输	成本	nmod
+成本	高	nsubj
+要	高	aux
+比	成本	case
+海上	成本	nmod
+运输	成本	nmod
+成本	得多	nmod
+高	贫穷	ccomp
+得多	高	xcomp
+。	贫穷	punct
+----------------------------------------------------------------------
+第三个地理因素是农业的历史
+
+(ROOT (IP (NP (QP (CD 第三) (CLP (NNB 个))) (NP (NN 地理) (NN 因素))) (VP (VC 是) (NP (DNP (NP (NN 农业)) (DEC 的)) (NP (NN 历史))))))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+第三	个	nummod
+个	因素	clf
+地理	因素	nmod
+因素	历史	nsubj
+是	历史	cop
+农业	历史	nmod
+的	农业	case
+历史	ROOT	root
+----------------------------------------------------------------------
+如果一个外星人在公元前 2000 年游览地球，他会发现集权政府、书写和金属工具在欧亚大陆已经广泛存在，但在新大陆、撒哈拉沙漠以南非洲和澳大利亚尚未出现。
+
+(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 外星) (SFN 人))) (VP (PP (IN 在) (NP (LCP (NP (NN 公元)) (IN 前)) (QP (CD 2000)))) (VP (NNB 年游览) (NP (NNP 地球)))))) (, ，) (NP (PRP 他)) (VP (VP (MD 会) (VP (VV 发现) (IP (NP (NN 集权) (NN 政府) (EC 、) (NN 书写) (CC 和) (NN 金属) (NN 工具)) (VP (PP (VV 在) (NP (NP (NNP 欧) (NNP 亚)) (NP (NN 大陆)))) (ADVP (RB 已经)) (ADVP (RB 广泛)) (VP (VV 存在)))))) (, ，) (VP (ADVP (RB 但)) (PP (VV 在) (NP (LCP (NP (NP (ADJP (PFA 新)) (NP (NN 大陆))) (EC 、) (NP (NNP 撒哈拉) (NN 沙漠))) (NN 以南)) (NP (NNP 非洲) (CC 和) (NNP 澳大利亚)))) (ADVP (RB 尚)) (ADVP (RB 未)) (VP (VV 出现)))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP89887': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+如果	地球	case
+一	个	nummod
+个	人	nmod
+外星	人	compound
+人	地球	nmod
+在	地球	case
+公元	年游览	nmod
+前	公元	case
+2000	年游览	nummod
+年游览	地球	clf
+地球	发现	obl
+，	地球	punct
+他	发现	nsubj
+会	发现	aux
+发现	ROOT	root
+集权	政府	nmod
+政府	存在	nsubj
+、	书写	punct
+书写	政府	conj
+和	工具	cc
+金属	工具	nmod
+工具	政府	conj
+在	存在	advcl
+欧	大陆	nmod
+亚	大陆	nmod
+大陆	在	obj
+已经	存在	advmod
+广泛	存在	advmod
+存在	发现	ccomp
+，	发现	punct
+但	出现	mark
+在	出现	advcl
+新	大陆	case
+大陆	在	obj
+、	沙漠	punct
+撒哈拉	沙漠	nmod
+沙漠	大陆	conj
+以南	大陆	acl
+非洲	大陆	appos
+和	澳大利亚	cc
+澳大利亚	非洲	conj
+尚	未	advmod
+未	出现	advmod
+出现	发现	ccomp
+。	出现	punct
+----------------------------------------------------------------------
+这个长期的领先优势让访客预测得准，今天，世界上大多数最富有和最强大的国家都是欧亚国家（以及他们在北美、澳大利亚和新西兰的海外殖民地）。
+
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 个))) (DNP (NP (NN 长期)) (DEC 的)) (NP (JJ 领先) (NN 优势))) (VP (VV 让) (NP (NN 访客)) (IP (VP (VV 预测) (IP (VP (JJ 得准))))))) (, ，) (IP (NP (NN 今天)) (, ，) (NP (LCP (NP (NN 世界)) (IN 上)) (QP (ADVP (RB 大)) (QP (JJ 多数))) (CP (CP (IP (VP (VP (ADVP (RB 最)) (VP (JJ 富有))) (CC 和) (VP (ADVP (RB 最)) (VP (JJ 强大))))) (DEC 的))) (NP (NN 国家))) (VP (VC 都是) (NP (NP (NNP 欧) (NNP 亚)) (NP (NN 国家)) (PRN (-LRB- （) (CC 以及) (NP (NP (PRP 他们)) (DNP (PP (VV 在) (NP (NNP 北美) (EC 、) (NNP 澳大利亚) (CC 和) (NNP 新西兰))) (DEC 的)) (NP (NN 海外) (VV 殖民) (SFN 地))) (-RRB- ）))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP77718': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP70912': {'NP': {}, ',': {}, 'NP30738': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+这	个	det
+个	优势	clf
+长期	优势	amod
+的	长期	mark:rel
+领先	优势	amod
+优势	让	nsubj
+让	ROOT	root
+访客	预测	nsubj
+预测	让	ccomp
+得准	预测	xcomp
+，	国家	punct
+今天	国家	nmod:tmod
+，	今天	punct
+世界	国家	nmod
+上	世界	case
+大	多数	advmod
+多数	国家	amod
+最	富有	advmod
+富有	国家	amod
+和	强大	cc
+最	强大	advmod
+强大	富有	conj
+的	富有	mark:rel
+国家	国家	nsubj
+是	国家	cop
+欧	国家	nmod
+亚	国家	nmod
+国家	让	parataxis
+（	地	punct
+以及	地	cc
+他	在	nsubj
+在	地	acl:relcl
+北美	在	obj
+、	澳大利亚	punct
+澳大利亚	北美	conj
+和	新西兰	cc
+新西兰	北美	conj
+的	在	mark:rel
+海外	地	nmod
+殖民	地	compound
+地	国家	conj
+）	国家	punct
+。	让	punct
+----------------------------------------------------------------------
+原因是地理的历史效应：13,000 年前，世界各地的人们都是狩猎采集者，生活在人口稀少的地方，没有集权政府、军队、文字或金属工具。
+
+(ROOT (IP (NP (NN 原因)) (VP (VC 是) (IP (NP (DNP (NP (NN 地理)) (DEC 的)) (NP (NN 历史) (NN 效应))) (: ：) (LCP (QP (CD 13,000)) (NNB 年前)) (, ，) (NP (DNP (NP (NN 世界) (NN 各地)) (DEC 的)) (NP (NN 人们))) (VP (VP (VC 都是) (NP (VV 狩猎) (VV 采集) (SFN 者))) (, ，) (VP (VV 生活) (PP (IN 在) (NP (CP (CP (IP (NP (NN 人口)) (VP (JJ 稀少))) (DEC 的))) (NP (NN 地方))))) (, ，) (VP (VV 没有) (NP (NN 集权) (NN 政府) (EC 、) (NN 军队) (EC 、) (NN 文字) (CC 或) (NN 金属) (NN 工具)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VC': {}, 'IP': {}}}
+Dependency Features:
+原因	是	nsubj
+是	ROOT	root
+地理	效应	nmod
+的	地理	case
+历史	效应	nmod
+效应	者	nsubj
+：	效应	punct
+13,000	年前	nummod
+年前	者	nmod:tmod
+，	年前	punct
+世界	各地	nmod
+各地	人	nmod
+的	各地	case
+人	者	nsubj
+是	者	cop
+狩猎	采集	advcl
+采集	者	compound
+者	是	ccomp
+，	有	punct
+生活	有	advcl
+在	地方	case
+人口	稀少	nsubj
+稀少	地方	acl:relcl
+的	稀少	mark:rel
+地方	生活	obl
+，	生活	punct
+有	是	parataxis
+集权	政府	nmod
+政府	有	obj
+、	军队	punct
+军队	政府	conj
+、	文字	punct
+文字	政府	conj
+或	工具	cc
+金属	工具	nmod
+工具	政府	conj
+。	是	punct
+----------------------------------------------------------------------
+这四种权力根源是农业发展的结果，农业产生了人口爆炸和粮食积累，足以养活全职领袖、士兵、书写者和发明家。
+
+(ROOT (IP (IP (NP (DP (DT 这) (QP (CD 四) (CLP (NNB 种)))) (NP (NN 权力) (NN 根源))) (VP (VC 是) (NP (DNP (NP (NN 农业) (VV 发展)) (DEC 的)) (NP (NN 结果))))) (, ，) (IP (NP (NN 农业)) (VP (VP (VV 产生) (AS 了) (NP (NN 人口) (NN 爆炸) (CC 和) (NN 粮食) (NN 积累))) (, ，) (VP (ADVP (VV 足)) (VP (RB 以) (VP (VV 养活) (NP (ADJP (JJ 全职)) (NP (NN 领袖) (EC 、) (NN 士兵) (EC 、) (VV 书写) (SFN 者) (CC 和) (VV 发明) (SFN 家)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP85135': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP21525': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+这	种	det
+四	种	nummod
+种	根源	nmod
+权力	根源	nmod
+根源	结果	nsubj
+是	结果	cop
+农业	发展	nsubj
+发展	结果	acl:relcl
+的	发展	mark:rel
+结果	ROOT	root
+，	养活	punct
+农业	养活	nsubj
+产生	养活	advcl
+了	产生	aux
+人口	爆炸	nmod
+爆炸	产生	obj
+和	积累	cc
+粮食	积累	nmod
+积累	爆炸	conj
+，	产生	punct
+足	养活	advcl
+以	养活	mark
+养活	结果	parataxis
+全职	领袖	amod
+领袖	养活	obj
+、	士兵	punct
+士兵	领袖	conj
+、	者	punct
+书写	者	compound
+者	领袖	conj
+和	家	cc
+发明	家	compound
+家	领袖	conj
+。	结果	punct
+----------------------------------------------------------------------
+但农业只能在那些拥有许多适合驯化的野生植物和动物种类的地区，如野生小麦、水稻、猪和牛，起源。
+
+(ROOT (IP (ADVP (RB 但)) (NP (NN 农业)) (VP (ADVP (RB 只)) (VP (MD 能) (VP (PP (IN 在) (NP (NP (DP (DT 那些)) (CP (CP (IP (VP (VV 拥有) (NP (QP (CD 许多)) (CP (CP (IP (VP (VV 适合) (NP (VV 驯化)))) (DEC 的))) (ADJP (JJ 野生)) (NP (NN 植物) (CC 和) (NN 动物)) (NP (NN 种类))))) (DEC 的))) (NP (NN 地区))) (, ，) (NP (ADVP (VV 如)) (NP (ADJP (JJ 野生)) (NP (NN 小麦) (EC 、) (NN 水稻) (EC 、) (NN 猪和牛)))))) (, ，) (VP (NN 起源))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+但	能	mark
+农业	能	nsubj
+只	能	advmod
+能	拥有	aux
+在	拥有	case
+那些	拥有	obl
+拥有	ROOT	root
+许多	地区	nummod
+适合	地区	acl:relcl
+驯化	适合	xcomp
+的	适合	mark:rel
+野生	植物	amod
+植物	适合	obj
+和	种类	cc
+动物	种类	nmod
+种类	植物	conj
+的	适合	mark:rel
+地区	如	nsubj
+，	地区	punct
+如	拥有	ccomp
+野生	小麦	amod
+小麦	如	obj
+、	水稻	punct
+水稻	小麦	conj
+、	猪和牛	punct
+猪和牛	小麦	conj
+，	起源	punct
+起源	小麦	conj
+。	如	punct
+----------------------------------------------------------------------
+总之，地理解释和文化机构解释并不独立。
+
+(ROOT (IP (ADVP (RB 总之)) (, ，) (NP (NP (NN 地理) (NN 解释) (CC 和) (NN 文化) (NN 机构)) (NP (NN 解释))) (VP (ADVP (RB 并)) (ADVP (RB 不)) (VP (JJ 独立))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NP': {}, 'NP72583': {}}, 'VP': {'ADVP': {}, 'ADVP58129': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+总之	独立	advmod
+，	总之	punct
+地理	解释	nmod
+解释	解释	nmod
+和	机构	cc
+文化	机构	nmod
+机构	解释	conj
+解释	独立	nsubj
+并	不	advmod
+不	独立	advmod
+独立	ROOT	root
+。	独立	punct
+----------------------------------------------------------------------
+当然，并非所有的农业区域都发展出了诚实的集权政府，但是，没有一个非农业区域，无论是诚实的还是不诚实的，都发展出过集权政府。
+
+(ROOT (IP (IP (ADVP (RB 当然)) (, ，) (VP (VC 并非) (IP (NP (DNP (DP (DT 所有)) (DEC 的)) (NP (NN 农业) (NN 区域))) (VP (ADVP (RB 都)) (VP (VRD (VV 发展) (VV 出)) (AS 了) (NP (CP (CP (IP (VP (JJ 诚实))) (DEC 的))) (NP (NN 集权) (NN 政府)))))))) (, ，) (IP (ADVP (RB 但是)) (, ，) (IP (VP (VV 没有) (NP (QP (CD 一) (CLP (NNB 个))) (NP (ADJP (VC 非)) (NP (NN 农业))) (NP (NN 区域))))) (, ，) (VP (IP (VP (ADVP (IN 无论)) (VP (VC 是) (NP (NP (CP (CP (IP (VP (JJ 诚实))) (DEC 的)))) (VC 还是) (NP (CP (CP (IP (VP (ADVP (RB 不)) (VP (JJ 诚实)))) (UH 的)))))))) (, ，) (ADVP (RB 都)) (VP (VRD (VV 发展) (VV 出)) (AS 过) (NP (NN 集权) (NN 政府))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP88268': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP8044': {'ADVP': {}, ',': {}, 'IP': {}, ',2684': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+当然	并非	advmod
+，	当然	punct
+并非	ROOT	root
+所有	区域	det
+的	所有	case
+农业	区域	nmod
+区域	发展	nsubj
+都	发展	mark
+发展	并非	ccomp
+出	发展	mark
+了	发展	aux
+诚实	政府	amod
+的	诚实	mark:rel
+集权	政府	nmod
+政府	发展	obj
+，	发展	punct
+但是	有	mark
+，	但是	punct
+有	发展	advcl
+一	个	nummod
+个	区域	clf
+非	区域	amod
+农业	非	obj
+区域	有	obj
+，	有	punct
+无论	诚实	case
+是	诚实	cop
+诚实	诚实	advcl
+的	诚实	mark:rel
+是	诚实	cop
+不	诚实	advmod
+诚实	发展	advcl
+的	诚实	discourse
+，	诚实	punct
+都	发展	mark
+发展	发展	parataxis
+出	发展	mark
+过	发展	aux
+集权	政府	nmod
+政府	发展	obj
+。	并非	punct
+----------------------------------------------------------------------
+这就是为什么当今促进财富的机构首先出现在拥有最古老和最富庶农业的欧亚大陆。
+
+(ROOT (IP (NP (PRD 这)) (VP (VC 就是) (IP (NP (PP (IN 为) (DP (WP 什么))) (NP (NN 当今)) (CP (CP (IP (VP (VV 促进) (NP (NN 财富)))) (DEC 的))) (NP (NN 机构))) (VP (ADVP (RB 首先)) (VP (VV 出现) (PP (IN 在) (NP (CP (CP (IP (VP (VV 拥有) (IP (VP (VP (ADVP (RB 最)) (VP (JJ 古老))) (CC 和) (NP (ADJP (JJ 最富庶)) (NP (NN 农业))))))) (DEC 的))) (NP (NNP 欧) (NNP 亚)) (NP (NN 大陆)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VC': {}, 'IP': {}}}
+Dependency Features:
+这	是	nsubj
+是	ROOT	root
+为	什么	case
+什么	出现	obl
+当今	促进	nmod:tmod
+促进	机构	acl:relcl
+财富	促进	obj
+的	促进	mark:rel
+机构	出现	nsubj
+首先	出现	advmod
+出现	是	ccomp
+在	大陆	case
+拥有	大陆	acl:relcl
+最	古老	advmod
+古老	大陆	amod
+和	农业	cc
+最富庶	农业	amod
+农业	古老	conj
+的	拥有	mark:rel
+欧	大陆	nmod
+亚	大陆	nmod
+大陆	出现	obj
+。	是	punct
+----------------------------------------------------------------------
+这对美国来说意味着什么？我们可以假设，美国拥有温带地区、海岸和可航行河流的祝福，将永远富有，而热带或内陆国家注定要陷入永恒的贫穷吗？
+
+(ROOT (IP (NP (PRD 这)) (VP (IP (VP (PP (IN 对) (NP (NNP 美国))) (VP (RB 来) (VP (VV 说))))) (VP (VV 意味) (AS 着) (NP (WP 什么)))) (. ？)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'IP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'IP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'IP': {}, 'VP': {}}}
+Dependency Features:
+这	意味	nsubj
+对	美国	case
+美国	说	obl
+来	说	mark
+说	意味	advcl
+意味	ROOT	root
+着	意味	aux
+什么	意味	obj
+？	意味	punct
+----------------------------------------------------------------------
+当然不会。
+
+(ROOT (IP (VP (ADVP (RB 当然)) (VP (MD 不会))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+当然	会	advmod
+会	ROOT	root
+。	会	punct
+----------------------------------------------------------------------
+一些热带和亚热带国家尽管地理条件有限，但仍然变得富裕起来。
+
+(ROOT (IP (NP (QP (JJ 一些)) (NP (NP (NN 热带)) (CC 和) (NP (ADJP (PFA 亚)) (NP (NN 热带)))) (NP (NN 国家))) (VP (CP (ADVP (IN 尽管)) (IP (NP (NN 地理) (NN 条件)) (VP (JJ 有限)))) (, ，) (ADVP (RB 但)) (ADVP (RB 仍然)) (VP (VV 变得) (VP (VRD (JJ 富裕) (VV 起来))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}, 'NP4814': {}}, 'VP': {'CP': {}, ',': {}, 'ADVP': {}, 'ADVP35413': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}, 'NP': {}}, 'VP': {'CP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}, 'NP': {}}}
+{'VP': {'CP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+一些	热带	amod
+热带	有限	nsubj
+和	国家	cc
+亚	热带	case
+热带	国家	nmod
+国家	热带	conj
+尽管	有限	case
+地理	条件	nmod
+条件	有限	nsubj
+有限	变得	ccomp
+，	有限	punct
+但	变得	mark
+仍然	变得	advmod
+变得	ROOT	root
+富裕	变得	xcomp
+起来	富裕	mark
+。	变得	punct
+----------------------------------------------------------------------
+他们投资公共卫生，以克服自身的疾病负担（博茨瓦纳和菲律宾）。
+
+(ROOT (IP (NP (PRP 他们)) (VP (VP (VV 投资) (NP (ADJP (JJ 公共)) (NP (NN 卫生)))) (, ，) (VP (RB 以) (VP (VV 克服) (NP (DNP (NP (PRD 自身)) (DEC 的)) (NP (NN 疾病) (NN 负担)) (PRN (-LRB- （) (NP (NNP 博茨瓦纳) (CC 和) (NNP 菲律宾)) (-RRB- ）)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP19386': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+他	克服	nsubj
+投资	克服	advcl
+公共	卫生	amod
+卫生	投资	obj
+，	投资	punct
+以	克服	mark
+克服	ROOT	root
+自身	负担	det
+的	自身	case
+疾病	负担	nmod
+负担	克服	obj
+（	博茨瓦纳	punct
+博茨瓦纳	负担	appos
+和	菲律宾	cc
+菲律宾	博茨瓦纳	conj
+）	博茨瓦纳	punct
+。	克服	punct
+----------------------------------------------------------------------
+他们投资了适合热带地区的作物（巴西和马来西亚）。
+
+(ROOT (IP (NP (PRP 他们)) (VP (VV 投资) (AS 了) (NP (CP (CP (IP (VP (VV 适合) (NP (NN 热带) (NN 地区)))) (DEC 的))) (NP (NN 作物)) (PRN (-LRB- （) (NP (NNP 巴西) (CC 和) (NNP 马来西亚)) (-RRB- ）)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+他	投资	nsubj
+投资	ROOT	root
+了	投资	aux
+适合	作物	acl:relcl
+热带	地区	nmod
+地区	适合	obj
+的	适合	mark:rel
+作物	投资	obj
+（	巴西	punct
+巴西	作物	appos
+和	马来西亚	cc
+马来西亚	巴西	conj
+）	巴西	punct
+。	投资	punct
+----------------------------------------------------------------------
+他们将经济重点放在农业以外的行业上（新加坡和台湾）。
+
+(ROOT (IP (NP (PRP 他们)) (VP (BB 将) (IP (NP (NN 经济) (NN 重点)) (VP (VV 放) (PP (VV 在) (NP (LCP (NP (DNP (LCP (NP (NN 农业)) (IN 以外)) (DEC 的)) (NP (NN 行业))) (IN 上)) (PRN (-LRB- （) (NP (NNP 新加坡) (CC 和) (NNP 台湾)) (-RRB- ）))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'BB': {}, 'IP': {}}}
+Dependency Features:
+他	放	nsubj
+将	重点	case
+经济	重点	nmod
+重点	放	obl:patient
+放	ROOT	root
+在	放	mark
+农业	行业	nmod
+以外	农业	case
+的	农业	case
+行业	放	obj
+上	行业	case
+（	新加坡	punct
+新加坡	行业	appos
+和	台湾	cc
+台湾	新加坡	conj
+）	新加坡	punct
+。	放	punct
+----------------------------------------------------------------------
+相反，地理优势并不能保证永远的成功，欧美日渐难行就是证明。
+
+(ROOT (IP (IP (ADVP (VV 相反)) (, ，) (NP (NN 地理) (NN 优势)) (VP (ADVP (RB 并)) (VP (MD 不能) (VP (VV 保证) (NP (DNP (ADJP (JJ 永远)) (DEC 的)) (NP (NN 成功))))))) (, ，) (IP (NP (NNP 欧) (NNP 美)) (VP (VP (ADVP (RB 日渐)) (VP (JJ 难行))) (VP (VC 就是) (VP (VV 证明))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP14633': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP78793': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+相反	保证	advcl
+，	相反	punct
+地理	优势	nmod
+优势	保证	nsubj
+并	保证	advmod
+能	保证	aux
+保证	ROOT	root
+永远	成功	amod
+的	永远	mark:rel
+成功	保证	obj
+，	证明	punct
+欧	难行	nsubj
+美	欧	conj
+日渐	难行	advmod
+难行	证明	advcl
+是	证明	cop
+证明	保证	parataxis
+。	保证	punct
+----------------------------------------------------------------------
+我们美国人未能向大部分人口提供优质的教育和经济刺激。
+
+(ROOT (IP (NP (NP (PRP 我们)) (NP (NNP 美国)) (NP (SFN 人))) (VP (MD 未能) (VP (PP (IN 向) (NP (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (NN 人口)))) (VP (VV 提供) (NP (DNP (ADJP (JJ 优质)) (DEC 的)) (NP (NN 教育) (CC 和) (NN 经济)) (NP (NN 刺激)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP567': {}, 'NP37773': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}, 'NP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+我	人	nmod
+美国	人	compound
+人	提供	nsubj
+能	提供	aux
+向	人口	case
+大	部分	case
+部分	人口	nmod
+人口	提供	obl
+提供	ROOT	root
+优质	教育	amod
+的	优质	mark:rel
+教育	提供	obj
+和	刺激	cc
+经济	刺激	nmod
+刺激	教育	conj
+。	提供	punct
+----------------------------------------------------------------------
+印度、中国等未曾成为世界领先国家的国家都在大力投资教育、技术和基础设施。
+
+(ROOT (IP (NP (NP (NNP 印度) (EC 、) (NNP 中国) (NN 等)) (CP (CP (IP (VP (ADVP (RB 未)) (ADVP (RB 曾)) (VP (VV 成) (VP (VC 为) (NP (NP (NN 世界)) (ADJP (JJ 领先)) (NP (NN 国家))))))) (DEC 的))) (NP (NN 国家))) (VP (ADVP (RB 都)) (ADVP (RB 在)) (ADVP (RB 大力)) (VP (VV 投资) (NP (NN 教育) (EC 、) (NN 技术) (CC 和) (NN 基础) (NN 设施)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'CP': {}, 'NP30685': {}}, 'VP': {'ADVP': {}, 'ADVP25474': {}, 'ADVP3318': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'CP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+印度	成	nsubj
+、	中国	punct
+中国	印度	conj
+等	印度	acl
+未	成	advmod
+曾	成	advmod
+成	国家	acl:relcl
+为	成	mark
+世界	国家	nmod
+领先	国家	amod
+国家	成	obj
+的	成	mark:rel
+国家	投资	nsubj
+都	投资	mark
+在	投资	advmod
+大力	投资	advmod
+投资	ROOT	root
+教育	投资	obj
+、	技术	punct
+技术	教育	conj
+和	设施	cc
+基础	设施	nmod
+设施	教育	conj
+。	投资	punct
+----------------------------------------------------------------------
+它们正在为越来越多的公民提供经济机会。
+
+(ROOT (IP (NP (PRP 它们)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (PP (IN 为) (NP (CP (CP (IP (VP (ADVP (RB 越来越)) (VP (JJ 多)))) (DEC 的))) (NP (NN 公民)))) (VP (VV 提供) (NP (NN 经济) (NN 机会)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'ADVP4439': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+它	提供	nsubj
+正	提供	advmod
+在	提供	advmod
+为	公民	case
+越来越	多	advmod
+多	公民	amod
+的	多	mark:rel
+公民	提供	obl
+提供	ROOT	root
+经济	机会	nmod
+机会	提供	obj
+。	提供	punct
+----------------------------------------------------------------------
+这也是职位流失海外的部分原因。
+
+(ROOT (IP (NP (PRD 这)) (VP (VC 也是) (NP (CP (CP (IP (NP (NN 职位)) (VP (VP (VV 流失) (NP (NN 海外))))) (DEC 的))) (QP (NN 部分)) (NP (NN 原因)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+这	原因	nsubj
+是	原因	cop
+职位	流失	nsubj
+流失	原因	acl:relcl
+海外	流失	obj
+的	流失	mark:rel
+部分	原因	nmod
+原因	ROOT	root
+。	原因	punct
+----------------------------------------------------------------------
+如果我们不能接受良好的教育，不能负担得起医疗保健，不能依靠自己的努力获得好工作和增长收入，那么我们的地理位置将不会让我们富有和强大。
+
+(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 我们)) (VP (VP (MD 不能) (VP (VV 接受) (NP (CP (CP (IP (VP (JJ 良好))) (DEC 的))) (NP (NN 教育))))) (, ，) (VP (MD 不能) (VP (VRD (VV 负担) (VV 得起)) (NP (NN 医疗) (NN 保健)))) (, ，) (VP (MD 不能) (VP (VP (VV 依靠) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 努力)))) (VP (VV 获得) (NP (NP (ADJP (JJ 好)) (NP (NN 工作))) (CC 和) (NP (NN 增长) (NN 收入))))))))) (, ，) (ADVP (RB 那么)) (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NN 地理) (NN 位置))) (VP (ADVP (RB 将)) (VP (MD 不会) (VP (VV 让) (NP (PRP 我们)) (IP (VP (VV 富有) (CC 和) (JJ 强大)))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+如果	负担	case
+我	接受	nsubj
+能	接受	aux
+接受	负担	ccomp
+良好	教育	amod
+的	良好	mark:rel
+教育	接受	obj
+，	接受	punct
+能	负担	aux
+负担	获得	advcl
+得起	负担	mark
+医疗	保健	nmod
+保健	负担	obj
+，	负担	punct
+能	获得	aux
+依靠	获得	advcl
+自己	努力	det
+的	自己	case
+努力	依靠	obj
+获得	ROOT	root
+好	工作	amod
+工作	获得	obj
+和	收入	cc
+增长	收入	nmod
+收入	工作	conj
+，	让	punct
+那么	让	advmod
+我	位置	det
+的	我	mark:rel
+地理	位置	nmod
+位置	让	nsubj
+将	让	advmod
+会	让	aux
+让	获得	parataxis
+我	富有	nsubj
+富有	让	ccomp
+和	强大	cc
+强大	富有	conj
+。	获得	punct
+----------------------------------------------------------------------
+米特·罗姆尼可能会成为我们的下一任总统。
+
+(ROOT (IP (NP (NNP 米特) (/ ·) (NNP 罗姆尼)) (VP (MD 可能) (VP (MD 会) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (PRP 我们)) (DEC 的)) (DP (DT 下) (QP (CD 一) (CLP (NNB 任)))) (NP (NN 总统))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP24723': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+米特	成	nsubj
+·	罗姆尼	punct
+罗姆尼	米特	flat:name
+可能	成	aux
+会	成	aux
+成	ROOT	root
+为	成	mark
+我	总统	det
+的	我	case
+下	任	det
+一	任	nummod
+任	总统	clf
+总统	成	obj
+。	成	punct
+----------------------------------------------------------------------
+他还会继续为多因素问题寻找单一因素的解释吗，还会不懂历史和现代世界吗？
+
+(ROOT (IP (CP (IP (NP (PRP 他)) (VP (ADVP (RB 还)) (VP (MD 会) (VP (VV 继续) (VP (PP (IN 为) (NP (NP (QP (CD 多)) (NP (NN 因素))) (NP (NN 问题)))) (VP (VV 寻找) (NP (DNP (NP (ADJP (JJ 单一)) (NP (NN 因素))) (DEC 的)) (NP (NN 解释))))))))) (UH 吗)) (, ，) (CP (IP (VP (ADVP (RB 还)) (VP (VNV (MD 会) (RB 不) (VV 懂)) (NP (NP (NN 历史)) (CC 和) (NP (ADJP (NN 现代)) (NP (NN 世界))))))) (UH 吗)) (. ？)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'CP49568': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'CP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'IP': {}, 'UH': {}}, ',': {}, 'CP88042': {'IP': {}, 'UH': {}}, '.': {}}}
+{'IP': {'CP': {'IP': {}, 'UH': {}}, ',': {}, 'CP': {'IP': {}, 'UH': {}}, '.': {}}}
+{'CP': {'IP': {}, 'UH': {}}}
+{'CP': {'IP': {}, 'UH': {}}}
+Dependency Features:
+他	懂	nsubj
+还	继续	mark
+会	继续	aux
+继续	懂	advcl
+为	问题	case
+多	因素	nummod
+因素	问题	nmod
+问题	寻找	obl
+寻找	解释	acl:relcl
+单一	因素	amod
+因素	寻找	obj
+的	寻找	mark:rel
+解释	继续	obj
+吗	继续	discourse
+，	继续	punct
+还	懂	mark
+会	懂	aux
+不	懂	advmod
+懂	ROOT	root
+历史	懂	obj
+和	世界	cc
+现代	世界	nmod
+世界	历史	conj
+吗	懂	discourse
+？	懂	punct
+----------------------------------------------------------------------
+如果是这样的话，他将会掌管一个衰落的国家，浪费着其地理位置和历史优势。
+
+(ROOT (IP (CP (IP (VP (ADVP (IN 如果)) (VP (VC 是) (NP (PRD 这样))))) (UH 的话)) (, ，) (NP (PRP 他)) (VP (ADVP (RB 将)) (VP (MD 会) (VP (VP (VV 掌管) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 衰落))) (DEC 的))) (NP (NN 国家)))) (, ，) (VP (VV 浪费) (AS 着) (NP (NP (PRP 其)) (NP (NN 地理) (NN 位置) (CC 和) (NN 历史) (NN 优势))))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'IP': {}, 'UH': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'CP': {'IP': {}, 'UH': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'IP': {}, 'UH': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+如果	是	case
+是	浪费	xcomp
+这样	是	obj
+的话	是	discourse
+，	是	punct
+他	浪费	nsubj
+将	掌管	advmod
+会	掌管	aux
+掌管	浪费	advcl
+一	个	nummod
+个	国家	clf
+衰落	国家	acl:relcl
+的	衰落	mark:rel
+国家	掌管	obj
+，	掌管	punct
+浪费	ROOT	root
+着	浪费	aux
+其	位置	nmod
+地理	位置	nmod
+位置	浪费	obj
+和	优势	cc
+历史	优势	nmod
+优势	位置	conj
+。	浪费	punct
+----------------------------------------------------------------------

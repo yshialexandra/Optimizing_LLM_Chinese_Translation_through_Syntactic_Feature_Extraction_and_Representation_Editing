@@ -1,0 +1,2426 @@
+大多数书法家都有义务给自己的书籍起一个吸引人的名字，希望让潜在读者对我们的智慧产生印象。
+
+(ROOT (IP (NP (QP (ADJP (RB 大)) (QP (JJ 多数))) (NP (NN 书法) (SFN 家))) (VP (VP (ADVP (RB 都)) (VP (VP (VV 有) (NP (NN 义务))) (VP (PP (VV 给) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 书籍)))) (VP (VV 起) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 吸引) (NP (NN 人)))) (DEC 的))) (NP (NN 名字))))))) (, ，) (VP (VV 希望) (IP (VP (VV 让) (NP (NP (NN 潜)) (PP (VV 在) (NP (NN 读者)))) (IP (VP (PP (IN 对) (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NN 智慧)))) (VP (VV 产生) (NP (NN 印象))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP82684': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+大	多数	advmod
+多数	家	amod
+书法	家	compound
+家	希望	nsubj
+都	有	mark
+有	希望	advcl
+义务	给	nsubj
+给	书籍	acl:relcl
+自己	给	obj
+的	给	mark:rel
+书籍	起	nsubj
+起	有	ccomp
+一	个	nummod
+个	名字	clf
+吸引	名字	acl:relcl
+人	吸引	obj
+的	吸引	mark:rel
+名字	起	obj
+，	起	punct
+希望	ROOT	root
+让	希望	xcomp
+潜	产生	nsubj
+在	产生	advcl
+读者	在	obj
+对	智慧	case
+我	智慧	det
+的	我	case
+智慧	产生	obl
+产生	让	ccomp
+印象	产生	obj
+。	希望	punct
+----------------------------------------------------------------------
+不然的话，就是约瑟夫·艾普斯坦。
+
+(ROOT (IP (ADVP (JJ 不然)) (UH 的话) (, ，) (VP (VC 就是) (NP (NNP 约瑟夫) (/ ·) (NNP 艾普斯坦))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'UH': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'UH': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'JJ': {}}, 'UH': {}, ',': {}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'ADVP': {'JJ': {}}, 'UH': {}, ',': {}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'ADVP': {'JJ': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+不然	约瑟夫	acl
+的话	不然	discourse
+，	不然	punct
+是	约瑟夫	cop
+约瑟夫	ROOT	root
+·	艾普斯坦	punct
+艾普斯坦	约瑟夫	flat:name
+。	约瑟夫	punct
+----------------------------------------------------------------------
+“你的书是关于什么的？”
+
+(ROOT (IP (`` “) (NP (DNP (NP (PRP 你)) (DEC 的)) (NP (NN 书))) (VP (VC 是) (DNP (PP (IN 关于) (NP (WP 什么))) (UH 的))) (. ？) ('' ”)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'DNP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'DNP': {}}, '.': {}, "''": {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'DNP': {}}}
+Dependency Features:
+“	书	punct
+你	书	det
+的	你	case
+书	什么	nsubj
+是	什么	cop
+关于	什么	case
+什么	ROOT	root
+的	什么	discourse
+？	什么	punct
+”	什么	punct
+----------------------------------------------------------------------
+“叫什么名字？”
+
+(ROOT (IP (`` “) (VP (VV 叫) (NP (DP (WP 什么)) (NP (NN 名字)))) (. ？) ('' ”)))
+layer 2:
+{'IP': {'``': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'``': {}, 'VP': {'VV': {}, 'NP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'VP': {'VV': {}, 'NP': {}}, '.': {}, "''": {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+“	叫	punct
+叫	ROOT	root
+什么	名字	nmod
+名字	叫	obj
+？	叫	punct
+”	叫	punct
+----------------------------------------------------------------------
+埃本斯一再选择了带有标签通用名称的标题，这些标签应该是他为研究而保留的文件：“野心”、“友谊”、“高贵”、“嫉妒”。
+
+(ROOT (IP (IP (NP (NNP 埃本斯)) (VP (ADVP (CD 一)) (ADVP (RB 再)) (VP (VV 选择) (AS 了) (NP (CP (CP (IP (VP (VV 带有) (NP (NN 标签) (ADJP (NN 通用)) (NP (NN 名称))))) (DEC 的))) (NP (NN 标题)))))) (, ，) (IP (NP (DP (DT 这些)) (NP (NN 标签))) (VP (MD 应该) (VP (VC 是) (IP (NP (PRP 他)) (VP (PP (IN 为) (NP (NP (CP (CP (IP (VP (VP (VV 研究)) (VP (RB 而) (VP (VV 保留))))) (DEC 的))) (NP (NN 文件))) (: ：) (NP (`` “) (NN 野心) ('' ”)) (EC 、) (NP (`` “) (NN 友谊) ('' ”)) (EC 、) (NP (`` “) (JJ 高贵) ('' ”)) (EC 、) (NP (`` “) (NN 嫉妒) ('' ”))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP33264': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP56571': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+埃本斯	选择	nsubj
+一	选择	obl
+再	选择	advmod
+选择	ROOT	root
+了	选择	aux
+带有	标题	acl:relcl
+标签	名称	nmod
+通用	名称	nmod
+名称	带有	obj
+的	带有	mark:rel
+标题	选择	obj
+，	文件	punct
+这些	标签	det
+标签	文件	nsubj
+应该	文件	aux
+是	文件	cop
+他	文件	nsubj
+为	研究	case
+研究	保留	xcomp
+而	保留	mark
+保留	文件	acl:relcl
+的	保留	mark:rel
+文件	选择	parataxis
+：	野心	punct
+“	野心	punct
+野心	文件	appos
+”	野心	punct
+、	友谊	punct
+“	友谊	punct
+友谊	野心	conj
+”	友谊	punct
+、	高贵	punct
+“	高贵	punct
+高贵	野心	conj
+”	高贵	punct
+、	嫉妒	punct
+“	嫉妒	punct
+嫉妒	野心	conj
+”	嫉妒	punct
+。	选择	punct
+----------------------------------------------------------------------
+对于其他作者来说，这可能被视为懒惰或疲惫的表现。
+
+(ROOT (IP (IP (VP (PP (IN 对于) (NP (DP (DT 其他)) (NP (NN 作者)))) (VP (RB 来) (VP (VV 说))))) (, ，) (NP (PRD 这)) (VP (MD 可能) (VP (BB 被) (VP (VCP (VV 视) (VC 为)) (NP (CP (CP (IP (VP (JJ 懒惰) (CC 或) (JJ 疲惫))) (DEC 的))) (NP (NN 表现)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'PRD': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'PRD': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+对于	作者	case
+其他	作者	det
+作者	说	obl
+来	说	mark
+说	ROOT	root
+，	视	punct
+这	视	nsubj:pass
+可能	视	aux
+被	视	aux:pass
+视	说	ccomp
+为	视	mark
+懒惰	表现	amod
+或	疲惫	cc
+疲惫	懒惰	conj
+的	懒惰	mark:rel
+表现	视	obj
+。	说	punct
+----------------------------------------------------------------------
+但在埃平斯坦的案件中，似乎是一次大胆的争夺，要掌控一个很大的主题，即便 — — 或者特别是 — — 这个主题是上帝往往占据话语权的主题。
+
+(ROOT (IP (IP (ADVP (RB 但)) (PP (VV 在) (LCP (NP (DNP (NP (NNP 埃平斯坦)) (DEC 的)) (NP (NN 案件))) (IN 中))) (, ，) (VP (VP (ADVP (RB 似乎)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 次))) (CP (CP (IP (VP (JJ 大胆))) (DEC 的))) (NP (NN 争夺))))) (, ，) (VP (MD 要) (VP (VV 掌控) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 很大))) (DEC 的))) (NP (NN 主题))))))) (, ，) (VP (ADVP (VC 即)) (ADVP (NN 便)) (HYPH —) (HYPH —) (CC 或者) (VP (ADVP (RB 特别)) (VP (VC 是))) (HYPH —) (HYPH —) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 主题))) (VP (VC 是) (NP (CP (IP (NP (NN 上帝)) (VP (ADVP (RB 往往)) (VP (VV 占据) (NP (NN 话语) (SFN 权))))) (DEC 的)) (NP (NN 主题)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'VP': {}}, ',': {}, 'VP': {'ADVP': {}, 'ADVP86132': {}, 'HYPH': {}, 'HYPH15268': {}, 'CC': {}, 'VP': {}, 'HYPH55667': {}, 'HYPH29146': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'VP': {}}, ',': {}, 'VP': {'ADVP': {}, 'ADVP': {}, 'HYPH': {}, 'HYPH': {}, 'CC': {}, 'VP': {}, 'HYPH': {}, 'HYPH': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'VP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'HYPH': {}, 'HYPH': {}, 'CC': {}, 'VP': {}, 'HYPH': {}, 'HYPH': {}, 'IP': {}}}
+Dependency Features:
+但	掌控	mark
+在	案件	acl:relcl
+埃平斯坦	在	obj
+的	在	mark:rel
+案件	掌控	obl
+中	案件	case
+，	案件	punct
+似乎	争夺	advmod
+是	争夺	cop
+一	次	nummod
+次	争夺	clf
+大胆	争夺	amod
+的	大胆	mark:rel
+争夺	掌控	advcl
+，	争夺	punct
+要	掌控	aux
+掌控	ROOT	root
+一	个	nummod
+个	主题	clf
+很大	主题	amod
+的	很大	mark:rel
+主题	即	nsubj
+，	主题	punct
+即	掌控	ccomp
+便	即	xcomp
+—	是	punct
+—	是	punct
+或者	是	cc
+特别	是	advmod
+是	即	xcomp
+—	主题	punct
+—	是	punct
+这	个	det
+个	主题	clf
+主题	主题	nsubj
+是	主题	cop
+上帝	占据	nsubj
+往往	占据	advmod
+占据	主题	acl:relcl
+话语	权	compound
+权	占据	obj
+的	占据	mark:rel
+主题	是	ccomp
+。	掌控	punct
+----------------------------------------------------------------------
+根据埃平斯坦的定义，谣言是“一方告诉另一方第三方不想让别人知道的事”。
+
+(ROOT (IP (PP (IN 根据) (NP (DNP (NP (NNP 埃平斯坦)) (DEC 的)) (NP (NN 定义)))) (, ，) (NP (NN 谣言)) (VP (VC 是) (IP (`` “) (NP (QP (CD 一)) (NP (NN 方))) (CP (CP (IP (VP (VV 告诉) (NP (DP (DT 另) (QP (CD 一) (CLP (NN 方)))) (QP (CD 第三)) (NP (NN 方))) (IP (VP (MD 不想) (IP (VP (VV 让) (NP (NN 别人)) (IP (VP (VV 知道))))))))) (DEC 的))) (NP (NN 事)) ('' ”))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VC': {}, 'IP': {}}}
+Dependency Features:
+根据	定义	case
+埃平斯坦	定义	nmod
+的	埃平斯坦	case
+定义	告诉	obl
+，	定义	punct
+谣言	告诉	nsubj
+是	告诉	cop
+“	告诉	punct
+一	方	nummod
+方	告诉	nsubj
+告诉	ROOT	root
+另	方	det
+一	方	nummod
+方	方	nmod
+第三	方	nummod
+方	让	nsubj
+想	让	aux
+让	事	acl:relcl
+别人	知道	nsubj
+知道	让	ccomp
+的	让	mark:rel
+事	告诉	obj
+”	事	punct
+。	告诉	punct
+----------------------------------------------------------------------
+一个笨拙的标题“The Untrivial Pursuit”（“不平凡的追求”）吸引了人们的注意力，它提醒人们注意一个看似自明的前提：随着议论在公共生活中变得如此庞大，他认为，“议论是微不足道的”这一“主要指控”，如果曾经是对议论的主要评论，现在已经不再是。
+
+(ROOT (IP (IP (NP (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 笨) (JJ 拙))) (DEC 的))) (NP (NN 标题))) (NP (`` “) (DP (FW The)) (NP (FW Untrivial) (FW Pursuit)) ('' ”) (PRN (-LRB- （) (NP (`` “) (CP (CP (IP (VP (ADVP (RB 不)) (VP (JJ 平凡)))) (DEC 的))) (NP (NN 追求)) ('' ”)) (-RRB- ）)))) (VP (VV 吸引) (AS 了) (NP (DNP (NP (NN 人们)) (DEC 的)) (NP (VV 注意) (SFN 力))))) (, ，) (IP (NP (PRP 它)) (VP (VV 提醒) (NP (NN 人们)) (IP (VP (VV 注意) (NP (QP (CD 一) (CLP (NNB 个))) (CP (IP (VP (VV 看似) (NP (JJ 自明)))) (DEC 的)) (NP (NN 前提))))))) (: ：)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP56258': {}, ':': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ':': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP19279': {'NP': {}, 'VP': {}}, ':': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ':': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+一	个	nummod
+个	标题	clf
+笨	拙	advcl
+拙	标题	acl:relcl
+的	拙	mark:rel
+标题	吸引	nsubj
+“	The	punct
+The	标题	appos
+Untrivial	The	flat:foreign
+Pursuit	The	flat:foreign
+”	The	punct
+（	追求	punct
+“	追求	punct
+不	平凡	advmod
+平凡	追求	amod
+的	平凡	mark:rel
+追求	The	appos
+”	追求	punct
+）	追求	punct
+吸引	ROOT	root
+了	吸引	aux
+人	力	nmod
+的	人	case
+注意	力	compound
+力	吸引	obj
+，	提醒	punct
+它	提醒	nsubj
+提醒	吸引	parataxis
+人	注意	nsubj
+注意	提醒	ccomp
+一	个	nummod
+个	前提	clf
+看似	前提	acl:relcl
+自明	看似	xcomp
+的	看似	mark:rel
+前提	注意	obj
+：	吸引	punct
+----------------------------------------------------------------------
+诽谤话题一直以来都是人们的异议之一，而埃本斯将其置于最前沿，似乎是为了向他的祖父母讨好，让他们同意他选择的主题。
+
+(ROOT (IP (IP (NP (NN 诽谤) (NN 话题)) (VP (LCP (ADVP (RB 一直)) (IN 以来)) (VP (VC 都是) (NP (DNP (NP (NN 人们)) (DEC 的)) (DNP (NP (NN 异议)) (DEC 之)) (NP (CD 一)))))) (, ，) (IP (ADVP (RB 而)) (NP (NNP 埃本斯)) (VP (VP (ADVP (BB 将)) (VP (VV 其置) (PP (VV 于) (NP (ADJP (JJ 最前)) (NP (VV 沿)))))) (, ，) (VP (ADVP (RB 似乎)) (VP (VC 是) (VP (PP (IN 为了) (IP (VP (PP (IN 向) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 祖) (NN 父母)))) (VP (VV 讨好))))) (, ，) (VP (VV 让) (NP (PRP 他们)) (IP (VP (VV 同意) (NP (CP (CP (IP (NP (PRP 他)) (VP (VV 选择))) (DEC 的))) (NP (NN 主题))))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP48287': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP96118': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+诽谤	话题	nmod
+话题	一	nsubj
+一直	一	advmod
+以来	一直	case
+是	一	cop
+人	异议	nmod
+的	人	case
+异议	一	nmod
+之	异议	mark:rel
+一	ROOT	root
+，	是	punct
+而	是	mark
+埃本斯	是	nsubj
+将	其置	case
+其置	沿	advcl
+于	其置	mark
+最前	其置	xcomp
+沿	是	xcomp
+，	其置	punct
+似乎	是	advmod
+是	一	parataxis
+为了	是	xcomp
+向	父母	case
+他	父母	det
+的	他	case
+祖	父母	nmod
+父母	讨好	obl
+讨好	为了	xcomp
+，	让	punct
+让	一	parataxis
+他	同意	nsubj
+同意	让	ccomp
+他	选择	nsubj
+选择	主题	acl:relcl
+的	选择	mark:rel
+主题	同意	obj
+。	一	punct
+----------------------------------------------------------------------
+到 21 世纪初，反对谣言的最有可能的说法是，它已经变得如此侵略性和普遍性。
+
+(ROOT (IP (PP (IN 到) (LCP (NP (QP (CD 21)) (NP (NNB 世纪))) (IN 初))) (, ，) (NP (CP (CP (IP (VP (VV 反对) (NP (NN 谣言)))) (DEC 的))) (CP (CP (IP (VP (ADVP (RB 最)) (VP (VV 有) (NP (NN 可能))))) (DEC 的))) (NP (NN 说法))) (VP (VC 是) (, ，) (IP (NP (PRP 它)) (VP (ADVP (RB 已经)) (VP (VV 变得) (VP (ADVP (VV 如此)) (NP (VV 侵略) (SFN 性) (CC 和) (JJ 普遍) (SFN 性))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'CP': {}, 'CP90285': {}, 'NP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'CP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'CP': {}, 'CP': {}, 'NP': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+到	世纪	case
+21	世纪	nummod
+世纪	是	obl
+初	世纪	case
+，	世纪	punct
+反对	说法	acl:relcl
+谣言	反对	obj
+的	反对	mark:rel
+最	有	advmod
+有	说法	acl:relcl
+可能	有	obj
+的	有	mark:rel
+说法	是	nsubj
+是	ROOT	root
+，	变得	punct
+它	变得	nsubj
+已经	变得	advmod
+变得	是	ccomp
+如此	变得	xcomp
+侵略	性	compound
+性	如此	obj
+和	性	cc
+普遍	性	compound
+性	性	conj
+。	是	punct
+----------------------------------------------------------------------
+所有宗教都谴责谣言，犹太教甚至宣称谣言是一种罪恶：发起谣言、重复谣言、听谣言都是罪恶。
+
+(ROOT (IP (IP (NP (DP (DT 所有)) (NP (NN 宗教))) (VP (ADVP (RB 都)) (VP (VV 谴责) (NP (NN 谣言))))) (, ，) (IP (NP (NNP 犹太) (SFN 教)) (VP (ADVP (RB 甚至)) (VP (VV 宣称) (IP (NP (NN 谣言)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (NP (NN 罪恶)))))))) (: ：) (IP (IP (VP (VP (VV 发起) (NP (NN 谣言))) (EC 、) (VP (VV 重复) (NP (NN 谣言))) (EC 、) (VP (VV 听) (NP (NN 谣言))))) (VP (VC 都是) (NP (NN 罪恶)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP76738': {}, ':': {}, 'IP21435': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP66760': {'NP': {}, 'VP': {}}, ':': {}, 'IP46220': {'IP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'IP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'IP': {}, 'VP': {}}}
+Dependency Features:
+所有	宗教	det
+宗教	谴责	nsubj
+都	谴责	mark
+谴责	ROOT	root
+谣言	谴责	obj
+，	宣称	punct
+犹太	教	compound
+教	宣称	nsubj
+甚至	宣称	mark
+宣称	谴责	parataxis
+谣言	发起	nsubj
+是	罪恶	cop
+一	种	nummod
+种	罪恶	clf
+罪恶	发起	advcl
+：	罪恶	punct
+发起	宣称	ccomp
+谣言	发起	obj
+、	重复	punct
+重复	发起	conj
+谣言	重复	obj
+、	听	punct
+听	发起	conj
+谣言	听	obj
+是	罪恶	cop
+罪恶	发起	conj
+。	谴责	punct
+----------------------------------------------------------------------
+因此，雅威的立场是明确的。
+
+(ROOT (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (DNP (NP (NNP 雅威)) (DEC 的)) (NP (NN 立场))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 明确))) (UH 的))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'ADVP38156': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'IN': {}}, 'ADVP6608': {'PRD': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'ADVP': {'IN': {}}, 'ADVP': {'PRD': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'ADVP': {'IN': {}}}
+{'ADVP': {'PRD': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+因	此	case
+此	明确	nmod
+，	此	punct
+雅威	立场	nmod
+的	雅威	case
+立场	明确	nsubj
+是	明确	cop
+明确	ROOT	root
+的	明确	discourse
+。	明确	punct
+----------------------------------------------------------------------
+但埃本斯的态度却是两面性的，他谴责闲言碎语给我们的文化带来的破坏，但他也坚定地认为，它有许多值得称赞的功能，从文学（伊丽莎白·哈德威克称之为“人物分析”）到社会学（宾厄姆顿大学生物学和人类学教授大卫·斯隆·威尔逊说，它对于规范行为和界定群体成员资格都很重要）。
+
+(ROOT (IP (IP (ADVP (RB 但)) (NP (DNP (NP (NNP 埃本斯)) (DEC 的)) (NP (NN 态度))) (VP (VC 却是) (DNP (NP (QP (CD 两) (CLP (NN 面))) (NP (SFN 性))) (UH 的)))) (, ，) (IP (NP (PRP 他)) (VP (VV 谴责) (NP (NN 闲言) (NN 碎语)) (NP (CP (CP (IP (VP (PP (VV 给) (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NN 文化)))) (VP (VV 带来)))) (DEC 的))) (NP (NN 破坏))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 他)) (VP (ADVP (RB 也)) (DVP (VP (JJ 坚定)) (DEV 地)) (VP (VV 认为) (, ，) (IP (IP (NP (PRP 它)) (VP (VV 有) (NP (QP (CD 许多)) (CP (CP (IP (VP (VV 值得) (NP (VV 称赞)))) (DEC 的))) (NP (NN 功能))))) (, ，) (IP (VP (PP (IN 从) (NP (NN 文学) (PRN (-LRB- （) (IP (NP (NNP 伊丽莎白) (/ ·) (NNP 哈德威克)) (VP (VV 称) (NP (PRD 之)) (IP (VP (VC 为) (NP (`` “) (NN 人物) (NN 分析) ('' ”)))))) (-RRB- ）)))) (VP (VV 到) (NP (NN 社会) (SFN 学) (PRN (-LRB- （) (IP (NP (NP (NP (NNP 宾厄姆顿) (NN 大学)) (NP (NN 生物) (SFN 学) (CC 和) (NN 人类) (SFN 学)) (NP (NN 教授))) (NP (NNP 大卫) (/ ·) (NNP 斯隆) (/ ·) (NNP 威尔逊))) (VP (VV 说))) (, ，) (IP (NP (PRP 它)) (VP (PP (IN 对于) (NP (NP (NN 规范) (NN 行为)) (CC 和) (NP (IP (VP (NN 界定) (NP (NN 群体) (NN 成员)))) (NP (NN 资格))))) (ADVP (RB 都)) (ADVP (RB 很)) (VP (JJ 重要)))) (-RRB- ）)))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP78922': {}, ',39757': {}, 'IP19100': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP94311': {'NP': {}, 'VP': {}}, ',84764': {}, 'IP13822': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+但	性	mark
+埃本斯	态度	nmod
+的	埃本斯	case
+态度	性	nsubj
+是	性	cop
+两	面	nummod
+面	性	compound
+性	ROOT	root
+的	性	discourse
+，	为	punct
+他	谴责	nsubj
+谴责	为	advcl
+闲言	碎语	nmod
+碎语	给	nsubj
+给	文化	acl:relcl
+我	给	obj
+的	给	mark:rel
+文化	带来	nsubj
+带来	破坏	acl:relcl
+的	带来	mark:rel
+破坏	谴责	obj
+，	谴责	punct
+但	为	mark
+他	为	nsubj
+也	为	mark
+坚定	为	advmod
+地	坚定	mark:adv
+为	性	parataxis
+，	有	punct
+它	有	nsubj
+有	为	ccomp
+许多	功能	nummod
+值得	功能	acl:relcl
+称赞	值得	xcomp
+的	值得	mark:rel
+功能	称	nsubj
+，	功能	punct
+从	文学	case
+文学	称	obl
+（	伊丽莎白	punct
+伊丽莎白	文学	appos
+·	哈德威克	punct
+哈德威克	伊丽莎白	flat:name
+称	有	ccomp
+之	分析	nsubj
+为	分析	cop
+“	分析	punct
+人物	分析	nmod
+分析	称	ccomp
+”	分析	punct
+）	称	punct
+到	说	mark
+社会	学	compound
+学	称	obj
+（	学	punct
+宾厄姆顿	学	nmod
+大学	学	nmod
+生物	学	compound
+学	学	appos
+和	教授	cc
+人类	学	compound
+学	教授	nmod
+教授	学	conj
+大卫	教授	appos
+·	斯隆	punct
+斯隆	大卫	flat:name
+·	威尔逊	punct
+威尔逊	大卫	flat:name
+说	为	ccomp
+，	重要	punct
+它	重要	nsubj
+对于	行为	case
+规范	行为	nmod
+行为	重要	nmod
+和	群体	cc
+界定	群体	nmod
+群体	行为	conj
+成员	资格	nmod
+资格	行为	conj
+都	重要	mark
+很	重要	advmod
+重要	说	ccomp
+）	重要	punct
+。	性	punct
+----------------------------------------------------------------------
+最后，让埃本斯成为这个主题上的亲密权威人物的是，他自己也喜欢传播好听的谣言。
+
+(ROOT (IP (ADVP (NN 最后)) (, ，) (NP (CP (CP (IP (VP (VV 让) (NP (NNP 埃本斯)) (IP (VP (VV 成) (VP (VC 为) (NP (DP (DT 这) (CLP (NNB 个))) (DNP (LCP (NP (NN 主题)) (IN 上)) (DEC 的)) (ADJP (JJ 亲密)) (ADJP (NN 权威)) (NP (NN 人物)))))))) (DEC 的)))) (VP (VC 是) (, ，) (IP (NP (PRP 他) (PRD 自己)) (VP (ADVP (RB 也)) (VP (VV 喜欢) (IP (VP (VV 传播) (NP (CP (CP (IP (VP (JJ 好听))) (DEC 的))) (NP (NN 谣言))))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'NN': {}}, ',': {}, 'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'NN': {}}}
+{'NP': {'CP': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+最后	让	nmod:tmod
+，	最后	punct
+让	ROOT	root
+埃本斯	成	nsubj
+成	让	ccomp
+为	成	mark
+这	个	det
+个	主题	clf
+主题	人物	nmod
+上	主题	case
+的	主题	case
+亲密	人物	amod
+权威	人物	nmod
+人物	成	obj
+的	成	mark:rel
+是	让	ccomp
+，	喜欢	punct
+他	喜欢	nsubj
+自己	他	appos
+也	喜欢	mark
+喜欢	是	ccomp
+传播	喜欢	xcomp
+好听	谣言	amod
+的	好听	mark:rel
+谣言	传播	obj
+。	让	punct
+----------------------------------------------------------------------
+他所使用的许多流言蜚语都会让任何人都能听到，只要你能接触到强大的传闻网络和基特·凯利的作品。
+
+(ROOT (IP (IP (NP (CP (CP (IP (NP (PRP 他)) (VP (RB 所) (VP (VV 使用)))) (DEC 的))) (QP (CD 许多)) (NP (NN 流言) (NN 蜚语))) (VP (ADVP (RB 都)) (VP (MD 会) (VP (VV 让) (NP (DP (DT 任何)) (NP (NN 人))) (IP (VP (ADVP (RB 都)) (VP (MD 能) (VP (VV 听到))))))))) (, ，) (CP (ADVP (IN 只要)) (IP (NP (PRP 你)) (VP (MD 能) (VP (VRD (VV 接触) (VV 到)) (NP (NP (CP (CP (IP (VP (JJ 强大))) (DEC 的))) (NP (NN 传闻) (NN 网络))) (CC 和) (NP (DNP (NP (NNP 基特) (/ ·) (NNP 凯利)) (DEC 的)) (NP (NN 作品)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'CP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'CP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'CP': {'ADVP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'CP': {'ADVP': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+Dependency Features:
+他	使用	nsubj
+所	使用	mark
+使用	蜚语	acl:relcl
+的	使用	mark:rel
+许多	蜚语	nummod
+流言	蜚语	nmod
+蜚语	让	nsubj
+都	让	mark
+会	让	aux
+让	ROOT	root
+任何	人	det
+人	听到	nsubj
+都	听到	mark
+能	听到	aux
+听到	让	ccomp
+，	接触	punct
+只要	接触	case
+你	接触	nsubj
+能	接触	aux
+接触	让	ccomp
+到	接触	mark
+强大	网络	amod
+的	强大	mark:rel
+传闻	网络	nmod
+网络	作品	nmod
+和	凯利	cc
+基特	作品	nmod
+·	凯利	punct
+凯利	基特	conj
+的	基特	case
+作品	接触	obj
+。	让	punct
+----------------------------------------------------------------------
+大多数内容都属于熟悉的类别，其中包括：温莎家族的性倾向，不太可能的睡相伴侣，饮酒过度的人们发生的荒诞事件，衣橱中的公众人物，著名的男性犯下的令人发指的行为。
+
+(ROOT (IP (IP (NP (QP (ADJP (RB 大)) (QP (JJ 多数))) (NP (NN 内容))) (VP (ADVP (RB 都)) (VP (VV 属) (PP (VV 于) (NP (CP (CP (IP (VP (JJ 熟悉))) (DEC 的))) (NP (NN 类别))))))) (, ，) (IP (NP (NN 其中)) (VP (VV 包括) (: ：) (NP (NP (DNP (NP (NP (NNP 温莎)) (NP (NN 家族))) (DEC 的)) (NP (NN 性) (NN 倾向))) (, ，) (NP (CP (CP (IP (VP (ADVP (RB 不)) (ADVP (RB 太)) (VP (MD 可能)))) (DEC 的))) (ADJP (JJ 睡相)) (NP (NN 伴侣))) (, ，) (NP (CP (CP (IP (NP (CP (CP (IP (VP (VP (VV 饮酒)) (ADJP (JJ 过度)))) (DEC 的))) (NP (NN 人们))) (VP (VV 发生))) (DEC 的))) (ADJP (JJ 荒诞)) (NP (NN 事件))) (, ，) (NP (DNP (LCP (NP (NN 衣橱)) (IN 中)) (DEC 的)) (NP (NN 公众) (NN 人物))) (, ，) (NP (CP (CP (IP (NP (CP (CP (IP (VP (JJ 著名))) (DEC 的))) (NP (NN 男性))) (VP (VV 犯下))) (DEC 的))) (CP (CP (IP (VP (VV 令) (NP (NN 人)) (IP (VP (VV 发指))))) (DEC 的))) (NP (NN 行为)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP37701': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP57047': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+大	多数	advmod
+多数	内容	amod
+内容	属	nsubj
+都	属	mark
+属	ROOT	root
+于	属	mark
+熟悉	类别	amod
+的	熟悉	mark:rel
+类别	属	obj
+，	包括	punct
+其中	包括	nsubj
+包括	属	parataxis
+：	倾向	punct
+温莎	家族	nmod
+家族	倾向	nmod
+的	家族	case
+性	倾向	nmod
+倾向	包括	obj
+，	倾向	punct
+不	可能	advmod
+太	可能	advmod
+可能	伴侣	amod
+的	可能	mark:rel
+睡相	伴侣	amod
+伴侣	倾向	conj
+，	事件	punct
+饮酒	过度	advcl
+过度	人	amod
+的	过度	mark:rel
+人	发生	nsubj
+发生	事件	acl:relcl
+的	发生	mark:rel
+荒诞	事件	amod
+事件	伴侣	conj
+，	人物	punct
+衣橱	人物	nmod
+中	衣橱	case
+的	衣橱	case
+公众	人物	nmod
+人物	行为	nsubj
+，	行为	punct
+著名	男性	amod
+的	著名	mark:rel
+男性	犯下	nsubj
+犯下	行为	acl:relcl
+的	犯下	mark:rel
+令	行为	acl:relcl
+人	发指	nsubj
+发指	令	ccomp
+的	令	mark:rel
+行为	倾向	conj
+。	属	punct
+----------------------------------------------------------------------
+在引用诡辩来证明自己的观点时，恰如惊奇，埃本斯成了诡辩的传播者。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (IP (VP (VP (VV 引用) (NP (NN 诡) (NN 辩来))) (VP (VV 证明) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 观点)))))) (IN 时))) (, ，) (VP (ADVP (VV 恰如)) (VP (JJ 惊奇)))) (, ，) (IP (NP (NNP 埃本斯)) (VP (VV 成) (AS 了) (NP (CP (CP (IP (VP (NN 诡辩))) (DEC 的))) (NP (VV 传播) (SFN 者))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP5705': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP16245': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+在	观点	case
+引用	观点	acl:relcl
+诡	辩来	nmod
+辩来	证明	nsubj
+证明	引用	ccomp
+自己	证明	obj
+的	引用	mark:rel
+观点	恰如	obl
+时	观点	case
+，	观点	punct
+恰如	ROOT	root
+惊奇	恰如	xcomp
+，	成	punct
+埃本斯	成	nsubj
+成	恰如	parataxis
+了	成	aux
+诡辩	者	nmod
+的	诡辩	case
+传播	者	compound
+者	成	obj
+。	恰如	punct
+----------------------------------------------------------------------
+他早在第20页就承认：“还有一种东西叫做好味道，我相信我已经在几页前就触犯了它了。”
+
+(ROOT (IP (NP (PRP 他)) (VP (PP (ADVP (RB 早)) (PP (IN 在) (QP (CD 第20) (CLP (NNB 页))))) (ADVP (RB 就)) (VP (VV 承认) (: ：) (IP (`` “) (IP (VP (ADVP (RB 还)) (VP (VV 有) (IP (NP (QP (CD 一) (CLP (NNB 种))) (NP (NN 东西))) (VP (VV 叫做) (NP (ADJP (JJ 好)) (NP (NN 味道)))))))) (, ，) (IP (NP (PRP 我)) (VP (VV 相信) (IP (NP (PRP 我)) (VP (ADVP (RB 已经)) (PP (IN 在) (LCP (QP (CD 几) (CLP (NNB 页))) (IN 前))) (ADVP (RB 就)) (VP (VV 触) (VP (VV 犯) (AS 了) (NP (PRP 它)))))))) (UH 了)))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+他	承认	nsubj
+早	承认	advmod
+在	页	case
+第20	页	nummod
+页	承认	obl
+就	承认	mark
+承认	ROOT	root
+：	相信	punct
+“	相信	punct
+还	有	mark
+有	相信	advcl
+一	种	nummod
+种	东西	clf
+东西	叫做	nsubj
+叫做	有	ccomp
+好	味道	amod
+味道	叫做	obj
+，	有	punct
+我	相信	nsubj
+相信	承认	ccomp
+我	触	nsubj
+已经	触	advmod
+在	页	case
+几	页	nummod
+页	触	obl
+前	页	case
+就	触	mark
+触	相信	ccomp
+犯	触	xcomp
+了	犯	aux
+它	犯	obj
+了	触	discourse
+。	触	punct
+”	触	punct
+----------------------------------------------------------------------
+别的选择是什么?
+
+(ROOT (IP (NP (DNP (DP (DT 别)) (DEC 的)) (NP (NN 选择))) (VP (VC 是) (NP (WP 什么))) (. ?)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+别	选择	det
+的	别	case
+选择	什么	nsubj
+是	什么	cop
+什么	ROOT	root
+?	什么	punct
+----------------------------------------------------------------------
+他可能效仿伊莎贝拉·斯图尔特·加德纳 — — 乔治·桑塔雅纳认为她“从不诽谤任何人” — —，将他自己限制在议论中引起的广泛的哲学和道德问题上，而不是指名道姓。
+
+(ROOT (IP (NP (PRP 他)) (VP (MD 可能) (VP (VP (VV 效仿) (NP (NNP 伊莎贝拉) (/ ·) (NNP 斯图尔特) (/ ·) (NNP 加德纳) (HYPH — —) (NNP 乔治) (/ ·) (NNP 桑塔雅纳))) (VP (VV 认为) (IP (IP (NP (PRP 她)) (VP (`` “) (ADVP (IN 从)) (ADVP (RB 不)) (VP (VV 诽谤) (NP (DP (DT 任何)) (NP (NN 人)))) ('' ”))) (HYPH — ) ('' —) (, ，) (VP (LCP (IP (VP (BB 将) (IP (NP (PRP 他) (PRD 自己)) (VP (VV 限制) (NP (CP (CP (IP (VP (PP (IN 在) (LCP (NP (NN 议论)) (IN 中))) (VP (VV 引起)))) (DEC 的))) (CP (CP (IP (VP (JJ 广泛))) (DEC 的))) (NP (NN 哲学) (CC 和) (NN 道德)) (NP (NN 问题))))))) (IN 上)) (, ，) (ADVP (RB 而)) (VP (VC 不是) (VP (VV 指) (NP (NN 名) (NN 道姓))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+他	为	nsubj
+可能	效仿	aux
+效仿	ROOT	root
+伊莎贝拉	效仿	obj
+·	斯图尔特	punct
+斯图尔特	伊莎贝拉	flat:name
+·	加德纳	punct
+加德纳	伊莎贝拉	flat:name
+— —	乔治	punct
+乔治	伊莎贝拉	conj
+·	桑塔雅纳	punct
+桑塔雅纳	乔治	flat:name
+为	效仿	ccomp
+她	是	nsubj
+“	诽谤	punct
+从	诽谤	case
+不	诽谤	advmod
+诽谤	— 	xcomp
+任何	人	det
+人	诽谤	obj
+”	诽谤	punct
+— 	限制	punct
+—	诽谤	punct
+，	限制	punct
+将	他	case
+他	限制	obl:patient
+自己	限制	obl:patient
+限制	是	advcl
+在	议论	case
+议论	引起	obl
+中	议论	case
+引起	问题	acl:relcl
+的	引起	mark:rel
+广泛	哲学	amod
+的	广泛	mark:rel
+哲学	问题	nmod
+和	道德	cc
+道德	哲学	conj
+问题	是	obl
+上	问题	case
+，	限制	punct
+而	是	mark
+是	为	ccomp
+指	是	xcomp
+名	道姓	nmod
+道姓	指	obj
+。	为	punct
+----------------------------------------------------------------------
+但我认为可以肯定的是，恩斯特对于写这本书没有任何兴趣，我们也不会感兴趣。
+
+(ROOT (IP (ADVP (RB 但)) (NP (PRP 我)) (VP (VV 认为) (IP (NP (CP (CP (IP (VP (MD 可以) (VP (VV 肯定)))) (DEC 的)))) (VP (VC 是) (, ，) (IP (IP (NP (NNP 恩斯特)) (VP (PP (IN 对于) (IP (VP (VV 写) (NP (DP (DT 这) (CLP (NNB 本))) (NP (NN 书)))))) (VP (VV 没有) (NP (DP (DT 任何)) (NP (NN 兴趣)))))) (, ，) (IP (NP (PRP 我们)) (VP (ADVP (RB 也)) (VP (MD 不会) (VP (VV 感) (NP (NN 兴趣)))))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+但	为	mark
+我	为	nsubj
+为	ROOT	root
+可以	肯定	aux
+肯定	是	csubj
+的	肯定	mark:rel
+是	为	xcomp
+，	有	punct
+恩斯特	有	nsubj
+对于	写	case
+写	有	xcomp
+这	本	det
+本	书	clf
+书	写	obj
+有	是	ccomp
+任何	兴趣	det
+兴趣	有	obj
+，	有	punct
+我	感	nsubj
+也	感	mark
+会	感	aux
+感	是	ccomp
+兴趣	感	obj
+。	为	punct
+----------------------------------------------------------------------
+在这些页面中，有众多富人、名人、罪犯、强者和落魄者，以及谈论他们的人群。
+
+(ROOT (IP (VP (PP (IN 在) (LCP (NP (DP (DT 这些)) (NP (NN 页面))) (IN 中))) (, ，) (VP (VP (VV 有) (NP (ADJP (CD 众多)) (NP (NN 富人) (EC 、) (NN 名人) (EC 、) (NN 罪犯) (EC 、) (NN 强者) (CC 和) (VV 落魄) (SFN 者)))) (, ，) (CC 以及) (VP (VV 谈论) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 人群)))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'VP': {'PP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+在	页面	case
+这些	页面	det
+页面	有	obl
+中	页面	case
+，	页面	punct
+有	ROOT	root
+众多	富人	nummod
+富人	有	obj
+、	名人	punct
+名人	富人	conj
+、	罪犯	punct
+罪犯	富人	conj
+、	强者	punct
+强者	富人	conj
+和	者	cc
+落魄	者	compound
+者	富人	conj
+，	人群	punct
+以及	人群	cc
+谈论	人群	acl:relcl
+他	谈论	obj
+的	谈论	mark:rel
+人群	富人	conj
+。	有	punct
+----------------------------------------------------------------------
+游行队伍从古希腊到现代美国，领先的是阿尔西比阿德斯，他是埃普斯坦的“第一个公众舆论焦点”的候选人，隔行就是拜伦勋爵、杜拉克罗兹、克里夫·克利夫兰、西蒙兹夫人、阿瓦·加德纳、雅典娜和杰克·奥南斯，卡斯特罗和凯瑟琳·泰宁，斯蒂芬·麦奎因，朱尔·布里诺，阿尔弗雷德·卡津，安妮·莱伯沃西，利利安·罗斯，伊丽莎白·�����
+
+(ROOT (IP (IP (NP (NN 游行) (NN 队伍)) (PP (PP (IN 从) (NP (ADJP (PFA 古)) (NP (NNP 希腊)))) (PP (VV 到) (NP (ADJP (NN 现代)) (NP (NNP 美国))))) (, ，) (NP (CP (CP (IP (VP (VV 领先))) (DEC 的)))) (VP (VC 是) (NP (NNP 阿尔西比阿德斯)))) (, ，) (IP (NP (PRP 他)) (VP (VC 是) (NP (DNP (NP (DNP (NP (NNP 埃普斯坦)) (DEC 的)) (NP (`` “) (QP (CD 第一) (CLP (NNB 个))) (NP (NN 公众) (NN 舆论) (NN 焦点)) ('' ”))) (DEC 的)) (NP (VV 候选) (SFN 人))))) (, ，) (IP (NP (NN 隔行)) (VP (VC 就是) (NP (NP (NNP 拜伦) (NN 勋爵)) (EC 、) (NP (NNP 杜拉克罗兹)) (EC 、) (NP (NNP 克里夫) (/ ·) (NNP 克利夫兰)) (EC 、) (NP (NNP 西蒙兹) (NN 夫人)) (EC 、) (NP (NNP 阿瓦) (/ ·) (NNP 加德纳)) (EC 、) (NP (NNP 雅典) (NNP 娜) (CC 和) (NNP 杰克) (/ ·) (NNP 奥南斯)) (, ，) (NP (NNP 卡斯特罗) (CC 和) (NNP 凯瑟琳) (/ ·) (NNP 泰宁)) (, ，) (NP (NNP 斯蒂芬) (/ ·) (NNP 麦奎因)) (, ，) (NP (NNP 朱尔) (/ ·) (NNP 布里诺)) (, ，) (NP (NNP 阿尔弗雷德) (/ ·) (NNP 卡津)) (, ，) (NP (NNP 安妮) (/ ·) (NNP 莱伯沃西)) (, ，) (NP (NNP 利利安) (/ ·) (NNP 罗斯)) (, ，) (NP (NNP 伊丽莎白) (/ ·) (NNP ����)) (SFN �))))))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP5969': {}, ',90908': {}, 'IP29590': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'PP': {}, ',': {}, 'NP58456': {}, 'VP': {}}, ',': {}, 'IP54696': {'NP': {}, 'VP': {}}, ',46614': {}, 'IP39298': {'NP': {}, 'VP': {}}}}
+{'IP': {'IP': {'NP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}}}
+{'IP': {'NP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+游行	队伍	nmod
+队伍	阿尔西比阿德斯	nsubj
+从	希腊	case
+古	希腊	case
+希腊	到	obl
+到	阿尔西比阿德斯	acl
+现代	美国	nmod
+美国	到	obj
+，	到	punct
+领先	阿尔西比阿德斯	csubj
+的	领先	mark:rel
+是	阿尔西比阿德斯	cop
+阿尔西比阿德斯	ROOT	root
+，	人	punct
+他	人	nsubj
+是	人	cop
+埃普斯坦	焦点	nmod
+的	埃普斯坦	mark:rel
+“	焦点	punct
+第一	个	nummod
+个	焦点	clf
+公众	焦点	nmod
+舆论	焦点	nmod
+焦点	人	acl:relcl
+”	焦点	punct
+的	焦点	mark:rel
+候选	人	compound
+人	阿尔西比阿德斯	parataxis
+，	勋爵	punct
+隔行	勋爵	nsubj
+是	勋爵	cop
+拜伦	勋爵	nmod
+勋爵	阿尔西比阿德斯	parataxis
+、	杜拉克罗兹	punct
+杜拉克罗兹	勋爵	conj
+、	克里夫	punct
+克里夫	勋爵	conj
+·	克利夫兰	punct
+克利夫兰	克里夫	flat:name
+、	夫人	punct
+西蒙兹	夫人	nmod
+夫人	勋爵	conj
+、	阿瓦	punct
+阿瓦	勋爵	conj
+·	加德纳	punct
+加德纳	阿瓦	flat:name
+、	雅典	punct
+雅典	勋爵	conj
+娜	雅典	flat:name
+和	杰克	cc
+杰克	勋爵	conj
+·	奥南斯	punct
+奥南斯	杰克	flat:name
+，	卡斯特罗	punct
+卡斯特罗	勋爵	conj
+和	凯瑟琳	cc
+凯瑟琳	卡斯特罗	conj
+·	泰宁	punct
+泰宁	凯瑟琳	flat:name
+，	斯蒂芬	punct
+斯蒂芬	卡斯特罗	conj
+·	麦奎因	punct
+麦奎因	斯蒂芬	flat:name
+，	朱尔	punct
+朱尔	斯蒂芬	conj
+·	布里诺	punct
+布里诺	朱尔	flat:name
+，	阿尔弗雷德	punct
+阿尔弗雷德	朱尔	conj
+·	卡津	punct
+卡津	阿尔弗雷德	flat:name
+，	安妮	punct
+安妮	阿尔弗雷德	appos
+·	莱伯沃西	punct
+莱伯沃西	安妮	flat:name
+，	利利安	punct
+利利安	安妮	appos
+·	罗斯	punct
+罗斯	利利安	flat:name
+，	�	punct
+伊丽莎白	�	compound
+·	����	punct
+����	伊丽莎白	flat:name
+�	利利安	flat:name
+----------------------------------------------------------------------
+这里的基本规则是：如果你是名人，你就是公开的目标。
+
+(ROOT (IP (NP (DNP (NP (PRD 这里)) (DEC 的)) (ADJP (NN 基本)) (NP (NN 规则))) (VP (VC 是) (: ：) (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 你)) (VP (VC 是) (NP (NN 名人))))) (, ，) (NP (PRP 你)) (VP (VC 就是) (NP (CP (CP (IP (VP (JJ 公开))) (DEC 的))) (NP (NN 目标)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VC': {}, ':': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VC': {}, ':': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'VC': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+这里	规则	det
+的	这里	case
+基本	规则	nmod
+规则	是	nsubj
+是	ROOT	root
+：	目标	punct
+如果	名人	case
+你	名人	nsubj
+是	名人	cop
+名人	目标	ccomp
+，	名人	punct
+你	目标	nsubj
+是	目标	cop
+公开	目标	amod
+的	公开	mark:rel
+目标	是	ccomp
+。	是	punct
+----------------------------------------------------------------------
+在他们的花车上，挥手致意的有圣西蒙公爵、沃尔特·温尼克、芭芭拉·沃尔特斯和提娜·布朗。
+
+(ROOT (IP (PP (IN 在) (LCP (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 花车))) (IN 上))) (, ，) (NP (CP (CP (IP (VP (VSB (VV 挥手) (VV 致意)))) (DEC 的)))) (VP (VV 有) (NP (NP (NP (ADJP (NNP 圣)) (NP (NNP 西蒙))) (NP (NN 公爵))) (EC 、) (NP (NNP 沃尔特) (/ ·) (NNP 温尼克)) (EC 、) (NP (NNP 芭芭拉) (/ ·) (NNP 沃尔特斯)) (CC 和) (NP (NNP 提娜) (/ ·) (NNP 布朗)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'CP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'CP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'CP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+在	花车	case
+他	花车	det
+的	他	case
+花车	有	obl
+上	花车	case
+，	花车	punct
+挥手	致意	advcl
+致意	有	csubj
+的	致意	mark:rel
+有	ROOT	root
+圣	公爵	nmod
+西蒙	公爵	nmod
+公爵	有	obj
+、	沃尔特	punct
+沃尔特	公爵	conj
+·	温尼克	punct
+温尼克	公爵	flat:name
+、	芭芭拉	punct
+芭芭拉	公爵	conj
+·	沃尔特斯	punct
+沃尔特斯	芭芭拉	flat:name
+和	提娜	cc
+提娜	公爵	conj
+·	布朗	punct
+布朗	提娜	flat:name
+。	有	punct
+----------------------------------------------------------------------
+随着谣言积聚起来，即使细节惊人地亲密，效果也奇怪地表面化和无情，好像主角不是我们的同行，而是我们时代故事中的肖像人物。
+
+(ROOT (IP (IP (PP (VV 随) (PP (AS 着) (IP (NP (NN 谣言)) (VP (VRD (VV 积聚) (VV 起来)))))) (, ，) (CP (ADVP (IN 即使)) (IP (NP (NN 细节)) (VP (DVP (VP (JJ 惊人)) (DEV 地)) (VP (JJ 亲密))))) (, ，) (DVP (IP (NP (NN 效果)) (VP (ADVP (RB 也)) (VP (JJ 奇怪)))) (DEV 地)) (NP (NN 表面)) (VP (SFV 化) (CC 和) (JJ 无情))) (, ，) (VP (PP (ADVP (JJ 好)) (PP (VV 像) (IP (NP (NN 主角)) (VP (VC 不是) (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NN 同行))))))) (, ，) (VP (VC 而是) (NP (DNP (LCP (NP (NP (PRP 我们)) (NP (NN 时代) (NN 故事))) (IN 中)) (DEC 的)) (NP (NN 肖像) (NN 人物))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'CP': {}, ',14724': {}, 'DVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'CP': {}, ',': {}, 'DVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'CP': {}, ',': {}, 'DVP': {}, 'NP': {}, 'VP': {}}}
+{'VP': {'PP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+随	人物	acl
+着	随	aux
+谣言	积聚	nsubj
+积聚	随	ccomp
+起来	积聚	mark
+，	随	punct
+即使	亲密	case
+细节	惊人	nsubj
+惊人	亲密	advmod
+地	惊人	mark:adv
+亲密	人物	ccomp
+，	亲密	punct
+效果	化	nsubj
+也	化	mark
+奇怪	化	advmod
+地	奇怪	mark:adv
+表面	化	compound
+化	人物	acl
+和	无情	cc
+无情	化	conj
+，	化	punct
+好	像	advcl
+像	人物	acl
+主角	同行	nsubj
+是	同行	cop
+我	同行	det
+的	我	mark:rel
+同行	像	ccomp
+，	像	punct
+是	人物	cop
+我	故事	nmod
+时代	故事	nmod
+故事	人物	nmod
+中	故事	case
+的	故事	case
+肖像	人物	nmod
+人物	ROOT	root
+。	人物	punct
+----------------------------------------------------------------------
+读了贝丽尔·普赛的小说《卡姆顿·霍登》，这部小说的背景设在了牛津北部，艾普斯坦感觉到“传闻传播最好的，恰恰是一个小型的，甚至可以说是紧密的社区”。
+
+(ROOT (IP (IP (VP (VV 读) (AS 了) (NP (NP (DNP (NP (NNP 贝丽尔) (/ ·) (NNP 普赛)) (DEC 的)) (NP (NN 小说))) (NP (-LRB- 《) (NNP 卡姆顿) (/ ·) (NNP 霍登) (-RRB- 》))))) (, ，) (IP (NP (DNP (NP (DP (DT 这) (CLP (NNB 部))) (NP (NN 小说))) (DEC 的)) (NP (NN 背景))) (VP (VV 设) (PP (VV 在) (AS 了) (NP (NP (NNP 牛津)) (NP (NN 北部)))))) (, ，) (IP (NP (NNP 艾普斯坦)) (VP (VRD (VV 感觉) (VV 到)) (IP (`` “) (NP (CP (CP (IP (NP (NN 传闻) (VV 传播)) (VP (JJ 最好))) (UH 的)))) (, ，) (VP (VP (ADVP (RB 恰恰)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (ADJP (NN 小型)) (UH 的))))) (, ，) (VP (ADVP (RB 甚至)) (IP (VP (MD 可以) (VP (VV 说)))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 紧密))) (DEC 的))) (NP (NN 社区)))))) ('' ”)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP30840': {}, ',97641': {}, 'IP39423': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP25642': {'NP': {}, 'VP': {}}, ',54662': {}, 'IP11998': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+读	ROOT	root
+了	读	aux
+贝丽尔	小说	nmod
+·	普赛	punct
+普赛	贝丽尔	flat:name
+的	贝丽尔	case
+小说	读	obj
+《	卡姆顿	punct
+卡姆顿	小说	appos
+·	霍登	punct
+霍登	卡姆顿	flat:name
+》	卡姆顿	punct
+，	设	punct
+这	部	det
+部	小说	clf
+小说	背景	nmod
+的	小说	case
+背景	设	nsubj
+设	读	parataxis
+在	设	mark
+了	设	aux
+牛津	北部	nmod
+北部	设	obj
+，	感觉	punct
+艾普斯坦	感觉	nsubj
+感觉	读	parataxis
+到	感觉	mark
+“	最好	punct
+传闻	最好	nsubj
+传播	最好	advcl
+最好	感觉	ccomp
+的	最好	discourse
+，	感觉	punct
+恰恰	小型	advmod
+是	小型	cop
+一	个	nummod
+个	小型	clf
+小型	说	advcl
+的	小型	discourse
+，	小型	punct
+甚至	说	mark
+可以	说	aux
+说	感觉	ccomp
+是	社区	cop
+紧密	社区	amod
+的	紧密	mark:rel
+社区	说	xcomp
+”	社区	punct
+。	读	punct
+----------------------------------------------------------------------
+我不禁想知道，有多少小社区的公民，他们的命运不在巴伯拉·普姆的慈悲之手下，会同意这一点。
+
+(ROOT (IP (NP (PRP 我)) (VP (ADVP (RB 不)) (VP (VV 禁想) (IP (VP (VV 知道) (, ，) (IP (IP (VP (VV 有) (NP (QP (CD 多少)) (DNP (NP (ADJP (PFA 小)) (NP (NN 社区))) (DEC 的)) (NP (NN 公民))))) (, ，) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 命运))) (VP (VP (ADVP (RB 不)) (VP (VV 在) (NP (DNP (NP (DNP (NP (NNP 巴伯拉) (/ ·) (NNP 普姆)) (DEC 的)) (NP (NN 慈悲))) (DEC 之)) (NP (NN 手下))))) (, ，) (VP (MD 会) (VP (VV 同意) (DP (DT 这) (CLP (CD 一点))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+我	禁想	nsubj
+不	禁想	advmod
+禁想	ROOT	root
+知道	禁想	xcomp
+，	有	punct
+有	知道	xcomp
+多少	社区	nummod
+小	社区	case
+社区	有	obj
+的	有	mark:rel
+公民	有	obj
+，	同意	punct
+他	命运	det
+的	他	case
+命运	同意	nsubj
+不	在	advmod
+在	同意	advcl
+巴伯拉	慈悲	nmod
+·	普姆	punct
+普姆	巴伯拉	flat:name
+的	巴伯拉	case
+慈悲	手下	nmod
+之	慈悲	case
+手下	在	obj
+，	在	punct
+会	同意	aux
+同意	知道	parataxis
+这	一点	det
+一点	同意	obj
+。	禁想	punct
+----------------------------------------------------------------------
+不管怎样，我们现在都住在一个小镇。
+
+(ROOT (IP (IP (VP (ADVP (IN 不管)) (VP (WP 怎样)))) (, ，) (NP (PRP 我们)) (VP (NP (NN 现在)) (ADVP (RB 都)) (VP (VV 住) (PP (VV 在) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 小镇)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+不管	怎样	case
+怎样	住	obl
+，	怎样	punct
+我	住	nsubj
+现在	住	nmod:tmod
+都	住	mark
+住	ROOT	root
+在	住	mark
+一	个	nummod
+个	小镇	clf
+小镇	住	obj
+。	住	punct
+----------------------------------------------------------------------
+艾普斯坦承认互联网给诽谤和“毁人生”带来的巨大影响。
+
+(ROOT (IP (NP (NNP 艾普斯坦)) (VP (VV 承认) (NP (CP (CP (IP (IP (NP (JJ 互联)) (VP (VP (NN 网给) (NP (NN 诽谤))) (CC 和) (VP (`` “) (VV 毁) (NP (NN 人生)) ('' ”)))) (VP (VV 带来))) (DEC 的))) (ADJP (JJ 巨大)) (NP (NN 影响)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+艾普斯坦	承认	nsubj
+承认	ROOT	root
+互联	网给	amod
+网给	诽谤	nmod
+诽谤	带来	nsubj
+和	人生	cc
+“	人生	punct
+毁	人生	amod
+人生	诽谤	conj
+”	人生	punct
+带来	影响	acl:relcl
+的	带来	mark:rel
+巨大	影响	amod
+影响	承认	obj
+。	承认	punct
+----------------------------------------------------------------------
+但他仅举出了几个在网上流传的谣言的受害者，这些例子的严重程度从马尔科姆·格雷厄姆 (Malcolm Gladwell) 的声誉 (他被列入一个不良小费者数据库) 到罗格斯大学的一名学生自杀 (他与另一名男生发生关系后视频流传网络)。
+
+(ROOT (IP (IP (ADVP (RB 但)) (NP (PRP 他)) (VP (ADVP (RB 仅)) (VP (VV 举出) (AS 了) (NP (DNP (NP (QP (CD 几) (CLP (NNB 个))) (CP (CP (IP (VP (PP (IN 在) (NP (NN 网上))) (VP (VV 流传)))) (DEC 的))) (NP (NN 谣言))) (DEC 的)) (NP (VV 受害) (SFN 者)))))) (, ，) (IP (NP (DNP (NP (DP (DT 这些)) (NP (NN 例子))) (DEC 的)) (ADJP (JJ 严重)) (NP (NN 程度))) (VP (VP (PP (IN 从) (NP (DNP (NP (NNP 马尔科姆) (/ ·) (NNP 格雷厄姆) (FW -LRB-Malcolm) (FW Gladwell-RRB-)) (DEC 的)) (NP (NN 声誉)))) (ADVP (RB -LRB-他)) (VP (BB 被) (VP (VV 列入) (IP (NP (DNP (NP (NP (QP (CD 一) (CLP (NNB 个))) (ADJP (JJ 不良)) (NP (NN 小费者) (NN 数据))) (SFN 库-RRB-) (NP (NNP 到罗格斯) (NN 大学))) (DEC 的)) (QP (CD 一) (CLP (NNB 名))) (NP (NN 学生))) (VP (VV 自杀)))))) (VV -LRB-他) (VP (LCP (IP (VP (PP (IN 与) (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 名)))) (NP (NN 男生)))) (VP (VV 发生) (NP (NN 关系))))) (IN 后)) (NP (NN 视频)) (VP (VV 流传) (NP (NN 网络)))) (-RRB- -RRB-))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP60592': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP54286': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+但	举出	mark
+他	举出	nsubj
+仅	举出	advmod
+举出	ROOT	root
+了	举出	aux
+几	个	nummod
+个	者	nmod
+在	网上	case
+网上	流传	obl
+流传	者	acl:relcl
+的	流传	mark:rel
+谣言	流传	obj
+的	流传	mark:rel
+受害	者	compound
+者	举出	obj
+，	流传	punct
+这些	例子	det
+例子	程度	nmod
+的	例子	case
+严重	程度	amod
+程度	(他	nsubj
+从	声誉	case
+马尔科姆	声誉	nmod
+·	格雷厄姆	punct
+格雷厄姆	马尔科姆	flat:name
+(Malcolm	马尔科姆	appos
+Gladwell)	(Malcolm	flat:foreign
+的	(Malcolm	case
+声誉	自杀	obl
+(他	列入	advmod
+被	列入	aux:pass
+列入	学生	acl:relcl
+一	个	nummod
+个	库)	nmod
+不良	库)	amod
+小费者	库)	nmod
+数据	库)	compound
+库)	大学	nmod
+到罗格斯	大学	nmod
+大学	列入	obj
+的	列入	mark:rel
+一	名	nummod
+名	学生	clf
+学生	自杀	nsubj
+自杀	(他	advcl
+(他	发生	mark
+与	男生	case
+另	名	det
+一	名	nummod
+名	男生	nmod
+男生	发生	obl
+发生	流传	advcl
+关系	发生	obj
+后	发生	mark
+视频	流传	nsubj
+流传	举出	parataxis
+网络	流传	obj
+)	流传	punct
+。	举出	punct
+----------------------------------------------------------------------
+虽然埃本斯 (Epstein) 并不特别关心言论与权力之间的关系，但他表示，言论可能会在革命中发挥作用。
+
+(ROOT (IP (CP (ADVP (IN 虽然)) (IP (NP (NNP 埃本斯) (FW -LRB-Epstein-RRB-)) (VP (ADVP (RB 并)) (ADVP (RB 不)) (ADVP (RB 特别)) (VP (VV 关心) (NP (DNP (LCP (NP (NN 言论) (CC 与) (NN 权力)) (IN 之间)) (DEC 的)) (NP (NN 关系))))))) (, ，) (ADVP (RB 但)) (NP (PRP 他)) (VP (VV 表示) (, ，) (IP (NP (NN 言论)) (VP (MD 可能) (VP (MD 会) (VP (PP (IN 在) (LCP (NP (NN 革命)) (IN 中))) (VP (VV 发挥) (NP (NN 作用)))))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+虽然	关心	case
+埃本斯	(Epstein)	nmod
+(Epstein)	关心	nsubj
+并	关心	mark
+不	关心	advmod
+特别	关心	advmod
+关心	表示	ccomp
+言论	关系	nmod
+与	权力	cc
+权力	言论	conj
+之间	言论	case
+的	关心	mark:rel
+关系	关心	obj
+，	关心	punct
+但	表示	mark
+他	表示	nsubj
+表示	ROOT	root
+，	发挥	punct
+言论	发挥	nsubj
+可能	发挥	aux
+会	发挥	aux
+在	革命	case
+革命	发挥	obl
+中	革命	case
+发挥	表示	ccomp
+作用	发挥	obj
+。	表示	punct
+----------------------------------------------------------------------
+对于他而言，这种类型的观众体育是什么，对于被剥夺权利的人而言，这是一种侦察手段，一种获取对他们地位和生存至关重要的信息的途径。
+
+(ROOT (IP (IP (IP (VP (PP (IN 对于) (NP (PRP 他))) (VP (RB 而) (VP (VV 言))))) (, ，) (NP (DNP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 类型))) (DEC 的)) (NP (NN 观众) (NN 体育))) (VP (VC 是) (NP (WP 什么)))) (, ，) (IP (IP (VP (PP (IN 对于) (NP (CP (CP (IP (VP (BB 被) (VP (VV 剥夺) (NP (NN 权利))))) (DEC 的))) (NP (NN 人)))) (VP (RB 而) (VP (VV 言))))) (, ，) (NP (PRD 这)) (VP (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (NP (NN 侦察) (NN 手段)))) (, ，) (NP (QP (CD 一) (CLP (NNB 种))) (CP (CP (IP (VP (VV 获取) (NP (CP (CP (IP (VP (PP (IN 对) (NP (NP (PRP 他们)) (NP (NN 地位) (CC 和) (VV 生存)))) (VP (VV 至关重要)))) (DEC 的))) (NP (NN 信息))))) (DEC 的))) (NP (NN 途径))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP77185': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP81217': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+对于	他	case
+他	言	obl
+而	言	mark
+言	ROOT	root
+，	言	punct
+这	种	det
+种	类型	clf
+类型	体育	nmod
+的	类型	case
+观众	体育	nmod
+体育	言	nsubj
+是	什么	cop
+什么	言	advcl
+，	什么	punct
+对于	人	case
+被	剥夺	aux
+剥夺	人	acl:relcl
+权利	剥夺	obj
+的	剥夺	mark:rel
+人	言	obl
+而	言	mark
+言	言	ccomp
+，	言	punct
+这	手段	nsubj
+是	手段	cop
+一	种	nummod
+种	手段	clf
+侦察	手段	nmod
+手段	言	parataxis
+，	途径	punct
+一	种	nummod
+种	途径	clf
+获取	途径	acl:relcl
+对	地位	case
+他	地位	nmod
+地位	获取	obl
+和	生存	cc
+生存	获取	conj
+至关重要	生存	xcomp
+的	生存	mark:rel
+信息	地位	conj
+的	获取	mark:rel
+途径	手段	conj
+。	言	punct
+----------------------------------------------------------------------
+许多人都知道，两个最臭名昭著的谣言贩子群体是女性和男同性恋者。
+
+(ROOT (IP (NP (QP (CD 许多)) (NP (NN 人))) (VP (ADVP (RB 都)) (VP (VV 知道) (, ，) (IP (NP (QP (CD 两) (CLP (NNB 个))) (CP (CP (IP (NP (JJ 最臭) (NN 名)) (VP (JJ 昭著))) (DEC 的))) (NP (NN 谣言) (NN 贩子) (NN 群体))) (VP (VC 是) (NP (NN 女性) (CC 和) (NP (ADJP (NN 男)) (NP (NN 同性) (SFN 恋) (SFN 者)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+许多	人	nummod
+人	知道	nsubj
+都	知道	mark
+知道	ROOT	root
+，	者	punct
+两	个	nummod
+个	群体	clf
+最臭	群体	amod
+名	昭著	nsubj
+昭著	群体	acl:relcl
+的	昭著	mark:rel
+谣言	群体	nmod
+贩子	群体	nmod
+群体	者	nsubj
+是	女性	cop
+女性	者	nmod
+和	恋	cc
+男	恋	nmod
+同性	恋	compound
+恋	女性	conj
+者	知道	ccomp
+。	知道	punct
+----------------------------------------------------------------------
+埃本斯援引了莱奥·莱曼的话，他说他保存了一本许多谣言的日记，“因为我总是对表面和真实情况之间的差距感兴趣。”
+
+(ROOT (IP (IP (NP (NNP 埃本斯)) (VP (VV 援引) (AS 了) (NP (NP (NNP 莱奥) (/ ·) (NNP 莱曼)) (UH 的话)))) (, ，) (IP (NP (PRP 他)) (VP (VV 说) (IP (IP (NP (PRP 他)) (VP (VV 保存) (AS 了) (NP (QP (CD 一) (CLP (NNB 本))) (QP (CD 许多)) (DNP (NP (NN 谣言)) (DEC 的)) (NP (NN 日记))))) (, ，) (IP (`` “) (PP (IN 因为) (IP (NP (PRP 我)) (VP (VP (ADVP (RB 总)) (VP (VC 是) (NP (DNP (PP (IN 对) (LCP (NP (NN 表面) (CC 和) (NP (ADJP (JJ 真实)) (NP (NN 情况)))) (IN 之间))) (DEC 的)) (NP (NN 差距))))) (VP (VV 感) (NP (NN 兴趣)))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP46197': {}, '.': {}, "''": {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP95480': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+埃本斯	援引	nsubj
+援引	ROOT	root
+了	援引	aux
+莱奥	援引	obj
+·	莱曼	punct
+莱曼	莱奥	flat:name
+的话	援引	discourse
+，	说	punct
+他	说	nsubj
+说	援引	parataxis
+他	保存	nsubj
+保存	说	ccomp
+了	保存	aux
+一	本	nummod
+本	日记	clf
+许多	谣言	nummod
+谣言	日记	nmod
+的	谣言	case
+日记	保存	obj
+，	是	punct
+“	是	punct
+因为	是	case
+我	是	nsubj
+总	是	advmod
+是	日记	acl:relcl
+对	差距	case
+表面	差距	nmod
+和	情况	cc
+真实	情况	amod
+情况	表面	conj
+之间	表面	case
+的	是	mark:rel
+差距	感	nsubj
+感	是	xcomp
+兴趣	感	obj
+。	是	punct
+”	是	punct
+----------------------------------------------------------------------
+最后，Epstein 似乎更关心谣言的作用和影响，而不是谣言所讲述的故事，作为一个谣言策划者，他既关注色情内容，也关注崇高的东西。
+
+(ROOT (IP (IP (ADVP (NN 最后)) (, ，) (NP (FW Epstein)) (VP (VP (ADVP (RB 似乎)) (ADVP (RB 更)) (VP (VV 关心) (NP (DNP (NP (NN 谣言)) (DEC 的)) (NP (NN 作用) (CC 和) (NN 影响))))) (, ，) (RB 而) (VP (VC 不是) (NP (CP (CP (IP (NP (NN 谣言)) (VP (RB 所) (VP (VV 讲述)))) (DEC 的))) (NP (NN 故事)))))) (, ，) (IP (PP (VV 作) (PP (VC 为) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 谣言) (VV 策划) (SFN 者))))) (, ，) (NP (PRP 他)) (VP (CC 既) (VP (VV 关注) (NP (NN 色情) (NN 内容))) (, ，) (RB 也) (VP (VV 关注) (NP (CP (CP (IP (VP (JJ 崇高))) (DEC 的))) (NP (NN 东西)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP69103': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP69543': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+最后	关心	nmod:tmod
+，	最后	punct
+Epstein	关心	nsubj
+似乎	关心	advmod
+更	关心	advmod
+关心	ROOT	root
+谣言	作用	nmod
+的	谣言	case
+作用	关心	obj
+和	影响	cc
+影响	作用	conj
+，	作	punct
+而	作	mark
+是	故事	cop
+谣言	讲述	nsubj
+所	讲述	mark
+讲述	故事	acl:relcl
+的	讲述	mark:rel
+故事	作	advcl
+，	故事	punct
+作	关心	parataxis
+为	作	mark
+一	个	nummod
+个	者	nmod
+谣言	者	nmod
+策划	者	compound
+者	作	obj
+，	关注	punct
+他	关注	nsubj
+既	关注	cc
+关注	关注	advcl
+色情	内容	nmod
+内容	关注	obj
+，	关注	punct
+也	关注	mark
+关注	关心	parataxis
+崇高	东西	amod
+的	崇高	mark:rel
+东西	关注	obj
+。	关心	punct
+----------------------------------------------------------------------
+在《谣言》中，我最喜欢的是一个年轻女子的故事，她曾欣赏伊萨克·巴希维斯·辛格的文学作品，在一所不知名的大学听了他的演讲，随后在他的邀请下，据称是为了讲述她家族在比亚韦斯托克的历史，与他一起独处。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (NP (-LRB- 《) (NN 谣言) (-RRB- 》)) (IN 中))) (, ，) (NP (CP (CP (IP (NP (PRP 我)) (VP (ADVP (RB 最)) (VP (VV 喜欢)))) (DEC 的)))) (VP (VC 是) (NP (DNP (NP (QP (CD 一) (CLP (NNB 个))) (ADJP (JJ 年轻)) (NP (NN 女子))) (DEC 的)) (NP (NN 故事))))) (, ，) (IP (NP (PRP 她)) (VP (VP (ADVP (RB 曾)) (VP (VV 欣赏) (NP (DNP (NP (NNP 伊萨克) (/ ·) (NNP 巴希维斯) (/ ·) (NNP 辛格)) (DEC 的)) (NP (NN 文学) (NN 作品))))) (, ，) (VP (PP (VV 在) (NP (QP (CD 一) (CLP (NNB 所))) (CP (CP (IP (VP (ADVP (RB 不)) (VP (JJ 知名)))) (DEC 的))) (NP (NN 大学)))) (VP (VV 听) (AS 了) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 演讲))))) (, ，) (VP (ADVP (RB 随后)) (PP (IN 在) (LCP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 邀请))) (IN 下))) (, ，) (ADVP (VV 据称)) (VP (VC 是) (PP (IN 为了) (IP (VP (VP (VV 讲述) (NP (NP (NP (PRP 她)) (NP (NN 家族))) (DNP (PP (VV 在) (NP (NNP 比亚韦斯托克))) (DEC 的)) (NP (NN 历史)))) (, ，) (VP (PP (IN 与) (NP (PRP 他))) (ADVP (NN 一起)) (VP (VV 独处)))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP69398': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP32721': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+在	谣言	case
+《	谣言	punct
+谣言	故事	nmod
+》	谣言	punct
+中	谣言	case
+，	谣言	punct
+我	喜欢	nsubj
+最	喜欢	advmod
+喜欢	故事	csubj
+的	喜欢	mark:rel
+是	故事	cop
+一	个	nummod
+个	故事	clf
+年轻	女子	amod
+女子	故事	nmod
+的	女子	case
+故事	ROOT	root
+，	据称	punct
+她	听	nsubj
+曾	欣赏	advmod
+欣赏	听	advcl
+伊萨克	作品	nmod
+·	巴希维斯	punct
+巴希维斯	伊萨克	flat:name
+·	辛格	punct
+辛格	伊萨克	flat:name
+的	伊萨克	case
+文学	作品	nmod
+作品	欣赏	obj
+，	欣赏	punct
+在	听	advcl
+一	所	nummod
+所	大学	clf
+不	知名	advmod
+知名	大学	amod
+的	知名	mark:rel
+大学	在	obj
+听	据称	advcl
+了	听	aux
+他	演讲	det
+的	他	mark:rel
+演讲	听	obj
+，	听	punct
+随后	据称	advmod
+在	邀请	case
+他	邀请	det
+的	他	case
+邀请	据称	obl
+下	邀请	case
+，	邀请	punct
+据称	故事	parataxis
+是	据称	xcomp
+为了	讲述	case
+讲述	独处	xcomp
+她	历史	nmod
+家族	历史	nmod
+在	历史	acl:relcl
+比亚韦斯托克	在	obj
+的	在	mark:rel
+历史	讲述	obj
+，	讲述	punct
+与	他	case
+他	独处	obl
+一起	独处	obl
+独处	是	xcomp
+。	故事	punct
+----------------------------------------------------------------------
+接下来发生的事让她感到意外，虽然读者已经看到了这一幕：他打断了她的事实陈述，并询问是否可以亲吻她。
+
+(ROOT (IP (IP (IP (VP (VRD (VV 接) (VV 下来)) (NP (CP (CP (IP (VP (VV 发生))) (DEC 的))) (NP (NN 事))))) (VP (VV 让) (NP (PRP 她)) (IP (VP (VV 感到) (NP (JJ 意外)))))) (, ，) (CP (ADVP (IN 虽然)) (IP (NP (NN 读者)) (VP (ADVP (RB 已经)) (VP (VV 看到) (AS 了) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 幕))))))) (: ：)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'CP': {}, ':': {}}}
+{'IP': {'IP': {}, ',': {}, 'CP': {}, ':': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, 'VP': {}}, ',': {}, 'CP': {'ADVP': {}, 'IP': {}}, ':': {}}}
+{'IP': {'IP': {'IP': {}, 'VP': {}}, ',': {}, 'CP': {'ADVP': {}, 'IP': {}}, ':': {}}}
+{'IP': {'IP': {}, 'VP': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+Dependency Features:
+接	发生	advcl
+下来	接	mark
+发生	事	acl:relcl
+的	发生	mark:rel
+事	让	nsubj
+让	ROOT	root
+她	感到	nsubj
+感到	让	ccomp
+意外	感到	xcomp
+，	看到	punct
+虽然	看到	case
+读者	看到	nsubj
+已经	看到	advmod
+看到	让	ccomp
+了	看到	aux
+这	幕	det
+一	幕	nummod
+幕	看到	obj
+：	让	punct
+----------------------------------------------------------------------
+他比她大 30 岁，让她想起了她的祖父，她不会想到与他发生性关系的可能。
+
+(ROOT (IP (IP (NP (PRP 他)) (VP (PP (IN 比) (NP (PRP 她))) (VP (JJ 大) (QP (CD 30) (CLP (NNB 岁)))))) (, ，) (IP (VP (VV 让) (NP (PRP 她)) (IP (VP (VV 想起) (AS 了) (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 祖父))))))) (, ，) (IP (NP (PRP 她)) (VP (MD 不会) (VP (VV 想到) (NP (CP (IP (VP (PP (IN 与) (NP (PRP 他))) (VP (VV 发生) (NP (NN 性) (NN 关系))))) (DEC 的)) (NP (NN 可能)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP62094': {}, ',49166': {}, 'IP49226': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP96681': {'VP': {}}, ',59239': {}, 'IP78906': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+他	让	nsubj
+比	她	case
+她	大	nmod
+大	岁	amod
+30	岁	nummod
+岁	让	csubj
+，	岁	punct
+让	ROOT	root
+她	想起	nsubj
+想起	让	ccomp
+了	想起	aux
+她	祖父	det
+的	她	mark:rel
+祖父	想起	obj
+，	想到	punct
+她	想到	nsubj
+会	想到	aux
+想到	让	parataxis
+与	他	case
+他	发生	obl
+发生	可能	acl:relcl
+性	关系	nmod
+关系	发生	obj
+的	发生	mark:rel
+可能	想到	obj
+。	让	punct
+----------------------------------------------------------------------
+她很抱歉，她解释说，但她刚刚开始第二段婚姻。
+
+(ROOT (IP (IP (NP (PRP 她)) (VP (ADVP (RB 很)) (VP (JJ 抱歉)))) (, ，) (IP (NP (PRP 她)) (VP (VP (VV 解释)) (VP (VV 说) (, ，) (IP (ADVP (RB 但)) (NP (PRP 她)) (VP (ADVP (RB 刚刚)) (VP (VV 开始) (NP (QP (CD 第二) (CLP (NNB 段))) (NP (NN 婚姻))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP51551': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP81981': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+她	抱歉	nsubj
+很	抱歉	advmod
+抱歉	ROOT	root
+，	解释	punct
+她	解释	nsubj
+解释	抱歉	parataxis
+说	解释	xcomp
+，	开始	punct
+但	开始	mark
+她	开始	nsubj
+刚刚	开始	advmod
+开始	解释	ccomp
+第二	段	nummod
+段	婚姻	clf
+婚姻	开始	obj
+。	解释	punct
+----------------------------------------------------------------------
+他停止了对她的训斥，指着附近的一个盘子，建议她把水果带给她的丈夫。
+
+(ROOT (IP (NP (PRP 他)) (VP (VP (VV 停止) (AS 了) (NP (DNP (PP (IN 对) (NP (PRP 她))) (DEC 的)) (NP (NN 训斥)))) (, ，) (VP (VV 指) (AS 着) (NP (DNP (NP (NN 附近)) (DEC 的)) (QP (CD 一) (CLP (NNB 个))) (NP (NN 盘子)))) (, ，) (VP (VV 建议) (NP (PRP 她)) (IP (VP (BB 把) (IP (NP (NN 水果)) (VP (VV 带给) (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 丈夫))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP21330': {}, ',80292': {}, 'VP30967': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+他	建议	nsubj
+停止	建议	advcl
+了	停止	aux
+对	训斥	case
+她	训斥	nmod
+的	训斥	case
+训斥	停止	obj
+，	停止	punct
+指	建议	advcl
+着	指	aux
+附近	盘子	nmod
+的	附近	case
+一	个	nummod
+个	盘子	clf
+盘子	指	obj
+，	指	punct
+建议	ROOT	root
+她	带给	nsubj
+把	水果	case
+水果	带给	obl:patient
+带给	建议	ccomp
+她	带给	iobj
+的	她	case
+丈夫	带给	iobj
+。	建议	punct
+----------------------------------------------------------------------
+她挑了一个大苹果和一个绿芒果，转身一看，他不见了。
+
+(ROOT (IP (NP (PRP 她)) (VP (VP (VV 挑) (AS 了) (NP (NP (QP (CD 一) (CLP (NNB 个))) (ADJP (PFA 大)) (NP (NN 苹果))) (CC 和) (NP (QP (CD 一) (CLP (NNB 个))) (ADJP (NN 绿)) (NP (NN 芒果))))) (, ，) (IP (IP (VP (VP (VV 转身)) (VP (ADVP (CD 一)) (VP (NN 看))))) (, ，) (NP (PRP 他)) (VP (VV 不见) (UH 了)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+她	转身	nsubj
+挑	转身	advcl
+了	挑	aux
+一	个	nummod
+个	苹果	clf
+大	苹果	case
+苹果	挑	obj
+和	芒果	cc
+一	个	nummod
+个	芒果	clf
+绿	芒果	nmod
+芒果	苹果	conj
+，	挑	punct
+转身	ROOT	root
+一	看	nummod
+看	转身	obl
+，	见	punct
+他	见	nsubj
+见	转身	parataxis
+了	见	discourse
+。	转身	punct
+----------------------------------------------------------------------
+这位被拒绝的名人作家代表向在家等待的丈夫发送的模糊的怜悯之词（据推测是大学提供的）；由于尴尬或失望或拒绝再花一分钟时间和一个不愿意这样做的女人在一起，这位读者的角度来看，这一结局肯定比他们一起睡在一起好。
+
+(ROOT (IP (IP (NP (CP (CP (IP (NP (DP (DT 这) (CLP (NNB 位))) (CP (CP (IP (VP (BB 被) (VP (VV 拒绝)))) (DEC 的))) (NP (NN 名人) (NN 作家)) (NP (VV 代表))) (VP (PP (IN 向) (NP (CP (CP (IP (VP (PP (VV 在) (NP (NN 家))) (VP (VV 等待)))) (DEC 的))) (NP (NN 丈夫)))) (VP (VV 发送)))) (DEC 的))) (CP (CP (IP (VP (JJ 模糊))) (DEC 的))) (DNP (NP (NN 怜悯)) (DEC 之)) (NP (NN 词)) (PRN (-LRB- （) (VP (PP (IN 据) (NP (VV 推测))) (VP (VC 是) (NP (CP (CP (IP (NP (NN 大学)) (VP (VV 提供))) (UH 的)))))) (-RRB- ）))) (: ；) (PP (IN 由于) (IP (IP (VP (JJ 尴尬) (CC 或) (JJ 失望)) (CC 或) (VP (VV 拒绝) (IP (VP (VP (ADVP (RB 再)) (VP (VV 花) (NP (QP (CD 一) (CLP (NNB 分钟))) (NP (NN 时间))))) (VP (PP (IN 和) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (ADVP (RB 不)) (VP (VV 愿意) (IP (VP (ADVP (RB 这样)) (VP (VV 做))))))) (DEC 的))) (NP (NN 女人)))) (VP (VV 在) (ADVP (NN 一起)))))))))) (, ，) (NP (DNP (NP (DP (DT 这) (CLP (NNB 位))) (NP (NN 读者))) (DEC 的)) (NP (NN 角度))) (VP (RB 来) (VP (VV 看)))) (, ，) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 结局))) (VP (ADVP (VV 肯定)) (PP (IN 比) (NP (PRP 他们))) (ADVP (NN 一起)) (VP (VV 睡) (PP (VV 在) (ADVP (NN 一起)))) (VP (JJ 好))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ':': {}, 'PP': {}, ',': {}, 'NP47996': {}, 'VP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'ADVP77808': {}, 'VP': {}, 'VP77562': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ':': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'ADVP': {}, 'VP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ':': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'ADVP': {}, 'VP': {}, 'VP': {}}}
+Dependency Features:
+这	位	det
+位	作家	clf
+被	拒绝	aux
+拒绝	作家	acl:relcl
+的	拒绝	mark:rel
+名人	作家	nmod
+作家	代表	nsubj
+代表	ROOT	root
+向	丈夫	case
+在	等待	advcl
+家	在	obj
+等待	丈夫	acl:relcl
+的	等待	mark:rel
+丈夫	发送	obl
+发送	词	acl:relcl
+的	发送	mark:rel
+模糊	词	amod
+的	模糊	mark:rel
+怜悯	词	nmod
+之	怜悯	case
+词	代表	obj
+（	推测	punct
+据	推测	case
+推测	代表	xcomp
+是	推测	xcomp
+大学	提供	nsubj
+提供	是	ccomp
+的	是	discourse
+）	推测	punct
+；	肯定	punct
+由于	尴尬	case
+尴尬	在	xcomp
+或	失望	cc
+失望	尴尬	conj
+或	拒绝	cc
+拒绝	尴尬	conj
+再	花	advmod
+花	拒绝	xcomp
+一	分钟	nummod
+分钟	时间	clf
+时间	花	obj
+和	女人	case
+一	个	nummod
+个	女人	clf
+不	愿意	advmod
+愿意	女人	acl:relcl
+这样	做	advmod
+做	愿意	xcomp
+的	愿意	mark:rel
+女人	在	obl
+在	看	advcl
+一起	在	obj
+，	在	punct
+这	位	det
+位	读者	clf
+读者	角度	nmod
+的	读者	case
+角度	看	nsubj
+来	看	mark
+看	肯定	advcl
+，	看	punct
+这	一	det
+一	结局	nummod
+结局	肯定	nsubj
+肯定	代表	parataxis
+比	他	case
+他	睡	obl
+一起	睡	obl
+睡	肯定	xcomp
+在	睡	mark
+一起	睡	obl
+好	睡	xcomp
+。	代表	punct
+----------------------------------------------------------------------
+在母亲去世前几天，埃本斯得知她的父亲自杀了。
+
+(ROOT (IP (PP (IN 在) (QP (LCP (IP (NP (NN 母亲)) (VP (VV 去世))) (IN 前)) (QP (CD 几) (CLP (NNB 天))))) (, ，) (NP (NNP 埃本斯)) (VP (VV 得知) (IP (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 父亲))) (VP (VV 自杀) (UH 了)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'QP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'QP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'QP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+在	天	case
+母亲	去世	nsubj
+去世	天	amod
+前	去世	mark
+几	天	nummod
+天	得知	obl
+，	天	punct
+埃本斯	得知	nsubj
+得知	ROOT	root
+她	父亲	det
+的	她	case
+父亲	自杀	nsubj
+自杀	得知	ccomp
+了	得知	discourse
+。	得知	punct
+----------------------------------------------------------------------
+她甚至不愿告诉自己的丈夫。
+
+(ROOT (IP (NP (PRP 她)) (VP (ADVP (RB 甚至)) (VP (MD 不愿) (VP (VV 告诉) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 丈夫)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+她	告诉	nsubj
+甚至	告诉	mark
+愿	告诉	aux
+告诉	ROOT	root
+自己	丈夫	det
+的	自己	case
+丈夫	告诉	obj
+。	告诉	punct
+----------------------------------------------------------------------
+她认为，艾普斯坦猜测，没有什么可以通过谈论来获益；沉默更有尊严，艾普斯坦对她的这一点表示赞赏。
+
+(ROOT (IP (NP (PRP 她)) (VP (VV 认为) (, ，) (IP (NP (NNP 艾普斯坦)) (VP (VV 猜测) (, ，) (IP (IP (VP (VV 没有) (IP (NP (WP 什么)) (VP (MD 可以) (VP (PP (IN 通过) (NP (VV 谈论))) (VP (RB 来) (VP (VV 获益)))))))) (: ；) (IP (NP (VV 沉默)) (VP (ADVP (RB 更)) (VP (VV 有) (NP (NN 尊严))))) (, ，) (IP (NP (NNP 艾普斯坦)) (VP (PP (IN 对) (NP (DNP (NP (PRP 她)) (DEC 的)) (DP (DT 这) (QP (CD 一) (CLP (NN 点)))))) (VP (VV 表示) (NP (NN 赞赏))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+她	为	nsubj
+为	ROOT	root
+，	猜测	punct
+艾普斯坦	猜测	nsubj
+猜测	为	ccomp
+，	猜测	punct
+有	猜测	ccomp
+什么	获益	nsubj
+可以	获益	aux
+通过	谈论	case
+谈论	获益	xcomp
+来	获益	mark
+获益	有	ccomp
+；	有	punct
+沉默	有	csubj
+更	有	advmod
+有	为	parataxis
+尊严	有	obj
+，	表示	punct
+艾普斯坦	表示	nsubj
+对	点	case
+她	点	det
+的	她	case
+这	点	det
+一	点	nummod
+点	表示	obl
+表示	为	parataxis
+赞赏	表示	obj
+。	为	punct
+----------------------------------------------------------------------
+“但我发现，在讲述这个故事时，我就是在议论我自己的母亲，讲述一个她现在也不想讲的故事，”他写道。
+
+(ROOT (IP (IP (`` “) (ADVP (RB 但)) (NP (PRP 我)) (VP (VV 发现) (, ，) (IP (PP (IN 在) (LCP (IP (VP (VV 讲述) (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 故事))))) (IN 时))) (, ，) (NP (PRP 我)) (VP (VC 就是) (VP (ADVP (RB 在)) (VP (VP (VV 议论) (NP (DNP (NP (PRP 我) (PRD 自己)) (DEC 的)) (NP (NN 母亲)))) (, ，) (VP (VV 讲述) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (NP (PRP 她)) (VP (NP (NN 现在)) (ADVP (RB 也)) (VP (MD 不想) (IP (VP (VV 讲)))))) (DEC 的))) (NP (NN 故事)))))))))) (, ，) ('' ”) (NP (PRP 他)) (VP (VV 写道)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+“	发现	punct
+但	发现	mark
+我	发现	nsubj
+发现	ROOT	root
+，	写道	punct
+在	讲述	case
+讲述	是	xcomp
+这	个	det
+个	故事	clf
+故事	讲述	obj
+时	讲述	mark
+，	讲述	punct
+我	是	nsubj
+是	讲述	advcl
+在	议论	advmod
+议论	母亲	acl:relcl
+我	议论	obj
+自己	议论	obj
+的	议论	mark:rel
+母亲	是	obj
+，	是	punct
+讲述	写道	advcl
+一	个	nummod
+个	故事	clf
+她	讲	nsubj
+现在	讲	nmod:tmod
+也	讲	mark
+想	讲	aux
+讲	故事	acl:relcl
+的	讲	mark:rel
+故事	讲述	obj
+，	讲述	punct
+”	写道	punct
+他	写道	nsubj
+写道	发现	ccomp
+。	发现	punct
+----------------------------------------------------------------------
+“你们把胡说八道的人称为什么？
+
+(ROOT (IP (`` “) (NP (PRP 你们)) (VP (BB 把) (IP (NP (NNP 胡)) (VP (VV 说) (IP (NP (DNP (QP (CD 八) (CLP (NNB 道))) (DEC 的)) (NP (NN 人称))) (VP (VC 为) (NP (WP 什么))))))) (. ？)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'BB': {}, 'IP': {}}}
+Dependency Features:
+“	什么	punct
+你	人称	nmod
+把	人称	case
+胡	说	nsubj
+说	人称	acl:relcl
+八	道	nummod
+道	说	obj
+的	说	mark:rel
+人称	什么	nsubj
+为	什么	cop
+什么	ROOT	root
+？	什么	punct
+----------------------------------------------------------------------
+起码是一个作家，也是一个在谣言面前不会像母亲那样做的人。”
+
+(ROOT (IP (VP (VP (ADVP (RB 起码)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 作家))))) (, ，) (VP (VC 也是) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (PP (IN 在) (LCP (NP (NN 谣言) (SFN 面)) (IN 前))) (VP (MD 不会) (VP (PP (VV 像) (NP (NN 母亲))) (ADVP (RB 那样)) (VP (VV 做)))))) (DEC 的))) (NP (NN 人))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'VP': {}, '.': {}, "''": {}}}
+{'IP': {'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'VP': {'VP': {}, ',': {}, 'VP48470': {}}, '.': {}, "''": {}}}
+{'IP': {'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+起码	作家	advmod
+是	作家	cop
+一	个	nummod
+个	作家	clf
+作家	人	acl
+，	作家	punct
+是	人	cop
+一	个	nummod
+个	人	clf
+在	面	case
+谣言	面	compound
+面	像	obl
+前	面	case
+会	像	aux
+像	人	acl:relcl
+母亲	做	nsubj
+那样	做	advmod
+做	像	ccomp
+的	像	mark:rel
+人	ROOT	root
+。	人	punct
+”	人	punct
+----------------------------------------------------------------------
+在谈论谣言时，这里的代际差异最大。
+
+(ROOT (IP (PP (IN 在) (LCP (IP (VP (VV 谈论) (NP (NN 谣言)))) (IN 时))) (, ，) (NP (DNP (NP (PRD 这里)) (DEC 的)) (NP (NN 代际) (NN 差异))) (VP (JJ 最大)) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'JJ': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'JJ': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'JJ': {}}}
+Dependency Features:
+在	谈论	case
+谈论	最大	xcomp
+谣言	谈论	obj
+时	谈论	mark
+，	谈论	punct
+这里	差异	det
+的	这里	case
+代际	差异	nmod
+差异	最大	nsubj
+最大	ROOT	root
+。	最大	punct
+----------------------------------------------------------------------
+我怀疑 30 岁以下的读者能够理解 Epstein 母亲的沉默所带来的尊严，或者他祖父母时代自杀所带来的耻辱。
+
+(ROOT (IP (NP (PRP 我)) (VP (VV 怀疑) (IP (NP (DNP (LCP (QP (CD 30) (CLP (NNB 岁))) (IN 以下)) (DEC 的)) (NP (NN 读者))) (VP (MD 能够) (VP (VV 理解) (NP (NP (CP (CP (IP (NP (DNP (NP (FW Epstein) (NN 母亲)) (DEC 的)) (NP (NN 沉默))) (VP (RB 所) (VP (VV 带来)))) (DEC 的))) (NP (NN 尊严))) (, ，) (CC 或者) (NP (CP (CP (IP (IP (NP (PRP 他) (NNP 祖) (NN 父母) (NN 时代)) (VP (VV 自杀))) (VP (RB 所) (VP (VV 带来)))) (DEC 的))) (NP (NN 耻辱)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+我	怀疑	nsubj
+怀疑	ROOT	root
+30	岁	nummod
+岁	读者	nmod
+以下	岁	case
+的	岁	case
+读者	理解	nsubj
+能够	理解	aux
+理解	怀疑	ccomp
+Epstein	沉默	det
+母亲	沉默	nmod
+的	Epstein	case
+沉默	带来	nsubj
+所	带来	mark
+带来	尊严	acl:relcl
+的	带来	mark:rel
+尊严	理解	obj
+，	耻辱	punct
+或者	耻辱	cc
+他	父母	nmod
+祖	父母	nmod
+父母	时代	nmod
+时代	自杀	obl
+自杀	带来	advcl
+所	带来	mark
+带来	耻辱	acl:relcl
+的	带来	mark:rel
+耻辱	尊严	conj
+。	怀疑	punct
+----------------------------------------------------------------------
+我为 Epstein 的下一本书推荐《耻辱》。
+
+(ROOT (IP (VP (PP (IN 我为) (NP (FW Epstein))) (NP (QP (CD 的下一)) (NP (NN 本书))) (VP (VV 推荐) (NP (-LRB- 《) (NN 耻辱) (-RRB- 》)))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'PP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {'PP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'VP': {'PP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+我为	本书	case
+Epstein	本书	det
+的下一	Epstein	case
+本书	推荐	obl
+推荐	ROOT	root
+《	耻辱	punct
+耻辱	推荐	obj
+》	耻辱	punct
+。	推荐	punct
+----------------------------------------------------------------------
+或者是《后悔》一书，这是一本潜在的补充书籍。
+
+(ROOT (IP (IP (VP (LST (RB 或者)) (VP (VC 是) (NP (NP (-LRB- 《) (NN 后悔) (-RRB- 》)) (QP (CD 一)) (NP (NN 书)))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 本))) (DNP (ADJP (JJ 潜在)) (DEC 的)) (NP (NN 补充) (NN 书籍))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP99708': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP78222': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+或者	后悔	mark
+是	后悔	cop
+《	后悔	punct
+后悔	ROOT	root
+》	后悔	punct
+一	书	nummod
+书	后悔	appos
+，	书籍	punct
+这	书籍	nsubj
+是	书籍	cop
+一	本	nummod
+本	书籍	clf
+潜在	书籍	amod
+的	潜在	mark:rel
+补充	书籍	nmod
+书籍	后悔	parataxis
+。	后悔	punct
+----------------------------------------------------------------------
+或者，回到他之前说过的一句话，“好味道。”
+
+(ROOT (IP (RB 或者) (, ，) (NP (CP (CP (IP (VP (IP (VP (VV 回到) (LCP (NP (PRP 他)) (IN 之前)))) (VP (VV 说过)))) (DEC 的))) (QP (CD 一) (CLP (NNB 句))) (NP (NN 话))) (, ，) (NP (`` “) (ADJP (PFA 好)) (NP (NN 味道))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'RB': {}, ',': {}, 'NP': {}, ',65452': {}, 'NP66576': {}, '.': {}, "''": {}}}
+{'IP': {'RB': {}, ',': {}, 'NP': {}, ',': {}, 'NP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'RB': {}, ',': {}, 'NP': {'CP': {}, 'QP': {}, 'NP': {}}, ',80895': {}, 'NP16830': {'``': {}, 'ADJP': {}, 'NP': {}}, '.': {}, "''": {}}}
+{'IP': {'RB': {}, ',': {}, 'NP': {'CP': {}, 'QP': {}, 'NP': {}}, ',': {}, 'NP': {'``': {}, 'ADJP': {}, 'NP': {}}, '.': {}, "''": {}}}
+{'NP': {'CP': {}, 'QP': {}, 'NP': {}}}
+{'NP': {'``': {}, 'ADJP': {}, 'NP': {}}}
+Dependency Features:
+或者	话	mark
+，	或者	punct
+回到	说过	advcl
+他	回到	obj
+之前	他	case
+说过	话	acl:relcl
+的	说过	mark:rel
+一	句	nummod
+句	话	clf
+话	ROOT	root
+，	味道	punct
+“	味道	punct
+好	味道	case
+味道	话	conj
+。	味道	punct
+”	味道	punct
+----------------------------------------------------------------------
+艾泊斯备受好评，他将一名记者对研究的渴望和一名散文家对反思的才华带到了传统上是小说家们的专属领域。
+
+(ROOT (IP (IP (NP (NNP 艾泊斯)) (VP (VV 备受) (NP (NN 好评)))) (, ，) (IP (NP (PRP 他)) (VP (BB 将) (NP (NP (QP (CD 一) (CLP (NNB 名))) (NP (NN 记者))) (VP (VP (PP (IN 对) (NP (NP (DNP (NP (NN 研究)) (DEC 的)) (NP (NN 渴望))) (CC 和) (NP (QP (CD 一) (CLP (NNB 名))) (NP (NN 散文) (SFN 家))))) (PP (IN 对) (NP (CP (CP (IP (VP (VV 反思))) (DEC 的))) (NP (NN 才华)))) (VP (VV 带到) (AS 了) (LCP (NP (NN 传统)) (IN 上)))) (VP (VC 是) (NP (DNP (NP (NN 小说) (NN 家们)) (DEC 的)) (ADJP (JJ 专属)) (NP (NN 领域)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP71481': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP54242': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+艾泊斯	备受	nsubj
+备受	ROOT	root
+好评	备受	obj
+，	带到	punct
+他	带到	nsubj
+将	渴望	case
+一	名	nummod
+名	记者	clf
+记者	渴望	nmod
+对	渴望	case
+研究	渴望	nmod
+的	研究	case
+渴望	带到	obl:patient
+和	家	cc
+一	名	nummod
+名	家	nmod
+散文	家	compound
+家	渴望	conj
+对	才华	case
+反思	才华	acl:relcl
+的	反思	mark:rel
+才华	带到	obl
+带到	备受	parataxis
+了	带到	aux
+传统	领域	obl
+上	传统	case
+是	领域	cop
+小说	家们	nmod
+家们	领域	nmod
+的	家们	case
+专属	领域	amod
+领域	备受	parataxis
+。	备受	punct
+----------------------------------------------------------------------
+《谣言》成为他关于人性的幽默和别致的目录中最新的一部分。
+
+(ROOT (IP (NP (-LRB- 《) (NN 谣言) (-RRB- 》)) (VP (VV 成) (VP (VC 为) (NP (LCP (NP (NP (NP (PRP 他)) (DNP (PP (IN 关于) (NP (NN 人性))) (DEC 的)) (NP (NN 幽默))) (CC 和) (NP (CP (CP (IP (VP (JJ 别致))) (DEC 的))) (NP (NN 目录)))) (IN 中)) (CP (CP (IP (VP (JJ 最新))) (DEC 的))) (QP (CD 一)) (NP (NN 部分))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'-LRB-': {}, 'NN': {}, '-RRB-': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'-LRB-': {}, 'NN': {}, '-RRB-': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
+{'NP': {'-LRB-': {}, 'NN': {}, '-RRB-': {}}}
+{'VP': {'VV': {}, 'VP': {}}}
+Dependency Features:
+《	谣言	punct
+谣言	成	nsubj
+》	谣言	punct
+成	ROOT	root
+为	成	mark
+他	幽默	nmod
+关于	幽默	case
+人性	幽默	nmod
+的	人性	case
+幽默	成	obl
+和	目录	cc
+别致	目录	amod
+的	别致	mark:rel
+目录	部分	nmod
+中	目录	case
+最新	部分	amod
+的	最新	mark:rel
+一	部分	nummod
+部分	幽默	conj
+。	成	punct
+----------------------------------------------------------------------

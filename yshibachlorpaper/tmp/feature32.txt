@@ -1,0 +1,1908 @@
+上海的一名设计师雷曙杰为这个被称为“光棍节”的怪癖节日堆积了一份愿望清单，这个节日已经发展成为中国——也许是全世界——最繁忙的网上购物日。
+
+(ROOT (IP (IP (NP (NP (DNP (NP (NNP 上海)) (DEC 的)) (QP (CD 一) (CLP (NNB 名))) (NP (VV 设计) (SFN 师))) (NP (NNP 雷) (NNP 曙) (NNP 杰))) (VP (PP (IN 为) (NP (DP (DT 这) (CLP (NNB 个))) (CP (CP (IP (VP (BB 被) (VP (VCP (VV 称) (VC 为)) (NP (`` “) (NN 光棍) (SFN 节) ('' ”))))) (DEC 的))) (NP (NN 怪癖) (NN 节日)))) (VP (VV 堆积) (AS 了) (NP (QP (CD 一) (CLP (NNB 份))) (NP (NN 愿望) (NN 清单)))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 节日))) (VP (ADVP (RB 已经)) (VP (VRD (VV 发展) (VV 成)) (IP (IP (VP (VC 为) (NP (NNP 中国) (HYPH —) (HYPH —)))) (VP (ADVP (RB 也许)) (VP (VC 是) (NP (NP (DP (DT 全)) (NP (NN 世界))) (HYPH —) (HYPH —) (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 繁忙)))) (DEC 的))) (NP (NN 网上) (VV 购物) (SFN 日)))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP69837': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP53421': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+上海	师	nmod
+的	上海	case
+一	名	nummod
+名	师	nmod
+设计	师	compound
+师	堆积	nsubj
+雷	师	appos
+曙	雷	flat:name
+杰	师	appos
+为	节日	case
+这	个	det
+个	节日	clf
+被	称	aux:pass
+称	节日	acl:relcl
+为	称	mark
+“	节	punct
+光棍	节	compound
+节	称	obj
+”	节	punct
+的	称	mark:rel
+怪癖	节日	nmod
+节日	堆积	obl
+堆积	ROOT	root
+了	堆积	aux
+一	份	nummod
+份	清单	clf
+愿望	清单	nmod
+清单	堆积	obj
+，	发展	punct
+这	个	det
+个	节日	clf
+节日	发展	nsubj
+已经	发展	advmod
+发展	堆积	parataxis
+成	发展	mark
+为	成	mark
+中国	日	nmod
+—	中国	punct
+—	中国	punct
+也许	日	advmod
+是	日	cop
+全	世界	det
+世界	日	nmod
+—	世界	punct
+—	世界	punct
+最	繁忙	advmod
+繁忙	日	amod
+的	繁忙	mark:rel
+网上	日	nmod
+购物	日	compound
+日	成	ccomp
+。	堆积	punct
+----------------------------------------------------------------------
+购买衣服、枕头、柜子给朋友，蕾伊把购买推迟到周日，零售商承诺最高七折。“价格太诱人了，”她说。
+
+(ROOT (IP (IP (IP (VP (VV 购买) (NP (NN 衣服) (EC 、) (NN 枕头) (EC 、) (NN 柜子)) (PP (VV 给) (NP (NN 朋友))))) (, ，) (NP (NNP 蕾伊)) (VP (BB 把) (IP (NP (NN 购买)) (VP (VRD (VV 推迟) (VV 到)) (NP (NN 周日)))))) (, ，) (IP (NP (VV 零售) (SFN 商)) (VP (VV 承诺) (QP (ADJP (JJ 最高)) (QP (CD 七) (CLP (NNB 折)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP73558': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP79974': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+购买	给	advcl
+衣服	购买	obj
+、	枕头	punct
+枕头	衣服	conj
+、	柜子	punct
+柜子	衣服	conj
+给	ROOT	root
+朋友	给	obj
+，	推迟	punct
+蕾伊	推迟	nsubj
+把	购买	case
+购买	推迟	obl:patient
+推迟	给	parataxis
+到	推迟	mark
+周日	推迟	obj
+，	承诺	punct
+零售	商	compound
+商	承诺	nsubj
+承诺	给	parataxis
+最高	承诺	xcomp
+七	折	nummod
+折	最高	obl
+。	给	punct
+----------------------------------------------------------------------
+单身日起源于 20 世纪 90 年代的中国大学生，是一个针对没有恋爱伴侣的人的情人节版本。
+
+(ROOT (IP (NP (VV 单身) (SFN 日)) (VP (VP (VV 起源) (PP (VV 于) (NP (DNP (NP (NP (QP (CD 20)) (NP (NNB 世纪))) (QP (CD 90)) (NP (NNB 年代))) (DEC 的)) (NP (NNP 中国) (NN 大学) (SFN 生))))) (, ，) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (PP (VV 针对) (NP (CP (CP (IP (VP (VV 没有) (NP (NN 恋爱) (NN 伴侣)))) (DEC 的))) (NP (NN 人)))) (DEC 的)) (NP (NN 情人) (SFN 节) (NN 版本))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'VV': {}, 'SFN': {}}, 'VP': {'VP': {}, ',': {}, 'VP68314': {}}, '.': {}}}
+{'IP': {'NP': {'VV': {}, 'SFN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'VV': {}, 'SFN': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+单身	日	compound
+日	版本	nsubj
+起源	版本	acl
+于	起源	mark
+20	世纪	nummod
+世纪	年代	clf
+90	年代	nummod
+年代	生	nmod
+的	年代	mark:rel
+中国	生	nmod
+大学	生	compound
+生	起源	obj
+，	起源	punct
+是	版本	cop
+一	个	nummod
+个	版本	clf
+针对	人	acl:relcl
+有	针对	xcomp
+恋爱	伴侣	nmod
+伴侣	有	obj
+的	针对	mark:rel
+人	版本	acl:relcl
+的	针对	mark:rel
+情人	节	compound
+节	版本	nmod
+版本	ROOT	root
+。	版本	punct
+----------------------------------------------------------------------
+这个时间是根据日期来确定的：11月11日，也就是“11.11”——四个单身。
+
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 时间))) (VP (VC 是) (NP (CP (CP (IP (VP (PP (IN 根据) (NP (NN 日期))) (VP (RB 来) (VP (VV 确定))))) (UH 的)))))) (: ：) (IP (NP (CD 11) (NNB 月) (CD 11) (NNB 日)) (, ，) (VP (ADVP (RB 也)) (VP (VC 就是) (NP (QP (`` “) (CD 11.11) ('' ”)) (HYPH —) (HYPH —) (NP (QP (CD 四) (CLP (NNB 个))) (NP (NN 单身))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP99556': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP13454': {'NP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+这	个	det
+个	时间	clf
+时间	是	nsubj
+是	ROOT	root
+根据	日期	case
+日期	确定	obl
+来	确定	mark
+确定	是	xcomp
+的	是	discourse
+：	单身	punct
+11	月	nummod
+月	日	clf
+11	日	nummod
+日	单身	nsubj
+，	日	punct
+也	单身	mark
+是	单身	cop
+“	11.11	punct
+11.11	单身	nmod
+”	11.11	punct
+—	单身	punct
+—	单身	punct
+四	个	nummod
+个	单身	clf
+单身	是	parataxis
+。	是	punct
+----------------------------------------------------------------------
+未婚的年轻人会相互邀请吃饭，或送礼物来追求心仪的对象，结束自己的单身状态。
+
+(ROOT (IP (NP (CP (CP (IP (VP (VV 未婚))) (DEC 的))) (ADJP (JJ 年轻)) (NP (SFN 人))) (VP (MD 会) (VP (ADVP (RB 相互)) (VP (VV 邀请) (IP (VP (VP (VV 吃饭)) (, ，) (CC 或) (VP (VP (VV 送) (NP (NN 礼物))) (VP (RB 来) (VP (VV 追求) (NP (CP (CP (IP (NP (NN 心仪))) (DEC 的))) (NP (NN 对象)))))) (, ，) (VP (VV 结束) (NP (DNP (NP (PRD 自己)) (DEC 的)) (ADJP (NN 单身)) (NP (NN 状态))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+婚	人	acl:relcl
+的	婚	mark:rel
+年轻	人	compound
+人	结束	nsubj
+会	追求	aux
+相互	邀请	advmod
+邀请	追求	advcl
+吃饭	邀请	xcomp
+，	送	punct
+或	送	cc
+送	追求	advcl
+礼物	送	obj
+来	追求	mark
+追求	结束	advcl
+心仪	对象	nmod
+的	心仪	case
+对象	追求	obj
+，	追求	punct
+结束	ROOT	root
+自己	状态	det
+的	自己	case
+单身	状态	nmod
+状态	结束	obj
+。	结束	punct
+----------------------------------------------------------------------
+这种礼物的交换帮助将它变成了一个主要的购物活动，从珠宝到电视到汽车的卖家都看到了营销机会，并且发起了光棍节销售。
+
+(ROOT (IP (IP (NP (DNP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 礼物))) (DEC 的)) (NP (NN 交换) (NN 帮助))) (VP (BB 将) (IP (NP (PRP 它)) (VP (VV 变成) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (ADJP (JJ 主要)) (DEC 的)) (NP (NN 购物) (NN 活动))))))) (, ，) (IP (NP (DNP (PP (PP (PP (IN 从) (NP (NN 珠宝))) (PP (VV 到) (NP (NN 电视)))) (PP (VV 到) (NP (NN 汽车)))) (DEC 的)) (NP (NN 卖家))) (VP (VP (ADVP (RB 都)) (VP (VV 看到) (AS 了) (NP (NN 营销) (NN 机会)))) (, ，) (RB 并且) (VP (VV 发起) (AS 了) (NP (NN 光棍) (SFN 节) (NN 销售))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP94149': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP78479': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+这	种	det
+种	礼物	clf
+礼物	交换	nmod
+的	礼物	case
+交换	帮助	nmod
+帮助	变成	nsubj
+将	它	case
+它	变成	obl:patient
+变成	ROOT	root
+了	变成	aux
+一	个	nummod
+个	活动	clf
+主要	活动	amod
+的	主要	mark:rel
+购物	活动	nmod
+活动	变成	iobj
+，	发起	punct
+从	珠宝	case
+珠宝	到	obl
+到	卖家	acl:relcl
+电视	到	nsubj
+到	到	xcomp
+汽车	到	obj
+的	到	mark:rel
+卖家	发起	nsubj
+都	看到	mark
+看到	发起	advcl
+了	看到	aux
+营销	机会	nmod
+机会	看到	obj
+，	看到	punct
+并且	发起	mark
+发起	变成	parataxis
+了	发起	aux
+光棍	节	compound
+节	销售	nmod
+销售	发起	obj
+。	变成	punct
+----------------------------------------------------------------------
+这是中国对美国网购周一的回应，网购周一是感恩节周末后的第二天，网购圣诞礼品的消费者开始涌入，商家的销售量也最高。
+
+(ROOT (IP (IP (NP (PRD 这)) (VP (VC 是) (NP (DNP (NP (NP (NNP 中国)) (VP (PP (IN 对) (NP (NNP 美国))) (VP (NN 网购))) (NP (NN 周一))) (DEC 的)) (NP (NN 回应))))) (, ，) (IP (NP (NN 网购)) (VP (NP (NN 周一)) (VP (VC 是) (IP (IP (VP (VV 感) (QP (DNP (LCP (NP (NP (NNP 恩) (SFN 节)) (NP (NN 周末))) (IN 后)) (DEC 的)) (QP (CD 第二) (CLP (NNB 天)))))) (, ，) (NP (CP (CP (IP (VP (VV 网购) (NP (NNP 圣诞) (NN 礼品)))) (DEC 的))) (NP (VV 消费) (SFN 者))) (VP (VV 开始) (VP (VV 涌入))))))) (, ，) (IP (NP (DNP (NP (NN 商家)) (DEC 的)) (NP (VV 销售) (SFN 量))) (VP (ADVP (RB 也)) (VP (JJ 最高)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP46879': {}, ',12145': {}, 'IP28531': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP9781': {'NP': {}, 'VP': {}}, ',18945': {}, 'IP12252': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+这	回应	nsubj
+是	回应	cop
+中国	回应	nmod
+对	周一	case
+美国	周一	nmod
+网购	周一	nmod
+周一	回应	nmod
+的	周一	mark:rel
+回应	ROOT	root
+，	天	punct
+网购	周一	nmod
+周一	天	nsubj
+是	天	cop
+感	天	acl:relcl
+恩	节	compound
+节	周末	nmod
+周末	感	obj
+后	感	mark
+的	感	mark:rel
+第二	天	nummod
+天	回应	parataxis
+，	开始	punct
+网购	者	acl:relcl
+圣诞	礼品	nmod
+礼品	网购	obj
+的	网购	mark:rel
+消费	者	compound
+者	开始	nsubj
+开始	回应	parataxis
+涌入	开始	xcomp
+，	最高	punct
+商家	量	nmod
+的	商家	case
+销售	量	compound
+量	最高	nsubj
+也	最高	mark
+最高	回应	parataxis
+。	回应	punct
+----------------------------------------------------------------------
+快递公司从阿里巴巴集团（中国最大电子商务平台运营商）到 360buy Ltd.（中国最大的电子商务平台竞争对手），再到家庭小企业（在线销售和配送服务），都纷纷加班加点，忙着把这个节日变成赚钱的机会。
+
+(ROOT (IP (IP (NP (NN 快递) (NN 公司)) (PP (PP (IN 从) (NP (NP (NNP 阿里) (NNP 巴巴) (NN 集团)) (PRN (-LRB- （) (NP (NP (NP (NNP 中国)) (ADJP (JJ 最大)) (NP (NN 电子) (NN 商务) (NN 平台))) (NP (VV 运营) (SFN 商))) (-RRB- ）)))) (PP (VV 到) (NP (FW 360buy) (FW Ltd.) (PRN (-LRB- （) (NP (NP (CP (CP (IP (VP (NP (NNP 中国)) (VP (JJ 最大)))) (DEC 的))) (NP (NN 电子) (NN 商务) (NN 平台))) (NP (NN 竞争) (NN 对手))) (-RRB- ）)))))) (, ，) (IP (IP (VP (VV 再到) (NP (NP (NN 家庭)) (ADJP (PFA 小)) (NP (NN 企业)) (PRN (-LRB- （) (IP (VP (PP (VV 在) (NP (NN 线))) (VP (VP (NN 销售)) (CC 和) (VP (NN 配送) (NP (NN 服务)))))) (-RRB- ）))))) (, ，) (VP (VP (ADVP (RB 都)) (ADVP (RB 纷纷)) (VP (VV 加班加) (NP (SFN 点)))) (, ，) (VP (VV 忙) (AS 着) (IP (VP (BB 把) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 节日))) (VP (VV 变成) (NP (CP (IP (VP (VV 赚钱))) (DEC 的)) (NP (NN 机会)))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP98540': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'PP': {}}, ',': {}, 'IP36867': {'IP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'PP': {}}, ',': {}, 'IP': {'IP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'PP': {}}}
+{'IP': {'IP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+快递	公司	nmod
+公司	忙	nsubj
+从	商	case
+阿里	集团	nmod
+巴巴	集团	nmod
+集团	商	nmod
+（	商	punct
+中国	商	nmod
+最大	商	amod
+电子	商	nmod
+商务	商	nmod
+平台	商	nmod
+运营	商	compound
+商	到	obl
+）	商	punct
+到	忙	advcl
+360buy	到	obj
+Ltd.	360buy	flat:foreign
+（	对手	punct
+中国	最大	obl
+最大	对手	amod
+的	最大	mark:rel
+电子	对手	nmod
+商务	对手	nmod
+平台	对手	nmod
+竞争	对手	nmod
+对手	360buy	appos
+）	对手	punct
+，	到	punct
+再到	忙	advcl
+家庭	企业	nmod
+小	企业	case
+企业	在	nsubj
+（	在	punct
+在	再到	ccomp
+线	销售	nmod
+销售	在	obj
+和	服务	cc
+配送	服务	nmod
+服务	销售	conj
+）	在	punct
+，	再到	punct
+都	忙	mark
+纷纷	加班加	advmod
+加班加	点	compound
+点	忙	advcl
+，	点	punct
+忙	ROOT	root
+着	忙	aux
+把	节日	case
+这	个	det
+个	节日	clf
+节日	变成	obl:patient
+变成	忙	xcomp
+赚钱	机会	acl:relcl
+的	赚钱	mark:rel
+机会	变成	iobj
+。	忙	punct
+----------------------------------------------------------------------
+在销售开始之前，tmall.com 副总裁兼网站运营总监史蒂夫·汪在电话采访中表示：“这对我们来说非常、非常大。”
+
+(ROOT (IP (PP (IN 在) (LCP (IP (NP (VV 销售)) (VP (VV 开始))) (IN 之前))) (, ，) (NP (NP (NP (FW tmall.com)) (NP (NP (ADJP (PFA 副)) (NP (NN 总裁))) (CC 兼) (NP (NN 网站) (NN 运营) (NN 总监)))) (NP (NNP 史蒂夫) (/ ·) (NNP 汪))) (VP (PP (IN 在) (LCP (NP (NN 电话) (NN 采访)) (IN 中))) (VP (VV 表示) (: ：) (IP (`` “) (NP (PRD 这)) (VP (IP (VP (PP (IN 对) (NP (PRP 我们))) (VP (RB 来) (VP (VV 说))))) (VP (ADVP (RB 非常)) (EC 、) (ADVP (RB 非常)) (VP (JJ 大))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'NP8293': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+在	开始	case
+销售	开始	advcl
+开始	表示	ccomp
+之前	开始	mark
+，	开始	punct
+tmall.com	总裁	nmod
+副	总裁	case
+总裁	表示	nsubj
+兼	总监	cc
+网站	总监	nmod
+运营	总监	nmod
+总监	总裁	conj
+史蒂夫	总裁	appos
+·	汪	punct
+汪	史蒂夫	flat:name
+在	采访	case
+电话	采访	nmod
+采访	表示	obl
+中	采访	case
+表示	ROOT	root
+：	说	punct
+“	说	punct
+这	说	nsubj
+对	我	case
+我	说	obl
+来	说	mark
+说	表示	ccomp
+非常	大	advmod
+、	大	punct
+非常	大	advmod
+大	说	xcomp
+。	说	punct
+”	说	punct
+----------------------------------------------------------------------
+阿里巴巴面向消费者的 Taobao 和 Tmall.com 平台有 50,000 多家商家，从周六午夜到周日午夜，这些商家共计实现 191 亿元人民币（30 亿美元）的销售额，该公司周一早些时候宣布。
+
+(ROOT (IP (IP (NP (CP (CP (IP (NP (NNP 阿里巴巴)) (VP (VV 面向) (NP (VV 消费) (SFN 者)))) (DEC 的))) (NP (FW Taobao) (FW 和 Tmall.com)) (NP (NN 平台))) (VP (VV 有) (NP (QP (CD 50,000)) (CLP (CD 多家)) (NP (NN 商) (SFN 家))))) (, ，) (IP (NP (NP (IN 从周) (CD 六午) (NN 夜)) (CC 到) (NN 周日) (NN 午) (SFN 夜)) (, ，) (NP (DP (DT 这些)) (NP (NN 商家))) (VP (ADVP (RB 共计)) (VP (VV 实现) (NP (DNP (NP (QP (CD 191) (QP (CD 亿) (CLP (NNB 元)))) (NP (NN 人民) (SFN 币)) (PRN (-LRB- （) (QP (CD 30) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元))))) (-RRB- ）))) (DEC 的)) (NP (VV 销售) (SFN 额)))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 公司))) (VP (NP (NP (NNP 周) (CD 一)) (ADJP (JJ 早些)) (NP (NN 时候))) (VP (VV 宣布)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP22420': {}, ',39851': {}, 'IP92724': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP99132': {'NP': {}, ',': {}, 'NP68718': {}, 'VP': {}}, ',65448': {}, 'IP17557': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+阿里巴巴	面向	nsubj
+面向	Taobao	acl:relcl
+消费	者	compound
+者	面向	obj
+的	面向	mark:rel
+Taobao	有	nsubj
+和 Tmall.com	Taobao	flat:foreign
+平台	Taobao	appos
+有	ROOT	root
+50,000	家	nummod
+多家	家	nmod
+商	家	compound
+家	有	obj
+，	实现	punct
+从周	夜	case
+六午	夜	nmod
+夜	实现	obl
+到	夜	cc
+周日	夜	nmod
+午	夜	compound
+夜	夜	conj
+，	夜	punct
+这些	商家	det
+商家	实现	nsubj
+共计	实现	advmod
+实现	有	parataxis
+191	元	nummod
+亿	元	nummod
+元	币	nmod
+人民	币	compound
+币	额	nmod
+（	元	punct
+30	元	nummod
+亿	元	nummod
+美	元	nmod
+元	币	appos
+）	元	punct
+的	币	case
+销售	额	compound
+额	实现	obj
+，	宣布	punct
+该	公司	det
+公司	宣布	nsubj
+周	时候	nmod
+一	时候	nummod
+早些	时候	amod
+时候	宣布	obl
+宣布	有	parataxis
+。	有	punct
+----------------------------------------------------------------------
+这将超过 comScore 研究公司去年 Cyber Monday 美国网上零售商销售额总额 12.5 亿美元，并可能使单身日成为有史以来最大的电子商务销售日。
+
+(ROOT (IP (NP (PRD 这)) (VP (VP (ADVP (RB 将)) (VP (VV 超过) (NP (NP (NP (FW com) (FW Score)) (NP (NN 研究) (NN 公司))) (NP (NN 去年)) (NP (FW Cyber) (FW Monday)) (NP (NNP 美国)) (NP (NN 网上) (VV 零售) (SFN 商) (VV 销售) (SFN 额) (NN 总额))) (QP (CD 12.5) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元))))))) (, ，) (RB 并) (VP (MD 可能) (VP (VV 使) (NP (NP (QP (CD 单)) (NP (NN 身))) (NP (NNP 日))) (IP (VP (VV 成) (VP (VC 为) (NP (CP (CP (IP (VP (LCP (NP (NN 有史)) (IN 以来)) (VP (JJ 最大)))) (DEC 的))) (NP (NN 电子) (NN 商务) (VV 销售) (SFN 日))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP56537': {}}, '.': {}}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+这	超过	nsubj
+将	超过	advmod
+超过	ROOT	root
+com	超过	obj
+Score	com	flat:foreign
+研究	公司	nmod
+公司	超过	obj
+去年	使	nmod:tmod
+Cyber	公司	appos
+Monday	Cyber	flat:foreign
+美国	总额	nmod
+网上	总额	nmod
+零售	商	compound
+商	总额	nmod
+销售	额	compound
+额	总额	nmod
+总额	使	nsubj
+12.5	元	nummod
+亿	元	nummod
+美	元	nmod
+元	总额	acl
+，	总额	punct
+并	使	mark
+可能	使	aux
+使	超过	ccomp
+单	身	nummod
+身	日	nmod
+日	成	nsubj
+成	使	ccomp
+为	成	mark
+有史	日	nmod
+以来	有史	case
+最大	日	amod
+的	最大	mark:rel
+电子	日	nmod
+商务	日	nmod
+销售	日	compound
+日	成	obj
+。	超过	punct
+----------------------------------------------------------------------
+这一花销狂欢将是中国共产党领导人欢迎的消息，他们希望将世界第二大经济体的增长基础从贸易和投资转移到消费支出和服务业。
+
+(ROOT (IP (IP (NP (DP (DT 这) (QP (CD 一))) (NP (VV 花销) (SFN 狂) (SFN 欢))) (VP (ADVP (RB 将)) (VP (VC 是) (NP (CP (CP (IP (NP (NP (NNP 中国) (VV 共产) (SFN 党)) (NP (VV 领导) (SFN 人))) (VP (VV 欢迎))) (DEC 的))) (NP (NN 消息)))))) (, ，) (IP (NP (PRP 他们)) (VP (VV 希望) (IP (VP (BB 将) (IP (NP (DNP (NP (NP (NN 世界)) (QP (CD 第二)) (ADJP (PFA 大)) (NP (NN 经济) (SFN 体))) (DEC 的)) (NP (NN 增长) (NN 基础))) (VP (PP (IN 从) (NP (NN 贸易) (CC 和) (NN 投资))) (VP (VRD (VV 转移) (VV 到)) (NP (NN 消费) (NN 支出) (CC 和) (VV 服务) (SFN 业))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP97128': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP19052': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+这	一	det
+一	欢	nummod
+花销	狂	compound
+狂	欢	compound
+欢	消息	nsubj
+将	消息	advmod
+是	消息	cop
+中国	人	nmod
+共产	党	compound
+党	人	nmod
+领导	人	compound
+人	欢迎	nsubj
+欢迎	消息	acl:relcl
+的	欢迎	mark:rel
+消息	ROOT	root
+，	希望	punct
+他	希望	nsubj
+希望	消息	parataxis
+将	基础	case
+世界	体	nmod
+第二	体	nummod
+大	体	case
+经济	体	compound
+体	基础	nmod
+的	体	case
+增长	基础	nmod
+基础	转移	obl:patient
+从	贸易	case
+贸易	转移	obl
+和	投资	cc
+投资	贸易	conj
+转移	希望	xcomp
+到	转移	mark
+消费	支出	nmod
+支出	转移	obj
+和	业	cc
+服务	业	compound
+业	支出	conj
+。	消息	punct
+----------------------------------------------------------------------
+全球对中国出口的需求不振，加剧了增加国内消费的紧迫性。
+
+(ROOT (IP (IP (NP (DNP (NP (NP (NN 全球)) (PP (IN 对) (NP (NNP 中国))) (NP (NN 出口))) (DEC 的)) (NP (NN 需求))) (VP (JJ 不振))) (, ，) (IP (VP (VV 加剧) (AS 了) (NP (CP (IP (VP (VV 增加) (NP (NN 国内) (VV 消费)))) (DEC 的)) (NP (VV 紧迫) (SFN 性))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP63992': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP61480': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+全球	需求	nmod
+对	需求	case
+中国	出口	nmod
+出口	需求	nmod
+的	需求	case
+需求	不振	nsubj
+不振	加剧	csubj
+，	不振	punct
+加剧	ROOT	root
+了	加剧	aux
+增加	性	acl:relcl
+国内	消费	nsubj
+消费	增加	ccomp
+的	增加	mark:rel
+紧迫	性	compound
+性	加剧	obj
+。	加剧	punct
+----------------------------------------------------------------------
+中国拥有世界上最大的互联网用户群体，有 5.38 亿人在网上。
+
+(ROOT (IP (NP (NNP 中国)) (VP (VP (VV 拥有) (NP (CP (CP (IP (VP (LCP (NP (NN 世界)) (IN 上)) (VP (JJ 最大)))) (DEC 的))) (NP (VV 互联) (SFN 网) (NN 用户) (NN 群体)))) (, ，) (VP (VV 有) (IP (NP (QP (CD 5.38) (QP (CD 亿))) (NP (NN 人))) (VP (PP (VV 在) (NP (NN 网上))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP95624': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+中国	有	nsubj
+拥有	有	advcl
+世界	最大	obl
+上	世界	case
+最大	群体	acl:relcl
+的	最大	mark:rel
+互联	网	compound
+网	群体	nmod
+用户	群体	nmod
+群体	拥有	obj
+，	拥有	punct
+有	ROOT	root
+5.38	人	nummod
+亿	人	nummod
+人	在	nsubj
+在	有	ccomp
+网上	在	obj
+。	有	punct
+----------------------------------------------------------------------
+据波士顿咨询公司 (Boston Consulting Group) 称，中国的网购人口也是最多的，为 1.93 亿人，美国为 1.7 亿人。
+
+(ROOT (IP (IP (PP (IN 据) (IP (NP (NP (NNP 波士顿) (NN 咨询) (NN 公司)) (NP (FW -LRB-Boston) (FW Consulting) (FW Group-RRB-))) (VP (VV 称)))) (, ，) (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NN 网购) (NN 人口))) (VP (VP (VC 也是) (NP (CP (CP (IP (VP (JJ 最多))) (UH 的))))) (, ，) (VP (VC 为) (NP (QP (CD 1.93) (QP (CD 亿))) (NP (NN 人)))))) (, ，) (IP (NP (NNP 美国)) (VP (VC 为) (NP (QP (CD 1.7) (QP (CD 亿))) (NP (NN 人))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP27301': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP12542': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+据	称	case
+波士顿	公司	nmod
+咨询	公司	nmod
+公司	称	nsubj
+(Boston	公司	appos
+Consulting	(Boston	flat:foreign
+Group)	(Boston	flat:foreign
+称	人	ccomp
+，	称	punct
+中国	人口	nmod
+的	中国	case
+网购	人口	nmod
+人口	人	nsubj
+是	最多	cop
+最多	人	acl
+的	最多	discourse
+，	最多	punct
+为	人	cop
+1.93	人	nummod
+亿	人	nummod
+人	ROOT	root
+，	人	punct
+美国	人	nsubj
+为	人	cop
+1.7	亿	nummod
+亿	人	nummod
+人	人	parataxis
+。	人	punct
+----------------------------------------------------------------------
+它在网上花销方面落后于美国和日本，但尽管平均收入不到美国的十分之一，但预计将在 2015 年就升至第一位。
+
+(ROOT (IP (IP (NP (PRP 它)) (VP (PP (IN 在) (NP (NN 网上) (NN 花销) (NN 方面))) (VP (VV 落后) (PP (VV 于) (NP (NNP 美国) (CC 和) (NNP 日本)))))) (, ，) (IP (ADVP (RB 但)) (CP (ADVP (IN 尽管)) (IP (NP (ADJP (JJ 平均)) (NP (NN 收入))) (VP (VV 不到) (QP (DNP (QP (DNP (NP (NNP 美国)) (DEC 的)) (QP (JJ 十分))) (DEC 之)) (QP (CD 一)))))) (, ，) (ADVP (RB 但)) (VP (VV 预计) (IP (VP (ADVP (RB 将)) (PP (IN 在) (LCP (NP (CD 2015)) (NNB 年就))) (VP (VRD (VV 升) (VV 至)) (QP (CD 第一) (CLP (NN 位)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP1984': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP38399': {'ADVP': {}, 'CP': {}, ',': {}, 'ADVP24056': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'CP': {}, ',': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+它	落后	nsubj
+在	方面	case
+网上	方面	nmod
+花销	方面	nmod
+方面	落后	obl
+落后	ROOT	root
+于	落后	mark
+美国	落后	obj
+和	日本	cc
+日本	美国	conj
+，	预计	punct
+但	预计	mark
+尽管	到	case
+平均	收入	amod
+收入	到	nsubj
+到	预计	ccomp
+美国	十分	obl
+的	美国	case
+十分	一	amod
+之	十分	mark:rel
+一	到	obj
+，	到	punct
+但	预计	mark
+预计	落后	parataxis
+将	升	advmod
+在	年就	case
+2015	年就	nummod
+年就	升	obl
+升	预计	xcomp
+至	升	mark
+第一	位	nummod
+位	升	obj
+。	落后	punct
+----------------------------------------------------------------------
+中国共产党最新的五年发展计划要求，到 2015 年将年度电子商务额从 2010 年的水平四倍以上增长，达到 18 万亿元（2.9 万亿美元）。
+
+(ROOT (IP (NP (NP (NNP 中国) (VV 共产) (SFN 党)) (CP (CP (IP (VP (JJ 最新))) (DEC 的))) (QP (CD 五) (CLP (NNB 年))) (NP (NN 发展) (NN 计划))) (VP (NN 要求) (, ，) (VP (PP (IN 到) (NP (CD 2015))) (NNB 年将) (NP (NP (NN 年度)) (NP (NN 电子) (NN 商务) (SFN 额))) (VP (PP (IN 从) (IP (NP (NP (CD 2010) (NNB 年的)) (NP (NN 水平))) (VP (LCP (QP (CD 四) (CLP (NNB 倍))) (IN 以上)) (VP (VV 增长))))) (, ，) (VP (VV 达到) (QP (QP (CD 18)) (QP (CD 万亿) (CLP (NNB 元))) (PRN (-LRB- （) (QP (QP (CD 2.9)) (QP (CD 万亿) (CLP (NNP 美) (CLP (NNB 元))))) (-RRB- ）))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'CP': {}, 'QP': {}, 'NP87246': {}}, 'VP': {'NN': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'CP': {}, 'QP': {}, 'NP': {}}, 'VP': {'NN': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'CP': {}, 'QP': {}, 'NP': {}}}
+{'VP': {'NN': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+中国	党	nmod
+共产	党	compound
+党	要求	nmod
+最新	要求	amod
+的	最新	mark:rel
+五	年	nummod
+年	要求	clf
+发展	要求	nmod
+计划	要求	nmod
+要求	达到	obl
+，	要求	punct
+到	额	case
+2015	年将	nummod
+年将	额	nmod
+年度	额	nmod
+电子	额	nmod
+商务	额	compound
+额	增长	obl
+从	倍	case
+2010	年的	nummod
+年的	水平	clf
+水平	倍	nmod
+四	倍	nummod
+倍	增长	obl
+以上	倍	case
+增长	达到	advcl
+，	增长	punct
+达到	ROOT	root
+18	元	nummod
+万亿	元	nummod
+元	达到	obj
+（	元	punct
+2.9	元	nummod
+万亿	元	nummod
+美	元	nmod
+元	元	appos
+）	元	punct
+。	达到	punct
+----------------------------------------------------------------------
+党试图阻止访问被认为是颠覆性或色情的网上材料，但它宣传网络用于商业和教育。
+
+(ROOT (IP (IP (NP (NN 党)) (VP (VV 试图) (IP (VP (VV 阻止) (NP (VV 访问)) (IP (VP (BB 被) (VP (VCP (VV 认为) (VC 是)) (NP (DNP (NP (VV 颠覆) (SFN 性) (CC 或) (NN 色情)) (DEC 的)) (NP (NN 网上) (NN 材料)))))))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 它)) (NP (NN 宣传) (NN 网络)) (VP (VV 用) (PP (VV 于) (NP (NN 商业) (CC 和) (NN 教育))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP78609': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP14573': {'ADVP': {}, 'NP': {}, 'NP30914': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+党	试图	nsubj
+试图	ROOT	root
+阻止	试图	xcomp
+访问	为	xcomp
+被	为	aux:pass
+为	材料	acl:relcl
+是	材料	cop
+颠覆	性	compound
+性	为	obj
+或	色情	cc
+色情	性	conj
+的	为	mark:rel
+网上	材料	nmod
+材料	阻止	obj
+，	用	punct
+但	用	mark
+它	网络	nmod
+宣传	网络	nmod
+网络	用	nsubj
+用	试图	parataxis
+于	用	mark
+商业	用	obj
+和	教育	cc
+教育	商业	conj
+。	试图	punct
+----------------------------------------------------------------------
+“今天的中国互联网就像西方二三十年代的电视一样，消费者聚集的地方，企业需要把自己的位置放在那里，”波士顿咨询公司在四月份的一份报告中说。
+
+(ROOT (IP (IP (`` “) (IP (NP (DNP (NP (NN 今天)) (DEC 的)) (NP (NNP 中国) (VV 互联) (SFN 网))) (VP (ADVP (RB 就)) (PP (IN 像) (NP (NP (NNP 西方)) (DNP (NP (QP (CD 二三十)) (NP (NNB 年代))) (DEC 的)) (NP (NN 电视)))) (VP (JJ 一样)))) (, ，) (IP (NP (CP (CP (IP (NP (VV 消费) (SFN 者)) (VP (VV 聚集))) (DEC 的))) (NP (NN 地方))) (, ，) (NP (NN 企业)) (VP (MD 需要) (VP (BB 把) (IP (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 位置))) (VP (VV 放) (PP (VV 在) (NP (PRD 那里))))))))) (, ，) ('' ”) (IP (NP (NNP 波士顿) (NN 咨询) (NN 公司)) (VP (PP (IN 在) (LCP (NP (DNP (NP (NP (QP (CD 四)) (NP (NNB 月))) (NP (NNB 份))) (DEC 的)) (QP (CD 一) (CLP (NNB 份))) (NP (NN 报告))) (IN 中))) (VP (VV 说)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP29766': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'IP54420': {}}, ',': {}, "''": {}, 'IP12140': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}}, ',': {}, "''": {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+“	网	punct
+今天	网	nmod
+的	今天	case
+中国	网	nmod
+互联	网	compound
+网	一样	nsubj
+就	一样	mark
+像	电视	case
+西方	年代	nmod
+二三十	年代	nummod
+年代	电视	nmod
+的	年代	mark:rel
+电视	一样	nmod
+一样	放	advcl
+，	一样	punct
+消费	者	compound
+者	聚集	nsubj
+聚集	地方	acl:relcl
+的	聚集	mark:rel
+地方	放	obj
+，	地方	punct
+企业	放	nsubj
+需要	放	aux
+把	位置	case
+自己	位置	det
+的	自己	case
+位置	放	obl:patient
+放	ROOT	root
+在	放	mark
+那里	放	obj
+，	说	punct
+”	说	punct
+波士顿	公司	nmod
+咨询	公司	nmod
+公司	说	nsubj
+在	报告	case
+四	月	nummod
+月	份	clf
+份	报告	nmod
+的	份	case
+一	份	nummod
+份	报告	clf
+报告	说	obl
+中	报告	case
+说	放	parataxis
+。	放	punct
+----------------------------------------------------------------------
+阿里巴巴由前英语教师杰克·马创立，通过将中国供应商与西方制造商和零售商联系起来，成长为全球最大的电子商务企业之一。
+
+(ROOT (IP (NP (NNP 阿里巴巴)) (VP (VP (PP (VV 由) (NP (NP (ADJP (PFA 前)) (NP (NNP 英) (SFN 语) (NN 教师))) (NP (NNP 杰克) (/ ·) (NNP 马)))) (VP (VV 创立))) (, ，) (VP (PP (IN 通过) (IP (VP (BB 将) (IP (NP (NP (NNP 中国) (VV 供应) (SFN 商)) (CC 与) (NP (NNP 西方) (VV 制造) (SFN 商) (CC 和) (VV 零售) (SFN 商))) (VP (VRD (VV 联系) (VV 起来))))))) (, ，) (VP (VRD (VV 成长) (VC 为)) (NP (DNP (NP (CP (CP (IP (VP (NP (NN 全球)) (VP (JJ 最大)))) (DEC 的))) (NP (NN 电子) (NN 商务) (NN 企业))) (DEC 之)) (NP (CD 一)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP65849': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+阿里巴巴	成长	nsubj
+由	成长	advcl
+前	教师	case
+英	语	compound
+语	教师	nmod
+教师	创立	nsubj
+杰克	教师	appos
+·	马	punct
+马	杰克	flat:name
+创立	由	ccomp
+，	由	punct
+通过	商	case
+将	商	case
+中国	商	nmod
+供应	商	compound
+商	联系	obl:patient
+与	商	cc
+西方	商	nmod
+制造	商	compound
+商	商	conj
+和	商	cc
+零售	商	compound
+商	商	conj
+联系	成长	advcl
+起来	联系	mark
+，	联系	punct
+成长	ROOT	root
+为	成长	mark
+全球	企业	nmod
+最大	企业	amod
+的	最大	mark:rel
+电子	企业	nmod
+商务	企业	nmod
+企业	一	nmod
+之	企业	case
+一	成长	obj
+。	成长	punct
+----------------------------------------------------------------------
+2003 年，阿里启动了淘宝，并开始进军消费者销售领域，运营 Tmall.com。
+
+(ROOT (IP (NP (CD 2003) (NNB 年)) (, ，) (NP (NNP 阿里)) (VP (VP (VV 启动) (AS 了) (NP (NN 淘宝))) (, ，) (RB 并) (VP (VV 开始) (VP (VP (VV 进军) (NP (VV 消费) (SFN 者) (NN 销售) (NN 领域))) (, ，) (VP (VV 运营) (NP (FW Tmall.com)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP20157': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP57579': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP29301': {}}, '.': {}}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+2003	年	nummod
+年	启动	nmod:tmod
+，	年	punct
+阿里	运营	nsubj
+启动	运营	advcl
+了	启动	aux
+淘宝	启动	obj
+，	启动	punct
+并	开始	mark
+开始	运营	advcl
+进军	开始	xcomp
+消费	者	compound
+者	领域	nmod
+销售	领域	nmod
+领域	进军	obj
+，	开始	punct
+运营	ROOT	root
+Tmall.com	运营	obj
+。	运营	punct
+----------------------------------------------------------------------
+阿里巴巴还经营着中国最大的在线支付系统支付宝。
+
+(ROOT (IP (NP (NNP 阿里巴巴)) (VP (ADVP (RB 还)) (VP (VV 经营) (AS 着) (NP (CP (CP (IP (VP (NP (NNP 中国)) (VP (JJ 最大)))) (DEC 的))) (NP (VV 在) (SFN 线) (NN 支付) (NN 系统) (VV 支付) (SFN 宝))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+阿里巴巴	经营	nsubj
+还	经营	mark
+经营	ROOT	root
+着	经营	aux
+中国	宝	nmod
+最大	宝	amod
+的	最大	mark:rel
+在	线	compound
+线	宝	nmod
+支付	宝	nmod
+系统	宝	nmod
+支付	宝	compound
+宝	经营	obj
+。	经营	punct
+----------------------------------------------------------------------
+据北京一家研究公司Analysys International称，在9月之前的三个月里，天猫网站在中国的企业对消费者网上销售额占到了45.1%，360buy位居第二，占到了17.4%。
+
+(ROOT (IP (PP (IN 据) (IP (NP (NP (NP (NNP 北京)) (QP (CD 一) (CLP (NNB 家))) (NP (NN 研究) (NN 公司))) (NP (FW Analysys) (FW International))) (VP (VV 称)))) (, ，) (LCP (NP (DNP (PP (IN 在) (LCP (NP (CD 9) (NNB 月)) (IN 之前))) (DEC 的)) (QP (CD 三) (CLP (NNB 个))) (NP (NN 月))) (IN 里)) (, ，) (IP (NP (NP (NP (NNP 天猫) (NN 网站)) (DNP (PP (VV 在) (NP (NNP 中国))) (DEC 的)) (NP (NN 企业))) (VP (PP (IN 对) (NP (NP (VV 消费) (SFN 者)) (NP (NN 网上) (VV 销售) (SFN 额)))) (VP (VV 占到) (AS 了) (QP (CD 45.1%))))) (, ，) (IP (NP (FW 360buy)) (VP (VP (VV 位居) (QP (CD 第二))) (, ，) (VP (VV 占到) (AS 了) (QP (CD 17.4%)))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'LCP': {}, ',11004': {}, 'IP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'LCP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'LCP': {'NP': {}, 'IN': {}}, ',24686': {}, 'IP': {'NP': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'IP': {'NP': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+据	称	case
+北京	公司	nmod
+一	家	nummod
+家	公司	clf
+研究	公司	nmod
+公司	称	nsubj
+Analysys	公司	appos
+International	Analysys	flat:foreign
+称	ROOT	root
+，	占到	punct
+在	月	case
+9	月	nummod
+月	月	nmod
+之前	月	case
+的	月	case
+三	个	nummod
+个	月	clf
+月	占到	obl
+里	月	case
+，	月	punct
+天猫	网站	nmod
+网站	在	nsubj
+在	企业	acl:relcl
+中国	在	obj
+的	在	mark:rel
+企业	占到	nsubj
+对	额	case
+消费	者	compound
+者	额	nmod
+网上	额	nmod
+销售	额	compound
+额	占到	obl
+占到	称	ccomp
+了	占到	aux
+45.1%	占到	obj
+，	占到	punct
+360buy	占到	nsubj
+位居	占到	advcl
+第二	位居	obj
+，	位居	punct
+占到	称	parataxis
+了	占到	aux
+17.4%	占到	obj
+。	称	punct
+----------------------------------------------------------------------
+波士顿咨询公司称，2010 年，通过淘宝销售的商品比中国前五家实体零售商的总和还多，每分钟约有 48,000 件商品销售一次。
+
+(ROOT (IP (NP (NNP 波士顿) (NN 咨询) (NN 公司)) (VP (VV 称) (, ，) (IP (IP (NP (CD 2010) (NNB 年)) (, ，) (NP (CP (CP (IP (VP (PP (VV 通过) (NP (NN 淘宝))) (VP (VV 销售)))) (DEC 的))) (NP (NN 商品))) (VP (PP (IN 比) (NP (DNP (NP (NP (NNP 中国)) (DP (DT 前) (QP (CD 五) (CLP (NNB 家)))) (NP (NN 实体) (VV 零售) (SFN 商))) (DEC 的)) (NP (NN 总和)))) (ADVP (RB 还)) (VP (JJ 多)))) (, ，) (IP (DP (DT 每) (CLP (NNB 分钟))) (VP (ADVP (RB 约)) (VP (VV 有) (IP (NP (QP (CD 48,000)) (NP (NNB 件商品))) (VP (VV 销售) (QP (CD 一) (CLP (NNB 次)))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, 'NN': {}, 'NN33998': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NNP': {}, 'NN': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}, 'NN': {}, 'NN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+波士顿	公司	nmod
+咨询	公司	nmod
+公司	称	nsubj
+称	ROOT	root
+，	有	punct
+2010	年	nummod
+年	多	nmod:tmod
+，	年	punct
+通过	销售	advcl
+淘宝	销售	nsubj
+销售	商品	acl:relcl
+的	销售	mark:rel
+商品	多	nsubj
+比	总和	case
+中国	商	nmod
+前	家	det
+五	家	nummod
+家	商	nmod
+实体	商	nmod
+零售	商	compound
+商	总和	nmod
+的	商	case
+总和	多	nmod
+还	多	mark
+多	有	advcl
+，	有	punct
+每	分钟	det
+分钟	有	nsubj
+约	有	advmod
+有	称	ccomp
+48,000	件商品	nummod
+件商品	销售	nsubj
+销售	有	ccomp
+一	次	nummod
+次	销售	obl
+。	称	punct
+----------------------------------------------------------------------
+北京一家技术咨询公司 Marbridge Consulting 的董事总经理 Mark Natkin 表示：“阿里巴巴拥有如此多的资产，他们可以集成，这让我们很难与他们竞争。”
+
+(ROOT (IP (NP (NP (DNP (NP (NP (NP (NNP 北京)) (QP (CD 一) (CLP (NNB 家))) (NP (NN 技术) (NN 咨询) (NN 公司))) (NP (FW Marbridge) (FW Consulting))) (DEC 的)) (NP (NN 董事)) (ADJP (PFA 总)) (NP (NN 经理))) (NP (FW Mark) (FW Natkin))) (VP (VV 表示) (: ：) (IP (`` “) (NP (NNP 阿里) (NNP 巴巴)) (VP (VV 拥有) (NP (CP (CP (IP (VP (ADVP (VV 如此)) (VP (JJ 多)))) (DEC 的))) (NP (NN 资产)))) (, ，) (IP (NP (PRP 他们)) (VP (MD 可以) (VP (VV 集成)))) (, ，) (IP (NP (PRD 这)) (VP (VV 让) (NP (PRP 我们)) (IP (VP (ADVP (RB 很难)) (PP (IN 与) (NP (PRP 他们))) (VP (VV 竞争)))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP84657': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+北京	公司	nmod
+一	家	nummod
+家	公司	clf
+技术	公司	nmod
+咨询	公司	nmod
+公司	经理	nmod
+Marbridge	公司	appos
+Consulting	Marbridge	flat:foreign
+的	Marbridge	case
+董事	经理	nmod
+总	经理	case
+经理	表示	nsubj
+Mark	经理	appos
+Natkin	Mark	flat:foreign
+表示	ROOT	root
+：	让	punct
+“	让	punct
+阿里	巴巴	nmod
+巴巴	拥有	nsubj
+拥有	集成	advcl
+如此	多	advcl
+多	资产	amod
+的	多	mark:rel
+资产	拥有	obj
+，	拥有	punct
+他	集成	nsubj
+可以	集成	aux
+集成	让	advcl
+，	集成	punct
+这	让	nsubj
+让	表示	ccomp
+我	竞争	nsubj
+很难	竞争	advmod
+与	他	case
+他	竞争	obl
+竞争	让	ccomp
+。	让	punct
+”	让	punct
+----------------------------------------------------------------------
+其他竞争对手包括服装零售商 Vancl.com、图书零售商 Dangdang.com、亚马逊与中国合作伙伴的合资企业，以及已经扩展线上业务的传统零售商如消费电子连锁店 Suning Ltd.
+
+(ROOT (IP (NP (DP (DT 其他)) (NP (NN 竞争) (NN 对手))) (VP (VV 包括) (NP (NP (DNP (NP (NP (NP (NN 服装) (VV 零售) (SFN 商)) (NP (FW Vancl.com))) (EC 、) (NP (NP (NN 图书) (VV 零售) (SFN 商)) (NP (FW Dangdang.com))) (EC 、) (NP (NNP 亚马逊)) (CC 与) (NP (NNP 中国) (NN 合作) (NN 伙伴))) (DEC 的)) (ADJP (NN 合资)) (NP (NN 企业))) (, ，) (CC 以及) (NP (NP (CP (CP (IP (VP (ADVP (RB 已经)) (VP (VV 扩展) (NP (NN 线上) (NN 业务))))) (DEC 的))) (ADJP (NN 传统)) (NP (VV 零售) (SFN 商))) (NP (ADVP (VV 如)) (NP (NP (NP (NN 消费) (NN 电子)) (ADJP (NN 连锁)) (NP (SFN 店))) (NP (FW Suning) (FW Ltd.)))))))))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+其他	对手	det
+竞争	对手	nmod
+对手	包括	nsubj
+包括	ROOT	root
+服装	商	nmod
+零售	商	compound
+商	包括	obj
+Vancl.com	商	appos
+、	商	punct
+图书	商	nmod
+零售	商	compound
+商	商	conj
+Dangdang.com	商	appos
+、	亚马逊	punct
+亚马逊	Dangdang.com	conj
+与	伙伴	cc
+中国	伙伴	nmod
+合作	伙伴	nmod
+伙伴	亚马逊	conj
+的	Dangdang.com	case
+合资	企业	nmod
+企业	商	conj
+，	如	punct
+以及	商	cc
+已经	扩展	advmod
+扩展	商	acl:relcl
+线上	业务	nmod
+业务	扩展	obj
+的	扩展	mark:rel
+传统	商	nmod
+零售	商	compound
+商	商	conj
+如	包括	parataxis
+消费	店	nmod
+电子	店	nmod
+连锁	店	compound
+店	如	obj
+Suning	店	appos
+Ltd.	店	acl
+----------------------------------------------------------------------
+在中国运营 340 家门店的沃尔玛公司上个月通过扩大在线零售商 Yihaodian 的股份，将其控制份额提高到 51%，从而增强了其在线业务。
+
+(ROOT (IP (NP (CP (CP (IP (VP (PP (VV 在) (NP (NNP 中国))) (VP (VV 运营) (NP (QP (CD 340)) (NP (NN 家门) (SFN 店)))))) (DEC 的))) (NP (NNP 沃尔) (NNP 玛) (NN 公司))) (VP (VP (NP (DP (DT 上) (CLP (NNB 个))) (NP (NNB 月))) (PP (IN 通过) (NP (CP (CP (IP (VP (VV 扩大) (NP (PP (VV 在) (NP (NN 线) (VV 零售) (SFN 商))) (NP (FW Yihaodian))))) (DEC 的))) (NP (NN 股份)))) (, ，) (VP (BB 将) (IP (NP (NP (PRP 其)) (NP (NN 控制) (NN 份额))) (VP (VRD (VV 提高) (VV 到)) (QP (CD 51%)))))) (, ，) (VP (ADVP (RB 从而)) (VP (VV 增强) (AS 了) (NP (NP (PRP 其)) (PP (VV 在) (NP (NN 线))) (NP (NN 业务)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP16288': {}}, '.': {}}}
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+在	运营	advcl
+中国	在	obj
+运营	公司	acl:relcl
+340	店	nummod
+家门	店	compound
+店	运营	obj
+的	运营	mark:rel
+沃尔	公司	nmod
+玛	公司	nmod
+公司	增强	nsubj
+上	个	det
+个	月	clf
+月	增强	nmod:tmod
+通过	扩大	case
+扩大	提高	xcomp
+在	股份	acl:relcl
+线	商	nmod
+零售	商	compound
+商	在	obj
+Yihaodian	商	appos
+的	在	mark:rel
+股份	扩大	obj
+，	扩大	punct
+将	份额	case
+其	份额	nmod
+控制	份额	nmod
+份额	提高	obl:patient
+提高	增强	advcl
+到	提高	mark
+51%	提高	obj
+，	提高	punct
+从而	增强	mark
+增强	ROOT	root
+了	增强	aux
+其	业务	nmod
+在	业务	amod
+线	在	obj
+业务	增强	obj
+。	增强	punct
+----------------------------------------------------------------------
+除了为其他商家提供电子商务平台之外，360buy 还是中国最大的在线零售商，直接向客户销售消费电子产品和其他商品。
+
+(ROOT (IP (PP (VV 除) (PP (AS 了) (LCP (IP (VP (PP (IN 为) (NP (DP (DT 其他)) (NP (NN 商家)))) (VP (VV 提供) (NP (NN 电子) (NN 商务) (NN 平台))))) (IN 之外)))) (, ，) (NP (FW 360buy)) (VP (VP (VC 还是) (NP (CP (CP (IP (VP (NP (NNP 中国)) (VP (JJ 最大)))) (DEC 的))) (NP (VV 在) (SFN 线) (VV 零售) (SFN 商)))) (, ，) (VP (ADVP (RB 直接)) (PP (IN 向) (NP (NN 客户))) (VP (VV 销售) (NP (NP (NN 消费) (NN 电子) (NN 产品)) (CC 和) (NP (DP (DT 其他)) (NP (NN 商品))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'FW': {}}, 'VP': {'VP': {}, ',': {}, 'VP65910': {}}, '.': {}}}
+{'IP': {'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'FW': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'PP': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+除	销售	advcl
+了	除	aux
+为	商家	case
+其他	商家	det
+商家	提供	obl
+提供	除	xcomp
+电子	平台	nmod
+商务	平台	nmod
+平台	提供	obj
+之外	除	mark
+，	除	punct
+360buy	销售	nsubj
+是	商	cop
+中国	商	nmod
+最大	商	amod
+的	最大	mark:rel
+在	线	compound
+线	商	nmod
+零售	商	compound
+商	销售	advcl
+，	商	punct
+直接	销售	advmod
+向	客户	case
+客户	销售	obl
+销售	ROOT	root
+消费	产品	nmod
+电子	产品	nmod
+产品	销售	obj
+和	商品	cc
+其他	商品	det
+商品	产品	conj
+。	销售	punct
+----------------------------------------------------------------------
+中国评论家和行业分析师对中国在线购物日单身节的崛起有不同的看法。
+
+(ROOT (IP (NP (NP (NNP 中国)) (NP (VV 评论) (SFN 家) (CC 和) (NN 行业) (VV 分析) (SFN 师))) (VP (PP (IN 对) (NP (DNP (NP (NP (NP (NNP 中国)) (PP (IN 在) (NP (NN 线))) (NP (NN 购物))) (NP (NNP 日) (CD 单) (NN 身节))) (DEC 的)) (NP (NN 崛起)))) (VP (VV 有) (NP (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (NN 看法))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP91787': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+中国	家	nmod
+评论	家	compound
+家	有	nsubj
+和	师	cc
+行业	师	nmod
+分析	师	compound
+师	家	conj
+对	崛起	case
+中国	崛起	nmod
+在	崛起	case
+线	身节	nmod
+购物	身节	nmod
+日	身节	nmod
+单	身节	nummod
+身节	崛起	nmod
+的	崛起	case
+崛起	有	obl
+有	ROOT	root
+不同	看法	amod
+的	不同	mark:rel
+看法	有	obj
+。	有	punct
+----------------------------------------------------------------------
+有人提到人口和时间：采用假期的大学毕业生薪酬更高，并且在网上购物。
+
+(ROOT (IP (IP (VP (VV 有) (IP (NP (NN 人)) (VP (VV 提到) (NP (NN 人口) (CC 和) (NN 时间)))))) (: ：) (IP (NP (CP (CP (IP (VP (VV 采用) (NP (NN 假期)))) (DEC 的))) (NP (NN 大学) (NN 毕业))) (NP (NN 生薪) (SFN 酬)) (VP (VP (JJ 更高)) (, ，) (RB 并且) (VP (PP (IN 在) (NP (NN 网上))) (VP (VV 购物))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP35229': {}, '.': {}}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ':': {}, 'IP63167': {'NP': {}, 'NP25087': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'VP': {}}, ':': {}, 'IP': {'NP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+有	ROOT	root
+人	提到	nsubj
+提到	有	ccomp
+人口	提到	obj
+和	时间	cc
+时间	人口	conj
+：	购物	punct
+采用	酬	acl:relcl
+假期	采用	obj
+的	采用	mark:rel
+大学	酬	nmod
+毕业	酬	nmod
+生薪	酬	compound
+酬	更高	nsubj
+更高	购物	advcl
+，	更高	punct
+并且	购物	mark
+在	网上	case
+网上	购物	obl
+购物	有	ccomp
+。	有	punct
+----------------------------------------------------------------------
+人们在收到月薪后，需要购买冬装，这时双十一就来了。
+
+(ROOT (IP (IP (NP (NN 人们)) (VP (PP (IN 在) (LCP (IP (VP (VV 收到) (NP (NN 月薪)))) (IN 后))) (, ，) (VP (MD 需要) (VP (VV 购买) (NP (NN 冬装)))))) (, ，) (IP (ADVP (NN 这时)) (QP (CD 双) (CD 十一)) (VP (ADVP (RB 就)) (VP (VV 来) (UH 了)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP64054': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP8746': {'ADVP': {}, 'QP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'QP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'QP': {}, 'VP': {}}}
+Dependency Features:
+人	购买	nsubj
+在	收到	case
+收到	购买	xcomp
+月薪	收到	obj
+后	收到	mark
+，	收到	punct
+需要	购买	aux
+购买	来	advcl
+冬装	购买	obj
+，	购买	punct
+这时	来	nmod:tmod
+双	十一	nummod
+十一	来	nsubj
+就	来	mark
+来	ROOT	root
+了	来	discourse
+。	来	punct
+----------------------------------------------------------------------
+与中国最大的家庭假期春节等其他活动不同，这一节日不需要花费大量的旅行或宴会费用，因此可以留出更多的钱用于礼物。
+
+(ROOT (IP (IP (IP (VP (PP (IN 与) (NP (NP (NP (NP (CP (CP (IP (VP (NP (NNP 中国)) (VP (JJ 最大)))) (DEC 的))) (NP (NN 家庭) (NN 假期))) (NP (NN 春节))) (NN 等)) (DP (DT 其他)) (NP (NN 活动)))) (VP (JJ 不同)))) (, ，) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 节日))) (VP (ADVP (RB 不)) (VP (MD 需要) (VP (VV 花费) (NP (DNP (QP (JJ 大量)) (DEC 的)) (NP (NN 旅行) (CC 或) (NN 宴会)) (NP (NN 费用))))))) (, ，) (VP (ADVP (IN 因)) (ADVP (PRD 此)) (VP (MD 可以) (VP (VV 留出) (NP (CP (CP (IP (VP (JJ 更多))) (DEC 的)))) (IP (VP (NN 钱用) (PP (VV 于) (NP (NN 礼物)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'VP': {'ADVP': {}, 'ADVP83600': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+与	春节	case
+中国	春节	nmod
+最大	春节	amod
+的	最大	mark:rel
+家庭	春节	nmod
+假期	春节	nmod
+春节	不同	nmod
+等	春节	acl
+其他	活动	det
+活动	春节	appos
+不同	ROOT	root
+，	不同	punct
+这	节日	det
+一	节日	nummod
+节日	花费	nsubj
+不	花费	advmod
+需要	花费	aux
+花费	留出	advcl
+大量	旅行	amod
+的	大量	mark:rel
+旅行	花费	obj
+或	费用	cc
+宴会	费用	nmod
+费用	旅行	conj
+，	花费	punct
+因	此	case
+此	留出	obl
+可以	留出	aux
+留出	不同	parataxis
+更多	钱用	amod
+的	更多	mark:rel
+钱用	留出	obj
+于	留出	mark
+礼物	于	obj
+。	留出	punct
+----------------------------------------------------------------------
+而且还有一个浪漫的因素，可能会激励消费者拿出钱包。
+
+(ROOT (IP (ADVP (RB 而且)) (IP (VP (ADVP (RB 还)) (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 浪漫))) (DEC 的))) (NP (NN 因素)))))) (, ，) (VP (MD 可能) (VP (MD 会) (VP (VV 激励) (NP (VV 消费) (SFN 者)) (IP (VP (VV 拿出) (NP (NN 钱包))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'IP': {'VP': {}}, ',': {}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'IP': {'VP': {}}, ',': {}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'IP': {'VP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+而且	有	mark
+还	有	mark
+有	ROOT	root
+一	个	nummod
+个	因素	clf
+浪漫	因素	amod
+的	浪漫	mark:rel
+因素	激励	nsubj
+，	因素	punct
+可能	激励	aux
+会	激励	aux
+激励	有	ccomp
+消费	者	compound
+者	拿出	nsubj
+拿出	激励	ccomp
+钱包	拿出	obj
+。	有	punct
+----------------------------------------------------------------------
+“这是要送一份礼物给那个完美的对象，” Natkin 说道。
+
+(ROOT (IP (IP (`` “) (NP (PRD 这)) (VP (VC 是) (VP (MD 要) (VP (VV 送) (NP (QP (CD 一) (CLP (NNB 份))) (NP (NN 礼物))) (PP (VV 给) (NP (DP (DT 那) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 完美))) (DEC 的))) (NP (NN 对象)))))))) (, ，) ('' ”) (NP (FW Natkin)) (VP (VV 说道)) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'FW': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}}, ',': {}, "''": {}, 'NP': {'FW': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}}}
+{'NP': {'FW': {}}}
+{'VP': {'VV': {}}}
+Dependency Features:
+“	是	punct
+这	是	nsubj
+是	ROOT	root
+要	给	aux
+送	给	advcl
+一	份	nummod
+份	礼物	clf
+礼物	送	obj
+给	说道	advcl
+那	个	det
+个	对象	clf
+完美	对象	amod
+的	完美	mark:rel
+对象	给	obj
+，	给	punct
+”	对象	punct
+Natkin	对象	appos
+说道	是	xcomp
+。	是	punct
+----------------------------------------------------------------------
+“如果你把事情办得很好，你只需要一次性购买。”
+
+(ROOT (IP (`` “) (CP (ADVP (IN 如果)) (IP (NP (PRP 你)) (VP (BB 把) (IP (NP (NN 事情)) (VP (VV 办得) (VP (JJ 很好))))))) (, ，) (NP (PRP 你)) (VP (ADVP (RB 只)) (VP (VV 需要) (NP (QP (CD 一) (CLP (NNB 次))) (NP (NN 性) (VV 购买))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'``': {}, 'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'``': {}, 'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+“	需要	punct
+如果	办得	case
+你	办得	nsubj
+把	事情	case
+事情	办得	obl:patient
+办得	需要	ccomp
+很好	办得	xcomp
+，	办得	punct
+你	需要	nsubj
+只	需要	advmod
+需要	ROOT	root
+一	次	nummod
+次	购买	obl
+性	购买	obl
+购买	需要	xcomp
+。	需要	punct
+”	需要	punct
+----------------------------------------------------------------------
+上海的设计师雷最终只买了床垫，花了118 元人民币（18 美元），因为其他商品的折扣并没有她预期的那么大。
+
+(ROOT (IP (IP (NP (DNP (NP (NNP 上海)) (DEC 的)) (NP (VV 设计) (SFN 师雷))) (VP (VP (ADVP (NN 最终)) (ADVP (RB 只)) (VP (VV 买) (AS 了) (NP (NN 床垫)))) (, ，) (VP (VV 花) (AS 了) (NP (QP (CD 118)) (NP (NNB 元人民)) (NP (SFN 币)) (PRN (-LRB- （) (QP (CD 18) (CLP (NNB 美元))) (-RRB- ）)))))) (, ，) (PP (IN 因为) (IP (NP (DNP (NP (DP (DT 其他)) (NP (NN 商品))) (DEC 的)) (NP (NN 折扣))) (VP (ADVP (RB 并)) (VP (VV 没有) (IP (NP (CP (CP (IP (NP (PRP 她)) (VP (VV 预期))) (DEC 的)))) (VP (ADVP (RB 那么)) (VP (JJ 大)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+Dependency Features:
+上海	师雷	nmod
+的	上海	case
+设计	师雷	compound
+师雷	花	nsubj
+最终	买	nmod:tmod
+只	买	advmod
+买	花	advcl
+了	买	aux
+床垫	买	obj
+，	买	punct
+花	ROOT	root
+了	花	aux
+118	元人民	nummod
+元人民	币	compound
+币	花	obj
+（	美元	punct
+18	美元	nummod
+美元	币	appos
+）	美元	punct
+，	大	punct
+因为	有	case
+其他	商品	det
+商品	折扣	nmod
+的	商品	case
+折扣	有	nsubj
+并	有	mark
+有	大	ccomp
+她	预期	nsubj
+预期	有	ccomp
+的	预期	mark:rel
+那么	大	advmod
+大	花	ccomp
+。	花	punct
+----------------------------------------------------------------------
+她说：“我会等着看，能不能等到后来再买。”
+
+(ROOT (IP (NP (PRP 她)) (VP (VV 说) (: ：) (IP (`` “) (NP (PRP 我)) (VP (VP (MD 会) (VP (VV 等) (AS 着) (IP (VP (VV 看))))) (, ，) (VP (MD 能) (VP (MD 不能) (VP (VV 等到) (IP (VP (ADVP (NN 后来)) (ADVP (RB 再)) (VP (VV 买)))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+她	说	nsubj
+说	ROOT	root
+：	等到	punct
+“	等到	punct
+我	等到	nsubj
+会	等	aux
+等	等到	advcl
+着	等	aux
+看	等	xcomp
+，	等	punct
+能	等到	aux
+能	等到	aux
+等到	说	ccomp
+后来	买	nmod:tmod
+再	买	advmod
+买	等到	xcomp
+。	买	punct
+”	等到	punct
+----------------------------------------------------------------------
+各公司在上个月就开始为周日做准备。
+
+(ROOT (IP (NP (DP (DT 各)) (NP (NN 公司))) (VP (PP (IN 在) (NP (DP (DT 上) (CLP (NNB 个))) (NP (NNB 月)))) (ADVP (RB 就)) (VP (VV 开始) (VP (PP (IN 为) (NP (NN 周日))) (VP (VV 做) (NP (NN 准备)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+各	公司	det
+公司	开始	nsubj
+在	月	case
+上	个	det
+个	月	clf
+月	开始	obl
+就	开始	mark
+开始	ROOT	root
+为	周日	case
+周日	做	obl
+做	开始	xcomp
+准备	做	obj
+。	开始	punct
+----------------------------------------------------------------------
+在位于上海西南部的杭州总部，阿里巴巴为其 800 名员工设置了 200 张休息椅，供其在白天休息。
+
+(ROOT (IP (IP (PP (VV 在) (NP (CP (CP (IP (VP (VV 位) (PP (VV 于) (NP (NP (NNP 上海)) (NP (NN 西南) (SFN 部)))))) (DEC 的))) (NP (NNP 杭州)) (NP (NN 总部)))) (, ，) (NP (NNP 阿里) (NNP 巴巴)) (VP (PP (IN 为) (NP (NP (PRP 其)) (QP (CD 800)) (NP (NN 名员工)))) (VP (VV 设置) (AS 了) (NP (QP (CD 200) (CLP (NNB 张))) (NP (VV 休息) (SFN 椅)))))) (, ，) (IP (VP (VV 供) (NP (PRP 其)) (IP (VP (PP (IN 在) (NP (NN 白天))) (VP (VV 休息)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP85038': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP63929': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+在	供	advcl
+位	总部	acl:relcl
+于	位	mark
+上海	部	nmod
+西南	部	compound
+部	位	obj
+的	位	mark:rel
+杭州	总部	nmod
+总部	在	obj
+，	在	punct
+阿里	巴巴	nmod
+巴巴	供	nsubj
+为	名员工	case
+其	名员工	nmod
+800	名员工	nummod
+名员工	设置	obl
+设置	供	advcl
+了	设置	aux
+200	张	nummod
+张	椅	nmod
+休息	椅	compound
+椅	设置	obj
+，	设置	punct
+供	ROOT	root
+其	休息	nsubj
+在	白天	case
+白天	休息	obl
+休息	供	ccomp
+。	供	punct
+----------------------------------------------------------------------
+该公司为更长的休假租用了附近酒店的 180 间客房。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 公司))) (VP (PP (IN 为) (NP (CP (CP (IP (VP (JJ 更长))) (DEC 的))) (NP (NN 休假)))) (VP (VV 租用) (AS 了) (NP (DNP (NP (NN 附近) (NN 酒店)) (DEC 的)) (QP (CD 180)) (NP (NNB 间客房))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+该	公司	det
+公司	租用	nsubj
+为	休假	case
+更长	休假	amod
+的	更长	mark:rel
+休假	租用	obl
+租用	ROOT	root
+了	租用	aux
+附近	酒店	nmod
+酒店	间客房	nmod
+的	酒店	case
+180	间客房	nummod
+间客房	租用	obj
+。	租用	punct
+----------------------------------------------------------------------
+在天猫上，叫“天茂”，中文名叫“天猫”，商品从衣服、书籍和家具到餐厅餐费和旅游套餐的折扣都有。
+
+(ROOT (IP (IP (PP (VV 在) (LCP (NP (NNP 天猫)) (IN 上))) (, ，) (VP (VV 叫) (NP (`` “) (NNP 天) (NNP 茂) ('' ”)))) (, ，) (IP (NP (NNP 中) (SFN 文) (NN 名)) (VP (VV 叫) (NP (`` “) (NN 天) (SFN 猫) ('' ”)))) (, ，) (IP (NP (NN 商品)) (DNP (PP (PP (IN 从) (NP (NN 衣服) (EC 、) (NN 书籍) (CC 和) (NN 家具))) (PP (VV 到) (NP (NN 餐厅) (NN 餐费) (CC 和) (VV 旅游) (SFN 套) (SFN 餐)))) (DEC 的)) (NP (NN 折扣)) (VP (ADVP (RB 都)) (VP (VV 有)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP72759': {}, ',27439': {}, 'IP46702': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP97735': {'NP': {}, 'VP': {}}, ',46970': {}, 'IP55782': {'NP': {}, 'DNP': {}, 'NP64675': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'DNP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'DNP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+在	叫	advcl
+天猫	在	obj
+上	天猫	case
+，	在	punct
+叫	ROOT	root
+“	茂	punct
+天	茂	nmod
+茂	叫	obj
+”	茂	punct
+，	叫	punct
+中	文	compound
+文	名	nmod
+名	叫	nsubj
+叫	叫	parataxis
+“	猫	punct
+天	猫	compound
+猫	叫	obj
+”	猫	punct
+，	有	punct
+商品	有	nsubj
+从	衣服	case
+衣服	到	obl
+、	书籍	punct
+书籍	衣服	conj
+和	家具	cc
+家具	衣服	conj
+到	有	advcl
+餐厅	餐费	nmod
+餐费	到	obj
+和	餐	cc
+旅游	套	compound
+套	餐	compound
+餐	餐费	conj
+的	到	mark:rel
+折扣	有	nsubj
+都	有	mark
+有	叫	parataxis
+。	叫	punct
+----------------------------------------------------------------------
+一家位于南方的上饶汽车经销商周日提供了 23% 的折扣，购买 BMW 3 系豪华汽车。
+
+(ROOT (IP (NP (QP (CD 一) (CLP (NNB 家))) (CP (CP (IP (VP (VV 位) (PP (VV 于) (NP (NN 南方))))) (DEC 的))) (NP (NNP 上饶) (NN 汽车) (VV 经销) (SFN 商))) (VP (VP (NP (NNP 周日)) (VP (VV 提供) (AS 了) (NP (QP (CD 23%)) (NP (NN 的折扣))))) (, ，) (VP (VV 购买) (NP (NP (FW BMW)) (QP (CD 3)) (NP (NN 系豪华)) (NP (NN 汽车))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP48884': {}}, '.': {}}}
+{'IP': {'NP': {'QP': {}, 'CP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'CP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+一	家	nummod
+家	商	nmod
+位	商	acl:relcl
+于	位	mark
+南方	位	obj
+的	位	mark:rel
+上饶	商	nmod
+汽车	商	nmod
+经销	商	compound
+商	购买	nsubj
+周日	商	appos
+提供	购买	advcl
+了	提供	aux
+23%	的折扣	nummod
+的折扣	提供	obj
+，	提供	punct
+购买	ROOT	root
+BMW	汽车	nmod
+3	汽车	nummod
+系豪华	汽车	nmod
+汽车	购买	obj
+。	购买	punct
+----------------------------------------------------------------------
+据中国日报报道，中国的快递公司有 80 万名员工周日上班，其中 6.5 万名为节日招募的临时工。
+
+(ROOT (IP (PP (IN 据) (IP (NP (NNP 中国) (NN 日报)) (VP (VV 报道)))) (, ，) (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NN 快递) (NN 公司))) (VP (VV 有) (IP (IP (NP (QP (CD 80) (CLP (NNB 万名))) (NP (NN 员工))) (VP (NP (NN 周日)) (VP (VV 上班)))) (, ，) (IP (NP (NN 其中)) (QP (CD 6.5) (QP (CD 万) (CLP (NNB 名)))) (VP (VC 为) (NP (CP (CP (IP (VP (NP (NN 节日)) (VP (VV 招募)))) (DEC 的))) (ADJP (JJ 临时)) (NP (SFN 工))))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+据	报道	case
+中国	日报	nmod
+日报	报道	nsubj
+报道	有	ccomp
+，	报道	punct
+中国	公司	nmod
+的	中国	case
+快递	公司	nmod
+公司	有	nsubj
+有	ROOT	root
+80	万名	nummod
+万名	员工	clf
+员工	上班	nsubj
+周日	上班	nmod:tmod
+上班	有	ccomp
+，	工	punct
+其中	工	obl
+6.5	名	nummod
+万	名	nummod
+名	工	nsubj
+为	工	cop
+节日	招募	obl
+招募	工	acl:relcl
+的	招募	mark:rel
+临时	工	compound
+工	有	parataxis
+。	有	punct
+----------------------------------------------------------------------
+该报称，上海一家最大的快递公司 YTO Express Co. Ltd. 计划投入 30,000 辆车，并将日处理量提高 50%，达到 600 万个包裹。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 报))) (VP (VV 称) (, ，) (IP (NP (NP (NP (NNP 上海)) (QP (CD 一) (CLP (NNB 家))) (CP (CP (IP (VP (JJ 最大))) (DEC 的))) (NP (NN 快递) (NN 公司))) (NP (FW YTO) (FW Express) (FW Co.) (FW Ltd.))) (VP (VV 计划) (IP (VP (VP (VV 投入) (NP (QP (CD 30,000)) (NP (NNB 辆车)))) (, ，) (RB 并) (VP (BB 将) (IP (NP (ADJP (NNP 日)) (NP (VV 处理) (SFN 量))) (VP (VV 提高) (QP (CD 50%))))) (, ，) (VP (VV 达到) (NP (QP (CD 600) (QP (CD 万) (CLP (NNB 个)))) (NP (NN 包裹))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+该	报	det
+报	称	nsubj
+称	ROOT	root
+，	达到	punct
+上海	公司	nmod
+一	家	nummod
+家	公司	clf
+最大	公司	amod
+的	最大	mark:rel
+快递	公司	nmod
+公司	计划	nsubj
+YTO	公司	appos
+Express	YTO	flat:foreign
+Co.	YTO	flat:foreign
+Ltd.	YTO	flat:foreign
+计划	达到	advcl
+投入	计划	xcomp
+30,000	辆车	nummod
+辆车	投入	obj
+，	计划	punct
+并	提高	mark
+将	量	case
+日	量	nmod
+处理	量	compound
+量	提高	obl:patient
+提高	达到	advcl
+50%	提高	iobj
+，	提高	punct
+达到	称	ccomp
+600	个	nummod
+万	个	nummod
+个	包裹	clf
+包裹	达到	obj
+。	称	punct
+----------------------------------------------------------------------

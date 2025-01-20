@@ -1,0 +1,735 @@
+亚太各国领导人表示，他们将采取“具体步骤”，以建立一个“全面”的区域自由贸易协定，但没有为实现这一目标设定目标。
+
+(ROOT (IP (NP (NP (NNP 亚太) (NN 各国)) (NP (VV 领导) (SFN 人))) (VP (VV 表示) (, ，) (IP (NP (PRP 他们)) (VP (VP (ADVP (RB 将)) (VP (VP (VV 采取) (NP (`` “) (ADJP (JJ 具体)) (NP (NN 步骤)) ('' ”))) (, ，) (VP (RB 以) (VP (VV 建立) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (ADJP (`` “) (JJ 全面) ('' ”)) (DEC 的)) (NP (NN 区域) (NN 自由) (NN 贸易)) (NP (NN 协定))))))) (, ，) (VP (ADVP (RB 但)) (VP (VV 没有) (VP (PP (IN 为) (IP (VP (VV 实现) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 目标)))))) (VP (VV 设定) (NP (NN 目标))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP43920': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+亚太	人	nmod
+各国	人	nmod
+领导	人	compound
+人	表示	nsubj
+表示	ROOT	root
+，	有	punct
+他	有	nsubj
+将	采取	advmod
+采取	建立	advcl
+“	步骤	punct
+具体	步骤	amod
+步骤	采取	obj
+”	步骤	punct
+，	采取	punct
+以	建立	mark
+建立	有	advcl
+一	个	nummod
+个	协定	clf
+“	全面	punct
+全面	协定	amod
+”	全面	punct
+的	全面	mark:rel
+区域	协定	nmod
+自由	协定	nmod
+贸易	协定	nmod
+协定	建立	obj
+，	建立	punct
+但	有	mark
+有	表示	ccomp
+为	实现	case
+实现	设定	xcomp
+这	目标	det
+一	目标	nummod
+目标	实现	obj
+设定	有	xcomp
+目标	设定	obj
+。	表示	punct
+----------------------------------------------------------------------
+“我们重申，我们坚定不移地致力于实现本地区的自由和开放的贸易和投资，”亚太经济合作组织 21 个成员国的领导人今天在日本横滨发表的声明中说到。
+
+(ROOT (IP (`` “) (NP (PRP 我们)) (VP (VV 重申) (, ，) (IP (VP (LCP (NP (CP (CP (IP (IP (NP (NP (PRP 我们)) (CP (CP (VP (VP (ADVP (JJ 坚定)) (ADVP (RB 不)) (VP (VV 移地))) (VP (VV 致力) (PP (VV 于) (IP (VP (VV 实现) (NP (DNP (NP (DP (DT 本)) (NP (NN 地区))) (DEC 的)) (NP (NN 自由) (CC 和) (VV 开放)))))))) (DEC 的))) (NP (NN 贸易) (CC 和) (NN 投资))) (, ，) ('' ”)) (NP (DNP (NP (NP (NNP 亚太) (NN 经济) (NN 合作) (NN 组织)) (QP (CD 21) (CLP (NNB 个))) (NP (NN 成员) (SFN 国))) (DEC 的)) (NP (VV 领导) (SFN 人))) (VP (NP (RB 今天)) (PP (VV 在) (NP (NNP 日本) (NNP 横滨))) (VP (VV 发表)))) (DEC 的))) (NP (NN 声明))) (IN 中)) (VP (VV 说到))))) (. 。)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+“	重申	punct
+我	重申	nsubj
+重申	ROOT	root
+，	致力	punct
+我	致力	nsubj
+坚定	移地	advmod
+不	移地	advmod
+移地	致力	advcl
+致力	说到	advcl
+于	致力	mark
+实现	致力	xcomp
+本	地区	det
+地区	自由	nmod
+的	地区	case
+自由	贸易	nmod
+和	开放	cc
+开放	自由	conj
+的	自由	case
+贸易	实现	obj
+和	投资	cc
+投资	贸易	conj
+，	致力	punct
+”	贸易	punct
+亚太	国	nmod
+经济	组织	nmod
+合作	组织	nmod
+组织	国	nmod
+21	个	nummod
+个	国	nmod
+成员	国	compound
+国	人	nmod
+的	国	case
+领导	人	compound
+人	说到	nsubj
+今天	发表	advmod
+在	发表	advcl
+日本	横滨	nmod
+横滨	在	obj
+发表	声明	acl:relcl
+的	发表	mark:rel
+声明	说到	obl
+中	声明	case
+说到	重申	ccomp
+。	重申	punct
+----------------------------------------------------------------------
+“我们将努力解决贸易中的非关税壁垒，包括通过加强监管合作。”
+
+(ROOT (IP (`` “) (NP (PRP 我们)) (VP (ADVP (RB 将)) (ADVP (VV 努力)) (VP (VV 解决) (NP (DNP (LCP (NP (NN 贸易)) (IN 中)) (DEC 的)) (NP (ADJP (JJ 非关)) (NP (SFN 税))) (NP (NN 壁垒))))) (, ，) (IP (VP (VV 包括) (PP (IN 通过) (IP (VP (VV 加强) (NP (NN 监管) (VV 合作))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'ADVP78109': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'``': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+“	包括	punct
+我	包括	nsubj
+将	努力	advmod
+努力	包括	advcl
+解决	努力	xcomp
+贸易	壁垒	nmod
+中	贸易	case
+的	贸易	case
+非关	税	compound
+税	壁垒	nmod
+壁垒	解决	obj
+，	努力	punct
+包括	ROOT	root
+通过	加强	case
+加强	包括	xcomp
+监管	合作	obl
+合作	加强	xcomp
+。	包括	punct
+”	包括	punct
+----------------------------------------------------------------------
+这次峰会由美国、中国、日本和俄罗斯领导人出席，标志着四天的峰会谈判结束，峰会谈判突出了全球失衡问题上的分歧。
+
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 次))) (NP (NNP 峰) (SFN 会))) (VP (PP (VV 由) (NP (NP (NNP 美国) (EC 、) (NNP 中国) (EC 、) (NNP 日本) (CC 和) (NNP 俄罗斯)) (NP (VV 领导) (SFN 人)))) (VP (VV 出席)))) (, ，) (IP (VP (VV 标志) (AS 着) (IP (NP (DNP (QP (CD 四) (CLP (NNB 天))) (DEC 的)) (NP (NN 峰会) (NN 谈判))) (VP (VV 结束))))) (, ，) (IP (NP (NN 峰会) (NN 谈判)) (VP (VV 突出) (AS 了) (NP (DNP (LCP (NP (NN 全球) (NN 失衡) (NN 问题)) (IN 上)) (DEC 的)) (NP (NN 分歧))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP60428': {}, ',16666': {}, 'IP71875': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP56819': {'VP': {}}, ',82665': {}, 'IP93439': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+这	次	det
+次	会	nmod
+峰	会	compound
+会	标志	nsubj
+由	标志	advcl
+美国	出席	nsubj
+、	中国	punct
+中国	美国	conj
+、	日本	punct
+日本	美国	conj
+和	人	cc
+俄罗斯	人	nmod
+领导	人	compound
+人	美国	conj
+出席	由	ccomp
+，	由	punct
+标志	ROOT	root
+着	标志	aux
+四	天	nummod
+天	谈判	nmod
+的	天	case
+峰会	谈判	nmod
+谈判	结束	nsubj
+结束	标志	ccomp
+，	突出	punct
+峰会	谈判	nmod
+谈判	突出	nsubj
+突出	标志	parataxis
+了	突出	aux
+全球	问题	nmod
+失衡	问题	nmod
+问题	分歧	nmod
+上	问题	case
+的	问题	case
+分歧	突出	obj
+。	标志	punct
+----------------------------------------------------------------------
+二十国集团十一月十二号在首尔承诺“反对贸易保护主义行动”，但未能就贸易和投资扭曲行为达成协议。
+
+(ROOT (NP (NP (NP (QP (CD 二十)) (NP (NN 国))) (NP (NN 集团))) (VP (VP (QP (QP (CD 十一) (CLP (NNB 月))) (QP (CD 十二) (CLP (NN 号)))) (PP (VV 在) (NP (NNP 首尔))) (VP (VV 承诺) (NP (`` “) (VV 反对) (NP (NN 贸易) (NN 保护) (NN 主义)) (NP (NN 行动)) ('' ”)))) (, ，) (VP (ADVP (RB 但)) (ADVP (MD 未能)) (PP (IN 就) (NP (NP (NN 贸易) (CC 和) (NN 投资)) (NP (NN 扭曲)) (NP (NN 行为)))) (VP (VV 达成) (NP (NN 协议))))) (. 。)))
+layer 2:
+{'NP': {'NP': {}, 'VP': {}, '.': {}}}
+{'NP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'NP': {'NP': {'NP': {}, 'NP57728': {}}, 'VP': {'VP': {}, ',': {}, 'VP9314': {}}, '.': {}}}
+{'NP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+二十	国	nummod
+国	集团	nmod
+集团	号	nmod
+十一	月	nummod
+月	号	clf
+十二	号	nummod
+号	达成	nsubj
+在	承诺	advcl
+首尔	在	obj
+承诺	达成	advcl
+“	反对	punct
+反对	行动	amod
+贸易	主义	nmod
+保护	主义	nmod
+主义	反对	obj
+行动	承诺	obj
+”	行动	punct
+，	承诺	punct
+但	达成	mark
+能	达成	aux
+就	行为	case
+贸易	行为	nmod
+和	投资	cc
+投资	贸易	conj
+扭曲	行为	nmod
+行为	达成	obl
+达成	ROOT	root
+协议	达成	obj
+。	达成	punct
+----------------------------------------------------------------------
+日本首相鸠山由纪夫表示，APEC占全球经济总量的50%以上，占全球贸易的近45%，“将推动建立亚太自由贸易区”。
+
+(ROOT (IP (NP (NP (NP (NNP 日本)) (NP (NN 首相))) (NP (NNP 鸠山) (NNP 由) (NNP 纪夫))) (VP (VV 表示) (, ，) (IP (IP (NP (FW APEC)) (VP (VP (VV 占) (LCP (DNP (NP (NN 全球) (NN 经济) (NN 总量)) (DEC 的)) (LCP (QP (CD 50%)) (IN 以上)))) (, ，) (VP (VV 占) (QP (DNP (NP (NN 全球) (NN 贸易)) (DEC 的)) (QP (ADVP (RB 近)) (QP (CD 45%))))))) (, ，) (VP (`` “) (ADVP (RB 将)) (VP (VV 推动) (IP (VP (VV 建立) (NP (NP (NNP 亚太)) (NP (ADJP (NN 自由)) (NP (VV 贸易))) (NP (SFN 区)))))) ('' ”)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP3337': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+日本	首相	nmod
+首相	表示	nsubj
+鸠山	首相	appos
+由	鸠山	flat:name
+纪夫	鸠山	flat:name
+表示	ROOT	root
+，	占	punct
+APEC	占	nsubj
+占	占	advcl
+全球	总量	nmod
+经济	总量	nmod
+总量	50%	nmod
+的	占	mark:rel
+50%	占	obj
+以上	50%	case
+，	占	punct
+占	表示	ccomp
+全球	贸易	nmod
+贸易	45%	nmod
+的	贸易	case
+近	45%	advmod
+45%	占	obj
+，	推动	punct
+“	推动	punct
+将	推动	advmod
+推动	表示	parataxis
+建立	推动	xcomp
+亚太	区	nmod
+自由	区	nmod
+贸易	区	compound
+区	建立	obj
+”	区	punct
+。	表示	punct
+----------------------------------------------------------------------
+分歧仍然存在
+
+(ROOT (IP (NP (NN 分歧)) (VP (ADVP (RB 仍然)) (VP (VV 存在)))))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}}}
+{'NP': {'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+分歧	存在	nsubj
+仍然	存在	advmod
+存在	ROOT	root
+----------------------------------------------------------------------
+但成员国之间的分歧仍然存在。
+
+(ROOT (IP (ADVP (RB 但)) (NP (DNP (LCP (NP (NN 成员) (SFN 国)) (IN 之间)) (DEC 的)) (NP (NN 分歧))) (VP (ADVP (RB 仍然)) (VP (VV 存在))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+但	存在	mark
+成员	国	compound
+国	分歧	nmod
+之间	国	case
+的	国	case
+分歧	存在	nsubj
+仍然	存在	advmod
+存在	ROOT	root
+。	存在	punct
+----------------------------------------------------------------------
+中国国家主席胡锦涛在美国总统奥巴马在首尔呼吁人民币“卖低”一天后，表示中国的货币政策没有改变。昨天，坎在会见胡锦涛和俄罗斯总统梅德韦杰夫时，就两国分别存在的领土争端进行了会谈，尽管三方都同意改善关系，但没有取得任何让步。
+
+(ROOT (IP (NP (NP (NP (NNP 中国)) (NP (NN 国家) (NN 主席))) (NP (NNP 胡) (NNP 锦) (NNP 涛))) (VP (LCP (IP (VP (PP (VV 在) (NP (NP (NP (NNP 美国)) (NP (NN 总统))) (NP (NNP 奥巴马)))) (PP (VV 在) (NP (NNP 首尔))) (VP (VV 呼吁) (NP (NNP 人民) (SFN 币)) (IP (VP (`` “) (VV 卖低) ('' ”) (QP (CD 一) (CLP (NNB 天)))))))) (IN 后)) (, ，) (VP (VV 表示) (IP (NP (DNP (NP (NNP 中国)) (DEC 的)) (NP (NN 货币) (NN 政策))) (VP (VV 没有) (VP (NN 改变)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP47353': {}}, 'VP': {'LCP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'LCP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'LCP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+中国	主席	nmod
+国家	主席	nmod
+主席	表示	nsubj
+胡	主席	appos
+锦	胡	flat:name
+涛	胡	flat:name
+在	呼吁	advcl
+美国	总统	nmod
+总统	在	obj
+奥巴马	总统	appos
+在	呼吁	advcl
+首尔	在	obj
+呼吁	表示	advcl
+人民	币	compound
+币	卖低	nsubj
+“	卖低	punct
+卖低	呼吁	ccomp
+”	卖低	punct
+一	天	nummod
+天	卖低	obl
+后	呼吁	mark
+，	呼吁	punct
+表示	ROOT	root
+中国	政策	nmod
+的	中国	case
+货币	政策	nmod
+政策	有	nsubj
+有	表示	ccomp
+改变	有	obj
+。	表示	punct
+----------------------------------------------------------------------
+APEC 领导人表示，该地区“正在从最近的经济和金融危机中恢复，但不确定性仍然存在。”
+
+(ROOT (IP (NP (NP (FW APEC)) (NP (VV 领导) (SFN 人))) (VP (VV 表示) (, ，) (IP (IP (NP (DP (DT 该)) (NP (NN 地区))) (VP (`` “) (ADVP (RB 正)) (ADVP (RB 在)) (PP (IN 从) (LCP (NP (DNP (NP (NN 最近)) (DEC 的)) (NP (NN 经济) (CC 和) (NN 金融)) (NP (NN 危机))) (IN 中))) (VP (VV 恢复)))) (, ，) (IP (ADVP (RB 但)) (NP (CP (IP (VP (ADVP (RB 不)) (VP (JJ 确定))))) (NP (SFN 性))) (VP (ADVP (RB 仍然)) (VP (VV 存在)))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP80926': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+APEC	人	nmod
+领导	人	compound
+人	表示	nsubj
+表示	ROOT	root
+，	存在	punct
+该	地区	det
+地区	存在	nsubj
+“	恢复	punct
+正	恢复	advmod
+在	恢复	advmod
+从	危机	case
+最近	经济	nmod
+的	最近	case
+经济	危机	nmod
+和	金融	cc
+金融	经济	conj
+危机	恢复	obl
+中	危机	case
+恢复	存在	advcl
+，	恢复	punct
+但	存在	mark
+不	确定	advmod
+确定	性	compound
+性	存在	nsubj
+仍然	存在	advmod
+存在	表示	ccomp
+。	存在	punct
+”	存在	punct
+----------------------------------------------------------------------
+该集团在呼应 G20 声明时呼吁加强货币灵活性，并警告外汇市场动荡波动可能会扰乱经济增长。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 集团))) (VP (VP (PP (IN 在) (LCP (IP (VP (VV 呼应) (NP (NP (FW G20)) (NP (NN 声明))))) (IN 时))) (VP (VV 呼吁) (IP (VP (VV 加强) (NP (NP (NN 货币)) (NP (JJ 灵活) (SFN 性))))))) (, ，) (RB 并) (VP (VV 警告) (IP (IP (NP (NN 外汇) (NN 市场)) (VP (VCD (JJ 动荡) (NN 波动)))) (VP (MD 可能) (VP (MD 会) (VP (VV 扰乱) (NP (NN 经济) (NN 增长)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP93179': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+该	集团	det
+集团	警告	nsubj
+在	呼应	case
+呼应	呼吁	xcomp
+G20	声明	nmod
+声明	呼应	obj
+时	呼应	mark
+呼吁	警告	advcl
+加强	呼吁	xcomp
+货币	性	nmod
+灵活	性	compound
+性	加强	obj
+，	呼吁	punct
+并	警告	mark
+警告	ROOT	root
+外汇	波动	nmod
+市场	波动	nmod
+动荡	波动	amod
+波动	扰乱	nsubj
+可能	扰乱	aux
+会	扰乱	aux
+扰乱	警告	ccomp
+经济	增长	nmod
+增长	扰乱	obj
+。	警告	punct
+----------------------------------------------------------------------
+“市场决定”
+
+(ROOT (NP (`` “) (NN 市场) (VV 决定) ('' ”)))
+layer 2:
+{'NP': {'``': {}, 'NN': {}, 'VV': {}, "''": {}}}
+{'NP': {'``': {}, 'NN': {}, 'VV': {}, "''": {}}}
+layer 3:
+{'NP': {'``': {}, 'NN': {}, 'VV': {}, "''": {}}}
+{'NP': {'``': {}, 'NN': {}, 'VV': {}, "''": {}}}
+Dependency Features:
+“	决定	punct
+市场	决定	nsubj
+决定	ROOT	root
+”	决定	punct
+----------------------------------------------------------------------
+声明称，“我们将迈向更具市场决定性的汇率体系”，“避免货币竞争性贬值”。
+
+(ROOT (IP (NP (NN 声明)) (VP (VV 称) (, ，) (IP (IP (`` “) (NP (PRP 我们)) (VP (ADVP (RB 将)) (VP (VV 迈向) (NP (CP (CP (IP (VP (ADVP (RB 更)) (VP (VV 具) (NP (NN 市场) (VV 决定) (SFN 性))))) (DEC 的))) (NP (NN 汇率) (NN 体系))))) ('' ”)) (, ，) (VP (`` “) (VP (VV 避免) (NP (NP (NN 货币) (VV 竞争)) (VP (ADVP (SFN 性)) (VP (VV 贬值))))) ('' ”)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+声明	称	nsubj
+称	ROOT	root
+，	避免	punct
+“	避免	punct
+我	避免	nsubj
+将	迈向	advmod
+迈向	避免	advcl
+更	具	advmod
+具	体系	acl:relcl
+市场	性	nmod
+决定	性	compound
+性	具	obj
+的	具	mark:rel
+汇率	体系	nmod
+体系	迈向	obj
+”	体系	punct
+，	迈向	punct
+“	避免	punct
+避免	称	ccomp
+货币	性	nmod
+竞争	性	compound
+性	贬值	nsubj
+贬值	避免	ccomp
+”	避免	punct
+。	称	punct
+----------------------------------------------------------------------
+发达国家将保持警惕，“帮助缓解一些新兴市场经济体面临的资本流动过度波动的风险”。
+
+(ROOT (IP (NP (ADJP (JJ 发达)) (NP (NN 国家))) (VP (ADVP (RB 将)) (VP (VP (VV 保持) (NP (NN 警惕))) (, ，) (VP (`` “) (VV 帮助) (IP (VP (VV 缓解) (NP (QP (JJ 一些)) (CP (CP (IP (NP (NP (ADJP (JJ 新兴)) (NP (NN 市场))) (NP (NN 经济) (SFN 体))) (VP (VV 面临))) (DEC 的))) (CP (IP (NP (NN 资本) (NN 流动)) (VP (ADVP (JJ 过度)) (VP (NN 波动)))) (DEC 的)) (NP (NN 风险))))) ('' ”)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'ADJP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+发达	国家	amod
+国家	保持	nsubj
+将	保持	advmod
+保持	ROOT	root
+警惕	保持	obj
+，	帮助	punct
+“	帮助	punct
+帮助	保持	parataxis
+缓解	帮助	xcomp
+一些	体	amod
+新兴	体	amod
+市场	体	nmod
+经济	体	compound
+体	面临	nsubj
+面临	风险	acl:relcl
+的	面临	mark:rel
+资本	波动	nmod
+流动	波动	nmod
+过度	波动	amod
+波动	风险	nmod
+的	波动	case
+风险	缓解	obj
+”	风险	punct
+。	保持	punct
+----------------------------------------------------------------------
+该集团同意通过区域集团，包括东南亚国家联盟和美国主导的跨太平洋伙伴关系等谈判，建立贸易。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 集团))) (VP (VV 同意) (IP (VP (PP (IN 通过) (NP (NP (NN 区域) (NN 集团)) (, ，) (NP (ADVP (VV 包括)) (NP (NP (NP (NP (NP (NN 东南)) (NP (NNP 亚)) (NP (NN 国家))) (NP (NN 联盟))) (CC 和) (NP (CP (CP (IP (NP (NNP 美国)) (VP (VV 主导))) (DEC 的))) (IP (VP (VV 跨) (NP (NNP 太平) (SFN 洋)))) (NP (NN 伙伴) (NN 关系))) (NN 等)) (NP (NN 谈判)))))) (, ，) (VP (VV 建立) (NP (NN 贸易)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+该	集团	det
+集团	同意	nsubj
+同意	ROOT	root
+通过	集团	case
+区域	集团	nmod
+集团	建立	obl
+，	集团	punct
+包括	建立	advcl
+东南	亚	compound
+亚	联盟	nmod
+国家	联盟	nmod
+联盟	包括	obj
+和	关系	cc
+美国	主导	nsubj
+主导	关系	acl:relcl
+的	主导	mark:rel
+跨	关系	amod
+太平	洋	compound
+洋	关系	nmod
+伙伴	关系	nmod
+关系	联盟	conj
+等	联盟	acl
+谈判	联盟	appos
+，	包括	punct
+建立	同意	xcomp
+贸易	建立	obj
+。	同意	punct
+----------------------------------------------------------------------
+坚持加入TPP谈判的加茂雄面临着自己党内的阻力，因为日本的农民因关税保护而受益。
+
+(ROOT (IP (IP (NP (CP (CP (IP (VP (VV 坚持) (IP (VP (VP (VV 加入) (NP (FW TPP))) (VP (NN 谈判)))))) (DEC 的))) (NP (NNP 加) (NNP 茂雄))) (VP (VV 面临) (AS 着) (NP (DNP (LCP (NP (NP (PRD 自己)) (NP (SFN 党))) (IN 内)) (DEC 的)) (NP (NN 阻力))))) (, ，) (PP (IN 因为) (IP (NP (DNP (NP (NNP 日本)) (DEC 的)) (NP (NN 农民))) (VP (PP (IN 因) (NP (NN 关税) (NN 保护))) (VP (RB 而) (VP (VV 受益)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+Dependency Features:
+坚持	加	acl:relcl
+加入	坚持	xcomp
+TPP	谈判	nmod
+谈判	加入	obj
+的	坚持	mark:rel
+加	面临	nsubj
+茂雄	加	flat:name
+面临	ROOT	root
+着	面临	aux
+自己	党	nmod
+党	阻力	nmod
+内	党	case
+的	党	case
+阻力	面临	obj
+，	受益	punct
+因为	受益	case
+日本	农民	nmod
+的	日本	case
+农民	受益	nsubj
+因	保护	case
+关税	保护	nmod
+保护	受益	obl
+而	受益	mark
+受益	面临	parataxis
+。	面临	punct
+----------------------------------------------------------------------
+上周，他的内阁只同意就谈判进行初步讨论，奥巴马告诉加茂，他“非常欢迎”这一举动。
+
+(ROOT (IP (IP (NP (NN 上周)) (, ，) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 内阁))) (VP (ADVP (RB 只)) (VP (VV 同意) (IP (VP (PP (IN 就) (NP (NN 谈判))) (VP (VV 进行) (NP (ADJP (JJ 初步)) (NP (NN 讨论))))))))) (, ，) (IP (NP (NNP 奥巴马)) (VP (VV 告诉) (NP (NNP 加) (NNP 茂)))) (, ，) (IP (IP (NP (PRP 他)) (VP (`` “) (ADVP (RB 非常)) (VP (VV 欢迎)) ('' ”))) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 举动)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP91282': {}, ',41841': {}, 'IP45634': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP71597': {}, 'VP': {}}, ',': {}, 'IP36247': {'NP': {}, 'VP': {}}, ',57886': {}, 'IP93054': {'IP': {}, 'NP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'IP': {}, 'NP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'IP': {}, 'NP': {}}}
+Dependency Features:
+上周	同意	nmod:tmod
+，	上周	punct
+他	内阁	det
+的	他	case
+内阁	同意	nsubj
+只	同意	advmod
+同意	ROOT	root
+就	谈判	case
+谈判	进行	obl
+进行	同意	xcomp
+初步	讨论	amod
+讨论	进行	obj
+，	告诉	punct
+奥巴马	告诉	nsubj
+告诉	同意	parataxis
+加	告诉	obj
+茂	加	flat:name
+，	欢迎	punct
+他	欢迎	nsubj
+“	欢迎	punct
+非常	欢迎	advmod
+欢迎	告诉	ccomp
+”	欢迎	punct
+这	举动	det
+一	举动	nummod
+举动	欢迎	obj
+。	同意	punct
+----------------------------------------------------------------------
+奥巴马今天回国，但他在 10 天的亚洲之行中未能实现部分目标。
+
+(ROOT (IP (IP (NP (NNP 奥巴马)) (VP (NP (NN 今天)) (VP (VV 回国)))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 他)) (VP (PP (IN 在) (LCP (NP (DNP (QP (CD 10) (CLP (NNB 天))) (DEC 的)) (DNP (NP (NNP 亚洲)) (DEC 之)) (NP (NN 行))) (IN 中))) (VP (MD 未能) (VP (VV 实现) (NP (QP (NN 部分)) (NP (NN 目标))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP7402': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP90906': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+奥巴马	回国	nsubj
+今天	回国	nmod:tmod
+回国	ROOT	root
+，	实现	punct
+但	实现	mark
+他	行	nmod
+在	行	case
+10	天	nummod
+天	亚洲	nmod
+的	天	case
+亚洲	行	nmod
+之	亚洲	case
+行	实现	obl
+中	行	case
+能	实现	aux
+实现	回国	parataxis
+部分	目标	nmod
+目标	实现	obj
+。	回国	punct
+----------------------------------------------------------------------
+他未能确保 G20 峰会就重新平衡全球经济采取具体措施达成协议，并且不得不延长谈判，以确保南韩贸易协议，这对于他旨在刺激美国出口的目标而言至关重要。
+
+(ROOT (IP (IP (NP (PRP 他)) (VP (MD 未能) (VP (VV 确保) (IP (NP (FW G20) (NN 峰会)) (VP (VP (PP (IN 就) (IP (VP (ADVP (RB 重新)) (VP (VV 平衡) (NP (NN 全球) (NN 经济)))))) (VP (VP (VV 采取) (NP (ADJP (JJ 具体)) (NP (NN 措施)))) (VP (VV 达成) (NP (NN 协议))))) (, ，) (RB 并且) (VP (MD 不得) (VP (ADVP (RB 不)) (VP (VV 延长) (NP (NN 谈判))))) (, ，) (VP (RB 以) (VP (VV 确保) (NP (NP (NNP 南韩)) (NP (NN 贸易) (NN 协议)))))))))) (, ，) (IP (NP (PRD 这)) (VP (IP (VP (PP (IN 对于) (IP (NP (PRP 他)) (CP (IP (NP (MD 旨)) (VP (VV 在) (IP (VP (VV 刺激) (NP (NP (NNP 美国)) (NP (NN 出口))))))) (DEC 的)) (NP (NN 目标)))) (VP (RB 而) (VP (VV 言))))) (VP (JJ 至关重要)))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP28407': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP36000': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+他	确保	nsubj
+能	确保	aux
+确保	确保	advcl
+G20	峰会	nmod
+峰会	达成	nsubj
+就	平衡	case
+重新	平衡	advmod
+平衡	达成	xcomp
+全球	经济	nmod
+经济	采取	obj
+采取	达成	advcl
+具体	措施	amod
+措施	采取	obj
+达成	确保	ccomp
+协议	达成	obj
+，	达成	punct
+并且	延长	mark
+得	延长	aux
+不	延长	advmod
+延长	确保	advcl
+谈判	延长	obj
+，	延长	punct
+以	确保	mark
+确保	ROOT	root
+南韩	协议	nmod
+贸易	协议	nmod
+协议	确保	obj
+，	言	punct
+这	言	nsubj
+对于	他	case
+他	在	nsubj
+旨	在	aux
+在	言	advcl
+刺激	在	xcomp
+美国	出口	nmod
+出口	刺激	obj
+的	在	mark:rel
+目标	在	obj
+而	言	mark
+言	确保	parataxis
+至关重要	言	xcomp
+。	确保	punct
+----------------------------------------------------------------------
