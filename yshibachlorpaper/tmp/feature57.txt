@@ -1,903 +1,2099 @@
-约翰·霍普金斯医学中心宣布，医生们在一名捐献者的阴道内取出了一个健康的肾脏，这被称为“有史以来的第一例手术”。
+2015 年 1 月，在巴黎发生一系列事件，包括袭击《沙利》杂志（一家杂志），16 人死亡，欧洲爆发了自发抗议活动。
 
-(ROOT (IP (NP (NNP 约翰) (/ ·) (NNP 霍普金斯) (NN 医学) (NN 中心)) (VP (VV 宣布) (, ，) (IP (IP (NP (NN 医生) (SFN 们)) (VP (PP (IN 在) (LCP (NP (DNP (NP (QP (CD 一) (CLP (NNB 名))) (NP (VV 捐献) (SFN 者))) (DEC 的)) (NP (NN 阴道))) (IN 内))) (VP (VV 取出) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (JJ 健康))) (DEC 的))) (NP (NN 肾) (NN 脏)))))) (, ，) (IP (NP (PRD 这)) (VP (BB 被) (VP (VCP (VV 称) (VC 为)) (NP (`` “) (DNP (LCP (NP (NN 有史)) (IN 以来)) (DEC 的)) (QP (CD 第一) (CLP (NNB 例))) (NP (NN 手术)) ('' ”))))))) (. 。)))
+(ROOT (IP (IP (NP (CD 2015) (NNB 年 1) (NNB 月)) (, ，) (VP (PP (VV 在) (NP (NNP 巴黎))) (VP (VV 发生) (NP (QP (CD 一) (CLP (NN 系列))) (NP (NN 事件)))))) (, ，) (IP (VP (VV 包括) (IP (IP (VP (NN 袭击) (NP (NP (-LRB- 《) (NNP 沙利) (-RRB- 》)) (NP (NN 杂志)) (PRN (-LRB- （) (NP (QP (CD 一) (CLP (NNB 家))) (NP (NN 杂志))) (-RRB- ）))))) (, ，) (IP (NP (QP (CD 16)) (NP (NN 人))) (VP (VV 死亡)))))) (, ，) (IP (NP (NNP 欧洲)) (VP (VV 爆发) (AS 了) (NP (ADJP (VV 自发)) (NP (NN 抗议)) (NP (NN 活动))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['NUM', 'NOUN', 'nummod']", "['2015', '年 1', 'nummod']"]
+["['NOUN', 'NOUN', 'nummod']", "['年 1', '月', 'nummod']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['月', '发生', 'nmod:tmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '月', 'punct']"]
+["['VERB', 'VERB', 'advcl']", "['在', '发生', 'advcl']"]
+["['PROPN', 'VERB', 'obj']", "['巴黎', '在', 'obj']"]
+["['VERB', 'ROOT', 'root']", "['发生', 'NONE', 'root']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '系列', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['系列', '事件', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['事件', '包括', 'nsubj']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '事件', 'punct']"]
+["['VERB', 'VERB', 'ccomp']", "['包括', '发生', 'ccomp']"]
+["['NOUN', 'VERB', 'obj']", "['袭击', '包括', 'obj']"]
+["['PUNCT', 'PROPN', 'punct']", "['《', '沙利', 'punct']"]
+["['PROPN', 'NOUN', 'appos']", "['沙利', '杂志', 'appos']"]
+["['PUNCT', 'PROPN', 'punct']", "['》', '沙利', 'punct']"]
+["['NOUN', 'NOUN', 'appos']", "['杂志', '袭击', 'appos']"]
+["['PUNCT', 'NOUN', 'punct']", "['（', '杂志', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '家', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['家', '杂志', 'clf']"]
+["['NOUN', 'NOUN', 'appos']", "['杂志', '杂志', 'appos']"]
+["['PUNCT', 'NOUN', 'punct']", "['）', '杂志', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '死亡', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['16', '人', 'nummod']"]
+["['NOUN', 'VERB', 'nsubj']", "['人', '死亡', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['死亡', '爆发', 'advcl']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '死亡', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['欧洲', '爆发', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['爆发', '发生', 'parataxis']"]
+["['AUX', 'VERB', 'aux']", "['了', '爆发', 'aux']"]
+["['VERB', 'NOUN', 'amod']", "['自发', '活动', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['抗议', '自发', 'obj']"]
+["['NOUN', 'VERB', 'obj']", "['活动', '爆发', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '发生', 'punct']"]
+----------------------------------------------------------------------
+人们游行抗议对欧洲文明的基本原则——言论自由的侵犯。
+
+(ROOT (IP (NP (NN 人们)) (VP (VCD (VV 游行) (VV 抗议)) (NP (NP (DNP (PP (IN 对) (NP (NP (NNP 欧洲)) (NP (NN 文明)))) (DEC 的)) (ADJP (NN 基本)) (NP (NN 原则))) (HYPH —) (HYPH —) (NP (DNP (NP (NN 言论) (NN 自由)) (DEC 的)) (NP (NN 侵犯))))) (. 。)))
 layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}}, 'VP': {'VCD': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VCD': {}, 'NP': {}}}
+Dependency Features:
+["['NOUN', 'VERB', 'nsubj']", "['人', '游行', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['游行', '抗议', 'advcl']"]
+["['VERB', 'ROOT', 'root']", "['抗议', 'NONE', 'root']"]
+["['ADP', 'NOUN', 'case']", "['对', '原则', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['欧洲', '文明', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['文明', '原则', 'nmod']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '抗议', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['基本', '原则', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['原则', '抗议', 'obl']"]
+["['PUNCT', 'NOUN', 'punct']", "['—', '侵犯', 'punct']"]
+["['PUNCT', 'NOUN', 'punct']", "['—', '侵犯', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['言论', '自由', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['自由', '侵犯', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '自由', 'case']"]
+["['NOUN', 'NOUN', 'conj']", "['侵犯', '原则', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '抗议', 'punct']"]
+----------------------------------------------------------------------
+数百万人在整个大陆参加集会，挥舞着横幅，上面写着“我是查理”，以此表达对这家报纸遇害者的哀悼，该报经常揭露穆罕默德的漫画。
+
+(ROOT (IP (IP (NP (QP (CD 数百万)) (NP (NN 人))) (VP (VP (PP (VV 在) (NP (ADJP (DT 整个)) (NP (NN 大陆)))) (VP (VV 参加) (NP (NN 集会)))) (, ，) (VP (VV 挥舞) (AS 着) (NP (NN 横幅))))) (, ，) (IP (NP (NN 上面)) (VP (VP (VV 写) (AS 着) (IP (`` “) (NP (PRP 我)) (VP (VC 是) (NP (NNP 查理))) ('' ”))) (, ，) (VP (PP (IN 以) (NP (PRD 此))) (VP (VV 表达) (NP (DNP (PP (IN 对) (NP (NP (DP (DT 这) (CLP (NNB 家))) (NP (NN 报纸))) (NP (VV 遇害)) (NP (SFN 者)))) (DEC 的)) (NP (NN 哀悼))))))) (, ，) (IP (NP (NN 该报)) (VP (ADVP (RB 经常)) (VP (VV 揭露) (NP (DNP (NP (NNP 穆罕默德)) (DEC 的)) (NP (NN 漫画)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['NUM', 'NOUN', 'nummod']", "['数百万', '人', 'nummod']"]
+["['NOUN', 'VERB', 'nsubj']", "['人', '挥舞', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['在', '参加', 'advcl']"]
+["['DET', 'NOUN', 'det']", "['整个', '大陆', 'det']"]
+["['NOUN', 'VERB', 'obj']", "['大陆', '在', 'obj']"]
+["['VERB', 'VERB', 'advcl']", "['参加', '挥舞', 'advcl']"]
+["['NOUN', 'VERB', 'obj']", "['集会', '参加', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '参加', 'punct']"]
+["['VERB', 'ROOT', 'root']", "['挥舞', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['着', '挥舞', 'aux']"]
+["['NOUN', 'VERB', 'obj']", "['横幅', '挥舞', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '写', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['上面', '写', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['写', '表达', 'advcl']"]
+["['AUX', 'VERB', 'aux']", "['着', '写', 'aux']"]
+["['PUNCT', 'PROPN', 'punct']", "['“', '查理', 'punct']"]
+["['PRON', 'PROPN', 'nsubj']", "['我', '查理', 'nsubj']"]
+["['AUX', 'PROPN', 'cop']", "['是', '查理', 'cop']"]
+["['PROPN', 'VERB', 'ccomp']", "['查理', '写', 'ccomp']"]
+["['PUNCT', 'PROPN', 'punct']", "['”', '查理', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '写', 'punct']"]
+["['ADP', 'PRON', 'case']", "['以', '此', 'case']"]
+["['PRON', 'VERB', 'obl']", "['此', '表达', 'obl']"]
+["['VERB', 'VERB', 'conj']", "['表达', '挥舞', 'conj']"]
+["['ADP', 'NOUN', 'case']", "['对', '哀悼', 'case']"]
+["['DET', 'NOUN', 'det']", "['这', '家', 'det']"]
+["['NOUN', 'PART', 'nmod']", "['家', '者', 'nmod']"]
+["['NOUN', 'PART', 'nmod']", "['报纸', '者', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['遇害', '者', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['者', '哀悼', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '哀悼', 'case']"]
+["['NOUN', 'VERB', 'obj']", "['哀悼', '表达', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '揭露', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['该报', '揭露', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['经常', '揭露', 'advmod']"]
+["['VERB', 'VERB', 'parataxis']", "['揭露', '表达', 'parataxis']"]
+["['PROPN', 'NOUN', 'nmod']", "['穆罕默德', '漫画', 'nmod']"]
+["['PART', 'PROPN', 'case']", "['的', '穆罕默德', 'case']"]
+["['NOUN', 'VERB', 'obj']", "['漫画', '揭露', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '挥舞', 'punct']"]
+----------------------------------------------------------------------
+许多人告诫大家，不要让这些袭击事件让公众对移民或土生土长的穆斯林产生怨恨。
+
+(ROOT (IP (QP (CD 许多)) (VP (NN 人告) (IP (VP (VV 诫) (NP (NN 大家)) (, ，) (IP (VP (MD 不要) (VP (VV 让) (NP (DP (DT 这些)) (NP (NN 袭击) (NN 事件))) (IP (VP (VV 让) (NP (NN 公众)) (IP (VP (PP (IN 对) (NP (NP (NN 移民)) (CC 或) (NP (DNP (NP (NNP 土生) (NN 土长)) (DEC 的)) (NP (NN 穆斯林))))) (VP (VV 产生) (NP (NN 怨) (NN 恨))))))))))))) (. 。)))
+layer 2:
+{'IP': {'QP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'QP': {'CD': {}}, 'VP': {'NN': {}, 'IP': {}}, '.': {}}}
+{'QP': {'CD': {}}}
+{'VP': {'NN': {}, 'IP': {}}}
+Dependency Features:
+["['NUM', 'NOUN', 'nummod']", "['许多', '人告', 'nummod']"]
+["['NOUN', 'VERB', 'nsubj']", "['人告', '诫', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['诫', 'NONE', 'root']"]
+["['NOUN', 'VERB', 'obj']", "['大家', '诫', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '让', 'punct']"]
+["['AUX', 'VERB', 'aux']", "['要', '让', 'aux']"]
+["['VERB', 'VERB', 'xcomp']", "['让', '诫', 'xcomp']"]
+["['DET', 'NOUN', 'det']", "['这些', '事件', 'det']"]
+["['NOUN', 'NOUN', 'nmod']", "['袭击', '事件', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['事件', '让', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['让', '让', 'ccomp']"]
+["['NOUN', 'VERB', 'nsubj']", "['公众', '产生', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['对', '穆斯林', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['移民', '穆斯林', 'nmod']"]
+["['CCONJ', 'NOUN', 'cc']", "['或', '土长', 'cc']"]
+["['PROPN', 'NOUN', 'nmod']", "['土生', '土长', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['土长', '移民', 'conj']"]
+["['PART', 'NOUN', 'case']", "['的', '移民', 'case']"]
+["['NOUN', 'VERB', 'obl']", "['穆斯林', '产生', 'obl']"]
+["['VERB', 'VERB', 'ccomp']", "['产生', '让', 'ccomp']"]
+["['NOUN', 'NOUN', 'nmod']", "['怨', '恨', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['恨', '产生', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '诫', 'punct']"]
+----------------------------------------------------------------------
+在德国，基民盟 (德国执政基督教民主联盟的巴伐利亚姊妹党) 主席霍斯特·赛德尔的反应是典型的。
+
+(ROOT (IP (PP (VV 在) (NP (NNP 德国))) (, ，) (NP (DNP (NP (NP (NP (VV 基) (NNP 民盟)) (ADVP (NNP -LRB-德国)) (CP (CP (IP (VP (VV 执政) (NP (NNP 基督) (SFN 教) (NN 民主) (NN 联盟)))) (DEC 的))) (NP (NP (NNP 巴伐利亚)) (NP (NN 姊妹))) (NP (NN 党-RRB-)) (NP (NN 主席))) (NP (NNP 霍斯特) (/ ·) (NNP 赛德尔))) (DEC 的)) (NP (NN 反应))) (VP (VC 是) (NP (CP (CP (IP (VP (NN 典型))) (UH 的))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'NP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+["['VERB', 'NOUN', 'acl']", "['在', '典型', 'acl']"]
+["['PROPN', 'VERB', 'obj']", "['德国', '在', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '在', 'punct']"]
+["['VERB', 'PROPN', 'compound']", "['基', '民盟', 'compound']"]
+["['PROPN', 'NOUN', 'nmod']", "['民盟', '主席', 'nmod']"]
+["['PROPN', 'NOUN', 'nmod']", "['(德国', '联盟', 'nmod']"]
+["['VERB', 'NOUN', 'amod']", "['执政', '联盟', 'amod']"]
+["['PROPN', 'PART', 'compound']", "['基督', '教', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['教', '联盟', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['民主', '联盟', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['联盟', '基', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '基', 'mark:rel']"]
+["['PROPN', 'NOUN', 'nmod']", "['巴伐利亚', '主席', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['姊妹', '主席', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['党)', '主席', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['主席', '反应', 'nmod']"]
+["['PROPN', 'NOUN', 'appos']", "['霍斯特', '主席', 'appos']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '赛德尔', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['赛德尔', '霍斯特', 'flat:name']"]
+["['PART', 'NOUN', 'case']", "['的', '主席', 'case']"]
+["['NOUN', 'NOUN', 'nsubj']", "['反应', '典型', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '典型', 'cop']"]
+["['NOUN', 'ROOT', 'root']", "['典型', 'NONE', 'root']"]
+["['PART', 'NOUN', 'discourse']", "['的', '典型', 'discourse']"]
+["['PUNCT', 'NOUN', 'punct']", "['。', '典型', 'punct']"]
+----------------------------------------------------------------------
+他否认恐怖主义与移民政策之间存在任何联系，呼吁德国的反伊斯兰 Pegida 运动取消计划的示威，并表示他很高兴德国所有政党“都避免从袭击中获得政治利益”。
+
+(ROOT (IP (NP (PRP 他)) (VP (VP (VV 否认) (IP (LCP (NP (NN 恐怖) (NN 主义) (CC 与) (NN 移民) (NN 政策)) (IN 之间)) (VP (VV 存在) (NP (DP (DT 任何)) (NP (NN 联系)))))) (, ，) (VP (VV 呼吁) (NP (DNP (NP (NNP 德国)) (DEC 的)) (CP (IP (VP (VV 反) (IP (NP (NP (NP (NNP 伊斯兰)) (NP (FW Pegida))) (NP (NN 运动))) (VP (VV 取消) (NP (NN 计划)))))) (DEC 的)) (NP (NN 示威)))) (, ，) (RB 并) (VP (VV 表示) (IP (NP (PRP 他)) (VP (ADVP (RB 很)) (VP (VV 高兴) (IP (NP (NP (NNP 德国)) (DP (DT 所有)) (NP (NN 政党))) (VP (`` “) (ADVP (RB 都)) (VP (VV 避免) (IP (VP (PP (IN 从) (LCP (NP (NN 袭击)) (IN 中))) (VP (VV 获得) (NP (NN 政治) (NN 利益)))))) ('' ”)))))))) (. 。)))
+layer 2:
 {'IP': {'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP96287': {}, 'NN': {}, 'NN54685': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}, 'NN': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NNP': {}, '/': {}, 'NNP': {}, 'NN': {}, 'NN': {}}}
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+["['PRON', 'VERB', 'nsubj']", "['他', '表示', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['否认', '表示', 'advcl']"]
+["['NOUN', 'NOUN', 'nmod']", "['恐怖', '主义', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['主义', '存在', 'nsubj']"]
+["['CCONJ', 'NOUN', 'cc']", "['与', '政策', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['移民', '政策', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['政策', '主义', 'conj']"]
+["['ADP', 'NOUN', 'case']", "['之间', '主义', 'case']"]
+["['VERB', 'VERB', 'ccomp']", "['存在', '否认', 'ccomp']"]
+["['DET', 'NOUN', 'det']", "['任何', '联系', 'det']"]
+["['NOUN', 'VERB', 'obj']", "['联系', '存在', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '否认', 'punct']"]
+["['VERB', 'VERB', 'advcl']", "['呼吁', '表示', 'advcl']"]
+["['PROPN', 'NOUN', 'nmod']", "['德国', '运动', 'nmod']"]
+["['PART', 'PROPN', 'case']", "['的', '德国', 'case']"]
+["['VERB', 'NOUN', 'amod']", "['反', '运动', 'amod']"]
+["['PROPN', 'VERB', 'obj']", "['伊斯兰', '反', 'obj']"]
+["['X', 'NOUN', 'nmod']", "['Pegida', '运动', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['运动', '取消', 'nsubj']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['取消', '示威', 'acl:relcl']"]
+["['NOUN', 'VERB', 'obj']", "['计划', '取消', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '取消', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['示威', '呼吁', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '呼吁', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['并', '表示', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['表示', 'NONE', 'root']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '高兴', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['很', '高兴', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['高兴', '表示', 'ccomp']"]
+["['PROPN', 'NOUN', 'nmod']", "['德国', '政党', 'nmod']"]
+["['DET', 'NOUN', 'det']", "['所有', '政党', 'det']"]
+["['NOUN', 'VERB', 'nsubj']", "['政党', '避免', 'nsubj']"]
+["['PUNCT', 'VERB', 'punct']", "['“', '避免', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['都', '避免', 'mark']"]
+["['VERB', 'VERB', 'ccomp']", "['避免', '高兴', 'ccomp']"]
+["['ADP', 'NOUN', 'case']", "['从', '袭击', 'case']"]
+["['NOUN', 'VERB', 'obl']", "['袭击', '获得', 'obl']"]
+["['ADP', 'NOUN', 'case']", "['中', '袭击', 'case']"]
+["['VERB', 'VERB', 'xcomp']", "['获得', '避免', 'xcomp']"]
+["['NOUN', 'NOUN', 'nmod']", "['政治', '利益', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['利益', '获得', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['”', '避免', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '表示', 'punct']"]
+----------------------------------------------------------------------
+然而，在伊斯兰国 (IS) 宣称对巴黎周五晚上发生的袭击事件负责后，赛克费尔采取了截然不同的立场。
+
+(ROOT (IP (ADVP (RB 然而)) (, ，) (PP (IN 在) (LCP (IP (NP (NNP 伊斯兰) (SFN 国) (FW -LRB-IS-RRB-)) (VP (VV 宣称) (IP (NP (CP (CP (IP (VP (PP (IN 对) (NP (NP (NNP 巴黎)) (NP (NNP 周) (CD 五)) (NP (NN 晚上)))) (VP (VV 发生)))) (DEC 的))) (NP (NN 袭击) (NN 事件))) (VP (VV 负责))))) (IN 后))) (, ，) (NP (NNP 赛克费尔)) (VP (VV 采取) (AS 了) (NP (CP (CP (IP (VP (JJ 截然不同))) (DEC 的))) (NP (NN 立场)))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+["['ADV', 'VERB', 'mark']", "['然而', '采取', 'mark']"]
+["['PUNCT', 'ADV', 'punct']", "['，', '然而', 'punct']"]
+["['ADP', 'VERB', 'case']", "['在', '负责', 'case']"]
+["['PROPN', 'PART', 'compound']", "['伊斯兰', '国', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['国', '宣称', 'nsubj']"]
+["['X', 'PART', 'appos']", "['(IS)', '国', 'appos']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['宣称', '事件', 'acl:relcl']"]
+["['ADP', 'NOUN', 'case']", "['对', '晚上', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['巴黎', '晚上', 'nmod']"]
+["['PROPN', 'NOUN', 'nmod']", "['周', '晚上', 'nmod']"]
+["['NUM', 'NOUN', 'nummod']", "['五', '晚上', 'nummod']"]
+["['NOUN', 'VERB', 'obl']", "['晚上', '发生', 'obl']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['发生', '事件', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '发生', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['袭击', '事件', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['事件', '负责', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['负责', '采取', 'ccomp']"]
+["['ADP', 'VERB', 'mark']", "['后', '负责', 'mark']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '负责', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['赛克费尔', '采取', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['采取', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['了', '采取', 'aux']"]
+["['ADJ', 'NOUN', 'amod']", "['截然不同', '立场', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '截然不同', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['立场', '采取', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '采取', 'punct']"]
+----------------------------------------------------------------------
+他说，这些圣战分子的袭击表明需要“加强对欧洲外部边界以及国家边界的控制”，这是“在欧洲恢复法律和秩序”的问题。
+
+(ROOT (IP (NP (PRP 他)) (VP (VV 说) (, ，) (IP (IP (NP (DNP (NP (DP (DT 这些)) (NP (NN 圣战) (NN 分子))) (DEC 的)) (NP (NN 袭击))) (VP (VV 表明) (IP (VP (VV 需要) (VP (`` “) (VP (VV 加强) (NP (DNP (PP (IN 对) (NP (NP (NP (NNP 欧洲)) (NP (NN 外部) (NN 边界))) (CC 以及) (NP (NN 国家) (NN 边界)))) (DEC 的)) (NP (NN 控制)))) ('' ”)))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (NP (`` “) (VP (PP (VV 在) (NP (NNP 欧洲))) (VP (VV 恢复) (NP (NN 法律) (CC 和) (NN 秩序)))) ('' ”)) (DEC 的)) (NP (NN 问题))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
 {'VP': {'VV': {}, ',': {}, 'IP': {}}}
 Dependency Features:
-约翰	中心	nmod
-·	约翰	punct
-霍普金斯	中心	nmod
-医学	中心	nmod
-中心	宣布	nsubj
-宣布	ROOT	root
-，	取出	punct
-医生	们	compound
-们	取出	nsubj
-在	阴道	case
-一	名	nummod
-名	者	nmod
-捐献	者	compound
-者	阴道	nmod
-的	者	case
-阴道	取出	obl
-内	阴道	case
-取出	宣布	ccomp
-了	取出	aux
-一	个	nummod
-个	脏	clf
-健康	脏	amod
-的	健康	mark:rel
-肾	脏	nmod
-脏	取出	obj
-，	称	punct
-这	称	nsubj:pass
-被	称	aux:pass
-称	宣布	parataxis
-为	称	mark
-“	手术	punct
-有史	手术	nmod
-以来	有史	case
-的	有史	case
-第一	例	nummod
-例	手术	clf
-手术	称	obj
-”	手术	punct
-。	宣布	punct
+["['PRON', 'VERB', 'nsubj']", "['他', '说', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['说', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '表明', 'punct']"]
+["['DET', 'NOUN', 'det']", "['这些', '分子', 'det']"]
+["['NOUN', 'NOUN', 'nmod']", "['圣战', '分子', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['分子', '袭击', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '分子', 'case']"]
+["['NOUN', 'VERB', 'nsubj']", "['袭击', '表明', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['表明', '说', 'ccomp']"]
+["['VERB', 'VERB', 'xcomp']", "['需要', '表明', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['“', '加强', 'punct']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['加强', '控制', 'acl:relcl']"]
+["['ADP', 'NOUN', 'case']", "['对', '边界', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['欧洲', '边界', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['外部', '边界', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['边界', '加强', 'obl']"]
+["['CCONJ', 'NOUN', 'cc']", "['以及', '边界', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['国家', '边界', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['边界', '边界', 'conj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '加强', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['控制', '需要', 'obj']"]
+["['PUNCT', 'NOUN', 'punct']", "['”', '控制', 'punct']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '问题', 'punct']"]
+["['PRON', 'NOUN', 'nsubj']", "['这', '问题', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '问题', 'cop']"]
+["['PUNCT', 'VERB', 'punct']", "['“', '恢复', 'punct']"]
+["['VERB', 'VERB', 'advcl']", "['在', '恢复', 'advcl']"]
+["['PROPN', 'VERB', 'obj']", "['欧洲', '在', 'obj']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['恢复', '问题', 'acl:relcl']"]
+["['NOUN', 'VERB', 'obj']", "['法律', '恢复', 'obj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '秩序', 'cc']"]
+["['NOUN', 'NOUN', 'conj']", "['秩序', '法律', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['”', '恢复', 'punct']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '恢复', 'mark:rel']"]
+["['NOUN', 'VERB', 'ccomp']", "['问题', '说', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '说', 'punct']"]
 ----------------------------------------------------------------------
-Jennifer Gilbert 在中间，右边穿绿色衣服的是她的肾源 Kimberly Johnson。
+巴伐利亚州财政部长马库斯·施特拉尔 (Markus Söder) 也是基督教社会联盟 (CSU) 成员，他也表示同意：“巴黎事件改变了一切”，他补充说，这次袭击意味着“无控移民时代”的结束。
 
-(ROOT (IP (IP (NP (FW Jennifer) (FW Gilbert)) (VP (PP (VV 在) (NP (NN 中间))))) (, ，) (IP (NP (CP (CP (IP (NP (NN 右) (SFN 边)) (VP (VV 穿) (NP (ADJP (NN 绿色)) (NP (NN 衣服))))) (DEC 的)))) (VP (VC 是) (NP (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 肾源))) (NP (FW Kimberly) (FW Johnson))))) (. 。)))
+(ROOT (IP (IP (NP (NP (NP (NNP 巴伐利亚) (SFN 州)) (NP (NN 财政) (NN 部长))) (NP (NNP 马库斯) (/ ·) (NNP 施特拉尔) (FW -LRB-Markus) (FW Söder-RRB-))) (VP (VC 也是) (NP (NP (NNP 基督) (SFN 教) (NN 社会) (NN 联盟)) (NP (FW -LRB-CSU-RRB-)) (NP (NN 成员))))) (, ，) (IP (NP (PRP 他)) (VP (ADVP (RB 也)) (VP (VV 表示) (IP (VP (VV 同意) (: ：) (IP (`` “) (NP (NP (NNP 巴黎)) (NP (NN 事件))) (VP (VV 改变) (AS 了) (NP (NN 一切))) ('' ”))))))) (, ，) (IP (NP (PRP 他)) (VP (VP (VV 补充)) (VP (VV 说) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 次))) (NP (NN 袭击))) (VP (VV 意味) (AS 着) (NP (DNP (NP (`` “) (NP (ADJP (VV 无控)) (NP (NN 移民))) (NP (NN 时代)) ('' ”)) (DEC 的)) (NP (NN 结束)))))))) (. 。)))
 layer 2:
-{'IP': {'IP': {}, ',': {}, 'IP25102': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['PROPN', 'PART', 'compound']", "['巴伐利亚', '州', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['州', '部长', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['财政', '部长', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['部长', '表示', 'nsubj']"]
+["['PROPN', 'NOUN', 'appos']", "['马库斯', '部长', 'appos']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '施特拉尔', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['施特拉尔', '马库斯', 'flat:name']"]
+["['X', 'NOUN', 'appos']", "['(Markus', '部长', 'appos']"]
+["['X', 'X', 'flat:foreign']", "['Söder)', '(Markus', 'flat:foreign']"]
+["['AUX', 'NOUN', 'cop']", "['是', '成员', 'cop']"]
+["['PROPN', 'PART', 'compound']", "['基督', '教', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['教', '成员', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['社会', '成员', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['联盟', '成员', 'nmod']"]
+["['X', 'NOUN', 'nmod']", "['(CSU)', '成员', 'nmod']"]
+["['NOUN', 'VERB', 'advcl']", "['成员', '表示', 'advcl']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '成员', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '表示', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['也', '表示', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['表示', 'NONE', 'root']"]
+["['VERB', 'VERB', 'xcomp']", "['同意', '表示', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['：', '补充', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['“', '改变', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['巴黎', '事件', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['事件', '改变', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['改变', '补充', 'advcl']"]
+["['AUX', 'VERB', 'aux']", "['了', '改变', 'aux']"]
+["['NOUN', 'VERB', 'obj']", "['一切', '改变', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['”', '改变', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '改变', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '补充', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['补充', '表示', 'ccomp']"]
+["['VERB', 'VERB', 'xcomp']", "['说', '补充', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '意味', 'punct']"]
+["['DET', 'NOUN', 'det']", "['这', '次', 'det']"]
+["['NOUN', 'NOUN', 'clf']", "['次', '袭击', 'clf']"]
+["['NOUN', 'VERB', 'nsubj']", "['袭击', '意味', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['意味', '说', 'ccomp']"]
+["['AUX', 'VERB', 'aux']", "['着', '意味', 'aux']"]
+["['PUNCT', 'NOUN', 'punct']", "['“', '时代', 'punct']"]
+["['VERB', 'NOUN', 'amod']", "['无控', '时代', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['移民', '无控', 'obj']"]
+["['NOUN', 'NOUN', 'nmod']", "['时代', '结束', 'nmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['”', '时代', 'punct']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '无控', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['结束', '意味', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '表示', 'punct']"]
+----------------------------------------------------------------------
+袭击发生数小时后，基民盟领导人就利用这些袭击事件作为他们瓦解联邦总理安格拉·默克尔（Angela Merkel）的努力的一部分，并迫使她减缓中东移民的涌入。
+
+(ROOT (IP (LCP (IP (NP (VV 袭击)) (VP (VV 发生) (NP (QP (CD 数)) (NP (NN 小时))))) (IN 后)) (, ，) (NP (NP (NNP 基) (NN 民盟)) (NP (VV 领导) (SFN 人))) (VP (VP (ADVP (RB 就)) (VP (VP (VV 利用) (NP (DP (DT 这些)) (NP (NN 袭击) (NN 事件)))) (VP (VV 作) (PP (VC 为) (NP (DNP (NP (NP (PRP 他们)) (CP (IP (VP (VV 瓦解) (NP (NP (NN 联邦) (NN 总理)) (NP (NNP 安格拉) (/ ·) (NNP 默克尔) (PRN (-LRB- （) (NP (FW Angela) (FW Merkel)) (-RRB- ）)))))) (DEC 的)) (NP (NN 努力))) (DEC 的)) (QP (CD 一)) (NP (NN 部分))))))) (, ，) (RB 并) (VP (VV 迫使) (NP (PRP 她)) (IP (VP (VV 减缓) (NP (DNP (NP (NP (NNP 中东)) (NP (NN 移民))) (DEC 的)) (NP (NN 涌入))))))) (. 。)))
+layer 2:
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'IP': {}, 'IN': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+["['VERB', 'VERB', 'advcl']", "['袭击', '发生', 'advcl']"]
+["['VERB', 'NOUN', 'amod']", "['发生', '小时', 'amod']"]
+["['NUM', 'NOUN', 'nummod']", "['数', '小时', 'nummod']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['小时', '迫使', 'nmod:tmod']"]
+["['ADP', 'NOUN', 'case']", "['后', '小时', 'case']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '小时', 'punct']"]
+["['PROPN', 'PART', 'nmod']", "['基', '人', 'nmod']"]
+["['NOUN', 'PART', 'nmod']", "['民盟', '人', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['领导', '人', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['人', '迫使', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['就', '利用', 'mark']"]
+["['VERB', 'VERB', 'advcl']", "['利用', '迫使', 'advcl']"]
+["['DET', 'NOUN', 'det']", "['这些', '事件', 'det']"]
+["['NOUN', 'NOUN', 'nmod']", "['袭击', '事件', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['事件', '利用', 'obj']"]
+["['VERB', 'VERB', 'advcl']", "['作', '迫使', 'advcl']"]
+["['VERB', 'VERB', 'mark']", "['为', '作', 'mark']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '瓦解', 'nsubj']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['瓦解', '部分', 'acl:relcl']"]
+["['NOUN', 'NOUN', 'nmod']", "['联邦', '总理', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['总理', '瓦解', 'obj']"]
+["['PROPN', 'NOUN', 'appos']", "['安格拉', '总理', 'appos']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '默克尔', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['默克尔', '安格拉', 'flat:name']"]
+["['PUNCT', 'X', 'punct']", "['（', 'Angela', 'punct']"]
+["['X', 'PROPN', 'appos']", "['Angela', '安格拉', 'appos']"]
+["['X', 'X', 'flat:foreign']", "['Merkel', 'Angela', 'flat:foreign']"]
+["['PUNCT', 'X', 'punct']", "['）', 'Angela', 'punct']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '瓦解', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['努力', '作', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '瓦解', 'mark:rel']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '部分', 'nummod']"]
+["['NOUN', 'VERB', 'obj']", "['部分', '作', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '作', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['并', '迫使', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['迫使', 'NONE', 'root']"]
+["['PRON', 'VERB', 'nsubj']", "['她', '减缓', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['减缓', '迫使', 'ccomp']"]
+["['PROPN', 'NOUN', 'nmod']", "['中东', '移民', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['移民', '涌入', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '移民', 'case']"]
+["['NOUN', 'VERB', 'obj']", "['涌入', '减缓', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '迫使', 'punct']"]
+----------------------------------------------------------------------
+这种对比很有说服力。
+
+(ROOT (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 对比))) (VP (ADVP (RB 很)) (VP (VV 有) (NP (VV 说服) (SFN 力)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+["['DET', 'NOUN', 'det']", "['这', '种', 'det']"]
+["['NOUN', 'NOUN', 'clf']", "['种', '对比', 'clf']"]
+["['NOUN', 'VERB', 'nsubj']", "['对比', '有', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['很', '有', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['有', 'NONE', 'root']"]
+["['VERB', 'PART', 'compound']", "['说服', '力', 'compound']"]
+["['PART', 'VERB', 'obj']", "['力', '有', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有', 'punct']"]
+----------------------------------------------------------------------
+在星期五袭击事件发生后，至少 129 人在巴黎各地遇难，欧洲领导人再次发表同情和愤怒的声明，而他们的公民则集体携带鲜花和蜡烛，表达团结一致。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (IP (NP (NP (NN 星期) (CD 五)) (NP (NN 袭击) (NN 事件))) (VP (VV 发生))) (IN 后))) (, ，) (QP (ADVP (RB 至少)) (QP (CD 129))) (VP (PP (NN 人在) (NP (NP (NNP 巴黎)) (NP (NN 各地)))) (VP (VV 遇难)))) (, ，) (IP (NP (NP (NNP 欧洲)) (NP (VV 领导) (SFN 人))) (VP (ADVP (RB 再次)) (VP (VV 发表) (NP (DNP (NP (NN 同情) (CC 和) (JJ 愤怒)) (DEC 的)) (NP (NN 声明)))))) (, ，) (IP (ADVP (RB 而)) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 公民))) (VP (ADVP (RB 则)) (VP (VP (ADVP (NN 集体)) (VP (VV 携带) (NP (NN 鲜花) (CC 和) (NN 蜡烛)))) (, ，) (VP (VV 表达) (NP (JJ 团结) (JJ 一致)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'QP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'QP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+["['ADP', 'VERB', 'case']", "['在', '发生', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['星期', '事件', 'nmod']"]
+["['NUM', 'NOUN', 'nummod']", "['五', '星期', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['袭击', '事件', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['事件', '发生', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['发生', '遇难', 'ccomp']"]
+["['ADP', 'VERB', 'mark']", "['后', '发生', 'mark']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '发生', 'punct']"]
+["['ADV', 'NUM', 'advmod']", "['至少', '129', 'advmod']"]
+["['NUM', 'NOUN', 'nummod']", "['129', '人在', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['人在', '各地', 'nmod']"]
+["['PROPN', 'NOUN', 'nmod']", "['巴黎', '各地', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['各地', '遇难', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['遇难', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '发表', 'punct']"]
+["['PROPN', 'PART', 'nmod']", "['欧洲', '人', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['领导', '人', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['人', '发表', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['再次', '发表', 'advmod']"]
+["['VERB', 'VERB', 'parataxis']", "['发表', '遇难', 'parataxis']"]
+["['NOUN', 'VERB', 'obj']", "['同情', '发表', 'obj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '声明', 'cc']"]
+["['ADJ', 'NOUN', 'amod']", "['愤怒', '声明', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '愤怒', 'mark:rel']"]
+["['NOUN', 'NOUN', 'conj']", "['声明', '同情', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '表达', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['而', '表达', 'mark']"]
+["['PRON', 'NOUN', 'det']", "['他', '公民', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '他', 'case']"]
+["['NOUN', 'VERB', 'nsubj']", "['公民', '表达', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['则', '表达', 'mark']"]
+["['NOUN', 'VERB', 'obl']", "['集体', '携带', 'obl']"]
+["['VERB', 'VERB', 'advcl']", "['携带', '表达', 'advcl']"]
+["['NOUN', 'VERB', 'obj']", "['鲜花', '携带', 'obj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '蜡烛', 'cc']"]
+["['NOUN', 'NOUN', 'conj']", "['蜡烛', '鲜花', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '携带', 'punct']"]
+["['VERB', 'VERB', 'parataxis']", "['表达', '遇难', 'parataxis']"]
+["['ADJ', 'ADJ', 'amod']", "['团结', '一致', 'amod']"]
+["['ADJ', 'VERB', 'xcomp']", "['一致', '表达', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '遇难', 'punct']"]
+----------------------------------------------------------------------
+但是，“我是查理”的示威者拒绝将恐怖主义与移民或伊斯兰联系起来，但这一次的情绪更加复杂。
+
+(ROOT (IP (IP (ADVP (RB 但是)) (, ，) (NP (DNP (NP (`` “) (VV 我是) (NNP 查理) ('' ”)) (DEC 的)) (NP (VV 示威) (SFN 者))) (VP (VV 拒绝) (IP (VP (BB 将) (IP (NP (JJ 恐怖) (NN 主义)) (VP (PP (IN 与) (NP (NN 移民) (CC 或) (NNP 伊斯兰))) (VP (VRD (VV 联系) (VV 起来))))))))) (, ，) (IP (ADVP (RB 但)) (NP (DNP (DP (DT 这) (QP (CD 一) (CLP (NNB 次)))) (DEC 的)) (NP (NN 情绪))) (VP (ADVP (RB 更加)) (VP (JJ 复杂)))) (. 。)))
+layer 2:
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP33674': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+["['ADV', 'VERB', 'mark']", "['但是', '拒绝', 'mark']"]
+["['PUNCT', 'ADV', 'punct']", "['，', '但是', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['“', '是', 'punct']"]
+["['VERB', 'PART', 'acl:relcl']", "['是', '者', 'acl:relcl']"]
+["['PROPN', 'VERB', 'obj']", "['查理', '是', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['”', '是', 'punct']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '是', 'mark:rel']"]
+["['VERB', 'PART', 'compound']", "['示威', '者', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['者', '拒绝', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['拒绝', 'NONE', 'root']"]
+["['ADP', 'NOUN', 'case']", "['将', '主义', 'case']"]
+["['ADJ', 'NOUN', 'amod']", "['恐怖', '主义', 'amod']"]
+["['NOUN', 'VERB', 'obl:patient']", "['主义', '联系', 'obl:patient']"]
+["['ADP', 'NOUN', 'case']", "['与', '移民', 'case']"]
+["['NOUN', 'VERB', 'obl']", "['移民', '联系', 'obl']"]
+["['CCONJ', 'PROPN', 'cc']", "['或', '伊斯兰', 'cc']"]
+["['PROPN', 'NOUN', 'conj']", "['伊斯兰', '移民', 'conj']"]
+["['VERB', 'VERB', 'xcomp']", "['联系', '拒绝', 'xcomp']"]
+["['VERB', 'VERB', 'mark']", "['起来', '联系', 'mark']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '复杂', 'punct']"]
+["['ADV', 'ADJ', 'mark']", "['但', '复杂', 'mark']"]
+["['DET', 'NOUN', 'det']", "['这', '次', 'det']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '次', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['次', '情绪', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '次', 'case']"]
+["['NOUN', 'ADJ', 'nsubj']", "['情绪', '复杂', 'nsubj']"]
+["['ADV', 'ADJ', 'advmod']", "['更加', '复杂', 'advmod']"]
+["['ADJ', 'VERB', 'parataxis']", "['复杂', '拒绝', 'parataxis']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '拒绝', 'punct']"]
+----------------------------------------------------------------------
+恐怖分子以著名的报纸和犹太人超市为目标，让欧洲人能够将自己的愤怒围绕着积极的理念来框定：言论自由和宗教自由。
+
+(ROOT (IP (NP (JJ 恐怖) (NN 分子)) (VP (VP (PP (VV 以) (NP (NP (CP (CP (IP (VP (JJ 著名))) (DEC 的))) (NP (NN 报纸))) (CC 和) (NP (NNP 犹太) (SFN 人) (NN 超市)))) (VP (VC 为) (NP (NN 目标)))) (, ，) (VP (VV 让) (NP (NP (NNP 欧洲)) (NP (SFN 人))) (IP (VP (MD 能够) (VP (BB 将) (IP (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 愤怒))) (VP (VP (VV 围绕) (AS 着) (NP (CP (CP (IP (VP (JJ 积极))) (DEC 的))) (NP (NN 理念)))) (VP (RB 来) (VP (VV 框定) (: ：) (NP (NN 言论) (NN 自由) (CC 和) (NN 宗教) (NN 自由))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'JJ': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'JJ': {}, 'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+["['ADJ', 'NOUN', 'amod']", "['恐怖', '分子', 'amod']"]
+["['NOUN', 'VERB', 'nsubj']", "['分子', '让', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['以', '让', 'advcl']"]
+["['ADJ', 'NOUN', 'amod']", "['著名', '报纸', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '著名', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nsubj']", "['报纸', '目标', 'nsubj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '超市', 'cc']"]
+["['PROPN', 'PART', 'compound']", "['犹太', '人', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['人', '超市', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['超市', '报纸', 'conj']"]
+["['AUX', 'NOUN', 'cop']", "['为', '目标', 'cop']"]
+["['NOUN', 'VERB', 'ccomp']", "['目标', '以', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '以', 'punct']"]
+["['VERB', 'ROOT', 'root']", "['让', 'NONE', 'root']"]
+["['PROPN', 'PART', 'compound']", "['欧洲', '人', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['人', '框定', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['能够', '围绕', 'aux']"]
+["['ADP', 'NOUN', 'case']", "['将', '愤怒', 'case']"]
+["['PRON', 'NOUN', 'det']", "['自己', '愤怒', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '自己', 'case']"]
+["['NOUN', 'VERB', 'obl:patient']", "['愤怒', '围绕', 'obl:patient']"]
+["['VERB', 'VERB', 'advcl']", "['围绕', '框定', 'advcl']"]
+["['AUX', 'VERB', 'aux']", "['着', '围绕', 'aux']"]
+["['ADJ', 'NOUN', 'amod']", "['积极', '理念', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '积极', 'mark:rel']"]
+["['NOUN', 'VERB', 'iobj']", "['理念', '围绕', 'iobj']"]
+["['ADV', 'VERB', 'mark']", "['来', '框定', 'mark']"]
+["['VERB', 'VERB', 'ccomp']", "['框定', '让', 'ccomp']"]
+["['PUNCT', 'NOUN', 'punct']", "['：', '自由', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['言论', '自由', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['自由', '框定', 'obj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '自由', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['宗教', '自由', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['自由', '自由', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '让', 'punct']"]
+----------------------------------------------------------------------
+但是最新的袭击似乎是随机袭击公共场所——柬埔寨餐馆、足球场和音乐厅。
+
+(ROOT (IP (ADVP (RB 但是)) (NP (CP (CP (IP (VP (JJ 最新))) (DEC 的))) (NP (NN 袭击))) (VP (RB 似乎) (VP (VC 是) (VP (ADVP (RB 随机)) (VP (VV 袭击) (NP (NP (ADJP (JJ 公共)) (NP (NN 场所))) (HYPH —) (HYPH —) (NP (NP (NNP 柬埔寨)) (NP (NN 餐馆) (EC 、) (NN 足球) (SFN 场) (CC 和) (NN 音乐) (SFN 厅)))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'RB': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'RB': {}, 'VP': {}}}
+Dependency Features:
+["['ADV', 'VERB', 'mark']", "['但是', '是', 'mark']"]
+["['ADJ', 'NOUN', 'amod']", "['最新', '袭击', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '最新', 'mark:rel']"]
+["['NOUN', 'VERB', 'nsubj']", "['袭击', '是', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['似乎', '是', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['是', 'NONE', 'root']"]
+["['ADV', 'VERB', 'advmod']", "['随机', '袭击', 'advmod']"]
+["['VERB', 'VERB', 'xcomp']", "['袭击', '是', 'xcomp']"]
+["['ADJ', 'NOUN', 'amod']", "['公共', '场所', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['场所', '袭击', 'obj']"]
+["['PUNCT', 'NOUN', 'punct']", "['—', '餐馆', 'punct']"]
+["['PUNCT', 'NOUN', 'punct']", "['—', '餐馆', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['柬埔寨', '餐馆', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['餐馆', '场所', 'conj']"]
+["['PUNCT', 'PART', 'punct']", "['、', '场', 'punct']"]
+["['NOUN', 'PART', 'compound']", "['足球', '场', 'compound']"]
+["['PART', 'NOUN', 'conj']", "['场', '场所', 'conj']"]
+["['CCONJ', 'PART', 'cc']", "['和', '厅', 'cc']"]
+["['NOUN', 'PART', 'compound']", "['音乐', '厅', 'compound']"]
+["['PART', 'NOUN', 'conj']", "['厅', '场所', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '是', 'punct']"]
+----------------------------------------------------------------------
+一些欧洲人不可避免地开始将暴力与他们过去六个月来所关注的问题联系起来：流入他们大陆的中东难民潮。
+
+(ROOT (IP (NP (QP (JJ 一些)) (NP (NNP 欧洲)) (NP (SFN 人))) (VP (DVP (VP (ADVP (RB 不)) (VP (MD 可) (VP (VV 避免)))) (DEV 地)) (VP (VV 开始) (VP (VP (BB 将) (IP (NP (NN 暴力)) (VP (PP (CC 与) (NP (CP (CP (NP (NP (PRP 他们)) (VP (LCP (NP (QP (NP (NN 过去)) (QP (CD 六) (CLP (NNB 个)))) (NP (NN 月))) (IN 来)) (VP (RB 所) (VP (VV 关注))))) (DEC 的))) (NP (NN 问题)))) (VP (VRD (VV 联系) (VV 起来)))))) (: ：) (VP (VV 流入) (NP (DNP (NP (PRP 他们) (NN 大陆)) (DEC 的)) (NP (NNP 中东)) (ADJP (JJ 难)) (NP (NN 民潮))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}, 'NP': {}}, 'VP': {'DVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}, 'NP': {}}}
+{'VP': {'DVP': {}, 'VP': {}}}
+Dependency Features:
+["['ADJ', 'PART', 'amod']", "['一些', '人', 'amod']"]
+["['PROPN', 'PART', 'compound']", "['欧洲', '人', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['人', '开始', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['不', '避免', 'advmod']"]
+["['AUX', 'VERB', 'aux']", "['可', '避免', 'aux']"]
+["['VERB', 'VERB', 'advcl']", "['避免', '开始', 'advcl']"]
+["['PART', 'VERB', 'mark:adv']", "['地', '避免', 'mark:adv']"]
+["['VERB', 'ROOT', 'root']", "['开始', 'NONE', 'root']"]
+["['ADP', 'NOUN', 'case']", "['将', '问题', 'case']"]
+["['NOUN', 'VERB', 'obl:patient']", "['暴力', '关注', 'obl:patient']"]
+["['CCONJ', 'NOUN', 'cc']", "['与', '月', 'cc']"]
+["['PRON', 'NOUN', 'nmod']", "['他', '月', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['过去', '月', 'nmod']"]
+["['NUM', 'NOUN', 'nummod']", "['六', '个', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['个', '月', 'clf']"]
+["['NOUN', 'NOUN', 'conj']", "['月', '暴力', 'conj']"]
+["['ADP', 'NOUN', 'case']", "['来', '暴力', 'case']"]
+["['ADV', 'VERB', 'mark']", "['所', '关注', 'mark']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['关注', '问题', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '关注', 'mark:rel']"]
+["['NOUN', 'VERB', 'obl:patient']", "['问题', '联系', 'obl:patient']"]
+["['VERB', 'VERB', 'xcomp']", "['联系', '开始', 'xcomp']"]
+["['VERB', 'VERB', 'mark']", "['起来', '联系', 'mark']"]
+["['PUNCT', 'VERB', 'punct']", "['：', '流入', 'punct']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['流入', '民潮', 'acl:relcl']"]
+["['PRON', 'NOUN', 'nmod']", "['他', '大陆', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['大陆', '流入', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '流入', 'mark:rel']"]
+["['PROPN', 'NOUN', 'nmod']", "['中东', '民潮', 'nmod']"]
+["['ADJ', 'NOUN', 'amod']", "['难', '民潮', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['民潮', '联系', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '开始', 'punct']"]
+----------------------------------------------------------------------
+最明显的联系出现在波兰，波兰右翼法律与正义党 (PiS) 在十月份大获全胜，部分原因是民众对移民的恐惧。
+
+(ROOT (IP (IP (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 明显)))) (DEC 的))) (NP (NN 联系))) (VP (VV 出现) (PP (IN 在) (NP (NNP 波兰))))) (, ，) (IP (NP (NP (NNP 波兰)) (ADJP (NN 右翼)) (NP (NN 法律) (CC 与) (NN 正义) (SFN 党)) (NP (FW -LRB-PiS-RRB-))) (VP (PP (IN 在) (NP (QP (CD 十)) (NP (NNB 月份)))) (VP (VV 大获) (NP (NN 全胜))))) (, ，) (IP (NP (QP (NN 部分)) (NP (NN 原因))) (VP (VC 是) (NP (NP (NN 民众)) (DNP (PP (IN 对) (NP (NN 移民))) (DEC 的)) (NP (NN 恐惧))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['ADV', 'ADJ', 'advmod']", "['最', '明显', 'advmod']"]
+["['ADJ', 'NOUN', 'amod']", "['明显', '联系', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '明显', 'mark:rel']"]
+["['NOUN', 'VERB', 'nsubj']", "['联系', '出现', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['出现', 'NONE', 'root']"]
+["['ADP', 'PROPN', 'case']", "['在', '波兰', 'case']"]
+["['PROPN', 'VERB', 'obl']", "['波兰', '出现', 'obl']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '大获', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['波兰', '法律', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['右翼', '法律', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['法律', '大获', 'nsubj']"]
+["['CCONJ', 'PART', 'cc']", "['与', '党', 'cc']"]
+["['NOUN', 'PART', 'compound']", "['正义', '党', 'compound']"]
+["['PART', 'NOUN', 'conj']", "['党', '法律', 'conj']"]
+["['X', 'NOUN', 'appos']", "['(PiS)', '法律', 'appos']"]
+["['ADP', 'NOUN', 'case']", "['在', '月份', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['十', '月份', 'nummod']"]
+["['NOUN', 'VERB', 'obl']", "['月份', '大获', 'obl']"]
+["['VERB', 'VERB', 'parataxis']", "['大获', '出现', 'parataxis']"]
+["['NOUN', 'VERB', 'obj']", "['全胜', '大获', 'obj']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '恐惧', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['部分', '原因', 'nmod']"]
+["['NOUN', 'NOUN', 'nsubj']", "['原因', '恐惧', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '恐惧', 'cop']"]
+["['NOUN', 'NOUN', 'nmod']", "['民众', '恐惧', 'nmod']"]
+["['ADP', 'NOUN', 'case']", "['对', '恐惧', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['移民', '恐惧', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '恐惧', 'case']"]
+["['NOUN', 'VERB', 'parataxis']", "['恐惧', '出现', 'parataxis']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '出现', 'punct']"]
+----------------------------------------------------------------------
+波兰祖国党 (PiS) 即将上任的欧洲事务部长康拉德·辛曼斯基 (Konrad Szymanski) 在周六上午的一篇急迫的评论文章中写道，在巴黎袭击事件之后，他看不到执行欧盟重新分配难民申请人的新计划的“任何政治可能性”。“波兰必须保持对其边界、庇护和移民政策的完全控制，”辛曼斯基写道。
+
+(ROOT (IP (NP (NP (CP (CP (IP (NP (NP (NNP 波兰) (NN 祖国) (SFN 党)) (FW -LRB-PiS-RRB-)) (VP (ADVP (RB 即将)) (VP (VV 上任)))) (DEC 的))) (NP (NP (NNP 欧洲)) (NP (NN 事务))) (NP (NN 部长))) (NP (NNP 康拉德) (/ ·) (NNP 辛曼斯基) (FW -LRB-Konrad) (FW Szymanski-RRB-))) (VP (PP (IN 在) (LCP (NP (DNP (NP (NN 周六) (NN 上午)) (DEC 的)) (QP (CD 一) (CLP (NNB 篇))) (CP (CP (IP (VP (JJ 急迫))) (DEC 的))) (NP (NN 评论) (NN 文章))) (IN 中))) (VP (VV 写道) (, ，) (IP (PP (IN 在) (LCP (NP (NP (NNP 巴黎)) (NP (NN 袭击) (NN 事件))) (IN 之后))) (, ，) (NP (PRP 他)) (VP (VRD (VV 看) (VV 不到)) (NP (CP (IP (VP (VV 执行) (NP (CP (IP (NP (NNP 欧盟)) (VP (ADVP (RB 重新)) (VP (VV 分配) (NP (NN 难民) (VV 申请) (SFN 人))))) (DEC 的)) (ADJP (PFA 新)) (NP (NN 计划))))) (DEC 的)) (NP (`` “) (DP (DT 任何)) (NP (NN 政治) (NN 可能) (SFN 性)) ('' ”))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+["['PROPN', 'X', 'nmod']", "['波兰', '(PiS)', 'nmod']"]
+["['NOUN', 'PART', 'compound']", "['祖国', '党', 'compound']"]
+["['PART', 'X', 'nmod']", "['党', '(PiS)', 'nmod']"]
+["['X', 'VERB', 'nsubj']", "['(PiS)', '上任', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['即将', '上任', 'advmod']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['上任', '部长', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '上任', 'mark:rel']"]
+["['PROPN', 'NOUN', 'nmod']", "['欧洲', '部长', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['事务', '部长', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['部长', '写道', 'nsubj']"]
+["['PROPN', 'NOUN', 'appos']", "['康拉德', '部长', 'appos']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '辛曼斯基', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['辛曼斯基', '康拉德', 'flat:name']"]
+["['X', 'PROPN', 'appos']", "['(Konrad', '康拉德', 'appos']"]
+["['X', 'X', 'flat:foreign']", "['Szymanski)', '(Konrad', 'flat:foreign']"]
+["['ADP', 'NOUN', 'case']", "['在', '文章', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['周六', '上午', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['上午', '文章', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '上午', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '篇', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['篇', '文章', 'clf']"]
+["['ADJ', 'NOUN', 'amod']", "['急迫', '文章', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '急迫', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['评论', '文章', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['文章', '写道', 'obl']"]
+["['ADP', 'NOUN', 'case']", "['中', '文章', 'case']"]
+["['VERB', 'ROOT', 'root']", "['写道', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '看', 'punct']"]
+["['ADP', 'NOUN', 'case']", "['在', '事件', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['巴黎', '事件', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['袭击', '事件', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['事件', '看', 'obl']"]
+["['ADP', 'NOUN', 'case']", "['之后', '事件', 'case']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '事件', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '看', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['看', '写道', 'ccomp']"]
+["['VERB', 'VERB', 'mark']", "['到', '看', 'mark']"]
+["['VERB', 'VERB', 'xcomp']", "['执行', '看', 'xcomp']"]
+["['PROPN', 'VERB', 'nsubj']", "['欧盟', '分配', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['重新', '分配', 'advmod']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['分配', '计划', 'acl:relcl']"]
+["['NOUN', 'PART', 'nmod']", "['难民', '人', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['申请', '人', 'compound']"]
+["['PART', 'VERB', 'obj']", "['人', '分配', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '分配', 'mark:rel']"]
+["['PART', 'NOUN', 'case']", "['新', '计划', 'case']"]
+["['NOUN', 'VERB', 'obj']", "['计划', '执行', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '分配', 'mark:rel']"]
+["['PUNCT', 'PART', 'punct']", "['“', '性', 'punct']"]
+["['DET', 'PART', 'det']", "['任何', '性', 'det']"]
+["['NOUN', 'PART', 'nmod']", "['政治', '性', 'nmod']"]
+["['NOUN', 'PART', 'compound']", "['可能', '性', 'compound']"]
+["['PART', 'VERB', 'obj']", "['性', '执行', 'obj']"]
+["['PUNCT', 'PART', 'punct']", "['”', '性', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '写道', 'punct']"]
+----------------------------------------------------------------------
+德国今年预计将接收超过 100 万名寻求庇护者，德国为重新分配政策积极争取，欧盟委员会在几个成员国的强烈反对下于 9 月份批准了该政策。
+
+(ROOT (IP (IP (NP (NNP 德国)) (VP (NP (NN 今年)) (VP (VV 预计) (IP (VP (ADVP (RB 将)) (VP (VV 接收) (NP (QP (ADVP (VV 超过)) (QP (CD 100))) (CLP (NNB 万名)) (CP (IP (VP (VV 寻求) (NP (VV 庇护))))) (NP (SFN 者))))))))) (, ，) (IP (NP (NNP 德国)) (VP (PP (IN 为) (IP (VP (ADVP (RB 重新)) (VP (VV 分配) (NP (NN 政策)))))) (ADVP (RB 积极)) (VP (VV 争取)))) (, ，) (IP (NP (NNP 欧盟) (NN 委员) (SFN 会)) (VP (PP (IN 在) (LCP (NP (DNP (NP (QP (CD 几) (CLP (NNB 个))) (NP (NN 成员) (SFN 国))) (DEC 的)) (ADJP (JJ 强烈)) (NP (NN 反对))) (IN 下))) (PP (IN 于) (NP (CD 9) (NNB 月份))) (VP (VV 批准) (AS 了) (NP (DP (DT 该)) (NP (NN 政策)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['PROPN', 'VERB', 'nsubj']", "['德国', '预计', 'nsubj']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['今年', '预计', 'nmod:tmod']"]
+["['VERB', 'ROOT', 'root']", "['预计', 'NONE', 'root']"]
+["['ADV', 'VERB', 'advmod']", "['将', '接收', 'advmod']"]
+["['VERB', 'VERB', 'xcomp']", "['接收', '预计', 'xcomp']"]
+["['VERB', 'NOUN', 'amod']", "['超过', '万名', 'amod']"]
+["['NUM', 'NOUN', 'nummod']", "['100', '万名', 'nummod']"]
+["['NOUN', 'VERB', 'obl']", "['万名', '寻求', 'obl']"]
+["['VERB', 'VERB', 'ccomp']", "['寻求', '接收', 'ccomp']"]
+["['VERB', 'PART', 'compound']", "['庇护', '者', 'compound']"]
+["['PART', 'VERB', 'obj']", "['者', '寻求', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '接收', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['德国', '争取', 'nsubj']"]
+["['ADP', 'VERB', 'case']", "['为', '分配', 'case']"]
+["['ADV', 'VERB', 'advmod']", "['重新', '分配', 'advmod']"]
+["['VERB', 'VERB', 'xcomp']", "['分配', '争取', 'xcomp']"]
+["['NOUN', 'VERB', 'obj']", "['政策', '分配', 'obj']"]
+["['ADV', 'VERB', 'advmod']", "['积极', '争取', 'advmod']"]
+["['VERB', 'VERB', 'advcl']", "['争取', '批准', 'advcl']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '批准', 'punct']"]
+["['PROPN', 'PART', 'nmod']", "['欧盟', '会', 'nmod']"]
+["['NOUN', 'PART', 'compound']", "['委员', '会', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['会', '批准', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['在', '反对', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['几', '个', 'nummod']"]
+["['NOUN', 'PART', 'nmod']", "['个', '国', 'nmod']"]
+["['NOUN', 'PART', 'compound']", "['成员', '国', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['国', '反对', 'nmod']"]
+["['PART', 'PART', 'case']", "['的', '国', 'case']"]
+["['ADJ', 'NOUN', 'amod']", "['强烈', '反对', 'amod']"]
+["['NOUN', 'VERB', 'obl']", "['反对', '批准', 'obl']"]
+["['ADP', 'NOUN', 'case']", "['下', '反对', 'case']"]
+["['ADP', 'NOUN', 'case']", "['于', '月份', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['9', '月份', 'nummod']"]
+["['NOUN', 'VERB', 'obl']", "['月份', '批准', 'obl']"]
+["['VERB', 'VERB', 'parataxis']", "['批准', '预计', 'parataxis']"]
+["['AUX', 'VERB', 'aux']", "['了', '批准', 'aux']"]
+["['DET', 'NOUN', 'det']", "['该', '政策', 'det']"]
+["['NOUN', 'VERB', 'obj']", "['政策', '批准', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '预计', 'punct']"]
+----------------------------------------------------------------------
+波兰拒绝执行协议将引发巨大争议。
+
+(ROOT (IP (IP (NP (NNP 波兰)) (VP (VV 拒绝) (IP (VP (VV 执行) (NP (NN 协议)))))) (VP (ADVP (RB 将)) (VP (VV 引发) (NP (ADJP (JJ 巨大)) (NP (NN 争议))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+["['PROPN', 'VERB', 'nsubj']", "['波兰', '引发', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['拒绝', '引发', 'advcl']"]
+["['VERB', 'VERB', 'xcomp']", "['执行', '拒绝', 'xcomp']"]
+["['NOUN', 'VERB', 'obj']", "['协议', '执行', 'obj']"]
+["['ADV', 'VERB', 'advmod']", "['将', '引发', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['引发', 'NONE', 'root']"]
+["['ADJ', 'NOUN', 'amod']", "['巨大', '争议', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['争议', '引发', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '引发', 'punct']"]
+----------------------------------------------------------------------
+(萨克森州议会成员格德·利普洛德 (Gerd Lippold) 在推特上发文说，如果欧洲人都像斯扎曼斯基先生一样想，“德国和波兰之间很快就会建起防御汽车偷窃的围墙”。
+
+(ROOT (IP (NP (NP (NP (NNP -LRB-萨克森) (SFN 州)) (NP (NN 议会) (NN 成员))) (NP (NNP 格德) (/ ·) (NNP 利普洛德) (FW -LRB-Gerd) (FW Lippold-RRB-))) (VP (PP (IN 在) (LCP (NP (NN 推特)) (IN 上))) (VP (VP (VV 发文)) (VP (VV 说) (, ，) (CP (ADVP (IN 如果)) (IP (NP (NP (NNP 欧洲)) (NP (SFN 人))) (VP (IP (VP (ADVP (RB 都)) (PP (IN 像) (NP (NNP 斯扎曼斯基) (NN 先生))) (VP (JJ 一样)))) (VP (MD 想) (, ，) (IP (`` “) (LCP (NP (NNP 德国) (CC 和) (NNP 波兰)) (IN 之间)) (VP (ADVP (JJ 很快)) (ADVP (RB 就)) (VP (MD 会) (VP (VV 建起) (NP (CP (CP (IP (NP (NN 防御) (NN 汽车)) (VP (VV 偷窃))) (DEC 的))) (NP (NN 围墙)))))) ('' ”))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+["['PROPN', 'PART', 'compound']", "['(萨克森', '州', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['州', '成员', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['议会', '成员', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['成员', '说', 'nsubj']"]
+["['PROPN', 'NOUN', 'appos']", "['格德', '成员', 'appos']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '利普洛德', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['利普洛德', '格德', 'flat:name']"]
+["['X', 'NOUN', 'appos']", "['(Gerd', '成员', 'appos']"]
+["['X', 'X', 'flat:foreign']", "['Lippold)', '(Gerd', 'flat:foreign']"]
+["['ADP', 'NOUN', 'case']", "['在', '推特', 'case']"]
+["['NOUN', 'VERB', 'obl']", "['推特', '说', 'obl']"]
+["['ADP', 'NOUN', 'case']", "['上', '推特', 'case']"]
+["['VERB', 'VERB', 'advcl']", "['发文', '说', 'advcl']"]
+["['VERB', 'ROOT', 'root']", "['说', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '建起', 'punct']"]
+["['ADP', 'ADJ', 'case']", "['如果', '一样', 'case']"]
+["['PROPN', 'PART', 'compound']", "['欧洲', '人', 'compound']"]
+["['PART', 'ADJ', 'nsubj']", "['人', '一样', 'nsubj']"]
+["['ADV', 'ADJ', 'mark']", "['都', '一样', 'mark']"]
+["['ADP', 'NOUN', 'case']", "['像', '先生', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['斯扎曼斯基', '先生', 'nmod']"]
+["['NOUN', 'ADJ', 'nmod']", "['先生', '一样', 'nmod']"]
+["['ADJ', 'AUX', 'advcl']", "['一样', '想', 'advcl']"]
+["['AUX', 'VERB', 'aux']", "['想', '建起', 'aux']"]
+["['PUNCT', 'AUX', 'punct']", "['，', '想', 'punct']"]
+["['PUNCT', 'PROPN', 'punct']", "['“', '德国', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['德国', '建起', 'nsubj']"]
+["['CCONJ', 'PROPN', 'cc']", "['和', '波兰', 'cc']"]
+["['PROPN', 'PROPN', 'conj']", "['波兰', '德国', 'conj']"]
+["['ADP', 'PROPN', 'case']", "['之间', '德国', 'case']"]
+["['ADJ', 'VERB', 'advmod']", "['很快', '建起', 'advmod']"]
+["['ADV', 'VERB', 'mark']", "['就', '建起', 'mark']"]
+["['AUX', 'VERB', 'aux']", "['会', '建起', 'aux']"]
+["['VERB', 'VERB', 'ccomp']", "['建起', '说', 'ccomp']"]
+["['NOUN', 'NOUN', 'nmod']", "['防御', '汽车', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['汽车', '偷窃', 'nsubj']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['偷窃', '围墙', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '偷窃', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['围墙', '建起', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['”', '建起', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '说', 'punct']"]
+----------------------------------------------------------------------
+波兰即将上任的总理贝娅塔·希德沃 (Beata Szydlo) 拒绝支持西曼斯基的立场，西曼斯基随后做出回应，表示波兰可以接受这项协议，但前提是“安全保证”。
+
+(ROOT (IP (IP (NP (NP (NP (NNP 波兰)) (CP (CP (IP (VP (ADVP (RB 即将)) (VP (VV 上任)))) (DEC 的))) (NP (NN 总理))) (NP (NNP 贝娅塔) (/ ·) (NNP 希德沃) (FW -LRB-Beata) (FW Szydlo-RRB-))) (VP (VV 拒绝) (IP (VP (VV 支持) (NP (DNP (NP (NNP 西曼斯基)) (DEC 的)) (NP (NN 立场))))))) (, ，) (IP (NP (NNP 西曼斯基)) (VP (VP (ADVP (RB 随后)) (VP (VV 做出) (NP (NN 回应)))) (, ，) (VP (VV 表示) (IP (IP (NP (NNP 波兰)) (VP (MD 可以) (VP (VV 接受) (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 协议)))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 前提)) (VP (VC 是) (NP (`` “) (NN 安全) (NN 保证) ('' ”)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
 {'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 Dependency Features:
-Jennifer	在	nsubj
-Gilbert	Jennifer	flat:foreign
-在	肾源	acl
-中间	在	obj
-，	在	punct
-右	边	compound
-边	穿	nsubj
-穿	肾源	acl:relcl
-绿色	衣服	nmod
-衣服	穿	obj
-的	穿	mark:rel
-是	肾源	cop
-她	肾源	amod
-的	她	mark:rel
-肾源	ROOT	root
-Kimberly	肾源	appos
-Johnson	Kimberly	flat:foreign
-。	肾源	punct
+["['PROPN', 'VERB', 'nsubj']", "['波兰', '上任', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['即将', '上任', 'advmod']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['上任', '总理', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '上任', 'mark:rel']"]
+["['NOUN', 'VERB', 'nsubj']", "['总理', '拒绝', 'nsubj']"]
+["['PROPN', 'NOUN', 'appos']", "['贝娅塔', '总理', 'appos']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '希德沃', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['希德沃', '贝娅塔', 'flat:name']"]
+["['X', 'NOUN', 'appos']", "['(Beata', '总理', 'appos']"]
+["['X', 'X', 'flat:foreign']", "['Szydlo)', '(Beata', 'flat:foreign']"]
+["['VERB', 'ROOT', 'root']", "['拒绝', 'NONE', 'root']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['支持', '立场', 'acl:relcl']"]
+["['PROPN', 'VERB', 'obj']", "['西曼斯基', '支持', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '支持', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['立场', '拒绝', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '表示', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['西曼斯基', '表示', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['随后', '做出', 'advmod']"]
+["['VERB', 'VERB', 'advcl']", "['做出', '表示', 'advcl']"]
+["['NOUN', 'VERB', 'obj']", "['回应', '做出', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '做出', 'punct']"]
+["['VERB', 'VERB', 'parataxis']", "['表示', '拒绝', 'parataxis']"]
+["['PROPN', 'VERB', 'nsubj']", "['波兰', '接受', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['可以', '接受', 'aux']"]
+["['VERB', 'VERB', 'ccomp']", "['接受', '表示', 'ccomp']"]
+["['DET', 'NOUN', 'det']", "['这', '项', 'det']"]
+["['NOUN', 'NOUN', 'clf']", "['项', '协议', 'clf']"]
+["['NOUN', 'VERB', 'obj']", "['协议', '接受', 'obj']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '保证', 'punct']"]
+["['ADV', 'NOUN', 'mark']", "['但', '保证', 'mark']"]
+["['NOUN', 'NOUN', 'nsubj']", "['前提', '保证', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '保证', 'cop']"]
+["['PUNCT', 'NOUN', 'punct']", "['“', '保证', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['安全', '保证', 'nmod']"]
+["['NOUN', 'VERB', 'parataxis']", "['保证', '拒绝', 'parataxis']"]
+["['PUNCT', 'NOUN', 'punct']", "['”', '保证', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '拒绝', 'punct']"]
 ----------------------------------------------------------------------
-虽然此前曾有过将危及患者健康的癌症和无功能肾脏移除的手术，但这次的手术是首次为捐赠目的进行的，该中心在周一发布的新闻稿中表示。
+但是，其他中欧和东欧国家也提出了类似的论点，其中许多国家投票反对移民重新分配协议。
 
-(ROOT (IP (IP (IP (VP (ADVP (IN 虽然)) (ADVP (NN 此前)) (ADVP (RB 曾)) (VP (VV 有) (AS 过) (NP (CP (IP (VP (BB 将) (IP (NP (NP (NP (NN 危)) (CC 及) (NP (NP (NN 患者)) (CP (CP (IP (VP (JJ 健康))) (DEC 的))) (NP (NN 癌症)))) (CC 和) (NP (CP (IP (VP (VV 无) (NP (NN 功能))))) (NP (NN 肾) (NN 脏)))) (VP (VV 移除))))) (DEC 的)) (NP (NN 手术)))))) (, ，) (ADVP (RB 但)) (NP (DNP (DP (DT 这) (CLP (NNB 次))) (DEC 的)) (NP (NN 手术))) (VP (VC 是) (NP (CP (CP (IP (VP (ADVP (CD 首次)) (PP (IN 为) (NP (DNP (NP (VV 捐赠) (SFN 目)) (DEC 的)))) (VP (VV 进行)))) (UH 的)))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 中心))) (VP (PP (IN 在) (LCP (NP (CP (CP (IP (VP (NP (NNP 周) (CD 一)) (VP (VV 发布)))) (DEC 的))) (NP (NN 新闻) (SFN 稿))) (IN 中))) (VP (VV 表示)))) (. 。)))
+(ROOT (IP (IP (ADVP (RB 但是)) (, ，) (NP (DP (DT 其他)) (NP (NP (NNP 中) (NNP 欧)) (CC 和) (NP (NP (NN 东)) (NP (NNP 欧)) (NP (NN 国家))))) (VP (ADVP (RB 也)) (VP (VV 提出) (AS 了) (NP (CP (CP (IP (VP (JJ 类似))) (DEC 的))) (NP (NN 论点)))))) (, ，) (IP (NP (NN 其中)) (NP (QP (CD 许多)) (NP (NN 国家))) (VP (VSB (VV 投票) (VV 反对)) (IP (NP (NN 移民)) (VP (ADVP (RB 重新)) (VP (VV 分配) (NP (NN 协议))))))) (. 。)))
 layer 2:
-{'IP': {'IP': {}, ',': {}, 'IP32944': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'IP': {'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP93612': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}}}
 Dependency Features:
-虽然	有	case
-此前	有	nmod:tmod
-曾	有	advmod
-有	是	xcomp
-过	有	aux
-将	癌症	case
-危	癌症	nmod
-及	健康	cc
-患者	健康	nsubj
-健康	危	conj
-的	危	case
-癌症	手术	nmod
-和	脏	cc
-无	脏	amod
-功能	脏	nmod
-肾	脏	nmod
-脏	移除	nsubj
-移除	癌症	acl:relcl
-的	移除	mark:rel
-手术	有	obj
-，	有	punct
-但	是	mark
-这	次	det
-次	手术	clf
-的	次	mark:rel
-手术	是	nsubj
-是	ROOT	root
-首次	进行	obl
-为	目	case
-捐赠	目	compound
-目	进行	obl
-的	进行	mark:adv
-进行	是	xcomp
-的	是	discourse
-，	表示	punct
-该	中心	det
-中心	表示	nsubj
-在	稿	case
-周	一	nmod
-一	发布	obl
-发布	稿	acl:relcl
-的	发布	mark:rel
-新闻	稿	compound
-稿	表示	obl
-中	稿	case
-表示	是	parataxis
-。	是	punct
+["['ADV', 'VERB', 'mark']", "['但是', '提出', 'mark']"]
+["['PUNCT', 'ADV', 'punct']", "['，', '但是', 'punct']"]
+["['DET', 'NOUN', 'det']", "['其他', '国家', 'det']"]
+["['PROPN', 'NOUN', 'nmod']", "['中', '国家', 'nmod']"]
+["['PROPN', 'NOUN', 'nmod']", "['欧', '国家', 'nmod']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '东', 'cc']"]
+["['NOUN', 'PROPN', 'conj']", "['东', '欧', 'conj']"]
+["['PROPN', 'NOUN', 'nmod']", "['欧', '国家', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['国家', '提出', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['也', '提出', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['提出', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['了', '提出', 'aux']"]
+["['ADJ', 'NOUN', 'amod']", "['类似', '论点', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '类似', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['论点', '提出', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '投票', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['其中', '国家', 'nmod']"]
+["['NUM', 'NOUN', 'nummod']", "['许多', '国家', 'nummod']"]
+["['NOUN', 'VERB', 'nsubj']", "['国家', '投票', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['投票', '提出', 'parataxis']"]
+["['VERB', 'VERB', 'xcomp']", "['反对', '投票', 'xcomp']"]
+["['NOUN', 'VERB', 'nsubj']", "['移民', '分配', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['重新', '分配', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['分配', '反对', 'ccomp']"]
+["['NOUN', 'VERB', 'obj']", "['协议', '分配', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '提出', 'punct']"]
 ----------------------------------------------------------------------
-约翰·霍普金斯大学移植外科主任罗伯特·蒙哥马利博士在新闻稿中表示：“肾脏成功移除并植入到捐赠者的侄女体内，两位患者都情况良好。”
+在捷克，最受民众欢迎的政客安德烈·巴比斯 (Andrej Babis) 是一位迷人的财政部长兼媒体大亨，他表示，关闭欧洲申根区的外部边界是必要的。
 
-(ROOT (IP (NP (NP (NP (NNP 约翰) (/ ·) (NNP 霍普金斯) (NN 大学)) (NP (NN 移植) (NN 外科) (NN 主任))) (NP (NNP 罗伯特) (/ ·) (NNP 蒙哥马利) (NN 博士))) (VP (PP (IN 在) (LCP (NP (NN 新闻) (SFN 稿)) (IN 中))) (VP (VV 表示) (: ：) (IP (`` “) (IP (NP (NN 肾脏)) (VP (VP (ADVP (RB 成功)) (VP (VV 移除))) (CC 并) (VP (VRD (VV 植入) (VV 到)) (NP (NP (DNP (NP (VV 捐赠) (SFN 者)) (DEC 的)) (NP (NN 侄女))) (NP (NN 体内)))))) (, ，) (IP (NP (QP (CD 两) (CLP (NNB 位))) (NP (NN 患者))) (ADVP (RB 都)) (NP (NN 情况)) (VP (JJ 良好)))))) (. 。) ('' ”)))
+(ROOT (IP (IP (PP (VV 在) (NP (NNP 捷克))) (, ，) (NP (NP (CP (CP (IP (VP (VV 最受) (NP (NN 民众) (VV 欢迎)))) (DEC 的))) (NP (NN 政客))) (NP (NNP 安德烈) (/ ·) (NNP 巴比斯) (FW -LRB-Andrej) (FW Babis-RRB-))) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 位))) (CP (CP (IP (VP (JJ 迷人))) (DEC 的))) (NP (NN 财政) (NN 部长) (CC 兼) (NN 媒体) (NN 大亨))))) (, ，) (IP (NP (PRP 他)) (VP (VV 表示) (, ，) (IP (NP (CP (CP (IP (VP (VV 关闭) (NP (NNP 欧洲) (VV 申根) (SFN 区)))) (DEC 的))) (NP (NN 外部) (NN 边界))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 必要))) (UH 的)))))))) (. 。)))
 layer 2:
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-layer 3:
-{'IP': {'NP': {'NP': {}, 'NP46974': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'PP': {}, 'VP': {}}}
-Dependency Features:
-约翰	主任	nmod
-·	约翰	punct
-霍普金斯	主任	nmod
-大学	主任	nmod
-移植	主任	nmod
-外科	主任	nmod
-主任	博士	nmod
-罗伯特	博士	nmod
-·	蒙哥马利	punct
-蒙哥马利	罗伯特	flat:name
-博士	表示	nsubj
-在	稿	case
-新闻	稿	compound
-稿	表示	obl
-中	稿	case
-表示	ROOT	root
-：	良好	punct
-“	良好	punct
-肾脏	移除	nsubj
-成功	移除	advmod
-移除	体内	acl:relcl
-并	植入	cc
-植入	移除	conj
-到	植入	mark
-捐赠	者	compound
-者	植入	obj
-的	移除	mark:rel
-侄女	体内	nmod
-体内	良好	nmod
-，	体内	punct
-两	位	nummod
-位	患者	clf
-患者	良好	nsubj
-都	良好	mark
-情况	良好	obl
-良好	表示	ccomp
-。	良好	punct
-”	良好	punct
-----------------------------------------------------------------------
-它补充说，这种手术被认为是不那么侵入性的，可能会为增加器官捐赠铺平道路。
-
-(ROOT (IP (NP (PRP 它)) (VP (VP (VV 补充)) (VP (VV 说) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 手术))) (VP (VP (BB 被) (VP (VCP (VV 认为) (VC 是)) (NP (CP (CP (IP (VP (ADVP (RB 不)) (ADVP (RB 那么)) (VP (VV 侵入) (NP (SFN 性))))) (UH 的)))))) (, ，) (VP (MD 可能) (VP (MD 会) (VP (PP (IN 为) (IP (VP (VV 增加) (NP (NN 器官) (NN 捐赠))))) (VP (VV 铺平) (NP (NN 道路)))))))))) (. 。)))
-layer 2:
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-layer 3:
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP40378': {}}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, 'VP': {}}}
-Dependency Features:
-它	说	nsubj
-补充	说	advcl
-说	ROOT	root
-，	铺平	punct
-这	种	det
-种	手术	clf
-手术	铺平	nsubj
-被	为	aux:pass
-为	铺平	advcl
-是	性	cop
-不	那么	advmod
-那么	性	advmod
-侵入	性	compound
-性	为	xcomp
-的	为	discourse
-，	为	punct
-可能	铺平	aux
-会	铺平	aux
-为	增加	case
-增加	铺平	xcomp
-器官	捐赠	nmod
-捐赠	增加	obj
-铺平	说	ccomp
-道路	铺平	obj
-。	说	punct
-----------------------------------------------------------------------
-蒙哥马利表示，通过自然开口去除肾脏应该加快患者的康复，并提供更好的美容效果。
-
-(ROOT (IP (NP (NNP 蒙哥马利)) (VP (VV 表示) (, ，) (IP (VP (PP (IN 通过) (IP (VP (VP (ADVP (NN 自然)) (VP (VV 开口))) (VP (VV 去除) (NP (NN 肾) (NN 脏)))))) (VP (MD 应该) (VP (VP (VV 加快) (NP (DNP (NP (NN 患者)) (DEC 的)) (NP (NN 康复)))) (, ，) (CC 并) (VP (VV 提供) (NP (CP (CP (IP (VP (JJ 更好))) (DEC 的))) (NP (NN 美容) (NN 效果))))))))) (. 。)))
-layer 2:
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-layer 3:
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-Dependency Features:
-蒙哥马利	表示	nsubj
-表示	ROOT	root
-，	提供	punct
-通过	自然	case
-自然	开口	obl
-开口	去除	advcl
-去除	加快	advcl
-肾	脏	nmod
-脏	去除	obj
-应该	加快	aux
-加快	提供	advcl
-患者	康复	nmod
-的	患者	case
-康复	加快	obj
-，	加快	punct
-并	提供	cc
-提供	表示	xcomp
-更好	效果	amod
-的	更好	mark:rel
-美容	效果	nmod
-效果	提供	obj
-。	表示	punct
-----------------------------------------------------------------------
-周二，他告诉美国有线电视新闻网 (CNN)，“我们想让人们捐献血液变得更加简单，对他们的生活影响更小，在医院住的时间更短，回归生活更快。”
-
-(ROOT (IP (NP (NN 周二)) (, ，) (NP (PRP 他)) (VP (VV 告诉) (NP (NP (NP (NP (NNP 美国)) (NP (ADJP (NN 有线)) (NP (NN 电视))) (NP (NN 新闻) (SFN 网))) (NP (FW -LRB-CNN))) (-RRB- -RRB-)) (, ，) (IP (`` “) (IP (NP (PRP 我们)) (VP (VP (MD 想) (IP (VP (VV 让) (NP (NN 人们)) (IP (VP (VV 捐献) (NP (NN 血液))))))) (VP (VV 变得) (VP (ADVP (RB 更加)) (VP (JJ 简单)))))) (, ，) (IP (PP (IN 对) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 生活)))) (NP (VV 影响)) (VP (JJ 更小))) (, ，) (IP (VP (PP (VV 在) (NP (CP (CP (IP (NP (NN 医院)) (VP (VV 住))) (DEC 的))) (NP (NN 时间)))) (VP (JJ 更短)))) (, ，) (IP (NP (VV 回归) (NN 生活)) (VP (JJ 更快))))) (. 。) ('' ”)))
-layer 2:
-{'IP': {'NP': {}, ',': {}, 'NP22154': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-layer 3:
-{'IP': {'NP': {'NN': {}}, ',': {}, 'NP46177': {'PRP': {}}, 'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'IP': {'NP': {'NN': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'NP': {'NN': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}}
-Dependency Features:
-周二	告诉	nmod:tmod
-，	周二	punct
-他	告诉	nsubj
-告诉	ROOT	root
-美国	网	nmod
-有线	网	nmod
-电视	网	nmod
-新闻	网	compound
-网	告诉	obj
-(CNN	网	appos
-)	网	punct
-，	更快	punct
-“	更快	punct
-我	影响	nsubj
-想	让	aux
-让	影响	advcl
-人	捐献	nsubj
-捐献	变得	advcl
-血液	捐献	obj
-变得	让	ccomp
-更加	变得	advmod
-简单	变得	xcomp
-，	让	punct
-对	生活	case
-他	生活	det
-的	他	mark:rel
-生活	更小	nmod
-影响	更快	advcl
-更小	影响	xcomp
-，	影响	punct
-在	住	advcl
-医院	在	obj
-住	时间	acl:relcl
-的	住	mark:rel
-时间	更短	nsubj
-更短	更快	advcl
-，	更短	punct
-回归	更快	advcl
-生活	更快	nsubj
-更快	告诉	parataxis
-。	告诉	punct
-”	更快	punct
-----------------------------------------------------------------------
-他补充说，这名女性被选中成为首个接受这项手术的捐献者，因为之前的子宫切除术使医生能够在没有子宫阻碍的情况下进行手术。
-
-(ROOT (IP (NP (PRP 他)) (VP (VP (VV 补充)) (VP (VV 说) (, ，) (IP (IP (NP (DP (DT 这) (CLP (NNB 名))) (NP (NN 女性))) (VP (BB 被) (VP (VV 选中) (IP (VP (VV 成) (VP (VC 为) (NP (QP (CD 首个)) (CP (CP (IP (VP (VV 接受) (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 手术))))) (DEC 的))) (NP (VV 捐献) (SFN 者))))))))) (, ，) (PP (IN 因为) (IP (NP (DNP (ADJP (IN 之前)) (DEC 的)) (NP (NN 子) (NN 宫切) (NN 除术))) (VP (VV 使) (NP (NN 医生)) (IP (VP (MD 能够) (VP (PP (IN 在) (LCP (NP (CP (IP (VP (VV 没有) (IP (NP (NN 子宫)) (VP (VV 阻碍))))) (DEC 的)) (NP (NN 情况))) (IN 下))) (VP (VV 进行) (NP (NN 手术)))))))))))) (. 。)))
-layer 2:
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-layer 3:
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP7547': {}}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VP': {}, 'VP': {}}}
-Dependency Features:
-他	说	nsubj
-补充	说	advcl
-说	ROOT	root
-，	选中	punct
-这	名	det
-名	女性	clf
-女性	选中	nsubj:pass
-被	选中	aux:pass
-选中	说	ccomp
-成	选中	xcomp
-为	成	mark
-首个	接受	nsubj
-接受	者	acl:relcl
-这	项	det
-项	手术	clf
-手术	接受	obj
-的	接受	mark:rel
-捐献	者	compound
-者	成	obj
-，	使	punct
-因为	使	case
-之前	子	case
-的	之前	mark:rel
-子	除术	nmod
-宫切	除术	nmod
-除术	使	nsubj
-使	说	ccomp
-医生	进行	nsubj
-能够	进行	aux
-在	情况	case
-有	情况	acl:relcl
-子宫	阻碍	obl
-阻碍	有	xcomp
-的	有	mark:rel
-情况	进行	obl
-下	情况	case
-进行	使	ccomp
-手术	进行	obj
-。	说	punct
-----------------------------------------------------------------------
-通常，三小时的手术可以让捐献者在 24 小时内回家。
-
-(ROOT (IP (ADVP (JJ 通常)) (, ，) (NP (DNP (NP (QP (CD 三)) (NP (NN 小时))) (DEC 的)) (NP (NN 手术))) (VP (MD 可以) (VP (VV 让) (NP (VV 捐献) (SFN 者)) (IP (VP (PP (IN 在) (LCP (NP (QP (CD 24)) (NP (NN 小时))) (IN 内))) (VP (VV 回家)))))) (. 。)))
-layer 2:
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-layer 3:
-{'IP': {'ADVP': {'JJ': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {'JJ': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'JJ': {}}}
-{'NP': {'DNP': {}, 'NP': {}}}
-{'VP': {'MD': {}, 'VP': {}}}
-Dependency Features:
-通常	让	advmod
-，	通常	punct
-三	小时	nummod
-小时	手术	nmod
-的	小时	case
-手术	让	nsubj
-可以	让	aux
-让	ROOT	root
-捐献	者	compound
-者	回家	nsubj
-在	小时	case
-24	小时	nummod
-小时	回家	obl
-内	小时	case
-回家	让	ccomp
-。	让	punct
-----------------------------------------------------------------------
-传统手术需要在腹壁上做 5 英寸到 6 英寸的切口，通常需要住院两天或三天。
-
-(ROOT (IP (NP (ADJP (NN 传统)) (NP (NN 手术))) (VP (VP (MD 需要) (VP (PP (VV 在) (LCP (NP (NN 腹壁)) (NN 上))) (VP (VV 做) (NP (DNP (QP (QP (CD 5) (CLP (NNB 英寸))) (CC 到) (QP (CD 6) (CLP (NNB 英寸)))) (DEC 的)) (NP (NN 切口)))))) (, ，) (VP (ADVP (RB 通常)) (VP (MD 需要) (VP (VV 住院) (QP (QP (CD 两) (CLP (NNB 天))) (CC 或) (QP (CD 三) (CLP (NNB 天)))))))) (. 。)))
-layer 2:
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-layer 3:
-{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP60816': {}}, '.': {}}}
-{'IP': {'NP': {'ADJP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'ADJP': {}, 'NP': {}}}
-{'VP': {'VP': {}, ',': {}, 'VP': {}}}
-Dependency Features:
-传统	手术	nmod
-手术	住院	nsubj
-需要	做	aux
-在	做	advcl
-腹壁	在	obj
-上	腹壁	acl
-做	住院	advcl
-5	英寸	nummod
-英寸	切口	nmod
-到	6	cc
-6	英寸	conj
-英寸	英寸	conj
-的	英寸	case
-切口	做	obj
-，	做	punct
-通常	住院	advmod
-需要	住院	aux
-住院	ROOT	root
-两	天	nummod
-天	住院	obj
-或	天	cc
-三	天	nummod
-天	天	conj
-。	住院	punct
-----------------------------------------------------------------------
-“如果你问我的病人，她会说这就像拔牙一样。
-
-(ROOT (IP (`` “) (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 你)) (VP (VV 问) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 病人)))))) (, ，) (NP (PRP 她)) (VP (MD 会) (VP (VV 说) (IP (NP (PRD 这)) (VP (ADVP (RB 就)) (PP (VV 像) (NP (VV 拔牙))) (VP (JJ 一样))))))) (. 。)))
-layer 2:
-{'IP': {'``': {}, 'IP': {}, '.': {}}}
-{'IP': {'``': {}, 'IP': {}, '.': {}}}
-layer 3:
-{'IP': {'``': {}, 'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'``': {}, 'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}}}
-Dependency Features:
-“	说	punct
-如果	问	case
-你	问	nsubj
-问	说	ccomp
-我	病人	det
-的	我	case
-病人	问	obj
-，	问	punct
-她	说	nsubj
-会	说	aux
-说	ROOT	root
-这	像	nsubj
-就	像	mark
-像	说	ccomp
-拔牙	像	xcomp
-一样	像	xcomp
-。	说	punct
-----------------------------------------------------------------------
-蒙哥马利说:“那天晚上她在走，第二天就走了。”
-
-(ROOT (IP (NP (NNP 蒙哥马利)) (VP (VV 说) (: :) (IP (`` “) (NP (DP (DT 那) (CLP (NNB 天))) (NP (NN 晚上))) (NP (PRP 她)) (VP (VP (ADVP (VV 在)) (VP (VV 走))) (, ，) (VP (QP (CD 第二) (CLP (NNB 天))) (ADVP (RB 就)) (VP (VV 走) (UH 了)))))) (. 。) ('' ”)))
-layer 2:
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
-layer 3:
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
-{'NP': {'NNP': {}}}
-{'VP': {'VV': {}, ':': {}, 'IP': {}}}
-Dependency Features:
-蒙哥马利	说	nsubj
-说	ROOT	root
-:	走	punct
-“	走	punct
-那	天	det
-天	晚上	clf
-晚上	走	nmod:tmod
-她	走	nsubj
-在	走	advcl
-走	在	xcomp
-，	在	punct
-第二	天	nummod
-天	走	nmod:tmod
-就	走	mark
-走	说	ccomp
-了	走	discourse
-。	走	punct
-”	走	punct
-----------------------------------------------------------------------
-这项手术通过在腹部和肚皮上留下小口子，把“棒状的相机和工具”插入体内来完成。
-
-(ROOT (IP (NP (DP (DT 这) (CLP (NNB 项))) (NP (NN 手术))) (VP (PP (VV 通过) (IP (VP (PP (IN 在) (LCP (NP (NN 腹部) (CC 和) (NN 肚皮)) (NN 上))) (VP (VV 留下) (NP (ADJP (PFA 小)) (NP (NN 口子))))))) (, ，) (VP (BB 把) (IP (NP (`` “) (DNP (ADJP (NN 棒状)) (DEC 的)) (NP (NN 相机) (CC 和) (NN 工具)) ('' ”)) (VP (VP (VV 插入) (NP (NN 体内))) (VP (RB 来) (VP (VV 完成))))))) (. 。)))
-layer 2:
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-layer 3:
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
-{'NP': {'DP': {}, 'NP': {}}}
-{'VP': {'PP': {}, ',': {}, 'VP': {}}}
-Dependency Features:
-这	项	det
-项	手术	clf
-手术	完成	nsubj
-通过	留下	advcl
-在	腹部	case
-腹部	留下	obl
-和	肚皮	cc
-肚皮	腹部	conj
-上	腹部	acl
-留下	完成	advcl
-小	口子	case
-口子	留下	obj
-，	留下	punct
-把	相机	case
-“	相机	punct
-棒状	相机	nmod
-的	棒状	case
-相机	插入	obl:patient
-和	工具	cc
-工具	相机	conj
-”	相机	punct
-插入	完成	advcl
-体内	插入	iobj
-来	完成	mark
-完成	ROOT	root
-。	完成	punct
-----------------------------------------------------------------------
-然后医生会通过阴道把一根空管插入体内，管尽头有一个袋子。
-
-(ROOT (IP (IP (ADVP (RB 然后)) (NP (NN 医生)) (VP (MD 会) (VP (PP (IN 通过) (NP (NN 阴道))) (VP (BB 把) (IP (NP (QP (CD 一) (CLP (NNB 根))) (NP (NN 空管))) (VP (VV 插入) (NP (NN 体内)))))))) (, ，) (IP (NP (VV 管) (NN 尽头)) (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 袋子))))) (. 。)))
-layer 2:
-{'IP': {'IP': {}, ',': {}, 'IP94507': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP48600': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-Dependency Features:
-然后	有	advmod
-医生	有	nsubj
-会	插入	aux
-通过	阴道	case
-阴道	插入	obl
-把	空管	case
-一	根	nummod
-根	空管	clf
-空管	插入	obl:patient
-插入	有	advcl
-体内	插入	iobj
-，	插入	punct
-管	有	advcl
-尽头	管	obj
-有	ROOT	root
-一	个	nummod
-个	袋子	clf
-袋子	有	obj
-。	有	punct
-----------------------------------------------------------------------
-Montgomery 说，一旦肾脏被切开，外科医生会使用相机拍摄的视频来指导他们将袋子推进到器官周围，然后把它放进肾管中，并通过阴道口把它拽出来。
-
-(ROOT (IP (NP (FW Montgomery)) (VP (VV 说) (, ，) (IP (CP (ADVP (IN 一旦)) (IP (NP (NN 肾) (NN 脏)) (VP (BB 被) (VP (VV 切开))))) (, ，) (NP (NN 外科) (NN 医生)) (VP (VP (MD 会) (VP (VP (VV 使用) (NP (CP (CP (IP (NP (NN 相机)) (VP (VV 拍摄))) (DEC 的))) (NP (NN 视频)))) (VP (RB 来) (VP (VV 指导) (NP (PRP 他们)) (IP (VP (BB 将) (IP (NP (NN 袋子)) (VP (VRD (VV 推进) (VV 到)) (NP (NN 器官) (NN 周围)))))))))) (, ，) (VP (ADVP (RB 然后)) (VP (VP (BB 把) (IP (NP (PRP 它)) (VP (VRD (VV 放) (VV 进)) (LCP (NP (NN 肾)) (NN 管中))))) (, ，) (RB 并) (VP (PP (IN 通过) (NP (NN 阴道) (SFN 口))) (VP (BB 把) (IP (NP (PRP 它)) (VP (VRD (VV 拽) (VV 出来))))))))))) (. 。)))
-layer 2:
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-layer 3:
-{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'IP': {'NP': {'FW': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
-{'NP': {'FW': {}}}
-{'VP': {'VV': {}, ',': {}, 'IP': {}}}
-Dependency Features:
-Montgomery	说	nsubj
-说	ROOT	root
-，	拽	punct
-一旦	切开	case
-肾	脏	nmod
-脏	切开	nsubj
-被	切开	aux:pass
-切开	指导	ccomp
-，	切开	punct
-外科	医生	nmod
-医生	拽	nsubj
-会	指导	aux
-使用	指导	advcl
-相机	拍摄	nsubj
-拍摄	视频	acl:relcl
-的	拍摄	mark:rel
-视频	使用	obj
-来	指导	mark
-指导	拽	advcl
-他	推进	nsubj
-将	袋子	case
-袋子	推进	obl:patient
-推进	指导	ccomp
-到	推进	mark
-器官	周围	nmod
-周围	推进	obj
-，	指导	punct
-然后	放	advmod
-把	它	case
-它	放	obl:patient
-放	拽	advcl
-进	放	mark
-肾	管中	nmod
-管中	放	obj
-，	放	punct
-并	拽	mark
-通过	口	case
-阴道	口	compound
-口	拽	obl
-把	它	case
-它	拽	obl:patient
-拽	说	ccomp
-出来	拽	mark
-。	说	punct
-----------------------------------------------------------------------
-肾脏重约 454 克，大约是拇指抓拳时的大小。
-
-(ROOT (IP (IP (NP (NN 肾脏)) (VP (JJ 重约) (QP (CD 454) (CLP (NNB 克))))) (, ，) (IP (VP (ADVP (RB 大约)) (VP (VC 是) (NP (NP (NN 拇) (VV 指)) (DNP (LCP (IP (VP (VV 抓拳))) (IN 时)) (DEC 的)) (NP (NN 大小)))))) (. 。)))
-layer 2:
-{'IP': {'IP': {}, ',': {}, 'IP88155': {}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-layer 3:
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP98315': {'VP': {}}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'VP': {}}}
-Dependency Features:
-肾脏	大小	nsubj
-重约	大小	acl
-454	克	nummod
-克	重约	obl
-，	重约	punct
-大约	大小	advmod
-是	大小	cop
-拇	指	obl
-指	大小	acl:relcl
-抓拳	指	xcomp
-时	抓拳	mark
-的	指	mark:rel
-大小	ROOT	root
-。	大小	punct
-----------------------------------------------------------------------
-为了确保手术更干净，她的阴道被涂上一种名为 Betadine 的消毒溶剂，这是一种在手术中通常使用的消毒剂。
-
-(ROOT (IP (IP (PP (IN 为了) (IP (VP (VV 确保) (IP (NP (NN 手术)) (VP (ADVP (RB 更)) (VP (JJ 干净))))))) (, ，) (NP (DNP (NP (PRP 她)) (DEC 的)) (NP (NN 阴道))) (VP (BB 被) (VP (VRD (VV 涂) (VV 上)) (IP (QP (CD 一) (CLP (NNB 种名))) (CP (CP (IP (VP (VC 为) (NP (FW Betadine)))) (DEC 的))) (NP (NN 消毒) (NN 溶剂)))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (CP (CP (IP (VP (PP (IN 在) (LCP (NP (NN 手术)) (IN 中))) (ADVP (RB 通常)) (VP (VV 使用)))) (DEC 的))) (NP (VV 消毒) (SFN 剂))))) (. 。)))
-layer 2:
-{'IP': {'IP': {}, ',': {}, 'IP34976': {}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
-layer 3:
-{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP40373': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 Dependency Features:
-为了	确保	case
-确保	涂	xcomp
-手术	干净	nsubj
-更	干净	advmod
-干净	确保	ccomp
-，	确保	punct
-她	阴道	det
-的	她	mark:rel
-阴道	涂	nsubj:pass
-被	涂	aux:pass
-涂	ROOT	root
-上	涂	mark
-一	种名	nummod
-种名	溶剂	clf
-为	Betadine	cop
-Betadine	溶剂	acl:relcl
-的	Betadine	mark:rel
-消毒	溶剂	nmod
-溶剂	涂	obj
-，	剂	punct
-这	剂	nsubj
-是	剂	cop
-一	种	nummod
-种	剂	nmod
-在	手术	case
-手术	使用	obl
-中	手术	case
-通常	使用	advmod
-使用	剂	acl:relcl
-的	使用	mark:rel
-消毒	剂	compound
-剂	涂	parataxis
-。	涂	punct
+["['VERB', 'NOUN', 'acl']", "['在', '部长', 'acl']"]
+["['PROPN', 'VERB', 'obj']", "['捷克', '在', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '在', 'punct']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['最受', '政客', 'acl:relcl']"]
+["['NOUN', 'VERB', 'nsubj']", "['民众', '欢迎', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['欢迎', '最受', 'ccomp']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '最受', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nsubj']", "['政客', '部长', 'nsubj']"]
+["['PROPN', 'NOUN', 'appos']", "['安德烈', '政客', 'appos']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '巴比斯', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['巴比斯', '安德烈', 'flat:name']"]
+["['X', 'NOUN', 'appos']", "['(Andrej', '政客', 'appos']"]
+["['X', 'X', 'flat:foreign']", "['Babis)', '(Andrej', 'flat:foreign']"]
+["['AUX', 'NOUN', 'cop']", "['是', '部长', 'cop']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '位', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['位', '部长', 'clf']"]
+["['ADJ', 'NOUN', 'amod']", "['迷人', '部长', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '迷人', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['财政', '部长', 'nmod']"]
+["['NOUN', 'ROOT', 'root']", "['部长', 'NONE', 'root']"]
+["['CCONJ', 'NOUN', 'cc']", "['兼', '大亨', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['媒体', '大亨', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['大亨', '部长', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '表示', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '表示', 'nsubj']"]
+["['VERB', 'NOUN', 'parataxis']", "['表示', '部长', 'parataxis']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '必要', 'punct']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['关闭', '边界', 'acl:relcl']"]
+["['PROPN', 'PART', 'nmod']", "['欧洲', '区', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['申根', '区', 'compound']"]
+["['PART', 'VERB', 'obj']", "['区', '关闭', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '关闭', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['外部', '边界', 'nmod']"]
+["['NOUN', 'ADJ', 'nsubj']", "['边界', '必要', 'nsubj']"]
+["['AUX', 'ADJ', 'cop']", "['是', '必要', 'cop']"]
+["['ADJ', 'VERB', 'ccomp']", "['必要', '表示', 'ccomp']"]
+["['PART', 'ADJ', 'discourse']", "['的', '必要', 'discourse']"]
+["['PUNCT', 'NOUN', 'punct']", "['。', '部长', 'punct']"]
 ----------------------------------------------------------------------
-但是一些医生不禁要问，这个过程到底有多干净。
+捷克总统米洛什·泽曼 (Milos Zeman) 曾表示担心捷克境内的叙利亚移民会用石头砸死不忠的妇女，以执行伊斯兰教法，他表示这些袭击是为了“捍卫欧洲文明的未来”而进行的战争的一部分。
 
-(ROOT (IP (ADVP (RB 但是)) (NP (QP (JJ 一些)) (NP (NN 医生))) (VP (ADVP (RB 不)) (VP (VV 禁要) (IP (VP (VV 问) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 过程))) (VP (ADVP (RB 到底)) (VP (VV 有) (VP (ADVP (RB 多)) (VP (JJ 干净)))))))))) (. 。)))
+(ROOT (IP (IP (NP (NP (NP (NNP 捷克)) (NP (NN 总统))) (NP (NNP 米洛什) (/ ·) (NNP 泽曼) (FW -LRB-Milos) (FW Zeman-RRB-))) (VP (ADVP (RB 曾)) (VP (VV 表示) (IP (VP (VV 担心) (IP (NP (DNP (NP (NP (NNP 捷克)) (NP (NN 境内))) (DEC 的)) (NP (NNP 叙利亚)) (NP (NN 移民))) (VP (VP (MD 会) (VP (PP (VV 用) (NP (NN 石头))) (VP (VV 砸) (VP (VV 死) (NP (CP (CP (IP (VP (JJ 不忠))) (DEC 的))) (NP (NN 妇女))))))) (, ，) (VP (RB 以) (VP (VV 执行) (NP (NNP 伊斯兰) (NN 教法))))))))))) (, ，) (IP (NP (PRP 他)) (VP (VV 表示) (IP (NP (DP (DT 这些)) (NP (NN 袭击))) (VP (VC 是) (NP (DNP (NP (CP (CP (IP (VP (PP (IN 为了) (VP (`` “) (CP (CP (IP (VP (VV 捍卫) (NP (NP (NNP 欧洲)) (NP (NN 文明))))) (DEC 的))) (NP (NN 未来)) ('' ”))) (VP (RB 而) (VP (VV 进行))))) (DEC 的))) (NP (NN 战争))) (DEC 的)) (QP (CD 一)) (NP (NN 部分))))))) (. 。)))
 layer 2:
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'IP': {'ADVP': {'RB': {}}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, 'NP': {'QP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'NP': {'QP': {}, 'NP': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['PROPN', 'NOUN', 'nmod']", "['捷克', '总统', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['总统', '表示', 'nsubj']"]
+["['PROPN', 'NOUN', 'appos']", "['米洛什', '总统', 'appos']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '泽曼', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['泽曼', '米洛什', 'flat:name']"]
+["['X', 'NOUN', 'appos']", "['(Milos', '总统', 'appos']"]
+["['X', 'X', 'flat:foreign']", "['Zeman)', '(Milos', 'flat:foreign']"]
+["['ADV', 'VERB', 'advmod']", "['曾', '表示', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['表示', 'NONE', 'root']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['担心', '移民', 'acl:relcl']"]
+["['PROPN', 'NOUN', 'nmod']", "['捷克', '境内', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['境内', '担心', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '担心', 'mark:rel']"]
+["['PROPN', 'NOUN', 'nmod']", "['叙利亚', '移民', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['移民', '执行', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['会', '砸', 'aux']"]
+["['VERB', 'VERB', 'advcl']", "['用', '砸', 'advcl']"]
+["['NOUN', 'VERB', 'obj']", "['石头', '用', 'obj']"]
+["['VERB', 'VERB', 'advcl']", "['砸', '执行', 'advcl']"]
+["['VERB', 'VERB', 'xcomp']", "['死', '砸', 'xcomp']"]
+["['ADJ', 'NOUN', 'amod']", "['不忠', '妇女', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '不忠', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['妇女', '砸', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '砸', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['以', '执行', 'mark']"]
+["['VERB', 'VERB', 'ccomp']", "['执行', '表示', 'ccomp']"]
+["['PROPN', 'NOUN', 'nmod']", "['伊斯兰', '教法', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['教法', '执行', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '表示', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '表示', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['表示', '表示', 'parataxis']"]
+["['DET', 'NOUN', 'det']", "['这些', '袭击', 'det']"]
+["['NOUN', 'VERB', 'nsubj']", "['袭击', '是', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['是', '表示', 'ccomp']"]
+["['ADP', 'VERB', 'xcomp']", "['为了', '是', 'xcomp']"]
+["['PUNCT', 'NOUN', 'punct']", "['“', '未来', 'punct']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['捍卫', '未来', 'acl:relcl']"]
+["['PROPN', 'NOUN', 'nmod']", "['欧洲', '文明', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['文明', '捍卫', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '捍卫', 'mark:rel']"]
+["['NOUN', 'VERB', 'nsubj']", "['未来', '进行', 'nsubj']"]
+["['PUNCT', 'NOUN', 'punct']", "['”', '未来', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['而', '进行', 'mark']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['进行', '部分', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '进行', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['战争', '部分', 'nmod']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '进行', 'mark:rel']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '部分', 'nummod']"]
+["['NOUN', 'ADP', 'obj']", "['部分', '为了', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '表示', 'punct']"]
+----------------------------------------------------------------------
+巴黎袭击事件中一名袭击者持有叙利亚护照，这一事实被反对接纳寻求庇护者的人们援引。
+
+(ROOT (IP (IP (LCP (NP (NP (NNP 巴黎)) (NP (NN 袭击) (NN 事件))) (IN 中)) (NP (QP (CD 一) (CLP (NNB 名))) (NP (VV 袭击) (SFN 者))) (VP (VV 持有) (NP (NP (NNP 叙利亚)) (NP (NN 护照))))) (, ，) (IP (NP (DP (DT 这) (QP (CD 一))) (NP (NN 事实))) (VP (BB 被) (VP (VV 反对) (IP (NP (CP (CP (IP (VP (VV 接纳) (NP (CP (IP (VP (VV 寻求) (NP (VV 庇护))))) (NP (SFN 者))))) (DEC 的))) (NP (NN 人们))) (VP (VV 援引)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['PROPN', 'NOUN', 'nmod']", "['巴黎', '事件', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['袭击', '事件', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['事件', '持有', 'obl']"]
+["['ADP', 'NOUN', 'case']", "['中', '事件', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '名', 'nummod']"]
+["['NOUN', 'PART', 'nmod']", "['名', '者', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['袭击', '者', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['者', '持有', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['持有', 'NONE', 'root']"]
+["['PROPN', 'NOUN', 'nmod']", "['叙利亚', '护照', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['护照', '持有', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '反对', 'punct']"]
+["['DET', 'NOUN', 'det']", "['这', '事实', 'det']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '事实', 'nummod']"]
+["['NOUN', 'VERB', 'nsubj:pass']", "['事实', '反对', 'nsubj:pass']"]
+["['AUX', 'VERB', 'aux:pass']", "['被', '反对', 'aux:pass']"]
+["['VERB', 'VERB', 'parataxis']", "['反对', '持有', 'parataxis']"]
+["['VERB', 'VERB', 'xcomp']", "['接纳', '反对', 'xcomp']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['寻求', '人', 'acl:relcl']"]
+["['VERB', 'PART', 'compound']", "['庇护', '者', 'compound']"]
+["['PART', 'VERB', 'obj']", "['者', '寻求', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '寻求', 'mark:rel']"]
+["['NOUN', 'VERB', 'nsubj']", "['人', '援引', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['援引', '反对', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '持有', 'punct']"]
+----------------------------------------------------------------------
+斯洛伐克总理罗伯特·菲科 (Robert Fico) 高调表示，他曾警告其他欧洲领导人，“移民带来的安全风险巨大。
+
+(ROOT (IP (NP (NP (NP (NNP 斯洛伐克)) (NP (NN 总理))) (NP (NNP 罗伯特) (/ ·) (NNP 菲科) (FW -LRB-Robert) (FW Fico-RRB-))) (VP (ADVP (RB 高调)) (VP (VV 表示) (, ，) (IP (NP (PRP 他)) (VP (ADVP (RB 曾)) (VP (VV 警告) (NP (DP (DT 其他)) (NP (NNP 欧洲)) (NP (VV 领导) (SFN 人))) (, ，) (IP (`` “) (NP (CP (CP (IP (NP (NN 移民)) (VP (VV 带来))) (DEC 的))) (NP (NN 安全) (NN 风险))) (VP (JJ 巨大)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
 {'VP': {'ADVP': {}, 'VP': {}}}
 Dependency Features:
-但是	禁要	mark
-一些	医生	amod
-医生	禁要	nsubj
-不	禁要	advmod
-禁要	ROOT	root
-问	禁要	xcomp
-，	有	punct
-这	个	det
-个	过程	clf
-过程	有	nsubj
-到底	有	advmod
-有	禁要	parataxis
-多	有	advmod
-干净	有	xcomp
-。	禁要	punct
+["['PROPN', 'NOUN', 'nmod']", "['斯洛伐克', '总理', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['总理', '表示', 'nsubj']"]
+["['PROPN', 'NOUN', 'appos']", "['罗伯特', '总理', 'appos']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '菲科', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['菲科', '罗伯特', 'flat:name']"]
+["['X', 'NOUN', 'appos']", "['(Robert', '总理', 'appos']"]
+["['X', 'X', 'flat:foreign']", "['Fico)', '(Robert', 'flat:foreign']"]
+["['ADV', 'VERB', 'advmod']", "['高调', '表示', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['表示', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '警告', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '警告', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['曾', '警告', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['警告', '表示', 'ccomp']"]
+["['DET', 'PART', 'det']", "['其他', '人', 'det']"]
+["['PROPN', 'PART', 'nmod']", "['欧洲', '人', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['领导', '人', 'compound']"]
+["['PART', 'VERB', 'obj']", "['人', '警告', 'obj']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '巨大', 'punct']"]
+["['PUNCT', 'ADJ', 'punct']", "['“', '巨大', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['移民', '带来', 'nsubj']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['带来', '风险', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '带来', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['安全', '风险', 'nmod']"]
+["['NOUN', 'ADJ', 'nsubj']", "['风险', '巨大', 'nsubj']"]
+["['ADJ', 'VERB', 'ccomp']", "['巨大', '警告', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '表示', 'punct']"]
 ----------------------------------------------------------------------
-克利夫兰诊所腹腔镜和机器人手术主管 Jihad Kaouk 医生说：“采取这种（灭菌）措施是好的，但管子触及阴道，袋子触及管子，袋子又触及肾脏”。
+希望有些人现在终于睁开眼了。”
 
-(ROOT (IP (NP (NP (NP (NNP 克利夫) (NN 兰诊) (SFN 所)) (NP (NN 腹腔) (SFN 镜) (CC 和) (NN 机器) (SFN 人) (NN 手术) (NN 主管))) (NP (FW Jihad) (FW Kaouk) (NN 医生))) (VP (VV 说) (: ：) (IP (`` “) (IP (IP (VP (VV 采取) (NP (DP (DT 这) (CLP (NNB 种))) (PRN (-LRB- （) (NP (NN 灭菌)) (-RRB- ）)) (NP (NN 措施))))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 好))) (UH 的)))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 管子)) (VP (SFN 触) (CC 及) (NP (NN 阴道)))) (, ，) (IP (NP (NN 袋子)) (VP (SFN 触) (CC 及) (NN 管子))) (, ，) (IP (NP (NN 袋子)) (VP (ADVP (CC 又)) (VP (VV 触) (CC 及) (NP (NN 肾) (JJ 脏))))) ('' ”))) (. 。)))
+(ROOT (IP (VP (VV 希望) (IP (NP (DP (VV 有些)) (NP (NN 人))) (VP (NP (NN 现在)) (ADVP (RB 终于)) (ADVP (VV 睁)) (VP (VV 开眼) (UH 了))))) (. 。) ('' ”)))
 layer 2:
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'VP': {}, '.': {}, "''": {}}}
 layer 3:
-{'IP': {'NP': {'NP': {}, 'NP86759': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'VP': {'VV': {}, 'IP': {}}}
 Dependency Features:
-克利夫	镜	nmod
-兰诊	所	compound
-所	镜	nmod
-腹腔	镜	compound
-镜	说	nsubj
-和	主管	cc
-机器	人	compound
-人	主管	nmod
-手术	主管	nmod
-主管	镜	conj
-Jihad	主管	appos
-Kaouk	Jihad	flat:foreign
-医生	Jihad	appos
-说	ROOT	root
-：	好	punct
-“	好	punct
-采取	好	csubj
-这	种	det
-种	灭菌	clf
-（	灭菌	punct
-灭菌	采取	obj
-）	灭菌	punct
-措施	好	nsubj
-是	好	cop
-好	说	ccomp
-的	好	discourse
-，	好	punct
-但	袋子	mark
-管子	触	compound
-触	好	nsubj
-及	阴道	cc
-阴道	触	conj
-，	触	punct
-袋子	触	compound
-触	触	conj
-及	管子	cc
-管子	触	conj
-，	触	punct
-袋子	触	nsubj
-又	触	cc
-触	触	conj
-及	脏	cc
-肾	脏	nsubj
-脏	触	conj
-”	触	punct
-。	说	punct
+["['VERB', 'ROOT', 'root']", "['希望', 'NONE', 'root']"]
+["['VERB', 'VERB', 'xcomp']", "['有些', '希望', 'xcomp']"]
+["['NOUN', 'VERB', 'nsubj']", "['人', '开眼', 'nsubj']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['现在', '开眼', 'nmod:tmod']"]
+["['ADV', 'VERB', 'advmod']", "['终于', '睁', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['睁', '有些', 'ccomp']"]
+["['VERB', 'VERB', 'ccomp']", "['开眼', '有些', 'ccomp']"]
+["['PART', 'VERB', 'discourse']", "['了', '开眼', 'discourse']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有些', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['”', '有些', 'punct']"]
 ----------------------------------------------------------------------
-他补充说：“从阴道抽取肾脏，这是不受污染的，这是一种潜在风险还是真正的风险？现在我们就能知道了。”
+在其他国家，真诚的同情之情很快就被与各种政治或外交议程联系起来。
 
-(ROOT (IP (NP (PRP 他)) (VP (VP (VV 补充)) (VP (VV 说) (: ：) (IP (`` “) (IP (VP (PP (IN 从) (NP (NN 阴道))) (VP (VV 抽取) (NP (NN 肾) (NN 脏))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (CP (CP (IP (VP (VV 不受) (NP (NN 污染)))) (UH 的)))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 种))) (NP (NP (ADJP (JJ 潜在)) (NP (NN 风险))) (VC 还是) (NP (CP (CP (IP (VP (JJ 真正))) (DEC 的))) (NP (NN 风险)))))))))) (. ？)))
+(ROOT (IP (PP (IN 在) (NP (DP (DT 其他)) (NP (NN 国家)))) (, ，) (NP (CP (CP (IP (VP (JJ 真诚))) (DEC 的))) (DNP (NP (VV 同情)) (DEC 之)) (NP (NN 情))) (VP (ADVP (RB 很快)) (ADVP (RB 就)) (VP (BB 被) (VP (PP (IN 与) (NP (ADJP (DT 各种)) (NP (NN 政治) (CC 或) (NN 外交)) (NP (NN 议程)))) (VP (VRD (VV 联系) (VV 起来)))))) (. 。)))
 layer 2:
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP59171': {}}, '.': {}}}
-{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'PRP': {}}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'CP': {}, 'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'CP': {}, 'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+["['ADP', 'NOUN', 'case']", "['在', '国家', 'case']"]
+["['DET', 'NOUN', 'det']", "['其他', '国家', 'det']"]
+["['NOUN', 'VERB', 'obl']", "['国家', '联系', 'obl']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '国家', 'punct']"]
+["['ADJ', 'NOUN', 'amod']", "['真诚', '情', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '真诚', 'mark:rel']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['同情', '情', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['之', '同情', 'mark:rel']"]
+["['NOUN', 'VERB', 'nsubj']", "['情', '联系', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['很快', '联系', 'advmod']"]
+["['ADV', 'VERB', 'mark']", "['就', '联系', 'mark']"]
+["['AUX', 'VERB', 'aux:pass']", "['被', '联系', 'aux:pass']"]
+["['ADP', 'NOUN', 'case']", "['与', '政治', 'case']"]
+["['DET', 'NOUN', 'det']", "['各种', '政治', 'det']"]
+["['NOUN', 'VERB', 'obl']", "['政治', '联系', 'obl']"]
+["['CCONJ', 'NOUN', 'cc']", "['或', '议程', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['外交', '议程', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['议程', '政治', 'conj']"]
+["['VERB', 'ROOT', 'root']", "['联系', 'NONE', 'root']"]
+["['VERB', 'VERB', 'mark']", "['起来', '联系', 'mark']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '联系', 'punct']"]
+----------------------------------------------------------------------
+在莫斯科，市民对伊斯兰恐怖主义有着丰富的经验，法国驻莫斯科大使馆受到大量礼物和鲜花的洗礼。
+
+(ROOT (IP (IP (PP (VV 在) (NP (NNP 莫斯科))) (, ，) (NP (NN 市民)) (VP (PP (IN 对) (NP (NP (NNP 伊斯兰)) (NP (NN 恐怖) (NN 主义)))) (VP (VV 有) (AS 着) (NP (CP (CP (IP (VP (JJ 丰富))) (DEC 的))) (NP (NN 经验)))))) (, ，) (IP (NP (CP (IP (NP (NNP 法国)) (VP (VV 驻) (NP (NNP 莫斯科))))) (NP (NN 大使) (SFN 馆))) (VP (VV 受到) (NP (DNP (NP (QP (JJ 大量)) (NP (NN 礼物) (CC 和) (NN 鲜花))) (DEC 的)) (NP (NN 洗礼))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['VERB', 'VERB', 'advcl']", "['在', '有', 'advcl']"]
+["['PROPN', 'VERB', 'obj']", "['莫斯科', '在', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '在', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['市民', '有', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['对', '主义', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['伊斯兰', '主义', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['恐怖', '主义', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['主义', '有', 'obl']"]
+["['VERB', 'ROOT', 'root']", "['有', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['着', '有', 'aux']"]
+["['ADJ', 'NOUN', 'amod']", "['丰富', '经验', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '丰富', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['经验', '有', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '受到', 'punct']"]
+["['PROPN', 'PART', 'nmod']", "['法国', '馆', 'nmod']"]
+["['VERB', 'PART', 'amod']", "['驻', '馆', 'amod']"]
+["['PROPN', 'VERB', 'obj']", "['莫斯科', '驻', 'obj']"]
+["['NOUN', 'PART', 'compound']", "['大使', '馆', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['馆', '受到', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['受到', '有', 'parataxis']"]
+["['ADJ', 'NOUN', 'amod']", "['大量', '礼物', 'amod']"]
+["['NOUN', 'NOUN', 'nmod']", "['礼物', '洗礼', 'nmod']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '鲜花', 'cc']"]
+["['NOUN', 'NOUN', 'conj']", "['鲜花', '礼物', 'conj']"]
+["['PART', 'NOUN', 'case']", "['的', '礼物', 'case']"]
+["['NOUN', 'VERB', 'obj']", "['洗礼', '受到', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有', 'punct']"]
+----------------------------------------------------------------------
+但是，俄罗斯总统弗拉基米尔·普京 (Vladimir Putin) 确保了他向法国总统弗朗索瓦·奥朗德 (Francois Hollande) 的唁电也为结束俄罗斯的国际孤立提供了理由：
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (NP (NP (NP (NNP 俄罗斯)) (NP (NN 总统))) (NP (NNP 弗拉基米尔) (/ ·) (NNP 普京) (FW -LRB-Vladimir) (FW Putin-RRB-))) (VP (VP (VV 确保) (AS 了) (NP (NP (PRP 他)) (DNP (PP (IN 向) (NP (NP (NP (NNP 法国)) (NP (NN 总统))) (NP (NNP 弗朗索瓦) (/ ·) (NNP 奥朗德) (FW -LRB-Francois) (FW Hollande-RRB-)))) (DEC 的)) (NP (NN 唁电)))) (VP (ADVP (RB 也)) (PP (IN 为) (IP (VP (VV 结束) (NP (DNP (NP (NNP 俄罗斯)) (DEC 的)) (NP (NN 国际) (NN 孤立)))))) (VP (VV 提供) (AS 了) (NP (NN 理由))))) (: ：)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, ':': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP': {}}, ':': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
 {'VP': {'VP': {}, 'VP': {}}}
 Dependency Features:
-他	说	nsubj
-补充	说	advcl
-说	ROOT	root
-：	风险	punct
-“	风险	punct
-从	阴道	case
-阴道	抽取	obl
-抽取	受	xcomp
-肾	脏	nmod
-脏	抽取	obj
-，	抽取	punct
-这	受	nsubj
-是	受	cop
-受	说	xcomp
-污染	受	obj
-的	受	discourse
-，	风险	punct
-这	风险	nsubj
-是	风险	cop
-一	种	nummod
-种	风险	clf
-潜在	风险	amod
-风险	风险	acl
-是	风险	cop
-真正	风险	amod
-的	真正	mark:rel
-风险	说	ccomp
-？	说	punct
+["['ADV', 'VERB', 'mark']", "['但是', '提供', 'mark']"]
+["['PUNCT', 'ADV', 'punct']", "['，', '但是', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['俄罗斯', '总统', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['总统', '确保', 'nsubj']"]
+["['PROPN', 'NOUN', 'appos']", "['弗拉基米尔', '总统', 'appos']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '普京', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['普京', '弗拉基米尔', 'flat:name']"]
+["['X', 'NOUN', 'appos']", "['(Vladimir', '总统', 'appos']"]
+["['X', 'X', 'flat:foreign']", "['Putin)', '(Vladimir', 'flat:foreign']"]
+["['VERB', 'VERB', 'advcl']", "['确保', '提供', 'advcl']"]
+["['AUX', 'VERB', 'aux']", "['了', '确保', 'aux']"]
+["['PRON', 'NOUN', 'nmod']", "['他', '唁电', 'nmod']"]
+["['ADP', 'NOUN', 'case']", "['向', '唁电', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['法国', '总统', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['总统', '唁电', 'nmod']"]
+["['PROPN', 'NOUN', 'appos']", "['弗朗索瓦', '总统', 'appos']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '奥朗德', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['奥朗德', '弗朗索瓦', 'flat:name']"]
+["['X', 'PROPN', 'appos']", "['(Francois', '弗朗索瓦', 'appos']"]
+["['X', 'X', 'flat:foreign']", "['Hollande)', '(Francois', 'flat:foreign']"]
+["['PART', 'X', 'mark:rel']", "['的', '(Francois', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['唁电', '确保', 'obj']"]
+["['ADV', 'VERB', 'mark']", "['也', '提供', 'mark']"]
+["['ADP', 'NOUN', 'case']", "['为', '孤立', 'case']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['结束', '孤立', 'acl:relcl']"]
+["['PROPN', 'VERB', 'obj']", "['俄罗斯', '结束', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '结束', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['国际', '孤立', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['孤立', '提供', 'obl']"]
+["['VERB', 'ROOT', 'root']", "['提供', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['了', '提供', 'aux']"]
+["['NOUN', 'VERB', 'obj']", "['理由', '提供', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['：', '提供', 'punct']"]
 ----------------------------------------------------------------------
-Kaouk 还对肾脏被挤压成管状后的质量表示了担忧。
+“打击这一邪恶，需要整个国际社会力量的真正团结。”
 
-(ROOT (IP (NP (FW Kaouk)) (VP (PP (IN 还对) (NP (DNP (LCP (IP (NP (NN 肾脏)) (VP (BB 被) (VP (VCD (VV 挤压) (NN 成管))))) (NN 状后)) (DEC 的)) (NP (NN 质量)))) (VP (VV 表示) (AS 了) (NP (NN 担忧)))) (. 。)))
+(ROOT (IP (`` “) (IP (VP (VV 打击) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 邪恶))))) (, ，) (VP (VV 需要) (NP (DNP (NP (DP (DT 整个)) (NP (NN 国际) (NN 社会) (NN 力量))) (DEC 的)) (ADJP (JJ 真正)) (NP (NN 团结)))) (. 。) ('' ”)))
 layer 2:
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'VP': {}, '.': {}, "''": {}}}
 layer 3:
-{'IP': {'NP': {'FW': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {'FW': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
-{'NP': {'FW': {}}}
+{'IP': {'``': {}, 'IP': {'VP': {}}, ',': {}, 'VP': {'VV': {}, 'NP': {}}, '.': {}, "''": {}}}
+{'IP': {'VP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
+Dependency Features:
+["['PUNCT', 'VERB', 'punct']", "['“', '打击', 'punct']"]
+["['VERB', 'VERB', 'advcl']", "['打击', '需要', 'advcl']"]
+["['DET', 'NOUN', 'det']", "['这', '邪恶', 'det']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '邪恶', 'nummod']"]
+["['NOUN', 'VERB', 'obj']", "['邪恶', '打击', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '打击', 'punct']"]
+["['VERB', 'ROOT', 'root']", "['需要', 'NONE', 'root']"]
+["['DET', 'NOUN', 'det']", "['整个', '力量', 'det']"]
+["['NOUN', 'NOUN', 'nmod']", "['国际', '力量', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['社会', '力量', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['力量', '团结', 'nmod']"]
+["['PART', 'DET', 'case']", "['的', '整个', 'case']"]
+["['ADJ', 'NOUN', 'amod']", "['真正', '团结', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['团结', '需要', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '需要', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['”', '需要', 'punct']"]
+----------------------------------------------------------------------
+在土耳其 (图片)，数以千计的同情者游行，以表达巴黎和最近遭到 IS 恐怖袭击的两个城市之间的团结：安卡拉和贝鲁特。
+
+(ROOT (IP (PP (VV 在) (NP (NNP 土耳其) (NNP -LRB-图片) (-RRB- -RRB-))) (, ，) (NP (DNP (VP (CD 数以千计)) (DEC 的)) (NP (VV 同情) (SFN 者))) (VP (VP (VV 游行)) (, ，) (VP (RB 以) (VP (VV 表达) (NP (NP (DNP (LCP (NP (NP (NNP 巴黎)) (CC 和) (NP (CP (CP (IP (VP (NP (NN 最近)) (VP (VV 遭到) (NP (FW IS) (NN 恐怖) (NN 袭击))))) (DEC 的))) (QP (CD 两) (CLP (NNB 个))) (NP (NN 城市)))) (IN 之间)) (DEC 的)) (NP (NN 团结))) (: ：) (NP (NNP 安卡拉) (CC 和) (NNP 贝鲁特)))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'PP': {'VV': {}, 'NP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+["['VERB', 'VERB', 'advcl']", "['在', '游行', 'advcl']"]
+["['PROPN', 'PROPN', 'nmod']", "['土耳其', '(图片', 'nmod']"]
+["['PROPN', 'VERB', 'obj']", "['(图片', '在', 'obj']"]
+["['PUNCT', 'PROPN', 'punct']", "[')', '(图片', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '在', 'punct']"]
+["['NUM', 'PART', 'nummod']", "['数以千计', '者', 'nummod']"]
+["['PART', 'NUM', 'mark:rel']", "['的', '数以千计', 'mark:rel']"]
+["['VERB', 'PART', 'compound']", "['同情', '者', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['者', '游行', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['游行', '表达', 'advcl']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '游行', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['以', '表达', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['表达', 'NONE', 'root']"]
+["['PROPN', 'VERB', 'obj']", "['巴黎', '表达', 'obj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '最近', 'cc']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['最近', '遭到', 'nmod:tmod']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['遭到', '城市', 'acl:relcl']"]
+["['X', 'NOUN', 'nmod']", "['IS', '袭击', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['恐怖', '袭击', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['袭击', '遭到', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '遭到', 'mark:rel']"]
+["['NUM', 'NOUN', 'nummod']", "['两', '个', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['个', '城市', 'clf']"]
+["['NOUN', 'NOUN', 'nmod']", "['城市', '团结', 'nmod']"]
+["['ADP', 'NOUN', 'case']", "['之间', '城市', 'case']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '遭到', 'mark:rel']"]
+["['NOUN', 'PROPN', 'conj']", "['团结', '巴黎', 'conj']"]
+["['PUNCT', 'PROPN', 'punct']", "['：', '安卡拉', 'punct']"]
+["['PROPN', 'NOUN', 'appos']", "['安卡拉', '团结', 'appos']"]
+["['CCONJ', 'PROPN', 'cc']", "['和', '贝鲁特', 'cc']"]
+["['PROPN', 'PROPN', 'conj']", "['贝鲁特', '安卡拉', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '表达', 'punct']"]
+----------------------------------------------------------------------
+与此同时，土耳其总统塔伊普·雷杰普·埃尔多安暗示，现在是放弃“我的恐怖分子好，你的恐怖分子坏”的概念的时候了，这显然是指土耳其正在与之作战的库尔德民兵：西方也认为库尔德工人党是恐怖组织，但也包括西方认为是与打击伊斯兰国的斗争中的盟友——人民保卫部队。
+
+(ROOT (IP (NP (PP (IN 与) (NP (PRD 此))) (NP (NN 同时))) (, ，) (NP (NP (NP (NNP 土耳其)) (NP (NN 总统))) (NP (NNP 塔伊普) (/ ·) (NNP 雷杰普) (/ ·) (NNP 埃尔多安))) (VP (VV 暗示) (, ，) (IP (IP (VP (NP (NN 现在)) (VP (VC 是) (NP (CP (CP (IP (VP (VP (VV 放弃) (NP (CP (IP (`` “) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (JJ 恐怖) (NN 分子))) (VP (JJ 好)) (, ，) (IP (NP (DNP (NP (PRP 你)) (DEC 的)) (NP (JJ 恐怖) (NN 分子))) (VP (JJ 坏))) ('' ”)) (DEC 的)) (NP (NN 概念)))))) (DEC 的))) (NP (NN 时候))))) (UH 了)) (, ，) (IP (NP (PRD 这)) (VP (ADVP (RB 显然)) (VP (VC 是) (VP (VV 指) (NP (NP (NNP 土耳其)) (CP (CP (IP (VP (ADVP (RB 正)) (ADVP (RB 在)) (PP (IN 与) (NP (PRD 之))) (VP (VV 作战)))) (DEC 的))) (NP (NNP 库尔德)) (NP (NN 民兵))))))) (: ：) (IP (NP (NNP 西方)) (VP (VP (ADVP (RB 也)) (VP (VV 认为) (IP (NP (NNP 库尔德) (NN 工人) (SFN 党)) (VP (VC 是) (NP (JJ 恐怖) (NN 组织)))))) (, ，) (VP (ADVP (RB 但)) (ADVP (RB 也)) (VP (VV 包括) (IP (NP (NNP 西方)) (VP (VV 认为) (IP (VP (VC 是) (NP (NP (DNP (PP (IN 与) (LCP (NP (CP (IP (VP (VV 打击) (NP (NNP 伊斯兰) (SFN 国)))) (DEC 的)) (NP (NN 斗争))) (IN 中))) (DEC 的)) (NP (NN 盟友))) (HYPH —) (HYPH —) (NP (NN 人民) (NN 保卫) (NN 部队))))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PP': {}, 'NP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PP': {}, 'NP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+["['ADP', 'PRON', 'case']", "['与', '此', 'case']"]
+["['PRON', 'VERB', 'obl']", "['此', '暗示', 'obl']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['同时', '暗示', 'nmod:tmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '同时', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['土耳其', '总统', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['总统', '暗示', 'nsubj']"]
+["['PROPN', 'NOUN', 'appos']", "['塔伊普', '总统', 'appos']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '雷杰普', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['雷杰普', '塔伊普', 'flat:name']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '埃尔多安', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['埃尔多安', '塔伊普', 'flat:name']"]
+["['VERB', 'ROOT', 'root']", "['暗示', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '是', 'punct']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['现在', '是', 'nmod:tmod']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['是', '时候', 'acl:relcl']"]
+["['VERB', 'VERB', 'xcomp']", "['放弃', '是', 'xcomp']"]
+["['PUNCT', 'NOUN', 'punct']", "['“', '分子', 'punct']"]
+["['PRON', 'NOUN', 'det']", "['我', '分子', 'det']"]
+["['PART', 'PRON', 'mark:rel']", "['的', '我', 'mark:rel']"]
+["['ADJ', 'NOUN', 'amod']", "['恐怖', '分子', 'amod']"]
+["['NOUN', 'ADJ', 'nsubj']", "['分子', '好', 'nsubj']"]
+["['ADJ', 'NOUN', 'acl:relcl']", "['好', '时候', 'acl:relcl']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '坏', 'punct']"]
+["['PRON', 'NOUN', 'det']", "['你', '分子', 'det']"]
+["['PART', 'PRON', 'mark:rel']", "['的', '你', 'mark:rel']"]
+["['ADJ', 'NOUN', 'amod']", "['恐怖', '分子', 'amod']"]
+["['NOUN', 'ADJ', 'nsubj']", "['分子', '坏', 'nsubj']"]
+["['ADJ', 'NOUN', 'acl:relcl']", "['坏', '概念', 'acl:relcl']"]
+["['PUNCT', 'ADJ', 'punct']", "['”', '坏', 'punct']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '好', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['概念', '放弃', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '是', 'mark:rel']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['时候', '是', 'nmod:tmod']"]
+["['PART', 'VERB', 'discourse']", "['了', '是', 'discourse']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '是', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['这', '是', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['显然', '是', 'advmod']"]
+["['VERB', 'VERB', 'parataxis']", "['是', '暗示', 'parataxis']"]
+["['VERB', 'VERB', 'xcomp']", "['指', '是', 'xcomp']"]
+["['PROPN', 'VERB', 'nsubj']", "['土耳其', '作战', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['正', '作战', 'advmod']"]
+["['ADV', 'VERB', 'advmod']", "['在', '作战', 'advmod']"]
+["['ADP', 'PRON', 'case']", "['与', '之', 'case']"]
+["['PRON', 'VERB', 'obl']", "['之', '作战', 'obl']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['作战', '民兵', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '作战', 'mark:rel']"]
+["['PROPN', 'NOUN', 'nmod']", "['库尔德', '民兵', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['民兵', '指', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['：', '包括', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['西方', '包括', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['也', '为', 'mark']"]
+["['VERB', 'VERB', 'advcl']", "['为', '包括', 'advcl']"]
+["['PROPN', 'PART', 'nmod']", "['库尔德', '党', 'nmod']"]
+["['NOUN', 'PART', 'compound']", "['工人', '党', 'compound']"]
+["['PART', 'NOUN', 'nsubj']", "['党', '组织', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '组织', 'cop']"]
+["['ADJ', 'NOUN', 'amod']", "['恐怖', '组织', 'amod']"]
+["['NOUN', 'VERB', 'ccomp']", "['组织', '为', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '为', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['但', '包括', 'mark']"]
+["['ADV', 'VERB', 'mark']", "['也', '包括', 'mark']"]
+["['VERB', 'VERB', 'ccomp']", "['包括', '暗示', 'ccomp']"]
+["['PROPN', 'VERB', 'nsubj']", "['西方', '为', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['为', '包括', 'ccomp']"]
+["['AUX', 'NOUN', 'cop']", "['是', '盟友', 'cop']"]
+["['ADP', 'NOUN', 'case']", "['与', '斗争', 'case']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['打击', '斗争', 'acl:relcl']"]
+["['PROPN', 'PART', 'compound']", "['伊斯兰', '国', 'compound']"]
+["['PART', 'VERB', 'obj']", "['国', '打击', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '打击', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['斗争', '盟友', 'nmod']"]
+["['ADP', 'NOUN', 'case']", "['中', '斗争', 'case']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '为', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['盟友', '为', 'obj']"]
+["['PUNCT', 'NOUN', 'punct']", "['—', '部队', 'punct']"]
+["['PUNCT', 'NOUN', 'punct']", "['—', '部队', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['人民', '部队', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['保卫', '部队', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['部队', '盟友', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '暗示', 'punct']"]
+----------------------------------------------------------------------
+与查理·赫布多刊物遭袭击事件一样，西欧右翼民粹主义者也把巴黎袭击事件当作他们自己的议程证据。
+
+(ROOT (IP (IP (VP (PP (IN 与) (NP (IP (NP (NP (NNP 查理) (/ ·) (NNP 赫布多)) (NP (NN 刊物))) (VP (VV 遭) (NP (NN 袭击)))) (NP (NN 事件)))) (VP (JJ 一样)))) (, ，) (NP (NP (NN 西) (NNP 欧)) (NP (NN 右翼) (NN 民粹) (NN 主义) (SFN 者))) (VP (ADVP (RB 也)) (VP (BB 把) (IP (NP (NP (NNP 巴黎)) (NP (NN 袭击) (NN 事件))) (VP (VV 当作) (NP (DNP (NP (PRP 他们) (PRD 自己)) (DEC 的)) (NP (NN 议程) (NN 证据))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+["['ADP', 'NOUN', 'case']", "['与', '刊物', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['查理', '刊物', 'nmod']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '赫布多', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['赫布多', '查理', 'flat:name']"]
+["['NOUN', 'VERB', 'nsubj']", "['刊物', '遭', 'nsubj']"]
+["['VERB', 'ADJ', 'advcl']", "['遭', '一样', 'advcl']"]
+["['NOUN', 'NOUN', 'nmod']", "['袭击', '事件', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['事件', '遭', 'obj']"]
+["['ADJ', 'VERB', 'ccomp']", "['一样', '当作', 'ccomp']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '一样', 'punct']"]
+["['NOUN', 'PART', 'nmod']", "['西', '者', 'nmod']"]
+["['PROPN', 'PART', 'nmod']", "['欧', '者', 'nmod']"]
+["['NOUN', 'PART', 'nmod']", "['右翼', '者', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['民粹', '主义', 'nmod']"]
+["['NOUN', 'PART', 'compound']", "['主义', '者', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['者', '当作', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['也', '当作', 'mark']"]
+["['ADP', 'NOUN', 'case']", "['把', '事件', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['巴黎', '事件', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['袭击', '事件', 'nmod']"]
+["['NOUN', 'VERB', 'obl:patient']", "['事件', '当作', 'obl:patient']"]
+["['VERB', 'ROOT', 'root']", "['当作', 'NONE', 'root']"]
+["['PRON', 'NOUN', 'det']", "['他', '证据', 'det']"]
+["['PRON', 'PRON', 'appos']", "['自己', '他', 'appos']"]
+["['PART', 'PRON', 'case']", "['的', '他', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['议程', '证据', 'nmod']"]
+["['NOUN', 'VERB', 'iobj']", "['证据', '当作', 'iobj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '当作', 'punct']"]
+----------------------------------------------------------------------
+荷兰反移民热词 Geert Wilders 的政党目前在民意调查中领先，他呼吁荷兰首相封锁国境。
+
+(ROOT (IP (IP (NP (DNP (NP (NP (NP (NNP 荷兰)) (IP (VP (VV 反) (NP (NN 移民)))) (NP (NN 热词))) (NP (FW Geert) (FW Wilders))) (DEC 的)) (NP (NN 政党))) (VP (NP (NN 目前)) (PP (IN 在) (LCP (NP (NN 民意) (NN 调查)) (IN 中))) (VP (VV 领先)))) (, ，) (IP (NP (PRP 他)) (VP (VV 呼吁) (NP (NP (NNP 荷兰)) (NP (NN 首相))) (IP (VP (VV 封锁) (NP (NN 国境)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['PROPN', 'NOUN', 'nmod']", "['荷兰', '热词', 'nmod']"]
+["['VERB', 'NOUN', 'amod']", "['反', '热词', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['移民', '反', 'obj']"]
+["['NOUN', 'NOUN', 'nmod']", "['热词', '政党', 'nmod']"]
+["['DET', 'NOUN', 'det']", "['Geert', '政党', 'det']"]
+["['DET', 'DET', 'flat:foreign']", "['Wilders', 'Geert', 'flat:foreign']"]
+["['PART', 'DET', 'case']", "['的', 'Geert', 'case']"]
+["['NOUN', 'VERB', 'nsubj']", "['政党', '领先', 'nsubj']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['目前', '领先', 'nmod:tmod']"]
+["['ADP', 'NOUN', 'case']", "['在', '调查', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['民意', '调查', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['调查', '领先', 'obl']"]
+["['ADP', 'NOUN', 'case']", "['中', '调查', 'case']"]
+["['VERB', 'ROOT', 'root']", "['领先', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '呼吁', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '呼吁', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['呼吁', '领先', 'parataxis']"]
+["['PROPN', 'NOUN', 'nmod']", "['荷兰', '首相', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['首相', '封锁', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['封锁', '呼吁', 'ccomp']"]
+["['NOUN', 'VERB', 'obj']", "['国境', '封锁', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '领先', 'punct']"]
+----------------------------------------------------------------------
+“圣经的种子，收获是圣战，”荷兰人维勒特 (Filip de Winter) 在推特上写道，他是弗拉芒人民党 (Vlaams Belang) 的领袖，这是一个佛兰德斯的极右翼政党。
+
+(ROOT (IP (IP (IP (`` “) (NP (DNP (NP (NNP 圣经)) (DEC 的)) (NP (NN 种子))) (, ，) (NP (VV 收获)) (VP (VC 是) (NP (NN 圣战)))) (, ，) ('' ”)) (NP (NP (NP (NNP 荷兰)) (NP (SFN 人))) (NP (NNP 维勒特) (FW -LRB-Filip) (FW de) (FW Winter-RRB-))) (VP (PP (IN 在) (LCP (NP (NN 推特)) (IN 上))) (VP (VV 写道) (, ，) (IP (IP (NP (PRP 他)) (VP (VC 是) (NP (DNP (NP (NP (NNP 弗拉芒) (NN 人民) (SFN 党)) (NP (FW -LRB-Vlaams) (FW Belang-RRB-))) (DEC 的)) (NP (NN 领袖))))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 个))) (DNP (NP (NNP 佛兰德斯)) (DEC 的)) (ADJP (JJ 极右)) (NP (SFN 翼)) (NP (NN 政党)))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, "''": {}}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}}}
+{'NP': {'NP': {}, 'NP': {}}}
 {'VP': {'PP': {}, 'VP': {}}}
 Dependency Features:
-Kaouk	表示	nsubj
-还对	质量	case
-肾脏	挤压	obl
-被	挤压	aux
-挤压	质量	acl:relcl
-成管	状后	nmod
-状后	挤压	obj
-的	挤压	mark:rel
-质量	表示	obl
-表示	ROOT	root
-了	表示	aux
-担忧	表示	obj
-。	表示	punct
+["['PUNCT', 'NOUN', 'punct']", "['“', '种子', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['圣经', '种子', 'nmod']"]
+["['PART', 'PROPN', 'case']", "['的', '圣经', 'case']"]
+["['NOUN', 'VERB', 'nsubj']", "['种子', '收获', 'nsubj']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '种子', 'punct']"]
+["['VERB', 'ROOT', 'root']", "['收获', 'NONE', 'root']"]
+["['AUX', 'NOUN', 'cop']", "['是', '圣战', 'cop']"]
+["['NOUN', 'VERB', 'xcomp']", "['圣战', '收获', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '写道', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['”', '收获', 'punct']"]
+["['PROPN', 'PART', 'compound']", "['荷兰', '人', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['人', '写道', 'nsubj']"]
+["['PROPN', 'PART', 'appos']", "['维勒特', '人', 'appos']"]
+["['X', 'PROPN', 'flat:foreign']", "['(Filip', '维勒特', 'flat:foreign']"]
+["['X', 'PROPN', 'flat:foreign']", "['de', '维勒特', 'flat:foreign']"]
+["['X', 'PROPN', 'flat:foreign']", "['Winter)', '维勒特', 'flat:foreign']"]
+["['ADP', 'NOUN', 'case']", "['在', '推特', 'case']"]
+["['NOUN', 'VERB', 'obl']", "['推特', '写道', 'obl']"]
+["['ADP', 'NOUN', 'case']", "['上', '推特', 'case']"]
+["['VERB', 'VERB', 'parataxis']", "['写道', '收获', 'parataxis']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '政党', 'punct']"]
+["['PRON', 'NOUN', 'nsubj']", "['他', '领袖', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '领袖', 'cop']"]
+["['PROPN', 'PART', 'nmod']", "['弗拉芒', '党', 'nmod']"]
+["['NOUN', 'PART', 'compound']", "['人民', '党', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['党', '领袖', 'nmod']"]
+["['X', 'PART', 'appos']", "['(Vlaams', '党', 'appos']"]
+["['X', 'X', 'flat:foreign']", "['Belang)', '(Vlaams', 'flat:foreign']"]
+["['PART', 'X', 'mark:rel']", "['的', '(Vlaams', 'mark:rel']"]
+["['NOUN', 'NOUN', 'advcl']", "['领袖', '政党', 'advcl']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '领袖', 'punct']"]
+["['PRON', 'NOUN', 'nsubj']", "['这', '政党', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '政党', 'cop']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '个', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['个', '政党', 'clf']"]
+["['PROPN', 'NOUN', 'nmod']", "['佛兰德斯', '政党', 'nmod']"]
+["['PART', 'PROPN', 'mark:rel']", "['的', '佛兰德斯', 'mark:rel']"]
+["['ADJ', 'PART', 'compound']", "['极右', '翼', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['翼', '政党', 'nmod']"]
+["['NOUN', 'VERB', 'ccomp']", "['政党', '写道', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '收获', 'punct']"]
 ----------------------------------------------------------------------
-“尽量减少手术切口和减轻手术疼痛，这个理念是好的，但是我们应该看看付出的代价是什么”，他说道。
+但这种挑衅行为没有产生太大影响。
 
-(ROOT (IP (IP (`` “) (IP (VP (ADVP (RB 尽量)) (VP (VP (VV 减少) (NP (NN 手术) (NN 切口))) (CC 和) (VP (VV 减轻) (NP (NN 手术) (NN 疼痛)))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 理念))) (VP (VC 是) (NP (CP (CP (IP (VP (JJ 好))) (UH 的)))))) (, ，) (IP (ADVP (RB 但是)) (NP (PRP 我们)) (VP (MD 应该) (VP (VV 看看) (IP (NP (CP (CP (IP (VP (VV 付出))) (DEC 的))) (NP (NN 代价))) (VP (VC 是) (NP (WP 什么))))))) ('' ”)) (, ，) (NP (PRP 他)) (VP (VV 说道)) (. 。)))
+(ROOT (IP (ADVP (RB 但)) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 挑衅) (NN 行为))) (VP (VV 没有) (VP (VV 产生) (NP (ADJP (JJ 太大)) (NP (NN 影响))))) (. 。)))
 layer 2:
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'IP7915': {}, ',5967': {}, 'IP93681': {}, "''": {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}}, '.': {}}}
-{'IP': {'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, "''": {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VV': {}}, '.': {}}}
-{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, "''": {}}}
-{'NP': {'PRP': {}}}
-{'VP': {'VV': {}}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'VP': {}}}
 Dependency Features:
-“	减少	punct
-尽量	减少	advmod
-减少	好	csubj
-手术	切口	nmod
-切口	减少	obj
-和	减轻	cc
-减轻	减少	conj
-手术	疼痛	nmod
-疼痛	减轻	obj
-，	减少	punct
-这	个	det
-个	理念	clf
-理念	好	nsubj
-是	好	cop
-好	ROOT	root
-的	好	discourse
-，	好	punct
-但是	什么	mark
-我	什么	nsubj
-应该	看看	aux
-看看	什么	acl
-付出	代价	acl:relcl
-的	付出	mark:rel
-代价	看看	obj
-是	什么	cop
-什么	说道	advcl
-”	什么	punct
-，	说道	punct
-他	说道	nsubj
-说道	好	parataxis
-。	好	punct
+["['ADV', 'VERB', 'mark']", "['但', '有', 'mark']"]
+["['DET', 'NOUN', 'det']", "['这', '种', 'det']"]
+["['NOUN', 'NOUN', 'clf']", "['种', '行为', 'clf']"]
+["['NOUN', 'NOUN', 'nmod']", "['挑衅', '行为', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['行为', '有', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['有', 'NONE', 'root']"]
+["['VERB', 'VERB', 'xcomp']", "['产生', '有', 'xcomp']"]
+["['ADJ', 'NOUN', 'amod']", "['太大', '影响', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['影响', '产生', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有', 'punct']"]
+----------------------------------------------------------------------
+据报道，三名与巴黎袭击事件有关联的人在布鲁塞尔郊区被捕，这令比利时人感到担忧。
+
+(ROOT (IP (IP (PP (IN 据) (NP (VV 报道))) (, ，) (NP (QP (CD 三) (CLP (NNB 名))) (CP (CP (IP (VP (PP (IN 与) (NP (NP (NNP 巴黎)) (NP (NN 袭击) (NN 事件)))) (VP (VV 有) (NP (NN 关联))))) (DEC 的))) (NP (NN 人))) (VP (PP (VV 在) (NP (NP (NNP 布鲁塞尔)) (NP (NN 郊区)))) (VP (BB 被) (VP (VV 捕))))) (, ，) (IP (NP (PRD 这)) (VP (VV 令) (NP (NP (NNP 比利时)) (NP (SFN 人))) (IP (VP (VV 感到) (NP (JJ 担忧)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['ADP', 'VERB', 'case']", "['据', '报道', 'case']"]
+["['VERB', 'VERB', 'xcomp']", "['报道', '捕', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '报道', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['三', '名', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['名', '人', 'clf']"]
+["['ADP', 'NOUN', 'case']", "['与', '事件', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['巴黎', '事件', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['袭击', '事件', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['事件', '有', 'obl']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['有', '人', 'acl:relcl']"]
+["['NOUN', 'VERB', 'obj']", "['关联', '有', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '有', 'mark:rel']"]
+["['NOUN', 'VERB', 'nsubj:pass']", "['人', '捕', 'nsubj:pass']"]
+["['VERB', 'VERB', 'advcl']", "['在', '捕', 'advcl']"]
+["['PROPN', 'NOUN', 'nmod']", "['布鲁塞尔', '郊区', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['郊区', '在', 'obj']"]
+["['AUX', 'VERB', 'aux:pass']", "['被', '捕', 'aux:pass']"]
+["['VERB', 'ROOT', 'root']", "['捕', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '令', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['这', '令', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['令', '捕', 'parataxis']"]
+["['PROPN', 'PART', 'compound']", "['比利时', '人', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['人', '感到', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['感到', '令', 'ccomp']"]
+["['ADJ', 'VERB', 'xcomp']", "['担忧', '感到', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '捕', 'punct']"]
+----------------------------------------------------------------------
+比利时内政部长让·敦促对嫌疑人所在的莫倫貝克邻里进行“根治”。
+
+(ROOT (IP (NP (NP (NP (NNP 比利时)) (NP (NN 内政) (NN 部长))) (NP (NNP 让) (/ ·))) (VP (VV 敦促) (IP (VP (PP (IN 对) (NP (CP (CP (IP (NP (NN 嫌疑) (SFN 人)) (VP (RB 所) (VP (VV 在)))) (DEC 的))) (NP (NNP 莫倫貝克)) (NP (NN 邻里)))) (VP (VV 进行) (NP (`` “) (NN 根治) ('' ”)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+["['PROPN', 'NOUN', 'nmod']", "['比利时', '部长', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['内政', '部长', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['部长', '进行', 'nsubj']"]
+["['PROPN', 'NOUN', 'appos']", "['让', '部长', 'appos']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '让', 'punct']"]
+["['VERB', 'VERB', 'advcl']", "['敦促', '进行', 'advcl']"]
+["['ADP', 'PART', 'case']", "['对', '人', 'case']"]
+["['NOUN', 'PART', 'compound']", "['嫌疑', '人', 'compound']"]
+["['PART', 'VERB', 'obl']", "['人', '在', 'obl']"]
+["['ADV', 'VERB', 'mark']", "['所', '在', 'mark']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['在', '邻里', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '在', 'mark:rel']"]
+["['PROPN', 'NOUN', 'nmod']", "['莫倫貝克', '邻里', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['邻里', '进行', 'obl']"]
+["['VERB', 'ROOT', 'root']", "['进行', 'NONE', 'root']"]
+["['PUNCT', 'NOUN', 'punct']", "['“', '根治', 'punct']"]
+["['NOUN', 'VERB', 'obj']", "['根治', '进行', 'obj']"]
+["['PUNCT', 'NOUN', 'punct']", "['”', '根治', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '进行', 'punct']"]
+----------------------------------------------------------------------
+这是比利时反恐警察在 1 月份袭击查理·赫布尔袭击事件相关嫌疑人时袭击的同一个街区之一。
+
+(ROOT (IP (NP (PRD 这)) (VP (VC 是) (NP (DNP (NP (CP (CP (IP (VP (LCP (IP (NP (NP (NNP 比利时)) (ADJP (NN 反恐)) (NP (NN 警察))) (VP (PP (IN 在) (NP (QP (CD 1)) (NP (NNB 月份)))) (VP (VV 袭击) (NP (NP (NP (NNP 查理) (/ ·) (NNP 赫布尔)) (NP (NN 袭击) (NN 事件))) (ADJP (JJ 相关)) (NP (NN 嫌疑) (SFN 人)))))) (IN 时)) (VP (VV 袭击)))) (DEC 的))) (DP (DT 同) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 街区))) (DEC 之)) (NP (CD 一)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+["['PRON', 'NUM', 'nsubj']", "['这', '一', 'nsubj']"]
+["['AUX', 'NUM', 'cop']", "['是', '一', 'cop']"]
+["['PROPN', 'NOUN', 'nmod']", "['比利时', '警察', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['反恐', '警察', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['警察', '袭击', 'nsubj']"]
+["['ADP', 'PART', 'case']", "['在', '人', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['1', '月份', 'nummod']"]
+["['NOUN', 'VERB', 'obl']", "['月份', '袭击', 'obl']"]
+["['VERB', 'NOUN', 'amod']", "['袭击', '事件', 'amod']"]
+["['PROPN', 'NOUN', 'nmod']", "['查理', '事件', 'nmod']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '赫布尔', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['赫布尔', '查理', 'flat:name']"]
+["['NOUN', 'NOUN', 'nmod']", "['袭击', '事件', 'nmod']"]
+["['NOUN', 'PART', 'nmod']", "['事件', '人', 'nmod']"]
+["['ADJ', 'PART', 'amod']", "['相关', '人', 'amod']"]
+["['NOUN', 'PART', 'compound']", "['嫌疑', '人', 'compound']"]
+["['PART', 'VERB', 'obl']", "['人', '袭击', 'obl']"]
+["['ADP', 'PART', 'case']", "['时', '人', 'case']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['袭击', '街区', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '袭击', 'mark:rel']"]
+["['DET', 'NOUN', 'det']", "['同', '个', 'det']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '个', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['个', '街区', 'nmod']"]
+["['NOUN', 'NUM', 'nmod']", "['街区', '一', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['之', '街区', 'case']"]
+["['NUM', 'ROOT', 'root']", "['一', 'NONE', 'root']"]
+["['PUNCT', 'NUM', 'punct']", "['。', '一', 'punct']"]
+----------------------------------------------------------------------
+即便如此，在一些可能会引发移民辩论的地方，事情并没有如此发酵，或者至少还没有发酵。
+
+(ROOT (IP (IP (VP (ADVP (IN 即便)) (NP (VV 如此)))) (, ，) (PP (IN 在) (NP (QP (JJ 一些)) (CP (CP (IP (VP (MD 可能) (VP (MD 会) (VP (VV 引发) (NP (NN 移民) (NN 辩论)))))) (DEC 的))) (NP (NN 地方)))) (, ，) (NP (NN 事情)) (VP (VP (ADVP (RB 并)) (VP (VV 没有) (VP (ADVP (VV 如此)) (VP (NN 发酵))))) (, ，) (RB 或者) (VP (ADVP (RB 至少)) (ADVP (RB 还)) (VP (VV 没有) (VP (VV 发酵))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+["['ADP', 'VERB', 'case']", "['即便', '如此', 'case']"]
+["['VERB', 'VERB', 'xcomp']", "['如此', '有', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '如此', 'punct']"]
+["['ADP', 'NOUN', 'case']", "['在', '地方', 'case']"]
+["['ADJ', 'NOUN', 'amod']", "['一些', '地方', 'amod']"]
+["['AUX', 'VERB', 'aux']", "['可能', '引发', 'aux']"]
+["['AUX', 'VERB', 'aux']", "['会', '引发', 'aux']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['引发', '地方', 'acl:relcl']"]
+["['NOUN', 'NOUN', 'nmod']", "['移民', '辩论', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['辩论', '引发', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '引发', 'mark:rel']"]
+["['NOUN', 'VERB', 'obl']", "['地方', '有', 'obl']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '地方', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['事情', '有', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['并', '有', 'mark']"]
+["['VERB', 'VERB', 'advcl']", "['有', '有', 'advcl']"]
+["['VERB', 'VERB', 'xcomp']", "['如此', '有', 'xcomp']"]
+["['NOUN', 'VERB', 'obj']", "['发酵', '有', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '有', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['或者', '有', 'mark']"]
+["['ADV', 'VERB', 'advmod']", "['至少', '有', 'advmod']"]
+["['ADV', 'VERB', 'mark']", "['还', '有', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['有', 'NONE', 'root']"]
+["['VERB', 'VERB', 'xcomp']", "['发酵', '有', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有', 'punct']"]
+----------------------------------------------------------------------
+正当周五袭击开始之时，瑞典和丹麦就因控制移民流入而陷入混乱的互怼之中。
+
+(ROOT (IP (PP (IN 正当) (LCP (IP (NP (NP (NNP 周) (CD 五)) (NP (VV 袭击))) (VP (VV 开始))) (IN 之时))) (, ，) (NP (NNP 瑞典) (CC 和) (NNP 丹麦)) (VP (ADVP (RB 就)) (PP (IN 因) (IP (VP (VV 控制) (NP (NN 移民) (VV 流入))))) (VP (RB 而) (VP (VV 陷入) (LCP (NP (CP (CP (IP (NP (NN 混乱))) (DEC 的))) (NP (NN 互怼))) (IN 之中))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'LCP': {}}, ',': {}, 'NP': {'NNP': {}, 'CC': {}, 'NNP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'LCP': {}}}
+{'NP': {'NNP': {}, 'CC': {}, 'NNP': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+["['ADP', 'VERB', 'case']", "['正当', '开始', 'case']"]
+["['PROPN', 'VERB', 'nsubj']", "['周', '袭击', 'nsubj']"]
+["['NUM', 'PROPN', 'flat:name']", "['五', '周', 'flat:name']"]
+["['VERB', 'VERB', 'csubj']", "['袭击', '开始', 'csubj']"]
+["['VERB', 'VERB', 'ccomp']", "['开始', '陷入', 'ccomp']"]
+["['ADP', 'VERB', 'mark']", "['之时', '开始', 'mark']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '开始', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['瑞典', '陷入', 'nsubj']"]
+["['CCONJ', 'PROPN', 'cc']", "['和', '丹麦', 'cc']"]
+["['PROPN', 'PROPN', 'conj']", "['丹麦', '瑞典', 'conj']"]
+["['ADV', 'VERB', 'mark']", "['就', '陷入', 'mark']"]
+["['ADP', 'VERB', 'case']", "['因', '控制', 'case']"]
+["['VERB', 'VERB', 'xcomp']", "['控制', '陷入', 'xcomp']"]
+["['NOUN', 'VERB', 'nsubj']", "['移民', '流入', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['流入', '控制', 'ccomp']"]
+["['ADV', 'VERB', 'mark']", "['而', '陷入', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['陷入', 'NONE', 'root']"]
+["['NOUN', 'NOUN', 'nmod']", "['混乱', '互怼', 'nmod']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '陷入', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['互怼', '陷入', 'obj']"]
+["['ADP', 'NOUN', 'case']", "['之中', '互怼', 'case']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '陷入', 'punct']"]
+----------------------------------------------------------------------
+周四，瑞典宣布实行边境管制，这是欧洲人均领养的难民最多的国家，威胁要拦住在丹麦途中前往瑞典的许多寻求庇护者。
+
+(ROOT (IP (IP (NP (NN 周四)) (, ，) (NP (NNP 瑞典)) (VP (VV 宣布) (IP (VP (VV 实行) (NP (NN 边境) (NN 管制)))))) (, ，) (IP (NP (PRD 这)) (VP (VP (VC 是) (NP (CP (CP (IP (NP (CP (CP (IP (NP (NNP 欧洲)) (VP (ADVP (RB 人均)) (VP (VV 领养)))) (DEC 的))) (NP (NN 难民))) (VP (JJ 最多))) (DEC 的))) (NP (NN 国家)))) (, ，) (VP (VV 威胁) (IP (VP (MD 要) (VP (VV 拦住) (NP (CP (CP (IP (VP (PP (PP (VV 在) (NP (NNP 丹麦))) (NP (NN 途中))) (VP (VV 前往) (NP (NNP 瑞典))))) (DEC 的))) (QP (CD 许多)) (CP (IP (VP (VV 寻求) (NP (VV 庇护))))) (NP (SFN 者))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['NOUN', 'VERB', 'nmod:tmod']", "['周四', '宣布', 'nmod:tmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '周四', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['瑞典', '宣布', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['宣布', 'NONE', 'root']"]
+["['VERB', 'VERB', 'xcomp']", "['实行', '宣布', 'xcomp']"]
+["['NOUN', 'NOUN', 'nmod']", "['边境', '管制', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['管制', '实行', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '威胁', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['这', '威胁', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '国家', 'cop']"]
+["['PROPN', 'VERB', 'nsubj']", "['欧洲', '领养', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['人均', '领养', 'advmod']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['领养', '难民', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '领养', 'mark:rel']"]
+["['NOUN', 'ADJ', 'nsubj']", "['难民', '最多', 'nsubj']"]
+["['ADJ', 'NOUN', 'amod']", "['最多', '国家', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '最多', 'mark:rel']"]
+["['NOUN', 'VERB', 'advcl']", "['国家', '威胁', 'advcl']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '国家', 'punct']"]
+["['VERB', 'VERB', 'parataxis']", "['威胁', '宣布', 'parataxis']"]
+["['AUX', 'VERB', 'aux']", "['要', '前往', 'aux']"]
+["['VERB', 'VERB', 'advcl']", "['拦住', '前往', 'advcl']"]
+["['VERB', 'VERB', 'advcl']", "['在', '前往', 'advcl']"]
+["['PROPN', 'VERB', 'obj']", "['丹麦', '在', 'obj']"]
+["['NOUN', 'VERB', 'obj']", "['途中', '在', 'obj']"]
+["['VERB', 'VERB', 'advcl']", "['前往', '寻求', 'advcl']"]
+["['PROPN', 'VERB', 'obj']", "['瑞典', '前往', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '前往', 'mark:rel']"]
+["['NUM', 'VERB', 'nummod']", "['许多', '寻求', 'nummod']"]
+["['VERB', 'VERB', 'xcomp']", "['寻求', '威胁', 'xcomp']"]
+["['VERB', 'PART', 'compound']", "['庇护', '者', 'compound']"]
+["['PART', 'VERB', 'obj']", "['者', '寻求', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '宣布', 'punct']"]
+----------------------------------------------------------------------
+丹麦人长期以来一直推行欧洲最严厉的移民政策，第二天即宣布采取 34 项措施，主要是通过减少福利来阻止移民入境。
+
+(ROOT (IP (IP (NP (NP (NNP 丹麦)) (NP (SFN 人))) (VP (VP (LCP (NP (NN 长期)) (IN 以来)) (ADVP (RB 一直)) (VP (VV 推行) (NP (NP (NNP 欧洲)) (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 严厉)))) (DEC 的))) (NP (NN 移民) (NN 政策))))) (, ，) (VP (QP (CD 第二)) (ADVP (NNB 天即)) (VP (VV 宣布) (IP (VP (VV 采取) (NP (QP (CD 34) (CLP (NNB 项))) (NP (NN 措施))))))))) (, ，) (IP (VP (ADVP (RB 主要)) (VP (VC 是) (VP (PP (IN 通过) (IP (VP (VV 减少) (NP (NN 福利))))) (VP (RB 来) (VP (VV 阻止) (NP (NN 移民)) (IP (VP (VV 入境))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+Dependency Features:
+["['PROPN', 'PART', 'compound']", "['丹麦', '人', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['人', '宣布', 'nsubj']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['长期', '推行', 'nmod:tmod']"]
+["['ADP', 'NOUN', 'case']", "['以来', '长期', 'case']"]
+["['ADV', 'VERB', 'advmod']", "['一直', '推行', 'advmod']"]
+["['VERB', 'VERB', 'advcl']", "['推行', '宣布', 'advcl']"]
+["['PROPN', 'NOUN', 'nmod']", "['欧洲', '政策', 'nmod']"]
+["['ADV', 'ADJ', 'advmod']", "['最', '严厉', 'advmod']"]
+["['ADJ', 'NOUN', 'amod']", "['严厉', '政策', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '严厉', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['移民', '政策', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['政策', '推行', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '推行', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['第二', '天即', 'nummod']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['天即', '宣布', 'nmod:tmod']"]
+["['VERB', 'ROOT', 'root']", "['宣布', 'NONE', 'root']"]
+["['VERB', 'VERB', 'xcomp']", "['采取', '宣布', 'xcomp']"]
+["['NUM', 'NOUN', 'nummod']", "['34', '项', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['项', '措施', 'clf']"]
+["['NOUN', 'VERB', 'obj']", "['措施', '采取', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '是', 'punct']"]
+["['ADV', 'VERB', 'advmod']", "['主要', '是', 'advmod']"]
+["['VERB', 'VERB', 'parataxis']", "['是', '宣布', 'parataxis']"]
+["['ADP', 'VERB', 'case']", "['通过', '减少', 'case']"]
+["['VERB', 'VERB', 'xcomp']", "['减少', '阻止', 'xcomp']"]
+["['NOUN', 'VERB', 'obj']", "['福利', '减少', 'obj']"]
+["['ADV', 'VERB', 'mark']", "['来', '阻止', 'mark']"]
+["['VERB', 'VERB', 'xcomp']", "['阻止', '是', 'xcomp']"]
+["['NOUN', 'VERB', 'nsubj']", "['移民', '入境', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['入境', '阻止', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '宣布', 'punct']"]
+----------------------------------------------------------------------
+但是丹麦人民党（主要反移民团体）和瑞典民主党（瑞典的同类团体）都没有将巴黎袭击事件用作宣传工具。
+
+(ROOT (IP (ADVP (RB 但是)) (NP (NP (NNP 丹麦) (NN 人民) (SFN 党) (PRN (-LRB- （) (NP (ADJP (JJ 主要)) (ADJP (VV 反)) (NP (NN 移民)) (NP (NN 团体))) (-RRB- ）))) (CC 和) (NP (NNP 瑞典) (NN 民主) (SFN 党) (PRN (-LRB- （) (NP (DNP (NP (NNP 瑞典)) (DEC 的)) (ADJP (JJ 同类)) (NP (NN 团体))) (-RRB- ）)))) (VP (ADVP (RB 都)) (VP (VV 没有) (VP (BB 将) (IP (NP (NP (NNP 巴黎)) (NP (NN 袭击) (NN 事件))) (VP (VV 用作) (NP (NN 宣传) (NN 工具))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NP': {}, 'CC': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NP': {}, 'CC': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+["['ADV', 'VERB', 'mark']", "['但是', '有', 'mark']"]
+["['PROPN', 'PART', 'nmod']", "['丹麦', '党', 'nmod']"]
+["['NOUN', 'PART', 'compound']", "['人民', '党', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['党', '有', 'nsubj']"]
+["['PUNCT', 'NOUN', 'punct']", "['（', '团体', 'punct']"]
+["['ADJ', 'NOUN', 'amod']", "['主要', '团体', 'amod']"]
+["['VERB', 'NOUN', 'amod']", "['反', '团体', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['移民', '反', 'obj']"]
+["['NOUN', 'PART', 'appos']", "['团体', '党', 'appos']"]
+["['PUNCT', 'NOUN', 'punct']", "['）', '团体', 'punct']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '团体', 'cc']"]
+["['PROPN', 'PART', 'nmod']", "['瑞典', '党', 'nmod']"]
+["['NOUN', 'PART', 'compound']", "['民主', '党', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['党', '团体', 'nmod']"]
+["['PUNCT', 'PROPN', 'punct']", "['（', '瑞典', 'punct']"]
+["['PROPN', 'PART', 'appos']", "['瑞典', '党', 'appos']"]
+["['PART', 'PROPN', 'mark:rel']", "['的', '瑞典', 'mark:rel']"]
+["['ADJ', 'NOUN', 'amod']", "['同类', '团体', 'amod']"]
+["['NOUN', 'PART', 'conj']", "['团体', '党', 'conj']"]
+["['PUNCT', 'NOUN', 'punct']", "['）', '团体', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['都', '有', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['有', 'NONE', 'root']"]
+["['ADP', 'NOUN', 'case']", "['将', '事件', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['巴黎', '事件', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['袭击', '事件', 'nmod']"]
+["['NOUN', 'VERB', 'obl:patient']", "['事件', '用作', 'obl:patient']"]
+["['VERB', 'VERB', 'xcomp']", "['用作', '有', 'xcomp']"]
+["['NOUN', 'NOUN', 'nmod']", "['宣传', '工具', 'nmod']"]
+["['NOUN', 'VERB', 'iobj']", "['工具', '用作', 'iobj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有', 'punct']"]
+----------------------------------------------------------------------
+就像在查理·卫斯man 报遭袭事件之后一样，两国的氛围都是彼此尊重和无党派同情。
+
+(ROOT (IP (PP (IN 就像) (IP (VP (PP (IN 在) (LCP (NP (IP (NP (NNP 查理) (/ ·) (NNP 卫斯man)) (VP (VV 报遭袭))) (NP (NN 事件))) (IN 之后))) (VP (JJ 一样))))) (, ，) (NP (DNP (NP (QP (CD 两)) (NP (NN 国))) (DEC 的)) (NP (NN 氛围))) (VP (VC 都是) (IP (IP (NP (PRD 彼此)) (VP (VV 尊重))) (CC 和) (IP (VP (VV 无) (NP (NN 党派) (NN 同情)))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'IP': {}}}
+Dependency Features:
+["['ADP', 'ADJ', 'case']", "['就像', '一样', 'case']"]
+["['ADP', 'NOUN', 'case']", "['在', '事件', 'case']"]
+["['PROPN', 'VERB', 'nsubj']", "['查理', '报遭袭', 'nsubj']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '卫斯man', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['卫斯man', '查理', 'flat:name']"]
+["['VERB', 'NOUN', 'amod']", "['报遭袭', '事件', 'amod']"]
+["['NOUN', 'ADJ', 'nmod']", "['事件', '一样', 'nmod']"]
+["['ADP', 'NOUN', 'case']", "['之后', '事件', 'case']"]
+["['ADJ', 'VERB', 'advcl']", "['一样', '尊重', 'advcl']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '一样', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['两', '国', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['国', '氛围', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '国', 'case']"]
+["['NOUN', 'VERB', 'nsubj']", "['氛围', '尊重', 'nsubj']"]
+["['AUX', 'VERB', 'cop']", "['是', '尊重', 'cop']"]
+["['PRON', 'VERB', 'nsubj']", "['彼此', '尊重', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['尊重', 'NONE', 'root']"]
+["['CCONJ', 'VERB', 'cc']", "['和', '无', 'cc']"]
+["['VERB', 'VERB', 'conj']", "['无', '尊重', 'conj']"]
+["['NOUN', 'NOUN', 'nmod']", "['党派', '同情', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['同情', '无', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '尊重', 'punct']"]
+----------------------------------------------------------------------
+当然，反移民党派可能只是保持沉默，相信伊斯兰恐怖主义的形象会加剧对移民的抵抗，他们无需说什么。
+
+(ROOT (IP (IP (ADVP (RB 当然)) (, ，) (NP (CP (IP (VP (VV 反) (NP (NN 移民))))) (NP (NN 党派))) (VP (MD 可能) (VP (ADVP (RB 只)) (VP (VC 是) (VP (VV 保持) (NP (NN 沉默))))))) (, ，) (IP (VP (VV 相信) (IP (NP (DNP (NP (NP (NNP 伊斯兰)) (NP (NN 恐怖) (NN 主义))) (DEC 的)) (NP (NN 形象))) (VP (MD 会) (VP (VV 加剧) (NP (DNP (PP (IN 对) (NP (NN 移民))) (DEC 的)) (NP (NN 抵抗)))))))) (, ，) (IP (NP (PRP 他们)) (VP (VV 无) (VP (VV 需说) (NP (WP 什么))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['ADV', 'VERB', 'advmod']", "['当然', '相信', 'advmod']"]
+["['PUNCT', 'ADV', 'punct']", "['，', '当然', 'punct']"]
+["['VERB', 'NOUN', 'amod']", "['反', '党派', 'amod']"]
+["['NOUN', 'NOUN', 'nmod']", "['移民', '党派', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['党派', '是', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['可能', '是', 'aux']"]
+["['ADV', 'VERB', 'advmod']", "['只', '是', 'advmod']"]
+["['VERB', 'VERB', 'advcl']", "['是', '相信', 'advcl']"]
+["['VERB', 'VERB', 'xcomp']", "['保持', '是', 'xcomp']"]
+["['NOUN', 'VERB', 'obj']", "['沉默', '保持', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '是', 'punct']"]
+["['VERB', 'ROOT', 'root']", "['相信', 'NONE', 'root']"]
+["['PROPN', 'NOUN', 'nmod']", "['伊斯兰', '主义', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['恐怖', '主义', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['主义', '形象', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '主义', 'case']"]
+["['NOUN', 'VERB', 'nsubj']", "['形象', '加剧', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['会', '加剧', 'aux']"]
+["['VERB', 'VERB', 'ccomp']", "['加剧', '相信', 'ccomp']"]
+["['ADP', 'NOUN', 'case']", "['对', '抵抗', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['移民', '抵抗', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '抵抗', 'case']"]
+["['NOUN', 'VERB', 'obj']", "['抵抗', '加剧', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '无', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '无', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['无', '相信', 'parataxis']"]
+["['VERB', 'VERB', 'xcomp']", "['需说', '无', 'xcomp']"]
+["['PRON', 'VERB', 'obj']", "['什么', '需说', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '相信', 'punct']"]
+----------------------------------------------------------------------
+令人振奋的是，周六举行的支持法国的民众示威，以及欧洲领导人的支持信息，都充满了不让恐怖分子将欧洲公民隔离在一起的呼吁，哪怕这些呼吁很模糊。
+
+(ROOT (IP (NP (CP (CP (IP (NP (RB 令人)) (VP (JJ 振奋))) (DEC 的)))) (VP (VC 是) (, ，) (IP (IP (NP (NP (CP (CP (IP (VP (NP (NNP 周) (CD 六)) (VP (VV 举行)))) (DEC 的))) (CP (CP (IP (VP (VV 支持) (NP (NNP 法国)))) (DEC 的))) (NP (NN 民众) (NN 示威))) (, ，) (CC 以及) (NP (DNP (NP (NP (NNP 欧洲)) (NP (VV 领导) (SFN 人))) (DEC 的)) (NP (NN 支持) (NN 信息)))) (, ，) (VP (ADVP (RB 都)) (VP (VV 充满) (AS 了) (NP (CP (IP (VP (PP (VV 不让) (NP (JJ 恐怖) (NN 分子))) (VP (BB 将) (IP (NP (NP (NNP 欧洲)) (NP (NN 公民))) (VP (VV 隔离) (PP (VV 在) (ADJP (NN 一起)))))))) (DEC 的)) (NP (NN 呼吁)))))) (, ，) (IP (VP (ADVP (PRD 哪)) (VP (VV 怕) (IP (NP (DP (DT 这些)) (NP (NN 呼吁))) (VP (ADVP (RB 很)) (VP (JJ 模糊))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}}, 'VP': {'VC': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}}}
+{'VP': {'VC': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+["['ADV', 'ADJ', 'advmod']", "['令人', '振奋', 'advmod']"]
+["['ADJ', 'VERB', 'csubj']", "['振奋', '是', 'csubj']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '振奋', 'mark:rel']"]
+["['VERB', 'ROOT', 'root']", "['是', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '充满', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['周', '举行', 'nsubj']"]
+["['NUM', 'PROPN', 'acl']", "['六', '周', 'acl']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['举行', '示威', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '举行', 'mark:rel']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['支持', '示威', 'acl:relcl']"]
+["['PROPN', 'VERB', 'obj']", "['法国', '支持', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '支持', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['民众', '示威', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['示威', '充满', 'nsubj']"]
+["['PUNCT', 'PART', 'punct']", "['，', '人', 'punct']"]
+["['CCONJ', 'PART', 'cc']", "['以及', '人', 'cc']"]
+["['PROPN', 'PART', 'nmod']", "['欧洲', '人', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['领导', '人', 'compound']"]
+["['PART', 'NOUN', 'conj']", "['人', '示威', 'conj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '支持', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['支持', '信息', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['信息', '充满', 'nsubj']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '信息', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['都', '充满', 'mark']"]
+["['VERB', 'VERB', 'ccomp']", "['充满', '是', 'ccomp']"]
+["['AUX', 'VERB', 'aux']", "['了', '充满', 'aux']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['让', '呼吁', 'acl:relcl']"]
+["['ADJ', 'NOUN', 'amod']", "['恐怖', '分子', 'amod']"]
+["['NOUN', 'VERB', 'nsubj']", "['分子', '隔离', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['将', '公民', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['欧洲', '公民', 'nmod']"]
+["['NOUN', 'VERB', 'obl:patient']", "['公民', '隔离', 'obl:patient']"]
+["['VERB', 'VERB', 'ccomp']", "['隔离', '让', 'ccomp']"]
+["['VERB', 'VERB', 'mark']", "['在', '隔离', 'mark']"]
+["['NOUN', 'VERB', 'obj']", "['一起', '隔离', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '让', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['呼吁', '充满', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '怕', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['哪', '怕', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['怕', '是', 'parataxis']"]
+["['DET', 'NOUN', 'det']", "['这些', '呼吁', 'det']"]
+["['NOUN', 'ADJ', 'nsubj']", "['呼吁', '模糊', 'nsubj']"]
+["['ADV', 'ADJ', 'advmod']", "['很', '模糊', 'advmod']"]
+["['ADJ', 'VERB', 'ccomp']", "['模糊', '怕', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '是', 'punct']"]
+----------------------------------------------------------------------
+然而随着欧洲国家之间的边境管制不断加强，这种说法难以为继。
+
+(ROOT (IP (ADVP (RB 然而)) (PP (VV 随) (PP (AS 着) (IP (NP (DNP (LCP (NP (NP (NNP 欧洲)) (NP (NN 国家))) (IN 之间)) (DEC 的)) (NP (NN 边境) (NN 管制))) (VP (ADVP (RB 不断)) (VP (VV 加强)))))) (, ，) (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 说法))) (VP (ADVP (JJ 难)) (VP (VV 以为) (IP (VP (NN 继))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'PP': {'VV': {}, 'PP': {}}, ',': {}, 'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'PP': {'VV': {}, 'PP': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+["['ADV', 'NOUN', 'mark']", "['然而', '继', 'mark']"]
+["['VERB', 'NOUN', 'advcl']", "['随', '继', 'advcl']"]
+["['AUX', 'VERB', 'aux']", "['着', '随', 'aux']"]
+["['PROPN', 'NOUN', 'nmod']", "['欧洲', '国家', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['国家', '管制', 'nmod']"]
+["['ADP', 'NOUN', 'case']", "['之间', '国家', 'case']"]
+["['PART', 'NOUN', 'case']", "['的', '国家', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['边境', '管制', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['管制', '加强', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['不断', '加强', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['加强', '随', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '随', 'punct']"]
+["['DET', 'NOUN', 'det']", "['这', '种', 'det']"]
+["['NOUN', 'NOUN', 'clf']", "['种', '说法', 'clf']"]
+["['NOUN', 'NOUN', 'nsubj']", "['说法', '继', 'nsubj']"]
+["['ADJ', 'NOUN', 'advmod']", "['难', '继', 'advmod']"]
+["['AUX', 'NOUN', 'cop']", "['为', '继', 'cop']"]
+["['NOUN', 'ROOT', 'root']", "['继', 'NONE', 'root']"]
+["['PUNCT', 'NOUN', 'punct']", "['。', '继', 'punct']"]
 ----------------------------------------------------------------------

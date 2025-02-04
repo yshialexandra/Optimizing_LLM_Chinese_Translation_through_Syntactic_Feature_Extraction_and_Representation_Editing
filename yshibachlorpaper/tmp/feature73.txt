@@ -1,265 +1,1139 @@
-.
-(ROOT (. .))
+PIXAR 角色——无论是《玩具总动员》中英雄玩具，《寻找狮子王》中父子鱼，《蚁族大叔》中昆虫，还是《蜗居》中老鼠厨师，——都充满了向往；向往玩耍的孩子，向往失落的家庭成员，向往似乎遥不可及的东西。
+
+(ROOT (IP (NP (NP (FW PIXAR) (NN 角色)) (PRN (HYPH —) (HYPH —) (VP (VP (ADVP (IN 无论)) (VP (VC 是) (NP (LCP (NP (-LRB- 《) (NN 玩具) (VV 总动) (SFN 员) (-RRB- 》)) (IN 中)) (NP (NN 英雄) (NN 玩具))))) (, ，) (NP (LCP (VP (-LRB- 《) (VV 寻找) (NP (NN 狮子) (SFN 王)) (-RRB- 》)) (IN 中)) (NP (NN 父子) (SFN 鱼))) (, ，) (NP (LCP (NP (-LRB- 《) (NN 蚁族) (NN 大叔) (-RRB- 》)) (IN 中)) (NP (NN 昆虫))) (, ，) (VC 还是) (NP (LCP (NP (-LRB- 《) (NN 蜗居) (-RRB- 》)) (IN 中)) (NP (NN 老鼠) (NN 厨师)))))) (, ，) (HYPH —) (HYPH —) (VP (ADVP (RB 都)) (VP (VV 充满) (AS 了) (NP (VV 向往)))) (: ；) (IP (NP (CP (CP (IP (VP (VV 向往) (IP (VP (VV 玩耍))))) (DEC 的))) (NP (NN 孩子))) (, ，) (VP (VP (VV 向往) (NP (CP (CP (IP (VP (VV 失落))) (DEC 的))) (NP (NN 家庭) (NN 成员)))) (, ，) (VP (VV 向往) (NP (CP (CP (IP (VP (ADVP (RB 似乎)) (VP (VV 遥) (IP (VP (MD 不可) (VP (VV 及))))))) (DEC 的))) (NP (NN 东西)))))) (. 。)))
 layer 2:
-{'.': {}}
+{'IP': {'NP': {}, ',': {}, 'HYPH': {}, 'HYPH': {}, 'VP': {}, ':': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'.': {}}
+{'IP': {'NP': {'NP': {}, 'PRN': {}}, ',': {}, 'HYPH': {}, 'HYPH': {}, 'VP': {'ADVP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'PRN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}}}
 Dependency Features:
-.	ROOT	root
+["['X', 'NOUN', 'nmod']", "['PIXAR', '角色', 'nmod']"]
+["['NOUN', 'NOUN', 'nsubj']", "['角色', '玩具', 'nsubj']"]
+["['PUNCT', 'NOUN', 'punct']", "['—', '玩具', 'punct']"]
+["['PUNCT', 'NOUN', 'punct']", "['—', '玩具', 'punct']"]
+["['ADP', 'NOUN', 'case']", "['无论', '玩具', 'case']"]
+["['AUX', 'NOUN', 'cop']", "['是', '玩具', 'cop']"]
+["['PUNCT', 'PART', 'punct']", "['《', '员', 'punct']"]
+["['NOUN', 'PART', 'nmod']", "['玩具', '员', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['总动', '员', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['员', '玩具', 'nmod']"]
+["['PUNCT', 'PART', 'punct']", "['》', '员', 'punct']"]
+["['ADP', 'PART', 'case']", "['中', '员', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['英雄', '玩具', 'nmod']"]
+["['NOUN', 'ROOT', 'root']", "['玩具', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '寻找', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['《', '寻找', 'punct']"]
+["['VERB', 'PART', 'amod']", "['寻找', '鱼', 'amod']"]
+["['NOUN', 'PART', 'compound']", "['狮子', '王', 'compound']"]
+["['PART', 'VERB', 'obj']", "['王', '寻找', 'obj']"]
+["['PUNCT', 'PART', 'punct']", "['》', '王', 'punct']"]
+["['ADP', 'PART', 'case']", "['中', '王', 'case']"]
+["['NOUN', 'PART', 'compound']", "['父子', '鱼', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['鱼', '昆虫', 'nmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '大叔', 'punct']"]
+["['PUNCT', 'NOUN', 'punct']", "['《', '大叔', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['蚁族', '大叔', 'nmod']"]
+["['NOUN', 'PART', 'appos']", "['大叔', '鱼', 'appos']"]
+["['PUNCT', 'NOUN', 'punct']", "['》', '大叔', 'punct']"]
+["['ADP', 'NOUN', 'case']", "['中', '大叔', 'case']"]
+["['NOUN', 'NOUN', 'conj']", "['昆虫', '玩具', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '寻找', 'punct']"]
+["['AUX', 'NOUN', 'cop']", "['是', '厨师', 'cop']"]
+["['PUNCT', 'NOUN', 'punct']", "['《', '蜗居', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['蜗居', '厨师', 'nmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['》', '蜗居', 'punct']"]
+["['ADP', 'NOUN', 'case']", "['中', '蜗居', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['老鼠', '厨师', 'nmod']"]
+["['NOUN', 'VERB', 'advcl']", "['厨师', '向往', 'advcl']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '厨师', 'punct']"]
+["['PUNCT', 'NOUN', 'punct']", "['—', '厨师', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['—', '充满', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['都', '充满', 'mark']"]
+["['VERB', 'VERB', 'advcl']", "['充满', '向往', 'advcl']"]
+["['AUX', 'VERB', 'aux']", "['了', '充满', 'aux']"]
+["['VERB', 'VERB', 'xcomp']", "['向往', '充满', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['；', '充满', 'punct']"]
+["['VERB', 'VERB', 'advcl']", "['向往', '向往', 'advcl']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['玩耍', '孩子', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '玩耍', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['孩子', '向往', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '向往', 'punct']"]
+["['VERB', 'VERB', 'advcl']", "['向往', '向往', 'advcl']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['失落', '成员', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '失落', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['家庭', '成员', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['成员', '向往', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '向往', 'punct']"]
+["['VERB', 'NOUN', 'parataxis']", "['向往', '玩具', 'parataxis']"]
+["['ADV', 'VERB', 'advmod']", "['似乎', '遥', 'advmod']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['遥', '东西', 'acl:relcl']"]
+["['AUX', 'VERB', 'aux']", "['可', '及', 'aux']"]
+["['VERB', 'VERB', 'xcomp']", "['及', '遥', 'xcomp']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '遥', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['东西', '向往', 'obj']"]
+["['PUNCT', 'NOUN', 'punct']", "['。', '玩具', 'punct']"]
 ----------------------------------------------------------------------
-/
-(ROOT (. /))
+设想这些的小公司也一样。
+
+(ROOT (IP (IP (VP (VV 设想) (NP (DNP (DP (DT 这些)) (DEC 的)) (ADJP (PFA 小)) (NP (NN 公司))))) (VP (ADVP (RB 也)) (VP (JJ 一样))) (. 。)))
 layer 2:
-{'.': {}}
+{'IP': {'IP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'.': {}}
+{'IP': {'IP': {'VP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
 Dependency Features:
-/	ROOT	root
+["['VERB', 'NOUN', 'acl:relcl']", "['设想', '公司', 'acl:relcl']"]
+["['DET', 'NOUN', 'det']", "['这些', '公司', 'det']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '设想', 'mark:rel']"]
+["['PART', 'NOUN', 'case']", "['小', '公司', 'case']"]
+["['NOUN', 'ADJ', 'nsubj']", "['公司', '一样', 'nsubj']"]
+["['ADV', 'ADJ', 'mark']", "['也', '一样', 'mark']"]
+["['ADJ', 'ROOT', 'root']", "['一样', 'NONE', 'root']"]
+["['PUNCT', 'ADJ', 'punct']", "['。', '一样', 'punct']"]
 ----------------------------------------------------------------------
-i
-(ROOT (FW i))
+从一开始，正式是一家电脑硬件公司的 Pixar 内心里就潜藏着制作电影的更加创意的生活梦。
+
+(ROOT (IP (IP (VP (PP (IN 从) (QP (CD 一))) (VP (NNB 开始)))) (, ，) (LCP (NP (NP (CP (CP (IP (VP (ADVP (RB 正式)) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 家))) (NP (NN 电脑) (NN 硬件)) (NP (NN 公司)))))) (DEC 的))) (NP (FW Pixar))) (NP (NN 内心))) (IN 里)) (VP (ADVP (RB 就)) (VP (VV 潜藏) (AS 着) (NP (CP (CP (IP (VP (VV 制作) (NP (NN 电影)))) (DEC 的))) (CP (CP (IP (VP (ADVP (RB 更加)) (VP (JJ 创意)))) (DEC 的))) (NP (NN 生活) (NN 梦))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ',': {}, 'LCP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'LCP': {'NP': {}, 'IN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
 Dependency Features:
-i	ROOT	root
+["['ADP', 'NOUN', 'case']", "['从', '开始', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '开始', 'nummod']"]
+["['NOUN', 'VERB', 'obl']", "['开始', '潜藏', 'obl']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '开始', 'punct']"]
+["['ADV', 'NOUN', 'advmod']", "['正式', '内心', 'advmod']"]
+["['AUX', 'NOUN', 'cop']", "['是', '内心', 'cop']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '家', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['家', '公司', 'clf']"]
+["['NOUN', 'NOUN', 'nmod']", "['电脑', '公司', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['硬件', '公司', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['公司', '内心', 'nmod']"]
+["['PART', 'NOUN', 'mark:rel']", "['的', '公司', 'mark:rel']"]
+["['X', 'NOUN', 'nmod']", "['Pixar', '内心', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['内心', '潜藏', 'obl']"]
+["['ADP', 'NOUN', 'case']", "['里', '内心', 'case']"]
+["['ADV', 'VERB', 'mark']", "['就', '潜藏', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['潜藏', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['着', '潜藏', 'aux']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['制作', '梦', 'acl:relcl']"]
+["['NOUN', 'VERB', 'obj']", "['电影', '制作', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '制作', 'mark:rel']"]
+["['ADV', 'ADJ', 'advmod']", "['更加', '创意', 'advmod']"]
+["['ADJ', 'NOUN', 'amod']", "['创意', '梦', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '创意', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['生活', '梦', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['梦', '潜藏', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '潜藏', 'punct']"]
 ----------------------------------------------------------------------
-n
-(ROOT (FW n))
+爱德华·卡特梅尔在学校时的志向是成为迪斯尼公司的动画师，但是他放弃了这个目标，因为他不会画画。
+
+(ROOT (IP (IP (NP (NP (NNP 爱德华) (/ ·) (NNP 卡特梅尔)) (DNP (LCP (PP (VV 在) (NP (NN 学校))) (IN 时)) (DEC 的)) (NP (NN 志向))) (VP (VC 是) (IP (VP (VV 成) (VP (VC 为) (NP (DNP (NP (NNP 迪斯尼) (NN 公司)) (DEC 的)) (NP (NN 动画) (SFN 师)))))))) (, ，) (IP (ADVP (RB 但是)) (NP (PRP 他)) (VP (VV 放弃) (AS 了) (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 目标))))) (, ，) (PP (IN 因为) (IP (NP (PRP 他)) (VP (MD 不会) (VP (VV 画画))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'PP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
 Dependency Features:
-n	ROOT	root
+["['PROPN', 'NOUN', 'nmod']", "['爱德华', '志向', 'nmod']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '卡特梅尔', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['卡特梅尔', '爱德华', 'flat:name']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['在', '志向', 'acl:relcl']"]
+["['NOUN', 'VERB', 'obj']", "['学校', '在', 'obj']"]
+["['ADP', 'VERB', 'mark']", "['时', '在', 'mark']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '在', 'mark:rel']"]
+["['NOUN', 'VERB', 'nsubj']", "['志向', '是', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['是', 'NONE', 'root']"]
+["['VERB', 'VERB', 'xcomp']", "['成', '是', 'xcomp']"]
+["['VERB', 'VERB', 'mark']", "['为', '成', 'mark']"]
+["['PROPN', 'NOUN', 'nmod']", "['迪斯尼', '公司', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['公司', '成', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '成', 'mark:rel']"]
+["['NOUN', 'PART', 'compound']", "['动画', '师', 'compound']"]
+["['PART', 'VERB', 'obj']", "['师', '成', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '放弃', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['但是', '放弃', 'mark']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '放弃', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['放弃', '是', 'parataxis']"]
+["['AUX', 'VERB', 'aux']", "['了', '放弃', 'aux']"]
+["['DET', 'NOUN', 'det']", "['这', '个', 'det']"]
+["['NOUN', 'NOUN', 'clf']", "['个', '目标', 'clf']"]
+["['NOUN', 'VERB', 'obj']", "['目标', '放弃', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '画画', 'punct']"]
+["['ADP', 'VERB', 'case']", "['因为', '画画', 'case']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '画画', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['会', '画画', 'aux']"]
+["['VERB', 'VERB', 'ccomp']", "['画画', '放弃', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '是', 'punct']"]
 ----------------------------------------------------------------------
-s
-(ROOT (NP (FW s)))
+他毕业于计算机科学和物理学，意识到计算机动画可以成为克服这一障碍的一种方式。
+
+(ROOT (IP (NP (PRP 他)) (VP (VP (VV 毕业) (PP (IN 于) (NP (VV 计算) (SFN 机) (NN 科学) (CC 和) (NN 物理) (SFN 学)))) (, ，) (VP (VRD (VV 意识) (VV 到)) (IP (NP (VV 计算) (SFN 机) (NN 动画)) (VP (MD 可以) (VP (VV 成) (VP (VC 为) (NP (CP (CP (IP (VP (VP (VV 克服) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 障碍)))))) (DEC 的))) (QP (CD 一) (CLP (NNB 种))) (NP (NN 方式))))))))) (. 。)))
 layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+["['PRON', 'VERB', 'nsubj']", "['他', '意识', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['毕业', '意识', 'advcl']"]
+["['ADP', 'NOUN', 'case']", "['于', '科学', 'case']"]
+["['VERB', 'PART', 'compound']", "['计算', '机', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['机', '科学', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['科学', '毕业', 'obl']"]
+["['CCONJ', 'PART', 'cc']", "['和', '学', 'cc']"]
+["['NOUN', 'PART', 'compound']", "['物理', '学', 'compound']"]
+["['PART', 'NOUN', 'conj']", "['学', '科学', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '毕业', 'punct']"]
+["['VERB', 'ROOT', 'root']", "['意识', 'NONE', 'root']"]
+["['VERB', 'VERB', 'mark']", "['到', '意识', 'mark']"]
+["['VERB', 'PART', 'compound']", "['计算', '机', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['机', '动画', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['动画', '成', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['可以', '成', 'aux']"]
+["['VERB', 'VERB', 'ccomp']", "['成', '意识', 'ccomp']"]
+["['VERB', 'VERB', 'mark']", "['为', '成', 'mark']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['克服', '方式', 'acl:relcl']"]
+["['DET', 'NOUN', 'det']", "['这', '障碍', 'det']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '障碍', 'nummod']"]
+["['NOUN', 'VERB', 'obj']", "['障碍', '克服', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '克服', 'mark:rel']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '种', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['种', '方式', 'clf']"]
+["['NOUN', 'VERB', 'obj']", "['方式', '成', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '意识', 'punct']"]
+----------------------------------------------------------------------
+于是卡特默召集了一小群人组建了一个计算机图形学组，这个组后来成为了PIXAR。
+
+(ROOT (IP (IP (ADVP (RB 于是)) (NP (NNP 卡特默)) (VP (VV 召集) (AS 了) (NP (QP (CD 一) (CLP (ADJP (PFA 小)) (CLP (NNB 群)))) (NP (NN 人))) (IP (VP (VV 组建) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (NP (VV 计算) (SFN 机) (NN 图形) (SFN 学) (SFN 组))))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 组))) (VP (ADVP (NN 后来)) (VP (VV 成) (VP (VC 为) (AS 了) (NP (FW PIXAR)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['ADV', 'VERB', 'mark']", "['于是', '组建', 'mark']"]
+["['PROPN', 'VERB', 'nsubj']", "['卡特默', '组建', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['召集', '组建', 'advcl']"]
+["['AUX', 'VERB', 'aux']", "['了', '召集', 'aux']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '群', 'nummod']"]
+["['PART', 'NOUN', 'case']", "['小', '群', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['群', '人', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['人', '召集', 'obj']"]
+["['VERB', 'ROOT', 'root']", "['组建', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['了', '组建', 'aux']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '个', 'nummod']"]
+["['NOUN', 'PART', 'nmod']", "['个', '组', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['计算', '机', 'compound']"]
+["['PART', 'PART', 'nmod']", "['机', '组', 'nmod']"]
+["['NOUN', 'PART', 'compound']", "['图形', '学', 'compound']"]
+["['PART', 'PART', 'compound']", "['学', '组', 'compound']"]
+["['PART', 'VERB', 'obj']", "['组', '组建', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '成', 'punct']"]
+["['DET', 'NOUN', 'det']", "['这', '个', 'det']"]
+["['NOUN', 'NOUN', 'clf']", "['个', '组', 'clf']"]
+["['NOUN', 'VERB', 'nsubj']", "['组', '成', 'nsubj']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['后来', '成', 'nmod:tmod']"]
+["['VERB', 'VERB', 'parataxis']", "['成', '组建', 'parataxis']"]
+["['VERB', 'VERB', 'mark']", "['为', '成', 'mark']"]
+["['AUX', 'VERB', 'aux']", "['了', '成', 'aux']"]
+["['X', 'VERB', 'obj']", "['PIXAR', '成', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '组建', 'punct']"]
+----------------------------------------------------------------------
+然而，他们的早期尝试并不令人振奋。
+
+(ROOT (IP (ADVP (RB 然而)) (, ，) (NP (DNP (NP (PRP 他们)) (DEC 的)) (NP (NN 早期) (NN 尝试))) (VP (ADVP (RB 并)) (VP (VV 不令) (NP (NN 人)) (IP (VP (JJ 振奋))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+["['ADV', 'VERB', 'mark']", "['然而', '令', 'mark']"]
+["['PUNCT', 'ADV', 'punct']", "['，', '然而', 'punct']"]
+["['PRON', 'NOUN', 'det']", "['他', '尝试', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '他', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['早期', '尝试', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['尝试', '令', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['并', '令', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['令', 'NONE', 'root']"]
+["['NOUN', 'ADJ', 'nsubj']", "['人', '振奋', 'nsubj']"]
+["['ADJ', 'VERB', 'ccomp']", "['振奋', '令', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '令', 'punct']"]
+----------------------------------------------------------------------
+卡特默先生和他的同事们很快意识到，尽管技术很重要，但讲故事同样重要，对电脑动画和手绘动画而言都是如此。
+
+(ROOT (IP (NP (NP (NNP 卡特默) (NN 先生)) (CC 和) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 同事) (SFN 们)))) (VP (ADVP (RB 很快)) (VP (VRD (VV 意识) (VV 到)) (, ，) (IP (IP (CP (ADVP (IN 尽管)) (IP (NP (NN 技术)) (VP (ADVP (RB 很)) (VP (JJ 重要))))) (, ，) (ADVP (RB 但)) (IP (VP (VV 讲) (NP (NN 故事)))) (VP (ADVP (RB 同样)) (VP (JJ 重要)))) (, ，) (IP (VP (IP (VP (PP (IN 对) (NP (NN 电脑) (NN 动画) (CC 和) (NN 手绘) (NN 动画))) (VP (RB 而) (VP (VV 言))))) (VP (VC 都是) (NP (VV 如此)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'CC': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'CC': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+["['PROPN', 'NOUN', 'nmod']", "['卡特默', '先生', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['先生', '意识', 'nsubj']"]
+["['CCONJ', 'PART', 'cc']", "['和', '们', 'cc']"]
+["['PRON', 'PART', 'det']", "['他', '们', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '他', 'case']"]
+["['NOUN', 'PART', 'compound']", "['同事', '们', 'compound']"]
+["['PART', 'NOUN', 'conj']", "['们', '先生', 'conj']"]
+["['ADV', 'VERB', 'advmod']", "['很快', '意识', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['意识', 'NONE', 'root']"]
+["['VERB', 'VERB', 'mark']", "['到', '意识', 'mark']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '言', 'punct']"]
+["['ADP', 'ADJ', 'case']", "['尽管', '重要', 'case']"]
+["['NOUN', 'ADJ', 'nsubj']", "['技术', '重要', 'nsubj']"]
+["['ADV', 'ADJ', 'advmod']", "['很', '重要', 'advmod']"]
+["['ADJ', 'VERB', 'ccomp']", "['重要', '言', 'ccomp']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '重要', 'punct']"]
+["['ADV', 'ADJ', 'mark']", "['但', '重要', 'mark']"]
+["['VERB', 'ADJ', 'csubj']", "['讲', '重要', 'csubj']"]
+["['NOUN', 'VERB', 'obj']", "['故事', '讲', 'obj']"]
+["['ADV', 'ADJ', 'advmod']", "['同样', '重要', 'advmod']"]
+["['ADJ', 'VERB', 'advcl']", "['重要', '言', 'advcl']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '重要', 'punct']"]
+["['ADP', 'NOUN', 'case']", "['对', '动画', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['电脑', '动画', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['动画', '言', 'obl']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '动画', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['手绘', '动画', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['动画', '动画', 'conj']"]
+["['ADV', 'VERB', 'mark']", "['而', '言', 'mark']"]
+["['VERB', 'VERB', 'ccomp']", "['言', '意识', 'ccomp']"]
+["['AUX', 'VERB', 'cop']", "['是', '如此', 'cop']"]
+["['VERB', 'VERB', 'xcomp']", "['如此', '言', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '意识', 'punct']"]
+----------------------------------------------------------------------
+在年轻动画师约翰·拉ссе特的带领下，被迪士尼拒绝的 Pixar 开始开发一种新的卡通形式，这种卡通不再围绕童话故事展开，可以吸引成年人和儿童的喜爱。
+
+(ROOT (IP (IP (PP (IN 在) (LCP (NP (DNP (NP (NP (ADJP (JJ 年轻)) (NP (NN 动画) (SFN 师))) (NP (NNP 约翰) (/ ·) (NNP 拉ссе特))) (DEC 的)) (NP (NN 带领))) (IN 下))) (, ，) (NP (CP (CP (IP (VP (BB 被) (CP (IP (NP (NNP 迪士尼)) (VP (VV 拒绝)))))) (DEC 的))) (NP (FW Pixar))) (VP (VV 开始) (VP (VV 开发) (NP (QP (CD 一) (CLP (NNB 种))) (CP (CP (IP (VP (JJ 新))) (DEC 的))) (NP (NN 卡通) (NN 形式)))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 卡通))) (VP (VP (ADVP (RB 不)) (ADVP (RB 再)) (VP (VP (VV 围绕) (NP (NN 童话) (NN 故事))) (VP (VV 展开)))) (, ，) (VP (MD 可以) (VP (VV 吸引) (NP (DNP (NP (NP (ADJP (NN 成年)) (NP (SFN 人))) (CC 和) (NP (NN 儿童))) (DEC 的)) (NP (NN 喜爱))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['ADP', 'NOUN', 'case']", "['在', '带领', 'case']"]
+["['ADJ', 'PART', 'amod']", "['年轻', '师', 'amod']"]
+["['NOUN', 'PART', 'compound']", "['动画', '师', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['师', '带领', 'nmod']"]
+["['PROPN', 'PART', 'appos']", "['约翰', '师', 'appos']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '拉ссе特', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['拉ссе特', '约翰', 'flat:name']"]
+["['PART', 'PROPN', 'case']", "['的', '约翰', 'case']"]
+["['NOUN', 'VERB', 'obl']", "['带领', '开始', 'obl']"]
+["['ADP', 'NOUN', 'case']", "['下', '带领', 'case']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '带领', 'punct']"]
+["['AUX', 'VERB', 'aux:pass']", "['被', '拒绝', 'aux:pass']"]
+["['PROPN', 'VERB', 'nsubj']", "['迪士尼', '拒绝', 'nsubj']"]
+["['VERB', 'X', 'acl:relcl']", "['拒绝', 'Pixar', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '拒绝', 'mark:rel']"]
+["['X', 'VERB', 'nsubj']", "['Pixar', '开始', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['开始', 'NONE', 'root']"]
+["['VERB', 'VERB', 'xcomp']", "['开发', '开始', 'xcomp']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '种', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['种', '形式', 'clf']"]
+["['ADJ', 'NOUN', 'amod']", "['新', '形式', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '新', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['卡通', '形式', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['形式', '开发', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '吸引', 'punct']"]
+["['DET', 'NOUN', 'det']", "['这', '种', 'det']"]
+["['NOUN', 'NOUN', 'clf']", "['种', '卡通', 'clf']"]
+["['NOUN', 'VERB', 'nsubj']", "['卡通', '吸引', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['不', '围绕', 'advmod']"]
+["['ADV', 'VERB', 'advmod']", "['再', '围绕', 'advmod']"]
+["['VERB', 'VERB', 'advcl']", "['围绕', '展开', 'advcl']"]
+["['NOUN', 'NOUN', 'nmod']", "['童话', '故事', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['故事', '围绕', 'obj']"]
+["['VERB', 'VERB', 'advcl']", "['展开', '吸引', 'advcl']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '展开', 'punct']"]
+["['AUX', 'VERB', 'aux']", "['可以', '吸引', 'aux']"]
+["['VERB', 'VERB', 'parataxis']", "['吸引', '开始', 'parataxis']"]
+["['NOUN', 'PART', 'compound']", "['成年', '人', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['人', '喜爱', 'nmod']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '儿童', 'cc']"]
+["['NOUN', 'PART', 'conj']", "['儿童', '人', 'conj']"]
+["['PART', 'PART', 'case']", "['的', '人', 'case']"]
+["['NOUN', 'VERB', 'obj']", "['喜爱', '吸引', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '开始', 'punct']"]
+----------------------------------------------------------------------
+皮克斯很快吸引了“星球大战”系列电影导演乔治·卢卡斯的注意，其前景似乎十分可靠。
+
+(ROOT (IP (IP (NP (NNP 皮克斯)) (VP (ADVP (RB 很快)) (VP (VV 吸引) (AS 了) (NP (DNP (NP (NP (NP (`` “) (NN 星球) (NN 大战) ('' ”)) (NP (NN 系列) (NN 电影) (NN 导演))) (NP (NNP 乔治) (/ ·) (NNP 卢卡斯))) (DEC 的)) (NP (NN 注意)))))) (, ，) (IP (NP (NP (PRP 其)) (NP (NN 前景))) (VP (RB 似乎) (VP (ADVP (RB 十分)) (VP (JJ 可靠))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['PROPN', 'VERB', 'nsubj']", "['皮克斯', '吸引', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['很快', '吸引', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['吸引', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['了', '吸引', 'aux']"]
+["['PUNCT', 'NOUN', 'punct']", "['“', '大战', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['星球', '大战', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['大战', '导演', 'nmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['”', '大战', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['系列', '导演', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['电影', '导演', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['导演', '注意', 'nmod']"]
+["['PROPN', 'NOUN', 'appos']", "['乔治', '导演', 'appos']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '卢卡斯', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['卢卡斯', '乔治', 'flat:name']"]
+["['PART', 'PROPN', 'case']", "['的', '乔治', 'case']"]
+["['NOUN', 'VERB', 'obj']", "['注意', '吸引', 'obj']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '可靠', 'punct']"]
+["['PRON', 'NOUN', 'nmod']", "['其', '前景', 'nmod']"]
+["['NOUN', 'ADJ', 'nsubj']", "['前景', '可靠', 'nsubj']"]
+["['ADV', 'ADJ', 'advmod']", "['似乎', '可靠', 'advmod']"]
+["['ADV', 'ADJ', 'advmod']", "['十分', '可靠', 'advmod']"]
+["['ADJ', 'VERB', 'parataxis']", "['可靠', '吸引', 'parataxis']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '吸引', 'punct']"]
+----------------------------------------------------------------------
+但罗杰·盖里·卢卡斯先生真正想要的只是让这家小公司为罗杰·盖里·卢卡斯影业的电影制作闪亮的特效，而不是制作自己的费用昂贵的电脑动画电影。
+
+(ROOT (IP (ADVP (RB 但)) (NP (CP (CP (IP (NP (NNP 罗杰) (/ ·) (NNP 盖里) (/ ·) (NNP 卢卡斯) (NN 先生)) (VP (ADVP (RB 真正)) (VP (VV 想要)))) (DEC 的)))) (VP (ADVP (RB 只)) (VP (VC 是) (VP (VP (VV 让) (NP (DP (DT 这) (CLP (NNB 家))) (ADJP (PFA 小)) (NP (NN 公司))) (IP (VP (PP (IN 为) (NP (DNP (NP (NP (NNP 罗杰) (/ ·) (NNP 盖里) (/ ·) (NNP 卢卡斯)) (NP (NN 影业))) (DEC 的)) (NP (NN 电影)))) (VP (VV 制作) (NP (CP (CP (IP (VP (JJ 闪亮))) (DEC 的))) (NP (NN 特效))))))) (, ，) (VP (ADVP (RB 而)) (VP (VC 不是) (VP (VV 制作) (NP (CP (CP (NP (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 费用))) (VP (JJ 昂贵))) (DEC 的))) (NP (NN 电脑) (NN 动画) (NN 电影))))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'CP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'CP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+["['ADV', 'VERB', 'mark']", "['但', '是', 'mark']"]
+["['PROPN', 'NOUN', 'nmod']", "['罗杰', '先生', 'nmod']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '盖里', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['盖里', '罗杰', 'flat:name']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '卢卡斯', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['卢卡斯', '罗杰', 'flat:name']"]
+["['NOUN', 'VERB', 'nsubj']", "['先生', '想要', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['真正', '想要', 'advmod']"]
+["['VERB', 'VERB', 'csubj']", "['想要', '是', 'csubj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '想要', 'mark:rel']"]
+["['ADV', 'VERB', 'advmod']", "['只', '是', 'advmod']"]
+["['VERB', 'VERB', 'advcl']", "['是', '是', 'advcl']"]
+["['VERB', 'VERB', 'xcomp']", "['让', '是', 'xcomp']"]
+["['DET', 'NOUN', 'det']", "['这', '家', 'det']"]
+["['NOUN', 'NOUN', 'clf']", "['家', '公司', 'clf']"]
+["['PART', 'NOUN', 'case']", "['小', '公司', 'case']"]
+["['NOUN', 'VERB', 'nsubj']", "['公司', '制作', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['为', '电影', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['罗杰', '影业', 'nmod']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '盖里', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['盖里', '罗杰', 'flat:name']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '卢卡斯', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['卢卡斯', '影业', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['影业', '电影', 'nmod']"]
+["['PART', 'NOUN', 'mark:rel']", "['的', '影业', 'mark:rel']"]
+["['NOUN', 'VERB', 'obl']", "['电影', '制作', 'obl']"]
+["['VERB', 'VERB', 'ccomp']", "['制作', '让', 'ccomp']"]
+["['ADJ', 'NOUN', 'amod']", "['闪亮', '特效', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '闪亮', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['特效', '制作', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '是', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['而', '是', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['是', 'NONE', 'root']"]
+["['VERB', 'VERB', 'xcomp']", "['制作', '是', 'xcomp']"]
+["['PRON', 'NOUN', 'det']", "['自己', '电影', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '自己', 'case']"]
+["['NOUN', 'ADJ', 'nsubj']", "['费用', '昂贵', 'nsubj']"]
+["['ADJ', 'NOUN', 'amod']", "['昂贵', '电影', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '昂贵', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['电脑', '电影', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['动画', '电影', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['电影', '制作', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '是', 'punct']"]
+----------------------------------------------------------------------
+1985 年，PIXAR 亏损严重，几乎被通用汽车和飞利浦电子公司收购，后者希望利用 PIXAR 的计算机图形模拟工具来帮助设计汽车和将医学扫描变成三维图像。
+
+(ROOT (IP (IP (NP (CD 1985) (NNB 年)) (, ，) (NP (FW PIXAR)) (NP (NN 亏损)) (VP (JJ 严重))) (, ，) (IP (VP (ADVP (RB 几乎)) (VP (BB 被) (CP (IP (NP (NNP 通用) (NN 汽车) (CC 和) (NNP 飞利) (NNP 浦) (NN 电子) (NN 公司)) (VP (VV 收购))))))) (, ，) (IP (NP (NN 后者)) (VP (VV 希望) (IP (VP (VP (VV 利用) (NP (DNP (NP (FW PIXAR)) (DEC 的)) (NP (VV 计算) (SFN 机) (NN 图形) (NN 模拟) (NN 工具)))) (VP (RB 来) (VP (VV 帮助) (IP (VP (VP (VV 设计) (NP (NN 汽车))) (CC 和) (VP (BB 将) (IP (NP (NN 医学) (VV 扫描)) (VP (VV 变成) (NP (QP (CD 三) (CLP (NN 维))) (NP (NN 图像)))))))))))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['NUM', 'NOUN', 'nummod']", "['1985', '年', 'nummod']"]
+["['NOUN', 'ADJ', 'nmod:tmod']", "['年', '严重', 'nmod:tmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '年', 'punct']"]
+["['X', 'NOUN', 'nmod']", "['PIXAR', '亏损', 'nmod']"]
+["['NOUN', 'ADJ', 'nsubj']", "['亏损', '严重', 'nsubj']"]
+["['ADJ', 'VERB', 'advcl']", "['严重', '收购', 'advcl']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '严重', 'punct']"]
+["['ADV', 'VERB', 'advmod']", "['几乎', '收购', 'advmod']"]
+["['AUX', 'VERB', 'aux:pass']", "['被', '收购', 'aux:pass']"]
+["['PROPN', 'NOUN', 'nmod']", "['通用', '汽车', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['汽车', '收购', 'nsubj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '公司', 'cc']"]
+["['PROPN', 'NOUN', 'nmod']", "['飞利', '公司', 'nmod']"]
+["['PROPN', 'NOUN', 'nmod']", "['浦', '公司', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['电子', '公司', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['公司', '汽车', 'conj']"]
+["['VERB', 'ROOT', 'root']", "['收购', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '希望', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['后者', '希望', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['希望', '收购', 'parataxis']"]
+["['VERB', 'VERB', 'advcl']", "['利用', '帮助', 'advcl']"]
+["['DET', 'PART', 'det']", "['PIXAR', '机', 'det']"]
+["['PART', 'DET', 'mark:rel']", "['的', 'PIXAR', 'mark:rel']"]
+["['VERB', 'PART', 'compound']", "['计算', '机', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['机', '工具', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['图形', '工具', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['模拟', '工具', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['工具', '利用', 'obj']"]
+["['ADV', 'VERB', 'mark']", "['来', '帮助', 'mark']"]
+["['VERB', 'VERB', 'xcomp']", "['帮助', '希望', 'xcomp']"]
+["['VERB', 'VERB', 'xcomp']", "['设计', '帮助', 'xcomp']"]
+["['NOUN', 'VERB', 'obj']", "['汽车', '设计', 'obj']"]
+["['CCONJ', 'VERB', 'cc']", "['和', '扫描', 'cc']"]
+["['ADP', 'NOUN', 'case']", "['将', '医学', 'case']"]
+["['NOUN', 'VERB', 'obl:patient']", "['医学', '扫描', 'obl:patient']"]
+["['VERB', 'VERB', 'advcl']", "['扫描', '变成', 'advcl']"]
+["['VERB', 'VERB', 'ccomp']", "['变成', '设计', 'ccomp']"]
+["['NUM', 'NOUN', 'nummod']", "['三', '维', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['维', '图像', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['图像', '变成', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '收购', 'punct']"]
+----------------------------------------------------------------------
+即使苹果公司的联合创始人史蒂夫·乔布斯 (Steve Jobs) 亲自前来救场，但是 Pixar 仍然处于危险之中。
+
+(ROOT (IP (CP (ADVP (IN 即使)) (IP (NP (NP (DNP (NP (NNP 苹果) (NN 公司)) (DEC 的)) (ADJP (NN 联合)) (NP (VV 创始) (SFN 人))) (NP (NNP 史蒂夫) (/ ·) (NNP 乔布斯) (FW -LRB-Steve) (FW Jobs-RRB-))) (VP (ADVP (RB 亲自)) (VP (VSB (VV 前来) (VV 救场)))))) (, ，) (ADVP (RB 但是)) (NP (FW Pixar)) (VP (ADVP (RB 仍然)) (VP (VV 处) (PP (VV 于) (LCP (NP (NN 危险)) (IN 之中))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'FW': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
 {'NP': {'FW': {}}}
-{'NP': {'FW': {}}}
-layer 3:
-{'NP': {'FW': {}}}
-{'NP': {'FW': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
 Dependency Features:
-s	ROOT	root
+["['ADP', 'VERB', 'case']", "['即使', '前来', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['苹果', '公司', 'nmod']"]
+["['NOUN', 'PART', 'nmod']", "['公司', '人', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '公司', 'case']"]
+["['NOUN', 'PART', 'nmod']", "['联合', '人', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['创始', '人', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['人', '前来', 'nsubj']"]
+["['PROPN', 'PART', 'appos']", "['史蒂夫', '人', 'appos']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '乔布斯', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['乔布斯', '史蒂夫', 'flat:name']"]
+["['X', 'PART', 'appos']", "['(Steve', '人', 'appos']"]
+["['X', 'X', 'flat:foreign']", "['Jobs)', '(Steve', 'flat:foreign']"]
+["['ADV', 'VERB', 'advmod']", "['亲自', '前来', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['前来', '处', 'ccomp']"]
+["['VERB', 'VERB', 'xcomp']", "['救场', '前来', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '前来', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['但是', '处', 'mark']"]
+["['X', 'VERB', 'nsubj']", "['Pixar', '处', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['仍然', '处', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['处', 'NONE', 'root']"]
+["['VERB', 'VERB', 'mark']", "['于', '处', 'mark']"]
+["['NOUN', 'VERB', 'obj']", "['危险', '处', 'obj']"]
+["['ADP', 'NOUN', 'case']", "['之中', '危险', 'case']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '处', 'punct']"]
 ----------------------------------------------------------------------
-t
-(ROOT (FW t))
+它假惺惺地做电脑公司的做法并不成功：Pixar 图像计算机的销售很缓慢。
+
+(ROOT (IP (IP (NP (PRP 它)) (VP (VP (DVP (VP (VV 假惺) (JJ 惺)) (DEV 地)) (VP (VV 做) (NP (DNP (NP (NN 电脑) (NN 公司)) (DEC 的)) (NP (NN 做法))))) (VP (ADVP (RB 并)) (ADVP (RB 不)) (VP (JJ 成功))))) (: ：) (IP (NP (DNP (NP (NP (FW Pixar)) (NP (NN 图像) (VV 计算) (SFN 机))) (DEC 的)) (NP (NN 销售))) (VP (ADVP (RB 很)) (VP (JJ 缓慢)))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ':': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ':': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
 Dependency Features:
-t	ROOT	root
+["['PRON', 'NOUN', 'nmod']", "['它', '做法', 'nmod']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['假惺', '做法', 'acl:relcl']"]
+["['ADJ', 'VERB', 'xcomp']", "['惺', '做', 'xcomp']"]
+["['PART', 'ADJ', 'mark:adv']", "['地', '惺', 'mark:adv']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['做', '做法', 'acl:relcl']"]
+["['NOUN', 'NOUN', 'nmod']", "['电脑', '公司', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['公司', '做', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '做', 'mark:rel']"]
+["['NOUN', 'ADJ', 'nsubj']", "['做法', '成功', 'nsubj']"]
+["['ADV', 'ADV', 'advmod']", "['并', '不', 'advmod']"]
+["['ADV', 'ADJ', 'advmod']", "['不', '成功', 'advmod']"]
+["['ADJ', 'ROOT', 'root']", "['成功', 'NONE', 'root']"]
+["['PUNCT', 'ADJ', 'punct']", "['：', '缓慢', 'punct']"]
+["['X', 'NOUN', 'nmod']", "['Pixar', '销售', 'nmod']"]
+["['NOUN', 'PART', 'nmod']", "['图像', '机', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['计算', '机', 'compound']"]
+["['PART', 'X', 'appos']", "['机', 'Pixar', 'appos']"]
+["['PART', 'X', 'case']", "['的', 'Pixar', 'case']"]
+["['NOUN', 'ADJ', 'nsubj']", "['销售', '缓慢', 'nsubj']"]
+["['ADV', 'ADJ', 'advmod']", "['很', '缓慢', 'advmod']"]
+["['ADJ', 'ADJ', 'parataxis']", "['缓慢', '成功', 'parataxis']"]
+["['PUNCT', 'ADJ', 'punct']", "['。', '成功', 'punct']"]
 ----------------------------------------------------------------------
-r
-(ROOT (FW r))
+该公司唯一的重要收入来源是制作卡通广告，卖别的公司的产品。
+
+(ROOT (IP (NP (NP (DP (DT 该)) (NP (NN 公司))) (DNP (ADJP (JJ 唯一)) (DEC 的)) (ADJP (JJ 重要)) (NP (NN 收入) (NN 来源))) (VP (VC 是) (NP (CP (CP (IP (VP (VV 制作) (NP (NP (NN 卡通) (NN 广告)) (, ，) (NP (CP (CP (IP (VP (VV 卖别))) (DEC 的))) (NP (NN 公司)))))) (DEC 的))) (NP (NN 产品)))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'NP': {'NP': {}, 'DNP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'DNP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
 Dependency Features:
-r	ROOT	root
+["['DET', 'NOUN', 'det']", "['该', '公司', 'det']"]
+["['NOUN', 'NOUN', 'nmod']", "['公司', '来源', 'nmod']"]
+["['ADJ', 'NOUN', 'amod']", "['唯一', '来源', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '唯一', 'mark:rel']"]
+["['ADJ', 'NOUN', 'amod']", "['重要', '来源', 'amod']"]
+["['NOUN', 'NOUN', 'nmod']", "['收入', '来源', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['来源', '是', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['是', 'NONE', 'root']"]
+["['VERB', 'VERB', 'xcomp']", "['制作', '是', 'xcomp']"]
+["['NOUN', 'NOUN', 'nmod']", "['卡通', '广告', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['广告', '制作', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '卖别', 'punct']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['卖别', '公司', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '卖别', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['公司', '产品', 'nmod']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '卖别', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['产品', '制作', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '是', 'punct']"]
 ----------------------------------------------------------------------
-u
-(ROOT (FW u))
+但是，还是有一丝希望。
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (VP (ADVP (RB 还是)) (VP (VV 有) (NP (QP (JJ 一丝)) (NP (NN 希望))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'ADVP': {}, ',': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
 Dependency Features:
-u	ROOT	root
+["['ADV', 'VERB', 'mark']", "['但是', '有', 'mark']"]
+["['PUNCT', 'ADV', 'punct']", "['，', '但是', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['还是', '有', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['有', 'NONE', 'root']"]
+["['ADJ', 'NOUN', 'amod']", "['一丝', '希望', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['希望', '有', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有', 'punct']"]
 ----------------------------------------------------------------------
-c
-(ROOT (FW c))
+1988 年，一部名为《锡金玩具》的短片获得奥斯卡奖，这足以让 Pixar 生存下去，更重要的是，这让迪斯尼对其产生了兴趣。
+
+(ROOT (IP (IP (NP (CD 1988) (NNB 年)) (, ，) (NP (QP (CD 一) (CLP (NNB 部))) (CP (CP (IP (NP (NN 名)) (VP (VC 为) (NP (-LRB- 《) (NNP 锡金) (NN 玩具) (-RRB- 》)))) (DEC 的))) (NP (NN 短片))) (VP (VV 获得) (NP (NNP 奥斯卡) (SFN 奖)))) (, ，) (IP (DP (DT 这)) (VP (NN 足) (IP (VP (RB 以) (VP (VV 让) (NP (FW Pixar)) (IP (VP (VRD (VV 生存) (VV 下去))))))))) (, ，) (IP (NP (CP (CP (IP (VP (ADVP (RB 更)) (VP (JJ 重要)))) (DEC 的)))) (VP (VC 是) (, ，) (IP (NP (PRD 这)) (VP (VV 让) (NP (NNP 迪斯尼)) (IP (VP (PP (IN 对) (NP (PRP 其))) (VP (VV 产生) (AS 了) (NP (NN 兴趣))))))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'DP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'DP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
 Dependency Features:
-c	ROOT	root
+["['NUM', 'NOUN', 'nummod']", "['1988', '年', 'nummod']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['年', '获得', 'nmod:tmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '年', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '部', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['部', '名', 'clf']"]
+["['NOUN', 'NOUN', 'nsubj']", "['名', '玩具', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['为', '玩具', 'cop']"]
+["['PUNCT', 'NOUN', 'punct']", "['《', '玩具', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['锡金', '玩具', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['玩具', '短片', 'nmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['》', '玩具', 'punct']"]
+["['PART', 'NOUN', 'case']", "['的', '玩具', 'case']"]
+["['NOUN', 'VERB', 'nsubj']", "['短片', '获得', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['获得', 'NONE', 'root']"]
+["['PROPN', 'PART', 'compound']", "['奥斯卡', '奖', 'compound']"]
+["['PART', 'VERB', 'obj']", "['奖', '获得', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '让', 'punct']"]
+["['DET', 'NOUN', 'det']", "['这', '足', 'det']"]
+["['NOUN', 'VERB', 'nsubj']", "['足', '让', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['以', '让', 'mark']"]
+["['VERB', 'VERB', 'parataxis']", "['让', '获得', 'parataxis']"]
+["['X', 'VERB', 'nsubj']", "['Pixar', '生存', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['生存', '让', 'ccomp']"]
+["['VERB', 'VERB', 'mark']", "['下去', '生存', 'mark']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '是', 'punct']"]
+["['ADV', 'ADJ', 'advmod']", "['更', '重要', 'advmod']"]
+["['ADJ', 'VERB', 'csubj']", "['重要', '是', 'csubj']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '重要', 'mark:rel']"]
+["['VERB', 'VERB', 'parataxis']", "['是', '获得', 'parataxis']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '让', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['这', '让', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['让', '是', 'ccomp']"]
+["['PROPN', 'VERB', 'nsubj']", "['迪斯尼', '产生', 'nsubj']"]
+["['ADP', 'PRON', 'case']", "['对', '其', 'case']"]
+["['PRON', 'VERB', 'obl']", "['其', '产生', 'obl']"]
+["['VERB', 'VERB', 'ccomp']", "['产生', '让', 'ccomp']"]
+["['AUX', 'VERB', 'aux']", "['了', '产生', 'aux']"]
+["['NOUN', 'VERB', 'obj']", "['兴趣', '产生', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '获得', 'punct']"]
 ----------------------------------------------------------------------
-t
-(ROOT (FW t))
+两家工作室合作制作了《玩具总动员》，该片获得了好评和商业成功。
+
+(ROOT (IP (IP (NP (QP (CD 两) (CLP (NNB 家))) (NP (VV 工作) (SFN 室))) (VP (VP (VV 合作)) (VP (VV 制作) (AS 了) (NP (-LRB- 《) (NN 玩具) (NN 总动) (SFN 员) (-RRB- 》))))) (, ，) (IP (NP (NN 该片)) (VP (VV 获得) (AS 了) (NP (NN 好评) (CC 和) (NN 商业) (NN 成功)))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
 Dependency Features:
-t	ROOT	root
+["['NUM', 'NOUN', 'nummod']", "['两', '家', 'nummod']"]
+["['NOUN', 'PART', 'nmod']", "['家', '室', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['工作', '室', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['室', '制作', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['合作', '制作', 'advcl']"]
+["['VERB', 'ROOT', 'root']", "['制作', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['了', '制作', 'aux']"]
+["['PUNCT', 'PART', 'punct']", "['《', '员', 'punct']"]
+["['NOUN', 'PART', 'nmod']", "['玩具', '员', 'nmod']"]
+["['NOUN', 'PART', 'compound']", "['总动', '员', 'compound']"]
+["['PART', 'VERB', 'obj']", "['员', '制作', 'obj']"]
+["['PUNCT', 'PART', 'punct']", "['》', '员', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '获得', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['该片', '获得', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['获得', '制作', 'parataxis']"]
+["['AUX', 'VERB', 'aux']", "['了', '获得', 'aux']"]
+["['NOUN', 'VERB', 'obj']", "['好评', '获得', 'obj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '成功', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['商业', '成功', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['成功', '好评', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '制作', 'punct']"]
 ----------------------------------------------------------------------
-_
-(ROOT (FW _))
+随后又有几部电影取得了成功，PIXAR 让好莱坞惊叹不已。
+
+(ROOT (IP (IP (VP (ADVP (RB 随后)) (ADVP (RB 又)) (VP (VV 有) (IP (NP (QP (CD 几) (CLP (NNB 部))) (NP (NN 电影))) (VP (VV 取得) (AS 了) (NP (JJ 成功))))))) (, ，) (IP (NP (FW PIXAR)) (VP (VV 让好) (NP (NNP 莱坞)) (IP (VP (VV 惊叹) (ADVP (JJ 不已)))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
 Dependency Features:
-_	ROOT	root
+["['ADV', 'VERB', 'advmod']", "['随后', '有', 'advmod']"]
+["['ADV', 'VERB', 'mark']", "['又', '有', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['有', 'NONE', 'root']"]
+["['NUM', 'NOUN', 'nummod']", "['几', '部', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['部', '电影', 'clf']"]
+["['NOUN', 'VERB', 'nsubj']", "['电影', '取得', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['取得', '有', 'ccomp']"]
+["['AUX', 'VERB', 'aux']", "['了', '取得', 'aux']"]
+["['ADJ', 'VERB', 'xcomp']", "['成功', '取得', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '让好', 'punct']"]
+["['X', 'VERB', 'nsubj']", "['PIXAR', '让好', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['让好', '有', 'parataxis']"]
+["['PROPN', 'VERB', 'nsubj']", "['莱坞', '惊叹', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['惊叹', '让好', 'ccomp']"]
+["['ADJ', 'VERB', 'xcomp']", "['不已', '惊叹', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有', 'punct']"]
 ----------------------------------------------------------------------
-t
-(ROOT (FW t))
+该工作室因其创意文化和坚持原创而广受赞誉。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (VV 工作) (SFN 室))) (VP (PP (IN 因) (NP (NP (NP (PRP 其)) (NP (NN 创意) (NN 文化))) (CC 和) (IP (VP (VV 坚持) (NP (NN 原创)))))) (VP (RB 而) (VP (VV 广受) (NP (NN 赞誉))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
 Dependency Features:
-t	ROOT	root
+["['DET', 'PART', 'det']", "['该', '室', 'det']"]
+["['VERB', 'PART', 'compound']", "['工作', '室', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['室', '广受', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['因', '文化', 'case']"]
+["['PRON', 'NOUN', 'nmod']", "['其', '文化', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['创意', '文化', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['文化', '广受', 'obl']"]
+["['CCONJ', 'VERB', 'cc']", "['和', '坚持', 'cc']"]
+["['VERB', 'NOUN', 'conj']", "['坚持', '文化', 'conj']"]
+["['NOUN', 'VERB', 'obj']", "['原创', '坚持', 'obj']"]
+["['ADV', 'VERB', 'mark']", "['而', '广受', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['广受', 'NONE', 'root']"]
+["['NOUN', 'VERB', 'obj']", "['赞誉', '广受', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '广受', 'punct']"]
 ----------------------------------------------------------------------
-x
-(ROOT (FW x))
+在美国，能够有这么圣洁的声誉的公司很少。
+
+(ROOT (IP (PP (VV 在) (NP (NNP 美国))) (, ，) (NP (CP (CP (IP (VP (MD 能够) (VP (VV 有) (NP (CP (CP (IP (VP (ADVP (RB 这么)) (VP (JJ 圣洁)))) (DEC 的))) (NP (NN 声誉)))))) (DEC 的))) (NP (NN 公司))) (VP (JJ 很少)) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'PP': {'VV': {}, 'NP': {}}, ',': {}, 'NP': {'CP': {}, 'NP': {}}, 'VP': {'JJ': {}}, '.': {}}}
+{'PP': {'VV': {}, 'NP': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'JJ': {}}}
 Dependency Features:
-x	ROOT	root
+["['VERB', 'VERB', 'advcl']", "['在', '有', 'advcl']"]
+["['PROPN', 'VERB', 'obj']", "['美国', '在', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '在', 'punct']"]
+["['AUX', 'VERB', 'aux']", "['能够', '有', 'aux']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['有', '公司', 'acl:relcl']"]
+["['ADV', 'ADJ', 'advmod']", "['这么', '圣洁', 'advmod']"]
+["['ADJ', 'NOUN', 'amod']", "['圣洁', '声誉', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '圣洁', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['声誉', '有', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '有', 'mark:rel']"]
+["['NOUN', 'ADJ', 'nsubj']", "['公司', '很少', 'nsubj']"]
+["['ADJ', 'ROOT', 'root']", "['很少', 'NONE', 'root']"]
+["['PUNCT', 'ADJ', 'punct']", "['。', '很少', 'punct']"]
 ----------------------------------------------------------------------
-t
-(ROOT (FW t))
+2006 年，迪士尼以 74 亿美元收购了 Pixar，并立即将 Catmull 和 Lasseter 任命为迪士尼自己的动画部门负责人。
+
+(ROOT (IP (NP (CD 2006) (NNB 年)) (, ，) (NP (NNP 迪士尼)) (VP (VP (PP (IN 以) (QP (CD 74) (QP (CD 亿) (CLP (NNP 美) (CLP (NNB 元)))))) (VP (VV 收购) (AS 了) (NP (FW Pixar)))) (, ，) (RB 并) (VP (VV 立) (NP (ADVP (RB 即将)) (NP (FW Catmull) (CC 和) (FW Lasseter))) (VP (VRD (VV 任命) (VC 为)) (NP (DNP (NP (NNP 迪士尼) (PRD 自己)) (DEC 的)) (NP (NN 动画) (NN 部门)) (NP (VV 负责) (SFN 人)))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
 Dependency Features:
-t	ROOT	root
+["['NUM', 'NOUN', 'nummod']", "['2006', '年', 'nummod']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['年', '收购', 'nmod:tmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '年', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['迪士尼', '收购', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['以', '元', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['74', '元', 'nummod']"]
+["['NUM', 'NOUN', 'nummod']", "['亿', '元', 'nummod']"]
+["['PROPN', 'NOUN', 'nmod']", "['美', '元', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['元', '收购', 'obl']"]
+["['VERB', 'VERB', 'advcl']", "['收购', '任命', 'advcl']"]
+["['AUX', 'VERB', 'aux']", "['了', '收购', 'aux']"]
+["['X', 'VERB', 'obj']", "['Pixar', '收购', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '收购', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['并', '立', 'mark']"]
+["['VERB', 'VERB', 'advcl']", "['立', '任命', 'advcl']"]
+["['ADV', 'VERB', 'advmod']", "['即将', '任命', 'advmod']"]
+["['X', 'VERB', 'obj']", "['Catmull', '立', 'obj']"]
+["['CCONJ', 'X', 'cc']", "['和', 'Lasseter', 'cc']"]
+["['X', 'X', 'conj']", "['Lasseter', 'Catmull', 'conj']"]
+["['VERB', 'ROOT', 'root']", "['任命', 'NONE', 'root']"]
+["['VERB', 'VERB', 'mark']", "['为', '任命', 'mark']"]
+["['PROPN', 'NOUN', 'nmod']", "['迪士尼', '部门', 'nmod']"]
+["['PRON', 'PROPN', 'appos']", "['自己', '迪士尼', 'appos']"]
+["['PART', 'PROPN', 'case']", "['的', '迪士尼', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['动画', '部门', 'nmod']"]
+["['NOUN', 'PART', 'nmod']", "['部门', '人', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['负责', '人', 'compound']"]
+["['PART', 'VERB', 'obj']", "['人', '任命', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '任命', 'punct']"]
 ----------------------------------------------------------------------
-/
-(ROOT (. /))
+在这部关于 Pixar 早年的出色而易读的书中，有许多关于迪斯尼的有趣事情。
+
+(ROOT (IP (VP (PP (IN 在) (NP (DP (DT 这) (CLP (NNB 部))) (DNP (PP (IN 关于) (NP (NP (FW Pixar)) (NP (NN 早年)))) (DEC 的)) (CP (CP (IP (VP (JJ 出色) (RB 而) (VV 易读))) (DEC 的))) (NP (NN 书中)))) (, ，) (VP (VV 有) (NP (QP (CD 许多)) (DNP (PP (IN 关于) (NP (NNP 迪斯尼))) (DEC 的)) (ADJP (JJ 有趣)) (NP (NN 事情))))) (. 。)))
 layer 2:
-{'.': {}}
+{'IP': {'VP': {}, '.': {}}}
 layer 3:
-{'.': {}}
+{'IP': {'VP': {'PP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'VP': {'PP': {}, ',': {}, 'VP': {}}}
 Dependency Features:
-/	ROOT	root
+["['ADP', 'NOUN', 'case']", "['在', '书中', 'case']"]
+["['DET', 'NOUN', 'det']", "['这', '部', 'det']"]
+["['NOUN', 'NOUN', 'clf']", "['部', '书中', 'clf']"]
+["['ADP', 'NOUN', 'case']", "['关于', '书中', 'case']"]
+["['X', 'NOUN', 'nmod']", "['Pixar', '早年', 'nmod']"]
+["['NOUN', 'ADJ', 'nmod']", "['早年', '出色', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '早年', 'case']"]
+["['ADJ', 'VERB', 'xcomp']", "['出色', '易读', 'xcomp']"]
+["['ADV', 'VERB', 'mark']", "['而', '易读', 'mark']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['易读', '书中', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '易读', 'mark:rel']"]
+["['NOUN', 'VERB', 'obl']", "['书中', '有', 'obl']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '书中', 'punct']"]
+["['VERB', 'ROOT', 'root']", "['有', 'NONE', 'root']"]
+["['NUM', 'NOUN', 'nummod']", "['许多', '事情', 'nummod']"]
+["['ADP', 'NOUN', 'case']", "['关于', '事情', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['迪斯尼', '事情', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '事情', 'case']"]
+["['ADJ', 'NOUN', 'amod']", "['有趣', '事情', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['事情', '有', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有', 'punct']"]
 ----------------------------------------------------------------------
-B
-(ROOT (FW B))
+例如，大卫·普雷斯声称，迪士尼的首席执行官迈克尔·艾斯纳在 1984 年接任首席执行官后考虑关闭公司的动画部门，这一点令人震惊，因为之后出品的卡通片如《狮子王》等都取得了巨大的成功。
+
+(ROOT (IP (ADVP (RB 例如)) (, ，) (NP (NNP 大卫) (/ ·) (NNP 普雷斯)) (VP (VV 声称) (, ，) (IP (IP (NP (NP (DNP (NP (NNP 迪士尼)) (DEC 的)) (NP (JJ 首席) (VV 执行) (SFN 官))) (NP (NNP 迈克尔) (/ ·) (NNP 艾斯纳))) (VP (LCP (IP (VP (PP (IN 在) (NP (CD 1984))) (VP (NNB 年接任) (NP (JJ 首席) (VV 执行))))) (NN 官后)) (VP (VV 考虑) (IP (VP (VV 关闭) (NP (DNP (NP (NN 公司)) (DEC 的)) (NP (NN 动画) (NN 部门)))))))) (, ，) (VP (DP (DT 这) (CLP (RB 一点))) (VP (VV 令) (NP (NN 人)) (IP (VP (JJ 震惊))))) (, ，) (PP (IN 因为) (IP (NP (NP (NP (CP (CP (IP (VP (ADVP (NN 之后)) (VP (VV 出品)))) (DEC 的))) (NP (NN 卡通) (SFN 片))) (NP (ADVP (RB 如)) (NP (-LRB- 《) (NN 狮子) (SFN 王) (-RRB- 》)))) (NN 等)) (VP (ADVP (RB 都)) (VP (VV 取得) (AS 了) (NP (CP (CP (IP (VP (JJ 巨大))) (DEC 的))) (NP (NN 成功))))))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
 Dependency Features:
-B	ROOT	root
+["['ADV', 'ROOT', 'root']", "['例如', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '声称', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['大卫', '声称', 'nsubj']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '普雷斯', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['普雷斯', '大卫', 'flat:name']"]
+["['VERB', 'ADV', 'ccomp']", "['声称', '例如', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '考虑', 'punct']"]
+["['PROPN', 'PART', 'nmod']", "['迪士尼', '官', 'nmod']"]
+["['PART', 'PROPN', 'case']", "['的', '迪士尼', 'case']"]
+["['ADJ', 'PART', 'amod']", "['首席', '官', 'amod']"]
+["['VERB', 'PART', 'compound']", "['执行', '官', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['官', '考虑', 'nsubj']"]
+["['PROPN', 'PART', 'appos']", "['迈克尔', '官', 'appos']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '艾斯纳', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['艾斯纳', '迈克尔', 'flat:name']"]
+["['ADP', 'NOUN', 'case']", "['在', '官后', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['1984', '年接任', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['年接任', '官后', 'clf']"]
+["['ADJ', 'NOUN', 'amod']", "['首席', '官后', 'amod']"]
+["['VERB', 'NOUN', 'compound']", "['执行', '官后', 'compound']"]
+["['NOUN', 'VERB', 'obl']", "['官后', '考虑', 'obl']"]
+["['VERB', 'VERB', 'advcl']", "['考虑', '令', 'advcl']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['关闭', '部门', 'acl:relcl']"]
+["['NOUN', 'VERB', 'obj']", "['公司', '关闭', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '关闭', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['动画', '部门', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['部门', '考虑', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '令', 'punct']"]
+["['DET', 'VERB', 'nsubj']", "['这', '令', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['一点', '令', 'advmod']"]
+["['VERB', 'ADV', 'parataxis']", "['令', '例如', 'parataxis']"]
+["['NOUN', 'ADJ', 'nsubj']", "['人', '震惊', 'nsubj']"]
+["['ADJ', 'VERB', 'ccomp']", "['震惊', '令', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '取得', 'punct']"]
+["['ADP', 'VERB', 'case']", "['因为', '取得', 'case']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['之后', '出品', 'nmod:tmod']"]
+["['VERB', 'PART', 'acl:relcl']", "['出品', '片', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '出品', 'mark:rel']"]
+["['NOUN', 'PART', 'compound']", "['卡通', '片', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['片', '取得', 'nsubj']"]
+["['ADV', 'VERB', 'advcl']", "['如', '取得', 'advcl']"]
+["['PUNCT', 'PART', 'punct']", "['《', '王', 'punct']"]
+["['NOUN', 'PART', 'compound']", "['狮子', '王', 'compound']"]
+["['PART', 'ADV', 'obj']", "['王', '如', 'obj']"]
+["['PUNCT', 'PART', 'punct']", "['》', '王', 'punct']"]
+["['NOUN', 'PART', 'acl']", "['等', '王', 'acl']"]
+["['ADV', 'VERB', 'mark']", "['都', '取得', 'mark']"]
+["['VERB', 'ADV', 'ccomp']", "['取得', '例如', 'ccomp']"]
+["['AUX', 'VERB', 'aux']", "['了', '取得', 'aux']"]
+["['ADJ', 'NOUN', 'amod']", "['巨大', '成功', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '巨大', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['成功', '取得', 'obj']"]
+["['PUNCT', 'ADV', 'punct']", "['。', '例如', 'punct']"]
 ----------------------------------------------------------------------
-2
-(ROOT (LS 2))
+米斯先生还明确表示，皮克斯怎么可能不感谢迪斯尼：例如，迪斯尼为《玩具总动员》的营销，给了乔布斯足够的信心，于 2005 年推出皮克斯的首次公开募股。
+
+(ROOT (IP (NP (NNP 米斯) (NN 先生)) (VP (ADVP (RB 还)) (ADVP (RB 明确)) (VP (VV 表示) (, ，) (IP (NP (NNP 皮克斯)) (VP (ADVP (RB 怎么)) (VP (MD 可能) (VP (ADVP (RB 不)) (VP (VV 感谢) (NP (NNP 迪斯尼))))))))) (: ：)))
 layer 2:
-{'LS': {}}
+{'IP': {'NP': {}, 'VP': {}, ':': {}}}
 layer 3:
-{'LS': {}}
+{'IP': {'NP': {'NNP': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, ':': {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
 Dependency Features:
-2	ROOT	root
+["['PROPN', 'NOUN', 'nmod']", "['米斯', '先生', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['先生', '表示', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['还', '表示', 'mark']"]
+["['ADV', 'VERB', 'advmod']", "['明确', '表示', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['表示', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '感谢', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['皮克斯', '感谢', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['怎么', '感谢', 'advmod']"]
+["['AUX', 'VERB', 'aux']", "['可能', '感谢', 'aux']"]
+["['ADV', 'VERB', 'advmod']", "['不', '感谢', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['感谢', '表示', 'ccomp']"]
+["['PROPN', 'VERB', 'obj']", "['迪斯尼', '感谢', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['：', '表示', 'punct']"]
 ----------------------------------------------------------------------
-7
-(ROOT (CD 7))
+普莱斯离开了 Pixar 和动画师，让米老鼠和朋友们来照顾他们，他认为一切都会好起来的。
+
+(ROOT (IP (IP (NP (NNP 普莱斯)) (VP (VP (VV 离开) (AS 了) (NP (FW Pixar) (CC 和) (NN 动画) (SFN 师))) (, ，) (VP (VV 让) (NP (NNP 米) (NN 老鼠) (CC 和) (NN 朋友) (SFN 们)) (IP (VP (RB 来) (VP (VV 照顾) (NP (PRP 他们)))))))) (, ，) (IP (NP (PRP 他)) (VP (VV 认为) (CP (IP (NP (DT 一切)) (VP (ADVP (RB 都)) (VP (MD 会) (VP (VRD (RB 好) (VV 起来)))))) (UH 的)))) (. 。)))
 layer 2:
-{'CD': {}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'CD': {}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
 Dependency Features:
-7	ROOT	root
+["['PROPN', 'VERB', 'nsubj']", "['普莱斯', '离开', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['离开', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['了', '离开', 'aux']"]
+["['X', 'VERB', 'obj']", "['Pixar', '离开', 'obj']"]
+["['CCONJ', 'PART', 'cc']", "['和', '师', 'cc']"]
+["['NOUN', 'PART', 'compound']", "['动画', '师', 'compound']"]
+["['PART', 'X', 'conj']", "['师', 'Pixar', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '离开', 'punct']"]
+["['VERB', 'VERB', 'advcl']", "['让', '照顾', 'advcl']"]
+["['PROPN', 'NOUN', 'nmod']", "['米', '老鼠', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['老鼠', '照顾', 'nsubj']"]
+["['CCONJ', 'PART', 'cc']", "['和', '们', 'cc']"]
+["['NOUN', 'PART', 'compound']", "['朋友', '们', 'compound']"]
+["['PART', 'NOUN', 'conj']", "['们', '老鼠', 'conj']"]
+["['ADV', 'VERB', 'mark']", "['来', '照顾', 'mark']"]
+["['VERB', 'VERB', 'advcl']", "['照顾', '为', 'advcl']"]
+["['PRON', 'VERB', 'obj']", "['他', '照顾', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '为', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '为', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['为', '离开', 'parataxis']"]
+["['DET', 'VERB', 'nsubj']", "['一切', '起来', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['都', '起来', 'mark']"]
+["['AUX', 'VERB', 'aux']", "['会', '起来', 'aux']"]
+["['ADV', 'VERB', 'advmod']", "['好', '起来', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['起来', '为', 'ccomp']"]
+["['PART', 'VERB', 'discourse']", "['的', '为', 'discourse']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '离开', 'punct']"]
 ----------------------------------------------------------------------
-B
-(ROOT (FW B))
+迄今为止，收购无疑为迪士尼带来了好处。
+
+(ROOT (IP (IP (VP (PP (IN 迄) (NP (NN 今))) (VP (VC 为) (NP (NN 止))))) (, ，) (NP (VV 收购)) (VP (ADVP (RB 无疑)) (PP (IN 为) (NP (NNP 迪士尼))) (VP (VV 带来) (AS 了) (NP (NN 好处)))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'VP': {}}, ',': {}, 'NP': {'VV': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'NP': {'VV': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
 Dependency Features:
-B	ROOT	root
+["['ADP', 'NOUN', 'case']", "['迄', '今', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['今', '止', 'nmod']"]
+["['AUX', 'NOUN', 'cop']", "['为', '止', 'cop']"]
+["['NOUN', 'VERB', 'advcl']", "['止', '带来', 'advcl']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '止', 'punct']"]
+["['VERB', 'VERB', 'csubj']", "['收购', '带来', 'csubj']"]
+["['ADV', 'VERB', 'advmod']", "['无疑', '带来', 'advmod']"]
+["['ADP', 'PROPN', 'case']", "['为', '迪士尼', 'case']"]
+["['PROPN', 'VERB', 'obl']", "['迪士尼', '带来', 'obl']"]
+["['VERB', 'ROOT', 'root']", "['带来', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['了', '带来', 'aux']"]
+["['NOUN', 'VERB', 'obj']", "['好处', '带来', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '带来', 'punct']"]
 ----------------------------------------------------------------------
-_
-(ROOT (FW _))
+近年来离开动画巨头的创意人员开始重返，而在皮克斯准备明年推出第九部长片《Wall-E》（讲述2700年的机器人故事）之际，公司的士气正旺。
+
+(ROOT (IP (IP (LCP (NP (NN 近年)) (IN 来)) (NP (CP (CP (IP (VP (VV 离开) (NP (NN 动画) (NN 巨头)))) (DEC 的))) (NP (NN 创意) (NN 人员))) (VP (VV 开始) (VP (VV 重返)))) (, ，) (IP (ADVP (RB 而)) (IP (VP (PP (IN 在) (NP (NNP 皮克斯))) (VP (VV 准备) (IP (VP (NP (NN 明年)) (VP (VV 推出) (NP (DNP (NP (NP (NP (QP (CD 第九)) (NP (NN 部长))) (NP (SFN 片))) (NP (-LRB- 《) (FW Wall-E) (-RRB- 》)) (PRN (-LRB- （) (VP (VV 讲述) (NP (DNP (NP (CD 2700) (NNB 年)) (DEC 的)) (NP (NN 机器) (SFN 人) (NN 故事)))) (-RRB- ）))) (DEC 之)) (NP (NN 际))))))))) (, ，) (NP (DNP (NP (NN 公司)) (DEC 的)) (NP (NN 士气))) (VP (JJ 正旺))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'LCP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
 Dependency Features:
-_	ROOT	root
+["['NOUN', 'VERB', 'nmod:tmod']", "['近年', '开始', 'nmod:tmod']"]
+["['ADP', 'NOUN', 'case']", "['来', '近年', 'case']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['离开', '人员', 'acl:relcl']"]
+["['NOUN', 'NOUN', 'nmod']", "['动画', '巨头', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['巨头', '离开', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '离开', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['创意', '人员', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['人员', '开始', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['开始', 'NONE', 'root']"]
+["['VERB', 'VERB', 'xcomp']", "['重返', '开始', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '准备', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['而', '准备', 'mark']"]
+["['ADP', 'PROPN', 'case']", "['在', '皮克斯', 'case']"]
+["['PROPN', 'VERB', 'obl']", "['皮克斯', '准备', 'obl']"]
+["['VERB', 'VERB', 'parataxis']", "['准备', '开始', 'parataxis']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['明年', '推出', 'nmod:tmod']"]
+["['VERB', 'VERB', 'xcomp']", "['推出', '准备', 'xcomp']"]
+["['NUM', 'NOUN', 'nummod']", "['第九', '部长', 'nummod']"]
+["['NOUN', 'PART', 'compound']", "['部长', '片', 'compound']"]
+["['PART', 'VERB', 'obj']", "['片', '推出', 'obj']"]
+["['PUNCT', 'X', 'punct']", "['《', 'Wall-E', 'punct']"]
+["['X', 'PART', 'appos']", "['Wall-E', '片', 'appos']"]
+["['PUNCT', 'X', 'punct']", "['》', 'Wall-E', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['（', '讲述', 'punct']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['讲述', '际', 'acl:relcl']"]
+["['NUM', 'NOUN', 'nummod']", "['2700', '年', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['年', '故事', 'nmod']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '讲述', 'mark:rel']"]
+["['NOUN', 'PART', 'compound']", "['机器', '人', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['人', '故事', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['故事', '讲述', 'obj']"]
+["['PUNCT', 'PART', 'punct']", "['）', '之', 'punct']"]
+["['PART', 'VERB', 'mark:rel']", "['之', '讲述', 'mark:rel']"]
+["['NOUN', 'ADJ', 'nmod']", "['际', '正旺', 'nmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '际', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['公司', '士气', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '公司', 'case']"]
+["['NOUN', 'ADJ', 'nsubj']", "['士气', '正旺', 'nsubj']"]
+["['ADJ', 'VERB', 'parataxis']", "['正旺', '开始', 'parataxis']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '开始', 'punct']"]
 ----------------------------------------------------------------------
-e
-(ROOT (NP (ADD e)))
+但是，公司将来是否还会有同样的活力，当拉塞特先生与迪士尼再次发生“创意”上的争执时，皮克斯的前途将会如何？皮克斯从此以后，安全地躲在强大的公司里，可能会变得不那么显眼。
+
+(ROOT (IP (IP (ADVP (RB 但是)) (, ，) (NP (NN 公司)) (VP (NP (NN 将来)) (ADVP (VC 是否)) (ADVP (RB 还)) (VP (MD 会) (VP (VV 有) (NP (DNP (ADJP (JJ 同样)) (DEC 的)) (NP (NN 活力))))))) (, ，) (IP (PP (IN 当) (LCP (IP (NP (NP (NNP 拉塞特) (NN 先生)) (CC 与) (NP (NNP 迪士尼))) (VP (ADVP (RB 再次)) (VP (VV 发生) (NP (DNP (LCP (NP (`` “) (NN 创意) ('' ”)) (IN 上)) (DEC 的)) (NP (NN 争执)))))) (IN 时))) (, ，) (NP (DNP (NP (NNP 皮克斯)) (DEC 的)) (NP (NN 前途))) (VP (ADVP (RB 将)) (VP (MD 会) (VP (JJ 如何))))) (. ？)))
 layer 2:
-{'NP': {'ADD': {}}}
-{'NP': {'ADD': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'NP': {'ADD': {}}}
-{'NP': {'ADD': {}}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
 Dependency Features:
-e	ROOT	root
+["['ADV', 'VERB', 'mark']", "['但是', '是', 'mark']"]
+["['PUNCT', 'ADV', 'punct']", "['，', '但是', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['公司', '是', 'nsubj']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['将来', '是', 'nmod:tmod']"]
+["['VERB', 'ROOT', 'root']", "['是', 'NONE', 'root']"]
+["['ADV', 'VERB', 'mark']", "['还', '有', 'mark']"]
+["['AUX', 'VERB', 'aux']", "['会', '有', 'aux']"]
+["['VERB', 'VERB', 'xcomp']", "['有', '是', 'xcomp']"]
+["['ADJ', 'NOUN', 'amod']", "['同样', '活力', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '同样', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['活力', '有', 'obj']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '如何', 'punct']"]
+["['ADP', 'VERB', 'case']", "['当', '发生', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['拉塞特', '先生', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['先生', '发生', 'nsubj']"]
+["['CCONJ', 'PROPN', 'cc']", "['与', '迪士尼', 'cc']"]
+["['PROPN', 'NOUN', 'conj']", "['迪士尼', '先生', 'conj']"]
+["['ADV', 'VERB', 'advmod']", "['再次', '发生', 'advmod']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['发生', '争执', 'acl:relcl']"]
+["['PUNCT', 'NOUN', 'punct']", "['“', '创意', 'punct']"]
+["['NOUN', 'VERB', 'obj']", "['创意', '发生', 'obj']"]
+["['PUNCT', 'NOUN', 'punct']", "['”', '创意', 'punct']"]
+["['ADP', 'NOUN', 'case']", "['上', '创意', 'case']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '发生', 'mark:rel']"]
+["['NOUN', 'ADJ', 'nmod']", "['争执', '如何', 'nmod']"]
+["['ADP', 'VERB', 'mark']", "['时', '发生', 'mark']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '发生', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['皮克斯', '前途', 'nmod']"]
+["['PART', 'PROPN', 'case']", "['的', '皮克斯', 'case']"]
+["['NOUN', 'ADJ', 'nsubj']", "['前途', '如何', 'nsubj']"]
+["['ADV', 'ADJ', 'advmod']", "['将', '如何', 'advmod']"]
+["['AUX', 'ADJ', 'aux']", "['会', '如何', 'aux']"]
+["['ADJ', 'VERB', 'parataxis']", "['如何', '是', 'parataxis']"]
+["['PUNCT', 'ADJ', 'punct']", "['？', '如何', 'punct']"]
 ----------------------------------------------------------------------
-n
-(ROOT (FW n))
+但这并不意味着它会变得不那么有趣。
+
+(ROOT (IP (ADVP (RB 但)) (NP (PRD 这)) (VP (ADVP (RB 并)) (ADVP (RB 不)) (VP (VV 意味) (AS 着) (IP (NP (PRP 它)) (VP (MD 会) (VP (VV 变得) (VP (ADVP (RB 不)) (ADVP (RB 那么)) (VP (JJ 有趣)))))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
 Dependency Features:
-n	ROOT	root
-----------------------------------------------------------------------
-_
-(ROOT (FW _))
-layer 2:
-{'FW': {}}
-layer 3:
-{'FW': {}}
-Dependency Features:
-_	ROOT	root
-----------------------------------------------------------------------
-z
-(ROOT (FW z))
-layer 2:
-{'FW': {}}
-layer 3:
-{'FW': {}}
-Dependency Features:
-z	ROOT	root
-----------------------------------------------------------------------
-h
-(ROOT (FW h))
-layer 2:
-{'FW': {}}
-layer 3:
-{'FW': {}}
-Dependency Features:
-h	ROOT	root
-----------------------------------------------------------------------
-.
-(ROOT (. .))
-layer 2:
-{'.': {}}
-layer 3:
-{'.': {}}
-Dependency Features:
-.	ROOT	root
-----------------------------------------------------------------------
-t
-(ROOT (FW t))
-layer 2:
-{'FW': {}}
-layer 3:
-{'FW': {}}
-Dependency Features:
-t	ROOT	root
-----------------------------------------------------------------------
-x
-(ROOT (FW x))
-layer 2:
-{'FW': {}}
-layer 3:
-{'FW': {}}
-Dependency Features:
-x	ROOT	root
-----------------------------------------------------------------------
-t
-(ROOT (FW t))
-layer 2:
-{'FW': {}}
-layer 3:
-{'FW': {}}
-Dependency Features:
-t	ROOT	root
+["['ADV', 'VERB', 'mark']", "['但', '意味', 'mark']"]
+["['PRON', 'VERB', 'nsubj']", "['这', '意味', 'nsubj']"]
+["['ADV', 'ADV', 'advmod']", "['并', '不', 'advmod']"]
+["['ADV', 'VERB', 'advmod']", "['不', '意味', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['意味', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['着', '意味', 'aux']"]
+["['PRON', 'VERB', 'nsubj']", "['它', '变得', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['会', '变得', 'aux']"]
+["['VERB', 'VERB', 'ccomp']", "['变得', '意味', 'ccomp']"]
+["['ADV', 'ADJ', 'advmod']", "['不', '有趣', 'advmod']"]
+["['ADV', 'ADJ', 'advmod']", "['那么', '有趣', 'advmod']"]
+["['ADJ', 'VERB', 'xcomp']", "['有趣', '变得', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '意味', 'punct']"]
 ----------------------------------------------------------------------

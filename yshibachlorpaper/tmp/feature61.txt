@@ -1,265 +1,1074 @@
-.
-(ROOT (. .))
+据一名前英国潜艇指挥官透露，法国海军的一名官员部分证实了他的说法，英国核潜艇载有多枚核弹头，与法国核潜艇武装的核弹头类似，两艘核潜艇相撞可能是法国和北约国家之间缺乏沟通的结果。
+
+(ROOT (IP (IP (PP (IN 据) (IP (NP (QP (CD 一) (CLP (NNB 名))) (NP (ADJP (PFA 前)) (NP (NNP 英国)) (NP (NN 潜艇) (VV 指挥) (SFN 官)))) (VP (VV 透露)))) (, ，) (NP (DNP (NP (NP (NNP 法国)) (NP (NN 海军))) (DEC 的)) (QP (CD 一) (CLP (NNB 名))) (NP (NN 官员))) (VP (NP (NN 部分)) (VP (VV 证实) (AS 了) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 说法)))))) (, ，) (IP (NP (NP (NNP 英国)) (NP (NN 核) (NN 潜艇))) (VP (VP (VV 载有) (NP (QP (CD 多) (CLP (NNB 枚))) (NP (NN 核弹) (SFN 头)))) (, ，) (VP (PP (IN 与) (NP (DNP (NP (NP (NP (NNP 法国)) (NP (NN 核) (NN 潜艇))) (NP (NN 武装))) (DEC 的)) (NP (NN 核弹) (SFN 头)))) (VP (VV 类似))))) (, ，) (IP (IP (NP (QP (CD 两) (CLP (NNB 艘))) (NP (NN 核) (NN 潜艇))) (VP (VV 相撞))) (VP (MD 可能) (VP (VC 是) (NP (CP (IP (LCP (NP (NP (NNP 法国) (CC 和) (NNP 北约)) (NP (NN 国家))) (IN 之间)) (VP (VV 缺乏) (NP (NN 沟通)))) (DEC 的)) (NP (NN 结果)))))) (. 。)))
 layer 2:
-{'.': {}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'.': {}}
+{'IP': {'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'IP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'IP': {}, 'VP': {}}}
 Dependency Features:
-.	ROOT	root
+["['ADP', 'VERB', 'case']", "['据', '透露', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '名', 'nummod']"]
+["['NOUN', 'PART', 'nmod']", "['名', '官', 'nmod']"]
+["['PART', 'PART', 'case']", "['前', '官', 'case']"]
+["['PROPN', 'PART', 'nmod']", "['英国', '官', 'nmod']"]
+["['NOUN', 'PART', 'nmod']", "['潜艇', '官', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['指挥', '官', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['官', '透露', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['透露', '证实', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '透露', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['法国', '海军', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['海军', '部分', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '海军', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '名', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['名', '部分', 'clf']"]
+["['NOUN', 'NOUN', 'nmod']", "['官员', '部分', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['部分', '证实', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['证实', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['了', '证实', 'aux']"]
+["['PRON', 'NOUN', 'det']", "['他', '说法', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '他', 'case']"]
+["['NOUN', 'VERB', 'obj']", "['说法', '证实', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '载有', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['英国', '潜艇', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['核', '潜艇', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['潜艇', '载有', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['载有', '证实', 'ccomp']"]
+["['NUM', 'NOUN', 'nummod']", "['多', '枚', 'nummod']"]
+["['NOUN', 'PART', 'nmod']", "['枚', '头', 'nmod']"]
+["['NOUN', 'PART', 'compound']", "['核弹', '头', 'compound']"]
+["['PART', 'VERB', 'obj']", "['头', '载有', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '载有', 'punct']"]
+["['ADP', 'PART', 'case']", "['与', '头', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['法国', '潜艇', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['核', '潜艇', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['潜艇', '武装', 'nmod']"]
+["['NOUN', 'PART', 'acl:relcl']", "['武装', '头', 'acl:relcl']"]
+["['PART', 'NOUN', 'mark:rel']", "['的', '武装', 'mark:rel']"]
+["['NOUN', 'PART', 'compound']", "['核弹', '头', 'compound']"]
+["['PART', 'VERB', 'obl']", "['头', '类似', 'obl']"]
+["['VERB', 'VERB', 'ccomp']", "['类似', '证实', 'ccomp']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '结果', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['两', '艘', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['艘', '潜艇', 'clf']"]
+["['NOUN', 'NOUN', 'nmod']", "['核', '潜艇', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['潜艇', '相撞', 'nsubj']"]
+["['VERB', 'NOUN', 'csubj']", "['相撞', '结果', 'csubj']"]
+["['AUX', 'NOUN', 'aux']", "['可能', '结果', 'aux']"]
+["['AUX', 'NOUN', 'cop']", "['是', '结果', 'cop']"]
+["['PROPN', 'NOUN', 'nmod']", "['法国', '国家', 'nmod']"]
+["['CCONJ', 'PROPN', 'cc']", "['和', '北约', 'cc']"]
+["['PROPN', 'PROPN', 'conj']", "['北约', '法国', 'conj']"]
+["['NOUN', 'VERB', 'obl']", "['国家', '缺乏', 'obl']"]
+["['ADP', 'NOUN', 'case']", "['之间', '国家', 'case']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['缺乏', '结果', 'acl:relcl']"]
+["['NOUN', 'VERB', 'obj']", "['沟通', '缺乏', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '缺乏', 'mark:rel']"]
+["['NOUN', 'VERB', 'parataxis']", "['结果', '证实', 'parataxis']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '证实', 'punct']"]
 ----------------------------------------------------------------------
-/
-(ROOT (. /))
+2月3日或4日，英国的 HMS Vanguard 和法国的 Le Triomphant 在大西洋中部发生碰撞。
+
+(ROOT (IP (NP (CD 2) (NNB 月) (CD 3) (NNB 日) (CC 或) (CD 4) (NNB 日)) (, ，) (NP (NP (DNP (NP (NNP 英国)) (DEC 的)) (NP (FW HMS) (FW Vanguard))) (CC 和) (NP (DNP (NP (NNP 法国)) (DEC 的)) (NP (FW Le) (FW Triomphant)))) (VP (PP (VV 在) (NP (NP (NNP 大西) (SFN 洋)) (NP (NN 中部)))) (VP (VV 发生) (NP (NN 碰撞)))) (. 。)))
 layer 2:
-{'.': {}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'.': {}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}, 'CC': {}, 'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'NP': {}, 'CC': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}, 'CD': {}, 'NNB': {}, 'CC': {}, 'CD': {}, 'NNB': {}}}
+{'NP': {'NP': {}, 'CC': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
 Dependency Features:
-/	ROOT	root
+["['NUM', 'NOUN', 'nummod']", "['2', '月', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['月', '日', 'clf']"]
+["['NUM', 'NOUN', 'nummod']", "['3', '日', 'nummod']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['日', '发生', 'nmod:tmod']"]
+["['CCONJ', 'NOUN', 'cc']", "['或', '日', 'cc']"]
+["['NUM', 'NOUN', 'nummod']", "['4', '日', 'nummod']"]
+["['NOUN', 'NOUN', 'conj']", "['日', '日', 'conj']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '日', 'punct']"]
+["['PROPN', 'X', 'nmod']", "['英国', 'HMS', 'nmod']"]
+["['PART', 'PROPN', 'case']", "['的', '英国', 'case']"]
+["['X', 'VERB', 'nsubj']", "['HMS', '发生', 'nsubj']"]
+["['X', 'X', 'flat:foreign']", "['Vanguard', 'HMS', 'flat:foreign']"]
+["['CCONJ', 'X', 'cc']", "['和', 'Le', 'cc']"]
+["['PROPN', 'X', 'nmod']", "['法国', 'Le', 'nmod']"]
+["['PART', 'PROPN', 'case']", "['的', '法国', 'case']"]
+["['X', 'X', 'conj']", "['Le', 'HMS', 'conj']"]
+["['X', 'X', 'flat:foreign']", "['Triomphant', 'Le', 'flat:foreign']"]
+["['VERB', 'VERB', 'advcl']", "['在', '发生', 'advcl']"]
+["['PROPN', 'PART', 'compound']", "['大西', '洋', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['洋', '中部', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['中部', '在', 'obj']"]
+["['VERB', 'ROOT', 'root']", "['发生', 'NONE', 'root']"]
+["['NOUN', 'VERB', 'obj']", "['碰撞', '发生', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '发生', 'punct']"]
 ----------------------------------------------------------------------
-i
-(ROOT (FW i))
+事故可能是因为两艘潜艇都不知道对方在哪里。
+
+(ROOT (IP (NP (NN 事故)) (VP (MD 可能) (VP (VC 是) (PP (IN 因为) (IP (NP (QP (CD 两) (CLP (NNB 艘))) (NP (NN 潜艇))) (VP (ADVP (RB 都)) (ADVP (RB 不)) (VP (VV 知道) (IP (NP (NN 对方)) (VP (VV 在) (NP (WP 哪里)))))))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
 Dependency Features:
-i	ROOT	root
+["['NOUN', 'VERB', 'nsubj']", "['事故', '是', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['可能', '是', 'aux']"]
+["['VERB', 'ROOT', 'root']", "['是', 'NONE', 'root']"]
+["['ADP', 'VERB', 'xcomp']", "['因为', '是', 'xcomp']"]
+["['NUM', 'NOUN', 'nummod']", "['两', '艘', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['艘', '潜艇', 'clf']"]
+["['NOUN', 'VERB', 'nsubj']", "['潜艇', '知道', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['都', '知道', 'mark']"]
+["['ADV', 'VERB', 'advmod']", "['不', '知道', 'advmod']"]
+["['VERB', 'ADP', 'ccomp']", "['知道', '因为', 'ccomp']"]
+["['NOUN', 'VERB', 'nsubj']", "['对方', '在', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['在', '知道', 'ccomp']"]
+["['PRON', 'VERB', 'obj']", "['哪里', '在', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '是', 'punct']"]
 ----------------------------------------------------------------------
-n
-(ROOT (FW n))
+北约运行一个交通控制系统，警告盟国注意友军潜艇的部署区域。
+
+(ROOT (IP (NP (NNP 北约)) (VP (VP (VV 运行) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 交通) (NN 控制) (NN 系统)))) (, ，) (VP (VV 警告) (NP (NN 盟国)) (IP (VP (VV 注意) (NP (DNP (NP (NN 友军) (NN 潜艇)) (DEC 的)) (NP (NN 部署) (NN 区域))))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
 Dependency Features:
-n	ROOT	root
+["['PROPN', 'VERB', 'nsubj']", "['北约', '警告', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['运行', '警告', 'advcl']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '个', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['个', '系统', 'clf']"]
+["['NOUN', 'NOUN', 'nmod']", "['交通', '系统', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['控制', '系统', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['系统', '运行', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '运行', 'punct']"]
+["['VERB', 'ROOT', 'root']", "['警告', 'NONE', 'root']"]
+["['NOUN', 'VERB', 'nsubj']", "['盟国', '注意', 'nsubj']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['注意', '区域', 'acl:relcl']"]
+["['NOUN', 'NOUN', 'nmod']", "['友军', '潜艇', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['潜艇', '注意', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '注意', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['部署', '区域', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['区域', '警告', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '警告', 'punct']"]
 ----------------------------------------------------------------------
-s
-(ROOT (NP (FW s)))
+该系统旨在避免碰撞。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 系统))) (NP (VV 旨)) (VP (VV 在) (IP (VP (VV 避免) (NP (VV 碰撞))))) (. 。)))
 layer 2:
-{'NP': {'FW': {}}}
-{'NP': {'FW': {}}}
+{'IP': {'NP': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'NP': {'FW': {}}}
-{'NP': {'FW': {}}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'NP': {'VV': {}}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'NP': {'VV': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
 Dependency Features:
-s	ROOT	root
+["['DET', 'NOUN', 'det']", "['该', '系统', 'det']"]
+["['NOUN', 'VERB', 'nsubj']", "['系统', '在', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['旨', '在', 'advcl']"]
+["['VERB', 'ROOT', 'root']", "['在', 'NONE', 'root']"]
+["['VERB', 'VERB', 'xcomp']", "['避免', '在', 'xcomp']"]
+["['VERB', 'VERB', 'xcomp']", "['碰撞', '避免', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '在', 'punct']"]
 ----------------------------------------------------------------------
-t
-(ROOT (FW t))
+但是，由于法国不是北约的军事指挥结构的一部分，因此，法国不会向该系统提供其移动核武器的位置信息，据朱利安·弗格森 (Julian Ferguson) 称，他曾指挥英国的四艘 V 级核潜艇，直到 2006 年退休。
+
+(ROOT (IP (IP (ADVP (RB 但是)) (, ，) (PP (IN 由于) (IP (NP (NNP 法国)) (VP (VC 不是) (NP (DNP (NP (DNP (NP (NNP 北约)) (DEC 的)) (NP (NN 军事) (NN 指挥) (NN 结构))) (DEC 的)) (QP (CD 一)) (NP (NN 部分)))))) (, ，) (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (NNP 法国)) (VP (MD 不会) (VP (PP (IN 向) (NP (DP (DT 该)) (NP (NN 系统)))) (VP (VV 提供) (NP (DNP (NP (NP (PRP 其)) (NP (NN 移动) (NN 核) (NN 武器))) (DEC 的)) (NP (NN 位置) (NN 信息))))))) (, ，) (IP (PP (IN 据) (IP (NP (NNP 朱) (NNP 利安) (/ ·) (NNP 弗格森) (FW -LRB-Julian) (FW Ferguson-RRB-)) (VP (VV 称)))) (, ，) (NP (PRP 他)) (VP (ADVP (RB 曾)) (VP (VV 指挥) (NP (DNP (NP (NNP 英国)) (DEC 的)) (QP (CD 四) (CLP (NNB 艘))) (NP (FW V) (NN 级核)) (NP (NN 潜艇)))))) (, ，) (PP (IN 直到) (NP (CD 2006) (NNB 年退休))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'PP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'NP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
 Dependency Features:
-t	ROOT	root
+["['ADV', 'VERB', 'mark']", "['但是', '提供', 'mark']"]
+["['PUNCT', 'ADV', 'punct']", "['，', '但是', 'punct']"]
+["['ADP', 'NOUN', 'case']", "['由于', '部分', 'case']"]
+["['PROPN', 'NOUN', 'nsubj']", "['法国', '结构', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '部分', 'cop']"]
+["['PROPN', 'NOUN', 'nmod']", "['北约', '结构', 'nmod']"]
+["['PART', 'PROPN', 'case']", "['的', '北约', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['军事', '结构', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['指挥', '结构', 'nmod']"]
+["['NOUN', 'NOUN', 'acl:relcl']", "['结构', '部分', 'acl:relcl']"]
+["['PART', 'NOUN', 'mark:rel']", "['的', '结构', 'mark:rel']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '部分', 'nummod']"]
+["['NOUN', 'VERB', 'advcl']", "['部分', '提供', 'advcl']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '部分', 'punct']"]
+["['ADP', 'PRON', 'case']", "['因', '此', 'case']"]
+["['PRON', 'VERB', 'obl']", "['此', '提供', 'obl']"]
+["['PUNCT', 'PRON', 'punct']", "['，', '此', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['法国', '提供', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['会', '提供', 'aux']"]
+["['ADP', 'NOUN', 'case']", "['向', '系统', 'case']"]
+["['DET', 'NOUN', 'det']", "['该', '系统', 'det']"]
+["['NOUN', 'VERB', 'obl']", "['系统', '提供', 'obl']"]
+["['VERB', 'ROOT', 'root']", "['提供', 'NONE', 'root']"]
+["['PRON', 'NOUN', 'nmod']", "['其', '武器', 'nmod']"]
+["['NOUN', 'NOUN', 'acl:relcl']", "['移动', '信息', 'acl:relcl']"]
+["['NOUN', 'NOUN', 'nmod']", "['核', '武器', 'nmod']"]
+["['NOUN', 'NOUN', 'obj']", "['武器', '移动', 'obj']"]
+["['PART', 'NOUN', 'mark:rel']", "['的', '移动', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['位置', '信息', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['信息', '提供', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '称', 'punct']"]
+["['ADP', 'VERB', 'case']", "['据', '称', 'case']"]
+["['PROPN', 'VERB', 'nsubj']", "['朱', '称', 'nsubj']"]
+["['PROPN', 'PROPN', 'flat:name']", "['利安', '朱', 'flat:name']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '弗格森', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['弗格森', '利安', 'flat:name']"]
+["['X', 'VERB', 'nsubj']", "['(Julian', '称', 'nsubj']"]
+["['X', 'X', 'flat:foreign']", "['Ferguson)', '(Julian', 'flat:foreign']"]
+["['VERB', 'VERB', 'ccomp']", "['称', '提供', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '指挥', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '指挥', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['曾', '指挥', 'advmod']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['指挥', '潜艇', 'acl:relcl']"]
+["['PROPN', 'VERB', 'obj']", "['英国', '指挥', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '指挥', 'mark:rel']"]
+["['NUM', 'NOUN', 'nummod']", "['四', '艘', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['艘', '潜艇', 'clf']"]
+["['X', 'NOUN', 'nmod']", "['V', '潜艇', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['级核', '潜艇', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['潜艇', '称', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '称', 'punct']"]
+["['ADP', 'NOUN', 'case']", "['直到', '年退休', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['2006', '年退休', 'nummod']"]
+["['NOUN', 'VERB', 'obl']", "['年退休', '称', 'obl']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '称', 'punct']"]
 ----------------------------------------------------------------------
-r
-(ROOT (FW r))
+“对于美国、英国、挪威、荷兰和加拿大的社区，有一套操作规定，如果你想进入别人的影响范围，你必须告诉他们你在做什么，但如果你不属于北约军事结构，你就不用这么做，”弗格森说。
+
+(ROOT (IP (IP (`` “) (PP (IN 对于) (NP (DNP (NP (NNP 美国) (EC 、) (NNP 英国) (EC 、) (NNP 挪威) (EC 、) (NNP 荷兰) (CC 和) (NNP 加拿大)) (DEC 的)) (NP (NN 社区)))) (, ，) (VP (VV 有) (NP (QP (CD 一) (CLP (NNB 套))) (NP (NN 操作) (NN 规定)))) (, ，) (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 你)) (VP (MD 想) (IP (VP (VV 进入) (NP (DNP (NP (NN 别人)) (DEC 的)) (NP (NN 影响) (NN 范围)))))))) (, ，) (NP (PRP 你)) (VP (MD 必须) (VP (VV 告诉) (NP (PRP 他们)) (NP (PRP 你)) (IP (VP (ADVP (RB 在)) (VP (VV 做) (NP (WP 什么)))))))) (, ，) (IP (ADVP (RB 但)) (CP (ADVP (IN 如果)) (IP (NP (PRP 你)) (VP (ADVP (RB 不)) (VP (VV 属) (PP (VV 于) (NP (NP (NNP 北约)) (NP (NN 军事) (NN 结构)))))))) (, ，) (NP (PRP 你)) (VP (ADVP (RB 就)) (VP (VV 不用) (VP (ADVP (RB 这么)) (VP (VV 做))))))) (, ，) ('' ”) (NP (NNP 弗格森)) (VP (VV 说)) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'``': {}, 'PP': {}, ',': {}, 'VP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'``': {}, 'PP': {}, ',': {}, 'VP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}}}
 Dependency Features:
-r	ROOT	root
+["['PUNCT', 'NOUN', 'punct']", "['“', '社区', 'punct']"]
+["['ADP', 'NOUN', 'case']", "['对于', '社区', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['美国', '社区', 'nmod']"]
+["['PUNCT', 'PROPN', 'punct']", "['、', '英国', 'punct']"]
+["['PROPN', 'PROPN', 'conj']", "['英国', '美国', 'conj']"]
+["['PUNCT', 'PROPN', 'punct']", "['、', '挪威', 'punct']"]
+["['PROPN', 'PROPN', 'conj']", "['挪威', '美国', 'conj']"]
+["['PUNCT', 'PROPN', 'punct']", "['、', '荷兰', 'punct']"]
+["['PROPN', 'PROPN', 'conj']", "['荷兰', '美国', 'conj']"]
+["['CCONJ', 'PROPN', 'cc']", "['和', '加拿大', 'cc']"]
+["['PROPN', 'PROPN', 'conj']", "['加拿大', '美国', 'conj']"]
+["['PART', 'PROPN', 'case']", "['的', '美国', 'case']"]
+["['NOUN', 'VERB', 'nsubj']", "['社区', '有', 'nsubj']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '社区', 'punct']"]
+["['VERB', 'ROOT', 'root']", "['有', 'NONE', 'root']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '套', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['套', '规定', 'clf']"]
+["['NOUN', 'NOUN', 'nmod']", "['操作', '规定', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['规定', '有', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '说', 'punct']"]
+["['ADP', 'VERB', 'case']", "['如果', '告诉', 'case']"]
+["['PRON', 'VERB', 'nsubj']", "['你', '进入', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['想', '进入', 'aux']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['进入', '范围', 'acl:relcl']"]
+["['NOUN', 'VERB', 'obj']", "['别人', '进入', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '进入', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['影响', '范围', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['范围', '告诉', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '告诉', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['你', '告诉', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['必须', '告诉', 'aux']"]
+["['VERB', 'VERB', 'advcl']", "['告诉', '说', 'advcl']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '做', 'nsubj']"]
+["['PRON', 'VERB', 'nsubj']", "['你', '做', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['在', '做', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['做', '告诉', 'ccomp']"]
+["['PRON', 'VERB', 'obj']", "['什么', '做', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '告诉', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['但', '说', 'mark']"]
+["['ADP', 'VERB', 'case']", "['如果', '属', 'case']"]
+["['PRON', 'VERB', 'nsubj']", "['你', '属', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['不', '属', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['属', '用', 'ccomp']"]
+["['VERB', 'VERB', 'mark']", "['于', '属', 'mark']"]
+["['PROPN', 'NOUN', 'nmod']", "['北约', '结构', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['军事', '结构', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['结构', '属', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '属', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['你', '用', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['就', '用', 'mark']"]
+["['VERB', 'VERB', 'advcl']", "['用', '说', 'advcl']"]
+["['ADV', 'VERB', 'advmod']", "['这么', '做', 'advmod']"]
+["['VERB', 'VERB', 'xcomp']", "['做', '用', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '用', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['”', '用', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['弗格森', '说', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['说', '有', 'parataxis']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有', 'punct']"]
 ----------------------------------------------------------------------
-u
-(ROOT (FW u))
+法国海军向《时代》证实，法国不会向北约部队提供其核武装潜艇的位置：“法国不会提供任何有关其核武器或携带核武器的潜艇位置的信息，因为法国认为其核武库是其国防能力中最重要的组成部分，”法国海军发言人奥鲁林 (JЁ¦rome Erulin) 说。
+
+(ROOT (IP (IP (IP (NP (NP (NNP 法国)) (NP (NN 海军))) (VP (PP (IN 向) (NP (-LRB- 《) (NN 时代) (-RRB- 》))) (VP (VV 证实) (, ，) (IP (IP (NP (NNP 法国)) (VP (MD 不会) (VP (PP (IN 向) (NP (NP (NNP 北约)) (NP (NN 部队)))) (VP (VV 提供) (NP (DNP (NP (NP (PRP 其)) (NP (NN 核) (NN 武装) (NN 潜艇))) (DEC 的)) (NP (NN 位置))))))) (: ：) (IP (`` “) (NP (NNP 法国)) (VP (MD 不会) (VP (VV 提供) (NP (DP (DT 任何)) (DNP (PP (PP (IN 有关) (NP (NP (PRP 其)) (NP (NN 核) (NN 武器)))) (CC 或) (NP (CP (CP (IP (VP (VV 携带) (NP (NN 核) (NN 武器)))) (DEC 的))) (NP (NN 潜艇) (NN 位置)))) (DEC 的)) (NP (NN 信息))))) (, ，) (PP (IN 因为) (IP (NP (NNP 法国)) (VP (VV 认为) (IP (NP (NP (PRP 其)) (NP (NN 核) (NN 武库))) (VP (VC 是) (NP (CP (CP (IP (VP (LCP (NP (NP (PRP 其)) (NP (NN 国防) (NN 能力))) (IN 中)) (ADVP (RB 最)) (VP (JJ 重要)))) (DEC 的))) (NP (NN 组成) (NN 部分))))))))))))) (, ，) ('' ”)) (NP (NP (NP (NNP 法国)) (NP (NN 海军) (VV 发言) (SFN 人))) (NP (NNP 奥鲁林) (FW -LRB-J) (FW Ё¦rome) (FW Erulin-RRB-))) (VP (VV 说)) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'IP': {}, ',': {}, "''": {}}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, "''": {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}}}
 Dependency Features:
-u	ROOT	root
+["['PROPN', 'NOUN', 'nmod']", "['法国', '海军', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['海军', '证实', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['向', '时代', 'case']"]
+["['PUNCT', 'NOUN', 'punct']", "['《', '时代', 'punct']"]
+["['NOUN', 'VERB', 'obl']", "['时代', '证实', 'obl']"]
+["['PUNCT', 'NOUN', 'punct']", "['》', '时代', 'punct']"]
+["['VERB', 'ROOT', 'root']", "['证实', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '提供', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['法国', '提供', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['会', '提供', 'aux']"]
+["['ADP', 'NOUN', 'case']", "['向', '部队', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['北约', '部队', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['部队', '提供', 'obl']"]
+["['VERB', 'VERB', 'ccomp']", "['提供', '证实', 'ccomp']"]
+["['PRON', 'NOUN', 'nmod']", "['其', '潜艇', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['核', '潜艇', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['武装', '潜艇', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['潜艇', '提供', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '提供', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['位置', '提供', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['：', '提供', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['“', '提供', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['法国', '提供', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['会', '提供', 'aux']"]
+["['VERB', 'VERB', 'parataxis']", "['提供', '证实', 'parataxis']"]
+["['DET', 'NOUN', 'det']", "['任何', '信息', 'det']"]
+["['ADP', 'NOUN', 'case']", "['有关', '武器', 'case']"]
+["['PRON', 'NOUN', 'nmod']", "['其', '武器', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['核', '武器', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['武器', '携带', 'obl']"]
+["['CCONJ', 'VERB', 'cc']", "['或', '携带', 'cc']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['携带', '位置', 'acl:relcl']"]
+["['NOUN', 'NOUN', 'nmod']", "['核', '武器', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['武器', '携带', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '携带', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['潜艇', '位置', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['位置', '信息', 'nmod']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '携带', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['信息', '提供', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '为', 'punct']"]
+["['ADP', 'VERB', 'case']", "['因为', '为', 'case']"]
+["['PROPN', 'VERB', 'nsubj']", "['法国', '为', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['为', '说', 'ccomp']"]
+["['PRON', 'NOUN', 'nmod']", "['其', '武库', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['核', '武库', 'nmod']"]
+["['NOUN', 'NOUN', 'nsubj']", "['武库', '部分', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '部分', 'cop']"]
+["['PRON', 'NOUN', 'nmod']", "['其', '能力', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['国防', '能力', 'nmod']"]
+["['NOUN', 'ADJ', 'obl']", "['能力', '重要', 'obl']"]
+["['ADP', 'NOUN', 'case']", "['中', '能力', 'case']"]
+["['ADV', 'ADJ', 'advmod']", "['最', '重要', 'advmod']"]
+["['ADJ', 'NOUN', 'amod']", "['重要', '部分', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '重要', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['组成', '部分', 'nmod']"]
+["['NOUN', 'VERB', 'ccomp']", "['部分', '为', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '为', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['”', '说', 'punct']"]
+["['PROPN', 'PART', 'nmod']", "['法国', '人', 'nmod']"]
+["['NOUN', 'PART', 'nmod']", "['海军', '人', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['发言', '人', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['人', '说', 'nsubj']"]
+["['PROPN', 'PART', 'appos']", "['奥鲁林', '人', 'appos']"]
+["['X', 'X', 'flat:foreign']", "['(J', 'Ё¦rome', 'flat:foreign']"]
+["['X', 'PROPN', 'appos']", "['Ё¦rome', '奥鲁林', 'appos']"]
+["['X', 'X', 'flat:foreign']", "['Erulin)', 'Ё¦rome', 'flat:foreign']"]
+["['VERB', 'VERB', 'ccomp']", "['说', '证实', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '证实', 'punct']"]
 ----------------------------------------------------------------------
-c
-(ROOT (FW c))
+北约消息人士告诉《时代》杂志，法国并非唯一拒绝透露核潜艇信息的国家，英国和美国也不愿透露其战略威慑的位置。
+
+(ROOT (IP (NP (NP (NNP 北约)) (NP (NN 消息) (NN 人士))) (VP (VV 告诉) (NP (NP (-LRB- 《) (NN 时代) (-RRB- 》)) (NP (NN 杂志))) (, ，) (IP (IP (NP (NNP 法国)) (VP (VC 并非) (NP (ADJP (RB 唯一)) (CP (CP (IP (VP (VV 拒绝) (IP (VP (VV 透露) (NP (NN 核) (NN 潜艇) (NN 信息)))))) (DEC 的))) (NP (NN 国家))))) (, ，) (IP (NP (NNP 英国) (CC 和) (NNP 美国)) (VP (ADVP (RB 也)) (VP (MD 不愿) (VP (VV 透露) (NP (DNP (NP (NP (PRP 其)) (NP (NN 战略) (NN 威慑))) (DEC 的)) (NP (NN 位置))))))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'NP': {}, ',': {}, 'IP': {}}}
 Dependency Features:
-c	ROOT	root
+["['PROPN', 'NOUN', 'nmod']", "['北约', '人士', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['消息', '人士', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['人士', '告诉', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['告诉', 'NONE', 'root']"]
+["['PUNCT', 'NOUN', 'punct']", "['《', '时代', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['时代', '杂志', 'nmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['》', '时代', 'punct']"]
+["['NOUN', 'VERB', 'obj']", "['杂志', '告诉', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '并非', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['法国', '并非', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['并非', '告诉', 'parataxis']"]
+["['ADV', 'VERB', 'advmod']", "['唯一', '拒绝', 'advmod']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['拒绝', '国家', 'acl:relcl']"]
+["['VERB', 'VERB', 'xcomp']", "['透露', '拒绝', 'xcomp']"]
+["['NOUN', 'NOUN', 'nmod']", "['核', '信息', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['潜艇', '信息', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['信息', '透露', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '拒绝', 'mark:rel']"]
+["['NOUN', 'VERB', 'xcomp']", "['国家', '并非', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '透露', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['英国', '透露', 'nsubj']"]
+["['CCONJ', 'PROPN', 'cc']", "['和', '美国', 'cc']"]
+["['PROPN', 'PROPN', 'conj']", "['美国', '英国', 'conj']"]
+["['ADV', 'VERB', 'mark']", "['也', '透露', 'mark']"]
+["['AUX', 'VERB', 'aux']", "['愿', '透露', 'aux']"]
+["['VERB', 'VERB', 'parataxis']", "['透露', '告诉', 'parataxis']"]
+["['PRON', 'NOUN', 'nmod']", "['其', '威慑', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['战略', '威慑', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['威慑', '位置', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '威慑', 'case']"]
+["['NOUN', 'VERB', 'obj']", "['位置', '透露', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '告诉', 'punct']"]
 ----------------------------------------------------------------------
-t
-(ROOT (FW t))
+北约发言人在一份声明中表示：“法国在其潜艇舰队方面采用与其他盟国相同的程序。”
+
+(ROOT (IP (NP (NP (NNP 北约)) (NP (VV 发言) (SFN 人))) (VP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 份))) (NP (NN 声明))) (IN 中))) (VP (VV 表示) (: ：) (IP (`` “) (NP (NNP 法国)) (VP (PP (IN 在) (NP (NP (NP (PRP 其)) (NP (NN 潜艇) (NN 舰队))) (NP (NN 方面)))) (VP (VV 采用) (NP (CP (CP (IP (VP (PP (IN 与) (NP (DP (DT 其他)) (NP (NN 盟国)))) (VP (JJ 相同)))) (DEC 的))) (NP (NN 程序)))))))) (. 。) ('' ”)))
 layer 2:
-{'FW': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
 Dependency Features:
-t	ROOT	root
+["['PROPN', 'PART', 'nmod']", "['北约', '人', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['发言', '人', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['人', '表示', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['在', '声明', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '份', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['份', '声明', 'clf']"]
+["['NOUN', 'VERB', 'obl']", "['声明', '表示', 'obl']"]
+["['ADP', 'NOUN', 'case']", "['中', '声明', 'case']"]
+["['VERB', 'ROOT', 'root']", "['表示', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['：', '采用', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['“', '采用', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['法国', '采用', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['在', '方面', 'case']"]
+["['PRON', 'NOUN', 'nmod']", "['其', '方面', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['潜艇', '方面', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['舰队', '方面', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['方面', '采用', 'obl']"]
+["['VERB', 'VERB', 'ccomp']", "['采用', '表示', 'ccomp']"]
+["['ADP', 'NOUN', 'case']", "['与', '盟国', 'case']"]
+["['DET', 'NOUN', 'det']", "['其他', '盟国', 'det']"]
+["['NOUN', 'ADJ', 'nmod']", "['盟国', '相同', 'nmod']"]
+["['ADJ', 'NOUN', 'acl:relcl']", "['相同', '程序', 'acl:relcl']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '相同', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['程序', '采用', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '采用', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['”', '采用', 'punct']"]
 ----------------------------------------------------------------------
-_
-(ROOT (FW _))
+但费格森说，法国人特别保守，这是因为法国在北约的指挥结构中处于外部。
+
+(ROOT (IP (NP (NNP 但费格森)) (VP (VV 说) (, ，) (IP (IP (NP (NP (NNP 法国)) (NP (SFN 人))) (VP (ADVP (RB 特别)) (VP (JJ 保守)))) (, ，) (IP (NP (PRD 这)) (VP (VC 是) (PP (IN 因为) (IP (NP (NNP 法国)) (VP (PP (IN 在) (LCP (NP (DNP (NP (NNP 北约)) (DEC 的)) (NP (NN 指挥) (NN 结构))) (IN 中))) (VP (VV 处) (PP (VV 于) (NP (NN 外部))))))))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
 Dependency Features:
-_	ROOT	root
+["['PROPN', 'VERB', 'nsubj']", "['但费格森', '说', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['说', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '是', 'punct']"]
+["['PROPN', 'PART', 'compound']", "['法国', '人', 'compound']"]
+["['PART', 'ADJ', 'nsubj']", "['人', '保守', 'nsubj']"]
+["['ADV', 'ADJ', 'advmod']", "['特别', '保守', 'advmod']"]
+["['ADJ', 'VERB', 'advcl']", "['保守', '是', 'advcl']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '保守', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['这', '是', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['是', '说', 'ccomp']"]
+["['ADP', 'VERB', 'xcomp']", "['因为', '是', 'xcomp']"]
+["['PROPN', 'NOUN', 'nmod']", "['法国', '结构', 'nmod']"]
+["['ADP', 'NOUN', 'case']", "['在', '结构', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['北约', '结构', 'nmod']"]
+["['PART', 'PROPN', 'case']", "['的', '北约', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['指挥', '结构', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['结构', '处', 'obl']"]
+["['ADP', 'NOUN', 'case']", "['中', '结构', 'case']"]
+["['VERB', 'ADP', 'ccomp']", "['处', '因为', 'ccomp']"]
+["['VERB', 'VERB', 'mark']", "['于', '处', 'mark']"]
+["['NOUN', 'VERB', 'obj']", "['外部', '处', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '说', 'punct']"]
 ----------------------------------------------------------------------
-t
-(ROOT (FW t))
+以往的政策级讨论表明，人们对沟通不足表示关注。
+
+(ROOT (IP (NP (DNP (NP (NN 以往)) (DEC 的)) (NP (NN 政策) (SFN 级) (NN 讨论))) (VP (VV 表明) (, ，) (IP (NP (NN 人们)) (VP (PP (IN 对) (IP (NP (NN 沟通)) (VP (JJ 不足)))) (VP (VV 表示) (NP (NN 关注)))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
 Dependency Features:
-t	ROOT	root
+["['NOUN', 'NOUN', 'nmod']", "['以往', '讨论', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '以往', 'case']"]
+["['NOUN', 'PART', 'compound']", "['政策', '级', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['级', '讨论', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['讨论', '表明', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['表明', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '表示', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['人', '表示', 'nsubj']"]
+["['ADP', 'ADJ', 'case']", "['对', '不足', 'case']"]
+["['NOUN', 'ADJ', 'nsubj']", "['沟通', '不足', 'nsubj']"]
+["['ADJ', 'VERB', 'ccomp']", "['不足', '表示', 'ccomp']"]
+["['VERB', 'VERB', 'ccomp']", "['表示', '表明', 'ccomp']"]
+["['NOUN', 'VERB', 'obj']", "['关注', '表示', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '表明', 'punct']"]
 ----------------------------------------------------------------------
-x
-(ROOT (FW x))
+1994 年，英国和法国讨论了两国海军之间更加紧密的合作，以及可能的部署区域分割，以便两国核潜艇巡逻。
+
+(ROOT (IP (NP (CD 1994) (NNB 年)) (, ，) (NP (NNP 英国) (CC 和) (NNP 法国)) (VP (VP (VV 讨论) (AS 了) (NP (NP (LCP (NP (NP (QP (CD 两)) (NP (NN 国))) (NP (NN 海军))) (IN 之间)) (CP (CP (IP (VP (ADVP (RB 更加)) (VP (JJ 紧密)))) (DEC 的))) (NP (NN 合作))) (, ，) (CC 以及) (NP (CP (CP (IP (VP (MD 可能))) (DEC 的))) (NP (NN 部署) (NN 区域) (NN 分割))))) (, ，) (VP (RB 以) (VP (VV 便) (IP (NP (NP (QP (CD 两)) (NP (NN 国))) (NP (NN 核) (NN 潜艇))) (VP (VV 巡逻)))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'NP': {'CD': {}, 'NNB': {}}, ',': {}, 'NP': {'NNP': {}, 'CC': {}, 'NNP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CD': {}, 'NNB': {}}}
+{'NP': {'NNP': {}, 'CC': {}, 'NNP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
 Dependency Features:
-x	ROOT	root
+["['NUM', 'NOUN', 'nummod']", "['1994', '年', 'nummod']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['年', '讨论', 'nmod:tmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '年', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['英国', '便', 'nsubj']"]
+["['CCONJ', 'PROPN', 'cc']", "['和', '法国', 'cc']"]
+["['PROPN', 'PROPN', 'conj']", "['法国', '英国', 'conj']"]
+["['VERB', 'VERB', 'advcl']", "['讨论', '便', 'advcl']"]
+["['AUX', 'VERB', 'aux']", "['了', '讨论', 'aux']"]
+["['NUM', 'NOUN', 'nummod']", "['两', '国', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['国', '海军', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['海军', '合作', 'nmod']"]
+["['ADP', 'NOUN', 'case']", "['之间', '海军', 'case']"]
+["['ADV', 'ADJ', 'advmod']", "['更加', '紧密', 'advmod']"]
+["['ADJ', 'NOUN', 'amod']", "['紧密', '合作', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '紧密', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['合作', '讨论', 'obj']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '分割', 'punct']"]
+["['CCONJ', 'NOUN', 'cc']", "['以及', '分割', 'cc']"]
+["['AUX', 'NOUN', 'amod']", "['可能', '分割', 'amod']"]
+["['PART', 'AUX', 'mark:rel']", "['的', '可能', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['部署', '分割', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['区域', '分割', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['分割', '合作', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '讨论', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['以', '便', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['便', 'NONE', 'root']"]
+["['NUM', 'NOUN', 'nummod']", "['两', '国', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['国', '潜艇', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['核', '潜艇', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['潜艇', '巡逻', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['巡逻', '便', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '便', 'punct']"]
 ----------------------------------------------------------------------
-t
-(ROOT (FW t))
+直到 2000 年 9 月，英国和法国才在《英法双边防务合作协议》中正式确定了这一安排。
+
+(ROOT (IP (PP (IN 直到) (NP (CD 2000) (NNB 年 9) (NNB 月))) (, ，) (NP (NNP 英国) (CC 和) (NNP 法国)) (VP (ADVP (RB 才)) (PP (IN 在) (NP (NP (-LRB- 《) (NP (NP (NNP 英) (NNP 法)) (QP (CD 双) (CLP (NN 边))) (NP (NN 防务) (NN 合作))) (NP (NN 协议)) (-RRB- 》)) (ADJP (NN 中正)) (NP (SFN 式)))) (VP (VV 确定) (AS 了) (NP (DP (DT 这) (QP (CD 一))) (NP (NN 安排))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'PP': {'IN': {}, 'NP': {}}, ',': {}, 'NP': {'NNP': {}, 'CC': {}, 'NNP': {}}, 'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'NP': {}}}
+{'NP': {'NNP': {}, 'CC': {}, 'NNP': {}}}
+{'VP': {'ADVP': {}, 'PP': {}, 'VP': {}}}
 Dependency Features:
-t	ROOT	root
+["['ADP', 'NOUN', 'case']", "['直到', '月', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['2000', '年 9', 'nummod']"]
+["['NOUN', 'NOUN', 'nummod']", "['年 9', '月', 'nummod']"]
+["['NOUN', 'VERB', 'obl']", "['月', '确定', 'obl']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '月', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['英国', '确定', 'nsubj']"]
+["['CCONJ', 'PROPN', 'cc']", "['和', '法国', 'cc']"]
+["['PROPN', 'PROPN', 'conj']", "['法国', '英国', 'conj']"]
+["['ADV', 'VERB', 'mark']", "['才', '确定', 'mark']"]
+["['ADP', 'NOUN', 'case']", "['在', '协议', 'case']"]
+["['PUNCT', 'NOUN', 'punct']", "['《', '协议', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['英', '协议', 'nmod']"]
+["['PROPN', 'NOUN', 'nmod']", "['法', '协议', 'nmod']"]
+["['NUM', 'NOUN', 'nummod']", "['双', '边', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['边', '协议', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['防务', '协议', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['合作', '协议', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['协议', '确定', 'obl']"]
+["['PUNCT', 'NOUN', 'punct']", "['》', '协议', 'punct']"]
+["['NOUN', 'PART', 'compound']", "['中正', '式', 'compound']"]
+["['PART', 'NOUN', 'appos']", "['式', '协议', 'appos']"]
+["['VERB', 'ROOT', 'root']", "['确定', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['了', '确定', 'aux']"]
+["['DET', 'NOUN', 'det']", "['这', '安排', 'det']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '安排', 'nummod']"]
+["['NOUN', 'VERB', 'obj']", "['安排', '确定', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '确定', 'punct']"]
 ----------------------------------------------------------------------
-/
-(ROOT (. /))
+该协议要求英国和法国核潜艇进行港口访问，并定期就核政策进行交流。
+
+(ROOT (IP (NP (DP (DT 该)) (NP (NN 协议))) (VP (VP (VV 要求) (NP (NP (NNP 英国) (CC 和) (NNP 法国)) (NP (NN 核) (NN 潜艇))) (IP (VP (VV 进行) (NP (NN 港口) (NN 访问))))) (, ，) (RB 并) (VP (ADVP (RB 定期)) (PP (IN 就) (NP (NN 核) (NN 政策))) (VP (VV 进行) (NP (NN 交流))))) (. 。)))
 layer 2:
-{'.': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'.': {}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
 Dependency Features:
-/	ROOT	root
+["['DET', 'NOUN', 'det']", "['该', '协议', 'det']"]
+["['NOUN', 'VERB', 'nsubj']", "['协议', '进行', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['要求', '进行', 'advcl']"]
+["['PROPN', 'VERB', 'nsubj']", "['英国', '进行', 'nsubj']"]
+["['CCONJ', 'PROPN', 'cc']", "['和', '法国', 'cc']"]
+["['PROPN', 'NOUN', 'nmod']", "['法国', '潜艇', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['核', '潜艇', 'nmod']"]
+["['NOUN', 'PROPN', 'conj']", "['潜艇', '英国', 'conj']"]
+["['VERB', 'VERB', 'ccomp']", "['进行', '要求', 'ccomp']"]
+["['NOUN', 'NOUN', 'nmod']", "['港口', '访问', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['访问', '进行', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '要求', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['并', '进行', 'mark']"]
+["['ADV', 'VERB', 'advmod']", "['定期', '进行', 'advmod']"]
+["['ADP', 'NOUN', 'case']", "['就', '政策', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['核', '政策', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['政策', '进行', 'obl']"]
+["['VERB', 'ROOT', 'root']", "['进行', 'NONE', 'root']"]
+["['NOUN', 'VERB', 'obj']", "['交流', '进行', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '进行', 'punct']"]
 ----------------------------------------------------------------------
-B
-(ROOT (FW B))
+但是，尚不清楚是否包括交换有关核武装潜艇定位的信息，许多军火专家表示很可能没有。
+
+(ROOT (IP (IP (ADVP (RB 但是)) (, ，) (VP (ADVP (RB 尚)) (ADVP (RB 不)) (VP (VV 清楚) (IP (VP (ADVP (VC 是否)) (VP (VV 包括) (NP (CP (CP (IP (VP (VV 交换) (NP (NP (ADJP (IN 有关)) (NP (NN 核) (NN 武装) (NN 潜艇))) (NP (NN 定位))))) (DEC 的))) (NP (NN 信息))))))))) (, ，) (IP (NP (QP (CD 许多)) (NP (NN 军火) (NN 专家))) (VP (VV 表示) (IP (VP (ADVP (RB 很)) (VP (MD 可能) (VP (VV 没有))))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
 Dependency Features:
-B	ROOT	root
+["['ADV', 'VERB', 'mark']", "['但是', '清楚', 'mark']"]
+["['PUNCT', 'ADV', 'punct']", "['，', '但是', 'punct']"]
+["['ADV', 'ADV', 'advmod']", "['尚', '不', 'advmod']"]
+["['ADV', 'VERB', 'advmod']", "['不', '清楚', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['清楚', 'NONE', 'root']"]
+["['VERB', 'VERB', 'xcomp']", "['是', '清楚', 'xcomp']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['包括', '信息', 'acl:relcl']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['交换', '信息', 'acl:relcl']"]
+["['ADP', 'NOUN', 'case']", "['有关', '定位', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['核', '定位', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['武装', '潜艇', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['潜艇', '定位', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['定位', '交换', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '交换', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['信息', '是', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '表示', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['许多', '专家', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['军火', '专家', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['专家', '表示', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['表示', '清楚', 'parataxis']"]
+["['ADV', 'VERB', 'advmod']", "['很', '有', 'advmod']"]
+["['AUX', 'VERB', 'aux']", "['可能', '有', 'aux']"]
+["['VERB', 'VERB', 'xcomp']", "['有', '表示', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '清楚', 'punct']"]
 ----------------------------------------------------------------------
-0
-(ROOT (LS 0))
+美国科学家联合会的代表汉斯·克里斯滕森 (Hans Kristensen) 表示：“这起碰撞事件的发生本身就表明，这两个盟国需要多交流。”
+
+(ROOT (IP (NP (NP (DNP (NP (NNP 美国) (NN 科学) (SFN 家) (VV 联合) (SFN 会)) (DEC 的)) (NP (NN 代表))) (NP (NNP 汉斯) (/ ·) (NNP 克里斯滕森) (FW -LRB-Hans) (FW Kristensen-RRB-))) (VP (VV 表示) (: ：) (IP (`` “) (IP (NP (NP (DNP (NP (DP (DT 这) (CLP (NNB 起))) (NP (NN 碰撞) (NN 事件))) (DEC 的)) (NP (NN 发生))) (NP (PRD 本身))) (VP (ADVP (RB 就)) (VP (VV 表明) (, ，) (IP (NP (DP (DT 这) (QP (CD 两) (CLP (NNB 个)))) (NP (NN 盟国))) (VP (MD 需要) (VP (ADVP (RB 多)) (VP (VV 交流)))))))))) (. 。) ('' ”)))
 layer 2:
-{'LS': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
 layer 3:
-{'LS': {}}
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
 Dependency Features:
-0	ROOT	root
+["['PROPN', 'PART', 'nmod']", "['美国', '会', 'nmod']"]
+["['NOUN', 'PART', 'compound']", "['科学', '家', 'compound']"]
+["['PART', 'PART', 'nmod']", "['家', '会', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['联合', '会', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['会', '代表', 'nmod']"]
+["['PART', 'PART', 'case']", "['的', '会', 'case']"]
+["['NOUN', 'VERB', 'nsubj']", "['代表', '表示', 'nsubj']"]
+["['PROPN', 'NOUN', 'appos']", "['汉斯', '代表', 'appos']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '克里斯滕森', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['克里斯滕森', '汉斯', 'flat:name']"]
+["['X', 'NOUN', 'appos']", "['(Hans', '代表', 'appos']"]
+["['X', 'X', 'flat:foreign']", "['Kristensen)', '(Hans', 'flat:foreign']"]
+["['VERB', 'ROOT', 'root']", "['表示', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['：', '表明', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['“', '表明', 'punct']"]
+["['DET', 'NOUN', 'det']", "['这', '起', 'det']"]
+["['NOUN', 'NOUN', 'clf']", "['起', '事件', 'clf']"]
+["['NOUN', 'NOUN', 'nmod']", "['碰撞', '事件', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['事件', '发生', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '事件', 'case']"]
+["['NOUN', 'VERB', 'nsubj']", "['发生', '表明', 'nsubj']"]
+["['PRON', 'NOUN', 'appos']", "['本身', '发生', 'appos']"]
+["['ADV', 'VERB', 'mark']", "['就', '表明', 'mark']"]
+["['VERB', 'VERB', 'ccomp']", "['表明', '表示', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '交流', 'punct']"]
+["['DET', 'NOUN', 'det']", "['这', '个', 'det']"]
+["['NUM', 'NOUN', 'nummod']", "['两', '个', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['个', '盟国', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['盟国', '交流', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['需要', '交流', 'aux']"]
+["['ADV', 'VERB', 'advmod']", "['多', '交流', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['交流', '表明', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '表明', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['”', '表明', 'punct']"]
 ----------------------------------------------------------------------
-6
-(ROOT (CD 6))
+弗格森表示，即使在没有通讯的情况下，两艘配备声呐的核潜艇在大海中相遇也是一件不太可能的事，但大西洋有环境异常，这可能会导致两艘潜艇相撞。
+
+(ROOT (IP (NP (NNP 弗格森)) (VP (VV 表示) (, ，) (IP (IP (IP (CP (ADVP (IN 即使)) (IP (PP (IN 在) (LCP (NP (CP (IP (VP (VV 没有) (NP (NN 通讯)))) (DEC 的)) (NP (NN 情况))) (IN 下))) (, ，) (NP (QP (CD 两) (CLP (NNB 艘))) (CP (CP (IP (VP (VV 配备) (NP (NN 声呐)))) (DEC 的))) (NP (NN 核) (NN 潜艇))) (VP (PP (VV 在) (LCP (NP (NN 大海)) (NN 中))) (VP (VV 相遇))))) (VP (VC 也是) (NP (QP (CD 一) (CLP (NNB 件))) (CP (CP (IP (VP (ADVP (RB 不)) (ADVP (RB 太)) (VP (MD 可能)))) (DEC 的))) (NP (NN 事))))) (, ，) (ADVP (RB 但)) (NP (NNP 大西) (SFN 洋)) (VP (VV 有) (IP (NP (NN 环境)) (VP (JJ 异常))))) (, ，) (IP (NP (PRD 这)) (VP (MD 可能) (VP (MD 会) (VP (VV 导致) (IP (NP (QP (CD 两) (CLP (NNB 艘))) (NP (NN 潜艇))) (VP (VV 相撞))))))))) (. 。)))
 layer 2:
-{'CD': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'CD': {}}
+{'IP': {'NP': {'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
 Dependency Features:
-6	ROOT	root
+["['PROPN', 'VERB', 'nsubj']", "['弗格森', '表示', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['表示', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '导致', 'punct']"]
+["['ADP', 'NOUN', 'case']", "['即使', '情况', 'case']"]
+["['ADP', 'NOUN', 'case']", "['在', '情况', 'case']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['有', '情况', 'acl:relcl']"]
+["['NOUN', 'VERB', 'obj']", "['通讯', '有', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '有', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['情况', '事', 'nmod']"]
+["['ADP', 'NOUN', 'case']", "['下', '情况', 'case']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '情况', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['两', '艘', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['艘', '潜艇', 'clf']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['配备', '潜艇', 'acl:relcl']"]
+["['NOUN', 'VERB', 'obj']", "['声呐', '配备', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '配备', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['核', '潜艇', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['潜艇', '相遇', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['在', '相遇', 'advcl']"]
+["['NOUN', 'VERB', 'obj']", "['大海', '在', 'obj']"]
+["['NOUN', 'NOUN', 'acl']", "['中', '大海', 'acl']"]
+["['VERB', 'NOUN', 'csubj']", "['相遇', '事', 'csubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '事', 'cop']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '件', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['件', '事', 'clf']"]
+["['ADV', 'AUX', 'advmod']", "['不', '可能', 'advmod']"]
+["['ADV', 'AUX', 'advmod']", "['太', '可能', 'advmod']"]
+["['AUX', 'NOUN', 'acl:relcl']", "['可能', '事', 'acl:relcl']"]
+["['PART', 'AUX', 'mark:rel']", "['的', '可能', 'mark:rel']"]
+["['NOUN', 'VERB', 'ccomp']", "['事', '表示', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '导致', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['但', '导致', 'mark']"]
+["['PROPN', 'PART', 'compound']", "['大西', '洋', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['洋', '有', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['有', '导致', 'advcl']"]
+["['NOUN', 'ADJ', 'nsubj']", "['环境', '异常', 'nsubj']"]
+["['ADJ', 'VERB', 'ccomp']", "['异常', '有', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '有', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['这', '导致', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['可能', '导致', 'aux']"]
+["['AUX', 'VERB', 'aux']", "['会', '导致', 'aux']"]
+["['VERB', 'VERB', 'ccomp']", "['导致', '表示', 'ccomp']"]
+["['NUM', 'NOUN', 'nummod']", "['两', '艘', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['艘', '潜艇', 'clf']"]
+["['NOUN', 'VERB', 'nsubj']", "['潜艇', '相撞', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['相撞', '导致', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '表示', 'punct']"]
 ----------------------------------------------------------------------
-B
-(ROOT (FW B))
+例如，潜艇在执行威慑任务时，往往聚集在其他潜艇和间谍飞机不太可能发现的地方。
+
+(ROOT (IP (ADVP (VV 例如)) (, ，) (NP (NN 潜艇)) (VP (PP (IN 在) (LCP (IP (VP (VV 执行) (NP (NN 威慑) (NN 任务)))) (IN 时))) (, ，) (ADVP (RB 往往)) (VP (VV 聚集) (PP (IN 在) (NP (CP (CP (IP (NP (DP (DT 其他)) (NP (NN 潜艇) (CC 和) (NN 间谍) (NN 飞机))) (VP (ADVP (RB 不)) (ADVP (RB 太)) (VP (MD 可能) (VP (VV 发现))))) (DEC 的))) (NP (NN 地方)))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'ADVP': {'VV': {}}, ',': {}, 'NP': {'NN': {}}, 'VP': {'PP': {}, ',': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'VV': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'PP': {}, ',': {}, 'ADVP': {}, 'VP': {}}}
 Dependency Features:
-B	ROOT	root
+["['VERB', 'ROOT', 'root']", "['例如', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '聚集', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['潜艇', '聚集', 'nsubj']"]
+["['ADP', 'VERB', 'case']", "['在', '执行', 'case']"]
+["['VERB', 'VERB', 'xcomp']", "['执行', '聚集', 'xcomp']"]
+["['NOUN', 'NOUN', 'nmod']", "['威慑', '任务', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['任务', '执行', 'obj']"]
+["['ADP', 'VERB', 'mark']", "['时', '执行', 'mark']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '执行', 'punct']"]
+["['ADV', 'VERB', 'advmod']", "['往往', '聚集', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['聚集', '例如', 'ccomp']"]
+["['ADP', 'NOUN', 'case']", "['在', '潜艇', 'case']"]
+["['DET', 'NOUN', 'det']", "['其他', '潜艇', 'det']"]
+["['NOUN', 'VERB', 'obl']", "['潜艇', '聚集', 'obl']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '飞机', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['间谍', '飞机', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['飞机', '潜艇', 'conj']"]
+["['ADV', 'VERB', 'advmod']", "['不', '发现', 'advmod']"]
+["['ADV', 'VERB', 'advmod']", "['太', '发现', 'advmod']"]
+["['AUX', 'VERB', 'aux']", "['可能', '发现', 'aux']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['发现', '地方', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '发现', 'mark:rel']"]
+["['NOUN', 'NOUN', 'conj']", "['地方', '潜艇', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '例如', 'punct']"]
 ----------------------------------------------------------------------
-_
-(ROOT (FW _))
+“海洋学上有一些因素，你可以在海洋边上的任何一边，气温会稍微不同，但对面会稍微冷一些。大西洋上的热带涛动就是一个典型例子。有时这些障碍会很难以逾越，声音根本无法穿透。如果你的业务是隐藏的，那么你就会隐藏在这个地方。这里面还有一个附加风险，即鉴于环境因素，你可能无法及时听到另一艘潜艇的声音，无法及时采取行动。”
+
+(ROOT (IP (`` “) (IP (LCP (NP (NN 海洋) (SFN 学)) (IN 上)) (VP (VV 有) (NP (QP (JJ 一些)) (NP (NN 因素))))) (, ，) (IP (NP (PRP 你)) (VP (MD 可以) (VP (PP (VV 在) (NP (DNP (LCP (NP (NN 海洋)) (NN 边上)) (DEC 的)) (DP (DT 任何)) (NP (NN 一边))))))) (, ，) (IP (NP (NN 气温)) (VP (MD 会) (VP (ADVP (RB 稍微)) (VP (JJ 不同))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 对面)) (VP (MD 会) (VP (ADVP (RB 稍)) (ADVP (JJ 微)) (VP (JJ 冷) (ADVP (JJ 一些)))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'``': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'``': {}, 'IP': {'LCP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
 Dependency Features:
-_	ROOT	root
+["['PUNCT', 'VERB', 'punct']", "['“', '有', 'punct']"]
+["['NOUN', 'PART', 'compound']", "['海洋', '学', 'compound']"]
+["['PART', 'VERB', 'advmod']", "['学', '有', 'advmod']"]
+["['ADP', 'PART', 'case']", "['上', '学', 'case']"]
+["['VERB', 'ADJ', 'advcl']", "['有', '不同', 'advcl']"]
+["['ADJ', 'NOUN', 'amod']", "['一些', '因素', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['因素', '有', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '有', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['你', '在', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['可以', '在', 'aux']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['在', '一边', 'acl:relcl']"]
+["['NOUN', 'VERB', 'obj']", "['海洋', '在', 'obj']"]
+["['NOUN', 'NOUN', 'acl']", "['边上', '海洋', 'acl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '在', 'mark:rel']"]
+["['DET', 'NOUN', 'det']", "['任何', '一边', 'det']"]
+["['NOUN', 'ADJ', 'nmod']", "['一边', '不同', 'nmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '一边', 'punct']"]
+["['NOUN', 'ADJ', 'nsubj']", "['气温', '不同', 'nsubj']"]
+["['AUX', 'ADJ', 'aux']", "['会', '不同', 'aux']"]
+["['ADV', 'ADJ', 'advmod']", "['稍微', '不同', 'advmod']"]
+["['ADJ', 'ROOT', 'root']", "['不同', 'NONE', 'root']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '冷', 'punct']"]
+["['ADV', 'ADJ', 'mark']", "['但', '冷', 'mark']"]
+["['NOUN', 'ADJ', 'nsubj']", "['对面', '冷', 'nsubj']"]
+["['AUX', 'ADJ', 'aux']", "['会', '冷', 'aux']"]
+["['ADV', 'ADJ', 'advmod']", "['稍', '微', 'advmod']"]
+["['ADJ', 'ADJ', 'advcl']", "['微', '冷', 'advcl']"]
+["['ADJ', 'ADJ', 'parataxis']", "['冷', '不同', 'parataxis']"]
+["['ADJ', 'ADJ', 'amod']", "['一些', '冷', 'amod']"]
+["['PUNCT', 'ADJ', 'punct']", "['。', '不同', 'punct']"]
 ----------------------------------------------------------------------
-e
-(ROOT (NP (ADD e)))
+法国和英国潜艇上的多枚城市毁灭性的核弹头不会因碰撞而引爆，弗格森说。
+
+(ROOT (IP (IP (NP (NP (DNP (LCP (NP (NP (NNP 法国) (CC 和) (NNP 英国)) (NP (NN 潜艇))) (NN 上)) (DEC 的)) (QP (CD 多) (CLP (NNB 枚))) (NP (NN 城市))) (DNP (NP (VV 毁灭) (SFN 性)) (DEC 的)) (NP (NN 核弹) (SFN 头))) (VP (MD 不会) (VP (PP (IN 因) (NP (VV 碰撞))) (VP (RB 而) (VP (VV 引爆)))))) (, ，) (IP (NP (NNP 弗格森)) (VP (VV 说))) (. 。)))
 layer 2:
-{'NP': {'ADD': {}}}
-{'NP': {'ADD': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'NP': {'ADD': {}}}
-{'NP': {'ADD': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
 Dependency Features:
-e	ROOT	root
+["['PROPN', 'NOUN', 'nmod']", "['法国', '潜艇', 'nmod']"]
+["['CCONJ', 'PROPN', 'cc']", "['和', '英国', 'cc']"]
+["['PROPN', 'PROPN', 'conj']", "['英国', '法国', 'conj']"]
+["['NOUN', 'PART', 'nmod']", "['潜艇', '头', 'nmod']"]
+["['NOUN', 'NOUN', 'acl']", "['上', '潜艇', 'acl']"]
+["['PART', 'PROPN', 'case']", "['的', '法国', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['多', '枚', 'nummod']"]
+["['NOUN', 'PART', 'nmod']", "['枚', '性', 'nmod']"]
+["['NOUN', 'PART', 'nmod']", "['城市', '性', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['毁灭', '性', 'compound']"]
+["['PART', 'PART', 'nmod']", "['性', '头', 'nmod']"]
+["['PART', 'PART', 'mark:rel']", "['的', '性', 'mark:rel']"]
+["['NOUN', 'PART', 'compound']", "['核弹', '头', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['头', '引爆', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['会', '引爆', 'aux']"]
+["['ADP', 'VERB', 'case']", "['因', '碰撞', 'case']"]
+["['VERB', 'VERB', 'xcomp']", "['碰撞', '引爆', 'xcomp']"]
+["['ADV', 'VERB', 'mark']", "['而', '引爆', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['引爆', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '说', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['弗格森', '说', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['说', '引爆', 'parataxis']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '引爆', 'punct']"]
 ----------------------------------------------------------------------
-n
-(ROOT (FW n))
+但是，如果某艘船上的核反应堆受损，就可能会把船员中毒，并且会在大西洋上几英里范围内扩散放射性废物。
+
+(ROOT (IP (ADVP (RB 但是)) (, ，) (CP (ADVP (IN 如果)) (IP (NP (DNP (LCP (NP (DT 某艘)) (NN 船上)) (DEC 的)) (NP (NN 核) (VV 反应) (SFN 堆))) (VP (VV 受损)))) (, ，) (VP (ADVP (RB 就)) (VP (MD 可能) (VP (MD 会) (VP (VP (BB 把) (IP (NP (NN 船员)) (VP (VV 中毒)))) (, ，) (RB 并且) (VP (MD 会) (VP (PP (VV 在) (LCP (NP (LCP (NP (NNP 大西) (SFN 洋)) (NN 上)) (QP (CD 几) (CLP (NNB 英里))) (NP (NN 范围))) (NN 内))) (VP (VV 扩散) (NP (ADJP (VV 放射)) (ADJP (SFN 性)) (NP (NN 废物)))))))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'ADVP': {}, ',': {}, 'CP': {}, ',': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
 Dependency Features:
-n	ROOT	root
+["['ADV', 'VERB', 'mark']", "['但是', '扩散', 'mark']"]
+["['PUNCT', 'ADV', 'punct']", "['，', '但是', 'punct']"]
+["['ADP', 'VERB', 'case']", "['如果', '受损', 'case']"]
+["['DET', 'NOUN', 'det']", "['某艘', '船上', 'det']"]
+["['NOUN', 'PART', 'nmod']", "['船上', '堆', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '船上', 'case']"]
+["['NOUN', 'PART', 'nmod']", "['核', '堆', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['反应', '堆', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['堆', '受损', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['受损', '扩散', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '受损', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['就', '中毒', 'mark']"]
+["['AUX', 'VERB', 'aux']", "['可能', '中毒', 'aux']"]
+["['AUX', 'VERB', 'aux']", "['会', '中毒', 'aux']"]
+["['ADP', 'NOUN', 'case']", "['把', '船员', 'case']"]
+["['NOUN', 'VERB', 'obl:patient']", "['船员', '中毒', 'obl:patient']"]
+["['VERB', 'VERB', 'advcl']", "['中毒', '扩散', 'advcl']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '中毒', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['并且', '扩散', 'mark']"]
+["['AUX', 'VERB', 'aux']", "['会', '扩散', 'aux']"]
+["['VERB', 'VERB', 'advcl']", "['在', '扩散', 'advcl']"]
+["['PROPN', 'PART', 'compound']", "['大西', '洋', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['洋', '范围', 'nmod']"]
+["['NOUN', 'PART', 'acl']", "['上', '洋', 'acl']"]
+["['NUM', 'NOUN', 'nummod']", "['几', '英里', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['英里', '范围', 'clf']"]
+["['NOUN', 'VERB', 'obj']", "['范围', '在', 'obj']"]
+["['NOUN', 'NOUN', 'acl']", "['内', '范围', 'acl']"]
+["['VERB', 'ROOT', 'root']", "['扩散', 'NONE', 'root']"]
+["['VERB', 'PART', 'compound']", "['放射', '性', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['性', '废物', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['废物', '扩散', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '扩散', 'punct']"]
 ----------------------------------------------------------------------
-_
-(ROOT (FW _))
+如果事实上这起坠机事件可以通过法国与北约之间更好的沟通预防的话，这一披露的时机很不合适：法国将于4月重新加入北约的军事基础设施。
+
+(ROOT (CP (ADVP (IN 如果)) (IP (LCP (NP (NN 事实)) (IN 上)) (NP (DP (DT 这) (CLP (NNB 起))) (NP (NN 坠机) (NN 事件))) (VP (MD 可以) (VP (PP (IN 通过) (NP (NP (LCP (NP (NNP 法国) (CC 与) (NNP 北约)) (IN 之间)) (CP (CP (IP (VP (JJ 更好))) (DEC 的))) (NP (NN 沟通) (NN 预防))) (UH 的话))) (, ，) (NP (DP (DT 这) (QP (CD 一))) (CP (CP (IP (VP (VP (VV 披露)))) (DEC 的))) (NP (NN 时机))) (VP (ADVP (RB 很)) (ADVP (RB 不)) (VP (JJ 合适)))))) (: ：)))
 layer 2:
-{'FW': {}}
+{'CP': {'ADVP': {}, 'IP': {}, ':': {}}}
 layer 3:
-{'FW': {}}
+{'CP': {'ADVP': {'IN': {}}, 'IP': {'LCP': {}, 'NP': {}, 'VP': {}}, ':': {}}}
+{'ADVP': {'IN': {}}}
+{'IP': {'LCP': {}, 'NP': {}, 'VP': {}}}
 Dependency Features:
-_	ROOT	root
+["['ADP', 'NOUN', 'case']", "['如果', '事实', 'case']"]
+["['NOUN', 'ADJ', 'nmod']", "['事实', '合适', 'nmod']"]
+["['ADP', 'NOUN', 'case']", "['上', '事实', 'case']"]
+["['DET', 'NOUN', 'det']", "['这', '起', 'det']"]
+["['NOUN', 'NOUN', 'clf']", "['起', '事件', 'clf']"]
+["['NOUN', 'NOUN', 'nmod']", "['坠机', '事件', 'nmod']"]
+["['NOUN', 'ADJ', 'nsubj']", "['事件', '合适', 'nsubj']"]
+["['AUX', 'ADJ', 'aux']", "['可以', '合适', 'aux']"]
+["['ADP', 'NOUN', 'case']", "['通过', '预防', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['法国', '预防', 'nmod']"]
+["['CCONJ', 'PROPN', 'cc']", "['与', '北约', 'cc']"]
+["['PROPN', 'PROPN', 'conj']", "['北约', '法国', 'conj']"]
+["['ADP', 'PROPN', 'case']", "['之间', '法国', 'case']"]
+["['ADJ', 'NOUN', 'amod']", "['更好', '预防', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '更好', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['沟通', '预防', 'nmod']"]
+["['NOUN', 'ADJ', 'nmod']", "['预防', '合适', 'nmod']"]
+["['PART', 'NOUN', 'discourse']", "['的话', '预防', 'discourse']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '预防', 'punct']"]
+["['DET', 'NUM', 'det']", "['这', '一', 'det']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '时机', 'nummod']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['披露', '时机', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '披露', 'mark:rel']"]
+["['NOUN', 'ADJ', 'nsubj']", "['时机', '合适', 'nsubj']"]
+["['ADV', 'ADJ', 'advmod']", "['很', '合适', 'advmod']"]
+["['ADV', 'ADJ', 'advmod']", "['不', '合适', 'advmod']"]
+["['ADJ', 'ROOT', 'root']", "['合适', 'NONE', 'root']"]
+["['PUNCT', 'ADJ', 'punct']", "['：', '合适', 'punct']"]
 ----------------------------------------------------------------------
-z
-(ROOT (FW z))
+在此之前，法国方面表示不会就此问题妥协，因此，法国的核潜艇位置保密政策可能会受到批评。
+
+(ROOT (IP (IP (LCP (NP (VV 在此)) (IN 之前)) (, ，) (NP (NP (NNP 法国)) (NP (NN 方面))) (VP (VV 表示) (IP (VP (MD 不会) (VP (PP (VV 就此) (NP (NN 问题))) (VP (VV 妥协))))))) (, ，) (IP (ADVP (IN 因)) (ADVP (PRD 此)) (, ，) (NP (DNP (NP (NNP 法国)) (DEC 的)) (NP (NN 核) (NN 潜艇) (NN 位置)) (NP (NN 保密) (NN 政策))) (VP (MD 可能) (VP (MD 会) (VP (VV 受到) (NP (NN 批评)))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
 Dependency Features:
-z	ROOT	root
+["['VERB', 'VERB', 'advcl']", "['在此', '表示', 'advcl']"]
+["['ADP', 'VERB', 'mark']", "['之前', '在此', 'mark']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '在此', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['法国', '方面', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['方面', '表示', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['表示', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['会', '妥协', 'aux']"]
+["['VERB', 'VERB', 'advcl']", "['就此', '妥协', 'advcl']"]
+["['NOUN', 'VERB', 'obj']", "['问题', '就此', 'obj']"]
+["['VERB', 'VERB', 'xcomp']", "['妥协', '表示', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '受到', 'punct']"]
+["['ADP', 'PRON', 'case']", "['因', '此', 'case']"]
+["['PRON', 'VERB', 'obl']", "['此', '受到', 'obl']"]
+["['PUNCT', 'PRON', 'punct']", "['，', '此', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['法国', '位置', 'nmod']"]
+["['PART', 'PROPN', 'case']", "['的', '法国', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['核', '潜艇', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['潜艇', '位置', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['位置', '政策', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['保密', '政策', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['政策', '受到', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['可能', '受到', 'aux']"]
+["['AUX', 'VERB', 'aux']", "['会', '受到', 'aux']"]
+["['VERB', 'VERB', 'parataxis']", "['受到', '表示', 'parataxis']"]
+["['NOUN', 'VERB', 'obj']", "['批评', '受到', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '表示', 'punct']"]
 ----------------------------------------------------------------------
-h
-(ROOT (FW h))
+法国海军的埃鲁林解释说：“这对于法国的战略防御利益来说非常重要，即使法国完全重新融入北约的军事指挥结构，这也是一项将会得到维持的事情。”
+
+(ROOT (IP (NP (DNP (NP (NP (NNP 法国)) (NP (NN 海军))) (DEC 的)) (NP (NNP 埃鲁林))) (VP (VP (VV 解释)) (VP (VV 说) (: ：) (IP (`` “) (IP (NP (PRD 这)) (VP (IP (VP (PP (IN 对于) (NP (DNP (NP (NNP 法国)) (DEC 的)) (NP (NN 战略) (NN 防御) (NN 利益)))) (VP (RB 来) (VP (VV 说))))) (ADVP (RB 非常)) (VP (JJ 重要)))) (, ，) (IP (CP (ADVP (IN 即使)) (IP (NP (NNP 法国)) (VP (ADVP (RB 完全)) (ADVP (RB 重新)) (VP (VV 融入) (NP (DNP (NP (NNP 北约)) (DEC 的)) (NP (NN 军事) (NN 指挥) (NN 结构))))))) (, ，) (NP (PRD 这)) (VP (VC 也是) (NP (QP (CD 一) (CLP (NNB 项))) (CP (CP (IP (VP (ADVP (RB 将)) (VP (MD 会) (VP (VV 得到) (NP (VV 维持)))))) (DEC 的))) (NP (NN 事情)))))))) (. 。) ('' ”)))
 layer 2:
-{'FW': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VP': {}, 'VP': {}}}
 Dependency Features:
-h	ROOT	root
-----------------------------------------------------------------------
-.
-(ROOT (. .))
-layer 2:
-{'.': {}}
-layer 3:
-{'.': {}}
-Dependency Features:
-.	ROOT	root
-----------------------------------------------------------------------
-t
-(ROOT (FW t))
-layer 2:
-{'FW': {}}
-layer 3:
-{'FW': {}}
-Dependency Features:
-t	ROOT	root
-----------------------------------------------------------------------
-x
-(ROOT (FW x))
-layer 2:
-{'FW': {}}
-layer 3:
-{'FW': {}}
-Dependency Features:
-x	ROOT	root
-----------------------------------------------------------------------
-t
-(ROOT (FW t))
-layer 2:
-{'FW': {}}
-layer 3:
-{'FW': {}}
-Dependency Features:
-t	ROOT	root
+["['PROPN', 'NOUN', 'nmod']", "['法国', '海军', 'nmod']"]
+["['NOUN', 'PROPN', 'nmod']", "['海军', '埃鲁林', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '海军', 'case']"]
+["['PROPN', 'VERB', 'nsubj']", "['埃鲁林', '说', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['解释', '说', 'advcl']"]
+["['VERB', 'ROOT', 'root']", "['说', 'NONE', 'root']"]
+["['PUNCT', 'ADJ', 'punct']", "['：', '重要', 'punct']"]
+["['PUNCT', 'ADJ', 'punct']", "['“', '重要', 'punct']"]
+["['PRON', 'ADJ', 'nsubj']", "['这', '重要', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['对于', '利益', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['法国', '利益', 'nmod']"]
+["['PART', 'PROPN', 'case']", "['的', '法国', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['战略', '利益', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['防御', '利益', 'nmod']"]
+["['NOUN', 'ADJ', 'nmod']", "['利益', '重要', 'nmod']"]
+["['ADV', 'VERB', 'mark']", "['来', '说', 'mark']"]
+["['VERB', 'ADJ', 'advcl']", "['说', '重要', 'advcl']"]
+["['ADV', 'ADJ', 'advmod']", "['非常', '重要', 'advmod']"]
+["['ADJ', 'VERB', 'xcomp']", "['重要', '说', 'xcomp']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '事情', 'punct']"]
+["['ADP', 'VERB', 'case']", "['即使', '融入', 'case']"]
+["['PROPN', 'VERB', 'nsubj']", "['法国', '融入', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['完全', '融入', 'advmod']"]
+["['ADV', 'VERB', 'advmod']", "['重新', '融入', 'advmod']"]
+["['VERB', 'NOUN', 'ccomp']", "['融入', '事情', 'ccomp']"]
+["['PROPN', 'NOUN', 'nmod']", "['北约', '结构', 'nmod']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '融入', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['军事', '结构', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['指挥', '结构', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['结构', '融入', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '融入', 'punct']"]
+["['PRON', 'NOUN', 'nsubj']", "['这', '事情', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '事情', 'cop']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '项', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['项', '事情', 'clf']"]
+["['ADV', 'VERB', 'advmod']", "['将', '得到', 'advmod']"]
+["['AUX', 'VERB', 'aux']", "['会', '得到', 'aux']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['得到', '事情', 'acl:relcl']"]
+["['VERB', 'VERB', 'xcomp']", "['维持', '得到', 'xcomp']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '得到', 'mark:rel']"]
+["['NOUN', 'VERB', 'ccomp']", "['事情', '说', 'ccomp']"]
+["['PUNCT', 'NOUN', 'punct']", "['。', '事情', 'punct']"]
+["['PUNCT', 'NOUN', 'punct']", "['”', '事情', 'punct']"]
 ----------------------------------------------------------------------

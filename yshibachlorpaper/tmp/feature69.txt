@@ -1,265 +1,1607 @@
-.
-(ROOT (. .))
+米特·罗姆尼最近的一番观点，就是关于文化在解释为什么有些国家富强而有些国家贫穷落后的问题上的作用，引起了很多评论。
+
+(ROOT (IP (NP (NP (NNP 米特) (/ ·) (NNP 罗姆尼)) (DNP (NP (NN 最近)) (DEC 的)) (QP (CD 一) (CLP (NNB 番))) (NP (NN 观点))) (, ，) (VP (VP (VC 就是) (PP (IN 关于) (IP (NP (NN 文化)) (DNP (PP (IN 在) (IP (VP (VV 解释) (LCP (NP (CP (IP (IP (PP (IN 为) (NP (WP 什么))) (NP (DP (VV 有些)) (NP (NN 国家))) (VP (VV 富强))) (RB 而) (IP (NP (DP (VV 有些)) (NP (NN 国家))) (VP (VCD (JJ 贫穷) (JJ 落后))))) (DEC 的)) (NP (NN 问题))) (IN 上))))) (DEC 的)) (NP (NN 作用))))) (, ，) (VP (VV 引起) (AS 了) (NP (QP (CD 很多)) (NP (NN 评论))))) (. 。)))
 layer 2:
-{'.': {}}
+{'IP': {'NP': {}, ',': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'.': {}}
+{'IP': {'NP': {'NP': {}, 'DNP': {}, 'QP': {}, 'NP': {}}, ',': {}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'DNP': {}, 'QP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
 Dependency Features:
-.	ROOT	root
+["['PROPN', 'NOUN', 'nmod']", "['米特', '观点', 'nmod']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '罗姆尼', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['罗姆尼', '米特', 'flat:name']"]
+["['NOUN', 'NOUN', 'nmod']", "['最近', '观点', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '最近', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '番', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['番', '观点', 'clf']"]
+["['NOUN', 'VERB', 'nsubj']", "['观点', '是', 'nsubj']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '观点', 'punct']"]
+["['VERB', 'ROOT', 'root']", "['是', 'NONE', 'root']"]
+["['ADP', 'NOUN', 'case']", "['关于', '文化', 'case']"]
+["['NOUN', 'VERB', 'obl']", "['文化', '解释', 'obl']"]
+["['ADP', 'VERB', 'case']", "['在', '解释', 'case']"]
+["['VERB', 'VERB', 'xcomp']", "['解释', '引起', 'xcomp']"]
+["['ADP', 'PRON', 'case']", "['为', '什么', 'case']"]
+["['PRON', 'VERB', 'obl']", "['什么', '有些', 'obl']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['有些', '作用', 'acl:relcl']"]
+["['NOUN', 'VERB', 'nsubj']", "['国家', '富强', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['富强', '有些', 'ccomp']"]
+["['ADV', 'VERB', 'mark']", "['而', '有些', 'mark']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['有些', '问题', 'acl:relcl']"]
+["['NOUN', 'ADJ', 'nsubj']", "['国家', '落后', 'nsubj']"]
+["['ADJ', 'ADJ', 'advcl']", "['贫穷', '落后', 'advcl']"]
+["['ADJ', 'VERB', 'ccomp']", "['落后', '有些', 'ccomp']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '有些', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['问题', '作用', 'nmod']"]
+["['ADP', 'NOUN', 'case']", "['上', '问题', 'case']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '有些', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['作用', '解释', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '解释', 'punct']"]
+["['VERB', 'VERB', 'xcomp']", "['引起', '是', 'xcomp']"]
+["['AUX', 'VERB', 'aux']", "['了', '引起', 'aux']"]
+["['NUM', 'NOUN', 'nummod']", "['很多', '评论', 'nummod']"]
+["['NOUN', 'VERB', 'obj']", "['评论', '引起', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '是', 'punct']"]
 ----------------------------------------------------------------------
-/
-(ROOT (. /))
+我尤其对他的言论感兴趣，因为他歪曲了我的观点，并且在与另一位学者的论点相对比时，对这个问题进行了过度简化。
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (ADVP (RB 尤其)) (PP (IN 对) (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 言论)))) (VP (VV 感) (NP (NN 兴趣))))) (, ，) (PP (PP (IN 因为) (IP (NP (PRP 他)) (VP (VV 歪曲) (AS 了) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 观点)))))) (, ，) (RB 并且) (VP (LCP (IP (VP (PP (IN 在) (NP (DNP (PP (IN 与) (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 位)))) (NP (NN 学者)))) (DEC 的)) (NP (NN 论点)))) (ADVP (RB 相对)) (VP (IN 比)))) (IN 时)) (, ，) (PP (IN 对) (NP (DP (DT 这) (CLP (NNB 个))) (NP (NN 问题)))) (VP (VV 进行) (AS 了) (NP (ADJP (JJ 过度)) (NP (NN 简化)))))) (. 。)))
 layer 2:
-{'.': {}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
 layer 3:
-{'.': {}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'PP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'PP': {'PP': {}, ',': {}, 'RB': {}, 'VP': {}}}
 Dependency Features:
-/	ROOT	root
+["['PRON', 'VERB', 'nsubj']", "['我', '感', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['尤其', '感', 'advmod']"]
+["['ADP', 'NOUN', 'case']", "['对', '言论', 'case']"]
+["['PRON', 'NOUN', 'det']", "['他', '言论', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '他', 'case']"]
+["['NOUN', 'VERB', 'obl']", "['言论', '感', 'obl']"]
+["['VERB', 'ROOT', 'root']", "['感', 'NONE', 'root']"]
+["['NOUN', 'VERB', 'obj']", "['兴趣', '感', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '进行', 'punct']"]
+["['ADP', 'VERB', 'case']", "['因为', '歪曲', 'case']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '歪曲', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['歪曲', '进行', 'ccomp']"]
+["['AUX', 'VERB', 'aux']", "['了', '歪曲', 'aux']"]
+["['PRON', 'NOUN', 'det']", "['我', '观点', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '我', 'case']"]
+["['NOUN', 'VERB', 'obj']", "['观点', '歪曲', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '歪曲', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['并且', '进行', 'mark']"]
+["['ADP', 'NOUN', 'case']", "['在', '论点', 'case']"]
+["['ADP', 'NOUN', 'case']", "['与', '学者', 'case']"]
+["['DET', 'NOUN', 'det']", "['另', '位', 'det']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '位', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['位', '学者', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['学者', '论点', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '学者', 'case']"]
+["['NOUN', 'VERB', 'obl']", "['论点', '进行', 'obl']"]
+["['ADV', 'VERB', 'advmod']", "['相对', '进行', 'advmod']"]
+["['ADP', 'NOUN', 'case']", "['比', '问题', 'case']"]
+["['ADP', 'VERB', 'advcl']", "['时', '进行', 'advcl']"]
+["['PUNCT', 'ADP', 'punct']", "['，', '时', 'punct']"]
+["['ADP', 'NOUN', 'case']", "['对', '问题', 'case']"]
+["['DET', 'NOUN', 'det']", "['这', '个', 'det']"]
+["['NOUN', 'NOUN', 'clf']", "['个', '问题', 'clf']"]
+["['NOUN', 'VERB', 'obl']", "['问题', '进行', 'obl']"]
+["['VERB', 'VERB', 'parataxis']", "['进行', '感', 'parataxis']"]
+["['AUX', 'VERB', 'aux']", "['了', '进行', 'aux']"]
+["['ADJ', 'NOUN', 'amod']", "['过度', '简化', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['简化', '进行', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '感', 'punct']"]
 ----------------------------------------------------------------------
-i
-(ROOT (FW i))
+我的《枪、病菌和钢》并非如罗姆尼先生在耶路撒冷的一次演讲中所说的“基本上说明土地的物理特征决定了生活在那里的人们的成功程度。
+
+(ROOT (IP (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (-LRB- 《) (NP (NN 枪) (EC 、) (NN 病菌) (CC 和) (NN 钢)) (-RRB- 》))) (VP (VC 并非) (VP (PP (VV 如) (NP (CP (CP (IP (NP (NNP 罗姆尼) (NN 先生)) (VP (PP (IN 在) (LCP (NP (DNP (NP (NNP 耶路撒冷)) (DEC 的)) (QP (CD 一) (CLP (NNB 次))) (NP (NN 演讲))) (IN 中))) (VP (RB 所) (VP (VV 说))))) (UH 的))))) (`` “) (LCP (NP (NN 基本)) (IN 上)) (VP (VV 说明) (IP (NP (DNP (NP (NN 土地)) (DEC 的)) (NP (NN 物理) (NN 特征))) (VP (VV 决定) (AS 了) (NP (DNP (NP (CP (CP (IP (VP (VV 生活) (PP (IN 在) (NP (PRD 那里))))) (DEC 的))) (NP (NN 人们))) (DEC 的)) (NP (JJ 成功) (NN 程度)))))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'VP': {}}}
 Dependency Features:
-i	ROOT	root
+["['PRON', 'NOUN', 'det']", "['我', '枪', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '我', 'case']"]
+["['PUNCT', 'NOUN', 'punct']", "['《', '枪', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['枪', '并非', 'nsubj']"]
+["['PUNCT', 'NOUN', 'punct']", "['、', '病菌', 'punct']"]
+["['NOUN', 'NOUN', 'conj']", "['病菌', '枪', 'conj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '钢', 'cc']"]
+["['NOUN', 'NOUN', 'conj']", "['钢', '枪', 'conj']"]
+["['PUNCT', 'NOUN', 'punct']", "['》', '枪', 'punct']"]
+["['VERB', 'ROOT', 'root']", "['并非', 'NONE', 'root']"]
+["['VERB', 'VERB', 'xcomp']", "['如', '并非', 'xcomp']"]
+["['PROPN', 'NOUN', 'nmod']", "['罗姆尼', '先生', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['先生', '说', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['在', '演讲', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['耶路撒冷', '演讲', 'nmod']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '如', 'mark:rel']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '次', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['次', '演讲', 'clf']"]
+["['NOUN', 'VERB', 'obl']", "['演讲', '说', 'obl']"]
+["['ADP', 'NOUN', 'case']", "['中', '演讲', 'case']"]
+["['ADV', 'VERB', 'mark']", "['所', '说', 'mark']"]
+["['VERB', 'VERB', 'ccomp']", "['说', '如', 'ccomp']"]
+["['PART', 'VERB', 'discourse']", "['的', '并非', 'discourse']"]
+["['PUNCT', 'VERB', 'punct']", "['“', '决定', 'punct']"]
+["['NOUN', 'VERB', 'obl']", "['基本', '说明', 'obl']"]
+["['ADP', 'NOUN', 'case']", "['上', '基本', 'case']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['说明', '特征', 'acl:relcl']"]
+["['NOUN', 'VERB', 'obj']", "['土地', '说明', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '说明', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['物理', '特征', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['特征', '决定', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['决定', '并非', 'parataxis']"]
+["['AUX', 'VERB', 'aux']", "['了', '决定', 'aux']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['生活', '人', 'acl:relcl']"]
+["['ADP', 'PRON', 'case']", "['在', '那里', 'case']"]
+["['PRON', 'VERB', 'obl']", "['那里', '生活', 'obl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '生活', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['人', '程度', 'nmod']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '生活', 'mark:rel']"]
+["['ADJ', 'NOUN', 'amod']", "['成功', '程度', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['程度', '决定', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '并非', 'punct']"]
 ----------------------------------------------------------------------
-n
-(ROOT (FW n))
+这里有铁矿，还有其他资源。”
+
+(ROOT (IP (NP (PRD 这里)) (VP (VP (VV 有) (NP (NN 铁矿))) (, ，) (VP (ADVP (RB 还)) (VP (VV 有) (NP (DP (DT 其他)) (NP (NN 资源)))))) (. 。) ('' ”)))
 layer 2:
-{'FW': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
 Dependency Features:
-n	ROOT	root
+["['PRON', 'VERB', 'nsubj']", "['这里', '有', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['有', '有', 'advcl']"]
+["['NOUN', 'VERB', 'obj']", "['铁矿', '有', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '有', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['还', '有', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['有', 'NONE', 'root']"]
+["['DET', 'NOUN', 'det']", "['其他', '资源', 'det']"]
+["['NOUN', 'VERB', 'obj']", "['资源', '有', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['”', '有', 'punct']"]
 ----------------------------------------------------------------------
-s
-(ROOT (NP (FW s)))
+这与我的书实际上所说的内容截然不同，我不得不怀疑罗姆尼先生是否阅读过这本书。
+
+(ROOT (IP (IP (NP (PRD 这)) (VP (PP (IN 与) (NP (CP (CP (IP (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 书))) (VP (LCP (NP (NN 实际)) (IN 上)) (VP (RB 所) (VP (VV 说))))) (DEC 的))) (NP (NN 内容)))) (VP (JJ 截然不同)))) (, ，) (IP (NP (PRP 我)) (VP (MD 不得) (VP (ADVP (RB 不)) (VP (VV 怀疑) (IP (NP (NNP 罗姆尼) (NN 先生)) (VP (ADVP (VC 是否)) (VP (VV 阅读) (AS 过) (NP (DP (DT 这)) (NP (NN 本书)))))))))) (. 。)))
 layer 2:
-{'NP': {'FW': {}}}
-{'NP': {'FW': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'NP': {'FW': {}}}
-{'NP': {'FW': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
 Dependency Features:
-s	ROOT	root
+["['PRON', 'ADJ', 'nsubj']", "['这', '截然不同', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['与', '书', 'case']"]
+["['PRON', 'NOUN', 'det']", "['我', '书', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '我', 'case']"]
+["['NOUN', 'VERB', 'obl']", "['书', '说', 'obl']"]
+["['NOUN', 'VERB', 'obl']", "['实际', '说', 'obl']"]
+["['ADP', 'NOUN', 'case']", "['上', '实际', 'case']"]
+["['ADV', 'VERB', 'mark']", "['所', '说', 'mark']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['说', '内容', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '说', 'mark:rel']"]
+["['NOUN', 'ADJ', 'nmod']", "['内容', '截然不同', 'nmod']"]
+["['ADJ', 'ROOT', 'root']", "['截然不同', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '怀疑', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['我', '怀疑', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['得', '怀疑', 'aux']"]
+["['ADV', 'VERB', 'advmod']", "['不', '怀疑', 'advmod']"]
+["['VERB', 'ADJ', 'parataxis']", "['怀疑', '截然不同', 'parataxis']"]
+["['PROPN', 'NOUN', 'nmod']", "['罗姆尼', '先生', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['先生', '是', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['是', '怀疑', 'ccomp']"]
+["['VERB', 'VERB', 'xcomp']", "['阅读', '是', 'xcomp']"]
+["['AUX', 'VERB', 'aux']", "['过', '阅读', 'aux']"]
+["['DET', 'NOUN', 'det']", "['这', '本书', 'det']"]
+["['NOUN', 'VERB', 'obj']", "['本书', '阅读', 'obj']"]
+["['PUNCT', 'ADJ', 'punct']", "['。', '截然不同', 'punct']"]
 ----------------------------------------------------------------------
-t
-(ROOT (FW t))
+我的关注主要集中在生物特征上，比如植物和动物种类，在物理特征上，我提到的是大陆的大小和形状以及相对的孤立。
+
+(ROOT (IP (IP (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 关注))) (VP (ADVP (RB 主要)) (VP (VV 集中) (PP (IN 在) (NP (LCP (NP (NN 生物) (NN 特征)) (IN 上)) (, ，) (NP (ADVP (VV 比如)) (NP (NP (NN 植物) (CC 和) (NN 动物)) (NP (NN 种类))))))))) (, ，) (IP (PP (IN 在) (LCP (NP (NN 物理) (NN 特征)) (IN 上))) (, ，) (NP (CP (CP (IP (NP (PRP 我)) (VP (VV 提到))) (DEC 的)))) (VP (VC 是) (NP (NP (DNP (NP (NN 大陆)) (DEC 的)) (NP (NN 大小) (CC 和) (NN 形状))) (CC 以及) (NP (DNP (ADJP (JJ 相对)) (DEC 的)) (NP (NN 孤立)))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
 Dependency Features:
-t	ROOT	root
+["['PRON', 'NOUN', 'det']", "['我', '关注', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '我', 'case']"]
+["['NOUN', 'VERB', 'nsubj']", "['关注', '集中', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['主要', '集中', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['集中', 'NONE', 'root']"]
+["['ADP', 'VERB', 'case']", "['在', '比如', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['生物', '特征', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['特征', '比如', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['上', '特征', 'case']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '特征', 'punct']"]
+["['VERB', 'VERB', 'ccomp']", "['比如', '集中', 'ccomp']"]
+["['NOUN', 'NOUN', 'nmod']", "['植物', '种类', 'nmod']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '动物', 'cc']"]
+["['NOUN', 'NOUN', 'conj']", "['动物', '植物', 'conj']"]
+["['NOUN', 'VERB', 'obj']", "['种类', '比如', 'obj']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '大小', 'punct']"]
+["['ADP', 'NOUN', 'case']", "['在', '特征', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['物理', '特征', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['特征', '大小', 'nmod']"]
+["['ADP', 'NOUN', 'case']", "['上', '特征', 'case']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '特征', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['我', '提到', 'nsubj']"]
+["['VERB', 'NOUN', 'csubj']", "['提到', '大小', 'csubj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '提到', 'mark:rel']"]
+["['AUX', 'NOUN', 'cop']", "['是', '大小', 'cop']"]
+["['NOUN', 'NOUN', 'nmod']", "['大陆', '大小', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '大陆', 'case']"]
+["['NOUN', 'VERB', 'parataxis']", "['大小', '集中', 'parataxis']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '形状', 'cc']"]
+["['NOUN', 'NOUN', 'conj']", "['形状', '大小', 'conj']"]
+["['CCONJ', 'NOUN', 'cc']", "['以及', '孤立', 'cc']"]
+["['ADJ', 'NOUN', 'amod']", "['相对', '孤立', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '相对', 'mark:rel']"]
+["['NOUN', 'NOUN', 'conj']", "['孤立', '大小', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '集中', 'punct']"]
 ----------------------------------------------------------------------
-r
-(ROOT (FW r))
+我没有提到铁矿石，它的分布如此广泛，它的分布对不同民族的成功没有什么影响。
+
+(ROOT (IP (IP (NP (PRP 我)) (VP (VV 没有) (VP (VV 提到) (NP (NN 铁) (NN 矿石))))) (, ，) (IP (NP (DNP (NP (PRP 它)) (DEC 的)) (NP (NN 分布))) (VP (ADVP (VV 如此)) (VP (JJ 广泛)))) (, ，) (IP (NP (DNP (NP (PRP 它)) (DEC 的)) (NP (NN 分布))) (VP (PP (IN 对) (NP (DNP (NP (ADJP (JJ 不同)) (NP (NN 民族))) (DEC 的)) (NP (NN 成功)))) (VP (VV 没有) (NP (DP (WP 什么)) (NP (NN 影响)))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
 Dependency Features:
-r	ROOT	root
+["['PRON', 'VERB', 'nsubj']", "['我', '有', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['有', 'NONE', 'root']"]
+["['VERB', 'VERB', 'xcomp']", "['提到', '有', 'xcomp']"]
+["['NOUN', 'NOUN', 'nmod']", "['铁', '矿石', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['矿石', '提到', 'obj']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '广泛', 'punct']"]
+["['PRON', 'NOUN', 'det']", "['它', '分布', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '它', 'case']"]
+["['NOUN', 'ADJ', 'nsubj']", "['分布', '广泛', 'nsubj']"]
+["['VERB', 'ADJ', 'advcl']", "['如此', '广泛', 'advcl']"]
+["['ADJ', 'VERB', 'parataxis']", "['广泛', '有', 'parataxis']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '广泛', 'punct']"]
+["['PRON', 'NOUN', 'det']", "['它', '分布', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '它', 'case']"]
+["['NOUN', 'VERB', 'nsubj']", "['分布', '有', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['对', '成功', 'case']"]
+["['ADJ', 'NOUN', 'amod']", "['不同', '民族', 'amod']"]
+["['NOUN', 'NOUN', 'nmod']", "['民族', '成功', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '民族', 'case']"]
+["['NOUN', 'VERB', 'obl']", "['成功', '有', 'obl']"]
+["['VERB', 'VERB', 'parataxis']", "['有', '有', 'parataxis']"]
+["['PRON', 'NOUN', 'det']", "['什么', '影响', 'det']"]
+["['NOUN', 'VERB', 'obj']", "['影响', '有', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有', 'punct']"]
 ----------------------------------------------------------------------
-u
-(ROOT (FW u))
+(我本周才知道，罗姆尼先生在他的回忆录《没有道歉：相信美国》中也曲解了我的书。)
+
+(ROOT (IP (-LRB- -LRB-) (NP (PRP 我)) (VP (NP (DP (DT 本)) (NP (NNB 周))) (ADVP (RB 才)) (VP (VV 知道) (, ，) (IP (NP (NNP 罗姆尼) (NN 先生)) (VP (PP (IN 在) (LCP (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (VV 回忆) (SFN 录))) (IP (-LRB- 《) (VP (VV 没有) (NP (NN 道歉))) (: ：) (VP (VV 相信) (NP (NNP 美国))) (-RRB- 》))) (IN 中))) (ADVP (RB 也)) (VP (VV 曲解) (AS 了) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 书)))))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'-LRB-': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'-LRB-': {}, 'NP': {'PRP': {}}, 'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'NP': {}, 'ADVP': {}, 'VP': {}}}
 Dependency Features:
-u	ROOT	root
+["['PUNCT', 'VERB', 'punct']", "['(', '知道', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['我', '知道', 'nsubj']"]
+["['DET', 'NOUN', 'det']", "['本', '周', 'det']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['周', '知道', 'nmod:tmod']"]
+["['ADV', 'VERB', 'mark']", "['才', '知道', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['知道', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '曲解', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['罗姆尼', '先生', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['先生', '曲解', 'nsubj']"]
+["['ADP', 'PART', 'case']", "['在', '录', 'case']"]
+["['PRON', 'PART', 'det']", "['他', '录', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '他', 'case']"]
+["['VERB', 'PART', 'compound']", "['回忆', '录', 'compound']"]
+["['PART', 'VERB', 'obl']", "['录', '曲解', 'obl']"]
+["['PUNCT', 'VERB', 'punct']", "['《', '相信', 'punct']"]
+["['VERB', 'VERB', 'advcl']", "['有', '相信', 'advcl']"]
+["['NOUN', 'VERB', 'obj']", "['道歉', '有', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['：', '有', 'punct']"]
+["['VERB', 'PART', 'appos']", "['相信', '录', 'appos']"]
+["['PROPN', 'VERB', 'obj']", "['美国', '相信', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['》', '相信', 'punct']"]
+["['ADP', 'VERB', 'advcl']", "['中', '相信', 'advcl']"]
+["['ADV', 'VERB', 'mark']", "['也', '曲解', 'mark']"]
+["['VERB', 'VERB', 'ccomp']", "['曲解', '知道', 'ccomp']"]
+["['AUX', 'VERB', 'aux']", "['了', '曲解', 'aux']"]
+["['PRON', 'NOUN', 'det']", "['我', '书', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '我', 'case']"]
+["['NOUN', 'VERB', 'obj']", "['书', '曲解', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '知道', 'punct']"]
 ----------------------------------------------------------------------
-c
-(ROOT (FW c))
+这还不是最糟糕的部分。
+
+(ROOT (IP (NP (PRD 这)) (VP (ADVP (RB 还)) (VP (VC 不是) (NP (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 糟糕)))) (DEC 的))) (NP (NN 部分))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
 Dependency Features:
-c	ROOT	root
+["['PRON', 'NOUN', 'nsubj']", "['这', '部分', 'nsubj']"]
+["['ADV', 'NOUN', 'mark']", "['还', '部分', 'mark']"]
+["['AUX', 'NOUN', 'cop']", "['是', '部分', 'cop']"]
+["['ADV', 'ADJ', 'advmod']", "['最', '糟糕', 'advmod']"]
+["['ADJ', 'NOUN', 'acl:relcl']", "['糟糕', '部分', 'acl:relcl']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '糟糕', 'mark:rel']"]
+["['NOUN', 'ROOT', 'root']", "['部分', 'NONE', 'root']"]
+["['PUNCT', 'NOUN', 'punct']", "['。', '部分', 'punct']"]
 ----------------------------------------------------------------------
-t
-(ROOT (FW t))
+即使是那些强调社会解释而非地理解释的学者，如哈佛大学的经济学家大卫·S·兰德斯，他的著作《民族的财富与贫穷》被罗姆尼先生亲热地提及，罗姆尼先生说“文化是一切的根本”，这一说法却危险地过时了。
+
+(ROOT (IP (IP (IP (VP (ADVP (IN 即使)) (VP (VC 是) (NP (NP (DP (DT 那些)) (CP (CP (IP (VP (VV 强调) (NP (NN 社会) (NN 解释) (CC 而非) (NN 地理) (NN 解释)))) (DEC 的))) (NP (NN 学者))) (, ，) (NP (ADVP (VV 如)) (NP (NP (DNP (NP (NNP 哈佛) (NN 大学)) (DEC 的)) (NP (NN 经济) (NN 学家))) (NP (NNP 大卫) (/ ·) (FW S) (/ ·) (NNP 兰德斯)))))))) (, ，) (NP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 著作))) (NP (-LRB- 《) (DNP (NP (NN 民族)) (DEC 的)) (NP (NN 财富) (CC 与) (NN 贫穷)) (-RRB- 》))) (VP (BB 被) (CP (IP (NP (NNP 罗姆尼) (NN 先生)) (VP (DVP (VP (JJ 亲热)) (DEV 地)) (VP (VV 提及))))))) (, ，) (IP (NP (NNP 罗姆尼) (NN 先生)) (VP (VV 说) (IP (`` “) (NP (NN 文化)) (VP (VC 是) (NP (DNP (DP (DT 一切)) (DEC 的)) (NP (NN 根本)))) ('' ”)))) (, ，) (IP (NP (DP (DT 这) (QP (CD 一))) (NP (NN 说法))) (VP (ADVP (RB 却)) (VP (JJ 危险) (DEV 地过) (IN 时))) (UH 了)) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}, 'UH': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}, 'UH': {}}}
 Dependency Features:
-t	ROOT	root
+["['ADP', 'VERB', 'case']", "['即使', '是', 'case']"]
+["['VERB', 'VERB', 'xcomp']", "['是', '提及', 'xcomp']"]
+["['DET', 'NOUN', 'det']", "['那些', '学者', 'det']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['强调', '学者', 'acl:relcl']"]
+["['NOUN', 'NOUN', 'nmod']", "['社会', '解释', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['解释', '强调', 'obj']"]
+["['CCONJ', 'NOUN', 'cc']", "['而非', '解释', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['地理', '解释', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['解释', '解释', 'conj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '强调', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['学者', '是', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '是', 'punct']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['如', '学家', 'acl:relcl']"]
+["['PROPN', 'NOUN', 'nmod']", "['哈佛', '大学', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['大学', '学家', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '大学', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['经济', '学家', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj:pass']", "['学家', '提及', 'nsubj:pass']"]
+["['PROPN', 'NOUN', 'appos']", "['大卫', '学家', 'appos']"]
+["['PUNCT', 'X', 'punct']", "['·', 'S', 'punct']"]
+["['X', 'PROPN', 'flat:name']", "['S', '大卫', 'flat:name']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '兰德斯', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['兰德斯', '大卫', 'flat:name']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '著作', 'punct']"]
+["['PRON', 'NOUN', 'det']", "['他', '著作', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '他', 'case']"]
+["['NOUN', 'NOUN', 'appos']", "['著作', '学家', 'appos']"]
+["['PUNCT', 'NOUN', 'punct']", "['《', '财富', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['民族', '财富', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '民族', 'case']"]
+["['NOUN', 'NOUN', 'appos']", "['财富', '著作', 'appos']"]
+["['CCONJ', 'NOUN', 'cc']", "['与', '贫穷', 'cc']"]
+["['NOUN', 'NOUN', 'conj']", "['贫穷', '财富', 'conj']"]
+["['PUNCT', 'NOUN', 'punct']", "['》', '财富', 'punct']"]
+["['AUX', 'VERB', 'aux:pass']", "['被', '提及', 'aux:pass']"]
+["['PROPN', 'NOUN', 'nmod']", "['罗姆尼', '先生', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['先生', '提及', 'nsubj']"]
+["['ADJ', 'VERB', 'advmod']", "['亲热', '提及', 'advmod']"]
+["['PART', 'ADJ', 'mark:adv']", "['地', '亲热', 'mark:adv']"]
+["['VERB', 'ROOT', 'root']", "['提及', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '说', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['罗姆尼', '先生', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['先生', '说', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['说', '提及', 'parataxis']"]
+["['PUNCT', 'NOUN', 'punct']", "['“', '根本', 'punct']"]
+["['NOUN', 'NOUN', 'nsubj']", "['文化', '根本', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '根本', 'cop']"]
+["['DET', 'NOUN', 'det']", "['一切', '根本', 'det']"]
+["['PART', 'DET', 'mark:rel']", "['的', '一切', 'mark:rel']"]
+["['NOUN', 'VERB', 'ccomp']", "['根本', '说', 'ccomp']"]
+["['PUNCT', 'NOUN', 'punct']", "['”', '根本', 'punct']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '危险', 'punct']"]
+["['DET', 'NUM', 'det']", "['这', '一', 'det']"]
+["['NUM', 'NOUN', 'clf']", "['一', '说法', 'clf']"]
+["['NOUN', 'ADJ', 'nsubj']", "['说法', '危险', 'nsubj']"]
+["['ADV', 'ADJ', 'mark']", "['却', '危险', 'mark']"]
+["['ADJ', 'VERB', 'parataxis']", "['危险', '说', 'parataxis']"]
+["['PART', 'ADJ', 'compound:ext']", "['地过', '危险', 'compound:ext']"]
+["['ADP', 'ADJ', 'mark']", "['时', '危险', 'mark']"]
+["['PART', 'ADJ', 'discourse']", "['了', '危险', 'discourse']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '提及', 'punct']"]
 ----------------------------------------------------------------------
-_
-(ROOT (FW _))
+事实上，兰德斯先生分析了多个因素（包括气候），来解释为什么工业革命首先发生在欧洲而非其他地方。
+
+(ROOT (IP (LCP (NP (NN 事实)) (IN 上)) (, ，) (NP (NNP 兰德斯) (NN 先生)) (VP (VP (VV 分析) (AS 了) (NP (QP (CD 多) (CLP (NNB 个))) (NP (NN 因素)) (PRN (-LRB- （) (VP (VV 包括) (NP (NN 气候))) (-RRB- ）)))) (, ，) (VP (RB 来) (VP (VV 解释) (IP (VP (PP (IN 为) (NP (DP (WP 什么)) (NP (NN 工业) (NN 革命)))) (ADVP (RB 首先)) (VP (VP (VV 发生) (PP (IN 在) (NP (NNP 欧洲)))) (VP (VC 而非) (NP (DP (DT 其他)) (NP (NN 地方)))))))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'NNP': {}, 'NN': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'NNP': {}, 'NN': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
 Dependency Features:
-_	ROOT	root
+["['NOUN', 'VERB', 'obl']", "['事实', '解释', 'obl']"]
+["['ADP', 'NOUN', 'case']", "['上', '事实', 'case']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '事实', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['兰德斯', '先生', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['先生', '解释', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['分析', '解释', 'advcl']"]
+["['AUX', 'VERB', 'aux']", "['了', '分析', 'aux']"]
+["['NUM', 'NOUN', 'nummod']", "['多', '个', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['个', '因素', 'clf']"]
+["['NOUN', 'VERB', 'nsubj']", "['因素', '包括', 'nsubj']"]
+["['PUNCT', 'VERB', 'punct']", "['（', '包括', 'punct']"]
+["['VERB', 'VERB', 'ccomp']", "['包括', '分析', 'ccomp']"]
+["['NOUN', 'VERB', 'obj']", "['气候', '包括', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['）', '包括', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '分析', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['来', '解释', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['解释', 'NONE', 'root']"]
+["['ADP', 'PRON', 'case']", "['为', '什么', 'case']"]
+["['PRON', 'VERB', 'obl']", "['什么', '发生', 'obl']"]
+["['NOUN', 'NOUN', 'nmod']", "['工业', '革命', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['革命', '发生', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['首先', '发生', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['发生', '解释', 'ccomp']"]
+["['ADP', 'PROPN', 'case']", "['在', '欧洲', 'case']"]
+["['PROPN', 'VERB', 'obl']", "['欧洲', '发生', 'obl']"]
+["['AUX', 'NOUN', 'cc']", "['而非', '地方', 'cc']"]
+["['DET', 'NOUN', 'det']", "['其他', '地方', 'det']"]
+["['NOUN', 'VERB', 'obl']", "['地方', '发生', 'obl']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '解释', 'punct']"]
 ----------------------------------------------------------------------
-t
-(ROOT (FW t))
+正如幸福的婚姻需要许多不同的因素，国家的财富和权力也是如此。
+
+(ROOT (IP (PP (IN 正如) (IP (NP (CP (CP (IP (VP (JJ 幸福))) (DEC 的))) (NP (NN 婚姻))) (VP (VV 需要) (NP (QP (CD 许多)) (CP (CP (IP (VP (JJ 不同))) (DEC 的))) (NP (NN 因素)))))) (, ，) (NP (DNP (NP (NN 国家)) (DEC 的)) (NP (NN 财富) (CC 和) (NN 权力))) (VP (VC 也是) (NP (VV 如此))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
 Dependency Features:
-t	ROOT	root
+["['ADP', 'NOUN', 'case']", "['正如', '婚姻', 'case']"]
+["['ADJ', 'NOUN', 'amod']", "['幸福', '婚姻', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '幸福', 'mark:rel']"]
+["['NOUN', 'VERB', 'obl']", "['婚姻', '需要', 'obl']"]
+["['VERB', 'VERB', 'ccomp']", "['需要', '如此', 'ccomp']"]
+["['NUM', 'NOUN', 'nummod']", "['许多', '因素', 'nummod']"]
+["['ADJ', 'NOUN', 'amod']", "['不同', '因素', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '不同', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['因素', '需要', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '需要', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['国家', '财富', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '国家', 'case']"]
+["['NOUN', 'VERB', 'nsubj']", "['财富', '如此', 'nsubj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '权力', 'cc']"]
+["['NOUN', 'NOUN', 'conj']", "['权力', '财富', 'conj']"]
+["['AUX', 'VERB', 'cop']", "['是', '如此', 'cop']"]
+["['VERB', 'ROOT', 'root']", "['如此', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '如此', 'punct']"]
 ----------------------------------------------------------------------
-x
-(ROOT (FW x))
+这并不是否认文化的重要性。
+
+(ROOT (IP (NP (PRD 这)) (VP (ADVP (RB 并)) (VP (VC 不是) (VP (VV 否认) (NP (DNP (NP (NN 文化)) (DEC 的)) (NP (JJ 重要) (SFN 性)))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'NP': {'PRD': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
 Dependency Features:
-x	ROOT	root
+["['PRON', 'PART', 'nsubj']", "['这', '性', 'nsubj']"]
+["['ADV', 'PART', 'mark']", "['并', '性', 'mark']"]
+["['AUX', 'PART', 'cop']", "['是', '性', 'cop']"]
+["['VERB', 'PART', 'acl:relcl']", "['否认', '性', 'acl:relcl']"]
+["['NOUN', 'VERB', 'obj']", "['文化', '否认', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '否认', 'mark:rel']"]
+["['ADJ', 'PART', 'compound']", "['重要', '性', 'compound']"]
+["['PART', 'ROOT', 'root']", "['性', 'NONE', 'root']"]
+["['PUNCT', 'PART', 'punct']", "['。', '性', 'punct']"]
 ----------------------------------------------------------------------
-t
-(ROOT (FW t))
+一些国家有政治体制和文化习俗 — — 诚实的政府、法治、积累财富的机会 — — 奖励劳动。
+
+(ROOT (IP (NP (QP (JJ 一些)) (NP (NN 国家))) (VP (VV 有) (NP (NP (NN 政治) (NN 体制) (CC 和) (NN 文化) (NN 习俗)) (PRN (HYPH — —) (NP (NP (CP (CP (IP (VP (JJ 诚实))) (DEC 的))) (NP (NN 政府))) (EC 、) (NP (NN 法治)) (EC 、) (NP (CP (CP (IP (VP (VV 积累) (NP (NN 财富)))) (DEC 的))) (NP (NN 机会))) (HYPH —) (HYPH —) (NP (VV 奖励) (NN 劳动)))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VV': {}, 'NP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'VV': {}, 'NP': {}}}
 Dependency Features:
-t	ROOT	root
+["['ADJ', 'NOUN', 'amod']", "['一些', '国家', 'amod']"]
+["['NOUN', 'VERB', 'nsubj']", "['国家', '有', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['有', 'NONE', 'root']"]
+["['NOUN', 'NOUN', 'nmod']", "['政治', '体制', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['体制', '有', 'obj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '习俗', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['文化', '习俗', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['习俗', '体制', 'conj']"]
+["['PUNCT', 'NOUN', 'punct']", "['— —', '政府', 'punct']"]
+["['ADJ', 'NOUN', 'amod']", "['诚实', '政府', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '诚实', 'mark:rel']"]
+["['NOUN', 'NOUN', 'conj']", "['政府', '体制', 'conj']"]
+["['PUNCT', 'NOUN', 'punct']", "['、', '法治', 'punct']"]
+["['NOUN', 'NOUN', 'conj']", "['法治', '政府', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['、', '积累', 'punct']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['积累', '机会', 'acl:relcl']"]
+["['NOUN', 'VERB', 'obj']", "['财富', '积累', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '积累', 'mark:rel']"]
+["['NOUN', 'NOUN', 'conj']", "['机会', '体制', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['—', '奖励', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['—', '奖励', 'punct']"]
+["['VERB', 'NOUN', 'amod']", "['奖励', '机会', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['劳动', '奖励', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有', 'punct']"]
 ----------------------------------------------------------------------
-/
-(ROOT (. /))
+有些人不这样。
+
+(ROOT (IP (NP (DP (VV 有些)) (NP (NN 人))) (VP (ADVP (RB 不)) (VP (PRD 这样))) (. 。)))
 layer 2:
-{'.': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'.': {}}
+{'IP': {'NP': {'DP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
 Dependency Features:
-/	ROOT	root
+["['VERB', 'ROOT', 'root']", "['有些', 'NONE', 'root']"]
+["['NOUN', 'PRON', 'nsubj']", "['人', '这样', 'nsubj']"]
+["['ADV', 'PRON', 'advmod']", "['不', '这样', 'advmod']"]
+["['PRON', 'VERB', 'ccomp']", "['这样', '有些', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有些', 'punct']"]
 ----------------------------------------------------------------------
-A
-(ROOT (FW A))
+熟悉的例子是相邻国家，它们的环境相似，但制度却大不相同。
+
+(ROOT (IP (IP (NP (CP (CP (IP (VP (JJ 熟悉))) (DEC 的))) (NP (NN 例子))) (VP (VC 是) (NP (ADJP (NN 相邻)) (NP (NN 国家))))) (, ，) (IP (NP (DNP (NP (PRP 它们)) (DEC 的)) (NP (NN 环境))) (VP (JJ 相似))) (, ，) (IP (ADVP (RB 但)) (NP (NN 制度)) (VP (ADVP (RB 却)) (ADVP (RB 大)) (ADVP (RB 不)) (VP (JJ 相同)))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
 Dependency Features:
-A	ROOT	root
+["['ADJ', 'NOUN', 'amod']", "['熟悉', '例子', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '熟悉', 'mark:rel']"]
+["['NOUN', 'ADJ', 'nsubj']", "['例子', '相同', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '国家', 'cop']"]
+["['NOUN', 'NOUN', 'nmod']", "['相邻', '国家', 'nmod']"]
+["['NOUN', 'ADJ', 'advcl']", "['国家', '相同', 'advcl']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '相似', 'punct']"]
+["['PRON', 'NOUN', 'det']", "['它', '环境', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '它', 'case']"]
+["['NOUN', 'ADJ', 'nsubj']", "['环境', '相似', 'nsubj']"]
+["['ADJ', 'ADJ', 'advcl']", "['相似', '相同', 'advcl']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '相似', 'punct']"]
+["['ADV', 'ADJ', 'mark']", "['但', '相同', 'mark']"]
+["['NOUN', 'ADJ', 'nsubj']", "['制度', '相同', 'nsubj']"]
+["['ADV', 'ADJ', 'mark']", "['却', '相同', 'mark']"]
+["['ADV', 'ADV', 'advmod']", "['大', '不', 'advmod']"]
+["['ADV', 'ADJ', 'advmod']", "['不', '相同', 'advmod']"]
+["['ADJ', 'ROOT', 'root']", "['相同', 'NONE', 'root']"]
+["['PUNCT', 'ADJ', 'punct']", "['。', '相同', 'punct']"]
 ----------------------------------------------------------------------
-0
-(ROOT (LS 0))
+(比如说韩国和朝鲜，还有海地和多米尼加共和国。)
+
+(ROOT (IP (-LRB- -LRB-) (VP (VP (ADVP (VV 比如)) (VP (VV 说) (NP (NNP 韩国) (CC 和) (NNP 朝鲜)))) (, ，) (VP (ADVP (RB 还)) (VP (VV 有) (NP (NNP 海地) (CC 和) (NNP 多米尼加) (NN 共和) (SFN 国))))) (. 。)))
 layer 2:
-{'LS': {}}
+{'IP': {'-LRB-': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'LS': {}}
+{'IP': {'-LRB-': {}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
 Dependency Features:
-0	ROOT	root
+["['PUNCT', 'VERB', 'punct']", "['(', '有', 'punct']"]
+["['VERB', 'VERB', 'advcl']", "['比如', '有', 'advcl']"]
+["['VERB', 'VERB', 'xcomp']", "['说', '比如', 'xcomp']"]
+["['PROPN', 'VERB', 'obj']", "['韩国', '说', 'obj']"]
+["['CCONJ', 'PROPN', 'cc']", "['和', '朝鲜', 'cc']"]
+["['PROPN', 'PROPN', 'conj']", "['朝鲜', '韩国', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '比如', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['还', '有', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['有', 'NONE', 'root']"]
+["['PROPN', 'VERB', 'obj']", "['海地', '有', 'obj']"]
+["['CCONJ', 'PART', 'cc']", "['和', '国', 'cc']"]
+["['PROPN', 'PART', 'nmod']", "['多米尼加', '国', 'nmod']"]
+["['NOUN', 'PART', 'compound']", "['共和', '国', 'compound']"]
+["['PART', 'PROPN', 'conj']", "['国', '海地', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有', 'punct']"]
 ----------------------------------------------------------------------
-2
-(ROOT (LS 2))
+富有和强大的国家往往有良好的体制，奖励劳动。
+
+(ROOT (IP (NP (CP (CP (IP (VP (JJ 富有) (CC 和) (JJ 强大))) (DEC 的))) (NP (NN 国家))) (VP (ADVP (RB 往往)) (VP (VP (VV 有) (NP (CP (CP (IP (VP (JJ 良好))) (DEC 的))) (NP (NN 体制)))) (, ，) (VP (VV 奖励) (NP (NN 劳动))))) (. 。)))
 layer 2:
-{'LS': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'LS': {}}
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
 Dependency Features:
-2	ROOT	root
+["['ADJ', 'NOUN', 'amod']", "['富有', '国家', 'amod']"]
+["['CCONJ', 'ADJ', 'cc']", "['和', '强大', 'cc']"]
+["['ADJ', 'ADJ', 'conj']", "['强大', '富有', 'conj']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '富有', 'mark:rel']"]
+["['NOUN', 'VERB', 'nsubj']", "['国家', '有', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['往往', '有', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['有', 'NONE', 'root']"]
+["['ADJ', 'NOUN', 'amod']", "['良好', '体制', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '良好', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['体制', '有', 'obj']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '劳动', 'punct']"]
+["['VERB', 'NOUN', 'amod']", "['奖励', '劳动', 'amod']"]
+["['NOUN', 'NOUN', 'conj']", "['劳动', '体制', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有', 'punct']"]
 ----------------------------------------------------------------------
-D
-(ROOT (FW D))
+但机构和文化并不是答案的全部，因为一些机构不好的国家（如意大利和阿根廷）富有，而一些品德高尚的国家（如坦桑尼亚和不丹）却贫穷。
+
+(ROOT (IP (IP (ADVP (RB 但)) (NP (NN 机构) (CC 和) (NN 文化)) (VP (ADVP (RB 并)) (VP (VC 不是) (NP (DNP (NP (NN 答案)) (DEC 的)) (NP (DT 全部)))))) (, ，) (PP (IN 因为) (IP (NP (CP (CP (IP (NP (QP (JJ 一些)) (NP (NN 机构))) (VP (JJ 不好))) (DEC 的))) (NP (NN 国家)) (PRN (-LRB- （) (NP (ADVP (VV 如)) (NP (NNP 意大利) (CC 和) (NNP 阿根廷))) (-RRB- ）))) (VP (VV 富有)))) (, ，) (RB 而) (NP (QP (JJ 一些)) (DNP (NP (NNP 品) (NNP 德高尚)) (DEC 的)) (NP (NN 国家)) (PRN (-LRB- （) (NP (NNP 如坦桑尼亚) (CC 和) (NNP 不丹)) (-RRB- ）))) (VP (ADVP (RB 却)) (VP (JJ 贫穷))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, ',': {}, 'RB': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, ',': {}, 'RB': {}, 'NP': {'QP': {}, 'DNP': {}, 'NP': {}, 'PRN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'QP': {}, 'DNP': {}, 'NP': {}, 'PRN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
 Dependency Features:
-D	ROOT	root
+["['ADV', 'DET', 'mark']", "['但', '全部', 'mark']"]
+["['NOUN', 'DET', 'nsubj']", "['机构', '全部', 'nsubj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '文化', 'cc']"]
+["['NOUN', 'NOUN', 'conj']", "['文化', '机构', 'conj']"]
+["['ADV', 'NOUN', 'mark']", "['并', '答案', 'mark']"]
+["['AUX', 'NOUN', 'cop']", "['是', '答案', 'cop']"]
+["['NOUN', 'DET', 'acl:relcl']", "['答案', '全部', 'acl:relcl']"]
+["['PART', 'NOUN', 'mark:rel']", "['的', '答案', 'mark:rel']"]
+["['DET', 'ROOT', 'root']", "['全部', 'NONE', 'root']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '贫穷', 'punct']"]
+["['ADP', 'VERB', 'case']", "['因为', '如', 'case']"]
+["['ADJ', 'NOUN', 'amod']", "['一些', '机构', 'amod']"]
+["['NOUN', 'ADJ', 'nsubj']", "['机构', '不好', 'nsubj']"]
+["['ADJ', 'NOUN', 'acl:relcl']", "['不好', '国家', 'acl:relcl']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '不好', 'mark:rel']"]
+["['NOUN', 'VERB', 'nsubj']", "['国家', '富有', 'nsubj']"]
+["['PUNCT', 'NOUN', 'punct']", "['（', '国家', 'punct']"]
+["['VERB', 'VERB', 'ccomp']", "['如', '富有', 'ccomp']"]
+["['PROPN', 'VERB', 'obj']", "['意大利', '如', 'obj']"]
+["['CCONJ', 'PROPN', 'cc']", "['和', '阿根廷', 'cc']"]
+["['PROPN', 'PROPN', 'conj']", "['阿根廷', '意大利', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['）', '如', 'punct']"]
+["['VERB', 'DET', 'ccomp']", "['富有', '全部', 'ccomp']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '贫穷', 'punct']"]
+["['ADV', 'ADJ', 'mark']", "['而', '贫穷', 'mark']"]
+["['ADJ', 'NOUN', 'amod']", "['一些', '国家', 'amod']"]
+["['PROPN', 'NOUN', 'nmod']", "['品', '国家', 'nmod']"]
+["['PROPN', 'PROPN', 'conj']", "['德高尚', '品', 'conj']"]
+["['PART', 'PROPN', 'case']", "['的', '品', 'case']"]
+["['NOUN', 'ADJ', 'nsubj']", "['国家', '贫穷', 'nsubj']"]
+["['PUNCT', 'PROPN', 'punct']", "['（', '如坦桑尼亚', 'punct']"]
+["['PROPN', 'NOUN', 'appos']", "['如坦桑尼亚', '国家', 'appos']"]
+["['CCONJ', 'PROPN', 'cc']", "['和', '不丹', 'cc']"]
+["['PROPN', 'PROPN', 'conj']", "['不丹', '如坦桑尼亚', 'conj']"]
+["['PUNCT', 'PROPN', 'punct']", "['）', '如坦桑尼亚', 'punct']"]
+["['ADV', 'ADJ', 'mark']", "['却', '贫穷', 'mark']"]
+["['ADJ', 'DET', 'parataxis']", "['贫穷', '全部', 'parataxis']"]
+["['PUNCT', 'DET', 'punct']", "['。', '全部', 'punct']"]
 ----------------------------------------------------------------------
-_
-(ROOT (FW _))
+另一组因素涉及地理，其中包含许多比罗姆尼混淆的物理特征更多的方面。
+
+(ROOT (IP (IP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 组)))) (NP (NN 因素))) (VP (VV 涉及) (NP (NN 地理)))) (, ，) (IP (NP (NN 其中)) (VP (VV 包含) (NP (QP (CD 许多)) (CP (CP (IP (VP (PP (IN 比) (NP (CP (CP (IP (VP (NNP 罗姆尼混淆))) (DEC 的))) (NP (NN 物理) (NN 特征)))) (VP (JJ 更多)))) (DEC 的))) (NP (NN 方面))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
 Dependency Features:
-_	ROOT	root
+["['DET', 'NOUN', 'det']", "['另', '组', 'det']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '组', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['组', '因素', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['因素', '涉及', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['涉及', 'NONE', 'root']"]
+["['NOUN', 'VERB', 'obj']", "['地理', '涉及', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '包含', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['其中', '包含', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['包含', '涉及', 'parataxis']"]
+["['NUM', 'NOUN', 'nummod']", "['许多', '方面', 'nummod']"]
+["['ADP', 'NOUN', 'case']", "['比', '特征', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['罗姆尼混淆', '特征', 'nmod']"]
+["['PART', 'PROPN', 'mark:rel']", "['的', '罗姆尼混淆', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['物理', '特征', 'nmod']"]
+["['NOUN', 'ADJ', 'nmod']", "['特征', '更多', 'nmod']"]
+["['ADJ', 'NOUN', 'amod']", "['更多', '方面', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '更多', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['方面', '包含', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '涉及', 'punct']"]
 ----------------------------------------------------------------------
-e
-(ROOT (NP (ADD e)))
+这种地理因素之一是纬度，它对财富和权力产生了巨大的影响：热带国家往往比温带国家贫穷。原因包括热带疾病对生命和工作的消耗性影响，以及热带地区的农业和土壤平均产出低于温带地区。
+
+(ROOT (IP (IP (NP (DNP (NP (DP (DT 这) (CLP (NNB 种))) (NP (NN 地理) (NN 因素))) (DEC 之)) (NP (CD 一))) (VP (VC 是) (NP (NN 纬度)))) (, ，) (IP (NP (PRP 它)) (VP (PP (IN 对) (NP (NN 财富) (CC 和) (NN 权力))) (VP (VV 产生) (AS 了) (NP (CP (CP (IP (VP (JJ 巨大))) (DEC 的))) (NP (NN 影响)))))) (: ：)))
 layer 2:
-{'NP': {'ADD': {}}}
-{'NP': {'ADD': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ':': {}}}
 layer 3:
-{'NP': {'ADD': {}}}
-{'NP': {'ADD': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ':': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
 Dependency Features:
-e	ROOT	root
+["['DET', 'NOUN', 'det']", "['这', '种', 'det']"]
+["['NOUN', 'NOUN', 'clf']", "['种', '因素', 'clf']"]
+["['NOUN', 'NOUN', 'nmod']", "['地理', '因素', 'nmod']"]
+["['NOUN', 'NUM', 'nmod']", "['因素', '一', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['之', '因素', 'case']"]
+["['NUM', 'NOUN', 'nsubj']", "['一', '纬度', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '纬度', 'cop']"]
+["['NOUN', 'ROOT', 'root']", "['纬度', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '产生', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['它', '产生', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['对', '财富', 'case']"]
+["['NOUN', 'VERB', 'obl']", "['财富', '产生', 'obl']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '权力', 'cc']"]
+["['NOUN', 'NOUN', 'conj']", "['权力', '财富', 'conj']"]
+["['VERB', 'NOUN', 'parataxis']", "['产生', '纬度', 'parataxis']"]
+["['AUX', 'VERB', 'aux']", "['了', '产生', 'aux']"]
+["['ADJ', 'NOUN', 'amod']", "['巨大', '影响', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '巨大', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['影响', '产生', 'obj']"]
+["['PUNCT', 'NOUN', 'punct']", "['：', '纬度', 'punct']"]
 ----------------------------------------------------------------------
-n
-(ROOT (FW n))
+第二个因素是海上通道
+
+(ROOT (IP (NP (QP (CD 第二) (CLP (NNB 个))) (NP (NN 因素))) (VP (VC 是) (NP (NN 海上) (NN 通道)))))
 layer 2:
-{'FW': {}}
+{'IP': {'NP': {}, 'VP': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
 Dependency Features:
-n	ROOT	root
+["['NUM', 'NOUN', 'nummod']", "['第二', '个', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['个', '因素', 'clf']"]
+["['NOUN', 'NOUN', 'nsubj']", "['因素', '通道', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '通道', 'cop']"]
+["['NOUN', 'NOUN', 'nmod']", "['海上', '通道', 'nmod']"]
+["['NOUN', 'ROOT', 'root']", "['通道', 'NONE', 'root']"]
 ----------------------------------------------------------------------
-_
-(ROOT (FW _))
+没有海岸或大型航运河流的国家往往贫穷，因为陆上或空中运输成本要比海上运输成本高得多。
+
+(ROOT (IP (IP (NP (CP (CP (IP (VP (VV 没有) (NP (NP (NN 海岸)) (CC 或) (NP (ADJP (NN 大型)) (NP (NN 航运) (NN 河流)))))) (DEC 的))) (NP (NN 国家))) (VP (ADVP (RB 往往)) (VP (JJ 贫穷)))) (, ，) (PP (IN 因为) (IP (NP (NP (NN 陆上) (CC 或) (NN 空中) (NN 运输)) (NP (NN 成本))) (VP (MD 要) (VP (PP (IN 比) (NP (NN 海上) (NN 运输) (NN 成本))) (VP (JJ 高) (ADVP (JJ 得多))))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ',': {}, 'PP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'PP': {'IN': {}, 'IP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
 Dependency Features:
-_	ROOT	root
+["['VERB', 'NOUN', 'acl:relcl']", "['有', '国家', 'acl:relcl']"]
+["['NOUN', 'VERB', 'obj']", "['海岸', '有', 'obj']"]
+["['CCONJ', 'NOUN', 'cc']", "['或', '河流', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['大型', '河流', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['航运', '河流', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['河流', '海岸', 'conj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '有', 'mark:rel']"]
+["['NOUN', 'ADJ', 'nsubj']", "['国家', '贫穷', 'nsubj']"]
+["['ADV', 'ADJ', 'advmod']", "['往往', '贫穷', 'advmod']"]
+["['ADJ', 'ROOT', 'root']", "['贫穷', 'NONE', 'root']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '高', 'punct']"]
+["['ADP', 'ADJ', 'case']", "['因为', '高', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['陆上', '成本', 'nmod']"]
+["['CCONJ', 'NOUN', 'cc']", "['或', '空中', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['空中', '成本', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['运输', '成本', 'nmod']"]
+["['NOUN', 'ADJ', 'nsubj']", "['成本', '高', 'nsubj']"]
+["['AUX', 'ADJ', 'aux']", "['要', '高', 'aux']"]
+["['ADP', 'NOUN', 'case']", "['比', '成本', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['海上', '成本', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['运输', '成本', 'nmod']"]
+["['NOUN', 'ADJ', 'nmod']", "['成本', '得多', 'nmod']"]
+["['ADJ', 'ADJ', 'ccomp']", "['高', '贫穷', 'ccomp']"]
+["['ADJ', 'ADJ', 'xcomp']", "['得多', '高', 'xcomp']"]
+["['PUNCT', 'ADJ', 'punct']", "['。', '贫穷', 'punct']"]
 ----------------------------------------------------------------------
-z
-(ROOT (FW z))
+第三个地理因素是农业的历史
+
+(ROOT (IP (NP (QP (CD 第三) (CLP (NNB 个))) (NP (NN 地理) (NN 因素))) (VP (VC 是) (NP (DNP (NP (NN 农业)) (DEC 的)) (NP (NN 历史))))))
 layer 2:
-{'FW': {}}
+{'IP': {'NP': {}, 'VP': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VC': {}, 'NP': {}}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
 Dependency Features:
-z	ROOT	root
+["['NUM', 'NOUN', 'nummod']", "['第三', '个', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['个', '因素', 'clf']"]
+["['NOUN', 'NOUN', 'nmod']", "['地理', '因素', 'nmod']"]
+["['NOUN', 'NOUN', 'nsubj']", "['因素', '历史', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '历史', 'cop']"]
+["['NOUN', 'NOUN', 'nmod']", "['农业', '历史', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '农业', 'case']"]
+["['NOUN', 'ROOT', 'root']", "['历史', 'NONE', 'root']"]
 ----------------------------------------------------------------------
-h
-(ROOT (FW h))
+如果一个外星人在公元前 2000 年游览地球，他会发现集权政府、书写和金属工具在欧亚大陆已经广泛存在，但在新大陆、撒哈拉沙漠以南非洲和澳大利亚尚未出现。
+
+(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 外星) (SFN 人))) (VP (PP (IN 在) (NP (LCP (NP (NN 公元)) (IN 前)) (QP (CD 2000)))) (VP (NNB 年游览) (NP (NNP 地球)))))) (, ，) (NP (PRP 他)) (VP (VP (MD 会) (VP (VV 发现) (IP (NP (NN 集权) (NN 政府) (EC 、) (NN 书写) (CC 和) (NN 金属) (NN 工具)) (VP (PP (VV 在) (NP (NP (NNP 欧) (NNP 亚)) (NP (NN 大陆)))) (ADVP (RB 已经)) (ADVP (RB 广泛)) (VP (VV 存在)))))) (, ，) (VP (ADVP (RB 但)) (PP (VV 在) (NP (LCP (NP (NP (ADJP (PFA 新)) (NP (NN 大陆))) (EC 、) (NP (NNP 撒哈拉) (NN 沙漠))) (NN 以南)) (NP (NNP 非洲) (CC 和) (NNP 澳大利亚)))) (ADVP (RB 尚)) (ADVP (RB 未)) (VP (VV 出现)))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
 Dependency Features:
-h	ROOT	root
+["['ADP', 'PROPN', 'case']", "['如果', '地球', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '个', 'nummod']"]
+["['NOUN', 'PART', 'nmod']", "['个', '人', 'nmod']"]
+["['NOUN', 'PART', 'compound']", "['外星', '人', 'compound']"]
+["['PART', 'PROPN', 'nmod']", "['人', '地球', 'nmod']"]
+["['ADP', 'PROPN', 'case']", "['在', '地球', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['公元', '年游览', 'nmod']"]
+["['ADP', 'NOUN', 'case']", "['前', '公元', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['2000', '年游览', 'nummod']"]
+["['NOUN', 'PROPN', 'clf']", "['年游览', '地球', 'clf']"]
+["['PROPN', 'VERB', 'obl']", "['地球', '发现', 'obl']"]
+["['PUNCT', 'PROPN', 'punct']", "['，', '地球', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '发现', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['会', '发现', 'aux']"]
+["['VERB', 'ROOT', 'root']", "['发现', 'NONE', 'root']"]
+["['NOUN', 'NOUN', 'nmod']", "['集权', '政府', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['政府', '存在', 'nsubj']"]
+["['PUNCT', 'NOUN', 'punct']", "['、', '书写', 'punct']"]
+["['NOUN', 'NOUN', 'conj']", "['书写', '政府', 'conj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '工具', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['金属', '工具', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['工具', '政府', 'conj']"]
+["['VERB', 'VERB', 'advcl']", "['在', '存在', 'advcl']"]
+["['PROPN', 'NOUN', 'nmod']", "['欧', '大陆', 'nmod']"]
+["['PROPN', 'NOUN', 'nmod']", "['亚', '大陆', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['大陆', '在', 'obj']"]
+["['ADV', 'VERB', 'advmod']", "['已经', '存在', 'advmod']"]
+["['ADV', 'VERB', 'advmod']", "['广泛', '存在', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['存在', '发现', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '发现', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['但', '出现', 'mark']"]
+["['VERB', 'VERB', 'advcl']", "['在', '出现', 'advcl']"]
+["['PART', 'NOUN', 'case']", "['新', '大陆', 'case']"]
+["['NOUN', 'VERB', 'obj']", "['大陆', '在', 'obj']"]
+["['PUNCT', 'NOUN', 'punct']", "['、', '沙漠', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['撒哈拉', '沙漠', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['沙漠', '大陆', 'conj']"]
+["['NOUN', 'NOUN', 'acl']", "['以南', '大陆', 'acl']"]
+["['PROPN', 'NOUN', 'appos']", "['非洲', '大陆', 'appos']"]
+["['CCONJ', 'PROPN', 'cc']", "['和', '澳大利亚', 'cc']"]
+["['PROPN', 'PROPN', 'conj']", "['澳大利亚', '非洲', 'conj']"]
+["['ADV', 'ADV', 'advmod']", "['尚', '未', 'advmod']"]
+["['ADV', 'VERB', 'advmod']", "['未', '出现', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['出现', '发现', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '出现', 'punct']"]
 ----------------------------------------------------------------------
-.
-(ROOT (. .))
+这个长期的领先优势让访客预测得准，今天，世界上大多数最富有和最强大的国家都是欧亚国家（以及他们在北美、澳大利亚和新西兰的海外殖民地）。
+
+(ROOT (IP (IP (NP (DP (DT 这) (CLP (NNB 个))) (DNP (NP (NN 长期)) (DEC 的)) (NP (JJ 领先) (NN 优势))) (VP (VV 让) (NP (NN 访客)) (IP (VP (VV 预测) (IP (VP (JJ 得准))))))) (, ，) (IP (NP (NN 今天)) (, ，) (NP (LCP (NP (NN 世界)) (IN 上)) (QP (ADVP (RB 大)) (QP (JJ 多数))) (CP (CP (IP (VP (VP (ADVP (RB 最)) (VP (JJ 富有))) (CC 和) (VP (ADVP (RB 最)) (VP (JJ 强大))))) (DEC 的))) (NP (NN 国家))) (VP (VC 都是) (NP (NP (NNP 欧) (NNP 亚)) (NP (NN 国家)) (PRN (-LRB- （) (CC 以及) (NP (NP (PRP 他们)) (DNP (PP (VV 在) (NP (NNP 北美) (EC 、) (NNP 澳大利亚) (CC 和) (NNP 新西兰))) (DEC 的)) (NP (NN 海外) (VV 殖民) (SFN 地))) (-RRB- ）))))) (. 。)))
 layer 2:
-{'.': {}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'.': {}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
 Dependency Features:
-.	ROOT	root
+["['DET', 'NOUN', 'det']", "['这', '个', 'det']"]
+["['NOUN', 'NOUN', 'clf']", "['个', '优势', 'clf']"]
+["['NOUN', 'NOUN', 'amod']", "['长期', '优势', 'amod']"]
+["['PART', 'NOUN', 'mark:rel']", "['的', '长期', 'mark:rel']"]
+["['ADJ', 'NOUN', 'amod']", "['领先', '优势', 'amod']"]
+["['NOUN', 'VERB', 'nsubj']", "['优势', '让', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['让', 'NONE', 'root']"]
+["['NOUN', 'VERB', 'nsubj']", "['访客', '预测', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['预测', '让', 'ccomp']"]
+["['ADJ', 'VERB', 'xcomp']", "['得准', '预测', 'xcomp']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '国家', 'punct']"]
+["['NOUN', 'NOUN', 'nmod:tmod']", "['今天', '国家', 'nmod:tmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '今天', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['世界', '国家', 'nmod']"]
+["['ADP', 'NOUN', 'case']", "['上', '世界', 'case']"]
+["['ADV', 'ADJ', 'advmod']", "['大', '多数', 'advmod']"]
+["['ADJ', 'NOUN', 'amod']", "['多数', '国家', 'amod']"]
+["['ADV', 'ADJ', 'advmod']", "['最', '富有', 'advmod']"]
+["['ADJ', 'NOUN', 'amod']", "['富有', '国家', 'amod']"]
+["['CCONJ', 'ADJ', 'cc']", "['和', '强大', 'cc']"]
+["['ADV', 'ADJ', 'advmod']", "['最', '强大', 'advmod']"]
+["['ADJ', 'ADJ', 'conj']", "['强大', '富有', 'conj']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '富有', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nsubj']", "['国家', '国家', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '国家', 'cop']"]
+["['PROPN', 'NOUN', 'nmod']", "['欧', '国家', 'nmod']"]
+["['PROPN', 'NOUN', 'nmod']", "['亚', '国家', 'nmod']"]
+["['NOUN', 'VERB', 'parataxis']", "['国家', '让', 'parataxis']"]
+["['PUNCT', 'PART', 'punct']", "['（', '地', 'punct']"]
+["['CCONJ', 'PART', 'cc']", "['以及', '地', 'cc']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '在', 'nsubj']"]
+["['VERB', 'PART', 'acl:relcl']", "['在', '地', 'acl:relcl']"]
+["['PROPN', 'VERB', 'obj']", "['北美', '在', 'obj']"]
+["['PUNCT', 'PROPN', 'punct']", "['、', '澳大利亚', 'punct']"]
+["['PROPN', 'PROPN', 'conj']", "['澳大利亚', '北美', 'conj']"]
+["['CCONJ', 'PROPN', 'cc']", "['和', '新西兰', 'cc']"]
+["['PROPN', 'PROPN', 'conj']", "['新西兰', '北美', 'conj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '在', 'mark:rel']"]
+["['NOUN', 'PART', 'nmod']", "['海外', '地', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['殖民', '地', 'compound']"]
+["['PART', 'NOUN', 'conj']", "['地', '国家', 'conj']"]
+["['PUNCT', 'NOUN', 'punct']", "['）', '国家', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '让', 'punct']"]
 ----------------------------------------------------------------------
-t
-(ROOT (FW t))
+原因是地理的历史效应：13,000 年前，世界各地的人们都是狩猎采集者，生活在人口稀少的地方，没有集权政府、军队、文字或金属工具。
+
+(ROOT (IP (NP (NN 原因)) (VP (VC 是) (IP (NP (DNP (NP (NN 地理)) (DEC 的)) (NP (NN 历史) (NN 效应))) (: ：) (LCP (QP (CD 13,000)) (NNB 年前)) (, ，) (NP (DNP (NP (NN 世界) (NN 各地)) (DEC 的)) (NP (NN 人们))) (VP (VP (VC 都是) (NP (VV 狩猎) (VV 采集) (SFN 者))) (, ，) (VP (VV 生活) (PP (IN 在) (NP (CP (CP (IP (NP (NN 人口)) (VP (JJ 稀少))) (DEC 的))) (NP (NN 地方))))) (, ，) (VP (VV 没有) (NP (NN 集权) (NN 政府) (EC 、) (NN 军队) (EC 、) (NN 文字) (CC 或) (NN 金属) (NN 工具)))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'NP': {'NN': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'VC': {}, 'IP': {}}}
 Dependency Features:
-t	ROOT	root
+["['NOUN', 'VERB', 'nsubj']", "['原因', '是', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['是', 'NONE', 'root']"]
+["['NOUN', 'NOUN', 'nmod']", "['地理', '效应', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '地理', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['历史', '效应', 'nmod']"]
+["['NOUN', 'PART', 'nsubj']", "['效应', '者', 'nsubj']"]
+["['PUNCT', 'NOUN', 'punct']", "['：', '效应', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['13,000', '年前', 'nummod']"]
+["['NOUN', 'PART', 'nmod:tmod']", "['年前', '者', 'nmod:tmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '年前', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['世界', '各地', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['各地', '人', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '各地', 'case']"]
+["['NOUN', 'PART', 'nsubj']", "['人', '者', 'nsubj']"]
+["['AUX', 'PART', 'cop']", "['是', '者', 'cop']"]
+["['VERB', 'VERB', 'advcl']", "['狩猎', '采集', 'advcl']"]
+["['VERB', 'PART', 'compound']", "['采集', '者', 'compound']"]
+["['PART', 'VERB', 'ccomp']", "['者', '是', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '有', 'punct']"]
+["['VERB', 'VERB', 'advcl']", "['生活', '有', 'advcl']"]
+["['ADP', 'NOUN', 'case']", "['在', '地方', 'case']"]
+["['NOUN', 'ADJ', 'nsubj']", "['人口', '稀少', 'nsubj']"]
+["['ADJ', 'NOUN', 'acl:relcl']", "['稀少', '地方', 'acl:relcl']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '稀少', 'mark:rel']"]
+["['NOUN', 'VERB', 'obl']", "['地方', '生活', 'obl']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '生活', 'punct']"]
+["['VERB', 'VERB', 'parataxis']", "['有', '是', 'parataxis']"]
+["['NOUN', 'NOUN', 'nmod']", "['集权', '政府', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['政府', '有', 'obj']"]
+["['PUNCT', 'NOUN', 'punct']", "['、', '军队', 'punct']"]
+["['NOUN', 'NOUN', 'conj']", "['军队', '政府', 'conj']"]
+["['PUNCT', 'NOUN', 'punct']", "['、', '文字', 'punct']"]
+["['NOUN', 'NOUN', 'conj']", "['文字', '政府', 'conj']"]
+["['CCONJ', 'NOUN', 'cc']", "['或', '工具', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['金属', '工具', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['工具', '政府', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '是', 'punct']"]
 ----------------------------------------------------------------------
-x
-(ROOT (FW x))
+这四种权力根源是农业发展的结果，农业产生了人口爆炸和粮食积累，足以养活全职领袖、士兵、书写者和发明家。
+
+(ROOT (IP (IP (NP (DP (DT 这) (QP (CD 四) (CLP (NNB 种)))) (NP (NN 权力) (NN 根源))) (VP (VC 是) (NP (DNP (NP (NN 农业) (VV 发展)) (DEC 的)) (NP (NN 结果))))) (, ，) (IP (NP (NN 农业)) (VP (VP (VV 产生) (AS 了) (NP (NN 人口) (NN 爆炸) (CC 和) (NN 粮食) (NN 积累))) (, ，) (VP (ADVP (VV 足)) (VP (RB 以) (VP (VV 养活) (NP (ADJP (JJ 全职)) (NP (NN 领袖) (EC 、) (NN 士兵) (EC 、) (VV 书写) (SFN 者) (CC 和) (VV 发明) (SFN 家)))))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
 Dependency Features:
-x	ROOT	root
+["['DET', 'NOUN', 'det']", "['这', '种', 'det']"]
+["['NUM', 'NOUN', 'nummod']", "['四', '种', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['种', '根源', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['权力', '根源', 'nmod']"]
+["['NOUN', 'NOUN', 'nsubj']", "['根源', '结果', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '结果', 'cop']"]
+["['NOUN', 'VERB', 'nsubj']", "['农业', '发展', 'nsubj']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['发展', '结果', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '发展', 'mark:rel']"]
+["['NOUN', 'ROOT', 'root']", "['结果', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '养活', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['农业', '养活', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['产生', '养活', 'advcl']"]
+["['AUX', 'VERB', 'aux']", "['了', '产生', 'aux']"]
+["['NOUN', 'NOUN', 'nmod']", "['人口', '爆炸', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['爆炸', '产生', 'obj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '积累', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['粮食', '积累', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['积累', '爆炸', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '产生', 'punct']"]
+["['VERB', 'VERB', 'advcl']", "['足', '养活', 'advcl']"]
+["['ADV', 'VERB', 'mark']", "['以', '养活', 'mark']"]
+["['VERB', 'NOUN', 'parataxis']", "['养活', '结果', 'parataxis']"]
+["['ADJ', 'NOUN', 'amod']", "['全职', '领袖', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['领袖', '养活', 'obj']"]
+["['PUNCT', 'NOUN', 'punct']", "['、', '士兵', 'punct']"]
+["['NOUN', 'NOUN', 'conj']", "['士兵', '领袖', 'conj']"]
+["['PUNCT', 'PART', 'punct']", "['、', '者', 'punct']"]
+["['VERB', 'PART', 'compound']", "['书写', '者', 'compound']"]
+["['PART', 'NOUN', 'conj']", "['者', '领袖', 'conj']"]
+["['CCONJ', 'PART', 'cc']", "['和', '家', 'cc']"]
+["['VERB', 'PART', 'compound']", "['发明', '家', 'compound']"]
+["['PART', 'NOUN', 'conj']", "['家', '领袖', 'conj']"]
+["['PUNCT', 'NOUN', 'punct']", "['。', '结果', 'punct']"]
 ----------------------------------------------------------------------
-t
-(ROOT (FW t))
+但农业只能在那些拥有许多适合驯化的野生植物和动物种类的地区，如野生小麦、水稻、猪和牛，起源。
+
+(ROOT (IP (ADVP (RB 但)) (NP (NN 农业)) (VP (ADVP (RB 只)) (VP (MD 能) (VP (PP (IN 在) (NP (NP (DP (DT 那些)) (CP (CP (IP (VP (VV 拥有) (NP (QP (CD 许多)) (CP (CP (IP (VP (VV 适合) (NP (VV 驯化)))) (DEC 的))) (ADJP (JJ 野生)) (NP (NN 植物) (CC 和) (NN 动物)) (NP (NN 种类))))) (DEC 的))) (NP (NN 地区))) (, ，) (NP (ADVP (VV 如)) (NP (ADJP (JJ 野生)) (NP (NN 小麦) (EC 、) (NN 水稻) (EC 、) (NN 猪和牛)))))) (, ，) (VP (NN 起源))))) (. 。)))
 layer 2:
-{'FW': {}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'FW': {}}
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NN': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NN': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
 Dependency Features:
-t	ROOT	root
+["['ADV', 'AUX', 'mark']", "['但', '能', 'mark']"]
+["['NOUN', 'AUX', 'nsubj']", "['农业', '能', 'nsubj']"]
+["['ADV', 'AUX', 'advmod']", "['只', '能', 'advmod']"]
+["['AUX', 'VERB', 'aux']", "['能', '拥有', 'aux']"]
+["['ADP', 'VERB', 'case']", "['在', '拥有', 'case']"]
+["['DET', 'VERB', 'obl']", "['那些', '拥有', 'obl']"]
+["['VERB', 'ROOT', 'root']", "['拥有', 'NONE', 'root']"]
+["['NUM', 'NOUN', 'nummod']", "['许多', '地区', 'nummod']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['适合', '地区', 'acl:relcl']"]
+["['VERB', 'VERB', 'xcomp']", "['驯化', '适合', 'xcomp']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '适合', 'mark:rel']"]
+["['ADJ', 'NOUN', 'amod']", "['野生', '植物', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['植物', '适合', 'obj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '种类', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['动物', '种类', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['种类', '植物', 'conj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '适合', 'mark:rel']"]
+["['NOUN', 'VERB', 'nsubj']", "['地区', '如', 'nsubj']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '地区', 'punct']"]
+["['VERB', 'VERB', 'ccomp']", "['如', '拥有', 'ccomp']"]
+["['ADJ', 'NOUN', 'amod']", "['野生', '小麦', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['小麦', '如', 'obj']"]
+["['PUNCT', 'NOUN', 'punct']", "['、', '水稻', 'punct']"]
+["['NOUN', 'NOUN', 'conj']", "['水稻', '小麦', 'conj']"]
+["['PUNCT', 'NOUN', 'punct']", "['、', '猪和牛', 'punct']"]
+["['NOUN', 'NOUN', 'conj']", "['猪和牛', '小麦', 'conj']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '起源', 'punct']"]
+["['NOUN', 'NOUN', 'conj']", "['起源', '小麦', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '如', 'punct']"]
+----------------------------------------------------------------------
+总之，地理解释和文化机构解释并不独立。
+
+(ROOT (IP (ADVP (RB 总之)) (, ，) (NP (NP (NN 地理) (NN 解释) (CC 和) (NN 文化) (NN 机构)) (NP (NN 解释))) (VP (ADVP (RB 并)) (ADVP (RB 不)) (VP (JJ 独立))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+["['ADV', 'ADJ', 'advmod']", "['总之', '独立', 'advmod']"]
+["['PUNCT', 'ADV', 'punct']", "['，', '总之', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['地理', '解释', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['解释', '解释', 'nmod']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '机构', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['文化', '机构', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['机构', '解释', 'conj']"]
+["['NOUN', 'ADJ', 'nsubj']", "['解释', '独立', 'nsubj']"]
+["['ADV', 'ADV', 'advmod']", "['并', '不', 'advmod']"]
+["['ADV', 'ADJ', 'advmod']", "['不', '独立', 'advmod']"]
+["['ADJ', 'ROOT', 'root']", "['独立', 'NONE', 'root']"]
+["['PUNCT', 'ADJ', 'punct']", "['。', '独立', 'punct']"]
+----------------------------------------------------------------------
+当然，并非所有的农业区域都发展出了诚实的集权政府，但是，没有一个非农业区域，无论是诚实的还是不诚实的，都发展出过集权政府。
+
+(ROOT (IP (IP (ADVP (RB 当然)) (, ，) (VP (VC 并非) (IP (NP (DNP (DP (DT 所有)) (DEC 的)) (NP (NN 农业) (NN 区域))) (VP (ADVP (RB 都)) (VP (VRD (VV 发展) (VV 出)) (AS 了) (NP (CP (CP (IP (VP (JJ 诚实))) (DEC 的))) (NP (NN 集权) (NN 政府)))))))) (, ，) (IP (ADVP (RB 但是)) (, ，) (IP (VP (VV 没有) (NP (QP (CD 一) (CLP (NNB 个))) (NP (ADJP (VC 非)) (NP (NN 农业))) (NP (NN 区域))))) (, ，) (VP (IP (VP (ADVP (IN 无论)) (VP (VC 是) (NP (NP (CP (CP (IP (VP (JJ 诚实))) (DEC 的)))) (VC 还是) (NP (CP (CP (IP (VP (ADVP (RB 不)) (VP (JJ 诚实)))) (UH 的)))))))) (, ，) (ADVP (RB 都)) (VP (VRD (VV 发展) (VV 出)) (AS 过) (NP (NN 集权) (NN 政府))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'IP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+["['ADV', 'VERB', 'advmod']", "['当然', '并非', 'advmod']"]
+["['PUNCT', 'ADV', 'punct']", "['，', '当然', 'punct']"]
+["['VERB', 'ROOT', 'root']", "['并非', 'NONE', 'root']"]
+["['DET', 'NOUN', 'det']", "['所有', '区域', 'det']"]
+["['PART', 'DET', 'case']", "['的', '所有', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['农业', '区域', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['区域', '发展', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['都', '发展', 'mark']"]
+["['VERB', 'VERB', 'ccomp']", "['发展', '并非', 'ccomp']"]
+["['VERB', 'VERB', 'mark']", "['出', '发展', 'mark']"]
+["['AUX', 'VERB', 'aux']", "['了', '发展', 'aux']"]
+["['ADJ', 'NOUN', 'amod']", "['诚实', '政府', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '诚实', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['集权', '政府', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['政府', '发展', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '发展', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['但是', '有', 'mark']"]
+["['PUNCT', 'ADV', 'punct']", "['，', '但是', 'punct']"]
+["['VERB', 'VERB', 'advcl']", "['有', '发展', 'advcl']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '个', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['个', '区域', 'clf']"]
+["['VERB', 'NOUN', 'amod']", "['非', '区域', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['农业', '非', 'obj']"]
+["['NOUN', 'VERB', 'obj']", "['区域', '有', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '有', 'punct']"]
+["['ADP', 'ADJ', 'case']", "['无论', '诚实', 'case']"]
+["['AUX', 'ADJ', 'cop']", "['是', '诚实', 'cop']"]
+["['ADJ', 'ADJ', 'advcl']", "['诚实', '诚实', 'advcl']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '诚实', 'mark:rel']"]
+["['AUX', 'ADJ', 'cop']", "['是', '诚实', 'cop']"]
+["['ADV', 'ADJ', 'advmod']", "['不', '诚实', 'advmod']"]
+["['ADJ', 'VERB', 'advcl']", "['诚实', '发展', 'advcl']"]
+["['PART', 'ADJ', 'discourse']", "['的', '诚实', 'discourse']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '诚实', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['都', '发展', 'mark']"]
+["['VERB', 'VERB', 'parataxis']", "['发展', '发展', 'parataxis']"]
+["['VERB', 'VERB', 'mark']", "['出', '发展', 'mark']"]
+["['AUX', 'VERB', 'aux']", "['过', '发展', 'aux']"]
+["['NOUN', 'NOUN', 'nmod']", "['集权', '政府', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['政府', '发展', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '并非', 'punct']"]
+----------------------------------------------------------------------
+这就是为什么当今促进财富的机构首先出现在拥有最古老和最富庶农业的欧亚大陆。
+
+(ROOT (IP (NP (PRD 这)) (VP (VC 就是) (IP (NP (PP (IN 为) (DP (WP 什么))) (NP (NN 当今)) (CP (CP (IP (VP (VV 促进) (NP (NN 财富)))) (DEC 的))) (NP (NN 机构))) (VP (ADVP (RB 首先)) (VP (VV 出现) (PP (IN 在) (NP (CP (CP (IP (VP (VV 拥有) (IP (VP (VP (ADVP (RB 最)) (VP (JJ 古老))) (CC 和) (NP (ADJP (JJ 最富庶)) (NP (NN 农业))))))) (DEC 的))) (NP (NNP 欧) (NNP 亚)) (NP (NN 大陆)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VC': {}, 'IP': {}}}
+Dependency Features:
+["['PRON', 'VERB', 'nsubj']", "['这', '是', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['是', 'NONE', 'root']"]
+["['ADP', 'PRON', 'case']", "['为', '什么', 'case']"]
+["['PRON', 'VERB', 'obl']", "['什么', '出现', 'obl']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['当今', '促进', 'nmod:tmod']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['促进', '机构', 'acl:relcl']"]
+["['NOUN', 'VERB', 'obj']", "['财富', '促进', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '促进', 'mark:rel']"]
+["['NOUN', 'VERB', 'nsubj']", "['机构', '出现', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['首先', '出现', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['出现', '是', 'ccomp']"]
+["['ADP', 'NOUN', 'case']", "['在', '大陆', 'case']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['拥有', '大陆', 'acl:relcl']"]
+["['ADV', 'ADJ', 'advmod']", "['最', '古老', 'advmod']"]
+["['ADJ', 'NOUN', 'amod']", "['古老', '大陆', 'amod']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '农业', 'cc']"]
+["['ADJ', 'NOUN', 'amod']", "['最富庶', '农业', 'amod']"]
+["['NOUN', 'ADJ', 'conj']", "['农业', '古老', 'conj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '拥有', 'mark:rel']"]
+["['PROPN', 'NOUN', 'nmod']", "['欧', '大陆', 'nmod']"]
+["['PROPN', 'NOUN', 'nmod']", "['亚', '大陆', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['大陆', '出现', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '是', 'punct']"]
+----------------------------------------------------------------------
+这对美国来说意味着什么？我们可以假设，美国拥有温带地区、海岸和可航行河流的祝福，将永远富有，而热带或内陆国家注定要陷入永恒的贫穷吗？
+
+(ROOT (IP (NP (PRD 这)) (VP (IP (VP (PP (IN 对) (NP (NNP 美国))) (VP (RB 来) (VP (VV 说))))) (VP (VV 意味) (AS 着) (NP (WP 什么)))) (. ？)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'IP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'IP': {}, 'VP': {}}}
+Dependency Features:
+["['PRON', 'VERB', 'nsubj']", "['这', '意味', 'nsubj']"]
+["['ADP', 'PROPN', 'case']", "['对', '美国', 'case']"]
+["['PROPN', 'VERB', 'obl']", "['美国', '说', 'obl']"]
+["['ADV', 'VERB', 'mark']", "['来', '说', 'mark']"]
+["['VERB', 'VERB', 'advcl']", "['说', '意味', 'advcl']"]
+["['VERB', 'ROOT', 'root']", "['意味', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['着', '意味', 'aux']"]
+["['PRON', 'VERB', 'obj']", "['什么', '意味', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['？', '意味', 'punct']"]
+----------------------------------------------------------------------
+当然不会。
+
+(ROOT (IP (VP (ADVP (RB 当然)) (VP (MD 不会))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+["['ADV', 'AUX', 'advmod']", "['当然', '会', 'advmod']"]
+["['AUX', 'ROOT', 'root']", "['会', 'NONE', 'root']"]
+["['PUNCT', 'AUX', 'punct']", "['。', '会', 'punct']"]
+----------------------------------------------------------------------
+一些热带和亚热带国家尽管地理条件有限，但仍然变得富裕起来。
+
+(ROOT (IP (NP (QP (JJ 一些)) (NP (NP (NN 热带)) (CC 和) (NP (ADJP (PFA 亚)) (NP (NN 热带)))) (NP (NN 国家))) (VP (CP (ADVP (IN 尽管)) (IP (NP (NN 地理) (NN 条件)) (VP (JJ 有限)))) (, ，) (ADVP (RB 但)) (ADVP (RB 仍然)) (VP (VV 变得) (VP (VRD (JJ 富裕) (VV 起来))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}, 'NP': {}}, 'VP': {'CP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}, 'NP': {}}}
+{'VP': {'CP': {}, ',': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+["['ADJ', 'NOUN', 'amod']", "['一些', '热带', 'amod']"]
+["['NOUN', 'ADJ', 'nsubj']", "['热带', '有限', 'nsubj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '国家', 'cc']"]
+["['PART', 'NOUN', 'case']", "['亚', '热带', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['热带', '国家', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['国家', '热带', 'conj']"]
+["['ADP', 'ADJ', 'case']", "['尽管', '有限', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['地理', '条件', 'nmod']"]
+["['NOUN', 'ADJ', 'nsubj']", "['条件', '有限', 'nsubj']"]
+["['ADJ', 'VERB', 'ccomp']", "['有限', '变得', 'ccomp']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '有限', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['但', '变得', 'mark']"]
+["['ADV', 'VERB', 'advmod']", "['仍然', '变得', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['变得', 'NONE', 'root']"]
+["['ADJ', 'VERB', 'xcomp']", "['富裕', '变得', 'xcomp']"]
+["['VERB', 'ADJ', 'mark']", "['起来', '富裕', 'mark']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '变得', 'punct']"]
+----------------------------------------------------------------------
+他们投资公共卫生，以克服自身的疾病负担（博茨瓦纳和菲律宾）。
+
+(ROOT (IP (NP (PRP 他们)) (VP (VP (VV 投资) (NP (ADJP (JJ 公共)) (NP (NN 卫生)))) (, ，) (VP (RB 以) (VP (VV 克服) (NP (DNP (NP (PRD 自身)) (DEC 的)) (NP (NN 疾病) (NN 负担)) (PRN (-LRB- （) (NP (NNP 博茨瓦纳) (CC 和) (NNP 菲律宾)) (-RRB- ）)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+["['PRON', 'VERB', 'nsubj']", "['他', '克服', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['投资', '克服', 'advcl']"]
+["['ADJ', 'NOUN', 'amod']", "['公共', '卫生', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['卫生', '投资', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '投资', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['以', '克服', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['克服', 'NONE', 'root']"]
+["['PRON', 'NOUN', 'det']", "['自身', '负担', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '自身', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['疾病', '负担', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['负担', '克服', 'obj']"]
+["['PUNCT', 'PROPN', 'punct']", "['（', '博茨瓦纳', 'punct']"]
+["['PROPN', 'NOUN', 'appos']", "['博茨瓦纳', '负担', 'appos']"]
+["['CCONJ', 'PROPN', 'cc']", "['和', '菲律宾', 'cc']"]
+["['PROPN', 'PROPN', 'conj']", "['菲律宾', '博茨瓦纳', 'conj']"]
+["['PUNCT', 'PROPN', 'punct']", "['）', '博茨瓦纳', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '克服', 'punct']"]
+----------------------------------------------------------------------
+他们投资了适合热带地区的作物（巴西和马来西亚）。
+
+(ROOT (IP (NP (PRP 他们)) (VP (VV 投资) (AS 了) (NP (CP (CP (IP (VP (VV 适合) (NP (NN 热带) (NN 地区)))) (DEC 的))) (NP (NN 作物)) (PRN (-LRB- （) (NP (NNP 巴西) (CC 和) (NNP 马来西亚)) (-RRB- ）)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+Dependency Features:
+["['PRON', 'VERB', 'nsubj']", "['他', '投资', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['投资', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['了', '投资', 'aux']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['适合', '作物', 'acl:relcl']"]
+["['NOUN', 'NOUN', 'nmod']", "['热带', '地区', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['地区', '适合', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '适合', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['作物', '投资', 'obj']"]
+["['PUNCT', 'PROPN', 'punct']", "['（', '巴西', 'punct']"]
+["['PROPN', 'NOUN', 'appos']", "['巴西', '作物', 'appos']"]
+["['CCONJ', 'PROPN', 'cc']", "['和', '马来西亚', 'cc']"]
+["['PROPN', 'PROPN', 'conj']", "['马来西亚', '巴西', 'conj']"]
+["['PUNCT', 'PROPN', 'punct']", "['）', '巴西', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '投资', 'punct']"]
+----------------------------------------------------------------------
+他们将经济重点放在农业以外的行业上（新加坡和台湾）。
+
+(ROOT (IP (NP (PRP 他们)) (VP (BB 将) (IP (NP (NN 经济) (NN 重点)) (VP (VV 放) (PP (VV 在) (NP (LCP (NP (DNP (LCP (NP (NN 农业)) (IN 以外)) (DEC 的)) (NP (NN 行业))) (IN 上)) (PRN (-LRB- （) (NP (NNP 新加坡) (CC 和) (NNP 台湾)) (-RRB- ）))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'BB': {}, 'IP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'BB': {}, 'IP': {}}}
+Dependency Features:
+["['PRON', 'VERB', 'nsubj']", "['他', '放', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['将', '重点', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['经济', '重点', 'nmod']"]
+["['NOUN', 'VERB', 'obl:patient']", "['重点', '放', 'obl:patient']"]
+["['VERB', 'ROOT', 'root']", "['放', 'NONE', 'root']"]
+["['VERB', 'VERB', 'mark']", "['在', '放', 'mark']"]
+["['NOUN', 'NOUN', 'nmod']", "['农业', '行业', 'nmod']"]
+["['ADP', 'NOUN', 'case']", "['以外', '农业', 'case']"]
+["['PART', 'NOUN', 'case']", "['的', '农业', 'case']"]
+["['NOUN', 'VERB', 'obj']", "['行业', '放', 'obj']"]
+["['ADP', 'NOUN', 'case']", "['上', '行业', 'case']"]
+["['PUNCT', 'PROPN', 'punct']", "['（', '新加坡', 'punct']"]
+["['PROPN', 'NOUN', 'appos']", "['新加坡', '行业', 'appos']"]
+["['CCONJ', 'PROPN', 'cc']", "['和', '台湾', 'cc']"]
+["['PROPN', 'PROPN', 'conj']", "['台湾', '新加坡', 'conj']"]
+["['PUNCT', 'PROPN', 'punct']", "['）', '新加坡', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '放', 'punct']"]
+----------------------------------------------------------------------
+相反，地理优势并不能保证永远的成功，欧美日渐难行就是证明。
+
+(ROOT (IP (IP (ADVP (VV 相反)) (, ，) (NP (NN 地理) (NN 优势)) (VP (ADVP (RB 并)) (VP (MD 不能) (VP (VV 保证) (NP (DNP (ADJP (JJ 永远)) (DEC 的)) (NP (NN 成功))))))) (, ，) (IP (NP (NNP 欧) (NNP 美)) (VP (VP (ADVP (RB 日渐)) (VP (JJ 难行))) (VP (VC 就是) (VP (VV 证明))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['VERB', 'VERB', 'advcl']", "['相反', '保证', 'advcl']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '相反', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['地理', '优势', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['优势', '保证', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['并', '保证', 'advmod']"]
+["['AUX', 'VERB', 'aux']", "['能', '保证', 'aux']"]
+["['VERB', 'ROOT', 'root']", "['保证', 'NONE', 'root']"]
+["['ADJ', 'NOUN', 'amod']", "['永远', '成功', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '永远', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['成功', '保证', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '证明', 'punct']"]
+["['PROPN', 'ADJ', 'nsubj']", "['欧', '难行', 'nsubj']"]
+["['PROPN', 'PROPN', 'conj']", "['美', '欧', 'conj']"]
+["['ADV', 'ADJ', 'advmod']", "['日渐', '难行', 'advmod']"]
+["['ADJ', 'VERB', 'advcl']", "['难行', '证明', 'advcl']"]
+["['AUX', 'VERB', 'cop']", "['是', '证明', 'cop']"]
+["['VERB', 'VERB', 'parataxis']", "['证明', '保证', 'parataxis']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '保证', 'punct']"]
+----------------------------------------------------------------------
+我们美国人未能向大部分人口提供优质的教育和经济刺激。
+
+(ROOT (IP (NP (NP (PRP 我们)) (NP (NNP 美国)) (NP (SFN 人))) (VP (MD 未能) (VP (PP (IN 向) (NP (QP (ADJP (PFA 大)) (QP (NN 部分))) (NP (NN 人口)))) (VP (VV 提供) (NP (DNP (ADJP (JJ 优质)) (DEC 的)) (NP (NN 教育) (CC 和) (NN 经济)) (NP (NN 刺激)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP': {}, 'NP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}, 'NP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+["['PRON', 'PART', 'nmod']", "['我', '人', 'nmod']"]
+["['PROPN', 'PART', 'compound']", "['美国', '人', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['人', '提供', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['能', '提供', 'aux']"]
+["['ADP', 'NOUN', 'case']", "['向', '人口', 'case']"]
+["['PART', 'NOUN', 'case']", "['大', '部分', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['部分', '人口', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['人口', '提供', 'obl']"]
+["['VERB', 'ROOT', 'root']", "['提供', 'NONE', 'root']"]
+["['ADJ', 'NOUN', 'amod']", "['优质', '教育', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '优质', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['教育', '提供', 'obj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '刺激', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['经济', '刺激', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['刺激', '教育', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '提供', 'punct']"]
+----------------------------------------------------------------------
+印度、中国等未曾成为世界领先国家的国家都在大力投资教育、技术和基础设施。
+
+(ROOT (IP (NP (NP (NNP 印度) (EC 、) (NNP 中国) (NN 等)) (CP (CP (IP (VP (ADVP (RB 未)) (ADVP (RB 曾)) (VP (VV 成) (VP (VC 为) (NP (NP (NN 世界)) (ADJP (JJ 领先)) (NP (NN 国家))))))) (DEC 的))) (NP (NN 国家))) (VP (ADVP (RB 都)) (ADVP (RB 在)) (ADVP (RB 大力)) (VP (VV 投资) (NP (NN 教育) (EC 、) (NN 技术) (CC 和) (NN 基础) (NN 设施)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'CP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'CP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+["['PROPN', 'VERB', 'nsubj']", "['印度', '成', 'nsubj']"]
+["['PUNCT', 'PROPN', 'punct']", "['、', '中国', 'punct']"]
+["['PROPN', 'PROPN', 'conj']", "['中国', '印度', 'conj']"]
+["['NOUN', 'PROPN', 'acl']", "['等', '印度', 'acl']"]
+["['ADV', 'VERB', 'advmod']", "['未', '成', 'advmod']"]
+["['ADV', 'VERB', 'advmod']", "['曾', '成', 'advmod']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['成', '国家', 'acl:relcl']"]
+["['VERB', 'VERB', 'mark']", "['为', '成', 'mark']"]
+["['NOUN', 'NOUN', 'nmod']", "['世界', '国家', 'nmod']"]
+["['ADJ', 'NOUN', 'amod']", "['领先', '国家', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['国家', '成', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '成', 'mark:rel']"]
+["['NOUN', 'VERB', 'nsubj']", "['国家', '投资', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['都', '投资', 'mark']"]
+["['ADV', 'VERB', 'advmod']", "['在', '投资', 'advmod']"]
+["['ADV', 'VERB', 'advmod']", "['大力', '投资', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['投资', 'NONE', 'root']"]
+["['NOUN', 'VERB', 'obj']", "['教育', '投资', 'obj']"]
+["['PUNCT', 'NOUN', 'punct']", "['、', '技术', 'punct']"]
+["['NOUN', 'NOUN', 'conj']", "['技术', '教育', 'conj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '设施', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['基础', '设施', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['设施', '教育', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '投资', 'punct']"]
+----------------------------------------------------------------------
+它们正在为越来越多的公民提供经济机会。
+
+(ROOT (IP (NP (PRP 它们)) (VP (ADVP (RB 正)) (ADVP (RB 在)) (PP (IN 为) (NP (CP (CP (IP (VP (ADVP (RB 越来越)) (VP (JJ 多)))) (DEC 的))) (NP (NN 公民)))) (VP (VV 提供) (NP (NN 经济) (NN 机会)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'PP': {}, 'VP': {}}}
+Dependency Features:
+["['PRON', 'VERB', 'nsubj']", "['它', '提供', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['正', '提供', 'advmod']"]
+["['ADV', 'VERB', 'advmod']", "['在', '提供', 'advmod']"]
+["['ADP', 'NOUN', 'case']", "['为', '公民', 'case']"]
+["['ADV', 'ADJ', 'advmod']", "['越来越', '多', 'advmod']"]
+["['ADJ', 'NOUN', 'amod']", "['多', '公民', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '多', 'mark:rel']"]
+["['NOUN', 'VERB', 'obl']", "['公民', '提供', 'obl']"]
+["['VERB', 'ROOT', 'root']", "['提供', 'NONE', 'root']"]
+["['NOUN', 'NOUN', 'nmod']", "['经济', '机会', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['机会', '提供', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '提供', 'punct']"]
+----------------------------------------------------------------------
+这也是职位流失海外的部分原因。
+
+(ROOT (IP (NP (PRD 这)) (VP (VC 也是) (NP (CP (CP (IP (NP (NN 职位)) (VP (VP (VV 流失) (NP (NN 海外))))) (DEC 的))) (QP (NN 部分)) (NP (NN 原因)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'PRD': {}}, 'VP': {'VC': {}, 'NP': {}}, '.': {}}}
+{'NP': {'PRD': {}}}
+{'VP': {'VC': {}, 'NP': {}}}
+Dependency Features:
+["['PRON', 'NOUN', 'nsubj']", "['这', '原因', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '原因', 'cop']"]
+["['NOUN', 'VERB', 'nsubj']", "['职位', '流失', 'nsubj']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['流失', '原因', 'acl:relcl']"]
+["['NOUN', 'VERB', 'obj']", "['海外', '流失', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '流失', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['部分', '原因', 'nmod']"]
+["['NOUN', 'ROOT', 'root']", "['原因', 'NONE', 'root']"]
+["['PUNCT', 'NOUN', 'punct']", "['。', '原因', 'punct']"]
+----------------------------------------------------------------------
+如果我们不能接受良好的教育，不能负担得起医疗保健，不能依靠自己的努力获得好工作和增长收入，那么我们的地理位置将不会让我们富有和强大。
+
+(ROOT (IP (CP (ADVP (IN 如果)) (IP (NP (PRP 我们)) (VP (VP (MD 不能) (VP (VV 接受) (NP (CP (CP (IP (VP (JJ 良好))) (DEC 的))) (NP (NN 教育))))) (, ，) (VP (MD 不能) (VP (VRD (VV 负担) (VV 得起)) (NP (NN 医疗) (NN 保健)))) (, ，) (VP (MD 不能) (VP (VP (VV 依靠) (NP (DNP (NP (PRD 自己)) (DEC 的)) (NP (NN 努力)))) (VP (VV 获得) (NP (NP (ADJP (JJ 好)) (NP (NN 工作))) (CC 和) (NP (NN 增长) (NN 收入))))))))) (, ，) (ADVP (RB 那么)) (NP (DNP (NP (PRP 我们)) (DEC 的)) (NP (NN 地理) (NN 位置))) (VP (ADVP (RB 将)) (VP (MD 不会) (VP (VV 让) (NP (PRP 我们)) (IP (VP (VV 富有) (CC 和) (JJ 强大)))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'ADVP': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'ADVP': {}, 'IP': {}}, ',': {}, 'ADVP': {'RB': {}}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'ADVP': {}, 'IP': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+["['ADP', 'VERB', 'case']", "['如果', '负担', 'case']"]
+["['PRON', 'VERB', 'nsubj']", "['我', '接受', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['能', '接受', 'aux']"]
+["['VERB', 'VERB', 'ccomp']", "['接受', '负担', 'ccomp']"]
+["['ADJ', 'NOUN', 'amod']", "['良好', '教育', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '良好', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['教育', '接受', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '接受', 'punct']"]
+["['AUX', 'VERB', 'aux']", "['能', '负担', 'aux']"]
+["['VERB', 'VERB', 'advcl']", "['负担', '获得', 'advcl']"]
+["['VERB', 'VERB', 'mark']", "['得起', '负担', 'mark']"]
+["['NOUN', 'NOUN', 'nmod']", "['医疗', '保健', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['保健', '负担', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '负担', 'punct']"]
+["['AUX', 'VERB', 'aux']", "['能', '获得', 'aux']"]
+["['VERB', 'VERB', 'advcl']", "['依靠', '获得', 'advcl']"]
+["['PRON', 'NOUN', 'det']", "['自己', '努力', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '自己', 'case']"]
+["['NOUN', 'VERB', 'obj']", "['努力', '依靠', 'obj']"]
+["['VERB', 'ROOT', 'root']", "['获得', 'NONE', 'root']"]
+["['ADJ', 'NOUN', 'amod']", "['好', '工作', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['工作', '获得', 'obj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '收入', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['增长', '收入', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['收入', '工作', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '让', 'punct']"]
+["['ADV', 'VERB', 'advmod']", "['那么', '让', 'advmod']"]
+["['PRON', 'NOUN', 'det']", "['我', '位置', 'det']"]
+["['PART', 'PRON', 'mark:rel']", "['的', '我', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['地理', '位置', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['位置', '让', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['将', '让', 'advmod']"]
+["['AUX', 'VERB', 'aux']", "['会', '让', 'aux']"]
+["['VERB', 'VERB', 'parataxis']", "['让', '获得', 'parataxis']"]
+["['PRON', 'VERB', 'nsubj']", "['我', '富有', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['富有', '让', 'ccomp']"]
+["['CCONJ', 'ADJ', 'cc']", "['和', '强大', 'cc']"]
+["['ADJ', 'VERB', 'conj']", "['强大', '富有', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '获得', 'punct']"]
+----------------------------------------------------------------------
+米特·罗姆尼可能会成为我们的下一任总统。
+
+(ROOT (IP (NP (NNP 米特) (/ ·) (NNP 罗姆尼)) (VP (MD 可能) (VP (MD 会) (VP (VV 成) (VP (VC 为) (NP (DNP (NP (PRP 我们)) (DEC 的)) (DP (DT 下) (QP (CD 一) (CLP (NNB 任)))) (NP (NN 总统))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}, '/': {}, 'NNP': {}}, 'VP': {'MD': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NNP': {}, '/': {}, 'NNP': {}}}
+{'VP': {'MD': {}, 'VP': {}}}
+Dependency Features:
+["['PROPN', 'VERB', 'nsubj']", "['米特', '成', 'nsubj']"]
+["['PUNCT', 'PROPN', 'punct']", "['·', '罗姆尼', 'punct']"]
+["['PROPN', 'PROPN', 'flat:name']", "['罗姆尼', '米特', 'flat:name']"]
+["['AUX', 'VERB', 'aux']", "['可能', '成', 'aux']"]
+["['AUX', 'VERB', 'aux']", "['会', '成', 'aux']"]
+["['VERB', 'ROOT', 'root']", "['成', 'NONE', 'root']"]
+["['VERB', 'VERB', 'mark']", "['为', '成', 'mark']"]
+["['PRON', 'NOUN', 'det']", "['我', '总统', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '我', 'case']"]
+["['DET', 'NOUN', 'det']", "['下', '任', 'det']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '任', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['任', '总统', 'clf']"]
+["['NOUN', 'VERB', 'obj']", "['总统', '成', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '成', 'punct']"]
+----------------------------------------------------------------------
+他还会继续为多因素问题寻找单一因素的解释吗，还会不懂历史和现代世界吗？
+
+(ROOT (IP (CP (IP (NP (PRP 他)) (VP (ADVP (RB 还)) (VP (MD 会) (VP (VV 继续) (VP (PP (IN 为) (NP (NP (QP (CD 多)) (NP (NN 因素))) (NP (NN 问题)))) (VP (VV 寻找) (NP (DNP (NP (ADJP (JJ 单一)) (NP (NN 因素))) (DEC 的)) (NP (NN 解释))))))))) (UH 吗)) (, ，) (CP (IP (VP (ADVP (RB 还)) (VP (VNV (MD 会) (RB 不) (VV 懂)) (NP (NP (NN 历史)) (CC 和) (NP (ADJP (NN 现代)) (NP (NN 世界))))))) (UH 吗)) (. ？)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'CP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'IP': {}, 'UH': {}}, ',': {}, 'CP': {'IP': {}, 'UH': {}}, '.': {}}}
+{'CP': {'IP': {}, 'UH': {}}}
+{'CP': {'IP': {}, 'UH': {}}}
+Dependency Features:
+["['PRON', 'VERB', 'nsubj']", "['他', '懂', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['还', '继续', 'mark']"]
+["['AUX', 'VERB', 'aux']", "['会', '继续', 'aux']"]
+["['VERB', 'VERB', 'advcl']", "['继续', '懂', 'advcl']"]
+["['ADP', 'NOUN', 'case']", "['为', '问题', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['多', '因素', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['因素', '问题', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['问题', '寻找', 'obl']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['寻找', '解释', 'acl:relcl']"]
+["['ADJ', 'NOUN', 'amod']", "['单一', '因素', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['因素', '寻找', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '寻找', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['解释', '继续', 'obj']"]
+["['PART', 'VERB', 'discourse']", "['吗', '继续', 'discourse']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '继续', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['还', '懂', 'mark']"]
+["['AUX', 'VERB', 'aux']", "['会', '懂', 'aux']"]
+["['ADV', 'VERB', 'advmod']", "['不', '懂', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['懂', 'NONE', 'root']"]
+["['NOUN', 'VERB', 'obj']", "['历史', '懂', 'obj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '世界', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['现代', '世界', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['世界', '历史', 'conj']"]
+["['PART', 'VERB', 'discourse']", "['吗', '懂', 'discourse']"]
+["['PUNCT', 'VERB', 'punct']", "['？', '懂', 'punct']"]
+----------------------------------------------------------------------
+如果是这样的话，他将会掌管一个衰落的国家，浪费着其地理位置和历史优势。
+
+(ROOT (IP (CP (IP (VP (ADVP (IN 如果)) (VP (VC 是) (NP (PRD 这样))))) (UH 的话)) (, ，) (NP (PRP 他)) (VP (ADVP (RB 将)) (VP (MD 会) (VP (VP (VV 掌管) (NP (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 衰落))) (DEC 的))) (NP (NN 国家)))) (, ，) (VP (VV 浪费) (AS 着) (NP (NP (PRP 其)) (NP (NN 地理) (NN 位置) (CC 和) (NN 历史) (NN 优势))))))) (. 。)))
+layer 2:
+{'IP': {'CP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'CP': {'IP': {}, 'UH': {}}, ',': {}, 'NP': {'PRP': {}}, 'VP': {'ADVP': {}, 'VP': {}}, '.': {}}}
+{'CP': {'IP': {}, 'UH': {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'ADVP': {}, 'VP': {}}}
+Dependency Features:
+["['ADP', 'VERB', 'case']", "['如果', '是', 'case']"]
+["['VERB', 'VERB', 'xcomp']", "['是', '浪费', 'xcomp']"]
+["['PRON', 'VERB', 'obj']", "['这样', '是', 'obj']"]
+["['PART', 'VERB', 'discourse']", "['的话', '是', 'discourse']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '是', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '浪费', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['将', '掌管', 'advmod']"]
+["['AUX', 'VERB', 'aux']", "['会', '掌管', 'aux']"]
+["['VERB', 'VERB', 'advcl']", "['掌管', '浪费', 'advcl']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '个', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['个', '国家', 'clf']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['衰落', '国家', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '衰落', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['国家', '掌管', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '掌管', 'punct']"]
+["['VERB', 'ROOT', 'root']", "['浪费', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['着', '浪费', 'aux']"]
+["['PRON', 'NOUN', 'nmod']", "['其', '位置', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['地理', '位置', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['位置', '浪费', 'obj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '优势', 'cc']"]
+["['NOUN', 'NOUN', 'nmod']", "['历史', '优势', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['优势', '位置', 'conj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '浪费', 'punct']"]
 ----------------------------------------------------------------------

@@ -1,397 +1,1321 @@
-在英国最负盛名的文学奖首次在其 46 年历史中向任何国籍的作家开放之后，英国作家占据了曼布里奖短名单的三个名额。
+中国天津 - 一个装有危险货物的仓库周三晚间发生巨大爆炸，巨大的爆炸声震惊了这座东北港口城市，造成至少 17 人死亡，至少 400 人受伤，数十栋高楼的玻璃被炸碎，并造成其他广泛的破坏。
 
-(ROOT (IP (LCP (IP (NP (CP (CP (IP (VP (PP (IN 在) (NP (NNP 英国))) (ADVP (RB 最)) (VP (JJ 负盛) (NP (SFN 名))))) (DEC 的))) (NP (NN 文学) (SFN 奖))) (VP (ADVP (CD 首次)) (PP (IN 在) (LCP (NP (NP (PRP 其)) (QP (CD 46)) (NP (NN 年历史))) (IN 中))) (PP (IN 向) (NP (DNP (NP (DP (DT 任何)) (NP (NN 国籍))) (DEC 的)) (NP (NN 作家)))) (VP (VV 开放)))) (IN 之后)) (, ，) (NP (NP (NNP 英国)) (NP (NN 作家))) (VP (VV 占据) (AS 了) (NP (DNP (NP (NP (NP (NNP 曼布) (NN 里)) (NP (SFN 奖))) (ADJP (PFA 短)) (NP (NN 名单))) (DEC 的)) (QP (CD 三) (CLP (NNB 个))) (NP (NN 名额)))) (. 。)))
+(ROOT (IP (IP (NP (NP (NNP 中国) (NNP 天津)) (HYPH - ) (QP (CD 一) (CLP (NNB 个))) (CP (CP (IP (VP (VV 装有) (NP (ADJP (JJ 危险)) (NP (NN 货物))))) (DEC 的))) (NP (NN 仓库))) (VP (NP (NP (SFN 周) (CD 三)) (NP (NN 晚间))) (VP (VV 发生) (NP (ADJP (JJ 巨大)) (NP (NN 爆炸)))))) (, ，) (IP (NP (CP (CP (IP (VP (JJ 巨大))) (DEC 的))) (NP (VV 爆炸) (SFN 声))) (VP (VP (VV 震惊) (AS 了) (NP (DP (DT 这) (CLP (NNB 座))) (NP (NN 东北) (NN 港口) (NN 城市)))) (, ，) (VP (VV 造成) (IP (IP (NP (QP (ADVP (RB 至少)) (QP (CD 17))) (NP (NN 人))) (VP (VV 死亡))) (, ，) (IP (NP (ADVP (RB 至少)) (NP (QP (CD 400)) (NP (NN 人)))) (VP (VV 受伤))))))) (, ，) (IP (NP (DNP (NP (QP (CD 数十) (CLP (NNB 栋))) (NP (NN 高楼))) (DEC 的)) (NP (NN 玻璃))) (VP (VP (BB 被) (VP (VV 炸碎))) (, ，) (RB 并) (VP (VV 造成) (NP (DP (DT 其他)) (CP (CP (IP (VP (JJ 广泛))) (DEC 的))) (NP (NN 破坏)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['PROPN', 'PROPN', 'nmod']", "['中国', '天津', 'nmod']"]
+["['PROPN', 'NOUN', 'nmod']", "['天津', '晚间', 'nmod']"]
+["['PUNCT', 'PROPN', 'punct']", "['- ', '天津', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '个', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['个', '晚间', 'clf']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['装有', '晚间', 'acl:relcl']"]
+["['ADJ', 'NOUN', 'amod']", "['危险', '货物', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['货物', '装有', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '装有', 'mark:rel']"]
+["['NOUN', 'PART', 'compound']", "['仓库', '周', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['周', '晚间', 'nmod']"]
+["['NUM', 'NOUN', 'nummod']", "['三', '晚间', 'nummod']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['晚间', '发生', 'nmod:tmod']"]
+["['VERB', 'ROOT', 'root']", "['发生', 'NONE', 'root']"]
+["['ADJ', 'NOUN', 'amod']", "['巨大', '爆炸', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['爆炸', '发生', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '造成', 'punct']"]
+["['ADJ', 'PART', 'amod']", "['巨大', '声', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '巨大', 'mark:rel']"]
+["['VERB', 'PART', 'compound']", "['爆炸', '声', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['声', '震惊', 'nsubj']"]
+["['VERB', 'VERB', 'csubj']", "['震惊', '造成', 'csubj']"]
+["['AUX', 'VERB', 'aux']", "['了', '震惊', 'aux']"]
+["['DET', 'NOUN', 'det']", "['这', '座', 'det']"]
+["['NOUN', 'NOUN', 'clf']", "['座', '城市', 'clf']"]
+["['NOUN', 'NOUN', 'nmod']", "['东北', '城市', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['港口', '城市', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['城市', '震惊', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '震惊', 'punct']"]
+["['VERB', 'VERB', 'advcl']", "['造成', '造成', 'advcl']"]
+["['ADV', 'VERB', 'advmod']", "['至少', '死亡', 'advmod']"]
+["['NUM', 'NOUN', 'nummod']", "['17', '人', 'nummod']"]
+["['NOUN', 'VERB', 'nsubj']", "['人', '死亡', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['死亡', '受伤', 'advcl']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '死亡', 'punct']"]
+["['ADV', 'NUM', 'advmod']", "['至少', '400', 'advmod']"]
+["['NUM', 'NOUN', 'nummod']", "['400', '人', 'nummod']"]
+["['NOUN', 'VERB', 'nsubj']", "['人', '受伤', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['受伤', '炸碎', 'advcl']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '受伤', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['数十', '栋', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['栋', '高楼', 'clf']"]
+["['NOUN', 'NOUN', 'nmod']", "['高楼', '玻璃', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '高楼', 'case']"]
+["['NOUN', 'VERB', 'nsubj:pass']", "['玻璃', '炸碎', 'nsubj:pass']"]
+["['AUX', 'VERB', 'aux:pass']", "['被', '炸碎', 'aux:pass']"]
+["['VERB', 'VERB', 'ccomp']", "['炸碎', '造成', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '造成', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['并', '造成', 'mark']"]
+["['VERB', 'VERB', 'parataxis']", "['造成', '发生', 'parataxis']"]
+["['DET', 'NOUN', 'det']", "['其他', '破坏', 'det']"]
+["['ADJ', 'NOUN', 'amod']", "['广泛', '破坏', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '广泛', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['破坏', '造成', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '发生', 'punct']"]
+----------------------------------------------------------------------
+爆炸的威力在地震烈度计上都有记录，并且在数英里之外都能感受到。
+
+(ROOT (IP (NP (DNP (NP (VV 爆炸)) (DEC 的)) (NP (NN 威力))) (VP (VP (PP (IN 在) (LCP (NP (NN 地震) (SFN 烈) (SFN 度) (VV 计)) (IN 上))) (ADVP (RB 都)) (VP (VV 有) (NP (NN 记录)))) (, ，) (RB 并且) (VP (PP (VV 在) (LCP (QP (CD 数) (CLP (NNB 英里))) (IN 之外))) (ADVP (RB 都)) (VP (MD 能) (VP (VRD (VV 感受) (VV 到)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}, '.': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'RB': {}, 'VP': {}}}
+Dependency Features:
+["['VERB', 'NOUN', 'acl:relcl']", "['爆炸', '威力', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '爆炸', 'mark:rel']"]
+["['NOUN', 'VERB', 'nsubj']", "['威力', '有', 'nsubj']"]
+["['ADP', 'PART', 'case']", "['在', '度', 'case']"]
+["['NOUN', 'PART', 'compound']", "['地震', '烈', 'compound']"]
+["['PART', 'PART', 'compound']", "['烈', '度', 'compound']"]
+["['PART', 'VERB', 'obl']", "['度', '计', 'obl']"]
+["['VERB', 'VERB', 'advcl']", "['计', '有', 'advcl']"]
+["['ADP', 'VERB', 'mark']", "['上', '计', 'mark']"]
+["['ADV', 'VERB', 'mark']", "['都', '有', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['有', 'NONE', 'root']"]
+["['NOUN', 'VERB', 'obj']", "['记录', '有', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '感受', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['并且', '感受', 'mark']"]
+["['VERB', 'VERB', 'advcl']", "['在', '感受', 'advcl']"]
+["['NUM', 'NOUN', 'nummod']", "['数', '英里', 'nummod']"]
+["['NOUN', 'VERB', 'obj']", "['英里', '在', 'obj']"]
+["['ADP', 'VERB', 'mark']", "['之外', '在', 'mark']"]
+["['ADV', 'VERB', 'mark']", "['都', '感受', 'mark']"]
+["['AUX', 'VERB', 'aux']", "['能', '感受', 'aux']"]
+["['VERB', 'VERB', 'parataxis']", "['感受', '有', 'parataxis']"]
+["['VERB', 'VERB', 'mark']", "['到', '感受', 'mark']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '感受', 'punct']"]
+----------------------------------------------------------------------
+星期四早上，天津警察部门在一份声明中表示，拥有残骸中仍然无法确定的人数，32 名受伤者中有 6 名消防员伤势严重。
+
+(ROOT (IP (LCP (NP (NP (NN 星期) (CD 四)) (NP (NNB 早))) (IN 上)) (, ，) (NP (NP (NNP 天津)) (NP (NN 警察) (NN 部门))) (VP (PP (IN 在) (LCP (NP (QP (CD 一) (CLP (NNB 份))) (NP (NN 声明))) (IN 中))) (VP (VV 表示) (, ，) (IP (IP (VP (VV 拥有) (NP (LCP (NP (NN 残骸)) (IN 中)) (CP (CP (IP (VP (ADVP (RB 仍然)) (ADVP (VV 无法)) (VP (VV 确定)))) (DEC 的))) (NP (NN 人数))))) (, ，) (IP (LCP (NP (QP (CD 32) (CLP (NNB 名))) (NP (VV 受伤) (SFN 者))) (IN 中)) (VP (VV 有) (IP (NP (QP (CD 6)) (NP (NNB 名消) (NN 防员))) (NP (NN 伤势)) (VP (JJ 严重)))))))) (. 。)))
 layer 2:
 {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'LCP': {'NP': {}, 'IN': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'PP': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'IN': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'PP': {}, 'VP': {}}}
+Dependency Features:
+["['NOUN', 'NOUN', 'nmod']", "['星期', '早', 'nmod']"]
+["['NUM', 'NOUN', 'nummod']", "['四', '早', 'nummod']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['早', '表示', 'nmod:tmod']"]
+["['ADP', 'NOUN', 'case']", "['上', '早', 'case']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '早', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['天津', '部门', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['警察', '部门', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['部门', '表示', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['在', '声明', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '份', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['份', '声明', 'clf']"]
+["['NOUN', 'VERB', 'obl']", "['声明', '表示', 'obl']"]
+["['ADP', 'NOUN', 'case']", "['中', '声明', 'case']"]
+["['VERB', 'ROOT', 'root']", "['表示', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '有', 'punct']"]
+["['VERB', 'VERB', 'advcl']", "['拥有', '无法', 'advcl']"]
+["['NOUN', 'VERB', 'obj']", "['残骸', '拥有', 'obj']"]
+["['ADP', 'NOUN', 'case']", "['中', '残骸', 'case']"]
+["['ADV', 'VERB', 'advmod']", "['仍然', '无法', 'advmod']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['无法', '人数', 'acl:relcl']"]
+["['VERB', 'VERB', 'xcomp']", "['确定', '无法', 'xcomp']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '无法', 'mark:rel']"]
+["['NOUN', 'VERB', 'nsubj']", "['人数', '有', 'nsubj']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '人数', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['32', '名', 'nummod']"]
+["['NOUN', 'PART', 'nmod']", "['名', '者', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['受伤', '者', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['者', '有', 'nsubj']"]
+["['ADP', 'PART', 'case']", "['中', '者', 'case']"]
+["['VERB', 'VERB', 'ccomp']", "['有', '表示', 'ccomp']"]
+["['NUM', 'NOUN', 'nummod']", "['6', '名消', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['名消', '防员', 'clf']"]
+["['NOUN', 'ADJ', 'nsubj']", "['防员', '严重', 'nsubj']"]
+["['NOUN', 'ADJ', 'nsubj']", "['伤势', '严重', 'nsubj']"]
+["['ADJ', 'VERB', 'ccomp']", "['严重', '有', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '表示', 'punct']"]
+----------------------------------------------------------------------
+预计死亡人数还会上升。
+
+(ROOT (IP (VP (VV 预计) (IP (NP (NN 死亡) (NN 人数)) (VP (ADVP (RB 还)) (VP (MD 会) (VP (VV 上升)))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+["['VERB', 'NOUN', 'amod']", "['预计', '人数', 'amod']"]
+["['NOUN', 'NOUN', 'nmod']", "['死亡', '人数', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['人数', '上升', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['还', '上升', 'mark']"]
+["['AUX', 'VERB', 'aux']", "['会', '上升', 'aux']"]
+["['VERB', 'ROOT', 'root']", "['上升', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '上升', 'punct']"]
+----------------------------------------------------------------------
+新华社和其他国有媒体发布了爆炸现场的视频，视频中显示火势很大，照亮天津黑夜的一团火球看起来像蘑菇云，这座拥有 1400 万人口的城市是中国最重要的商业贸易中心之一。
+
+(ROOT (IP (IP (NP (NP (NNP 新华) (SFN 社)) (CC 和) (NP (DP (DT 其他)) (ADJP (NN 国有)) (NP (NN 媒体)))) (VP (VV 发布) (AS 了) (NP (DNP (NP (NN 爆炸) (NN 现场)) (DEC 的)) (NP (NN 视频))))) (, ，) (IP (LCP (NP (NN 视频)) (IN 中)) (VP (VV 显示) (IP (NP (NN 火势)) (VP (JJ 很大))))) (, ，) (IP (NP (CP (CP (IP (VP (VV 照亮) (NP (NP (NNP 天津)) (NP (NN 黑夜))))) (DEC 的))) (QP (CD 一) (CLP (NN 团))) (NP (NN 火球))) (VP (VRD (VV 看) (VV 起来)) (PP (VV 像) (NP (NNP 蘑) (NN 菇云))))) (, ，) (IP (NP (DP (DT 这) (CLP (NNB 座))) (CP (CP (IP (VP (VV 拥有) (NP (QP (CD 1400) (QP (NNB 万))) (NP (NN 人口))))) (DEC 的))) (NP (NN 城市))) (VP (VC 是) (NP (DNP (NP (NP (NNP 中国)) (CP (CP (IP (VP (ADVP (RB 最)) (VP (JJ 重要)))) (DEC 的))) (NP (NN 商业) (NN 贸易) (NN 中心))) (DEC 之)) (NP (CD 一))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'LCP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'LCP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['PROPN', 'PART', 'compound']", "['新华', '社', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['社', '发布', 'nsubj']"]
+["['CCONJ', 'NOUN', 'cc']", "['和', '媒体', 'cc']"]
+["['DET', 'NOUN', 'det']", "['其他', '媒体', 'det']"]
+["['NOUN', 'NOUN', 'nmod']", "['国有', '媒体', 'nmod']"]
+["['NOUN', 'PART', 'conj']", "['媒体', '社', 'conj']"]
+["['VERB', 'ROOT', 'root']", "['发布', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['了', '发布', 'aux']"]
+["['NOUN', 'NOUN', 'nmod']", "['爆炸', '现场', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['现场', '视频', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '现场', 'case']"]
+["['NOUN', 'VERB', 'obj']", "['视频', '发布', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '显示', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['视频', '显示', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['中', '视频', 'case']"]
+["['VERB', 'VERB', 'parataxis']", "['显示', '发布', 'parataxis']"]
+["['NOUN', 'ADJ', 'nsubj']", "['火势', '很大', 'nsubj']"]
+["['ADJ', 'VERB', 'ccomp']", "['很大', '显示', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '显示', 'punct']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['照亮', '火球', 'acl:relcl']"]
+["['PROPN', 'NOUN', 'nmod']", "['天津', '黑夜', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['黑夜', '照亮', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '照亮', 'mark:rel']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '团', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['团', '火球', 'clf']"]
+["['NOUN', 'VERB', 'nsubj']", "['火球', '看', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['看', '发布', 'parataxis']"]
+["['VERB', 'VERB', 'mark']", "['起来', '看', 'mark']"]
+["['VERB', 'VERB', 'xcomp']", "['像', '看', 'xcomp']"]
+["['PROPN', 'NOUN', 'nmod']", "['蘑', '菇云', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['菇云', '像', 'obj']"]
+["['PUNCT', 'NUM', 'punct']", "['，', '一', 'punct']"]
+["['DET', 'NOUN', 'det']", "['这', '座', 'det']"]
+["['NOUN', 'NOUN', 'clf']", "['座', '城市', 'clf']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['拥有', '城市', 'acl:relcl']"]
+["['NUM', 'NOUN', 'nummod']", "['1400', '万', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['万', '人口', 'clf']"]
+["['NOUN', 'VERB', 'obj']", "['人口', '拥有', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '拥有', 'mark:rel']"]
+["['NOUN', 'NUM', 'nsubj']", "['城市', '一', 'nsubj']"]
+["['AUX', 'NUM', 'cop']", "['是', '一', 'cop']"]
+["['PROPN', 'NOUN', 'nmod']", "['中国', '中心', 'nmod']"]
+["['ADV', 'ADJ', 'advmod']", "['最', '重要', 'advmod']"]
+["['ADJ', 'NOUN', 'amod']", "['重要', '中心', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '重要', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['商业', '中心', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['贸易', '中心', 'nmod']"]
+["['NOUN', 'NUM', 'nmod']", "['中心', '一', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['之', '中心', 'case']"]
+["['NUM', 'VERB', 'parataxis']", "['一', '发布', 'parataxis']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '发布', 'punct']"]
+----------------------------------------------------------------------
+国家级报纸《人民日报》发布的另一段视频显示，有人被玻璃碎片冲击墙壁所冲击而倒地。
+
+(ROOT (IP (NP (CP (CP (IP (NP (NP (NP (NN 国家)) (ADJP (SFN 级)) (NP (NN 报纸))) (NP (-LRB- 《) (NN 人民) (NN 日报) (-RRB- 》))) (VP (VV 发布))) (DEC 的))) (DP (DT 另) (QP (CD 一) (CLP (NNB 段)))) (NP (NN 视频))) (VP (VV 显示) (, ，) (IP (VP (VV 有) (IP (NP (NN 人)) (VP (VP (BB 被) (CP (IP (CP (IP (NP (NN 玻璃) (NN 碎片)) (VP (VV 冲击) (NP (NN 墙壁))))) (VP (RB 所) (VP (VV 冲击)))))) (VP (RB 而) (VP (VV 倒地)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'DP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'DP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+["['NOUN', 'PART', 'compound']", "['国家', '级', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['级', '报纸', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['报纸', '发布', 'nsubj']"]
+["['PUNCT', 'NOUN', 'punct']", "['《', '日报', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['人民', '日报', 'nmod']"]
+["['NOUN', 'NOUN', 'appos']", "['日报', '报纸', 'appos']"]
+["['PUNCT', 'NOUN', 'punct']", "['》', '日报', 'punct']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['发布', '视频', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '发布', 'mark:rel']"]
+["['DET', 'NOUN', 'det']", "['另', '段', 'det']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '段', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['段', '视频', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['视频', '显示', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['显示', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '有', 'punct']"]
+["['VERB', 'VERB', 'xcomp']", "['有', '显示', 'xcomp']"]
+["['NOUN', 'VERB', 'nsubj']", "['人', '倒地', 'nsubj']"]
+["['AUX', 'VERB', 'aux:pass']", "['被', '冲击', 'aux:pass']"]
+["['NOUN', 'NOUN', 'nmod']", "['玻璃', '碎片', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['碎片', '冲击', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['冲击', '冲击', 'advcl']"]
+["['NOUN', 'VERB', 'obj']", "['墙壁', '冲击', 'obj']"]
+["['ADV', 'VERB', 'mark']", "['所', '冲击', 'mark']"]
+["['VERB', 'VERB', 'ccomp']", "['冲击', '有', 'ccomp']"]
+["['ADV', 'VERB', 'mark']", "['而', '倒地', 'mark']"]
+["['VERB', 'VERB', 'ccomp']", "['倒地', '有', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '显示', 'punct']"]
+----------------------------------------------------------------------
+汉涛 (30 岁) 是一位卡车司机，他住在爆炸现场大约 1.6 英里（2.6 公里）以外的一栋建筑的 13 楼，他说：“爆炸造成的气压如此之强，就连我也被它一下子把倒了。”
+
+(ROOT (IP (IP (NP (NNP 汉) (NNP 涛) (QP (CD -LRB-30) (CLP (NNB 岁-RRB-)))) (VP (VC 是) (NP (QP (CD 一) (CLP (NNB 位))) (NP (NN 卡车) (NN 司机))))) (, ，) (IP (NP (PRP 他)) (VP (VV 住) (PP (VV 在) (QP (DNP (NP (NP (NN 爆炸) (NN 现场)) (DNP (LCP (QP (ADVP (RB 大约)) (QP (CD 1.6) (CLP (NNB 英里))) (PRN (-LRB- （) (QP (CD 2.6) (CLP (NNB 公里))) (-RRB- ）))) (IN 以外)) (DEC 的)) (QP (CD 一) (CLP (NNB 栋))) (NP (NN 建筑))) (DEC 的)) (QP (CD 13) (CLP (NN 楼))))))) (, ，) (IP (NP (PRP 他)) (VP (VV 说) (: ：) (IP (`` “) (IP (NP (CP (CP (IP (NP (VV 爆炸)) (VP (VV 造成))) (DEC 的))) (NP (NN 气压))) (VP (DVP (ADVP (VV 如此)) (DEV 之)) (VP (JJ 强)))) (, ，) (IP (ADVP (RB 就)) (ADVP (RB 连)) (NP (PRP 我)) (VP (ADVP (RB 也)) (VP (BB 被) (IP (NP (PRP 它)) (VP (QP (CD 一) (CLP (NNB 下子))) (VP (VRD (BB 把) (VV 倒了))))))))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['PROPN', 'NOUN', 'nmod']", "['汉', '岁)', 'nmod']"]
+["['PROPN', 'PROPN', 'flat:name']", "['涛', '汉', 'flat:name']"]
+["['NUM', 'NOUN', 'nummod']", "['(30', '岁)', 'nummod']"]
+["['NOUN', 'NOUN', 'nsubj']", "['岁)', '司机', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '司机', 'cop']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '位', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['位', '司机', 'clf']"]
+["['NOUN', 'NOUN', 'nmod']", "['卡车', '司机', 'nmod']"]
+["['NOUN', 'ROOT', 'root']", "['司机', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '说', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '住', 'nsubj']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['住', '楼', 'acl:relcl']"]
+["['VERB', 'VERB', 'mark']", "['在', '住', 'mark']"]
+["['NOUN', 'NOUN', 'nmod']", "['爆炸', '现场', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['现场', '英里', 'nmod']"]
+["['ADV', 'NOUN', 'advmod']", "['大约', '英里', 'advmod']"]
+["['NUM', 'NOUN', 'nummod']", "['1.6', '英里', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['英里', '建筑', 'nmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['（', '公里', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['2.6', '公里', 'nummod']"]
+["['NOUN', 'NOUN', 'appos']", "['公里', '英里', 'appos']"]
+["['PUNCT', 'NOUN', 'punct']", "['）', '公里', 'punct']"]
+["['ADP', 'NOUN', 'case']", "['以外', '英里', 'case']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '住', 'mark:rel']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '栋', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['栋', '建筑', 'clf']"]
+["['NOUN', 'VERB', 'obj']", "['建筑', '住', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '住', 'mark:rel']"]
+["['NUM', 'NOUN', 'nummod']", "['13', '楼', 'nummod']"]
+["['NOUN', 'NOUN', 'parataxis']", "['楼', '司机', 'parataxis']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '说', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '说', 'nsubj']"]
+["['VERB', 'NOUN', 'parataxis']", "['说', '司机', 'parataxis']"]
+["['PUNCT', 'VERB', 'punct']", "['：', '倒了', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['“', '倒了', 'punct']"]
+["['VERB', 'VERB', 'advcl']", "['爆炸', '造成', 'advcl']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['造成', '气压', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '造成', 'mark:rel']"]
+["['NOUN', 'ADJ', 'nsubj']", "['气压', '强', 'nsubj']"]
+["['VERB', 'ADJ', 'advcl']", "['如此', '强', 'advcl']"]
+["['PART', 'VERB', 'mark:adv']", "['之', '如此', 'mark:adv']"]
+["['ADJ', 'VERB', 'ccomp']", "['强', '倒了', 'ccomp']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '强', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['就', '倒了', 'mark']"]
+["['ADV', 'VERB', 'advmod']", "['连', '倒了', 'advmod']"]
+["['PRON', 'VERB', 'nsubj']", "['我', '倒了', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['也', '倒了', 'mark']"]
+["['AUX', 'VERB', 'aux:pass']", "['被', '倒了', 'aux:pass']"]
+["['PRON', 'VERB', 'nsubj']", "['它', '倒了', 'nsubj']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '下子', 'nummod']"]
+["['NOUN', 'VERB', 'obl']", "['下子', '倒了', 'obl']"]
+["['ADP', 'VERB', 'case']", "['把', '倒了', 'case']"]
+["['VERB', 'VERB', 'ccomp']", "['倒了', '说', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '倒了', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['”', '倒了', 'punct']"]
+----------------------------------------------------------------------
+另一位居民汪东 (55 岁) 说，爆炸似乎是从下水道传来的。
+
+(ROOT (IP (NP (NP (DP (DT 另) (QP (CD 一) (CLP (NNB 位)))) (NP (NN 居民))) (NP (NNP 汪东)) (QP (CD -LRB-55) (CLP (NNB 岁-RRB-)))) (VP (VV 说) (, ，) (IP (NP (NN 爆炸)) (VP (ADVP (RB 似乎)) (VP (VC 是) (NP (CP (CP (IP (VP (PP (IN 从) (NP (ADJP (NN 下)) (NP (NN 水道)))) (VP (VV 传来)))) (UH 的)))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP': {}, 'QP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}, 'QP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+["['DET', 'NOUN', 'det']", "['另', '位', 'det']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '位', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['位', '居民', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['居民', '说', 'nsubj']"]
+["['PROPN', 'NOUN', 'appos']", "['汪东', '居民', 'appos']"]
+["['NUM', 'NOUN', 'nummod']", "['(55', '岁)', 'nummod']"]
+["['NOUN', 'VERB', 'obl']", "['岁)', '说', 'obl']"]
+["['VERB', 'ROOT', 'root']", "['说', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '是', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['爆炸', '是', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['似乎', '是', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['是', '说', 'ccomp']"]
+["['ADP', 'NOUN', 'case']", "['从', '水道', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['下', '水道', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['水道', '传来', 'obl']"]
+["['VERB', 'VERB', 'xcomp']", "['传来', '是', 'xcomp']"]
+["['PART', 'VERB', 'discourse']", "['的', '是', 'discourse']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '说', 'punct']"]
+----------------------------------------------------------------------
+他说：“整个天空亮起来就像白天一样。”
+
+(ROOT (IP (NP (PRP 他)) (VP (VV 说) (: ：) (IP (`` “) (NP (DP (DT 整个)) (NP (NN 天空))) (VP (IP (VP (VRD (VV 亮) (VV 起来)))) (ADVP (RB 就)) (PP (IN 像) (NP (NN 白天))) (VP (JJ 一样))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'NP': {'PRP': {}}, 'VP': {'VV': {}, ':': {}, 'IP': {}}, '.': {}, "''": {}}}
+{'NP': {'PRP': {}}}
+{'VP': {'VV': {}, ':': {}, 'IP': {}}}
+Dependency Features:
+["['PRON', 'VERB', 'nsubj']", "['他', '说', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['说', 'NONE', 'root']"]
+["['PUNCT', 'ADJ', 'punct']", "['：', '一样', 'punct']"]
+["['PUNCT', 'ADJ', 'punct']", "['“', '一样', 'punct']"]
+["['DET', 'NOUN', 'det']", "['整个', '天空', 'det']"]
+["['NOUN', 'VERB', 'nsubj']", "['天空', '亮', 'nsubj']"]
+["['VERB', 'ADJ', 'advcl']", "['亮', '一样', 'advcl']"]
+["['VERB', 'VERB', 'mark']", "['起来', '亮', 'mark']"]
+["['ADV', 'ADJ', 'mark']", "['就', '一样', 'mark']"]
+["['ADP', 'NOUN', 'case']", "['像', '白天', 'case']"]
+["['NOUN', 'ADJ', 'nmod']", "['白天', '一样', 'nmod']"]
+["['ADJ', 'VERB', 'ccomp']", "['一样', '说', 'ccomp']"]
+["['PUNCT', 'ADJ', 'punct']", "['。', '一样', 'punct']"]
+["['PUNCT', 'ADJ', 'punct']", "['”', '一样', 'punct']"]
+----------------------------------------------------------------------
+新华社称，最初的爆炸发生在天津滨海区的一个仓库，时间大约是晚上 11:30，30 分钟后又发生了更强大的爆炸，据当局称，爆炸的威力大约相当于 21 吨的炸药。
+
+(ROOT (IP (NP (NNP 新华)) (VP (NN 社称) (, ，) (IP (IP (NP (DNP (ADJP (NN 最初)) (DEC 的)) (NP (NN 爆炸))) (VP (VV 发生) (PP (VV 在) (NP (DNP (NP (NNP 天津) (NNP 滨海) (SFN 区)) (DEC 的)) (QP (CD 一) (CLP (NNB 个))) (NP (NN 仓库)))))) (, ，) (IP (NP (NN 时间)) (VP (ADVP (RB 大约)) (VP (VC 是) (NP (NN 晚上) (CD 11:30))))) (, ，) (IP (VP (LCP (QP (CD 30) (CLP (NNB 分钟))) (IN 后)) (ADVP (RB 又)) (VP (VV 发生) (AS 了) (NP (CP (CP (IP (VP (ADVP (RB 更)) (VP (JJ 强大)))) (DEC 的))) (NP (NN 爆炸)))))) (, ，) (PP (IN 据) (IP (NP (NN 当局)) (VP (VV 称) (, ，) (IP (NP (DNP (NP (VV 爆炸)) (DEC 的)) (NP (NN 威力))) (VP (ADVP (RB 大约)) (VP (VV 相当) (PP (VV 于) (NP (DNP (QP (CD 21) (CLP (NNB 吨))) (DEC 的)) (NP (NN 炸药)))))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NNP': {}}, 'VP': {'NN': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NNP': {}}}
+{'VP': {'NN': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+["['PROPN', 'NOUN', 'nmod']", "['新华', '社称', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['社称', '发生', 'obl']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '社称', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['最初', '爆炸', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '最初', 'case']"]
+["['NOUN', 'VERB', 'nsubj']", "['爆炸', '发生', 'nsubj']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['发生', '仓库', 'acl:relcl']"]
+["['VERB', 'VERB', 'mark']", "['在', '发生', 'mark']"]
+["['PROPN', 'PART', 'nmod']", "['天津', '区', 'nmod']"]
+["['PROPN', 'PART', 'compound']", "['滨海', '区', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['区', '仓库', 'nmod']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '发生', 'mark:rel']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '个', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['个', '仓库', 'clf']"]
+["['NOUN', 'VERB', 'obj']", "['仓库', '是', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '是', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['时间', '是', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['大约', '是', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['是', 'NONE', 'root']"]
+["['NOUN', 'NUM', 'nmod']", "['晚上', '11:30', 'nmod']"]
+["['NUM', 'VERB', 'obj']", "['11:30', '是', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '发生', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['30', '分钟', 'nummod']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['分钟', '发生', 'nmod:tmod']"]
+["['ADP', 'NOUN', 'case']", "['后', '分钟', 'case']"]
+["['ADV', 'VERB', 'mark']", "['又', '发生', 'mark']"]
+["['VERB', 'VERB', 'parataxis']", "['发生', '是', 'parataxis']"]
+["['AUX', 'VERB', 'aux']", "['了', '发生', 'aux']"]
+["['ADV', 'ADJ', 'advmod']", "['更', '强大', 'advmod']"]
+["['ADJ', 'NOUN', 'amod']", "['强大', '爆炸', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '强大', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['爆炸', '发生', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '称', 'punct']"]
+["['ADP', 'VERB', 'case']", "['据', '称', 'case']"]
+["['NOUN', 'VERB', 'nsubj']", "['当局', '称', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['称', '发生', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '称', 'punct']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['爆炸', '威力', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '爆炸', 'mark:rel']"]
+["['NOUN', 'VERB', 'nsubj']", "['威力', '相当', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['大约', '相当', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['相当', '称', 'ccomp']"]
+["['VERB', 'VERB', 'mark']", "['于', '相当', 'mark']"]
+["['NUM', 'NOUN', 'nummod']", "['21', '吨', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['吨', '炸药', 'nmod']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '相当', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['炸药', '相当', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '是', 'punct']"]
+----------------------------------------------------------------------
+天津警方称，爆炸发生在一家私人公司——瑞海国际物流公司的仓库内，该公司曾获得许可，可以处理危险货物。
+
+(ROOT (IP (NP (NP (NNP 天津)) (NP (NN 警方))) (VP (VV 称) (, ，) (IP (IP (NP (NN 爆炸)) (VP (VV 发生) (PP (IN 在) (NP (NP (QP (CD 一) (CLP (NNB 家))) (ADJP (JJ 私人)) (NP (NN 公司))) (HYPH —) (HYPH —) (LCP (NP (DNP (NP (NNP 瑞海) (NN 国际) (NN 物流) (NN 公司)) (DEC 的)) (NP (NN 仓库))) (NN 内)))))) (, ，) (IP (NP (DP (DT 该)) (NP (NN 公司))) (VP (VP (ADVP (RB 曾)) (VP (VV 获得) (NP (NN 许可)))) (, ，) (VP (MD 可以) (VP (VV 处理) (NP (ADJP (JJ 危险)) (NP (NN 货物))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+["['PROPN', 'NOUN', 'nmod']", "['天津', '警方', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['警方', '称', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['称', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '发生', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['爆炸', '发生', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['发生', '称', 'ccomp']"]
+["['ADP', 'NOUN', 'case']", "['在', '仓库', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '家', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['家', '公司', 'clf']"]
+["['ADJ', 'NOUN', 'amod']", "['私人', '公司', 'amod']"]
+["['NOUN', 'NOUN', 'nmod']", "['公司', '仓库', 'nmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['—', '公司', 'punct']"]
+["['PUNCT', 'NOUN', 'punct']", "['—', '公司', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['瑞海', '公司', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['国际', '公司', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['物流', '公司', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['公司', '仓库', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '公司', 'case']"]
+["['NOUN', 'VERB', 'obl']", "['仓库', '发生', 'obl']"]
+["['NOUN', 'NOUN', 'acl']", "['内', '仓库', 'acl']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '处理', 'punct']"]
+["['DET', 'NOUN', 'det']", "['该', '公司', 'det']"]
+["['NOUN', 'VERB', 'nsubj']", "['公司', '处理', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['曾', '获得', 'advmod']"]
+["['VERB', 'VERB', 'advcl']", "['获得', '处理', 'advcl']"]
+["['NOUN', 'VERB', 'obj']", "['许可', '获得', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '获得', 'punct']"]
+["['AUX', 'VERB', 'aux']", "['可以', '处理', 'aux']"]
+["['VERB', 'VERB', 'ccomp']", "['处理', '称', 'ccomp']"]
+["['ADJ', 'NOUN', 'amod']", "['危险', '货物', 'amod']"]
+["['NOUN', 'VERB', 'obj']", "['货物', '处理', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '称', 'punct']"]
+----------------------------------------------------------------------
+据人民日报报道，该公司的高层官员被扣留审讯。
+
+(ROOT (IP (PP (IN 据) (IP (NP (NN 人民) (NN 日报)) (VP (VV 报道)))) (, ，) (NP (DNP (NP (DP (DT 该)) (NP (NN 公司))) (DEC 的)) (NP (NN 高层) (NN 官员))) (VP (BB 被) (VP (VCD (VV 扣留) (VV 审讯)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'BB': {}, 'VP': {}}}
+Dependency Features:
+["['ADP', 'VERB', 'case']", "['据', '报道', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['人民', '日报', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['日报', '报道', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['报道', '扣留', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '报道', 'punct']"]
+["['DET', 'NOUN', 'det']", "['该', '公司', 'det']"]
+["['NOUN', 'NOUN', 'nmod']", "['公司', '官员', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '公司', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['高层', '官员', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj:pass']", "['官员', '扣留', 'nsubj:pass']"]
+["['AUX', 'VERB', 'aux:pass']", "['被', '扣留', 'aux:pass']"]
+["['VERB', 'ROOT', 'root']", "['扣留', 'NONE', 'root']"]
+["['VERB', 'VERB', 'xcomp']", "['审讯', '扣留', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '审讯', 'punct']"]
+----------------------------------------------------------------------
+星期四早些时候，公司官员无法立即联系上。
+
+(ROOT (IP (NP (NP (NN 星期) (CD 四)) (ADJP (JJ 早些)) (NP (NN 时候))) (, ，) (NP (NN 公司) (NN 官员)) (VP (ADVP (VV 无法)) (ADVP (RB 立即)) (VP (VRD (VV 联系) (IN 上)))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'ADJP': {}, 'NP': {}}, ',': {}, 'NP': {'NN': {}, 'NN': {}}, 'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'ADJP': {}, 'NP': {}}}
+{'NP': {'NN': {}, 'NN': {}}}
+{'VP': {'ADVP': {}, 'ADVP': {}, 'VP': {}}}
+Dependency Features:
+["['NOUN', 'NOUN', 'nmod']", "['星期', '时候', 'nmod']"]
+["['NUM', 'NOUN', 'nummod']", "['四', '星期', 'nummod']"]
+["['ADJ', 'NOUN', 'amod']", "['早些', '时候', 'amod']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['时候', '无法', 'nmod:tmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '时候', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['公司', '官员', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['官员', '无法', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['无法', 'NONE', 'root']"]
+["['ADV', 'VERB', 'advmod']", "['立即', '联系', 'advmod']"]
+["['VERB', 'VERB', 'xcomp']", "['联系', '无法', 'xcomp']"]
+["['ADP', 'VERB', 'mark']", "['上', '联系', 'mark']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '无法', 'punct']"]
+----------------------------------------------------------------------
+至少有 17 人死亡，包括几名消防员，数百人受伤，震惊各地的爆炸声可以在数英里外听到。有多人失踪，尚不明确。
+
+(ROOT (IP (IP (VP (ADVP (RB 至少)) (VP (VV 有) (IP (NP (QP (CD 17)) (NP (NN 人))) (VP (VV 死亡)))))) (, ，) (IP (VP (VV 包括) (NP (QP (CD 几) (CLP (NNB 名))) (NP (VV 消防) (SFN 员))))) (, ，) (IP (NP (QP (CD 数百)) (NP (NN 人))) (VP (VV 受伤))) (, ，) (IP (NP (CP (CP (IP (VP (VV 震惊) (NP (NN 各地)))) (DEC 的))) (NP (VV 爆炸) (SFN 声))) (VP (MD 可以) (VP (PP (VV 在) (LCP (QP (CD 数) (CLP (NNB 英里))) (IN 外))) (VP (VV 听到))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['ADV', 'VERB', 'advmod']", "['至少', '有', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['有', 'NONE', 'root']"]
+["['NUM', 'NOUN', 'nummod']", "['17', '人', 'nummod']"]
+["['NOUN', 'VERB', 'nsubj']", "['人', '包括', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['死亡', '包括', 'advcl']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '死亡', 'punct']"]
+["['VERB', 'VERB', 'ccomp']", "['包括', '有', 'ccomp']"]
+["['NUM', 'NOUN', 'nummod']", "['几', '名', 'nummod']"]
+["['NOUN', 'PART', 'nmod']", "['名', '员', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['消防', '员', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['员', '受伤', 'nsubj']"]
+["['PUNCT', 'PART', 'punct']", "['，', '员', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['数百', '人', 'nummod']"]
+["['NOUN', 'VERB', 'nsubj']", "['人', '受伤', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['受伤', '包括', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '受伤', 'punct']"]
+["['VERB', 'PART', 'acl:relcl']", "['震惊', '声', 'acl:relcl']"]
+["['NOUN', 'VERB', 'obj']", "['各地', '震惊', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '震惊', 'mark:rel']"]
+["['VERB', 'PART', 'compound']", "['爆炸', '声', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['声', '听到', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['可以', '听到', 'aux']"]
+["['VERB', 'VERB', 'advcl']", "['在', '听到', 'advcl']"]
+["['NUM', 'NOUN', 'nummod']", "['数', '英里', 'nummod']"]
+["['NOUN', 'VERB', 'obj']", "['英里', '在', 'obj']"]
+["['ADP', 'NOUN', 'case']", "['外', '英里', 'case']"]
+["['VERB', 'VERB', 'ccomp']", "['听到', '包括', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有', 'punct']"]
+----------------------------------------------------------------------
+尚不清楚爆炸物的准确性质，也没有表明爆炸是否是意外爆炸。
+
+(ROOT (IP (VP (VP (ADVP (RB 尚)) (ADVP (RB 不)) (VP (VV 清楚) (NP (DNP (NP (VV 爆炸) (SFN 物)) (DEC 的)) (ADJP (JJ 准确)) (NP (NN 性质))))) (, ，) (VP (ADVP (RB 也)) (VP (VV 没有) (VP (VV 表明) (IP (NP (NN 爆炸)) (VP (VC 是否是) (NP (NP (NN 意外)) (NP (VV 爆炸))))))))) (. 。)))
+layer 2:
+{'IP': {'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+["['ADV', 'VERB', 'advmod']", "['尚', '清楚', 'advmod']"]
+["['ADV', 'VERB', 'advmod']", "['不', '清楚', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['清楚', 'NONE', 'root']"]
+["['VERB', 'PART', 'compound']", "['爆炸', '物', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['物', '性质', 'nmod']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '清楚', 'mark:rel']"]
+["['ADJ', 'NOUN', 'amod']", "['准确', '性质', 'amod']"]
+["['NOUN', 'VERB', 'nsubj']", "['性质', '有', 'nsubj']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '性质', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['也', '有', 'mark']"]
+["['VERB', 'VERB', 'ccomp']", "['有', '清楚', 'ccomp']"]
+["['VERB', 'VERB', 'xcomp']", "['表明', '有', 'xcomp']"]
+["['NOUN', 'VERB', 'nsubj']", "['爆炸', '是', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['是', '表明', 'ccomp']"]
+["['NOUN', 'VERB', 'obl']", "['意外', '爆炸', 'obl']"]
+["['VERB', 'VERB', 'xcomp']", "['爆炸', '是', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有', 'punct']"]
+----------------------------------------------------------------------
+早期报道称，消防队员在第一次爆炸前约 40 分钟就已经对火势作出反应；据北京日报报道，至少有三名死者是消防队员，六辆消防车被毁。
+
+(ROOT (IP (NP (NN 早期) (NN 报道)) (VP (VV 称) (, ，) (IP (IP (NP (NN 消防) (NN 队员)) (VP (PP (IN 在) (NP (NP (QP (CD 第一) (CLP (NNB 次))) (NP (VV 爆炸))) (QP (ADVP (IN 前约)) (QP (CD 40) (CLP (NNB 分钟)))))) (ADVP (RB 就)) (ADVP (RB 已经)) (PP (IN 对) (NP (NN 火势))) (VP (VV 作出) (NP (NN 反应))))) (: ；) (IP (PP (IN 据) (IP (NP (NNP 北京) (NN 日报)) (VP (VV 报道)))) (, ，) (VP (ADVP (RB 至少)) (VP (VV 有) (IP (NP (QP (CD 三) (CLP (NNB 名))) (NP (NN 死者))) (VP (VC 是) (NP (NN 消防) (NN 队员))))))) (, ，) (IP (NP (QP (CD 六) (CLP (NNB 辆))) (NP (NN 消防) (SFN 车))) (VP (BB 被) (VP (VV 毁)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NN': {}, 'NN': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NN': {}, 'NN': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+["['NOUN', 'VERB', 'nmod:tmod']", "['早期', '称', 'nmod:tmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['报道', '称', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['称', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '作出', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['消防', '队员', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['队员', '作出', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['在', '分钟', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['第一', '次', 'nummod']"]
+["['NOUN', 'VERB', 'obl']", "['次', '爆炸', 'obl']"]
+["['VERB', 'NOUN', 'amod']", "['爆炸', '分钟', 'amod']"]
+["['ADP', 'VERB', 'mark']", "['前约', '爆炸', 'mark']"]
+["['NUM', 'NOUN', 'nummod']", "['40', '分钟', 'nummod']"]
+["['NOUN', 'VERB', 'obl']", "['分钟', '作出', 'obl']"]
+["['ADV', 'VERB', 'mark']", "['就', '作出', 'mark']"]
+["['ADV', 'VERB', 'advmod']", "['已经', '作出', 'advmod']"]
+["['ADP', 'NOUN', 'case']", "['对', '火势', 'case']"]
+["['NOUN', 'VERB', 'obl']", "['火势', '作出', 'obl']"]
+["['VERB', 'VERB', 'ccomp']", "['作出', '称', 'ccomp']"]
+["['NOUN', 'VERB', 'obj']", "['反应', '作出', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['；', '有', 'punct']"]
+["['ADP', 'VERB', 'case']", "['据', '报道', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['北京', '日报', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['日报', '报道', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['报道', '有', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '报道', 'punct']"]
+["['ADV', 'VERB', 'advmod']", "['至少', '有', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['有', '称', 'ccomp']"]
+["['NUM', 'NOUN', 'nummod']", "['三', '名', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['名', '死者', 'clf']"]
+["['NOUN', 'NOUN', 'nsubj']", "['死者', '队员', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '队员', 'cop']"]
+["['NOUN', 'NOUN', 'nmod']", "['消防', '队员', 'nmod']"]
+["['NOUN', 'VERB', 'ccomp']", "['队员', '毁', 'ccomp']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '队员', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['六', '辆', 'nummod']"]
+["['NOUN', 'PART', 'nmod']", "['辆', '车', 'nmod']"]
+["['NOUN', 'PART', 'compound']", "['消防', '车', 'compound']"]
+["['PART', 'VERB', 'nsubj:pass']", "['车', '毁', 'nsubj:pass']"]
+["['AUX', 'VERB', 'aux:pass']", "['被', '毁', 'aux:pass']"]
+["['VERB', 'VERB', 'ccomp']", "['毁', '有', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '称', 'punct']"]
+----------------------------------------------------------------------
+但是星期四，人民日报报道称，有 11 名消防员被杀，但尚不清楚这 11 人是否在 17 人中。
+
+(ROOT (IP (ADVP (RB 但是)) (NP (NN 星期) (CD 四)) (, ，) (NP (NP (NNP 人民) (NN 日报)) (NP (NN 报道))) (VP (VV 称) (, ，) (IP (IP (VP (VV 有) (IP (NP (QP (CD 11)) (NP (NNB 名消) (NN 防员))) (VP (BB 被) (VP (VV 杀)))))) (, ，) (IP (ADVP (RB 但)) (VP (ADVP (RB 尚)) (ADVP (RB 不)) (VP (VV 清楚) (IP (DP (DT 这) (QP (CD 11))) (VP (ADVP (NN 人是否)) (VP (PP (IN 在) (LCP (QP (CD 17)) (NN 人中))))))))))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'RB': {}}, 'NP': {'NN': {}, 'CD': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'ADVP': {'RB': {}}}
+{'NP': {'NN': {}, 'CD': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+["['ADV', 'VERB', 'mark']", "['但是', '称', 'mark']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['星期', '称', 'nmod:tmod']"]
+["['NUM', 'VERB', 'nmod:tmod']", "['四', '称', 'nmod:tmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '星期', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['人民', '报道', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['日报', '报道', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['报道', '称', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['称', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '清楚', 'punct']"]
+["['VERB', 'VERB', 'advcl']", "['有', '清楚', 'advcl']"]
+["['NUM', 'NOUN', 'nummod']", "['11', '名消', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['名消', '防员', 'clf']"]
+["['NOUN', 'VERB', 'nsubj:pass']", "['防员', '杀', 'nsubj:pass']"]
+["['AUX', 'VERB', 'aux:pass']", "['被', '杀', 'aux:pass']"]
+["['VERB', 'VERB', 'ccomp']", "['杀', '有', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '有', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['但', '清楚', 'mark']"]
+["['ADV', 'ADV', 'advmod']", "['尚', '不', 'advmod']"]
+["['ADV', 'VERB', 'advmod']", "['不', '清楚', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['清楚', '称', 'ccomp']"]
+["['DET', 'NOUN', 'det']", "['这', '人是否', 'det']"]
+["['NUM', 'NOUN', 'nummod']", "['11', '人是否', 'nummod']"]
+["['NOUN', 'NOUN', 'nsubj']", "['人是否', '人中', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['在', '人中', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['17', '人中', 'nummod']"]
+["['NOUN', 'VERB', 'obl']", "['人中', '清楚', 'obl']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '称', 'punct']"]
+----------------------------------------------------------------------
+中国社交媒体上发布的照片显示，建筑骨架尽显，排列成排的大众小汽车被焚毁。
+
+(ROOT (IP (NP (CP (CP (IP (LCP (NP (NP (NNP 中国)) (NP (NN 社交) (NN 媒体))) (IN 上)) (VP (VV 发布))) (DEC 的))) (NP (NN 照片))) (VP (VV 显示) (, ，) (IP (IP (NP (NN 建筑) (NN 骨架)) (VP (VV 尽显))) (, ，) (IP (NP (CP (CP (IP (VP (VCD (VV 排列) (VV 成排)))) (DEC 的))) (NP (NN 大众)) (ADJP (PFA 小)) (NP (NN 汽车))) (VP (BB 被) (VP (VV 焚) (VV 毁)))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'CP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'CP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+["['PROPN', 'NOUN', 'nmod']", "['中国', '媒体', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['社交', '媒体', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['媒体', '发布', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['上', '媒体', 'case']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['发布', '照片', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '发布', 'mark:rel']"]
+["['NOUN', 'VERB', 'nsubj']", "['照片', '显示', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['显示', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '毁', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['建筑', '骨架', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['骨架', '尽显', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['尽显', '毁', 'advcl']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '尽显', 'punct']"]
+["['VERB', 'VERB', 'advcl']", "['排列', '成排', 'advcl']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['成排', '汽车', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '成排', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['大众', '汽车', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['小', '汽车', 'case']"]
+["['NOUN', 'VERB', 'nsubj:pass']", "['汽车', '毁', 'nsubj:pass']"]
+["['AUX', 'VERB', 'aux:pass']", "['被', '毁', 'aux:pass']"]
+["['VERB', 'VERB', 'advcl']", "['焚', '毁', 'advcl']"]
+["['VERB', 'VERB', 'ccomp']", "['毁', '显示', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '显示', 'punct']"]
+----------------------------------------------------------------------
+伤者涌入当地医院，其中许多人受伤后满身是伤，碎片飞溅，医院里人满为患；在最近的一家医院，泰达医疗中心，急救人员在停车场设了帐篷，为伤者治疗，同时数十名焦急的人们在等待有关伤者亲人的消息。
+
+(ROOT (IP (IP (NP (NN 伤者)) (VP (VV 涌入) (NP (NN 当地) (NN 医院)))) (, ，) (IP (NP (NN 其中)) (LCP (IP (NP (QP (CD 许多)) (NP (NN 人))) (VP (VV 受伤))) (IN 后)) (IP (IP (NP (NN 满身)) (VP (VC 是) (NP (NN 伤)))) (, ，) (IP (NP (NN 碎片)) (VP (VV 飞溅))))) (, ，) (IP (LCP (NP (NN 医院)) (NN 里)) (NP (NN 人)) (VP (ADVP (VV 满)) (VP (VC 为) (NP (VV 患))))) (: ；) (IP (PP (IN 在) (NP (NP (CP (CP (IP (VP (JJ 最近))) (DEC 的))) (QP (CD 一) (CLP (NNB 家))) (NP (NN 医院))) (, ，) (NP (NNP 泰达) (NN 医疗) (NN 中心)))) (, ，) (NP (NN 急救) (NN 人员)) (VP (VP (PP (VV 在) (NP (VV 停车) (SFN 场))) (VP (VV 设) (AS 了) (NP (NN 帐篷)))) (, ，) (VP (PP (IN 为) (NP (NN 伤者))) (VP (VV 治疗))))) (, ，) (IP (ADVP (NN 同时)) (NP (QP (CD 数十) (CLP (NNB 名))) (CP (CP (IP (VP (JJ 焦急))) (DEC 的))) (NP (NN 人们))) (VP (ADVP (IN 在)) (VP (VV 等待) (NP (DNP (NP (ADJP (JJ 有关)) (NP (NN 伤者) (NN 亲人))) (DEC 的)) (NP (NN 消息)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, ':': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'LCP': {}, 'IP': {}}, ',': {}, 'IP': {'LCP': {}, 'NP': {}, 'VP': {}}, ':': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'LCP': {}, 'IP': {}}}
+{'IP': {'LCP': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+["['NOUN', 'VERB', 'nsubj']", "['伤者', '涌入', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['涌入', 'NONE', 'root']"]
+["['NOUN', 'NOUN', 'nmod']", "['当地', '医院', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['医院', '涌入', 'obj']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '伤', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['其中', '人', 'nmod']"]
+["['NUM', 'NOUN', 'nummod']", "['许多', '人', 'nummod']"]
+["['NOUN', 'NOUN', 'nsubj']", "['人', '伤', 'nsubj']"]
+["['VERB', 'NOUN', 'advcl']", "['受伤', '伤', 'advcl']"]
+["['ADP', 'VERB', 'mark']", "['后', '受伤', 'mark']"]
+["['NOUN', 'NOUN', 'nsubj']", "['满身', '伤', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['是', '伤', 'cop']"]
+["['NOUN', 'VERB', 'parataxis']", "['伤', '涌入', 'parataxis']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '飞溅', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['碎片', '飞溅', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['飞溅', '涌入', 'parataxis']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '满', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['医院', '人', 'nmod']"]
+["['NOUN', 'NOUN', 'acl']", "['里', '医院', 'acl']"]
+["['NOUN', 'VERB', 'nsubj']", "['人', '满', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['满', '涌入', 'parataxis']"]
+["['VERB', 'VERB', 'mark']", "['为', '满', 'mark']"]
+["['VERB', 'VERB', 'xcomp']", "['患', '满', 'xcomp']"]
+["['PUNCT', 'VERB', 'punct']", "['；', '设', 'punct']"]
+["['ADP', 'NOUN', 'case']", "['在', '医院', 'case']"]
+["['ADJ', 'NOUN', 'amod']", "['最近', '医院', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '最近', 'mark:rel']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '家', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['家', '医院', 'clf']"]
+["['NOUN', 'VERB', 'obl']", "['医院', '设', 'obl']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '医院', 'punct']"]
+["['PROPN', 'NOUN', 'nmod']", "['泰达', '中心', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['医疗', '中心', 'nmod']"]
+["['NOUN', 'NOUN', 'conj']", "['中心', '医院', 'conj']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '中心', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['急救', '人员', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['人员', '设', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['在', '设', 'advcl']"]
+["['VERB', 'PART', 'compound']", "['停车', '场', 'compound']"]
+["['PART', 'VERB', 'obj']", "['场', '在', 'obj']"]
+["['VERB', 'VERB', 'parataxis']", "['设', '涌入', 'parataxis']"]
+["['AUX', 'VERB', 'aux']", "['了', '设', 'aux']"]
+["['NOUN', 'VERB', 'obj']", "['帐篷', '设', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '治疗', 'punct']"]
+["['ADP', 'NOUN', 'case']", "['为', '伤者', 'case']"]
+["['NOUN', 'VERB', 'obl']", "['伤者', '治疗', 'obl']"]
+["['VERB', 'VERB', 'parataxis']", "['治疗', '涌入', 'parataxis']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '消息', 'punct']"]
+["['NOUN', 'NOUN', 'nmod:tmod']", "['同时', '消息', 'nmod:tmod']"]
+["['NUM', 'NOUN', 'nummod']", "['数十', '名', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['名', '人', 'clf']"]
+["['ADJ', 'NOUN', 'amod']", "['焦急', '人', 'amod']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '焦急', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nsubj']", "['人', '消息', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['在', '消息', 'case']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['等待', '消息', 'acl:relcl']"]
+["['ADJ', 'NOUN', 'amod']", "['有关', '伤者', 'amod']"]
+["['NOUN', 'NOUN', 'nmod']", "['伤者', '亲人', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['亲人', '等待', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '等待', 'mark:rel']"]
+["['NOUN', 'VERB', 'obl']", "['消息', '治疗', 'obl']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '涌入', 'punct']"]
+----------------------------------------------------------------------
+有一刻，一个人被告知他刚刚失去了儿子，他开始哭喊，人群静默。
+
+(ROOT (IP (IP (IP (VP (VV 有) (QP (CD 一) (CLP (NNB 刻))))) (, ，) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 人))) (VP (BB 被) (VP (VV 告知) (IP (NP (PRP 他)) (VP (ADVP (RB 刚刚)) (VP (VV 失去) (AS 了) (NP (NN 儿子)))))))) (, ，) (IP (NP (PRP 他)) (VP (VV 开始) (VP (VV 哭喊)))) (, ，) (IP (NP (NN 人群)) (VP (JJ 静默))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['VERB', 'ROOT', 'root']", "['有', 'NONE', 'root']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '刻', 'nummod']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['刻', '告知', 'nmod:tmod']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '刻', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '个', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['个', '人', 'clf']"]
+["['NOUN', 'VERB', 'nsubj:pass']", "['人', '告知', 'nsubj:pass']"]
+["['AUX', 'VERB', 'aux:pass']", "['被', '告知', 'aux:pass']"]
+["['VERB', 'VERB', 'ccomp']", "['告知', '有', 'ccomp']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '失去', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['刚刚', '失去', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['失去', '告知', 'ccomp']"]
+["['AUX', 'VERB', 'aux']", "['了', '失去', 'aux']"]
+["['NOUN', 'VERB', 'obj']", "['儿子', '失去', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '开始', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '开始', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['开始', '告知', 'parataxis']"]
+["['VERB', 'VERB', 'xcomp']", "['哭喊', '开始', 'xcomp']"]
+["['PUNCT', 'ADJ', 'punct']", "['，', '静默', 'punct']"]
+["['NOUN', 'ADJ', 'nsubj']", "['人群', '静默', 'nsubj']"]
+["['ADJ', 'VERB', 'parataxis']", "['静默', '有', 'parataxis']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有', 'punct']"]
+----------------------------------------------------------------------
+他大叫道：“上帝，你为什么这么残忍？”“儿子，我想和你一起去。”
+
+(ROOT (IP (IP (NP (PRP 他)) (VP (ADVP (RB 大)) (VP (VV 叫道) (: ：) (IP (`` “) (NP (NNP 上帝)) (, ，) (NP (PRP 你)) (VP (PP (IN 为) (NP (WP 什么))) (ADVP (RB 这么)) (VP (JJ 残忍))))))) (. ？) ('' ”) (IP (`` “) (NP (NN 儿子)) (, ，) (NP (PRP 我)) (VP (MD 想) (IP (VP (PP (IN 和) (NP (PRP 你))) (ADVP (RB 一起)) (VP (VV 去)))))) (. 。) ('' ”)))
+layer 2:
+{'IP': {'IP': {}, '.': {}, "''": {}, 'IP': {}, '.': {}, "''": {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, '.': {}, "''": {}, 'IP': {'``': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}}, '.': {}, "''": {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'``': {}, 'NP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+Dependency Features:
+["['PRON', 'VERB', 'nsubj']", "['他', '叫道', 'nsubj']"]
+["['ADV', 'VERB', 'advmod']", "['大', '叫道', 'advmod']"]
+["['VERB', 'ROOT', 'root']", "['叫道', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['：', '去', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['“', '去', 'punct']"]
+["['PROPN', 'ADJ', 'nsubj']", "['上帝', '残忍', 'nsubj']"]
+["['PUNCT', 'PROPN', 'punct']", "['，', '上帝', 'punct']"]
+["['PRON', 'ADJ', 'nsubj']", "['你', '残忍', 'nsubj']"]
+["['ADP', 'PRON', 'case']", "['为', '什么', 'case']"]
+["['PRON', 'ADJ', 'nmod']", "['什么', '残忍', 'nmod']"]
+["['ADV', 'ADJ', 'advmod']", "['这么', '残忍', 'advmod']"]
+["['ADJ', 'VERB', 'advcl']", "['残忍', '去', 'advcl']"]
+["['PUNCT', 'ADJ', 'punct']", "['？', '残忍', 'punct']"]
+["['PUNCT', 'ADJ', 'punct']", "['”', '残忍', 'punct']"]
+["['PUNCT', 'NOUN', 'punct']", "['“', '儿子', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['儿子', '去', 'nsubj']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '儿子', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['我', '去', 'nsubj']"]
+["['AUX', 'VERB', 'aux']", "['想', '去', 'aux']"]
+["['ADP', 'PRON', 'case']", "['和', '你', 'case']"]
+["['PRON', 'VERB', 'obl']", "['你', '去', 'obl']"]
+["['ADV', 'VERB', 'advmod']", "['一起', '去', 'advmod']"]
+["['VERB', 'VERB', 'ccomp']", "['去', '叫道', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '去', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['”', '去', 'punct']"]
+----------------------------------------------------------------------
+星期四日出时，一大团黑烟升起，横亘在地平线上。
+
+(ROOT (IP (LCP (IP (VP (NP (NP (NN 星期)) (QP (CD 四) (CLP (NNB 日)))) (VP (VV 出)))) (IN 时)) (, ，) (NP (NP (QP (CD 一)) (ADJP (PFA 大)) (NP (NN 团))) (NP (NN 黑烟))) (VP (VP (VV 升起)) (, ，) (VP (VV 横亘) (PP (IN 在) (LCP (NP (NN 地平)) (NN 线上))))) (. 。)))
+layer 2:
 {'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NP': {}, 'NP37970': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
-{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
+{'IP': {'LCP': {'IP': {}, 'IN': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
 {'LCP': {'IP': {}, 'IN': {}}}
 {'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
 Dependency Features:
-['ADP', 'PART', 'case']	['在', '奖', 'case']
-['PROPN', 'PART', 'nmod']	['英国', '名', 'nmod']
-['ADV', 'ADJ', 'advmod']	['最', '负盛', 'advmod']
-['ADJ', 'PART', 'compound']	['负盛', '名', 'compound']
-['PART', 'PART', 'acl:relcl']	['名', '奖', 'acl:relcl']
-['PART', 'PART', 'mark:rel']	['的', '名', 'mark:rel']
-['NOUN', 'PART', 'compound']	['文学', '奖', 'compound']
-['PART', 'VERB', 'nsubj']	['奖', '开放', 'nsubj']
-['NUM', 'VERB', 'obl']	['首次', '开放', 'obl']
-['ADP', 'NOUN', 'case']	['在', '年历史', 'case']
-['PRON', 'NOUN', 'nmod']	['其', '年历史', 'nmod']
-['NUM', 'NOUN', 'nummod']	['46', '年历史', 'nummod']
-['NOUN', 'VERB', 'obl']	['年历史', '开放', 'obl']
-['ADP', 'NOUN', 'case']	['中', '年历史', 'case']
-['ADP', 'NOUN', 'case']	['向', '作家', 'case']
-['DET', 'NOUN', 'det']	['任何', '国籍', 'det']
-['NOUN', 'NOUN', 'nmod']	['国籍', '作家', 'nmod']
-['PART', 'NOUN', 'case']	['的', '国籍', 'case']
-['NOUN', 'VERB', 'obl']	['作家', '开放', 'obl']
-['VERB', 'VERB', 'ccomp']	['开放', '占据', 'ccomp']
-['ADP', 'VERB', 'mark']	['之后', '开放', 'mark']
-['PUNCT', 'VERB', 'punct']	['，', '开放', 'punct']
-['PROPN', 'NOUN', 'nmod']	['英国', '作家', 'nmod']
-['NOUN', 'VERB', 'nsubj']	['作家', '占据', 'nsubj']
-['VERB', 'ROOT', 'root']	['占据', 'NONE', 'root']
-['AUX', 'VERB', 'aux']	['了', '占据', 'aux']
-['PROPN', 'NOUN', 'nmod']	['曼布', '名单', 'nmod']
-['NOUN', 'PART', 'compound']	['里', '奖', 'compound']
-['PART', 'NOUN', 'nmod']	['奖', '名单', 'nmod']
-['PART', 'NOUN', 'case']	['短', '名单', 'case']
-['NOUN', 'NOUN', 'nmod']	['名单', '名额', 'nmod']
-['PART', 'NOUN', 'case']	['的', '名单', 'case']
-['NUM', 'NOUN', 'nummod']	['三', '个', 'nummod']
-['NOUN', 'NOUN', 'clf']	['个', '名额', 'clf']
-['NOUN', 'VERB', 'obj']	['名额', '占据', 'obj']
-['PUNCT', 'VERB', 'punct']	['。', '占据', 'punct']
+["['NOUN', 'NOUN', 'nmod']", "['星期', '日', 'nmod']"]
+["['NUM', 'NOUN', 'nummod']", "['四', '日', 'nummod']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['日', '出', 'nmod:tmod']"]
+["['VERB', 'VERB', 'advcl']", "['出', '横亘', 'advcl']"]
+["['ADP', 'VERB', 'mark']", "['时', '出', 'mark']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '出', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '团', 'nummod']"]
+["['PART', 'NOUN', 'case']", "['大', '团', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['团', '黑烟', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['黑烟', '升起', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['升起', '横亘', 'advcl']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '升起', 'punct']"]
+["['VERB', 'ROOT', 'root']", "['横亘', 'NONE', 'root']"]
+["['ADP', 'NOUN', 'case']", "['在', '线上', 'case']"]
+["['NOUN', 'NOUN', 'nmod']", "['地平', '线上', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['线上', '横亘', 'obl']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '横亘', 'punct']"]
 ----------------------------------------------------------------------
-这一举措旨在“尽可能充分地体现英语的活力、生命力、多样性和荣耀”，但也引发了人们对美国文学大师将主宰英国奖项的担忧。
+距离港口不远的一个新建公寓楼的居民都戴着一次性口罩，受伤的人从医院出来后，拄着拐杖，疑惑地走在街上。
 
-(ROOT (IP (NP (NP (DP (DT 这)) (NP (VV 一举) (SFN 措))) (NP (NN 旨))) (VP (VV 在) (VP (`` “) (VP (ADVP (VV 尽)) (VP (MD 可能) (VP (DVP (VP (JJ 充分)) (DEV 地)) (VP (VV 体现) (NP (DNP (NP (NNP 英) (SFN 语)) (DEC 的)) (NP (NN 活力) (EC 、) (NN 生命) (SFN 力) (EC 、) (JJ 多样) (SFN 性) (CC 和) (NN 荣耀) ('' ”))))))) (, ，) (VP (ADVP (RB 但)) (ADVP (RB 也)) (VP (VV 引发) (AS 了) (NP (NP (NN 人们)) (DNP (PP (IN 对) (IP (NP (NP (NNP 美国)) (NP (NN 文学) (NN 大师))) (VP (ADVP (RB 将)) (VP (VV 主宰) (NP (NP (NNP 英国)) (NP (NN 奖项))))))) (DEC 的)) (NP (NN 担忧))))))) (. 。)))
+(ROOT (IP (IP (NP (DNP (NP (CP (CP (IP (VP (PP (IN 距离) (NP (NN 港口))) (VP (JJ 不远)))) (DEC 的))) (QP (CD 一) (CLP (NNB 个))) (ADJP (JJ 新建)) (NP (NN 公寓) (SFN 楼))) (DEC 的)) (NP (NN 居民))) (VP (VV 都戴) (AS 着) (NP (QP (CD 一) (CLP (NNB 次))) (NP (NN 性口) (SFN 罩))))) (, ，) (IP (NP (CP (CP (IP (VP (VV 受伤))) (DEC 的))) (NP (NN 人))) (VP (LCP (IP (VP (PP (IN 从) (NP (NN 医院))) (VP (VV 出来)))) (IN 后)) (, ，) (VP (VP (VV 拄) (AS 着) (NP (NN 拐杖))) (, ，) (VP (DVP (VP (JJ 疑惑)) (DEV 地)) (VP (VV 走) (PP (VV 在) (NP (NN 街上)))))))) (. 。)))
 layer 2:
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'NP': {}, 'VP': {}, '.': {}}}
-layer 3:
-{'IP': {'NP': {'NP': {}, 'NP50135': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
-{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'VP': {}}, '.': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'VP': {}}}
-Dependency Features:
-['DET', 'PART', 'det']	['这', '措', 'det']
-['VERB', 'PART', 'compound']	['一举', '措', 'compound']
-['PART', 'VERB', 'nsubj']	['措', '在', 'nsubj']
-['NOUN', 'VERB', 'nsubj']	['旨', '在', 'nsubj']
-['VERB', 'ROOT', 'root']	['在', 'NONE', 'root']
-['PUNCT', 'VERB', 'punct']	['“', '引发', 'punct']
-['VERB', 'VERB', 'advcl']	['尽', '引发', 'advcl']
-['AUX', 'VERB', 'aux']	['可能', '体现', 'aux']
-['ADJ', 'VERB', 'advmod']	['充分', '体现', 'advmod']
-['PART', 'ADJ', 'mark:adv']	['地', '充分', 'mark:adv']
-['VERB', 'VERB', 'xcomp']	['体现', '尽', 'xcomp']
-['PROPN', 'PART', 'compound']	['英', '语', 'compound']
-['PART', 'NOUN', 'nmod']	['语', '活力', 'nmod']
-['PART', 'PART', 'case']	['的', '语', 'case']
-['NOUN', 'VERB', 'obj']	['活力', '体现', 'obj']
-['PUNCT', 'PART', 'punct']	['、', '力', 'punct']
-['NOUN', 'PART', 'compound']	['生命', '力', 'compound']
-['PART', 'NOUN', 'conj']	['力', '活力', 'conj']
-['PUNCT', 'PART', 'punct']	['、', '性', 'punct']
-['ADJ', 'PART', 'compound']	['多样', '性', 'compound']
-['PART', 'NOUN', 'conj']	['性', '活力', 'conj']
-['CCONJ', 'NOUN', 'cc']	['和', '荣耀', 'cc']
-['NOUN', 'NOUN', 'conj']	['荣耀', '活力', 'conj']
-['PUNCT', 'NOUN', 'punct']	['”', '荣耀', 'punct']
-['PUNCT', 'VERB', 'punct']	['，', '尽', 'punct']
-['ADV', 'VERB', 'mark']	['但', '引发', 'mark']
-['ADV', 'VERB', 'mark']	['也', '引发', 'mark']
-['VERB', 'VERB', 'xcomp']	['引发', '在', 'xcomp']
-['AUX', 'VERB', 'aux']	['了', '引发', 'aux']
-['NOUN', 'VERB', 'nsubj']	['人', '主宰', 'nsubj']
-['ADP', 'NOUN', 'case']	['对', '大师', 'case']
-['PROPN', 'NOUN', 'nmod']	['美国', '大师', 'nmod']
-['NOUN', 'NOUN', 'nmod']	['文学', '大师', 'nmod']
-['NOUN', 'VERB', 'obl']	['大师', '主宰', 'obl']
-['ADV', 'VERB', 'advmod']	['将', '主宰', 'advmod']
-['VERB', 'NOUN', 'acl:relcl']	['主宰', '担忧', 'acl:relcl']
-['PROPN', 'NOUN', 'nmod']	['英国', '奖项', 'nmod']
-['NOUN', 'VERB', 'obj']	['奖项', '主宰', 'obj']
-['PART', 'VERB', 'mark:rel']	['的', '主宰', 'mark:rel']
-['NOUN', 'VERB', 'obj']	['担忧', '引发', 'obj']
-['PUNCT', 'VERB', 'punct']	['。', '在', 'punct']
-----------------------------------------------------------------------
-但是，最终，美国的两位作家 Joshua Ferris 和 Karen Joy Fowler 进入了今年奖项的最终决赛。
-
-(ROOT (IP (ADVP (RB 但是)) (, ，) (ADVP (NN 最终)) (, ，) (NP (NP (DNP (NP (NNP 美国)) (DEC 的)) (QP (CD 两) (CLP (NNB 位))) (NP (NN 作家))) (NP (FW Joshua) (FW Ferris) (CC 和) (FW Karen) (FW Joy) (FW Fowler))) (VP (VV 进入) (AS 了) (NP (DNP (NP (NN 今年) (NN 奖项)) (DEC 的)) (ADJP (NN 最终)) (NP (NN 决赛)))) (. 。)))
-layer 2:
-{'IP': {'ADVP': {}, ',': {}, 'ADVP6069': {}, ',51408': {}, 'NP': {}, 'VP': {}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
-layer 3:
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'ADVP66132': {'NN': {}}, ',50265': {}, 'NP': {'NP': {}, 'NP86517': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
-{'IP': {'ADVP': {'RB': {}}, ',': {}, 'ADVP': {'NN': {}}, ',': {}, 'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, 'AS': {}, 'NP': {}}, '.': {}}}
-{'ADVP': {'RB': {}}}
-{'ADVP': {'NN': {}}}
-{'NP': {'NP': {}, 'NP': {}}}
-{'VP': {'VV': {}, 'AS': {}, 'NP': {}}}
-Dependency Features:
-['ADV', 'VERB', 'mark']	['但是', '进入', 'mark']
-['PUNCT', 'ADV', 'punct']	['，', '但是', 'punct']
-['NOUN', 'VERB', 'nmod:tmod']	['最终', '进入', 'nmod:tmod']
-['PUNCT', 'NOUN', 'punct']	['，', '最终', 'punct']
-['PROPN', 'NOUN', 'nmod']	['美国', '作家', 'nmod']
-['PART', 'PROPN', 'case']	['的', '美国', 'case']
-['NUM', 'NOUN', 'nummod']	['两', '位', 'nummod']
-['NOUN', 'NOUN', 'clf']	['位', '作家', 'clf']
-['NOUN', 'VERB', 'nsubj']	['作家', '进入', 'nsubj']
-['X', 'NOUN', 'appos']	['Joshua', '作家', 'appos']
-['X', 'X', 'flat:foreign']	['Ferris', 'Joshua', 'flat:foreign']
-['CCONJ', 'X', 'cc']	['和', 'Karen', 'cc']
-['X', 'X', 'conj']	['Karen', 'Joshua', 'conj']
-['X', 'X', 'flat:foreign']	['Joy', 'Karen', 'flat:foreign']
-['X', 'X', 'flat:foreign']	['Fowler', 'Karen', 'flat:foreign']
-['VERB', 'ROOT', 'root']	['进入', 'NONE', 'root']
-['AUX', 'VERB', 'aux']	['了', '进入', 'aux']
-['NOUN', 'NOUN', 'nmod']	['今年', '奖项', 'nmod']
-['NOUN', 'NOUN', 'nmod']	['奖项', '决赛', 'nmod']
-['PART', 'NOUN', 'case']	['的', '奖项', 'case']
-['NOUN', 'NOUN', 'nmod']	['最终', '决赛', 'nmod']
-['NOUN', 'VERB', 'obj']	['决赛', '进入', 'obj']
-['PUNCT', 'VERB', 'punct']	['。', '进入', 'punct']
-----------------------------------------------------------------------
-费里斯和福勒与澳大利亚作家理查德·弗兰兰加入最终六人名单，今年有三位英国作家入围 50,000 英镑奖项：前一届获奖者霍华德·雅各布森、尼尔·穆赫赖吉和阿里·史密斯。
-
-(ROOT (IP (IP (NP (NP (NNP 费里斯和福勒)) (CC 与) (NP (NP (NP (NNP 澳大利亚)) (NP (NN 作家))) (NP (NNP 理查德) (/ ·) (NNP 弗兰兰)))) (VP (VV 加入) (NP (ADJP (NN 最终)) (NP (QP (CD 六)) (NP (NN 人))) (NP (NN 名单))))) (, ，) (IP (VP (NP (NN 今年)) (VP (VV 有) (IP (IP (NP (QP (CD 三) (CLP (NNB 位))) (NP (NNP 英国)) (NP (NN 作家))) (VP (VV 入围) (NP (QP (CD 50,000) (CLP (NNB 英镑))) (NP (NN 奖项))))) (: ：) (NP (NP (DP (DT 前) (QP (CD 一) (CLP (NNB 届)))) (NP (VV 获奖) (SFN 者))) (NP (NNP 霍华德) (/ ·) (NNP 雅各布森) (EC 、) (NNP 尼尔) (/ ·) (NNP 穆赫赖吉) (CC 和) (NNP 阿里) (/ ·) (NNP 史密斯))))))) (. 。)))
-layer 2:
-{'IP': {'IP': {}, ',': {}, 'IP58252': {}, '.': {}}}
 {'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP55937': {'VP': {}}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
+Dependency Features:
+["['ADP', 'NOUN', 'case']", "['距离', '港口', 'case']"]
+["['NOUN', 'ADJ', 'nmod']", "['港口', '不远', 'nmod']"]
+["['ADJ', 'PART', 'acl:relcl']", "['不远', '楼', 'acl:relcl']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '不远', 'mark:rel']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '个', 'nummod']"]
+["['NOUN', 'PART', 'nmod']", "['个', '楼', 'nmod']"]
+["['ADJ', 'PART', 'amod']", "['新建', '楼', 'amod']"]
+["['NOUN', 'PART', 'compound']", "['公寓', '楼', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['楼', '居民', 'nmod']"]
+["['PART', 'PART', 'case']", "['的', '楼', 'case']"]
+["['NOUN', 'VERB', 'nsubj']", "['居民', '都戴', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['都戴', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['着', '都戴', 'aux']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '次', 'nummod']"]
+["['NOUN', 'PART', 'nmod']", "['次', '罩', 'nmod']"]
+["['NOUN', 'PART', 'compound']", "['性口', '罩', 'compound']"]
+["['PART', 'VERB', 'obj']", "['罩', '都戴', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '走', 'punct']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['受伤', '人', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '受伤', 'mark:rel']"]
+["['NOUN', 'VERB', 'nsubj']", "['人', '走', 'nsubj']"]
+["['ADP', 'NOUN', 'case']", "['从', '医院', 'case']"]
+["['NOUN', 'VERB', 'obl']", "['医院', '出来', 'obl']"]
+["['VERB', 'VERB', 'advcl']", "['出来', '走', 'advcl']"]
+["['ADP', 'VERB', 'mark']", "['后', '出来', 'mark']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '出来', 'punct']"]
+["['VERB', 'VERB', 'advcl']", "['拄', '走', 'advcl']"]
+["['AUX', 'VERB', 'aux']", "['着', '拄', 'aux']"]
+["['NOUN', 'VERB', 'obj']", "['拐杖', '拄', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '拄', 'punct']"]
+["['ADJ', 'VERB', 'advmod']", "['疑惑', '走', 'advmod']"]
+["['PART', 'ADJ', 'mark:adv']", "['地', '疑惑', 'mark:adv']"]
+["['VERB', 'VERB', 'parataxis']", "['走', '都戴', 'parataxis']"]
+["['VERB', 'VERB', 'mark']", "['在', '走', 'mark']"]
+["['NOUN', 'VERB', 'obj']", "['街上', '走', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '都戴', 'punct']"]
+----------------------------------------------------------------------
+马路上铺满了玻璃片；在上面，这座由 33 层楼组成的建筑群的每一个窗户都被吹破了，风吹进去，窗户上的窗帘在刺眼的缝隙中飘扬着。
+
+(ROOT (IP (IP (LCP (NP (NN 马路)) (NN 上)) (VP (VV 铺满) (AS 了) (NP (NN 玻璃) (SFN 片)))) (: ；) (IP (PP (IN 在) (NP (NN 上面))) (, ，) (NP (DNP (NP (DP (DT 这) (CLP (NNB 座))) (CP (CP (IP (VP (PP (VV 由) (QP (CD 33) (CLP (NN 层楼)))) (VP (VV 组成)))) (DEC 的))) (NP (VV 建筑) (SFN 群))) (DEC 的)) (DP (DT 每) (QP (CD 一) (CLP (NNB 个)))) (NP (NN 窗户))) (VP (ADVP (RB 都)) (VP (BB 被) (VP (VV 吹破) (AS 了))))) (, ，) (IP (VP (VRD (VV 风吹) (VV 进去)))) (, ，) (IP (NP (DNP (LCP (NP (NN 窗户)) (NN 上)) (DEC 的)) (NP (NN 窗帘))) (VP (PP (VV 在) (LCP (NP (CP (CP (IP (VP (NN 刺眼))) (DEC 的))) (NP (NN 缝隙))) (NN 中))) (VP (VCD (VV 飘) (VV 扬着))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ':': {}, 'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'LCP': {}, 'VP': {}}, ':': {}, 'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'LCP': {}, 'VP': {}}}
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
 {'IP': {'VP': {}}}
+{'IP': {'NP': {}, 'VP': {}}}
 Dependency Features:
-['PROPN', 'VERB', 'nsubj']	['费里斯和福勒', '加入', 'nsubj']
-['CCONJ', 'NOUN', 'cc']	['与', '作家', 'cc']
-['PROPN', 'NOUN', 'nmod']	['澳大利亚', '作家', 'nmod']
-['NOUN', 'PROPN', 'conj']	['作家', '费里斯和福勒', 'conj']
-['PROPN', 'PROPN', 'appos']	['理查德', '费里斯和福勒', 'appos']
-['PUNCT', 'PROPN', 'punct']	['·', '弗兰兰', 'punct']
-['PROPN', 'PROPN', 'flat:name']	['弗兰兰', '理查德', 'flat:name']
-['VERB', 'ROOT', 'root']	['加入', 'NONE', 'root']
-['NOUN', 'NOUN', 'nmod']	['最终', '名单', 'nmod']
-['NUM', 'NOUN', 'nummod']	['六', '人', 'nummod']
-['NOUN', 'NOUN', 'nmod']	['人', '名单', 'nmod']
-['NOUN', 'VERB', 'obj']	['名单', '加入', 'obj']
-['PUNCT', 'VERB', 'punct']	['，', '有', 'punct']
-['NOUN', 'VERB', 'nmod:tmod']	['今年', '有', 'nmod:tmod']
-['VERB', 'VERB', 'parataxis']	['有', '加入', 'parataxis']
-['NUM', 'NOUN', 'nummod']	['三', '位', 'nummod']
-['NOUN', 'NOUN', 'clf']	['位', '作家', 'clf']
-['PROPN', 'NOUN', 'nmod']	['英国', '作家', 'nmod']
-['NOUN', 'VERB', 'nsubj']	['作家', '入围', 'nsubj']
-['VERB', 'VERB', 'ccomp']	['入围', '有', 'ccomp']
-['NUM', 'NOUN', 'nummod']	['50,000', '英镑', 'nummod']
-['NOUN', 'NOUN', 'clf']	['英镑', '奖项', 'clf']
-['NOUN', 'VERB', 'obj']	['奖项', '入围', 'obj']
-['PUNCT', 'PART', 'punct']	['：', '者', 'punct']
-['DET', 'NOUN', 'det']	['前', '届', 'det']
-['NUM', 'NOUN', 'nummod']	['一', '届', 'nummod']
-['NOUN', 'PART', 'nmod']	['届', '者', 'nmod']
-['VERB', 'PART', 'compound']	['获奖', '者', 'compound']
-['PART', 'VERB', 'parataxis']	['者', '加入', 'parataxis']
-['PROPN', 'PART', 'appos']	['霍华德', '者', 'appos']
-['PUNCT', 'PROPN', 'punct']	['·', '雅各布森', 'punct']
-['PROPN', 'PROPN', 'flat:name']	['雅各布森', '霍华德', 'flat:name']
-['PUNCT', 'PROPN', 'punct']	['、', '尼尔', 'punct']
-['PROPN', 'PROPN', 'conj']	['尼尔', '霍华德', 'conj']
-['PUNCT', 'PROPN', 'punct']	['·', '穆赫赖吉', 'punct']
-['PROPN', 'PROPN', 'flat:name']	['穆赫赖吉', '尼尔', 'flat:name']
-['CCONJ', 'PROPN', 'cc']	['和', '阿里', 'cc']
-['PROPN', 'PROPN', 'conj']	['阿里', '霍华德', 'conj']
-['PUNCT', 'PROPN', 'punct']	['·', '史密斯', 'punct']
-['PROPN', 'PROPN', 'flat:name']	['史密斯', '阿里', 'flat:name']
-['PUNCT', 'VERB', 'punct']	['。', '加入', 'punct']
+["['NOUN', 'VERB', 'nsubj']", "['马路', '铺满', 'nsubj']"]
+["['NOUN', 'NOUN', 'acl']", "['上', '马路', 'acl']"]
+["['VERB', 'ROOT', 'root']", "['铺满', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['了', '铺满', 'aux']"]
+["['NOUN', 'PART', 'compound']", "['玻璃', '片', 'compound']"]
+["['PART', 'VERB', 'obj']", "['片', '铺满', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['；', '吹破', 'punct']"]
+["['ADP', 'NOUN', 'case']", "['在', '上面', 'case']"]
+["['NOUN', 'VERB', 'obl']", "['上面', '吹破', 'obl']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '上面', 'punct']"]
+["['DET', 'NOUN', 'det']", "['这', '座', 'det']"]
+["['NOUN', 'NOUN', 'clf']", "['座', '窗户', 'clf']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['由', '窗户', 'acl:relcl']"]
+["['NUM', 'NOUN', 'nummod']", "['33', '层楼', 'nummod']"]
+["['NOUN', 'VERB', 'nsubj']", "['层楼', '组成', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['组成', '由', 'ccomp']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '由', 'mark:rel']"]
+["['VERB', 'PART', 'compound']", "['建筑', '群', 'compound']"]
+["['PART', 'VERB', 'obj']", "['群', '由', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '由', 'mark:rel']"]
+["['DET', 'NOUN', 'det']", "['每', '个', 'det']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '个', 'nummod']"]
+["['NOUN', 'NOUN', 'nmod']", "['个', '窗户', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj:pass']", "['窗户', '吹破', 'nsubj:pass']"]
+["['ADV', 'VERB', 'mark']", "['都', '吹破', 'mark']"]
+["['AUX', 'VERB', 'aux:pass']", "['被', '吹破', 'aux:pass']"]
+["['VERB', 'VERB', 'parataxis']", "['吹破', '铺满', 'parataxis']"]
+["['AUX', 'VERB', 'aux']", "['了', '吹破', 'aux']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '风吹', 'punct']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['风吹', '窗帘', 'acl:relcl']"]
+["['VERB', 'VERB', 'mark']", "['进去', '风吹', 'mark']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '风吹', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['窗户', '窗帘', 'nmod']"]
+["['NOUN', 'NOUN', 'acl']", "['上', '窗户', 'acl']"]
+["['PART', 'NOUN', 'case']", "['的', '窗户', 'case']"]
+["['NOUN', 'VERB', 'nsubj']", "['窗帘', '飘', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['在', '飘', 'advcl']"]
+["['NOUN', 'VERB', 'obj']", "['刺眼', '在', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '在', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['缝隙', '在', 'obj']"]
+["['NOUN', 'NOUN', 'acl']", "['中', '缝隙', 'acl']"]
+["['VERB', 'VERB', 'advcl']", "['飘', '扬着', 'advcl']"]
+["['VERB', 'VERB', 'parataxis']", "['扬着', '吹破', 'parataxis']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '铺满', 'punct']"]
 ----------------------------------------------------------------------
-英国作家大卫·米切尔的新小说《骨铭》被乌玛·卢·奎因 (Ursula K Le Guin) 在《卫报》的评论中描述为“600 页的元架构小说，用毫不留情的杰出文学作品”，但该书未能入围，美国文学明星西里·赫斯特韦特 (Siri Hustvedt) 和理查德·鲍斯 (Richard Powers) 也同样未能入围。
+街上的汽车轮胎都爆胎了，一个集装箱的侧面被挤压得像是巨人用手掌一样推着的样子。
 
-(ROOT (IP (IP (NP (NP (DNP (NP (NP (NP (NNP 英国)) (NP (NN 作家))) (NP (NNP 大卫) (/ ·) (NNP 米切尔))) (DEC 的)) (ADJP (PFA 新)) (NP (NN 小说))) (NP (-LRB- 《) (NNP 骨铭) (-RRB- 》))) (VP (BB 被) (IP (NP (NNP 乌玛) (/ ·) (NNP 卢) (/ ·) (NNP 奎因) (PRN (/ -LRB-) (LCP (NP (NP (FW Ursula) (FW K Le) (FW Guin-RRB-)) (DNP (PP (IN 在) (NP (-LRB- 《) (NNP 卫报) (-RRB- 》))) (DEC 的)) (NP (NN 评论))) (IN 中)))) (VP (VRD (VV 描述) (VC 为)) (NP (`` “) (QP (CD 600)) (NP (NNB 页的)) (NP (NN 元) (NN 架构) (NN 小说)) (, ，) (PP (VV 用) (NP (CP (CP (IP (VP (ADVP (RB 毫不)) (VP (JJ 留情)))) (DEC 的))) (ADJP (JJ 杰出)) (NP (NN 文学) (NN 作品)))) ('' ”)))))) (, ，) (IP (ADVP (RB 但)) (NP (NN 该书)) (VP (MD 未能) (VP (VV 入围)))) (, ，) (IP (NP (NP (NP (NNP 美国)) (NP (NN 文学) (NN 明星))) (NP (NNP 西里) (/ ·) (NNP 赫斯特韦特) (FW -LRB-Siri) (FW Hustvedt-RRB-) (CC 和理) (NNP 查德) (/ ·) (NNP 鲍斯) (FW -LRB-Richard) (FW Powers-RRB-))) (VP (ADVP (RB 也)) (ADVP (RB 同样)) (VP (MD 未能) (VP (VV 入围))))) (. 。)))
+(ROOT (IP (IP (NP (DNP (NP (NN 街上)) (DEC 的)) (NP (NN 汽车) (SFN 轮) (SFN 胎))) (VP (ADVP (RB 都)) (VP (VV 爆胎) (UH 了)))) (, ，) (IP (NP (DNP (NP (QP (CD 一) (CLP (NNB 个))) (NP (VV 集装) (SFN 箱))) (DEC 的)) (NP (NN 侧面))) (VP (BB 被) (VP (VV 挤压) (DEV 得) (VP (VC 像是) (NP (CP (IP (IP (NP (NN 巨人) (VV 用手) (VV 掌)) (VP (JJ 一样))) (VP (VV 推着))) (DEC 的)) (NP (NN 样子))))))) (. 。)))
 layer 2:
-{'IP': {'IP': {}, ',': {}, 'IP30854': {}, ',73079': {}, 'IP62021': {}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
 layer 3:
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP96694': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',97936': {}, 'IP19410': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
-{'IP': {'ADVP': {}, 'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 Dependency Features:
-['PROPN', 'NOUN', 'nmod']	['英国', '作家', 'nmod']
-['NOUN', 'NOUN', 'nmod']	['作家', '小说', 'nmod']
-['PROPN', 'NOUN', 'appos']	['大卫', '作家', 'appos']
-['PUNCT', 'PROPN', 'punct']	['·', '米切尔', 'punct']
-['PROPN', 'PROPN', 'flat:name']	['米切尔', '大卫', 'flat:name']
-['PART', 'PROPN', 'case']	['的', '大卫', 'case']
-['PART', 'NOUN', 'case']	['新', '小说', 'case']
-['NOUN', 'VERB', 'nsubj']	['小说', '入围', 'nsubj']
-['PUNCT', 'PROPN', 'punct']	['《', '骨铭', 'punct']
-['PROPN', 'NOUN', 'appos']	['骨铭', '小说', 'appos']
-['PUNCT', 'PROPN', 'punct']	['》', '骨铭', 'punct']
-['AUX', 'VERB', 'aux:pass']	['被', '描述', 'aux:pass']
-['PROPN', 'NOUN', 'nmod']	['乌玛', '小说', 'nmod']
-['PUNCT', 'PROPN', 'punct']	['·', '卢', 'punct']
-['PROPN', 'PROPN', 'flat:name']	['卢', '乌玛', 'flat:name']
-['PUNCT', 'PROPN', 'punct']	['·', '奎因', 'punct']
-['PROPN', 'PROPN', 'flat:name']	['奎因', '乌玛', 'flat:name']
-['PUNCT', 'X', 'punct']	['(', 'Ursula', 'punct']
-['X', 'PROPN', 'conj']	['Ursula', '乌玛', 'conj']
-['X', 'X', 'flat:foreign']	['K Le', 'Ursula', 'flat:foreign']
-['X', 'X', 'flat:foreign']	['Guin)', 'Ursula', 'flat:foreign']
-['ADP', 'NOUN', 'case']	['在', '评论', 'case']
-['PUNCT', 'PROPN', 'punct']	['《', '卫报', 'punct']
-['PROPN', 'NOUN', 'nmod']	['卫报', '评论', 'nmod']
-['PUNCT', 'PROPN', 'punct']	['》', '卫报', 'punct']
-['PART', 'PROPN', 'case']	['的', '卫报', 'case']
-['NOUN', 'VERB', 'obl']	['评论', '描述', 'obl']
-['ADP', 'NOUN', 'case']	['中', '评论', 'case']
-['VERB', 'VERB', 'advcl']	['描述', '入围', 'advcl']
-['VERB', 'VERB', 'mark']	['为', '描述', 'mark']
-['PUNCT', 'NOUN', 'punct']	['“', '小说', 'punct']
-['NUM', 'NOUN', 'nummod']	['600', '页的', 'nummod']
-['NOUN', 'NOUN', 'clf']	['页的', '小说', 'clf']
-['NOUN', 'NOUN', 'nmod']	['元', '小说', 'nmod']
-['NOUN', 'NOUN', 'nmod']	['架构', '小说', 'nmod']
-['NOUN', 'VERB', 'nsubj']	['小说', '用', 'nsubj']
-['PUNCT', 'NOUN', 'punct']	['，', '小说', 'punct']
-['VERB', 'VERB', 'ccomp']	['用', '描述', 'ccomp']
-['ADV', 'ADJ', 'advmod']	['毫不', '留情', 'advmod']
-['ADJ', 'NOUN', 'amod']	['留情', '作品', 'amod']
-['PART', 'ADJ', 'mark:rel']	['的', '留情', 'mark:rel']
-['ADJ', 'NOUN', 'amod']	['杰出', '作品', 'amod']
-['NOUN', 'NOUN', 'nmod']	['文学', '作品', 'nmod']
-['NOUN', 'VERB', 'obj']	['作品', '用', 'obj']
-['PUNCT', 'VERB', 'punct']	['”', '用', 'punct']
-['PUNCT', 'VERB', 'punct']	['，', '描述', 'punct']
-['ADV', 'VERB', 'mark']	['但', '入围', 'mark']
-['NOUN', 'VERB', 'nsubj']	['该书', '入围', 'nsubj']
-['AUX', 'VERB', 'aux']	['能', '入围', 'aux']
-['VERB', 'ROOT', 'root']	['入围', 'NONE', 'root']
-['PUNCT', 'VERB', 'punct']	['，', '入围', 'punct']
-['PROPN', 'NOUN', 'nmod']	['美国', '明星', 'nmod']
-['NOUN', 'NOUN', 'nmod']	['文学', '明星', 'nmod']
-['NOUN', 'VERB', 'nsubj']	['明星', '入围', 'nsubj']
-['PROPN', 'NOUN', 'appos']	['西里', '明星', 'appos']
-['PUNCT', 'PROPN', 'punct']	['·', '赫斯特韦特', 'punct']
-['PROPN', 'PROPN', 'flat:name']	['赫斯特韦特', '西里', 'flat:name']
-['X', 'PROPN', 'appos']	['(Siri', '西里', 'appos']
-['X', 'X', 'flat:foreign']	['Hustvedt)', '(Siri', 'flat:foreign']
-['CCONJ', 'PROPN', 'cc']	['和理', '查德', 'cc']
-['PROPN', 'X', 'conj']	['查德', '(Siri', 'conj']
-['PUNCT', 'PROPN', 'punct']	['·', '鲍斯', 'punct']
-['PROPN', 'PROPN', 'flat:name']	['鲍斯', '查德', 'flat:name']
-['X', 'X', 'appos']	['(Richard', '(Siri', 'appos']
-['X', 'X', 'flat:foreign']	['Powers)', '(Richard', 'flat:foreign']
-['ADV', 'VERB', 'mark']	['也', '入围', 'mark']
-['ADV', 'VERB', 'advmod']	['同样', '入围', 'advmod']
-['AUX', 'VERB', 'aux']	['能', '入围', 'aux']
-['VERB', 'VERB', 'parataxis']	['入围', '入围', 'parataxis']
-['PUNCT', 'VERB', 'punct']	['。', '入围', 'punct']
+["['NOUN', 'PART', 'nmod']", "['街上', '胎', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '街上', 'case']"]
+["['NOUN', 'PART', 'compound']", "['汽车', '轮', 'compound']"]
+["['PART', 'PART', 'compound']", "['轮', '胎', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['胎', '爆胎', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['都', '爆胎', 'mark']"]
+["['VERB', 'ROOT', 'root']", "['爆胎', 'NONE', 'root']"]
+["['PART', 'VERB', 'discourse']", "['了', '爆胎', 'discourse']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '挤压', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '个', 'nummod']"]
+["['NOUN', 'PART', 'nmod']", "['个', '箱', 'nmod']"]
+["['VERB', 'PART', 'compound']", "['集装', '箱', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['箱', '侧面', 'nmod']"]
+["['PART', 'PART', 'case']", "['的', '箱', 'case']"]
+["['NOUN', 'VERB', 'nsubj:pass']", "['侧面', '挤压', 'nsubj:pass']"]
+["['AUX', 'VERB', 'aux:pass']", "['被', '挤压', 'aux:pass']"]
+["['VERB', 'VERB', 'parataxis']", "['挤压', '爆胎', 'parataxis']"]
+["['PART', 'VERB', 'compound:ext']", "['得', '挤压', 'compound:ext']"]
+["['VERB', 'VERB', 'advcl']", "['是', '推着', 'advcl']"]
+["['NOUN', 'VERB', 'nsubj']", "['巨人', '掌', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['用手', '掌', 'advcl']"]
+["['VERB', 'VERB', 'ccomp']", "['掌', '是', 'ccomp']"]
+["['ADJ', 'VERB', 'ccomp']", "['一样', '是', 'ccomp']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['推着', '样子', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '推着', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['样子', '挤压', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '爆胎', 'punct']"]
 ----------------------------------------------------------------------
-相反，在 13 本入围作品中，由哲学家 AC Grayling 领导的评委会最终选择了费里斯的第三部小说《在适当的时间再次站起来》，这本书被史蒂芬·金称为“牙科的 Catch-22”，故事讲述一名牙医发现自己在网上被人伪造了一个人，而福尔顿的《我们都完全与他人截然不同》则是一部关于现代小说中最不寻常家庭之一的故事，这本书已赢得 2014 年 PEN/Faulkner 奖。
+对面的街道上，一排通常在中国施工现场使用的临时预制结构被拆除。
 
-(ROOT (IP (IP (ADVP (VV 相反)) (, ，) (PP (IN 在) (LCP (NP (QP (CD 13) (CLP (NNB 本))) (NP (NN 入围) (NN 作品))) (IN 中))) (, ，) (NP (CP (CP (IP (VP (PP (VV 由) (NP (NP (NN 哲学) (SFN 家)) (NP (FW AC) (FW Grayling)))) (VP (VV 领导)))) (DEC 的))) (NP (NN 评委) (SFN 会))) (VP (ADVP (NN 最终)) (VP (VV 选择) (AS 了) (NP (NP (DNP (NP (NNP 费里斯)) (DEC 的)) (QP (CD 第三) (CLP (NNB 部))) (NP (NN 小说))) (IP (-LRB- 《) (VP (PP (IN 在) (NP (CP (CP (IP (VP (JJ 适当))) (DEC 的))) (NP (NN 时间)))) (ADVP (RB 再次)) (VP (VRD (VV 站) (VV 起来)))) (-RRB- 》)))))) (, ，) (IP (NP (DP (DT 这)) (NP (NN 本书))) (VP (BB 被) (IP (NP (NNP 史蒂芬) (/ ·)) (VP (NNP 金称) (VP (VC 为) (NP (`` “) (DNP (NP (NN 牙科)) (DEC 的)) (NP (FW Catch-22)) ('' ”))))))) (, ，) (IP (NP (NN 故事)) (VP (VV 讲述) (IP (IP (NP (QP (CD 一) (CLP (NNB 名))) (NP (NN 牙医))) (VP (VV 发现) (IP (NP (PRD 自己)) (VP (PP (VV 在) (NP (NN 网上))) (VP (BB 被) (IP (NP (NN 人)) (VP (VV 伪造) (AS 了) (NP (QP (CD 一) (CLP (NNB 个))) (NP (NN 人)))))))))) (, ，) (RB 而) (IP (NP (DNP (NP (NNP 福尔顿)) (DEC 的)) (IP (-LRB- 《) (NP (PRP 我们)) (VP (ADVP (RB 都)) (ADVP (RB 完全)) (PP (IN 与) (NP (NN 他人))) (VP (VV 截然不同))) (-RRB- 》))) (VP (VC 则是) (NP (DNP (NP (DNP (NP (QP (CD 一) (CLP (NNB 部))) (CP (IP (VP (PP (IN 关于) (LCP (NP (ADJP (NN 现代)) (NP (NN 小说))) (IN 中))) (ADVP (RB 最)) (ADVP (RB 不)) (VP (JJ 寻常))))) (NP (NN 家庭))) (DEC 之)) (NP (CD 一))) (DEC 的)) (NP (NN 故事))))) (, ，) (IP (NP (DP (DT 这)) (NP (NN 本书))) (VP (ADVP (RB 已)) (VP (VV 赢得) (NP (CD 2014) (NNB 年 PEN) (/ /) (FW Faulkner) (SFN 奖)))))))) (. 。)))
+(ROOT (IP (LCP (NP (DNP (NP (NN 对面)) (DEC 的)) (NP (NN 街道))) (NN 上)) (, ，) (NP (QP (CD 一) (CLP (NNB 排))) (CP (CP (IP (VP (ADVP (RB 通常)) (PP (VV 在) (NP (NP (NNP 中国)) (NP (NN 施工) (NN 现场)))) (VP (VV 使用)))) (DEC 的))) (ADJP (JJ 临时)) (ADJP (NN 预制)) (NP (NN 结构))) (VP (BB 被) (VP (VV 拆除))) (. 。)))
 layer 2:
-{'IP': {'IP': {}, ',': {}, 'IP46178': {}, ',61034': {}, 'IP67213': {}, '.': {}}}
-{'IP': {'IP': {}, ',': {}, 'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+{'IP': {'LCP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
 layer 3:
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',27229': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP1182': {'NP': {}, 'VP': {}}, ',7304': {}, 'IP19545': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
-{'IP': {'ADVP': {}, ',': {}, 'PP': {}, ',': {}, 'NP': {}, 'VP': {}}}
+{'IP': {'LCP': {'NP': {}, 'NN': {}}, ',': {}, 'NP': {'QP': {}, 'CP': {}, 'ADJP': {}, 'ADJP': {}, 'NP': {}}, 'VP': {'BB': {}, 'VP': {}}, '.': {}}}
+{'LCP': {'NP': {}, 'NN': {}}}
+{'NP': {'QP': {}, 'CP': {}, 'ADJP': {}, 'ADJP': {}, 'NP': {}}}
+{'VP': {'BB': {}, 'VP': {}}}
+Dependency Features:
+["['NOUN', 'NOUN', 'nmod']", "['对面', '街道', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '对面', 'case']"]
+["['NOUN', 'VERB', 'nsubj:pass']", "['街道', '拆除', 'nsubj:pass']"]
+["['NOUN', 'NOUN', 'acl']", "['上', '街道', 'acl']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '街道', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '排', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['排', '结构', 'clf']"]
+["['ADV', 'VERB', 'advmod']", "['通常', '使用', 'advmod']"]
+["['VERB', 'VERB', 'advcl']", "['在', '使用', 'advcl']"]
+["['PROPN', 'NOUN', 'nmod']", "['中国', '现场', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['施工', '现场', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['现场', '在', 'obj']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['使用', '结构', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '使用', 'mark:rel']"]
+["['ADJ', 'NOUN', 'amod']", "['临时', '结构', 'amod']"]
+["['NOUN', 'NOUN', 'nmod']", "['预制', '结构', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj:pass']", "['结构', '拆除', 'nsubj:pass']"]
+["['AUX', 'VERB', 'aux:pass']", "['被', '拆除', 'aux:pass']"]
+["['VERB', 'ROOT', 'root']", "['拆除', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '拆除', 'punct']"]
+----------------------------------------------------------------------
+65 岁的建筑工 Su Zhaoqing 说，他当时正在床铺的下层睡觉，整栋楼倒塌，造成 2000 多名被压在建筑物内的男子中的数十人受伤。
+
+(ROOT (IP (NP (NP (DNP (QP (CD 65) (CLP (NNB 岁))) (DEC 的)) (NP (VV 建筑) (SFN 工))) (NP (FW Su) (FW Zhaoqing))) (VP (VV 说) (, ，) (IP (IP (NP (PRP 他)) (VP (NP (NN 当时)) (ADVP (RB 正)) (PP (VV 在) (NP (DNP (NP (NN 床铺)) (DEC 的)) (NP (NN 下层)))) (VP (VV 睡觉)))) (, ，) (IP (NP (NN 整栋)) (VP (ADVP (NN 楼倒)) (VP (VV 塌)))) (, ，) (IP (VP (VV 造成) (IP (NP (DNP (LCP (NP (QP (CD 2000) (CLP (CD 多名))) (CP (CP (IP (VP (BB 被) (VP (VV 压) (PP (VV 在) (LCP (NP (VV 建筑) (SFN 物)) (NN 内)))))) (DEC 的))) (NP (NN 男子))) (IN 中)) (DEC 的)) (QP (CD 数十)) (NP (NN 人))) (VP (VV 受伤))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'NP': {}, 'NP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'NP': {'NP': {}, 'NP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+["['NUM', 'NOUN', 'nummod']", "['65', '岁', 'nummod']"]
+["['NOUN', 'PART', 'nmod']", "['岁', '工', 'nmod']"]
+["['PART', 'NOUN', 'mark:rel']", "['的', '岁', 'mark:rel']"]
+["['VERB', 'PART', 'compound']", "['建筑', '工', 'compound']"]
+["['PART', 'VERB', 'nsubj']", "['工', '说', 'nsubj']"]
+["['X', 'PART', 'appos']", "['Su', '工', 'appos']"]
+["['X', 'X', 'flat:foreign']", "['Zhaoqing', 'Su', 'flat:foreign']"]
+["['VERB', 'ROOT', 'root']", "['说', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '造成', 'punct']"]
+["['PRON', 'VERB', 'nsubj']", "['他', '睡觉', 'nsubj']"]
+["['NOUN', 'VERB', 'nmod:tmod']", "['当时', '睡觉', 'nmod:tmod']"]
+["['ADV', 'VERB', 'advmod']", "['正', '在', 'advmod']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['在', '下层', 'acl:relcl']"]
+["['NOUN', 'VERB', 'obj']", "['床铺', '在', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '在', 'mark:rel']"]
+["['NOUN', 'VERB', 'obl']", "['下层', '睡觉', 'obl']"]
+["['VERB', 'VERB', 'advcl']", "['睡觉', '造成', 'advcl']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '睡觉', 'punct']"]
+["['NOUN', 'NOUN', 'nmod']", "['整栋', '楼倒', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['楼倒', '塌', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['塌', '造成', 'advcl']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '塌', 'punct']"]
+["['VERB', 'VERB', 'ccomp']", "['造成', '说', 'ccomp']"]
+["['NUM', 'NUM', 'nummod']", "['2000', '多名', 'nummod']"]
+["['NUM', 'NOUN', 'clf']", "['多名', '男子', 'clf']"]
+["['AUX', 'VERB', 'aux:pass']", "['被', '压', 'aux:pass']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['压', '男子', 'acl:relcl']"]
+["['VERB', 'VERB', 'mark']", "['在', '压', 'mark']"]
+["['VERB', 'PART', 'compound']", "['建筑', '物', 'compound']"]
+["['PART', 'VERB', 'obj']", "['物', '压', 'obj']"]
+["['NOUN', 'PART', 'acl']", "['内', '物', 'acl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '压', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['男子', '人', 'nmod']"]
+["['ADP', 'NOUN', 'case']", "['中', '男子', 'case']"]
+["['PART', 'NOUN', 'case']", "['的', '男子', 'case']"]
+["['NUM', 'NOUN', 'nummod']", "['数十', '人', 'nummod']"]
+["['NOUN', 'VERB', 'nsubj']", "['人', '受伤', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['受伤', '造成', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '说', 'punct']"]
+----------------------------------------------------------------------
+“一切都落在我的脸上，但我还是挺了过来，”苏先生说，他的头上裹着一块血淋淋的敷衍带。
+
+(ROOT (IP (IP (`` “) (NP (DT 一切)) (VP (ADVP (RB 都)) (VP (VV 落) (PP (VV 在) (NP (DNP (NP (PRP 我)) (DEC 的)) (NP (NN 脸上)))))) (, ，) (IP (ADVP (RB 但)) (NP (PRP 我)) (VP (ADVP (RB 还是)) (VP (VV 挺) (AS 了) (VV 过来))))) (, ，) ('' ”) (NP (NNP 苏) (NNP 先生)) (VP (VV 说) (, ，) (IP (NP (DNP (NP (PRP 他)) (DEC 的)) (NP (NN 头上))) (VP (VV 裹) (AS 着) (NP (QP (CD 一) (CLP (NNB 块))) (CP (CP (IP (VP (VCD (VV 血淋) (JJ 淋)))) (DEC 的))) (NP (NN 敷) (NN 衍带)))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, "''": {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}}, ',': {}, "''": {}, 'NP': {'NNP': {}, 'NNP': {}}, 'VP': {'VV': {}, ',': {}, 'IP': {}}, '.': {}}}
+{'IP': {'``': {}, 'NP': {}, 'VP': {}, ',': {}, 'IP': {}}}
+{'NP': {'NNP': {}, 'NNP': {}}}
+{'VP': {'VV': {}, ',': {}, 'IP': {}}}
+Dependency Features:
+["['PUNCT', 'VERB', 'punct']", "['“', '落', 'punct']"]
+["['DET', 'VERB', 'nsubj']", "['一切', '落', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['都', '落', 'mark']"]
+["['VERB', 'VERB', 'advcl']", "['落', '挺', 'advcl']"]
+["['VERB', 'VERB', 'mark']", "['在', '落', 'mark']"]
+["['PRON', 'VERB', 'obj']", "['我', '落', 'obj']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '落', 'mark:rel']"]
+["['NOUN', 'VERB', 'obj']", "['脸上', '落', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '落', 'punct']"]
+["['ADV', 'VERB', 'mark']", "['但', '挺', 'mark']"]
+["['PRON', 'VERB', 'nsubj']", "['我', '挺', 'nsubj']"]
+["['ADV', 'VERB', 'mark']", "['还是', '挺', 'mark']"]
+["['VERB', 'VERB', 'advcl']", "['挺', '说', 'advcl']"]
+["['AUX', 'VERB', 'aux']", "['了', '挺', 'aux']"]
+["['VERB', 'VERB', 'mark']", "['过来', '挺', 'mark']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '挺', 'punct']"]
+["['PUNCT', 'VERB', 'punct']", "['”', '挺', 'punct']"]
+["['PROPN', 'VERB', 'nsubj']", "['苏', '说', 'nsubj']"]
+["['PROPN', 'PROPN', 'flat:name']", "['先生', '苏', 'flat:name']"]
+["['VERB', 'ROOT', 'root']", "['说', 'NONE', 'root']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '裹', 'punct']"]
+["['PRON', 'NOUN', 'det']", "['他', '头上', 'det']"]
+["['PART', 'PRON', 'case']", "['的', '他', 'case']"]
+["['NOUN', 'VERB', 'nsubj']", "['头上', '裹', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['裹', '说', 'ccomp']"]
+["['AUX', 'VERB', 'aux']", "['着', '裹', 'aux']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '块', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['块', '衍带', 'clf']"]
+["['VERB', 'ADJ', 'advcl']", "['血淋', '淋', 'advcl']"]
+["['ADJ', 'NOUN', 'acl:relcl']", "['淋', '衍带', 'acl:relcl']"]
+["['PART', 'ADJ', 'mark:rel']", "['的', '淋', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['敷', '衍带', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['衍带', '裹', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '说', 'punct']"]
+----------------------------------------------------------------------
+警察封锁了爆炸现场的入口，保安阻止了居民回家。
+
+(ROOT (IP (IP (NP (NN 警察)) (VP (VV 封锁) (AS 了) (NP (DNP (NP (NN 爆炸) (NN 现场)) (DEC 的)) (NP (NN 入口))))) (, ，) (IP (NP (NN 保安)) (VP (VV 阻止) (AS 了) (NP (NN 居民)) (IP (VP (VV 回家))))) (. 。)))
+layer 2:
+{'IP': {'IP': {}, ',': {}, 'IP': {}, '.': {}}}
+layer 3:
+{'IP': {'IP': {'NP': {}, 'VP': {}}, ',': {}, 'IP': {'NP': {}, 'VP': {}}, '.': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 {'IP': {'NP': {}, 'VP': {}}}
 Dependency Features:
-['VERB', 'VERB', 'advcl']	['相反', '选择', 'advcl']
-['PUNCT', 'VERB', 'punct']	['，', '相反', 'punct']
-['ADP', 'NOUN', 'case']	['在', '作品', 'case']
-['NUM', 'NOUN', 'nummod']	['13', '本', 'nummod']
-['NOUN', 'NOUN', 'clf']	['本', '作品', 'clf']
-['NOUN', 'NOUN', 'nmod']	['入围', '作品', 'nmod']
-['NOUN', 'VERB', 'obl']	['作品', '选择', 'obl']
-['ADP', 'NOUN', 'case']	['中', '作品', 'case']
-['PUNCT', 'NOUN', 'punct']	['，', '作品', 'punct']
-['VERB', 'PART', 'acl:relcl']	['由', '会', 'acl:relcl']
-['NOUN', 'PART', 'compound']	['哲学', '家', 'compound']
-['PART', 'VERB', 'nsubj']	['家', '领导', 'nsubj']
-['X', 'PART', 'appos']	['AC', '家', 'appos']
-['X', 'X', 'flat:foreign']	['Grayling', 'AC', 'flat:foreign']
-['VERB', 'VERB', 'ccomp']	['领导', '由', 'ccomp']
-['PART', 'VERB', 'mark:rel']	['的', '由', 'mark:rel']
-['NOUN', 'PART', 'compound']	['评委', '会', 'compound']
-['PART', 'VERB', 'nsubj']	['会', '选择', 'nsubj']
-['NOUN', 'VERB', 'nmod:tmod']	['最终', '选择', 'nmod:tmod']
-['VERB', 'ROOT', 'root']	['选择', 'NONE', 'root']
-['AUX', 'VERB', 'aux']	['了', '选择', 'aux']
-['PROPN', 'NOUN', 'nmod']	['费里斯', '小说', 'nmod']
-['PART', 'PROPN', 'case']	['的', '费里斯', 'case']
-['NUM', 'NOUN', 'nummod']	['第三', '部', 'nummod']
-['NOUN', 'NOUN', 'clf']	['部', '小说', 'clf']
-['NOUN', 'VERB', 'obj']	['小说', '选择', 'obj']
-['PUNCT', 'VERB', 'punct']	['《', '站', 'punct']
-['ADP', 'NOUN', 'case']	['在', '时间', 'case']
-['ADJ', 'NOUN', 'amod']	['适当', '时间', 'amod']
-['PART', 'ADJ', 'mark:rel']	['的', '适当', 'mark:rel']
-['NOUN', 'VERB', 'obl']	['时间', '站', 'obl']
-['ADV', 'VERB', 'advmod']	['再次', '站', 'advmod']
-['VERB', 'VERB', 'ccomp']	['站', '选择', 'ccomp']
-['VERB', 'VERB', 'mark']	['起来', '站', 'mark']
-['PUNCT', 'VERB', 'punct']	['》', '站', 'punct']
-['PUNCT', 'VERB', 'punct']	['，', '讲述', 'punct']
-['DET', 'NOUN', 'det']	['这', '本书', 'det']
-['NOUN', 'VERB', 'nsubj']	['本书', '讲述', 'nsubj']
-['AUX', 'VERB', 'aux']	['被', '讲述', 'aux']
-['PROPN', 'X', 'nsubj']	['史蒂芬', 'Catch-22', 'nsubj']
-['PUNCT', 'PROPN', 'punct']	['·', '金称', 'punct']
-['PROPN', 'PROPN', 'flat:name']	['金称', '史蒂芬', 'flat:name']
-['AUX', 'X', 'cop']	['为', 'Catch-22', 'cop']
-['PUNCT', 'X', 'punct']	['“', 'Catch-22', 'punct']
-['NOUN', 'X', 'nmod']	['牙科', 'Catch-22', 'nmod']
-['PART', 'NOUN', 'mark:rel']	['的', '牙科', 'mark:rel']
-['X', 'VERB', 'ccomp']	['Catch-22', '讲述', 'ccomp']
-['PUNCT', 'X', 'punct']	['”', 'Catch-22', 'punct']
-['PUNCT', 'X', 'punct']	['，', 'Catch-22', 'punct']
-['NOUN', 'VERB', 'nsubj']	['故事', '讲述', 'nsubj']
-['VERB', 'VERB', 'parataxis']	['讲述', '选择', 'parataxis']
-['NUM', 'NOUN', 'nummod']	['一', '名', 'nummod']
-['NOUN', 'NOUN', 'clf']	['名', '牙医', 'clf']
-['NOUN', 'VERB', 'nsubj']	['牙医', '发现', 'nsubj']
-['VERB', 'VERB', 'ccomp']	['发现', '讲述', 'ccomp']
-['PRON', 'VERB', 'nsubj']	['自己', '伪造', 'nsubj']
-['VERB', 'VERB', 'advcl']	['在', '伪造', 'advcl']
-['NOUN', 'VERB', 'obj']	['网上', '在', 'obj']
-['AUX', 'VERB', 'aux:pass']	['被', '伪造', 'aux:pass']
-['NOUN', 'VERB', 'nsubj']	['人', '伪造', 'nsubj']
-['VERB', 'VERB', 'ccomp']	['伪造', '讲述', 'ccomp']
-['AUX', 'VERB', 'aux']	['了', '伪造', 'aux']
-['NUM', 'NOUN', 'nummod']	['一', '个', 'nummod']
-['NOUN', 'NOUN', 'clf']	['个', '人', 'clf']
-['NOUN', 'VERB', 'obj']	['人', '伪造', 'obj']
-['PUNCT', 'NOUN', 'punct']	['，', '故事', 'punct']
-['ADV', 'VERB', 'mark']	['而', '截然不同', 'mark']
-['PROPN', 'PRON', 'nmod']	['福尔顿', '我', 'nmod']
-['PART', 'PROPN', 'case']	['的', '福尔顿', 'case']
-['PUNCT', 'VERB', 'punct']	['《', '截然不同', 'punct']
-['PRON', 'VERB', 'nsubj']	['我', '截然不同', 'nsubj']
-['ADV', 'VERB', 'mark']	['都', '截然不同', 'mark']
-['ADV', 'VERB', 'advmod']	['完全', '截然不同', 'advmod']
-['ADP', 'NOUN', 'case']	['与', '他人', 'case']
-['NOUN', 'VERB', 'obl']	['他人', '截然不同', 'obl']
-['VERB', 'NOUN', 'acl']	['截然不同', '故事', 'acl']
-['PUNCT', 'VERB', 'punct']	['》', '截然不同', 'punct']
-['AUX', 'NOUN', 'cop']	['是', '故事', 'cop']
-['NUM', 'NOUN', 'nummod']	['一', '部', 'nummod']
-['NOUN', 'NOUN', 'clf']	['部', '故事', 'clf']
-['ADP', 'NOUN', 'case']	['关于', '小说', 'case']
-['NOUN', 'NOUN', 'nmod']	['现代', '小说', 'nmod']
-['NOUN', 'NUM', 'nmod']	['小说', '一', 'nmod']
-['ADP', 'NOUN', 'case']	['中', '小说', 'case']
-['ADV', 'ADJ', 'advmod']	['最', '寻常', 'advmod']
-['ADV', 'ADJ', 'advmod']	['不', '寻常', 'advmod']
-['ADJ', 'NOUN', 'amod']	['寻常', '家庭', 'amod']
-['NOUN', 'NUM', 'nmod']	['家庭', '一', 'nmod']
-['PART', 'ADJ', 'mark:rel']	['之', '寻常', 'mark:rel']
-['NUM', 'NOUN', 'nmod']	['一', '故事', 'nmod']
-['PART', 'NUM', 'case']	['的', '一', 'case']
-['NOUN', 'VERB', 'parataxis']	['故事', '选择', 'parataxis']
-['PUNCT', 'VERB', 'punct']	['，', '赢得', 'punct']
-['DET', 'NOUN', 'det']	['这', '本书', 'det']
-['NOUN', 'VERB', 'nsubj']	['本书', '赢得', 'nsubj']
-['ADV', 'VERB', 'advmod']	['已', '赢得', 'advmod']
-['VERB', 'VERB', 'parataxis']	['赢得', '选择', 'parataxis']
-['NUM', 'NOUN', 'nummod']	['2014', '年 PEN', 'nummod']
-['NOUN', 'PART', 'nmod']	['年 PEN', '奖', 'nmod']
-['PUNCT', 'NOUN', 'punct']	['/', '年 PEN', 'punct']
-['X', 'PART', 'compound']	['Faulkner', '奖', 'compound']
-['PART', 'VERB', 'obj']	['奖', '赢得', 'obj']
-['PUNCT', 'VERB', 'punct']	['。', '选择', 'punct']
+["['NOUN', 'VERB', 'nsubj']", "['警察', '封锁', 'nsubj']"]
+["['VERB', 'ROOT', 'root']", "['封锁', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['了', '封锁', 'aux']"]
+["['NOUN', 'NOUN', 'nmod']", "['爆炸', '现场', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['现场', '入口', 'nmod']"]
+["['PART', 'NOUN', 'case']", "['的', '现场', 'case']"]
+["['NOUN', 'VERB', 'obj']", "['入口', '封锁', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '阻止', 'punct']"]
+["['NOUN', 'VERB', 'nsubj']", "['保安', '阻止', 'nsubj']"]
+["['VERB', 'VERB', 'parataxis']", "['阻止', '封锁', 'parataxis']"]
+["['AUX', 'VERB', 'aux']", "['了', '阻止', 'aux']"]
+["['NOUN', 'VERB', 'nsubj']", "['居民', '回家', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['回家', '阻止', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '封锁', 'punct']"]
+----------------------------------------------------------------------
+据北京日报报道，有400多名天津市民在第五医院排队捐血。
+
+(ROOT (IP (PP (IN 据) (IP (NP (NNP 北京) (NN 日报)) (VP (VV 报道)))) (, ，) (VP (VV 有) (IP (NP (QP (CD 400多) (CLP (NNB 名))) (NP (NNP 天津)) (NP (NN 市民))) (VP (PP (VV 在) (NP (QP (CD 第五)) (NP (NN 医院)))) (VP (VCD (VV 排队) (VV 捐血)))))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'VP': {'VV': {}, 'IP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'VP': {'VV': {}, 'IP': {}}}
+Dependency Features:
+["['ADP', 'VERB', 'case']", "['据', '报道', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['北京', '日报', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['日报', '报道', 'nsubj']"]
+["['VERB', 'VERB', 'ccomp']", "['报道', '有', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '报道', 'punct']"]
+["['VERB', 'ROOT', 'root']", "['有', 'NONE', 'root']"]
+["['NUM', 'NOUN', 'nummod']", "['400多', '名', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['名', '市民', 'clf']"]
+["['PROPN', 'NOUN', 'nmod']", "['天津', '市民', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['市民', '捐血', 'nsubj']"]
+["['VERB', 'VERB', 'advcl']", "['在', '捐血', 'advcl']"]
+["['NUM', 'NOUN', 'nummod']", "['第五', '医院', 'nummod']"]
+["['NOUN', 'VERB', 'obj']", "['医院', '在', 'obj']"]
+["['VERB', 'VERB', 'advcl']", "['排队', '捐血', 'advcl']"]
+["['VERB', 'VERB', 'ccomp']", "['捐血', '有', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '有', 'punct']"]
+----------------------------------------------------------------------
+一位出租车司机在后视镜上贴了一封信，表示愿意为受害者家属提供送行服务。
+
+(ROOT (IP (NP (QP (CD 一) (CLP (NNB 位))) (NP (VV 出租) (SFN 车) (NN 司机))) (VP (VP (PP (IN 在) (NP (VV 后视) (SFN 镜))) (VP (VV 上贴) (AS 了) (NP (QP (CD 一) (CLP (NNB 封))) (NP (NN 信))))) (, ，) (VP (VV 表示) (IP (VP (MD 愿意) (IP (VP (PP (IN 为) (NP (VV 受害) (SFN 者) (NN 家属))) (VP (VV 提供) (NP (NN 送行) (NN 服务))))))))) (. 。)))
+layer 2:
+{'IP': {'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'NP': {'QP': {}, 'NP': {}}, 'VP': {'VP': {}, ',': {}, 'VP': {}}, '.': {}}}
+{'NP': {'QP': {}, 'NP': {}}}
+{'VP': {'VP': {}, ',': {}, 'VP': {}}}
+Dependency Features:
+["['NUM', 'NOUN', 'nummod']", "['一', '位', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['位', '司机', 'clf']"]
+["['VERB', 'PART', 'compound']", "['出租', '车', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['车', '司机', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['司机', '表示', 'nsubj']"]
+["['ADP', 'PART', 'case']", "['在', '镜', 'case']"]
+["['VERB', 'PART', 'compound']", "['后视', '镜', 'compound']"]
+["['PART', 'VERB', 'obl']", "['镜', '上贴', 'obl']"]
+["['VERB', 'VERB', 'advcl']", "['上贴', '表示', 'advcl']"]
+["['AUX', 'VERB', 'aux']", "['了', '上贴', 'aux']"]
+["['NUM', 'NOUN', 'nummod']", "['一', '封', 'nummod']"]
+["['NOUN', 'NOUN', 'clf']", "['封', '信', 'clf']"]
+["['NOUN', 'VERB', 'obj']", "['信', '上贴', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '上贴', 'punct']"]
+["['VERB', 'ROOT', 'root']", "['表示', 'NONE', 'root']"]
+["['AUX', 'VERB', 'aux']", "['愿意', '提供', 'aux']"]
+["['ADP', 'NOUN', 'case']", "['为', '家属', 'case']"]
+["['VERB', 'PART', 'compound']", "['受害', '者', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['者', '家属', 'nmod']"]
+["['NOUN', 'VERB', 'obl']", "['家属', '提供', 'obl']"]
+["['VERB', 'VERB', 'xcomp']", "['提供', '表示', 'xcomp']"]
+["['NOUN', 'NOUN', 'nmod']", "['送行', '服务', 'nmod']"]
+["['NOUN', 'VERB', 'obj']", "['服务', '提供', 'obj']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '表示', 'punct']"]
+----------------------------------------------------------------------
+据中国地震局官方微博称，第一次爆炸的地震级别为 2.3 级。
+
+(ROOT (IP (PP (IN 据) (IP (NP (NP (NNP 中国) (NN 地震) (SFN 局)) (NP (NN 官方) (NN 微博))) (VP (VV 称)))) (, ，) (NP (DNP (NP (QP (CD 第一) (CLP (NNB 次))) (NP (VV 爆炸))) (DEC 的)) (NP (NN 地震) (NN 级别))) (VP (VC 为) (QP (CD 2.3) (CLP (NN 级)))) (. 。)))
+layer 2:
+{'IP': {'PP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'PP': {'IN': {}, 'IP': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'QP': {}}, '.': {}}}
+{'PP': {'IN': {}, 'IP': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'QP': {}}}
+Dependency Features:
+["['ADP', 'VERB', 'case']", "['据', '称', 'case']"]
+["['PROPN', 'NOUN', 'nmod']", "['中国', '微博', 'nmod']"]
+["['NOUN', 'PART', 'compound']", "['地震', '局', 'compound']"]
+["['PART', 'NOUN', 'nmod']", "['局', '微博', 'nmod']"]
+["['NOUN', 'NOUN', 'nmod']", "['官方', '微博', 'nmod']"]
+["['NOUN', 'VERB', 'nsubj']", "['微博', '称', 'nsubj']"]
+["['VERB', 'NOUN', 'ccomp']", "['称', '级', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['，', '称', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['第一', '次', 'nummod']"]
+["['NOUN', 'VERB', 'obl']", "['次', '爆炸', 'obl']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['爆炸', '级别', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '爆炸', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['地震', '级别', 'nmod']"]
+["['NOUN', 'NOUN', 'nsubj']", "['级别', '级', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['为', '级', 'cop']"]
+["['NUM', 'NOUN', 'nummod']", "['2.3', '级', 'nummod']"]
+["['NOUN', 'ROOT', 'root']", "['级', 'NONE', 'root']"]
+["['PUNCT', 'NOUN', 'punct']", "['。', '级', 'punct']"]
+----------------------------------------------------------------------
+据悉，第二次爆炸的地震烈度为 2.9 级。
+
+(ROOT (IP (ADVP (VV 据悉)) (, ，) (NP (DNP (NP (QP (CD 第二) (CLP (NNB 次))) (NP (VV 爆炸))) (DEC 的)) (NP (NN 地震) (NN 烈度))) (VP (VC 为) (QP (CD 2.9) (CLP (NN 级)))) (. 。)))
+layer 2:
+{'IP': {'ADVP': {}, ',': {}, 'NP': {}, 'VP': {}, '.': {}}}
+layer 3:
+{'IP': {'ADVP': {'VV': {}}, ',': {}, 'NP': {'DNP': {}, 'NP': {}}, 'VP': {'VC': {}, 'QP': {}}, '.': {}}}
+{'ADVP': {'VV': {}}}
+{'NP': {'DNP': {}, 'NP': {}}}
+{'VP': {'VC': {}, 'QP': {}}}
+Dependency Features:
+["['VERB', 'ROOT', 'root']", "['据悉', 'NONE', 'root']"]
+["['PUNCT', 'NOUN', 'punct']", "['，', '级', 'punct']"]
+["['NUM', 'NOUN', 'nummod']", "['第二', '次', 'nummod']"]
+["['NOUN', 'VERB', 'obl']", "['次', '爆炸', 'obl']"]
+["['VERB', 'NOUN', 'acl:relcl']", "['爆炸', '烈度', 'acl:relcl']"]
+["['PART', 'VERB', 'mark:rel']", "['的', '爆炸', 'mark:rel']"]
+["['NOUN', 'NOUN', 'nmod']", "['地震', '烈度', 'nmod']"]
+["['NOUN', 'NOUN', 'nsubj']", "['烈度', '级', 'nsubj']"]
+["['AUX', 'NOUN', 'cop']", "['为', '级', 'cop']"]
+["['NUM', 'NOUN', 'nummod']", "['2.9', '级', 'nummod']"]
+["['NOUN', 'VERB', 'ccomp']", "['级', '据悉', 'ccomp']"]
+["['PUNCT', 'VERB', 'punct']", "['。', '据悉', 'punct']"]
 ----------------------------------------------------------------------
